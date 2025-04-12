@@ -1,0 +1,35 @@
+name: Sync GitHub to Bitbucket (18.0 Branch)
+
+on:
+  schedule:
+    - cron: '0 4 * * *'  # Daily at 4:00 AM UTC
+  workflow_dispatch:  # Manual trigger option
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest  # Using the latest Ubuntu runner
+
+    steps:
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Avoid using default GitHub credentials
+
+      - name: Fetch full history and checkout 18.0 branch
+        run: |
+          git fetch --unshallow  # Fetch the full history of the repository
+          git checkout 18.0  # Checkout the 18.0 branch
+
+      - name: Set up Git config
+        run: |
+          git config user.name "github-actions[bot]"  # GitHub Actions bot name
+          git config user.email "github-actions[bot]@users.noreply.github.com"  # GitHub Actions bot email
+
+      - name: Add Bitbucket remote and push
+        env:
+          BITBUCKET_USERNAME: ${{ secrets.BITBUCKET_USERNAME }}  # Bitbucket username stored in secrets
+          BITBUCKET_APP_PASSWORD: ${{ secrets.BITBUCKET_APP_PASSWORD }}  # Bitbucket App password stored in secrets
+          BITBUCKET_REPO_URL: ${{ secrets.BITBUCKET_REPO_URL }}  # Bitbucket repository URL
+        run: |
+          git remote add bitbucket "https://${BITBUCKET_USERNAME}:${BITBUCKET_APP_PASSWORD}@${BITBUCKET_REPO_URL}"  # Add Bitbucket remote using App password for authentication
+          git push --force bitbucket 18.0  # Force-push to Bitbucket's 18.0 branch
