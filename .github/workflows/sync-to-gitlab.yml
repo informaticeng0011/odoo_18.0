@@ -30,5 +30,5 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
       run: |
-        git remote add gitlab "${GITLAB_REPO}"
+        git remote add origin https://oauth2:${GITLAB_TOKEN}@gitlab.com/IT-Dev-1010/odoo_18.0_github.git
         git push --force gitlab 18.0
