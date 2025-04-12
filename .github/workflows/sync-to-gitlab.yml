@@ -3,32 +3,32 @@ name: Sync GitHub to GitLab (18.0 Branch)
 on:
   schedule:
     - cron: '0 4 * * *'  # Daily at 4:00 AM UTC
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger option
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Using the latest Ubuntu runner
 
     steps:
-    - name: Checkout GitHub repository
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: false
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Avoid using default GitHub credentials
 
-    - name: Fetch and checkout 18.0 branch
-      run: |
-        git fetch origin 18.0
-        git checkout 18.0
+      - name: Fetch and checkout 18.0 branch
+        run: |
+          git fetch origin 18.0  # Fetch the latest updates from the origin
+          git checkout 18.0  # Checkout the 18.0 branch
 
-    - name: Set up Git config
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Set up Git config
+        run: |
+          git config user.name "github-actions[bot]"  # GitHub Actions bot name
+          git config user.email "github-actions[bot]@users.noreply.github.com"  # GitHub Actions bot email
 
-    - name: Add GitLab remote and push
-      env:
-        GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
-        GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
-      run: |
-        git remote add origin https://oauth2:${GITLAB_TOKEN}@gitlab.com/IT-Dev-1010/odoo_18.0_github.git
-        git push --force gitlab 18.0
+      - name: Add GitLab remote and push
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}  # The GitLab OAuth token stored in secrets
+          GITLAB_REPO_URL: ${{ secrets.GITLAB_REPO }}  # GitLab repository URL stored in secrets
+        run: |
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO_URL}"  # Add GitLab remote using OAuth token for authentication
+          git push --force gitlab 18.0  # Force-push to GitLab's 18.0 branch
