@@ -15,9 +15,9 @@ jobs:
         with:
           persist-credentials: false  # Avoid using default GitHub credentials
 
-      - name: Fetch and checkout 18.0 branch
+      - name: Fetch full history and checkout 18.0 branch
         run: |
-          git fetch origin 18.0  # Fetch the latest updates from the origin
+          git fetch --unshallow  # Fetch the full history of the repository
           git checkout 18.0  # Checkout the 18.0 branch
 
       - name: Set up Git config
@@ -28,7 +28,7 @@ jobs:
       - name: Add GitLab remote and push
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}  # The GitLab OAuth token stored in secrets
-          GITLAB_REPO_URL: ${{ secrets.GITLAB_REPO }}  # GitLab repository URL stored in secrets
+          GITLAB_REPO_URL: "gitlab.com/IT-Dev-1010/odoo_18.0_github.git"  # GitLab repository URL
         run: |
           git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@${GITLAB_REPO_URL}"  # Add GitLab remote using OAuth token for authentication
           git push --force gitlab 18.0  # Force-push to GitLab's 18.0 branch
