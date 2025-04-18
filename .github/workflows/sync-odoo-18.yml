@@ -32,7 +32,7 @@ jobs:
 
     - name: Merge upstream/18.0 into your 18.0
       run: |
-        git merge upstream/18.0 --allow-unrelated-histories || true
+        git merge upstream/18.0 || true
 
     - name: Push to your fork (force update)
       env:
