@@ -33,7 +33,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form = Form(cls.env['product.product'])
         product_form.name = 'Stick'
         product_form.uom_id = cls.uom_unit
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
         product_form.route_ids.clear()
         product_form.route_ids.add(cls.warehouse.manufacture_pull_id.route_id)
         product_form.route_ids.add(cls.warehouse.mto_pull_id.route_id)
@@ -43,12 +46,18 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form = Form(cls.env['product.product'])
         product_form.name = 'Raw Stick'
         product_form.uom_id = cls.uom_unit
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
         cls.product_raw = product_form.save()
 
         # Create bom for manufactured product
         bom_product_form = Form(cls.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = cls.product_manu
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = cls.product_manu.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'normal'
@@ -121,7 +130,10 @@ class TestMultistepManufacturing(TestMrpCommon):
 
         # New BoM for raw material product, it will generate another Production order i.e. child Production order
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.product_raw
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.product_raw.product_tmpl_id
         bom_product_form.product_qty = 1.0
         with bom_product_form.bom_line_ids.new() as bom_line:
@@ -158,3 +170,35 @@ class TestMultistepManufacturing(TestMrpCommon):
 
         self.assertEqual(self.sale_order.action_view_mrp_production()['res_id'], mo.id)
         self.assertEqual(mo.action_view_sale_orders()['res_id'], self.sale_order.id)
+<<<<<<< HEAD
+=======
+
+    def test_sales_order_with_mto_manufacturing(self):
+        self.env.ref('stock.route_warehouse0_mto').active = True
+        warehouse = self.env.ref('stock.warehouse0')
+        warehouse.manufacture_steps = 'pbm_sam'
+        prod1 = self.env['product.product'].create({
+            'name': 'elct1',
+            'type': 'consu',
+            'route_ids': [(6, 0, [
+                warehouse.manufacture_pull_id.route_id.id,
+                warehouse.mto_pull_id.route_id.id
+            ])],
+        })
+        prod2 = self.env['product.product'].create({
+            'name': 'elct2',
+            'type': 'consu',
+            'route_ids': [(6, 0, [
+                warehouse.manufacture_pull_id.route_id.id,
+                warehouse.mto_pull_id.route_id.id
+            ])],
+        })
+        partner = self.env['res.partner'].create({'name': 'Steve Buscemi'})
+        so = self.env['sale.order'].create({
+            'partner_id': partner.id,
+            'order_line': [(0, 0, {'product_id': prod1.id, 'product_uom_qty': 1}),
+                           (0, 0, {'product_id': prod2.id, 'product_uom_qty': 1})],
+            'client_order_ref': 'Test Reference'
+        })
+        so.action_confirm()
+>>>>>>> upstream/18.0

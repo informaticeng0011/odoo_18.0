@@ -5,6 +5,10 @@ import { formatDate, formatDateTime, serializeDateTime } from "@web/core/l10n/da
 import { omit } from "@web/core/utils/objects";
 import { parseUTCString, qrCodeSrc, random5Chars, uuidv4, gte, lt } from "@point_of_sale/utils";
 import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
+<<<<<<< HEAD
+=======
+import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
+>>>>>>> upstream/18.0
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 
@@ -213,6 +217,10 @@ export class PosOrder extends Base {
     }
 
     getRoundedRemaining(roundingMethod, remaining) {
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
         let { rounding_method: method, rounding } = roundingMethod;
         if (
             lt(remaining, 0, {

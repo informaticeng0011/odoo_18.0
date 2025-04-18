@@ -41,7 +41,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         })
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.kit
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.kit.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -147,7 +150,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         })
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.subkit1
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.subkit1.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -157,7 +163,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.bom_a = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.subkit2
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.subkit2.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -170,7 +179,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.bom_b = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.kit
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.kit.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -183,7 +195,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.final_bom = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.kit_2
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.kit_2.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -281,7 +296,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         })
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = self.kit
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.kit.product_tmpl_id
         bom_product_form.product_qty = 2.0
         bom_product_form.type = 'phantom'
@@ -383,7 +401,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         })
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = kit_1
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = kit_1.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -396,7 +417,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.bom_a = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = kit_2
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = kit_2.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -487,7 +511,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         })
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = kit_1
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = kit_1.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -497,7 +524,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.bom_a = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = kit_2
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = kit_2.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'
@@ -507,7 +537,10 @@ class TestPosMrp(TestPointOfSaleCommon):
         self.bom_b = bom_product_form.save()
 
         bom_product_form = Form(self.env['mrp.bom'])
+<<<<<<< HEAD
         bom_product_form.product_id = kit_3
+=======
+>>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = kit_3.product_tmpl_id
         bom_product_form.product_qty = 1.0
         bom_product_form.type = 'phantom'

@@ -1171,7 +1171,11 @@ patch(PosOrder.prototype, {
 
             lst.push({
                 product_id: discountProduct,
+<<<<<<< HEAD
                 price_unit: -(entry[1] * discountFactor),
+=======
+                price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
+>>>>>>> upstream/18.0
                 qty: 1,
                 reward_id: reward,
                 is_reward_line: true,

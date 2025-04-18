@@ -242,7 +242,10 @@
 
         .o_dropdown_kanban {
             visibility: hidden;
+<<<<<<< HEAD
             z-index: 1;
+=======
+>>>>>>> upstream/18.0
 
             @include media-breakpoint-down(md) {
                 visibility: visible;

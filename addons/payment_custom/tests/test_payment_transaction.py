@@ -1,4 +1,8 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+<<<<<<< HEAD
+=======
+import unittest
+>>>>>>> upstream/18.0
 
 from odoo import Command, fields
 from odoo.tests import tagged
@@ -8,11 +12,20 @@ from odoo.addons.payment.tests.common import PaymentCommon
 
 @tagged('-at_install', 'post_install')
 class TestPaymentTransaction(PaymentCommon):
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
 
+<<<<<<< HEAD
+=======
+        if 'product.product' not in cls.env:
+            raise unittest.SkipTest("requires product")
+
+>>>>>>> upstream/18.0
         cls.provider = cls._prepare_provider(code='custom')
         cls.product = cls.env['product.product'].create({
             'name': "test product", 'list_price': cls.amount

@@ -6,7 +6,17 @@ import { floatIsZero } from "@web/core/utils/numbers";
 import { renderToElement } from "@web/core/utils/render";
 import { registry } from "@web/core/registry";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
+=======
+import {
+    deduceUrl,
+    lte,
+    random5Chars,
+    uuidv4,
+    computeProductPricelistCache,
+} from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 import { Reactive } from "@web/core/utils/reactive";
 import { HWPrinter } from "@point_of_sale/app/printer/hw_printer";
 import { ConnectionLostError } from "@web/core/network/rpc";
@@ -24,7 +34,10 @@ import {
     ask,
     makeActionAwaitable,
 } from "@point_of_sale/app/store/make_awaitable_dialog";
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 import { PartnerList } from "../screens/partner_list/partner_list";
 import { ScaleScreen } from "../screens/scale_screen/scale_screen";
 import { computeComboItems } from "../models/utils/compute_combo_items";
@@ -472,10 +485,15 @@ export class PosStore extends Reactive {
     async _onBeforeDeleteOrder(order) {
         return true;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
     computeProductPricelistCache(data) {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
         // This function is called via the addEventListener callback initiated in the
         // processServerData function when new products or pricelists are loaded into the PoS.
         // It caches the heavy pricelist calculation when there are many products and pricelists.
@@ -568,6 +586,9 @@ export class PosStore extends Reactive {
         if (data && data.length > 0 && data[0].model.modelName === "product.product") {
             this._loadMissingPricelistItems(products);
         }
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
     }
 
     async _loadMissingPricelistItems(products) {
@@ -715,7 +736,10 @@ export class PosStore extends Reactive {
         if (!order) {
             order = this.add_new_order();
         }
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
         return await this.addLineToOrder(vals, order, opts, configure);
     }
 

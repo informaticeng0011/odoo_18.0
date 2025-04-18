@@ -1,5 +1,8 @@
 import { browser } from "@web/core/browser/browser";
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 import { _t } from "@web/core/l10n/translation";
 import { rpc } from "@web/core/network/rpc";
 import { registry } from "@web/core/registry";
@@ -16,6 +19,7 @@ export class OutdatedPageWatcherService {
      */
     setup(env, { bus_service, multi_tab, notification }) {
         this.notification = notification;
+<<<<<<< HEAD
         const vacuumInfo = multi_tab.getSharedValue("bus.autovacuum_info");
         this.lastAutovacuumDt = vacuumInfo ? deserializeDateTime(vacuumInfo.lastcall) : null;
         this.nextAutovacuumDt = vacuumInfo ? deserializeDateTime(vacuumInfo.nextcall) : null;
@@ -48,6 +52,32 @@ export class OutdatedPageWatcherService {
             this.lastAutovacuumDt = deserializeDateTime(infos.lastcall);
             this.nextAutovacuumDt = deserializeDateTime(infos.nextcall);
             if (this.lastDisconnectDt <= this.lastAutovacuumDt) {
+=======
+        this.lastNotificationId = null;
+        /** @deprecated */
+        this.lastDisconnectDt = null;
+        this.closeNotificationFn;
+        bus_service.addEventListener("disconnect", () => {
+            this.lastNotificationId = bus_service.lastNotificationId;
+            this.lastDisconnectDt = DateTime.now();
+        });
+        bus_service.addEventListener("reconnect", async () => {
+            if (!multi_tab.isOnMainTab()) {
+                return;
+            }
+            const hasMissedNotifications = await rpc(
+                "/bus/has_missed_notifications",
+                { last_notification_id: this.lastNotificationId },
+                { silent: true }
+            );
+            if (hasMissedNotifications) {
+                this.showOutdatedPageNotification();
+                multi_tab.setSharedValue("bus.has_missed_notifications", Date.now());
+            }
+        });
+        multi_tab.bus.addEventListener("shared_value_updated", ({ detail: { key } }) => {
+            if (key === "bus.has_missed_notifications") {
+>>>>>>> upstream/18.0
                 this.showOutdatedPageNotification();
             }
         });

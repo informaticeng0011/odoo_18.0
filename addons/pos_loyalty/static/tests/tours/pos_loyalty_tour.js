@@ -514,6 +514,23 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
         ].flat(),
 });
 
+<<<<<<< HEAD
+=======
+registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGlobalDiscount", {
+    steps: () =>
+        [
+            Chrome.startPoS(),
+            Dialog.confirm("Open Register"),
+            ProductScreen.addOrderline("Product A", "1"),
+            PosLoyalty.hasRewardLine("$ 40 on Product A", "-40.00"),
+            PosLoyalty.clickDiscountButton(),
+            Dialog.confirm(),
+            PosLoyalty.hasRewardLine("$ 40 on Product A", "-40.00"),
+            PosLoyalty.orderTotalIs("20.00"),
+        ].flat(),
+});
+
+>>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("PosRewardProductScan", {
     steps: () =>
         [

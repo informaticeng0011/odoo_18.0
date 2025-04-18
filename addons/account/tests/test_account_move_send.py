@@ -680,6 +680,12 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         self.partner_a.email = None
         self.assertTrue(bool(self.partner_b.email))
         wizard = self.create_send_and_print(invoice1 + invoice2)
+<<<<<<< HEAD
+=======
+        self.assertEqual(wizard.summary_data, {
+            'email': {'count': 1, 'label': 'by Email'},  # Only one will be actually sent by email
+        })
+>>>>>>> upstream/18.0
         self.assertTrue('account_missing_email' in wizard.alerts)
         self.assertEqual(wizard.alerts['account_missing_email']['level'], 'warning')
         wizard.action_send_and_print()
@@ -910,7 +916,13 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         invoice = self.init_invoice("out_invoice", amounts=[1000], post=True)
 
         custom_subject = "turlututu"
+<<<<<<< HEAD
         wizard = self.create_send_and_print(invoice, mail_template_id=None, mail_subject=custom_subject)
+=======
+        wizard = self.create_send_and_print(invoice)
+        wizard.mail_template_id = None
+        wizard.mail_subject = custom_subject
+>>>>>>> upstream/18.0
 
         wizard.action_send_and_print(allow_fallback_pdf=True)
         message = self._get_mail_message(invoice)
@@ -1077,6 +1089,10 @@ class TestAccountMoveSend(TestAccountMoveSendCommon):
         invoice = self.init_invoice("out_invoice", amounts=[1000], post=True)
         self.assertFalse(invoice.invoice_pdf_report_id)
         wizard = self.create_send_and_print(invoice, sending_methods=[])
+<<<<<<< HEAD
+=======
+        self.assertFalse(wizard.sending_methods)
+>>>>>>> upstream/18.0
         wizard.action_send_and_print()
         self.assertTrue(invoice.is_move_sent)
         self.assertTrue(invoice.invoice_pdf_report_id)

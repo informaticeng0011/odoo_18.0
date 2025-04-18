@@ -455,7 +455,14 @@ export class TourInteractive {
                 this.setActionListeners();
             } else if (!tempAnchors.length && this.anchorEls.length) {
                 this.pointer.hide();
+<<<<<<< HEAD
                 if (!hoot.queryFirst(".o_home_menu", { visible: true })) {
+=======
+                if (
+                    !hoot.queryFirst(".o_home_menu", { visible: true }) &&
+                    !hoot.queryFirst(".dropdown-item.o_loading", { visible: true })
+                ) {
+>>>>>>> upstream/18.0
                     this.backward();
                 }
                 return;

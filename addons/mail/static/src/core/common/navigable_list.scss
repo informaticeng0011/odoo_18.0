@@ -6,6 +6,13 @@
     background-color: var(--mail-NavigableList-activeBgColor, mix($o-view-background-color, $o-action, 90%));
 }
 
+<<<<<<< HEAD
+=======
+.o-mail-NavigableList-item:hover {
+    background-color: var(--mail-NavigableList-hoverBgColor, mix($o-view-background-color, $o-action, 95%));
+}
+
+>>>>>>> upstream/18.0
 .o-mail-NavigableList-floatingLoading {
     right: $border-width; // as to not overlap border
 }

@@ -24,6 +24,12 @@
         'web.assets_backend': [
             'marketing_card/static/src/scss/*',
         ],
+<<<<<<< HEAD
+=======
+        'web_editor.backend_assets_wysiwyg': [
+            'marketing_card/static/src/scss/mass_mailing.scss'
+        ],
+>>>>>>> upstream/18.0
     },
     'application': True,
     'installable': True,

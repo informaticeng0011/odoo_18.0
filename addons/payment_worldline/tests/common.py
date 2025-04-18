@@ -1,10 +1,17 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.payment.tests.common import PaymentCommon
 
 
 class WorldlineCommon(AccountTestInvoicingCommon, PaymentCommon):
+=======
+from odoo.addons.payment.tests.common import PaymentCommon
+
+
+class WorldlineCommon(PaymentCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):

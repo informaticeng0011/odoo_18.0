@@ -104,6 +104,11 @@
     &, .o_web_client.o_touch_device & {
         button, button:hover, button:disabled {
             all: unset;
+<<<<<<< HEAD
+=======
+            display: inline-block;
+            width: 100%;
+>>>>>>> upstream/18.0
         }
     }
 }

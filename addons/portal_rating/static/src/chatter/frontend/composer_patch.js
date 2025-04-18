@@ -26,6 +26,13 @@ patch(Composer.prototype, {
     },
 
     async savePublisherComment() {
+<<<<<<< HEAD
+=======
+        if (!this.state.active) {
+            return;
+        }
+        this.state.active = false;
+>>>>>>> upstream/18.0
         const data = await rpc("/website/rating/comment", {
             rating_id: this.message.rating.id,
             publisher_comment: this.props.composer.text.trim(),

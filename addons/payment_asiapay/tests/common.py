@@ -1,4 +1,5 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+<<<<<<< HEAD
 
 from odoo import Command
 
@@ -7,6 +8,14 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 
 
 class AsiaPayCommon(AccountTestInvoicingCommon, PaymentCommon):
+=======
+from odoo import Command
+
+from odoo.addons.payment.tests.common import PaymentCommon
+
+
+class AsiaPayCommon(PaymentCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):

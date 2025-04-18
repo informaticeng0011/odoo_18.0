@@ -4655,6 +4655,14 @@ msgid "Commercial Entity"
 msgstr "Entité commerciale"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
+msgid "Commercial Partner Country"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
 msgstr "Standard de référence"
@@ -7814,7 +7822,11 @@ msgstr "Du dernier exercice fiscal"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__date_scope__previous_tax_period
 msgid "From previous tax period"
+<<<<<<< HEAD
 msgstr "De la déclaration TVA précédente "
+=======
+msgstr "De la déclaration fiscale précédente"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__date_scope__from_fiscalyear

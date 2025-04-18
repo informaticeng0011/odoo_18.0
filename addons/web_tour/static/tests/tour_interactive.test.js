@@ -1,7 +1,11 @@
 /** @odoo-module **/
 
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
+<<<<<<< HEAD
 import { click, hover, leave, queryFirst, waitFor, press } from "@odoo/hoot-dom";
+=======
+import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { advanceTime, animationFrame, disableAnimations, runAllTimers } from "@odoo/hoot-mock";
 import { Component, useState, xml } from "@odoo/owl";
 import {
@@ -18,7 +22,11 @@ import { browser } from "@web/core/browser/browser";
 import { Dialog } from "@web/core/dialog/dialog";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";
+<<<<<<< HEAD
 import { WebClient } from "../../../web/static/src/webclient/webclient";
+=======
+import { WebClient } from "@web/webclient/webclient";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 
@@ -1081,3 +1089,64 @@ test("validating click on autocomplete item by pressing Enter", async () => {
     await contains(".o_form_button_save").click();
     expect(".o_tour_pointer").toHaveCount(0);
 });
+<<<<<<< HEAD
+=======
+
+test("Tour don't backward when dropdown loading", async () => {
+    Product._records = [{ name: "Harry test 1" }, { name: "Harry test 2" }];
+    registry.category("web_tour.tours").add("rainbow_tour", {
+        steps: () => [
+            {
+                trigger: ".o-autocomplete--input",
+                run: "click",
+            },
+            {
+                trigger: ".o-autocomplete--dropdown-item:eq(1)",
+                run: "click",
+            },
+            {
+                trigger: ".o_form_button_save",
+                run: "click",
+            },
+        ],
+    });
+
+    const def = new Deferred();
+    let makeItLag = false;
+    await mountWithCleanup(WebClient);
+
+    await getService("action").doAction({
+        res_model: "partner",
+        type: "ir.actions.act_window",
+        views: [[false, "form"]],
+    });
+
+    onRpc("product", "name_search", async () => {
+        if (makeItLag) {
+            await def;
+        }
+    });
+
+    getService("tour_service").startTour("rainbow_tour", { mode: "manual" });
+    await animationFrame();
+
+    expect(".o_tour_pointer").toHaveCount(1);
+    await contains(".o-autocomplete--input").click();
+    await waitFor(".o-autocomplete--dropdown-item:eq(1)");
+    makeItLag = true;
+    await edit("Harry");
+    await advanceTime(400);
+    await waitFor(".o_loading");
+    await animationFrame();
+    expect(".o_tour_pointer").toHaveCount(0);
+    def.resolve();
+
+    await waitFor(".o-autocomplete--dropdown-item:eq(1)");
+    await animationFrame();
+    expect(".o_tour_pointer").toHaveCount(1);
+    await contains(".o-autocomplete--dropdown-item:eq(1)").click();
+    expect(".o_tour_pointer").toHaveCount(1);
+    await contains(".o_form_button_save").click();
+    expect(".o_tour_pointer").toHaveCount(0);
+});
+>>>>>>> upstream/18.0

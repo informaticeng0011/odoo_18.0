@@ -25,12 +25,20 @@ msgstr ""
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "<i class=\"fa fa-check me-2\" role=\"img\"/>Registered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-check me-2\" role=\"img\"/>ثبت نام شده"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "<small>Add this event to your calendar</small>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>این رویداد را به تقویم خود اضافه کنید </small>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.registration_attendee_details
@@ -38,6 +46,11 @@ msgid ""
 "<span>Sign In</span>\n"
 "                <span class=\"fa fa-sign-in\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>ورود</span>\n"
+"                <span class=\"fa fa-sign-in\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
@@ -46,6 +59,11 @@ msgid ""
 "A pricelist item with a positive min. quantity cannot be applied to this "
 "event tickets product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"آیتم لیست قیمت با حداقل مثبت. مقدار را نمی توان برای این محصول بلیط رویداد "
+"اعمال کرد."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
@@ -54,6 +72,10 @@ msgid ""
 "A pricelist item with a positive min. quantity will not be applied to the "
 "event tickets products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"آیتم لیست قیمت با حداقل مثبت. مقدار به محصولات بلیط رویداد اعمال نخواهد شد."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
@@ -73,7 +95,11 @@ msgstr "تایید ثبت نام"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "Don't miss out!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "از دست نده!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_event_sale_report
@@ -83,7 +109,11 @@ msgstr "رویداد گزارش فروش‌ها"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "Event Subtitle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زیرعنوان رویداد"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model:ir.model.fields,field_description:website_event_sale.field_product_product__event_ticket_ids
@@ -108,7 +138,11 @@ msgstr "از"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.registration_attendee_details
 msgid "Go to Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "به پرداخت بروید"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
@@ -139,7 +173,11 @@ msgstr "گونه محصول"
 #: model:ir.model.fields,field_description:website_event_sale.field_event_sale_report__is_published
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_sale_report_view_search
 msgid "Published Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رویدادهای منتشر شده"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_sale_order
@@ -164,18 +202,31 @@ msgid ""
 "Sorry, only %(remaining_seats)d seats are still available for the %(ticket)s"
 " ticket for the %(event)s event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"متاسفیم, فقط%(remaining_seats)d صندلی برای %(ticket)s بلیط رویداد %(event)s "
+"موجود است."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
 #: code:addons/website_event_sale/models/sale_order.py:0
 msgid "The provided ticket doesn't exist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بلیط ارائه شده وجود ندارد"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
 #: code:addons/website_event_sale/models/sale_order.py:0
 msgid "The ticket doesn't match with this product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بلیط با این محصول مطابقت ندارد."
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
@@ -186,23 +237,39 @@ msgstr "هشدار"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "We are looking forward to meeting you at the following"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ما مشتاقانه منتظر دیدار شما در زیر هستیم"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #. odoo-python
 #: code:addons/website_event_sale/models/sale_order.py:0
 msgid "You cannot raise manually the event ticket quantity in your cart"
 msgstr ""
+<<<<<<< HEAD
+=======
+"شما نمی توانید به صورت دستی مقدار بلیط رویداد را در سبد خرید خود افزایش دهید"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رویداد"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رویدادها"
+>>>>>>> upstream/18.0
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.modal_ticket_registration

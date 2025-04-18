@@ -170,7 +170,11 @@ export class NavigableList extends Component {
         ev.preventDefault();
     }
 
+<<<<<<< HEAD
     onOptionMouseEnter(index) {
         this.state.activeIndex = index;
     }
+=======
+    onOptionMouseEnter(index) {}
+>>>>>>> upstream/18.0
 }

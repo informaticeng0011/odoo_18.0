@@ -41,12 +41,20 @@ class AccountMoveSend(models.AbstractModel):
     # -------------------------------------------------------------------------
     # SENDING METHODS
     # -------------------------------------------------------------------------
+<<<<<<< HEAD
     def _is_applicable_to_move(self, method, move):
+=======
+    def _is_applicable_to_move(self, method, move, **move_data):
+>>>>>>> upstream/18.0
         # EXTENDS 'account'
         if method == 'snailmail':
             return self.env['snailmail.letter']._is_valid_address(move.partner_id)
         else:
+<<<<<<< HEAD
             return super()._is_applicable_to_move(method, move)
+=======
+            return super()._is_applicable_to_move(method, move, **move_data)
+>>>>>>> upstream/18.0
 
     def _hook_if_success(self, moves_data):
         # EXTENDS 'account'
@@ -55,7 +63,11 @@ class AccountMoveSend(models.AbstractModel):
         to_send = {
             move: move_data
             for move, move_data in moves_data.items()
+<<<<<<< HEAD
             if 'snailmail' in move_data['sending_methods'] and self._is_applicable_to_move('snailmail', move)
+=======
+            if 'snailmail' in move_data['sending_methods'] and self._is_applicable_to_move('snailmail', move, **move_data)
+>>>>>>> upstream/18.0
         }
         if to_send:
             self.env['snailmail.letter'].create([

@@ -7,8 +7,13 @@
 # Martin Trigaux, 2024
 # Ryoko Tsuda <ryoko@quartile.co>, 2024
 # Tiffany Chang, 2024
+<<<<<<< HEAD
 # Junko Augias, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -16,7 +21,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -533,17 +542,29 @@ msgstr "端末でViva Walletを使用するか、電話でタップして支払�
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with a PayTM payment terminal"
+<<<<<<< HEAD
 msgstr "PayTM決済端末での支払を承認"
+=======
+msgstr "PayTM決済端末での支払を受け付ける"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with a Razorpay payment terminal"
+<<<<<<< HEAD
 msgstr "Razorpay決済端末で支払いを受ける"
+=======
+msgstr "Razorpay決済端末で支払いを受け付ける"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Accept payments with a Six payment terminal"
+<<<<<<< HEAD
 msgstr "シックス決済端末での支払いを受け入れる"
+=======
+msgstr "シックス決済端末での支払いを受け付ける"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -2694,30 +2715,50 @@ msgstr "破棄"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__discount
 msgid "Discount (%)"
+<<<<<<< HEAD
 msgstr "値引 (%)"
+=======
+msgstr "割引 (%)"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__notice
 msgid "Discount Notice"
+<<<<<<< HEAD
 msgstr "値引注記"
+=======
+msgstr "割引注記"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/navbar/sale_details_button/sales_detail_report.xml:0
 msgid "Discount:"
+<<<<<<< HEAD
 msgstr "値引:"
+=======
+msgstr "割引:"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__barcode_rule__type__discount
 msgid "Discounted Product"
+<<<<<<< HEAD
 msgstr "値引対象プロダクト"
+=======
+msgstr "割引対象プロダクト"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/models/pos_order.js:0
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 msgid "Discounts"
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -3203,7 +3244,11 @@ msgstr "プロダクトカテゴリのリストを表示する時に並び順を
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_discount
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_discount
 msgid "Global Discounts"
+<<<<<<< HEAD
 msgstr "グローバル値引"
+=======
+msgstr "全体割引"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -8746,7 +8791,11 @@ msgstr "異なる会社に属しているオーダを請求することはでき
 msgid ""
 "You cannot delete a rounding method that is used in a Point of Sale "
 "configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POSの設定で使用されている丸め方法は削除できません。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -8893,7 +8942,11 @@ msgstr "Eメールで"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/generic_components/orderline/orderline.xml:0
 msgid "discount"
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript

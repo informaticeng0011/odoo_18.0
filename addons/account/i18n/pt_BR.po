@@ -4,8 +4,13 @@
 # 
 # Translators:
 # a75f12d3d37ea5bf159c4b3e85eb30e7_0fa6927, 2025
+<<<<<<< HEAD
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Maitê Dietze, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +18,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Maitê Dietze, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4614,6 +4623,14 @@ msgid "Commercial Entity"
 msgstr "Entidade comercial"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
+msgid "Commercial Partner Country"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
 msgstr "Padrão de comunicação"
@@ -11585,17 +11602,29 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment_method__payment_type__outbound
 msgid "Outbound"
+<<<<<<< HEAD
 msgstr "Enviados"
+=======
+msgstr "Efetuados"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__outbound_payment_method_line_ids
 msgid "Outbound Payment Methods"
+<<<<<<< HEAD
 msgstr "Formas dos pagamento enviados"
+=======
+msgstr "Formas de efetuar pagamentos"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Outgoing Payments"
+<<<<<<< HEAD
 msgstr "Pagamentos enviados"
+=======
+msgstr "Pagamentos efetuados"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__outstanding_account_id

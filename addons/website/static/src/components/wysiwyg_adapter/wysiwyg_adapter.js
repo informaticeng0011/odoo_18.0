@@ -341,6 +341,15 @@ export class WysiwygAdapterComponent extends Wysiwyg {
         this._setObserver();
         this.odooEditor.observerActive();
     }
+<<<<<<< HEAD
+=======
+    _getBannerCommands() {
+        return [];
+    }
+    _getBannerCategory() {
+        return [];
+    }
+>>>>>>> upstream/18.0
     /**
      * Stop the widgets and save the content.
      *
@@ -811,6 +820,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
                 priority: 100,
                 description: _t('Insert an alert snippet'),
                 fontawesome: 'fa-info',
+<<<<<<< HEAD
+=======
+                keywords: ["banner", "info", "success", "warning", "danger"],
+>>>>>>> upstream/18.0
                 isDisabled: () => !this.odooEditor.isSelectionInBlockRoot(),
                 callback: () => {
                     snippetCommandCallback('.oe_snippet_body[data-snippet="s_alert"]');

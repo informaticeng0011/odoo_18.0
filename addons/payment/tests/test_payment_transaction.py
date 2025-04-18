@@ -14,6 +14,11 @@ class TestPaymentTransaction(PaymentCommon):
 
     def test_capture_allowed_for_authorized_users(self):
         """ Test that users who have access to a transaction can capture it. """
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
         self.provider.support_manual_capture = 'full_only'
         tx = self._create_transaction('redirect', state='authorized')
         user = self._prepare_user(self.internal_user, 'account.group_account_invoice')
@@ -21,6 +26,11 @@ class TestPaymentTransaction(PaymentCommon):
 
     def test_void_allowed_for_authorized_users(self):
         """ Test that users who have access to a transaction can void it. """
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
         self.provider.support_manual_capture = 'full_only'
         tx = self._create_transaction('redirect', state='authorized')
         user = self._prepare_user(self.internal_user, 'account.group_account_invoice')
@@ -28,6 +38,11 @@ class TestPaymentTransaction(PaymentCommon):
 
     def test_refund_allowed_for_authorized_users(self):
         """ Test that users who have access to a transaction can refund it. """
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
         self.provider.support_refund = 'full_only'
         tx = self._create_transaction('redirect', state='done')
         user = self._prepare_user(self.internal_user, 'account.group_account_invoice')

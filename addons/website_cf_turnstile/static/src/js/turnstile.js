@@ -16,6 +16,10 @@ export const turnStile = {
                 beforeInteractiveGlobalCallback: "turnstileBecomeVisible",
                 errorGlobalCallback: "throwTurnstileErrorCode",
                 executeGlobalCallback: "turnstileSuccess",
+<<<<<<< HEAD
+=======
+                expiredCallback: "turnstileExpired",
+>>>>>>> upstream/18.0
                 sitekey: session.turnstile_site_key,
                 style: "display: none;",
             });
@@ -28,6 +32,7 @@ export const turnStile = {
                 error.code = code;
                 throw error;
             };
+<<<<<<< HEAD
             // `this` is bound to the turnstile widget calling the callback
             globalThis.turnstileSuccess = function () {
                 const turnstileContainer = this.wrapper.parentElement;
@@ -37,6 +42,22 @@ export const turnStile = {
                 button.disabled = false;
                 button.classList.remove("disabled");
                 spinner.remove();
+=======
+            const toggleSpinner = (turnstileContainer, show) => {
+                const form = turnstileContainer.parentElement;
+                const spinner = form.querySelector("i.turnstile-spinner");
+                const button = spinner.parentElement;
+                button.disabled = show;
+                button.classList.toggle("disabled", show);
+                spinner.classList.toggle("d-none", !show);
+            };
+            // `this` is bound to the turnstile widget calling the callback
+            globalThis.turnstileSuccess = function () {
+                toggleSpinner(this.wrapper.parentElement, false);
+            };
+            globalThis.turnstileExpired = function () {
+                toggleSpinner(this.wrapper.parentElement, true);
+>>>>>>> upstream/18.0
             };
             globalThis.turnstileBecomeVisible = function () {
                 const turnstileContainer = this.wrapper.parentElement;

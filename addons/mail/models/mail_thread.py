@@ -17,6 +17,10 @@ import time
 import threading
 
 from collections import namedtuple
+<<<<<<< HEAD
+=======
+from collections.abc import Iterable
+>>>>>>> upstream/18.0
 from email import message_from_string
 from email.message import EmailMessage
 from xmlrpc import client as xmlrpclib
@@ -141,7 +145,17 @@ class MailThread(models.AbstractModel):
 
     @api.model
     def _search_message_partner_ids(self, operator, operand):
+<<<<<<< HEAD
         """Search function for message_follower_ids"""
+=======
+        if not (self.env.su or self.env.user._is_internal()):
+            user_partner = self.env.user.partner_id
+            allow_partner_ids = set((user_partner | user_partner.commercial_partner_id).ids)
+            operand_values = operand if isinstance(operand, Iterable) else [operand]
+            if not allow_partner_ids.issuperset(operand_values):
+                raise AccessError(self.env._("Portal users can only filter threads by themselves as followers."))
+
+>>>>>>> upstream/18.0
         neg = ''
         if operator in expression.NEGATIVE_TERM_OPERATORS:
             neg = 'not '
@@ -406,6 +420,7 @@ class MailThread(models.AbstractModel):
 
         return super().get_empty_list_help(help_message)
 
+<<<<<<< HEAD
     def _condition_to_sql(self, alias: str, fname: str, operator: str, value, query: Query) -> SQL:
         if self.env.su or self.env.user._is_internal():
             return super()._condition_to_sql(alias, fname, operator, value, query)
@@ -418,6 +433,8 @@ class MailThread(models.AbstractModel):
             raise AccessError("Portal users can only filter threads by themselves as followers.")
         return super(MailThread, self.sudo())._condition_to_sql(alias, fname, operator, value, query)
 
+=======
+>>>>>>> upstream/18.0
     # ------------------------------------------------------
     # MODELS / CRUD HELPERS
     # ------------------------------------------------------
@@ -3666,6 +3683,10 @@ class MailThread(models.AbstractModel):
                 ('model', '=', message_sudo.model), ('res_id', '=', message_sudo.res_id),
                 ('id', '!=', message_sudo.id),
                 ('subtype_id', '!=', False),  # filters out logs
+<<<<<<< HEAD
+=======
+                ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
+>>>>>>> upstream/18.0
             ], limit=32, order='id DESC',  # take 32 last, hoping to find public discussions in it
         )
 

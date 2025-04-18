@@ -292,9 +292,25 @@ export class PosData extends Reactive {
         this.models.loadData({ "pos.order": order, "pos.order.line": orderlines });
         const dbData = await this.loadIndexedDBData();
         this.loadedIndexedDBProducts = dbData ? dbData["product.product"] : [];
+<<<<<<< HEAD
         this.network.loading = false;
     }
 
+=======
+        this.sanitizeData();
+        this.network.loading = false;
+    }
+
+    sanitizeData() {
+        const order_to_delete = this.models["pos.order"].filter((order) =>
+            order.lines.some((line) => line.is_reward_line && !line.coupon_id)
+        );
+        for (const order of order_to_delete) {
+            order.lines.forEach((line) => line.delete());
+        }
+    }
+
+>>>>>>> upstream/18.0
     async execute({
         type,
         model,

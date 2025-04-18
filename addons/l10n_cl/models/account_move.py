@@ -232,7 +232,11 @@ class AccountMove(models.Model):
                     'tax_ids': gd.tax_ids,
                 }
             )
+<<<<<<< HEAD
         values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False
+=======
+        values['vat_percent'] = '%.2f%%' % vat_percent if vat_percent > 0 else False
+>>>>>>> upstream/18.0
         return values
 
     def _l10n_cl_get_withholdings(self):

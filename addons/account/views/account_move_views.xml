@@ -334,7 +334,11 @@
                     <filter string="To check" name="to_check" domain="[('move_id.checked', '=', False), ('parent_state', '!=', 'draft')]"/>
                     <separator/>
                     <filter string="Unreconciled"
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
                             name="reconcilable_account"
                             help="Journal items where the account allows reconciliation no matter the residual amount"
                     />

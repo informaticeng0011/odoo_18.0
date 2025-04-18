@@ -273,8 +273,13 @@ class ReportSaleDetails(models.AbstractModel):
             refund_products.append(category_dictionnary)
         refund_products = sorted(refund_products, key=lambda l: str(l['name']))
 
+<<<<<<< HEAD
         products, products_info = self._get_total_and_qty_per_category(products)
         refund_products, refund_info = self._get_total_and_qty_per_category(refund_products)
+=======
+        products, products_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(products)
+        refund_products, refund_info = self.with_context(config_id=configs[0].id if len(configs) > 0 else False)._get_total_and_qty_per_category(refund_products)
+>>>>>>> upstream/18.0
 
         currency = {
             'symbol': user_currency.symbol,

@@ -18,7 +18,11 @@ patch(PosOrderline.prototype, {
             };
         } else if (this.event_ticket_id) {
             for (const registration of this.event_registration_ids) {
+<<<<<<< HEAD
                 registration.delete();
+=======
+                registration.delete({ silent: true });
+>>>>>>> upstream/18.0
             }
         }
 

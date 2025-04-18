@@ -513,7 +513,11 @@ class AccountEdiFormat(models.Model):
             "hsnCode": extract_digits(line.l10n_in_hsn_code),
             "productDesc": line.name,
             "quantity": line.quantity,
+<<<<<<< HEAD
             "qtyUnit": line.product_id.uom_id.l10n_in_code and line.product_id.uom_id.l10n_in_code.split("-")[0] or "OTH",
+=======
+            "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
+>>>>>>> upstream/18.0
             "taxableAmount": self._l10n_in_round_value(line.balance * sign),
         }
         gst_types = {'cgst', 'sgst', 'igst'}

@@ -57,7 +57,10 @@ export class ProductScreen extends Component {
         this._searchTriggered = false;
         onMounted(() => {
             this.pos.openOpeningControl();
+<<<<<<< HEAD
             this.pos.addPendingOrder([this.currentOrder.id]);
+=======
+>>>>>>> upstream/18.0
             // Call `reset` when the `onMounted` callback in `numberBuffer.use` is done.
             // We don't do this in the `mounted` lifecycle method because it is called before
             // the callbacks in `onMounted` hook.

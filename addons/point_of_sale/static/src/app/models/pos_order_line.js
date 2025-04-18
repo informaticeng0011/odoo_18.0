@@ -670,7 +670,15 @@ export class PosOrderline extends Base {
             ),
             taxGroupLabels: [
                 ...new Set(
+<<<<<<< HEAD
                     this.product_id.taxes_id
+=======
+                    getTaxesAfterFiscalPosition(
+                        this.product_id.taxes_id,
+                        this.order_id.fiscal_position_id,
+                        this.models
+                    )
+>>>>>>> upstream/18.0
                         ?.map((tax) => tax.tax_group_id.pos_receipt_label)
                         .filter((label) => label)
                 ),

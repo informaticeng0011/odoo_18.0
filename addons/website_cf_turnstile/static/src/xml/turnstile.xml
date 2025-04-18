@@ -7,6 +7,10 @@
             t-att-data-appearance="appeareance || 'interaction-only'"
             t-att-data-before-interactive-callback="beforeInteractiveGlobalCallback || '() => {}'"
             t-att-data-callback="executeGlobalCallback || '() => {}'"
+<<<<<<< HEAD
+=======
+            t-att-data-expired-callback="expiredCallback || '() => {}'"
+>>>>>>> upstream/18.0
             t-att-data-error-callback="errorGlobalCallback || '() => {}'"
             data-response-field-name="turnstile_captcha"
             t-att-data-sitekey="sitekey"

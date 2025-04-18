@@ -147,7 +147,11 @@ class AccountMove(models.Model):
         try:
             response = requests.post(JOFOTARA_URL, json=params, headers=headers, timeout=50)
         except requests.exceptions.Timeout:
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
         except requests.exceptions.RequestException as e:
             return _("Invalid request: %s", e)
 

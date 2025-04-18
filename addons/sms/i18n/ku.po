@@ -212,7 +212,11 @@ msgstr ""
 #. module: sms
 #: model:ir.model,name:sms.model_base
 msgid "Base"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بناغە"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_blacklist
@@ -264,12 +268,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_reset_view_form
 #: model_terms:ir.ui.view,arch_db:sms.sms_tsms_view_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__canceled
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەڵوەشایەوە"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_preview_form
@@ -298,7 +310,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.mail_resend_message_view_form
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
 msgid "Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داخستن"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
@@ -347,7 +363,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__create_uid
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_account_code__create_date
@@ -362,7 +382,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sms.field_sms_template_reset__create_date
 #: model:ir.model.fields,field_description:sms.field_sms_tracker__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:iap.service,unit_name:sms.iap_service_sms
@@ -372,7 +396,11 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_sms__partner_id
 msgid "Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "کڕیار"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:sms.template,name:sms.sms_template_demo_0
@@ -1315,7 +1343,11 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms

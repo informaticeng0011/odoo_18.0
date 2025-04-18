@@ -13,7 +13,16 @@ import { OrderReceipt } from "@point_of_sale/app/screens/receipt_screen/receipt/
 import { HWPrinter } from "@point_of_sale/app/printer/hw_printer";
 import { renderToElement } from "@web/core/utils/render";
 import { TimeoutPopup } from "@pos_self_order/app/components/timeout_popup/timeout_popup";
+<<<<<<< HEAD
 import { constructFullProductName, deduceUrl, random5Chars } from "@point_of_sale/utils";
+=======
+import {
+    constructFullProductName,
+    deduceUrl,
+    random5Chars,
+    computeProductPricelistCache,
+} from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 import { computeComboItems } from "@point_of_sale/app/models/utils/compute_combo_items";
 import {
     getTaxesAfterFiscalPosition,
@@ -192,6 +201,10 @@ export class SelfOrder extends Reactive {
             note: customer_note || "",
             price_unit: product.lst_price,
             price_extra: 0,
+<<<<<<< HEAD
+=======
+            price_type: "original",
+>>>>>>> upstream/18.0
         };
 
         if (Object.entries(selectedValues).length > 0) {
@@ -294,7 +307,11 @@ export class SelfOrder extends Reactive {
 
         if (lineToMerge) {
             lineToMerge.setDirty();
+<<<<<<< HEAD
             lineToMerge.qty += newLine.qty;
+=======
+            lineToMerge.set_quantity(qty + newLine.qty);
+>>>>>>> upstream/18.0
             newLine.delete();
         } else {
             newLine.setDirty();
@@ -401,6 +418,10 @@ export class SelfOrder extends Reactive {
             fiscal_position_id: fiscalPosition,
         });
         this.selectedOrderUuid = newOrder.uuid;
+<<<<<<< HEAD
+=======
+        newOrder.set_pricelist(this.config.pricelist_id);
+>>>>>>> upstream/18.0
 
         return this.models["pos.order"].getBy("uuid", this.selectedOrderUuid);
     }
@@ -430,6 +451,12 @@ export class SelfOrder extends Reactive {
                 }
             );
         }
+<<<<<<< HEAD
+=======
+
+        computeProductPricelistCache(this);
+
+>>>>>>> upstream/18.0
         const productWoCat = this.models["product.product"].filter(
             (p) => p.pos_categ_ids.length === 0 && !isSpecialProduct(p)
         );

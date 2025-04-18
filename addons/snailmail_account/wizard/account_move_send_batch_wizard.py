@@ -17,5 +17,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
         # EXTENDS 'account'
         super()._compute_summary_data()
         for wizard in self:
+<<<<<<< HEAD
             if 'snailmail' in wizard.summary_data:
+=======
+            if wizard.summary_data and 'snailmail' in wizard.summary_data:
+>>>>>>> upstream/18.0
                 wizard.summary_data['snailmail'].update({'extra': _('(Stamps: %s)', wizard.send_by_post_stamps)})

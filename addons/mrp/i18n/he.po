@@ -1669,13 +1669,21 @@ msgstr "נתח עלות (%)"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost as it is currently accumulated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העלות כפי שהיא נצברה עד כה"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on cost projection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עלות מבוססת על תחזית עלויות"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -2288,7 +2296,11 @@ msgstr "מסננים"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_final_id
 msgid "Final Location from procurement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "המיקום הסופי לפי הרכש"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__done
@@ -2772,6 +2784,11 @@ msgid ""
 "Informative date allowing to define when the manufacturing order should be "
 "processed at the latest to fulfill delivery on time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"תאריך אינפורמטיבי המאפשר לקבוע עד מתי יש לעבד את פקודת הייצור על מנת לעמוד "
+"במועד האספקה."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_moves
@@ -3528,7 +3545,11 @@ msgstr "הוראות הייצור שלי"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__never_product_template_attribute_value_ids
 msgid "Never attribute values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין לשייך ערכים בשום שלב"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -4342,12 +4363,20 @@ msgstr "קבצים מצורפים למוצר"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__capacity_ids
 msgid "Product Capacities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קיבולות מוצר"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_bom
 msgid "Product Catalog Product Is In Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קטלוג מוצרים מוצר נמצא בעץ מוצר"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_mo
@@ -4521,7 +4550,11 @@ msgstr "ייצור שהתחיל באיחור"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split_multi__production_ids
 msgid "Productions To Split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצור לפיצול"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workcenter_productivity_loss_type__loss_type__productive
@@ -4646,7 +4679,11 @@ msgstr "כמות לייצור"
 #: model:ir.model.fields,help:mrp.field_mrp_production__production_capacity
 #: model:ir.model.fields,help:mrp.field_mrp_production_split__production_capacity
 msgid "Quantity that can be produced with the current stock of components"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות שניתן לייצר עם המלאי הנוכחי של רכיבים"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_quant
@@ -4790,7 +4827,11 @@ msgstr "חדש מלאי בהזמנה (הכן להזמנה)"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Replenishments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חידושי מלאי"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_reporting
@@ -4992,7 +5033,11 @@ msgstr "הגדר כמויות ואשר"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid "Set Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר כמות"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__time_mode__manual
@@ -5023,12 +5068,20 @@ msgstr "זמן הגדרה"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_capacity__time_start
 msgid "Setup Time (minutes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זמן הכנה (דקות)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mrp.workcenter.productivity.loss,name:mrp.block_reason2
 msgid "Setup and Adjustments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנה והתאמות"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_allocation
@@ -5038,13 +5091,21 @@ msgstr "הצג הקצאה"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse_orderpoint__show_bom
 msgid "Show BoM column"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג עמודת עץ מוצר"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_replenish__show_bom
 #: model:ir.model.fields,field_description:mrp.field_stock_replenish_mixin__show_bom
 msgid "Show Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג עץ מוצר"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_final_lots
@@ -5054,7 +5115,11 @@ msgstr "הצג אצוות סופיות"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_lock
 msgid "Show Lock/unlock buttons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג כפתורי נעילה\\ שחרור מנעילה"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__show_json_popover
@@ -5064,7 +5129,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_produce
 msgid "Show Produce"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג ייצור"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_produce_all
@@ -5080,12 +5149,20 @@ msgstr "הצג את כל הרשומות שתאריך הפעולה הבא שלה�
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_backorder__show_backorder_lines
 msgid "Show backorder lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג שורות הזמנות חוזרות"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__leave_id
 msgid "Slot into workcenter calendar once planned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנס ללוח הזמנים של תחנת העבודה ברגע שמתוכנן"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:product.template,description:mrp.product_product_computer_desk_head_product_template
@@ -5104,6 +5181,11 @@ msgid ""
 "Some of your byproducts are tracked, you have to specify a manufacturing "
 "order in order to retrieve the correct byproducts."
 msgstr ""
+<<<<<<< HEAD
+=======
+"חלק מהתוצרי לוואי שלך מנוטרים, עליך לציין פקודת ייצור כדי להוציא את תוצרי "
+"הלוואי הנכונים."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -5132,6 +5214,12 @@ msgid ""
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"חלק מההוראות עבודה כבר בתהליך, לכן אינך יכול לבטל את תכנון הוראת הייצור הזו.\n"
+"\n"
+"יהיה חבל לבזבז את כל ההתקדמות הזו, נכון?"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__origin
@@ -5152,7 +5240,11 @@ msgstr "תכולות ספציפיות"
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר ספציפי של יחידות שניתן לייצר במקביל לכל מוצר."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.server,name:mrp.action_production_order_split
@@ -5163,7 +5255,11 @@ msgstr "פצל"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__counter
 msgid "Split #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל #"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__production_detailed_vals_ids
@@ -5175,23 +5271,39 @@ msgstr "פרטי פיצול"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_form
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_multi_form
 msgid "Split Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל ייצור"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_split_line
 msgid "Split Production Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרטי פיצול ייצור"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_split__production_split_multi_id
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_multi_form
 msgid "Split Productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פיצול ייצור"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_split
 msgid "Split production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל ייצור"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_split_multi
@@ -5372,7 +5484,11 @@ msgstr "שם תגית"
 msgid ""
 "Technical Field used to decide whether the button \"Allocation\" should be "
 "displayed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני המשמש להחלטה אם יש להציג את הכפתור \"הקצאה\"."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__has_routing_lines
@@ -5382,7 +5498,11 @@ msgstr "שדה טכני לתצוגת תחנת עבודה"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce_all
 msgid "Technical field to check if produce all button can be shown"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני לבדוק אם ניתן להציג את כפתור \"ייצר הכל\"."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce
@@ -5430,6 +5550,11 @@ msgid ""
 "The attribute value %(attribute)s set on product %(product)s does not match "
 "the BoM product %(bom_product)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ערך המאפיין %(attribute)sשהוגדר על המוצר %(product)sאינו תואם למוצר בעץ מוצר"
+" %(bom_product)s."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -5461,7 +5586,11 @@ msgstr "מחרתיים"
 #. odoo-python
 #: code:addons/mrp/models/stock_orderpoint.py:0
 msgid "The following replenishment order has been generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הוראת החידוש מלאי הבאה נוצרה"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__qty_produced
@@ -5482,6 +5611,11 @@ msgid ""
 "(divided between the quantity produced).The total of all by-products' cost "
 "share must be less than or equal to 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אחוז מעלות הייצור הסופית עבור שורת תוצר הלוואי הזו (מחולק בין הכמות "
+"המיוצרת). סך כל חלקי עלות התוצרי לוואי חייב להיות קטן או שווה ל-100."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_move__cost_share
@@ -5489,6 +5623,11 @@ msgid ""
 "The percentage of the final production cost for this by-product. The total "
 "of all by-products' cost share must be smaller or equal to 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אחוז מעלות הייצור הסופית עבור תוצר הלוואי הזה. סך כל חלקי עלות התוצרי לוואי "
+"חייב להיות קטן או שווה ל-100."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -5497,6 +5636,11 @@ msgid ""
 "The planned end date of the work order cannot be prior to the planned start "
 "date, please correct this to save the work order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"תאריך הסיום המתוכנן של הוראת העבודה לא יכול להיות לפני תאריך ההתחלה המתוכנן,"
+" אנא תקן זאת כדי לשמור את הוראת העבודה."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -5506,12 +5650,21 @@ msgid ""
 "lead to undesirable behaviours. You should rather archive the product and "
 "create a new one with a new bill of materials."
 msgstr ""
+<<<<<<< HEAD
+=======
+"המוצר כבר שימש לפחות פעם אחת, עריכת המבנה שלו עשויה להוביל להתנהגויות לא "
+"רצויות. עדיף שתשמור את המוצר בארכיון ותיצור מוצר חדש עם עץ מוצר חדש."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__qty_reported_from_previous_wo
 msgid ""
 "The quantity already produced awaiting allocation in the backorders chain."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכמות שכבר יוצרה וממתינה להקצאה בשרשרת ההזמנות החוזרות."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_bom_qty_positive
@@ -5522,7 +5675,11 @@ msgstr "הכמות לייצור חייב להיות חיובית!"
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_unbuild_qty_positive
 msgid "The quantity to unbuild must be positive!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכמות שיש לפרק חייבת להיות חיובית!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -5531,6 +5688,11 @@ msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
 msgstr ""
+<<<<<<< HEAD
+=======
+"מספר הסידורי %(number)sשנעשה בו שימוש עבור תוצר הלוואי %(product_name)sכבר "
+"יוצר."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python

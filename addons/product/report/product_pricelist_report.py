@@ -41,6 +41,10 @@ class ProductPricelistReport(models.AbstractModel):
             'pricelist': pricelist,
             'products': products_data,
             'quantities': quantities,
+<<<<<<< HEAD
+=======
+            'docs': pricelist,
+>>>>>>> upstream/18.0
         }
 
     def _get_product_data(self, is_product_tmpl, product, pricelist, quantities):

@@ -980,11 +980,19 @@ class AccountPayment(models.Model):
             pay.move_id \
                 .with_context(skip_invoice_sync=True) \
                 .write({
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
                 'date': pay.date,
                 'partner_id': pay.partner_id.id,
                 'currency_id': pay.currency_id.id,
                 'partner_bank_id': pay.partner_bank_id.id,
                 'line_ids': line_ids_commands,
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
             })
 
     @api.model

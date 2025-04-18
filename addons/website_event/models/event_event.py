@@ -6,6 +6,10 @@ from dateutil.relativedelta import relativedelta
 import json
 import werkzeug.urls
 
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 from pytz import utc, timezone
 
 from odoo import api, fields, models, _
@@ -623,5 +627,12 @@ class Event(models.Model):
             for event, data in zip(self, results_data):
                 begin = self.env['ir.qweb.field.date'].record_to_html(event, 'date_begin', {})
                 end = self.env['ir.qweb.field.date'].record_to_html(event, 'date_end', {})
+<<<<<<< HEAD
                 data['range'] = '%s🠖%s' % (begin, end) if begin != end else begin
+=======
+                data['range'] = (
+                    Markup('{} <i class="fa fa-long-arrow-right"></i> {}').format(begin, end)
+                    if begin != end else begin
+                )
+>>>>>>> upstream/18.0
         return results_data

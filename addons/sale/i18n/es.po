@@ -3,7 +3,10 @@
 # 	* sale
 # 
 # Translators:
+<<<<<<< HEAD
 # Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2024
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # Larissa Manderfeld, 2025
 # 
@@ -756,6 +759,7 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        <t t-set=\"doc_name\" t-value=\"object.type_name\"/>\n"
+<<<<<<< HEAD
 "        Apreciable <t t-out=\"object.partner_id.name or ''\">usuario</t>,\n"
 "        <br/><br/>\n"
 "        Tenga en cuenta que su\n"
@@ -767,6 +771,19 @@ msgstr ""
 "        Si es necesario realizar algún reembolso, se ejecutará lo más rápido posible.\n"
 "        <br/><br/>\n"
 "        No dude en ponerse en contacto con nosotros si tiene alguna pregunta.\n"
+=======
+"        Estimado/a <t t-out=\"object.partner_id.name or ''\">usuario</t>,\n"
+"        <br/><br/>\n"
+"        Tenga en cuenta que su\n"
+"        <t t-out=\"doc_name or ''\">presupuesto</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
+"        <t t-if=\"object.origin\">\n"
+"            (con referencia: <t t-out=\"object.origin or ''\">S00052</t> )\n"
+"        </t>\n"
+"        se ha cancelado. Por lo tanto, no se le debería cobrar más por este pedido.\n"
+"        Si es necesario realizar algún reembolso, se ejecutará lo más rápido posible.\n"
+"        <br/><br/>\n"
+"         No dude en ponerse en contacto con nosotros si tiene alguna pregunta.\n"
+>>>>>>> upstream/18.0
 "        <br/>\n"
 "    </p>\n"
 "</div>\n"
@@ -1445,7 +1462,11 @@ msgstr "Transacciones autorizadas"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__automatic_invoice
 msgid "Automatic Invoice"
+<<<<<<< HEAD
 msgstr "Factura automática"
+=======
+msgstr "Facturación automática"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_report_view_tree
@@ -2854,7 +2875,11 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__delivery
 msgid "Invoice what is delivered"
+<<<<<<< HEAD
 msgstr "Facturar lo que se entrega"
+=======
+msgstr "Facturar lo entregado"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__order
@@ -3733,7 +3758,11 @@ msgstr "Proveedor de pago"
 #: model:ir.ui.menu,name:sale.payment_provider_menu
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Payment Providers"
+<<<<<<< HEAD
 msgstr "Proveedores de pagos"
+=======
+msgstr "Proveedores de pago"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__reference

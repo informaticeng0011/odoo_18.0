@@ -4,7 +4,11 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
 # Malaz Abuidris <msea@odoo.com>, 2024
+=======
+# Malaz Abuidris <msea@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2024\n"
+=======
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,6 +89,10 @@ msgid ""
 "Received invalid transaction status %(status)s with error code "
 "%(error_code)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"تم استلام حالة معاملة غير صالحة %(status)s مع كود الخطأ %(error_code)s. "
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #. odoo-python
@@ -103,13 +115,21 @@ msgstr "المعاملة غير مرتبطة برمز. "
 #. odoo-python
 #: code:addons/payment_worldline/models/payment_transaction.py:0
 msgid "Transaction cancelled with error code %(error_code)s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم إلغاء المعاملة مع رمز الخطأ %(error_code)s. "
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #. odoo-python
 #: code:addons/payment_worldline/models/payment_transaction.py:0
 msgid "Transaction declined with error code %(error_code)s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم رفض المعاملة مع رمز الخطأ %(error_code)s.  "
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #: model_terms:ir.ui.view,arch_db:payment_worldline.payment_provider_form

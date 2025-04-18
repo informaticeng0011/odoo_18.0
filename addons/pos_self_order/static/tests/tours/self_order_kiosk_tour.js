@@ -164,3 +164,21 @@ registry.category("web_tour.tours").add("test_self_order_kiosk_combo_sides", {
         Utils.clickBtn("Add to cart"),
     ],
 });
+<<<<<<< HEAD
+=======
+
+registry.category("web_tour.tours").add("self_order_pricelist", {
+    test: true,
+    steps: () => [
+        Utils.checkIsNoBtn("My Order"),
+        Utils.clickBtn("Order Now"),
+        ProductPage.clickProduct("Coca-Cola"),
+        ProductPage.clickProduct("Coca-Cola"),
+        Utils.clickBtn("Order"),
+        CartPage.checkProduct("Coca-Cola", "2.30", "2"),
+        Utils.clickBtn("Pay"),
+        Utils.clickBtn("Close"),
+        Utils.checkIsNoBtn("My Order"),
+    ],
+});
+>>>>>>> upstream/18.0

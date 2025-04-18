@@ -2,7 +2,11 @@
 
 from odoo import models, _
 
+<<<<<<< HEAD
 
+=======
+DEFAULT_VAT = '0000000000000'
+>>>>>>> upstream/18.0
 SECTOR_RO_CODES = ('SECTOR1', 'SECTOR2', 'SECTOR3', 'SECTOR4', 'SECTOR5', 'SECTOR6')
 
 
@@ -10,6 +14,13 @@ def get_formatted_sector_ro(city: str):
     return city.upper().replace(' ', '')
 
 
+<<<<<<< HEAD
+=======
+def _has_vat(vat):
+    return bool(vat and len(vat) > 1)
+
+
+>>>>>>> upstream/18.0
 class AccountEdiXmlUBLRO(models.AbstractModel):
     _inherit = "account.edi.xml.ubl_bis3"
     _name = "account.edi.xml.ubl_ro"
@@ -49,6 +60,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
         # EXTENDS 'account_edi_ubl_cii'
         vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
 
+<<<<<<< HEAD
         if not partner.vat and partner.company_registry:
             # Use company_registry (Company ID) as the VAT replacement
             for vals in vals_list:
@@ -64,6 +76,20 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
         for vals in vals_list:
             if not partner.vat and partner.company_registry:
                 vals['company_id'] = partner.company_registry
+=======
+        if not _has_vat(partner.vat):
+            if (
+                role == 'supplier'
+                and partner.company_registry
+            ):
+                # Use company_registry (Company ID) as the VAT replacement
+                for vals in vals_list:
+                    tax_scheme_id = 'VAT' if partner.company_registry[:2].isalpha() else 'NOT_EU_VAT'
+                    vals.update({'company_id': partner.company_registry, 'tax_scheme_vals': {'id': tax_scheme_id}})
+            elif role == 'customer':
+                for vals in vals_list:
+                    vals.update({'company_id': DEFAULT_VAT, 'tax_scheme_vals': {'id': 'NOT_EU_VAT'}})
+>>>>>>> upstream/18.0
 
         return vals_list
 
@@ -76,6 +102,16 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
             'tax_currency_code': 'RON',
         })
 
+<<<<<<< HEAD
+=======
+        # Deal with legal_entity_vals here, as there is no way to distinguish between customer and supplier in _get_partner_party_legal_entity_vals_list
+        for role in ['supplier', 'customer']:
+            for legal_entity_vals in vals['vals'][f'accounting_{role}_party_vals']['party_vals']['party_legal_entity_vals']:
+                partner = legal_entity_vals['commercial_partner']
+                if not _has_vat(partner.vat):
+                    legal_entity_vals['company_id'] = partner.company_registry if role == 'supplier' else DEFAULT_VAT
+
+>>>>>>> upstream/18.0
         return vals
 
     def _get_document_type_code_vals(self, invoice, invoice_data):
@@ -89,6 +125,20 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
         # EXTENDS 'account_edi_ubl_cii'
         constraints = super()._export_invoice_constraints(invoice, vals)
 
+<<<<<<< HEAD
+=======
+        # Default VAT is only allowed for the receiver (customer), not the provider (supplier)
+        supplier = vals['supplier'].commercial_partner_id
+        if (
+            not _has_vat(supplier.vat)
+            and not vals['supplier'].commercial_partner_id.company_registry
+        ):
+            constraints["ciusro_supplier_tax_identifier_required"] = _(
+                "The following partner doesn't have a VAT nor Company ID: %s. "
+                "At least one of them is required. ",
+                vals['supplier'].display_name)
+
+>>>>>>> upstream/18.0
         for partner_type in ('supplier', 'customer'):
             partner = vals[partner_type]
 
@@ -98,12 +148,15 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
                 f"ciusro_{partner_type}_state_id_required": self._check_required_fields(partner, 'state_id'),
             })
 
+<<<<<<< HEAD
             if not partner.commercial_partner_id.vat and not partner.commercial_partner_id.company_registry:
                 constraints[f"ciusro_{partner_type}_tax_identifier_required"] = _(
                     "The following partner doesn't have a VAT nor Company ID: %s. "
                     "At least one of them is required. ",
                     partner.display_name)
 
+=======
+>>>>>>> upstream/18.0
             if (partner.country_code == 'RO'
                     and partner.state_id
                     and partner.state_id.code == 'B'

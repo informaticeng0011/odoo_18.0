@@ -34,6 +34,10 @@ patch(Message.prototype, {
     },
 
     exitEditCommentMode() {
+<<<<<<< HEAD
+=======
+        this.props.message.composer.clear();
+>>>>>>> upstream/18.0
         this.message.composer = null;
         this.state.editRating = false;
     },
