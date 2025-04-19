@@ -475,6 +475,10 @@ class AccountJournal(models.Model):
         api_url = ZATCA_API_URLS[self.company_id.l10n_sa_api_mode]
         request_url = urljoin(api_url, request_url)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -487,12 +491,15 @@ class AccountJournal(models.Model):
             request_response.raise_for_status()
         except (ValueError, HTTPError) as ex:
 <<<<<<< HEAD
+<<<<<<< HEAD
             # In the case of an explicit error from ZATCA, i.e we got a response but the code of the response is not 2xx
             return {
                 'error': _("Server returned an unexpected error: %(error)s", error=(request_response.text or str(ex))),
                 'blocking_level': 'error'
             }
 =======
+=======
+>>>>>>> upstream/18.0
             # The 400 case means that it is rejected by ZATCA, but we need to update the hash as done for accepted.
             # In the 401+ cases, it is like the server is overloaded e.g. and we still need to resend later.  We do not
             # erase the index chain (excepted) because for ZATCA, one ICV (index chain) needs to correspond to one invoice.
@@ -504,6 +511,9 @@ class AccountJournal(models.Model):
                     'status_code': status_code,
                     'excepted': True,
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         except RequestException as ex:
             # Usually only happens if a Timeout occurs. In this case we're not sure if the invoice was accepted or
@@ -511,11 +521,17 @@ class AccountJournal(models.Model):
             return {'error': str(ex), 'blocking_level': 'warning', 'excepted': True}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if request_response.status_code == '303':
             return {'error': _('Clearance and reporting seem to have been mixed up. '),
                     'blocking_level': 'warning', 'excepted': True}
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try:
             response_data = request_response.json()
@@ -524,6 +540,7 @@ class AccountJournal(models.Model):
                 'error': _("JSON response from ZATCA could not be decoded"),
                 'blocking_level': 'error'
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if not request_response.ok and (response_data.get('errors') or response_data.get('warnings')):
@@ -537,6 +554,8 @@ class AccountJournal(models.Model):
                 'error': request_response.reason,
                 'blocking_level': 'error'
 =======
+=======
+>>>>>>> upstream/18.0
         response_data['status_code'] = request_response.status_code
 
         val_res = response_data.get('validationResults', {})
@@ -553,6 +572,9 @@ class AccountJournal(models.Model):
             return {
                 'error': error,
                 'blocking_level': 'error',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         return response_data

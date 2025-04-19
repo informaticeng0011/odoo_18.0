@@ -2922,7 +2922,13 @@ options.registry.DeviceVisibility = options.Class.extend({
      */
     async onTargetHide() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target[0].classList.remove('o_snippet_override_invisible');
+=======
+        this.options.wysiwyg.odooEditor.observerUnactive("onTargetHide");
+        this.$target[0].classList.remove('o_snippet_override_invisible');
+        this.options.wysiwyg.odooEditor.observerActive("onTargetHide");
+>>>>>>> upstream/18.0
 =======
         this.options.wysiwyg.odooEditor.observerUnactive("onTargetHide");
         this.$target[0].classList.remove('o_snippet_override_invisible');
@@ -2939,7 +2945,13 @@ options.registry.DeviceVisibility = options.Class.extend({
                 || this.$target[0].classList.contains('o_snippet_desktop_invisible')
             ) && isMobilePreview === isMobileHidden) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.$target[0].classList.add('o_snippet_override_invisible');
+=======
+            this.options.wysiwyg.odooEditor.observerUnactive("onTargetShow");
+            this.$target[0].classList.add('o_snippet_override_invisible');
+            this.options.wysiwyg.odooEditor.observerActive("onTargetShow");
+>>>>>>> upstream/18.0
 =======
             this.options.wysiwyg.odooEditor.observerUnactive("onTargetShow");
             this.$target[0].classList.add('o_snippet_override_invisible');

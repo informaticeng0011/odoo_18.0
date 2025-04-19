@@ -141,7 +141,10 @@ class AccountMove(models.Model):
                 move.show_reset_to_draft_button = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_sa_reset_confirmation_datetime(self):
         """ OVERRIDE: we want rejected phase 2 invoices to keep the original confirmation datetime"""
         for move in self.filtered(lambda m: m.country_code == 'SA'):
@@ -149,6 +152,9 @@ class AccountMove(models.Model):
             if not zatca_doc or zatca_doc[0].blocking_level != 'error':  # Error is the rejection case
                 move.l10n_sa_confirmation_datetime = False
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _l10n_sa_generate_unsigned_data(self):
         """
@@ -179,9 +185,12 @@ class AccountMove(models.Model):
         bootstrap_cls, title, content = ("success", _("Invoice Successfully Submitted to ZATCA"),
                                          "" if (not error or not response_data) else response_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
         if error:
             bootstrap_cls, title = ("danger", _("Invoice was rejected by ZATCA"))
 =======
+=======
+>>>>>>> upstream/18.0
         attachment = False
         if error:
             xml_filename = self.env['account.edi.xml.ubl_21.zatca']._export_invoice_filename(self)
@@ -197,6 +206,9 @@ class AccountMove(models.Model):
             })
             bootstrap_cls, title = ("danger", _("Invoice was rejected by ZATCA"))
             error_msg = response_data['error']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             content = Markup("""
                 <p class='mb-0'>
@@ -207,8 +219,14 @@ class AccountMove(models.Model):
                     %s
                 </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
             """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), response_data)
         if response_data and response_data.get('validationResults', {}).get('warningMessages'):
+=======
+            """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), error_msg)
+        if response_data and response_data.get('validationResults', {}).get('warningMessages'):
+            status_code = response_data.get('status_code')
+>>>>>>> upstream/18.0
 =======
             """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), error_msg)
         if response_data and response_data.get('validationResults', {}).get('warningMessages'):
@@ -222,6 +240,7 @@ class AccountMove(models.Model):
                 <hr>
                 <p class='mb-0'>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     %s
                 </p>
             """) % (_('The invoice was accepted by ZATCA, but returned warnings. Please, check the response below:'), "<br/>".join([Markup("<b>%s</b> : %s") % (m['code'], m['message']) for m in response_data['validationResults']['warningMessages']]))
@@ -231,6 +250,8 @@ class AccountMove(models.Model):
             </div>
         """) % (bootstrap_cls, title, content))
 =======
+=======
+>>>>>>> upstream/18.0
                     <b>%s</b>%s
                 </p>
             """) % (_('The invoice was accepted by ZATCA, but returned warnings. Please, check the response below:'),
@@ -243,6 +264,9 @@ class AccountMove(models.Model):
             """) % (bootstrap_cls, title, content),
             attachment_ids=attachment and [attachment.id] or []
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _is_l10n_sa_eligibile_invoice(self):

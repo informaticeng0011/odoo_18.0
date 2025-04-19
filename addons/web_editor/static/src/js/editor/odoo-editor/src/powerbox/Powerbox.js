@@ -21,6 +21,10 @@ function cycle(num, max) {
  *     callback: () => void; // to execute when the command is picked
  *     isDisabled?: () => boolean; // return true to disable the command
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *     keywords: Array<String> // to add synonyms for command
+>>>>>>> upstream/18.0
 =======
  *     keywords: Array<String> // to add synonyms for command
 >>>>>>> upstream/18.0
@@ -352,7 +356,13 @@ export class Powerbox {
                         const commandText = (command.category + ' ' + command.name);
                         const commandDescription = command.description.replace(/\s/g, '');
 <<<<<<< HEAD
+<<<<<<< HEAD
                         return commandText.match(fuzzyRegex) || commandDescription.match(exactRegex);
+=======
+                        return commandText.match(fuzzyRegex)
+                            || commandDescription.match(exactRegex)
+                            || command.keywords?.some(keyword => exactRegex.test(keyword));
+>>>>>>> upstream/18.0
 =======
                         return commandText.match(fuzzyRegex)
                             || commandDescription.match(exactRegex)

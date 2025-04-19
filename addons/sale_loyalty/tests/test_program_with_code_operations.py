@@ -11,7 +11,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
     # apply the reward when the code is correct or remove the reward automatically when the reward is
     # not valid anymore.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -32,6 +35,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
                 }),
             ],
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_program_usability(self):
@@ -435,7 +441,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         # But the above line should not add any reward
         self.assertEqual(len(order.order_line), 2, "You should get a discount line") # product + discount
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_reapply_multiple_global_rewards_when_new_discount_greater(self):
         """ Test applying the maximum reward discount from multiple rewards when the applied
@@ -585,4 +594,7 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         msg = "The new coupon discount should be greater than the applied coupon discount"
         with self.assertRaises(ValidationError, msg=msg):
             self._apply_promo_code(order, coupon_2.code)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -794,6 +794,7 @@ class SaleOrder(models.Model):
             discountable = self._discountable_amount(current_reward)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         def compute_discount(reward, discountable):
             """Compute the discount amount for the given reward, w.r.t. the discountable amount.
 
@@ -814,6 +815,10 @@ class SaleOrder(models.Model):
 
         discount_current_reward = compute_discount(current_reward, discountable)
         discount_new_reward = compute_discount(new_reward, discountable)
+=======
+        discount_current_reward = self._get_discount_amount(current_reward, discountable)
+        discount_new_reward = self._get_discount_amount(new_reward, discountable)
+>>>>>>> upstream/18.0
 =======
         discount_current_reward = self._get_discount_amount(current_reward, discountable)
         discount_new_reward = self._get_discount_amount(new_reward, discountable)
@@ -842,7 +847,10 @@ class SaleOrder(models.Model):
         return compare_current_and_new_reward >= 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_discount_amount(self, reward, discountable):
         """Compute the discount amount for the given reward, w.r.t. the discountable amount.
 
@@ -861,6 +869,9 @@ class SaleOrder(models.Model):
         elif reward.discount_mode == 'percent':
             return discountable * (reward.discount / 100)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _apply_program_reward(self, reward, coupon, **kwargs):
         """
@@ -1327,6 +1338,7 @@ class SaleOrder(models.Model):
             return {'error': _('This program is already applied to this order.'), 'already_applied': True}
         elif program.reward_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
             global_reward = program.reward_ids.filtered('is_global_discount')
             applied_global_reward = self._get_applied_global_discount()
             if (
@@ -1334,6 +1346,8 @@ class SaleOrder(models.Model):
                 and applied_global_reward
                 and self._best_global_discount_already_applied(applied_global_reward, global_reward)
 =======
+=======
+>>>>>>> upstream/18.0
             global_rewards = program.reward_ids.filtered('is_global_discount')
             applied_global_reward = self._get_applied_global_discount()
             best_global_rewards = max(
@@ -1346,14 +1360,22 @@ class SaleOrder(models.Model):
                 best_global_rewards
                 and applied_global_reward
                 and self._best_global_discount_already_applied(applied_global_reward, best_global_rewards)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ):
                 return {'error': _(
                     'This discount (%(discount)s) is not compatible with "%(other_discount)s". '
                     'Please remove it in order to apply this one.',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     discount=global_reward.description,
                     other_discount=applied_global_reward.program_id.reward_ids.description,
+=======
+                    discount=best_global_rewards.description,
+                    other_discount=applied_global_reward.description
+>>>>>>> upstream/18.0
 =======
                     discount=best_global_rewards.description,
                     other_discount=applied_global_reward.description

@@ -52,7 +52,13 @@ class AccountMove(models.Model):
         for move in self:
             if move.country_code == 'SA' and move.is_sale_document():
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vals = {'l10n_sa_confirmation_datetime': fields.Datetime.now()}
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
                 vals = {}
                 if not move.l10n_sa_confirmation_datetime:
@@ -64,7 +70,10 @@ class AccountMove(models.Model):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_sa_reset_confirmation_datetime(self):
         for move in self.filtered(lambda m: m.country_code == 'SA'):
             move.l10n_sa_confirmation_datetime = False
@@ -73,6 +82,9 @@ class AccountMove(models.Model):
         self._l10n_sa_reset_confirmation_datetime()
         super().button_draft()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_l10n_sa_totals(self):
         self.ensure_one()

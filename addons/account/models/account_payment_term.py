@@ -266,15 +266,21 @@ class AccountPaymentTerm(models.Model):
         return format_date(self.env, self._get_last_discount_date(date_ref))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def copy(self, default=None):
         default = dict(default or {})
         default['name'] = _('%s (copy)', self.name)
         return super().copy(default)
 =======
+=======
+>>>>>>> upstream/18.0
     def copy_data(self, default=None):
         default = dict(default or {})
         vals_list = super().copy_data(default=default)
         return [dict(vals, name=_("%s (copy)", line.name)) for line, vals in zip(self, vals_list)]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

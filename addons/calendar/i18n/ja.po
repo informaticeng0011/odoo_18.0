@@ -5,7 +5,11 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2024
+=======
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 =======
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Junko Augias, 2024\n"
+=======
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
@@ -216,7 +224,11 @@ msgstr ""
 "            承諾</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            却下</a>\n"
+=======
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            辞退</a>\n"
 >>>>>>> upstream/18.0
@@ -434,7 +446,11 @@ msgstr ""
 "            承諾</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/decline?token={{object.access_token}}&amp;id={{object.event_id.id}}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            却下</a>\n"
+=======
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            辞退</a>\n"
 >>>>>>> upstream/18.0
@@ -785,9 +801,15 @@ msgstr ""
 "    <div style=\"text-align: center; padding: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/accept?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            承認</a>\n"
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "            却下</a>\n"
+=======
+"            承諾</a>\n"
+"        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            辞退</a>\n"
+>>>>>>> upstream/18.0
 =======
 "            承諾</a>\n"
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else 'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
@@ -953,7 +975,11 @@ msgstr "ユーザは同じ連絡先を2回持つことはできません。"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Accept"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受理"
+=======
+msgstr "承諾"
+>>>>>>> upstream/18.0
 =======
 msgstr "承諾"
 >>>>>>> upstream/18.0

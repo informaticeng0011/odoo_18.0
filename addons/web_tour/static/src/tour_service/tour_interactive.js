@@ -456,12 +456,18 @@ export class TourInteractive {
             } else if (!tempAnchors.length && this.anchorEls.length) {
                 this.pointer.hide();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!hoot.queryFirst(".o_home_menu", { visible: true })) {
 =======
+=======
+>>>>>>> upstream/18.0
                 if (
                     !hoot.queryFirst(".o_home_menu", { visible: true }) &&
                     !hoot.queryFirst(".dropdown-item.o_loading", { visible: true })
                 ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     this.backward();
                 }

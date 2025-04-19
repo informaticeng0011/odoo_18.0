@@ -2,6 +2,10 @@
 
 from . import test_reinvoice
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_sale_project_stock_profitability
+>>>>>>> upstream/18.0
 =======
 from . import test_sale_project_stock_profitability
 >>>>>>> upstream/18.0

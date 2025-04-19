@@ -5,7 +5,11 @@ from contextlib import contextmanager
 from unittest.mock import patch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import Command, models
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, models
 >>>>>>> upstream/18.0
@@ -15,7 +19,11 @@ from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 from odoo.exceptions import AccessError, RedirectWarning, UserError, ValidationError
 from odoo.tests import Form
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import new_test_user, tagged, TransactionCase, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import new_test_user, tagged, TransactionCase, users
 >>>>>>> upstream/18.0
@@ -345,6 +353,7 @@ class TestPartner(TransactionCaseWithUserDemo):
 class TestPartnerAddressCompany(TransactionCase):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_address(self):
         res_partner = self.env['res.partner']
         ghoststep = res_partner.create({
@@ -408,6 +417,8 @@ class TestPartnerAddressCompany(TransactionCase):
         self.assertEqual(p1.type, 'contact', 'Default type must be "contact", not the copied parent type')
         self.assertEqual(ironshield.street, p1.street, 'Address fields should be copied to company')
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -663,6 +674,9 @@ class TestPartnerAddressCompany(TransactionCase):
                     for fname, fvalue in self.test_address_values_cmp.items():
                         self.assertEqual(p1[fname], fvalue)
                         self.assertFalse(parent[fname], 'Should not sync parent that is not root to first contact, event when void')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_address_get(self):
@@ -793,6 +807,7 @@ class TestPartnerAddressCompany(TransactionCase):
     def test_commercial_field_sync(self):
         """Check if commercial fields are synced properly: testing with VAT field"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner = self.env['res.partner']
         company_1 = Partner.create({'name': 'company 1', 'is_company': True, 'vat': 'BE0123456789'})
         company_2 = Partner.create({'name': 'company 2', 'is_company': True, 'vat': 'BE9876543210'})
@@ -864,6 +879,8 @@ class TestPartnerAddressCompany(TransactionCase):
         self.assertEqual(p1.vat, p1vat, 'Setting is_company should stop auto-sync of commercial fields')
         self.assertEqual(p0.vat, sunhelmvat2, 'Commercial fields must be automatically synced')
 =======
+=======
+>>>>>>> upstream/18.0
         company_1, company_2 = self.env['res.partner'].create([
             {
                 'company_registry': '123456789',
@@ -956,6 +973,9 @@ class TestPartnerAddressCompany(TransactionCase):
             self.assertEqual(contact.vat, contactvat, 'Setting is_company should stop auto-sync of commercial fields')
         for partner in contact2:
             self.assertEqual(partner.vat, sunhelmvat2, 'Commercial fields must be automatically synced')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_company_dependent_commercial_sync(self):

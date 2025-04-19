@@ -3,14 +3,20 @@ import { Component, useExternalListener, useState } from "@odoo/owl";
 export class ProductInfoPopup extends Component {
     static template = "pos_self_order.ProductInfoPopup";
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["product", "addToCart", "close"];
 =======
+=======
+>>>>>>> upstream/18.0
     static props = {
         product: Object,
         addToCart: Function,
         close: Function,
         isComboLine: { type: Boolean, optional: true },
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     setup() {

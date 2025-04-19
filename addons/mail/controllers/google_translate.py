@@ -30,10 +30,13 @@ class GoogleTranslateController(Controller):
             except requests.exceptions.HTTPError as err:
                 return {"error": err.response.json()["error"]["message"]}
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             "body": translation.body,
             "lang_name": babel.Locale(translation.source_lang).get_display_name(request.env.user.lang),
 =======
+=======
+>>>>>>> upstream/18.0
         try:
             lang_name = babel.Locale(translation.source_lang).get_display_name(request.env.user.lang)
         except babel.UnknownLocaleError:
@@ -41,6 +44,9 @@ class GoogleTranslateController(Controller):
         return {
             "body": translation.body,
             "lang_name": lang_name,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 

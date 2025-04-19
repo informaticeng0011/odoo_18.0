@@ -213,6 +213,11 @@ class TestSaleCouponCommon(SaleCommon):
             if 'error' in status:
                 raise ValidationError(status['error'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif len(coupons) == 1 and len(rewards) > 1:
+            return rewards
+>>>>>>> upstream/18.0
 =======
         elif len(coupons) == 1 and len(rewards) > 1:
             return rewards
@@ -238,13 +243,19 @@ class TestSaleCouponCommon(SaleCommon):
             self._claim_reward(order, program, coupons_per_program[program])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _generate_coupons(self, loyality_program, coupon_qty=1):
         self.env['loyalty.generate.wizard'].with_context(active_id=loyality_program.id).create({
             'coupon_qty': coupon_qty,
         }).generate_coupons()
         return loyality_program.coupon_ids
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class TestSaleCouponNumbersCommon(TestSaleCouponCommon):
     @classmethod

@@ -90,7 +90,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_partner_person_vals(self, partner):
         """
         This is optional and meant to be overridden when required under the form:
@@ -102,6 +105,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         """
         return {}
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_partner_party_vals(self, partner, role):
         return {
@@ -113,6 +119,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             'party_legal_entity_vals': self._get_partner_party_legal_entity_vals_list(partner.commercial_partner_id),
             'contact_vals': self._get_partner_contact_vals(partner),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+>>>>>>> upstream/18.0
 =======
             'person_vals': self._get_partner_person_vals(partner),
 >>>>>>> upstream/18.0

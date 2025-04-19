@@ -7,8 +7,11 @@ import { renderToElement } from "@web/core/utils/render";
 import { registry } from "@web/core/registry";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     deduceUrl,
     lte,
@@ -16,6 +19,9 @@ import {
     uuidv4,
     computeProductPricelistCache,
 } from "@point_of_sale/utils";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { Reactive } from "@web/core/utils/reactive";
 import { HWPrinter } from "@point_of_sale/app/printer/hw_printer";
@@ -35,7 +41,10 @@ import {
     makeActionAwaitable,
 } from "@point_of_sale/app/store/make_awaitable_dialog";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { PartnerList } from "../screens/partner_list/partner_list";
@@ -486,6 +495,10 @@ export class PosStore extends Reactive {
         return true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -493,6 +506,7 @@ export class PosStore extends Reactive {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
         // This function is called via the addEventListener callback initiated in the
         // processServerData function when new products or pricelists are loaded into the PoS.
@@ -586,6 +600,9 @@ export class PosStore extends Reactive {
         if (data && data.length > 0 && data[0].model.modelName === "product.product") {
             this._loadMissingPricelistItems(products);
         }
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
 =======
         computeProductPricelistCache(this, data);
 >>>>>>> upstream/18.0
@@ -737,7 +754,10 @@ export class PosStore extends Reactive {
             order = this.add_new_order();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return await this.addLineToOrder(vals, order, opts, configure);

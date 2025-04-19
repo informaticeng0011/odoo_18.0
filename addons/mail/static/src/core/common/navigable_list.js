@@ -171,9 +171,13 @@ export class NavigableList extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     onOptionMouseEnter(index) {
         this.state.activeIndex = index;
     }
+=======
+    onOptionMouseEnter(index) {}
+>>>>>>> upstream/18.0
 =======
     onOptionMouseEnter(index) {}
 >>>>>>> upstream/18.0

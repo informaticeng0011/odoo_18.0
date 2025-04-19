@@ -515,7 +515,10 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGlobalDiscount", {
     steps: () =>
         [
@@ -530,6 +533,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGl
         ].flat(),
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("PosRewardProductScan", {
     steps: () =>

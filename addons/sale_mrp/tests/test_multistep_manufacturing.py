@@ -34,7 +34,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form.name = 'Stick'
         product_form.uom_id = cls.uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         product_form.route_ids.clear()
@@ -47,7 +50,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form.name = 'Raw Stick'
         product_form.uom_id = cls.uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.product_raw = product_form.save()
@@ -55,7 +61,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         # Create bom for manufactured product
         bom_product_form = Form(cls.env['mrp.bom'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = cls.product_manu
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = cls.product_manu.product_tmpl_id
@@ -131,7 +140,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         # New BoM for raw material product, it will generate another Production order i.e. child Production order
         bom_product_form = Form(self.env['mrp.bom'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = self.product_raw
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.product_raw.product_tmpl_id
@@ -171,7 +183,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         self.assertEqual(self.sale_order.action_view_mrp_production()['res_id'], mo.id)
         self.assertEqual(mo.action_view_sale_orders()['res_id'], self.sale_order.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sales_order_with_mto_manufacturing(self):
         self.env.ref('stock.route_warehouse0_mto').active = True
@@ -201,4 +216,7 @@ class TestMultistepManufacturing(TestMrpCommon):
             'client_order_ref': 'Test Reference'
         })
         so.action_confirm()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

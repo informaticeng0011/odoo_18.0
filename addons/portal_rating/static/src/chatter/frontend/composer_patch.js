@@ -27,11 +27,17 @@ patch(Composer.prototype, {
 
     async savePublisherComment() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (!this.state.active) {
             return;
         }
         this.state.active = false;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const data = await rpc("/website/rating/comment", {
             rating_id: this.message.rating.id,

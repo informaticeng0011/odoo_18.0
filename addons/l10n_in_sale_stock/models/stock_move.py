@@ -13,7 +13,11 @@ class StockMove(models.Model):
                 company_id = line_id.company_id
                 return line_id.currency_id._convert(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     line_id.price_subtotal / qty,
+=======
+                    line_id.product_uom._compute_price(line_id.price_subtotal / qty, self.product_uom),
+>>>>>>> upstream/18.0
 =======
                     line_id.product_uom._compute_price(line_id.price_subtotal / qty, self.product_uom),
 >>>>>>> upstream/18.0

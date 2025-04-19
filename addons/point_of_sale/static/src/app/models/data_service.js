@@ -293,10 +293,13 @@ export class PosData extends Reactive {
         const dbData = await this.loadIndexedDBData();
         this.loadedIndexedDBProducts = dbData ? dbData["product.product"] : [];
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.network.loading = false;
     }
 
 =======
+=======
+>>>>>>> upstream/18.0
         this.sanitizeData();
         this.network.loading = false;
     }
@@ -310,6 +313,9 @@ export class PosData extends Reactive {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     async execute({
         type,

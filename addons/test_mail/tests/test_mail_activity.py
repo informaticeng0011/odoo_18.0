@@ -774,7 +774,10 @@ class TestActivityMixin(TestActivityCommon):
             self.assertEqual(test_record_1, record)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @users('employee')
     def test_record_unlink(self):
         test_record = self.test_record.with_user(self.env.user)
@@ -783,6 +786,9 @@ class TestActivityMixin(TestActivityCommon):
         test_record.unlink()
         self.assertFalse((act1 + act2).exists(), 'Removing records should remove activities, even archived')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tests.tagged("mail_activity")

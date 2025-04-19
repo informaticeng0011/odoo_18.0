@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { parseDateTime } from "@web/core/l10n/dates";
+=======
+import { parseDateTime, deserializeDate } from "@web/core/l10n/dates";
+>>>>>>> upstream/18.0
 =======
 import { parseDateTime, deserializeDate } from "@web/core/l10n/dates";
 >>>>>>> upstream/18.0
@@ -166,7 +170,10 @@ export function lt(a, b, { decimals } = {}) {
     return floatCompare(a, b, { decimals }) < 0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function computeProductPricelistCache(service, data = []) {
     // This function is called via the addEventListener callback initiated in the
@@ -261,4 +268,7 @@ export function computeProductPricelistCache(service, data = []) {
         service._loadMissingPricelistItems(products);
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

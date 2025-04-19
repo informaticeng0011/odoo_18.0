@@ -4,6 +4,7 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Arnau Ros, 2024
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # Martin Trigaux, 2024
@@ -13,12 +14,17 @@
 # Ivan Espinola, 2024
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 =======
+=======
+>>>>>>> upstream/18.0
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # Martin Trigaux, 2024
 # Josep Anton Belchi, 2024
 # Ivan Espinola, 2024
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # Noemi Pla, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -28,7 +34,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Quim - coopdevs <quim.rebull@coopdevs.org>, 2024\n"
+=======
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Noemi Pla, 2025\n"
 >>>>>>> upstream/18.0
@@ -46,6 +56,11 @@ msgid ""
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Service's Bill</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Factura del servei</span>\n"
+"                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Factura del servei</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Factura del servei</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Factura del servei</span>"
@@ -55,7 +70,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__account_move_ids
 msgid "Account Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Moviment comptable"
+=======
+msgstr "Moviment de compte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moviment de compte"
 >>>>>>> upstream/18.0
@@ -64,7 +83,11 @@ msgstr "Moviment de compte"
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
 msgid "Account Move Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Línia de moviment del compte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Línia de moviment del compte"
 >>>>>>> upstream/18.0
@@ -74,7 +97,11 @@ msgstr "Línia de moviment del compte"
 #: code:addons/account_fleet/models/fleet_vehicle_log_services.py:0
 msgid "Bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factura "
+=======
+msgstr "Factura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factura"
 >>>>>>> upstream/18.0
@@ -98,7 +125,11 @@ msgstr "Cost"
 #: model:ir.model,name:account_fleet.model_account_automatic_entry_wizard
 msgid "Create Automatic Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crear Entrades Automàtiques"
+=======
+msgstr "Crear assentaments automàtics"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crear assentaments automàtics"
 >>>>>>> upstream/18.0
@@ -150,7 +181,11 @@ msgstr "Vehicle"
 #: model:fleet.service.type,name:account_fleet.data_fleet_service_type_vendor_bill
 msgid "Vendor Bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Factura de proveïdor "
+=======
+msgstr "Factura de proveïdor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factura de proveïdor"
 >>>>>>> upstream/18.0
@@ -163,6 +198,11 @@ msgid ""
 " created."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No pots eliminar els serveis registrats perquè alguns ja tenen una factura "
+"associada."
+>>>>>>> upstream/18.0
 =======
 "No pots eliminar els serveis registrats perquè alguns ja tenen una factura "
 "associada."
@@ -176,6 +216,11 @@ msgid ""
 "on the related accounting entry instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No pots modificar la quantitat de serveis vinculats a una línia de moviment "
+"de compte. Fes això en l'assentament comptable amb el qual està relacionat."
+>>>>>>> upstream/18.0
 =======
 "No pots modificar la quantitat de serveis vinculats a una línia de moviment "
 "de compte. Fes això en l'assentament comptable amb el qual està relacionat."
@@ -185,7 +230,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "show the vendor bills for this vehicle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "mostrar les factures del venedor d'aquest vehicle"
+=======
+msgstr "mostrar les factures del proveïdor d'aquest vehicle"
+>>>>>>> upstream/18.0
 =======
 msgstr "mostrar les factures del proveïdor d'aquest vehicle"
 >>>>>>> upstream/18.0

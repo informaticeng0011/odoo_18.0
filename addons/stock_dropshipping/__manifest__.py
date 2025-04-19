@@ -31,6 +31,10 @@ internal transfer document is needed.
         'data/stock_dropshipping_demo.xml',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': "uninstall_hook",
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': "uninstall_hook",
 >>>>>>> upstream/18.0

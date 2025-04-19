@@ -54,7 +54,10 @@ export class PaymentScreen extends Component {
     onMounted() {
         const order = this.pos.get_order();
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.pos.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 

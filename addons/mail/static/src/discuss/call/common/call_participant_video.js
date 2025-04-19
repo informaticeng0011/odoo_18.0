@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onMounted, onPatched, useExternalListener, useRef, useState } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     Component,
     onMounted,
@@ -10,6 +13,9 @@ import {
     useRef,
     useState,
 } from "@odoo/owl";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { useService } from "@web/core/utils/hooks";
 
@@ -51,6 +57,12 @@ export class CallParticipantVideo extends Component {
             this.props.session.videoError = undefined;
         } catch (error) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (status(this) === "destroyed") {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (status(this) === "destroyed") {
                 return;

@@ -342,13 +342,19 @@ export class WysiwygAdapterComponent extends Wysiwyg {
         this.odooEditor.observerActive();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _getBannerCommands() {
         return [];
     }
     _getBannerCategory() {
         return [];
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * Stop the widgets and save the content.
@@ -821,6 +827,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
                 description: _t('Insert an alert snippet'),
                 fontawesome: 'fa-info',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                keywords: ["banner", "info", "success", "warning", "danger"],
+>>>>>>> upstream/18.0
 =======
                 keywords: ["banner", "info", "success", "warning", "danger"],
 >>>>>>> upstream/18.0

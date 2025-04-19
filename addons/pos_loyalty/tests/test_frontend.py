@@ -1080,7 +1080,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_pos_tour("PosLoyalty2DiscountsSpecificGlobal")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_specific_product_discount_with_global_discount(self):
         self.env['loyalty.program'].search([]).write({'active': False})
 
@@ -1128,6 +1131,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.main_pos_config2.with_user(self.pos_user).open_ui()
         self.start_pos_tour("PosLoyaltySpecificProductDiscountWithGlobalDiscount", pos_config=self.main_pos_config2)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_point_per_money_spent(self):
         """Test the point per $ spent feature"""
@@ -2673,7 +2679,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.create_programs([('name', 'gift_card')])
         self.start_pos_tour("test_gift_card_no_date")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_physical_gift_card_invoiced(self):
         """
@@ -2696,4 +2705,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertEqual(len(gift_card_program.coupon_ids), 1, "Gift card not generated")
         self.assertEqual(gift_card_program.coupon_ids[0].code, "test-card-1234", "Gift card code not correct")
         self.assertEqual(gift_card_program.coupon_ids[0].partner_id, partner, "Gift card partner id not correct")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

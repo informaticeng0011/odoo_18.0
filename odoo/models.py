@@ -7035,6 +7035,12 @@ class BaseModel(metaclass=MetaModel):
     def __hash__(self):
         return hash((self._name, frozenset(self._ids)))
 
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
     @typing.overload
     def __getitem__(self, key: int | slice) -> Self: ...
 

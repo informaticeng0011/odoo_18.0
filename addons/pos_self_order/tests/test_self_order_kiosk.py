@@ -124,7 +124,10 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
         self_route = self.pos_config._get_self_order_route()
         self.start_tour(self_route, "test_self_order_kiosk_combo_sides")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_self_order_pricelist(self):
         # ignore pre-existing pricelists for the purpose of this test
@@ -136,7 +139,11 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
                 Command.create({
                     'compute_price': 'fixed',
                     'fixed_price': 1,
+<<<<<<< HEAD
                     'min_quantity': 2,
+=======
+                    'min_quantity': 3,
+>>>>>>> upstream/18.0
                     'applied_on': '1_product',
                     'product_tmpl_id': self.cola.product_tmpl_id.id,
                 })
@@ -156,4 +163,7 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
         self.pos_config.current_session_id.set_opening_control(0, "")
         self_route = self.pos_config._get_self_order_route()
         self.start_tour(self_route, 'self_order_pricelist')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

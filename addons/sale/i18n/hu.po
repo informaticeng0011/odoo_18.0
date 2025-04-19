@@ -17,10 +17,16 @@
 # 5768b353f27900ae76ad88cc42dfd5b8_3bb349f, 2025
 # Attila Eiler, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pammer József, 2025
 # Valics Lehel, 2025
 # gezza <geza.nagy@oregional.hu>, 2025
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2025
+=======
+# Valics Lehel, 2025
+# Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 =======
 # Valics Lehel, 2025
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2025
@@ -34,7 +40,11 @@ msgstr ""
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2025\n"
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
@@ -76,7 +86,11 @@ msgstr "%(attribute)s: %(values)s"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 msgid "%s has been created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s létrehozásra került"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s létrehozásra került"
 >>>>>>> upstream/18.0
@@ -90,7 +104,11 @@ msgstr "&amp;nbsp;"
 #: model:ir.actions.report,print_report_name:sale.action_report_pro_forma_invoice
 msgid "'PRO-FORMA - %s' % (object.name)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'PROFORMA - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "'PROFORMA - %s' % (object.name)"
 >>>>>>> upstream/18.0
@@ -102,6 +120,11 @@ msgid ""
 "'Order - %s' % (object.name)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"(object.state in ('draft', 'sent') and 'Ajánlat - %s' % (object.name)) or "
+"'Rendelés - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and 'Ajánlat - %s' % (object.name)) or "
 "'Rendelés - %s' % (object.name)"
@@ -129,8 +152,13 @@ msgid ""
 "<b>Send the quote</b> to yourself and check what the customer will receive."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Küldje el az ajánlatot</b> saját magának, hogy ellenőrízze az ügyfél "
 "által látottakat."
+=======
+"<b>Küldje el az ajánlatot</b> saját magának, hogy ellenőrizze a vevő által "
+"látottakat."
+>>>>>>> upstream/18.0
 =======
 "<b>Küldje el az ajánlatot</b> saját magának, hogy ellenőrizze a vevő által "
 "látottakat."
@@ -733,8 +761,12 @@ msgstr ""
 #: model:ir.model.constraint,message:sale.constraint_sale_order_date_order_conditional_required
 msgid "A confirmed sales order requires a confirmation date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Egy visszaigazolt rendeléshez a visszaigazolás dátumát is meg kell adni."
+=======
+msgstr "Egy megerősített rendeléshez a megerősítés dátumát is meg kell adni."
+>>>>>>> upstream/18.0
 =======
 msgstr "Egy megerősített rendeléshez a megerősítés dátumát is meg kell adni."
 >>>>>>> upstream/18.0
@@ -750,8 +782,13 @@ msgstr ""
 msgid "A note, whose content usually applies to the section or product above."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Megjegyzés, amelynek tartalma általában a fenti szakaszra vagy termékre "
 "vonatkozik."
+=======
+"Megjegyzés, amelynek tartalma általában a felette lévő szakaszra vagy "
+"termékre vonatkozik."
+>>>>>>> upstream/18.0
 =======
 "Megjegyzés, amelynek tartalma általában a felette lévő szakaszra vagy "
 "termékre vonatkozik."
@@ -788,8 +825,12 @@ msgstr ""
 #: model:res.groups,name:sale.group_warning_sale
 msgid "A warning can be set on a product or a customer (Sale)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Figyelmeztetés beállítása egy termékre vagy egy ügyfélre (Értékesítés)"
+=======
+msgstr "Figyelmeztetés beállítása egy termékre vagy egy vevőre (Értékesítés)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Figyelmeztetés beállítása egy termékre vagy egy vevőre (Értékesítés)"
 >>>>>>> upstream/18.0
@@ -939,7 +980,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Új termék"
+=======
+msgstr "Termék hozzáadása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék hozzáadása"
 >>>>>>> upstream/18.0
@@ -958,7 +1003,11 @@ msgstr "Adjon a rendeléshez termékvariációkat egy táblázat segítségével
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Allows you to send Pro-Forma Invoice to your customers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lehetővé teszi díjbekérő küldését az ügyfeleknek"
+=======
+msgstr "Lehetővé teszi díjbekérő küldését a vevőknek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lehetővé teszi díjbekérő küldését a vevőknek"
 >>>>>>> upstream/18.0
@@ -984,7 +1033,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_payment_link_wizard__amount_paid
 msgid "Already Paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fizetve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fizetve"
 >>>>>>> upstream/18.0
@@ -994,7 +1047,11 @@ msgstr "Fizetve"
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_invoiced
 msgid "Already invoiced"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázva"
 >>>>>>> upstream/18.0
@@ -1025,7 +1082,11 @@ msgstr "Számlázható ajánlatok összege"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount_to_invoice
 msgid "Amount to invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázandó összeg"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázandó összeg"
 >>>>>>> upstream/18.0
@@ -1163,7 +1224,11 @@ msgstr "Bank neve"
 #: model:ir.model.fields.selection,name:sale.selection__payment_provider__so_reference_type__partner
 msgid "Based on Customer ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Az ügyfél azonosítója alapján"
+=======
+msgstr "Vevő azonosítója alapján"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő azonosítója alapján"
 >>>>>>> upstream/18.0
@@ -1330,7 +1395,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Check a sample. It's clean!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ellenőrizzen egy mintát. Tiszta!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ellenőrizzen egy mintát. Tiszta!"
 >>>>>>> upstream/18.0
@@ -1357,7 +1426,11 @@ msgstr "Bezárás"
 #: model:ir.ui.menu,name:sale.menu_product_combos
 msgid "Combo Choices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó választások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó választások"
 >>>>>>> upstream/18.0
@@ -1366,7 +1439,11 @@ msgstr "Kombó választások"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__combo_item_id
 msgid "Combo Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó tétel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó tétel"
 >>>>>>> upstream/18.0
@@ -1375,7 +1452,11 @@ msgstr "Kombó tétel"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__module_sale_commission
 msgid "Commissions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jutalékok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jutalékok"
 >>>>>>> upstream/18.0
@@ -1420,7 +1501,11 @@ msgstr "DHL kiszállítás és szállítási költség számítás"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Easypost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Szállítási költség számítása és szállítás Easypost szolgáltatóval"
+=======
+msgstr "Easypost kiszállítás és szállítási költség számítás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Easypost kiszállítás és szállítási költség számítás"
 >>>>>>> upstream/18.0
@@ -1434,7 +1519,11 @@ msgstr "FedEx kiszállítás és szállítási költség számítás"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Sendcloud"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Szállítási költség számítása és szállítás Sendcloud szolgáltatóval"
+=======
+msgstr "Sendcloud kiszállítás és szállítási költség számítás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sendcloud kiszállítás és szállítási költség számítás"
 >>>>>>> upstream/18.0
@@ -1443,7 +1532,11 @@ msgstr "Sendcloud kiszállítás és szállítási költség számítás"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Shiprocket"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shiprocket kiszállítás és szállítási költség számítás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shiprocket kiszállítás és szállítási költség számítás"
 >>>>>>> upstream/18.0
@@ -1452,7 +1545,11 @@ msgstr "Shiprocket kiszállítás és szállítási költség számítás"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with Starshipit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starshipit kiszállítás és szállítási költség számítás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starshipit kiszállítás és szállítási költség számítás"
 >>>>>>> upstream/18.0
@@ -1492,7 +1589,11 @@ msgstr "Konfiguráció"
 #: code:addons/sale/static/src/js/product_configurator_dialog/product_configurator_dialog.js:0
 msgid "Configure your product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék konfigurálása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék konfigurálása"
 >>>>>>> upstream/18.0
@@ -1509,7 +1610,11 @@ msgstr "Megerősítés"
 #: model:ir.model.fields,field_description:sale.field_payment_link_wizard__confirmation_message
 msgid "Confirmation Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Megerősítési üzenet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Megerősítési üzenet"
 >>>>>>> upstream/18.0
@@ -1523,7 +1628,11 @@ msgstr "Összekötők"
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__consolidated_billing
 msgid "Consolidated Billing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konszolidált számlázás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konszolidált számlázás"
 >>>>>>> upstream/18.0
@@ -1566,7 +1675,11 @@ msgstr "Létrehozva"
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Piszkozat létrehozása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Piszkozat létrehozása"
 >>>>>>> upstream/18.0
@@ -1609,7 +1722,11 @@ msgstr "Hozzon létre egy új ajánlatot, ami egy új értékesítés első lép
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Create invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés tevékenység terv létrehozása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés tevékenység terv létrehozása"
 >>>>>>> upstream/18.0
@@ -1627,7 +1744,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__service_tracking
 msgid "Create on Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Létrehozás rendeléskor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Létrehozás rendeléskor"
 >>>>>>> upstream/18.0
@@ -1720,7 +1841,11 @@ msgstr "Egyéni fizetési utasítások"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ügyfél"
+=======
+msgstr "Vevő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő"
 >>>>>>> upstream/18.0
@@ -1741,7 +1866,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Customer Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevő iparág"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő iparág"
 >>>>>>> upstream/18.0
@@ -1765,7 +1894,11 @@ msgstr "Vevői aláírás"
 #: model:ir.model.fields,field_description:sale.field_sale_report__state_id
 msgid "Customer State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevő állam/megye"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő állam/megye"
 >>>>>>> upstream/18.0
@@ -1774,7 +1907,11 @@ msgstr "Vevő állam/megye"
 #: model:ir.model.fields,field_description:sale.field_sale_report__partner_zip
 msgid "Customer ZIP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevő irányító szám"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő irányító szám"
 >>>>>>> upstream/18.0
@@ -1825,7 +1962,11 @@ msgstr "Előlegek levonása"
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__quotation_validity_days
 msgid "Default Quotation Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajánlat alapértelmezett érvényessége"
+=======
+msgstr "Alapértelmezett ajánlat érvényesség"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alapértelmezett ajánlat érvényesség"
 >>>>>>> upstream/18.0
@@ -1844,8 +1985,13 @@ msgid ""
 "this Company includes its taxes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alapértelmezett, hogy a terméken és a számlákon használt értékesítési ár "
 "tartalmazza-e a cég adóit."
+=======
+"Alapértelmezésben a terméken és a számlákon használt értékesítési ár "
+"tartalmazza a vállalat adóit."
+>>>>>>> upstream/18.0
 =======
 "Alapértelmezésben a terméken és a számlákon használt értékesítési ár "
 "tartalmazza a vállalat adóit."
@@ -1862,7 +2008,11 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_res_company__sale_discount_product_id
 msgid "Default product used for discounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kedvezményekhez használt alapértelmezett termék"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kedvezményekhez használt alapértelmezett termék"
 >>>>>>> upstream/18.0
@@ -1871,7 +2021,11 @@ msgstr "Kedvezményekhez használt alapértelmezett termék"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Deliver Content by Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tartalom kézbesítése e-mailben"
+=======
+msgstr "Tartalom kézbesítése emailben"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tartalom kézbesítése emailben"
 >>>>>>> upstream/18.0
@@ -1965,7 +2119,11 @@ msgstr "Kedvezmény %"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount %(percent)s%%"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kedvezmény %(percent)s%%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kedvezmény %(percent)s%%"
 >>>>>>> upstream/18.0
@@ -1995,7 +2153,11 @@ msgstr "Termék kedvezmény"
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__discount_type
 msgid "Discount Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kedvezmény típus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kedvezmény típus"
 >>>>>>> upstream/18.0
@@ -2004,7 +2166,11 @@ msgstr "Kedvezmény típus"
 #: model:ir.model,name:sale.model_sale_order_discount
 msgid "Discount Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kedvezmény varázsló"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kedvezmény varázsló"
 >>>>>>> upstream/18.0
@@ -2085,7 +2251,11 @@ msgstr "Előleg"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Down Payment (Cancelled)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Előleg (visszavont)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Előleg (visszavont)"
 >>>>>>> upstream/18.0
@@ -2166,7 +2336,11 @@ msgstr "Piszkozat számlák"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Duplicated Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Megkettőzött dokumentumok"
+=======
+msgstr "Duplikált dokumentumok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duplikált dokumentumok"
 >>>>>>> upstream/18.0
@@ -2175,7 +2349,11 @@ msgstr "Duplikált dokumentumok"
 #: model:ir.model.fields,field_description:sale.field_sale_order__duplicated_order_ids
 msgid "Duplicated Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duplikált rendelés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duplikált rendelés"
 >>>>>>> upstream/18.0
@@ -2278,9 +2456,15 @@ msgid ""
 "customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A pénzügyi pozíció az adók és a könyvelési mód meghatározására szolgálnak az"
 " ügyfelekkel, a rendelésekkel, vagy a számlákkal kapcsolatban. Az "
 "alapértelmezett érték az ügyféltől származik."
+=======
+"A pénzügyi pozíció az adók és a könyvelési mód meghatározására szolgálnak "
+"vevőkkel, rendelésekkel, vagy számlákkal kapcsolatban. Az alapértelmezett "
+"érték a vevői adatokból származik."
+>>>>>>> upstream/18.0
 =======
 "A pénzügyi pozíció az adók és a könyvelési mód meghatározására szolgálnak "
 "vevőkkel, rendelésekkel, vagy számlákkal kapcsolatban. Az alapértelmezett "
@@ -2380,7 +2564,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_discount__discount_type__so_discount
 msgid "Global Discount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Globális kedvezmény"
+>>>>>>> upstream/18.0
 =======
 msgstr "Globális kedvezmény"
 >>>>>>> upstream/18.0
@@ -2390,7 +2578,11 @@ msgstr "Globális kedvezmény"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Go ahead and send the quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Küldje el az ajánlatot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Küldje el az ajánlatot"
 >>>>>>> upstream/18.0
@@ -2428,7 +2620,11 @@ msgstr "Aktív árlista"
 #: model:ir.model.fields,field_description:sale.field_sale_order__has_archived_products
 msgid "Has Archived Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vannak archivált termékek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vannak archivált termékek"
 >>>>>>> upstream/18.0
@@ -2442,7 +2638,11 @@ msgstr "Megerősített rendelés"
 #: model:ir.model.fields,field_description:sale.field_sale_order__show_update_fpos
 msgid "Has Fiscal Position Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Megváltozott a pénzügyi pozíció"
+=======
+msgstr "Megváltozott pénzügyi pozíció"
+>>>>>>> upstream/18.0
 =======
 msgstr "Megváltozott pénzügyi pozíció"
 >>>>>>> upstream/18.0
@@ -2533,7 +2733,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Immediate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azonnali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azonnali"
 >>>>>>> upstream/18.0
@@ -2884,7 +3088,11 @@ msgstr "Kapcsolt rendelési sor"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_line_ids
 msgid "Linked Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kapcsolt rendelési sorok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kapcsolt rendelési sorok"
 >>>>>>> upstream/18.0
@@ -2941,7 +3149,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__qty_delivered_method__manual
 msgid "Manual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Manuális"
+=======
+msgstr "Kézi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kézi"
 >>>>>>> upstream/18.0
@@ -3155,7 +3367,11 @@ msgid ""
 "products to the customer"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A rendelés megerősítése és a termékek ügyfélhez történő kiszállítása között "
+=======
+"A rendelés megerősítése és a termékek vevőhöz történő kiszállítása között "
+>>>>>>> upstream/18.0
 =======
 "A rendelés megerősítése és a termékek vevőhöz történő kiszállítása között "
 >>>>>>> upstream/18.0
@@ -3223,8 +3439,13 @@ msgid ""
 "order.<br> You will be able to create an invoice and collect the payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ha az árajánlatot az ügyfél elfogadja, az megrendeléssé válik.<br> Önnek "
 "lehetősége lesz számlát kibocsátani és fizetést elfogadni."
+=======
+"Ha az ajánlatot a vevő elfogadja, akkor rendeléssé válik.<br> Lehetséges "
+"lesz számlát kibocsátani és fizetést elfogadni."
+>>>>>>> upstream/18.0
 =======
 "Ha az ajánlatot a vevő elfogadja, akkor rendeléssé válik.<br> Lehetséges "
 "lesz számlát kibocsátani és fizetést elfogadni."
@@ -3237,8 +3458,13 @@ msgid ""
 "able to create an invoice and collect the payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ha az árajánlatot az ügyfél elfogadja, az megrendeléssé válik.<br> Önnek "
 "lehetősége lesz számlát kibocsátani és fizetést elfogadni."
+=======
+"Ha az ajánlat megerősítésre kerül, akkor rendeléssé válik.<br> Lehetőség "
+"lesz számlát kibocsátani és fizetést elfogadni."
+>>>>>>> upstream/18.0
 =======
 "Ha az ajánlat megerősítésre kerül, akkor rendeléssé válik.<br> Lehetőség "
 "lesz számlát kibocsátani és fizetést elfogadni."
@@ -3281,7 +3507,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "Only draft orders can be marked as sent directly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Csak a megrendelés tervezetek jelölhetők közvetlenül elküldöttnek."
+=======
+msgstr "Csak a piszkozat rendelések jelölhetők közvetlenül elküldöttnek."
+>>>>>>> upstream/18.0
 =======
 msgstr "Csak a piszkozat rendelések jelölhetők közvetlenül elküldöttnek."
 >>>>>>> upstream/18.0
@@ -3309,7 +3539,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Option: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opció: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opció: %s"
 >>>>>>> upstream/18.0
@@ -3328,9 +3562,15 @@ msgid ""
 "(cross-sell strategy, e.g. for computers: warranty, software, etc.)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A választható termékek felkínálásra kerülnek amikor a vásárló leüti a "
 "*Kosárhoz adás* gombot (kereszt-értékesítés stratégia, pl. számítógépekhez: "
 "garancia, szoftver, stb.)."
+=======
+"A választható termékek felkínálásra kerülnek amikor a vevő leüti a *Kosárhoz"
+" adás* gombot (kereszt-értékesítés stratégia, pl. számítógépekhez: garancia,"
+" szoftver, stb.)."
+>>>>>>> upstream/18.0
 =======
 "A választható termékek felkínálásra kerülnek amikor a vevő leüti a *Kosárhoz"
 " adás* gombot (kereszt-értékesítés stratégia, pl. számítógépekhez: garancia,"
@@ -3346,7 +3586,11 @@ msgid ""
 "object.partner_id.lang }}."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Opcionális fordítási nyelv (ISO kód), mely e-mail küldése során választható "
+=======
+"Opcionális fordítási nyelv (ISO kód), mely email küldése során választható "
+>>>>>>> upstream/18.0
 =======
 "Opcionális fordítási nyelv (ISO kód), mely email küldése során választható "
 >>>>>>> upstream/18.0
@@ -3386,7 +3630,11 @@ msgstr "Rendelések száma"
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Order Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Megrendelés dátuma"
+=======
+msgstr "Rendelés dátuma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendelés dátuma"
 >>>>>>> upstream/18.0
@@ -3395,7 +3643,11 @@ msgstr "Rendelés dátuma"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Order Date:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Megrendelés dátuma:"
+=======
+msgstr "Rendelés dátuma:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendelés dátuma:"
 >>>>>>> upstream/18.0
@@ -3404,7 +3656,11 @@ msgstr "Rendelés dátuma:"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Order Date: Last 365 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Megrendelés dátuma: elmúlt 365 nap"
+=======
+msgstr "Rendelés dátuma: elmúlt 365 nap"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendelés dátuma: elmúlt 365 nap"
 >>>>>>> upstream/18.0
@@ -3463,7 +3719,11 @@ msgid ""
 msgstr ""
 "Rendelt mennyiség: számlázás a vevő által rendelt mennyiség alapján.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kiszállított mennyiség: számlázás vevő részére kiszállított mennyiség alapján."
+=======
+"Kiszállított mennyiség: számlázás a vevő részére kiszállított mennyiség alapján."
+>>>>>>> upstream/18.0
 =======
 "Kiszállított mennyiség: számlázás a vevő részére kiszállított mennyiség alapján."
 >>>>>>> upstream/18.0
@@ -3754,7 +4014,11 @@ msgstr "Termék képe"
 #: model:ir.model,name:sale.model_product_packaging
 msgid "Product Packaging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Termékcsomagolás"
+=======
+msgstr "Termék csomagolás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék csomagolás"
 >>>>>>> upstream/18.0
@@ -3773,7 +4037,11 @@ msgstr "Terméksablon"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_type
 msgid "Product Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Terméktípus"
+=======
+msgstr "Termék típus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék típus"
 >>>>>>> upstream/18.0
@@ -3801,7 +4069,11 @@ msgstr "Termékváltozatok"
 #: code:addons/sale/models/sale_order.py:0
 msgid "Product prices have been recomputed according to pricelist %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A termékárak újra lettek számolva a(z) %s árlista alapján."
+=======
+msgstr "A termékárak újra lettek számítva a(z) %s árlista alapján."
+>>>>>>> upstream/18.0
 =======
 msgstr "A termékárak újra lettek számítva a(z) %s árlista alapján."
 >>>>>>> upstream/18.0
@@ -3818,7 +4090,11 @@ msgstr ""
 msgid "Product taxes have been recomputed according to fiscal position %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A kalkulált adó újra lett számolva a %s pénzügyi pozíciónak megfelelően."
+=======
+"A kalkulált adó újra lett számítva a(z) %s pénzügyi pozíciónak megfelelően."
+>>>>>>> upstream/18.0
 =======
 "A kalkulált adó újra lett számítva a(z) %s pénzügyi pozíciónak megfelelően."
 >>>>>>> upstream/18.0
@@ -4019,7 +4295,11 @@ msgstr "Címzettek"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_view_form
 msgid "Recommend when 'Adding to Cart' or quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ajánlás a „Kosárba helyezés” vagy ajánlatadáshoz"
+=======
+msgstr "Ajánlás „Kosárba helyezés” vagy ajánlat esetén"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlás „Kosárba helyezés” vagy ajánlat esetén"
 >>>>>>> upstream/18.0
@@ -4028,7 +4308,11 @@ msgstr "Ajánlás „Kosárba helyezés” vagy ajánlat esetén"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all prices based on this pricelist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Árak újraszámolása az árlistának megfelelően"
+=======
+msgstr "Árak újraszámítása az árlista alapján"
+>>>>>>> upstream/18.0
 =======
 msgstr "Árak újraszámítása az árlista alapján"
 >>>>>>> upstream/18.0
@@ -4037,7 +4321,11 @@ msgstr "Árak újraszámítása az árlista alapján"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Recompute all taxes based on this fiscal position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adók újraszámolása a fiskális pozíciónak megfelelően"
+=======
+msgstr "Adók újraszámítása a pénzügyi pozíció alapján"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adók újraszámítása a pénzügyi pozíció alapján"
 >>>>>>> upstream/18.0
@@ -4286,7 +4574,11 @@ msgstr "Vevői rendelés"
 #: model:ir.model,name:sale.model_sale_order_cancel
 msgid "Sales Order Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vevői rendelés visszavonása"
+=======
+msgstr "Vevői rendelés visszavonás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés visszavonás"
 >>>>>>> upstream/18.0
@@ -4396,7 +4688,11 @@ msgstr "Értékesítési ár"
 #: model:mail.template,name:sale.mail_template_sale_cancellation
 msgid "Sales: Order Cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Értékesítés: rendelés visszavonása"
+=======
+msgstr "Értékesítés: Rendelés visszavonása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Értékesítés: Rendelés visszavonása"
 >>>>>>> upstream/18.0
@@ -4405,7 +4701,11 @@ msgstr "Értékesítés: Rendelés visszavonása"
 #: model:mail.template,name:sale.mail_template_sale_confirmation
 msgid "Sales: Order Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Értékesítés: rendelés megerősítése"
+=======
+msgstr "Értékesítés: Rendelés megerősítése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Értékesítés: Rendelés megerősítése"
 >>>>>>> upstream/18.0
@@ -4524,7 +4824,11 @@ msgstr "Küldjön termékspecifikus email üzenetet a számla jóváhagyásakor"
 #: model:ir.actions.server,name:sale.model_sale_order_send_mail
 msgid "Send an email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail küldése"
+=======
+msgstr "Email küldése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email küldése"
 >>>>>>> upstream/18.0
@@ -4715,7 +5019,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Státusz"
+=======
+msgstr "Állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Állapot"
 >>>>>>> upstream/18.0
@@ -5284,7 +5592,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_template__service_type
 msgid "Track Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Szolgáltatás nyomkövetése"
+=======
+msgstr "Szolgáltatás nyomon követése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szolgáltatás nyomon követése"
 >>>>>>> upstream/18.0
@@ -5309,7 +5621,11 @@ msgstr "Típus neve"
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
 msgid "Type a message..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Írj egy üzenetet..."
+=======
+msgstr "Írjon egy üzenetet..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Írjon egy üzenetet..."
 >>>>>>> upstream/18.0
@@ -5528,7 +5844,11 @@ msgstr "Figyelmeztetés"
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "Warning for %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Figyelmeztetés erre %s"
+=======
+msgstr "Figyelmeztetés erre: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Figyelmeztetés erre: %s"
 >>>>>>> upstream/18.0
@@ -5543,7 +5863,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
 msgid "Warning on the Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Figyelmeztetés az értékesítési rendelésen"
+=======
+msgstr "Figyelmeztetés a vevői rendelésen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Figyelmeztetés a vevői rendelésen"
 >>>>>>> upstream/18.0
@@ -5578,7 +5902,11 @@ msgid ""
 msgstr ""
 "Nem törölhet egy elküldött ajánlatot, vagy egy megerősített rendelést. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ezeket először vissza kell vonja."
+=======
+"Ezeket először vissza kell vonni."
+>>>>>>> upstream/18.0
 =======
 "Ezeket először vissza kell vonni."
 >>>>>>> upstream/18.0
@@ -5673,7 +6001,11 @@ msgstr "Visszajelzés szövege..."
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order has been confirmed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A megrendelés megerősítésre került"
+=======
+msgstr "A rendelés megerősítésre került"
+>>>>>>> upstream/18.0
 =======
 msgstr "A rendelés megerősítésre került"
 >>>>>>> upstream/18.0
@@ -5683,8 +6015,12 @@ msgstr "A rendelés megerősítésre került"
 msgid "Your order has been signed but still needs to be paid to be confirmed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A megrendelés aláírásra került, de csak kiegyenlítés után kerül "
 "megerősítésre."
+=======
+"A rendelés aláírásra került, de csak kiegyenlítés után kerül megerősítésre."
+>>>>>>> upstream/18.0
 =======
 "A rendelés aláírásra került, de csak kiegyenlítés után kerül megerősítésre."
 >>>>>>> upstream/18.0
@@ -5693,7 +6029,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order has been signed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A megrendelés aláírásra került."
+=======
+msgstr "A rendelés aláírásra került."
+>>>>>>> upstream/18.0
 =======
 msgstr "A rendelés aláírásra került."
 >>>>>>> upstream/18.0
@@ -5702,7 +6042,11 @@ msgstr "A rendelés aláírásra került."
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order is not in a state to be rejected."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A megrendelés nincs olyan állapotban, hogy elutasításra kerülhetne."
+=======
+msgstr "A rendelés nincs olyan állapotban, hogy elutasításra kerülhetne."
+>>>>>>> upstream/18.0
 =======
 msgstr "A rendelés nincs olyan állapotban, hogy elutasításra kerülhetne."
 >>>>>>> upstream/18.0
@@ -5768,7 +6112,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "sale order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "értékesítési rendelés"
+=======
+msgstr "vevői rendelés"
+>>>>>>> upstream/18.0
 =======
 msgstr "vevői rendelés"
 >>>>>>> upstream/18.0
@@ -5784,7 +6132,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "units"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "egységek"
+=======
+msgstr "egység"
+>>>>>>> upstream/18.0
 =======
 msgstr "egység"
 >>>>>>> upstream/18.0

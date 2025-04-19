@@ -103,7 +103,10 @@ class TestPeppolParticipant(TransactionCase):
         self.env.context = previous_context
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_ignore_archived_edi_users(self):
         wizard = self.env['peppol.registration'].create(self._get_participant_vals())
         wizard.button_peppol_sender_registration()
@@ -120,6 +123,9 @@ class TestPeppolParticipant(TransactionCase):
         }])
         self.env.company.with_context(active_test=False).partner_id.button_account_peppol_check_partner_endpoint()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_create_participant_missing_data(self):
         # creating a participant without eas/endpoint/document should not be possible

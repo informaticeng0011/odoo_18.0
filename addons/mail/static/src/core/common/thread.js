@@ -584,6 +584,12 @@ export class Thread extends Component {
             return false;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (msg.is_note) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (msg.is_note) {
             return false;

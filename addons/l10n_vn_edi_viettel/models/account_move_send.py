@@ -35,16 +35,22 @@ class AccountMoveSend(models.AbstractModel):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_placeholder_mail_attachments_data(self, move, extra_edis=None):
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, extra_edis=extra_edis)
         partner_edi_format = self._get_default_invoice_edi_format(move)
         if partner_edi_format == 'vn_sinvoice' and move._l10n_vn_edi_get_credentials_company():
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis)
         if invoice_edi_format == 'vn_sinvoice' and move._l10n_vn_edi_get_credentials_company():
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             results.extend([{
                 'id': 'placeholder_sinvoice.pdf',

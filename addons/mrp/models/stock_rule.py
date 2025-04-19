@@ -177,7 +177,11 @@ class StockRule(models.Model):
         # Use the procurement group created in _run_pull mrp override
         # Preserve the origin from the original stock move, if available
 <<<<<<< HEAD
+<<<<<<< HEAD
         if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and values['move_dest_ids'][0].origin != values['group_id'].name:
+=======
+        if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and not values['move_dest_ids'][0].origin.startswith(values['group_id'].name):
+>>>>>>> upstream/18.0
 =======
         if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and not values['move_dest_ids'][0].origin.startswith(values['group_id'].name):
 >>>>>>> upstream/18.0

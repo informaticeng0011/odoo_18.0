@@ -156,7 +156,10 @@ registry.category("web_tour.tours").add("test_gift_card_no_date", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_physical_gift_card_invoiced", {
     steps: () =>
@@ -176,4 +179,7 @@ registry.category("web_tour.tours").add("test_physical_gift_card_invoiced", {
             ReceiptScreen.isShown(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -5,7 +5,10 @@ class AccountMoveSendBatchWizard(models.TransientModel):
     _inherit = 'account.move.send.batch.wizard'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_summary_data(self):
         # EXTENDS 'account' - add checking of partner's validity
         for wizard in self:
@@ -14,6 +17,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
                     move.commercial_partner_id.button_account_peppol_check_partner_endpoint(company=move.company_id)
         super()._compute_summary_data()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def action_send_and_print(self, force_synchronous=False, allow_fallback_pdf=False):
         # EXTENDS 'account'

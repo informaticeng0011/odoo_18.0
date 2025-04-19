@@ -39,6 +39,7 @@ msgid ""
 "            </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p class=\"o_view_nocontent_smiling_face\"> آدرس‌ها را به لیست مجاز اضافه "
 "کنید </p><p> برای حفاظت شما از اسپم و حلقه‌های پاسخ، اودو به‌طور خودکار "
 "ایمیل‌هایی را که به گذرگاه شما می‌آیند پس از رسیدن به محدودیت "
@@ -46,6 +47,10 @@ msgstr ""
 "برخی آدرس‌ها وجود دارند که نیاز دارید از آن‌ها به‌طور بسیار مکرر به‌روزرسانی"
 " دریافت کنید، می‌توانید آن‌ها را در زیر اضافه کنید و اودو اجازه عبور به "
 "آن‌ها را می‌دهد. </p>"
+=======
+"\n"
+"<p class=\"o_view_nocontent_smiling_face\"> آدرس‌ها را به لیست مجاز اضافه کنید </p><p> برای حفاظت شما از اسپم و حلقه‌های پاسخ، اودو به‌طور خودکار ایمیل‌هایی را که به گذرگاه شما می‌آیند پس از رسیدن به محدودیت <b>%(threshold)i</b> ایمیل در هر <b>%(minutes)i</b> دقیقه مسدود می‌کند. اگر برخی آدرس‌ها وجود دارند که نیاز دارید از آن‌ها به‌طور بسیار مکرر به‌روزرسانی دریافت کنید، می‌توانید آن‌ها را در زیر اضافه کنید و اودو اجازه عبور به آن‌ها را می‌دهد. </p>"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "<p class=\"o_view_nocontent_smiling_face\"> آدرس‌ها را به لیست مجاز اضافه کنید </p><p> برای حفاظت شما از اسپم و حلقه‌های پاسخ، اودو به‌طور خودکار ایمیل‌هایی را که به گذرگاه شما می‌آیند پس از رسیدن به محدودیت <b>%(threshold)i</b> ایمیل در هر <b>%(minutes)i</b> دقیقه مسدود می‌کند. اگر برخی آدرس‌ها وجود دارند که نیاز دارید از آن‌ها به‌طور بسیار مکرر به‌روزرسانی دریافت کنید، می‌توانید آن‌ها را در زیر اضافه کنید و اودو اجازه عبور به آن‌ها را می‌دهد. </p>"
@@ -109,7 +114,11 @@ msgstr ""
 #: code:addons/mail/static/src/core/common/message_reaction_list.js:0
 msgid "%(emoji)s reacted by %(person)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(emoji)s واکنش توسط %(person)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(emoji)s واکنش توسط %(person)s"
 >>>>>>> upstream/18.0
@@ -119,7 +128,11 @@ msgstr "%(emoji)s واکنش توسط %(person)s"
 #: code:addons/mail/static/src/core/common/message_reaction_list.js:0
 msgid "%(emoji)s reacted by %(person1)s and %(person2)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(emoji)s واکنش توسط %(person1)s و %(person2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(emoji)s واکنش توسط %(person1)s و %(person2)s"
 >>>>>>> upstream/18.0
@@ -212,7 +225,11 @@ msgstr ""
 #: code:addons/mail/static/src/core/web/base_recipients_list.js:0
 msgid "%(recipientCount)s more"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(recipientCount)s بیشتر"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(recipientCount)s بیشتر"
 >>>>>>> upstream/18.0
@@ -231,6 +248,11 @@ msgid ""
 "%(goto_all)sSee all threads%(goto_all_end)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(user)s یک تاپیک ایجاد شده: %(goto)s%(thread_name)s%(goto_end)s. "
+"%(goto_all)sدیدن همه تاپیک ها%(goto_all_end)s."
+>>>>>>> upstream/18.0
 =======
 "%(user)s یک تاپیک ایجاد شده: %(goto)s%(thread_name)s%(goto_end)s. "
 "%(goto_all)sدیدن همه تاپیک ها%(goto_all_end)s."
@@ -296,7 +318,11 @@ msgstr "%s پیام‌ها پیدا شد"
 #: code:addons/mail/static/src/core/common/thread.js:0
 msgid "%s new messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s پیام جدید"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s پیام جدید"
 >>>>>>> upstream/18.0
@@ -369,7 +395,11 @@ msgstr "(اول محول شده به"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_invite
 msgid ") added you as a follower of this"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ") شما را به عنوان دنبال کننده این اضافه کرد"
+>>>>>>> upstream/18.0
 =======
 msgstr ") شما را به عنوان دنبال کننده این اضافه کرد"
 >>>>>>> upstream/18.0
@@ -380,7 +410,13 @@ msgid ""
 ",\n"
 "    <br/><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "،<br/><br/>"
+=======
+msgstr ""
+",\n"
+"    <br/><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 ",\n"
@@ -398,7 +434,11 @@ msgstr ". جستجوی خود را محدود کنید تا گزینه‌های 
 #: code:addons/mail/static/src/core/common/thread.js:0
 msgid "1 new message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 پیام جدید"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 پیام جدید"
 >>>>>>> upstream/18.0
@@ -420,6 +460,11 @@ msgid ""
 "your inbox."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<button>تنظیمات برگزیده خود را تغییر دهید</button> تا اعلان های جدید را در "
+"صندوق ورودی خود دریافت کنید"
+>>>>>>> upstream/18.0
 =======
 "<button>تنظیمات برگزیده خود را تغییر دهید</button> تا اعلان های جدید را در "
 "صندوق ورودی خود دریافت کنید"
@@ -429,7 +474,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_kanban_open_target
 msgid "<i class=\"fa fa-check\"/> Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-check\"/> انجام شد"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-check\"/> انجام شد"
 >>>>>>> upstream/18.0
@@ -450,7 +499,11 @@ msgstr "<i class=\"fa fa-globe\" aria-label=\"Document url\"/>"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_kanban_open_target
 msgid "<i class=\"fa fa-times\"/> Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-times\"/> لغو"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-times\"/> لغو"
 >>>>>>> upstream/18.0
@@ -475,6 +528,12 @@ msgid ""
 "Start your message with <i>'/'</i> to get the list of possible commands.</p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<p><b>پیامی </b> برای اعضای این کانال بنویسید.</p> <p>شما میتوانید فردی را "
+"با <i>'@'</i> یا لینک کردن در کانال دیگر با  <i>'#'</i>مطلع کنید. پیام را با"
+" <i>'/'</i> شروع کنید تا لیست دستورات ممکن را دریافت کنید.</p>"
+>>>>>>> upstream/18.0
 =======
 "<p><b>پیامی </b> برای اعضای این کانال بنویسید.</p> <p>شما میتوانید فردی را "
 "با <i>'@'</i> یا لینک کردن در کانال دیگر با  <i>'#'</i>مطلع کنید. پیام را با"
@@ -490,6 +549,12 @@ msgid ""
 "marketing, product XYZ, after work party, etc).</p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<p>کانال ها سازماندهی اطلاعات را در موضوعات و گروه های مختلف آسان می "
+"کنند.</p> <p>سعی کنید تا <b>اولین کانال تان را بسازید</b>(به عنوان مثال "
+"فروش، بازاریابی، محصول XYZ، مهمانی بعد از کار و غیره) .</p>"
+>>>>>>> upstream/18.0
 =======
 "<p>کانال ها سازماندهی اطلاعات را در موضوعات و گروه های مختلف آسان می "
 "کنند.</p> <p>سعی کنید تا <b>اولین کانال تان را بسازید</b>(به عنوان مثال "
@@ -618,7 +683,11 @@ msgstr ""
 #: code:addons/mail/models/mail_scheduled_message.py:0
 msgid "A Scheduled Message cannot be scheduled in the past"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یک پیام برنامه ریزی شده را نمی توان در گذشته برنامه ریزی کرد"
+>>>>>>> upstream/18.0
 =======
 msgstr "یک پیام برنامه ریزی شده را نمی توان در گذشته برنامه ریزی کرد"
 >>>>>>> upstream/18.0
@@ -652,7 +721,11 @@ msgstr "چت نباید با بیش از ۲ نفر ایجاد شود. به جا�
 #: code:addons/mail/wizard/mail_compose_message.py:0
 msgid "A message can only be scheduled in monocomment mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یک پیام فقط در حالت تک کامنت قابل برنامه ریزی است"
+>>>>>>> upstream/18.0
 =======
 msgstr "یک پیام فقط در حالت تک کامنت قابل برنامه ریزی است"
 >>>>>>> upstream/18.0
@@ -663,7 +736,11 @@ msgstr "یک پیام فقط در حالت تک کامنت قابل برنامه
 msgid ""
 "A message cannot be scheduled on a model that does not have a mail thread."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "یک پیام را نمی توان در مدلی که رشته ایمیل ندارد برنامه ریزی کرد."
+>>>>>>> upstream/18.0
 =======
 msgstr "یک پیام را نمی توان در مدلی که رشته ایمیل ندارد برنامه ریزی کرد."
 >>>>>>> upstream/18.0
@@ -686,7 +763,11 @@ msgstr ""
 #: code:addons/mail/models/mail_scheduled_message.py:0
 msgid "A scheduled message could not be sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پیام برنامه ریزی شده ارسال نشد"
+>>>>>>> upstream/18.0
 =======
 msgstr "پیام برنامه ریزی شده ارسال نشد"
 >>>>>>> upstream/18.0
@@ -723,7 +804,11 @@ msgstr "پذیرفتن"
 #: code:addons/mail/static/src/discuss/call/common/call_invitation.xml:0
 msgid "Accept with camera"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پذیرفتن با دوربین"
+>>>>>>> upstream/18.0
 =======
 msgstr "پذیرفتن با دوربین"
 >>>>>>> upstream/18.0
@@ -846,7 +931,11 @@ msgstr "فعالیت ها"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_plan_view_form
 msgid "Activities To Create"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فعالیت هایی برای ایجاد"
+>>>>>>> upstream/18.0
 =======
 msgstr "فعالیت هایی برای ایجاد"
 >>>>>>> upstream/18.0
@@ -888,7 +977,11 @@ msgstr "میکسین فعالیت"
 #: model:ir.ui.menu,name:mail.menu_mail_activities
 msgid "Activity Overview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بررسی اجمالی فعالیت"
+>>>>>>> upstream/18.0
 =======
 msgstr "بررسی اجمالی فعالیت"
 >>>>>>> upstream/18.0
@@ -939,7 +1032,11 @@ msgstr "آیکون نوع فعالیت"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_kanban
 msgid "Activity Type Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نام نوع فعالیت"
+>>>>>>> upstream/18.0
 =======
 msgstr "نام نوع فعالیت"
 >>>>>>> upstream/18.0
@@ -963,6 +1060,11 @@ msgid ""
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"برنامه های فعالیت برای اختصاص لیستی از فعالیت ها تنها با چند کلیک استفاده می شود\n"
+"                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
+>>>>>>> upstream/18.0
 =======
 "برنامه های فعالیت برای اختصاص لیستی از فعالیت ها تنها با چند کلیک استفاده می شود\n"
 "                    (e.g. \"Onboarding\", \"Prospect Follow-up\", \"Project Milestone Meeting\", ...)"
@@ -1008,7 +1110,11 @@ msgstr "افزودن دنبال کننده"
 #: code:addons/mail/static/src/core/common/message_reactions.xml:0
 msgid "Add Reaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "افزودن واکنش"
+>>>>>>> upstream/18.0
 =======
 msgstr "افزودن واکنش"
 >>>>>>> upstream/18.0
@@ -1059,7 +1165,11 @@ msgstr "افزودن یک آدرس ایمیل به لیست سیاه"
 #: model_terms:ir.ui.view,arch_db:mail.mail_wizard_invite_form
 msgid "Add and close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "افزودن و خروج"
+>>>>>>> upstream/18.0
 =======
 msgstr "افزودن و خروج"
 >>>>>>> upstream/18.0
@@ -1074,7 +1184,11 @@ msgstr "اضافه به عنوان گیرنده و دنبال‌کننده (دل
 #: model_terms:ir.ui.view,arch_db:mail.mail_wizard_invite_form
 msgid "Add contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "افزودن مخاطبین"
+>>>>>>> upstream/18.0
 =======
 msgstr "افزودن مخاطبین"
 >>>>>>> upstream/18.0
@@ -1090,7 +1204,11 @@ msgstr "افزودن تماس ها برای درجریان قرار دادن..."
 #: code:addons/mail/static/src/core/web/follower_list.js:0
 msgid "Add followers to this document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پیروان را به این سند اضافه کنید"
+>>>>>>> upstream/18.0
 =======
 msgstr "پیروان را به این سند اضافه کنید"
 >>>>>>> upstream/18.0
@@ -1151,7 +1269,11 @@ msgstr "تنظیمات پیشرفته"
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_plan_template__delay_from__after_plan_date
 msgid "After Plan Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بعد از تاریخ طرح"
+>>>>>>> upstream/18.0
 =======
 msgstr "بعد از تاریخ طرح"
 >>>>>>> upstream/18.0
@@ -1344,7 +1466,11 @@ msgstr "همه پیام‌ها"
 #: code:addons/mail/static/src/discuss/core/common/notification_settings.xml:0
 msgid "All conversations have been muted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "همه مکالمات بی صدا شده اند"
+>>>>>>> upstream/18.0
 =======
 msgstr "همه مکالمات بی صدا شده اند"
 >>>>>>> upstream/18.0
@@ -1393,7 +1519,11 @@ msgstr "هنگام ارسال ایمیل خطایی رخ داد"
 #: code:addons/mail/static/src/core/common/failure_model.js:0
 msgid "An error occurred when sending an email on “%(record_name)s”"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هنگام ارسال ایمیل خطایی روی داد “%(record_name)s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "هنگام ارسال ایمیل خطایی روی داد “%(record_name)s”"
 >>>>>>> upstream/18.0
@@ -1462,7 +1592,11 @@ msgstr "بایگانی شده زیرا %(user_name)s (#%(user_id)s) حساب پ�
 #: code:addons/mail/static/src/chatter/web/scheduled_message.js:0
 msgid "Are you sure you want to cancel the scheduled message?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آیا مطمئن هستید که می خواهید پیام برنامه ریزی شده را لغو کنید؟"
+>>>>>>> upstream/18.0
 =======
 msgstr "آیا مطمئن هستید که می خواهید پیام برنامه ریزی شده را لغو کنید؟"
 >>>>>>> upstream/18.0
@@ -1472,7 +1606,11 @@ msgstr "آیا مطمئن هستید که می خواهید پیام برنام�
 #: code:addons/mail/static/src/core/web/mail_composer_template_selector.js:0
 msgid "Are you sure you want to delete \"%(template_name)s\"?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آیا مطمئن هستید که می خواهید حذف کنید \"%(template_name)s\"؟"
+>>>>>>> upstream/18.0
 =======
 msgstr "آیا مطمئن هستید که می خواهید حذف کنید \"%(template_name)s\"؟"
 >>>>>>> upstream/18.0
@@ -1511,6 +1649,10 @@ msgstr ""
 msgid "Are you sure you want to unblacklist this email address?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"آیا مطمئن هستید که می خواهید این آدرس ایمیل را از لیست سیاه خارج کنید؟"
+>>>>>>> upstream/18.0
 =======
 "آیا مطمئن هستید که می خواهید این آدرس ایمیل را از لیست سیاه خارج کنید؟"
 >>>>>>> upstream/18.0
@@ -1520,7 +1662,11 @@ msgstr ""
 #: code:addons/mail/static/src/core/web/mail_composer_template_selector.js:0
 msgid "Are your sure you want to update \"%(template_name)s\"?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آیا مطمئن هستید که می خواهید به روز رسانی کنید \"%(template_name)s\"؟"
+>>>>>>> upstream/18.0
 =======
 msgstr "آیا مطمئن هستید که می خواهید به روز رسانی کنید \"%(template_name)s\"؟"
 >>>>>>> upstream/18.0
@@ -1712,7 +1858,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_plan_view_form
 msgid "Available for all Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "برای همه شرکت ها موجود است"
+>>>>>>> upstream/18.0
 =======
 msgstr "برای همه شرکت ها موجود است"
 >>>>>>> upstream/18.0
@@ -1811,7 +1961,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_plan_template__delay_from__before_plan_date
 msgid "Before Plan Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "قبل از تاریخ برنامه ریزی"
+>>>>>>> upstream/18.0
 =======
 msgstr "قبل از تاریخ برنامه ریزی"
 >>>>>>> upstream/18.0
@@ -1992,7 +2146,11 @@ msgstr "تماس"
 #: code:addons/mail/static/src/discuss/call/common/thread_actions.js:0
 msgid "Call Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تنظیمات تماس"
+>>>>>>> upstream/18.0
 =======
 msgstr "تنظیمات تماس"
 >>>>>>> upstream/18.0
@@ -2064,7 +2222,11 @@ msgstr "لغو ایمیل"
 #: code:addons/mail/static/src/chatter/web/scheduled_message.js:0
 msgid "Cancel Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لغو پییام"
+>>>>>>> upstream/18.0
 =======
 msgstr "لغو پییام"
 >>>>>>> upstream/18.0
@@ -2081,7 +2243,11 @@ msgstr "لغو شد"
 #: model:ir.model,name:mail.model_mail_canned_response
 msgid "Canned Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جواب آماده"
+>>>>>>> upstream/18.0
 =======
 msgstr "جواب آماده"
 >>>>>>> upstream/18.0
@@ -2090,7 +2256,11 @@ msgstr "جواب آماده"
 #: model:res.groups,name:mail.group_mail_canned_response_admin
 msgid "Canned Response Administrator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مدیر جواب آماده"
+>>>>>>> upstream/18.0
 =======
 msgstr "مدیر جواب آماده"
 >>>>>>> upstream/18.0
@@ -2111,7 +2281,11 @@ msgstr "جستجوی پاسخ‌های آماده"
 #: model_terms:ir.ui.view,arch_db:mail.mail_canned_response_view_form
 msgid "Canned response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جواب آماده"
+>>>>>>> upstream/18.0
 =======
 msgstr "جواب آماده"
 >>>>>>> upstream/18.0
@@ -2124,6 +2298,12 @@ msgid ""
 ":hello) to use in your messages."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"پاسخ آماده که به طور خودکار با محتوای طولانی تر در پیام های شما جایگزین می "
+"شود. ':' را تایپ کنید و سپس نام میانبر خود (به عنوان مثال :hello) را برای "
+"استفاده در پیام های خود تایپ کنید."
+>>>>>>> upstream/18.0
 =======
 "پاسخ آماده که به طور خودکار با محتوای طولانی تر در پیام های شما جایگزین می "
 "شود. ':' را تایپ کنید و سپس نام میانبر خود (به عنوان مثال :hello) را برای "
@@ -2134,7 +2314,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_canned_response_view_tree
 msgid "Canned responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جوابهای آماده"
+>>>>>>> upstream/18.0
 =======
 msgstr "جوابهای آماده"
 >>>>>>> upstream/18.0
@@ -2153,7 +2337,11 @@ msgstr ""
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 msgid "Cannot change initial message nor parent channel of: %(channels)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پیام اولیه و کانال والد آن را نمی توان تغییر داد: %(channels)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "پیام اولیه و کانال والد آن را نمی توان تغییر داد: %(channels)s."
 >>>>>>> upstream/18.0
@@ -2171,6 +2359,10 @@ msgid ""
 "Cannot create %(channels)s: initial message should belong to parent channel."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"نمی توان ایجاد کرد %(channels)s:  پیام اولیه باید متعلق به کانال مادر باشد.."
+>>>>>>> upstream/18.0
 =======
 "نمی توان ایجاد کرد %(channels)s:  پیام اولیه باید متعلق به کانال مادر باشد.."
 >>>>>>> upstream/18.0
@@ -2183,6 +2375,11 @@ msgid ""
 " of type 'channel'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"نمی توان ایجاد کرد %(channels)s: والد نباید یک کانال فرعی باشد و باید از نوع"
+"  'channel' باشد."
+>>>>>>> upstream/18.0
 =======
 "نمی توان ایجاد کرد %(channels)s: والد نباید یک کانال فرعی باشد و باید از نوع"
 "  'channel' باشد."
@@ -2279,7 +2476,11 @@ msgstr "عضو کانال"
 #: model:ir.model.fields,field_description:mail.field_res_users_settings__channel_notifications
 msgid "Channel Notifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پیام کانال"
+>>>>>>> upstream/18.0
 =======
 msgstr "پیام کانال"
 >>>>>>> upstream/18.0
@@ -2337,7 +2538,11 @@ msgstr "گفتگو"
 #: code:addons/mail/static/src/core/common/chat_hub.xml:0
 msgid "Chat Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گزینه های چت"
+>>>>>>> upstream/18.0
 =======
 msgstr "گزینه های چت"
 >>>>>>> upstream/18.0
@@ -2423,7 +2628,11 @@ msgstr "بستن"
 #: code:addons/mail/static/src/core/common/chat_bubble.xml:0
 msgid "Close Chat Bubble"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بستن حباب چت"
+>>>>>>> upstream/18.0
 =======
 msgstr "بستن حباب چت"
 >>>>>>> upstream/18.0
@@ -2433,7 +2642,11 @@ msgstr "بستن حباب چت"
 #: code:addons/mail/static/src/core/common/thread_actions.js:0
 msgid "Close Chat Window (ESC)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بستن پنجره چت (ESC)"
+>>>>>>> upstream/18.0
 =======
 msgstr "بستن پنجره چت (ESC)"
 >>>>>>> upstream/18.0
@@ -2449,7 +2662,11 @@ msgstr "بستن جستجو"
 #: code:addons/mail/static/src/core/common/chat_hub.xml:0
 msgid "Close all conversations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تمام مکالمات را ببندید"
+>>>>>>> upstream/18.0
 =======
 msgstr "تمام مکالمات را ببندید"
 >>>>>>> upstream/18.0
@@ -2459,7 +2676,11 @@ msgstr "تمام مکالمات را ببندید"
 #: code:addons/mail/static/src/discuss/call/common/ptt_ad_banner.xml:0
 msgid "Close banner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بستن بنر"
+>>>>>>> upstream/18.0
 =======
 msgstr "بستن بنر"
 >>>>>>> upstream/18.0
@@ -2493,7 +2714,11 @@ msgstr "بسته شد"
 #: code:addons/mail/static/src/core/public_web/discuss_sidebar.xml:0
 msgid "Collapse panel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جمع کردن پانل"
+>>>>>>> upstream/18.0
 =======
 msgstr "جمع کردن پانل"
 >>>>>>> upstream/18.0
@@ -2508,7 +2733,11 @@ msgstr "دریافت پاسخ‌ها در یک آدرس ایمیل خاص"
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.js:0
 msgid "Come here often? Install the app for quick and easy access!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "اغلب به اینجا می آیند؟ برای دسترسی سریع و آسان برنامه را نصب کنید!"
+>>>>>>> upstream/18.0
 =======
 msgstr "اغلب به اینجا می آیند؟ برای دسترسی سریع و آسان برنامه را نصب کنید!"
 >>>>>>> upstream/18.0
@@ -3372,7 +3601,11 @@ msgstr "بحث: لغو قطع صدای عضو کانال"
 #: model:ir.actions.server,name:mail.ir_cron_discuss_users_settings_unmute_ir_actions_server
 msgid "Discuss: users settings unmute"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بحث: تنظیمات کاربران لغو نادیده می‌شوند"
+>>>>>>> upstream/18.0
 =======
 msgstr "بحث: تنظیمات کاربران لغو نادیده می‌شوند"
 >>>>>>> upstream/18.0
@@ -3755,7 +3988,11 @@ msgstr "دامنه ایمیل"
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.js:0
 msgid "Email Failure: %(modelName)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شکست ایمیل: %(modelName)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "شکست ایمیل: %(modelName)s"
 >>>>>>> upstream/18.0
@@ -3888,7 +4125,11 @@ msgstr "دامنه‌ی ایمیل مانند 'example.com' در 'odoo@example.c
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_message_subtype_form
 msgid "Email message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ل ها"
+=======
+msgstr "پیام ایمیل"
+>>>>>>> upstream/18.0
 =======
 msgstr "پیام ایمیل"
 >>>>>>> upstream/18.0
@@ -3937,7 +4178,11 @@ msgstr "فقط کارمند"
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.xml:0
 msgid "Enable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فعال"
+>>>>>>> upstream/18.0
 =======
 msgstr "فعال"
 >>>>>>> upstream/18.0
@@ -4118,7 +4363,11 @@ msgstr "ناموفق"
 #: code:addons/mail/static/src/webclient/web/webclient.js:0
 msgid "Failed to enable push notifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "اعلان‌های فشار فعال نشد"
+>>>>>>> upstream/18.0
 =======
 msgstr "اعلان‌های فشار فعال نشد"
 >>>>>>> upstream/18.0
@@ -4140,7 +4389,11 @@ msgstr "بارگذاری سرور SFU ناموفق بود، در حال برگش
 #: code:addons/mail/static/src/core/common/message.xml:0
 msgid "Failed to post the message. Click to retry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پیام ارسال نشد. برای امتحان مجدد کلیک کنید"
+>>>>>>> upstream/18.0
 =======
 msgstr "پیام ارسال نشد. برای امتحان مجدد کلیک کنید"
 >>>>>>> upstream/18.0
@@ -4202,7 +4455,11 @@ msgstr "نوع شکست"
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.js:0
 msgid "Failure: %(modelName)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شکست: %(modelName)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "شکست: %(modelName)s"
 >>>>>>> upstream/18.0
@@ -4224,7 +4481,11 @@ msgstr "علاقه‌مندی ها"
 #: model_terms:ir.ui.view,arch_db:mail.message_activity_done
 msgid "Feedback:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بازخورد:"
+>>>>>>> upstream/18.0
 =======
 msgstr "بازخورد:"
 >>>>>>> upstream/18.0
@@ -4474,7 +4735,11 @@ msgstr "از"
 #: model:ir.model.fields,field_description:mail.field_discuss_channel__from_message_id
 msgid "From Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "از پیام"
+>>>>>>> upstream/18.0
 =======
 msgstr "از پیام"
 >>>>>>> upstream/18.0
@@ -4746,7 +5011,11 @@ msgstr "پنهان کردن پیام‌های سنجاق شده"
 #: code:addons/mail/static/src/core/common/chat_hub.xml:0
 msgid "Hide all conversations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مخفی کردن همه مکالمات"
+>>>>>>> upstream/18.0
 =======
 msgstr "مخفی کردن همه مکالمات"
 >>>>>>> upstream/18.0
@@ -5015,6 +5284,10 @@ msgid ""
 "this date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"در صورت تنظیم، کاربر تا این تاریخ از همه کانال ها اعلان دریافت نخواهد کرد."
+>>>>>>> upstream/18.0
 =======
 "در صورت تنظیم، کاربر تا این تاریخ از همه کانال ها اعلان دریافت نخواهد کرد."
 >>>>>>> upstream/18.0
@@ -5287,7 +5560,11 @@ msgstr "آدرس ایمیل نامعتبر"
 #: code:addons/mail/models/mail_blacklist.py:0
 msgid "Invalid email address “%s”"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آدرس ایمیل نامعتبر است “%s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "آدرس ایمیل نامعتبر است “%s”"
 >>>>>>> upstream/18.0
@@ -5474,7 +5751,11 @@ msgstr "آیا دنبال می کند"
 #: model:ir.model.fields,field_description:mail.field_mail_link_preview__is_hidden
 msgid "Is Hidden"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آیا مخفی است"
+>>>>>>> upstream/18.0
 =======
 msgstr "آیا مخفی است"
 >>>>>>> upstream/18.0
@@ -5508,7 +5789,11 @@ msgstr "یک گزارش است"
 #: model:ir.model.fields,field_description:mail.field_mail_scheduled_message__is_note
 msgid "Is a note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آیا یادداشت است"
+>>>>>>> upstream/18.0
 =======
 msgstr "آیا یادداشت است"
 >>>>>>> upstream/18.0

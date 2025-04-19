@@ -192,7 +192,11 @@ class TestManual(common.TestAr):
                 self.assertEqual(l10n_ar_price_unit_decimal_part, line_price_unit_decimal_part)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_16_invoice_b_tax_breakdown_1(self):
+=======
+    def test_18_invoice_b_tax_breakdown_1(self):
+>>>>>>> upstream/18.0
 =======
     def test_18_invoice_b_tax_breakdown_1(self):
 >>>>>>> upstream/18.0
@@ -257,7 +261,11 @@ class TestManual(common.TestAr):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_17_invoice_b_tax_breakdown_2(self):
+=======
+    def test_19_invoice_b_tax_breakdown_2(self):
+>>>>>>> upstream/18.0
 =======
     def test_19_invoice_b_tax_breakdown_2(self):
 >>>>>>> upstream/18.0
@@ -290,7 +298,10 @@ class TestManual(common.TestAr):
             'subtotals': [],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_l10n_ar_prices_and_taxes(self):
         invoice = self.env['account.move'].create({
@@ -322,4 +333,7 @@ class TestManual(common.TestAr):
         self.assertAlmostEqual(l10n_ar_values['price_unit'], 5470.0)
         self.assertAlmostEqual(l10n_ar_values['price_subtotal'], 124716.0)
         self.assertAlmostEqual(l10n_ar_values['price_net'], 5196.5)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

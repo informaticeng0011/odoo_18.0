@@ -14,14 +14,20 @@ import { HWPrinter } from "@point_of_sale/app/printer/hw_printer";
 import { renderToElement } from "@web/core/utils/render";
 import { TimeoutPopup } from "@pos_self_order/app/components/timeout_popup/timeout_popup";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { constructFullProductName, deduceUrl, random5Chars } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     constructFullProductName,
     deduceUrl,
     random5Chars,
     computeProductPricelistCache,
 } from "@point_of_sale/utils";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { computeComboItems } from "@point_of_sale/app/models/utils/compute_combo_items";
 import {
@@ -202,6 +208,10 @@ export class SelfOrder extends Reactive {
             price_unit: product.lst_price,
             price_extra: 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            price_type: "original",
+>>>>>>> upstream/18.0
 =======
             price_type: "original",
 >>>>>>> upstream/18.0
@@ -308,9 +318,13 @@ export class SelfOrder extends Reactive {
         if (lineToMerge) {
             lineToMerge.setDirty();
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineToMerge.qty += newLine.qty;
 =======
             lineToMerge.set_quantity(qty + newLine.qty);
+>>>>>>> upstream/18.0
+=======
+            lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
 >>>>>>> upstream/18.0
             newLine.delete();
         } else {
@@ -419,6 +433,10 @@ export class SelfOrder extends Reactive {
         });
         this.selectedOrderUuid = newOrder.uuid;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        newOrder.set_pricelist(this.config.pricelist_id);
+>>>>>>> upstream/18.0
 =======
         newOrder.set_pricelist(this.config.pricelist_id);
 >>>>>>> upstream/18.0
@@ -452,6 +470,12 @@ export class SelfOrder extends Reactive {
             );
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        computeProductPricelistCache(this);
+
+>>>>>>> upstream/18.0
 =======
 
         computeProductPricelistCache(this);

@@ -1093,7 +1093,10 @@ test("Ctrl+k opens the command palette", async () => {
     await contains(".o_command_palette");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Do not squash logged notes", async () => {
     const pyEnv = await startServer();
@@ -1150,4 +1153,7 @@ test("Do not squash logged notes", async () => {
     await contains(".o-mail-Message:not(.o-squashed)", { text: "Hello" });
     await contains(".o-mail-Message:not(.o-squashed)", { text: "World!" });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

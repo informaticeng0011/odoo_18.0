@@ -22,6 +22,10 @@ class ResCompany(models.Model):
             'account_fiscal_country_id' in vals
             and (german_companies := self.filtered(lambda c: c.account_fiscal_country_id.code == 'DE'))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and self.env['res.country'].browse(vals['account_fiscal_country_id']).code != 'DE'
+>>>>>>> upstream/18.0
 =======
             and self.env['res.country'].browse(vals['account_fiscal_country_id']).code != 'DE'
 >>>>>>> upstream/18.0

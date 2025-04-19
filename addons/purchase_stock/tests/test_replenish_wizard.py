@@ -450,7 +450,11 @@ class TestReplenishWizard(TestStockCommon):
         ])[-1]
 
         self.assertEqual(last_po_id.partner_id, vendor)
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
+=======
+        self.assertEqual(last_po_id.order_line.price_unit, 0)
+>>>>>>> upstream/18.0
 
     def test_correct_supplier(self):
         self.env['stock.warehouse'].search([], limit=1).reception_steps = 'two_steps'

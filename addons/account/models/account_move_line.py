@@ -184,11 +184,17 @@ class AccountMoveLine(models.Model):
         copy=False,
         help="The bank statement used for bank reconciliation")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     commercial_partner_country = fields.Many2one(
         string="Commercial Partner Country",
         related="move_id.commercial_partner_id.country_id",
     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     # === Tax fields === #
@@ -2618,7 +2624,10 @@ class AccountMoveLine(models.Model):
         return partials
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_exchange_journal(self, company):
         return company.currency_exchange_journal_id
 
@@ -2627,6 +2636,9 @@ class AccountMoveLine(models.Model):
             return company.expense_currency_exchange_account_id
         return company.income_currency_exchange_account_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _prepare_exchange_difference_move_vals(self, amounts_list, company=None, exchange_date=None, **kwargs):
         """ Prepare values to create later the exchange difference journal entry.
@@ -2648,9 +2660,13 @@ class AccountMoveLine(models.Model):
             return
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal = company.currency_exchange_journal_id
         expense_exchange_account = company.expense_currency_exchange_account_id
         income_exchange_account = company.income_currency_exchange_account_id
+=======
+        journal = self._get_exchange_journal(company)
+>>>>>>> upstream/18.0
 =======
         journal = self._get_exchange_journal(company)
 >>>>>>> upstream/18.0
@@ -2687,10 +2703,14 @@ class AccountMoveLine(models.Model):
                 continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             if amount_residual_to_fix > 0.0:
                 exchange_line_account = expense_exchange_account
             else:
                 exchange_line_account = income_exchange_account
+=======
+            exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
+>>>>>>> upstream/18.0
 =======
             exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
 >>>>>>> upstream/18.0

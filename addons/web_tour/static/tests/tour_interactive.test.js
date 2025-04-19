@@ -2,7 +2,11 @@
 
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, hover, leave, queryFirst, waitFor, press } from "@odoo/hoot-dom";
+=======
+import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -23,7 +27,11 @@ import { Dialog } from "@web/core/dialog/dialog";
 import { registry } from "@web/core/registry";
 import { session } from "@web/session";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { WebClient } from "../../../web/static/src/webclient/webclient";
+=======
+import { WebClient } from "@web/webclient/webclient";
+>>>>>>> upstream/18.0
 =======
 import { WebClient } from "@web/webclient/webclient";
 >>>>>>> upstream/18.0
@@ -1090,7 +1098,10 @@ test("validating click on autocomplete item by pressing Enter", async () => {
     expect(".o_tour_pointer").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Tour don't backward when dropdown loading", async () => {
     Product._records = [{ name: "Harry test 1" }, { name: "Harry test 2" }];
@@ -1149,4 +1160,7 @@ test("Tour don't backward when dropdown loading", async () => {
     await contains(".o_form_button_save").click();
     expect(".o_tour_pointer").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

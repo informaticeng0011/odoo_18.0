@@ -78,7 +78,10 @@ class TestHrAttendance(TransactionCase):
         attendance_id._compute_display_name()
         self.assertEqual(attendance_id.display_name, "01:00 (08:00:00-09:00:00)")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_attendance_list_limited_to_managed_employees(self):
         manager_user = self.env['res.users'].create({
@@ -108,4 +111,7 @@ class TestHrAttendance(TransactionCase):
         employee_ids = attendances.mapped('employee_id').ids
         self.assertIn(managed_employee.id, employee_ids, "Managed employee's attendance should be visible in the list")
         self.assertNotIn(unmanaged_employee.id, employee_ids, "Unmanaged employee's attendance should not be visible")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

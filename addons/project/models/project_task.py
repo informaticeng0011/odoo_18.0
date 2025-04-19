@@ -361,7 +361,11 @@ class Task(models.Model):
             task.show_display_in_project = bool(task.parent_id) and task.project_id == task.parent_id.project_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('stage_id', 'depend_on_ids.state', 'project_id.allow_task_dependencies')
+=======
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
 =======
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0

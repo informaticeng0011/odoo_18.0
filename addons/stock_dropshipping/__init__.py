@@ -3,10 +3,16 @@
 
 from . import models
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 def uninstall_hook(env):
     # Uninstalling the module will archive the dropshipping picking type.
     env['stock.picking.type'].search([('code', '=', 'dropship')]).active = False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

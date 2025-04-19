@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 >>>>>>> upstream/18.0
@@ -660,7 +664,10 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
             ],
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_exchange_rate_difference_post_bill_prior_to_reception(self):
         """ Billing/invoicing before validating a reception for some product that is valuated which
@@ -713,4 +720,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
                     {'account_id': stock_valuation_account.id,      'debit':   0.0,         'credit': 46.67},
                 ]
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

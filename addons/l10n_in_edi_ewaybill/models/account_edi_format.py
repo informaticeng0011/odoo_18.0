@@ -514,7 +514,11 @@ class AccountEdiFormat(models.Model):
             "productDesc": line.name,
             "quantity": line.quantity,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "qtyUnit": line.product_id.uom_id.l10n_in_code and line.product_id.uom_id.l10n_in_code.split("-")[0] or "OTH",
+=======
+            "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
+>>>>>>> upstream/18.0
 =======
             "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
 >>>>>>> upstream/18.0

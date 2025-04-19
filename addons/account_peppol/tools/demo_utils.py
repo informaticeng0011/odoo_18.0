@@ -100,12 +100,15 @@ def _mock_button_verify_partner_endpoint(func, self, *args, **kwargs):
 
 def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 <<<<<<< HEAD
+<<<<<<< HEAD
     (endpoint, eas, format) = args
     if endpoint and eas:
         return 'valid' if format in self._get_peppol_formats() else 'not_valid_format'
     else:
         return 'not_valid'
 =======
+=======
+>>>>>>> upstream/18.0
     (endpoint, eas, xml_format) = args
     if not (eas and endpoint):
         return 'not_verified'
@@ -114,6 +117,9 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
     if xml_format not in self._get_peppol_formats():
         return 'not_valid_format'
     return 'valid'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

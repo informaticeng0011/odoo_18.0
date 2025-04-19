@@ -58,7 +58,10 @@ export class ProductScreen extends Component {
         onMounted(() => {
             this.pos.openOpeningControl();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.addPendingOrder([this.currentOrder.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Call `reset` when the `onMounted` callback in `numberBuffer.use` is done.

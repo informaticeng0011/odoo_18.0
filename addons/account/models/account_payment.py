@@ -981,6 +981,10 @@ class AccountPayment(models.Model):
                 .with_context(skip_invoice_sync=True) \
                 .write({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -990,6 +994,10 @@ class AccountPayment(models.Model):
                 'partner_bank_id': pay.partner_bank_id.id,
                 'line_ids': line_ids_commands,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0

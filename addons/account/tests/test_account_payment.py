@@ -519,7 +519,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
             self.assertEqual(payment.payment_method_line_id.journal_id.id, default_journal.id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_journal_change_and_change_names(self):
         """Test that changing the journal on a payment updates the journal entry name correctly."""
 
@@ -552,6 +555,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
         # Verify the journal entry's name were updated correctly
         self.assertRegex(payment.move_id.name, rf"^P{new_journal.code}/")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_payments_copy_data(self):
         payment_1, payment_2 = self.env['account.payment'].create([

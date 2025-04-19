@@ -43,7 +43,10 @@ class TestSaleMrpProcurement(TransactionCase):
         product.is_storable = True
         product.uom_id = uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product.uom_po_id = uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         product.route_ids.clear()
@@ -108,7 +111,10 @@ class TestSaleMrpProcurement(TransactionCase):
         product_form.is_storable = True
         product_form.uom_id = self.uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = self.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.raw_product = product_form.save()
@@ -118,7 +124,10 @@ class TestSaleMrpProcurement(TransactionCase):
         product_form.name = 'Stick'
         product_form.uom_id = self.uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = self.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         product_form.is_storable = True
@@ -142,7 +151,10 @@ class TestSaleMrpProcurement(TransactionCase):
         product_form.is_storable = True
         product_form.uom_id = self.uom_unit
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = self.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.raw_product_2 = product_form.save()
@@ -150,7 +162,10 @@ class TestSaleMrpProcurement(TransactionCase):
         # Create bom for manufactured product
         bom_product_form = Form(self.env['mrp.bom'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = self.finished_product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.finished_product.product_tmpl_id
@@ -165,7 +180,10 @@ class TestSaleMrpProcurement(TransactionCase):
         ## Create bom for manufactured product
         bom_product_form = Form(self.env['mrp.bom'])
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = self.complex_product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         bom_product_form.product_tmpl_id = self.complex_product.product_tmpl_id

@@ -85,7 +85,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return vals_list
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_partner_person_vals(self, partner):
         if not partner.is_company:
             name_parts = partner.name.split(' ', 1)
@@ -96,6 +99,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             }
         return super()._get_partner_person_vals(partner)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_delivery_vals_list(self, invoice):
         # EXTENDS account.edi.xml.ubl_21

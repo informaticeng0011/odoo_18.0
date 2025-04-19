@@ -311,7 +311,10 @@ class AccountMoveLine(models.Model):
     def _inverse_product_id(self):
         super(AccountMoveLine, self.filtered(lambda l: l.display_type != 'cogs'))._inverse_product_id()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_exchange_journal(self, company):
         if (
@@ -328,4 +331,7 @@ class AccountMoveLine(models.Model):
         ):
             return self.product_id.categ_id.property_stock_valuation_account_id
         return super()._get_exchange_account(company, amount)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

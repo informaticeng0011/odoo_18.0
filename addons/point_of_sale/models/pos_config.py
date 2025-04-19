@@ -332,7 +332,10 @@ class PosConfig(models.Model):
                 pos_config.current_user_id = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('rounding_method')
     def _check_rounding_method_strategy(self):
         for config in self:
@@ -348,6 +351,9 @@ class PosConfig(models.Model):
                     value=selection_value,
                 ))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _check_profit_loss_cash_journal(self):
         if self.cash_control and self.payment_method_ids:

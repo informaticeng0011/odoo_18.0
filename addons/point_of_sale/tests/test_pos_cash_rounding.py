@@ -250,6 +250,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 
     def test_cash_rounding_halfup_biggest_tax_not_only_round_cash_method(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -284,6 +288,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 
     def test_cash_rounding_halfup_biggest_tax_not_only_round_cash_method_pay_by_bank_and_cash(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -318,6 +326,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 
     def test_cash_rounding_halfup_biggest_tax_only_round_cash_method(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -352,6 +364,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
 
     def test_cash_rounding_halfup_biggest_tax_only_round_cash_method_pay_by_bank_and_cash(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -424,7 +440,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
                 'amount_paid': 15.7,
             }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_cash_rounding_up_with_change(self):
         self.cash_rounding_add_invoice_line = self.env['account.cash.rounding'].create({
@@ -463,4 +482,7 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
             'pos_categ_ids': [Command.set(self.pos_desk_misc_test.ids)],
         })
         self.start_pos_tour('test_cash_rounding_up_with_change')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

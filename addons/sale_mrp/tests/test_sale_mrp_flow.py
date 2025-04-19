@@ -166,7 +166,10 @@ class TestSaleMrpFlowCommon(ValuationReconciliationTestCommon):
         p.is_storable = True
         p.uom_id = uom_id
 <<<<<<< HEAD
+<<<<<<< HEAD
         p.uom_po_id = uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         p.route_ids.clear()

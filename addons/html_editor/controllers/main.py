@@ -373,6 +373,10 @@ class HTML_Editor(http.Controller):
             'mimetype': mimetype or attachment.mimetype,
             'name': name or attachment.name,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'res_id': 0,
+>>>>>>> upstream/18.0
 =======
             'res_id': 0,
 >>>>>>> upstream/18.0

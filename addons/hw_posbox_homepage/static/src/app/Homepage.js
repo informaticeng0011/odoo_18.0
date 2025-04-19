@@ -103,10 +103,13 @@ export class Homepage extends Component {
                 </small>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="this.store.advanced" class="alert alert-warning" role="alert">
                 <p class="m-0 fw-bold">HTTPS certificate</p>
                 <small>Error code: <t t-esc="state.data.certificate_details" /></small>
 =======
+=======
+>>>>>>> upstream/18.0
             <div t-if="this.store.advanced" t-att-class="'alert ' + (state.data.is_certificate_ok === true ? 'alert-info' : 'alert-warning')" role="alert">
                 <p class="m-0 fw-bold">HTTPS Certificate</p>
                 <small>
@@ -114,6 +117,9 @@ export class Homepage extends Component {
                     <t t-else="">Error Code: </t>
                     <t t-esc="state.data.certificate_details" />
                 </small>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </div>
             <SingleData name="'Name'" value="state.data.hostname" icon="'fa-id-card'">

@@ -79,7 +79,10 @@ class AccountMoveSend(models.AbstractModel):
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
         # EXTENDS 'account' - default on bis3 if Peppol is set but no format on the partner
         invoice_edi_format = super()._get_default_invoice_edi_format(move, **kwargs)
@@ -87,6 +90,9 @@ class AccountMoveSend(models.AbstractModel):
             return move.partner_id.with_company(move.company_id)._get_peppol_edi_format()
         return invoice_edi_format
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_mail_layout(self):
         # EXTENDS 'account'
@@ -115,17 +121,23 @@ class AccountMoveSend(models.AbstractModel):
             return super()._is_applicable_to_company(method, company)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_applicable_to_move(self, method, move):
         # EXTENDS 'account'
         if method == 'peppol':
             partner = move.partner_id.commercial_partner_id.with_company(move.company_id)
             invoice_edi_format = partner._get_peppol_edi_format()
 =======
+=======
+>>>>>>> upstream/18.0
     def _is_applicable_to_move(self, method, move, **move_data):
         # EXTENDS 'account'
         if method == 'peppol':
             partner = move.partner_id.commercial_partner_id.with_company(move.company_id)
             invoice_edi_format = move_data.get('invoice_edi_format') or partner._get_peppol_edi_format()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return all([
                 self._is_applicable_to_company(method, move.company_id),
@@ -136,17 +148,23 @@ class AccountMoveSend(models.AbstractModel):
             ])
         else:
 <<<<<<< HEAD
+<<<<<<< HEAD
             return super()._is_applicable_to_move(method, move)
 
     def _hook_if_errors(self, moves_data, allow_raising=True):
         # EXTENDS 'account'
         # to update `peppol_move_state` as `skipped` to show users that something went wrong
 =======
+=======
+>>>>>>> upstream/18.0
             return super()._is_applicable_to_move(method, move, **move_data)
 
     def _hook_if_errors(self, moves_data, allow_raising=True):
         # EXTENDS 'account'
         # to update `peppol_move_state` as `error` to show users that something went wrong
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # because those moves that failed XML/PDF files generation are not sent via Peppol
         moves_failed_file_generation = self.env['account.move']
@@ -155,7 +173,11 @@ class AccountMoveSend(models.AbstractModel):
                 moves_failed_file_generation |= move
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         moves_failed_file_generation.peppol_move_state = 'skipped'
+=======
+        moves_failed_file_generation.peppol_move_state = 'error'
+>>>>>>> upstream/18.0
 =======
         moves_failed_file_generation.peppol_move_state = 'error'
 >>>>>>> upstream/18.0
@@ -169,6 +191,7 @@ class AccountMoveSend(models.AbstractModel):
         params = {'documents': []}
         invoices_data_peppol = {}
         for invoice, invoice_data in invoices_data.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
             if 'peppol' in invoice_data['sending_methods'] and self._is_applicable_to_move('peppol', invoice):
                 if invoice_data.get('ubl_cii_xml_attachment_values'):
@@ -186,6 +209,10 @@ class AccountMoveSend(models.AbstractModel):
             partner = invoice.partner_id.commercial_partner_id.with_company(invoice.company_id)
             if 'peppol' in invoice_data['sending_methods']:
 >>>>>>> upstream/18.0
+=======
+            partner = invoice.partner_id.commercial_partner_id.with_company(invoice.company_id)
+            if 'peppol' in invoice_data['sending_methods']:
+>>>>>>> upstream/18.0
                 if not partner.peppol_eas or not partner.peppol_endpoint:
                     invoice.peppol_move_state = 'error'
                     invoice_data['error'] = _('The partner is missing Peppol EAS and/or Endpoint identifier.')
@@ -197,7 +224,10 @@ class AccountMoveSend(models.AbstractModel):
                     continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 if not self._is_applicable_to_move('peppol', invoice, **invoice_data):
                     continue
 
@@ -216,6 +246,9 @@ class AccountMoveSend(models.AbstractModel):
                     )
                     continue
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 receiver_identification = f"{partner.peppol_eas}:{partner.peppol_endpoint}"
                 params['documents'].append({

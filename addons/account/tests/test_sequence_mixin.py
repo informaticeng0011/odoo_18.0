@@ -10,7 +10,11 @@ from freezegun import freeze_time
 from functools import reduce
 import json
 import psycopg2
+<<<<<<< HEAD
 from unittest.mock import patch
+=======
+from unittest.mock import patch, Mock
+>>>>>>> upstream/18.0
 
 
 class TestSequenceMixinCommon(AccountTestInvoicingCommon):
@@ -749,6 +753,20 @@ class TestSequenceMixin(TestSequenceMixinCommon):
         move2.journal_id = move2.journal_id
         self.assertEqual(move2.name, 'MISC/25-26/10/0002')
 
+<<<<<<< HEAD
+=======
+    def test_limit_savepoint(self):
+        with patch.object(self.env.cr, 'savepoint', Mock(wraps=self.env.cr.savepoint)) as mock:
+            self.create_move(date='2020-01-01', post=True)
+        mock.assert_called_once()
+        with patch.object(self.env.cr, 'savepoint', Mock(wraps=self.env.cr.savepoint)) as mock:
+            self.create_move(date='2020-01-01', post=True)
+        mock.assert_not_called()
+        with patch.object(self.env.cr, 'savepoint', Mock(wraps=self.env.cr.savepoint)) as mock:
+            self.create_move(date='2021-01-01', post=True)
+        mock.assert_called_once()
+
+>>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestSequenceGaps(TestSequenceMixinCommon):
     @classmethod

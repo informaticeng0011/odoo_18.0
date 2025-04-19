@@ -42,6 +42,10 @@ class ProductPricelistReport(models.AbstractModel):
             'products': products_data,
             'quantities': quantities,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'docs': pricelist,
+>>>>>>> upstream/18.0
 =======
             'docs': pricelist,
 >>>>>>> upstream/18.0

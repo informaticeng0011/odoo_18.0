@@ -235,6 +235,12 @@ def init_logger():
     warnings.filterwarnings('ignore', r'Deprecated call to \`pkg_resources.declare_namespace.+', category=DeprecationWarning)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # This warning is triggered library only during the python precompilation which does not occur on readonly filesystem
+    warnings.filterwarnings("ignore", r'invalid escape sequence', category=DeprecationWarning, module=".*vobject")
+    warnings.filterwarnings("ignore", r'invalid escape sequence', category=SyntaxWarning, module=".*vobject")
+>>>>>>> upstream/18.0
 =======
     # This warning is triggered library only during the python precompilation which does not occur on readonly filesystem
     warnings.filterwarnings("ignore", r'invalid escape sequence', category=DeprecationWarning, module=".*vobject")

@@ -148,7 +148,11 @@ class AccountMove(models.Model):
             response = requests.post(JOFOTARA_URL, json=params, headers=headers, timeout=50)
         except requests.exceptions.Timeout:
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0

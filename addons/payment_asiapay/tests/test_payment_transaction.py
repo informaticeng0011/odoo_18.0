@@ -27,7 +27,10 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
         """ Test the computation of reference prefixes based on the provided invoice. """
         self._skip_if_account_payment_is_not_installed()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         company = self.env.company
         Account = self.env['account.account']
         default_account_revenue = Account.with_company(company).search([
@@ -35,6 +38,9 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
             ('account_type', '=', 'income'),
             ('id', '!=', company.account_journal_early_pay_discount_gain_account_id.id)
         ], limit=1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         invoice = self.env['account.move'].create({
@@ -44,7 +50,11 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
                 Command.create({
                     'name': 'line',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'account_id': self.company_data['default_account_revenue'].id,
+=======
+                    'account_id': default_account_revenue.id,
+>>>>>>> upstream/18.0
 =======
                     'account_id': default_account_revenue.id,
 >>>>>>> upstream/18.0

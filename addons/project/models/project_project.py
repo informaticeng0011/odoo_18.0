@@ -136,7 +136,11 @@ class Project(models.Model):
     date = fields.Date(string='Expiration Date', index=True, tracking=True,
         help="Date on which this project ends. The timeframe defined on the project is taken into account when viewing its planning.")
 <<<<<<< HEAD
+<<<<<<< HEAD
     allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'))
+=======
+    allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'), inverse='_inverse_allow_task_dependencies')
+>>>>>>> upstream/18.0
 =======
     allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'), inverse='_inverse_allow_task_dependencies')
 >>>>>>> upstream/18.0
@@ -388,7 +392,10 @@ class Project(models.Model):
             project.update_count = update_count_per_project.get(project, 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _inverse_allow_task_dependencies(self):
         """ Reset state for waiting tasks in the project if the feature is disabled
             or recompute the tasks with dependencies if the project has the feature enabled again
@@ -418,6 +425,9 @@ class Project(models.Model):
         ):
             waiting_tasks.state = '01_in_progress'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def _map_tasks_default_values(self, project):

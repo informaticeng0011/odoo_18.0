@@ -137,7 +137,11 @@ class PosOrder(models.Model):
     def _process_saved_order(self, draft):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0

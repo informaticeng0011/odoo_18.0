@@ -81,7 +81,10 @@ class TestEdiEwaybillJson(TestEdiJson):
         self.assertDictEqual(json_value, expected, "Indian EDI send json value is not matched")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # =================================== Different UOM Test ===========================================
         self.invoice.button_draft()
         self.invoice.invoice_line_ids.product_uom_id = self.env.ref('uom.product_uom_dozen')
@@ -115,6 +118,9 @@ class TestEdiEwaybillJson(TestEdiJson):
             "Indian EDI send json UOM value is not matched"
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         #=================================== Full discount test =====================================
         json_value = self.env["account.edi.format"]._l10n_in_edi_ewaybill_generate_json(self.invoice_full_discount)

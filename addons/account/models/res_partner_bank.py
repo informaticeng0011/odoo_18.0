@@ -254,13 +254,19 @@ class ResPartnerBank(models.Model):
                 vals['allow_out_payment'] = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         for vals in vals_list:
             if (partner_id := vals.get('partner_id')) and (acc_number := vals.get('acc_number')):
                 archived_res_partner_bank = self.env['res.partner.bank'].search([('active', '=', False), ('partner_id', '=', partner_id), ('acc_number', '=', acc_number)])
                 if archived_res_partner_bank:
                     raise UserError(_("A bank account with Account Number %(number)s already exists for Partner %(partner)s, but is archived. Please unarchive it instead.", number=acc_number, partner=archived_res_partner_bank.partner_id.name))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         res = super().create(vals_list)
         for account in res:
@@ -319,7 +325,11 @@ class ResPartnerBank(models.Model):
         # EXTENDS base res.partner.bank
         for account in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _("Bank Account %(link)s with number %(number)s deleted", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+=======
+            msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+>>>>>>> upstream/18.0
 =======
             msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
 >>>>>>> upstream/18.0

@@ -334,6 +334,7 @@ class TestCursorHooks(common.TransactionCase):
 
 class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
     """Check savepoint cases handle commit hooks properly."""
+<<<<<<< HEAD
     def test_isolation_first(self):
         def mutate_second_test_ref():
             for name in ['precommit', 'postcommit', 'prerollback', 'postrollback']:
@@ -355,3 +356,57 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
         for callback_name, reference in zip(callback_names, references):
             self.assertTrue(bool(reference), f"{callback_name} failed to clean up between transaction tests")
             self.assertTrue(reference[0] == 'not_empty', f"{callback_name} failed to clean up between transaction tests")
+=======
+    @staticmethod
+    def initial_callback():
+        pass
+
+    @staticmethod
+    def other_callback():
+        pass
+
+    @classmethod
+    def setUpClass(cls):
+        super().setUpClass()
+
+        cr = cls.env.cr
+        cls.callback_names = ['precommit', 'postcommit', 'prerollback', 'postrollback']
+        cls.callbacks = [cr.precommit, cr.postcommit, cr.prerollback, cr.postrollback]
+
+        for callback, name in zip(cls.callbacks, cls.callback_names):
+            callback.data[f'test_cursor_hooks_{name}'] = ['keep']
+            callback.add(cls.initial_callback)
+
+    def assertHookData(self):
+        for callback, name in zip(self.callbacks, self.callback_names):
+            self.assertEqual(
+                callback.data[f'test_cursor_hooks_{name}'],
+                ['keep'],
+                f"{name} failed to clean up between transaction tests"
+            )
+            self.assertIn(self.initial_callback, callback._funcs)
+            self.assertNotIn(self.other_callback, callback._funcs)
+
+    def test_1_isolation(self):
+        self.assertHookData()
+        for callback, name in zip(self.callbacks, self.callback_names):
+            callback.data[f'test_cursor_hooks_{name}'].append("don't keep")
+            callback.add(self.other_callback)
+
+    def test_2_isolation(self):
+        self.assertHookData()
+        for callback in self.callbacks:
+            callback.run()
+
+    def test_3_isolation(self):
+        self.assertHookData()
+        for callback in self.callbacks:
+            callback.clear()
+
+    def test_4_isolation(self):
+        self.assertHookData()
+        self.env.cr.clear()
+
+    def test_5_isolation(self):
+        self.assertHookData()
+>>>>>>> upstream/18.0

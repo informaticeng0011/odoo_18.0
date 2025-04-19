@@ -43,7 +43,10 @@ registerWebsitePreviewTour("website_powerbox_snippet",{
 }
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registerWebsitePreviewTour(
     "website_powerbox_keyword",
@@ -132,4 +135,7 @@ registerWebsitePreviewTour(
         },
     ]
 );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

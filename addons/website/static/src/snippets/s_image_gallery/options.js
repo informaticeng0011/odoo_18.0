@@ -470,7 +470,10 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
         this.$target.off('.gallery');
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @override
      */
@@ -478,6 +481,9 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
         this.isBeingRemoved = true;
         this._super(...arguments);
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     //--------------------------------------------------------------------------
@@ -582,7 +588,11 @@ options.registry.GalleryImageList = options.registry.GalleryLayout.extend({
     notify(name, data) {
         this._super(...arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (name === 'image_removed') {
+=======
+        if (name === 'image_removed' && !this.isBeingRemoved) {
+>>>>>>> upstream/18.0
 =======
         if (name === 'image_removed' && !this.isBeingRemoved) {
 >>>>>>> upstream/18.0

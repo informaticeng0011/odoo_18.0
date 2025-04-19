@@ -6,12 +6,18 @@
             <field eval="[(3, ref('group_stock_manager')), (4, ref('group_stock_user'))]" name="groups_id"/>
         </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         <record id="product.product_product_27" model="product.product">
             <field name="tracking">lot</field>
         </record>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
          <record id="lot_product_27" model="stock.lot">
             <field name="name">0000000000029</field>

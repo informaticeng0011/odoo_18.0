@@ -100,7 +100,11 @@ class TestUBLRO(TestUBLCommon):
     def test_export_invoice_without_country_code_prefix_in_vat(self):
         self.company_data['company'].write({'vat': '1234567897'})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -111,7 +115,10 @@ class TestUBLRO(TestUBLCommon):
     def test_export_no_vat_but_have_company_registry(self):
         self.company_data['company'].write({'vat': False, 'company_registry': 'RO1234567897'})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': 'RO1234567897'})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         invoice = self.create_move("out_invoice", currency_id=self.company.currency_id.id)
@@ -121,7 +128,11 @@ class TestUBLRO(TestUBLCommon):
     def test_export_no_vat_but_have_company_registry_without_prefix(self):
         self.company_data['company'].write({'vat': False, 'company_registry': '1234567897'})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -132,7 +143,10 @@ class TestUBLRO(TestUBLCommon):
     def test_export_no_vat_and_no_company_registry_raises_error(self):
         self.company_data['company'].write({'vat': False, 'company_registry': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': False})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         invoice = self.create_move("out_invoice", send=False)

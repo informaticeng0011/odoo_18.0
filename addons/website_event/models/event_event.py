@@ -7,6 +7,10 @@ import json
 import werkzeug.urls
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -628,11 +632,17 @@ class Event(models.Model):
                 begin = self.env['ir.qweb.field.date'].record_to_html(event, 'date_begin', {})
                 end = self.env['ir.qweb.field.date'].record_to_html(event, 'date_end', {})
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['range'] = '%s🠖%s' % (begin, end) if begin != end else begin
 =======
+=======
+>>>>>>> upstream/18.0
                 data['range'] = (
                     Markup('{} <i class="fa fa-long-arrow-right"></i> {}').format(begin, end)
                     if begin != end else begin
                 )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return results_data
