@@ -335,6 +335,7 @@ class TestCursorHooks(common.TransactionCase):
 class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
     """Check savepoint cases handle commit hooks properly."""
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_isolation_first(self):
         def mutate_second_test_ref():
             for name in ['precommit', 'postcommit', 'prerollback', 'postrollback']:
@@ -357,6 +358,8 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
             self.assertTrue(bool(reference), f"{callback_name} failed to clean up between transaction tests")
             self.assertTrue(reference[0] == 'not_empty', f"{callback_name} failed to clean up between transaction tests")
 =======
+=======
+>>>>>>> upstream/18.0
     @staticmethod
     def initial_callback():
         pass
@@ -409,4 +412,7 @@ class TestCursorHooksTransactionCaseCleanup(common.TransactionCase):
 
     def test_5_isolation(self):
         self.assertHookData()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

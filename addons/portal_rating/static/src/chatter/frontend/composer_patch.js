@@ -28,7 +28,10 @@ patch(Composer.prototype, {
     async savePublisherComment() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (!this.state.active) {
@@ -36,6 +39,9 @@ patch(Composer.prototype, {
         }
         this.state.active = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

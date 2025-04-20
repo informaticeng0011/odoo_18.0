@@ -6,7 +6,10 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _compute_summary_data(self):
@@ -18,6 +21,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
         super()._compute_summary_data()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

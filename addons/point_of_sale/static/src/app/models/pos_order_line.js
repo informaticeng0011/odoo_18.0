@@ -672,8 +672,11 @@ export class PosOrderline extends Base {
                 ...new Set(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.product_id.taxes_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     getTaxesAfterFiscalPosition(
@@ -682,6 +685,9 @@ export class PosOrderline extends Base {
                         this.models
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

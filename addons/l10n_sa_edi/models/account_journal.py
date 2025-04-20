@@ -476,6 +476,10 @@ class AccountJournal(models.Model):
         request_url = urljoin(api_url, request_url)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -492,12 +496,15 @@ class AccountJournal(models.Model):
         except (ValueError, HTTPError) as ex:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # In the case of an explicit error from ZATCA, i.e we got a response but the code of the response is not 2xx
             return {
                 'error': _("Server returned an unexpected error: %(error)s", error=(request_response.text or str(ex))),
                 'blocking_level': 'error'
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # The 400 case means that it is rejected by ZATCA, but we need to update the hash as done for accepted.
@@ -512,6 +519,9 @@ class AccountJournal(models.Model):
                     'excepted': True,
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,7 +532,10 @@ class AccountJournal(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if request_response.status_code == '303':
@@ -530,6 +543,9 @@ class AccountJournal(models.Model):
                     'blocking_level': 'warning', 'excepted': True}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -540,6 +556,7 @@ class AccountJournal(models.Model):
                 'error': _("JSON response from ZATCA could not be decoded"),
                 'blocking_level': 'error'
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -554,6 +571,8 @@ class AccountJournal(models.Model):
                 'error': request_response.reason,
                 'blocking_level': 'error'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         response_data['status_code'] = request_response.status_code
@@ -573,6 +592,9 @@ class AccountJournal(models.Model):
                 'error': error,
                 'blocking_level': 'error',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

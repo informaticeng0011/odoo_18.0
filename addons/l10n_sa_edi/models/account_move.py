@@ -142,7 +142,10 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _l10n_sa_reset_confirmation_datetime(self):
@@ -153,6 +156,9 @@ class AccountMove(models.Model):
                 move.l10n_sa_confirmation_datetime = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186,9 +192,12 @@ class AccountMove(models.Model):
                                          "" if (not error or not response_data) else response_data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if error:
             bootstrap_cls, title = ("danger", _("Invoice was rejected by ZATCA"))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         attachment = False
@@ -207,6 +216,9 @@ class AccountMove(models.Model):
             bootstrap_cls, title = ("danger", _("Invoice was rejected by ZATCA"))
             error_msg = response_data['error']
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220,8 +232,14 @@ class AccountMove(models.Model):
                 </p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), response_data)
         if response_data and response_data.get('validationResults', {}).get('warningMessages'):
+=======
+            """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), error_msg)
+        if response_data and response_data.get('validationResults', {}).get('warningMessages'):
+            status_code = response_data.get('status_code')
+>>>>>>> upstream/18.0
 =======
             """) % (_('The invoice was rejected by ZATCA. Please, check the response below:'), error_msg)
         if response_data and response_data.get('validationResults', {}).get('warningMessages'):
@@ -241,6 +259,7 @@ class AccountMove(models.Model):
                 <p class='mb-0'>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     %s
                 </p>
             """) % (_('The invoice was accepted by ZATCA, but returned warnings. Please, check the response below:'), "<br/>".join([Markup("<b>%s</b> : %s") % (m['code'], m['message']) for m in response_data['validationResults']['warningMessages']]))
@@ -250,6 +269,8 @@ class AccountMove(models.Model):
             </div>
         """) % (bootstrap_cls, title, content))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     <b>%s</b>%s
@@ -265,6 +286,9 @@ class AccountMove(models.Model):
             attachment_ids=attachment and [attachment.id] or []
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -267,6 +267,7 @@ class AccountPaymentTerm(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def copy(self, default=None):
         default = dict(default or {})
         default['name'] = _('%s (copy)', self.name)
@@ -274,11 +275,16 @@ class AccountPaymentTerm(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def copy_data(self, default=None):
         default = dict(default or {})
         vals_list = super().copy_data(default=default)
         return [dict(vals, name=_("%s (copy)", line.name)) for line, vals in zip(self, vals_list)]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -125,7 +125,10 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
         self.start_tour(self_route, "test_self_order_kiosk_combo_sides")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -140,7 +143,11 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
                     'compute_price': 'fixed',
                     'fixed_price': 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'min_quantity': 2,
+=======
+                    'min_quantity': 3,
+>>>>>>> upstream/18.0
 =======
                     'min_quantity': 3,
 >>>>>>> upstream/18.0
@@ -164,6 +171,9 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
         self_route = self.pos_config._get_self_order_route()
         self.start_tour(self_route, 'self_order_pricelist')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

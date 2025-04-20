@@ -1667,7 +1667,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_fiscal_position_tax_group_labels(self):
@@ -1712,6 +1715,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'FiscalPositionTaxLabels', login="pos_user")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1823,7 +1829,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_draft_orders_not_syncing(self):
@@ -1833,6 +1842,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertEqual(n_draft_order, 0, 'There should be no draft orders created')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

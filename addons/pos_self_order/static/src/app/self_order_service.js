@@ -15,8 +15,11 @@ import { renderToElement } from "@web/core/utils/render";
 import { TimeoutPopup } from "@pos_self_order/app/components/timeout_popup/timeout_popup";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { constructFullProductName, deduceUrl, random5Chars } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import {
@@ -26,6 +29,9 @@ import {
     computeProductPricelistCache,
 } from "@point_of_sale/utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209,6 +215,10 @@ export class SelfOrder extends Reactive {
             price_extra: 0,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            price_type: "original",
+>>>>>>> upstream/18.0
 =======
             price_type: "original",
 >>>>>>> upstream/18.0
@@ -319,9 +329,13 @@ export class SelfOrder extends Reactive {
             lineToMerge.setDirty();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineToMerge.qty += newLine.qty;
 =======
             lineToMerge.set_quantity(qty + newLine.qty);
+>>>>>>> upstream/18.0
+=======
+            lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
 >>>>>>> upstream/18.0
 =======
             lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
@@ -434,6 +448,10 @@ export class SelfOrder extends Reactive {
         this.selectedOrderUuid = newOrder.uuid;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        newOrder.set_pricelist(this.config.pricelist_id);
+>>>>>>> upstream/18.0
 =======
         newOrder.set_pricelist(this.config.pricelist_id);
 >>>>>>> upstream/18.0
@@ -471,6 +489,12 @@ export class SelfOrder extends Reactive {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        computeProductPricelistCache(this);
+
+>>>>>>> upstream/18.0
 =======
 
         computeProductPricelistCache(this);

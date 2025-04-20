@@ -676,7 +676,10 @@ class TestStockValuationAVCO(TestStockValuationCommon):
         self.assertEqual(self.product1.quantity_svl, 2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_inventory_adjustment_valuation_with_lot(self):
         """
         Check the new stock valuation layers created to counter balance
@@ -711,6 +714,9 @@ class TestStockValuationAVCO(TestStockValuationCommon):
             {'quantity': 10, 'value': 50},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestStockValuationFIFO(TestStockValuationCommon):

@@ -161,6 +161,7 @@ patch(PosStore.prototype, {
         const order = super.add_new_order(...arguments);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
         return order;
     },
@@ -168,6 +169,8 @@ patch(PosStore.prototype, {
         if (this.config.module_pos_restaurant && !this.get_order().uiState.booked) {
             this.get_order().setBooked(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (this.config.module_pos_restaurant) {
@@ -183,6 +186,9 @@ patch(PosStore.prototype, {
                 this.get_order().setBooked(true);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

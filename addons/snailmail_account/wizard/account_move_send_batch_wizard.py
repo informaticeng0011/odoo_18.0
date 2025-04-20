@@ -19,7 +19,11 @@ class AccountMoveSendBatchWizard(models.TransientModel):
         for wizard in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'snailmail' in wizard.summary_data:
+=======
+            if wizard.summary_data and 'snailmail' in wizard.summary_data:
+>>>>>>> upstream/18.0
 =======
             if wizard.summary_data and 'snailmail' in wizard.summary_data:
 >>>>>>> upstream/18.0

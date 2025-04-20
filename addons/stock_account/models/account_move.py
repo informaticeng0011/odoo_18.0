@@ -312,7 +312,10 @@ class AccountMoveLine(models.Model):
         super(AccountMoveLine, self.filtered(lambda l: l.display_type != 'cogs'))._inverse_product_id()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -332,6 +335,9 @@ class AccountMoveLine(models.Model):
             return self.product_id.categ_id.property_stock_valuation_account_id
         return super()._get_exchange_account(company, amount)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

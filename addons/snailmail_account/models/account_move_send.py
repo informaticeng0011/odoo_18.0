@@ -43,7 +43,11 @@ class AccountMoveSend(models.AbstractModel):
     # -------------------------------------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_applicable_to_move(self, method, move):
+=======
+    def _is_applicable_to_move(self, method, move, **move_data):
+>>>>>>> upstream/18.0
 =======
     def _is_applicable_to_move(self, method, move, **move_data):
 >>>>>>> upstream/18.0
@@ -56,7 +60,11 @@ class AccountMoveSend(models.AbstractModel):
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return super()._is_applicable_to_move(method, move)
+=======
+            return super()._is_applicable_to_move(method, move, **move_data)
+>>>>>>> upstream/18.0
 =======
             return super()._is_applicable_to_move(method, move, **move_data)
 >>>>>>> upstream/18.0
@@ -73,7 +81,11 @@ class AccountMoveSend(models.AbstractModel):
             for move, move_data in moves_data.items()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'snailmail' in move_data['sending_methods'] and self._is_applicable_to_move('snailmail', move)
+=======
+            if 'snailmail' in move_data['sending_methods'] and self._is_applicable_to_move('snailmail', move, **move_data)
+>>>>>>> upstream/18.0
 =======
             if 'snailmail' in move_data['sending_methods'] and self._is_applicable_to_move('snailmail', move, **move_data)
 >>>>>>> upstream/18.0

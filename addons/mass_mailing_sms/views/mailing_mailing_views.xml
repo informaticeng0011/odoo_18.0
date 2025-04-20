@@ -120,7 +120,11 @@
             <xpath expr="//button[@name='action_set_favorite']" position="attributes">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <attribute name="invisible">mailing_type != 'mail' or favorite</attribute>
+=======
+                <attribute name="invisible" separator=" or " add="mailing_type != 'mail'"/>
+>>>>>>> upstream/18.0
 =======
                 <attribute name="invisible" separator=" or " add="mailing_type != 'mail'"/>
 >>>>>>> upstream/18.0

@@ -8,7 +8,11 @@ class TestDashboard(TestHrHolidaysCommon):
         self.env.user = self.user_hrmanager
         employee = self.env.user.employee_id
 <<<<<<< HEAD
+<<<<<<< HEAD
         other_calendar = self.env['resource.calendar'].create({
+=======
+        other_calendar = self.env['resource.calendar'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         other_calendar = self.env['resource.calendar'].sudo().create({
 >>>>>>> upstream/18.0

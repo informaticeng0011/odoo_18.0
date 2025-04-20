@@ -1,7 +1,10 @@
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22,6 +25,7 @@ export class OutdatedPageWatcherService {
      */
     setup(env, { bus_service, multi_tab, notification }) {
         this.notification = notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         const vacuumInfo = multi_tab.getSharedValue("bus.autovacuum_info");
@@ -59,6 +63,8 @@ export class OutdatedPageWatcherService {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.lastNotificationId = null;
         /** @deprecated */
         this.lastDisconnectDt = null;
@@ -84,6 +90,9 @@ export class OutdatedPageWatcherService {
         multi_tab.bus.addEventListener("shared_value_updated", ({ detail: { key } }) => {
             if (key === "bus.has_missed_notifications") {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

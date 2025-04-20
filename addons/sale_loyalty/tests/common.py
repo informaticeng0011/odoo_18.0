@@ -214,6 +214,11 @@ class TestSaleCouponCommon(SaleCommon):
                 raise ValidationError(status['error'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif len(coupons) == 1 and len(rewards) > 1:
+            return rewards
+>>>>>>> upstream/18.0
 =======
         elif len(coupons) == 1 and len(rewards) > 1:
             return rewards
@@ -244,7 +249,10 @@ class TestSaleCouponCommon(SaleCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _generate_coupons(self, loyality_program, coupon_qty=1):
@@ -254,6 +262,9 @@ class TestSaleCouponCommon(SaleCommon):
         return loyality_program.coupon_ids
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

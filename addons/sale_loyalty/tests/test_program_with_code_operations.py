@@ -12,7 +12,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
     # not valid anymore.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @classmethod
@@ -36,6 +39,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
             ],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -442,7 +448,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         self.assertEqual(len(order.order_line), 2, "You should get a discount line") # product + discount
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -595,6 +604,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         with self.assertRaises(ValidationError, msg=msg):
             self._apply_promo_code(order, coupon_2.code)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

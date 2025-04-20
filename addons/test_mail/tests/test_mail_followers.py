@@ -64,6 +64,11 @@ class BaseFollowersTest(MailCommon):
         self.assertEqual(followed_before + test_record, followed_after)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
+            self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(AccessError, 'Portal users can only filter threads'):
             self.env['mail.test.simple'].with_user(self.user_portal).search([('message_partner_ids', 'in', partner.ids)])

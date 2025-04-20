@@ -520,7 +520,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_journal_change_and_change_names(self):
@@ -556,6 +559,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
         self.assertRegex(payment.move_id.name, rf"^P{new_journal.code}/")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

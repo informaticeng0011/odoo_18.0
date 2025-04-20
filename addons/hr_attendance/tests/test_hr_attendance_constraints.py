@@ -79,7 +79,10 @@ class TestHrAttendance(TransactionCase):
         self.assertEqual(attendance_id.display_name, "01:00 (08:00:00-09:00:00)")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -112,6 +115,9 @@ class TestHrAttendance(TransactionCase):
         self.assertIn(managed_employee.id, employee_ids, "Managed employee's attendance should be visible in the list")
         self.assertNotIn(unmanaged_employee.id, employee_ids, "Unmanaged employee's attendance should not be visible")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

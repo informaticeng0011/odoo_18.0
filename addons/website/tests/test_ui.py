@@ -698,6 +698,10 @@ class TestUi(odoo.tests.HttpCase):
         self.start_tour('/', 'website_powerbox_snippet', login='admin')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.start_tour('/', 'website_powerbox_keyword', login='admin')
+>>>>>>> upstream/18.0
 =======
         self.start_tour('/', 'website_powerbox_keyword', login='admin')
 >>>>>>> upstream/18.0

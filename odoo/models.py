@@ -7036,6 +7036,12 @@ class BaseModel(metaclass=MetaModel):
         return hash((self._name, frozenset(self._ids)))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
 =======
     def __deepcopy__(self, memo):
         return self

@@ -374,6 +374,10 @@ class HTML_Editor(http.Controller):
             'name': name or attachment.name,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'res_id': 0,
+>>>>>>> upstream/18.0
 =======
             'res_id': 0,
 >>>>>>> upstream/18.0

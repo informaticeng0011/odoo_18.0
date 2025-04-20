@@ -93,7 +93,10 @@
             </cac:Contact>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <cac:Person>
@@ -102,6 +105,9 @@
                 <cbc:FamilyName t-out="person_vals.get('family_name')"/>
             </cac:Person>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,6 +379,7 @@
             <cac:Price>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-set="vals" t-value="vals.get('price_vals', {})"/>
                 <cbc:PriceAmount
                     t-att-currencyID="vals['currency'].name"
@@ -384,6 +391,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <t t-set="price_vals" t-value="vals.get('price_vals', {})"/>
                 <cbc:PriceAmount
                     t-att-currencyID="price_vals['currency'].name"
@@ -393,6 +402,9 @@
                     t-att="price_vals.get('base_quantity_attrs', {})"
                     t-out="price_vals.get('base_quantity')"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

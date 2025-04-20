@@ -35,7 +35,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form.uom_id = cls.uom_unit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51,7 +54,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         product_form.uom_id = cls.uom_unit
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_form.uom_po_id = cls.uom_unit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62,7 +68,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         bom_product_form = Form(cls.env['mrp.bom'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = cls.product_manu
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141,7 +150,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         bom_product_form = Form(self.env['mrp.bom'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bom_product_form.product_id = self.product_raw
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184,7 +196,10 @@ class TestMultistepManufacturing(TestMrpCommon):
         self.assertEqual(mo.action_view_sale_orders()['res_id'], self.sale_order.id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -217,6 +232,9 @@ class TestMultistepManufacturing(TestMrpCommon):
         })
         so.action_confirm()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

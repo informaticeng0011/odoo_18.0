@@ -775,7 +775,10 @@ class TestActivityMixin(TestActivityCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @users('employee')
@@ -787,6 +790,9 @@ class TestActivityMixin(TestActivityCommon):
         self.assertFalse((act1 + act2).exists(), 'Removing records should remove activities, even archived')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -171,7 +171,10 @@ class TestTaskState(TestProjectCommon):
         self.assertEqual(task.state, '01_in_progress', "The task should be in progress")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -218,6 +221,9 @@ class TestTaskState(TestProjectCommon):
         self.project_goats.allow_task_dependencies = True
         self.assertEqual(self.task_1.state, '03_approved')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

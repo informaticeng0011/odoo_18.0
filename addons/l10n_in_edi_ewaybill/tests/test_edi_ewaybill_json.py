@@ -82,7 +82,10 @@ class TestEdiEwaybillJson(TestEdiJson):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # =================================== Different UOM Test ===========================================
@@ -119,6 +122,9 @@ class TestEdiEwaybillJson(TestEdiJson):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

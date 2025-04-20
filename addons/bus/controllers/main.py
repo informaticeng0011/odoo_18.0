@@ -14,7 +14,10 @@ class BusController(Controller):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @route("/bus/has_missed_notifications", type="json", auth="public")
@@ -24,6 +27,9 @@ class BusController(Controller):
         return request.env["bus.bus"].sudo().search_count([("id", "=", last_notification_id)]) == 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

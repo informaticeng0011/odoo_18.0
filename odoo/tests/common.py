@@ -34,6 +34,10 @@ from collections import defaultdict, deque
 from concurrent.futures import Future, CancelledError, wait
 from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -988,7 +992,11 @@ class TransactionCase(BaseCase):
             cb.data = data
         for callback in [cr.precommit, cr.postcommit, cr.prerollback, cr.postrollback]:
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(_reset, callback, deque(callback._funcs), dict(callback.data))
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
@@ -2060,7 +2068,11 @@ class HttpCase(TransactionCase):
         :param int timeout: maximum time to wait for the test to complete (in seconds). Default is 60 seconds
         :param dict cookies: dictionary of cookies to set before loading the page
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -2069,7 +2081,11 @@ class HttpCase(TransactionCase):
         :param bool watch: open a new browser window to watch the test execution
         :param string success_signal: string signal to wait for to consider the test successful
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0

@@ -96,7 +96,10 @@ class Repair(models.Model):
     lot_id = fields.Many2one(
         'stock.lot', 'Lot/Serial',
 <<<<<<< HEAD
+<<<<<<< HEAD
         default=False,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         compute="compute_lot_id", store=True,
@@ -367,6 +370,11 @@ class Repair(models.Model):
         if 'picking_id' not in res and 'picking_id' in fields_list and 'default_repair_picking_id' in self.env.context:
             res['picking_id'] = self.env.context.get('default_repair_picking_id')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
+            res['lot_id'] = self.env.context.get('default_repair_lot_id')
+>>>>>>> upstream/18.0
 =======
         if 'lot_id' not in res and 'lot_id' in fields_list and 'default_repair_lot_id' in self.env.context:
             res['lot_id'] = self.env.context.get('default_repair_lot_id')

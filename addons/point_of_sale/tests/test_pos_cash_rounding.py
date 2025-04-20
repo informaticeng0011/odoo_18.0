@@ -251,6 +251,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
     def test_cash_rounding_halfup_biggest_tax_not_only_round_cash_method(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -289,6 +293,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
     def test_cash_rounding_halfup_biggest_tax_not_only_round_cash_method_pay_by_bank_and_cash(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -327,6 +335,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
     def test_cash_rounding_halfup_biggest_tax_only_round_cash_method(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -365,6 +377,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
     def test_cash_rounding_halfup_biggest_tax_only_round_cash_method_pay_by_bank_and_cash(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.skipTest('To re-introduce when feature is ready')
+>>>>>>> upstream/18.0
 =======
         self.skipTest('To re-introduce when feature is ready')
 >>>>>>> upstream/18.0
@@ -441,7 +457,10 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
             }])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -483,6 +502,9 @@ class TestPosCashRounding(TestPointOfSaleHttpCommon):
         })
         self.start_pos_tour('test_cash_rounding_up_with_change')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -599,9 +599,14 @@ class PurchaseOrderLine(models.Model):
         taxes = po.fiscal_position_id.map_tax(product_taxes)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = seller.price if seller else product_id.standard_price
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             price_unit, product_taxes, taxes, company_id)
+=======
+        price_unit = self.env['account.tax']._fix_tax_included_price_company(
+            seller.price, product_taxes, taxes, company_id) if seller else 0
+>>>>>>> upstream/18.0
 =======
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             seller.price, product_taxes, taxes, company_id) if seller else 0

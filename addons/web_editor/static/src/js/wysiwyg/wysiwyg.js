@@ -2485,7 +2485,10 @@ export class Wysiwyg extends Component {
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * Retrieves an array of banner command objects, each representing a specific
@@ -2516,6 +2519,9 @@ export class Wysiwyg extends Component {
     }
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2560,12 +2566,18 @@ export class Wysiwyg extends Component {
         const editorOptions = this.options;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const categories = [{ name: _t('Banners'), priority: 65 },];
         const commands = [
             this._getBannerCommand(_t('Banner Info'), '💡', 'info', 'fa-info-circle', _t('Insert an info banner'), 24),
             this._getBannerCommand(_t('Banner Success'), '✅', 'success', 'fa-check-circle', _t('Insert a success banner'), 23),
             this._getBannerCommand(_t('Banner Warning'), '⚠️', 'warning', 'fa-exclamation-triangle', _t('Insert a warning banner'), 22),
             this._getBannerCommand(_t('Banner Danger'), '❌', 'danger', 'fa-exclamation-circle', _t('Insert a danger banner'), 21),
+=======
+        const categories = [...this._getBannerCategory()];
+        const commands = [
+            ...this._getBannerCommands(),
+>>>>>>> upstream/18.0
 =======
         const categories = [...this._getBannerCategory()];
         const commands = [

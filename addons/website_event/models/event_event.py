@@ -8,6 +8,10 @@ import werkzeug.urls
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -633,8 +637,11 @@ class Event(models.Model):
                 end = self.env['ir.qweb.field.date'].record_to_html(event, 'date_end', {})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['range'] = '%s🠖%s' % (begin, end) if begin != end else begin
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 data['range'] = (
@@ -642,6 +649,9 @@ class Event(models.Model):
                     if begin != end else begin
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

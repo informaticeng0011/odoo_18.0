@@ -11,7 +11,11 @@ import { pick } from "@web/core/utils/objects";
  * @property {string} [content] Description of the step.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {"top" | "botton" | "left" | "right"} [position] The position where the UI helper is shown.
+=======
+ * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
+>>>>>>> upstream/18.0
 =======
  * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
 >>>>>>> upstream/18.0

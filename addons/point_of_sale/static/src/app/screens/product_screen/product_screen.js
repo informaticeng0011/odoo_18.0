@@ -59,7 +59,10 @@ export class ProductScreen extends Component {
             this.pos.openOpeningControl();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pos.addPendingOrder([this.currentOrder.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

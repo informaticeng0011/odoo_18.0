@@ -74,7 +74,11 @@ class Browser:
         if state == BrowserState.KIOSK:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             browser_args.append("--kiosk")
+=======
+            browser_args.extend(["--kiosk", "--touch-events"])
+>>>>>>> upstream/18.0
 =======
             browser_args.extend(["--kiosk", "--touch-events"])
 >>>>>>> upstream/18.0

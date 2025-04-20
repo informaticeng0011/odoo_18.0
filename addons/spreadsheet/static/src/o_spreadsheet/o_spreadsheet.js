@@ -4,6 +4,7 @@
  * @see https://github.com/odoo/o-spreadsheet
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 18.0.22
  * @date 2025-04-04T08:57:27.182Z
  * @hash 89a327918
@@ -16,6 +17,11 @@
  * @version 18.0.23
  * @date 2025-04-14T17:58:55.325Z
  * @hash f56013312
+>>>>>>> upstream/18.0
+=======
+ * @version 18.0.24
+ * @date 2025-04-18T17:35:24.596Z
+ * @hash aa18758cf
 >>>>>>> upstream/18.0
  */
 
@@ -3409,6 +3415,10 @@ const coreTypes = new Set([
     "SET_ZONE_BORDERS",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -6580,6 +6590,10 @@ class AbstractCellClipboardHandler extends ClipboardHandler {
 class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queuedBordersToAdd = {};
+>>>>>>> upstream/18.0
 =======
     queuedBordersToAdd = {};
 >>>>>>> upstream/18.0
@@ -6618,6 +6632,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.executeQueuedChanges(sheetId);
+>>>>>>> upstream/18.0
 =======
         this.executeQueuedChanges(sheetId);
 >>>>>>> upstream/18.0
@@ -6644,8 +6662,11 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
         };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dispatch("SET_BORDER", { ...target, border });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const borderKey = JSON.stringify(border);
@@ -6663,6 +6684,9 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
         }
         this.queuedBordersToAdd = {};
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6777,6 +6801,15 @@ function tokenizeString(chars) {
     }
     return null;
 }
+<<<<<<< HEAD
+=======
+/**
+  - \p{L} is for any letter (from any language)
+  - \p{N} is for any number
+  - the u flag at the end is for unicode, which enables the `\p{...}` syntax
+ */
+const unicodeSymbolCharRegexp = /\p{L}|\p{N}|_|\.|!|\$/u;
+>>>>>>> upstream/18.0
 const SYMBOL_CHARS = new Set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_.!$");
 /**
  * A "Symbol" is just basically any word-like element that can appear in a
@@ -6817,7 +6850,12 @@ function tokenizeSymbol(chars) {
             };
         }
     }
+<<<<<<< HEAD
     while (chars.current && SYMBOL_CHARS.has(chars.current)) {
+=======
+    while (chars.current &&
+        (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
+>>>>>>> upstream/18.0
         result += chars.shift();
     }
     if (result.length) {
@@ -8559,6 +8597,10 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
         if (origin?.rules && origin.rules.length > 0) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -8572,7 +8614,11 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
                     //remove from current rule
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     toRemoveZones.push(positionToZone(origin.position));
+=======
+                    toRemoveZones.push(originZone);
+>>>>>>> upstream/18.0
 =======
                     toRemoveZones.push(originZone);
 >>>>>>> upstream/18.0
@@ -8694,6 +8740,10 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
             const zone = positionToZone(target);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -8713,7 +8763,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
             if (isCutOperation) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 toRemoveZone.push(positionToZone(origin.position));
+=======
+                toRemoveZone.push(originZone);
+>>>>>>> upstream/18.0
 =======
                 toRemoveZone.push(originZone);
 >>>>>>> upstream/18.0
@@ -8781,7 +8835,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
                 this.dispatch("ADD_DATA_VALIDATION_RULE", {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rule: dv,
+=======
+                    rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
+>>>>>>> upstream/18.0
 =======
                     rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
 >>>>>>> upstream/18.0
@@ -9118,7 +9176,11 @@ function transformZone(zone, executed) {
     if (executed.type === "ADD_COLUMNS_ROWS") {
         return expandZoneOnInsertion(zone, executed.dimension === "COL" ? "left" : "top", executed.base, executed.position, executed.quantity);
     }
+<<<<<<< HEAD
     return { ...zone };
+=======
+    return zone;
+>>>>>>> upstream/18.0
 }
 function transformRangeData(range, executed) {
     const deletedSheet = executed.type === "DELETE_SHEET" && executed.sheetId;
@@ -48089,6 +48151,7 @@ function useCellHovered(env, gridRef, callback) {
     }
     return hoveredPosition;
 }
+<<<<<<< HEAD
 function useTouchMove(gridRef, handler, canMoveUp) {
     let x = null;
     let y = null;
@@ -48122,6 +48185,8 @@ function useTouchMove(gridRef, handler, canMoveUp) {
     useRefListener(gridRef, "touchend", onTouchEnd);
     useRefListener(gridRef, "touchmove", onTouchMove);
 }
+=======
+>>>>>>> upstream/18.0
 class GridOverlay extends Component {
     static template = "o-spreadsheet-GridOverlay";
     static props = {
@@ -48169,10 +48234,13 @@ class GridOverlay extends Component {
         onWillUnmount(() => {
             resizeObserver.disconnect();
         });
+<<<<<<< HEAD
         useTouchMove(this.gridOverlay, this.props.onGridMoved, () => {
             const { scrollY } = this.env.model.getters.getActiveSheetDOMScrollInfo();
             return scrollY > 0;
         });
+=======
+>>>>>>> upstream/18.0
         this.cellPopovers = useStore(CellPopoverStore);
         this.paintFormatStore = useStore(PaintFormatStore);
     }
@@ -49521,6 +49589,76 @@ function useGridDrawing(refName, model, canvasSize) {
     }
 }
 
+<<<<<<< HEAD
+=======
+const friction = 0.95;
+const verticalScrollFactor = 1;
+const horizontalScrollFactor = 1;
+function useTouchScroll(ref, updateScroll, canMoveUp) {
+    let lastX = 0;
+    let lastY = 0;
+    let velocityX = 0;
+    let velocityY = 0;
+    let isMouseDown = false;
+    let lastTime = 0;
+    useRefListener(ref, "touchstart", onTouchStart, { capture: false });
+    useRefListener(ref, "touchmove", onTouchMove, { capture: false });
+    useRefListener(ref, "touchend", onTouchEnd, { capture: false });
+    function onTouchStart(event) {
+        isMouseDown = true;
+        ({ clientX: lastX, clientY: lastY } = event.touches[0]);
+        velocityX = 0;
+        velocityY = 0;
+    }
+    function onTouchMove(event) {
+        if (!isMouseDown)
+            return;
+        const currentTime = Date.now();
+        const { clientX, clientY } = event.touches[0];
+        let deltaX = lastX - clientX;
+        let deltaY = lastY - clientY;
+        const elapsedTime = currentTime - lastTime;
+        velocityX = deltaX / elapsedTime;
+        velocityY = deltaY / elapsedTime;
+        lastX = clientX;
+        lastY = clientY;
+        lastTime = currentTime;
+        if (canMoveUp()) {
+            if (event.cancelable) {
+                event.preventDefault();
+            }
+            event.stopPropagation();
+        }
+        updateScroll(deltaX * horizontalScrollFactor, deltaY * verticalScrollFactor);
+    }
+    function onTouchEnd(ev) {
+        isMouseDown = false;
+        lastX = lastY = 0;
+        requestAnimationFrame(scroll);
+    }
+    function scroll() {
+        if (Math.abs(velocityX) < 0.05) {
+            velocityX = 0;
+        }
+        if (Math.abs(velocityY) < 0.05) {
+            velocityY = 0;
+        }
+        if (!velocityX && !velocityY) {
+            return;
+        }
+        const currentTime = Date.now();
+        const elapsedTime = Math.abs(currentTime - lastTime);
+        const deltaX = velocityX * elapsedTime;
+        const deltaY = velocityY * elapsedTime;
+        updateScroll(deltaX * horizontalScrollFactor, deltaY * verticalScrollFactor);
+        lastTime = currentTime;
+        velocityX *= friction;
+        velocityY *= friction;
+        requestAnimationFrame(scroll);
+    }
+}
+
+>>>>>>> upstream/18.0
 function useWheelHandler(handler) {
     function normalize(val, deltaMode) {
         return val * (deltaMode === 0 ? 1 : DEFAULT_CELL_HEIGHT);
@@ -50141,6 +50279,13 @@ class Grid extends Component {
                 this.DOMFocusableElementStore.focusableElement?.focus();
             }
         }, () => [this.sidePanel.isOpen]);
+<<<<<<< HEAD
+=======
+        useTouchScroll(this.gridRef, this.moveCanvas.bind(this), () => {
+            const { scrollY } = this.env.model.getters.getActiveSheetScrollInfo();
+            return scrollY > 0;
+        });
+>>>>>>> upstream/18.0
     }
     onCellHovered({ col, row }) {
         this.hoveredCell.hover({ col, row });
@@ -50890,7 +51035,10 @@ class BordersPlugin extends CorePlugin {
                 break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             case "SET_BORDERS_ON_TARGET":
@@ -50903,6 +51051,9 @@ class BordersPlugin extends CorePlugin {
                 }
                 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60726,6 +60877,7 @@ class AutofillPlugin extends UIPlugin {
                 break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "AUTOFILL_CELL":
                 this.autoFillMerge(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 const sheetId = this.getters.getActiveSheetId();
@@ -60745,6 +60897,8 @@ class AutofillPlugin extends UIPlugin {
                 });
                 this.autofillCF(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 this.autofillDV(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60774,6 +60928,10 @@ class AutofillPlugin extends UIPlugin {
         const target = this.autofillZone;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const autofillCellsData = [];
+>>>>>>> upstream/18.0
 =======
         const autofillCellsData = [];
 >>>>>>> upstream/18.0
@@ -60791,7 +60949,11 @@ class AutofillPlugin extends UIPlugin {
                     for (let row = target.top; row <= target.bottom; row++) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -60811,7 +60973,11 @@ class AutofillPlugin extends UIPlugin {
                     for (let row = target.bottom; row >= target.top; row--) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -60831,7 +60997,11 @@ class AutofillPlugin extends UIPlugin {
                     for (let col = target.right; col >= target.left; col--) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -60851,7 +61021,11 @@ class AutofillPlugin extends UIPlugin {
                     for (let col = target.left; col <= target.right; col++) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -60865,7 +61039,10 @@ class AutofillPlugin extends UIPlugin {
         if (apply) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             const bordersZones = {};
@@ -60883,6 +61060,9 @@ class AutofillPlugin extends UIPlugin {
             this.autofillConditionalFormats(sheetId, cfNewRanges);
             this.autofillDataValidations(sheetId, dvNewZones);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60896,7 +61076,10 @@ class AutofillPlugin extends UIPlugin {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     collectBordersData(data, bordersPositions) {
@@ -60989,6 +61172,9 @@ class AutofillPlugin extends UIPlugin {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61072,6 +61258,7 @@ class AutofillPlugin extends UIPlugin {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     computeNewCell(generator, col, row, apply) {
         const { cellData, tooltip, origin } = generator.next();
         const { content, style, border, format } = cellData;
@@ -61091,6 +61278,8 @@ class AutofillPlugin extends UIPlugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     computeNewCell(generator, col, row) {
         const { cellData, tooltip, origin } = generator.next();
         const { content, style, border, format } = cellData;
@@ -61106,6 +61295,9 @@ class AutofillPlugin extends UIPlugin {
             format,
         };
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61178,8 +61370,13 @@ class AutofillPlugin extends UIPlugin {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autoFillMerge(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
+=======
+    autofillMerge(sheetId, data) {
+        const { originCol, originRow, col, row } = data;
+>>>>>>> upstream/18.0
 =======
     autofillMerge(sheetId, data) {
         const { originCol, originRow, col, row } = data;
@@ -61216,6 +61413,7 @@ class AutofillPlugin extends UIPlugin {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autofillCF(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
         const cfOrigin = this.getters.getRulesByCell(sheetId, originCol, originRow);
@@ -61245,6 +61443,8 @@ class AutofillPlugin extends UIPlugin {
             sheetId,
         });
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61628,10 +61828,15 @@ function mergeTransformation(toTransform, executed) {
     }
     const target = [];
     for (const zone1 of toTransform.target) {
+<<<<<<< HEAD
         for (const zone2 of executed.target) {
             if (!overlap(zone1, zone2)) {
                 target.push({ ...zone1 });
             }
+=======
+        if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
+            target.push(zone1);
+>>>>>>> upstream/18.0
         }
     }
     if (target.length) {
@@ -67859,6 +68064,13 @@ class SpreadsheetDashboard extends Component {
             this.hoveredCell.clear();
         });
         this.cellPopovers = useStore(CellPopoverStore);
+<<<<<<< HEAD
+=======
+        useTouchScroll(gridRef, this.moveCanvas.bind(this), () => {
+            const { scrollY } = this.env.model.getters.getActiveSheetScrollInfo();
+            return scrollY > 0;
+        });
+>>>>>>> upstream/18.0
     }
     onCellHovered({ col, row }) {
         this.hoveredCell.hover({ col, row });
@@ -73913,6 +74125,7 @@ export { AbstractCellClipboardHandler, AbstractChart, AbstractFigureClipboardHan
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 __info__.version = "18.0.22";
 __info__.date = "2025-04-04T08:57:27.182Z";
 __info__.hash = "89a327918";
@@ -73925,5 +74138,10 @@ __info__.hash = "f56013312";
 __info__.version = "18.0.23";
 __info__.date = "2025-04-14T17:58:55.325Z";
 __info__.hash = "f56013312";
+>>>>>>> upstream/18.0
+=======
+__info__.version = "18.0.24";
+__info__.date = "2025-04-18T17:35:24.596Z";
+__info__.hash = "aa18758cf";
 >>>>>>> upstream/18.0
 //# sourceMappingURL=o_spreadsheet.js.map

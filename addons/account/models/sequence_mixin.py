@@ -5,8 +5,14 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 from odoo.tools.misc import format_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import frozendict, mute_logger, date_utils, SQL
 
+=======
+from odoo.tools import frozendict, date_utils, SQL
+
+import logging
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import frozendict, date_utils, SQL
 
@@ -17,6 +23,11 @@ from collections import defaultdict
 from psycopg2 import errors as pgerrors
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -72,7 +83,10 @@ class SequenceMixin(models.AbstractModel):
                     field=SQL.identifier(self._sequence_field),
                 ))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             unique_index = self.env.execute_query(SQL(
                 """
                 SELECT 1
@@ -123,6 +137,9 @@ class SequenceMixin(models.AbstractModel):
         if self._sequence_field in vals and self.env.context.get('clear_sequence_mixin_cache', True):
             self._get_sequence_cache().clear()
         return super().write(vals)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _get_sequence_date_range(self, reset):
@@ -361,7 +378,10 @@ class SequenceMixin(models.AbstractModel):
         return format, format_values
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _locked_increment(self, format_string, format_values):
         """Increment the sequence for the given format, returning the new value.
 
@@ -432,6 +452,9 @@ class SequenceMixin(models.AbstractModel):
                 except (pgerrors.ExclusionViolation, pgerrors.UniqueViolation):
                     sp.rollback()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _set_next_sequence(self):
         """Set the next sequence.
@@ -454,6 +477,7 @@ class SequenceMixin(models.AbstractModel):
                 for field in registry.field_inverses[inverse_field[0]] if inverse_field else [None]:
                     self.env.add_to_compute(triggered_field, self[field.name] if field else self)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.flush_recordset()
         with self.env.cr.savepoint(flush=False) as sp:
             while True:
@@ -466,6 +490,11 @@ class SequenceMixin(models.AbstractModel):
                         break
                 except (pgerrors.ExclusionViolation, pgerrors.UniqueViolation):
                     sp.rollback()
+=======
+
+        sequence = self._locked_increment(format_string, format_values)
+        self.with_context(clear_sequence_mixin_cache=False)[self._sequence_field] = sequence
+>>>>>>> upstream/18.0
 =======
 
         sequence = self._locked_increment(format_string, format_values)

@@ -195,7 +195,10 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             {
@@ -204,6 +207,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
                 'placeholder': True,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395,6 +401,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
         # but not valid for company 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_partner.with_company(company_2).peppol_verification_state = False
         self.assertRecordValues(new_partner.with_company(company_2), [{
             'peppol_verification_state': False,
@@ -404,6 +411,8 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         new_partner.with_company(company_2).invoice_edi_format = 'nlcius'
         self.assertRecordValues(new_partner.with_company(company_2), [{
             'peppol_verification_state': 'not_valid_format',
@@ -411,6 +420,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
             'peppol_endpoint': '0477472701',
             'invoice_edi_format': 'nlcius',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -426,6 +438,7 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
         self.assertEqual((move_1 + move_2 + move_3).mapped('is_being_sent'), [True, True, True])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # the cron is ran asynchronously and should be agnostic from the current self.env.company
         self.env.ref('account.ir_cron_account_move_send').with_company(company_2).method_direct_trigger()
         # only move 1 & 2 should be processed, move_3 is related to an invalid partner (with regard to company_2) thus should fail to send
@@ -433,11 +446,16 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # the cron is run asynchronously and should be agnostic from the current self.env.company
         self.env.ref('account.ir_cron_account_move_send').with_company(company_2).method_direct_trigger()
         # only move 1 & 2 should be processed, move_3 is related to an invalid partner (with regard to company_2) thus should fail to send
         self.assertEqual((move_1 + move_2 + move_3).mapped('peppol_move_state'), ['processing', 'processing', 'error'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -454,7 +472,10 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
         self.assertTrue('facturx' in self.valid_partner.available_peppol_edi_formats)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -517,6 +538,9 @@ class TestPeppolMessage(TestAccountMoveSendCommon):
             self.env.ref('account.ir_cron_account_move_send').method_direct_trigger()
         self.assertEqual(move_1.peppol_move_state, 'error')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -14,7 +14,11 @@ class PosConfig(models.Model):
     iface_printbill = fields.Boolean(string='Bill Printing', help='Allows to print the Bill before payment.')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     floor_ids = fields.Many2many('restaurant.floor', string='Restaurant Floors', help='The restaurant floors served by this point of sale.')
+=======
+    floor_ids = fields.Many2many('restaurant.floor', string='Restaurant Floors', help='The restaurant floors served by this point of sale.', copy=False)
+>>>>>>> upstream/18.0
 =======
     floor_ids = fields.Many2many('restaurant.floor', string='Restaurant Floors', help='The restaurant floors served by this point of sale.', copy=False)
 >>>>>>> upstream/18.0

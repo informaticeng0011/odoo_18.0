@@ -131,7 +131,10 @@ class TestTranslationController(HttpCaseWithUserDemo):
             self._mock_translation_request({"message_id": self.message.id})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -141,6 +144,9 @@ class TestTranslationController(HttpCaseWithUserDemo):
             result = self._mock_translation_request({"message_id": self.message.id})
         self.assertEqual(result["body"], "<p>Au mauvais temps, bonne tête.</p>")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

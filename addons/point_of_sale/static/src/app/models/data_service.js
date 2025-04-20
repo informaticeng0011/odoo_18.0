@@ -294,10 +294,13 @@ export class PosData extends Reactive {
         this.loadedIndexedDBProducts = dbData ? dbData["product.product"] : [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.network.loading = false;
     }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.sanitizeData();
@@ -314,6 +317,9 @@ export class PosData extends Reactive {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

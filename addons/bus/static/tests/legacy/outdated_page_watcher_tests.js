@@ -11,6 +11,7 @@ import { createWebClient } from "@web/../tests/webclient/helpers";
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { serializeDateTime } from "@web/core/l10n/dates";
 import { registry } from "@web/core/registry";
 
@@ -20,12 +21,17 @@ QUnit.test("disconnect during vacuum should ask for reload", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 
 QUnit.test("disconnect during bus gc should ask for reload", async () => {
     // When the bus table is cleared, reload might be required to recover
     // coherent state in apps like Discuss.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34,6 +40,7 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
     const pyEnv = await startServer();
     const { env } = await createWebClient({
         mockRPC(route) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (route === "/bus/get_autovacuum_info") {
@@ -52,12 +59,17 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (route === "/bus/has_missed_notifications") {
                 return true;
             }
         },
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

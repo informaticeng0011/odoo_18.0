@@ -61,7 +61,10 @@ class TestBuyGiftCard(TestSaleCouponCommon):
         order._update_programs_and_rewards()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order._auto_apply_rewards()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

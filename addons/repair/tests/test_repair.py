@@ -882,7 +882,10 @@ class TestRepair(common.TransactionCase):
         self.assertEqual(move.location_id, self.stock_warehouse.lot_stock_id)
         self.assertEqual(move.location_dest_id, self.stock_location_14)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_open_and_create_repair_from_lot(self):
         """
@@ -912,4 +915,7 @@ class TestRepair(common.TransactionCase):
             'quantity': 1.0,
         })]
         self.assertEqual(repair_order.lot_id, sn_1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

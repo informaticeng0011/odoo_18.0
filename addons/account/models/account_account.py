@@ -695,7 +695,11 @@ class AccountAccount(models.Model):
             elif account.account_type in ('asset_receivable', 'liability_payable'):
                 account.reconcile = True
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif account.account_type == 'asset_cash':
+=======
+            elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
+>>>>>>> upstream/18.0
 =======
             elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
 >>>>>>> upstream/18.0

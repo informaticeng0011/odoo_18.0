@@ -117,6 +117,7 @@ class PosSelfOrderController(http.Controller):
         table = pos_config.env["restaurant.table"].search([('identifier', '=', table_identifier)], limit=1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         domain = ['&', '&',
             ('table_id', '=', table.id),
@@ -128,6 +129,8 @@ class PosSelfOrderController(http.Controller):
             domain = expression.OR([domain, [
                 '&',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         domain = False
@@ -144,6 +147,9 @@ class PosSelfOrderController(http.Controller):
         for data in order_access_tokens:
             domain = expression.OR([domain, ['&',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

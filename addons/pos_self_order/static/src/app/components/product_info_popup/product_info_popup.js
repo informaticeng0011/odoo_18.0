@@ -4,8 +4,11 @@ export class ProductInfoPopup extends Component {
     static template = "pos_self_order.ProductInfoPopup";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = ["product", "addToCart", "close"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     static props = {
@@ -15,6 +18,9 @@ export class ProductInfoPopup extends Component {
         isComboLine: { type: Boolean, optional: true },
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -31,10 +31,13 @@ class GoogleTranslateController(Controller):
                 return {"error": err.response.json()["error"]["message"]}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             "body": translation.body,
             "lang_name": babel.Locale(translation.source_lang).get_display_name(request.env.user.lang),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         try:
@@ -45,6 +48,9 @@ class GoogleTranslateController(Controller):
             "body": translation.body,
             "lang_name": lang_name,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

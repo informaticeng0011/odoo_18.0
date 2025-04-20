@@ -8,8 +8,11 @@ import { registry } from "@web/core/registry";
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import {
@@ -20,6 +23,9 @@ import {
     computeProductPricelistCache,
 } from "@point_of_sale/utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42,7 +48,10 @@ import {
 } from "@point_of_sale/app/store/make_awaitable_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -496,6 +505,10 @@ export class PosStore extends Reactive {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -506,6 +519,7 @@ export class PosStore extends Reactive {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         // This function is called via the addEventListener callback initiated in the
@@ -600,6 +614,9 @@ export class PosStore extends Reactive {
         if (data && data.length > 0 && data[0].model.modelName === "product.product") {
             this._loadMissingPricelistItems(products);
         }
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
 =======
         computeProductPricelistCache(this, data);
 >>>>>>> upstream/18.0
@@ -755,7 +772,10 @@ export class PosStore extends Reactive {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

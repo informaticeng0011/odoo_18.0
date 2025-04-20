@@ -137,7 +137,11 @@ class Project(models.Model):
         help="Date on which this project ends. The timeframe defined on the project is taken into account when viewing its planning.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'))
+=======
+    allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'), inverse='_inverse_allow_task_dependencies')
+>>>>>>> upstream/18.0
 =======
     allow_task_dependencies = fields.Boolean('Task Dependencies', default=lambda self: self.env.user.has_group('project.group_project_task_dependencies'), inverse='_inverse_allow_task_dependencies')
 >>>>>>> upstream/18.0
@@ -393,7 +397,10 @@ class Project(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _inverse_allow_task_dependencies(self):
@@ -426,6 +433,9 @@ class Project(models.Model):
             waiting_tasks.state = '01_in_progress'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -44,8 +44,11 @@ class AccountMoveSendBatchWizard(models.TransientModel):
                 edi_counter += Counter([edi for edi in self._get_default_extra_edis(move)])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_method_counter[self._get_default_sending_method(move)] += 1
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 sending_settings = self._get_default_sending_settings(move)
@@ -53,6 +56,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
                 if self._is_applicable_to_move(sending_method, move, **sending_settings):
                     sending_method_counter[sending_method] += 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70,6 +76,7 @@ class AccountMoveSendBatchWizard(models.TransientModel):
         for wizard in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             moves_data = {
                 move: {
                     'sending_methods': {self._get_default_sending_method(move)},
@@ -78,6 +85,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
                 }
                 for move in wizard.move_ids
             }
+=======
+            moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
+>>>>>>> upstream/18.0
 =======
             moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
 >>>>>>> upstream/18.0

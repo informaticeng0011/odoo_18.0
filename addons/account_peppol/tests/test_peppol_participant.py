@@ -104,7 +104,10 @@ class TestPeppolParticipant(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_ignore_archived_edi_users(self):
@@ -124,6 +127,9 @@ class TestPeppolParticipant(TransactionCase):
         self.env.company.with_context(active_test=False).partner_id.button_account_peppol_check_partner_endpoint()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

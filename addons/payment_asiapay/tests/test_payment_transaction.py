@@ -28,7 +28,10 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
         self._skip_if_account_payment_is_not_installed()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         company = self.env.company
@@ -39,6 +42,9 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
             ('id', '!=', company.account_journal_early_pay_discount_gain_account_id.id)
         ], limit=1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51,7 +57,11 @@ class TestPaymentTransaction(AsiaPayCommon, PaymentHttpCommon):
                     'name': 'line',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'account_id': self.company_data['default_account_revenue'].id,
+=======
+                    'account_id': default_account_revenue.id,
+>>>>>>> upstream/18.0
 =======
                     'account_id': default_account_revenue.id,
 >>>>>>> upstream/18.0

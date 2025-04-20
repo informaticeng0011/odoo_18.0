@@ -86,7 +86,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_partner_person_vals(self, partner):
@@ -100,6 +103,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return super()._get_partner_person_vals(partner)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

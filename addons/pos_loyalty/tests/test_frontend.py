@@ -1081,7 +1081,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_specific_product_discount_with_global_discount(self):
@@ -1132,6 +1135,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_pos_tour("PosLoyaltySpecificProductDiscountWithGlobalDiscount", pos_config=self.main_pos_config2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2680,7 +2686,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_pos_tour("test_gift_card_no_date")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -2706,6 +2715,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertEqual(gift_card_program.coupon_ids[0].code, "test-card-1234", "Gift card code not correct")
         self.assertEqual(gift_card_program.coupon_ids[0].partner_id, partner, "Gift card partner id not correct")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

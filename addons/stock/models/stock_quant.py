@@ -1033,8 +1033,12 @@ class StockQuant(models.Model):
             quant.inventory_date = date_by_location[quant.location_id]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.write({'inventory_quantity': 0, 'user_id': False})
         self.write({'inventory_diff_quantity': 0})
+=======
+        self.action_clear_inventory_quantity()
+>>>>>>> upstream/18.0
 =======
         self.action_clear_inventory_quantity()
 >>>>>>> upstream/18.0
