@@ -6,8 +6,14 @@ from odoo.exceptions import ValidationError
 from odoo.tools.misc import format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import frozendict, mute_logger, date_utils, SQL
 
+=======
+from odoo.tools import frozendict, date_utils, SQL
+
+import logging
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import frozendict, date_utils, SQL
 
@@ -24,6 +30,11 @@ from psycopg2 import errors as pgerrors
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -84,7 +95,10 @@ class SequenceMixin(models.AbstractModel):
                 ))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             unique_index = self.env.execute_query(SQL(
@@ -138,6 +152,9 @@ class SequenceMixin(models.AbstractModel):
             self._get_sequence_cache().clear()
         return super().write(vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -379,7 +396,10 @@ class SequenceMixin(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _locked_increment(self, format_string, format_values):
@@ -453,6 +473,9 @@ class SequenceMixin(models.AbstractModel):
                     sp.rollback()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -478,6 +501,7 @@ class SequenceMixin(models.AbstractModel):
                     self.env.add_to_compute(triggered_field, self[field.name] if field else self)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.flush_recordset()
         with self.env.cr.savepoint(flush=False) as sp:
             while True:
@@ -490,6 +514,11 @@ class SequenceMixin(models.AbstractModel):
                         break
                 except (pgerrors.ExclusionViolation, pgerrors.UniqueViolation):
                     sp.rollback()
+=======
+
+        sequence = self._locked_increment(format_string, format_values)
+        self.with_context(clear_sequence_mixin_cache=False)[self._sequence_field] = sequence
+>>>>>>> upstream/18.0
 =======
 
         sequence = self._locked_increment(format_string, format_values)

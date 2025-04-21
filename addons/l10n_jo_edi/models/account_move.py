@@ -150,7 +150,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0

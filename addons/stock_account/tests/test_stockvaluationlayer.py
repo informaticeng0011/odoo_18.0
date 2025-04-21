@@ -677,7 +677,10 @@ class TestStockValuationAVCO(TestStockValuationCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_inventory_adjustment_valuation_with_lot(self):
@@ -715,6 +718,9 @@ class TestStockValuationAVCO(TestStockValuationCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -47,7 +47,11 @@ class StockLot(models.Model):
                 'default_product_id': self.product_id.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'default_lot_id': self.id,
+=======
+                'default_repair_lot_id': self.id,
+>>>>>>> upstream/18.0
 =======
                 'default_repair_lot_id': self.id,
 >>>>>>> upstream/18.0

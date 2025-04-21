@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import Command
 
@@ -15,6 +16,8 @@ class AsiaPayCommon(AccountTestInvoicingCommon, PaymentCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 
 from odoo.addons.payment.tests.common import PaymentCommon
@@ -23,6 +26,9 @@ from odoo.addons.payment.tests.common import PaymentCommon
 class AsiaPayCommon(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

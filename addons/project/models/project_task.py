@@ -363,7 +363,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('stage_id', 'depend_on_ids.state', 'project_id.allow_task_dependencies')
+=======
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
 =======
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0

@@ -58,17 +58,23 @@ class StockMoveLine(models.Model):
     def _compute_sale_price(self):
         for move_line in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if move_line.move_id.sale_line_id:
                 unit_price = move_line.move_id.sale_line_id.price_reduce_taxinc
                 qty = move_line.product_uom_id._compute_quantity(move_line.quantity, move_line.move_id.sale_line_id.product_uom)
             else:
 =======
+=======
+>>>>>>> upstream/18.0
             sale_line_id = move_line.move_id.sale_line_id
             if sale_line_id and sale_line_id.product_id == move_line.product_id:
                 unit_price = sale_line_id.price_reduce_taxinc
                 qty = move_line.product_uom_id._compute_quantity(move_line.quantity, sale_line_id.product_uom)
             else:
                 # For kits, use the regular unit price
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 unit_price = move_line.product_id.list_price
                 qty = move_line.product_uom_id._compute_quantity(move_line.quantity, move_line.product_id.uom_id)

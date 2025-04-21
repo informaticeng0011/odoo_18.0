@@ -16,7 +16,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('skipped', 'Skipped'),
+=======
+            ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
+>>>>>>> upstream/18.0
 =======
             ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
 >>>>>>> upstream/18.0

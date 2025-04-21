@@ -126,7 +126,10 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144,7 +147,11 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
                     'fixed_price': 1,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'min_quantity': 2,
+=======
+                    'min_quantity': 3,
+>>>>>>> upstream/18.0
 =======
                     'min_quantity': 3,
 >>>>>>> upstream/18.0
@@ -172,6 +179,9 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
         self.start_tour(self_route, 'self_order_pricelist')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

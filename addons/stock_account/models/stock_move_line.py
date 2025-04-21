@@ -33,9 +33,12 @@ class StockMoveLine(models.Model):
                 analytic_move_to_recompute.add(move_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'quantity' in vals:
             for move_line in self:
                 move_line._update_svl_quantity(vals['quantity'] - move_line.quantity)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52,7 +55,10 @@ class StockMoveLine(models.Model):
                 move_line._update_svl_quantity(-move_line.quantity)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         elif 'quantity' in vals:
@@ -60,6 +66,9 @@ class StockMoveLine(models.Model):
             for move_line in self:
                 move_line._update_svl_quantity(vals['quantity'] - move_line.quantity)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

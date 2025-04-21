@@ -132,7 +132,10 @@ class TestTranslationController(HttpCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145,6 +148,9 @@ class TestTranslationController(HttpCaseWithUserDemo):
         self.assertEqual(result["body"], "<p>Au mauvais temps, bonne tête.</p>")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

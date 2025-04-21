@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -147,7 +151,10 @@ class TestSaleMrpKitBom(TransactionCase):
         self.assertEqual(purchase_price, 92, "The purchase price must be the total cost of the components multiplied by their unit of measure")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_sale_mrp_kit_sale_price(self):
         """Check the total sale price of a KIT:
             # BoM of Kit A:
@@ -218,6 +225,9 @@ class TestSaleMrpKitBom(TransactionCase):
         move_lines = so.picking_ids.move_ids.move_line_ids
         self.assertEqual(move_lines.mapped("sale_price"), [80, 120], 'wrong shipping value')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_qty_delivered_with_bom(self):
         """Check the quantity delivered, when a bom line has a non integer quantity"""

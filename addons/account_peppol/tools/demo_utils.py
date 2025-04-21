@@ -102,12 +102,15 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     (endpoint, eas, format) = args
     if endpoint and eas:
         return 'valid' if format in self._get_peppol_formats() else 'not_valid_format'
     else:
         return 'not_valid'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122,6 +125,9 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
     return 'valid'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -883,7 +883,10 @@ class TestRepair(common.TransactionCase):
         self.assertEqual(move.location_dest_id, self.stock_location_14)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -916,6 +919,9 @@ class TestRepair(common.TransactionCase):
         })]
         self.assertEqual(repair_order.lot_id, sn_1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
