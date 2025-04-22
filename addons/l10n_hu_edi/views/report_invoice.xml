@@ -32,7 +32,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="'out' in o.move_type and o.partner_bank_id">Bank Account: <span t-field="o.partner_bank_id.acc_number"/></li>
+=======
+                        <li t-if="o.move_type in ['out_invoice', 'out_receipt'] and o.partner_bank_id">Bank Account: <span t-field="o.partner_bank_id.acc_number"/></li>
+>>>>>>> upstream/18.0
 =======
                         <li t-if="o.move_type in ['out_invoice', 'out_receipt'] and o.partner_bank_id">Bank Account: <span t-field="o.partner_bank_id.acc_number"/></li>
 >>>>>>> upstream/18.0
@@ -77,6 +81,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <div t-if="o.move_type == 'out_refund' and o.partner_bank_id">Bank Account: <span t-field="o.partner_bank_id.acc_number"/></div>
+>>>>>>> upstream/18.0
 =======
             <div t-if="o.move_type == 'out_refund' and o.partner_bank_id">Bank Account: <span t-field="o.partner_bank_id.acc_number"/></div>
 >>>>>>> upstream/18.0

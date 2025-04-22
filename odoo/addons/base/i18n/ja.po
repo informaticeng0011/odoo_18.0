@@ -8082,8 +8082,13 @@ msgstr ""
 "\n"
 "主な特徴\n"
 "------------\n"
+<<<<<<< HEAD
 "*イベントと登録を管理する。\n"
 "*電子メールを使用して、自動的に確認し、イベント登録の確認を送信します。\n"
+=======
+"*イベントと登録を管理します。\n"
+"*メールを使用して、自動的に確定し、イベント登録の確認を送信します。\n"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_latam_check
@@ -20524,7 +20529,11 @@ msgstr "タイムシートの請求を構成する"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_users_identitycheck_view_form

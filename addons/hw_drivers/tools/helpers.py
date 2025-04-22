@@ -382,6 +382,7 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     result = json.loads(response.data.decode('utf8'))['result']
     if not result:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
@@ -402,6 +403,8 @@ def load_certificate():
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     result = json.loads(response.data.decode()).get('result', {})
     error = result.get('error')
     if error:
@@ -410,6 +413,9 @@ def load_certificate():
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

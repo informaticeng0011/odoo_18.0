@@ -5,6 +5,10 @@ import logging
 from base64 import b64decode
 
 from odoo import models
+<<<<<<< HEAD
+=======
+from odoo.tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
 
@@ -15,6 +19,33 @@ except ImportError:
     vobject = None
 
 
+<<<<<<< HEAD
+=======
+if vobject is not None:
+
+    class VBaseProxy(Proxy):
+        _wrapped__ = vobject.base.VBase
+
+        encoding_param = ProxyAttr()
+        type_param = ProxyAttr()
+        value = ProxyAttr(None)
+
+    class VCardContentsProxy(Proxy):
+        _wrapped__ = dict
+
+        __delitem__ = ProxyFunc()
+        __contains__ = ProxyFunc()
+        get = ProxyFunc(lambda lines: [VBaseProxy(line) for line in lines])
+
+    class VComponentProxy(Proxy):
+        _wrapped__ = vobject.base.Component
+
+        add = ProxyFunc(VBaseProxy)
+        contents = ProxyAttr(VCardContentsProxy)
+        serialize = ProxyFunc()
+
+
+>>>>>>> upstream/18.0
 class ResPartner(models.Model):
     _inherit = 'res.partner'
 
@@ -70,7 +101,11 @@ class ResPartner(models.Model):
         photo.value = b64decode(self.avatar_512)
         photo.encoding_param = 'B'
         photo.type_param = 'JPG'
+<<<<<<< HEAD
         return vcard
+=======
+        return VComponentProxy(vcard)
+>>>>>>> upstream/18.0
 
     def _get_vcard_file(self):
         vcard = self._build_vcard()

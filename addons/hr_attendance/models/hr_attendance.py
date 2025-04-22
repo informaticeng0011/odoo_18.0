@@ -48,7 +48,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True)
+=======
+                                                  ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
 >>>>>>> upstream/18.0
@@ -687,9 +691,12 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not user_domain:
             return self.env['hr.employee'].search([('company_id', 'in', self.env.context.get('allowed_company_ids', []))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -704,6 +711,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -720,7 +730,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return resources | self.env['hr.employee'].search(OR(employee_name_domain))
+=======
+            return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
+>>>>>>> upstream/18.0
 =======
             return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
 >>>>>>> upstream/18.0
