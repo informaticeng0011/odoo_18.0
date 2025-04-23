@@ -1496,6 +1496,10 @@ class TestHttp(common.HttpCase):
         obj.name = "new_name"
         self.cr.flush()
         self.cr.clear()
+<<<<<<< HEAD
+=======
+        self._wait_remaining_requests()  # just in case the request timeouts
+>>>>>>> upstream/18.0
         self.assertEqual(json.loads(obj.another_field), {
             '_action': f'Send Webhook Notification(#{automation_sender.action_server_ids[0].id})',
             "_id": obj.id,

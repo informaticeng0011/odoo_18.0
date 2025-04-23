@@ -6,6 +6,10 @@ from base64 import b64decode
 
 from odoo import models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -20,7 +24,10 @@ except ImportError:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 if vobject is not None:
 
     class VBaseProxy(Proxy):
@@ -45,6 +52,9 @@ if vobject is not None:
         serialize = ProxyFunc()
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class ResPartner(models.Model):
     _inherit = 'res.partner'
@@ -102,7 +112,11 @@ class ResPartner(models.Model):
         photo.encoding_param = 'B'
         photo.type_param = 'JPG'
 <<<<<<< HEAD
+<<<<<<< HEAD
         return vcard
+=======
+        return VComponentProxy(vcard)
+>>>>>>> upstream/18.0
 =======
         return VComponentProxy(vcard)
 >>>>>>> upstream/18.0

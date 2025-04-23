@@ -7,3 +7,7 @@ from . import mrp_routing
 from . import product
 from . import stock_move
 from . import account_move
+<<<<<<< HEAD
+=======
+from . import stock_valuation_layer
+>>>>>>> upstream/18.0

@@ -12,7 +12,11 @@ except ImportError:
     websocket = None
 
 from odoo.tests.common import HOST
+<<<<<<< HEAD
 from odoo.tests import HttpCase
+=======
+from odoo.tests import HttpCase, TEST_CURSOR_COOKIE_NAME
+>>>>>>> upstream/18.0
 from ..websocket import CloseCode, Websocket, WebsocketConnectionHandler
 from ..models.bus import dispatch, hashable, channel_with_db
 
@@ -73,6 +77,10 @@ class WebsocketCase(HttpCase):
         if 'cookie' not in kwargs:
             self.session = self.authenticate(None, None)
             kwargs['cookie'] = f'session_id={self.session.sid}'
+<<<<<<< HEAD
+=======
+        kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
+>>>>>>> upstream/18.0
         if 'timeout' not in kwargs:
             kwargs['timeout'] = 5
         ws = websocket.create_connection(

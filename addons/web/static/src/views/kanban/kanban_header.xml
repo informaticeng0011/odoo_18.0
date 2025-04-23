@@ -47,7 +47,11 @@
     </t>
 
     <t t-name="web.KanbanGroupTooltip">
+<<<<<<< HEAD
         <div class="o-tooltip px-2 py-1">
+=======
+        <div class="o-tooltip text-prewrap px-2 py-1">
+>>>>>>> upstream/18.0
             <t t-foreach="props.tooltip" t-as="entry" t-key="entry_index">
                 <t t-esc="entry.title"/>
                 <br/>

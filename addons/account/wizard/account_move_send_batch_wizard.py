@@ -47,8 +47,11 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sending_method_counter[self._get_default_sending_method(move)] += 1
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65,6 +68,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91,6 +97,7 @@ class AccountMoveSendBatchWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             moves_data = {
                 move: {
                     'sending_methods': {self._get_default_sending_method(move)},
@@ -99,6 +106,9 @@ class AccountMoveSendBatchWizard(models.TransientModel):
                 }
                 for move in wizard.move_ids
             }
+=======
+            moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
+>>>>>>> upstream/18.0
 =======
             moves_data = {move: self._get_default_sending_settings(move) for move in wizard.move_ids}
 >>>>>>> upstream/18.0

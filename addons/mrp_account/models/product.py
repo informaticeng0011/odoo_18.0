@@ -117,6 +117,7 @@ class ProductProduct(models.Model):
                 total *= float_round(1 - byproduct_cost_share / 100, precision_rounding=0.0001)
             return bom.product_uom_id._compute_price(total / bom.product_qty, self.uom_id)
 
+<<<<<<< HEAD
     def _get_fifo_candidates_domain(self, company, lot=False):
         fifo_candidates_domain = super()._get_fifo_candidates_domain(company, lot=lot)
         if self in self.env.context.get('product_unbuild_map', ()):
@@ -126,6 +127,8 @@ class ProductProduct(models.Model):
             ])
         return fifo_candidates_domain
 
+=======
+>>>>>>> upstream/18.0
 
 class ProductCategory(models.Model):
     _inherit = 'product.category'

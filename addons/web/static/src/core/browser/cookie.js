@@ -28,7 +28,11 @@ export const cookie = {
         if (value !== undefined) {
             fullCookie.push(`${key}=${value}`);
         }
+<<<<<<< HEAD
         fullCookie = fullCookie.concat(["path=/", `max-age=${ttl}`]);
+=======
+        fullCookie = fullCookie.concat(["path=/", `max-age=${Math.floor(ttl)}`]);
+>>>>>>> upstream/18.0
         this._cookieMonster = fullCookie.join("; ");
     },
     delete(key) {

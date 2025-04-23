@@ -365,7 +365,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('stage_id', 'depend_on_ids.state', 'project_id.allow_task_dependencies')
+=======
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
 =======
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0
@@ -491,7 +495,11 @@ class Task(models.Model):
     def message_subscribe(self, partner_ids=None, subtype_ids=None):
         """ Set task notification based on project notification preference if user follow the project"""
         if not subtype_ids:
+<<<<<<< HEAD
             project_followers = self.project_id.message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+=======
+            project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+>>>>>>> upstream/18.0
             for project_follower in project_followers:
                 project_subtypes = project_follower.subtype_ids
                 task_subtypes = (project_subtypes.mapped('parent_id') | project_subtypes.filtered(lambda sub: sub.internal or sub.default)).ids if project_subtypes else None

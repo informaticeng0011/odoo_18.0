@@ -6,7 +6,11 @@
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2024
+=======
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 =======
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Junko Augias, 2024\n"
+=======
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
@@ -303,7 +311,11 @@ msgstr "コンフィグ設定"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Confirm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -712,7 +724,11 @@ msgstr "プロダクト購買用の他の購買オーダ候補"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認する販売オーダ"
+=======
+msgstr "確定待ち購買オーダ"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定待ち購買オーダ"
 >>>>>>> upstream/18.0
@@ -1134,7 +1150,11 @@ msgstr "ドラフトではない購買契約の契約タイプや会社を変更
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格のない明細を含む包括オーダを確認することはできません。"
+=======
+msgstr "価格のない明細を含む包括オーダを確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格のない明細を含む包括オーダを確定することはできません。"
 >>>>>>> upstream/18.0
@@ -1144,7 +1164,11 @@ msgstr "価格のない明細を含む包括オーダを確定することはで
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a quantity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "数量が不足している明細を含む包括オーダを確認することはできません。"
+=======
+msgstr "数量が不足している明細を含む包括オーダを確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "数量が不足している明細を含む包括オーダを確定することはできません。"
 >>>>>>> upstream/18.0
@@ -1156,7 +1180,11 @@ msgid ""
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確認することはできません。"
+=======
+msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクト明細が含まれていないため、'%(agreement)s' を確定することはできません。"
 >>>>>>> upstream/18.0

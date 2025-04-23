@@ -41,11 +41,25 @@ registry.category("web_tour.tours").add('sale_catalog', {
             trigger: '.o_kanban_record:contains("Restricted Product")',
         },
         {
+<<<<<<< HEAD
+=======
+            content: "Wait for filtering",
+            trigger: '.o_kanban_renderer:not(:has(.o_kanban_record:contains("AAA Product")))',
+        },
+        {
+>>>>>>> upstream/18.0
             content: "Add the product to the SO",
             trigger: '.o_kanban_record:contains("Restricted Product") .fa-shopping-cart',
             run: 'click',
         },
         {
+<<<<<<< HEAD
+=======
+            content: "Wait for product to be added",
+            trigger: '.o_kanban_record:contains("Restricted Product"):not(:has(.fa-shopping-cart))',
+        },
+        {
+>>>>>>> upstream/18.0
             content: "Input a custom quantity",
             trigger: '.o_kanban_record:contains("Restricted Product") .o_input',
             run: "edit 6",

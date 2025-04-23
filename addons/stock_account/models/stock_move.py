@@ -375,7 +375,11 @@ class StockMove(models.Model):
         stock_valuation_layers._validate_accounting_entries()
         stock_valuation_layers._validate_analytic_accounting_entries()
 
+<<<<<<< HEAD
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated)._product_price_update_after_done()
+=======
+        valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
+>>>>>>> upstream/18.0
 
         stock_valuation_layers._check_company()
 

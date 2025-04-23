@@ -34,4 +34,8 @@ class ResourceResource(models.Model):
             if is_hr_user:
                 resource.avatar_128 = employee[0].avatar_128
             else:
+<<<<<<< HEAD
                 resource.avatar_128 = avatar_per_employee_id[employee[0].id]
+=======
+                resource.avatar_128 = avatar_per_employee_id[employee[0].id] if employee else False
+>>>>>>> upstream/18.0

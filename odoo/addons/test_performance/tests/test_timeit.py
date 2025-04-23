@@ -94,7 +94,11 @@ class TestPerformanceTimeit(TransactionCase):
         code: str, *,
         record_list: list[BaseModel] | None = None,
         relative_size: list[int] | None = None,
+<<<<<<< HEAD
         check_type: Literal['linear', 'maybe-linear', None] = 'linear',
+=======
+        check_type: Literal['linear', 'maybe-linear'] | None = 'linear',
+>>>>>>> upstream/18.0
         number: int = 4,
         repeat: int = 3,
         **kw,
@@ -157,7 +161,11 @@ class TestPerformanceTimeit(TransactionCase):
             p.with_context(active_test=True)
             for p in self.get_parents()
         ]
+<<<<<<< HEAD
         self.launch_perf_set("records.child_ids", record_list=record_list)
+=======
+        self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 
     def test_perf_access_iter(self):
         self.launch_perf_set("list(records)")
@@ -166,7 +174,11 @@ class TestPerformanceTimeit(TransactionCase):
         self.launch_perf_set("records._as_query()", number=100)
 
     def test_perf_exists(self):
+<<<<<<< HEAD
         self.launch_perf_set("records.exists()")
+=======
+        self.launch_perf_set("records.exists()", check_type='maybe-linear')
+>>>>>>> upstream/18.0
 
     def test_perf_search_query(self):
         self.launch_perf("records._search([])", self.Model)
@@ -181,7 +193,11 @@ class TestPerformanceTimeit(TransactionCase):
 
     def test_perf_domain_filtered(self):
         for domain in self.example_domains:
+<<<<<<< HEAD
             self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2)
+=======
+            self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 
     def test_perf_xxlarge_domain(self):
 

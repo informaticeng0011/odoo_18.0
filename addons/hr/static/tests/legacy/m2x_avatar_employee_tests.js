@@ -16,14 +16,38 @@ import { getOrigin } from "@web/core/utils/urls";
    card should be kept as the extension of M2XAvatarUser to support this model is done in
    hr.
  */
+<<<<<<< HEAD
 
+=======
+let pyEnv;
+>>>>>>> upstream/18.0
 QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     beforeEach(() => {
         patchWithCleanup(AvatarCardPopover.prototype, patchAvatarCardPopover);
     });
 
+<<<<<<< HEAD
     QUnit.test("many2one_avatar_employee widget in list view", async function (assert) {
         const pyEnv = await startServer();
+=======
+    const mockRPC = (route, args) => {
+        if (route === "/web/dataset/call_kw/hr.employee.public/get_avatar_card_data", args.model === "hr.employee.public", args.method === "get_avatar_card_data") {
+            const resourceIdArray = args.args[0];
+            const resourceId = resourceIdArray[0];
+            const resources = pyEnv['hr.employee.public'].search_read([['id', '=', resourceId]]);
+            const result = resources.map(resource => ({
+                name: resource.name,
+                work_email:resource.work_email,
+                phone: resource.phone,
+                user_id: resource.user_id,
+            }));
+            return result;
+        }
+    };
+
+    QUnit.test("many2one_avatar_employee widget in list view", async function (assert) {
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
             { name: "Mario" },
             { name: "Luigi" },
@@ -54,11 +78,19 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
             { employee_id: employeeId_2 },
             { employee_id: employeeId_1 },
         ]);
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
         const views = {
             "m2x.avatar.employee,false,list":
                 '<list><field name="employee_id" widget="many2one_avatar_employee"/></list>',
         };
+<<<<<<< HEAD
         const { openView } = await start({ serverData: { views } });
+=======
+        const { openView } = await start({ serverData: { views }, mockRPC });
+>>>>>>> upstream/18.0
         await openView({
             res_model: "m2x.avatar.employee",
             views: [[false, "list"]],
@@ -141,7 +173,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     });
 
     QUnit.test("many2one_avatar_employee widget in kanban view", async function (assert) {
+<<<<<<< HEAD
         const pyEnv = await startServer();
+=======
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const partnerId = pyEnv["res.partner"].create({});
         const userId = pyEnv["res.users"].create({ partner_id: partnerId });
         const employeeId = pyEnv["hr.employee.public"].create({
@@ -177,7 +213,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     QUnit.test(
         "many2one_avatar_employee: click on an employee not associated with a user",
         async function (assert) {
+<<<<<<< HEAD
             const pyEnv = await startServer();
+=======
+            pyEnv = await startServer();
+>>>>>>> upstream/18.0
             const employeeId = pyEnv["hr.employee.public"].create({ name: "Mario" });
             const avatarId = pyEnv["m2x.avatar.employee"].create({ employee_id: employeeId });
             const views = {
@@ -197,6 +237,20 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
                             },
                         });
                     }
+<<<<<<< HEAD
+=======
+                    if (route === "/web/dataset/call_kw/resource.resource/get_avatar_card_data") {
+                        const resourceIdArray = args.args[0];
+                        const resourceId = resourceIdArray[0];
+                        const resources = pyEnv['hr.employee.public'].search_read([['id', '=', resourceId]]);
+                        const result = resources.map(resource => ({
+                            name: resource.name,
+                            work_email:resource.work_email,
+                            phone: resource.phone,
+                        }));
+                        return result;
+                    }
+>>>>>>> upstream/18.0
                 },
                 serverData: { views },
             });
@@ -211,7 +265,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     QUnit.test(
         "many2one_avatar_employee with hr group widget in kanban view",
         async function (assert) {
+<<<<<<< HEAD
             const pyEnv = await startServer();
+=======
+            pyEnv = await startServer();
+>>>>>>> upstream/18.0
             const partnerId = pyEnv["res.partner"].create({});
             const userId = pyEnv["res.users"].create({ partner_id: partnerId });
             const employeeId = pyEnv["hr.employee.public"].create({
@@ -250,7 +308,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     );
 
     QUnit.test("many2one_avatar_employee with relation set in options", async function (assert) {
+<<<<<<< HEAD
         const pyEnv = await startServer();
+=======
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const partnerId = pyEnv["res.partner"].create({});
         const userId = pyEnv["res.users"].create({ partner_id: partnerId });
         const employeeId = pyEnv["hr.employee.public"].create({
@@ -339,7 +401,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     });
 
     QUnit.test("many2many_avatar_employee widget in form view", async function (assert) {
+<<<<<<< HEAD
         const pyEnv = await startServer();
+=======
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
             { name: "Mario" },
             { name: "Luigi" },
@@ -371,6 +437,10 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         };
         await start({
             serverData: { views },
+<<<<<<< HEAD
+=======
+            mockRPC
+>>>>>>> upstream/18.0
         });
         await openFormView("m2x.avatar.employee", avatarId_1);
         assert.containsN(
@@ -434,7 +504,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     QUnit.test(
         "many2many_avatar_employee with hr group widget in form view",
         async function (assert) {
+<<<<<<< HEAD
             const pyEnv = await startServer();
+=======
+            pyEnv = await startServer();
+>>>>>>> upstream/18.0
             const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([{}, {}]);
             const [userId_1, userId_2] = pyEnv["res.users"].create([
                 { partner_id: partnerId_1 },
@@ -464,11 +538,26 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
 
             await start({
                 mockRPC(route, args) {
+<<<<<<< HEAD
                     if (args.method === "web_read") {
                         assert.step(`web_read ${args.model} ${args.args[0]}`);
                     }
                     if (args.method === "read") {
                         assert.step(`read ${args.model} ${args.args[0]}`);
+=======
+                    if (route === "/web/dataset/call_kw/hr.employee.public/get_avatar_card_data", args.model === "hr.employee.public", args.method === "get_avatar_card_data") {
+                        const resourceIdArray = args.args[0];
+                        const resourceId = resourceIdArray[0];
+                        const resources = pyEnv['hr.employee.public'].search_read([['id', '=', resourceId]]);
+                        const result = resources.map(resource => ({
+                            name: resource.name,
+                            work_email:resource.work_email,
+                            phone: resource.phone,
+                            user_id: resource.user_id,
+                        }));
+                        assert.step(`read ${args.model} ${args.args[0]}`);
+                        return result;
+>>>>>>> upstream/18.0
                     }
                 },
                 serverData: { views },
@@ -496,15 +585,24 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
                 )[1]
             );
             assert.verifySteps([
+<<<<<<< HEAD
                 `web_read m2x.avatar.employee ${avatarId_1}`,
                 `read hr.employee ${employeeId_1}`,
                 `read hr.employee ${employeeId_2}`,
+=======
+                `read resource.resource ${employeeId_1}`,
+                `read resource.resource ${employeeId_2}`,
+>>>>>>> upstream/18.0
             ]);
         }
     );
 
     QUnit.test("many2many_avatar_employee widget in list view", async function (assert) {
+<<<<<<< HEAD
         const pyEnv = await startServer();
+=======
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
             { name: "Mario" },
             { name: "Yoshi" },
@@ -519,7 +617,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
                 user_id: userId_1,
                 user_partner_id: partnerId_1,
                 phone: "+45687468",
+<<<<<<< HEAD
                 email: "Mario@partner.com",
+=======
+                work_email: "Mario@partner.com",
+>>>>>>> upstream/18.0
             },
             {
                 name: "Yoshi",
@@ -536,6 +638,10 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         };
         const { openView } = await start({
             serverData: { views },
+<<<<<<< HEAD
+=======
+            mockRPC
+>>>>>>> upstream/18.0
         });
         await openView({
             res_model: "m2x.avatar.employee",
@@ -590,7 +696,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     });
 
     QUnit.test("many2many_avatar_employee widget in kanban view", async function (assert) {
+<<<<<<< HEAD
         const pyEnv = await startServer();
+=======
+        pyEnv = await startServer();
+>>>>>>> upstream/18.0
         const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
             { name: "Mario" },
             { name: "Luigi" },
@@ -629,6 +739,10 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
         };
         const { openView } = await start({
             serverData: { views },
+<<<<<<< HEAD
+=======
+            mockRPC
+>>>>>>> upstream/18.0
         });
         await openView({
             res_model: "m2x.avatar.employee",
@@ -701,7 +815,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
     QUnit.test(
         "many2many_avatar_employee: click on an employee not associated with a user",
         async function (assert) {
+<<<<<<< HEAD
             const pyEnv = await startServer();
+=======
+            pyEnv = await startServer();
+>>>>>>> upstream/18.0
             const partnerId = pyEnv["res.partner"].create({ name: "Luigi" });
             const userId = pyEnv["res.users"].create({ partner_id: partnerId });
             const [employeeId_1, employeeId_2] = pyEnv["hr.employee.public"].create([
@@ -722,7 +840,11 @@ QUnit.module("M2XAvatarEmployee", ({ beforeEach }) => {
                 "m2x.avatar.employee,false,form":
                     '<form><field name="employee_ids" widget="many2many_avatar_employee"/></form>',
             };
+<<<<<<< HEAD
             await start({ serverData: { views } });
+=======
+            await start({ serverData: { views }, mockRPC});
+>>>>>>> upstream/18.0
             await openFormView("m2x.avatar.employee", avatarId);
             await contains(".o_field_many2many_avatar_employee .o_tag", { count: 2 });
             assert.strictEqual(

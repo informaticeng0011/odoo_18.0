@@ -1653,6 +1653,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"החשבון %s לא ניתן לפיצול כיוון שהוא כבר שייך לחברה אחת בלבד. פעולת הפיצול "
+"מפרידה חשבון רק בהתבסס על החברות שאליהן הוא שייך."
+>>>>>>> upstream/18.0
 =======
 "החשבון %s לא ניתן לפיצול כיוון שהוא כבר שייך לחברה אחת בלבד. פעולת הפיצול "
 "מפרידה חשבון רק בהתבסס על החברות שאליהן הוא שייך."
@@ -1692,7 +1697,11 @@ msgid "Account %s is of payable type, but is used in a sale operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבון%s הוא מסוג ספקים, אך נעשה בו שימוש בפעולת מכירה."
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבון%s הוא מסוג ספקים, אך נעשה בו שימוש בפעולת מכירה."
 >>>>>>> upstream/18.0
@@ -1718,7 +1727,11 @@ msgid "Account %s is of receivable type, but is used in a purchase operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבון%s הוא מסוג לקוחות, אך נעשה בו שימוש בפעולת רכש."
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבון%s הוא מסוג לקוחות, אך נעשה בו שימוש בפעולת רכש."
 >>>>>>> upstream/18.0
@@ -1983,6 +1996,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"קודי חשבון חייבים להיות ייחודיים. לא ניתן ליצור חשבונות עם קודים כפולים "
+"אלה:%s"
+>>>>>>> upstream/18.0
 =======
 "קודי חשבון חייבים להיות ייחודיים. לא ניתן ליצור חשבונות עם קודים כפולים "
 "אלה:%s"
@@ -2043,7 +2061,11 @@ msgid "Account merge wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף מיזוג חשבונות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף מיזוג חשבונות"
 >>>>>>> upstream/18.0
@@ -2254,7 +2276,11 @@ msgid "Accounts successfully merged!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבונות מוזגו בהצלחה!"
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבונות מוזגו בהצלחה!"
 >>>>>>> upstream/18.0
@@ -2666,7 +2692,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_secure_entries_wizard__unreconciled_bank_statement_line_ids
 msgid "All unreconciled bank statement lines before the selected date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל שורות דפי הבנק שלא התואמו לפני התאריך שנבחר."
+>>>>>>> upstream/18.0
 =======
 msgstr "כל שורות דפי הבנק שלא התואמו לפני התאריך שנבחר."
 >>>>>>> upstream/18.0
@@ -3032,6 +3062,11 @@ msgid ""
 "does not allow any exception."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת יומן  עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם לסדר "
+"הרישומים ביומן. תאריך הנעילה הזה הוא בלתי הפיך ואינו מאפשר שום חריגה."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת יומן  עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם לסדר "
 "הרישומים ביומן. תאריך הנעילה הזה הוא בלתי הפיך ואינו מאפשר שום חריגה."
@@ -3054,6 +3089,12 @@ msgid ""
 "automatically set when the tax closing entry is posted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת יומן עם מע\"מ עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם"
+" לסדר הרישומים ביומן. תאריך נעילת המע\"מ מוגדר אוטומטית כאשר פקודת סגירת "
+"המע\"מ נרשמת."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת יומן עם מע\"מ עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם"
 " לסדר הרישומים ביומן. תאריך נעילת המע\"מ מוגדר אוטומטית כאשר פקודת סגירת "
@@ -3082,6 +3123,11 @@ msgid ""
 "later date, in accordance with its journal's sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת רכש  לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם לסדר"
+" הרישומים ביומן."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת רכש  לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם לסדר"
 " הרישומים ביומן."
@@ -3094,6 +3140,11 @@ msgid ""
 "later date, in accordance with its journal's sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת מכירה לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם "
+"לסדר הרישומים ביומן."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת מכירה לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם "
 "לסדר הרישומים ביומן."
@@ -3247,7 +3298,11 @@ msgstr "קבצים מצורפים"
 #: model:ir.model.fields,field_description:account.field_mail_message__account_audit_log_activated
 msgid "Audit Log Activated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לוג מעקב אחר שינויים פעיל"
+>>>>>>> upstream/18.0
 =======
 msgstr "לוג מעקב אחר שינויים פעיל"
 >>>>>>> upstream/18.0
@@ -3260,7 +3315,11 @@ msgstr "לוג מעקב אחר שינויים פעיל"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Audit Trail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מעקב אחר שינויים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מעקב אחר שינויים"
 >>>>>>> upstream/18.0
@@ -3318,7 +3377,11 @@ msgstr "פרסום אוטומטי"
 #: model:ir.model.fields,field_description:account.field_res_users__autopost_bills
 msgid "Auto-post bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רישום אוטומטי של חשבוניות "
+>>>>>>> upstream/18.0
 =======
 msgstr "רישום אוטומטי של חשבוניות "
 >>>>>>> upstream/18.0
@@ -3337,6 +3400,10 @@ msgid ""
 "detected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הרישום האוטומטי הופסק עבור חשבונית זו מאחר שנמצא חשבונית פוטנציאלית כפולה."
+>>>>>>> upstream/18.0
 =======
 "הרישום האוטומטי הופסק עבור חשבונית זו מאחר שנמצא חשבונית פוטנציאלית כפולה."
 >>>>>>> upstream/18.0
@@ -3352,7 +3419,11 @@ msgstr "אישור אוטומטי"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__autopost_bills
 msgid "Auto-validate bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אישור אוטומטי של חשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אישור אוטומטי של חשבוניות"
 >>>>>>> upstream/18.0
@@ -3514,7 +3585,11 @@ msgstr "בנק ומזומן"
 #: code:addons/account/models/account_account.py:0
 msgid "Bank & Cash accounts cannot be shared between companies."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בנק & מזומנים לא יכולים להיות משותפים בין חברות."
+>>>>>>> upstream/18.0
 =======
 msgstr "בנק & מזומנים לא יכולים להיות משותפים בין חברות."
 >>>>>>> upstream/18.0
@@ -4064,7 +4139,11 @@ msgstr "בוטל"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Cancelled Credit Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זיכוי לקוח מבוטלת"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונית זיכוי לקוח מבוטלת"
 >>>>>>> upstream/18.0
@@ -4342,7 +4421,11 @@ msgstr "שנה את התווית של המקביל שתשמור על הפרש ה
 #: model:ir.model.fields,field_description:account.field_account_lock_exception__lock_date
 msgid "Changed Lock Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך נעילה שונה"
+>>>>>>> upstream/18.0
 =======
 msgstr "תאריך נעילה שונה"
 >>>>>>> upstream/18.0
@@ -4422,7 +4505,11 @@ msgstr "בדיקה"
 #: code:addons/account/models/account_move_send.py:0
 msgid "Check Partner(s) Email(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בדוק כתובת דוא\"ל של שותפים"
+>>>>>>> upstream/18.0
 =======
 msgstr "בדוק כתובת דוא\"ל של שותפים"
 >>>>>>> upstream/18.0
@@ -4476,7 +4563,11 @@ msgid "Check why it's risky."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בדוק מדוע זה מסוכן."
+>>>>>>> upstream/18.0
 =======
 msgstr "בדוק מדוע זה מסוכן."
 >>>>>>> upstream/18.0
@@ -4639,7 +4730,10 @@ msgstr "יישות מסחרית"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4657,6 +4751,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4888,7 +4985,11 @@ msgid "Consider paying the %(btn_start)sfull amount%(btn_end)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שקול לשלם את %(btn_start)sהסכום המלא%(btn_end)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "שקול לשלם את %(btn_start)sהסכום המלא%(btn_end)s."
 >>>>>>> upstream/18.0
@@ -4927,7 +5028,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מכיל את שם הסעיף או את הודעת השגיאה, בהתאם לסוג השורה."
+>>>>>>> upstream/18.0
 =======
 msgstr "מכיל את שם הסעיף או את הודעת השגיאה, בהתאם לסוג השורה."
 >>>>>>> upstream/18.0
@@ -4983,7 +5088,11 @@ msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נתונים פגומים בפקודת יומן עם מזהה %(id)s (%(name)s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "נתונים פגומים בפקודת יומן עם מזהה %(id)s (%(name)s)."
 >>>>>>> upstream/18.0
@@ -5680,7 +5789,11 @@ msgid "Custom User Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מטבע מותאם אישית למשתמש"
+>>>>>>> upstream/18.0
 =======
 msgstr "מטבע מותאם אישית למשתמש"
 >>>>>>> upstream/18.0
@@ -6117,7 +6230,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחיר מכירה ברירת מחדל כולל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחיר מכירה ברירת מחדל כולל"
 >>>>>>> upstream/18.0
@@ -6225,7 +6342,11 @@ msgstr ""
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_fiscal_year
 msgid "Define your fiscal years & tax returns periodicity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר את שנות הכספים שלך שלך ואת תדירות החזרי המס."
+>>>>>>> upstream/18.0
 =======
 msgstr "הגדר את שנות הכספים שלך שלך ואת תדירות החזרי המס."
 >>>>>>> upstream/18.0
@@ -6850,7 +6971,11 @@ msgid "Drop to import transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שחרר כדי לייבא עסקאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שחרר כדי לייבא עסקאות"
 >>>>>>> upstream/18.0
@@ -6876,7 +7001,11 @@ msgid "Drop to import your invoices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שחרר כדי לייבא את החשבוניות שלך ."
+>>>>>>> upstream/18.0
 =======
 msgstr "שחרר כדי לייבא את החשבוניות שלך ."
 >>>>>>> upstream/18.0
@@ -7827,7 +7956,11 @@ msgstr "חשבון מס זר (%s)"
 #: code:addons/account/models/chart_template.py:0
 msgid "Foreign tax account advance payment (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלום מקדמה לחשבון מס זר (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלום מקדמה לחשבון מס זר (%s)"
 >>>>>>> upstream/18.0
@@ -7896,7 +8029,11 @@ msgstr "מאסמכתא"
 #: model_terms:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
 msgid "From last fiscal year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משנת כספית קודמת "
+>>>>>>> upstream/18.0
 =======
 msgstr "משנת כספית קודמת "
 >>>>>>> upstream/18.0
@@ -8575,7 +8712,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "Ignore future alerts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התעלם מהתראות עתידיות"
+>>>>>>> upstream/18.0
 =======
 msgstr "התעלם מהתראות עתידיות"
 >>>>>>> upstream/18.0
@@ -9518,7 +9659,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "It looks like you've successfully validated the last"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה נראה שאישרת בהצלחה את "
+>>>>>>> upstream/18.0
 =======
 msgstr "זה נראה שאישרת בהצלחה את "
 >>>>>>> upstream/18.0
@@ -9528,7 +9673,11 @@ msgstr "זה נראה שאישרת בהצלחה את "
 #: code:addons/account/wizard/account_validate_account_move.py:0
 msgid "It seems there is some depending closing move to be posted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה נראה שיש תנועה סוגרת שצריכה להרשם"
+>>>>>>> upstream/18.0
 =======
 msgstr "זה נראה שיש תנועה סוגרת שצריכה להרשם"
 >>>>>>> upstream/18.0
@@ -9581,7 +9730,11 @@ msgstr "יומן"
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Journal (Sequence Prefix)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומן(תחילית רצף)"
+>>>>>>> upstream/18.0
 =======
 msgstr "יומן(תחילית רצף)"
 >>>>>>> upstream/18.0
@@ -9876,7 +10029,11 @@ msgid "Label on PoS Receipts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תווית על קבלות של קופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "תווית על קבלות של קופה"
 >>>>>>> upstream/18.0
@@ -10064,7 +10221,11 @@ msgstr "ספר"
 #: model:ir.model.fields,field_description:account.field_account_journal__journal_group_ids
 msgid "Ledger Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבוצת ספרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבוצת ספרים"
 >>>>>>> upstream/18.0
@@ -10073,7 +10234,11 @@ msgstr "קבוצת ספרים"
 #: model:ir.model.fields,field_description:account.field_account_journal_group__name
 msgid "Ledger group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבוצת ספרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבוצת ספרים"
 >>>>>>> upstream/18.0
@@ -10204,7 +10369,11 @@ msgstr "העברת נזילות"
 #: model:ir.model.fields,field_description:account.field_account_report__load_more_limit
 msgid "Load More Limit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העלה עוד הגבלה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העלה עוד הגבלה"
 >>>>>>> upstream/18.0
@@ -10219,7 +10388,11 @@ msgstr "Lock"
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "Lock Date Exception %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חריגת תאריך נעילה"
+>>>>>>> upstream/18.0
 =======
 msgstr "חריגת תאריך נעילה"
 >>>>>>> upstream/18.0
@@ -10332,7 +10505,11 @@ msgstr "בצע הזנות צבירה"
 msgid ""
 "Make sure you first activate the audit trail in the accounting settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "וודא שאתה מפעיל את המעקב אחר שינויים בהגדרות של הנהלת חשבונות."
+>>>>>>> upstream/18.0
 =======
 msgstr "וודא שאתה מפעיל את המעקב אחר שינויים בהגדרות של הנהלת חשבונות."
 >>>>>>> upstream/18.0
@@ -10532,7 +10709,11 @@ msgid "Matching rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כללי התאמה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כללי התאמה"
 >>>>>>> upstream/18.0
@@ -10692,6 +10873,11 @@ msgid ""
 "request it and let the owner upload it at the right place."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"חסר מסמך עבור דפי בנק ? השתמש באפליקציית המסמכים כדי לבקש אותו, ותן לבעל "
+"המסמך להעלות אותו למקום הנכון."
+>>>>>>> upstream/18.0
 =======
 "חסר מסמך עבור דפי בנק ? השתמש באפליקציית המסמכים כדי לבקש אותו, ותן לבעל "
 "המסמך להעלות אותו למקום הנכון."
@@ -11468,7 +11654,11 @@ msgid "Only Tax Exigible Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק שורות חייבות במס"
+>>>>>>> upstream/18.0
 =======
 msgstr "רק שורות חייבות במס"
 >>>>>>> upstream/18.0
@@ -12593,6 +12783,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שיטת התשלום המועדפת בעת מכירה ללקוח זה. שיטה זו תיקבע כברירת מחדל עבור כל "
+"תשלום נכנס שייוצר עבור לקוח זה."
+>>>>>>> upstream/18.0
 =======
 "שיטת התשלום המועדפת בעת מכירה ללקוח זה. שיטה זו תיקבע כברירת מחדל עבור כל "
 "תשלום נכנס שייוצר עבור לקוח זה."
@@ -13215,7 +13410,11 @@ msgid "Related to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מקושר ל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מקושר ל"
 >>>>>>> upstream/18.0
@@ -14872,7 +15071,11 @@ msgstr "זכאות מס"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Tax Grid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סעיף מע\"מ"
+>>>>>>> upstream/18.0
 =======
 msgstr "סעיף מע\"מ"
 >>>>>>> upstream/18.0
@@ -14975,7 +15178,11 @@ msgid "Tax Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מס התקבל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מס התקבל"
 >>>>>>> upstream/18.0
