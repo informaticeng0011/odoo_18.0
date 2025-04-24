@@ -231,7 +231,10 @@ class TestCreatePicking(common.TestProductCommon):
         self.assertEqual(po.order_line.qty_received, 3.0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_mtso_multi_pg_order(self):
         """ Run 2 procurements for a product at the same times then receipt them via a purchase
         order. Check the reservation search for stock move of the same procurement group in priority
@@ -302,6 +305,9 @@ class TestCreatePicking(common.TestProductCommon):
         self.assertEqual(len(reserved_delivery), 1)
         self.assertEqual(reserved_delivery.group_id, lines[1].order_id.group_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_04_mto_multiple_po(self):
         """ Simulate a mto chain with 2 purchase order.

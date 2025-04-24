@@ -23,11 +23,17 @@ class TestSaleOrderProductCatalog(HttpCase):
         })
         admin.company_id = branch
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.env['product.template'].create({
             'name': "AAA Product",
             'company_id': admin.company_id.id,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.start_tour(
             '/web#action=sale.action_quotations',

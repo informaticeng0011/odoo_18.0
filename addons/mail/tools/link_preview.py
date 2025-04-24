@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+import re
+>>>>>>> upstream/18.0
 =======
 import re
 >>>>>>> upstream/18.0
@@ -78,8 +82,11 @@ def get_link_preview_from_html(url, response):
         decoded_content = content.decode("utf-8", errors="ignore")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     tree = html.fromstring(decoded_content)
 =======
+=======
+>>>>>>> upstream/18.0
     try:
         tree = html.fromstring(decoded_content)
     except ValueError:
@@ -88,6 +95,9 @@ def get_link_preview_from_html(url, response):
         )
         tree = html.fromstring(decoded_content)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     og_title = tree.xpath('//meta[@property="og:title"]/@content')
     if og_title:

@@ -10,6 +10,10 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { queryAll } from "@odoo/hoot-dom";
 import { defineResourceMailModels } from "./resource_mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { onRpc } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { onRpc } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -72,7 +76,10 @@ beforeEach(async () => {
         resource_ids: [data.resourceComputerId, data.resourceMarieId, data.resourcePierreId],
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     onRpc("resource.resource", "get_avatar_card_data", (params) => {
         const resourceIdArray = params.args[0];
@@ -87,6 +94,9 @@ beforeEach(async () => {
         }));
         return result;
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 test("many2many_avatar_resource widget in form view", async () => {

@@ -152,7 +152,10 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
         self.assertEqual(self.component.value_svl, 30)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_fifo_produce_deliver_return_unbuild(self):
         self.product1.product_tmpl_id.categ_id.property_cost_method = 'fifo'
         self.component.write({
@@ -178,6 +181,9 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
             {'value': -10.0, 'quantity': -1.0, 'remaining_value': 0.0, 'remaining_qty': 0.0},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_fifo_avco_1(self):
         self.component.product_tmpl_id.categ_id.property_cost_method = 'fifo'

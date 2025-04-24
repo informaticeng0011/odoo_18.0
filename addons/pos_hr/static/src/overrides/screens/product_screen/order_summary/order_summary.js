@@ -5,7 +5,11 @@ import { patch } from "@web/core/utils/patch";
 
 patch(OrderSummary.prototype, {
     async setLinePrice(line, price) {
+<<<<<<< HEAD
         if (!this.pos.config.module_pos_hr || this.pos.employeeIsAdmin) {
+=======
+        if (this.pos.cashierHasPriceControlRights()) {
+>>>>>>> upstream/18.0
             await super.setLinePrice(line, price);
             return;
         }

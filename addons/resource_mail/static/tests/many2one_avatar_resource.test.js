@@ -10,6 +10,10 @@ import {
     startServer,
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { onRpc } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { onRpc } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -85,7 +89,10 @@ beforeEach(async () => {
         },
     ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("resource.resource", "get_avatar_card_data", (params) => {
         const resourceIdArray = params.args[0];
         const resourceId = resourceIdArray[0];
@@ -100,6 +107,9 @@ beforeEach(async () => {
         return result;
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

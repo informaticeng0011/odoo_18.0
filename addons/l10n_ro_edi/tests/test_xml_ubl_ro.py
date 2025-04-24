@@ -105,7 +105,11 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -136,7 +140,10 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': 'RO1234567897'})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161,7 +168,11 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': '1234567897'})
+=======
+        self.partner_a.write({'vat': False})
+>>>>>>> upstream/18.0
 =======
         self.partner_a.write({'vat': False})
 >>>>>>> upstream/18.0
@@ -192,7 +203,10 @@ class TestUBLRO(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.partner_a.write({'vat': False, 'company_registry': False})
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

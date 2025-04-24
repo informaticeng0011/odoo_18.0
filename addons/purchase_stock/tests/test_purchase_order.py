@@ -771,7 +771,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         picking.button_validate()
         self.assertEqual(picking.move_ids.location_dest_id, sub_location)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_foreign_bill_autocomplete_with_payment_term(self):
         """ Test the bill auto-complete with a PO having a payment term in a foreign currency """
@@ -810,4 +813,7 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         line = invoice.invoice_line_ids[0]
         self.assertEqual(line.amount_currency, 100.0)
         self.assertEqual(line.balance, 66.67)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

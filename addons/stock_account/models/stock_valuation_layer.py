@@ -65,11 +65,17 @@ class StockValuationLayer(models.Model):
         return [('id', 'in', layer_ids)]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _candidate_sort_key(self):
         self.ensure_one()
         return tuple()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _validate_accounting_entries(self):
         am_vals = []

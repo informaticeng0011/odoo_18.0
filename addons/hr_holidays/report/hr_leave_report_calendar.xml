@@ -54,7 +54,10 @@
         <field name="model">hr.leave.report.calendar</field>
         <field name="arch" type="xml">
             <search string="Department search">
+<<<<<<< HEAD
                 <field name="name"/>
+=======
+>>>>>>> upstream/18.0
                 <field name="employee_id"/>
                 <field name="department_id"/>
                 <field name="job_id"/>

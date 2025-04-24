@@ -297,6 +297,10 @@ class L10nEsEdiTbaiDocument(models.Model):
             'fiscal_year': str(self.date.year),
             'freelancer': freelancer,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'is_freelancer': freelancer,  # For bugfix, will be removed in master
+>>>>>>> upstream/18.0
 =======
             'is_freelancer': freelancer,  # For bugfix, will be removed in master
 >>>>>>> upstream/18.0

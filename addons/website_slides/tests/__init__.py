@@ -5,6 +5,10 @@ from . import test_attendee
 from . import test_embed_detection
 from . import test_gamification_karma
 from . import test_load_chatter_bundle
+<<<<<<< HEAD
+=======
+from . import test_mail
+>>>>>>> upstream/18.0
 from . import test_security
 from . import test_slide_channel
 from . import test_slide_question

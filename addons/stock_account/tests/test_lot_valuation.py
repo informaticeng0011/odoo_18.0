@@ -736,7 +736,10 @@ class TestLotValuation(TestStockValuationCommon):
         with self.assertRaises(UserError):
             self.lot1.action_revaluation()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_deliveries_with_minimal_access_rights(self):
         """
@@ -774,4 +777,7 @@ class TestLotValuation(TestStockValuationCommon):
         self.assertRecordValues(delivery.move_ids, [
             {'quantity': 5.0, 'state': 'done', 'lot_ids': self.lot1.ids}
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

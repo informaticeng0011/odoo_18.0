@@ -42,7 +42,10 @@ for (let i = 100; i <= 900; i += 100) {
     EDITOR_COLOR_CSS_VARIABLES.push(`${i}`);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 // Black, white and their opacity variants.
 // These variables are necessary to prevent the colorpicker from being affected
@@ -52,6 +55,9 @@ EDITOR_COLOR_CSS_VARIABLES.push(
     "white", "white-25", "white-50", "white-75", "white-85"
 );
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * window.getComputedStyle cannot work properly with CSS shortcuts (like

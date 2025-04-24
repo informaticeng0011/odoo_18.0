@@ -1497,6 +1497,10 @@ class TestHttp(common.HttpCase):
         self.cr.flush()
         self.cr.clear()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._wait_remaining_requests()  # just in case the request timeouts
+>>>>>>> upstream/18.0
 =======
         self._wait_remaining_requests()  # just in case the request timeouts
 >>>>>>> upstream/18.0

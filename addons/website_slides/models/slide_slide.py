@@ -1398,3 +1398,9 @@ class Slide(models.Model):
         if self.website_id:
             return super().open_website_url()
         return self.env['website'].get_client_action(f'/slides/slide/{self.env["ir.http"]._slug(self)}')
+<<<<<<< HEAD
+=======
+
+    def _mail_get_partner_fields(self, introspect_fields=False):
+        return []
+>>>>>>> upstream/18.0

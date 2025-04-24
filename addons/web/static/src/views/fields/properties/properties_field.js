@@ -214,8 +214,14 @@ export class PropertiesField extends Component {
      * @returns {array}
      */
     get propertiesList() {
+<<<<<<< HEAD
         const propertiesValues = this.props.record.data[this.props.name] || [];
         return propertiesValues.filter((definition) => !definition.definition_deleted);
+=======
+        return (this.props.record.data[this.props.name] || [])
+            .filter((definition) => !definition.definition_deleted)
+            .map((definition) => ({ ...definition }));
+>>>>>>> upstream/18.0
     }
 
     /**

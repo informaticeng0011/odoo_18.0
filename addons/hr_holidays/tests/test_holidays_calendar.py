@@ -42,6 +42,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
         self.assertEqual(last_leave.date_from.weekday(), 3, "It should be Thursday")
         self.assertEqual(last_leave.date_from.hour, expected_leave_start, "Wrong start of the day")
         self.assertEqual(last_leave.date_to.hour, expected_leave_end, "Wrong end of the day")
+<<<<<<< HEAD
 
     def test_search_holidays_calendar(self):
         """
@@ -88,3 +89,5 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
                     expected, 
                     f"Failed for term '{term}' with user {user.login}. Expected {expected}, got {records}."
                 )
+=======
+>>>>>>> upstream/18.0

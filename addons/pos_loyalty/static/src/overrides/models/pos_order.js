@@ -1177,7 +1177,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 price_unit: -(entry[1] * discountFactor),
+=======
+                price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
+>>>>>>> upstream/18.0
 =======
                 price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
 >>>>>>> upstream/18.0

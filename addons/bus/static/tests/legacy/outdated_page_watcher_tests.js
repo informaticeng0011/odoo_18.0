@@ -15,6 +15,7 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { serializeDateTime } from "@web/core/l10n/dates";
 import { registry } from "@web/core/registry";
 
@@ -22,6 +23,8 @@ const { DateTime } = luxon;
 QUnit.test("disconnect during vacuum should ask for reload", async () => {
     // vacuum permanently clears notifs, so reload might be required to recover coherent state in apps like Discuss
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42,6 +45,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58,6 +64,7 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
     const pyEnv = await startServer();
     const { env } = await createWebClient({
         mockRPC(route) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +95,8 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (route === "/bus/has_missed_notifications") {
                 return true;
             }
@@ -98,6 +107,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

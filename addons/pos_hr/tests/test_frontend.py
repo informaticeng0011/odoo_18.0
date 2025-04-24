@@ -64,7 +64,13 @@ class TestUi(TestPosHrHttpCommon):
                 (4, self.env.ref('account.group_account_invoice').id)
             ]
         })
+<<<<<<< HEAD
         self.main_pos_config.advanced_employee_ids = self.admin.ids
+=======
+        self.main_pos_config.update({
+            'advanced_employee_ids': [(6, 0, self.admin.ids)],
+        })
+>>>>>>> upstream/18.0
         self.main_pos_config.with_user(self.pos_admin).open_ui()
         self.start_pos_tour("PosHrTour", login="pos_admin")
 
@@ -94,7 +100,10 @@ class TestUi(TestPosHrHttpCommon):
         self.main_pos_config.advanced_employee_ids = []
         self.main_pos_config.basic_employee_ids = [
             Command.link(self.emp3.id),
+<<<<<<< HEAD
             Command.link(self.admin.id)
+=======
+>>>>>>> upstream/18.0
         ]
         self.main_pos_config.with_user(self.pos_admin).open_ui()
 
@@ -103,3 +112,23 @@ class TestUi(TestPosHrHttpCommon):
             "CashierCannotClose",
             login="pos_user",
         )
+<<<<<<< HEAD
+=======
+
+    def test_basic_user_can_change_price(self):
+        self.main_pos_config.advanced_employee_ids = []
+        self.main_pos_config.basic_employee_ids = [
+            Command.link(self.emp3.id),
+            Command.link(self.admin.id)
+        ]
+        self.main_pos_config.write({
+            "restrict_price_control": False,
+        })
+        self.main_pos_config.with_user(self.pos_admin).open_ui()
+
+        self.start_tour(
+            "/pos/ui?config_id=%d" % self.main_pos_config.id,
+            "test_basic_user_can_change_price",
+            login="pos_user",
+        )
+>>>>>>> upstream/18.0

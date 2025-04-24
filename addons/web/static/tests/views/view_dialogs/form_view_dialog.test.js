@@ -392,7 +392,10 @@ test("Save a FormViewDialog when a required field is empty don't close the dialo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -440,7 +443,10 @@ test("new record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -488,6 +494,7 @@ test("existing record has an expand button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("mobile");
 test("no expand button on mobile", async () => {
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
@@ -502,6 +509,8 @@ test("no expand button on mobile", async () => {
 });
 
 test.tags("desktop");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

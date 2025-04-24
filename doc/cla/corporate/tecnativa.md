@@ -18,7 +18,11 @@ Sergio Teruel sergio.teruel@tecnativa.com https://github.com/sergio-teruel
 Carlos Dauden carlos.dauden@tecnativa.com https://github.com/carlosdauden
 Jairo Llopis jairo.llopis@tecnativa.com https://github.com/yajo (up to 2021-11-25)
 <<<<<<< HEAD
+<<<<<<< HEAD
 David Vidal david.vidal@tecnativa.com https://github.com/chienandalu
+=======
+David Vidal david.vidal@tecnativa.com https://github.com/chienandalu (up to 2025-03-31)
+>>>>>>> upstream/18.0
 =======
 David Vidal david.vidal@tecnativa.com https://github.com/chienandalu (up to 2025-03-31)
 >>>>>>> upstream/18.0

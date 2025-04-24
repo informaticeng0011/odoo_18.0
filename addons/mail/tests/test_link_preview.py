@@ -79,7 +79,10 @@ class TestLinkPreview(MailCommon):
         return self._patched_get_html(None, content)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _patch_with_xml_declaration(self, *args, **kwargs):
         content = b"""<?xml version="1.0" encoding="UTF-8"?>
         <html>
@@ -90,6 +93,9 @@ class TestLinkPreview(MailCommon):
         """
         return self._patched_get_html("text/html", content)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_get_link_preview_from_url(self):
         test_cases = [
@@ -97,6 +103,10 @@ class TestLinkPreview(MailCommon):
             (self._patch_without_og_properties, self.source_url),
             (self._patch_with_image_mimetype, self.og_image),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            (self._patch_with_xml_declaration, self.source_url)
+>>>>>>> upstream/18.0
 =======
             (self._patch_with_xml_declaration, self.source_url)
 >>>>>>> upstream/18.0
@@ -126,7 +136,10 @@ class TestLinkPreview(MailCommon):
                 'source_url': self.og_image,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             {
                 'og_description': None,
                 'og_image': None,
@@ -136,6 +149,9 @@ class TestLinkPreview(MailCommon):
                 'og_site_name': None,
                 'source_url': self.source_url,
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
         session = requests.Session()

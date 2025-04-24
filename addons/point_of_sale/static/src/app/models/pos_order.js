@@ -11,6 +11,10 @@ import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
+>>>>>>> upstream/18.0
 =======
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 >>>>>>> upstream/18.0
@@ -243,6 +247,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
 =======
         remaining = roundCurrency(remaining, this.currency);
 >>>>>>> upstream/18.0
