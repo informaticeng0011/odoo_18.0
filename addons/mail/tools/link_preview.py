@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+import re
+>>>>>>> upstream/18.0
 =======
 import re
 >>>>>>> upstream/18.0
@@ -83,8 +87,11 @@ def get_link_preview_from_html(url, response):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tree = html.fromstring(decoded_content)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     try:
@@ -96,6 +103,9 @@ def get_link_preview_from_html(url, response):
         tree = html.fromstring(decoded_content)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

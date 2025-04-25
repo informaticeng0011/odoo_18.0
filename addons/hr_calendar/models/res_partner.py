@@ -53,6 +53,10 @@ class Partner(models.Model):
         for employee, calendar_periods in calendar_periods_by_employee.items():
             for (start, stop, calendar) in calendar_periods:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
+>>>>>>> upstream/18.0
 =======
                 calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
 >>>>>>> upstream/18.0
@@ -61,7 +65,10 @@ class Partner(models.Model):
         # Compute all work intervals per calendar
         for calendar, resources in resources_by_calendar.items():
 <<<<<<< HEAD
+<<<<<<< HEAD
             calendar = calendar or self.env.company.resource_calendar_id # No calendar if fully flexible
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             work_intervals = calendar._work_intervals_batch(start_period, stop_period, resources=resources, tz=timezone(calendar.tz))

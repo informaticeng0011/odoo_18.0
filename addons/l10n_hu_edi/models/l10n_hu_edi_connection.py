@@ -126,7 +126,11 @@ class L10nHuEdiConnection:
         :param invoice_operations: a list of dictionaries:
             {
                 'index': <index given to invoice>,
+<<<<<<< HEAD
                 'operation': 'CREATE' or 'MODIFY',
+=======
+                'operation': 'CREATE' or 'MODIFY' or 'STORNO',
+>>>>>>> upstream/18.0
                 'invoice_data': <XML data of the invoice as bytes>
             }
         :return str: The transaction code issued by NAV.

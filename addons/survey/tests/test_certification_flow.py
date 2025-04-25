@@ -3,6 +3,10 @@
 
 from unittest.mock import patch
 
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 from odoo.addons.base.models.ir_mail_server import IrMailServer
 from odoo.addons.survey.tests import common
 from odoo.tests import tagged
@@ -150,6 +154,29 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
         self.assertEqual(certification_email.attachment_ids[0].name, f'Certification - {certification.title}.html',
                          'Default certification report print_report_name is "Certification - %s" % (object.survey_id.display_name)')
 
+<<<<<<< HEAD
+=======
+        # Check that the certification can be printed without access to the participant's company
+        with self.with_user('admin'):
+            new_company = self.env['res.company'].create({
+                'name': 'newB',
+            })
+            user_new_company = self.env['res.users'].create({
+                'name': 'No access right user',
+                'login': 'user_new_company',
+                'password': 'user_new_company',
+                'groups_id': [
+                    Command.set(self.env.ref('base.group_user').ids),
+                    Command.link(self.env.ref('survey.group_survey_user').id),
+                ],
+                'company_id': new_company.id,
+                'company_ids': [new_company.id],
+            })
+            new_company.invalidate_model()  # cache pollution
+        self.env['ir.actions.report'].with_user(user_new_company).with_company(new_company)\
+            ._render_qweb_pdf('survey.certification_report_view', res_ids=user_inputs.ids)
+
+>>>>>>> upstream/18.0
     def test_randomized_certification(self):
         # Step: survey user creates the randomized certification
         # --------------------------------------------------

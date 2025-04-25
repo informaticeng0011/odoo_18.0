@@ -208,8 +208,16 @@ class ResourceMixin(models.AbstractModel):
             for record in records:
                 intervals = all_intervals[record.resource_id.id]
                 record_result = defaultdict(float)
+<<<<<<< HEAD
                 for start, stop, _meta in intervals:
                     record_result[start.date()] += (stop - start).total_seconds() / 3600
+=======
+                for start, stop, meta in intervals:
+                    if calendar.flexible_hours:
+                        record_result[start.date()] = meta.duration_hours
+                    else:
+                        record_result[start.date()] += (stop - start).total_seconds() / 3600
+>>>>>>> upstream/18.0
                 result[record.id] = sorted(record_result.items())
         return result
 

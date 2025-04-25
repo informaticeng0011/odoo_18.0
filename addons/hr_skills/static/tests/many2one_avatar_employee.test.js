@@ -1,7 +1,11 @@
 import { click, contains, start, startServer } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountView } from "@web/../tests/web_test_helpers";
+=======
+import { mountView, onRpc } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountView, onRpc } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -37,7 +41,10 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
     await start();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -56,6 +63,9 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
         return result;
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

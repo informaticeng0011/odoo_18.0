@@ -43,8 +43,13 @@ msgid ""
 "A 'Project' plan needs to exist and its id needs to be set as "
 "`analytic.project_plan` in the system variables"
 msgstr ""
+<<<<<<< HEAD
 "Повинен існувати план «Проекту», а його ідентифікатор має бути встановлено "
 "як «analytic.project_plan» у системних змінних"
+=======
+"Повинен існувати план «Проєкт», а його ідентифікатор має бути встановлено як"
+" `analytic.project_plan` у системних змінних"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -195,7 +200,11 @@ msgstr "Аналітичний план"
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
 msgid "Analytic Plan Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поля аналітичного плану"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_applicability
@@ -255,7 +264,11 @@ msgstr "Asustek"
 #. odoo-python
 #: code:addons/analytic/models/analytic_line.py:0
 msgid "At least one analytic account must be set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Необхідно налаштувати хоча б один аналітичний рахунок"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_attachment_count
@@ -659,7 +672,11 @@ msgstr "Ще немає дій"
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 msgid "No activity yet on this account"
+<<<<<<< HEAD
 msgstr "Ще немає активності на цьому рахунку"
+=======
+msgstr "Ще немає дій на цьому рахунку"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -766,13 +783,21 @@ msgstr "Виробництво"
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_projects
 msgid "Project"
+<<<<<<< HEAD
 msgstr "Проект"
+=======
+msgstr "Проєкт"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__account_id
 #: model:ir.model.fields,field_description:analytic.field_analytic_plan_fields_mixin__account_id
 msgid "Project Account"
+<<<<<<< HEAD
 msgstr "Рахунок проекту"
+=======
+msgstr "Рахунок проєкту"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount
@@ -834,7 +859,11 @@ msgstr "Пошук аналітичних рядків"
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переглянути їх"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
@@ -924,6 +953,11 @@ msgid ""
 "Whoa there! Making this change would wipe out your current data. Let's avoid"
 " that, shall we?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ого! Внесення цієї зміни призведе до знищення ваших поточних даних. Давайте "
+"уникнемо цього, чи не так?"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -955,4 +989,8 @@ msgstr ""
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
+<<<<<<< HEAD
 msgstr "напр. Проект XYZ"
+=======
+msgstr "напр. Проєкт XYZ"
+>>>>>>> upstream/18.0

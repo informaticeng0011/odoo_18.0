@@ -62,7 +62,10 @@ export class ComboPage extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     getGroupedSelectedValues(attrValIds) {
         const selectedValues = this.getSelectedValues(attrValIds);
         const groupedByAttribute = {};
@@ -82,6 +85,9 @@ export class ComboPage extends Component {
         return Object.values(groupedByAttribute);
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     isEveryValueSelected() {
         return Object.values(this.state.selectedValues).every((value) => value);
@@ -119,8 +125,11 @@ export class ComboPage extends Component {
             configuration: {
                 attribute_custom_values: Object.values(this.env.customValues),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 attribute_value_ids: Object.values(this.env.selectedValues).map((s) => parseInt(s)),
 =======
+=======
+>>>>>>> upstream/18.0
                 attribute_value_ids: Object.values(this.env.selectedValues).flatMap((value) => {
                     if (typeof value === "string") {
                         return [parseInt(value)];
@@ -131,6 +140,9 @@ export class ComboPage extends Component {
                     }
                     return [];
                 }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 price_extra: 0,
             },

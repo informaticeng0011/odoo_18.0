@@ -737,7 +737,10 @@ class TestLotValuation(TestStockValuationCommon):
             self.lot1.action_revaluation()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -778,6 +781,9 @@ class TestLotValuation(TestStockValuationCommon):
             {'quantity': 5.0, 'state': 'done', 'lot_ids': self.lot1.ids}
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

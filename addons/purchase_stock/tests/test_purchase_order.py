@@ -772,7 +772,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         self.assertEqual(picking.move_ids.location_dest_id, sub_location)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -814,6 +817,9 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         self.assertEqual(line.amount_currency, 100.0)
         self.assertEqual(line.balance, 66.67)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

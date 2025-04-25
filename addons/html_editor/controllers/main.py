@@ -331,7 +331,10 @@ class HTML_Editor(http.Controller):
             try:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data = tools.image_process(data, size=(width, height), quality=quality, verify_resolution=True)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -347,6 +350,7 @@ class HTML_Editor(http.Controller):
                     )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except UserError:
                 # considered as an image by the browser file input, but not
                 # recognized as such by PIL, eg .webp
@@ -355,11 +359,16 @@ class HTML_Editor(http.Controller):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 data = tools.image_process(data, size=(width, height), quality=quality, verify_resolution=True)
             except (ValueError, UserError) as e:
                 # When UserError thrown, browser considers file input an
                 # image but not recognized as such by PIL, eg .webp
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398,6 +407,10 @@ class HTML_Editor(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'res_id': 0,
+>>>>>>> upstream/18.0
 =======
             'res_id': 0,
 >>>>>>> upstream/18.0

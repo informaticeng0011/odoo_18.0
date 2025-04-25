@@ -102,9 +102,18 @@ export class PowerButtonsPlugin extends Plugin {
         }
         const block = closestBlock(editableSelection.anchorNode);
         const element = closestElement(editableSelection.anchorNode);
+<<<<<<< HEAD
         if (
             editableSelection.isCollapsed &&
             element?.matches(baseContainerGlobalSelector) &&
+=======
+        const blockRect = block.getBoundingClientRect();
+        const editableRect = this.editable.getBoundingClientRect();
+        if (
+            editableSelection.isCollapsed &&
+            element?.matches(baseContainerGlobalSelector) &&
+            editableRect.bottom > blockRect.top &&
+>>>>>>> upstream/18.0
             isEmptyBlock(block) &&
             !this.services.ui.isSmall &&
             !closestElement(editableSelection.anchorNode, "td") &&
@@ -121,7 +130,11 @@ export class PowerButtonsPlugin extends Plugin {
                 const shouldHide = Boolean(isAvailable && !isAvailable(editableSelection));
                 buttonElement.classList.toggle("d-none", shouldHide); // 2nd arg must be a boolean
             }
+<<<<<<< HEAD
             this.setPowerButtonsPosition(block, direction);
+=======
+            this.setPowerButtonsPosition(block, blockRect, direction);
+>>>>>>> upstream/18.0
         }
     }
 
@@ -143,12 +156,19 @@ export class PowerButtonsPlugin extends Plugin {
      * @param {HTMLElement} block
      * @param {string} direction
      */
+<<<<<<< HEAD
     setPowerButtonsPosition(block, direction) {
+=======
+    setPowerButtonsPosition(block, blockRect, direction) {
+>>>>>>> upstream/18.0
         const overlayStyles = this.powerButtonsOverlay.style;
         // Resetting the position of the power buttons.
         overlayStyles.top = "0px";
         overlayStyles.left = "0px";
+<<<<<<< HEAD
         const blockRect = block.getBoundingClientRect();
+=======
+>>>>>>> upstream/18.0
         const buttonsRect = this.powerButtonsContainer.getBoundingClientRect();
         const placeholderWidth = this.getPlaceholderWidth(block) + 20;
         if (direction === "rtl") {

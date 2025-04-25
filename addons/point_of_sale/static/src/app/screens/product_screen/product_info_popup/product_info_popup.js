@@ -19,7 +19,11 @@ export class ProductInfoPopup extends Component {
     _hasMarginsCostsAccessRights() {
         const isAccessibleToEveryUser = this.pos.config.is_margins_costs_accessible_to_every_user;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const isCashierManager = this.pos.get_cashier().role === "manager";
+=======
+        const isCashierManager = this.pos.get_cashier()._role === "manager";
+>>>>>>> upstream/18.0
 =======
         const isCashierManager = this.pos.get_cashier()._role === "manager";
 >>>>>>> upstream/18.0

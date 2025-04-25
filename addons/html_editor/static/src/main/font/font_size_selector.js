@@ -27,6 +27,7 @@ export class FontSizeSelector extends Component {
 
         onMounted(() => {
             const iframeEl = this.iframeContentRef.el;
+<<<<<<< HEAD
             const iframeDoc = iframeEl.contentWindow.document;
             this.fontSizeInput = iframeDoc.createElement("input");
             Object.assign(iframeDoc.body.style, {
@@ -56,13 +57,79 @@ export class FontSizeSelector extends Component {
             () => {
                 // Update `fontSizeInputValue` whenever the font size changes.
                 this.fontSizeInput.value = this.state.displayName;
+=======
+
+            const initFontSizeInput = () => {
+                const iframeDoc = iframeEl.contentWindow.document;
+
+                // Skip if already initialized.
+                if (this.fontSizeInput || !iframeDoc.body) {
+                    return;
+                }
+
+                this.fontSizeInput = iframeDoc.createElement("input");
+                Object.assign(iframeDoc.body.style, {
+                    padding: "0",
+                    margin: "0",
+                });
+                Object.assign(this.fontSizeInput.style, {
+                    width: "100%",
+                    height: "100%",
+                    border: "none",
+                    outline: "none",
+                    textAlign: "center",
+                });
+                this.fontSizeInput.type = "text";
+                this.fontSizeInput.name = "font-size-input";
+                this.fontSizeInput.autocomplete = "off";
+                this.fontSizeInput.value = this.state.displayName;
+                iframeDoc.body.appendChild(this.fontSizeInput);
+                this.fontSizeInput.addEventListener("click", () => {
+                    if (!this.dropdown.isOpen) {
+                        this.dropdown.open();
+                    }
+                });
+                this.fontSizeInput.addEventListener("input", this.debouncedCustomFontSizeInput);
+                this.fontSizeInput.addEventListener(
+                    "keydown",
+                    this.onKeyDownFontSizeInput.bind(this)
+                );
+            };
+            if (iframeEl.contentDocument.readyState === "complete") {
+                initFontSizeInput();
+            } else {
+                // in firefox, iframe is not immediately available. we need to wait
+                // for it to be ready before mounting.
+                iframeEl.addEventListener(
+                    "load",
+                    () => {
+                        initFontSizeInput();
+                    },
+                    { once: true }
+                );
+            }
+        });
+        useEffect(
+            () => {
+                if (this.fontSizeInput) {
+                    // Update `fontSizeInputValue` whenever the font size changes.
+                    this.fontSizeInput.value = this.state.displayName;
+                }
+>>>>>>> upstream/18.0
             },
             () => [this.state.displayName]
         );
         useEffect(
             () => {
+<<<<<<< HEAD
                 // Focus input on dropdown open, blur on close.
                 this.dropdown.isOpen ? this.fontSizeInput.select() : this.fontSizeInput.blur();
+=======
+                if (this.fontSizeInput) {
+                    // Focus input on dropdown open, blur on close.
+                    this.dropdown.isOpen ? this.fontSizeInput.select() : this.fontSizeInput.blur();
+                }
+>>>>>>> upstream/18.0
             },
             () => [this.dropdown.isOpen]
         );
@@ -79,6 +146,10 @@ export class FontSizeSelector extends Component {
                 this.fontSizeInput.value = this.state.displayName;
             }
         }
+<<<<<<< HEAD
+=======
+        this.fontSizeInput.focus();
+>>>>>>> upstream/18.0
     }
 
     onKeyDownFontSizeInput(ev) {

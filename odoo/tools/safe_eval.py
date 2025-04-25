@@ -390,7 +390,11 @@ def safe_eval(expr, globals_dict=None, locals_dict=None, mode="eval", nocopy=Fal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     globals_dict['__builtins__'] = _BUILTINS
+=======
+    globals_dict['__builtins__'] = dict(_BUILTINS)
+>>>>>>> upstream/18.0
 =======
     globals_dict['__builtins__'] = dict(_BUILTINS)
 >>>>>>> upstream/18.0

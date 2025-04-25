@@ -1910,7 +1910,10 @@ test("properties: form view and falsy domain, properties are empty", async () =>
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("properties: discard changes", async () => {
     onRpc("has_access", () => true);
     await mountView({
@@ -1930,6 +1933,9 @@ test("properties: discard changes", async () => {
     expect(".o_property_field:first-child input").toHaveValue("char value");
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 // ---------------------------------------------------
 // Test the properties groups

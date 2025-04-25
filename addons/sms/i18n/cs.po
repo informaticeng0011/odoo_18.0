@@ -387,7 +387,11 @@ msgstr ""
 #. module: sms
 #: model:sms.template,body:sms.sms_template_demo_0
 msgid "Dear {{ object.display_name }} this is an automated SMS."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobrý den {{ object.display_name }} toto je automatická SMS."
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__sent
@@ -1345,7 +1349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
@@ -1778,7 +1786,11 @@ msgstr "např. Kontakt"
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "e.g. en_US or {{ object.partner_id.lang }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. en_US nebo {{ object.partner_id.lang }}"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form

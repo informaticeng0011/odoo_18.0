@@ -351,7 +351,10 @@ class TestDropship(common.TransactionCase):
             {'product_id': self.dropship_product.id, 'product_uom_qty': 0.0, 'qty_delivered': 1.0},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_dropship_lot_product_appears_in_stock_lot_report(self):
         dropship_product = self.lot_dropship_product
@@ -381,4 +384,7 @@ class TestDropship(common.TransactionCase):
                 'quantity': 2.0,
             }]
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

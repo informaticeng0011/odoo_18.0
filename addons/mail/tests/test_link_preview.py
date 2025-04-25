@@ -80,7 +80,10 @@ class TestLinkPreview(MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _patch_with_xml_declaration(self, *args, **kwargs):
@@ -94,6 +97,9 @@ class TestLinkPreview(MailCommon):
         return self._patched_get_html("text/html", content)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104,6 +110,10 @@ class TestLinkPreview(MailCommon):
             (self._patch_with_image_mimetype, self.og_image),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            (self._patch_with_xml_declaration, self.source_url)
+>>>>>>> upstream/18.0
 =======
             (self._patch_with_xml_declaration, self.source_url)
 >>>>>>> upstream/18.0
@@ -137,7 +147,10 @@ class TestLinkPreview(MailCommon):
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             {
@@ -150,6 +163,9 @@ class TestLinkPreview(MailCommon):
                 'source_url': self.source_url,
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

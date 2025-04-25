@@ -232,7 +232,10 @@ class TestCreatePicking(common.TestProductCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_mtso_multi_pg_order(self):
@@ -306,6 +309,9 @@ class TestCreatePicking(common.TestProductCommon):
         self.assertEqual(reserved_delivery.group_id, lines[1].order_id.group_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

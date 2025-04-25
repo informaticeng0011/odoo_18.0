@@ -24,7 +24,10 @@ class TestSaleOrderProductCatalog(HttpCase):
         admin.company_id = branch
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.env['product.template'].create({
@@ -32,6 +35,9 @@ class TestSaleOrderProductCatalog(HttpCase):
             'company_id': admin.company_id.id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -249,10 +249,16 @@ registerWebsitePreviewTour('edit_menus', {
         content: "Drag Mega at the top",
         trigger: '.oe_menu_editor li:contains("Megaaaaa!") .fa-bars',
         run(helpers) {
+<<<<<<< HEAD
             return helpers.drag_and_drop('.oe_menu_editor li:contains("Home")', {
                 position: {
                     y: 27,
                     left: 5,
+=======
+            return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
+                position : {
+                    top: 20,
+>>>>>>> upstream/18.0
                 },
                 relative: true,
             });

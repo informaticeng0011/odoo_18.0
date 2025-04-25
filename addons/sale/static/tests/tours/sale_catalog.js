@@ -43,7 +43,10 @@ registry.category("web_tour.tours").add('sale_catalog', {
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             content: "Wait for filtering",
@@ -51,6 +54,9 @@ registry.category("web_tour.tours").add('sale_catalog', {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,7 +67,10 @@ registry.category("web_tour.tours").add('sale_catalog', {
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             content: "Wait for product to be added",
@@ -69,6 +78,9 @@ registry.category("web_tour.tours").add('sale_catalog', {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

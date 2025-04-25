@@ -6,6 +6,10 @@ from . import test_embed_detection
 from . import test_gamification_karma
 from . import test_load_chatter_bundle
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_mail
+>>>>>>> upstream/18.0
 =======
 from . import test_mail
 >>>>>>> upstream/18.0

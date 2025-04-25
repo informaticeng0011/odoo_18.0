@@ -14,7 +14,11 @@ except ImportError:
 from odoo.tests.common import HOST
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase
+=======
+from odoo.tests import HttpCase, TEST_CURSOR_COOKIE_NAME
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import HttpCase, TEST_CURSOR_COOKIE_NAME
 >>>>>>> upstream/18.0
@@ -83,6 +87,10 @@ class WebsocketCase(HttpCase):
             kwargs['cookie'] = f'session_id={self.session.sid}'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
+>>>>>>> upstream/18.0
 =======
         kwargs['cookie'] += f';{TEST_CURSOR_COOKIE_NAME}={self.http_request_key}'
 >>>>>>> upstream/18.0

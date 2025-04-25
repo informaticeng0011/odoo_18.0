@@ -799,7 +799,11 @@ class AccountMove(models.Model):
     @api.depends('invoice_date', 'company_id')
     def _compute_date(self):
         for move in self:
+<<<<<<< HEAD
             if not move.invoice_date:
+=======
+            if not move.invoice_date or not move.is_invoice():
+>>>>>>> upstream/18.0
                 if not move.date:
                     move.date = fields.Date.context_today(self)
                 continue
@@ -919,7 +923,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (not move.name or move.name == '/') and self.date and not move._get_last_sequence():
+=======
+            if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
+>>>>>>> upstream/18.0
 =======
             if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
 >>>>>>> upstream/18.0

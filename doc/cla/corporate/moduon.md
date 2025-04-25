@@ -18,6 +18,10 @@ Andrea Cattalani andrea@moduon.team https://github.com/anddago78 (up to 2024-01-
 Emilio Pascual emilio@moduon.team https://github.com/emiliopascual
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+David Vidal david@moduon.team https://github.com/chienandalu
+>>>>>>> upstream/18.0
 =======
 David Vidal david@moduon.team https://github.com/chienandalu
 >>>>>>> upstream/18.0

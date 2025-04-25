@@ -1984,8 +1984,14 @@ Please change the quantity done or the rounding precision of your unit of measur
     def _skip_push(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.is_inventory or self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids) or\
             self.location_final_id and self.location_final_id._child_of(self.location_dest_id)
+=======
+        return self.is_inventory or (
+            self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
+        )
+>>>>>>> upstream/18.0
 =======
         return self.is_inventory or (
             self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
@@ -2342,6 +2348,10 @@ Please change the quantity done or the rounding precision of your unit of measur
                                                          order='priority desc, date asc, id asc')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
+>>>>>>> upstream/18.0
 =======
         moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
 >>>>>>> upstream/18.0

@@ -23,6 +23,10 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expiredCallback: "turnstileExpired",
+>>>>>>> upstream/18.0
 =======
                 expiredCallback: "turnstileExpired",
 >>>>>>> upstream/18.0
@@ -63,6 +67,7 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // `this` is bound to the turnstile widget calling the callback
             globalThis.turnstileSuccess = function () {
                 const turnstileContainer = this.wrapper.parentElement;
@@ -73,6 +78,8 @@ export const turnStile = {
                 button.classList.remove("disabled");
                 spinner.remove();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105,6 +112,9 @@ export const turnStile = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

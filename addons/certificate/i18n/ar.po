@@ -188,7 +188,11 @@ msgid "Key bytes in PEM format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وحدات البايت الرئيسية بتنسيق PEM "
+>>>>>>> upstream/18.0
 =======
 msgstr "وحدات البايت الرئيسية بتنسيق PEM "
 >>>>>>> upstream/18.0
@@ -270,7 +274,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لا يوجد مفتاح خاص مرتبط بالشهادة، فهو مطلوب لتوقيع المستندات. "
+>>>>>>> upstream/18.0
 =======
 msgstr "لا يوجد مفتاح خاص مرتبط بالشهادة، فهو مطلوب لتوقيع المستندات. "
 >>>>>>> upstream/18.0
@@ -417,7 +425,11 @@ msgstr "الرقم التسلسلي لإضافته إلى المستندات ا�
 msgid ""
 "This certificate could not be loaded. Either the content or the password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذر تحميل هذه الشهادة. إما أن المحتوى أو كلمة المرور خاطئة. "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -431,7 +443,11 @@ msgstr "هذه الشهادة غير صالحة، فقد انتهت صلاحيت
 msgid ""
 "This key could not be loaded. Either its content or its password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذر تحميل هذا المفتاح. إما أن المحتوى أو كلمة المرور خاطئة. "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -453,6 +469,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"خوارزمية التشفير غير المتماثل غير مدعومة '%s'. المدعومة حالياً للتوقيع: EC و"
+" RSA. "
+>>>>>>> upstream/18.0
 =======
 "خوارزمية التشفير غير المتماثل غير مدعومة '%s'. المدعومة حالياً للتوقيع: EC و"
 " RSA. "
@@ -482,6 +503,12 @@ msgid ""
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
 msgstr ""
+<<<<<<< HEAD
+=======
+"يُستخدم لتعيين مفتاح عام في حال كان المفتاح العام الموجود في الشهادة خطأً.\n"
+"                عند تعيين مفتاح عام بهذه الطريقة، سيتم استخدامه عوضاً عن المفتاح العام الموجود في الشهادة.\n"
+"             "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__is_valid

@@ -319,6 +319,10 @@ export const htmlField = {
         }
         if (options.height) {
             editorConfig.height = `${options.height}px`;
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
         }
         if ("disableImage" in options) {
             editorConfig.disableImage = Boolean(options.disableImage);

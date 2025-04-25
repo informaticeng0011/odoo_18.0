@@ -39,6 +39,10 @@ from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -333,7 +337,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         url = werkzeug.urls.url_parse(r.url)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         timeout = kw.get('timeout')
@@ -341,6 +348,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
             _logger.getChild('requests').info('request %s with timeout %s increased to 10s during tests', url, timeout)
             kw['timeout'] = 10
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,6 +804,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         self.http_request_key = self.canonical_tag
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         def reset_http_key():
             self.http_request_key = None
@@ -807,6 +818,8 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.http_request_strict_check = False  # by default, don't be to strict
@@ -827,6 +840,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request or isinstance(request, Mock):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -839,7 +855,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         if not http_request_key:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if self.http_request_strict_check or self.mandatory_request_route(request.httprequest.path):
@@ -850,6 +869,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
                 _logger.info(message)
                 raise BadRequest(message)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -862,7 +884,11 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
             expected = http_request_required_key
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error(
+=======
+            _logger.runbot(
+>>>>>>> upstream/18.0
 =======
             _logger.runbot(
 >>>>>>> upstream/18.0
@@ -1076,7 +1102,11 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(_reset, callback, deque(callback._funcs), dict(callback.data))
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
@@ -1279,7 +1309,11 @@ class ChromeBrowser:
             self._logger.info("Closing chrome headless with pid %s", self.chrome.pid)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._websocket_send('Browser.close')
+=======
+            self._websocket_request('Browser.close')
+>>>>>>> upstream/18.0
 =======
             self._websocket_request('Browser.close')
 >>>>>>> upstream/18.0
@@ -1293,6 +1327,10 @@ class ChromeBrowser:
             self.chrome.terminate()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.chrome.wait(15)
+>>>>>>> upstream/18.0
 =======
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
@@ -1993,8 +2031,11 @@ class Transport(xmlrpclib.Transport):
         self.cr.clear()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().request(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         test = module.current_test
@@ -2006,6 +2047,9 @@ class Transport(xmlrpclib.Transport):
             test.http_request_strict_check = check
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2064,6 +2108,12 @@ class HttpCase(TransactionCase):
         self.opener.cookies[TEST_CURSOR_COOKIE_NAME] = self.canonical_tag
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
+        # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
+        self.addCleanup(self._wait_remaining_requests)
+>>>>>>> upstream/18.0
 =======
         # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
         # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
@@ -2213,7 +2263,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -2242,7 +2296,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0
@@ -2283,6 +2341,10 @@ class HttpCase(TransactionCase):
             self.authenticate(login, login, browser=browser)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.http_request_strict_check = True
+>>>>>>> upstream/18.0
 =======
             self.http_request_strict_check = True
 >>>>>>> upstream/18.0

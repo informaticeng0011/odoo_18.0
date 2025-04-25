@@ -3786,7 +3786,10 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
             allocation._update_accrual()
             self.assertEqual(allocation.number_of_days, 8, "The number of days should be updated successfully")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_accrual_allocation_data_with_different_units(self):
         '''
@@ -3920,4 +3923,7 @@ class TestAccrualAllocations(TestHrHolidaysCommon):
             leave.action_validate()
             allocation_data = leave_type_day.get_allocation_data(self.employee_emp)
             self.assertEqual(allocation_data[self.employee_emp][0][1]['virtual_remaining_leaves'], 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

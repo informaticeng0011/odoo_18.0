@@ -15,25 +15,37 @@ class PosConfig(models.Model):
         help='If left empty, only Odoo users have extended rights in PoS')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def write(self, vals):
         if 'advanced_employee_ids' not in vals:
             vals['advanced_employee_ids'] = []
         vals['advanced_employee_ids'] += [(4, emp_id) for emp_id in self._get_group_pos_manager().users.employee_id.ids]
         return super().write(vals)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.onchange('basic_employee_ids')
     def _onchange_basic_employee_ids(self):
         for employee in self.basic_employee_ids:
             if employee in self.advanced_employee_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
                 if employee.user_id._has_group('point_of_sale.group_pos_manager'):
                     self.basic_employee_ids -= employee
                 else:
                     self.advanced_employee_ids -= employee
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.onchange('advanced_employee_ids')

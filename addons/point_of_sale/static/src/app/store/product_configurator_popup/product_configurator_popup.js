@@ -160,17 +160,23 @@ export class ProductConfiguratorPopup extends Component {
         let product = this.props.product;
         const formattedPayload = this.computePayload();
 <<<<<<< HEAD
+<<<<<<< HEAD
         const alwaysVariants = this.props.product.attribute_line_ids.every(
             (line) => line.attribute_id.create_variant === "always"
         );
 
         if (alwaysVariants) {
 =======
+=======
+>>>>>>> upstream/18.0
         const hasVariants = this.props.product.attribute_line_ids.some(
             (line) => line.attribute_id.create_variant !== "no_variant"
         );
 
         if (hasVariants) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const newProduct = this.pos.models["product.product"]
                 .filter((p) => p.raw?.product_template_variant_value_ids?.length > 0)

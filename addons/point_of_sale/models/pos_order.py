@@ -97,11 +97,17 @@ class PosOrder(models.Model):
             pos_order = existing_order
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             # If the order is belonging to another session, it must be moved to the current session first
             if order.get('session_id') and order['session_id'] != pos_order.session_id.id:
                 pos_order.write({'session_id': order['session_id']})
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             # Save lines and payments before to avoid exception if a line is deleted
             # when vals change the state to 'paid'
@@ -150,7 +156,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0

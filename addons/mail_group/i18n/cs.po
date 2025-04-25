@@ -377,12 +377,20 @@ msgstr ""
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_list_subscribe
 msgid "Confirm subscription to {{ object.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrďte předplatné {{ object.name }}"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_list_unsubscribe
 msgid "Confirm unsubscription to {{ object.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrďte zrušení předplatného {{ object.name }}"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model:ir.model.fields,field_description:mail_group.field_mail_group_message__body
@@ -554,7 +562,11 @@ msgstr "Pokyny"
 #. module: mail_group
 #: model:mail.template,subject:mail_group.mail_template_guidelines
 msgid "Guidelines of group {{ object.mail_group_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Směrnice skupiny {{ object.mail_group_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_notify_moderation

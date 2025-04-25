@@ -258,7 +258,16 @@ describe("select a full table on cross over", () => {
                             </tr>
                         </tbody>
                     </table>`),
+<<<<<<< HEAD
                 stepFunction: setColor("aquamarine", "color"),
+=======
+                stepFunction: async editor => {
+                    // Table selection happens on selectionchange
+                    // event which is fired in the next tick.
+                    await tick();
+                    setColor("aquamarine", "color")(editor);
+                },
+>>>>>>> upstream/18.0
                 contentAfterEdit: unformat(`
                     <p>
                         a<font style="color: aquamarine;">[bc</font>

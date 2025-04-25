@@ -153,7 +153,10 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_fifo_produce_deliver_return_unbuild(self):
@@ -182,6 +185,9 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

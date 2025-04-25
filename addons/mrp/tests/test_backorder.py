@@ -478,7 +478,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
         self.assertEqual(int(production.name.split('-')[1]) + 1, int(backorder_ids.name.split('-')[1]))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_backorder_name_with_multiple_backorder(self):
         """ Test that the backorder name is correct when splitting and creating
         multiple backorders.
@@ -518,6 +521,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
         backorder_mo2 = mo_2.procurement_group_id.mrp_production_ids[-1]
         self.assertEqual(backorder_mo2.name.split('-')[1], '004')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_split_draft(self):
         mo_form = Form(self.env['mrp.production'])

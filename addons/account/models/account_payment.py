@@ -416,7 +416,11 @@ class AccountPayment(models.Model):
                 liquidity, _counterpart, _writeoff = payment._seek_for_lines()
                 payment.state = (
                     'paid'
+<<<<<<< HEAD
                     if move.currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) else
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
+>>>>>>> upstream/18.0
                     'in_process'
                 )
             if payment.state == 'in_process' and payment.invoice_ids and all(invoice.payment_state == 'paid' for invoice in payment.invoice_ids):
@@ -987,6 +991,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -1020,6 +1028,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0

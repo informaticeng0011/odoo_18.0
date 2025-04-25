@@ -377,7 +377,11 @@ class StockMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated)._product_price_update_after_done()
+=======
+        valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
+>>>>>>> upstream/18.0
 =======
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
 >>>>>>> upstream/18.0

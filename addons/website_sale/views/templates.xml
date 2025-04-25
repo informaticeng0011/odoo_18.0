@@ -1195,6 +1195,7 @@
 
     <template id="filter_products_tags" name="Filter by Tags" active="True">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div t-if="all_tags">
             <h6 class="mb-3">
                 <b>Tags</b>
@@ -1204,6 +1205,8 @@
                     <t t-set="all_tags" t-value="all_tags"/>
                 </t>
 =======
+=======
+>>>>>>> upstream/18.0
         <div t-if="all_tags" class="accordion-item">
             <h6 class="accordion-header">
                 <button class="accordion-button px-0 bg-transparent shadow-none"
@@ -1221,6 +1224,9 @@
                         <t t-set="all_tags" t-value="all_tags"/>
                     </t>
                 </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </div>
         </div>

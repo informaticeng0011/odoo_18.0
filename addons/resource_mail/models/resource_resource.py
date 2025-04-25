@@ -10,6 +10,12 @@ class ResourceResource(models.Model):
     im_status = fields.Char(related='user_id.im_status')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def get_avatar_card_data(self, fields):
+        return self._read_format(fields)
+>>>>>>> upstream/18.0
 =======
 
     def get_avatar_card_data(self, fields):

@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 # Katerina Horylova, 2025
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 # Vojtěch Olšan, 2025
 # 
 msgid ""
@@ -1670,7 +1674,11 @@ msgstr "Dny do uzávěrky"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 msgid "Deadline"
+<<<<<<< HEAD
 msgstr "Uzávěrka"
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
@@ -5777,6 +5785,11 @@ msgid ""
 "{{ object.project_id.company_id.name or user.env.company.name }}: "
 "Satisfaction Survey"
 msgstr ""
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Anketa "
+"spokojenosti"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript

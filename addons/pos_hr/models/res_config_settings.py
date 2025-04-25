@@ -13,7 +13,10 @@ class ResConfigSettings(models.TransientModel):
         help='If left empty, only Odoo users have extended rights in PoS')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):
         for vals in vals_list:
@@ -22,18 +25,27 @@ class ResConfigSettings(models.TransientModel):
                 vals['pos_advanced_employee_ids'] = vals.get('pos_advanced_employee_ids', []) + [[4, emp_id] for emp_id in self.env['pos.config'].browse(pos_config_id)._get_group_pos_manager().users.employee_id.ids]
         return super().create(vals_list)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.onchange('pos_basic_employee_ids')
     def _onchange_basic_employee_ids(self):
         for employee in self.pos_basic_employee_ids:
             if employee in self.pos_advanced_employee_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.pos_advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
                 if employee.user_id._has_group('point_of_sale.group_pos_manager'):
                     self.pos_basic_employee_ids -= employee
                 else:
                     self.pos_advanced_employee_ids -= employee
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.onchange('pos_advanced_employee_ids')

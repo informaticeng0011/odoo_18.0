@@ -1,5 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 
 from odoo import Command
@@ -194,7 +199,10 @@ class TestWorkingHours(TestHrContractCalendarCommon):
             {'daysOfWeek': [5], 'startTime': '13:00', 'endTime': '22:00'},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_event_with_flexible_and_default_calendar_employees(self):
         """
@@ -218,4 +226,7 @@ class TestWorkingHours(TestHrContractCalendarCommon):
         # Need to read unavailable_partner_ids to force being computed and trigger _get_schedule
         self.assertEqual(event.unavailable_partner_ids.ids, [], "All partners must be available!")
         self.assertEqual(expected_partners.ids, event.partner_ids.ids, "All partners must be invited!")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

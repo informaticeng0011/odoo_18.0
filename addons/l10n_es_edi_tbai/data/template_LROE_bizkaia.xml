@@ -16,6 +16,7 @@
                 xmlns:lrpjfecsgap="https://www.batuz.eus/fitxategiak/batuz/LROE/esquemas/LROE_PJ_240_1_1_FacturasEmitidas_ConSG_AnulacionPeticion_V1_0_0.xsd"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 t-elif="not is_emission and not is_freelancer"
                 t-call="l10n_es_edi_tbai.template_LROE_240_inner"/>
             <lrpficfcsgap:LROEPF140IngresosConFacturaConSGAnulacionPeticion
@@ -24,12 +25,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 t-elif="not is_emission and not freelancer"
                 t-call="l10n_es_edi_tbai.template_LROE_240_inner"/>
             <lrpficfcsgap:LROEPF140IngresosConFacturaConSGAnulacionPeticion
                 xmlns:lrpficfcsgap="https://www.batuz.eus/fitxategiak/batuz/LROE/esquemas/LROE_PF_140_1_1_Ingresos_ConfacturaConSG_AnulacionPeticion_V1_0_0.xsd"
                 t-elif="not is_emission and freelancer"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

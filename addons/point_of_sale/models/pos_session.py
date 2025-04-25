@@ -188,11 +188,17 @@ class PosSession(models.Model):
     def delete_opening_control_session(self):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if not self.exists():
             return {
                 'status': 'success',
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if self.state != 'opening_control' or len(self.order_ids) > 0:
             raise UserError(_("You can only cancel a session that is in opening control state and has no orders."))
@@ -240,7 +246,12 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result = self.env['pos.payment']._read_group([('session_id', '=', session.id), ('payment_method_id', '=', cash_payment_method.id)], aggregates=['amount:sum'])
+=======
+                captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
+                result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])
+>>>>>>> upstream/18.0
 =======
                 captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
                 result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])

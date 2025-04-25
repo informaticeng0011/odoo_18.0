@@ -1657,7 +1657,10 @@ var SnippetEditor = publicWidget.Widget.extend({
         }
         ev.data.show = this._toggleVisibilityStatus(ev.data.show);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // Toggle the value of ev.data.show so that when trigger_up is called,
         // it passes the value `true` to its parent. Additionally, in this
         // block, we are calling `trigger_up` with `activate_snippet` to false,
@@ -1666,6 +1669,9 @@ var SnippetEditor = publicWidget.Widget.extend({
             this.trigger_up("activate_snippet", { $snippet: false });
             ev.data.show = true;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     /**

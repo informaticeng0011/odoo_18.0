@@ -392,7 +392,10 @@ class TestVariants(ProductVariantsCommon):
         self.assertTrue(template.active, 'Should re-activate template')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_open_product_form_with_default_uom_id_is_false(self):
         """ Test default UoM is False when creating a product. """
         uom_unit = self.env.ref('uom.product_uom_unit')
@@ -403,6 +406,9 @@ class TestVariants(ProductVariantsCommon):
         product = product_form.save()
         self.assertEqual(uom_unit, product.uom_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestVariantsNoCreate(ProductAttributesCommon):

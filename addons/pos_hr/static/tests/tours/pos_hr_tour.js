@@ -140,11 +140,14 @@ registry.category("web_tour.tours").add("CashierCannotClose", {
             Chrome.clickMenuButton(),
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: negate(`span.dropdown-item:contains("Close Register")`),
             },
         ].flat(),
 });
 =======
+=======
+>>>>>>> upstream/18.0
                 trigger: `span.dropdown-item:contains("Close Register")`,
             },
         ].flat(),
@@ -161,4 +164,7 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
             ProductScreen.addOrderline("Desk Pad", "1", "10", "10"),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

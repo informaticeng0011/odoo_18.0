@@ -262,11 +262,18 @@ export class ColorPlugin extends Plugin {
                     if (selectedChildren.length) {
                         const closestGradientEl = closestElement(
                             node,
+<<<<<<< HEAD
                             '[style*="background-image"]'
                         );
                         const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
                         const splitnode = isGradientBeingUpdated ? closestGradientEl : font;
                         // font = splitAroundUntil(selectedChildren, splitnode);
+=======
+                            'font[style*="background-image"], span[style*="background-image"]'
+                        );
+                        const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
+                        const splitnode = isGradientBeingUpdated ? closestGradientEl : font;
+>>>>>>> upstream/18.0
                         font = this.dependencies.split.splitAroundUntil(
                             selectedChildren,
                             splitnode

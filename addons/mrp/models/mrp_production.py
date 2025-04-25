@@ -1780,7 +1780,11 @@ class MrpProduction(models.Model):
         seq_back = "-" + "0" * (SIZE_BACK_ORDER_NUMERING - 1 - int(math.log10(sequence))) + str(sequence)
         regex = re.compile(r"-\d+$")
 <<<<<<< HEAD
+<<<<<<< HEAD
         if regex.search(name) and sequence > 1:
+=======
+        if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
+>>>>>>> upstream/18.0
 =======
         if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
 >>>>>>> upstream/18.0
