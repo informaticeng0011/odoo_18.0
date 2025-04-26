@@ -265,7 +265,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         timesheets.with_user(SUPERUSER_ID).unlink()
         self.assertFalse(timesheets.exists(), 'Timesheet should be deleted')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_timesheet_timeoff_flexible_employee(self):
         flex_40h_calendar = self.env['resource.calendar'].create({
@@ -292,4 +295,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         ])
         self.assertEqual(timesheet.unit_amount, 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

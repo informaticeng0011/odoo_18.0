@@ -63,7 +63,10 @@ export class ComboPage extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     getGroupedSelectedValues(attrValIds) {
@@ -86,6 +89,9 @@ export class ComboPage extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,8 +132,11 @@ export class ComboPage extends Component {
                 attribute_custom_values: Object.values(this.env.customValues),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 attribute_value_ids: Object.values(this.env.selectedValues).map((s) => parseInt(s)),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 attribute_value_ids: Object.values(this.env.selectedValues).flatMap((value) => {
@@ -141,6 +150,9 @@ export class ComboPage extends Component {
                     return [];
                 }),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

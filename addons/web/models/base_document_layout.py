@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import os
 from markupsafe import Markup
+<<<<<<< HEAD
+=======
+from math import ceil
+>>>>>>> upstream/18.0
 
 from odoo import api, fields, models
 
@@ -223,7 +227,11 @@ class BaseDocumentLayout(models.TransientModel):
             return False, False
 
         base_w, base_h = image.size
+<<<<<<< HEAD
         w = int(50 * base_w / base_h)
+=======
+        w = ceil(50 * base_w / base_h)
+>>>>>>> upstream/18.0
         h = 50
 
         # Converts to RGBA (if already RGBA, this is a noop)
@@ -298,7 +306,11 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def scss_importer(path, prev):
+=======
+        def scss_importer(path, *args):
+>>>>>>> upstream/18.0
 =======
         def scss_importer(path, *args):
 >>>>>>> upstream/18.0

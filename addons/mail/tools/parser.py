@@ -4,7 +4,11 @@
 import ast
 
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
 from odoo.tools import is_list_of
+=======
+from odoo.tools import is_list_of, safe_eval
+>>>>>>> upstream/18.0
 
 
 def parse_res_ids(res_ids, env):
@@ -35,3 +39,18 @@ def parse_res_ids(res_ids, env):
         raise ValidationError(error_msg)
 
     return res_ids
+<<<<<<< HEAD
+=======
+
+
+def domain_eval(domain):
+    domain = domain.replace('.to_utc()', '')
+    evaluated_domain = safe_eval.safe_eval(domain, {
+        'context_today': safe_eval.datetime.datetime.today,
+        'datetime': safe_eval.datetime,
+        'dateutil': safe_eval.dateutil,
+        'relativedelta': safe_eval.dateutil.relativedelta.relativedelta,
+        'time': safe_eval.time,
+    })
+    return evaluated_domain
+>>>>>>> upstream/18.0

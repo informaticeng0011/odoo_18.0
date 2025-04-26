@@ -7,7 +7,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40,6 +43,7 @@ export class OutdatedPageWatcherService {
      */
     setup(env, { bus_service, multi_tab, notification }) {
         this.notification = notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,14 +99,29 @@ export class OutdatedPageWatcherService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        this.multi_tab = multi_tab;
+>>>>>>> upstream/18.0
         this.lastNotificationId = null;
         /** @deprecated */
         this.lastDisconnectDt = null;
         this.closeNotificationFn;
+<<<<<<< HEAD
+=======
+        let wasBusAlreadyConnected;
+        bus_service.addEventListener(
+            "worker_state_updated",
+            ({ detail: state }) => {
+                wasBusAlreadyConnected = state !== "IDLE";
+            },
+            { once: true }
+        );
+>>>>>>> upstream/18.0
         bus_service.addEventListener("disconnect", () => {
             this.lastNotificationId = bus_service.lastNotificationId;
             this.lastDisconnectDt = DateTime.now();
         });
+<<<<<<< HEAD
         bus_service.addEventListener("reconnect", async () => {
             if (!multi_tab.isOnMainTab()) {
                 return;
@@ -141,11 +160,40 @@ export class OutdatedPageWatcherService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        bus_service.addEventListener("connect", async () => {
+            if (wasBusAlreadyConnected) {
+                this.checkHasMissedNotifications();
+            }
+            wasBusAlreadyConnected = true;
+        });
+        bus_service.addEventListener("reconnect", () => this.checkHasMissedNotifications());
+        multi_tab.bus.addEventListener("shared_value_updated", ({ detail: { key } }) => {
+            if (key === "bus.has_missed_notifications") {
+>>>>>>> upstream/18.0
                 this.showOutdatedPageNotification();
             }
         });
     }
 
+<<<<<<< HEAD
+=======
+    async checkHasMissedNotifications() {
+        if (!this.multi_tab.isOnMainTab()) {
+            return;
+        }
+        const hasMissedNotifications = await rpc(
+            "/bus/has_missed_notifications",
+            { last_notification_id: this.lastNotificationId },
+            { silent: true }
+        );
+        if (hasMissedNotifications) {
+            this.showOutdatedPageNotification();
+            this.multi_tab.setSharedValue("bus.has_missed_notifications", Date.now());
+        }
+    }
+
+>>>>>>> upstream/18.0
     showOutdatedPageNotification() {
         this.closeNotificationFn?.();
         this.closeNotificationFn = this.notification.add(

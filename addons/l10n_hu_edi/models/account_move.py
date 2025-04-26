@@ -518,11 +518,14 @@ class AccountMove(models.Model):
             invoice.l10n_hu_edi_batch_upload_index = i
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice_operations = [
             {
                 'index': invoice.l10n_hu_edi_batch_upload_index,
                 'operation': 'CREATE' if invoice._l10n_hu_get_chain_base() == invoice else 'MODIFY',
 =======
+=======
+>>>>>>> upstream/18.0
         def get_operation_type(invoice):
             operation_type = 'MODIFY'
             base_invoice = invoice._l10n_hu_get_chain_base()
@@ -536,6 +539,9 @@ class AccountMove(models.Model):
             {
                 'index': invoice.l10n_hu_edi_batch_upload_index,
                 'operation': get_operation_type(invoice),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'invoice_data': base64.b64decode(invoice.l10n_hu_edi_attachment),
             }

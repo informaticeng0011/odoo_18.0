@@ -127,7 +127,11 @@ class L10nHuEdiConnection:
             {
                 'index': <index given to invoice>,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'operation': 'CREATE' or 'MODIFY',
+=======
+                'operation': 'CREATE' or 'MODIFY' or 'STORNO',
+>>>>>>> upstream/18.0
 =======
                 'operation': 'CREATE' or 'MODIFY' or 'STORNO',
 >>>>>>> upstream/18.0

@@ -489,7 +489,10 @@ test("should break a gradient and apply gradient background color to a slice of 
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("should apply gradient color on selected text", async () => {
     await testEditor({
         contentBefore: '<div style="background-image:none"><p>[ab<strong>cd</strong>ef]</p></div>',
@@ -512,4 +515,7 @@ test("should apply gradient text color on selected text", async () => {
             '<div style="background-image:none"><p><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(255, 174, 127) 0%, rgb(109, 204, 0) 100%);">[ab<strong>cd</strong>ef]</font></p></div>',
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

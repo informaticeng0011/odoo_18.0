@@ -8,6 +8,10 @@ import { KeepLast } from "@web/core/utils/concurrency";
 import { useService } from "@web/core/utils/hooks";
 import { renderToMarkup } from "@web/core/utils/render";
 import { getDataURLFromFile } from "@web/core/utils/urls";
+<<<<<<< HEAD
+=======
+import { onWillStart } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 /**
  * Get list of companies via Autocomplete API
@@ -22,14 +26,24 @@ export function usePartnerAutocomplete() {
     const notification = useService("notification");
     const orm = useService("orm");
 
+<<<<<<< HEAD
+=======
+    onWillStart(async () => {
+        await loadJS("/partner_autocomplete/static/lib/jsvat.js");
+    });
+
+>>>>>>> upstream/18.0
     function sanitizeVAT(value) {
         return value ? value.replace(/[^A-Za-z0-9]/g, '') : '';
     }
 
     async function isVATNumber(value) {
+<<<<<<< HEAD
         // Lazyload jsvat only if the component is being used.
         await loadJS("/partner_autocomplete/static/lib/jsvat.js");
 
+=======
+>>>>>>> upstream/18.0
         // checkVATNumber is defined in library jsvat.
         // It validates that the input has a valid VAT number format
         return checkVATNumber(sanitizeVAT(value));

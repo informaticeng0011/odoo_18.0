@@ -369,11 +369,14 @@ class ResourceCalendar(models.Model):
             for resource in resources:
                 if resource and resource._is_flexible():
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # If the resource is flexible, return the whole period from start_dt to end_dt with a dummy attendance
                     dummy_attendance = self.env['resource.calendar.attendance'].new({
                         'duration_hours': (end - start).total_seconds() / 3600,
                         'duration_days': (end - start).days + 1,
 =======
+=======
+>>>>>>> upstream/18.0
                     duration_days = (end - start).days + (0.5 if (end - start).total_seconds() / 3600 < resource.calendar_id.hours_per_day else 1)
                     if resource.calendar_id and resource.calendar_id.flexible_hours:
                         duration_hours = duration_days * resource.calendar_id.hours_per_day
@@ -383,6 +386,9 @@ class ResourceCalendar(models.Model):
                     dummy_attendance = self.env['resource.calendar.attendance'].new({
                         'duration_hours': duration_hours,
                         'duration_days': duration_days,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     })
                     result_per_resource_id[resource.id] = WorkIntervals([(start, end, dummy_attendance)])
@@ -533,16 +539,22 @@ class ResourceCalendar(models.Model):
             # take durations in days proportionally to what is left of the interval.
             interval_hours = (stop - start).total_seconds() / 3600
 <<<<<<< HEAD
+<<<<<<< HEAD
             day_hours[start.date()] += interval_hours
             if len(self) == 1 and self.flexible_hours:
                 day_days[start.date()] += interval_hours / self.hours_per_day if self.hours_per_day else 0
             else:
 =======
+=======
+>>>>>>> upstream/18.0
             if len(self) == 1 and self.flexible_hours:
                 day_hours[start.date()] += meta.duration_hours
                 day_days[start.date()] += meta.duration_days
             else:
                 day_hours[start.date()] += interval_hours
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 day_days[start.date()] += sum(meta.mapped('duration_days')) * interval_hours / sum(meta.mapped('duration_hours'))
 

@@ -1378,16 +1378,22 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
         """ !!!! THOSE TESTS ARE THERE TO CERTIFY THE USE OF ODOO INVOICING IN PORTUGAL.
         Therefore, they have to stay like this to stay compliant.
 <<<<<<< HEAD
+<<<<<<< HEAD
         Note: this is a work in progress. The remaining stuff is coming...
         """
         self.env.company.tax_calculation_rounding_method = 'round_globally'
 =======
+=======
+>>>>>>> upstream/18.0
         """
         self.env.company.tax_calculation_rounding_method = 'round_globally'
         self.change_company_country(self.env.company, self.env.ref('base.pt'))
         self.env['decimal.precision'].search([('name', '=', "Product Price")]).digits = 6
         tax_0 = self.percent_tax(0, tax_group_id=self.tax_groups[0].id)
         tax_6 = self.percent_tax(6, tax_group_id=self.tax_groups[1].id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax_13 = self.percent_tax(13, tax_group_id=self.tax_groups[2].id)
         tax_23 = self.percent_tax(23, tax_group_id=self.tax_groups[3].id)
@@ -1455,6 +1461,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
             'same_tax_base': False,
             'currency_id': self.currency.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_amount_currency': 293.79,
             'tax_amount_currency': 52.89,
             'total_amount_currency': 346.68,
@@ -1463,6 +1470,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                     'name': "Untaxed Amount",
                     'base_amount_currency': 293.79,
 =======
+=======
+>>>>>>> upstream/18.0
             'base_amount_currency': 293.78,
             'tax_amount_currency': 52.89,
             'total_amount_currency': 346.67,
@@ -1470,6 +1479,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                 {
                     'name': "Untaxed Amount",
                     'base_amount_currency': 293.78,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     'tax_amount_currency': 52.89,
                     'tax_groups': [
@@ -1492,7 +1504,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
         yield 3, document, expected_values
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         document = self.populate_document(self.init_document(
             lines=[
                 {'quantity': 1.0, 'price_unit': 0.5, 'tax_ids': tax_23},
@@ -2060,6 +2075,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
         }
         yield 18, document, expected_values
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_taxes_l10n_pt_generic_helpers(self):
         for test_index, document, expected_values in self._test_taxes_l10n_pt():

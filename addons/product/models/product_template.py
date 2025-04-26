@@ -26,7 +26,11 @@ class ProductTemplate(models.Model):
         res = super().default_get(fields_list)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'uom_id' in fields_list and not res.get('uom_id'):
+=======
+        if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
+>>>>>>> upstream/18.0
 =======
         if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
 >>>>>>> upstream/18.0

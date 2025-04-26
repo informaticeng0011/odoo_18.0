@@ -479,7 +479,10 @@ class TestMrpProductionBackorder(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_backorder_name_with_multiple_backorder(self):
@@ -522,6 +525,9 @@ class TestMrpProductionBackorder(TestMrpCommon):
         self.assertEqual(backorder_mo2.name.split('-')[1], '004')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

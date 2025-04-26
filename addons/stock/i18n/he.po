@@ -81,6 +81,12 @@ msgid ""
 "Please change the quantity done or the rounding precision of your unit of measure."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"הכמות שבוצעה עבור המוצר %(product)sאינה תואמת את דיוק העיגול שהוגדר ליחידת המידה%(unit)s.\n"
+"אנא שנה את הכמות שבוצעה או את דיוק העיגול של יחידת המידה."
+>>>>>>> upstream/18.0
 =======
 "\n"
 "הכמות שבוצעה עבור המוצר %(product)sאינה תואמת את דיוק העיגול שהוגדר ליחידת המידה%(unit)s.\n"
@@ -102,7 +108,10 @@ msgid ""
 " * Cancelled: The transfer has been cancelled."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "טיוטה (Draft): ההעברה לא אושרה עדיין. לא חלה הזמנה על המלאי.\n"
 "ממתין לפעולה נוספת (Waiting another operation): ההעברה ממתינה לפעולה אחרת לפני שהיא תהיה מוכנה.\n"
 "ממתין (Waiting): ההעברה ממתינה לזמינות של מוצרים מסוימים.\n"
@@ -113,6 +122,9 @@ msgstr ""
 "(ב) מדיניות המשלוח היא \"כשהמוצרים כולם מוכנים\": כל המוצרים הוזמנו.\n"
 "בוצע (Done): ההעברה הושלמה.\n"
 "בוטל (Cancelled): ההעברה בוטלה."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -198,6 +210,11 @@ msgid ""
 " %(warehouse)s, therefore you cannot archive it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(operations)sיש למיקומים המקוריים או היעדים בתוך המחסן הגדרות ברירת מחדל "
+"%(warehouse)s,לכן אין אפשרות להכניס אותו לארכיון."
+>>>>>>> upstream/18.0
 =======
 "%(operations)sיש למיקומים המקוריים או היעדים בתוך המחסן הגדרות ברירת מחדל "
 "%(warehouse)s,לכן אין אפשרות להכניס אותו לארכיון."
@@ -223,7 +240,11 @@ msgstr ""
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%(warehouse)s Sequence %(code)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(warehouse)s רצף %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(warehouse)s רצף %(code)s"
 >>>>>>> upstream/18.0
@@ -236,6 +257,11 @@ msgid ""
 "order is %(qty_to_order)s %(uom)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(warehouse)s יכול לספק%(free_qty)s%(uom)s בזמן שהכמות שהוזמנה "
+"היא%(qty_to_order)s%(uom)s."
+>>>>>>> upstream/18.0
 =======
 "%(warehouse)s יכול לספק%(free_qty)s%(uom)s בזמן שהכמות שהוזמנה "
 "היא%(qty_to_order)s%(uom)s."
@@ -284,6 +310,11 @@ msgid ""
 "line not fully fulfilled"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: אין מה לחלק, כל הדרישה בוצעה. לצורך חלוקה, עליך שיהיה לפחות שורת דרישה "
+"אחת שלא מולאה במלואה."
+>>>>>>> upstream/18.0
 =======
 "%s: אין מה לחלק, כל הדרישה בוצעה. לצורך חלוקה, עליך שיהיה לפחות שורת דרישה "
 "אחת שלא מולאה במלואה."
@@ -327,7 +358,11 @@ msgstr "'סוג-פעולה - %s' % object.name"
 #: model:ir.actions.report,print_report_name:stock.action_report_picking_packages
 msgid "'Packages - %s' % (object.name)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'חבילות-%s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 msgstr "'חבילות-%s' % (object.name)"
 >>>>>>> upstream/18.0
@@ -377,12 +412,18 @@ msgid ""
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "חדש (New): תנועת המלאי נוצרה אך לא אושרה.\n"
 "ממתין לתנועת מלאי אחרת (Waiting Another Move): יש לבצע תנועת מלאי מקושרת לפני תנועה זו.\n"
 "ממתין לזמינות (Waiting Availability): תנועת המלאי אושרה, אך המוצר לא יכול להיות מוזמן.\n"
 "זמין (Available): המוצר בתנועת המלאי הוזמן.\n"
 "בוצע (Done): המוצר הועבר ותנועת המלאי אושרה."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -401,7 +442,10 @@ msgid ""
 "* Transit Location: Counterpart location that should be used in inter-company or inter-warehouses operations"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "מיקום ספק (Vendor Location): מיקום וירטואלי המייצג את מיקום המקור למוצרים שמגיעים מהספקים שלך.\n"
 "תצוגה (View): מיקום וירטואלי המשמש ליצירת מבנה היררכי למחסן שלך, שמאגד מיקומי משנה. לא ניתן לאחסן בו מוצרים ישירות.\n"
 "מיקום פנימי (Internal Location): מיקומים פיזיים בתוך המחסנים שלך.\n"
@@ -409,6 +453,9 @@ msgstr ""
 "אובדן מלאי (Inventory Loss): מיקום וירטואלי המשמש כנגדי לפעולות מלאי שמטרתן תיקון רמות המלאי (ספירות פיזיות).\n"
 "ייצור (Production): מיקום וירטואלי נגדי לפעולות ייצור: מיקום זה צורך את הרכיבים ומייצר את המוצרים הסופיים.\n"
 "מיקום מעבר (Transit Location): מיקום נגדי שיש להשתמש בו בפעולות בין חברות או בין מחסנים."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -556,6 +603,11 @@ msgid ""
 " to bring the missing quantity in this location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br>אם המוצרים אינם זמינים ב-<b>%s</b> , יופעל כלל שיביא את הכמות החסרה "
+"למיקום זה."
+>>>>>>> upstream/18.0
 =======
 "<br>אם המוצרים אינם זמינים ב-<b>%s</b> , יופעל כלל שיביא את הכמות החסרה "
 "למיקום זה."
@@ -1737,12 +1789,18 @@ msgid ""
 "legislation of the country in which the client is located."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "מדינות מסוימות גובות ניכוי מס במקור על סכום החשבוניות, בהתאם לחקיקה הפנימית "
 "שלהן. כל ניכוי מס במקור ישולם על ידי הלקוח לרשויות המס המקומיות. בשום מקרה "
 "לא תישא החברה בעלויות הנובעות מהחקיקה המקומית של מדינה כלשהי. לכן, סכום "
 "החשבונית יהיה חייב במלואו לחברה, ואינו כולל כל עלות הקשורה לחקיקה של המדינה "
 "בה נמצא הלקוח."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -2430,7 +2488,11 @@ msgstr "מיקומי לקוח"
 #: model:ir.model,name:stock.model_stock_lot_report
 msgid "Customer Lot Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דו\"ח אצוות לקוח"
+>>>>>>> upstream/18.0
 =======
 msgstr "דו\"ח אצוות לקוח"
 >>>>>>> upstream/18.0
@@ -2568,6 +2630,11 @@ msgid ""
 "        If greater than the last day of a month, then the last day of the month will be selected instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"היום בחודש שבו על המלאי השנתי להתבצע. אם הערך הוא אפס או שלילי, ייבחר יום הראשון של החודש במקום זאת.\n"
+"       אם הערך גדול מהיום האחרון של החודש, ייבחר היום האחרון של החודש במקום זאת."
+>>>>>>> upstream/18.0
 =======
 "היום בחודש שבו על המלאי השנתי להתבצע. אם הערך הוא אפס או שלילי, ייבחר יום הראשון של החודש במקום זאת.\n"
 "       אם הערך גדול מהיום האחרון של החודש, ייבחר היום האחרון של החודש במקום זאת."
@@ -3183,7 +3250,11 @@ msgstr "בוצע ע\"י"
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_packaging_quantity
 msgid "Done Packaging Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות אריזות שהושלמה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות אריזות שהושלמה"
 >>>>>>> upstream/18.0
@@ -3248,6 +3319,11 @@ msgid ""
 "locations are used as counterpart when correcting the quantities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"עריכת כמויות במיקום התאמת מלאי אסורה, מיקומים אלו משמשים כנגד בעת תיקון "
+"הכמויות."
+>>>>>>> upstream/18.0
 =======
 "עריכת כמויות במיקום התאמת מלאי אסורה, מיקומים אלו משמשים כנגד בעת תיקון "
 "הכמויות."
@@ -3512,11 +3588,17 @@ msgid ""
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "כמות תחזית (מחושבת ככמות במלאי - כמות מוזמנת)\n"
 "בהקשר עם מיקום מלאי אחד, זה כולל סחורות המאוחסנות במיקום זה, או באחד מהמיקומים שלו.\n"
 "בהקשר עם מחסן אחד, זה כולל סחורות המאוחסנות במיקום המלאי של מחסן זה, או באחד מהמיקומים שלו.\n"
 "במקרים אחרים, זה כולל סחורות המאוחסנות בכל מיקום מלאי מסוג 'פנימי'."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -3618,7 +3700,11 @@ msgstr "מלאי פנוי"
 #: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
 msgid "Free Stock in Transit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מלאי זמין במעבר"
+>>>>>>> upstream/18.0
 =======
 msgstr "מלאי זמין במעבר"
 >>>>>>> upstream/18.0
@@ -4015,7 +4101,11 @@ msgstr "אם המיקום הוא ריק"
 #: model:ir.model.fields,help:stock.field_stock_quant__sn_duplicated
 msgid "If the same SN is in another Quant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם אותו מספר סידורי נמצא בכמות אחרת"
+>>>>>>> upstream/18.0
 =======
 msgstr "אם אותו מספר סידורי נמצא בכמות אחרת"
 >>>>>>> upstream/18.0
@@ -4575,7 +4665,11 @@ msgstr "מאחר"
 #: model:ir.model.fields,help:stock.field_stock_picking__has_deadline_issue
 msgid "Is late or will be late depending on the deadline and scheduled date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מאחר או יהיה באיחור בהתאם לדדליין ולתאריך המתוכנן"
+>>>>>>> upstream/18.0
 =======
 msgstr "מאחר או יהיה באיחור בהתאם לדדליין ולתאריך המתוכנן"
 >>>>>>> upstream/18.0
@@ -7622,7 +7716,11 @@ msgstr "מידע על עיתוד מלאי"
 #: code:addons/stock/models/stock_orderpoint.py:0
 msgid "Replenishment Information for %(product)s in %(warehouse)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מידע על חידוש מלאי עבור %(product)s ב-%(warehouse)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "מידע על חידוש מלאי עבור %(product)s ב-%(warehouse)s"
 >>>>>>> upstream/18.0
@@ -8063,7 +8161,11 @@ msgstr "תגית סיבת פסילה"
 #: model:ir.model.fields,field_description:stock.field_stock_move__scrap_id
 msgid "Scrap operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פעולת פסילה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פעולת פסילה"
 >>>>>>> upstream/18.0
@@ -8227,6 +8329,11 @@ msgid ""
 "%(location_list)s. Please correct the serial number encoded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"מספר סידורי (%(serial_number)s) כבר נמצא במיקום(ים): %(location_list)s. אנא "
+"תקן את מספר הסידורי המוזן."
+>>>>>>> upstream/18.0
 =======
 "מספר סידורי (%(serial_number)s) כבר נמצא במיקום(ים): %(location_list)s. אנא "
 "תקן את מספר הסידורי המוזן."
@@ -8241,6 +8348,12 @@ msgid ""
 "Please correct this to prevent inconsistent data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"מספר סידורי (%(serial_number)s) לא נמצא במיקום %(source_location)s, אבל נמצא במיקום (ים):\n"
+"\n"
+"אנא את זה על מנת למנוע מידע שגוי."
+>>>>>>> upstream/18.0
 =======
 "מספר סידורי (%(serial_number)s) לא נמצא במיקום %(source_location)s, אבל נמצא במיקום (ים):\n"
 "\n"
@@ -8289,7 +8402,10 @@ msgid ""
 "Least Packages: FIFO but with the least number of packages possible when there are several packages containing the same product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "קבע אסטרטגיית הסרה ספציפית שתשמש, ללא קשר למיקום המקור, עבור קטגוריית המוצר הזו.\n"
 "\n"
 "FIFO (First In, First Out): המוצרים/הקבוצות שהוזנו ראשונים יוסרו ראשונים.\n"
@@ -8297,6 +8413,9 @@ msgstr ""
 "מיקום הקרוב ביותר: המוצרים/הקבוצות הקרובים ביותר למיקום היעד יוסרו ראשונים.\n"
 "FEFO (First Expired, First Out): המוצרים/הקבוצות עם תאריך ההסרה הקרוב ביותר יוסרו ראשונים (הזמינות של שיטה זו תלויה בהגדרת \"תאריכי תפוגה\").\n"
 "פחות אריזות: FIFO, אך עם מספר האריזות המינימלי האפשרי כאשר יש כמה אריזות המכילות את אותו המוצר."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock
@@ -8978,7 +9097,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני המשמש להחלטה אם יש להציג את הכפתור \"הקצאה\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני המשמש להחלטה אם יש להציג את הכפתור \"הקצאה\"."
 >>>>>>> upstream/18.0

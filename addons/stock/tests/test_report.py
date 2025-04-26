@@ -5,7 +5,11 @@ from datetime import date, datetime, timedelta
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -1961,7 +1965,10 @@ class TestReports(TestReportsCommon):
         self.assertEqual(out_move.procure_method, 'make_to_stock')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1998,6 +2005,9 @@ class TestReportsPostInstall(TestReportsCommon):
             }]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -421,6 +421,12 @@ class Website(models.Model):
         configurator_action_todo = self.env.ref('website.website_configurator_todo')
         return configurator_action_todo.action_launch()
 
+<<<<<<< HEAD
+=======
+    def _idna_url(self, url):
+        return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
+
+>>>>>>> upstream/18.0
     def _is_indexable_url(self, url):
         """
         Returns True if the given url has to be indexed by search engines.
@@ -433,7 +439,11 @@ class Website(models.Model):
         :param url: the url to check
         :return: True if the url has to be indexed, False otherwise
         """
+<<<<<<< HEAD
         return get_base_domain(url.lower(), True) == get_base_domain(self.domain.lower(), True)
+=======
+        return self._idna_url(url) == self._idna_url(self.domain)
+>>>>>>> upstream/18.0
 
     # ----------------------------------------------------------
     # Configurator

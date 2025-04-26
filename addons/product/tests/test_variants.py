@@ -393,7 +393,10 @@ class TestVariants(ProductVariantsCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_open_product_form_with_default_uom_id_is_false(self):
@@ -407,6 +410,9 @@ class TestVariants(ProductVariantsCommon):
         self.assertEqual(uom_unit, product.uom_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

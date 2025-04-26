@@ -249,7 +249,10 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
         self.assertEqual((paid_leave_entry.date_stop - paid_leave_entry.date_start).seconds, 3600)
         self.assertEqual((unpaid_leave_entry.date_stop - unpaid_leave_entry.date_start).seconds, 3600)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_create_work_entry_for_flexible_employee_leave(self):
         entry_type_paid = self.env['hr.work.entry.type'].create([
@@ -286,4 +289,7 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 
         self.assertEqual(paid_leave_entry.duration, 32, "The duration of the work entry for flexible employee should "
                                                         "be number of days * hours per day")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

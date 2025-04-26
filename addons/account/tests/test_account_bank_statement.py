@@ -1451,7 +1451,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 
         self.assertEqual(reversed_move.partner_id, partner)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_bank_transaction_creation_with_default_journal_entry_date(self):
         invoice_date_field = self.env['ir.model.fields'].search([('model', '=', 'account.move'), ('name', '=', 'invoice_date')], limit=1)
@@ -1462,4 +1465,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 
         transaction = self.create_bank_transaction(1, '2020-01-10', journal=self.bank_journal_1)
         assert transaction.date == transaction.move_id.date == fields.Date.from_string('2020-01-10')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -141,11 +141,14 @@ registry.category("web_tour.tours").add("CashierCannotClose", {
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: negate(`span.dropdown-item:contains("Close Register")`),
             },
         ].flat(),
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 trigger: `span.dropdown-item:contains("Close Register")`,
@@ -165,6 +168,9 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

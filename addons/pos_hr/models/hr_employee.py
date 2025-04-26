@@ -33,7 +33,11 @@ class HrEmployee(models.Model):
         for employee in employees:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if employee['user_id'] and employee['user_id'] in manager_ids or employee['id'] in data['pos.config']['data'][0]['advanced_employee_ids']:
+=======
+            if employee['id'] in manager_ids or employee['id'] in data['pos.config']['data'][0]['advanced_employee_ids']:
+>>>>>>> upstream/18.0
 =======
             if employee['id'] in manager_ids or employee['id'] in data['pos.config']['data'][0]['advanced_employee_ids']:
 >>>>>>> upstream/18.0

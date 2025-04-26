@@ -268,7 +268,10 @@ describe('applyColor', () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     it("should apply gradient color on selected text", async () => {
         await testEditor(BasicEditor, {
             contentBefore: '<div style="background-image:none"><p>[ab<strong>cd</strong>ef]</p></div>',
@@ -283,6 +286,9 @@ describe('applyColor', () => {
             contentAfter: '<div style="background-image:none"><p><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(255, 174, 127) 0%, rgb(109, 204, 0) 100%);">[ab<strong>cd</strong>ef]</font></p></div>'
         });
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 describe('rgbToHex', () => {

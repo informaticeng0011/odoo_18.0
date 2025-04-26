@@ -98,7 +98,10 @@ class PosOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # If the order is belonging to another session, it must be moved to the current session first
@@ -106,6 +109,9 @@ class PosOrder(models.Model):
                 pos_order.write({'session_id': order['session_id']})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157,7 +163,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0

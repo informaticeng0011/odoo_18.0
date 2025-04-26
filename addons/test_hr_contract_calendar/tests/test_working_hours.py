@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 
 from odoo import Command
@@ -200,7 +205,10 @@ class TestWorkingHours(TestHrContractCalendarCommon):
         ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -227,6 +235,9 @@ class TestWorkingHours(TestHrContractCalendarCommon):
         self.assertEqual(event.unavailable_partner_ids.ids, [], "All partners must be available!")
         self.assertEqual(expected_partners.ids, event.partner_ids.ids, "All partners must be invited!")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

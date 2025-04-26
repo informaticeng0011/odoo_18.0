@@ -1465,6 +1465,11 @@ class AccountTax(models.Model):
             'raw_tax_amount_currency': 0.0,
             'raw_tax_amount': 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'raw_total_amount_currency': 0.0,
+            'raw_total_amount': 0.0,
+>>>>>>> upstream/18.0
 =======
             'raw_total_amount_currency': 0.0,
             'raw_total_amount': 0.0,
@@ -1477,10 +1482,13 @@ class AccountTax(models.Model):
             'raw_base_amount_currency': 0.0,
             'raw_base_amount': 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_lines': [],
         })
         map_total_per_tax_key_x_for_tax_line_key = defaultdict(set)
 =======
+=======
+>>>>>>> upstream/18.0
             'tax_amount_currency': 0.0,
             'tax_amount': 0.0,
             'raw_total_amount_currency': 0.0,
@@ -1489,6 +1497,9 @@ class AccountTax(models.Model):
         })
         map_total_per_tax_key_x_for_tax_line_key = defaultdict(set)
         country_code = company.account_fiscal_country_id.code
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         for base_line in base_lines:
@@ -1524,6 +1535,7 @@ class AccountTax(models.Model):
                 tax_amounts['base_amount'] += tax_data['base_amount']
                 tax_amounts['raw_base_amount'] += tax_data['raw_base_amount']
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not base_line['special_type']:
                     tax_amounts['base_lines'].append(base_line)
 
@@ -1531,6 +1543,8 @@ class AccountTax(models.Model):
                     base_rounding_key = (currency, base_line['is_refund'])
                     base_amounts = total_per_base[base_rounding_key]
 =======
+=======
+>>>>>>> upstream/18.0
                 tax_amounts['raw_total_amount_currency'] += tax_data['raw_base_amount_currency'] + tax_data['raw_tax_amount_currency']
                 tax_amounts['raw_total_amount'] += tax_data['raw_base_amount'] + tax_data['raw_tax_amount']
                 if not base_line['special_type']:
@@ -1543,12 +1557,20 @@ class AccountTax(models.Model):
                 base_amounts['raw_total_amount_currency'] += tax_data['raw_tax_amount_currency']
                 base_amounts['raw_total_amount'] += tax_data['raw_tax_amount']
                 if index == 0:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     base_amounts['base_amount_currency'] += tax_data['base_amount_currency']
                     base_amounts['raw_base_amount_currency'] += tax_data['raw_base_amount_currency']
                     base_amounts['base_amount'] += tax_data['base_amount']
                     base_amounts['raw_base_amount'] += tax_data['raw_base_amount']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    base_amounts['raw_total_amount_currency'] += tax_data['raw_base_amount_currency']
+                    base_amounts['raw_total_amount'] += tax_data['raw_base_amount']
+>>>>>>> upstream/18.0
 =======
                     base_amounts['raw_total_amount_currency'] += tax_data['raw_base_amount_currency']
                     base_amounts['raw_total_amount'] += tax_data['raw_base_amount']
@@ -1565,6 +1587,11 @@ class AccountTax(models.Model):
                 tax_amounts['base_amount'] += tax_details['total_excluded']
                 tax_amounts['raw_base_amount'] += tax_details['raw_total_excluded']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                tax_amounts['raw_total_amount_currency'] += tax_details['raw_total_excluded_currency']
+                tax_amounts['raw_total_amount'] += tax_details['raw_total_excluded']
+>>>>>>> upstream/18.0
 =======
                 tax_amounts['raw_total_amount_currency'] += tax_details['raw_total_excluded_currency']
                 tax_amounts['raw_total_amount'] += tax_details['raw_total_excluded']
@@ -1579,6 +1606,11 @@ class AccountTax(models.Model):
                 base_amounts['base_amount'] += tax_details['total_excluded']
                 base_amounts['raw_base_amount'] += tax_details['raw_total_excluded']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                base_amounts['raw_total_amount_currency'] += tax_details['raw_total_excluded_currency']
+                base_amounts['raw_total_amount'] += tax_details['raw_total_excluded']
+>>>>>>> upstream/18.0
 =======
                 base_amounts['raw_total_amount_currency'] += tax_details['raw_total_excluded_currency']
                 base_amounts['raw_total_amount'] += tax_details['raw_total_excluded']
@@ -1593,6 +1625,11 @@ class AccountTax(models.Model):
             tax_amounts['raw_base_amount_currency'] = currency.round(tax_amounts['raw_base_amount_currency'])
             tax_amounts['raw_base_amount'] = company.currency_id.round(tax_amounts['raw_base_amount'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            tax_amounts['raw_total_amount_currency'] = currency.round(tax_amounts['raw_total_amount_currency'])
+            tax_amounts['raw_total_amount'] = company.currency_id.round(tax_amounts['raw_total_amount'])
+>>>>>>> upstream/18.0
 =======
             tax_amounts['raw_total_amount_currency'] = currency.round(tax_amounts['raw_total_amount_currency'])
             tax_amounts['raw_total_amount'] = company.currency_id.round(tax_amounts['raw_total_amount'])
@@ -1603,6 +1640,11 @@ class AccountTax(models.Model):
             base_amounts['raw_base_amount_currency'] = currency.round(base_amounts['raw_base_amount_currency'])
             base_amounts['raw_base_amount'] = company.currency_id.round(base_amounts['raw_base_amount'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            base_amounts['raw_total_amount_currency'] = currency.round(base_amounts['raw_total_amount_currency'])
+            base_amounts['raw_total_amount'] = company.currency_id.round(base_amounts['raw_total_amount'])
+>>>>>>> upstream/18.0
 =======
             base_amounts['raw_total_amount_currency'] = currency.round(base_amounts['raw_total_amount_currency'])
             base_amounts['raw_total_amount'] = company.currency_id.round(base_amounts['raw_total_amount'])
@@ -1668,8 +1710,13 @@ class AccountTax(models.Model):
                     next(
                         (
 <<<<<<< HEAD
+<<<<<<< HEAD
                             tax_data
                             for tax_data in base_line['tax_details']['taxes_data']
+=======
+                            (index, tax_data)
+                            for index, tax_data in enumerate(base_line['tax_details']['taxes_data'])
+>>>>>>> upstream/18.0
 =======
                             (index, tax_data)
                             for index, tax_data in enumerate(base_line['tax_details']['taxes_data'])
@@ -1704,18 +1751,24 @@ class AccountTax(models.Model):
                 nb_of_errors = round(abs(delta / delta_currency.rounding))
                 remaining_errors = nb_of_errors
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for base_line, tax_data in tax_amounts['sorted_base_line_x_tax_data']:
                     tax_details = base_line['tax_details']
                     if not remaining_errors or not tax_data:
                         break
 
 =======
+=======
+>>>>>>> upstream/18.0
                 for base_line, index_tax_data in tax_amounts['sorted_base_line_x_tax_data']:
                     tax_details = base_line['tax_details']
                     if not remaining_errors or not index_tax_data:
                         break
 
                     index, tax_data = index_tax_data
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     nb_of_amount_to_distribute = min(
                         math.ceil(abs(tax_details['total_included_currency'] * nb_of_errors / tax_amounts['total_included_currency'])),
@@ -1725,9 +1778,12 @@ class AccountTax(models.Model):
                     amount_to_distribute = sign * nb_of_amount_to_distribute * delta_currency.rounding
                     tax_data[delta_field] += amount_to_distribute
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         # Dispatch the delta of base amounts accross the base lines.
 =======
+=======
+>>>>>>> upstream/18.0
                     tax_amounts[delta_field] += amount_to_distribute
 
                     if index == 0:
@@ -1736,6 +1792,9 @@ class AccountTax(models.Model):
                         base_amounts[delta_field] += amount_to_distribute
 
         # Dispatch the delta of base amounts across the base lines.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Suppose 2 lines:
         # - quantity=12.12, price_unit=12.12, tax=23%
@@ -1748,9 +1807,12 @@ class AccountTax(models.Model):
                 continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             delta_base_amount_currency = tax_amounts['raw_base_amount_currency'] - tax_amounts['base_amount_currency']
             delta_base_amount = tax_amounts['raw_base_amount'] - tax_amounts['base_amount']
 =======
+=======
+>>>>>>> upstream/18.0
             if country_code == 'PT':
                 delta_base_amount_currency = (
                     tax_amounts['raw_total_amount_currency']
@@ -1766,6 +1828,9 @@ class AccountTax(models.Model):
                 delta_base_amount_currency = tax_amounts['raw_base_amount_currency'] - tax_amounts['base_amount_currency']
                 delta_base_amount = tax_amounts['raw_base_amount'] - tax_amounts['base_amount']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for delta, delta_currency_indicator, delta_currency in (
                 (delta_base_amount_currency, '_currency', currency),
@@ -1778,7 +1843,11 @@ class AccountTax(models.Model):
                 nb_of_errors = round(abs(delta / delta_currency.rounding))
                 remaining_errors = nb_of_errors
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for base_line, tax_data in tax_amounts['sorted_base_line_x_tax_data']:
+=======
+                for base_line, index_tax_data in tax_amounts['sorted_base_line_x_tax_data']:
+>>>>>>> upstream/18.0
 =======
                 for base_line, index_tax_data in tax_amounts['sorted_base_line_x_tax_data']:
 >>>>>>> upstream/18.0
@@ -1794,7 +1863,12 @@ class AccountTax(models.Model):
                     amount_to_distribute = sign * nb_of_amount_to_distribute * delta_currency.rounding
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if tax_data:
+=======
+                    if index_tax_data:
+                        _index, tax_data = index_tax_data
+>>>>>>> upstream/18.0
 =======
                     if index_tax_data:
                         _index, tax_data = index_tax_data
@@ -1829,9 +1903,12 @@ class AccountTax(models.Model):
 
             tax_details = base_line['tax_details']
 <<<<<<< HEAD
+<<<<<<< HEAD
             delta_base_amount_currency = base_amounts['raw_base_amount_currency'] - base_amounts['base_amount_currency']
             delta_base_amount = base_amounts['raw_base_amount'] - base_amounts['base_amount']
 =======
+=======
+>>>>>>> upstream/18.0
             if country_code == 'PT':
                 delta_base_amount_currency = (
                     base_amounts['raw_total_amount_currency']
@@ -1847,6 +1924,9 @@ class AccountTax(models.Model):
                 delta_base_amount_currency = base_amounts['raw_base_amount_currency'] - base_amounts['base_amount_currency']
                 delta_base_amount = base_amounts['raw_base_amount'] - base_amounts['base_amount']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if currency.is_zero(delta_base_amount_currency) and company.currency_id.is_zero(delta_base_amount):
                 continue

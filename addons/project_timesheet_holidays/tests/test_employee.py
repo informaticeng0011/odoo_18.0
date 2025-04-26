@@ -104,7 +104,10 @@ class TestEmployee(TransactionCase):
         self.assertEqual(timesheet.unit_amount, 8, 'The timesheet should be created for the correct duration')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # test unarchiving on an already active employee does not create duplicate public leaves
         employee.write({'active': True})
         timesheet = self.env['account.analytic.line'].search([
@@ -113,6 +116,9 @@ class TestEmployee(TransactionCase):
         ])
         self.assertEqual(len(timesheet), 1, 'We should not have created duplicate public holiday leaves')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # simulate the company of the employee updated is not in the allowed_company_ids of the current user
         employee.with_company(self.env.company).write({'resource_calendar_id': self.company.resource_calendar_id.id})

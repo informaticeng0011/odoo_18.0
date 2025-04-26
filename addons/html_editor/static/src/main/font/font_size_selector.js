@@ -28,6 +28,7 @@ export class FontSizeSelector extends Component {
         onMounted(() => {
             const iframeEl = this.iframeContentRef.el;
 <<<<<<< HEAD
+<<<<<<< HEAD
             const iframeDoc = iframeEl.contentWindow.document;
             this.fontSizeInput = iframeDoc.createElement("input");
             Object.assign(iframeDoc.body.style, {
@@ -58,6 +59,8 @@ export class FontSizeSelector extends Component {
                 // Update `fontSizeInputValue` whenever the font size changes.
                 this.fontSizeInput.value = this.state.displayName;
 =======
+=======
+>>>>>>> upstream/18.0
 
             const initFontSizeInput = () => {
                 const iframeDoc = iframeEl.contentWindow.document;
@@ -115,6 +118,9 @@ export class FontSizeSelector extends Component {
                     // Update `fontSizeInputValue` whenever the font size changes.
                     this.fontSizeInput.value = this.state.displayName;
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
             () => [this.state.displayName]
@@ -122,13 +128,19 @@ export class FontSizeSelector extends Component {
         useEffect(
             () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // Focus input on dropdown open, blur on close.
                 this.dropdown.isOpen ? this.fontSizeInput.select() : this.fontSizeInput.blur();
 =======
+=======
+>>>>>>> upstream/18.0
                 if (this.fontSizeInput) {
                     // Focus input on dropdown open, blur on close.
                     this.dropdown.isOpen ? this.fontSizeInput.select() : this.fontSizeInput.blur();
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
             () => [this.dropdown.isOpen]
@@ -147,6 +159,10 @@ export class FontSizeSelector extends Component {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.fontSizeInput.focus();
+>>>>>>> upstream/18.0
 =======
         this.fontSizeInput.focus();
 >>>>>>> upstream/18.0

@@ -154,6 +154,10 @@ export class LinkPlugin extends Plugin {
         "overlay",
         "color",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "feff",
+>>>>>>> upstream/18.0
 =======
         "feff",
 >>>>>>> upstream/18.0
@@ -374,7 +378,11 @@ export class LinkPlugin extends Plugin {
                 anchorEl.style.removeProperty("color");
                 const font = selectElements(anchorEl, "font").next().value;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (font && anchorEl.textContent === font.textContent) {
+=======
+                if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
+>>>>>>> upstream/18.0
 =======
                 if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
 >>>>>>> upstream/18.0
@@ -640,7 +648,10 @@ export class LinkPlugin extends Plugin {
     removeLinkFromSelection() {
         const selection = this.dependencies.split.splitSelection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         const cursors = this.dependencies.selection.preserveSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -654,11 +665,14 @@ export class LinkPlugin extends Plugin {
             closestElement(focusNode, "a"),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
         // to remove link from selected images
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const selectedImageNodes = selectedNodes.filter((node) => node.tagName === "IMG");
         if (selectedImageNodes && startLink && endLink && startLink === endLink) {
 =======
+=======
+>>>>>>> upstream/18.0
         let cursors;
         if (startLink) {
             // If a FEFF character is present as anchorNode or focusNode,
@@ -680,6 +694,9 @@ export class LinkPlugin extends Plugin {
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const selectedImageNodes = selectedNodes.filter((node) => node.tagName === "IMG");
         if (selectedImageNodes.length && startLink && endLink && startLink === endLink) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for (const imageNode of selectedImageNodes) {
                 let imageLink;
@@ -707,6 +724,11 @@ export class LinkPlugin extends Plugin {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const startBlock = closestBlock(startLink);
+        const endBlock = closestBlock(endLink);
+>>>>>>> upstream/18.0
 =======
         const startBlock = closestBlock(startLink);
         const endBlock = closestBlock(endLink);
@@ -742,7 +764,10 @@ export class LinkPlugin extends Plugin {
             cursors.restore();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (startBlock) {
             // Remove empty links splitted by `splitAroundUntil` due to
             // adjacent invisible text nodes.
@@ -751,6 +776,9 @@ export class LinkPlugin extends Plugin {
         if (endBlock && endBlock !== startBlock) {
             this.removeEmptyLinks(endBlock);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.history.addStep();
     }
@@ -759,6 +787,11 @@ export class LinkPlugin extends Plugin {
         // @todo: check for unremovables
         // @todo: preserve spaces
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const buttonClassRegex =
+            /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
+>>>>>>> upstream/18.0
 =======
         const buttonClassRegex =
             /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
@@ -768,7 +801,13 @@ export class LinkPlugin extends Plugin {
                 continue;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             const classes = [...link.classList].filter((c) => !this.ignoredClasses.has(c));
+=======
+            const classes = [...link.classList].filter(
+                (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)
+            );
+>>>>>>> upstream/18.0
 =======
             const classes = [...link.classList].filter(
                 (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)

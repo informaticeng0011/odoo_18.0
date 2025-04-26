@@ -54,6 +54,10 @@ class Partner(models.Model):
             for (start, stop, calendar) in calendar_periods:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
+>>>>>>> upstream/18.0
 =======
                 calendar = calendar or self.env.company.resource_calendar_id  # No calendar if fully flexible
 >>>>>>> upstream/18.0
@@ -66,7 +70,10 @@ class Partner(models.Model):
         for calendar, resources in resources_by_calendar.items():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             calendar = calendar or self.env.company.resource_calendar_id # No calendar if fully flexible
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -526,7 +526,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -580,6 +583,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -698,7 +704,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
         self.assertEqual(payment.state, 'paid')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_payment_state_with_unreconciliable_outstanding_account(self):
         unreconciliable_account = self.env['account.account'].create({
             'code': '209.01.01',
@@ -718,6 +727,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 
         self.assertEqual(payment.state, 'paid')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_invoice_paid_hook_called_in_various_scenarios(self):
         def register_payment(invoice, payment_method_line, amount=None):

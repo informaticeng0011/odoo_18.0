@@ -1781,7 +1781,11 @@ class MrpProduction(models.Model):
         regex = re.compile(r"-\d+$")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if regex.search(name) and sequence > 1:
+=======
+        if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
+>>>>>>> upstream/18.0
 =======
         if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
 >>>>>>> upstream/18.0

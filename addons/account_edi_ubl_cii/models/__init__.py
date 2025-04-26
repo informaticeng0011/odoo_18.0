@@ -11,6 +11,10 @@ from . import account_edi_xml_ubl_sg
 from . import account_move
 from . import account_move_send
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_actions_report
+>>>>>>> upstream/18.0
 =======
 from . import ir_actions_report
 >>>>>>> upstream/18.0

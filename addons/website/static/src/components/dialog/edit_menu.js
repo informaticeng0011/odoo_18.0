@@ -135,7 +135,10 @@ export class EditMenuDialog extends Component {
             isAllowed: this._isAllowedMove.bind(this),
             useElementSize: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             /**
              * @param {DOMElement} element - moved element
              * @param {DOMElement} parent - parent element of where the element was moved
@@ -150,6 +153,9 @@ export class EditMenuDialog extends Component {
                     ? "2rem"
                     : "";
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         });
     }

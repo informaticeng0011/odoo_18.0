@@ -243,6 +243,12 @@ class StockRule(models.Model):
         company_id = self.company_id.id
         copied_quantity = move_to_copy.quantity
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        final_location_id = False
+        if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
+            final_location_id = move_to_copy.location_final_id.id
+>>>>>>> upstream/18.0
 =======
         final_location_id = False
         if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
@@ -258,7 +264,11 @@ class StockRule(models.Model):
             'location_id': move_to_copy.location_dest_id.id,
             'location_dest_id': self.location_dest_id.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'location_final_id': move_to_copy.location_final_id.id,
+=======
+            'location_final_id': final_location_id,
+>>>>>>> upstream/18.0
 =======
             'location_final_id': final_location_id,
 >>>>>>> upstream/18.0

@@ -558,7 +558,11 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 
         # Days between the target date and the expiration date (accrual_plan's carryover date)
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days + 1
+=======
+        remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
+>>>>>>> upstream/18.0
 =======
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
 >>>>>>> upstream/18.0

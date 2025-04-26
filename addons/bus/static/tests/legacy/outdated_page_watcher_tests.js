@@ -4,6 +4,7 @@ import { startServer } from "@bus/../tests/helpers/mock_python_environment";
 import { addBusServicesToRegistry } from "@bus/../tests/helpers/test_utils";
 import { waitForBusEvent } from "@bus/../tests/helpers/websocket_event_deferred";
 import { outdatedPageWatcherService } from "@bus/outdated_page_watcher_service";
+<<<<<<< HEAD
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { patchWithCleanup } from "@web/../tests/legacy/helpers/utils";
 import { assertSteps, click, contains, step } from "@web/../tests/legacy/utils";
@@ -38,6 +39,14 @@ QUnit.test("disconnect during vacuum should ask for reload", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+import { BACK_ONLINE_RECONNECT_DELAY } from "@bus/services/bus_service";
+import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
+import { mockTimeout, patchWithCleanup } from "@web/../tests/legacy/helpers/utils";
+import { assertSteps, click, contains, step } from "@web/../tests/legacy/utils";
+import { createWebClient } from "@web/../tests/webclient/helpers";
+import { browser } from "@web/core/browser/browser";
+>>>>>>> upstream/18.0
 import { registry } from "@web/core/registry";
 
 QUnit.test("disconnect during bus gc should ask for reload", async () => {
@@ -50,6 +59,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70,6 +82,7 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
     const pyEnv = await startServer();
     const { env } = await createWebClient({
         mockRPC(route) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +119,8 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (route === "/bus/has_missed_notifications") {
                 return true;
             }
@@ -118,6 +133,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143,3 +161,28 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
     await click(".o_notification button", { text: "Refresh" });
     await assertSteps(["reload"]);
 });
+<<<<<<< HEAD
+=======
+
+QUnit.test("reconnect after going offline after bus gc should ask for reload", async () => {
+    addBusServicesToRegistry();
+    registry.category("services").add("bus.outdated_page_watcher", outdatedPageWatcherService);
+    const { advanceTime } = mockTimeout();
+    const { env } = await createWebClient({
+        mockRPC(route) {
+            if (route === "/bus/has_missed_notifications") {
+                return true;
+            }
+        },
+    });
+    env.services.bus_service.start();
+    await waitForBusEvent(env, "connect");
+    browser.dispatchEvent(new Event("offline"));
+    await waitForBusEvent(env, "disconnect");
+    browser.dispatchEvent(new Event("online"));
+    await advanceTime(BACK_ONLINE_RECONNECT_DELAY);
+    await contains(".o_notification", {
+        text: "Save your work and refresh to get the latest updates and avoid potential issues.",
+    });
+});
+>>>>>>> upstream/18.0

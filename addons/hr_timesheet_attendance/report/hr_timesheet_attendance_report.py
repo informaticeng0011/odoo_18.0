@@ -42,8 +42,11 @@ class TimesheetAttendance(models.Model):
                     NULL AS timesheet,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     hr_attendance.check_in::date AS date,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     CAST(hr_attendance.check_in
@@ -54,6 +57,9 @@ class TimesheetAttendance(models.Model):
                                 WHERE calendar.id = employee.resource_calendar_id)
                     as DATE) as date,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

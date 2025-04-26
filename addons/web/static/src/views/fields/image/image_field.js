@@ -189,6 +189,11 @@ export class ImageField extends Component {
                 ctx.fillStyle = "transparent";
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = "high";
+>>>>>>> upstream/18.0
 =======
                 ctx.imageSmoothingEnabled = true;
                 ctx.imageSmoothingQuality = "high";

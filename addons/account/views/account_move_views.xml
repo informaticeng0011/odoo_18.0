@@ -342,7 +342,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
 =======
                             domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
 >>>>>>> upstream/18.0
@@ -1065,7 +1069,11 @@
                                        domain="[('partner_id', '=', bank_partner_id)]"
                                        invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')"
 <<<<<<< HEAD
+<<<<<<< HEAD
                                        readonly="is_move_sent"/>
+=======
+                                       readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                        readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -1446,7 +1454,11 @@
                                                context="{'default_partner_id': bank_partner_id, 'display_account_trust': True}"
                                                domain="[('partner_id.ref_company_ids', 'parent_of', company_id)]"
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                readonly="is_move_sent"/>
+=======
+                                               readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                                readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0

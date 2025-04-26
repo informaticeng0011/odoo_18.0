@@ -60,7 +60,10 @@ const odooNumberDateAdapter = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function boundedOdooNumberDateAdapter(lower, upper) {
     return {
         normalizeServerValue(groupBy, field, readGroupResult) {
@@ -76,6 +79,9 @@ function boundedOdooNumberDateAdapter(lower, upper) {
     };
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const odooDayAdapter = {
     normalizeServerValue(groupBy, field, readGroupResult) {
@@ -288,17 +294,23 @@ pivotTimeAdapterRegistry.add("quarter", falseHandlerDecorator(odooQuarterAdapter
 extendSpreadsheetAdapter("day", odooDayAdapter);
 extendSpreadsheetAdapter("year", odooNumberDateAdapter);
 <<<<<<< HEAD
+<<<<<<< HEAD
 extendSpreadsheetAdapter("day_of_month", odooNumberDateAdapter);
 extendSpreadsheetAdapter("day", odooDayAdapter);
 extendSpreadsheetAdapter("iso_week_number", odooNumberDateAdapter);
 extendSpreadsheetAdapter("month_number", odooNumberDateAdapter);
 extendSpreadsheetAdapter("quarter_number", odooNumberDateAdapter);
 =======
+=======
+>>>>>>> upstream/18.0
 extendSpreadsheetAdapter("day_of_month", boundedOdooNumberDateAdapter(1, 31));
 extendSpreadsheetAdapter("day", odooDayAdapter);
 extendSpreadsheetAdapter("iso_week_number", boundedOdooNumberDateAdapter(0, 54));
 extendSpreadsheetAdapter("month_number", boundedOdooNumberDateAdapter(1, 12));
 extendSpreadsheetAdapter("quarter_number", boundedOdooNumberDateAdapter(1, 4));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 extendSpreadsheetAdapter("day_of_week", odooDayOfWeekAdapter);
 extendSpreadsheetAdapter("hour_number", odooHourNumberAdapter);

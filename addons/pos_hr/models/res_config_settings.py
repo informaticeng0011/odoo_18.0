@@ -14,7 +14,10 @@ class ResConfigSettings(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model_create_multi
@@ -26,6 +29,9 @@ class ResConfigSettings(models.TransientModel):
         return super().create(vals_list)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35,8 +41,11 @@ class ResConfigSettings(models.TransientModel):
             if employee in self.pos_advanced_employee_ids:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.pos_advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if employee.user_id._has_group('point_of_sale.group_pos_manager'):
@@ -44,6 +53,9 @@ class ResConfigSettings(models.TransientModel):
                 else:
                     self.pos_advanced_employee_ids -= employee
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

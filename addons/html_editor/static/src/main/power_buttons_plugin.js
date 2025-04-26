@@ -103,16 +103,22 @@ export class PowerButtonsPlugin extends Plugin {
         const block = closestBlock(editableSelection.anchorNode);
         const element = closestElement(editableSelection.anchorNode);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             editableSelection.isCollapsed &&
             element?.matches(baseContainerGlobalSelector) &&
 =======
+=======
+>>>>>>> upstream/18.0
         const blockRect = block.getBoundingClientRect();
         const editableRect = this.editable.getBoundingClientRect();
         if (
             editableSelection.isCollapsed &&
             element?.matches(baseContainerGlobalSelector) &&
             editableRect.bottom > blockRect.top &&
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             isEmptyBlock(block) &&
             !this.services.ui.isSmall &&
@@ -131,7 +137,11 @@ export class PowerButtonsPlugin extends Plugin {
                 buttonElement.classList.toggle("d-none", shouldHide); // 2nd arg must be a boolean
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.setPowerButtonsPosition(block, direction);
+=======
+            this.setPowerButtonsPosition(block, blockRect, direction);
+>>>>>>> upstream/18.0
 =======
             this.setPowerButtonsPosition(block, blockRect, direction);
 >>>>>>> upstream/18.0
@@ -157,7 +167,11 @@ export class PowerButtonsPlugin extends Plugin {
      * @param {string} direction
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     setPowerButtonsPosition(block, direction) {
+=======
+    setPowerButtonsPosition(block, blockRect, direction) {
+>>>>>>> upstream/18.0
 =======
     setPowerButtonsPosition(block, blockRect, direction) {
 >>>>>>> upstream/18.0
@@ -166,7 +180,10 @@ export class PowerButtonsPlugin extends Plugin {
         overlayStyles.top = "0px";
         overlayStyles.left = "0px";
 <<<<<<< HEAD
+<<<<<<< HEAD
         const blockRect = block.getBoundingClientRect();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const buttonsRect = this.powerButtonsContainer.getBoundingClientRect();

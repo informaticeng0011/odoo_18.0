@@ -1658,7 +1658,10 @@ var SnippetEditor = publicWidget.Widget.extend({
         ev.data.show = this._toggleVisibilityStatus(ev.data.show);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // Toggle the value of ev.data.show so that when trigger_up is called,
@@ -1670,6 +1673,9 @@ var SnippetEditor = publicWidget.Widget.extend({
             ev.data.show = true;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

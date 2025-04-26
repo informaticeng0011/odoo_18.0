@@ -558,6 +558,10 @@ export const accountTaxHelpers = {
         const total_per_tax = {};
         const total_per_base = {};
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const country_code = company.account_fiscal_country_id.code;
+>>>>>>> upstream/18.0
 =======
         const country_code = company.account_fiscal_country_id.code;
 >>>>>>> upstream/18.0
@@ -621,6 +625,11 @@ export const accountTaxHelpers = {
                         raw_tax_amount_currency: 0.0,
                         raw_tax_amount: 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        raw_total_amount_currency: 0.0,
+                        raw_total_amount: 0.0,
+>>>>>>> upstream/18.0
 =======
                         raw_total_amount_currency: 0.0,
                         raw_total_amount: 0.0,
@@ -639,6 +648,11 @@ export const accountTaxHelpers = {
                 tax_amounts.base_amount += tax_data.base_amount;
                 tax_amounts.raw_base_amount += tax_data.raw_base_amount;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                tax_amounts.raw_total_amount_currency += tax_data.raw_base_amount_currency + tax_data.raw_tax_amount_currency;
+                tax_amounts.raw_total_amount += tax_data.raw_base_amount + tax_data.raw_tax_amount;
+>>>>>>> upstream/18.0
 =======
                 tax_amounts.raw_total_amount_currency += tax_data.raw_base_amount_currency + tax_data.raw_tax_amount_currency;
                 tax_amounts.raw_total_amount += tax_data.raw_base_amount + tax_data.raw_tax_amount;
@@ -647,6 +661,7 @@ export const accountTaxHelpers = {
                     tax_amounts.base_lines.push(base_line);
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (index === 0) {
                     const base_rounding_key = [currency.id, base_line.is_refund];
@@ -663,6 +678,8 @@ export const accountTaxHelpers = {
 
                     const base_amounts = total_per_base[base_rounding_key];
 =======
+=======
+>>>>>>> upstream/18.0
                 const base_rounding_key = [currency.id, base_line.is_refund];
                 if (!(base_rounding_key in total_per_base)) {
                     total_per_base[base_rounding_key] = {
@@ -684,12 +701,20 @@ export const accountTaxHelpers = {
                 base_amounts.raw_total_amount_currency += tax_data.raw_tax_amount_currency;
                 base_amounts.raw_total_amount += tax_data.raw_tax_amount;
                 if (index === 0) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     base_amounts.base_amount_currency += tax_data.base_amount_currency;
                     base_amounts.raw_base_amount_currency += tax_data.raw_base_amount_currency;
                     base_amounts.base_amount += tax_data.base_amount;
                     base_amounts.raw_base_amount += tax_data.raw_base_amount;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    base_amounts.raw_total_amount_currency += tax_data.raw_base_amount_currency;
+                    base_amounts.raw_total_amount += tax_data.raw_base_amount;
+>>>>>>> upstream/18.0
 =======
                     base_amounts.raw_total_amount_currency += tax_data.raw_base_amount_currency;
                     base_amounts.raw_total_amount += tax_data.raw_base_amount;
@@ -718,6 +743,11 @@ export const accountTaxHelpers = {
                         raw_tax_amount_currency: 0.0,
                         raw_tax_amount: 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        raw_total_amount_currency: 0.0,
+                        raw_total_amount: 0.0,
+>>>>>>> upstream/18.0
 =======
                         raw_total_amount_currency: 0.0,
                         raw_total_amount: 0.0,
@@ -731,6 +761,11 @@ export const accountTaxHelpers = {
                 tax_amounts.base_amount += tax_details.total_excluded;
                 tax_amounts.raw_base_amount += tax_details.raw_total_excluded;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                tax_amounts.raw_total_amount_currency += tax_details.raw_total_excluded_currency;
+                tax_amounts.raw_total_amount += tax_details.raw_total_excluded;
+>>>>>>> upstream/18.0
 =======
                 tax_amounts.raw_total_amount_currency += tax_details.raw_total_excluded_currency;
                 tax_amounts.raw_total_amount += tax_details.raw_total_excluded;
@@ -744,6 +779,11 @@ export const accountTaxHelpers = {
                     total_per_base[base_rounding_key] = {
                         currency: currency,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        tax_amount_currency: 0.0,
+                        tax_amount: 0.0,
+>>>>>>> upstream/18.0
 =======
                         tax_amount_currency: 0.0,
                         tax_amount: 0.0,
@@ -753,6 +793,11 @@ export const accountTaxHelpers = {
                         raw_base_amount_currency: 0.0,
                         raw_base_amount: 0.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        raw_total_amount_currency: 0.0,
+                        raw_total_amount: 0.0,
+>>>>>>> upstream/18.0
 =======
                         raw_total_amount_currency: 0.0,
                         raw_total_amount: 0.0,
@@ -766,6 +811,11 @@ export const accountTaxHelpers = {
                 base_amounts.base_amount += tax_details.total_excluded;
                 base_amounts.raw_base_amount += tax_details.raw_total_excluded;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                base_amounts.raw_total_amount_currency += tax_details.raw_total_excluded_currency;
+                base_amounts.raw_total_amount += tax_details.raw_total_excluded;
+>>>>>>> upstream/18.0
 =======
                 base_amounts.raw_total_amount_currency += tax_details.raw_total_excluded_currency;
                 base_amounts.raw_total_amount += tax_details.raw_total_excluded;
@@ -777,6 +827,7 @@ export const accountTaxHelpers = {
         }
 
         // Round 'total_per_tax'.
+<<<<<<< HEAD
 <<<<<<< HEAD
         for (const amounts of Object.values(total_per_tax)) {
             amounts.raw_tax_amount_currency = roundPrecision(
@@ -794,6 +845,8 @@ export const accountTaxHelpers = {
             amounts.raw_base_amount = roundPrecision(
                 amounts.raw_base_amount,
 =======
+=======
+>>>>>>> upstream/18.0
         for (const tax_amounts of Object.values(total_per_tax)) {
             tax_amounts.raw_tax_amount_currency = roundPrecision(
                 tax_amounts.raw_tax_amount_currency,
@@ -817,12 +870,16 @@ export const accountTaxHelpers = {
             );
             tax_amounts.raw_total_amount = roundPrecision(
                 tax_amounts.raw_total_amount,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 company.currency_id.rounding
             );
         }
 
         // Round 'total_per_base'.
+<<<<<<< HEAD
 <<<<<<< HEAD
         for (const amounts of Object.values(total_per_base)) {
             amounts.raw_base_amount_currency = roundPrecision(
@@ -832,6 +889,8 @@ export const accountTaxHelpers = {
             amounts.raw_base_amount = roundPrecision(
                 amounts.raw_base_amount,
 =======
+=======
+>>>>>>> upstream/18.0
         for (const base_amounts of Object.values(total_per_base)) {
             base_amounts.raw_base_amount_currency = roundPrecision(
                 base_amounts.raw_base_amount_currency,
@@ -847,6 +906,9 @@ export const accountTaxHelpers = {
             );
             base_amounts.raw_total_amount = roundPrecision(
                 base_amounts.raw_total_amount,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 company.currency_id.rounding
             );
@@ -872,8 +934,13 @@ export const accountTaxHelpers = {
                 .map(base_line => [
                     base_line,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     base_line.tax_details.taxes_data.find(
                         tax_data => tax_data.tax.id === tax.id && tax_data.is_reverse_charge === is_reverse_charge
+=======
+                    base_line.tax_details.taxes_data.map((tax_data, index) => [index, tax_data]).find(
+                        ([index, tax_data]) => tax_data.tax.id === tax.id && tax_data.is_reverse_charge === is_reverse_charge
+>>>>>>> upstream/18.0
 =======
                     base_line.tax_details.taxes_data.map((tax_data, index) => [index, tax_data]).find(
                         ([index, tax_data]) => tax_data.tax.id === tax.id && tax_data.is_reverse_charge === is_reverse_charge
@@ -905,6 +972,7 @@ export const accountTaxHelpers = {
                 let remaining_errors = nb_of_errors;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for (const [base_line, tax_data] of tax_amounts.sorted_base_line_x_tax_data) {
                     const tax_details = base_line.tax_details;
                     if (!remaining_errors || !tax_data) {
@@ -912,6 +980,8 @@ export const accountTaxHelpers = {
                     }
 
 =======
+=======
+>>>>>>> upstream/18.0
                 for (const [base_line, index_tax_data] of tax_amounts.sorted_base_line_x_tax_data) {
                     const tax_details = base_line.tax_details;
                     if (!remaining_errors || !index_tax_data) {
@@ -920,6 +990,9 @@ export const accountTaxHelpers = {
 
                     const index = index_tax_data[0];
                     const tax_data = index_tax_data[1];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     const nb_of_amount_to_distribute = Math.min(
                         Math.ceil(Math.abs(tax_details.total_included_currency * nb_of_errors / tax_amounts.total_included_currency)),
@@ -929,7 +1002,10 @@ export const accountTaxHelpers = {
                     const amount_to_distribute = sign * nb_of_amount_to_distribute * delta_currency.rounding;
                     tax_data[delta_field] += amount_to_distribute;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     tax_amounts[delta_field] += amount_to_distribute;
 
                     if (index === 0) {
@@ -937,6 +1013,9 @@ export const accountTaxHelpers = {
                          const base_amounts = total_per_base[base_rounding_key];
                          base_amounts[delta_field] += amount_to_distribute;
                      }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             }
@@ -956,9 +1035,12 @@ export const accountTaxHelpers = {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             const delta_base_amount_currency = tax_amounts.raw_base_amount_currency - tax_amounts.base_amount_currency;
             const delta_base_amount = tax_amounts.raw_base_amount - tax_amounts.base_amount;
 =======
+=======
+>>>>>>> upstream/18.0
             let delta_base_amount_currency;
             let delta_base_amount;
             if (country_code === "PT") {
@@ -969,6 +1051,9 @@ export const accountTaxHelpers = {
                 delta_base_amount = tax_amounts.raw_base_amount - tax_amounts.base_amount;
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for (const [delta, delta_currency_indicator, delta_currency] of [
                 [delta_base_amount_currency, '_currency', currency],
@@ -983,7 +1068,11 @@ export const accountTaxHelpers = {
                 let remaining_errors = nb_of_errors;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for (const [base_line, tax_data] of tax_amounts.sorted_base_line_x_tax_data) {
+=======
+                for (const [base_line, index_tax_data] of tax_amounts.sorted_base_line_x_tax_data) {
+>>>>>>> upstream/18.0
 =======
                 for (const [base_line, index_tax_data] of tax_amounts.sorted_base_line_x_tax_data) {
 >>>>>>> upstream/18.0
@@ -1000,7 +1089,12 @@ export const accountTaxHelpers = {
                     const amount_to_distribute = sign * nb_of_amount_to_distribute * delta_currency.rounding;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (tax_data) {
+=======
+                    if (index_tax_data) {
+                        const tax_data = index_tax_data[1];
+>>>>>>> upstream/18.0
 =======
                     if (index_tax_data) {
                         const tax_data = index_tax_data[1];
@@ -1040,9 +1134,12 @@ export const accountTaxHelpers = {
 
             const tax_details = base_line.tax_details;
 <<<<<<< HEAD
+<<<<<<< HEAD
             const delta_base_amount_currency = base_amounts.raw_base_amount_currency - base_amounts.base_amount_currency;
             const delta_base_amount = base_amounts.raw_base_amount - base_amounts.base_amount;
 =======
+=======
+>>>>>>> upstream/18.0
             let delta_base_amount_currency;
             let delta_base_amount;
             if (country_code === "PT") {
@@ -1053,6 +1150,9 @@ export const accountTaxHelpers = {
                 delta_base_amount = base_amounts.raw_base_amount - base_amounts.base_amount;
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if (floatIsZero(delta_base_amount_currency, base_amounts.currency.decimal_places) && floatIsZero(delta_base_amount, company.currency_id.decimal_places)) {
                 continue;

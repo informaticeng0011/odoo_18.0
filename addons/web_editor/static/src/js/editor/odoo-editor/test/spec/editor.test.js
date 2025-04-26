@@ -5859,14 +5859,20 @@ X[]
                                     </tbody>
                                 </table>`),
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
                             stepFunction: async editor => {
                                 // Table selection happens on selectionchange
                                 // event which is fired in the next tick.
                                 await nextTick();
                                 editor.execCommand('applyColor', 'aquamarine', 'color');
                             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             contentAfterEdit: unformat(`
                                 <p>

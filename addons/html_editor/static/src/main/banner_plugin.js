@@ -4,6 +4,10 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 import { parseHTML } from "@html_editor/utils/html";
 import { withSequence } from "@html_editor/utils/resource";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { htmlEscape } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { htmlEscape } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -98,7 +102,13 @@ export class BannerPlugin extends Plugin {
             this.document,
             `<div class="o_editor_banner user-select-none o-contenteditable-false lh-1 d-flex align-items-center alert alert-${alertClass} pb-0 pt-3" data-oe-role="status">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${title}">${emoji}</i>
+=======
+                <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${htmlEscape(
+                    title
+                )}">${emoji}</i>
+>>>>>>> upstream/18.0
 =======
                 <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${htmlEscape(
                     title

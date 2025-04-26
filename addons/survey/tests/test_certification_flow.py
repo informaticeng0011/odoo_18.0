@@ -4,6 +4,10 @@
 from unittest.mock import patch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -155,7 +159,10 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
                          'Default certification report print_report_name is "Certification - %s" % (object.survey_id.display_name)')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Check that the certification can be printed without access to the participant's company
         with self.with_user('admin'):
             new_company = self.env['res.company'].create({
@@ -176,6 +183,9 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
         self.env['ir.actions.report'].with_user(user_new_company).with_company(new_company)\
             ._render_qweb_pdf('survey.certification_report_view', res_ids=user_inputs.ids)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_randomized_certification(self):
         # Step: survey user creates the randomized certification

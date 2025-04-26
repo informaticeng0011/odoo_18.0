@@ -243,7 +243,11 @@ export class WebsocketWorker {
         if (this.newestStartTs && this.newestStartTs > startTs) {
             this.debugModeByClient.set(client, debug);
             this.isDebug = [...this.debugModeByClient.values()].some(Boolean);
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
             this.sendToClient(client, "initialized");
             return;
         }
@@ -265,7 +269,11 @@ export class WebsocketWorker {
             }
             this.channelsByClient.forEach((_, key) => this.channelsByClient.set(key, []));
         }
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
         this.sendToClient(client, "initialized");
         if (!this.active) {
             this.sendToClient(client, "outdated");

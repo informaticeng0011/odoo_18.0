@@ -16,7 +16,10 @@ class PosConfig(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def write(self, vals):
@@ -26,6 +29,9 @@ class PosConfig(models.Model):
         return super().write(vals)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35,8 +41,11 @@ class PosConfig(models.Model):
             if employee in self.advanced_employee_ids:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.advanced_employee_ids -= employee
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if employee.user_id._has_group('point_of_sale.group_pos_manager'):
@@ -44,6 +53,9 @@ class PosConfig(models.Model):
                 else:
                     self.advanced_employee_ids -= employee
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

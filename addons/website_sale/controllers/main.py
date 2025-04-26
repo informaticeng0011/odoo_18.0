@@ -1659,7 +1659,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
             #in order to not override shippig address, it's checked separately from shipping option
             self._include_country_and_state_in_address(shipping_address)
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0

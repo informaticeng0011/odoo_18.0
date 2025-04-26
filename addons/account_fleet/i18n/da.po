@@ -6,6 +6,10 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Sammi Iversen <sammi@vkdata.dk>, 2025
+>>>>>>> upstream/18.0
 =======
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"Last-Translator: Sammi Iversen <sammi@vkdata.dk>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Sammi Iversen <sammi@vkdata.dk>, 2025\n"
 >>>>>>> upstream/18.0
@@ -35,6 +43,11 @@ msgid ""
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Service's Bill</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
+"                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
@@ -101,7 +114,11 @@ msgstr "Behov for Køretøj"
 #: code:addons/account_fleet/models/account_move.py:0
 msgid "Service Vendor Bill: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serviceleverandørregning: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serviceleverandørregning: %s"
 >>>>>>> upstream/18.0
@@ -136,6 +153,11 @@ msgid ""
 " created."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
+"oprettet med en regning."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
 "oprettet med en regning."
@@ -149,6 +171,11 @@ msgid ""
 "on the related accounting entry instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke ændre antallet af tjenester, der er knyttet til en "
+"kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke ændre antallet af tjenester, der er knyttet til en "
 "kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."

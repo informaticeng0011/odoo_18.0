@@ -1400,6 +1400,12 @@ class Slide(models.Model):
         return self.env['website'].get_client_action(f'/slides/slide/{self.env["ir.http"]._slug(self)}')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _mail_get_partner_fields(self, introspect_fields=False):
+        return []
+>>>>>>> upstream/18.0
 =======
 
     def _mail_get_partner_fields(self, introspect_fields=False):
