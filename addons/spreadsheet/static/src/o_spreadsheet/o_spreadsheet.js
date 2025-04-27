@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 18.0.22
  * @date 2025-04-04T08:57:27.182Z
  * @hash 89a327918
@@ -53,6 +54,11 @@
  * @version 18.0.24
  * @date 2025-04-18T17:35:24.596Z
  * @hash aa18758cf
+>>>>>>> upstream/18.0
+=======
+ * @version 18.0.25
+ * @date 2025-04-25T08:12:48.611Z
+ * @hash 24aac2c80
 >>>>>>> upstream/18.0
 =======
  * @version 18.0.25
@@ -3458,6 +3464,10 @@ const coreTypes = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -3753,12 +3763,15 @@ const CellErrorType = {
 };
 const errorTypes = new Set(Object.values(CellErrorType));
 <<<<<<< HEAD
+<<<<<<< HEAD
 class EvaluationError extends Error {
     value;
     constructor(message = _t("Error"), value = CellErrorType.GenericError) {
         super(message);
         this.value = value;
 =======
+=======
+>>>>>>> upstream/18.0
 class EvaluationError {
     message;
     value;
@@ -3766,6 +3779,9 @@ class EvaluationError {
         this.message = message;
         this.value = value;
         this.message = message.toString();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }
@@ -6667,6 +6683,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queuedBordersToAdd = {};
+>>>>>>> upstream/18.0
 =======
     queuedBordersToAdd = {};
 >>>>>>> upstream/18.0
@@ -6733,6 +6753,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.executeQueuedChanges(sheetId);
+>>>>>>> upstream/18.0
 =======
         this.executeQueuedChanges(sheetId);
 >>>>>>> upstream/18.0
@@ -6787,8 +6811,11 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dispatch("SET_BORDER", { ...target, border });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6827,6 +6854,9 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6962,7 +6992,10 @@ function tokenizeString(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6987,6 +7020,9 @@ const unicodeSymbolCharRegexp = /\p{L}|\p{N}|_|\.|!|\$/u;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7047,7 +7083,12 @@ function tokenizeSymbol(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     while (chars.current && SYMBOL_CHARS.has(chars.current)) {
+=======
+    while (chars.current &&
+        (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
+>>>>>>> upstream/18.0
 =======
     while (chars.current &&
         (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
@@ -8824,6 +8865,10 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -8865,7 +8910,11 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     toRemoveZones.push(positionToZone(origin.position));
+=======
+                    toRemoveZones.push(originZone);
+>>>>>>> upstream/18.0
 =======
                     toRemoveZones.push(originZone);
 >>>>>>> upstream/18.0
@@ -9015,6 +9064,10 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -9062,7 +9115,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 toRemoveZone.push(positionToZone(origin.position));
+=======
+                toRemoveZone.push(originZone);
+>>>>>>> upstream/18.0
 =======
                 toRemoveZone.push(originZone);
 >>>>>>> upstream/18.0
@@ -9158,7 +9215,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rule: dv,
+=======
+                    rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
+>>>>>>> upstream/18.0
 =======
                     rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
 >>>>>>> upstream/18.0
@@ -9523,7 +9584,11 @@ function transformZone(zone, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return { ...zone };
+=======
+    return zone;
+>>>>>>> upstream/18.0
 =======
     return zone;
 >>>>>>> upstream/18.0
@@ -16167,15 +16232,21 @@ const GAUGE_TITLE_PADDING_TOP = SCORECARD_GAUGE_CHART_PADDING;
 function drawGaugeChart(canvas, runtime) {
     const canvasBoundingRect = canvas.getBoundingClientRect();
 <<<<<<< HEAD
+<<<<<<< HEAD
     canvas.width = canvasBoundingRect.width;
     canvas.height = canvasBoundingRect.height;
     const ctx = canvas.getContext("2d");
 =======
+=======
+>>>>>>> upstream/18.0
     const dpr = window.devicePixelRatio || 1;
     canvas.width = dpr * canvasBoundingRect.width;
     canvas.height = dpr * canvasBoundingRect.height;
     const ctx = canvas.getContext("2d");
     ctx.scale(dpr, dpr);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const config = getGaugeRenderingConfig(canvasBoundingRect, runtime, ctx);
     drawBackground(ctx, config);
@@ -16739,15 +16810,21 @@ let ScorecardChart$1 = class ScorecardChart extends AbstractChart {
 function drawScoreChart(structure, canvas) {
     const ctx = canvas.getContext("2d");
 <<<<<<< HEAD
+<<<<<<< HEAD
     canvas.width = structure.canvas.width;
     const availableWidth = canvas.width - DEFAULT_CHART_PADDING;
     canvas.height = structure.canvas.height;
 =======
+=======
+>>>>>>> upstream/18.0
     const dpr = window.devicePixelRatio || 1;
     canvas.width = dpr * structure.canvas.width;
     canvas.height = dpr * structure.canvas.height;
     ctx.scale(dpr, dpr);
     const availableWidth = structure.canvas.width - DEFAULT_CHART_PADDING;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ctx.fillStyle = structure.canvas.backgroundColor;
     ctx.fillRect(0, 0, structure.canvas.width, structure.canvas.height);
@@ -17460,11 +17537,17 @@ class ChartJsComponent extends Component {
             }
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         useEffect(() => {
             this.currentRuntime = this.chartRuntime;
             this.updateChartJs(deepCopy(this.currentRuntime));
         }, () => [window.devicePixelRatio]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
     createChart(chartData) {
@@ -17508,7 +17591,11 @@ class ScorecardChart extends Component {
             const canvas = this.canvas.el;
             const rect = canvas.getBoundingClientRect();
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [rect.width, rect.height, this.runtime, this.canvas.el];
+=======
+            return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
+>>>>>>> upstream/18.0
 =======
             return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
 >>>>>>> upstream/18.0
@@ -17980,7 +18067,11 @@ const MINVERSE = {
         const { inverted } = invertMatrix(_matrix);
         if (!inverted) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("The matrix is not invertible."));
+=======
+            return new EvaluationError(_t("The matrix is not invertible."));
+>>>>>>> upstream/18.0
 =======
             return new EvaluationError(_t("The matrix is not invertible."));
 >>>>>>> upstream/18.0
@@ -18144,7 +18235,11 @@ const TOCOL = {
             .filter(shouldKeepValue(_ignore));
         if (result.length === 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No results for the given arguments of TOCOL."));
+=======
+            return new NotAvailableError(_t("No results for the given arguments of TOCOL."));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("No results for the given arguments of TOCOL."));
 >>>>>>> upstream/18.0
@@ -18169,7 +18264,11 @@ const TOROW = {
             .map((item) => [item]);
         if (result.length === 0 || result[0].length === 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No results for the given arguments of TOROW."));
+=======
+            return new NotAvailableError(_t("No results for the given arguments of TOROW."));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("No results for the given arguments of TOROW."));
 >>>>>>> upstream/18.0
@@ -19020,7 +19119,11 @@ const PRODUCT = {
                         }
                         if (isEvaluationError(f)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                             throw j;
+=======
+                            return j;
+>>>>>>> upstream/18.0
 =======
                             return j;
 >>>>>>> upstream/18.0
@@ -19927,7 +20030,11 @@ const MATTHEWS = {
         assertSameNumberOfElements(flatX, flatY);
         if (flatX.length === 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("[[FUNCTION_NAME]] expects non-empty ranges for both parameters."));
+=======
+            return new EvaluationError(_t("[[FUNCTION_NAME]] expects non-empty ranges for both parameters."));
+>>>>>>> upstream/18.0
 =======
             return new EvaluationError(_t("[[FUNCTION_NAME]] expects non-empty ranges for both parameters."));
 >>>>>>> upstream/18.0
@@ -20294,7 +20401,11 @@ const RANK = {
         }
         if (!found) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("Value not found in the given data."));
+=======
+            return new NotAvailableError(_t("Value not found in the given data."));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("Value not found in the given data."));
 >>>>>>> upstream/18.0
@@ -21923,7 +22034,11 @@ const FILTER = {
         }
         if (!result.length) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new NotAvailableError(_t("No match found in FILTER evaluation"));
+=======
+            return new NotAvailableError(_t("No match found in FILTER evaluation"));
+>>>>>>> upstream/18.0
 =======
             return new NotAvailableError(_t("No match found in FILTER evaluation"));
 >>>>>>> upstream/18.0
@@ -22056,7 +22171,11 @@ const UNIQUE = {
         }
         if (!result.length)
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("No unique values found"));
+=======
+            return new EvaluationError(_t("No unique values found"));
+>>>>>>> upstream/18.0
 =======
             return new EvaluationError(_t("No unique values found"));
 >>>>>>> upstream/18.0
@@ -24986,7 +25105,11 @@ const IFS = {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new EvaluationError(_t("No match."));
+=======
+        return new EvaluationError(_t("No match."));
+>>>>>>> upstream/18.0
 =======
         return new EvaluationError(_t("No match."));
 >>>>>>> upstream/18.0
@@ -25181,7 +25304,11 @@ const COLUMN = {
     compute: function (cellReference) {
         if (isEvaluationError(cellReference?.value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw cellReference;
+=======
+            return cellReference;
+>>>>>>> upstream/18.0
 =======
             return cellReference;
 >>>>>>> upstream/18.0
@@ -25203,7 +25330,11 @@ const COLUMNS = {
     compute: function (range) {
         if (isEvaluationError(range?.value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw range;
+=======
+            return range;
+>>>>>>> upstream/18.0
 =======
             return range;
 >>>>>>> upstream/18.0
@@ -25285,17 +25416,23 @@ const INDIRECT = {
         let _reference = reference?.value?.toString();
         if (!_reference) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new InvalidReferenceError(_t("Reference should be defined."));
         }
         const _useA1Notation = toBoolean(useA1Notation);
         if (!_useA1Notation) {
             throw new EvaluationError(_t("R1C1 notation is not supported."));
 =======
+=======
+>>>>>>> upstream/18.0
             return new InvalidReferenceError(_t("Reference should be defined."));
         }
         const _useA1Notation = toBoolean(useA1Notation);
         if (!_useA1Notation) {
             return new EvaluationError(_t("R1C1 notation is not supported."));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         const sheetId = this.__originSheetId;
@@ -25309,7 +25446,11 @@ const INDIRECT = {
         const range = this.getters.getRangeFromSheetXC(sheetId, _reference);
         if (range === undefined || range.invalidXc || range.invalidSheetName) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new InvalidReferenceError();
+=======
+            return new InvalidReferenceError();
+>>>>>>> upstream/18.0
 =======
             return new InvalidReferenceError();
 >>>>>>> upstream/18.0
@@ -25424,7 +25565,11 @@ const ROW = {
     compute: function (cellReference) {
         if (isEvaluationError(cellReference?.value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw cellReference;
+=======
+            return cellReference;
+>>>>>>> upstream/18.0
 =======
             return cellReference;
 >>>>>>> upstream/18.0
@@ -25446,7 +25591,11 @@ const ROWS = {
     compute: function (range) {
         if (isEvaluationError(range?.value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw range;
+=======
+            return range;
+>>>>>>> upstream/18.0
 =======
             return range;
 >>>>>>> upstream/18.0
@@ -25636,17 +25785,23 @@ const PIVOT = {
         const _rowCount = toNumber(rowCount, this.locale);
         if (_rowCount < 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new EvaluationError(_t("The number of rows must be positive."));
         }
         const _columnCount = toNumber(columnCount, this.locale);
         if (_columnCount < 0) {
             throw new EvaluationError(_t("The number of columns must be positive."));
 =======
+=======
+>>>>>>> upstream/18.0
             return new EvaluationError(_t("The number of rows must be positive."));
         }
         const _columnCount = toNumber(columnCount, this.locale);
         if (_columnCount < 0) {
             return new EvaluationError(_t("The number of columns must be positive."));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         const _includeColumnHeaders = toBoolean(includeColumnHeaders);
@@ -25716,7 +25871,11 @@ const OFFSET = {
         const _cellReference = cellReference?.value;
         if (!_cellReference) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Error("In this context, the function OFFSET needs to have a cell or range in parameter.");
+=======
+            return new EvaluationError("In this context, the function OFFSET needs to have a cell or range in parameter.");
+>>>>>>> upstream/18.0
 =======
             return new EvaluationError("In this context, the function OFFSET needs to have a cell or range in parameter.");
 >>>>>>> upstream/18.0
@@ -29526,7 +29685,11 @@ class GaugeChartComponent extends Component {
             const canvas = this.canvas.el;
             const rect = canvas.getBoundingClientRect();
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [rect.width, rect.height, this.runtime, this.canvas.el];
+=======
+            return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
+>>>>>>> upstream/18.0
 =======
             return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
 >>>>>>> upstream/18.0
@@ -38088,7 +38251,11 @@ class ColorPicker extends Component {
     setHexColor(ev) {
         // only support HEX code input
 <<<<<<< HEAD
+<<<<<<< HEAD
         const val = ev.target.value.slice(0, 7);
+=======
+        const val = ev.target.value.replace("##", "#").slice(0, 7);
+>>>>>>> upstream/18.0
 =======
         const val = ev.target.value.replace("##", "#").slice(0, 7);
 >>>>>>> upstream/18.0
@@ -48633,6 +48800,7 @@ function useCellHovered(env, gridRef, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function useTouchMove(gridRef, handler, canMoveUp) {
     let x = null;
     let y = null;
@@ -48666,6 +48834,8 @@ function useTouchMove(gridRef, handler, canMoveUp) {
     useRefListener(gridRef, "touchend", onTouchEnd);
     useRefListener(gridRef, "touchmove", onTouchMove);
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48734,10 +48904,13 @@ class GridOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         useTouchMove(this.gridOverlay, this.props.onGridMoved, () => {
             const { scrollY } = this.env.model.getters.getActiveSheetDOMScrollInfo();
             return scrollY > 0;
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50107,7 +50280,10 @@ function useGridDrawing(refName, model, canvasSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50193,6 +50369,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50833,7 +51012,10 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50856,6 +51038,9 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51625,7 +51810,10 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51659,6 +51847,9 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60716,7 +60907,10 @@ function withPivotPresentationLayer (PivotClass) {
                 return values;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             else if (rowDomain.length === this.definition.rows.length &&
                 colDomain.length &&
                 colDomain.length < this.definition.columns.length) {
@@ -60727,6 +60921,9 @@ function withPivotPresentationLayer (PivotClass) {
                 }
                 return values;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             else {
                 const tree = table.getRowTree();
@@ -61516,6 +61713,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "AUTOFILL_CELL":
                 this.autoFillMerge(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 const sheetId = this.getters.getActiveSheetId();
@@ -61535,6 +61733,8 @@ class AutofillPlugin extends UIPlugin {
                 });
                 this.autofillCF(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 this.autofillDV(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61585,6 +61785,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const autofillCellsData = [];
+>>>>>>> upstream/18.0
 =======
         const autofillCellsData = [];
 >>>>>>> upstream/18.0
@@ -61630,7 +61834,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -61678,7 +61886,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -61726,7 +61938,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -61774,7 +61990,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -61816,7 +62036,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61855,6 +62078,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61889,7 +62115,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62003,6 +62232,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62107,6 +62339,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     computeNewCell(generator, col, row, apply) {
         const { cellData, tooltip, origin } = generator.next();
         const { content, style, border, format } = cellData;
@@ -62124,6 +62357,8 @@ class AutofillPlugin extends UIPlugin {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62162,6 +62397,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62255,8 +62493,13 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autoFillMerge(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
+=======
+    autofillMerge(sheetId, data) {
+        const { originCol, originRow, col, row } = data;
+>>>>>>> upstream/18.0
 =======
     autofillMerge(sheetId, data) {
         const { originCol, originRow, col, row } = data;
@@ -62328,6 +62571,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autofillCF(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
         const cfOrigin = this.getters.getRulesByCell(sheetId, originCol, originRow);
@@ -62357,6 +62601,8 @@ class AutofillPlugin extends UIPlugin {
             sheetId,
         });
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62761,10 +63007,15 @@ function mergeTransformation(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const zone2 of executed.target) {
             if (!overlap(zone1, zone2)) {
                 target.push({ ...zone1 });
             }
+=======
+        if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
+            target.push(zone1);
+>>>>>>> upstream/18.0
 =======
         if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
             target.push(zone1);
@@ -69027,7 +69278,10 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69050,6 +69304,9 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75124,6 +75381,7 @@ export { AbstractCellClipboardHandler, AbstractChart, AbstractFigureClipboardHan
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 __info__.version = "18.0.22";
 __info__.date = "2025-04-04T08:57:27.182Z";
 __info__.hash = "89a327918";
@@ -75166,6 +75424,11 @@ __info__.hash = "aa18758cf";
 __info__.version = "18.0.24";
 __info__.date = "2025-04-18T17:35:24.596Z";
 __info__.hash = "aa18758cf";
+>>>>>>> upstream/18.0
+=======
+__info__.version = "18.0.25";
+__info__.date = "2025-04-25T08:12:48.611Z";
+__info__.hash = "24aac2c80";
 >>>>>>> upstream/18.0
 =======
 __info__.version = "18.0.25";

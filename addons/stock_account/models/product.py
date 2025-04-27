@@ -340,7 +340,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
+=======
+        return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
+>>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
 >>>>>>> upstream/18.0
@@ -903,7 +907,12 @@ will update the cost of every lot/serial number in stock."),
             candidates = candidates.with_prefetch(self.env.context.get('candidates_prefetch_ids'))
 
         if len(candidates) > 1:
+<<<<<<< HEAD
             candidates = candidates.sorted(lambda svl: (svl.create_date, svl.id))
+=======
+            # sort candidates by create_date > existing records by id > new records without origin
+            candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))
+>>>>>>> upstream/18.0
 
         value_invoiced = self.env.context.get('value_invoiced', 0)
         if 'value_invoiced' in self.env.context:

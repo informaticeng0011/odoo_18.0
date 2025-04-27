@@ -244,7 +244,11 @@ export class WebsocketWorker {
             this.debugModeByClient.set(client, debug);
             this.isDebug = [...this.debugModeByClient.values()].some(Boolean);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -270,7 +274,11 @@ export class WebsocketWorker {
             this.channelsByClient.forEach((_, key) => this.channelsByClient.set(key, []));
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0

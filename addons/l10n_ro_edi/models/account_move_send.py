@@ -48,6 +48,10 @@ class AccountMoveSend(models.AbstractModel):
         for invoice, invoice_data in invoices_data.items():
             if 'ro_edi' in invoice_data['extra_edis']:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                build_errors = None
+>>>>>>> upstream/18.0
 =======
                 build_errors = None
 >>>>>>> upstream/18.0
@@ -57,6 +61,7 @@ class AccountMoveSend(models.AbstractModel):
                     # If a document is on the invoice but the invoice's l10n_ro_edi_state is False,
                     # this means that the previously sent XML are invalid and have to be rebuilt
                     xml_data, build_errors = self.env['account.edi.xml.ubl_ro']._export_invoice(invoice)
+<<<<<<< HEAD
 <<<<<<< HEAD
                     if build_errors:
                         invoice_data['error'] = {
@@ -71,6 +76,8 @@ class AccountMoveSend(models.AbstractModel):
 
                 invoice._l10n_ro_edi_send_invoice(xml_data)
 =======
+=======
+>>>>>>> upstream/18.0
                 elif invoice.ubl_cii_xml_id:
                     xml_data = invoice.ubl_cii_xml_id.raw
                 else:
@@ -88,6 +95,9 @@ class AccountMoveSend(models.AbstractModel):
                 if self._can_commit():
                     self.env.cr.commit()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 active_document = invoice.l10n_ro_edi_document_ids.sorted()[0]
 

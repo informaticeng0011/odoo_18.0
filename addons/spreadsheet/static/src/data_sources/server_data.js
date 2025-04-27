@@ -188,13 +188,19 @@ export class ServerData {
     _getOrThrowCachedResponse(request) {
         const data = this.cache[request.key];
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (data instanceof Error || isLoadingError({ value: data })) {
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             data instanceof Error ||
             data instanceof EvaluationError ||
             isLoadingError({ value: data })
         ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             throw data;
         }

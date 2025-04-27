@@ -270,7 +270,10 @@ class Certificate(models.Model):
 
     def _get_der_certificate_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the DER bytes of the certificate.
 
         :param optional,default='encodebytes' formatting: The formatting of the returned bytes
@@ -280,6 +283,9 @@ class Certificate(models.Model):
         :return: The formatted DER bytes of the certificate
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
         cert = x509.load_pem_x509_certificate(base64.b64decode(self.with_context(bin_size=False).pem_certificate))
@@ -287,7 +293,10 @@ class Certificate(models.Model):
 
     def _get_fingerprint_bytes(self, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the fingerprint bytes of the certificate.
 
         :param optional,default='sha256' hashing_algorithm: The digest algorithm to use. Currently, only 'sha1' and 'sha256' are available.
@@ -298,6 +307,9 @@ class Certificate(models.Model):
         :return: The formatted fingerprint bytes of the certificate
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
         cert = x509.load_pem_x509_certificate(base64.b64decode(self.with_context(bin_size=False).pem_certificate))
@@ -307,7 +319,10 @@ class Certificate(models.Model):
 
     def _get_signature_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the signature bytes of the certificate.
 
         :param optional,default='encodebytes' formatting: The formatting of the returned bytes
@@ -317,6 +332,9 @@ class Certificate(models.Model):
         :return: The formatted signature bytes of the certificate
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
         cert = x509.load_pem_x509_certificate(base64.b64decode(self.with_context(bin_size=False).pem_certificate))
@@ -324,7 +342,10 @@ class Certificate(models.Model):
 
     def _get_public_key_numbers_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the certificate public key's public numbers bytes.
 
         :param optional,default='encodebytes' formatting: The formatting of the returned bytes
@@ -335,6 +356,9 @@ class Certificate(models.Model):
 
         :rtype: tuple(bytes,bytes)
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
         if self.public_key_id or self.private_key_id:
@@ -348,7 +372,10 @@ class Certificate(models.Model):
 
     def _get_public_key_bytes(self, encoding='der', formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the certificate's public key bytes.
 
         :param optional,default='der' encoding: The formatting of the returned bytes
@@ -361,6 +388,9 @@ class Certificate(models.Model):
         :return: The formatted certificate public key bytes in the corresponding format
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
         if self.public_key_id or self.private_key_id:
@@ -384,8 +414,11 @@ class Certificate(models.Model):
 
     def _sign(self, message, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Return the base64 encoded signature of message. """
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Compute and return the message's signature.
 
         :param str|bytes message: The message to sign
@@ -397,6 +430,9 @@ class Certificate(models.Model):
         :return: The formatted signature bytes of the message
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
 

@@ -318,7 +318,10 @@ export class PaletteSelectionScreen extends Component {
             const previousLogoAttachmentId = this.state.logoAttachmentId;
             const file = logoSelectInput.files[0];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if (file.size > 2500000) {
                 this.notification.add(
                     _t("The logo is too large. Please upload a logo smaller than 2.5 MB."),
@@ -329,6 +332,9 @@ export class PaletteSelectionScreen extends Component {
                 );
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const data = await getDataURLFromFile(file);
             const attachment = await rpc('/web_editor/attachment/add_data', {

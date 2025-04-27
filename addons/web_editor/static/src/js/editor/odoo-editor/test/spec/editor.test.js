@@ -5860,8 +5860,11 @@ X[]
                                 </table>`),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             stepFunction: async editor => {
@@ -5871,6 +5874,9 @@ X[]
                                 editor.execCommand('applyColor', 'aquamarine', 'color');
                             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

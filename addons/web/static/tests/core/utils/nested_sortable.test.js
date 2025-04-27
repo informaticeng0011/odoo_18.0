@@ -976,7 +976,11 @@ test("shouldn't drag above max level", async () => {
                     expect(element.parentElement.closest("#parent")).toBe(null);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     expect(".o_nested_sortable_placeholder.d-none").toHaveCount(1);
+=======
+                    expect(element.previousSibling).toHaveClass("o_nested_sortable_placeholder");
+>>>>>>> upstream/18.0
 =======
                     expect(element.previousSibling).toHaveClass("o_nested_sortable_placeholder");
 >>>>>>> upstream/18.0

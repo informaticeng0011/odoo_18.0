@@ -5,6 +5,10 @@ from unittest.mock import patch
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -160,7 +164,10 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Check that the certification can be printed without access to the participant's company
@@ -184,6 +191,9 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
             ._render_qweb_pdf('survey.certification_report_view', res_ids=user_inputs.ids)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

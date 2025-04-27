@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -21,7 +25,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
@@ -44,6 +52,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"                {{ (object.company_id.name + ': Rádi vás informujeme, že vaše objednávka č. ' + object.origin + ' byla odeslána.' if object.origin else object.company_id.name + ': Rádi vás informujeme, že vaše objednávka byla odeslána.') + (' Vaše referenční číslo pro sledování je ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
+"            "
+>>>>>>> upstream/18.0
 =======
 "\n"
 "                {{ (object.company_id.name + ': Rádi vás informujeme, že vaše objednávka č. ' + object.origin + ' byla odeslána.' if object.origin else object.company_id.name + ': Rádi vás informujeme, že vaše objednávka byla odeslána.') + (' Vaše referenční číslo pro sledování je ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"

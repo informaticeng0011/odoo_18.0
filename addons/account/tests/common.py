@@ -887,7 +887,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _jsonify_country(self, country):
@@ -897,6 +900,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -952,6 +958,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             'tax_calculation_rounding_method': company.tax_calculation_rounding_method,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0

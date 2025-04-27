@@ -5,6 +5,10 @@ import werkzeug
 from odoo.http import Controller, request, route
 from odoo.osv.expression import AND, OR
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tools.parser import domain_eval
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 >>>>>>> upstream/18.0
@@ -48,7 +52,11 @@ class ModelPageController(Controller):
             raise werkzeug.exceptions.Forbidden()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         rec_domain = ast.literal_eval(page.record_domain or "[]")
+=======
+        rec_domain = domain_eval(page.record_domain or "[]")
+>>>>>>> upstream/18.0
 =======
         rec_domain = domain_eval(page.record_domain or "[]")
 >>>>>>> upstream/18.0

@@ -130,8 +130,11 @@ class Key(models.Model):
 
     def _sign(self, message, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Return the base64 encoded signature of message. """
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Compute and return the message's signature.
 
         :param str|bytes message: The message to sign
@@ -143,6 +146,9 @@ class Key(models.Model):
         :return: The formatted signature bytes of the message
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
 
@@ -163,7 +169,10 @@ class Key(models.Model):
 
     def _get_public_key_numbers_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the public key's public numbers bytes.
 
         :param optional,default='encodebytes' formatting: The formatting of the returned bytes
@@ -173,6 +182,9 @@ class Key(models.Model):
         :return: A tuple containing formatted public number bytes of the public key
         :rtype: tuple(bytes,bytes)
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
 
@@ -183,7 +195,10 @@ class Key(models.Model):
 
     def _get_public_key_bytes(self, encoding='der', formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the public key bytes.
 
         :param optional,default='der' encoding: The formatting of the returned bytes
@@ -196,6 +211,9 @@ class Key(models.Model):
         :return: The formatted public key bytes in the corresponding format
         :rtype: bytes
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
 
@@ -215,7 +233,10 @@ class Key(models.Model):
 
     def _decrypt(self, message, hashing_algorithm='sha256'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Decrypt the given message using the provided digest.
 
         :param str|bytes message: The message to encode
@@ -223,6 +244,9 @@ class Key(models.Model):
         :return: The decrypted text
         :rtype: str
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.ensure_one()
 
@@ -246,6 +270,7 @@ class Key(models.Model):
                 label=None
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
 
     @api.model
@@ -255,6 +280,8 @@ class Key(models.Model):
         if not isinstance(message, bytes):
             message = message.encode('utf-8')
 =======
+=======
+>>>>>>> upstream/18.0
         ).decode()
 
     @api.model
@@ -279,6 +306,9 @@ class Key(models.Model):
             pem_key = pem_key.encode('utf-8')
         if pwd and not isinstance(pwd, bytes):
             pwd = pwd.encode('utf-8')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if hashing_algorithm not in STR_TO_HASH:
@@ -308,7 +338,10 @@ class Key(models.Model):
     @api.model
     def _numbers_public_key_bytes_with_key(self, pem_key, formatting='encodebytes'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Get the given public key's public numbers bytes.
 
         :param str|bytes pem_key: A base64 encoded public key in the PEM format
@@ -322,6 +355,9 @@ class Key(models.Model):
         if not isinstance(pem_key, bytes):
             pem_key = pem_key.encode('utf-8')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try:
             public_key = serialization.load_pem_public_key(base64.b64decode(pem_key))
@@ -345,8 +381,11 @@ class Key(models.Model):
     @api.model
     def _generate_ec_private_key(self, company, name='id_ec', curve='SECP256R1'):
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Generate an elliptic curve private key.
 
         :param res.company company: A company record
@@ -355,6 +394,9 @@ class Key(models.Model):
         :return: A certificate.key record
         :rtype: certificate.key
         '''
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if curve not in STR_TO_CURVE:
             raise UserError(f"Unsupported curve algorithm '{curve}'. Currently supported: SECP256R1.")
@@ -373,7 +415,10 @@ class Key(models.Model):
     @api.model
     def _generate_rsa_private_key(self, company, name='id_rsa', public_exponent=65537, key_size=2048):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         ''' Generate an RSA private key.
 
         :param res.company company: A company record
@@ -387,6 +432,9 @@ class Key(models.Model):
             raise UserError(_("The public exponent should be 65537 (or 3 for legacy purposes)."))
         if key_size < 512:
             raise UserError(_("The key size should be at least 512 bytes."))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         private_key = rsa.generate_private_key(

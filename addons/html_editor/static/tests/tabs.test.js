@@ -63,7 +63,10 @@ describe("insert tabulation", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     test("tab should not be colored when inserting tab at the beginning of a text having background color", async () => {
         await testTabulation({
             contentBefore: `<p><font style="background-color: rgb(255,255,0);">[]ab</font></p>`,
@@ -154,6 +157,9 @@ describe("insert tabulation", () => {
         });
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     test("should insert tab characters at the beginning of two separate paragraphs", async () => {
         await testTabulation({

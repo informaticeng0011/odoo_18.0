@@ -266,7 +266,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         self.assertFalse(timesheets.exists(), 'Timesheet should be deleted')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -296,6 +299,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
         self.assertEqual(timesheet.unit_amount, 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

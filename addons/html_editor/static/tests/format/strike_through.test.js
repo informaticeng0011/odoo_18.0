@@ -1,10 +1,13 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
 import { s, span } from "../_helpers/tags";
 import { insertText, strikeThrough, tripleClick } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 import { tick } from "@odoo/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent, setSelection } from "../_helpers/selection";
@@ -15,6 +18,9 @@ import {
     tripleClick,
     simulateArrowKeyPress,
 } from "../_helpers/user_actions";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { unformat } from "../_helpers/format";
 
@@ -228,8 +234,12 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
                     </tr>
                 </tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -254,11 +264,14 @@ test("should make a few characters strikeThrough inside table (strikeThrough)", 
                     </tr>
                 </tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
     });
 });
 =======
+=======
+>>>>>>> upstream/18.0
             </table>`),
     });
 });
@@ -274,4 +287,7 @@ test("should remove empty strikeThrough when changing selection", async () => {
     await tick(); // await selectionchange
     expect(getContent(el)).toBe(`<p>a[]bcd</p>`);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

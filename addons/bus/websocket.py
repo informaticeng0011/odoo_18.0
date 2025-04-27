@@ -891,7 +891,11 @@ class WebsocketConnectionHandler:
     # every time `websocket_worker.js` is modified to force the browser to fetch
     # the new worker bundle.
 <<<<<<< HEAD
+<<<<<<< HEAD
     _VERSION = "18.0-3"
+=======
+    _VERSION = "18.0-4"
+>>>>>>> upstream/18.0
 =======
     _VERSION = "18.0-4"
 >>>>>>> upstream/18.0

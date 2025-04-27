@@ -105,7 +105,10 @@ class TestEmployee(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # test unarchiving on an already active employee does not create duplicate public leaves
@@ -117,6 +120,9 @@ class TestEmployee(TransactionCase):
         self.assertEqual(len(timesheet), 1, 'We should not have created duplicate public holiday leaves')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

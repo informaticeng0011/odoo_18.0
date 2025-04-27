@@ -214,7 +214,10 @@ class TestPrintCheck(AccountTestInvoicingCommon):
         self.assertEqual(action_window['context']['default_next_check_number'], '2147483649', "Check number should have been incremented without error.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -250,6 +253,9 @@ class TestPrintCheck(AccountTestInvoicingCommon):
         action_window = payment_2.print_checks()
         self.assertTrue(action_window)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

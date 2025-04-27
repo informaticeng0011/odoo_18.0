@@ -264,6 +264,7 @@ export class ColorPlugin extends Plugin {
                             node,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             '[style*="background-image"]'
                         );
                         const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
@@ -272,11 +273,16 @@ export class ColorPlugin extends Plugin {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             'font[style*="background-image"], span[style*="background-image"]'
                         );
                         const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
                         const splitnode = isGradientBeingUpdated ? closestGradientEl : font;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

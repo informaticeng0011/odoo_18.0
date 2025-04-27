@@ -889,7 +889,10 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -940,6 +943,7 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -952,6 +956,8 @@ class TestRepair(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -973,8 +979,11 @@ class TestRepair(common.TransactionCase):
                 'company_id': company.id,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_add_product_from_catalog(self):
         """Check that only consumable products are available in the catalog."""
@@ -984,4 +993,7 @@ class TestRepair(common.TransactionCase):
         self.assertEqual(self.product_consu_order_repair.type, 'consu')
         self.assertTrue(self.product_consu_order_repair.filtered_domain(domain))
         self.assertFalse(self.product_service_order_repair.filtered_domain(domain))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

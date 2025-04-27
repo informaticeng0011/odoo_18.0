@@ -1452,7 +1452,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         self.assertEqual(reversed_move.partner_id, partner)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1466,6 +1469,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         transaction = self.create_bank_transaction(1, '2020-01-10', journal=self.bank_journal_1)
         assert transaction.date == transaction.move_id.date == fields.Date.from_string('2020-01-10')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

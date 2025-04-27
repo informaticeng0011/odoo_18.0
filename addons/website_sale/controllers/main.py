@@ -1660,7 +1660,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
             self._include_country_and_state_in_address(shipping_address)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0

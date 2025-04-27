@@ -1,5 +1,9 @@
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -8,8 +12,11 @@ import { setupEditor, testEditor } from "../_helpers/editor";
 import { getContent } from "../_helpers/selection";
 import { em, s, span, u } from "../_helpers/tags";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { insertText, italic, tripleClick, underline } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     insertText,
     italic,
@@ -17,6 +24,9 @@ import {
     tripleClick,
     underline,
 } from "../_helpers/user_actions";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { unformat } from "../_helpers/format";
 
@@ -148,8 +158,12 @@ test("should make a few characters underline inside table (underline)", async ()
                     </tr>
                 </tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -174,8 +188,12 @@ test("should make a few characters underline inside table (underline)", async ()
                     </tr>
                 </tbody>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -360,7 +378,10 @@ describe("with italic", () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("should remove empty underline tag when changing selection", async () => {
         const { editor, el } = await setupEditor("<p>ab[]cd</p>");
@@ -373,5 +394,8 @@ describe("with italic", () => {
         await tick(); // await selectionchange
         expect(getContent(el)).toBe(`<p>a[]bcd</p>`);
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

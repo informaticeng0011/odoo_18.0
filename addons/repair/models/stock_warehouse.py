@@ -28,7 +28,11 @@ class StockWarehouse(models.Model):
         data, next_sequence = super(StockWarehouse, self)._get_picking_type_create_values(max_sequence)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         prod_location = self.env['stock.location'].search([('usage', '=', 'production'), ('company_id', '=', self.company_id.id)], limit=1)
+=======
+        prod_location = self._get_production_location()
+>>>>>>> upstream/18.0
 =======
         prod_location = self._get_production_location()
 >>>>>>> upstream/18.0

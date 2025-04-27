@@ -244,9 +244,12 @@ class PurchaseOrder(models.Model):
         self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.dest_address_id and self.picking_type_id.code == 'dropship':
             return self.dest_address_id.property_stock_customer
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if self.picking_type_id.code == 'dropship':
@@ -254,6 +257,9 @@ class PurchaseOrder(models.Model):
                 return self.dest_address_id.property_stock_customer
             return self.picking_type_id.default_location_dest_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

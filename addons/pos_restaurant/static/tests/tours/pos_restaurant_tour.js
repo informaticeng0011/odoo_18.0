@@ -241,10 +241,13 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
             FloorScreen.clickTable("5"),
             ProductScreen.clickDisplayedProduct("Coca-Cola", true, "1.0"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickOrderButton(),
             ProductScreen.orderlinesHaveNoChange(),
             Chrome.clickPlanButton(),
 =======
+=======
+>>>>>>> upstream/18.0
             ProductScreen.orderlineIsToOrder("Coca-Cola"),
             ProductScreen.clickOrderButton(),
             Chrome.waitRequest(),
@@ -258,6 +261,9 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
             FloorScreen.hasTable("2"),
             FloorScreen.hasTable("4"),
             FloorScreen.hasTable("5"),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ].flat(),
 });
@@ -672,6 +678,12 @@ registry.category("web_tour.tours").add("LeaveResidualOrder", {
             ProductScreen.clickDisplayedProduct("Coca-Cola"),
             Chrome.clickPlanButton(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            FloorScreen.hasTable("2"),
+            FloorScreen.hasTable("4"),
+            FloorScreen.hasTable("5"),
+>>>>>>> upstream/18.0
 =======
             FloorScreen.hasTable("2"),
             FloorScreen.hasTable("4"),
@@ -685,8 +697,11 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
         [
             Chrome.startPoS(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             FloorScreen.clickTable("5"),
 =======
+=======
+>>>>>>> upstream/18.0
             FloorScreen.orderCountSyncedInTableIs("5", "1"),
             FloorScreen.clickTable("5"),
             Order.hasLine({
@@ -694,6 +709,9 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
                 quantity: 1,
                 withClass: ":eq(0)",
             }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ProductScreen.totalAmountIs("2.20"),
             ProductScreen.clickPayButton(),

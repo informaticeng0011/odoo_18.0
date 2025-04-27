@@ -210,9 +210,12 @@ class ResourceMixin(models.AbstractModel):
                 record_result = defaultdict(float)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for start, stop, _meta in intervals:
                     record_result[start.date()] += (stop - start).total_seconds() / 3600
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 for start, stop, meta in intervals:
@@ -221,6 +224,9 @@ class ResourceMixin(models.AbstractModel):
                     else:
                         record_result[start.date()] += (stop - start).total_seconds() / 3600
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

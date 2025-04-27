@@ -7,6 +7,10 @@ import {
     isContentEditable,
     isEmptyTextNode,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isEmptyBlock,
+>>>>>>> upstream/18.0
 =======
     isEmptyBlock,
 >>>>>>> upstream/18.0
@@ -18,8 +22,11 @@ import {
     previousLeaf,
 } from "../utils/dom_info";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { childNodes, closestElement, descendants, selectElements } from "../utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     childNodes,
     closestElement,
@@ -27,6 +34,9 @@ import {
     selectElements,
     findFurthest,
 } from "../utils/dom_traversal";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { FONT_SIZE_CLASSES, formatsSpecs } from "../utils/formatting";
 import { boundariesIn, boundariesOut, DIRECTIONS, leftPos, rightPos } from "../utils/position";
@@ -155,6 +165,10 @@ export class FormatPlugin extends Plugin {
         clean_for_save_handlers: this.cleanForSave.bind(this),
         normalize_handlers: this.normalize.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
 >>>>>>> upstream/18.0
@@ -422,7 +436,10 @@ export class FormatPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     removeEmptyInlineElement(selectionData) {
         const { anchorNode } = selectionData.editableSelection;
         const blockEl = closestBlock(anchorNode);
@@ -446,6 +463,9 @@ export class FormatPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     cleanElement(element, { preserveSelection }) {
         delete element.dataset.oeZwsEmptyInline;
