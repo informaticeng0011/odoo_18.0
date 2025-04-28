@@ -16,8 +16,11 @@ import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52,6 +55,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98,7 +104,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -576,6 +585,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -610,6 +623,7 @@ export class PosStore extends Reactive {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -712,6 +726,9 @@ export class PosStore extends Reactive {
         if (data && data.length > 0 && data[0].model.modelName === "product.product") {
             this._loadMissingPricelistItems(products);
         }
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
 =======
         computeProductPricelistCache(this, data);
 >>>>>>> upstream/18.0
@@ -899,7 +916,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1256,7 +1276,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.user.role = this.user.raw.role;
+=======
+        this.user._role = this.user.raw.role;
+>>>>>>> upstream/18.0
 =======
         this.user._role = this.user.raw.role;
 >>>>>>> upstream/18.0
@@ -1519,7 +1543,12 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.clearPendingOrder();
+=======
+            // Remove only synced orders from the pending orders
+            orders.forEach((o) => this.removePendingOrder(o));
+>>>>>>> upstream/18.0
 =======
             // Remove only synced orders from the pending orders
             orders.forEach((o) => this.removePendingOrder(o));
@@ -2432,6 +2461,14 @@ export class PosStore extends Reactive {
                 return false;
             }
         }
+<<<<<<< HEAD
+=======
+        payment.qrPaymentData = {
+            name: payment.payment_method_id.name,
+            amount: this.env.utils.formatCurrency(payment.amount),
+            qrCode: qr,
+        };
+>>>>>>> upstream/18.0
         return await ask(
             this.env.services.dialog,
             {
@@ -2442,7 +2479,14 @@ export class PosStore extends Reactive {
             },
             {},
             QRPopup
+<<<<<<< HEAD
         );
+=======
+        ).then((result) => {
+            payment.qrPaymentData = undefined;
+            return result;
+        });
+>>>>>>> upstream/18.0
     }
 
     get isTicketScreenShown() {

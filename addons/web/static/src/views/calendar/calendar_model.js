@@ -240,6 +240,12 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getAllDayDates(start, end) {
+        return [start.set({ hours: 7 }), end.set({ hours: 19 })];
+    }
+>>>>>>> upstream/18.0
 =======
     getAllDayDates(start, end) {
         return [start.set({ hours: 7 }), end.set({ hours: 19 })];
@@ -324,8 +330,12 @@ export class CalendarModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 start = start.set({ hours: 7 });
                 end = end.set({ hours: 19 });
+=======
+                [start, end] = this.getAllDayDates(start, end);
+>>>>>>> upstream/18.0
 =======
                 [start, end] = this.getAllDayDates(start, end);
 >>>>>>> upstream/18.0

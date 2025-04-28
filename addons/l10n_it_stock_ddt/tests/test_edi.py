@@ -105,6 +105,10 @@ class TestItEdiDDT(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.user.groups_id |= self.env.ref("sales_team.group_sale_salesman")
+>>>>>>> upstream/18.0
 =======
         self.env.user.groups_id |= self.env.ref("sales_team.group_sale_salesman")
 >>>>>>> upstream/18.0

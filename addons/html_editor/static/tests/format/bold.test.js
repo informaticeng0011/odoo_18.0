@@ -7,8 +7,13 @@ import { unformat } from "../_helpers/format";
 import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BOLD_TAGS, notStrong, span, strong } from "../_helpers/tags";
 import { bold, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
+=======
+import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
+import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
 import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
@@ -349,7 +354,10 @@ describe("inside container font-weight: 500 and strong being strong-weight: 500"
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -390,6 +398,9 @@ test("should not remove empty bold tag in an empty block when changing selection
     expect(getContent(el)).toBe(`<p>[]abcd</p><p>${strong("\u200B", "first")}</p>`);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1453,7 +1453,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1470,6 +1473,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         assert transaction.date == transaction.move_id.date == fields.Date.from_string('2020-01-10')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

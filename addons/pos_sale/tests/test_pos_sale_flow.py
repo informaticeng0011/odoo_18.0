@@ -1206,7 +1206,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1233,6 +1236,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_down_payment_displayed', login="accountman")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

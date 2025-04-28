@@ -251,7 +251,10 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -294,6 +297,9 @@ class TestWorkEntryLeave(TestWorkEntryHolidaysBase):
                                                         "be number of days * hours per day")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

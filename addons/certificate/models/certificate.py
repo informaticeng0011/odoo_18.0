@@ -271,7 +271,10 @@ class Certificate(models.Model):
     def _get_der_certificate_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the DER bytes of the certificate.
@@ -284,6 +287,9 @@ class Certificate(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -294,7 +300,10 @@ class Certificate(models.Model):
     def _get_fingerprint_bytes(self, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the fingerprint bytes of the certificate.
@@ -308,6 +317,9 @@ class Certificate(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320,7 +332,10 @@ class Certificate(models.Model):
     def _get_signature_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the signature bytes of the certificate.
@@ -333,6 +348,9 @@ class Certificate(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -343,7 +361,10 @@ class Certificate(models.Model):
     def _get_public_key_numbers_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the certificate public key's public numbers bytes.
@@ -357,6 +378,9 @@ class Certificate(models.Model):
         :rtype: tuple(bytes,bytes)
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,7 +397,10 @@ class Certificate(models.Model):
     def _get_public_key_bytes(self, encoding='der', formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the certificate's public key bytes.
@@ -389,6 +416,9 @@ class Certificate(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -415,8 +445,11 @@ class Certificate(models.Model):
     def _sign(self, message, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Return the base64 encoded signature of message. """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Compute and return the message's signature.
@@ -431,6 +464,9 @@ class Certificate(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

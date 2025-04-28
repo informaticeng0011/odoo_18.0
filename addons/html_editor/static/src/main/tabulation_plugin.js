@@ -1,11 +1,14 @@
 import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestBlock } from "@html_editor/utils/blocks";
 import { splitTextNode } from "@html_editor/utils/dom";
 import { isEditorTab, isTextNode, isZWS } from "@html_editor/utils/dom_info";
 import { descendants, getAdjacentPreviousSiblings } from "@html_editor/utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { closestBlock, isBlock } from "@html_editor/utils/blocks";
@@ -18,6 +21,9 @@ import {
     firstLeaf,
 } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101,8 +107,11 @@ export class TabulationPlugin extends Plugin {
     insertTab() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.dom.insert(parseHTML(this.document, tabHtml));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const selection = this.dependencies.selection.getEditableSelection();
@@ -117,6 +126,9 @@ export class TabulationPlugin extends Plugin {
             this.dependencies.dom.insert(tab);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

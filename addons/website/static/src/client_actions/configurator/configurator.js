@@ -319,7 +319,10 @@ export class PaletteSelectionScreen extends Component {
             const file = logoSelectInput.files[0];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (file.size > 2500000) {
@@ -333,6 +336,9 @@ export class PaletteSelectionScreen extends Component {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

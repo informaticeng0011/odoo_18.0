@@ -131,8 +131,11 @@ class Key(models.Model):
     def _sign(self, message, hashing_algorithm='sha256', formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Return the base64 encoded signature of message. """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Compute and return the message's signature.
@@ -147,6 +150,9 @@ class Key(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -170,7 +176,10 @@ class Key(models.Model):
     def _get_public_key_numbers_bytes(self, formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the public key's public numbers bytes.
@@ -183,6 +192,9 @@ class Key(models.Model):
         :rtype: tuple(bytes,bytes)
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -196,7 +208,10 @@ class Key(models.Model):
     def _get_public_key_bytes(self, encoding='der', formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the public key bytes.
@@ -212,6 +227,9 @@ class Key(models.Model):
         :rtype: bytes
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -234,7 +252,10 @@ class Key(models.Model):
     def _decrypt(self, message, hashing_algorithm='sha256'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Decrypt the given message using the provided digest.
@@ -245,6 +266,9 @@ class Key(models.Model):
         :rtype: str
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -271,6 +295,7 @@ class Key(models.Model):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
 
     @api.model
@@ -280,6 +305,8 @@ class Key(models.Model):
         if not isinstance(message, bytes):
             message = message.encode('utf-8')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ).decode()
@@ -307,6 +334,9 @@ class Key(models.Model):
         if pwd and not isinstance(pwd, bytes):
             pwd = pwd.encode('utf-8')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -339,7 +369,10 @@ class Key(models.Model):
     def _numbers_public_key_bytes_with_key(self, pem_key, formatting='encodebytes'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Get the given public key's public numbers bytes.
@@ -356,6 +389,9 @@ class Key(models.Model):
             pem_key = pem_key.encode('utf-8')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -382,8 +418,11 @@ class Key(models.Model):
     def _generate_ec_private_key(self, company, name='id_ec', curve='SECP256R1'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Generate an elliptic curve private key.
@@ -395,6 +434,9 @@ class Key(models.Model):
         :rtype: certificate.key
         '''
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -416,7 +458,10 @@ class Key(models.Model):
     def _generate_rsa_private_key(self, company, name='id_rsa', public_exponent=65537, key_size=2048):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         ''' Generate an RSA private key.
@@ -433,6 +478,9 @@ class Key(models.Model):
         if key_size < 512:
             raise UserError(_("The key size should be at least 512 bytes."))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

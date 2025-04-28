@@ -191,7 +191,11 @@ msgid "Key bytes in PEM format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وحدات البايت الرئيسية بتنسيق PEM "
+>>>>>>> upstream/18.0
 =======
 msgstr "وحدات البايت الرئيسية بتنسيق PEM "
 >>>>>>> upstream/18.0
@@ -285,7 +289,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لا يوجد مفتاح خاص مرتبط بالشهادة، فهو مطلوب لتوقيع المستندات. "
+>>>>>>> upstream/18.0
 =======
 msgstr "لا يوجد مفتاح خاص مرتبط بالشهادة، فهو مطلوب لتوقيع المستندات. "
 >>>>>>> upstream/18.0
@@ -415,12 +423,30 @@ msgstr "التاريخ الذي تبدأ فيه مدة سريان الشهادة
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
+=======
+msgid "The key size should be at least 512 bytes."
+msgstr ""
+
+#. module: certificate
+#. odoo-python
+#: code:addons/certificate/models/key.py:0
+>>>>>>> upstream/18.0
 msgid "The private key could not be loaded."
 msgstr "تعذر تحميل المفتاح الخاص. "
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
+=======
+msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+msgstr ""
+
+#. module: certificate
+#. odoo-python
+#: code:addons/certificate/models/key.py:0
+>>>>>>> upstream/18.0
 msgid "The public key could not be loaded."
 msgstr "تعذر تحميل المفتاح العام. "
 
@@ -444,7 +470,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذر تحميل هذه الشهادة. إما أن المحتوى أو كلمة المرور خاطئة. "
+>>>>>>> upstream/18.0
 =======
 msgstr "تعذر تحميل هذه الشهادة. إما أن المحتوى أو كلمة المرور خاطئة. "
 >>>>>>> upstream/18.0
@@ -470,7 +500,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تعذر تحميل هذا المفتاح. إما أن المحتوى أو كلمة المرور خاطئة. "
+>>>>>>> upstream/18.0
 =======
 msgstr "تعذر تحميل هذا المفتاح. إما أن المحتوى أو كلمة المرور خاطئة. "
 >>>>>>> upstream/18.0
@@ -504,6 +538,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"خوارزمية التشفير غير المتماثل غير مدعومة '%s'. المدعومة حالياً للتوقيع: EC و"
+" RSA. "
+>>>>>>> upstream/18.0
 =======
 "خوارزمية التشفير غير المتماثل غير مدعومة '%s'. المدعومة حالياً للتوقيع: EC و"
 " RSA. "
@@ -548,6 +587,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"يُستخدم لتعيين مفتاح عام في حال كان المفتاح العام الموجود في الشهادة خطأً.\n"
+"                عند تعيين مفتاح عام بهذه الطريقة، سيتم استخدامه عوضاً عن المفتاح العام الموجود في الشهادة.\n"
+"             "
+>>>>>>> upstream/18.0
 =======
 "يُستخدم لتعيين مفتاح عام في حال كان المفتاح العام الموجود في الشهادة خطأً.\n"
 "                عند تعيين مفتاح عام بهذه الطريقة، سيتم استخدامه عوضاً عن المفتاح العام الموجود في الشهادة.\n"

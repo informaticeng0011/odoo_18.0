@@ -189,8 +189,11 @@ export class ServerData {
         const data = this.cache[request.key];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (data instanceof Error || isLoadingError({ value: data })) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -199,6 +202,9 @@ export class ServerData {
             isLoadingError({ value: data })
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

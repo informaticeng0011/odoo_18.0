@@ -64,7 +64,10 @@ describe("insert tabulation", () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     test("tab should not be colored when inserting tab at the beginning of a text having background color", async () => {
@@ -158,6 +161,9 @@ describe("insert tabulation", () => {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

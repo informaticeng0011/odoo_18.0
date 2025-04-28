@@ -7044,6 +7044,12 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
 =======
     def __deepcopy__(self, memo):
         return self
