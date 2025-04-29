@@ -2,6 +2,10 @@
 
 import ast
 import logging
+<<<<<<< HEAD
+=======
+import re
+>>>>>>> upstream/18.0
 from collections import defaultdict
 from datetime import date
 from http import HTTPStatus
@@ -263,7 +267,13 @@ def get_default_domain(model, action, context, eval_context):
     for ir_filter in model.env['ir.filters'].get_filters(model._name, action._origin.id):
         if ir_filter['is_default']:
             # user filters, static parsing only
+<<<<<<< HEAD
             default_domain = ast.literal_eval(ir_filter['domain'])
+=======
+            domain_str = ir_filter['domain']
+            domain_str = re.sub(r'\buid\b', str(model.env.uid), domain_str)
+            default_domain = ast.literal_eval(domain_str)
+>>>>>>> upstream/18.0
             break
     else:
         def filters_from_context():

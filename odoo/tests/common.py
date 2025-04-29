@@ -43,6 +43,10 @@ from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -353,7 +357,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373,6 +380,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -838,6 +848,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         def reset_http_key():
             self.http_request_key = None
@@ -851,6 +862,8 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -883,6 +896,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -907,7 +923,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -930,6 +949,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -954,7 +976,11 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error(
+=======
+            _logger.runbot(
+>>>>>>> upstream/18.0
 =======
             _logger.runbot(
 >>>>>>> upstream/18.0
@@ -1112,7 +1138,12 @@ class TransactionCase(BaseCase):
             if not cls.registry.ready:
                 _logger.info('Skipping signal changes during tests')
                 return
+<<<<<<< HEAD
             _logger.info('Simulating signal changes during tests')
+=======
+            if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
+                _logger.info('Simulating signal changes during tests')
+>>>>>>> upstream/18.0
             if cls.registry.registry_invalidated:
                 cls.registry.registry_sequence += 1
             for cache_name in cls.registry.cache_invalidated or ():
@@ -1184,7 +1215,11 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(_reset, callback, deque(callback._funcs), dict(callback.data))
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
@@ -1335,6 +1370,10 @@ class ChromeBrowser:
         # maps frame ids to callbacks
         self._frames = {}
         self._handlers = {
+<<<<<<< HEAD
+=======
+            'Fetch.requestPaused': self._handle_request_paused,
+>>>>>>> upstream/18.0
             'Runtime.consoleAPICalled': self._handle_console,
             'Runtime.exceptionThrown': self._handle_exception,
             'Page.frameStoppedLoading': self._handle_frame_stopped_loading,
@@ -1348,6 +1387,10 @@ class ChromeBrowser:
         self._receiver.start()
         self._logger.info('Enable chrome headless console log notification')
         self._websocket_send('Runtime.enable')
+<<<<<<< HEAD
+=======
+        self._websocket_request('Fetch.enable')
+>>>>>>> upstream/18.0
         self._logger.info('Chrome headless enable page notifications')
         self._websocket_send('Page.enable')
         self._websocket_send('Page.setDownloadBehavior', params={
@@ -1403,7 +1446,11 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._websocket_send('Browser.close')
+=======
+            self._websocket_request('Browser.close')
+>>>>>>> upstream/18.0
 =======
             self._websocket_request('Browser.close')
 >>>>>>> upstream/18.0
@@ -1433,6 +1480,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.chrome.wait(15)
+>>>>>>> upstream/18.0
 =======
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
@@ -1709,6 +1760,21 @@ class ChromeBrowser:
         self.ws.send(json.dumps(payload))
         return result
 
+<<<<<<< HEAD
+=======
+    def _handle_request_paused(self, **params):
+        url = params['request']['url']
+        try:
+            if url.startswith(f'http://{HOST}'):
+                self._websocket_send('Fetch.continueRequest', params={'requestId': params['requestId']})
+            else:
+                response = self.test_case.fetch_proxy(url)
+                self._websocket_send('Fetch.fulfillRequest', params={'requestId': params['requestId'], **response})
+        except (BrokenPipeError, ConnectionResetError):
+            # this can happen if the browser is closed. Just ignore it.
+            _logger.info("Websocket error while handling request %s", params['request']['url'])
+
+>>>>>>> upstream/18.0
     def _handle_console(self, type, args=None, stackTrace=None, **kw): # pylint: disable=redefined-builtin
         # console formatting differs somewhat from Python's, if args[0] has
         # format modifiers that many of args[1:] get formatted in, missing
@@ -2149,8 +2215,11 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().request(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2174,6 +2243,9 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2244,6 +2316,12 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
+        # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
+        self.addCleanup(self._wait_remaining_requests)
+>>>>>>> upstream/18.0
 =======
         # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
         # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
@@ -2394,6 +2472,38 @@ class HttpCase(TransactionCase):
 
         return session
 
+<<<<<<< HEAD
+=======
+    def fetch_proxy(self, url):
+        """
+            This method is called every time a request is made from the chrome browser outside the local network
+            Returns a response that will be sent to the browser to simulate the external request.
+        """
+
+        if 'https://fonts.googleapis.com/css' in url:
+            _logger.info('External chrome request during tests: Return empty file for %s', url)
+            return self.make_fetch_proxy_response('')  # return empty css file, we don't care
+
+        _logger.info('External chrome request during tests: returning 404 for %s', url)
+        return {
+                'body': '',
+                'responseCode': 404,
+                'responseHeaders': [],
+            }
+
+    def make_fetch_proxy_response(self, content, code=200):
+        if isinstance(content, str):
+            content = content.encode()
+        return {
+                'body': base64.b64encode(content).decode(),
+                'responseCode': code,
+                'responseHeaders': [
+                    {'name': 'access-control-allow-origin', 'value': '*'},
+                    {'name': 'cache-control', 'value': 'public, max-age=10000'},
+                ],
+            }
+
+>>>>>>> upstream/18.0
     def browser_js(self, url_path, code, ready='', login=None, timeout=60, cookies=None, error_checker=None, watch=False, success_signal=DEFAULT_SUCCESS_SIGNAL, debug=False, cpu_throttling=None, **kw):
         """ Test JavaScript code running in the browser.
 
@@ -2417,7 +2527,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -2462,7 +2576,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0
@@ -2519,6 +2637,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.http_request_strict_check = True
+>>>>>>> upstream/18.0
 =======
             self.http_request_strict_check = True
 >>>>>>> upstream/18.0

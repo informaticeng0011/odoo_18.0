@@ -16,6 +16,7 @@ import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 >>>>>>> upstream/18.0
@@ -49,10 +50,15 @@ import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 =======
+=======
+>>>>>>> upstream/18.0
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 import { toRaw } from "@odoo/owl";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const { DateTime } = luxon;
@@ -271,6 +277,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
 =======
         remaining = roundCurrency(remaining, this.currency);
 >>>>>>> upstream/18.0
@@ -1177,6 +1187,10 @@ export class PosOrder extends Base {
             change: this.get_change() && formatCurrency(this.get_change()),
             generalNote: this.general_note || "",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
+>>>>>>> upstream/18.0
 =======
             qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
 >>>>>>> upstream/18.0

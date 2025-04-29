@@ -6,6 +6,7 @@ import { patch } from "@web/core/utils/patch";
 const { DateTime } = luxon;
 
 patch(Persona.prototype, {
+<<<<<<< HEAD
     updateImStatus(newStatus) {
         if (newStatus == "online" && this.out_of_office_date_end) {
             this.im_status = "leave_online";
@@ -18,6 +19,8 @@ patch(Persona.prototype, {
         }
     },
 
+=======
+>>>>>>> upstream/18.0
     get outOfOfficeText() {
         if (!this.out_of_office_date_end) {
             return "";

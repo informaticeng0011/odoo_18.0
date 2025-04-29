@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64encode
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 from datetime import datetime
 import logging
 from lxml import etree
@@ -1541,14 +1545,21 @@ class AccountMove(models.Model):
 
     def _l10n_it_edi_send(self, attachments_vals):
         self.env['res.company']._with_locked_records(self)
+<<<<<<< HEAD
         files_to_upload = []
+=======
+        files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
+>>>>>>> upstream/18.0
         filename_move = {}
 
         # Setup moves for sending
         for move in self:
+<<<<<<< HEAD
             attachment_vals = attachments_vals[move]
             filename = attachment_vals['name']
             content = b64encode(attachment_vals['raw']).decode()
+=======
+>>>>>>> upstream/18.0
             move.l10n_it_edi_header = False
             if move.commercial_partner_id._l10n_it_edi_is_public_administration():
                 move.l10n_it_edi_state = 'requires_user_signature'
@@ -1559,6 +1570,7 @@ class AccountMove(models.Model):
                     "through the 'Fatture e Corrispettivi' portal of the Tax Agency."
                 )))
             else:
+<<<<<<< HEAD
                 move.l10n_it_edi_state = 'being_sent'
                 files_to_upload.append({'filename': filename, 'xml': content})
                 filename_move[filename] = move
@@ -1566,6 +1578,22 @@ class AccountMove(models.Model):
         # Upload files
         try:
             results = self._l10n_it_edi_upload(files_to_upload)
+=======
+                attachment_vals = attachments_vals[move]
+                filename = attachment_vals['name']
+                content = b64encode(attachment_vals['raw']).decode()
+                move.l10n_it_edi_state = 'being_sent'
+                proxy_user = move.company_id.l10n_it_edi_proxy_user_id
+                moves, files = files_to_upload[proxy_user]
+                files_to_upload[proxy_user] = (moves | move, files + [{'filename': filename, 'xml': content}])
+                filename_move[filename] = move
+
+        # Upload files
+        results = {}
+        try:
+            for proxy_user, (moves, files) in files_to_upload.items():
+                results.update(moves._l10n_it_edi_upload(files))
+>>>>>>> upstream/18.0
         except AccountEdiProxyError as e:
             messages_to_log = []
             for filename in filename_move:

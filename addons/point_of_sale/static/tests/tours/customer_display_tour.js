@@ -28,7 +28,10 @@ export const NEW_ORDER =
     '{"lines":[],"finalized":false,"amount":"0.00","paymentLines":[],"change":0,"onlinePaymentData":{}}';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 const QR_URL =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==";
 
@@ -88,6 +91,9 @@ const SEND_QR = {
     },
 };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("CustomerDisplayTour", {
     steps: () =>
@@ -129,7 +135,10 @@ registry.category("web_tour.tours").add("CustomerDisplayTour", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("CustomerDisplayTourWithQr", {
     steps: () =>
@@ -154,4 +163,7 @@ registry.category("web_tour.tours").add("CustomerDisplayTourWithQr", {
             },
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

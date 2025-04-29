@@ -243,10 +243,13 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickOrderButton(),
             ProductScreen.orderlinesHaveNoChange(),
             Chrome.clickPlanButton(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -266,6 +269,9 @@ registry.category("web_tour.tours").add("SaveLastPreparationChangesTour", {
             FloorScreen.hasTable("5"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -686,6 +692,12 @@ registry.category("web_tour.tours").add("LeaveResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            FloorScreen.hasTable("2"),
+            FloorScreen.hasTable("4"),
+            FloorScreen.hasTable("5"),
+>>>>>>> upstream/18.0
 =======
             FloorScreen.hasTable("2"),
             FloorScreen.hasTable("4"),
@@ -711,8 +723,11 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             FloorScreen.clickTable("5"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -726,6 +741,9 @@ registry.category("web_tour.tours").add("FinishResidualOrder", {
             }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
