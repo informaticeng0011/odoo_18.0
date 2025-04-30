@@ -1309,7 +1309,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
 
         self.assertEqual(po.order_line.qty_received, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_purchase_kit_bill_before_reception_component_cost_exactly_aligns_with_kit_product_cost(self):
         """ When a kit product is invoiced prior to delivery, we want to make sure to reconcile all
@@ -1377,4 +1380,7 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
                 {'account_id': stock_valuation_account.id,   'product_id': components[1].id,   'reconciled': False,   'debit':  5.0,   'credit':  0.0},
             ]
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

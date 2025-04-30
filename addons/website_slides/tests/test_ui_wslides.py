@@ -2,6 +2,10 @@
 
 import base64
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -16,6 +20,10 @@ from odoo.tools import mute_logger
 from odoo.tools.misc import file_open
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 >>>>>>> upstream/18.0
@@ -234,7 +242,10 @@ class TestUi(TestUICommon):
 class TestUiPublisher(HttpCaseGamification):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def fetch_proxy(self, url):
         if url.endswith('ThreeTimeAKCGoldWinnerPembrookeWelshCorgi.jpg'):
             _logger.info('External chrome request during tests: Sending dummy image for %s', url)
@@ -243,6 +254,9 @@ class TestUiPublisher(HttpCaseGamification):
             return self.make_fetch_proxy_response(content)
         return super().fetch_proxy(url)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_course_publisher_elearning_manager(self):
         user_demo = self.user_demo

@@ -29,6 +29,10 @@ import {
     useExternalListener,
 } from "@odoo/owl";
 import { getScrollingElement } from "@web/core/utils/scrolling";
+<<<<<<< HEAD
+=======
+import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 
 class BlockPreview extends Component {
     static template = "website.BlockPreview";
@@ -262,6 +266,13 @@ export class WebsitePreview extends Component {
         return storedWidth ? parseInt(storedWidth) : 720;
     }
 
+<<<<<<< HEAD
+=======
+    get isMicrosoftEdge() {
+        return isBrowserMicrosoftEdge();
+    }
+
+>>>>>>> upstream/18.0
     reloadIframe(url) {
         return new Promise((resolve, reject) => {
             this.websiteService.websiteRootInstance = undefined;

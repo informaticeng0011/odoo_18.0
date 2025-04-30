@@ -29,7 +29,10 @@ export const NEW_ORDER =
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 const QR_URL =
@@ -58,7 +61,11 @@ const PAY_WITH_CARD = {
     paymentLines: [{ name: "CARD", amount: "2,972.75" }],
     change: 0,
     onlinePaymentData: {},
+<<<<<<< HEAD
     qrPaymentData: undefined,
+=======
+    qrPaymentData: null,
+>>>>>>> upstream/18.0
 };
 
 const SEND_QR = {
@@ -92,6 +99,9 @@ const SEND_QR = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136,7 +146,10 @@ registry.category("web_tour.tours").add("CustomerDisplayTour", {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -164,6 +177,9 @@ registry.category("web_tour.tours").add("CustomerDisplayTourWithQr", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -16,6 +16,16 @@ export function isBrowserFirefox() {
 }
 
 /**
+<<<<<<< HEAD
+=======
+ * True if the browser is Microsoft Edge.
+ */
+export function isBrowserMicrosoftEdge() {
+    return /Edg/i.test(browser.navigator.userAgent);
+}
+
+/**
+>>>>>>> upstream/18.0
  * true if the browser is based on Safari (Safari, Epiphany)
  *
  * @returns {boolean}

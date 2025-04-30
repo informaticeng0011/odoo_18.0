@@ -1,5 +1,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -13,6 +17,11 @@ from odoo.tests.common import HOST
 from odoo.tools import config
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -22,13 +31,19 @@ _logger = logging.getLogger(__name__)
 class TestSnippets(HttpCase):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def fetch_proxy(self, url):
         if 'twitter.com' in url or 'youtube.com' in url:
             _logger.info('External chrome request during tests: Sending dummy page for %s', url)
             return self.make_fetch_proxy_response('<body>Dummy page</body>')
         return super().fetch_proxy(url)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_01_empty_parents_autoremove(self):
         self.start_tour(self.env['website'].get_client_action_url('/'), 'snippet_empty_parent_autoremove', login='admin')

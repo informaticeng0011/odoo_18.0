@@ -8,7 +8,10 @@ import { registry } from "@web/core/registry";
 import { user } from "@web/core/user";
 import { useBus, useService } from "@web/core/utils/hooks";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { pick } from "@web/core/utils/objects";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { useSortable } from "@web/core/utils/sortable_owl";
@@ -223,8 +226,14 @@ export class PropertiesField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const propertiesValues = this.props.record.data[this.props.name] || [];
         return propertiesValues.filter((definition) => !definition.definition_deleted);
+=======
+        return (this.props.record.data[this.props.name] || [])
+            .filter((definition) => !definition.definition_deleted)
+            .map((definition) => ({ ...definition }));
+>>>>>>> upstream/18.0
 =======
         return (this.props.record.data[this.props.name] || [])
             .filter((definition) => !definition.definition_deleted)
@@ -570,6 +579,7 @@ export class PropertiesField extends Component {
         propertyDefinition["definition_changed"] = true;
         if (propertyDefinition.type === "separator") {
 <<<<<<< HEAD
+<<<<<<< HEAD
             // remove all other keys
             propertyDefinition = pick(
                 propertyDefinition,
@@ -579,6 +589,8 @@ export class PropertiesField extends Component {
                 "type"
             );
 =======
+=======
+>>>>>>> upstream/18.0
             const separatorKeys = new Set(["name", "string", "definition_changed", "type"]);
             // remove all other keys in place, since propertyDefinition instance
             // will be used as a PropertyDefinition component state value.
@@ -587,6 +599,9 @@ export class PropertiesField extends Component {
                     delete propertyDefinition[key];
                 }
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         const propertiesValues = this.propertiesList;

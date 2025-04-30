@@ -190,7 +190,11 @@ msgid "%(name)s installment #%(number)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s תשלום #%(number)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s תשלום #%(number)s"
 >>>>>>> upstream/18.0
@@ -1508,7 +1512,11 @@ msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך נעילה קשיח חדש חייב להיות מאוחר (או שווה) לתאריך הנעילה הקודם."
+>>>>>>> upstream/18.0
 =======
 msgstr "תאריך נעילה קשיח חדש חייב להיות מאוחר (או שווה) לתאריך הנעילה הקודם."
 >>>>>>> upstream/18.0
@@ -1700,6 +1708,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"החשבון %s לא ניתן לפיצול כיוון שהוא כבר שייך לחברה אחת בלבד. פעולת הפיצול "
+"מפרידה חשבון רק בהתבסס על החברות שאליהן הוא שייך."
+>>>>>>> upstream/18.0
 =======
 "החשבון %s לא ניתן לפיצול כיוון שהוא כבר שייך לחברה אחת בלבד. פעולת הפיצול "
 "מפרידה חשבון רק בהתבסס על החברות שאליהן הוא שייך."
@@ -1774,7 +1787,11 @@ msgid "Account %s is of payable type, but is used in a sale operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבון%s הוא מסוג ספקים, אך נעשה בו שימוש בפעולת מכירה."
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבון%s הוא מסוג ספקים, אך נעשה בו שימוש בפעולת מכירה."
 >>>>>>> upstream/18.0
@@ -1828,7 +1845,11 @@ msgid "Account %s is of receivable type, but is used in a purchase operation."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבון%s הוא מסוג לקוחות, אך נעשה בו שימוש בפעולת רכש."
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבון%s הוא מסוג לקוחות, אך נעשה בו שימוש בפעולת רכש."
 >>>>>>> upstream/18.0
@@ -2121,6 +2142,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"קודי חשבון חייבים להיות ייחודיים. לא ניתן ליצור חשבונות עם קודים כפולים "
+"אלה:%s"
+>>>>>>> upstream/18.0
 =======
 "קודי חשבון חייבים להיות ייחודיים. לא ניתן ליצור חשבונות עם קודים כפולים "
 "אלה:%s"
@@ -2216,7 +2242,11 @@ msgid "Account merge wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף מיזוג חשבונות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף מיזוג חשבונות"
 >>>>>>> upstream/18.0
@@ -2455,7 +2485,11 @@ msgid "Accounts successfully merged!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבונות מוזגו בהצלחה!"
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבונות מוזגו בהצלחה!"
 >>>>>>> upstream/18.0
@@ -2561,7 +2595,11 @@ msgstr "נדרשת פעולה"
 msgid "Actionable Errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שגיאות שניתן לטפל בהן"
+>>>>>>> upstream/18.0
 =======
 msgstr "שגיאות שניתן לטפל בהן"
 >>>>>>> upstream/18.0
@@ -2577,7 +2615,11 @@ msgid "Activate Audit Trail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפעל מעקב אחרי שינויים"
+>>>>>>> upstream/18.0
 =======
 msgstr "הפעל מעקב אחרי שינויים"
 >>>>>>> upstream/18.0
@@ -2602,7 +2644,11 @@ msgid "Activate auto-validation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפעל אישור-אוטומטי"
+>>>>>>> upstream/18.0
 =======
 msgstr "הפעל אישור-אוטומטי"
 >>>>>>> upstream/18.0
@@ -2802,7 +2848,11 @@ msgstr "סכום להתאמה"
 msgid "Adjusting Entries have been created for this invoice:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הוזנו פקודות התאמה עבור חשבונית זו:"
+>>>>>>> upstream/18.0
 =======
 msgstr "הוזנו פקודות התאמה עבור חשבונית זו:"
 >>>>>>> upstream/18.0
@@ -2868,6 +2918,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"לאחר ייבוא של שלוש חשבוניות עבור ספק מבלי לבצע שינויים, ‏Odoo יציע לאשר "
+"אוטומטית חשבוניות עתידיות. תוכל להפעיל או לבטל את האפשרות הזו בכל עת בפרופיל"
+" של הספק."
+>>>>>>> upstream/18.0
 =======
 "לאחר ייבוא של שלוש חשבוניות עבור ספק מבלי לבצע שינויים, ‏Odoo יציע לאשר "
 "אוטומטית חשבוניות עתידיות. תוכל להפעיל או לבטל את האפשרות הזו בכל עת בפרופיל"
@@ -2981,7 +3037,11 @@ msgid "All unreconciled bank statement lines before the selected date."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל שורות דפי הבנק שלא התואמו לפני התאריך שנבחר."
+>>>>>>> upstream/18.0
 =======
 msgstr "כל שורות דפי הבנק שלא התואמו לפני התאריך שנבחר."
 >>>>>>> upstream/18.0
@@ -3375,6 +3435,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת יומן  עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם לסדר "
+"הרישומים ביומן. תאריך הנעילה הזה הוא בלתי הפיך ואינו מאפשר שום חריגה."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת יומן  עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם לסדר "
 "הרישומים ביומן. תאריך הנעילה הזה הוא בלתי הפיך ואינו מאפשר שום חריגה."
@@ -3432,6 +3497,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת יומן עם מע\"מ עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם"
+" לסדר הרישומים ביומן. תאריך נעילת המע\"מ מוגדר אוטומטית כאשר פקודת סגירת "
+"המע\"מ נרשמת."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת יומן עם מע\"מ עד התאריך הזה וכולל אותו, תדחה לזמן מאוחר יותר, בהתאם"
 " לסדר הרישומים ביומן. תאריך נעילת המע\"מ מוגדר אוטומטית כאשר פקודת סגירת "
@@ -3502,6 +3573,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת רכש  לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם לסדר"
+" הרישומים ביומן."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת רכש  לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם לסדר"
 " הרישומים ביומן."
@@ -3549,6 +3625,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כל פקודת מכירה לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם "
+"לסדר הרישומים ביומן."
+>>>>>>> upstream/18.0
 =======
 "כל פקודת מכירה לפני התאריך הזה וכולל אותו, תדחה לתאריך מאוחר יותר, בהתאם "
 "לסדר הרישומים ביומן."
@@ -3737,7 +3818,11 @@ msgid "Audit Log Activated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לוג מעקב אחר שינויים פעיל"
+>>>>>>> upstream/18.0
 =======
 msgstr "לוג מעקב אחר שינויים פעיל"
 >>>>>>> upstream/18.0
@@ -3778,7 +3863,11 @@ msgid "Audit Trail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מעקב אחר שינויים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מעקב אחר שינויים"
 >>>>>>> upstream/18.0
@@ -3813,7 +3902,11 @@ msgid "Audit Trail Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הודעות מעקב אחר שינויים"
+>>>>>>> upstream/18.0
 =======
 msgstr "הודעות מעקב אחר שינויים"
 >>>>>>> upstream/18.0
@@ -3853,7 +3946,11 @@ msgid "Auto-Check on Post"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בדיקה אוטומטית לפני רישום"
+>>>>>>> upstream/18.0
 =======
 msgstr "בדיקה אוטומטית לפני רישום"
 >>>>>>> upstream/18.0
@@ -3904,7 +4001,11 @@ msgid "Auto-post bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רישום אוטומטי של חשבוניות "
+>>>>>>> upstream/18.0
 =======
 msgstr "רישום אוטומטי של חשבוניות "
 >>>>>>> upstream/18.0
@@ -3951,6 +4052,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הרישום האוטומטי הופסק עבור חשבונית זו מאחר שנמצא חשבונית פוטנציאלית כפולה."
+>>>>>>> upstream/18.0
 =======
 "הרישום האוטומטי הופסק עבור חשבונית זו מאחר שנמצא חשבונית פוטנציאלית כפולה."
 >>>>>>> upstream/18.0
@@ -3994,7 +4099,11 @@ msgid "Auto-validate bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אישור אוטומטי של חשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אישור אוטומטי של חשבוניות"
 >>>>>>> upstream/18.0
@@ -4048,7 +4157,11 @@ msgstr "רצף אוטומטי"
 msgid "Automatically post bills for this trusted partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרסם אוטומטית חשבוניות עבור שותף מהימן זה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרסם אוטומטית חשבוניות עבור שותף מהימן זה"
 >>>>>>> upstream/18.0
@@ -4071,7 +4184,11 @@ msgid "Autopost Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רישום אוטומטי של חשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "רישום אוטומטי של חשבוניות"
 >>>>>>> upstream/18.0
@@ -4096,7 +4213,11 @@ msgid "Autopost Bills Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף רישום אוטומטי של חשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף רישום אוטומטי של חשבוניות"
 >>>>>>> upstream/18.0
@@ -4232,7 +4353,11 @@ msgid "Bank & Cash accounts cannot be shared between companies."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בנק & מזומנים לא יכולים להיות משותפים בין חברות."
+>>>>>>> upstream/18.0
 =======
 msgstr "בנק & מזומנים לא יכולים להיות משותפים בין חברות."
 >>>>>>> upstream/18.0
@@ -4367,7 +4492,11 @@ msgid "Bank Statement Digitization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דיגיטליזציה של דפי בנק"
+>>>>>>> upstream/18.0
 =======
 msgstr "דיגיטליזציה של דפי בנק"
 >>>>>>> upstream/18.0
@@ -4788,7 +4917,11 @@ msgid "Can't disable audit trail when there are existing records."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להשבית את מעקב אחר שינויים כאשר רשומות קיימות."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להשבית את מעקב אחר שינויים כאשר רשומות קיימות."
 >>>>>>> upstream/18.0
@@ -4850,7 +4983,11 @@ msgid "Cancelled Credit Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זיכוי לקוח מבוטלת"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונית זיכוי לקוח מבוטלת"
 >>>>>>> upstream/18.0
@@ -5156,7 +5293,11 @@ msgid "Changed Lock Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך נעילה שונה"
+>>>>>>> upstream/18.0
 =======
 msgstr "תאריך נעילה שונה"
 >>>>>>> upstream/18.0
@@ -5264,7 +5405,11 @@ msgid "Check Partner(s) Email(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בדוק כתובת דוא\"ל של שותפים"
+>>>>>>> upstream/18.0
 =======
 msgstr "בדוק כתובת דוא\"ל של שותפים"
 >>>>>>> upstream/18.0
@@ -5346,7 +5491,11 @@ msgid "Check why it's risky."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בדוק מדוע זה מסוכן."
+>>>>>>> upstream/18.0
 =======
 msgstr "בדוק מדוע זה מסוכן."
 >>>>>>> upstream/18.0
@@ -5537,7 +5686,10 @@ msgstr "יישות מסחרית"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5576,6 +5728,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5741,7 +5896,11 @@ msgstr "חברה מקושרת ליומן זה"
 msgid "Composite Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דו\"ח כולל"
+>>>>>>> upstream/18.0
 =======
 msgstr "דו\"ח כולל"
 >>>>>>> upstream/18.0
@@ -5836,7 +5995,11 @@ msgid "Consider paying the %(btn_start)sfull amount%(btn_end)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שקול לשלם את %(btn_start)sהסכום המלא%(btn_end)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "שקול לשלם את %(btn_start)sהסכום המלא%(btn_end)s."
 >>>>>>> upstream/18.0
@@ -5903,7 +6066,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מכיל את שם הסעיף או את הודעת השגיאה, בהתאם לסוג השורה."
+>>>>>>> upstream/18.0
 =======
 msgstr "מכיל את שם הסעיף או את הודעת השגיאה, בהתאם לסוג השורה."
 >>>>>>> upstream/18.0
@@ -5987,7 +6154,11 @@ msgid "Corrupted data on journal entry with id %(id)s (%(name)s)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נתונים פגומים בפקודת יומן עם מזהה %(id)s (%(name)s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "נתונים פגומים בפקודת יומן עם מזהה %(id)s (%(name)s)."
 >>>>>>> upstream/18.0
@@ -6540,7 +6711,11 @@ msgstr "חשבונית זיכוי"
 msgid "Credit Statements"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דו\"חות יתרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "דו\"חות יתרות"
 >>>>>>> upstream/18.0
@@ -6688,7 +6863,11 @@ msgid "Current Statement Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יתרת הצהרה אחרונה"
+>>>>>>> upstream/18.0
 =======
 msgstr "יתרת הצהרה אחרונה"
 >>>>>>> upstream/18.0
@@ -6740,7 +6919,11 @@ msgid "Custom User Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מטבע מותאם אישית למשתמש"
+>>>>>>> upstream/18.0
 =======
 msgstr "מטבע מותאם אישית למשתמש"
 >>>>>>> upstream/18.0
@@ -7162,7 +7345,11 @@ msgid "Default Incoterm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מונח סחר בינלאומי ברירת מחדל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מונח סחר בינלאומי ברירת מחדל"
 >>>>>>> upstream/18.0
@@ -7225,7 +7412,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחיר מכירה ברירת מחדל כולל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחיר מכירה ברירת מחדל כולל"
 >>>>>>> upstream/18.0
@@ -7361,7 +7552,11 @@ msgid "Define your fiscal years & tax returns periodicity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר את שנות הכספים שלך שלך ואת תדירות החזרי המס."
+>>>>>>> upstream/18.0
 =======
 msgstr "הגדר את שנות הכספים שלך שלך ואת תדירות החזרי המס."
 >>>>>>> upstream/18.0
@@ -7682,7 +7877,11 @@ msgid "Display Force Post"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצגת רישום בכפייה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצגת רישום בכפייה"
 >>>>>>> upstream/18.0
@@ -7854,7 +8053,11 @@ msgid "Distribution for Refunds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חלוקה עבור החזרים כספיים"
+>>>>>>> upstream/18.0
 =======
 msgstr "חלוקה עבור החזרים כספיים"
 >>>>>>> upstream/18.0
@@ -8054,7 +8257,11 @@ msgid "Drop to import transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שחרר כדי לייבא עסקאות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שחרר כדי לייבא עסקאות"
 >>>>>>> upstream/18.0
@@ -8108,7 +8315,11 @@ msgid "Drop to import your invoices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שחרר כדי לייבא את החשבוניות שלך ."
+>>>>>>> upstream/18.0
 =======
 msgstr "שחרר כדי לייבא את החשבוניות שלך ."
 >>>>>>> upstream/18.0
@@ -9087,7 +9298,11 @@ msgid "Foreign tax account advance payment (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלום מקדמה לחשבון מס זר (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלום מקדמה לחשבון מס זר (%s)"
 >>>>>>> upstream/18.0
@@ -9184,7 +9399,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משנת כספית קודמת "
+>>>>>>> upstream/18.0
 =======
 msgstr "משנת כספית קודמת "
 >>>>>>> upstream/18.0
@@ -9883,7 +10102,11 @@ msgid "Ignore Abnormal Invoice Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התעלם מתאריכים חריגים בחשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "התעלם מתאריכים חריגים בחשבוניות"
 >>>>>>> upstream/18.0
@@ -9911,7 +10134,11 @@ msgid "Ignore future alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התעלם מהתראות עתידיות"
+>>>>>>> upstream/18.0
 =======
 msgstr "התעלם מהתראות עתידיות"
 >>>>>>> upstream/18.0
@@ -10882,7 +11109,11 @@ msgid "It looks like you've successfully validated the last"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה נראה שאישרת בהצלחה את "
+>>>>>>> upstream/18.0
 =======
 msgstr "זה נראה שאישרת בהצלחה את "
 >>>>>>> upstream/18.0
@@ -10920,7 +11151,11 @@ msgid "It seems there is some depending closing move to be posted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה נראה שיש תנועה סוגרת שצריכה להרשם"
+>>>>>>> upstream/18.0
 =======
 msgstr "זה נראה שיש תנועה סוגרת שצריכה להרשם"
 >>>>>>> upstream/18.0
@@ -10961,7 +11196,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פריטים עם חלוקה לחשבונות אנליטים חסרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "פריטים עם חלוקה לחשבונות אנליטים חסרים"
 >>>>>>> upstream/18.0
@@ -11021,7 +11260,11 @@ msgid "Journal (Sequence Prefix)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומן(תחילית רצף)"
+>>>>>>> upstream/18.0
 =======
 msgstr "יומן(תחילית רצף)"
 >>>>>>> upstream/18.0
@@ -11344,7 +11587,11 @@ msgid "Label on PoS Receipts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תווית על קבלות של קופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "תווית על קבלות של קופה"
 >>>>>>> upstream/18.0
@@ -11560,7 +11807,11 @@ msgid "Ledger Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבוצת ספרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבוצת ספרים"
 >>>>>>> upstream/18.0
@@ -11597,7 +11848,11 @@ msgid "Ledger group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבוצת ספרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבוצת ספרים"
 >>>>>>> upstream/18.0
@@ -11756,7 +12011,11 @@ msgid "Load More Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העלה עוד הגבלה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העלה עוד הגבלה"
 >>>>>>> upstream/18.0
@@ -11799,7 +12058,11 @@ msgid "Lock Date Exception %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חריגת תאריך נעילה"
+>>>>>>> upstream/18.0
 =======
 msgstr "חריגת תאריך נעילה"
 >>>>>>> upstream/18.0
@@ -11940,7 +12203,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "וודא שאתה מפעיל את המעקב אחר שינויים בהגדרות של הנהלת חשבונות."
+>>>>>>> upstream/18.0
 =======
 msgstr "וודא שאתה מפעיל את המעקב אחר שינויים בהגדרות של הנהלת חשבונות."
 >>>>>>> upstream/18.0
@@ -12168,7 +12435,11 @@ msgid "Matching rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כללי התאמה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כללי התאמה"
 >>>>>>> upstream/18.0
@@ -12356,6 +12627,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"חסר מסמך עבור דפי בנק ? השתמש באפליקציית המסמכים כדי לבקש אותו, ותן לבעל "
+"המסמך להעלות אותו למקום הנכון."
+>>>>>>> upstream/18.0
 =======
 "חסר מסמך עבור דפי בנק ? השתמש באפליקציית המסמכים כדי לבקש אותו, ותן לבעל "
 "המסמך להעלות אותו למקום הנכון."
@@ -12695,7 +12971,11 @@ msgid "Next Installment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התשלום הבא"
+>>>>>>> upstream/18.0
 =======
 msgstr "התשלום הבא"
 >>>>>>> upstream/18.0
@@ -12738,7 +13018,11 @@ msgid "No Bank Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין עסקה בנקאית"
+>>>>>>> upstream/18.0
 =======
 msgstr "אין עסקה בנקאית"
 >>>>>>> upstream/18.0
@@ -12803,7 +13087,11 @@ msgid "No outstanding account could be found to make the payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצא חשבון פעיל שממנו ניתן לבצע את התשלום."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצא חשבון פעיל שממנו ניתן לבצע את התשלום."
 >>>>>>> upstream/18.0
@@ -13227,7 +13515,11 @@ msgid "Only Tax Exigible Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק שורות חייבות במס"
+>>>>>>> upstream/18.0
 =======
 msgstr "רק שורות חייבות במס"
 >>>>>>> upstream/18.0
@@ -14380,6 +14672,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שיטת התשלום המועדפת בעת מכירה ללקוח זה. שיטה זו תיקבע כברירת מחדל עבור כל "
+"תשלום נכנס שייוצר עבור לקוח זה."
+>>>>>>> upstream/18.0
 =======
 "שיטת התשלום המועדפת בעת מכירה ללקוח זה. שיטה זו תיקבע כברירת מחדל עבור כל "
 "תשלום נכנס שייוצר עבור לקוח זה."
@@ -15037,7 +15334,11 @@ msgid "Related to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מקושר ל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מקושר ל"
 >>>>>>> upstream/18.0
@@ -16656,7 +16957,11 @@ msgstr "מס"
 msgid "Tax 15%"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מע\"מ 15%"
+>>>>>>> upstream/18.0
 =======
 msgstr "מע\"מ 15%"
 >>>>>>> upstream/18.0
@@ -16730,7 +17035,11 @@ msgid "Tax Grid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סעיף מע\"מ"
+>>>>>>> upstream/18.0
 =======
 msgstr "סעיף מע\"מ"
 >>>>>>> upstream/18.0
@@ -16861,7 +17170,11 @@ msgid "Tax Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מס התקבל"
+>>>>>>> upstream/18.0
 =======
 msgstr "מס התקבל"
 >>>>>>> upstream/18.0
@@ -17959,7 +18272,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הסכום שנותר בפריט היומן, מוצג במטבע שלו (ייתכן שאינו מטבע החברה)."
+>>>>>>> upstream/18.0
 =======
 msgstr "הסכום שנותר בפריט היומן, מוצג במטבע שלו (ייתכן שאינו מטבע החברה)."
 >>>>>>> upstream/18.0
@@ -17997,7 +18314,11 @@ msgid "The sections defined on a report cannot have sections themselves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן להגדיר תתי סעיפים לסעיפים שהוגדרו בדו\"ח זה."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן להגדיר תתי סעיפים לסעיפים שהוגדרו בדו\"ח זה."
 >>>>>>> upstream/18.0
@@ -18040,6 +18361,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אמצעי התשלום שנבחר אינו זמין עבור תשלום זה. אנא בחר שוב אמצעי תשלום אחר."
+>>>>>>> upstream/18.0
 =======
 "אמצעי התשלום שנבחר אינו זמין עבור תשלום זה. אנא בחר שוב אמצעי תשלום אחר."
 >>>>>>> upstream/18.0
@@ -18068,6 +18393,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שליחת החשבוניות אינה מוגדרת כראוי. ודא שהדוח שבו נעשה שימוש מוגדר לשימוש עם "
+"חשבוניות."
+>>>>>>> upstream/18.0
 =======
 "שליחת החשבוניות אינה מוגדרת כראוי. ודא שהדוח שבו נעשה שימוש מוגדר לשימוש עם "
 "חשבוניות."

@@ -1,6 +1,10 @@
 import {
     clickSave,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    contains,
+>>>>>>> upstream/18.0
 =======
     contains,
 >>>>>>> upstream/18.0
@@ -179,7 +183,10 @@ test("href is correctly formatted", async () => {
     expect(".o_field_phone a").toHaveAttribute("href", "tel:+12345678900");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("New record, fill in phone field, then click on call icon and save", async () => {
     await mountView({
@@ -209,4 +216,7 @@ test("New record, fill in phone field, then click on call icon and save", async 
     expect(".o_field_widget[name=foo] input").toHaveValue("+12345678900");
     expect(`.o_form_status_indicator_buttons`).toHaveClass("invisible");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

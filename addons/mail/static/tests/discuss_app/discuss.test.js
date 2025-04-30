@@ -34,6 +34,10 @@ import {
 
 import { OutOfFocusService } from "@mail/core/common/out_of_focus_service";
 import { rpc } from "@web/core/network/rpc";
+<<<<<<< HEAD
+=======
+import { runAllTimers } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 
 describe.current.tags("desktop");
 defineMailModels();
@@ -2020,6 +2024,10 @@ test("Message shows up even if channel data is incomplete", async () => {
         channel_type: "chat",
     });
     getService("bus_service").forceUpdateChannels();
+<<<<<<< HEAD
+=======
+    await runAllTimers();
+>>>>>>> upstream/18.0
     await waitUntilSubscribe();
     await withUser(correspondentUserId, () =>
         rpc("/discuss/channel/notify_typing", {

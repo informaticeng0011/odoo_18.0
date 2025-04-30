@@ -1091,6 +1091,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1115,6 +1116,12 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
     def test_specific_product_discount_with_global_discount(self):
+=======
+    def test_specific_product_discount_with_global_discount(self):
+        if self.env['ir.module.module']._get('pos_discount').state != 'installed':
+            self.skipTest("pos_discount module is required for this test")
+
+>>>>>>> upstream/18.0
         self.env['loyalty.program'].search([]).write({'active': False})
 
         self.discount_product = self.env["product.product"].create({
@@ -1172,6 +1179,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2750,7 +2760,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2806,6 +2819,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

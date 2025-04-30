@@ -10,11 +10,17 @@ from odoo.tests import tagged, Form
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestItEdiDoiRemaining(TestItEdiDoi):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.env.user.groups_id |= cls.env.ref('sales_team.group_sale_salesman')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def create_invoice(self, declaration, invoice_line_vals):

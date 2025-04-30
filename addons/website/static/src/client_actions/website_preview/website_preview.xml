@@ -15,7 +15,13 @@
          t-att-class="{ 'editor_enable editor_has_snippets': this.websiteContext.snippetsLoaded,
                         'o_is_blocked': this.blockedState.isBlocked,
                         'o_is_mobile': this.websiteContext.isMobile,
+<<<<<<< HEAD
                         'border-top': !this.websiteContext.snippetsLoaded }">
+=======
+                        'border-top': !this.websiteContext.snippetsLoaded,
+                        'o_is_microsoft_edge': isMicrosoftEdge,
+                      }">
+>>>>>>> upstream/18.0
         <BlockPreview t-if="this.blockedState.showLoader"/>
         <div class="o_iframe_container">
             <iframe t-if="!testMode"

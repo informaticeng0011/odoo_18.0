@@ -9,7 +9,11 @@ from odoo.addons.l10n_it_edi.tests.common import TestItEdi
 class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def init_invoice(self, partners):
+=======
+    def init_invoice(self, partners, company=None, taxes=None):
+>>>>>>> upstream/18.0
 =======
     def init_invoice(self, partners, company=None, taxes=None):
 >>>>>>> upstream/18.0
@@ -19,9 +23,15 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 "out_invoice",
                 partner=partner,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 company=self.company,
                 amounts=[1000],
                 taxes=self.default_tax,
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
 =======
                 company=company or self.company,
                 amounts=[1000],
@@ -132,7 +142,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             self.assertIn('move_missing_origin_document_field', cup)
             self.assertIn('move_missing_origin_document_field', cig_cup)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_send_with_multiple_company(self):
         second_company = self.company_data['company']
@@ -175,4 +188,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             self.assertEqual(res_invoice2, invoice2)
             self.assertEqual(res_invoice1.company_id.l10n_it_edi_proxy_user_id, self.proxy_user)
             self.assertEqual(res_invoice2.company_id.l10n_it_edi_proxy_user_id, second_proxy)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

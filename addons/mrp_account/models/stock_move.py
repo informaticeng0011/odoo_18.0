@@ -73,7 +73,10 @@ class StockMove(models.Model):
                 product_unbuild_map[move.product_id] |= move.unbuild_id
         return super(StockMove, self.with_context(product_unbuild_map=product_unbuild_map))._create_out_svl(forced_quantity)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_all_related_sm(self, product):
         moves = super()._get_all_related_sm(product)
@@ -82,4 +85,7 @@ class StockMove(models.Model):
             m.bom_line_id.bom_id.type == 'phantom' and
             m.bom_line_id.bom_id == moves.bom_line_id.bom_id
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

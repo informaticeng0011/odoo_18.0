@@ -116,6 +116,11 @@ class ResPartner(models.Model):
         state_id = self.env['res.country.state'].search([('l10n_in_tin', '=', self.vat[:2])], limit=1)
         self.state_id = state_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.ref_company_ids:
+            self.ref_company_ids._update_l10n_in_fiscal_position()
+>>>>>>> upstream/18.0
 =======
         if self.ref_company_ids:
             self.ref_company_ids._update_l10n_in_fiscal_position()

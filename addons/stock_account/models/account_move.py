@@ -322,6 +322,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -349,6 +350,12 @@ class AccountMoveLine(models.Model):
     def _get_exchange_journal(self, company):
         if (
             self and self.move_id.stock_valuation_layer_ids and
+=======
+
+    def _get_exchange_journal(self, company):
+        if (
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
             self.product_id.categ_id.property_valuation == 'real_time'
         ):
             return self.product_id.categ_id.property_stock_journal
@@ -356,7 +363,11 @@ class AccountMoveLine(models.Model):
 
     def _get_exchange_account(self, company, amount):
         if (
+<<<<<<< HEAD
             self and self.move_id.stock_valuation_layer_ids and
+=======
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
             self.product_id.categ_id.property_valuation == 'real_time'
         ):
             return self.product_id.categ_id.property_stock_valuation_account_id
@@ -372,6 +383,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

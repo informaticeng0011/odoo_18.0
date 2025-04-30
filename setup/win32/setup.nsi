@@ -406,7 +406,13 @@ Section "Uninstall"
     Rmdir /r "$INSTDIR\python"
     Rmdir /r "$INSTDIR\nssm"
     FindFirst $0 $1 "$INSTDIR\nginx*"
+<<<<<<< HEAD
     Rmdir /R "$INSTDIR\$1"
+=======
+    StrCmp $1 "" nginx_dir_not_found
+    Rmdir /R "$INSTDIR\$1"
+    nginx_dir_not_found:
+>>>>>>> upstream/18.0
     FindClose $0
     DeleteRegKey HKLM "${UNINSTALL_REGISTRY_KEY}"
 SectionEnd

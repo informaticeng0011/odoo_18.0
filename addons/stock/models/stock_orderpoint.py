@@ -484,13 +484,19 @@ class StockWarehouseOrderpoint(models.Model):
         # recompute virtual_available with lead days
         today = fields.datetime.now().replace(hour=23, minute=59, second=59)
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (days, loc), product_ids in ploc_per_day.items():
             products = self.env['product.product'].browse(product_ids)
 =======
+=======
+>>>>>>> upstream/18.0
         product_ids = set()
         location_ids = set()
         for (days, loc), prod_ids in ploc_per_day.items():
             products = self.env['product.product'].browse(prod_ids)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             qties = products.with_context(
                 location=loc.id,
@@ -500,6 +506,11 @@ class StockWarehouseOrderpoint(models.Model):
                 if float_compare(qty['virtual_available'], 0, precision_rounding=product.uom_id.rounding) < 0:
                     to_refill[(qty['id'], loc.id)] = qty['virtual_available']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    product_ids.add(qty['id'])
+                    location_ids.add(loc.id)
+>>>>>>> upstream/18.0
 =======
                     product_ids.add(qty['id'])
                     location_ids.add(loc.id)
@@ -510,8 +521,14 @@ class StockWarehouseOrderpoint(models.Model):
 
         # Remove incoming quantity from other origin than moves (e.g RFQ)
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_ids, location_ids = zip(*to_refill)
         qty_by_product_loc, dummy = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)
+=======
+        product_ids = list(product_ids)
+        location_ids = list(location_ids)
+        qty_by_product_loc = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)[0]
+>>>>>>> upstream/18.0
 =======
         product_ids = list(product_ids)
         location_ids = list(location_ids)

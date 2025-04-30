@@ -94,8 +94,11 @@ export class ProductCard extends Component {
 
         if (product.isCombo()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.router.navigate("combo_selection", { id: product.id });
 =======
+=======
+>>>>>>> upstream/18.0
             const selectedCombos = [];
             let showComboSelectionPage = false;
             for (const combo of product.combo_ids) {
@@ -123,6 +126,9 @@ export class ProductCard extends Component {
                 this.selfOrder.editedLine?.delete();
                 this.selfOrder.addToCart(product, 1, "", {}, {}, selectedCombos);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         } else if (product.isConfigurable()) {
             this.router.navigate("product", { id: product.id });

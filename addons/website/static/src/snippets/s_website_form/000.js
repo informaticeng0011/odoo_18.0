@@ -33,7 +33,10 @@ import wUtils from '@website/js/utils';
         start: function () {
             if (this.editableMode) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 // TODO: Improve this. Since the form behavior was handled using
                 // two separate public widgets, and the "data-for" values were
                 // removed (on destroy before saving), we still need to restore
@@ -44,6 +47,9 @@ import wUtils from '@website/js/utils';
                         fieldEl.setAttribute("value", this.dataForValues[fieldEl.name]);
                     }
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 // We do not initialize the datetime picker in edit mode but want the dates to be formated
                 this.el.querySelectorAll('.s_website_form_input.datetimepicker-input').forEach(el => {
@@ -60,7 +66,10 @@ import wUtils from '@website/js/utils';
             return this._super(...arguments);
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         /**
          * @override
          */
@@ -87,6 +96,9 @@ import wUtils from '@website/js/utils';
                 .map(name => this.$target[0].querySelector(`[name="${CSS.escape(name)}"]`))
                 .filter(dataForValuesFieldEl => dataForValuesFieldEl && dataForValuesFieldEl.name !== "email_to");
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
@@ -299,9 +311,12 @@ import wUtils from '@website/js/utils';
             this.el.querySelectorAll('.s_website_form_field_hidden_if:not(.d-none)').forEach(el => el.classList.add('d-none'));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of this.initialValues.entries()) {
 =======
+=======
+>>>>>>> upstream/18.0
             // Prevent "data-for" values removal on destroy, they are still used
             // in edit mode to keep the form linked to its predefined server
             // values (e.g., the default `job_id` value on the application form
@@ -314,6 +329,9 @@ import wUtils from '@website/js/utils';
             );
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of initialValuesToReset.entries()) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if (initialValue) {
                     fieldEl.setAttribute('value', initialValue);

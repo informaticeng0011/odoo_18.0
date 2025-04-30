@@ -4357,7 +4357,10 @@ class TestStockValuation(TestStockValuationBase):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_valuation_rounding_method(self):
         uom_g = self.env.ref('uom.product_uom_gram')
@@ -4405,4 +4408,7 @@ class TestStockValuation(TestStockValuationBase):
         self.assertEqual(delivery.move_ids.product_qty, 0.01)
         self.assertEqual(delivery.move_ids.stock_valuation_layer_ids.quantity, -0.01)
         self.assertEqual(self.product1.qty_available, 0.00)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

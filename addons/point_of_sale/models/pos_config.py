@@ -343,7 +343,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -392,6 +395,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -498,6 +504,12 @@ class PosConfig(models.Model):
             if config.customer_display_type == 'proxy' and (not config.is_posbox or not config.proxy_ip):
                 raise UserError(_("You must set the iot box's IP address to use an IoT-connected screen. You'll find the field under the 'IoT Box' option."))
 
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'standard'
+
+>>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):
         for vals in vals_list:
@@ -509,6 +521,10 @@ class PosConfig(models.Model):
                 'prefix': "%s/" % vals['name'],
                 'code': "pos.order",
                 'company_id': vals.get('company_id', False),
+<<<<<<< HEAD
+=======
+                'implementation': self._config_sequence_implementation(),
+>>>>>>> upstream/18.0
             }
             # force sequence_id field to new pos.order sequence
             vals['sequence_id'] = IrSequence.create(val).id

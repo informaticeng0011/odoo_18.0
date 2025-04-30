@@ -179,6 +179,21 @@ class AccountTestInvoicingCommon(ProductCommon):
         cls.outbound_payment_method_line = bank_journal.outbound_payment_method_line_ids[0]
         cls.outbound_payment_method_line.payment_account_id = out_outstanding_account
 
+<<<<<<< HEAD
+=======
+        # user with restricted groups
+        cls.simple_accountman = cls.env['res.users'].create({
+            'name': 'simple accountman',
+            'login': 'simple_accountman',
+            'password': 'simple_accountman',
+            'groups_id': [
+                # the `account` specific groups from get_default_groups()
+                Command.link(cls.env.ref('account.group_account_manager').id),
+                Command.link(cls.env.ref('account.group_account_user').id),
+            ],
+        })
+
+>>>>>>> upstream/18.0
     @classmethod
     def change_company_country(cls, company, country):
         company.country_id = country
@@ -890,7 +905,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -909,6 +927,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -973,6 +994,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0

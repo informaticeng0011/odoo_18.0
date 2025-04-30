@@ -23,12 +23,15 @@ class ProductProduct(models.Model):
     def _onchange_service_fields(self):
         for record in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             if record.type == 'service' and record.service_type == 'timesheet' and \
                not (record._origin.service_policy and record.service_policy == record._origin.service_policy):
                 record.uom_id = self.env.ref('uom.product_uom_hour')
             elif record._origin.uom_id:
                 record.uom_id = record._origin.uom_id
 =======
+=======
+>>>>>>> upstream/18.0
             default_uom_id = self.env['ir.default']._get_model_defaults('product.product').get('uom_id')
             default_uom = self.env['uom.uom'].browse(default_uom_id)
             if record.type == 'service' and record.service_type == 'timesheet' and \
@@ -41,6 +44,9 @@ class ProductProduct(models.Model):
                 record.uom_id = record._origin.uom_id
             elif default_uom:
                 record.uom_id = default_uom
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             else:
                 record.uom_id = self.product_tmpl_id.default_get(['uom_id']).get('uom_id')

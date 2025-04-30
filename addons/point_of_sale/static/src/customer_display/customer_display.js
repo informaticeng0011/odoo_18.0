@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, useState, whenReady } from "@odoo/owl";
+=======
+import { Component, useEffect, useState, whenReady } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, useEffect, useState, whenReady } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -16,7 +20,10 @@ import { useService } from "@web/core/utils/hooks";
 import { mountComponent } from "@web/env";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { CustomerFacingQR } from "./customer_facing_qr";
@@ -41,6 +48,9 @@ function useSingleDialog() {
     };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51,6 +61,10 @@ export class CustomerDisplay extends Component {
     static props = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -63,9 +77,12 @@ export class CustomerDisplay extends Component {
         this.order = useState(useService("customer_display_data"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const singleDialog = useSingleDialog();
@@ -84,6 +101,9 @@ export class CustomerDisplay extends Component {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

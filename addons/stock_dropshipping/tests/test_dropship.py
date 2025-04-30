@@ -6,7 +6,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, Form
+=======
+from odoo.tests import common, tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import common, tagged, Form
 >>>>>>> upstream/18.0
@@ -368,7 +372,10 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -413,12 +420,15 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -466,6 +476,9 @@ class TestDropshipPostInstall(common.TransactionCase):
         self.assertEqual(dropship_picking.state, 'done')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

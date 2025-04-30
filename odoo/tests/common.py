@@ -44,6 +44,10 @@ from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -105,7 +109,11 @@ from odoo.http import BadRequest
 from odoo.modules import module
 from odoo.modules.registry import Registry
 from odoo.service import security
+<<<<<<< HEAD
 from odoo.sql_db import BaseCursor, Cursor
+=======
+from odoo.sql_db import BaseCursor, Cursor, TestCursor
+>>>>>>> upstream/18.0
 from odoo.tools import config, float_compare, mute_logger, profiler, SQL, DotDict
 from odoo.tools.mail import single_email_re
 from odoo.tools.misc import find_in_path, lower_logging
@@ -358,7 +366,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -381,6 +392,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -849,6 +863,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         def reset_http_key():
             self.http_request_key = None
@@ -862,6 +877,8 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +914,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -924,7 +944,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -950,6 +973,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -977,7 +1003,11 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error(
+=======
+            _logger.runbot(
+>>>>>>> upstream/18.0
 =======
             _logger.runbot(
 >>>>>>> upstream/18.0
@@ -1139,7 +1169,12 @@ class TransactionCase(BaseCase):
                 _logger.info('Skipping signal changes during tests')
                 return
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('Simulating signal changes during tests')
+=======
+            if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
+                _logger.info('Simulating signal changes during tests')
+>>>>>>> upstream/18.0
 =======
             if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
                 _logger.info('Simulating signal changes during tests')
@@ -1157,6 +1192,17 @@ class TransactionCase(BaseCase):
         cls.cr = cls.registry.cursor()
         cls.addClassCleanup(cls.cr.close)
 
+<<<<<<< HEAD
+=======
+        def check_cursor_stack():
+            for cursor in TestCursor._cursors_stack:
+                _logger.info('One curor was remaining in the TestCursor stack at the end of the test')
+                cursor._closed = True
+            TestCursor._cursors_stack = []
+
+        cls.addClassCleanup(check_cursor_stack)
+
+>>>>>>> upstream/18.0
         if cls.freeze_time:
             cls.startClassPatcher(freezegun.freeze_time(cls.freeze_time))
 
@@ -1216,7 +1262,11 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(_reset, callback, deque(callback._funcs), dict(callback.data))
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
@@ -1371,6 +1421,10 @@ class ChromeBrowser:
         self._frames = {}
         self._handlers = {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'Fetch.requestPaused': self._handle_request_paused,
+>>>>>>> upstream/18.0
 =======
             'Fetch.requestPaused': self._handle_request_paused,
 >>>>>>> upstream/18.0
@@ -1388,6 +1442,10 @@ class ChromeBrowser:
         self._logger.info('Enable chrome headless console log notification')
         self._websocket_send('Runtime.enable')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._websocket_request('Fetch.enable')
+>>>>>>> upstream/18.0
 =======
         self._websocket_request('Fetch.enable')
 >>>>>>> upstream/18.0
@@ -1447,7 +1505,11 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._websocket_send('Browser.close')
+=======
+            self._websocket_request('Browser.close')
+>>>>>>> upstream/18.0
 =======
             self._websocket_request('Browser.close')
 >>>>>>> upstream/18.0
@@ -1481,6 +1543,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.chrome.wait(15)
+>>>>>>> upstream/18.0
 =======
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
@@ -1761,7 +1827,10 @@ class ChromeBrowser:
         return result
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _handle_request_paused(self, **params):
         url = params['request']['url']
         try:
@@ -1774,6 +1843,9 @@ class ChromeBrowser:
             # this can happen if the browser is closed. Just ignore it.
             _logger.info("Websocket error while handling request %s", params['request']['url'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _handle_console(self, type, args=None, stackTrace=None, **kw): # pylint: disable=redefined-builtin
         # console formatting differs somewhat from Python's, if args[0] has
@@ -2216,8 +2288,11 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().request(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2244,6 +2319,9 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2317,6 +2395,12 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
+        # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
+        self.addCleanup(self._wait_remaining_requests)
+>>>>>>> upstream/18.0
 =======
         # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
         # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
@@ -2473,7 +2557,10 @@ class HttpCase(TransactionCase):
         return session
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def fetch_proxy(self, url):
         """
             This method is called every time a request is made from the chrome browser outside the local network
@@ -2503,6 +2590,9 @@ class HttpCase(TransactionCase):
                 ],
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def browser_js(self, url_path, code, ready='', login=None, timeout=60, cookies=None, error_checker=None, watch=False, success_signal=DEFAULT_SUCCESS_SIGNAL, debug=False, cpu_throttling=None, **kw):
         """ Test JavaScript code running in the browser.
@@ -2528,7 +2618,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -2577,7 +2671,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0
@@ -2638,6 +2736,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.http_request_strict_check = True
+>>>>>>> upstream/18.0
 =======
             self.http_request_strict_check = True
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@ from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
 from odoo.exceptions import UserError, ValidationError
 from odoo.tests import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -871,7 +875,10 @@ class TestSaleService(TestCommonSaleTimesheet):
                 f"{amount} hours delivered should round the same for invoice & timesheet",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_service_product_uom_default(self):
         """
@@ -933,4 +940,7 @@ class TestSaleService(TestCommonSaleTimesheet):
         product_form.service_policy = 'delivered_timesheet'
         product = product_form.save()
         self.assertEqual(product.uom_id, uom_day, "time UoM default was not respected")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

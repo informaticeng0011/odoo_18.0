@@ -380,7 +380,12 @@ class MassMailing(models.Model):
     def _compute_warning_message(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):

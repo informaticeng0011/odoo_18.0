@@ -3,6 +3,7 @@
 
 from odoo.fields import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import HttpCase, tagged
 
 
@@ -16,6 +17,8 @@ class TestWebsiteSaleReorderFromPortal(HttpCase):
     def test_website_sale_reorder_from_portal(self):
         product_1, product_2 = self.env['product.product'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 
 from odoo.addons.base.tests.common import HttpCaseWithUserPortal
@@ -37,6 +40,9 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
             'partner_id': cls.partner_portal.id,
         })
         cls.product_1, cls.product_2 = cls.env['product.product'].create([
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             {
                 'name': 'Reorder Product 1',
@@ -50,6 +56,11 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
             },
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_website_sale_reorder_from_portal(self):
+>>>>>>> upstream/18.0
 =======
 
     def test_website_sale_reorder_from_portal(self):
@@ -76,6 +87,7 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
         ptav_l = ptavs.filtered(lambda ptav: ptav.product_attribute_value_id == l)
         user_admin = self.env.ref('base.user_admin')
 <<<<<<< HEAD
+<<<<<<< HEAD
         order = self.env['sale.order'].create({
             'partner_id': user_admin.partner_id.id,
             'state': 'sale',
@@ -86,6 +98,8 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
                 Command.create({
                     'product_id': product_2.id,
 =======
+=======
+>>>>>>> upstream/18.0
         order = self.empty_cart
         order.write({
             'partner_id': user_admin.partner_id.id,
@@ -95,6 +109,9 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
                 }),
                 Command.create({
                     'product_id': self.product_2.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }),
                 Command.create({
@@ -112,6 +129,10 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
             ],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        order.action_confirm()
+>>>>>>> upstream/18.0
 =======
         order.action_confirm()
 >>>>>>> upstream/18.0
@@ -130,7 +151,10 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
             order_lines.product_no_variant_attribute_value_ids,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_is_reorder_allowed(self):
         line_published_product = Command.create({
@@ -187,4 +211,7 @@ class TestWebsiteSaleReorderFromPortal(HttpCaseWithUserPortal):
             order._is_reorder_allowed(),
             "Reordering a zero-priced product should be allowed when enabled",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

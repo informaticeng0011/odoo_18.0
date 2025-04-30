@@ -4,7 +4,11 @@ from contextlib import closing
 from unittest.mock import patch
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, users
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 from odoo import fields, Command
 
@@ -205,6 +209,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
     def _get_caba_moves(self, moves):
         return moves.search([('tax_cash_basis_origin_move_id', 'in', moves.ids)])
 
+<<<<<<< HEAD
+=======
+    @users('simple_accountman')
+>>>>>>> upstream/18.0
     def test_full_reconcile_bunch_lines(self):
         """ Test the reconciliation with multiple lines at the same time and ensure the result is always a full
         reconcile whatever the number of involved currencies.

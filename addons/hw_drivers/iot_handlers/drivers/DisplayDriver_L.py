@@ -163,7 +163,11 @@ class DisplayController(http.Controller):
             return {'status': 'retrieved', 'data': display.customer_display_data}
         if action == 'rotate_screen':
 <<<<<<< HEAD
+<<<<<<< HEAD
             display.set_orientation(Orientation(data))
+=======
+            display.set_orientation(Orientation[data.upper()])
+>>>>>>> upstream/18.0
 =======
             display.set_orientation(Orientation[data.upper()])
 >>>>>>> upstream/18.0
