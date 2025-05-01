@@ -178,7 +178,10 @@ class TestSaleMrpFlowCommon(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         p.uom_po_id = uom_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2535,7 +2538,10 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         ] + expected_pick_moves
         self.assertRecordValues(pick.move_ids.sorted(lambda m: m.quantity), expected_pick_moves)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_return_kit_in_quarantine_location(self):
         """
@@ -2602,4 +2608,7 @@ class TestSaleMrpFlow(TestSaleMrpFlowCommon):
         internal_picking.button_validate()
         self.assertEqual(internal_picking.state, 'done')
         self.assertEqual(order.order_line.qty_delivered, 0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

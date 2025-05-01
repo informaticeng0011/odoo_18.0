@@ -65,8 +65,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* '新規' ステータスは、ユーザが未確認の新規修理オーダをエンコードする場合に使用されます。\n"
 "* '確認済' ステータスはユーザが修理オーダを確認した際に使用されます。\n"
+=======
+"* '新規' ステータスは、ユーザが未確定の新規修理オーダをエンコードする場合に使用されます。\n"
+"* '確定済' ステータスはユーザが修理オーダを確定した際に使用されます。\n"
+>>>>>>> upstream/18.0
 =======
 "* '新規' ステータスは、ユーザが未確定の新規修理オーダをエンコードする場合に使用されます。\n"
 "* '確定済' ステータスはユーザが修理オーダを確定した際に使用されます。\n"
@@ -233,7 +238,11 @@ msgid "Add internal notes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "内部注記を追加"
+=======
+msgstr "内部メモを追加"
+>>>>>>> upstream/18.0
 =======
 msgstr "内部メモを追加"
 >>>>>>> upstream/18.0
@@ -295,7 +304,11 @@ msgstr "添付数"
 #: code:addons/repair/models/repair.py:0
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__available
 msgid "Available"
+<<<<<<< HEAD
 msgstr "処理可能"
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-javascript
@@ -344,7 +357,11 @@ msgstr "カテゴリー"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Check availability"
+<<<<<<< HEAD
 msgstr "利用可能確認"
+=======
+msgstr "在庫を確認"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__partner_id
@@ -398,7 +415,11 @@ msgid "Confirm Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理確認"
+=======
+msgstr "修理を確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理を確定"
 >>>>>>> upstream/18.0
@@ -580,7 +601,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一部の部品については、当初の需要と実際に使用された数量に差異があります。確認しますか？"
+=======
+msgstr "一部の部品については、当初の需要と実際に使用された数量に差異があります。確定しますか？"
+>>>>>>> upstream/18.0
 =======
 msgstr "一部の部品については、当初の需要と実際に使用された数量に差異があります。確定しますか？"
 >>>>>>> upstream/18.0
@@ -901,7 +926,11 @@ msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理予定修理オーダ数"
+=======
+msgstr "処理待ちの修理オーダ数"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ちの修理オーダ数"
 >>>>>>> upstream/18.0

@@ -63,7 +63,11 @@ def on_message(ws, messages):
                 _logger.debug("message ignored due to different iot mac: %s", iot_mac)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif message_type != 'print_confirmation':  # intended to be ignored
+=======
+        elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
+>>>>>>> upstream/18.0
 =======
         elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
 >>>>>>> upstream/18.0

@@ -95,8 +95,11 @@ export class ProductCard extends Component {
         if (product.isCombo()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.router.navigate("combo_selection", { id: product.id });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             const selectedCombos = [];
@@ -127,6 +130,9 @@ export class ProductCard extends Component {
                 this.selfOrder.addToCart(product, 1, "", {}, {}, selectedCombos);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

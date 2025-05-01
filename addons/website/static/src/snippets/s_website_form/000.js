@@ -34,7 +34,10 @@ import wUtils from '@website/js/utils';
             if (this.editableMode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 // TODO: Improve this. Since the form behavior was handled using
@@ -48,6 +51,9 @@ import wUtils from '@website/js/utils';
                     }
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67,7 +73,10 @@ import wUtils from '@website/js/utils';
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         /**
@@ -97,6 +106,9 @@ import wUtils from '@website/js/utils';
                 .filter(dataForValuesFieldEl => dataForValuesFieldEl && dataForValuesFieldEl.name !== "email_to");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312,9 +324,12 @@ import wUtils from '@website/js/utils';
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of this.initialValues.entries()) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Prevent "data-for" values removal on destroy, they are still used
@@ -330,6 +345,9 @@ import wUtils from '@website/js/utils';
             // Reset the initial default values.
             for (const [fieldEl, initialValue] of initialValuesToReset.entries()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -23,6 +23,12 @@ class pos_config(models.Model):
         return super(pos_config, self).open_ui()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()

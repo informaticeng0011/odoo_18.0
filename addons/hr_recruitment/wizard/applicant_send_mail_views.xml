@@ -16,16 +16,22 @@
                         widget="html_mail"
                         placeholder="Write your message here..."
 <<<<<<< HEAD
+<<<<<<< HEAD
                         force_save="1"/>
                 <group>
                             <field name="attachment_ids" widget="many2many_binary" string="Attach a file" nolabel="1" colspan="2"/>
                             <field name="template_id" string="Load template" options="{'no_create': True}"/>
 =======
+=======
+>>>>>>> upstream/18.0
                         options="{'codeview': true, 'dynamic_placeholder': true}" force_save="1"/>
                 <group>
                     <field name="attachment_ids"
                         widget="many2many_binary" string="Attach a file" nolabel="1" colspan="2"/>
                     <field name="template_id" string="Load template" options="{'no_create': True}"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 </group>
                 <footer>

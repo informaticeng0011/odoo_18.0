@@ -6,6 +6,10 @@
 # JernejEditor, 2024
 # Wil Odoo, 2024
 # Gregor Flajs, 2025
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Gregor Flajs, 2025\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -306,7 +314,11 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__body_has_template_value
 msgid "Body content is the same as the template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsebina telesa je enaka kot v predlogi"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
@@ -1780,6 +1792,13 @@ msgid ""
 "a placeholder expression that provides the appropriate language, e.g. {{ "
 "object.partner_id.lang }}."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izbirni jezik prevoda (koda ISO), ki ga je treba izbrati pri pošiljanju "
+"e-pošte. Če ni nastavljen, bo uporabljena angleška različica. Običajno naj "
+"bo to nadomestni izraz, ki ponuja ustrezen jezik, npr. {{ "
+"object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
@@ -1934,7 +1953,11 @@ msgstr "Datum registracije"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_send_mail__render_model
 msgid "Rendering Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model upodabljanja"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
@@ -2211,7 +2234,11 @@ msgstr "Naziv oznake"
 #. module: fleet
 #: model:ir.model.constraint,message:fleet.constraint_fleet_vehicle_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 
 #. module: fleet
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_tag_action

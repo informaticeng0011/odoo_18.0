@@ -3985,7 +3985,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
         self.assertEqual(move.currency_id, self.other_currency)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_currency_mismatch_account_currency(self):
         """
         Test that an invoice cannot be posted if the invoice currency does not match the currency on the receivable/payable account.
@@ -4012,6 +4015,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
         with self.assertRaisesRegex(UserError, "The account selected on your journal entry forces to provide a secondary currency"):
             move.currency_id = self.company_data['currency']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @freeze_time('2019-01-01')
     def test_date_reversal_exchange_move(self):

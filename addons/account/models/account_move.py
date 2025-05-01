@@ -805,7 +805,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.invoice_date:
+=======
+            if not move.invoice_date or not move.is_invoice():
+>>>>>>> upstream/18.0
 =======
             if not move.invoice_date or not move.is_invoice():
 >>>>>>> upstream/18.0
@@ -949,7 +953,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (not move.name or move.name == '/') and self.date and not move._get_last_sequence():
+=======
+            if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
+>>>>>>> upstream/18.0
 =======
             if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
 >>>>>>> upstream/18.0
@@ -3365,7 +3373,12 @@ class AccountMove(models.Model):
                 if 'tax_totals' in vals:
                     super(AccountMove, move).write({'tax_totals': vals['tax_totals']})
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'journal_id' in vals:
+=======
+
+        if any(field in vals for field in ['journal_id', 'currency_id']):
+>>>>>>> upstream/18.0
 =======
 
         if any(field in vals for field in ['journal_id', 'currency_id']):

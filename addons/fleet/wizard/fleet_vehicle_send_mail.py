@@ -16,11 +16,17 @@ class FleetVehicleSendMail(models.TransientModel):
         'wizard_id', 'attachment_id', string='Attachments')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('subject')
     def _compute_render_model(self):
         self.render_model = 'fleet.vehicle'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.onchange('template_id')
     def _onchange_template_id(self):

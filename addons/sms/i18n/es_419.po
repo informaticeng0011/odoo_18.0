@@ -558,7 +558,11 @@ msgid "Following numbers are not correctly encoded: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Los siguientes números no tienen una codificación adecuada: %s"
+=======
+msgstr "Los siguientes números no están codificados correctamente: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Los siguientes números no están codificados correctamente: %s"
 >>>>>>> upstream/18.0
@@ -1411,8 +1415,14 @@ msgstr "Fallos de envío "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
 msgstr "Solo es posible enviar SMS en mail.thread o en un modelo transitorio"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+msgstr ""
+"Solo es posible enviar SMS en un modelo mail.thread que no es transitorio"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr ""

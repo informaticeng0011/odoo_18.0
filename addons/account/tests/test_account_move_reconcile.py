@@ -5,7 +5,11 @@ from unittest.mock import patch
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, users
 >>>>>>> upstream/18.0
@@ -210,6 +214,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         return moves.search([('tax_cash_basis_origin_move_id', 'in', moves.ids)])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('simple_accountman')
+>>>>>>> upstream/18.0
 =======
     @users('simple_accountman')
 >>>>>>> upstream/18.0

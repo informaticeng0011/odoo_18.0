@@ -374,11 +374,14 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # If the resource is flexible, return the whole period from start_dt to end_dt with a dummy attendance
                     dummy_attendance = self.env['resource.calendar.attendance'].new({
                         'duration_hours': (end - start).total_seconds() / 3600,
                         'duration_days': (end - start).days + 1,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -568,11 +574,14 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             day_hours[start.date()] += interval_hours
             if len(self) == 1 and self.flexible_hours:
                 day_days[start.date()] += interval_hours / self.hours_per_day if self.hours_per_day else 0
             else:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -593,6 +602,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

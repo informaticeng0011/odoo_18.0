@@ -5,6 +5,10 @@ from odoo.exceptions import UserError, ValidationError
 from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -876,7 +880,10 @@ class TestSaleService(TestCommonSaleTimesheet):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -941,6 +948,9 @@ class TestSaleService(TestCommonSaleTimesheet):
         product = product_form.save()
         self.assertEqual(product.uom_id, uom_day, "time UoM default was not respected")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

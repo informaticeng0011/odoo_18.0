@@ -5,7 +5,11 @@
 
 // Sample data global rules
 .o_view_sample_data {
+<<<<<<< HEAD
     .form-check {
+=======
+    > :not(.o_search_panel) .form-check {
+>>>>>>> upstream/18.0
         pointer-events: none !important;
     }
 }

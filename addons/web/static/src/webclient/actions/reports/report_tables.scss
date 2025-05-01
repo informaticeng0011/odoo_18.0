@@ -15,13 +15,19 @@ table.table {
 div#total {
     // Avoid crop in the total table if in middle of 2 pages
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     width: 100%;
     display: table;
     // override row style
     --gutter-x: 0;
     --gutter-y: 0;
     margin: 0;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     page-break-inside: avoid;
 }

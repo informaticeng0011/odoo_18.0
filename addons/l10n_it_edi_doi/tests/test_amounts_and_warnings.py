@@ -11,7 +11,10 @@ from odoo.tests import tagged, Form
 class TestItEdiDoiRemaining(TestItEdiDoi):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @classmethod
@@ -19,6 +22,9 @@ class TestItEdiDoiRemaining(TestItEdiDoi):
         super().setUpClass()
         cls.env.user.groups_id |= cls.env.ref('sales_team.group_sale_salesman')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

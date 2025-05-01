@@ -1310,7 +1310,10 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
         self.assertEqual(po.order_line.qty_received, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1381,6 +1384,9 @@ class TestPurchaseMrpFlow(AccountTestInvoicingCommon):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

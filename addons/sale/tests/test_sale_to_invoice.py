@@ -1294,7 +1294,10 @@ class TestSaleToInvoice(TestSaleCommon):
         # so the credit note cannot be considered a reversal of the invoice
         self.assertFalse(credit_note.reversed_entry_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_refund_salesteam(self):
         """Check that salesperson & sales team doesn't change when creating a refund."""
@@ -1321,4 +1324,7 @@ class TestSaleToInvoice(TestSaleCommon):
             invoice.team_id, team2,
             "Invoice team should be the same as the order's team",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

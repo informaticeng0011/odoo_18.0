@@ -17,7 +17,10 @@ export function isBrowserFirefox() {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
  * True if the browser is Microsoft Edge.
  */
 export function isBrowserMicrosoftEdge() {
@@ -25,6 +28,9 @@ export function isBrowserMicrosoftEdge() {
 }
 
 /**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * true if the browser is based on Safari (Safari, Epiphany)
  *

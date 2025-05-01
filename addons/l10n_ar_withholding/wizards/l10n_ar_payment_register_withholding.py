@@ -37,7 +37,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
             # We search for the payments in the same month of the same regimen and the same code.
             domain_same_period_withholdings = [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 *self.env['account.move.line']._check_company_domain(self.tax_id.company_id),
+=======
+                ('company_id', 'child_of', self.tax_id.company_id.id),
+>>>>>>> upstream/18.0
 =======
                 ('company_id', 'child_of', self.tax_id.company_id.id),
 >>>>>>> upstream/18.0
@@ -47,7 +51,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
                 ('partner_id', '=', self.payment_register_id.partner_id.commercial_partner_id.id),
                 ('date', '<=', to_date), ('date', '>=', from_date)]
 <<<<<<< HEAD
+<<<<<<< HEAD
             if same_period_partner_withholdings := self.env['account.move.line']._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
+=======
+            if same_period_partner_withholdings := self.env['account.move.line'].sudo()._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
+>>>>>>> upstream/18.0
 =======
             if same_period_partner_withholdings := self.env['account.move.line'].sudo()._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
 >>>>>>> upstream/18.0
@@ -56,7 +64,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
                 same_period_withholdings = 0.0
             domain_same_period_base = [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 *self.env['account.move.line']._check_company_domain(self.tax_id.company_id),
+=======
+                ('company_id', 'child_of', self.tax_id.company_id.id),
+>>>>>>> upstream/18.0
 =======
                 ('company_id', 'child_of', self.tax_id.company_id.id),
 >>>>>>> upstream/18.0
@@ -66,7 +78,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
                 ('partner_id', '=', self.payment_register_id.partner_id.commercial_partner_id.id),
                 ('date', '<=', to_date), ('date', '>=', from_date)]
 <<<<<<< HEAD
+<<<<<<< HEAD
             if same_period_partner_base := self.env['account.move.line']._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
+=======
+            if same_period_partner_base := self.env['account.move.line'].sudo()._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
+>>>>>>> upstream/18.0
 =======
             if same_period_partner_base := self.env['account.move.line'].sudo()._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
 >>>>>>> upstream/18.0

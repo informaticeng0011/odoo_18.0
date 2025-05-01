@@ -179,7 +179,10 @@ def test_uninstall(args):
 def test_standalone(args):
     """ Tries to launch standalone scripts tagged with @post_testing """
     # load the registry once for script discovery
+<<<<<<< HEAD
     threading.current_thread().dbname = args.database
+=======
+>>>>>>> upstream/18.0
     registry = Registry(args.database)
     for module_name in registry._init_modules:
         # import tests for loaded modules
@@ -203,12 +206,20 @@ def test_standalone(args):
             except Exception:
                 _logger.error("Standalone script %s failed", func.__name__, exc_info=True)
 
+<<<<<<< HEAD
     _logger.info("%d standalone scripts executed in %.2fs" % (len(funcs), time.time() - start_time))
+=======
+    _logger.info("%d standalone scripts executed in %.2fs", len(funcs), time.time() - start_time)
+>>>>>>> upstream/18.0
 
 
 if __name__ == '__main__':
     args = parse_args()
 
+<<<<<<< HEAD
+=======
+    config['dbname'] = threading.current_thread().dbname = args.database
+>>>>>>> upstream/18.0
     # handle paths option
     if args.addons_path:
         odoo.tools.config['addons_path'] = ','.join([args.addons_path, odoo.tools.config['addons_path']])

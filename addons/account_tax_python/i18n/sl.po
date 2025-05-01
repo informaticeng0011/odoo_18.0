@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +41,19 @@ msgid ""
 "        e.g 200 * (1 - 10%) = 180 (price included)\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"    - Skupina davkov: Davek je niz poddavkov.\n"
+"- Fiksni: Znesek davka ostane enak ne glede na ceno.\n"
+"- Odstotek: Znesek davka je % cene:\n"
+"npr. 100 * (1 + 10 %) = 110 (cena ni vključena)\n"
+"npr. 110 / (1 + 10 %) = 100 (cena je vključena)\n"
+"- Odstotek vključenega davka: Znesek davka je delček cene:\n"
+"npr. 180 / (1 - 10 %) = 200 (cena ni vključena)\n"
+"npr. 200 * (1 - 10 %) = 180 (cena je vključena))\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: account_tax_python
 #: model:ir.model.fields,help:account_tax_python.field_account_tax__formula

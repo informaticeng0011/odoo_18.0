@@ -3,6 +3,10 @@
 from base64 import b64encode
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -1551,7 +1555,11 @@ class AccountMove(models.Model):
         self.env['res.company']._with_locked_records(self)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         files_to_upload = []
+=======
+        files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
+>>>>>>> upstream/18.0
 =======
         files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
 >>>>>>> upstream/18.0
@@ -1564,9 +1572,12 @@ class AccountMove(models.Model):
         for move in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_vals = attachments_vals[move]
             filename = attachment_vals['name']
             content = b64encode(attachment_vals['raw']).decode()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1583,6 +1594,7 @@ class AccountMove(models.Model):
             else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.l10n_it_edi_state = 'being_sent'
                 files_to_upload.append({'filename': filename, 'xml': content})
                 filename_move[filename] = move
@@ -1591,6 +1603,8 @@ class AccountMove(models.Model):
         try:
             results = self._l10n_it_edi_upload(files_to_upload)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 attachment_vals = attachments_vals[move]
@@ -1608,6 +1622,9 @@ class AccountMove(models.Model):
             for proxy_user, (moves, files) in files_to_upload.items():
                 results.update(moves._l10n_it_edi_upload(files))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
