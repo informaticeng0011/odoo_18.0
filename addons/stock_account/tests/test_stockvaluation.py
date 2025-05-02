@@ -4359,7 +4359,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4413,6 +4416,9 @@ class TestStockValuation(TestStockValuationBase):
         self.assertEqual(self.product1.qty_available, 0.00)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

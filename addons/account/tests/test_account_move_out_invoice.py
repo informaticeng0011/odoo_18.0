@@ -3986,7 +3986,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_invoice_currency_mismatch_account_currency(self):
@@ -4016,6 +4019,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
             move.currency_id = self.company_data['currency']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

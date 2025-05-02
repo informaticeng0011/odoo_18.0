@@ -282,9 +282,12 @@ class AccountMoveLine(models.Model):
             return self.price_unit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = self.price_unit * (1 - self.discount / 100) if self.discount else\
                      self.price_subtotal / self.quantity
 =======
+=======
+>>>>>>> upstream/18.0
         if self.discount != 100:
             if not any(t.price_include for t in self.tax_ids) and self.discount:
                 price_unit = self.price_unit * (1 - self.discount / 100)
@@ -293,6 +296,9 @@ class AccountMoveLine(models.Model):
         else:
             price_unit = self.price_unit
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return -price_unit if self.move_id.move_type == 'in_refund' else price_unit
 
@@ -335,6 +341,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -365,11 +372,16 @@ class AccountMoveLine(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _get_exchange_journal(self, company):
         if (
             self and self.move_id.sudo().stock_valuation_layer_ids and
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -382,7 +394,11 @@ class AccountMoveLine(models.Model):
         if (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self and self.move_id.stock_valuation_layer_ids and
+=======
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
 >>>>>>> upstream/18.0
@@ -406,6 +422,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -345,7 +345,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -400,6 +403,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -512,6 +518,12 @@ class PosConfig(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'standard'
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'standard'
@@ -535,6 +547,10 @@ class PosConfig(models.Model):
                 'company_id': vals.get('company_id', False),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'implementation': self._config_sequence_implementation(),
+>>>>>>> upstream/18.0
 =======
                 'implementation': self._config_sequence_implementation(),
 >>>>>>> upstream/18.0

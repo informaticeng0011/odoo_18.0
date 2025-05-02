@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from __future__ import annotations
+
+>>>>>>> upstream/18.0
 =======
 from __future__ import annotations
 
@@ -62,6 +67,11 @@ class AddonsPackageFinder(spec.Finder):
                 submodule_search_locations=sys.modules[modname].__path__,
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        else:
+            return None
+>>>>>>> upstream/18.0
 =======
         else:
             return None

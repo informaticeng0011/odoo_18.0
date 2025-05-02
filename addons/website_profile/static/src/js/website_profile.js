@@ -9,7 +9,11 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
     selector: '.o_wprofile_email_validation_container',
     read_events: {
 <<<<<<< HEAD
+<<<<<<< HEAD
         'click .send_validation_email': '_onSendValidationEmailClick',
+=======
+        'click .send_validation_email': 'async _onSendValidationEmailClick',
+>>>>>>> upstream/18.0
 =======
         'click .send_validation_email': 'async _onSendValidationEmailClick',
 >>>>>>> upstream/18.0
@@ -20,6 +24,10 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
     // Handlers
     //--------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -31,7 +39,11 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
         ev.preventDefault();
         const element = ev.currentTarget;
 <<<<<<< HEAD
+<<<<<<< HEAD
         rpc('/profile/send_validation_email', {
+=======
+        return rpc('/profile/send_validation_email', {
+>>>>>>> upstream/18.0
 =======
         return rpc('/profile/send_validation_email', {
 >>>>>>> upstream/18.0
@@ -40,6 +52,10 @@ publicWidget.registry.websiteProfile = publicWidget.Widget.extend({
             if (data) {
                 redirect(element.dataset["redirect_url"]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                return new Promise(() => {});
+>>>>>>> upstream/18.0
 =======
                 return new Promise(() => {});
 >>>>>>> upstream/18.0

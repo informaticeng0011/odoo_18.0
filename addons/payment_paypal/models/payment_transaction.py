@@ -59,9 +59,12 @@ class PaymentTransaction(models.Model):
         :rtype: dict
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         country_code = self.partner_country_id.code or self.company_id.country_id.code
         partner_first_name, partner_last_name = payment_utils.split_partner_name(self.partner_name)
 =======
+=======
+>>>>>>> upstream/18.0
         partner_first_name, partner_last_name = payment_utils.split_partner_name(self.partner_name)
         if self.partner_id.is_public:
             invoice_address_vals = {'address': {'country_code': self.company_id.country_code}}
@@ -72,6 +75,9 @@ class PaymentTransaction(models.Model):
         shipping_preference = 'SET_PROVIDED_ADDRESS' if shipping_address_vals else 'NO_SHIPPING'
 
         # See https://developer.paypal.com/docs/api/orders/v2/#orders_create!ct=application/json
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         payload = {
             'intent': 'CAPTURE',
@@ -86,7 +92,10 @@ class PaymentTransaction(models.Model):
                     'payee':  {
                         'display_data': {
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'business_email':  self.provider_id.company_id.email,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             'brand_name': self.provider_id.company_id.name,
@@ -94,6 +103,10 @@ class PaymentTransaction(models.Model):
                         'email_address': paypal_utils.get_normalized_email_account(self.provider_id)
                     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    **shipping_address_vals,
+>>>>>>> upstream/18.0
 =======
                     **shipping_address_vals,
 >>>>>>> upstream/18.0
@@ -103,7 +116,11 @@ class PaymentTransaction(models.Model):
                 'paypal': {
                     'experience_context': {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'shipping_preference': 'NO_SHIPPING',
+=======
+                        'shipping_preference': shipping_preference,
+>>>>>>> upstream/18.0
 =======
                         'shipping_preference': shipping_preference,
 >>>>>>> upstream/18.0
@@ -112,6 +129,7 @@ class PaymentTransaction(models.Model):
                         'given_name': partner_first_name,
                         'surname': partner_last_name,
                     },
+<<<<<<< HEAD
 <<<<<<< HEAD
                     'address': {
                         'address_line_1': self.partner_address,
@@ -123,15 +141,21 @@ class PaymentTransaction(models.Model):
 =======
                     **invoice_address_vals,
 >>>>>>> upstream/18.0
+=======
+                    **invoice_address_vals,
+>>>>>>> upstream/18.0
                 },
             },
         }
         # PayPal does not accept None set to fields and to avoid users getting errors when email
         # is not set on company we will add it conditionally since its not a required field.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_email:
             payload['payment_source']['paypal']['email_address'] = self.partner_email
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if company_email := self.provider_id.company_id.email:

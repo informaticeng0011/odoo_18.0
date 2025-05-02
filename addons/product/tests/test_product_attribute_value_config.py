@@ -28,6 +28,10 @@ class TestProductAttributeValueCommon(BaseCommon):
             cls.hdd_attribute,
             cls.size_attribute,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.extras_attribute,
+>>>>>>> upstream/18.0
 =======
             cls.extras_attribute,
 >>>>>>> upstream/18.0
@@ -96,7 +100,10 @@ class TestProductAttributeValueCommon(BaseCommon):
                 }),
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         }, {
             'name': "Extras",
             'sequence': 5,
@@ -112,6 +119,9 @@ class TestProductAttributeValueCommon(BaseCommon):
                     'sequence': 2,
                 }),
             ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }])
 
@@ -120,6 +130,10 @@ class TestProductAttributeValueCommon(BaseCommon):
         cls.hdd_1, cls.hdd_2, cls.hdd_4 = cls.hdd_attribute.value_ids
         cls.size_m, cls.size_l, cls.size_xl = cls.size_attribute.value_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
+>>>>>>> upstream/18.0
 =======
         cls.extra_cpu, cls.extra_ram = cls.extras_attribute.value_ids
 >>>>>>> upstream/18.0
@@ -140,12 +154,18 @@ class TestProductAttributeValueCommon(BaseCommon):
             'value_ids': [Command.set([cls.hdd_1.id, cls.hdd_2.id, cls.hdd_4.id])],
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.COMPUTER_EXTRAS_PTAL_VALUES = {
             'product_tmpl_id': cls.computer.id,
             'attribute_id': cls.extras_attribute.id,
             'value_ids': [Command.set([cls.extra_cpu.id, cls.extra_ram.id])],
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         cls._add_computer_attribute_lines()
@@ -168,6 +188,10 @@ class TestProductAttributeValueCommon(BaseCommon):
             cls.computer_ram_attribute_lines,
             cls.computer_hdd_attribute_lines,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.computer_extras_attribute_lines,
+>>>>>>> upstream/18.0
 =======
             cls.computer_extras_attribute_lines,
 >>>>>>> upstream/18.0
@@ -176,6 +200,10 @@ class TestProductAttributeValueCommon(BaseCommon):
             cls.COMPUTER_RAM_PTAL_VALUES,
             cls.COMPUTER_HDD_PTAL_VALUES,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cls.COMPUTER_EXTRAS_PTAL_VALUES,
+>>>>>>> upstream/18.0
 =======
             cls.COMPUTER_EXTRAS_PTAL_VALUES,
 >>>>>>> upstream/18.0

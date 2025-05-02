@@ -6,6 +6,10 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -881,7 +885,10 @@ class TestSaleService(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -949,6 +956,9 @@ class TestSaleService(TestCommonSaleTimesheet):
         self.assertEqual(product.uom_id, uom_day, "time UoM default was not respected")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

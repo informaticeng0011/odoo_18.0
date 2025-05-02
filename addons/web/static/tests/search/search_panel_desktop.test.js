@@ -2979,7 +2979,10 @@ test("search panel width is kept when switching between controllers", async () =
     expect(queryFirst(".o_search_panel").offsetWidth).toBe(newWidth);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("search panel with sample data", async (assert) => {
     Partner._records = [];
@@ -3009,4 +3012,7 @@ test("search panel with sample data", async (assert) => {
     await getService("action").switchView("list");
     expect(getComputedStyle(queryAll(`.o_search_panel_filter_value:eq(0) input`)[0]).pointerEvents).toEqual('auto');
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

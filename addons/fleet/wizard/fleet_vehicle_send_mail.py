@@ -17,7 +17,10 @@ class FleetVehicleSendMail(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.depends('subject')
@@ -25,6 +28,9 @@ class FleetVehicleSendMail(models.TransientModel):
         self.render_model = 'fleet.vehicle'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

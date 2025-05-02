@@ -1503,7 +1503,11 @@ Please change the quantity done or the rounding precision of your unit of measur
         # create procurements for make to order moves
         procurement_requests = []
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_create_proc = self.browse(move_create_proc)
+=======
+        move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
+>>>>>>> upstream/18.0
 =======
         move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
 >>>>>>> upstream/18.0
@@ -1995,8 +1999,14 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.is_inventory or self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids) or\
             self.location_final_id and self.location_final_id._child_of(self.location_dest_id)
+=======
+        return self.is_inventory or (
+            self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
+        )
+>>>>>>> upstream/18.0
 =======
         return self.is_inventory or (
             self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
@@ -2130,7 +2140,11 @@ Please change the quantity done or the rounding precision of your unit of measur
         # The backorder moves are not yet in their own picking. We do not want to check entire packs for those
         # ones as it could messed up the result_package_id of the moves being currently validated
 <<<<<<< HEAD
+<<<<<<< HEAD
         backorder_moves.with_context(bypass_entire_pack=True)._action_confirm(merge=False)
+=======
+        backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
+>>>>>>> upstream/18.0
 =======
         backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
 >>>>>>> upstream/18.0
@@ -2399,6 +2413,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
+>>>>>>> upstream/18.0
 =======
         moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
 >>>>>>> upstream/18.0

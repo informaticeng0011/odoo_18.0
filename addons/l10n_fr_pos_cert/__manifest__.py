@@ -5,7 +5,11 @@
     'name': 'France - VAT Anti-Fraud Certification for Point of Sale (CGI 286 I-3 bis)',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.0',
+=======
+    'version': '1.1',
+>>>>>>> upstream/18.0
 =======
     'version': '1.1',
 >>>>>>> upstream/18.0

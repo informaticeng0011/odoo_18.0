@@ -1518,7 +1518,10 @@ class TestReorderingRule(TransactionCase):
             'product_id': product.id, 'product_uom_qty': 10,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_backorder_mto_buy(self):
         """
@@ -1556,4 +1559,7 @@ class TestReorderingRule(TransactionCase):
         self.assertEqual(delivery.backorder_ids.group_id, delivery.group_id)
         # Check that the PO was not updated not a new PO created
         self.assertEqual(self.env["purchase.order.line"].search([("product_id", "=", buy_product.id)]).product_qty, 100)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

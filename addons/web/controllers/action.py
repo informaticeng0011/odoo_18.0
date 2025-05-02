@@ -88,7 +88,11 @@ class Action(Controller):
                             results.append({'display_name': act['display_name']})
                     else:
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if act['res_model'] and act['type'] != 'ir.actions.client':
+=======
+                        if act.get('res_model') and act['type'] != 'ir.actions.client':
+>>>>>>> upstream/18.0
 =======
                         if act.get('res_model') and act['type'] != 'ir.actions.client':
 >>>>>>> upstream/18.0

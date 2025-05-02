@@ -1295,7 +1295,10 @@ class TestSaleToInvoice(TestSaleCommon):
         self.assertFalse(credit_note.reversed_entry_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1325,6 +1328,9 @@ class TestSaleToInvoice(TestSaleCommon):
             "Invoice team should be the same as the order's team",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

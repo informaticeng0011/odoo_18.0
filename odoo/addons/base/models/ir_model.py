@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import inspect
+>>>>>>> upstream/18.0
 =======
 import inspect
 >>>>>>> upstream/18.0
@@ -1415,7 +1419,11 @@ class ModelInherit(models.Model):
         get_model_id = IrModel._get_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         module_mapping = defaultdict(list)
+=======
+        module_mapping = defaultdict(OrderedSet)
+>>>>>>> upstream/18.0
 =======
         module_mapping = defaultdict(OrderedSet)
 >>>>>>> upstream/18.0
@@ -1436,11 +1444,14 @@ class ModelInherit(models.Model):
                     (model_id, get_model_id(parent_name), get_field_id(field))
                     for parent_name, field in cls._inherits.items()
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
 
                 for item in items:
                     module_mapping[item].append(cls._module)
 =======
+=======
+>>>>>>> upstream/18.0
                 ] + [
                     (model_id, get_model_id(field.comodel_name), get_field_id(field_name))
                     for (field_name, field) in inspect.getmembers(cls)
@@ -1451,6 +1462,9 @@ class ModelInherit(models.Model):
 
                 for item in items:
                     module_mapping[item].add(cls._module)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if not module_mapping:

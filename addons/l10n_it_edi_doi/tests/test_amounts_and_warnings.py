@@ -12,7 +12,10 @@ class TestItEdiDoiRemaining(TestItEdiDoi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23,6 +26,9 @@ class TestItEdiDoiRemaining(TestItEdiDoi):
         cls.env.user.groups_id |= cls.env.ref('sales_team.group_sale_salesman')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

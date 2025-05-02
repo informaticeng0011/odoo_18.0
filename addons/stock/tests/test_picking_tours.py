@@ -142,13 +142,19 @@ class TestStockPickingTour(HttpCase):
         the creation of new move lines (considering the real avaible quantity rather than DB data's).
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         admin_user = self.env.ref("base.user_admin")
         admin_user.write({
             'groups_id': [Command.link(self.env.ref("stock.group_production_lot").id)],
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         warehouse = self.env.ref("stock.warehouse0")
         product_lot = self.env['product.product'].create({

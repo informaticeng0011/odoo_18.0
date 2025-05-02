@@ -3,6 +3,10 @@
 from unittest.mock import patch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -99,7 +103,10 @@ class PaypalTest(PaypalCommon, PaymentHttpCommon):
             self._make_json_request(url, data=self.notification_data)
             self.assertEqual(origin_check_mock.call_count, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_provide_shipping_address(self):
         if 'sale.order' not in self.env:
@@ -159,4 +166,7 @@ class PaypalTest(PaypalCommon, PaymentHttpCommon):
             'admin_area_2': shipping_partner.city,
             'country_code': shipping_partner.country_code,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

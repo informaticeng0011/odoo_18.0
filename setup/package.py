@@ -415,7 +415,11 @@ class DockerWine(Docker):
             rf'cat /data/src/requirements*.txt  | while read PACKAGE; do wine {container_python} -m pip install "${{PACKAGE%%#*}}" ; done',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             rf'wine "c:\nsis-3.10\makensis.exe" {nsis_args} "c:\odoobuild\server\setup\win32\setup.nsi"',
+=======
+            rf'wine "c:\nsis-3.11\makensis.exe" {nsis_args} "c:\odoobuild\server\setup\win32\setup.nsi"',
+>>>>>>> upstream/18.0
 =======
             rf'wine "c:\nsis-3.11\makensis.exe" {nsis_args} "c:\odoobuild\server\setup\win32\setup.nsi"',
 >>>>>>> upstream/18.0
