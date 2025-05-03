@@ -711,6 +711,10 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.start_tour('/', 'website_powerbox_keyword', login='admin')
+>>>>>>> upstream/18.0
 =======
         self.start_tour('/', 'website_powerbox_keyword', login='admin')
 >>>>>>> upstream/18.0
@@ -824,6 +828,12 @@ class TestUi(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def test_popup_visibility_option(self):
+        self.start_tour("/", "website_popup_visibility_option", login="admin")
+>>>>>>> upstream/18.0
 =======
 
     def test_popup_visibility_option(self):

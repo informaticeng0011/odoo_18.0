@@ -224,6 +224,7 @@ class PosConfig(models.Model):
                 'records': records
             })
 
+<<<<<<< HEAD
     def read_config_open_orders(self, domain, record_ids):
         all_domain = expression.OR([domain, [('id', 'in', record_ids.get('pos.order')), ('config_id', '=', self.id)]])
         all_orders = self.env['pos.order'].search(all_domain)
@@ -234,6 +235,31 @@ class PosConfig(models.Model):
 
         return {
             'dynamic_records': all_orders.filtered_domain(domain).read_pos_data([], self.id),
+=======
+    def read_config_open_orders(self, domain, record_ids=[]):
+        delete_record_ids = {}
+        dynamic_records = {}
+
+        for model, domain in domain.items():
+            ids = record_ids[model]
+            delete_record_ids[model] = [id for id in ids if not self.env[model].browse(id).exists()]
+            dynamic_records[model] = self.env[model].search(domain)
+
+        pos_order_data = dynamic_records.get('pos.order') or self.env['pos.order']
+        data = pos_order_data.read_pos_data([], self.id)
+
+        for key, records in dynamic_records.items():
+            fields = self.env[key]._load_pos_data_fields(self.id)
+            ids = list(set(records.ids + [record['id'] for record in data.get(key, [])]))
+            dynamic_records[key] = self.env[key].browse(ids).read(fields, load=False)
+
+        for key, value in data.items():
+            if key not in dynamic_records:
+                dynamic_records[key] = value
+
+        return {
+            'dynamic_records': dynamic_records,
+>>>>>>> upstream/18.0
             'deleted_record_ids': delete_record_ids,
         }
 
@@ -346,7 +372,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -404,6 +433,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -519,6 +551,12 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'standard'
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'standard'
@@ -548,6 +586,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'implementation': self._config_sequence_implementation(),
+>>>>>>> upstream/18.0
 =======
                 'implementation': self._config_sequence_implementation(),
 >>>>>>> upstream/18.0

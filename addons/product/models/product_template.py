@@ -33,7 +33,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'uom_id' in fields_list and not res.get('uom_id'):
+=======
+        if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
+>>>>>>> upstream/18.0
 =======
         if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
 >>>>>>> upstream/18.0
@@ -1290,6 +1294,11 @@ class ProductTemplate(models.Model):
         line_index = 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # determines which ptav we're working on
+        current_ptav = None
+>>>>>>> upstream/18.0
 =======
         # determines which ptav we're working on
         current_ptav = None
@@ -1310,12 +1319,15 @@ class ProductTemplate(models.Model):
                     yield partial_combination
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:
                     line_index += 1
                     continue
 
             current_ptav = current_line_values[current_ptav_index]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     # will break or continue further down as current_ptav_index is always -1 here
@@ -1325,6 +1337,9 @@ class ProductTemplate(models.Model):
             else:
                 current_ptav = current_line_values[current_ptav_index]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

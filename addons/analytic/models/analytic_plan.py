@@ -299,7 +299,11 @@ class AccountAnalyticPlan(models.Model):
                 self.env['account.analytic.account']._update_accounts_in_analytic_lines(
                     new_fname=new_parent._column_name(),
                     current_fname=plan._column_name(),
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
                 )
 
         res = super().write(vals)
@@ -310,7 +314,11 @@ class AccountAnalyticPlan(models.Model):
                 self.env['account.analytic.account']._update_accounts_in_analytic_lines(
                     new_fname=plan._column_name(),
                     current_fname=previous_parent._column_name(),
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
                 )
         return res
 

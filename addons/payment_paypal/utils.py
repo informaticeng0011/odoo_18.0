@@ -10,7 +10,10 @@ def get_normalized_email_account(provider):
     return provider.paypal_email_account.encode('ascii', 'ignore').decode('utf-8')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -72,6 +75,9 @@ def format_shipping_address(tx_sudo):
         address_vals['shipping'] = format_partner_address(partner_shipping)
     return address_vals
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

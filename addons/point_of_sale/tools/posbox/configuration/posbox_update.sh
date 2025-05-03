@@ -13,6 +13,10 @@ fi
 echo "addons/point_of_sale/tools/posbox/overwrite_after_init/home/pi/odoo" >> .git/info/sparse-checkout
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+echo "addons/iot_base" >> .git/info/sparse-checkout
+>>>>>>> upstream/18.0
 =======
 echo "addons/iot_base" >> .git/info/sparse-checkout
 >>>>>>> upstream/18.0

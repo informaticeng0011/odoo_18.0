@@ -547,7 +547,10 @@ class TestIrModelFieldsTranslation(HttpCase):
         self.start_tour("/odoo", 'ir_model_fields_translation_fr_tour2', login="admin")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -575,6 +578,9 @@ class TestIrModelInherit(TransactionCase):
         self.assertEqual(imi.parent_id.model, "ir.actions.server")
         self.assertEqual(imi.parent_field_id.name, "ir_actions_server_id")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -25,7 +25,11 @@ class AccountMoveLine(models.Model):
                     [(self.env['account.analytic.account'].browse(int(account_id)).root_plan_id._column_name(), "=", int(account_id))]
                     for account_id in key.split(",")
                 ])
+<<<<<<< HEAD
                 for key in line.analytic_distribution
+=======
+                for key in line.analytic_distribution or []
+>>>>>>> upstream/18.0
             ])
             for line in self
         ])

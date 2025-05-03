@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  @version 18.0.22
  @date 2025-04-04T08:57:29.775Z
  @hash 89a327918
@@ -93,6 +94,11 @@
  @version 18.0.25
  @date 2025-04-25T08:12:51.763Z
  @hash 24aac2c80
+>>>>>>> upstream/18.0
+=======
+ @version 18.0.26
+ @date 2025-05-02T12:51:54.542Z
+ @hash 5bdf50484
 >>>>>>> upstream/18.0
 -->
 <odoo>
@@ -492,7 +498,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               maxlength="7"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -634,7 +643,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         class="o-composer-assistant-container shadow position-absolute"
+=======
+        class="o-composer-assistant-container shadow position-absolute z-1"
+>>>>>>> upstream/18.0
 =======
         class="o-composer-assistant-container shadow position-absolute z-1"
 >>>>>>> upstream/18.0
@@ -810,7 +823,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-grid o-two-columns" tabindex="-1" t-on-wheel="onMouseWheel">
+=======
+    <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
+>>>>>>> upstream/18.0
 =======
     <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
 >>>>>>> upstream/18.0
@@ -1449,7 +1466,11 @@
 
   <t t-name="o-spreadsheet-RowResizer">
     <div
+<<<<<<< HEAD
       class="o-row-resizer overflow-hidden"
+=======
+      class="o-row-resizer"
+>>>>>>> upstream/18.0
       t-on-pointermove.self="onMouseMove"
       t-on-mouseleave="onMouseLeave"
       t-on-pointerdown.self.prevent="select"
@@ -1477,6 +1498,7 @@
           <div class="dragging-resizer" t-if="state.isResizing"/>
         </div>
       </t>
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenRowsGroups(sheetId)"
@@ -1503,12 +1525,48 @@
           </div>
         </div>
       </t>
+=======
+      <div
+        t-if="env.model.getters.getHiddenRowsGroups(sheetId).length"
+        class="pe-none overflow-hidden flex-shrink-0 position-relative h-100">
+        <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
+        <t
+          t-foreach="env.model.getters.getHiddenRowsGroups(sheetId)"
+          t-as="hiddenItem"
+          t-key="hiddenItem_index">
+          <div
+            class="position-absolute end-0 translate-middle-y"
+            t-att-style="getUnhideButtonStyle(hiddenItem[0])">
+            <div
+              class="o-unhide rounded mb-1 pe-auto"
+              t-att-class="{'invisible': !env.model.getters.isVisibleInViewport({sheetId, col:viewportZone.left, row:hiddenItem[0]-1})}"
+              t-att-data-index="hiddenItem_index"
+              t-att-data-direction="'up'"
+              t-on-click="() => this.unhide(hiddenItem)">
+              <t t-call="o-spreadsheet-Icon.CARET_UP"/>
+            </div>
+            <div
+              class="o-unhide rounded pe-auto"
+              t-att-class="{'invisible': !env.model.getters.isVisibleInViewport({sheetId, col: viewportZone.left, row: hiddenItem[hiddenItem.length-1]+1})}"
+              t-att-data-index="hiddenItem_index"
+              t-att-data-direction="'down'"
+              t-on-click="() => this.unhide(hiddenItem)">
+              <t t-call="o-spreadsheet-Icon.CARET_DOWN"/>
+            </div>
+          </div>
+        </t>
+      </div>
+>>>>>>> upstream/18.0
     </div>
   </t>
 
   <t t-name="o-spreadsheet-ColResizer">
     <div
+<<<<<<< HEAD
       class="o-col-resizer overflow-hidden"
+=======
+      class="o-col-resizer d-flex"
+>>>>>>> upstream/18.0
       t-on-pointermove.self="onMouseMove"
       t-on-mouseleave="onMouseLeave"
       t-on-pointerdown.self.prevent="select"
@@ -1536,6 +1594,7 @@
           <div class="dragging-resizer" t-if="state.isResizing"/>
         </div>
       </t>
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenColsGroups(sheetId)"
@@ -1562,6 +1621,38 @@
           </div>
         </div>
       </t>
+=======
+      <div
+        t-if="env.model.getters.getHiddenColsGroups(sheetId).length"
+        class="pe-none overflow-hidden flex-shrink-0 position-relative w-100">
+        <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
+        <t
+          t-foreach="env.model.getters.getHiddenColsGroups(sheetId)"
+          t-as="hiddenItem"
+          t-key="hiddenItem_index">
+          <div
+            class="position-absolute h-100 d-flex align-items-center translate-middle-x gap-2"
+            t-att-style="getUnhideButtonStyle(hiddenItem[0])">
+            <div
+              class="o-unhide rounded pe-auto"
+              t-att-class="{'invisible': !env.model.getters.isVisibleInViewport({sheetId, col: hiddenItem[0]-1, row: viewportZone.top})}"
+              t-att-data-index="hiddenItem_index"
+              t-att-data-direction="'left'"
+              t-on-click="() => this.unhide(hiddenItem)">
+              <t t-call="o-spreadsheet-Icon.CARET_LEFT"/>
+            </div>
+            <div
+              class="o-unhide rounded pe-auto"
+              t-att-class="{'invisible': !env.model.getters.isVisibleInViewport({sheetId, col: hiddenItem[hiddenItem.length-1]+1, row: viewportZone.top})}"
+              t-att-data-index="hiddenItem_index"
+              t-att-data-direction="'right'"
+              t-on-click="() => this.unhide(hiddenItem)">
+              <t t-call="o-spreadsheet-Icon.CARET_RIGHT"/>
+            </div>
+          </div>
+        </t>
+      </div>
+>>>>>>> upstream/18.0
     </div>
   </t>
 

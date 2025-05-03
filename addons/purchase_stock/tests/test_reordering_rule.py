@@ -1519,7 +1519,10 @@ class TestReorderingRule(TransactionCase):
         }])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1560,6 +1563,9 @@ class TestReorderingRule(TransactionCase):
         # Check that the PO was not updated not a new PO created
         self.assertEqual(self.env["purchase.order.line"].search([("product_id", "=", buy_product.id)]).product_qty, 100)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

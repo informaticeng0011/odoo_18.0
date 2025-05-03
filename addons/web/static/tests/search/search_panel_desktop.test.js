@@ -2980,7 +2980,10 @@ test("search panel width is kept when switching between controllers", async () =
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -3013,6 +3016,9 @@ test("search panel with sample data", async (assert) => {
     expect(getComputedStyle(queryAll(`.o_search_panel_filter_value:eq(0) input`)[0]).pointerEvents).toEqual('auto');
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -577,6 +577,7 @@ test("Line chart to support cumulative data", async () => {
     ]);
 });
 
+<<<<<<< HEAD
 test("cumulative line chart with past data before domain period", async () => {
     const serverData = getBasicServerData();
     serverData.models.partner.records = [
@@ -657,6 +658,47 @@ test("update existing chart to cumulate past data", async () => {
         type: "odoo_line",
         serverData,
         definition,
+=======
+const cumulativeDateServerData = getBasicServerData();
+cumulativeDateServerData.models.partner.records = [
+    { date: "2020-01-01", probability: 10 },
+    { date: "2021-01-01", probability: 2 },
+    { date: "2022-01-01", probability: 3 },
+    { date: "2022-03-01", probability: 4 },
+    { date: "2022-06-01", probability: 5 },
+];
+
+const cumulativeChartDefinition = {
+    type: "odoo_line",
+    metaData: {
+        groupBy: ["date"],
+        measure: "probability",
+        order: null,
+        resModel: "partner",
+    },
+    searchParams: {
+        comparison: null,
+        context: {},
+        domain: [
+            ["date", ">=", "2022-01-01"],
+            ["date", "<=", "2022-12-31"],
+        ],
+        groupBy: [],
+        orderBy: [],
+    },
+    title: "Partners",
+    dataSourceId: "42",
+    id: "42",
+}
+
+test("cumulative line chart with past data before domain period without specifying cumulated start", async () => {
+    const { model } = await createSpreadsheetWithChart({
+        type: "odoo_line",
+        serverData: cumulativeDateServerData,
+        definition: {
+            ...cumulativeChartDefinition,
+        },
+>>>>>>> upstream/18.0
     });
     const sheetId = model.getters.getActiveSheetId();
     const chartId = model.getters.getChartIds(sheetId)[0];
@@ -667,7 +709,11 @@ test("update existing chart to cumulate past data", async () => {
 
     model.dispatch("UPDATE_CHART", {
         definition: {
+<<<<<<< HEAD
             ...definition,
+=======
+            ...cumulativeChartDefinition,
+>>>>>>> upstream/18.0
             cumulative: true,
         },
         id: chartId,
@@ -679,6 +725,45 @@ test("update existing chart to cumulate past data", async () => {
     ]);
 });
 
+<<<<<<< HEAD
+=======
+test("cumulative line chart with past data before domain period specifying cumulated start as true", async () => {
+    const { model } = await createSpreadsheetWithChart({
+        type: "odoo_line",
+        serverData: cumulativeDateServerData,
+        definition: {
+            ...cumulativeChartDefinition,
+            cumulative: true,
+            cumulatedStart: true,
+        },
+    });
+    const sheetId = model.getters.getActiveSheetId();
+    const chartId = model.getters.getChartIds(sheetId)[0];
+    await waitForDataLoaded(model);
+    expect(model.getters.getChartRuntime(chartId).chartJsConfig.data.datasets[0].data).toEqual([
+        15, 19, 24,
+    ]);
+});
+
+test("cumulative line chart with past data before domain period specifying cumulated start as false", async () => {
+    const { model } = await createSpreadsheetWithChart({
+        type: "odoo_line",
+        serverData: cumulativeDateServerData,
+        definition: {
+            ...cumulativeChartDefinition,
+            cumulative: true,
+            cumulatedStart: false,
+        },
+    });
+    const sheetId = model.getters.getActiveSheetId();
+    const chartId = model.getters.getChartIds(sheetId)[0];
+    await waitForDataLoaded(model);
+    expect(model.getters.getChartRuntime(chartId).chartJsConfig.data.datasets[0].data).toEqual([
+        3, 7, 12,
+    ]);
+});
+
+>>>>>>> upstream/18.0
 test("Can insert odoo chart from a different model", async () => {
     const model = await createModelWithDataSource();
     insertListInSpreadsheet(model, { model: "product", columns: ["name"] });

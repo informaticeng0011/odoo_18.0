@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import inspect
+>>>>>>> upstream/18.0
 =======
 import inspect
 >>>>>>> upstream/18.0
@@ -1420,7 +1424,11 @@ class ModelInherit(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         module_mapping = defaultdict(list)
+=======
+        module_mapping = defaultdict(OrderedSet)
+>>>>>>> upstream/18.0
 =======
         module_mapping = defaultdict(OrderedSet)
 >>>>>>> upstream/18.0
@@ -1445,11 +1453,14 @@ class ModelInherit(models.Model):
                     for parent_name, field in cls._inherits.items()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]
 
                 for item in items:
                     module_mapping[item].append(cls._module)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 ] + [
@@ -1463,6 +1474,9 @@ class ModelInherit(models.Model):
                 for item in items:
                     module_mapping[item].add(cls._module)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -16,7 +16,11 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, hover, leave, queryFirst, waitFor, press } from "@odoo/hoot-dom";
+=======
+import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, hover, leave, queryFirst, waitFor, press, Deferred, edit } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -93,7 +97,11 @@ import { session } from "@web/session";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { WebClient } from "../../../web/static/src/webclient/webclient";
+=======
+import { WebClient } from "@web/webclient/webclient";
+>>>>>>> upstream/18.0
 =======
 import { WebClient } from "@web/webclient/webclient";
 >>>>>>> upstream/18.0
@@ -1216,7 +1224,10 @@ test("validating click on autocomplete item by pressing Enter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1317,6 +1328,9 @@ test("Tour don't backward when dropdown loading", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -14,7 +14,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDateTime } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61,6 +64,7 @@ export class OutdatedPageWatcherService {
      */
     setup(env, { bus_service, multi_tab, notification }) {
         this.notification = notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +148,9 @@ export class OutdatedPageWatcherService {
 =======
         this.multi_tab = multi_tab;
 >>>>>>> upstream/18.0
+=======
+        this.multi_tab = multi_tab;
+>>>>>>> upstream/18.0
         this.lastNotificationId = null;
         /** @deprecated */
         this.lastDisconnectDt = null;
@@ -155,7 +162,10 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -182,6 +192,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -199,6 +212,7 @@ export class OutdatedPageWatcherService {
             this.lastNotificationId = bus_service.lastNotificationId;
             this.lastDisconnectDt = DateTime.now();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +271,8 @@ export class OutdatedPageWatcherService {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         bus_service.addEventListener("connect", async () => {
             if (wasBusAlreadyConnected) {
                 this.checkHasMissedNotifications();
@@ -272,6 +288,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -297,7 +316,10 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331,6 +353,9 @@ export class OutdatedPageWatcherService {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -62,6 +62,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"הבעיה הזו מתרחשת משום שהכמות הופכת לאפס לאחר עיגול במהלך ההמרה. כדי לתקן זאת, יש להתאים את מקדמי ההמרה או את שיטת העיגול, כך שגם הכמות הקטנה ביותר ביחידת המקור לא תעוגל לאפס ביחידת היעד."
+>>>>>>> upstream/18.0
 =======
 "\n"
 "הבעיה הזו מתרחשת משום שהכמות הופכת לאפס לאחר עיגול במהלך ההמרה. כדי לתקן זאת, יש להתאים את מקדמי ההמרה או את שיטת העיגול, כך שגם הכמות הקטנה ביותר ביחידת המקור לא תעוגל לאפס ביחידת היעד."
@@ -92,7 +97,11 @@ msgid " - From \"%(uom_from)s\" to \"%(uom_to)s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- מ - \"%(uom_from)s\" ל -\"%(uom_to)s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "- מ - \"%(uom_from)s\" ל -\"%(uom_to)s\""
 >>>>>>> upstream/18.0
@@ -129,7 +138,11 @@ msgid "%(name)s Picking POS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s ליקוט קופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s ליקוט קופה"
 >>>>>>> upstream/18.0
@@ -158,7 +171,11 @@ msgid "%(name)s REFUND"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s זיכוי"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s זיכוי"
 >>>>>>> upstream/18.0
@@ -194,7 +211,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(old_pm)s השתנה ל %(new_pm)s וגם מ%(old_amount)s ל %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(old_pm)s השתנה ל %(new_pm)s וגם מ%(old_amount)s ל %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -220,7 +241,11 @@ msgid "%(old_pm)s changed to %(new_pm)s for %(old_amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(old_pm)s השתנה ל %(new_pm)s ל %(old_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(old_pm)s השתנה ל %(new_pm)s ל %(old_amount)s"
 >>>>>>> upstream/18.0
@@ -249,7 +274,11 @@ msgid "%(payment_method)s POS payment of %(partner)s in %(session)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(payment_method)s תשלום קופה של %(partner)s ב- %(session)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(payment_method)s תשלום קופה של %(partner)s ב- %(session)s"
 >>>>>>> upstream/18.0
@@ -293,7 +322,11 @@ msgid "%(product_name)s: Ordered quantity: %(old_qty)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: כמות מוזמנת:%(old_qty)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: כמות מוזמנת:%(old_qty)s"
 >>>>>>> upstream/18.0
@@ -331,7 +364,11 @@ msgid "%(refunded_order)s REFUND"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(refunded_order)s זיכוי"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(refunded_order)s זיכוי"
 >>>>>>> upstream/18.0
@@ -369,7 +406,11 @@ msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s %(title)s עם %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s %(title)s עם %(taxes)s"
 >>>>>>> upstream/18.0
@@ -410,7 +451,11 @@ msgid "%s customer(s) found for \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s לקוחות נמצאו עבור \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "%s לקוחות נמצאו עבור \"%s\"."
 >>>>>>> upstream/18.0
@@ -440,7 +485,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s יש סכום כולל של %s, האם אתה בטוח שברצונך למחוק הזמנה זו?"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s יש סכום כולל של %s, האם אתה בטוח שברצונך למחוק הזמנה זו?"
 >>>>>>> upstream/18.0
@@ -478,7 +527,11 @@ msgid "%s orders imported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s הזמנות יובאו"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s הזמנות יובאו"
 >>>>>>> upstream/18.0
@@ -516,7 +569,11 @@ msgid "%s untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ללא מע\"מ"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s ללא מע\"מ"
 >>>>>>> upstream/18.0
@@ -582,7 +639,11 @@ msgid "100.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "100.00"
 >>>>>>> upstream/18.0
@@ -668,7 +729,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קוד אלפאנומרי בן 5 תווים שישמש את משתמש הפורטל לבקשת חשבונית."
+>>>>>>> upstream/18.0
 =======
 msgstr "קוד אלפאנומרי בן 5 תווים שישמש את משתמש הפורטל לבקשת חשבונית."
 >>>>>>> upstream/18.0
@@ -784,6 +849,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">טרם "
+"נקבע</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">טרם "
 "נקבע</span>"
@@ -819,6 +889,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\"> ברקודים</span>\n"
+"                                   <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label\"> ברקודים</span>\n"
 "                                   <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
@@ -922,7 +997,11 @@ msgid "<strong>Config names</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong> הגדר שמות</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong> הגדר שמות</strong>"
 >>>>>>> upstream/18.0
@@ -1148,6 +1227,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"יומן הנהלת חשבונות המשמש לרישום פקודות יומן של סשן הקופה (POS) ותשלומים של "
+"חשבוניות מהקופה."
+>>>>>>> upstream/18.0
 =======
 "יומן הנהלת חשבונות המשמש לרישום פקודות יומן של סשן הקופה (POS) ותשלומים של "
 "חשבוניות מהקופה."
@@ -1176,7 +1260,11 @@ msgstr "פעולות"
 msgid "Activate SMS feature for point_of_sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפעל את תכונת ה-SMS עבור הקופות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הפעל את תכונת ה-SMS עבור הקופות"
 >>>>>>> upstream/18.0
@@ -1243,6 +1331,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הוסף קוד בן 5 ספרות על גבי הקבלה, שיאפשר ללקוח לבקש את החשבונית עבור ההזמנה "
+"דרך הפורטל."
+>>>>>>> upstream/18.0
 =======
 "הוסף קוד בן 5 ספרות על גבי הקבלה, שיאפשר ללקוח לבקש את החשבונית עבור ההזמנה "
 "דרך הפורטל."
@@ -1437,7 +1530,11 @@ msgid "Allow to access each other's active orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לאפשר גישה להזמנות הפעילות אחד של השני"
+>>>>>>> upstream/18.0
 =======
 msgstr "לאפשר גישה להזמנות הפעילות אחד של השני"
 >>>>>>> upstream/18.0
@@ -1487,7 +1584,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מאפשר לבדוק האם כל העלויות הכוללות של שורות ההזמנה כבר חושבו."
+>>>>>>> upstream/18.0
 =======
 msgstr "מאפשר לבדוק האם כל העלויות הכוללות של שורות ההזמנה כבר חושבו."
 >>>>>>> upstream/18.0
@@ -1518,7 +1619,11 @@ msgstr "מאפשר לבדוק האם כל העלויות הכוללות של ש�
 msgid "Allows to know if the total cost has already been computed or not"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מאפשר לדעת אם העלות הכוללת כבר חושבה או לא"
+>>>>>>> upstream/18.0
 =======
 msgstr "מאפשר לדעת אם העלות הכוללת כבר חושבה או לא"
 >>>>>>> upstream/18.0
@@ -1550,7 +1655,11 @@ msgid "Amount for %(old_pm)s changed from %(old_amount)s to %(new_amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות של %(old_pm)s השתנתה מ- %(old_amount)s ל- %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות של %(old_pm)s השתנתה מ- %(old_amount)s ל- %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -1623,6 +1732,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אירעה שגיאה בעת סגירת הסשן. ההזמנות שלא סונכרנו יהיו זמינות בסשן הבא. הדף "
+"ייטען מחדש."
+>>>>>>> upstream/18.0
 =======
 "אירעה שגיאה בעת סגירת הסשן. ההזמנות שלא סונכרנו יהיו זמינות בסשן הבא. הדף "
 "ייטען מחדש."
@@ -1668,7 +1782,11 @@ msgid "An error occurred while loading the Point of Sale: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אירעה שגיאה בעת טעינת הקופה:\n"
+>>>>>>> upstream/18.0
 =======
 msgstr "אירעה שגיאה בעת טעינת הקופה:\n"
 >>>>>>> upstream/18.0
@@ -1759,6 +1877,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"יש להגדיר לפחות חשבון בנק אחד ביומן כדי לאפשר רישום תשלומים באמצעות קוד QR "
+"באפליקציות בנק."
+>>>>>>> upstream/18.0
 =======
 "יש להגדיר לפחות חשבון בנק אחד ביומן כדי לאפשר רישום תשלומים באמצעות קוד QR "
 "באפליקציות בנק."
@@ -1801,7 +1924,11 @@ msgid "Attribute selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחירת מאפיין"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחירת מאפיין"
 >>>>>>> upstream/18.0
@@ -1862,7 +1989,11 @@ msgid "Automatically validate order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אימות הזמנה באופן אוטומטי"
+>>>>>>> upstream/18.0
 =======
 msgstr "אימות הזמנה באופן אוטומטי"
 >>>>>>> upstream/18.0
@@ -1953,7 +2084,11 @@ msgstr "תמונת רקע"
 msgid "Background Image Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם תמונת רקע "
+>>>>>>> upstream/18.0
 =======
 msgstr "שם תמונת רקע "
 >>>>>>> upstream/18.0
@@ -2107,7 +2242,11 @@ msgid "Buffer:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "באפר:"
+>>>>>>> upstream/18.0
 =======
 msgstr "באפר:"
 >>>>>>> upstream/18.0
@@ -2143,7 +2282,11 @@ msgid "By:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "על ידי: "
+>>>>>>> upstream/18.0
 =======
 msgstr "על ידי: "
 >>>>>>> upstream/18.0
@@ -2234,7 +2377,11 @@ msgid "Cannot modify a tip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לערוך טיפ"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן לערוך טיפ"
 >>>>>>> upstream/18.0
@@ -2263,7 +2410,11 @@ msgstr "לא ניתן להחזיר עודף כאשר לא בוצע תשלום ב
 msgid "Cannot weigh product - IoT Box is disconnected"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לשקול את המוצר – תיבת ה-IoT מנותקת"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן לשקול את המוצר – תיבת ה-IoT מנותקת"
 >>>>>>> upstream/18.0
@@ -2277,7 +2428,11 @@ msgstr "לא ניתן לשקול את המוצר – תיבת ה-IoT מנותק�
 msgid "Cannot weigh product - Scale is not connected to IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לשקול את המוצר – המשקל אינו מחובר לתיבת ה-IoT"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן לשקול את המוצר – המשקל אינו מחובר לתיבת ה-IoT"
 >>>>>>> upstream/18.0
@@ -2296,7 +2451,11 @@ msgstr "כרטיס"
 msgid "Card Number(Last 4 Digit)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר כרטיס אשראי (4 ספרות אחרונות)"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר כרטיס אשראי (4 ספרות אחרונות)"
 >>>>>>> upstream/18.0
@@ -2309,7 +2468,11 @@ msgstr "מספר כרטיס אשראי (4 ספרות אחרונות)"
 msgid "Card Owner name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם בעל כרטיס"
+>>>>>>> upstream/18.0
 =======
 msgstr "שם בעל כרטיס"
 >>>>>>> upstream/18.0
@@ -2323,7 +2486,11 @@ msgstr "שם בעל כרטיס"
 msgid "Card's Brand"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סוג כרטיס"
+>>>>>>> upstream/18.0
 =======
 msgstr "סוג כרטיס"
 >>>>>>> upstream/18.0
@@ -2366,7 +2533,11 @@ msgid "Cash %(session_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מזומן %(session_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "מזומן %(session_name)s"
 >>>>>>> upstream/18.0
@@ -2398,7 +2569,11 @@ msgstr "מזומן %(session_name)s"
 msgid "Cash Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מזומן מאפייה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מזומן מאפייה"
 >>>>>>> upstream/18.0
@@ -2492,7 +2667,11 @@ msgstr "עיגול מזומן"
 msgid "Cash control - closing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מסך סגירת קופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מסך סגירת קופה"
 >>>>>>> upstream/18.0
@@ -2671,6 +2850,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"בדוק את חיבור האינטרנט ואז נסה לסנכרן שוב על ידי לחיצה על כפתור ה-WiFi האדום"
+" (בפינה הימנית העליונה של המסך)."
+>>>>>>> upstream/18.0
 =======
 "בדוק את חיבור האינטרנט ואז נסה לסנכרן שוב על ידי לחיצה על כפתור ה-WiFi האדום"
 " (בפינה הימנית העליונה של המסך)."
@@ -2715,7 +2899,11 @@ msgstr ""
 msgid "Choose an order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר הזמנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחר הזמנה"
 >>>>>>> upstream/18.0
@@ -2732,7 +2920,11 @@ msgid "Choose how the URL to the portal will be print on the receipt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר כיצד כתובת ה-URL לפורטל תודפס על הקבלה."
+>>>>>>> upstream/18.0
 =======
 msgstr "בחר כיצד כתובת ה-URL לפורטל תודפס על הקבלה."
 >>>>>>> upstream/18.0
@@ -2858,7 +3050,11 @@ msgstr "תאריך סגירה"
 msgid "Closing Entry by product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודת יומן סוגרת לפי מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "פקודת יומן סוגרת לפי מוצר"
 >>>>>>> upstream/18.0
@@ -2889,7 +3085,11 @@ msgstr "סגירת קופה"
 msgid "Closing difference in %(payment_method)s (%(session)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפרש סגירת קופה ב- %(payment_method)s(%(session)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "הפרש סגירת קופה ב- %(payment_method)s(%(session)s)"
 >>>>>>> upstream/18.0
@@ -2921,7 +3121,11 @@ msgstr "בגדים"
 msgid "Clothes Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חנות בגדים"
+>>>>>>> upstream/18.0
 =======
 msgstr "חנות בגדים"
 >>>>>>> upstream/18.0
@@ -2949,7 +3153,11 @@ msgstr "מטבעות/שטרות"
 msgid "Coins/Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מטבעות/שטרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "מטבעות/שטרות"
 >>>>>>> upstream/18.0
@@ -2980,7 +3188,11 @@ msgid "Combine %(payment_method)s POS payments from %(session)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שלב %(payment_method)s תשלומי קופה מ%(session)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "שלב %(payment_method)s תשלומי קופה מ%(session)s"
 >>>>>>> upstream/18.0
@@ -3051,7 +3263,11 @@ msgstr "לחברה יש לוח חשבונות"
 msgid "Complete the selection to proceed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יש להשלים את הבחירה כדי להמשיך"
+>>>>>>> upstream/18.0
 =======
 msgstr "יש להשלים את הבחירה כדי להמשיך"
 >>>>>>> upstream/18.0
@@ -3143,7 +3359,11 @@ msgid "Connecting to the IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מתחבר לקופסת IoT"
+>>>>>>> upstream/18.0
 =======
 msgstr "מתחבר לקופסת IoT"
 >>>>>>> upstream/18.0
@@ -3193,7 +3413,11 @@ msgid "Connection failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חיבור נכשל"
+>>>>>>> upstream/18.0
 =======
 msgstr "חיבור נכשל"
 >>>>>>> upstream/18.0
@@ -3231,7 +3455,11 @@ msgid "Connection successful"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החיבור הצליח"
+>>>>>>> upstream/18.0
 =======
 msgstr "החיבור הצליח"
 >>>>>>> upstream/18.0
@@ -3283,7 +3511,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החיבור לשרת אבד. אנא בדוק את חיבור האינטרנט שלך."
+>>>>>>> upstream/18.0
 =======
 msgstr "החיבור לשרת אבד. אנא בדוק את חיבור האינטרנט שלך."
 >>>>>>> upstream/18.0
@@ -3347,7 +3579,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שגיאת המרה: ההמרות הבאות של יחידות מידה מניבות כמות אפסית עקב עיגול:"
+>>>>>>> upstream/18.0
 =======
 msgstr "שגיאת המרה: ההמרות הבאות של יחידות מידה מניבות כמות אפסית עקב עיגול:"
 >>>>>>> upstream/18.0
@@ -3629,7 +3865,11 @@ msgid "Customer is required for %s payment method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נדרש לקוח עבור %s אמצעי התשלום."
+>>>>>>> upstream/18.0
 =======
 msgstr "נדרש לקוח עבור %s אמצעי התשלום."
 >>>>>>> upstream/18.0
@@ -3749,7 +3989,11 @@ msgid "Default Journals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומנים ברירת מחדל"
+>>>>>>> upstream/18.0
 =======
 msgstr "יומנים ברירת מחדל"
 >>>>>>> upstream/18.0
@@ -3792,7 +4036,11 @@ msgstr "מחירון ברירת מחדל"
 msgid "Default Qr"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR ברירת מחדל"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR ברירת מחדל"
 >>>>>>> upstream/18.0
@@ -3826,7 +4074,11 @@ msgid "Default journals for orders and invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומנים ברירת מחדל להזמנות וחשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "יומנים ברירת מחדל להזמנות וחשבוניות"
 >>>>>>> upstream/18.0
@@ -3872,7 +4124,11 @@ msgstr "הגדר קטגוריה חדשה"
 msgid "Define products and categories for POS retail and restaurant"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר מוצרים וקטגוריות עבור קופה לקמעונאות ומסעדות."
+>>>>>>> upstream/18.0
 =======
 msgstr "הגדר מוצרים וקטגוריות עבור קופה לקמעונאות ומסעדות."
 >>>>>>> upstream/18.0
@@ -3935,7 +4191,11 @@ msgid "Delete pending record?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "למחוק רשומה ממתינה?"
+>>>>>>> upstream/18.0
 =======
 msgstr "למחוק רשומה ממתינה?"
 >>>>>>> upstream/18.0
@@ -3991,7 +4251,11 @@ msgstr "חשבון יעד"
 msgid "Destination account is readonly"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבון היעד הוא לקריאה בלבד"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבון היעד הוא לקריאה בלבד"
 >>>>>>> upstream/18.0
@@ -4025,7 +4289,11 @@ msgid "Difference at closing PoS session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הבדל בעת סגירת משמרת בקופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הבדל בעת סגירת משמרת בקופה"
 >>>>>>> upstream/18.0
@@ -4164,7 +4432,11 @@ msgid ""
 "Display and update your products information through electronic price tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג ועדכן את פרטי המוצרים שלך באמצעות תגי מחיר אלקטרוניים"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג ועדכן את פרטי המוצרים שלך באמצעות תגי מחיר אלקטרוניים"
 >>>>>>> upstream/18.0
@@ -4177,7 +4449,11 @@ msgstr "הצג ועדכן את פרטי המוצרים שלך באמצעות ת�
 msgid "Display orders on the preparation display"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג הזמנות על מסך ההכנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג הזמנות על מסך ההכנה"
 >>>>>>> upstream/18.0
@@ -4195,6 +4471,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הצג את הפירוט של שורות המכירה לפי מוצר ברישום הסגירה שנוצר באופן אוטומטי."
+>>>>>>> upstream/18.0
 =======
 "הצג את הפירוט של שורות המכירה לפי מוצר ברישום הסגירה שנוצר באופן אוטומטי."
 >>>>>>> upstream/18.0
@@ -4213,7 +4493,11 @@ msgid "Display the price of your products through electronic price tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג את מחירי המוצרים שלך באמצעות תגי מחירים אלקטרוניים."
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג את מחירי המוצרים שלך באמצעות תגי מחירים אלקטרוניים."
 >>>>>>> upstream/18.0
@@ -4257,7 +4541,11 @@ msgid "Do you want to open the customer list to select customer?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם ברצונך לפתוח את רשימת הלקוחות כדי לבחור לקוח?"
+>>>>>>> upstream/18.0
 =======
 msgstr "האם ברצונך לפתוח את רשימת הלקוחות כדי לבחור לקוח?"
 >>>>>>> upstream/18.0
@@ -4334,7 +4622,11 @@ msgid "Edit Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערוך תשלום"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערוך תשלום"
 >>>>>>> upstream/18.0
@@ -4418,7 +4710,11 @@ msgid "Employee who uses the cash register."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העובד שמשתמש בקופת המזומנים."
+>>>>>>> upstream/18.0
 =======
 msgstr "העובד שמשתמש בקופת המזומנים."
 >>>>>>> upstream/18.0
@@ -4499,7 +4795,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ודא שקיים יומן בנק. בדוק אם לוח החשבונות מותקן בחברה שלך."
+>>>>>>> upstream/18.0
 =======
 msgstr "ודא שקיים יומן בנק. בדוק אם לוח החשבונות מותקן בחברה שלך."
 >>>>>>> upstream/18.0
@@ -4538,7 +4838,11 @@ msgstr "שגיאה"
 msgid "Error! You cannot create recursive categories."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שגיאה! לא ניתן ליצור קטגוריות רקורסיביות."
+>>>>>>> upstream/18.0
 =======
 msgstr "שגיאה! לא ניתן ליצור קטגוריות רקורסיביות."
 >>>>>>> upstream/18.0
@@ -4564,7 +4868,11 @@ msgid "Existing orderlines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שורות הזמנה קיימות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שורות הזמנה קיימות"
 >>>>>>> upstream/18.0
@@ -4636,7 +4944,11 @@ msgid "Failed in printing %s changes of the order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הדפסת שינויים%s בהזמנה נכשלה."
+>>>>>>> upstream/18.0
 =======
 msgstr "הדפסת שינויים%s בהזמנה נכשלה."
 >>>>>>> upstream/18.0
@@ -4668,7 +4980,11 @@ msgstr "הדפסת שינויים%s בהזמנה נכשלה."
 msgid "Failure to generate Payment QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כישלון ביצירת קוד QR לתשלום"
+>>>>>>> upstream/18.0
 =======
 msgstr "כישלון ביצירת קוד QR לתשלום"
 >>>>>>> upstream/18.0
@@ -4728,7 +5044,11 @@ msgid "Flexible Pricelists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחירונים גמישים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחירונים גמישים"
 >>>>>>> upstream/18.0
@@ -4765,7 +5085,11 @@ msgid "Flexible Taxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיסים גמישים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיסים גמישים"
 >>>>>>> upstream/18.0
@@ -4849,7 +5173,11 @@ msgid "Force Close Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סגור את המשמרת בכוח"
+>>>>>>> upstream/18.0
 =======
 msgstr "סגור את המשמרת בכוח"
 >>>>>>> upstream/18.0
@@ -4918,7 +5246,11 @@ msgid "From invoice payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מתשלום חשבוניות"
+>>>>>>> upstream/18.0
 =======
 msgstr "מתשלום חשבוניות"
 >>>>>>> upstream/18.0
@@ -4984,7 +5316,11 @@ msgid "Generate a code on ticket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צור קוד על קבלה"
+>>>>>>> upstream/18.0
 =======
 msgstr "צור קוד על קבלה"
 >>>>>>> upstream/18.0
@@ -5023,7 +5359,11 @@ msgid "Get my invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבל את החשבונית שלי"
+>>>>>>> upstream/18.0
 =======
 msgstr "קבל את החשבונית שלי"
 >>>>>>> upstream/18.0
@@ -5101,7 +5441,11 @@ msgid "Gross Weight:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משקל ברוטו:"
+>>>>>>> upstream/18.0
 =======
 msgstr "משקל ברוטו:"
 >>>>>>> upstream/18.0
@@ -5153,7 +5497,11 @@ msgid "Group items in the cart according to their category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבץ את הפריטים בעגלת הקניות לפי קטגוריה."
+>>>>>>> upstream/18.0
 =======
 msgstr "קבץ את הפריטים בעגלת הקניות לפי קטגוריה."
 >>>>>>> upstream/18.0
@@ -5265,7 +5613,11 @@ msgid "Hide pictures in POS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הסתר תמונות בקופה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הסתר תמונות בקופה"
 >>>>>>> upstream/18.0
@@ -5308,7 +5660,11 @@ msgid "How to manage tax-included prices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כיצד לנהל מחירים כולל מע\"מ"
+>>>>>>> upstream/18.0
 =======
 msgstr "כיצד לנהל מחירים כולל מע\"מ"
 >>>>>>> upstream/18.0
@@ -5490,7 +5846,11 @@ msgid "Integrate with"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "באינטגרציה עם "
+>>>>>>> upstream/18.0
 =======
 msgstr "באינטגרציה עם "
 >>>>>>> upstream/18.0
@@ -5598,7 +5958,11 @@ msgid "Invoice Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בקשת חשבונית"
+>>>>>>> upstream/18.0
 =======
 msgstr "בקשת חשבונית"
 >>>>>>> upstream/18.0
@@ -5637,7 +6001,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלום חשבונית עבור (%(account_move)s) באמצעות %(payment_method)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלום חשבונית עבור (%(account_move)s) באמצעות %(payment_method)s"
 >>>>>>> upstream/18.0
@@ -5689,7 +6057,11 @@ msgid "Invoicing confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אישור חשבונית"
+>>>>>>> upstream/18.0
 =======
 msgstr "אישור חשבונית"
 >>>>>>> upstream/18.0
@@ -5945,7 +6317,11 @@ msgid "Last printed state of the order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "המצב האחרון של ההזמנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "המצב האחרון של ההזמנה"
 >>>>>>> upstream/18.0
@@ -6040,7 +6416,11 @@ msgstr "שורה מס'"
 msgid "Load Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טען הזמנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "טען הזמנה"
 >>>>>>> upstream/18.0
@@ -6335,7 +6715,11 @@ msgid "Net Weight:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משקל נטו:"
+>>>>>>> upstream/18.0
 =======
 msgstr "משקל נטו:"
 >>>>>>> upstream/18.0
@@ -6386,7 +6770,11 @@ msgid "New amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות חדשה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות חדשה"
 >>>>>>> upstream/18.0
@@ -6511,7 +6899,11 @@ msgstr "אין קישור לחשבונית עבור %s"
 msgid "No more customer found for \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצא לקוח עבור \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצא לקוח עבור \"%s\"."
 >>>>>>> upstream/18.0
@@ -6544,7 +6936,11 @@ msgstr ""
 msgid "No products found for"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצאו מוצרים עבור"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצאו מוצרים עבור"
 >>>>>>> upstream/18.0
@@ -6654,7 +7050,11 @@ msgstr ""
 msgid "Number of transactions:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר עסקאות:"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר עסקאות:"
 >>>>>>> upstream/18.0
@@ -7006,7 +7406,11 @@ msgstr "ניתוח נתוני הזמנות"
 msgid "Original"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מקורי"
+>>>>>>> upstream/18.0
 =======
 msgstr "מקורי"
 >>>>>>> upstream/18.0
@@ -7020,7 +7424,11 @@ msgstr "מקורי"
 msgid "Original Tax"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מס מקורי"
+>>>>>>> upstream/18.0
 =======
 msgstr "מס מקורי"
 >>>>>>> upstream/18.0
@@ -7328,7 +7736,11 @@ msgstr "אמצעי תשלום"
 msgid "Payments in"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלומים ב"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלומים ב"
 >>>>>>> upstream/18.0
@@ -7448,7 +7860,11 @@ msgstr ""
 msgid "Please fill all the required fields."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נא למלא את כל השדות הדרושים."
+>>>>>>> upstream/18.0
 =======
 msgstr "נא למלא את כל השדות הדרושים."
 >>>>>>> upstream/18.0
@@ -7482,7 +7898,11 @@ msgid ""
 "saved on the server."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לתשומת ליבך: פעולה זו תגרום לאובדן כל מידע שלא נשמר בשרת."
+>>>>>>> upstream/18.0
 =======
 msgstr "לתשומת ליבך: פעולה זו תגרום לאובדן כל מידע שלא נשמר בשרת."
 >>>>>>> upstream/18.0
@@ -7520,7 +7940,11 @@ msgstr ""
 msgid "Please select a payment method"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נא לבחור שיטת תשלום "
+>>>>>>> upstream/18.0
 =======
 msgstr "נא לבחור שיטת תשלום "
 >>>>>>> upstream/18.0
@@ -8003,7 +8427,11 @@ msgstr "הדפס"
 msgid "Print Basic Receipt"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הדפס קבלה בסיסית"
+>>>>>>> upstream/18.0
 =======
 msgstr "הדפס קבלה בסיסית"
 >>>>>>> upstream/18.0
@@ -8017,7 +8445,11 @@ msgstr "הדפס קבלה בסיסית"
 msgid "Print Full Receipt"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הדפס קבלה מלאה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הדפס קבלה מלאה"
 >>>>>>> upstream/18.0
@@ -8290,7 +8722,11 @@ msgstr "מוצרים"
 msgid "Products:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוצרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מוצרים"
 >>>>>>> upstream/18.0
@@ -8610,7 +9046,11 @@ msgstr ""
 msgid "Request Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בקשת חשבונית"
+>>>>>>> upstream/18.0
 =======
 msgstr "בקשת חשבונית"
 >>>>>>> upstream/18.0
@@ -8732,7 +9172,11 @@ msgstr "בדוק"
 msgid "Review Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צפייה בהזמנות"
+>>>>>>> upstream/18.0
 =======
 msgstr "צפייה בהזמנות"
 >>>>>>> upstream/18.0
@@ -9599,7 +10043,11 @@ msgid "Tax Excl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ללא מיסים"
+>>>>>>> upstream/18.0
 =======
 msgstr "ללא מיסים"
 >>>>>>> upstream/18.0
@@ -9635,7 +10083,11 @@ msgid "Tax Incl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כולל מיסים"
+>>>>>>> upstream/18.0
 =======
 msgstr "כולל מיסים"
 >>>>>>> upstream/18.0
@@ -9808,7 +10260,10 @@ msgstr "מותג כרטיס האשראי (למשל ויזה,אמריקן אקס�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9846,6 +10301,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

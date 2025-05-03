@@ -269,7 +269,11 @@ class ProductAttributeCustomValue(models.Model):
 
     @api.model
     def _load_pos_data_fields(self, config_id):
+<<<<<<< HEAD
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id']
+=======
+        return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 
 
 class ProductTemplateAttributeLine(models.Model):
