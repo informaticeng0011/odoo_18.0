@@ -112,6 +112,7 @@
                         <table class="table-borderless">
                             <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
                                     <ul class="list-inline text-nowrap">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
@@ -119,19 +120,28 @@
                                 </td>
                                 <td>
 =======
+=======
+>>>>>>> upstream/18.0
                                 <td colspan="4">
                                     <ul class="list-inline">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
                                     </ul>
                                 </td>
                                 <td colspan="4">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                                     <ul class="list-inline">
                                         <li t-if="company.report_footer"><span t-field="company.report_footer"/></li>
                                     </ul>
                                 </td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
+=======
+                                <td colspan="2">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2">
 >>>>>>> upstream/18.0
@@ -144,7 +154,11 @@
                                     </ul>
                                 </td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td t-if="company.partner_id.bank_ids">
+=======
+                                <td colspan="2" t-if="company.partner_id.bank_ids">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2" t-if="company.partner_id.bank_ids">
 >>>>>>> upstream/18.0

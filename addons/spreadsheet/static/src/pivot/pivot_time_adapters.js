@@ -68,7 +68,10 @@ const odooNumberDateAdapter = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108,6 +111,9 @@ function boundedOdooNumberDateAdapter(lower, upper) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -344,12 +350,15 @@ extendSpreadsheetAdapter("year", odooNumberDateAdapter);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 extendSpreadsheetAdapter("day_of_month", odooNumberDateAdapter);
 extendSpreadsheetAdapter("day", odooDayAdapter);
 extendSpreadsheetAdapter("iso_week_number", odooNumberDateAdapter);
 extendSpreadsheetAdapter("month_number", odooNumberDateAdapter);
 extendSpreadsheetAdapter("quarter_number", odooNumberDateAdapter);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -379,6 +388,9 @@ extendSpreadsheetAdapter("quarter_number", boundedOdooNumberDateAdapter(1, 4));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

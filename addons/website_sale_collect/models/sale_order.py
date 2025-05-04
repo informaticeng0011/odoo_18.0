@@ -11,7 +11,10 @@ class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_warehouse_id(self):
         """ Override of `website_sale_stock` to avoid recomputations for in_store orders
         when the warehouse was set by the pickup_location_data"""
@@ -24,6 +27,9 @@ class SaleOrder(models.Model):
         for order in in_store_orders_with_pickup_data:
             order.warehouse_id = order.pickup_location_data['id']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def set_delivery_line(self, carrier, amount):
         """ Override of `website_sale` to recompute warehouse and fiscal position when a new
@@ -34,14 +40,20 @@ class SaleOrder(models.Model):
             )
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_store_orders._compute_warehouse_id()
         in_store_orders._compute_fiscal_position_id()
         return super().set_delivery_line(carrier, amount)
 =======
+=======
+>>>>>>> upstream/18.0
         res = super().set_delivery_line(carrier, amount)
         in_store_orders._compute_warehouse_id()
         in_store_orders._compute_fiscal_position_id()
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _set_pickup_location(self, pickup_location_data):

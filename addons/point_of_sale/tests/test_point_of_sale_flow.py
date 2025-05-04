@@ -2192,7 +2192,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         account_moves = self.env['account.move'].search([('pos_payment_ids', 'in', pos_order.payment_ids.ids)])
         self.assertEqual(sum(account_moves.mapped('amount_total')), pos_order.amount_total)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_refund_qty_refund_cancel(self):
         """
@@ -2247,4 +2250,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.assertEqual(order.lines[0].refunded_qty, 1)
         refund.action_pos_order_cancel()
         self.assertEqual(order.lines[0].refunded_qty, 0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

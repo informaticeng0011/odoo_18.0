@@ -1212,7 +1212,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1257,6 +1260,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1273,6 +1277,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_amount_to_invoice(self):
         """
@@ -1348,4 +1354,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.assertEqual(sale_order.amount_to_invoice, 100.0, "Amount to invoice should be 100.0")
         self.env['pos.order'].sync_from_ui([order_data])
         self.assertEqual(sale_order.amount_to_invoice, 0.0, "Amount to invoice should be 0.0")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

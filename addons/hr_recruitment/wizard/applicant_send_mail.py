@@ -35,10 +35,13 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             subjects = self.template_id._render_field('subject', res_ids=self.applicant_ids.ids)
         else:
             subjects = {applicant.id: self.subject for applicant in self.applicant_ids}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53,6 +56,9 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82,7 +88,11 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 body=self.body,
+=======
+                body=bodies[applicant.id],
+>>>>>>> upstream/18.0
 =======
                 body=bodies[applicant.id],
 >>>>>>> upstream/18.0

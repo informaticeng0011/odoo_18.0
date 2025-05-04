@@ -16,7 +16,12 @@ class EventRegistration(models.Model):
     @api.model
     def _load_pos_data_fields(self, config_id):
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name', 'registration_answer_ids', 'registration_answer_choice_ids']
+=======
+        return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name',
+                'registration_answer_ids', 'registration_answer_choice_ids', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['id', 'event_id', 'event_ticket_id', 'pos_order_line_id', 'pos_order_id', 'phone', 'email', 'name',
                 'registration_answer_ids', 'registration_answer_choice_ids', 'write_date']

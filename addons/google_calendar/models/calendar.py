@@ -286,6 +286,7 @@ class Meeting(models.Model):
 
     def _google_values(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.allday:
             # For all-day events, 'dateTime' must be set to None to indicate that it's an all-day event.
             # Otherwise, if both 'date' and 'dateTime' are set, Google may not recognize it as an all-day event.
@@ -297,6 +298,8 @@ class Meeting(models.Model):
             start = {'dateTime': pytz.utc.localize(self.start).isoformat(), 'date': None}
             end = {'dateTime': pytz.utc.localize(self.stop).isoformat(), 'date': None}
 =======
+=======
+>>>>>>> upstream/18.0
         # In Google API, all-day events must have their 'dateTime' information set
         # as null and timed events must have their 'date' information set as null.
         # This is mandatory for allowing changing timed events to all-day and vice versa.
@@ -312,6 +315,9 @@ class Meeting(models.Model):
             # Otherwise, if both 'date' and 'dateTime' are set, Google may not recognize it as a timed event
             start['dateTime'] = pytz.utc.localize(self.start).isoformat()
             end['dateTime'] = pytz.utc.localize(self.stop).isoformat()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         reminders = [{
             'method': "email" if alarm.alarm_type == "email" else "popup",

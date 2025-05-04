@@ -548,7 +548,10 @@ class TestIrModelFieldsTranslation(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -579,6 +582,9 @@ class TestIrModelInherit(TransactionCase):
         self.assertEqual(imi.parent_field_id.name, "ir_actions_server_id")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

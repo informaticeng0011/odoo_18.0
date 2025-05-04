@@ -526,6 +526,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'cost_of_goods_sold': 21,
+>>>>>>> upstream/18.0
 =======
             'cost_of_goods_sold': 21,
 >>>>>>> upstream/18.0
@@ -728,6 +732,10 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # TODO: rename method (+ variables and etc.) to reflect that this method now also gets `costs` items
+>>>>>>> upstream/18.0
 =======
     # TODO: rename method (+ variables and etc.) to reflect that this method now also gets `costs` items
 >>>>>>> upstream/18.0
@@ -794,6 +802,7 @@ class ProjectProject(models.Model):
                 self._get_revenues_items_from_invoices_domain([('id', 'not in', excluded_move_line_ids)]),
                 [('analytic_distribution', 'in', self.account_id.ids)]
             ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +896,8 @@ class ProjectProject(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ['price_subtotal', 'parent_state', 'currency_id', 'analytic_distribution', 'move_type', 'move_id', 'display_type']
         )
         res = {
@@ -902,7 +913,10 @@ class ProjectProject(models.Model):
             revenues_lines = []
             cogs_lines = []
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_invoiced = amount_to_invoice = 0.0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             for move_line in invoices_move_lines:
@@ -912,6 +926,10 @@ class ProjectProject(models.Model):
                     revenues_lines.append(move_line)
             for move_lines, ml_type in ((revenues_lines, 'revenues'), (cogs_lines, 'costs')):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                amount_invoiced = amount_to_invoice = 0.0
+>>>>>>> upstream/18.0
 =======
                 amount_invoiced = amount_to_invoice = 0.0
 >>>>>>> upstream/18.0
@@ -971,6 +989,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1029,10 +1050,13 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         profitability_items['revenues']['data'] += revenue_items_from_invoices['data']
         profitability_items['revenues']['total']['to_invoice'] += revenue_items_from_invoices['total']['to_invoice']
         profitability_items['revenues']['total']['invoiced'] += revenue_items_from_invoices['total']['invoiced']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1084,6 +1108,9 @@ class ProjectProject(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

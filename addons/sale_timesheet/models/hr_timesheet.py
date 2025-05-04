@@ -28,7 +28,10 @@ class AccountAnalyticLine(models.Model):
             self.env['sale.order.line']._domain_sale_line_service(),
             [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('qty_delivered_method', 'in', ['analytic', 'timesheet']),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 ('order_partner_id.commercial_partner_id', '=', unquote('commercial_partner_id')),

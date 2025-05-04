@@ -107,7 +107,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
             "Analytic distribution is not set on the payable/receivable lines"
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_get_so_mapping_domain_with_no_analytic_distribution(self):
         """
@@ -139,4 +142,7 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
             [(0, '=', 1)],
             "Domain should be (0, '=', 1) when analytic_distribution is missing."
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

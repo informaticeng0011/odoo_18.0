@@ -947,7 +947,10 @@ class TestPurchase(AccountTestInvoicingCommon):
         po.company_id = company_a.id
         self.assertEqual(po.amount_untaxed, 10.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_bill_in_purchase_matching_individual(self):
         """
@@ -983,4 +986,7 @@ class TestPurchase(AccountTestInvoicingCommon):
         self.assertEqual(len(matching_records), 2)
         self.assertEqual(matching_records.account_move_id, vendor_bill)
         self.assertEqual(matching_records.purchase_order_id, purchase_order)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -33,6 +33,10 @@ from collections import namedtuple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections.abc import Iterable
+>>>>>>> upstream/18.0
 =======
 from collections.abc import Iterable
 >>>>>>> upstream/18.0
@@ -221,8 +225,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Search function for message_follower_ids"""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -275,6 +282,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -586,6 +596,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _condition_to_sql(self, alias: str, fname: str, operator: str, value, query: Query) -> SQL:
         if self.env.su or self.env.user._is_internal():
             return super()._condition_to_sql(alias, fname, operator, value, query)
@@ -598,6 +609,8 @@ class MailThread(models.AbstractModel):
             raise AccessError("Portal users can only filter threads by themselves as followers.")
         return super(MailThread, self.sudo())._condition_to_sql(alias, fname, operator, value, query)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3894,6 +3907,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
+>>>>>>> upstream/18.0
 =======
                 ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
 >>>>>>> upstream/18.0

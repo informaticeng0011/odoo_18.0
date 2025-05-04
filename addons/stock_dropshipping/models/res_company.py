@@ -63,12 +63,16 @@ class ResCompany(models.Model):
         company_ids = self.env['res.company'].search([])
         company_has_dropship_picking_type = (
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['stock.picking.type']
             .search([
                 ('default_location_src_id.usage', '=', 'supplier'),
                 ('default_location_dest_id.usage', '=', 'customer'),
             ])
             .mapped('company_id')
+=======
+            self.env['stock.picking.type'].search([("code", "=", "dropship")]).company_id
+>>>>>>> upstream/18.0
 =======
             self.env['stock.picking.type'].search([("code", "=", "dropship")]).company_id
 >>>>>>> upstream/18.0

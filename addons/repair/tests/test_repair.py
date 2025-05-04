@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import Command
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import AccessError, UserError
+>>>>>>> upstream/18.0
 from odoo.tests import tagged, common, Form
 from odoo.tools import float_compare, float_is_zero
 
@@ -896,7 +900,10 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -968,6 +975,7 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -980,6 +988,8 @@ class TestRepair(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1022,8 +1032,11 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1054,6 +1067,7 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1068,4 +1082,32 @@ class TestRepair(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_copy_repair_product_with_different_groups(self):
+        """
+            This test checks if the product can be copied with users that don't have access on the Inventory app
+        """
+        product_templ = self.env['product.template'].create({
+            'name': "Repair Consumable",
+            'type': 'consu',
+            'create_repair': True,
+        })
+        mitchell_user = self.env['res.users'].create({
+            'name': "Mitchell not Admin",
+            'login': "m_user",
+            'email': "m@user.com",
+            'groups_id': [Command.set(self.env.ref('sales_team.group_sale_manager').ids)],
+        })
+        product_templ.invalidate_recordset(['create_repair'])
+        with self.assertRaises(AccessError):
+            product_templ.with_user(mitchell_user).create_repair
+        copied_without_access = product_templ.with_user(mitchell_user).copy()
+        mitchell_user.write({
+            'groups_id': [Command.link(self.env.ref('stock.group_stock_user').id)]
+        })
+        self.assertFalse(copied_without_access.create_repair)
+        copied_with_access = product_templ.copy().with_user(mitchell_user)
+        self.assertTrue(copied_with_access.create_repair)
 >>>>>>> upstream/18.0

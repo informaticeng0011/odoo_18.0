@@ -1520,7 +1520,10 @@ class TestReorderingRule(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1564,6 +1567,9 @@ class TestReorderingRule(TransactionCase):
         self.assertEqual(self.env["purchase.order.line"].search([("product_id", "=", buy_product.id)]).product_qty, 100)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

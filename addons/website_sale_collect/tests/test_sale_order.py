@@ -28,7 +28,10 @@ class TestSaleOrder(ClickAndCollectCommon):
         self.assertEqual(so.warehouse_id, self.warehouse)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_warehouse_is_not_reset_on_public_user_checkout(self):
         warehouse_2 = self._create_warehouse()
         so = self._create_in_store_delivery_order(partner_id=self.public_user.id)
@@ -42,6 +45,9 @@ class TestSaleOrder(ClickAndCollectCommon):
         so = self._create_in_store_delivery_order(pickup_location_data={'id': warehouse_2.id})
         self.assertEqual(so.warehouse_id, warehouse_2)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_setting_pickup_location_assigns_correct_fiscal_position(self):
         fp_us = self.env['account.fiscal.position'].create({

@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Noemi Pla, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
 =======
@@ -119,6 +120,10 @@
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # Noemi Pla, 2025
+>>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -127,6 +132,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-03 11:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +197,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -5791,11 +5800,19 @@ msgstr ""
 "Els comptes bancaris de CODA configurats com a tipus \"Informació\" només generaran extractes bancaris de CODA.\n"
 "\n"
 "L'eliminació d'un objecte en el processament de CODA comporta l'eliminació dels\n"
+<<<<<<< HEAD
 "objectes associats. L'eliminació d'un fitxer CODA que conté diversos bancs\n"
 "Les declaracions també eliminaran aquestes declaracions associades.\n"
 "\n"
 "En lloc d'un ajust manual dels extractes bancaris generats, també podeu fer-ho\n"
 "torna a importar el CODA després d'actualitzar la base de dades OpenERP amb la informació que faltava per permetre la reconciliació automàtica.\n"
+=======
+"objectes associats. L'eliminació d'un fitxer CODA que conté diversos extractes\n"
+"bancaris també eliminarà aquestes transaccions associades.\n"
+"\n"
+"En lloc d'un ajust manual dels extractes bancaris generats, també podeu\n"
+"tornar a importar el CODA després d'actualitzar la base de dades OpenERP amb la informació que faltava per permetre la conciliació automàtica.\n"
+>>>>>>> upstream/18.0
 "\n"
 "Observació sobre el suport de CODA V1:\n"
 "~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
@@ -10092,6 +10109,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>model</code>: model del registre en el qual s'activa l'acció; és un "
+"conjunt de registres buit"
+>>>>>>> upstream/18.0
 =======
 "<code>model</code>: model del registre en el qual s'activa l'acció; és un "
 "conjunt de registres buit"
@@ -22212,7 +22234,11 @@ msgstr "Formulari"
 #. odoo-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 msgid "Format"
+<<<<<<< HEAD
 msgstr "Formata"
+=======
+msgstr "Format"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner__email_formatted
@@ -22224,7 +22250,11 @@ msgstr "Adreça e-mail formatada \"Nom <email@domain>\""
 #: model:ir.model.fields,field_description:base.field_res_partner__email_formatted
 #: model:ir.model.fields,field_description:base.field_res_users__email_formatted
 msgid "Formatted Email"
+<<<<<<< HEAD
 msgstr "E-mail formatat"
+=======
+msgstr "Correu electrònic formatat"
+>>>>>>> upstream/18.0
 
 #. module: base
 #. odoo-python
