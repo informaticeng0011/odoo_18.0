@@ -107,7 +107,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142,6 +145,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220,7 +226,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0
@@ -1480,7 +1490,11 @@ class PosOrderLine(models.Model):
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type',
+=======
+            'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
+>>>>>>> upstream/18.0
 =======
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
 >>>>>>> upstream/18.0
@@ -1496,11 +1510,14 @@ class PosOrderLine(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('refund_orderline_ids')
     def _compute_refund_qty(self):
         for orderline in self:
             orderline.refunded_qty = -sum(orderline.mapped('refund_orderline_ids.qty'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.depends('refund_orderline_ids', 'refund_orderline_ids.order_id.state')
@@ -1509,6 +1526,9 @@ class PosOrderLine(models.Model):
             refund_order_line = orderline.refund_orderline_ids.filtered(lambda l: l.order_id.state != 'cancel')
             orderline.refunded_qty = -sum(refund_order_line.mapped('qty'))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1841,7 +1861,11 @@ class PosOrderLineLot(models.Model):
     def _load_pos_data_fields(self, config_id):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['lot_name', 'pos_order_line_id']
+=======
+        return ['lot_name', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['lot_name', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

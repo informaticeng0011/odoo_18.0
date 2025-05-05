@@ -29,7 +29,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_warehouse_is_not_reset_on_public_user_checkout(self):
@@ -46,6 +49,9 @@ class TestSaleOrder(ClickAndCollectCommon):
         self.assertEqual(so.warehouse_id, warehouse_2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

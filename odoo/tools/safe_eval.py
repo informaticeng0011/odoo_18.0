@@ -60,7 +60,11 @@ _UNSAFE_ATTRIBUTES = [
     # Tracebacks
     'tb_frame',
     # Generators
+<<<<<<< HEAD
     'gi_code', 'gi_frame', 'g_yieldfrom'
+=======
+    'gi_code', 'gi_frame', 'gi_yieldfrom',
+>>>>>>> upstream/18.0
     # Coroutines
     'cr_await', 'cr_code', 'cr_frame',
     # Coroutine generators
@@ -400,7 +404,11 @@ def safe_eval(expr, globals_dict=None, locals_dict=None, mode="eval", nocopy=Fal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     globals_dict['__builtins__'] = _BUILTINS
+=======
+    globals_dict['__builtins__'] = dict(_BUILTINS)
+>>>>>>> upstream/18.0
 =======
     globals_dict['__builtins__'] = dict(_BUILTINS)
 >>>>>>> upstream/18.0

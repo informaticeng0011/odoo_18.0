@@ -12,7 +12,10 @@ class SaleOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _compute_warehouse_id(self):
@@ -28,6 +31,9 @@ class SaleOrder(models.Model):
             order.warehouse_id = order.pickup_location_data['id']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41,10 +47,13 @@ class SaleOrder(models.Model):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_store_orders._compute_warehouse_id()
         in_store_orders._compute_fiscal_position_id()
         return super().set_delivery_line(carrier, amount)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         res = super().set_delivery_line(carrier, amount)
@@ -52,6 +61,9 @@ class SaleOrder(models.Model):
         in_store_orders._compute_fiscal_position_id()
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

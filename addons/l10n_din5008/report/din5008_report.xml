@@ -113,6 +113,7 @@
                             <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
                                     <ul class="list-inline text-nowrap">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
@@ -122,6 +123,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 <td colspan="4">
                                     <ul class="list-inline">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
@@ -129,6 +132,9 @@
                                 </td>
                                 <td colspan="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,7 +144,11 @@
                                 </td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
+=======
+                                <td colspan="2">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2">
 >>>>>>> upstream/18.0
@@ -155,7 +165,11 @@
                                 </td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td t-if="company.partner_id.bank_ids">
+=======
+                                <td colspan="2" t-if="company.partner_id.bank_ids">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2" t-if="company.partner_id.bank_ids">
 >>>>>>> upstream/18.0

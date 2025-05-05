@@ -18,7 +18,11 @@ class LoyaltyCard(models.Model):
     def _load_pos_data_fields(self, config_id):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date']
+=======
+        return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
 >>>>>>> upstream/18.0

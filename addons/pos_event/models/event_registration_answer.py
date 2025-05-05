@@ -11,7 +11,12 @@ class EventRegistrationAnswer(models.Model):
     def _load_pos_data_fields(self, config_id):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['question_id', 'registration_id', 'value_answer_id', 'value_text_box', 'partner_id', 'event_id']
+=======
+        return ['question_id', 'registration_id', 'value_answer_id', 'value_text_box', 'partner_id',
+                'write_date', 'event_id']
+>>>>>>> upstream/18.0
 =======
         return ['question_id', 'registration_id', 'value_answer_id', 'value_text_box', 'partner_id',
                 'write_date', 'event_id']

@@ -108,7 +108,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -143,6 +146,9 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
             "Domain should be (0, '=', 1) when analytic_distribution is missing."
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

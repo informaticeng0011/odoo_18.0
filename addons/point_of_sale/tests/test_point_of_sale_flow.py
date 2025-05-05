@@ -2193,7 +2193,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.assertEqual(sum(account_moves.mapped('amount_total')), pos_order.amount_total)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -2251,6 +2254,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         refund.action_pos_order_cancel()
         self.assertEqual(order.lines[0].refunded_qty, 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

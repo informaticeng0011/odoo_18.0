@@ -3,7 +3,11 @@
 
 from odoo import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import AccessError, UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError
 >>>>>>> upstream/18.0
@@ -901,7 +905,10 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -976,6 +983,7 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -988,6 +996,8 @@ class TestRepair(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1033,8 +1043,11 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1068,6 +1081,7 @@ class TestRepair(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1084,6 +1098,8 @@ class TestRepair(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_copy_repair_product_with_different_groups(self):
         """
@@ -1110,4 +1126,7 @@ class TestRepair(common.TransactionCase):
         self.assertFalse(copied_without_access.create_repair)
         copied_with_access = product_templ.copy().with_user(mitchell_user)
         self.assertTrue(copied_with_access.create_repair)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

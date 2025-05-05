@@ -29,7 +29,10 @@ class AccountAnalyticLine(models.Model):
             [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('qty_delivered_method', 'in', ['analytic', 'timesheet']),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

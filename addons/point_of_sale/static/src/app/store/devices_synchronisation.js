@@ -87,6 +87,7 @@ export default class DevicesSynchronisation {
     async readDataFromServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const serverOpenOrders = this.pos.get_open_orders().filter((o) => typeof o.id === "number");
         const recordIds = this.getDynamicRecordServerIds();
         const domain = this.constructOrdersDomain(serverOpenOrders);
@@ -97,12 +98,17 @@ export default class DevicesSynchronisation {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const { domain, recordsIds } = this.constructOrdersDomain();
         const response = await this.pos.data.call("pos.config", "read_config_open_orders", [
             odoo.pos_config_id,
             domain,
             recordsIds,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -168,6 +174,7 @@ export default class DevicesSynchronisation {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     constructOrdersDomain(serverOpenOrders) {
         const localDomain = serverOpenOrders.map((o) => {
             const dateTime = DateTime.fromSQL(o.write_date);
@@ -201,6 +208,8 @@ export default class DevicesSynchronisation {
         ]);
         return domain.toList();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     constructOrdersDomain() {
@@ -255,6 +264,9 @@ export default class DevicesSynchronisation {
 
         return { domain: domainByModel, recordsIds: recordIdsByModel };
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
