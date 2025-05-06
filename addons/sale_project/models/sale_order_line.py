@@ -271,6 +271,12 @@ class SaleOrderLine(models.Model):
             title = self.product_id.name
             description = '<br/>'.join(sale_line_name_parts)
         else:
+<<<<<<< HEAD
+=======
+            if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
+                # if there's multiple lines, skip the product name part
+                sale_line_name_parts.pop(0)
+>>>>>>> upstream/18.0
             title = sale_line_name_parts[0]
             description = '<br/>'.join(sale_line_name_parts[1:])
 

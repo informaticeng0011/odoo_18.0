@@ -16,7 +16,11 @@ import { setupEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getContent, setContent } from "./_helpers/selection";
+=======
+import { getContent } from "./_helpers/selection";
+>>>>>>> upstream/18.0
 =======
 import { getContent } from "./_helpers/selection";
 >>>>>>> upstream/18.0
@@ -173,6 +177,7 @@ test("ChatGPT dialog opens in translate mode when clicked on translate dropdown 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Translate/ChatGPT should be disabled if selection spans across non editable content or unsplittable", async () => {
     const { el } = await setupEditor("<div>[ab]</div>");
     await animationFrame();
@@ -201,6 +206,8 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 
     setContent(el, '<div>a[b</div><div>cd</div><div class="oe_unbreakable">e]</div>');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -268,6 +275,9 @@ test("Translate/ChatGPT should be disabled if selection spans across non editabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

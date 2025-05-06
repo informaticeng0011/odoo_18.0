@@ -309,6 +309,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'is_freelancer': freelancer,  # For bugfix, will be removed in master
+>>>>>>> upstream/18.0
 =======
             'is_freelancer': freelancer,  # For bugfix, will be removed in master
 >>>>>>> upstream/18.0
@@ -476,6 +480,7 @@ class L10nEsEdiTbaiDocument(models.Model):
         return sale_values
 
     def _get_regime_code_value(self, taxes, is_simplified):
+<<<<<<< HEAD
         regime_key = []
 
         if is_simplified and self.company_id.l10n_es_tbai_tax_agency != 'bizkaia':
@@ -484,6 +489,9 @@ class L10nEsEdiTbaiDocument(models.Model):
             regime_key.append(taxes._l10n_es_get_regime_code())
 
         return {'regime_key': regime_key}
+=======
+        return {'regime_key': taxes._l10n_es_get_regime_code()}
+>>>>>>> upstream/18.0
 
     @api.model
     def _add_base_lines_tax_amounts(self, base_lines, company, tax_lines=None):

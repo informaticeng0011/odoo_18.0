@@ -810,7 +810,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.invoice_date:
+=======
+            if not move.invoice_date or not move.is_invoice():
+>>>>>>> upstream/18.0
 =======
             if not move.invoice_date or not move.is_invoice():
 >>>>>>> upstream/18.0
@@ -974,7 +978,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (not move.name or move.name == '/') and self.date and not move._get_last_sequence():
+=======
+            if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
+>>>>>>> upstream/18.0
 =======
             if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
 >>>>>>> upstream/18.0
@@ -2916,7 +2924,11 @@ class AccountMove(models.Model):
             return self.env['account.move.line']._fields[field].convert_to_write(record[field], record)
 
         def get_tax_line_tracked_fields(line):
+<<<<<<< HEAD
             return ('amount_currency', 'balance')
+=======
+            return ('amount_currency', 'balance', 'analytic_distribution')
+>>>>>>> upstream/18.0
 
         def get_base_line_tracked_fields(line):
             grouping_key = AccountTax._prepare_base_line_grouping_key(fake_base_line)
@@ -3410,7 +3422,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'journal_id' in vals:
+=======
+
+        if any(field in vals for field in ['journal_id', 'currency_id']):
+>>>>>>> upstream/18.0
 =======
 
         if any(field in vals for field in ['journal_id', 'currency_id']):

@@ -48,6 +48,10 @@ internal transfer document is needed.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': "uninstall_hook",
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': "uninstall_hook",
 >>>>>>> upstream/18.0

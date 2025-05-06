@@ -122,6 +122,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.ref_company_ids:
+            self.ref_company_ids._update_l10n_in_fiscal_position()
+>>>>>>> upstream/18.0
 =======
         if self.ref_company_ids:
             self.ref_company_ids._update_l10n_in_fiscal_position()

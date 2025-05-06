@@ -71,7 +71,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t t-if="message.is_note and !message.isPending" t-call="mail.Message.actions"/>
+=======
+                            <t t-if="message.is_note" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
 =======
                             <t t-if="message.is_note" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
@@ -139,7 +143,11 @@
                                     <t t-if="message.message_type !== 'notification' and !message.is_transient and (message.hasTextContent or message.subtype_description or state.isEditing or message.edited)">
                                         <LinkPreviewList t-if="!state.isEditing and message.linkPreviewSquash" linkPreviews="message.linkPreviews" deletable="false"/>
                                         <t t-else="">
+<<<<<<< HEAD
                                             <div class="position-relative overflow-x-auto overflow-y-hidden d-inline-block" t-att-class="{ 'w-100': state.isEditing }">
+=======
+                                            <div class="position-relative overflow-x-auto overflow-y-hidden d-inline-block text-body" t-att-class="{ 'w-100': state.isEditing }">
+>>>>>>> upstream/18.0
                                                 <div t-if="message.bubbleColor" class="o-mail-Message-bubble rounded-bottom-3 position-absolute top-0 start-0 w-100 h-100 border" t-att-class="{
                                                     'o-blue': message.bubbleColor === 'blue',
                                                     'o-green': message.bubbleColor === 'green',
@@ -200,7 +208,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-if="!message.is_note and !message.isPending and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
+=======
+                                    <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
@@ -282,7 +294,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t t-if="!message.is_note and !message.isPending and (!message.hasTextContent or env.inChatWindow)" t-call="mail.Message.actions"/>
+=======
+                            <t t-if="!message.is_note and (!message.hasTextContent or env.inChatWindow)" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
 =======
                             <t t-if="!message.is_note and (!message.hasTextContent or env.inChatWindow)" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
@@ -413,7 +429,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -470,6 +489,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

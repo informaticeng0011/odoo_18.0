@@ -107,7 +107,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         check_type: Literal['linear', 'maybe-linear', None] = 'linear',
+=======
+        check_type: Literal['linear', 'maybe-linear'] | None = 'linear',
+>>>>>>> upstream/18.0
 =======
         check_type: Literal['linear', 'maybe-linear'] | None = 'linear',
 >>>>>>> upstream/18.0
@@ -222,7 +226,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.launch_perf_set("records.child_ids", record_list=record_list)
+=======
+        self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
 >>>>>>> upstream/18.0
@@ -283,7 +291,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.launch_perf_set("records.exists()")
+=======
+        self.launch_perf_set("records.exists()", check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.exists()", check_type='maybe-linear')
 >>>>>>> upstream/18.0
@@ -350,7 +362,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2)
+=======
+            self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
             self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2, check_type='maybe-linear')
 >>>>>>> upstream/18.0

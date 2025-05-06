@@ -16,6 +16,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isEmptyBlock,
+>>>>>>> upstream/18.0
 =======
     isEmptyBlock,
 >>>>>>> upstream/18.0
@@ -63,8 +67,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { childNodes, closestElement, descendants, selectElements } from "../utils/dom_traversal";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99,6 +106,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254,6 +264,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
+>>>>>>> upstream/18.0
 =======
         selectionchange_handlers: this.removeEmptyInlineElement.bind(this),
 >>>>>>> upstream/18.0
@@ -557,7 +571,10 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -608,6 +625,9 @@ export class FormatPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
