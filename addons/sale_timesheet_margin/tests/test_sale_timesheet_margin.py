@@ -64,7 +64,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
         )
         self.assertEqual(sale_order.order_line.purchase_price, expected_cost, "Sale order line cost should be number of working hours on one day * timesheet cost of the employee set on the timesheet linked to the SOL.")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_no_recompute_purchase_price_not_timesheet(self):
         project = self.env['project.project'].create({
@@ -109,4 +112,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
         })
         self.env.flush_all()
         self.assertEqual(sale_order.order_line.purchase_price, 3)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

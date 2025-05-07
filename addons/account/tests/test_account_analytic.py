@@ -479,7 +479,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
             'partner_id': self.partner_b.id,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_tax_line_sync_with_analytic(self):
         """
@@ -507,4 +510,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
                 'analytic_distribution': {str(self.analytic_account_1.id): 100.00},
             },
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

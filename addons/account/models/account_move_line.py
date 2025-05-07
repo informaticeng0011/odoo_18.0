@@ -202,7 +202,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261,6 +264,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -724,6 +730,10 @@ class AccountMoveLine(models.Model):
                     partner_id=line.partner_id.id,
                     move_type=line.move_id.move_type,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    journal_id=line.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                     journal_id=line.journal_id.id,
 >>>>>>> upstream/18.0
@@ -1091,7 +1101,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id')
+=======
+    @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id', 'price_subtotal')
+>>>>>>> upstream/18.0
 =======
     @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id', 'price_subtotal')
 >>>>>>> upstream/18.0
@@ -1971,8 +1985,11 @@ class AccountMoveLine(models.Model):
             return currency._get_conversion_rate(aml.company_currency_id, currency, aml.company_id, exchange_rate_date)
 
         def get_accounting_rate(aml, currency):
+<<<<<<< HEAD
             if forced_rate := self._context.get('forced_rate_from_register_payment'):
                 return forced_rate
+=======
+>>>>>>> upstream/18.0
             balance = aml._get_reconciliation_aml_field_value('balance', shadowed_aml_values)
             amount_currency = aml._get_reconciliation_aml_field_value('amount_currency', shadowed_aml_values)
             if not aml.company_currency_id.is_zero(balance) and not currency.is_zero(amount_currency):
@@ -2116,6 +2133,23 @@ class AccountMoveLine(models.Model):
         debit_fully_matched = compare_amounts <= 0
         credit_fully_matched = compare_amounts >= 0
 
+<<<<<<< HEAD
+=======
+        def get_amount_range_after_rate(currency_from, currency_to, amount, rate):
+            # Suppose balance=1000, rate=12.
+            # 1000.0 could be the result of a rounding of [999.995, 1000.0049999999999].
+            # Let's say the target currency could be [999.995 * 12, 1000.005 * 12] = [11999.94, 12000.06]
+            # instead of just 120000.
+            if not rate:
+                return 0.0, 0.0, 0.0
+            half_rounding = currency_from.rounding / 2
+            return (
+                currency_to.round((amount - half_rounding) * rate),
+                currency_to.round(amount * rate),
+                currency_to.round((amount + half_rounding) * rate),
+            )
+
+>>>>>>> upstream/18.0
         # ==== Computation of partial amounts ====
         if recon_currency == company_currency:
             if exchange_line_mode:
@@ -2150,6 +2184,7 @@ class AccountMoveLine(models.Model):
                 credit_rate = credit_recon_values['rate']
 
             # Compute the partial amount expressed in foreign currency.
+<<<<<<< HEAD
             if debit_rate:
                 partial_debit_amount = company_currency.round(min_recon_amount / debit_rate)
                 partial_debit_amount = min(partial_debit_amount, remaining_debit_amount)
@@ -2162,6 +2197,62 @@ class AccountMoveLine(models.Model):
                 partial_credit_amount = 0.0
             partial_amount = min(partial_debit_amount, partial_credit_amount)
 
+=======
+            partial_debit_amount_range = get_amount_range_after_rate(
+                currency_from=debit_currency,
+                currency_to=company_currency,
+                amount=min_recon_amount,
+                rate=(1 / debit_rate) if debit_rate else 0.0,
+            )
+            partial_debit_amount = partial_debit_amount_range[1]
+            partial_debit_amount = min(partial_debit_amount, remaining_debit_amount)
+            partial_credit_amount_range = get_amount_range_after_rate(
+                currency_from=credit_currency,
+                currency_to=company_currency,
+                amount=min_recon_amount,
+                rate=(1 / credit_rate) if credit_rate else 0.0,
+            )
+            partial_credit_amount = partial_credit_amount_range[1]
+            partial_credit_amount = min(partial_credit_amount, -remaining_credit_amount)
+            partial_amount = min(partial_debit_amount, partial_credit_amount)
+
+            # Prevent exchange differences if amounts are close enough to be a rounding issue
+            # after applying the exchange rate and then, rounding amounts to store them into
+            # the monetary fields.
+            # Suppose 2 lines:
+            # l1: balance=377554.0, amount_currency=20000.0
+            # l2: balance=-5314.62, amount_currency=-281.53
+            # ... computing min_recon_amount = min(20000.0, 281.53) = 281.53 in foreign currency to reconcile.
+            # The equivalent of 281.53 for l1 in company currency is 5314.64 that could be the result of rounding any value
+            # between [5314.54, 5314.7300000000005]
+            # ... considering the rate of 0.05297255491929631 and the rounding applied to reach this value.
+            # For l2, it will be 5314.62 in the range [5314.53, 5314.71].
+            #
+            # ---------
+            # | 5314.73         ---------       <- max amount
+            # |                 5314.71  |
+            # |                          |
+            # | 5314.64                  |
+            # |                 5314.62  |      Every number between the min and the max are considered as valid to be the partial amount.
+            # |                          |      Depending on the one we choose, we can avoid to create an exchange difference entry or
+            # |                          |      we could also prevent to let an unnecessary open residual amount.
+            # | 5314.54                  |
+            # ---------         5314.53  |      <- min amount
+            #                   ---------
+            if (
+                company_currency.compare_amounts(partial_debit_amount, partial_credit_amount_range[2]) <= 0
+                and company_currency.compare_amounts(partial_debit_amount, partial_credit_amount_range[0]) >= 0
+                and company_currency.compare_amounts(partial_credit_amount, partial_debit_amount_range[2]) <= 0
+                and company_currency.compare_amounts(partial_credit_amount, partial_debit_amount_range[0]) >= 0
+            ):
+                if debit_fully_matched:
+                    partial_amount = remaining_debit_amount
+                else:
+                    partial_amount = -remaining_credit_amount
+                partial_debit_amount = partial_amount
+                partial_credit_amount = partial_amount
+
+>>>>>>> upstream/18.0
             # Compute the partial amount expressed in foreign currency.
             # Take care to handle the case when a line expressed in company currency is mimicking the foreign
             # currency of the opposite line.
@@ -2796,7 +2887,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2859,6 +2953,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2934,9 +3031,13 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal = company.currency_exchange_journal_id
         expense_exchange_account = company.expense_currency_exchange_account_id
         income_exchange_account = company.income_currency_exchange_account_id
+=======
+        journal = self._get_exchange_journal(company)
+>>>>>>> upstream/18.0
 =======
         journal = self._get_exchange_journal(company)
 >>>>>>> upstream/18.0
@@ -3045,10 +3146,14 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if amount_residual_to_fix > 0.0:
                 exchange_line_account = expense_exchange_account
             else:
                 exchange_line_account = income_exchange_account
+=======
+            exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
+>>>>>>> upstream/18.0
 =======
             exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
 >>>>>>> upstream/18.0

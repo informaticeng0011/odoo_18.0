@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Manon Rondou, 2025
 # Wil Odoo, 2025
@@ -81,6 +82,11 @@
 # Wil Odoo, 2025
 # Manon Rondou, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+# Manon Rondou, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -89,6 +95,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +144,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Manon Rondou, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -2315,7 +2325,11 @@ msgid "Accounting Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Boekhouddatum"
+=======
+msgstr "Boekingsdatum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Boekingsdatum"
 >>>>>>> upstream/18.0
@@ -3726,8 +3740,13 @@ msgid ""
 "Partner bank account number."
 msgstr ""
 "Bankrekeningnummer waarop de factuur wordt betaald. Een bedrijfsbankrekening"
+<<<<<<< HEAD
 " als het een klantenfactuur of een creditfactuur van een leverancier "
 "betreft, anders de bankrekeningnummer van de partner."
+=======
+" als het een klantfactuur of een creditfactuur van een leverancier betreft, "
+"anders de bankrekeningnummer van de partner."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_supplier_accounts
@@ -4807,6 +4826,7 @@ msgstr "Commerciële entiteit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4867,6 +4887,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Land van commercieel partner"
@@ -4883,6 +4905,9 @@ msgstr "Land van commercieel partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5897,7 +5922,11 @@ msgstr "Klant creditfactuur"
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__move_type__out_invoice
 #: model:ir.model.fields.selection,name:account.selection__account_move__move_type__out_invoice
 msgid "Customer Invoice"
+<<<<<<< HEAD
 msgstr "Verkoopfactuur"
+=======
+msgstr "Klantfactuur"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -10266,7 +10295,11 @@ msgstr "Links"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
 msgid "Left to Pay:"
+<<<<<<< HEAD
 msgstr "Links om te betalen:"
+=======
+msgstr "Nog te betalen:"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__invoice_legal_notes
@@ -11359,7 +11392,11 @@ msgid ""
 "                from the customer invoice."
 msgstr ""
 "Opmerking, de eenvoudigste wijze om een  creditfactuur aan te maken, is om dit\n"
+<<<<<<< HEAD
 "rechtstreeks vanaf de klantenfactuur uit te voeren."
+=======
+"rechtstreeks vanaf de klantfactuur uit te voeren."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_refund_type
@@ -18986,7 +19023,11 @@ msgid "You cannot register payments for miscellaneous entries."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Je kunt geen betalingen registreren voor diverse vermeldingen."
+=======
+msgstr "Je kunt geen betalingen registreren voor memoriaalboekingen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Je kunt geen betalingen registreren voor memoriaalboekingen."
 >>>>>>> upstream/18.0

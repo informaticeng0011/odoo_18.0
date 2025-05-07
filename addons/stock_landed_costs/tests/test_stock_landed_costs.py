@@ -218,7 +218,10 @@ class TestStockLandedCosts(TestStockLandedCostsCommon):
             self.assertEqual(bill.state, 'posted', 'Incorrect value with valuation %s' % valuation)
             self.assertEqual(landed_cost_aml.account_id, account, 'Incorrect value with valuation %s' % valuation)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_landed_cost_in_move_line(self):
         """
@@ -240,4 +243,7 @@ class TestStockLandedCosts(TestStockLandedCostsCommon):
         )
         move_line_no_landed = account_move.line_ids.filtered(lambda line: line.product_id == self.product)
         self.assertFalse(move_line_no_landed.is_landed_costs_line, "The landed cost should not be set to True.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

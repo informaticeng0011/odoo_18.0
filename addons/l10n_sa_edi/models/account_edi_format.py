@@ -17,8 +17,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 import logging
+=======
+import logging
+
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 import logging
 
@@ -290,6 +296,7 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if clearance_data.get('json_errors'):
             errors = [json.loads(j).get('validationResults', {}) for j in clearance_data['json_errors']]
             error_msg = ''
@@ -302,6 +309,8 @@ class AccountEdiFormat(models.Model):
                     is_warning = False
                     error_msg += '\n - %s | %s' % (err['code'], err['message'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -368,6 +377,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -428,7 +440,12 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'blocking_level': 'warning' if is_warning else 'error'
+=======
+                'blocking_level': 'warning' if is_warning else 'error',
+                'status_code': status_code,
+>>>>>>> upstream/18.0
 =======
                 'blocking_level': 'warning' if is_warning else 'error',
                 'status_code': status_code,

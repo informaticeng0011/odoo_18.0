@@ -55,7 +55,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_default_invoice_edi_format(self, move) -> str:
+=======
+    def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
+>>>>>>> upstream/18.0
 =======
     def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
 >>>>>>> upstream/18.0
@@ -153,7 +157,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_edi_format': get_setting('invoice_edi_format', default_value=self._get_default_invoice_edi_format(move)),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216,10 +223,13 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'email' in vals['sending_methods']:
             mail_template = get_setting('mail_template') or self._get_default_mail_template_id(move)
             mail_lang = get_setting('mail_lang') or self._get_default_mail_lang(move, mail_template)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -285,6 +295,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -347,7 +360,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'mail_attachments_widget': get_setting('mail_attachments_widget', default_value=self._get_default_mail_attachments_widget(move, mail_template, extra_edis=vals['extra_edis'], pdf_report=vals['pdf_report'])),
+=======
+                'mail_attachments_widget': get_setting('mail_attachments_widget', default_value=mail_attachments_widget),
+>>>>>>> upstream/18.0
 =======
                 'mail_attachments_widget': get_setting('mail_attachments_widget', default_value=mail_attachments_widget),
 >>>>>>> upstream/18.0
@@ -511,8 +528,13 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_default_mail_attachments_widget(self, move, mail_template, extra_edis=None, pdf_report=None):
         return self._get_placeholder_mail_attachments_data(move, extra_edis=extra_edis) \
+=======
+    def _get_default_mail_attachments_widget(self, move, mail_template, invoice_edi_format=None, extra_edis=None, pdf_report=None):
+        return self._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis) \
+>>>>>>> upstream/18.0
 =======
     def _get_default_mail_attachments_widget(self, move, mail_template, invoice_edi_format=None, extra_edis=None, pdf_report=None):
         return self._get_placeholder_mail_attachments_data(move, invoice_edi_format=invoice_edi_format, extra_edis=extra_edis) \
@@ -613,7 +635,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_placeholder_mail_attachments_data(self, move, extra_edis=None):
+=======
+    def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
+>>>>>>> upstream/18.0
 =======
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
 >>>>>>> upstream/18.0
@@ -822,9 +848,12 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_applicable_to_move(self, method, move):
         """ TO OVERRIDE - """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -883,6 +912,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1049,7 +1081,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'email' in move_data['sending_methods'] and self._is_applicable_to_move('email', move)
+=======
+            if 'email' in move_data['sending_methods'] and self._is_applicable_to_move('email', move, **move_data)
+>>>>>>> upstream/18.0
 =======
             if 'email' in move_data['sending_methods'] and self._is_applicable_to_move('email', move, **move_data)
 >>>>>>> upstream/18.0

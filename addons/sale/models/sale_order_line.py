@@ -315,7 +315,15 @@ class SaleOrderLine(models.Model):
     def _compute_display_name(self):
         name_per_id = self._additional_name_per_id()
         for so_line in self.sudo():
+<<<<<<< HEAD
             name = '{} - {}'.format(so_line.order_id.name, so_line.name and so_line.name.split('\n')[0] or so_line.product_id.name)
+=======
+            product = so_line.product_id
+            parts = (so_line.name or "").split('\n', 2)
+            # if there's a description, use the first line (skipping the product name)
+            description = (parts[1:2] and parts[1]) or product.name if product else parts[0]
+            name = f"{so_line.order_id.name} - {description}"
+>>>>>>> upstream/18.0
             additional_name = name_per_id.get(so_line.id)
             if additional_name:
                 name = f'{name} {additional_name}'
@@ -945,6 +953,7 @@ class SaleOrderLine(models.Model):
         Compute the quantity to invoice. If the invoice policy is order, the quantity to invoice is
         calculated from the ordered quantity. Otherwise, the quantity delivered is used.
 <<<<<<< HEAD
+<<<<<<< HEAD
         For combo product lines, first compute all other lines, and then set quantity to invoice
         only if at least one of its combo item lines is invoiceable.
         """
@@ -954,6 +963,8 @@ class SaleOrderLine(models.Model):
                 if line.product_id.type == 'combo':
                     combo_lines.append(line)
 =======
+=======
+>>>>>>> upstream/18.0
         For combo product lines, compute the value if a linked combo item line gets recomputed,
         and set `qty_to_invoice` only if at least one of its combo item lines is invoiceable.
         """
@@ -962,12 +973,20 @@ class SaleOrderLine(models.Model):
             if line.state == 'sale' and not line.display_type:
                 if line.product_id.type == 'combo':
                     combo_lines.add(line)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 elif line.product_id.invoice_policy == 'order':
                     line.qty_to_invoice = line.product_uom_qty - line.qty_invoiced
                 else:
                     line.qty_to_invoice = line.qty_delivered - line.qty_invoiced
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if line.combo_item_id and line.linked_line_id:
+                    combo_lines.add(line.linked_line_id)
+>>>>>>> upstream/18.0
 =======
                 if line.combo_item_id and line.linked_line_id:
                     combo_lines.add(line.linked_line_id)

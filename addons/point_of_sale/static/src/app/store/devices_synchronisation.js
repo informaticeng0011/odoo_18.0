@@ -89,6 +89,7 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const serverOpenOrders = this.pos.get_open_orders().filter((o) => typeof o.id === "number");
         const recordIds = this.getDynamicRecordServerIds();
         const domain = this.constructOrdersDomain(serverOpenOrders);
@@ -103,6 +104,8 @@ export default class DevicesSynchronisation {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const { domain, recordsIds } = this.constructOrdersDomain();
         const response = await this.pos.data.call("pos.config", "read_config_open_orders", [
             odoo.pos_config_id,
@@ -111,6 +114,9 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -182,6 +188,7 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     constructOrdersDomain(serverOpenOrders) {
         const localDomain = serverOpenOrders.map((o) => {
             const dateTime = DateTime.fromSQL(o.write_date);
@@ -221,6 +228,8 @@ export default class DevicesSynchronisation {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     constructOrdersDomain() {
         const dynamicModels = this.dynamicModels;
         const recordsToCheck = Array.from(dynamicModels).reduce((acc, model) => {
@@ -246,7 +255,13 @@ export default class DevicesSynchronisation {
                 const recordDate = DateTime.fromSQL(record.write_date);
                 const recordDateTime = recordDate.plus({ seconds: 1 });
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss");
+=======
+                const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss", {
+                    numberingSystem: "latn",
+                });
+>>>>>>> upstream/18.0
 =======
                 const recordDateTimeString = recordDateTime.toFormat("yyyy-MM-dd HH:mm:ss", {
                     numberingSystem: "latn",
@@ -281,6 +296,9 @@ export default class DevicesSynchronisation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

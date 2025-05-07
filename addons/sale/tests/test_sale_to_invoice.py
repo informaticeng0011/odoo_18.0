@@ -536,8 +536,13 @@ class TestSaleToInvoice(TestSaleCommon):
     def test_invoice_combo_product(self):
         """ Test creating an invoice for a SO with a combo product. """
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_a = self._create_product(name="Horse-meat burger")
         product_b = self._create_product(name="French fries")
+=======
+        product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
+        product_b = self._create_product(name="French fries", invoice_policy='delivery')
+>>>>>>> upstream/18.0
 =======
         product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
         product_b = self._create_product(name="French fries", invoice_policy='delivery')
@@ -592,7 +597,10 @@ class TestSaleToInvoice(TestSaleCommon):
         sale_order.action_confirm()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(sale_order.order_line.mapped('qty_to_invoice'), [0.0, 0.0, 0.0])
         deliverables = sale_order.order_line.filtered(
             lambda sol: sol.product_id.invoice_policy == 'delivery'
@@ -609,6 +617,9 @@ class TestSaleToInvoice(TestSaleCommon):
             "Delivering the combo items lines should update the combo product line as well.",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Context
         self.context = {
@@ -1324,7 +1335,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1369,6 +1383,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

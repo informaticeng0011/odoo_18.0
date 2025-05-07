@@ -52,7 +52,10 @@ class AccountMove(models.Model):
         return posted
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _update_order_line_info(self, product_id, quantity, **kwargs):
         price_unit = super()._update_order_line_info(product_id, quantity, **kwargs)
         move_line = self.line_ids.filtered(lambda line: line.product_id.id == product_id)
@@ -60,6 +63,9 @@ class AccountMove(models.Model):
             move_line.is_landed_costs_line = move_line.product_id.landed_cost_ok
         return price_unit
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class AccountMoveLine(models.Model):

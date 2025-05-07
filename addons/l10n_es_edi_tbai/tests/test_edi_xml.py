@@ -126,7 +126,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
                         <BaseImponible>984.00</BaseImponible>
                         <TipoImpositivo>21.00</TipoImpositivo>
                         <CuotaImpuesto>206.64</CuotaImpuesto>
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
                       </DetalleIVA>
                     </DesgloseIVA>
                 </xpath>

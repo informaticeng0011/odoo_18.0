@@ -46,6 +46,13 @@ class StockValuationLayer(models.Model):
             self._cr, 'stock_valuation_layer_index',
             self._table, ['product_id', 'remaining_qty', 'stock_move_id', 'company_id', 'create_date']
         )
+<<<<<<< HEAD
+=======
+        tools.create_index(
+            self._cr, 'stock_valuation_company_product_index',
+            self._table, ['product_id', 'company_id', 'id', 'value', 'quantity']
+        )
+>>>>>>> upstream/18.0
 
     def _compute_warehouse_id(self):
         for svl in self:
@@ -78,7 +85,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122,6 +132,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

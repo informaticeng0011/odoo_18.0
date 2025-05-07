@@ -134,6 +134,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 
         so_line_order_task_in_global = SaleOrderLine.create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -144,6 +148,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 
         so_line_order_new_task_new_project = SaleOrderLine.create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
 >>>>>>> upstream/18.0
@@ -166,10 +174,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.assertFalse(so_line_order_task_in_global.project_id, "Only task should be created, project should not be linked")
         self.assertEqual(self.project_global.tasks.sale_line_id, so_line_order_task_in_global, "Global project's task should be linked to so line")
 <<<<<<< HEAD
+<<<<<<< HEAD
         #  service_tracking 'task_in_project'
         self.assertTrue(so_line_order_new_task_new_project.project_id, "Sales order line should be linked to newly created project")
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(
             so_line_order_task_in_global.task_id.name,
             f"{sale_order.name} - [TEST1]",
@@ -191,6 +202,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             str(so_line_order_new_task_new_project.task_id.description),
             '<p>New project</p>',
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # service_tracking 'project_only'
         self.assertFalse(so_line_order_only_project.task_id, "Task should not be created")

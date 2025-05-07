@@ -6,6 +6,10 @@ import json
 from freezegun import freeze_time
 from unittest.mock import patch
 
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 
 
@@ -161,11 +165,23 @@ class TestEdiXmls(TestEsEdiCommon):
                 invoice_line_ids=[
                     {
                         'price_unit': 100.0,
+<<<<<<< HEAD
                         'tax_ids': [(6, 0, (self._get_tax_by_xml_id('s_iva10b') + self._get_tax_by_xml_id('s_req014')).ids)],
                     },
                     {
                         'price_unit': 200.0,
                         'tax_ids': [(6, 0, (self._get_tax_by_xml_id('s_iva21s') + self._get_tax_by_xml_id('s_req52')).ids)],
+=======
+                        'tax_ids': [Command.set((self._get_tax_by_xml_id('s_iva10b') + self._get_tax_by_xml_id('s_req014')).ids)],
+                    },
+                    {
+                        'price_unit': 50.0,
+                        'tax_ids': [Command.set((self._get_tax_by_xml_id('s_iva10b') + self._get_tax_by_xml_id('s_req014')).ids)],
+                    },
+                    {
+                        'price_unit': 200.0,
+                        'tax_ids': [Command.set((self._get_tax_by_xml_id('s_iva21s') + self._get_tax_by_xml_id('s_req52')).ids)],
+>>>>>>> upstream/18.0
                     },
                 ],
             )
@@ -214,9 +230,15 @@ class TestEdiXmls(TestEsEdiCommon):
                                             'DetalleIVA': [
                                                 {
                                                     'TipoImpositivo': 10.0,
+<<<<<<< HEAD
                                                     'BaseImponible': 100.0,
                                                     'CuotaRepercutida': 10.0,
                                                     'CuotaRecargoEquivalencia': 1.4,
+=======
+                                                    'BaseImponible': 150.0,
+                                                    'CuotaRepercutida': 15.0,
+                                                    'CuotaRecargoEquivalencia': 2.1,
+>>>>>>> upstream/18.0
                                                     'TipoRecargoEquivalencia': 1.4
                                                 }
                                             ]
@@ -226,7 +248,11 @@ class TestEdiXmls(TestEsEdiCommon):
                             }
                         }
                     },
+<<<<<<< HEAD
                     'ImporteTotal': 363.8,
+=======
+                    'ImporteTotal': 419.5,
+>>>>>>> upstream/18.0
                     'Contraparte': {
                         'IDOtro': {'ID': 'BE0477472701', 'IDType': '02'},
                         'NombreRazon': 'partner_a',

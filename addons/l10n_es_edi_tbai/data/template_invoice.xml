@@ -171,7 +171,10 @@
                                 <TipoRecargoEquivalencia t-if="detalle.get('TipoRecargoEquivalencia')" t-out="format_float(detalle['TipoRecargoEquivalencia'])"/>
                                 <CuotaRecargoEquivalencia t-if="detalle.get('CuotaRecargoEquivalencia')" t-out="format_float(detalle['CuotaRecargoEquivalencia'])"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <OperacionEnRecargoDeEquivalenciaORegimenSimplificado t-out="'S' if is_simplified else 'N'"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             </DetalleIVA>

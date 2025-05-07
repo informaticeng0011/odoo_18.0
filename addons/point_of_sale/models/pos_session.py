@@ -95,6 +95,15 @@ class PosSession(models.Model):
 
     _sql_constraints = [('uniq_name', 'unique(name)', "The name of this POS Session must be unique!")]
 
+<<<<<<< HEAD
+=======
+    def write(self, vals):
+        if vals.get('state') == 'closed':
+            for record in self:
+                record.config_id._notify(('CLOSING_SESSION', {'login_number': self.env.context.get('login_number', False)}))
+        return super().write(vals)
+
+>>>>>>> upstream/18.0
     @api.model
     def _load_pos_data_relations(self, model, response):
         model_fields = self.env[model]._fields
@@ -200,7 +209,10 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -241,6 +253,9 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -324,7 +339,12 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result = self.env['pos.payment']._read_group([('session_id', '=', session.id), ('payment_method_id', '=', cash_payment_method.id)], aggregates=['amount:sum'])
+=======
+                captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
+                result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])
+>>>>>>> upstream/18.0
 =======
                 captured_cash_payments_domain = AND([session._get_captured_payments_domain(),[('payment_method_id', '=', cash_payment_method.id)]])
                 result = self.env['pos.payment']._read_group(captured_cash_payments_domain, aggregates=['amount:sum'])
@@ -743,7 +763,10 @@ class PosSession(models.Model):
             }
 
         self.post_close_register_message()
+<<<<<<< HEAD
         self.config_id._notify(('CLOSING_SESSION', {'login_number': self.env.context.get('login_number', False)}))
+=======
+>>>>>>> upstream/18.0
         return {'successful': True}
 
     def post_close_register_message(self):

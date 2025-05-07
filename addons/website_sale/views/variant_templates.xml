@@ -172,7 +172,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "display_currency": (pricelist or product.env.company).currency_id
+=======
+                    "display_currency": (website.pricelist_id or product.env.company).currency_id
+>>>>>>> upstream/18.0
 =======
                     "display_currency": (website.pricelist_id or product.env.company).currency_id
 >>>>>>> upstream/18.0

@@ -8,11 +8,14 @@ class SaleOrderLine(models.Model):
     @api.depends('analytic_line_ids.amount', 'qty_delivered_method')
     def _compute_purchase_price(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         timesheet_sols = self.filtered(
             lambda sol: sol.qty_delivered_method == 'timesheet' and not sol.product_id.standard_price
         )
         super(SaleOrderLine, self - timesheet_sols)._compute_purchase_price()
 =======
+=======
+>>>>>>> upstream/18.0
         # filter out the ale.order.lines called by this override of _compute_purchase_price for which
         # we don't want the purchase price to be recomputed. Without filtring out the sale.order.lines
         # for which the recomputation was triggered by a depency from another override of _compute_purchase_price
@@ -24,6 +27,9 @@ class SaleOrderLine(models.Model):
             lambda sol: sol.qty_delivered_method == 'timesheet' and not sol.product_id.standard_price
         )
         super(SaleOrderLine, self - timesheet_sols - service_non_timesheet_sols)._compute_purchase_price()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if timesheet_sols:
             group_amount = self.env['account.analytic.line']._read_group(
