@@ -12,7 +12,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
+=======
+from odoo.tests import Form, tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, users
 >>>>>>> upstream/18.0
@@ -245,6 +249,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @users('simple_accountman')
+>>>>>>> upstream/18.0
 =======
     @users('simple_accountman')
 >>>>>>> upstream/18.0
@@ -1941,7 +1949,10 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
         self.assertTrue(all([line.full_reconcile_id for line in reversed_lines]))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_reconcile_foreign_currency_rounding_issue(self):
         comp_curr = self.company_data['currency']
         foreign_currency = self.env['res.currency'].create({
@@ -2110,6 +2121,9 @@ class TestAccountMoveReconcile(AccountTestInvoicingCommon):
                     ]
                 self.assertRecordValues(partials.sorted('amount'), expected_partials)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_reconcile_special_mexican_workflow_1(self):
         comp_curr = self.company_data['currency']

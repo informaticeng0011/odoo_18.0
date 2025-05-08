@@ -354,7 +354,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
 =======
                             domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
 >>>>>>> upstream/18.0
@@ -1125,7 +1129,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                        readonly="is_move_sent"/>
+=======
+                                       readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                        readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -1554,7 +1562,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                readonly="is_move_sent"/>
+=======
+                                               readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                                readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0

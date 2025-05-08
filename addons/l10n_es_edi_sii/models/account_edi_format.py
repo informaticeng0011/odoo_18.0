@@ -103,13 +103,19 @@ class AccountEdiFormat(models.Model):
         # on the same invoice, this can be deduced globally.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         recargo_tax_details = defaultdict(list)  # Mapping between main tax and recargo tax details
 =======
+=======
+>>>>>>> upstream/18.0
         # Mapping between main tax and recargo tax details
         # structure: {("l10n_es_type" of the main tax, amount of the main tax): {'tax_amount': float, 'applied_tax_amount': float}}
         # dict of keys: tuple ("l10n_es_type" of the main tax, amount of the main tax)
         #       values: dict of float
         recargo_tax_details = defaultdict(lambda: defaultdict(float))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for base_line in tax_details['base_lines']:
             line = base_line['record']
@@ -118,6 +124,7 @@ class AccountEdiFormat(models.Model):
             if recargo_tax and taxes:
                 recargo_main_tax = taxes.filtered(lambda x: x.l10n_es_type in ('sujeto', 'sujeto_isp'))[:1]
                 aggregated_values = tax_details['tax_details_per_record'][line]
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if not recargo_tax_details.get(recargo_main_tax):
                     recargo_tax_details[recargo_main_tax.l10n_es_type, recargo_main_tax.amount] = next(iter(
@@ -130,6 +137,8 @@ class AccountEdiFormat(models.Model):
                         )
                     ))
 =======
+=======
+>>>>>>> upstream/18.0
                 recargo_values = next(iter(
                     values
                     for values in aggregated_values['tax_details'].values()
@@ -141,6 +150,9 @@ class AccountEdiFormat(models.Model):
                 ))
                 recargo_tax_details[recargo_main_tax.l10n_es_type, recargo_main_tax.amount]['tax_amount'] += recargo_values['tax_amount']
                 recargo_tax_details[recargo_main_tax.l10n_es_type, recargo_main_tax.amount]['applied_tax_amount'] = recargo_values['applied_tax_amount']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         tax_amount_deductible = 0.0

@@ -9,11 +9,14 @@ class SaleOrderLine(models.Model):
     def _compute_purchase_price(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timesheet_sols = self.filtered(
             lambda sol: sol.qty_delivered_method == 'timesheet' and not sol.product_id.standard_price
         )
         super(SaleOrderLine, self - timesheet_sols)._compute_purchase_price()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # filter out the ale.order.lines called by this override of _compute_purchase_price for which
@@ -28,6 +31,9 @@ class SaleOrderLine(models.Model):
         )
         super(SaleOrderLine, self - timesheet_sols - service_non_timesheet_sols)._compute_purchase_price()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

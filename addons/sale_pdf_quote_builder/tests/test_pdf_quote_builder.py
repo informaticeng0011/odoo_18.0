@@ -166,7 +166,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         self.assertEqual('Product > Test Product', dialog_param['lines'][0]['name'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_quotation_document_is_removed_on_template_change(self):
         so_tmpl = self.env['sale.order.template'].create({
             'name': "test1",
@@ -187,6 +190,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 
         self.assertNotEqual(self.sale_order.quotation_document_ids, self.header)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_onchange_product_removes_previously_selected_documents(self):
         """ Check that changing a line that has a selected document unselect said document. """

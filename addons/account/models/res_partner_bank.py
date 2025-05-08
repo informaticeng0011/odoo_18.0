@@ -273,7 +273,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -337,6 +340,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -452,7 +458,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _("Bank Account %(link)s with number %(number)s deleted", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+=======
+            msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+>>>>>>> upstream/18.0
 =======
             msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
 >>>>>>> upstream/18.0

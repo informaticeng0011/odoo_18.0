@@ -2,6 +2,7 @@
 <odoo>
     <template id="ubl_21_InvoiceType_my" inherit_id="account_edi_ubl_cii.ubl_21_InvoiceType" primary="True">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <xpath expr="//*[local-name()='DocumentCurrencyCode']" position="after">
             <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
                xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
@@ -13,11 +14,22 @@
             <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
                xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 >>>>>>> upstream/18.0
+=======
+        <xpath expr="//*[local-name()='BillingReference']" position="after">
+            <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+>>>>>>> upstream/18.0
                 <cac:AdditionalDocumentReference t-if="vals.get('custom_form_reference')">
                     <cbc:ID t-out="vals['custom_form_reference']"/>
                     <cbc:DocumentType>CustomsImportForm</cbc:DocumentType>
                 </cac:AdditionalDocumentReference>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <cac:AdditionalDocumentReference t-if="vals.get('invoice_incoterm_code')">
+                    <cbc:ID t-out="vals['invoice_incoterm_code']"/>
+                </cac:AdditionalDocumentReference>
+>>>>>>> upstream/18.0
 =======
                 <cac:AdditionalDocumentReference t-if="vals.get('invoice_incoterm_code')">
                     <cbc:ID t-out="vals['invoice_incoterm_code']"/>

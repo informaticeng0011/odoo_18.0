@@ -147,7 +147,10 @@ registry.category("web_tour.tours").add("ProductComboChangeFP", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("ProductComboChangePricelist", {
     steps: () =>
@@ -175,4 +178,7 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
             ProductScreen.isShown(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

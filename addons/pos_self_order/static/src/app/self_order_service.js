@@ -33,8 +33,11 @@ import { TimeoutPopup } from "@pos_self_order/app/components/timeout_popup/timeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { constructFullProductName, deduceUrl, random5Chars } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98,6 +101,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -335,6 +341,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            price_type: "original",
+>>>>>>> upstream/18.0
 =======
             price_type: "original",
 >>>>>>> upstream/18.0
@@ -517,9 +527,13 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineToMerge.qty += newLine.qty;
 =======
             lineToMerge.set_quantity(qty + newLine.qty);
+>>>>>>> upstream/18.0
+=======
+            lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
 >>>>>>> upstream/18.0
 =======
             lineToMerge.set_quantity(lineToMerge.qty + newLine.qty);
@@ -704,6 +718,10 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        newOrder.set_pricelist(this.config.pricelist_id);
+>>>>>>> upstream/18.0
 =======
         newOrder.set_pricelist(this.config.pricelist_id);
 >>>>>>> upstream/18.0
@@ -785,13 +803,19 @@ export class SelfOrder extends Reactive {
             this.productByCategIds[category_id] = this.productByCategIds[category_id].filter(
                 (p) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!isSpecialProduct(p) && !productTmplIds.has(p.raw.product_tmpl_id)) {
 =======
+=======
+>>>>>>> upstream/18.0
                     if (
                         !isSpecialProduct(p) &&
                         p.self_order_available &&
                         !productTmplIds.has(p.raw.product_tmpl_id)
                     ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         productTmplIds.add(p.raw.product_tmpl_id);
                         p.available_in_pos = false;
@@ -821,6 +845,12 @@ export class SelfOrder extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        computeProductPricelistCache(this);
+
+>>>>>>> upstream/18.0
 =======
 
         computeProductPricelistCache(this);
@@ -1235,10 +1265,13 @@ export class SelfOrder extends Reactive {
         this.router.navigate("default");
     }
 
+<<<<<<< HEAD
     updateOrderFromServer(order) {
         this.currentOrder.updateDataFromServer(order);
     }
 
+=======
+>>>>>>> upstream/18.0
     isOrder() {
         if (!this.currentOrder || !this.currentOrder.lines.length) {
             this.router.navigate("default");

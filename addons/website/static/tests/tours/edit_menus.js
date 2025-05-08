@@ -262,10 +262,16 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return helpers.drag_and_drop('.oe_menu_editor li:contains("Home")', {
                 position: {
                     y: 27,
                     left: 5,
+=======
+            return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
+                position : {
+                    top: 20,
+>>>>>>> upstream/18.0
 =======
             return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
                 position : {

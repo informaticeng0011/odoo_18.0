@@ -340,7 +340,10 @@ class TestSaleOrder(SaleCommon):
             self.sale_order.with_context(sale_show_partner_name=True).display_name)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         self.sale_order.order_line = [
@@ -371,6 +374,9 @@ class TestSaleOrder(SaleCommon):
             "Multi-line note should display the first line only",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_state_changes(self):
         """Test some untested state changes methods & logic."""

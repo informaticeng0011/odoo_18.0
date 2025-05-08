@@ -401,6 +401,7 @@
         </field>
     </record>
 
+<<<<<<< HEAD
     <record id="action_hr_applicant_mass_sms" model="ir.actions.act_window">
         <field name="name">Send SMS</field>
         <field name="res_model">sms.composer</field>
@@ -415,6 +416,8 @@
         <field name="binding_view_types">list</field>
     </record>
 
+=======
+>>>>>>> upstream/18.0
     <record model="ir.actions.act_window" id="action_hr_applicant_new">
         <field name="res_model">hr.applicant</field>
         <field name="view_mode">form</field>

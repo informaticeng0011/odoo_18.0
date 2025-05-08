@@ -49,7 +49,10 @@ class SaleOrder(models.Model):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # === ONCHANGE METHODS === #
 
     @api.onchange('sale_order_template_id')
@@ -59,6 +62,9 @@ class SaleOrder(models.Model):
             # Remove documents which are no longer available.
             order.quotation_document_ids &= order.available_product_document_ids
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # === ACTION METHODS === #
 

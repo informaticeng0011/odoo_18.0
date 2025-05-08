@@ -53,7 +53,10 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _update_order_line_info(self, product_id, quantity, **kwargs):
@@ -64,6 +67,9 @@ class AccountMove(models.Model):
         return price_unit
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

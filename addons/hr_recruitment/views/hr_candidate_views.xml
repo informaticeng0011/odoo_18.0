@@ -216,6 +216,7 @@
             </search>
         </field>
     </record>
+<<<<<<< HEAD
     
     <record id="action_hr_candidate_mass_sms" model="ir.actions.act_window">
         <field name="name">Send SMS</field>
@@ -230,6 +231,8 @@
         <field name="binding_model_id" ref="hr_recruitment.model_hr_candidate"/>
         <field name="binding_view_types">list</field>
     </record>
+=======
+>>>>>>> upstream/18.0
 
     <record id="action_candidate_send_mail" model="ir.actions.server">
         <field name="name">Send Email</field>

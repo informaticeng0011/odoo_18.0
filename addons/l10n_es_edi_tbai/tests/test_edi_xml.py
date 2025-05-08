@@ -22,7 +22,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
         cls.out_invoice = cls.env['account.move'].create({
             'name': 'INV/01',
             'move_type': 'out_invoice',
+<<<<<<< HEAD
             'invoice_date': date(2022, 1, 1),
+=======
+            'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
             'partner_id': cls.partner_a.id,
             'invoice_line_ids': [(0, 0, {
                 'product_id': cls.product_a.id,
@@ -48,7 +52,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
         with freeze_time(self.frozen_today):
             invoice = self.out_invoice.copy({
                 'name': 'INV01',
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
             })
             edi_document = invoice._l10n_es_tbai_create_edi_document(cancel=False)
             edi_document._generate_xml(invoice._l10n_es_tbai_get_values(cancel=False))
@@ -127,7 +135,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
                         <TipoImpositivo>21.00</TipoImpositivo>
                         <CuotaImpuesto>206.64</CuotaImpuesto>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                       </DetalleIVA>
@@ -281,7 +292,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 
     def test_xml_tree_cancel(self):
         post_xml = b"""<TicketBAI>
+<<<<<<< HEAD
 <CabeceraFactura><FechaExpedicionFactura>01-01-2022</FechaExpedicionFactura></CabeceraFactura>
+=======
+<CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
+>>>>>>> upstream/18.0
 <ds:SignatureValue xmlns:ds="http://www.w3.org/2000/09/xmldsig#">TEXT</ds:SignatureValue>
 </TicketBAI>"""  # hack to set out_invoice's registration date
         post_edi_document = self.out_invoice._l10n_es_tbai_create_edi_document()

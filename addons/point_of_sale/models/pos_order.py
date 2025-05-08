@@ -110,7 +110,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154,6 +157,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186,7 +192,13 @@ class PosOrder(models.Model):
             for field in ['lines', 'payment_ids']:
                 if order.get(field):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     pos_order.write({field: order.get(field)})
+=======
+                    existing_record_ids = self.env[pos_order[field]._name].browse([r[1] for r in order[field] if r[1] != 0]).exists().ids
+                    existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
+                    pos_order.write({field: existing_records_vals})
+>>>>>>> upstream/18.0
 =======
                     existing_record_ids = self.env[pos_order[field]._name].browse([r[1] for r in order[field] if r[1] != 0]).exists().ids
                     existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
@@ -247,7 +259,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0
@@ -662,6 +678,12 @@ class PosOrder(models.Model):
                         country=order.partner_id.country_id or self.env.company.country_id)
             if vals.get('has_deleted_line') is not None and self.has_deleted_line:
                 del vals['has_deleted_line']
+<<<<<<< HEAD
+=======
+            allowed_vals = ['paid', 'done', 'invoiced']
+            if vals.get('state') and vals['state'] not in allowed_vals and order.state in allowed_vals:
+                raise UserError(_('This order has already been paid. You cannot set it back to draft or edit it.'))
+>>>>>>> upstream/18.0
 
         list_line = self._create_pm_change_log(vals)
         res = super().write(vals)
@@ -1207,6 +1229,7 @@ class PosOrder(models.Model):
                 raise ValidationError(_('You can only refund products from the same order.'))
 
             existing_order = self._get_open_order(order)
+<<<<<<< HEAD
             if existing_order and existing_order.state == 'draft':
                 order_ids.append(self._process_order(order, existing_order))
                 _logger.info("PoS synchronisation #%d order %s updated pos.order #%d", sync_token, order_log_name, order_ids[-1])
@@ -1218,6 +1241,10 @@ class PosOrder(models.Model):
                 # In practice it can happen when "Tip later" option is used
                 order_ids.append(existing_order.id)
                 _logger.info("PoS synchronisation #%d order %s sync ignored for existing PoS order %s (state: %s)", sync_token, order_log_name, existing_order, existing_order.state)
+=======
+            order_ids.append(self._process_order(order, existing_order or False))
+            _logger.info("PoS synchronisation #%d order %s pos.order #%d", sync_token, order_log_name, order_ids[-1])
+>>>>>>> upstream/18.0
 
         # Sometime pos_orders_ids can be empty.
         pos_order_ids = self.env['pos.order'].browse(order_ids)
@@ -1519,7 +1546,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type',
+=======
+            'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
+>>>>>>> upstream/18.0
 =======
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
 >>>>>>> upstream/18.0
@@ -1547,11 +1578,14 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('refund_orderline_ids')
     def _compute_refund_qty(self):
         for orderline in self:
             orderline.refunded_qty = -sum(orderline.mapped('refund_orderline_ids.qty'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1569,6 +1603,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1910,7 +1947,11 @@ class PosOrderLineLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['lot_name', 'pos_order_line_id']
+=======
+        return ['lot_name', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['lot_name', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

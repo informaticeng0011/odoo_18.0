@@ -259,12 +259,18 @@ export class Base {
                         .filter((s) => s);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (
                         this.models.commands[params.model].unlink.has(name) ||
                         this.models.commands[params.model].delete.has(name)
                     ) {
                         const unlinks = this.models.commands[params.model].unlink.get(name);
                         const deletes = this.models.commands[params.model].delete.get(name);
+=======
+                    const unlinks = this.getCommand("unlink", name);
+                    const deletes = this.getCommand("delete", name);
+                    if (unlinks || deletes) {
+>>>>>>> upstream/18.0
 =======
                     const unlinks = this.getCommand("unlink", name);
                     const deletes = this.getCommand("delete", name);
@@ -278,8 +284,13 @@ export class Base {
                         }
                         if (clear) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                             this.models.commands[params.model].unlink.delete(name);
                             this.models.commands[params.model].delete.delete(name);
+=======
+                            this.deleteCommand("unlink", name);
+                            this.deleteCommand("delete", name);
+>>>>>>> upstream/18.0
 =======
                             this.deleteCommand("unlink", name);
                             this.deleteCommand("delete", name);
@@ -310,7 +321,10 @@ export class Base {
         return this.baseData[this.id];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     getCommand(command, fieldName) {
         const key = `${fieldName}_${this.id}`;
         if (this.models.commands[this.model.modelName][command].has(key)) {
@@ -345,6 +359,9 @@ export class Base {
             }
         }
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -713,7 +730,11 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
 
         if (typeof record.id === "number" && !opts.silent) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             commands[model].update.add(record.id);
+=======
+            addToCommand(model, "update", record.id);
+>>>>>>> upstream/18.0
 =======
             addToCommand(model, "update", record.id);
 >>>>>>> upstream/18.0
@@ -726,11 +747,14 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
         const handleCommand = (inverse, field, record, backend = false) => {
             if (inverse && !inverse.dummy && !opts.silent && typeof id === "number") {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const modelCommands = commands[field.relation];
                 const map = backend ? modelCommands.delete : modelCommands.unlink;
                 const oldVal = map.get(inverse.name);
                 map.set(inverse.name, [...(oldVal || []), record.id]);
 =======
+=======
+>>>>>>> upstream/18.0
                 addToCommand(
                     field.relation,
                     backend ? "delete" : "unlink",
@@ -738,6 +762,9 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
                     inverse.name,
                     record[field.name].id
                 );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         };
@@ -774,7 +801,10 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     function addToCommand(model, command, recordId, fieldName, inverseId) {
         if (!(model in commands)) {
             throw new Error(`Model ${model} not found`);
@@ -795,6 +825,9 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     function createCRUD(model, fields) {
         return {
@@ -805,7 +838,11 @@ export function createRelatedModels(modelDefs, modelClasses = {}, opts = {}) {
                 return records;
             },
             get orderedRecords() {
+<<<<<<< HEAD
                 return Array.from(records[model].values());
+=======
+                return Array.from(this.records[model].values());
+>>>>>>> upstream/18.0
             },
             get indexedRecords() {
                 return indexedRecords;

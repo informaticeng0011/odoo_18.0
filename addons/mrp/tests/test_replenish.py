@@ -123,7 +123,10 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(basic_mo.move_raw_ids.mapped('state'), ['assigned', 'assigned'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_scrap_replenishment_reassigns_required_qty_to_component(self):
         """ Test that when validating the scrap replenishment transfer, the required quantity
         is re-assigned to the component for the final manufacturing product. """
@@ -167,6 +170,9 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(move_to_scrap.quantity, 10, "Scrapped component should return to qty 10")
         self.assertEqual(move_other.quantity, 10, "Other component should still be qty 10")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_global_visibility_days_affect_lead_time_manufacture_rule(self):
         """ Ensure global visibility days will only be captured one time in an orderpoint's

@@ -112,7 +112,11 @@ class L10nEsEdiTbaiDocument(models.Model):
         if not self.company_id.vat:
             return _("Please configure the Tax ID on your company for TicketBAI.")
 
+<<<<<<< HEAD
         if self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+=======
+        if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+>>>>>>> upstream/18.0
             return _("In order to use Ticketbai Batuz for freelancers, you will need to configure the "
                         "Epigrafe or Main Activity.  In this version, you need to go in debug mode to "
                         "Settings > Technical > System Parameters and set the parameter 'l10n_es_edi_tbai.epigrafe'"
@@ -311,6 +315,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'is_freelancer': freelancer,  # For bugfix, will be removed in master
+>>>>>>> upstream/18.0
 =======
             'is_freelancer': freelancer,  # For bugfix, will be removed in master
 >>>>>>> upstream/18.0
@@ -486,6 +494,7 @@ class L10nEsEdiTbaiDocument(models.Model):
     def _get_regime_code_value(self, taxes, is_simplified):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         regime_key = []
 
         if is_simplified and self.company_id.l10n_es_tbai_tax_agency != 'bizkaia':
@@ -496,6 +505,9 @@ class L10nEsEdiTbaiDocument(models.Model):
         return {'regime_key': regime_key}
 =======
         return {'regime_key': taxes._l10n_es_get_regime_code()}
+>>>>>>> upstream/18.0
+=======
+        return {'regime_key': [taxes._l10n_es_get_regime_code()]}
 >>>>>>> upstream/18.0
 =======
         return {'regime_key': [taxes._l10n_es_get_regime_code()]}

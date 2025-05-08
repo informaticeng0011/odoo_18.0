@@ -119,7 +119,11 @@ class PrinterDriver(Driver):
         printer = self.device_name
 
         args = [
+<<<<<<< HEAD
             "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dNORANGEPAGESIZE",
+=======
+            "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
+>>>>>>> upstream/18.0
             "-q",
             "-sDEVICE#mswinpr2",
             f'-sOutputFile#%printer%{printer}',
