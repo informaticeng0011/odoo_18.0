@@ -104,8 +104,11 @@ class AccountEdiFormat(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         recargo_tax_details = defaultdict(list)  # Mapping between main tax and recargo tax details
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Mapping between main tax and recargo tax details
@@ -114,6 +117,9 @@ class AccountEdiFormat(models.Model):
         #       values: dict of float
         recargo_tax_details = defaultdict(lambda: defaultdict(float))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124,6 +130,7 @@ class AccountEdiFormat(models.Model):
             if recargo_tax and taxes:
                 recargo_main_tax = taxes.filtered(lambda x: x.l10n_es_type in ('sujeto', 'sujeto_isp'))[:1]
                 aggregated_values = tax_details['tax_details_per_record'][line]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 if not recargo_tax_details.get(recargo_main_tax):
@@ -139,6 +146,8 @@ class AccountEdiFormat(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 recargo_values = next(iter(
                     values
                     for values in aggregated_values['tax_details'].values()
@@ -151,6 +160,9 @@ class AccountEdiFormat(models.Model):
                 recargo_tax_details[recargo_main_tax.l10n_es_type, recargo_main_tax.amount]['tax_amount'] += recargo_values['tax_amount']
                 recargo_tax_details[recargo_main_tax.l10n_es_type, recargo_main_tax.amount]['applied_tax_amount'] = recargo_values['applied_tax_amount']
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

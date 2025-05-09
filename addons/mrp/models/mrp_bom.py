@@ -566,12 +566,15 @@ class MrpBom(models.Model):
         never_values_by_attribute = never_attribute_values.grouped('attribute_id')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         for attribute, values in bom_values_by_attribute.items():
             if any(val.id in never_values_by_attribute[attribute].ids for val in values):
                 continue
             return True
         return not other_attribute_valid
 =======
+=======
+>>>>>>> upstream/18.0
         # Or if there is no overlap between given line values attributes and the ones on on the bom
         if not any(never_att_id in no_variant_bom_attributes.attribute_id.ids for never_att_id in never_attribute_values.attribute_id.ids):
             return True
@@ -583,6 +586,9 @@ class MrpBom(models.Model):
 
         # None were found, so we skip the line
         return True
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

@@ -56,7 +56,11 @@ class ProductProduct(models.Model):
     def _load_pos_self_data(self, data):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain = self._load_pos_data_domain(data)
+=======
+        domain = self._load_pos_self_data_domain(data)
+>>>>>>> upstream/18.0
 =======
         domain = self._load_pos_self_data_domain(data)
 >>>>>>> upstream/18.0

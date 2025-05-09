@@ -272,7 +272,10 @@ registry.category("web_tour.tours").add("PosCheapestProductTaxInclude", {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_program", {
     steps: () =>
         [
@@ -285,6 +288,9 @@ registry.category("web_tour.tours").add("test_not_create_loyalty_card_expired_pr
         ].flat(),
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("PosLoyaltyMultipleOrders", {
     steps: () =>

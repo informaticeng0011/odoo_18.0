@@ -124,7 +124,10 @@ class TestMrpReplenish(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_scrap_replenishment_reassigns_required_qty_to_component(self):
@@ -171,6 +174,9 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(move_other.quantity, 10, "Other component should still be qty 10")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

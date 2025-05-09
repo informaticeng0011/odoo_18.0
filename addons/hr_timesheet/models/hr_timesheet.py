@@ -437,3 +437,16 @@ class AccountAnalyticLine(models.Model):
                 'res_id': uom_hours.id,
                 'noupdate': True,
             })
+<<<<<<< HEAD
+=======
+
+    def action_open_timesheet_view_portal(self):
+        self.ensure_one()
+        return {
+            'type': 'ir.actions.act_window',
+            'res_id': self.id,
+            'res_model': 'account.analytic.line',
+            'views': [(self.env.ref('hr_timesheet.timesheet_view_form_portal_user').id, 'form')],
+            'context': self._context,
+        }
+>>>>>>> upstream/18.0

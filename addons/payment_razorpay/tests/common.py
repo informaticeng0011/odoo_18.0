@@ -34,6 +34,16 @@ class RazorpayCommon(PaymentCommon):
             'id': cls.payment_id,
             'description': cls.reference,
             'status': 'captured',
+<<<<<<< HEAD
+=======
+            'method': 'upi',
+        }
+        cls.payment_fail_data = {
+            'id': 'pay_987',
+            'description': cls.reference,
+            'status': 'failed',
+            'method': 'netbanking',
+>>>>>>> upstream/18.0
         }
         cls.tokenize_payment_data = {
             **cls.payment_data,

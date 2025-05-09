@@ -66,7 +66,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117,6 +120,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
         self.assertEqual(sale_order.order_line.purchase_price, 3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

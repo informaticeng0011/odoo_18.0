@@ -423,7 +423,11 @@ actual arch.
 
         return True
 
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
     def _check_groups(self):
         for view in self:
             if (view.groups_id and

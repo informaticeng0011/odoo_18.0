@@ -606,7 +606,10 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.partner_id.id, False)
         self.assertEqual(picking_pick.origin, False)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_propagate_cancel_in_pull_setup(self):
         """
@@ -643,4 +646,7 @@ class TestOldRules(TestStockCommon):
         pick_move = move_chain.filtered(lambda m: m.picking_type_id == self.warehouse_3_steps.pick_type_id)
         pick_move.picking_id.action_cancel()
         self.assertEqual(move_chain.mapped('state'), ['cancel', 'cancel', 'cancel'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

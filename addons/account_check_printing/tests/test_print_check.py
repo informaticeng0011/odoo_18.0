@@ -226,7 +226,10 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -298,6 +301,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -324,6 +328,8 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_draft_invoice_payment_check_printing(self):
         nb_invoices_to_test = INV_LINES_PER_STUB + 1
@@ -361,4 +367,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 
         report_pages = payment._check_get_pages()
         self.assertEqual(len(report_pages), 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

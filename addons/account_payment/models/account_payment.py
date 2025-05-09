@@ -201,13 +201,19 @@ class AccountPayment(models.Model):
     def _prepare_payment_transaction_vals(self, **extra_create_values):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if self._context.get('active_model', '') == 'account.move':
             invoice_ids = self._context.get('active_ids', [])
         elif self._context.get('active_model', '') == 'account.move.line':
             invoice_ids = self.env['account.move'].search([('line_ids', '=', self._context.get('active_ids'))]).ids
         else:
             invoice_ids = []
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return {
             'provider_id': self.payment_token_id.provider_id.id,
@@ -222,9 +228,13 @@ class AccountPayment(models.Model):
             'operation': 'offline',
             'payment_id': self.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             **({'invoice_ids': [Command.set(self._context.get('active_ids', []))]}
                 if self._context.get('active_model') == 'account.move'
                 else {}),
+=======
+            'invoice_ids': [Command.set(invoice_ids)],
+>>>>>>> upstream/18.0
 =======
             'invoice_ids': [Command.set(invoice_ids)],
 >>>>>>> upstream/18.0

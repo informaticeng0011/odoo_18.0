@@ -57,6 +57,10 @@ def MockRequest(
         redirect=env['ir.http']._redirect,
         session=DotDict(
             odoo.http.get_default_session(),
+<<<<<<< HEAD
+=======
+            force_website_id=website and website.id,
+>>>>>>> upstream/18.0
             sale_order_id=sale_order_id,
             website_sale_current_pl=website_sale_current_pl,
             website_sale_selected_pl_id=website_sale_selected_pl_id,

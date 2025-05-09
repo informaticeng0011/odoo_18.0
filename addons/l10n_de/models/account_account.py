@@ -10,9 +10,12 @@ class AccountAccount(models.Model):
             'code' in vals
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and 'DE' in self.company_ids.account_fiscal_country_id.mapped('code')
             and any(a.code != vals['code'] for a in self)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             and self.env.company.account_fiscal_country_id.code == 'DE'
@@ -21,6 +24,9 @@ class AccountAccount(models.Model):
                 for a in self
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

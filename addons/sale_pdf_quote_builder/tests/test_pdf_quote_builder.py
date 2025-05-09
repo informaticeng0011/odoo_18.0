@@ -167,7 +167,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_quotation_document_is_removed_on_template_change(self):
@@ -191,6 +194,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         self.assertNotEqual(self.sale_order.quotation_document_ids, self.header)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

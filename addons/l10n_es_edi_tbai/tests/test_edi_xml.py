@@ -23,7 +23,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
             'name': 'INV/01',
             'move_type': 'out_invoice',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': date(2022, 1, 1),
+=======
+            'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -53,7 +57,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
             invoice = self.out_invoice.copy({
                 'name': 'INV01',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
                 'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -136,7 +144,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
                         <CuotaImpuesto>206.64</CuotaImpuesto>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293,7 +304,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
     def test_xml_tree_cancel(self):
         post_xml = b"""<TicketBAI>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <CabeceraFactura><FechaExpedicionFactura>01-01-2022</FechaExpedicionFactura></CabeceraFactura>
+=======
+<CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
+>>>>>>> upstream/18.0
 =======
 <CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
 >>>>>>> upstream/18.0

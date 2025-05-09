@@ -22,6 +22,11 @@ ERROR_CODES = {
     "113": _lt("operating-system-type is mandatory in header"),
     "114": _lt("Invalid operating-system-type parameter value"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "117": _lt("This option is not enabled in Eway Bill2"),
+    "118": _lt("Try after 5 minutes"),
+>>>>>>> upstream/18.0
 =======
     "117": _lt("This option is not enabled in Eway Bill2"),
     "118": _lt("Try after 5 minutes"),
@@ -215,7 +220,10 @@ ERROR_CODES = {
     "442": _lt("Error in inserting verification details"),
     "443": _lt("invalid invoice available value"),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     "444": _lt("This Ewaybill cannot be cancelled as it is generated from NIC1"),
     "445": _lt("This Ewaybill cannot be cancelled as it is generated from NIC2"),
     "446": _lt("Transport details cannot be updated here as it is generated from NIC1"),
@@ -223,6 +231,9 @@ ERROR_CODES = {
     "448": _lt("Part B cannot be updated as this Ewaybill Part A is generated in NIC1"),
     "449": _lt("Part B cannot be updated as this Ewaybill Part A is generated in NIC2"),
     "452": _lt("Consolidate Ewaybill cannot be generated as this Ewaybill Part A is generated in NIC2"),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     "600": _lt("Invalid category"),
     "601": _lt("Invalid date format"),
@@ -339,6 +350,12 @@ ERROR_CODES = {
     "818": _lt("Validity period lapsed.Cannot generate consolidated Eway Bill"),
     "819": _lt("Ewaybill cannot be generated for the document date which is prior to 01/07/2017"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+    "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),
+    "4043": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+>>>>>>> upstream/18.0
 =======
     "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
     "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),

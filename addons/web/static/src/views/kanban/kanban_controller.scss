@@ -263,7 +263,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             z-index: 1;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -426,7 +429,11 @@
                 cursor: default;
             }
         }
+<<<<<<< HEAD
        
+=======
+
+>>>>>>> upstream/18.0
         &.o_kanban_hover {
             background-color: var(--KanbanColumn__highlight-background) !important;
             box-shadow: -1px 0px 0px 0px var(--KanbanColumn__highlight-border) inset,
@@ -460,12 +467,15 @@
         top: map-get($spacers, 3);
     }
 
+<<<<<<< HEAD
     .o_column_quick_create,
     .o_kanban_group:not(.o_column_folded) .o_kanban_header_title {
         // Makes them come on top of the "no-content" background gradient.
         z-index: calc(var(--o-view-nocontent-zindex) + 1);
     }
 
+=======
+>>>>>>> upstream/18.0
     .o_group_draggable .o_column_title {
         cursor: grab;
 

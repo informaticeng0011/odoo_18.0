@@ -413,7 +413,11 @@ class Warehouse(models.Model):
         data_route = route = self.env.ref(xml_id, raise_if_not_found=False)
         company = self.company_id[:1] or self.env.company
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not route or (route.company_id and route.company_id != company):
+=======
+        if not route or (route.sudo().company_id and route.sudo().company_id != company):
+>>>>>>> upstream/18.0
 =======
         if not route or (route.sudo().company_id and route.sudo().company_id != company):
 >>>>>>> upstream/18.0

@@ -77,7 +77,10 @@ registry.category("web_tour.tours").add("l10n_es_pos_settle_account_due", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_simplified_invoice_not_override_set_pricelist", {
     steps: () =>
@@ -92,4 +95,7 @@ registry.category("web_tour.tours").add("test_simplified_invoice_not_override_se
             ReceiptScreen.isShown(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

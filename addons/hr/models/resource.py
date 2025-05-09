@@ -50,7 +50,11 @@ class ResourceResource(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 resource.avatar_128 = avatar_per_employee_id[employee[0].id]
+=======
+                resource.avatar_128 = avatar_per_employee_id[employee[0].id] if employee else False
+>>>>>>> upstream/18.0
 =======
                 resource.avatar_128 = avatar_per_employee_id[employee[0].id] if employee else False
 >>>>>>> upstream/18.0

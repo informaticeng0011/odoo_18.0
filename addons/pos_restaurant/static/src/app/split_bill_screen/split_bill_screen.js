@@ -33,7 +33,11 @@ export class SplitBillScreen extends Component {
         for (const line of lines) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!line.is_pos_groupable()) {
+=======
+            if (!line.is_pos_groupable() && !line.isPartOfCombo()) {
+>>>>>>> upstream/18.0
 =======
             if (!line.is_pos_groupable() && !line.isPartOfCombo()) {
 >>>>>>> upstream/18.0

@@ -26,6 +26,10 @@ Auto-complete partner companies' data
         'web.assets_backend': [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'partner_autocomplete/static/src/scss/*',
+>>>>>>> upstream/18.0
 =======
             'partner_autocomplete/static/src/scss/*',
 >>>>>>> upstream/18.0

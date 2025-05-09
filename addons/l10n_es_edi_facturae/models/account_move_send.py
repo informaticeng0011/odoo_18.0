@@ -38,6 +38,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_placeholder_mail_attachments_data(self, move, extra_edis=None):
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, extra_edis=extra_edis)
@@ -45,6 +46,8 @@ class AccountMoveSend(models.AbstractModel):
         partner_edi_format = self._get_default_invoice_edi_format(move)
         if partner_edi_format == 'es_facturae' and move._l10n_es_edi_facturae_get_default_enable():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -110,6 +113,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

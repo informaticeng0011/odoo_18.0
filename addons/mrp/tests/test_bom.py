@@ -2475,7 +2475,10 @@ class TestBoM(TestMrpCommon):
         self.assertEqual(mo_order.move_byproduct_ids.product_id, bp1 + bp3 + bp4)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_bom_never_attribute_mix(self):
         """ For a product that has two 'no_variant' attributes but only one used in its bom,
             check that it computes properly which line to get when using the other attribute.
@@ -2521,6 +2524,9 @@ class TestBoM(TestMrpCommon):
         })
         self.assertEqual(len(order.move_raw_ids), 0, "No component should be selected")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_workorders_on_bom_changes(self):
         """

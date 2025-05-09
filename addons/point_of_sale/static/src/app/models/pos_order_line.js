@@ -328,7 +328,14 @@ export class PosOrderline extends Base {
             this.is_pos_groupable() &&
             // don't merge discounted orderlines
             this.get_discount() === 0 &&
+<<<<<<< HEAD
             floatIsZero(price - order_line_price - orderline.get_price_extra(), this.currency) &&
+=======
+            floatIsZero(
+                price - order_line_price - orderline.get_price_extra(),
+                this.currency.decimal_places
+            ) &&
+>>>>>>> upstream/18.0
             !this.isLotTracked() &&
             this.full_product_name === orderline.full_product_name &&
             isSameCustomerNote &&
@@ -691,8 +698,11 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.product_id.taxes_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -758,6 +768,9 @@ export class PosOrderline extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

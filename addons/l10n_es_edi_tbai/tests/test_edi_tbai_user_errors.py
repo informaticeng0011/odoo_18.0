@@ -47,7 +47,11 @@ class TestTbaiUserErrors(TestEsEdiTbaiCommonGipuzkoa):
         invoice = self.env['account.move'].create({
             'move_type': 'out_invoice',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': '2022-01-01',
+=======
+            'invoice_date': '2025-01-01',
+>>>>>>> upstream/18.0
 =======
             'invoice_date': '2025-01-01',
 >>>>>>> upstream/18.0

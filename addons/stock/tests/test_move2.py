@@ -2702,7 +2702,10 @@ class TestSinglePicking(TestStockCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_validate_picking_twice(self):
         """
         Check that validating an already validated picking bypasses the call.
@@ -2733,6 +2736,9 @@ class TestSinglePicking(TestStockCommon):
             {'quantity': 50.0, 'state': 'done'}
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestStockUOM(TestStockCommon):

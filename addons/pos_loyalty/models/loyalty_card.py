@@ -22,7 +22,11 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date']
+=======
+        return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['partner_id', 'code', 'points', 'program_id', 'expiration_date', 'write_date']
 >>>>>>> upstream/18.0

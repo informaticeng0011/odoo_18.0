@@ -220,7 +220,10 @@ class TestStockLandedCosts(TestStockLandedCostsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -248,6 +251,9 @@ class TestStockLandedCosts(TestStockLandedCostsCommon):
         self.assertFalse(move_line_no_landed.is_landed_costs_line, "The landed cost should not be set to True.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

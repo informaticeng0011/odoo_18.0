@@ -143,7 +143,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertTrue("invoice" in invoice_str)
         self.assertTrue("proforma" not in invoice_str)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_simplified_invoice_not_override_set_pricelist(self):
         """Checks that when the simplified invoice parter is automatically set
@@ -155,4 +158,7 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_simplified_invoice_not_override_set_pricelist', login="pos_user")
         order = self.env['pos.order'].search([('partner_id', '=', self.main_pos_config.simplified_partner_id.id)])
         self.assertNotEqual(order.pricelist_id, self.main_pos_config.simplified_partner_id.property_product_pricelist)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

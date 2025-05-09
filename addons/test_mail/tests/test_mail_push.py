@@ -12,6 +12,10 @@ from odoo.tools.misc import mute_logger
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.addons.mail.tools.jwt import InvalidVapidError
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.web_push import ENCRYPTION_BLOCK_OVERHEAD, ENCRYPTION_HEADER_SIZE
 >>>>>>> upstream/18.0
@@ -481,7 +485,10 @@ class TestWebPushNotification(SMSCommon):
                 vapid_public_key=self.vapid_public_key,
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @patch.object(
         odoo.addons.mail.models.mail_thread.Session, 'post', return_value=SimpleNamespace(status_code=201, text='Ok')
@@ -627,4 +634,7 @@ class TestWebPushNotification(SMSCommon):
                         payload_before_encrypt, base_payload,
                         "Only the contents of the body should be truncated, not the rest of the payload."
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

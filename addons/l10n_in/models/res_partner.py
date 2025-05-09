@@ -101,7 +101,11 @@ class ResPartner(models.Model):
     def _l10n_in_get_partner_vals_by_vat(self, vat):
         partner_data = self.enrich_by_gst(vat)
 <<<<<<< HEAD
+<<<<<<< HEAD
         for fname in partner_data:
+=======
+        for fname in list(partner_data.keys()):
+>>>>>>> upstream/18.0
 =======
         for fname in list(partner_data.keys()):
 >>>>>>> upstream/18.0
@@ -129,6 +133,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.ref_company_ids:
+            self.ref_company_ids._update_l10n_in_fiscal_position()
+>>>>>>> upstream/18.0
 =======
         if self.ref_company_ids:
             self.ref_company_ids._update_l10n_in_fiscal_position()

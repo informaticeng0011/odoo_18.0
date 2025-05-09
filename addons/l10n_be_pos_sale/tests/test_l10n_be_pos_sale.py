@@ -84,12 +84,18 @@ class TestPoSSaleL10NBe(TestPointOfSaleHttpCommon):
 
         self.env.cr.precommit.run()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.pos_user.company_ids = [Command.link(branch.id)]
 =======
+=======
+>>>>>>> upstream/18.0
         self.pos_user.write({
             'company_id': branch.id,
             'company_ids': [Command.set([branch.id])],
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         bank_payment_method = self.bank_payment_method.copy()

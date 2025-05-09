@@ -250,7 +250,10 @@ class TestMrpMulticompany(common.TransactionCase):
         new_warehouse = self.env['stock.warehouse'].search([('company_id', '=', new_company.id)], limit=1)
         self.assertEqual(new_warehouse.manufacture_pull_id.route_id.company_id, new_company)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_company_specific_routes_and_warehouse_creation(self):
         """ Check that we are able to create a new warehouse when the generic manufacture route
@@ -283,4 +286,7 @@ class TestMrpMulticompany(common.TransactionCase):
             'code': 'WH2',
         })
         self.assertEqual(new_warehouse.manufacture_pull_id.route_id.company_id, self.company_b)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

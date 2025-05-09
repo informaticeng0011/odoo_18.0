@@ -50,7 +50,10 @@ class SaleOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     # === ONCHANGE METHODS === #
@@ -63,6 +66,9 @@ class SaleOrder(models.Model):
             order.quotation_document_ids &= order.available_product_document_ids
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

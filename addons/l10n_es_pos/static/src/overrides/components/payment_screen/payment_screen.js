@@ -27,8 +27,11 @@ patch(PaymentScreen.prototype, {
                 }
                 if (!order.partner_id) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     order.set_partner(this.pos.config.simplified_partner_id);
 =======
+=======
+>>>>>>> upstream/18.0
                     const setPricelist =
                         this.pos.config.pricelist_id?.id != order.pricelist_id?.id
                             ? order.pricelist_id.id
@@ -37,6 +40,9 @@ patch(PaymentScreen.prototype, {
                     if (setPricelist) {
                         order.set_pricelist(setPricelist);
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             }

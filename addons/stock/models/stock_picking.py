@@ -1397,6 +1397,10 @@ class Picking(models.Model):
 
     def button_validate(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0

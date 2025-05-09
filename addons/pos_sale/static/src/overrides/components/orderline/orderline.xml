@@ -11,7 +11,11 @@
                     <tr t-foreach="line.details" t-as="soLine" t-key="soLine_index">
                         <td class="text-truncate"><t t-esc="soLine.product_uom_qty"/>x</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="text-truncate" t-esc="soLine.product_name" />
+=======
+                        <td class="text-truncate product-name" t-esc="soLine.product_name" />
+>>>>>>> upstream/18.0
 =======
                         <td class="text-truncate product-name" t-esc="soLine.product_name" />
 >>>>>>> upstream/18.0
