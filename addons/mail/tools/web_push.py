@@ -21,7 +21,10 @@ MAX_PAYLOAD_SIZE = 4096
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # size of the overhead of the header for all encryption blocks
@@ -37,6 +40,9 @@ ENCRYPTION_HEADER_SIZE = 16 + 4 + 1 + (1 + 32 + 32)
 ENCRYPTION_BLOCK_OVERHEAD = 1 + 16
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -128,11 +128,14 @@ class SaleOrderLine(models.Model):
         triggering_rule_ids = []
         seen_wh_ids = set()
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in sorted_moves:
             if move.warehouse_id.id not in seen_wh_ids:
                 triggering_rule_ids.append(move.rule_id.id)
                 seen_wh_ids.add(move.warehouse_id.id)
 =======
+=======
+>>>>>>> upstream/18.0
         seen_bom_id = set()
         for move in sorted_moves:
             if move.bom_line_id.bom_id.id in seen_bom_id:
@@ -142,6 +145,9 @@ class SaleOrderLine(models.Model):
                 seen_wh_ids.add(move.warehouse_id.id)
                 if move.bom_line_id and move.bom_line_id.bom_id.type == 'phantom':
                     seen_bom_id.add(move.bom_line_id.bom_id.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         return {

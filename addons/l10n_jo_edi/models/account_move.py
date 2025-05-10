@@ -49,6 +49,10 @@ class AccountMove(models.Model):
         depends=["l10n_jo_edi_xml_attachment_file"],
         help="Jordan: e-invoice XML.",
     )
+<<<<<<< HEAD
+=======
+    reversed_entry_id = fields.Many2one(tracking=True)
+>>>>>>> upstream/18.0
 
     @api.depends("country_code", "move_type")
     def _compute_l10n_jo_edi_is_needed(self):
@@ -169,7 +173,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0
@@ -284,6 +292,12 @@ class AccountMove(models.Model):
         supplier = self.company_id.partner_id.commercial_partner_id
         error_msg += has_non_digit_vat(supplier, 'supplier')
 
+<<<<<<< HEAD
+=======
+        if self.move_type == 'out_refund' and not self.reversed_entry_id:
+            error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')
+
+>>>>>>> upstream/18.0
         if any(
             line.display_type not in ('line_note', 'line_section')
             and (line.quantity < 0 or line.price_unit < 0)

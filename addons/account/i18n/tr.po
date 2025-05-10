@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ayhan Kızıltan, 2025
 # Wil Odoo, 2025
 =======
@@ -121,6 +122,11 @@
 =======
 # Wil Odoo, 2025
 # Ayhan Kızıltan, 2025
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Ayhan Kızıltan, 2025
+# Thomas Becquevort, 2025
 >>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
@@ -172,6 +178,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -263,6 +270,11 @@ msgstr ""
 =======
 "Last-Translator: Thomas Becquevort, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thomas Becquevort, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -305,7 +317,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Her hareketi otomatik olarak denkleştirmek için \"%(journal)s\" günlüğünde varsayılan bir hesap belirtmek isteyebilirsiniz."
+=======
+"Her hareketin otomatik olarak denkleştirilebilmesi için \"%(journal)s\" günlükte varsayılan bir hesap belirtmek isteyebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Her hareketin otomatik olarak denkleştirilebilmesi için \"%(journal)s\" günlükte varsayılan bir hesap belirtmek isteyebilirsiniz."
 >>>>>>> upstream/18.0
@@ -1762,6 +1778,16 @@ msgid "<strong>Type: </strong>"
 msgstr "<strong>Tür: </strong>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
+"disabled again if there are any existing journal items."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
@@ -1799,6 +1825,17 @@ msgid "A bank account can belong to only one journal."
 msgstr "Bir banka hesabı yalnızca bir yevmiyeye ait olabilir."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner "
+"%(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
@@ -3757,8 +3794,13 @@ msgstr "Banka Hesabı"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "%(link)s numaralı Banka Hesabı %(number)s silindi"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -4355,6 +4397,15 @@ msgstr ""
 "'Toplama' motorunu kullanmayan bir satırdan toplama ayrıntıları alınamıyor"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move_send.py:0
+msgid "Cannot identify the invoices in the generated PDF: %s"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
 msgstr "Sermaye"
@@ -4566,8 +4617,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "stopaj uygularlar. Kaynakta herhangi bir stopaj müşteri tarafından vergi "
 "dairelerine ödenecektir. Hiçbir koşulda"
+=======
+"tevkifat uygular. Kaynaktaki herhangi bir tevkifat müşteri tarafından vergi "
+"dairesine ödenecektir. Hiçbir koşulda"
+>>>>>>> upstream/18.0
 =======
 "tevkifat uygular. Kaynaktaki herhangi bir tevkifat müşteri tarafından vergi "
 "dairesine ödenecektir. Hiçbir koşulda"
@@ -4975,6 +5031,7 @@ msgstr "Ticari Varlık"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5059,6 +5116,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Ticari Ortağın Ülkesi"
@@ -5072,6 +5131,9 @@ msgstr "Ticari Ortağın Ülkesi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18313,6 +18375,14 @@ msgid "Wrong credit or debit value in accounting entry!"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
 msgstr "Yıllık"

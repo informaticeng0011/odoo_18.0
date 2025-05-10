@@ -8,7 +8,11 @@ from odoo import http
 from odoo.addons.test_mail_full.tests.common import TestMailFullCommon
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
 from odoo.tests import tagged
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, users, warmup
+=======
+from odoo.tests.common import users, warmup
+>>>>>>> upstream/18.0
 from odoo.tools import mute_logger
 
 
@@ -206,7 +210,11 @@ class TestRatingPerformance(TestRatingCommon):
 
 
 @tagged("rating", "rating_portal")
+<<<<<<< HEAD
 class TestRatingRoutes(HttpCase, TestRatingCommon):
+=======
+class TestRatingRoutes(TestRatingCommon):
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()

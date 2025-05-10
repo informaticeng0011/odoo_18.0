@@ -260,7 +260,12 @@ export function isVisible(node) {
             // @todo: handle it in resources?
             isMediaElement(node) ||
             hasVisibleContent(node) ||
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
     );
 }
 export function hasVisibleContent(node) {
@@ -433,6 +438,13 @@ export function containsAnyNonPhrasingContent(element) {
     return false;
 }
 
+<<<<<<< HEAD
+=======
+export function isEmbeddedComponent(node) {
+    return node.nodeType === Node.ELEMENT_NODE && node.matches("[data-embedded]");
+}
+
+>>>>>>> upstream/18.0
 /**
  * A "protected" node will have its mutations filtered and not be registered
  * in an history step. Some editor features like selection handling, command

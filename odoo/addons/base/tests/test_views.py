@@ -3505,7 +3505,10 @@ class TestViewTranslations(common.TransactionCase):
         self.assertIn("<i>", view_fr.arch)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_no_groups_for_inherited(self):
         parent = self.env["ir.ui.view"].create({
             "name": "test_no_groups_for_inherited_parent",
@@ -3529,6 +3532,9 @@ class TestViewTranslations(common.TransactionCase):
 
         with self.assertRaises(ValidationError):
             view.write({'mode': 'extension'})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class ViewModeField(ViewCase):

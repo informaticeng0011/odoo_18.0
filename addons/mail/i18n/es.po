@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Larissa Manderfeld, 2025
 <<<<<<< HEAD
@@ -66,11 +67,17 @@
 =======
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Larissa Manderfeld, 2025
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -133,6 +140,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
@@ -7944,11 +7956,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
 "- todos: todos pueden publicar\n"
 "- contactos: sólo contactos autenticados\n"
 "- seguidores: sólo seguidores del documento relacionado o miembros de los siguientes canales\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7995,6 +8010,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8049,6 +8067,17 @@ msgid "Portal Access Revoked"
 msgstr "Acceso al portal revocado"
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mail/models/mail_thread.py:0
+msgid "Portal users can only filter threads by themselves as followers."
+msgstr ""
+"Los usuarios del portal sólo pueden filtrar hilos por sí mismos como "
+"seguidores."
+
+#. module: mail
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__comment
 msgid "Post on a document"
 msgstr "Publicar en un documento"

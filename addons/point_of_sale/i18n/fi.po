@@ -43,7 +43,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
@@ -957,6 +961,10 @@ msgstr "Summa yhteensä"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.xml:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 msgid "Amount:"
 msgstr "Määrä:"
 
@@ -5423,6 +5431,10 @@ msgstr "Rekisteröi tositteen numero"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr "Skannaa QR-koodi painikkeella %s"
 
@@ -6223,6 +6235,10 @@ msgstr "Violetti"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.xml:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 msgid "QR Code"
 msgstr "QR-koodi"
 
@@ -7658,7 +7674,10 @@ msgstr "Maksukortin merkki (esim. Visa, AMEX, ...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7718,6 +7737,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8283,6 +8305,17 @@ msgstr ""
 "muuttaa. Luo uusi tilaus uudelle asiakkaalle."
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid ""
+"This order has already been paid. You cannot set it back to draft or edit "
+"it."
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
 msgid ""
@@ -9130,6 +9163,17 @@ msgstr "Et voi poistaa kassakategoriaa, kun istunto on vielä avoinna."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/models/account_cash_rounding.py:0
+msgid ""
+"You cannot delete a rounding method that is used in a Point of Sale "
+"configuration."
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_payment.py:0
 msgid "You cannot edit a payment for a posted order."
 msgstr "Et voi muokata lähetetyn tilauksen maksua."
@@ -9142,6 +9186,7 @@ msgstr "Et voi laskuttaa eri yrityksille kuuluvia tilauksia."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -9151,6 +9196,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "

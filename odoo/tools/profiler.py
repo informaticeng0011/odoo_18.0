@@ -638,6 +638,12 @@ class Profiler:
             if self.log:
                 _logger.info(self.summary())
 
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
     def _add_file_lines(self, stack):
         for index, frame in enumerate(stack):
             (filename, lineno, name, line) = frame
@@ -704,6 +710,23 @@ class Profiler:
         return result
 
 
+<<<<<<< HEAD
+=======
+class _Nested:
+    __slots__ = ("__profiler",)
+
+    def __init__(self, profiler):
+        self.__profiler = profiler
+
+    def __enter__(self):
+        self.__profiler.__enter__()
+        return self
+
+    def __exit__(self, *args):
+        return self.__profiler.__exit__(*args)
+
+
+>>>>>>> upstream/18.0
 class Nested:
     """
     Utility to nest another context manager inside a profiler.

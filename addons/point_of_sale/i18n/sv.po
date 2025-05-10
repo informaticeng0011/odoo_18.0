@@ -38,9 +38,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
 # Wil Odoo, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
+=======
+# Wil Odoo, 2025
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
+# Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
@@ -136,6 +142,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -209,6 +216,11 @@ msgstr ""
 "Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
@@ -1128,6 +1140,10 @@ msgstr "Belopp totalt"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.xml:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 msgid "Amount:"
 msgstr "Belopp:"
 
@@ -5588,6 +5604,10 @@ msgstr "Vänligen registrera voucher-numret"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr "Vänligen skanna QR-koden med %s"
 
@@ -6387,6 +6407,10 @@ msgstr "Lila"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.xml:0
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 msgid "QR Code"
 msgstr "QR-kod"
 
@@ -7820,7 +7844,10 @@ msgstr "Betalkortets varumärke (t.ex. Visa, AMEX, ...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7881,6 +7908,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8458,6 +8488,17 @@ msgstr ""
 " som är kopplad till den. Skapa en ny order för den nya kunden."
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/point_of_sale/models/pos_order.py:0
+msgid ""
+"This order has already been paid. You cannot set it back to draft or edit "
+"it."
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
 msgid ""
@@ -9307,6 +9348,17 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/models/account_cash_rounding.py:0
+msgid ""
+"You cannot delete a rounding method that is used in a Point of Sale "
+"configuration."
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_payment.py:0
 msgid "You cannot edit a payment for a posted order."
 msgstr "Du kan inte redigera en betalning för en bokförd order."
@@ -9319,6 +9371,7 @@ msgstr "Du kan inte fakturera order som hör till olika företag."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -9328,6 +9381,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "

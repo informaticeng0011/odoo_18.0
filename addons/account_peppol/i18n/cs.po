@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Tomáš Píšek, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Petr Vojta <petvoj@gmail.com>, 2025
 # Stanislav Kurinec, 2025
@@ -55,11 +56,18 @@
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
+=======
+# Petr Vojta <petvoj@gmail.com>, 2025
+# Stanislav Kurinec, 2025
+# Marta Wacławek, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -111,6 +119,11 @@ msgstr ""
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -158,7 +171,11 @@ msgid "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 >>>>>>> upstream/18.0
@@ -562,6 +579,15 @@ msgid "Error"
 msgstr "Chyba"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_peppol/models/account_move_send.py:0
+msgid "Errors occurred while creating the EDI document (format: %s):"
+msgstr "Při vytváření EDI dokumentu (formát: %s) nastala chyba:"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch Peppol invoice status"
 msgstr "Získat stav Peppol faktury"
@@ -804,6 +830,14 @@ msgid "Peppol Endpoint"
 msgstr "Peppol Endpoint"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "Peppol ID"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
 msgstr "Připraveno pro Peppol"

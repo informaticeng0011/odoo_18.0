@@ -9,6 +9,10 @@ from dateutil.relativedelta import relativedelta
 from odoo.exceptions import UserError
 from odoo.tests import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -90,11 +94,14 @@ class TestPaymentTransaction(RazorpayCommon):
         self.assertEqual(tx.state, 'done')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_processing_notification_data_only_tokenizes_once(self):
         """ Test that only one token is created when notification data of a given transaction are
         processed multiple times. """
         tx1 = self._create_transaction('redirect', reference='tx1', tokenize=True)
 =======
+=======
+>>>>>>> upstream/18.0
     @mute_logger('odoo.addons.payment.models.payment_transaction')
     @mute_logger('odoo.addons.payment_razorpay.models.payment_transaction')
     def test_processing_notification_data_updates_reference_if_not_confirmed(self):
@@ -122,6 +129,9 @@ class TestPaymentTransaction(RazorpayCommon):
         """ Test that only one token is created when notification data of a given transaction are
         processed multiple times. """
         tx1 = self._create_transaction('direct', reference='tx1', tokenize=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tx1._process_notification_data(self.tokenize_payment_data)
         with patch(

@@ -3,6 +3,11 @@
 import sys
 import time
 
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+
+>>>>>>> upstream/18.0
 from odoo.exceptions import AccessError
 from odoo.tests.common import BaseCase, TransactionCase, tagged, new_test_user
 from odoo.tools import profiler
@@ -528,6 +533,21 @@ class TestProfiling(TransactionCase):
         self.assertEqual(first_query['stack'][-1][2], 'execute')
         self.assertEqual(first_query['stack'][-1][0].split('/')[-1], 'sql_db.py')
 
+<<<<<<< HEAD
+=======
+    def test_profiler_return(self):
+        # Enter test mode to avoid the profiler to commit the result
+        self.registry.enter_test_mode(self.cr)
+        self.addCleanup(self.registry.leave_test_mode)
+        # Trick: patch db_connect() to make it return the registry with the current test cursor
+        # See `ProfilingHttpCase`
+        self.startClassPatcher(patch('odoo.sql_db.db_connect', return_value=self.registry))
+        with self.profile(collectors=["sql"]) as p:
+            self.env.cr.execute("SELECT 1")
+        p.json()  # check we can call it
+        self.assertEqual(p.collectors[0].entries[0]['query'], 'SELECT 1')
+
+>>>>>>> upstream/18.0
 
 def deep_call(func, depth):
     """ Call the given function at the given call depth. """

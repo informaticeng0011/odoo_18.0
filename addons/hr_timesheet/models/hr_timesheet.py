@@ -438,7 +438,10 @@ class AccountAnalyticLine(models.Model):
                 'noupdate': True,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def action_open_timesheet_view_portal(self):
         self.ensure_one()
@@ -449,4 +452,7 @@ class AccountAnalyticLine(models.Model):
             'views': [(self.env.ref('hr_timesheet.timesheet_view_form_portal_user').id, 'form')],
             'context': self._context,
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

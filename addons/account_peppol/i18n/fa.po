@@ -4,6 +4,7 @@
 # 
 # Translators:
 # zakariya moradi, 2025
+<<<<<<< HEAD
 # Tiffany Chang, 2025
 # Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2025
 <<<<<<< HEAD
@@ -18,11 +19,17 @@
 =======
 # Naser mars, 2025
 >>>>>>> upstream/18.0
+=======
+# Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2025
+# Naser mars, 2025
+# Tiffany Chang, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -37,6 +44,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Naser mars, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tiffany Chang, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -130,7 +142,11 @@ msgid "Account Move Send Batch Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "راهنمای سند حسابداری ارسال دسته‌ای"
+>>>>>>> upstream/18.0
 =======
 msgstr "راهنمای سند حسابداری ارسال دسته‌ای"
 >>>>>>> upstream/18.0
@@ -147,7 +163,11 @@ msgid "Account Move Send Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "راهنمای ارسال سند حسابداری"
+>>>>>>> upstream/18.0
 =======
 msgstr "راهنمای ارسال سند حسابداری"
 >>>>>>> upstream/18.0
@@ -463,6 +483,15 @@ msgid "Error"
 msgstr "خطا"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account_peppol/models/account_move_send.py:0
+msgid "Errors occurred while creating the EDI document (format: %s):"
+msgstr "خطاهای رخ داده هنگام ایجاد سند EDI (قالب: %s):"
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch Peppol invoice status"
 msgstr "بازیابی وضعیت فاکتور Peppol"
@@ -705,6 +734,14 @@ msgid "Peppol Endpoint"
 msgstr "مقصد Peppol"
 
 #. module: account_peppol
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "Peppol ID"
+msgstr ""
+
+#. module: account_peppol
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
 msgstr "Peppol آماده است"

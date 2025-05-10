@@ -607,7 +607,10 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.origin, False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -647,6 +650,9 @@ class TestOldRules(TestStockCommon):
         pick_move.picking_id.action_cancel()
         self.assertEqual(move_chain.mapped('state'), ['cancel', 'cancel', 'cancel'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

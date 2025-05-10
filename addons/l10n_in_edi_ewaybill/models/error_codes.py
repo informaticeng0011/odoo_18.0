@@ -23,6 +23,11 @@ ERROR_CODES = {
     "114": _lt("Invalid operating-system-type parameter value"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "117": _lt("This option is not enabled in Eway Bill2"),
+    "118": _lt("Try after 5 minutes"),
+>>>>>>> upstream/18.0
 =======
     "117": _lt("This option is not enabled in Eway Bill2"),
     "118": _lt("Try after 5 minutes"),
@@ -221,7 +226,10 @@ ERROR_CODES = {
     "443": _lt("invalid invoice available value"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     "444": _lt("This Ewaybill cannot be cancelled as it is generated from NIC1"),
@@ -232,6 +240,9 @@ ERROR_CODES = {
     "449": _lt("Part B cannot be updated as this Ewaybill Part A is generated in NIC2"),
     "452": _lt("Consolidate Ewaybill cannot be generated as this Ewaybill Part A is generated in NIC2"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -351,6 +362,12 @@ ERROR_CODES = {
     "819": _lt("Ewaybill cannot be generated for the document date which is prior to 01/07/2017"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+    "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),
+    "4043": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
+>>>>>>> upstream/18.0
 =======
     "820": _lt("You cannot generate E Way Bill with document date earlier than 180 days"),
     "821": _lt("E Way Bill cannot be extended as allowed limit is 360 days"),

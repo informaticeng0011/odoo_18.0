@@ -3,7 +3,11 @@
 
 from lxml import etree
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -42,6 +46,24 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             ._create_document_from_attachment(attachment.id)
 
     def test_import_product(self):
+<<<<<<< HEAD
+=======
+        products = self.env['product.product'].create([{
+            'name': 'XYZ',
+            'default_code': '1234',
+        }, {
+            'name': 'XYZ',
+            'default_code': '5678',
+        }, {
+            'name': 'XXX',
+            'default_code': '1111',
+            'barcode': '00001',
+        }, {
+            'name': 'YYY',
+            'default_code': '1111',
+            'barcode': '00002',
+        }])
+>>>>>>> upstream/18.0
         line_vals = [
             {
                 'product_id': self.place_prdct.id,
@@ -59,7 +81,27 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'product_id': self.displace_prdct.id,
                 'product_uom_id': self.uom_dozens.id,
                 'tax_ids': [self.company_data_2['default_tax_sale'].id]
+<<<<<<< HEAD
             }
+=======
+            }, {
+                'product_id': products[0].id,
+                'product_uom_id': self.uom_units.id,
+                'tax_ids': [self.company_data_2['default_tax_sale'].id],
+            }, {
+                'product_id': products[1].id,
+                'product_uom_id': self.uom_units.id,
+                'tax_ids': [self.company_data_2['default_tax_sale'].id],
+            }, {
+                'product_id': products[2].id,
+                'product_uom_id': self.uom_units.id,
+                'tax_ids': [self.company_data_2['default_tax_sale'].id],
+            }, {
+                'product_id': products[3].id,
+                'product_uom_id': self.uom_units.id,
+                'tax_ids': [self.company_data_2['default_tax_sale'].id],
+            },
+>>>>>>> upstream/18.0
         ]
         company = self.company_data_2['company']
         company.country_id = self.env['res.country'].search([('code', '=', 'FR')])
@@ -243,7 +285,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         self.assertEqual(actual_delivery_date.text, '20241231')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_billing_date_in_cii_xml(self):
         invoice = self.env['account.move'].create({
             'partner_id': self.partner_a.id,
@@ -273,6 +318,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         self.assertEqual(start_date.text, '20241201')
         self.assertEqual(end_date.text, '20241231')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_import_partner_fields(self):
         """ We are going to import the e-invoice and check partner is correctly imported."""

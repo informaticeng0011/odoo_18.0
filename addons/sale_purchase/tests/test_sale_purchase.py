@@ -376,7 +376,10 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
         order2.sudo().with_company(company_2).action_confirm()
         self.assertTrue(order2.purchase_order_count)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_service_to_purchase_branch_tax_propagation(self):
         """
@@ -410,4 +413,7 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
         self.assertEqual(so.order_line.tax_id, self.company_data['default_tax_sale'])
         so.action_confirm()
         self.assertEqual(so.order_line.purchase_line_ids.taxes_id, self.company_data['default_tax_purchase'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

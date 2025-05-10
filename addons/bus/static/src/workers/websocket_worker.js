@@ -257,7 +257,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -335,7 +339,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0

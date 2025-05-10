@@ -35,7 +35,10 @@ class RazorpayCommon(PaymentCommon):
             'description': cls.reference,
             'status': 'captured',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             'method': 'upi',
         }
         cls.payment_fail_data = {
@@ -43,6 +46,9 @@ class RazorpayCommon(PaymentCommon):
             'description': cls.reference,
             'status': 'failed',
             'method': 'netbanking',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         cls.tokenize_payment_data = {

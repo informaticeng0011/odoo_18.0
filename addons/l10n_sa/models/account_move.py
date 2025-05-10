@@ -73,7 +73,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vals = {'l10n_sa_confirmation_datetime': fields.Datetime.now()}
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
                 vals = {}
                 if not move.l10n_sa_confirmation_datetime:
@@ -211,7 +217,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -283,6 +292,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

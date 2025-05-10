@@ -1676,7 +1676,11 @@ class Request:
                         profile_session=self.session.profile_session,
                         collectors=self.session.profile_collectors,
                         params=self.session.profile_params,
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
                 except Exception:
                     _logger.exception("Failure during Profiler creation")
                     self.session.profile_session = None
@@ -2233,7 +2237,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

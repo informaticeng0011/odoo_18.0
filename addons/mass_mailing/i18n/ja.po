@@ -492,7 +492,11 @@ msgstr "<span name=\"refresh_text\">このメーリングはできるだけ早�
 msgid ""
 "<span name=\"scheduled_text\">emails are in queue and will be sent "
 "soon.</span>"
+<<<<<<< HEAD
 msgstr "<span name=\"scheduled_text\">Eメールはキューに入っており、間もなく送信されます。</span>"
+=======
+msgstr "<span name=\"scheduled_text\">メールは送信予約済みで、まもなく送信されます。</span>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -746,7 +750,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -2540,7 +2548,11 @@ msgstr "以下で連絡先のインポート:"
 #. module: mass_mailing
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__state__in_queue
 msgid "In Queue"
+<<<<<<< HEAD
 msgstr "キュー済"
+=======
+msgstr "送信予約済"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2808,7 +2820,11 @@ msgstr "メールマーケティング: A/Bテスト"
 #. module: mass_mailing
 #: model:ir.actions.server,name:mass_mailing.ir_cron_mass_mailing_queue_ir_actions_server
 msgid "Mail Marketing: Process queue"
+<<<<<<< HEAD
 msgstr "メールマーケティング: プロセスキュー"
+=======
+msgstr "メールマーケティング: 送信予約済みメッセージの処理"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_render_mixin
@@ -3588,7 +3604,11 @@ msgstr "ベスト版が判明した時点で、残りの受信者にベスト版
 msgid ""
 "Once you send these emails, they'll be making a grand entrance in all the "
 "inboxes, creating quite the buzz!"
+<<<<<<< HEAD
 msgstr "こうしたメールを送信すると、受信トレイに素敵に表示され、大きな話題を呼ぶことができるでしょう。"
+=======
+msgstr "これらのメールを送信することで、受信者の関心を引き、良い反響が期待できます。"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search

@@ -3,9 +3,12 @@
 
 from werkzeug.urls import url_parse, url_decode, url_encode, url_unparse
 
+<<<<<<< HEAD
 import json
 
 from odoo import http
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.auth_signup.models.res_partner import ResPartner
 from odoo.addons.mail.tests.common import MailCommon
 from odoo.addons.test_mail_full.tests.common import TestMailFullCommon
@@ -16,7 +19,11 @@ from odoo.tools import html_escape
 
 
 @tagged('portal')
+<<<<<<< HEAD
 class TestPortal(HttpCase, TestMailFullCommon, TestSMSRecipients):
+=======
+class TestPortal(TestMailFullCommon, TestSMSRecipients):
+>>>>>>> upstream/18.0
 
     def setUp(self):
         super(TestPortal, self).setUp()

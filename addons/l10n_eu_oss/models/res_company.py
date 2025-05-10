@@ -3,7 +3,11 @@
 import re
 from itertools import product
 
+<<<<<<< HEAD
 from odoo import Command, api, models
+=======
+from odoo import Command, _, api, models
+>>>>>>> upstream/18.0
 from .eu_account_map import EU_ACCOUNT_MAP
 from .eu_tag_map import EU_TAG_MAP
 from .eu_tax_map import EU_TAX_MAP
@@ -83,8 +87,21 @@ class Company(models.Model):
                                     }).id,
                                     'noupdate': True,
                                 })
+<<<<<<< HEAD
                             foreign_taxes[tax_amount] = self.env['account.tax'].create({
                                 'name': f'{tax_amount}% {destination_country.code} {destination_country.vat_label}',
+=======
+                            foreign_tax_name = f'{tax_amount}% {destination_country.code} {destination_country.vat_label}'
+                            existing_foreign_tax = self.env['account.tax'].search([
+                                ('company_id', 'child_of', company.root_id.id),
+                                ('name', 'like', foreign_tax_name),
+                                ('type_tax_use', '=', 'sale'),
+                                ('country_id', '=', company.account_fiscal_country_id.id),
+                            ], order='sequence,id desc', limit=1)
+                            foreign_tax_copy_name = existing_foreign_tax and _('%(tax_name)s (Copy)', tax_name=existing_foreign_tax.name)
+                            foreign_taxes[tax_amount] = self.env['account.tax'].create({
+                                'name': foreign_tax_copy_name or foreign_tax_name,
+>>>>>>> upstream/18.0
                                 'amount': tax_amount,
                                 'invoice_repartition_line_ids': invoice_repartition_lines,
                                 'refund_repartition_line_ids': refund_repartition_lines,

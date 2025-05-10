@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -77,6 +78,9 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 from odoo import Command
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
 >>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
@@ -242,7 +246,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -370,6 +377,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -927,7 +937,10 @@ class TestSaleMrpKitBom(TransactionCase):
         self.assertEqual(sum(sol.move_ids.mapped('product_uom_qty')), 5)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_sale_kit_with_mto_components_qty_change(self):
         """
         Check that updating the demand on a sale order line for a kit product
@@ -1006,6 +1019,9 @@ class TestSaleMrpKitBom(TransactionCase):
             {'product_id': comp.id, 'product_uom_qty': 25.0},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_inter_company_qty_delivered_with_kit(self):
         """

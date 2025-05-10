@@ -144,7 +144,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.assertTrue("proforma" not in invoice_str)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -159,6 +162,9 @@ class TestUi(TestPointOfSaleHttpCommon):
         order = self.env['pos.order'].search([('partner_id', '=', self.main_pos_config.simplified_partner_id.id)])
         self.assertNotEqual(order.pricelist_id, self.main_pos_config.simplified_partner_id.property_product_pricelist)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

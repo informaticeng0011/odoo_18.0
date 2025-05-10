@@ -40,7 +40,11 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             picking.partner_id,
+=======
+            partner.id partner_id,
+>>>>>>> upstream/18.0
 =======
             partner.id partner_id,
 >>>>>>> upstream/18.0
@@ -113,9 +117,12 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _from(self):
         return """
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -171,6 +178,9 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -223,10 +233,14 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             JOIN stock_picking_type AS type
             ON picking.picking_type_id = type.id and type.code = 'outgoing'
             JOIN res_partner AS partner
             ON partner.id = picking.partner_id
+=======
+            {self._join_on_picking_type_and_partner()}
+>>>>>>> upstream/18.0
 =======
             {self._join_on_picking_type_and_partner()}
 >>>>>>> upstream/18.0
@@ -306,7 +320,11 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             picking.partner_id,
+=======
+            partner.id,
+>>>>>>> upstream/18.0
 =======
             partner.id,
 >>>>>>> upstream/18.0

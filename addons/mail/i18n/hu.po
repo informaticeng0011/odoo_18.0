@@ -29,7 +29,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92,6 +95,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 =======
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
@@ -151,6 +158,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -224,6 +232,11 @@ msgstr ""
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
@@ -1011,7 +1024,11 @@ msgid "Activity Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tevékenység tervek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tevékenység tervek"
 >>>>>>> upstream/18.0
@@ -1405,7 +1422,11 @@ msgid "Alias Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Álnév email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Álnév email"
 >>>>>>> upstream/18.0
@@ -1429,7 +1450,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Álnév állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Álnév állapot"
 >>>>>>> upstream/18.0
@@ -1993,7 +2018,11 @@ msgid "Body content is the same as the template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A tartalom törzs megegyezik a sablonnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "A tartalom törzs megegyezik a sablonnal"
 >>>>>>> upstream/18.0
@@ -6951,7 +6980,11 @@ msgstr "Nincs"
 #: model:ir.model.fields,field_description:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,field_description:mail.field_res_users__email_normalized
 msgid "Normalized Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizált email"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__fetchmail_server__state__draft
@@ -7934,6 +7967,15 @@ msgid "Portal Access Revoked"
 msgstr ""
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mail/models/mail_thread.py:0
+msgid "Portal users can only filter threads by themselves as followers."
+msgstr ""
+
+#. module: mail
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__comment
 msgid "Post on a document"
 msgstr ""

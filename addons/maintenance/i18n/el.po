@@ -13,6 +13,10 @@
 # Charalampos Loukas, 2025
 # Agapi Psyllou, 2025
 # Anastasia Mimou, 2025
+<<<<<<< HEAD
+=======
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -20,7 +24,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Anastasia Mimou, 2025\n"
+=======
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,32 +39,56 @@ msgstr ""
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "<span class=\"badge text-bg-warning float-end\">Cancelled</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"badge text-bg-warning float-end\">Ακυρωμένη</span>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "<span class=\"ml8\">hours</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"ml8\">ώρες</span>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "<span>Reporting</span>"
+<<<<<<< HEAD
 msgstr "<span>Αναφορά</span>"
+=======
+msgstr "<span>Αναφορές</span>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "<span>Requests</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Αιτήματα</span>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Equipment:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Εξοπλισμός:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.view_maintenance_equipment_category_kanban
 msgid "<strong>Maintenance: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Συντήρηση: </strong>"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_defaults
@@ -97,7 +129,11 @@ msgstr "Δραστηριότητες"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__activity_exception_decoration
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr "Δραστηριότητα Εξαίρεσης Διακόσμησης"
+=======
+msgstr "Eξαίρεση Τύπου Απεικόνισης Δραστηριότητας"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__activity_state
@@ -121,12 +157,20 @@ msgstr "Τύποι Δραστηριότητας"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action_from_category_form
 msgid "Add a new equipment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθήκη νέου εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_category_action
 msgid "Add a new equipment category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθήκη νέας κατηγορίας εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_request_action
@@ -136,18 +180,30 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_todo_request_action_from_dashboard
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_request_action_reports
 msgid "Add a new maintenance request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθηκη νέου αιτήματος συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_stage_action
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_dashboard_action
 msgid "Add a new stage in the maintenance request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθήκη νέας κατάστασης αιτήματος συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.maintenance_team_action_settings
 msgid "Add a team in the maintenance request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθήκη ομάδας αιτήματος συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_id
@@ -202,12 +258,20 @@ msgstr "Όλα"
 #. module: maintenance
 #: model:ir.model.constraint,message:maintenance.constraint_maintenance_equipment_serial_no
 msgid "Another asset already exists with this serial number!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπάρχει ήδη καταχώρηση με αυτό το σειριακό αριθμό!"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__archive
 msgid "Archive"
+<<<<<<< HEAD
 msgstr "Αρχειοθετήθηκαν"
+=======
+msgstr "Αρχειοθέτηση"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
@@ -226,7 +290,11 @@ msgstr ""
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Assigned"
+<<<<<<< HEAD
 msgstr "Ανατέθηκε"
+=======
+msgstr "Ανατέθειμένα"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__assign_date
@@ -236,7 +304,11 @@ msgstr "Ημερομηνία Ανάθεσης"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Assigned to"
+<<<<<<< HEAD
 msgstr "Ανατέθηκε σε"
+=======
+msgstr "Υπεύθοινοι ανάθεσης αιτήματος"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__message_attachment_count
@@ -261,7 +333,11 @@ msgstr "Ακύρωση"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "Ακυρώθηκε"
+=======
+msgstr "Ακυρωμένες"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__category_id
@@ -280,7 +356,11 @@ msgstr "Όνομα Κατηγορίας"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__close_date
 msgid "Close Date"
+<<<<<<< HEAD
 msgstr "Μέρα Κλεισίματος"
+=======
+msgstr "Ημέρα Ολοκλήρωσης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__color
@@ -309,11 +389,19 @@ msgstr "Εταιρία"
 #: model:ir.model.fields,help:maintenance.field_maintenance_mixin__estimated_next_failure
 msgid "Computed as Latest Failure Date + MTBF"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Υπολογίζεται ως Ημερομηνία Τελευταίας Βλάβης + Μέσος Χρόνος Μεταύ Βλαβών"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_computer
 msgid "Computers"
+<<<<<<< HEAD
 msgstr "Υπολογιστές"
+=======
+msgstr "Ηλεκτρονικοί Υπολογιστές"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_res_config_settings
@@ -339,7 +427,11 @@ msgstr "Κόστος"
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.res_config_settings_view_form
 msgid "Create custom worksheet templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία προσαρμοσμένων φύλλων εργασίας"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -358,7 +450,11 @@ msgstr "Δημιουργήθηκε από"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__owner_user_id
 msgid "Created by User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργήθηκε από το Χρήστη"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__create_date
@@ -374,7 +470,11 @@ msgstr "Δημιουργήθηκε στις"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__maintenance_open_count
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__maintenance_open_count
 msgid "Current Maintenance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ενεργές Συντηρήσεις"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_bounced_content
@@ -384,22 +484,38 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_res_config_settings__module_maintenance_worksheet
 msgid "Custom Maintenance Worksheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαμορφωμένα Φύλλα Εργασίας Συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.res_config_settings_view_form
 msgid "Custom Worksheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαμορφωμένα Φύλλα Εργασίας"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.ui.menu,name:maintenance.menu_m_dashboard
 msgid "Dashboard"
+<<<<<<< HEAD
 msgstr "Ταμπλό"
+=======
+msgstr "Πίνακας Ελέγχου"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__request_date
 msgid "Date requested for the maintenance to happen"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία εκτέλεσης της συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__schedule_date
@@ -407,11 +523,20 @@ msgid ""
 "Date the maintenance team plans the maintenance.  It should not differ much "
 "from the Request Date. "
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ημερομηνία προγραμματισμού συντήρησης από την ομάδα συντήρησης. Δεν πρέπει "
+"να διαφέρει κατά πολύ από την Ημερομηνία Εκτέλεσης. "
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__close_date
 msgid "Date the maintenance was finished. "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία ολοκλήρωσης της συντήρησης."
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__day
@@ -421,7 +546,11 @@ msgstr "Ημέρες"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__alias_defaults
 msgid "Default Values"
+<<<<<<< HEAD
 msgstr "Προεπιλεγμένες τιμές"
+=======
+msgstr "Αναγνωριστικό"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
@@ -442,7 +571,11 @@ msgstr "Περιγραφή"
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_stage__display_name
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr "Εμφάνιση Ονόματος"
+=======
+msgstr "Ονομασία"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
@@ -458,7 +591,11 @@ msgstr "Διάρκεια"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__duration
 msgid "Duration in hours."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διάρκεια συντήρησης σε ώρες"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_kanban
@@ -484,22 +621,39 @@ msgid ""
 "Email alias for this equipment category. New emails will automatically "
 "create a new equipment under this category."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ψεδόνυμο Email για την κατηγορία εξοπλισμού. Νέα emails Θα δημιουργούν "
+"αυτόματα νέο εξοπλισμό γι' αυτήν την κατηγορία."
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__email_cc
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_form
 msgid "Email cc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email προώθησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until
 msgid "End Date"
+<<<<<<< HEAD
 msgstr "Ημερ. Λήξης"
+=======
+msgstr "Ημερομηνία Λήξης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_action
@@ -512,70 +666,118 @@ msgstr "Ημερ. Λήξης"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Equipment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εξοπλισμός"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_cat_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_mat_assign
 msgid "Equipment Assigned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O Εξοπλισμός Ανατέθηκε"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_category_action
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_cat
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "Equipment Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατηγορίες Εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__category_id
 msgid "Equipment Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατηγορία Εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__equipment_count
 msgid "Equipment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Εξοπλιμσού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:res.groups,name:maintenance.group_equipment_manager
 msgid "Equipment Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπεύθυνος Εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__name
 msgid "Equipment Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ονομασία Εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__equipment_properties_definition
 msgid "Equipment Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ιδιότητες Εξοπλισμού"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Estimated Next Failure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εκτιμώμενη Ημερομηνία Επόμενης Βλάβης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__estimated_next_failure
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__estimated_next_failure
 msgid "Estimated time before next failure (in days)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εκτιμώμενος χρόνος πριν την επόμενη βλάβη (σε μέρες)"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__expected_mtbf
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_mixin__expected_mtbf
 msgid "Expected MTBF"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναμενόμενος MTBF"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment__expected_mtbf
 #: model:ir.model.fields,help:maintenance.field_maintenance_mixin__expected_mtbf
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 msgid "Expected Mean Time Between Failure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναμενόμενος Μέσος Χρόνος Μεταξύ Βλαβών (MTBF)"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__fold
@@ -941,7 +1143,11 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__maintenance_type
 msgid "Maintenance Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τύπος Συντήρησης"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__match_serial
@@ -994,7 +1200,11 @@ msgstr "Μοντέλο"
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_monitor
 msgid "Monitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Οθόνες"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__repeat_unit__month
@@ -1200,7 +1410,11 @@ msgstr ""
 #. module: maintenance
 #: model:ir.model.fields.selection,name:maintenance.selection__maintenance_request__maintenance_type__preventive
 msgid "Preventive"
+<<<<<<< HEAD
 msgstr "Προληπτικά"
+=======
+msgstr "Προληπτική"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:maintenance.equipment.category,name:maintenance.equipment_printer

@@ -18,14 +18,24 @@
 # Leonidas Chiotis, 2025
 # Martin Trigaux, 2025
 # Kostas Goutoudis <goutoudis@gmail.com>, 2025
+<<<<<<< HEAD
+=======
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kostas Goutoudis <goutoudis@gmail.com>, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3560,7 +3570,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_thread_cc__email_cc
 msgid "Email cc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email προώθησης"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_compose_message
@@ -3574,7 +3588,11 @@ msgstr "Οδηγός Σύνταξης Email"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_optional__alias_domain
 #: model:ir.model.fields,help:mail.field_res_company__alias_domain_name
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -7561,6 +7579,15 @@ msgid "Portal Access Revoked"
 msgstr ""
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mail/models/mail_thread.py:0
+msgid "Portal users can only filter threads by themselves as followers."
+msgstr ""
+
+#. module: mail
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__comment
 msgid "Post on a document"
 msgstr ""

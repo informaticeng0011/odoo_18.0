@@ -54,7 +54,11 @@
                             <field name="unit_amount" string="Time Spent" widget="timesheet_uom" decoration-danger="unit_amount &gt; 24"/>
                         </list>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <kanban class="o_kanban_mobile">
+=======
+                        <kanban class="o_kanban_mobile" action="action_open_timesheet_view_portal" type="object">
+>>>>>>> upstream/18.0
 =======
                         <kanban class="o_kanban_mobile" action="action_open_timesheet_view_portal" type="object">
 >>>>>>> upstream/18.0

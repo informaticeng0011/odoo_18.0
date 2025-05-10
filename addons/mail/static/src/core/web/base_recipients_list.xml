@@ -2,7 +2,11 @@
 <templates>
     <t t-name="mail.BaseRecipientsList">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="props.thread.recipients.length > 0">
+=======
+        <span t-if="props.thread.recipients.length > 0" class="d-flex flex-wrap gap-1">
+>>>>>>> upstream/18.0
 =======
         <span t-if="props.thread.recipients.length > 0" class="d-flex flex-wrap gap-1">
 >>>>>>> upstream/18.0
@@ -11,7 +15,11 @@
                 <i class="fa fa-caret-down"/>
             </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
         </t>
+=======
+        </span>
+>>>>>>> upstream/18.0
 =======
         </span>
 >>>>>>> upstream/18.0

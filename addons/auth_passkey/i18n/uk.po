@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,22 +35,38 @@ msgstr "- або -"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "<strong>Use your passkey to authenticate</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Використайте свій passkey для автентифікації</strong>"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Add Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Додати Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users_identitycheck__auth_method
 msgid "Auth Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Метод Auth"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_res_users__auth_passkey_key_ids
 msgid "Auth Passkey Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ключ Auth Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_create_view_form
@@ -59,17 +83,29 @@ msgstr "Створити"
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Create Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Створити Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.actions.act_window,name:auth_passkey.action_auth_passkey_key_create
 msgid "Create Passkey Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Помічник створення Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key_create
 msgid "Create a Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Створити Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__create_uid
@@ -87,12 +123,20 @@ msgstr "Створено"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Created:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Створено:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__credential_identifier
 msgid "Credential Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ідентифікатор облікових даних"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
@@ -119,6 +163,11 @@ msgid ""
 "Incorrect Passkey. Please provide a valid passkey or use a different "
 "authentication method."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Невірний Passkey. Будь ласка, надайте дійсний ключ доступу або скористайтеся"
+" іншим методом автентифікації."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__write_uid
@@ -136,12 +185,20 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Last used:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Востаннє використано:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_login
 msgid "Log in with Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Зайти через Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__name
@@ -152,19 +209,31 @@ msgstr "Назва"
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Or choose a different method:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Або оберіть інший метод:"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_auth_passkey_key
 #: model:ir.model.fields.selection,name:auth_passkey.selection__res_users_identitycheck__auth_method__webauthn
 msgid "Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_form
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
 msgid "Passkeys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_users_preferences
@@ -172,6 +241,11 @@ msgid ""
 "Passkeys are a replacement for your username and password, offering a more "
 "secure way of logging in."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Passkey є заміною вашого імені користувача та пароля, пропонуючи безпечніший"
+" спосіб входу."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users_identitycheck
@@ -192,7 +266,11 @@ msgstr "Перейменувати"
 #. odoo-python
 #: code:addons/auth_passkey/models/auth_passkey_key.py:0
 msgid "Rename Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Переназвати Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.auth_passkey_key_rename
@@ -208,28 +286,48 @@ msgstr "Контроль безпеки"
 #. module: auth_passkey
 #: model:ir.model.fields,field_description:auth_passkey.field_auth_passkey_key__sign_count
 msgid "Sign Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Підрахунок входу"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model.constraint,message:auth_passkey.constraint_auth_passkey_key_unique_identifier
 msgid "The credential identifier should be unique."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ідентифікатор облікових даних має бути унікальним."
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #. odoo-python
 #: code:addons/auth_passkey/models/res_users.py:0
 msgid "Unknown passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Невідомий passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use Passkey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Використати Passkey"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model_terms:ir.ui.view,arch_db:auth_passkey.res_users_identitycheck_view_form_passkey
 msgid "Use password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Використати пароль"
+>>>>>>> upstream/18.0
 
 #. module: auth_passkey
 #: model:ir.model,name:auth_passkey.model_res_users

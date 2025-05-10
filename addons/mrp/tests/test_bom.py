@@ -2476,7 +2476,10 @@ class TestBoM(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_bom_never_attribute_mix(self):
@@ -2525,6 +2528,9 @@ class TestBoM(TestMrpCommon):
         self.assertEqual(len(order.move_raw_ids), 0, "No component should be selected")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

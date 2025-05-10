@@ -5,14 +5,24 @@
 # Translators:
 # Grega Vavtar <grega@hbs.si>, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-03-19 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,8 +131,13 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 "A project must be defined on the quotation or on the form of products creating a task on order.\n"
 "The following products need a project in which to put their task: %(product_names)s"
+=======
+"A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
+"The following product need a project in which to put its task: %(product_name)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -480,7 +495,11 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order__project_account_id
 msgid "Project Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektni račun"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_milestone
@@ -674,6 +693,15 @@ msgstr "Analiza opravil"
 
 #. module: sale_project
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/sale_project/models/sale_order_line.py:0
+msgid "The Sale Order Item should contain a service product."
+msgstr ""
+
+#. module: sale_project
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/sale_project/models/product_template.py:0
 msgid ""
 "The product %s should not have a global project since it will generate a "

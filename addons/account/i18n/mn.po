@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Thomas Becquevort, 2025
+>>>>>>> upstream/18.0
 =======
 # Thomas Becquevort, 2025
 >>>>>>> upstream/18.0
@@ -72,7 +76,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025\n"
 "Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
@@ -1510,6 +1518,16 @@ msgid "<strong>Type: </strong>"
 msgstr "<strong>Төрөл: </strong>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
+"disabled again if there are any existing journal items."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
@@ -1546,6 +1564,17 @@ msgid "A bank account can belong to only one journal."
 msgstr "Банкны данс зөвхөн нэг л журналд холбогдсон байх ёстой."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner "
+"%(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
@@ -3529,8 +3558,13 @@ msgstr "Банкны данс"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Банкны данс %(link)s бүхий  %(number)s дугаар устгагдсан"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -4134,6 +4168,15 @@ msgstr ""
 "мэдээллийг авах боломжгүй."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move_send.py:0
+msgid "Cannot identify the invoices in the generated PDF: %s"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
 msgstr ""
@@ -4647,6 +4690,7 @@ msgstr "Худалдааны этгээд"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4731,6 +4775,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Худалдааны түншийн улс"
@@ -4744,6 +4790,9 @@ msgstr "Худалдааны түншийн улс"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7828,7 +7877,11 @@ msgid "Foreign tax account (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Татварын данс (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Татварын данс (%s)"
 >>>>>>> upstream/18.0
@@ -7858,7 +7911,11 @@ msgid "Foreign tax account advance payment (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Урьдчилж төлсөн татварын данс (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Урьдчилж төлсөн татварын данс (%s)"
 >>>>>>> upstream/18.0
@@ -7888,7 +7945,11 @@ msgid "Foreign tax account payable (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Татварын өглөгийн данс (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Татварын өглөгийн данс (%s)"
 >>>>>>> upstream/18.0
@@ -7918,7 +7979,11 @@ msgid "Foreign tax account receivable (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Татварын авлагын данс (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Татварын авлагын данс (%s)"
 >>>>>>> upstream/18.0
@@ -7973,7 +8038,11 @@ msgid "From Non Trade Receivable accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Худалдааны бус авлагын дансаар шүүх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Худалдааны бус авлагын дансаар шүүх"
 >>>>>>> upstream/18.0
@@ -8002,7 +8071,11 @@ msgid "From P&L accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "P&L дансаар шүүх"
+>>>>>>> upstream/18.0
 =======
 msgstr "P&L дансаар шүүх"
 >>>>>>> upstream/18.0
@@ -8031,7 +8104,11 @@ msgid "From Trade Payable accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бэлтгэн нийлүүлэгчийн өглөгийн данснаас шүүх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бэлтгэн нийлүүлэгчийн өглөгийн данснаас шүүх"
 >>>>>>> upstream/18.0
@@ -8060,7 +8137,11 @@ msgid "From Trade Receivable accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Худалдааны авлагын дансаар шүүх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Худалдааны авлагын дансаар шүүх"
 >>>>>>> upstream/18.0
@@ -8094,7 +8175,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Өнгөрсөн санхүүгийн жилээс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Өнгөрсөн санхүүгийн жилээс"
 >>>>>>> upstream/18.0
@@ -8123,7 +8208,11 @@ msgid "From previous tax period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Өмнөх тайлант хугацаанаас"
+>>>>>>> upstream/18.0
 =======
 msgstr "Өмнөх тайлант хугацаанаас"
 >>>>>>> upstream/18.0
@@ -8152,7 +8241,11 @@ msgid "From the start of the fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Санхүүгийн жилийн эхнээс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Санхүүгийн жилийн эхнээс"
 >>>>>>> upstream/18.0
@@ -8181,7 +8274,11 @@ msgid "From the very start"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүхний эхлэлээс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бүхний эхлэлээс"
 >>>>>>> upstream/18.0
@@ -8232,7 +8329,11 @@ msgid "Full Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүтэн дүн"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бүтэн дүн"
 >>>>>>> upstream/18.0
@@ -8273,7 +8374,11 @@ msgid "Future-dated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ирээдүйн-огноо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ирээдүйн-огноо"
 >>>>>>> upstream/18.0
@@ -8314,7 +8419,11 @@ msgid "Gap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цоорхой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Цоорхой"
 >>>>>>> upstream/18.0
@@ -8355,7 +8464,11 @@ msgid "Generic Tax report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Татварын тайлан"
+>>>>>>> upstream/18.0
 =======
 msgstr "Татварын тайлан"
 >>>>>>> upstream/18.0
@@ -8384,7 +8497,11 @@ msgid "Get Paid online. Send electronic invoices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Онлайнаар төлбөр хүлээн авч, цахим нэхэмжлэл илгээх боломжтой."
+>>>>>>> upstream/18.0
 =======
 msgstr "Онлайнаар төлбөр хүлээн авч, цахим нэхэмжлэл илгээх боломжтой."
 >>>>>>> upstream/18.0
@@ -8425,7 +8542,11 @@ msgid "Global Lock Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ерөнхий түгжих огноо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ерөнхий түгжих огноо"
 >>>>>>> upstream/18.0
@@ -8454,7 +8575,11 @@ msgid "Go to the accounting settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Санхүүгийн тохиргоо руу очих"
+>>>>>>> upstream/18.0
 =======
 msgstr "Санхүүгийн тохиргоо руу очих"
 >>>>>>> upstream/18.0
@@ -8528,7 +8653,11 @@ msgid "Group by name?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нэрээр бүлэглэх?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нэрээр бүлэглэх?"
 >>>>>>> upstream/18.0
@@ -8557,7 +8686,11 @@ msgid "Group by: Account > Tax "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Бүлэглэлт: Данс > Татвар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Бүлэглэлт: Данс > Татвар"
 >>>>>>> upstream/18.0
@@ -12235,7 +12368,11 @@ msgid "Outstanding Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Хүлээлгийн түр данс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Хүлээлгийн түр данс"
 >>>>>>> upstream/18.0
@@ -12356,7 +12493,11 @@ msgid "PDF without Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нэхэмжлэл PDF (төлөлтгүй)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нэхэмжлэл PDF (төлөлтгүй)"
 >>>>>>> upstream/18.0
@@ -14537,7 +14678,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Төлөх"
+=======
+msgstr "Илгээх"
+>>>>>>> upstream/18.0
 =======
 msgstr "Илгээх"
 >>>>>>> upstream/18.0
@@ -18737,6 +18882,14 @@ msgid "Wrong credit or debit value in accounting entry!"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
 msgstr "Жил бүр"

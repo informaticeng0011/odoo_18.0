@@ -13,7 +13,10 @@ from . import test_survey_randomize
 from . import test_survey_ui_backend
 from . import test_survey_ui_certification
 from . import test_survey_ui_feedback
+<<<<<<< HEAD
 from . import test_survey_ui_session
+=======
+>>>>>>> upstream/18.0
 from . import test_survey_compute_pages_questions
 from . import test_certification_badge
 from . import test_survey_performance

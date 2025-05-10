@@ -286,6 +286,7 @@ class ProductProduct(models.Model):
             # cut Sales Description from the name
             name = name.split('\n')[0]
         domains = []
+<<<<<<< HEAD
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if barcode:
@@ -308,4 +309,28 @@ class ProductProduct(models.Model):
                 )
                 if product:
                     return product
+=======
+        if barcode:
+            domains.append([('barcode', '=', barcode)])
+        if default_code:
+            domains.append([('default_code', '=', default_code)])
+        if name:
+            domains += [[('name', '=', name)], [('name', 'ilike', name)]]
+
+        company = company or self.env.company
+        for company_domain in (
+            [*self.env['res.partner']._check_company_domain(company), ('company_id', '!=', False)],
+            [('company_id', '=', False)],
+        ):
+            products = self.env['product.product'].search(
+                expression.AND([
+                    expression.OR(domains),
+                    company_domain,
+                    extra_domain or [],
+                ]),
+            )
+            for domain in domains:
+                if products_by_domain := products.filtered_domain(domain):
+                    return products_by_domain[0]
+>>>>>>> upstream/18.0
         return self.env['product.product']

@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import models
+<<<<<<< HEAD
+=======
+from odoo.tools import float_compare
+>>>>>>> upstream/18.0
 
 
 class StockMove(models.Model):
@@ -15,7 +19,12 @@ class StockMove(models.Model):
         rslt = super()._generate_valuation_lines_data(partner_id, qty, debit_value, credit_value, debit_account_id, credit_account_id, svl_id, description)
 
         subcontract_production = self.production_id.filtered(lambda p: p.subcontractor_id)
+<<<<<<< HEAD
         if not subcontract_production:
+=======
+        rounding = self.product_id.uom_id.rounding
+        if not subcontract_production or float_compare(qty, 0, precision_rounding=rounding) < 0:
+>>>>>>> upstream/18.0
             return rslt
         # split the credit line to two, one for component cost, one for subcontracting service cost
         currency = self.company_id.currency_id

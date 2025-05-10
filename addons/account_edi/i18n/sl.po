@@ -14,6 +14,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -57,7 +61,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -96,31 +104,51 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing error(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Napake pri elektronskem izdajanju računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing info(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Podatki o elektronskem izdajanju računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing warning(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s Opozorilo(-a) o elektronskem izdajanju računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "A cancellation of the EDI has been requested."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahtevana je bila preklic EDI."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_move.py:0
 msgid "A request for cancellation of the EDI has been called off."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za preklic EDI je bila preklicana."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_move_send
@@ -134,7 +162,11 @@ msgid "Account Move Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji premik računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošlji premik računa"
 >>>>>>> upstream/18.0
@@ -169,6 +201,11 @@ msgid ""
 "Are you sure you want to cancel this invoice without waiting for the EDI "
 "document to be canceled?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ali ste prepričani, da želite preklicati ta račun, ne da bi čakali na "
+"preklic dokumenta EDI?"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_ir_attachment
@@ -189,11 +226,22 @@ msgid ""
 "  * Warning: there is an error that doesn't prevent the current Electronic Invoicing operation to succeed.\n"
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Blokira trenutno delovanje dokumenta glede na resnost napake:\n"
+"  * Informacije: dokument ni blokiran in vse deluje, kot bi moralo.\n"
+"  * Opozorilo: Prišlo je do napake, ki ne preprečuje uspešne trenutne operacije elektronskega izdajanja računov.\n"
+"  * Napaka: prišlo je do napake, ki blokira trenutno operacijo elektronskega izdajanja računov."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Call off EDI Cancellation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preklic EDI-ja"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields.selection,name:account_edi.selection__account_edi_document__state__cancelled
@@ -208,6 +256,11 @@ msgid ""
 "Cannot deactivate (%s) on this journal because not all documents are "
 "synchronized"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ni mogoče deaktivirati (%s) v tem dnevniku, ker niso vsi dokumenti "
+"sinhronizirani"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_format__code
@@ -217,7 +270,11 @@ msgstr "Oznaka"
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_journal__compatible_edi_ids
 msgid "Compatible Edi"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Združljivo Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__create_uid
@@ -245,85 +302,145 @@ msgstr "Prenesi"
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "EDI Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenti EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_edi_format
 msgid "EDI format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oblika EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_journal__compatible_edi_ids
 msgid "EDI format that support moves in this journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oblika EDI, ki podpira premike v tem dnevniku"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.actions.server,name:account_edi.ir_cron_edi_network_ir_actions_server
 msgid "EDI: Perform web services operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI: Izvajanje operacij spletnih storitev"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_blocking_level
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_blocking_level
 msgid "Edi Blocking Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stopnja blokiranja Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_content
 msgid "Edi Content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje vsebine"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_document_ids
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_document_ids
 msgid "Edi Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_error_count
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_error_count
 msgid "Edi Error Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število napak pri Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_error_message
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_error_message
 msgid "Edi Error Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sporočilo o napaki Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_format_id
 msgid "Edi Format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Edi Format"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_show_abandon_cancel_button
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_abandon_cancel_button
 msgid "Edi Show Abandon Cancel Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gumb za preklic oddaje Edi"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_show_cancel_button
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_cancel_button
 msgid "Edi Show Cancel Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži gumb za preklic Edi-ja"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_show_force_cancel_button
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_force_cancel_button
 msgid "Edi Show Force Cancel Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži gumb za prisilni preklic Edi-ju"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_bank_statement_line__edi_web_services_to_process
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_web_services_to_process
 msgid "Edi Web Services To Process"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Edi - Spletne storitve za obdelavo"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_edi_document
 msgid "Electronic Document for an account.move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektronski dokument za račun.premakni"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.actions.act_window,name:account_edi.action_open_edi_documents
@@ -331,17 +448,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_edi.field_account_journal__edi_format_ids
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_state
 msgid "Electronic invoicing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektronsko izdajanje računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
 msgid "Electronic invoicing processing needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna je obdelava elektronskih računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
 msgid "Electronic invoicing state"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje elektronskega izdajanja računov"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__error
@@ -353,18 +482,30 @@ msgstr "Napaka"
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Force Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsili preklic"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_format_name
 msgid "Format Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oblike"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_bank_statement_line__edi_error_count
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_error_count
 msgid "How many EDIs are in error for this move?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko EDI-jev je napačnih pri tej potezi?"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__id
@@ -386,6 +527,12 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Neveljavna konfiguracija računa:\n"
+"\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_journal
@@ -423,12 +570,20 @@ msgstr "Naziv"
 #. module: account_edi
 #: model:ir.model.constraint,message:account_edi.constraint_account_edi_document_unique_edi_document_by_move_by_format
 msgid "Only one edi document by move by format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo en dokument edi s premikanjem po formatu"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Process now"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obdelaj zdaj"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model,name:account_edi.model_account_resequence_wizard
@@ -442,7 +597,11 @@ msgid "Remake the sequence of Journal Entries."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preoblikujte zaporedje vnosov v dnevnik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Preoblikujte zaporedje vnosov v dnevnik."
 >>>>>>> upstream/18.0
@@ -479,7 +638,11 @@ msgstr "Ukrep poročila"
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Request EDI Cancellation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za preklic EDI-ja"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
@@ -489,7 +652,11 @@ msgstr "Ponovno"
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_journal__edi_format_ids
 msgid "Send XML/EDI invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji račune XML/EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields.selection,name:account_edi.selection__account_edi_document__state__sent
@@ -506,7 +673,11 @@ msgstr "Zvezna država ali regija"
 #: model:ir.model.fields,help:account_edi.field_account_bank_statement_line__edi_state
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_state
 msgid "The aggregated state of all the EDIs with web-service of this move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Združeno stanje vseh EDI-jev s spletno storitvijo te selitve"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__attachment_id
@@ -514,6 +685,11 @@ msgid ""
 "The file generated by edi_format_id when the invoice is posted (and this "
 "document is processed)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Datoteka, ki jo ustvari edi_format_id ob knjiženju računa (in obdelavi tega "
+"dokumenta)."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
@@ -521,11 +697,20 @@ msgstr ""
 msgid ""
 "The following documents have already been sent and cannot be resequenced: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naslednji dokumenti so že bili poslani in jih ni mogoče ponovno vrstno "
+"razporediti: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "The invoice will soon be sent to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun bo kmalu poslan na"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields,help:account_edi.field_account_edi_document__error
@@ -533,17 +718,30 @@ msgid ""
 "The text of the last error that happened during Electronic Invoice "
 "operation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Besedilo zadnje napake, ki se je pojavila med delovanjem elektronskega "
+"računa."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.constraint,message:account_edi.constraint_account_edi_format_unique_code
 msgid "This code already exists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta koda že obstaja"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/account_edi_document.py:0
 msgid "This document is being sent by another process already. "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta dokument že pošilja drug postopek."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
@@ -552,12 +750,21 @@ msgid ""
 "This invoice was canceled while the EDIs %s still had a pending cancellation"
 " request."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ta račun je bil preklican med EDI-ji. %s še vedno je imela čakajočo zahtevo "
+"za preklic."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields.selection,name:account_edi.selection__account_edi_document__state__to_cancel
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__to_cancel
 msgid "To Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za preklic"
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model:ir.model.fields.selection,name:account_edi.selection__account_edi_document__state__to_send
@@ -579,15 +786,28 @@ msgid ""
 " has already been sent. Please use the 'Request EDI Cancellation' button "
 "instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naslednjega vnosa v dnevnik ne morete urejati\n"
+"%s ker je bil elektronski dokument že poslan. Namesto tega uporabite gumb »Zahtevaj preklic EDI«."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #. odoo-python
 #: code:addons/account_edi/models/ir_attachment.py:0
 msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priloge, ki je dokument EDI, poslan vladi, ni mogoče prekiniti."
+>>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "⇒ See errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "⇒ Oglejte si napake"
+>>>>>>> upstream/18.0

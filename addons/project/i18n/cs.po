@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -66,6 +67,10 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # Vojtěch Olšan, 2025
+=======
+# Vojtěch Olšan, 2025
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -73,7 +78,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Vojtěch Olšan, 2025\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1745,7 +1754,11 @@ msgid "Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uzávěrka"
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín"
 >>>>>>> upstream/18.0
@@ -2357,12 +2370,20 @@ msgstr "Historie"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history
 msgid "History data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Údaje o historii"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__html_field_history_metadata
 msgid "History metadata"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadata historie"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:project.tags,name:project.project_tags_13
@@ -5912,6 +5933,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Anketa "
+"spokojenosti"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Anketa "
 "spokojenosti"

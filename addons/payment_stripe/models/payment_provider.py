@@ -12,6 +12,10 @@ from odoo.exceptions import RedirectWarning, UserError, ValidationError
 
 from odoo.addons.payment import utils as payment_utils
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment.controllers.portal import PaymentPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment.controllers.portal import PaymentPortal
 >>>>>>> upstream/18.0
@@ -503,12 +507,18 @@ class PaymentProvider(models.Model):
                 },
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             'is_tokenization_required': self._is_tokenization_required(**kwargs),
 =======
+=======
+>>>>>>> upstream/18.0
             'is_tokenization_required': (
                 not PaymentPortal._compute_show_tokenize_input_mapping(self, **kwargs)[self.id]
                 and payment_method_sudo.support_tokenization
             ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'payment_methods_mapping': const.PAYMENT_METHODS_MAPPING,
         }

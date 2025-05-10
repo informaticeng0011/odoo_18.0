@@ -202,7 +202,10 @@ class AccountPayment(models.Model):
         self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if self._context.get('active_model', '') == 'account.move':
@@ -212,6 +215,9 @@ class AccountPayment(models.Model):
         else:
             invoice_ids = []
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -229,9 +235,13 @@ class AccountPayment(models.Model):
             'payment_id': self.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             **({'invoice_ids': [Command.set(self._context.get('active_ids', []))]}
                 if self._context.get('active_model') == 'account.move'
                 else {}),
+=======
+            'invoice_ids': [Command.set(invoice_ids)],
+>>>>>>> upstream/18.0
 =======
             'invoice_ids': [Command.set(invoice_ids)],
 >>>>>>> upstream/18.0

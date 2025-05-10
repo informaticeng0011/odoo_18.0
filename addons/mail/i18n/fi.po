@@ -46,7 +46,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
@@ -7856,6 +7860,16 @@ msgid "Portal Access Revoked"
 msgstr "Portaalin käyttöoikeus peruutettu"
 
 #. module: mail
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/mail/models/mail_thread.py:0
+msgid "Portal users can only filter threads by themselves as followers."
+msgstr ""
+"Portaalikäyttäjät voivat suodattaa vain ketjuja, joiden seuraajia he ovat."
+
+#. module: mail
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__comment
 msgid "Post on a document"
 msgstr "Lähetä asiakirjaan"

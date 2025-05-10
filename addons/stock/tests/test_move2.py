@@ -2703,7 +2703,10 @@ class TestSinglePicking(TestStockCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_validate_picking_twice(self):
@@ -2737,6 +2740,9 @@ class TestSinglePicking(TestStockCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

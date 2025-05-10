@@ -166,16 +166,22 @@ export class ControlPanel extends Component {
             }
             const scrollingEl = this.getScrollingElement();
 <<<<<<< HEAD
+<<<<<<< HEAD
             scrollingEl.addEventListener("scroll", this.onScrollThrottledBound);
             this.root.el.style.top = "0px";
             return () => {
 =======
+=======
+>>>>>>> upstream/18.0
             this.scrollingElementResizeObserver.observe(scrollingEl);
             scrollingEl.addEventListener("scroll", this.onScrollThrottledBound);
             this.root.el.style.top = "0px";
             this.scrollingElementHeight = scrollingEl.scrollHeight;
             return () => {
                 this.scrollingElementResizeObserver.unobserve(scrollingEl);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 scrollingEl.removeEventListener("scroll", this.onScrollThrottledBound);
             };
@@ -250,7 +256,10 @@ export class ControlPanel extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     scrollingElementResizeObserver = new ResizeObserver((entries) => {
         for (const entry of entries) {
             if (this.scrollingElementHeight !== entry.target.scrollingElementHeight) {
@@ -261,6 +270,9 @@ export class ControlPanel extends Component {
         }
     });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     getDropdownClass(action) {
         return (!this.env.isSmall && this._checkValueLocalStorage(action)) ||

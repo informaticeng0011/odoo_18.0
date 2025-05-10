@@ -15,7 +15,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
@@ -1477,6 +1481,16 @@ msgid "<strong>Type: </strong>"
 msgstr "<strong>النوع: </strong>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
+"disabled again if there are any existing journal items."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
@@ -1513,6 +1527,17 @@ msgid "A bank account can belong to only one journal."
 msgstr "لا يمكن ربط حساب بنكي بأكثر من دفتر يومية."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/res_partner_bank.py:0
+msgid ""
+"A bank account with Account Number %(number)s already exists for Partner "
+"%(partner)s, but is archived. Please unarchive it instead."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
 "A bank statement is a summary of all financial transactions\n"
@@ -3316,6 +3341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"تم تعطيل خاصية الترحيل التلقائي في هذه الفاتورة بسبب احتمال وجود نسخة مكررة."
+" "
+>>>>>>> upstream/18.0
 =======
 "تم تعطيل خاصية الترحيل التلقائي في هذه الفاتورة بسبب احتمال وجود نسخة مكررة."
 " "
@@ -3568,8 +3598,13 @@ msgstr "الحساب البنكي"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "تم حذف الحساب البنكي %(link)s ورقمه %(number)s "
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -4163,6 +4198,15 @@ msgid ""
 msgstr "لا يمكن الحصول على تفاصيل التوزيع من بند يستخدم محرك 'التوزيع' "
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/account_move_send.py:0
+msgid "Cannot identify the invoices in the generated PDF: %s"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
 msgstr "رأس المال "
@@ -4671,6 +4715,7 @@ msgstr "الكيان التجاري"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4737,6 +4782,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "دولة الشريك التجاري "
@@ -4756,6 +4803,9 @@ msgstr "دولة الشريك التجاري "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7260,6 +7310,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"حدث خطأ أثناء تحميل الأقلمة: علامة التصنيف %(tag_name)s للدولة "
+"%(country_name)s. ربما ينبغي عليك تحديث تطبيق الأقلمة الخاص بك أولاً. "
+>>>>>>> upstream/18.0
 =======
 "حدث خطأ أثناء تحميل الأقلمة: علامة التصنيف %(tag_name)s للدولة "
 "%(country_name)s. ربما ينبغي عليك تحديث تطبيق الأقلمة الخاص بك أولاً. "
@@ -7991,7 +8046,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "من آخر سنة مالية "
+>>>>>>> upstream/18.0
 =======
 msgstr "من آخر سنة مالية "
 >>>>>>> upstream/18.0
@@ -9739,7 +9798,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "العناصر التي لا تحتوي على توزيع تحليلي "
+>>>>>>> upstream/18.0
 =======
 msgstr "العناصر التي لا تحتوي على توزيع تحليلي "
 >>>>>>> upstream/18.0
@@ -12185,7 +12248,11 @@ msgid "Partner Company Registry Placeholder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "العنصر النائب لسجل شركة الشريك "
+>>>>>>> upstream/18.0
 =======
 msgstr "العنصر النائب لسجل شركة الشريك "
 >>>>>>> upstream/18.0
@@ -18349,6 +18416,14 @@ msgid "Wrong credit or debit value in accounting entry!"
 msgstr "قيمة دائن أو مدين خاطئة في قيد المحاسبة!"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
 msgstr "سنويًا"

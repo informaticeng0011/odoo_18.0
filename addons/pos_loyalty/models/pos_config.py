@@ -12,8 +12,11 @@ class PosConfig(models.Model):
     def _get_program_ids(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env['loyalty.program'].search(['&', ('pos_ok', '=', True), '|', ('pos_config_ids', '=', self.id), ('pos_config_ids', '=', False)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         today = fields.Date.context_today(self)
@@ -24,6 +27,9 @@ class PosConfig(models.Model):
             '|', ('date_to', '=', False), ('date_to', '>=', today)
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

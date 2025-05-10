@@ -24,7 +24,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: or balmas, 2025\n"
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
@@ -117,7 +121,11 @@ msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">הערכה</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">הערכה</span>"
 >>>>>>> upstream/18.0
@@ -1271,6 +1279,10 @@ msgstr ""
 
 #. module: stock_account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot adjust the valuation of a layer with zero quantity"
 msgstr ""
