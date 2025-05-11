@@ -143,7 +143,11 @@ class SaleOrderLine(models.Model):
     def _purchase_service_get_price_unit_and_taxes(self, supplierinfo, purchase_order):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id == purchase_order.company_id)
+=======
+        supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
+>>>>>>> upstream/18.0
 =======
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
 >>>>>>> upstream/18.0

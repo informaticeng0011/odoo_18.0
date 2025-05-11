@@ -9,7 +9,11 @@ from odoo.addons.test_mail_full.tests.common import TestMailFullCommon
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
 from odoo.tests import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, users, warmup
+=======
+from odoo.tests.common import users, warmup
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import users, warmup
 >>>>>>> upstream/18.0
@@ -211,7 +215,11 @@ class TestRatingPerformance(TestRatingCommon):
 
 @tagged("rating", "rating_portal")
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestRatingRoutes(HttpCase, TestRatingCommon):
+=======
+class TestRatingRoutes(TestRatingCommon):
+>>>>>>> upstream/18.0
 =======
 class TestRatingRoutes(TestRatingCommon):
 >>>>>>> upstream/18.0

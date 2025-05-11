@@ -51,12 +51,18 @@ class UtmSourceMixin(models.AbstractModel):
     source_id = fields.Many2one('utm.source', string='Source', required=True, ondelete='restrict', copy=False)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def default_get(self, fields_list):
         # Exclude 'name' from fields_list to avoid retrieving it from context.
         return super().default_get([field for field in fields_list if field != "name"])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):
@@ -64,13 +70,19 @@ class UtmSourceMixin(models.AbstractModel):
         # Create all required <utm.source>
         utm_sources = self.env['utm.source'].create([
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'name': values.get('name') or self.env['utm.source']._generate_name(self, values.get(self._rec_name))}
 =======
+=======
+>>>>>>> upstream/18.0
             {
                 'name': values.get('name')
                 or self.env.context.get('default_name')
                 or self.env['utm.source']._generate_name(self, values.get(self._rec_name)),
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for values in vals_list
             if not values.get('source_id')

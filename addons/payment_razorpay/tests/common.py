@@ -36,7 +36,10 @@ class RazorpayCommon(PaymentCommon):
             'status': 'captured',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'method': 'upi',
@@ -47,6 +50,9 @@ class RazorpayCommon(PaymentCommon):
             'status': 'failed',
             'method': 'netbanking',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

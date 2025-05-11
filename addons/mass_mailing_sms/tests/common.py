@@ -94,6 +94,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             sms_links_info = [None] * len(recipients_info)
         for recipient_info, link_info, record in zip(recipients_info, sms_links_info, records):
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner = recipient_info.get('partner', self.env['res.partner'])
             number = recipient_info.get('number')
             status = recipient_info.get('trace_status', 'outgoing')
@@ -101,6 +102,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             if number is None and partner:
                 number = partner._sms_get_recipients_info()[partner.id]['sanitized']
 =======
+=======
+>>>>>>> upstream/18.0
             # check input
             invalid = set(recipient_info.keys()) - {
                 'content',
@@ -126,6 +129,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             # content
             content = recipient_info.get('content', None)
             record = record or recipient_info.get('record')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             trace = traces.filtered(
@@ -144,7 +150,10 @@ class MassSMSCase(SMSCase, MockLinkTracker):
                 elif status in state_mapping:
                     sms_state = state_mapping[status]
 <<<<<<< HEAD
+<<<<<<< HEAD
                     failure_type = recipient_info['failure_type'] if status in ('error', 'cancel', 'bounce') else None
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     self.assertSMS(partner, number, sms_state, failure_type=failure_type, content=content)
@@ -179,8 +188,11 @@ class MassSMSCase(SMSCase, MockLinkTracker):
     # ------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def gateway_sms_click(self, mailing, record):
 =======
+=======
+>>>>>>> upstream/18.0
     def gateway_sms_bounce(self, mailing, records, error_code='invalid_destination'):
         """ Bounce SMS through sms/status controller """
         traces = mailing.mailing_trace_ids.filtered(lambda t: t.model == records._name and t.res_id in records.ids)
@@ -192,11 +204,15 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             self._make_webhook_jsonrpc_request(statuses)
 
     def gateway_sms_click(self, mailing, record, use_sent_sms=True):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         """ Simulate a click on a sent SMS. Usage: giving a partner and/or
         a number, find an SMS sent to him, find shortened links in its body
         and call add_click to simulate a click. """
         trace = mailing.mailing_trace_ids.filtered(lambda t: t.model == record._name and t.res_id == record.id)
+<<<<<<< HEAD
 <<<<<<< HEAD
         sms_sent = self._find_sms_sent(self.env['res.partner'], trace.sms_number)
         self.assertTrue(bool(sms_sent))
@@ -215,6 +231,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, sms_sent['body']):
 =======
+=======
+>>>>>>> upstream/18.0
         if use_sent_sms:
             sms_sent = self._find_sms_sent(self.env['res.partner'], trace.sms_number)
             self.assertTrue(bool(sms_sent))
@@ -245,6 +263,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         easy information in body, only body. We currently click on all found
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, body):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if '/r/' in url:  # shortened link, like 'http://localhost:8069/r/LBG/s/53'
                 parsed_url = werkzeug.urls.url_parse(url)

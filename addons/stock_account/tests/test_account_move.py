@@ -363,7 +363,10 @@ class TestAccountMove(TestAccountMoveStockCommon):
 
         self.assertEqual(bill.invoice_line_ids.account_id, test_account)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_apply_inventory_adjustment_on_multiple_quants_simultaneously(self):
         products = self.product_a + self.product_b
@@ -392,4 +395,7 @@ class TestAccountMove(TestAccountMoveStockCommon):
                 {'account_id': stock_output_account.id, 'product_id': self.product_b.id},
             ]
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

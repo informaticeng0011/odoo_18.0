@@ -30,7 +30,10 @@ export class StateFileModel extends FileModel {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     /**
      * For embedded files stored without an `id` (i.e. demo data or old
@@ -46,5 +49,8 @@ export class StateFileModel extends FileModel {
         }
         return super.urlRoute;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

@@ -659,6 +659,10 @@ class HolidaysAllocation(models.Model):
             if not allocation.lastcall:
                 if not current_level:
                     allocation.lastcall = today
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
                     continue
                 allocation.lastcall = max(
                     current_level._get_previous_date(today),

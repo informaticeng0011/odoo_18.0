@@ -4,9 +4,15 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Wil Odoo, 2025
+=======
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Wil Odoo, 2025
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Wil Odoo, 2025
@@ -20,7 +26,11 @@ msgstr ""
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -325,8 +335,13 @@ msgstr ""
 "                        <b> Este enlace será válido durante <t t-out=\"int(int(object.env['ir.config_parameter'].sudo().get_param('auth_signup.signup.validity.hours',144))/24)\"/> días </b> <br/>\n"
 "                        <t t-set=\"website_url\" t-value=\"object.get_base_url()\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Su dominio de Odoo es: <b><a t-att-href=\"website_url\" t-out=\"website_url or ''\">http://yourcompany.odoo.com</a></b><br/>\n"
 "                        Su correo electrónico para iniciar sesión: <b><a t-attf-href=\"/web/login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or ''\">mark.brown23@ejemplo.com</a></b><br/><br/>\n"
+=======
+"                        Su dominio de Odoo es: <b><a t-att-href=\"website_url\" t-out=\"website_url or ''\">http://suempresa.odoo.com</a></b><br/>\n"
+"                        Su correo electrónico para iniciar sesión: <b><a t-attf-href=\"/web/login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or ''\">marcoperez23@ejemplo.com</a></b><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        Su dominio de Odoo es: <b><a t-att-href=\"website_url\" t-out=\"website_url or ''\">http://suempresa.odoo.com</a></b><br/>\n"
 "                        Su correo electrónico para iniciar sesión: <b><a t-attf-href=\"/web/login?login={{ object.email }}\" target=\"_blank\" t-out=\"object.email or ''\">marcoperez23@ejemplo.com</a></b><br/><br/>\n"

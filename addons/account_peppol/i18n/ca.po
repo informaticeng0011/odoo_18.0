@@ -18,9 +18,15 @@
 # Martin Trigaux, 2024
 # Xavier, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Josep Anton Belchi, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
+=======
+# Josep Anton Belchi, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 =======
 # Josep Anton Belchi, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
@@ -32,9 +38,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -64,7 +76,11 @@ msgid " (Demo)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Demostració)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Demostració)"
 >>>>>>> upstream/18.0
@@ -98,7 +114,11 @@ msgid " (Test)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Test)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Test)"
 >>>>>>> upstream/18.0
@@ -138,7 +158,11 @@ msgid "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 >>>>>>> upstream/18.0
@@ -461,7 +485,11 @@ msgstr "Nom mostrat"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__document_identifier
 msgid "Document Identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identificador del document"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identificador del document"
 >>>>>>> upstream/18.0
@@ -486,7 +514,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode
 msgid "EDI mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mode EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mode EDI"
 >>>>>>> upstream/18.0
@@ -536,13 +568,19 @@ msgstr "Error"
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr "S'han produït errors mentre es creava el document EDI (format: %s):"
 
 #. module: account_peppol
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch Peppol invoice status"
@@ -607,7 +645,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En verificació"
+>>>>>>> upstream/18.0
 =======
 msgstr "En verificació"
 >>>>>>> upstream/18.0
@@ -740,7 +782,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_proxy_state
 msgid "PEPPOL status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estat de PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estat de PEPPOL"
 >>>>>>> upstream/18.0
@@ -795,10 +841,13 @@ msgstr "Punt de connexió Peppol"
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Peppol ID"
 msgstr ""
@@ -807,6 +856,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
 msgstr "Llest per a PEPPOL"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -819,7 +871,11 @@ msgstr ""
 #: model:ir.model,name:account_peppol.model_peppol_registration
 msgid "Peppol Registration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registre PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registre PEPPOL"
 >>>>>>> upstream/18.0
@@ -828,7 +884,11 @@ msgstr "Registre PEPPOL"
 #: model:ir.model,name:account_peppol.model_account_peppol_service
 msgid "Peppol Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Servei PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servei PEPPOL"
 >>>>>>> upstream/18.0
@@ -877,7 +937,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estat de PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estat de PEPPOL"
 >>>>>>> upstream/18.0
@@ -892,7 +956,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_warnings
 msgid "Peppol warnings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avisos PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avisos PEPPOL"
 >>>>>>> upstream/18.0
@@ -1022,7 +1090,11 @@ msgstr "Servei"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_info
 msgid "Service Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informació del servei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informació del servei"
 >>>>>>> upstream/18.0
@@ -1031,7 +1103,11 @@ msgstr "Informació del servei"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_json
 msgid "Service Json"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Servei JSON"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servei JSON"
 >>>>>>> upstream/18.0
@@ -1196,7 +1272,11 @@ msgstr "Verificar"
 #: model:ir.actions.server,name:account_peppol.partner_action_verify_peppol
 msgid "Verify Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verificar PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verificar PEPPOL"
 >>>>>>> upstream/18.0
@@ -1345,7 +1425,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
 msgid "by Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "per PEPPOL"
 >>>>>>> upstream/18.0

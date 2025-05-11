@@ -167,10 +167,13 @@ export class ControlPanel extends Component {
             const scrollingEl = this.getScrollingElement();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             scrollingEl.addEventListener("scroll", this.onScrollThrottledBound);
             this.root.el.style.top = "0px";
             return () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             this.scrollingElementResizeObserver.observe(scrollingEl);
@@ -180,6 +183,9 @@ export class ControlPanel extends Component {
             return () => {
                 this.scrollingElementResizeObserver.unobserve(scrollingEl);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -257,7 +263,10 @@ export class ControlPanel extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     scrollingElementResizeObserver = new ResizeObserver((entries) => {
@@ -271,6 +280,9 @@ export class ControlPanel extends Component {
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -12,7 +12,11 @@ from odoo.tests import common
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class MockSMS(common.TransactionCase):
+=======
+class MockSMS(common.HttpCase):
+>>>>>>> upstream/18.0
 =======
 class MockSMS(common.HttpCase):
 >>>>>>> upstream/18.0
@@ -116,8 +120,14 @@ class MockSMS(common.HttpCase):
         try:
             with patch.object(SmsApi, '_contact_iap', side_effect=_contact_iap), \
 <<<<<<< HEAD
+<<<<<<< HEAD
                     patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create), \
                     patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
+=======
+                    patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create) as sms_create, \
+                    patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
+                self._mock_sms_create = sms_create
+>>>>>>> upstream/18.0
 =======
                     patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create) as sms_create, \
                     patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
@@ -153,13 +163,19 @@ class SMSCase(MockSMS):
         sent_sms = next((sms for sms in self._sms if sms['number'] == number), None)
         if not sent_sms:
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sent sms not found for %s (number: %s)' % (partner, number))
 =======
+=======
+>>>>>>> upstream/18.0
             debug_info = '\n'.join(
                 f"To {sms['number']}"
                 for sms in self._sms
             )
             raise AssertionError(f'sent sms not found for {partner} (number: {number})\n{debug_info}')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return sent_sms
 
@@ -177,8 +193,11 @@ class SMSCase(MockSMS):
             sms = sms.filtered(lambda s: content in (s.body or ""))
         if not sms:
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sms.sms not found for %s (number: %s / status %s)' % (partner, number, status))
 =======
+=======
+>>>>>>> upstream/18.0
             debug_info = '\n'.join(
                 f"To {sms.number} ({sms.partner_id}) / state {sms.state}"
                 for sms in self._new_sms
@@ -186,6 +205,9 @@ class SMSCase(MockSMS):
             raise AssertionError(
                 f'sms.sms not found for {partner} (number: {number} / status {status})\n{debug_info}'
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if len(sms) > 1:
             raise NotImplementedError(
@@ -338,11 +360,15 @@ class SMSCommon(MailCommon, SMSCase):
     @classmethod
     def setUpClass(cls):
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SMSCommon, cls).setUpClass()
         cls.user_employee.write({'login': 'employee'})
 
         # update country to belgium in order to test sanitization of numbers
         cls.user_employee.company_id.write({'country_id': cls.env.ref('base.be').id})
+=======
+        super().setUpClass()
+>>>>>>> upstream/18.0
 =======
         super().setUpClass()
 >>>>>>> upstream/18.0

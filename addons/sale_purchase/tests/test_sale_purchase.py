@@ -377,7 +377,10 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
         self.assertTrue(order2.purchase_order_count)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -414,6 +417,9 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
         so.action_confirm()
         self.assertEqual(so.order_line.purchase_line_ids.taxes_id, self.company_data['default_tax_purchase'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

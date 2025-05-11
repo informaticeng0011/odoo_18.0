@@ -4,6 +4,11 @@ import sys
 import time
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 
@@ -534,7 +539,10 @@ class TestProfiling(TransactionCase):
         self.assertEqual(first_query['stack'][-1][0].split('/')[-1], 'sql_db.py')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_profiler_return(self):
         # Enter test mode to avoid the profiler to commit the result
         self.registry.enter_test_mode(self.cr)
@@ -547,6 +555,9 @@ class TestProfiling(TransactionCase):
         p.json()  # check we can call it
         self.assertEqual(p.collectors[0].entries[0]['query'], 'SELECT 1')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 def deep_call(func, depth):

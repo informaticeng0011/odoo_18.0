@@ -277,7 +277,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="invoice_edi_format" invisible="not display_invoice_edi_format"/>
+=======
+                                <field name="invoice_edi_format"
+                                       placeholder="XML format"
+                                       invisible="not display_invoice_edi_format"/>
+>>>>>>> upstream/18.0
 =======
                                 <field name="invoice_edi_format"
                                        placeholder="XML format"
@@ -460,6 +466,10 @@
                 <xpath expr="//field[@name='vat']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="invoice_sending_method" optional="hide"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="invoice_sending_method" optional="hide"/>
 >>>>>>> upstream/18.0

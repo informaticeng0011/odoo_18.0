@@ -1399,6 +1399,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0
@@ -1567,7 +1571,10 @@ class Picking(models.Model):
         to_confirm._action_confirm()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_moves_to_backorder(self):
         self.ensure_one()
         return self.move_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
@@ -1581,6 +1588,9 @@ class Picking(models.Model):
             'backorder_id': self.id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _create_backorder(self, backorder_moves=None):
         """ This method is called when the user chose to create a backorder. It will create a new
@@ -1593,6 +1603,7 @@ class Picking(models.Model):
                 moves_to_backorder = backorder_moves.filtered(lambda m: m.picking_id == picking)
             else:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves_to_backorder = picking.move_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
@@ -1603,10 +1614,15 @@ class Picking(models.Model):
                     'backorder_id': picking.id
                 })
 =======
+=======
+>>>>>>> upstream/18.0
                 moves_to_backorder = picking._get_moves_to_backorder()
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
                 backorder_picking = picking._create_backorder_picking()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 moves_to_backorder.write({'picking_id': backorder_picking.id, 'picked': False})
                 moves_to_backorder.move_line_ids.package_level_id.write({'picking_id': backorder_picking.id})

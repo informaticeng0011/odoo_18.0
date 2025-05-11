@@ -639,6 +639,12 @@ class Profiler:
                 _logger.info(self.summary())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -711,7 +717,10 @@ class Profiler:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class _Nested:
     __slots__ = ("__profiler",)
 
@@ -726,6 +735,9 @@ class _Nested:
         return self.__profiler.__exit__(*args)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class Nested:
     """

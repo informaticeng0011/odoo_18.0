@@ -55,8 +55,13 @@ class StockForecasted(models.AbstractModel):
     def _move_confirmed_domain(self, product_template_ids, product_ids, wh_location_ids):
         in_domain, out_domain = self._move_domain(product_template_ids, product_ids, wh_location_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
         out_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
         in_domain += [('state', 'not in', ['draft', 'cancel', 'done'])]
+=======
+        out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+        in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
+>>>>>>> upstream/18.0
 =======
         out_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]
         in_domain += [('state', 'in', ['waiting', 'confirmed', 'partially_available', 'assigned'])]

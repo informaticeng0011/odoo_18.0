@@ -3506,7 +3506,10 @@ class TestViewTranslations(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_no_groups_for_inherited(self):
@@ -3533,6 +3536,9 @@ class TestViewTranslations(common.TransactionCase):
         with self.assertRaises(ValidationError):
             view.write({'mode': 'extension'})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

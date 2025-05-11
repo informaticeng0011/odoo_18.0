@@ -4,7 +4,11 @@
 from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -47,7 +51,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 
     def test_import_product(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         products = self.env['product.product'].create([{
             'name': 'XYZ',
             'default_code': '1234',
@@ -63,6 +70,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'default_code': '1111',
             'barcode': '00002',
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         line_vals = [
             {
@@ -82,8 +92,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'product_uom_id': self.uom_dozens.id,
                 'tax_ids': [self.company_data_2['default_tax_sale'].id]
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
 =======
+=======
+>>>>>>> upstream/18.0
             }, {
                 'product_id': products[0].id,
                 'product_uom_id': self.uom_units.id,
@@ -101,6 +114,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'product_uom_id': self.uom_units.id,
                 'tax_ids': [self.company_data_2['default_tax_sale'].id],
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
         company = self.company_data_2['company']
@@ -286,7 +302,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_billing_date_in_cii_xml(self):
@@ -319,6 +338,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
         self.assertEqual(end_date.text, '20241231')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

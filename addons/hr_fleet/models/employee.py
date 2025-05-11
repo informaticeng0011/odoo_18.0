@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
@@ -27,7 +30,11 @@ class Employee(models.Model):
             "res_model": "fleet.vehicle.assignation.log",
             "views": [[self.env.ref("hr_fleet.fleet_vehicle_assignation_log_employee_view_list").id, "list"], [False, "form"]],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "domain": [("driver_employee_id", "in", self.ids)],
+=======
+            "domain": [("driver_employee_id", "in", self.ids), ("driver_id", "in", self.work_contact_id.ids)],
+>>>>>>> upstream/18.0
 =======
             "domain": [("driver_employee_id", "in", self.ids), ("driver_id", "in", self.work_contact_id.ids)],
 >>>>>>> upstream/18.0
@@ -50,7 +57,11 @@ class Employee(models.Model):
     def _compute_employee_cars_count(self):
         rg = self.env['fleet.vehicle.assignation.log']._read_group([
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('driver_employee_id', 'in', self.ids),
+=======
+            ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
+>>>>>>> upstream/18.0
 =======
             ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
 >>>>>>> upstream/18.0
@@ -70,6 +81,7 @@ class Employee(models.Model):
             raise ValidationError(_('Cannot remove address from employees with linked cars.'))
 
     def write(self, vals):
+<<<<<<< HEAD
 <<<<<<< HEAD
         if 'user_id' in vals:
             self._sync_employee_cars(self.env['res.users'].browse(vals['user_id']))
@@ -98,6 +110,8 @@ class Employee(models.Model):
                     car.driver_id = user.partner_id
 
 =======
+=======
+>>>>>>> upstream/18.0
         res = super().write(vals)
         # Update car partner when it is changed on the employee
         if 'work_contact_id' in vals:
@@ -120,6 +134,9 @@ class Employee(models.Model):
             car_ids._compute_mobility_card()
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class EmployeePublic(models.Model):

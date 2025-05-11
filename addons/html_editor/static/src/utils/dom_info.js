@@ -261,7 +261,12 @@ export function isVisible(node) {
             isMediaElement(node) ||
             hasVisibleContent(node) ||
 <<<<<<< HEAD
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
 =======
             isProtecting(node) ||
             isEmbeddedComponent(node))
@@ -439,11 +444,17 @@ export function containsAnyNonPhrasingContent(element) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function isEmbeddedComponent(node) {
     return node.nodeType === Node.ELEMENT_NODE && node.matches("[data-embedded]");
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * A "protected" node will have its mutations filtered and not be registered

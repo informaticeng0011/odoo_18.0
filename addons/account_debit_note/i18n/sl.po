@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -32,6 +40,11 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Debit Notes</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">Debetne opombe\n"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">Debetne opombe\n"
 "</span>"
@@ -41,7 +54,11 @@ msgstr ""
 #: model:ir.model,name:account_debit_note.model_account_debit_note
 msgid "Add Debit Note wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za dodajanje bremenitvenih opomb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za dodajanje bremenitvenih opomb"
 >>>>>>> upstream/18.0
@@ -58,6 +75,11 @@ msgid ""
 " debit notes made from this journal"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označite to polje, če ne želite deliti istega zaporedja za račune in "
+"bremepise, izdelane iz tega dnevnika."
+>>>>>>> upstream/18.0
 =======
 "Označite to polje, če ne želite deliti istega zaporedja za račune in "
 "bremepise, izdelane iz tega dnevnika."
@@ -67,7 +89,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__copy_lines
 msgid "Copy Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopiraj vrstice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopiraj vrstice"
 >>>>>>> upstream/18.0
@@ -82,7 +108,11 @@ msgstr "Koda države"
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
 msgid "Create Debit Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari bremepis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvari bremepis"
 >>>>>>> upstream/18.0
@@ -103,7 +133,11 @@ msgstr "Ustvarjeno"
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_move_line_filter_debit
 msgid "Debit Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Debetni zapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Debetni zapis"
 >>>>>>> upstream/18.0
@@ -113,7 +147,11 @@ msgstr "Debetni zapis"
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
 msgid "Debit Note Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum bremenitvenega zapisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum bremenitvenega zapisa"
 >>>>>>> upstream/18.0
@@ -127,7 +165,11 @@ msgstr "Datum bremenitvenega zapisa"
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_invoice_filter_debit
 msgid "Debit Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Debetni zapiski"
+>>>>>>> upstream/18.0
 =======
 msgstr "Debetni zapiski"
 >>>>>>> upstream/18.0
@@ -136,7 +178,11 @@ msgstr "Debetni zapiski"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_journal__debit_sequence
 msgid "Dedicated Debit Note Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaporedje namenskih bremenitvenih opomb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaporedje namenskih bremenitvenih opomb"
 >>>>>>> upstream/18.0
@@ -156,6 +202,10 @@ msgstr "ID"
 msgid "If empty, uses the journal of the journal entry to be debited."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Če je prazno, se uporabi dnevnik vpisa v dnevnik, ki ga je treba bremeniti."
+>>>>>>> upstream/18.0
 =======
 "Če je prazno, se uporabi dnevnik vpisa v dnevnik, ki ga je treba bremeniti."
 >>>>>>> upstream/18.0
@@ -167,6 +217,11 @@ msgid ""
 "copy them.  We won't copy them for debit notes from credit notes. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Če morate popraviti vsako vrstico posebej, je lahko priročno, da jih "
+"kopirate. Za bremenitvene opomine jih ne bomo kopirali iz dobropisov."
+>>>>>>> upstream/18.0
 =======
 "Če morate popraviti vsako vrstico posebej, je lahko priročno, da jih "
 "kopirate. Za bremenitvene opomine jih ne bomo kopirali iz dobropisov."
@@ -186,7 +241,11 @@ msgstr "Temeljnica"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__journal_type
 msgid "Journal Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta dnevnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta dnevnika"
 >>>>>>> upstream/18.0
@@ -216,7 +275,11 @@ msgstr "Vrsta premika"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_note_count
 msgid "Number of Debit Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število debetnih sporočil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število debetnih sporočil"
 >>>>>>> upstream/18.0
@@ -226,7 +289,11 @@ msgstr "Število debetnih sporočil"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_origin_id
 msgid "Original Invoice Debited"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvotni račun bremenjen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prvotni račun bremenjen"
 >>>>>>> upstream/18.0
@@ -250,7 +317,11 @@ msgstr ""
 #: model:ir.model.fields,help:account_debit_note.field_account_move__debit_note_ids
 msgid "The debit notes created for this invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za ta račun so bile ustvarjene bremepisne opombe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za ta račun so bile ustvarjene bremepisne opombe"
 >>>>>>> upstream/18.0
@@ -260,7 +331,11 @@ msgstr "Za ta račun so bile ustvarjene bremepisne opombe"
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "This debit note was created from: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta bremenitvena opomba je bila ustvarjena iz: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta bremenitvena opomba je bila ustvarjena iz: %s"
 >>>>>>> upstream/18.0
@@ -278,6 +353,11 @@ msgid ""
 "Note, a Vendor Bill or a Vendor Credit Note."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Debetni zapis lahko izstavite samo za račun stranke, dobropis stranke, račun"
+" dobavitelja ali dobropis dobavitelja."
+>>>>>>> upstream/18.0
 =======
 "Debetni zapis lahko izstavite samo za račun stranke, dobropis stranke, račun"
 " dobavitelja ali dobropis dobavitelja."
@@ -288,7 +368,11 @@ msgstr ""
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "You can only debit posted moves."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zabremeniti lahko samo knjižene premike."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zabremeniti lahko samo knjižene premike."
 >>>>>>> upstream/18.0
@@ -301,6 +385,10 @@ msgid ""
 " note."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Za račun, ki je že povezan z bremepisom, ni mogoče ustvariti bremepisa."
+>>>>>>> upstream/18.0
 =======
 "Za račun, ki je že povezan z bremepisom, ni mogoče ustvariti bremepisa."
 >>>>>>> upstream/18.0

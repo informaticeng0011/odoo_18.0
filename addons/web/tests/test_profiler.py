@@ -61,7 +61,10 @@ class TestProfilingWeb(ProfilingHttpCase):
         self.assertEqual(new_profile.name, '/web/speedscope?')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_profile_test_tool(self):
         with self.profile():
             self.url_open('/web')
@@ -73,6 +76,9 @@ class TestProfilingWeb(ProfilingHttpCase):
             f'test_profile_test_tool uid:{self.env.uid} warm /web?',
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install', 'profiling')

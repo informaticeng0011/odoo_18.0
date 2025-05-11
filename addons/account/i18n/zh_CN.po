@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 何彬 <vnsoft.he@gmail.com>, 2025
 # Chloe Wang, 2025
 # Wil Odoo, 2025
@@ -147,16 +148,22 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
 # Chloe Wang, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -248,6 +255,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Chloe Wang, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
@@ -1694,7 +1706,10 @@ msgstr "<strong>类型：</strong>"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
@@ -1702,6 +1717,9 @@ msgid ""
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -1739,7 +1757,10 @@ msgstr "同一个银行账户，只能关联一个日记账。"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
@@ -1748,6 +1769,9 @@ msgid ""
 msgstr "银行账户（账号：%(number)s）已存在于合作伙伴%(partner)s名下，但处于归档状态。请改为取消归档。"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -3726,8 +3750,13 @@ msgstr "银行账户"
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "已删除号码为 %(number)s的银行账户%(link)s"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "银行账户%(link)s（账号：%(number)s）已归档"
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "银行账户%(link)s（账号：%(number)s）已归档"
@@ -4331,13 +4360,19 @@ msgstr ""
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
 msgstr "无法识别生成PDF中的发票：%s"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
@@ -4850,6 +4885,7 @@ msgstr "商业实体"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4918,6 +4954,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "商业伙伴国家/地区"
@@ -4938,6 +4976,9 @@ msgstr "商业伙伴国家/地区"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9792,7 +9833,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "项目缺少分析性的分配"
+>>>>>>> upstream/18.0
 =======
 msgstr "项目缺少分析性的分配"
 >>>>>>> upstream/18.0
@@ -14053,7 +14098,11 @@ msgid "Search Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "搜索分录"
+=======
+msgstr "搜索凭证"
+>>>>>>> upstream/18.0
 =======
 msgstr "搜索凭证"
 >>>>>>> upstream/18.0
@@ -14225,7 +14274,11 @@ msgid "See items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "查看项目"
+>>>>>>> upstream/18.0
 =======
 msgstr "查看项目"
 >>>>>>> upstream/18.0
@@ -18535,12 +18588,18 @@ msgstr "会计分录中的贷方或借方值错误！"
 
 #. module: account
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "XML format"
 msgstr "XML 格式"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"

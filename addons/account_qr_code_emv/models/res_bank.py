@@ -58,7 +58,11 @@ class ResPartnerBank(models.Model):
         merchant_name = self.partner_id.name and self._remove_accents(self.partner_id.name)[:25] or 'NA'
         merchant_city = self.partner_id.city and self._remove_accents(self.partner_id.city)[:15] or ''
         comment = structured_communication or free_communication or ''
+<<<<<<< HEAD
         comment = re.sub(r'/[^ A-Za-z0-9_@.\/#&+-]+/g', '', self._remove_accents(comment))
+=======
+        comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
+>>>>>>> upstream/18.0
         additional_data_field = self._get_additional_data_field(comment) if self.include_reference else None
         return [
             (0, '01'),                                                              # Payload Format Indicator

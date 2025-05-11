@@ -4,7 +4,11 @@ import re
 from itertools import product
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command, api, models
+=======
+from odoo import Command, _, api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, _, api, models
 >>>>>>> upstream/18.0
@@ -88,9 +92,12 @@ class Company(models.Model):
                                     'noupdate': True,
                                 })
 <<<<<<< HEAD
+<<<<<<< HEAD
                             foreign_taxes[tax_amount] = self.env['account.tax'].create({
                                 'name': f'{tax_amount}% {destination_country.code} {destination_country.vat_label}',
 =======
+=======
+>>>>>>> upstream/18.0
                             foreign_tax_name = f'{tax_amount}% {destination_country.code} {destination_country.vat_label}'
                             existing_foreign_tax = self.env['account.tax'].search([
                                 ('company_id', 'child_of', company.root_id.id),
@@ -101,6 +108,9 @@ class Company(models.Model):
                             foreign_tax_copy_name = existing_foreign_tax and _('%(tax_name)s (Copy)', tax_name=existing_foreign_tax.name)
                             foreign_taxes[tax_amount] = self.env['account.tax'].create({
                                 'name': foreign_tax_copy_name or foreign_tax_name,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                                 'amount': tax_amount,
                                 'invoice_repartition_line_ids': invoice_repartition_lines,

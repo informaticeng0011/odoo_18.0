@@ -9,8 +9,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+=======
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
@@ -38,7 +43,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -196,7 +205,11 @@ msgstr ""
 "<br/>\n"
 "                Garantía de devolución de 30 días<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Envío: 2-3 días laborales"
+=======
+"                Envío: 2-3 días hábiles"
+>>>>>>> upstream/18.0
 =======
 "                Envío: 2-3 días hábiles"
 >>>>>>> upstream/18.0
@@ -615,7 +628,11 @@ msgstr ""
 "                    </div>\n"
 "                    <t t-set=\"company\" t-value=\"object.company_id or object.user_id.company_id or user.company_id\"/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">My Company (San Francisco)</t>.</strong></div>\n"
+=======
+"                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">Mi Empresa (San Francisco)</t>.</strong></div>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <div style=\"text-align: center;\"><strong>Gracias por comprar en <t t-out=\"company.name or ''\">Mi Empresa (San Francisco)</t>.</strong></div>\n"
 >>>>>>> upstream/18.0
@@ -978,7 +995,11 @@ msgid "Automatically send abandoned checkout emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Envío automático de correos electrónicos de pagos abandonados"
+=======
+msgstr "Envío automático de correos electrónicos por carritos abandonados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envío automático de correos electrónicos por carritos abandonados"
 >>>>>>> upstream/18.0
@@ -3403,7 +3424,11 @@ msgid "Prevent Sale of Zero Priced Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evitar la venta de un producto con costo cero"
+=======
+msgstr "Evitar la venta de un producto si su precio es cero"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evitar la venta de un producto si su precio es cero"
 >>>>>>> upstream/18.0

@@ -67,7 +67,10 @@ class TestOSSBelgium(AccountTestInvoicingCommon):
                 self.assertIn(expected_tag_id, oss_tag_id, f"{doc_type} tag from Belgian CoA not correctly linked")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_oss_tax_copied_name(self):
         """
         This test ensures that when refreshing the mapping, if a tax that already exists has to be created, it is created
@@ -84,6 +87,9 @@ class TestOSSBelgium(AccountTestInvoicingCommon):
         new_name = fpos.tax_ids.tax_dest_id[0].name
         self.assertEqual(new_name, f"{original_name} (Copy)", "The tax name should be the same as the original one with (Copy) appended to it.")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', 'post_install_l10n', '-at_install')

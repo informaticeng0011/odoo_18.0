@@ -967,7 +967,10 @@ describe("In-editor manipulations", () => {
         expect(getContent(node)).toBe(`<div data-embedded="unknown"><p>UNKNOWN</p></div>`);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("Don't remove empty inline-block data-embedded elements during initElementForEdition, but wrap them in div instead", async () => {
         const { el } = await setupEditor(
@@ -978,6 +981,9 @@ describe("In-editor manipulations", () => {
             `<div><div contenteditable="false" data-embedded="counter" data-oe-protected="true" style="display:inline-block;"><span class="counter">Counter:0</span></div></div>`
         );
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

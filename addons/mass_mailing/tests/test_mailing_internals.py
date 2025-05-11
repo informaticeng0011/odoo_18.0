@@ -555,7 +555,10 @@ class TestMassMailUTM(MassMailCommon):
             msg='The name should be back to first one')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_mailing_create_with_context(self):
         """ Test that the default_name provided via context is ignored to prevent constraint violations."""
         mailing_1, mailing_2 = self.env["mailing.mailing"].create([
@@ -573,6 +576,9 @@ class TestMassMailUTM(MassMailCommon):
         mailing_3 = self.env["mailing.mailing"].with_context({"default_name": "Mailing"}).create({"subject": "Third subject"})
         self.assertEqual(mailing_3.name, "Mailing [3]")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('mass_mailing')

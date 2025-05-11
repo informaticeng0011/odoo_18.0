@@ -68,9 +68,12 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         country_code = self.partner_country_id.code or self.company_id.country_id.code
         partner_first_name, partner_last_name = payment_utils.split_partner_name(self.partner_name)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108,6 +111,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149,7 +155,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'business_email':  self.provider_id.company_id.email,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184,6 +193,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    **shipping_address_vals,
+>>>>>>> upstream/18.0
 =======
                     **shipping_address_vals,
 >>>>>>> upstream/18.0
@@ -229,7 +242,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'shipping_preference': 'NO_SHIPPING',
+=======
+                        'shipping_preference': shipping_preference,
+>>>>>>> upstream/18.0
 =======
                         'shipping_preference': shipping_preference,
 >>>>>>> upstream/18.0
@@ -265,6 +282,7 @@ class PaymentTransaction(models.Model):
                         'given_name': partner_first_name,
                         'surname': partner_last_name,
                     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +330,9 @@ class PaymentTransaction(models.Model):
 =======
                     **invoice_address_vals,
 >>>>>>> upstream/18.0
+=======
+                    **invoice_address_vals,
+>>>>>>> upstream/18.0
                 },
             },
         }
@@ -327,9 +348,12 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_email:
             payload['payment_source']['paypal']['email_address'] = self.partner_email
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

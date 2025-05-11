@@ -252,7 +252,10 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -291,6 +294,9 @@ class TestMrpMulticompany(common.TransactionCase):
         self.assertEqual(new_warehouse.manufacture_pull_id.route_id.company_id, self.company_b)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

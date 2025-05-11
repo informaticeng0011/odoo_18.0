@@ -29,8 +29,11 @@ import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deduceUrl, lte, random5Chars, uuidv4 } from "@point_of_sale/utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104,6 +107,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189,7 +195,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { deserializeDate } from "@web/core/l10n/dates";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -364,7 +373,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -376,6 +388,9 @@ export class PosStore extends Reactive {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,7 +517,13 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const orders = this.models["pos.order"].filter((o) => typeof o.id !== "number");
+=======
+            // All orders saved on the server should be cancelled by the device that closes
+            // the session. If some orders are not cancelled, we need to cancel them here.
+            const orders = this.models["pos.order"].filter((o) => typeof o.id === "number");
+>>>>>>> upstream/18.0
 =======
             // All orders saved on the server should be cancelled by the device that closes
             // the session. If some orders are not cancelled, we need to cancel them here.
@@ -750,6 +771,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -823,6 +848,7 @@ export class PosStore extends Reactive {
         if (data) {
             data = this.models[data.model].readMany(data.ids);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -938,6 +964,9 @@ export class PosStore extends Reactive {
         if (data && data.length > 0 && data[0].model.modelName === "product.product") {
             this._loadMissingPricelistItems(products);
         }
+=======
+        computeProductPricelistCache(this, data);
+>>>>>>> upstream/18.0
 =======
         computeProductPricelistCache(this, data);
 >>>>>>> upstream/18.0
@@ -1177,7 +1206,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1359,6 +1391,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    price_type: "automatic",
+>>>>>>> upstream/18.0
 =======
                     price_type: "automatic",
 >>>>>>> upstream/18.0
@@ -1440,6 +1476,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                } else {
+                    return;
+>>>>>>> upstream/18.0
 =======
                 } else {
                     return;
@@ -1604,7 +1645,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.user.role = this.user.raw.role;
+=======
+        this.user._role = this.user.raw.role;
+>>>>>>> upstream/18.0
 =======
         this.user._role = this.user.raw.role;
 >>>>>>> upstream/18.0
@@ -1791,6 +1836,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderToCreate = this.models["pos.order"].filter(
             (order) => this.pendingOrder.create.has(order.id) && order.hasItemsOrPayLater
         );
@@ -1801,6 +1847,8 @@ export class PosStore extends Reactive {
             Array.from(this.pendingOrder.delete)
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1816,6 +1864,9 @@ export class PosStore extends Reactive {
             .filter(Boolean);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1894,9 +1945,13 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const serializedOrder = orders.map((order) =>
                 order.serialize({ orm: true, clear: true })
             );
+=======
+            const serializedOrder = orders.map((order) => order.serialize({ orm: true }));
+>>>>>>> upstream/18.0
 =======
             const serializedOrder = orders.map((order) => order.serialize({ orm: true }));
 >>>>>>> upstream/18.0
@@ -1943,6 +1998,7 @@ export class PosStore extends Reactive {
                     .forEach((order) => (order.session_id = this.session));
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2028,6 +2084,11 @@ export class PosStore extends Reactive {
             orders.forEach((o) => this.removePendingOrder(o));
             orders.map((order) => order.clearCommands());
 >>>>>>> upstream/18.0
+=======
+            // Remove only synced orders from the pending orders
+            orders.forEach((o) => this.removePendingOrder(o));
+            orders.map((order) => order.clearCommands());
+>>>>>>> upstream/18.0
             return newData["pos.order"];
         } catch (error) {
             if (options.throw) {
@@ -2037,8 +2098,11 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             console.warn("Offline mode active, order will be synced later");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2052,6 +2116,9 @@ export class PosStore extends Reactive {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2488,10 +2555,16 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async getRenderedReceipt(order, title, lines, fullReceipt = false, diningModeUpdate) {
         const time = DateTime.now().toFormat("HH:mm");
 
         const printingChanges = {
+=======
+    getPrintingChanges(order, diningModeUpdate) {
+        const time = DateTime.now().toFormat("HH:mm");
+        return {
+>>>>>>> upstream/18.0
 =======
     getPrintingChanges(order, diningModeUpdate) {
         const time = DateTime.now().toFormat("HH:mm");
@@ -2573,11 +2646,14 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         const receipt = renderToElement("point_of_sale.OrderChangeReceipt", {
             operational_title: title,
             changes: printingChanges,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2617,6 +2693,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3110,7 +3189,10 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3152,6 +3234,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3200,6 +3285,7 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         );
 =======
 =======
@@ -3213,6 +3299,8 @@ export class PosStore extends Reactive {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3247,6 +3335,9 @@ export class PosStore extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

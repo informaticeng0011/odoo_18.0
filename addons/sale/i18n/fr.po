@@ -6,8 +6,13 @@
 # Caroline Renson <car@odoo.com>, 2024
 # Cécile Collart <cco@odoo.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Manon Rondou, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Manon Rondou, 2025
@@ -20,7 +25,11 @@ msgstr ""
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Manon Rondou, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Manon Rondou, 2025\n"
 >>>>>>> upstream/18.0
@@ -1152,7 +1161,11 @@ msgstr ""
 "Selon la confirmation du produit, la quantité livrée peut être calculée automatiquement par mécanisme :\n"
 " - Manuel : la quantité est définie manuellement sur la ligne\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Analytique à partir des notes de frais : la quantité est la somme des notes de frais comptabilisées\n"
+=======
+"- Analytique à partir des dépenses : la quantité est la somme des dépenses comptabilisées\n"
+>>>>>>> upstream/18.0
 =======
 "- Analytique à partir des dépenses : la quantité est la somme des dépenses comptabilisées\n"
 >>>>>>> upstream/18.0
@@ -1358,7 +1371,11 @@ msgstr "Répartition Analytique"
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__qty_delivered_method__analytic
 msgid "Analytic From Expenses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analytique des notes de frais"
+=======
+msgstr "Analytique des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analytique des dépenses"
 >>>>>>> upstream/18.0
@@ -2471,7 +2488,11 @@ msgstr "Prévu :"
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais"
+=======
+msgstr "Dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense"
 >>>>>>> upstream/18.0
@@ -3005,7 +3026,11 @@ msgstr "Est un acompte"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_expense
 msgid "Is expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Est une note de frais"
+=======
+msgstr "Est une dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Est une dépense"
 >>>>>>> upstream/18.0
@@ -3021,7 +3046,11 @@ msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Est vrai si la ligne de commande vient d'une note de frais ou d'une facture "
+=======
+"Est vrai si la ligne de commande vient d'une dépense ou d'une facture "
+>>>>>>> upstream/18.0
 =======
 "Est vrai si la ligne de commande vient d'une dépense ou d'une facture "
 >>>>>>> upstream/18.0
