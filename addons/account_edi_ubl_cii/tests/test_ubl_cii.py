@@ -5,7 +5,11 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -52,7 +56,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
     def test_import_product(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         products = self.env['product.product'].create([{
@@ -71,6 +78,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'barcode': '00002',
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93,8 +103,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'tax_ids': [self.company_data_2['default_tax_sale'].id]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             }, {
@@ -115,6 +128,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
                 'tax_ids': [self.company_data_2['default_tax_sale'].id],
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -303,7 +319,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339,6 +358,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

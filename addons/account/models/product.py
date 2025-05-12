@@ -288,6 +288,7 @@ class ProductProduct(models.Model):
         domains = []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if default_code:
             domains.append([('default_code', '=', default_code)])
         if barcode:
@@ -313,6 +314,8 @@ class ProductProduct(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if barcode:
             domains.append([('barcode', '=', barcode)])
         if default_code:
@@ -336,6 +339,9 @@ class ProductProduct(models.Model):
                 if products_by_domain := products.filtered_domain(domain):
                     return products_by_domain[0]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

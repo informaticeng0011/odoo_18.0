@@ -59,7 +59,11 @@ class ResPartnerBank(models.Model):
         merchant_city = self.partner_id.city and self._remove_accents(self.partner_id.city)[:15] or ''
         comment = structured_communication or free_communication or ''
 <<<<<<< HEAD
+<<<<<<< HEAD
         comment = re.sub(r'/[^ A-Za-z0-9_@.\/#&+-]+/g', '', self._remove_accents(comment))
+=======
+        comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
+>>>>>>> upstream/18.0
 =======
         comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
 >>>>>>> upstream/18.0

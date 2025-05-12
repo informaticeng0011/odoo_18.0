@@ -95,6 +95,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         for recipient_info, link_info, record in zip(recipients_info, sms_links_info, records):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner = recipient_info.get('partner', self.env['res.partner'])
             number = recipient_info.get('number')
             status = recipient_info.get('trace_status', 'outgoing')
@@ -102,6 +103,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             if number is None and partner:
                 number = partner._sms_get_recipients_info()[partner.id]['sanitized']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # check input
@@ -130,6 +133,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             content = recipient_info.get('content', None)
             record = record or recipient_info.get('record')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151,7 +157,10 @@ class MassSMSCase(SMSCase, MockLinkTracker):
                     sms_state = state_mapping[status]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     failure_type = recipient_info['failure_type'] if status in ('error', 'cancel', 'bounce') else None
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189,8 +198,11 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def gateway_sms_click(self, mailing, record):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def gateway_sms_bounce(self, mailing, records, error_code='invalid_destination'):
@@ -205,6 +217,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 
     def gateway_sms_click(self, mailing, record, use_sent_sms=True):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212,6 +227,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         a number, find an SMS sent to him, find shortened links in its body
         and call add_click to simulate a click. """
         trace = mailing.mailing_trace_ids.filtered(lambda t: t.model == record._name and t.res_id == record.id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         sms_sent = self._find_sms_sent(self.env['res.partner'], trace.sms_number)
@@ -231,6 +247,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, sms_sent['body']):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if use_sent_sms:
@@ -264,6 +282,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, body):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -364,7 +364,10 @@ class TestAccountMove(TestAccountMoveStockCommon):
         self.assertEqual(bill.invoice_line_ids.account_id, test_account)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -396,6 +399,9 @@ class TestAccountMove(TestAccountMoveStockCommon):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

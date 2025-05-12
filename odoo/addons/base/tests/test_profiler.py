@@ -5,6 +5,11 @@ import time
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 
@@ -540,7 +545,10 @@ class TestProfiling(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_profiler_return(self):
@@ -556,6 +564,9 @@ class TestProfiling(TransactionCase):
         self.assertEqual(p.collectors[0].entries[0]['query'], 'SELECT 1')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

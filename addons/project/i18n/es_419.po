@@ -6,8 +6,13 @@
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+=======
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Fernanda Alvarez, 2025
@@ -25,7 +30,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -440,7 +449,11 @@ msgstr ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/5\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+=======
+"                                    <img alt=\"Satisfecho\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfecho\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Satisfecho\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfecho\"/>\n"
 >>>>>>> upstream/18.0
@@ -453,7 +466,11 @@ msgstr ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/3\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Okay\" src=\"/rating/static/src/img/rating_3.png\" title=\"Okay\"/>\n"
+=======
+"                                    <img alt=\"Regular\" src=\"/rating/static/src/img/rating_3.png\" title=\"Regular\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Regular\" src=\"/rating/static/src/img/rating_3.png\" title=\"Regular\"/>\n"
 >>>>>>> upstream/18.0
@@ -466,7 +483,11 @@ msgstr ""
 "                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+=======
+"                                    <img alt=\"Insatisfecho\" src=\"/rating/static/src/img/rating_1.png\" title=\"Insatisfecho\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <img alt=\"Insatisfecho\" src=\"/rating/static/src/img/rating_1.png\" title=\"Insatisfecho\"/>\n"
 >>>>>>> upstream/18.0
@@ -488,6 +509,7 @@ msgstr ""
 "            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Recibirá esta encuesta de satisfacción  <b t-out=\"object.project_id.rating_status_period or ''\">de forma semanal</b> siempre que la tarea esté en la etapa <b t-out=\"object.stage_id.name or ''\">En progreso</b>.</span>\n"
 "            </t>\n"
 "        </td></tr>\n"
@@ -495,11 +517,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">Recibirá esta encuesta de satisfacción de forma <b t-out=\"object.project_id.rating_status_period or ''\">semanal</b> mientras la tarea se encuentre en la etapa <b t-out=\"object.stage_id.name or ''\">En progreso</b>.</span>\n"
 "            </t>\n"
 "        </td></tr>\n"
 "        <tr><td><br/>Saludos,</td></tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -14,7 +14,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 >>>>>>> upstream/18.0
@@ -669,7 +673,11 @@ msgid "Accept"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "受理"
+=======
+msgstr "参加"
+>>>>>>> upstream/18.0
 =======
 msgstr "参加"
 >>>>>>> upstream/18.0
@@ -772,7 +780,11 @@ msgid "Accept with camera"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "カメラで承諾"
+=======
+msgstr "カメラをオンにして参加"
+>>>>>>> upstream/18.0
 =======
 msgstr "カメラをオンにして参加"
 >>>>>>> upstream/18.0
@@ -942,7 +954,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -1618,7 +1634,11 @@ msgid "Ask at launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ローンチ時に聞く"
+=======
+msgstr "開始時に確認"
+>>>>>>> upstream/18.0
 =======
 msgstr "開始時に確認"
 >>>>>>> upstream/18.0
@@ -1757,7 +1777,11 @@ msgid "Authenticated Partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "許可された取引先"
+=======
+msgstr "認証済み取引先"
+>>>>>>> upstream/18.0
 =======
 msgstr "認証済み取引先"
 >>>>>>> upstream/18.0
@@ -2714,7 +2738,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -2809,7 +2837,11 @@ msgid "Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認済"
+=======
+msgstr "確定済"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定済"
 >>>>>>> upstream/18.0
@@ -5149,7 +5181,11 @@ msgid ""
 "the email will be send as soon as possible. Unless a timezone is specified, "
 "it is considered as being in UTC timezone."
 msgstr ""
+<<<<<<< HEAD
 "設定されている場合、キューマネジャーは日付の後に電子メールを送信します。 "
+=======
+"設定されている場合、送信予約管理機能は日付の後にEメールを送信します。 "
+>>>>>>> upstream/18.0
 "設定されていない場合、Eメールはできるだけ早く送信されます。タイムゾーンは指定されない限り、UTCタイムゾーンとみなされます。 "
 
 #. module: mail
@@ -5160,6 +5196,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "設定されている場合、キューマネジャーは日付の後に電子メールを送信します。 "
 "設定されていない場合、Eメールはできるだけ早く送信されます。ダイナミックエクスプレッションを使用可能です。 "
 =======
@@ -5167,6 +5204,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "送信日時が設定されている場合、送信予約機能はその日時以降にEメールを送信します。設定されていない場合は、可能な限り早く送信されます。また、動的な式を使用することもできます。"
+>>>>>>> upstream/18.0
+=======
+"送信日時が設定されている場合、送信予約管理機能はその日時以降にEメールを送信します。設定されていない場合は、可能な限り早く送信されます。また、動的な式を使用することもできます。"
 >>>>>>> upstream/18.0
 
 #. module: mail
@@ -6251,7 +6291,11 @@ msgstr "%(action_name)sのメールテンプレートモデルがアクション
 msgid "Mail template using this mail server"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このメールサーバを使用するめーるテンプレート"
+=======
+msgstr "このメールサーバを使用するメールテンプレート"
+>>>>>>> upstream/18.0
 =======
 msgstr "このメールサーバを使用するメールテンプレート"
 >>>>>>> upstream/18.0
@@ -6264,7 +6308,11 @@ msgstr "このメールサーバを使用するメールテンプレート"
 msgid "Mail: Email Queue Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "メール: Eメールキューマネジャー"
+=======
+msgstr "メール: メール送信予約管理機能"
+>>>>>>> upstream/18.0
 =======
 msgstr "メール: メール送信予約管理機能"
 >>>>>>> upstream/18.0
@@ -7163,7 +7211,11 @@ msgid "Nothing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "なし"
+=======
+msgstr "追跡しない"
+>>>>>>> upstream/18.0
 =======
 msgstr "追跡しない"
 >>>>>>> upstream/18.0
@@ -8130,9 +8182,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- everyone: 誰にでも投稿可能\n"
 "- partners: 許可されたパートナーのみ\n"
 "- followers: 関連ドキュメントのフォロワーか、フォローしているチャンネルのメンバーのみ\n"
+=======
+"- 全員: 誰でも投稿可能\n"
+"- 取引先: 認証済みの取引先のみ\n"
+"- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメンバーのみ\n"
+>>>>>>> upstream/18.0
 =======
 "- 全員: 誰でも投稿可能\n"
 "- 取引先: 認証済みの取引先のみ\n"
@@ -8215,7 +8273,10 @@ msgstr "ポータルアクセス失効"
 #. module: mail
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -8225,6 +8286,9 @@ msgstr "ポータルユーザは、フォロワーとしてスレッドをフィ
 
 #. module: mail
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10243,7 +10307,11 @@ msgstr "プラン\"%(plan_name)s\"が開始されました。"
 msgid "The queue manager will send the email after the date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "キューマネージャーは、日付の後に電子メールを送信します"
+=======
+msgstr "メールは送信予約機能により、指定日時を過ぎると自動送信されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "メールは送信予約機能により、指定日時を過ぎると自動送信されます。"
 >>>>>>> upstream/18.0
@@ -11038,7 +11106,11 @@ msgid "Upload file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ファイルをアップロードする"
+=======
+msgstr "ファイルをアップロード"
+>>>>>>> upstream/18.0
 =======
 msgstr "ファイルをアップロード"
 >>>>>>> upstream/18.0

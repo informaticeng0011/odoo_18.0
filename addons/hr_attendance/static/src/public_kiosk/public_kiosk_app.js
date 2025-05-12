@@ -40,6 +40,10 @@ class kioskAttendanceApp extends Component{
     setup() {
         this.barcode = useService("barcode");
         this.notification = useService("notification");
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
         this.companyImageUrl = url("/web/binary/company_logo", {
             company: this.props.companyId,
         });
@@ -192,6 +196,7 @@ class kioskAttendanceApp extends Component{
             return;
         }
         this.lockScanner = true;
+<<<<<<< HEAD
         const result = await rpc('attendance_barcode_scanned',
             {
                 'barcode': barcode,
@@ -204,6 +209,31 @@ class kioskAttendanceApp extends Component{
             this.displayNotification(_t("No employee corresponding to Badge ID '%(barcode)s.'", { barcode }))
         }
         this.lockScanner = false
+=======
+        this.ui.block();
+
+        let result;
+        try {
+            result = await rpc("attendance_barcode_scanned", {
+                barcode: barcode,
+                token: this.props.token,
+            });
+
+            if (result && result.employee_name) {
+                this.employeeData = result;
+                this.switchDisplay("greet");
+            } else {
+                this.displayNotification(
+                    _t("No employee corresponding to Badge ID '%(barcode)s.'", { barcode })
+                );
+            }
+        } catch (error) {
+            this.displayNotification(error.data.message);
+        } finally {
+            this.lockScanner = false;
+            this.ui.unblock();
+        }
+>>>>>>> upstream/18.0
     }
 
     removeDemoMessage() {

@@ -13003,7 +13003,12 @@ test("Keep scrollTop when loading records with load more", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(clickKanbanLoadMoreButton).click();
+=======
+    clickKanbanLoadMoreButton.click();
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     clickKanbanLoadMoreButton.click();
     await animationFrame();

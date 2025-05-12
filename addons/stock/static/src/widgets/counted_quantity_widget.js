@@ -17,6 +17,7 @@ export class CountedQuantityWidgetField extends FloatField {
                 if (inputEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     inputEl.addEventListener("input", this.onInput.bind(this));
                     inputEl.addEventListener("keydown", this.onKeydown.bind(this));
                     inputEl.addEventListener("blur", this.onBlur.bind(this));
@@ -25,6 +26,8 @@ export class CountedQuantityWidgetField extends FloatField {
                         inputEl.removeEventListener("keydown", this.onKeydown.bind(this));
                         inputEl.removeEventListener("blur", this.onBlur.bind(this));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     const boundOnInput = this.onInput.bind(this);
@@ -38,6 +41,9 @@ export class CountedQuantityWidgetField extends FloatField {
                         inputEl.removeEventListener("keydown", boundOnKeydown);
                         inputEl.removeEventListener("blur", boundOnBlur);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

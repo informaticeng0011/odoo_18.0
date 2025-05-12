@@ -357,7 +357,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not (db_uuid and enterprise_code):
+=======
+    if not db_uuid:
+>>>>>>> upstream/18.0
 =======
     if not db_uuid:
 >>>>>>> upstream/18.0
@@ -384,7 +388,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'enterprise_code': enterprise_code
+=======
+            'enterprise_code': enterprise_code or ''
+>>>>>>> upstream/18.0
 =======
             'enterprise_code': enterprise_code or ''
 >>>>>>> upstream/18.0
@@ -418,6 +426,7 @@ def load_certificate():
     if response.status != 200:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_STATUS %s\n\n%s" % (response.status, response.reason)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +511,8 @@ def load_certificate():
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     result = json.loads(response.data.decode()).get('result', {})
     error = result.get('error')
     if error:
@@ -530,6 +541,9 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -82,7 +82,10 @@ class ResUsers(models.Model):
             env = api.Environment(request.env.cr, auth_info['uid'], {})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # user may not always exist in request cursor for auto-provisioning modules like LDAP
@@ -90,6 +93,9 @@ class ResUsers(models.Model):
                 return auth_info
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

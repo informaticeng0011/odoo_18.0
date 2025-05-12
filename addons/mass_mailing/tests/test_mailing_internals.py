@@ -556,7 +556,10 @@ class TestMassMailUTM(MassMailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_mailing_create_with_context(self):
@@ -577,6 +580,9 @@ class TestMassMailUTM(MassMailCommon):
         self.assertEqual(mailing_3.name, "Mailing [3]")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -52,7 +52,10 @@ class UtmSourceMixin(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -61,6 +64,9 @@ class UtmSourceMixin(models.AbstractModel):
         return super().default_get([field for field in fields_list if field != "name"])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71,8 +77,11 @@ class UtmSourceMixin(models.AbstractModel):
         utm_sources = self.env['utm.source'].create([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'name': values.get('name') or self.env['utm.source']._generate_name(self, values.get(self._rec_name))}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             {
@@ -81,6 +90,9 @@ class UtmSourceMixin(models.AbstractModel):
                 or self.env['utm.source']._generate_name(self, values.get(self._rec_name)),
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

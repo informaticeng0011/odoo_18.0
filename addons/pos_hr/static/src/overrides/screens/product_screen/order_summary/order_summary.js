@@ -23,7 +23,11 @@ patch(OrderSummary.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.pos.config.module_pos_hr || this.pos.employeeIsAdmin) {
+=======
+        if (this.pos.cashierHasPriceControlRights()) {
+>>>>>>> upstream/18.0
 =======
         if (this.pos.cashierHasPriceControlRights()) {
 >>>>>>> upstream/18.0

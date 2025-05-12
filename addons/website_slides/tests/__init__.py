@@ -23,6 +23,10 @@ from . import test_load_chatter_bundle
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_mail
+>>>>>>> upstream/18.0
 =======
 from . import test_mail
 >>>>>>> upstream/18.0

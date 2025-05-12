@@ -60,8 +60,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s confirme que cette note de frais n'est pas un doublon avec une "
 "dépense similaire."
+=======
+"%(user)s confirme que cette dépense n'est pas un doublon avec une dépense "
+"similaire."
+>>>>>>> upstream/18.0
 =======
 "%(user)s confirme que cette dépense n'est pas un doublon avec une dépense "
 "similaire."
@@ -97,8 +102,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Notes de frais - %s - %s' % (object.employee_id.name, "
 "(object.name).replace('/', ''))"
+=======
+"'Dépenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
+"''))"
+>>>>>>> upstream/18.0
 =======
 "'Dépenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
@@ -143,7 +153,11 @@ msgstr "<i class=\"oi oi-arrow-right\"/> Configurez votre alias de domaine"
 msgid "<span class=\"o_stat_text\">Expense Report</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Rapport de note de frais</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Rapport de dépense</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Rapport de dépense</span>"
 >>>>>>> upstream/18.0
@@ -269,7 +283,11 @@ msgstr "Approbateur de tout"
 msgid "All Expense Reports"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tous les rapports de notes de frais"
+=======
+msgstr "Tous les rapports de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tous les rapports de dépenses"
 >>>>>>> upstream/18.0
@@ -289,8 +307,13 @@ msgid "All expenses in an expense report must have the same \"paid by\" criteria
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Toutes les notes de frais dans un rapport doivent avoir le même critère "
 "\"payées par\"."
+=======
+"Toutes les dépenses dans un rapport doivent avoir le même critère \"payées "
+"par\"."
+>>>>>>> upstream/18.0
 =======
 "Toutes les dépenses dans un rapport doivent avoir le même critère \"payées "
 "par\"."
@@ -332,7 +355,11 @@ msgstr "Un compte de frais est attendu"
 msgid "An expense of same category, amount and date already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Une note de frais de même catégorie, montant et date existe déjà."
+=======
+msgstr "Une dépense de même catégorie, montant et date existe déjà."
+>>>>>>> upstream/18.0
 =======
 msgstr "Une dépense de même catégorie, montant et date existe déjà."
 >>>>>>> upstream/18.0
@@ -347,7 +374,11 @@ msgid "An expense report must contain only lines from the same company."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un rapport de notes de frais doit seulement contenir des lignes de la même "
+=======
+"Un rapport de dépenses doit seulement contenir des lignes de la même "
+>>>>>>> upstream/18.0
 =======
 "Un rapport de dépenses doit seulement contenir des lignes de la même "
 >>>>>>> upstream/18.0
@@ -478,7 +509,11 @@ msgstr ""
 "Les taxes incluses dans le prix et les taxes exclues du prix se comporteront"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " comme des taxes incluses dans le prix pour les notes de frais."
+=======
+" comme des taxes incluses dans le prix pour les dépenses."
+>>>>>>> upstream/18.0
 =======
 " comme des taxes incluses dans le prix pour les dépenses."
 >>>>>>> upstream/18.0
@@ -600,7 +635,11 @@ msgstr "Créer le rapport"
 msgid "Create a new expense report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Créer un nouveau rapport de notes de frais"
+=======
+msgstr "Créer un nouveau rapport de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créer un nouveau rapport de dépenses"
 >>>>>>> upstream/18.0
@@ -615,8 +654,12 @@ msgid "Create a report to submit one or more expenses to your manager."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Créer un rapport pour soumettre une ou plusieurs notes de frais à votre "
 "manager."
+=======
+"Créer un rapport pour soumettre une ou plusieurs dépenses à votre manager."
+>>>>>>> upstream/18.0
 =======
 "Créer un rapport pour soumettre une ou plusieurs dépenses à votre manager."
 >>>>>>> upstream/18.0
@@ -629,7 +672,11 @@ msgstr ""
 msgid "Create expenses from incoming emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Créer des notes de frais provenant des e-mails entrants"
+=======
+msgstr "Créer des dépenses provenant des e-mails entrants"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créer des dépenses provenant des e-mails entrants"
 >>>>>>> upstream/18.0
@@ -642,7 +689,11 @@ msgstr "Créer des dépenses provenant des e-mails entrants"
 msgid "Create new expenses to get statistics."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Créez de nouvelles notes de frais pour obtenir des statistiques."
+=======
+msgstr "Créez de nouvelles dépenses pour obtenir des statistiques."
+>>>>>>> upstream/18.0
 =======
 msgstr "Créez de nouvelles dépenses pour obtenir des statistiques."
 >>>>>>> upstream/18.0
@@ -704,7 +755,11 @@ msgstr "Cher(e)"
 msgid "Default Alias Name for Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alias par défaut pour les notes de frais"
+=======
+msgstr "Alias par défaut pour les dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias par défaut pour les dépenses"
 >>>>>>> upstream/18.0
@@ -718,7 +773,11 @@ msgstr "Alias par défaut pour les dépenses"
 msgid "Default Expense Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Journal par défaut pour les notes de frais"
+=======
+msgstr "Journal par défaut pour les dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Journal par défaut pour les dépenses"
 >>>>>>> upstream/18.0
@@ -732,8 +791,12 @@ msgid "Default accounting journal for expenses paid by employees."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Journal comptable par défaut pour les notes de frais payées par les "
 "employés."
+=======
+"Journal comptable par défaut pour les dépenses payées par les employés."
+>>>>>>> upstream/18.0
 =======
 "Journal comptable par défaut pour les dépenses payées par les employés."
 >>>>>>> upstream/18.0
@@ -831,7 +894,11 @@ msgstr "Brouillon"
 msgid "Duplicate Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dupliquer la note de frais"
+=======
+msgstr "Dupliquer la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dupliquer la dépense"
 >>>>>>> upstream/18.0
@@ -859,7 +926,11 @@ msgstr "Employé (à rembourser)"
 msgid "Employee Expense Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Journal des notes de frais de l'employé"
+=======
+msgstr "Journal des dépenses de l'employé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Journal des dépenses de l'employé"
 >>>>>>> upstream/18.0
@@ -873,7 +944,11 @@ msgstr "Journal des dépenses de l'employé"
 msgid "Employee Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais de l'employé"
+=======
+msgstr "Dépenses de l'employé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses de l'employé"
 >>>>>>> upstream/18.0
@@ -891,7 +966,11 @@ msgstr ""
 "Saisissez un nom, puis choisissez une catégorie et configurez le montant de "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "votre note de frais."
+=======
+"votre dépense."
+>>>>>>> upstream/18.0
 =======
 "votre dépense."
 >>>>>>> upstream/18.0
@@ -915,7 +994,11 @@ msgstr ""
 msgid "Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais"
+=======
+msgstr "Dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense"
 >>>>>>> upstream/18.0
@@ -928,7 +1011,11 @@ msgstr "Dépense"
 msgid "Expense Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validation de notes de frais"
+=======
+msgstr "Validation de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validation de dépenses"
 >>>>>>> upstream/18.0
@@ -941,7 +1028,11 @@ msgstr "Validation de dépenses"
 msgid "Expense Approve Duplicate"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais dupliquée"
+=======
+msgstr "Dépense dupliquée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense dupliquée"
 >>>>>>> upstream/18.0
@@ -954,7 +1045,11 @@ msgstr "Dépense dupliquée"
 msgid "Expense Approver"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Approbateur des notes de frais"
+=======
+msgstr "Approbateur des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Approbateur des dépenses"
 >>>>>>> upstream/18.0
@@ -980,7 +1075,11 @@ msgstr "Date de la dépense"
 msgid "Expense Digitalization (OCR)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numérisation des notes de frais (OCR)"
+=======
+msgstr "Numérisation des dépenses (OCR)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numérisation des dépenses (OCR)"
 >>>>>>> upstream/18.0
@@ -993,7 +1092,11 @@ msgstr "Numérisation des dépenses (OCR)"
 msgid "Expense Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Journal des notes de frais"
+=======
+msgstr "Journal des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Journal des dépenses"
 >>>>>>> upstream/18.0
@@ -1011,8 +1114,12 @@ msgstr "Ligne de frais"
 msgid "Expense Lines Are Editable By Current User"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Les lignes de notes de frais sont modifiables par l'utilisateur actuel"
+=======
+msgstr "Les lignes de dépenses sont modifiables par l'utilisateur actuel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Les lignes de dépenses sont modifiables par l'utilisateur actuel"
 >>>>>>> upstream/18.0
@@ -1025,7 +1132,11 @@ msgstr "Les lignes de dépenses sont modifiables par l'utilisateur actuel"
 msgid "Expense Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Manager des notes de frais"
+=======
+msgstr "Manager des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Manager des dépenses"
 >>>>>>> upstream/18.0
@@ -1043,7 +1154,11 @@ msgstr "Compte en suspens pour les dépenses"
 msgid "Expense Refuse Reason Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assistant des raisons de refus d'une note de frais"
+=======
+msgstr "Assistant des raisons de refus d'une dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistant des raisons de refus d'une dépense"
 >>>>>>> upstream/18.0
@@ -1059,7 +1174,11 @@ msgstr "Assistant des raisons de refus d'une dépense"
 msgid "Expense Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais"
+=======
+msgstr "Dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense"
 >>>>>>> upstream/18.0
@@ -1072,7 +1191,11 @@ msgstr "Dépense"
 msgid "Expense Report Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Date de la note de frais"
+=======
+msgstr "Date de la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Date de la dépense"
 >>>>>>> upstream/18.0
@@ -1085,7 +1208,11 @@ msgstr "Date de la dépense"
 msgid "Expense Report Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Image de la note de frais"
+=======
+msgstr "Image de la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Image de la dépense"
 >>>>>>> upstream/18.0
@@ -1098,7 +1225,11 @@ msgstr "Image de la dépense"
 msgid "Expense Report Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Résumé de la note de frais"
+=======
+msgstr "Résumé de la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Résumé de la dépense"
 >>>>>>> upstream/18.0
@@ -1114,7 +1245,11 @@ msgstr "Résumé de la dépense"
 msgid "Expense Reports"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rapports de note de frais"
+=======
+msgstr "Rapports de dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapports de dépense"
 >>>>>>> upstream/18.0
@@ -1127,7 +1262,11 @@ msgstr "Rapports de dépense"
 msgid "Expense Reports Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analyse des notes de frais"
+=======
+msgstr "Analyse des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analyse des dépenses"
 >>>>>>> upstream/18.0
@@ -1140,7 +1279,11 @@ msgstr "Analyse des dépenses"
 msgid "Expense Reports to Approve"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais à approuver"
+=======
+msgstr "Dépenses à approuver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses à approuver"
 >>>>>>> upstream/18.0
@@ -1155,7 +1298,11 @@ msgstr "Dépenses à approuver"
 msgid "Expense Sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais"
+=======
+msgstr "Dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense"
 >>>>>>> upstream/18.0
@@ -1168,7 +1315,11 @@ msgstr "Dépense"
 msgid "Expense Split"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fractionnement des notes de frais"
+=======
+msgstr "Fractionnement des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fractionnement des dépenses"
 >>>>>>> upstream/18.0
@@ -1181,7 +1332,11 @@ msgstr "Fractionnement des dépenses"
 msgid "Expense Split Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ligne de fractionnement de note de frais"
+=======
+msgstr "Ligne de fractionnement de dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ligne de fractionnement de dépense"
 >>>>>>> upstream/18.0
@@ -1194,7 +1349,11 @@ msgstr "Ligne de fractionnement de dépense"
 msgid "Expense Split Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Assistant fractionnement de note de frais"
+=======
+msgstr "Assistant fractionnement de dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistant fractionnement de dépense"
 >>>>>>> upstream/18.0
@@ -1207,7 +1366,11 @@ msgstr "Assistant fractionnement de dépense"
 msgid "Expense Validate Duplicate"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais dupliquée"
+=======
+msgstr "Dépense dupliquée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense dupliquée"
 >>>>>>> upstream/18.0
@@ -1226,7 +1389,11 @@ msgstr "Les catégories de dépenses peuvent être refacturées à vos clients."
 msgid "Expense entry created from: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Écriture de note de frais créée à partir de : %s"
+=======
+msgstr "Écriture de dépense créée à partir de : %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Écriture de dépense créée à partir de : %s"
 >>>>>>> upstream/18.0
@@ -1239,7 +1406,11 @@ msgstr "Écriture de dépense créée à partir de : %s"
 msgid "Expense refuse reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Motif de refus de la note de frais"
+=======
+msgstr "Motif de refus de la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motif de refus de la dépense"
 >>>>>>> upstream/18.0
@@ -1252,7 +1423,11 @@ msgstr "Motif de refus de la dépense"
 msgid "Expense report approved, entry created for accountant"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais approuvée, écriture créée pour le comptable"
+=======
+msgstr "Dépense approuvée, écriture créée pour le comptable"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense approuvée, écriture créée pour le comptable"
 >>>>>>> upstream/18.0
@@ -1265,7 +1440,11 @@ msgstr "Dépense approuvée, écriture créée pour le comptable"
 msgid "Expense report paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais remboursée"
+=======
+msgstr "Dépense remboursée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense remboursée"
 >>>>>>> upstream/18.0
@@ -1278,7 +1457,11 @@ msgstr "Dépense remboursée"
 msgid "Expense report refused"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais refusée"
+=======
+msgstr "Dépense refusée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense refusée"
 >>>>>>> upstream/18.0
@@ -1291,7 +1474,11 @@ msgstr "Dépense refusée"
 msgid "Expense report reset to Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais remise en brouillon"
+=======
+msgstr "Dépense remise en brouillon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense remise en brouillon"
 >>>>>>> upstream/18.0
@@ -1306,8 +1493,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Les rapports de notes de frais regroupent l'ensemble des dépenses engagées "
 "lors d'un événement précis."
+=======
+"Les rapports de dépenses regroupent l'ensemble des dépenses engagées lors "
+"d'un événement précis."
+>>>>>>> upstream/18.0
 =======
 "Les rapports de dépenses regroupent l'ensemble des dépenses engagées lors "
 "d'un événement précis."
@@ -1323,7 +1515,11 @@ msgstr ""
 msgid "Expense split"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fractionnement de la note de frais"
+=======
+msgstr "Fractionnement de la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fractionnement de la dépense"
 >>>>>>> upstream/18.0
@@ -1349,7 +1545,11 @@ msgstr "Fractionnement de la dépense"
 msgid "Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais"
+=======
+msgstr "Dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses"
 >>>>>>> upstream/18.0
@@ -1367,7 +1567,11 @@ msgstr "Dépenses"
 msgid "Expenses Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analyse des notes de frais"
+=======
+msgstr "Analyse des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analyse des dépenses"
 >>>>>>> upstream/18.0
@@ -1381,7 +1585,11 @@ msgstr "Analyse des dépenses"
 msgid "Expenses Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rapport de notes de frais"
+=======
+msgstr "Rapport de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapport de dépenses"
 >>>>>>> upstream/18.0
@@ -1394,7 +1602,11 @@ msgstr "Rapport de dépenses"
 msgid "Expenses Reports to Approve"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rapports de notes de frais à approuver"
+=======
+msgstr "Rapports de dépenses à approuver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapports de dépenses à approuver"
 >>>>>>> upstream/18.0
@@ -1407,7 +1619,11 @@ msgstr "Rapports de dépenses à approuver"
 msgid "Expenses by Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais par date"
+=======
+msgstr "Dépenses par date"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses par date"
 >>>>>>> upstream/18.0
@@ -1421,7 +1637,11 @@ msgstr "Dépenses par date"
 msgid "Expenses of Your Team Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais des membres de votre équipe"
+=======
+msgstr "Dépenses des membres de votre équipe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses des membres de votre équipe"
 >>>>>>> upstream/18.0
@@ -1435,7 +1655,11 @@ msgstr "Dépenses des membres de votre équipe"
 msgid "Expenses with a similar receipt to %(other_expense_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais avec un justificatif similaire à %(other_expense_name)s"
+=======
+msgstr "Dépense avec un justificatif similaire à %(other_expense_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense avec un justificatif similaire à %(other_expense_name)s"
 >>>>>>> upstream/18.0
@@ -1450,7 +1674,11 @@ msgstr "Dépense avec un justificatif similaire à %(other_expense_name)s"
 msgid "Filter For Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Filtre pour les notes de frais"
+=======
+msgstr "Filtre pour les dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtre pour les dépenses"
 >>>>>>> upstream/18.0
@@ -1499,7 +1727,11 @@ msgstr "Activités futures"
 msgid "Generate Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Générer des notes de frais"
+=======
+msgstr "Générer des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Générer des dépenses"
 >>>>>>> upstream/18.0
@@ -1727,7 +1959,11 @@ msgstr "Activités en retard"
 msgid "Let your employees record expenses by email"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Laisser vos employés enregistrer des notes de frais par e-mail"
+=======
+msgstr "Laisser vos employés enregistrer des dépenses par e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laisser vos employés enregistrer des dépenses par e-mail"
 >>>>>>> upstream/18.0
@@ -1741,8 +1977,12 @@ msgstr "Laisser vos employés enregistrer des dépenses par e-mail"
 msgid "Let's check out where you can manage all your employees expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Allons voir où vous pouvez gérer toutes les notes de frais de vos employés"
+=======
+msgstr "Allons voir où vous pouvez gérer toutes les dépenses de vos employés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Allons voir où vous pouvez gérer toutes les dépenses de vos employés"
 >>>>>>> upstream/18.0
@@ -1756,7 +1996,11 @@ msgstr "Allons voir où vous pouvez gérer toutes les dépenses de vos employés
 msgid "Let's go back to your expenses."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Retournons voir vos notes de frais."
+=======
+msgstr "Retournons voir vos dépenses."
+>>>>>>> upstream/18.0
 =======
 msgstr "Retournons voir vos dépenses."
 >>>>>>> upstream/18.0
@@ -1797,7 +2041,11 @@ msgstr ""
 msgid "Managers can inspect all expenses from here."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Les managers peuvent examiner toutes les notes de frais d'ici."
+=======
+msgstr "Les managers peuvent examiner toutes les dépenses d'ici."
+>>>>>>> upstream/18.0
 =======
 msgstr "Les managers peuvent examiner toutes les dépenses d'ici."
 >>>>>>> upstream/18.0
@@ -1851,7 +2099,11 @@ msgstr "Échéance de mon activité"
 msgid "My Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mes notes de frais"
+=======
+msgstr "Mes dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mes dépenses"
 >>>>>>> upstream/18.0
@@ -1890,7 +2142,11 @@ msgstr "Nouveau"
 msgid "New Expense Report, paid by %(paid_by)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nouvelle note de frais, payée par %(paid_by)s"
+=======
+msgstr "Nouvelle dépense, payée par %(paid_by)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nouvelle dépense, payée par %(paid_by)s"
 >>>>>>> upstream/18.0
@@ -1904,7 +2160,11 @@ msgstr "Nouvelle dépense, payée par %(paid_by)s"
 msgid "New Expense Reports"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nouveaux rapports de notes de frais"
+=======
+msgstr "Nouveaux rapports de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nouveaux rapports de dépenses"
 >>>>>>> upstream/18.0
@@ -1958,7 +2218,11 @@ msgstr "Aucune catégorie de dépenses trouvée. Créons-en un !"
 msgid "No expense report found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aucun rapport de notes de frais trouvé. Créons-en un !"
+=======
+msgstr "Aucun rapport de dépenses trouvé. Créons-en un !"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aucun rapport de dépenses trouvé. Créons-en un !"
 >>>>>>> upstream/18.0
@@ -1971,7 +2235,11 @@ msgstr "Aucun rapport de dépenses trouvé. Créons-en un !"
 msgid "No expense reports found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aucun rapport de notes de frais trouvé. Créons-en un !"
+=======
+msgstr "Aucun rapport de dépenses trouvé. Créons-en un !"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aucun rapport de dépenses trouvé. Créons-en un !"
 >>>>>>> upstream/18.0
@@ -2018,7 +2286,11 @@ msgstr "Nombre de pièces jointes"
 msgid "Number of Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nombre de notes de frais"
+=======
+msgstr "Nombre de dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de dépenses"
 >>>>>>> upstream/18.0
@@ -2070,8 +2342,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Après avoir créé une note de frais, soumettez-la pour validation à votre "
 "manager."
+=======
+"Après avoir créé une dépense, soumettez-la pour validation à votre manager."
+>>>>>>> upstream/18.0
 =======
 "Après avoir créé une dépense, soumettez-la pour validation à votre manager."
 >>>>>>> upstream/18.0
@@ -2088,8 +2364,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dès que votre <b>rapport de notes de frais</b> est prêt, vous pouvez le "
 "soumettre à votre manager et attendre sa validation."
+=======
+"Dès que votre <b>rapport de dépenses</b> est prêt, vous pouvez le soumettre "
+"à votre manager et attendre sa validation."
+>>>>>>> upstream/18.0
 =======
 "Dès que votre <b>rapport de dépenses</b> est prêt, vous pouvez le soumettre "
 "à votre manager et attendre sa validation."
@@ -2170,8 +2451,12 @@ msgstr "Paiement créé pour : %s"
 msgid "Payment method allowed for expenses paid by company."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Mode de paiement autorisé pour les notes de frais payées par la société."
+=======
+msgstr "Mode de paiement autorisé pour les dépenses payées par la société."
+>>>>>>> upstream/18.0
 =======
 msgstr "Mode de paiement autorisé pour les dépenses payées par la société."
 >>>>>>> upstream/18.0
@@ -2190,8 +2475,12 @@ msgstr "Modes de paiement"
 msgid "Payment methods available for expenses paid by company"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Modes de paiement disponibles pour les notes de frais payées par la société"
+=======
+msgstr "Modes de paiement disponibles pour les dépenses payées par la société"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modes de paiement disponibles pour les dépenses payées par la société"
 >>>>>>> upstream/18.0
@@ -2217,8 +2506,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Veuillez indiquer un journal des notes de frais afin de générer des "
 "écritures comptables."
+=======
+"Veuillez indiquer un journal des dépenses afin de générer des écritures "
+"comptables."
+>>>>>>> upstream/18.0
 =======
 "Veuillez indiquer un journal des dépenses afin de générer des écritures "
 "comptables."
@@ -2358,7 +2652,11 @@ msgstr "Refuser"
 msgid "Refuse Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Refuser la note de frais"
+=======
+msgstr "Refuser la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Refuser la dépense"
 >>>>>>> upstream/18.0
@@ -2380,7 +2678,11 @@ msgstr "Refusée"
 msgid "Refused Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais refusées"
+=======
+msgstr "Dépenses refusées"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses refusées"
 >>>>>>> upstream/18.0
@@ -2393,7 +2695,11 @@ msgstr "Dépenses refusées"
 msgid "Reimburse Expenses in Payslip"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rembourser les notes de frais sur la fiche de paie"
+=======
+msgstr "Rembourser les dépenses sur la fiche de paie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rembourser les dépenses sur la fiche de paie"
 >>>>>>> upstream/18.0
@@ -2454,7 +2760,11 @@ msgstr "Prix de vente"
 msgid "Same Receipt Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Note de frais avec le même justificatif"
+=======
+msgstr "Dépense avec le même justificatif"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépense avec le même justificatif"
 >>>>>>> upstream/18.0
@@ -2484,7 +2794,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sélectionnez l'utilisateur responsable de la validation des \"Notes de frais\" de cet employé.\n"
+=======
+"Sélectionnez l'utilisateur responsable de la validation des \"Dépenses\" de cet employé.\n"
+>>>>>>> upstream/18.0
 =======
 "Sélectionnez l'utilisateur responsable de la validation des \"Dépenses\" de cet employé.\n"
 >>>>>>> upstream/18.0
@@ -2510,6 +2824,7 @@ msgstr ""
 "Envoyez un e-mail à cet alias avec le reçu en pièce jointe pour créer une "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "note de frais en un clic. Si le premier mot de l'objet du courrier contient "
 "la référence interne de la catégorie ou le nom de la catégorie, la catégorie"
 " correspondante sera automatiquement définie. Tapez le montant de la dépense"
@@ -2517,11 +2832,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "dépense en un clic. Si le premier mot de l'objet du courrier contient la "
 "référence interne de la catégorie ou le nom de la catégorie, la catégorie "
 "correspondante sera automatiquement définie. Tapez le montant de la dépense "
 "dans l'objet du courrier pour le définir également sur la dépense."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2531,7 +2851,11 @@ msgstr ""
 msgid "Send bills to OCR to generate expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Envoyer des factures à l'OCR pour générer des notes de frais"
+=======
+msgstr "Envoyer des factures à l'OCR pour générer des dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envoyer des factures à l'OCR pour générer des dépenses"
 >>>>>>> upstream/18.0
@@ -2584,7 +2908,11 @@ msgstr ""
 msgid "Specify whether the product can be selected in an expense."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Indiquez si le produit peut être sélectionné dans une note de frais."
+=======
+msgstr "Indiquez si le produit peut être sélectionné dans une dépense."
+>>>>>>> upstream/18.0
 =======
 msgstr "Indiquez si le produit peut être sélectionné dans une dépense."
 >>>>>>> upstream/18.0
@@ -2598,7 +2926,11 @@ msgstr "Indiquez si le produit peut être sélectionné dans une dépense."
 msgid "Split Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fractionner la note de frais"
+=======
+msgstr "Fractionner la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fractionner la dépense"
 >>>>>>> upstream/18.0
@@ -2612,7 +2944,11 @@ msgstr "Fractionner la dépense"
 msgid "Split Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fractionner les notes de frais"
+=======
+msgstr "Fractionner les dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fractionner les dépenses"
 >>>>>>> upstream/18.0
@@ -2751,8 +3087,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le journal de l'entreprise utilisé par défaut pour les notes de frais payées"
 " par un employé."
+=======
+"Le journal de l'entreprise utilisé par défaut pour les dépenses payées par "
+"un employé."
+>>>>>>> upstream/18.0
 =======
 "Le journal de l'entreprise utilisé par défaut pour les dépenses payées par "
 "un employé."
@@ -2777,8 +3118,12 @@ msgstr ""
 "Le premier mot de l'objet de l'e-mail ne correspond à aucun code de "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "catégorie. Vous devrez définir la catégorie manuellement sur la note de "
 "frais."
+=======
+"catégorie. Vous devrez définir la catégorie manuellement sur la dépense."
+>>>>>>> upstream/18.0
 =======
 "catégorie. Vous devrez définir la catégorie manuellement sur la dépense."
 >>>>>>> upstream/18.0
@@ -2795,7 +3140,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Les notes de frais approuvées suivantes ont un employé, un montant et une "
+=======
+"Les dépenses approuvées suivantes ont un employé, un montant et une "
+>>>>>>> upstream/18.0
 =======
 "Les dépenses approuvées suivantes ont un employé, un montant et une "
 >>>>>>> upstream/18.0
@@ -2810,7 +3159,11 @@ msgstr ""
 msgid "The journal must be set on posted expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le journal doit être défini sur une note de frais comptabilisée"
+=======
+msgstr "Le journal doit être défini sur une dépense comptabilisée"
+>>>>>>> upstream/18.0
 =======
 msgstr "Le journal doit être défini sur une dépense comptabilisée"
 >>>>>>> upstream/18.0
@@ -2823,7 +3176,11 @@ msgstr "Le journal doit être défini sur une dépense comptabilisée"
 msgid "The journal used when the expense is paid by employee."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le journal utilisé lorsque la note de frais est payée par l'employé."
+=======
+msgstr "Le journal utilisé lorsque la dépense est payée par l'employé."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le journal utilisé lorsque la dépense est payée par l'employé."
 >>>>>>> upstream/18.0
@@ -2837,8 +3194,12 @@ msgid "The payment method used when the expense is paid by the company."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le mode de paiement utilisé lorsque la note de frais est payée par la "
 "société."
+=======
+"Le mode de paiement utilisé lorsque la dépense est payée par la société."
+>>>>>>> upstream/18.0
 =======
 "Le mode de paiement utilisé lorsque la dépense est payée par la société."
 >>>>>>> upstream/18.0
@@ -2852,7 +3213,11 @@ msgstr ""
 msgid "The status of all your current expenses is visible from here."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le statut de toutes vos notes de frais actuelles est visible d'ici."
+=======
+msgstr "Le statut de toutes vos dépenses actuelles est visible d'ici."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le statut de toutes vos dépenses actuelles est visible d'ici."
 >>>>>>> upstream/18.0
@@ -2892,7 +3257,11 @@ msgstr ""
 msgid "There you go - expense management in a nutshell!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Voilà - la gestion des notes de frais en un mot !"
+=======
+msgstr "Voilà - la gestion des dépenses en un mot !"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voilà - la gestion des dépenses en un mot !"
 >>>>>>> upstream/18.0
@@ -2909,8 +3278,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cette note de frais est vide. Vous ne pouvez pas soumettre ou approuver une "
 "note de frais vide."
+=======
+"Cette dépense est vide. Vous ne pouvez pas soumettre ou approuver une "
+"dépense vide."
+>>>>>>> upstream/18.0
 =======
 "Cette dépense est vide. Vous ne pouvez pas soumettre ou approuver une "
 "dépense vide."
@@ -2992,7 +3366,11 @@ msgstr "Montant total hors taxes dans la devise"
 msgid "Total amount of the original Expense that we are splitting"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Montant total de la note de frais initiale que nous divisons"
+=======
+msgstr "Montant total de la dépense initiale que nous divisons"
+>>>>>>> upstream/18.0
 =======
 msgstr "Montant total de la dépense initiale que nous divisons"
 >>>>>>> upstream/18.0
@@ -3056,7 +3434,11 @@ msgstr "Charger"
 msgid "Upload or drop an expense receipt"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Télécharger ou déposer un justificatif de note de frais"
+=======
+msgstr "Télécharger ou déposer un justificatif de dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Télécharger ou déposer un justificatif de dépense"
 >>>>>>> upstream/18.0
@@ -3070,8 +3452,12 @@ msgstr "Télécharger ou déposer un justificatif de dépense"
 msgid "Use the breadcrumbs to go back to the list of expenses."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Utilisez le fil d'Ariane pour retourner à la liste des notes de frais."
+=======
+msgstr "Utilisez le fil d'Ariane pour retourner à la liste des dépenses."
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilisez le fil d'Ariane pour retourner à la liste des dépenses."
 >>>>>>> upstream/18.0
@@ -3089,7 +3475,11 @@ msgstr "Utilisateur"
 msgid "Validate Duplicate Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valider les notes de frais en double"
+=======
+msgstr "Valider les dépenses en double"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valider les dépenses en double"
 >>>>>>> upstream/18.0
@@ -3112,7 +3502,11 @@ msgstr "Voir les pièces jointes"
 msgid "View Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Voir la note de frais"
+=======
+msgstr "Voir la dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voir la dépense"
 >>>>>>> upstream/18.0
@@ -3174,7 +3568,11 @@ msgstr "Assistant"
 msgid "You are not authorized to edit this expense report."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous n'êtes pas autorisé à modifier ce rapport de notes de frais."
+=======
+msgstr "Vous n'êtes pas autorisé à modifier ce rapport de dépenses."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous n'êtes pas autorisé à modifier ce rapport de dépenses."
 >>>>>>> upstream/18.0
@@ -3188,7 +3586,11 @@ msgstr "Vous n'êtes pas autorisé à modifier ce rapport de dépenses."
 msgid "You are not authorized to edit this expense."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous n'êtes pas autorisé à modifier cette note de frais."
+=======
+msgstr "Vous n'êtes pas autorisé à modifier cette dépense."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous n'êtes pas autorisé à modifier cette dépense."
 >>>>>>> upstream/18.0
@@ -3215,7 +3617,11 @@ msgid "You can only generate an accounting entry for approved expense(s)."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seules les notes de frais approuvées peuvent faire l'objet d'une écriture "
+=======
+"Seules les dépenses approuvées peuvent faire l'objet d'une écriture "
+>>>>>>> upstream/18.0
 =======
 "Seules les dépenses approuvées peuvent faire l'objet d'une écriture "
 >>>>>>> upstream/18.0
@@ -3230,7 +3636,11 @@ msgstr ""
 msgid "You cannot add expenses of another employee."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous ne pouvez pas ajouter des notes de frais pour un autre employé."
+=======
+msgstr "Vous ne pouvez pas ajouter des dépenses pour un autre employé."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous ne pouvez pas ajouter des dépenses pour un autre employé."
 >>>>>>> upstream/18.0
@@ -3255,8 +3665,12 @@ msgid "You cannot cancel an expense sheet linked to a posted journal entry"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas annuler une note de frais liée à une pièce comptable "
 "publiée"
+=======
+"Vous ne pouvez pas annuler une dépense liée à une pièce comptable publiée"
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas annuler une dépense liée à une pièce comptable publiée"
 >>>>>>> upstream/18.0
@@ -3272,8 +3686,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Il est impossible de créer des écritures comptables pour une note de frais "
 "sans dépenses."
+=======
+"Il est impossible de créer des écritures comptables pour une dépense sans "
+"dépenses."
+>>>>>>> upstream/18.0
 =======
 "Il est impossible de créer des écritures comptables pour une dépense sans "
 "dépenses."
@@ -3289,8 +3708,12 @@ msgstr ""
 msgid "You cannot delete a posted or approved expense."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Vous ne pouvez pas supprimer une note de frais comptabilisée ou approuvée."
+=======
+msgstr "Vous ne pouvez pas supprimer une dépense comptabilisée ou approuvée."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous ne pouvez pas supprimer une dépense comptabilisée ou approuvée."
 >>>>>>> upstream/18.0
@@ -3304,8 +3727,12 @@ msgstr "Vous ne pouvez pas supprimer une dépense comptabilisée ou approuvée."
 msgid "You cannot delete a posted or paid expense."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Vous ne pouvez pas supprimer une note de frais comptabilisée ou payée."
+=======
+msgstr "Vous ne pouvez pas supprimer une dépense comptabilisée ou payée."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous ne pouvez pas supprimer une dépense comptabilisée ou payée."
 >>>>>>> upstream/18.0
@@ -3320,8 +3747,12 @@ msgid "You cannot delete an analytic account that is used in an expense."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas supprimer un compte analytique utilisé dans une note de "
 "frais."
+=======
+"Vous ne pouvez pas supprimer un compte analytique utilisé dans une dépense."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas supprimer un compte analytique utilisé dans une dépense."
 >>>>>>> upstream/18.0
@@ -3338,8 +3769,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas supprimer certaines entrées liées à un rapport de note de"
 " frais. Toutes les entrées doivent être supprimées en même temps."
+=======
+"Vous ne pouvez pas supprimer certaines entrées liées à un rapport de "
+"dépense. Toutes les entrées doivent être supprimées en même temps."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas supprimer certaines entrées liées à un rapport de "
 "dépense. Toutes les entrées doivent être supprimées en même temps."
@@ -3358,8 +3794,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas supprimer certains paiements liés à un rapport de note de"
 " frais. Tous les paiements doivent être supprimés en même temps."
+=======
+"Vous ne pouvez pas supprimer certains paiements liés à un rapport de "
+"dépense. Tous les paiements doivent être supprimés en même temps."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas supprimer certains paiements liés à un rapport de "
 "dépense. Tous les paiements doivent être supprimés en même temps."
@@ -3379,7 +3820,11 @@ msgstr ""
 "Vous ne pouvez pas effectuer cette modification, puisque le paiement est lié"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " à une note de frais."
+=======
+" à une dépense."
+>>>>>>> upstream/18.0
 =======
 " à une dépense."
 >>>>>>> upstream/18.0
@@ -3406,8 +3851,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas supprimer toutes les dépenses d'une note de frais "
 "introduite, approuvée ou payée."
+=======
+"Vous ne pouvez pas supprimer toutes les dépenses d'une dépense introduite, "
+"approuvée ou payée."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas supprimer toutes les dépenses d'une dépense introduite, "
 "approuvée ou payée."
@@ -3424,8 +3874,13 @@ msgid "You cannot report expenses for different companies in the same report."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas déclarer des notes de frais de différentes sociétés dans "
 "le même rapport."
+=======
+"Vous ne pouvez pas déclarer des dépenses de différentes sociétés dans le "
+"même rapport."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas déclarer des dépenses de différentes sociétés dans le "
 "même rapport."
@@ -3442,8 +3897,13 @@ msgid "You cannot report expenses for different employees in the same report."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas déclarer les notes de frais de différents employés dans "
 "le même rapport."
+=======
+"Vous ne pouvez pas déclarer les dépenses de différents employés dans le même"
+" rapport."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas déclarer les dépenses de différents employés dans le même"
 " rapport."
@@ -3459,7 +3919,11 @@ msgstr ""
 msgid "You cannot report the expenses without amount!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous ne pouvez pas déclarer les notes de frais sans montant !"
+=======
+msgstr "Vous ne pouvez pas déclarer les dépenses sans montant !"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous ne pouvez pas déclarer les dépenses sans montant !"
 >>>>>>> upstream/18.0
@@ -3500,8 +3964,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous n'avez pas le droit d'ajouter ou de supprimer des dépenses sur une note"
 " de frais approuvée ou payée."
+=======
+"Vous n'avez pas le droit d'ajouter ou de supprimer des dépenses sur une "
+"dépense approuvée ou payée."
+>>>>>>> upstream/18.0
 =======
 "Vous n'avez pas le droit d'ajouter ou de supprimer des dépenses sur une "
 "dépense approuvée ou payée."
@@ -3517,7 +3986,11 @@ msgstr ""
 msgid "You have no expense to report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous n'avez pas de note de frais à déclarer"
+=======
+msgstr "Vous n'avez pas de dépense à déclarer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous n'avez pas de dépense à déclarer"
 >>>>>>> upstream/18.0
@@ -3540,8 +4013,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous devez avoir au moins une catégorie qui peut être passée en notes de "
 "frais dans votre base de données pour continuer !"
+=======
+"Vous devez avoir au moins une catégorie qui peut être passée en dépenses "
+"dans votre base de données pour continuer !"
+>>>>>>> upstream/18.0
 =======
 "Vous devez avoir au moins une catégorie qui peut être passée en dépenses "
 "dans votre base de données pour continuer !"
@@ -3556,7 +4034,11 @@ msgstr ""
 msgid "Your Expense Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Votre note de frais"
+=======
+msgstr "Votre dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "Votre dépense"
 >>>>>>> upstream/18.0
@@ -3569,7 +4051,11 @@ msgstr "Votre dépense"
 msgid "Your expense has been successfully registered."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Votre note de frais a été enregistrée avec succès."
+=======
+msgstr "Votre dépense a été enregistrée avec succès."
+>>>>>>> upstream/18.0
 =======
 msgstr "Votre dépense a été enregistrée avec succès."
 >>>>>>> upstream/18.0
@@ -3612,7 +4098,11 @@ msgstr "par ex. mycompany.com"
 msgid "expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "note de frais"
+=======
+msgstr "dépense"
+>>>>>>> upstream/18.0
 =======
 msgstr "dépense"
 >>>>>>> upstream/18.0

@@ -1642,8 +1642,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if final:
             if moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0):
+=======
+        if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
+            with self.env.protecting([moves._fields['team_id']], moves_to_switch):
+>>>>>>> upstream/18.0
 =======
         if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
             with self.env.protecting([moves._fields['team_id']], moves_to_switch):
