@@ -641,6 +641,12 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -725,7 +731,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -746,6 +755,9 @@ class _Nested:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

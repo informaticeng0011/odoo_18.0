@@ -542,8 +542,13 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_a = self._create_product(name="Horse-meat burger")
         product_b = self._create_product(name="French fries")
+=======
+        product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
+        product_b = self._create_product(name="French fries", invoice_policy='delivery')
+>>>>>>> upstream/18.0
 =======
         product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
         product_b = self._create_product(name="French fries", invoice_policy='delivery')
@@ -628,7 +633,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -663,6 +671,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1396,7 +1407,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1459,6 +1473,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

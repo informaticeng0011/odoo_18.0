@@ -39,7 +39,10 @@ class TestEdiZatca(TestSaEdiCommon):
             self.skipTest("Sale module is not installed")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         def test_generated_file(move, test_file, xpath_to_apply):
             move.with_context(skip_readonly_check=True).write({
                 'invoice_date': '2022-09-05',
@@ -58,6 +61,9 @@ class TestEdiZatca(TestSaEdiCommon):
 
             self.assertXmlTreeEqual(current_tree, expected_tree)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         with freeze_time(datetime(year=2022, month=9, day=5, hour=8, minute=20, second=2, tzinfo=timezone('Etc/GMT-3'))):
             self.partner_us.vat = 'US12345677'
@@ -97,6 +103,7 @@ class TestEdiZatca(TestSaEdiCommon):
                 (final, "final_invoice")
             ):
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.with_context(skip_readonly_check=True).write({
                     'invoice_date': '2022-09-05',
                     'invoice_date_due': '2022-09-22',
@@ -115,6 +122,8 @@ class TestEdiZatca(TestSaEdiCommon):
 
                 self.assertXmlTreeEqual(current_tree, expected_tree)
 =======
+=======
+>>>>>>> upstream/18.0
                 with self.subTest(move=move, test_file=test_file):
                     test_generated_file(move, test_file, self.invoice_applied_xpath)
 
@@ -134,6 +143,9 @@ class TestEdiZatca(TestSaEdiCommon):
                     })
                     refund_invoice = self.env['account.move'].browse(refund_invoice_wiz.reverse_moves()['res_id'])
                     test_generated_file(refund_invoice, test_file, self.credit_note_applied_xpath)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def testCreditNoteStandard(self):

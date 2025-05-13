@@ -53,7 +53,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ids = [r[0] for r in cr.fetchmany(100000)]
+=======
+            ids = [r[0] for r in cr.fetchmany(10000)]
+>>>>>>> upstream/18.0
 =======
             ids = [r[0] for r in cr.fetchmany(10000)]
 >>>>>>> upstream/18.0

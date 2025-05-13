@@ -661,6 +661,10 @@ class HolidaysAllocation(models.Model):
                     allocation.lastcall = today
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0

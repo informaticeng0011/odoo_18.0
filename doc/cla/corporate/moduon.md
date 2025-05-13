@@ -36,6 +36,10 @@ Emilio Pascual emilio@moduon.team https://github.com/emiliopascual
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+David Vidal david@moduon.team https://github.com/chienandalu
+>>>>>>> upstream/18.0
 =======
 David Vidal david@moduon.team https://github.com/chienandalu
 >>>>>>> upstream/18.0

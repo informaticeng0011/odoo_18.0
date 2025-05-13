@@ -755,7 +755,11 @@ export const editorCommands = {
                 if (
                     font &&
                     (font.nodeName === "FONT" || (font.nodeName === "SPAN" && font.style[mode])) &&
+<<<<<<< HEAD
                     (isColorGradient(color) || !hasInlineGradient)
+=======
+                    (isColorGradient(color) || color === "" || !hasInlineGradient)
+>>>>>>> upstream/18.0
                 ) {
                     // Partially selected <font>: split it.
                     const selectedChildren = children.filter(child => selectedNodes.includes(child));
@@ -778,7 +782,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const closestGradientEl = closestElement(node, '[style*="background-image"]');
+=======
+                        const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
+>>>>>>> upstream/18.0
 =======
                         const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
 >>>>>>> upstream/18.0

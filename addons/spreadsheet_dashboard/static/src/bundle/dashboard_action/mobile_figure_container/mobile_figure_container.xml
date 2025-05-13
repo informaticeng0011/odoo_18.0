@@ -7,7 +7,11 @@
         <div
             t-foreach="figures" t-as="figure"
             t-key="figure.id"
+<<<<<<< HEAD
             t-attf-style="min-height: #{figure.height}px;"
+=======
+            t-attf-style="min-height: #{figure.height}px; direction: ltr;"
+>>>>>>> upstream/18.0
         >
             <t t-component="getFigureComponent(figure)" figure="figure" onFigureDeleted="() => {}"/>
         </div>

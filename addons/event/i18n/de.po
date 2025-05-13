@@ -106,7 +106,11 @@ msgid ""
 msgstr ""
 "'Veranstaltungsausweis - %s - %s' % ((object.event_id.name or "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
+=======
+"'Veranstaltung').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 =======
 "'Veranstaltung').replace('/',''), (object.name or '').replace('/',''))"
 >>>>>>> upstream/18.0

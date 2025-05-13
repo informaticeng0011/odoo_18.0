@@ -770,12 +770,26 @@ class MailMail(models.Model):
                     mail.write({'state': 'sent', 'message_id': res, 'failure_reason': False})
                     if not modules.module.current_test:
                         _logger.info(
+<<<<<<< HEAD
                             "Mail with ID %r and Message-Id %r from %r to (redacted) %r successfully sent",
                             mail.id,
                             mail.message_id,
                             tools.email_normalize(msg['from']),
                             tools.mail.email_anonymize(tools.email_normalize(msg['to']))
                         )
+=======
+                            "Mail (mail.mail) with ID %r and Message-Id %r from %r to (redacted) %s successfully sent",
+                            mail.id,
+                            mail.message_id,
+                            tools.email_normalize(msg['from']),  # FROM should not change, so last msg good enough
+                            ', '.join(
+                                repr(tools.mail.email_anonymize(tools.email_normalize(m['email_to'])))
+                                for m in email_list
+                            ),
+                        )
+                        _logger.info("Total emails tried by SMTP: %s", len(email_list))
+
+>>>>>>> upstream/18.0
                     # /!\ can't use mail.state here, as mail.refresh() will cause an error
                     # see revid:odo@openerp.com-20120622152536-42b2s28lvdv3odyr in 6.1
                 mail._postprocess_sent_message(success_pids=success_pids, failure_type=failure_type)

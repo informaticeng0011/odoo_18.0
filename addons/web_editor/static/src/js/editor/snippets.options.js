@@ -7931,6 +7931,12 @@ registry.ImageTools = ImageHandlerOption.extend({
         this.trigger_up('snippet_edition_request', {exec: async () => {
             await this._autoOptimizeImage();
             this.trigger_up('cover_update');
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
         }});
     },
     /**

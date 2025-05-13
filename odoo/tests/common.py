@@ -57,6 +57,10 @@ from contextlib import contextmanager, ExitStack
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from copy import deepcopy
+>>>>>>> upstream/18.0
 =======
 from copy import deepcopy
 >>>>>>> upstream/18.0
@@ -170,7 +174,11 @@ from odoo.service import security
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.sql_db import BaseCursor, Cursor
+=======
+from odoo.sql_db import BaseCursor, Cursor, TestCursor
+>>>>>>> upstream/18.0
 =======
 from odoo.sql_db import BaseCursor, Cursor, TestCursor
 >>>>>>> upstream/18.0
@@ -475,7 +483,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -537,6 +548,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1044,6 +1058,7 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         def reset_http_key():
             self.http_request_key = None
@@ -1057,6 +1072,8 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
         request = odoo.http.request
         if not request:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1131,6 +1148,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1197,7 +1217,10 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1262,6 +1285,9 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1328,7 +1354,11 @@ class BaseCase(case.TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error(
+=======
+            _logger.runbot(
+>>>>>>> upstream/18.0
 =======
             _logger.runbot(
 >>>>>>> upstream/18.0
@@ -1542,7 +1572,12 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info('Simulating signal changes during tests')
+=======
+            if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
+                _logger.info('Simulating signal changes during tests')
+>>>>>>> upstream/18.0
 =======
             if cls.registry.registry_invalidated or cls.registry.cache_invalidated:
                 _logger.info('Simulating signal changes during tests')
@@ -1625,7 +1660,10 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1670,6 +1708,9 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1767,7 +1808,11 @@ class TransactionCase(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(_reset, callback, deque(callback._funcs), dict(callback.data))
+=======
+            self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
+>>>>>>> upstream/18.0
 =======
             self.addCleanup(_reset, callback, deque(callback._funcs), deepcopy(callback.data))
 >>>>>>> upstream/18.0
@@ -1974,6 +2019,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'Fetch.requestPaused': self._handle_request_paused,
+>>>>>>> upstream/18.0
 =======
             'Fetch.requestPaused': self._handle_request_paused,
 >>>>>>> upstream/18.0
@@ -2043,6 +2092,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._websocket_request('Fetch.enable')
+>>>>>>> upstream/18.0
 =======
         self._websocket_request('Fetch.enable')
 >>>>>>> upstream/18.0
@@ -2154,7 +2207,11 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._websocket_send('Browser.close')
+=======
+            self._websocket_request('Browser.close')
+>>>>>>> upstream/18.0
 =======
             self._websocket_request('Browser.close')
 >>>>>>> upstream/18.0
@@ -2240,6 +2297,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.chrome.wait(15)
+>>>>>>> upstream/18.0
 =======
             self.chrome.wait(15)
 >>>>>>> upstream/18.0
@@ -2572,7 +2633,10 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2624,6 +2688,9 @@ class ChromeBrowser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3105,8 +3172,11 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().request(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3172,6 +3242,9 @@ class Transport(xmlrpclib.Transport):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3284,6 +3357,12 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
+        # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
+        self.addCleanup(self._wait_remaining_requests)
+>>>>>>> upstream/18.0
 =======
         # some test like test_webhook_send_and_receive may have a request that timeout, is not waited and causes errors in following tests.
         # this shouldn't be possible in master thanks to the global lock but lets wait for remaining requests in all cases in stable.
@@ -3518,7 +3597,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3587,6 +3669,9 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3651,7 +3736,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param error_checker: function to filter failures out. 
+=======
+        :param error_checker: function to filter failures out.
+>>>>>>> upstream/18.0
 =======
         :param error_checker: function to filter failures out.
 >>>>>>> upstream/18.0
@@ -3752,7 +3841,11 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour. 
+=======
+        :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
+>>>>>>> upstream/18.0
 =======
         :param bool debug: automatically open a fullscreen Chrome window with opened devtools and a debugger breakpoint set at the start of the tour.
 >>>>>>> upstream/18.0
@@ -3865,6 +3958,10 @@ class HttpCase(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self.http_request_strict_check = True
+>>>>>>> upstream/18.0
 =======
             self.http_request_strict_check = True
 >>>>>>> upstream/18.0

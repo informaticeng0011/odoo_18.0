@@ -317,10 +317,13 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.network.loading = false;
     }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -378,6 +381,7 @@ export class PosData extends Reactive {
             order.lines.some((line) => line.is_reward_line && !line.coupon_id)
         );
         for (const order of order_to_delete) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,6 +458,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = order.lines.length - 1; i >= 0; i--) {
                 order.lines[i].delete();
             }
@@ -466,6 +472,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,6 +41,10 @@ class kioskAttendanceApp extends Component{
         this.barcode = useService("barcode");
         this.notification = useService("notification");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
 =======
         this.ui = useService("ui");
 >>>>>>> upstream/18.0
@@ -197,6 +201,7 @@ class kioskAttendanceApp extends Component{
         }
         this.lockScanner = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         const result = await rpc('attendance_barcode_scanned',
             {
                 'barcode': barcode,
@@ -210,6 +215,8 @@ class kioskAttendanceApp extends Component{
         }
         this.lockScanner = false
 =======
+=======
+>>>>>>> upstream/18.0
         this.ui.block();
 
         let result;
@@ -233,6 +240,9 @@ class kioskAttendanceApp extends Component{
             this.lockScanner = false;
             this.ui.unblock();
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

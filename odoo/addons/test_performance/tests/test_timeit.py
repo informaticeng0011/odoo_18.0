@@ -1,4 +1,8 @@
 import logging
+<<<<<<< HEAD
+=======
+import time
+>>>>>>> upstream/18.0
 import timeit
 from typing import Literal
 
@@ -81,8 +85,18 @@ class TestPerformanceTimeit(TransactionCase):
         """
         assert repeat > 1, "repeat at least twice as the first result is often slower"
         assert number > 0, "number of runs must be positive"
+<<<<<<< HEAD
         times = timeit.repeat(code, globals={**ctx, 'records': records}, repeat=repeat, number=number)
         best_mean = min(times) / number * 1_000_000
+=======
+        args = dict(globals={**ctx, 'records': records}, repeat=repeat, number=number, timer=time.process_time_ns)
+        times = timeit.repeat(code, **args)
+        if min(times) == 0:
+            _logger.info("  retry with default timer, result is too small")
+            args['timer'] = time.perf_counter_ns
+            times = timeit.repeat(code, **args)
+        best_mean = min(times) / number / 1000
+>>>>>>> upstream/18.0
         if relative_size != 1:
             _logger.info("  `%s` takes %.3fµs (%.3fµs/%d)", code, best_mean / relative_size, best_mean, relative_size)
         else:
@@ -114,7 +128,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         check_type: Literal['linear', 'maybe-linear', None] = 'linear',
+=======
+        check_type: Literal['linear', 'maybe-linear'] | None = 'linear',
+>>>>>>> upstream/18.0
 =======
         check_type: Literal['linear', 'maybe-linear'] | None = 'linear',
 >>>>>>> upstream/18.0
@@ -257,7 +275,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.launch_perf_set("records.child_ids", record_list=record_list)
+=======
+        self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.child_ids", record_list=record_list, check_type='maybe-linear')
 >>>>>>> upstream/18.0
@@ -346,7 +368,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.launch_perf_set("records.exists()")
+=======
+        self.launch_perf_set("records.exists()", check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
         self.launch_perf_set("records.exists()", check_type='maybe-linear')
 >>>>>>> upstream/18.0
@@ -441,7 +467,11 @@ class TestPerformanceTimeit(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2)
+=======
+            self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2, check_type='maybe-linear')
+>>>>>>> upstream/18.0
 =======
             self.launch_perf_set(f"records.filtered_domain({domain!r})", repeat=2, check_type='maybe-linear')
 >>>>>>> upstream/18.0

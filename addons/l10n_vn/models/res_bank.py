@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+
+>>>>>>> upstream/18.0
 =======
 import re
 
@@ -59,7 +64,12 @@ class ResPartnerBank(models.Model):
         if self.country_code == 'VN':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return self._serialize(8, comment)
+=======
+            # The first check is too permissive for VietQR.
+            return self._serialize(8, re.sub(r"[^a-zA-Z0-9 _\\\-.]+", "", comment))
+>>>>>>> upstream/18.0
 =======
             # The first check is too permissive for VietQR.
             return self._serialize(8, re.sub(r"[^a-zA-Z0-9 _\\\-.]+", "", comment))

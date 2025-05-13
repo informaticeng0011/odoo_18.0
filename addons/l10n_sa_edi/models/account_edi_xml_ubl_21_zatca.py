@@ -376,7 +376,11 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
         """
         if not line.move_id._is_downpayment() and line.sale_line_ids and all(sale_line.is_downpayment for sale_line in line.sale_line_ids):
 <<<<<<< HEAD
+<<<<<<< HEAD
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m._is_downpayment())
+=======
+            prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
+>>>>>>> upstream/18.0
 =======
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
 >>>>>>> upstream/18.0

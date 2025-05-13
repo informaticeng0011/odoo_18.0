@@ -64,6 +64,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    htmlEscape,
+>>>>>>> upstream/18.0
 =======
     htmlEscape,
 >>>>>>> upstream/18.0
@@ -1865,13 +1869,51 @@ export class Wysiwyg extends Component {
      * @param {Object} params binded @see openMediaDialog
      * @param {Element} element provided by the dialog
      */
+<<<<<<< HEAD
     _onMediaDialogSave(params, element) {
+=======
+    async _onMediaDialogSave(params, element) {
+>>>>>>> upstream/18.0
         params.restoreSelection();
         if (!element) {
             return;
         }
 
+<<<<<<< HEAD
         if (params.node) {
+=======
+        const saveCallback = this.state.showSnippetsMenu
+            ? async element => {
+                const $element = $(element);
+                // Make sure the newly inserted media's options are built, note:
+                // also enable the overlay on edited existing media.
+                await new Promise(resolve => {
+                    this.snippetsMenuBus.trigger(
+                        params.node ? "ACTIVATE_SNIPPET" : "CALL_POST_SNIPPET_DROP",
+                        {
+                            $snippet: $element,
+                            onSuccess: resolve,
+                        },
+                    );
+                });
+                if (element.tagName !== 'IMG') {
+                    return;
+                }
+                return new Promise(resolve => {
+                    // TODO ideally would need 'snippet_edition_request' ? So
+                    // there could be a loading animation ?
+                    this.mutex.exec(() => {
+                        // TODO In master use a trigger parameter
+                        const event = $.Event("image_changed", {_complete: resolve});
+                        $element.trigger(event);
+                    });
+                });
+            }
+            : () => {};
+
+        if (params.node) {
+            this.odooEditor.historyPauseSteps();
+>>>>>>> upstream/18.0
             const changedIcon = isIconElement(params.node) && isIconElement(element);
             if (changedIcon) {
                 // Preserve tag name when changing an icon and not recreate the
@@ -1882,6 +1924,11 @@ export class Wysiwyg extends Component {
             } else {
                 params.node.replaceWith(element);
             }
+<<<<<<< HEAD
+=======
+            await saveCallback(element);
+            this.odooEditor.historyUnpauseSteps();
+>>>>>>> upstream/18.0
             this.odooEditor.unbreakableStepUnactive();
 
             if (params.node.matches(".oe_unremovable")) {
@@ -1902,11 +1949,20 @@ export class Wysiwyg extends Component {
             // Refocus again to save updates when calling `_onWysiwygBlur`
             this.odooEditor.editable.focus();
         } else {
+<<<<<<< HEAD
             const result = this.odooEditor.execCommand('insert', element);
+=======
+            this.odooEditor.historyPauseSteps();
+            const result = this.odooEditor.execCommand('insert', element);
+            await saveCallback(element);
+            this.odooEditor.historyUnpauseSteps();
+            this.odooEditor.historyStep();
+>>>>>>> upstream/18.0
             // Refocus again to save updates when calling `_onWysiwygBlur`
             this.odooEditor.editable.focus();
             return result;
         }
+<<<<<<< HEAD
 
         if (this.state.showSnippetsMenu) {
             this.snippetsMenuBus.trigger("ACTIVATE_SNIPPET", {
@@ -1918,6 +1974,8 @@ export class Wysiwyg extends Component {
                 }
             });
         }
+=======
+>>>>>>> upstream/18.0
     }
     getInSelection(selector) {
         return getInSelection(this.odooEditor.document, selector);
@@ -2554,7 +2612,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${_t(title)}">${emoji}</i>
+=======
+                        <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
+>>>>>>> upstream/18.0
 =======
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
 >>>>>>> upstream/18.0
@@ -2652,7 +2714,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2752,6 +2817,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2865,12 +2933,18 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const categories = [{ name: _t('Banners'), priority: 65 },];
         const commands = [
             this._getBannerCommand(_t('Banner Info'), '💡', 'info', 'fa-info-circle', _t('Insert an info banner'), 24),
             this._getBannerCommand(_t('Banner Success'), '✅', 'success', 'fa-check-circle', _t('Insert a success banner'), 23),
             this._getBannerCommand(_t('Banner Warning'), '⚠️', 'warning', 'fa-exclamation-triangle', _t('Insert a warning banner'), 22),
             this._getBannerCommand(_t('Banner Danger'), '❌', 'danger', 'fa-exclamation-circle', _t('Insert a danger banner'), 21),
+=======
+        const categories = [...this._getBannerCategory()];
+        const commands = [
+            ...this._getBannerCommands(),
+>>>>>>> upstream/18.0
 =======
         const categories = [...this._getBannerCategory()];
         const commands = [

@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  @version 18.0.22
  @date 2025-04-04T08:57:29.775Z
  @hash 89a327918
@@ -153,6 +154,11 @@
  @version 18.0.26
  @date 2025-05-02T12:51:54.542Z
  @hash 5bdf50484
+>>>>>>> upstream/18.0
+=======
+ @version 18.0.27
+ @date 2025-05-12T05:32:55.358Z
+ @hash 9b3634067
 >>>>>>> upstream/18.0
 -->
 <odoo>
@@ -562,7 +568,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               maxlength="7"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -714,6 +723,7 @@
           t-on-dblclick="onDblClick"
           t-on-contextmenu="onContextMenu"
           t-on-blur="onBlur"
+<<<<<<< HEAD
         />
       </div>
       <div
@@ -784,6 +794,13 @@
         class="o-composer-assistant-container shadow position-absolute z-1"
 >>>>>>> upstream/18.0
 =======
+        class="o-composer-assistant-container shadow position-absolute z-1"
+>>>>>>> upstream/18.0
+=======
+          t-on-wheel="onWheel"
+        />
+      </div>
+      <div
         class="o-composer-assistant-container shadow position-absolute z-1"
 >>>>>>> upstream/18.0
         t-att-style="assistantContainerStyle"
@@ -950,7 +967,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-grid o-two-columns" tabindex="-1" t-on-wheel="onMouseWheel">
+=======
+    <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
+>>>>>>> upstream/18.0
 =======
     <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
 >>>>>>> upstream/18.0
@@ -1629,7 +1650,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-row-resizer overflow-hidden"
+=======
+      class="o-row-resizer"
+>>>>>>> upstream/18.0
 =======
       class="o-row-resizer"
 >>>>>>> upstream/18.0
@@ -1697,6 +1722,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenRowsGroups(sheetId)"
@@ -1724,6 +1750,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1781,6 +1809,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1815,7 +1846,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-col-resizer overflow-hidden"
+=======
+      class="o-col-resizer d-flex"
+>>>>>>> upstream/18.0
 =======
       class="o-col-resizer d-flex"
 >>>>>>> upstream/18.0
@@ -1883,6 +1918,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenColsGroups(sheetId)"
@@ -1910,6 +1946,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1967,6 +2005,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5664,7 +5705,11 @@
   <t t-name="o-spreadsheet-PivotDimensionGranularity">
     <div class="d-flex flex-row">
       <div class="d-flex flex-row py-1 px-2 w-100 small">
+<<<<<<< HEAD
         <t t-set="granularity" t-value="props.dimension.granularity"/>
+=======
+        <t t-set="granularityProps" t-value="props.dimension.granularity || 'month'"/>
+>>>>>>> upstream/18.0
         <div class="pivot-dim-operator-label">Granularity</div>
         <select
           class="o-input flex-grow-1"
@@ -5673,10 +5718,17 @@
             t-foreach="props.allGranularities"
             t-as="granularity"
             t-key="granularity"
+<<<<<<< HEAD
             t-if="props.availableGranularities.has(granularity) || granularity === props.dimension.granularity"
             t-att-value="granularity"
             t-esc="periods[granularity]"
             t-att-selected="granularity === props.dimension.granularity or (granularity === 'month' and !props.dimension.granularity)"
+=======
+            t-if="props.availableGranularities.has(granularity) || granularity === granularityProps"
+            t-att-value="granularity"
+            t-esc="periods[granularity]"
+            t-att-selected="granularity === granularityProps or (granularity === 'month' and !granularityProps)"
+>>>>>>> upstream/18.0
           />
         </select>
       </div>
