@@ -21,6 +21,10 @@ def migrate(cr, version):
         query = f"""
         SELECT UNNEST(ARRAY_AGG(id))
           FROM {table}
+<<<<<<< HEAD
+=======
+         WHERE uuid IS NOT NULL
+>>>>>>> upstream/18.0
          GROUP BY uuid
         HAVING COUNT(*) > 1
         """
@@ -28,6 +32,7 @@ def migrate(cr, version):
             cr.execute(query)
             if not cr.rowcount:
                 break
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +141,12 @@ def migrate(cr, version):
             cr.execute(
                 f"UPDATE {table} SET uuid = (%s::json)->>(id::text) WHERE id IN %s",
                 [Json({id_: str(uuid.uuid4()) for id_ in ids}), tuple(ids)]
+=======
+            ids = tuple(r[0] for r in cr.fetchmany(10000))
+            cr.execute(
+                f"UPDATE {table} SET uuid = (%s::json)->>(id::text) WHERE id IN %s",
+                [Json({id_: str(uuid.uuid4()) for id_ in ids}), ids]
+>>>>>>> upstream/18.0
             )
 
     deduplicate_uuids("pos_order")

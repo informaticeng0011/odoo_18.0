@@ -515,7 +515,11 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'rate': 2,
+=======
+            'rate': 1.54639273,
+>>>>>>> upstream/18.0
 =======
             'rate': 1.54639273,
 >>>>>>> upstream/18.0

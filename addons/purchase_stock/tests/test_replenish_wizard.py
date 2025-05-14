@@ -475,7 +475,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
+=======
+        self.assertEqual(last_po_id.order_line.price_unit, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(last_po_id.order_line.price_unit, 0)
 >>>>>>> upstream/18.0

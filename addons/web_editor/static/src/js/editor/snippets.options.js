@@ -7932,6 +7932,12 @@ registry.ImageTools = ImageHandlerOption.extend({
             await this._autoOptimizeImage();
             this.trigger_up('cover_update');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();

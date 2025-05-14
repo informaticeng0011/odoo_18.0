@@ -261,7 +261,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.sendToClient(client, "update_state", this.state);
+=======
+            this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
             this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -355,7 +359,11 @@ export class WebsocketWorker {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.sendToClient(client, "update_state", this.state);
+=======
+        this.sendToClient(client, "worker_state_updated", this.state);
+>>>>>>> upstream/18.0
 =======
         this.sendToClient(client, "worker_state_updated", this.state);
 >>>>>>> upstream/18.0
@@ -540,6 +548,12 @@ export class WebsocketWorker {
         this.connectTimeout = null;
         this.isReconnecting = false;
         this.firstSubscribeDeferred.then(() => {
+<<<<<<< HEAD
+=======
+            if (!this.websocket) {
+                return;
+            }
+>>>>>>> upstream/18.0
             this.messageWaitQueue.forEach((msg) => this.websocket.send(msg));
             this.messageWaitQueue = [];
         });
@@ -624,8 +638,19 @@ export class WebsocketWorker {
         this.connectRetryDelay = this.INITIAL_RECONNECT_DELAY;
         this.isReconnecting = false;
         this.lastChannelSubscription = null;
+<<<<<<< HEAD
         this.websocket?.close();
         this._removeWebsocketListeners();
+=======
+        const shouldBroadcastClose =
+            this.websocket && this.websocket.readyState !== WebSocket.CLOSED;
+        this.websocket?.close();
+        this._removeWebsocketListeners();
+        this.websocket = null;
+        if (shouldBroadcastClose) {
+            this.broadcast("disconnect", { code: WEBSOCKET_CLOSE_CODES.CLEAN });
+        }
+>>>>>>> upstream/18.0
     }
 
     /**

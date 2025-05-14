@@ -83,6 +83,13 @@ function websiteEditEventTourSteps() {
             trigger: ":iframe a[title='Back to All Events']",
             run: "click",
         },
+<<<<<<< HEAD
+=======
+        {
+            content: "Wait for events list to load",
+            trigger: ":iframe .opt_events_list_columns",
+        },
+>>>>>>> upstream/18.0
         ...clickOnEditAndWaitEditMode(),
         {
             content: "edit the short description of the event",

@@ -40,7 +40,10 @@ class TestEdiZatca(TestSaEdiCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         def test_generated_file(move, test_file, xpath_to_apply):
@@ -62,6 +65,9 @@ class TestEdiZatca(TestSaEdiCommon):
             self.assertXmlTreeEqual(current_tree, expected_tree)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104,6 +110,7 @@ class TestEdiZatca(TestSaEdiCommon):
             ):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.with_context(skip_readonly_check=True).write({
                     'invoice_date': '2022-09-05',
                     'invoice_date_due': '2022-09-22',
@@ -122,6 +129,8 @@ class TestEdiZatca(TestSaEdiCommon):
 
                 self.assertXmlTreeEqual(current_tree, expected_tree)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 with self.subTest(move=move, test_file=test_file):
@@ -144,6 +153,9 @@ class TestEdiZatca(TestSaEdiCommon):
                     refund_invoice = self.env['account.move'].browse(refund_invoice_wiz.reverse_moves()['res_id'])
                     test_generated_file(refund_invoice, test_file, self.credit_note_applied_xpath)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

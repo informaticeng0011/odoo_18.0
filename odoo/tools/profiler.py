@@ -115,7 +115,10 @@ class Collector:
 
     def add(self, entry=None, frame=None):
         """ Add an entry (dict) to this collector. """
+<<<<<<< HEAD
         # todo add entry count limit
+=======
+>>>>>>> upstream/18.0
         self._entries.append({
             'stack': self._get_stack_trace(frame),
             'exec_context': getattr(self.profiler.init_thread, 'exec_context', ()),
@@ -123,6 +126,17 @@ class Collector:
             **(entry or {}),
         })
 
+<<<<<<< HEAD
+=======
+    def progress(self, entry=None, frame=None):
+        """ Checks if the limits were met and add to the entries"""
+        if self.profiler.entry_count_limit \
+            and self.profiler.entry_count() >= self.profiler.entry_count_limit:
+            self.profiler.end()
+
+        self.add(entry=entry, frame=frame)
+
+>>>>>>> upstream/18.0
     def _get_stack_trace(self, frame=None):
         """ Return the stack trace to be included in a given entry. """
         frame = frame or get_current_frame(self.profiler.init_thread)
@@ -161,7 +175,11 @@ class SQLCollector(Collector):
         self.profiler.init_thread.query_hooks.remove(self.hook)
 
     def hook(self, cr, query, params, query_start, query_time):
+<<<<<<< HEAD
         self.add({
+=======
+        self.progress({
+>>>>>>> upstream/18.0
             'query': str(query),
             'full_query': str(cr._format(query, params)),
             'start': query_start,
@@ -204,7 +222,11 @@ class PeriodicCollector(Collector):
                 # is incorrectly attributed to the last frame.
                 self._entries[-1]['stack'].append(('profiling', 0, '⚠ Profiler freezed for %s s' % duration, ''))
                 self.last_frame = None  # skip duplicate detection for the next frame.
+<<<<<<< HEAD
             self.add()
+=======
+            self.progress()
+>>>>>>> upstream/18.0
             last_time = real_time()
             time.sleep(self.frame_interval)
 
@@ -218,14 +240,22 @@ class PeriodicCollector(Collector):
         init_thread = self.profiler.init_thread
         if not hasattr(init_thread, 'profile_hooks'):
             init_thread.profile_hooks = []
+<<<<<<< HEAD
         init_thread.profile_hooks.append(self.add)
+=======
+        init_thread.profile_hooks.append(self.progress)
+>>>>>>> upstream/18.0
 
         self.__thread.start()
 
     def stop(self):
         self.active = False
         self.__thread.join()
+<<<<<<< HEAD
         self.profiler.init_thread.profile_hooks.remove(self.add)
+=======
+        self.profiler.init_thread.profile_hooks.remove(self.progress)
+>>>>>>> upstream/18.0
 
     def add(self, entry=None, frame=None):
         """ Add an entry (dict) to this collector. """
@@ -261,7 +291,11 @@ class SyncCollector(Collector):
         if event == 'call' and _frame.f_back:
             # we need the parent frame to determine the line number of the call
             entry['parent_frame'] = _format_frame(_frame.f_back)
+<<<<<<< HEAD
         self.add(entry, frame=_frame)
+=======
+        self.progress(entry, frame=_frame)
+>>>>>>> upstream/18.0
         return self.hook
 
     def _get_stack_trace(self, frame=None):
@@ -544,6 +578,11 @@ class Profiler:
         self.profile_id = None
         self.log = log
         self.sub_profilers = []
+<<<<<<< HEAD
+=======
+        self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
+        self.done = False
+>>>>>>> upstream/18.0
 
         if db is ...:
             # determine database from current thread
@@ -598,6 +637,15 @@ class Profiler:
         return self
 
     def __exit__(self, *args):
+<<<<<<< HEAD
+=======
+        self.end()
+
+    def end(self):
+        if self.done:
+            return
+        self.done = True
+>>>>>>> upstream/18.0
         try:
             for collector in self.collectors:
                 collector.stop()
@@ -642,6 +690,12 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -732,7 +786,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -756,6 +813,9 @@ class _Nested:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

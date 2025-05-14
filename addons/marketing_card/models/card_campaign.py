@@ -23,7 +23,11 @@ class CardCampaign(models.Model):
 
     name = fields.Char(required=True)
     active = fields.Boolean(default=True)
+<<<<<<< HEAD
     body_html = fields.Html(related='card_template_id.body', render_engine="qweb")
+=======
+    body_html = fields.Html(related='card_template_id.body', render_engine="qweb", readonly=False)
+>>>>>>> upstream/18.0
 
     card_count = fields.Integer(compute='_compute_card_stats')
     card_click_count = fields.Integer(compute='_compute_card_stats')
@@ -75,7 +79,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reward_message = fields.Html(string='Thanks to You Message')
+=======
+    reward_message = fields.Html(string='Thank You Message')
+>>>>>>> upstream/18.0
 =======
     reward_message = fields.Html(string='Thank You Message')
 >>>>>>> upstream/18.0
@@ -504,8 +512,13 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'image1': images[0] if (images := self.content_image1_path and record.mapped(self.content_image1_path)) else False,
             'image2': images[0] if (images := self.content_image2_path and record.mapped(self.content_image2_path)) else False,
+=======
+            'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
+            'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,
+>>>>>>> upstream/18.0
 =======
             'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
             'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,

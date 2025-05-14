@@ -51,6 +51,12 @@ export class IntegerField extends Component {
             !this.props.formatNumber ||
             (!this.props.readonly && this.props.inputType === "number")
         ) {
+<<<<<<< HEAD
+=======
+            if (this.value === false) {
+                return "";
+            }
+>>>>>>> upstream/18.0
             return this.value;
         }
         if (this.props.humanReadable && !this.state.hasFocus) {

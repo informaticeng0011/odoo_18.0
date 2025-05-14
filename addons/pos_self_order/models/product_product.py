@@ -45,7 +45,11 @@ class ProductProduct(models.Model):
     @api.model
     def _load_pos_self_data_fields(self, config_id):
         params = super()._load_pos_self_data_fields(config_id)
+<<<<<<< HEAD
         params += ['public_description']
+=======
+        params += ['public_description', 'list_price']
+>>>>>>> upstream/18.0
         return params
     
     @api.model
@@ -61,7 +65,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain = self._load_pos_data_domain(data)
+=======
+        domain = self._load_pos_self_data_domain(data)
+>>>>>>> upstream/18.0
 =======
         domain = self._load_pos_self_data_domain(data)
 >>>>>>> upstream/18.0
