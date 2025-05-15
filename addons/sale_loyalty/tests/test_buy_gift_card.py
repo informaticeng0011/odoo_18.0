@@ -86,7 +86,10 @@ class TestBuyGiftCard(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order._auto_apply_rewards()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150,7 +153,11 @@ class TestBuyGiftCard(TestSaleCouponCommon):
 
         # Confirm order as Public User to trigger loyalty mail
         public_user = self.env.ref('base.public_user')
+<<<<<<< HEAD
         orders.with_context({}).with_user(public_user).sudo().action_confirm()
+=======
+        orders.with_user(public_user).with_company(order.company_id).sudo().action_confirm()
+>>>>>>> upstream/18.0
 
         mails = self.env['mail.mail'].search([])
         self.assertEqual(len(mails), 2)

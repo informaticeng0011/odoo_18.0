@@ -277,7 +277,10 @@ test("value is formatted on click out (even if same value)", async () => {
     expect(".o_field_widget input").toHaveValue("8,069");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Value should not be a boolean when enable_formatting is false", async () => {
     onRpc("has_group", () => true);
@@ -294,4 +297,7 @@ test("Value should not be a boolean when enable_formatting is false", async () =
     await contains(`.o_list_button_add`).click();
     expect(".o_selected_row .o_field_integer").toHaveText("");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

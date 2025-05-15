@@ -29,26 +29,48 @@ const { DateTimeFormat, Locale } = Intl;
 /**
  * @param {Date} baseDate
  */
+<<<<<<< HEAD
 const computeTimeZoneOffset = (baseDate) => {
     const utcDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: "UTC" }));
     const tzDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: timeZoneName }));
     return (utcDate - tzDate) / 60_000; // in minutes
 };
+=======
+function computeTimeZoneOffset(baseDate) {
+    const utcDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: "UTC" }));
+    const tzDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: timeZoneName }));
+    return (utcDate - tzDate) / 60000; // in minutes
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {number} id
  */
+<<<<<<< HEAD
 const getDateParams = () => [
     ...dateParams.slice(0, -1),
     dateParams.at(-1) + getTimeStampDiff() + getTimeOffset(),
 ];
 
 const getTimeStampDiff = () => (isTimeFrozen() ? 0 : $now() - dateTimeStamp);
+=======
+function getDateParams() {
+    return [...dateParams.slice(0, -1), dateParams.at(-1) + getTimeStampDiff() + getTimeOffset()];
+}
+
+function getTimeStampDiff() {
+    return isTimeFrozen() ? 0 : $now() - dateTimeStamp;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string | DateSpecs} dateSpecs
  */
+<<<<<<< HEAD
 const parseDateParams = (dateSpecs) => {
+=======
+function parseDateParams(dateSpecs) {
+>>>>>>> upstream/18.0
     /** @type {DateSpecs} */
     const specs =
         (typeof dateSpecs === "string" ? dateSpecs.match(DATE_REGEX)?.groups : dateSpecs) || {};
@@ -61,22 +83,38 @@ const parseDateParams = (dateSpecs) => {
         specs.second ?? DEFAULT_DATE[5],
         specs.millisecond ?? DEFAULT_DATE[6],
     ].map(Number);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {typeof dateParams} newDateParams
  */
+<<<<<<< HEAD
 const setDateParams = (newDateParams) => {
+=======
+function setDateParams(newDateParams) {
+>>>>>>> upstream/18.0
     dateParams = newDateParams;
     dateTimeStamp = $now();
 
     resetTimeOffset();
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string | number | null | undefined} tz
  */
+<<<<<<< HEAD
 const setTimeZone = (tz) => {
+=======
+function setTimeZone(tz) {
+>>>>>>> upstream/18.0
     if (typeof tz === "string") {
         if (!tz.includes("/")) {
             throw new HootError(`invalid time zone: must be in the format <Country/...Location>`);
@@ -98,7 +136,11 @@ const setTimeZone = (tz) => {
     for (const callback of timeZoneChangeCallbacks) {
         callback(tz ?? DEFAULT_TIMEZONE_NAME);
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 class MockDateTimeFormat extends DateTimeFormat {
     constructor(locales, options) {

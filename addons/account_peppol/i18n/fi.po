@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
 =======
 >>>>>>> upstream/18.0
@@ -68,11 +69,19 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
+# Jessica Jakara, 2025
+# Wil Odoo, 2025
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +127,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,7 +157,11 @@ msgid " (Customer not on Peppol)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Asiakas ei ole Peppolissa)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Asiakas ei ole Peppolissa)"
 >>>>>>> upstream/18.0
@@ -196,7 +214,11 @@ msgid " (Demo)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Demo)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Demo)"
 >>>>>>> upstream/18.0
@@ -222,7 +244,11 @@ msgid " (Test)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Testi)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Testi)"
 >>>>>>> upstream/18.0
@@ -248,7 +274,11 @@ msgid " (no VAT)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ei ALV:ia)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (ei ALV:ia)"
 >>>>>>> upstream/18.0
@@ -652,7 +682,10 @@ msgstr "Virhe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +704,9 @@ msgstr "EDI-asiakirjan luomisessa tapahtui virheitä (muoto: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -933,6 +969,7 @@ msgid "Partner doesn't have a valid Peppol configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Kumppanilla ei ole voimassa olevaa Peppol-kokoonpanoa."
@@ -951,6 +988,9 @@ msgstr "Kumppanilla ei ole voimassa olevaa Peppol-kokoonpanoa."
 >>>>>>> upstream/18.0
 =======
 msgstr "Kumppanilla ei ole voimassa olevaa Peppol-kokoonpanoa."
+>>>>>>> upstream/18.0
+=======
+msgstr "Kumppanilla ei ole voimassa olevaa Peppol-konfiguraatiota."
 >>>>>>> upstream/18.0
 =======
 msgstr "Kumppanilla ei ole voimassa olevaa Peppol-konfiguraatiota."
@@ -996,6 +1036,7 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1022,6 +1063,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
+msgid "Peppol ID"
+msgstr "Peppol ID"
+
+#. module: account_peppol
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"

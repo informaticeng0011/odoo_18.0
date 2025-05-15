@@ -49,7 +49,11 @@ const {
  * @param {EventTarget} target
  * @param {CloseEventInit} eventInit
  */
+<<<<<<< HEAD
 const dispatchClose = (target, eventInit) => {
+=======
+function dispatchClose(target, eventInit) {
+>>>>>>> upstream/18.0
     if (!isOpen(target)) {
         return;
     }
@@ -57,14 +61,22 @@ const dispatchClose = (target, eventInit) => {
     eventInit.code ??= 1000;
     eventInit.wasClean ??= eventInit.code === 1000;
     target.dispatchEvent(new CloseEvent("close", eventInit));
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {any} data
  * @param {Transferable[] | StructuredSerializeOptions} [transfer]
  */
+<<<<<<< HEAD
 const dispatchMessage = async (target, data, transfer) => {
+=======
+async function dispatchMessage(target, data, transfer) {
+>>>>>>> upstream/18.0
     const targets = [];
     if (transfer) {
         targets.push(...(transfer?.transfer || transfer));
@@ -83,36 +95,65 @@ const dispatchMessage = async (target, data, transfer) => {
     if (dispatched) {
         await tick();
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 const isOpen = (...instances) => instances.every((i) => openNetworkInstances.has(i));
+=======
+function isOpen(...instances) {
+    return instances.every((i) => openNetworkInstances.has(i));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 const markClosed = (...instances) => {
     for (const instance of instances) {
         openNetworkInstances.delete(instance);
     }
 };
+=======
+function markClosed(...instances) {
+    for (const instance of instances) {
+        openNetworkInstances.delete(instance);
+    }
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {NetworkInstance} instance
  * @param {Promise<any> | null} [promise]
  */
+<<<<<<< HEAD
 const markOpen = (instance) => {
     openNetworkInstances.add(instance);
     return instance;
 };
+=======
+function markOpen(instance) {
+    openNetworkInstances.add(instance);
+    return instance;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {number} min
  * @param {number} [max]
  */
+<<<<<<< HEAD
 const parseNetworkDelay = (min, max) => {
+=======
+function parseNetworkDelay(min, max) {
+>>>>>>> upstream/18.0
     if (min <= 0) {
         return null;
     }
@@ -125,7 +166,11 @@ const parseNetworkDelay = (min, max) => {
     } else {
         return () => delay(min);
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 const DEFAULT_URL = "https://www.hoot.test/";
 const ENDLESS_PROMISE = new Promise(() => {});
@@ -796,7 +841,11 @@ export class MockWebSocket extends MockEventTarget {
         }
         this._readyState = WebSocket.CLOSING;
 <<<<<<< HEAD
+<<<<<<< HEAD
         dispatchClose(this, { code, reason });
+=======
+        tick().then(() => dispatchClose(this, { code, reason }));
+>>>>>>> upstream/18.0
 =======
         tick().then(() => dispatchClose(this, { code, reason }));
 >>>>>>> upstream/18.0

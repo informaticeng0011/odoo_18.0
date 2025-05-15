@@ -50,7 +50,11 @@ export const cookie = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fullCookie = fullCookie.concat(["path=/", `max-age=${ttl}`]);
+=======
+        fullCookie = fullCookie.concat(["path=/", `max-age=${Math.floor(ttl)}`]);
+>>>>>>> upstream/18.0
 =======
         fullCookie = fullCookie.concat(["path=/", `max-age=${Math.floor(ttl)}`]);
 >>>>>>> upstream/18.0

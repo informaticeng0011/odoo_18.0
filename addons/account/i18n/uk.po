@@ -20,7 +20,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 >>>>>>> upstream/18.0
@@ -1500,7 +1504,10 @@ msgstr "<strong>Тип</strong>:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1514,6 +1521,7 @@ msgid ""
 "<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
 "disabled again if there are any existing journal items."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1528,6 +1536,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"<strong>Попередження:</strong> Після ввімкнення журналу аудиту його не можна"
+" вимкнути знову, якщо в ньому вже є записи."
+
+#. module: account
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -1572,7 +1586,10 @@ msgstr "Банківський рахунок може належати лише
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1587,6 +1604,7 @@ msgid ""
 "A bank account with Account Number %(number)s already exists for Partner "
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1601,6 +1619,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Банківський рахунок з номером рахунку %(number)s вже існує для партнера "
+"%(partner)s, але заархівовано. Розархівуйте його."
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -3591,6 +3615,7 @@ msgstr "Банківський рахунок"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Банківський рахунок %(link)s з номером %(number)s видалено"
 =======
@@ -3612,6 +3637,10 @@ msgstr ""
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Банківський рахуно %(link)s з номером %(number)s заархівовано"
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -4221,7 +4250,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4234,6 +4266,7 @@ msgstr ""
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -4248,6 +4281,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Не вдається ідентифікувати рахунки-фактури у згенерованому PDF-файлі: %s"
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
@@ -4768,6 +4806,7 @@ msgstr "Юридична особа"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4844,6 +4883,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Країна комерційного партнера"
@@ -4868,6 +4909,9 @@ msgstr "Країна комерційного партнера"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18318,6 +18362,7 @@ msgstr "Неправильне кредитне або дебетове знач
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -18344,6 +18389,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr "Формат XML"
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"

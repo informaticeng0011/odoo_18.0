@@ -9,6 +9,10 @@ import {
 import { setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import { HootError } from "../hoot_utils";
 import { subscribeToTransitionChange } from "../mock/animation";
+<<<<<<< HEAD
+=======
+import { getViewPortHeight, getViewPortWidth } from "../mock/window";
+>>>>>>> upstream/18.0
 
 /**
  * @typedef {Parameters<typeof import("@odoo/owl").mount>[2] & {
@@ -80,10 +84,17 @@ export function makeFixtureManager(runner) {
             }
 
             const { width, height } = getCurrentDimensions();
+<<<<<<< HEAD
             if (width !== window.innerWidth) {
                 fixture.style.width = `${width}px`;
             }
             if (height !== window.innerHeight) {
+=======
+            if (width !== getViewPortWidth()) {
+                fixture.style.width = `${width}px`;
+            }
+            if (height !== getViewPortHeight()) {
+>>>>>>> upstream/18.0
                 fixture.style.height = `${height}px`;
             }
 
@@ -102,8 +113,11 @@ export function makeFixtureManager(runner) {
             getActiveElement().blur();
             getSelection().removeAllRanges();
         }
+<<<<<<< HEAD
 
         return cleanupFixture;
+=======
+>>>>>>> upstream/18.0
     };
 
     runner.beforeAll(() => {
@@ -114,6 +128,10 @@ export function makeFixtureManager(runner) {
     });
 
     return {
+<<<<<<< HEAD
+=======
+        cleanup: cleanupFixture,
+>>>>>>> upstream/18.0
         setup: setupFixture,
         get: getFixture,
     };
@@ -156,29 +174,98 @@ export class HootFixtureElement extends HTMLElement {
         `;
     }
 
+<<<<<<< HEAD
     /** @type {(() => any) | null} */
     cleanupEventActions = null;
+=======
+    get hasIframes() {
+        return this._iframes.size > 0;
+    }
+
+    /** @private */
+    _observer = new MutationObserver(this._onFixtureMutation.bind(this));
+    /**
+     * @private
+     * @type {Map<HTMLIFrameElement, Promise<void>>}
+     */
+    _iframes = new Map();
+>>>>>>> upstream/18.0
 
     connectedCallback() {
         currentFixture = this;
 
+<<<<<<< HEAD
         this.cleanupEventActions = setupEventActions(this);
         subscribeToTransitionChange((allowTransitions) =>
             this.classList.toggle(this.constructor.CLASSES.transitions, allowTransitions)
         );
+=======
+        setupEventActions(this);
+        subscribeToTransitionChange((allowTransitions) =>
+            this.classList.toggle(this.constructor.CLASSES.transitions, allowTransitions)
+        );
+
+        this._observer.observe(this, { childList: true, subtree: true });
+        this._lookForIframes();
+>>>>>>> upstream/18.0
     }
 
     disconnectedCallback() {
         currentFixture = null;
 
+<<<<<<< HEAD
         this.cleanupEventActions?.();
+=======
+        this._iframes.clear();
+        this._observer.disconnect();
+>>>>>>> upstream/18.0
     }
 
     hide() {
         this.classList.remove(this.constructor.CLASSES.show);
     }
 
+<<<<<<< HEAD
     show() {
         this.classList.add(this.constructor.CLASSES.show);
     }
+=======
+    async waitForIframes() {
+        await Promise.all(this._iframes.values());
+    }
+
+    show() {
+        this.classList.add(this.constructor.CLASSES.show);
+    }
+
+    /**
+     * @private
+     */
+    _lookForIframes() {
+        const toRemove = new Set(this._iframes.keys());
+        for (const iframe of this.getElementsByTagName("iframe")) {
+            if (toRemove.delete(iframe)) {
+                continue;
+            }
+            this._iframes.set(
+                iframe,
+                new Promise((resolve) => iframe.addEventListener("load", resolve))
+            );
+            setupEventActions(iframe.contentWindow);
+        }
+        for (const iframe of toRemove) {
+            this._iframes.delete(iframe);
+        }
+    }
+
+    /**
+     * @private
+     * @type {MutationCallback}
+     */
+    _onFixtureMutation(mutations) {
+        if (mutations.some((mutation) => mutation.addedNodes)) {
+            this._lookForIframes();
+        }
+    }
+>>>>>>> upstream/18.0
 }

@@ -14,6 +14,10 @@ interface OdooModuleFactory {
 class OdooModuleLoader {
     bus: EventTarget;
     checkErrorProm: Promise<void> | null;
+<<<<<<< HEAD
+=======
+    debug: boolean;
+>>>>>>> upstream/18.0
     /**
      * Mapping [name => factory]
      */

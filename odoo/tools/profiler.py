@@ -116,7 +116,10 @@ class Collector:
     def add(self, entry=None, frame=None):
         """ Add an entry (dict) to this collector. """
 <<<<<<< HEAD
+<<<<<<< HEAD
         # todo add entry count limit
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self._entries.append({
@@ -127,7 +130,10 @@ class Collector:
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def progress(self, entry=None, frame=None):
         """ Checks if the limits were met and add to the entries"""
         if self.profiler.entry_count_limit \
@@ -136,6 +142,9 @@ class Collector:
 
         self.add(entry=entry, frame=frame)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_stack_trace(self, frame=None):
         """ Return the stack trace to be included in a given entry. """
@@ -176,7 +185,11 @@ class SQLCollector(Collector):
 
     def hook(self, cr, query, params, query_start, query_time):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.add({
+=======
+        self.progress({
+>>>>>>> upstream/18.0
 =======
         self.progress({
 >>>>>>> upstream/18.0
@@ -223,7 +236,11 @@ class PeriodicCollector(Collector):
                 self._entries[-1]['stack'].append(('profiling', 0, '⚠ Profiler freezed for %s s' % duration, ''))
                 self.last_frame = None  # skip duplicate detection for the next frame.
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.add()
+=======
+            self.progress()
+>>>>>>> upstream/18.0
 =======
             self.progress()
 >>>>>>> upstream/18.0
@@ -241,7 +258,11 @@ class PeriodicCollector(Collector):
         if not hasattr(init_thread, 'profile_hooks'):
             init_thread.profile_hooks = []
 <<<<<<< HEAD
+<<<<<<< HEAD
         init_thread.profile_hooks.append(self.add)
+=======
+        init_thread.profile_hooks.append(self.progress)
+>>>>>>> upstream/18.0
 =======
         init_thread.profile_hooks.append(self.progress)
 >>>>>>> upstream/18.0
@@ -252,7 +273,11 @@ class PeriodicCollector(Collector):
         self.active = False
         self.__thread.join()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.profiler.init_thread.profile_hooks.remove(self.add)
+=======
+        self.profiler.init_thread.profile_hooks.remove(self.progress)
+>>>>>>> upstream/18.0
 =======
         self.profiler.init_thread.profile_hooks.remove(self.progress)
 >>>>>>> upstream/18.0
@@ -292,7 +317,11 @@ class SyncCollector(Collector):
             # we need the parent frame to determine the line number of the call
             entry['parent_frame'] = _format_frame(_frame.f_back)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.add(entry, frame=_frame)
+=======
+        self.progress(entry, frame=_frame)
+>>>>>>> upstream/18.0
 =======
         self.progress(entry, frame=_frame)
 >>>>>>> upstream/18.0
@@ -579,6 +608,11 @@ class Profiler:
         self.log = log
         self.sub_profilers = []
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
+        self.done = False
+>>>>>>> upstream/18.0
 =======
         self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
         self.done = False
@@ -638,13 +672,19 @@ class Profiler:
 
     def __exit__(self, *args):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.end()
 
     def end(self):
         if self.done:
             return
         self.done = True
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try:
             for collector in self.collectors:
@@ -691,6 +731,12 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -787,7 +833,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -814,6 +863,9 @@ class _Nested:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

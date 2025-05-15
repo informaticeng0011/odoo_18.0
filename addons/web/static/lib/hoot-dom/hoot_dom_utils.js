@@ -48,7 +48,38 @@ const {
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
+=======
+/**
+ * @template {(...args: any[]) => any} T
+ * @param {InteractionType} type
+ * @param {T} fn
+ * @param {string} name
+ * @returns {T}
+ */
+const makeInteractorFn = (type, fn, name) =>
+    ({
+        [name](...args) {
+            const result = fn(...args);
+            if (result instanceof Promise) {
+                for (let i = 0; i < args.length; i++) {
+                    if (args[i] instanceof Promise) {
+                        // Get promise result for async arguments if possible
+                        args[i].then((result) => (args[i] = result));
+                    }
+                }
+                return result.then((promiseResult) =>
+                    dispatchInteraction(type, name, args, promiseResult)
+                );
+            } else {
+                return dispatchInteraction(type, name, args, result);
+            }
+        },
+    }[name]);
+
+const DEBUG_NAMESPACE = "hoot";
+>>>>>>> upstream/18.0
 
 const interactionBus = new EventTarget();
 
@@ -87,6 +118,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
     return returnValue;
 }
 
+<<<<<<< HEAD
 const makeInteractorFn = (type, fn, name) =>
     ({
         [name](...args) {
@@ -106,6 +138,20 @@ const makeInteractorFn = (type, fn, name) =>
             }
         },
     }[name]);
+=======
+/**
+ * @param  {...any} helpers
+ */
+export function exposeHelpers(...helpers) {
+    let nameSpaceIndex = 1;
+    let nameSpace = DEBUG_NAMESPACE;
+    while (nameSpace in globalThis) {
+        nameSpace = `${DEBUG_NAMESPACE}${nameSpaceIndex++}`;
+    }
+    globalThis[nameSpace] = new HootDebugHelpers(...helpers);
+    return nameSpace;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @template {(...args: any[]) => any} T
@@ -154,6 +200,7 @@ export function isIterable(object) {
 }
 
 /**
+<<<<<<< HEAD
  * @param {string} filter
  * @returns {boolean}
  */
@@ -162,15 +209,24 @@ export function isRegExpFilter(filter) {
 }
 
 /**
+=======
+>>>>>>> upstream/18.0
  * @param {string} value
  * @param {{ safe?: boolean }} [options]
  * @returns {string | RegExp}
  */
 export function parseRegExp(value, options) {
+<<<<<<< HEAD
     const regexParams = value.match(R_REGEX_PATTERN);
     if (regexParams) {
         const unified = regexParams[1].replace(/\s+/g, "\\s+");
         const flag = regexParams[2] || "i";
+=======
+    const regexParams = value.match(R_REGEX);
+    if (regexParams) {
+        const unified = regexParams[1].replace(R_WHITE_SPACE, "\\s+");
+        const flag = regexParams[2];
+>>>>>>> upstream/18.0
         try {
             return new RegExp(unified, flag);
         } catch (error) {
@@ -201,6 +257,35 @@ export function toSelector(node, options) {
     }
 }
 
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
+=======
+export class HootDebugHelpers {
+    get $() {
+        return this.queryFirst;
+    }
+
+    get $$() {
+        return this.queryAll;
+    }
+
+    /**
+     * @param  {...any} helpers
+     */
+    constructor(...helpers) {
+        $assign(this, ...helpers);
+    }
+}
+
+export class HootDomError extends Error {
+    name = "HootDomError";
+}
+
+export const REGEX_MARKER = "/";
+
+// Common regular expressions
+export const R_REGEX = new RegExp(`^${REGEX_MARKER}(.*)${REGEX_MARKER}([dgimsuvy]+)?$`);
+export const R_WHITE_SPACE = /\s+/g;
+>>>>>>> upstream/18.0

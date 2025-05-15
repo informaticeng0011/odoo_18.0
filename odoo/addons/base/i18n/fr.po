@@ -5,15 +5,24 @@
 # Translators:
 # Martin Trigaux, 2024
 # Cécile Collart <cco@odoo.com>, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Jolien De Paepe, 2025
+=======
+# Jolien De Paepe, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-03 11:38+0000\n"
+=======
+"POT-Creation-Date: 2025-05-13 15:13+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
@@ -94,7 +103,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    * Définir les rapports fiscaux U1/U30\n"
+=======
+"    * Définir les déclarations fiscales U1/U30\n"
+>>>>>>> upstream/18.0
 =======
 "    * Définir les déclarations fiscales U1/U30\n"
 >>>>>>> upstream/18.0
@@ -714,6 +727,20 @@ msgstr ""
 "Utiliser des imprimantes ePOS Epson pour le Point de Vente, sans l'IoT Box\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_eg_edi_eta
+msgid ""
+"\n"
+"            Egypt Tax Authority Invoice Integration\n"
+"        "
+msgstr ""
+"\n"
+"            Intégration de la facture avec l'administration fiscale égyptienne\n"
+"        "
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_ke_edi_oscu
 msgid ""
 "\n"
@@ -747,6 +774,20 @@ msgstr ""
 "    "
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_sa_edi
+msgid ""
+"\n"
+"        E-Invoicing, Universal Business Language\n"
+"    "
+msgstr ""
+"\n"
+"        Facturation électronique, Universal Business Language\n"
+"    "
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_ke_edi_oscu_mrp
 msgid ""
 "\n"
@@ -1292,6 +1333,7 @@ msgstr ""
 "========================================\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_sa_hr_payroll_account
 msgid ""
 "\n"
@@ -1305,6 +1347,8 @@ msgstr ""
 "\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_ke_hr_payroll_account
 msgid ""
 "\n"
@@ -1338,6 +1382,17 @@ msgstr ""
 "============================================\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_my_hr_payroll_account
+msgid ""
+"\n"
+"Accounting Data for Malaysian Payroll Rules\n"
+"===========================================\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_mx_hr_payroll_account
 msgid ""
 "\n"
@@ -1404,6 +1459,22 @@ msgstr ""
 "=========================================\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_sa_hr_payroll_account
+msgid ""
+"\n"
+"Accounting Data for Saudi Arabia Payroll Rules.\n"
+"=======================================================\n"
+"\n"
+msgstr ""
+"\n"
+"Données comptables pour les règles de paie en Arabie Saoudite.\n"
+"=======================================================\n"
+"\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_sk_hr_payroll_account
 msgid ""
 "\n"
@@ -1416,6 +1487,10 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ch_hr_payroll_account
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_ch_hr_payroll_elm_transmission_account
+>>>>>>> upstream/18.0
 msgid ""
 "\n"
 "Accounting Data for Switzerland Payroll Rules\n"
@@ -1514,6 +1589,18 @@ msgstr ""
 "Rapports comptables pour le Nigéria\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_pk_reports
+msgid ""
+"\n"
+"Accounting Reports for Pakistan (Profit and Loss report and Balance Sheet)\n"
+msgstr ""
+"\n"
+"Rapports comptables pour le Pakistan (Bilan et Compte de Résultat)\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_hu
 msgid ""
 "\n"
@@ -1850,6 +1937,7 @@ msgstr ""
 "=================================\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_pk_reports
 msgid ""
 "\n"
@@ -1859,6 +1947,8 @@ msgstr ""
 "Rapports comptables pour le Pakistan (Bilan et Compte de Résultat)\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_pl_reports
 msgid ""
 "\n"
@@ -2065,7 +2155,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Permet d'envoyer le rapport fiscal via le\n"
+=======
+"        Permet d'envoyer la déclaration fiscale via le\n"
+>>>>>>> upstream/18.0
 =======
 "        Permet d'envoyer la déclaration fiscale via le\n"
 >>>>>>> upstream/18.0
@@ -2180,7 +2274,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    - Rapports financiers (bilan, compte de résultat et rapport fiscal)\n"
+=======
+"    - Rapports financiers (bilan, compte de résultat et déclaration fiscale)\n"
+>>>>>>> upstream/18.0
 =======
 "    - Rapports financiers (bilan, compte de résultat et déclaration fiscale)\n"
 >>>>>>> upstream/18.0
@@ -2532,6 +2630,16 @@ msgstr ""
 "Ajouter la possibilité de gérer les CV et les lettres à partir de l'application Documents.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_it_xml_export
+msgid ""
+"\n"
+"Additional module to allow the export of the Italian monthly tax report to XML format.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_it_edi_ndd
 msgid ""
 "\n"
@@ -2630,6 +2738,17 @@ msgstr ""
 "Ajoute la possibilité de définir des modèles d'espace de travail sur les produits.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_be_intrastat_services
+#: model:ir.module.module,description:base.module_l10n_fr_intrastat_services
+msgid ""
+"\n"
+"Adds the support for services intrastat codes.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_quality_mrp
 msgid ""
 "\n"
@@ -2674,6 +2793,25 @@ msgstr ""
 "* Cartes prises en charge : Visa, MasterCard, Rupay, UPI\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_pos_pine_labs
+msgid ""
+"\n"
+"Allow Pine Labs POS payments\n"
+"==============================\n"
+"\n"
+"This module is available only for companies that use INR currency.\n"
+"It enables customers to pay for their orders using debit/credit cards and UPI through Pine Labs POS terminals.\n"
+"A Pine Labs merchant account is required to process transactions.\n"
+"Features include:\n"
+"\n"
+"* Quick payments by swiping, scanning, or tapping your credit/debit card or UPI QR code at the payment terminal.\n"
+"* Supported cards: Visa, MasterCard, RuPay.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_pos_razorpay
 msgid ""
 "\n"
@@ -3581,7 +3719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Formule de base pour Chypre, qui comprend le plan comptable, les impôts, les rapports fiscaux,...\n"
+=======
+"Formule de base pour Chypre, qui comprend le plan comptable, les impôts, les déclarations fiscales,...\n"
+>>>>>>> upstream/18.0
 =======
 "Formule de base pour Chypre, qui comprend le plan comptable, les impôts, les déclarations fiscales,...\n"
 >>>>>>> upstream/18.0
@@ -3848,6 +3990,18 @@ msgstr ""
 "Fournit la facturation électronique pour le Brésil via Avatax.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_br_edi_pos
+msgid ""
+"\n"
+"Brazilian Accounting EDI for POS\n"
+"================================\n"
+"Provides electronic invoicing for Brazil through Avatax in the POS.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_br_edi_sale
 msgid ""
 "\n"
@@ -5006,6 +5160,7 @@ msgstr ""
 "Implémentation de la facturation électronique pour la Roumanie\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_dk_oioubl
 msgid ""
 "\n"
@@ -5022,6 +5177,15 @@ msgid ""
 msgstr ""
 "\n"
 "Implémentation de la facturation électronique pour le Royaume d'Arabie saoudite\n"
+=======
+#: model:ir.module.module,description:base.module_l10n_sa_edi
+msgid ""
+"\n"
+"E-invoice implementation for Saudi Arabia; Integration with ZATCA\n"
+msgstr ""
+"\n"
+"Implementation de la facturation électronique pour l'Arabie Saoudite ; Intégration avec la ZATCA\n"
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa_edi_pos
@@ -5033,6 +5197,30 @@ msgstr ""
 "Mise en œuvre de la facturation électronique pour l'Arabie Saoudite ; Intégration avec ZATCA (Point de Vente)\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_dk_oioubl
+msgid ""
+"\n"
+"E-invoice implementation for the Denmark\n"
+msgstr ""
+"\n"
+"Implémentation de la facturation électronique pour le Danemark\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_id_efaktur_coretax
+msgid ""
+"\n"
+"E-invoicing feature provided by DJP (Indonesian Tax Office). As of January 1st 2025,\n"
+"Indonesia is using CoreTax system, which changes the file format and content of E-Faktur.\n"
+"We're changing from CSV files into XML.\n"
+"At the same time, due to tax regulation changes back and forth, for general E-Faktur now,\n"
+"TaxBase (DPP) has to be mulitplied by factor of 11/12 while multiplied to tax of 12% which\n"
+"is resulting to 11%.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_hr_skills_slides
 msgid ""
 "\n"
@@ -5313,6 +5501,42 @@ msgstr ""
 "Accédez facilement à vos documents à partir du profil de votre employé.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_eg
+msgid ""
+"\n"
+"Egypt Accounting Module\n"
+"==============================================================================\n"
+"Egypt Accounting Basic Charts and Localization.\n"
+"\n"
+"Activates:\n"
+"\n"
+"- Chart of Accounts\n"
+"- Taxes\n"
+"- VAT Return\n"
+"- Withholding Tax Report\n"
+"- Schedule Tax Report\n"
+"- Other Taxes Report\n"
+"- Fiscal Positions\n"
+msgstr ""
+"\n"
+"Module comptable pour l'Égypte\n"
+"==============================================================================\n"
+"Plans comptables et localisation de base pour l'Égypte.\n"
+"\n"
+"Active :\n"
+"\n"
+"- Le plan comptable\n"
+"- Les taxes\n"
+"- La déclaration de TVA\n"
+"- Le rapport de retenue à la source\n"
+"- Le rapport de planification fiscale\n"
+"- Les autres déclarations fiscales\n"
+"- Les positions fiscales\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_eg_hr_payroll
 msgid ""
 "\n"
@@ -5338,6 +5562,22 @@ msgstr ""
 "- Exportation de la paie principale\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_eg_edi_eta
+msgid ""
+"\n"
+"Egypt Tax Authority Invoice Integration\n"
+"==============================================================================\n"
+"Integrates with the ETA portal to automatically send and sign the Invoices to the Tax Authority.\n"
+msgstr ""
+"\n"
+"Intégration des factures avec les autorités fiscales d'Égypte\n"
+"==============================================================================\n"
+"S'intègre au portail de l'ETA pour envoyer et signer automatiquement les factures auprès des autorités fiscales.\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_account_edi
 msgid ""
 "\n"
@@ -5573,7 +5813,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Active l'assistant TVA lors de la comptabilisation d'une pièce comptable de déclaration de TVA.\n"
+=======
+"Active l'assistant TVA lors de la comptabilisation d'une pièce comptable de déclaration fiscale.\n"
+>>>>>>> upstream/18.0
 =======
 "Active l'assistant TVA lors de la comptabilisation d'une pièce comptable de déclaration fiscale.\n"
 >>>>>>> upstream/18.0
@@ -5713,7 +5957,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Les documents de note de frais seront automatiquement intégrés à l'application Documents.\n"
+=======
+"Les documents de dépenses seront automatiquement intégrés à l'application Documents.\n"
+>>>>>>> upstream/18.0
 =======
 "Les documents de dépenses seront automatiquement intégrés à l'application Documents.\n"
 >>>>>>> upstream/18.0
@@ -6966,6 +7214,17 @@ msgstr ""
 "==================\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_account_intrastat_services
+msgid ""
+"\n"
+"Intrastat Reports for Services\n"
+"==============================\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_dk_intrastat
 msgid ""
 "\n"
@@ -7084,6 +7343,7 @@ msgstr ""
 "- Contributions fiscales nationales et sécurité sociale\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_sa_pos
 msgid ""
 "\n"
@@ -7095,6 +7355,8 @@ msgstr ""
 "===========================================================\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_appointment_hr_recruitment
 msgid ""
 "\n"
@@ -7142,6 +7404,7 @@ msgstr ""
 "* Intégré à la gestion des congés\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_sa_hr_payroll
 msgid ""
 "\n"
@@ -7169,6 +7432,8 @@ msgstr ""
 "- Exportation de la paie principale\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_stock_landed_costs
 msgid ""
 "\n"
@@ -7357,6 +7622,20 @@ msgstr ""
 "* MTBF, MTTR, ...\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_my_hr_payroll
+msgid ""
+"\n"
+"Malaysian Payroll and Tax Rules\n"
+"===============================\n"
+"- Social Security Premium/Insurance calculations for employment and unemployment\n"
+"- Income tax calculations\n"
+"- Stamp tax deductions\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_mt_reports
 msgid ""
 "\n"
@@ -7401,7 +7680,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Formule de base pour Malte, qui comprend le plan comptable, les impôts, les rapports fiscaux, etc.\n"
+=======
+"Formule de base pour Malte, qui comprend le plan comptable, les impôts, les déclarations fiscales, etc.\n"
+>>>>>>> upstream/18.0
 =======
 "Formule de base pour Malte, qui comprend le plan comptable, les impôts, les déclarations fiscales, etc.\n"
 >>>>>>> upstream/18.0
@@ -7598,11 +7881,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gérer les notes de frais des employés\n"
 "==============================\n"
 "\n"
 "Cette application vous permet de gérer les dépenses quotidiennes des employés. Elle donne accès aux notes de frais des employés. Elle donne le droit de compléter, de valider ou refuser les notes de frais. Après validation, elle crée une facture pour l'employé.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7619,6 +7905,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7637,7 +7926,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Brouillon des notes de frais\n"
+=======
+"* Dépenses en brouillon\n"
+>>>>>>> upstream/18.0
 =======
 "* Dépenses en brouillon\n"
 >>>>>>> upstream/18.0
@@ -8019,6 +8312,16 @@ msgstr ""
 "qui n'ont pas de contrepartie dans les comptes financiers.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_bg_reports_ledger
+msgid ""
+"\n"
+"Module for ledger reports\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_hr_recruitment_integration_monster
 msgid ""
 "\n"
@@ -8053,6 +8356,18 @@ msgstr ""
 "associé à chacune des ressources. Il gère également les congés de chaque ressource.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_se_sie4_export
+msgid ""
+"\n"
+"Module for the export of accounting data to SIE 4 standard files.\n"
+"Official website: https://sie.se/\n"
+"XSD and documentation: https://sie.se/format/\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_fr_fec_import
 msgid ""
 "\n"
@@ -8150,6 +8465,18 @@ msgstr ""
 "Ce module permet d'importer des comptes, des journaux, des partenaires, des taxes et des mouvements à partir de ces fichiers.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_se_sie4_import
+msgid ""
+"\n"
+"Module for the import of SIE 4 standard files.\n"
+"Official website: https://sie.se/\n"
+"XSD and documentation: https://sie.se/format/\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_se_sie_import
 msgid ""
 "\n"
@@ -8463,6 +8790,18 @@ msgstr ""
 "        Localisation de la comptabilité mozambicaine\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_gr_edi
+msgid ""
+"\n"
+"MyDATA is a platform created by Greece's tax authority,\n"
+"The Independent Authority for Public Revenue (IAPR),\n"
+"to digitize business tax and accounting information declaration.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_nz
 msgid ""
 "\n"
@@ -8564,6 +8903,7 @@ msgstr ""
 "Notifier qu'une commande client correspondante existe dans le widget de lettrage.\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_sa
 msgid ""
 "\n"
@@ -8593,6 +8933,8 @@ msgstr ""
 "- Les positions fiscales\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_web_enterprise
 msgid ""
 "\n"
@@ -8806,6 +9148,36 @@ msgstr ""
 "=================================================\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_pk
+msgid ""
+"\n"
+"Pakistan Accounting Module\n"
+"=======================================================\n"
+"Pakistan accounting basic charts and localization.\n"
+"\n"
+"Activates:\n"
+"\n"
+"- Chart of Accounts\n"
+"- Taxes\n"
+"- Tax Report\n"
+"- Withholding Tax Report\n"
+msgstr ""
+"\n"
+"Module comptable pour le Pakistan\n"
+"=======================================================\n"
+"Tableaux comptables de base et localisation pour le Pakistan.\n"
+"\n"
+"Active :\n"
+"\n"
+"- Le plan comptable\n"
+"- Les taxes\n"
+"- La déclaration fiscale\n"
+"- Le rapport de retenue à la source\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_pk_hr_payroll
 msgid ""
 "\n"
@@ -9116,11 +9488,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Remboursement des notes de frais dans les fiches de paie\n"
 "=====================================\n"
 "\n"
 "Cette application vous permet de rembourser les notes de frais dans les fiches de paie.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9137,6 +9512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9163,12 +9541,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Refacturer les notes de frais des employés\n"
 "==========================\n"
 "\n"
 "Créez quelques produits dont vous pouvez refacturer les coûts.\n"
 "Ce module permet de refacturer les notes de frais des employés en les intégrant directement la commande client.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9186,6 +9567,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9206,6 +9590,16 @@ msgstr ""
 "Réparation des produits à partir des tickets d'assistance\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_bg_ledger
+msgid ""
+"\n"
+"Report ledger for Bulgaria\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_it_riba
 msgid ""
 "\n"
@@ -9269,7 +9663,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Rapport fiscal\n"
+=======
+"- Déclaration fiscale\n"
+>>>>>>> upstream/18.0
 =======
 "- Déclaration fiscale\n"
 >>>>>>> upstream/18.0
@@ -9388,7 +9786,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Soumettez vos rapports fiscaux aux autorités fiscales néerlandaises.\n"
+=======
+"Soumettez vos déclarations fiscales aux autorités fiscales néerlandaises.\n"
+>>>>>>> upstream/18.0
 =======
 "Soumettez vos déclarations fiscales aux autorités fiscales néerlandaises.\n"
 >>>>>>> upstream/18.0
@@ -9517,6 +9919,76 @@ msgstr ""
 "Module passerelle qui ajoute des exigences d'expérience utilisateur pour faciliter le SMS marketing sur les intervenants des sessions.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_sa
+msgid ""
+"\n"
+"Saudi Arabia Accounting Module\n"
+"===========================================================\n"
+"Saudi Arabia Accounting Basic Charts and Localization\n"
+"\n"
+"Activates:\n"
+"\n"
+"- Chart of Accounts\n"
+"- Taxes\n"
+"- Vat Filling Report\n"
+"- Withholding Tax Report\n"
+"- Fiscal Positions\n"
+msgstr ""
+"\n"
+"Module comptable pour l'Arabie Saoudite\n"
+"===========================================================\n"
+"Plans comptables et localisation de base pour l'Arabie Saoudite\n"
+"\n"
+"Active :\n"
+"\n"
+"- Le plan comptable\n"
+"- Les taxes\n"
+"- La déclaration de TVA\n"
+"- Le rapport de retenue à la source\n"
+"- Les positions fiscales\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_sa_pos
+msgid ""
+"\n"
+"Saudi Arabia POS Localization\n"
+"===========================================================\n"
+msgstr ""
+"\n"
+"Localisation du point de vente pour l'Arabie Saoudite\n"
+"===========================================================\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_sa_hr_payroll
+msgid ""
+"\n"
+"Saudi Arabia Payroll and End of Service rules.\n"
+"===========================================================\n"
+"- Basic Calculation\n"
+"- End of Service Calculation\n"
+"- Other Input Rules (Overtime, Salary Attachments, etc.)\n"
+"- Split Structures for EOS and Monthly Salaries\n"
+"- GOSI Employee Deduction and company contributions\n"
+"- Unpaid leaves\n"
+"- WPS\n"
+"- Master Payroll Export\n"
+msgstr ""
+"\n"
+"Règles de paie et de fin de service en Arabie Saoudite.\n"
+"===========================================================\n"
+"- Calcul de base\n"
+"- Calcul de fin de service\n"
+"- Autres règles d'entrée (heures supplémentaires, retenues sur salaire, etc.)\n"
+"- Structures distinctes pour la fin de service et les salaires mensuels\n"
+"- Déductions des employés GOSI et contributions de l'entreprise\n"
+"- Congés sans solde\n"
+"- WPS\n"
+"- Exportation de la paie principale\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_project_forecast
 msgid ""
 "\n"
@@ -10029,7 +10501,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Rapport fiscal\n"
+=======
+"- Déclaration fiscale\n"
+>>>>>>> upstream/18.0
 =======
 "- Déclaration fiscale\n"
 >>>>>>> upstream/18.0
@@ -10426,7 +10902,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ce module passerelle ajoute les champs nécessaires pour arrondir correctement le Rapport Fiscal pour l'Estonie dans les écritures de clôture.\n"
+=======
+"Ce module passerelle ajoute les champs nécessaires pour arrondir correctement la déclaration fiscale pour l'Estonie dans les écritures de clôture.\n"
+>>>>>>> upstream/18.0
 =======
 "Ce module passerelle ajoute les champs nécessaires pour arrondir correctement la déclaration fiscale pour l'Estonie dans les écritures de clôture.\n"
 >>>>>>> upstream/18.0
@@ -10733,7 +11213,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " - Rapports Fiscaux\n"
+=======
+" - Déclarations fiscales\n"
+>>>>>>> upstream/18.0
 =======
 " - Déclarations fiscales\n"
 >>>>>>> upstream/18.0
@@ -10807,6 +11291,25 @@ msgstr ""
 " - États\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_bd
+msgid ""
+"\n"
+"This is the base module to manage the accounting chart for Bangladesh in Odoo\n"
+"==============================================================================\n"
+"\n"
+"Bangladesh accounting basic charts and localization.\n"
+"\n"
+"Activates:\n"
+"\n"
+"- Chart of accounts\n"
+"- Taxes\n"
+"- Tax report\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_be
 msgid ""
 "\n"
@@ -10871,6 +11374,7 @@ msgstr ""
 "Facturation / Rapports / Rapports juridiques / Relevés belges / Liste annuelle des clients soumis à la TVA\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_eg
 msgid ""
 "\n"
@@ -10996,6 +11500,8 @@ msgstr ""
 "- Les positions fiscales\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_ee
 msgid ""
 "\n"
@@ -11130,7 +11636,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Le rapport fiscal \n"
+=======
+"- La déclaration fiscale \n"
+>>>>>>> upstream/18.0
 =======
 "- La déclaration fiscale \n"
 >>>>>>> upstream/18.0
@@ -11390,7 +11900,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Le rapport fiscal\n"
+=======
+"- La déclaration fiscale\n"
+>>>>>>> upstream/18.0
 =======
 "- La déclaration fiscale\n"
 >>>>>>> upstream/18.0
@@ -12050,7 +12564,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "3. Rapport fiscal (export XML). Pour plus d’informations consultez : https://adisspr.mfcr.cz/dpr/adis/idpr_pub/epo2_info/popis_struktury_detail.faces?zkratka=DPHDP3\n"
+=======
+"3. Déclaration fiscale (export XML). Pour plus d’informations consultez : https://adisspr.mfcr.cz/dpr/adis/idpr_pub/epo2_info/popis_struktury_detail.faces?zkratka=DPHDP3\n"
+>>>>>>> upstream/18.0
 =======
 "3. Déclaration fiscale (export XML). Pour plus d’informations consultez : https://adisspr.mfcr.cz/dpr/adis/idpr_pub/epo2_info/popis_struktury_detail.faces?zkratka=DPHDP3\n"
 >>>>>>> upstream/18.0
@@ -12441,7 +12959,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cette fonction est utile lorsque des modifications légales ont été apportées au rapport fiscal,\n"
+=======
+"Cette fonction est utile lorsque des modifications légales ont été apportées à la déclaration fiscale,\n"
+>>>>>>> upstream/18.0
 =======
 "Cette fonction est utile lorsque des modifications légales ont été apportées à la déclaration fiscale,\n"
 >>>>>>> upstream/18.0
@@ -12922,6 +13444,20 @@ msgstr ""
 "Ce module ajoute la fonctionnalité de lecture de codes QR pour les factures fournisseurs en Inde.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_ch_hr_payroll_elm_transmission
+msgid ""
+"\n"
+"This module fully implements the ELM 5.0 wage standard and is Swissdec certified under certificate 1203.25. Any unauthorized modifications are strictly prohibited, as they may lead to errors in data transmission and calculations.\n"
+"The Module is not retro-compatible with Previous Swiss Payroll versions, installation will require a re-generation of your yearly Payroll-accounting.\n"
+msgstr ""
+"\n"
+"Ce module implémente entièrement la norme salariale ELM 5.0 et est certifié Swissdec sous le certificat 1203.25. Toute modification non autorisée est strictement interdite, car elle peut entraîner des erreurs dans la transmission des données et les calculs.\n"
+"Le module n'est pas rétrocompatible avec les versions précédentes de la paie suisse, son installation nécessitera une régénération de votre comptabilité salariale annuelle.\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_sms
 msgid ""
 "\n"
@@ -13425,6 +13961,7 @@ msgstr ""
 "* L'implémentation future sera complétée par une synchronisation automatique des factures des fournisseurs.\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_eg_edi_eta
 msgid ""
 "\n"
@@ -13449,6 +13986,8 @@ msgstr ""
 "        "
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_pos_urban_piper_swiggy
 msgid ""
 "\n"
@@ -13708,6 +14247,16 @@ msgstr ""
 "Ce module fournit le lien entre les étapes de qualité et les appareils IoT.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_pos_mobile
+msgid ""
+"\n"
+"This module provides the point of sale function of the Odoo Mobile App.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_es_edi_tbai
 msgid ""
 "\n"
@@ -14022,6 +14571,36 @@ msgstr ""
 "============================\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_ae
+msgid ""
+"\n"
+"United Arab Emirates Accounting Module\n"
+"=======================================================\n"
+"United Arab Emirates accounting basic charts and localization.\n"
+"\n"
+"Activates:\n"
+"\n"
+"- Chart of Accounts\n"
+"- Taxes\n"
+"- Tax Report\n"
+"- Fiscal Positions\n"
+msgstr ""
+"\n"
+"Module comptable pour les Émirats Arabes Unis\n"
+"=======================================================\n"
+"Plans comptables et localisation de base pour les Émirats Arabes Unis.\n"
+"\n"
+"Active :\n"
+"\n"
+"- Le plan comptable\n"
+"- Les taxes\n"
+"- La déclaration fiscale\n"
+"- Les positions fiscales\n"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_ae_corporate_tax_report
 msgid ""
 "\n"
@@ -14072,6 +14651,7 @@ msgstr ""
 "- WPS\n"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_ae
 msgid ""
 "\n"
@@ -14191,6 +14771,8 @@ msgstr ""
 "- Les positions fiscales\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_us_hr_payroll
 msgid ""
 "\n"
@@ -14550,6 +15132,44 @@ msgstr ""
 "    Veuillez également mettre à jour le module de comptabilité italienne (l10n_it) quand vous installez ce module.\n"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_rs_edi
+msgid ""
+"\n"
+"eFaktura E-invoice implementation for Serbia\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_hr_payroll_dmfa_sftp
+msgid ""
+"\n"
+"synchronize DmfA to ONSS portal\n"
+"===============================\n"
+"\n"
+"This new module automates the synchronization of DmfA ONSS declarations\n"
+"to the official Belgian SFTP portal.\n"
+"\n"
+"It integrates with the existing `l10n_be_hr_payroll` and\n"
+"`l10n_be_hr_payroll_dmfa` modules to:\n"
+"\n"
+"- Upload the FO, FS, and GO files to the correct ONSS environment folder\n"
+"  (IN, INTEST, INTEST-S).\n"
+"- Poll the OUT folders (OUT, OUTTEST, OUTTEST-S) for returned files.\n"
+"- Link received files to the corresponding declarations and employees\n"
+"  when applicable.\n"
+"\n"
+"Technical features include:\n"
+"- Secure connection using a private key and technical user credentials.\n"
+"- XML file parsing for ACRF and notification files.\n"
+"- Error handling and logging for missing directories or malformed files.\n"
+"\n"
+"This module ensures compliance with ONSS electronic declaration\n"
+"requirements and reduces manual interaction with the SFTP portal.\n"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_delivery_mondialrelay
 msgid " Let's choose a Point Relais® as shipping address "
 msgstr " Choisissons un Point Relais® comme adresse d'expédition "
@@ -15339,20 +15959,32 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"evaluation_type != 'value' or not update_field_type == "
 "'many2many'\">by</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value' or not update_field_type == "
 "'many2many'\">par</span>"
+=======
+"<span invisible=\"evaluation_type != 'value' or update_field_type in "
+"['one2many', 'many2many']\">to</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
+<<<<<<< HEAD
 "<span invisible=\"evaluation_type != 'value' or update_field_type == "
 "'many2many'\">to</span>"
 msgstr ""
 "<span invisible=\"evaluation_type != 'value' or update_field_type == "
 "'many2many'\">à</span>"
+=======
+"<span invisible=\"evaluation_type != 'value' or update_field_type not in "
+"['one2many', 'many2many']\">by</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -15960,6 +16592,14 @@ msgid "A payment provider covering India."
 msgstr "Un fournisseur de paiement couvrant l'Inde."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_payment_nuvei
+msgid "A payment provider covering Latin America."
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_payment_mercado_pago
 msgid "A payment provider covering several countries in Latin America."
 msgstr "Un fournisseur de paiement couvrant plusieurs pays d'Amérique latine."
@@ -16858,6 +17498,14 @@ msgstr ""
 "clients de payer par Stripe."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_tests
+msgid "Addons to test Odoo industries code."
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base/models/ir_qweb_fields.py:0
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -17485,6 +18133,14 @@ msgid "Agorot"
 msgstr "Agorot"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_agriculture_shop
+msgid "Agricultural Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_A
 msgid "Agriculture"
 msgstr "Agriculture"
@@ -17969,6 +18625,14 @@ msgid "America/Costa_Rica"
 msgstr "Amérique/Costa_Rica"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/coyhaique
+msgid "America/Coyhaique"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__america/creston
 msgid "America/Creston"
 msgstr "Amérique/Creston"
@@ -18967,6 +19631,19 @@ msgid "Architecture Diff"
 msgstr "Différence d'architecture"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_architects
+msgid "Architecture Firm"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+msgid "Archive"
+msgstr "Archiver"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access_search
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
@@ -18978,6 +19655,10 @@ msgstr "Différence d'architecture"
 #: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
 #: model_terms:ir.ui.view,arch_db:base.view_ir_mail_server_search
 #: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_search
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
@@ -19023,7 +19704,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Êtes-vous sûr de vouloir exécuter la fusion automatique de vos contrats ?"
+=======
+"Êtes-vous sûr de vouloir exécuter la fusion automatique de vos contacts ?"
+>>>>>>> upstream/18.0
 =======
 "Êtes-vous sûr de vouloir exécuter la fusion automatique de vos contacts ?"
 >>>>>>> upstream/18.0
@@ -19164,6 +19849,14 @@ msgid "Armenia"
 msgstr "Arménie"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_art_craft
+msgid "Arts & Crafts Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.aw
 msgid "Aruba"
 msgstr "Aruba"
@@ -19858,6 +20551,14 @@ msgid "Attract visitors to subscribe to mailing lists"
 msgstr "Encouragez les visiteurs à s'inscrire à votre liste de diffusion"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_certification_organism
+msgid "Audit & Certification"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.currency,currency_subunit_label:base.ISK
 msgid "Aurar"
 msgstr "Aurar"
@@ -20140,6 +20841,14 @@ msgid "Automation Rules based on Employee Contracts"
 msgstr "Règles d'automatisation basées sur les contrats des employés"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_automobile
+msgid "Automobile Spare Parts"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__available_model_ids
 #: model:ir.model.fields,field_description:base.field_ir_cron__available_model_ids
 msgid "Available Models"
@@ -20344,6 +21053,14 @@ msgid "Baisa"
 msgstr "Baisa"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_bakery
+msgid "Bakery Shop"
+msgstr "Boulangerie"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.currency,currency_unit_label:base.PAB
 msgid "Balboa"
 msgstr "Balboa"
@@ -20447,6 +21164,14 @@ msgstr ""
 "contacts avez vos comptes."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_bar_industry
+msgid "Bar & Pub"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.bb
 msgid "Barbados"
 msgstr "Barbade"
@@ -20677,6 +21402,14 @@ msgid "Belgian Intrastat Declaration"
 msgstr "Declaration Intrastat belge"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_be_intrastat_services
+msgid "Belgian Intrastat Declaration (Services)"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_be_pos_restaurant
 msgid "Belgian POS Restaurant Localization"
 msgstr "Localisation pour le PdV Restaurant belge"
@@ -20752,6 +21485,19 @@ msgid "Belgium - Payroll - Dimona"
 msgstr "Belgique - Paie - Dimona"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_dmfa_sftp
+msgid "Belgium - Payroll - DmfA SFTP"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_acerta
+msgid "Belgium - Payroll - Export to Acerta"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_group_s
 msgid "Belgium - Payroll - Export to Group S"
 msgstr "Belgique - Paie - Exporter vers Group S"
@@ -20762,6 +21508,14 @@ msgid "Belgium - Payroll - Export to Partena"
 msgstr "Belgique - Paie - Exporter vers Partena"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_prisma
+msgid "Belgium - Payroll - Export to Prisma"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_sd_worx
 msgid "Belgium - Payroll - Export to SD Worx"
 msgstr "Belgique - Paie - Exporter vers SD Worx"
@@ -20811,16 +21565,40 @@ msgid "Bermuda"
 msgstr "Bermudes"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_beverage_distributor
+msgid "Beverage Distributor"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.bt
 msgid "Bhutan"
 msgstr "Bhoutan"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_bike_leasing
+msgid "Bike Leasing"
+msgstr "Leasing de vélos"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_website_sale_ups
 msgid "Bill to your UPS account number"
 msgstr "Facturez sur votre numéro de compte UPS"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_billboard_rental
+msgid "Billboard Rental"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_url__binding_model_id
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__binding_model_id
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window_close__binding_model_id
@@ -20915,6 +21693,14 @@ msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Saint-Eustache et Saba"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_bookstore
+msgid "Bookstore"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_ir_actions_server__update_boolean_value
 #: model:ir.model.fields,field_description:base.field_ir_cron__update_boolean_value
 msgid "Boolean Value"
@@ -21030,6 +21816,14 @@ msgid "Brazilian Accounting EDI For Sale"
 msgstr "EDI Comptabilité brésilienne pour les Ventes"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_br_edi_pos
+msgid "Brazilian Accounting EDI for POS"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_br_edi_website_sale
 msgid "Brazilian Accounting EDI for eCommerce"
 msgstr "EDI Comptabilité brésilienne pour eCommerce"
@@ -21112,7 +21906,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Module passerelle créé pour ajouter le nombre de notes de frais d'un compte "
+=======
+"Module passerelle créé pour ajouter le nombre dépenses d'un compte "
+>>>>>>> upstream/18.0
 =======
 "Module passerelle créé pour ajouter le nombre dépenses d'un compte "
 >>>>>>> upstream/18.0
@@ -21190,8 +21988,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Module passerelle entre point_of_sale et account_reports, pour les rapports "
 "fiscaux."
+=======
+"Module passerelle entre point_of_sale et account_reports, pour les "
+"déclarations fiscales."
+>>>>>>> upstream/18.0
 =======
 "Module passerelle entre point_of_sale et account_reports, pour les "
 "déclarations fiscales."
@@ -21437,6 +22240,19 @@ msgid "Bulgaria - Accounting Reports"
 msgstr "Bulgarie - Rapports comptables"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_bg_reports_ledger
+msgid "Bulgaria - Accounting Reports Ledger"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_bg_ledger
+msgid "Bulgaria - Report ledger"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_ir_asset__bundle
 msgid "Bundle name"
 msgstr "Nom du groupe"
@@ -21581,6 +22397,14 @@ msgid "CUIT"
 msgstr "CUIT"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_cake_shop
+msgid "Cake Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_act_window_view__view_mode__calendar
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__calendar
 #: model:ir.module.category,name:base.module_category_productivity_calendar
@@ -22291,6 +23115,14 @@ msgid "City"
 msgstr "Ville"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_cleaning_services
+msgid "Cleaning Services"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_server__update_m2m_operation__clear
 msgid "Clearing it"
 msgstr "L'effacer"
@@ -22332,6 +23164,14 @@ msgid "Close"
 msgstr "Clôturer"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_clothing_boutique
+msgid "Clothing Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_cloud_storage
 msgid "Cloud Storage"
 msgstr "Cloud Storage"
@@ -22440,6 +23280,14 @@ msgid "Colombian Accounting and Tax Preconfiguration"
 msgstr "Colombie - Comptabilité et préconfiguration des taxes"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_co_edi_mandate
+msgid "Colombian EDI Mandate Invoicing extension"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_co_dian
 #: model:ir.module.module,summary:base.module_l10n_co_edi
 msgid "Colombian Localization for EDI documents"
@@ -22843,6 +23691,14 @@ msgid "Connect the Web Client to Hardware Peripherals"
 msgstr "Connectez le client Web aux périphériques matériels"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_gr_edi
+msgid "Connect to MyDATA API implementation for Greece"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base/models/ir_mail_server.py:0
 msgid ""
@@ -22931,6 +23787,11 @@ msgid "Constraints with the same name are unique per module."
 msgstr "Les contraintes de même nom sont uniques par module."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.category,name:base.module_category_construction
+#: model:ir.module.module,shortdesc:base.module_construction
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_F
 msgid "Construction"
 msgstr "Construction"
@@ -23102,6 +23963,14 @@ msgid "Cordoba"
 msgstr "Cordoba"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_corporate_gifts
+msgid "Corporate Gifts"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.cr
 msgid "Costa Rica"
 msgstr "Costa Rica"
@@ -23813,6 +24682,14 @@ msgid "Custom Field"
 msgstr "Champ personalisé"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_custom_furniture
+msgid "Custom Furniture Production"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__ir_model__state__manual
 msgid "Custom Object"
 msgstr "Objet personnalisé"
@@ -25213,6 +26090,14 @@ msgid "E-Invoice implementation for Romania"
 msgstr "Implémentation de la facture électronique pour la Roumanie"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_rs_edi
+msgid "E-Invoice implementation for Serbia"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_dk_oioubl
 msgid "E-Invoicing, Offentlig Information Online Universal Business Language"
 msgstr ""
@@ -25220,6 +26105,7 @@ msgstr ""
 "Language"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,summary:base.module_l10n_sa_edi
 msgid ""
 "\n"
@@ -25231,6 +26117,8 @@ msgstr ""
 "    "
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_my_edi
 msgid "E-invoicing using MyInvois"
 msgstr "Facturation électronique via MyInvois"
@@ -25437,6 +26325,14 @@ msgid "El Salvador"
 msgstr "Le Salvador"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_electrician
+msgid "Electricians"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_pe_edi_stock
 msgid "Electronic Delivery Note for Peru (OSE method) and UBL 2.1"
 msgstr "Bon de livraison électronique pour le Pérou (méthode OSE) et UBL 2.1"
@@ -25457,6 +26353,14 @@ msgid "Electronic Invoicing for Peru (OSE method) and UBL 2.1"
 msgstr "Facturation électronique pour le Pérou (méthode OSE) et UBL 2.1"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_electronic_store
+msgid "Electronic Store"
+msgstr "Magasin électronique"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_co_edi
 msgid "Electronic invoicing for Colombia with Carvajal"
 msgstr "Facturation électronique pour la Colombie avec Carvajal"
@@ -25795,6 +26699,14 @@ msgid "Envia Shipping"
 msgstr "Expédition Envia"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_environmental_agency
+msgid "Environmental Agency"
+msgstr "Agence environnementale"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_pos_epson_printer
 msgid "Epson ePOS Printers in PoS"
 msgstr "Imprimantes Epson ePOS dans PdV"
@@ -25917,6 +26829,14 @@ msgid "Estonia - Rounding"
 msgstr "Estonie - Arrondi"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_ee_intrastat
+msgid "Estonia Intrastat Declaration"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.sz
 msgid "Eswatini"
 msgstr "Eswatini"
@@ -26640,7 +27560,11 @@ msgid "Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais"
+=======
+msgstr "Charges"
+>>>>>>> upstream/18.0
 =======
 msgstr "Charges"
 >>>>>>> upstream/18.0
@@ -26665,7 +27589,11 @@ msgid "Expenses in Payslips"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais dans les fiches de paie"
+=======
+msgstr "Dépenses dans les fiches de paie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses dans les fiches de paie"
 >>>>>>> upstream/18.0
@@ -26720,6 +27648,14 @@ msgid "Export"
 msgstr "Exporter"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_l10n_se_sie4_export
+msgid "Export Accounting Data to SIE 4 files"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
 msgid "Export Complete"
 msgstr "Export complet"
@@ -26762,6 +27698,15 @@ msgid "Export Work Entries to ADP"
 msgstr "Exporter les prestations vers ADP"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_be_hr_payroll_acerta
+#: model:ir.module.module,summary:base.module_l10n_be_hr_payroll_acerta
+msgid "Export Work Entries to Acerta"
+msgstr "Exporter les prestations vers Acerta"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_be_hr_payroll_group_s
 #: model:ir.module.module,summary:base.module_l10n_be_hr_payroll_group_s
 msgid "Export Work Entries to Group S"
@@ -26774,6 +27719,15 @@ msgid "Export Work Entries to Partena"
 msgstr "Exporter les prestations vers Partena"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_be_hr_payroll_prisma
+#: model:ir.module.module,summary:base.module_l10n_be_hr_payroll_prisma
+msgid "Export Work Entries to Prisma"
+msgstr "Exporter les prestations vers Prisma"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_l10n_be_hr_payroll_sd_worx
 #: model:ir.module.module,summary:base.module_l10n_be_hr_payroll_sd_worx
 msgid "Export Work Entries to SD Worx"
@@ -26962,7 +27916,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extraire les données des numérisations de notes de frais pour les compléter "
+=======
+"Extraire les données des scans de dépenses pour les compléter "
+>>>>>>> upstream/18.0
 =======
 "Extraire les données des scans de dépenses pour les compléter "
 >>>>>>> upstream/18.0
@@ -26993,6 +27951,14 @@ msgid "Extraterritorial"
 msgstr "Extraterritorial"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_eyewear_shop
+msgid "Eyewear Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,full_name:base.res_partner_industry_F
 msgid "F - CONSTRUCTION"
 msgstr "F - CONSTRUCTION"
@@ -27051,6 +28017,14 @@ msgid "Faroe Islands"
 msgstr "Îles Féroé"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_fast_food
+msgid "Fast Food"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_it_edi_website_sale
 msgid "Features for Italian eCommerce eInvoicing"
 msgstr ""
@@ -27475,6 +28449,14 @@ msgid "Find old records and archive/delete them"
 msgstr "Retrouvez d'anciens enregistrements et archivez/supprimez-les"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_industry_restaurant
+msgid "Fine Dining Restaurant"
+msgstr "Restaurant gastronomique"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__base_partner_merge_automatic_wizard__state__finished
 msgid "Finished"
 msgstr "Terminé"
@@ -27542,6 +28524,14 @@ msgstr ""
 "disponibles, le même mode que pour les écrans plus larges est utilisé)"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_fitness
+msgid "Fitness Center"
+msgstr "Salle de Fitness"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_l10n_nl_reports_sbr_ob_nummer
 msgid ""
 "Fix to add the omzetbelastingnummer in Dutch Localization for SBR documents"
@@ -27603,6 +28593,14 @@ msgid "Font"
 msgstr "Police"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_food_trucks
+msgid "Food Trucks"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_I
 msgid "Food/Hospitality"
 msgstr "Alimentation/Hospitalité"
@@ -27728,6 +28726,14 @@ msgid "Forum on Courses"
 msgstr "Forum de Cours"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_coal_petroleum
+msgid "Fossil Fuel Trading"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
@@ -27825,6 +28831,14 @@ msgid "French Intrastat Declaration"
 msgstr "Declaration Intrastat française"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_fr_intrastat_services
+msgid "French Intrastat Declaration (Services)"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_fr_hr_payroll
 msgid "French Payroll"
 msgstr "Paie française"
@@ -27902,6 +28916,14 @@ msgid "Function"
 msgstr "Fonction"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_furniture_store
+msgid "Furniture Store"
+msgstr "Magasin de meubles"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,full_name:base.res_partner_industry_G
 msgid ""
 "G - WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES"
@@ -28037,6 +29059,14 @@ msgstr ""
 "    "
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_gardening
+msgid "Gardening"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_sale_gelato
 msgid "Gelato"
 msgstr "Gelato"
@@ -28111,6 +29141,10 @@ msgstr "Générez des URL courtes et traçables"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_de_intrastat
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_ee_intrastat
+>>>>>>> upstream/18.0
 msgid "Generates Intrastat XML report for declaration."
 msgstr "Génère un rapport XML Intrastat pour la déclaration."
 
@@ -28360,6 +29394,14 @@ msgid "Greece - Accounting Reports"
 msgstr "Grèce - Rapports comptables"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_gr_edi
+msgid "Greece - MyDATA"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.gl
 msgid "Greenland"
 msgstr "Groenland"
@@ -28380,6 +29422,14 @@ msgid "Grid View"
 msgstr "Vue grille"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_fmcg_store
+msgid "Grocery Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.currency,currency_subunit_label:base.PLN
 msgid "Groszy"
 msgstr "Groszy"
@@ -28631,6 +29681,14 @@ msgid "HTTP Routing"
 msgstr "Routage HTTP"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_hair_salon
+msgid "Hair Salon"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.ht
 msgid "Haiti"
 msgstr "Haïti"
@@ -28661,6 +29719,14 @@ msgid "Handle lunch orders of your employees"
 msgstr "Gérez les commandes lunch pour vos employés"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_handyman
+msgid "Handyman Services"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:base.res_partner_1
 #: model_terms:res.partner,website_description:base.res_partner_10
 #: model_terms:res.partner,website_description:base.res_partner_12
@@ -28679,6 +29745,14 @@ msgid "Hardware Proxy"
 msgstr "Proxy matériel"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_hardware_shop
+msgid "Hardware Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_reset_view_arch_wizard__has_diff
 msgid "Has Diff"
 msgstr "A une diff."
@@ -28699,6 +29773,14 @@ msgid "Header text displayed at the top of all reports."
 msgstr "Texte d'en-tête affiché en haut de tous les rapports."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.category,name:base.module_category_health_and_fitness
+msgid "Health and Fitness"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_Q
 msgid "Health/Social"
 msgstr "Santé/Social"
@@ -28892,7 +29974,11 @@ msgid "Helps you manage your expenses."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vous aide à gérer vos notes de frais."
+=======
+msgstr "Vous aide à gérer vos dépenses."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vous aide à gérer vos dépenses."
 >>>>>>> upstream/18.0
@@ -29048,6 +30134,14 @@ msgid "Hongkong"
 msgstr "Hongkong"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.category,name:base.module_category_hospitality
+msgid "Hospitality"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:base.field_ir_mail_server__smtp_host
 msgid "Hostname or IP of SMTP server"
 msgstr "Nom d'hôte ou adresse IP du serveur SMTP"
@@ -29076,7 +30170,11 @@ msgid "Hr Expense Extract"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Extrait Notes de frais RH"
+=======
+msgstr "Extrait Dépenses RH"
+>>>>>>> upstream/18.0
 =======
 msgstr "Extrait Dépenses RH"
 >>>>>>> upstream/18.0
@@ -29346,6 +30444,14 @@ msgid "ISO code"
 msgstr "Code ISO"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_it_hardware
+msgid "IT Hardware & Support"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_J
 msgid "IT/Communication"
 msgstr "IT/Communication"
@@ -29646,6 +30752,7 @@ msgid "Image is not encoded in base64."
 msgstr "L'image n'est pas encodée en base64."
 
 #. module: base
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/image.py:0
 msgid ""
@@ -29656,6 +30763,8 @@ msgstr ""
 " %s million de pixels."
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "Impacted Apps"
 msgstr "Applications concernées"
@@ -29725,9 +30834,20 @@ msgid "Import Accounting Data from SAF-T files"
 msgstr "Importer les données comptables à partir de fichiers SAF-T"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,summary:base.module_l10n_se_sie_import
 msgid "Import Accounting Data from SIE files"
 msgstr "Importer des données comptables à partir de fichiers SIE"
+=======
+#: model:ir.module.module,summary:base.module_l10n_se_sie4_import
+msgid "Import Accounting Data from SIE 4 files"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_se_sie_import
+msgid "Import Accounting Data from SIE 5 files"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_amazon
@@ -30094,6 +31214,14 @@ msgid "Indonesia E-faktur"
 msgstr "Indonésie E-faktur"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_id_efaktur_coretax
+msgid "Indonesia E-faktur (Coretax)"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_id
 msgid "Indonesian - Accounting"
 msgstr "Indonésie - Comptabilité"
@@ -30292,6 +31420,14 @@ msgstr ""
 "Transformez les e-mails reçus dans votre boîte de messagerie en tickets et enregistrez leur contenu sous forme de notes internes."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_pos_pine_labs
+msgid "Integrate your POS with Pine Labs payment terminals"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_pos_paytm
 msgid "Integrate your POS with a PayTM payment terminal"
 msgstr "Intégrez votre PdV avec un terminal de paiement PayTM"
@@ -30317,6 +31453,14 @@ msgid "Integrate your POS with a Stripe payment terminal"
 msgstr "Intégrez votre PdV dans un terminal de paiement Stripe"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_pos_tyro
+msgid "Integrate your POS with a Tyro payment terminal (AU)"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_pos_viva_wallet
 msgid "Integrate your POS with a Viva Wallet payment terminal"
 msgstr "Intégrez votre PdV avec un terminal de paiement Viva Wallet"
@@ -30450,6 +31594,14 @@ msgid "Intrastat Reports"
 msgstr "Rapports Intrastat"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_account_intrastat_services
+msgid "Intrastat Reports for Services"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "Introspection report on objects"
 msgstr "Rapport d'introspection sur les objets"
@@ -30945,11 +32097,27 @@ msgid "Italy - Point of Sale"
 msgstr "Italie - Point de Vente"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_it_edi_sale
+msgid "Italy - Sale E-invoicing"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_it_stock_ddt
 msgid "Italy - Stock DDT"
 msgstr "Italie - Stock DDT"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_it_xml_export
+msgid "Italy - Tax Report XML Export"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_it_edi_website_sale
 msgid "Italy eCommerce eInvoicing"
 msgstr "Facturation électronique eCommerce Italie"
@@ -31044,6 +32212,7 @@ msgid "K - FINANCIAL AND INSURANCE ACTIVITIES"
 msgstr "K - ACTIVITES FINANCIERES ET D'ASSURANCES"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,shortdesc:base.module_l10n_sa_hr_payroll
 msgid "Saudi Arabia - Payroll"
 msgstr "Arabie Saoudite - Paie"
@@ -31054,6 +32223,8 @@ msgid "Saudi Arabia - Payroll with Accounting"
 msgstr "Arabie Saoudite - Paie avec comptabilité"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_digest
 msgid "KPI Digests"
 msgstr "Digests KPI"
@@ -31662,6 +32833,14 @@ msgid "Launch Configuration Wizard"
 msgstr "Lancer l'assistant de configuration"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_industry_lawyer
+msgid "Law Firm"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_res_company__layout_background
 msgid "Layout Background"
 msgstr "Agencement arrière-plan"
@@ -31952,6 +33131,14 @@ msgid "Link module between pos_sale and l10n_be"
 msgstr "Module de liaison entre pos_sale et l10n_be"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_pos_event_sale
+msgid "Link module between pos_sale and pos_event"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_pos_sale_loyalty
 msgid "Link module between pos_sale and pos_loyalty"
 msgstr "Module de liaison entre pos_sale et pos_loyalty"
@@ -32442,6 +33629,19 @@ msgid "Malaysia - E-invoicing Extended Features"
 msgstr "Malaisie - Fonctionnalités étendues pour la facturation électronique"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_my_hr_payroll
+msgid "Malaysia - Payroll"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_my_hr_payroll_account
+msgid "Malaysia - Payroll with Accounting"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_my_ubl_pint
 msgid "Malaysia - UBL PINT"
 msgstr "Malaisie - UBL PINT"
@@ -32852,6 +34052,14 @@ msgid "Manat"
 msgstr "Manat"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_co_edi_mandate
+msgid "Mandate invoicing for Colombia"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.category,name:base.module_category_manufacturing
 #: model:ir.module.category,name:base.module_category_manufacturing_manufacturing
 #: model:ir.module.module,shortdesc:base.module_mrp
@@ -32918,6 +34126,14 @@ msgid "Marketing"
 msgstr "Marketing"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_marketing_agency
+msgid "Marketing Agency"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.category,name:base.module_category_marketing_marketing_automation
 #: model:ir.module.module,shortdesc:base.module_marketing_automation
 msgid "Marketing Automation"
@@ -33009,6 +34225,15 @@ msgid "Mass mailing sms on sale orders"
 msgstr "SMS marketing sur les commandes clients"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_hr_recruitment_sms
+#: model:ir.module.module,summary:base.module_hr_recruitment_sms
+msgid "Mass mailing sms to job applicants"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_mrp_mps
 #: model:ir.module.module,summary:base.module_mrp_mps
 msgid "Master Production Schedule"
@@ -33213,6 +34438,14 @@ msgid "Mexico/General"
 msgstr "Mexique/Général"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_micro_brewery
+msgid "Microbrewery"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.fm
 msgid "Micronesia"
 msgstr "Micronésie"
@@ -34399,6 +35632,14 @@ msgid "None"
 msgstr "Aucun"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_non_profit_organization
+msgid "Nonprofit Organization"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.nf
 msgid "Norfolk Island"
 msgstr "Île Norfolk"
@@ -35096,12 +36337,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Garder une trace des notes de frais des employés\n"
 "-------------------------------\n"
 "\n"
 "Débarrassez-vous de la paperasse et gardez un œil sur les notes de frais des employés directement dans Odoo.\n"
 "Ne perdez ni temps ni argent en maîtrisant l'intégralité du flux : validation des notes de frais,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35119,6 +36363,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35511,6 +36758,19 @@ msgid "Odoo Mobile Core module"
 msgstr "Module principal pour mobile Odoo"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,summary:base.module_pos_mobile
+msgid "Odoo Mobile Point of Sale module"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_odoo_partner
+msgid "Odoo Partner"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_point_of_sale
 msgid ""
 "Odoo Point of Sale\n"
@@ -37219,6 +38479,14 @@ msgstr ""
 "services sans avertissement préalable en cas de retard de paiement."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_outdoor_activities
+msgid "Outdoor Activities"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.view_ir_mail_server_search
 msgid "Outgoing Mail Server"
 msgstr "Serveur de messagerie sortant"
@@ -37377,6 +38645,14 @@ msgid "POS PayTM"
 msgstr "PdV PayTM"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_pos_pine_labs
+msgid "POS Pine Labs"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_pos_pricer
 msgid "POS Pricer"
 msgstr "PdV Pricer"
@@ -37462,6 +38738,14 @@ msgid "POS Stripe"
 msgstr "PdV Stripe"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_pos_tyro
+msgid "POS Tyro"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_pos_urban_piper_swiggy
 msgid "POS UrbanPiper - Swiggy"
 msgstr "PdV UrbanPiper - Swiggy"
@@ -38153,6 +39437,14 @@ msgid "Payment Provider: Mollie"
 msgstr "Fournisseur de paiement : Mollie"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_payment_nuvei
+msgid "Payment Provider: Nuvei"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_payment_paypal
 msgid "Payment Provider: Paypal"
 msgstr "Fournisseur de paiement : Paypal"
@@ -38237,6 +39529,14 @@ msgid "Peppol"
 msgstr "Peppol"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_personal_trainer
+msgid "Personal Trainer"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Personnel Administration"
@@ -38307,6 +39607,14 @@ msgid "Pesos"
 msgstr "Pesos"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_pharmacy_retail
+msgid "Pharmacy"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.ph
 msgid "Philippines"
 msgstr "Les Philippines"
@@ -38348,6 +39656,14 @@ msgid "Phone:"
 msgstr "Téléphone :"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_photography
+msgid "Photography"
+msgstr "Photographie"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.currency,currency_subunit_label:base.SSP
 msgid "Piasters"
 msgstr "Piasters"
@@ -38467,6 +39783,14 @@ msgstr ""
 "propre mot de passe."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_pos_event_sale
+msgid "PoS - Event Sale"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_pos_order_tracking_display
 msgid "PoS Order Tracking Customer Display"
 msgstr "Affichage client du suivi de la commande PdV"
@@ -38516,6 +39840,14 @@ msgid "Point of Sale Discounts"
 msgstr "Remises du point de vente"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_pos_mobile
+msgid "Point of Sale Mobile"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_pos_sale_stock_renting
 msgid "Point of Sale Rental Stock"
 msgstr "Location stock point de vente"
@@ -38943,7 +40275,11 @@ msgid "Project - Sale - Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Projet - Ventes - Notes de frais"
+=======
+msgstr "Projet - Ventes - Dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projet - Ventes - Dépenses"
 >>>>>>> upstream/18.0
@@ -38999,7 +40335,11 @@ msgid "Project Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Projet Notes de frais"
+=======
+msgstr "Projet Dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projet Dépenses"
 >>>>>>> upstream/18.0
@@ -39247,7 +40587,11 @@ msgid "Project expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Projet notes de frais"
+=======
+msgstr "Projet dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projet dépenses"
 >>>>>>> upstream/18.0
@@ -39351,6 +40695,14 @@ msgstr ""
 " personnalisé !"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_condominium
+msgid "Property Owner Association"
+msgstr "Association des propriétaires"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.partner.category,name:base.res_partner_category_2
 msgid "Prospects"
 msgstr "Prospects"
@@ -39868,6 +41220,10 @@ msgid "Real"
 msgstr "Real"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_industry_real_estate
+>>>>>>> upstream/18.0
 #: model:res.partner.industry,name:base.res_partner_industry_L
 msgid "Real Estate"
 msgstr "Immobilier"
@@ -39944,6 +41300,14 @@ msgid "Recruitment"
 msgstr "Recrutement"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_hr_recruitment_sms
+msgid "Recruitment - SMS"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment_sign
 msgid "Recruitment - Signature"
 msgstr "Recrutement - Signature"
@@ -40414,6 +41778,14 @@ msgid "Restrict"
 msgstr "Restreindre"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.category,name:base.module_category_retail
+msgid "Retail"
+msgstr "Vente au détail"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.res_device_view_kanban
 #: model_terms:ir.ui.view,arch_db:base.res_device_view_tree
 msgid "Revoke"
@@ -41016,6 +42388,14 @@ msgid "Sale modifications for Brazil"
 msgstr "Modifications de vente pour le Brésil"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,description:base.module_l10n_it_edi_sale
+msgid "Sale modifications for Italy E-invoicing"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_sale_management
 msgid "Sale order spreadsheet"
 msgstr "Feuille de calcul des commandes clients"
@@ -41068,7 +42448,11 @@ msgid "Sales Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ventes Notes de frais"
+=======
+msgstr "Ventes Dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ventes Dépenses"
 >>>>>>> upstream/18.0
@@ -41237,6 +42621,19 @@ msgid "Saudi Arabia - E-invoicing (Simplified)"
 msgstr "Arabie saoudite - Facturation électronique (simplifiée)"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_sa_hr_payroll
+msgid "Saudi Arabia - Payroll"
+msgstr "Arabie Saoudite - Paie"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_sa_hr_payroll_account
+msgid "Saudi Arabia - Payroll with Accounting"
+msgstr "Arabie Saoudite - Paie avec comptabilité"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_l10n_sa_pos
 msgid "Saudi Arabia - Point of Sale"
 msgstr "Arabie saoudite - Point de vente"
@@ -41803,6 +43200,14 @@ msgid "Serbia - Accounting Reports"
 msgstr "Serbie - Rapports comptables"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_rs_edi
+msgid "Serbia - eFaktura E-invoicing"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__ir_logging__type__server
 msgid "Server"
 msgstr "Serveur"
@@ -41987,6 +43392,14 @@ msgid "Shiprocket: Cash on Delivery"
 msgstr "Shiprocket : paiement en espèces lors de la livraison"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_shoe_maker
+msgid "Shoe Maker"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_sale_shopee
 msgid "Shopee Connector"
 msgstr "Connecteur Shopee"
@@ -42029,6 +43442,14 @@ msgid "Show active currencies"
 msgstr "Afficher les devises actives"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_search
+msgid "Show inactive bank account"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
 msgid "Show inactive currencies"
 msgstr "Afficher les devises inactives"
@@ -42301,6 +43722,19 @@ msgid "Social media connectors for company settings."
 msgstr "Connecteurs de réseaux sociaux pour les paramètres de la société."
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_software_reseller
+msgid "Software Reseller"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_solar_installation
+msgid "Solar Energy Systems"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.currency,currency_unit_label:base.PEN
 msgid "Soles"
 msgstr "Soles"
@@ -42446,7 +43880,11 @@ msgid "Spain - Modelo 130 Tax report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Espagne - Modelo 130 Rapport fiscal"
+=======
+msgstr "Espagne - Modelo 130 Déclaration fiscale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Espagne - Modelo 130 Déclaration fiscale"
 >>>>>>> upstream/18.0
@@ -42601,6 +44039,14 @@ msgid "Sponsors, Tracks, Agenda, Event News"
 msgstr "Sponsors, Sessions, Agenda, nouvelles d'événement"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_sports_club
+msgid "Sports Club"
+msgstr "Club de sport"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,description:base.module_spreadsheet
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard
 #: model:ir.module.module,description:base.module_spreadsheet_dashboard_account
@@ -42741,7 +44187,11 @@ msgid "Spreadsheet dashboard for expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Feuille de calcul tableau de bord pour notes de frais"
+=======
+msgstr "Feuille de calcul tableau de bord pour dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feuille de calcul tableau de bord pour dépenses"
 >>>>>>> upstream/18.0
@@ -43143,7 +44593,11 @@ msgid "Submit, validate and reinvoice employee expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Soumettez, validez et facturez les notes de frais des employés"
+=======
+msgstr "Soumettez, validez et facturez les dépenses des employés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Soumettez, validez et facturez les dépenses des employés"
 >>>>>>> upstream/18.0
@@ -43202,6 +44656,14 @@ msgid "Supplementary arguments"
 msgstr "Arguments supplémentaires"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.category,name:base.module_category_supply_chain
+msgid "Supply Chain"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,summary:base.module_website_event_track_live
 msgid "Support live tracks: streaming, participation, youtube"
 msgstr ""
@@ -43223,6 +44685,14 @@ msgid "Suriname"
 msgstr "Suriname"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_surveyor
+msgid "Surveying & Mapping"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.category,name:base.module_category_marketing_surveys
 #: model:ir.module.module,shortdesc:base.module_survey
 #: model:ir.module.module,summary:base.module_hr_recruitment_survey
@@ -43250,9 +44720,25 @@ msgid "Sweden - Accounting Reports"
 msgstr "Suède - Rapports comptables"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,shortdesc:base.module_l10n_se_sie_import
 msgid "Sweden - SIE Import"
 msgstr "Suède - Import SIE"
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_se_sie4_export
+msgid "Sweden - SIE 4 Export"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_se_sie4_import
+msgid "Sweden - SIE 4 Import"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_se_sie_import
+msgid "Sweden - SIE 5 Import"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_l10n_se
@@ -43265,6 +44751,14 @@ msgid "Swiss - Point of Sale"
 msgstr "Suisse - Point de Vente"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_ch_hr_payroll_elm_transmission
+msgid "Swissdec Certified Payroll (ELM 5.0)"
+msgstr "Paie certifiée Swissdec (ELM 5.0)"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:base.language_install_view_form_lang_switch
 msgid "Switch to"
 msgstr "Passer à"
@@ -43296,6 +44790,10 @@ msgstr "Suisse - Paie"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ch_hr_payroll_account
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_ch_hr_payroll_elm_transmission_account
+>>>>>>> upstream/18.0
 msgid "Switzerland - Payroll with Accounting"
 msgstr "Suisse - Paie avec Comptabilité"
 
@@ -43444,6 +44942,14 @@ msgid "Tala"
 msgstr "Tala"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_headhunter
+msgid "Talent Acquisition"
+msgstr "Acquisition de talents"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Talent Management"
@@ -43498,6 +45004,14 @@ msgid "Task Logs"
 msgstr "Journaux des tâches"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_tattoo_shop
+msgid "Tattoo Shop"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base/models/res_partner.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__vat
@@ -44900,6 +46414,7 @@ msgstr ""
 "pour Hong Kong."
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,description:base.module_l10n_bd
 msgid ""
 "\n"
@@ -45136,6 +46651,8 @@ msgstr ""
 "- Le rapport de retenue à la source\n"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:base.field_ir_actions_report__attachment
 msgid ""
 "This is the filename of the attachment used to store the printing result. "
@@ -45265,11 +46782,17 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codabox
 msgid ""
+<<<<<<< HEAD
 "This module allows connection to CodaBox and automatically imports CODA and "
 "SODA statements in Odoo."
 msgstr ""
 "Ce module permet de se connecter à la CodaBox et d'importer automatiquement "
 "les extraits CODA et SODA dans Odoo."
+=======
+"This module allows connection to CodaBox\n"
+"and automatically imports CODA and SODA statements in Odoo.\n"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_online_payment
@@ -45919,6 +47442,15 @@ msgstr ""
 
 #. module: base
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/image.py:0
+msgid "Too large image (above %sMpx), reduce the image size."
+msgstr ""
+
+#. module: base
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/base/models/res_users.py:0
 msgid "Too many login failures, please wait a bit before trying again."
 msgstr "Trop d'erreurs de connexion, attendez un peu avant de réessayer. "
@@ -45945,6 +47477,14 @@ msgid "Tours"
 msgstr "Visites"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_toy_store
+msgid "Toy Store"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base.field_ir_profile__traces_async
 msgid "Traces Async"
 msgstr "Traces Async"
@@ -46237,6 +47777,7 @@ msgid "U - ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"
 msgstr "U - ACTIVITÉS DES ORGANISMES ET ORGANISMES EXTRATERRITORIAUX"
 
 #. module: base
+<<<<<<< HEAD
 #: model:ir.module.module,shortdesc:base.module_l10n_ae_hr_payroll
 msgid "United Arab Emirates - Payroll"
 msgstr "Émirats Arabes Unis - Paie"
@@ -46252,6 +47793,8 @@ msgid "United Arab Emirates - Corporate Tax Report"
 msgstr "Émirats arabes unis - Impôt des sociétés"
 
 #. module: base
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__uct
 msgid "UCT"
 msgstr "UCT"
@@ -46600,6 +48143,24 @@ msgid "United Arab Emirates - Accounting Reports"
 msgstr "Émirats arabes unis - Rapports comptables"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_l10n_ae_corporate_tax_report
+msgid "United Arab Emirates - Corporate Tax Report"
+msgstr "Émirats arabes unis - Impôt des sociétés"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_ae_hr_payroll
+msgid "United Arab Emirates - Payroll"
+msgstr "Émirats Arabes Unis - Paie"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_ae_hr_payroll_account
+msgid "United Arab Emirates - Payroll with Accounting"
+msgstr "Émirats Arabes Unis - Paie avec comptabilité"
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.uk
 msgid "United Kingdom"
 msgstr "Royaume-Uni"
@@ -47879,6 +49440,14 @@ msgid "Website profile"
 msgstr "Profil du site web"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_wedding_planner
+msgid "Wedding Planner"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:base.selection__res_lang__week_start__3
 msgid "Wednesday"
 msgstr "Mercredi"
@@ -47889,6 +49458,14 @@ msgid "Weeks"
 msgstr "Semaines"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_wellness_practitioner
+msgid "Wellness Practitioner"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:res.country,name:base.eh
 msgid "Western Sahara"
 msgstr "Sahara occidental"
@@ -48012,8 +49589,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lors de la refacturation de la note de frais sur la commande client, "
 "définissez le coût sur le montant total hors taxes de la note de frais."
+=======
+"Lors de la refacturation de la dépense sur la commande client, définissez le"
+" coût sur le montant total hors taxes de la dépense."
+>>>>>>> upstream/18.0
 =======
 "Lors de la refacturation de la dépense sur la commande client, définissez le"
 " coût sur le montant total hors taxes de la dépense."
@@ -49115,7 +50697,11 @@ msgid "expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "notes de frais"
+=======
+msgstr "dépenses"
+>>>>>>> upstream/18.0
 =======
 msgstr "dépenses"
 >>>>>>> upstream/18.0
@@ -49346,8 +50932,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "prédire le produit à partir de la description de la note de frais sur base "
 "des anciennes"
+=======
+"prédire le produit à partir de la description de la dépense sur base des "
+"anciennes"
+>>>>>>> upstream/18.0
 =======
 "prédire le produit à partir de la description de la dépense sur base des "
 "anciennes"
@@ -49423,6 +51014,14 @@ msgid "subscriptions"
 msgstr "abonnements"
 
 #. module: base
+<<<<<<< HEAD
+=======
+#: model:ir.module.module,shortdesc:base.module_tests
+msgid "test"
+msgstr ""
+
+#. module: base
+>>>>>>> upstream/18.0
 #: model:ir.module.module,shortdesc:base.module_test_data_module_install
 msgid "test installation of data module"
 msgstr "tester l'installation du module de données"

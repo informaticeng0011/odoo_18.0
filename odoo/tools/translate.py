@@ -161,11 +161,14 @@ TRANSLATED_ELEMENTS = {
 # a condition for a node to have the attribute translatable.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRANSLATED_ATTRS = dict.fromkeys({
     'string', 'add-label', 'help', 'sum', 'avg', 'confirm', 'placeholder', 'alt', 'title', 'aria-label',
     'aria-keyshortcuts', 'aria-placeholder', 'aria-roledescription', 'aria-valuetext',
     'value_label', 'data-tooltip', 'label',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # ⚠ Note that it implicitly includes their t-attf-* equivalent.
@@ -174,6 +177,9 @@ TRANSLATED_ATTRS = dict.fromkeys({
     'aria-keyshortcuts', 'aria-placeholder', 'aria-roledescription', 'aria-valuetext',
     'value_label', 'data-tooltip', 'label', 'cancel-label', 'confirm-label',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197,7 +203,10 @@ TRANSLATED_ATTRS.update(
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 # This should match the list provided to OWL (see translatableAttributes).
@@ -214,6 +223,9 @@ OWL_TRANSLATED_ATTRS = {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1069,7 +1081,11 @@ def _extract_translatable_qweb_terms(element, callback):
             for attr in el.attrib:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (not is_component and attr in TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
+=======
+                if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
+>>>>>>> upstream/18.0
 =======
                 if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
 >>>>>>> upstream/18.0

@@ -32,6 +32,12 @@
          */
         constructor(root) {
             this.root = root;
+<<<<<<< HEAD
+=======
+
+            const strDebug = new URLSearchParams(location.search).get("debug");
+            this.debug = Boolean(strDebug && strDebug !== "0");
+>>>>>>> upstream/18.0
         }
 
         /** @type {OdooModuleLoader["addJob"]} */
@@ -184,8 +190,12 @@
                 );
             }
 
+<<<<<<< HEAD
             const debug = new URLSearchParams(location.search).get("debug");
             if (debug && debug !== "0") {
+=======
+            if (this.debug) {
+>>>>>>> upstream/18.0
                 const style = document.createElement("style");
                 style.className = "o_module_error_banner";
                 style.textContent = `
@@ -236,6 +246,7 @@
         }
     }
 
+<<<<<<< HEAD
     if (odoo.debug && !new URLSearchParams(location.search).has("debug")) {
         // remove debug mode if not explicitely set in url
         odoo.debug = "";
@@ -244,4 +255,14 @@
     const loader = new ModuleLoader();
     odoo.define = loader.define.bind(loader);
     odoo.loader = loader;
+=======
+    const loader = new ModuleLoader();
+    odoo.define = loader.define.bind(loader);
+    odoo.loader = loader;
+
+    if (odoo.debug && !loader.debug) {
+        // remove debug mode if not explicitely set in url
+        odoo.debug = "";
+    }
+>>>>>>> upstream/18.0
 })((globalThis.odoo ||= {}));

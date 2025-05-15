@@ -3,7 +3,11 @@
 # 	* loyalty
 # 
 # Translators:
+<<<<<<< HEAD
 # Xavier, 2024
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 # eriiikgt, 2024
 # Bàrbara Partegàs <barbararof@gmail.com>, 2024
 # Santiago Payà <santiagopim@gmail.com>, 2024
@@ -27,6 +31,10 @@
 # Ivan Espinola, 2024
 # Josep Anton Belchi, 2025
 # EstudiTIC - estuditic.com <odoo@estuditic.com>, 2025
+<<<<<<< HEAD
+=======
+# Noemi Pla, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -34,7 +42,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: EstudiTIC - estuditic.com <odoo@estuditic.com>, 2025\n"
+=======
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +144,11 @@ msgstr "(impostos exclosos)"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "-> View History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Visualitzar l'historial"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_coupon
@@ -159,7 +175,11 @@ msgstr "2+1 lliures"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "2023-08-20"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "20-08-2023"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
@@ -270,6 +290,15 @@ msgid ""
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'gift_card'\">Gift Cards</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'ewallet'\">eWallets</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"program_type not in ('coupons', 'next_order_coupons')\">Cupons</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"program_type != 'loyalty'\">Targetes de fidelització</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"program_type not in ('promotion', 'buy_x_get_y')\">Promocions</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"program_type != 'promo_code'\">Descompte</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"program_type != 'gift_card'\">Targetes regal</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"program_type != 'ewallet'\">Moneder electrònic</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -290,7 +319,11 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "<span invisible=\"not clear_wallet\"> (or more)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not clear_wallet\"> (o més)</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -302,6 +335,15 @@ msgid ""
 "                            Generate \n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not will_send_mail\">\n"
+"                            Generar i enviar \n"
+"                        </span>\n"
+"                        <span invisible=\"will_send_mail\">\n"
+"                            Generar \n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.portal_loyalty_history_breadcrumbs
@@ -425,7 +467,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "ABCDE12345"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ABCDE12345"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction
@@ -446,7 +492,11 @@ msgstr "Actiu"
 #: model:ir.model.fields,field_description:loyalty.field_res_partner__loyalty_card_count
 #: model:ir.model.fields,field_description:loyalty.field_res_users__loyalty_card_count
 msgid "Active loyalty cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activar les targetes de fidelització"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -814,12 +864,20 @@ msgstr "Clients"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "DEMO_CODE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_CODE"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "DEMO_TEXT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_TEXT"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1042,7 +1100,11 @@ msgstr "Per a"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "For all customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Per a tots els clients"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -1327,7 +1389,11 @@ msgstr "Articles"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "John Doe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -2029,7 +2095,11 @@ msgstr "Vàlid fins"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Valid until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vàlid fins al"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__website_message_ids

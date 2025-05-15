@@ -93,6 +93,15 @@ class SaleOrder(models.Model):
             ], offset=new_qty, limit=(old_qty - new_qty), order='create_date asc')
             attendees.action_cancel()
 
+<<<<<<< HEAD
+=======
+    def _filter_can_send_abandoned_cart_mail(self):
+        """Prevent carts with expired/sold out tickets from being subject of reminder emails."""
+        return super()._filter_can_send_abandoned_cart_mail().filtered(
+            lambda so: all(ticket.sale_available for ticket in so.order_line.event_ticket_id)
+        )
+
+>>>>>>> upstream/18.0
 
 class SaleOrderLine(models.Model):
     _inherit = "sale.order.line"

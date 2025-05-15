@@ -231,6 +231,10 @@ export class X2ManyField extends Component {
                 views: [[false, "form"]],
                 res_id: record.resId,
                 res_model: this.list.resModel,
+<<<<<<< HEAD
+=======
+                context: this.props.context,
+>>>>>>> upstream/18.0
             },
             {
                 props: { resIds: this.list.resIds },

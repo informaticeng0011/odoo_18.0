@@ -23,7 +23,11 @@ import {
 } from "@odoo/hoot-dom";
 import { animationFrame, mockTouch } from "@odoo/hoot-mock";
 import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
+<<<<<<< HEAD
 import { mountForTest, parseUrl, waitForIframes } from "../local_helpers";
+=======
+import { mountForTest, parseUrl } from "../local_helpers";
+>>>>>>> upstream/18.0
 
 /**
  * @param {...string} queryAllSelectors
@@ -173,8 +177,11 @@ describe(parseUrl(import.meta.url), () => {
     test("getActiveElement", async () => {
         await mountForTest(/* xml */ `<iframe srcdoc="&lt;input &gt;"></iframe>`);
 
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
         expect(":iframe input").not.toBeFocused();
 
         const input = queryOne(":iframe input");
@@ -281,7 +288,10 @@ describe(parseUrl(import.meta.url), () => {
 
     test("isInDom", async () => {
         await mountForTest(FULL_HTML_TEMPLATE);
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 
         expect(isInDOM(document)).toBe(true);
         expect(isInDOM(document.body)).toBe(true);
@@ -456,8 +466,11 @@ describe(parseUrl(import.meta.url), () => {
         test("custom pseudo-classes", async () => {
             await mountForTest(FULL_HTML_TEMPLATE);
 
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
             // :first, :last, :only & :eq
             expectSelector(".title:first").toEqualNodes(".title", { index: 0 });
             expectSelector(".title:last").toEqualNodes(".title", { index: -1 });
@@ -704,8 +717,11 @@ describe(parseUrl(import.meta.url), () => {
                 <iframe srcdoc="&lt;p&gt;Iframe text content&lt;/p&gt;"></iframe>
             `);
 
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
             expectSelector(`:iframe html`).toEqualNodes("html", { root: "iframe" });
             expectSelector(`:iframe body`).toEqualNodes("body", { root: "iframe" });
             expectSelector(`:iframe head`).toEqualNodes("head", { root: "iframe" });

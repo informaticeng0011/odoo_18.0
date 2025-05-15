@@ -8,6 +8,7 @@
 # Wil Odoo, 2025
 # Stanislav Kurinec, 2025
 # Radim Bílý, 2025
+<<<<<<< HEAD
 # Marta Wacławek, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +54,10 @@
 =======
 # Jakub Smolka, 2025
 >>>>>>> upstream/18.0
+=======
+# Jakub Smolka, 2025
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -60,6 +65,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +111,9 @@ msgstr ""
 =======
 "Last-Translator: Jakub Smolka, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,11 +132,20 @@ msgid ""
 "\"Optional\" allows guests to register from the order confirmation email to "
 "track their order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"\"Volitelné\" umožňuje návštěvníkům registrovat se pomocí e-mailu s "
+"potvrzením objednávky, aby mohli sledovat stav své objednávky."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "#{record.name.value}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{record.name.value}"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -142,7 +160,11 @@ msgstr "%s kontrol"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "&amp; Delivery"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp; Dprava"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_item
@@ -209,13 +231,21 @@ msgstr "<b>Komunikace: </b>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 msgid "<b>Deliver to pickup point: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Doručení na výdejní místo: </b>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<b>Delivery: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Doprava: </b>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.filter_products_price
@@ -236,7 +266,11 @@ msgstr "<b>Třídit podle</b>"
 #: model_terms:ir.ui.view,arch_db:website_sale.filter_products_tags
 #: model_terms:ir.ui.view,arch_db:website_sale.o_wsale_offcanvas
 msgid "<b>Tags</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Štítky</b>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_custom_text
@@ -255,6 +289,11 @@ msgid ""
 "<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
 "                                    Return to shipping"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
+"                                    Zpět na dopravu"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_buy_now
@@ -262,6 +301,11 @@ msgid ""
 "<i class=\"fa fa-bolt me-2\"/>\n"
 "                Buy now"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-bolt me-2\"/>\n"
+"                Koupit nyní"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_add_to_cart
@@ -274,6 +318,11 @@ msgid ""
 "<i class=\"fa fa-fw fa-bolt\"/>\n"
 "                    Buy Now"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-bolt\"/>\n"
+"                    Koupit teď"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_pages_kanban_view
@@ -325,11 +374,20 @@ msgid ""
 "<i class=\"oi oi-chevron-left d-lg-none me-1\" role=\"presentation\"/>All "
 "Products"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left d-lg-none me-1\" "
+"role=\"presentation\"/>Všechny produkty"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>All Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Všechny produkty"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
@@ -337,6 +395,11 @@ msgid ""
 "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Předchozí\" title=\"Předchozí\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
@@ -344,6 +407,11 @@ msgid ""
 "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Další\" title=\"Další\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -387,6 +455,11 @@ msgid ""
 "<small class=\"mx-auto\"><b>Clear Filters</b></small>\n"
 "                            <i class=\"oi oi-close\" role=\"presentation\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small class=\"mx-auto\"><b>Vymazat filtry</b></small>\n"
+"                            <i class=\"oi oi-close\" role=\"presentation\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.suggested_products_list
@@ -413,6 +486,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">1,500.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">1,500.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -421,6 +500,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">140.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">140.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -429,6 +514,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">33.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">33.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -437,6 +528,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">750.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">750.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -450,6 +547,12 @@ msgid ""
 "                    Select to compute delivery rate\n"
 "                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
+"                    Zvolte pro výpočet ceny doručení \n"
+"                </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -467,7 +570,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
 msgid "<span class=\"s_website_form_label_content\">Upload a document</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_website_form_label_content\">Nahrát dokument</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
@@ -480,11 +587,20 @@ msgid ""
 "<span class=\"text-muted\" invisible=\"product_variant_count &lt;= 1\">Based"
 " on variants</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" invisible=\"product_variant_count &lt;= 1\">Na "
+"základě variant</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "<span class=\"visually-hidden\">filters active</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"visually-hidden\">aktivní filtry</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:web_tour.tour,rainbow_man_message:website_sale.test_01_admin_shop_tour
@@ -495,7 +611,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "<span>Already have an account?</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Máte již účet?</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -505,7 +625,11 @@ msgstr "<span>Objednávka</span>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_document_kanban
 msgid "<span>Publish on website</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Publikovat na webu</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -513,6 +637,11 @@ msgid ""
 "<span>Unfortunately your order can not be confirmed as the amount of your payment does not match the amount of your cart.\n"
 "                        Please contact the responsible of the shop for more information.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Bohužel vaše objednávka nemůže být potvrzená, protože částka vaší platby se neshoduje s částkou ve vašem košíku.\n"
+"                        Kontaktujte prosím odpovědnou osobu z obchodu pro více informací.</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
@@ -522,7 +651,11 @@ msgstr "<span>Video náhled</span>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.delivery_form
 msgid "<strong>No suitable delivery method could be found.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Nebyla nalezena žádná vhodná metoda dodaní.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -615,6 +748,11 @@ msgid ""
 "A detailed, formatted description to promote your product on this page. Use "
 "'/' to discover more features."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Podrobný, formátovaný popis pro propagaci vašeho produktu na této stránce. "
+"Použijte '/' pro zobrazení více funkcí."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -623,6 +761,12 @@ msgid ""
 "                                      this page. Use '/' to discover more "
 "features."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Podrobný, formátovaný popis pro propagaci vašeho produktu na"
+"                                      této stránce. Použijte '/' pro "
+"zobrazení více funkcí."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_template_action_website
@@ -666,17 +810,29 @@ msgstr "Zpoždění opuštění"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__send_abandoned_cart_email
 msgid "Abandoned Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opuštěný e-mail"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_snippet_filter__product_cross_selling
 msgid "About cross selling products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O křížovém prodeji produktů"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Accept Terms & Conditions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akceptujte obchodní podmínky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
@@ -686,7 +842,11 @@ msgstr "Přijatelná velikost souboru"
 #. module: website_sale
 #: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_accessories
 msgid "Accessories for Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doplňky k produktu"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product__accessory_product_ids
@@ -740,7 +900,11 @@ msgstr "Přidat do košíku"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Add a customizable form during checkout (after address)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidejte přizpůsobitelný formulář během pokladny (po adrese)"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -748,6 +912,10 @@ msgid ""
 "Add a reference price per UoM on products (i.e $/kg), in addition to the "
 "sale price"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kromě prodejní ceny, přidejte referenční cenu produktu za MJ (např. Kč/kg)."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product__compare_list_price
@@ -757,11 +925,20 @@ msgid ""
 "Add a strikethrough price to your /shop and product pages for comparison "
 "purposes.It will not be displayed if pricelists apply."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Přijdete přeškrtnutou cenu na své produktové stránky a /shop za účelem "
+"porovnávání. Nebude se zobrazovat, pokud platí ceníky."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Add a strikethrough price, as a comparison"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidejte přeškrtnutou cenu jako porovnání"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -793,7 +970,11 @@ msgstr "Přidat tlačítko Košík"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_autocomplete
 msgid "Address Autocomplete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatické doplňování adresy"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -820,7 +1001,11 @@ msgstr "Všichni uživatelé"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_delivery_carrier_form_website_delivery
 msgid "All websites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny webové stránky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -828,6 +1013,10 @@ msgid ""
 "Allow customers to pick up their online purchases at your store and pay in "
 "person"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Umožnit zákazníkům vyzvednout své online nákupy v obchodě a zaplatit osobně."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -837,7 +1026,11 @@ msgstr "Umožnit zákazníkům porovnávat produkty na základě jejich atribut�
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow signed-in users to save product in a wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umožnit přihlášeným uživatelům uložit si produkt do seznamu přání"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_pricelist__selectable
@@ -848,6 +1041,10 @@ msgstr "Umožnit koncovému uživateli vybrat tento ceník"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow your customer to add products from previous order in their cart."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Umožněte svým zákazníkům přidávat do košíku produkty z předchozí objednávky."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.dynamic_snippet_alternative_products
@@ -866,7 +1063,11 @@ msgstr "Množství opuštěných košíků"
 #. odoo-python
 #: code:addons/website_sale/controllers/delivery.py:0
 msgid "Anonymous express checkout partner for order %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anonymní expresní pokladní partner pro objednávku %s"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -882,7 +1083,11 @@ msgstr "Použít"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 msgid "Are you sure you want to delete this ribbon?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jste si jisti, že chcete smazat tuto stuhu?"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -909,18 +1114,30 @@ msgstr "Atributy"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_multimedia_augmented_reality
 msgid "Augmented Reality Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nástroje pro rozšířenou realitu"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Automatically send abandoned checkout emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticky odesílejte e-maily o opuštěných košících"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/product_list/product_list.js:0
 msgid "Available options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupné možnosti"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__rating_avg
@@ -937,7 +1154,11 @@ msgstr "Zpět do košíku"
 #. odoo-python
 #: code:addons/website_sale/models/website.py:0
 msgid "Back to delivery"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpět k dopravě"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -953,28 +1174,48 @@ msgstr "Barva pozadí"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__base_unit_count
 #: model:ir.model.fields,field_description:website_sale.field_product_template__base_unit_count
 msgid "Base Unit Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet základních jednotek"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__base_unit_name
 #: model:ir.model.fields,field_description:website_sale.field_product_template__base_unit_name
 msgid "Base Unit Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Název základní jednotky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__group_show_uom_price
 msgid "Base Unit Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena základní jednotky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.base_unit_action
 msgid "Base Units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základní jednotky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_cabinets_bathroom
 msgid "Bathroom Cabinets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koupelnové skříňky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -989,7 +1230,11 @@ msgstr "BeNeLux"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_furnitures_beds
 msgid "Beds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postele"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_benelux
@@ -1040,7 +1285,11 @@ msgid "Bin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koš"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koš"
 >>>>>>> upstream/18.0
@@ -1116,7 +1365,11 @@ msgid "Both"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zájemce/Příležitost"
+=======
+msgstr "Obojí"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obojí"
 >>>>>>> upstream/18.0
@@ -1249,7 +1502,11 @@ msgid "Cart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Košík"
+>>>>>>> upstream/18.0
 =======
 msgstr "Košík"
 >>>>>>> upstream/18.0
@@ -2907,7 +3164,11 @@ msgstr "Médium"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_menu_image_menu
 msgid "Mega menu default image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výchozí obrázek mega nabídky"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_has_error
@@ -3373,7 +3634,11 @@ msgstr "Pilulky"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_share_buttons
 msgid "Pinterest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pinterest"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
@@ -3935,7 +4200,11 @@ msgstr ""
 #: model:ir.model.fields,help:website_sale.field_product_tag__website_id
 #: model:ir.model.fields,help:website_sale.field_product_template__website_id
 msgid "Restrict to a specific website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omezit na konkrétní webovou stránku."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -4332,7 +4601,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_menus_logos
 msgid "Spring collection has arrived!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dorazila jarní kolekce!"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_boxes_stackable

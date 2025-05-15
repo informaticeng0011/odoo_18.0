@@ -1,6 +1,7 @@
 declare module "fields" {
     import { DomainListRepr } from "@web/core/domain";
 
+<<<<<<< HEAD
     export type FieldType =
         "binary" |
         "boolean" |
@@ -26,6 +27,9 @@ declare module "fields" {
     // ------------------------------------------------------------------------
 
     export interface IFieldDefinition<T extends FieldType> {
+=======
+    interface IFieldDefinition<T extends FieldType> {
+>>>>>>> upstream/18.0
         change_default: boolean;
         groupable: boolean;
         groups?: string;
@@ -48,7 +52,20 @@ declare module "fields" {
     }
 
     interface INumerical {
+<<<<<<< HEAD
         aggregator: "array_agg" | "avg" | "bool_and" | "bool_or" | "count" | "count_distinct" | "max" | "min" | "sum";
+=======
+        aggregator:
+            | "array_agg"
+            | "avg"
+            | "bool_and"
+            | "bool_or"
+            | "count"
+            | "count_distinct"
+            | "max"
+            | "min"
+            | "sum";
+>>>>>>> upstream/18.0
     }
 
     interface ITextual {
@@ -61,10 +78,18 @@ declare module "fields" {
 
     export type BooleanFieldDefinition = IFieldDefinition<"boolean">;
 
+<<<<<<< HEAD
     export type CharFieldDefinition = IFieldDefinition<"char"> & ITextual & {
         size?: number;
         trim: boolean;
     };
+=======
+    export type CharFieldDefinition = IFieldDefinition<"char"> &
+        ITextual & {
+            size?: number;
+            trim: boolean;
+        };
+>>>>>>> upstream/18.0
 
     export type DateFieldDefinition = IFieldDefinition<"date">;
 
@@ -72,10 +97,20 @@ declare module "fields" {
 
     export type FloatFieldDefinition = IFieldDefinition<"float"> & INumerical;
 
+<<<<<<< HEAD
     export type HtmlFieldDefinition = IFieldDefinition<"html"> & ITextual & {
         sanitize: boolean;
         sanitize_tags: boolean;
     };
+=======
+    export type GenericFieldDefinition = IFieldDefinition<"generic">;
+
+    export type HtmlFieldDefinition = IFieldDefinition<"html"> &
+        ITextual & {
+            sanitize: boolean;
+            sanitize_tags: boolean;
+        };
+>>>>>>> upstream/18.0
 
     export type ImageFieldDefinition = IFieldDefinition<"image">;
 
@@ -89,6 +124,7 @@ declare module "fields" {
 
     export type Many2OneReferenceFieldDefinition = IFieldDefinition<"many2one_reference">;
 
+<<<<<<< HEAD
     export type MonetaryFieldDefinition = IFieldDefinition<"monetary"> & INumerical & {
         currency_field: string;
     };
@@ -96,6 +132,17 @@ declare module "fields" {
     export type One2ManyFieldDefinition = IFieldDefinition<"one2many"> & IRelational & {
         relation_field: string;
     };
+=======
+    export type MonetaryFieldDefinition = IFieldDefinition<"monetary"> &
+        INumerical & {
+            currency_field: string;
+        };
+
+    export type One2ManyFieldDefinition = IFieldDefinition<"one2many"> &
+        IRelational & {
+            relation_field: string;
+        };
+>>>>>>> upstream/18.0
 
     export type PropertiesFieldDefinition = IFieldDefinition<"properties"> & {
         definition_record: string;
@@ -116,6 +163,7 @@ declare module "fields" {
 
     // ------------------------------------------------------------------------
 
+<<<<<<< HEAD
     export type FieldDefinition =
         BinaryFieldDefinition |
         BooleanFieldDefinition |
@@ -137,6 +185,35 @@ declare module "fields" {
         ReferenceFieldDefinition |
         SelectionFieldDefinition |
         TextFieldDefinition;
+=======
+    export type FieldDefinitionsByType = {
+        binary: BinaryFieldDefinition;
+        boolean: BooleanFieldDefinition;
+        char: CharFieldDefinition;
+        date: DateFieldDefinition;
+        datetime: DateTimeFieldDefinition;
+        float: FloatFieldDefinition;
+        generic: GenericFieldDefinition;
+        html: HtmlFieldDefinition;
+        image: ImageFieldDefinition;
+        integer: IntegerFieldDefinition;
+        json: JsonFieldDefinition;
+        many2many: Many2ManyFieldDefinition;
+        many2one_reference: Many2OneReferenceFieldDefinition;
+        many2one: Many2OneFieldDefinition;
+        monetary: MonetaryFieldDefinition;
+        one2many: One2ManyFieldDefinition;
+        properties_definition: PropertiesDefinitionFieldDefinition;
+        properties: PropertiesFieldDefinition;
+        reference: ReferenceFieldDefinition;
+        selection: SelectionFieldDefinition;
+        text: TextFieldDefinition;
+    };
+
+    export type FieldType = keyof FieldDefinitionsByType;
+
+    export type FieldDefinition = FieldDefinitionsByType[FieldType];
+>>>>>>> upstream/18.0
 
     export type FieldDefinitionMap = Record<string, FieldDefinition>;
 }

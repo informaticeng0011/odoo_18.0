@@ -3,7 +3,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43,7 +46,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "domain": [("driver_employee_id", "in", self.ids)],
+=======
+            "domain": [("driver_employee_id", "in", self.ids), ("driver_id", "in", self.work_contact_id.ids)],
+>>>>>>> upstream/18.0
 =======
             "domain": [("driver_employee_id", "in", self.ids), ("driver_id", "in", self.work_contact_id.ids)],
 >>>>>>> upstream/18.0
@@ -82,7 +89,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('driver_employee_id', 'in', self.ids),
+=======
+            ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
+>>>>>>> upstream/18.0
 =======
             ('driver_employee_id', 'in', self.ids), ('driver_id', 'in', self.work_contact_id.ids),
 >>>>>>> upstream/18.0
@@ -114,6 +125,7 @@ class Employee(models.Model):
             raise ValidationError(_('Cannot remove address from employees with linked cars.'))
 
     def write(self, vals):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +166,8 @@ class Employee(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         res = super().write(vals)
         # Update car partner when it is changed on the employee
         if 'work_contact_id' in vals:
@@ -180,6 +194,9 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

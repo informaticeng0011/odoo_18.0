@@ -321,17 +321,23 @@ class ProductProduct(models.Model):
                     }
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ratios_virtual_available.append(float_round(component_res["virtual_available"] / qty_per_kit, precision_rounding=rounding))
                 ratios_qty_available.append(float_round(component_res["qty_available"] / qty_per_kit, precision_rounding=rounding))
                 ratios_incoming_qty.append(float_round(component_res["incoming_qty"] / qty_per_kit, precision_rounding=rounding))
                 ratios_outgoing_qty.append(float_round(component_res["outgoing_qty"] / qty_per_kit, precision_rounding=rounding))
                 ratios_free_qty.append(float_round(component_res["free_qty"] / qty_per_kit, precision_rounding=rounding))
 =======
+=======
+>>>>>>> upstream/18.0
                 ratios_virtual_available.append(float_round(component_res["virtual_available"] / qty_per_kit, precision_rounding=rounding, rounding_method='DOWN'))
                 ratios_qty_available.append(float_round(component_res["qty_available"] / qty_per_kit, precision_rounding=rounding, rounding_method='DOWN'))
                 ratios_incoming_qty.append(float_round(component_res["incoming_qty"] / qty_per_kit, precision_rounding=rounding, rounding_method='DOWN'))
                 ratios_outgoing_qty.append(float_round(component_res["outgoing_qty"] / qty_per_kit, precision_rounding=rounding, rounding_method='DOWN'))
                 ratios_free_qty.append(float_round(component_res["free_qty"] / qty_per_kit, precision_rounding=rounding, rounding_method='DOWN'))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if bom_sub_lines and ratios_virtual_available:  # Guard against all cnsumable bom: at least one ratio should be present.
                 res[product.id] = {

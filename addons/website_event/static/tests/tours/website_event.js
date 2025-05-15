@@ -84,11 +84,17 @@ function websiteEditEventTourSteps() {
             run: "click",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         {
             content: "Wait for events list to load",
             trigger: ":iframe .opt_events_list_columns",
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ...clickOnEditAndWaitEditMode(),
         {

@@ -1,6 +1,10 @@
 import { Component, onWillDestroy, useEffect, useExternalListener, useRef, xml } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
 import { useActiveElement } from "@web/core/ui/ui_service";
+<<<<<<< HEAD
+=======
+import { closestScrollableY } from "@web/core/utils/scrolling";
+>>>>>>> upstream/18.0
 
 export class EditorOverlay extends Component {
     static template = xml`
@@ -137,7 +141,12 @@ export class EditorOverlay extends Component {
         if (this.env.isSmall) {
             return;
         }
+<<<<<<< HEAD
         const containerRect = this.props.getContainer().getBoundingClientRect();
+=======
+        const container = closestScrollableY(this.props.editable) || this.props.getContainer();
+        const containerRect = container.getBoundingClientRect();
+>>>>>>> upstream/18.0
         overlayElement.style.visibility = solution.top > containerRect.top ? "visible" : "hidden";
     }
 }

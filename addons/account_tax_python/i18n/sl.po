@@ -18,6 +18,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -81,7 +85,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -159,7 +167,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -209,6 +220,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247,11 +261,24 @@ msgid ""
 ":param quantity: float\n"
 ":param product: A object representing the product\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izračunajte znesek davka.\n"
+"\n"
+":param base: float, dejanski znesek, na katerega se obračuna davek\n"
+":param enota_cene: plavajoča\n"
+":param količina: plavajoči\n"
+":param izdelek: Predmet, ki predstavlja izdelek\n"
+>>>>>>> upstream/18.0
 
 #. module: account_tax_python
 #: model:ir.model.fields.selection,name:account_tax_python.selection__account_tax__amount_type__code
 msgid "Custom Formula"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formula po meri"
+>>>>>>> upstream/18.0
 
 #. module: account_tax_python
 #: model:ir.model.fields,field_description:account_tax_python.field_account_tax__formula
@@ -261,13 +288,21 @@ msgstr "Formula"
 #. module: account_tax_python
 #: model:ir.model.fields,field_description:account_tax_python.field_account_tax__formula_decoded_info
 msgid "Formula Decoded Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacije o dekodirani formuli"
+>>>>>>> upstream/18.0
 
 #. module: account_tax_python
 #. odoo-python
 #: code:addons/account_tax_python/models/account_tax.py:0
 msgid "Malformed formula '%(formula)s' at position %(position)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napačno oblikovana formula '%(formula)s' na položaju%(position)s"
+>>>>>>> upstream/18.0
 
 #. module: account_tax_python
 #: model:ir.model,name:account_tax_python.model_account_tax

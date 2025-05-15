@@ -444,7 +444,11 @@ export class Deferred extends Promise {
     constructor(executor) {
         let _resolve, _reject;
 
+<<<<<<< HEAD
         super((resolve, reject) => {
+=======
+        super(function deferredResolver(resolve, reject) {
+>>>>>>> upstream/18.0
             _resolve = resolve;
             _reject = reject;
             executor?.(_resolve, _reject);

@@ -1,5 +1,9 @@
 import { expect, test } from "@odoo/hoot";
+<<<<<<< HEAD
 import { click, queryAll } from "@odoo/hoot-dom";
+=======
+import { click } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { animationFrame } from "@odoo/hoot-mock";
 import { Component, useState, xml } from "@odoo/owl";
 import { contains, mountWithCleanup } from "@web/../tests/web_test_helpers";
@@ -51,7 +55,11 @@ test("basic ViewScaleSelector component usage", async () => {
     await click(".scale_button_selection");
     await animationFrame();
     expect(".o-dropdown--menu").toHaveCount(1);
+<<<<<<< HEAD
     expect(queryAll(".o-dropdown--menu .active")[0]).toHaveText("Weekly", {
+=======
+    expect(".o-dropdown--menu .active:first").toHaveText("Weekly", {
+>>>>>>> upstream/18.0
         message: "the active option is selected",
     });
     expect(".o-dropdown--menu span:nth-child(2)").toHaveAttribute("data-hotkey", "o", {
@@ -62,8 +70,16 @@ test("basic ViewScaleSelector component usage", async () => {
     expect.verifySteps(["day"]);
     expect(".o_view_scale_selector").toHaveText("Daily");
     await click(".scale_button_selection");
+<<<<<<< HEAD
     await contains(".dropdown-item:last-child").click();
     expect.verifySteps(["toggleWeekendVisibility"]);
+=======
+    expect(".dropdown-item:last:interactive").not.toHaveCount();
+    await contains(".dropdown-item:contains(Yearly)").click();
+    await click(".scale_button_selection");
+    await contains(".dropdown-item:last").click();
+    expect.verifySteps(["year", "toggleWeekendVisibility"]);
+>>>>>>> upstream/18.0
 });
 
 test("ViewScaleSelector with only one scale available", async () => {

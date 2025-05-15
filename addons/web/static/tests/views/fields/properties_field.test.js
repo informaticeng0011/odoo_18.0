@@ -1,8 +1,35 @@
+<<<<<<< HEAD
 import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
 import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
 import { PropertiesField } from "@web/views/fields/properties/properties_field";
 import { WebClient } from "@web/webclient/webclient";
 
+=======
+import { PropertiesField } from "@web/views/fields/properties/properties_field";
+import { Many2XAutocomplete } from "@web/views/fields/relational_utils";
+import { SelectCreateDialog } from "@web/views/view_dialogs/select_create_dialog";
+import { WebClient } from "@web/webclient/webclient";
+
+import { expect, getFixture, test } from "@odoo/hoot";
+import {
+    click,
+    edit,
+    press,
+    queryAll,
+    queryAllTexts,
+    queryAllValues,
+    queryAttribute,
+    queryFirst,
+    select,
+    waitFor,
+} from "@odoo/hoot-dom";
+import { animationFrame, mockDate, runAllTimers } from "@odoo/hoot-mock";
+import {
+    getPickerApplyButton,
+    getPickerCell,
+    getTimePickers,
+} from "@web/../tests/core/datetime/datetime_test_helpers";
+>>>>>>> upstream/18.0
 import {
     clickCancel,
     clickSave,
@@ -18,6 +45,7 @@ import {
     toggleActionMenu,
     toggleMenuItem,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 import {
     getTimePickers,
     getPickerApplyButton,
@@ -37,6 +65,8 @@ import {
 } from "@odoo/hoot-dom";
 import { getFixture, expect, test } from "@odoo/hoot";
 import { animationFrame, mockDate, runAllTimers } from "@odoo/hoot-mock";
+=======
+>>>>>>> upstream/18.0
 
 async function closePopover() {
     // Close the popover by clicking outside
@@ -1930,7 +1960,10 @@ test("properties: form view and falsy domain, properties are empty", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2010,6 +2043,9 @@ test("properties: discard changes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2648,7 +2684,12 @@ test("new property, change record, change property type", async () => {
     expect(".o_property_field .o_property_field_value input").toHaveValue("0");
 });
 
+<<<<<<< HEAD
 test.tags("desktop")("properties: moving single property to 2nd group in auto split mode", async () => {
+=======
+test.tags("desktop");
+test("properties: moving single property to 2nd group in auto split mode", async () => {
+>>>>>>> upstream/18.0
     await makePropertiesGroupView([false]);
     const { moveTo, drop } = await contains(getPropertyHandleElement("property_1"), {
         visible: false,
@@ -2665,7 +2706,12 @@ test.tags("desktop")("properties: moving single property to 2nd group in auto sp
     ]);
 });
 
+<<<<<<< HEAD
 test.tags("desktop")("properties: moving single property to 1st group", async () => {
+=======
+test.tags("desktop");
+test("properties: moving single property to 1st group", async () => {
+>>>>>>> upstream/18.0
     await makePropertiesGroupView([true, true, false]);
 
     await contains(getPropertyHandleElement("property_3"), {
@@ -2680,7 +2726,12 @@ test.tags("desktop")("properties: moving single property to 1st group", async ()
     ]);
 });
 
+<<<<<<< HEAD
 test.tags("desktop")("properties: split, moving property from 2nd group to 1st", async () => {
+=======
+test.tags("desktop");
+test("properties: split, moving property from 2nd group to 1st", async () => {
+>>>>>>> upstream/18.0
     await makePropertiesGroupView([true, false, false]);
 
     await contains(getPropertyHandleElement("property_3"), {
@@ -2696,7 +2747,12 @@ test.tags("desktop")("properties: split, moving property from 2nd group to 1st",
     ]);
 });
 
+<<<<<<< HEAD
 test.tags("desktop")("properties: split, moving property from 1st group to 2nd", async () => {
+=======
+test.tags("desktop");
+test("properties: split, moving property from 1st group to 2nd", async () => {
+>>>>>>> upstream/18.0
     await makePropertiesGroupView([true, false, false, false, false, false]);
 
     await contains(getPropertyHandleElement("property_3"), {

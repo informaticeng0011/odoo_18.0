@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { after, beforeEach } from "@odoo/hoot";
 import { mockWorker } from "@odoo/hoot-mock";
+=======
+import { after } from "@odoo/hoot";
+import { Deferred, mockWorker } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 import { MockServer } from "@web/../tests/web_test_helpers";
 
 import { WebsocketWorker } from "@bus/workers/websocket_worker";
@@ -9,6 +14,7 @@ import { patch } from "@web/core/utils/patch";
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 const getWebSocketCallbacks = () => {
     if (!wsCallbacks) {
         wsCallbacks = new Map();
@@ -19,6 +25,45 @@ const getWebSocketCallbacks = () => {
     }
     return wsCallbacks;
 };
+=======
+function cleanupWebSocketCallbacks() {
+    wsCallbacks?.clear();
+    wsCallbacks = null;
+}
+
+function cleanupWekSocketWorker() {
+    if (currentWebSocketWorker.connectTimeout) {
+        clearTimeout(currentWebSocketWorker.connectTimeout);
+    }
+
+    currentWebSocketWorker.firstSubscribeDeferred = new Deferred();
+    currentWebSocketWorker.websocket = null;
+    currentWebSocketWorker = null;
+}
+
+function getWebSocketCallbacks() {
+    if (!wsCallbacks) {
+        wsCallbacks = new Map();
+
+        after(cleanupWebSocketCallbacks);
+    }
+
+    return wsCallbacks;
+}
+
+/**
+ * @param {SharedWorker | Worker} worker
+ */
+function onWorkerConnected(worker) {
+    currentWebSocketWorker.registerClient(worker._messageChannel.port2);
+}
+
+function setupWebSocketWorker() {
+    currentWebSocketWorker = new WebsocketWorker();
+
+    mockWorker(onWorkerConnected);
+}
+>>>>>>> upstream/18.0
 
 /** @type {WebsocketWorker | null} */
 let currentWebSocketWorker = null;
@@ -53,6 +98,7 @@ export function onWebsocketEvent(eventName, callback) {
 // Setup
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 beforeEach(
     () => {
         currentWebSocketWorker = new WebsocketWorker();
@@ -67,6 +113,17 @@ beforeEach(
     },
     { global: true }
 );
+=======
+patch(MockServer.prototype, {
+    start() {
+        setupWebSocketWorker();
+        after(cleanupWekSocketWorker);
+
+        return super.start(...arguments);
+    },
+});
+
+>>>>>>> upstream/18.0
 patch(WebsocketWorker.prototype, {
     INITIAL_RECONNECT_DELAY: 0,
     RECONNECT_JITTER: 5,

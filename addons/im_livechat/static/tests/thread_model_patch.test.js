@@ -6,6 +6,10 @@ import {
     start,
     startServer,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    triggerHotkey,
+>>>>>>> upstream/18.0
 =======
     triggerHotkey,
 >>>>>>> upstream/18.0
@@ -51,7 +55,10 @@ test("Thread name unchanged when inviting new users", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("Can set a custom name to livechat conversation", async () => {
     const pyEnv = await startServer();
     const guestId = pyEnv["mail.guest"].create({ name: "Visitor #20" });
@@ -74,6 +81,9 @@ test("Can set a custom name to livechat conversation", async () => {
     await contains(".o-mail-DiscussSidebar-item:contains('New Name')");
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("Display livechat custom username if defined", async () => {
     const pyEnv = await startServer();

@@ -330,7 +330,11 @@ test("Export dialog: interacting with export templates", async () => {
 });
 
 test("Export dialog: interacting with export templates in debug", async () => {
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/web/export/formats", () => {
         return [{ tag: "csv", label: "CSV" }];
@@ -670,11 +674,21 @@ test("ExportDialog: export all records of the domain", async () => {
     onRpc("/web/export/formats", () => {
         return [{ tag: "xls", label: "Excel" }];
     });
+<<<<<<< HEAD
     onRpc("/web/export/get_fields", async (request) =>  {
         const { params } = await request.json();
         if (isDomainSelected) {
             const expectedDomain = params.parent_field ? [] : [["bar", "!=", "glou"]];
             expect(params.domain).toEqual(expectedDomain, {message: "Domain is only applied on the root model"});
+=======
+    onRpc("/web/export/get_fields", async (request) => {
+        const { params } = await request.json();
+        if (isDomainSelected) {
+            const expectedDomain = params.parent_field ? [] : [["bar", "!=", "glou"]];
+            expect(params.domain).toEqual(expectedDomain, {
+                message: "Domain is only applied on the root model",
+            });
+>>>>>>> upstream/18.0
             expect.step("get export fields route called with correct domain");
         }
         return fetchedFields.root;
@@ -1034,7 +1048,11 @@ test("Export dialog: expand subfields after search", async () => {
 });
 
 test("Export dialog: search in debug", async () => {
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/web/export/formats", () => {
         return [{ tag: "csv", label: "CSV" }];

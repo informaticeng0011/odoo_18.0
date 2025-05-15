@@ -56,6 +56,10 @@ import { waitUntil } from "./time";
  * @typedef {{
  *  displayed?: boolean;
  *  exact?: number;
+<<<<<<< HEAD
+=======
+ *  interactive?: boolean;
+>>>>>>> upstream/18.0
  *  root?: HTMLElement;
  *  viewPort?: boolean;
  *  visible?: boolean;
@@ -99,6 +103,10 @@ const {
     Object: { keys: $keys, values: $values },
     RegExp,
     Set,
+<<<<<<< HEAD
+=======
+    window,
+>>>>>>> upstream/18.0
 } = globalThis;
 
 //-----------------------------------------------------------------------------
@@ -299,6 +307,14 @@ const isElement = (object) => object?.nodeType === Node.ELEMENT_NODE;
 /**
  * @param {Node} node
  */
+<<<<<<< HEAD
+=======
+const isNodeInteractive = (node) => getStyle(node).pointerEvents !== "none";
+
+/**
+ * @param {Node} node
+ */
+>>>>>>> upstream/18.0
 const isQueryableNode = (node) => QUERYABLE_NODE_TYPES.includes(node.nodeType);
 
 /**
@@ -549,6 +565,7 @@ const parseSelector = (selector) => {
  */
 const parseXml = (xmlString, type) => {
     const wrapperTag = type === "html" ? "body" : "templates";
+<<<<<<< HEAD
     const document = parser.parseFromString(
         `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
         `text/${type}`
@@ -562,6 +579,21 @@ const parseXml = (xmlString, type) => {
         );
     }
     return document.getElementsByTagName(wrapperTag)[0].childNodes;
+=======
+    const doc = parser.parseFromString(
+        `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
+        `text/${type}`
+    );
+    if (doc.getElementsByTagName("parsererror").length) {
+        const trimmed = xmlString.length > 80 ? xmlString.slice(0, 80) + "…" : xmlString;
+        throw new HootDomError(
+            `error while parsing ${trimmed}: ${getNodeText(
+                doc.getElementsByTagName("parsererror")[0]
+            )}`
+        );
+    }
+    return doc.getElementsByTagName(wrapperTag)[0].childNodes;
+>>>>>>> upstream/18.0
 };
 
 /**
@@ -760,6 +792,14 @@ customPseudoClasses
             return doc && doc.readyState !== "loading" ? doc : false;
         };
     })
+<<<<<<< HEAD
+=======
+    .set("interactive", () => {
+        return function interactive(node) {
+            return isNodeInteractive(node);
+        };
+    })
+>>>>>>> upstream/18.0
     .set("last", () => {
         return function last(node, i, nodes) {
             return i === nodes.length - 1;
@@ -840,7 +880,13 @@ export function getCurrentDimensions() {
  * @returns {Document}
  */
 export function getDocument(node) {
+<<<<<<< HEAD
     node ||= getDefaultRoot();
+=======
+    if (!node) {
+        return document;
+    }
+>>>>>>> upstream/18.0
     return isDocument(node) ? node : node.ownerDocument || document;
 }
 
@@ -930,6 +976,24 @@ export function getNodeText(node, options) {
 }
 
 /**
+<<<<<<< HEAD
+=======
+ * @param {Node} node
+ * @returns {Node | null}
+ */
+export function getInteractiveNode(node) {
+    let currentEl = ensureElement(node);
+    if (!currentEl) {
+        return null;
+    }
+    while (currentEl && !isNodeInteractive(currentEl)) {
+        currentEl = currentEl.parentElement;
+    }
+    return currentEl;
+}
+
+/**
+>>>>>>> upstream/18.0
  * @template {Node} T
  * @param {T} node
  * @returns {T extends Element ? CSSStyleDeclaration : null}
@@ -943,7 +1007,14 @@ export function getStyle(node) {
  * @returns {Window}
  */
 export function getWindow(node) {
+<<<<<<< HEAD
     return getDocument(node).defaultView;
+=======
+    if (!node) {
+        return window;
+    }
+    return isWindow(node) ? node : getDocument(node).defaultView;
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -1207,9 +1278,15 @@ export function formatXml(value, options) {
  * @param {Node} [node]
  */
 export function getActiveElement(node) {
+<<<<<<< HEAD
     const document = getDocument(node);
     const window = getWindow(node);
     const { activeElement } = document;
+=======
+    const doc = getDocument(node);
+    const view = doc.defaultView;
+    const { activeElement } = doc;
+>>>>>>> upstream/18.0
     const { contentDocument, shadowRoot } = activeElement;
 
     if (contentDocument && contentDocument.activeElement !== contentDocument.body) {
@@ -1231,10 +1308,17 @@ export function getActiveElement(node) {
         return shadowRoot.activeElement;
     }
 
+<<<<<<< HEAD
     if (activeElement === document.body && window !== window.parent) {
         // Active element is the body of an iframe:
         // -> get the active element of its parent frame (recursively)
         return getActiveElement(window.parent.document);
+=======
+    if (activeElement === doc.body && view !== view.parent) {
+        // Active element is the body of an iframe:
+        // -> get the active element of its parent frame (recursively)
+        return getActiveElement(view.parent.document);
+>>>>>>> upstream/18.0
     }
 
     return activeElement;
@@ -1295,11 +1379,19 @@ export function getNextFocusableElement(options) {
  * @returns {HTMLIFrameElement | null}
  */
 export function getParentFrame(node) {
+<<<<<<< HEAD
     const document = getDocument(node);
     if (!document) {
         return null;
     }
     const view = document.defaultView;
+=======
+    const doc = getDocument(node);
+    if (!doc) {
+        return null;
+    }
+    const view = doc.defaultView;
+>>>>>>> upstream/18.0
     if (view !== view.parent) {
         for (const iframe of view.parent.document.getElementsByTagName("iframe")) {
             if (iframe.contentWindow === view) {
@@ -1521,6 +1613,10 @@ export function observe(target, callback) {
  *  DOM siblings);
  * - `:focusable`: matches nodes that can be focused (see {@link isFocusable});
  * - `:hidden`: matches nodes that are **not** "visible" (see {@link isVisible});
+<<<<<<< HEAD
+=======
+ * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
+>>>>>>> upstream/18.0
  * - `:iframe`: matches nodes that are `<iframe>` elements, and returns their `body`
  *  if it is ready;
  * - `:last`: matches the last node matching the selector (regardless of its actual
@@ -1576,7 +1672,11 @@ export function queryAll(target, options) {
         return queryAll(String.raw(...arguments));
     }
 
+<<<<<<< HEAD
     const { exact, displayed, root, viewPort, visible } = options || {};
+=======
+    const { exact, displayed, interactive, root, viewPort, visible } = options || {};
+>>>>>>> upstream/18.0
 
     /** @type {Node[]} */
     let nodes = [];
@@ -1600,13 +1700,21 @@ export function queryAll(target, options) {
         }
     }
 
+<<<<<<< HEAD
     /** @type {string} */
     let prefix, suffix;
+=======
+    /** @type {string[]} */
+    const prefix = [];
+    /** @type {string[]} */
+    const suffix = [];
+>>>>>>> upstream/18.0
     if (visible + displayed > 1) {
         throw new HootDomError(
             `cannot use more than one visibility modifier ('visible' implies 'displayed')`
         );
     }
+<<<<<<< HEAD
     if (viewPort) {
         nodes = nodes.filter(isNodeInViewPort);
         suffix = "in viewport";
@@ -1616,10 +1724,29 @@ export function queryAll(target, options) {
     } else if (displayed) {
         nodes = nodes.filter(isNodeDisplayed);
         prefix = "displayed";
+=======
+
+    if (viewPort) {
+        nodes = nodes.filter(isNodeInViewPort);
+        suffix.push("in viewport");
+    }
+    if (displayed) {
+        nodes = nodes.filter(isNodeDisplayed);
+        prefix.push("displayed");
+    }
+    if (interactive) {
+        nodes = nodes.filter(isNodeInteractive);
+        prefix.push("interactive");
+    }
+    if (visible) {
+        nodes = nodes.filter(isNodeVisible);
+        prefix.push("visible");
+>>>>>>> upstream/18.0
     }
 
     const count = nodes.length;
     if ($isInteger(exact) && count !== exact) {
+<<<<<<< HEAD
         const s = count === 1 ? "" : "s";
         const strPrefix = prefix ? `${prefix} ` : "";
         const strSuffix = suffix ? ` ${suffix}` : "";
@@ -1627,6 +1754,22 @@ export function queryAll(target, options) {
         throw new HootDomError(
             `found ${count} ${strPrefix}node${s}${strSuffix} instead of ${exact} ${strSelector}`
         );
+=======
+        const message = ["found", String(count)];
+        const s = count === 1 ? "" : "s";
+        if (prefix.length) {
+            message.push(prefix.join(" and "));
+        }
+        message.push(`node${s}`);
+        if (suffix.length) {
+            message.push(suffix.join(" and "));
+        }
+        message.push("instead of", String(exact));
+        if (typeof target === "string") {
+            message.push(`(selector: "${target}")`);
+        }
+        throw new HootDomError(message.join(" "));
+>>>>>>> upstream/18.0
     }
 
     return nodes;

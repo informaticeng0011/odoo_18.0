@@ -12,6 +12,10 @@
 # Christos Paraschos, 2025
 # Charalampos Loukas, 2025
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+<<<<<<< HEAD
+=======
+# Georgios Geitonas <g.geitonas@dileanity.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -19,7 +23,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+=======
+"Last-Translator: Georgios Geitonas <g.geitonas@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +109,11 @@ msgstr "Ενέργεια"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__effective_date
 msgid "Arrival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Άφιξη"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -120,7 +132,11 @@ msgstr "Κανόνας Αγοράς"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse__buy_to_resupply
 msgid "Buy to Resupply"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " Αγορά για Ανατροφοδοσία"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_res_company
@@ -130,7 +146,11 @@ msgstr "Εταιρίες"
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__effective_date
 msgid "Completion date of the first receipt order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία ολοκλήρωσης της πρώτης εντολής παραλαβής."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_res_config_settings
@@ -151,7 +171,11 @@ msgstr ""
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_move__created_purchase_line_ids
 msgid "Created Purchase Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργημένες Γραμμές Εντολής Αγοράς"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -162,23 +186,40 @@ msgstr "Διαφορά συναλλαγματικής ισοτιμίας"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__product_description_variants
 msgid "Custom Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσαρμοσμένη Περιγραφή"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
 msgid "Days To Arrive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημέρες μέχρι την Άφιξη"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid "Days needed to confirm a PO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημέρες που απαιτούνται για την επιβεβαίωση μιας Εντολής Αγοράς"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_res_company__days_to_purchase
 #: model:ir.model.fields,help:purchase_stock.field_res_config_settings__days_to_purchase
 msgid "Days needed to confirm a PO, define when a PO should be validated"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ημέρες που απαιτούνται για την επιβεβαίωση μιας Εντολής Αγοράς, ορίζουν πότε"
+" πρέπει να επικυρωθεί η Εντολή Αγοράς."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
@@ -186,7 +227,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_stock.field_res_company__days_to_purchase
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__days_to_purchase
 msgid "Days to Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημέρες μέχρι την Αγορά"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__delay_pass
@@ -206,6 +251,12 @@ msgid ""
 "of the product: whether it will be bought, manufactured, replenished on "
 "order, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ανάλογα με τις εγκατεστημένες εφαρμογές, αυτό θα σας επιτρέψει να ορίσετε τη"
+" διαδρομή του προϊόντος: αν θα αγοραστεί, παραχθεί, ανατροφοδοτηθεί κατά "
+"παραγγελία, κ.λπ."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__default_location_dest_id_usage
@@ -241,12 +292,20 @@ msgstr "Ημερομηνία έναρξης ισχύος"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_filter
 msgid "Effective Date Last Year"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία Ισχύος Πέρυσι"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
 msgid "Effective Days To Arrival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία Ισχύος μέχρι την Άφιξη"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
@@ -261,17 +320,29 @@ msgstr "Εξαιρέσεις:"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 msgid "Forecast Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Πρόβλεψης"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__forecasted_issue
 msgid "Forecasted Issue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενο Πρόβλημα"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields.selection,name:purchase_stock.selection__purchase_order__receipt_status__full
 msgid "Fully Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πλήρως Παραληφθέν"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-javascript

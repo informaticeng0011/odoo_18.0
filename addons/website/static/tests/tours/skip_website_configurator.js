@@ -42,6 +42,10 @@ registry.category("web_tour.tours").add('skip_website_configurator', {
     },
     {
         content: "Wait title is present before close tour",
+<<<<<<< HEAD
         trigger: ":iframe h2:contains(/^welcome to your/)",
+=======
+        trigger: ":iframe h2:contains(welcome to your)",
+>>>>>>> upstream/18.0
     }
 ]});

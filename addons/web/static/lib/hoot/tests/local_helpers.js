@@ -1,7 +1,10 @@
 /** @odoo-module */
 
 import { after, destroy, getFixture } from "@odoo/hoot";
+<<<<<<< HEAD
 import { queryAll } from "@odoo/hoot-dom";
+=======
+>>>>>>> upstream/18.0
 import { App, Component, xml } from "@odoo/owl";
 
 //-----------------------------------------------------------------------------
@@ -32,7 +35,14 @@ export async function mountForTest(ComponentClass, config) {
     after(() => destroy(app));
 
     fixture.style.backgroundColor = "#fff";
+<<<<<<< HEAD
     return app.mount(fixture);
+=======
+    await app.mount(fixture);
+    if (fixture.hasIframes) {
+        await fixture.waitForIframes();
+    }
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -41,6 +51,7 @@ export async function mountForTest(ComponentClass, config) {
 export function parseUrl(url) {
     return url.replace(/^.*hoot\/tests/, "@hoot").replace(/(\.test)?\.js$/, "");
 }
+<<<<<<< HEAD
 
 export function waitForIframes() {
     return Promise.all(
@@ -49,3 +60,5 @@ export function waitForIframes() {
         )
     );
 }
+=======
+>>>>>>> upstream/18.0

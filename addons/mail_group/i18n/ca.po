@@ -18,7 +18,11 @@
 # Quim - coopdevs <quim.rebull@coopdevs.org>, 2024
 # Ivan Espinola, 2024
 # marcescu, 2024
+<<<<<<< HEAD
 # Xavier, 2024
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # Noemi Pla, 2025
 # 
@@ -102,6 +106,15 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"                <p>Hola<t t-out=\"object.partner_id.name or ''\"/>:</p>\n"
+"                <p>Si us plau, trobi a sota les directrius de la <t t-out=\"object.mail_group_id.name\"/>llista de correus.</p>\n"
+"                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg or ''\"/></p>\n"
+"            </div>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.message_footer

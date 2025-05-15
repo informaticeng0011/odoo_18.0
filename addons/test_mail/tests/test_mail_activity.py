@@ -12,6 +12,10 @@ import pytz
 import random
 
 from odoo import fields, exceptions, tests
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.models.mail_activity import MailActivity
+>>>>>>> upstream/18.0
 from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
@@ -800,7 +804,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -887,6 +894,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -939,6 +947,25 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    @users('employee')
+    def test_record_unlinked_orphan_activities(self):
+        """Test the fix preventing error on corrupted database where activities without related record are present."""
+        self.env.ref("test_mail.mail_act_test_todo").sudo().keep_done = True
+        test_record = self.env['mail.test.activity'].with_context(
+            self._test_context).create({'name': 'Test'}).with_user(self.user_employee)
+        act = test_record.activity_schedule("test_mail.mail_act_test_todo", summary='Orphan activity')
+        act.action_done()
+        # Delete the record while preventing the cascade deletion of the activity to simulate a corrupted database
+        with patch.object(MailActivity, 'unlink', lambda self: None):
+            test_record.unlink()
+        self.assertTrue(act.exists())
+        self.assertFalse(act.active)
+        self.assertFalse(test_record.exists())
+        self.assertFalse(self.env['mail.activity'].with_user(self.user_admin).with_context(active_test=False).search(
+            [('active', '=', False)]))
+
 >>>>>>> upstream/18.0
 
 @tests.tagged("mail_activity")

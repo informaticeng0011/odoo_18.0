@@ -3,16 +3,22 @@
 
 import logging
 <<<<<<< HEAD
+<<<<<<< HEAD
 from markupsafe import Markup
 from odoo import _, api, fields, models
 from odoo.addons.l10n_it_edi.models.account_move import get_float
 =======
+=======
+>>>>>>> upstream/18.0
 import re
 from markupsafe import Markup
 
 from odoo import _, api, fields, models
 from odoo.addons.l10n_it_edi.models.account_move import get_float
 from odoo.tools import float_compare
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
@@ -237,7 +243,11 @@ class AccountMove(models.Model):
 
         pension_fund_elements = body_tree.xpath('.//DatiGeneraliDocumento/DatiCassaPrevidenziale')
 <<<<<<< HEAD
+<<<<<<< HEAD
         pension_fund_taxes = []
+=======
+        pension_fund_taxes = {}
+>>>>>>> upstream/18.0
 =======
         pension_fund_taxes = {}
 >>>>>>> upstream/18.0
@@ -256,7 +266,11 @@ class AccountMove(models.Model):
                 vat_only=False)
             if pension_fund_tax:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pension_fund_taxes.append(pension_fund_tax)
+=======
+                pension_fund_taxes[vat_tax_factor_percent] = pension_fund_tax
+>>>>>>> upstream/18.0
 =======
                 pension_fund_taxes[vat_tax_factor_percent] = pension_fund_tax
 >>>>>>> upstream/18.0
@@ -268,10 +282,13 @@ class AccountMove(models.Model):
         extra_info["pension_fund_taxes"] = pension_fund_taxes
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return extra_info, message_to_log
 
     def _l10n_it_edi_import_line(self, element, move_line_form, extra_info=None):
 =======
+=======
+>>>>>>> upstream/18.0
         # If the AssoSoftware specs are used on the invoice, then only apply
         # the Pension Fund tax to the lines that show an AswCassPre
         # additional tag (AltriDatiGestionali)
@@ -323,12 +340,19 @@ class AccountMove(models.Model):
 
     def _l10n_it_edi_import_line(self, element, move_line_form, extra_info=None):
         extra_info = extra_info or {}
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         messages_to_log = super()._l10n_it_edi_import_line(element, move_line_form, extra_info)
 
         type_tax_use_domain = extra_info['type_tax_use_domain']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Eventually apply withholding
+>>>>>>> upstream/18.0
 =======
         # Eventually apply withholding
 >>>>>>> upstream/18.0
@@ -344,13 +368,19 @@ class AccountMove(models.Model):
         company = move_line_form.company_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Pension Funds applied on line level and ENASARCO Pension Fund tax (works as a withholding)
 =======
+=======
+>>>>>>> upstream/18.0
         # Eventually apply pension_fund
         if pension_fund_tax := self._get_pension_fund_tax_for_line(element, extra_info):
             move_line_form.tax_ids |= pension_fund_tax
 
         # Eventually apply ENASARCO
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for other_data_element in element.xpath('.//AltriDatiGestionali'):
             data_kind_element = other_data_element.xpath("./TipoDato")
@@ -377,10 +407,13 @@ class AccountMove(models.Model):
                         self.env['account.move']._compose_info_message(other_data_element, '.'),
                     ))
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif data_kind == 'aswcasspre' and 'tc' in data_text:
                 for pension_fund_tax in extra_info.get('pension_fund_taxes', []):
                     if pension_fund_tax.l10n_it_pension_fund_type.lower() in data_text:
                         move_line_form.tax_ids |= pension_fund_tax
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 

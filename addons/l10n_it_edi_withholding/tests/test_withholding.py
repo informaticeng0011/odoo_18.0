@@ -22,6 +22,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 
         cls.withholding_sale_tax = find_tax_by_ref('20vwc')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.withholding_purchase_tax = find_tax_by_ref('20awc')
+>>>>>>> upstream/18.0
 =======
         cls.withholding_purchase_tax = find_tax_by_ref('20awc')
 >>>>>>> upstream/18.0
@@ -32,6 +36,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         cls.enasarco_purchase_tax = find_tax_by_ref('enasarcoa')
         cls.inps_tax = find_tax_by_ref('4vinps')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.inps_purchase_tax = find_tax_by_ref('4ainps')
+>>>>>>> upstream/18.0
 =======
         cls.inps_purchase_tax = find_tax_by_ref('4ainps')
 >>>>>>> upstream/18.0
@@ -244,7 +252,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
         self._assert_export_invoice(self.pension_fund_tax_invoice, 'pension_fund_tax_invoice.xml')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_pension_fund_taxes_import(self):
+=======
+    def test_pension_fund_taxes_import_assosoftware_tag(self):
+>>>>>>> upstream/18.0
 =======
     def test_pension_fund_taxes_import_assosoftware_tag(self):
 >>>>>>> upstream/18.0
@@ -259,6 +271,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             } for name, price_unit in self.get_real_client_invoice_data().lines]
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         invoice_data = self.get_real_client_invoice_data()
         for line in invoice.line_ids.filtered(lambda x: x.name in [data[0] for data in invoice_data.lines]):
@@ -267,6 +280,8 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             vat_taxes = line.tax_ids - withholding_taxes - pension_fund_taxes
             self.assertEqual([1, 1, 1], [len(x) for x in (vat_taxes, withholding_taxes, pension_fund_taxes)])
 =======
+=======
+>>>>>>> upstream/18.0
         for line in invoice.line_ids.filtered(lambda x: x.display_type == 'product'):
             self.assertEqual(line.tax_ids, (
                 self.inps_purchase_tax
@@ -290,6 +305,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
                 | self.withholding_purchase_tax
                 | self.company.account_purchase_tax_id
             ))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     ####################################################

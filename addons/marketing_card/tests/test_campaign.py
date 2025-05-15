@@ -331,6 +331,7 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         """
         campaign = self.campaign.with_user(self.marketing_card_manager)
 <<<<<<< HEAD
+<<<<<<< HEAD
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{object.env.ref('base.user_admin').sudo().image_128}}"/>
         """
@@ -350,6 +351,8 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         # Force a cache invalidation to force a re-fetch from database
         campaign.invalidate_recordset(fnames=['body_html'])
 =======
+=======
+>>>>>>> upstream/18.0
         # Will raise ZeroDivisionError if the template is executed
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{1 / 0}}"/>
@@ -361,6 +364,9 @@ class TestMarketingCardSecurity(MarketingCardCommon):
             self.env.cr.flush()
 
         # Ensure that the value is well not written in db, nor on the current campaign, nor on the related.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertTrue(arbitrary_qweb not in campaign.body_html)
         self.assertTrue(arbitrary_qweb not in campaign.card_template_id.body)
@@ -382,7 +388,11 @@ class TestMarketingCardSecurity(MarketingCardCommon):
                 field.related_field.model_name == 'card.template'
                 and not field.store
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and field.readonly
+=======
+                and not field.readonly
+>>>>>>> upstream/18.0
 =======
                 and not field.readonly
 >>>>>>> upstream/18.0

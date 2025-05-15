@@ -23,7 +23,11 @@ class TestCloudStorageAzureCommon(TransactionCase):
         self.DUMMY_AZURE_CLIENT_ID = 'clientid'
         self.DUMMY_AZURE_CLIENT_SECRET = 'secret'
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.container_name = 'container_name'
+=======
+        self.container_name = 'container-name'
+>>>>>>> upstream/18.0
 =======
         self.container_name = 'container-name'
 >>>>>>> upstream/18.0
@@ -166,7 +170,10 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
             attachment._generate_cloud_storage_download_info()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_azure_url_validation(self):
         file_name = 'test.txt'
 
@@ -216,6 +223,9 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
             attachment.url = mk_url(container_name='no_underscores')
             attachment._get_cloud_storage_azure_info()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_uninstall_fail(self):
         with self.assertRaises(UserError, msg="Don't uninstall the module if there are Azure attachments in use"):

@@ -772,6 +772,7 @@ class MailMail(models.Model):
                         _logger.info(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Mail with ID %r and Message-Id %r from %r to (redacted) %r successfully sent",
                             mail.id,
                             mail.message_id,
@@ -779,6 +780,8 @@ class MailMail(models.Model):
                             tools.mail.email_anonymize(tools.email_normalize(msg['to']))
                         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             "Mail (mail.mail) with ID %r and Message-Id %r from %r to (redacted) %s successfully sent",
@@ -793,6 +796,9 @@ class MailMail(models.Model):
                         _logger.info("Total emails tried by SMTP: %s", len(email_list))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

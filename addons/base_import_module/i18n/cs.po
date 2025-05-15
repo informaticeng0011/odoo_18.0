@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2025
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,6 +35,12 @@ msgid ""
 "You may need the Enterprise version to install the data module. Please visit https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"Je možné, že pro instalaci datového modulu budete potřebovat verzi Enterprise. Pro více informací navštivte prosím https://www.odoo.com/pricing-plan .\n"
+"Pokud potřebujete webové téma, můžete si jej stáhnout z https://github.com/odoo/design-themes.\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
@@ -94,6 +108,13 @@ msgid ""
 " %(error_message)s \n"
 "\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Chyba během importování modulu '%(module)s'.\n"
+"\n"
+" %(error_message)s \n"
+"\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -155,7 +176,11 @@ msgstr "Instalovat"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nainstalovat odvětví"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -184,6 +209,11 @@ msgid ""
 "Load demo data to test the industry's features with sample records. Do not "
 "load them if this is your production database."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Načtete demo data pro otestování funkci daného odvětví pomocí ukázkových "
+"záznamů. Nenačítejte je, pokud pracujete s produkční databází. "
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
@@ -237,7 +267,11 @@ msgstr "Oficiální aplikace"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pouze správci mohou instalovat datové moduly."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -269,6 +303,11 @@ msgid ""
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Instalace datového modulu by selhala, protože následující závislosti nebyly "
+"nalezeny v cestě k doplňkům (addons-path):\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -287,7 +326,11 @@ msgstr "Modul %s nelze stáhnout"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neznámé závislosti modulu:"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit

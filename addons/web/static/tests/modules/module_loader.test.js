@@ -17,6 +17,10 @@ const ModuleLoader = Object.getPrototypeOf(odoo.loader.constructor);
 test.tags("headless");
 test("define: simple case", async () => {
     const loader = new ModuleLoader();
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 
     const modA = {};
     const modC = {};
@@ -50,6 +54,10 @@ test("define: simple case", async () => {
 test.tags("headless");
 test("define: invalid module error handling", async () => {
     const loader = new ModuleLoader(getFixture());
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 
     expect(() => loader.define(null, null, null)).toThrow(/Module name should be a string/);
     expect(() => loader.define("a", null, null)).toThrow(
@@ -63,6 +71,10 @@ test("define: invalid module error handling", async () => {
 test.tags("headless");
 test("define: duplicate name", async () => {
     const loader = new ModuleLoader(getFixture());
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 
     loader.define("a", [], () => ":)");
     loader.define("a", [], () => {
@@ -76,6 +88,10 @@ test("define: duplicate name", async () => {
 
 test("define: missing module", async () => {
     const loader = new ModuleLoader(getFixture());
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 
     loader.define("b", ["a"], () => {});
     loader.define("c", ["a"], () => {});
@@ -98,6 +114,10 @@ test("define: missing module", async () => {
 
 test("define: dependency cycle", async () => {
     const loader = new ModuleLoader(getFixture());
+<<<<<<< HEAD
+=======
+    loader.debug = true;
+>>>>>>> upstream/18.0
 
     loader.define("a", ["b"], () => {});
     loader.define("b", ["c"], () => {});
@@ -116,5 +136,9 @@ test("define: dependency cycle", async () => {
             "The following modules could not be loaded because they have unmet dependencies, this is a secondary error which is likely caused by one of the above problems:",
             ["a", "b", "c"],
         ],
+<<<<<<< HEAD
+=======
+        ["APPENDCHILD", "STYLE", "o_module_error_banner"],
+>>>>>>> upstream/18.0
     ]);
 });

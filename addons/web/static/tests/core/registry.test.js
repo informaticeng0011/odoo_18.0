@@ -1,8 +1,14 @@
 import { describe, expect, test } from "@odoo/hoot";
 import { Component } from "@odoo/owl";
+<<<<<<< HEAD
 
 import { Registry } from "@web/core/registry";
 import { patchWithCleanup } from "../web_test_helpers";
+=======
+import { serverState } from "@web/../tests/web_test_helpers";
+
+import { Registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 
 describe.current.tags("headless");
 
@@ -164,7 +170,11 @@ test("can recursively open sub registry", () => {
 });
 
 test("can validate the values from a schema", () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     const schema = { name: String, age: { type: Number, optional: true } };
     const friendsRegistry = new Registry();
     friendsRegistry.addValidation(schema);
@@ -179,7 +189,11 @@ test("can validate the values from a schema", () => {
 });
 
 test("can validate by adding a schema after the registry is filled", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     const schema = { name: String };
     const friendsRegistry = new Registry();
     expect(() => friendsRegistry.add("jean", { name: 999 })).not.toThrow();
@@ -187,7 +201,11 @@ test("can validate by adding a schema after the registry is filled", async () =>
 });
 
 test("can validate subclassess", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     const schema = { component: { validate: (c) => c.prototype instanceof Component } };
     const widgetRegistry = new Registry();
     widgetRegistry.addValidation(schema);

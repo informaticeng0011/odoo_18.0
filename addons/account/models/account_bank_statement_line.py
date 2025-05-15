@@ -511,8 +511,11 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if str2bool(self.env['ir.config_parameter'].sudo().get_param("account.skip_create_bank_account_on_reconcile")):
             return self.env['res.partner.bank']
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -580,7 +583,13 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not bank_account:
+=======
+        if not bank_account and not str2bool(
+                self.env['ir.config_parameter'].sudo().get_param("account.skip_create_bank_account_on_reconcile")
+        ):
+>>>>>>> upstream/18.0
 =======
         if not bank_account and not str2bool(
                 self.env['ir.config_parameter'].sudo().get_param("account.skip_create_bank_account_on_reconcile")
@@ -794,8 +803,13 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rate_journal2foreign_curr = journal_amount and abs(transaction_amount) / abs(journal_amount)
         rate_comp2journal_curr = company_amount and abs(journal_amount) / abs(company_amount)
+=======
+        rate_journal2foreign_curr = abs(transaction_amount) / abs(journal_amount) if journal_amount else 0.0
+        rate_comp2journal_curr = abs(journal_amount) / abs(company_amount) if company_amount else 0.0
+>>>>>>> upstream/18.0
 =======
         rate_journal2foreign_curr = abs(transaction_amount) / abs(journal_amount) if journal_amount else 0.0
         rate_comp2journal_curr = abs(journal_amount) / abs(company_amount) if company_amount else 0.0
@@ -913,6 +927,12 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif balance is None:
+            trans_amount_currency = amount_currency
+            new_balance = currency._convert(amount_currency, company_currency, company=self.company_id, date=self.date)
+>>>>>>> upstream/18.0
 =======
         elif balance is None:
             trans_amount_currency = amount_currency
@@ -1215,7 +1235,12 @@ class AccountBankStatementLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company_currency = journal.company_id.currency_id
+=======
+            # bypassing access rights restrictions for branch-specific users in a branch company environment.
+            company_currency = journal.company_id.sudo().currency_id
+>>>>>>> upstream/18.0
 =======
             # bypassing access rights restrictions for branch-specific users in a branch company environment.
             company_currency = journal.company_id.sudo().currency_id

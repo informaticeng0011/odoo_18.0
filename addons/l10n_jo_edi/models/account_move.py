@@ -54,6 +54,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    reversed_entry_id = fields.Many2one(tracking=True)
+>>>>>>> upstream/18.0
 =======
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
@@ -194,7 +198,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0
@@ -329,6 +337,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.move_type == 'out_refund' and not self.reversed_entry_id:
+            error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')
+
+>>>>>>> upstream/18.0
 =======
         if self.move_type == 'out_refund' and not self.reversed_entry_id:
             error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')

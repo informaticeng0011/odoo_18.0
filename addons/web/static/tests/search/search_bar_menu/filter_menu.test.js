@@ -21,7 +21,11 @@ import {
     mountWithSearch,
     onRpc,
     openAddCustomFilterDialog,
+<<<<<<< HEAD
     patchWithCleanup,
+=======
+    serverState,
+>>>>>>> upstream/18.0
     toggleMenuItem,
     toggleMenuItemOption,
     toggleSearchBarMenu,
@@ -728,7 +732,11 @@ test("Add a custom filter", async () => {
 });
 
 test("Add a custom filter containing an expression", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/web/domain/validate", () => true);
     const searchBar = await mountWithSearch(SearchBar, {
@@ -753,7 +761,11 @@ test("Add a custom filter containing an expression", async () => {
 });
 
 test("Add a custom filter containing a between operator", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/web/domain/validate", () => true);
     const searchBar = await mountWithSearch(SearchBar, {
@@ -776,7 +788,11 @@ test("Add a custom filter containing a between operator", async () => {
 });
 
 test("consistent display of ! in debug mode", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/web/domain/validate", () => true);
     const searchBar = await mountWithSearch(SearchBar, {
@@ -849,7 +865,11 @@ test("display of is (not) (not) set in facets", async () => {
 });
 
 test("Add a custom filter: notification on invalid domain", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     mockService("notification", {
         add(message, options) {
             expect.step("notification");
@@ -875,7 +895,11 @@ test("Add a custom filter: notification on invalid domain", async () => {
 });
 
 test("display names in facets", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     Partner._records = [
         { id: 1, name: "John" },
         { id: 2, name: "David" },
@@ -913,7 +937,11 @@ test("display names in facets", async () => {
 });
 
 test("display names in facets (with a property)", async () => {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     Partner._records = [{ id: 1, name: "John" }];
 
     onRpc("/web/domain/validate", () => true);
@@ -1042,7 +1070,11 @@ test("group by properties", async () => {
 });
 
 test("shorten descriptions of long lists", async function () {
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
     onRpc("/web/domain/validate", () => true);
     const searchBar = await mountWithSearch(SearchBar, {
         resModel: "foo",

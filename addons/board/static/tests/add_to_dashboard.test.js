@@ -413,7 +413,11 @@ test("Add a view to dashboard doesn't save default filters", async () => {
     };
 
     // makes mouseEnter work
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 
     onRpc("/board/add_to_dashboard", async (request) => {
         const { params: args } = await request.json();

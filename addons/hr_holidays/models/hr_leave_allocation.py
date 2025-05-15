@@ -6,7 +6,10 @@ from datetime import datetime, date, time
 from dateutil.relativedelta import relativedelta
 
 from odoo import api, fields, models, _
+<<<<<<< HEAD
 from odoo.addons.resource.models.utils import HOURS_PER_DAY
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.hr_holidays.models.hr_leave import get_employee_from_context
 from odoo.exceptions import AccessError, UserError, ValidationError
 from odoo.tools.float_utils import float_round
@@ -663,6 +666,10 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0

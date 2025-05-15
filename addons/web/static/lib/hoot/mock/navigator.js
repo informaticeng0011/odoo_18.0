@@ -25,7 +25,13 @@ const { userAgent: $userAgent } = navigator;
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 const getBlobValue = (value) => (value instanceof Blob ? value.text() : value);
+=======
+function getBlobValue(value) {
+    return value instanceof Blob ? value.text() : value;
+}
+>>>>>>> upstream/18.0
 
 /**
  * Returns the final synchronous value of several item types.
@@ -33,6 +39,7 @@ const getBlobValue = (value) => (value instanceof Blob ? value.text() : value);
  * @param {unknown} value
  * @param {string} type
  */
+<<<<<<< HEAD
 const getClipboardValue = (value, type) =>
     getBlobValue(value instanceof ClipboardItem ? value.getType(type) : value);
 
@@ -43,10 +50,25 @@ const getMockValues = () => ({
     /** @type {Navigator["vibrate"]} */
     vibrate: throwNotImplemented("vibrate"),
 });
+=======
+function getClipboardValue(value, type) {
+    return getBlobValue(value instanceof ClipboardItem ? value.getType(type) : value);
+}
+
+function getMockValues() {
+    return {
+        sendBeacon: throwNotImplemented("sendBeacon"),
+        userAgent: makeUserAgent("linux"),
+        /** @type {Navigator["vibrate"]} */
+        vibrate: throwNotImplemented("vibrate"),
+    };
+}
+>>>>>>> upstream/18.0
 
 /**
  * @returns {Record<PermissionName, { name: string; state: PermissionState }>}
  */
+<<<<<<< HEAD
 const getPermissions = () => ({
     "background-sync": {
         state: "granted", // should always be granted
@@ -115,6 +137,78 @@ const getPermissions = () => ({
 });
 
 const getUserAgentBrowser = () => {
+=======
+function getPermissions() {
+    return {
+        "background-sync": {
+            state: "granted", // should always be granted
+            name: "background_sync",
+        },
+        "local-fonts": {
+            state: "denied",
+            name: "local_fonts",
+        },
+        "payment-handler": {
+            state: "denied",
+            name: "payment_handler",
+        },
+        "persistent-storage": {
+            state: "denied",
+            name: "durable_storage",
+        },
+        "screen-wake-lock": {
+            state: "denied",
+            name: "screen_wake_lock",
+        },
+        "storage-access": {
+            state: "denied",
+            name: "storage-access",
+        },
+        "window-management": {
+            state: "denied",
+            name: "window_placement",
+        },
+        accelerometer: {
+            state: "denied",
+            name: "sensors",
+        },
+        camera: {
+            state: "denied",
+            name: "video_capture",
+        },
+        geolocation: {
+            state: "denied",
+            name: "geolocation",
+        },
+        gyroscope: {
+            state: "denied",
+            name: "sensors",
+        },
+        magnetometer: {
+            state: "denied",
+            name: "sensors",
+        },
+        microphone: {
+            state: "denied",
+            name: "audio_capture",
+        },
+        midi: {
+            state: "denied",
+            name: "midi",
+        },
+        notifications: {
+            state: "denied",
+            name: "notifications",
+        },
+        push: {
+            state: "denied",
+            name: "push",
+        },
+    };
+}
+
+function getUserAgentBrowser() {
+>>>>>>> upstream/18.0
     if (/Firefox/i.test($userAgent)) {
         return "Gecko/20100101 Firefox/1000.0"; // Firefox
     }
@@ -124,12 +218,20 @@ const getUserAgentBrowser = () => {
     if (/Safari/i.test($userAgent)) {
         return "AppleWebKit/1000.00 (KHTML, like Gecko) Version/1000.00 Safari/1000.00"; // Safari
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Platform} platform
  */
+<<<<<<< HEAD
 const makeUserAgent = (platform) => {
+=======
+function makeUserAgent(platform) {
+>>>>>>> upstream/18.0
     const userAgent = ["Mozilla/5.0"];
     switch (platform.toLowerCase()) {
         case "android": {
@@ -162,16 +264,28 @@ const makeUserAgent = (platform) => {
         userAgent.push(userAgentBrowser);
     }
     return userAgent.join(" ");
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} fnName
  */
+<<<<<<< HEAD
 const throwNotImplemented = (fnName) => {
     return function notImplemented() {
         throw new HootError(`Unmocked navigator method: ${fnName}`);
     };
 };
+=======
+function throwNotImplemented(fnName) {
+    return function notImplemented() {
+        throw new HootError(`Unmocked navigator method: ${fnName}`);
+    };
+}
+>>>>>>> upstream/18.0
 
 /** @type {Set<MockPermissionStatus>} */
 const permissionStatuses = new Set();

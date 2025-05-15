@@ -71,6 +71,7 @@ describe(parseUrl(import.meta.url), () => {
     test("can register test tags", async () => {
         const runner = makeTestRunner();
         runner.describe("suite", () => {
+<<<<<<< HEAD
             let testFn = runner.test;
             for (let i = 1; i <= 10; i++) {
                 // 10
@@ -78,6 +79,14 @@ describe(parseUrl(import.meta.url), () => {
             }
 
             testFn("tagged test", () => {});
+=======
+            for (let i = 1; i <= 10; i++) {
+                // 10
+                runner.test.tags(`Tag-${i}`);
+            }
+
+            runner.test("tagged test", () => {});
+>>>>>>> upstream/18.0
         });
 
         expect(runner.tags).toHaveLength(10);

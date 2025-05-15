@@ -325,7 +325,12 @@ test("action cache: additionalContext is used on the key", async () => {
     expect(action.context).toEqual(actionParams);
 });
 
+<<<<<<< HEAD
 test.tags("desktop")('action with "no_breadcrumbs" set to true', async () => {
+=======
+test.tags("desktop");
+test('action with "no_breadcrumbs" set to true', async () => {
+>>>>>>> upstream/18.0
     defineActions([
         {
             id: 42,

@@ -52,6 +52,12 @@ export class IntegerField extends Component {
             (!this.props.readonly && this.props.inputType === "number")
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (this.value === false) {
+                return "";
+            }
+>>>>>>> upstream/18.0
 =======
             if (this.value === false) {
                 return "";
