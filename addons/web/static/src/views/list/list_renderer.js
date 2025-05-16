@@ -835,7 +835,12 @@ export class ListRenderer extends Component {
         if (column.options.enable_formatting === false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return record.data[fieldName];
+=======
+            const value = record.data[fieldName];
+            return value === false ? "" : value;
+>>>>>>> upstream/18.0
 =======
             const value = record.data[fieldName];
             return value === false ? "" : value;

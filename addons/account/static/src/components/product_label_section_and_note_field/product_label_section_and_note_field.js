@@ -47,7 +47,10 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
         return activeColumns;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     isCellReadonly(column, record) {
         // The isCellReadonly method from the ListRenderer is used to determine the classes to apply to the cell.
@@ -55,6 +58,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
         let isReadonly = super.isCellReadonly(column, record);
         return ["cancel", "done", "posted"].includes(record.evalContext.parent.state) && isReadonly;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -218,11 +224,17 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get sectionAndNoteIsReadonly() {
         return ["cancel", "done", "posted"].includes(this.props.record.evalContext.parent.state)
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     isSection(record = null) {
         record = record || this.props.record;

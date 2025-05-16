@@ -1,8 +1,11 @@
 // ! WARNING: this module cannot depend on modules not ending with ".hoot" (except libs) !
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach } from "@odoo/hoot";
 import { on } from "@odoo/hoot-dom";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { mockLocation } from "@odoo/hoot-mock";
@@ -27,8 +30,11 @@ const READONLY_PROPERTIES = [
 ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const anchorHrefDescriptor = Object.getOwnPropertyDescriptor(HTMLAnchorElement.prototype, "href");
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 //-----------------------------------------------------------------------------
@@ -62,6 +68,7 @@ export function mockBrowserFactory(name, { fn }) {
         Object.defineProperties(browserModule.browser, properties);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         beforeEach(function mockAnchorHref() {
             Object.defineProperty(HTMLAnchorElement.prototype, "href", {
                 ...anchorHrefDescriptor,
@@ -94,6 +101,8 @@ export function mockBrowserFactory(name, { fn }) {
             };
         });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return browserModule;

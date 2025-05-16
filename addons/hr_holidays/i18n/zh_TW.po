@@ -1045,7 +1045,11 @@ msgstr "由員工批准人"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__leave_validation_type__both
 msgid "By Employee's Approver and Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由員工的批准人和人資單位提供"
+=======
+msgstr "員工的休假審批人及休假管理職員"
+>>>>>>> upstream/18.0
 =======
 msgstr "員工的休假審批人及休假管理職員"
 >>>>>>> upstream/18.0
@@ -1055,7 +1059,11 @@ msgstr "員工的休假審批人及休假管理職員"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_type__leave_validation_type__hr
 msgid "By Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由人資單位"
+=======
+msgstr "休假管理職員"
+>>>>>>> upstream/18.0
 =======
 msgstr "休假管理職員"
 >>>>>>> upstream/18.0
@@ -1210,7 +1218,11 @@ msgid ""
 "Choose the Time Off Officers who will be notified to approve allocation or "
 "Time Off Request. If empty, nobody will be notified"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選擇將被通知批准分配或請假申請的請假幹事。如果為空，則不會通知任何人"
+=======
+msgstr "選擇有休假分配或休假申請需要審批時，要通知的休假管理職員。如果留空，則不會通知任何人"
+>>>>>>> upstream/18.0
 =======
 msgstr "選擇有休假分配或休假申請需要審批時，要通知的休假管理職員。如果留空，則不會通知任何人"
 >>>>>>> upstream/18.0
@@ -2069,7 +2081,11 @@ msgstr "名稱是否自訂"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_officer
 msgid "Is Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "為人資單位"
+=======
+msgstr "是管理職員"
+>>>>>>> upstream/18.0
 =======
 msgstr "是管理職員"
 >>>>>>> upstream/18.0
@@ -2575,7 +2591,11 @@ msgstr "未許可"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__responsible_ids
 msgid "Notified Time Off Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "已通知休假主管"
+=======
+msgstr "已通知休假管理職員"
+>>>>>>> upstream/18.0
 =======
 msgstr "已通知休假管理職員"
 >>>>>>> upstream/18.0
@@ -2697,7 +2717,11 @@ msgid ""
 "Only %s's Time Off Approver, a time off Officer/Responsible or Administrator"
 " can approve or refuse allocation requests."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "只限 %s 的休假審批人、休假管理員工/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
+=======
+msgstr "只限 %s 的休假審批人、休假管理職員/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
+>>>>>>> upstream/18.0
 =======
 msgstr "只限 %s 的休假審批人、休假管理職員/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
 >>>>>>> upstream/18.0
@@ -2726,7 +2750,11 @@ msgstr "只限休假經理才可重設其他人的休假。"
 msgid ""
 "Only a Time Off Officer or Manager can approve/refuse its own requests."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "只有休假主管或經理才可批准/拒絕自己的申請。"
+=======
+msgstr "只限休假管理職員或經理，才可批准/拒絕自己的申請。"
+>>>>>>> upstream/18.0
 =======
 msgstr "只限休假管理職員或經理，才可批准/拒絕自己的申請。"
 >>>>>>> upstream/18.0
@@ -2750,7 +2778,11 @@ msgid ""
 "Only a time off Officer/Responsible or Administrator can approve or refuse "
 "allocation requests."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "只限休假管理員工/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
+=======
+msgstr "只限休假管理職員/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
+>>>>>>> upstream/18.0
 =======
 msgstr "只限休假管理職員/負責人，或系統管理員，才可批准或拒絕休假分配請求。"
 >>>>>>> upstream/18.0
@@ -3130,8 +3162,13 @@ msgstr ""
 "選擇員工申請休假時所需的批准級別\n"
 "            #     - 無需驗證：員工的申請會自動獲得批准。\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            #     - 由休假主管批准：員工的申請需要由休假主管手動批准。\n"
 "            #       由休假主管、員工的主管，或兩者共同批准。"
+=======
+"            #     - 由休假管理職員批准：員工的申請需要由休假主管手動批准。\n"
+"            #       由休假管理職員、員工的休假審批人，或兩者共同批准。"
+>>>>>>> upstream/18.0
 =======
 "            #     - 由休假管理職員批准：員工的申請需要由休假主管手動批准。\n"
 "            #       由休假管理職員、員工的休假審批人，或兩者共同批准。"
@@ -3686,8 +3723,13 @@ msgid ""
 "                Employees request allocations to Time Off Officers (e.g. recuperation days)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "人資單位時間為員工分配休假天數（例如帶薪休假）。<br>\n"
 "               員工向人資單位要求休假分配（例如，休養日）。"
+=======
+"休假管理職員會為員工分配休假日（例如：有薪假）。<br>\n"
+"                員工會向休假管理職員請求分配（例如：休養日）。"
+>>>>>>> upstream/18.0
 =======
 "休假管理職員會為員工分配休假日（例如：有薪假）。<br>\n"
 "                員工會向休假管理職員請求分配（例如：休養日）。"
@@ -4371,7 +4413,11 @@ msgid ""
 "You must either be a Time off Officer or Time off Manager to approve this "
 "leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您必須是休假主管或者休假經理才可批准這次休假"
+=======
+msgstr "你必須是休假管理職員或休假經理，才可批准此休假"
+>>>>>>> upstream/18.0
 =======
 msgstr "你必須是休假管理職員或休假經理，才可批准此休假"
 >>>>>>> upstream/18.0

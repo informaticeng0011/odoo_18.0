@@ -841,6 +841,7 @@ class TestPoSBasicConfig(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(cm.output[2], f'INFO:odoo.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} created pos.order #{odoo_order_id}')
 =======
             self.assertEqual(cm.output[2], f'INFO:odoo.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} pos.order #{odoo_order_id}')
@@ -862,6 +863,9 @@ class TestPoSBasicConfig(TestPoSCommon):
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(cm.output[2], f'INFO:odoo.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} pos.order #{odoo_order_id}')
+>>>>>>> upstream/18.0
+=======
+            self.assertEqual(cm.output[2], f'INFO:odoo.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} created pos.order #{odoo_order_id}')
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(cm.output[2], f'INFO:odoo.addons.point_of_sale.models.pos_order:PoS synchronisation #1996 order {order_log_str} created pos.order #{odoo_order_id}')
@@ -1271,7 +1275,10 @@ class TestPoSBasicConfig(TestPoSCommon):
         self.assertNotIn(product.id, [p['id'] for p in data['product.product']['data']])
         self.assertTrue(data['product.product']['data'])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_double_syncing_same_order(self):
         """ Test that double syncing the same order doesn't create duplicates records
@@ -1292,4 +1299,7 @@ class TestPoSBasicConfig(TestPoSCommon):
         self.assertEqual(order.picking_count, 1, 'Order should have one picking')
         self.assertEqual(len(order.payment_ids), 1, 'Order should have one payment')
         self.assertEqual(self.env['account.move'].search_count([('ref', '=', order.name)]), 1, 'Order should have one invoice')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

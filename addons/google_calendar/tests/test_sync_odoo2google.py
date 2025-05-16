@@ -963,7 +963,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @patch_api
     @patch.object(User, '_sync_request')
     def test_skip_sync_for_non_synchronized_users_new_events(self, mock_sync_request):
@@ -1018,6 +1021,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
                 'extendedProperties': {'shared': {'%s_odoo_id' % self.env.cr.dbname: record.id}},
             })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('odoo2google')
 class TestSyncOdoo2GoogleMail(TestTokenAccess, TestSyncGoogle, MailCommon):

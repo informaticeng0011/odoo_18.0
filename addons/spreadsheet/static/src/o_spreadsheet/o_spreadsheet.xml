@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  @version 18.0.22
  @date 2025-04-04T08:57:29.775Z
  @hash 89a327918
@@ -161,6 +162,11 @@
  @version 18.0.27
  @date 2025-05-12T05:32:55.358Z
  @hash 9b3634067
+>>>>>>> upstream/18.0
+=======
+ @version 18.0.28
+ @date 2025-05-13T17:59:08.237Z
+ @hash b3088aaea
 >>>>>>> upstream/18.0
 =======
  @version 18.0.28
@@ -583,7 +589,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               maxlength="7"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -744,6 +753,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         />
       </div>
       <div
@@ -821,6 +831,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
           t-on-wheel="onWheel"
         />
       </div>
@@ -828,10 +840,13 @@
         class="o-composer-assistant-container shadow position-absolute z-1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
         t-att-style="assistantContainerStyle"
         t-if="props.focus !== 'inactive' and !assistant.forcedClosed and assistantIsAvailable">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         t-att-style="assistantContainerStyle"
@@ -841,6 +856,9 @@
         t-on-pointerup.prevent.stop=""
         t-on-click.prevent.stop="">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -853,6 +871,7 @@
         </span>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div
           class="o-composer-assistant overflow-auto"
           t-att-style="assistantStyle"
@@ -860,6 +879,9 @@
           t-on-pointerdown.prevent.stop=""
           t-on-click.prevent.stop=""
           t-on-pointerup.prevent.stop="">
+=======
+        <div class="o-composer-assistant overflow-auto" t-att-style="assistantStyle">
+>>>>>>> upstream/18.0
 =======
         <div class="o-composer-assistant overflow-auto" t-att-style="assistantStyle">
 >>>>>>> upstream/18.0
@@ -1017,7 +1039,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-grid o-two-columns" tabindex="-1" t-on-wheel="onMouseWheel">
+=======
+    <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
+>>>>>>> upstream/18.0
 =======
     <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
 >>>>>>> upstream/18.0
@@ -1708,7 +1734,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-row-resizer overflow-hidden"
+=======
+      class="o-row-resizer"
+>>>>>>> upstream/18.0
 =======
       class="o-row-resizer"
 >>>>>>> upstream/18.0
@@ -1788,6 +1818,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenRowsGroups(sheetId)"
@@ -1815,6 +1846,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1881,6 +1914,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1924,7 +1960,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-col-resizer overflow-hidden"
+=======
+      class="o-col-resizer d-flex"
+>>>>>>> upstream/18.0
 =======
       class="o-col-resizer d-flex"
 >>>>>>> upstream/18.0
@@ -2004,6 +2044,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenColsGroups(sheetId)"
@@ -2031,6 +2072,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2097,6 +2140,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3351,7 +3397,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
   <t t-name="o_spreadsheet.PivotHTMLRenderer">
@@ -3404,6 +3453,9 @@
   </t>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5861,7 +5913,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="granularity" t-value="props.dimension.granularity"/>
+=======
+        <t t-set="granularityProps" t-value="props.dimension.granularity || 'month'"/>
+>>>>>>> upstream/18.0
 =======
         <t t-set="granularityProps" t-value="props.dimension.granularity || 'month'"/>
 >>>>>>> upstream/18.0
@@ -5882,11 +5938,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-if="props.availableGranularities.has(granularity) || granularity === props.dimension.granularity"
             t-att-value="granularity"
             t-esc="periods[granularity]"
             t-att-selected="granularity === props.dimension.granularity or (granularity === 'month' and !props.dimension.granularity)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5897,6 +5956,9 @@
             t-att-selected="granularity === granularityProps or (granularity === 'month' and !granularityProps)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5940,7 +6002,11 @@
       </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-foreach="props.definition.columns" t-as="col" t-key="col.nameWithGranularity">
+=======
+      <t t-foreach="props.definition.columns" t-as="col" t-key="col_index">
+>>>>>>> upstream/18.0
 =======
       <t t-foreach="props.definition.columns" t-as="col" t-key="col_index">
 >>>>>>> upstream/18.0
@@ -5974,7 +6040,11 @@
       </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-foreach="props.definition.rows" t-as="row" t-key="row.nameWithGranularity">
+=======
+      <t t-foreach="props.definition.rows" t-as="row" t-key="row_index">
+>>>>>>> upstream/18.0
 =======
       <t t-foreach="props.definition.rows" t-as="row" t-key="row_index">
 >>>>>>> upstream/18.0

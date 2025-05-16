@@ -103,7 +103,11 @@ class ResPartnerBank(models.Model):
             bank.acc_type = self.retrieve_acc_type(bank.acc_number)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
+=======
+    @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
 =======
     @api.depends('partner_id.name')
 >>>>>>> upstream/18.0

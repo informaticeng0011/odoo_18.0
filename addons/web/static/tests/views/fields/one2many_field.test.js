@@ -11464,7 +11464,10 @@ test("open a one2many record containing a one2many", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("open a one2many record with optional open record displayed", async () => {
     Partner._views = {
         [["form", false]]: `<form>
@@ -11536,6 +11539,9 @@ test("open a one2many record with optional open record displayed", async () => {
     expect.verifySteps(["partner.get_views"]);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("if there are less than 4 lines in a one2many, empty lines must be displayed to cover the difference.", async () => {
     await mountView({

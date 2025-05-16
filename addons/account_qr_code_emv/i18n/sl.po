@@ -10,6 +10,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -41,7 +45,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -72,7 +80,11 @@ msgstr ""
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "A bank account is required for EMV QR Code generation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za generiranje QR kode EMV je potreben bančni račun."
+>>>>>>> upstream/18.0
 =======
 msgstr "Za generiranje QR kode EMV je potreben bančni račun."
 >>>>>>> upstream/18.0
@@ -87,7 +99,11 @@ msgstr "Bančni računi"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__display_qr_setting
 msgid "Display Qr Setting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitev prikaza QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitev prikaza QR"
 >>>>>>> upstream/18.0
@@ -97,7 +113,11 @@ msgstr "Nastavitev prikaza QR"
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "EMV Merchant-Presented QR-code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR koda, ki jo predstavi trgovec EMV"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR koda, ki jo predstavi trgovec EMV"
 >>>>>>> upstream/18.0
@@ -106,7 +126,11 @@ msgstr "QR koda, ki jo predstavi trgovec EMV"
 #: model_terms:ir.ui.view,arch_db:account_qr_code_emv.view_partner_bank_form_inherit_account
 msgid "EMV QR Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMV QR Konfiguracija"
+>>>>>>> upstream/18.0
 =======
 msgstr "EMV QR Konfiguracija"
 >>>>>>> upstream/18.0
@@ -116,7 +140,11 @@ msgstr "EMV QR Konfiguracija"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vključi referenco"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vključi referenco"
 >>>>>>> upstream/18.0
@@ -126,7 +154,11 @@ msgstr "Vključi referenco"
 #: model:ir.model.fields,help:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include the reference in the QR code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vključite referenco v QR kodo ."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vključite referenco v QR kodo ."
 >>>>>>> upstream/18.0
@@ -136,7 +168,11 @@ msgstr "Vključite referenco v QR kodo ."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant Account Information."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manjkajoči podatki o trgovskem računu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Manjkajoči podatki o trgovskem računu."
 >>>>>>> upstream/18.0
@@ -146,7 +182,11 @@ msgstr "Manjkajoči podatki o trgovskem računu."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant City."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manjkajoče trgovsko mesto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Manjkajoče trgovsko mesto."
 >>>>>>> upstream/18.0
@@ -156,7 +196,11 @@ msgstr "Manjkajoče trgovsko mesto."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manjka vrsta posredniškega (proxy) strežnika."
+>>>>>>> upstream/18.0
 =======
 msgstr "Manjka vrsta posredniškega (proxy) strežnika."
 >>>>>>> upstream/18.0
@@ -166,7 +210,11 @@ msgstr "Manjka vrsta posredniškega (proxy) strežnika."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Value."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manjka posredniška vrednost (proxy)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Manjka posredniška vrednost (proxy)."
 >>>>>>> upstream/18.0
@@ -179,6 +227,11 @@ msgid ""
 "%(account_number)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Za državo računa ni na voljo kode EMV QR.\n"
+"%(account_number)s."
+>>>>>>> upstream/18.0
 =======
 "Za državo računa ni na voljo kode EMV QR.\n"
 "%(account_number)s."
@@ -199,7 +252,11 @@ msgid "Proxy Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta posrednika (Proxy-ja)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta posrednika (Proxy-ja)"
 >>>>>>> upstream/18.0
@@ -224,7 +281,11 @@ msgstr "Vrsta posrednika (Proxy-ja)"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__proxy_value
 msgid "Proxy Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proxy Vrednost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proxy Vrednost"
 >>>>>>> upstream/18.0

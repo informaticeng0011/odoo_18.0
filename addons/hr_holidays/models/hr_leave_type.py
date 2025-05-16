@@ -594,8 +594,14 @@ class HolidaysType(models.Model):
     def _get_closest_expiring_leaves_date_and_count(self, allocations, remaining_leaves, target_date):
         # Get the expiration date and carryover date of all allocations and compute the closest expiration date
 <<<<<<< HEAD
+<<<<<<< HEAD
         expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date()})
         expiration_dates = list()
+=======
+        expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date(), 'carried_over_days_expiration_date': fields.Date()})
+        expiration_dates = list()
+        carried_over_days_expiration_data = self._get_carried_over_days_expiration_data(allocations, target_date)
+>>>>>>> upstream/18.0
 =======
         expiration_dates_per_allocation = defaultdict(lambda: {'expiration_date': fields.Date(), 'carryover_date': fields.Date(), 'carried_over_days_expiration_date': fields.Date()})
         expiration_dates = list()
@@ -617,16 +623,22 @@ class HolidaysType(models.Model):
                     carryover_date += relativedelta(years=1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             expiration_dates.extend([expiration_date, carryover_date])
             expiration_dates_per_allocation[allocation]['expiration_date'] = expiration_date
             expiration_dates_per_allocation[allocation]['carryover_date'] = carryover_date
 =======
+=======
+>>>>>>> upstream/18.0
             carried_over_days_expiration_date = carried_over_days_expiration_data[allocation]['expiration_date']
 
             expiration_dates.extend([expiration_date, carryover_date, carried_over_days_expiration_date])
             expiration_dates_per_allocation[allocation]['expiration_date'] = expiration_date
             expiration_dates_per_allocation[allocation]['carryover_date'] = carryover_date
             expiration_dates_per_allocation[allocation]['carried_over_days_expiration_date'] = carried_over_days_expiration_date
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         expiration_dates = list(filter(lambda date: date is not False, expiration_dates))
@@ -638,6 +650,11 @@ class HolidaysType(models.Model):
                 expiration_date = expiration_dates_per_allocation[allocation]['expiration_date']
                 carryover_date = expiration_dates_per_allocation[allocation]['carryover_date']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                carried_over_days_expiration_date = expiration_dates_per_allocation[allocation]['carried_over_days_expiration_date']
+
+>>>>>>> upstream/18.0
 =======
                 carried_over_days_expiration_date = expiration_dates_per_allocation[allocation]['carried_over_days_expiration_date']
 
@@ -648,6 +665,12 @@ class HolidaysType(models.Model):
                     accrual_plan_level = allocation.sudo()._get_current_accrual_plan_level_id(target_date)[0]
                     expiring_leaves_count += max(0, remaining_leaves[allocation]['virtual_remaining_leaves'] - accrual_plan_level.postpone_max_days)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                elif carried_over_days_expiration_date and carried_over_days_expiration_date == closest_expiration_date:
+                    expiring_leaves_count += carried_over_days_expiration_data[allocation]['no_expiring_days']
+
+>>>>>>> upstream/18.0
 =======
                 elif carried_over_days_expiration_date and carried_over_days_expiration_date == closest_expiration_date:
                     expiring_leaves_count += carried_over_days_expiration_data[allocation]['no_expiring_days']
@@ -659,7 +682,10 @@ class HolidaysType(models.Model):
         # No leaves will expire
         return False, 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_carried_over_days_expiration_data(self, allocations, target_date):
         fake_allocations = self.env['hr.leave.allocation']
@@ -676,4 +702,7 @@ class HolidaysType(models.Model):
         }
         fake_allocations.invalidate_recordset()
         return carried_over_days_expiration_data
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

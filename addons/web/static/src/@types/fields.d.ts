@@ -2,6 +2,7 @@ declare module "fields" {
     import { DomainListRepr } from "@web/core/domain";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type FieldType =
         "binary" |
         "boolean" |
@@ -30,6 +31,9 @@ declare module "fields" {
 =======
     interface IFieldDefinition<T extends FieldType> {
 >>>>>>> upstream/18.0
+=======
+    interface IFieldDefinition<T extends FieldType> {
+>>>>>>> upstream/18.0
         change_default: boolean;
         groupable: boolean;
         groups?: string;
@@ -53,8 +57,11 @@ declare module "fields" {
 
     interface INumerical {
 <<<<<<< HEAD
+<<<<<<< HEAD
         aggregator: "array_agg" | "avg" | "bool_and" | "bool_or" | "count" | "count_distinct" | "max" | "min" | "sum";
 =======
+=======
+>>>>>>> upstream/18.0
         aggregator:
             | "array_agg"
             | "avg"
@@ -65,6 +72,9 @@ declare module "fields" {
             | "max"
             | "min"
             | "sum";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -79,16 +89,22 @@ declare module "fields" {
     export type BooleanFieldDefinition = IFieldDefinition<"boolean">;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type CharFieldDefinition = IFieldDefinition<"char"> & ITextual & {
         size?: number;
         trim: boolean;
     };
 =======
+=======
+>>>>>>> upstream/18.0
     export type CharFieldDefinition = IFieldDefinition<"char"> &
         ITextual & {
             size?: number;
             trim: boolean;
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     export type DateFieldDefinition = IFieldDefinition<"date">;
@@ -98,11 +114,14 @@ declare module "fields" {
     export type FloatFieldDefinition = IFieldDefinition<"float"> & INumerical;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type HtmlFieldDefinition = IFieldDefinition<"html"> & ITextual & {
         sanitize: boolean;
         sanitize_tags: boolean;
     };
 =======
+=======
+>>>>>>> upstream/18.0
     export type GenericFieldDefinition = IFieldDefinition<"generic">;
 
     export type HtmlFieldDefinition = IFieldDefinition<"html"> &
@@ -110,6 +129,9 @@ declare module "fields" {
             sanitize: boolean;
             sanitize_tags: boolean;
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     export type ImageFieldDefinition = IFieldDefinition<"image">;
@@ -125,6 +147,7 @@ declare module "fields" {
     export type Many2OneReferenceFieldDefinition = IFieldDefinition<"many2one_reference">;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     export type MonetaryFieldDefinition = IFieldDefinition<"monetary"> & INumerical & {
         currency_field: string;
     };
@@ -133,6 +156,8 @@ declare module "fields" {
         relation_field: string;
     };
 =======
+=======
+>>>>>>> upstream/18.0
     export type MonetaryFieldDefinition = IFieldDefinition<"monetary"> &
         INumerical & {
             currency_field: string;
@@ -142,6 +167,9 @@ declare module "fields" {
         IRelational & {
             relation_field: string;
         };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     export type PropertiesFieldDefinition = IFieldDefinition<"properties"> & {
@@ -163,6 +191,7 @@ declare module "fields" {
 
     // ------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     export type FieldDefinition =
         BinaryFieldDefinition |
@@ -186,6 +215,8 @@ declare module "fields" {
         SelectionFieldDefinition |
         TextFieldDefinition;
 =======
+=======
+>>>>>>> upstream/18.0
     export type FieldDefinitionsByType = {
         binary: BinaryFieldDefinition;
         boolean: BooleanFieldDefinition;
@@ -213,6 +244,9 @@ declare module "fields" {
     export type FieldType = keyof FieldDefinitionsByType;
 
     export type FieldDefinition = FieldDefinitionsByType[FieldType];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     export type FieldDefinitionMap = Record<string, FieldDefinition>;

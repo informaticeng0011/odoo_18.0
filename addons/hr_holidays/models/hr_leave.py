@@ -445,7 +445,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 hours = min(leave.request_hour_to - leave.request_hour_from, calendar.hours_per_day) if leave.request_unit_hours \
+=======
+                hours = leave.request_hour_to - leave.request_hour_from if leave.request_unit_hours \
+>>>>>>> upstream/18.0
 =======
                 hours = leave.request_hour_to - leave.request_hour_from if leave.request_unit_hours \
 >>>>>>> upstream/18.0

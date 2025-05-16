@@ -50,6 +50,10 @@ import { rpc } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { runAllTimers } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { runAllTimers } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -648,7 +652,11 @@ test("sidebar: basic channel rendering", async () => {
     await openDiscuss();
     await contains(".o-mail-DiscussSidebarChannel", { text: "General" });
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel img[data-alt='Thread Image']");
+=======
+    await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
 >>>>>>> upstream/18.0
@@ -2104,6 +2112,10 @@ test("Message shows up even if channel data is incomplete", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await runAllTimers();
+>>>>>>> upstream/18.0
 =======
     await runAllTimers();
 >>>>>>> upstream/18.0

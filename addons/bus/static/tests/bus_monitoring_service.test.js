@@ -37,8 +37,11 @@ test("connection considered as lost after failed reconnect attempt", async () =>
     stepConnectionStateChanges();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     addBusServiceListeners(["connect", () => asyncStep("connect")]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     addBusServiceListeners(
@@ -46,6 +49,9 @@ test("connection considered as lost after failed reconnect attempt", async () =>
         ["disconnect", () => asyncStep("disconnect")]
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55,6 +61,10 @@ test("connection considered as lost after failed reconnect attempt", async () =>
     MockServer.env["bus.bus"]._simulateDisconnection(WEBSOCKET_CLOSE_CODES.ABNORMAL_CLOSURE);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await waitForSteps(["disconnect"]);
+>>>>>>> upstream/18.0
 =======
     await waitForSteps(["disconnect"]);
 >>>>>>> upstream/18.0
@@ -74,6 +84,10 @@ test("brief disconect not considered lost", async () => {
         ["connect", () => asyncStep("connect")],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ["disconnect", () => asyncStep("disconnect")],
+>>>>>>> upstream/18.0
 =======
         ["disconnect", () => asyncStep("disconnect")],
 >>>>>>> upstream/18.0
@@ -87,6 +101,10 @@ test("brief disconect not considered lost", async () => {
     MockServer.env["bus.bus"]._simulateDisconnection(WEBSOCKET_CLOSE_CODES.SESSION_EXPIRED);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await waitForSteps(["disconnect"]);
+>>>>>>> upstream/18.0
 =======
     await waitForSteps(["disconnect"]);
 >>>>>>> upstream/18.0

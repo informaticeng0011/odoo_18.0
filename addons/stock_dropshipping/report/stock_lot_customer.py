@@ -7,6 +7,10 @@ class StockLotReport(models.Model):
     _inherit = 'stock.lot.report'
 
     def _join_on_picking_type_and_partner(self):
+<<<<<<< HEAD
+=======
+        # todo remove master
+>>>>>>> upstream/18.0
         return """
             JOIN stock_picking_type AS type
             ON picking.picking_type_id = type.id and (type.code = 'outgoing' or type.code = 'dropship')
@@ -17,3 +21,9 @@ class StockLotReport(models.Model):
                 ELSE picking.partner_id
             END
         """
+<<<<<<< HEAD
+=======
+
+    def _outgoing_operation_types(self):
+        return super()._outgoing_operation_types() + ",'dropship'"
+>>>>>>> upstream/18.0

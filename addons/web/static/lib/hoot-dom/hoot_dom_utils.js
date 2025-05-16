@@ -49,8 +49,11 @@ const {
 //-----------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @template {(...args: any[]) => any} T
  * @param {InteractionType} type
@@ -79,6 +82,9 @@ const makeInteractorFn = (type, fn, name) =>
     }[name]);
 
 const DEBUG_NAMESPACE = "hoot";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const interactionBus = new EventTarget();
@@ -119,6 +125,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeInteractorFn = (type, fn, name) =>
     ({
         [name](...args) {
@@ -139,6 +146,8 @@ const makeInteractorFn = (type, fn, name) =>
         },
     }[name]);
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @param  {...any} helpers
  */
@@ -151,6 +160,9 @@ export function exposeHelpers(...helpers) {
     globalThis[nameSpace] = new HootDebugHelpers(...helpers);
     return nameSpace;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -201,6 +213,7 @@ export function isIterable(object) {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} filter
  * @returns {boolean}
  */
@@ -211,21 +224,29 @@ export function isRegExpFilter(filter) {
 /**
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {string} value
  * @param {{ safe?: boolean }} [options]
  * @returns {string | RegExp}
  */
 export function parseRegExp(value, options) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const regexParams = value.match(R_REGEX_PATTERN);
     if (regexParams) {
         const unified = regexParams[1].replace(/\s+/g, "\\s+");
         const flag = regexParams[2] || "i";
 =======
+=======
+>>>>>>> upstream/18.0
     const regexParams = value.match(R_REGEX);
     if (regexParams) {
         const unified = regexParams[1].replace(R_WHITE_SPACE, "\\s+");
         const flag = regexParams[2];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try {
             return new RegExp(unified, flag);
@@ -258,10 +279,13 @@ export function toSelector(node, options) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 =======
+=======
+>>>>>>> upstream/18.0
 export class HootDebugHelpers {
     get $() {
         return this.queryFirst;
@@ -288,4 +312,7 @@ export const REGEX_MARKER = "/";
 // Common regular expressions
 export const R_REGEX = new RegExp(`^${REGEX_MARKER}(.*)${REGEX_MARKER}([dgimsuvy]+)?$`);
 export const R_WHITE_SPACE = /\s+/g;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

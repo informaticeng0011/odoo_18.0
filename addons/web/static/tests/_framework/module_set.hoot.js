@@ -414,7 +414,13 @@ class ModuleSetLoader extends loader.constructor {
 const ALLOWED_GLOBAL_KEYS = [
     "ace", // Ace editor
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
+=======
+    // Bootstrap.js is voluntarily ignored as it is deprecated
+    "Chart", // Chart.js
+    "DOMPurify", // DOMPurify
+>>>>>>> upstream/18.0
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
     "Chart", // Chart.js
@@ -425,9 +431,12 @@ const ALLOWED_GLOBAL_KEYS = [
     "lamejs", // LameJS
     "luxon", // Luxon
 <<<<<<< HEAD
+<<<<<<< HEAD
     "odoo",
     "owl",
 =======
+=======
+>>>>>>> upstream/18.0
     "odoo", // Odoo global object
     "owl", // Owl
     "pdfjsLib", // PDF JS
@@ -435,6 +444,9 @@ const ALLOWED_GLOBAL_KEYS = [
     "SignaturePad", // Signature Pad
     "StackTrace", // StackTrace
     "ZXing", // ZXing
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 ];
 const AUTO_INCLUDED_ADDONS = {

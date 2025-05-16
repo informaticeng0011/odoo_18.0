@@ -6,6 +6,10 @@
 # Wil Odoo, 2025
 # Fernanda Alvarez, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2025-05-09 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2025\n"
+=======
+"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_client
 msgid "A client id issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un identificador de cliente emitido al comerciante por Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un identificador de cliente emitido al comerciante por Pine Labs."
 >>>>>>> upstream/18.0
@@ -41,7 +53,11 @@ msgstr "Un identificador de cliente emitido al comerciante por Pine Labs."
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_merchant
 msgid "A merchant id issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un identificador de comerciante emitido al comerciante por Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un identificador de comerciante emitido al comerciante por Pine Labs."
 >>>>>>> upstream/18.0
@@ -50,7 +66,11 @@ msgstr "Un identificador de comerciante emitido al comerciante por Pine Labs."
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_security_token
 msgid "A security token issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un token de seguridad emitido al comerciante por Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un token de seguridad emitido al comerciante por Pine Labs."
 >>>>>>> upstream/18.0
@@ -59,7 +79,11 @@ msgstr "Un token de seguridad emitido al comerciante por Pine Labs."
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "A store id issued directly to the merchant by Pine Labs."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un identificador de la tienda emitido al comerciante por Pine Labs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un identificador de la tienda emitido al comerciante por Pine Labs."
 >>>>>>> upstream/18.0
@@ -68,7 +92,11 @@ msgstr "Un identificador de la tienda emitido al comerciante por Pine Labs."
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Accepted payment modes by Pine Labs for transactions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Métodos de pago aceptados por Pine Labs para transacciones."
+>>>>>>> upstream/18.0
 =======
 msgstr "Métodos de pago aceptados por Pine Labs para transacciones."
 >>>>>>> upstream/18.0
@@ -93,7 +121,11 @@ msgstr "Tarjeta"
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Pine Labs Allowed Payment Modes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modos de pago permitidos por Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modos de pago permitidos por Pine Labs"
 >>>>>>> upstream/18.0
@@ -121,6 +153,11 @@ msgid ""
 "Pine Labs POS transaction cancelled. Retry again for collecting payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se canceló la transacción del PdV de Pine Labs. Vuelva a intentarlo para "
+"colectar el pago."
+>>>>>>> upstream/18.0
 =======
 "Se canceló la transacción del PdV de Pine Labs. Vuelva a intentarlo para "
 "colectar el pago."
@@ -130,7 +167,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
 msgid "Pine Labs PlutusTransactionReferenceID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pine Labs PlutusTransactionReferenceID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pine Labs PlutusTransactionReferenceID"
 >>>>>>> upstream/18.0
@@ -155,7 +196,11 @@ msgstr "Modo de prueba de Pine Labs"
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs get payment status request failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocurrió un error con la solicitud de obtención del estado de pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocurrió un error con la solicitud de obtención del estado de pago"
 >>>>>>> upstream/18.0
@@ -165,7 +210,11 @@ msgstr "Ocurrió un error con la solicitud de obtención del estado de pago"
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs make payment request failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocurrió un error con la solicitud de realizar el pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocurrió un error con la solicitud de realizar el pago"
 >>>>>>> upstream/18.0
@@ -216,6 +265,11 @@ msgid ""
 "included in the response."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No se incluyó el código de error esperado para la solicitud de estado de "
+"Pine Labs POS en la respuesta."
+>>>>>>> upstream/18.0
 =======
 "No se incluyó el código de error esperado para la solicitud de estado de "
 "Pine Labs POS en la respuesta."

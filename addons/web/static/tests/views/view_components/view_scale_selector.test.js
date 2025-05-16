@@ -1,6 +1,10 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, queryAll } from "@odoo/hoot-dom";
+=======
+import { click } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -56,7 +60,11 @@ test("basic ViewScaleSelector component usage", async () => {
     await animationFrame();
     expect(".o-dropdown--menu").toHaveCount(1);
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAll(".o-dropdown--menu .active")[0]).toHaveText("Weekly", {
+=======
+    expect(".o-dropdown--menu .active:first").toHaveText("Weekly", {
+>>>>>>> upstream/18.0
 =======
     expect(".o-dropdown--menu .active:first").toHaveText("Weekly", {
 >>>>>>> upstream/18.0
@@ -71,14 +79,20 @@ test("basic ViewScaleSelector component usage", async () => {
     expect(".o_view_scale_selector").toHaveText("Daily");
     await click(".scale_button_selection");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".dropdown-item:last-child").click();
     expect.verifySteps(["toggleWeekendVisibility"]);
 =======
+=======
+>>>>>>> upstream/18.0
     expect(".dropdown-item:last:interactive").not.toHaveCount();
     await contains(".dropdown-item:contains(Yearly)").click();
     await click(".scale_button_selection");
     await contains(".dropdown-item:last").click();
     expect.verifySteps(["year", "toggleWeekendVisibility"]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

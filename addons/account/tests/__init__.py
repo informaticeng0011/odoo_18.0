@@ -42,6 +42,10 @@ from . import test_account_incoming_supplier_invoice
 from . import test_payment_term
 from . import test_account_payment_items
 from . import test_account_payment_register
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 from . import test_tour
 from . import test_early_payment_discount
 from . import test_ir_actions_report

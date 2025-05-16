@@ -365,7 +365,11 @@ test("field context is propagated when opening selection", async function () {
 
 test("domain field: manually edit domain with textarea", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -414,7 +418,11 @@ test("domain field: manually edit domain with textarea", async function () {
 
 test("domain field: manually set an invalid domain with textarea", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -485,7 +493,11 @@ test("domain field: manually set an invalid domain with textarea", async functio
 
 test("domain field: reload count by clicking on the refresh button", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -570,7 +582,11 @@ test("domain field: edit domain with dynamic content", async function () {
     expect.assertions(3);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -617,7 +633,11 @@ test("domain field: edit domain with dynamic content", async function () {
 
 test("domain field: edit through selector (dynamic content)", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -767,7 +787,11 @@ test("domain field with 'inDialog' options", async function () {
 test("invalid value in domain field with 'inDialog' options", async function () {
     Partner._fields.name.default = "[]";
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -795,7 +819,11 @@ test("invalid value in domain field with 'inDialog' options", async function () 
 test("edit domain button is available even while loading records count", async function () {
     Partner._fields.name.default = "[]";
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -823,7 +851,11 @@ test("edit domain button is available even while loading records count", async f
 test("debug input editing sets the field as dirty even without a focus out", async function () {
     Partner._fields.name.default = "[]";
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -849,7 +881,11 @@ test("debug input editing sets the field as dirty even without a focus out", asy
 test("debug input corrections don't need a focus out to be saved", async function () {
     Partner._fields.name.default = "[]";
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -873,7 +909,11 @@ test("debug input corrections don't need a focus out to be saved", async functio
 
 test("quick check on save if domain has been edited via the debug input", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -966,7 +1006,11 @@ test("domain field can be foldable", async function () {
 
 test("add condition in empty foldable domain", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0

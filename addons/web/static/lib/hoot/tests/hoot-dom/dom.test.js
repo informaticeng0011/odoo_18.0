@@ -24,7 +24,11 @@ import {
 import { animationFrame, mockTouch } from "@odoo/hoot-mock";
 import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountForTest, parseUrl, waitForIframes } from "../local_helpers";
+=======
+import { mountForTest, parseUrl } from "../local_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
@@ -178,8 +182,11 @@ describe(parseUrl(import.meta.url), () => {
         await mountForTest(/* xml */ `<iframe srcdoc="&lt;input &gt;"></iframe>`);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         expect(":iframe input").not.toBeFocused();
@@ -289,7 +296,10 @@ describe(parseUrl(import.meta.url), () => {
     test("isInDom", async () => {
         await mountForTest(FULL_HTML_TEMPLATE);
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -467,8 +477,11 @@ describe(parseUrl(import.meta.url), () => {
             await mountForTest(FULL_HTML_TEMPLATE);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // :first, :last, :only & :eq
@@ -718,8 +731,11 @@ describe(parseUrl(import.meta.url), () => {
             `);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             expectSelector(`:iframe html`).toEqualNodes("html", { root: "iframe" });

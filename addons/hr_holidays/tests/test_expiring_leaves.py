@@ -24,7 +24,10 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
             'allocation_validation_type': 'no_validation',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.accrual_plan_with_accrual_validity = cls.env['hr.leave.accrual.plan'].with_context(tracking_disable=True).sudo().create({
             'name': 'Test Accrual Plan With Accrual Validity',
             'carryover_date': 'other',
@@ -48,6 +51,9 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
                 })
             ],
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @users('enguerran')
@@ -604,7 +610,11 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days + 1
+=======
+        remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
+>>>>>>> upstream/18.0
 =======
         remaining_days_before_expiration = (allocation._get_carryover_date(target_date) - target_date).days
 >>>>>>> upstream/18.0
@@ -751,6 +761,7 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
         # Days between the target date and the expiration date (accrual_plan's carryover date)
         working_days_equivalent_needed = (allocation._get_carryover_date(target_date) - target_date).days + 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     
         # Assert the closest allocation duration (number of working days equivalent (8 hours/day) remaining before the allocation expires)
         self.assertEqual(round(allocation_data[logged_in_emp][0][1]['closest_allocation_duration']), working_days_equivalent_needed,
@@ -758,6 +769,8 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
         
                          
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Assert the closest allocation duration (number of working days equivalent (8 hours/day) remaining before the allocation expires)
         self.assertEqual(round(allocation_data[logged_in_emp][0][1]['closest_allocation_duration']), working_days_equivalent_needed,
@@ -896,4 +909,7 @@ class TestExpiringLeaves(HttpCase, TestHrHolidaysCommon):
 
         # Assert the number of expiring leaves
         self.assertEqual(allocation_data[logged_in_emp][0][1]['closest_allocation_remaining'], 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

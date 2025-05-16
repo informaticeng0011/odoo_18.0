@@ -101,6 +101,12 @@ export const setInputRange = interactor("interaction", events.setInputRange);
 export const uncheck = interactor("interaction", events.uncheck);
 export const unload = interactor("interaction", events.unload);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+// Debug
+export { exposeHelpers } from "./hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 
 // Debug

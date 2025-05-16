@@ -152,6 +152,11 @@ class GoogleSync(models.AbstractModel):
                     record.with_user(record._get_event_user())._google_delete(google_service, record.google_id)
             for record in new_records:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if record._is_google_insertion_blocked(sender_user=self.env.user):
+                    continue
+>>>>>>> upstream/18.0
 =======
                 if record._is_google_insertion_blocked(sender_user=self.env.user):
                     continue
@@ -415,7 +420,10 @@ class GoogleSync(models.AbstractModel):
         """
         raise NotImplementedError()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _is_google_insertion_blocked(self, sender_user):
         """
@@ -425,4 +433,7 @@ class GoogleSync(models.AbstractModel):
         by not synchronizing records through owner and not  through the attendees.
         """
         raise NotImplementedError()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -510,7 +510,11 @@ test(`editable list with open_form_view`, async () => {
 
 test(`editable list with open_form_view in debug`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -542,7 +546,11 @@ test(`editable list without open_form_view in debug`, async () => {
         },
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -586,7 +594,11 @@ test(`editable list without open_form_view in debug`, async () => {
 
 test(`non-editable list in debug`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6143,8 +6155,11 @@ test(`can display a list with a many2many field`, async () => {
 
 test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await mountView({
@@ -6165,7 +6180,11 @@ test(`display a tooltip on a field`, async () => {
     expect(`.o-tooltip`).toHaveText("Foo");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6185,7 +6204,10 @@ test(`display a tooltip on a field`, async () => {
 
 test("field (with help) tooltip in non debug mode", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     Foo._fields.foo.help = "This is a foo field";
@@ -6588,6 +6610,10 @@ test(`empty list with sample data: keyboard navigation`, async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("broken");
+>>>>>>> upstream/18.0
 =======
 test.tags("broken");
 >>>>>>> upstream/18.0
@@ -6606,14 +6632,20 @@ test(`empty list with sample data: group by date`, async () => {
     expect(`.o_group_header`).toHaveCount();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_group_has_content.o_group_header`).click();
 =======
+=======
+>>>>>>> upstream/18.0
     // FIXME: ELEMENT SHOULD BE INTERACTIVE -> test is simulating a situation that
     // cannot happen. Investigate the issue and remove `interactive: false` and
     // "broken" tag when fixed.
     await click(".o_group_has_content.o_group_header", { interactive: false });
     await animationFrame();
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     expect(`.o_data_row`).toHaveCount(4);
 });

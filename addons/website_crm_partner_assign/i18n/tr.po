@@ -22,6 +22,10 @@
 # Buket Şeker <buket_skr@hotmail.com>, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -33,7 +37,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Levent Karakaş <levent@mektup.at>, 2024\n"
+=======
+"Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
 >>>>>>> upstream/18.0
@@ -62,6 +70,11 @@ msgid ""
 "title=\"Assigned Partner\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"(<i class=\"fa fa-long-arrow-right me-1\" aria-label=\"Assigned Partner\" "
+"title=\"Atanan Partner\"/>"
+>>>>>>> upstream/18.0
 =======
 "(<i class=\"fa fa-long-arrow-right me-1\" aria-label=\"Assigned Partner\" "
 "title=\"Atanan Partner\"/>"
@@ -71,7 +84,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.partner
 msgid "<i class=\"fa fa-chevron-left me-2\"/>Back to resellers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-chevron-left me-2\"/>Bayilere dönün"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-chevron-left me-2\"/>Bayilere dönün"
 >>>>>>> upstream/18.0
@@ -83,6 +100,11 @@ msgid ""
 "                There are no matching partners found for the selected country. Displaying results across all countries instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle me-2\"/>\n"
+"                Seçilen ülke için eşleşen hiçbir iş ortağı bulunamadı. Bunun yerine tüm ülkelerden sonuçlar gösteriliyor. "
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle me-2\"/>\n"
 "                Seçilen ülke için eşleşen hiçbir iş ortağı bulunamadı. Bunun yerine tüm ülkelerden sonuçlar gösteriliyor. "
@@ -95,6 +117,11 @@ msgid ""
 "title=\"Open map\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-map-marker\" role=\"img\" aria-label=\"Open map\" "
+"title=\"Açık harita\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-map-marker\" role=\"img\" aria-label=\"Open map\" "
 "title=\"Açık harita\"/>"
@@ -109,7 +136,11 @@ msgstr "<i class=\"fa fa-pencil me-1\"/>Düzenle"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "<option>Countries...</option>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option>Ülkeler...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option>Ülkeler...</option>"
 >>>>>>> upstream/18.0
@@ -118,7 +149,11 @@ msgstr "<option>Ülkeler...</option>"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "<option>States...</option>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option>Eyaletler...</option>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<option>Eyaletler...</option>"
 >>>>>>> upstream/18.0
@@ -146,6 +181,12 @@ msgid ""
 "                                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"input-group-text o_input_group_date_icon\">\n"
+"                                                        <span class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Takvim\"/>\n"
+"                                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"input-group-text o_input_group_date_icon\">\n"
 "                                                        <span class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Takvim\"/>\n"
@@ -160,6 +201,12 @@ msgid ""
 "                                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"input-group-text o_input_group_date_icon\">\n"
+"                                                        <span class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\"/>\n"
+"                                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"input-group-text o_input_group_date_icon\">\n"
 "                                                        <span class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\"/>\n"
@@ -173,6 +220,11 @@ msgid ""
 "                                    <span class=\"oe_grey\" invisible=\"partner_latitude &gt;= 0\">S </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"oe_grey\" invisible=\"partner_latitude &lt;= 0\">N </span>\n"
+"                                    <span class=\"oe_grey\" invisible=\"partner_latitude &gt;= 0\">S </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"oe_grey\" invisible=\"partner_latitude &lt;= 0\">N </span>\n"
 "                                    <span class=\"oe_grey\" invisible=\"partner_latitude &gt;= 0\">S </span>"
@@ -186,6 +238,12 @@ msgid ""
 "                                    <span class=\"oe_grey ps-1\">) </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"oe_grey\" invisible=\"partner_longitude &lt;= 0\">E </span>\n"
+"                                    <span class=\"oe_grey\" invisible=\"partner_longitude &gt;= 0\">W </span>\n"
+"                                    <span class=\"oe_grey ps-1\">) </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"oe_grey\" invisible=\"partner_longitude &lt;= 0\">E </span>\n"
 "                                    <span class=\"oe_grey\" invisible=\"partner_longitude &gt;= 0\">W </span>\n"
@@ -339,7 +397,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 "<tbody>\n"
@@ -425,6 +486,9 @@ msgstr ""
 "</td></tr>\n"
 "</table>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_crm_partner_assign
@@ -478,7 +542,11 @@ msgstr "Tüm Ülkeler"
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "All fields are required!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm alanlar zorunludur!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tüm alanlar zorunludur!"
 >>>>>>> upstream/18.0
@@ -518,7 +586,11 @@ msgstr "Otomatik olarak ayıklanan HTML içeriği"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.partner
 msgid "Back to resellers list"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bayi listesine dön"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bayi listesine dön"
 >>>>>>> upstream/18.0
@@ -662,7 +734,11 @@ msgstr "Müşteri:"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.layout
 msgid "DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL RESELLERS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "TÜM BAYİLERDE KULLANILABİLMESİ İÇİN YAPI BLOKLARINI BURAYA BIRAKIN"
+>>>>>>> upstream/18.0
 =======
 msgstr "TÜM BAYİLERDE KULLANILABİLMESİ İÇİN YAPI BLOKLARINI BURAYA BIRAKIN"
 >>>>>>> upstream/18.0
@@ -716,7 +792,11 @@ msgstr "Fırsatı Düzenle"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Edit to add a short description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kısa bir açıklama eklemek için düzenleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kısa bir açıklama eklemek için düzenleyin"
 >>>>>>> upstream/18.0
@@ -754,7 +834,11 @@ msgstr "Beklenen Gelir"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Filter by category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategoriye göre filtreleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategoriye göre filtreleyin"
 >>>>>>> upstream/18.0
@@ -763,7 +847,11 @@ msgstr "Kategoriye göre filtreleyin"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Filter by country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülkeye göre filtreleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülkeye göre filtreleyin"
 >>>>>>> upstream/18.0
@@ -777,7 +865,11 @@ msgstr "Filtreler"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Find a reseller"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bayi bulun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bayi bulun"
 >>>>>>> upstream/18.0
@@ -786,7 +878,11 @@ msgstr "Bayi bulun"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_home_lead
 msgid "Follow and convert your leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adayları takip edin ve müşteriye dönüştürün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adayları takip edin ve müşteriye dönüştürün"
 >>>>>>> upstream/18.0
@@ -795,7 +891,11 @@ msgstr "Adayları takip edin ve müşteriye dönüştürün"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_home_lead
 msgid "Follow and convert your opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fırsatları takip edin ve müşteriye dönüştürün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fırsatları takip edin ve müşteriye dönüştürün"
 >>>>>>> upstream/18.0
@@ -864,7 +964,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Go to reseller"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bayiye gidin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bayiye gidin"
 >>>>>>> upstream/18.0
@@ -889,7 +993,11 @@ msgstr "Grupla"
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "I am interested by this lead."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu müşteri adayıyla ilgileniyorum."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu müşteri adayıyla ilgileniyorum."
 >>>>>>> upstream/18.0
@@ -915,7 +1023,11 @@ msgstr "Müşteriyle temas kurdum"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
 msgid "I'm interested"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlgileniyorum"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlgileniyorum"
 >>>>>>> upstream/18.0
@@ -924,7 +1036,11 @@ msgstr "İlgileniyorum"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead
 msgid "I'm not interested"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İlgilenmiyorum"
+>>>>>>> upstream/18.0
 =======
 msgstr "İlgilenmiyorum"
 >>>>>>> upstream/18.0
@@ -1131,7 +1247,11 @@ msgstr "Sonraki İş Ortağı İncelemesi"
 #: code:addons/website_crm_partner_assign/controllers/main.py:0
 msgid "No Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etkinlik Yok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etkinlik Yok"
 >>>>>>> upstream/18.0
@@ -1156,7 +1276,11 @@ msgstr "\" için sonuç bulunamadı"
 #: code:addons/website_crm_partner_assign/models/crm_lead.py:0
 msgid "Not allowed to update the following field(s): %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aşağıdaki alan(lar) güncellenemez: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aşağıdaki alan(lar) güncellenemez: %s."
 >>>>>>> upstream/18.0
@@ -1165,7 +1289,11 @@ msgstr "Aşağıdaki alan(lar) güncellenemez: %s."
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Open categories dropdown"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategoriler açılır menüsünü açın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategoriler açılır menüsünü açın"
 >>>>>>> upstream/18.0
@@ -1174,7 +1302,11 @@ msgstr "Kategoriler açılır menüsünü açın"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "Open countries dropdown"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülkeler açılır menüsünü açın"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülkeler açılır menüsünü açın"
 >>>>>>> upstream/18.0
@@ -1200,7 +1332,11 @@ msgstr "Fırsat"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "Opportunity -"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fırsat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fırsat"
 >>>>>>> upstream/18.0
@@ -1417,7 +1553,11 @@ msgstr "İş Ortağı Arama Notu"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "See all resellers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tüm bayileri görün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tüm bayileri görün"
 >>>>>>> upstream/18.0
@@ -1426,7 +1566,11 @@ msgstr "Tüm bayileri görün"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "See categories filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategori filtrelerini görün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategori filtrelerini görün"
 >>>>>>> upstream/18.0
@@ -1435,7 +1579,11 @@ msgstr "Kategori filtrelerini görün"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "See countries filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ülke filtrelerini görün"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ülke filtrelerini görün"
 >>>>>>> upstream/18.0
@@ -1680,7 +1828,11 @@ msgstr "referans"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.index
 msgid "references"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "referanslar"
+>>>>>>> upstream/18.0
 =======
 msgstr "referanslar"
 >>>>>>> upstream/18.0

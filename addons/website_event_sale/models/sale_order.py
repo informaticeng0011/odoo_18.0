@@ -94,13 +94,19 @@ class SaleOrder(models.Model):
             attendees.action_cancel()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _filter_can_send_abandoned_cart_mail(self):
         """Prevent carts with expired/sold out tickets from being subject of reminder emails."""
         return super()._filter_can_send_abandoned_cart_mail().filtered(
             lambda so: all(ticket.sale_available for ticket in so.order_line.event_ticket_id)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class SaleOrderLine(models.Model):

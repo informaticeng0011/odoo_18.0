@@ -24,7 +24,11 @@ class TestCloudStorageAzureCommon(TransactionCase):
         self.DUMMY_AZURE_CLIENT_SECRET = 'secret'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.container_name = 'container_name'
+=======
+        self.container_name = 'container-name'
+>>>>>>> upstream/18.0
 =======
         self.container_name = 'container-name'
 >>>>>>> upstream/18.0
@@ -171,7 +175,10 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_azure_url_validation(self):
@@ -224,6 +231,9 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
             attachment._get_cloud_storage_azure_info()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

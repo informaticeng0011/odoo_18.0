@@ -2,6 +2,10 @@
 
 import { after, before, beforeEach, createJobScopedGetter } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { validateType } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { validateType } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -76,7 +80,10 @@ const SERVER_STATE_VALUES = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 const SERVER_STATE_VALUES_SCHEMA = {
     companies: { type: Array, element: Object },
     currencies: { type: Array, element: Object },
@@ -98,6 +105,9 @@ const SERVER_STATE_VALUES_SCHEMA = {
     view_info: Object,
 };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const getServerStateValues = createJobScopedGetter(
     (previousValues) => ({
@@ -141,11 +151,14 @@ export function onServerStateChange(target, callback) {
 
 export const serverState = new Proxy(SERVER_STATE_VALUES, {
 <<<<<<< HEAD
+<<<<<<< HEAD
     get(target, p) {
         return Reflect.get(getServerStateValues(), p);
     },
     set(target, p, newValue) {
 =======
+=======
+>>>>>>> upstream/18.0
     deleteProperty(_target, p) {
         return Reflect.deleteProperty(getServerStateValues(), p);
     },
@@ -162,6 +175,9 @@ export const serverState = new Proxy(SERVER_STATE_VALUES, {
                 throw new TypeError(errorMessage);
             }
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const result = Reflect.set(getServerStateValues(), p, newValue);
         if (result) {

@@ -367,7 +367,11 @@ test("show dialog for errors in third-party scripts in debug mode", async () => 
     const error = new TestError();
     error.name = "Script error.";
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0

@@ -4,14 +4,20 @@ import { queryAll } from "@odoo/hoot-dom";
 import { reactive, useEffect, useExternalListener } from "@odoo/owl";
 import { isNode } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, toSelector } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     isIterable,
     parseRegExp,
     R_WHITE_SPACE,
     toSelector,
 } from "@web/../lib/hoot-dom/hoot_dom_utils";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { DiffMatchPatch } from "./lib/diff_match_patch";
 import { getRunner } from "./main_runner";
@@ -47,6 +53,11 @@ import { getRunner } from "./main_runner";
  * @typedef {string | RegExp | { new(): any }} Matcher
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
  *
@@ -500,7 +511,10 @@ const _formatTechnical = (value, depth, isObjectValue, cache) => {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class QueryRegExp extends RegExp {
     /**
      * @param {string} value
@@ -539,6 +553,9 @@ class QueryPartialString extends QueryString {
     compareFn = getFuzzyScore;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /** @type {Map<Function, (value: unknown) => string>} */
 const GENERIC_SERIALIZERS = new Map([
@@ -563,6 +580,11 @@ const MAX_HUMAN_READABLE_SIZE = 80;
 const MIN_HUMAN_READABLE_SIZE = 8;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const QUERY_EXCLUDE = "-";
+
+>>>>>>> upstream/18.0
 =======
 const QUERY_EXCLUDE = "-";
 
@@ -584,7 +606,10 @@ const windowTarget = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * Global object used in {@link getFuzzyScore} when performing a lookup, to avoid
  * computing score for the same string twice.
@@ -592,6 +617,9 @@ const windowTarget = {
  */
 let fuzzyScoreMap = null;
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 //-----------------------------------------------------------------------------
 // Exports
@@ -976,11 +1004,14 @@ export function generateHash(...strings) {
  * and a match closer to the beginning of the string is also scored higher.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} pattern (normalized)
  * @param {string} string (normalized)
  */
 export function getFuzzyScore(pattern, string) {
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {string} pattern (normalized & lower-cased)
  * @param {string} string (normalized)
  */
@@ -990,6 +1021,9 @@ export function getFuzzyScore(pattern, string) {
         return fuzzyScoreMap[string];
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     let totalScore = 0;
     let currentScore = 0;
@@ -1007,13 +1041,19 @@ export function getFuzzyScore(pattern, string) {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     return patternIndex === pattern.length ? totalScore : 0;
 =======
+=======
+>>>>>>> upstream/18.0
     const score = patternIndex === pattern.length ? totalScore : 0;
     if (fuzzyScoreMap) {
         fuzzyScoreMap[string] = score;
     }
     return score;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -1159,7 +1199,11 @@ export function levenshtein(a, b) {
  *
  * @template {{ key: string }} T
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string | RegExp} pattern normalized string or RegExp
+=======
+ * @param {QueryPart[]} parsedQuery normalized string or RegExp
+>>>>>>> upstream/18.0
 =======
  * @param {QueryPart[]} parsedQuery normalized string or RegExp
 >>>>>>> upstream/18.0
@@ -1167,6 +1211,7 @@ export function levenshtein(a, b) {
  * @param {keyof T} [property]
  * @returns {T[]}
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 export function lookup(pattern, items, property = "key") {
     /** @type {T[]} */
@@ -1196,6 +1241,8 @@ export function lookup(pattern, items, property = "key") {
     }
     return result;
 =======
+=======
+>>>>>>> upstream/18.0
 export function lookup(parsedQuery, items, property = "key") {
     for (const queryPart of parsedQuery) {
         const isPartial = queryPart instanceof QueryPartialString;
@@ -1216,6 +1263,9 @@ export function lookup(parsedQuery, items, property = "key") {
     }
     fuzzyScoreMap = null;
     return items;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -1312,7 +1362,10 @@ export function normalize(string) {
     return string
         .trim()
 <<<<<<< HEAD
+<<<<<<< HEAD
         .toLowerCase()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         .normalize("NFD")
@@ -1344,7 +1397,10 @@ export function ordinal(number) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @param {string} query
  * @returns {QueryPart[]}
@@ -1397,6 +1453,9 @@ export function parseQuery(query) {
     return parsedQuery;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export async function paste() {
     try {
@@ -1739,7 +1798,11 @@ export class Markup {
     static diff(expected, actual) {
         const eType = typeof expected;
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (eType !== typeof actual || !(eType === "object" || eType === "string")) {
+=======
+        if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
+>>>>>>> upstream/18.0
 =======
         if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
 >>>>>>> upstream/18.0
@@ -1908,6 +1971,10 @@ export const CASE_EVENT_TYPES = {
 };
 export const DEFAULT_EVENT_TYPES = CASE_EVENT_TYPES.assertion.value | CASE_EVENT_TYPES.error.value;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+export const EXACT_MARKER = `"`;
+>>>>>>> upstream/18.0
 =======
 export const EXACT_MARKER = `"`;
 >>>>>>> upstream/18.0
@@ -1933,10 +2000,16 @@ export const STORAGE = {
 export const S_ANY = Symbol("any value");
 export const S_NONE = Symbol("no value");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export const R_QUERY_EXACT = new RegExp(
     `(?<exclude>-)?${EXACT_MARKER}(?<content>[^${EXACT_MARKER}]*)${EXACT_MARKER}`,
     "g"
 );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

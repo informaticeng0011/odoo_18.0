@@ -4,7 +4,11 @@ import { Component, onWillRender, useEffect, useRef, useState, xml } from "@odoo
 import { Suite } from "../core/suite";
 import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -255,6 +259,7 @@ export class HootSideBar extends Component {
         // Filtering suites
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nFilter = normalize(this.state.filter);
         if (nFilter) {
             allowedIds = new Set();
@@ -262,12 +267,17 @@ export class HootSideBar extends Component {
             rootSuites = new Set();
             for (const matchingSuite of lookup(nFilter, allSuites, "name")) {
 =======
+=======
+>>>>>>> upstream/18.0
         const parsedQuery = parseQuery(this.state.filter);
         if (parsedQuery.length) {
             allowedIds = new Set();
             unfoldedIds = new Set(this.state.unfoldedIds);
             rootSuites = new Set();
             for (const matchingSuite of lookup(parsedQuery, allSuites, "name")) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 for (const suite of matchingSuite.path) {
                     allowedIds.add(suite.id);

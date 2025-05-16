@@ -5325,7 +5325,12 @@ test(`switching to another record from a dirty one on desktop`, async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("Save record, no changes but dirty (add and remove tag)", async () => {
+=======
+test.tags("desktop");
+test("Save record, no changes but dirty (add and remove tag)", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("Save record, no changes but dirty (add and remove tag)", async () => {
@@ -5362,6 +5367,7 @@ test("Save record, no changes but dirty (add and remove tag)", async () => {
     expect.verifySteps([]); // avoid doint an extra web_read
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 test.tags("desktop")(
     "switching to another record from a dirty record but wo changes (add and remove tag)",
@@ -5406,6 +5412,8 @@ test.tags("desktop")(
     }
 );
 =======
+=======
+>>>>>>> upstream/18.0
 test.tags("desktop");
 test("switching to another record from a dirty record but wo changes (add and remove tag)", async () => {
     onRpc("web_save", () => expect.step("ERROR: web_save should not be called"));
@@ -5446,6 +5454,9 @@ test("switching to another record from a dirty record but wo changes (add and re
     expect(`.o_breadcrumb`).toHaveText("second record");
     expect.verifySteps(["web_read"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 test(`do not reload after save when using pager`, async () => {
@@ -9471,7 +9482,11 @@ test(`display tooltips for buttons (debug = false)`, async () => {
 test.tags("desktop");
 test(`display tooltips for buttons (debug = true)`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9607,13 +9622,19 @@ test(`Can switch to form view on inline tree`, async () => {
             expect.step("doAction");
             expect(action).toEqual({
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 context: {
                     allowed_company_ids: [1],
                     lang: "en",
                     tz: "taht",
                     uid: 7,
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 res_id: id,
                 res_model: "partner",
@@ -9842,7 +9863,11 @@ test(`basic support for widgets: onchange update`, async () => {
 test.tags("desktop");
 test(`proper stringification in debug mode tooltip`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9876,7 +9901,11 @@ test(`proper stringification in debug mode tooltip`, async () => {
 test.tags("desktop");
 test(`field tooltip in debug mode, on field with domain attr`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9902,7 +9931,11 @@ test(`field tooltip in debug mode, on field with domain attr`, async () => {
 test.tags("desktop");
 test(`do not display unset attributes in debug field tooltip`, async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -11110,7 +11143,11 @@ test(`save a form view with an invisible required field in a x2many`, async () =
 test(`help on field as precedence over field's declaration -- form`, async () => {
     Partner._fields.foo = fields.Char({ help: "pythonhelp" });
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -12671,7 +12708,12 @@ test("executing new action, closes dialog, and avoid reload previous view", asyn
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("mobile")(`pager is up to date`, async () => {
+=======
+test.tags("mobile");
+test(`pager is up to date`, async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("mobile");
 test(`pager is up to date`, async () => {

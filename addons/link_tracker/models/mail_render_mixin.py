@@ -79,7 +79,11 @@ class MailRenderMixin(models.AbstractModel):
                 continue
             # support blacklist items in path, like /u/
             parsed = urls.url_parse(original_url, scheme='http')
+<<<<<<< HEAD
             if blacklist and any(item in parsed.path for item in blacklist):
+=======
+            if blacklist and any(re.search(item + r'([#?/]|$)', parsed.path) for item in blacklist):
+>>>>>>> upstream/18.0
                 continue
 
             create_vals = dict(link_tracker_vals, url=unescape(original_url))

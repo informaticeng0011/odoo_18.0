@@ -80,7 +80,11 @@ test("Feedback with rating and comment", async () => {
     await click(".o-livechat-CloseConfirmation-leave");
     await assertSteps(["/im_livechat/visitor_leave_session"]);
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(`img[data-alt="${RATING.GOOD}"]`);
+=======
+    await click(`img[alt="${RATING.GOOD}"]`);
+>>>>>>> upstream/18.0
 =======
     await click(`img[alt="${RATING.GOOD}"]`);
 >>>>>>> upstream/18.0

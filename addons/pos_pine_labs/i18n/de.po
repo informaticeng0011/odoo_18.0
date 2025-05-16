@@ -25,6 +25,10 @@ msgstr ""
 msgid "A client id issued directly to the merchant by Pine Labs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Eine Client-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
+>>>>>>> upstream/18.0
 =======
 "Eine Client-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
 >>>>>>> upstream/18.0
@@ -34,6 +38,10 @@ msgstr ""
 msgid "A merchant id issued directly to the merchant by Pine Labs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Eine Händler-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
+>>>>>>> upstream/18.0
 =======
 "Eine Händler-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
 >>>>>>> upstream/18.0
@@ -49,6 +57,10 @@ msgstr ""
 msgid "A store id issued directly to the merchant by Pine Labs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Eine Shop-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
+>>>>>>> upstream/18.0
 =======
 "Eine Shop-ID, die von Pine Labs direkt an den Händler ausgegeben wird."
 >>>>>>> upstream/18.0
@@ -57,7 +69,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_allowed_payment_mode
 msgid "Accepted payment modes by Pine Labs for transactions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Von Pine Labs für Transaktionen akzeptierte Zahlungsmodi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Von Pine Labs für Transaktionen akzeptierte Zahlungsmodi."
 >>>>>>> upstream/18.0
@@ -106,6 +122,11 @@ msgid ""
 "Pine Labs POS transaction cancelled. Retry again for collecting payment."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kassentransaktion von Pine Labs storniert. Versuchen Sie es erneut, um die "
+"Zahlung zu erhalten."
+>>>>>>> upstream/18.0
 =======
 "Kassentransaktion von Pine Labs storniert. Versuchen Sie es erneut, um die "
 "Zahlung zu erhalten."
@@ -115,7 +136,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment__pine_labs_plutus_transaction_ref
 msgid "Pine Labs PlutusTransactionReferenceID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PlutusTransactionReferenceID von Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "PlutusTransactionReferenceID von Pine Labs"
 >>>>>>> upstream/18.0
@@ -129,7 +154,11 @@ msgstr "Security-Token von Pine Labs"
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_store
 msgid "Pine Labs Store ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shop-ID von Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shop-ID von Pine Labs"
 >>>>>>> upstream/18.0
@@ -138,7 +167,11 @@ msgstr "Shop-ID von Pine Labs"
 #: model:ir.model.fields,field_description:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Pine Labs Test Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testmodus von Pine Labs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testmodus von Pine Labs"
 >>>>>>> upstream/18.0
@@ -148,7 +181,11 @@ msgstr "Testmodus von Pine Labs"
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs get payment status request failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abrufanfrage des Zahlstatus von Pine Labs fehlgeschlagen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abrufanfrage des Zahlstatus von Pine Labs fehlgeschlagen"
 >>>>>>> upstream/18.0
@@ -158,7 +195,11 @@ msgstr "Abrufanfrage des Zahlstatus von Pine Labs fehlgeschlagen"
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs make payment request failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahlungsanfrage von Pine Labs fehlgeschlagen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahlungsanfrage von Pine Labs fehlgeschlagen"
 >>>>>>> upstream/18.0
@@ -168,7 +209,11 @@ msgstr "Zahlungsanfrage von Pine Labs fehlgeschlagen"
 #: code:addons/pos_pine_labs/static/src/app/utils/payment/payment_pine_labs.js:0
 msgid "Pine Labs payment cancellation request failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahlungsstornierungsanfrage von Pine Labs fehlgeschlagen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zahlungsstornierungsanfrage von Pine Labs fehlgeschlagen"
 >>>>>>> upstream/18.0
@@ -197,6 +242,12 @@ msgid ""
 "request-for-Void-ICB-on-UPI-transaction"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Während des Rückerstattungsprozesses erforderlich: "
+"https://developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-"
+"request-for-Void-ICB-on-UPI-transaction"
+>>>>>>> upstream/18.0
 =======
 "Während des Rückerstattungsprozesses erforderlich: "
 "https://developer.pinelabs.com/in/instore/cloud-integration#Example-JSON-"
@@ -207,7 +258,11 @@ msgstr ""
 #: model:ir.model.fields,help:pos_pine_labs.field_pos_payment_method__pine_labs_test_mode
 msgid "Test Pine Labs transaction process."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktionsvorgang von Pine Labs testen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transaktionsvorgang von Pine Labs testen"
 >>>>>>> upstream/18.0
@@ -220,6 +275,11 @@ msgid ""
 "included in the response."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Der erwartete Fehlercode für die Anfrage des Kassenstatus von Pine Labs war "
+"nicht in der Antwort enthalten."
+>>>>>>> upstream/18.0
 =======
 "Der erwartete Fehlercode für die Anfrage des Kassenstatus von Pine Labs war "
 "nicht in der Antwort enthalten."
@@ -241,7 +301,11 @@ msgstr "Transaktion wegen Inaktivität fehlgeschlagen"
 #: model:ir.model.fields.selection,name:pos_pine_labs.selection__pos_payment_method__pine_labs_allowed_payment_mode__upi
 msgid "Upi"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "UPI"
 >>>>>>> upstream/18.0

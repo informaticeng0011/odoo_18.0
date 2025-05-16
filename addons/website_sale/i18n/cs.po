@@ -9,6 +9,7 @@
 # Stanislav Kurinec, 2025
 # Radim Bílý, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marta Wacławek, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +54,10 @@
 >>>>>>> upstream/18.0
 =======
 # Jakub Smolka, 2025
+>>>>>>> upstream/18.0
+=======
+# Jakub Smolka, 2025
+# Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 =======
 # Jakub Smolka, 2025
@@ -77,6 +82,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marta Wacławek, 2025\n"
 =======
 "Last-Translator: Jakub Smolka, 2025\n"
@@ -110,6 +116,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Jakub Smolka, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -133,6 +142,11 @@ msgid ""
 "track their order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\"Volitelné\" umožňuje návštěvníkům registrovat se pomocí e-mailu s "
+"potvrzením objednávky, aby mohli sledovat stav své objednávky."
+>>>>>>> upstream/18.0
 =======
 "\"Volitelné\" umožňuje návštěvníkům registrovat se pomocí e-mailu s "
 "potvrzením objednávky, aby mohli sledovat stav své objednávky."
@@ -142,7 +156,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "#{record.name.value}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{record.name.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{record.name.value}"
 >>>>>>> upstream/18.0
@@ -161,7 +179,11 @@ msgstr "%s kontrol"
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "&amp; Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp; Dprava"
+>>>>>>> upstream/18.0
 =======
 msgstr "&amp; Dprava"
 >>>>>>> upstream/18.0
@@ -232,7 +254,11 @@ msgstr "<b>Komunikace: </b>"
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 msgid "<b>Deliver to pickup point: </b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Doručení na výdejní místo: </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Doručení na výdejní místo: </b>"
 >>>>>>> upstream/18.0
@@ -242,7 +268,11 @@ msgstr "<b>Doručení na výdejní místo: </b>"
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<b>Delivery: </b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Doprava: </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Doprava: </b>"
 >>>>>>> upstream/18.0
@@ -267,7 +297,11 @@ msgstr "<b>Třídit podle</b>"
 #: model_terms:ir.ui.view,arch_db:website_sale.o_wsale_offcanvas
 msgid "<b>Tags</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Štítky</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Štítky</b>"
 >>>>>>> upstream/18.0
@@ -290,6 +324,11 @@ msgid ""
 "                                    Return to shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
+"                                    Zpět na dopravu"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-angle-left me-2 fw-light\"/>\n"
 "                                    Zpět na dopravu"
@@ -302,6 +341,11 @@ msgid ""
 "                Buy now"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-bolt me-2\"/>\n"
+"                Koupit nyní"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-bolt me-2\"/>\n"
 "                Koupit nyní"
@@ -319,6 +363,11 @@ msgid ""
 "                    Buy Now"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-bolt\"/>\n"
+"                    Koupit teď"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-bolt\"/>\n"
 "                    Koupit teď"
@@ -375,6 +424,11 @@ msgid ""
 "Products"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left d-lg-none me-1\" "
+"role=\"presentation\"/>Všechny produkty"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left d-lg-none me-1\" "
 "role=\"presentation\"/>Všechny produkty"
@@ -384,7 +438,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>All Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Všechny produkty"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Všechny produkty"
 >>>>>>> upstream/18.0
@@ -396,6 +454,11 @@ msgid ""
 "role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Předchozí\" title=\"Předchozí\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Předchozí\" title=\"Předchozí\"/>"
@@ -408,6 +471,11 @@ msgid ""
 "role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Další\" title=\"Další\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Další\" title=\"Další\"/>"
@@ -456,6 +524,11 @@ msgid ""
 "                            <i class=\"oi oi-close\" role=\"presentation\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small class=\"mx-auto\"><b>Vymazat filtry</b></small>\n"
+"                            <i class=\"oi oi-close\" role=\"presentation\"/>"
+>>>>>>> upstream/18.0
 =======
 "<small class=\"mx-auto\"><b>Vymazat filtry</b></small>\n"
 "                            <i class=\"oi oi-close\" role=\"presentation\"/>"
@@ -487,6 +560,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">1,500.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">1,500.00</span>\n"
@@ -501,6 +580,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">140.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">140.00</span>\n"
@@ -515,6 +600,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">33.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">33.00</span>\n"
@@ -529,6 +620,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">750.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">750.00</span>\n"
@@ -548,6 +645,12 @@ msgid ""
 "                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
+"                    Zvolte pro výpočet ceny doručení \n"
+"                </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
 "                    Zvolte pro výpočet ceny doručení \n"
@@ -571,7 +674,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info
 msgid "<span class=\"s_website_form_label_content\">Upload a document</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"s_website_form_label_content\">Nahrát dokument</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"s_website_form_label_content\">Nahrát dokument</span>"
 >>>>>>> upstream/18.0
@@ -588,6 +695,11 @@ msgid ""
 " on variants</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" invisible=\"product_variant_count &lt;= 1\">Na "
+"základě variant</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\" invisible=\"product_variant_count &lt;= 1\">Na "
 "základě variant</span>"
@@ -597,7 +709,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "<span class=\"visually-hidden\">filters active</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"visually-hidden\">aktivní filtry</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"visually-hidden\">aktivní filtry</span>"
 >>>>>>> upstream/18.0
@@ -612,7 +728,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "<span>Already have an account?</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Máte již účet?</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Máte již účet?</span>"
 >>>>>>> upstream/18.0
@@ -626,7 +746,11 @@ msgstr "<span>Objednávka</span>"
 #: model_terms:ir.ui.view,arch_db:website_sale.product_document_kanban
 msgid "<span>Publish on website</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Publikovat na webu</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Publikovat na webu</span>"
 >>>>>>> upstream/18.0
@@ -638,6 +762,11 @@ msgid ""
 "                        Please contact the responsible of the shop for more information.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Bohužel vaše objednávka nemůže být potvrzená, protože částka vaší platby se neshoduje s částkou ve vašem košíku.\n"
+"                        Kontaktujte prosím odpovědnou osobu z obchodu pro více informací.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Bohužel vaše objednávka nemůže být potvrzená, protože částka vaší platby se neshoduje s částkou ve vašem košíku.\n"
 "                        Kontaktujte prosím odpovědnou osobu z obchodu pro více informací.</span>"
@@ -652,7 +781,11 @@ msgstr "<span>Video náhled</span>"
 #: model_terms:ir.ui.view,arch_db:website_sale.delivery_form
 msgid "<strong>No suitable delivery method could be found.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Nebyla nalezena žádná vhodná metoda dodaní.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Nebyla nalezena žádná vhodná metoda dodaní.</strong>"
 >>>>>>> upstream/18.0
@@ -749,6 +882,11 @@ msgid ""
 "'/' to discover more features."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podrobný, formátovaný popis pro propagaci vašeho produktu na této stránce. "
+"Použijte '/' pro zobrazení více funkcí."
+>>>>>>> upstream/18.0
 =======
 "Podrobný, formátovaný popis pro propagaci vašeho produktu na této stránce. "
 "Použijte '/' pro zobrazení více funkcí."
@@ -762,6 +900,12 @@ msgid ""
 "features."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Podrobný, formátovaný popis pro propagaci vašeho produktu na"
+"                                      této stránce. Použijte '/' pro "
+"zobrazení více funkcí."
+>>>>>>> upstream/18.0
 =======
 "Podrobný, formátovaný popis pro propagaci vašeho produktu na"
 "                                      této stránce. Použijte '/' pro "
@@ -811,7 +955,11 @@ msgstr "Zpoždění opuštění"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__send_abandoned_cart_email
 msgid "Abandoned Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opuštěný e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opuštěný e-mail"
 >>>>>>> upstream/18.0
@@ -820,7 +968,11 @@ msgstr "Opuštěný e-mail"
 #: model:ir.model.fields,field_description:website_sale.field_website_snippet_filter__product_cross_selling
 msgid "About cross selling products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O křížovém prodeji produktů"
+>>>>>>> upstream/18.0
 =======
 msgstr "O křížovém prodeji produktů"
 >>>>>>> upstream/18.0
@@ -829,7 +981,11 @@ msgstr "O křížovém prodeji produktů"
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Accept Terms & Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akceptujte obchodní podmínky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akceptujte obchodní podmínky"
 >>>>>>> upstream/18.0
@@ -843,7 +999,11 @@ msgstr "Přijatelná velikost souboru"
 #: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_accessories
 msgid "Accessories for Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doplňky k produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doplňky k produktu"
 >>>>>>> upstream/18.0
@@ -901,7 +1061,11 @@ msgstr "Přidat do košíku"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Add a customizable form during checkout (after address)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidejte přizpůsobitelný formulář během pokladny (po adrese)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidejte přizpůsobitelný formulář během pokladny (po adrese)"
 >>>>>>> upstream/18.0
@@ -913,6 +1077,10 @@ msgid ""
 "sale price"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kromě prodejní ceny, přidejte referenční cenu produktu za MJ (např. Kč/kg)."
+>>>>>>> upstream/18.0
 =======
 "Kromě prodejní ceny, přidejte referenční cenu produktu za MJ (např. Kč/kg)."
 >>>>>>> upstream/18.0
@@ -926,6 +1094,11 @@ msgid ""
 "purposes.It will not be displayed if pricelists apply."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Přijdete přeškrtnutou cenu na své produktové stránky a /shop za účelem "
+"porovnávání. Nebude se zobrazovat, pokud platí ceníky."
+>>>>>>> upstream/18.0
 =======
 "Přijdete přeškrtnutou cenu na své produktové stránky a /shop za účelem "
 "porovnávání. Nebude se zobrazovat, pokud platí ceníky."
@@ -935,7 +1108,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Add a strikethrough price, as a comparison"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidejte přeškrtnutou cenu jako porovnání"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidejte přeškrtnutou cenu jako porovnání"
 >>>>>>> upstream/18.0
@@ -971,7 +1148,11 @@ msgstr "Přidat tlačítko Košík"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_autocomplete
 msgid "Address Autocomplete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatické doplňování adresy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatické doplňování adresy"
 >>>>>>> upstream/18.0
@@ -1002,7 +1183,11 @@ msgstr "Všichni uživatelé"
 #: model_terms:ir.ui.view,arch_db:website_sale.view_delivery_carrier_form_website_delivery
 msgid "All websites"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny webové stránky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny webové stránky"
 >>>>>>> upstream/18.0
@@ -1014,6 +1199,10 @@ msgid ""
 "person"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Umožnit zákazníkům vyzvednout své online nákupy v obchodě a zaplatit osobně."
+>>>>>>> upstream/18.0
 =======
 "Umožnit zákazníkům vyzvednout své online nákupy v obchodě a zaplatit osobně."
 >>>>>>> upstream/18.0
@@ -1027,7 +1216,11 @@ msgstr "Umožnit zákazníkům porovnávat produkty na základě jejich atribut�
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow signed-in users to save product in a wishlist"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umožnit přihlášeným uživatelům uložit si produkt do seznamu přání"
+>>>>>>> upstream/18.0
 =======
 msgstr "Umožnit přihlášeným uživatelům uložit si produkt do seznamu přání"
 >>>>>>> upstream/18.0
@@ -1042,6 +1235,10 @@ msgstr "Umožnit koncovému uživateli vybrat tento ceník"
 msgid "Allow your customer to add products from previous order in their cart."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Umožněte svým zákazníkům přidávat do košíku produkty z předchozí objednávky."
+>>>>>>> upstream/18.0
 =======
 "Umožněte svým zákazníkům přidávat do košíku produkty z předchozí objednávky."
 >>>>>>> upstream/18.0
@@ -1064,7 +1261,11 @@ msgstr "Množství opuštěných košíků"
 #: code:addons/website_sale/controllers/delivery.py:0
 msgid "Anonymous express checkout partner for order %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anonymní expresní pokladní partner pro objednávku %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anonymní expresní pokladní partner pro objednávku %s"
 >>>>>>> upstream/18.0
@@ -1084,7 +1285,11 @@ msgstr "Použít"
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 msgid "Are you sure you want to delete this ribbon?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jste si jisti, že chcete smazat tuto stuhu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jste si jisti, že chcete smazat tuto stuhu?"
 >>>>>>> upstream/18.0
@@ -1115,7 +1320,11 @@ msgstr "Atributy"
 #: model:product.public.category,name:website_sale.public_category_multimedia_augmented_reality
 msgid "Augmented Reality Tools"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nástroje pro rozšířenou realitu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nástroje pro rozšířenou realitu"
 >>>>>>> upstream/18.0
@@ -1124,7 +1333,11 @@ msgstr "Nástroje pro rozšířenou realitu"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Automatically send abandoned checkout emails"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticky odesílejte e-maily o opuštěných košících"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automaticky odesílejte e-maily o opuštěných košících"
 >>>>>>> upstream/18.0
@@ -1134,7 +1347,11 @@ msgstr "Automaticky odesílejte e-maily o opuštěných košících"
 #: code:addons/website_sale/static/src/js/product_list/product_list.js:0
 msgid "Available options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupné možnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupné možnosti"
 >>>>>>> upstream/18.0
@@ -1155,7 +1372,11 @@ msgstr "Zpět do košíku"
 #: code:addons/website_sale/models/website.py:0
 msgid "Back to delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zpět k dopravě"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zpět k dopravě"
 >>>>>>> upstream/18.0
@@ -1175,7 +1396,11 @@ msgstr "Barva pozadí"
 #: model:ir.model.fields,field_description:website_sale.field_product_template__base_unit_count
 msgid "Base Unit Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet základních jednotek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet základních jednotek"
 >>>>>>> upstream/18.0
@@ -1185,7 +1410,11 @@ msgstr "Počet základních jednotek"
 #: model:ir.model.fields,field_description:website_sale.field_product_template__base_unit_name
 msgid "Base Unit Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Název základní jednotky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Název základní jednotky"
 >>>>>>> upstream/18.0
@@ -1194,7 +1423,11 @@ msgstr "Název základní jednotky"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__group_show_uom_price
 msgid "Base Unit Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena základní jednotky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena základní jednotky"
 >>>>>>> upstream/18.0
@@ -1203,7 +1436,11 @@ msgstr "Cena základní jednotky"
 #: model:ir.actions.act_window,name:website_sale.base_unit_action
 msgid "Base Units"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základní jednotky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Základní jednotky"
 >>>>>>> upstream/18.0
@@ -1212,7 +1449,11 @@ msgstr "Základní jednotky"
 #: model:product.public.category,name:website_sale.public_category_cabinets_bathroom
 msgid "Bathroom Cabinets"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koupelnové skříňky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koupelnové skříňky"
 >>>>>>> upstream/18.0
@@ -1231,7 +1472,11 @@ msgstr "BeNeLux"
 #: model:product.public.category,name:website_sale.public_category_furnitures_beds
 msgid "Beds"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postele"
 >>>>>>> upstream/18.0
@@ -1286,7 +1531,11 @@ msgid "Bin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koš"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koš"
 >>>>>>> upstream/18.0
@@ -1366,7 +1615,11 @@ msgid "Both"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zájemce/Příležitost"
+=======
+msgstr "Obojí"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obojí"
 >>>>>>> upstream/18.0
@@ -1503,7 +1756,11 @@ msgid "Cart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Košík"
+>>>>>>> upstream/18.0
 =======
 msgstr "Košík"
 >>>>>>> upstream/18.0
@@ -3165,7 +3422,11 @@ msgstr "Médium"
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_menu_image_menu
 msgid "Mega menu default image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výchozí obrázek mega nabídky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Výchozí obrázek mega nabídky"
 >>>>>>> upstream/18.0
@@ -3635,7 +3896,11 @@ msgstr "Pilulky"
 #: model_terms:ir.ui.view,arch_db:website_sale.product_share_buttons
 msgid "Pinterest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pinterest"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pinterest"
 >>>>>>> upstream/18.0
@@ -4201,7 +4466,11 @@ msgstr ""
 #: model:ir.model.fields,help:website_sale.field_product_template__website_id
 msgid "Restrict to a specific website."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omezit na konkrétní webovou stránku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Omezit na konkrétní webovou stránku."
 >>>>>>> upstream/18.0
@@ -4602,7 +4871,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_menus_logos
 msgid "Spring collection has arrived!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dorazila jarní kolekce!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dorazila jarní kolekce!"
 >>>>>>> upstream/18.0

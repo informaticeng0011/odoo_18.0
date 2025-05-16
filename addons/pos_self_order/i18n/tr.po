@@ -20,6 +20,10 @@
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Umur Akın <umura@projetgrup.com>, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -29,9 +33,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -57,7 +67,10 @@ msgid ""
 "Please review your order and validate it again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "%s artık mevcut değildir, bu nedenle siparişinizden kaldırılmıştır. Lütfen "
 "siparişinizi gözden geçirin ve tekrar onaylayın."
 
@@ -66,6 +79,9 @@ msgstr ""
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "(require Odoo Enterprise)"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: pos_self_order
@@ -227,7 +243,11 @@ msgstr "İptal"
 #: code:addons/pos_self_order/static/src/app/components/cancel_popup/cancel_popup.xml:0
 msgid "Cancel Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişi İptal Edin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siparişi İptal Edin"
 >>>>>>> upstream/18.0
@@ -349,6 +369,11 @@ msgid ""
 "order screen"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Restoranın kendi kendine sipariş ekranında görüntülenmek üzere "
+"yapılandırabileceği özel bağlantılar"
+>>>>>>> upstream/18.0
 =======
 "Restoranın kendi kendine sipariş ekranında görüntülenmek üzere "
 "yapılandırabileceği özel bağlantılar"
@@ -368,7 +393,11 @@ msgstr "Tehlike"
 #: model:ir.model.fields.selection,name:pos_self_order.selection__pos_self_order_custom_link__style__dark
 msgid "Dark"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karanlık"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karanlık"
 >>>>>>> upstream/18.0
@@ -440,6 +469,11 @@ msgid ""
 "                    both the point of sale and table names are encrypted in the generated URL, as shown in the example below:."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kat planınızdaki her masaya, yapılandırmanıza bağlı olarak benzersiz bir QR kodu atanır. Güvenlik nedeniyle,\n"
+"                    hem satış noktası hem de masa adları, aşağıdaki örnekte gösterildiği gibi oluşturulan URL'de şifrelenir:"
+>>>>>>> upstream/18.0
 =======
 "Kat planınızdaki her masaya, yapılandırmanıza bağlı olarak benzersiz bir QR kodu atanır. Güvenlik nedeniyle,\n"
 "                    hem satış noktası hem de masa adları, aşağıdaki örnekte gösterildiği gibi oluşturulan URL'de şifrelenir:"
@@ -516,6 +550,11 @@ msgid ""
 "Please add them before using the Self Order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hey, görünüşe göre ürün oluşturmayı veya pos_config'e eklemeyi unuttunuz. "
+"Lütfen Self Order'ı kullanmadan önce bunları ekleyin"
+>>>>>>> upstream/18.0
 =======
 "Hey, görünüşe göre ürün oluşturmayı veya pos_config'e eklemeyi unuttunuz. "
 "Lütfen Self Order'ı kullanmadan önce bunları ekleyin"
@@ -560,6 +599,11 @@ msgid ""
 "                use of a QR code generator like https://www.qrcode-monkey.com or https://www.qr-code-generator.com"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Özelleştirilmiş QR kodlarına ihtiyacınız varsa, URL'yi almak için ilgili QR kodunu tarayarak başlayın. Ardından\n"
+"                https://www.qrcode-monkey.com veya https://www.qr-code-generator.com gibi bir QR kodu oluşturucudan yararlanın"
+>>>>>>> upstream/18.0
 =======
 "Özelleştirilmiş QR kodlarına ihtiyacınız varsa, URL'yi almak için ilgili QR kodunu tarayarak başlayın. Ardından\n"
 "                https://www.qrcode-monkey.com veya https://www.qr-code-generator.com gibi bir QR kodu oluşturucudan yararlanın"
@@ -606,7 +650,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.pos_self_order_search_view
 msgid "Kiosk"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dijital sipariş ekranı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dijital sipariş ekranı"
 >>>>>>> upstream/18.0
@@ -661,6 +709,11 @@ msgid ""
 "                online or order with the QR codes on your tables"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Müşterilerinizin menünüzü çevrim içi olarak keşfetmesini veya\n"
+"                masalarınızdaki QR kodları ile sipariş vermesini kolaylaştırın"
+>>>>>>> upstream/18.0
 =======
 "Müşterilerinizin menünüzü çevrim içi olarak keşfetmesini veya\n"
 "                masalarınızdaki QR kodları ile sipariş vermesini kolaylaştırın"
@@ -678,7 +731,11 @@ msgstr ""
 #: code:addons/pos_self_order/models/pos_config.py:0
 msgid "Meal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yemek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yemek"
 >>>>>>> upstream/18.0
@@ -932,6 +989,10 @@ msgstr "Ürün"
 #. module: pos_self_order
 #. odoo-javascript
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/pos_self_order/static/src/app/components/combo_selection/combo_selection.xml:0
 >>>>>>> upstream/18.0
@@ -1046,6 +1107,12 @@ msgid ""
 " sale that have the 'QR Code Menu' feature enabled."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu bağlantıyı hangi satış noktalarında görüntülemek istediğinizi seçin. Tüm "
+"satış noktalarında görüntülemek için boş bırakın. 'QR Kod Menüsü' özelliği "
+"etkin olan satış noktaları arasından seçim yapmanız gerekir."
+>>>>>>> upstream/18.0
 =======
 "Bu bağlantıyı hangi satış noktalarında görüntülemek istediğinizi seçin. Tüm "
 "satış noktalarında görüntülemek için boş bırakın. 'QR Kod Menüsü' özelliği "
@@ -1107,7 +1174,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Self-Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Self-Servis Sipariş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Self-Servis Sipariş"
 >>>>>>> upstream/18.0
@@ -1117,7 +1188,11 @@ msgstr "Self-Servis Sipariş"
 #: code:addons/pos_self_order/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Self-ordering:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Self-Servis Sipariş:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Self-Servis Sipariş:"
 >>>>>>> upstream/18.0
@@ -1195,7 +1270,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid "Table:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Masa:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Masa:"
 >>>>>>> upstream/18.0
@@ -1211,7 +1290,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/pages/order_history_page/order_history_page.xml:0
 msgid "Tax:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergi:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vergi:"
 >>>>>>> upstream/18.0
@@ -1290,7 +1373,11 @@ msgstr "URL"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.qr_codes_page
 msgid "URL:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL:"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL:"
 >>>>>>> upstream/18.0
@@ -1312,7 +1399,11 @@ msgstr ""
 #: code:addons/pos_self_order/static/src/app/self_order_service.js:0
 msgid "Uncategorised"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorize edilmemiş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorize edilmemiş"
 >>>>>>> upstream/18.0
@@ -1421,7 +1512,11 @@ msgstr "الجزء الصحيح"
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "https://odoo.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "https://odoo.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "https://odoo.com"
 >>>>>>> upstream/18.0
@@ -1436,7 +1531,11 @@ msgstr "odoo"
 #: code:addons/pos_self_order/static/src/app/pages/product_page/product_page.xml:0
 msgid "options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "seçeekler"
+>>>>>>> upstream/18.0
 =======
 msgstr "seçeekler"
 >>>>>>> upstream/18.0

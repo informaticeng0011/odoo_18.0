@@ -314,11 +314,16 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return None
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         def get_decimal_places(number):
             return len(f'{float(number)}'.split('.')[1])
 
         rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
         decimal_places = get_decimal_places(rounded_amount)
+=======
+        rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
+        decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0
+>>>>>>> upstream/18.0
 =======
         rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
         decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0

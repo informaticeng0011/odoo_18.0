@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, beforeEach } from "@odoo/hoot";
 import { mockWorker } from "@odoo/hoot-mock";
+=======
+import { after } from "@odoo/hoot";
+import { Deferred, mockWorker } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { after } from "@odoo/hoot";
 import { Deferred, mockWorker } from "@odoo/hoot-mock";
@@ -15,6 +20,7 @@ import { patch } from "@web/core/utils/patch";
 //-----------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getWebSocketCallbacks = () => {
     if (!wsCallbacks) {
         wsCallbacks = new Map();
@@ -26,6 +32,8 @@ const getWebSocketCallbacks = () => {
     return wsCallbacks;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function cleanupWebSocketCallbacks() {
     wsCallbacks?.clear();
     wsCallbacks = null;
@@ -63,6 +71,9 @@ function setupWebSocketWorker() {
 
     mockWorker(onWorkerConnected);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /** @type {WebsocketWorker | null} */
@@ -99,6 +110,7 @@ export function onWebsocketEvent(eventName, callback) {
 //-----------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 beforeEach(
     () => {
         currentWebSocketWorker = new WebsocketWorker();
@@ -114,6 +126,8 @@ beforeEach(
     { global: true }
 );
 =======
+=======
+>>>>>>> upstream/18.0
 patch(MockServer.prototype, {
     start() {
         setupWebSocketWorker();
@@ -123,6 +137,9 @@ patch(MockServer.prototype, {
     },
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 patch(WebsocketWorker.prototype, {
     INITIAL_RECONNECT_DELAY: 0,

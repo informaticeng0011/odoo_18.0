@@ -191,11 +191,17 @@ class RecurrenceRule(models.Model):
             return event._get_event_user_m(user_id)
         return self.env.user
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _is_microsoft_insertion_blocked(self, sender_user):
         self.ensure_one()
         has_base_event = self.base_event_id
         has_different_owner = self.base_event_id.user_id and self.base_event_id.user_id != sender_user
         return has_base_event and has_different_owner
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

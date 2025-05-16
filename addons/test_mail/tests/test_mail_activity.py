@@ -13,6 +13,10 @@ import random
 
 from odoo import fields, exceptions, tests
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.models.mail_activity import MailActivity
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -805,7 +809,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -895,6 +902,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,6 +957,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     @users('employee')
     def test_record_unlinked_orphan_activities(self):
         """Test the fix preventing error on corrupted database where activities without related record are present."""
@@ -966,6 +976,9 @@ class TestActivityMixin(TestActivityCommon):
         self.assertFalse(self.env['mail.activity'].with_user(self.user_admin).with_context(active_test=False).search(
             [('active', '=', False)]))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tests.tagged("mail_activity")

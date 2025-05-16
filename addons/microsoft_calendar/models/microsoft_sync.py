@@ -141,9 +141,13 @@ class MicrosoftSync(models.AbstractModel):
             values = record._microsoft_values(self._get_microsoft_synced_fields())
             sender_user = record._get_event_user_m()
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Prevent current user to synchronize new events of non-synchronized users, otherwise the event
             # ownership will be lost in Outlook and it will block the future event sync for the original owner.
             if record.user_id and record.user_id != self.env.user and sender_user == self.env.user:
+=======
+            if record._is_microsoft_insertion_blocked(sender_user):
+>>>>>>> upstream/18.0
 =======
             if record._is_microsoft_insertion_blocked(sender_user):
 >>>>>>> upstream/18.0
@@ -526,7 +530,10 @@ class MicrosoftSync(models.AbstractModel):
         self.ensure_one()
         return True
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _is_microsoft_insertion_blocked(self, sender_user):
         """
@@ -537,4 +544,7 @@ class MicrosoftSync(models.AbstractModel):
         future record synchronization for the original owner.
         """
         raise NotImplementedError()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

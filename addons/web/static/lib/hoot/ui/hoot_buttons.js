@@ -44,8 +44,13 @@ export class HootButtons extends Component {
         <div
             class="${HootButtons.name} relative"
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-on-mouseenter="() => !isRunning and (state.open = true)"
             t-on-mouseleave="() => state.open = false"
+=======
+            t-on-pointerenter="onPointerEnter"
+            t-on-pointerleave="onPointerLeave"
+>>>>>>> upstream/18.0
 =======
             t-on-pointerenter="onPointerEnter"
             t-on-pointerleave="onPointerLeave"
@@ -67,7 +72,11 @@ export class HootButtons extends Component {
                     type="button"
                     class="bg-btn px-2 py-1 transition-colors animate-slide-left"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-on-click.stop="() => state.open = !state.open"
+=======
+                    t-on-click.stop="onToggleClick"
+>>>>>>> upstream/18.0
 =======
                     t-on-click.stop="onToggleClick"
 >>>>>>> upstream/18.0
@@ -135,7 +144,10 @@ export class HootButtons extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {PointerEvent} ev
      */
@@ -158,6 +170,9 @@ export class HootButtons extends Component {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onRunClick() {
         const { runner } = this.env;
@@ -193,10 +208,16 @@ export class HootButtons extends Component {
         storageSet(STORAGE.failed, []);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     onToggleClick() {
         this.state.open = !this.state.open;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

@@ -85,7 +85,10 @@ function websiteEditEventTourSteps() {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         {
@@ -93,6 +96,9 @@ function websiteEditEventTourSteps() {
             trigger: ":iframe .opt_events_list_columns",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -20,6 +20,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -87,7 +91,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -153,6 +161,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"#%(number)s - Obrok <strong>%(amount)s</strong> zapadlost <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 =======
 "#%(number)s - Obrok <strong>%(amount)s</strong> zapadlost <strong "
 "class=\"text-primary\">%(date)s</strong>"
@@ -188,7 +201,11 @@ msgid "%s day(s) overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dan(-i) zamude"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s dan(-i) zamude"
 >>>>>>> upstream/18.0
@@ -239,6 +256,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Pooblaščeno</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Pooblaščeno</span>"
@@ -276,6 +298,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                <span class=\"d-none d-md-inline\"> Plačano</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\"/>\n"
 "                <span class=\"d-none d-md-inline\"> Plačano</span>"
@@ -315,7 +342,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> V čakanju"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Obdelava plačila"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Obdelava plačila"
 >>>>>>> upstream/18.0
@@ -324,7 +355,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Obdelava plačila"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "<span class=\"d-none d-md-inline\"> Pending</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"d-none d-md-inline\"> V teku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"d-none d-md-inline\"> V teku</span>"
 >>>>>>> upstream/18.0
@@ -333,7 +368,11 @@ msgstr "<span class=\"d-none d-md-inline\"> V teku</span>"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "<strong>Full Amount</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Polni znesek</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Polni znesek</strong><br/>"
 >>>>>>> upstream/18.0
@@ -345,6 +384,12 @@ msgid ""
 "                                        <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Obročno plačilo\n"
+"</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Obročno plačilo\n"
 "</strong>\n"
@@ -359,6 +404,12 @@ msgid ""
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Opozorilo!</strong> Za to plačilo je čakajoče vračilo.\n"
+"Počakajte trenutek, da se obdela. Če vračilo še vedno čaka \n"
+"                        čez nekaj minut preverite konfiguracijo svojega ponudnika plačilnih storitev."
+>>>>>>> upstream/18.0
 =======
 "<strong>Opozorilo!</strong> Za to plačilo je čakajoče vračilo.\n"
 "Počakajte trenutek, da se obdela. Če vračilo še vedno čaka \n"
@@ -370,7 +421,11 @@ msgstr ""
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popust se obračuna, če stranka plača pred %s vključen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Popust se obračuna, če stranka plača pred %s vključen."
 >>>>>>> upstream/18.0
@@ -382,6 +437,11 @@ msgid ""
 " twice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plačilo za ta račun je že bilo izvedeno, prosimo, poskrbite, da ne plačate "
+"dvakrat."
+>>>>>>> upstream/18.0
 =======
 "Plačilo za ta račun je že bilo izvedeno, prosimo, poskrbite, da ne plačate "
 "dvakrat."
@@ -392,7 +452,11 @@ msgstr ""
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A payment transaction with reference %s already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plačilna transakcija s sklicem %s že obstaja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Plačilna transakcija s sklicem %s že obstaja."
 >>>>>>> upstream/18.0
@@ -402,7 +466,11 @@ msgstr "Plačilna transakcija s sklicem %s že obstaja."
 #: code:addons/account_payment/models/account_payment.py:0
 msgid "A token is required to create a new payment transaction."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za ustvarjanje nove plačilne transakcije je potreben žeton."
+>>>>>>> upstream/18.0
 =======
 msgstr "Za ustvarjanje nove plačilne transakcije je potreben žeton."
 >>>>>>> upstream/18.0
@@ -500,7 +568,11 @@ msgstr "Prikazani naziv"
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz odprtih obrokov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaz odprtih obrokov"
 >>>>>>> upstream/18.0
@@ -518,7 +590,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacije o popustu za predčasno plačilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacije o popustu za predčasno plačilo"
 >>>>>>> upstream/18.0
@@ -541,7 +617,11 @@ msgid "Early Payment Discount of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popust za predčasno plačilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popust za predčasno plačilo"
 >>>>>>> upstream/18.0
@@ -593,6 +673,11 @@ msgstr "Popust za predčasno plačilo"
 msgid "Enable credit & debit card payments supported by Stripe."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Omogočite plačila s kreditnimi in debetnimi karticami, ki jih podpira "
+"Stripe."
+>>>>>>> upstream/18.0
 =======
 "Omogočite plačila s kreditnimi in debetnimi karticami, ki jih podpira "
 "Stripe."
@@ -602,7 +687,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
 msgid "Full Only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo polno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo polno"
 >>>>>>> upstream/18.0
@@ -616,7 +705,11 @@ msgid "Generate Sales Payment Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari povezavo za plačilo prodaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvari povezavo za plačilo prodaje"
 >>>>>>> upstream/18.0
@@ -645,7 +738,11 @@ msgstr "Ustvarite plačilno povezavo "
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima upravičen EPD"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima upravičen EPD"
 >>>>>>> upstream/18.0
@@ -654,7 +751,11 @@ msgstr "Ima upravičen EPD"
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
 msgid "Has a pending refund"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima čakajoče vračilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima čakajoče vračilo"
 >>>>>>> upstream/18.0
@@ -671,7 +772,11 @@ msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
 "currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemogoče je plačati vse zapadle račune, če niso v isti valuti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemogoče je plačati vse zapadle račune, če niso v isti valuti."
 >>>>>>> upstream/18.0
@@ -683,6 +788,11 @@ msgid ""
 "This mode is advised when setting up the provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V testnem načinu se lažno plačilo obdela prek testnega plačilnega vmesnika.\n"
+"This mode is advised when setting up the provider."
+>>>>>>> upstream/18.0
 =======
 "V testnem načinu se lažno plačilo obdela prek testnega plačilnega vmesnika.\n"
 "This mode is advised when setting up the provider."
@@ -697,7 +807,11 @@ msgstr "Plačilo računa preko spleta"
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_transaction_form
 msgid "Invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun(i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Račun(i)"
 >>>>>>> upstream/18.0
@@ -723,7 +837,11 @@ msgstr "Število računov"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Računi za plačilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Računi za plačilo"
 >>>>>>> upstream/18.0
@@ -757,7 +875,11 @@ msgstr "Največje dovoljeno povračilo"
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_link_wizard__form_inherit_account_payment
 msgid "Next Installments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslednji obroki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslednji obroki"
 >>>>>>> upstream/18.0
@@ -769,6 +891,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upoštevajte, da so na voljo samo žetoni ponudnikov, ki omogočajo zajem "
+"zneska."
+>>>>>>> upstream/18.0
 =======
 "Upoštevajte, da so na voljo samo žetoni ponudnikov, ki omogočajo zajem "
 "zneska."
@@ -781,6 +908,11 @@ msgid ""
 "of capturing the amount) are not available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upoštevajte, da žetoni ponudnikov, ki so nastavljeni samo za avtorizacijo "
+"transakcij (namesto zajem zneska), niso na voljo."
+>>>>>>> upstream/18.0
 =======
 "Upoštevajte, da žetoni ponudnikov, ki so nastavljeni samo za avtorizacijo "
 "transakcij (namesto zajem zneska), niso na voljo."
@@ -790,7 +922,11 @@ msgstr ""
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Onboarding Online Payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvajanje spletnih plačil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvajanje spletnih plačil"
 >>>>>>> upstream/18.0
@@ -813,7 +949,11 @@ msgid "Onboarding Step"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korak uvajanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korak uvajanja"
 >>>>>>> upstream/18.0
@@ -878,7 +1018,10 @@ msgid "Online Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -927,6 +1070,7 @@ msgid "Online payment option is not enabled in Configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -958,13 +1102,20 @@ msgstr ""
 =======
 msgstr "Možnost spletnega plačila ni omogočena v konfiguraciji."
 >>>>>>> upstream/18.0
+=======
+msgstr "Možnost spletnega plačila ni omogočena v konfiguraciji."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamujeni računi morajo biti iz istega podjetja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamujeni računi morajo biti iz istega podjetja."
 >>>>>>> upstream/18.0
@@ -974,7 +1125,11 @@ msgstr "Zamujeni računi morajo biti iz istega podjetja."
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapadli računi morajo imeti isto valuto."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapadli računi morajo imeti isto valuto."
 >>>>>>> upstream/18.0
@@ -984,7 +1139,11 @@ msgstr "Zapadli računi morajo imeti isto valuto."
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapadli računi morajo biti iz istega partnerja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapadli računi morajo biti iz istega partnerja."
 >>>>>>> upstream/18.0
@@ -1004,7 +1163,11 @@ msgstr "Plačaj"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment_paid
 msgid "Pay Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plačilo računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plačilo računa"
 >>>>>>> upstream/18.0
@@ -1029,7 +1192,11 @@ msgstr "Plačaj takoj"
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_overdue_invoice
 msgid "Pay overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamujeno plačilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamujeno plačilo"
 >>>>>>> upstream/18.0
@@ -1072,7 +1239,11 @@ msgstr "Ponudniki plačil"
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
 msgid "Payment Refund Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za vračilo plačila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za vračilo plačila"
 >>>>>>> upstream/18.0
@@ -1105,7 +1276,11 @@ msgstr "Plačila"
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za plačilo zapadlih računov se prijavite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za plačilo zapadlih računov se prijavite"
 >>>>>>> upstream/18.0
@@ -1155,7 +1330,11 @@ msgstr "Število vračil"
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
 msgid "SETUP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NASTAVITEV"
+>>>>>>> upstream/18.0
 =======
 msgstr "NASTAVITEV"
 >>>>>>> upstream/18.0
@@ -1164,7 +1343,11 @@ msgstr "NASTAVITEV"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
 msgid "Saved Payment Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shranjen žeton plačila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shranjen žeton plačila"
 >>>>>>> upstream/18.0
@@ -1178,7 +1361,11 @@ msgstr "Shranjen žeton plačila"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__source_payment_id
 msgid "Source Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vir plačila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vir plačila"
 >>>>>>> upstream/18.0
@@ -1203,7 +1390,11 @@ msgid "Step Completed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korak zaključen!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korak zaključen!"
 >>>>>>> upstream/18.0
@@ -1259,7 +1450,11 @@ msgstr "Žeton za dostop je neveljaven."
 msgid ""
 "The amount to be refunded must be positive and cannot be superior to %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znesek za povračilo mora biti pozitiven in ne sme biti večji od %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Znesek za povračilo mora biti pozitiven in ne sme biti večji od %s."
 >>>>>>> upstream/18.0
@@ -1268,7 +1463,11 @@ msgstr "Znesek za povračilo mora biti pozitiven in ne sme biti večji od %s."
 #: model:ir.model.fields,help:account_payment.field_payment_provider__journal_id
 msgid "The journal in which the successful transactions are posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnik, v katerega so vnesene uspešne transakcije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dnevnik, v katerega so vnesene uspešne transakcije."
 >>>>>>> upstream/18.0
@@ -1281,6 +1480,11 @@ msgid ""
 "posted: %(link)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plačilo, povezano s transakcijo s sklicem % reference, je bilo knjiženo: "
+"%(link)s"
+>>>>>>> upstream/18.0
 =======
 "Plačilo, povezano s transakcijo s sklicem % reference, je bilo knjiženo: "
 "%(link)s"
@@ -1291,7 +1495,11 @@ msgstr ""
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "The provided parameters are invalid."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedeni parametri so neveljavni."
+>>>>>>> upstream/18.0
 =======
 msgstr "Navedeni parametri so neveljavni."
 >>>>>>> upstream/18.0
@@ -1300,6 +1508,7 @@ msgstr "Navedeni parametri so neveljavni."
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -1349,6 +1558,8 @@ msgstr ""
 msgid "There are pending transactions for this invoice."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Vir plačila povezanih povračil"
 
 #. module: account_payment
@@ -1356,12 +1567,16 @@ msgstr "Vir plačila povezanih povračil"
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
 msgstr "Za ta račun so čakajoče transakcije."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1411,6 +1626,11 @@ msgstr "Ni zneska za plačilo."
 
 #. module: account_payment
 >>>>>>> upstream/18.0
+=======
+msgstr "Ni zneska za plačilo."
+
+#. module: account_payment
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
 msgid "There was an error processing your payment: invalid invoice."
 msgstr "Pri obdelavi plačila je prišlo do napake: neveljaven račun."
@@ -1437,6 +1657,7 @@ msgstr ""
 "kartice."
 
 #. module: account_payment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,15 +1706,21 @@ msgstr ""
 msgid "This invoice cannot be paid online."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
 msgstr "Tega računa ni mogoče plačati prek spleta."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1585,6 +1812,8 @@ msgstr ""
 msgid "This invoice isn't posted."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "This invoice has already been paid."
 msgstr "Ta račun je že plačan."
 
@@ -1593,6 +1822,9 @@ msgstr "Ta račun je že plačan."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
 msgstr "Ta račun ni knjižen."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -1600,6 +1832,7 @@ msgstr "Ta račun ni knjižen."
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_payment
@@ -1648,6 +1881,8 @@ msgstr ""
 msgid "Transaction Count"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "To ni izhodni račun."
 
 #. module: account_payment
@@ -1655,6 +1890,9 @@ msgstr "To ni izhodni račun."
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
 msgstr "Število transakcij"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_payment
@@ -1667,7 +1905,11 @@ msgstr "Transakcije"
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__none
 msgid "Unsupported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodprto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodprto"
 >>>>>>> upstream/18.0
@@ -1677,7 +1919,11 @@ msgstr "Nepodprto"
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_register__use_electronic_payment_method
 msgid "Use Electronic Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabite elektronsko plačilno metodo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabite elektronsko plačilno metodo"
 >>>>>>> upstream/18.0
@@ -1695,6 +1941,11 @@ msgid ""
 "Linked providers(s): %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plačilne metode, ki je povezana s ponudnikom v omogočenem ali testnem stanju, ni mogoče izbrisati.\n"
+"Povezani ponudnik(i): %s"
+>>>>>>> upstream/18.0
 =======
 "Plačilne metode, ki je povezana s ponudnikom v omogočenem ali testnem stanju, ni mogoče izbrisati.\n"
 "Povezani ponudnik(i): %s"
@@ -1708,6 +1959,11 @@ msgid ""
 "already exist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tega modula ne morete odstraniti, ker plačila s to plačilno metodo že "
+"obstajajo."
+>>>>>>> upstream/18.0
 =======
 "Tega modula ne morete odstraniti, ker plačila s to plačilno metodo že "
 "obstajajo."
@@ -1721,6 +1977,11 @@ msgid ""
 "Linked providers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preden izbrišete dnevnik ponudnika plačilnih storitev, ga morate najprej deaktivirati.\n"
+"Povezani ponudniki: %s"
+>>>>>>> upstream/18.0
 =======
 "Preden izbrišete dnevnik ponudnika plačilnih storitev, ga morate najprej deaktivirati.\n"
 "Povezani ponudniki: %s"
@@ -1731,7 +1992,11 @@ msgstr ""
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zapadlost v %s dnevih"
+>>>>>>> upstream/18.0
 =======
 msgstr "zapadlost v %s dnevih"
 >>>>>>> upstream/18.0
@@ -1741,7 +2006,11 @@ msgstr "zapadlost v %s dnevih"
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zapadlost danes"
+>>>>>>> upstream/18.0
 =======
 msgstr "zapadlost danes"
 >>>>>>> upstream/18.0
@@ -1761,7 +2030,11 @@ msgid "has been applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "je bil uporabljen."
+>>>>>>> upstream/18.0
 =======
 msgstr "je bil uporabljen."
 >>>>>>> upstream/18.0
@@ -1803,7 +2076,11 @@ msgstr "je bil uporabljen."
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
 msgid "overdue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zapadle"
+>>>>>>> upstream/18.0
 =======
 msgstr "zapadle"
 >>>>>>> upstream/18.0

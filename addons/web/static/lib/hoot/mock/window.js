@@ -2,7 +2,11 @@
 
 import { EventBus, whenReady } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getCurrentDimensions } from "@web/../lib/hoot-dom/helpers/dom";
+=======
+import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
+>>>>>>> upstream/18.0
 =======
 import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
 >>>>>>> upstream/18.0
@@ -46,6 +50,10 @@ import {
     mockCookie,
     mockHistory,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockLocation,
+>>>>>>> upstream/18.0
 =======
     mockLocation,
 >>>>>>> upstream/18.0
@@ -61,6 +69,7 @@ import { MockBlob } from "./sync_values";
 
 const {
 <<<<<<< HEAD
+<<<<<<< HEAD
     document,
     Document,
     HTMLBodyElement,
@@ -72,12 +81,17 @@ const {
         assign: $assign,
         defineProperty: $defineProperty,
 =======
+=======
+>>>>>>> upstream/18.0
     EventTarget,
     HTMLAnchorElement,
     Number: { isNaN: $isNaN, parseFloat: $parseFloat },
     Object: {
         assign: $assign,
         defineProperties: $defineProperties,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         entries: $entries,
         getOwnPropertyDescriptor: $getOwnPropertyDescriptor,
@@ -85,6 +99,7 @@ const {
         keys: $keys,
         hasOwn: $hasOwn,
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     ontouchcancel,
     ontouchend,
@@ -97,12 +112,17 @@ const {
 
 const touchFunctions = { ontouchcancel, ontouchend, ontouchmove, ontouchstart };
 =======
+=======
+>>>>>>> upstream/18.0
     Reflect: { ownKeys: $ownKeys },
     Set,
     WeakMap,
 } = globalThis;
 
 const { addEventListener, removeEventListener } = EventTarget.prototype;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 //-----------------------------------------------------------------------------
@@ -110,6 +130,7 @@ const { addEventListener, removeEventListener } = EventTarget.prototype;
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @param {any} target
  * @param {Record<string, PropertyDescriptor>} descriptors
@@ -124,6 +145,8 @@ const applyPropertyDescriptors = (target, descriptors) => {
             target,
         });
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {unknown} target
  * @param {Record<string, PropertyDescriptor>} descriptors
  */
@@ -136,16 +159,22 @@ function applyPropertyDescriptors(target, descriptors) {
     for (const [property, rawDescriptor] of $entries(descriptors)) {
         const owner = findPropertyOwner(target, property);
         targetDescriptors[property] = $getOwnPropertyDescriptor(owner, property);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const descriptor = { ...rawDescriptor };
         if ("value" in descriptor) {
             descriptor.writable = false;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         $defineProperty(owner, property, descriptor);
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
         if (!ownerDecriptors.has(owner)) {
             ownerDecriptors.set(owner, {});
         }
@@ -156,13 +185,20 @@ function applyPropertyDescriptors(target, descriptors) {
         $defineProperties(owner, nextDescriptors);
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {string[]} [changedKeys]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const callMediaQueryChanges = (changedKeys) => {
+=======
+function callMediaQueryChanges(changedKeys) {
+>>>>>>> upstream/18.0
 =======
 function callMediaQueryChanges(changedKeys) {
 >>>>>>> upstream/18.0
@@ -176,7 +212,11 @@ function callMediaQueryChanges(changedKeys) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -187,6 +227,7 @@ function callMediaQueryChanges(changedKeys) {
  * @param {keyof T} property
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findOriginalDescriptor = (target, property) => {
     for (const od of originalDescriptors) {
         if (od.target === target && od.property === property) {
@@ -196,6 +237,8 @@ const findOriginalDescriptor = (target, property) => {
     return null;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function findOriginalDescriptor(target, property) {
     if (originalDescriptors.has(target)) {
         const descriptors = originalDescriptors.get(target);
@@ -205,15 +248,24 @@ function findOriginalDescriptor(target, property) {
     }
     return null;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {unknown} object
  * @param {string} property
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @returns {any}
  */
 const findPropertyOwner = (object, property) => {
+=======
+ * @returns {unknown}
+ */
+function findPropertyOwner(object, property) {
+>>>>>>> upstream/18.0
 =======
  * @returns {unknown}
  */
@@ -228,8 +280,11 @@ function findPropertyOwner(object, property) {
     }
     return object;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -309,13 +364,20 @@ function makeEventDescriptor(type) {
         },
     };
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {string} mediaQueryString
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const matchesQueryPart = (mediaQueryString) => {
+=======
+function matchesQueryPart(mediaQueryString) {
+>>>>>>> upstream/18.0
 =======
 function matchesQueryPart(mediaQueryString) {
 >>>>>>> upstream/18.0
@@ -350,9 +412,12 @@ function matchesQueryPart(mediaQueryString) {
     }
     return mediaQueryString.startsWith("not") ? !match : match;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /** @type {addEventListener} */
@@ -370,6 +435,9 @@ function mockedAddEventListener(...args) {
 }
 
 /** @type {Document["elementFromPoint"]} */
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 function mockedElementFromPoint(...args) {
     return mockedElementsFromPoint.call(this, ...args)[0];
@@ -381,6 +449,10 @@ function mockedElementFromPoint(...args) {
  * - put the <body> & <html> elements at the end of the list, as they may be ordered
  *  incorrectly due to the fixture being behind the body.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @type {Document["elementsFromPoint"]}
+>>>>>>> upstream/18.0
 =======
  * @type {Document["elementsFromPoint"]}
 >>>>>>> upstream/18.0
@@ -412,11 +484,14 @@ function mockedElementsFromPoint(...args) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @type {typeof matchMedia}
  */
 const mockedMatchMedia = (mediaQueryString) => new MockMediaQueryList(mediaQueryString);
 =======
+=======
+>>>>>>> upstream/18.0
 function mockedHref() {
     return this.hasAttribute("href") ? new MockURL(this.getAttribute("href")).href : "";
 }
@@ -481,6 +556,9 @@ function restoreTouch(view) {
         }
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class MockMediaQueryList extends MockEventTarget {
@@ -512,6 +590,7 @@ const DEFAULT_MEDIA_VALUES = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const EVENT_TARGET_PROTOTYPES = new Map(
     [
         // Top level objects
@@ -532,20 +611,29 @@ const EVENT_TARGET_PROTOTYPES = new Map(
 =======
 const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
 >>>>>>> upstream/18.0
+=======
+const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
+>>>>>>> upstream/18.0
 
 const R_AND = /\s*\band\b\s*/;
 const R_COMMA = /\s*,\s*/;
 const R_MEDIA_QUERY_PROPERTY = /\(\s*([\w-]+)\s*:\s*(.+)\s*\)/;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /** @type {{ descriptor: PropertyDescriptor; owner: any; property: string; target: any }[]} */
 const originalDescriptors = [];
 =======
+=======
+>>>>>>> upstream/18.0
 const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 
 /** @type {WeakMap<unknown, Record<string, PropertyDescriptor>>} */
 const originalDescriptors = new WeakMap();
 const originalTouchFunctions = getTouchTargets(globalThis).map(getTouchDescriptors);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /** @type {Set<MockMediaQueryList>} */
@@ -557,10 +645,13 @@ const mockSessionStorage = new MockStorage();
 let mockTitle = "";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 
 // Mock descriptors
 =======
+=======
+>>>>>>> upstream/18.0
 // Mock descriptors
 const ANCHOR_MOCK_DESCRIPTORS = {
     href: {
@@ -568,6 +659,9 @@ const ANCHOR_MOCK_DESCRIPTORS = {
         get: mockedHref,
     },
 };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const DOCUMENT_MOCK_DESCRIPTORS = {
     cookie: {
@@ -599,7 +693,10 @@ const WINDOW_MOCK_DESCRIPTORS = {
     console: { value: mockConsole, writable: false },
     Date: { value: MockDate, writable: false },
 <<<<<<< HEAD
+<<<<<<< HEAD
     EventTarget: { value: MockEventTarget },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     fetch: { value: interactor("server", mockedFetch).as("fetch"), writable: false },
@@ -638,6 +735,11 @@ const WINDOW_MOCK_DESCRIPTORS = {
 
 export function cleanupWindow() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const view = getWindow();
+
+>>>>>>> upstream/18.0
 =======
     const view = getWindow();
 
@@ -653,6 +755,7 @@ export function cleanupWindow() {
     // Title
     mockTitle = "";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     // Body & head attributes
     for (const { name } of document.head.attributes) {
@@ -675,6 +778,8 @@ export function getTitle() {
     } else {
         return document.title;
 =======
+=======
+>>>>>>> upstream/18.0
     // Listeners
     view.removeEventListener("click", onAnchorHrefClick);
     view.removeEventListener("resize", onWindowResize);
@@ -699,11 +804,15 @@ export function getTitle() {
         return titleDescriptor.get.call(doc);
     } else {
         return doc.title;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }
 
 export function getViewPortHeight() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     const heightDescriptor = findOriginalDescriptor(window, "innerHeight");
     if (heightDescriptor) {
@@ -711,17 +820,23 @@ export function getViewPortHeight() {
     } else {
         return window.innerHeight;
 =======
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const heightDescriptor = findOriginalDescriptor(view, "innerHeight");
     if (heightDescriptor) {
         return heightDescriptor.get.call(view);
     } else {
         return view.innerHeight;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }
 
 export function getViewPortWidth() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     const titleDescriptor = findOriginalDescriptor(window, "innerWidth");
     if (titleDescriptor) {
@@ -729,12 +844,17 @@ export function getViewPortWidth() {
     } else {
         return window.innerWidth;
 =======
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const titleDescriptor = findOriginalDescriptor(view, "innerWidth");
     if (titleDescriptor) {
         return titleDescriptor.get.call(view);
     } else {
         return view.innerWidth;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }
@@ -750,6 +870,7 @@ export function mockMatchMedia(values) {
 
 /**
  * @param {boolean} setTouch
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @param {typeof globalThis} [window=globalThis]
  */
@@ -788,6 +909,8 @@ export function patchWindow({ document, window } = globalThis) {
 
     window.addEventListener("resize", () => callMediaQueryChanges());
 =======
+=======
+>>>>>>> upstream/18.0
  */
 export function mockTouch(setTouch) {
     const objects = getTouchTargets(getWindow());
@@ -828,6 +951,9 @@ export function patchWindow(view = getWindow()) {
         applyPropertyDescriptors(view.Element.prototype, ELEMENT_MOCK_DESCRIPTORS);
         applyPropertyDescriptors(view.HTMLAnchorElement.prototype, ANCHOR_MOCK_DESCRIPTORS);
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -835,6 +961,7 @@ export function patchWindow(view = getWindow()) {
  * @param {string} value
  */
 export function setTitle(value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
     const titleDescriptor = findOriginalDescriptor(document, "title");
     if (titleDescriptor) {
@@ -898,6 +1025,8 @@ export function watchListeners() {
             proto.addEventListener = addEventListener;
             proto.removeEventListener = removeEventListener;
 =======
+=======
+>>>>>>> upstream/18.0
     const doc = getDocument();
     const titleDescriptor = findOriginalDescriptor(doc, "title");
     if (titleDescriptor) {
@@ -926,6 +1055,9 @@ export function watchListeners() {
         for (const target of targets) {
             target.addEventListener = addEventListener;
             target.removeEventListener = removeEventListener;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     };

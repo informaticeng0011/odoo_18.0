@@ -1180,7 +1180,11 @@ export class HistoryPlugin extends Plugin {
     }
 
     _onDocumentBeforeInput(ev) {
+<<<<<<< HEAD
         if (this.editable.contains(ev.targget)) {
+=======
+        if (this.editable.contains(ev.target)) {
+>>>>>>> upstream/18.0
             return;
         }
         if (["historyUndo", "historyRedo"].includes(ev.inputType)) {

@@ -121,7 +121,11 @@ test("can be rendered", async () => {
 
 test("display the correct name in debug mode", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0

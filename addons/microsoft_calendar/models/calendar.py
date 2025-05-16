@@ -55,11 +55,14 @@ class Meeting(models.Model):
         domain = self._get_microsoft_sync_domain()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Sync only events created/updated after last sync date (with 5 min of time acceptance).
         if self.env.user.microsoft_last_sync_date:
             time_offset = timedelta(minutes=5)
             domain = expression.AND([domain, [('write_date', '>=', self.env.user.microsoft_last_sync_date - time_offset)]])
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.env['calendar.event'].with_context(dont_notify=True).search(domain).write({
@@ -698,10 +701,16 @@ class Meeting(models.Model):
                 return user_id
         return self.env.user
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _is_microsoft_insertion_blocked(self, sender_user):
         self.ensure_one()
         has_different_owner = self.user_id and self.user_id != sender_user
         return has_different_owner
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

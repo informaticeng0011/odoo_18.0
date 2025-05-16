@@ -28,7 +28,11 @@ import {
     fields,
     mountWithCleanup,
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup,
+=======
+    serverState,
+>>>>>>> upstream/18.0
 =======
     serverState,
 >>>>>>> upstream/18.0
@@ -100,7 +104,11 @@ defineModels([Partner, Product, Team, Player, Country, Stage]);
 
 beforeEach(() => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -129,7 +137,11 @@ test("rendering of falsy values", async () => {
 
 test("rendering of 'expr'", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -191,7 +203,11 @@ test("copy a complex condition", async () => {
 
 test("change path, operator and value", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -360,7 +376,11 @@ test("rendering of if else", async () => {
 
 test("check condition by default when creating a new rule", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -398,7 +418,11 @@ test("render false and true leaves", async () => {
 
 test("no field of type properties in model field selector", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0
@@ -429,7 +453,11 @@ test("no field of type properties in model field selector", async () => {
 
 test("no special fields in fields", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+    serverState.debug = "";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "";
 >>>>>>> upstream/18.0

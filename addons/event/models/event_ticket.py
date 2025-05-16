@@ -144,11 +144,14 @@ class EventTicket(models.Model):
             ticket.seats_taken = ticket.seats_reserved + ticket.seats_used
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('seats_limited', 'seats_available')
     def _compute_is_sold_out(self):
         for ticket in self:
             ticket.is_sold_out = ticket.seats_limited and not ticket.seats_available
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('seats_limited', 'seats_available', 'event_id.event_registrations_sold_out')
     def _compute_is_sold_out(self):
         for ticket in self:
@@ -156,6 +159,9 @@ class EventTicket(models.Model):
                 (ticket.seats_limited and not ticket.seats_available)
                 or ticket.event_id.event_registrations_sold_out
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.constrains('start_sale_datetime', 'end_sale_datetime')

@@ -18,6 +18,10 @@ class MailRenderMixin(models.AbstractModel):
                 rendered[res_id] = self._shorten_links(
                     html,
                     self.env.context['post_convert_links'],
+<<<<<<< HEAD
                     blacklist=['/unsubscribe_from_list', '/view', '/cards/']
+=======
+                    blacklist=['/unsubscribe_from_list', '/view', '/cards']
+>>>>>>> upstream/18.0
                 )
         return rendered

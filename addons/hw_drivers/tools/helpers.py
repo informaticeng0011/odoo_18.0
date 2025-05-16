@@ -361,7 +361,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not (db_uuid and enterprise_code):
+=======
+    if not db_uuid:
+>>>>>>> upstream/18.0
 =======
     if not db_uuid:
 >>>>>>> upstream/18.0
@@ -404,7 +408,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'enterprise_code': enterprise_code
+=======
+            'enterprise_code': enterprise_code or ''
+>>>>>>> upstream/18.0
 =======
             'enterprise_code': enterprise_code or ''
 >>>>>>> upstream/18.0
@@ -450,6 +458,7 @@ def load_certificate():
     if response.status != 200:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_STATUS %s\n\n%s" % (response.status, response.reason)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +639,20 @@ def load_certificate():
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    response_body = json.loads(response.data.decode())
+    server_error = response_body.get('error')
+    if server_error:
+        _logger.error("A server error received from odoo.com while trying to get the certificate: %s", server_error)
+        return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
+
+    result = response_body.get('result', {})
+    certificate_error = result.get('error')
+    if certificate_error:
+        _logger.error("An error received from odoo.com while trying to get the certificate: %s", certificate_error)
+        return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
+
 >>>>>>> upstream/18.0
     update_conf({'subject': result['subject_cn']})
     if platform.system() == 'Linux':
@@ -854,6 +877,12 @@ def disconnect_from_server():
         'enterprise_code': '',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'screen_orientation': '',
+        'browser_url': '',
+        'iot_handlers_etag': '',
+>>>>>>> upstream/18.0
 =======
         'screen_orientation': '',
         'browser_url': '',

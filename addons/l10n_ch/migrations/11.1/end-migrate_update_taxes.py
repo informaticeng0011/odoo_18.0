@@ -18,4 +18,8 @@ def migrate(cr, version):
                     # set the child to it's parent's value
                     child.type_tax_use = tax.type_tax_use
 
+<<<<<<< HEAD
         env['account.chart.template'].try_loading('ch', company)
+=======
+        env['account.chart.template'].try_loading('ch', company, force_create=False)
+>>>>>>> upstream/18.0

@@ -620,7 +620,10 @@ class TestProjectSharing(TestProjectSharingCommon):
                          "The first, second, and the company partner should be set as new followers for the task 3 because the partner of this task is the parent of the other 2")
         self.assertFalse(task_without_partner.message_partner_ids, "Since this task has no partner, no follower should be added")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_project_manager_remains_follower_after_sharing(self):
         """
@@ -642,4 +645,7 @@ class TestProjectSharing(TestProjectSharingCommon):
         project_share_wizard.action_send_mail()
         self.assertIn(self.user_projectmanager.partner_id, project.message_partner_ids, "Project manager should still be a follower after sharing the project")
         self.assertEqual(len(project.message_follower_ids), 2, "number of followers should be 2")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
