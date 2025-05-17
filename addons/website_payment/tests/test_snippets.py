@@ -19,6 +19,10 @@ class TestSnippets(odoo.tests.HttpCase):
         self.start_tour("/?enable_editor=1", "donation_snippet_edition", login='admin')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.start_tour("/", "donation_snippet_use", login="portal")
+>>>>>>> upstream/18.0
 =======
         self.start_tour("/", "donation_snippet_use", login="portal")
 >>>>>>> upstream/18.0

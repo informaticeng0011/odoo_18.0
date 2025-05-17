@@ -8,7 +8,10 @@ from dateutil.relativedelta import relativedelta
 from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.resource.models.utils import HOURS_PER_DAY
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +674,10 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0

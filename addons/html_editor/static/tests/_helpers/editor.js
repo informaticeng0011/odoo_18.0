@@ -182,6 +182,12 @@ export async function testEditor(config) {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // Wait for selectionchange handlers to react before any actual testing.
+    await Promise.resolve();
+
+>>>>>>> upstream/18.0
 =======
     // Wait for selectionchange handlers to react before any actual testing.
     await Promise.resolve();

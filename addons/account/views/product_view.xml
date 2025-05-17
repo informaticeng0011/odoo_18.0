@@ -50,13 +50,19 @@
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="arch" type="xml">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <div name="options" position='inside'>
                     <span class="d-inline-flex" invisible="type == 'combo'">
                         <field name="purchase_ok"/>
                         <label for="purchase_ok"/>
                     </span>
                 </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <xpath expr="//field[@name='company_id']" position="after">
                     <field name="fiscal_country_codes" invisible="1"/>

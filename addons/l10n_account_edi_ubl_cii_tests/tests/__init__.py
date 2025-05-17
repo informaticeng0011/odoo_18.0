@@ -6,3 +6,7 @@ from . import test_xml_cii_fr
 from . import test_xml_cii_us
 from . import test_xml_ubl_nl
 from . import test_xml_ubl_au
+<<<<<<< HEAD
+=======
+from . import test_xml_ubl_attacheddocument
+>>>>>>> upstream/18.0

@@ -192,7 +192,10 @@ class RecurrenceRule(models.Model):
         return self.env.user
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -202,6 +205,9 @@ class RecurrenceRule(models.Model):
         has_different_owner = self.base_event_id.user_id and self.base_event_id.user_id != sender_user
         return has_base_event and has_different_owner
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

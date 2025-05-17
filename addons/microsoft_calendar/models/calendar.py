@@ -56,11 +56,14 @@ class Meeting(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Sync only events created/updated after last sync date (with 5 min of time acceptance).
         if self.env.user.microsoft_last_sync_date:
             time_offset = timedelta(minutes=5)
             domain = expression.AND([domain, [('write_date', '>=', self.env.user.microsoft_last_sync_date - time_offset)]])
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -702,7 +705,10 @@ class Meeting(models.Model):
         return self.env.user
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -711,6 +717,9 @@ class Meeting(models.Model):
         has_different_owner = self.user_id and self.user_id != sender_user
         return has_different_owner
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

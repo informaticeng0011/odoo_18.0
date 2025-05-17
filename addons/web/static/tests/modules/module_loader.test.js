@@ -19,6 +19,10 @@ test("define: simple case", async () => {
     const loader = new ModuleLoader();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -60,6 +64,10 @@ test("define: invalid module error handling", async () => {
     const loader = new ModuleLoader(getFixture());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -81,6 +89,10 @@ test("define: duplicate name", async () => {
     const loader = new ModuleLoader(getFixture());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -102,6 +114,10 @@ test("define: missing module", async () => {
     const loader = new ModuleLoader(getFixture());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -132,6 +148,10 @@ test("define: dependency cycle", async () => {
     const loader = new ModuleLoader(getFixture());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = true;
+>>>>>>> upstream/18.0
 =======
     loader.debug = true;
 >>>>>>> upstream/18.0
@@ -158,6 +178,10 @@ test("define: dependency cycle", async () => {
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ["APPENDCHILD", "STYLE", "o_module_error_banner"],
+>>>>>>> upstream/18.0
 =======
         ["APPENDCHILD", "STYLE", "o_module_error_banner"],
 >>>>>>> upstream/18.0

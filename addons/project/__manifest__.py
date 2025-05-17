@@ -213,6 +213,10 @@
             'project/static/src/components/project_task_state_selection/*',
             'project/static/src/components/project_many2one_field/*',
             'project/static/src/views/project_task_form/*.scss',
+<<<<<<< HEAD
+=======
+            'project/static/src/views/project_task_kanban/*.scss',
+>>>>>>> upstream/18.0
 
             ('include', 'portal.assets_chatter_helpers'),
             'portal/static/src/chatter/core/**/*',

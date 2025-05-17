@@ -333,6 +333,7 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{object.env.ref('base.user_admin').sudo().image_128}}"/>
         """
@@ -356,6 +357,8 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Will raise ZeroDivisionError if the template is executed
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{1 / 0}}"/>
@@ -369,6 +372,9 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         # Ensure that the value is well not written in db, nor on the current campaign, nor on the related.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -396,7 +402,11 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and field.readonly
+=======
+                and not field.readonly
+>>>>>>> upstream/18.0
 =======
                 and not field.readonly
 >>>>>>> upstream/18.0

@@ -73,6 +73,7 @@ describe(parseUrl(import.meta.url), () => {
         runner.describe("suite", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             let testFn = runner.test;
             for (let i = 1; i <= 10; i++) {
                 // 10
@@ -83,6 +84,8 @@ describe(parseUrl(import.meta.url), () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = 1; i <= 10; i++) {
                 // 10
                 runner.test.tags(`Tag-${i}`);
@@ -90,6 +93,9 @@ describe(parseUrl(import.meta.url), () => {
 
             runner.test("tagged test", () => {});
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

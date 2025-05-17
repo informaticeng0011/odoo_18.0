@@ -43,7 +43,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74,6 +77,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125,6 +131,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.with_context(skip_readonly_check=True).write({
                     'invoice_date': '2022-09-05',
                     'invoice_date_due': '2022-09-22',
@@ -143,6 +150,8 @@ class TestEdiZatca(TestSaEdiCommon):
 
                 self.assertXmlTreeEqual(current_tree, expected_tree)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174,6 +183,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

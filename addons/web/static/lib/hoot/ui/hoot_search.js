@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, useRef, useState, xml } from "@odoo/owl";
 import { getActiveElement } from "@web/../lib/hoot-dom/helpers/dom";
 import { isRegExpFilter, parseRegExp } from "@web/../lib/hoot-dom/hoot_dom_utils";
@@ -16,6 +17,8 @@ import {
     lookup,
     normalize,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { Component, onPatched, onWillPatch, useRef, useState, xml } from "@odoo/owl";
@@ -34,6 +37,9 @@ import {
     R_QUERY_EXACT,
     STORAGE,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74,11 +80,14 @@ const {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getPattern = (query) => {
     query = query.match(R_QUERY_CONTENT)[1];
     return parseRegExp(normalize(query), { safe: true });
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 const addExact = (query) => EXACT_MARKER + query + EXACT_MARKER;
@@ -98,6 +107,9 @@ const removeExact = (query) => query.replaceAll(EXACT_MARKER, "");
  */
 const removeRegExp = (query) => query.slice(1, -1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -182,10 +194,13 @@ const templateIncludeWidget = (tagName) => /* xml */ `
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const EMPTY_SUITE = new Suite(null, "…", []);
 const SECRET_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 const R_QUERY_CONTENT = new RegExp(`^\\s*${EXCLUDE_PREFIX}?\\s*(.*)\\s*$`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -225,6 +240,9 @@ const useKeepSelection = (ref) => {
 const EMPTY_SUITE = new Suite(null, "…", []);
 const SECRET_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236,7 +254,11 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
     <div class="flex mb-2">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="state.query.trim()">
+=======
+        <t t-if="trimmedQuery">
+>>>>>>> upstream/18.0
 =======
         <t t-if="trimmedQuery">
 >>>>>>> upstream/18.0
@@ -253,7 +275,11 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
                     Filter using
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-if="useRegExp">
+=======
+                    <t t-if="hasRegExpFilter()">
+>>>>>>> upstream/18.0
 =======
                     <t t-if="hasRegExpFilter()">
 >>>>>>> upstream/18.0
@@ -268,7 +294,11 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
                 </h4>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-esc="wrappedQuery" />
+=======
+                <t t-esc="wrappedQuery()" />
+>>>>>>> upstream/18.0
 =======
                 <t t-esc="wrappedQuery()" />
 >>>>>>> upstream/18.0
@@ -287,6 +317,7 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
         <t t-set="jobs" t-value="state.categories[category][0]" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="checkedCount" t-value="state.categories[category][1]" />
         <t t-if="jobs?.length">
             <div class="flex flex-col mb-2 max-h-48 overflow-hidden">
@@ -301,6 +332,8 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <t t-set="remainingCount" t-value="state.categories[category][1]" />
         <t t-if="jobs?.length">
             <div class="flex flex-col mb-2 max-h-48 overflow-hidden">
@@ -310,6 +343,9 @@ const TEMPLATE_FILTERS_AND_CATEGORIES = /* xml */ `
                 />
                 <ul class="flex flex-col overflow-y-auto gap-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -418,6 +454,10 @@ export class HootSearch extends Component {
                         t-ref="search-input"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        t-att-class="{ 'text-gray': !config.filter }"
+>>>>>>> upstream/18.0
 =======
                         t-att-class="{ 'text-gray': !config.filter }"
 >>>>>>> upstream/18.0
@@ -434,7 +474,10 @@ export class HootSearch extends Component {
                         class="hoot-search-icon cursor-pointer p-1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         title="Use exact match (Alt + X)"
@@ -453,6 +496,9 @@ export class HootSearch extends Component {
                     <label
                         class="hoot-search-icon cursor-pointer p-1"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -465,7 +511,11 @@ export class HootSearch extends Component {
                             class="hidden"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             t-att-checked="useRegExp"
+=======
+                            t-att-checked="hasRegExpFilter()"
+>>>>>>> upstream/18.0
 =======
                             t-att-checked="hasRegExpFilter()"
 >>>>>>> upstream/18.0
@@ -509,6 +559,7 @@ export class HootSearch extends Component {
     categories = ["suite", "test", "tag"];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     useTextFilter = false;
     refresh = refresh;
     title = title;
@@ -531,6 +582,8 @@ export class HootSearch extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     debouncedUpdateSuggestions = debounce(this.updateSuggestions.bind(this), 16);
     refresh = refresh;
     title = title;
@@ -540,6 +593,9 @@ export class HootSearch extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -581,7 +637,11 @@ export class HootSearch extends Component {
                     if (shouldOpen && !this.state.showDropdown) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.updateSuggestions();
+=======
+                        this.debouncedUpdateSuggestions();
+>>>>>>> upstream/18.0
 =======
                         this.debouncedUpdateSuggestions();
 >>>>>>> upstream/18.0
@@ -596,6 +656,7 @@ export class HootSearch extends Component {
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     /**
@@ -605,6 +666,8 @@ export class HootSearch extends Component {
      */
     filterItems(query, items, category) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -618,6 +681,9 @@ export class HootSearch extends Component {
      */
     filterItems(parsedQuery, items, category) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -627,7 +693,10 @@ export class HootSearch extends Component {
         const remaining = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let checkedCount = 0;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -638,7 +707,10 @@ export class HootSearch extends Component {
                 result.push(item);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 checkedCount++;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,6 +722,7 @@ export class HootSearch extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const matching = lookup(query, remaining);
         result.push(...matching.slice(0, RESULT_LIMIT));
 
@@ -657,11 +730,16 @@ export class HootSearch extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const matching = lookup(parsedQuery, remaining);
         result.push(...matching.slice(0, RESULT_LIMIT));
 
         return [result, matching.length - RESULT_LIMIT];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -669,6 +747,7 @@ export class HootSearch extends Component {
 
     findSuggestions() {
         const { suites, tags, tests } = this.env.runner;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         const pattern = getPattern(this.state.query);
@@ -679,12 +758,17 @@ export class HootSearch extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const parsedQuery = parseQuery(this.trimmedQuery);
         return {
             suite: this.filterItems(parsedQuery, suites, "suite"),
             tag: this.filterItems(parsedQuery, tags, "tag"),
             test: this.filterItems(parsedQuery, tests, "test"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -753,10 +837,13 @@ export class HootSearch extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isEmpty() {
         return !(
             this.state.query.trim() ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     hasExactFilter(query = this.trimmedQuery) {
@@ -772,6 +859,9 @@ export class HootSearch extends Component {
         return !(
             this.trimmedQuery ||
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -837,7 +927,10 @@ export class HootSearch extends Component {
         switch (ev.key) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             case "ArrowDown": {
@@ -850,6 +943,9 @@ export class HootSearch extends Component {
                 return refresh();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -862,12 +958,15 @@ export class HootSearch extends Component {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "ArrowDown": {
                 return navigate(+1);
             }
             case "ArrowUp": {
                 return navigate(-1);
             }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -892,6 +991,7 @@ export class HootSearch extends Component {
     onSearchInputChange() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.state.query) {
             return;
         }
@@ -900,12 +1000,17 @@ export class HootSearch extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.trimmedQuery) {
             return;
         }
         const latestSearches = this.getLatestSearches();
         latestSearches.unshift(this.trimmedQuery);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -923,7 +1028,11 @@ export class HootSearch extends Component {
         this.updateFilterParam();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.updateSuggestions();
+=======
+        this.debouncedUpdateSuggestions();
+>>>>>>> upstream/18.0
 =======
         this.debouncedUpdateSuggestions();
 >>>>>>> upstream/18.0
@@ -951,7 +1060,10 @@ export class HootSearch extends Component {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             case "x": {
@@ -961,6 +1073,9 @@ export class HootSearch extends Component {
                 break;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -979,6 +1094,10 @@ export class HootSearch extends Component {
     setInclude(categoryId, id, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.config.filter = "";
+>>>>>>> upstream/18.0
 =======
         this.config.filter = "";
 >>>>>>> upstream/18.0
@@ -1005,6 +1124,7 @@ export class HootSearch extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     toggleRegExp() {
         const query = this.state.query.trim();
         if (this.useRegExp) {
@@ -1015,6 +1135,8 @@ export class HootSearch extends Component {
         this.updateFilterParam();
         this.updateSuggestions();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     toggleExact() {
@@ -1064,6 +1186,9 @@ export class HootSearch extends Component {
         this.keepSelection((query.length - currentQuery.length) / 2);
         this.setQuery(query);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1087,6 +1212,7 @@ export class HootSearch extends Component {
     }
 
     updateFilterParam() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         this.useTextFilter = true;
@@ -1116,6 +1242,8 @@ export class HootSearch extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.config.filter = this.trimmedQuery;
     }
 
@@ -1124,6 +1252,9 @@ export class HootSearch extends Component {
         this.state.categories = this.findSuggestions();
         this.state.showDropdown = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,7 +1306,10 @@ export class HootSearch extends Component {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1183,6 +1317,9 @@ export class HootSearch extends Component {
         return this.hasRegExpFilter(query) ? query : stringify(query);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

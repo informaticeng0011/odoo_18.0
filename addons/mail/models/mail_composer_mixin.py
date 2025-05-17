@@ -67,9 +67,12 @@ class MailComposerMixin(models.AbstractModel):
             if not tools.is_html_empty(composer_mixin.body) and composer_mixin.template_id:
                 template_value = composer_mixin.template_id.body_html
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sanitized_template_value = tools.html_sanitize(template_value)
                 composer_mixin.body_has_template_value = composer_mixin.body in (template_value, sanitized_template_value)
 =======
+=======
+>>>>>>> upstream/18.0
                 # matching email_outgoing sanitize level
                 sanitize_vals = {
                     'output_method': 'xml',
@@ -85,6 +88,9 @@ class MailComposerMixin(models.AbstractModel):
                 sanitized_template_value = tools.html_sanitize(template_value, **sanitize_vals)
                 composer_mixin.body_has_template_value = composer_mixin.body in (template_value,
                     sanitized_template_value)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             else:
                 composer_mixin.body_has_template_value = False

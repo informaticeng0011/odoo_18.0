@@ -19,6 +19,7 @@ import {
 import { Deferred } from "@web/../lib/hoot-dom/helpers/time";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { addInteractionListener, isFirefox, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import {
     CASE_EVENT_TYPES,
@@ -33,6 +34,8 @@ import {
     ensureArray,
     formatHumanReadable,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import {
@@ -51,6 +54,9 @@ import {
     formatHumanReadable,
     HootError,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61,8 +67,11 @@ import {
     makeLabelIcon,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     match,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     Markup,
@@ -70,6 +79,9 @@ import {
     S_ANY,
     S_NONE,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -392,7 +404,10 @@ const R_NOT = /\[([\w\s]*)!([\w\s]*)\]/g;
 const R_PLURAL = /\[([\w\s]*)%([\w\s]*)\]/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_WHITE_SPACE = /\s+/g;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

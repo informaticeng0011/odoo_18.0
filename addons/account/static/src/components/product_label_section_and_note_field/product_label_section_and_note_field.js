@@ -48,7 +48,10 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -59,6 +62,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
         return ["cancel", "done", "posted"].includes(record.evalContext.parent.state) && isReadonly;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225,7 +231,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     get sectionAndNoteIsReadonly() {
@@ -233,6 +242,9 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

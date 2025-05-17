@@ -503,6 +503,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -627,12 +631,15 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # In the case of an explicit error from ZATCA, i.e we got a response but the code of the response is not 2xx
             return {
                 'error': _("Server returned an unexpected error: %(error)s", error=(request_response.text or str(ex))),
                 'blocking_level': 'error'
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -728,6 +735,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -819,7 +829,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -908,6 +921,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1001,6 +1017,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not request_response.ok and (response_data.get('errors') or response_data.get('warnings')):
             if isinstance(response_data, dict) and response_data.get('errors'):
@@ -1013,6 +1030,8 @@ class AccountJournal(models.Model):
                 'error': request_response.reason,
                 'blocking_level': 'error'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1113,6 +1132,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

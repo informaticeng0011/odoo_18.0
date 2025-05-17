@@ -50,8 +50,11 @@ const {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 /**
@@ -83,6 +86,9 @@ const makeInteractorFn = (type, fn, name) =>
 
 const DEBUG_NAMESPACE = "hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,6 +132,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeInteractorFn = (type, fn, name) =>
     ({
         [name](...args) {
@@ -148,6 +155,8 @@ const makeInteractorFn = (type, fn, name) =>
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @param  {...any} helpers
  */
@@ -161,6 +170,9 @@ export function exposeHelpers(...helpers) {
     return nameSpace;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -214,6 +226,7 @@ export function isIterable(object) {
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} filter
  * @returns {boolean}
  */
@@ -226,11 +239,14 @@ export function isRegExpFilter(filter) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {string} value
  * @param {{ safe?: boolean }} [options]
  * @returns {string | RegExp}
  */
 export function parseRegExp(value, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const regexParams = value.match(R_REGEX_PATTERN);
@@ -240,11 +256,16 @@ export function parseRegExp(value, options) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const regexParams = value.match(R_REGEX);
     if (regexParams) {
         const unified = regexParams[1].replace(R_WHITE_SPACE, "\\s+");
         const flag = regexParams[2];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -280,10 +301,13 @@ export function toSelector(node, options) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export class HootDebugHelpers {
@@ -313,6 +337,9 @@ export const REGEX_MARKER = "/";
 export const R_REGEX = new RegExp(`^${REGEX_MARKER}(.*)${REGEX_MARKER}([dgimsuvy]+)?$`);
 export const R_WHITE_SPACE = /\s+/g;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -32,7 +32,10 @@
             </td>
         </xpath>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         <xpath expr="//td[@name='td_subtotal']/span" position="attributes">
             <attribute name="t-if">o.company_id.country_id.code != 'AE' or o.company_price_include == 'tax_excluded'</attribute>
@@ -54,6 +57,9 @@
                 <span class="text-nowrap" t-if="o.company_price_include == 'tax_included'" t-out="line.currency_id._convert(line.price_total, o.company_currency_id, o.company_id, o.invoice_date or datetime.date.today())" t-options="{'widget': 'monetary', 'display_currency': o.company_currency_id}"/>
             </td>
         </xpath>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </template>
 
@@ -68,8 +74,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-set="exchange_rate"
                    t-value="abs(o.amount_total_signed) / o.amount_total"/>
+=======
+                <t t-set="exchange_rate" t-if="o.amount_total" t-value="abs(o.amount_total_signed) / o.amount_total"/>
+                <t t-set="exchange_rate" t-else="" t-value="o.env['res.currency']._get_conversion_rate(o.currency_id, o.company_id.currency_id, o.company_id, o.invoice_date or datetime.date.today())"/>
+>>>>>>> upstream/18.0
 =======
                 <t t-set="exchange_rate" t-if="o.amount_total" t-value="abs(o.amount_total_signed) / o.amount_total"/>
                 <t t-set="exchange_rate" t-else="" t-value="o.env['res.currency']._get_conversion_rate(o.currency_id, o.company_id.currency_id, o.company_id, o.invoice_date or datetime.date.today())"/>

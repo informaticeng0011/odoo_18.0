@@ -233,6 +233,10 @@ export class X2ManyField extends Component {
                 res_model: this.list.resModel,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                context: this.props.context,
+>>>>>>> upstream/18.0
 =======
                 context: this.props.context,
 >>>>>>> upstream/18.0

@@ -1258,12 +1258,18 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
             // cases (blog...).
             this._adaptSize();
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250));
 =======
+=======
+>>>>>>> upstream/18.0
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250, {
                 leading: true,
                 trailing: true,
             }));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         return this._super(...arguments);
@@ -1293,6 +1299,7 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
      */
     _computeIdealHeight() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const windowHeight = $(window).outerHeight();
         if (this.inModal) {
             return windowHeight;
@@ -1304,6 +1311,8 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (windowHeight - mainTopPos);
 =======
+=======
+>>>>>>> upstream/18.0
         // Compute the smallest viewport height (svh) to use to set up the ideal
         // height of the element, which won't flicker based on the viewport
         // resize in mobile (when its browser UI changes).
@@ -1341,6 +1350,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const firstContentEl = $('#wrapwrap > main > :first-child')[0]; // first child to consider the padding-top of main
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (this.smallestViewportHeight - mainTopPos);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 });

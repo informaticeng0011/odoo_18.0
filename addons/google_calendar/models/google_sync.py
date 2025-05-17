@@ -153,6 +153,11 @@ class GoogleSync(models.AbstractModel):
             for record in new_records:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if record._is_google_insertion_blocked(sender_user=self.env.user):
+                    continue
+>>>>>>> upstream/18.0
 =======
                 if record._is_google_insertion_blocked(sender_user=self.env.user):
                     continue
@@ -421,7 +426,10 @@ class GoogleSync(models.AbstractModel):
         raise NotImplementedError()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -434,6 +442,9 @@ class GoogleSync(models.AbstractModel):
         """
         raise NotImplementedError()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

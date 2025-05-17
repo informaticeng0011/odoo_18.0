@@ -58,6 +58,10 @@ import { waitUntil } from "./time";
  *  exact?: number;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  interactive?: boolean;
+>>>>>>> upstream/18.0
 =======
  *  interactive?: boolean;
 >>>>>>> upstream/18.0
@@ -109,6 +113,10 @@ const {
     Set,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    window,
+>>>>>>> upstream/18.0
 =======
     window,
 >>>>>>> upstream/18.0
@@ -317,7 +325,10 @@ const isElement = (object) => object?.nodeType === Node.ELEMENT_NODE;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 const isNodeInteractive = (node) => getStyle(node).pointerEvents !== "none";
@@ -326,6 +337,9 @@ const isNodeInteractive = (node) => getStyle(node).pointerEvents !== "none";
  * @param {Node} node
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -581,6 +595,7 @@ const parseXml = (xmlString, type) => {
     const wrapperTag = type === "html" ? "body" : "templates";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = parser.parseFromString(
         `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
         `text/${type}`
@@ -597,6 +612,8 @@ const parseXml = (xmlString, type) => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const doc = parser.parseFromString(
         `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
         `text/${type}`
@@ -611,6 +628,9 @@ const parseXml = (xmlString, type) => {
     }
     return doc.getElementsByTagName(wrapperTag)[0].childNodes;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,7 +834,10 @@ customPseudoClasses
     })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     .set("interactive", () => {
@@ -823,6 +846,9 @@ customPseudoClasses
         };
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -908,7 +934,13 @@ export function getCurrentDimensions() {
 export function getDocument(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     node ||= getDefaultRoot();
+=======
+    if (!node) {
+        return document;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!node) {
         return document;
@@ -1010,7 +1042,10 @@ export function getNodeText(node, options) {
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
  * @param {Node} node
@@ -1029,6 +1064,9 @@ export function getInteractiveNode(node) {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1047,8 +1085,11 @@ export function getStyle(node) {
 export function getWindow(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getDocument(node).defaultView;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     if (!node) {
@@ -1056,6 +1097,9 @@ export function getWindow(node) {
     }
     return isWindow(node) ? node : getDocument(node).defaultView;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1324,9 +1368,15 @@ export function formatXml(value, options) {
 export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     const window = getWindow(node);
     const { activeElement } = document;
+=======
+    const doc = getDocument(node);
+    const view = doc.defaultView;
+    const { activeElement } = doc;
+>>>>>>> upstream/18.0
 =======
     const doc = getDocument(node);
     const view = doc.defaultView;
@@ -1360,6 +1410,7 @@ export function getActiveElement(node) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (activeElement === document.body && window !== window.parent) {
         // Active element is the body of an iframe:
         // -> get the active element of its parent frame (recursively)
@@ -1367,11 +1418,16 @@ export function getActiveElement(node) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (activeElement === doc.body && view !== view.parent) {
         // Active element is the body of an iframe:
         // -> get the active element of its parent frame (recursively)
         return getActiveElement(view.parent.document);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1437,6 +1493,7 @@ export function getNextFocusableElement(options) {
 export function getParentFrame(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     if (!document) {
         return null;
@@ -1445,12 +1502,17 @@ export function getParentFrame(node) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const doc = getDocument(node);
     if (!doc) {
         return null;
     }
     const view = doc.defaultView;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1677,6 +1739,10 @@ export function observe(target, callback) {
  * - `:hidden`: matches nodes that are **not** "visible" (see {@link isVisible});
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
+>>>>>>> upstream/18.0
 =======
  * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
 >>>>>>> upstream/18.0
@@ -1740,7 +1806,11 @@ export function queryAll(target, options) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { exact, displayed, root, viewPort, visible } = options || {};
+=======
+    const { exact, displayed, interactive, root, viewPort, visible } = options || {};
+>>>>>>> upstream/18.0
 =======
     const { exact, displayed, interactive, root, viewPort, visible } = options || {};
 >>>>>>> upstream/18.0
@@ -1772,9 +1842,12 @@ export function queryAll(target, options) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {string} */
     let prefix, suffix;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     /** @type {string[]} */
@@ -1782,6 +1855,9 @@ export function queryAll(target, options) {
     /** @type {string[]} */
     const suffix = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1790,6 +1866,7 @@ export function queryAll(target, options) {
             `cannot use more than one visibility modifier ('visible' implies 'displayed')`
         );
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     if (viewPort) {
@@ -1802,6 +1879,8 @@ export function queryAll(target, options) {
         nodes = nodes.filter(isNodeDisplayed);
         prefix = "displayed";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1821,6 +1900,9 @@ export function queryAll(target, options) {
         nodes = nodes.filter(isNodeVisible);
         prefix.push("visible");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1828,6 +1910,7 @@ export function queryAll(target, options) {
 
     const count = nodes.length;
     if ($isInteger(exact) && count !== exact) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         const s = count === 1 ? "" : "s";
@@ -1838,6 +1921,8 @@ export function queryAll(target, options) {
             `found ${count} ${strPrefix}node${s}${strSuffix} instead of ${exact} ${strSelector}`
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const message = ["found", String(count)];
@@ -1855,6 +1940,9 @@ export function queryAll(target, options) {
         }
         throw new HootDomError(message.join(" "));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

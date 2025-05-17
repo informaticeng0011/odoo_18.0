@@ -23,11 +23,16 @@ test("should show the hook when hovering a P", async () => {
     await hover(el.querySelector("p"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const moveElements = [...document.querySelectorAll(".oe-sidewidget-move")];
     expect(moveElements).toHaveLength(1);
     const elementRect = moveElements[0].getBoundingClientRect();
     expect(elementRect.top).toBe(0);
     expect(elementRect.left).toBe(5);
+=======
+    expect(".oe-sidewidget-move").toHaveCount(1);
+    expect(".oe-sidewidget-move").toHaveRect({ top: 0, left: 5 });
+>>>>>>> upstream/18.0
 =======
     expect(".oe-sidewidget-move").toHaveCount(1);
     expect(".oe-sidewidget-move").toHaveRect({ top: 0, left: 5 });
@@ -44,11 +49,16 @@ test("should show the hook when hovering the second P", async () => {
     await hover(el.querySelector("p:last-child"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const moveElements = [...document.querySelectorAll(".oe-sidewidget-move")];
     expect(moveElements).toHaveLength(1);
     const elementRect = moveElements[0].getBoundingClientRect();
     expect(elementRect.top).toBe(37);
     expect(elementRect.left).toBe(5);
+=======
+    expect(".oe-sidewidget-move").toHaveCount(1);
+    expect(".oe-sidewidget-move").toHaveRect({ top: 37, left: 5 });
+>>>>>>> upstream/18.0
 =======
     expect(".oe-sidewidget-move").toHaveCount(1);
     expect(".oe-sidewidget-move").toHaveRect({ top: 37, left: 5 });
@@ -65,8 +75,12 @@ test("should not show the hook when hovering a DIV which is not a baseContainer"
     await hover(el.querySelector("div"));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const moveElements = [...document.querySelectorAll(".oe-sidewidget-move")];
     expect(moveElements).toHaveLength(0);
+=======
+    expect(".oe-sidewidget-move").toHaveCount(0);
+>>>>>>> upstream/18.0
 =======
     expect(".oe-sidewidget-move").toHaveCount(0);
 >>>>>>> upstream/18.0
@@ -87,6 +101,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -99,12 +114,17 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop } = await contains(".oe-sidewidget-move").drag();
         expect(".oe-dropzone-box-side").toHaveCount(8);
         await drop(".oe-dropzone-box-side:eq(0)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124,6 +144,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -136,12 +157,17 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop } = await contains(".oe-sidewidget-move").drag();
         expect(".oe-dropzone-box-side").toHaveCount(8);
         await drop(".oe-dropzone-box-side:eq(1)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -161,6 +187,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -173,12 +200,17 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop } = await contains(".oe-sidewidget-move").drag();
         expect(".oe-dropzone-box-side").toHaveCount(8);
         await drop(".oe-dropzone-box-side:eq(2)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -198,6 +230,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -210,12 +243,17 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop } = await contains(".oe-sidewidget-move").drag();
         expect(".oe-dropzone-box-side").toHaveCount(8);
         await drop(".oe-dropzone-box-side:eq(3)");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -235,6 +273,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -249,6 +288,8 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop } = await contains(".oe-sidewidget-move").drag();
@@ -257,6 +298,9 @@ describe("drag", () => {
         getFixture().appendChild(outsideArea);
         await drop(outsideArea);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -276,6 +320,7 @@ describe("drag", () => {
         await hover(firstP);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const moveElement = document.querySelector(".oe-sidewidget-move");
         let dropzones = [...document.querySelectorAll(".oe-dropzone-box-side")];
         expect(dropzones).toHaveLength(0);
@@ -291,6 +336,8 @@ describe("drag", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expect(".oe-dropzone-box-side").toHaveCount(0);
         await tick();
         const { drop, moveTo } = await contains(".oe-sidewidget-move").drag();
@@ -300,6 +347,9 @@ describe("drag", () => {
         getFixture().appendChild(outsideArea);
         await drop(outsideArea);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

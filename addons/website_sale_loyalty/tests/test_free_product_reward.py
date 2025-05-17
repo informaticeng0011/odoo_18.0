@@ -1,6 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http
 from odoo.tests.common import HttpCase
 from odoo.tests import tagged
@@ -33,6 +34,8 @@ class TestFreeProductReward(HttpCase):
 
         self.program = self.env['loyalty.program'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import Command, http
 from odoo.tests import tagged
 
@@ -68,6 +71,9 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
         cls.program = cls.env['loyalty.program'].search([]).write({'active': False})
 
         cls.program = cls.env['loyalty.program'].create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'name': 'Get a product for free',
             'program_type': 'promotion',
@@ -79,23 +85,30 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
                 'reward_point_amount': 1,
                 'reward_point_mode': 'order',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_ids': self.sofa,
             })],
             'reward_ids': [(0, 0, {
                 'reward_type': 'product',
                 'reward_product_id': self.carpet.id,
 =======
+=======
+>>>>>>> upstream/18.0
                 'product_ids': cls.sofa,
             })],
             'reward_ids': [(0, 0, {
                 'reward_type': 'product',
                 'reward_product_id': cls.carpet.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'reward_product_qty': 1,
                 'required_points': 1,
             })],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.steve = self.env['res.partner'].create({
             'name': 'Steve Bucknor',
@@ -108,11 +121,16 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
 
         installed_modules = set(self.env['ir.module.module'].search([
 =======
+=======
+>>>>>>> upstream/18.0
         cls.empty_order = cls.env['sale.order'].create({
             'partner_id': cls.partner_demo.id,
         })
 
         installed_modules = set(cls.env['ir.module.module'].search([
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ('state', '=', 'installed'),
         ]).mapped('name'))
@@ -134,7 +152,10 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
             self.assertEqual(carpet_reward_line.product_uom_qty, 1, "Should have only 1 qty for the carpet as reward")
             self.assertEqual(carpet_line.product_uom_qty, 1, "Should have only 1 qty for carpet as non reward")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_get_claimable_free_shipping(self):
         order = self.empty_order
@@ -159,4 +180,7 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
                 order._get_claimable_and_showable_rewards(),
                 "Rewards should no longer be claimable if already claimed",
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

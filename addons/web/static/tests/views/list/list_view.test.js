@@ -511,7 +511,11 @@ test(`editable list with open_form_view`, async () => {
 test(`editable list with open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -547,7 +551,11 @@ test(`editable list without open_form_view in debug`, async () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -595,7 +603,11 @@ test(`editable list without open_form_view in debug`, async () => {
 test(`non-editable list in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6156,8 +6168,11 @@ test(`can display a list with a many2many field`, async () => {
 test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6181,7 +6196,11 @@ test(`display a tooltip on a field`, async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6205,7 +6224,10 @@ test(`display a tooltip on a field`, async () => {
 test("field (with help) tooltip in non debug mode", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6611,6 +6633,10 @@ test(`empty list with sample data: keyboard navigation`, async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("broken");
+>>>>>>> upstream/18.0
 =======
 test.tags("broken");
 >>>>>>> upstream/18.0
@@ -6633,8 +6659,11 @@ test(`empty list with sample data: group by date`, async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_group_has_content.o_group_header`).click();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // FIXME: ELEMENT SHOULD BE INTERACTIVE -> test is simulating a situation that
@@ -6644,6 +6673,9 @@ test(`empty list with sample data: group by date`, async () => {
     await animationFrame();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

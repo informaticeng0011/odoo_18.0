@@ -34,6 +34,10 @@ export class OdooLineChart extends OdooChart {
         this.fillArea = definition.fillArea;
         this.trend = definition.trend;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.cumulatedStart = definition.cumulatedStart;
+>>>>>>> upstream/18.0
 =======
         this.cumulatedStart = definition.cumulatedStart;
 >>>>>>> upstream/18.0
@@ -49,6 +53,10 @@ export class OdooLineChart extends OdooChart {
             fillArea: this.fillArea,
             trend: this.trend,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cumulatedStart: this.cumulatedStart,
+>>>>>>> upstream/18.0
 =======
             cumulatedStart: this.cumulatedStart,
 >>>>>>> upstream/18.0

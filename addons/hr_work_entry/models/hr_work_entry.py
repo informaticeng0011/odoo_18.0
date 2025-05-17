@@ -105,7 +105,11 @@ class HrWorkEntry(models.Model):
                 result[work_entry.id] = cached_periods[(date_start, date_stop)]
             else:
                 dt = date_stop - date_start
+<<<<<<< HEAD
                 duration = dt.days * 24 + dt.seconds / 3600  # Number of hours
+=======
+                duration = dt.days * 24 + round(dt.total_seconds()) / 3600  # Number of hours
+>>>>>>> upstream/18.0
                 cached_periods[(date_start, date_stop)] = duration
                 result[work_entry.id] = duration
         return result

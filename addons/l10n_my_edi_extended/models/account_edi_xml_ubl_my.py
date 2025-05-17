@@ -21,6 +21,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
                 'industry_classification_code': invoice.partner_id.commercial_partner_id.l10n_my_edi_industrial_classification.code,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Self-billed invoices must use the number given by the supplier.
+            if invoice.ref:
+                vals['vals']['id'] = invoice.ref
+>>>>>>> upstream/18.0
 =======
             # Self-billed invoices must use the number given by the supplier.
             if invoice.ref:

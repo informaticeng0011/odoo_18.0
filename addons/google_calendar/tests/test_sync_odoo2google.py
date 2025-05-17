@@ -964,7 +964,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @patch_api
@@ -1022,6 +1025,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

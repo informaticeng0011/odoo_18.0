@@ -271,13 +271,19 @@ class AccountReport(models.Model):
                         copied_formula = re.sub(f"(?<=\\W){old_code}(?=\\W)", new_code, copied_formula)
                     expression.formula = copied_formula.strip()  # Remove the spaces introduced for lookahead/lookbehind
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     # Repeat the same logic for the subformula, if it is set.
                     if expression.subformula:
                         copied_subformula = f" {expression.subformula} "
                         for old_code, new_code in code_mapping.items():
                             copied_subformula = re.sub(f"(?<=\\W){old_code}(?=\\W)", new_code, copied_subformula)
                         expression.subformula = copied_subformula.strip()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             old_report.column_ids.copy({'report_id': new_report.id})

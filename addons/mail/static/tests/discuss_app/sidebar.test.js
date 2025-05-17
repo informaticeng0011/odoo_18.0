@@ -291,7 +291,11 @@ test("sidebar: basic chat rendering", async () => {
     await contains(".o-mail-DiscussSidebarChannel", { text: "Demo" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-DiscussSidebarChannel img[data-alt='Thread Image']");
+=======
+    await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-DiscussSidebarChannel img[alt='Thread Image']");
 >>>>>>> upstream/18.0

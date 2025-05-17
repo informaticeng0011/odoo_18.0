@@ -328,7 +328,10 @@ class TestEventSaleMail(TestEventFullCommon):
             },
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_registration_template_body_translation(self):
         self.env['res.lang']._activate_lang('fr_BE')
@@ -341,4 +344,7 @@ class TestEventSaleMail(TestEventFullCommon):
             'partner_id': self.partners[0].id
             })
         self.assertEqual(self._new_mails[0].body_html, "<p>Bonjour</p>")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

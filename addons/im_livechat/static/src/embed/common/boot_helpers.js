@@ -44,6 +44,10 @@ export function makeRoot(target) {
     root.style.position = "relative";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    root.style.display = "block";
+>>>>>>> upstream/18.0
 =======
     root.style.display = "block";
 >>>>>>> upstream/18.0

@@ -621,7 +621,10 @@ class TestProjectSharing(TestProjectSharingCommon):
         self.assertFalse(task_without_partner.message_partner_ids, "Since this task has no partner, no follower should be added")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -646,6 +649,9 @@ class TestProjectSharing(TestProjectSharingCommon):
         self.assertIn(self.user_projectmanager.partner_id, project.message_partner_ids, "Project manager should still be a follower after sharing the project")
         self.assertEqual(len(project.message_follower_ids), 2, "number of followers should be 2")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

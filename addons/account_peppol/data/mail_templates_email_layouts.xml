@@ -7,6 +7,7 @@
                   primary="True">
             <xpath expr="//t[hasclass('o_signature')]" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div id="peppol_advertisement" t-if="peppol_info" style="font-size: 13px;">
                     <t t-if="peppol_info['is_peppol_sent']">
 <<<<<<< HEAD
@@ -41,6 +42,8 @@
                         </i>
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                 <div id="peppol_status" t-if="peppol_info" style="font-size: 13px;">
                     <br/><br/>
                     <t t-if="peppol_info['is_peppol_sent']">
@@ -56,6 +59,9 @@
                                 In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register.
                             </t>
                         </i>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     </t>
                 </div>

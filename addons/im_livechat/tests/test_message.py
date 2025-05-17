@@ -272,7 +272,11 @@ class TestImLivechatMessage(ChatbotCase, MailCommon):
                                             "id": self.env.user.partner_id.id,
                                             "type": "partner",
                                         },
+<<<<<<< HEAD
                                         "body": '<div class="o_mail_notification o_hide_author">Rating: <img class="o_livechat_emoji_rating" src="/rating/static/src/img/rating_5.png" alt="rating"><br>Good service</div>',
+=======
+                                        "body": '<div class="o_mail_notification o_hide_author">Rating: <img class="o_livechat_emoji_rating" src="/rating/static/src/img/rating_5.png" alt="rating"><br>\nGood service</div>',
+>>>>>>> upstream/18.0
                                         "create_date": fields.Datetime.to_string(
                                             message.create_date
                                         ),

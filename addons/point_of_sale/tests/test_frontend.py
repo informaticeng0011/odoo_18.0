@@ -1380,6 +1380,12 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def test_customer_display_with_qr(self):
+        self.start_tour(f"/pos_customer_display/{self.main_pos_config.id}/{self.main_pos_config.access_token}", 'CustomerDisplayTourWithQr', login="pos_user")
+
+>>>>>>> upstream/18.0
 =======
     def test_customer_display_with_qr(self):
         self.start_tour(f"/pos_customer_display/{self.main_pos_config.id}/{self.main_pos_config.access_token}", 'CustomerDisplayTourWithQr', login="pos_user")
@@ -1607,7 +1613,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1658,6 +1667,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1888,7 +1900,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2014,6 +2029,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2206,6 +2224,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2262,6 +2281,55 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_one_attribute_value_scan_barcode(self):
+        product = self.env['product.template'].create({
+            'name': 'Product Test',
+            'available_in_pos': True,
+            'list_price': 10,
+            'taxes_id': False,
+            'barcode': '1234567',
+        })
+
+        size_attribute = self.env['product.attribute'].create({
+            'name': 'Size never',
+            'create_variant': 'no_variant',
+            'value_ids': [(0, 0, {
+                'name': 'Large',
+            })],
+        })
+
+        self.env['product.template.attribute.line'].create({
+            'product_tmpl_id': product.id,
+            'attribute_id': size_attribute.id,
+            'value_ids': [(6, 0, size_attribute.value_ids.ids)]
+        })
+
+        color_attribute = self.env['product.attribute'].create({
+            'name': 'Color always',
+            'create_variant': 'always',
+            'value_ids': [(0, 0, {
+                'name': 'Red',
+                'sequence': 1,
+            }), (0, 0, {
+                'name': 'Blue',
+                'sequence': 2,
+            })],
+        })
+
+        self.env['product.template.attribute.line'].create({
+            'product_tmpl_id': product.id,
+            'attribute_id': color_attribute.id,
+            'value_ids': [(6, 0, color_attribute.value_ids.ids)]
+        })
+
+        product.product_variant_ids[0].barcode = '1234567'
+        product.product_variant_ids[1].barcode = '1234568'
+
+        self.main_pos_config.with_user(self.pos_user).open_ui()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'test_one_attribute_value_scan_barcode', login="pos_user")
+
 >>>>>>> upstream/18.0
     def test_draft_orders_not_syncing(self):
         self.main_pos_config.with_user(self.pos_user).open_ui()
@@ -2297,6 +2365,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -296,7 +296,10 @@ class TestChartTemplate(AccountTestInvoicingCommon):
             return data
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # First try with `force_create=False` (during an upgrade)
         with patch.object(AccountChartTemplate, '_get_chart_template_data', side_effect=local_get_data, autospec=True):
             self.env['account.chart.template'].try_loading('test', company=self.company, install_demo=False, force_create=False)
@@ -316,6 +319,9 @@ class TestChartTemplate(AccountTestInvoicingCommon):
         ])
 
         # then try with `force_create=True` (when updating the CoA manually)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         with patch.object(AccountChartTemplate, '_get_chart_template_data', side_effect=local_get_data, autospec=True):
             self.env['account.chart.template'].try_loading('test', company=self.company, install_demo=False)
@@ -396,8 +402,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
           - Fiscal positions: The previous mappings won't be deleted but the new ones will be created.
                               This ensures that reports still work.
 <<<<<<< HEAD
+<<<<<<< HEAD
           - Company: The default sales/purchase taxes should be updated. It should only impact the creation
                      of new products so it is probably not going to be an issue.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         * If such a tax was part of a group, a new group must be created and the old one removed from the template.
@@ -442,8 +451,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
             {'tax_src_id': tax_3.id, 'tax_dest_id': tax_2.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.company.account_sale_tax_id, tax_3)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # On a new company you would never see the old tax.
@@ -737,6 +749,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 
         company = self.company
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # force first load since company data is removed on reload
+        company.chart_template = False
+>>>>>>> upstream/18.0
 =======
         # force first load since company data is removed on reload
         company.chart_template = False

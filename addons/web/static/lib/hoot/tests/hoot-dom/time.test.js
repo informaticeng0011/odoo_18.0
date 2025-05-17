@@ -8,7 +8,12 @@ import { parseUrl } from "../local_helpers";
 // timeout of 1 second to ensure all timeouts are actually mocked
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe.timeout(1_000)(parseUrl(import.meta.url), () => {
+=======
+describe.timeout(1_000);
+describe(parseUrl(import.meta.url), () => {
+>>>>>>> upstream/18.0
 =======
 describe.timeout(1_000);
 describe(parseUrl(import.meta.url), () => {

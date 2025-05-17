@@ -95,7 +95,10 @@ class SaleOrder(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _filter_can_send_abandoned_cart_mail(self):
@@ -105,6 +108,9 @@ class SaleOrder(models.Model):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

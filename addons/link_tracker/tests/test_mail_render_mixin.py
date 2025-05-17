@@ -256,7 +256,10 @@ And a last, with question mark: {self.base_url}/r/(\w+)"""
         expected = re.compile(rf'Reusing this old link {created_short_url} with a new one, {self.base_url}/r/\w+')
         self.assertRegex(new_content, expected)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_shorten_blacklisted_links(self):
         test_links = [
@@ -278,4 +281,7 @@ And a last, with question mark: {self.base_url}/r/(\w+)"""
                 else:
                     self.assertIn(keyword, shorten_html)
                     self.assertIn(keyword, shorten_text)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -43,6 +43,10 @@ from . import test_payment_term
 from . import test_account_payment_items
 from . import test_account_payment_register
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 =======
 from . import test_account_report
 >>>>>>> upstream/18.0

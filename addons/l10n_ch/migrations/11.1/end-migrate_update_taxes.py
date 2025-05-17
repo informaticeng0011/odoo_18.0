@@ -19,7 +19,11 @@ def migrate(cr, version):
                     child.type_tax_use = tax.type_tax_use
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         env['account.chart.template'].try_loading('ch', company)
+=======
+        env['account.chart.template'].try_loading('ch', company, force_create=False)
+>>>>>>> upstream/18.0
 =======
         env['account.chart.template'].try_loading('ch', company, force_create=False)
 >>>>>>> upstream/18.0

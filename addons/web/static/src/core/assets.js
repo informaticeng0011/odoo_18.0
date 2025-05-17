@@ -13,6 +13,7 @@ const computeCacheMap = () => {
     for (const script of document.head.querySelectorAll("script[src]")) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cacheMap.set(script.src, Promise.resolve());
     }
     for (const link of document.head.querySelectorAll("link[rel=stylesheet][href]")) {
@@ -20,11 +21,16 @@ const computeCacheMap = () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cacheMap.set(script.getAttribute("src"), Promise.resolve());
     }
     for (const link of document.head.querySelectorAll("link[rel=stylesheet][href]")) {
         cacheMap.set(link.getAttribute("href"), Promise.resolve());
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185,9 +191,15 @@ export const assets = {
         const linkEl = document.createElement("link");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         linkEl.type = "text/css";
         linkEl.rel = "stylesheet";
         linkEl.href = url;
+=======
+        linkEl.setAttribute("href", url);
+        linkEl.type = "text/css";
+        linkEl.rel = "stylesheet";
+>>>>>>> upstream/18.0
 =======
         linkEl.setAttribute("href", url);
         linkEl.type = "text/css";
@@ -234,8 +246,13 @@ export const assets = {
         const scriptEl = document.createElement("script");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         scriptEl.type = url.includes("web/static/lib/pdfjs/") ? "module" : "text/javascript";
         scriptEl.src = url;
+=======
+        scriptEl.setAttribute("src", url);
+        scriptEl.type = url.includes("web/static/lib/pdfjs/") ? "module" : "text/javascript";
+>>>>>>> upstream/18.0
 =======
         scriptEl.setAttribute("src", url);
         scriptEl.type = url.includes("web/static/lib/pdfjs/") ? "module" : "text/javascript";

@@ -123,7 +123,11 @@ export function defineTags(...definitions) {
     return definitions.map((def) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tagKey = def.key || normalize(def.name);
+=======
+        const tagKey = def.key || normalize(def.name.toLowerCase());
+>>>>>>> upstream/18.0
 =======
         const tagKey = def.key || normalize(def.name.toLowerCase());
 >>>>>>> upstream/18.0
@@ -147,9 +151,15 @@ export function defineTags(...definitions) {
 export function getTags(tagNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const tagKeys = tagNames.map(normalize);
     return tagKeys.map((tagKey, i) => {
         const tag = existingTags[tagKey] || defineTags({ key: tagKey, name: tagNames[i] })[0];
+=======
+    return tagNames.map((tagKey, i) => {
+        const nKey = normalize(tagKey.toLowerCase());
+        const tag = existingTags[nKey] || defineTags({ key: nKey, name: tagNames[i] })[0];
+>>>>>>> upstream/18.0
 =======
     return tagNames.map((tagKey, i) => {
         const nKey = normalize(tagKey.toLowerCase());
@@ -209,7 +219,11 @@ export class Tag {
         if (exclude) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.exclude = exclude.map(normalize);
+=======
+            this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
+>>>>>>> upstream/18.0
 =======
             this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
 >>>>>>> upstream/18.0

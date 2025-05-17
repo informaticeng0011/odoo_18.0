@@ -26,7 +26,11 @@ from datetime import date, datetime, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -119,12 +123,18 @@ class TestReportsCommon(TransactionCase):
             'barcode': 'scan""me'
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.serial_product = cls.env['product.product'].create({
             'name': 'simple prod',
             'is_storable': True,
             'tracking': 'serial',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         product_form = Form(cls.env['product.product'])
@@ -2074,7 +2084,10 @@ class TestReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2126,8 +2139,12 @@ class TestReportsPostInstall(TestReportsCommon):
 
     def test_report_stock_lot_customer_simple_delivery(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         serial_product = self.env['product.product'].create({'name': 'simple prod', 'is_storable': True})
         serial_product.tracking = 'serial'
+=======
+        serial_product = self.serial_product
+>>>>>>> upstream/18.0
 =======
         serial_product = self.serial_product
 >>>>>>> upstream/18.0
@@ -2178,6 +2195,7 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2222,6 +2240,8 @@ class TestReportsPostInstall(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_report_stock_lot_customer_sml_without_picking(self):
         """
@@ -2269,4 +2289,7 @@ class TestReportsPostInstall(TestReportsCommon):
         self.assertRecordValues(customer_lots, [
             {'lot_id': sn.id, 'picking_id': delivery.id, 'quantity': 1.0},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

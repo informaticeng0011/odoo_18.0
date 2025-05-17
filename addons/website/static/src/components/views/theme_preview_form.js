@@ -62,6 +62,10 @@ class ThemePreviewFormController extends FormController {
 
         // TODO adapt theme previews then remove this
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // ... or remove the feature entirely ? See task-3454790.
+>>>>>>> upstream/18.0
 =======
         // ... or remove the feature entirely ? See task-3454790.
 >>>>>>> upstream/18.0

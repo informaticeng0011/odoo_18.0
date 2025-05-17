@@ -30,7 +30,11 @@ def find_links_with_urls_and_labels(root_node, base_url, skip_regex=None, skip_p
             (skip_regex and re.search(skip_regex, absolute_url))
             or (skip_prefix and absolute_url.startswith(skip_prefix))
 <<<<<<< HEAD
+<<<<<<< HEAD
             or (skip_list and any(s in absolute_url for s in skip_list))
+=======
+            or (skip_list and any(re.search(s + r'([#?/]|$)', absolute_url) for s in skip_list))
+>>>>>>> upstream/18.0
 =======
             or (skip_list and any(re.search(s + r'([#?/]|$)', absolute_url) for s in skip_list))
 >>>>>>> upstream/18.0

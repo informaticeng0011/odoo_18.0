@@ -61,8 +61,11 @@ export class TourHelpers {
         const element = this._get_action_element(selector);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await hoot.click(element);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // FIXME: should always target interactive element, but some tour steps are
@@ -71,6 +74,9 @@ export class TourHelpers {
         // individually (no common cause found during a quick investigation).
         await hoot.click(element, { interactive: false });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114,10 +120,13 @@ export class TourHelpers {
         const dragEffectDelay = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await new Promise((resolve) => requestAnimationFrame(resolve));
             await new Promise((resolve) => setTimeout(resolve, this.delay));
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             await hoot.animationFrame();
@@ -125,6 +134,9 @@ export class TourHelpers {
         };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

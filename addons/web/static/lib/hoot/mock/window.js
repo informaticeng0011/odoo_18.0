@@ -3,7 +3,11 @@
 import { EventBus, whenReady } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getCurrentDimensions } from "@web/../lib/hoot-dom/helpers/dom";
+=======
+import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
+>>>>>>> upstream/18.0
 =======
 import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
 >>>>>>> upstream/18.0
@@ -51,6 +55,10 @@ import {
     mockHistory,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockLocation,
+>>>>>>> upstream/18.0
 =======
     mockLocation,
 >>>>>>> upstream/18.0
@@ -70,6 +78,7 @@ import { MockBlob } from "./sync_values";
 const {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     document,
     Document,
     HTMLBodyElement,
@@ -83,6 +92,8 @@ const {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     EventTarget,
     HTMLAnchorElement,
     Number: { isNaN: $isNaN, parseFloat: $parseFloat },
@@ -90,6 +101,9 @@ const {
         assign: $assign,
         defineProperties: $defineProperties,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99,6 +113,7 @@ const {
         keys: $keys,
         hasOwn: $hasOwn,
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     ontouchcancel,
@@ -114,6 +129,8 @@ const touchFunctions = { ontouchcancel, ontouchend, ontouchmove, ontouchstart };
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     Reflect: { ownKeys: $ownKeys },
     Set,
     WeakMap,
@@ -121,6 +138,9 @@ const touchFunctions = { ontouchcancel, ontouchend, ontouchmove, ontouchstart };
 
 const { addEventListener, removeEventListener } = EventTarget.prototype;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130,6 +150,7 @@ const { addEventListener, removeEventListener } = EventTarget.prototype;
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @param {any} target
@@ -147,6 +168,8 @@ const applyPropertyDescriptors = (target, descriptors) => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {unknown} target
  * @param {Record<string, PropertyDescriptor>} descriptors
  */
@@ -160,6 +183,9 @@ function applyPropertyDescriptors(target, descriptors) {
         const owner = findPropertyOwner(target, property);
         targetDescriptors[property] = $getOwnPropertyDescriptor(owner, property);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169,10 +195,13 @@ function applyPropertyDescriptors(target, descriptors) {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $defineProperty(owner, property, descriptor);
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (!ownerDecriptors.has(owner)) {
@@ -186,6 +215,9 @@ function applyPropertyDescriptors(target, descriptors) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195,7 +227,11 @@ function applyPropertyDescriptors(target, descriptors) {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const callMediaQueryChanges = (changedKeys) => {
+=======
+function callMediaQueryChanges(changedKeys) {
+>>>>>>> upstream/18.0
 =======
 function callMediaQueryChanges(changedKeys) {
 >>>>>>> upstream/18.0
@@ -213,7 +249,11 @@ function callMediaQueryChanges(changedKeys) {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -228,6 +268,7 @@ function callMediaQueryChanges(changedKeys) {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findOriginalDescriptor = (target, property) => {
     for (const od of originalDescriptors) {
         if (od.target === target && od.property === property) {
@@ -237,6 +278,8 @@ const findOriginalDescriptor = (target, property) => {
     return null;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 function findOriginalDescriptor(target, property) {
@@ -249,6 +292,9 @@ function findOriginalDescriptor(target, property) {
     return null;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258,9 +304,15 @@ function findOriginalDescriptor(target, property) {
  * @param {string} property
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @returns {any}
  */
 const findPropertyOwner = (object, property) => {
+=======
+ * @returns {unknown}
+ */
+function findPropertyOwner(object, property) {
+>>>>>>> upstream/18.0
 =======
  * @returns {unknown}
  */
@@ -281,8 +333,11 @@ function findPropertyOwner(object, property) {
     return object;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }
@@ -365,6 +420,9 @@ function makeEventDescriptor(type) {
     };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374,7 +432,11 @@ function makeEventDescriptor(type) {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const matchesQueryPart = (mediaQueryString) => {
+=======
+function matchesQueryPart(mediaQueryString) {
+>>>>>>> upstream/18.0
 =======
 function matchesQueryPart(mediaQueryString) {
 >>>>>>> upstream/18.0
@@ -413,9 +475,12 @@ function matchesQueryPart(mediaQueryString) {
     return mediaQueryString.startsWith("not") ? !match : match;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }
@@ -436,6 +501,9 @@ function mockedAddEventListener(...args) {
 
 /** @type {Document["elementFromPoint"]} */
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -450,6 +518,10 @@ function mockedElementFromPoint(...args) {
  *  incorrectly due to the fixture being behind the body.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @type {Document["elementsFromPoint"]}
+>>>>>>> upstream/18.0
 =======
  * @type {Document["elementsFromPoint"]}
 >>>>>>> upstream/18.0
@@ -485,11 +557,14 @@ function mockedElementsFromPoint(...args) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @type {typeof matchMedia}
  */
 const mockedMatchMedia = (mediaQueryString) => new MockMediaQueryList(mediaQueryString);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 function mockedHref() {
@@ -557,6 +632,9 @@ function restoreTouch(view) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -591,6 +669,7 @@ const DEFAULT_MEDIA_VALUES = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const EVENT_TARGET_PROTOTYPES = new Map(
     [
         // Top level objects
@@ -614,10 +693,14 @@ const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
 =======
 const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
 >>>>>>> upstream/18.0
+=======
+const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
+>>>>>>> upstream/18.0
 
 const R_AND = /\s*\band\b\s*/;
 const R_COMMA = /\s*,\s*/;
 const R_MEDIA_QUERY_PROPERTY = /\(\s*([\w-]+)\s*:\s*(.+)\s*\)/;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -626,12 +709,17 @@ const originalDescriptors = [];
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 
 /** @type {WeakMap<unknown, Record<string, PropertyDescriptor>>} */
 const originalDescriptors = new WeakMap();
 const originalTouchFunctions = getTouchTargets(globalThis).map(getTouchDescriptors);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -646,10 +734,13 @@ let mockTitle = "";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 
 // Mock descriptors
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 // Mock descriptors
@@ -660,6 +751,9 @@ const ANCHOR_MOCK_DESCRIPTORS = {
     },
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -694,7 +788,10 @@ const WINDOW_MOCK_DESCRIPTORS = {
     Date: { value: MockDate, writable: false },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     EventTarget: { value: MockEventTarget },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -736,6 +833,11 @@ const WINDOW_MOCK_DESCRIPTORS = {
 export function cleanupWindow() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const view = getWindow();
+
+>>>>>>> upstream/18.0
 =======
     const view = getWindow();
 
@@ -755,6 +857,7 @@ export function cleanupWindow() {
     // Title
     mockTitle = "";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // Body & head attributes
@@ -778,6 +881,8 @@ export function getTitle() {
     } else {
         return document.title;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // Listeners
@@ -805,6 +910,9 @@ export function getTitle() {
     } else {
         return doc.title;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -812,6 +920,7 @@ export function getTitle() {
 }
 
 export function getViewPortHeight() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const heightDescriptor = findOriginalDescriptor(window, "innerHeight");
@@ -822,6 +931,8 @@ export function getViewPortHeight() {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const heightDescriptor = findOriginalDescriptor(view, "innerHeight");
     if (heightDescriptor) {
@@ -829,6 +940,9 @@ export function getViewPortHeight() {
     } else {
         return view.innerHeight;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -836,6 +950,7 @@ export function getViewPortHeight() {
 }
 
 export function getViewPortWidth() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const titleDescriptor = findOriginalDescriptor(window, "innerWidth");
@@ -846,6 +961,8 @@ export function getViewPortWidth() {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const titleDescriptor = findOriginalDescriptor(view, "innerWidth");
     if (titleDescriptor) {
@@ -853,6 +970,9 @@ export function getViewPortWidth() {
     } else {
         return view.innerWidth;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -870,6 +990,7 @@ export function mockMatchMedia(values) {
 
 /**
  * @param {boolean} setTouch
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @param {typeof globalThis} [window=globalThis]
@@ -909,6 +1030,8 @@ export function patchWindow({ document, window } = globalThis) {
 
     window.addEventListener("resize", () => callMediaQueryChanges());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
  */
@@ -952,6 +1075,9 @@ export function patchWindow(view = getWindow()) {
         applyPropertyDescriptors(view.HTMLAnchorElement.prototype, ANCHOR_MOCK_DESCRIPTORS);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -961,6 +1087,7 @@ export function patchWindow(view = getWindow()) {
  * @param {string} value
  */
 export function setTitle(value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     const titleDescriptor = findOriginalDescriptor(document, "title");
@@ -1027,6 +1154,8 @@ export function watchListeners() {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const doc = getDocument();
     const titleDescriptor = findOriginalDescriptor(doc, "title");
     if (titleDescriptor) {
@@ -1056,6 +1185,9 @@ export function watchListeners() {
             target.addEventListener = addEventListener;
             target.removeEventListener = removeEventListener;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -16,6 +16,11 @@ export class ActivityButton extends Component {
         this.popover = usePopover(ActivityListPopover, { position: "bottom-start" });
         this.buttonRef = useRef("button");
         this.env = useEnv();
+<<<<<<< HEAD
+=======
+        this.defaultActivityStateClass = "text-muted";
+        this.defaultActivityDecorationClass = "fa-clock-o btn-link text-dark";
+>>>>>>> upstream/18.0
     }
 
     get buttonClass() {
@@ -31,7 +36,13 @@ export class ActivityButton extends Component {
                 classes.push("text-success");
                 break;
             default:
+<<<<<<< HEAD
                 classes.push("text-muted");
+=======
+                if (this.defaultActivityStateClass) {
+                    classes.push(this.activityStateClass);
+                }
+>>>>>>> upstream/18.0
                 break;
         }
         switch (this.props.record.data.activity_exception_decoration) {
@@ -49,7 +60,11 @@ export class ActivityButton extends Component {
                     classes.push(activity_type_icon || "fa-tasks");
                     break;
                 }
+<<<<<<< HEAD
                 classes.push("fa-clock-o btn-link text-dark");
+=======
+                classes.push(this.defaultActivityDecorationClass);
+>>>>>>> upstream/18.0
                 break;
             }
         }
