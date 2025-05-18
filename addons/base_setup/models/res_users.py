@@ -7,6 +7,10 @@ from odoo.tools.misc import str2bool
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -32,6 +36,12 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 'email_normalized' not in self._fields:
+            raise UserError(self.env._("You have to install the Discuss application to use this feature."))
+
+>>>>>>> upstream/18.0
 =======
         if 'email_normalized' not in self._fields:
             raise UserError(self.env._("You have to install the Discuss application to use this feature."))

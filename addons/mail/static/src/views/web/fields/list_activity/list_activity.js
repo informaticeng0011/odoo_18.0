@@ -7,9 +7,12 @@ import { registry } from "@web/core/registry";
 import { standardFieldProps } from "@web/views/fields/standard_field_props";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class ListActivity extends Component {
     static components = { ActivityButton };
 =======
+=======
+>>>>>>> upstream/18.0
 class ListActivityButton extends ActivityButton {
     static props = {
         ...ActivityButton.props,
@@ -26,6 +29,9 @@ class ListActivityButton extends ActivityButton {
 
 export class ListActivity extends Component {
     static components = { ActivityButton: ListActivityButton };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // also used in children, in particular in ActivityButton
     static fieldDependencies = [

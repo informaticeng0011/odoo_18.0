@@ -1681,7 +1681,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0

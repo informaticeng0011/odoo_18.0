@@ -222,7 +222,11 @@ class SaleOrder(models.Model):
             points = self._get_real_points_for_coupon(coupon)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for reward in coupon.program_id.reward_ids:
+=======
+            for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
+>>>>>>> upstream/18.0
 =======
             for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
 >>>>>>> upstream/18.0

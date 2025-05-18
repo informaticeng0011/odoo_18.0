@@ -8,7 +8,11 @@ def migrate(cr, version):
     for company in env['res.company'].search([('chart_template', '=', 'my')], order="parent_path"):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         env['account.chart.template'].try_loading('my', company)
+=======
+        env['account.chart.template'].try_loading('my', company, force_create=False)
+>>>>>>> upstream/18.0
 =======
         env['account.chart.template'].try_loading('my', company, force_create=False)
 >>>>>>> upstream/18.0

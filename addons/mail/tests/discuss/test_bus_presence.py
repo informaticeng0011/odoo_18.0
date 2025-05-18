@@ -43,7 +43,11 @@ class TestBusPresence(WebsocketCase, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         websocket = self.websocket_connect(cookie=auth_cookie, timeout=1)
+=======
+        websocket = self.websocket_connect(cookie=auth_cookie)
+>>>>>>> upstream/18.0
 =======
         websocket = self.websocket_connect(cookie=auth_cookie)
 >>>>>>> upstream/18.0

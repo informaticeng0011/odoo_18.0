@@ -272,7 +272,10 @@ class AccountReport(models.Model):
                     expression.formula = copied_formula.strip()  # Remove the spaces introduced for lookahead/lookbehind
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     # Repeat the same logic for the subformula, if it is set.
@@ -282,6 +285,9 @@ class AccountReport(models.Model):
                             copied_subformula = re.sub(f"(?<=\\W){old_code}(?=\\W)", new_code, copied_subformula)
                         expression.subformula = copied_subformula.strip()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +42,11 @@ msgstr "Minimalna dolžina gesla"
 msgid ""
 "Minimum number of characters passwords must contain, set to 0 to disable."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Najmanjše število znakov, ki jih mora vsebovati geslo, nastavite na 0, da ga"
+" onemogočite."
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #. odoo-javascript
@@ -49,6 +62,12 @@ msgid ""
 "\n"
 "Hint: to increase password strength, increase length, use multiple words, and use non-letter characters."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zahtevano: %s\n"
+"\n"
+"Namig: za povečanje moči gesla povečajte dolžino, uporabite več besed in znake, ki niso črke."
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
@@ -62,21 +81,38 @@ msgid ""
 "Your password must contain at least %(minimal_length)d characters and only "
 "has %(current_count)d."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vaše geslo mora vsebovati vsaj %(minimal_length)d znakov in ima samo "
+"%(current_count)d."
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #. odoo-javascript
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s character classes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "najmanj %s razredi znakov"
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #. odoo-javascript
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s characters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "najmanj %s znakov"
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #. odoo-javascript
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s words"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "najmanj %s besed"
+>>>>>>> upstream/18.0

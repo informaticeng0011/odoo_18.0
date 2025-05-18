@@ -776,7 +776,11 @@ msgstr ""
 "                    <!-- CONTACTO DEL ORGANIZADOR -->\n"
 "                    <t t-if=\"event_organizer\">\n"
 "                        <div>\n"
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">¿Tiene preguntas sobre este evento?</span>\n"
+=======
+"                            <span style=\"font-weight:300;margin:10px 0px\">¿Tiene alguna pregunta sobre este evento?</span>\n"
+>>>>>>> upstream/18.0
 "                            <div>Póngase en contacto con el organizador:</div>\n"
 "                            <ul>\n"
 "                                <li><t t-out=\"event_organizer.name or ''\">SuCompañía</t></li>\n"
@@ -801,7 +805,11 @@ msgstr ""
 "                    <!-- PWA MARKETING -->\n"
 "                    <t t-if=\"is_online\">\n"
 "                        <div>\n"
+<<<<<<< HEAD
 "                            <strong>Obtén la mejor experiencia móvil.</strong>\n"
+=======
+"                            <strong>Obtenga la mejor experiencia móvil.</strong>\n"
+>>>>>>> upstream/18.0
 "                            <a href=\"/event\">Instale nuestra aplicación móvil</a>\n"
 "                        </div>\n"
 "                    </t>\n"

@@ -326,7 +326,10 @@ class TestWorkEntry(TestWorkEntryBase):
         self.assertEqual(len(result_entries), 4, 'A shift should be created for each attendance')
         self.assertEqual(work_entry_types, [entry_type_1, entry_type_1, entry_type_1, entry_type_2])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_work_entry_duration(self):
         """ Test the duration of a work entry is rounded to the nearest minute """
@@ -339,4 +342,7 @@ class TestWorkEntry(TestWorkEntryBase):
             'work_entry_type_id': self.work_entry_type.id,
         })
         self.assertEqual(work_entry.duration, 1, "The duration should be 1 hour")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

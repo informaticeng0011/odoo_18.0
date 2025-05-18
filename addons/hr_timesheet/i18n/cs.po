@@ -27,6 +27,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -126,7 +130,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
@@ -236,13 +244,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_timesheet/static/src/components/time_hour_field/time_hour_field.js:0
 msgid "%(hours)sh"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-javascript
 #: code:addons/hr_timesheet/static/src/components/time_hour_field/time_hour_field.js:0
 msgid "%(hours)sh%(minutes)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh%(minutes)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #. odoo-python
@@ -333,6 +349,21 @@ msgid ""
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not has_timesheet\">\n"
+"                        Nemůžete smazat zaměstnance, kteří mají pracovní výkazy.\n"
+"                        <span invisible=\"not has_active_employee\">\n"
+"                            Můžete buď archivovat tyto zaměstnance, nebo nejprve smazat všechny jejích pracovní výkazy.\n"
+"                        </span>\n"
+"                        <span invisible=\"has_active_employee\" groups=\"hr_timesheet.group_hr_timesheet_approver\">\n"
+"                            Vymažte prosím nejprve všechny jejich časové výkazy.\n"
+"                        </span>\n"
+"                    </span>\n"
+"                    <span invisible=\"has_timesheet\">\n"
+"                        Jste si jisti, že chcete smazat všechny tyto zaměstnance?\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
@@ -725,7 +756,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má přístup manažera oddělení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má přístup manažera oddělení"
 >>>>>>> upstream/18.0

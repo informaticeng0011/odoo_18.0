@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jeffery CHEN <jeffery9@gmail.com>, 2024
 =======
 >>>>>>> upstream/18.0
@@ -130,11 +131,20 @@
 =======
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Chill Liao <chill421@qq.com>, 2024
+# Raymond Yu <cl_yu@hotmail.com>, 2024
+# Wil Odoo, 2025
+# 何彬 <vnsoft.he@gmail.com>, 2025
+# Jeffery CHEN <jeffery9@gmail.com>, 2025
+# Chloe Wang, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -205,6 +215,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Chloe Wang, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1297,7 +1312,11 @@ msgid "Archive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "存档"
+=======
+msgstr "归档"
+>>>>>>> upstream/18.0
 =======
 msgstr "归档"
 >>>>>>> upstream/18.0
@@ -1391,7 +1410,11 @@ msgid "Are you sure that you want to archive this record?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您确定要存档此记录吗？"
+=======
+msgstr "您确定要归档此记录吗？"
+>>>>>>> upstream/18.0
 =======
 msgstr "您确定要归档此记录吗？"
 >>>>>>> upstream/18.0
@@ -3035,6 +3058,15 @@ msgstr "企业"
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
+msgid "Entry Count"
+msgstr "参赛人数"
+
+#. module: web
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/file_upload/file_upload_service.js:0
 msgid "Error"
 msgstr "错误"
@@ -3654,6 +3686,16 @@ msgstr "如果选中该选项，用户将根本无法通过自动完成下拉菜
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+#, python-format
+msgid "If true, non-literals are accepted"
+msgstr ""
+
+#. module: web
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/file_viewer/file_viewer.xml:0
 #: code:addons/web/static/src/views/fields/attachment_image/attachment_image_field.xml:0
 #: code:addons/web/static/src/views/fields/image/image_field.js:0
@@ -4961,6 +5003,10 @@ msgstr "保持原样"
 #: code:addons/web/static/src/views/kanban/kanban_header.js:0
 #: code:addons/web/static/src/views/list/list_renderer.js:0
 #: code:addons/web/static/src/views/pivot/pivot_model.js:0
+<<<<<<< HEAD
+=======
+#: code:addons/web/static/src/webclient/debug/profiling/profiling_item.xml:0
+>>>>>>> upstream/18.0
 msgid "None"
 msgstr "无"
 
@@ -6824,6 +6870,23 @@ msgstr "对于XLSX文件，此单元格的内容太长（超过%s个字符）。
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
+=======
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+#, python-format
+msgid "The domain involves non-literals. Their evaluation might fail."
+msgstr ""
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/fields/domain/domain_field.js:0
+#, python-format
+msgid "The domain should not involve non-literals"
+msgstr ""
+
+#. module: web
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid ""
@@ -8078,7 +8141,10 @@ msgstr "外星怪物"
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/tree_editor/tree_editor.xml:0
 msgid "all"
 msgstr "所有"
@@ -18550,12 +18616,15 @@ msgstr "新选项卡"
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/web/static/src/views/view_dialogs/export_data_dialog.xml:0
 msgid "new_template"
 msgstr "新模板"
 
 #. module: web
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "news"
 msgstr "新闻"
@@ -22065,12 +22134,15 @@ msgstr "所选记录,"
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "self"
 msgstr "自身"
 
 #. module: web
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "selfie"
 msgstr "自拍"
@@ -26657,6 +26729,7 @@ msgstr "僵尸"
 
 #. module: web
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/web/static/src/views/view_components/column_progress.xml:0
 msgid "{{ bar.count }} {{ bar.string }}"
 msgstr "{{ bar.count }} {{ bar.string }}"
@@ -26669,6 +26742,8 @@ msgstr "{{ relatedFieldName }}..."
 
 #. module: web
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.xml:0
 msgid "— press"
 msgstr "按下"

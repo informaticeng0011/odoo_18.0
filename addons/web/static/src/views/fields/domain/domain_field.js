@@ -11,7 +11,11 @@ import { standardFieldProps } from "../standard_field_props";
 import { useBus, useService, useOwnedDialogs } from "@web/core/utils/hooks";
 import { useGetTreeDescription, useMakeGetFieldDef } from "@web/core/tree_editor/utils";
 import { useGetDefaultLeafDomain } from "@web/core/domain_selector/utils";
+<<<<<<< HEAD
 import { treeFromDomain } from "@web/core/tree_editor/condition_tree";
+=======
+import { domainContainsExpresssions, treeFromDomain } from "@web/core/tree_editor/condition_tree";
+>>>>>>> upstream/18.0
 import { useRecordObserver } from "@web/model/relational_model/utils";
 
 export class DomainField extends Component {
@@ -25,16 +29,28 @@ export class DomainField extends Component {
         editInDialog: { type: Boolean, optional: true },
         resModel: { type: String, optional: true },
         isFoldable: { type: Boolean, optional: true },
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
     };
     static defaultProps = {
         editInDialog: false,
         isFoldable: false,
+<<<<<<< HEAD
+=======
+        allowExpressions: false,
+>>>>>>> upstream/18.0
     };
 
     setup() {
         this.orm = useService("orm");
         this.getDomainTreeDescription = useGetTreeDescription();
         this.makeGetFieldDef = useMakeGetFieldDef();
+<<<<<<< HEAD
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
         this.getDefaultLeafDomain = useGetDefaultLeafDomain();
         this.addDialog = useOwnedDialogs();
 
@@ -84,6 +100,16 @@ export class DomainField extends Component {
         });
     }
 
+<<<<<<< HEAD
+=======
+    allowExpressions(props) {
+        return (
+            props.allowExpressions ||
+            ["base.automation", "ir.filters"].includes(props.record.resModel)
+        );
+    }
+
+>>>>>>> upstream/18.0
     getContext(props = this.props) {
         return props.context;
     }
@@ -95,6 +121,23 @@ export class DomainField extends Component {
     getEvaluatedDomain(props = this.props) {
         const domainStringRepr = this.getDomain(props);
         const evalContext = this.getContext(props);
+<<<<<<< HEAD
+=======
+        if (domainContainsExpresssions(domainStringRepr)) {
+            const allowExpressions = this.allowExpressions(props);
+            if (domainStringRepr !== this.lastDomainChecked) {
+                this.lastDomainChecked = domainStringRepr;
+                this.notification.add(
+                    allowExpressions
+                        ? _t("The domain involves non-literals. Their evaluation might fail.")
+                        : _t("The domain should not involve non-literals")
+                );
+            }
+            if (!allowExpressions) {
+                return { isInvalid: true };
+            }
+        }
+>>>>>>> upstream/18.0
         try {
             const domain = new Domain(domainStringRepr).toList(evalContext);
             // Here, there is still some incertitude on the domain validity.
@@ -276,6 +319,15 @@ export const domainField = {
             help: _t("Display the domain using facets"),
         },
         {
+<<<<<<< HEAD
+=======
+            label: _t("Allow expressions"),
+            name: "allow_expressions",
+            type: "boolean",
+            help: _t("If true, non-literals are accepted"),
+        },
+        {
+>>>>>>> upstream/18.0
             label: _t("Model"),
             name: "model",
             type: "string",
@@ -287,6 +339,10 @@ export const domainField = {
         return {
             editInDialog: options.in_dialog,
             isFoldable: options.foldable,
+<<<<<<< HEAD
+=======
+            allowExpressions: options.allow_expressions,
+>>>>>>> upstream/18.0
             resModel: options.model,
             context: dynamicInfo.context,
         };

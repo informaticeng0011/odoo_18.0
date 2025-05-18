@@ -10,6 +10,10 @@ from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_compare
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_compare
 >>>>>>> upstream/18.0
@@ -55,7 +59,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not subcontract_production:
+=======
+        rounding = self.product_id.uom_id.rounding
+        if not subcontract_production or float_compare(qty, 0, precision_rounding=rounding) < 0:
+>>>>>>> upstream/18.0
 =======
         rounding = self.product_id.uom_id.rounding
         if not subcontract_production or float_compare(qty, 0, precision_rounding=rounding) < 0:

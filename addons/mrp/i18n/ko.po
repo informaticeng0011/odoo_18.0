@@ -29,9 +29,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sarah Park, 2024
 # Wil Odoo, 2024
 # Daye Jeong, 2025
+=======
+# Wil Odoo, 2024
+# Daye Jeong, 2025
+# Sarah Park, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2024
 # Daye Jeong, 2025
@@ -167,6 +173,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -272,6 +279,11 @@ msgstr ""
 "Last-Translator: Sarah Park, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: Sarah Park, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -2279,6 +2291,10 @@ msgid "Disassembly Order"
 msgstr "분해 지시"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view_simplified
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
@@ -6474,7 +6490,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
@@ -6583,7 +6603,11 @@ msgid "Warnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
@@ -7339,6 +7363,7 @@ msgstr "분할"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "작업지시"
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -7359,3 +7384,5 @@ msgstr "{{ props.isFolded ? 'Unfold' : 'Fold' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
+=======
+>>>>>>> upstream/18.0

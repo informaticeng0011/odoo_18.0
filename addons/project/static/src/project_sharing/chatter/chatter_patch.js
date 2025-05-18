@@ -14,7 +14,10 @@ patch(Chatter.prototype, {
         useSubEnv({
             projectSharingId: this.props.projectSharingId,
 <<<<<<< HEAD
+<<<<<<< HEAD
             inFrontendPortalChatter: true,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         });

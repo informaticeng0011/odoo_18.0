@@ -311,8 +311,26 @@ class SessionExpiredException(Exception):
     pass
 
 
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
+=======
+def content_disposition(filename, disposition_type='attachment'):
+    """
+    Craft a ``Content-Disposition`` header, see :rfc:`6266`.
+
+    :param filename: The name of the file, should that file be saved on
+        disk by the browser.
+    :param disposition_type: Tell the browser what to do with the file,
+        either ``"attachment"`` to save the file on disk,
+        either ``"inline"`` to display the file.
+    """
+    if disposition_type not in ('attachment', 'inline'):
+        e = f"Invalid disposition_type: {disposition_type!r}"
+        raise ValueError(e)
+    return "{}; filename*=UTF-8''{}".format(
+        disposition_type,
+>>>>>>> upstream/18.0
         url_quote(filename, safe='', unsafe='()<>@,;:"/[]?={}\\*\'%') # RFC6266
     )
 
@@ -1684,7 +1702,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -2273,7 +2295,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

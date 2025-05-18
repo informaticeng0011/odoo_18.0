@@ -12,7 +12,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2024
+=======
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 =======
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
@@ -42,6 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -75,6 +80,11 @@ msgstr ""
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
@@ -181,7 +191,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'sms'\">SMSテキストメッセージは待機中で、まもなく送信されます。</span>"
+=======
+"'sms'\">SMSメッセージは送信予約済みで、まもなく送信されます。</span>"
+>>>>>>> upstream/18.0
 =======
 "'sms'\">SMSメッセージは送信予約済みで、まもなく送信されます。</span>"
 >>>>>>> upstream/18.0
@@ -995,6 +1009,14 @@ msgid "Send a sample SMS for testing purpose to the numbers below."
 msgstr "テスト用のサンプルSMSを以下の番号に送信。"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
+msgid "Send to all"
+msgstr "全員に送信"
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_server
 msgid "Server Error"
 msgstr "サーバーエラー"

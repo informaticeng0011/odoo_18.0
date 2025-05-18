@@ -14,7 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
@@ -2057,6 +2061,10 @@ msgid "Disassembly Order"
 msgstr "Заказ на разборку"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view_simplified
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
@@ -7067,6 +7075,7 @@ msgstr "сплит"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "порядок труда"
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -7087,3 +7096,5 @@ msgstr "{{ props.isFolded ? 'Развернуть' : 'Свернуть' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Развернуть' : 'Свернуть' }}"
+=======
+>>>>>>> upstream/18.0

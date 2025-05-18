@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -74,6 +75,10 @@
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
 # Vojtěch Olšan, 2025
+=======
+# Vojtěch Olšan, 2025
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 =======
 # Vojtěch Olšan, 2025
 # Marta Wacławek, 2025
@@ -111,6 +116,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -144,6 +150,11 @@ msgstr ""
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
@@ -1825,7 +1836,11 @@ msgid "Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uzávěrka"
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín"
 >>>>>>> upstream/18.0
@@ -2469,7 +2484,11 @@ msgid "History data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Údaje o historii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Údaje o historii"
 >>>>>>> upstream/18.0
@@ -2506,7 +2525,11 @@ msgid "History metadata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadata historie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadata historie"
 >>>>>>> upstream/18.0
@@ -6001,12 +6024,15 @@ msgstr "označit úkol jako dokončený."
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
 msgstr "dílčí úkoly)"
@@ -6088,6 +6114,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.project_id.company_id.name or user.env.company.name }}: Anketa "
+"spokojenosti"
+>>>>>>> upstream/18.0
 =======
 "{{ object.project_id.company_id.name or user.env.company.name }}: Anketa "
 "spokojenosti"

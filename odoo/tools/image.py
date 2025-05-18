@@ -121,7 +121,11 @@ class ImageProcess:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise UserError(_lt("Image size excessive, uploaded images must be smaller than %s million pixels.", str(IMAGE_MAX_RESOLUTION / 1e6)))
+=======
+                raise UserError(_lt("Too large image (above %sMpx), reduce the image size.", str(IMAGE_MAX_RESOLUTION / 1e6)))
+>>>>>>> upstream/18.0
 =======
                 raise UserError(_lt("Too large image (above %sMpx), reduce the image size.", str(IMAGE_MAX_RESOLUTION / 1e6)))
 >>>>>>> upstream/18.0

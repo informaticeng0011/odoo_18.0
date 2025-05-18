@@ -22,6 +22,10 @@ class AccountMove(models.Model):
     l10n_jo_edi_state = fields.Selection(
         selection=[('to_send', 'To Send'), ('sent', 'Sent')],
         string="JoFotara State",
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
         copy=False)
     l10n_jo_edi_error = fields.Text(
         string="JoFotara Error",
@@ -57,6 +61,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    reversed_entry_id = fields.Many2one(tracking=True)
+>>>>>>> upstream/18.0
 =======
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
@@ -102,10 +110,21 @@ class AccountMove(models.Model):
             if invoice.l10n_jo_edi_is_needed and not invoice.l10n_jo_edi_uuid:
                 invoice.l10n_jo_edi_uuid = uuid.uuid4()
 
+<<<<<<< HEAD
     def _compute_l10n_jo_edi_computed_xml(self):
         for invoice in self:
             xml_content = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
             invoice.l10n_jo_edi_computed_xml = base64.b64encode(xml_content)
+=======
+    @api.depends("state", "l10n_jo_edi_is_needed")
+    def _compute_l10n_jo_edi_computed_xml(self):
+        for invoice in self:
+            if invoice.state == 'posted' and invoice.l10n_jo_edi_is_needed:
+                xml_content = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
+                invoice.l10n_jo_edi_computed_xml = base64.b64encode(xml_content)
+            else:
+                invoice.l10n_jo_edi_computed_xml = False
+>>>>>>> upstream/18.0
 
     def download_l10n_jo_edi_computed_xml(self):
         if error_message := self._l10n_jo_validate_config() or self._l10n_jo_validate_fields():
@@ -209,7 +228,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0
@@ -356,6 +379,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.move_type == 'out_refund' and not self.reversed_entry_id:
+            error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')
+
+>>>>>>> upstream/18.0
 =======
         if self.move_type == 'out_refund' and not self.reversed_entry_id:
             error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')

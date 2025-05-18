@@ -50,6 +50,10 @@
                             debugUpdate.bind="debugUpdate"
                             update.bind="update"
                             isDebugMode="!!env.debug"
+<<<<<<< HEAD
+=======
+                            allowExpressions="allowExpressions(props)"
+>>>>>>> upstream/18.0
                             className="props.readonly ? 'o_read_mode' : 'o_edit_mode'"
                         />
                     </div>

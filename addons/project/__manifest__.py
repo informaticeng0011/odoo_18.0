@@ -214,6 +214,10 @@
             'project/static/src/components/project_many2one_field/*',
             'project/static/src/views/project_task_form/*.scss',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'project/static/src/views/project_task_kanban/*.scss',
+>>>>>>> upstream/18.0
 =======
             'project/static/src/views/project_task_kanban/*.scss',
 >>>>>>> upstream/18.0

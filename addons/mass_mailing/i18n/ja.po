@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
@@ -500,7 +504,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span name=\"scheduled_text\">Eメールはキューに入っており、間もなく送信されます。</span>"
+=======
+msgstr "<span name=\"scheduled_text\">メールは送信予約済みで、まもなく送信されます。</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span name=\"scheduled_text\">メールは送信予約済みで、まもなく送信されます。</span>"
 >>>>>>> upstream/18.0
@@ -786,7 +794,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -2612,7 +2624,11 @@ msgid "In Queue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "キュー済"
+=======
+msgstr "送信予約済"
+>>>>>>> upstream/18.0
 =======
 msgstr "送信予約済"
 >>>>>>> upstream/18.0
@@ -2912,7 +2928,11 @@ msgid "Mail Marketing: Process queue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "メールマーケティング: プロセスキュー"
+=======
+msgstr "メールマーケティング: 送信予約済みメッセージの処理"
+>>>>>>> upstream/18.0
 =======
 msgstr "メールマーケティング: 送信予約済みメッセージの処理"
 >>>>>>> upstream/18.0
@@ -3724,7 +3744,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "こうしたメールを送信すると、受信トレイに素敵に表示され、大きな話題を呼ぶことができるでしょう。"
+=======
+msgstr "これらのメールを送信することで、受信者の関心を引き、良い反響が期待できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "これらのメールを送信することで、受信者の関心を引き、良い反響が期待できます。"
 >>>>>>> upstream/18.0
@@ -4420,6 +4444,14 @@ msgid "Send test"
 msgstr "送信テスト"
 
 #. module: mass_mailing
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
+msgid "Send to all"
+msgstr "全員に送信"
+
+#. module: mass_mailing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_mailing__state__sending
 msgid "Sending"
 msgstr "送信中"

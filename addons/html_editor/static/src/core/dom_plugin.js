@@ -557,12 +557,18 @@ export class DomPlugin extends Plugin {
             newCandidate = baseContainer;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const { commonAncestorContainer } = this.dependencies.selection.getEditableSelection();
         // Clean before preserving cursors otherwise the saved cursors might
         // reference a node that will be removed when setTagName eventually
         // calls clean of its own.
         this.dispatchTo("clean_handlers", closestElement(commonAncestorContainer));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const cursors = this.dependencies.selection.preserveSelection();
         const selectedBlocks = [...this.dependencies.selection.getTraversedBlocks()];

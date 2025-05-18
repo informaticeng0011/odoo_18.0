@@ -307,6 +307,12 @@ class HrEmployeeBase(models.AbstractModel):
             calendar_periods_by_employee[employee] = [(start, stop, calendar)]
         return calendar_periods_by_employee
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def get_avatar_card_data(self, fields):
+        return self._read_format(fields)
+>>>>>>> upstream/18.0
 =======
 
     def get_avatar_card_data(self, fields):

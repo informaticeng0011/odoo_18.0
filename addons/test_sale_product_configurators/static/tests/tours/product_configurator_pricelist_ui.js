@@ -55,6 +55,7 @@ registry.category("web_tour.tours").add('sale_product_configurator_pricelist_tou
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         configuratorTourUtils.addOptionalProduct("Conference Chair"),
         configuratorTourUtils.increaseProductQuantity("Conference Chair"),
         configuratorTourUtils.addOptionalProduct("Chair floor protection"),
@@ -62,11 +63,16 @@ registry.category("web_tour.tours").add('sale_product_configurator_pricelist_tou
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         configuratorTourUtils.addOptionalProduct("Conference Chair (TEST)"),
         configuratorTourUtils.increaseProductQuantity("Conference Chair (TEST)"),
         configuratorTourUtils.addOptionalProduct("Chair floor protection (TEST)"),
         configuratorTourUtils.increaseProductQuantity("Chair floor protection (TEST)"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

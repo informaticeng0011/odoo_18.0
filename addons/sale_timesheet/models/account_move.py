@@ -118,9 +118,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_range_dates(self):
         # A method that will be overridden in sale_subscription_timesheet
         # to set the start and end dates for the subscription period
+=======
+    def _get_range_dates(self, order):
+        # A method that can be overridden
+        # to set the start and end dates according to order values
+>>>>>>> upstream/18.0
 =======
     def _get_range_dates(self, order):
         # A method that can be overridden

@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http
 from odoo.tests.common import HttpCase
 from odoo.tests import tagged
@@ -34,6 +35,8 @@ class TestFreeProductReward(HttpCase):
 
         self.program = self.env['loyalty.program'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo import Command, http
@@ -72,6 +75,9 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
 
         cls.program = cls.env['loyalty.program'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86,6 +92,7 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
                 'reward_point_mode': 'order',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_ids': self.sofa,
             })],
             'reward_ids': [(0, 0, {
@@ -94,12 +101,17 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'product_ids': cls.sofa,
             })],
             'reward_ids': [(0, 0, {
                 'reward_type': 'product',
                 'reward_product_id': cls.carpet.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108,6 +120,7 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
             })],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         self.steve = self.env['res.partner'].create({
@@ -123,12 +136,17 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.empty_order = cls.env['sale.order'].create({
             'partner_id': cls.partner_demo.id,
         })
 
         installed_modules = set(cls.env['ir.module.module'].search([
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153,7 +171,10 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
             self.assertEqual(carpet_line.product_uom_qty, 1, "Should have only 1 qty for carpet as non reward")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -181,6 +202,9 @@ class TestFreeProductReward(HttpCaseWithUserDemo):
                 "Rewards should no longer be claimable if already claimed",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

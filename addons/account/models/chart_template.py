@@ -267,8 +267,13 @@ class AccountChartTemplate(models.AbstractModel):
         if 'res.company' in data:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
 
+=======
+            data['res.company'][company.id].clear()
+            data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
+>>>>>>> upstream/18.0
 =======
             data['res.company'][company.id].clear()
             data['res.company'][company.id].setdefault('anglo_saxon_accounting', company.anglo_saxon_accounting)
@@ -348,6 +353,7 @@ class AccountChartTemplate(models.AbstractModel):
                         continue
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # Only add tax mappings containing new taxes
                     if old_tax_ids := values.pop('tax_ids', []):
                         new_tax_ids = []
@@ -361,6 +367,8 @@ class AccountChartTemplate(models.AbstractModel):
                         if new_tax_ids:
                             values['tax_ids'] = new_tax_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     # Only add accounts and taxes mappings containing new records
@@ -382,6 +390,9 @@ class AccountChartTemplate(models.AbstractModel):
                             if new_ids:
                                 values[f'{model}_ids'] = new_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -491,7 +502,11 @@ class AccountChartTemplate(models.AbstractModel):
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'account_fiscal_country_id' in data['res.company'][company.id]:
+=======
+        if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
+>>>>>>> upstream/18.0
 =======
         if 'account_fiscal_country_id' in data.get('res.company', {}).get(company.id, {}):
 >>>>>>> upstream/18.0
@@ -806,6 +821,7 @@ class AccountChartTemplate(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _setup_utility_bank_accounts(self, template_code, company, template_data):
         """Define basic bank accounts for the company.
 
@@ -821,11 +837,16 @@ class AccountChartTemplate(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_accounts_data_values(self, company, template_data, bank_prefix='', code_digits=0):
         bank_prefix = bank_prefix or company.bank_account_code_prefix
         code_digits = code_digits or int(template_data.get('code_digits', 6))
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -870,7 +891,10 @@ class AccountChartTemplate(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _setup_utility_bank_accounts(self, template_code, company, template_data):
@@ -886,6 +910,9 @@ class AccountChartTemplate(models.AbstractModel):
         code_digits = int(template_data.get('code_digits', 6))
         accounts_data = self._get_accounts_data_values(company, template_data, bank_prefix=bank_prefix, code_digits=code_digits)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

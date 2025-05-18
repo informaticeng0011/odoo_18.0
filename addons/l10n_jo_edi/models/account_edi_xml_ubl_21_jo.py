@@ -1,4 +1,8 @@
 from functools import wraps
+<<<<<<< HEAD
+=======
+from lxml import etree
+>>>>>>> upstream/18.0
 from types import SimpleNamespace
 
 from odoo import models
@@ -104,7 +108,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return [taxes_vals['base_line']]
 
     def _get_payment_method_code(self, invoice):
+<<<<<<< HEAD
         return PAYMENT_CODES_MAP[invoice.company_id.l10n_jo_edi_taxpayer_type]['receivable']
+=======
+        return PAYMENT_CODES_MAP.get(invoice.company_id.l10n_jo_edi_taxpayer_type, {}).get('receivable', '')
+>>>>>>> upstream/18.0
 
     ########################################################
     # overriding vals methods of account_edi_xml_ubl_20 file
@@ -117,8 +125,13 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 
     def _get_partner_party_identification_vals_list(self, partner):
         return [{
+<<<<<<< HEAD
             'id_attrs': {'schemeID': 'TN' if not partner.country_code or partner.country_code == 'JO' else 'PN'},
             'id': partner.vat if partner.vat and partner.vat != '/' else '',
+=======
+            'id_attrs': {'schemeID': 'TN' if partner.country_code == 'JO' else 'PN'},
+            'id': partner.vat if partner.vat and partner.vat != '/' else 'NO_VAT',
+>>>>>>> upstream/18.0
         }]
 
     def _get_partner_address_vals(self, partner):
@@ -163,7 +176,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return [{
                 'payment_means_code': 10,
                 'payment_means_code_attrs': {'listID': "UN/ECE 4461"},
+<<<<<<< HEAD
                 'instruction_note': invoice.ref.replace('/', '_') if invoice.ref else '',
+=======
+                'instruction_note': (invoice.ref or '').replace('/', '_'),
+>>>>>>> upstream/18.0
             }]
         else:
             return []
@@ -207,7 +224,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 
     def _get_invoice_line_item_vals(self, line, taxes_vals):
         product = line.product_id
+<<<<<<< HEAD
         description = line.name and line.name.replace('\n', ', ')
+=======
+        description = (line.name or '').replace('\n', ', ')
+>>>>>>> upstream/18.0
         return {
             'name': product.name or description,
         }
@@ -316,11 +337,16 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def get_decimal_places(number):
             return len(f'{float(number)}'.split('.')[1])
 
         rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
         decimal_places = get_decimal_places(rounded_amount)
+=======
+        rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
+        decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0
+>>>>>>> upstream/18.0
 =======
         rounded_amount = float_repr(self._round_max_dp(amount), JO_MAX_DP).rstrip('0').rstrip('.')
         decimal_places = len(rounded_amount.split('.')[1]) if '.' in rounded_amount else 0
@@ -382,7 +408,11 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
             return {}
 
         return {
+<<<<<<< HEAD
             'id': invoice.reversed_entry_id.name.replace('/', '_'),
+=======
+            'id': (invoice.reversed_entry_id.name or '').replace('/', '_'),
+>>>>>>> upstream/18.0
             'uuid': invoice.reversed_entry_id.l10n_jo_edi_uuid,
             'document_description': self.format_float(abs(invoice.reversed_entry_id.amount_total_signed), self._get_currency_decimal_places()),
         }
@@ -441,3 +471,20 @@ class AccountEdiXmlUBL21JO(models.AbstractModel):
         })
 
         return vals
+<<<<<<< HEAD
+=======
+
+    def _export_invoice(self, invoice):
+        # EXTENDS account.edi.xml.ubl_21
+        # _export_invoice normally cleans up the xml to remove empty nodes.
+        # However, in the JO UBL version, we always want the PartyIdentification with ID nodes, even if empty.
+        # We'll replace the empty value by a dummy one so that the node doesn't get cleaned up and remove its content after the file generation.
+        xml, errors = super()._export_invoice(invoice)
+        xml_root = etree.fromstring(xml)
+        party_identification_id_elements = xml_root.findall('.//cac:PartyIdentification/cbc:ID', namespaces=xml_root.nsmap)
+        for element in party_identification_id_elements:
+            if element.text == 'NO_VAT':
+                element.text = ''
+        # method='html' is used to keep the element un-shortened ("<a></a>" instead of <a/>)
+        return etree.tostring(xml_root, method='html'), errors
+>>>>>>> upstream/18.0

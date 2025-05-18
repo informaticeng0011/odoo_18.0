@@ -197,7 +197,10 @@ describe("to heading 1", () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("should re-selects link correctly after changing font style", async () => {
         const { editor, el } = await setupEditor(
@@ -213,6 +216,9 @@ describe("to heading 1", () => {
             `<h1>[\ufeff<a href="http://test.com">\ufefftest.com\ufeff</a>\ufeff]</h1>`
         );
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

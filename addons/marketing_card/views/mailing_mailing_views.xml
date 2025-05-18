@@ -45,6 +45,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <xpath expr="//header//button[@name='action_set_favorite']" position="attributes">
+                <attribute name="invisible" separator=" or " add="card_campaign_id"/>
+            </xpath>
+>>>>>>> upstream/18.0
 =======
             <xpath expr="//header//button[@name='action_set_favorite']" position="attributes">
                 <attribute name="invisible" separator=" or " add="card_campaign_id"/>

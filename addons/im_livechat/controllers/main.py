@@ -11,6 +11,10 @@ from odoo.http import request
 from odoo.tools import replace_exceptions
 from odoo.addons.base.models.assetsbundle import AssetsBundle
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_qweb_fields import nl2br
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_qweb_fields import nl2br
 >>>>>>> upstream/18.0
@@ -198,7 +202,10 @@ class LivechatController(http.Controller):
 
     def _post_feedback_message(self, channel, rating, reason):
 <<<<<<< HEAD
+<<<<<<< HEAD
         reason = Markup("<br>" + re.sub(r'\r\n|\r|\n', "<br>", reason) if reason else "")
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         body = Markup(
@@ -209,7 +216,11 @@ class LivechatController(http.Controller):
             "rating": _("Rating"),
             "rating_url": rating.rating_image_url,
 <<<<<<< HEAD
+<<<<<<< HEAD
             "reason": reason,
+=======
+            "reason": nl2br("\n" + reason) if reason else "",
+>>>>>>> upstream/18.0
 =======
             "reason": nl2br("\n" + reason) if reason else "",
 >>>>>>> upstream/18.0

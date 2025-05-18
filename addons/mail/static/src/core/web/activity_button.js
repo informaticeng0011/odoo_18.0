@@ -17,6 +17,11 @@ export class ActivityButton extends Component {
         this.buttonRef = useRef("button");
         this.env = useEnv();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.defaultActivityStateClass = "text-muted";
+        this.defaultActivityDecorationClass = "fa-clock-o btn-link text-dark";
+>>>>>>> upstream/18.0
 =======
         this.defaultActivityStateClass = "text-muted";
         this.defaultActivityDecorationClass = "fa-clock-o btn-link text-dark";
@@ -37,7 +42,13 @@ export class ActivityButton extends Component {
                 break;
             default:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 classes.push("text-muted");
+=======
+                if (this.defaultActivityStateClass) {
+                    classes.push(this.activityStateClass);
+                }
+>>>>>>> upstream/18.0
 =======
                 if (this.defaultActivityStateClass) {
                     classes.push(this.activityStateClass);
@@ -61,7 +72,11 @@ export class ActivityButton extends Component {
                     break;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
                 classes.push("fa-clock-o btn-link text-dark");
+=======
+                classes.push(this.defaultActivityDecorationClass);
+>>>>>>> upstream/18.0
 =======
                 classes.push(this.defaultActivityDecorationClass);
 >>>>>>> upstream/18.0

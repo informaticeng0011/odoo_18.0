@@ -1119,6 +1119,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
             {'qty_producing': 10.0, 'product_qty': 10.0, 'state': 'to_close'},
         ])
 
+<<<<<<< HEAD
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -1173,6 +1174,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+=======
+>>>>>>> upstream/18.0
     def test_change_partner_subcontracting_location(self):
         """On creating a subcontrating picking, the destination location of the picking is equal to
         the subcontracting location of the contact if specified. Otherwise, it will be equal to the

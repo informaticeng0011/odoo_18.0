@@ -81,7 +81,11 @@ class MailRenderMixin(models.AbstractModel):
             parsed = urls.url_parse(original_url, scheme='http')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if blacklist and any(item in parsed.path for item in blacklist):
+=======
+            if blacklist and any(re.search(item + r'([#?/]|$)', parsed.path) for item in blacklist):
+>>>>>>> upstream/18.0
 =======
             if blacklist and any(re.search(item + r'([#?/]|$)', parsed.path) for item in blacklist):
 >>>>>>> upstream/18.0

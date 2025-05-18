@@ -2,9 +2,12 @@
 <templates xml:space="preserve">
     <t t-name="mail.ListActivity">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <ActivityButton record="props.record"/>
         <span class="o-mail-ListActivity-summary" t-out="summaryText"/>
 =======
+=======
+>>>>>>> upstream/18.0
         <ActivityButton record="props.record">
             <span class="o-mail-ListActivity-summary" t-out="summaryText"/>
         </ActivityButton>
@@ -17,6 +20,9 @@
                 <t t-slot="default"/>
             </button>
         </xpath>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </t>
 </templates>

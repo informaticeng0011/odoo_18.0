@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2025\n"
 "Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
@@ -1688,7 +1692,11 @@ msgid "Cost based on cost projection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Biaya berdasarkan proyeksi biasa"
+=======
+msgstr "Biaya berdasarkan proyeksi biaya"
+>>>>>>> upstream/18.0
 =======
 msgstr "Biaya berdasarkan proyeksi biaya"
 >>>>>>> upstream/18.0
@@ -2148,6 +2156,10 @@ msgid "Disassembly Order"
 msgstr "Order Pembongkaran"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view_simplified
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
@@ -7130,6 +7142,7 @@ msgstr "pisah"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "SPK"
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -7150,3 +7163,5 @@ msgstr "{{ props.isFolded ? 'Unfold' : 'Fold' }}"
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
+=======
+>>>>>>> upstream/18.0

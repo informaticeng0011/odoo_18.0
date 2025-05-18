@@ -59,6 +59,10 @@ import { waitUntil } from "./time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  interactive?: boolean;
+>>>>>>> upstream/18.0
 =======
  *  interactive?: boolean;
 >>>>>>> upstream/18.0
@@ -114,6 +118,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    window,
+>>>>>>> upstream/18.0
 =======
     window,
 >>>>>>> upstream/18.0
@@ -326,7 +334,10 @@ const isElement = (object) => object?.nodeType === Node.ELEMENT_NODE;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -338,6 +349,9 @@ const isNodeInteractive = (node) => getStyle(node).pointerEvents !== "none";
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -596,6 +610,7 @@ const parseXml = (xmlString, type) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = parser.parseFromString(
         `<${wrapperTag}>${xmlString}</${wrapperTag}>`,
         `text/${type}`
@@ -610,6 +625,8 @@ const parseXml = (xmlString, type) => {
     }
     return document.getElementsByTagName(wrapperTag)[0].childNodes;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -629,6 +646,9 @@ const parseXml = (xmlString, type) => {
     return doc.getElementsByTagName(wrapperTag)[0].childNodes;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -835,7 +855,10 @@ customPseudoClasses
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -847,6 +870,9 @@ customPseudoClasses
     })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -935,7 +961,13 @@ export function getDocument(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     node ||= getDefaultRoot();
+=======
+    if (!node) {
+        return document;
+    }
+>>>>>>> upstream/18.0
 =======
     if (!node) {
         return document;
@@ -1043,7 +1075,10 @@ export function getNodeText(node, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1065,6 +1100,9 @@ export function getInteractiveNode(node) {
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1086,8 +1124,11 @@ export function getWindow(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return getDocument(node).defaultView;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1098,6 +1139,9 @@ export function getWindow(node) {
     return isWindow(node) ? node : getDocument(node).defaultView;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1369,9 +1413,15 @@ export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     const window = getWindow(node);
     const { activeElement } = document;
+=======
+    const doc = getDocument(node);
+    const view = doc.defaultView;
+    const { activeElement } = doc;
+>>>>>>> upstream/18.0
 =======
     const doc = getDocument(node);
     const view = doc.defaultView;
@@ -1411,11 +1461,14 @@ export function getActiveElement(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (activeElement === document.body && window !== window.parent) {
         // Active element is the body of an iframe:
         // -> get the active element of its parent frame (recursively)
         return getActiveElement(window.parent.document);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1426,6 +1479,9 @@ export function getActiveElement(node) {
         return getActiveElement(view.parent.document);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1494,12 +1550,15 @@ export function getParentFrame(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const document = getDocument(node);
     if (!document) {
         return null;
     }
     const view = document.defaultView;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1511,6 +1570,9 @@ export function getParentFrame(node) {
     const view = doc.defaultView;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1740,6 +1802,10 @@ export function observe(target, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
+>>>>>>> upstream/18.0
 =======
  * - `:interactive`: matches nodes that are not affected by 'pointer-events: none'
 >>>>>>> upstream/18.0
@@ -1807,7 +1873,11 @@ export function queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { exact, displayed, root, viewPort, visible } = options || {};
+=======
+    const { exact, displayed, interactive, root, viewPort, visible } = options || {};
+>>>>>>> upstream/18.0
 =======
     const { exact, displayed, interactive, root, viewPort, visible } = options || {};
 >>>>>>> upstream/18.0
@@ -1843,9 +1913,12 @@ export function queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {string} */
     let prefix, suffix;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1856,6 +1929,9 @@ export function queryAll(target, options) {
     const suffix = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1869,6 +1945,7 @@ export function queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (viewPort) {
         nodes = nodes.filter(isNodeInViewPort);
         suffix = "in viewport";
@@ -1879,6 +1956,8 @@ export function queryAll(target, options) {
         nodes = nodes.filter(isNodeDisplayed);
         prefix = "displayed";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1901,6 +1980,9 @@ export function queryAll(target, options) {
         prefix.push("visible");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1913,6 +1995,7 @@ export function queryAll(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const s = count === 1 ? "" : "s";
         const strPrefix = prefix ? `${prefix} ` : "";
         const strSuffix = suffix ? ` ${suffix}` : "";
@@ -1921,6 +2004,8 @@ export function queryAll(target, options) {
             `found ${count} ${strPrefix}node${s}${strSuffix} instead of ${exact} ${strSelector}`
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1941,6 +2026,9 @@ export function queryAll(target, options) {
         throw new HootDomError(message.join(" "));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

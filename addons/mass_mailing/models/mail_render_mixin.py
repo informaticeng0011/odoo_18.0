@@ -20,7 +20,11 @@ class MailRenderMixin(models.AbstractModel):
                     self.env.context['post_convert_links'],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     blacklist=['/unsubscribe_from_list', '/view', '/cards/']
+=======
+                    blacklist=['/unsubscribe_from_list', '/view', '/cards']
+>>>>>>> upstream/18.0
 =======
                     blacklist=['/unsubscribe_from_list', '/view', '/cards']
 >>>>>>> upstream/18.0

@@ -30,12 +30,20 @@ export class DomainSelector extends Component {
         className: { type: String, optional: true },
         defaultConnector: { type: [{ value: "&" }, { value: "|" }], optional: true },
         isDebugMode: { type: Boolean, optional: true },
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
         readonly: { type: Boolean, optional: true },
         update: { type: Function, optional: true },
         debugUpdate: { type: Function, optional: true },
     };
     static defaultProps = {
         isDebugMode: false,
+<<<<<<< HEAD
+=======
+        allowExpressions: true,
+>>>>>>> upstream/18.0
         readonly: true,
         update: () => {},
     };
@@ -107,11 +115,23 @@ export class DomainSelector extends Component {
     }
 
     getDefaultOperator(fieldDef) {
+<<<<<<< HEAD
         return getDomainDisplayedOperators(fieldDef)[0];
     }
 
     getOperatorEditorInfo(fieldDef) {
         const operators = getDomainDisplayedOperators(fieldDef);
+=======
+        return getDomainDisplayedOperators(fieldDef, {
+            allowExpressions: this.props.allowExpressions,
+        })[0];
+    }
+
+    getOperatorEditorInfo(fieldDef) {
+        const operators = getDomainDisplayedOperators(fieldDef, {
+            allowExpressions: this.props.allowExpressions,
+        });
+>>>>>>> upstream/18.0
         return getOperatorEditorInfo(operators, fieldDef);
     }
 

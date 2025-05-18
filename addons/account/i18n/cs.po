@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marta Wacławek, 2025
 # Wil Odoo, 2025
 # Stanislav Kurinec, 2025
@@ -81,12 +82,17 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # Stanislav Kurinec, 2025
 # Thomas Becquevort, 2025
 # Marta Wacławek, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97,6 +103,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,6 +175,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thomas Becquevort, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
@@ -1648,7 +1660,10 @@ msgstr "<strong>Typ:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1668,6 +1683,7 @@ msgid ""
 "<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
 "disabled again if there are any existing journal items."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1691,6 +1707,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"<strong>Varování:</strong> Jakmile je auditní stopa povolena, nelze ji znovu"
+" zakázat, pokud existují nějaké položky deníku."
+
+#. module: account
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -1737,7 +1759,10 @@ msgstr "Bankovní účet může patřit pouze k jednomu deníku."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1758,6 +1783,7 @@ msgid ""
 "A bank account with Account Number %(number)s already exists for Partner "
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1781,6 +1807,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Bankovní účet s číslem účtu %(number)s již existuje pro partnera "
+"%(partner)s, ale je archivován. Zrušte jej z archivu."
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -1799,6 +1831,12 @@ msgid ""
 "                occurring over a given period of time on a credit account. You\n"
 "                should receive this periodically from your bank."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Úvěrový výpis je souhrn všech finančních transakcí\n"
+"                provedených v daném období na úvěrovým účtu.\n"
+"                Tento výpis byste měli pravidelně dostávat od své banky."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -1873,7 +1911,11 @@ msgstr ""
 msgid ""
 "A payment with an outstanding account cannot be confirmed without having a "
 "journal entry."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Platbu s neuhrazeným účtem není možné potvrdit bez účetního záznamu."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_reconcile_model_name_unique
@@ -2014,6 +2056,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Účet %s nelze oddělit, protože již patří jedné společnosti. Operace oddělení"
+" pouze rozdělí účet na základě společností, ke kterým patří."
+>>>>>>> upstream/18.0
 =======
 "Účet %s nelze oddělit, protože již patří jedné společnosti. Operace oddělení"
 " pouze rozdělí účet na základě společností, ke kterým patří."
@@ -2138,7 +2185,11 @@ msgstr "Účetní zámek vyjímka"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__account_map
 msgid "Account Map"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mapa účtu"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__account_ids
@@ -2193,7 +2244,11 @@ msgstr "Účet závazků"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix_placeholder
 msgid "Account Prefix Placeholder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zástupný znak pro prefix účtu"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_category_property_form
@@ -2330,7 +2385,11 @@ msgstr "Jméno majitele účtu, pokud se liší od jména držitele účtu"
 #. module: account
 #: model:ir.model,name:account.model_account_merge_wizard
 msgid "Account merge wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Průvodce sloučením účtů"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model,name:account.model_account_merge_wizard_line
@@ -3302,6 +3361,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Všechny záznamy do tohoto data včetně budou odloženy na pozdější datum v "
+"souladu s pořadím v deníku. Datum uzavěrky je nevratné a neumožňuje žádnou "
+"výjimku."
+>>>>>>> upstream/18.0
 =======
 "Všechny záznamy do tohoto data včetně budou odloženy na pozdější datum v "
 "souladu s pořadím v deníku. Datum uzavěrky je nevratné a neumožňuje žádnou "
@@ -3324,6 +3389,11 @@ msgid ""
 "Any entry up to and including that date will be postponed to a later time, "
 "in accordance with its journal's sequence."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Všechny záznamy do tohoto data včetně budou odloženy na pozdější datum v "
+"souladu s pořadím v deníku."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__tax_lock_date
@@ -3335,6 +3405,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Všechny záznamy s daněmi do tohoto data včetně budou odloženy na pozdější "
+"datum v souladu s pořadím v deníku. Datum uzávěrky daní se nastaví "
+"automaticky při zaúčtování závěrečného daňového záznamu."
+>>>>>>> upstream/18.0
 =======
 "Všechny záznamy s daněmi do tohoto data včetně budou odloženy na pozdější "
 "datum v souladu s pořadím v deníku. Datum uzávěrky daní se nastaví "
@@ -3376,6 +3452,11 @@ msgid ""
 "Any purchase entry prior to and including this date will be postponed to a "
 "later date, in accordance with its journal's sequence."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Veškeré nákupy zaznamenané před tímto datem včetně budou odloženy na "
+"pozdější datum v souladu s pořadím v deníku."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__sale_lock_date
@@ -3383,6 +3464,11 @@ msgid ""
 "Any sales entry prior to and including this date will be postponed to a "
 "later date, in accordance with its journal's sequence."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Veškeré prodeje zaznamenané před tímto datem včetně budou odloženy na "
+"pozdější datum v souladu s pořadím v deníku."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__applicability
@@ -3797,8 +3883,13 @@ msgstr "Bankovní účet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Bankovní účet %(link)s s číslem %(number)s byl smazán"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -4436,7 +4527,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4464,6 +4558,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4997,6 +5094,7 @@ msgstr "Komerční entita"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5097,6 +5195,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Země obchodního partnera"
@@ -5118,6 +5218,9 @@ msgstr "Země obchodního partnera"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15625,6 +15728,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(date_field)s (%(date)s) které jste zadali, není srovnáno s existujícím pořadovým číslem (%(sequence)s). Chtece-li pokračovat, vymažte pořadové číslo.\n"
+"Chcete-li zachovat pořadí podle data, vyberte položky a použijte možnost změnit pořadí v nabídce akcí, která je k dispozici v režimu pro vývojáře."
+>>>>>>> upstream/18.0
 =======
 "%(date_field)s (%(date)s) které jste zadali, není srovnáno s existujícím pořadovým číslem (%(sequence)s). Chtece-li pokračovat, vymažte pořadové číslo.\n"
 "Chcete-li zachovat pořadí podle data, vyberte položky a použijte možnost změnit pořadí v nabídce akcí, která je k dispozici v režimu pro vývojáře."
@@ -15863,6 +15971,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Frekvence fakturace pro %(partner_name)s se jeví jako neobvyklá. Na základě vašich historických údajů není očekávané datum příští faktury dříve než %(expected_date)s (každých %(mean)s (± %(wiggle)s) dní).\n"
+"Zkontrolujte, zda je toto datum správné."
+>>>>>>> upstream/18.0
 =======
 "Frekvence fakturace pro %(partner_name)s se jeví jako neobvyklá. Na základě vašich historických údajů není očekávané datum příští faktury dříve než %(expected_date)s (každých %(mean)s (± %(wiggle)s) dní).\n"
 "Zkontrolujte, zda je toto datum správné."
@@ -18492,7 +18605,10 @@ msgstr "Špatná hodnota má dáti nebo dal v tomto účetním záznamu!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18519,6 +18635,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

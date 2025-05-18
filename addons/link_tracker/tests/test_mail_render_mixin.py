@@ -257,7 +257,10 @@ And a last, with question mark: {self.base_url}/r/(\w+)"""
         self.assertRegex(new_content, expected)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -282,6 +285,9 @@ And a last, with question mark: {self.base_url}/r/(\w+)"""
                     self.assertIn(keyword, shorten_html)
                     self.assertIn(keyword, shorten_text)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

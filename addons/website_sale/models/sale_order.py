@@ -608,7 +608,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.state == 'sale' and any(line._is_reorder_allowed() for line in self.order_line if not line.display_type)
+=======
+        return self.state == 'sale' and any(
+            line._is_reorder_allowed() for line in self.order_line if line.product_id
+        )
+>>>>>>> upstream/18.0
 =======
         return self.state == 'sale' and any(
             line._is_reorder_allowed() for line in self.order_line if line.product_id

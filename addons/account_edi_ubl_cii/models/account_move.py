@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 import binascii
 
 from base64 import b64decode
 from contextlib import suppress
 from lxml import etree
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo import _, api, fields, models, Command
 
@@ -97,10 +103,13 @@ class AccountMove(models.Model):
                 return self.env['account.edi.xml.ubl_bis3']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_edi_decoder(self, file_data, new=False):
         # EXTENDS 'account'
         if file_data['type'] == 'xml':
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _ubl_parse_attached_document(self, tree):
         """
@@ -138,6 +147,9 @@ class AccountMove(models.Model):
         if file_data['type'] == 'xml':
             if etree.QName(file_data['xml_tree']).localname == 'AttachedDocument':
                 file_data['xml_tree'] = self._ubl_parse_attached_document(file_data['xml_tree'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ubl_cii_xml_builder = self._get_ubl_cii_builder_from_xml_tree(file_data['xml_tree'])
             if ubl_cii_xml_builder is not None:

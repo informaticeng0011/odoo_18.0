@@ -25,7 +25,11 @@ def migrate(cr, version):
         env['account.tax'].browse(tax_ids).active = False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         env['account.chart.template'].try_loading(company.chart_template, company)
+=======
+        env['account.chart.template'].try_loading(company.chart_template, company, force_create=False)
+>>>>>>> upstream/18.0
 =======
         env['account.chart.template'].try_loading(company.chart_template, company, force_create=False)
 >>>>>>> upstream/18.0

@@ -6,6 +6,7 @@
 # Martin Trigaux, 2024
 # Lukas Van Cauter <cvl@odoo.com>, 2024
 # Tiffany Chang, 2024
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,11 +140,17 @@
 # Wil Odoo, 2025
 # Manon Rondou, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +273,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -643,7 +655,11 @@ msgstr "<span>Saldo</span>"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "<span>Closing</span>"
+<<<<<<< HEAD
 msgstr "<span>Sluitend</span>"
+=======
+msgstr "<span>Sluit</span>"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -1193,6 +1209,10 @@ msgstr "Totaalbedrag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -1547,7 +1567,11 @@ msgstr "Barcodescanner/kaartlezer"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__basic_receipt
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_basic_receipt
 msgid "Basic Receipt"
+<<<<<<< HEAD
 msgstr "Basis ontvangstbewijs"
+=======
+msgstr "Eenvoudige kassabon"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__cash_register_difference
@@ -2727,7 +2751,11 @@ msgid "Customer Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verkoopfactuur"
+=======
+msgstr "Klantfactuur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klantfactuur"
 >>>>>>> upstream/18.0
@@ -5753,6 +5781,10 @@ msgstr "Registreer het vouchernummer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
@@ -6261,7 +6293,11 @@ msgstr "Afdrukken"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "Print Basic Receipt"
+<<<<<<< HEAD
 msgstr "Basisontvangstbewijs afdrukken"
+=======
+msgstr "Eenvoudige kassabon afdrukken"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -6293,7 +6329,13 @@ msgstr "Print een rapport met alle verkopen binnen de huidige kassasessie"
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_basic_receipt
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Print basic ticket without prices. Can be used for gifts."
+<<<<<<< HEAD
 msgstr "Print basiskaartjes zonder prijzen. Kan worden gebruikt voor cadeaus."
+=======
+msgstr ""
+"Eenvoudige kassabon afdrukken zonder prijzen. Kan gebruikt worden als "
+"cadeau."
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_res_company__point_of_sale_use_ticket_qr_code
@@ -6585,6 +6627,10 @@ msgstr "Paars"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -7489,7 +7535,11 @@ msgstr "Categorie afbeeldingen in het kassasysteem weergeven."
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Show checkout to customers through a second display"
+<<<<<<< HEAD
 msgstr "Afrekenen aan klanten laten zien via een tweede display"
+=======
+msgstr "Toon de kassa aan klanten via een tweede scherm"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__customer_display_type
@@ -8060,7 +8110,10 @@ msgstr "Het merk van de betaalkaart (bv. Visa, AMEX, ...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8145,6 +8198,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8756,7 +8812,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8777,6 +8836,7 @@ msgid ""
 "This order has already been paid. You cannot set it back to draft or edit "
 "it."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: point_of_sale
 <<<<<<< HEAD
@@ -8800,6 +8860,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Deze order is al betaald. Je kunt deze niet meer terugzetten naar concept of"
+" bewerken."
+
+#. module: point_of_sale
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.js:0
@@ -9661,7 +9727,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9693,6 +9762,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9728,6 +9800,7 @@ msgstr "Je kunt orders van verschillende bedrijven niet factureren."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -9739,6 +9812,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9926,12 +10001,15 @@ msgid "discount"
 msgstr "korting"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr "bijvoorbeeld 0123456789"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
 msgid "e.g. Cash"
 msgstr "bijv. Contant geld"
@@ -9957,12 +10035,15 @@ msgid "e.g. Soft Drinks"
 msgstr "Bijv. frisdranken"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr "bijvoorbeeld john.doe@mail.com"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "ePos Printer"
@@ -10099,6 +10180,7 @@ msgstr "om de knoppen te activeren."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "using"
 msgstr "gebruikende"
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -10115,3 +10197,5 @@ msgid ""
 msgstr ""
 "{{ line.has_valid_product_lot() ? 'Geldige product partij' : 'Invalid "
 "product lot'}}"
+=======
+>>>>>>> upstream/18.0
