@@ -67,7 +67,10 @@ class TestAccessRightsControllers(BaseUsersCommon, HttpCase, SaleCommon):
 
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class TestSalesControllers(BaseUsersCommon, HttpCase, SaleCommon):
     def test_sales_portal_report(self):
         portal_so = self.sale_order.copy()
@@ -85,6 +88,9 @@ class TestSalesControllers(BaseUsersCommon, HttpCase, SaleCommon):
 
 
 @tagged('post_install', '-at_install')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class TestSaleSignature(HttpCaseWithUserPortal):
 

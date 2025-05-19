@@ -2485,7 +2485,10 @@ test("preserve virtual operators in sub domains", async () => {
     ]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("hide within operators when allowExpressions = False", async () => {
     Team._fields.active = fields.Boolean();
@@ -2508,4 +2511,7 @@ test("hide within operators when allowExpressions = False", async () => {
         "is not set",
     ]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -5,8 +5,13 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Denis Gobin, 2025
 # Marta Wacławek, 2025
+=======
+# Marta Wacławek, 2025
+# Denis Gobin, 2025
+>>>>>>> upstream/18.0
 =======
 # Marta Wacławek, 2025
 # Denis Gobin, 2025
@@ -19,7 +24,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marta Wacławek, 2025\n"
+=======
+"Last-Translator: Denis Gobin, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Denis Gobin, 2025\n"
 >>>>>>> upstream/18.0
@@ -51,7 +60,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "(<i>Recycle</i>)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Recyklovat</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Recyklovat</i>)"
 >>>>>>> upstream/18.0
@@ -322,7 +335,11 @@ msgstr "Společnost"
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Součástky "
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Součástky "
 >>>>>>> upstream/18.0
@@ -332,7 +349,11 @@ msgstr "Cílové Umístění Součástky "
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojové Umístění Součástky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojové Umístění Součástky"
 >>>>>>> upstream/18.0
@@ -900,7 +921,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_dest_id
 msgid "Product Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Produktu"
 >>>>>>> upstream/18.0
@@ -925,7 +950,11 @@ msgstr "Množství produktů"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojové Umístění Produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojové Umístění Produktu"
 >>>>>>> upstream/18.0
@@ -1002,7 +1031,11 @@ msgstr "Připraveno"
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__recycle
 msgid "Recycle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recyklovat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recyklovat"
 >>>>>>> upstream/18.0
@@ -1011,7 +1044,11 @@ msgstr "Recyklovat"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid "Recycle Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Recyklované Součástky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Recyklované Součástky"
 >>>>>>> upstream/18.0
@@ -1020,7 +1057,11 @@ msgstr "Cílové Umístění Recyklované Součástky"
 #: model:ir.model.fields,field_description:repair.field_repair_order__recycle_location_id
 msgid "Recycled Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Recyklovaných Součástek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Recyklovaných Součástek"
 >>>>>>> upstream/18.0
@@ -1034,7 +1075,11 @@ msgstr "Odebrat"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Zmetku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Zmetku"
 >>>>>>> upstream/18.0
@@ -1043,7 +1088,11 @@ msgstr "Cílové Umístění Zmetku"
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cílové Umístění Odstraněných Součástek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cílové Umístění Odstraněných Součástek"
 >>>>>>> upstream/18.0
@@ -1393,6 +1442,11 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je výchozí umístění recyklovaných součástek, když vytvoříte objednávku "
+"opravy s tímto typem operace."
+>>>>>>> upstream/18.0
 =======
 "Toto je výchozí umístění recyklovaných součástek, když vytvoříte objednávku "
 "opravy s tímto typem operace."
@@ -1405,6 +1459,11 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto je výchozí cílové umístění zmetku, když vytvoříte objednávku opravy s "
+"tímto typem operace."
+>>>>>>> upstream/18.0
 =======
 "Toto je výchozí cílové umístění zmetku, když vytvoříte objednávku opravy s "
 "tímto typem operace."

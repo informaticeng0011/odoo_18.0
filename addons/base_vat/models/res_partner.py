@@ -339,7 +339,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tin2 = self.__check_tin1_ro_natural_persons.match(vat)
+=======
+        tin2 = self.__check_tin2_ro_natural_persons.match(vat)
+>>>>>>> upstream/18.0
 =======
         tin2 = self.__check_tin2_ro_natural_persons.match(vat)
 >>>>>>> upstream/18.0
@@ -430,7 +434,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -471,6 +478,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

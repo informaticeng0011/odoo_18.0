@@ -330,7 +330,10 @@ class TestEventSaleMail(TestEventFullCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -349,6 +352,9 @@ class TestEventSaleMail(TestEventFullCommon):
         self.assertEqual(self._new_mails[0].body_html, "<p>Bonjour</p>")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

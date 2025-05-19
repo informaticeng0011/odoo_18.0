@@ -46,7 +46,10 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -101,6 +104,9 @@ class MrpSubcontractingPurchaseTest(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_count_smart_buttons(self):
         resupply_sub_on_order_route = self.env['stock.route'].search([('name', '=', 'Resupply Subcontractor on Order')])

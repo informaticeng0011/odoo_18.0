@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import binascii
@@ -10,6 +13,9 @@ from contextlib import suppress
 from lxml import etree
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104,10 +110,13 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_edi_decoder(self, file_data, new=False):
         # EXTENDS 'account'
         if file_data['type'] == 'xml':
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -148,6 +157,9 @@ class AccountMove(models.Model):
             if etree.QName(file_data['xml_tree']).localname == 'AttachedDocument':
                 file_data['xml_tree'] = self._ubl_parse_attached_document(file_data['xml_tree'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

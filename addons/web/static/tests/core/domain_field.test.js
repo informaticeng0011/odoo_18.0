@@ -18,6 +18,10 @@ import {
     getCurrentPath,
     getCurrentValue,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getOperatorOptions,
+>>>>>>> upstream/18.0
 =======
     getOperatorOptions,
 >>>>>>> upstream/18.0
@@ -36,6 +40,10 @@ import {
 
 import { WebClient } from "@web/webclient/webclient";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { registry } from "@web/core/registry";
+>>>>>>> upstream/18.0
 =======
 import { registry } from "@web/core/registry";
 >>>>>>> upstream/18.0
@@ -53,8 +61,11 @@ class PartnerType extends models.Model {
 defineModels([Partner, Product, Team, Player, Country, Stage, PartnerType]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("The domain editor should not crash the view when given a dynamic filter", async function () {
 =======
+=======
+>>>>>>> upstream/18.0
 function replaceNotificationService() {
     registry.category("services").add(
         "notification",
@@ -72,12 +83,20 @@ function replaceNotificationService() {
 }
 
 test("The domain editor should not crash the view when given a dynamic filter (allow_expressions=False)", async function () {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // dynamic filters (containing variables, such as uid, parent or today)
     // are handled by the domain editor
     Partner._records[0].foo = `[("int", "=", uid)]`;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    replaceNotificationService();
+
+>>>>>>> upstream/18.0
 =======
     replaceNotificationService();
 
@@ -97,7 +116,10 @@ test("The domain editor should not crash the view when given a dynamic filter (a
         message: "The widget should show the dynamic filter.",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     expect(".o_field_domain").not.toHaveClass("o_field_invalid");
     expect.verifySteps(["The domain should not involve non-literals"]);
 });
@@ -122,6 +144,9 @@ test("The domain editor should not crash the view when given a dynamic filter (a
     });
     expect(".o_field_domain").not.toHaveClass("o_field_invalid");
     expect.verifySteps(["The domain involves non-literals. Their evaluation might fail."]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 
@@ -428,7 +453,11 @@ test("domain field: manually edit domain with textarea", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -489,7 +518,11 @@ test("domain field: manually set an invalid domain with textarea", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -572,7 +605,11 @@ test("domain field: reload count by clicking on the refresh button", async funct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -669,7 +706,11 @@ test("domain field: edit domain with dynamic content", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -697,7 +738,11 @@ test("domain field: edit domain with dynamic content", async function () {
             <form>
                 <field name="bar"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="foo" widget="domain" options="{'model': 'bar'}"/>
+=======
+                <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
 >>>>>>> upstream/18.0
@@ -732,7 +777,11 @@ test("domain field: edit through selector (dynamic content)", async function () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -761,7 +810,11 @@ test("domain field: edit through selector (dynamic content)", async function () 
             <form>
                 <field name="bar"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="foo" widget="domain" options="{'model': 'bar'}"/>
+=======
+                <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="foo" widget="domain" options="{'model': 'bar', 'allow_expressions':True}"/>
 >>>>>>> upstream/18.0
@@ -898,7 +951,11 @@ test("invalid value in domain field with 'inDialog' options", async function () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -938,7 +995,11 @@ test("edit domain button is available even while loading records count", async f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -978,7 +1039,11 @@ test("debug input editing sets the field as dirty even without a focus out", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1016,7 +1081,11 @@ test("debug input corrections don't need a focus out to be saved", async functio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1052,7 +1121,11 @@ test("quick check on save if domain has been edited via the debug input", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1157,7 +1230,11 @@ test("add condition in empty foldable domain", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1263,7 +1340,11 @@ test("folded domain field with withinh operator", async function () {
                 <sheet>
                     <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true}" />
+=======
+                        <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true, 'allow_expressions':True}" />
+>>>>>>> upstream/18.0
 =======
                         <field name="foo" widget="domain" options="{'model': 'partner', 'foldable': true, 'allow_expressions':True}" />
 >>>>>>> upstream/18.0
@@ -1274,7 +1355,10 @@ test("folded domain field with withinh operator", async function () {
     expect(`.o_field_domain .o_facet_values`).toHaveText("Datetime is within 2 months");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("allow_expressions = true", async function () {
     Partner._records[0].foo = "[]";
@@ -1390,4 +1474,7 @@ test("hide within operators when allow_expressions = False", async function () {
     expect(".o_field_domain").not.toHaveClass("o_field_invalid"); // should we have class? We don't do it in other cases
     expect.verifySteps(["The domain should not involve non-literals"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

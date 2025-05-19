@@ -315,7 +315,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0
@@ -390,7 +394,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0

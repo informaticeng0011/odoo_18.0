@@ -12,9 +12,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Daye Jeong, 2025
 # Sarah Park, 2025
+=======
+# Daye Jeong, 2025
+# Sarah Park, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 =======
 # Daye Jeong, 2025
 # Sarah Park, 2025
@@ -74,6 +80,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
@@ -114,6 +121,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
@@ -170,10 +182,15 @@ msgstr "%s가 Peppol에서 전자 청구서 수신을 요청하였습니다."
 msgid ""
 "<br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            If you need a Peppol compliant software, we recommend"
 msgstr ""
 "<br/>\n"
 "                            Peppol 규격의 소프트웨어가 필요하다면, 저희가 권장하는 것은"
+=======
+"                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
@@ -542,7 +559,10 @@ msgstr "오류"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -573,6 +593,9 @@ msgstr "EDI 문서 생성 중 오류 발생 (형식: %s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -644,6 +667,7 @@ msgstr "Peppol 청구서를 받으려면 설정이 유효한지 확인하세요.
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "In Belgium, electronic invoicing will be <u>mandatory as of January "
@@ -651,6 +675,8 @@ msgid ""
 msgstr "벨기에에서는 <u>2026년 1월부터 전자 청구서</u>가 의무화됩니다."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
@@ -803,6 +829,7 @@ msgstr "PEPPOL: 참가자 상태 업데이트"
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -821,6 +848,8 @@ msgstr ""
 "발송</b>되었습니다."
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -851,7 +880,10 @@ msgstr "Peppol Endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -881,6 +913,9 @@ msgstr "Peppol ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1214,12 +1249,18 @@ msgstr "이 기능은 더 이상 사용되지 않습니다. 마이그레이션 �
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "This invoice has also been"
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
@@ -1425,10 +1466,13 @@ msgstr "by Peppol"
 
 #. module: account_peppol
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "청구서 및 대변 전표."
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
@@ -1452,4 +1496,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "uses"
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

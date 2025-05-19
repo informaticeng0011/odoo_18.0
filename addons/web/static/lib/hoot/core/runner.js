@@ -7,9 +7,15 @@ import { cleanupDOM } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
 import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
 import { isIterable, parseRegExp } from "@web/../lib/hoot-dom/hoot_dom_utils";
+=======
+import { cleanupEvents, enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
+import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
+import { exposeHelpers, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { cleanupEvents, enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
 import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
@@ -49,9 +55,15 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getFuzzyScore,
     isLabel,
     normalize,
+=======
+    isLabel,
+    normalize,
+    parseQuery,
+>>>>>>> upstream/18.0
 =======
     isLabel,
     normalize,
@@ -85,8 +97,11 @@ import { cleanupNetwork, throttleNetwork } from "../mock/network";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { cleanupWindow, getViewPortHeight, getViewPortWidth, mockTouch } from "../mock/window";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103,6 +118,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -346,6 +364,7 @@ const warnUserEvent = (ev) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class HootDebugHelpers {
     /**
      * @param {Runner} runner
@@ -359,6 +378,8 @@ class HootDebugHelpers {
 }
 
 const DEBUG_NAMESPACE = "hoot";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -461,9 +482,12 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {string | RegExp} */
     textFilter = "";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -477,6 +501,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -556,9 +583,12 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._hasIncludeFilter = true;
             this.textFilter = parseRegExp(normalize(this.config.filter), { safe: true });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -576,6 +606,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -667,6 +700,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let result;
         try {
             result = fn();
@@ -675,6 +709,8 @@ export class Runner {
         }
         if (result !== undefined) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -696,6 +732,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -995,9 +1034,12 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.config.filter = "";
         this.config[type] = formatIncludes(includeSpecs[type]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1013,6 +1055,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1288,6 +1333,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const helpers = new HootDebugHelpers(this);
                 if (DEBUG_NAMESPACE in globalThis) {
                     logger.debug(`Hoot helpers available:`, helpers);
@@ -1295,6 +1341,8 @@ export class Runner {
                     globalThis[DEBUG_NAMESPACE] = helpers;
                     logger.debug(`Hoot helpers available from \`window.${DEBUG_NAMESPACE}\``);
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1403,6 +1451,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @returns {typeof taggedFn}
      */
     _addConfigurators(fn, getCurrent) {
@@ -1446,6 +1495,8 @@ export class Runner {
         };
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1505,6 +1556,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1518,6 +1572,7 @@ export class Runner {
          * - `timeout`: sets the timeout for the current test/suite;
          * - `multi`: sets the number of times the current test/suite will be run.
          *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,6 +1595,8 @@ export class Runner {
         /** @type {ConfigurableFunction} */
         const taggedFn = (...args) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1605,6 +1662,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1617,6 +1677,7 @@ export class Runner {
             return fn.call(this, jobConfig, ...args);
         };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1648,6 +1709,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const properties = {};
         for (const [key, getter] of $entries(configuratorGetters)) {
             properties[key] = { get: getter };
@@ -1662,6 +1725,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1833,7 +1899,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const nId = normalize(id);
+=======
+            const nId = normalize(id.toLowerCase());
+>>>>>>> upstream/18.0
 =======
             const nId = normalize(id.toLowerCase());
 >>>>>>> upstream/18.0
@@ -1872,9 +1942,14 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (typeof this.textFilter === "string" && this.textFilter?.startsWith(EXCLUDE_PREFIX)) {
             const query = this.textFilter.slice(EXCLUDE_PREFIX.length);
             return getFuzzyScore(query, job.key) > 0;
+=======
+        if (this.queryExclude.length && this.queryExclude.some((qp) => qp.matchValue(job.key))) {
+            return true;
+>>>>>>> upstream/18.0
 =======
         if (this.queryExclude.length && this.queryExclude.some((qp) => qp.matchValue(job.key))) {
             return true;
@@ -1913,12 +1988,17 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.textFilter) {
             if (this.textFilter instanceof RegExp) {
                 return this.textFilter.test(job.key);
             } else {
                 return getFuzzyScore(this.textFilter, job.key) > 0;
             }
+=======
+        if (this.queryInclude.length && this.queryInclude.every((qp) => qp.matchValue(job.key))) {
+            return true;
+>>>>>>> upstream/18.0
 =======
         if (this.queryInclude.length && this.queryInclude.every((qp) => qp.matchValue(job.key))) {
             return true;
@@ -2205,8 +2285,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 logger.logGlobalWarning("Debug mode is active");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2223,6 +2306,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2248,8 +2334,14 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.beforeEach(this.fixture.setup, setupTime);
         this.afterEach(
+=======
+        this.beforeEach(this.fixture.setup, setupWindow, setupTime);
+        this.afterEach(
+            this.fixture.cleanup,
+>>>>>>> upstream/18.0
 =======
         this.beforeEach(this.fixture.setup, setupWindow, setupTime);
         this.afterEach(
@@ -2278,10 +2370,13 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cleanupDOM,
             cleanupTime,
             cleanupDate
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2295,6 +2390,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2311,7 +2409,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         enableEventLogs(this.debug);
+=======
+        enableEventLogs(logger.level === LOG_LEVELS.debug);
+>>>>>>> upstream/18.0
 =======
         enableEventLogs(logger.level === LOG_LEVELS.debug);
 >>>>>>> upstream/18.0

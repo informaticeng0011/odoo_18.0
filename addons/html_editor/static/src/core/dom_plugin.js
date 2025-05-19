@@ -558,7 +558,10 @@ export class DomPlugin extends Plugin {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const { commonAncestorContainer } = this.dependencies.selection.getEditableSelection();
@@ -567,6 +570,9 @@ export class DomPlugin extends Plugin {
         // calls clean of its own.
         this.dispatchTo("clean_handlers", closestElement(commonAncestorContainer));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

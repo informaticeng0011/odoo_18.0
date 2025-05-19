@@ -200,7 +200,10 @@ export function complexCondition(value) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function treeContainsExpressions(tree) {
     if (tree.type === "condition") {
         const { path, operator, value } = tree;
@@ -229,6 +232,9 @@ export function domainContainsExpresssions(domain) {
     return treeContainsExpressions(tree);
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * @param {Value} value

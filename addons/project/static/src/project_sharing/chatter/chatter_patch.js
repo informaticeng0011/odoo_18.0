@@ -15,7 +15,10 @@ patch(Chatter.prototype, {
             projectSharingId: this.props.projectSharingId,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             inFrontendPortalChatter: true,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

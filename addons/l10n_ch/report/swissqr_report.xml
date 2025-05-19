@@ -40,7 +40,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-set="company" t-value="o.company_id"/>
+=======
+                <t t-set="company" t-value="o.partner_bank_id.partner_id or o.company_id"/>
+>>>>>>> upstream/18.0
 =======
                 <t t-set="company" t-value="o.partner_bank_id.partner_id or o.company_id"/>
 >>>>>>> upstream/18.0
@@ -116,12 +120,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-out="o.partner_bank_id.partner_id.name or o.company_id.name"/><br/>
                                 <span t-field="o.company_id.street"/><br/>
                                 <span t-field="o.company_id.country_id.code"/>
                                 <span t-field="o.company_id.zip"/>
                                 <span t-field="o.company_id.city"/><br/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163,6 +170,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -308,12 +318,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-out="o.partner_bank_id.partner_id.name or o.company_id.name"/><br/>
                                 <span t-field="o.company_id.street"/><br/>
                                 <span t-field="o.company_id.country_id.code"/>
                                 <span t-field="o.company_id.zip"/>
                                 <span t-field="o.company_id.city"/><br/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -355,6 +368,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

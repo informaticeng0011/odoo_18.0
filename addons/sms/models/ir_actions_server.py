@@ -88,7 +88,11 @@ class ServerActions(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise ValidationError(_("Sending SMS can only be done on a mail.thread or a transient model"))
+=======
+                raise ValidationError(_("Sending SMS can only be done on a not transient mail.thread model"))
+>>>>>>> upstream/18.0
 =======
                 raise ValidationError(_("Sending SMS can only be done on a not transient mail.thread model"))
 >>>>>>> upstream/18.0

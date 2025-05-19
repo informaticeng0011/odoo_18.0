@@ -36,6 +36,7 @@ import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 >>>>>>> upstream/18.0
@@ -69,6 +70,8 @@ import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133,6 +136,9 @@ import { toRaw } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200,7 +206,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.session_id && (!this.finalized || typeof this.id !== "number")) {
+=======
+        if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
+>>>>>>> upstream/18.0
 =======
         if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
 >>>>>>> upstream/18.0
@@ -475,6 +485,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
 =======
         remaining = roundCurrency(remaining, this.currency);
 >>>>>>> upstream/18.0
@@ -704,7 +718,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         display_name: line.get_product().name,
+=======
+                        display_name: line.get_product().display_name,
+>>>>>>> upstream/18.0
 =======
                         display_name: line.get_product().display_name,
 >>>>>>> upstream/18.0
@@ -927,7 +945,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (line) => line.price_type === "original" && line.combo_parent_id
+=======
+            (line) => line.price_type === "automatic" && line.combo_parent_id
+>>>>>>> upstream/18.0
 =======
             (line) => line.price_type === "automatic" && line.combo_parent_id
 >>>>>>> upstream/18.0
@@ -1545,6 +1567,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
+>>>>>>> upstream/18.0
 =======
             qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
 >>>>>>> upstream/18.0

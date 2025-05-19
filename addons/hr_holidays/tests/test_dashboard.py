@@ -37,7 +37,11 @@ class TestDashboard(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         other_calendar = self.env['resource.calendar'].create({
+=======
+        other_calendar = self.env['resource.calendar'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         other_calendar = self.env['resource.calendar'].sudo().create({
 >>>>>>> upstream/18.0

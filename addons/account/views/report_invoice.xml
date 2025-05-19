@@ -69,7 +69,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div id="informations" class="row mb-4">
+=======
+                        <div
+                            id="informations" class="row mb-4"
+                            t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
+>>>>>>> upstream/18.0
 =======
                         <div
                             id="informations" class="row mb-4"

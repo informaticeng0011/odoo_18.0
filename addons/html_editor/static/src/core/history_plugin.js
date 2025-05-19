@@ -1183,7 +1183,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.editable.contains(ev.targget)) {
+=======
+        if (this.editable.contains(ev.target)) {
+>>>>>>> upstream/18.0
 =======
         if (this.editable.contains(ev.target)) {
 >>>>>>> upstream/18.0

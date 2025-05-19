@@ -298,7 +298,10 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -324,6 +327,9 @@ class TestChartTemplate(AccountTestInvoicingCommon):
         # then try with `force_create=True` (when updating the CoA manually)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -410,8 +416,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           - Company: The default sales/purchase taxes should be updated. It should only impact the creation
                      of new products so it is probably not going to be an issue.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -462,8 +471,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.company.account_sale_tax_id, tax_3)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -763,6 +775,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # force first load since company data is removed on reload
+        company.chart_template = False
+>>>>>>> upstream/18.0
 =======
         # force first load since company data is removed on reload
         company.chart_template = False

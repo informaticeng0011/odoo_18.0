@@ -81,14 +81,20 @@ class AccountMove(models.Model):
         """
         # EXTENDS account
 <<<<<<< HEAD
+<<<<<<< HEAD
         reverse_moves = super()._reverse_moves(default_values_list, cancel)
         for move in reverse_moves:
             move.l10n_it_document_type = False
 =======
+=======
+>>>>>>> upstream/18.0
         default_values_list = default_values_list or [{}] * len(self)
         for default_values in default_values_list:
             default_values.update({'l10n_it_document_type': False})
         reverse_moves = super()._reverse_moves(default_values_list, cancel)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return reverse_moves
 

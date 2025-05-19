@@ -8,6 +8,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getInteractiveNode,
+>>>>>>> upstream/18.0
 =======
     getInteractiveNode,
 >>>>>>> upstream/18.0
@@ -40,6 +44,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryOne,
+>>>>>>> upstream/18.0
 =======
     queryOne,
 >>>>>>> upstream/18.0
@@ -394,6 +402,7 @@ const getDefaultRunTimeValue = () => ({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pointerDownTarget: null,
     pointerDownTimeout: 0,
     pointerTarget: null,
@@ -408,6 +417,8 @@ const getDefaultRunTimeValue = () => ({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /** @type {HTMLElement | null} */
     pointerDownTarget: null,
     pointerDownTimeout: 0,
@@ -420,6 +431,9 @@ const getDefaultRunTimeValue = () => ({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -625,7 +639,10 @@ const getFirstCommonParent = (a, b) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -652,6 +669,9 @@ const getPointerTarget = (element, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -727,7 +747,11 @@ const getPosition = (element, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Node} target
+=======
+ * @param {HTMLInputElement | HTMLTextAreaElement} target
+>>>>>>> upstream/18.0
 =======
  * @param {HTMLInputElement | HTMLTextAreaElement} target
 >>>>>>> upstream/18.0
@@ -760,6 +784,7 @@ const hasTouch = () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {EventTarget | EventPosition} target
  * @param {PointerOptions} [options]
  */
@@ -769,6 +794,8 @@ const isDifferentPosition = (target, options) => {
     for (const key in next) {
         if (previous[key] !== next[key]) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -786,6 +813,9 @@ const isDifferentPosition = (position) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -939,10 +969,13 @@ const registerForChange = async (target, initialValue, confirmAction) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await _click(getDocument(target).body, {
                 position: { x: 0, y: 0 },
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -956,6 +989,9 @@ const registerForChange = async (target, initialValue, confirmAction) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1023,6 +1059,7 @@ const setPointerDownTarget = (target) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {HTMLElement | null} target
  * @param {PointerOptions} [options]
  */
@@ -1048,6 +1085,8 @@ const setPointerTarget = async (target, options) => {
 };
 
 /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1253,6 +1292,7 @@ const _clear = async (target, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {EventTarget} target
  * @param {PointerOptions} [options]
  */
@@ -1260,6 +1300,8 @@ const _click = async (target, options) => {
     await _pointerDown(target, options);
     await _pointerUp(target, options);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1274,6 +1316,9 @@ const _click = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1352,6 +1397,7 @@ const _fill = async (target, value, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {EventTarget} target
  * @param {PointerOptions} [options]
  */
@@ -1368,6 +1414,8 @@ const _hover = async (target, options) => {
             ...previousPosition,
             relatedTarget: current,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1421,6 +1469,9 @@ const _hover = async (target, options, hoverOptions) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1433,6 +1484,7 @@ const _hover = async (target, options, hoverOptions) => {
         if (runTime.isDragging) {
             // If dragging, only drag events are triggered
             const leaveEventInitWithDT = { ...leaveEventInit, dataTransfer: runTime.dataTransfer };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1457,6 +1509,8 @@ const _hover = async (target, options, hoverOptions) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             runTime.lastDragOverCancelled = await triggerDrag(previousPT, leaveEventInitWithDT);
             await dispatch(previousPT, "dragleave", leaveEventInitWithDT);
         } else {
@@ -1473,6 +1527,9 @@ const _hover = async (target, options, hoverOptions) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1489,6 +1546,7 @@ const _hover = async (target, options, hoverOptions) => {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,6 +1602,8 @@ const _implicitHover = async (target, options) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (!pointerTarget) {
         return;
     }
@@ -1583,6 +1643,9 @@ const _implicitHover = async (target, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1883,12 +1946,15 @@ const _keyUp = async (target, eventInit) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {EventTarget} target
  * @param {DragOptions} [options]
  */
 const _pointerDown = async (target, options) => {
     setPointerDownTarget(target);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1903,6 +1969,9 @@ const _pointerDown = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1946,7 +2015,11 @@ const _pointerDown = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await triggerFocus(target);
+=======
+    await triggerFocus(pointerDownTarget);
+>>>>>>> upstream/18.0
 =======
     await triggerFocus(pointerDownTarget);
 >>>>>>> upstream/18.0
@@ -1977,7 +2050,11 @@ const _pointerDown = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await dispatch(target, "contextmenu", eventInit);
+=======
+        await dispatch(pointerDownTarget, "contextmenu", eventInit);
+>>>>>>> upstream/18.0
 =======
         await dispatch(pointerDownTarget, "contextmenu", eventInit);
 >>>>>>> upstream/18.0
@@ -1998,11 +2075,14 @@ const _pointerDown = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {EventTarget} target
  * @param {PointerOptions} [options]
  */
 const _pointerUp = async (target, options) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2016,6 +2096,9 @@ const _pointerUp = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2074,6 +2157,7 @@ const _pointerUp = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let actualTarget;
     if (hasTouch()) {
         actualTarget = pointerDownTarget === target && target;
@@ -2087,6 +2171,8 @@ const _pointerUp = async (options) => {
             if (!hasTouch() && runTime.clickCount % 2 === 0) {
                 await dispatch(actualTarget, "dblclick", mouseEventInit);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2108,6 +2194,9 @@ const _pointerUp = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2385,8 +2474,13 @@ export async function check(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await _implicitHover(element, options);
         await _click(element, options);
+=======
+        await _hover(element, options, { implicit: true });
+        await _click(options);
+>>>>>>> upstream/18.0
 =======
         await _hover(element, options, { implicit: true });
         await _click(options);
@@ -2418,7 +2512,10 @@ export async function check(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2439,6 +2536,9 @@ export function cleanupEvents() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2508,8 +2608,13 @@ export async function click(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _click(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _click(options);
@@ -2549,9 +2654,15 @@ export async function dblclick(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _click(element, options);
     await _click(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+    await _click(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _click(options);
@@ -2697,7 +2808,11 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const bodyElement = getDocument(initialElement).body;
+=======
+            const bodyElement = getDocument(runTime.pointerTarget).body;
+>>>>>>> upstream/18.0
 =======
             const bodyElement = getDocument(runTime.pointerTarget).body;
 >>>>>>> upstream/18.0
@@ -2740,7 +2855,11 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await _pointerUp(runTime.pointerTarget, options);
+=======
+            await _pointerUp(options);
+>>>>>>> upstream/18.0
 =======
             await _pointerUp(options);
 >>>>>>> upstream/18.0
@@ -2773,7 +2892,11 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const nextElement = to ? queryFirst(await to) : initialElement;
+=======
+            const nextElement = to ? queryFirst(await to, options) : runTime.pointerTarget;
+>>>>>>> upstream/18.0
 =======
             const nextElement = to ? queryFirst(await to, options) : runTime.pointerTarget;
 >>>>>>> upstream/18.0
@@ -2801,6 +2924,7 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const initialElement = queryFirst(await target);
 
     let dragEndReason = null;
@@ -2809,6 +2933,8 @@ export async function drag(target, options) {
     await _implicitHover(initialElement, options);
     await _pointerDown(initialElement, options);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2824,6 +2950,9 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3036,8 +3165,13 @@ export async function middleClick(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _click(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _click(options);
@@ -3112,8 +3246,13 @@ export async function pointerDown(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _pointerDown(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _pointerDown(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _pointerDown(options);
@@ -3156,8 +3295,13 @@ export async function pointerUp(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _pointerUp(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _pointerUp(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _pointerUp(options);
@@ -3256,8 +3400,13 @@ export async function rightClick(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _click(element, options);
+=======
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 =======
     await _hover(element, options, { implicit: true });
     await _click(options);
@@ -3381,6 +3530,7 @@ export async function select(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await _implicitHover(element);
         await _pointerDown(element);
     }
@@ -3388,6 +3538,8 @@ export async function select(value, options) {
     if (options?.target) {
         await _pointerUp(element);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3403,6 +3555,9 @@ export async function select(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3461,11 +3616,14 @@ export async function setInputRange(target, value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await _implicitHover(element, options);
     await _pointerDown(element, options);
     await _fill(element, value, options);
     await _pointerUp(element, options);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3479,6 +3637,9 @@ export async function setInputRange(target, value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3509,6 +3670,7 @@ export function setupEventActions(target, options) {
     if (!options?.allowSubmit) {
         eventHandlers.push(...GLOBAL_SUBMIT_FORWARDERS);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3559,6 +3721,8 @@ export function setupEventActions(target, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     const view = getWindow(target);
     for (const [eventType, handler, options] of eventHandlers) {
@@ -3572,6 +3736,9 @@ export function setupEventActions(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3610,8 +3777,13 @@ export async function uncheck(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await _implicitHover(element, options);
         await _click(element, options);
+=======
+        await _hover(element, options, { implicit: true });
+        await _click(options);
+>>>>>>> upstream/18.0
 =======
         await _hover(element, options, { implicit: true });
         await _click(options);
@@ -3676,7 +3848,13 @@ export class EventList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate = (ev) => ev.type === type;
+=======
+            predicate = function isSameType(ev) {
+                return ev.type === type;
+            };
+>>>>>>> upstream/18.0
 =======
             predicate = function isSameType(ev) {
                 return ev.type === type;

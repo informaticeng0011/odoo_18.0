@@ -327,7 +327,10 @@ class TestWorkEntry(TestWorkEntryBase):
         self.assertEqual(work_entry_types, [entry_type_1, entry_type_1, entry_type_1, entry_type_2])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -343,6 +346,9 @@ class TestWorkEntry(TestWorkEntryBase):
         })
         self.assertEqual(work_entry.duration, 1, "The duration should be 1 hour")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

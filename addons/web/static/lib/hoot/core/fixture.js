@@ -13,6 +13,10 @@ import { subscribeToTransitionChange } from "../mock/animation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getViewPortHeight, getViewPortWidth } from "../mock/window";
+>>>>>>> upstream/18.0
 =======
 import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 >>>>>>> upstream/18.0
@@ -100,11 +104,14 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (width !== window.innerWidth) {
                 fixture.style.width = `${width}px`;
             }
             if (height !== window.innerHeight) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118,6 +125,9 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147,8 +157,11 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return cleanupFixture;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -171,6 +184,10 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cleanup: cleanupFixture,
+>>>>>>> upstream/18.0
 =======
         cleanup: cleanupFixture,
 >>>>>>> upstream/18.0
@@ -229,9 +246,12 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {(() => any) | null} */
     cleanupEventActions = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252,6 +272,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -267,11 +290,14 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.cleanupEventActions = setupEventActions(this);
         subscribeToTransitionChange((allowTransitions) =>
             this.classList.toggle(this.constructor.CLASSES.transitions, allowTransitions)
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -288,6 +314,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -304,7 +333,12 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.cleanupEventActions?.();
+=======
+        this._iframes.clear();
+        this._observer.disconnect();
+>>>>>>> upstream/18.0
 =======
         this._iframes.clear();
         this._observer.disconnect();
@@ -331,10 +365,13 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     show() {
         this.classList.add(this.constructor.CLASSES.show);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -381,6 +418,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

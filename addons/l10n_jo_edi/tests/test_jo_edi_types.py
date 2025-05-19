@@ -249,7 +249,10 @@ class TestJoEdiTypes(JoEdiCommon):
             self.get_xml_tree_from_string(expected_file)
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_jo_no_vat_customer(self):
         self.company.l10n_jo_edi_taxpayer_type = 'income'
@@ -304,4 +307,7 @@ class TestJoEdiTypes(JoEdiCommon):
             self.get_xml_tree_from_string(generated_file),
             self.get_xml_tree_from_string(expected_file)
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

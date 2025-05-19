@@ -12,7 +12,11 @@ import { useBus, useService, useOwnedDialogs } from "@web/core/utils/hooks";
 import { useGetTreeDescription, useMakeGetFieldDef } from "@web/core/tree_editor/utils";
 import { useGetDefaultLeafDomain } from "@web/core/domain_selector/utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { treeFromDomain } from "@web/core/tree_editor/condition_tree";
+=======
+import { domainContainsExpresssions, treeFromDomain } from "@web/core/tree_editor/condition_tree";
+>>>>>>> upstream/18.0
 =======
 import { domainContainsExpresssions, treeFromDomain } from "@web/core/tree_editor/condition_tree";
 >>>>>>> upstream/18.0
@@ -30,6 +34,10 @@ export class DomainField extends Component {
         resModel: { type: String, optional: true },
         isFoldable: { type: Boolean, optional: true },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         allowExpressions: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -38,6 +46,10 @@ export class DomainField extends Component {
         editInDialog: false,
         isFoldable: false,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: false,
+>>>>>>> upstream/18.0
 =======
         allowExpressions: false,
 >>>>>>> upstream/18.0
@@ -48,6 +60,10 @@ export class DomainField extends Component {
         this.getDomainTreeDescription = useGetTreeDescription();
         this.makeGetFieldDef = useMakeGetFieldDef();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.notification = useService("notification");
 >>>>>>> upstream/18.0
@@ -101,7 +117,10 @@ export class DomainField extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     allowExpressions(props) {
         return (
             props.allowExpressions ||
@@ -109,6 +128,9 @@ export class DomainField extends Component {
         );
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     getContext(props = this.props) {
         return props.context;
@@ -122,7 +144,10 @@ export class DomainField extends Component {
         const domainStringRepr = this.getDomain(props);
         const evalContext = this.getContext(props);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (domainContainsExpresssions(domainStringRepr)) {
             const allowExpressions = this.allowExpressions(props);
             if (domainStringRepr !== this.lastDomainChecked) {
@@ -137,6 +162,9 @@ export class DomainField extends Component {
                 return { isInvalid: true };
             }
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try {
             const domain = new Domain(domainStringRepr).toList(evalContext);
@@ -320,13 +348,19 @@ export const domainField = {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             label: _t("Allow expressions"),
             name: "allow_expressions",
             type: "boolean",
             help: _t("If true, non-literals are accepted"),
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             label: _t("Model"),
             name: "model",
@@ -340,6 +374,10 @@ export const domainField = {
             editInDialog: options.in_dialog,
             isFoldable: options.foldable,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            allowExpressions: options.allow_expressions,
+>>>>>>> upstream/18.0
 =======
             allowExpressions: options.allow_expressions,
 >>>>>>> upstream/18.0

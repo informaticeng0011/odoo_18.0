@@ -312,9 +312,12 @@ class SessionExpiredException(Exception):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
 =======
+=======
+>>>>>>> upstream/18.0
 def content_disposition(filename, disposition_type='attachment'):
     """
     Craft a ``Content-Disposition`` header, see :rfc:`6266`.
@@ -330,6 +333,9 @@ def content_disposition(filename, disposition_type='attachment'):
         raise ValueError(e)
     return "{}; filename*=UTF-8''{}".format(
         disposition_type,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         url_quote(filename, safe='', unsafe='()<>@,;:"/[]?={}\\*\'%') # RFC6266
     )
@@ -1703,7 +1709,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -2296,7 +2306,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

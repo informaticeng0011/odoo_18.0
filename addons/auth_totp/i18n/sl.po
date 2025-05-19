@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ msgstr ""
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "%(browser)s on %(platform)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(browser)s na %(platform)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(browser)s na %(platform)s"
 >>>>>>> upstream/18.0
@@ -41,7 +53,11 @@ msgstr "%(browser)s na %(platform)s"
 #: model:ir.model,name:auth_totp.model_auth_totp_wizard
 msgid "2-Factor Setup Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2-Factor Čarovnik za nastavitev"
+>>>>>>> upstream/18.0
 =======
 msgstr "2-Factor Čarovnik za nastavitev"
 >>>>>>> upstream/18.0
@@ -51,7 +67,11 @@ msgstr "2-Factor Čarovnik za nastavitev"
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "2-Factor authentication is now enabled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2-Factor overjanje je zdaj omogočeno."
+>>>>>>> upstream/18.0
 =======
 msgstr "2-Factor overjanje je zdaj omogočeno."
 >>>>>>> upstream/18.0
@@ -63,6 +83,12 @@ msgid ""
 "                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"d-md-none d-block\">Ali pa namestite aplikacijo za preverjanje pristnosti</span>\n"
+"                                        <span class=\"d-none d-md-block\">Namestite aplikacijo za preverjanje pristnosti na svojo mobilno napravo\n"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"d-md-none d-block\">Ali pa namestite aplikacijo za preverjanje pristnosti</span>\n"
 "                                        <span class=\"d-none d-md-block\">Namestite aplikacijo za preverjanje pristnosti na svojo mobilno napravo\n"
@@ -76,6 +102,12 @@ msgid ""
 "                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-block\">Ko se to od vas zahteva, skenirajte spodnjo črtno kodo</span>\n"
+"                                    <span class=\"d-block d-md-none\">Ko boste to zahtevali, kopirajte spodnji ključ\n"
+"</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"d-none d-md-block\">Ko se to od vas zahteva, skenirajte spodnjo črtno kodo</span>\n"
 "                                    <span class=\"d-block d-md-none\">Ko boste to zahtevali, kopirajte spodnji ključ\n"
@@ -89,6 +121,11 @@ msgid ""
 "or the Microsoft Authenticator.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Med priljubljenimi so Authy, Google Authenticator"
+" ali Microsoft Authenticator.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Med priljubljenimi so Authy, Google Authenticator"
 " ali Microsoft Authenticator.</span>"
@@ -101,6 +138,11 @@ msgid ""
 "protected!</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">Ta račun je "
+"zaščiten!</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Ta račun je "
 "zaščiten!</span>"
@@ -113,6 +155,11 @@ msgid ""
 "protected!</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">Vaš račun je "
+"zaščiten!</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Vaš račun je "
 "zaščiten!</span>"
@@ -128,7 +175,11 @@ msgstr "Aktiviraj"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Added On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodano"
 >>>>>>> upstream/18.0
@@ -140,6 +191,11 @@ msgid ""
 " devices"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ste prepričani? Uporabnik bo morda moral na teh napravah ponovno vnesti "
+"dvofaktorske kode."
+>>>>>>> upstream/18.0
 =======
 "Ste prepričani? Uporabnik bo morda moral na teh napravah ponovno vnesti "
 "dvofaktorske kode."
@@ -152,6 +208,11 @@ msgid ""
 "devices"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ste prepričani? Morda boste morali na teh napravah ponovno vnesti "
+"dvofaktorske kode."
+>>>>>>> upstream/18.0
 =======
 "Ste prepričani? Morda boste morali na teh napravah ponovno vnesti "
 "dvofaktorske kode."
@@ -161,7 +222,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Authentication Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koda za preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koda za preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -170,7 +235,11 @@ msgstr "Koda za preverjanje pristnosti"
 #: model:ir.model,name:auth_totp.model_auth_totp_device
 msgid "Authentication Device"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naprava za preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naprava za preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -179,7 +248,11 @@ msgstr "Naprava za preverjanje pristnosti"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Authenticator App Setup"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitev aplikacije za preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitev aplikacije za preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -194,7 +267,11 @@ msgstr "Prekliči"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Cannot scan it?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne morete ga skenirati?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne morete ga skenirati?"
 >>>>>>> upstream/18.0
@@ -203,7 +280,11 @@ msgstr "Ne morete ga skenirati?"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Click on this link to open your authenticator app"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknite to povezavo, da odprete aplikacijo za preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknite to povezavo, da odprete aplikacijo za preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -239,7 +320,11 @@ msgstr "Naprava"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Disable 2FA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onemogoči 2FA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onemogoči 2FA"
 >>>>>>> upstream/18.0
@@ -248,7 +333,11 @@ msgstr "Onemogoči 2FA"
 #: model:ir.actions.server,name:auth_totp.action_disable_totp
 msgid "Disable two-factor authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onemogoči two-factor preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onemogoči two-factor preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -263,7 +352,11 @@ msgstr "Prikazani naziv"
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Don't ask again on this device"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne sprašuj več v tej napravi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne sprašuj več v tej napravi"
 >>>>>>> upstream/18.0
@@ -273,7 +366,11 @@ msgstr "Ne sprašuj več v tej napravi"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Enable 2FA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogoči 2FA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogoči 2FA"
 >>>>>>> upstream/18.0
@@ -282,7 +379,11 @@ msgstr "Omogoči 2FA"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Enter your six-digit code below"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spodaj vnesite svojo šestmestno kodo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spodaj vnesite svojo šestmestno kodo"
 >>>>>>> upstream/18.0
@@ -303,7 +404,11 @@ msgstr "ID"
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "Invalid authentication code format."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna oblika kode za preverjanje pristnosti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Neveljavna oblika kode za preverjanje pristnosti."
 >>>>>>> upstream/18.0
@@ -334,7 +439,11 @@ msgstr "Prijava"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Look for an \"Add an account\" button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poiščite gumb »Dodaj račun«"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poiščite gumb »Dodaj račun«"
 >>>>>>> upstream/18.0
@@ -343,7 +452,11 @@ msgstr "Poiščite gumb »Dodaj račun«"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "On Apple Store"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V Apple Trgovini"
+>>>>>>> upstream/18.0
 =======
 msgstr "V Apple Trgovini"
 >>>>>>> upstream/18.0
@@ -352,7 +465,11 @@ msgstr "V Apple Trgovini"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "On Google Play"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V trgovini Google Play"
+>>>>>>> upstream/18.0
 =======
 msgstr "V trgovini Google Play"
 >>>>>>> upstream/18.0
@@ -361,7 +478,11 @@ msgstr "V trgovini Google Play"
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__qrcode
 msgid "Qrcode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR koda"
 >>>>>>> upstream/18.0
@@ -377,7 +498,11 @@ msgstr "Prekliči"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Revoke All"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekliči vse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekliči vse"
 >>>>>>> upstream/18.0
@@ -391,7 +516,11 @@ msgstr "Obseg"
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__secret
 msgid "Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skrivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skrivnost"
 >>>>>>> upstream/18.0
@@ -401,7 +530,11 @@ msgstr "Skrivnost"
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "The verification code should only contain numbers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrditvena koda naj vsebuje samo številke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrditvena koda naj vsebuje samo številke"
 >>>>>>> upstream/18.0
@@ -413,6 +546,11 @@ msgid ""
 "                        <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Za prijavo vnesite spodaj šestmestno kodo za preverjanje pristnosti, ki vam jo je posredovala aplikacija Authenticator.\n"
+"                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "Za prijavo vnesite spodaj šestmestno kodo za preverjanje pristnosti, ki vam jo je posredovala aplikacija Authenticator.\n"
 "                        <br/>"
@@ -422,7 +560,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_secret
 msgid "Totp Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Strogo zaupno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strogo zaupno"
 >>>>>>> upstream/18.0
@@ -439,7 +581,11 @@ msgstr "Zaupanja vredne naprave"
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-Factor Authentication Activation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Two-Factor Aktivacija overjanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Two-Factor Aktivacija overjanja"
 >>>>>>> upstream/18.0
@@ -460,6 +606,12 @@ msgid ""
 "                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dvofaktorska avtentikacija (\"2FA\") je sistem dvojne avtentikacije.\n"
+"                        Prvega se lotite z geslom, drugega pa s kodo, ki jo dobite v namenski mobilni aplikaciji.\n"
+"                        Med priljubljenimi so Authy, Google Authenticator ali Microsoft Authenticator."
+>>>>>>> upstream/18.0
 =======
 "Dvofaktorska avtentikacija (\"2FA\") je sistem dvojne avtentikacije.\n"
 "                        Prvega se lotite z geslom, drugega pa s kodo, ki jo dobite v namenski mobilni aplikaciji.\n"
@@ -475,7 +627,11 @@ msgstr "Dvostopenjska avtentikacija"
 #: model_terms:ir.ui.view,arch_db:auth_totp.res_users_view_search
 msgid "Two-factor authentication Disabled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Two-factor Onemogočeno preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Two-factor Onemogočeno preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -484,7 +640,11 @@ msgstr "Two-factor Onemogočeno preverjanje pristnosti"
 #: model_terms:ir.ui.view,arch_db:auth_totp.res_users_view_search
 msgid "Two-factor authentication Enabled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Two-factor Omogočeno preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Two-factor Omogočeno preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -506,7 +666,11 @@ msgstr "Dvostopenjsko avtentikacijo lahko omogočite samo zase"
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication disabled for the following user(s): %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dvofaktorska avtentikacija je onemogočena za naslednje uporabnike: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dvofaktorska avtentikacija je onemogočena za naslednje uporabnike: %s"
 >>>>>>> upstream/18.0
@@ -528,7 +692,11 @@ msgstr "Uporabnik"
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Verification Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrditvena koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrditvena koda"
 >>>>>>> upstream/18.0
@@ -539,7 +707,11 @@ msgstr "Potrditvena koda"
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "Verification failed, please double-check the 6-digit code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preverjanje ni uspelo, prosimo, dvakrat preverite 6-mestno kodo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Preverjanje ni uspelo, prosimo, dvakrat preverite 6-mestno kodo."
 >>>>>>> upstream/18.0
@@ -549,7 +721,11 @@ msgstr "Preverjanje ni uspelo, prosimo, dvakrat preverite 6-mestno kodo."
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "e.g. 123456"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. 123456"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. 123456"
 >>>>>>> upstream/18.0

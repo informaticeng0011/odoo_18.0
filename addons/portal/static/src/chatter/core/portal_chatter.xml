@@ -6,7 +6,11 @@
         <div t-if="props.composer" class="o-mail-Chatter-top position-sticky top-0" t-att-class="{ 'col-lg-6':props.twoColumns, 'bg-view':env.inFrontendPortalChatter }" t-att-style="(!props.twoColumns and env.inFrontendPortalChatter and !env.projectSharingId) and 'top: -1px !important; margin-top:-15px; padding-top: 20px'" t-ref="top">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Composer composer="state.thread.composer" autofocus="env.inFrontendPortalChatter ? false : true" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId"/>
+=======
+            <Composer composer="state.thread.composer" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId" type="'message'"/>
+>>>>>>> upstream/18.0
 =======
             <Composer composer="state.thread.composer" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId" type="'message'"/>
 >>>>>>> upstream/18.0

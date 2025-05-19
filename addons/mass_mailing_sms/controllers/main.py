@@ -100,6 +100,7 @@ class MailingSMSController(http.Controller):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         request.env['link.tracker.click'].sudo().add_click(
             code,
             ip=request.httprequest.remote_addr,
@@ -107,6 +108,8 @@ class MailingSMSController(http.Controller):
             mailing_trace_id=trace_id
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not request.env['ir.http'].is_a_bot():
@@ -117,6 +120,9 @@ class MailingSMSController(http.Controller):
                 mailing_trace_id=trace_id
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

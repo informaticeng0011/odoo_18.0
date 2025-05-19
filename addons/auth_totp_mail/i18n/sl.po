@@ -6,6 +6,10 @@
 # Wil Odoo, 2024
 # Gregor Flajs, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Gregor Flajs, 2025\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -49,7 +57,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Pozdravljeni<t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
@@ -66,6 +77,9 @@ msgstr ""
 "    \n"
 "</div>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
@@ -86,6 +100,11 @@ msgid ""
 "A trusted device has just been removed from your account: %(device_names)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaupanja vredna naprava je bila pravkar odstranjena iz vašega računa:\n"
+"%(device_names)s"
+>>>>>>> upstream/18.0
 =======
 "Zaupanja vredna naprava je bila pravkar odstranjena iz vašega računa:\n"
 "%(device_names)s"
@@ -101,7 +120,11 @@ msgstr "Varnost računa"
 #: model:ir.model,name:auth_totp_mail.model_auth_totp_device
 msgid "Authentication Device"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naprava za preverjanje pristnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naprava za preverjanje pristnosti"
 >>>>>>> upstream/18.0
@@ -110,7 +133,11 @@ msgstr "Naprava za preverjanje pristnosti"
 #: model:mail.template,subject:auth_totp_mail.mail_template_totp_invite
 msgid "Invitation to activate two-factor authentication on your Odoo account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabilo za aktivacijo dvofaktorske avtentikacije v vašem računu Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabilo za aktivacijo dvofaktorske avtentikacije v vašem računu Odoo"
 >>>>>>> upstream/18.0
@@ -123,6 +150,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povabilo za uporabo dvofaktorske avtentikacije je bilo poslano naslednjim uporabnikom:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "Povabilo za uporabo dvofaktorske avtentikacije je bilo poslano naslednjim uporabnikom:\n"
 "%s"
@@ -132,7 +164,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.view_users_form
 msgid "Invite to use 2FA"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabi k uporabi 2FA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabi k uporabi 2FA"
 >>>>>>> upstream/18.0
@@ -141,7 +177,11 @@ msgstr "Povabi k uporabi 2FA"
 #: model:ir.actions.server,name:auth_totp_mail.action_invite_totp
 msgid "Invite to use two-factor authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabilo k uporabi dvofaktorske avtentikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabilo k uporabi dvofaktorske avtentikacije"
 >>>>>>> upstream/18.0
@@ -155,7 +195,11 @@ msgstr "Naziv"
 #: model:ir.actions.server,name:auth_totp_mail.action_activate_two_factor_authentication
 msgid "Open two-factor authentication configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odprite konfiguracijo dvofaktorske avtentikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odprite konfiguracijo dvofaktorske avtentikacije"
 >>>>>>> upstream/18.0
@@ -165,7 +209,11 @@ msgstr "Odprite konfiguracijo dvofaktorske avtentikacije"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Activated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varnostna posodobitev: 2FA aktivirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varnostna posodobitev: 2FA aktivirana"
 >>>>>>> upstream/18.0
@@ -175,7 +223,11 @@ msgstr "Varnostna posodobitev: 2FA aktivirana"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varnostna posodobitev: 2FA deaktivirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varnostna posodobitev: 2FA deaktivirana"
 >>>>>>> upstream/18.0
@@ -191,7 +243,11 @@ msgstr ""
 #: code:addons/auth_totp_mail/models/auth_totp_device.py:0
 msgid "Security Update: Device Removed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varnostna posodobitev: Naprava je bila odstranjena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varnostna posodobitev: Naprava je bila odstranjena"
 >>>>>>> upstream/18.0
@@ -200,7 +256,11 @@ msgstr "Varnostna posodobitev: Naprava je bila odstranjena"
 #: model:mail.template,name:auth_totp_mail.mail_template_totp_invite
 msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitve: Povabilo 2FA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitve: Povabilo 2FA"
 >>>>>>> upstream/18.0
@@ -210,7 +270,11 @@ msgstr "Nastavitve: Povabilo 2FA"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Two-factor authentication has been activated on your account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dvofaktorska avtentikacija je bila aktivirana v vašem računu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dvofaktorska avtentikacija je bila aktivirana v vašem računu"
 >>>>>>> upstream/18.0
@@ -220,7 +284,11 @@ msgstr "Dvofaktorska avtentikacija je bila aktivirana v vašem računu"
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dvofaktorska avtentikacija je bila v vašem računu deaktivirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dvofaktorska avtentikacija je bila v vašem računu deaktivirana"
 >>>>>>> upstream/18.0
@@ -234,7 +302,11 @@ msgstr "Uporabnik"
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.account_security_setting_update
 msgid "activating Two-factor Authentication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aktiviranje dvofaktorske avtentikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "aktiviranje dvofaktorske avtentikacije"
 >>>>>>> upstream/18.0
