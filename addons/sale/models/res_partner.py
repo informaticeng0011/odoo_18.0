@@ -86,11 +86,23 @@ class ResPartner(models.Model):
 
         sale_orders = self.env['sale.order'].search([
             ('company_id', '=', company.id),
+<<<<<<< HEAD
             ('partner_id', 'in', self.ids),
             ('order_line', 'any', [('untaxed_amount_to_invoice', '>', 0)]),
             ('state', '=', 'sale'),
         ])
         for (partner, currency), orders in sale_orders.grouped(lambda so: (so.partner_id, so.currency_id)).items():
+=======
+            ('partner_invoice_id', 'any', [
+                ('commercial_partner_id', 'in', self.commercial_partner_id.ids),
+            ]),
+            ('order_line', 'any', [('untaxed_amount_to_invoice', '>', 0)]),
+            ('state', '=', 'sale'),
+        ])
+        for (partner, currency), orders in sale_orders.grouped(
+            lambda so: (so.partner_invoice_id, so.currency_id),
+        ).items():
+>>>>>>> upstream/18.0
             amount_to_invoice_sum = sum(orders.mapped('amount_to_invoice'))
             credit_company_currency = currency._convert(
                 amount_to_invoice_sum,
@@ -98,7 +110,11 @@ class ResPartner(models.Model):
                 company,
                 fields.Date.context_today(self),
             )
+<<<<<<< HEAD
             partner.credit_to_invoice += credit_company_currency
+=======
+            partner.commercial_partner_id.credit_to_invoice += credit_company_currency
+>>>>>>> upstream/18.0
 
     def unlink(self):
         # Unlink draft/cancelled SO so that the partner can be removed from database

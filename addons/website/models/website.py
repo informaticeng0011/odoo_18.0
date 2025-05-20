@@ -445,6 +445,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _idna_url(self, url):
+        return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
+
+>>>>>>> upstream/18.0
 =======
     def _idna_url(self, url):
         return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
@@ -601,7 +607,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return get_base_domain(url.lower(), True) == get_base_domain(self.domain.lower(), True)
+=======
+        return self._idna_url(url) == self._idna_url(self.domain)
+>>>>>>> upstream/18.0
 =======
         return self._idna_url(url) == self._idna_url(self.domain)
 >>>>>>> upstream/18.0

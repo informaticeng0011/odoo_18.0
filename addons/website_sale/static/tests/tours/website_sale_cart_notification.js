@@ -22,7 +22,11 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
         },
         {
             content: "check that the notification is closed",
+<<<<<<< HEAD
             trigger: "div.position-absolute.w-100.h-100.top-0.pe-none",
+=======
+            trigger: "div.position-fixed.w-100.h-100.top-0.pe-none",
+>>>>>>> upstream/18.0
             run() {
                 if (this.anchor.querySelectorAll("div").length !== 1) {
                     console.error("The cart notification is not closed!");

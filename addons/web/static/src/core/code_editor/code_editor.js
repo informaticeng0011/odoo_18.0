@@ -1,4 +1,17 @@
+<<<<<<< HEAD
 import { Component, onWillDestroy, onWillStart, useEffect, useRef, useState } from "@odoo/owl";
+=======
+import {
+    Component,
+    onMounted,
+    onWillDestroy,
+    onWillStart,
+    status,
+    useEffect,
+    useRef,
+    useState,
+} from "@odoo/owl";
+>>>>>>> upstream/18.0
 import { loadBundle } from "@web/core/assets";
 import { useDebounced } from "@web/core/utils/timing";
 
@@ -42,6 +55,10 @@ export class CodeEditor extends Component {
         },
         maxLines: { type: Number, optional: true },
         sessionId: { type: [Number, String], optional: true },
+<<<<<<< HEAD
+=======
+        initialCursorPosition: { type: Object, optional: true },
+>>>>>>> upstream/18.0
     };
     static defaultProps = {
         readonly: false,
@@ -98,7 +115,14 @@ export class CodeEditor extends Component {
                 session.setValue(this.props.value);
                 session.on("change", () => {
                     if (this.props.onChange && !ignoredAceChange) {
+<<<<<<< HEAD
                         this.props.onChange(this.aceEditor.getValue());
+=======
+                        this.props.onChange(
+                            this.aceEditor.getValue(),
+                            this.aceEditor.getCursorPosition()
+                        );
+>>>>>>> upstream/18.0
                     }
                 });
                 this.aceEditor.on("blur", () => {
@@ -158,7 +182,14 @@ export class CodeEditor extends Component {
                     });
                     session.on("change", () => {
                         if (this.props.onChange && !ignoredAceChange) {
+<<<<<<< HEAD
                             this.props.onChange(this.aceEditor.getValue());
+=======
+                            this.props.onChange(
+                                this.aceEditor.getValue(),
+                                this.aceEditor.getCursorPosition()
+                            );
+>>>>>>> upstream/18.0
                         }
                     });
                     sessions[sessionId] = session;
@@ -176,5 +207,27 @@ export class CodeEditor extends Component {
         }, 250);
 
         onResized(this.editorRef, debouncedResize);
+<<<<<<< HEAD
+=======
+
+        const initialCursorPosition = this.props.initialCursorPosition;
+        if (initialCursorPosition) {
+            onMounted(() => {
+                // Wait for ace to be fully operational
+                window.requestAnimationFrame(() => {
+                    if (status(this) != "destroyed" && this.aceEditor) {
+                        this.aceEditor.focus();
+                        const { row, column } = initialCursorPosition;
+                        const pos = {
+                            row: row || 0,
+                            column: column || 0,
+                        };
+                        this.aceEditor.selection.moveToPosition(pos);
+                        this.aceEditor.renderer.scrollCursorIntoView(pos, 0.5);
+                    }
+                });
+            });
+        }
+>>>>>>> upstream/18.0
     }
 }

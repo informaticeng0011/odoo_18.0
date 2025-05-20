@@ -147,6 +147,7 @@ class SaleOrder(models.Model):
         if values.get('order_line') and self.state == 'sale':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             rounding = self.env['decimal.precision'].precision_get('Product Unit of Measure')
             for order in self:
                 to_log = {}
@@ -157,6 +158,8 @@ class SaleOrder(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for order in self:
                 to_log = {}
                 order.order_line.fetch(['product_uom', 'product_uom_qty', 'display_type', 'is_downpayment'])
@@ -165,6 +168,9 @@ class SaleOrder(models.Model):
                         continue
                     if float_compare(order_line.product_uom_qty, pre_order_line_qty.get(order_line, 0.0), precision_rounding=order_line.product_uom.rounding) < 0:
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

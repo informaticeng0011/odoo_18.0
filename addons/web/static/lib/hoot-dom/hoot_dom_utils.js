@@ -53,8 +53,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95,6 +98,9 @@ const DEBUG_NAMESPACE = "hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147,6 +153,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeInteractorFn = (type, fn, name) =>
     ({
         [name](...args) {
@@ -175,6 +182,8 @@ const makeInteractorFn = (type, fn, name) =>
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @param  {...any} helpers
  */
@@ -191,6 +200,9 @@ export function exposeHelpers(...helpers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -253,6 +265,7 @@ export function isIterable(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} filter
  * @returns {boolean}
  */
@@ -261,6 +274,8 @@ export function isRegExpFilter(filter) {
 }
 
 /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -281,11 +296,14 @@ export function parseRegExp(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const regexParams = value.match(R_REGEX_PATTERN);
     if (regexParams) {
         const unified = regexParams[1].replace(/\s+/g, "\\s+");
         const flag = regexParams[2] || "i";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -302,6 +320,9 @@ export function parseRegExp(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -346,10 +367,13 @@ export function toSelector(node, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -388,6 +412,9 @@ export const R_WHITE_SPACE = /\s+/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

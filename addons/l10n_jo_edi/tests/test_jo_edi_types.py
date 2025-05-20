@@ -250,7 +250,10 @@ class TestJoEdiTypes(JoEdiCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -308,6 +311,9 @@ class TestJoEdiTypes(JoEdiCommon):
             self.get_xml_tree_from_string(expected_file)
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

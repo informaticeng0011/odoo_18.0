@@ -1586,6 +1586,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
         :return: The route to redirect the customer to.
         :rtype: str
         """
+<<<<<<< HEAD
+=======
+        # TODO: remove me in master with call site, not used in standard codebase anymore.
+>>>>>>> upstream/18.0
         return ''
 
     def _handle_extra_form_data(self, extra_form_data, address_values):
@@ -1683,7 +1687,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0

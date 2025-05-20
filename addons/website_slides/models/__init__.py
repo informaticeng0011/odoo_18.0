@@ -2,6 +2,10 @@
 
 from . import gamification_challenge
 from . import gamification_karma_tracking
+<<<<<<< HEAD
+=======
+from . import ir_binary
+>>>>>>> upstream/18.0
 from . import slide_slide
 from . import slide_question
 from . import slide_embed

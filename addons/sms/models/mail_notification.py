@@ -15,7 +15,11 @@ class MailNotification(models.Model):
     sms_id = fields.Many2one('sms.sms', string='SMS', store=False, compute='_compute_sms_id')
     sms_tracker_ids = fields.One2many('sms.tracker', 'mail_notification_id', string="SMS Trackers")
 <<<<<<< HEAD
+<<<<<<< HEAD
     sms_number = fields.Char('SMS Number')
+=======
+    sms_number = fields.Char('SMS Number', groups='base.group_user')
+>>>>>>> upstream/18.0
 =======
     sms_number = fields.Char('SMS Number', groups='base.group_user')
 >>>>>>> upstream/18.0

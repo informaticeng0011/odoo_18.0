@@ -32,6 +32,10 @@ export class DomainSelector extends Component {
         isDebugMode: { type: Boolean, optional: true },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         allowExpressions: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -46,6 +50,10 @@ export class DomainSelector extends Component {
         isDebugMode: false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: true,
+>>>>>>> upstream/18.0
 =======
         allowExpressions: true,
 >>>>>>> upstream/18.0
@@ -125,12 +133,15 @@ export class DomainSelector extends Component {
     getDefaultOperator(fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return getDomainDisplayedOperators(fieldDef)[0];
     }
 
     getOperatorEditorInfo(fieldDef) {
         const operators = getDomainDisplayedOperators(fieldDef);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return getDomainDisplayedOperators(fieldDef, {
@@ -143,6 +154,9 @@ export class DomainSelector extends Component {
             allowExpressions: this.props.allowExpressions,
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

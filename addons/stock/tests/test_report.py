@@ -29,7 +29,11 @@ from datetime import date, datetime, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, TransactionCase
+=======
+from odoo.tests import Form, tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -134,7 +138,10 @@ class TestReportsCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149,6 +156,9 @@ class TestReportsCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2107,7 +2117,10 @@ class TestReports(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2168,8 +2181,12 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         serial_product = self.env['product.product'].create({'name': 'simple prod', 'is_storable': True})
         serial_product.tracking = 'serial'
+=======
+        serial_product = self.serial_product
+>>>>>>> upstream/18.0
 =======
         serial_product = self.serial_product
 >>>>>>> upstream/18.0
@@ -2232,6 +2249,7 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2276,6 +2294,8 @@ class TestReportsPostInstall(TestReportsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2332,6 +2352,9 @@ class TestReportsPostInstall(TestReportsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

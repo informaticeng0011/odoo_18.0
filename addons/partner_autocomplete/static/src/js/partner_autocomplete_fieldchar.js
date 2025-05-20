@@ -98,7 +98,13 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
+=======
+        if (data.company.name) {
+            await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
+        }
+>>>>>>> upstream/18.0
 =======
         if (data.company.name) {
             await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved

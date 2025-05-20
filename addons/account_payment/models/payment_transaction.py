@@ -189,6 +189,13 @@ class PaymentTransaction(models.Model):
                         payment_values['write_off_line_vals'] += [aml_vl]
                 break
 
+<<<<<<< HEAD
+=======
+        payment_term_lines = self.invoice_ids.line_ids.filtered(lambda line: line.display_type == 'payment_term')
+        if payment_term_lines:
+            payment_values['destination_account_id'] = payment_term_lines[0].account_id.id
+
+>>>>>>> upstream/18.0
         payment = self.env['account.payment'].create(payment_values)
         payment.action_post()
 

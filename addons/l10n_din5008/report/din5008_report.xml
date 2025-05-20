@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-if="company.name">
                                         <span t-field="company.name"/>
                                     </t>
@@ -78,6 +79,8 @@
                                         <span>|</span> <span t-field="company.country_id.name"/>
                                     </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113,6 +116,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -181,6 +187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
                                     <ul class="list-inline text-nowrap">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
@@ -188,6 +195,8 @@
                                 </td>
                                 <td>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -242,6 +251,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -296,7 +308,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
+=======
+                                <td colspan="2">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2">
 >>>>>>> upstream/18.0
@@ -373,7 +389,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td t-if="company.partner_id.bank_ids">
+=======
+                                <td colspan="2" t-if="company.partner_id.bank_ids">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2" t-if="company.partner_id.bank_ids">
 >>>>>>> upstream/18.0
@@ -460,7 +480,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     > span {
+=======
+                                    .colored_address {
+>>>>>>> upstream/18.0
 =======
                                     .colored_address {
 >>>>>>> upstream/18.0

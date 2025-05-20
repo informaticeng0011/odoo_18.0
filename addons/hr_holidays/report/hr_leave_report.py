@@ -49,8 +49,13 @@ class LeaveReport(models.Model):
                 leaves.date_from as date_from,
                 leaves.date_to as date_to, leaves.company_id
                 from (select
+<<<<<<< HEAD
                     allocation.id as allocation_id,
                     null as leave_id,
+=======
+                    null as leave_id,
+                    allocation.id as allocation_id,
+>>>>>>> upstream/18.0
                     allocation.employee_id as employee_id,
                     allocation.name as name,
                     allocation.number_of_days as number_of_days,

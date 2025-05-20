@@ -10,7 +10,11 @@
                         <div class="col-6">
                             <t t-set="information_block">
                                 <div groups="account.group_delivery_invoice_address" name="shipping_address_block">
+<<<<<<< HEAD
                                     <strong>Shipping Address</strong>
+=======
+                                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
                                     <div t-field="o.partner_shipping_id" t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}'/>
                                 </div>
                             </t>
@@ -70,7 +74,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div id="informations" class="row mb-4">
+=======
+                        <div
+                            id="informations" class="row mb-4"
+                            t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
+>>>>>>> upstream/18.0
 =======
                         <div
                             id="informations" class="row mb-4"

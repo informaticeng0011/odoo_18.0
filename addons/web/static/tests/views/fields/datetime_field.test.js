@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { click, edit, queryAll, queryAllTexts, select } from "@odoo/hoot-dom";
+=======
+import { after, expect, test } from "@odoo/hoot";
+import {
+    click,
+    edit,
+    queryAll,
+    queryAllProperties,
+    queryAllTexts,
+    resize,
+    select,
+} from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { animationFrame, mockTimeZone } from "@odoo/hoot-mock";
 import {
     clickSave,
@@ -10,7 +23,10 @@ import {
     mountView,
     onRpc,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 import {
     getPickerApplyButton,
     getPickerCell,
@@ -18,6 +34,10 @@ import {
     zoomOut,
 } from "@web/../tests/core/datetime/datetime_test_helpers";
 
+<<<<<<< HEAD
+=======
+import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 class Partner extends models.Model {
     date = fields.Date({ string: "A date", searchable: true });
     datetime = fields.Datetime({ string: "A datetime", searchable: true });
@@ -40,7 +60,22 @@ class Partner extends models.Model {
         },
     ];
 }
+<<<<<<< HEAD
 defineModels([Partner]);
+=======
+
+class User extends models.Model {
+    _name = "res.users";
+
+    name = fields.Char();
+
+    has_group() {
+        return true;
+    }
+}
+
+defineModels([Partner, User]);
+>>>>>>> upstream/18.0
 
 test("DatetimeField in form view", async () => {
     mockTimeZone(+2); // UTC+2
@@ -621,3 +656,26 @@ test("datetime field in kanban view with condensed option", async () => {
     const expectedDateString = "2/8/2017 8:00:00"; // 10:00:00 without timezone
     expect(".o_kanban_record:first").toHaveText(expectedDateString);
 });
+<<<<<<< HEAD
+=======
+
+test("list datetime: column widths (show_time=false)", async () => {
+    await resize({ width: 800 });
+    document.body.style.fontFamily = "sans-serif";
+    resetDateFieldWidths();
+    after(resetDateFieldWidths);
+
+    await mountView({
+        type: "list",
+        resModel: "partner",
+        arch: /* xml */ `
+            <list>
+                <field name="datetime" widget="datetime" options="{'show_time': false }" />
+                <field name="display_name" />
+            </list>`,
+    });
+
+    expect(queryAllTexts(".o_data_row:eq(0) .o_data_cell")).toEqual(["02/08/2017", "partner,1"]);
+    expect(queryAllProperties(".o_list_table thead th", "offsetWidth")).toEqual([40, 81, 679]);
+});
+>>>>>>> upstream/18.0

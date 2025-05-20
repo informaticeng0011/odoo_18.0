@@ -1021,7 +1021,11 @@ class WebsiteSlides(WebsiteProfile):
         if field not in ('image_128', 'image_256', 'image_512', 'image_1024', 'image_1920'):
             return werkzeug.exceptions.Forbidden()
 
+<<<<<<< HEAD
         slide = request.env['slide.slide'].sudo().browse(slide_id).exists()
+=======
+        slide = request.env['slide.slide'].search([('id', '=', int(slide_id))])
+>>>>>>> upstream/18.0
         if not slide:
             raise werkzeug.exceptions.NotFound()
 

@@ -3139,7 +3139,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
     def test_invoice_first_receipt_later_with_multicurrency_different_dates(self):
         """Ensure sure that use currency rate at bill date rather than the current date when invoice before receipt"""
         company = self.env.user.company_id
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
         company.currency_id = self.usd_currency
 
         self.product1.is_storable = True
@@ -3148,7 +3152,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
         self.product1.with_company(company).categ_id.property_cost_method = 'fifo'
         self.product1.with_company(company).categ_id.property_valuation = 'real_time'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
         po_date = '2023-10-01'
         bill_date = '2023-10-15'
         receipt_date = '2023-10-31'
@@ -3206,6 +3213,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             receipt.move_ids.write({'quantity': 1.0})
             receipt.button_validate()
 
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -3225,6 +3233,22 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             # pylint: disable=bad-whitespace
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
+=======
+        payable_id = self.company_data['default_account_payable'].id
+        stock_in_id = self.stock_input_account.id
+        stock_valuation = self.stock_valuation_account.id
+
+        # 1 Units invoiced at rate 2 and unit price 100 = 50
+        amls = self.env["account.move.line"].search([('parent_state', '=', 'posted')], order="id asc")
+        self.assertRecordValues(amls, [
+            # pylint: disable=bad-whitespace
+            # Bill Lines
+            {'debit': 50.0, 'credit': 0,    'reconciled': True,  'amount_currency': 100.0, 'account_id': stock_in_id},
+            {'debit': 0,    'credit': 50.0, 'reconciled': False, 'amount_currency': -100.0, 'account_id': payable_id},
+            # Receipt Lines
+            {'debit': 0,    'credit': 50.0, 'reconciled': True,  'amount_currency': -100.0, 'account_id': stock_in_id},
+            {'debit': 50.0, 'credit': 0,    'reconciled': False, 'amount_currency': 100.0,  'account_id': stock_valuation},
+>>>>>>> upstream/18.0
         ])
 
     def test_analytic_distribution_propagation_with_exchange_difference(self):

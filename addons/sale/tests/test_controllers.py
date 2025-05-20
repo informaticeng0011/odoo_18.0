@@ -68,7 +68,10 @@ class TestAccessRightsControllers(BaseUsersCommon, HttpCase, SaleCommon):
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 class TestSalesControllers(BaseUsersCommon, HttpCase, SaleCommon):
@@ -89,6 +92,9 @@ class TestSalesControllers(BaseUsersCommon, HttpCase, SaleCommon):
 
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
