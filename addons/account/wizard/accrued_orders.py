@@ -168,7 +168,11 @@ class AccruedExpenseRevenue(models.TransientModel):
                     # We only want lines that are not sections or notes and include all lines
                     # for purchase orders but exclude downpayment lines for sales orders.
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lambda l: l.display_type not in ['line_section', 'line_note'] and (is_purchase or not l.is_downpayment) and
+=======
+                    lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
+>>>>>>> upstream/18.0
 =======
                     lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
 >>>>>>> upstream/18.0

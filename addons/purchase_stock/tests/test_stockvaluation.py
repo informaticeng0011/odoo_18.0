@@ -3140,7 +3140,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
         """Ensure sure that use currency rate at bill date rather than the current date when invoice before receipt"""
         company = self.env.user.company_id
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
 =======
         company.anglo_saxon_accounting = True
 >>>>>>> upstream/18.0
@@ -3153,7 +3157,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
         self.product1.with_company(company).categ_id.property_valuation = 'real_time'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         po_date = '2023-10-01'
@@ -3214,6 +3221,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             receipt.button_validate()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -3234,6 +3242,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
 =======
+=======
+>>>>>>> upstream/18.0
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = self.stock_input_account.id
         stock_valuation = self.stock_valuation_account.id
@@ -3248,6 +3258,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             # Receipt Lines
             {'debit': 0,    'credit': 50.0, 'reconciled': True,  'amount_currency': -100.0, 'account_id': stock_in_id},
             {'debit': 50.0, 'credit': 0,    'reconciled': False, 'amount_currency': 100.0,  'account_id': stock_valuation},
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ])
 

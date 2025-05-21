@@ -12,7 +12,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Daniel Reis, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Daniel Reis, 2025
+>>>>>>> upstream/18.0
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -67,7 +74,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Maitê Dietze, 2025\n"
+=======
+"Last-Translator: Daniel Reis, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Daniel Reis, 2025\n"
 >>>>>>> upstream/18.0
@@ -101,7 +112,11 @@ msgid ""
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
 "\n"
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Solicitação de cotação  - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Pedido de orçamento - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 "                'Pedido de compra - %s' % (object.name))"
 
 #. module: purchase
@@ -130,7 +145,11 @@ msgstr "%(vendor)s confirmou que o recebimento ocorrerá em %(date)s."
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
+<<<<<<< HEAD
 msgstr "%s modificou as datas de recebimento para os seguintes produtos:"
+=======
+msgstr "%s modificou as datas de recebimento para os seguintes artigo:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -141,7 +160,11 @@ msgstr "&amp;nbsp;"
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.report_purchase_quotation
 msgid "'Request for Quotation - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr "'Solicitação de cotação - %s' % (object.name)"
+=======
+msgstr "'Pedido de Orçamento - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -341,7 +364,11 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Request for Quotation #</span>\n"
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span class=\"d-none d-md-inline\">Solicitação de cotação nº</span>\n"
+=======
+"<span class=\"d-none d-md-inline\">Pedido de Orçamento nº</span>\n"
+>>>>>>> upstream/18.0
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
 
 #. module: purchase
@@ -491,7 +518,11 @@ msgstr "<strong>Endereço de Entrega:</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Shipping address</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Endereço de entrega:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -516,12 +547,20 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been accepted.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Este orçamento foi aceite.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been declined.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Este orçamento foi recusado.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -651,7 +690,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
+<<<<<<< HEAD
 msgstr "Adicione alguns produtos ou serviços à vossa cotação."
+=======
+msgstr "Adicione alguns artigos ou serviços ao orçamento."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
@@ -965,7 +1008,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Catálogo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Catálogo"
 >>>>>>> upstream/18.0
@@ -1274,7 +1321,11 @@ msgid ""
 "arrival of products."
 msgstr ""
 "Data de entrega prometida pelo fornecedor. Esta data é usada para determinar"
+<<<<<<< HEAD
 " a expectativa de chegada dos produtos."
+=======
+" a expectativa de chegada dos artigos."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_order
@@ -1283,7 +1334,11 @@ msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
 msgstr ""
+<<<<<<< HEAD
 "Representa até quando a cotação deve ser confirmada e convertida em um "
+=======
+"Representa até quando o orçamento deve ser confirmado e convertido num "
+>>>>>>> upstream/18.0
 "pedido de compra."
 
 #. module: purchase
@@ -1539,8 +1594,13 @@ msgid ""
 "If installed, the product variants will be added to purchase orders through "
 "a grid entry."
 msgstr ""
+<<<<<<< HEAD
 "Se instalado, as variantes do produto serão adicionadas aos pedidos de "
 "compra por meio de uma entrada na grade."
+=======
+"Se instalado, as variantes do artigo serão adicionadas aos pedidos de compra"
+" por meio de uma grelha de entrada."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_packaging__purchase
@@ -1582,7 +1642,11 @@ msgstr "Incoterm"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
+<<<<<<< HEAD
 msgstr "Indique a quantidade de produtos que deseja comprar."
+=======
+msgstr "Indique a quantidade de artigos que deseja comprar."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__incoterm_id
@@ -1676,7 +1740,11 @@ msgstr "Prazo para compra"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
+<<<<<<< HEAD
 msgstr "Crie a primeira solicitação de cotação."
+=======
+msgstr "Crie o primeiro pedido de orçamento."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
@@ -1765,8 +1833,13 @@ msgid ""
 " to cope with unexpected vendor delays."
 msgstr ""
 "A margem de erro para os tempos de entrega de fornecedor. Quando o sistema "
+<<<<<<< HEAD
 "gera ordens de compra para a aquisição de produtos, estes são agendados para"
 " vários dias antes, para lidar com atrasos inesperados de fornecedores."
+=======
+"gera ordens de compra para a aquisição de artigos, estes são agendados para "
+"vários dias antes, para lidar com atrasos inesperados de fornecedores."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__use_po_lead
@@ -1919,7 +1992,11 @@ msgstr "Sem análise de compra"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_normal_action_puchased
 msgid "No product found. Let's create one!"
+<<<<<<< HEAD
 msgstr "Nenhum produto encontrado. Vamos criar o primeiro!"
+=======
+msgstr "Nenhum artigo encontrado. Vamos criar o primeiro!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
@@ -1929,12 +2006,20 @@ msgstr "Nenhum pedido de compra encontrado. Vamos criar o primeiro!"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_history
 msgid "No purchase order were made for this product yet!"
+<<<<<<< HEAD
 msgstr "Nenhum pedido de compra foi realizado para este produto ainda."
+=======
+msgstr "Ainda não foi realizado nenhum pedido de compra para este artigo."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid "No request for quotation found. Let's create one!"
+<<<<<<< HEAD
 msgstr "Nenhuma solicitação de cotação encontrada. Vamos criar a primeira!"
+=======
+msgstr "Nenhum pedido de orçamento encontrado. Vamos criar o primeiro!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__priority__0
@@ -2035,8 +2120,13 @@ msgid ""
 "Once you ordered your products to your supplier, confirm your request for "
 "quotation and it will turn into a purchase order."
 msgstr ""
+<<<<<<< HEAD
 "Após fazer o pedido dos seus produtos ao fornecedor, confirme a solicitação "
 "de cotação e ela se tornará um pedido de compra."
+=======
+"Após fazer o pedido dos seus artigos ao fornecedor, confirme o pedido de "
+"orçamento e ele se tornará um pedido de compra."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2107,7 +2197,11 @@ msgid "Order due %(date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Encomenda prazo %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Encomenda prazo %(date)s"
 >>>>>>> upstream/18.0
@@ -2500,7 +2594,11 @@ msgstr "Encomendas que incluem linhas não faturadas."
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase products by multiple of unit # per package"
+<<<<<<< HEAD
 msgstr "Comprar produtos em múltiplos do número de unidades por embalagem"
+=======
+msgstr "Comprar artigo em múltiplos do número de unidades por embalagem"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.purchase_send_reminder_mail_ir_actions_server
@@ -2510,7 +2608,11 @@ msgstr "Lembrete de compra"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase variants of a product using attributes (size, color, etc.)"
+<<<<<<< HEAD
 msgstr "Compre variantes de um produto usando atributos (tamanho, cor etc.)"
+=======
+msgstr "Compre variantes de um artigo usando atributos (tamanho, cor etc.)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase_done
@@ -2520,7 +2622,11 @@ msgstr "Compra: Nota de encomenda"
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase
 msgid "Purchase: Request For Quotation"
+<<<<<<< HEAD
 msgstr "Compra: solicitação de cotação"
+=======
+msgstr "Compra: Pedido de Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase_reminder
@@ -2819,7 +2925,11 @@ msgstr "Solicite que gerentes aprovem pedidos acima de um valor mínimo"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "Requests For Quotation"
+<<<<<<< HEAD
 msgstr "Solicitações de cotação"
+=======
+msgstr "Pedidos de Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_rfq_form
@@ -2829,7 +2939,11 @@ msgstr "Solicitações de cotação"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Requests for Quotation"
+<<<<<<< HEAD
 msgstr "Solicitações de cotação"
+=======
+msgstr "Pedidos de Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
@@ -2837,8 +2951,13 @@ msgid ""
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
+<<<<<<< HEAD
 "As solicitações de cotação são documentos que serão enviados aos seus fornecedores para solicitar preços de diferentes produtos que pretende comprar.\n"
 "                Ao chegar a um acordo com o fornecedor, elas serão confirmadas e transformadas em pedidos de compra."
+=======
+"Os pedidos de orçamento são documentos que serão enviados aos seus fornecedores para solicitar preços de diferentes artigos que pretende comprar.\n"
+"                Ao chegar a um acordo com o fornecedor, eles serão confirmadas e transformadas em pedidos de compra."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_user_id
@@ -2881,7 +3000,11 @@ msgstr "Secção"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Section Name (eg. Products, Services)"
+<<<<<<< HEAD
 msgstr "Nome da seção (ex., produtos, serviços)"
+=======
+msgstr "Nome da seção (ex., Artigos, Serviços)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__use_po_lead
@@ -2903,7 +3026,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
+<<<<<<< HEAD
 msgstr "Selecione um produto ou crie um novo rapidamente."
+=======
+msgstr "Selecione um artigo ou crie um novo rapidamente."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
@@ -2953,12 +3080,20 @@ msgstr "Enviar por E-mail"
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
+<<<<<<< HEAD
 msgstr "Envie a solicitação de cotação ao seu fornecedor."
+=======
+msgstr "Envie o pedido de orçamento ao seu fornecedor."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase
 msgid "Sent manually to vendor to request a quotation"
+<<<<<<< HEAD
 msgstr "Enviado manualmente ao fornecedor para solicitar uma cotação"
+=======
+msgstr "Enviado manualmente ao fornecedor para pedir um orçamento"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase_done
@@ -3193,7 +3328,11 @@ msgid ""
 msgstr ""
 "O pedido de orçamento é a primeira etapa do fluxo compras. Assim que é\n"
 "                    convertido num pedido de compra, ficará capaz de controlar a receção\n"
+<<<<<<< HEAD
 "                    dos artigos e a factura de fornecedor."
+=======
+"                    dos artigos e a fatura de fornecedor."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3211,7 +3350,11 @@ msgstr "Não há pedidos de compra para a vossa conta no momento."
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "There are currently no requests for quotation for your account."
+<<<<<<< HEAD
 msgstr "Não há solicitações de cotação para a vossa conta no momento."
+=======
+msgstr "De momento não há pedidos de orçamento na sua conta."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3227,9 +3370,15 @@ msgid ""
 "There is no invoiceable line. If a product has a control policy based on "
 "received quantity, please make sure that a quantity has been received."
 msgstr ""
+<<<<<<< HEAD
 "Não há nenhuma linha faturável. Se um produto possui uma política de "
 "controle baseada na quantidade recebida, certifique-se de que a quantidade "
 "foi recebida."
+=======
+"Não há nenhuma linha faturável. Se um artigo possui uma política de controle"
+" baseada na quantidade recebida, certifique-se de que a quantidade foi "
+"recebida."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
@@ -3272,7 +3421,11 @@ msgid ""
 "This product is packaged by %(pack_size).2f %(pack_name)s. You should "
 "purchase %(quantity).2f %(unit)s."
 msgstr ""
+<<<<<<< HEAD
 "O produto é embalado por %(pack_size).2f%(pack_name)s. É necessário comprar "
+=======
+"O artigo é embalado por %(pack_size).2f%(pack_name)s. É necessário comprar "
+>>>>>>> upstream/18.0
 "%(quantity).2f%(unit)s."
 
 #. module: purchase
@@ -3609,7 +3762,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "View Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ver Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3691,8 +3848,13 @@ msgid ""
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Ao criar um pedido de compra, confira a taxa de <i>entrega dentro do "
+<<<<<<< HEAD
 "prazo</i> do fornecedor: a porcentagem de produtos enviados dentro do prazo."
 " Se estiver muito baixa, ative os <i>lembretes automáticos</i>. Poucos dias "
+=======
+"prazo</i> do fornecedor: a percentagem de artigos enviados dentro do prazo. "
+"Se estiver muito baixa, ative os <i>lembretes automáticos</i>. Poucos dias "
+>>>>>>> upstream/18.0
 "antes do prazo de envio, o Odoo enviará ao fornecedor um e-mail para "
 "solicitar a confirmação das datas de envio e para mantê-lo informado em caso"
 " de atrasos. Para obter as estatísticas de desempenho do fornecedor, clique "
@@ -3756,7 +3918,11 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "            whether it's a storable product, a consumable or a service."
 msgstr ""
+<<<<<<< HEAD
 "É necessário definir um produto para tudo que se vende ou compra,\n"
+=======
+"É necessário definir um artigo para tudo que se vende ou compra,\n"
+>>>>>>> upstream/18.0
 "            seja um produto armazenável, um consumível ou um serviço."
 
 #. module: purchase
@@ -3773,8 +3939,13 @@ msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
+<<<<<<< HEAD
 "A cotação contém produtos da empresa %(product_company)s Considerando que vossa cotação pertence à empresa %(quote_company)s,\n"
 "mude a empresa da cotação ou remova os produtos de outras empresas (%(bad_products)s)."
+=======
+"O orçamento contém artigo da empresa %(product_company)s Considerando que o orçamento pertence à empresa %(quote_company)s,\n"
+"mude a empresa do orçamento ou remova os artigos de outras empresas (%(bad_products)s)."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order

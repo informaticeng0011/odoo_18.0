@@ -4,6 +4,10 @@ import base64
 
 from odoo import http
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_mimetypes import PNG
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_mimetypes import PNG
 >>>>>>> upstream/18.0
@@ -322,7 +326,10 @@ class TestAccess(common.SlidesCase):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class TestAccessHttp(common.SlidesCase, HttpCase):
     @mute_logger('odoo.models', 'odoo.addons.base.models.ir_rule', 'odoo.http')
     def test_access_slide_attachment(self):
@@ -429,6 +436,9 @@ class TestAccessHttp(common.SlidesCase, HttpCase):
         can_read_slides_content(self.user_portal, False)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('functional', 'security')
 class TestRemoveMembership(common.SlidesCase):

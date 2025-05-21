@@ -3643,7 +3643,11 @@ class BaseModel(metaclass=MetaModel):
                 # and losing data
                 translate = next((
 <<<<<<< HEAD
+<<<<<<< HEAD
                     field.args['translate'] for field in reversed(fields_) if 'translate' in field.args
+=======
+                    field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
+>>>>>>> upstream/18.0
 =======
                     field._args__['translate'] for field in reversed(fields_) if 'translate' in field._args__
 >>>>>>> upstream/18.0
@@ -3657,7 +3661,11 @@ class BaseModel(metaclass=MetaModel):
             else:
                 Field = type(fields_[-1])
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._add_field(name, Field(_base_fields=fields_))
+=======
+                self._add_field(name, Field(_base_fields=tuple(fields_)))
+>>>>>>> upstream/18.0
 =======
                 self._add_field(name, Field(_base_fields=tuple(fields_)))
 >>>>>>> upstream/18.0
@@ -7075,6 +7083,12 @@ class BaseModel(metaclass=MetaModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __deepcopy__(self, memo):
+        return self
+
+>>>>>>> upstream/18.0
 =======
     def __deepcopy__(self, memo):
         return self

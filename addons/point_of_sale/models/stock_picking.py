@@ -127,7 +127,11 @@ class StockPicking(models.Model):
             if rec.pos_order_id.shipping_date and not rec.pos_order_id.to_invoice:
                 cost_per_account = defaultdict(lambda: 0.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for line in rec.pos_order_id.lines:
+=======
+                for line in rec.move_line_ids:
+>>>>>>> upstream/18.0
 =======
                 for line in rec.move_line_ids:
 >>>>>>> upstream/18.0
@@ -136,7 +140,13 @@ class StockPicking(models.Model):
                     out = line.product_id.categ_id.property_stock_account_output_categ_id
                     exp = line.product_id._get_product_accounts()['expense']
 <<<<<<< HEAD
+<<<<<<< HEAD
                     cost_per_account[(out, exp)] += line.total_cost
+=======
+                    line_cost = next(iter(line.move_id._get_price_unit().values())) * line.quantity_product_uom
+                    if line_cost != 0:
+                        cost_per_account[out, exp] += line_cost
+>>>>>>> upstream/18.0
 =======
                     line_cost = next(iter(line.move_id._get_price_unit().values())) * line.quantity_product_uom
                     if line_cost != 0:

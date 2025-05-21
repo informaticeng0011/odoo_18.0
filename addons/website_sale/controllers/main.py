@@ -1587,6 +1587,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
         :rtype: str
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # TODO: remove me in master with call site, not used in standard codebase anymore.
+>>>>>>> upstream/18.0
 =======
         # TODO: remove me in master with call site, not used in standard codebase anymore.
 >>>>>>> upstream/18.0
@@ -1688,7 +1692,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0

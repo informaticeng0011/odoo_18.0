@@ -510,6 +510,12 @@ msgid ""
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
 "'weekly')\">Repeat on</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">חזרה ב</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
@@ -705,7 +711,11 @@ msgstr "זמין/פנוי"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__awaiting_count
 msgid "Awaiting Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר ממתינים"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__base_event_id
@@ -761,7 +771,11 @@ msgstr "מידע על משתתפי לוח השנה"
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view_calendar_default_privacy
 msgid "Calendar Default Privacy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרטיות ברירת מחדל של יומן"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
@@ -945,7 +959,11 @@ msgstr "נוצר ב-"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_attendee
 msgid "Current Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משתתף נוכחי"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type_ui__custom
@@ -1002,7 +1020,11 @@ msgstr "דחה"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__declined_count
 msgid "Declined Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר סירובים "
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2145,7 +2167,11 @@ msgstr "תאריך עצירה של אירוע, ללא זמן לאירועים ש
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפסק סינכרון"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
@@ -2173,7 +2199,11 @@ msgstr "יום ראשון"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סינכרון הופסק"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -2487,7 +2517,11 @@ msgstr "עליך לבחור לפחות יום אחד בשבוע"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_renderer.xml:0
 msgid "You're alone in this meeting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הנך לבד בפגישה זו"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript

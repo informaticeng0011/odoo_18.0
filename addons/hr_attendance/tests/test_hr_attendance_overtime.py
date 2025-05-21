@@ -390,12 +390,15 @@ class TestHrAttendanceOvertime(TransactionCase):
             'auto_check_out_tolerance': 1
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.attendance'].create({
             'employee_id': self.employee.id,
             'check_in': datetime(2024, 2, 1, 8, 0),
             'check_out': datetime(2024, 2, 1, 13, 0)
         })
 =======
+=======
+>>>>>>> upstream/18.0
         self.env['hr.attendance'].create([{
             'employee_id': self.employee.id,
             'check_in': datetime(2024, 2, 1, 8, 0),
@@ -407,6 +410,9 @@ class TestHrAttendanceOvertime(TransactionCase):
             'check_out': datetime(2024, 2, 1, 13, 0)
         }
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         attendance_utc_pending = self.env['hr.attendance'].create({
@@ -444,7 +450,10 @@ class TestHrAttendanceOvertime(TransactionCase):
         self.assertEqual(attendance_jpn_pending.check_out, datetime(2024, 2, 1, 21, 0))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_auto_check_out_lunch_period(self):
         Attendance = self.env['hr.attendance']
         self.company.write({
@@ -495,6 +504,9 @@ class TestHrAttendanceOvertime(TransactionCase):
             self.assertEqual(att.worked_hours, 8)
             self.assertEqual(att.check_out, datetime(2025, 3, 12, 17, 0))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @freeze_time("2024-02-1 14:00:00")
     def test_absence_management(self):

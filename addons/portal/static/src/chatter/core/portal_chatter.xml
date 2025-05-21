@@ -8,7 +8,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Composer composer="state.thread.composer" autofocus="env.inFrontendPortalChatter ? false : true" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId"/>
+=======
+            <Composer composer="state.thread.composer" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId" type="'message'"/>
+>>>>>>> upstream/18.0
 =======
             <Composer composer="state.thread.composer" mode="'extended'" onPostCallback.bind="onPostCallback" dropzoneRef="rootRef" t-key="props.threadId" type="'message'"/>
 >>>>>>> upstream/18.0

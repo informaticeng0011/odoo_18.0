@@ -49,7 +49,11 @@ class IrActionsReport(models.Model):
     def _is_invoice_report(self, report_ref):
         report = self._get_report(report_ref)
 <<<<<<< HEAD
+<<<<<<< HEAD
         return report.is_invoice_report or report.report_name == 'account.report_invoice'
+=======
+        return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
+>>>>>>> upstream/18.0
 =======
         return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
 >>>>>>> upstream/18.0

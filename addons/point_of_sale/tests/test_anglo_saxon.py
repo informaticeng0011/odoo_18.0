@@ -402,7 +402,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(product_line.price_subtotal, 90.25)  # Discount applies on price_unit
         self.assertEqual(product_line.price_total, 103.79)  # Taxes applied with price_total
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_cogs_with_ship_later_with_backorder(self):
         # This test will check that the correct journal entries are created when 2 products are sold
@@ -513,4 +516,7 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(len(aml_output), 1, "There should be 1 output account move lines")
         self.assertEqual(aml_output.debit, 0)
         self.assertEqual(aml_output.credit, 20)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

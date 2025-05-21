@@ -87,7 +87,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 
         self.assertEqual(product_line.price_unit, 800.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_downpayment_in_accrued_expense_entry(self):
         """Check that the downpayment is not included in the accrued expense entry"""
@@ -120,4 +123,7 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
             {'account_id': accrued_wizard.account_id.id, 'debit': 0, 'credit': 235.0},
         ])
         self.assertFalse(self.env['account.move'].search(accrued_wizard.create_entries()['domain']).line_ids.filtered(lambda l: l.is_downpayment))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

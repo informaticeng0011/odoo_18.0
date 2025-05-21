@@ -164,7 +164,11 @@ test("ImageField with alt attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_widget[name='document'] img").toHaveAttribute("data-alt", "something", {
+=======
+    expect(".o_field_widget[name='document'] img").toHaveAttribute("alt", "something", {
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_widget[name='document'] img").toHaveAttribute("alt", "something", {
 >>>>>>> upstream/18.0
@@ -214,7 +218,11 @@ test("ImageField on a many2one", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("data-alt", "first record");
+=======
+    expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("alt", "first record");
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("alt", "first record");
 >>>>>>> upstream/18.0
@@ -733,7 +741,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -764,7 +776,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -800,7 +816,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -831,7 +851,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -988,7 +1012,11 @@ test("convert image to webp", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0

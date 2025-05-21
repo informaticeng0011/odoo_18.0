@@ -365,7 +365,10 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
                 "Credit warning should be displayed",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_commercial_partner_credit(self):
         """Ensure that credit to invoice gets computed on partners' companies."""
@@ -391,4 +394,7 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
         company_a.invalidate_recordset()
         self.assertFalse(company_a.credit_to_invoice)
         self.assertEqual(company_a.credit, 1200.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

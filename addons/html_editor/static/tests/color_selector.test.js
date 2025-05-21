@@ -173,7 +173,10 @@ test("custom background colors used in the editor are shown in the colorpicker",
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("applied custom color should be shown in colorpicker after switching tab", async () => {
     const { el } = await setupEditor(
         '<p><font style="background-color: rgb(255, 0, 0);">[test]</font></p>'
@@ -198,6 +201,9 @@ test("applied custom color should be shown in colorpicker after switching tab", 
     expect(".o_hex_input").toHaveValue(newColor);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("select hex color and apply it", async () => {
     const { el } = await setupEditor(`<p>[test]</p>`);

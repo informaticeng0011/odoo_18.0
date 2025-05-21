@@ -45,6 +45,10 @@ FormEditorRegistry.add('create_task', {
     fields: [{
         name: 'project_id',
         type: 'many2one',
+<<<<<<< HEAD
+=======
+        required: true,
+>>>>>>> upstream/18.0
         relation: 'project.project',
         string: _t('Project'),
         createAction: 'project.open_view_project_all',

@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillDestroy, onWillStart, useEffect, useRef, useState } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     Component,
     onMounted,
@@ -11,6 +14,9 @@ import {
     useRef,
     useState,
 } from "@odoo/owl";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { loadBundle } from "@web/core/assets";
 import { useDebounced } from "@web/core/utils/timing";
@@ -56,6 +62,10 @@ export class CodeEditor extends Component {
         maxLines: { type: Number, optional: true },
         sessionId: { type: [Number, String], optional: true },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        initialCursorPosition: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         initialCursorPosition: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -116,12 +126,18 @@ export class CodeEditor extends Component {
                 session.on("change", () => {
                     if (this.props.onChange && !ignoredAceChange) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.props.onChange(this.aceEditor.getValue());
 =======
+=======
+>>>>>>> upstream/18.0
                         this.props.onChange(
                             this.aceEditor.getValue(),
                             this.aceEditor.getCursorPosition()
                         );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     }
                 });
@@ -183,12 +199,18 @@ export class CodeEditor extends Component {
                     session.on("change", () => {
                         if (this.props.onChange && !ignoredAceChange) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                             this.props.onChange(this.aceEditor.getValue());
 =======
+=======
+>>>>>>> upstream/18.0
                             this.props.onChange(
                                 this.aceEditor.getValue(),
                                 this.aceEditor.getCursorPosition()
                             );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         }
                     });
@@ -208,7 +230,10 @@ export class CodeEditor extends Component {
 
         onResized(this.editorRef, debouncedResize);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         const initialCursorPosition = this.props.initialCursorPosition;
         if (initialCursorPosition) {
@@ -228,6 +253,9 @@ export class CodeEditor extends Component {
                 });
             });
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

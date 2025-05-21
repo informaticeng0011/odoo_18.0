@@ -37,6 +37,10 @@ import {
 import { strong } from "./_helpers/tags";
 import { delay } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { nodeSize } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 =======
 import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
@@ -500,7 +504,10 @@ test("toolbar open on single selected cell in table", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("should select table single cell when entire content is selected via mouse movement", async () => {
     const content = unformat(`
         <table class="table table-bordered o_table" style="width: 250px;">
@@ -570,6 +577,9 @@ test("should select table single cell when entire content is selected via mouse 
     expect(".o-we-toolbar").toHaveCount(1);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test.tags("desktop");
 test("toolbar should close on keypress tab inside table", async () => {

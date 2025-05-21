@@ -1027,6 +1027,7 @@ class StockQuant(models.Model):
                                                      package_id=quant.package_id))
         moves = self.env['stock.move'].with_context(inventory_mode=False).create(move_vals)
         moves._action_done()
+<<<<<<< HEAD
         self.location_id.write({'last_inventory_date': fields.Date.today()})
         date_by_location = {loc: loc._get_next_inventory_date() for loc in self.mapped('location_id')}
         for quant in self:
@@ -1163,6 +1164,13 @@ class StockQuant(models.Model):
         self.action_clear_inventory_quantity()
 >>>>>>> upstream/18.0
 =======
+        self.action_clear_inventory_quantity()
+>>>>>>> upstream/18.0
+=======
+        self.location_id.sudo().write({'last_inventory_date': fields.Date.today()})
+        date_by_location = {loc: loc._get_next_inventory_date() for loc in self.mapped('location_id')}
+        for quant in self:
+            quant.inventory_date = date_by_location[quant.location_id]
         self.action_clear_inventory_quantity()
 >>>>>>> upstream/18.0
 

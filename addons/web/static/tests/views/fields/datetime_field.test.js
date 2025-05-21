@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { click, edit, queryAll, queryAllTexts, select } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 import { after, expect, test } from "@odoo/hoot";
 import {
     click,
@@ -12,6 +15,9 @@ import {
     resize,
     select,
 } from "@odoo/hoot-dom";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { animationFrame, mockTimeZone } from "@odoo/hoot-mock";
 import {
@@ -24,7 +30,10 @@ import {
     onRpc,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import {
@@ -35,6 +44,10 @@ import {
 } from "@web/../tests/core/datetime/datetime_test_helpers";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
 >>>>>>> upstream/18.0
@@ -61,8 +74,11 @@ class Partner extends models.Model {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 defineModels([Partner]);
 =======
+=======
+>>>>>>> upstream/18.0
 
 class User extends models.Model {
     _name = "res.users";
@@ -75,6 +91,9 @@ class User extends models.Model {
 }
 
 defineModels([Partner, User]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 test("DatetimeField in form view", async () => {
@@ -657,7 +676,10 @@ test("datetime field in kanban view with condensed option", async () => {
     expect(".o_kanban_record:first").toHaveText(expectedDateString);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("list datetime: column widths (show_time=false)", async () => {
     await resize({ width: 800 });
@@ -678,4 +700,7 @@ test("list datetime: column widths (show_time=false)", async () => {
     expect(queryAllTexts(".o_data_row:eq(0) .o_data_cell")).toEqual(["02/08/2017", "partner,1"]);
     expect(queryAllProperties(".o_list_table thead th", "offsetWidth")).toEqual([40, 81, 679]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

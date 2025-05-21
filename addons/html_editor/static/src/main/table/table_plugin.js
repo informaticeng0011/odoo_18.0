@@ -604,6 +604,10 @@ export class TablePlugin extends Plugin {
 
     onMouseup(ev) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        delete this._mouseMovePositionWhenAllContentsSelected;
+>>>>>>> upstream/18.0
 =======
         delete this._mouseMovePositionWhenAllContentsSelected;
 >>>>>>> upstream/18.0
@@ -643,8 +647,11 @@ export class TablePlugin extends Plugin {
         }
         const selection = this.dependencies.selection.getEditableSelection();
 <<<<<<< HEAD
+<<<<<<< HEAD
         const docSelection = this.document.getSelection();
         const range = docSelection.rangeCount && docSelection.getRangeAt(0);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const startTd = closestElement(selection.startContainer, "td");
@@ -658,17 +665,23 @@ export class TablePlugin extends Plugin {
             if (areCellContentsFullySelected) {
                 const SENSITIVITY = 5;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const rangeRect = range.getBoundingClientRect();
                 const isMovingAwayFromSelection =
                     ev.clientX > rangeRect.x + rangeRect.width + SENSITIVITY || // moving right
                     ev.clientX < rangeRect.x - SENSITIVITY; // moving left
 =======
+=======
+>>>>>>> upstream/18.0
                 if (!this._mouseMovePositionWhenAllContentsSelected) {
                     this._mouseMovePositionWhenAllContentsSelected = [ev.clientX, ev.clientY];
                 }
                 const isMovingAwayFromSelection =
                     Math.abs(ev.clientX - this._mouseMovePositionWhenAllContentsSelected[0]) >=
                     SENSITIVITY;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if (isMovingAwayFromSelection) {
                     // A cell is fully selected and the mouse is moving away

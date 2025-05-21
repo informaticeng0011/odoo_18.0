@@ -1697,6 +1697,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             'property_account_expense_id': self.account1.id,
             'property_account_income_id': self.account1.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1708,6 +1712,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             'property_account_expense_id': self.account2.id,
             'property_account_income_id': self.account2.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1715,6 +1723,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 
         #Create an order with the 2 products
         self.pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
         order = self.PosOrder.create({
             'company_id': self.env.company.id,
@@ -1758,6 +1767,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.pos_config.current_session_id.action_pos_session_closing_control()
         order.picking_ids._action_done()
 =======
+=======
+>>>>>>> upstream/18.0
         order_data = {'amount_paid': 200,
            'amount_return': 0,
            'amount_tax': 200,
@@ -1800,6 +1811,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         order.picking_ids.move_ids.write({"quantity": 1, "picked": True})
         order.picking_ids._action_done()
         self.pos_config.current_session_id.action_pos_session_closing_control()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         moves = self.env['account.move'].search([('ref', '=', f'pos_order_{order.id}')])
@@ -2262,7 +2276,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2368,6 +2385,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

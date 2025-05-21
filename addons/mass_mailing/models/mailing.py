@@ -401,7 +401,12 @@ class MassMailing(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for mailing in self:
+=======
+        self.warning_message = False
+        for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):
+>>>>>>> upstream/18.0
 =======
         self.warning_message = False
         for mailing in self.filtered(lambda mailing: mailing.mailing_type == "mail"):

@@ -118,7 +118,11 @@ def data_method_provider(chart_template_name, country_code):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _tax_vals(name, amount, external_id_prefix):
+=======
+def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_repartition=True):
+>>>>>>> upstream/18.0
 =======
 def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_repartition=True):
 >>>>>>> upstream/18.0
@@ -127,6 +131,7 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
         'amount': amount,
         'type_tax_use': 'purchase',
         'tax_group_id': 'tax_group_taxes',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'cash_basis_transition_account_id': f'{external_id_prefix}test_account_cash_basis_transition_account_id',
         'repartition_line_ids': [
@@ -137,6 +142,8 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
             Command.create({'document_type': 'refund', 'factor_percent': 100, 'repartition_type': 'tax',
                            'account_id': f'{external_id_prefix}test_account_tax_recoverable_template'}),
 =======
+=======
+>>>>>>> upstream/18.0
         'cash_basis_transition_account_id': f'{external_id_prefix}test_account_cash_basis_transition_account_id' if cash_basis else False,
         'tax_exigibility': 'on_payment' if cash_basis else 'on_invoice',
         'repartition_line_ids': [
@@ -146,6 +153,9 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
             Command.create({'document_type': 'refund', 'factor_percent': 100, 'repartition_type': 'base'}),
             Command.create({'document_type': 'refund', 'factor_percent': 100, 'repartition_type': 'tax',
                            'account_id': f'{external_id_prefix}test_account_tax_recoverable_template' if account_on_repartition else False}),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
     }
@@ -234,7 +244,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
         tax = self.env["account.chart.template"].ref('foreign_test_tax_1_template')
         self.assertEqual(tax.country_id.code, 'FR')
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(tax.cash_basis_transition_account_id.code, '451501')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         _base_line, tax_line = tax.invoice_repartition_line_ids
@@ -244,7 +257,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
         tax = self.env["account.chart.template"].ref('foreign_test_tax_2_template')
         self.assertEqual(tax.country_id.code, 'FR')
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(tax.cash_basis_transition_account_id.code, '451501')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         _base_line, tax_line = tax.invoice_repartition_line_ids
@@ -265,7 +281,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
                     child_tax = self.env["account.chart.template"].ref(children_taxes[xml_id][i], raise_if_not_found=False)
                     self.assertEqual(child.id, child_tax.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_multivat_cash_basis(self):
         def wrap_data_getter_for_caba(data_getter):
@@ -297,4 +316,7 @@ class TestMultiVAT(AccountTestInvoicingCommon):
             self.assertEqual(tax.cash_basis_transition_account_id.code, '411005')
 
         self.assertTrue(self.env.company.tax_exigibility, "Creating foreign cash basis taxes should enable the cash basis setting on the company.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -9,7 +9,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Daniel Reis, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42,6 +45,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Daniel Reis, 2025
+>>>>>>> upstream/18.0
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -73,7 +80,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Daniel Reis, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Daniel Reis, 2025\n"
 >>>>>>> upstream/18.0
@@ -147,7 +158,11 @@ msgid ""
 "(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
 "'Order - %s' % (object.name)"
 msgstr ""
+<<<<<<< HEAD
 "(object.state in ('draft', 'sent') and 'Cotação - %s' % (object.name)) or "
+=======
+"(object.state in ('draft', 'sent') and 'Orçamento - %s' % (object.name)) or "
+>>>>>>> upstream/18.0
 "'Ordem - %s' % (object.name)"
 
 #. module: sale
@@ -156,7 +171,11 @@ msgid "2023-12-31"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-12-31"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-12-31"
 >>>>>>> upstream/18.0
@@ -534,15 +553,24 @@ msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        <t t-set=\"doc_name\" t-value=\"object.type_name\"/>\n"
+<<<<<<< HEAD
 "        Car@ <t t-out=\"object.partner_id.name or ''\">utilizador</t>,\n"
+=======
+"        Caro <t t-out=\"object.partner_id.name or ''\">utilizador</t>,\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Informamos que o seu\n"
 "        orçamento <strong t-out=\"object.name or ''\">S00052</strong>\n"
 "        <t t-if=\"object.origin\">\n"
 "            (com a referência: <t t-out=\"object.origin or ''\">S00052</t> )\n"
 "        </t>\n"
+<<<<<<< HEAD
 "        foi cancelado. Assim sendo, não deverá ser cobrado mais nenhum valor sobre esta encomenda.\n"
 "        Se for necessário algum crédito, isso será efetuado com a melhor conveniência.\n"
+=======
+"        foi cancelado. Assim sendo, não deverá ser cobrado mais nenhum valor relativo a esta encomenda.\n"
+"        Se for necessário algum crédito, isso será efetuado da forma mais conveniente.\n"
+>>>>>>> upstream/18.0
 "        <br/><br/>\n"
 "        Não hesite em contactar-nos se tiver alguma questão.\n"
 "        <br/>\n"
@@ -764,7 +792,11 @@ msgid "<strong>Salesperson</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Vendedor</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Vendedor</strong>"
 >>>>>>> upstream/18.0
@@ -784,7 +816,11 @@ msgid "<strong>Shipping Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Endereço de Entrega</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Endereço de Entrega</strong>"
 >>>>>>> upstream/18.0
@@ -822,7 +858,11 @@ msgstr "<strong>Esta oferta expirou!</strong>"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<strong>This quotation has been cancelled.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Este orçamento foi cancelado.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -843,8 +883,12 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "A note, whose content usually applies to the section or product above."
+<<<<<<< HEAD
 msgstr ""
 "Uma anotação cujo conteúdo se aplica à seção ou artigo de produto acima."
+=======
+msgstr "Uma anotação cujo conteúdo se aplica à seção ou artigo acima."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
@@ -891,13 +935,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Accept & Pay Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aceitar e Pagar Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Accept & Sign Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aceitar e Pagar Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1265,8 +1317,13 @@ msgid ""
 msgstr ""
 "Aumente as suas vendas com vários tipos de programas: Cupões, Promoções, "
 "Cartão Oferta, Fidelidade. Condições específicas podem ser definidas "
+<<<<<<< HEAD
 "(produtos, clientes, valor mínimo de compra, período). As recompensas podem "
 "ser descontos (% ou valor) ou produtos gratuitos."
+=======
+"(artigos, clientes, valor mínimo de compra, período). As recompensas podem "
+"ser descontos (% ou valor) ou artigos gratuitos."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-javascript
@@ -1329,7 +1386,11 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_sale_mass_cancel_orders
 msgid "Cancel multiple quotations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cancelar vários orçamentos"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
@@ -1371,7 +1432,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Catálogo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Catálogo"
 >>>>>>> upstream/18.0
@@ -1834,7 +1899,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_res_company__quotation_validity_days
 #: model:ir.model.fields,field_description:sale.field_res_config_settings__quotation_validity_days
 msgid "Default Quotation Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Validade padrão do orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__company_price_include
@@ -1976,7 +2045,11 @@ msgstr "Valor do Desconto"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_res_company__sale_discount_product_id
 msgid "Discount Product"
+<<<<<<< HEAD
 msgstr "Desconto em Produto"
+=======
+msgstr "Artigo de Desconto"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_discount__discount_type
@@ -2977,7 +3050,11 @@ msgstr "Minhas Encomendas"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_view_search_inherit_quotation
 msgid "My Quotations"
+<<<<<<< HEAD
 msgstr "As Minhas Cotações"
+=======
+msgstr "Meus Orçamentos"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
@@ -3082,7 +3159,11 @@ msgid ""
 "Number of days between the order confirmation and the shipping of the "
 "products to the customer"
 msgstr ""
+<<<<<<< HEAD
 "Número de dias da confirmação da venda até à expedição dos produtos para o "
+=======
+"Número de dias da confirmação da venda até à expedição dos artigos para o "
+>>>>>>> upstream/18.0
 "cliente"
 
 #. module: sale
@@ -3616,7 +3697,11 @@ msgstr "Categoria do Artigo"
 #. module: sale
 #: model:ir.model,name:sale.model_product_document
 msgid "Product Document"
+<<<<<<< HEAD
 msgstr "Documento do produto"
+=======
+msgstr "Documento do Artigo"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-javascript
@@ -3765,25 +3850,41 @@ msgstr "Orçamento"
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Quotation #"
+<<<<<<< HEAD
 msgstr "Cotação #"
+=======
+msgstr "Orçamento #"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_utm_campaign__quotation_count
 msgid "Quotation Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "N.º Orçamentos"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Quotation Date"
+<<<<<<< HEAD
 msgstr "Data da Cotação"
+=======
+msgstr "Data do Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_order__state__sent
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__state__sent
 msgid "Quotation Sent"
+<<<<<<< HEAD
 msgstr "Orçamento enviado"
+=======
+msgstr "Orçamento Enviado"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
@@ -3795,25 +3896,41 @@ msgstr ""
 #: model:mail.message.subtype,name:sale.mt_order_viewed
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_viewed
 msgid "Quotation Viewed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orçamento visualizado"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:mail.message.subtype,description:sale.mt_order_confirmed
 msgid "Quotation confirmed"
+<<<<<<< HEAD
 msgstr "Orçamento confirmado"
+=======
+msgstr "Orçamento Confirmado"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:mail.message.subtype,description:sale.mt_order_sent
 #: model:mail.message.subtype,name:sale.mt_order_sent
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_sent
 msgid "Quotation sent"
+<<<<<<< HEAD
 msgstr "Cotação enviada"
+=======
+msgstr "Orçamento enviado"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/controllers/portal.py:0
 msgid "Quotation viewed by customer %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orçamento lido pelo cliente %s"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_quotations
@@ -3834,22 +3951,38 @@ msgstr "Orçamentos"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Quotations & Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orçamentos & Encomendas"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_report_quotation_salesteam
 msgid "Quotations Analysis"
+<<<<<<< HEAD
 msgstr "Análise de cotações"
+=======
+msgstr "Análise de Orçamentos"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.act_res_partner_2_sale_order
 msgid "Quotations and Sales"
+<<<<<<< HEAD
 msgstr "Cotações e Vendas"
+=======
+msgstr "Orçamentos e Vendas"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_home_sale
 msgid "Quotations to review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orçamentos a rever"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__rating_ids
@@ -3901,7 +4034,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Reject This Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejeitar este Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-javascript
@@ -4101,7 +4238,11 @@ msgstr ""
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_report_salesperson
 msgid "Sales Analysis By Salespersons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Análise de Vendas por Vendedor"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_report
@@ -4255,7 +4396,11 @@ msgstr ""
 #. module: sale
 #: model:mail.template,name:sale.email_template_edi_sale
 msgid "Sales: Send Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vendas: Enviar Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-python
@@ -4282,7 +4427,11 @@ msgid "Salespersons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vendedores"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vendedores"
 >>>>>>> upstream/18.0
@@ -4322,7 +4471,11 @@ msgstr "Secção"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Section Name (eg. Products, Services)"
+<<<<<<< HEAD
 msgstr "Nome da seção (ex., produtos, serviços)"
+=======
+msgstr "Nome da seção (ex., Artigos, Serviços)"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__access_token
@@ -4333,7 +4486,11 @@ msgstr "Código (token) de Segurança"
 #. odoo-javascript
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Select a product, or create a new one on the fly."
+<<<<<<< HEAD
 msgstr "Selecione um produto ou crie um novo rapidamente."
+=======
+msgstr "Selecione um artigo ou crie um novo rapidamente."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__selected_combo_items
@@ -4480,7 +4637,11 @@ msgstr "Exibir margens nas ordens"
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "Sign & Pay Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assinar & Pagar Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -4709,8 +4870,13 @@ msgid ""
 "Tell us why you are refusing this quotation, this will help us improve our "
 "services."
 msgstr ""
+<<<<<<< HEAD
 "Diga-nos porque está a recusar esta cotação, isto irá ajudar-nos a melhorar "
 "os nossos serviços."
+=======
+"Diga-nos porque está a recusar este orçamento, isto irá ajudar-nos a "
+"melhorar os nossos serviços."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__terms_type
@@ -4908,7 +5074,11 @@ msgstr "O valor do adiantamento deve ser positivo."
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 msgid "There are currently no quotations for your account."
+<<<<<<< HEAD
 msgstr "Atualmente não existem cotações na sua conta."
+=======
+msgstr "Atualmente não existem orçamentos na sua conta."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
@@ -5011,8 +5181,13 @@ msgid ""
 "having invoiced yet. If you want to analyse your turnover, you should use "
 "the Invoice Analysis report in the Accounting application."
 msgstr ""
+<<<<<<< HEAD
 "Este relatório realiza uma análise sobre as cotações e pedidos das vendas. "
 "Analisa e verifica as receitas das vendas e classifica-as por critérios e "
+=======
+"Este relatório realiza uma análise sobre os orçamentos e pedidos das vendas."
+" Analisa e verifica as receitas das vendas e classifica-as por critérios e "
+>>>>>>> upstream/18.0
 "diferentes grupos (vendedor, parceiro, artigo, etc.) Utilize este relatório "
 "para realizar a análise sobre as vendas que não foram faturadas ainda. Se "
 "quiser analisar o volume dos negócios, deve usar o relatório de análise da "
@@ -5027,12 +5202,21 @@ msgid ""
 "invoiced yet. If you want to analyse your turnover, you should use the "
 "Invoice Analysis report in the Accounting application."
 msgstr ""
+<<<<<<< HEAD
 "Este relatório realiza a análise de suas cotações. Análise das receitas de "
 "vendas e classifica-as por diferentes critérios do grupo (vendedores, "
 "parceiros, produtos, etc). Use este relatório para realizar uma análise "
 "sobre as vendas que ainda não faturou. Se você quiser analisar o seu volume "
 "de negócios, você deve usar o relatório de análise da fatura na aplicação de"
 " Contabilidade."
+=======
+"Este relatório realiza a análise dos seus orçamentos. Analisa as receitas de"
+" vendas e classifica-as por diferentes critérios do agrupamento (vendedores,"
+" parceiros, artigos, etc). Use este relatório para realizar uma análise "
+"sobre as vendas que ainda não faturou. Se você quiser analisar o seu volume "
+"de negócios, você deve usar o relatório de análise da faturas na aplicação "
+"de Contabilidade."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_order_report_so_salesteam
@@ -5045,10 +5229,17 @@ msgid ""
 msgstr ""
 "Este relatório realiza a análise de suas cotações. Análise das receitas de "
 "vendas e classifica-as por diferentes critérios do grupo (vendedores, "
+<<<<<<< HEAD
 "parceiros, produtos, etc). Use este relatório para realizar uma análise "
 "sobre as vendas que ainda não faturou. Se você quiser analisar o seu volume "
 "de negócios, você deve usar o relatório de análise da fatura na aplicação de"
 " Contabilidade."
+=======
+"parceiros, artigos, etc). Use este relatório para realizar uma análise sobre"
+" as vendas que ainda não faturou. Se você quiser analisar o seu volume de "
+"negócios, você deve usar o relatório de análise da fatura na aplicação de "
+"Contabilidade."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -5332,7 +5523,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 msgid "View Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ver Orçamento"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__virtual_id
@@ -5524,8 +5719,13 @@ msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
+<<<<<<< HEAD
 "A cotação contém produtos da empresa %(product_company)s Considerando que vossa cotação pertence à empresa %(quote_company)s,\n"
 "mude a empresa da cotação ou remova os produtos de outras empresas (%(bad_products)s)."
+=======
+"O orçamento contém artigos da empresa %(product_company)s Considerando que o orçamento pertence à empresa %(quote_company)s,\n"
+"mude a empresa da cotação ou remova os artigos de outras empresas (%(bad_products)s)."
+>>>>>>> upstream/18.0
 
 #. module: sale
 #. odoo-javascript
@@ -5597,7 +5797,11 @@ msgid "units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "unidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "unidades"
 >>>>>>> upstream/18.0

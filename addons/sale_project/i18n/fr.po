@@ -3,16 +3,27 @@
 # 	* sale_project
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Manon Rondou, 2025
+=======
+# Manon Rondou, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-16 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -177,7 +188,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Analytique à partir des notes de frais : la quantité est la somme des notes de frais comptabilisées\n"
+=======
+"- Analytique à partir des dépenses : la quantité est la somme des dépenses comptabilisées\n"
+>>>>>>> upstream/18.0
 =======
 "- Analytique à partir des dépenses : la quantité est la somme des dépenses comptabilisées\n"
 >>>>>>> upstream/18.0
@@ -244,6 +259,15 @@ msgid "Config Settings"
 msgstr "Paramètres de configuration"
 
 #. module: sale_project
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/sale_project/models/project_project.py:0
+msgid "Cost of Goods Sold"
+msgstr "Coûts des marchandises vendues"
+
+#. module: sale_project
+>>>>>>> upstream/18.0
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
 msgid "Create Project"
 msgstr "Créer un projet"
@@ -879,7 +903,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(product_id)s à cette tâche car il s'agit d'une note de frais refacturée."
+=======
+"%(product_id)s à cette tâche car il s'agit d'une dépense refacturée."
+>>>>>>> upstream/18.0
 =======
 "%(product_id)s à cette tâche car il s'agit d'une dépense refacturée."
 >>>>>>> upstream/18.0
