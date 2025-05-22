@@ -47,7 +47,10 @@ class RazorpayCommon(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -91,6 +94,9 @@ class RazorpayCommon(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,6 +128,14 @@ class RazorpayCommon(PaymentCommon):
             'customer_id': cls.customer_id,
             'token_id': cls.token_id,
         }
+<<<<<<< HEAD
+=======
+        cls.payment_pending_data = {
+            'id': cls.payment_id,
+            'description': cls.reference,
+            'status': 'pending',
+        }
+>>>>>>> upstream/18.0
         cls.refund_data = {
             'id': cls.refund_id,
             'payment_id': cls.payment_id,

@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -54,6 +55,10 @@
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # Noemi Pla, 2025
 >>>>>>> upstream/18.0
+=======
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Noemi Pla, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -61,6 +66,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +116,9 @@ msgstr ""
 =======
 "Last-Translator: Noemi Pla, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,7 +131,11 @@ msgstr ""
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "A bank account is required for EMV QR Code generation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Es necessita un compte bancari per generar el codi QR EMV."
+>>>>>>> upstream/18.0
 =======
 msgstr "Es necessita un compte bancari per generar el codi QR EMV."
 >>>>>>> upstream/18.0
@@ -137,7 +150,11 @@ msgstr "Comptes bancaris"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__display_qr_setting
 msgid "Display Qr Setting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar els paràmetres del QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar els paràmetres del QR"
 >>>>>>> upstream/18.0
@@ -147,7 +164,11 @@ msgstr "Mostrar els paràmetres del QR"
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "EMV Merchant-Presented QR-code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codi QR EMV del comerciant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codi QR EMV del comerciant"
 >>>>>>> upstream/18.0
@@ -156,7 +177,11 @@ msgstr "Codi QR EMV del comerciant"
 #: model_terms:ir.ui.view,arch_db:account_qr_code_emv.view_partner_bank_form_inherit_account
 msgid "EMV QR Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configuració del QR EMV"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configuració del QR EMV"
 >>>>>>> upstream/18.0
@@ -177,7 +202,11 @@ msgid "Include Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incloure la referència"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incloure la referència"
 >>>>>>> upstream/18.0
@@ -220,7 +249,11 @@ msgstr "Incloure la referència"
 #: model:ir.model.fields,help:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include the reference in the QR code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inclou la referència al codi QR."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inclou la referència al codi QR."
 >>>>>>> upstream/18.0
@@ -230,7 +263,11 @@ msgstr "Inclou la referència al codi QR."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant Account Information."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta la informació del compte del comerciant."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta la informació del compte del comerciant."
 >>>>>>> upstream/18.0
@@ -240,7 +277,11 @@ msgstr "Falta la informació del compte del comerciant."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant City."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta la ciutat del comerciant."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta la ciutat del comerciant."
 >>>>>>> upstream/18.0
@@ -250,7 +291,11 @@ msgstr "Falta la ciutat del comerciant."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta el tipus de proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta el tipus de proxy."
 >>>>>>> upstream/18.0
@@ -260,7 +305,11 @@ msgstr "Falta el tipus de proxy."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Value."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Falta el valor de proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Falta el valor de proxy."
 >>>>>>> upstream/18.0
@@ -273,6 +322,11 @@ msgid ""
 "%(account_number)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No hi ha cap codi QR EMV QR disponible per al país del teu compte "
+"%(account_number)s."
+>>>>>>> upstream/18.0
 =======
 "No hi ha cap codi QR EMV QR disponible per al país del teu compte "
 "%(account_number)s."
@@ -305,7 +359,11 @@ msgid "Proxy Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor de proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor de proxy"
 >>>>>>> upstream/18.0

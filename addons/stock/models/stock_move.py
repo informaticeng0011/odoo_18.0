@@ -1225,10 +1225,13 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if moves_to_unlink:
             # We are using propagate to False in order to not cancel destination moves merged in moves[0]
             moves_to_unlink._clean_merged()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1272,6 +1275,9 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1608,7 +1614,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_create_proc = self.browse(move_create_proc)
+=======
+        move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
+>>>>>>> upstream/18.0
 =======
         move_create_proc = self.browse(move_create_proc) if not self.env.context.get('bypass_procurement_creation', False) else self.env['stock.move']
 >>>>>>> upstream/18.0
@@ -2148,7 +2158,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     move.move_dest_ids.filtered(lambda m: m.state != 'done' and m.location_dest_id == m.move_dest_ids.location_id)._action_cancel()
+=======
+                    move.move_dest_ids.filtered(lambda m: m.state != 'done' and move.location_dest_id == m.location_id)._action_cancel()
+>>>>>>> upstream/18.0
 =======
                     move.move_dest_ids.filtered(lambda m: m.state != 'done' and move.location_dest_id == m.location_id)._action_cancel()
 >>>>>>> upstream/18.0
@@ -2236,8 +2250,14 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.is_inventory or self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids) or\
             self.location_final_id and self.location_final_id._child_of(self.location_dest_id)
+=======
+        return self.is_inventory or (
+            self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
+        )
+>>>>>>> upstream/18.0
 =======
         return self.is_inventory or (
             self.move_dest_ids and any(m.location_id._child_of(self.location_dest_id) for m in self.move_dest_ids)
@@ -2491,7 +2511,11 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         backorder_moves.with_context(bypass_entire_pack=True)._action_confirm(merge=False)
+=======
+        backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
+>>>>>>> upstream/18.0
 =======
         backorder_moves.with_context(bypass_entire_pack=True, bypass_procurement_creation=True)._action_confirm(merge=False)
 >>>>>>> upstream/18.0
@@ -2840,6 +2864,10 @@ Please change the quantity done or the rounding precision of your unit of measur
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
+>>>>>>> upstream/18.0
 =======
         moves_to_reserve = moves_to_reserve.sorted(key=lambda m: m.group_id.id in self.group_id.ids, reverse=True)
 >>>>>>> upstream/18.0

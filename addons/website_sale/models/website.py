@@ -29,7 +29,13 @@ class Website(models.Model):
 
     enabled_portal_reorder_button = fields.Boolean(string="Re-order From Portal")
     salesperson_id = fields.Many2one(
+<<<<<<< HEAD
         string="Salesperson", comodel_name='res.users', domain="[('share', '=', False)]",
+=======
+        string="Salesperson",
+        comodel_name='res.users',
+        domain=[('share', '=', False)],
+>>>>>>> upstream/18.0
     )
     salesteam_id = fields.Many2one(
         string="Sales Team",
@@ -461,7 +467,11 @@ class Website(models.Model):
         if not salesperson_user_sudo:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             salesperson_user_sudo = self.salesperson_id or partner_sudo.parent_id.user_id or partner_sudo.user_id
+=======
+            salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
+>>>>>>> upstream/18.0
 =======
             salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
 >>>>>>> upstream/18.0

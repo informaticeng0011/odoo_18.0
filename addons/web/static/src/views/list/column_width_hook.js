@@ -1,9 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useDebounced } from "@web/core/utils/timing";
 
 import { useComponent, useEffect, useExternalListener } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { renderToElement } from "@web/core/utils/render";
@@ -11,10 +14,22 @@ import { useDebounced } from "@web/core/utils/timing";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 import { localization } from "@web/core/l10n/localization";
 
+<<<<<<< HEAD
 import { useComponent, useEffect, useExternalListener, xml } from "@odoo/owl";
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+import {
+    onMounted,
+    onWillUnmount,
+    status,
+    useComponent,
+    useEffect,
+    useExternalListener,
+    xml,
+} from "@odoo/owl";
 >>>>>>> upstream/18.0
 
 // This file defines a hook that encapsulates the column width logic of the list view. This logic
@@ -67,12 +82,15 @@ const OPEN_FORM_VIEW_BUTTON_WIDTH = 54;
 const DELETE_BUTTON_WIDTH = 12;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const FIELD_WIDTHS = {
     boolean: [20, 100], // [minWidth, maxWidth]
     char: [80], // only minWidth, no maxWidth
     date: 80, // minWidth = maxWidth
     datetime: 145,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 let _dateFieldWidth = null; // computed dynamically, lazily, see @computeOptimalDateWidths
@@ -93,6 +111,9 @@ export const FIELD_WIDTHS = Object.freeze({
         return _datetimeFieldWidth;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108,8 +129,11 @@ export const FIELD_WIDTHS = Object.freeze({
     text: [80, 1200],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 });
@@ -166,6 +190,9 @@ function computeOptimalDateWidths() {
     _datetimeFieldWidth = Math.ceil(Math.max(...datetimeWidths)) + 1;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -325,8 +352,11 @@ function getWidthSpecs(columns) {
                     if (typeof width === "function") {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         width = width({ type: column.fieldType, hasLabel: column.hasLabel });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         width = width({
@@ -335,6 +365,9 @@ function getWidthSpecs(columns) {
                             options: column.options,
                         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -483,7 +516,12 @@ export function useMagicColumnWidths(tableRef, getState) {
             ev.stopPropagation();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const delta = ev.clientX - initialX;
+=======
+            let delta = ev.clientX - initialX;
+            delta = this.isRTL ? -delta : delta;
+>>>>>>> upstream/18.0
 =======
             let delta = ev.clientX - initialX;
             delta = this.isRTL ? -delta : delta;
@@ -507,9 +545,15 @@ export function useMagicColumnWidths(tableRef, getState) {
             const headers = [...table.querySelectorAll("thead th")];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             columnWidths = headers.map((th) => {
                 return th.getBoundingClientRect().width - getHorizontalPadding(th);
             });
+=======
+            columnWidths = headers.map(
+                (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
+            );
+>>>>>>> upstream/18.0
 =======
             columnWidths = headers.map(
                 (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
@@ -557,11 +601,45 @@ export function useMagicColumnWidths(tableRef, getState) {
     // Side effects
     if (renderer.constructor.useMagicColumnWidths) {
         useEffect(forceColumnWidths);
+<<<<<<< HEAD
         const debouncedResizeCallback = useDebounced(() => {
             resetWidths();
             forceColumnWidths();
         }, 200);
         useExternalListener(window, "resize", debouncedResizeCallback);
+=======
+        // Forget computed widths (and potential manual column resize) on window resize
+        useExternalListener(window, "resize", resetWidths);
+        // Listen to width changes on the parent node of the table, to recompute ideal widths
+        // Note: we compute the widths once, directly, and once after parent width stabilization.
+        // The first call is only necessary to avoid an annoying flickering when opening form views
+        // with an x2many list and a chatter (when it is displayed below the form) as it may happen
+        // that the display of chatter messages introduces a vertical scrollbar, thus reducing the
+        // available width.
+        const component = useComponent();
+        let parentWidth;
+        const debouncedForceColumnWidths = useDebounced(
+            () => {
+                if (status(component) !== "destroyed") {
+                    forceColumnWidths();
+                }
+            },
+            200,
+            { immediate: true, trailing: true }
+        );
+        const resizeObserver = new ResizeObserver(() => {
+            const newParentWidth = tableRef.el.parentNode.clientWidth;
+            if (newParentWidth !== parentWidth) {
+                parentWidth = newParentWidth;
+                debouncedForceColumnWidths();
+            }
+        });
+        onMounted(() => {
+            parentWidth = tableRef.el.parentNode.clientWidth;
+            resizeObserver.observe(tableRef.el.parentNode);
+        });
+        onWillUnmount(() => resizeObserver.disconnect());
+>>>>>>> upstream/18.0
     }
 
     // API

@@ -1,20 +1,27 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Command
 from odoo.tests import TransactionCase, tagged
 
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import Command, http
 from odoo.tests import tagged
 
 from odoo.addons.base.tests.common import TransactionCaseWithUserPortal
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 
 
 @tagged('post_install', '-at_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 class TestClaimReward(TransactionCase):
 
@@ -27,6 +34,8 @@ class TestClaimReward(TransactionCase):
 
         product1, product2 = self.env['product.product'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 class TestClaimReward(TransactionCaseWithUserPortal):
 
     @classmethod
@@ -41,6 +50,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
         })
 
         cls.product1, cls.product2 = cls.env['product.product'].create([
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             {
             'name': 'Test Product',
@@ -53,12 +65,16 @@ class TestClaimReward(TransactionCaseWithUserPortal):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({
             'name': 'Test Customer',
             'email': 'test@example.com',
         })
 
         promo_program = self.env['loyalty.program'].create({
+=======
+        cls.promo_program, cls.coupon_program = cls.env['loyalty.program'].create([{
+>>>>>>> upstream/18.0
 =======
         cls.promo_program, cls.coupon_program = cls.env['loyalty.program'].create([{
 >>>>>>> upstream/18.0
@@ -76,6 +92,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
                 'reward_product_tag_id': tag.id,
                 'reward_product_qty': 1,
                 'required_points': 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
             })]
         })
@@ -97,6 +114,8 @@ class TestClaimReward(TransactionCaseWithUserPortal):
             self.assertEqual(len(order.order_line), 2, 'reward line should be added to order')
             self.assertEqual(order.order_line[1].product_id, product2, 'added reward line should should contain product 2')
 =======
+=======
+>>>>>>> upstream/18.0
             })],
         }, {
             'name': "Multi-reward coupons",
@@ -171,4 +190,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
                 delta=self.cart.currency_id.rounding,
                 msg="10% discount should be applied",
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

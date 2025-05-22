@@ -44,6 +44,10 @@ class L10nMyEDITestSubmission(TestAccountMoveSendCommon):
             'street': 'that other street, 3',
             'city': 'Main city',
             'phone': '+60123456786',
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
         })
         cls.product_a.l10n_my_edi_classification_code = "001"
 

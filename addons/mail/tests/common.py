@@ -201,7 +201,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
                            with_user=None, **kwargs):
         self.assertFalse(self.env[target_model].search([(target_field, '=', subject)]))
         if not msg_id:
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 
         if kwargs.pop('debug_log', False):
             _logger.info(

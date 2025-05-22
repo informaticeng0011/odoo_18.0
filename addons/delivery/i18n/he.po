@@ -55,7 +55,11 @@ msgstr "%s (העתק)"
 #: model_terms:ir.ui.view,arch_db:delivery.choose_delivery_carrier_view_form
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Get rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>קבל תעריף "
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>קבל תעריף "
 >>>>>>> upstream/18.0
@@ -109,6 +113,11 @@ msgid ""
 "for customers to follow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"תיאור שיטת המשלוח שברצונך לתקשר ללקוחות בהזמנת מכירה ובאימייל אישור המכירה. "
+"לדוגמה, הוראות שעל הלקוחות לעקוב אחריהן."
+>>>>>>> upstream/18.0
 =======
 "תיאור שיטת המשלוח שברצונך לתקשר ללקוחות בהזמנת מכירה ובאימייל אישור המכירה. "
 "לדוגמה, הוראות שעל הלקוחות לעקוב אחריהן."
@@ -359,7 +368,11 @@ msgstr "משלוח הוגדר"
 #: model:ir.model,name:delivery.model_delivery_zip_prefix
 msgid "Delivery Zip Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קידומת מיקוד משלוח"
+>>>>>>> upstream/18.0
 =======
 msgstr "קידומת מיקוד משלוח"
 >>>>>>> upstream/18.0
@@ -377,6 +390,11 @@ msgid ""
 "            which zips it is available to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"קידומות מיקוד למשלוח משויכות לשליחים על מנת להגביל \n"
+"                לאילו מיקודים הן זמינות."
+>>>>>>> upstream/18.0
 =======
 "קידומות מיקוד למשלוח משויכות לשליחים על מנת להגביל \n"
 "                לאילו מיקודים הן זמינות."
@@ -442,6 +460,11 @@ msgid ""
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"עלות משוערת: הלקוח יחויב בעלות המשוערת של המשלוח.\n"
+"עלות אמיתית: הלקוח יחויב בעלות האמיתית של המשלוח, עלות המשלוח תעודכן בהזמנה לאחר ביצוע המסירה."
+>>>>>>> upstream/18.0
 =======
 "עלות משוערת: הלקוח יחויב בעלות המשוערת של המשלוח.\n"
 "עלות אמיתית: הלקוח יחויב בעלות האמיתית של המשלוח, עלות המשלוח תעודכן בהזמנה לאחר ביצוע המסירה."
@@ -528,7 +551,11 @@ msgid ""
 "If the total volume of the order is over this volume, the method won't be "
 "available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם הנפח הכולל של ההזמנה חורג ממשקל זה, השיטה לא תהיה זמינה."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם הנפח הכולל של ההזמנה חורג ממשקל זה, השיטה לא תהיה זמינה."
 >>>>>>> upstream/18.0
@@ -539,7 +566,11 @@ msgid ""
 "If the total weight of the order is over this weight, the method won't be "
 "available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם המשקל הכולל של ההזמנה חורג ממשקל זה, השיטה לא תהיה זמינה."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם המשקל הכולל של ההזמנה חורג ממשקל זה, השיטה לא תהיה זמינה."
 >>>>>>> upstream/18.0
@@ -616,7 +647,11 @@ msgstr "רישות בקשות כדי להקל על ניפוי באגים"
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_zip_prefix_list
 msgid "Manage delivery zip prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נהל קידומות מיקוד למשלוח"
+>>>>>>> upstream/18.0
 =======
 msgstr "נהל קידומות מיקוד למשלוח"
 >>>>>>> upstream/18.0
@@ -646,7 +681,11 @@ msgstr "מרווח על שער"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נפח מקסימלי"
+>>>>>>> upstream/18.0
 =======
 msgstr "נפח מקסימלי"
 >>>>>>> upstream/18.0
@@ -665,7 +704,11 @@ msgstr "ערך מקסימלי"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חייב להכיל תגיות "
+>>>>>>> upstream/18.0
 =======
 msgstr "חייב להכיל תגיות "
 >>>>>>> upstream/18.0
@@ -720,7 +763,11 @@ msgstr "הזמנה"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מידע אודות מיקום איסוף"
+>>>>>>> upstream/18.0
 =======
 msgstr "מידע אודות מיקום איסוף"
 >>>>>>> upstream/18.0
@@ -739,7 +786,11 @@ msgstr "קידומת"
 #: model:ir.model.constraint,message:delivery.constraint_delivery_zip_prefix_name_uniq
 msgid "Prefix already exists!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קידומת כבר קיימת !"
+>>>>>>> upstream/18.0
 =======
 msgstr "קידומת כבר קיימת !"
 >>>>>>> upstream/18.0
@@ -753,6 +804,11 @@ msgid ""
 "will only match '100' and not '1000')"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"קידומות של מיקודים שהמשלוח הזה חל עליהם. שים לב כי ניתן להשתמש בביטויים רגולריים (Regular Expressions) כדי לתמוך במדינות עם אורכי מיקוד משתנים, כלומר, ניתן להוסיף את הסימן '$' בסוף הקידומת כדי להתאים למיקוד מדויק (למשל, '100$' יתאים רק ל-'100' ולא ל-'1000').\n"
+" "
+>>>>>>> upstream/18.0
 =======
 "קידומות של מיקודים שהמשלוח הזה חל עליהם. שים לב כי ניתן להשתמש בביטויים רגולריים (Regular Expressions) כדי לתמוך במדינות עם אורכי מיקוד משתנים, כלומר, ניתן להוסיף את הסימן '$' בסוף הקידומת כדי להתאים למיקוד מדויק (למשל, '100$' יתאים רק ל-'100' ולא ל-'1000').\n"
 " "
@@ -885,7 +941,11 @@ msgstr ""
 #: model:product.template,name:delivery.product_product_delivery_product_template
 msgid "Standard delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משלוח סטנדרטי"
+>>>>>>> upstream/18.0
 =======
 msgstr "משלוח סטנדרטי"
 >>>>>>> upstream/18.0
@@ -919,7 +979,11 @@ msgid ""
 "The method is available only if at least one product of the order has one of"
 " these tags."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "השיטה זמינה רק אם לפחות מוצר אחד מההזמנה כולל אחד מהתגיות האלו."
+>>>>>>> upstream/18.0
 =======
 msgstr "השיטה זמינה רק אם לפחות מוצר אחד מההזמנה כולל אחד מהתגיות האלו."
 >>>>>>> upstream/18.0
@@ -939,7 +1003,11 @@ msgstr "תווית החזרה נוצרת אוטומטית במשלוח."
 #: model:ir.model.constraint,message:delivery.constraint_delivery_carrier_shipping_insurance_is_percentage
 msgid "The shipping insurance must be a percentage between 0 and 100."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ביטוח המשלוח חייב להיות אחוז בין 0 ל-100."
+>>>>>>> upstream/18.0
 =======
 msgstr "ביטוח המשלוח חייב להיות אחוז בין 0 ל-100."
 >>>>>>> upstream/18.0
@@ -955,7 +1023,11 @@ msgstr "המשלוח בחינם מכיוון שסכום ההזמנה גבוה מ
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קיימת שגיאה בעת טעינת המפה "
+>>>>>>> upstream/18.0
 =======
 msgstr "קיימת שגיאה בעת טעינת המפה "
 >>>>>>> upstream/18.0
@@ -968,6 +1040,12 @@ msgid ""
 "            quotation) or the invoice (based on the delivery orders)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שיטות אלו מאפשרות לחשב אוטומטית את מחיר המשלוח בהתאם להגדרותיך; בהזמנת \n"
+"המכירה (בהתבסס על הצעת המחיר) \n"
+"או בחשבונית (בהתבסס על הזמנות המשלוח)."
+>>>>>>> upstream/18.0
 =======
 "שיטות אלו מאפשרות לחשב אוטומטית את מחיר המשלוח בהתאם להגדרותיך; בהזמנת \n"
 "המכירה (בהתבסס על הצעת המחיר) \n"
@@ -978,7 +1056,11 @@ msgstr ""
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__fixed_margin
 msgid "This fixed amount will be added to the shipping price."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סכום קבוע זה יתווסף למחיר המשלוח."
+>>>>>>> upstream/18.0
 =======
 msgstr "סכום קבוע זה יתווסף למחיר המשלוח."
 >>>>>>> upstream/18.0
@@ -999,7 +1081,11 @@ msgstr "אחוז זה יתווסף למחיר המשלוח."
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__total_weight
 msgid "Total Order Weight"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סה\"כ משקל הזמנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "סה\"כ משקל הזמנה"
 >>>>>>> upstream/18.0
@@ -1008,7 +1094,11 @@ msgstr "סה\"כ משקל הזמנה"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קישור מעקב"
+>>>>>>> upstream/18.0
 =======
 msgstr "קישור מעקב"
 >>>>>>> upstream/18.0
@@ -1062,7 +1152,11 @@ msgstr "משקל * נפח"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__weight_uom_name
 msgid "Weight Uom Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם יחידת מידה של משקל"
+>>>>>>> upstream/18.0
 =======
 msgstr "שם יחידת מידה של משקל"
 >>>>>>> upstream/18.0
@@ -1082,11 +1176,17 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "לא ניתן לעדכן את עלויות המשלוח בהזמנה שכבר חויבה!\n"
 "\n"
 "הקוים משלוח הבאים (מוצר, כמות ומחיר שחויבו) כבר עברו עיבוד:\n"
 " \n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: delivery
@@ -1097,6 +1197,11 @@ msgid ""
 "delivery carriers products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אינך יכול למחוק את קטגוריית המוצר של המשלוחים שכן היא בשימוש במוצרי "
+"המובילים."
+>>>>>>> upstream/18.0
 =======
 "אינך יכול למחוק את קטגוריית המוצר של המשלוחים שכן היא בשימוש במוצרי "
 "המובילים."
@@ -1117,7 +1222,11 @@ msgstr "קידומת מיקוד"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__zip_prefix_ids
 msgid "Zip Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קידומות מיקוד"
+>>>>>>> upstream/18.0
 =======
 msgstr "קידומות מיקוד"
 >>>>>>> upstream/18.0

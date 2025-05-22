@@ -16,7 +16,11 @@ class HrEmployee(models.Model):
         domain="[('share', '=', False), ('company_ids', 'in', company_id)]",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         groups="hr_attendance.group_hr_attendance_manager",
+=======
+        groups="hr_attendance.group_hr_attendance_officer",
+>>>>>>> upstream/18.0
 =======
         groups="hr_attendance.group_hr_attendance_officer",
 >>>>>>> upstream/18.0

@@ -7,6 +7,13 @@ from odoo.tools import misc
 from odoo.addons.account_edi.tests.common import AccountEdiTestCommon
 
 
+<<<<<<< HEAD
+=======
+def mocked_l10n_es_edi_call_web_service_sign(edi_format, invoices, info_list):
+    return {inv: {"success": True} for inv in invoices}
+
+
+>>>>>>> upstream/18.0
 class TestEsEdiCommon(AccountEdiTestCommon):
 
     @classmethod

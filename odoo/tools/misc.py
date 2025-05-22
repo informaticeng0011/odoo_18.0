@@ -1734,7 +1734,11 @@ def get_diff(data_from, data_to, custom_style=False, dark_color_scheme=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'diff_header': 'bg-600 text-center align-top px-2',
+=======
+            'diff_header': 'bg-600 text-light text-center align-top px-2',
+>>>>>>> upstream/18.0
 =======
             'diff_header': 'bg-600 text-light text-center align-top px-2',
 >>>>>>> upstream/18.0

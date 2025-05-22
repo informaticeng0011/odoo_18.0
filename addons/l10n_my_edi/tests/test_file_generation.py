@@ -52,6 +52,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
             'street': 'that other street, 3',
             'city': 'Main city',
             'phone': '+60123456786',
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
         })
         cls.partner_b.write({
             'vat': 'EI00000000020',

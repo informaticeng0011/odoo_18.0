@@ -46,6 +46,10 @@ FormEditorRegistry.add('create_task', {
         name: 'project_id',
         type: 'many2one',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        required: true,
+>>>>>>> upstream/18.0
 =======
         required: true,
 >>>>>>> upstream/18.0

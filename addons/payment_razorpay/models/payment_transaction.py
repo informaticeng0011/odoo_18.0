@@ -2,12 +2,20 @@
 
 import logging
 import pprint
+<<<<<<< HEAD
+=======
+import re
+>>>>>>> upstream/18.0
 import time
 from datetime import datetime
 
 from dateutil.relativedelta import relativedelta
 
+<<<<<<< HEAD
 from odoo import _, api, models
+=======
+from odoo import _, api, fields, models
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError, ValidationError
 
 from odoo.addons.payment import utils as payment_utils
@@ -200,6 +208,32 @@ class PaymentTransaction(models.Model):
         if not self.token_id:
             raise UserError("Razorpay: " + _("The transaction is not linked to a token."))
 
+<<<<<<< HEAD
+=======
+        # Prevent multiple token payments for the same document within 36 hours. Another transaction
+        # with the same token could be pending processing due to Razorpay waiting 24 hours.
+        # See https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11668.
+        # Remove every character after the last "-", "-" included
+        reference_prefix = re.sub(r'-(?!.*-).*$', '', self.reference) or self.reference
+        earlier_pending_tx = self.search([
+            ('provider_code', '=', 'razorpay'),
+            ('state', '=', 'pending'),
+            ('token_id', '=', self.token_id.id),
+            ('operation', 'in', ['online_token', 'offline']),
+            ('reference', '=like', f'{reference_prefix}%'),
+            ('create_date', '>=', fields.Datetime.now() - relativedelta(hours=36)),
+            ('id', '!=', self.id),
+        ], limit=1)
+        if earlier_pending_tx:
+            raise UserError(
+                "Razorpay: " + _(
+                    "Your last payment with reference %s will soon be processed. Please wait up to"
+                    " 24 hours before trying again, or use another payment method.",
+                    earlier_pending_tx.reference
+                )
+            )
+
+>>>>>>> upstream/18.0
         try:
             order_data = self._razorpay_create_order()
             phone = self._validate_phone_number(self.partner_phone)
@@ -413,8 +447,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.provider_reference = entity_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -456,6 +493,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,7 +542,12 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.payment_method_id = payment_method or self.payment_method_id
+=======
+        if allowed_to_modify and payment_method:
+            self.payment_method_id = payment_method
+>>>>>>> upstream/18.0
 =======
         if allowed_to_modify and payment_method:
             self.payment_method_id = payment_method

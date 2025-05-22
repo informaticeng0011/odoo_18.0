@@ -505,7 +505,10 @@ class TestFrontend(TestFrontendCommon):
         self.start_pos_tour('RefundQtyTour')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -525,6 +528,9 @@ class TestFrontend(TestFrontendCommon):
         self.pos_config.with_user(self.pos_admin).open_ui()
         self.start_tour(f"/pos/ui?config_id={self.pos_config.id}", 'test_combo_preparation_receipt_layout', login="pos_admin")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

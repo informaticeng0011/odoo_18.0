@@ -180,6 +180,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "feff",
+>>>>>>> upstream/18.0
 =======
         "feff",
 >>>>>>> upstream/18.0
@@ -504,7 +508,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (font && anchorEl.textContent === font.textContent) {
+=======
+                if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
+>>>>>>> upstream/18.0
 =======
                 if (font && cleanZWChars(anchorEl.textContent) === font.textContent) {
 >>>>>>> upstream/18.0
@@ -874,7 +882,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const cursors = this.dependencies.selection.preserveSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -966,11 +977,14 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // to remove link from selected images
         const selectedNodes = this.dependencies.selection.getSelectedNodes();
         const selectedImageNodes = selectedNodes.filter((node) => node.tagName === "IMG");
         if (selectedImageNodes && startLink && endLink && startLink === endLink) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1070,6 +1084,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,6 +1192,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const startBlock = closestBlock(startLink);
+        const endBlock = closestBlock(endLink);
+>>>>>>> upstream/18.0
 =======
         const startBlock = closestBlock(startLink);
         const endBlock = closestBlock(endLink);
@@ -1340,7 +1362,10 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1427,6 +1452,9 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1513,6 +1541,11 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const buttonClassRegex =
+            /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
+>>>>>>> upstream/18.0
 =======
         const buttonClassRegex =
             /^(btn|btn-(sm|lg|(?:[a-z0-9_]+-)?(?:primary|secondary))|rounded-circle)$/;
@@ -1652,7 +1685,13 @@ export class LinkPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const classes = [...link.classList].filter((c) => !this.ignoredClasses.has(c));
+=======
+            const classes = [...link.classList].filter(
+                (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)
+            );
+>>>>>>> upstream/18.0
 =======
             const classes = [...link.classList].filter(
                 (c) => !this.ignoredClasses.has(c) && !buttonClassRegex.test(c)

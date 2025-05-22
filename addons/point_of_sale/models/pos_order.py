@@ -124,7 +124,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -210,6 +213,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -284,7 +290,13 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     pos_order.write({field: order.get(field)})
+=======
+                    existing_record_ids = self.env[pos_order[field]._name].browse([r[1] for r in order[field] if r[1] != 0]).exists().ids
+                    existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
+                    pos_order.write({field: existing_records_vals})
+>>>>>>> upstream/18.0
 =======
                     existing_record_ids = self.env[pos_order[field]._name].browse([r[1] for r in order[field] if r[1] != 0]).exists().ids
                     existing_records_vals = [r for r in order[field] if r[0] not in [1, 2, 3, 4] or r[1] in existing_record_ids]
@@ -429,7 +441,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not draft:
+=======
+        if not draft and self.state != 'cancel':
+>>>>>>> upstream/18.0
 =======
         if not draft and self.state != 'cancel':
 >>>>>>> upstream/18.0
@@ -900,6 +916,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            allowed_vals = ['paid', 'done', 'invoiced']
+            if vals.get('state') and vals['state'] not in allowed_vals and order.state in allowed_vals:
+                raise UserError(_('This order has already been paid. You cannot set it back to draft or edit it.'))
+>>>>>>> upstream/18.0
 =======
             allowed_vals = ['paid', 'done', 'invoiced']
             if vals.get('state') and vals['state'] not in allowed_vals and order.state in allowed_vals:
@@ -1529,6 +1551,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1561,6 +1586,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             order_ids.append(self._process_order(order, existing_order or False))
             _logger.info("PoS synchronisation #%d order %s pos.order #%d", sync_token, order_log_name, order_ids[-1])
@@ -1588,6 +1614,8 @@ class PosOrder(models.Model):
 =======
             order_ids.append(self._process_order(order, existing_order or False))
             _logger.info("PoS synchronisation #%d order %s pos.order #%d", sync_token, order_log_name, order_ids[-1])
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1918,7 +1946,11 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type',
+=======
+            'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
+>>>>>>> upstream/18.0
 =======
             'qty', 'attribute_value_ids', 'custom_attribute_value_ids', 'price_unit', 'skip_change', 'uuid', 'price_subtotal', 'price_subtotal_incl', 'order_id', 'note', 'price_type', 'write_date',
 >>>>>>> upstream/18.0
@@ -2002,11 +2034,14 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('refund_orderline_ids')
     def _compute_refund_qty(self):
         for orderline in self:
             orderline.refunded_qty = -sum(orderline.mapped('refund_orderline_ids.qty'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2066,6 +2101,9 @@ class PosOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2324,6 +2362,11 @@ class PosOrderLine(models.Model):
             product = line.product_id
             if line._is_product_storable_fifo_avco() and stock_moves:
                 product_cost = product._compute_average_price(0, line.qty, line._get_stock_moves_to_consider(stock_moves, product))
+<<<<<<< HEAD
+=======
+                if (product.cost_currency_id.is_zero(product_cost) and self.order_id.shipping_date and self.refunded_orderline_id):
+                    product_cost = self.refunded_orderline_id.total_cost / self.refunded_orderline_id.qty
+>>>>>>> upstream/18.0
             else:
                 product_cost = product.standard_price
             line.total_cost = line.qty * product.cost_currency_id._convert(
@@ -2449,7 +2492,11 @@ class PosOrderLineLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['lot_name', 'pos_order_line_id']
+=======
+        return ['lot_name', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['lot_name', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

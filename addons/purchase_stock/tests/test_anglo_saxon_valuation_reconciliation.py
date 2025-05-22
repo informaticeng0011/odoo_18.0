@@ -35,6 +35,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 >>>>>>> upstream/18.0
@@ -825,7 +829,10 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -942,6 +949,7 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
                     {'account_id': stock_valuation_account.id,      'debit': 420.0,         'credit':   0.0},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'account_id': stock_input_account.id,          'debit': 46.67,         'credit':   0.0},
                     {'account_id': stock_valuation_account.id,      'debit':   0.0,         'credit': 46.67},
                 ]
@@ -1039,6 +1047,10 @@ class TestValuationReconciliation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                ]
+            )
 >>>>>>> upstream/18.0
 =======
                 ]

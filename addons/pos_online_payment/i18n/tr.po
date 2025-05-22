@@ -20,6 +20,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -55,7 +59,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Levent Karakaş <levent@mektup.at>, 2024\n"
+=======
+"Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
 >>>>>>> upstream/18.0
@@ -101,6 +109,10 @@ msgstr ""
 msgid "A POS config cannot have more than one online payment method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" Bir POS yapılandırması birden fazla çevrim içi ödeme yöntemi içeremez."
+>>>>>>> upstream/18.0
 =======
 " Bir POS yapılandırması birden fazla çevrim içi ödeme yöntemi içeremez."
 >>>>>>> upstream/18.0
@@ -124,6 +136,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Doğrulama ödemesi, Satış Noktası çevrim içi ödemesi için kullanılamaz."
+>>>>>>> upstream/18.0
 =======
 "Doğrulama ödemesi, Satış Noktası çevrim içi ödemesi için kullanılamaz."
 >>>>>>> upstream/18.0
@@ -166,6 +182,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Çevrim içi bir ödeme yöntemi için yapılandırılan tüm ödeme sağlayıcıları, "
+"POS yapılandırmasının Satış Yevmiyesi veya ayarlanmamışsa şirket para birimi"
+" ile aynı para birimini kullanmalıdır."
+>>>>>>> upstream/18.0
 =======
 "Çevrim içi bir ödeme yöntemi için yapılandırılan tüm ödeme sağlayıcıları, "
 "POS yapılandırmasının Satış Yevmiyesi veya ayarlanmamışsa şirket para birimi"
@@ -206,7 +228,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__online_payment_provider_ids
 msgid "Allowed Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Verilen Sağlayıcılar"
+>>>>>>> upstream/18.0
 =======
 msgstr "İzin Verilen Sağlayıcılar"
 >>>>>>> upstream/18.0
@@ -226,7 +252,11 @@ msgstr "Tutar:"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Cancel payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ödemeyi İptal Edin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ödemeyi İptal Edin"
 >>>>>>> upstream/18.0
@@ -251,6 +281,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Çevrim içi olmayan bir ödeme yöntemi ve çevrim içi bir muhasebe ödemesi ile "
+"POS ödemesi oluşturulamıyor."
+>>>>>>> upstream/18.0
 =======
 "Çevrim içi olmayan bir ödeme yöntemi ve çevrim içi bir muhasebe ödemesi ile "
 "POS ödemesi oluşturulamıyor."
@@ -360,7 +395,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Order ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sipariş Kimliği"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sipariş Kimliği"
 >>>>>>> upstream/18.0
@@ -369,7 +408,11 @@ msgstr "Sipariş Kimliği"
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Order ID:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sipariş Kimliği:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sipariş Kimliği:"
 >>>>>>> upstream/18.0
@@ -384,7 +427,11 @@ msgstr "Sipariş Referansı"
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sipariş referansı:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sipariş referansı:"
 >>>>>>> upstream/18.0
@@ -495,6 +542,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Çevrim içi ödeme yöntemi bulunamadığı için POS çevrim içi ödemesi (tx.id=%d)"
+" doğru şekilde kaydedilemedi."
+>>>>>>> upstream/18.0
 =======
 "Çevrim içi ödeme yöntemi bulunamadığı için POS çevrim içi ödemesi (tx.id=%d)"
 " doğru şekilde kaydedilemedi."
@@ -581,7 +633,11 @@ msgstr ""
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS çevrim içi ödemesine ait iş ortağı (id=%d) bulunamadı."
+>>>>>>> upstream/18.0
 =======
 msgstr "POS çevrim içi ödemesine ait iş ortağı (id=%d) bulunamadı."
 >>>>>>> upstream/18.0
@@ -644,6 +700,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gerçekleştirilecek kalan çevrim içi ödemelerin toplam tutarı (%s) siparişin "
+"kalan ödenmemiş tutarına karşılık gelmiyor (%s)."
+>>>>>>> upstream/18.0
 =======
 "Gerçekleştirilecek kalan çevrim içi ödemelerin toplam tutarı (%s) siparişin "
 "kalan ödenmemiş tutarına karşılık gelmiyor (%s)."
@@ -693,6 +754,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sunucu ile ilgili bir sorun var. Sipariş çevrim içi ödeme durumu alınamıyor."
+>>>>>>> upstream/18.0
 =======
 "Sunucu ile ilgili bir sorun var. Sipariş çevrim içi ödeme durumu alınamıyor."
 >>>>>>> upstream/18.0
@@ -729,6 +794,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sunucu ile ilgili bir sorun var. Siparişin çevrim içi ödeme durumu "
+"getirilemiyor. Bu sipariş için çevrim içi ödeme olmadığından emin misiniz?"
+>>>>>>> upstream/18.0
 =======
 "Sunucu ile ilgili bir sorun var. Siparişin çevrim içi ödeme durumu "
 "getirilemiyor. Bu sipariş için çevrim içi ödeme olmadığından emin misiniz?"
@@ -771,6 +841,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu Satış Noktası siparişi için yapılandırılmış bir çevrim içi ödeme yöntemi "
+"yoktur."
+>>>>>>> upstream/18.0
 =======
 "Bu Satış Noktası siparişi için yapılandırılmış bir çevrim içi ödeme yöntemi "
 "yoktur."
@@ -830,6 +905,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir POS yapılandırmasında çevrim içi bir ödeme yöntemi kullanmak için, söz "
+"konusu POS yapılandırmasının para birimini destekleyen en az bir yayınlanmış"
+" ödeme sağlayıcısına sahip olması gerekir."
+>>>>>>> upstream/18.0
 =======
 "Bir POS yapılandırmasında çevrim içi bir ödeme yöntemi kullanmak için, söz "
 "konusu POS yapılandırmasının para birimini destekleyen en az bir yayınlanmış"
@@ -876,7 +957,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Transaction Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşlem Referansı"
+>>>>>>> upstream/18.0
 =======
 msgstr "İşlem Referansı"
 >>>>>>> upstream/18.0
@@ -910,6 +995,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu ödeme yöntemini çevrim içi ödemeler için kullanın (çevrim içi ödeme "
+"sağlayıcıları ile bir web sayfasında yapılan ödemeler)"
+>>>>>>> upstream/18.0
 =======
 "Bu ödeme yöntemini çevrim içi ödemeler için kullanın (çevrim içi ödeme "
 "sağlayıcıları ile bir web sayfasında yapılan ödemeler)"
@@ -954,7 +1044,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "payment provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ödeme sağlayıcısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "ödeme sağlayıcısı"
 >>>>>>> upstream/18.0

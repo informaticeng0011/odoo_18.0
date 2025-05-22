@@ -366,7 +366,10 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -395,6 +398,9 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
         self.assertFalse(company_a.credit_to_invoice)
         self.assertEqual(company_a.credit, 1200.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

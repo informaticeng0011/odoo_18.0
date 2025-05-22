@@ -13,7 +13,11 @@ class WebsiteSale(main.WebsiteSale):
 
     @route()
 <<<<<<< HEAD
+<<<<<<< HEAD
     def pricelist(self, promo, **post):
+=======
+    def pricelist(self, promo, reward_id=None, **post):
+>>>>>>> upstream/18.0
 =======
     def pricelist(self, promo, reward_id=None, **post):
 >>>>>>> upstream/18.0
@@ -30,15 +34,21 @@ class WebsiteSale(main.WebsiteSale):
             if len(coupon_status) == 1:
                 coupon, rewards = next(iter(coupon_status.items()))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if request.env.context.get('product_id') or (len(rewards) == 1 and not rewards.multi_product):
                     reward_successfully_applied = self._apply_reward(order, rewards, coupon)
 =======
+=======
+>>>>>>> upstream/18.0
                 if len(rewards) == 1:
                     reward = rewards
                 else:
                     reward = reward_id in rewards.ids and rewards.browse(reward_id)
                 if reward and (not reward.multi_product or request.env.get('product_id')):
                     reward_successfully_applied = self._apply_reward(order, reward, coupon)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             if reward_successfully_applied:
@@ -120,7 +130,11 @@ class WebsiteSale(main.WebsiteSale):
                         and program_sudo.program_type not in ('ewallet', 'loyalty'))
                 ):
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return self.pricelist(code)
+=======
+                    return self.pricelist(code, reward_id=reward_id)
+>>>>>>> upstream/18.0
 =======
                     return self.pricelist(code, reward_id=reward_id)
 >>>>>>> upstream/18.0

@@ -42,6 +42,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
     def _compute_l10n_es_is_simplified(self):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
@@ -50,6 +51,8 @@ class AccountMove(models.Model):
                 (not move.partner_id and move.move_type in ('in_receipt', 'out_receipt')) or
                 (simplified_partner and move.partner_id == simplified_partner)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161,6 +164,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

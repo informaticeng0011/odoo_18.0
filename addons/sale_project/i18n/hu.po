@@ -7,6 +7,7 @@
 # Istvan <leki69@gmail.com>, 2024
 # Tamás Dombos, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # krnkris, 2024
@@ -145,17 +146,23 @@
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # krnkris, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # gezza <geza.nagy@oregional.hu>, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +370,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-16 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -388,7 +400,11 @@ msgstr ""
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Order Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)svevői rendelési tételek"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)svevői rendelési tételek"
 >>>>>>> upstream/18.0
@@ -398,7 +414,11 @@ msgstr "%(name)svevői rendelési tételek"
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)svevői rendelések"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)svevői rendelések"
 >>>>>>> upstream/18.0
@@ -413,12 +433,18 @@ msgid ""
 "'cancel'\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
 "order associated with this project has been cancelled. We recommend either "
 "updating the sales order item or cancelling this project in alignment with "
 "the cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -431,12 +457,18 @@ msgid ""
 "'cancel'\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
 "order associated with this task has been cancelled. We recommend either "
 "updating the sales order item or cancelling this task in alignment with the "
 "cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -450,13 +482,19 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\">\n"
 "                            <span class=\"o_stat_value\">0</span> Vevői rendelés\n"
 "                        </span>\n"
 "                        <span class=\"o_stat_text\">\n"
 "                            Számlázható\n"
 "                        </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -467,6 +505,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Vevői rendelés\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Vevői rendelés\n"
@@ -480,6 +524,11 @@ msgid ""
 "                        <span class=\"o_stat_text\">Preview</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">Vevő</span>\n"
+"                        <span class=\"o_stat_text\">Előnézet</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">Vevő</span>\n"
 "                        <span class=\"o_stat_text\">Előnézet</span>"
@@ -491,7 +540,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
 msgid "<span class=\"o_stat_text\">Sales Order</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Vevői rendelés</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Vevői rendelés</span>"
 >>>>>>> upstream/18.0
@@ -505,7 +558,11 @@ msgstr "<span class=\"o_stat_text\">Feladatok</span>"
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
 msgid "<span>)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>)</span>"
 >>>>>>> upstream/18.0
@@ -514,6 +571,7 @@ msgstr "<span>)</span>"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,6 +744,10 @@ msgid ""
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
 >>>>>>> upstream/18.0
+=======
+"A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
+"The following product need a project in which to put its task: %(product_name)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sale_project
@@ -705,6 +767,7 @@ msgid ""
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,11 +856,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "A termék konfigurációjától függően a szállított mennyiség az alábbi módokon számítható:\n"
 "  - Manuális: a mennyiség kézi megadása a soron\n"
 "  - Analitikus kiadás: a mennyiség a könyvelésre küldött kiadások összesítéséből számítódik\n"
 "  - Munkaidő: a mennyiség az értékesítési rendelés soraihoz kapcsolt feladatokra rögzített órák összege\n"
 "  - Készletmozgások: a mennyiség a jóváhagyott kiszedések mennyisége\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -805,7 +873,11 @@ msgstr ""
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Based on Delivered Quantity (Manual)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szállított mennyiség alapján (kézi)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szállított mennyiség alapján (kézi)"
 >>>>>>> upstream/18.0
@@ -815,7 +887,11 @@ msgstr "Szállított mennyiség alapján (kézi)"
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Based on Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mérföldkövek alapján"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mérföldkövek alapján"
 >>>>>>> upstream/18.0
@@ -825,7 +901,11 @@ msgstr "Mérföldkövek alapján"
 #: model:ir.model.fields,field_description:sale_project.field_project_task__allow_billable
 msgid "Billable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számlázható"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számlázható"
 >>>>>>> upstream/18.0
@@ -843,10 +923,13 @@ msgstr "Beállítások"
 
 #. module: sale_project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
 msgid "Create Project"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Cost of Goods Sold"
@@ -856,6 +939,9 @@ msgstr "Eladott áruk beszerzési értéke"
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
 msgid "Create Project"
 msgstr "Projekt létrehozása"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_project
@@ -904,8 +990,13 @@ msgid ""
 "your customers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hozzon létre számlákat, regisztráljon fizetési műveleteket, és kövesse "
 "nyomon a vevőkkel folytatott megbeszéléseket."
+=======
+"Hozzon létre számlákat, regisztráljon fizetéseket és kövesse nyomon a "
+"vevőkkel folytatott megbeszéléseket."
+>>>>>>> upstream/18.0
 =======
 "Hozzon létre számlákat, regisztráljon fizetéseket és kövesse nyomon a "
 "vevőkkel folytatott megbeszéléseket."
@@ -957,7 +1048,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Létrehozás rendeléskor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Létrehozás rendeléskor"
 >>>>>>> upstream/18.0
@@ -1074,7 +1169,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_project_task__partner_id
 msgid "Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ügyfél"
+=======
+msgstr "Vevő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevő"
 >>>>>>> upstream/18.0
@@ -1089,7 +1188,11 @@ msgstr "Vevői számlák"
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Defined on quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlaton megadva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlaton megadva"
 >>>>>>> upstream/18.0
@@ -1109,7 +1212,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_project.field_project_task__display_sale_order_button
 msgid "Display Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés megjelenítése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés megjelenítése"
 >>>>>>> upstream/18.0
@@ -1130,7 +1237,11 @@ msgstr "Előlegek"
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Empty project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt kiürítése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt kiürítése"
 >>>>>>> upstream/18.0
@@ -1186,7 +1297,11 @@ msgstr "Könyvelési tétel"
 #: model:ir.model,name:sale_project.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Könyvelési tétel"
+=======
+msgstr "Könyvelési tételsor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Könyvelési tételsor"
 >>>>>>> upstream/18.0
@@ -1215,6 +1330,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kézi mennyiség a rendelésen: számlázás a kézzel megadott mennyiség alapján analitikus számla létrehozása nélkül.\n"
+"Szerződéses munkaidő: számlázás a kapcsolódó időnyilvántartásokon megadott órák alapján.\n"
+"Feladat létrehozása és idő követése: vevői rendelés megerősítésekor feladat létrehozása és munkaidő rögzítése."
+>>>>>>> upstream/18.0
 =======
 "Kézi mennyiség a rendelésen: számlázás a kézzel megadott mennyiség alapján analitikus számla létrehozása nélkül.\n"
 "Szerződéses munkaidő: számlázás a kapcsolódó időnyilvántartásokon megadott órák alapján.\n"
@@ -1290,7 +1411,11 @@ msgstr "Mérföldkövek"
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "New Sales Order Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Új vevői rendelés tétel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Új vevői rendelés tétel"
 >>>>>>> upstream/18.0
@@ -1306,7 +1431,11 @@ msgstr "Nem számlázható"
 #: model_terms:ir.ui.view,arch_db:sale_project.portal_tasks_list_inherit
 msgid "Not Billed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nem számlázott"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nem számlázott"
 >>>>>>> upstream/18.0
@@ -1315,7 +1444,11 @@ msgstr "Nem számlázott"
 #: model:product.template,name:sale_project.product_service_create_task_only_product_template
 msgid "Office Furniture Set (task)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Irodai bútor szett (feladat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Irodai bútor szett (feladat)"
 >>>>>>> upstream/18.0
@@ -1327,6 +1460,10 @@ msgid ""
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ha a vevő megerősíti az ajánlatot, akkor az ajánlat vevői rendeléssé válik."
+>>>>>>> upstream/18.0
 =======
 "Ha a vevő megerősíti az ajánlatot, akkor az ajánlat vevői rendeléssé válik."
 >>>>>>> upstream/18.0
@@ -1341,7 +1478,11 @@ msgstr "Egyéb szolgáltatások"
 #: model:product.template,name:sale_project.product_product_painting_product_template
 msgid "Painting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Festés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Festés"
 >>>>>>> upstream/18.0
@@ -1357,7 +1498,11 @@ msgstr ""
 #: model:product.template,name:sale_project.product_product_plumbing_product_template
 msgid "Plumbing Services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vízvezeték szerelés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vízvezeték szerelés"
 >>>>>>> upstream/18.0
@@ -1367,7 +1512,11 @@ msgstr "Vízvezeték szerelés"
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Prepaid/Fixed Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rögzített ár"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rögzített ár"
 >>>>>>> upstream/18.0
@@ -1404,7 +1553,11 @@ msgstr "Projekt"
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_tracking__task_in_project
 msgid "Project & Task"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt & Feladat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt & Feladat"
 >>>>>>> upstream/18.0
@@ -1413,7 +1566,11 @@ msgstr "Projekt & Feladat"
 #: model:ir.model.fields,field_description:sale_project.field_sale_order__project_account_id
 msgid "Project Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt főkönyvi számla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt főkönyvi számla"
 >>>>>>> upstream/18.0
@@ -1427,7 +1584,11 @@ msgstr "Projekt mérföldkő"
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_type__milestones
 msgid "Project Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt mérföldkövek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt mérföldkövek"
 >>>>>>> upstream/18.0
@@ -1437,7 +1598,11 @@ msgstr "Projekt mérföldkövek"
 #: model:ir.model.fields,field_description:sale_project.field_product_template__project_template_id
 msgid "Project Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt sablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt sablon"
 >>>>>>> upstream/18.0
@@ -1446,7 +1611,11 @@ msgstr "Projekt sablon"
 #: model:ir.model.fields,field_description:sale_project.field_project_task__project_sale_order_id
 msgid "Project's sale order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projekt vevői rendelések"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projekt vevői rendelések"
 >>>>>>> upstream/18.0
@@ -1468,7 +1637,11 @@ msgstr "Mennyiség"
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "Quantity (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mennyiség (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mennyiség (%)"
 >>>>>>> upstream/18.0
@@ -1477,7 +1650,11 @@ msgstr "Mennyiség (%)"
 #: model:ir.model,name:sale_project.model_sale_order_template_line
 msgid "Quotation Template Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati sablon sor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati sablon sor"
 >>>>>>> upstream/18.0
@@ -1486,7 +1663,11 @@ msgstr "Ajánlati sablon sor"
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Sales & Invoicing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Értékesítés & Számlázás"
+>>>>>>> upstream/18.0
 =======
 msgstr "Értékesítés & Számlázás"
 >>>>>>> upstream/18.0
@@ -1570,7 +1751,11 @@ msgstr ""
 #: model:product.template,name:sale_project.product_product_screw_driver_product_template
 msgid "Screw Driver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Csavarhúzó"
+>>>>>>> upstream/18.0
 =======
 msgstr "Csavarhúzó"
 >>>>>>> upstream/18.0
@@ -1580,7 +1765,11 @@ msgstr "Csavarhúzó"
 #: code:addons/sale_project/controllers/portal.py:0
 msgid "Search in Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Számla keresés"
 >>>>>>> upstream/18.0
@@ -1590,7 +1779,11 @@ msgstr "Számla keresés"
 #: code:addons/sale_project/controllers/portal.py:0
 msgid "Search in Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés keresés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés keresés"
 >>>>>>> upstream/18.0
@@ -1599,7 +1792,11 @@ msgstr "Vevői rendelés keresés"
 #: model_terms:ir.ui.view,arch_db:sale_project.project_project_view_form_simplified_inherit
 msgid "Select who to bill..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Számla partner..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Számla partner..."
 >>>>>>> upstream/18.0
@@ -1609,7 +1806,11 @@ msgstr "Számla partner..."
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_policy
 msgid "Service Invoicing Policy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szolgáltatás számlázási szabály"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szolgáltatás számlázási szabály"
 >>>>>>> upstream/18.0
@@ -1624,7 +1825,11 @@ msgstr "Eladva"
 #: model:ir.model.fields,field_description:sale_project.field_project_task__sale_order_state
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Státusz"
+=======
+msgstr "Állapot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Állapot"
 >>>>>>> upstream/18.0
@@ -1640,7 +1845,11 @@ msgstr "Feladat"
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "Task Created (%(name)s): %(link)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat létrehozva (%(name)s): %(link)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat létrehozva (%(name)s): %(link)s"
 >>>>>>> upstream/18.0
@@ -1649,7 +1858,11 @@ msgstr "Feladat létrehozva (%(name)s): %(link)s"
 #: model:ir.model,name:sale_project.model_project_task_recurrence
 msgid "Task Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feladat ismétlődés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feladat ismétlődés"
 >>>>>>> upstream/18.0
@@ -1700,6 +1913,7 @@ msgstr "Feladatok elemzése"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1869,12 +2083,17 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "The Sale Order Item should contain a service product."
 msgstr "A vevői rendelésnek tartalmaznia kell egy szolgáltatás terméket."
 
 #. module: sale_project
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/sale_project/models/product_template.py:0
 msgid ""
@@ -1934,7 +2153,11 @@ msgstr "Számlázandó"
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_type
 msgid "Track Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Szolgáltatás nyomkövetése"
+=======
+msgstr "Szolgáltatás nyomon követése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szolgáltatás nyomon követése"
 >>>>>>> upstream/18.0
@@ -1945,7 +2168,11 @@ msgstr "Szolgáltatás nyomon követése"
 #: model:ir.embedded.actions,name:sale_project.project_embedded_action_vendor_bills
 msgid "Vendor Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Beszállítói számlák"
+=======
+msgstr "Szállítói számlák"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szállítói számlák"
 >>>>>>> upstream/18.0
@@ -1954,7 +2181,11 @@ msgstr "Szállítói számlák"
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "View Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vevői rendelés megtekintése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vevői rendelés megtekintése"
 >>>>>>> upstream/18.0
@@ -1963,7 +2194,11 @@ msgstr "Vevői rendelés megtekintése"
 #: model:product.template,name:sale_project.product_service_create_project_and_task_product_template
 msgid "Website Redesign Service (project & task)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Weboldal újratervezés szolgáltatás (projekt & feladat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Weboldal újratervezés szolgáltatás (projekt & feladat)"
 >>>>>>> upstream/18.0
@@ -1972,7 +2207,11 @@ msgstr "Weboldal újratervezés szolgáltatás (projekt & feladat)"
 #: model:product.template,name:sale_project.product_product_wiring_product_template
 msgid "Wiring Services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kábelezési szolgáltatások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kábelezési szolgáltatások"
 >>>>>>> upstream/18.0
@@ -1985,6 +2224,11 @@ msgid ""
 "because it is a re-invoiced expense."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(order_id)s - %(product_id)s rendelési tétel nem köthető ehhez a feladathoz"
+" mivel az egy továbbszámlázott kiadás."
+>>>>>>> upstream/18.0
 =======
 "%(order_id)s - %(product_id)s rendelési tétel nem köthető ehhez a feladathoz"
 " mivel az egy továbbszámlázott kiadás."
@@ -1995,7 +2239,11 @@ msgstr ""
 #: code:addons/sale_project/models/project_project.py:0
 msgid "You will be able to create an invoice and collect the payment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lehetővé válik számla készítése és fizetés beszedése."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lehetővé válik számla készítése és fizetés beszedése."
 >>>>>>> upstream/18.0

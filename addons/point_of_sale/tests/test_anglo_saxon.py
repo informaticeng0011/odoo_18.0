@@ -403,7 +403,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(product_line.price_total, 103.79)  # Taxes applied with price_total
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -517,6 +520,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(aml_output.debit, 0)
         self.assertEqual(aml_output.credit, 20)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

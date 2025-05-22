@@ -991,6 +991,10 @@ export function getDeepRange(editable, { range, sel, splitText, select, correctT
 
 export function getAdjacentCharacter(editable, side) {
     let { focusNode, focusOffset } = editable.ownerDocument.getSelection();
+<<<<<<< HEAD
+=======
+    [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
+>>>>>>> upstream/18.0
     const originalBlock = closestBlock(focusNode);
     let adjacentCharacter;
     while (!adjacentCharacter && focusNode) {
@@ -1708,7 +1712,12 @@ export function isUnremovable(node) {
         (node.classList && node.classList.contains('oe_unremovable')) ||
         (node.nodeName === 'SPAN' && node.parentElement && node.parentElement.getAttribute('data-oe-type') === 'monetary') ||
 <<<<<<< HEAD
+<<<<<<< HEAD
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) // Node is in DOM but not in editable.
+=======
+        (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
+        (node.dataset && node.dataset.bsToggle === 'tab')
+>>>>>>> upstream/18.0
 =======
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
         (node.dataset && node.dataset.bsToggle === 'tab')

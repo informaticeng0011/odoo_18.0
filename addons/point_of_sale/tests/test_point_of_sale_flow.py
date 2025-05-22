@@ -1698,6 +1698,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             'property_account_income_id': self.account1.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1713,6 +1717,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             'property_account_income_id': self.account2.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1723,6 +1731,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 
         #Create an order with the 2 products
         self.pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         order = self.PosOrder.create({
@@ -1769,6 +1778,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         order_data = {'amount_paid': 200,
            'amount_return': 0,
            'amount_tax': 200,
@@ -1812,6 +1823,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         order.picking_ids._action_done()
         self.pos_config.current_session_id.action_pos_session_closing_control()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2277,7 +2291,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2386,6 +2403,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2422,4 +2440,81 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_pos_order_refund_ship_delay_totalcost(self):
+        # test that the total cost is computed for refund with a shipping delay and an avco/fifo product
+        self.pos_config.open_ui()
+        current_session = self.pos_config.current_session_id
+        self.pos_config.write({'ship_later': True})
+        categ = self.env['product.category'].create({
+            'name': 'test',
+            'property_cost_method': 'average',
+            'property_valuation': 'real_time',
+        })
+        product = self.env['product.product'].create({
+            'name': 'Product A',
+            'categ_id': categ.id,
+            'lst_price': 10,
+            'standard_price': 10
+        })
+        order = self.PosOrder.create({
+            'company_id': self.env.company.id,
+            'session_id': current_session.id,
+            'partner_id': self.partner1.id,
+            'lines': [[0, 0, {
+                'name': "OL/0001",
+                'product_id': product.id,
+                'price_unit': 10,
+                'discount': 0,
+                'qty': 2,
+                'tax_ids': [[6, False, []]],
+                'price_subtotal': 20,
+                'price_subtotal_incl': 20,
+                'total_cost': 20,
+            }]],
+            'amount_paid': 10.0,
+            'amount_total': 10.0,
+            'amount_tax': 0.0,
+            'amount_return': 0.0,
+            'to_invoice': True,
+            'last_order_preparation_change': '{}'
+            })
+        refund_values = [{
+            'name': 'a new test refund order',
+            'company_id': self.env.company.id,
+            'user_id': self.env.user.id,
+            'session_id': current_session.id,
+            'partner_id': self.partner1.id,
+            'amount_paid': -10,
+            'amount_tax': 0,
+            'amount_return': 0,
+            'amount_total': -10,
+            'fiscal_position_id': False,
+            'lines': [[0, 0, {
+                'product_id': product.id,
+                'price_unit': 10,
+                'discount': 0,
+                'qty': -2,
+                'tax_ids': [[6, False, []]],
+                'price_subtotal': -20,
+                'price_subtotal_incl': -20,
+                'refunded_orderline_id': order.lines[0].id,
+                'price_type': 'automatic'
+            }]],
+            'shipping_date': fields.Date.today(),
+            'sequence_number': 2,
+            'to_invoice': True,
+            'date_order': fields.Datetime.to_string(fields.Datetime.now()),
+            'uuid': '12345-123-1234',
+            'payment_ids': [[0, 0, {
+                'amount': -10,
+                'name': fields.Datetime.now(),
+                'payment_method_id': self.cash_payment_method.id
+            }]],
+        }]
+        self.PosOrder.sync_from_ui(refund_values)
+        refunded_order_line = self.env['pos.order.line'].search([('product_id', '=', product.id), ('qty', '=', -2)])
+        self.assertEqual(refunded_order_line.total_cost, -20)
 >>>>>>> upstream/18.0

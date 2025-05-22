@@ -49,9 +49,13 @@ class StockMove(models.Model):
         order = line.order_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         received_qty = line.qty_received
         if self.state == 'done':
             received_qty -= self.product_uom._compute_quantity(self.quantity, line.product_uom, rounding_method='HALF-UP')
+=======
+        received_qty = self._get_qty_received_without_self()
+>>>>>>> upstream/18.0
 =======
         received_qty = self._get_qty_received_without_self()
 >>>>>>> upstream/18.0
@@ -106,6 +110,7 @@ class StockMove(models.Model):
         if order.currency_id != order.company_id.currency_id:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The date must be today, and not the date of the move since the move move is still
             # in assigned state. However, the move date is the scheduled date until move is
             # done, then date of actual move processing. See:
@@ -120,6 +125,9 @@ class StockMove(models.Model):
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
             price_unit = order.currency_id._convert(
                 price_unit, order.company_id.currency_id, order.company_id, convert_date, round=False)
         if self.product_id.lot_valuated:
@@ -128,7 +136,10 @@ class StockMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_qty_received_without_self(self):
@@ -158,6 +169,9 @@ class StockMove(models.Model):
         return convert_date
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -175,6 +189,10 @@ class StockMove(models.Model):
         if not svl.account_move_line_id:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
@@ -187,7 +205,11 @@ class StockMove(models.Model):
                 self.company_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0
@@ -201,7 +223,11 @@ class StockMove(models.Model):
                 self.company_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0

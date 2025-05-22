@@ -29,7 +29,11 @@
                     <div class="col-6" t-if="o.partner_shipping_id and (o.partner_shipping_id != o.partner_id)" groups="account.group_delivery_invoice_address" name="shipping_address_block">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong>Shipping Address:</strong>
+=======
+                        <strong class="d-block mt-3">Shipping Address:</strong>
+>>>>>>> upstream/18.0
 =======
                         <strong class="d-block mt-3">Shipping Address:</strong>
 >>>>>>> upstream/18.0

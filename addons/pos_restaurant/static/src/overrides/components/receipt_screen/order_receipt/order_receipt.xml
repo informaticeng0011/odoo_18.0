@@ -38,8 +38,12 @@
     <t t-name="pos_restaurant.ReceiptHeader" t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
         <xpath expr="//div[hasclass('cashier')]" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-if="props.data.table">Table <t t-esc="props.data.table" /></t>
             <t t-if="props.data.table and props.data.customer_count">, Guests: <t t-esc="props.data.customer_count" /></t>
+=======
+            <t t-if="tableName" t-esc="tableName"/>
+>>>>>>> upstream/18.0
 =======
             <t t-if="tableName" t-esc="tableName"/>
 >>>>>>> upstream/18.0

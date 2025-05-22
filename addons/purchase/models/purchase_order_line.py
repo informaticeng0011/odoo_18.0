@@ -226,7 +226,11 @@ class PurchaseOrderLine(models.Model):
     @api.ondelete(at_uninstall=False)
     def _unlink_except_purchase_or_done(self):
         for line in self:
+<<<<<<< HEAD
             if line.order_id.state in ['purchase', 'done']:
+=======
+            if line.order_id.state in ['purchase', 'done'] and line.display_type not in ['line_note', 'line_section']:
+>>>>>>> upstream/18.0
                 state_description = {state_desc[0]: state_desc[1] for state_desc in self._fields['state']._description_selection(self.env)}
                 raise UserError(_('Cannot delete a purchase order line which is in state “%s”.', state_description.get(line.state)))
 
@@ -631,9 +635,14 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = seller.price if seller else product_id.standard_price
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             price_unit, product_taxes, taxes, company_id)
+=======
+        price_unit = self.env['account.tax']._fix_tax_included_price_company(
+            seller.price, product_taxes, taxes, company_id) if seller else 0
+>>>>>>> upstream/18.0
 =======
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             seller.price, product_taxes, taxes, company_id) if seller else 0

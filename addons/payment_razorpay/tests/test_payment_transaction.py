@@ -21,6 +21,10 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -100,6 +104,43 @@ class TestPaymentTransaction(RazorpayCommon):
         tx = self._create_transaction('direct', state='authorized')
         self.assertRaises(UserError, func=tx._send_void_request)
 
+<<<<<<< HEAD
+=======
+    def test_prevent_multi_payments_on_recurring_transactions(self):
+        """ Test that no retry is allowed within the 36 hours of the first attempt using token. """
+        shared_token = self._create_token()
+        self._create_transaction(
+            'token', reference='INV123', token_id=shared_token.id, state='pending'
+        )
+        tx2 = self._create_transaction('token', reference='INV123-1', token_id=shared_token.id)
+        self.assertRaises(UserError, tx2._send_payment_request)
+
+    def test_allow_multi_payments_on_non_recurring_transactions(self):
+        """Test that the payment of non-recurring transactions is allowed."""
+        shared_token = self._create_token(provider_ref='cust_123,token_404')
+        different_token = self._create_token(provider_ref='cust_123,token_405')
+        tx1 = self._create_transaction(
+            'token', reference='INV123', token_id=shared_token.id
+        )
+        all_states = ['draft', 'pending', 'done', 'cancel', 'error']
+        other_txs = [
+            # Different reference
+            self._create_transaction('token', reference='INV456', token_id=shared_token.id),
+            # Different token
+            self._create_transaction('token', reference='INV123-1', token_id=different_token.id),
+        ]
+        for state in all_states:
+            tx1.state = state
+            for other_tx in other_txs:
+                with patch(
+                    'odoo.addons.payment_razorpay.models.payment_provider.PaymentProvider'
+                    '._razorpay_make_request',
+                    return_value={'status': 'created', 'id': '12345', 'amount': other_tx.amount}
+                ):
+                    self._assert_does_not_raise(UserError, other_tx._send_payment_request)
+                other_tx.state = 'draft'
+
+>>>>>>> upstream/18.0
     def test_get_tx_from_notification_data_returns_refund_tx(self):
         """ Test that the refund transaction is returned if it exists when processing refund
         notification data. """
@@ -150,11 +191,14 @@ class TestPaymentTransaction(RazorpayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_processing_notification_data_only_tokenizes_once(self):
         """ Test that only one token is created when notification data of a given transaction are
         processed multiple times. """
         tx1 = self._create_transaction('redirect', reference='tx1', tokenize=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218,6 +262,9 @@ class TestPaymentTransaction(RazorpayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

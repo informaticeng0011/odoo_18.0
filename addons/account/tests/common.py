@@ -201,7 +201,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -277,6 +280,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1053,7 +1059,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1138,6 +1147,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1268,6 +1280,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0

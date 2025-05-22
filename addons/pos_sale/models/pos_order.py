@@ -39,7 +39,13 @@ class PosOrder(models.Model):
                 addr = self.partner_id.address_get(['delivery'])
                 invoice_vals['partner_shipping_id'] = addr['delivery']
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sale_orders[0].payment_term_id:
+=======
+            if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
+                invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
+            else:
+>>>>>>> upstream/18.0
 =======
             if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
                 invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id

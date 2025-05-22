@@ -15,6 +15,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Daniel Reis, 2025
+>>>>>>> upstream/18.0
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -41,6 +45,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +111,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Daniel Reis, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Daniel Reis, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +136,11 @@ msgstr ""
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid " Product cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " Custo do produto atualizado de %(previous)s para %(new_cost)s."
+=======
+msgstr " Custo do artigo atualizado de %(previous)s para %(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr " Custo do artigo atualizado de %(previous)s para %(new_cost)s."
 >>>>>>> upstream/18.0
@@ -166,7 +180,11 @@ msgid ""
 msgstr ""
 ")\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Adicione um valor negativo para registrar uma diminuição no valor do produto</small>"
+=======
+"                            <small class=\"mx-2 fst-italic\">Adicione um valor negativo para registar uma diminuição no valor do artigo</small>"
+>>>>>>> upstream/18.0
 =======
 "                            <small class=\"mx-2 fst-italic\">Adicione um valor negativo para registar uma diminuição no valor do artigo</small>"
 >>>>>>> upstream/18.0
@@ -191,7 +209,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "<span>Product</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Produto</span>"
+=======
+msgstr "<span>Artigo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Artigo</span>"
 >>>>>>> upstream/18.0
@@ -249,7 +271,11 @@ msgid ""
 "Add additional cost (transport, customs, ...) in the value of the product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Adicionar custo adicional (transporte, alfândega, ...) no valor do produto."
+=======
+"Adicionar custo adicional (transporte, alfândega, ...) no valor do artigo."
+>>>>>>> upstream/18.0
 =======
 "Adicionar custo adicional (transporte, alfândega, ...) no valor do artigo."
 >>>>>>> upstream/18.0
@@ -277,8 +303,13 @@ msgid ""
 " update their cost price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afetar os custos de postos no destino nas operações de recepção e dividi-los"
 " entre os produtos para atualizar os seus preços de custo."
+=======
+"Afetar os custos de postos no destino nas operações de receção e dividi-los "
+"entre os artigos para atualizar os seus preços de custo."
+>>>>>>> upstream/18.0
 =======
 "Afetar os custos de postos no destino nas operações de receção e dividi-los "
 "entre os artigos para atualizar os seus preços de custo."
@@ -332,7 +363,11 @@ msgid "Bacon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bacon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bacon"
 >>>>>>> upstream/18.0
@@ -359,9 +394,15 @@ msgid ""
 " the product category, or on the location, before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não é possível encontrar uma conta de entrada de armazém para o produto %s. "
 "Deve definir um na categoria de produto, ou no local, antes de processar "
 "esta operação."
+=======
+"Não é possível encontrar uma conta de entrada de armazém para o artigo %s. "
+"Deve definir um na categoria de artigo, ou no local, antes de processar esta"
+" operação."
+>>>>>>> upstream/18.0
 =======
 "Não é possível encontrar uma conta de entrada de armazém para o artigo %s. "
 "Deve definir um na categoria de artigo, ou no local, antes de processar esta"
@@ -377,9 +418,15 @@ msgid ""
 "operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não é possível encontrar uma conta de saída de armazém para o produto %s. "
 "Deve definir um na categoria de produto, ou no local, antes de processar "
 "esta operação."
+=======
+"Não é possível encontrar uma conta de saída de armazém para o artigo %s. "
+"Deve definir um na categoria de artigo, ou no local, antes de processar esta"
+" operação."
+>>>>>>> upstream/18.0
 =======
 "Não é possível encontrar uma conta de saída de armazém para o artigo %s. "
 "Deve definir um na categoria de artigo, ou no local, antes de processar esta"
@@ -431,7 +478,11 @@ msgid ""
 "product or its category to process this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Erro de configuração. Configure a conta de diferença de preço no produto ou "
+=======
+"Erro de configuração. Configure a conta de diferença de preço no artigo ou "
+>>>>>>> upstream/18.0
 =======
 "Erro de configuração. Configure a conta de diferença de preço no artigo ou "
 >>>>>>> upstream/18.0
@@ -464,7 +515,11 @@ msgid ""
 " to %(new_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alteração do método de custeio para a categoria de produto %(category)s: de "
+=======
+"Alteração do método de custeio para a categoria de artigo %(category)s: de "
+>>>>>>> upstream/18.0
 =======
 "Alteração do método de custeio para a categoria de artigo %(category)s: de "
 >>>>>>> upstream/18.0
@@ -483,7 +538,11 @@ msgid ""
 msgstr ""
 "Os itens do diário de contrapartida para todos os movimentos de entrada de inventário serão lançados nesta conta, a menos que haja uma conta de valorização específica\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                definida para o local de origem. Este é o valor pré definido para todos os produtos desta categoria. Também pode ser definido diretamente em cada produto."
+=======
+"                definida para o local de origem. Este é o valor pré definido para todos os artigos desta categoria. Também pode ser definido diretamente em cada artigo."
+>>>>>>> upstream/18.0
 =======
 "                definida para o local de origem. Este é o valor pré definido para todos os artigos desta categoria. Também pode ser definido diretamente em cada artigo."
 >>>>>>> upstream/18.0
@@ -738,7 +797,11 @@ msgid ""
 msgstr ""
 "Manual: Os lançamentos contabilísticos para valorizar o inventário não são lançados automaticamente.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Automatizado: um lançamento contabilístico é criado automaticamente para valorizar o inventário quando um produto entra ou sai da empresa.\n"
+=======
+"        Automatizado: um lançamento contabilístico é criado automaticamente para valorizar o inventário quando um artigo entra ou sai da empresa.\n"
+>>>>>>> upstream/18.0
 =======
 "        Automatizado: um lançamento contabilístico é criado automaticamente para valorizar o inventário quando um artigo entra ou sai da empresa.\n"
 >>>>>>> upstream/18.0
@@ -821,7 +884,11 @@ msgid ""
 "Product value manually modified (from %(original_price)s to %(new_price)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Valor do produto modificado manualmente (de %(original_price)s para "
+=======
+"Valor do artigo modificado manualmente (de %(original_price)s para "
+>>>>>>> upstream/18.0
 =======
 "Valor do artigo modificado manualmente (de %(original_price)s para "
 >>>>>>> upstream/18.0
@@ -933,9 +1000,15 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Preço Padrão: Os produtos são avaliados pelo custo padrão definido no produto.\n"
 "     Custo Médio (AVCO): Os produtos são avaliados pelo custo médio ponderado.\n"
 "     Primeiro a entrar, primeiro a sair (FIFO): Os produtos são avaliados supondo-se que aqueles que entrarem primeiro na empresa também serão os primeiros a sair.\n"
+=======
+"Preço Padrão: Os artigos são avaliados pelo custo padrão definido no artigo.\n"
+"     Custo Médio (AVCO): Os artigos são avaliados pelo custo médio ponderado.\n"
+"     Primeiro a entrar, primeiro a sair (FIFO): Os artigos são avaliados supondo-se que aqueles que entrarem primeiro na empresa também serão os primeiros a sair.\n"
+>>>>>>> upstream/18.0
 =======
 "Preço Padrão: Os artigos são avaliados pelo custo padrão definido no artigo.\n"
 "     Custo Médio (AVCO): Os artigos são avaliados pelo custo médio ponderado.\n"
@@ -1302,8 +1375,13 @@ msgid ""
 "%(old_method)s to %(new_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alteração do método de valorização para a categoria do produto %(category)s:"
 " de %(old_method)s para %(new_method)s."
+=======
+"Alteração do método de valorização para a categoria do artigo %(category)s: "
+"de %(old_method)s para %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Alteração do método de valorização para a categoria do artigo %(category)s: "
 "de %(old_method)s para %(new_method)s."
@@ -1394,6 +1472,10 @@ msgstr "Assistente modelo para revalorizar o inventário de um artigo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -1461,7 +1543,11 @@ msgstr ""
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot revalue a product with a standard cost method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Não se pode revalorizar um produto com um método de custeio padrão."
+=======
+msgstr "Não se pode revalorizar um artigo com um método de custeio padrão."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não se pode revalorizar um artigo com um método de custeio padrão."
 >>>>>>> upstream/18.0
@@ -1574,7 +1660,11 @@ msgid "units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "unidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "unidades"
 >>>>>>> upstream/18.0

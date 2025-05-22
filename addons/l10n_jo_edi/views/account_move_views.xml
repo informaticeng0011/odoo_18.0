@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_jo_edi_state" invisible="not l10n_jo_edi_state"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +61,10 @@
                     <field name="l10n_jo_edi_qr" invisible="1"/>
                     <field name="l10n_jo_edi_state" invisible="country_code != 'JO'" readonly="l10n_jo_edi_qr"/>
 >>>>>>> upstream/18.0
+=======
+                    <field name="l10n_jo_edi_qr" invisible="1"/>
+                    <field name="l10n_jo_edi_state" invisible="country_code != 'JO'" readonly="l10n_jo_edi_qr"/>
+>>>>>>> upstream/18.0
                     <field name="l10n_jo_edi_is_needed" invisible="1"/>
                     <field name="reversed_entry_id"
                         invisible="move_type != 'out_refund' or not l10n_jo_edi_is_needed"
@@ -77,6 +82,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

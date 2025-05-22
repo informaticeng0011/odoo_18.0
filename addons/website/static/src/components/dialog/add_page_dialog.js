@@ -8,7 +8,11 @@ import { _t } from "@web/core/l10n/translation";
 import { WebsiteDialog } from '@website/components/dialog/dialog';
 import { Switch } from '@website/components/switch/switch';
 import { applyTextHighlight } from "@website/js/text_processing";
+<<<<<<< HEAD
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted } from "@odoo/owl";
+=======
+import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
+>>>>>>> upstream/18.0
 import wUtils from '@website/js/utils';
 
 const NO_OP = () => {};
@@ -358,6 +362,12 @@ export class AddPageTemplates extends Component {
         // Displaying the correct images in the previews also relies on the
         // website id having been forced.
         await this.env.getCssLinkEls();
+<<<<<<< HEAD
+=======
+        if (status(this) === "destroyed") {
+            return new Promise(() => {});
+        }
+>>>>>>> upstream/18.0
 
         if (this.pages) {
             return this.pages;

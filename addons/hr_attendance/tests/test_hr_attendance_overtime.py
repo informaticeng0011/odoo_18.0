@@ -391,12 +391,15 @@ class TestHrAttendanceOvertime(TransactionCase):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['hr.attendance'].create({
             'employee_id': self.employee.id,
             'check_in': datetime(2024, 2, 1, 8, 0),
             'check_out': datetime(2024, 2, 1, 13, 0)
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.env['hr.attendance'].create([{
@@ -411,6 +414,9 @@ class TestHrAttendanceOvertime(TransactionCase):
         }
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -451,7 +457,10 @@ class TestHrAttendanceOvertime(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_auto_check_out_lunch_period(self):
@@ -505,6 +514,9 @@ class TestHrAttendanceOvertime(TransactionCase):
             self.assertEqual(att.check_out, datetime(2025, 3, 12, 17, 0))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

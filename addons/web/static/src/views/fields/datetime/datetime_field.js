@@ -10,6 +10,10 @@ import { formatDate, formatDateTime } from "../formatters";
 import { standardFieldProps } from "../standard_field_props";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { FIELD_WIDTHS } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 import { FIELD_WIDTHS } from "@web/views/list/column_width_hook";
 >>>>>>> upstream/18.0
@@ -428,6 +432,11 @@ export const dateTimeField = {
     supportedTypes: ["datetime"],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    listViewWidth: ({ options }) =>
+        exprToBoolean(options.show_time ?? true) ? FIELD_WIDTHS.datetime : FIELD_WIDTHS.date,
+>>>>>>> upstream/18.0
 =======
     listViewWidth: ({ options }) =>
         exprToBoolean(options.show_time ?? true) ? FIELD_WIDTHS.datetime : FIELD_WIDTHS.date,
@@ -468,8 +477,11 @@ export const dateRangeField = {
     supportedTypes: ["date", "datetime"],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     listViewWidth: ({ type }) => (type === "datetime" ? 294 : 180),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     listViewWidth: ({ type, options }) => {
@@ -482,6 +494,9 @@ export const dateRangeField = {
         return 2 * width + 30; // 30px for the arrow and the gaps
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

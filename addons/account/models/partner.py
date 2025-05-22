@@ -612,6 +612,10 @@ class ResPartner(models.Model):
         compute='_compute_duplicated_bank_account_partners_count',
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
+>>>>>>> upstream/18.0
 =======
     # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
 >>>>>>> upstream/18.0

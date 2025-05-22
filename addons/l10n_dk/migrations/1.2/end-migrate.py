@@ -10,7 +10,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         env['account.chart.template'].try_loading('dk', company)
+=======
+        env['account.chart.template'].try_loading('dk', company, force_create=False)
+>>>>>>> upstream/18.0
 =======
         env['account.chart.template'].try_loading('dk', company, force_create=False)
 >>>>>>> upstream/18.0

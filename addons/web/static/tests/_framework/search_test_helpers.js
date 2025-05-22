@@ -120,7 +120,11 @@ export async function toggleMenu(label) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`button.o-dropdown:contains(/^${label}$/)`).click();
+=======
+    await contains(`button.o-dropdown:contains(/^${label}$/i)`).click();
+>>>>>>> upstream/18.0
 =======
     await contains(`button.o-dropdown:contains(/^${label}$/i)`).click();
 >>>>>>> upstream/18.0
@@ -155,7 +159,11 @@ export async function toggleMenuItem(label) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const target = queryOne`.o_menu_item:contains(/^${label}$/)`;
+=======
+    const target = queryOne`.o_menu_item:contains(/^${label}$/i)`;
+>>>>>>> upstream/18.0
 =======
     const target = queryOne`.o_menu_item:contains(/^${label}$/i)`;
 >>>>>>> upstream/18.0
@@ -196,8 +204,13 @@ export async function toggleMenuItemOption(itemLabel, optionLabel) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/)`;
     const target = queryOne(`.o_item_option:contains(/^${optionLabel}$/)`, { root });
+=======
+    const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/i)`;
+    const target = queryOne(`.o_item_option:contains(/^${optionLabel}$/i)`, { root });
+>>>>>>> upstream/18.0
 =======
     const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/i)`;
     const target = queryOne(`.o_item_option:contains(/^${optionLabel}$/i)`, { root });
@@ -244,7 +257,11 @@ export function isItemSelected(label) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return queryOne`.o_menu_item:contains(/^${label}$/)`.classList.contains("selected");
+=======
+    return queryOne`.o_menu_item:contains(/^${label}$/i)`.classList.contains("selected");
+>>>>>>> upstream/18.0
 =======
     return queryOne`.o_menu_item:contains(/^${label}$/i)`.classList.contains("selected");
 >>>>>>> upstream/18.0
@@ -280,8 +297,13 @@ export function isOptionSelected(itemLabel, optionLabel) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/)`;
     return queryOne(`.o_item_option:contains(/^${optionLabel}$/)`, { root }).classList.contains(
+=======
+    const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/i)`;
+    return queryOne(`.o_item_option:contains(/^${optionLabel}$/i)`, { root }).classList.contains(
+>>>>>>> upstream/18.0
 =======
     const { parentElement: root } = queryOne`.o_menu_item:contains(/^${itemLabel}$/i)`;
     return queryOne(`.o_item_option:contains(/^${optionLabel}$/i)`, { root }).classList.contains(
@@ -378,7 +400,11 @@ export async function deleteFavorite(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_favorite_menu .o_menu_item:contains(/^${text}$/) i.fa-trash-o`).click();
+=======
+    await contains(`.o_favorite_menu .o_menu_item:contains(/^${text}$/i) i.fa-trash-o`).click();
+>>>>>>> upstream/18.0
 =======
     await contains(`.o_favorite_menu .o_menu_item:contains(/^${text}$/i) i.fa-trash-o`).click();
 >>>>>>> upstream/18.0
@@ -451,7 +477,11 @@ export async function removeFacet(label) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_searchview_facet:contains(/^${label}$/) .o_facet_remove`).click();
+=======
+    await contains(`.o_searchview_facet:contains(/^${label}$/i) .o_facet_remove`).click();
+>>>>>>> upstream/18.0
 =======
     await contains(`.o_searchview_facet:contains(/^${label}$/i) .o_facet_remove`).click();
 >>>>>>> upstream/18.0

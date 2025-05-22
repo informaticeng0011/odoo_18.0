@@ -240,12 +240,20 @@ class ServerActions(models.Model):
 
         if self.mail_post_method in ('comment', 'note'):
             records = self.env[self.model_name].with_context(cleaned_ctx).browse(res_ids)
+<<<<<<< HEAD
+=======
+            message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
+>>>>>>> upstream/18.0
             if self.mail_post_method == 'comment':
                 subtype_id = self.env['ir.model.data']._xmlid_to_res_id('mail.mt_comment')
             else:
                 subtype_id = self.env['ir.model.data']._xmlid_to_res_id('mail.mt_note')
             records.message_post_with_source(
                 self.template_id,
+<<<<<<< HEAD
+=======
+                message_type=message_type,
+>>>>>>> upstream/18.0
                 subtype_id=subtype_id,
             )
         else:

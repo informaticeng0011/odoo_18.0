@@ -1230,7 +1230,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1329,6 +1332,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1345,6 +1349,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1474,6 +1480,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1510,6 +1517,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_payment_terms_with_early_discount(self):
         """Make sure that orders invoiced in the pos do not use payment terms with early discount"""
@@ -1584,4 +1593,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         pos_order_id = self.env['pos.order'].sync_from_ui([pos_order])['pos.order'][0]['id']
         pos_order = self.env['pos.order'].browse(pos_order_id)
         self.assertFalse(pos_order.account_move.invoice_payment_term_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

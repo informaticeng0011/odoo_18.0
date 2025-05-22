@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillDestroy, onWillStart, useEffect, useRef, useState } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import {
@@ -15,6 +18,9 @@ import {
     useState,
 } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63,6 +69,10 @@ export class CodeEditor extends Component {
         sessionId: { type: [Number, String], optional: true },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        initialCursorPosition: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         initialCursorPosition: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -127,8 +137,11 @@ export class CodeEditor extends Component {
                     if (this.props.onChange && !ignoredAceChange) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.props.onChange(this.aceEditor.getValue());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         this.props.onChange(
@@ -136,6 +149,9 @@ export class CodeEditor extends Component {
                             this.aceEditor.getCursorPosition()
                         );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200,8 +216,11 @@ export class CodeEditor extends Component {
                         if (this.props.onChange && !ignoredAceChange) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             this.props.onChange(this.aceEditor.getValue());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                             this.props.onChange(
@@ -209,6 +228,9 @@ export class CodeEditor extends Component {
                                 this.aceEditor.getCursorPosition()
                             );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -231,7 +253,10 @@ export class CodeEditor extends Component {
         onResized(this.editorRef, debouncedResize);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -254,6 +279,9 @@ export class CodeEditor extends Component {
             });
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
