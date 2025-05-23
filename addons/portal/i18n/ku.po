@@ -14,7 +14,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:25+0000\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:48+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 >>>>>>> upstream/18.0
@@ -175,7 +179,11 @@ msgid ""
 "                    <span style=\"font-size: 10px;\">Your Account</span><br/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
+=======
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</span>\n"
 >>>>>>> upstream/18.0
@@ -199,6 +207,7 @@ msgid ""
 "                    <div>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Dear <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -208,6 +217,8 @@ msgid ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        Dear <t t-out=\"object.user_id.name or object.partner_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
 "                        Welcome to <t t-out=\"object.user_id.company_id.name or object.partner_id.company_id.name\">YourCompany</t>'s Portal!<br/><br/>\n"
 "                        An account has been created for you with the following login: <t t-out=\"object.user_id.login\">demo</t><br/><br/>\n"
@@ -215,6 +226,9 @@ msgid ""
 "                        <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "                            <a t-att-href=\"object.user_id.partner_id._get_signup_url() or object.partner_id._get_signup_url()\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312,7 +326,11 @@ msgid "Add a note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینییەک زیاد بکە"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینییەک زیاد بکە"
 >>>>>>> upstream/18.0
@@ -438,7 +456,11 @@ msgid "Cancel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -617,7 +639,11 @@ msgid "City"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شار"
+>>>>>>> upstream/18.0
 =======
 msgstr "شار"
 >>>>>>> upstream/18.0
@@ -772,7 +798,11 @@ msgid "Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "داخستن"
+>>>>>>> upstream/18.0
 =======
 msgstr "داخستن"
 >>>>>>> upstream/18.0
@@ -933,7 +963,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دڵنیاکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دڵنیاکردنەوە"
 >>>>>>> upstream/18.0
@@ -1115,7 +1149,11 @@ msgid "Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وڵات"
+>>>>>>> upstream/18.0
 =======
 msgstr "وڵات"
 >>>>>>> upstream/18.0
@@ -1262,7 +1300,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -1409,7 +1451,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -1563,7 +1609,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وەسف"
+>>>>>>> upstream/18.0
 =======
 msgstr "وەسف"
 >>>>>>> upstream/18.0
@@ -1640,7 +1690,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕەتکردنەوە"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕەتکردنەوە"
 >>>>>>> upstream/18.0
@@ -1791,7 +1845,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -1839,7 +1897,11 @@ msgid "Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نادروست"
+>>>>>>> upstream/18.0
 =======
 msgstr "نادروست"
 >>>>>>> upstream/18.0
@@ -1922,12 +1984,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Key Description"
 msgstr ""
 
 #. module: portal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1950,7 +2015,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -1989,7 +2058,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -2044,7 +2117,11 @@ msgid "Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نامە"
+>>>>>>> upstream/18.0
 =======
 msgstr "نامە"
 >>>>>>> upstream/18.0
@@ -2088,7 +2165,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ناو"
+>>>>>>> upstream/18.0
 =======
 msgstr "ناو"
 >>>>>>> upstream/18.0
@@ -2134,7 +2215,11 @@ msgstr ""
 msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تێبینی"
+>>>>>>> upstream/18.0
 =======
 msgstr "تێبینی"
 >>>>>>> upstream/18.0
@@ -2164,7 +2249,11 @@ msgstr ""
 msgid "Partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوبەشەکان"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوبەشەکان"
 >>>>>>> upstream/18.0
@@ -2316,7 +2405,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

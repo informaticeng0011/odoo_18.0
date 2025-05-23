@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError
@@ -12,7 +15,10 @@ from odoo.tests.common import TransactionCase, tagged
 class TestResPartner(TransactionCase):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -21,6 +27,9 @@ class TestResPartner(TransactionCase):
             for x in ('us', 'fr', 'it')
         ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_validate_fiscal_code(self):
         valid_codes = [
@@ -94,7 +103,10 @@ class TestResPartner(TransactionCase):
         partner_form.vat = 'IT12345670017'
         self.assertEqual(partner_form.l10n_it_codice_fiscale, '12345670017', "There was a typo in the VAT, changing it should change l10n_it_codice_fiscale as well")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _test_normalized_data(self, testdata):
         prefix = "normalized_"
@@ -186,4 +198,7 @@ class TestResPartner(TransactionCase):
                 'normalized_vat': False,
             },
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

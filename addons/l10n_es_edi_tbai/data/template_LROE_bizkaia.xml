@@ -44,12 +44,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 t-elif="not is_emission and not is_freelancer"
                 t-call="l10n_es_edi_tbai.template_LROE_240_inner"/>
             <lrpficfcsgap:LROEPF140IngresosConFacturaConSGAnulacionPeticion
                 xmlns:lrpficfcsgap="https://www.batuz.eus/fitxategiak/batuz/LROE/esquemas/LROE_PF_140_1_1_Ingresos_ConfacturaConSG_AnulacionPeticion_V1_0_0.xsd"
                 t-elif="not is_emission and is_freelancer"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142,6 +145,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -234,7 +240,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Renta><DetalleRenta><Epigrafe t-out="epigrafe"/></DetalleRenta></Renta>
+=======
+                    <Renta t-if="is_emission"><DetalleRenta><Epigrafe t-out="epigrafe"/></DetalleRenta></Renta>
+                    <AnulacionTicketBai t-else="" t-out="tbai_b64"/>
+>>>>>>> upstream/18.0
 =======
                     <Renta t-if="is_emission"><DetalleRenta><Epigrafe t-out="epigrafe"/></DetalleRenta></Renta>
                     <AnulacionTicketBai t-else="" t-out="tbai_b64"/>

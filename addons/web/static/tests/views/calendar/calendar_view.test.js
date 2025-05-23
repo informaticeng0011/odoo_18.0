@@ -2618,7 +2618,10 @@ test(`Add filters and specific color`, async () => {
     });
     expect.verifySteps([
         "get_views (event)",
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
         "search_read (filter.partner) [partner_id]",
         "search_read (event) [display_name, start, stop, is_all_day, color, attendee_ids, type_id]",
     ]);

@@ -56,6 +56,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if partner.ref:
+            return [{'id': partner.ref}]
+>>>>>>> upstream/18.0
 =======
         if partner.ref:
             return [{'id': partner.ref}]
@@ -199,7 +204,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -313,6 +321,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -426,6 +437,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+>>>>>>> upstream/18.0
 =======
             'person_vals': self._get_partner_person_vals(partner),
 >>>>>>> upstream/18.0
@@ -771,6 +786,23 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             })
         return vals_list
 
+<<<<<<< HEAD
+=======
+    def _get_pricing_exchange_rate_vals_list(self, invoice):
+        """ To be overridden if needed to fill the PricingExchangeRate node.
+
+        This is used when the currency of the 'Exchange' (e.g.: an invoice) is not the same as the Document currency.
+
+        If used, it should return a list of dict, following this format: [{
+            'source_currency_code': str,  (required)
+            'target_currency_code': str,  (required)
+            'calculation_rate': float,
+            'date': date,
+        }]
+        """
+        return []
+
+>>>>>>> upstream/18.0
     def _get_invoice_line_allowance_vals_list(self, line, tax_values_list=None):
         """ Method used to fill the cac:{Invoice,CreditNote,DebitNote}Line>cac:AllowanceCharge node.
 
@@ -1037,6 +1069,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             'InvoiceType_template': 'account_edi_ubl_cii.ubl_20_InvoiceType',
             'CreditNoteType_template': 'account_edi_ubl_cii.ubl_20_CreditNoteType',
             'DebitNoteType_template': 'account_edi_ubl_cii.ubl_20_DebitNoteType',
+<<<<<<< HEAD
+=======
+            'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
+>>>>>>> upstream/18.0
 
             'vals': {
                 'ubl_version_id': 2.0,
@@ -1070,6 +1106,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                 ),
                 'line_vals': invoice_line_vals_list,
                 'currency_dp': self._get_currency_decimal_places(invoice.currency_id),  # currency decimal places
+<<<<<<< HEAD
+=======
+                'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
+>>>>>>> upstream/18.0
             },
         }
 

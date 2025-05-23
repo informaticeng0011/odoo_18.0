@@ -205,8 +205,12 @@ class Delivery(WebsiteSale):
                 order_sudo=order_sudo,
             )
 
+<<<<<<< HEAD
         # Return the list of delivery methods available for the sales order.
         return sorted([{
+=======
+        sorted_delivery_methods = sorted([{
+>>>>>>> upstream/18.0
             'id': dm.id,
             'name': dm.name,
             'description': dm.website_description,
@@ -214,6 +218,23 @@ class Delivery(WebsiteSale):
         } for dm, price in Delivery._get_delivery_methods_express_checkout(order_sudo).items()
         ], key=lambda dm: dm['minorAmount'])
 
+<<<<<<< HEAD
+=======
+        # Preselect the cheapest method imitating the behavior of the express checkout form.
+        if (
+            sorted_delivery_methods
+            and order_sudo.carrier_id.id != sorted_delivery_methods[0]['id']
+            and (cheapest_dm := next((
+                dm for dm in order_sudo._get_delivery_methods()
+                if dm.id == sorted_delivery_methods[0]['id']), None
+            ))
+        ):
+            order_sudo._set_delivery_method(cheapest_dm)
+
+        # Return the list of delivery methods available for the sales order.
+        return {'delivery_methods': sorted_delivery_methods}
+
+>>>>>>> upstream/18.0
     @staticmethod
     def _get_delivery_methods_express_checkout(order_sudo):
         """ Return available delivery methods and their prices for the given order.

@@ -3,6 +3,10 @@ import {
     bootstrapToTable,
     cardToTable,
     classToStyle,
+<<<<<<< HEAD
+=======
+    createMso,
+>>>>>>> upstream/18.0
     formatTables,
     getCSSRules,
     listGroupToTable,
@@ -1421,3 +1425,27 @@ describe("Convert classes to inline styles", () => {
         // @todo to adapt when hoot has a better way to remove it
     });
 });
+<<<<<<< HEAD
+=======
+
+describe("Properly add MSO conditions", () => {
+    test("Create mso properly", async () => {
+        expect(createMso("<div>abcde</div>").nodeValue).toEqual(
+            `[if mso]><div>abcde</div><![endif]`,
+            { message: "Should wrap the content in mso condition" }
+        );
+
+        expect(
+            createMso("<div>ef<!--[if mso]><div>abcd</div><![endif]-->gh</div>").nodeValue
+        ).toEqual(`[if mso]><div>ef<div>abcd</div>gh</div><![endif]`, {
+            message: "Should wrap the content inside one mso condition",
+        });
+
+        expect(
+            createMso("<div>ef<!--[if !mso]><div>abcd</div><![endif]-->gh</div>").nodeValue
+        ).toEqual(`[if mso]><div>efgh</div><![endif]`, {
+            message: "Should remove nested mso hide condition",
+        });
+    });
+});
+>>>>>>> upstream/18.0

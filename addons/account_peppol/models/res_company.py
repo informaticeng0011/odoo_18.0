@@ -85,6 +85,14 @@ class ResCompany(models.Model):
     # HELPER METHODS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+    @api.model
+    def _check_phonenumbers_import(self):
+        if not phonenumbers:
+            raise ValidationError(_("Please install the phonenumbers library."))
+
+>>>>>>> upstream/18.0
     def _sanitize_peppol_phone_number(self, phone_number=None):
         self.ensure_one()
 
@@ -93,8 +101,12 @@ class ResCompany(models.Model):
             "For example: +32123456789, where +32 is the country code.\n"
             "Currently, only European countries are supported.")
 
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 
         phone_number = phone_number or self.account_peppol_phone_number
         if not phone_number:

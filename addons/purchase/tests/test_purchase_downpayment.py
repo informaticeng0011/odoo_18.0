@@ -89,7 +89,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -128,6 +131,9 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
         self.assertFalse(self.env['account.move'].search(accrued_wizard.create_entries()['domain']).line_ids.filtered(lambda l: l.is_downpayment))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -506,7 +506,10 @@ class TestFrontend(TestFrontendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -529,6 +532,9 @@ class TestFrontend(TestFrontendCommon):
         self.start_tour(f"/pos/ui?config_id={self.pos_config.id}", 'test_combo_preparation_receipt_layout', login="pos_admin")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

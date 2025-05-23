@@ -3,6 +3,10 @@
 import logging
 import pprint
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+>>>>>>> upstream/18.0
 =======
 import re
 >>>>>>> upstream/18.0
@@ -12,7 +16,11 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, api, models
+=======
+from odoo import _, api, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 >>>>>>> upstream/18.0
@@ -209,7 +217,10 @@ class PaymentTransaction(models.Model):
             raise UserError("Razorpay: " + _("The transaction is not linked to a token."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Prevent multiple token payments for the same document within 36 hours. Another transaction
         # with the same token could be pending processing due to Razorpay waiting 24 hours.
         # See https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11668.
@@ -233,6 +244,9 @@ class PaymentTransaction(models.Model):
                 )
             )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         try:
             order_data = self._razorpay_create_order()
@@ -448,8 +462,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.provider_reference = entity_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -494,6 +511,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -543,7 +563,12 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.payment_method_id = payment_method or self.payment_method_id
+=======
+        if allowed_to_modify and payment_method:
+            self.payment_method_id = payment_method
+>>>>>>> upstream/18.0
 =======
         if allowed_to_modify and payment_method:
             self.payment_method_id = payment_method

@@ -10,7 +10,11 @@ from . import test_mail_render_mixin
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_link_tracker
+=======
+from . import test_tracker_http_requests
+>>>>>>> upstream/18.0
 =======
 from . import test_tracker_http_requests
 >>>>>>> upstream/18.0

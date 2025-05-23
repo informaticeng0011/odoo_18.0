@@ -155,7 +155,11 @@ Thank you for your prompt attention to this matter.""")
             "res_model": "sms.composer",
             "view_mode": 'form',
             "context": context,
+<<<<<<< HEAD
             "name": _("Send SMS"),
+=======
+            "name": self.env._("Send SMS"),
+>>>>>>> upstream/18.0
             "target": "new",
         }
 

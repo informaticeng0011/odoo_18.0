@@ -126,7 +126,11 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         # We ensure that the customer does not have their ttx set (it could be on the record if they're also supplier)
         customer_identification_vals = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals['id_attrs'] != {'schemeID': 'TTX'}
+=======
+            vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
+>>>>>>> upstream/18.0
 =======
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
 >>>>>>> upstream/18.0

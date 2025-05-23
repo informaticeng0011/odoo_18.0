@@ -1699,6 +1699,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1718,6 +1722,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1731,6 +1739,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 
         #Create an order with the 2 products
         self.pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1780,6 +1789,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         order_data = {'amount_paid': 200,
            'amount_return': 0,
            'amount_tax': 200,
@@ -1824,6 +1835,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.pos_config.current_session_id.action_pos_session_closing_control()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2292,7 +2306,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2404,6 +2421,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2442,6 +2460,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pos_order_refund_ship_delay_totalcost(self):
         # test that the total cost is computed for refund with a shipping delay and an avco/fifo product
@@ -2517,4 +2537,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.PosOrder.sync_from_ui(refund_values)
         refunded_order_line = self.env['pos.order.line'].search([('product_id', '=', product.id), ('qty', '=', -2)])
         self.assertEqual(refunded_order_line.total_cost, -20)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

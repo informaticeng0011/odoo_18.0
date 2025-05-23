@@ -29,10 +29,16 @@ class AccountEdiProxyClientUser(models.Model):
             return company.partner_id._l10n_it_edi_normalized_codice_fiscale()
         return super()._get_proxy_identification(company, proxy_type)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _register_proxy_user(self, company, proxy_type, edi_mode):
         if proxy_type == 'l10n_it_edi':
             company = company.root_id
         return super()._register_proxy_user(company, proxy_type, edi_mode)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

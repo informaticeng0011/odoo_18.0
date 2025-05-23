@@ -22,6 +22,10 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -105,7 +109,10 @@ class TestPaymentTransaction(RazorpayCommon):
         self.assertRaises(UserError, func=tx._send_void_request)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_prevent_multi_payments_on_recurring_transactions(self):
         """ Test that no retry is allowed within the 36 hours of the first attempt using token. """
         shared_token = self._create_token()
@@ -140,6 +147,9 @@ class TestPaymentTransaction(RazorpayCommon):
                     self._assert_does_not_raise(UserError, other_tx._send_payment_request)
                 other_tx.state = 'draft'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_get_tx_from_notification_data_returns_refund_tx(self):
         """ Test that the refund transaction is returned if it exists when processing refund
@@ -192,11 +202,14 @@ class TestPaymentTransaction(RazorpayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_processing_notification_data_only_tokenizes_once(self):
         """ Test that only one token is created when notification data of a given transaction are
         processed multiple times. """
         tx1 = self._create_transaction('redirect', reference='tx1', tokenize=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -263,6 +276,9 @@ class TestPaymentTransaction(RazorpayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

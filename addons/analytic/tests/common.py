@@ -1,5 +1,9 @@
 from odoo.addons.base.tests.common import BaseCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.common import new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import new_test_user
 >>>>>>> upstream/18.0
@@ -46,7 +50,10 @@ class AnalyticCommon(BaseCommon):
         groups = super().get_default_groups()
         return groups + cls.env.ref('analytic.group_analytic_accounting')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @classmethod
     def setup_independent_user(cls):
@@ -68,4 +75,7 @@ class AnalyticCommon(BaseCommon):
             groups_id=default_groups.ids,
             company_id=cls.env.company.id,
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

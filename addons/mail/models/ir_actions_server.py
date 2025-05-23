@@ -241,6 +241,10 @@ class ServerActions(models.Model):
         if self.mail_post_method in ('comment', 'note'):
             records = self.env[self.model_name].with_context(cleaned_ctx).browse(res_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
+>>>>>>> upstream/18.0
 =======
             message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
 >>>>>>> upstream/18.0
@@ -251,6 +255,10 @@ class ServerActions(models.Model):
             records.message_post_with_source(
                 self.template_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                message_type=message_type,
+>>>>>>> upstream/18.0
 =======
                 message_type=message_type,
 >>>>>>> upstream/18.0

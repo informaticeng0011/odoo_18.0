@@ -64,7 +64,11 @@ export class PaymentPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const result = await rpc(`/kiosk/payment/${this.selfOrder.config.id}/kiosk`, {
+=======
+            await rpc(`/kiosk/payment/${this.selfOrder.config.id}/kiosk`, {
+>>>>>>> upstream/18.0
 =======
             await rpc(`/kiosk/payment/${this.selfOrder.config.id}/kiosk`, {
 >>>>>>> upstream/18.0
@@ -129,8 +133,11 @@ export class PaymentPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const order = result.order;
             this.selfOrder.updateOrderFromServer(order);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

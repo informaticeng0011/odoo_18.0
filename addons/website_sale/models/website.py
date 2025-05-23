@@ -30,7 +30,13 @@ class Website(models.Model):
     enabled_portal_reorder_button = fields.Boolean(string="Re-order From Portal")
     salesperson_id = fields.Many2one(
 <<<<<<< HEAD
+<<<<<<< HEAD
         string="Salesperson", comodel_name='res.users', domain="[('share', '=', False)]",
+=======
+        string="Salesperson",
+        comodel_name='res.users',
+        domain=[('share', '=', False)],
+>>>>>>> upstream/18.0
 =======
         string="Salesperson",
         comodel_name='res.users',
@@ -468,7 +474,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             salesperson_user_sudo = self.salesperson_id or partner_sudo.parent_id.user_id or partner_sudo.user_id
+=======
+            salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
+>>>>>>> upstream/18.0
 =======
             salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
 >>>>>>> upstream/18.0
@@ -576,7 +586,15 @@ class Website(models.Model):
             (all_abandoned_carts - abandoned_carts).cart_recovery_email_sent = True
             for sale_order in abandoned_carts:
                 template = self.env.ref('website_sale.mail_template_sale_cart_recovery')
+<<<<<<< HEAD
                 template.send_mail(sale_order.id, email_values={'email_to': sale_order.partner_id.email})
+=======
+                # fallback email_vals in case partner_to and email_to were emptied
+                email_vals = {} if template.email_to or template.partner_to else {
+                    'email_to': sale_order.partner_id.email_formatted
+                }
+                template.send_mail(sale_order.id, email_values=email_vals)
+>>>>>>> upstream/18.0
                 sale_order.cart_recovery_email_sent = True
 
     def _display_partner_b2b_fields(self):

@@ -404,7 +404,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -521,6 +524,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(aml_output.credit, 20)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

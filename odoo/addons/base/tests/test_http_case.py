@@ -92,6 +92,14 @@ class TestChromeBrowser(HttpCase):
         self.browser._save_screencast()
 
 
+<<<<<<< HEAD
+=======
+@tagged('-at_install', 'post_install')
+class TestChromeBrowserOddDimensions(TestChromeBrowser):
+    browser_size = "1215x768"
+
+
+>>>>>>> upstream/18.0
 class TestRequestRemaining(HttpCase):
     # This test case tries to reproduce the case where a request is lost between two test and is execute during the secone one.
     #
@@ -138,6 +146,7 @@ class TestRequestRemaining(HttpCase):
 
     def test_requests_b(self):
         self.env.cr.execute('SELECT 1')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +241,8 @@ class TestRequestRemaining(HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         with self.assertLogs('odoo.tests.common') as lc:
             self.main_lock.release()
             _logger.info('B started, waiting for A to finish')
@@ -266,6 +277,9 @@ class TestRequestRemaining(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -333,6 +333,10 @@ class PricelistItem(models.Model):
 
     @api.onchange('compute_price')
     def _onchange_compute_price(self):
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
         if self.compute_price != 'fixed':
             self.fixed_price = 0.0
         if self.compute_price != 'percentage':

@@ -17,12 +17,16 @@ paymentExpressCheckoutForm.include({
      */
     _getOrderDetails(deliveryAmount, amountFreeShipping) {
         const pending = this.paymentContext['shippingInfoRequired'] && deliveryAmount === undefined;
+<<<<<<< HEAD
         const orderDeliveryAmount = parseInt(this.paymentContext['deliveryAmount'])
         let minorAmount = parseInt(this.paymentContext['minorAmount'])
         if (orderDeliveryAmount) { // The delivery method is set on the order.
             // Subtract the delivery amount from the total amount to display the right total.
             minorAmount -= orderDeliveryAmount;
         }
+=======
+        let minorAmount = parseInt(this.paymentContext['minorAmount'])
+>>>>>>> upstream/18.0
         const displayItems = [
             {
                 label: _t("Your order"),
@@ -169,7 +173,11 @@ paymentExpressCheckoutForm.include({
             // shipping address, the shipping options need to be fetched again.
             paymentRequest.on('shippingaddresschange', async (ev) => {
                 // Call the shipping address update route to fetch the shipping options.
+<<<<<<< HEAD
                 const availableCarriers = await rpc(
+=======
+                const availableCarriersData = await rpc(
+>>>>>>> upstream/18.0
                     this.paymentContext['shippingAddressUpdateRoute'],
                     {
                         partial_delivery_address: {
@@ -180,18 +188,34 @@ paymentExpressCheckoutForm.include({
                         },
                     },
                 );
+<<<<<<< HEAD
                 if (availableCarriers.length === 0) {
+=======
+                const { delivery_methods, delivery_discount_minor_amount } = availableCarriersData;
+                if (delivery_methods.length === 0) {
+>>>>>>> upstream/18.0
                     ev.updateWith({status: 'invalid_shipping_address'});
                 } else {
                     ev.updateWith({
                         status: 'success',
+<<<<<<< HEAD
                         shippingOptions: availableCarriers.map(carrier => ({
+=======
+                        shippingOptions: delivery_methods.map(carrier => ({
+>>>>>>> upstream/18.0
                             id: String(carrier.id),
                             label: carrier.name,
                             detail: carrier.description ? carrier.description:'',
                             amount: carrier.minorAmount,
                         })),
+<<<<<<< HEAD
                         ...this._getOrderDetails(availableCarriers[0].minorAmount),
+=======
+                        ...this._getOrderDetails(
+                            delivery_methods[0].minorAmount,
+                            delivery_discount_minor_amount,
+                        ),
+>>>>>>> upstream/18.0
                     });
                 }
             });

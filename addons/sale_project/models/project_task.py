@@ -193,7 +193,11 @@ class ProjectTask(models.Model):
         if not self.display_sale_order_button:
             return {}
         return {
+<<<<<<< HEAD
             "name": "Portal Sale Order",
+=======
+            "name": self.env._("Portal Sale Order"),
+>>>>>>> upstream/18.0
             "type": "ir.actions.act_url",
             "url": self.sale_order_id.access_url,
         }

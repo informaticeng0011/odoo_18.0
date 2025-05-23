@@ -68,6 +68,10 @@ class ThemePreviewFormController extends FormController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // ... or remove the feature entirely ? See task-3454790.
+>>>>>>> upstream/18.0
 =======
         // ... or remove the feature entirely ? See task-3454790.
 >>>>>>> upstream/18.0

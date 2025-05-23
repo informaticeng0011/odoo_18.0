@@ -26,7 +26,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "../utils/dom_info";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -136,6 +139,7 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // If the range is invisible (0 width & height) and selection is collapsed,
     // it's likely inside an empty paragraph.
     // In that case, we try to get the bounding rect from a nearby child element
@@ -157,12 +161,17 @@ function scrollToSelection(selection) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     // If the range is invisible (0 width & height),
     // We call `getBoundingClientRect` on closest element.
     if (rect.width === 0 && rect.height === 0 && selection.isCollapsed) {
         rect = closestElement(selection.anchorNode).getBoundingClientRect();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

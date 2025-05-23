@@ -8,6 +8,10 @@ class ResConfigSettings(models.TransientModel):
 
     is_edi_proxy_active = fields.Boolean(compute='_compute_is_edi_proxy_active')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)
+>>>>>>> upstream/18.0
 =======
     company_parent_id = fields.Many2one(related='company_id.parent_id', readonly=True)
 >>>>>>> upstream/18.0
@@ -31,10 +35,14 @@ class ResConfigSettings(models.TransientModel):
     def _compute_l10n_it_edi_demo_mode(self):
         for config in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             edi_user = self.env['account_edi_proxy_client.user'].search([
                 ('company_id', '=', config.company_id.id),
                 ('proxy_type', '=', 'l10n_it_edi'),
             ], limit=1)
+=======
+            edi_user = config.company_id.l10n_it_edi_proxy_user_id
+>>>>>>> upstream/18.0
 =======
             edi_user = config.company_id.l10n_it_edi_proxy_user_id
 >>>>>>> upstream/18.0
@@ -49,11 +57,15 @@ class ResConfigSettings(models.TransientModel):
     def _compute_l10n_it_edi_proxy_current_state(self):
         for config in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             proxy_user = config.company_id.account_edi_proxy_client_ids.search([
                 ('company_id', '=', config.company_id.id),
                 ('proxy_type', '=', 'l10n_it_edi'),
             ], limit=1)
 
+=======
+            proxy_user = config.company_id.l10n_it_edi_proxy_user_id
+>>>>>>> upstream/18.0
 =======
             proxy_user = config.company_id.l10n_it_edi_proxy_user_id
 >>>>>>> upstream/18.0
@@ -66,6 +78,7 @@ class ResConfigSettings(models.TransientModel):
 
     def _set_l10n_it_edi_register_demo_mode(self):
         for config in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 
             proxy_user = self.env['account_edi_proxy_client.user'].search([
@@ -104,6 +117,8 @@ class ResConfigSettings(models.TransientModel):
                     ]).sudo().unlink()
                     self._create_proxy_user(config.company_id, edi_mode)
 =======
+=======
+>>>>>>> upstream/18.0
             proxy_user = config.company_id.l10n_it_edi_proxy_user_id
 
             old_edi_mode = config.company_id.l10n_it_edi_proxy_user_id.edi_mode
@@ -120,4 +135,7 @@ class ResConfigSettings(models.TransientModel):
                 if old_edi_mode == 'demo' and edi_mode != 'demo':
                     proxy_user.sudo().unlink()
                 self._create_proxy_user(config.company_id, edi_mode)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

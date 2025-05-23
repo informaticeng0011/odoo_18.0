@@ -18,6 +18,10 @@ class IrAttachment(models.Model):
             and attachment.res_id
             and attachment.raw
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and attachment.company_id.check_account_audit_trail
+>>>>>>> upstream/18.0
 =======
             and attachment.company_id.check_account_audit_trail
 >>>>>>> upstream/18.0
@@ -55,6 +59,10 @@ class IrAttachment(models.Model):
             and attachment.res_id
             and attachment.res_field in ('invoice_pdf_report_file', 'ubl_cii_xml_file')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and attachment.company_id.check_account_audit_trail
+>>>>>>> upstream/18.0
 =======
             and attachment.company_id.check_account_audit_trail
 >>>>>>> upstream/18.0

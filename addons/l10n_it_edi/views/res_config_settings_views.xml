@@ -8,7 +8,11 @@
         <field name="arch" type="xml">
             <xpath expr="//block[@id='account_vendor_bills']" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT'" id='account_edi'>
+=======
+                <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or company_parent_id" id='account_edi'>
+>>>>>>> upstream/18.0
 =======
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or company_parent_id" id='account_edi'>
 >>>>>>> upstream/18.0
@@ -48,12 +52,18 @@
                     </setting>
                 </block>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <block title="Italian Electronic Invoicing" invisible="(country_code != 'IT') or not company_parent_id" id='account_edi_branch'>
                     <span class="o_form_label">
                         Branches use the EDI settings of their main company
                     </span>
                 </block>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </xpath>
         </field>

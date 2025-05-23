@@ -95,6 +95,25 @@ class AccountJournal(models.Model):
         self.ensure_one()
         return self.sudo().l10n_sa_production_csid_json
 
+<<<<<<< HEAD
+=======
+    def _l10n_sa_api_onboard_sanity_checks(self):
+        """
+            Perform a sanity check to validate that the journal is ready to be onboarded
+        """
+
+        # If the invoice wasn't sent to ZATCA because of a timeout, it will retain its existing chain index
+        # Make sure there are no opened invoices with the journal's existing sequence
+        move_ids = self.env['account.move'].search(
+            [
+                ('journal_id', '=', self.id),
+                ('l10n_sa_chain_index', '!=', 0)
+            ]
+        )
+        stuck_moves = [move for move in move_ids if not move._l10n_sa_is_in_chain()]
+        if stuck_moves:
+            raise UserError(_("Oops! The journal is stuck. Please submit the pending invoices to ZATCA and try again."))
+>>>>>>> upstream/18.0
     # ====== CSR Generation =======
 
     def _l10n_sa_csr_required_fields(self):
@@ -140,6 +159,13 @@ class AccountJournal(models.Model):
                 3.  Get the Production CSID
         """
         self.ensure_one()
+<<<<<<< HEAD
+=======
+        # we want to perform sanity checks to ensure that the journal is ready to be onboarded
+        # If the check fails, we do not want to revoke the existing PCSID because the user might still need it to post hanging invoices
+        self._l10n_sa_api_onboard_sanity_checks()
+
+>>>>>>> upstream/18.0
         try:
             # If the company does not have a private key, we generate it.
             # The private key is used to generate the CSR but also to sign the invoices
@@ -156,6 +182,11 @@ class AccountJournal(models.Model):
             self._l10n_sa_get_production_CSID()
             # Once all three steps are completed, we set the errors field to False
             self.l10n_sa_csr_errors = False
+<<<<<<< HEAD
+=======
+            # Regenerate a new chain sequence
+            self._l10n_sa_edi_icv_onboarding()
+>>>>>>> upstream/18.0
         except (RequestException, HTTPError, UserError) as e:
             # In case of an exception returned from ZATCA (not timeout), we will need to regenerate the CSR
             # As the same CSR cannot be used twice for the same CCSID request
@@ -307,16 +338,44 @@ class AccountJournal(models.Model):
         return etree.tostring(root)
 
     # ====== Index Chain & Previous Invoice Calculation =======
+<<<<<<< HEAD
+=======
+    def _l10n_sa_edi_icv_onboarding(self):
+        """
+            Onboarding method to create or reset ICV sequence for the journal
+        """
+        self.ensure_one()
+        if self.l10n_sa_chain_sequence_id:
+            self.l10n_sa_chain_sequence_id.number_next = 1
+            message = _("Journal re-onboarded with ZATCA successfully")
+        else:
+            self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
+            message = _("Journal onboarded with ZATCA successfully")
+        self.message_post(body=message)
+
+    def _l10n_sa_edi_create_new_chain(self):
+        self.ensure_one()
+        return self.env['ir.sequence'].create({
+            'name': f'ZATCA account move sequence for Journal {self.name} (id: {self.id})',
+            'code': f'l10n_sa_edi.account.move.{self.id}',
+            'implementation': 'no_gap',
+            'company_id': self.company_id.id,
+        })
+>>>>>>> upstream/18.0
 
     def _l10n_sa_edi_get_next_chain_index(self):
         self.ensure_one()
         if not self.l10n_sa_chain_sequence_id:
+<<<<<<< HEAD
             self.l10n_sa_chain_sequence_id = self.env['ir.sequence'].create({
                 'name': f'ZATCA account move sequence for Journal {self.name} (id: {self.id})',
                 'code': f'l10n_sa_edi.account.move.{self.id}',
                 'implementation': 'no_gap',
                 'company_id': self.company_id.id,
             })
+=======
+            self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
+>>>>>>> upstream/18.0
         return self.l10n_sa_chain_sequence_id.next_by_id()
 
     def _l10n_sa_get_last_posted_invoice(self):
@@ -509,6 +568,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -657,12 +720,15 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # In the case of an explicit error from ZATCA, i.e we got a response but the code of the response is not 2xx
             return {
                 'error': _("Server returned an unexpected error: %(error)s", error=(request_response.text or str(ex))),
                 'blocking_level': 'error'
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -776,6 +842,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -885,7 +954,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -992,6 +1064,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1103,6 +1178,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not request_response.ok and (response_data.get('errors') or response_data.get('warnings')):
             if isinstance(response_data, dict) and response_data.get('errors'):
@@ -1115,6 +1191,8 @@ class AccountJournal(models.Model):
                 'error': request_response.reason,
                 'blocking_level': 'error'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1233,6 +1311,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

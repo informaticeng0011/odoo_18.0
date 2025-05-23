@@ -72,7 +72,11 @@ class ir_cron(models.Model):
     user_id = fields.Many2one('res.users', string='Scheduler User', default=lambda self: self.env.user, required=True)
     active = fields.Boolean(default=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
     interval_number = fields.Integer(default=1, help="Repeat every x.", required=True)
+=======
+    interval_number = fields.Integer(default=1, aggregator=None, help="Repeat every x.", required=True)
+>>>>>>> upstream/18.0
 =======
     interval_number = fields.Integer(default=1, aggregator=None, help="Repeat every x.", required=True)
 >>>>>>> upstream/18.0
@@ -84,7 +88,11 @@ class ir_cron(models.Model):
     nextcall = fields.Datetime(string='Next Execution Date', required=True, default=fields.Datetime.now, help="Next planned execution date for this job.")
     lastcall = fields.Datetime(string='Last Execution Date', help="Previous time the cron ran successfully, provided to the job through the context on the `lastcall` key")
 <<<<<<< HEAD
+<<<<<<< HEAD
     priority = fields.Integer(default=5, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
+=======
+    priority = fields.Integer(default=5, aggregator=None, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
+>>>>>>> upstream/18.0
 =======
     priority = fields.Integer(default=5, aggregator=None, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
 >>>>>>> upstream/18.0

@@ -38,12 +38,30 @@ registerWebsitePreviewTour("text_animations", {
         trigger: ":iframe .s_cover:not(:has(.o_animated_text))",
     },
     {
+<<<<<<< HEAD
+=======
+        content: "Open the text background color colorpicker",
+        trigger: "button#oe-fore-color",
+        run: "click",
+    },
+    {
+        content: "Add a background color on the selected text",
+        trigger: ".o_colorpicker_section [data-color='black']",
+        run: "click",
+    },
+    {
+>>>>>>> upstream/18.0
         content: "Try to apply the text animation again",
         trigger: "div.o_we_animate_text",
         run: "click",
     },
     {
+<<<<<<< HEAD
         content: "Check that the animation was applied",
         trigger: ":iframe .s_cover:has(span.o_animated_text)",
+=======
+        content: "Check that the animation was applied and that the <font> element is inside the o_animated_text element",
+        trigger: ":iframe .s_cover:has(span.o_animated_text > font.bg-black)",
+>>>>>>> upstream/18.0
     },
 ]);

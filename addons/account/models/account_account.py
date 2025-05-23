@@ -728,7 +728,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif account.account_type == 'asset_cash':
+=======
+            elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
+>>>>>>> upstream/18.0
 =======
             elif account.account_type in ('asset_cash', 'liability_credit_card', 'off_balance'):
 >>>>>>> upstream/18.0
@@ -906,7 +910,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None):
+=======
+    def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None, journal_id=None):
+>>>>>>> upstream/18.0
 =======
     def _get_most_frequent_accounts_for_partner(self, company_id, partner_id, move_type, filter_never_user_accounts=False, limit=None, journal_id=None):
 >>>>>>> upstream/18.0
@@ -983,6 +991,10 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param journal_id: only return accounts allowed on this journal id
+>>>>>>> upstream/18.0
 =======
         :param journal_id: only return accounts allowed on this journal id
 >>>>>>> upstream/18.0
@@ -1059,6 +1071,11 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if journal_id:
+            domain += ['|', ('account_id.allowed_journal_ids', '=', journal_id), ('account_id.allowed_journal_ids', '=', False)]
+>>>>>>> upstream/18.0
 =======
         if journal_id:
             domain += ['|', ('account_id.allowed_journal_ids', '=', journal_id), ('account_id.allowed_journal_ids', '=', False)]
@@ -1173,8 +1190,13 @@ class AccountAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None):
         most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1)
+=======
+    def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None, journal_id=None):
+        most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1, journal_id=journal_id)
+>>>>>>> upstream/18.0
 =======
     def _get_most_frequent_account_for_partner(self, company_id, partner_id, move_type=None, journal_id=None):
         most_frequent_account = self._get_most_frequent_accounts_for_partner(company_id, partner_id, move_type, filter_never_user_accounts=True, limit=1, journal_id=journal_id)
@@ -1355,6 +1377,10 @@ class AccountAccount(models.Model):
         '''
         if not self.ids:
             return None
+<<<<<<< HEAD
+=======
+        self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency', 'reconciled'])
+>>>>>>> upstream/18.0
         query = """
             UPDATE account_move_line SET
                 reconciled = CASE WHEN debit = 0 AND credit = 0 AND amount_currency = 0
@@ -1364,7 +1390,10 @@ class AccountAccount(models.Model):
             WHERE full_reconcile_id IS NULL and account_id IN %s
         """
         self.env.cr.execute(query, [tuple(self.ids)])
+<<<<<<< HEAD
         self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency', 'reconciled'])
+=======
+>>>>>>> upstream/18.0
 
     def _toggle_reconcile_to_false(self):
         '''Toggle the `reconcile´ boolean from True -> False
@@ -1383,6 +1412,11 @@ class AccountAccount(models.Model):
         if partial_lines_count > 0:
             raise UserError(_('You cannot switch an account to prevent the reconciliation '
                               'if some partial reconciliations are still pending.'))
+<<<<<<< HEAD
+=======
+
+        self.env['account.move.line'].invalidate_model(['amount_residual', 'amount_residual_currency'])
+>>>>>>> upstream/18.0
         query = """
             UPDATE account_move_line
                 SET amount_residual = 0, amount_residual_currency = 0

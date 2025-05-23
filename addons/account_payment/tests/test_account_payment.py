@@ -252,7 +252,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306,6 +309,9 @@ class TestAccountPayment(AccountPaymentCommon):
         self.assertEqual(payment.destination_account_id, invoice.line_ids[-1].account_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

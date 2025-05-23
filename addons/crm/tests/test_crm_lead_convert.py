@@ -453,7 +453,10 @@ class TestLeadConvert(crm_common.TestLeadConvertCommon):
         self.assertEqual(self.lead_1.type, 'opportunity')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @users('user_sales_manager')
     def test_lead_merge_last_created(self):
         """
@@ -484,6 +487,9 @@ class TestLeadConvert(crm_common.TestLeadConvertCommon):
         self.assertEqual(self.lead_1.type, 'opportunity')
         self.assertFalse(last_lead.exists(), 'The last lead must be merged with the first one!')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('user_sales_salesman')
     def test_lead_merge_user(self):

@@ -45,6 +45,10 @@ class L10nMyEDITestSubmission(TestAccountMoveSendCommon):
             'city': 'Main city',
             'phone': '+60123456786',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0

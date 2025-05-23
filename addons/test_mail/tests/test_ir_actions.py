@@ -82,7 +82,11 @@ class TestServerActionsEmail(MailCommon, TestServerActionsBase):
                                 'author_id': self.env.user.partner_id,
                               },
 <<<<<<< HEAD
+<<<<<<< HEAD
                               'message_type': 'notification',
+=======
+                              'message_type': 'auto_comment',
+>>>>>>> upstream/18.0
 =======
                               'message_type': 'auto_comment',
 >>>>>>> upstream/18.0
@@ -103,7 +107,11 @@ class TestServerActionsEmail(MailCommon, TestServerActionsBase):
                 [{'partner': self.test_partner, 'type': 'email', 'status': 'ready'}],
                 message_info={'content': 'Hello %s' % self.test_partner.name,
 <<<<<<< HEAD
+<<<<<<< HEAD
                               'message_type': 'notification',
+=======
+                              'message_type': 'auto_comment',
+>>>>>>> upstream/18.0
 =======
                               'message_type': 'auto_comment',
 >>>>>>> upstream/18.0

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useDebounced } from "@web/core/utils/timing";
 
 import { useComponent, useEffect, useExternalListener } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15,12 +18,15 @@ import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 import { localization } from "@web/core/l10n/localization";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useComponent, useEffect, useExternalListener, xml } from "@odoo/owl";
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     onMounted,
     onWillUnmount,
@@ -30,6 +36,9 @@ import {
     useExternalListener,
     xml,
 } from "@odoo/owl";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 // This file defines a hook that encapsulates the column width logic of the list view. This logic
@@ -83,12 +92,15 @@ const DELETE_BUTTON_WIDTH = 12;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const FIELD_WIDTHS = {
     boolean: [20, 100], // [minWidth, maxWidth]
     char: [80], // only minWidth, no maxWidth
     date: 80, // minWidth = maxWidth
     datetime: 145,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112,6 +124,9 @@ export const FIELD_WIDTHS = Object.freeze({
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130,8 +145,11 @@ export const FIELD_WIDTHS = Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -191,6 +209,9 @@ function computeOptimalDateWidths() {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -353,8 +374,11 @@ function getWidthSpecs(columns) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         width = width({ type: column.fieldType, hasLabel: column.hasLabel });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -366,6 +390,9 @@ function getWidthSpecs(columns) {
                         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517,7 +544,12 @@ export function useMagicColumnWidths(tableRef, getState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const delta = ev.clientX - initialX;
+=======
+            let delta = ev.clientX - initialX;
+            delta = this.isRTL ? -delta : delta;
+>>>>>>> upstream/18.0
 =======
             let delta = ev.clientX - initialX;
             delta = this.isRTL ? -delta : delta;
@@ -546,9 +578,15 @@ export function useMagicColumnWidths(tableRef, getState) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             columnWidths = headers.map((th) => {
                 return th.getBoundingClientRect().width - getHorizontalPadding(th);
             });
+=======
+            columnWidths = headers.map(
+                (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
+            );
+>>>>>>> upstream/18.0
 =======
             columnWidths = headers.map(
                 (th) => th.getBoundingClientRect().width - getHorizontalPadding(th)
@@ -602,12 +640,15 @@ export function useMagicColumnWidths(tableRef, getState) {
     if (renderer.constructor.useMagicColumnWidths) {
         useEffect(forceColumnWidths);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const debouncedResizeCallback = useDebounced(() => {
             resetWidths();
             forceColumnWidths();
         }, 200);
         useExternalListener(window, "resize", debouncedResizeCallback);
 =======
+=======
+>>>>>>> upstream/18.0
         // Forget computed widths (and potential manual column resize) on window resize
         useExternalListener(window, "resize", resetWidths);
         // Listen to width changes on the parent node of the table, to recompute ideal widths
@@ -639,6 +680,9 @@ export function useMagicColumnWidths(tableRef, getState) {
             resizeObserver.observe(tableRef.el.parentNode);
         });
         onWillUnmount(() => resizeObserver.disconnect());
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 

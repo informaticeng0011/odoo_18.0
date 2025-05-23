@@ -499,6 +499,10 @@
                 $-focus-bg: rgba(var(--#{$variable-prefix}emphasis-color-rgb), #{$table-hover-bg-factor * 2});
 
                 --#{$variable-prefix}table-accent-bg: #{$-focus-bg};
+<<<<<<< HEAD
+=======
+                --#{$variable-prefix}table-striped-bg: #{$-focus-bg};
+>>>>>>> upstream/18.0
             }
         }
 

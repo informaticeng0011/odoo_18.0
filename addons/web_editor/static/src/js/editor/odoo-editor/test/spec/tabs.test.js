@@ -551,7 +551,10 @@ describe('Tabs', () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     describe("Selection", () => {
         it("should move to the previous character", async () => {
@@ -571,5 +574,8 @@ describe('Tabs', () => {
             });
         });
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
