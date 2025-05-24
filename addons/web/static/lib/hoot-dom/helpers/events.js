@@ -1,5 +1,6 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
 import { HootDomError, getTag, isFirefox, isIterable } from "../hoot_dom_utils";
 import {
     getActiveElement,
@@ -40,6 +41,13 @@ import {
 =======
     getInteractiveNode,
 >>>>>>> upstream/18.0
+=======
+import { getTag, isFirefox, isIterable } from "../hoot_dom_utils";
+import {
+    getActiveElement,
+    getDocument,
+    getInteractiveNode,
+>>>>>>> upstream/18.0
     getNextFocusableElement,
     getNodeRect,
     getNodeValue,
@@ -55,6 +63,7 @@ import {
     parseDimensions,
     parsePosition,
     queryAll,
+<<<<<<< HEAD
     queryFirst,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +100,9 @@ import {
 >>>>>>> upstream/18.0
 =======
     queryOne,
+>>>>>>> upstream/18.0
+=======
+    queryAny,
 >>>>>>> upstream/18.0
     setDimensions,
     toSelector,
@@ -202,6 +214,10 @@ const {
     DataTransfer,
     document,
     DragEvent,
+<<<<<<< HEAD
+=======
+    Error,
+>>>>>>> upstream/18.0
     ErrorEvent,
     Event,
     File,
@@ -236,34 +252,54 @@ const $toString = Object.prototype.toString;
 /**
  * @param {Event} ev
  */
+<<<<<<< HEAD
 const cancelTrustedEvent = (ev) => {
+=======
+function cancelTrustedEvent(ev) {
+>>>>>>> upstream/18.0
     if (ev.isTrusted && runTime.eventsToIgnore.includes(ev.type)) {
         runTime.eventsToIgnore.splice(runTime.eventsToIgnore.indexOf(ev.type), 1);
         ev.stopPropagation();
         ev.stopImmediatePropagation();
         ev.preventDefault();
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {HTMLElement} target
  * @param {number} start
  * @param {number} end
  */
+<<<<<<< HEAD
 const changeSelection = async (target, start, end) => {
+=======
+async function changeSelection(target, start, end) {
+>>>>>>> upstream/18.0
     if (!isNil(start) && !isNil(target.selectionStart)) {
         target.selectionStart = start;
     }
     if (!isNil(end) && !isNil(target.selectionEnd)) {
         target.selectionEnd = end;
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {HTMLElement} target
  * @param {number} x
  */
+<<<<<<< HEAD
 const constrainScrollX = (target, x) => {
+=======
+function constrainScrollX(target, x) {
+>>>>>>> upstream/18.0
     let { offsetWidth, scrollWidth } = target;
     const document = getDocument(target);
     if (target === document || target === document.documentElement) {
@@ -277,13 +313,21 @@ const constrainScrollX = (target, x) => {
     const { direction } = getStyle(target);
     const [min, max] = direction === "rtl" ? [-maxScrollLeft, 0] : [0, maxScrollLeft];
     return $min($max(x, min), max);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {HTMLElement} target
  * @param {number} y
  */
+<<<<<<< HEAD
 const constrainScrollY = (target, y) => {
+=======
+function constrainScrollY(target, y) {
+>>>>>>> upstream/18.0
     let { offsetHeight, scrollHeight } = target;
     const document = getDocument(target);
     if (target === document || target === document.documentElement) {
@@ -294,12 +338,20 @@ const constrainScrollY = (target, y) => {
         }
     }
     return $min($max(y, 0), scrollHeight - offsetHeight);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {DataTransferOptions} options
  */
+<<<<<<< HEAD
 const createDataTransfer = (options) => {
+=======
+function createDataTransfer(options) {
+>>>>>>> upstream/18.0
     const dataTransfer =
         options?.dataTransfer instanceof DataTransfer ? options.dataTransfer : new DataTransfer();
     const types = new Set();
@@ -322,15 +374,26 @@ const createDataTransfer = (options) => {
     });
 
     return dataTransfer;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {HTMLInputElement | HTMLTextAreaElement} target
  */
+<<<<<<< HEAD
 const deleteSelection = (target) => {
     const { selectionStart, selectionEnd, value } = target;
     return value.slice(0, selectionStart) + value.slice(selectionEnd);
 };
+=======
+function deleteSelection(target) {
+    const { selectionStart, selectionEnd, value } = target;
+    return value.slice(0, selectionStart) + value.slice(selectionEnd);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @template {EventTarget} T
@@ -342,7 +405,11 @@ const deleteSelection = (target) => {
  *  options?: EventInit;
  * }} params
  */
+<<<<<<< HEAD
 const dispatchAndIgnore = async ({ target, events, additionalEvents = [], callback, options }) => {
+=======
+async function dispatchAndIgnore({ target, events, additionalEvents = [], callback, options }) {
+>>>>>>> upstream/18.0
     for (const eventType of [...events, ...additionalEvents]) {
         runTime.eventsToIgnore.push(eventType);
     }
@@ -352,7 +419,11 @@ const dispatchAndIgnore = async ({ target, events, additionalEvents = [], callba
     for (const eventType of events) {
         await dispatch(target, eventType, options);
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  *
@@ -364,7 +435,11 @@ const dispatchAndIgnore = async ({ target, events, additionalEvents = [], callba
  *  touch?: [EventType, TouchEventInit];
  * }} additionalEvents
  */
+<<<<<<< HEAD
 const dispatchPointerEvent = async (target, eventType, eventInit, { mouse, touch }) => {
+=======
+async function dispatchPointerEvent(target, eventType, eventInit, { mouse, touch }) {
+>>>>>>> upstream/18.0
     const pointerEvent = await dispatch(target, eventType, eventInit);
     let prevented = isPrevented(pointerEvent);
     if (hasTouch()) {
@@ -380,36 +455,57 @@ const dispatchPointerEvent = async (target, eventType, eventInit, { mouse, touch
         }
     }
     return prevented;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Iterable<Event>} events
  * @param {EventType} eventType
  * @param {EventInit} eventInit
  */
+<<<<<<< HEAD
 const dispatchRelatedEvents = async (events, eventType, eventInit) => {
+=======
+async function dispatchRelatedEvents(events, eventType, eventInit) {
+>>>>>>> upstream/18.0
     for (const event of events) {
         if (!event.target || isPrevented(event)) {
             break;
         }
         await dispatch(event.target, eventType, eventInit);
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @template T
  * @param {MaybeIterable<T>} value
  * @returns {T[]}
  */
+<<<<<<< HEAD
 const ensureArray = (value) => (isIterable(value) ? [...value] : [value]);
 
 const getCurrentEvents = () => {
+=======
+function ensureArray(value) {
+    return isIterable(value) ? [...value] : [value];
+}
+
+function getCurrentEvents() {
+>>>>>>> upstream/18.0
     const eventType = currentEventTypes.at(-1);
     if (!eventType) {
         return [];
     }
     currentEvents[eventType] ||= [];
     return currentEvents[eventType];
+<<<<<<< HEAD
 };
 
 const getDefaultRunTimeValue = () => ({
@@ -516,6 +612,57 @@ const getDefaultRunTimeValue = () => ({
      */
     eventsToIgnore: [],
 });
+=======
+}
+
+function getDefaultRunTimeValue() {
+    return {
+        isComposing: false,
+
+        // Data transfers
+        /** @type {DataTransfer | null} */
+        clipboardData: null,
+        /** @type {DataTransfer | null} */
+        dataTransfer: null,
+
+        // Drag & drop
+        canStartDrag: false,
+        isDragging: false,
+        lastDragOverCancelled: false,
+
+        // Pointer
+        clickCount: 0,
+        key: null,
+        /** @type {HTMLElement | null} */
+        pointerDownTarget: null,
+        pointerDownTimeout: 0,
+        /** @type {HTMLElement | null} */
+        pointerTarget: null,
+        /** @type {EventPosition | {}} */
+        position: {},
+        /** @type {HTMLElement | null} */
+        previousPointerDownTarget: null,
+        /** @type {EventPosition | {}} */
+        touchStartPosition: {},
+
+        // File
+        fileInput: null,
+
+        // Buttons
+        buttons: 0,
+
+        // Modifier keys
+        modifierKeys: {},
+
+        /**
+         * Ignored events ("select" by default since it is sometimes dispatched by
+         * focusing an input).
+         * @type {EventType[]}
+         */
+        eventsToIgnore: [],
+    };
+}
+>>>>>>> upstream/18.0
 
 /**
  * Returns the list of nodes containing n2 (included) that do not contain n1.
@@ -523,7 +670,11 @@ const getDefaultRunTimeValue = () => ({
  * @param {Element} [el1]
  * @param {Element} [el2]
  */
+<<<<<<< HEAD
 const getDifferentParents = (el1, el2) => {
+=======
+function getDifferentParents(el1, el2) {
+>>>>>>> upstream/18.0
     if (!el1 && !el2) {
         // No given elements => no parents
         return [];
@@ -540,14 +691,22 @@ const getDifferentParents = (el1, el2) => {
         parents.unshift(parent);
     }
     return parents;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @template {typeof Event} T
  * @param {EventType} eventType
  * @returns {[T, ((attrs: FullEventInit) => EventInit), number]}
  */
+<<<<<<< HEAD
 const getEventConstructor = (eventType) => {
+=======
+function getEventConstructor(eventType) {
+>>>>>>> upstream/18.0
     switch (eventType) {
         // Mouse events
         case "dblclick":
@@ -665,13 +824,21 @@ const getEventConstructor = (eventType) => {
         default:
             return [Event, mapEvent, BUBBLES];
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Node} [a]
  * @param {Node} [b]
  */
+<<<<<<< HEAD
 const getFirstCommonParent = (a, b) => {
+=======
+function getFirstCommonParent(a, b) {
+>>>>>>> upstream/18.0
     if (!a || !b || a.ownerDocument !== b.ownerDocument) {
         return null;
     }
@@ -687,6 +854,7 @@ const getFirstCommonParent = (a, b) => {
     }
 
     return range.commonAncestorContainer;
+<<<<<<< HEAD
 };
 
 /**
@@ -720,6 +888,15 @@ const getFirstCommonParent = (a, b) => {
  * @param {QueryOptions} options
  */
 const getPointerTarget = (element, options) => {
+=======
+}
+
+/**
+ * @param {HTMLElement} element
+ * @param {QueryOptions} options
+ */
+function getPointerTarget(element, options) {
+>>>>>>> upstream/18.0
     if (options?.interactive === false) {
         // Explicit 'interactive: false' option
         // -> element can be a non-interactive element
@@ -727,6 +904,7 @@ const getPointerTarget = (element, options) => {
     }
     const interactiveElement = getInteractiveNode(element);
     if (!interactiveElement) {
+<<<<<<< HEAD
         queryOne(element, { ...options, interactive: true }); // Will throw if no elements are found
     }
     return interactiveElement;
@@ -762,6 +940,18 @@ const getPointerTarget = (element, options) => {
  * @param {PointerOptions} [options]
  */
 const getPosition = (element, options) => {
+=======
+        queryAny(element, { ...options, interactive: true }); // Will throw if no elements are found
+    }
+    return interactiveElement;
+}
+
+/**
+ * @param {HTMLElement} element
+ * @param {PointerOptions} [options]
+ */
+function getPosition(element, options) {
+>>>>>>> upstream/18.0
     const { position, relative } = options || {};
     const isString = typeof position === "string";
     const [posX, posY] = parsePosition(position);
@@ -820,6 +1010,7 @@ const getPosition = (element, options) => {
     }
 
     return toEventPosition(clientX, clientY, position);
+<<<<<<< HEAD
 };
 
 /**
@@ -865,11 +1056,26 @@ const getStringSelection = (target) =>
     $isInteger(target.selectionStart) &&
     $isInteger(target.selectionEnd) &&
     [target.selectionStart, target.selectionEnd].join(",");
+=======
+}
+
+/**
+ * @param {HTMLInputElement | HTMLTextAreaElement} target
+ */
+function getStringSelection(target) {
+    return (
+        $isInteger(target.selectionStart) &&
+        $isInteger(target.selectionEnd) &&
+        [target.selectionStart, target.selectionEnd].join(",")
+    );
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Node} node
  * @param  {...string} tagNames
  */
+<<<<<<< HEAD
 const hasTagName = (node, ...tagNames) => tagNames.includes(getTag(node));
 
 const hasTouch = () =>
@@ -913,6 +1119,22 @@ const isDifferentPosition = (target, options) => {
  * @param {Position | null} position
  */
 const isDifferentPosition = (position) => {
+=======
+function hasTagName(node, ...tagNames) {
+    return tagNames.includes(getTag(node));
+}
+
+function hasTouch() {
+    return (
+        globalThis.ontouchstart !== undefined || globalThis.matchMedia("(pointer:coarse)").matches
+    );
+}
+
+/**
+ * @param {Position | null} position
+ */
+function isDifferentPosition(position) {
+>>>>>>> upstream/18.0
     if (!runTime.position || !position) {
         return runTime.position !== position;
     }
@@ -926,6 +1148,9 @@ const isDifferentPosition = (position) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -947,36 +1172,67 @@ const isDifferentPosition = (position) => {
         }
     }
     return false;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} object
  */
+<<<<<<< HEAD
 const isDictionary = (object) => $toString.call(object) === "[object Object]";
+=======
+function isDictionary(object) {
+    return $toString.call(object) === "[object Object]";
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} value
  */
+<<<<<<< HEAD
 const isNil = (value) => value === null || value === undefined;
+=======
+function isNil(value) {
+    return value === null || value === undefined;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Event} event
  */
+<<<<<<< HEAD
 const isPrevented = (event) => event && event.defaultPrevented;
+=======
+function isPrevented(event) {
+    return event && event.defaultPrevented;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {KeyStrokes} keyStrokes
  * @param {KeyboardEventInit} [options]
  * @returns {KeyboardEventInit}
  */
+<<<<<<< HEAD
 const parseKeyStrokes = (keyStrokes, options) =>
     (isIterable(keyStrokes) ? [...keyStrokes] : [keyStrokes]).map((key) => {
+=======
+function parseKeyStrokes(keyStrokes, options) {
+    return (isIterable(keyStrokes) ? [...keyStrokes] : [keyStrokes]).map((key) => {
+>>>>>>> upstream/18.0
         const lower = key.toLowerCase();
         return {
             ...options,
             key: lower.length === 1 ? key : KEY_ALIASES[lower] || key,
         };
     });
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * Redirects all 'submit' events to explicit network requests.
@@ -985,7 +1241,11 @@ const parseKeyStrokes = (keyStrokes, options) =>
  *
  * @param {SubmitEvent} ev
  */
+<<<<<<< HEAD
 const redirectSubmit = (ev) => {
+=======
+function redirectSubmit(ev) {
+>>>>>>> upstream/18.0
     if (isPrevented(ev)) {
         return;
     }
@@ -999,13 +1259,21 @@ const redirectSubmit = (ev) => {
         method: form.method,
         body: new FormData(form, ev.submitter),
     });
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {PointerEventInit} eventInit
  * @param {boolean} toggle
  */
+<<<<<<< HEAD
 const registerButton = (eventInit, toggle) => {
+=======
+function registerButton(eventInit, toggle) {
+>>>>>>> upstream/18.0
     let value = 0;
     switch (eventInit.button) {
         case btn.LEFT: {
@@ -1036,25 +1304,41 @@ const registerButton = (eventInit, toggle) => {
     }
 
     runTime.buttons = $max(runTime.buttons + (toggle ? value : -value), 0);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Event} ev
  */
+<<<<<<< HEAD
 const registerFileInput = ({ target }) => {
+=======
+function registerFileInput({ target }) {
+>>>>>>> upstream/18.0
     if (getTag(target) === "input" && target.type === "file") {
         runTime.fileInput = target;
     } else {
         runTime.fileInput = null;
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {string} initialValue
  * @param {ConfirmAction} confirmAction
  */
+<<<<<<< HEAD
 const registerForChange = async (target, initialValue, confirmAction) => {
+=======
+async function registerForChange(target, initialValue, confirmAction) {
+>>>>>>> upstream/18.0
     const dispatchChange = () => target.value !== initialValue && dispatch(target, "change");
 
     confirmAction &&= confirmAction.toLowerCase();
@@ -1072,7 +1356,13 @@ const registerForChange = async (target, initialValue, confirmAction) => {
             })
         );
     } else if (confirmAction === "enter") {
+<<<<<<< HEAD
         throw new HootDomError(`"enter" confirm action is only supported on <input/> elements`);
+=======
+        throw new HootInteractionError(
+            `"enter" confirm action is only supported on <input/> elements`
+        );
+>>>>>>> upstream/18.0
     }
 
     changeTargetListeners.push(
@@ -1085,6 +1375,7 @@ const registerForChange = async (target, initialValue, confirmAction) => {
 
     switch (confirmAction) {
         case "blur": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1114,6 +1405,8 @@ const registerForChange = async (target, initialValue, confirmAction) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await _hover(getDocument(target).body, {
                 position: { x: 0, y: 0 },
             });
@@ -1126,6 +1419,9 @@ const registerForChange = async (target, initialValue, confirmAction) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1154,13 +1450,21 @@ const registerForChange = async (target, initialValue, confirmAction) => {
             break;
         }
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {KeyboardEventInit} eventInit
  * @param {boolean} toggle
  */
+<<<<<<< HEAD
 const registerSpecialKey = (eventInit, toggle) => {
+=======
+function registerSpecialKey(eventInit, toggle) {
+>>>>>>> upstream/18.0
     switch (eventInit.key) {
         case "Alt": {
             runTime.modifierKeys.altKey = toggle;
@@ -1179,6 +1483,7 @@ const registerSpecialKey = (eventInit, toggle) => {
             break;
         }
     }
+<<<<<<< HEAD
 };
 
 const removeChangeTargetListeners = () => {
@@ -1186,16 +1491,30 @@ const removeChangeTargetListeners = () => {
         changeTargetListeners.pop()();
     }
 };
+=======
+}
+
+function removeChangeTargetListeners() {
+    while (changeTargetListeners.length) {
+        changeTargetListeners.pop()();
+    }
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {HTMLElement | null} target
  */
+<<<<<<< HEAD
 const setPointerDownTarget = (target) => {
+=======
+function setPointerDownTarget(target) {
+>>>>>>> upstream/18.0
     if (runTime.pointerDownTarget) {
         runTime.previousPointerDownTarget = runTime.pointerDownTarget;
     }
     runTime.pointerDownTarget = target;
     runTime.canStartDrag = false;
+<<<<<<< HEAD
 };
 
 /**
@@ -1255,6 +1574,15 @@ const setPointerTarget = async (target, options) => {
  * @param {EventOptions} type
  */
 const setupEvents = (type, options) => {
+=======
+}
+
+/**
+ * @param {string} type
+ * @param {EventOptions} type
+ */
+function setupEvents(type, options) {
+>>>>>>> upstream/18.0
     currentEventTypes.push(type);
     $assign(currentEventInit, options?.eventInit);
 
@@ -1316,14 +1644,22 @@ const setupEvents = (type, options) => {
 
         return events;
     };
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {number} clientX
  * @param {number} clientY
  * @param {Partial<EventPosition>} [position]
  */
+<<<<<<< HEAD
 const toEventPosition = (clientX, clientY, position) => {
+=======
+function toEventPosition(clientX, clientY, position) {
+>>>>>>> upstream/18.0
     clientX ||= 0;
     clientY ||= 0;
     return {
@@ -1334,13 +1670,21 @@ const toEventPosition = (clientX, clientY, position) => {
         screenX: position?.screenX ?? clientX,
         screenY: position?.screenY ?? clientY,
     };
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {PointerEventInit} pointerInit
  */
+<<<<<<< HEAD
 const triggerClick = async (target, pointerInit) => {
+=======
+async function triggerClick(target, pointerInit) {
+>>>>>>> upstream/18.0
     if (target.disabled) {
         return;
     }
@@ -1380,23 +1724,39 @@ const triggerClick = async (target, pointerInit) => {
             }
         }
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {DragEventInit} eventInit
  */
+<<<<<<< HEAD
 const triggerDrag = async (target, eventInit) => {
+=======
+async function triggerDrag(target, eventInit) {
+>>>>>>> upstream/18.0
     await dispatch(target, "drag", eventInit);
     // Only "dragover" being prevented is taken into account for "drop" events
     const dragOverEvent = await dispatch(target, "dragover", eventInit);
     return isPrevented(dragOverEvent);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  */
+<<<<<<< HEAD
 const triggerFocus = async (target) => {
+=======
+async function triggerFocus(target) {
+>>>>>>> upstream/18.0
     const previous = getActiveElement(target);
     if (previous === target) {
         return;
@@ -1422,13 +1782,21 @@ const triggerFocus = async (target) => {
             changeSelection(target, target.value.length, target.value.length);
         }
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {FillOptions} [options]
  */
+<<<<<<< HEAD
 const _clear = async (target, options) => {
+=======
+async function _clear(target, options) {
+>>>>>>> upstream/18.0
     // Inputs and text areas
     const initialValue = target.value;
 
@@ -1441,6 +1809,7 @@ const _clear = async (target, options) => {
     fullClear = false;
 
     await registerForChange(target, initialValue, options?.confirm);
+<<<<<<< HEAD
 };
 
 /**
@@ -1507,13 +1876,28 @@ const _click = async (options) => {
 =======
 >>>>>>> upstream/18.0
 };
+=======
+}
+
+/**
+ * @param {PointerOptions} [options]
+ */
+async function _click(options) {
+    await _pointerDown(options);
+    await _pointerUp(options);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {InputValue} value
  * @param {FillOptions} [options]
  */
+<<<<<<< HEAD
 const _fill = async (target, value, options) => {
+=======
+async function _fill(target, value, options) {
+>>>>>>> upstream/18.0
     const initialValue = target.value;
 
     if (getTag(target) === "input") {
@@ -1527,7 +1911,13 @@ const _fill = async (target, value, options) => {
             case "file": {
                 const files = ensureArray(value);
                 if (files.length > 1 && !target.multiple) {
+<<<<<<< HEAD
                     throw new HootDomError(`input[type="file"] does not support multiple files`);
+=======
+                    throw new HootInteractionError(
+                        `input[type="file"] does not support multiple files`
+                    );
+>>>>>>> upstream/18.0
                 }
                 target.files = createDataTransfer({ files }).files;
 
@@ -1570,6 +1960,7 @@ const _fill = async (target, value, options) => {
     }
 
     await registerForChange(target, initialValue, options?.confirm);
+<<<<<<< HEAD
 };
 
 /**
@@ -1614,11 +2005,20 @@ const _hover = async (target, options) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+}
+
+/**
+>>>>>>> upstream/18.0
  * @param {EventTarget | null} target
  * @param {PointerOptions | null} options
  * @param {{ implicit?: boolean }} [hoverOptions]
  */
+<<<<<<< HEAD
 const _hover = async (target, options, hoverOptions) => {
+=======
+async function _hover(target, options, hoverOptions) {
+>>>>>>> upstream/18.0
     const pointerTarget = target && getPointerTarget(target, options);
     const position = target && getPosition(target, options);
 
@@ -1666,6 +2066,7 @@ const _hover = async (target, options, hoverOptions) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1682,12 +2083,16 @@ const _hover = async (target, options, hoverOptions) => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            button: options?.button || 0,
 >>>>>>> upstream/18.0
         };
 
         if (runTime.isDragging) {
             // If dragging, only drag events are triggered
             const leaveEventInitWithDT = { ...leaveEventInit, dataTransfer: runTime.dataTransfer };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1727,6 +2132,8 @@ const _hover = async (target, options, hoverOptions) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             runTime.lastDragOverCancelled = await triggerDrag(previousPT, leaveEventInitWithDT);
             await dispatch(previousPT, "dragleave", leaveEventInitWithDT);
         } else {
@@ -1748,6 +2155,9 @@ const _hover = async (target, options, hoverOptions) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1774,6 +2184,7 @@ const _hover = async (target, options, hoverOptions) => {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1844,6 +2255,8 @@ const _implicitHover = async (target, options) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (!pointerTarget) {
         return;
     }
@@ -1851,6 +2264,10 @@ const _implicitHover = async (target, options) => {
     const enterEventInit = {
         ...runTime.position,
         relatedTarget: previousPT,
+<<<<<<< HEAD
+=======
+        button: options?.button || 0,
+>>>>>>> upstream/18.0
     };
     if (runTime.isDragging) {
         // If dragging, only drag events are triggered
@@ -1888,6 +2305,7 @@ const _implicitHover = async (target, options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1907,12 +2325,20 @@ const _implicitHover = async (target, options) => {
 >>>>>>> upstream/18.0
     }
 };
+=======
+    }
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {KeyboardEventInit} eventInit
  */
+<<<<<<< HEAD
 const _keyDown = async (target, eventInit) => {
+=======
+async function _keyDown(target, eventInit) {
+>>>>>>> upstream/18.0
     eventInit = { ...eventInit, ...currentEventInit.keydown };
     registerSpecialKey(eventInit, true);
 
@@ -2170,13 +2596,21 @@ const _keyDown = async (target, eventInit) => {
             events: ["select"],
         });
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {KeyboardEventInit} eventInit
  */
+<<<<<<< HEAD
 const _keyUp = async (target, eventInit) => {
+=======
+async function _keyUp(target, eventInit) {
+>>>>>>> upstream/18.0
     eventInit = { ...eventInit, ...currentEventInit.keyup };
     await dispatch(target, "keyup", eventInit);
 
@@ -2191,6 +2625,7 @@ const _keyUp = async (target, eventInit) => {
          */
         await triggerClick(target, { button: btn.LEFT });
     }
+<<<<<<< HEAD
 };
 
 /**
@@ -2255,6 +2690,16 @@ const _pointerDown = async (options) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+}
+
+/**
+ * @param {DragOptions} [options]
+ */
+async function _pointerDown(options) {
+    setPointerDownTarget(runTime.pointerTarget);
+
+>>>>>>> upstream/18.0
     if (options?.dataTransfer || options?.files || options?.items) {
         runTime.dataTransfer = createDataTransfer(options);
     }
@@ -2296,7 +2741,11 @@ const _pointerDown = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await triggerFocus(target);
+=======
+    await triggerFocus(pointerDownTarget);
+>>>>>>> upstream/18.0
 =======
     await triggerFocus(pointerDownTarget);
 >>>>>>> upstream/18.0
@@ -2338,6 +2787,7 @@ const _pointerDown = async (options) => {
          *      event on an element
          *  Do: triggers a 'contextmenu' event
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2438,6 +2888,17 @@ const _pointerUp = async (options) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        await dispatch(pointerDownTarget, "contextmenu", eventInit);
+    }
+}
+
+/**
+ * @param {PointerOptions} [options]
+ */
+async function _pointerUp(options) {
+    const target = runTime.pointerTarget;
+>>>>>>> upstream/18.0
     const isLongTap = globalThis.Date.now() - runTime.touchStartTimeOffset > LONG_TAP_DELAY;
     const pointerDownTarget = runTime.pointerDownTarget;
     const eventInit = {
@@ -2494,6 +2955,7 @@ const _pointerUp = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let actualTarget;
     if (hasTouch()) {
         actualTarget = pointerDownTarget === target && target;
@@ -2507,6 +2969,8 @@ const _pointerUp = async (options) => {
             if (!hasTouch() && runTime.clickCount % 2 === 0) {
                 await dispatch(actualTarget, "dblclick", mouseEventInit);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2543,6 +3007,9 @@ const _pointerUp = async (options) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2574,22 +3041,37 @@ const _pointerUp = async (options) => {
         runTime.clickCount = 0;
         runTime.pointerDownTimeout = 0;
     }, DOUBLE_CLICK_DELAY);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {KeyboardEventInit} eventInit
  */
+<<<<<<< HEAD
 const _press = async (target, eventInit) => {
     await _keyDown(target, eventInit);
     await _keyUp(target, eventInit);
 };
+=======
+async function _press(target, eventInit) {
+    await _keyDown(target, eventInit);
+    await _keyUp(target, eventInit);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {EventTarget} target
  * @param {string | number | (string | number)[]} value
  */
+<<<<<<< HEAD
 const _select = async (target, value) => {
+=======
+async function _select(target, value) {
+>>>>>>> upstream/18.0
     const values = ensureArray(value).map(String);
     let found = false;
     for (const option of target.options) {
@@ -2599,12 +3081,24 @@ const _select = async (target, value) => {
     if (!value) {
         target.selectedIndex = -1;
     } else if (!found) {
+<<<<<<< HEAD
         throw new HootDomError(
+=======
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `error when calling \`select()\`: no option found with value "${values.join(", ")}"`
         );
     }
     await dispatch(target, "change");
+<<<<<<< HEAD
 };
+=======
+}
+
+class HootInteractionError extends Error {
+    name = "HootInteractionError";
+}
+>>>>>>> upstream/18.0
 
 const btn = {
     LEFT: 0,
@@ -2785,7 +3279,11 @@ const mapTouchEvent = (eventInit) => {
  */
 const mapInputEvent = (eventInit) => ({
     data: null,
+<<<<<<< HEAD
     isComposing: Boolean(runTime.isComposing),
+=======
+    isComposing: !!runTime.isComposing,
+>>>>>>> upstream/18.0
     ...eventInit,
 });
 
@@ -2793,7 +3291,11 @@ const mapInputEvent = (eventInit) => ({
  * @param {FullEventInit<KeyboardEventInit>} eventInit
  */
 const mapKeyboardEvent = (eventInit) => ({
+<<<<<<< HEAD
     isComposing: Boolean(runTime.isComposing),
+=======
+    isComposing: !!runTime.isComposing,
+>>>>>>> upstream/18.0
     ...runTime.modifierKeys,
     ...eventInit,
 });
@@ -2817,15 +3319,22 @@ const mapKeyboardEvent = (eventInit) => ({
  */
 export async function check(target, options) {
     const finalizeEvents = setupEvents("check", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
     if (!isCheckable(element)) {
         throw new HootDomError(
+=======
+    const element = queryAny(await target, options);
+    if (!isCheckable(element)) {
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot call \`check()\`: target should be a checkbox or radio input`
         );
     }
 
     const checkTarget = getTag(element) === "label" ? element.control : element;
     if (!checkTarget.checked) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2876,6 +3385,13 @@ export async function check(target, options) {
 
         if (!checkTarget.checked) {
             throw new HootDomError(
+=======
+        await _hover(element, options, { implicit: true });
+        await _click(options);
+
+        if (!checkTarget.checked) {
+            throw new HootInteractionError(
+>>>>>>> upstream/18.0
                 `error when calling \`check()\`: target is not checked after interaction`
             );
         }
@@ -2893,7 +3409,10 @@ export async function check(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2929,6 +3448,9 @@ export function cleanupEvents() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2964,7 +3486,11 @@ export async function clear(options) {
     const element = getActiveElement();
 
     if (!hasTagName(element, "select") && !isEditable(element)) {
+<<<<<<< HEAD
         throw new HootDomError(
+=======
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot call \`clear()\`: target should be editable or a <select> element`
         );
     }
@@ -3002,6 +3528,7 @@ export async function clear(options) {
  */
 export async function click(target, options) {
     const finalizeEvents = setupEvents("click", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
 <<<<<<< HEAD
@@ -3051,6 +3578,12 @@ export async function click(target, options) {
     await _hover(element, options, { implicit: true });
     await _click(options);
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 
     return finalizeEvents();
 }
@@ -3067,6 +3600,7 @@ export async function click(target, options) {
  */
 export async function dblclick(target, options) {
     const finalizeEvents = setupEvents("dblclick", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
     options = { ...options, button: btn.LEFT };
@@ -3127,6 +3661,14 @@ export async function dblclick(target, options) {
     await _click(options);
     await _click(options);
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+    options = { ...options, button: btn.LEFT };
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+    await _click(options);
+>>>>>>> upstream/18.0
 
     return finalizeEvents();
 }
@@ -3150,19 +3692,31 @@ export async function dblclick(target, options) {
  */
 export async function dispatch(target, type, eventInit) {
     if (type in DEPRECATED_EVENTS) {
+<<<<<<< HEAD
         throw new HootDomError(
+=======
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot dispatch "${type}" event: this event type is deprecated, use "${DEPRECATED_EVENTS[type]}" instead`
         );
     }
     if (type !== type.toLowerCase()) {
+<<<<<<< HEAD
         throw new HootDomError(
+=======
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot dispatch "${type}" event: this event type is either non-standard or deprecated`
         );
     }
     eventInit = { ...eventInit, ...currentEventInit[type] };
     for (const key in eventInit) {
         if (key in DEPRECATED_EVENT_PROPERTIES) {
+<<<<<<< HEAD
             throw new HootDomError(
+=======
+            throw new HootInteractionError(
+>>>>>>> upstream/18.0
                 `cannot dispatch "${type}" event: property "${key}" is deprecated, use "${DEPRECATED_EVENT_PROPERTIES[key]}" instead`
             );
         }
@@ -3231,7 +3785,11 @@ export async function drag(target, options) {
         return {
             async [fn.name](...args) {
                 if (dragEndReason) {
+<<<<<<< HEAD
                     throw new HootDomError(
+=======
+                    throw new HootInteractionError(
+>>>>>>> upstream/18.0
                         `cannot execute drag helper \`${fn.name}\`: drag sequence has been ended by \`${dragEndReason}\``
                     );
                 }
@@ -3257,7 +3815,11 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const bodyElement = getDocument(initialElement).body;
+=======
+            const bodyElement = getDocument(runTime.pointerTarget).body;
+>>>>>>> upstream/18.0
 =======
             const bodyElement = getDocument(runTime.pointerTarget).body;
 >>>>>>> upstream/18.0
@@ -3320,7 +3882,11 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await _pointerUp(runTime.pointerTarget, options);
+=======
+            await _pointerUp(options);
+>>>>>>> upstream/18.0
 =======
             await _pointerUp(options);
 >>>>>>> upstream/18.0
@@ -3373,6 +3939,7 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const nextElement = to ? queryFirst(await to) : initialElement;
 =======
             const nextElement = to ? queryFirst(await to, options) : runTime.pointerTarget;
@@ -3401,6 +3968,9 @@ export async function drag(target, options) {
 =======
             const nextElement = to ? queryFirst(await to, options) : runTime.pointerTarget;
 >>>>>>> upstream/18.0
+=======
+            const nextElement = to ? queryAny(await to, options) : runTime.pointerTarget;
+>>>>>>> upstream/18.0
             await _hover(nextElement, options);
 
             dragEvents.push(...finalizeEvents());
@@ -3412,6 +3982,7 @@ export async function drag(target, options) {
 
     const finalizeEvents = setupEvents("drag & drop: start", options);
     const dragHelpers = { cancel, drop, moveTo };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3446,6 +4017,9 @@ export async function drag(target, options) {
 =======
 >>>>>>> upstream/18.0
     const dragStartTarget = queryFirst(await target, options);
+=======
+    const dragStartTarget = queryAny(await target, options);
+>>>>>>> upstream/18.0
     let dragEndReason = null;
 
     // Pointer down on main target
@@ -3459,6 +4033,9 @@ export async function drag(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3500,7 +4077,11 @@ export async function edit(value, options) {
     const finalizeEvents = setupEvents("edit", options);
     const element = getActiveElement();
     if (!isEditable(element)) {
+<<<<<<< HEAD
         throw new HootDomError(`cannot call \`edit()\`: target should be editable`);
+=======
+        throw new HootInteractionError(`cannot call \`edit()\`: target should be editable`);
+>>>>>>> upstream/18.0
     }
 
     if (getNodeValue(element)) {
@@ -3548,7 +4129,11 @@ export async function fill(value, options) {
     const element = getActiveElement();
 
     if (!isEditable(element)) {
+<<<<<<< HEAD
         throw new HootDomError(`cannot call \`fill()\`: target should be editable`);
+=======
+        throw new HootInteractionError(`cannot call \`fill()\`: target should be editable`);
+>>>>>>> upstream/18.0
     }
 
     await _fill(element, value, options);
@@ -3576,7 +4161,11 @@ export async function fill(value, options) {
  */
 export async function hover(target, options) {
     const finalizeEvents = setupEvents("hover", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
+=======
+    const element = queryAny(await target, options);
+>>>>>>> upstream/18.0
 
     await _hover(element, options);
 
@@ -3674,6 +4263,7 @@ export async function leave(options) {
  */
 export async function middleClick(target, options) {
     const finalizeEvents = setupEvents("middleClick", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
     options = { ...options, button: btn.MIDDLE };
@@ -3724,6 +4314,13 @@ export async function middleClick(target, options) {
     await _hover(element, options, { implicit: true });
     await _click(options);
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+    options = { ...options, button: btn.MIDDLE };
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 
     return finalizeEvents();
 }
@@ -3745,7 +4342,11 @@ export async function middleClick(target, options) {
 export function on(target, type, listener, options) {
     const targets = isEventTarget(target) ? [target] : queryAll(target);
     if (!targets.length) {
+<<<<<<< HEAD
         throw new HootDomError(`expected at least 1 event target, got none`);
+=======
+        throw new HootInteractionError(`expected at least 1 event target, got none`);
+>>>>>>> upstream/18.0
     }
     for (const eventTarget of targets) {
         eventTarget.addEventListener(type, listener, options);
@@ -3776,6 +4377,7 @@ export function on(target, type, listener, options) {
  */
 export async function pointerDown(target, options) {
     const finalizeEvents = setupEvents("pointerDown", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
 <<<<<<< HEAD
@@ -3825,6 +4427,12 @@ export async function pointerDown(target, options) {
     await _hover(element, options, { implicit: true });
     await _pointerDown(options);
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+    await _hover(element, options, { implicit: true });
+    await _pointerDown(options);
+>>>>>>> upstream/18.0
 
     return finalizeEvents();
 }
@@ -3845,6 +4453,7 @@ export async function pointerDown(target, options) {
  */
 export async function pointerUp(target, options) {
     const finalizeEvents = setupEvents("pointerUp", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
 <<<<<<< HEAD
@@ -3891,6 +4500,12 @@ export async function pointerUp(target, options) {
     await _pointerUp(options);
 >>>>>>> upstream/18.0
 =======
+    await _hover(element, options, { implicit: true });
+    await _pointerUp(options);
+>>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
     await _hover(element, options, { implicit: true });
     await _pointerUp(options);
 >>>>>>> upstream/18.0
@@ -3969,6 +4584,7 @@ export async function resize(dimensions, options) {
  */
 export async function rightClick(target, options) {
     const finalizeEvents = setupEvents("rightClick", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
     options = { ...options, button: btn.RIGHT };
@@ -4019,6 +4635,13 @@ export async function rightClick(target, options) {
     await _hover(element, options, { implicit: true });
     await _click(options);
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+    options = { ...options, button: btn.RIGHT };
+    await _hover(element, options, { implicit: true });
+    await _click(options);
+>>>>>>> upstream/18.0
 
     return finalizeEvents();
 }
@@ -4040,11 +4663,26 @@ export async function rightClick(target, options) {
 export async function scroll(target, position, options) {
     const finalizeEvents = setupEvents("scroll", options);
 
+<<<<<<< HEAD
     const { force, initiator = "wheel", relative } = options || {};
     /** @type {ScrollToOptions} */
     const scrollTopOptions = {};
     const element = queryFirst(await target, { scrollable: true, ...options });
     let [x, y] = parsePosition(position);
+=======
+    // Parse position and assign default options
+    let [x, y] = parsePosition(position);
+    options = {
+        initiator: "wheel",
+        scrollable: x && y ? "both" : x ? "x" : y ? "y" : true,
+        ...options,
+    };
+
+    const { force, initiator, relative } = options;
+    /** @type {ScrollToOptions} */
+    const scrollTopOptions = {};
+    const element = queryAny(await target, options);
+>>>>>>> upstream/18.0
     if (relative) {
         x += element.scrollLeft;
         y += element.scrollTop;
@@ -4115,6 +4753,7 @@ export async function scroll(target, position, options) {
  */
 export async function select(value, options) {
     const finalizeEvents = setupEvents("select", options);
+<<<<<<< HEAD
     const element = options?.target ? queryFirst(await options.target) : getActiveElement();
 
     if (!hasTagName(element, "select")) {
@@ -4154,6 +4793,17 @@ export async function select(value, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    const element = options?.target ? queryAny(await options.target) : getActiveElement();
+
+    if (!hasTagName(element, "select")) {
+        throw new HootInteractionError(
+            `cannot call \`select()\`: target should be a <select> element`
+        );
+    }
+
+    if (options?.target) {
+>>>>>>> upstream/18.0
         await _hover(element, null, { implicit: true });
         await _pointerDown();
     }
@@ -4168,6 +4818,9 @@ export async function select(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4200,7 +4853,11 @@ export async function select(value, options) {
  */
 export async function setInputFiles(files, options) {
     if (!runTime.fileInput) {
+<<<<<<< HEAD
         throw new HootDomError(
+=======
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot call \`setInputFiles()\`: no file input has been interacted with`
         );
     }
@@ -4230,6 +4887,7 @@ export async function setInputFiles(files, options) {
  */
 export async function setInputRange(target, value, options) {
     const finalizeEvents = setupEvents("setInputRange", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
 
 <<<<<<< HEAD
@@ -4262,6 +4920,10 @@ export async function setInputRange(target, value, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    const element = queryAny(await target, options);
+
+>>>>>>> upstream/18.0
     await _hover(element, options, { implicit: true });
     await _pointerDown(options);
     await _fill(element, value, options);
@@ -4274,6 +4936,9 @@ export async function setInputRange(target, value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4314,6 +4979,7 @@ export function setupEventActions(target, options) {
     if (!options?.allowSubmit) {
         eventHandlers.push(...GLOBAL_SUBMIT_FORWARDERS);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4379,6 +5045,8 @@ export function setupEventActions(target, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     const view = getWindow(target);
     for (const [eventType, handler, options] of eventHandlers) {
@@ -4397,6 +5065,9 @@ export function setupEventActions(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4432,15 +5103,22 @@ export function setupEventActions(target, options) {
  */
 export async function uncheck(target, options) {
     const finalizeEvents = setupEvents("uncheck", options);
+<<<<<<< HEAD
     const element = queryFirst(await target, options);
     if (!isCheckable(element)) {
         throw new HootDomError(
+=======
+    const element = queryAny(await target, options);
+    if (!isCheckable(element)) {
+        throw new HootInteractionError(
+>>>>>>> upstream/18.0
             `cannot call \`uncheck()\`: target should be a checkbox or radio input`
         );
     }
 
     const checkTarget = getTag(element) === "label" ? element.control : element;
     if (checkTarget.checked) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4491,6 +5169,13 @@ export async function uncheck(target, options) {
 
         if (checkTarget.checked) {
             throw new HootDomError(
+=======
+        await _hover(element, options, { implicit: true });
+        await _click(options);
+
+        if (checkTarget.checked) {
+            throw new HootInteractionError(
+>>>>>>> upstream/18.0
                 `error when calling \`uncheck()\`: target is still checked after interaction`
             );
         }
@@ -4541,7 +5226,13 @@ export class EventList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate = (ev) => ev.type === type;
+=======
+            predicate = function isSameType(ev) {
+                return ev.type === type;
+            };
+>>>>>>> upstream/18.0
 =======
             predicate = function isSameType(ev) {
                 return ev.type === type;

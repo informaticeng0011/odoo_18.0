@@ -204,7 +204,10 @@ ZeroDivisionError: division by zero""" % self.test_server_action.id
         self.assertEqual(partner.city, 'OrigCity', 'ir_actions_server: TODO')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_object_write_equation(self):
         # Do: update partners city
         self.action.write({
@@ -219,6 +222,9 @@ ZeroDivisionError: division by zero""" % self.test_server_action.id
         self.assertEqual(partners[0].city, str(partners[0].id))
         self.assertEqual(partners[1].city, str(partners[1].id))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_35_crud_write_selection(self):
         # Don't want to use res.partner because no 'normal selection field' exists there

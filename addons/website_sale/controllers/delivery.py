@@ -206,8 +206,12 @@ class Delivery(WebsiteSale):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Return the list of delivery methods available for the sales order.
         return sorted([{
+=======
+        sorted_delivery_methods = sorted([{
+>>>>>>> upstream/18.0
 =======
         sorted_delivery_methods = sorted([{
 >>>>>>> upstream/18.0
@@ -219,7 +223,10 @@ class Delivery(WebsiteSale):
         ], key=lambda dm: dm['minorAmount'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Preselect the cheapest method imitating the behavior of the express checkout form.
         if (
             sorted_delivery_methods
@@ -234,6 +241,9 @@ class Delivery(WebsiteSale):
         # Return the list of delivery methods available for the sales order.
         return {'delivery_methods': sorted_delivery_methods}
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @staticmethod
     def _get_delivery_methods_express_checkout(order_sudo):

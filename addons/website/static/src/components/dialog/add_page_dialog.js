@@ -10,7 +10,11 @@ import { Switch } from '@website/components/switch/switch';
 import { applyTextHighlight } from "@website/js/text_processing";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted } from "@odoo/owl";
+=======
+import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -368,6 +372,12 @@ export class AddPageTemplates extends Component {
         await this.env.getCssLinkEls();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (status(this) === "destroyed") {
+            return new Promise(() => {});
+        }
+>>>>>>> upstream/18.0
 =======
         if (status(this) === "destroyed") {
             return new Promise(() => {});

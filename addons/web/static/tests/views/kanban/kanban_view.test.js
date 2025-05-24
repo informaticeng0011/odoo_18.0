@@ -12578,7 +12578,11 @@ test("drag & drop: content scrolls when reaching the edges", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_kanban_renderer").focus();
+=======
+    await contains(".o_kanban_renderer").click();
+>>>>>>> upstream/18.0
 =======
     await contains(".o_kanban_renderer").click();
 >>>>>>> upstream/18.0
@@ -13051,7 +13055,12 @@ test("Keep scrollTop when loading records with load more", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(clickKanbanLoadMoreButton).click();
+=======
+    clickKanbanLoadMoreButton.click();
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     clickKanbanLoadMoreButton.click();
     await animationFrame();
@@ -13713,7 +13722,12 @@ test("group by numeric field (with aggregator)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("drag and drop records and quickly open a record", async () => {
+=======
+test.tags("desktop");
+test("drag and drop records and quickly open a record", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("drag and drop records and quickly open a record", async () => {

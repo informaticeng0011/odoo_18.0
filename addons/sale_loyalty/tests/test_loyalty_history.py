@@ -24,6 +24,7 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                 'product_ids': [cls.product_A.id],
             })],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'reward_ids': [Command.create({
                 'reward_type': 'discount',
                 'discount': 10,
@@ -32,6 +33,8 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                 'required_points': 1,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
             'reward_ids': [
                 Command.create({
                     'reward_type': 'discount',
@@ -47,6 +50,9 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                     'required_points': 2,
                 }),
             ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         })
         cls.loyalty_card = cls.env['loyalty.card'].create({
@@ -110,7 +116,10 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
         self.assertEqual(lines_before_cancel - 1, len(self.loyalty_card.history_ids),
                          "History line should be deleted after order cancel")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_loyalty_history_multi_reward(self):
         """Verify that applying multiple rewards sums up the total points cost."""
@@ -140,4 +149,7 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
             initial_points + loyalty_history.issued - loyalty_history.used,
             "Loyalty points should equal initial points + points issued - points used",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -9,7 +9,11 @@
             <xpath expr="//block[@id='account_vendor_bills']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT'" id='account_edi'>
+=======
+                <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or company_parent_id" id='account_edi'>
+>>>>>>> upstream/18.0
 =======
                 <block title="Italian Electronic Invoicing" invisible="country_code != 'IT' or company_parent_id" id='account_edi'>
 >>>>>>> upstream/18.0
@@ -53,7 +57,10 @@
                 </block>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 <block title="Italian Electronic Invoicing" invisible="(country_code != 'IT') or not company_parent_id" id='account_edi_branch'>
@@ -62,6 +69,9 @@
                     </span>
                 </block>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

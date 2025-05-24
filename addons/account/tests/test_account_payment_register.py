@@ -1867,7 +1867,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         self.assertEqual(available_journals.company_id, self.env.company)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_epd_and_cash_rounding(self):
         cash_rounding = self.env['account.cash.rounding'].create({
             'name': 'add_invoice_line',
@@ -1905,6 +1908,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             ._create_payments()
         self.assertRecordValues(invoice, [{'amount_residual': 0.0}])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @users('user_branch')
     def test_branch_user_register_payment(self):

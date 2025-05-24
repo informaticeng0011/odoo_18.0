@@ -209,6 +209,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            <div id="total" class="clearfix row mt-n3">
 =======
                            <div id="total" class="clearfix mt-n3">
@@ -239,6 +240,9 @@
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix mt-n3">
+>>>>>>> upstream/18.0
+=======
+                           <div id="total" class="clearfix row mt-n3">
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix row mt-n3">
@@ -640,7 +644,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-if="report_type == 'pdf'">Page <span class="page"/> / <span class="topage"/></div>
+=======
+                    <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
+>>>>>>> upstream/18.0
 =======
                     <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
 >>>>>>> upstream/18.0

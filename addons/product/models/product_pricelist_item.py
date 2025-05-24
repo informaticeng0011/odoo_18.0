@@ -334,6 +334,10 @@ class PricelistItem(models.Model):
     @api.onchange('compute_price')
     def _onchange_compute_price(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
 =======
         self.base_pricelist_id = False
 >>>>>>> upstream/18.0

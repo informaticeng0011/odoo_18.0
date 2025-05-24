@@ -20,8 +20,11 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
         self._populate_currency_and_pricelist(kwargs)
         request.update_context(display_default_code=False)  # Hide internal product reference
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().sale_combo_configurator_get_data(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
         res = super().sale_combo_configurator_get_data(*args, **kwargs)
         res.update({
             'show_quantity': (
@@ -29,6 +32,9 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
             ),
         })
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @route(

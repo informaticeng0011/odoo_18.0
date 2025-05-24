@@ -36,6 +36,16 @@ export function clickDiscard() {
     };
 }
 
+<<<<<<< HEAD
+=======
+export function checkAttributePrice(name, value, price) {
+    return {
+        content: `Check product price ${price} for variant ${name}: ${value}`,
+        trigger: `div.attribute-row h2:contains('${name}') + div.row div.col label div.name span:contains('${value}') + span:contains('${price}')`,
+    };
+}
+
+>>>>>>> upstream/18.0
 export function setupAttribute(attributes, addToCart = true) {
     const steps = [];
     if (addToCart) {

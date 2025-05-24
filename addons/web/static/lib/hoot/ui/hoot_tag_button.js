@@ -32,8 +32,12 @@ export class HootTagButton extends Component {
         </t>
         <t t-else="">
             <HootLink
+<<<<<<< HEAD
                 type="'tag'"
                 id="props.tag.name"
+=======
+                ids="{ tag: props.tag.name }"
+>>>>>>> upstream/18.0
                 class="'rounded-full px-2'"
                 style="style"
                 title="title"

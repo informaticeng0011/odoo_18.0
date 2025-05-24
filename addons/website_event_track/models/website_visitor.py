@@ -39,7 +39,11 @@ class WebsiteVisitor(models.Model):
         'in', [1, 2])] should return visitors having wishlisted tracks 1, 2. """
         if operator == "not in":
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise NotImplementedError("Unsupported 'Not In' operation on track wishlist visitors")
+=======
+            raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
+>>>>>>> upstream/18.0
 =======
             raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
 >>>>>>> upstream/18.0

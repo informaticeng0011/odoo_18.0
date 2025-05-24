@@ -39,7 +39,10 @@ registerWebsitePreviewTour("text_animations", {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         content: "Open the text background color colorpicker",
         trigger: "button#oe-fore-color",
         run: "click",
@@ -50,6 +53,9 @@ registerWebsitePreviewTour("text_animations", {
         run: "click",
     },
     {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         content: "Try to apply the text animation again",
         trigger: "div.o_we_animate_text",
@@ -57,8 +63,13 @@ registerWebsitePreviewTour("text_animations", {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Check that the animation was applied",
         trigger: ":iframe .s_cover:has(span.o_animated_text)",
+=======
+        content: "Check that the animation was applied and that the <font> element is inside the o_animated_text element",
+        trigger: ":iframe .s_cover:has(span.o_animated_text > font.bg-black)",
+>>>>>>> upstream/18.0
 =======
         content: "Check that the animation was applied and that the <font> element is inside the o_animated_text element",
         trigger: ":iframe .s_cover:has(span.o_animated_text > font.bg-black)",

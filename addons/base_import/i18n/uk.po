@@ -5,6 +5,10 @@
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2025
+<<<<<<< HEAD
+=======
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +32,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "%(number)s file(s) selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(number)s файл(и) обрано"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -72,6 +84,11 @@ msgstr "Розширено"
 msgid ""
 "After each batch import, this delay is applied to avoid unthrottled calls"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Після кожного пакетного імпорту ця затримка застосовується, щоб уникнути "
+"нерегульованих викликів"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -130,7 +147,11 @@ msgstr "Груповий ліміт"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "But, you can also use .csv files"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Але ви можете використовувати також файли .csv"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -209,7 +230,11 @@ msgstr "Створено"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Data to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дані для імпорту"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -240,12 +265,20 @@ msgstr "Десятковий роздільник:"
 #: code:addons/base_import/static/src/import_model.js:0
 msgid "Defines how many megabytes can be imported in each batch import"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Визначає, скільки мегабайт можна імпортувати в кожному груповому імпорті"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Delay after each batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Затримка після кожного групового платежу"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__display_name
@@ -270,7 +303,11 @@ msgstr "Завантажити"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Drop or upload a file to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перетягніть або завантажте файл для імпорту"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -378,7 +415,11 @@ msgstr "Файл для перевірки та/або імпорту, біна�
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Files to import"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Файли для імпорту"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -515,6 +556,11 @@ msgid ""
 "Invalid cell format at row %(row)s, column %(col)s: %(cell_value)s, with "
 "format: %(cell_format)s, as (%(format_type)s) formats are not supported."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Недійсний формат комірки в рядку %(row)s, колонки %(col)s: %(cell_value)s, з"
+" форматом: %(cell_format)s, як (%(format_type)s) формати не підтримуються."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-python
@@ -539,7 +585,11 @@ msgstr "Останнє оновлення"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Load Data File"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Завантажити файл даних"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -557,7 +607,11 @@ msgstr "Завантаження..."
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Max size per batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальний розмір на груповий імпорт"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -592,7 +646,11 @@ msgstr "Немає роздільника"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.js:0
 msgid "No file selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не знайдено файлу"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -610,13 +668,21 @@ msgstr "Поле Odoo"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload a single file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Завантажте один файл."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.js:0
 msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Будь ласка, завантажте файл Excel (.xls або .xlsx) або .csv для імпорту."
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -848,13 +914,21 @@ msgstr "Без назви"
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_action/import_action.xml:0
 msgid "Upload Data File"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Завантажити файл даних"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_data_sidepanel/import_data_sidepanel.xml:0
 msgid "Upload your files"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Завантажте ваші файли"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript

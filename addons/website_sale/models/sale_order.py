@@ -143,8 +143,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     or order.partner_id.parent_id.user_id.id
                     or order.partner_id.user_id.id
+=======
+                    or order.partner_id.user_id.id
+                    or order.partner_id.parent_id.user_id.id
+>>>>>>> upstream/18.0
 =======
                     or order.partner_id.user_id.id
                     or order.partner_id.parent_id.user_id.id
@@ -237,7 +242,10 @@ class SaleOrder(models.Model):
         return super()._get_note_url()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_non_delivery_lines(self):
         """Exclude delivery-related lines."""
         return self.order_line.filtered(lambda line: not line.is_delivery)
@@ -245,6 +253,9 @@ class SaleOrder(models.Model):
     def _get_amount_total_excluding_delivery(self):
         return sum(self._get_non_delivery_lines().mapped('price_total'))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _cart_update_order_line(self, product_id, quantity, order_line, **kwargs):
         self.ensure_one()
@@ -644,7 +655,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.state == 'sale' and any(line._is_reorder_allowed() for line in self.order_line if not line.display_type)
+=======
+        return self.state == 'sale' and any(
+            line._is_reorder_allowed() for line in self.order_line if line.product_id
+        )
+>>>>>>> upstream/18.0
 =======
         return self.state == 'sale' and any(
             line._is_reorder_allowed() for line in self.order_line if line.product_id

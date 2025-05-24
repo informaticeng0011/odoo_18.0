@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -182,7 +190,11 @@ msgstr "Автоматично збагачуйте свою контактну 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automatically generate counterpart documents in recipient companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Автоматично генеруйте відповідні документи в компаніях-одержувачах"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -190,6 +202,12 @@ msgid ""
 "By default, new users get highest access rights for all installed apps. If "
 "unchecked, new users will only have basic employee access."
 msgstr ""
+<<<<<<< HEAD
+=======
+"За замовчуванням нові користувачі отримують найвищі права доступу для всіх "
+"встановлених модулей. Якщо позначку знято, нові користувачі матимуть лише "
+"базовий доступ для співробітників."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -316,7 +334,11 @@ msgstr "Геолокалізація"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocate your partners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Геолокація ваших партнерів"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -580,6 +602,16 @@ msgstr ""
 "виборі одного елемента дані та логотип компанії заповнюються автоматично."
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+"Щоб скористатися цією функцією, потрібно встановити модуль Обговорення."
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"

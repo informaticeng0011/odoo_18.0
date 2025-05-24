@@ -544,7 +544,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
             let $snippet = null;
             try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 const commonAncestor = range.commonAncestorContainer;
                 const ancestorElement =
                     commonAncestor.nodeType === 1 ? commonAncestor : commonAncestor.parentElement;
@@ -558,6 +561,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
                     range.setStartBefore(backgroundColorParentEl);
                     range.setEndAfter(backgroundColorParentEl);
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 range.surroundContents(selectedTextEl);
                 $snippet = $(selectedTextEl);

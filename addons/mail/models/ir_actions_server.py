@@ -242,6 +242,10 @@ class ServerActions(models.Model):
             records = self.env[self.model_name].with_context(cleaned_ctx).browse(res_ids)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
+>>>>>>> upstream/18.0
 =======
             message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
 >>>>>>> upstream/18.0
@@ -256,6 +260,10 @@ class ServerActions(models.Model):
                 self.template_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                message_type=message_type,
+>>>>>>> upstream/18.0
 =======
                 message_type=message_type,
 >>>>>>> upstream/18.0

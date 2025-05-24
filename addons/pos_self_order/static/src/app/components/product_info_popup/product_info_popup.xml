@@ -48,7 +48,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <div t-if="!props.product.isCombo() and !props.product.isConfigurable() > 0" class="o_self_order_incr_button btn-group " role="group" aria-label="Quantity select" >
+=======
+                            <div t-if="!props.product.isCombo() and !props.product.isConfigurable() > 0 and !props.isComboLine" class="o_self_order_incr_button btn-group " role="group" aria-label="Quantity select" >
+>>>>>>> upstream/18.0
 =======
                             <div t-if="!props.product.isCombo() and !props.product.isConfigurable() > 0 and !props.isComboLine" class="o_self_order_incr_button btn-group " role="group" aria-label="Quantity select" >
 >>>>>>> upstream/18.0

@@ -82,7 +82,15 @@ class ReportMoOverview(models.AbstractModel):
 
         if production.bom_id:
             currency = (production.company_id or self.env.company).currency_id
+<<<<<<< HEAD
             missing_components = (bom_line for bom_line in production.bom_id.bom_line_ids if bom_line not in (production.move_raw_ids.bom_line_id + self._get_kit_bom_lines(production.bom_id)))
+=======
+            current_bom_lines = production.move_raw_ids.bom_line_id | self._get_kit_bom_lines(production.bom_id)
+            missing_components = production.bom_id.bom_line_ids.filtered(
+                lambda bom_line: bom_line not in current_bom_lines and
+                not bom_line._skip_bom_line(production.product_id)
+            )
+>>>>>>> upstream/18.0
             missing_operations = (bom_line for bom_line in production.bom_id.operation_ids if bom_line not in production.workorder_ids.operation_id)
             for line in missing_components:
                 line_cost = line.product_id.uom_id._compute_price(line.product_id.standard_price, line.product_uom_id) * line.product_qty

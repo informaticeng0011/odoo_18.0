@@ -134,7 +134,11 @@ export class AttributeSelection extends Component {
 
     shouldShowPriceExtra(value) {
         const priceExtra = value.price_extra;
+<<<<<<< HEAD
         return !floatIsZero(priceExtra, this.selfOrder.config.currency_decimals);
+=======
+        return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
+>>>>>>> upstream/18.0
     }
 
     getfPriceExtra(value) {

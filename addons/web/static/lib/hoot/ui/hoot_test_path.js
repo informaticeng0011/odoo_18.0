@@ -51,8 +51,12 @@ export class HootTestPath extends Component {
                     </t>
                     <t t-else="">
                         <HootLink
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
+=======
+                            ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
                             class="'text-gray hover:text-primary hover:underline whitespace-nowrap font-bold p-1 hidden md:inline transition-colors'"
                             title="'Run ' + suite.fullName"
                             t-esc="suite.name"

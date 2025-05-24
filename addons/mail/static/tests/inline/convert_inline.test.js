@@ -4,6 +4,10 @@ import {
     cardToTable,
     classToStyle,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    createMso,
+>>>>>>> upstream/18.0
 =======
     createMso,
 >>>>>>> upstream/18.0
@@ -1426,7 +1430,10 @@ describe("Convert classes to inline styles", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("Properly add MSO conditions", () => {
     test("Create mso properly", async () => {
@@ -1448,4 +1455,7 @@ describe("Properly add MSO conditions", () => {
         });
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

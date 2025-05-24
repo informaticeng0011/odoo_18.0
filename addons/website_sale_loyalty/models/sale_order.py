@@ -182,11 +182,17 @@ class SaleOrder(models.Model):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_non_delivery_lines(self):
         """Override of `website_sale` to exclude delivery reward lines."""
         return super()._get_non_delivery_lines() - self._get_free_shipping_lines()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_free_shipping_lines(self):
         self.ensure_one()
@@ -235,7 +241,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for reward in coupon.program_id.reward_ids:
+=======
+            for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
+>>>>>>> upstream/18.0
 =======
             for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
 >>>>>>> upstream/18.0

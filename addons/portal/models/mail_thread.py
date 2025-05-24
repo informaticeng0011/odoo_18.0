@@ -15,7 +15,11 @@ class MailThread(models.AbstractModel):
     website_message_ids = fields.One2many('mail.message', 'res_id', string='Website Messages',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ('comment', 'email', 'email_outgoing'))],
+=======
+        domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ('comment', 'email', 'email_outgoing', 'auto_comment'))],
+>>>>>>> upstream/18.0
 =======
         domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ('comment', 'email', 'email_outgoing', 'auto_comment'))],
 >>>>>>> upstream/18.0

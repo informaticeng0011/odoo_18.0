@@ -493,7 +493,11 @@ test("iframe: popper is outside, target inside", async () => {
     // Scrolling inside the iframe should reposition the popover accordingly
     const previousPositionSolution = onPositionedArgs.solution;
     const scrollOffset = 100;
+<<<<<<< HEAD
     await scroll(queryOne("iframe").contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
     await animationFrame();
     expect.verifySteps(["bottom-middle"]);
     expect(previousPositionSolution.top).toBe(onPositionedArgs.solution.top + scrollOffset);
@@ -580,7 +584,11 @@ test("iframe: both popper and target inside", async () => {
     // Scrolling inside the iframe should reposition the popover accordingly
     const previousPositionSolution = onPositionedArgs.solution;
     const scrollOffset = 100;
+<<<<<<< HEAD
     await scroll(iframe.contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
     await animationFrame();
     expect.verifySteps(["bottom-middle"]);
     expect(previousPositionSolution.top).toBe(onPositionedArgs.solution.top + scrollOffset);

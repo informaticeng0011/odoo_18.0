@@ -1,7 +1,10 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
 import { HootDomError } from "../hoot_dom_utils";
 
+=======
+>>>>>>> upstream/18.0
 /**
  * @typedef {{
  *  animationFrame?: boolean;
@@ -89,6 +92,13 @@ const now = () => (frozen ? 0 : $performanceNow()) + timeOffset;
  */
 const timeoutToId = (id) => ID_PREFIX.timeout + String(id);
 
+<<<<<<< HEAD
+=======
+class HootTimingError extends Error {
+    name = "HootTimingError";
+}
+
+>>>>>>> upstream/18.0
 const ID_PREFIX = {
     animation: "a_",
     interval: "i_",
@@ -169,7 +179,11 @@ export async function advanceTime(ms, options) {
  * @returns {Promise<void>}
  */
 export function animationFrame() {
+<<<<<<< HEAD
     return new Promise((resolve) => requestAnimationFrame(() => delay().then(resolve)));
+=======
+    return new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -351,7 +365,11 @@ export function runAllTimers(options) {
 export function setFrameRate(frameRate) {
     frameRate = parseNat(frameRate);
     if (frameRate < 1 || frameRate > 1000) {
+<<<<<<< HEAD
         throw new Error("frame rate must be an number between 1 and 1000");
+=======
+        throw new HootTimingError("frame rate must be an number between 1 and 1000");
+>>>>>>> upstream/18.0
     }
     frameDelay = 1000 / frameRate;
 }
@@ -379,7 +397,11 @@ export function tick() {
  * The promise automatically rejects after a given `timeout` (defaults to 5 seconds).
  *
  * @template T
+<<<<<<< HEAD
  * @param {() => T} predicate
+=======
+ * @param {(last: boolean) => T} predicate
+>>>>>>> upstream/18.0
  * @param {WaitOptions} [options]
  * @returns {Promise<T>}
  * @example
@@ -388,6 +410,7 @@ export function tick() {
  *  const button = await waitUntil(() => queryOne("button:visible"));
  *  button.click();
  */
+<<<<<<< HEAD
 export function waitUntil(predicate, options) {
     // Early check before running the loop
     const result = predicate();
@@ -406,6 +429,28 @@ export function waitUntil(predicate, options) {
             if (result) {
                 resolve(result);
             } else if (running) {
+=======
+export async function waitUntil(predicate, options) {
+    await Promise.resolve();
+
+    // Early check before running the loop
+    const result = predicate(false);
+    if (result) {
+        return result;
+    }
+
+    const timeout = $floor(options?.timeout ?? 200);
+    const maxFrameCount = $ceil(timeout / frameDelay);
+    let frameCount = 0;
+    let handle;
+    return new Promise((resolve, reject) => {
+        const runCheck = () => {
+            const isLast = ++frameCount >= maxFrameCount;
+            const result = predicate(isLast);
+            if (result) {
+                resolve(result);
+            } else if (!isLast) {
+>>>>>>> upstream/18.0
                 handle = requestAnimationFrame(runCheck);
             } else {
                 let message =
@@ -413,15 +458,28 @@ export function waitUntil(predicate, options) {
                 if (typeof message === "function") {
                     message = message();
                 }
+<<<<<<< HEAD
                 reject(new HootDomError(message.replace("%timeout%", String(timeout))));
+=======
+                if (message instanceof Error) {
+                    reject(message);
+                } else {
+                    reject(new HootTimingError(message.replace("%timeout%", String(timeout))));
+                }
+>>>>>>> upstream/18.0
             }
         };
 
         handle = requestAnimationFrame(runCheck);
+<<<<<<< HEAD
         timeoutId = setTimeout(() => (running = false), timeout);
     }).finally(() => {
         cancelAnimationFrame(handle);
         clearTimeout(timeoutId);
+=======
+    }).finally(() => {
+        cancelAnimationFrame(handle);
+>>>>>>> upstream/18.0
     });
 }
 
@@ -453,7 +511,11 @@ export class Deferred extends Promise {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super((resolve, reject) => {
+=======
+        super(function deferredResolver(resolve, reject) {
+>>>>>>> upstream/18.0
 =======
         super(function deferredResolver(resolve, reject) {
 >>>>>>> upstream/18.0

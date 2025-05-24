@@ -28,7 +28,11 @@
                     <field name="amount_company_currency_signed" widget="monetary" string="Amount" sum="Total"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'in_process'"/>
+=======
+                    <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-warning="state == 'in_process'" decoration-success="state == 'paid'"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-warning="state == 'in_process'" decoration-success="state == 'paid'"/>
 >>>>>>> upstream/18.0

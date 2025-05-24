@@ -86,12 +86,18 @@ class ResCompany(models.Model):
     # -------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _check_phonenumbers_import(self):
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _sanitize_peppol_phone_number(self, phone_number=None):
         self.ensure_one()
@@ -102,8 +108,12 @@ class ResCompany(models.Model):
             "Currently, only European countries are supported.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not phonenumbers:
             raise ValidationError(_("Please install the phonenumbers library."))
+=======
+        self._check_phonenumbers_import()
+>>>>>>> upstream/18.0
 =======
         self._check_phonenumbers_import()
 >>>>>>> upstream/18.0

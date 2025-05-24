@@ -199,7 +199,10 @@ class TestPricelist(ProductCommon):
         with Form(partner) as partner_form:
             self.assertEqual(partner_form.property_product_pricelist, self.sale_pricelist_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pricelist_change_to_formula_and_back(self):
         pricelist_2 = self.env['product.pricelist'].create({
@@ -219,4 +222,7 @@ class TestPricelist(ProductCommon):
             item_form.compute_price = 'percentage'
             item_form.percent_price = 20
         self.assertFalse(pricelist_2.item_ids.base_pricelist_id.id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

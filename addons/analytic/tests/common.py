@@ -1,6 +1,10 @@
 from odoo.addons.base.tests.common import BaseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.common import new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import new_test_user
 >>>>>>> upstream/18.0
@@ -51,7 +55,10 @@ class AnalyticCommon(BaseCommon):
         return groups + cls.env.ref('analytic.group_analytic_accounting')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -76,6 +83,9 @@ class AnalyticCommon(BaseCommon):
             company_id=cls.env.company.id,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

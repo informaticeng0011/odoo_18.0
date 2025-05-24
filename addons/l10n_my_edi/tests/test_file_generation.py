@@ -54,6 +54,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
             'phone': '+60123456786',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0

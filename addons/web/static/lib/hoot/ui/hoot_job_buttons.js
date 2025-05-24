@@ -25,8 +25,12 @@ export class HootJobButtons extends Component {
         <t t-set="type" t-value="getType()" />
         <div class="${HootJobButtons.name} items-center gap-1" t-att-class="props.hidden ? 'hidden' : 'flex'">
             <HootLink
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
                 class="'hoot-btn-link border border-primary text-emerald rounded transition-colors'"
                 title="'Run this ' + type + ' only'"
             >
@@ -34,8 +38,12 @@ export class HootJobButtons extends Component {
             </HootLink>
             <t t-if="type === 'test'">
                 <HootLink
+<<<<<<< HEAD
                     type="type"
                     id="props.job.id"
+=======
+                    ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
                     options="{ debug: true }"
                     class="'hoot-btn-link border border-primary text-emerald rounded transition-colors'"
                     title="'Run this ' + type + ' only in debug mode'"
@@ -44,8 +52,12 @@ export class HootJobButtons extends Component {
                 </HootLink>
             </t>
             <HootLink
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
                 options="{ ignore: true }"
                 class="'hoot-btn-link border border-primary text-rose rounded transition-colors'"
                 title="'Ignore ' + type"

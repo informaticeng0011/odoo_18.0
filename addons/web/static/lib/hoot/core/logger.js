@@ -15,6 +15,10 @@ const {
         groupCollapsed: $groupCollapsed,
         groupEnd: $groupEnd,
         log: $log,
+<<<<<<< HEAD
+=======
+        table: $table,
+>>>>>>> upstream/18.0
         trace: $trace,
         warn: $warn,
     },
@@ -58,6 +62,12 @@ const unstyledArguments = (args) => {
     return [args.join(" ")];
 };
 
+<<<<<<< HEAD
+=======
+const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
+const ERROR_PREFIX = ["ERROR", "#9f1239"];
+const WARNING_PREFIX = ["WARNING", "#f59e0b"];
+>>>>>>> upstream/18.0
 let nextNetworkLogId = 1;
 
 //-----------------------------------------------------------------------------
@@ -109,6 +119,10 @@ export const LOG_LEVELS = {
 
 export const logger = {
     level: urlParams.loglevel ?? LOG_LEVELS.runner,
+<<<<<<< HEAD
+=======
+    suppressed: "",
+>>>>>>> upstream/18.0
 
     // Standard console methods
 
@@ -122,6 +136,7 @@ export const logger = {
      * @param {...any} args
      */
     error(...args) {
+<<<<<<< HEAD
         console.error(...styledArguments(args));
     },
     /**
@@ -129,12 +144,52 @@ export const logger = {
      */
     groupCollapsed(...args) {
         $groupCollapsed(...styledArguments(args));
+=======
+        if (logger.suppressed) {
+            $groupCollapsed(...styledArguments([logger.suppressed], ...ERROR_PREFIX));
+            $trace(...args);
+            $groupEnd();
+        } else {
+            $trace(...styledArguments(args, ...ERROR_PREFIX));
+        }
+    },
+    /**
+     * @param {any} arg
+     * @param {() => any} callback
+     */
+    group(title, callback) {
+        $groupCollapsed(...styledArguments([title]));
+        callback();
+        $groupEnd();
+    },
+    /**
+     * @param  {...any} args
+     */
+    table(...args) {
+        $table(...args);
+    },
+    /**
+     * @param  {...any} args
+     */
+    trace(...args) {
+        $trace(...args);
+>>>>>>> upstream/18.0
     },
     /**
      * @param {...any} args
      */
     warn(...args) {
+<<<<<<< HEAD
         console.warn(...styledArguments(args));
+=======
+        if (logger.suppressed) {
+            $groupCollapsed(...styledArguments([logger.suppressed], ...WARNING_PREFIX));
+            $trace(...args);
+            $groupEnd();
+        } else {
+            $warn(...styledArguments(args));
+        }
+>>>>>>> upstream/18.0
     },
 
     // Level-specific methods
@@ -146,7 +201,11 @@ export const logger = {
         if (logger.level < LOG_LEVELS.debug) {
             return;
         }
+<<<<<<< HEAD
         $debug(...styledArguments(args, "DEBUG", "#ffb000"));
+=======
+        $debug(...styledArguments(args, ...DEBUG_PREFIX));
+>>>>>>> upstream/18.0
     },
     /**
      * @param {import("./test").Test} test
@@ -222,4 +281,20 @@ export const logger = {
     logGlobalWarning(...args) {
         $warn(...styledArguments(args));
     },
+<<<<<<< HEAD
+=======
+
+    // Other methods
+
+    /**
+     * @param {string} reason
+     */
+    suppressIssues(reason) {
+        const restore = () => {
+            logger.suppressed = "";
+        };
+        logger.suppressed = reason || "(suppressed)";
+        return restore;
+    },
+>>>>>>> upstream/18.0
 };

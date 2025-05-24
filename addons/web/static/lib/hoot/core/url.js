@@ -23,7 +23,11 @@ import { CONFIG_KEYS, CONFIG_SCHEMA, FILTER_KEYS, FILTER_SCHEMA } from "./config
 const {
     history,
     location,
+<<<<<<< HEAD
     Object: { entries: $entries, fromEntries: $fromEntries, keys: $keys },
+=======
+    Object: { entries: $entries },
+>>>>>>> upstream/18.0
     Set,
     URIError,
     URL,
@@ -39,9 +43,15 @@ const debouncedUpdateUrl = debounce(function updateUrl() {
     url.search = "";
     for (const [key, value] of $entries(urlParams)) {
         if (isIterable(value)) {
+<<<<<<< HEAD
             for (const value of urlParams[key]) {
                 if (value) {
                     url.searchParams.append(key, value);
+=======
+            for (const val of value) {
+                if (val) {
+                    url.searchParams.append(key, val);
+>>>>>>> upstream/18.0
                 }
             }
         } else if (value) {
@@ -78,6 +88,7 @@ export function createUrl(params) {
 }
 
 /**
+<<<<<<< HEAD
  * @param {string | Iterable<string>} id
  * @param {keyof DEFAULT_FILTERS} type
  * @param {CreateUrlFromIdOptions} [options]
@@ -148,6 +159,73 @@ export function createUrlFromId(id, type, options) {
         }
         default: {
             clearAll();
+=======
+ * @param {Record<keyof DEFAULT_FILTERS, string | Iterable<string>>} specs
+ * @param {CreateUrlFromIdOptions} [options]
+ */
+export function createUrlFromId(specs, options) {
+    const nextParams = {};
+    for (const key of FILTER_KEYS) {
+        nextParams[key] = new Set(ensureArray((options?.ignore && urlParams[key]) || []));
+    }
+    for (const [type, id] of $entries(specs)) {
+        const ids = ensureArray(id);
+        switch (type) {
+            case "suite": {
+                if (options?.ignore) {
+                    for (const id of ids) {
+                        const exludedId = EXCLUDE_PREFIX + id;
+                        if (
+                            nextParams.suite.has(exludedId) ||
+                            urlParams.suite?.includes(exludedId)
+                        ) {
+                            nextParams.suite.delete(exludedId);
+                        } else {
+                            nextParams.suite.add(exludedId);
+                        }
+                    }
+                } else {
+                    for (const id of ids) {
+                        nextParams.suite.add(id);
+                    }
+                }
+                break;
+            }
+            case "tag": {
+                if (options?.ignore) {
+                    for (const id of ids) {
+                        const exludedId = EXCLUDE_PREFIX + id;
+                        if (urlParams.tag?.includes(exludedId)) {
+                            nextParams.tag.delete(exludedId);
+                        } else {
+                            nextParams.tag.add(exludedId);
+                        }
+                    }
+                } else {
+                    for (const id of ids) {
+                        nextParams.tag.add(id);
+                    }
+                }
+                break;
+            }
+            case "test": {
+                if (options?.ignore) {
+                    for (const id of ids) {
+                        const exludedId = EXCLUDE_PREFIX + id;
+                        if (urlParams.test?.includes(exludedId)) {
+                            nextParams.test.delete(exludedId);
+                        } else {
+                            nextParams.test.add(exludedId);
+                        }
+                    }
+                } else {
+                    for (const id of ids) {
+                        nextParams.test.add(id);
+                    }
+                }
+                break;
+            }
+>>>>>>> upstream/18.0
         }
     }
 

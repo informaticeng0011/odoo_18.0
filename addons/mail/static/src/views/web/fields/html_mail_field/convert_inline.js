@@ -568,7 +568,11 @@ export function classToStyle(element, cssRules) {
             writes.push(() => {
                 node.before(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`<table align="center" border="0"
+=======
+                    createMso(`<table align="center" border="0"
+>>>>>>> upstream/18.0
 =======
                     createMso(`<table align="center" border="0"
 >>>>>>> upstream/18.0
@@ -585,7 +589,11 @@ export function classToStyle(element, cssRules) {
                 );
                 node.after(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`</td>
+=======
+                    createMso(`</td>
+>>>>>>> upstream/18.0
 =======
                     createMso(`</td>
 >>>>>>> upstream/18.0
@@ -677,7 +685,11 @@ function enforceTablesResponsivity(element) {
             if (index === 0) {
                 div.before(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`
+=======
+                    createMso(`
+>>>>>>> upstream/18.0
 =======
                     createMso(`
 >>>>>>> upstream/18.0
@@ -687,15 +699,21 @@ function enforceTablesResponsivity(element) {
                 );
             } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 div.before(_createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(_createMso(`</td></tr></table>`));
 =======
+=======
+>>>>>>> upstream/18.0
                 div.before(createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(createMso(`</td></tr></table>`));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             index++;
@@ -819,7 +837,11 @@ function enforceImagesResponsivity(element) {
     // responsively, but leave it for Outlook.
     for (const image of element.querySelectorAll('img[width="100%"][height]')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(image.outerHTML));
+=======
+        image.before(createMso(image.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(image.outerHTML));
 >>>>>>> upstream/18.0
@@ -854,7 +876,11 @@ export async function toInline(element, cssRules) {
         clone.style.setProperty("width", width + "px");
         clone.style.removeProperty("max-width");
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(clone.outerHTML));
+=======
+        image.before(createMso(clone.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(clone.outerHTML));
 >>>>>>> upstream/18.0
@@ -936,7 +962,11 @@ function flattenBackgroundImages(element) {
         if (vml) {
             // Put the Outlook version after the original one in an mso conditional.
 <<<<<<< HEAD
+<<<<<<< HEAD
             backgroundImage.after(_createMso(vml));
+=======
+            backgroundImage.after(createMso(vml));
+>>>>>>> upstream/18.0
 =======
             backgroundImage.after(createMso(vml));
 >>>>>>> upstream/18.0
@@ -1428,7 +1458,11 @@ function responsiveToStaticForOutlook(element) {
         }
         // The opening tag of `outlookTd` is for Outlook.
 <<<<<<< HEAD
+<<<<<<< HEAD
         td.before(_createMso(outlookTd.outerHTML.replace("</td>", "")));
+=======
+        td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
+>>>>>>> upstream/18.0
 =======
         td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
 >>>>>>> upstream/18.0
@@ -1632,9 +1666,12 @@ function _createColumnGrid() {
  * @returns {Comment}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 function _createMso(content = "") {
     return document.createComment(`[if mso]>${content}<![endif]`);
 =======
+=======
+>>>>>>> upstream/18.0
 export function createMso(content = "") {
     // We remove comments having opposite condition from the one we will insert
     // We remove comment tags having the same condition
@@ -1644,6 +1681,9 @@ export function createMso(content = "") {
     contentToInsert = contentToInsert.replace(showRegex, (matchedContent, group) => group);
     contentToInsert = contentToInsert.replace(hideRegex, "");
     return document.createComment(`[if mso]>${contentToInsert}<![endif]`);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 /**

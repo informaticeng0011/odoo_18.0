@@ -345,7 +345,10 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -437,6 +440,9 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -919,6 +925,15 @@ export class Configurator extends Component {
 
             await store.start(() => this.getInitialState());
             this.updateStorage(store);
+<<<<<<< HEAD
+=======
+            if (store.redirect_url) {
+                // If redirect_url exists, it means configurator_done is already
+                // true, so we can skip the configurator flow.
+                this.clearStorage();
+                await this.action.doAction(store.redirect_url);
+            }
+>>>>>>> upstream/18.0
             if (!store.industries) {
                 await this.skipConfigurator();
             }
@@ -966,6 +981,10 @@ export class Configurator extends Component {
         const r = {
             industries: results.industries,
             logo: results.logo ? 'data:image/png;base64,' + results.logo : false,
+<<<<<<< HEAD
+=======
+            redirect_url: results.redirect_url,
+>>>>>>> upstream/18.0
         };
         r.industries = r.industries.map((industry, index) => ({
             ...industry,

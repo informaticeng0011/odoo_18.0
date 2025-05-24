@@ -839,7 +839,10 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
             {'amount_currency': 1410.02, 'balance': 705.02},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_product_account_tags(self):
         product_tag = self.env['account.account.tag'].create({
@@ -888,4 +891,7 @@ class TestInvoiceTaxes(AccountTestInvoicingCommon):
                 {'tax_ids': [],                     'tax_line_id': False,                 'tax_tag_ids': [],               'credit': 0,    'debit': 1555},
             ],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

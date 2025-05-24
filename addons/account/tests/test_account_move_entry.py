@@ -1196,7 +1196,10 @@ class TestAccountMove(AccountTestInvoicingCommon):
         self.assertEqual(len(line.tax_ids), 0)
         self.assertEqual(len(line.tax_tag_ids), 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_balance_modification_auto_balancing(self):
         """ Test that amount currency is correctly recomputed when, without multicurrency enabled,
@@ -1229,4 +1232,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
         self.assertRecordValues(line, [
             {'amount_currency': 10.00, 'balance': 10.00},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

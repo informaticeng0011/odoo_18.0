@@ -5,13 +5,19 @@ from odoo.tests import HttpCase, tagged
 
 from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.website_sale_loyalty.controllers.delivery import WebsiteSaleLoyaltyDelivery
 
@@ -202,7 +208,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
             result = self.Controller.shop_set_delivery_method(self.normal_delivery2.id)
         self.assertEqual(result['delivery_discount_minor_amount'], -600)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_express_checkout_does_not_count_delivery_discount_in_payment_values(self):
         """Test that the amount to pay does not include the free delivery amount in express
@@ -229,4 +238,7 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
             payment_values = WebsiteSale()._get_express_shop_payment_values(self.cart)
 
         self.assertEqual(payment_values['minor_amount'], amount_without_delivery)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -31,7 +31,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 >>>>>>> upstream/18.0
@@ -1556,7 +1560,10 @@ msgstr "<strong>Type : </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1603,6 +1610,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1681,7 +1691,10 @@ msgstr "Un compte bancaire ne peut appartenir qu'à un seul journal."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1714,6 +1727,7 @@ msgid ""
 "A bank account with Account Number %(number)s already exists for Partner "
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -1755,6 +1769,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Un compte bancaire avec le numéro %(number)s existe déjà pour le partenaire "
+"%(partner)s, mais il est archivé. Veuillez le désarchiver."
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -3795,6 +3815,7 @@ msgstr "Compte bancaire"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Compte bancaire %(link)s avec le numéro %(number)s supprimé"
 =======
@@ -3852,6 +3873,10 @@ msgstr ""
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Compte bancaire %(link)s avec le numéro de compte %(number)s archivé"
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -4170,7 +4195,11 @@ msgstr "Date de facturation"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Bill Reference"
+<<<<<<< HEAD
 msgstr "Référence de la facture"
+=======
+msgstr "Référence facture"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -4477,6 +4506,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -4549,6 +4579,14 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/account/models/account_move_send.py:0
+msgid "Cannot identify the invoices in the generated PDF: %s"
+msgstr "Impossible d’identifier les factures dans le PDF généré : %s"
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model:account.account,name:account.1_capital
 msgid "Capital"
@@ -4924,7 +4962,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "associées à cette étiquette dans le calcul du rapport fiscal."
+=======
+"associées à cette étiquette dans le calcul de la déclaration fiscale."
+>>>>>>> upstream/18.0
 =======
 "associées à cette étiquette dans le calcul de la déclaration fiscale."
 >>>>>>> upstream/18.0
@@ -5209,6 +5251,7 @@ msgstr "Entité commerciale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5303,6 +5346,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Pays du partenaire commercial"
@@ -5336,6 +5381,9 @@ msgstr "Pays du partenaire commercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8588,7 +8636,11 @@ msgid "From previous tax period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De la déclaration TVA précédente "
+=======
+msgstr "De la déclaration fiscale précédente"
+>>>>>>> upstream/18.0
 =======
 msgstr "De la déclaration fiscale précédente"
 >>>>>>> upstream/18.0
@@ -8817,7 +8869,11 @@ msgid "Generic Tax report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rapport fiscal générique"
+=======
+msgstr "Déclaration fiscale générique"
+>>>>>>> upstream/18.0
 =======
 msgstr "Déclaration fiscale générique"
 >>>>>>> upstream/18.0
@@ -13609,7 +13665,11 @@ msgid "Prepaid Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Notes de frais prépayées"
+=======
+msgstr "Dépenses prépayées"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dépenses prépayées"
 >>>>>>> upstream/18.0
@@ -14024,7 +14084,11 @@ msgstr "Reçu"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__partner_bank_id
 #: model:ir.model.fields,field_description:account.field_account_move__partner_bank_id
 msgid "Recipient Bank"
+<<<<<<< HEAD
 msgstr "Compte bancaire destinataire"
+=======
+msgstr "Banque destinataire"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__partner_bank_id
@@ -16661,7 +16725,12 @@ msgid "The country to use the tax reports from for this company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le pays à utiliser pour les rapports fiscaux de cette entreprise."
+=======
+msgstr ""
+"Le pays à utiliser pour les déclarations fiscales de cette entreprise."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Le pays à utiliser pour les déclarations fiscales de cette entreprise."
@@ -18781,7 +18850,11 @@ msgstr "Erreur de chargement"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Use Bill Reference"
+<<<<<<< HEAD
 msgstr "Utiliser la référence de la facture"
+=======
+msgstr "Utiliser la référence facture"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report__currency_translation__cta
@@ -19405,6 +19478,7 @@ msgstr "Valeur erronée au crédit ou au débit de la pièce comptable !"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -19476,6 +19550,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr "Format XML"
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
@@ -19890,8 +19971,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vous ne pouvez pas supprimer une ligne de taxe, car cela affecterait le "
 "rapport fiscal."
+=======
+"Vous ne pouvez pas supprimer une ligne de taxe, car cela affecterait la "
+"déclaration fiscale."
+>>>>>>> upstream/18.0
 =======
 "Vous ne pouvez pas supprimer une ligne de taxe, car cela affecterait la "
 "déclaration fiscale."
@@ -20953,7 +21039,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "units"
+<<<<<<< HEAD
 msgstr "unités"
+=======
+msgstr "unité(s)"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript

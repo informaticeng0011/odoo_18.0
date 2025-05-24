@@ -203,7 +203,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
         if not msg_id:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 =======
             msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
 >>>>>>> upstream/18.0

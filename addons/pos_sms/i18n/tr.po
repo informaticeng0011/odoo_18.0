@@ -14,6 +14,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -57,7 +61,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: emre oktem, 2024\n"
+=======
+"Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
 >>>>>>> upstream/18.0
@@ -108,6 +116,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"                {{ object.company_id.name }} :  {{ object.pos_reference }} referanslı siparişiniz, {{  object.currency_id.format(object.amount_total) }} tutarı ile başarılı bir şekilde işleme alındı. Daha fazla referans bilgisi için lütfen şunu kullanın: {{ object.pos_reference }} \n"
+"            "
+>>>>>>> upstream/18.0
 =======
 "\n"
 "                {{ object.company_id.name }} :  {{ object.pos_reference }} referanslı siparişiniz, {{  object.currency_id.format(object.amount_total) }} tutarı ile başarılı bir şekilde işleme alındı. Daha fazla referans bilgisi için lütfen şunu kullanın: {{ object.pos_reference }} \n"
@@ -162,7 +176,11 @@ msgstr "Yapılandırma Ayarları"
 #. module: pos_sms
 #: model:sms.template,name:pos_sms.sms_template_data_point_of_sale
 msgid "POS: Sent Order Confirmation via Text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS: Sipariş onayı metin mesajı olarak gönderildi"
+>>>>>>> upstream/18.0
 
 #. module: pos_sms
 #: model:ir.model,name:pos_sms.model_pos_config
@@ -180,7 +198,11 @@ msgid "Receipt template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiş Şablonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fiş Şablonu"
 >>>>>>> upstream/18.0
@@ -198,7 +220,11 @@ msgid "SMS will be sent to the customer based on this template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS bu şablona göre müşteriye gönderilecektir"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS bu şablona göre müşteriye gönderilecektir"
 >>>>>>> upstream/18.0
@@ -213,4 +239,8 @@ msgstr "SMS bu şablona göre müşteriye gönderilecektir"
 #: model:ir.model.fields,field_description:pos_sms.field_pos_config__sms_receipt_template_id
 #: model:ir.model.fields,field_description:pos_sms.field_res_config_settings__pos_sms_receipt_template_id
 msgid "Sms Receipt template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS Makbuz şablonu"
+>>>>>>> upstream/18.0

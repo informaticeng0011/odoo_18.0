@@ -35,8 +35,14 @@ import { session } from "@web/session";
  * @property {Record<string, any>[]} viewSwitcherEntry
  * @property {typeof Component} Banner
  *
+<<<<<<< HEAD
  * @typedef {import("@web/env").OdooEnv} OdooEnv
  * @typedef {import("./utils").OrderTerm} OrderTerm
+=======
+ * @typedef {import("@web/core/context").Context} Context
+ * @typedef {import("@web/env").OdooEnv} OdooEnv
+ * @typedef {import("@web/search/utils/order_by").OrderTerm} OrderTerm
+>>>>>>> upstream/18.0
  *
  * @typedef ViewProps
  * @property {string} resModel
@@ -55,7 +61,11 @@ import { session } from "@web/session";
  * @property {boolean} [loadIrFilters=false]
  *
  * @property {Record<string, any>} [comparison]
+<<<<<<< HEAD
  * @property {Record<any, any>} [context={}]
+=======
+ * @property {Context} [context={}]
+>>>>>>> upstream/18.0
  * @property {DomainRepr} [domain]
  * @property {string[]} [groupBy]
  * @property {OrderTerm[]} [orderBy]

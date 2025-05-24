@@ -43,10 +43,13 @@ class ResPartner(models.Model):
             VAT number:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             If there is a VAT number and the partner is not in EU, then the exported value is 'OO99999999999'
             If there is a VAT number and the partner is in EU, then remove the country prefix
             If there is no VAT and the partner is not in Italy, then the exported value is '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             If there is a VAT number and the partner is not in EU, then we use the VAT number as is,
@@ -56,6 +59,9 @@ class ResPartner(models.Model):
             If there is no VAT and the partner is not in EU, then the exported value is 'OO99999999999'
             If there is no VAT and the partner is in EU, then the exported value is '0000000'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90,8 +96,12 @@ class ResPartner(models.Model):
         normalized_country = self.country_code
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         has_vat = self.vat and not self.vat in ['/', 'NA']
         if has_vat:
+=======
+        if has_vat := self.vat not in [False, '/', 'NA']:
+>>>>>>> upstream/18.0
 =======
         if has_vat := self.vat not in [False, '/', 'NA']:
 >>>>>>> upstream/18.0
@@ -114,11 +124,14 @@ class ResPartner(models.Model):
                 normalized_vat = normalized_vat if normalized_vat[:2].isdecimal() else normalized_vat[2:]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The Tax Agency arbitrarily decided that non-EU VAT are not interesting,
             # so this default code is used instead
             # Detect the country code from the partner country instead
             else:
                 normalized_vat = 'OO99999999999'
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130,8 +143,11 @@ class ResPartner(models.Model):
         elif not has_vat and self.country_id and self.country_id.code != 'IT':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             normalized_vat = '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if in_eu:
@@ -139,6 +155,9 @@ class ResPartner(models.Model):
             else:
                 normalized_vat = 'OO99999999999'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
