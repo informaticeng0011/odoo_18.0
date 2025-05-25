@@ -26,15 +26,21 @@ import { getDefaultDomain } from "@web/core/domain_selector/utils";
 const { DateTime } = luxon;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @typedef {import("@web/core/domain").DomainRepr} DomainRepr */
 /** @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr */
 /** @typedef {import("../views/utils").OrderTerm} OrderTerm */
 =======
+=======
+>>>>>>> upstream/18.0
 /**
  * @typedef {import("@web/core/domain").DomainRepr} DomainRepr
  * @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr
  * @typedef {import("@web/search/utils/order_by").OrderTerm} OrderTerm
  */
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**

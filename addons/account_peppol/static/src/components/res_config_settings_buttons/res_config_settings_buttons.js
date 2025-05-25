@@ -93,10 +93,13 @@ class PeppolSettingsButtons extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     deregister() {
         if (this.ediMode === 'demo' || !['sender', 'smp_registration', 'receiver'].includes(this.proxyState)) {
             this._callConfigMethod("button_deregister_peppol_participant");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     async deregister() {
@@ -105,6 +108,9 @@ class PeppolSettingsButtons extends Component {
             // Discard any changes
             this.props.record._discard();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

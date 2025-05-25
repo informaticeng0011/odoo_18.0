@@ -10,15 +10,21 @@ class AccountChartTemplate(models.AbstractModel):
     def _get_cn_large_bis_template_data(self):
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': _('Large Business'),
             'parent': 'cn_common',
 =======
+=======
+>>>>>>> upstream/18.0
             'name': _('Accounting Standards for Business Enterprises'),
             'parent': 'cn_common',
             'property_account_expense_categ_id': 'l10n_cn_large_bis_account_6401',
             'property_account_income_categ_id': 'l10n_cn_large_bis_account_6001',
             'property_stock_account_input_categ_id': 'l10n_cn_large_bis_account_140601',
             'property_stock_account_output_categ_id': 'l10n_cn_large_bis_account_140602',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 
@@ -27,6 +33,7 @@ class AccountChartTemplate(models.AbstractModel):
         return {
             self.env.company.id: {
                 'account_fiscal_country_id': 'base.cn',
+<<<<<<< HEAD
 <<<<<<< HEAD
                 'bank_account_code_prefix': '1002',
                 'cash_account_code_prefix': '1001',
@@ -53,6 +60,8 @@ class AccountChartTemplate(models.AbstractModel):
             'bank': {
                 'default_account_id': 'l10n_cn_large_bis_100204',
 =======
+=======
+>>>>>>> upstream/18.0
                 'transfer_account_code_prefix': '1004',
                 'income_currency_exchange_account_id': 'l10n_cn_large_bis_account_6061',
                 'expense_currency_exchange_account_id': 'l10n_cn_large_bis_account_6061',
@@ -66,6 +75,9 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_production_wip_overhead_account_id': 'l10n_cn_large_bis_account_140502',
                 'account_sale_tax_id': 'l10n_cn_tax_large_bis_sales_excluded_13',
                 'account_purchase_tax_id': 'l10n_cn_purchase_excluded_13',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             },
         }

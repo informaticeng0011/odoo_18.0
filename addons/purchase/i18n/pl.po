@@ -78,6 +78,11 @@ msgid ""
 "sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+", jest w 100% darmowe! Zaoszczędź czas tworząc piękne oferty i śledząc "
+"sprzedaże."
+>>>>>>> upstream/18.0
 =======
 ", jest w 100% darmowe! Zaoszczędź czas tworząc piękne oferty i śledząc "
 "sprzedaże."
@@ -130,7 +135,10 @@ msgid ""
 "</div>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dzień dobry <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
@@ -157,6 +165,9 @@ msgstr ""
 "        <br/><br/>\n"
 "    </p>\n"
 "</div>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -190,7 +201,10 @@ msgid ""
 "</div>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dzień dobry <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
@@ -217,6 +231,9 @@ msgstr ""
 "        <br/><br/>\n"
 "    </p>\n"
 "</div>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -252,7 +269,10 @@ msgid ""
 "</div>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dzień dobry<t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
@@ -281,6 +301,9 @@ msgstr ""
 "        </t>\n"
 "    </p>\n"
 "</div>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase
@@ -290,6 +313,11 @@ msgid ""
 "title=\"Purchases\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-credit-card me-1\" aria-label=\"Zakupy\" role=\"img\" "
+"title=\"Zakupy\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-credit-card me-1\" aria-label=\"Zakupy\" role=\"img\" "
 "title=\"Zakupy\"/>"
@@ -308,7 +336,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/>Paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/>Opłacone"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/>Opłacone"
 >>>>>>> upstream/18.0
@@ -317,7 +349,11 @@ msgstr "<i class=\"fa fa-fw fa-check\"/>Opłacone"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/>Reversed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/>Odwrócone"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/>Odwrócone"
 >>>>>>> upstream/18.0
@@ -326,7 +362,11 @@ msgstr "<i class=\"fa fa-fw fa-check\"/>Odwrócone"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-clock-o\"/>Waiting Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/>Oczekuje na zapłatę"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/>Oczekuje na zapłatę"
 >>>>>>> upstream/18.0
@@ -355,7 +395,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-print me-1\"/>Download / Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Pobierz/drukuj"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Pobierz/drukuj"
 >>>>>>> upstream/18.0
@@ -394,6 +438,11 @@ msgid ""
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Zapytanie ofertowe </span>\n"
+"                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Zamówienie zakupu </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Zapytanie ofertowe </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Zamówienie zakupu </span>"
@@ -403,7 +452,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"o_stat_text\">Bill Matching</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Dopasowywanie rachunku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Dopasowywanie rachunku</span>"
 >>>>>>> upstream/18.0
@@ -412,7 +465,11 @@ msgstr "<span class=\"o_stat_text\">Dopasowywanie rachunku</span>"
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Dopasowaywanie zakupu</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Dopasowaywanie zakupu</span>"
 >>>>>>> upstream/18.0
@@ -430,6 +487,11 @@ msgid ""
 "mail_reminder_confirmed\">(confirmed by vendor)</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" invisible=\"not "
+"mail_reminder_confirmed\">(potwierdzone przez dostawcę)</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\" invisible=\"not "
 "mail_reminder_confirmed\">(potwierdzone przez dostawcę)</span>"
@@ -503,7 +565,11 @@ msgstr "<strong>Opis</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Disc.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Zniżka</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Zniżka</strong>"
 >>>>>>> upstream/18.0
@@ -512,7 +578,11 @@ msgstr "<strong>Zniżka</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Expected Arrival:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Oczekiwane doręczenie:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Oczekiwane doręczenie:</strong>"
 >>>>>>> upstream/18.0
@@ -537,7 +607,11 @@ msgstr "<strong>Termin składania zamówień:</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Payment Terms: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Warunki płatności: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Warunki płatności: </strong>"
 >>>>>>> upstream/18.0
@@ -567,7 +641,11 @@ msgstr "<strong>Adres dostawy:</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Shipping address</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adres dostawy</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adres dostawy</strong>"
 >>>>>>> upstream/18.0
@@ -591,7 +669,11 @@ msgstr "<strong>Otrzymana ilość została zaktualizowana.</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This purchase has been cancelled.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ten zakup został anulowany.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ten zakup został anulowany.</strong>"
 >>>>>>> upstream/18.0
@@ -600,7 +682,11 @@ msgstr "<strong>Ten zakup został anulowany.</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been accepted.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ta oferta została zaakceptowana.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ta oferta została zaakceptowana.</strong>"
 >>>>>>> upstream/18.0
@@ -609,7 +695,11 @@ msgstr "<strong>Ta oferta została zaakceptowana.</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been declined.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ta oferta została odrzucona.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ta oferta została odrzucona.</strong>"
 >>>>>>> upstream/18.0
@@ -623,7 +713,11 @@ msgstr "<strong>Cena jednostkowa</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Your Order Reference</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Numer referencyjny zamówienia</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Numer referencyjny zamówienia</strong>"
 >>>>>>> upstream/18.0
@@ -636,6 +730,12 @@ msgid ""
 "period of time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamówienie na czas określony to umowa o zakupie pomiędzy kupującym a "
+"dostawcą na dostarczenie dóbr lub usług kupującemu w z góry określonej cenie"
+" obowiązującej przez określony czas."
+>>>>>>> upstream/18.0
 =======
 "Zamówienie na czas określony to umowa o zakupie pomiędzy kupującym a "
 "dostawcą na dostarczenie dóbr lub usług kupującemu w z góry określonej cenie"
@@ -682,6 +782,12 @@ msgid ""
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zgodnie z konfiguracją produktu, otrzymana ilość może być automatycznie obliczana przez mechanizm:\n"
+"  - Ręczny: ilość jest ustawiana ręcznie w pozycji\n"
+"  - Przesunięcie zapasów: ilość pochodzi z potwierdzonych kompletacji\n"
+>>>>>>> upstream/18.0
 =======
 "Zgodnie z konfiguracją produktu, otrzymana ilość może być automatycznie obliczana przez mechanizm:\n"
 "  - Ręczny: ilość jest ustawiana ręcznie w pozycji\n"
@@ -727,7 +833,11 @@ msgstr "Ikona typu aktywności"
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 msgid "Add Down Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj zaliczkę"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj zaliczkę"
 >>>>>>> upstream/18.0
@@ -768,7 +878,11 @@ msgstr "Dodaj kilka produktów lub usług do swojej oferty."
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Add to PO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj do ZZ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj do ZZ"
 >>>>>>> upstream/18.0
@@ -778,7 +892,11 @@ msgstr "Dodaj do ZZ"
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj do Zamówienia Zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj do Zamówienia Zakupu"
 >>>>>>> upstream/18.0
@@ -885,7 +1003,11 @@ msgstr "Aprobuj zamówienie"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Are you sure you want to cancel the selected RFQs/Orders?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy na pewno chcesz anulować wybrane RFQ/zamówienia?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy na pewno chcesz anulować wybrane RFQ/zamówienia?"
 >>>>>>> upstream/18.0
@@ -982,7 +1104,11 @@ msgstr "Pozycje faktury"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopasowywanie rachunku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopasowywanie rachunku"
 >>>>>>> upstream/18.0
@@ -991,7 +1117,11 @@ msgstr "Dopasowywanie rachunku"
 #: model:ir.model,name:purchase.model_bill_to_po_wizard
 msgid "Bill to Purchase Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rachunek do zamówienia zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rachunek do zamówienia zakupu"
 >>>>>>> upstream/18.0
@@ -1006,7 +1136,11 @@ msgstr "Zafakturowano"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__billed_amount_untaxed
 msgid "Billed Amount Untaxed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zafakturowana kwota nieopodatkowana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zafakturowana kwota nieopodatkowana"
 >>>>>>> upstream/18.0
@@ -1089,7 +1223,11 @@ msgstr "Anulowane zamówienie #"
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można usunąć pozycji zamówienia, jeśli jest w stanie \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można usunąć pozycji zamówienia, jeśli jest w stanie \"%s\"."
 >>>>>>> upstream/18.0
@@ -1144,7 +1282,11 @@ msgstr "Waluta firmy"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total_cc
 msgid "Company Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suma firmy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma firmy"
 >>>>>>> upstream/18.0
@@ -1174,7 +1316,11 @@ msgstr "Potwierdź zamówienie"
 #: model:ir.actions.server,name:purchase.action_confirm_rfqs
 msgid "Confirm RFQ"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potwierdź RFQ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potwierdź RFQ"
 >>>>>>> upstream/18.0
@@ -1217,7 +1363,11 @@ msgstr "Zatwierdzone zamówienia zakupu nie są edytowalne."
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Connect with your software!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Połącz się zw swoim oprogramowaniem!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Połącz się zw swoim oprogramowaniem!"
 >>>>>>> upstream/18.0
@@ -1227,7 +1377,11 @@ msgstr "Połącz się zw swoim oprogramowaniem!"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "Connect your software"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podłącz swoje oprogramowanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podłącz swoje oprogramowanie"
 >>>>>>> upstream/18.0
@@ -1479,7 +1633,11 @@ msgstr "Kwota do podwójnej aprobaty"
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaliczka (ref: %(ref)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaliczka (ref: %(ref)s)"
 >>>>>>> upstream/18.0
@@ -1507,6 +1665,11 @@ msgid ""
 "quotations in Odoo. Enjoy the automation!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przeciągnij plik PDF zapytania ofertowego na swoją listę ofert w Odoo. Ciesz"
+" się automatyzacją!"
+>>>>>>> upstream/18.0
 =======
 "Przeciągnij plik PDF zapytania ofertowego na swoją listę ofert w Odoo. Ciesz"
 " się automatyzacją!"
@@ -1549,7 +1712,11 @@ msgstr "Śledzenie lub przeglądanie naszych zamówień zakupu"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Follow your Requests for Quotation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Śledź swoje zapytania ofertowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Śledź swoje zapytania ofertowe"
 >>>>>>> upstream/18.0
@@ -1586,7 +1753,11 @@ msgstr "Od %s"
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Z dokumentu elektronicznego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Z dokumentu elektronicznego"
 >>>>>>> upstream/18.0
@@ -1719,6 +1890,11 @@ msgid ""
 "Vendor, currency, destination, dropship address and agreement"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"W wybranym zamówieniu zakupu do scalenia następujące detale muszą być jednakowe\n"
+"Dostawca, waluta, miejsce docelowe, adres dropshippingu i umowa"
+>>>>>>> upstream/18.0
 =======
 "W wybranym zamówieniu zakupu do scalenia następujące detale muszą być jednakowe\n"
 "Dostawca, waluta, miejsce docelowe, adres dropshippingu i umowa"
@@ -1773,7 +1949,11 @@ msgstr "Jest obserwatorem"
 #: model:ir.model.fields,field_description:purchase.field_product_product__is_in_purchase_order
 msgid "Is In Purchase Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W zamówieniu zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "W zamówieniu zakupu"
 >>>>>>> upstream/18.0
@@ -1783,7 +1963,11 @@ msgstr "W zamówieniu zakupu"
 #: model:ir.model.fields,field_description:purchase.field_account_move__is_purchase_matched
 msgid "Is Purchase Matched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakup dopasowany"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakup dopasowany"
 >>>>>>> upstream/18.0
@@ -1865,7 +2049,11 @@ msgstr "Poziomy akceptacji *"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_amount_untaxed
 msgid "Line Amount Untaxed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieopodatkowana kwota pozycji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieopodatkowana kwota pozycji"
 >>>>>>> upstream/18.0
@@ -1874,7 +2062,11 @@ msgstr "Nieopodatkowana kwota pozycji"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_qty
 msgid "Line Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilość pozycji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilość pozycji"
 >>>>>>> upstream/18.0
@@ -1883,7 +2075,11 @@ msgstr "Ilość pozycji"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_uom_id
 msgid "Line Uom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JM pozycji"
+>>>>>>> upstream/18.0
 =======
 msgstr "JM pozycji"
 >>>>>>> upstream/18.0
@@ -1917,7 +2113,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Manage blanket orders and purchase templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj zamówieniami na czas określony i szablonami zakupów"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj zamówieniami na czas określony i szablonami zakupów"
 >>>>>>> upstream/18.0
@@ -2130,7 +2330,11 @@ msgstr "Nieuznany"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Not using Odoo?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie korzystasz z Odoo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie korzystasz z Odoo?"
 >>>>>>> upstream/18.0
@@ -2228,7 +2432,11 @@ msgstr ""
 #: code:addons/purchase/models/product.py:0
 msgid "Operation not supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Operacja nie jest wspierana"
+=======
+msgstr "Operacja nie jest obsługiwana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacja nie jest obsługiwana"
 >>>>>>> upstream/18.0
@@ -2294,7 +2502,11 @@ msgstr "Zamówienia"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termin realizacji zamówienia %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termin realizacji zamówienia %(date)s"
 >>>>>>> upstream/18.0
@@ -2349,6 +2561,11 @@ msgid ""
 "merge."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wybierz przynajmniej dwa zamówienia zakupu ze stanem RFQ i RFQ wysłanym do "
+"scalenia."
+>>>>>>> upstream/18.0
 =======
 "Wybierz przynajmniej dwa zamówienia zakupu ze stanem RFQ i RFQ wysłanym do "
 "scalenia."
@@ -2443,7 +2660,11 @@ msgstr "Typ produktu"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_price
 msgid "Product Uom Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena JM produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena JM produktu"
 >>>>>>> upstream/18.0
@@ -2452,7 +2673,11 @@ msgstr "Cena JM produktu"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty
 msgid "Product Uom Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilość JM produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilość JM produktu"
 >>>>>>> upstream/18.0
@@ -2507,7 +2732,11 @@ msgstr "Umowy kupna"
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_amount_untaxed
 msgid "Purchase Amount Untaxed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieopodatkowana kwota zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieopodatkowana kwota zakupu"
 >>>>>>> upstream/18.0
@@ -2524,7 +2753,11 @@ msgstr "Analiza zakupów"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Purchase Bill Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozycje rachunku za zakup"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycje rachunku za zakup"
 >>>>>>> upstream/18.0
@@ -2561,7 +2794,11 @@ msgstr "Czas na zakup"
 #: model:ir.model,name:purchase.model_purchase_bill_line_match
 msgid "Purchase Line and Vendor Bill line matching view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Widok dopasowywania pozycji zakupu i rachunku dostawcy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Widok dopasowywania pozycji zakupu i rachunku dostawcy"
 >>>>>>> upstream/18.0
@@ -2571,7 +2808,11 @@ msgstr "Widok dopasowywania pozycji zakupu i rachunku dostawcy"
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopasowywanie zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopasowywanie zakupu"
 >>>>>>> upstream/18.0
@@ -2667,7 +2908,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_order_name
 msgid "Purchase Order Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa zamówienia zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa zamówienia zakupu"
 >>>>>>> upstream/18.0
@@ -2677,7 +2922,11 @@ msgstr "Nazwa zamówienia zakupu"
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_warn
 msgid "Purchase Order Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostrzeżenie zamówienia zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostrzeżenie zamówienia zakupu"
 >>>>>>> upstream/18.0
@@ -2865,7 +3114,11 @@ msgstr "Wysłano zapytanie ofertowe"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ scalone z %(oldest_rfq_name)s i %(cancelled_rfq)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "RFQ scalone z %(oldest_rfq_name)s i %(cancelled_rfq)s"
 >>>>>>> upstream/18.0
@@ -2875,7 +3128,11 @@ msgstr "RFQ scalone z %(oldest_rfq_name)s i %(cancelled_rfq)s"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ scalone z %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "RFQ scalone z %s"
 >>>>>>> upstream/18.0
@@ -2910,7 +3167,11 @@ msgstr "WYŚLIJ EMAIL PONOWNIE"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Read the documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przeczytaj dokumentację"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przeczytaj dokumentację"
 >>>>>>> upstream/18.0
@@ -2967,7 +3228,11 @@ msgstr "Przyjęcie potwierdzone"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reception_declined
 msgid "Reception Declined"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odrzucono odbiór"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odrzucono odbiór"
 >>>>>>> upstream/18.0
@@ -3134,7 +3399,11 @@ msgstr "Token uprawnień"
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybierz pozycje rachunku od dostawcy do dodania do Zamówienia Zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz pozycje rachunku od dostawcy do dodania do Zamówienia Zakupu"
 >>>>>>> upstream/18.0
@@ -3264,7 +3533,11 @@ msgstr "Oznaczone gwiazdką"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Start on Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zacznij w Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zacznij w Odoo"
 >>>>>>> upstream/18.0
@@ -3363,7 +3636,11 @@ msgstr "Metoda zaokrąglenia podatku"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax excl.:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bez podatku:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bez podatku:"
 >>>>>>> upstream/18.0
@@ -3372,7 +3649,11 @@ msgstr "Bez podatku:"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax incl.:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Z podatkiem:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Z podatkiem:"
 >>>>>>> upstream/18.0
@@ -3421,7 +3702,11 @@ msgstr ""
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zap. ofert. zostało potwierdzone przez %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zap. ofert. zostało potwierdzone przez %s"
 >>>>>>> upstream/18.0
@@ -3431,7 +3716,11 @@ msgstr "Zap. ofert. zostało potwierdzone przez %s"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zap. ofert. zostało odrzucone przez %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zap. ofert. zostało odrzucone przez %s"
 >>>>>>> upstream/18.0
@@ -3447,7 +3736,11 @@ msgstr "Otrzymanie zamówienia zostało potwierdzone przez %s."
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odbiór zamówienia został odrzucony przez %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odbiór zamówienia został odrzucony przez %s."
 >>>>>>> upstream/18.0
@@ -3471,6 +3764,11 @@ msgid ""
 " this PO"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dostawca poprosił o odrzucenie tego potwierdzonego RFQ, jeśli się z tym "
+"zgadzasz, anuluj to ZZ"
+>>>>>>> upstream/18.0
 =======
 "Dostawca poprosił o odrzucenie tego potwierdzonego RFQ, jeśli się z tym "
 "zgadzasz, anuluj to ZZ"
@@ -3493,6 +3791,11 @@ msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obecnie nie ma żadnych produktów do dodanie do Zamówienia Zakupu. Czy to są "
+"zaliczki?"
+>>>>>>> upstream/18.0
 =======
 "Obecnie nie ma żadnych produktów do dodanie do Zamówienia Zakupu. Czy to są "
 "zaliczki?"
@@ -3557,7 +3860,11 @@ msgstr ""
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten rachunek dostawcy został utworzony z:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten rachunek dostawcy został utworzony z:"
 >>>>>>> upstream/18.0
@@ -3567,7 +3874,11 @@ msgstr "Ten rachunek dostawcy został utworzony z:"
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten rachunek dostawcy został zmodyfikowany z:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten rachunek dostawcy został zmodyfikowany z:"
 >>>>>>> upstream/18.0
@@ -3628,7 +3939,11 @@ msgstr "Suma"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Total Billed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zafakturowana suma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zafakturowana suma"
 >>>>>>> upstream/18.0
@@ -3642,7 +3957,11 @@ msgstr "Całkowita ilość zakupiona"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
 msgid "Total Qty purchased"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Całkowita zakupiona ilość"
+>>>>>>> upstream/18.0
 =======
 msgstr "Całkowita zakupiona ilość"
 >>>>>>> upstream/18.0
@@ -3675,7 +3994,11 @@ msgstr "Suma kwot"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
 msgid "Total purchased amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Całkowita kwota zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Całkowita kwota zakupu"
 >>>>>>> upstream/18.0
@@ -3684,7 +4007,11 @@ msgstr "Całkowita kwota zakupu"
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_confirmed
 msgid "True if PO reception is confirmed by the vendor."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Prawda, jeśli otrzymanie PO zostało potwierdzone przez sprzedawcę."
+=======
+msgstr "Prawda, jeśli otrzymanie ZZ zostało potwierdzone przez sprzedawcę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prawda, jeśli otrzymanie ZZ zostało potwierdzone przez sprzedawcę."
 >>>>>>> upstream/18.0
@@ -3693,7 +4020,11 @@ msgstr "Prawda, jeśli otrzymanie ZZ zostało potwierdzone przez sprzedawcę."
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_declined
 msgid "True if PO reception is declined by the vendor."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prawda, jeśli otrzymanie ZZ jest odrzucone przez dostawcę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prawda, jeśli otrzymanie ZZ jest odrzucone przez dostawcę."
 >>>>>>> upstream/18.0
@@ -3724,6 +4055,11 @@ msgid ""
 "vendor bills."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie można anulować zamówień zakupu: %s. Musisz najpierw anulować powiązane "
+"rachunki dostawcy."
+>>>>>>> upstream/18.0
 =======
 "Nie można anulować zamówień zakupu: %s. Musisz najpierw anulować powiązane "
 "rachunki dostawcy."
@@ -3744,7 +4080,11 @@ msgstr "Cena jednostkowa"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_unit_discounted
 msgid "Unit Price (Discounted)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena jednostkowa (Po obniżce)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena jednostkowa (Po obniżce)"
 >>>>>>> upstream/18.0
@@ -3791,7 +4131,11 @@ msgstr "Odblokuj"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Untaxed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Netto"
+=======
+msgstr "Nieopodatkowane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieopodatkowane"
 >>>>>>> upstream/18.0
@@ -3829,6 +4173,11 @@ msgid ""
 "format."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Użyj powyższego adresu REST URL, aby uzyskać ustrukturyzowane dane "
+"zamówienia w formacie UBL."
+>>>>>>> upstream/18.0
 =======
 "Użyj powyższego adresu REST URL, aby uzyskać ustrukturyzowane dane "
 "zamówienia w formacie UBL."
@@ -3871,6 +4220,11 @@ msgstr "Faktura zakupu"
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pozycje rachunku dostawcy mogą być dodane jedynie do jednego Zamówienia "
+"Zakupu."
+>>>>>>> upstream/18.0
 =======
 "Pozycje rachunku dostawcy mogą być dodane jedynie do jednego Zamówienia "
 "Zakupu."
@@ -3965,7 +4319,11 @@ msgstr "Oczekujące RFQ"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Want to import this document in Odoo?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy chcesz zaimportować ten dokument w Odoo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy chcesz zaimportować ten dokument w Odoo?"
 >>>>>>> upstream/18.0
@@ -4057,6 +4415,11 @@ msgstr ""
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie możesz wybrać pozycji ze zbiorczego Rachunku Dostawcy, aby przeprowadzić"
+" dopasowywanie."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz wybrać pozycji ze zbiorczego Rachunku Dostawcy, aby przeprowadzić"
 " dopasowywanie."
@@ -4076,7 +4439,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "You don't use a good CRM software?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie korzystasz z dobrego oprogramowania CRM?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie korzystasz z dobrego oprogramowania CRM?"
 >>>>>>> upstream/18.0
@@ -4106,6 +4473,11 @@ msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Musisz wybrać co najmniej jedną pozycję Zamówienia Zakupu aby dopasować lub "
+"stworzyć rachunek."
+>>>>>>> upstream/18.0
 =======
 "Musisz wybrać co najmniej jedną pozycję Zamówienia Zakupu aby dopasować lub "
 "stworzyć rachunek."
@@ -4135,7 +4507,11 @@ msgstr "dni przed"
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 msgid "or create new"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lub stwórz nowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "lub stwórz nowy"
 >>>>>>> upstream/18.0
@@ -4145,7 +4521,11 @@ msgstr "lub stwórz nowy"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "scalonych zamówień zakupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "scalonych zamówień zakupu"
 >>>>>>> upstream/18.0
@@ -4155,7 +4535,11 @@ msgstr "scalonych zamówień zakupu"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "to create quotes automatically."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aby automatycznie tworzyć wyceny."
+>>>>>>> upstream/18.0
 =======
 msgstr "aby automatycznie tworzyć wyceny."
 >>>>>>> upstream/18.0
@@ -4164,7 +4548,11 @@ msgstr "aby automatycznie tworzyć wyceny."
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "to learn all the ways to connect your software with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aby poznać wszystkie sposoby na połączenie Twojego oprogramowania z"
+>>>>>>> upstream/18.0
 =======
 msgstr "aby poznać wszystkie sposoby na połączenie Twojego oprogramowania z"
 >>>>>>> upstream/18.0

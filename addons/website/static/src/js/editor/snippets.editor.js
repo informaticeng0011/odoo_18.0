@@ -545,7 +545,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
             try {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 const commonAncestor = range.commonAncestorContainer;
@@ -562,6 +565,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
                     range.setEndAfter(backgroundColorParentEl);
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

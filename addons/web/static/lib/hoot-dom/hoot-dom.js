@@ -44,6 +44,10 @@ export {
     queryAllTexts,
     queryAllValues,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryAny,
+>>>>>>> upstream/18.0
 =======
     queryAny,
 >>>>>>> upstream/18.0
@@ -114,6 +118,12 @@ export const unload = interactor("interaction", events.unload);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+// Debug
+export { exposeHelpers } from "./hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 
 // Debug

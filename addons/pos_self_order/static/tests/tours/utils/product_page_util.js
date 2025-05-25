@@ -37,7 +37,10 @@ export function clickDiscard() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function checkAttributePrice(name, value, price) {
     return {
         content: `Check product price ${price} for variant ${name}: ${value}`,
@@ -45,6 +48,9 @@ export function checkAttributePrice(name, value, price) {
     };
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function setupAttribute(attributes, addToCart = true) {
     const steps = [];

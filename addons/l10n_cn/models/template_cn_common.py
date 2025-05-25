@@ -14,15 +14,21 @@ class AccountChartTemplate(models.AbstractModel):
             'code_digits': 6,
             'use_storno_accounting': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'property_account_receivable_id': 'l10n_cn_common_112200',
             'property_account_payable_id': 'l10n_cn_common_220200',
             'property_account_expense_categ_id': 'l10n_cn_common_640100',
             'property_account_income_categ_id': 'l10n_cn_common_600100',
 =======
+=======
+>>>>>>> upstream/18.0
             'property_account_receivable_id': 'l10n_cn_common_account_1122',
             'property_account_payable_id': 'l10n_cn_common_account_2202',
             'property_stock_valuation_account_id': 'l10n_cn_common_account_1405',
             'property_stock_account_production_cost_id': 'l10n_cn_common_account_1411',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 
@@ -34,6 +40,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'bank_account_code_prefix': '1002',
                 'cash_account_code_prefix': '1001',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'transfer_account_code_prefix': '1012',
                 'account_default_pos_receivable_account_id': 'l10n_cn_common_112400',
                 'income_currency_exchange_account_id': 'l10n_cn_common_605100',
@@ -41,6 +48,8 @@ class AccountChartTemplate(models.AbstractModel):
             },
         }
 =======
+=======
+>>>>>>> upstream/18.0
                 'deferred_expense_account_id': 'l10n_cn_common_account_1801',
                 'deferred_revenue_account_id': 'l10n_cn_common_account_2401',
                 'account_default_pos_receivable_account_id': 'l10n_cn_common_account_112201',
@@ -53,4 +62,7 @@ class AccountChartTemplate(models.AbstractModel):
             'cash': {'default_account_id': 'l10n_cn_common_account_1001'},
             'bank': {'default_account_id': 'l10n_cn_common_account_1002'},
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

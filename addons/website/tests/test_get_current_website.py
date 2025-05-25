@@ -74,7 +74,10 @@ class TestGetCurrentWebsite(HttpCaseWithUserDemo):
         self.assertEqual(Website._get_current_website_id('site-1.com'), website1.id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # CASE: Unicode domain (IDNA) support
         website2.domain = 'düsseldorf.com'
         self.assertEqual(Website._get_current_website_id('xn--dsseldorf-q9a.com'), website2.id)
@@ -85,6 +88,9 @@ class TestGetCurrentWebsite(HttpCaseWithUserDemo):
         self.assertEqual(Website._get_current_website_id('xn--dsseldorf-q9a.com'), website2.id)
         self.assertEqual(Website._get_current_website_id('düsseldorf.com'), website2.id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_02_signup_user_website_id(self):
         website = self.website

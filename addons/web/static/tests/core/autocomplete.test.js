@@ -30,11 +30,17 @@ function isInViewWithinScrollableY(target) {
     let container = element.parentElement;
     while (
 <<<<<<< HEAD
+<<<<<<< HEAD
         container
         && (
             container.scrollHeight <= container.clientHeight
             || !["auto", "scroll"].includes(getComputedStyle(container).overflowY)
         )
+=======
+        container &&
+        (container.scrollHeight <= container.clientHeight ||
+            !["auto", "scroll"].includes(getComputedStyle(container).overflowY))
+>>>>>>> upstream/18.0
 =======
         container &&
         (container.scrollHeight <= container.clientHeight ||
@@ -793,7 +799,12 @@ test("autocomplete scrolls when moving with arrows", async () => {
     // Open with arrow key.
     await contains(".o-autocomplete input").focus();
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-autocomplete input").press("ArrowDown");
+=======
+    await press("ArrowDown");
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await press("ArrowDown");
     await animationFrame();
@@ -804,6 +815,7 @@ test("autocomplete scrolls when moving with arrows", async () => {
     expect(".o-autocomplete--dropdown-item:first-child a").toHaveClass("ui-state-active");
     expect(isInViewWithinScrollableY(activeItemSelector)).toBe(true, { message: msgInView });
     // Navigate with the arrow keys. Go to the last item.
+<<<<<<< HEAD
 <<<<<<< HEAD
     expect(isInViewWithinScrollableY(".o-autocomplete--dropdown-item:contains('Up')")).toBe(false, { message: "'Up' " + msgNotInView });
     await contains(".o-autocomplete--input").press("ArrowUp");
@@ -819,6 +831,8 @@ test("autocomplete scrolls when moving with arrows", async () => {
     expect(isInViewWithinScrollableY(activeItemSelector)).toBe(true, { message: msgInView });
     expect(isInViewWithinScrollableY(".o-autocomplete--dropdown-item:last")).toBe(false, { message: "last " + msgNotInView });
 =======
+=======
+>>>>>>> upstream/18.0
     expect(isInViewWithinScrollableY(".o-autocomplete--dropdown-item:contains('Up')")).toBe(false, {
         message: "'Up' " + msgNotInView,
     });
@@ -841,5 +855,8 @@ test("autocomplete scrolls when moving with arrows", async () => {
     expect(isInViewWithinScrollableY(".o-autocomplete--dropdown-item:last")).toBe(false, {
         message: "last " + msgNotInView,
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

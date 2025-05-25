@@ -149,6 +149,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_fifo_candidates_domain(self, company, lot=False):
         fifo_candidates_domain = super()._get_fifo_candidates_domain(company, lot=lot)
         if self in self.env.context.get('product_unbuild_map', ()):
@@ -158,6 +159,8 @@ class ProductProduct(models.Model):
             ])
         return fifo_candidates_domain
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

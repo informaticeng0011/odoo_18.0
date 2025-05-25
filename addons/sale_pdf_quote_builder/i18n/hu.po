@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
 # Martin Trigaux, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
@@ -178,6 +179,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Martin Trigaux, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
 # Eiler Attila, 2025
@@ -199,6 +202,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -278,7 +284,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Attila Eiler, 2025\n"
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
@@ -440,6 +450,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"(object.state in ('draft', 'sent') and 'Ajánlat - %s' % (object.name)) or "
+"'Rendelés - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and 'Ajánlat - %s' % (object.name)) or "
 "'Rendelés - %s' % (object.name)"
@@ -593,7 +608,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Sablonok:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Sablonok:</span>"
 >>>>>>> upstream/18.0
@@ -602,7 +621,11 @@ msgstr "<span class=\"pe-2\">Sablonok:</span>"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span>Document type:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Dokumentum típus:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Dokumentum típus:</span>"
 >>>>>>> upstream/18.0
@@ -670,7 +693,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -719,6 +745,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -764,7 +793,11 @@ msgstr "Csatolva a következőhöz"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__local_url
 msgid "Attachment URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Melléklet webcíme"
+=======
+msgstr "Melléklet URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Melléklet URL"
 >>>>>>> upstream/18.0
@@ -774,7 +807,11 @@ msgstr "Melléklet URL"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elérhető termék dokumentumok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elérhető termék dokumentumok"
 >>>>>>> upstream/18.0
@@ -789,7 +826,11 @@ msgstr "Ellenőrző összeg/SHA1"
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kattintson PDF ajánlat tartalmának megírásához..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kattintson PDF ajánlat tartalmának megírásához..."
 >>>>>>> upstream/18.0
@@ -804,7 +845,11 @@ msgstr "Vállalat"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Configure dynamic fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dinamikus mezők konfigurálása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dinamikus mezők konfigurálása"
 >>>>>>> upstream/18.0
@@ -835,7 +880,11 @@ msgstr "Létrehozás"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "Customizable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testreszabható"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testreszabható"
 >>>>>>> upstream/18.0
@@ -844,7 +893,11 @@ msgstr "Testreszabható"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testreszabható PDF űrlap mezők"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testreszabható PDF űrlap mezők"
 >>>>>>> upstream/18.0
@@ -875,7 +928,11 @@ msgstr "Megjelenített név"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__document_type
 msgid "Document Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumentum típus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokumentum típus"
 >>>>>>> upstream/18.0
@@ -884,7 +941,11 @@ msgstr "Dokumentum típus"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Document type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumentum típus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokumentum típus"
 >>>>>>> upstream/18.0
@@ -930,7 +991,11 @@ msgstr "Lábléc"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Űrlap mező neve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Űrlap mező neve"
 >>>>>>> upstream/18.0
@@ -941,7 +1006,11 @@ msgstr "Űrlap mező neve"
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Űrlap mezők"
+>>>>>>> upstream/18.0
 =======
 msgstr "Űrlap mezők"
 >>>>>>> upstream/18.0
@@ -978,7 +1047,11 @@ msgstr "Fejléc"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__quotation_document
 msgid "Header/Footer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fejléc/Lábléc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fejléc/Lábléc"
 >>>>>>> upstream/18.0
@@ -987,7 +1060,11 @@ msgstr "Fejléc/Lábléc"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_template__quotation_document_ids
 msgid "Headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fejlécek és láblécek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fejlécek és láblécek"
 >>>>>>> upstream/18.0
@@ -999,7 +1076,11 @@ msgstr "Fejlécek és láblécek"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.res_config_settings_view_form
 msgid "Headers/Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fejlécek/Láblécek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fejlécek/Láblécek"
 >>>>>>> upstream/18.0
@@ -1046,7 +1127,11 @@ msgstr "Indexált tartalom"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati pdf-en belül"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati pdf-en belül"
 >>>>>>> upstream/18.0
@@ -1199,7 +1284,11 @@ msgstr ""
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw
 msgid "Quotation / Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Árajánlat / Rendelés"
+=======
+msgstr "Ajánlat / Rendelés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlat / Rendelés"
 >>>>>>> upstream/18.0
@@ -1213,7 +1302,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati dokumentumok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati dokumentumok"
 >>>>>>> upstream/18.0
@@ -1223,7 +1316,11 @@ msgstr "Ajánlati dokumentumok"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati sablon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati sablon"
 >>>>>>> upstream/18.0
@@ -1232,7 +1329,11 @@ msgstr "Ajánlati sablon"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__quotation_template_ids
 msgid "Quotation Templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati sablonok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati sablonok"
 >>>>>>> upstream/18.0
@@ -1241,7 +1342,11 @@ msgstr "Ajánlati sablonok"
 #: model:ir.model,name:sale_pdf_quote_builder.model_quotation_document
 msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati fejlécek és láblécek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati fejlécek és láblécek"
 >>>>>>> upstream/18.0
@@ -1251,7 +1356,11 @@ msgstr "Ajánlati fejlécek és láblécek"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid "Quote Builder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlat építő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlat építő"
 >>>>>>> upstream/18.0
@@ -1307,7 +1416,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Értékesítés : Megtekinthető"
+>>>>>>> upstream/18.0
 =======
 msgstr "Értékesítés : Megtekinthető"
 >>>>>>> upstream/18.0
@@ -1422,7 +1535,11 @@ msgstr "Téma sablon"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a dokumentum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ez a dokumentum"
 >>>>>>> upstream/18.0
@@ -1436,7 +1553,11 @@ msgstr "Típus"
 #: model_terms:ir.actions.act_window,help:sale_pdf_quote_builder.quotation_document_action
 msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ajánlati fejlécek és láblécek feltöltése"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ajánlati fejlécek és láblécek feltöltése"
 >>>>>>> upstream/18.0
@@ -1445,7 +1566,11 @@ msgstr "Ajánlati fejlécek és láblécek feltöltése"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__url
 msgid "Url"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Webcím"
+=======
+msgstr "Url"
+>>>>>>> upstream/18.0
 =======
 msgstr "Url"
 >>>>>>> upstream/18.0
@@ -1454,7 +1579,11 @@ msgstr "Url"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Visible to all"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Látható mindenkinek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Látható mindenkinek"
 >>>>>>> upstream/18.0
@@ -1475,6 +1604,11 @@ msgstr "Weboldal"
 msgid "When attached inside a quote, the document must be a file, not a URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ha ajánlaton belül kerül csatolásra, akkor a dokumentum csak fájl lehet, URL"
+" nem lehetséges."
+>>>>>>> upstream/18.0
 =======
 "Ha ajánlaton belül kerül csatolásra, akkor a dokumentum csak fájl lehet, URL"
 " nem lehetséges."
@@ -1499,7 +1633,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "adóalap:"
+=======
+msgstr "ezen:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ezen:"
 >>>>>>> upstream/18.0

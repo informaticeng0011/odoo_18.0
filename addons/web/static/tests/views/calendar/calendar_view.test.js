@@ -2620,7 +2620,10 @@ test(`Add filters and specific color`, async () => {
         "get_views (event)",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -33,7 +33,11 @@ import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountForTest, parseUrl, waitForIframes } from "../local_helpers";
+=======
+import { mountForTest, parseUrl } from "../local_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
@@ -223,8 +227,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -361,7 +368,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -477,7 +487,11 @@ describe(parseUrl(import.meta.url), () => {
     test("waitFor: rejects", async () => {
         await expect(waitFor("never", { timeout: 1 })).rejects.toThrow(
 <<<<<<< HEAD
+<<<<<<< HEAD
             `Could not find elements matching "never" within 1 milliseconds`
+=======
+            `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
+>>>>>>> upstream/18.0
 =======
             `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
 >>>>>>> upstream/18.0
@@ -570,8 +584,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -848,8 +865,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1056,7 +1076,10 @@ describe(parseUrl(import.meta.url), () => {
             expect("div").toHaveRect({ width: 40, height: 60 }, { trimPadding: true });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         test("not found messages", async () => {
             await mountForTest(/* xml */ `
@@ -1079,6 +1102,9 @@ describe(parseUrl(import.meta.url), () => {
                 `found 0 elements instead of 1: 1 matching ".tralalero", including 1 element with text "Tralala", including 1 visible element, including 0 scrollable elements, including 0 first elements`
             );
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 });

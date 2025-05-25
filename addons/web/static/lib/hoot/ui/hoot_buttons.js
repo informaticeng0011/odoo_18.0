@@ -53,8 +53,13 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-on-mouseenter="() => !isRunning and (state.open = true)"
             t-on-mouseleave="() => state.open = false"
+=======
+            t-on-pointerenter="onPointerEnter"
+            t-on-pointerleave="onPointerLeave"
+>>>>>>> upstream/18.0
 =======
             t-on-pointerenter="onPointerEnter"
             t-on-pointerleave="onPointerLeave"
@@ -121,7 +126,11 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     t-on-click.stop="() => state.open = !state.open"
+=======
+                    t-on-click.stop="onToggleClick"
+>>>>>>> upstream/18.0
 =======
                     t-on-click.stop="onToggleClick"
 >>>>>>> upstream/18.0
@@ -169,8 +178,12 @@ export class HootButtons extends Component {
                     <t t-if="showFailed">
                         <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'test'"
                             id="runnerState.failedIds"
+=======
+                            ids="{ test: runnerState.failedIds }"
+>>>>>>> upstream/18.0
 =======
                             ids="{ test: runnerState.failedIds }"
 >>>>>>> upstream/18.0
@@ -182,8 +195,12 @@ export class HootButtons extends Component {
                         </HootLink>
                         <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="failedSuites"
+=======
+                            ids="{ suite: failedSuites }"
+>>>>>>> upstream/18.0
 =======
                             ids="{ suite: failedSuites }"
 >>>>>>> upstream/18.0
@@ -233,7 +250,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -283,6 +303,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -345,7 +368,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -377,6 +403,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

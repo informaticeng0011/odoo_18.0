@@ -81,7 +81,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True)
+=======
+                                                  ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
 >>>>>>> upstream/18.0
@@ -852,9 +856,12 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not user_domain:
             return self.env['hr.employee'].search([('company_id', 'in', self.env.context.get('allowed_company_ids', []))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -968,6 +975,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1083,7 +1093,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return resources | self.env['hr.employee'].search(OR(employee_name_domain))
+=======
+            return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
+>>>>>>> upstream/18.0
 =======
             return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
 >>>>>>> upstream/18.0
@@ -1236,6 +1250,7 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Attendances where Last open attendance worked time + previously worked time on that day + tolerance greater than the planned worked hours in his calendar
             to_check_out = to_verify_company.filtered(lambda a: (fields.Datetime.now() - a.check_in).seconds / 3600 + mapped_previous_duration[a.employee_id][a.check_in.date()] - max_tol > (sum(a.employee_id.resource_calendar_id.attendance_ids.filtered(lambda att: att.dayofweek == str(a.check_in.weekday())).mapped('duration_hours'))))
             body = _('This attendance was automatically checked out because the employee exceeded the allowed time for their scheduled work hours.')
@@ -1245,6 +1260,8 @@ class HrAttendance(models.Model):
                 att.write({
                     "check_out": att.check_in + relativedelta(seconds=delta_duration),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1267,6 +1284,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -18,7 +18,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.models.company import PEPPOL_DEFAULT_COUNTRIES
+=======
+from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
 >>>>>>> upstream/18.0
@@ -114,7 +118,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('skipped', 'Skipped'),
+=======
+            ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
+>>>>>>> upstream/18.0
 =======
             ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
 >>>>>>> upstream/18.0
@@ -284,6 +292,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invoice_country in PEPPOL_DEFAULT_COUNTRIES:
 =======
         company_country = invoice.company_id.country_code
@@ -331,6 +340,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         company_country = invoice.company_id.country_code
         can_send = self.env['account_edi_proxy_client.user']._get_can_send_domain()
         company_on_peppol = invoice.company_id.account_peppol_proxy_state in can_send
@@ -348,6 +359,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

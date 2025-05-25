@@ -21,8 +21,11 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
         request.update_context(display_default_code=False)  # Hide internal product reference
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().sale_combo_configurator_get_data(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         res = super().sale_combo_configurator_get_data(*args, **kwargs)
@@ -33,6 +36,9 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
         })
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

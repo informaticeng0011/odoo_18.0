@@ -185,7 +185,10 @@ class test_challenge(TestGamificationCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_40_create_challenge_with_sum_goal(self):
         challenge = self.env['gamification.challenge'].create({
             'name': 'Test Challenge',
@@ -245,6 +248,9 @@ class test_challenge(TestGamificationCommon):
         self.assertEqual(goal.current, goal.target_goal, "Current goal should be equal to the target goal")
         self.assertEqual(goal.state, 'reached')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_send_report_in_ranking(self):
         gamification_model = self.env['ir.model']._get_id('gamification.badge')

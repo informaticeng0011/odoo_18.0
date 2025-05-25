@@ -160,7 +160,10 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -280,7 +283,11 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'min_quantity': 2,
+=======
+                    'min_quantity': 3,
+>>>>>>> upstream/18.0
 =======
                     'min_quantity': 3,
 >>>>>>> upstream/18.0
@@ -444,6 +451,9 @@ class TestSelfOrderKiosk(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

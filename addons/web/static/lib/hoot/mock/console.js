@@ -2,6 +2,10 @@
 
 import { MockEventTarget } from "../hoot_utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { logger } from "../core/logger";
+>>>>>>> upstream/18.0
 =======
 import { logger } from "../core/logger";
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@ import { logger } from "../core/logger";
 const {
     console,
 <<<<<<< HEAD
+<<<<<<< HEAD
     Object: { entries: $entries },
+=======
+    Object: { keys: $keys },
+>>>>>>> upstream/18.0
 =======
     Object: { keys: $keys },
 >>>>>>> upstream/18.0
@@ -32,6 +40,7 @@ const DISPATCHING_METHODS = ["error", "trace", "warn"];
 export class MockConsole extends MockEventTarget {
     static {
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const [name, value] of $entries(console)) {
             if (DISPATCHING_METHODS.includes(name)) {
                 this.prototype[name] = function (...args) {
@@ -41,6 +50,8 @@ export class MockConsole extends MockEventTarget {
             } else {
                 this.prototype[name] = value;
 =======
+=======
+>>>>>>> upstream/18.0
         for (const fnName of $keys(console)) {
             if (DISPATCHING_METHODS.includes(fnName)) {
                 const fn = logger[fnName];
@@ -50,6 +61,9 @@ export class MockConsole extends MockEventTarget {
                 };
             } else {
                 this.prototype[fnName] = console[fnName];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         }

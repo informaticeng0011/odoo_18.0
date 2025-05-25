@@ -10,6 +10,12 @@ from odoo.tests import HttpCase, tagged
 from odoo.addons.base.tests.common import BaseUsersCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment import utils as payment_utils
+from odoo.addons.website.tools import MockRequest
+from odoo.addons.website_sale.controllers.main import WebsiteSale
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.website.tools import MockRequest
@@ -133,7 +139,10 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_express_checkout_takes_order_amount_without_delivery(self):
@@ -149,6 +158,9 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
         self.assertEqual(payment_values['minor_amount'], amount_without_delivery)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -327,7 +339,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
         ):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_options = self.make_jsonrpc_request(
+=======
+            shipping_options_data = self.make_jsonrpc_request(
+>>>>>>> upstream/18.0
 =======
             shipping_options_data = self.make_jsonrpc_request(
 >>>>>>> upstream/18.0
@@ -347,7 +363,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
                 'shipping_address': dict(self.express_checkout_demo_shipping_values),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'shipping_option': shipping_options[0],
+=======
+                'shipping_option': shipping_options_data['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                 'shipping_option': shipping_options_data['delivery_methods'][0],
 >>>>>>> upstream/18.0
@@ -391,7 +411,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
                     'shipping_address': dict(self.express_checkout_demo_shipping_values_2),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'shipping_option': shipping_options[0],
+=======
+                    'shipping_option': shipping_options['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                     'shipping_option': shipping_options['delivery_methods'][0],
 >>>>>>> upstream/18.0

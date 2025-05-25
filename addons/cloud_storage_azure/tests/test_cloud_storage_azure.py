@@ -33,7 +33,11 @@ class TestCloudStorageAzureCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.container_name = 'container_name'
+=======
+        self.container_name = 'container-name'
+>>>>>>> upstream/18.0
 =======
         self.container_name = 'container-name'
 >>>>>>> upstream/18.0
@@ -216,7 +220,10 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -296,6 +303,9 @@ class TestCloudStorageAzure(TestCloudStorageAzureCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

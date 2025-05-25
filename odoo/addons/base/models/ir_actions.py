@@ -1006,6 +1006,10 @@ class IrActionsServer(models.Model):
                     eval_context["env"].context = run_self._context
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    eval_context['records'] = eval_context['record'] = records.browse(active_id)
+>>>>>>> upstream/18.0
 =======
                     eval_context['records'] = eval_context['record'] = records.browse(active_id)
 >>>>>>> upstream/18.0

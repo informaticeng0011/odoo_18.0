@@ -8,6 +8,10 @@ import * as Utils from "@point_of_sale/../tests/tours/utils/common";
 import { registry } from "@web/core/registry";
 import { inLeftSide, negateStep } from "@point_of_sale/../tests/tours/utils/common";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/order_widget_util";
+>>>>>>> upstream/18.0
 =======
 import * as Order from "@point_of_sale/../tests/tours/utils/generic_components/order_widget_util";
 >>>>>>> upstream/18.0
@@ -205,7 +209,10 @@ registry.category("web_tour.tours").add("test_limited_categories", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("CustomerNoteIsPresentAfterRefresh", {
     steps: () =>
@@ -229,4 +236,7 @@ registry.category("web_tour.tours").add("CustomerNoteIsPresentAfterRefresh", {
             ]),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

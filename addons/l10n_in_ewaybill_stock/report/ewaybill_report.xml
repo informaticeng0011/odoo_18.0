@@ -56,7 +56,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <img t-att-src="image_data_uri(doc.company_id.logo)"
+=======
+                                        <img t-if="doc.company_id.logo" t-att-src="image_data_uri(doc.company_id.logo)"
+>>>>>>> upstream/18.0
 =======
                                         <img t-if="doc.company_id.logo" t-att-src="image_data_uri(doc.company_id.logo)"
 >>>>>>> upstream/18.0

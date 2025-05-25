@@ -333,7 +333,10 @@ class TestAccountAccount(TestAccountMergeCommon):
         account.reconcile = True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.invalidate_all()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

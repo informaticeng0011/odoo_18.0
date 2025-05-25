@@ -291,7 +291,11 @@ test("within iframe", async () => {
     expect(Math.floor(popoverBox.left)).toBe(Math.floor(expectedLeft));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 });
+=======
+    await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
 >>>>>>> upstream/18.0

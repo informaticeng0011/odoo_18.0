@@ -4,14 +4,20 @@ import { evaluate } from "./py_js/py_interpreter";
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{[key: string]: any}} Context
 =======
+=======
+>>>>>>> upstream/18.0
  * @typedef {{
  *  lang?: string;
  *  tz?: string;
  *  uid?: number | false;
  *  [key: string]: any;
  * }} Context
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * @typedef {Context | string | undefined} ContextDescription
  */

@@ -52,8 +52,12 @@ export class HootTestPath extends Component {
                     <t t-else="">
                         <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
+=======
+                            ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
 =======
                             ids="{ suite: suite.id }"
 >>>>>>> upstream/18.0

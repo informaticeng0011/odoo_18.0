@@ -1197,7 +1197,10 @@ class TestAccountMove(AccountTestInvoicingCommon):
         self.assertEqual(len(line.tax_tag_ids), 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1233,6 +1236,9 @@ class TestAccountMove(AccountTestInvoicingCommon):
             {'amount_currency': 10.00, 'balance': 10.00},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

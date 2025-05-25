@@ -168,6 +168,10 @@ class TestItEdiReverseCharge(TestItEdi):
             'invoice_date_due': '2022-03-24',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -196,6 +200,10 @@ class TestItEdiReverseCharge(TestItEdi):
             'invoice_date_due': '2022-03-24',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -231,6 +239,10 @@ class TestItEdiReverseCharge(TestItEdi):
             'invoice_date_due': '2022-03-24',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -263,6 +275,10 @@ class TestItEdiReverseCharge(TestItEdi):
             'invoice_date': '2022-03-24',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0

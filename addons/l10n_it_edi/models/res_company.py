@@ -117,7 +117,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company.l10n_it_edi_proxy_user_id = company.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
+=======
+            company.l10n_it_edi_proxy_user_id = company.root_id.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
+>>>>>>> upstream/18.0
 =======
             company.l10n_it_edi_proxy_user_id = company.root_id.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
 >>>>>>> upstream/18.0

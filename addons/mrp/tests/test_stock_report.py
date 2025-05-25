@@ -514,7 +514,10 @@ class TestMrpStockReports(TestReportsCommon):
         self.assertEqual(repl0[0]['summary']['quantity'], 3)
         self.assertEqual(repl1[0]['summary']['quantity'], 5)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_report_price_variants(self):
         """
@@ -637,4 +640,7 @@ class TestMrpStockReports(TestReportsCommon):
         mo.move_raw_ids.filtered(lambda m: m.product_id == black_white_product and m.bom_line_id.bom_id.type != 'phantom').unlink()
         mo_report = self.env['report.mrp.report_mo_overview'].get_report_values(mo.id)
         self.assertEqual(mo_report['data']['extras']['unit_bom_cost'], mo_report['data']['extras']['unit_mo_cost'] + missing_product.standard_price + black_white_product.standard_price, 'The BoM unit cost should take the missing components into account, which are the deleted MO lines')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

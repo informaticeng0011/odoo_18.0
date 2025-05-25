@@ -14,6 +14,10 @@ import uuid
 
 from lxml import etree, html
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib.parse import urlparse
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlparse
 >>>>>>> upstream/18.0
@@ -117,12 +121,18 @@ class Website(models.Model):
     sequence = fields.Integer(default=10)
     domain = fields.Char('Website Domain', help='E.g. https://www.mydomain.com')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     domain_punycode = fields.Char(
         string="Punycode Domain",
         compute="_compute_domain_punycode",
         store=False,
         readonly=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     company_id = fields.Many2one('res.company', string="Company", default=lambda self: self.env.company, required=True)
     language_ids = fields.Many2many(
@@ -225,7 +235,10 @@ class Website(models.Model):
             self.default_lang_id = language_ids[0]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('domain')
     def _compute_domain_punycode(self):
         """Compute the punycode (ASCII-safe) version of the domain."""
@@ -235,6 +248,9 @@ class Website(models.Model):
             punycode_hostname = hostname.encode('idna').decode('ascii')
             website.domain_punycode = website_domain.replace(hostname, punycode_hostname)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('social_default_image')
     def _compute_has_social_default_image(self):
@@ -474,6 +490,12 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _idna_url(self, url):
+        return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
+
+>>>>>>> upstream/18.0
 =======
     def _idna_url(self, url):
         return get_base_domain(url.lower(), True).encode('idna').decode('ascii')
@@ -660,7 +682,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return get_base_domain(url.lower(), True) == get_base_domain(self.domain.lower(), True)
+=======
+        return self._idna_url(url) == self._idna_url(self.domain)
+>>>>>>> upstream/18.0
 =======
         return self._idna_url(url) == self._idna_url(self.domain)
 >>>>>>> upstream/18.0
@@ -791,7 +817,13 @@ class Website(models.Model):
     def configurator_init(self):
         r = dict()
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.get_current_website().company_id
+=======
+        theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
+        current_website = self.get_current_website()
+        company = current_website.company_id
+>>>>>>> upstream/18.0
 =======
         theme = self.env["ir.module.module"].search([("name", "=", "theme_default")])
         current_website = self.get_current_website()
@@ -811,6 +843,11 @@ class Website(models.Model):
         if not company.uses_default_logo:
             r['logo'] = company.logo.decode('utf-8')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if current_website.configurator_done:
+            r['redirect_url'] = theme.button_choose_theme()
+>>>>>>> upstream/18.0
 =======
         if current_website.configurator_done:
             r['redirect_url'] = theme.button_choose_theme()
@@ -1702,7 +1739,11 @@ class Website(models.Model):
             """Ignore `scheme` from the `domain`, just match the `netloc` which
             is host:port in the version of `url_parse` we use."""
 <<<<<<< HEAD
+<<<<<<< HEAD
             website_domain = get_base_domain(website.domain)
+=======
+            website_domain = get_base_domain(website.domain_punycode)
+>>>>>>> upstream/18.0
 =======
             website_domain = get_base_domain(website.domain_punycode)
 >>>>>>> upstream/18.0
@@ -1712,8 +1753,11 @@ class Website(models.Model):
             return website_domain.lower() == (domain_name or '').lower()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         found_websites = self.search([('domain', 'ilike', _remove_port(domain_name))])
 =======
+=======
+>>>>>>> upstream/18.0
         # We need to test two possibilities unicode or punycode (safety guard)
         domain_name = domain_name.encode("idna").decode("ascii")
         domain_name_idna = domain_name.encode("ascii").decode("idna")
@@ -1725,6 +1769,9 @@ class Website(models.Model):
             ('domain', 'ilike', _remove_port(domain_name)),
             ('domain', 'ilike', _remove_port(domain_name_idna)),
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Filter for the exact domain (to filter out potential subdomains) due
         # to the use of ilike.

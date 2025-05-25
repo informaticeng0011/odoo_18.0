@@ -1868,7 +1868,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_epd_and_cash_rounding(self):
@@ -1909,6 +1912,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         self.assertRecordValues(invoice, [{'amount_residual': 0.0}])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

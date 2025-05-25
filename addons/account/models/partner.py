@@ -615,6 +615,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
+>>>>>>> upstream/18.0
 =======
     # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
 >>>>>>> upstream/18.0

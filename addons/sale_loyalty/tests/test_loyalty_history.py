@@ -25,6 +25,7 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
             })],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'reward_ids': [Command.create({
                 'reward_type': 'discount',
                 'discount': 10,
@@ -33,6 +34,8 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                 'required_points': 1,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'reward_ids': [
@@ -51,6 +54,9 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                 }),
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117,7 +123,10 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                          "History line should be deleted after order cancel")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -150,6 +159,9 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
             "Loyalty points should equal initial points + points issued - points used",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

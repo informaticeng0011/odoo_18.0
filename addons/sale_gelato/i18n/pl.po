@@ -34,6 +34,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 =======
 # Marta Wacławek, 2025
 >>>>>>> upstream/18.0
@@ -161,7 +165,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
@@ -304,6 +312,11 @@ msgid ""
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i title=\"Wszystkie drukowane obrazy są skonfigurowane\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
+"                        <i title=\"Brakuje niektórych obrazów do druku\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i title=\"Wszystkie drukowane obrazy są skonfigurowane\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Brakuje niektórych obrazów do druku\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
@@ -334,7 +347,11 @@ msgstr "Kontakt"
 #: code:addons/sale_gelato/utils.py:0
 msgid "Could not establish the connection to the Gelato API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można nawiązać połączenia z Gelato API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można nawiązać połączenia z Gelato API."
 >>>>>>> upstream/18.0
@@ -344,7 +361,11 @@ msgstr "Nie można nawiązać połączenia z Gelato API."
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Could not synchronize with Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie udało się zsynchronizować z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie udało się zsynchronizować z Gelato"
 >>>>>>> upstream/18.0
@@ -354,7 +375,11 @@ msgstr "Nie udało się zsynchronizować z Gelato"
 #: model:ir.model.fields.selection,name:sale_gelato.selection__delivery_carrier__gelato_shipping_service_type__express
 msgid "Express Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekspresowa dostawa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekspresowa dostawa"
 >>>>>>> upstream/18.0
@@ -363,7 +388,11 @@ msgstr "Ekspresowa dostawa"
 #: model:product.template,name:sale_gelato.express_delivery_product_product_template
 msgid "Express Delivery (Gelato)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekspresowa dostawa (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekspresowa dostawa (Gelato)"
 >>>>>>> upstream/18.0
@@ -376,7 +405,11 @@ msgstr "Ekspresowa dostawa (Gelato)"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -386,7 +419,11 @@ msgstr "Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_res_config_settings__gelato_api_key
 msgid "Gelato API Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz API Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klucz API Gelato"
 >>>>>>> upstream/18.0
@@ -396,7 +433,11 @@ msgstr "Klucz API Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_image_ids
 msgid "Gelato Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wydruk obrazów Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wydruk obrazów Gelato"
 >>>>>>> upstream/18.0
@@ -405,7 +446,11 @@ msgstr "Wydruk obrazów Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_product_uid
 msgid "Gelato Product UID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID produktu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID produktu Gelato"
 >>>>>>> upstream/18.0
@@ -414,7 +459,11 @@ msgstr "UID produktu Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_product__gelato_product_uid
 msgid "Gelato Product Uid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uid produktu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uid produktu Gelato"
 >>>>>>> upstream/18.0
@@ -423,7 +472,11 @@ msgstr "Uid produktu Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_delivery_carrier__gelato_shipping_service_type
 msgid "Gelato Shipping Service Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ usługi wysyłkowej Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ usługi wysyłkowej Gelato"
 >>>>>>> upstream/18.0
@@ -433,7 +486,11 @@ msgstr "Typ usługi wysyłkowej Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_template_ref
 msgid "Gelato Template Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odnośnik szablonu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odnośnik szablonu Gelato"
 >>>>>>> upstream/18.0
@@ -443,7 +500,11 @@ msgstr "Odnośnik szablonu Gelato"
 #: model:ir.model.fields,field_description:sale_gelato.field_res_config_settings__gelato_webhook_secret
 msgid "Gelato Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szyfr Webhook Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szyfr Webhook Gelato"
 >>>>>>> upstream/18.0
@@ -456,6 +517,11 @@ msgid ""
 "%(gelato_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Gelato nie mógł kontynuować realizacji zamówienia %(order_reference)s: "
+"%(gelato_message)s"
+>>>>>>> upstream/18.0
 =======
 "Gelato nie mógł kontynuować realizacji zamówienia %(order_reference)s: "
 "%(gelato_message)s"
@@ -466,7 +532,11 @@ msgstr ""
 #: code:addons/sale_gelato/controlers/main.py:0
 msgid "Gelato has returned order %(reference)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato zwrócił zamówienie %(reference)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato zwrócił zamówienie %(reference)s."
 >>>>>>> upstream/18.0
@@ -475,7 +545,11 @@ msgstr "Gelato zwrócił zamówienie %(reference)s."
 #: model:mail.template,name:sale_gelato.order_status_update
 msgid "Gelato: Order status update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato: Aktualizacja statusu zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato: Aktualizacja statusu zamówienia"
 >>>>>>> upstream/18.0
@@ -484,7 +558,11 @@ msgstr "Gelato: Aktualizacja statusu zamówienia"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_document__is_gelato
 msgid "Is Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -493,7 +571,11 @@ msgstr "Gelato"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Manage Delivery Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj metodami dostawy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj metodami dostawy"
 >>>>>>> upstream/18.0
@@ -503,7 +585,11 @@ msgstr "Zarządzaj metodami dostawy"
 #: model:ir.model.fields,field_description:sale_gelato.field_product_template__gelato_missing_images
 msgid "Missing Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakujące obrazy do druku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakujące obrazy do druku"
 >>>>>>> upstream/18.0
@@ -513,7 +599,11 @@ msgstr "Brakujące obrazy do druku"
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Missing product variants and images have been successfully created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakujące warianty produktu i obrazy zostały pomyślnie utworzone."
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakujące warianty produktu i obrazy zostały pomyślnie utworzone."
 >>>>>>> upstream/18.0
@@ -522,7 +612,11 @@ msgstr "Brakujące warianty produktu i obrazy zostały pomyślnie utworzone."
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Place orders through Gelato's print-on-demand service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Składaj zamówienia przez usługę Gelato druk na żądanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Składaj zamówienia przez usługę Gelato druk na żądanie"
 >>>>>>> upstream/18.0
@@ -531,7 +625,11 @@ msgstr "Składaj zamówienia przez usługę Gelato druk na żądanie"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Print Images"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Drukuj obrazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Drukuj obrazy"
 >>>>>>> upstream/18.0
@@ -541,7 +639,11 @@ msgstr "Drukuj obrazy"
 #: code:addons/sale_gelato/models/product_document.py:0
 msgid "Print images must be set on products before they can be ordered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przed zamówieniem produktów należy skonfigurować obrazy do druku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Przed zamówieniem produktów należy skonfigurować obrazy do druku."
 >>>>>>> upstream/18.0
@@ -562,7 +664,11 @@ msgstr "Product Document"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Product UID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID produktu"
 >>>>>>> upstream/18.0
@@ -591,7 +697,11 @@ msgstr "Pozycja zamówienia sprzedaży"
 #: model:mail.template,description:sale_gelato.order_status_update
 msgid "Sent to the customer when Gelato updates the status of an order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wysłano do klienta, kiedy Gelato zaktualizuje status zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wysłano do klienta, kiedy Gelato zaktualizuje status zamówienia"
 >>>>>>> upstream/18.0
@@ -606,7 +716,11 @@ msgstr "Sposoby dostawy"
 #: model:ir.model.fields.selection,name:sale_gelato.selection__delivery_carrier__gelato_shipping_service_type__normal
 msgid "Standard Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardowa dostawa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardowa dostawa"
 >>>>>>> upstream/18.0
@@ -615,7 +729,11 @@ msgstr "Standardowa dostawa"
 #: model:product.template,name:sale_gelato.standard_delivery_product_product_template
 msgid "Standard Delivery (Gelato)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardowa dostawa (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardowa dostawa (Gelato)"
 >>>>>>> upstream/18.0
@@ -625,7 +743,11 @@ msgstr "Standardowa dostawa (Gelato)"
 #: code:addons/sale_gelato/models/product_template.py:0
 msgid "Successfully synchronized with Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomyślnie zsynchronizowane z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomyślnie zsynchronizowane z Gelato"
 >>>>>>> upstream/18.0
@@ -640,7 +762,11 @@ msgstr "Synchronizuj"
 #: model:ir.model.fields,help:sale_gelato.field_product_template__gelato_template_ref
 msgid "Synchronize to fetch variants from Gelato"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Synchronizuj, aby pobrać warianty z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Synchronizuj, aby pobrać warianty z Gelato"
 >>>>>>> upstream/18.0
@@ -649,7 +775,11 @@ msgstr "Synchronizuj, aby pobrać warianty z Gelato"
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid "Template Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odniesienie do szablonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odniesienie do szablonu"
 >>>>>>> upstream/18.0
@@ -659,7 +789,11 @@ msgstr "Odniesienie do szablonu"
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The delivery method is not available for this order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda dostawy nie jest dostępna dla tego zamówienia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda dostawy nie jest dostępna dla tego zamówienia."
 >>>>>>> upstream/18.0
@@ -669,7 +803,11 @@ msgstr "Metoda dostawy nie jest dostępna dla tego zamówienia."
 #: code:addons/sale_gelato/models/delivery_carrier.py:0
 msgid "The following required address fields are missing: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakuje następujących wymaganych pól adresu: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakuje następujących wymaganych pól adresu: %s"
 >>>>>>> upstream/18.0
@@ -679,7 +817,11 @@ msgstr "Brakuje następujących wymaganych pól adresu: %s"
 #: code:addons/sale_gelato/models/sale_order.py:0
 msgid "The order has been successfully passed on Gelato."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie zostało pomyślnie przekazane na Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienie zostało pomyślnie przekazane na Gelato."
 >>>>>>> upstream/18.0
@@ -692,6 +834,11 @@ msgid ""
 "Reason: %(error_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamówienie z numerem referencyjnym %(order_reference)s nie zostało wysłane do Gelato.\n"
+"Powód: %(error_message)s"
+>>>>>>> upstream/18.0
 =======
 "Zamówienie z numerem referencyjnym %(order_reference)s nie zostało wysłane do Gelato.\n"
 "Powód: %(error_message)s"
@@ -701,7 +848,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_gelato.res_config_settings_form
 msgid "Webhook Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szyfr Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szyfr Webhook"
 >>>>>>> upstream/18.0
@@ -713,6 +864,11 @@ msgid ""
 "You cannot mix Gelato products with non-Gelato products in the same order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie możesz mieszać produktów Gelato z produktami spoza Gelato w jednym "
+"zamówieniu."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz mieszać produktów Gelato z produktami spoza Gelato w jednym "
 "zamówieniu."
@@ -751,7 +907,11 @@ msgid "{{ object.reference }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.reference }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.reference }}"
 >>>>>>> upstream/18.0

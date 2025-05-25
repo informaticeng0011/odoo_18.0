@@ -6,9 +6,12 @@ from odoo.tests import HttpCase, tagged
 from odoo.addons.base.tests.common import DISABLED_MAIL_CONTEXT
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.addons.payment import utils as payment_utils
@@ -16,6 +19,9 @@ from odoo.addons.website.tools import MockRequest
 from odoo.addons.website_sale.tests.common import WebsiteSaleCommon
 from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209,7 +215,10 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
         self.assertEqual(result['delivery_discount_minor_amount'], -600)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -239,6 +248,9 @@ class TestWebsiteSaleDelivery(HttpCase, WebsiteSaleCommon):
 
         self.assertEqual(payment_values['minor_amount'], amount_without_delivery)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

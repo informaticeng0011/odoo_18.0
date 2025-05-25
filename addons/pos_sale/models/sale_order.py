@@ -46,7 +46,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'picking_ids', 'partner_shipping_id', 'partner_invoice_id', 'date_order']
+=======
+            'picking_ids', 'partner_shipping_id', 'partner_invoice_id', 'date_order', 'write_date']
+>>>>>>> upstream/18.0
 =======
             'picking_ids', 'partner_shipping_id', 'partner_invoice_id', 'date_order', 'write_date']
 >>>>>>> upstream/18.0
@@ -163,10 +167,15 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if order.invoice_status == 'invoiced':
                 continue
             # We need to account for the downpayment paid in POS with and without invoice
             order_amount = sum(order.sudo().pos_order_line_ids.filtered(lambda pol: pol.sale_order_line_id.is_downpayment).mapped('price_subtotal_incl'))
+=======
+            # We need to account for all amount paid in POS with and without invoice
+            order_amount = sum(order.sudo().pos_order_line_ids.mapped('price_subtotal_incl'))
+>>>>>>> upstream/18.0
 =======
             # We need to account for all amount paid in POS with and without invoice
             order_amount = sum(order.sudo().pos_order_line_ids.mapped('price_subtotal_incl'))
@@ -303,7 +312,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment']
+=======
+            'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment', 'write_date']
+>>>>>>> upstream/18.0
 =======
             'qty_invoiced', 'qty_to_invoice', 'display_type', 'name', 'tax_id', 'is_downpayment', 'write_date']
 >>>>>>> upstream/18.0

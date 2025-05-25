@@ -205,7 +205,10 @@ ZeroDivisionError: division by zero""" % self.test_server_action.id
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_object_write_equation(self):
@@ -223,6 +226,9 @@ ZeroDivisionError: division by zero""" % self.test_server_action.id
         self.assertEqual(partners[1].city, str(partners[1].id))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

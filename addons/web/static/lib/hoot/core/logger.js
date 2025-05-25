@@ -16,6 +16,10 @@ const {
         groupEnd: $groupEnd,
         log: $log,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        table: $table,
+>>>>>>> upstream/18.0
 =======
         table: $table,
 >>>>>>> upstream/18.0
@@ -63,6 +67,12 @@ const unstyledArguments = (args) => {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
+const ERROR_PREFIX = ["ERROR", "#9f1239"];
+const WARNING_PREFIX = ["WARNING", "#f59e0b"];
+>>>>>>> upstream/18.0
 =======
 const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
 const ERROR_PREFIX = ["ERROR", "#9f1239"];
@@ -120,6 +130,10 @@ export const LOG_LEVELS = {
 export const logger = {
     level: urlParams.loglevel ?? LOG_LEVELS.runner,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    suppressed: "",
+>>>>>>> upstream/18.0
 =======
     suppressed: "",
 >>>>>>> upstream/18.0
@@ -137,6 +151,7 @@ export const logger = {
      */
     error(...args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.error(...styledArguments(args));
     },
     /**
@@ -145,6 +160,8 @@ export const logger = {
     groupCollapsed(...args) {
         $groupCollapsed(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
         if (logger.suppressed) {
             $groupCollapsed(...styledArguments([logger.suppressed], ...ERROR_PREFIX));
             $trace(...args);
@@ -173,6 +190,9 @@ export const logger = {
      */
     trace(...args) {
         $trace(...args);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     /**
@@ -180,8 +200,11 @@ export const logger = {
      */
     warn(...args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.warn(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
         if (logger.suppressed) {
             $groupCollapsed(...styledArguments([logger.suppressed], ...WARNING_PREFIX));
             $trace(...args);
@@ -189,6 +212,9 @@ export const logger = {
         } else {
             $warn(...styledArguments(args));
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 
@@ -202,7 +228,11 @@ export const logger = {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         $debug(...styledArguments(args, "DEBUG", "#ffb000"));
+=======
+        $debug(...styledArguments(args, ...DEBUG_PREFIX));
+>>>>>>> upstream/18.0
 =======
         $debug(...styledArguments(args, ...DEBUG_PREFIX));
 >>>>>>> upstream/18.0
@@ -282,7 +312,10 @@ export const logger = {
         $warn(...styledArguments(args));
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     // Other methods
 
@@ -296,5 +329,8 @@ export const logger = {
         logger.suppressed = reason || "(suppressed)";
         return restore;
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 };

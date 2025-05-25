@@ -253,12 +253,18 @@ class AccountEdiFormat(models.Model):
         if partner.country_id.code == "IN" and not re.match("^([1-9][0-9]{5})$", partner.zip or ""):
             message.append(_("- ZIP code required 6 digits ranging from 100000 to 999999"))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             partner.country_id.code == "IN"
             and not re.match(r"^(?!0+$)([0-9]{2})$", partner.state_id.l10n_in_tin or "")
         ):
             message.append(_("- State TIN Number must be exactly 2 digits."))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if partner.phone and not re.match("^[0-9]{10,12}$",
             self._l10n_in_edi_extract_digits(partner.phone)

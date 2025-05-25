@@ -65,7 +65,11 @@ class WebsiteVisitor(models.Model):
         if operator == "not in":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise NotImplementedError("Unsupported 'Not In' operation on visitors registrations")
+=======
+            raise NotImplementedError(self.env._("Unsupported 'Not In' operation on visitors registrations"))
+>>>>>>> upstream/18.0
 =======
             raise NotImplementedError(self.env._("Unsupported 'Not In' operation on visitors registrations"))
 >>>>>>> upstream/18.0

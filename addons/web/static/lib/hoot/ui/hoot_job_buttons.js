@@ -26,8 +26,12 @@ export class HootJobButtons extends Component {
         <div class="${HootJobButtons.name} items-center gap-1" t-att-class="props.hidden ? 'hidden' : 'flex'">
             <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                 ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0
@@ -39,8 +43,12 @@ export class HootJobButtons extends Component {
             <t t-if="type === 'test'">
                 <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                     type="type"
                     id="props.job.id"
+=======
+                    ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                     ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0
@@ -53,8 +61,12 @@ export class HootJobButtons extends Component {
             </t>
             <HootLink
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                 ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0

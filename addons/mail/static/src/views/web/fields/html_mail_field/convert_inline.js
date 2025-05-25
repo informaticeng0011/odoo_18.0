@@ -569,7 +569,11 @@ export function classToStyle(element, cssRules) {
                 node.before(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`<table align="center" border="0"
+=======
+                    createMso(`<table align="center" border="0"
+>>>>>>> upstream/18.0
 =======
                     createMso(`<table align="center" border="0"
 >>>>>>> upstream/18.0
@@ -590,7 +594,11 @@ export function classToStyle(element, cssRules) {
                 node.after(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`</td>
+=======
+                    createMso(`</td>
+>>>>>>> upstream/18.0
 =======
                     createMso(`</td>
 >>>>>>> upstream/18.0
@@ -686,7 +694,11 @@ function enforceTablesResponsivity(element) {
                 div.before(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`
+=======
+                    createMso(`
+>>>>>>> upstream/18.0
 =======
                     createMso(`
 >>>>>>> upstream/18.0
@@ -700,6 +712,7 @@ function enforceTablesResponsivity(element) {
             } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 div.before(_createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
@@ -707,11 +720,16 @@ function enforceTablesResponsivity(element) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 div.before(createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(createMso(`</td></tr></table>`));
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -838,7 +856,11 @@ function enforceImagesResponsivity(element) {
     for (const image of element.querySelectorAll('img[width="100%"][height]')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(image.outerHTML));
+=======
+        image.before(createMso(image.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(image.outerHTML));
 >>>>>>> upstream/18.0
@@ -877,7 +899,11 @@ export async function toInline(element, cssRules) {
         clone.style.removeProperty("max-width");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(clone.outerHTML));
+=======
+        image.before(createMso(clone.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(clone.outerHTML));
 >>>>>>> upstream/18.0
@@ -963,7 +989,11 @@ function flattenBackgroundImages(element) {
             // Put the Outlook version after the original one in an mso conditional.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             backgroundImage.after(_createMso(vml));
+=======
+            backgroundImage.after(createMso(vml));
+>>>>>>> upstream/18.0
 =======
             backgroundImage.after(createMso(vml));
 >>>>>>> upstream/18.0
@@ -1459,7 +1489,11 @@ function responsiveToStaticForOutlook(element) {
         // The opening tag of `outlookTd` is for Outlook.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         td.before(_createMso(outlookTd.outerHTML.replace("</td>", "")));
+=======
+        td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
+>>>>>>> upstream/18.0
 =======
         td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
 >>>>>>> upstream/18.0
@@ -1667,9 +1701,12 @@ function _createColumnGrid() {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function _createMso(content = "") {
     return document.createComment(`[if mso]>${content}<![endif]`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 export function createMso(content = "") {
@@ -1682,6 +1719,9 @@ export function createMso(content = "") {
     contentToInsert = contentToInsert.replace(hideRegex, "");
     return document.createComment(`[if mso]>${contentToInsert}<![endif]`);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

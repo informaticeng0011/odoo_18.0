@@ -22,7 +22,11 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             prefix, year, number = parts[0], parts[1], parts[2].zfill(9)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return f"{prefix}{year}{number}"
+=======
+            return f"{prefix.upper()}{year}{number}"
+>>>>>>> upstream/18.0
 =======
             return f"{prefix.upper()}{year}{number}"
 >>>>>>> upstream/18.0
@@ -49,6 +53,11 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             'order_issue_date': invoice.invoice_date,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pricing_currency_code': invoice.currency_id.name.upper() if invoice.currency_id != invoice.company_id.currency_id else False,
+            'currency_dp': 2,
+>>>>>>> upstream/18.0
 =======
             'pricing_currency_code': invoice.currency_id.name.upper() if invoice.currency_id != invoice.company_id.currency_id else False,
             'currency_dp': 2,
@@ -139,7 +148,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -258,6 +270,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368,7 +383,13 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         for vals in tax_totals_vals:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
+=======
+            vals['currency_dp'] = 2
+            for subtotal_vals in vals.get('tax_subtotal_vals', []):
+                subtotal_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
             vals['currency_dp'] = 2
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
@@ -393,6 +414,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
             del vals['prepaid_amount']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
         vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
@@ -420,7 +445,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_invoice_line_allowance_vals_list(self, line, tax_values_list=None):
@@ -432,6 +460,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return vals_list
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -441,6 +472,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         invoice_line_price_vals['base_quantity_attrs'] = {'unitCode': line.product_uom_id._get_unece_code()}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        invoice_line_price_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
         invoice_line_price_vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
@@ -454,9 +489,12 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         invoice_line_vals['line_quantity_attrs'] = {'unitCode': line.product_uom_id._get_unece_code()}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return invoice_line_vals
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         invoice_line_vals['currency_dp'] = 2
@@ -474,6 +512,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return []
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

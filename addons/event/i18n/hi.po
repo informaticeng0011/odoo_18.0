@@ -8,6 +8,10 @@
 # Wil Odoo, 2024
 # Manav Shah, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Ujjawal Pathak, 2025
+>>>>>>> upstream/18.0
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -19,7 +23,11 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Manav Shah, 2025\n"
+=======
+"Last-Translator: Ujjawal Pathak, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Ujjawal Pathak, 2025\n"
 >>>>>>> upstream/18.0
@@ -1057,7 +1065,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -1301,6 +1312,9 @@ msgstr ""
 "</td></tr>\n"
 "</table>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: event
@@ -2357,7 +2371,11 @@ msgstr ""
 #: model:mail.template,name:event.event_subscription
 msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट: रजिस्ट्रेशन की पुष्टि"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट: रजिस्ट्रेशन की पुष्टि"
 >>>>>>> upstream/18.0
@@ -3782,7 +3800,11 @@ msgstr ""
 #: model:mail.template,description:event.event_subscription
 msgid "Sent to attendees after registering to an event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इवेंट में रजिस्ट्रेशन के बाद लोगों को ये भेजा जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इवेंट में रजिस्ट्रेशन के बाद लोगों को ये भेजा जाता है"
 >>>>>>> upstream/18.0
@@ -4514,7 +4536,11 @@ msgstr ""
 #: model:mail.template,subject:event.event_subscription
 msgid "Your registration at {{ object.event_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} पर आपका रजिस्ट्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }} पर आपका रजिस्ट्रेशन"
 >>>>>>> upstream/18.0

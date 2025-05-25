@@ -200,7 +200,10 @@ class TestPricelist(ProductCommon):
             self.assertEqual(partner_form.property_product_pricelist, self.sale_pricelist_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -223,6 +226,9 @@ class TestPricelist(ProductCommon):
             item_form.percent_price = 20
         self.assertFalse(pricelist_2.item_ids.base_pricelist_id.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

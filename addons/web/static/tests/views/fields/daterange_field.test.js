@@ -3,7 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, expect, test } from "@odoo/hoot";
+=======
+import { after, beforeEach, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { after, beforeEach, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -41,6 +45,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    defineParams,
+>>>>>>> upstream/18.0
 =======
     defineParams,
 >>>>>>> upstream/18.0
@@ -67,6 +75,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
 >>>>>>> upstream/18.0
@@ -927,6 +939,12 @@ test("list daterange: column widths", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    document.body.style.fontFamily = "sans-serif";
+    resetDateFieldWidths();
+    after(resetDateFieldWidths);
+>>>>>>> upstream/18.0
 =======
     document.body.style.fontFamily = "sans-serif";
     resetDateFieldWidths();
@@ -976,8 +994,11 @@ test("list daterange: column widths", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(columnWidths).toEqual([40, 189, 304, 267]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1057,6 +1078,9 @@ test("list daterange: column widths (show_time=false)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1075,6 +1099,12 @@ test("list daterange: column widths (no record)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    document.body.style.fontFamily = "sans-serif";
+    resetDateFieldWidths();
+    after(resetDateFieldWidths);
+>>>>>>> upstream/18.0
 =======
     document.body.style.fontFamily = "sans-serif";
     resetDateFieldWidths();
@@ -1123,7 +1153,11 @@ test("list daterange: column widths (no record)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(columnWidths).toEqual([40, 189, 304, 267]);
+=======
+    expect(columnWidths).toEqual([40, 183, 300, 277]);
+>>>>>>> upstream/18.0
 =======
     expect(columnWidths).toEqual([40, 183, 300, 277]);
 >>>>>>> upstream/18.0
