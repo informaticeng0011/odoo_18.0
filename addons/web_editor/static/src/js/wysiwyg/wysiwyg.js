@@ -77,6 +77,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    htmlEscape,
+>>>>>>> upstream/18.0
 =======
     htmlEscape,
 >>>>>>> upstream/18.0
@@ -1930,7 +1934,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _onMediaDialogSave(params, element) {
+=======
+    async _onMediaDialogSave(params, element) {
+>>>>>>> upstream/18.0
 =======
     async _onMediaDialogSave(params, element) {
 >>>>>>> upstream/18.0
@@ -1988,8 +1996,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (params.node) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2057,6 +2068,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2105,6 +2119,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            await saveCallback(element);
+            this.odooEditor.historyUnpauseSteps();
+>>>>>>> upstream/18.0
 =======
             await saveCallback(element);
             this.odooEditor.historyUnpauseSteps();
@@ -2190,8 +2209,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const result = this.odooEditor.execCommand('insert', element);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2233,6 +2255,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2275,6 +2300,7 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (this.state.showSnippetsMenu) {
             this.snippetsMenuBus.trigger("ACTIVATE_SNIPPET", {
@@ -2286,6 +2312,8 @@ export class Wysiwyg extends Component {
                 }
             });
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2961,7 +2989,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${_t(title)}">${emoji}</i>
+=======
+                        <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
+>>>>>>> upstream/18.0
 =======
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
 >>>>>>> upstream/18.0
@@ -3111,7 +3143,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3250,6 +3285,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3402,12 +3440,18 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const categories = [{ name: _t('Banners'), priority: 65 },];
         const commands = [
             this._getBannerCommand(_t('Banner Info'), '💡', 'info', 'fa-info-circle', _t('Insert an info banner'), 24),
             this._getBannerCommand(_t('Banner Success'), '✅', 'success', 'fa-check-circle', _t('Insert a success banner'), 23),
             this._getBannerCommand(_t('Banner Warning'), '⚠️', 'warning', 'fa-exclamation-triangle', _t('Insert a warning banner'), 22),
             this._getBannerCommand(_t('Banner Danger'), '❌', 'danger', 'fa-exclamation-circle', _t('Insert a danger banner'), 21),
+=======
+        const categories = [...this._getBannerCategory()];
+        const commands = [
+            ...this._getBannerCommands(),
+>>>>>>> upstream/18.0
 =======
         const categories = [...this._getBannerCategory()];
         const commands = [

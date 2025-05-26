@@ -666,12 +666,18 @@ class AccountMove(models.Model):
                                          'If you still want to update it, you must first update the debit/credit note.'),
             'update_forbidden': _('You do not have the permission to update this invoice.'),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'search_date_invalid': _('The search params are invalid.'),  # Should never happen
 =======
+=======
+>>>>>>> upstream/18.0
             'document_not_found': _('The document provided in the request does not exist.'),  # Should never happen
             'search_date_invalid': _('The search params are invalid.'),  # Should also never happen
             'submission_too_large': _('The submission is too large, try to send fewer invoices at once.'),
             'action_forbidden': _('Permission to do this action has not been granted. Please ensure that Odoo has sufficient permissions on the MyInvois platform.'),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from collections import defaultdict
@@ -11,6 +12,8 @@ from OpenSSL.crypto import load_certificate, load_privatekey, FILETYPE_PEM
 
 from odoo import fields, models, _
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27,6 +30,9 @@ from odoo import _, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38,6 +44,7 @@ from odoo.exceptions import UserError
 from odoo.tools import html_escape, zeep
 from odoo.tools.float_utils import float_round
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,12 +66,16 @@ from odoo.addons.certificate.tools import CertificateAdapter
 =======
 from odoo.addons.certificate.tools import CertificateAdapter
 >>>>>>> upstream/18.0
+=======
+from odoo.addons.certificate.tools import CertificateAdapter
+>>>>>>> upstream/18.0
 
 # Custom patches to perform the WSDL requests.
 # Avoid failure on servers where the DH key is too small
 EUSKADI_CIPHERS = "DEFAULT:!DH"
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +118,8 @@ class PatchedHTTPAdapter(requests.adapters.HTTPAdapter):
         return conn
 
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,8 +190,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         recargo_tax_details = defaultdict(list)  # Mapping between main tax and recargo tax details
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -238,6 +254,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -282,6 +301,7 @@ class AccountEdiFormat(models.Model):
             if recargo_tax and taxes:
                 recargo_main_tax = taxes.filtered(lambda x: x.l10n_es_type in ('sujeto', 'sujeto_isp'))[:1]
                 aggregated_values = tax_details['tax_details_per_record'][line]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +368,8 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 recargo_values = next(iter(
                     values
                     for values in aggregated_values['tax_details'].values()
@@ -377,6 +399,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -804,7 +829,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         session.mount('https://', PatchedHTTPAdapter())
+=======
+        session.mount('https://', CertificateAdapter(ciphers=EUSKADI_CIPHERS))
+>>>>>>> upstream/18.0
 =======
         session.mount('https://', CertificateAdapter(ciphers=EUSKADI_CIPHERS))
 >>>>>>> upstream/18.0

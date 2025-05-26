@@ -75,7 +75,10 @@ class TestGetCurrentWebsite(HttpCaseWithUserDemo):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # CASE: Unicode domain (IDNA) support
@@ -89,6 +92,9 @@ class TestGetCurrentWebsite(HttpCaseWithUserDemo):
         self.assertEqual(Website._get_current_website_id('düsseldorf.com'), website2.id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

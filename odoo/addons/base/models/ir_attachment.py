@@ -548,6 +548,15 @@ class IrAttachment(models.Model):
             if public:
                 allowed_ids.add(id_)
                 continue
+<<<<<<< HEAD
+=======
+
+            if res_field and not self.env.is_system():
+                field = self.env[res_model]._fields[res_field]
+                if field.groups and not self.env.user.has_groups(field.groups):
+                    continue
+
+>>>>>>> upstream/18.0
             if not res_id and (self.env.is_system() or create_uid == self.env.uid):
                 allowed_ids.add(id_)
                 continue

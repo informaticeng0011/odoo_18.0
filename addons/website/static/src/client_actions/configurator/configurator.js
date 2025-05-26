@@ -347,7 +347,10 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -445,6 +448,9 @@ export class PaletteSelectionScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -933,7 +939,10 @@ export class Configurator extends Component {
             this.updateStorage(store);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (store.redirect_url) {
@@ -943,6 +952,9 @@ export class Configurator extends Component {
                 await this.action.doAction(store.redirect_url);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -995,6 +1007,10 @@ export class Configurator extends Component {
             logo: results.logo ? 'data:image/png;base64,' + results.logo : false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            redirect_url: results.redirect_url,
+>>>>>>> upstream/18.0
 =======
             redirect_url: results.redirect_url,
 >>>>>>> upstream/18.0

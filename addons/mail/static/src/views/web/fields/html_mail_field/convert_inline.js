@@ -570,7 +570,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`<table align="center" border="0"
+=======
+                    createMso(`<table align="center" border="0"
+>>>>>>> upstream/18.0
 =======
                     createMso(`<table align="center" border="0"
 >>>>>>> upstream/18.0
@@ -595,7 +599,11 @@ export function classToStyle(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`</td>
+=======
+                    createMso(`</td>
+>>>>>>> upstream/18.0
 =======
                     createMso(`</td>
 >>>>>>> upstream/18.0
@@ -695,7 +703,11 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _createMso(`
+=======
+                    createMso(`
+>>>>>>> upstream/18.0
 =======
                     createMso(`
 >>>>>>> upstream/18.0
@@ -713,11 +725,14 @@ function enforceTablesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 div.before(_createMso(`</td><td valign="top" style="width: ${width};">`));
             }
             if (index === tds.length - 1) {
                 div.after(_createMso(`</td></tr></table>`));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -728,6 +743,9 @@ function enforceTablesResponsivity(element) {
                 div.after(createMso(`</td></tr></table>`));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -857,7 +875,11 @@ function enforceImagesResponsivity(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(image.outerHTML));
+=======
+        image.before(createMso(image.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(image.outerHTML));
 >>>>>>> upstream/18.0
@@ -900,7 +922,11 @@ export async function toInline(element, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         image.before(_createMso(clone.outerHTML));
+=======
+        image.before(createMso(clone.outerHTML));
+>>>>>>> upstream/18.0
 =======
         image.before(createMso(clone.outerHTML));
 >>>>>>> upstream/18.0
@@ -990,7 +1016,11 @@ function flattenBackgroundImages(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             backgroundImage.after(_createMso(vml));
+=======
+            backgroundImage.after(createMso(vml));
+>>>>>>> upstream/18.0
 =======
             backgroundImage.after(createMso(vml));
 >>>>>>> upstream/18.0
@@ -1490,7 +1520,11 @@ function responsiveToStaticForOutlook(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         td.before(_createMso(outlookTd.outerHTML.replace("</td>", "")));
+=======
+        td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
+>>>>>>> upstream/18.0
 =======
         td.before(createMso(outlookTd.outerHTML.replace("</td>", "")));
 >>>>>>> upstream/18.0
@@ -1702,9 +1736,12 @@ function _createColumnGrid() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function _createMso(content = "") {
     return document.createComment(`[if mso]>${content}<![endif]`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1720,6 +1757,9 @@ export function createMso(content = "") {
     return document.createComment(`[if mso]>${contentToInsert}<![endif]`);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

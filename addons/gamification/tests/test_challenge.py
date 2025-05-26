@@ -186,7 +186,10 @@ class test_challenge(TestGamificationCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_40_create_challenge_with_sum_goal(self):
@@ -249,6 +252,9 @@ class test_challenge(TestGamificationCommon):
         self.assertEqual(goal.state, 'reached')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

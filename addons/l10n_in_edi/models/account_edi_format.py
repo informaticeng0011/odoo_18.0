@@ -254,7 +254,10 @@ class AccountEdiFormat(models.Model):
             message.append(_("- ZIP code required 6 digits ranging from 100000 to 999999"))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -263,6 +266,9 @@ class AccountEdiFormat(models.Model):
         ):
             message.append(_("- State TIN Number must be exactly 2 digits."))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

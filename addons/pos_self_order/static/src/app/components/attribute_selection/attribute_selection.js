@@ -136,7 +136,11 @@ export class AttributeSelection extends Component {
         const priceExtra = value.price_extra;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !floatIsZero(priceExtra, this.selfOrder.config.currency_decimals);
+=======
+        return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
+>>>>>>> upstream/18.0
 =======
         return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
 >>>>>>> upstream/18.0

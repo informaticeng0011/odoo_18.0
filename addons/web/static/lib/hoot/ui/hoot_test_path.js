@@ -53,8 +53,12 @@ export class HootTestPath extends Component {
                         <HootLink
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
+=======
+                            ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
 =======
                             ids="{ suite: suite.id }"
 >>>>>>> upstream/18.0

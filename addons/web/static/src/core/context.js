@@ -5,8 +5,11 @@ import { evaluate } from "./py_js/py_interpreter";
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{[key: string]: any}} Context
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
  * @typedef {{
@@ -16,6 +19,9 @@ import { evaluate } from "./py_js/py_interpreter";
  *  [key: string]: any;
  * }} Context
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

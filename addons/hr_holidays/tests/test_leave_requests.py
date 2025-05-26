@@ -510,7 +510,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(leave5.number_of_hours, 8)
+=======
+        self.assertEqual(leave5.number_of_hours, 10)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(leave5.number_of_hours, 10)
 >>>>>>> upstream/18.0
