@@ -58,8 +58,13 @@ registry.category("web_tour.tours").add('sale_product_configurator_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         configuratorTourUtils.addOptionalProduct("Conference Chair"),
         configuratorTourUtils.addOptionalProduct("Chair floor protection"),
+=======
+        configuratorTourUtils.addOptionalProduct("Conference Chair (TEST)"),
+        configuratorTourUtils.addOptionalProduct("Chair floor protection (TEST)"),
+>>>>>>> upstream/18.0
 =======
         configuratorTourUtils.addOptionalProduct("Conference Chair (TEST)"),
         configuratorTourUtils.addOptionalProduct("Chair floor protection (TEST)"),

@@ -22,7 +22,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78,6 +81,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 =======
 # gezza <geza.nagy@oregional.hu>, 2025
 >>>>>>> upstream/18.0
@@ -134,6 +141,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -205,6 +213,11 @@ msgstr ""
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -242,6 +255,15 @@ msgstr "Archivált"
 
 #. module: phone_validation
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+msgid "Are you sure you want to unblacklist this Phone Number?"
+msgstr ""
+
+#. module: phone_validation
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr ""
@@ -534,7 +556,11 @@ msgid "Phone Blacklisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon tiltólistán"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefon tiltólistán"
 >>>>>>> upstream/18.0
@@ -639,7 +665,11 @@ msgid "Sanitized Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Letisztított szám"
+>>>>>>> upstream/18.0
 =======
 msgstr "Letisztított szám"
 >>>>>>> upstream/18.0
@@ -715,6 +745,17 @@ msgid "User"
 msgstr "Felhasználó"
 
 #. module: phone_validation
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+msgid ""
+"You do not have the access right to unblacklist phone numbers. Please "
+"contact your administrator."
+msgstr ""
+
+#. module: phone_validation
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""
 msgstr ""

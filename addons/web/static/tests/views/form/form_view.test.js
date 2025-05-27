@@ -5336,7 +5336,12 @@ test(`switching to another record from a dirty one on desktop`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")("Save record, no changes but dirty (add and remove tag)", async () => {
+=======
+test.tags("desktop");
+test("Save record, no changes but dirty (add and remove tag)", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("Save record, no changes but dirty (add and remove tag)", async () => {
@@ -5429,6 +5434,7 @@ test("Save record, no changes but dirty (add and remove tag)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")(
     "switching to another record from a dirty record but wo changes (add and remove tag)",
     async () => {
@@ -5472,6 +5478,8 @@ test.tags("desktop")(
     }
 );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5545,6 +5553,9 @@ test("switching to another record from a dirty record but wo changes (add and re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9603,7 +9614,11 @@ test(`display tooltips for buttons (debug = true)`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -9783,7 +9798,10 @@ test(`Can switch to form view on inline tree`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9823,6 +9841,9 @@ test(`Can switch to form view on inline tree`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10084,7 +10105,11 @@ test(`proper stringification in debug mode tooltip`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -10162,7 +10187,11 @@ test(`field tooltip in debug mode, on field with domain attr`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -10232,7 +10261,11 @@ test(`do not display unset attributes in debug field tooltip`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -11484,7 +11517,11 @@ test(`help on field as precedence over field's declaration -- form`, async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -13089,7 +13126,12 @@ test("executing new action, closes dialog, and avoid reload previous view", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("mobile")(`pager is up to date`, async () => {
+=======
+test.tags("mobile");
+test(`pager is up to date`, async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("mobile");
 test(`pager is up to date`, async () => {

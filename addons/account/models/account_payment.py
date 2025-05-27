@@ -53,6 +53,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -414,7 +418,11 @@ class AccountPayment(models.Model):
             # default customer payment method logic
             partner = payment.partner_id
             payment_type = payment.payment_type if payment.payment_type in ('inbound', 'outbound') else None
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
                 field_name = f'property_{payment_type}_payment_method_line_id'
                 default_payment_method_line = payment.partner_id.with_company(payment.company_id)[field_name]
                 journal = default_payment_method_line.journal_id
@@ -423,10 +431,18 @@ class AccountPayment(models.Model):
                     continue
 
             company = payment.company_id or self.env.company
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
+=======
+            if not payment.journal_id or company != payment.journal_id.company_id:
+                payment.journal_id = self.env['account.journal'].search([
+                    *self.env['account.journal']._check_company_domain(company),
+                    ('type', 'in', ['bank', 'cash', 'credit']),
+                ], limit=1)
+>>>>>>> upstream/18.0
 
     @api.depends('journal_id')
     def _compute_company_id(self):
@@ -476,7 +492,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if move.currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) else
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
+>>>>>>> upstream/18.0
 =======
                     if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
 >>>>>>> upstream/18.0
@@ -1175,6 +1195,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -1336,6 +1360,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0

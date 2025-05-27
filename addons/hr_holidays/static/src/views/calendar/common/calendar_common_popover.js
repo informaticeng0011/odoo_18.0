@@ -28,6 +28,13 @@ export class TimeOffCalendarCommonPopover extends CalendarCommonPopover {
         return this.state !== undefined;
     }
 
+<<<<<<< HEAD
+=======
+    get canCancel() {
+        return this.record.can_cancel;
+    }
+
+>>>>>>> upstream/18.0
     async onClickButton(ev) {
         const args = (ev.target.name === "action_approve") ? [this.record.id, false] : [this.record.id];
         await this.orm.call("hr.leave", ev.target.name, args);

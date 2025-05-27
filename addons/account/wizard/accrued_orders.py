@@ -174,7 +174,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lambda l: l.display_type not in ['line_section', 'line_note'] and (is_purchase or not l.is_downpayment) and
+=======
+                    lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
+>>>>>>> upstream/18.0
 =======
                     lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
 >>>>>>> upstream/18.0

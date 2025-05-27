@@ -35,7 +35,11 @@ class TestPosQrCommon(AccountTestInvoicingHttpCommon):
         cls.company = cls.company_data['company']
         cls.pos_receivable_bank = cls.copy_account(cls.company.account_default_pos_receivable_account_id, {'name': 'POS Receivable Bank'})
         cls.outstanding_bank = cls.copy_account(cls.inbound_payment_method_line.payment_account_id, {'name': 'Outstanding Bank'})
+<<<<<<< HEAD
         cls.bank_pm = cls.env['pos.payment.method'].create({
+=======
+        cls.bank_pm = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
             'name': 'Bank',
             'journal_id': cls.company_data['default_journal_bank'].id,
             'receivable_account_id': cls.pos_receivable_bank.id,
@@ -43,7 +47,11 @@ class TestPosQrCommon(AccountTestInvoicingHttpCommon):
             'company_id': cls.company.id,
         })
 
+<<<<<<< HEAD
         cls.main_pos_config = cls.env['pos.config'].create({
+=======
+        cls.main_pos_config = cls.env['pos.config'].sudo().create({
+>>>>>>> upstream/18.0
             'name': 'Shop',
             'module_pos_restaurant': False,
             'journal_id': cls.company_data['default_journal_sale'].id,

@@ -85,7 +85,11 @@ class AccountChartTemplate(models.AbstractModel):
 
         # the invoice_extract acts like a placeholder for the OCR to be ran and doesn't contain
         # any lines yet
+<<<<<<< HEAD
         for move in invoices:
+=======
+        for move in invoices.filtered(lambda m: m.state == 'draft'):
+>>>>>>> upstream/18.0
             try:
                 move.action_post()
             except (UserError, ValidationError):

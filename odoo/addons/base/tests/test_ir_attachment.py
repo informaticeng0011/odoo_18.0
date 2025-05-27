@@ -11,6 +11,10 @@ import odoo
 from odoo.exceptions import AccessError
 from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
@@ -331,7 +335,10 @@ class TestPermissions(TransactionCaseWithUserDemo):
         attachment_admin.with_user(admin_user).datas
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @mute_logger("odoo.addons.base.models.ir_rule", "odoo.models")
     def test_field_read_permission(self):
         """If the record field can't be read,
@@ -358,6 +365,9 @@ class TestPermissions(TransactionCaseWithUserDemo):
         with self.assertRaises(AccessError):
             attachment.datas
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_with_write_permissions(self):
         """With write permissions to the linked record, attachment can be

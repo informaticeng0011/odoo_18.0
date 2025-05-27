@@ -22,6 +22,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
 # Maria Chalepiadou, 2025
 # Anastasia Mimou, 2025
@@ -125,6 +126,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Maria Chalepiadou, 2025
 # Anastasia Mimou, 2025
 # Charalampos Loukas, 2025
@@ -134,6 +137,9 @@
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146,6 +152,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +214,9 @@ msgstr ""
 =======
 "Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +231,11 @@ msgid "%(name)s Sequence repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Ακολουθία επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Ακολουθία επισκευής"
 >>>>>>> upstream/18.0
@@ -239,7 +253,11 @@ msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Ανεπαρκής Ποσότητα για Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Ανεπαρκής Ποσότητα για Επισκευή"
 >>>>>>> upstream/18.0
@@ -256,7 +274,11 @@ msgid "('Repair Order - %s' % (object.name))"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "('Εντολή Επισκευής - %s' % (object.name))"
+>>>>>>> upstream/18.0
 =======
 msgstr "('Εντολή Επισκευής - %s' % (object.name))"
 >>>>>>> upstream/18.0
@@ -273,7 +295,11 @@ msgid "(<i>Recycle</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Ανακύκλωση</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Ανακύκλωση</i>)"
 >>>>>>> upstream/18.0
@@ -290,7 +316,11 @@ msgid "(<i>Remove</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Αφαίρεση</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Αφαίρεση</i>)"
 >>>>>>> upstream/18.0
@@ -310,6 +340,14 @@ msgid ""
 "* The 'Repaired' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"* Η κατάσταση 'Νέα' χρησιμοποείται όταν ο χρήστης encoding μία νέα και μη επιβεβαιωμένη εντολή επισκευής.\n"
+"* Η κατάσταση 'Επιβεβαιωμένη' χρησιμοποείται όταν ο χρήστης επιβεβαιώνει την εντολή επισκευής.\n"
+"* Η κατάσταση 'Υπό Επισκευή' χρησιμοποείται όταν η επισκευή είναι σε εξέλιξη.\n"
+"* Η κατάσταση 'Επισκευασμένη' ορίζεται όταν η επισκευή ολοκληρωθεί.\n"
+"* Η κατάσταση 'Ακυρωμένη' χρησιμοποείται όταν ο χρήστης ακυρώσει την εντολή επισκευής."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -317,7 +355,11 @@ msgid "<i>(Add)</i>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i>(Προσθήκη)</i>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i>(Προσθήκη)</i>"
 >>>>>>> upstream/18.0
@@ -334,7 +376,11 @@ msgid "<span class=\"col-6\">Confirmed</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Επιβεβαιωμένη</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Επιβεβαιωμένη</span>"
 >>>>>>> upstream/18.0
@@ -348,7 +394,11 @@ msgstr "<span class=\"col-6\">Επιβεβαιωμένη</span>"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Late</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -356,7 +406,11 @@ msgid "<span class=\"col-6\">Under Repair</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Σε Επισκευή</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Σε Επισκευή</span>"
 >>>>>>> upstream/18.0
@@ -373,7 +427,11 @@ msgid "<span class=\"o_stat_text\">Done:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Ολοκληρωμένη:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Ολοκληρωμένη:</span>"
 >>>>>>> upstream/18.0
@@ -390,7 +448,11 @@ msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Επισκευασμένα Μέρη:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Επισκευασμένα Μέρη:</span>"
 >>>>>>> upstream/18.0
@@ -407,7 +469,11 @@ msgid "<span class=\"o_stat_text\">Sale Order</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Εντολή Πώλησης</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Εντολή Πώλησης</span>"
 >>>>>>> upstream/18.0
@@ -424,7 +490,11 @@ msgid "<span class=\"o_stat_text\">To Do:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Προς εκτέλεση:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Προς εκτέλεση:</span>"
 >>>>>>> upstream/18.0
@@ -441,7 +511,11 @@ msgid "<span>Orders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Εντολές</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Εντολές</span>"
 >>>>>>> upstream/18.0
@@ -458,7 +532,11 @@ msgid "<span>Repair Order #</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Εντολή Επισκευής #</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Εντολή Επισκευής #</span>"
 >>>>>>> upstream/18.0
@@ -475,7 +553,11 @@ msgid "<strong>Customer:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Πελάτης:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Πελάτης:</strong>"
 >>>>>>> upstream/18.0
@@ -492,7 +574,11 @@ msgid "<strong>Lot/Serial:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Lot/Σειριακός:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Lot/Σειριακός:</strong>"
 >>>>>>> upstream/18.0
@@ -509,7 +595,11 @@ msgid "<strong>Product:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Είδος:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Είδος:</strong>"
 >>>>>>> upstream/18.0
@@ -526,7 +616,11 @@ msgid "<strong>Responsible:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Υπεύθυνος:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Υπεύθυνος:</strong>"
 >>>>>>> upstream/18.0
@@ -543,7 +637,11 @@ msgid "<strong>Status:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Κατάσταση:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Κατάσταση:</strong>"
 >>>>>>> upstream/18.0
@@ -560,7 +658,11 @@ msgid "? This may lead to inconsistencies in your inventory."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
+>>>>>>> upstream/18.0
 =======
 msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
 >>>>>>> upstream/18.0
@@ -589,7 +691,11 @@ msgid "Action Needed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Απαιτείται ενέργεια"
+=======
+msgstr "Απαιτείται Eνέργεια"
+>>>>>>> upstream/18.0
 =======
 msgstr "Απαιτείται Eνέργεια"
 >>>>>>> upstream/18.0
@@ -662,7 +768,11 @@ msgid "Activity view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβολή Δραστηριότητας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβολή Δραστηριότητας"
 >>>>>>> upstream/18.0
@@ -689,7 +799,11 @@ msgid "Add internal notes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθήκη εσωτερικών σημειώσεων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσθήκη εσωτερικών σημειώσεων"
 >>>>>>> upstream/18.0
@@ -703,7 +817,11 @@ msgstr "Προσθήκη εσωτερικών σημειώσεων"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Προστιθέμενων Ανταλλακτικών"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__after
@@ -719,7 +837,11 @@ msgstr "Όλα"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_available
 msgid "All Parts are available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλα τα ανταλλακτικά είναι διαθέσιμα"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__allowed_lot_ids
@@ -727,7 +849,11 @@ msgid "Allowed Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρεπόμενο Lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρεπόμενο Lot"
 >>>>>>> upstream/18.0
@@ -741,17 +867,29 @@ msgstr "Επιτρεπόμενο Lot"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__reserve_visible
 msgid "Allowed to Reserve Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Δέσμευση για Παραγωγή"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__unreserve_visible
 msgid "Allowed to Unreserve Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Οποιοδήποτε Ανταλλακτικό έχει καθυστερήσει"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_attachment_count
@@ -772,7 +910,11 @@ msgid "Back to Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προς Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προς Επισκευή"
 >>>>>>> upstream/18.0
@@ -801,7 +943,11 @@ msgid "Can't find any production location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
 >>>>>>> upstream/18.0
@@ -818,7 +964,11 @@ msgid "Cancel Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ακύρωση Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ακύρωση Επισκευής"
 >>>>>>> upstream/18.0
@@ -841,7 +991,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάλογος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάλογος"
 >>>>>>> upstream/18.0
@@ -868,6 +1022,12 @@ msgid ""
 "Choose partner for whom the order will be invoiced and delivered. You can "
 "find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Επιλέξτε τον συνεργάτη στον οποίο θα τιμολογηθεί και θα παραδοθεί η "
+"παραγγελία. Μπορείτε να βρείτε ένα συνεργάτη από το Όνομα, το ΑΦΜ, το Email "
+"ή τον Εσωτερικό Κωδικό."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_tags__color
@@ -878,6 +1038,7 @@ msgstr "Χρωματισμός Ευρετήριου"
 #: model:ir.model.fields,field_description:repair.field_repair_order__company_id
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
 msgid "Company"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +1100,9 @@ msgstr "Εταιρεία"
 =======
 msgstr "Εταιρεία"
 >>>>>>> upstream/18.0
+=======
+msgstr "Εταιρεία"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
@@ -946,7 +1110,11 @@ msgid "Component Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Συστατικού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Προορισμού Συστατικού"
 >>>>>>> upstream/18.0
@@ -964,7 +1132,11 @@ msgid "Component Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προέλευσης Συστατικού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Προέλευσης Συστατικού"
 >>>>>>> upstream/18.0
@@ -981,7 +1153,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Συστατικού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάσταση Συστατικού"
 >>>>>>> upstream/18.0
@@ -1026,7 +1202,11 @@ msgid "Create Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία προσφοράς"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δημιουργία προσφοράς"
 >>>>>>> upstream/18.0
@@ -1046,7 +1226,11 @@ msgid "Create Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δημιουργία επισκευής"
 >>>>>>> upstream/18.0
@@ -1063,7 +1247,11 @@ msgid "Create Repair Orders from Returns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία Εντολών Επισκευής  από Επιστροφές"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δημιουργία Εντολών Επισκευής  από Επιστροφές"
 >>>>>>> upstream/18.0
@@ -1080,6 +1268,11 @@ msgstr "Δημιουργία Εντολών Επισκευής  από Επισ�
 msgid ""
 "Create a linked Repair Order on Sale Order confirmation of this product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Δημιουργία συνδεδεμένης Εντολής Επισκευής κατά την επιβεβαίωση Εντολής "
+"Πώλησης αυτού του προϊόντος."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tag
@@ -1112,7 +1305,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία Κατηγορίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ημερομηνία Κατηγορίας"
 >>>>>>> upstream/18.0
@@ -1129,7 +1326,11 @@ msgid "Demand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ζήτηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ζήτηση"
 >>>>>>> upstream/18.0
@@ -1161,7 +1362,11 @@ msgstr "Εμφάνιση Ονόματος"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
 msgid "Do you confirm you want to repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιβεβαιώνετε ότι θέλετε να γίνει επισκευή"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -1174,7 +1379,11 @@ msgid "End Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τέλος Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τέλος Επισκευής"
 >>>>>>> upstream/18.0
@@ -1201,6 +1410,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
+"σας."
+>>>>>>> upstream/18.0
 =======
 "Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
 "σας."
@@ -1254,7 +1468,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Exp %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exp %s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__parts_availability_state__expected
@@ -1282,6 +1500,12 @@ msgid ""
 "For some of the parts, there is a difference between the initial demand and "
 "the actual quantity that was used. Are you sure you want to confirm ?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Για κάποια ανταλλακτικά, υπάρχει διαφορά ανάμεσα μεταξύ της αρχικής ζήτησης "
+"και της πραγματικής ποσότητας που χρησιμοποιήθηκε. Είστε σίγουροι ότι θέλετε"
+" να επιβεβαιώσετε ;"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -1298,7 +1522,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Πρόβλεψης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Πρόβλεψης"
 >>>>>>> upstream/18.0
@@ -1342,7 +1570,11 @@ msgid "Forecasted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβλεπόμενες"
 >>>>>>> upstream/18.0
@@ -1374,7 +1606,11 @@ msgid "Has Uncomplete Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Έχει μη Ολοκληρωμένες Κινήσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Έχει μη Ολοκληρωμένες Κινήσεις"
 >>>>>>> upstream/18.0
@@ -1422,6 +1658,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Αν επιλεχθεί, η τιμή πώλησης, όλων των ειδών που μεταφέρθηκαν από την εντολή"
+" επισκευής, θα γίνει μηδέν."
+>>>>>>> upstream/18.0
 =======
 "Αν επιλεχθεί, η τιμή πώλησης, όλων των ειδών που μεταφέρθηκαν από την εντολή"
 " επισκευής, θα γίνει μηδέν."
@@ -1443,6 +1684,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Αν επιλεχθεί, θα μπορείτε να δημιουργείτε εντολή επισκευής από επιστροφή."
+>>>>>>> upstream/18.0
 =======
 "Αν επιλεχθεί, θα μπορείτε να δημιουργείτε εντολή επισκευής από επιστροφή."
 >>>>>>> upstream/18.0
@@ -1460,11 +1705,21 @@ msgid ""
 "                add or replace and record the time you spent on the different\n"
 "                operations."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Σε μία εντολή επισκευής, μπορείτε να καταγράψετε τα εξαρτήματα που αφαιρείτε,\n"
+"                προσθέτετε ή αντικαθιστάτε και να καταγράψετε το χρόνο που αφιερώσατε στις διαφορετικές\n"
+"                εργασίες."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__in_repair_count
 msgid "In repair count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός υπό επισκευή"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.product_view_search_catalog
@@ -1472,7 +1727,11 @@ msgid "In the Repair Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Στην Εντολή Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Στην Εντολή Επισκευής"
 >>>>>>> upstream/18.0
@@ -1489,7 +1748,11 @@ msgid "Internal Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Εσωτερικά Σημειώματα"
+=======
+msgstr "Εσωτερικές Σημειώσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εσωτερικές Σημειώσεις"
 >>>>>>> upstream/18.0
@@ -1506,7 +1769,11 @@ msgid "Inventory Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κίνηση Αποθέματος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κίνηση Αποθέματος"
 >>>>>>> upstream/18.0
@@ -1523,7 +1790,11 @@ msgid "Inventory Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κινήσεις Αποθεμάτων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κινήσεις Αποθεμάτων"
 >>>>>>> upstream/18.0
@@ -1545,7 +1816,11 @@ msgid "Is Repairable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Είναι Επισκευάσιμο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Είναι Επισκευάσιμο"
 >>>>>>> upstream/18.0
@@ -1562,7 +1837,11 @@ msgid "Jane Smith"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jane Smith"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jane Smith"
 >>>>>>> upstream/18.0
@@ -1579,7 +1858,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -1596,7 +1879,11 @@ msgid "L12345"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L12345"
+>>>>>>> upstream/18.0
 =======
 msgstr "L12345"
 >>>>>>> upstream/18.0
@@ -1613,7 +1900,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -1655,6 +1946,11 @@ msgid ""
 "Latest parts availability status for this RO. If green, then the RO's "
 "readiness status is ready."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Τελευταία κατάσταση διαθεσιμότητας ανταλλακτικών γι' αυτή την εντολή "
+"επισκευής. Αν είναι πράσινη, τότε η εντολή είναι έτοιμη."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__location_id
@@ -1726,7 +2022,11 @@ msgid "No repair order found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν βρέθηκε εντολή επισκευής. Δημιουργία νέας!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν βρέθηκε εντολή επισκευής. Δημιουργία νέας!"
 >>>>>>> upstream/18.0
@@ -1749,7 +2049,11 @@ msgid "Not Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μη Διαθέσιμη"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μη Διαθέσιμη"
 >>>>>>> upstream/18.0
@@ -1766,6 +2070,11 @@ msgstr "Μη Διαθέσιμη"
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Σημειώστε ότι οι αποθήκες των τοποθεσιών επιστροφής και επισκευής δεν "
+"ταιριάζουν!"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__message_needaction_counter
@@ -1775,7 +2084,11 @@ msgstr "Πλήθος ενεργειών"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_late
 msgid "Number of Late Repair Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Καθυστερημένων Εντολών Επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_confirmed
@@ -1783,7 +2096,11 @@ msgid "Number of Repair Orders Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Επιβεβαιωμένων Εντολών Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Επιβεβαιωμένων Εντολών Επισκευής"
 >>>>>>> upstream/18.0
@@ -1800,7 +2117,11 @@ msgid "Number of Repair Orders Under Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Εντολών Επισκευής Υπό Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Εντολών Επισκευής Υπό Επισκευή"
 >>>>>>> upstream/18.0
@@ -1817,7 +2138,11 @@ msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Εντολών Επισκευής Προς Επεξεργασία "
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Εντολών Επισκευής Προς Επεξεργασία "
 >>>>>>> upstream/18.0
@@ -1849,7 +2174,11 @@ msgid "Number of repairs linked to this picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός επισκευών συνδεδεμένων με αυτή την συλλογή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός επισκευών συνδεδεμένων με αυτή την συλλογή"
 >>>>>>> upstream/18.0
@@ -1897,12 +2226,20 @@ msgstr "Επισκόπηση"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Parts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ανταλλακτικά"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability_state
 msgid "Parts Availability State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Διαθεσιμότητας Ανταλλακτικών"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -1912,7 +2249,11 @@ msgstr "Εκρεμμής"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_product_ids
 msgid "Picking Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συλλογή Είδους"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_picking_type
@@ -1943,7 +2284,11 @@ msgid "Product A"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Είδος A"
+>>>>>>> upstream/18.0
 =======
 msgstr "Είδος A"
 >>>>>>> upstream/18.0
@@ -1960,7 +2305,11 @@ msgid "Product B"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Είδος B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Είδος B"
 >>>>>>> upstream/18.0
@@ -1974,7 +2323,11 @@ msgstr "Είδος B"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_product_product__product_catalog_product_is_in_repair
 msgid "Product Catalog Product Is In Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Το Είδος Του Kαταλόγου Είναι Σε Επισκευή"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_location_dest_id
@@ -1983,7 +2336,11 @@ msgid "Product Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Είδους"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Προορισμού Είδους"
 >>>>>>> upstream/18.0
@@ -2016,7 +2373,11 @@ msgid "Product Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προης Είδους"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Προης Είδους"
 >>>>>>> upstream/18.0
@@ -2030,7 +2391,11 @@ msgstr "Τοποθεσία Προης Είδους"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
 msgid "Product Tracking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παρακολούθηση Είδους"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_uom
@@ -2060,7 +2425,11 @@ msgstr "Είδη"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__lot_id
 msgid "Products repaired are all belonging to this lot"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τα είδη που επισκευάστηκαν, ανήκουν όλα σε αυτό το lot"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_properties
@@ -2085,7 +2454,11 @@ msgid "RO123456"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RO123456"
+>>>>>>> upstream/18.0
 =======
 msgstr "RO123456"
 >>>>>>> upstream/18.0
@@ -2113,7 +2486,11 @@ msgid "Recycle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ανακύκλωση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ανακύκλωση"
 >>>>>>> upstream/18.0
@@ -2130,7 +2507,11 @@ msgid "Recycle Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Ανακύκλωσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Προορισμού Ανακύκλωσης"
 >>>>>>> upstream/18.0
@@ -2144,7 +2525,11 @@ msgstr "Τοποθεσία Προορισμού Ανακύκλωσης"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__recycle_location_id
 msgid "Recycled Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Ανακυκλωμένων Ανταλλακτικών"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__remove
@@ -2157,7 +2542,11 @@ msgid "Remove Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αφαίρεση Τοποθεσίας Προορισμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αφαίρεση Τοποθεσίας Προορισμού"
 >>>>>>> upstream/18.0
@@ -2171,7 +2560,11 @@ msgstr "Αφαίρεση Τοποθεσίας Προορισμού"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Προορισμού Αφαιρεθέντων Ανταλλακτικών"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_move__repair_id
@@ -2183,7 +2576,11 @@ msgid "Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επισκευή"
 >>>>>>> upstream/18.0
@@ -2197,7 +2594,11 @@ msgstr "Επισκευή"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κανόνας Επισκευής Κατόπιν Παραγγελίας (MTO)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -2206,7 +2607,11 @@ msgid "Repair Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Σημειώσεις Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Σημειώσεις Επισκευής"
 >>>>>>> upstream/18.0
@@ -2220,7 +2625,11 @@ msgstr "Σημειώσεις Επισκευής"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τύπος Ενέργειας Επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.actions.report,name:repair.action_report_repair_order
@@ -2232,7 +2641,11 @@ msgid "Repair Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολή Επισκευής"
 >>>>>>> upstream/18.0
@@ -2249,7 +2662,11 @@ msgid "Repair Order(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή(ες) Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολή(ες) Επισκευής"
 >>>>>>> upstream/18.0
@@ -2278,7 +2695,11 @@ msgid "Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολές Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολές Επισκευής"
 >>>>>>> upstream/18.0
@@ -2295,7 +2716,11 @@ msgid "Repair Orders Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ετικέτες Εντολών Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ετικέτες Εντολών Επισκευής"
 >>>>>>> upstream/18.0
@@ -2312,7 +2737,11 @@ msgid "Repair Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επισκόπηση Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επισκόπηση Επισκευής"
 >>>>>>> upstream/18.0
@@ -2329,7 +2758,11 @@ msgid "Repair Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ιδιότητες Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ιδιότητες Επισκευής"
 >>>>>>> upstream/18.0
@@ -2343,7 +2776,11 @@ msgstr "Ιδιότητες Επισκευής"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__name
 msgid "Repair Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_request
@@ -2351,7 +2788,11 @@ msgid "Repair Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αίτημα Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αίτημα Επισκευής"
 >>>>>>> upstream/18.0
@@ -2368,7 +2809,11 @@ msgid "Repair Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπηρεσίες Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υπηρεσίες Επισκευής"
 >>>>>>> upstream/18.0
@@ -2386,7 +2831,11 @@ msgid "Repair Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ετικέτες Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ετικέτες Επισκευής"
 >>>>>>> upstream/18.0
@@ -2402,17 +2851,29 @@ msgstr "Ετικέτες Επισκευής"
 #: code:addons/repair/models/repair.py:0
 msgid "Repair must be under repair in order to end reparation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Η επισκευή πρέπει να είναι σε κατάσταση υπό επισκευή για να ολοκληρωθεί.  "
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/stock_lot.py:0
 msgid "Repair orders of %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολές επισκευής του %s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_part_count
 msgid "Repair part count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός ανταλλακτικών επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__done
@@ -2433,7 +2894,11 @@ msgid "Repaired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επισκευές"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επισκευές"
 >>>>>>> upstream/18.0
@@ -2486,7 +2951,11 @@ msgid "Repaired count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Επισκευασμένων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Επισκευασμένων"
 >>>>>>> upstream/18.0
@@ -2518,7 +2987,11 @@ msgstr "Εντολή Επισκευής"
 #. odoo-python
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "Replenish on Order (MTO)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναπλήρωση Κατόπιν Παραγγελίας (MTO)"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.ui.menu,name:repair.repair_menu_reporting
@@ -2547,7 +3020,11 @@ msgid "Return Order from which the product to be repaired comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή Επισκευής από την οποία προέρχεται το είδος προς επισκευή."
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολή Επισκευής από την οποία προέρχεται το είδος προς επισκευή."
 >>>>>>> upstream/18.0
@@ -2561,7 +3038,11 @@ msgstr "Εντολή Επισκευής από την οποία προέρχε�
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__return_type_of_ids
 msgid "Return Type Of"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τύπος Επιστροφής του"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_returned
@@ -2591,7 +3072,11 @@ msgid "Sale Order Line Description."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Περιγραφή Γραμμής Εντολής Πώλησης."
+>>>>>>> upstream/18.0
 =======
 msgstr "Περιγραφή Γραμμής Εντολής Πώλησης."
 >>>>>>> upstream/18.0
@@ -2605,12 +3090,20 @@ msgstr "Περιγραφή Γραμμής Εντολής Πώλησης."
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_line_id
 msgid "Sale Order Line from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Εντολής Πώλησης από την οποία προέρχεται η Εντολή Επισκευής."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_id
 msgid "Sale Order from which the Repair Order comes from."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή Πώλησης από την οποία προέρχεται η Εντολή Επισκευής."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model,name:repair.model_sale_order
@@ -2633,7 +3126,11 @@ msgid "Search Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναζήτηση Εντολών Επισκευής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναζήτηση Εντολών Επισκευής"
 >>>>>>> upstream/18.0
@@ -2648,7 +3145,11 @@ msgstr "Αναζήτηση Εντολών Επισκευής"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ο σειριακός αριθμός απαιτείται για την επισκευή του είδους : %s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -2665,7 +3166,11 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Start Repair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Έναρξη Επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__state
@@ -2717,12 +3222,20 @@ msgstr "Ετικέτες"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__reserve_visible
 msgid "Technical field to check when we can reserve quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν ποσότητες"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__unreserve_visible
 msgid "Technical field to check when we can unreserve"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορεί να γίνει αποδέσμευση"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__search_date_category__day_2
@@ -2731,7 +3244,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μεθαύριο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μεθαύριο"
 >>>>>>> upstream/18.0
@@ -2749,6 +3266,11 @@ msgid ""
 "The product unit of measure you chose has a different category than the "
 "product unit of measure."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Η μονάδα μέτρησης του είδους που επιλέξατε έχει διαφορετική κατηγορία από "
+"την μονάδα μέτρησης του είδους."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -2756,7 +3278,11 @@ msgid "This is a repair note."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτό είναι μία σημείωση επισκευής."
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτό είναι μία σημείωση επισκευής."
 >>>>>>> upstream/18.0
@@ -2773,6 +3299,11 @@ msgid ""
 "This is the default destination location for the product to be repaired in "
 "repair orders with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αυτή είναι η προεπιλεγμένη τοποθεσία προορισμού για το είδος προς επισκευή "
+"σε εντολές επισκευής με αυτόν τον τύπο ενέργειας."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_recycle_location_dest_id
@@ -2780,6 +3311,11 @@ msgid ""
 "This is the default recycle destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αυτή είναι η προεπιλεγμένη τοποθεσία προορισμού ανακύκλωσης όταν "
+"δημιουργείται μία εντολή επισκευής με αυτόν τον τύπο ενέργειας."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_remove_location_dest_id
@@ -2787,6 +3323,12 @@ msgid ""
 "This is the default remove destination location when you create a repair "
 "order with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αυτή είναι η προεπιλεγμένη τοποθεσία προορισμού για τα αφαιρεθέντα "
+"εξαρτήματα όταν δημιουργείται μία εντολή επισκευής με αυτόν τον τύπο "
+"ενέργειας."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
@@ -2794,29 +3336,51 @@ msgid ""
 "This is the default source location for the product to be repaired in repair"
 " orders with this operation type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αυτή είναι η προεπιλεγμένη τοποθεσία προέλευσης για το είδος προς επισκευή "
+"σε εντολές επισκευής με αυτόν τον τύπο ενέργειας."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_id
 msgid ""
 "This is the location where the components of product to repair is located."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αυτή είναι η τοποθεσία όπου βρίσκονται τα εξαρτήματα του είδους προς "
+"επισκευή."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_src_id
 msgid "This is the location where the product to repair is located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτή είναι η τοποθεσία στην οποία βρίσκονται τα είδη προς επισκευή. "
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__parts_location_id
 #: model:ir.model.fields,help:repair.field_repair_order__recycle_location_id
 msgid "This is the location where the repair parts are located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτή είναι η τοποθεσία όπου βρίσκονται τα εξαρτήματα επισκευής."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__location_dest_id
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_dest_id
 msgid "This is the location where the repaired product is located."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτή είναι η τοποθεσία στην οποία βρίσκονται τα επισκευασμένα είδη. "
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
@@ -2824,7 +3388,11 @@ msgid "To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προς Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προς Επισκευή"
 >>>>>>> upstream/18.0
@@ -2858,7 +3426,11 @@ msgid "Traceability Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Ιχνηλασιμότητας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Ιχνηλασιμότητας"
 >>>>>>> upstream/18.0
@@ -2880,6 +3452,11 @@ msgid ""
 "True if this repair is linked to a Return Order and the order is 'Done'. "
 "False otherwise."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Αληθές αν η επισκευή είναι συνδεδεμένη με Εντολή Επιστροφής και η εντολή "
+"είναι 'Ολοκληρωμένη'. Ψευδές σε άλλη περίπτωση."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_move__repair_line_type
@@ -2903,7 +3480,11 @@ msgid "Under Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Σε Επισκευή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Σε Επισκευή"
 >>>>>>> upstream/18.0
@@ -2920,7 +3501,11 @@ msgid "Under Warranty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Σε Εγγύηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Σε Εγγύηση"
 >>>>>>> upstream/18.0
@@ -2944,7 +3529,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μονάδες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μονάδες"
 >>>>>>> upstream/18.0
@@ -2971,7 +3560,11 @@ msgid "Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρησιμοποιημένα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρησιμοποιημένα"
 >>>>>>> upstream/18.0
@@ -2990,7 +3583,11 @@ msgstr "Αποθήκη"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_warn_insufficient_qty_repair
 msgid "Warn Insufficient Repair Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προιδοποίηση για Μη Επαρκή Ποσότητα Επισκευής"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3021,7 +3618,11 @@ msgid "You can not enter negative quantities."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν μπορείτε να εισάγετε αρνητικές ποσότητες."
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν μπορείτε να εισάγετε αρνητικές ποσότητες."
 >>>>>>> upstream/18.0
@@ -3037,6 +3638,10 @@ msgstr "Δεν μπορείτε να εισάγετε αρνητικές ποσ�
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Δεν μπορείτε να ακυρώσετε μία Εντολή Επισκευής που έχει ήδη ολοκληρωθεί."
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3046,6 +3651,12 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Δεν μπορείτε να δημιουργήσετε προσφορά για εντολή επισκευής η οποία είναι ήδη συνδεδεμένη σε υφιστάμενη εντολή πώλησης.\n"
+"Σχετική(ές) εντολή(ές) επισκευης:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3055,6 +3666,12 @@ msgid ""
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Πρέπει να ορίσετε πελάτη σε μία εντολή επισκευής ώστε να δημιουργηθεί η σχετική προσφορά.\n"
+"Σχετική(ες) εντολή(ές) επισκευής:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
@@ -3062,7 +3679,11 @@ msgid "from location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "από τοποθεσία"
+>>>>>>> upstream/18.0
 =======
 msgstr "από τοποθεσία"
 >>>>>>> upstream/18.0
@@ -3076,4 +3697,8 @@ msgstr "από τοποθεσία"
 #. module: repair
 #: model:ir.actions.server,name:repair.action_repair_overview
 msgid "stock.repair.type.overview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stock.repair.type.overview"
+>>>>>>> upstream/18.0

@@ -6,6 +6,10 @@ import { _t } from "@web/core/l10n/translation";
 import { Input } from "@point_of_sale/app/generic_components/inputs/input/input";
 import { parseFloat } from "@web/views/fields/parsers";
 import { Dialog } from "@web/core/dialog/dialog";
+<<<<<<< HEAD
+=======
+import { RPCError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 
 class CustomDialog extends Dialog {
     onEscape() {}
@@ -33,6 +37,7 @@ export class OpeningControlPopup extends Component {
         this.ui = useService("ui");
     }
     async confirm() {
+<<<<<<< HEAD
         await this.pos.data.call(
             "pos.session",
             "set_opening_control",
@@ -40,6 +45,26 @@ export class OpeningControlPopup extends Component {
             {},
             true
         );
+=======
+        try {
+            await this.pos.data.call(
+                "pos.session",
+                "set_opening_control",
+                [this.pos.session.id, parseFloat(this.state.openingCash), this.state.notes],
+                {},
+                true
+            );
+        } catch (error) {
+            if (
+                error instanceof RPCError &&
+                error.data.name === "odoo.exceptions.MissingError" &&
+                (await this.pos.isSessionDeleted())
+            ) {
+                return window.location.reload();
+            }
+            throw error;
+        }
+>>>>>>> upstream/18.0
         this.pos.session.state = "opened";
         this.props.close();
     }

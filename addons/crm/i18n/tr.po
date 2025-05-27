@@ -26,6 +26,7 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Nadir Gazioglu <nadirgazioglu@gmail.com>, 2024
 # Ozlem Cikrikci <ozlemc@eskayazilim.com.tr>, 2024
+<<<<<<< HEAD
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
 # Halil, 2024
@@ -80,6 +81,15 @@
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
+=======
+# Halil, 2024
+# Ediz Duman <neps1192@gmail.com>, 2024
+# Levent Karakaş <levent@mektup.at>, 2024
+# Cengiz Cokay Global Nonwoven, 2025
+# Melih Melik Sonmez, 2025
+# Hakan Türkün, 2025
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -87,6 +97,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,6 +146,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -263,6 +277,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-star me-1\" aria-label=\"Opportunities\" role=\"img\" "
+"title=\"Fırsatlar\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-star me-1\" aria-label=\"Opportunities\" role=\"img\" "
 "title=\"Fırsatlar\"/>"
@@ -330,6 +349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                                Uzantıyı Yükleyin"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                                Uzantıyı Yükleyin"
@@ -480,6 +504,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span> bu ay  atanmış olan\n"
+"                            müşteri adayları, en fazla </span>"
+>>>>>>> upstream/18.0
 =======
 "<span> bu ay  atanmış olan\n"
 "                            müşteri adayları, en fazla </span>"
@@ -560,7 +589,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -599,6 +631,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -710,8 +745,13 @@ msgstr ""
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
+<<<<<<< HEAD
 "                    <span style=\"font-size: 10px;\">Adayınız/Fırsatınız</span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Ürünlerinize ilgisi</span>\n"
+=======
+"                    <span style=\"font-size: 10px;\">Müşteri Adayınız/Fırsatınız</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Ürünlerinize gösterilen ilgi</span>\n"
+>>>>>>> upstream/18.0
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <img t-attf-src=\"/logo.png?company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
 "                </td></tr>\n"
@@ -729,6 +769,7 @@ msgstr ""
 "                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                        <div>\n"
 "                            Merhaba <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
+<<<<<<< HEAD
 "                             <t t-out=\"object.company_id.name or ''\">Şirketim (San Francisco)</t> hoşgeldiniz.\n"
 "                            Sizinle tanışmaktan mutluluk duyarız! Bu sayede <t t-out=\"object.company_id.name or ''\">Şirketim (San Francisco)</t> sunacaklarını keşfedebileceksiniz. Benim adım <t t-out=\"object.user_id.name or ''\">Marc Demo</t> ve Odoo'dan en iyi şekilde faydalanabilmeniz için yardımcı olacağım. Kısa bir demo düzenleyebilir miyiz?<br/>\n"
 "                            Lütfen istediğiniz zaman benimle temasa geçiniz!<br/><br/>\n"
@@ -737,6 +778,16 @@ msgstr ""
 "                                <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
 "                                <br/>E-posta: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t>\n"
 "                                Tel: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
+=======
+"                            <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>'ya hoş geldiniz.\n"
+"                            Sizinle tanışmak harika! Artık aramızda olduğunuza göre <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>'nin size sunduklarını keşfedebilirsiniz. Benim adım <t t-out=\"object.user_id.name or ''\">Marc Demo</t> ve Odoo'dan en iyi şekilde yararlanmanıza yardımcı olacağım. Yakın zaman için kısa bir demo planlayabilir miyiz?<br/>\n"
+"                            Bizimle dilediğiniz zaman iletişime geçebilirsiniz!<br/><br/>\n"
+"                            Saygılarımızla,<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
+"                                <br/>E-posta adresi: <t t-out=\"object.user_id.email or ''\">mark.brown23@example.com</t>\n"
+"                                <br/>Telefon numarası: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
+>>>>>>> upstream/18.0
 "                            </t>\n"
 "                            <t t-else=\"\">\n"
 "                                <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>\n"
@@ -747,11 +798,19 @@ msgstr ""
 "            </table>\n"
 "        </td>\n"
 "    </tr>\n"
+<<<<<<< HEAD
 "    <!-- ALTBİLGİ -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
 "            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
 "            <b t-out=\"object.company_id.name or ''\">Şirketim (San Francisco)</b><br/>\n"
+=======
+"    <!-- ALT BAŞLIK -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">My Company (San Francisco)</b><br/>\n"
+>>>>>>> upstream/18.0
 "            <div style=\"color: #999999;\">\n"
 "                <t t-out=\"object.company_id.phone or ''\">+1 650-123-4567</t>\n"
 "                <t t-if=\"object.company_id.email\">\n"
@@ -766,9 +825,15 @@ msgstr ""
 "</tbody>\n"
 "</table>\n"
 "</td></tr>\n"
+<<<<<<< HEAD
 "<!-- HAZIRLAYAN -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>tarafından hazırlanmıştır\n"
+=======
+"<!-- DESTEKLEYEN -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"     <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a> tarafından desteklenmektedir\n"
+>>>>>>> upstream/18.0
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -791,11 +856,20 @@ msgid ""
 " Click on the grey area of the progress bar to see all opportunities that "
 "have no next activity."
 msgstr ""
+<<<<<<< HEAD
 "Satış etkinliğini artırmak için iyi bir ipucu da her fırsatta bir sonraki "
 "adımı tanımlamaktır. Süregelen aktiviteleri yönetmek için, durum çubuğunda "
 "herhangi bir yere tıklayarak bir sonraki aktivitelerinin durumuna göre "
 "fırsatları filtreleyin. Durum çubuğunda gri bir aralana tıklayarak bir "
 "sonraki aktivitesi olmayan tüm fırsatları görebilirsiniz. "
+=======
+"Her fırsat için bir sonraki adımı hep tanımlamak, satış verimliliğini "
+"artırmak için harika bir ipucudur. Devam eden faaliyetleri yönetmek için "
+"ilerleme çubuğu üzerindeki herhangi bir duruma tıklayarak fırsatları sonraki"
+" faaliyetlerinin durumuna göre filtreleyebilirsiniz. Bir sonraki faaliyet "
+"aşaması olmayan tüm fırsatları görmek için ilerleme çubuğunda bulunan gri "
+"alana tıklayın."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -813,7 +887,11 @@ msgid "A new lead has been created and is not assigned to any team."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni bir müşteri adayı oluşturuldu ve herhangi bir ekibe atanmadı."
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni bir müşteri adayı oluşturuldu ve herhangi bir ekibe atanmadı."
 >>>>>>> upstream/18.0
@@ -867,7 +945,11 @@ msgid "A new lead has been created for the team \"%(team_name)s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekip için yeni bir lider oluşturuldu: \"%(team_name)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekip için yeni bir lider oluşturuldu: \"%(team_name)s\"."
 >>>>>>> upstream/18.0
@@ -970,6 +1052,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Müşteri Adaylarında Yapıldı olarak işaretlenen faaliyetler burada görünecek "
+"ve müşteri adayı etkileşimlerine genel bir bakış sağlayacaktır."
+>>>>>>> upstream/18.0
 =======
 "Müşteri Adaylarında Yapıldı olarak işaretlenen faaliyetler burada görünecek "
 "ve müşteri adayı etkileşimlerine genel bir bakış sağlayacaktır."
@@ -1084,6 +1171,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Faaliyet planları, sadece birkaç tıklamayla bir faaliyet listesi atamak için kullanılır\n"
+"                    (örn.: \"Demo Hazırlık Süreci\", \"Nitelendirme\", ...)"
+>>>>>>> upstream/18.0
 =======
 "Faaliyet planları, sadece birkaç tıklamayla bir faaliyet listesi atamak için kullanılır\n"
 "                    (örn.: \"Demo Hazırlık Süreci\", \"Nitelendirme\", ...)"
@@ -1245,7 +1337,11 @@ msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should <a name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
 msgstr ""
+<<<<<<< HEAD
 "Hiçbir Satış Ekibinin üyesi olmadığınız için, <b>varsayılan olarak ilk takımın</b> Fırsat Havuzu gösterilir.\n"
+=======
+"Herhangi bir Satış Ekibi üyesi olmadığınız için, size <b>varsayılan olarak ilk ekibin pipeline'ı gösterilir.</b>\n"
+>>>>>>> upstream/18.0
 "                                        CRM ile çalışmak için <a name=\"%d\" type=\"action\" tabindex=\"-1\">bir ekibe katılmalısınız.</a>"
 
 #. module: crm
@@ -1255,7 +1351,11 @@ msgid ""
 "As you are a member of no Sales Team, you are showed the Pipeline of the <b>first team by default.</b>\n"
 "                                        To work with the CRM, you should join a team."
 msgstr ""
+<<<<<<< HEAD
 "Hiçbir Satış Ekibinin üyesi olmadığınız için, <b>varsayılan olarak ilk takımın</b> Fırsat Havuzu gösterilir.\n"
+=======
+"Herhangi bir Satış Ekibi üyesi olmadığınız için, size <b>varsayılan olarak ilk ekibin pipeline'ı gösterilir.</b>\n"
+>>>>>>> upstream/18.0
 "                                        CRM ile çalışmak için bir ekibe katılmalısınız."
 
 #. module: crm
@@ -1460,6 +1560,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Satış sürecinizdeki darboğazları belirlemek için Müşteri Adayı Aşama "
+"İzleyicisini kontrol edin."
+>>>>>>> upstream/18.0
 =======
 "Satış sürecinizdeki darboğazları belirlemek için Müşteri Adayı Aşama "
 "İzleyicisini kontrol edin."
@@ -1515,8 +1620,14 @@ msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
+<<<<<<< HEAD
 "Gelen adayları filtrelemek ve nitelendirmek için, bunları fırsata "
 "dönüştürmeden ve satış temsilcisine atanmadan önce bu kutuyu işaretleyin."
+=======
+"Gelen talepleri fırsatlara dönüştürüp bir satış elemanına atamadan önce "
+"müşteri adayı olarak filtrelemek ve nitelendirmek için bu kutuyu "
+"işaretleyin."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_opportunities
@@ -1777,7 +1888,11 @@ msgid "Create a Lead Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir Lider Faaliyet Planı Oluşturun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir Lider Faaliyet Planı Oluşturun"
 >>>>>>> upstream/18.0
@@ -2012,9 +2127,16 @@ msgid ""
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
+<<<<<<< HEAD
 "Şirketleri isim veya vergi numarasıyla aratarak tüm verisini anında "
 "doldurabileceğinizi biliyor muydunuz? Odoo sizin için tüm alanları doldurur:"
 " logo, adres, şirket büyüklüğü, iş bilgisi, sosyal medya hesapları vs."
+=======
+"Bir şirketi ismi veya KDV numarasına göre arayarak tüm verilerini anında "
+"doldurabileceğinizi biliyor muydunuz? Odoo sizin için her şeyi otomatik "
+"olarak tamamlar: logo, adres, şirket büyüklüğü, işletme bilgileri, sosyal "
+"medya hesapları vb."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
@@ -2023,9 +2145,16 @@ msgid ""
 " top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
+<<<<<<< HEAD
 "Üst sağdaki harita ikonunu kullanarak fırsat listesini harita görüntüsüne "
 "dönüştürebileceğinizi biliyor muydunuz? Odoo'daki birçok ekran haritaya "
 "dönüştürülebilir: görevler, kontaklar, teslimat siparişleri, vs"
+=======
+"Sağ üstteki harita simgesini kullanarak bir fırsatların bulunduğu listeyi "
+"harita görünümüne dönüştürebileceğinizi biliyor muydunuz? Odoo'daki pek çok "
+"ekran haritaya dönüştürülebilir: görevler, kişiler, teslimat siparişleri "
+"vb. "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -2178,9 +2307,14 @@ msgid ""
 "Enter here the internal requirements for this stage (ex: Offer sent to "
 "customer). It will appear as a tooltip over the stage's name."
 msgstr ""
+<<<<<<< HEAD
 "Bu alana bu adım için girilmesi zorunlu olan şirket içi bilgiyi girin ( "
 "örneğin, teklif müşteriye gönderildi). Bu bilgi adımın üzerinde bilgi "
 "balonunda görüntülenecektir."
+=======
+"Buraya bu aşama için dahili gereksinimleri girin (örn: Müşteriye gönderilen "
+"teklif). Aşama adının üzerinde bir araç ipucu olarak görünecektir."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__date_deadline
@@ -2301,10 +2435,17 @@ msgid ""
 "targeted to your needs: company size, industry, etc. To help you test the "
 "feature, we offer you 200 credits for free."
 msgstr ""
+<<<<<<< HEAD
 "Bir satış ekibi için, hiç aday olmamasından daha kötü birşey yoktur. neyse "
 "ki, birkaç tıklama ile, ihtiyaçlarınızı hedefleyen özel adaylar "
 "oluşturabilirsiniz: şirket büyüklüğü, endüstri, vs. Bu özelliği denemeniz "
 "için, size ücretsiz 200 kredi veriyoruz."
+=======
+"Bir satış ekibi için müşteri adayı bulamamak kadar kötüsü yoktur. Neyse ki "
+"sadece birkaç tıklamayla ihtiyaçlarınıza göre (şirket büyüklüğü, sektör vs.)"
+" özel olarak hedeflenmiş müşteri adayları oluşturabilirsiniz. Bu özelliği "
+"test etmenize yardımcı olmak için size ücretsiz 200 kredi sunuyoruz."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__force_assignment
@@ -2505,10 +2646,17 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir cep telefonu "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+"Kara listeye alınmış temizlenmiş bir telefon numarasının bir cep telefonu "
+"numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
+"telefon alanı olduğunda             hangi numaranın kara listeye alındığını "
+"ayırt etmeye yardımcı olur."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_blacklisted
@@ -2517,7 +2665,11 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir telefon "
+=======
+"Kara listeye alınmış temizlenmiş bir telefon numarasının bir telefon "
+>>>>>>> upstream/18.0
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
@@ -2758,7 +2910,11 @@ msgid "Lead assigned to this member this last day (lost one excluded)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu üyeye son gün atanan lider (kaybedilen hariç)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu üyeye son gün atanan lider (kaybedilen hariç)"
 >>>>>>> upstream/18.0
@@ -2865,7 +3021,11 @@ msgid "Leads (last 24h)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Müşteri adayları (son 24 saat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Müşteri adayları (son 24 saat)"
 >>>>>>> upstream/18.0
@@ -2918,9 +3078,16 @@ msgid ""
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
+<<<<<<< HEAD
 "Adaylar Analizi, gecikmeleri veya durum başına müşteri adaylarının sayısı "
 "gibi CRM ile ilgili farklı bilgileri kontrol etmenizi sağlar. Doğru analiz "
 "elde etmek için analizinizi farklı gruplara göre sıralayabilirsiniz."
+=======
+"Müşteri Adayı Analizi özelliği, fırsatların durumuna göre sayısı ya da işlem"
+" süresi gibi CRM ile ilgili çeşitli bilgileri incelemenizi sağlar. Detaylı "
+"ve isabetli bir analiz elde etmek için aday analizini farklı gruplara göre "
+"filtreleyebilirsiniz."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #. odoo-python
@@ -3012,9 +3179,15 @@ msgid ""
 "Linked partner (optional). Usually created when converting the lead. You can"
 " find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
+<<<<<<< HEAD
 "Bağlantılı iş ortağı (isteğe bağlı). Genellikle müşteri adayı "
 "dönüştürülürken oluşturulur. Bir iş ortağını Adına, Vergi Numarasına, "
 "E-postasına veya İç Referansına göre bulabilirsiniz."
+=======
+"Bağlı partner (isteğe bağlı). Genellikle müşteri adayı dönüştürülürken "
+"oluşturulur. Bir partneri Adına, TIN'ine, E-posta adresine veya Dahili "
+"Referansına göre bulabilirsiniz."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_incoming_local
@@ -3031,7 +3204,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerel bölüm bazlı gelen algılama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerel bölüm bazlı gelen algılama"
 >>>>>>> upstream/18.0
@@ -3098,6 +3275,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planlanan bir şey yok gibi görünüyor. :(<br><br><i>İpucu: Yapmanız gereken "
+"her şeyi takip etmek için etkinlikleri planlayın!</i>"
+>>>>>>> upstream/18.0
 =======
 "Planlanan bir şey yok gibi görünüyor. :(<br><br><i>İpucu: Yapmanız gereken "
 "her şeyi takip etmek için etkinlikleri planlayın!</i>"
@@ -3220,6 +3402,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ringover'ın çeviricisi ile Odoo'dan arama yapın ve alın. Çağrıları, SMS "
+"mesajlarını takip edin ve konuşmalarınızın yapay zeka destekli "
+"transkriptlerini alın."
+>>>>>>> upstream/18.0
 =======
 "Ringover'ın çeviricisi ile Odoo'dan arama yapın ve alın. Çağrıları, SMS "
 "mesajlarını takip edin ve konuşmalarınızın yapay zeka destekli "
@@ -3293,9 +3481,15 @@ msgid ""
 "action button. Automatic configures a cron running repeatedly assignment in "
 "all teams."
 msgstr ""
+<<<<<<< HEAD
 "Manuel atama, aksiyon butonu kullanarak ekip form görüntüsünden görev "
 "tetiklemeye izin verir. Otomatik tüm ekiplerde sürekli çalışan cron "
 "konfigüre eder. "
+=======
+"Manuel atama, bir eylem düğmesi kullanarak ekip formu görünümünden atamayı "
+"tetiklemeye izin verir. Otomatik, tüm ekiplerde tekrar tekrar atama yapan "
+"bir cron yapılandırır."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__manual
@@ -3374,7 +3568,11 @@ msgid "Meeting Display Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplantı Görüntüleme Etiketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplantı Görüntüleme Etiketi"
 >>>>>>> upstream/18.0
@@ -3428,7 +3626,11 @@ msgid "Meeting scheduled at %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplantı planlandı: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toplantı planlandı: %s"
 >>>>>>> upstream/18.0
@@ -3808,9 +4010,16 @@ msgid ""
 "manually, but if you let Odoo do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
+<<<<<<< HEAD
 "Odoo'nun yapay zeka motoru geçmişinize bakarak her fırsatın başarı oranını "
 "tahminler. Her zaman başarı oranını elle güncelleyebilirsiniz, ama Odoo'ya "
 "bırakırsanız, satış döngünüzde fırsat ilerledikçe puan güncellenir."
+=======
+"Odoo'nun yapay zeka motoru, geçmişinize dayanarak her bir fırsatın başarı "
+"oranını tahmin eder. Başarı oranını dilediğiniz zaman manuel olarak "
+"güncelleyebilirsiniz, ancak Odoo'nun işi yapmasına izin verirseniz, fırsat "
+"satış döngünüzde ilerledikçe oranlar da güncellenir."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
@@ -3866,10 +4075,17 @@ msgid ""
 "mainly used by the sales manager in order to do the periodic review with the"
 " channels of the sales pipeline."
 msgstr ""
+<<<<<<< HEAD
 "Fırsat Analizleri, beklenen gelir, planlanan maliyet, kaçırılan tarihler ya "
 "da her fırsat için etkileşim sayısı gibi bilgiler ile birlikte "
 "fırsatlarınıza anlık erişim sağlar. Bu rapor, genellikle satış müdürü "
 "tarafından satış kanalı hattı ile birlikte periyodik kontrolleri için "
+=======
+"Fırsatların Analizi; beklenen gelir, planlanan maliyet, kaçırılan son "
+"tarihler veya fırsat başına etkileşim sayısı gibi bilgilerle fırsatlarınıza "
+"anında erişmenizi sağlar. Bu rapor esas olarak satış yöneticisi tarafından "
+"satış hattı kanalları yoluyla periyodik gözden geçirme yapmak için "
+>>>>>>> upstream/18.0
 "kullanılır."
 
 #. module: crm
@@ -3963,8 +4179,13 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+<<<<<<< HEAD
 "Yanıt vermemiş olsalar bile, gelen tüm mesajların ekleneceği bir ileti "
 "dizisinin (kayıt) isteğe bağlı kimliği. Ayarlanırsa, bu, yeni kayıtların "
+=======
+"Cevap vermemiş olsalar bile, gelen tüm mesajların ekleneceği bir mesaj "
+"akışına (kayda) ait isteğe bağlı kimlik. Ayarlanırsa, yeni kayıtların "
+>>>>>>> upstream/18.0
 "oluşturulmasını tamamen devre dışı bırakacaktır."
 
 #. module: crm
@@ -4011,9 +4232,15 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+<<<<<<< HEAD
 "Rumuzun bulunduğu üst model. Rumuz referansın bulunduğu model zorunlu olarak"
 " alias_model_id tarafından verilen model değildir.  (örnek: project "
 "(parent_model) ve görev (model))"
+=======
+"Takma adı tutan ana model. Takma ad referansını tutan modelin alias_model_id"
+" tarafından verilen model olması gerekmez (örnek: proje (parent_model) ve "
+"görev (model))"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_email_update
@@ -4103,10 +4330,17 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
+<<<<<<< HEAD
 "Posta geçidini kullanarak gönderilecek mesajların kuralları:\n"
 "- herkes: herkes posta gönderebilir\n"
 "- iş ortakları: sadece onaylanmış iş ortakları\n"
 "- takipçiler: sadece ilgili dokümanın veya takipçi kanalların takipçileri\n"
+=======
+"Posta ağ geçidinin kullanılarak belge üzerinde mesaj gönderme politikası:\n"
+"- herkes:  herkes gönderebilir\n"
+"- partnerler: yalnızca doğrulanmış partnerler\n"
+"- takipçiler: yalnızca ilgili belgenin takipçileri veya takip eden kanalların üyeleri\n"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_ids
@@ -4133,7 +4367,11 @@ msgid "Predictive Lead Scoring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahmine Dayalı Müşteri Adayı Puanlaması"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tahmine Dayalı Müşteri Adayı Puanlaması"
 >>>>>>> upstream/18.0
@@ -4240,7 +4478,11 @@ msgid "Prorated Recurring Revenues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Orantılı Yinelenen Gelirler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Orantılı Yinelenen Gelirler"
 >>>>>>> upstream/18.0
@@ -4407,7 +4649,11 @@ msgid "Ringover VOIP Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ringover VOIP Telefon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ringover VOIP Telefon"
 >>>>>>> upstream/18.0
@@ -4556,7 +4802,11 @@ msgid "Select at least two Leads/Opportunities from the list to merge them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Birleştirmek için listeden en az iki Müşteri Adayı/Fırsat seçin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Birleştirmek için listeden en az iki Müşteri Adayı/Fırsat seçin."
 >>>>>>> upstream/18.0
@@ -4844,8 +5094,13 @@ msgid ""
 "The contacts below have been added as followers of this lead\n"
 "                        because they have been contacted less than 30 days ago on"
 msgstr ""
+<<<<<<< HEAD
 "Aşağıdaki kişiler bu müşteri adayının takipçileri olarak eklenmiştir\n"
 "                        çünkü 30 günden daha kısa bir süre önce kendileriyle iletişime geçildi."
+=======
+"Aşağıdaki kişilerle 30 günden daha kısa bir süre önce iletişime geçildiği için\n"
+"                        bu müşteri adayının takipçileri olarak eklenmişlerdir"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_id
@@ -4863,8 +5118,13 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
+<<<<<<< HEAD
 "Bu rumuzun karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda yanıt "
 "vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
+=======
+"Bu takma adın karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda "
+"yanıt vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
+>>>>>>> upstream/18.0
 "oluşturulmasına neden olacaktır (örneğin, bir Proje Görevi)"
 
 #. module: crm
@@ -4948,7 +5208,11 @@ msgid ""
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
+<<<<<<< HEAD
 "Birincil e-posta alanı kesinlikle bir e-posta adresinden fazlasını "
+=======
+"Birincil e-posta alanı kesinlikle bir e-posta adresinden daha fazlasını "
+>>>>>>> upstream/18.0
 "içerebileceğinden, bu alan e-posta adresinde arama yapmak için kullanılır."
 
 #. module: crm
@@ -5035,7 +5299,11 @@ msgid "Tip: Identify Bottlenecks at a glance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Darboğazları bir bakışta belirleyin"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Darboğazları bir bakışta belirleyin"
 >>>>>>> upstream/18.0
@@ -5101,7 +5369,11 @@ msgid "Tip: Turn Sales Forecasting into Child's Play"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İpucu: Satış Tahminini Çocuk Oyuncağına Dönüştürün"
+>>>>>>> upstream/18.0
 =======
 msgstr "İpucu: Satış Tahminini Çocuk Oyuncağına Dönüştürün"
 >>>>>>> upstream/18.0
@@ -5201,6 +5473,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aylık müşteri adayı atama sayısı maksimum atama sınırından büyükse doğru, "
+"aksi takdirde yanlış."
+>>>>>>> upstream/18.0
 =======
 "Aylık müşteri adayı atama sayısı maksimum atama sınırından büyükse doğru, "
 "aksi takdirde yanlış."
@@ -5356,10 +5633,17 @@ msgid ""
 "                    a contact form filled in your website, or a file of unqualified\n"
 "                    prospects you import, etc."
 msgstr ""
+<<<<<<< HEAD
 "Bir fırsat ya da müşteri yaratmadan önce eğer vasıf adımına ihtiyacınız "
 "olursa müşteri adaylarını kullanın. Bu aldığınız kartvizit, internet "
 "sitenizden doldurulmuş bir müşteri formu olabilir, ya da dışarı aktardığınız"
 " yetkisiz bir dosya olabilir."
+=======
+"Bir fırsat veya müşteri oluşturmadan önce\n"
+"                    bir yeterlilik adımına ihtiyacınız varsa 'müşteri adaylarını' kullanın.\n"
+"                    Bu, aldığınız bir kartvizit, web sitenizde doldurulan bir iletişim formu veya\n"
+"                    içe aktardığınız niteliksiz potansiyel müşterilerden oluşan bir dosya vb. olabilir."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -5371,11 +5655,19 @@ msgid ""
 "new customer in your address book."
 msgstr ""
 "Bir fırsat veya müşteri oluşturmadan önce bir yeterlilik adımına ihtiyacınız"
+<<<<<<< HEAD
 " varsa müşteri adayları kullanın. Aldığınız bir kartvizit, web sitenize "
 "doldurulmuş bir iletişim formu veya içe aktardığınız kalifiye olmayan "
 "müşterilerin dosyası, vb. olabilir. Nitelikli olduğunda, müşteri adayı adres"
 " defterinizde bir iş fırsatına ve / veya yeni bir müşteriye "
 "dönüştürülebilir."
+=======
+" varsa 'müşteri adaylarını' kullanın. Bu, aldığınız bir kartvizit, web "
+"sitenizde doldurulan bir iletişim formu veya içe aktardığınız niteliksiz "
+"potansiyel müşterilerden oluşan bir dosya vb. olabilir. Müşteri adayı, "
+"nitelendirildikten sonra bir iş fırsatına ve/veya adres defterinizdeki yeni "
+"bir müşteriye dönüştürülebilir."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
@@ -5392,7 +5684,11 @@ msgid "Use the <i>New</i> button, or send an email to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i>Yeni</i> butonunu kullanın veya buraya bir e-posta gönderin:"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i>Yeni</i> butonunu kullanın veya buraya bir e-posta gönderin:"
 >>>>>>> upstream/18.0
@@ -5449,6 +5745,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i>Yeni</i> butonunu kullanın veya e-posta ağ geçidini test etmek için "
+"buraya bir e-posta gönderin: %(email_link)s."
+>>>>>>> upstream/18.0
 =======
 "<i>Yeni</i> butonunu kullanın veya e-posta ağ geçidini test etmek için "
 "buraya bir e-posta gönderin: %(email_link)s."
@@ -5516,6 +5817,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fırsatların ne zaman kazanılmasının beklendiğini kolayca tanımlamak için CRM"
+" Tahmin Kanbanını kullanın."
+>>>>>>> upstream/18.0
 =======
 "Fırsatların ne zaman kazanılmasının beklendiğini kolayca tanımlamak için CRM"
 " Tahmin Kanbanını kullanın."
@@ -5582,6 +5888,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-posta ağ geçidini test etmek için Yeni butonunu kullanın veya bir e-posta "
+"takma adı yapılandırın."
+>>>>>>> upstream/18.0
 =======
 "E-posta ağ geçidini test etmek için Yeni butonunu kullanın veya bir e-posta "
 "takma adı yapılandırın."
@@ -5726,7 +6037,11 @@ msgid "What went wrong?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ters giden neydi?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ters giden neydi?"
 >>>>>>> upstream/18.0
@@ -5832,9 +6147,15 @@ msgid ""
 "                    opportunities, convert them into quotations, attach related\n"
 "                    documents, track all discussions, and much more."
 msgstr ""
+<<<<<<< HEAD
 "Fırsatlardan toplantılar ve telefon görüşmeleri planlayabilir, \n"
 "teklifleri değiştirebilir, ilgili belgeleri iliştirebilir, tüm tartışmaları\n"
 "izleyebilir ve çok daha fazlasını yapabilirsiniz."
+=======
+"Fırsatlardan toplantılar ve telefon görüşmeleri planlayabilecek,\n"
+"                    bunları tekliflere dönüştürebilecek, ilgili belgeleri ekleyebilecek, tüm\n"
+"                    görüşmeleri takip edebilecek ve çok daha fazlasını yapabileceksiniz."
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -5866,7 +6187,11 @@ msgid "e.g. \"0123456789\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "örn. \"0123456789\""
+>>>>>>> upstream/18.0
 =======
 msgstr "örn. \"0123456789\""
 >>>>>>> upstream/18.0

@@ -49,7 +49,12 @@ test("simple rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("breadcrumbs", async () => {
+=======
+test.tags("desktop");
+test("breadcrumbs", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("breadcrumbs", async () => {
@@ -139,7 +144,12 @@ test("breadcrumbs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("view switcher", async () => {
+=======
+test.tags("desktop");
+test("view switcher", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("view switcher", async () => {
@@ -226,7 +236,12 @@ test("view switcher", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`mobile`("view switcher on mobile", async () => {
+=======
+test.tags("mobile");
+test("view switcher on mobile", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("mobile");
 test("view switcher on mobile", async () => {
@@ -356,7 +371,12 @@ test("view switcher hotkey cycles through views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags`desktop`("control panel layout buttons in dialog", async () => {
+=======
+test.tags("desktop");
+test("control panel layout buttons in dialog", async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test("control panel layout buttons in dialog", async () => {

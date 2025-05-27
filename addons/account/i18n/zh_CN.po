@@ -6,6 +6,7 @@
 # Martin Trigaux, 2024
 # ChunYi Fu, 2024
 # Zhongbo Zhao, 2024
+<<<<<<< HEAD
 # Raymond Yu <cl_yu@hotmail.com>, 2024
 # kunqing shi, 2025
 # huang jun, 2025
@@ -195,6 +196,10 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# kunqing shi, 2025
+# huang jun, 2025
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # 何彬 <vnsoft.he@gmail.com>, 2025
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
@@ -215,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247,12 +253,16 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Raymond Yu <cl_yu@hotmail.com>, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +455,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1780,6 +1795,14 @@ msgstr "<span>警告：此账单可能与以下项目重复：</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
+msgstr ""
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+>>>>>>> upstream/18.0
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr "<strong class=\"mr16\">小计</strong>"
 
@@ -1845,11 +1868,14 @@ msgstr "<strong>参考</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>送货地址</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Source</strong>"
 msgstr "<strong>来源</strong>"
 
@@ -1902,7 +1928,10 @@ msgstr "<strong>类型：</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1939,6 +1968,7 @@ msgstr "<strong>类型：</strong>"
 msgid ""
 "<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
 "disabled again if there are any existing journal items."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -1990,6 +2020,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>警告：</strong>审计追踪一旦启用，如果存在任何现有的日记账项目，则无法再次禁用它。"
+
+#. module: account
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -2043,7 +2078,10 @@ msgstr "同一个银行账户，只能关联一个日记账。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2100,6 +2138,9 @@ msgstr "银行账户（账号：%(number)s）已存在于合作伙伴%(partner)s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4126,8 +4167,13 @@ msgstr "银行账户"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "已删除号码为 %(number)s的银行账户%(link)s"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "银行账户%(link)s（账号：%(number)s）已归档"
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "银行账户%(link)s（账号：%(number)s）已归档"
@@ -4811,7 +4857,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4866,6 +4915,9 @@ msgstr "无法识别生成PDF中的发票：%s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5426,6 +5478,7 @@ msgstr "商业实体"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5526,6 +5579,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "商业伙伴国家/地区"
@@ -5562,6 +5617,9 @@ msgstr "商业伙伴国家/地区"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10464,7 +10522,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "项目缺少分析性的分配"
+>>>>>>> upstream/18.0
 =======
 msgstr "项目缺少分析性的分配"
 >>>>>>> upstream/18.0
@@ -14789,7 +14851,11 @@ msgid "Search Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "搜索分录"
+=======
+msgstr "搜索凭证"
+>>>>>>> upstream/18.0
 =======
 msgstr "搜索凭证"
 >>>>>>> upstream/18.0
@@ -15025,7 +15091,11 @@ msgid "See items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "查看项目"
+>>>>>>> upstream/18.0
 =======
 msgstr "查看项目"
 >>>>>>> upstream/18.0
@@ -19399,7 +19469,10 @@ msgstr "会计分录中的贷方或借方值错误！"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19453,6 +19526,9 @@ msgstr "XML 格式"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

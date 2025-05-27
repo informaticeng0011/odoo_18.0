@@ -98,7 +98,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "進行中"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -203,12 +207,20 @@ msgstr "活動タイプ"
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_action_from_category_form
 msgid "Add a new equipment"
+<<<<<<< HEAD
 msgstr "新しい備品を追加"
+=======
+msgstr "新しい設備を追加"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_category_action
 msgid "Add a new equipment category"
+<<<<<<< HEAD
 msgstr "新しい備品カテゴリを追加"
+=======
+msgstr "新しい設備カテゴリを追加"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model_terms:ir.actions.act_window,help:maintenance.hr_equipment_request_action
@@ -565,7 +577,11 @@ msgstr "Eメールエイリアス"
 msgid ""
 "Email alias for this equipment category. New emails will automatically "
 "create a new equipment under this category."
+<<<<<<< HEAD
 msgstr "この機器カテゴリのEメールエイリアス。新しいEメールは、自動的にこのカテゴリの下に新しい機器を作成します。"
+=======
+msgstr "この設備カテゴリのEメールエイリアス。新しいEメールは、自動的にこのカテゴリの下に新しい設備を作成します。"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__email_cc
@@ -594,26 +610,42 @@ msgstr "終了日"
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_view_search
 msgid "Equipment"
+<<<<<<< HEAD
 msgstr "備品"
+=======
+msgstr "設備"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:mail.message.subtype,description:maintenance.mt_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_cat_mat_assign
 #: model:mail.message.subtype,name:maintenance.mt_mat_assign
 msgid "Equipment Assigned"
+<<<<<<< HEAD
 msgstr "備品割当済"
+=======
+msgstr "設備割当済"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.actions.act_window,name:maintenance.hr_equipment_category_action
 #: model:ir.ui.menu,name:maintenance.menu_maintenance_cat
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_category_view_form
 msgid "Equipment Categories"
+<<<<<<< HEAD
 msgstr "備品カテゴリ"
+=======
+msgstr "設備カテゴリ"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__category_id
 msgid "Equipment Category"
+<<<<<<< HEAD
 msgstr "設備分類"
+=======
+msgstr "設備カテゴリ"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__equipment_count
@@ -628,7 +660,11 @@ msgstr "機器マネジャー"
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment__name
 msgid "Equipment Name"
+<<<<<<< HEAD
 msgstr "備品名"
+=======
+msgstr "設備名"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_equipment_category__equipment_properties_definition
@@ -851,7 +887,11 @@ msgid "Instruction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "説明"
+=======
+msgstr "作業手順"
+>>>>>>> upstream/18.0
 =======
 msgstr "作業手順"
 >>>>>>> upstream/18.0
@@ -1012,7 +1052,11 @@ msgid "Instructions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "説明"
+=======
+msgstr "作業手順"
+>>>>>>> upstream/18.0
 =======
 msgstr "作業手順"
 >>>>>>> upstream/18.0
@@ -1247,12 +1291,20 @@ msgstr "整備数"
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_equipment
 msgid "Maintenance Equipment"
+<<<<<<< HEAD
 msgstr "整備機器"
+=======
+msgstr "整備設備"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_equipment_category
 msgid "Maintenance Equipment Category"
+<<<<<<< HEAD
 msgstr "整備機器カテゴリ"
+=======
+msgstr "整備設備カテゴリ"
+>>>>>>> upstream/18.0
 
 #. module: maintenance
 #: model:ir.model,name:maintenance.model_maintenance_mixin
@@ -1606,9 +1658,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- everyone: 誰にでも投稿可能\n"
 "- partners: 許可されたパートナーのみ\n"
 "- followers: 関連ドキュメントのフォロワーか、フォローしているチャンネルのメンバーのみ\n"
+=======
+"- 全員: 誰でも投稿可能\n"
+"- 取引先: 認証済みの取引先のみ\n"
+"- フォロワー: 関連ドキュメントのフォロワーか、フォローしているチャネルのメンバーのみ\n"
+>>>>>>> upstream/18.0
 =======
 "- 全員: 誰でも投稿可能\n"
 "- 取引先: 認証済みの取引先のみ\n"
@@ -2162,7 +2220,11 @@ msgid "Vendor Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "仕入先登録番号"
+=======
+msgstr "仕入先参照番号"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕入先参照番号"
 >>>>>>> upstream/18.0
