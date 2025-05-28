@@ -20,6 +20,10 @@ _logger = logging.getLogger(__name__)
 
 # longpolling timeout connection
 TIMEOUT = 50
+<<<<<<< HEAD
+=======
+DEFAULT_GC_RETENTION_SECONDS = 60 * 60 * 24  # 24 hours
+>>>>>>> upstream/18.0
 
 # custom function to call instead of default PostgreSQL's `pg_notify`
 ODOO_NOTIFY_FUNCTION = os.getenv('ODOO_NOTIFY_FUNCTION', 'pg_notify')
@@ -91,12 +95,22 @@ class ImBus(models.Model):
 
     @api.autovacuum
     def _gc_messages(self):
+<<<<<<< HEAD
         timeout_ago = fields.Datetime.now() - datetime.timedelta(seconds=TIMEOUT*2)
         domain = [('create_date', '<', timeout_ago)]
         records = self.search(domain, limit=models.GC_UNLINK_LIMIT)
         if len(records) >= models.GC_UNLINK_LIMIT:
             self.env.ref('base.autovacuum_job')._trigger()
         return records.unlink()
+=======
+        gc_retention_seconds = int(
+            self.env["ir.config_parameter"]
+            .sudo()
+            .get_param("bus.gc_retention_seconds", DEFAULT_GC_RETENTION_SECONDS)
+        )
+        timeout_ago = fields.Datetime.now() - datetime.timedelta(seconds=gc_retention_seconds)
+        self.env.cr.execute("DELETE FROM bus_bus WHERE create_date < %s", (timeout_ago,))
+>>>>>>> upstream/18.0
 
     @api.model
     def _sendone(self, target, notification_type, message):

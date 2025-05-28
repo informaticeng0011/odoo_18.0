@@ -14,7 +14,11 @@ class ProductComboItem(models.Model):
     product_id = fields.Many2one(
         string="Product",
         comodel_name='product.product',
+<<<<<<< HEAD
         ondelete='cascade',
+=======
+        ondelete='restrict',
+>>>>>>> upstream/18.0
         domain=[('type', '!=', 'combo')],
         required=True,
         check_company=True,

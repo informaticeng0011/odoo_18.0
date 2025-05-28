@@ -54,6 +54,10 @@ from . import test_account_payment_register
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 =======
 from . import test_account_report
 >>>>>>> upstream/18.0

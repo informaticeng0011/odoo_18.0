@@ -258,7 +258,10 @@ class TaxReportTest(AccountTestInvoicingCommon):
         self.assertEqual(len(tags_after), 2, "When creating a tax report line with an archived tag and it's complement doesn't exist, it should be re-created.")
         self.assertEqual(tags_after.mapped('name'), ['+' + tag_name, '-' + tag_name], "After creating a tax report line with an archived tag and when its complement doesn't exist, both a negative and a positive tag should be created.")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_change_engine_without_formula(self):
         aggregation_line = self.env['account.report.line'].create({
@@ -318,4 +321,7 @@ class TaxReportTest(AccountTestInvoicingCommon):
         self.assertEqual(len(tags_after), 2, "Changing the formula should have renamed the tags")
         self.assertEqual(tags_after.mapped('name'), ['-Buny', '+Buny'])
         self.assertEqual(tags_after, tags_to_rename, "Changing the formula should have renamed the tags")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

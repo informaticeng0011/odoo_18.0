@@ -46,7 +46,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <PartnerAutoComplete
+=======
+            <PartnerAutoComplete t-else=""
+>>>>>>> upstream/18.0
 =======
             <PartnerAutoComplete t-else=""
 >>>>>>> upstream/18.0
@@ -72,6 +76,10 @@
                 onChange.bind="onChange"
                 input="inputRef"
                 placeholder="placeholder || ''"
+<<<<<<< HEAD
+=======
+                id="this.props.id"
+>>>>>>> upstream/18.0
             />
         </xpath>
     </t>

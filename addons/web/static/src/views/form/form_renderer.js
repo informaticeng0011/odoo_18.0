@@ -74,7 +74,13 @@ export class FormRenderer extends Component {
         onMounted(() => browser.addEventListener("resize", this.onResize));
         onWillUnmount(() => browser.removeEventListener("resize", this.onResize));
 
+<<<<<<< HEAD
         const { autofocusFieldId } = archInfo;
+=======
+        // autofocusFieldId is now deprecated, it's kept until saas-18.2 for retro-compatibility
+        // and is removed in saas-18.3 to let autofocusFieldIds take over.
+        const { autofocusFieldId, autofocusFieldIds = [] } = archInfo;
+>>>>>>> upstream/18.0
         const rootRef = useRef("compiled_view_root");
         if (this.shouldAutoFocus) {
             useEffect(
@@ -89,6 +95,7 @@ export class FormRenderer extends Component {
                             "textarea",
                             "[contenteditable]",
                         ];
+<<<<<<< HEAD
                         elementToFocus =
                             (autofocusFieldId && rootEl.querySelector(`#${autofocusFieldId}`)) ||
                             rootEl.querySelector(
@@ -96,6 +103,25 @@ export class FormRenderer extends Component {
                                     .map((sel) => `.o_content .o_field_widget ${sel}`)
                                     .join(", ")
                             );
+=======
+                        if (autofocusFieldIds.length) {
+                            for (const id of autofocusFieldIds) {
+                                elementToFocus = rootEl.querySelector(`#${id}`);
+                                if (elementToFocus) {
+                                    break;
+                                };
+                            };
+                        } else {
+                            elementToFocus = autofocusFieldId && rootEl.querySelector(
+                                `#${autofocusFieldId}`
+                            );
+                        }
+                        elementToFocus = elementToFocus || rootEl.querySelector(
+                            focusableSelectors
+                                .map((sel) => `.o_content .o_field_widget ${sel}`)
+                                .join(", ")
+                        );
+>>>>>>> upstream/18.0
                     }
                     if (elementToFocus) {
                         elementToFocus.focus();

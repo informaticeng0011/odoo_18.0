@@ -377,7 +377,10 @@ class TestUsers2(TransactionCase):
         self.assertTrue(user_form.share, 'The groups_id onchange should have been triggered')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_update_user_groups_view(self):
         """Test that the user groups view can still be built if all user type groups are share"""
         self.env['res.groups'].search([
@@ -386,6 +389,9 @@ class TestUsers2(TransactionCase):
 
         self.env['res.groups']._update_user_groups_view()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install', 'res_groups')

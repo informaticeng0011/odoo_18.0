@@ -6068,7 +6068,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
      */
     async replaceMedia() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const sel = this.ownerDocument.getSelection();
         // Ensure the element is selected before opening the media dialog.
         if (!sel.rangeCount) {
@@ -6076,6 +6079,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
             range.selectNodeContents(this.$target[0]);
             sel.addRange(range);
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // open mediaDialog and replace the media.
         await this.options.wysiwyg.openMediaDialog({ node:this.$target[0] });
@@ -7956,6 +7962,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();

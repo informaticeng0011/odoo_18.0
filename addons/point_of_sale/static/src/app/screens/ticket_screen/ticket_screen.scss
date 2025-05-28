@@ -52,6 +52,10 @@
     }
     .pos .orders {
         position: sticky;
+<<<<<<< HEAD
+=======
+        z-index: 1;
+>>>>>>> upstream/18.0
     }
 
     .controls {
@@ -60,6 +64,12 @@
             "buttons pagination"
             "search search";
     }
+<<<<<<< HEAD
+=======
+    .search .fields {
+        z-index: 2;
+    }
+>>>>>>> upstream/18.0
 }
 
 @include media-breakpoint-up(lg){

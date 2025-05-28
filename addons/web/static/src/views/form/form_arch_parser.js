@@ -13,7 +13,14 @@ export class FormArchParser {
         const widgetNodes = {};
         let widgetNextId = 0;
         const fieldNextIds = {};
+<<<<<<< HEAD
         let autofocusFieldId = null;
+=======
+        // autofocusFieldId is now deprecated, it's kept until saas-18.2 for retro-compatibility
+        // and is removed in saas-18.3 to let autofocusFieldIds take over.
+        let autofocusFieldId = null;
+        const autofocusFieldIds = [];
+>>>>>>> upstream/18.0
         visitXML(xmlDoc, (node) => {
             if (node.tagName === "field") {
                 const fieldInfo = Field.parseFieldNode(node, models, modelName, "form", jsClass);
@@ -25,6 +32,10 @@ export class FormArchParser {
                 node.setAttribute("field_id", fieldId);
                 if (exprToBoolean(node.getAttribute("default_focus") || "")) {
                     autofocusFieldId = fieldId;
+<<<<<<< HEAD
+=======
+                    autofocusFieldIds.push(fieldId);
+>>>>>>> upstream/18.0
                 }
                 if (fieldInfo.type === "properties") {
                     activeActions.addPropertyFieldValue = true;
@@ -40,6 +51,10 @@ export class FormArchParser {
         return {
             activeActions,
             autofocusFieldId,
+<<<<<<< HEAD
+=======
+            autofocusFieldIds,
+>>>>>>> upstream/18.0
             disableAutofocus,
             fieldNodes,
             widgetNodes,

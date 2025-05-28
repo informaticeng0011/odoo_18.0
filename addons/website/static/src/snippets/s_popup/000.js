@@ -221,6 +221,10 @@ const PopupWidget = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
         if (tabableEls.length) {
             tabableEls[0].focus();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.el.querySelector(".modal").scrollTop = 0;
+>>>>>>> upstream/18.0
 =======
             this.el.querySelector(".modal").scrollTop = 0;
 >>>>>>> upstream/18.0

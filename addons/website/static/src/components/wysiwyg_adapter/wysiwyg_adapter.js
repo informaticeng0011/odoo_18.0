@@ -381,7 +381,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -505,6 +508,9 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1094,6 +1100,10 @@ export class WysiwygAdapterComponent extends Wysiwyg {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                keywords: ["banner", "info", "success", "warning", "danger"],
+>>>>>>> upstream/18.0
 =======
                 keywords: ["banner", "info", "success", "warning", "danger"],
 >>>>>>> upstream/18.0

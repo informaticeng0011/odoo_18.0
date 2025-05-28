@@ -176,6 +176,7 @@ registerWebsitePreviewTour('snippet_social_media', {
     ...clickOnSave(),
     ...clickOnEditAndWaitEditMode(),
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...clickOnSnippet({
         id: 's_social_media',
         name: 'Social Media',
@@ -185,6 +186,8 @@ registerWebsitePreviewTour('snippet_social_media', {
         trigger: ':iframe .s_social_media a[href="https://whatever.it/1EdSw9X"] i.fa-pencil',
         run: 'dblclick',
 =======
+=======
+>>>>>>> upstream/18.0
     {
         content: "Check if we can still change custom icons",
         trigger: ':iframe .s_social_media a[href="https://whatever.it/1EdSw9X"] i.fa-pencil',
@@ -194,6 +197,9 @@ registerWebsitePreviewTour('snippet_social_media', {
         content: "Click on replace media",
         trigger: "[data-replace-media='true']",
         run: "click",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     {

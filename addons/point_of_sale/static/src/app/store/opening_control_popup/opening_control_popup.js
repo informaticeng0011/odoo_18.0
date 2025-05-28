@@ -7,6 +7,10 @@ import { Input } from "@point_of_sale/app/generic_components/inputs/input/input"
 import { parseFloat } from "@web/views/fields/parsers";
 import { Dialog } from "@web/core/dialog/dialog";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { RPCError } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { RPCError } from "@web/core/network/rpc";
 >>>>>>> upstream/18.0
@@ -38,6 +42,7 @@ export class OpeningControlPopup extends Component {
     }
     async confirm() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.pos.data.call(
             "pos.session",
             "set_opening_control",
@@ -46,6 +51,8 @@ export class OpeningControlPopup extends Component {
             true
         );
 =======
+=======
+>>>>>>> upstream/18.0
         try {
             await this.pos.data.call(
                 "pos.session",
@@ -64,6 +71,9 @@ export class OpeningControlPopup extends Component {
             }
             throw error;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.pos.session.state = "opened";
         this.props.close();

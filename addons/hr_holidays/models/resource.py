@@ -66,6 +66,10 @@ class CalendarLeaves(models.Model):
         self.env.add_to_compute(self.env['hr.leave']._fields['number_of_days'], leaves)
         self.env.add_to_compute(self.env['hr.leave']._fields['duration_display'], leaves)
         sick_time_status = self.env.ref('hr_holidays.holiday_status_sl', raise_if_not_found=False)
+<<<<<<< HEAD
+=======
+        leaves_to_recreate = self.env['hr.leave']
+>>>>>>> upstream/18.0
         for previous_duration, leave, state in zip(previous_durations, leaves, previous_states):
             duration_difference = previous_duration - leave.number_of_days
             message = False
@@ -79,12 +83,20 @@ class CalendarLeaves(models.Model):
                 leave._check_validity()
                 if leave.state == 'validate':
                     # recreate the resource leave that were removed by writing state to draft
+<<<<<<< HEAD
                     leave.sudo()._create_resource_leave()
+=======
+                    leaves_to_recreate |= leave
+>>>>>>> upstream/18.0
             except ValidationError:
                 leave.action_refuse()
                 message = _("Due to a change in global time offs, this leave no longer has the required amount of available allocation and has been set to refused. Please review this leave.")
             if message:
                 leave._notify_change(message)
+<<<<<<< HEAD
+=======
+        leaves_to_recreate.sudo()._create_resource_leave()
+>>>>>>> upstream/18.0
 
     def _convert_timezone(self, utc_naive_datetime, tz_from, tz_to):
         """

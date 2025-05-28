@@ -75,7 +75,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         comment = re.sub(r'/[^ A-Za-z0-9_@.\/#&+-]+/g', '', self._remove_accents(comment))
+=======
+        comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
+>>>>>>> upstream/18.0
 =======
         comment = re.sub(r'[^ A-Za-z0-9_@.\\/#&+-]+', '', self._remove_accents(comment))
 >>>>>>> upstream/18.0

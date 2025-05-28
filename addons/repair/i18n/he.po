@@ -42,7 +42,11 @@ msgstr ""
 #: code:addons/repair/models/stock_warehouse.py:0
 msgid "%(name)s Sequence repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s סדר תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s סדר תיקון"
 >>>>>>> upstream/18.0
@@ -52,7 +56,11 @@ msgstr "%(name)s סדר תיקון"
 #: code:addons/repair/models/repair.py:0
 msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: כמות לא מספקת לתיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: כמות לא מספקת לתיקון"
 >>>>>>> upstream/18.0
@@ -66,7 +74,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "(<i>Recycle</i>)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "( <i> מיחזור</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "( <i> מיחזור</i>)"
 >>>>>>> upstream/18.0
@@ -86,12 +98,18 @@ msgid ""
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "*הסטטוס 'חדש' משמש כאשר משתמש מקלידה הוראת תיקון חדשה ולא מאושרת.\n"
 "*הסטטוס 'מאושר' משמש כאשר משתמש מאשר את הוראת התיקון.\n"
 "*הסטטוס 'בתיקון' משמש כאשר התיקון נמצא בתהליך.\n"
 "*הסטטוס 'תוקן' נקבע כאשר התיקון הושלם.\n"
 "*הסטטוס 'בוטל' משמש כאשר המשתמש מבטל את הוראת התיקון."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: repair
@@ -103,7 +121,11 @@ msgstr "<i>(הוסף)</i>"
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Confirmed</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">מאושר</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">מאושר</span>"
 >>>>>>> upstream/18.0
@@ -117,7 +139,11 @@ msgstr "<span class=\"col-6\">Late</span>"
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "<span class=\"col-6\">Under Repair</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\"> בתהליך תיקון</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\"> בתהליך תיקון</span>"
 >>>>>>> upstream/18.0
@@ -126,7 +152,11 @@ msgstr "<span class=\"col-6\"> בתהליך תיקון</span>"
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Done:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">בוצע:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">בוצע:</span>"
 >>>>>>> upstream/18.0
@@ -135,7 +165,11 @@ msgstr "<span class=\"o_stat_text\">בוצע:</span>"
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">חלקים לתיקון:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">חלקים לתיקון:</span>"
 >>>>>>> upstream/18.0
@@ -149,7 +183,11 @@ msgstr "<span class=\"o_stat_text\">הזמנת לקוח</span>"
 #: model_terms:ir.ui.view,arch_db:repair.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">To Do:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">לביצוע:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">לביצוע:</span>"
 >>>>>>> upstream/18.0
@@ -163,7 +201,11 @@ msgstr "<span>הזמנות</span>"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<span>Repair Order #</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>הזמנת תיקון #</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>הזמנת תיקון #</span>"
 >>>>>>> upstream/18.0
@@ -172,7 +214,11 @@ msgstr "<span>הזמנת תיקון #</span>"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Customer:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>לקוח:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>לקוח:</strong>"
 >>>>>>> upstream/18.0
@@ -181,7 +227,11 @@ msgstr "<strong>לקוח:</strong>"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Lot/Serial:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>אצווה\\ מספר סידורי:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>אצווה\\ מספר סידורי:</strong>"
 >>>>>>> upstream/18.0
@@ -190,7 +240,11 @@ msgstr "<strong>אצווה\\ מספר סידורי:</strong>"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "<strong>Product:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>מוצר:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>מוצר:</strong>"
 >>>>>>> upstream/18.0
@@ -259,7 +313,11 @@ msgstr "הוסף הערות פנימיות."
 #: model:ir.model.fields,field_description:repair.field_repair_order__location_dest_id
 msgid "Added Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום יעד לחלקים שנוספו"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום יעד לחלקים שנוספו"
 >>>>>>> upstream/18.0
@@ -279,7 +337,11 @@ msgstr "הכל"
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_available
 msgid "All Parts are available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל החלקים זמינים"
+>>>>>>> upstream/18.0
 =======
 msgstr "כל החלקים זמינים"
 >>>>>>> upstream/18.0
@@ -288,7 +350,11 @@ msgstr "כל החלקים זמינים"
 #: model:ir.model.fields,field_description:repair.field_repair_order__allowed_lot_ids
 msgid "Allowed Lot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אצווה מותרת"
+>>>>>>> upstream/18.0
 =======
 msgstr "אצווה מותרת"
 >>>>>>> upstream/18.0
@@ -307,7 +373,11 @@ msgstr "Allowed to Unreserve Production"
 #: model:ir.model.fields,field_description:repair.field_repair_order__is_parts_late
 msgid "Any Part is late"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל חלק נמצא באיחור"
+>>>>>>> upstream/18.0
 =======
 msgstr "כל חלק נמצא באיחור"
 >>>>>>> upstream/18.0
@@ -329,7 +399,11 @@ msgstr "זמין"
 #: code:addons/repair/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחזרה לתיקונים"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחזרה לתיקונים"
 >>>>>>> upstream/18.0
@@ -401,7 +475,11 @@ msgstr "חברה"
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום יעד של רכיב"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום יעד של רכיב"
 >>>>>>> upstream/18.0
@@ -411,7 +489,11 @@ msgstr "מיקום יעד של רכיב"
 #: model_terms:ir.ui.view,arch_db:repair.repair_view_picking_type_form
 msgid "Component Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום מקור של רכיב"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום מקור של רכיב"
 >>>>>>> upstream/18.0
@@ -461,7 +543,11 @@ msgstr "צור הצעת מחיר"
 #: model:ir.model.fields,field_description:repair.field_product_template__create_repair
 msgid "Create Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צור תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "צור תיקון"
 >>>>>>> upstream/18.0
@@ -470,7 +556,11 @@ msgstr "צור תיקון"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__is_repairable
 msgid "Create Repair Orders from Returns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יצירת הזמנת תיקון מהחזרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "יצירת הזמנת תיקון מהחזרות"
 >>>>>>> upstream/18.0
@@ -481,7 +571,11 @@ msgstr "יצירת הזמנת תיקון מהחזרות"
 msgid ""
 "Create a linked Repair Order on Sale Order confirmation of this product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צור הוראת תיקון מקושרת בעת אישור הזמנת מכירה של מוצר זה."
+>>>>>>> upstream/18.0
 =======
 msgstr "צור הוראת תיקון מקושרת בעת אישור הזמנת מכירה של מוצר זה."
 >>>>>>> upstream/18.0
@@ -543,7 +637,11 @@ msgstr "שם לתצוגה"
 #: model_terms:ir.ui.view,arch_db:repair.stock_warn_insufficient_qty_repair_form_view
 msgid "Do you confirm you want to repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם אתה מאשר את התיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "האם אתה מאשר את התיקון"
 >>>>>>> upstream/18.0
@@ -596,6 +694,11 @@ msgid ""
 "the actual quantity that was used. Are you sure you want to confirm ?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"בחלק מהחלקים יש הבדל בין הביקוש ההתחלתי לכמות בפועל שהשתמשו בה. האם אתה בטוח"
+" שברצונך לאשר?"
+>>>>>>> upstream/18.0
 =======
 "בחלק מהחלקים יש הבדל בין הביקוש ההתחלתי לכמות בפועל שהשתמשו בה. האם אתה בטוח"
 " שברצונך לאשר?"
@@ -630,7 +733,11 @@ msgstr "יש הודעה"
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_uncomplete_moves
 msgid "Has Uncomplete Moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ישנן תנועות לא הושלמו"
+>>>>>>> upstream/18.0
 =======
 msgstr "ישנן תנועות לא הושלמו"
 >>>>>>> upstream/18.0
@@ -670,6 +777,10 @@ msgid ""
 "from the repair order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אם מסומן, מחיר המכירה יוגדר כ-0 עבור כל המוצרים שהועברו מהוראת התיקון."
+>>>>>>> upstream/18.0
 =======
 "אם מסומן, מחיר המכירה יוגדר כ-0 עבור כל המוצרים שהועברו מהוראת התיקון."
 >>>>>>> upstream/18.0
@@ -679,7 +790,11 @@ msgstr ""
 msgid ""
 "If ticked, you will be able to directly create repair orders from a return."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מסומן, תוכל ליצור הוראות תיקון ישירות מהחזרה."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם מסומן, תוכל ליצור הוראות תיקון ישירות מהחזרה."
 >>>>>>> upstream/18.0
@@ -699,7 +814,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:repair.field_stock_lot__in_repair_count
 msgid "In repair count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בכמות תיקונים"
+>>>>>>> upstream/18.0
 =======
 msgstr "בכמות תיקונים"
 >>>>>>> upstream/18.0
@@ -708,7 +827,11 @@ msgstr "בכמות תיקונים"
 #: model_terms:ir.ui.view,arch_db:repair.product_view_search_catalog
 msgid "In the Repair Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נמצא בהוראת תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "נמצא בהוראת תיקון"
 >>>>>>> upstream/18.0
@@ -737,7 +860,11 @@ msgstr "עוקב"
 #: model:ir.model.fields,field_description:repair.field_stock_picking__is_repairable
 msgid "Is Repairable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן לתיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "ניתן לתיקון"
 >>>>>>> upstream/18.0
@@ -794,6 +921,11 @@ msgid ""
 "readiness status is ready."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"מצב זמינות החלקים האחרון עבור הוראת התיקון הזו. אם במצב ירוק, מצב המוכנות של"
+" הוראת התיקון הוא מוכן."
+>>>>>>> upstream/18.0
 =======
 "מצב זמינות החלקים האחרון עבור הוראת התיקון הזו. אם במצב ירוק, מצב המוכנות של"
 " הוראת התיקון הוא מוכן."
@@ -867,7 +999,11 @@ msgstr "סוג הפעילות הבאה"
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid "No repair order found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצאו הזמנות תיקון. בוא ניצור אחת!"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצאו הזמנות תיקון. בוא ניצור אחת!"
 >>>>>>> upstream/18.0
@@ -889,7 +1025,11 @@ msgstr "לא זמין"
 msgid ""
 "Note that the warehouses of the return and repair locations don't match!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שים לב שהמחסנים של מיקום ההחזרה והמיקום של התיקון אינם תואמים!"
+>>>>>>> upstream/18.0
 =======
 msgstr "שים לב שהמחסנים של מיקום ההחזרה והמיקום של התיקון אינם תואמים!"
 >>>>>>> upstream/18.0
@@ -903,7 +1043,11 @@ msgstr "מספר פעולות"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_late
 msgid "Number of Late Repair Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר של הזמנות תיקון באיחור"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר של הזמנות תיקון באיחור"
 >>>>>>> upstream/18.0
@@ -912,7 +1056,11 @@ msgstr "מספר של הזמנות תיקון באיחור"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_confirmed
 msgid "Number of Repair Orders Confirmed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר של הזמנות תיקון מאושרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר של הזמנות תיקון מאושרות"
 >>>>>>> upstream/18.0
@@ -921,7 +1069,11 @@ msgstr "מספר של הזמנות תיקון מאושרות"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_under_repair
 msgid "Number of Repair Orders Under Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר הזמנות תיקון שנמצאות בתיקון "
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר הזמנות תיקון שנמצאות בתיקון "
 >>>>>>> upstream/18.0
@@ -930,7 +1082,11 @@ msgstr "מספר הזמנות תיקון שנמצאות בתיקון "
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__count_repair_ready
 msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר הזמנות תיקון לעיבוד"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר הזמנות תיקון לעיבוד"
 >>>>>>> upstream/18.0
@@ -954,7 +1110,11 @@ msgstr "מספר הודעות עם שגיאת משלוח"
 #: model:ir.model.fields,field_description:repair.field_stock_picking__nbr_repairs
 msgid "Number of repairs linked to this picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר של הזמנו תיקון שקשורות לליקוט זה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר של הזמנו תיקון שקשורות לליקוט זה"
 >>>>>>> upstream/18.0
@@ -1002,7 +1162,11 @@ msgstr "חלקים"
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_availability_state
 msgid "Parts Availability State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב זמינות חלקים"
+>>>>>>> upstream/18.0
 =======
 msgstr "מצב זמינות חלקים"
 >>>>>>> upstream/18.0
@@ -1016,7 +1180,11 @@ msgstr "ממתין "
 #: model:ir.model.fields,field_description:repair.field_repair_order__picking_product_ids
 msgid "Picking Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ליקוט מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "ליקוט מוצר"
 >>>>>>> upstream/18.0
@@ -1048,7 +1216,11 @@ msgstr "מוצר"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product A"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוצר A"
+>>>>>>> upstream/18.0
 =======
 msgstr "מוצר A"
 >>>>>>> upstream/18.0
@@ -1057,7 +1229,11 @@ msgstr "מוצר A"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Product B"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוצר B"
+>>>>>>> upstream/18.0
 =======
 msgstr "מוצר B"
 >>>>>>> upstream/18.0
@@ -1066,7 +1242,11 @@ msgstr "מוצר B"
 #: model:ir.model.fields,field_description:repair.field_product_product__product_catalog_product_is_in_repair
 msgid "Product Catalog Product Is In Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קטלוג מוצרים מוצר בתוך תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "קטלוג מוצרים מוצר בתוך תיקון"
 >>>>>>> upstream/18.0
@@ -1076,7 +1256,11 @@ msgstr "קטלוג מוצרים מוצר בתוך תיקון"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_dest_id
 msgid "Product Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום יעד של מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום יעד של מוצר"
 >>>>>>> upstream/18.0
@@ -1101,7 +1285,11 @@ msgstr "כמות מוצרים"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_product_location_src_id
 msgid "Product Source Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום מקור של מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום מקור של מוצר"
 >>>>>>> upstream/18.0
@@ -1162,7 +1350,11 @@ msgstr "כמות"
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "RO123456"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RO123456"
+>>>>>>> upstream/18.0
 =======
 msgstr "RO123456"
 >>>>>>> upstream/18.0
@@ -1182,7 +1374,11 @@ msgstr "מוכן"
 #: model:ir.model.fields.selection,name:repair.selection__stock_move__repair_line_type__recycle
 msgid "Recycle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיחזור"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיחזור"
 >>>>>>> upstream/18.0
@@ -1191,7 +1387,11 @@ msgstr "מיחזור"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid "Recycle Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום יעד של מיחזור"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום יעד של מיחזור"
 >>>>>>> upstream/18.0
@@ -1210,7 +1410,11 @@ msgstr "הסר"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid "Remove Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום מקור של הסרה "
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום מקור של הסרה "
 >>>>>>> upstream/18.0
@@ -1219,7 +1423,11 @@ msgstr "מיקום מקור של הסרה "
 #: model:ir.model.fields,field_description:repair.field_repair_order__parts_location_id
 msgid "Removed Parts Destination Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום יעדים של חלקים שהוסרו"
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום יעדים של חלקים שהוסרו"
 >>>>>>> upstream/18.0
@@ -1237,7 +1445,11 @@ msgstr "תיקון "
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_mto_pull_id
 msgid "Repair MTO Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כלל ייצור לפי דרישה של תיקונים"
+>>>>>>> upstream/18.0
 =======
 msgstr "כלל ייצור לפי דרישה של תיקונים"
 >>>>>>> upstream/18.0
@@ -1252,7 +1464,11 @@ msgstr "הערות תיקון"
 #: model:ir.model.fields,field_description:repair.field_stock_warehouse__repair_type_id
 msgid "Repair Operation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סוג פעולת תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "סוג פעולת תיקון"
 >>>>>>> upstream/18.0
@@ -1270,7 +1486,11 @@ msgstr "הזמנת תיקון"
 #: model:ir.model.fields,field_description:repair.field_sale_order__repair_count
 msgid "Repair Order(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנות תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנות תיקון"
 >>>>>>> upstream/18.0
@@ -1301,7 +1521,11 @@ msgstr "תגיות הזמנות תיקונים"
 #: model:ir.actions.act_window,name:repair.action_repair_picking_type_kanban
 msgid "Repair Overview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סקירת תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "סקירת תיקון"
 >>>>>>> upstream/18.0
@@ -1310,7 +1534,11 @@ msgstr "סקירת תיקון"
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__repair_properties_definition
 msgid "Repair Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מאפייני תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "מאפייני תיקון"
 >>>>>>> upstream/18.0
@@ -1324,7 +1552,11 @@ msgstr "מזהה תיקון"
 #: model:ir.model.fields,field_description:repair.field_repair_order__repair_request
 msgid "Repair Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בקשת תיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "בקשת תיקון"
 >>>>>>> upstream/18.0
@@ -1351,7 +1583,11 @@ msgstr "תיקון חייב להיות בטיפול כדי לסיים אותו."
 #: code:addons/repair/models/stock_lot.py:0
 msgid "Repair orders of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנות תיקון של %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנות תיקון של %s"
 >>>>>>> upstream/18.0
@@ -1360,7 +1596,11 @@ msgstr "הזמנות תיקון של %s"
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repair_part_count
 msgid "Repair part count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות חלקי תיקון "
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות חלקי תיקון "
 >>>>>>> upstream/18.0
@@ -1375,7 +1615,11 @@ msgstr "תוקן"
 #: model:ir.model.fields,field_description:repair.field_stock_lot__repaired_count
 msgid "Repaired count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות תיקונים"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות תיקונים"
 >>>>>>> upstream/18.0
@@ -1428,7 +1672,11 @@ msgstr "החזר"
 #: model:ir.model.fields,help:repair.field_repair_order__picking_id
 msgid "Return Order from which the product to be repaired comes from."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ההזמנת החזרה שממנה מגיע המוצר לתיקון."
+>>>>>>> upstream/18.0
 =======
 msgstr "ההזמנת החזרה שממנה מגיע המוצר לתיקון."
 >>>>>>> upstream/18.0
@@ -1437,7 +1685,11 @@ msgstr "ההזמנת החזרה שממנה מגיע המוצר לתיקון."
 #: model:ir.model.fields,field_description:repair.field_stock_picking_type__return_type_of_ids
 msgid "Return Type Of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סוג החזרה של"
+>>>>>>> upstream/18.0
 =======
 msgstr "סוג החזרה של"
 >>>>>>> upstream/18.0
@@ -1468,7 +1720,11 @@ msgstr "שורת פריט בהזמנה"
 #: model:ir.model.fields,help:repair.field_repair_order__repair_request
 msgid "Sale Order Line Description."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיאור שורת הזמנת לקוח."
+>>>>>>> upstream/18.0
 =======
 msgstr "תיאור שורת הזמנת לקוח."
 >>>>>>> upstream/18.0
@@ -1477,7 +1733,11 @@ msgstr "תיאור שורת הזמנת לקוח."
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_line_id
 msgid "Sale Order Line from which the Repair Order comes from."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שורת הזמנת לקוח שממנה ההזמנת תיקון נוצרה."
+>>>>>>> upstream/18.0
 =======
 msgstr "שורת הזמנת לקוח שממנה ההזמנת תיקון נוצרה."
 >>>>>>> upstream/18.0
@@ -1486,7 +1746,11 @@ msgstr "שורת הזמנת לקוח שממנה ההזמנת תיקון נוצר
 #: model:ir.model.fields,help:repair.field_repair_order__sale_order_id
 msgid "Sale Order from which the Repair Order comes from."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנת לקוח שממנה נוצרה ההזמנת תיקון."
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנת לקוח שממנה נוצרה ההזמנת תיקון."
 >>>>>>> upstream/18.0
@@ -1516,7 +1780,11 @@ msgstr "חפש הזמנות תיקונים"
 #: code:addons/repair/models/repair.py:0
 msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נדרש להזין מספר סידורי כדי לבצע תיקון על מוצר: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "נדרש להזין מספר סידורי כדי לבצע תיקון על מוצר: %s"
 >>>>>>> upstream/18.0
@@ -1587,7 +1855,11 @@ msgstr "תגיות"
 #: model:ir.model.fields,help:repair.field_repair_order__reserve_visible
 msgid "Technical field to check when we can reserve quantities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני לבדיקה האם ניתן לשמור כמויות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני לבדיקה האם ניתן לשמור כמויות"
 >>>>>>> upstream/18.0
@@ -1616,7 +1888,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "This is a repair note."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זו הערת תיקון."
+>>>>>>> upstream/18.0
 =======
 msgstr "זו הערת תיקון."
 >>>>>>> upstream/18.0
@@ -1628,6 +1904,10 @@ msgid ""
 "repair orders with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זהו מיקום היעד ברירת המחדל עבור המוצר לתיקון בהוראות תיקון עם סוג פעולה זה."
+>>>>>>> upstream/18.0
 =======
 "זהו מיקום היעד ברירת המחדל עבור המוצר לתיקון בהוראות תיקון עם סוג פעולה זה."
 >>>>>>> upstream/18.0
@@ -1639,6 +1919,10 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זהו מיקום היעד ברירת המחדל למחזור כאשר יוצרים הוראת תיקון עם סוג פעולה זה."
+>>>>>>> upstream/18.0
 =======
 "זהו מיקום היעד ברירת המחדל למחזור כאשר יוצרים הוראת תיקון עם סוג פעולה זה."
 >>>>>>> upstream/18.0
@@ -1650,6 +1934,10 @@ msgid ""
 "order with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זהו מיקום היעד ברירת המחדל להסרה כאשר אתה יוצר הוראת תיקון עם סוג פעולה זה."
+>>>>>>> upstream/18.0
 =======
 "זהו מיקום היעד ברירת המחדל להסרה כאשר אתה יוצר הוראת תיקון עם סוג פעולה זה."
 >>>>>>> upstream/18.0
@@ -1661,6 +1949,11 @@ msgid ""
 " orders with this operation type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זהו מיקום המקור ברירת המחדל עבור המוצר לתיקון בהוראות תיקון עם סוג הפעולה "
+"הזו."
+>>>>>>> upstream/18.0
 =======
 "זהו מיקום המקור ברירת המחדל עבור המוצר לתיקון בהוראות תיקון עם סוג הפעולה "
 "הזו."
@@ -1671,7 +1964,11 @@ msgstr ""
 msgid ""
 "This is the location where the components of product to repair is located."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זהו המיקום שבו נמצאים הרכיבים של המוצר לתיקון."
+>>>>>>> upstream/18.0
 =======
 msgstr "זהו המיקום שבו נמצאים הרכיבים של המוצר לתיקון."
 >>>>>>> upstream/18.0
@@ -1686,7 +1983,11 @@ msgstr "זה המיקום בו נמצא המוצר לתיקון."
 #: model:ir.model.fields,help:repair.field_repair_order__recycle_location_id
 msgid "This is the location where the repair parts are located."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה המיקום שחלקי תיקון נמצאים."
+>>>>>>> upstream/18.0
 =======
 msgstr "זה המיקום שחלקי תיקון נמצאים."
 >>>>>>> upstream/18.0
@@ -1696,7 +1997,11 @@ msgstr "זה המיקום שחלקי תיקון נמצאים."
 #: model:ir.model.fields,help:repair.field_repair_order__product_location_dest_id
 msgid "This is the location where the repaired product is located."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זה המיקום שנמצא המוצר שתוקן. "
+>>>>>>> upstream/18.0
 =======
 msgstr "זה המיקום שנמצא המוצר שתוקן. "
 >>>>>>> upstream/18.0
@@ -1705,7 +2010,11 @@ msgstr "זה המיקום שנמצא המוצר שתוקן. "
 #: model_terms:ir.ui.view,arch_db:repair.stock_repair_type_kanban
 msgid "To Repair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לתיקון"
+>>>>>>> upstream/18.0
 =======
 msgstr "לתיקון"
 >>>>>>> upstream/18.0
@@ -1744,6 +2053,11 @@ msgid ""
 "False otherwise."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"נכון אם תיקון זה מקושר להזמנת החזרה וההזמנה נמצאת במצב \"בוצע\". לא נכון "
+"אחרת."
+>>>>>>> upstream/18.0
 =======
 "נכון אם תיקון זה מקושר להזמנת החזרה וההזמנה נמצאת במצב \"בוצע\". לא נכון "
 "אחרת."
@@ -1845,7 +2159,11 @@ msgstr "לא ניתן להזין כמויות שליליות."
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לבטל הזמנת תיקון שכבר בוצעה"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן לבטל הזמנת תיקון שכבר בוצעה"
 >>>>>>> upstream/18.0
@@ -1859,6 +2177,12 @@ msgid ""
 "%(ref_str)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"לא ניתן ליצור הצעת מחיר עבור הוראת תיקון שכבר מקושרת להזמנת לקוח קיימת.\n"
+"הוראות התיקון הרלוונטיות:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 =======
 "לא ניתן ליצור הצעת מחיר עבור הוראת תיקון שכבר מקושרת להזמנת לקוח קיימת.\n"
 "הוראות התיקון הרלוונטיות:\n"
@@ -1874,6 +2198,12 @@ msgid ""
 "%(ref_str)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"עליך להגדיר לקוח עבור הוראת התיקון על מנת ליצור הצעת מחיר מקושרת.\n"
+"הוראות התיקון הרלוונטיות:\n"
+"%(ref_str)s"
+>>>>>>> upstream/18.0
 =======
 "עליך להגדיר לקוח עבור הוראת התיקון על מנת ליצור הצעת מחיר מקושרת.\n"
 "הוראות התיקון הרלוונטיות:\n"

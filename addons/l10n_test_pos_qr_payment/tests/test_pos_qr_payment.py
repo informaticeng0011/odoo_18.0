@@ -22,7 +22,11 @@ class TestUiSEPA(TestPosQrCommon):
 
         # Setup QR Payment method for SEPA
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -86,7 +90,11 @@ class TestUiCH(TestPosQrCommon):
 
         # Setup QR Payment method for Swiss QR
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -150,7 +158,11 @@ class TestUiHK(TestPosQrCommon):
 
         # Setup QR Payment method for EMV(FPS)
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -209,7 +221,11 @@ class TestUIBR(TestPosQrCommon):
 
         # Setup QR Payment method for PIX
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0

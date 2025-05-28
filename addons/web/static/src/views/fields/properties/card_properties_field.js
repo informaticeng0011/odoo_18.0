@@ -15,6 +15,9 @@ export const cardPropertiesField = {
     component: CardPropertiesField,
 };
 
+<<<<<<< HEAD
 registry.category("fields").add("calendar.properties", cardPropertiesField);
+=======
+>>>>>>> upstream/18.0
 registry.category("fields").add("kanban.properties", cardPropertiesField);
 registry.category("fields").add("hierarchy.properties", cardPropertiesField);

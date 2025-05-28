@@ -8,3 +8,7 @@ from . import calendar_recurrence_rule
 from . import res_users
 from . import res_users_settings
 from . import calendar_attendee
+<<<<<<< HEAD
+=======
+from . import calendar_alarm_manager
+>>>>>>> upstream/18.0
