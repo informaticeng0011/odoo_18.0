@@ -18,5 +18,20 @@ export class PortalChatter extends Component {
             inFrontendPortalChatter: true,
         });
         this.overlayService = useService("overlay");
+<<<<<<< HEAD
+=======
+        this.store = useService("mail.store");
+        this.env.bus.addEventListener("reload_chatter_content", (ev) =>
+            this._reloadChatterContent(ev.detail)
+        );
+    }
+
+    async _reloadChatterContent(data) {
+        const thread = this.store.Thread.get({
+            id: this.props.resId,
+            model: this.props.resModel,
+        });
+        thread.messages = await thread.fetchMessages();
+>>>>>>> upstream/18.0
     }
 }

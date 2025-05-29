@@ -33,6 +33,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -112,6 +116,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    reversed_entry_id = fields.Many2one(tracking=True)
+>>>>>>> upstream/18.0
 =======
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
@@ -201,11 +209,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _compute_l10n_jo_edi_computed_xml(self):
         for invoice in self:
             xml_content = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
             invoice.l10n_jo_edi_computed_xml = base64.b64encode(xml_content)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -244,6 +255,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -379,7 +393,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return _("Request time out! Please try again.")
+=======
+            return _("Request timeout! Please try again.")
+>>>>>>> upstream/18.0
 =======
             return _("Request timeout! Please try again.")
 >>>>>>> upstream/18.0
@@ -570,6 +588,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.move_type == 'out_refund' and not self.reversed_entry_id:
+            error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')
+
+>>>>>>> upstream/18.0
 =======
         if self.move_type == 'out_refund' and not self.reversed_entry_id:
             error_msg += _('Please use "Reversal of" to link this credit note with an Invoice\n')

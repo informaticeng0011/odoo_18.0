@@ -428,7 +428,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
         )
         self.assertEqual(forecasted_qty[0]['product_qty'], 0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_picking_partner_with_several_so_and_same_supplier(self):
         """
@@ -517,4 +520,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
         self.assertEqual(xd_shipping.move_ids.product_id, xd_product)
         self.assertEqual(mto_shipping.move_ids.product_id, self.mto_product)
         self.assertEqual(mts_shipping.move_ids.product_id, mts_product)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

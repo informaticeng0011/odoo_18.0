@@ -1293,7 +1293,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 
     @patch_api
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_event_reminder_emails_with_google_id(self):
         """
         Odoo shouldn't send email reminders for synced events.
@@ -1337,6 +1340,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         self.assertFalse(events_by_alarm, "Events with google_id should not trigger reminders")
 
     @patch_api
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_attendee_state(self):
         user = new_test_user(self.env, login='calendar-user')

@@ -157,11 +157,14 @@ class EventTicket(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('seats_limited', 'seats_available')
     def _compute_is_sold_out(self):
         for ticket in self:
             ticket.is_sold_out = ticket.seats_limited and not ticket.seats_available
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208,6 +211,9 @@ class EventTicket(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

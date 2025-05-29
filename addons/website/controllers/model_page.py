@@ -37,6 +37,7 @@ from odoo.osv.expression import AND, OR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 >>>>>>> upstream/18.0
@@ -102,6 +103,8 @@ from odoo.addons.mail.tools.parser import domain_eval
 >>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.parser import domain_eval
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164,6 +167,7 @@ class ModelPageController(Controller):
         if not Model.has_access("read"):
             raise werkzeug.exceptions.Forbidden()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +267,9 @@ class ModelPageController(Controller):
 >>>>>>> upstream/18.0
 =======
         rec_domain = domain_eval(page.record_domain or "[]")
+>>>>>>> upstream/18.0
+=======
+        rec_domain = ast.literal_eval(page.record_domain or "[]")
 >>>>>>> upstream/18.0
 =======
         rec_domain = ast.literal_eval(page.record_domain or "[]")

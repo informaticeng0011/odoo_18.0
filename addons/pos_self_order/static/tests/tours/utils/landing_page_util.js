@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import { delay } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 export function selectLocation(locationName) {
     return {
         content: `Click on location '${locationName}'`,
@@ -33,3 +38,24 @@ export function checkCountryFlagShown(country_code) {
         trigger: `.self_order_language_selector > img[src*=${country_code}]`,
     };
 }
+<<<<<<< HEAD
+=======
+
+export function checkCarouselAutoPlaying() {
+    return {
+        content: `Check that the slideshow is working`,
+        trigger: `.carousel-item.active`,
+        timeout: 5600,
+        async run() {
+            const firstSlideHtml = document.querySelector(".carousel-item.active")?.outerHTML;
+            await delay(5000);
+            const currentSlideHtml = document.querySelector(".carousel-item.active")?.outerHTML;
+            if (firstSlideHtml === currentSlideHtml) {
+                throw new Error(
+                    "Slideshow is not working. Slide should change in all self ordering mode."
+                );
+            }
+        },
+    };
+}
+>>>>>>> upstream/18.0

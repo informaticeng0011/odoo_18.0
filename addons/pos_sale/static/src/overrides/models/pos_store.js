@@ -103,6 +103,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
+        sale_order.order_line = orderlines;
+>>>>>>> upstream/18.0
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
         sale_order.order_line = orderlines;

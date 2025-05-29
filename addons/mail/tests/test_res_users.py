@@ -83,7 +83,10 @@ class TestUser(MailCommon):
         self.assertNotIn(self.env.ref('mail.group_mail_notification_type_inbox'), user.groups_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         admin = mail_new_test_user(
             self.env,
             login="user_test_constraint_4",
@@ -105,6 +108,9 @@ class TestUser(MailCommon):
         self.assertEqual(admin.notification_type, 'email')
         self.assertNotIn(self.env.ref('mail.group_mail_notification_type_inbox'), admin.groups_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_web_create_users(self):
         src = [

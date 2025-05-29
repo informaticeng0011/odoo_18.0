@@ -427,7 +427,13 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
+=======
+    // Bootstrap.js is voluntarily ignored as it is deprecated
+    "Chart", // Chart.js
+    "DOMPurify", // DOMPurify
+>>>>>>> upstream/18.0
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
     "Chart", // Chart.js
@@ -516,9 +522,12 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "odoo",
     "owl",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -565,6 +574,9 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

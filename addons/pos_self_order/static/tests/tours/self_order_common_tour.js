@@ -21,6 +21,13 @@ registry.category("web_tour.tours").add("self_order_is_open_consultation", {
     ],
 });
 
+<<<<<<< HEAD
+=======
+registry.category("web_tour.tours").add("self_order_landing_page_carousel", {
+    steps: () => [Utils.checkIsNoBtn("My Order"), LandingPage.checkCarouselAutoPlaying()],
+});
+
+>>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("self_order_pos_closed", {
     steps: () => [
         LandingPage.isClosed(),

@@ -361,6 +361,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -410,6 +411,8 @@ class TestSaleOrder(SaleCommon):
         ]
         sol1, sol2, sol3, sol4 = self.sale_order.order_line
 =======
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         no_variant_attr = self.env['product.attribute'].create({
@@ -440,6 +443,9 @@ class TestSaleOrder(SaleCommon):
             }),
         ]
         sol1, sol2, sol3, sol4, sol5 = self.sale_order.order_line
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         sol1.name += "\nOK THANK YOU\nGOOD BYE"
 
@@ -464,6 +470,7 @@ class TestSaleOrder(SaleCommon):
             "Multi-line note should display the first line only",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +534,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertIn(f"{no_variant_attr.name}: {ptav1.name}", sol5.name.split('\n'))
         self.assertEqual(
             sol5.display_name,
@@ -534,6 +543,9 @@ class TestSaleOrder(SaleCommon):
             "Lines with attribute-based descriptions should display the product name",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_state_changes(self):
         """Test some untested state changes methods & logic."""

@@ -27,7 +27,10 @@ class AccountChartTemplate(models.AbstractModel):
                 'reconcile': False,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             'l10n_ng_withholding_payable': {
                 'name': _("Withholding Tax Payable"),
                 'code': '252003',
@@ -35,6 +38,9 @@ class AccountChartTemplate(models.AbstractModel):
                 'reconcile': True,
                 'non_trade': True,
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 

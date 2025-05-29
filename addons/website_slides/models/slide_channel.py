@@ -1318,6 +1318,12 @@ class Channel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _mail_get_partner_fields(self, introspect_fields=False):
+        return []
+>>>>>>> upstream/18.0
 =======
 
     def _mail_get_partner_fields(self, introspect_fields=False):

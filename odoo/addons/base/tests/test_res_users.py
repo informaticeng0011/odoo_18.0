@@ -378,7 +378,10 @@ class TestUsers2(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_update_user_groups_view(self):
@@ -390,6 +393,9 @@ class TestUsers2(TransactionCase):
         self.env['res.groups']._update_user_groups_view()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

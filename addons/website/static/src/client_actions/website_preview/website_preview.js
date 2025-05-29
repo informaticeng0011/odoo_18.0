@@ -58,6 +58,10 @@ import { getScrollingElement } from "@web/core/utils/scrolling";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { isBrowserMicrosoftEdge } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -407,7 +411,10 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -496,6 +503,9 @@ export class WebsitePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -36,7 +36,13 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string="Salesperson", comodel_name='res.users', domain="[('share', '=', False)]",
+=======
+        string="Salesperson",
+        comodel_name='res.users',
+        domain=[('share', '=', False)],
+>>>>>>> upstream/18.0
 =======
         string="Salesperson",
         comodel_name='res.users',
@@ -510,7 +516,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             salesperson_user_sudo = self.salesperson_id or partner_sudo.parent_id.user_id or partner_sudo.user_id
+=======
+            salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
+>>>>>>> upstream/18.0
 =======
             salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
 >>>>>>> upstream/18.0
@@ -642,8 +652,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 template.send_mail(sale_order.id, email_values={'email_to': sale_order.partner_id.email})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -664,6 +677,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

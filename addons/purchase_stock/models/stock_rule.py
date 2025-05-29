@@ -326,12 +326,18 @@ class StockRule(models.Model):
                 ('date_order', '>=', datetime.combine(procurement_date - relativedelta(days=delta_days), datetime.min.time()))
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         strict_partner_dest = self.env['ir.config_parameter'].sudo().get_param('purchase_stock.split_po')
         if strict_partner_dest:
             domain += (
                 ('dest_address_id', '=', values.get('partner_id', False)),
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if group:
             domain += (('group_id', '=', group.id),)

@@ -30,7 +30,10 @@ describe('Odoo fields', () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     it('should keep zero-width breaking space for empty inline editable', async () => {
         testEditor(BasicEditor, {
             contentBefore: '<div><span class="o_editable" data-oe-field="arch">\u200b</span></div>',
@@ -50,5 +53,8 @@ describe('Odoo fields', () => {
             }
         });
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

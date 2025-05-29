@@ -6,7 +6,10 @@ import { unformat } from "../_helpers/format";
 describe("move selection with tab/shift+tab", () => {
     describe("tab", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         test("should move cursor to the next th", async () => {
             await testEditor({
                 contentBefore: unformat(`
@@ -61,6 +64,9 @@ describe("move selection with tab/shift+tab", () => {
                 `),
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         test("should move cursor to the end of next cell", async () => {
             await testEditor({

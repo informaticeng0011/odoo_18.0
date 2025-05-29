@@ -6069,7 +6069,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
     async replaceMedia() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const sel = this.ownerDocument.getSelection();
@@ -6080,6 +6083,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
             sel.addRange(range);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7963,6 +7969,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();

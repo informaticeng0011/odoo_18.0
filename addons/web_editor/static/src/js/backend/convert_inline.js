@@ -183,7 +183,11 @@ function bootstrapToTable(editable) {
         masonryRow.parentElement.style.setProperty('height', '100%');
     }
 
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
     // Capture the widths of the containers before manipulating it.
     for (const container of containers) {
         container.setAttribute('o-temp-width', _getWidth(container));

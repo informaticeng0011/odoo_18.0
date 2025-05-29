@@ -24,6 +24,10 @@ from . import test_webmanifest
 from . import test_ir_qweb
 from . import test_reports
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_pivot_export
+>>>>>>> upstream/18.0
 =======
 from . import test_pivot_export
 >>>>>>> upstream/18.0

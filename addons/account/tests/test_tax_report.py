@@ -259,7 +259,10 @@ class TaxReportTest(AccountTestInvoicingCommon):
         self.assertEqual(tags_after.mapped('name'), ['+' + tag_name, '-' + tag_name], "After creating a tax report line with an archived tag and when its complement doesn't exist, both a negative and a positive tag should be created.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -322,6 +325,9 @@ class TaxReportTest(AccountTestInvoicingCommon):
         self.assertEqual(tags_after.mapped('name'), ['-Buny', '+Buny'])
         self.assertEqual(tags_after, tags_to_rename, "Changing the formula should have renamed the tags")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

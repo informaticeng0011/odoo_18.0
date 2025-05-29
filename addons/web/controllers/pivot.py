@@ -90,7 +90,11 @@ class TableExporter(http.Controller):
         x = 0
         for row in jdata['rows']:
 <<<<<<< HEAD
+<<<<<<< HEAD
             worksheet.write(y, x, row['indent'] * '     ' + row['title'], header_plain)
+=======
+            worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
+>>>>>>> upstream/18.0
 =======
             worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
 >>>>>>> upstream/18.0

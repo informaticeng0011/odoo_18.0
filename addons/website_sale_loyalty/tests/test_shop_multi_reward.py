@@ -8,10 +8,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Command
 from odoo.tests import TransactionCase, tagged
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,6 +40,9 @@ from odoo.addons.base.tests.common import TransactionCaseWithUserPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65,6 +71,7 @@ from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestClaimReward(TransactionCase):
 
     def test_claim_reward_with_multi_product(self):
@@ -76,6 +83,8 @@ class TestClaimReward(TransactionCase):
 
         product1, product2 = self.env['product.product'].create([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111,6 +120,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144,12 +156,16 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({
             'name': 'Test Customer',
             'email': 'test@example.com',
         })
 
         promo_program = self.env['loyalty.program'].create({
+=======
+        cls.promo_program, cls.coupon_program = cls.env['loyalty.program'].create([{
+>>>>>>> upstream/18.0
 =======
         cls.promo_program, cls.coupon_program = cls.env['loyalty.program'].create([{
 >>>>>>> upstream/18.0
@@ -196,6 +212,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             })]
         })
 
@@ -216,6 +233,8 @@ class TestClaimReward(TransactionCaseWithUserPortal):
             self.assertEqual(len(order.order_line), 2, 'reward line should be added to order')
             self.assertEqual(order.order_line[1].product_id, product2, 'added reward line should should contain product 2')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -311,6 +330,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

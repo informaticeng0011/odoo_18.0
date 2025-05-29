@@ -1606,7 +1606,11 @@ class UsersImplied(models.Model):
             return super(UsersImplied, self).write(values)
         users_before = self.filtered(lambda u: u._is_internal())
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super(UsersImplied, self).write(values)
+=======
+        res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
+>>>>>>> upstream/18.0
 =======
         res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
 >>>>>>> upstream/18.0
@@ -1616,6 +1620,12 @@ class UsersImplied(models.Model):
             vals = {'groups_id': [Command.clear()] + values['groups_id']}
             super(UsersImplied, demoted_users).write(vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('no_add_implied_groups'):
+            # in a recursive write, defer adding implied groups to the base call
+            return res
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('no_add_implied_groups'):
             # in a recursive write, defer adding implied groups to the base call
@@ -1786,7 +1796,11 @@ class GroupsView(models.Model):
             xml4.append({'class': "o_label_nowrap"})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else None
+=======
+            user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
+>>>>>>> upstream/18.0
 =======
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
 >>>>>>> upstream/18.0

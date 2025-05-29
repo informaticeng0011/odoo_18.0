@@ -424,10 +424,13 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get displayName() {
         if (this.channel_type === "chat" && this.correspondent) {
             return this.custom_channel_name || this.correspondent.persona.name;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -480,6 +483,9 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1081,9 +1087,13 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((newName && this.channel_type === "channel") ||
                 this.channel_type === "chat" ||
                 this.channel_type === "group")
+=======
+            ((newName && this.channel_type === "channel") || this.isChatChannel)
+>>>>>>> upstream/18.0
 =======
             ((newName && this.channel_type === "channel") || this.isChatChannel)
 >>>>>>> upstream/18.0
@@ -1153,7 +1163,11 @@ export class Thread extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } else if (this.channel_type === "chat") {
+=======
+            } else if (this.supportsCustomChannelName) {
+>>>>>>> upstream/18.0
 =======
             } else if (this.supportsCustomChannelName) {
 >>>>>>> upstream/18.0

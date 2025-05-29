@@ -49,7 +49,11 @@
                     <t t-if="!isInvisible(fieldInfo, slot.record)">
                         <li class="list-group-item d-flex text-nowrap align-items-center" t-att-class="fieldInfo.attrs.class"  t-att-data-tooltip="fieldType === 'html' ? '' : getFormattedValue(fieldId, slot.record)">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel">
+=======
+                            <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
+>>>>>>> upstream/18.0
 =======
                             <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
 >>>>>>> upstream/18.0

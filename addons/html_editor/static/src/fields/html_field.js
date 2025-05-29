@@ -353,6 +353,10 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
 =======
             editorConfig.classList = ["overflow-auto"];
 >>>>>>> upstream/18.0

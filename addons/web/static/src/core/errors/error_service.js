@@ -39,10 +39,13 @@ export class ThirdPartyScriptError extends UncaughtError {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const errorService = {
     start(env) {
         function handleError(uncaughtError, retry = true) {
 =======
+=======
+>>>>>>> upstream/18.0
 // outside the error service to avoid qunit memory leak
 let isUnloadingPage = false;
 window.addEventListener("beforeunload", () => {
@@ -59,6 +62,9 @@ export const errorService = {
                 uncaughtError.event.preventDefault();
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             function shouldLogError() {
                 // Only log errors that are relevant business-wise, following the heuristics:

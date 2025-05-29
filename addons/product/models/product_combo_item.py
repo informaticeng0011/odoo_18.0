@@ -15,7 +15,11 @@ class ProductComboItem(models.Model):
         string="Product",
         comodel_name='product.product',
 <<<<<<< HEAD
+<<<<<<< HEAD
         ondelete='cascade',
+=======
+        ondelete='restrict',
+>>>>>>> upstream/18.0
 =======
         ondelete='restrict',
 >>>>>>> upstream/18.0

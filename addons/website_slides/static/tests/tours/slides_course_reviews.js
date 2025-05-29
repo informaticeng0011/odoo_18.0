@@ -36,8 +36,22 @@ registry.category("web_tour.tours").add("course_reviews", {
             run: "click",
         },
         {
+<<<<<<< HEAD
             trigger: "a[id=review-tab]",
             run: "click",
+=======
+            trigger: ".o_wslides_course_header_nav_review",
+            run() {
+                const a = document.querySelector("a[id=review-tab]");
+                if (a.textContent !== "Reviews (1)") {
+                    throw Error("Text should be 'Reviews (1)'.")
+                }
+                a.click();
+            },
+        },
+        {
+            trigger: "#chatterRoot:shadow .o-mail-Message-textContent:contains(Great course!)",
+>>>>>>> upstream/18.0
         },
         {
             // If it fails here, it means the system is allowing you to add another review.
@@ -50,7 +64,16 @@ registry.category("web_tour.tours").add("course_reviews", {
         },
         {
             trigger: ".modal.modal_shown.show button.o_portal_chatter_composer_btn",
+<<<<<<< HEAD
             run: "click",
+=======
+            run() {
+                if (this.anchor.textContent !== "Update review") {
+                    throw Error("Button text should be 'Update review'.")
+                }
+                this.anchor.click();
+            },
+>>>>>>> upstream/18.0
         },
         {
             content: "Reload page (fetch message)",

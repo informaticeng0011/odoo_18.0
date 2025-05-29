@@ -283,7 +283,10 @@ class AccountReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -326,6 +329,9 @@ class AccountReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -739,12 +745,15 @@ class AccountReportExpression(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if vals.get('engine') == 'tax_tags':
             tag_name = vals.get('formula') or self.formula
             country = self.report_line_id.report_id.country_id
             self._create_tax_tags(tag_name, country)
             return super().write(vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         tax_tags_expressions = self.filtered(lambda x: x.engine == 'tax_tags')
@@ -763,6 +772,9 @@ class AccountReportExpression(models.Model):
 
             self.env['account.account.tag'].create(tags_create_vals)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -773,7 +785,10 @@ class AccountReportExpression(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_tags_expressions = self.filtered(lambda x: x.engine == 'tax_tags')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
