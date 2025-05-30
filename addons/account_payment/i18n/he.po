@@ -238,7 +238,11 @@ msgstr "שם לתצוגה"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצגת תשלומים פתוחים"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -255,12 +259,20 @@ msgstr "מידע על הנחה בתשלום מוקדם"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
 msgid "Early Payment Discount of"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הנחת תשלום מוקדם של "
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,description:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Enable credit & debit card payments supported by Stripe."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אפשר תשלומים בכרטיסי אשראי וחיוב הנתמכים על ידי Stripe."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__full_only
@@ -390,7 +402,11 @@ msgid "Next Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלומים הבאים"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלומים הבאים"
 >>>>>>> upstream/18.0
@@ -474,6 +490,11 @@ msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
+<<<<<<< HEAD
+=======
+"שימו לב כי אסימוני תשלום מספקים שהוגדרו לאשר עסקאות בלבד (ולא לגבות את "
+"הסכום) אינם זמינים."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
@@ -512,7 +533,11 @@ msgstr "חשבוניות באיחור צריכות לחלוק את אותו המ
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבוניות באיחור צריכות להיות עבור אותו לקוח/ספק."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
@@ -758,7 +783,11 @@ msgid "The provided parameters are invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפרמטרים שסופקו אינם תקינים."
+>>>>>>> upstream/18.0
 =======
 msgstr "הפרמטרים שסופקו אינם תקינים."
 >>>>>>> upstream/18.0
@@ -871,7 +900,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין סכום לתשלום."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -899,7 +932,11 @@ msgstr "אירעה שגיאה בעיבוד התשלום שלך: מזהה כרט�
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זו אינה ניתנת לתשלום באופן מקוון."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -911,7 +948,11 @@ msgstr "חשבונית זו כבר שולמה."
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זו לא נרשמה."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python

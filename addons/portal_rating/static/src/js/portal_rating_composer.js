@@ -37,7 +37,10 @@ const RatingPopupComposer = publicWidget.Widget.extend({
             'user_id': user.userId,
         }, options, {});
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -87,6 +90,11 @@ const RatingPopupComposer = publicWidget.Widget.extend({
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Change the text of send button
+        this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");
+>>>>>>> upstream/18.0
 =======
         // Change the text of send button
         this.options.send_button_label = this.options.default_message_id ? _t("Update review") : _t("Post review");

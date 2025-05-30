@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +57,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za aktivacijo \"%s\""
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__body_html
@@ -77,7 +89,11 @@ msgstr "Ustvarjeno"
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_review__module_ids
 msgid "Depending Apps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odvisne aplikacije"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__display_name
@@ -94,7 +110,11 @@ msgstr "ID"
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_review_view_form
 msgid "Install App"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Namestite aplikacijo"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__write_uid
@@ -111,7 +131,11 @@ msgstr "Zadnjič posodobljeno"
 #. module: base_install_request
 #: model:mail.template,name:base_install_request.mail_template_base_install_request
 msgid "Mail: Install Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošta: Zahteva za namestitev"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model,name:base_install_request.model_ir_module_module
@@ -123,43 +147,75 @@ msgstr "Modul"
 #. module: base_install_request
 #: model:ir.model,name:base_install_request.model_base_module_install_request
 msgid "Module Activation Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za aktivacijo modula"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:mail.template,subject:base_install_request.mail_template_base_install_request
 msgid "Module Activation Request for \"{{ object.module_id.shortdesc }}\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za aktivacijo modula za \"{{ object.module_id.shortdesc }}\""
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model,name:base_install_request.model_base_module_install_review
 msgid "Module Activation Review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled aktivacije modula"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_review__modules_description
 msgid "Modules Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis modulov"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_review_view_form
 msgid "No extra cost, this application is free."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brez dodatnih stroškov, ta aplikacija je brezplačna."
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #. odoo-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "No module selected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni izbran noben modul."
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.ir_module_module_view_kanban
 msgid "Request Access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za dostop"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Request Activation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za aktivacijo"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__user_ids
@@ -170,13 +226,21 @@ msgstr "Pošlji na:"
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_review_description
 msgid "The following apps will be installed:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nameščene bodo naslednje aplikacije:"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #. odoo-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "The module is already installed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modul je že nameščen."
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
@@ -184,6 +248,12 @@ msgid ""
 "This app is included in your subscription. It's free to activate, but only "
 "an administrator can do it. Fill this form to send an activation request."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ta aplikacija je vključena v vašo naročnino. Aktivacija je brezplačna, "
+"vendar jo lahko izvede le skrbnik. Izpolnite ta obrazec, da pošljete zahtevo"
+" za aktivacijo."
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__user_id
@@ -193,18 +263,30 @@ msgstr "Uporabnik"
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Why do you need this module?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakaj potrebujete ta modul?"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.actions.act_window,name:base_install_request.action_base_module_install_review
 msgid "You are about to install an extra application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Namestili boste dodatno aplikacijo"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #. odoo-python
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 msgid "Your request has been successfully sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša zahteva je bila uspešno poslana"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
@@ -212,3 +294,8 @@ msgid ""
 "e.g. I'd like to use the SMS Marketing module to organize the promotion of "
 "our internal events, and exhibitions. I need access for 3 people of my team."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Npr. rad bi uporabil modul SMS Marketing za organizacijo promocije naših "
+"internih dogodkov in razstav. Potrebujem dostop za 3 osebe iz moje ekipe."
+>>>>>>> upstream/18.0

@@ -80,10 +80,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             if partner.country_code == 'NL':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vals.update({
                     'company_id': partner.peppol_endpoint,
                     'company_id_attrs': {'schemeID': partner.peppol_eas},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 # For NL, VAT can be used as a Peppol endpoint, but KVK/OIN has to be used as PartyLegalEntity/CompanyID
@@ -94,6 +97,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                     'company_id': nl_id,
                     'company_id_attrs': {'schemeID': '0190' if len(nl_id) == 9 else '0106'},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -407,10 +413,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 'nl_r_003': _(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "%s should have a KVK or OIN number: the Peppol e-address (EAS) should be '0106' or '0190'.",
                     vals['supplier'].display_name
                 ) if vals['supplier'].peppol_eas not in ('0106', '0190') else '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     "%s should have a KVK or OIN number set in Company ID field or as Peppol e-address (EAS code 0106 or 0190).",
@@ -420,6 +429,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                     (not vals['supplier'].company_registry or len(vals['supplier'].company_registry) not in (8, 9))
                 ) else '',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -443,10 +455,13 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                     'nl_r_005': _(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "%s should have a KVK or OIN number: the Peppol e-address (EAS) should be '0106' or '0190'.",
                         vals['customer'].display_name
                     ) if vals['customer'].commercial_partner_id.peppol_eas not in ('0106', '0190') else '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         "%s should have a KVK or OIN number set in Company ID field or as Peppol e-address (EAS code 0106 or 0190).",
@@ -456,6 +471,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                         (not vals['customer'].commercial_partner_id.company_registry or len(vals['customer'].commercial_partner_id.company_registry) not in (8, 9))
                     ) else '',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

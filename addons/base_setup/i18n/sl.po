@@ -24,6 +24,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -111,7 +115,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -194,6 +202,15 @@ msgid ""
 "                                        Active Users\n"
 "                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"active_user_count &gt; 1\">\n"
+"                                        Aktivni uporabnik\n"
+"                                    </span>\n"
+"                                    <span class=\"o_form_label\" invisible=\"active_user_count &lt;= 1\">\n"
+"                                        Aktivni uporabniki\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -206,6 +223,16 @@ msgid ""
 "                                    </span>\n"
 "                                    <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"company_count &gt; 1\">\n"
+"                                        Podjetje\n"
+"                                    </span>\n"
+"                                    <span class=\"o_form_label\" invisible=\"company_count &lt;= 1\">\n"
+"                                        Podjetja\n"
+"                                    </span>\n"
+"                                    <br/>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -217,6 +244,15 @@ msgid ""
 "                                            Languages\n"
 "                                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"language_count &gt; 1\">\n"
+"                                            Jezik\n"
+"                                        </span>\n"
+"                                        <span class=\"o_form_label\" invisible=\"language_count &lt;= 1\">\n"
+"                                            Jeziki\n"
+"                                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -224,6 +260,11 @@ msgid ""
 "<strong>Save</strong> this page and come back here to choose your Geo "
 "Provider."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Shranite</strong> to stran in se vrnite sem, da izberete svojega "
+"ponudnika geolokacije."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -231,12 +272,21 @@ msgid ""
 "<strong>Save</strong> this page and come back here to set up Cloudflare "
 "turnstile."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Shranite</strong> to stran in se vrnite sem, da nastavite vrtljiv "
+"križ Cloudflare."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
 "<strong>Save</strong> this page and come back here to set up reCaptcha."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>Shranite</strong> to stran in se vrnite sem, da nastavite reCaptcha."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -254,7 +304,11 @@ msgid "API Keys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API Ključi"
+>>>>>>> upstream/18.0
 =======
 msgstr "API Ključi"
 >>>>>>> upstream/18.0
@@ -280,6 +334,11 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ključi API omogočajo vašim uporabnikom dostop do Odooja z zunanjimi orodji, "
+"ko je omogočeno večfaktorsko preverjanje pristnosti."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -301,7 +360,11 @@ msgid "Add Languages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj jezike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj jezike"
 >>>>>>> upstream/18.0
@@ -329,7 +392,11 @@ msgstr "Dodajte zabavne povratne informacije in motivirajte svoje zaposlene"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_mail_plugin
 msgid "Allow integration with the mail plugins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dovoli integracijo z vtičniki za pošto"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_calendar
@@ -362,7 +429,11 @@ msgstr "Samodejno zapolnite svojo bazo stikov s podatki o podjetju "
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Automatically generate counterpart documents in recipient companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno generiranje protidokumentov v podjetjih prejemnikih"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -370,6 +441,12 @@ msgid ""
 "By default, new users get highest access rights for all installed apps. If "
 "unchecked, new users will only have basic employee access."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Privzeto imajo novi uporabniki najvišje pravice dostopa za vse nameščene "
+"aplikacije. Če možnost ni označena, bodo imeli novi uporabniki le osnovni "
+"dostop za zaposlene."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -385,7 +462,11 @@ msgid "Cloudflare Turnstile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrtljivi križ Cloudflare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrtljivi križ Cloudflare"
 >>>>>>> upstream/18.0
@@ -418,7 +499,11 @@ msgstr "Podjetje"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_country_code
 msgid "Company Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koda države podjetja"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
@@ -446,6 +531,11 @@ msgid ""
 "Configure company rules to automatically create SO/PO when one of your "
 "company sells/buys to another of your company."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Konfigurirajte pravila podjetja za samodejno ustvarjanje SO/PO ko eno od "
+"vaših podjetij proda/kupi drugemu vašemu podjetju."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -467,12 +557,20 @@ msgstr "Privzete pravice dostopa"
 #. odoo-python
 #: code:addons/base_setup/models/res_config_settings.py:0
 msgid "Default User Template not found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzete uporabniške predloge ni bilo mogoče najti."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Document Layout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavitev dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__external_report_layout_id
@@ -490,6 +588,11 @@ msgid ""
 "Enable the profiling tool. Profiling may impact performance while being "
 "active."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Omogočite orodje za profiliranje. Profiliranje lahko vpliva na delovanje med"
+" aktivnostjo."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -510,12 +613,20 @@ msgstr "Splošne nastavitve"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_base_geolocalize
 msgid "GeoLocalize"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geolokaliziraj"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Geolocate your partners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geolokirajte svoje partnerje"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -540,7 +651,11 @@ msgstr "Uvoz in izvoz"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Integrate with mail client plugins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integracija z vtičniki poštnega odjemalca"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -570,7 +685,11 @@ msgid "Inter-Company Transactions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medpodjetniške transakcije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medpodjetniške transakcije"
 >>>>>>> upstream/18.0
@@ -635,7 +754,11 @@ msgstr "Medpodjetniške transakcije"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__is_root_company
 msgid "Is Root Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je korensko podjetje"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_auth_ldap
@@ -656,12 +779,20 @@ msgstr "Postavitev"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Mail Plugin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vtičnik za pošto"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Manage API Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje ključev API-ja"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -726,7 +857,11 @@ msgstr "Izvedba"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Permissions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dovoljenja"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -736,22 +871,38 @@ msgstr "Predogled dokumenta"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__profiling_enabled_until
 msgid "Profiling enabled until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Profiliranje omogočeno do"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Progressive Web App"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Progresivna spletna aplikacija"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms from spam and abuse."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaščitite svoje obrazce pred neželeno pošto in zlorabo."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms with CF Turnstile."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaščitite svoje obrazce s CF turnstile."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_sms
@@ -776,7 +927,11 @@ msgid "SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -878,6 +1033,10 @@ msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
 msgstr ""
+<<<<<<< HEAD
+=======
+"To ime bo uporabljeno za aplikacijo, ko bo Odoo nameščen prek brskalnika."
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
@@ -932,6 +1091,7 @@ msgid ""
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: base_setup
 <<<<<<< HEAD
@@ -1030,3 +1190,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr ""
+=======
+"Ko vnesete svoj imenik, Odoo prikaže seznam ustreznih podjetij. Ko izberete "
+"en element, se podatki o podjetju in logotip samodejno izpolnijo."
+
+#. module: base_setup
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr "Za uporabo te funkcije morate namestiti aplikacijo Discuss."
+
+#. module: base_setup
+#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+>>>>>>> upstream/18.0

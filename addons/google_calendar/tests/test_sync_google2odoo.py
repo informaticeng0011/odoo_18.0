@@ -1294,7 +1294,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
     @patch_api
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_event_reminder_emails_with_google_id(self):
@@ -1341,6 +1344,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 
     @patch_api
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

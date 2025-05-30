@@ -2625,7 +2625,10 @@ test(`Add filters and specific color`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4796,8 +4799,11 @@ test(`calendar render properties in popover`, async () => {
     const popover = getMockEnv().isSmall ? ".modal" : ".o_popover";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAllTexts(`${popover} .o_field_properties .o_card_property_field`)).toEqual([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     // Labels:
@@ -4808,6 +4814,9 @@ test(`calendar render properties in popover`, async () => {
     // Values:
     expect(queryAllTexts(`${popover} .o_calendar_property_field div.text-truncate`)).toEqual([
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -274,6 +274,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False
 =======
         values['vat_percent'] = '%.2f%%' % vat_percent if vat_percent > 0 else False
@@ -292,6 +293,9 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
         values['vat_percent'] = '%.2f%%' % vat_percent if vat_percent > 0 else False
+>>>>>>> upstream/18.0
+=======
+        values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False
 >>>>>>> upstream/18.0
 =======
         values['vat_percent'] = '%.2f' % vat_percent if vat_percent > 0 else False

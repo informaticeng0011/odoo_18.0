@@ -1279,7 +1279,11 @@ class MrpProduction(models.Model):
 
             new_qty = float_round((self.qty_producing - self.qty_produced) * move.unit_factor, precision_rounding=move.product_uom.rounding)
             move._set_quantity_done(new_qty)
+<<<<<<< HEAD
             if not move.manual_consumption or pick_manual_consumption_moves:
+=======
+            if (not move.manual_consumption or pick_manual_consumption_moves) and move.quantity:
+>>>>>>> upstream/18.0
                 move.picked = True
 
     def _should_postpone_date_finished(self, date_finished):
@@ -1815,7 +1819,11 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if regex.search(name) and sequence > 1:
+=======
+        if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
+>>>>>>> upstream/18.0
 =======
         if regex.search(name) and (max(self.procurement_group_id.mrp_production_ids.mapped("backorder_sequence")) > 1 or sequence > 1):
 >>>>>>> upstream/18.0

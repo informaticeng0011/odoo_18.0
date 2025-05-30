@@ -9,6 +9,10 @@ from . import test_ir_ui_menu
 from . import test_link_preview
 from . import test_mail_activity
 from . import test_mail_composer
+<<<<<<< HEAD
+=======
+from . import test_mail_mail
+>>>>>>> upstream/18.0
 from . import test_mail_message
 from . import test_mail_message_translate
 from . import test_mail_render

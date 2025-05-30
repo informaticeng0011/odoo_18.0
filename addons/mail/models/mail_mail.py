@@ -652,7 +652,16 @@ class MailMail(models.Model):
                         len(batch_ids), mail_server_id)
             finally:
                 if smtp_session:
+<<<<<<< HEAD
                     smtp_session.quit()
+=======
+                    try:
+                        smtp_session.quit()
+                    except smtplib.SMTPServerDisconnected:
+                        _logger.info(
+                            "Ignoring SMTPServerDisconnected while trying to quit non open session"
+                        )
+>>>>>>> upstream/18.0
 
     def _send(self, auto_commit=False, raise_exception=False, smtp_session=None, alias_domain_id=False,
               mail_server=False, post_send_callback=None):
@@ -787,6 +796,7 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             "Mail with ID %r and Message-Id %r from %r to (redacted) %r successfully sent",
                             mail.id,
                             mail.message_id,
@@ -794,6 +804,8 @@ class MailMail(models.Model):
                             tools.mail.email_anonymize(tools.email_normalize(msg['to']))
                         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -853,6 +865,9 @@ class MailMail(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

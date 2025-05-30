@@ -23,6 +23,7 @@ export function clickMenuDropdownOption(name) {
         run: "click",
     };
 }
+<<<<<<< HEAD
 export function isCashMoveButtonHidden() {
     return [
         {
@@ -30,6 +31,8 @@ export function isCashMoveButtonHidden() {
         },
     ];
 }
+=======
+>>>>>>> upstream/18.0
 export function endTour() {
     return {
         content: "Last tour step that avoids error mentioned in commit 443c209",

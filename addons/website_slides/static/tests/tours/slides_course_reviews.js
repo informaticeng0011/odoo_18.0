@@ -37,9 +37,12 @@ registry.category("web_tour.tours").add("course_reviews", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "a[id=review-tab]",
             run: "click",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: ".o_wslides_course_header_nav_review",
             run() {
                 const a = document.querySelector("a[id=review-tab]");
@@ -51,6 +54,9 @@ registry.category("web_tour.tours").add("course_reviews", {
         },
         {
             trigger: "#chatterRoot:shadow .o-mail-Message-textContent:contains(Great course!)",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
         {
@@ -65,14 +71,20 @@ registry.category("web_tour.tours").add("course_reviews", {
         {
             trigger: ".modal.modal_shown.show button.o_portal_chatter_composer_btn",
 <<<<<<< HEAD
+<<<<<<< HEAD
             run: "click",
 =======
+=======
+>>>>>>> upstream/18.0
             run() {
                 if (this.anchor.textContent !== "Update review") {
                     throw Error("Button text should be 'Update review'.")
                 }
                 this.anchor.click();
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
         {

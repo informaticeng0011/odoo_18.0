@@ -4,14 +4,21 @@
 # 
 # Translators:
 # shahriyar rzayev, 2024
+<<<<<<< HEAD
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # Jumshud Sultanov <cumshud@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
+=======
+# Jumshud Sultanov <cumshud@gmail.com>, 2025
+# erpgo translator <jumshud@erpgo.az>, 2025
+# Nurlan Farajov <coolinuxoid@gmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27,6 +34,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: erpgo translator <jumshud@erpgo.az>, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Nurlan Farajov <coolinuxoid@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Azerbaijani (https://app.transifex.com/odoo/teams/41243/az/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -582,6 +594,7 @@ msgstr ""
 "        <div t-if=\"object.partner_invoice_id\" style=\"margin: 0px; padding: 0px;\">\n"
 "            <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
 "                <tr>\n"
+<<<<<<< HEAD
 "                    <td style=“padding-top: 10px;”>\n"
 "                        <span style=“font-weight:bold;”>Faktura Ünvanı:</span>\n"
 "                        <t t-out=“object.partner_invoice_id.street or ‘’”>1201 S Figueroa St</t>\n"
@@ -589,10 +602,20 @@ msgstr ""
 "                        <t t-out=“object.partner_invoice_id.state_id.name or ‘’”>California</t>\n"
 "                        <t t-out=“object.partner_invoice_id.zip or ‘’”>90015</t>\n"
 "                        <t t-out=“object.partner_invoice_id.country_id.name or ‘’”>United States</t>\n"
+=======
+"                    <td style=\"padding-top: 10px;\">\n"
+"                        <span style=\"font-weight:bold;\">Faktura Ünvanı:</span>\n"
+"                        <t t-out=\"object.partner_invoice_id.street or ''\">1201 S Figueroa St</t>\n"
+"                        <t t-out=\"object.partner_invoice_id.city or ''\">Los Angeles</t>\n"
+"                        <t t-out=\"object.partner_invoice_id.state_id.name or ''\">California</t>\n"
+"                        <t t-out=\"object.partner_invoice_id.zip or ''\">90015</t>\n"
+"                        <t t-out=\"object.partner_invoice_id.country_id.name or ''\">United States</t>\n"
+>>>>>>> upstream/18.0
 "                    </td>\n"
 "                </tr>\n"
 "                <tr>\n"
 "                    <td>\n"
+<<<<<<< HEAD
 "                        <span style=“font-weight:bold;”>Ödəniş Metodu:</span>\n"
 "                        <t t-if=“tx_sudo.token_id”>\n"
 "                            <t t-out=“tx_sudo.token_id.display_name or ‘’”/>\n"
@@ -601,10 +624,21 @@ msgstr ""
 "                            <t t-out=“tx_sudo.provider_id.sudo().name or ‘’”/>\n"
 "                        </t>\n"
 "                        (<t t-out=“format_amount(tx_sudo.amount, object.currency_id) or ‘’”>$ 10.00</t>)\n"
+=======
+"                        <span style=\"font-weight:bold;\">Ödəniş Metodu:</span>\n"
+"                        <t t-if=\"tx_sudo.token_id\">\n"
+"                            <t t-out=\"tx_sudo.token_id.display_name or ''\"/>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <t t-out=\"tx_sudo.provider_id.sudo().name or ''\"/>\n"
+"                        </t>\n"
+"                        (<t t-out=\"format_amount(tx_sudo.amount, object.currency_id) or ''\">$ 10.00</t>)\n"
+>>>>>>> upstream/18.0
 "                    </td>\n"
 "                </tr>\n"
 "            </table>\n"
 "        </div>\n"
+<<<<<<< HEAD
 "        <div t-if=“object.partner_shipping_id and not object.only_services” style=“margin: 0px; padding: 0px;”>\n"
 "            <table width=“100%” style=“color: #454748; font-size: 12px;”>\n"
 "                <tr>\n"
@@ -636,6 +670,39 @@ msgstr ""
 "                    <td>\n"
 "                        <strong>Çatdırılma Təsviri:</strong>\n"
 "                        <t t-out=“object.carrier_id.carrier_description”/>\n"
+=======
+"        <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
+"            <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
+"                <tr>\n"
+"                    <td>\n"
+"                        <br/>\n"
+"                        <span style=\"font-weight:bold;\">Çatdırılma Ünvanı:</span>\n"
+"                        <t t-out=\"object.partner_shipping_id.street or ''\">1201 S Figueroa St</t>\n"
+"                        <t t-out=\"object.partner_shipping_id.city or ''\">Los Angeles</t>\n"
+"                        <t t-out=\"object.partner_shipping_id.state_id.name or ''\">California</t>\n"
+"                        <t t-out=\"object.partner_shipping_id.zip or ''\">90015</t>\n"
+"                        <t t-out=\"object.partner_shipping_id.country_id.name or ''\">United States</t>\n"
+"                    </td>\n"
+"                </tr>\n"
+"            </table>\n"
+"            <table t-if=\"hasattr(object, 'carrier_id') and object.carrier_id\" width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
+"                <tr>\n"
+"                    <td>\n"
+"                        <span style=\"font-weight:bold;\">Çatdırılma Metodu:</span>\n"
+"                        <t t-out=\"object.carrier_id.name or ''\"/>\n"
+"                        <t t-if=\"object.amount_delivery == 0.0\">\n"
+"                            (Pulsuz)\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            (<t t-out=\"format_amount(object.amount_delivery, object.currency_id) or ''\">$ 10.00</t>)\n"
+"                        </t>\n"
+"                    </td>\n"
+"                </tr>\n"
+"                <tr t-if=\"object.carrier_id.carrier_description\">\n"
+"                    <td>\n"
+"                        <strong>Çatdırılma Təsviri:</strong>\n"
+"                        <t t-out=\"object.carrier_id.carrier_description\"/>\n"
+>>>>>>> upstream/18.0
 "                    </td>\n"
 "                </tr>\n"
 "            </table>\n"
@@ -845,7 +912,11 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<i class=\"fa fa-print me-1\"/>View Details"
+<<<<<<< HEAD
 msgstr "<i class=“fa fa-print me-1”/>Ətraflı Bax"
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Ətraflı Bax"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1007,7 +1078,10 @@ msgstr "<span>Xəbərdarlıq: bu sifarişin dublikat ola bilər => </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1019,6 +1093,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1048,11 +1125,14 @@ msgstr "<strong>Satış Meneceri</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Çatdırılma Ünvanı</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5976,8 +6056,13 @@ msgid ""
 " }})"
 msgstr ""
 "{{ object.company_id.name }} {{ (object.get_portal_last_transaction().state "
+<<<<<<< HEAD
 "== ‘pending’) and ‘Gözlənilən Sifariş’ or ‘Sifariş’ }} (Ref {{ object.name "
 "or ’n/a’ }})"
+=======
+"== 'pending') and 'Gözlənilən Sifariş' or 'Sifariş' }} (Ref {{ object.name "
+"or 'n/a' }})"
+>>>>>>> upstream/18.0
 
 #. module: sale
 #: model:mail.template,subject:sale.email_template_edi_sale

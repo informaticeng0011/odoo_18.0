@@ -32,7 +32,11 @@ class MailRenderMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     blacklist=['/unsubscribe_from_list', '/view', '/cards/']
+=======
+                    blacklist=['/unsubscribe_from_list', '/view', '/cards']
+>>>>>>> upstream/18.0
 =======
                     blacklist=['/unsubscribe_from_list', '/view', '/cards']
 >>>>>>> upstream/18.0

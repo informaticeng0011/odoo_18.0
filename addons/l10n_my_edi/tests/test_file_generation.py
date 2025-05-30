@@ -60,6 +60,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0
@@ -253,7 +257,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         self._assert_node_values(
             root,
             'cac:AdditionalDocumentReference[descendant::*[local-name() = "DocumentType"]]/cbc:DocumentType',
+<<<<<<< HEAD
             'CustomsImportForm',
+=======
+            'K2',
+>>>>>>> upstream/18.0
         )
         self._assert_node_values(
             root,
@@ -417,6 +425,48 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
             invoice.l10n_my_edi_exemption_reason,
         )
 
+<<<<<<< HEAD
+=======
+    def test_08_bill_imports_form(self):
+        """
+        Ensure that when a bill contains a customs number; it is treated as an importation and not exportation.
+        """
+        bill = self.init_invoice(
+            'in_invoice', products=self.product_a
+        )
+        bill.write({
+            'l10n_my_edi_custom_form_reference': 'E12345678912',
+        })
+
+        bill.action_post()
+
+        file, _errors = bill._l10n_my_edi_generate_invoice_xml()
+        root = etree.fromstring(file)
+
+        self._assert_node_values(
+            root,
+            'cac:AdditionalDocumentReference[descendant::*[local-name() = "DocumentType"]]/cbc:DocumentType',
+            'CustomsImportForm',
+        )
+
+    def test_09_partner_ref_not_in_party_id(self):
+        """
+        Ensure that when an invoice contains a customs number; it is treated as an importation and not exportation.
+        """
+        invoice = self.init_invoice(
+            'out_invoice', products=self.product_a
+        )
+        invoice.action_post()
+
+        file, _errors = invoice._l10n_my_edi_generate_invoice_xml()
+        root = etree.fromstring(file)
+
+        # There should not be any ID without attribute
+        customer_root = root.xpath('cac:AccountingCustomerParty/cac:Party', namespaces=NS_MAP)[0]
+        node = customer_root.xpath('cac:PartyIdentification/cbc:ID[count(@*)=0]', namespaces=NS_MAP)
+        self.assertEqual(node, [])
+
+>>>>>>> upstream/18.0
     def _assert_node_values(self, root, node_path, text, attributes=None):
         node = root.xpath(node_path, namespaces=NS_MAP)
 

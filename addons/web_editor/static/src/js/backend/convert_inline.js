@@ -184,7 +184,11 @@ function bootstrapToTable(editable) {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
 =======
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
 >>>>>>> upstream/18.0

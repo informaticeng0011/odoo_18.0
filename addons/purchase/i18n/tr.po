@@ -32,11 +32,16 @@
 # Cengiz Cokay Global Nonwoven, 2025
 # Melih Melik Sonmez, 2025
 # Hakan Türkün, 2025
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +57,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Hakan Türkün, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,6 +125,12 @@ msgid ""
 ", it's 100% free! You'll save time creating beautiful quotations and track "
 "sales."
 msgstr ""
+<<<<<<< HEAD
+=======
+", %100 ücretsiz! Güzel görünümlü fiyat teklifleri oluşturmak konusunda "
+"vakitten tasarruf ederek satışları takip etmeye daha fazla zaman "
+"ayırabileceksiniz."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_qty_received_template
@@ -162,6 +178,35 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Sayın <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span> numaralı satın alma siparişinin teslimatının\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            <span style=\"font-weight:bold;\">(<t t-out=\"object.partner_ref or ''\">REF_XXX</t>)</span>\n"
+"        </t>\n"
+"        beklendiği tarihin \n"
+"        <t t-if=\"object.date_planned\">\n"
+"            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span> olduğunu hatırlatırız.\n"
+"        </t>\n"
+"         <t t-else=\"\">\n"
+"            <span style=\"font-weight:bold;\">tanımlanmamış</span>.\n"
+"        </t>\n"
+"        Vaktinde teslim edileceğini teyit eder misiniz?\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -193,6 +238,35 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Sayın <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Ekte, Satın Alma Siparişi <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            referans numarası: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        tutar: <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
+"        gönderen <t t-out=\"object.company_id.name or ''\">YourCompany</t>ni bulabilirsiniz. \n"
+"        <br/><br/>\n"
+"        <t t-if=\"object.date_planned\">\n"
+"            Faturanın ulaşması beklenen tarih: <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+"            <br/><br/>\n"
+"            Lütfen bu siparişin alındığını kabul edin.\n"
+"        </t>\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase
@@ -226,6 +300,37 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Sayın <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        Ekte, Fiyatlandırma Talebi <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            referans numarası: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        gönderen: <t t-out=\"object.company_id.name or ''\">YourCompany</t>ni bulabilirsiniz.\n"
+"        <br/><br/>\n"
+"        Herhangi bir sorunuz olursa lütfen bizimle iletişime geçmekten çekinmeyin.\n"
+"        <br/><br/>\n"
+"            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
+"                Kabul edin</a>\n"
+"\n"
+"            <a t-att-href=\"object.get_confirm_url(confirm_type='decline')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
+"                Reddedin</a>\n"
+"        <br/><br/>\n"
+"        Saygılarımızla,\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_partner_kanban_view
@@ -283,7 +388,11 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-print me-1\"/>Download / Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>İndirin / Yazdırın"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -318,16 +427,29 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Fiyatlandırma Talebi </span>\n"
+"                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Satın Alma Siparişi </span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"o_stat_text\">Bill Matching</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Fatura Eşleştirme</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Satın Alma Eşleştirmesi</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
@@ -341,6 +463,11 @@ msgid ""
 "<span class=\"text-muted\" invisible=\"not "
 "mail_reminder_confirmed\">(confirmed by vendor)</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">(satıcı"
+" tarafından teyit edildi)</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_partner_property_form
@@ -383,6 +510,7 @@ msgstr "<strong class=\"d-block mb-1\">Faturalar</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -391,10 +519,16 @@ msgstr "<strong class=\"d-block mb-1\">Faturalar</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -404,6 +538,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -418,7 +557,11 @@ msgstr "<strong>Tutar</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Buyer</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Alıcı</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -434,12 +577,20 @@ msgstr "<strong>Açıklama:</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Disc.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>İsk.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Expected Arrival:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Beklenen Varış:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
@@ -460,7 +611,11 @@ msgstr "<strong>Sipariş Zaman Sınırı:</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Payment Terms: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ödeme Koşulları: </strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -482,6 +637,7 @@ msgstr "<strong>Teklif Talebi Tarihi:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Sevkiyat adresi:</strong>"
@@ -492,6 +648,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -515,17 +673,29 @@ msgstr "<strong>Sipariş edilen miktar güncellendi.</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This purchase has been cancelled.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Bu alışveriş iptal edilmiştir.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been accepted.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Bu fiyat teklifi kabul edilmiştir.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This quotation has been declined.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Bu fiyat teklifi reddedilmiştir.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -535,7 +705,11 @@ msgstr "<strong>Birim Fiyat</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Your Order Reference</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sipariş Referansınız:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -544,6 +718,12 @@ msgid ""
 "supplier to deliver goods or services to the buyer at a preset price for a "
 "period of time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Açık satın alma siparişleri, bir alıcı ile bir tedarikçi arasında, alıcıya "
+"belirli bir süre için önceden belirlenmiş bir fiyattan mal veya hizmet "
+"teslim etmek üzere yapılan bir satın alma anlaşmasıdır."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -584,6 +764,12 @@ msgid ""
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ürün yapılandırmasına göre, alınan miktar mekanizma tarafından otomatik olarak hesaplanabilir:\n"
+"  - Manuel: miktar hat üzerinde manuel olarak ayarlanır\n"
+"  - Stok Hareketleri: miktar, onaylanmış toplamalardan gelir\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__account_move_id
@@ -623,7 +809,11 @@ msgstr "Aktivite Türü İmgesi"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 msgid "Add Down Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ön Ödeme Ekleyin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
@@ -660,13 +850,21 @@ msgstr "Teklifinize bazı ürünler veya hizmetler ekleyin."
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Add to PO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişine Ekleyin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Add to Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişine Ekleyin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
@@ -718,7 +916,11 @@ msgstr "Satınalma siparişlerini düzenlemeye izin ver"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__aml_id
 msgid "Aml"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aml"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__amount
@@ -862,12 +1064,20 @@ msgstr "Fatura Satırları"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Bill Matching"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fatura Eşleştirme"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_bill_to_po_wizard
 msgid "Bill to Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişiyle Faturalandırın"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -878,7 +1088,11 @@ msgstr "Faturalanan"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__billed_amount_untaxed
 msgid "Billed Amount Untaxed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergisiz Faturalandırılan Tutar"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_invoiced
@@ -957,7 +1171,11 @@ msgstr "İptal Edilen Satınalma Siparişi #"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order_line.py:0
 msgid "Cannot delete a purchase order line which is in state “%s”."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "“%s” durumunda olan satın alma siparişi satırı silinemiyor."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1008,7 +1226,11 @@ msgstr "Şirket Para Birimi"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_total_cc
 msgid "Company Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şirket Toplamı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -1073,13 +1295,21 @@ msgstr "Onaylanan satınalma siparişleri düzenlenemez"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Connect with your software!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yazılımınızla bağlantı kurun!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "Connect your software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yazılımınızı bağlayın"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
@@ -1217,7 +1447,11 @@ msgstr "Reddet"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__company_price_include
 msgid "Default Sales Price Include"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsayılan Satış Fiyatı Dahil"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__company_price_include
@@ -1225,6 +1459,11 @@ msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu Şirket ile ürün ve faturalarda kullanılan satış fiyatının vergilerini "
+"içerip içermediği konusunda varsayılan."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_bill_line_match__product_uom_id
@@ -1324,7 +1563,11 @@ msgstr "Çift onay tutarı"
 #. odoo-python
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid "Down Payment (ref: %(ref)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ön Ödeme (ref: %(ref)s)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -1348,6 +1591,11 @@ msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
 "quotations in Odoo. Enjoy the automation!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fiyatlandırma talebi PDF dosyasını Odoo'daki teklifler listenize sürükleyip "
+"bırakın. Otomasyonun tadını çıkarın!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
@@ -1380,12 +1628,20 @@ msgstr "Mali Durum"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Follow orders you have to fulfill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamamlamanız gereken siparişleri takip edin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Follow your Requests for Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyatlandırma Taleplerinizi takip edin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_follower_ids
@@ -1417,7 +1673,11 @@ msgstr "%sden "
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elektronik Belgeden"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__invoiced
@@ -1546,11 +1806,20 @@ msgid ""
 "In selected purchase order to merge these details must be same\n"
 "Vendor, currency, destination, dropship address and agreement"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Birleştirmek için seçilen satın alma siparişinde şu ayrıntılar\n"
+"aynı olmalıdır: Satıcı, para birimi, varış yeri, dropship adresi ve sözleşme"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_view_search_catalog
 msgid "In the Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişte"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_id
@@ -1596,13 +1865,21 @@ msgstr "Takipçi mi"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__is_in_purchase_order
 msgid "Is In Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişinde Yer Alıyor"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__is_purchase_matched
 #: model:ir.model.fields,field_description:purchase.field_account_move__is_purchase_matched
 msgid "Is Purchase Matched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Eşleşti"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move
@@ -1680,17 +1957,29 @@ msgstr "Onay Seviyeleri*"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_amount_untaxed
 msgid "Line Amount Untaxed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satır Tutarı (Vergisiz)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_qty
 msgid "Line Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satır Miktarı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__line_uom_id
 msgid "Line Uom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satır Ölçü Birimi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1720,7 +2009,11 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Manage blanket orders and purchase templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Açık siparişleri ve satın alma şablonlarını yönetin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__qty_received_method__manual
@@ -1928,7 +2221,11 @@ msgstr "Kabul Edilmedi"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Not using Odoo?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo kullanmıyor musunuz"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -2084,7 +2381,11 @@ msgstr "Siparişler"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişin vadesi: %(date)s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -2094,7 +2395,11 @@ msgstr "Diğer Bilgiler"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Our Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişlerimiz"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_id
@@ -2141,7 +2446,11 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
 msgid "Pol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pol"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_url
@@ -2225,12 +2534,20 @@ msgstr "Ürün Türü"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_price
 msgid "Product Uom Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün B.F. Fiyatı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty
 msgid "Product Uom Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün B.F. Miktarı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
@@ -2281,7 +2598,11 @@ msgstr "Satınalma Sözleşmeleri"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__purchase_amount_untaxed
 msgid "Purchase Amount Untaxed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Tutarı (Vergisiz)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
@@ -2294,7 +2615,11 @@ msgstr "Satınalma Analizi"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Purchase Bill Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Fatura Satırları"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
@@ -2327,13 +2652,21 @@ msgstr "Satınalma Tedarik Süresi"
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_bill_line_match
 msgid "Purchase Line and Vendor Bill line matching view"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Satırı ve Satıcı Faturası satır eşleştirme görünümü"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Eşleştirmesi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2425,13 +2758,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_order_name
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_order_name
 msgid "Purchase Order Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişi Adı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_warn
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_warn
 msgid "Purchase Order Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişi Uyarısı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2615,12 +2956,21 @@ msgstr "Teklif Talebi Gönderildi"
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Fiyatlandırma Talebi, %(oldest_rfq_name)s ve %(cancelled_rfq)s ile "
+"birleştirilmiştir"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "RFQ merged with %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyatlandırma Talebi %s ile birleştirildi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
@@ -2651,7 +3001,11 @@ msgstr "E-posta ile Yeniden Gönder"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Read the documentation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokümantasyonu okuyun"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__group_send_reminder
@@ -2704,7 +3058,11 @@ msgstr "Alım Onaylandı"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reception_declined
 msgid "Reception Declined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teslimat Reddedildi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
@@ -2868,7 +3226,11 @@ msgstr "Güvenlik Token"
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişine eklemek için Satıcı Fatura satırlarını seçin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
@@ -2990,7 +3352,11 @@ msgstr "Yıldızlı"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Start on Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo ile başlayın"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
@@ -3135,13 +3501,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been acknowledged by %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyatlandırma talebini aldığını doğrulayan: %s."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The RFQ has been declined by %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyatlandırma talebini reddeden: %s."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3153,7 +3527,11 @@ msgstr "Sipariş makbuzu %s tarafından onaylandı."
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "The order receipt has been declined by %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sipariş makbuzu %s tarafından reddedildi."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -3173,6 +3551,11 @@ msgid ""
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Satıcı bu onaylanmış fiyatlandırma talebini reddetmek istedi; eğer bunu "
+"kabul ediyorsanız, bu satın alma siparişini iptal edin"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -3189,7 +3572,11 @@ msgstr "Şu anda hesabınız için herhangi bir teklif talebi yok."
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın Alma Siparişine eklenecek ürün yok. Bunlar Peşinat mı?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3249,13 +3636,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu satıcı faturası şuradan oluşturulmuştur: "
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu satıcı faturası değiştirilmiştir:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -3312,7 +3707,11 @@ msgstr "Toplam"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
 msgid "Total Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturalanan Toplam"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -3322,7 +3721,11 @@ msgstr "Toplam Satınalınan"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
 msgid "Total Qty purchased"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplam Satın Alınan Miktar"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom_qty
@@ -3332,7 +3735,11 @@ msgstr "Toplam Miktar"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_tree
 msgid "Total Untaxed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergisiz Toplam"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
@@ -3351,7 +3758,11 @@ msgstr "Toplam tutar"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_history_pivot
 msgid "Total purchased amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Toplam Satın Alma Tutarı"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_confirmed
@@ -3361,7 +3772,11 @@ msgstr "Satınalma siparişi tedarikçi tarafından onaylanırsa doğrudur."
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_declined
 msgid "True if PO reception is declined by the vendor."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Satın alma siparişinin ulaştığı satıcı tarafından reddedilirse doğru."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reminder_confirmed
@@ -3386,6 +3801,11 @@ msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
 "vendor bills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Satın alma sipariş(ler)i iptal edilemiyor: %s. Öncelikle ilgili satıcı "
+"faturalarını iptal etmelisiniz."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -3478,6 +3898,11 @@ msgid ""
 "Use the above REST URL to get structured data of the purchase order in UBL "
 "format."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Satın alma siparişinin yapılandırılmış verilerini UBL formatında almak için "
+"yukarıdaki REST URL'sini kullanın."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
@@ -3515,6 +3940,10 @@ msgstr "Tedarikçi Faturası"
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Satıcı Faturası satırları yalnızca bir Satın Alma Siparişine eklenebilir."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
@@ -3603,7 +4032,11 @@ msgstr "Bekleme Teklif Talepleri"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Want to import this document in Odoo?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu belgeyi Odoo'ya mı aktarmak istiyorsunuz?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3690,6 +4123,10 @@ msgstr ""
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "You can't select lines from multiple Vendor Bill to do the matching."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Eşleştirme yapmak için birden fazla Satıcı Faturasından satır seçemezsiniz."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3705,6 +4142,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "You don't use a good CRM software?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"İyi bir Müşteri İlişkileri Yönetimi (CRM) yazılımı kullanmıyor musunuz?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_product_action
@@ -3730,6 +4171,11 @@ msgstr ""
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Eşleştirmek veya fatura oluşturmak için en az bir Satın Alma Siparişi satırı"
+" seçmelisiniz."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -3754,24 +4200,40 @@ msgstr "günler önce"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 msgid "or create new"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "veya yeni oluşturun"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "purchase orders merged"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "satın alma siparişleri birleştirildi"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "to create quotes automatically."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "otomatik teklif oluşturmak için."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "to learn all the ways to connect your software with"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "yazılımınızı şunlarla bağlamanın tüm yollarını öğrenmek için"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document

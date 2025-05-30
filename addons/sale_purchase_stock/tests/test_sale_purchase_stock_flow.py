@@ -429,7 +429,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
         self.assertEqual(forecasted_qty[0]['product_qty'], 0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -521,6 +524,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
         self.assertEqual(mto_shipping.move_ids.product_id, self.mto_product)
         self.assertEqual(mts_shipping.move_ids.product_id, mts_product)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

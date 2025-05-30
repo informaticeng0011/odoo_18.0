@@ -251,10 +251,13 @@ class PosConfig(models.Model):
                 'data': image.sudo().datas.decode('utf-8'),
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             # Only one image is needed for the mobile mode
             if self.self_ordering_mode == 'mobile':
                 break
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return encoded_images

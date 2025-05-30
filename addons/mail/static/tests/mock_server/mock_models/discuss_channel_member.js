@@ -3,6 +3,11 @@ import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 import { fields, getKwArgs, makeKwArgs, models } from "@web/../tests/web_test_helpers";
 import { serializeDateTime, today } from "@web/core/l10n/dates";
 
+<<<<<<< HEAD
+=======
+const { DateTime } = luxon;
+
+>>>>>>> upstream/18.0
 export class DiscussChannelMember extends models.ServerModel {
     _name = "discuss.channel.member";
 
@@ -37,7 +42,15 @@ export class DiscussChannelMember extends models.ServerModel {
                 channel,
                 "mail.record/insert",
                 new mailDataHelpers.Store(DiscussChannelMember.browse(member.id))
+<<<<<<< HEAD
                     .add("discuss.channel.member", { id: member.id, isTyping: is_typing })
+=======
+                    .add("discuss.channel.member", {
+                        id: member.id,
+                        isTyping: is_typing,
+                        is_typing_dt: serializeDateTime(DateTime.now()),
+                    })
+>>>>>>> upstream/18.0
                     .get_result(),
             ]);
         }

@@ -38,14 +38,20 @@ class MailActivityPlan(models.Model):
     def _compute_res_model_id(self):
         for plan in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
             plan.res_model_id = self.env['ir.model']._get_id(plan.res_model)
 =======
+=======
+>>>>>>> upstream/18.0
             if plan.res_model:
                 # New records may not have the required "res_model" field set yet
                 # (in onchange)
                 plan.res_model_id = self.env['ir.model']._get_id(plan.res_model)
             else:
                 plan.res_model_id = False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.constrains('res_model')

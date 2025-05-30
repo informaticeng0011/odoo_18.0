@@ -31,7 +31,10 @@ describe('Odoo fields', () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     it('should keep zero-width breaking space for empty inline editable', async () => {
@@ -54,6 +57,9 @@ describe('Odoo fields', () => {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

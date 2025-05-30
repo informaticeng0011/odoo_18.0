@@ -43,7 +43,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Boolean,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81,8 +84,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_REGEX_PATTERN = /^\/(.*)\/([dgimsuvy]+)?$/;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153,6 +159,9 @@ const DEBUG_NAMESPACE = "hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -235,6 +244,7 @@ export function dispatchInteraction(type, name, args, returnValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeInteractorFn = (type, fn, name) =>
     ({
         [name](...args) {
@@ -255,6 +265,8 @@ const makeInteractorFn = (type, fn, name) =>
         },
     }[name]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -309,6 +321,9 @@ export function exposeHelpers(...helpers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -388,6 +403,7 @@ export function isIterable(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return Boolean(object && typeof object === "object" && object[Symbol.iterator]);
 }
 
@@ -438,6 +454,8 @@ export function isRegExpFilter(filter) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     return !!(object && typeof object === "object" && object[Symbol.iterator]);
 }
 
@@ -447,6 +465,9 @@ export function isRegExpFilter(filter) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -463,6 +484,7 @@ export function isRegExpFilter(filter) {
  * @returns {string | RegExp}
  */
 export function parseRegExp(value, options) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +533,8 @@ export function parseRegExp(value, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const regexParams = value.match(R_REGEX);
     if (regexParams) {
         const unified = regexParams[1].replace(R_WHITE_SPACE, "\\s+");
@@ -529,6 +553,9 @@ export function parseRegExp(value, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -603,10 +630,13 @@ export function toSelector(node, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,10 +688,13 @@ export class HootDebugHelpers {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class HootDomError extends Error {
     name = "HootDomError";
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -693,6 +726,9 @@ export const R_WHITE_SPACE = /\s+/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

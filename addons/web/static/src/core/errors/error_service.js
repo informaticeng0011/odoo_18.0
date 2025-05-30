@@ -40,10 +40,13 @@ export class ThirdPartyScriptError extends UncaughtError {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const errorService = {
     start(env) {
         function handleError(uncaughtError, retry = true) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 // outside the error service to avoid qunit memory leak
@@ -63,6 +66,9 @@ export const errorService = {
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

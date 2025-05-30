@@ -201,6 +201,12 @@ Featuring
             ('remove', 'website_slides/static/tests/tours/**/*'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'portal.assets_chatter': [
+            'website_slides/static/src/chatter/frontend/**/*',
+        ],
+>>>>>>> upstream/18.0
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',

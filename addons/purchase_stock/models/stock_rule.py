@@ -327,7 +327,10 @@ class StockRule(models.Model):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         strict_partner_dest = self.env['ir.config_parameter'].sudo().get_param('purchase_stock.split_po')
@@ -336,6 +339,9 @@ class StockRule(models.Model):
                 ('dest_address_id', '=', values.get('partner_id', False)),
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

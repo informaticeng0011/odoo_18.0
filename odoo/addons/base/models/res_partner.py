@@ -91,6 +91,12 @@ class FormatAddressMixin(models.AbstractModel):
                     except ValueError:
                         return arch
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
+                if new_address_node is not None:
+                    sub_arch = new_address_node
+>>>>>>> upstream/18.0
 =======
                 new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
                 if new_address_node is not None:

@@ -7,6 +7,10 @@ from odoo import api, fields, models
 from odoo.tools import plaintext2html
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -147,7 +151,10 @@ class AlarmManager(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -159,6 +166,9 @@ class AlarmManager(models.AbstractModel):
         return SQL("")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173,6 +183,7 @@ class AlarmManager(models.AbstractModel):
         already.
         """
         lastcall = self.env.context.get('lastcall', False) or fields.date.today() - relativedelta(weeks=1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         now = fields.Datetime.now()
@@ -190,6 +201,8 @@ class AlarmManager(models.AbstractModel):
                AND "event"."start" - CAST("alarm"."duration" || ' ' || "alarm"."interval" AS Interval) < %s
              )''', [alarm_type, lastcall, now])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         extra_conditions = self._get_notify_alert_extra_conditions()
@@ -213,6 +226,9 @@ class AlarmManager(models.AbstractModel):
             extra_conditions,
         ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

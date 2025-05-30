@@ -208,7 +208,10 @@ def test_standalone(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     threading.current_thread().dbname = args.database
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319,7 +322,11 @@ def test_standalone(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.info("%d standalone scripts executed in %.2fs" % (len(funcs), time.time() - start_time))
+=======
+    _logger.info("%d standalone scripts executed in %.2fs", len(funcs), time.time() - start_time)
+>>>>>>> upstream/18.0
 =======
     _logger.info("%d standalone scripts executed in %.2fs", len(funcs), time.time() - start_time)
 >>>>>>> upstream/18.0
@@ -441,6 +448,10 @@ if __name__ == '__main__':
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    config['dbname'] = threading.current_thread().dbname = args.database
+>>>>>>> upstream/18.0
 =======
     config['dbname'] = threading.current_thread().dbname = args.database
 >>>>>>> upstream/18.0

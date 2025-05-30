@@ -11,6 +11,15 @@ from werkzeug.urls import url_encode, url_join
 from odoo import _, api, fields, models, tools
 from odoo.exceptions import AccessError, UserError
 
+<<<<<<< HEAD
+=======
+GMAIL_TOKEN_REQUEST_TIMEOUT = 5
+
+# seconds removed from end-of-validity datetime to take into account the time
+# needed to renew the token and open the new smtp session
+GMAIL_TOKEN_VALIDITY_THRESHOLD = GMAIL_TOKEN_REQUEST_TIMEOUT + 5
+
+>>>>>>> upstream/18.0
 _logger = logging.getLogger(__name__)
 
 
@@ -126,7 +135,11 @@ class GoogleGmailMixin(models.AbstractModel):
                 'redirect_uri': redirect_uri,
                 **values,
             },
+<<<<<<< HEAD
             timeout=5,
+=======
+            timeout=GMAIL_TOKEN_REQUEST_TIMEOUT,
+>>>>>>> upstream/18.0
         )
 
         if not response.ok:
@@ -146,7 +159,11 @@ class GoogleGmailMixin(models.AbstractModel):
         now_timestamp = int(time.time())
         if not self.google_gmail_access_token \
            or not self.google_gmail_access_token_expiration \
+<<<<<<< HEAD
            or self.google_gmail_access_token_expiration < now_timestamp:
+=======
+           or self.google_gmail_access_token_expiration - GMAIL_TOKEN_VALIDITY_THRESHOLD < now_timestamp:
+>>>>>>> upstream/18.0
 
             access_token, expiration = self._fetch_gmail_access_token(self.google_gmail_refresh_token)
 

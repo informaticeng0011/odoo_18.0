@@ -7,7 +7,10 @@ describe("move selection with tab/shift+tab", () => {
     describe("tab", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         test("should move cursor to the next th", async () => {
@@ -65,6 +68,9 @@ describe("move selection with tab/shift+tab", () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -37,12 +37,18 @@ class TestSelfOrderCommon(SelfOrderCommonTest):
         self.start_tour(self_route, "self_order_is_open_consultation")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_self_order_pos_landing_page_carousel(self):
         for mode in ("mobile", "consultation", "kiosk"):
             self.pos_config.write({"self_ordering_mode": mode})
             self.start_tour(self.pos_config._get_self_order_route(), "self_order_landing_page_carousel")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_self_order_pos_closed(self):
         """

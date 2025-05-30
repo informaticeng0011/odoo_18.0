@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Tony Ng, 2025
 # Wil Odoo, 2025
 =======
@@ -195,6 +196,11 @@
 >>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
+# Tony Ng, 2025
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Pak Wai Ho, 2025
 # Tony Ng, 2025
 >>>>>>> upstream/18.0
 # 
@@ -202,6 +208,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +404,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -531,7 +543,11 @@ msgid "# Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# 企業帳單"
+=======
+msgstr "# 供應商賬單"
+>>>>>>> upstream/18.0
 =======
 msgstr "# 供應商賬單"
 >>>>>>> upstream/18.0
@@ -1813,7 +1829,11 @@ msgid "<span>Disc.%</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>折扣率%</span>"
+=======
+msgstr "<span>折扣 %</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>折扣 %</span>"
 >>>>>>> upstream/18.0
@@ -1966,6 +1986,7 @@ msgstr "<span>警告：此文件可能與以下項目重複：</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1982,6 +2003,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
+msgstr "<strong class=\"d-block mt-3\">送貨地址</strong>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 >>>>>>> upstream/18.0
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr "<strong class=\"mr16\">小計</strong>"
@@ -2051,11 +2079,14 @@ msgstr "<strong>參考</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>送貨地址</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2117,7 +2148,10 @@ msgstr "<strong>類型：</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2182,6 +2216,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2273,7 +2310,10 @@ msgstr "同一個銀行賬戶，只能連結至單一流水賬戶。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2339,6 +2379,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3371,7 +3414,11 @@ msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始確認"
+=======
+msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始認列"
+>>>>>>> upstream/18.0
 =======
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {date} 開始認列"
 >>>>>>> upstream/18.0
@@ -3458,7 +3505,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，由 {new_date} 開始確認"
+=======
+msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，於 {new_date} 認列"
+>>>>>>> upstream/18.0
 =======
 msgstr "調整記項 {link} 款項 {amount} 的 {percent}%% ，於 {new_date} 認列"
 >>>>>>> upstream/18.0
@@ -4464,6 +4515,7 @@ msgstr "銀行帳戶"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "銀行賬戶 %(link)s（號碼 %(number)s）已被刪除"
 =======
@@ -4545,6 +4597,10 @@ msgstr ""
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "銀行賬戶 %(link)s（號碼 %(number)s）已封存"
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -5148,7 +5204,10 @@ msgstr "無法從不使用“整合”引擎的明細獲取整合詳細訊息"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5212,6 +5271,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5758,6 +5820,7 @@ msgstr "商業實體"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5873,6 +5936,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "商業夥伴國家/地區"
@@ -5909,6 +5974,9 @@ msgstr "商業夥伴國家/地區"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6471,7 +6539,11 @@ msgid "Create a new customer in your address book"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在您的地址簿中建立一個聯繫人"
+=======
+msgstr "在你的通訊錄中建立新客戶"
+>>>>>>> upstream/18.0
 =======
 msgstr "在你的通訊錄中建立新客戶"
 >>>>>>> upstream/18.0
@@ -9171,7 +9243,11 @@ msgstr "來自標籤"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
 msgid "From last fiscal year"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "從上一財年起"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__date_scope__previous_tax_period
@@ -10077,7 +10153,11 @@ msgid "Insert your terms & conditions here..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在這裡插入您的條款和條件..."
+=======
+msgstr "在此處插入你的條款及條件⋯"
+>>>>>>> upstream/18.0
 =======
 msgstr "在此處插入你的條款及條件⋯"
 >>>>>>> upstream/18.0
@@ -10886,7 +10966,11 @@ msgstr "之前是\"%(previous)s\"，現在是\"%(current)s\"."
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "Items With Missing Analytic Distribution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "缺漏分析分佈的項目"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__1
@@ -12009,7 +12093,11 @@ msgstr "模組"
 #: model:ir.model.fields.selection,name:account.selection__account_report_column__figure_type__monetary
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__figure_type__monetary
 msgid "Monetary"
+<<<<<<< HEAD
 msgstr "貨幣的"
+=======
+msgstr "貨幣金額"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__money_transfer_service
@@ -14274,7 +14362,11 @@ msgid "Recognition Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認日期"
+=======
+msgstr "認列日期"
+>>>>>>> upstream/18.0
 =======
 msgstr "認列日期"
 >>>>>>> upstream/18.0
@@ -15204,7 +15296,11 @@ msgstr "檢視所有活動"
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 msgid "See items"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "查看項目"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_distribution_model__product_categ_id
@@ -16915,7 +17011,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Saxon）會計中除外。在該情況下，開支（銷貨成本賬戶）會在客戶發票獲驗證時確認。"
+=======
+"Saxon）會計中除外。在該情況下，開支（銷貨成本賬戶）會在客戶發票獲驗證時認列。"
+>>>>>>> upstream/18.0
 =======
 "Saxon）會計中除外。在該情況下，開支（銷貨成本賬戶）會在客戶發票獲驗證時認列。"
 >>>>>>> upstream/18.0
@@ -18471,7 +18571,11 @@ msgid "Unique identifier for this line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "此明細的唯一識別."
+=======
+msgstr "此資料行的唯一識別碼。"
+>>>>>>> upstream/18.0
 =======
 msgstr "此資料行的唯一識別碼。"
 >>>>>>> upstream/18.0
@@ -19029,7 +19133,11 @@ msgid "Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "企業帳單"
+=======
+msgstr "供應商賬單"
+>>>>>>> upstream/18.0
 =======
 msgstr "供應商賬單"
 >>>>>>> upstream/18.0
@@ -19443,6 +19551,7 @@ msgstr "會計記項的貸方或借方金額錯誤！"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -19544,6 +19653,13 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "XML format"
+msgstr "XML 格式"
+
+#. module: account
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
@@ -20536,7 +20652,11 @@ msgid "here"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "這裡"
+=======
+msgstr "此處"
+>>>>>>> upstream/18.0
 =======
 msgstr "此處"
 >>>>>>> upstream/18.0

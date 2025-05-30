@@ -68,6 +68,10 @@ class CalendarLeaves(models.Model):
         sick_time_status = self.env.ref('hr_holidays.holiday_status_sl', raise_if_not_found=False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        leaves_to_recreate = self.env['hr.leave']
+>>>>>>> upstream/18.0
 =======
         leaves_to_recreate = self.env['hr.leave']
 >>>>>>> upstream/18.0
@@ -89,7 +93,11 @@ class CalendarLeaves(models.Model):
                     # recreate the resource leave that were removed by writing state to draft
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave.sudo()._create_resource_leave()
+=======
+                    leaves_to_recreate |= leave
+>>>>>>> upstream/18.0
 =======
                     leaves_to_recreate |= leave
 >>>>>>> upstream/18.0
@@ -103,6 +111,10 @@ class CalendarLeaves(models.Model):
                 leave._notify_change(message)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        leaves_to_recreate.sudo()._create_resource_leave()
+>>>>>>> upstream/18.0
 =======
         leaves_to_recreate.sudo()._create_resource_leave()
 >>>>>>> upstream/18.0

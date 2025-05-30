@@ -84,7 +84,10 @@ class TestUser(MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         admin = mail_new_test_user(
@@ -109,6 +112,9 @@ class TestUser(MailCommon):
         self.assertNotIn(self.env.ref('mail.group_mail_notification_type_inbox'), admin.groups_id)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

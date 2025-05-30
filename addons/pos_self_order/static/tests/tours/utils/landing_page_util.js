@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { delay } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 =======
 import { delay } from "@odoo/hoot-dom";
 
@@ -39,7 +44,10 @@ export function checkCountryFlagShown(country_code) {
     };
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function checkCarouselAutoPlaying() {
     return {
@@ -58,4 +66,7 @@ export function checkCarouselAutoPlaying() {
         },
     };
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -28,7 +28,10 @@ class AccountChartTemplate(models.AbstractModel):
             },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'l10n_ng_withholding_payable': {
@@ -39,6 +42,9 @@ class AccountChartTemplate(models.AbstractModel):
                 'non_trade': True,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

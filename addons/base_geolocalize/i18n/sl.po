@@ -27,6 +27,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -126,7 +130,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -206,7 +214,11 @@ msgstr ""
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_res_config_settings__geoloc_provider_id
 msgid "API"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #. odoo-python
@@ -215,11 +227,20 @@ msgid ""
 "API key for GeoCoding (Places) required.\n"
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key for more information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Potreben je API ključ za geokodiranje (krajev).\n"
+"Obiščite https://developers.google.com/maps/documentation/geocoding/get-api-key for more information."
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "API:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API:"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
@@ -247,7 +268,11 @@ msgid "Compute Localization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalizacija računanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokalizacija računanja"
 >>>>>>> upstream/18.0
@@ -344,7 +369,11 @@ msgid "Compute based on address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izračunaj na podlagi naslova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izračunaj na podlagi naslova"
 >>>>>>> upstream/18.0
@@ -444,22 +473,38 @@ msgstr "Prikazani naziv"
 #. odoo-python
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Error with geolocation server: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napaka s strežnikom za geolokacijo: %s"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model,name:base_geolocalize.model_base_geocoder
 msgid "Geo Coder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Programer"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Geo Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Lokacija"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model,name:base_geolocalize.model_base_geo_provider
 msgid "Geo Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geo Ponudnik"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
@@ -485,7 +530,11 @@ msgstr "ID"
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.res_config_settings_view_form
 msgid "Key:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ:"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_base_geo_provider__write_uid
@@ -500,12 +549,20 @@ msgstr "Zadnjič posodobljeno"
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Lat :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zemljepisna širina :"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Long:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zemljepisna dolžina:"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model.fields,field_description:base_geolocalize.field_base_geo_provider__name
@@ -516,7 +573,11 @@ msgstr "Naziv"
 #. odoo-python
 #: code:addons/base_geolocalize/models/res_partner.py:0
 msgid "No match found for %(partner_names)s address(es)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenega ujemanja za %(partner_names)s naslov(e)."
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
@@ -527,7 +588,11 @@ msgstr "Dodelitev partnerja"
 #. odoo-python
 #: code:addons/base_geolocalize/models/base_geocoder.py:0
 msgid "Provider %s is not implemented for geolocation service."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponudnik %s ni implementiran za storitev geolokacije."
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
@@ -560,7 +625,11 @@ msgid "Refresh Localization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osveži lokalizacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osveži lokalizacijo"
 >>>>>>> upstream/18.0
@@ -649,11 +718,25 @@ msgid ""
 "Then, go to Developer Console, and enable the APIs:\n"
 "Geocoding, Maps Static, Maps Javascript.\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Geokodiranje, statični zemljevidi, zemljevidi Javascript.Unable to geolocate, received the error:\n"
+"%s\n"
+"\n"
+"Google je to funkcijo uvedel kot plačljivo.\n"
+"Najprej morate omogočiti obračunavanje v svojem Google Računu.\n"
+"Nato pojdite v konzolo za razvijalce in omogočite API-je:\n"
+"Geokodiranje, statični zemljevidi, zemljevidi Javascript.\n"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Updated on:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posodobljeno:"
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #: model:ir.model.fields,help:base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key
@@ -661,6 +744,11 @@ msgid ""
 "Visit https://developers.google.com/maps/documentation/geocoding/get-api-key"
 " for more information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Obiščite https://developers.google.com/maps/documentation/geocoding/get-api-"
+"key za več informacij."
+>>>>>>> upstream/18.0
 
 #. module: base_geolocalize
 #. odoo-python

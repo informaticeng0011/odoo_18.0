@@ -19,7 +19,10 @@ export class PortalChatter extends Component {
         });
         this.overlayService = useService("overlay");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         this.store = useService("mail.store");
         this.env.bus.addEventListener("reload_chatter_content", (ev) =>
             this._reloadChatterContent(ev.detail)
@@ -32,6 +35,9 @@ export class PortalChatter extends Component {
             model: this.props.resModel,
         });
         thread.messages = await thread.fetchMessages();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

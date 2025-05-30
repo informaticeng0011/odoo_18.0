@@ -58,7 +58,11 @@ export class Navbar extends Component {
         return this.pos.config.customer_display_type !== "none" && !isMobileOS();
     }
     get showCashMoveButton() {
+<<<<<<< HEAD
         return Boolean(this.pos.config.cash_control && this.pos.session._has_cash_move_perm);
+=======
+        return Boolean(this.pos.config.cash_control);
+>>>>>>> upstream/18.0
     }
     async clearCache() {
         await this.pos.data.resetIndexedDB();

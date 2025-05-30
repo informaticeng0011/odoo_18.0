@@ -70,7 +70,10 @@ class TestItEdiImport(TestItEdi):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_receive_vendor_bill_sconto_maggiorazione(self):
         """ Test a sample e-invoice file with
         ScontoMaggiorazione on lines
@@ -94,6 +97,9 @@ class TestItEdiImport(TestItEdi):
             }],
         }])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_receive_negative_vendor_bill(self):
         """ Same vendor bill as test_receive_vendor_bill but negative unit price """

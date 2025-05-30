@@ -260,7 +260,10 @@ class TaxReportTest(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -326,6 +329,9 @@ class TaxReportTest(AccountTestInvoicingCommon):
         self.assertEqual(tags_after, tags_to_rename, "Changing the formula should have renamed the tags")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -41,7 +41,10 @@ MAX_PAYLOAD_SIZE = 4096
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117,6 +120,9 @@ ENCRYPTION_BLOCK_OVERHEAD = 1 + 16
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -283,7 +289,15 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
         #  - "k" the base64url-encoded key that signed that token.
         'Authorization': 'vapid t={}, k={}'.format(token, vapid_public_key),
         'Content-Encoding': 'aes128gcm',
+<<<<<<< HEAD
         'TTL': '0',
+=======
+        # The TTL is set to '60' as workaround because the push notifications
+        # are not received on Edge with TTL ='0'.
+        # Using the TTL '0' , the microsoft endpoint returns a 400 bad request error.
+        # and we are sure that the notification will be received
+        'TTL': '60',
+>>>>>>> upstream/18.0
     }
 
     response = session.post(endpoint, headers=headers, data=payload, timeout=5)

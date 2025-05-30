@@ -26,6 +26,10 @@ class MrpUnbuild(models.Model):
         required=True, index=True)
     product_qty = fields.Float(
         'Quantity', default=1.0,
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
         compute='_compute_product_qty', store=True, precompute=True, readonly=False,
         required=True)
     product_uom_id = fields.Many2one(

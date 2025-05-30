@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Deniz Guvener, 2025
 # Melih Melik Sonmez, 2025
 # Hakan Türkün, 2025
@@ -129,12 +130,19 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Melih Melik Sonmez, 2025
+# Hakan Türkün, 2025
+# Wil Odoo, 2025
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,6 +266,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Deniz Guvener, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -334,7 +347,11 @@ msgstr "<span>Ölçü Birimi</span>"
 #. module: mrp_account
 #: model:ir.model.constraint,message:mrp_account.constraint_mrp_account_wip_accounting_line_check_debit_credit
 msgid "A single line cannot be both credit and debit."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tek bir satır hem borç hem alacak olamaz."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__account_id
@@ -349,7 +366,11 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting_line
 msgid "Account move line to be created when posting WIP account move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM muhasebe kaydı yapılırken oluşturulacak yevmiye satırı"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
@@ -535,7 +556,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dizüstü bilgisayar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dizüstü bilgisayar"
 >>>>>>> upstream/18.0
@@ -630,7 +655,11 @@ msgstr "Üretim Emri Sayısı"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manufacturing WIP - %(orders_list)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üretim YMM - %(orders_list)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__mo_ids
@@ -648,21 +677,38 @@ msgstr "MO Analitik Hesap Satırları"
 msgid ""
 "Please make sure the total credit amount equals the total debit amount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Lütfen toplam alacak tutarının toplam borç tutarına eşit olduğundan emin "
+"olun."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post Manufacturing WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üretim YMM Kayıtlarını Muhasebeleştirin"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM'yi muhasebeleştirin"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.act_window,name:mrp_account.action_wip_accounting
 msgid "Post WIP Accounting Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM Muhasebe Kaydını Muhasebeleştirin"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_template
@@ -714,7 +760,11 @@ msgstr "Ters Tarih"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal date must be after the posting date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ters kayıt tarihi, muhasebeleştirme tarihinden sonra olmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
@@ -753,7 +803,10 @@ msgstr "Stok Hareketi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -816,6 +869,9 @@ msgstr "Stok Değerleme Katmanı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -896,13 +952,21 @@ msgstr "Adet"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Component Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM - Bileşen Değeri"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Overhead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM - Genel Giderler"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
@@ -918,12 +982,20 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__line_ids
 msgid "WIP accounting lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM muhasebe satırları"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__wip_accounting_id
 msgid "WIP accounting wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YMM muhasebe sihirbazı"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.report,name:mrp_account.wip_report
@@ -938,7 +1010,11 @@ msgstr "İş Merkezi Analitik Hesap Satırı"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting
 msgid "Wizard to post Manufacturing WIP account move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üretim YMM muhasebe kaydını oluşturma sihirbazı"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter

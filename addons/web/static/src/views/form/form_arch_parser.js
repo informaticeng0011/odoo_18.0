@@ -15,8 +15,11 @@ export class FormArchParser {
         const fieldNextIds = {};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let autofocusFieldId = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // autofocusFieldId is now deprecated, it's kept until saas-18.2 for retro-compatibility
@@ -24,6 +27,9 @@ export class FormArchParser {
         let autofocusFieldId = null;
         const autofocusFieldIds = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40,6 +46,10 @@ export class FormArchParser {
                     autofocusFieldId = fieldId;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    autofocusFieldIds.push(fieldId);
+>>>>>>> upstream/18.0
 =======
                     autofocusFieldIds.push(fieldId);
 >>>>>>> upstream/18.0
@@ -63,6 +73,10 @@ export class FormArchParser {
             autofocusFieldId,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            autofocusFieldIds,
+>>>>>>> upstream/18.0
 =======
             autofocusFieldIds,
 >>>>>>> upstream/18.0
