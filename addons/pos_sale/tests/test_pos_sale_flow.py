@@ -910,9 +910,16 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'PosRepairSettleOrder', login="pos_user")
         self.assertEqual(len(self.product_1.stock_move_ids.ids), 2, "Paying for the order in PoS should not create new stock moves")
 
+<<<<<<< HEAD
     def test_settle_order_ship_later_delivered_qty(self):
         """This test create an order, settle it in the PoS and ship it later.
             We need to make sure that the quantity delivered on the original sale is updated correctly
+=======
+    def test_settle_order_ship_later_effect_on_so(self):
+        """This test create an order, settle it in the PoS and ship it later.
+            We need to make sure that the quantity delivered on the original sale is updated correctly,
+            And that the picking associated to the original sale order is cancelled.
+>>>>>>> upstream/18.0
         """
 
         product_a = self.env['product.product'].create({
@@ -921,6 +928,15 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             'lst_price': 10.0,
         })
 
+<<<<<<< HEAD
+=======
+        product_b = self.env['product.product'].create({
+            'name': 'Product B',
+            'available_in_pos': True,
+            'lst_price': 5.0,
+        })
+
+>>>>>>> upstream/18.0
         partner_test = self.env['res.partner'].create({
             'name': 'Test Partner',
             'city': 'San Francisco',
@@ -930,7 +946,11 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
             'street': 'Rue du burger',
         })
 
+<<<<<<< HEAD
         sale_order = self.env['sale.order'].create({
+=======
+        sale_order_single = self.env['sale.order'].create({
+>>>>>>> upstream/18.0
             'partner_id': partner_test.id,
             'order_line': [(0, 0, {
                 'product_id': product_a.id,
@@ -940,6 +960,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
                 'price_unit': product_a.lst_price,
             })],
         })
+<<<<<<< HEAD
         sale_order.action_confirm()
 
         self.assertEqual(sale_order.order_line[0].qty_delivered, 0)
@@ -956,6 +977,47 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
         pickings.move_ids.quantity = 1
         pickings.button_validate()
         self.assertEqual(sale_order.order_line[0].qty_delivered, 1)
+=======
+
+        sale_order_multi = self.env['sale.order'].create({
+            'partner_id': partner_test.id,
+            'order_line': [(0, 0, {
+                'product_id': product_a.id,
+                'name': product_a.name,
+                'product_uom_qty': 1,
+                'product_uom': product_a.uom_id.id,
+                'price_unit': product_a.lst_price,
+            }), (0, 0, {
+                'product_id': product_b.id,
+                'name': product_b.name,
+                'product_uom_qty': 1,
+                'product_uom': product_b.uom_id.id,
+                'price_unit': product_b.lst_price,
+            })],
+        })
+        self.assertEqual(sale_order_single.order_line[0].qty_delivered, 0)
+
+        self.main_pos_config.ship_later = True
+        self.main_pos_config.with_user(self.pos_user).open_ui()
+        self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'PosSettleOrderShipLater', login="accountman")
+
+        self.assertEqual(sale_order_single.picking_ids.state, 'cancel')
+
+        # The pos order is being shipped later so the qty_delivered should still be 0
+        self.assertEqual(sale_order_single.order_line[0].qty_delivered, 0)
+
+        # We validate the delivery of the order, now the qty_delivered should be 1
+        pickings = sale_order_single.pos_order_line_ids.order_id.picking_ids
+        pickings.move_ids.quantity = 1
+        pickings.button_validate()
+        self.assertEqual(sale_order_single.order_line[0].qty_delivered, 1)
+
+        # multi line order checks
+        self.assertEqual(sale_order_multi.order_line[0].qty_delivered, 0)
+        self.assertEqual(sale_order_multi.order_line[1].qty_delivered, 0)
+
+        self.assertEqual(sale_order_multi.picking_ids.state, 'cancel')
+>>>>>>> upstream/18.0
 
     def test_downpayment_invoice(self):
         """This test check that users that don't have the pos user group can invoice downpayments"""
@@ -1239,7 +1301,10 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1365,6 +1430,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1381,6 +1447,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1537,6 +1605,7 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1573,6 +1642,8 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1674,6 +1745,9 @@ class TestPoSSale(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

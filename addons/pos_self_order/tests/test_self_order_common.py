@@ -38,7 +38,10 @@ class TestSelfOrderCommon(SelfOrderCommonTest):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_self_order_pos_landing_page_carousel(self):
@@ -47,6 +50,9 @@ class TestSelfOrderCommon(SelfOrderCommonTest):
             self.start_tour(self.pos_config._get_self_order_route(), "self_order_landing_page_carousel")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

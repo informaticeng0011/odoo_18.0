@@ -62,7 +62,11 @@ messageActionsRegistry
                         const reaction = component.props.message.reactions.find(
                             ({ content, personas }) =>
                                 content === emoji &&
+<<<<<<< HEAD
                                 personas.find((persona) => persona.eq(component.store.self))
+=======
+                                component.props.thread.effectiveSelf.in(personas)
+>>>>>>> upstream/18.0
                         );
                         if (!reaction) {
                             component.props.message.react(emoji);

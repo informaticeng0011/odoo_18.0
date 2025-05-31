@@ -3,6 +3,17 @@ import { registry } from "../registry";
 import { completeUncaughtError, getErrorTechnicalName } from "./error_utils";
 import { isBrowserFirefox, isBrowserChrome } from "@web/core/browser/feature_detection";
 
+<<<<<<< HEAD
+=======
+export class HTMLElementLoadingError extends Error {
+    static message = "Error loading an HTML Element";
+    constructor(message = HTMLElementLoadingError.message, event) {
+        super(message);
+        this.event = event;
+    }
+}
+
+>>>>>>> upstream/18.0
 /**
  * Uncaught Errors have 4 properties:
  * - name: technical name of the error (UncaughtError, ...)
@@ -41,10 +52,13 @@ export class ThirdPartyScriptError extends UncaughtError {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const errorService = {
     start(env) {
         function handleError(uncaughtError, retry = true) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67,6 +81,9 @@ export const errorService = {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153,7 +170,32 @@ export const errorService = {
         });
 
         browser.addEventListener("unhandledrejection", async (ev) => {
+<<<<<<< HEAD
             const error = ev.reason;
+=======
+            let error = ev.reason;
+
+            if (error && error.type === "error" && "eventPhase" in error) {
+                // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/error_event
+                // See also MDN's img, script and iframe docs. The error Event *doesn't* bubble.
+                // We sometimes reject a promise with the Event dispatched by the "error" handler
+                // of an HTMLElement. If the code throwing that at us doesn't wrap the event in an
+                // actual Error, there is no reason to do more than the spec: we do not handle
+                // this error bubbling to us via the Promise being rejected.
+                if (!error.bubbles) {
+                    ev.preventDefault();
+                    return;
+                }
+                // If for some reason the error Event bubbles then do something
+                // a bit meaningful.
+                let message;
+                if (error.target) {
+                    message = `${HTMLElementLoadingError.message}: ${error.target.nodeName}`;
+                }
+                error = new HTMLElementLoadingError(message, error);
+            }
+
+>>>>>>> upstream/18.0
             let traceback;
             if (isBrowserChrome() && ev instanceof CustomEvent && error === undefined) {
                 // This fix is ad-hoc to a bug in the Honey Paypal extension

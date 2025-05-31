@@ -71,7 +71,10 @@ class TestItEdiImport(TestItEdi):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_receive_vendor_bill_sconto_maggiorazione(self):
@@ -98,6 +101,9 @@ class TestItEdiImport(TestItEdi):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

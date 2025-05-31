@@ -14,6 +14,10 @@ import {
     getCellContent,
     getCellFormula,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getCellFormattedValue,
+>>>>>>> upstream/18.0
 =======
     getCellFormattedValue,
 >>>>>>> upstream/18.0
@@ -83,7 +87,10 @@ test("Boolean fields are correctly formatted", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("Numeric/monetary fields are correctly loaded and displayed", async () => {
     Partner._records.push({
         id: 5,
@@ -112,6 +119,9 @@ test("Numeric/monetary fields are correctly loaded and displayed", async () => {
     expect(getCellFormattedValue(model, "C6")).toBe("0");
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("properties field displays property display names", async () => {
     Product._records = [

@@ -26,6 +26,7 @@
           <Code>000000</Code>
           <Name>product_a</Name>
           <Unit>UM.0018</Unit>
+<<<<<<< HEAD
           <Price>100000.0</Price>
           <Qty>1.0</Qty>
           <TotalDiscount>0.0</TotalDiscount>
@@ -35,6 +36,17 @@
           <VAT>11000.0</VAT>
           <STLGRate>0.0</STLGRate>
           <STLG>0.0</STLG>
+=======
+          <Price>100000.00</Price>
+          <Qty>1.0</Qty>
+          <TotalDiscount>0.00</TotalDiscount>
+          <TaxBase>100000.00</TaxBase>
+          <OtherTaxBase>91666.67</OtherTaxBase>
+          <VATRate>12</VATRate>
+          <VAT>11000.00</VAT>
+          <STLGRate>0.0</STLGRate>
+          <STLG>0.00</STLG>
+>>>>>>> upstream/18.0
         </GoodService>
       </ListOfGoodService>
     </TaxInvoice>

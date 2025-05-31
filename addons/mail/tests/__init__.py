@@ -10,6 +10,10 @@ from . import test_link_preview
 from . import test_mail_activity
 from . import test_mail_composer
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_mail_mail
+>>>>>>> upstream/18.0
 =======
 from . import test_mail_mail
 >>>>>>> upstream/18.0

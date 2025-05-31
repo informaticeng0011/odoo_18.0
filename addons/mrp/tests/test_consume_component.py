@@ -464,7 +464,10 @@ class TestConsumeComponent(TestConsumeComponentCommon):
             {'should_consume_qty': 1.0, 'quantity': 1.0, 'picked': True},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_no_component_consumption_on_lot_removal(self):
         """
@@ -490,4 +493,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
             {'quantity': 0.0, 'picked': False},
             {'quantity': 0.0, 'picked': False},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

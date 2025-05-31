@@ -39,8 +39,11 @@ class MailActivityPlan(models.Model):
         for plan in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             plan.res_model_id = self.env['ir.model']._get_id(plan.res_model)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if plan.res_model:
@@ -50,6 +53,9 @@ class MailActivityPlan(models.Model):
             else:
                 plan.res_model_id = False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

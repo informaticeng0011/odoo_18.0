@@ -9,7 +9,10 @@ Html Editor
 This addon provides an extensible, maintainable editor.
     """,
 
+<<<<<<< HEAD
     'author': "odoo",
+=======
+>>>>>>> upstream/18.0
     'website': "https://www.odoo.com",
     'version': '1.0',
     'category': 'Hidden',

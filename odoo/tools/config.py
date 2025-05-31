@@ -547,17 +547,32 @@ class configmanager(object):
         else:
             self.options['addons_path'] = ",".join(
                 self._normalize(x)
+<<<<<<< HEAD
                 for x in self.options['addons_path'].split(','))
 
         self.options["upgrade_path"] = (
             ",".join(self._normalize(x)
                 for x in self.options['upgrade_path'].split(','))
+=======
+                for x in self.options['addons_path'].split(',')
+                if x.strip())
+
+        self.options["upgrade_path"] = (
+            ",".join(self._normalize(x)
+                for x in self.options['upgrade_path'].split(',')
+                if x.strip())
+>>>>>>> upstream/18.0
             if self.options['upgrade_path']
             else ""
         )
         self.options["pre_upgrade_scripts"] = (
             ",".join(self._normalize(x)
+<<<<<<< HEAD
                 for x in self.options['pre_upgrade_scripts'].split(','))
+=======
+                for x in self.options['pre_upgrade_scripts'].split(',')
+                if x.strip())
+>>>>>>> upstream/18.0
             if self.options['pre_upgrade_scripts']
             else ""
         )

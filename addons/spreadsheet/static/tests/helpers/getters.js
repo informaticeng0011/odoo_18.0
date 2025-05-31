@@ -112,7 +112,10 @@ export function getBorders(model, xc, sheetId = model.getters.getActiveSheetId()
     return borders;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 /**
  * Get the formatted value of the given xc
@@ -121,4 +124,7 @@ export function getCellFormattedValue(model, xc, sheetId = model.getters.getActi
     const { col, row } = toCartesian(xc);
     return model.getters.getCellText({ sheetId, col, row }, false);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -27,6 +27,10 @@ class MrpUnbuild(models.Model):
     product_qty = fields.Float(
         'Quantity', default=1.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
 =======
         digits='Product Unit of Measure',
 >>>>>>> upstream/18.0

@@ -430,7 +430,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -502,6 +505,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
         self.assertEqual(receipts[1].move_ids.product_id, self.mto_product | mts_product)
 
         receipts.button_validate()
+<<<<<<< HEAD
         internals = receipts._get_next_transfers()
         self.assertEqual(internals[0].partner_id, xd_customer)
         self.assertEqual(internals[0].move_ids.product_id, xd_product)
@@ -529,4 +533,31 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        # we will process the XD internal picking during the next step (output pickings)
+        _xd_internal, receipt_internal = receipts._get_next_transfers()
+        self.assertFalse(receipt_internal.partner_id)
+        self.assertEqual(receipt_internal.move_ids.product_id, self.mto_product | mts_product)
+        receipt_internal.button_validate()
+
+        output_pickings = sale_orders.picking_ids.filtered(lambda p: p.location_dest_id == self.warehouse.wh_output_stock_loc_id)
+        self.assertEqual(output_pickings[0].partner_id, xd_customer)
+        self.assertEqual(output_pickings[0].move_ids.product_id, xd_product)
+        self.assertEqual(output_pickings[1].partner_id, mto_customer)
+        self.assertEqual(output_pickings[1].move_ids.product_id, self.mto_product)
+        self.assertEqual(output_pickings[2].partner_id, mts_customer)
+        self.assertEqual(output_pickings[2].move_ids.product_id, mts_product)
+
+        output_pickings.button_validate()
+        deliveries = output_pickings._get_next_transfers()
+        self.assertEqual(deliveries[0].partner_id, xd_customer)
+        self.assertEqual(deliveries[0].move_ids.product_id, xd_product)
+        self.assertEqual(deliveries[1].partner_id, mto_customer)
+        self.assertEqual(deliveries[1].move_ids.product_id, self.mto_product)
+        self.assertEqual(deliveries[2].partner_id, mts_customer)
+        self.assertEqual(deliveries[2].move_ids.product_id, mts_product)
+
+        deliveries.button_validate()
+        self.assertEqual(sale_orders.order_line.mapped('qty_delivered'), [1.0, 1.0, 1.0])
 >>>>>>> upstream/18.0

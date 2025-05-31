@@ -611,6 +611,7 @@ class TestCursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.rollback()
             self._closed = True
             if self._savepoint:
@@ -621,6 +622,8 @@ class TestCursor(BaseCursor):
                 _logger.warning("Found different un-closed cursor when trying to close %s: %s", self, tos)
             self._lock.release()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -721,6 +724,9 @@ class TestCursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

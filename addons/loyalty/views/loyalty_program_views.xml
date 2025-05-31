@@ -106,12 +106,18 @@
                             <span invisible="program_type in ('gift_card', 'ewallet')">
                                 <field name="limit_usage" class="oe_inline"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span invisible="not limit_usage"> to <field name="max_usage" class="oe_inline"/> usages</span>
 =======
+=======
+>>>>>>> upstream/18.0
                                 <span invisible="not limit_usage">
                                     to <field name="max_usage" class="oe_inline"/> usages
                                     <span class="text-muted">(<field name="total_order_count" class="oe_inline" readonly="1"/> used)</span>
                                 </span>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             </span>
                             <field name="company_id" invisible="1"/>

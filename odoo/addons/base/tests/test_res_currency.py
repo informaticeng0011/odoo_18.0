@@ -115,9 +115,15 @@ class TestResCurrency(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # should not try to match field 'rate' (float field)
         self.assertEqual(self.env["res.currency"].search_count([["rate_ids", "=", "1971-01-01"]]), 2)
         # should not try to match field 'name' (date field)
+=======
+        # should not try to match field 'name' (date field)
+        self.assertEqual(self.env["res.currency"].search_count([["rate_ids", "=", "1971-01-01"]]), 2)
+        # should not try to match field 'rate' (float field)
+>>>>>>> upstream/18.0
 =======
         # should not try to match field 'name' (date field)
         self.assertEqual(self.env["res.currency"].search_count([["rate_ids", "=", "1971-01-01"]]), 2)

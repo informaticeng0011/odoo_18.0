@@ -43,8 +43,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Junko Augias, 2025
@@ -206,6 +211,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +379,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -427,6 +438,7 @@ msgstr "<span>予測済: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>貿易条件:</strong>"
@@ -441,10 +453,15 @@ msgstr ""
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">配送先住所:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">配送先住所:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
@@ -457,6 +474,9 @@ msgstr ""
 =======
 msgstr "<strong class=\"d-block mt-3\">配送先住所</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">配送先住所</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
@@ -465,8 +485,13 @@ msgstr "<strong class=\"d-block mt-3\">配送先住所</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>納入場所:</strong>"
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>貿易条件:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>貿易条件:</strong>"
@@ -624,7 +649,11 @@ msgid "Days needed to confirm a PO, define when a PO should be validated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POを確認するために必要な日数、POを検証するタイミングを定義する"
+=======
+msgstr "購買オーダを確定するまでに必要な日数。購買オーダをいつ確定すべきかを定義します。"
+>>>>>>> upstream/18.0
 =======
 msgstr "購買オーダを確定するまでに必要な日数。購買オーダをいつ確定すべきかを定義します。"
 >>>>>>> upstream/18.0
@@ -1393,8 +1422,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "これにより、ベンダーに顧客への配送を要求するために、製品に適用するドロップシッピングルートが追加されます。 "
 "ドロップシッピングする製品は、販売注文が確認されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"
+=======
+"これにより、仕入先に顧客への配送を要求するために、プロダクトに適用する直送ルートが追加されます。 "
+"直送するプロダクトは、販売オーダが確定されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"
+>>>>>>> upstream/18.0
 =======
 "これにより、仕入先に顧客への配送を要求するために、プロダクトに適用する直送ルートが追加されます。 "
 "直送するプロダクトは、販売オーダが確定されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"

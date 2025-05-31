@@ -160,7 +160,11 @@ class MailMessage(models.Model):
 
     def _is_editable_in_portal(self, **kwargs):
         self.ensure_one()
+<<<<<<< HEAD
         if self.model and self.res_id and self.env.user._is_public():
+=======
+        if self.model and self.res_id:
+>>>>>>> upstream/18.0
             thread = request.env[self.model].browse(self.res_id)
             partner = get_portal_partner(
                 thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")

@@ -17,6 +17,10 @@ export class LinkPopover extends Component {
         getAttachmentMetadata: Function,
         isImage: Boolean,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        LinkPopoverState: Object,
+>>>>>>> upstream/18.0
 =======
         LinkPopoverState: Object,
 >>>>>>> upstream/18.0
@@ -57,7 +61,11 @@ export class LinkPopover extends Component {
 
         this.state = useState({
 <<<<<<< HEAD
+<<<<<<< HEAD
             editing: this.props.linkEl.href ? false : true,
+=======
+            editing: this.props.LinkPopoverState.editing,
+>>>>>>> upstream/18.0
 =======
             editing: this.props.LinkPopoverState.editing,
 >>>>>>> upstream/18.0

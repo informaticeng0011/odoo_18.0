@@ -71,7 +71,12 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['record']['partner_name'] = values['partner_name']
+=======
+                if values.get('partner_name'):
+                    data['record']['partner_name'] = values['partner_name']
+>>>>>>> upstream/18.0
 =======
                 if values.get('partner_name'):
                     data['record']['partner_name'] = values['partner_name']

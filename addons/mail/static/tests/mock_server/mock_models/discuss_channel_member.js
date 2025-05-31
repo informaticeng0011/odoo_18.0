@@ -4,6 +4,11 @@ import { fields, getKwArgs, makeKwArgs, models } from "@web/../tests/web_test_he
 import { serializeDateTime, today } from "@web/core/l10n/dates";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const { DateTime } = luxon;
+
+>>>>>>> upstream/18.0
 =======
 const { DateTime } = luxon;
 
@@ -43,13 +48,19 @@ export class DiscussChannelMember extends models.ServerModel {
                 "mail.record/insert",
                 new mailDataHelpers.Store(DiscussChannelMember.browse(member.id))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .add("discuss.channel.member", { id: member.id, isTyping: is_typing })
 =======
+=======
+>>>>>>> upstream/18.0
                     .add("discuss.channel.member", {
                         id: member.id,
                         isTyping: is_typing,
                         is_typing_dt: serializeDateTime(DateTime.now()),
                     })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     .get_result(),
             ]);

@@ -23,6 +23,14 @@
         'website_livechat',
         'website_slides',
     ],
+<<<<<<< HEAD
+=======
+    "assets": {
+        "web.assets_tests": [
+            "test_discuss_full/static/tests/tours/*",
+        ],
+    },
+>>>>>>> upstream/18.0
     'installable': True,
     'license': 'LGPL-3',
 }

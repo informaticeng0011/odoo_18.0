@@ -2,8 +2,13 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 
+=======
+from datetime import datetime, timedelta
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 from odoo import fields
@@ -20,6 +25,11 @@ class TestCalendarSms(SMSCommon):
         super(TestCalendarSms, cls).setUpClass()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        now = fields.datetime.now()
+
+>>>>>>> upstream/18.0
 =======
         now = fields.datetime.now()
 
@@ -30,12 +40,18 @@ class TestCalendarSms(SMSCommon):
             'country_id': cls.env.ref('base.be').id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.partner_phone_2 = cls.env['res.partner'].create({
             'name': 'Partner With Phone Number',
             'phone': '0488888888',
             'country_id': cls.env.ref('base.be').id,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.partner_no_phone = cls.env['res.partner'].create({
             'name': 'Partner With No Phone Number',
@@ -52,7 +68,10 @@ class TestCalendarSms(SMSCommon):
             'stop': datetime(2022, 2, 2, 22, 22),
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.alarm_1h = cls.env['calendar.alarm'].create({
             'name': 'Reminder 1 Hour',
             'duration': 1,
@@ -96,6 +115,9 @@ class TestCalendarSms(SMSCommon):
             'model_id': cls.env['ir.model']._get('calendar.event').id,
         })
         cls.alarm_24h.sms_template_id = cls.sms_template_24h.id
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_attendees_with_number(self):
@@ -104,7 +126,10 @@ class TestCalendarSms(SMSCommon):
             self.event._do_sms_reminder(self.event.alarm_ids)
         self.assertEqual(len(self._sms), 1, "There should be only one partner retrieved")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_send_reminder_match_both_events(self):
         """
@@ -120,4 +145,7 @@ class TestCalendarSms(SMSCommon):
                        content=self.sms_template_1h.body)
         self.assertSMS(self.partner_phone_2, self.partner_phone_2.phone_sanitized, 'pending',
                        content=self.sms_template_24h.body)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

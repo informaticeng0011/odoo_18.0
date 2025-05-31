@@ -12,13 +12,19 @@ from odoo import _, api, fields, models, tools
 from odoo.exceptions import AccessError, UserError
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 GMAIL_TOKEN_REQUEST_TIMEOUT = 5
 
 # seconds removed from end-of-validity datetime to take into account the time
 # needed to renew the token and open the new smtp session
 GMAIL_TOKEN_VALIDITY_THRESHOLD = GMAIL_TOKEN_REQUEST_TIMEOUT + 5
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 _logger = logging.getLogger(__name__)
 
@@ -136,7 +142,11 @@ class GoogleGmailMixin(models.AbstractModel):
                 **values,
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             timeout=5,
+=======
+            timeout=GMAIL_TOKEN_REQUEST_TIMEOUT,
+>>>>>>> upstream/18.0
 =======
             timeout=GMAIL_TOKEN_REQUEST_TIMEOUT,
 >>>>>>> upstream/18.0
@@ -160,7 +170,11 @@ class GoogleGmailMixin(models.AbstractModel):
         if not self.google_gmail_access_token \
            or not self.google_gmail_access_token_expiration \
 <<<<<<< HEAD
+<<<<<<< HEAD
            or self.google_gmail_access_token_expiration < now_timestamp:
+=======
+           or self.google_gmail_access_token_expiration - GMAIL_TOKEN_VALIDITY_THRESHOLD < now_timestamp:
+>>>>>>> upstream/18.0
 =======
            or self.google_gmail_access_token_expiration - GMAIL_TOKEN_VALIDITY_THRESHOLD < now_timestamp:
 >>>>>>> upstream/18.0

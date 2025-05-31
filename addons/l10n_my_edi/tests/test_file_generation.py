@@ -61,6 +61,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0
@@ -258,7 +262,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
             root,
             'cac:AdditionalDocumentReference[descendant::*[local-name() = "DocumentType"]]/cbc:DocumentType',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'CustomsImportForm',
+=======
+            'K2',
+>>>>>>> upstream/18.0
 =======
             'K2',
 >>>>>>> upstream/18.0
@@ -426,7 +434,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_08_bill_imports_form(self):
         """
         Ensure that when a bill contains a customs number; it is treated as an importation and not exportation.
@@ -466,6 +477,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         node = customer_root.xpath('cac:PartyIdentification/cbc:ID[count(@*)=0]', namespaces=NS_MAP)
         self.assertEqual(node, [])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _assert_node_values(self, root, node_path, text, attributes=None):
         node = root.xpath(node_path, namespaces=NS_MAP)

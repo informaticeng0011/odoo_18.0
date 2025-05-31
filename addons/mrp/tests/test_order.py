@@ -5219,7 +5219,10 @@ class TestMrpOrder(TestMrpCommon):
         self.assertTrue(mo.workorder_ids[-1].show_json_popover)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_product_qty_digits_precision(self):
         self.env['decimal.precision'].search([('name', '=', 'Product Unit of Measure')]).digits = 5
         self.bom_1.product_uom_id.rounding = 0.00001
@@ -5241,6 +5244,9 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(unbuild_order.state, 'done')
         self.assertEqual(unbuild_order.product_qty, 1.23456)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

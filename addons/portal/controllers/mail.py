@@ -42,12 +42,20 @@ class PortalChatter(http.Controller):
     @http.route("/portal/chatter_init", type="json", auth="public", website=True)
     def portal_chatter_init(self, thread_model, thread_id, **kwargs):
         store = Store()
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
         partner = request.env.user.partner_id
+=======
+        request.env["res.users"]._init_store_data(store)
+        if request.env.user.has_group("website.group_website_restricted_editor"):
+            store.add(request.env.user.partner_id, {"is_user_publisher": True})
+        thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
+>>>>>>> upstream/18.0
         if thread:
             mode = request.env[thread_model]._get_mail_message_access([thread_id], "create")
             has_react_access = request.env[thread_model]._get_thread_with_access(thread_id, mode, **kwargs)
             can_react = has_react_access
+<<<<<<< HEAD
             if request.env.user._is_public():
                 portal_partner = get_portal_partner(
                     thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")
@@ -58,6 +66,30 @@ class PortalChatter(http.Controller):
         store.add({"self": Store.one(partner, fields=["active", "avatar_128", "name", "user"])})
         if request.env.user.has_group("website.group_website_restricted_editor"):
             store.add(partner, {"is_user_publisher": True})
+=======
+            if portal_partner := get_portal_partner(
+                thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")
+            ):
+                store.add(
+                    thread,
+                    {
+                        "portal_partner": Store.one(
+                            portal_partner, fields=["active", "avatar_128", "name", "user"]
+                        )
+                    },
+                    as_thread=True
+                )
+            if request.env.user._is_public():
+                can_react = has_react_access and portal_partner
+            store.add(
+                thread,
+                {
+                    "can_react": bool(can_react),
+                    "hasReadAccess": thread.sudo(False).has_access("read"),
+                },
+                as_thread=True,
+            )
+>>>>>>> upstream/18.0
         return store.get_result()
 
     @http.route('/mail/chatter_fetch', type='json', auth='public', website=True)

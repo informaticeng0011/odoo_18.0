@@ -20,7 +20,10 @@ export class PortalChatter extends Component {
         this.overlayService = useService("overlay");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.store = useService("mail.store");
@@ -36,6 +39,9 @@ export class PortalChatter extends Component {
         });
         thread.messages = await thread.fetchMessages();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

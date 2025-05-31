@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import models
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_repr
+
+>>>>>>> upstream/18.0
 
 class AccountMoveLine(models.Model):
     _inherit = "account.move.line"
@@ -31,7 +36,11 @@ class AccountMoveLine(models.Model):
             "Code": product.l10n_id_product_code.code or self.env.ref('l10n_id_efaktur_coretax.product_code_000000_goods').code,
             "Name": product.name,
             "Unit": self.product_uom_id.l10n_id_uom_code.code,
+<<<<<<< HEAD
             "Price": tax_res['total_excluded'],
+=======
+            "Price": idr.round(tax_res['total_excluded']),
+>>>>>>> upstream/18.0
             "Qty": self.quantity,
             "TotalDiscount": idr.round(self.discount * tax_res['total_excluded'] * self.quantity / 100),
             "TaxBase": idr.round(self.price_subtotal),  # DPP
@@ -53,4 +62,12 @@ class AccountMoveLine(models.Model):
         line_val['VAT'] = idr.round(line_val['OtherTaxBase'] * line_val['VATRate'] / 100)
         line_val['STLG'] = idr.round(line_val['STLGRate'] * line_val['OtherTaxBase'] / 100)
 
+<<<<<<< HEAD
+=======
+        # for numerical attributes in line_val, use float_repr to ensure proper formatting
+        numerical_fields = ['Price', 'TotalDiscount', 'TaxBase', 'OtherTaxBase', 'VAT', 'STLG']
+        for field in numerical_fields:
+            line_val[field] = float_repr(line_val[field], precision_digits=self.currency_id.decimal_places)
+
+>>>>>>> upstream/18.0
         vals['lines'].append(line_val)

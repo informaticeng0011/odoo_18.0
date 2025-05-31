@@ -74,7 +74,10 @@ export class ChannelMember extends Record {
     message_unread_counter_bus_id = 0;
     new_message_separator = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     isTyping = false;
     is_typing_dt = Record.attr(undefined, {
         type: "datetime",
@@ -91,12 +94,16 @@ export class ChannelMember extends Record {
             }
         },
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     threadAsTyping = Record.one("Thread", {
         compute() {
             return this.isTyping ? this.thread : undefined;
         },
         eager: true,
+<<<<<<< HEAD
 <<<<<<< HEAD
         onAdd() {
             browser.clearTimeout(this.typingTimeoutId);
@@ -105,6 +112,8 @@ export class ChannelMember extends Record {
                 Store.OTHER_LONG_TYPING
             );
         },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         onDelete() {

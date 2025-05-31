@@ -123,6 +123,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         picking_receipt.move_ids.picked = True
         picking_receipt.button_validate()
         self.assertEqual(mo.state, 'done')
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 
         # Available quantities should be negative at the subcontracting location for each components
         avail_qty_comp1 = self.env['stock.quant']._get_available_quantity(self.comp1, self.subcontractor_partner1.property_stock_subcontractor, allow_negative=True)
@@ -203,6 +207,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         picking_receipt.move_ids.picked = True
         picking_receipt.button_validate()
         self.assertEqual(mo.state, 'done')
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 
         # Available quantities should be negative at the subcontracting location for each components
         avail_qty_comp1 = self.env['stock.quant']._get_available_quantity(self.comp1, self.subcontractor_partner1.property_stock_subcontractor, allow_negative=True)
@@ -273,6 +281,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         picking_receipt.move_ids.picked = True
         picking_receipt.button_validate()
         self.assertEqual(mo.state, 'done')
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 
         # Available quantities should be negative at the subcontracting location for each components
         avail_qty_comp1 = self.env['stock.quant']._get_available_quantity(self.comp1, self.subcontractor_partner1.property_stock_subcontractor, allow_negative=True)
@@ -1132,6 +1144,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -1186,6 +1199,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

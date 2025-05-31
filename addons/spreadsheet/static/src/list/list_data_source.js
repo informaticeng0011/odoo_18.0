@@ -236,7 +236,11 @@ export class ListDataSource extends OdooViewsDataSource {
                 return new EvaluationError(_t('Fields of type "%s" are not supported', "json"));
             default:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return record[fieldName] || "";
+=======
+                return fieldName in record ? record[fieldName] : "";
+>>>>>>> upstream/18.0
 =======
                 return fieldName in record ? record[fieldName] : "";
 >>>>>>> upstream/18.0

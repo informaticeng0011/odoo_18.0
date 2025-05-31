@@ -423,7 +423,11 @@ msgid "Dear {{ object.display_name }} this is an automated SMS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobrý den {{ object.display_name }} toto je automatická SMS."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobrý den {{ object.display_name }} toto je automatická SMS."
 >>>>>>> upstream/18.0
@@ -1075,7 +1079,11 @@ msgstr "Náhled"
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_reset_view_form
 msgid "Proceed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokračovat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokračovat"
 >>>>>>> upstream/18.0
@@ -1529,7 +1537,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Sending SMS can only be done on a mail.thread or a transient model"
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+>>>>>>> upstream/18.0
 =======
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 >>>>>>> upstream/18.0
@@ -2006,7 +2018,11 @@ msgid "You do not have access to the message and/or related document."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemáte přístup ke zprávě a/nebo souvisejícím dokumentům."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemáte přístup ke zprávě a/nebo souvisejícím dokumentům."
 >>>>>>> upstream/18.0
@@ -2076,7 +2092,11 @@ msgid "You don't have an eligible IAP account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemáte splňující požadavky účet IAP."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemáte splňující požadavky účet IAP."
 >>>>>>> upstream/18.0
@@ -2146,7 +2166,11 @@ msgid "You don't have enough credits on your IAP account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na svém účtu IAP nemáte dostatek kreditů."
+>>>>>>> upstream/18.0
 =======
 msgstr "Na svém účtu IAP nemáte dostatek kreditů."
 >>>>>>> upstream/18.0
@@ -2216,7 +2240,11 @@ msgid "You tried too many times. Please retry later."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zkoušeli jste to příliš mnohokrát. Zkuste to prosím později."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zkoušeli jste to příliš mnohokrát. Zkuste to prosím později."
 >>>>>>> upstream/18.0
@@ -2295,7 +2323,11 @@ msgid "Your SMS account has been successfully registered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Váš SMS účet byl úspěšně zaregistrován."
+>>>>>>> upstream/18.0
 =======
 msgstr "Váš SMS účet byl úspěšně zaregistrován."
 >>>>>>> upstream/18.0
@@ -2368,6 +2400,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jméno odesílatele musí mít délku 3 až 11 znaků a obsahovat pouze "
+"alfanumerické znaky."
+>>>>>>> upstream/18.0
 =======
 "Jméno odesílatele musí mít délku 3 až 11 znaků a obsahovat pouze "
 "alfanumerické znaky."
@@ -2455,6 +2492,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jméno odesílatele musí mít délku 3 až 11 znaků a obsahovat pouze alfanumerické znaky.\n"
+"                        Musí odpovídat názvu vaší společnosti a po registraci jej nelze změnit, proto jej pečlivě zvažte"
+>>>>>>> upstream/18.0
 =======
 "Jméno odesílatele musí mít délku 3 až 11 znaků a obsahovat pouze alfanumerické znaky.\n"
 "                        Musí odpovídat názvu vaší společnosti a po registraci jej nelze změnit, proto jej pečlivě zvažte"
@@ -2540,7 +2582,11 @@ msgid "Your sms account has not been activated yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Váš účet SMS ještě nebyl aktivován."
+>>>>>>> upstream/18.0
 =======
 msgstr "Váš účet SMS ještě nebyl aktivován."
 >>>>>>> upstream/18.0
@@ -2610,7 +2656,11 @@ msgid "characters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "znaky"
+>>>>>>> upstream/18.0
 =======
 msgstr "znaky"
 >>>>>>> upstream/18.0
@@ -2684,7 +2734,11 @@ msgid "e.g. Calendar Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. Připomenutí kalendáře"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. Připomenutí kalendáře"
 >>>>>>> upstream/18.0
@@ -2778,7 +2832,11 @@ msgid "e.g. en_US or {{ object.partner_id.lang }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. en_US nebo {{ object.partner_id.lang }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. en_US nebo {{ object.partner_id.lang }}"
 >>>>>>> upstream/18.0
@@ -2915,6 +2973,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"příjemci mají neplatné telefonní číslo a tuto textovou zprávu neobdrží."
+>>>>>>> upstream/18.0
 =======
 "příjemci mají neplatné telefonní číslo a tuto textovou zprávu neobdrží."
 >>>>>>> upstream/18.0
