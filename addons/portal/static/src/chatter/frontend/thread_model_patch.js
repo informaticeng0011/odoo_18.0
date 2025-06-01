@@ -4,7 +4,10 @@ import { patch } from "@web/core/utils/patch";
 
 patch(Thread.prototype, {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     setup() {
         super.setup(...arguments);
         /** @type {boolean|undefined} */
@@ -23,6 +26,9 @@ patch(Thread.prototype, {
         }
         return result;
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get rpcParams() {
         return {

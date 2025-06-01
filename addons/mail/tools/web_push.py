@@ -43,7 +43,10 @@ MAX_PAYLOAD_SIZE = 4096
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125,6 +128,9 @@ ENCRYPTION_BLOCK_OVERHEAD = 1 + 16
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -297,8 +303,11 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
         'Content-Encoding': 'aes128gcm',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'TTL': '0',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # The TTL is set to '60' as workaround because the push notifications
@@ -307,6 +316,9 @@ def push_to_end_point(base_url, device, payload, vapid_private_key, vapid_public
         # and we are sure that the notification will be received
         'TTL': '60',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

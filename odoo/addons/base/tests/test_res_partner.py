@@ -48,7 +48,11 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import Command, models
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, models
 >>>>>>> upstream/18.0
@@ -230,7 +234,11 @@ from odoo.tests import Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import new_test_user, tagged, TransactionCase, users
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import new_test_user, tagged, TransactionCase, users
 >>>>>>> upstream/18.0
@@ -732,6 +740,7 @@ class TestPartnerAddressCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_address(self):
         res_partner = self.env['res.partner']
         ghoststep = res_partner.create({
@@ -795,6 +804,8 @@ class TestPartnerAddressCompany(TransactionCase):
         self.assertEqual(p1.type, 'contact', 'Default type must be "contact", not the copied parent type')
         self.assertEqual(ironshield.street, p1.street, 'Address fields should be copied to company')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1179,6 +1190,9 @@ class TestPartnerAddressCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1438,6 +1452,7 @@ class TestPartnerAddressCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner = self.env['res.partner']
         company_1 = Partner.create({'name': 'company 1', 'is_company': True, 'vat': 'BE0123456789'})
         company_2 = Partner.create({'name': 'company 2', 'is_company': True, 'vat': 'BE9876543210'})
@@ -1509,6 +1524,8 @@ class TestPartnerAddressCompany(TransactionCase):
         self.assertEqual(p1.vat, p1vat, 'Setting is_company should stop auto-sync of commercial fields')
         self.assertEqual(p0.vat, sunhelmvat2, 'Commercial fields must be automatically synced')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1730,6 +1747,9 @@ class TestPartnerAddressCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

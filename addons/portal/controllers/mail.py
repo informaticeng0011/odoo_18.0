@@ -43,18 +43,25 @@ class PortalChatter(http.Controller):
     def portal_chatter_init(self, thread_model, thread_id, **kwargs):
         store = Store()
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
         partner = request.env.user.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
         request.env["res.users"]._init_store_data(store)
         if request.env.user.has_group("website.group_website_restricted_editor"):
             store.add(request.env.user.partner_id, {"is_user_publisher": True})
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if thread:
             mode = request.env[thread_model]._get_mail_message_access([thread_id], "create")
             has_react_access = request.env[thread_model]._get_thread_with_access(thread_id, mode, **kwargs)
             can_react = has_react_access
+<<<<<<< HEAD
 <<<<<<< HEAD
             if request.env.user._is_public():
                 portal_partner = get_portal_partner(
@@ -67,6 +74,8 @@ class PortalChatter(http.Controller):
         if request.env.user.has_group("website.group_website_restricted_editor"):
             store.add(partner, {"is_user_publisher": True})
 =======
+=======
+>>>>>>> upstream/18.0
             if portal_partner := get_portal_partner(
                 thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")
             ):
@@ -89,6 +98,9 @@ class PortalChatter(http.Controller):
                 },
                 as_thread=True,
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return store.get_result()
 

@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo import Command
+from odoo.tests import tagged
+
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 from odoo.tests import tagged
@@ -55,7 +61,10 @@ class TestAccountPartner(AccountTestInvoicingCommon):
         self.assertEqual(self.partner_a.supplier_rank, 1)
         self.assertEqual(self.partner_a.customer_rank, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_manually_write_partner_id(self):
 
@@ -84,4 +93,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
             all(line.partner_id == self.partner_b for line in move.line_ids),
             "All move lines should be reassigned to the new commercial partner."
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

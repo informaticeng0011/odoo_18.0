@@ -40,9 +40,12 @@ self.addEventListener("notificationclick", (event) => {
 self.addEventListener("push", (event) => {
     const notification = event.data.json();
 <<<<<<< HEAD
+<<<<<<< HEAD
     self.registration.showNotification(notification.title, notification.options || {});
 });
 =======
+=======
+>>>>>>> upstream/18.0
     event.waitUntil(handlePushEvent(notification));
 });
 
@@ -88,6 +91,9 @@ async function handlePushEvent(notification) {
         }, 500);
     });
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 self.addEventListener("pushsubscriptionchange", async (event) => {
     const subscription = await self.registration.pushManager.subscribe(

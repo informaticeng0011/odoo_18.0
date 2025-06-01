@@ -76,7 +76,11 @@ export class Chatter extends Component {
                 this.state.thread.messages.push({
                     id: this.store.getNextTemporaryId(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     author: this.store.self,
+=======
+                    author: this.state.thread.effectiveSelf,
+>>>>>>> upstream/18.0
 =======
                     author: this.state.thread.effectiveSelf,
 >>>>>>> upstream/18.0

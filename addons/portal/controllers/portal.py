@@ -470,9 +470,15 @@ class CustomerPortal(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if report_type == 'pdf' and download:
             filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))
             headers['Content-Disposition'] = content_disposition(filename)
+=======
+        if report_type == 'pdf':
+            filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))
+            headers['Content-Disposition'] = content_disposition(filename, disposition_type='attachment' if download else 'inline')
+>>>>>>> upstream/18.0
 =======
         if report_type == 'pdf':
             filename = "%s.pdf" % (re.sub(r'\W+', '_', model._get_report_base_filename()))

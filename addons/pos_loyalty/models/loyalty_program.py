@@ -26,8 +26,13 @@ class LoyaltyProgram(models.Model):
             'name', 'trigger', 'applies_on', 'program_type', 'pricelist_ids', 'date_from',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date_to', 'limit_usage', 'max_usage', 'is_nominative', 'portal_visible',
             'portal_point_name', 'trigger_product_ids', 'rule_ids', 'reward_ids'
+=======
+            'date_to', 'limit_usage', 'max_usage', 'total_order_count', 'is_nominative',
+            'portal_visible', 'portal_point_name', 'trigger_product_ids', 'rule_ids', 'reward_ids'
+>>>>>>> upstream/18.0
 =======
             'date_to', 'limit_usage', 'max_usage', 'total_order_count', 'is_nominative',
             'portal_visible', 'portal_point_name', 'trigger_product_ids', 'rule_ids', 'reward_ids'

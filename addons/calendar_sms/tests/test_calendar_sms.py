@@ -3,8 +3,13 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 
+=======
+from datetime import datetime, timedelta
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 from odoo import fields
@@ -26,6 +31,11 @@ class TestCalendarSms(SMSCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        now = fields.datetime.now()
+
+>>>>>>> upstream/18.0
 =======
         now = fields.datetime.now()
 
@@ -41,7 +51,10 @@ class TestCalendarSms(SMSCommon):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.partner_phone_2 = cls.env['res.partner'].create({
@@ -50,6 +63,9 @@ class TestCalendarSms(SMSCommon):
             'country_id': cls.env.ref('base.be').id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69,7 +85,10 @@ class TestCalendarSms(SMSCommon):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.alarm_1h = cls.env['calendar.alarm'].create({
@@ -116,6 +135,9 @@ class TestCalendarSms(SMSCommon):
         })
         cls.alarm_24h.sms_template_id = cls.sms_template_24h.id
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127,7 +149,10 @@ class TestCalendarSms(SMSCommon):
         self.assertEqual(len(self._sms), 1, "There should be only one partner retrieved")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -146,6 +171,9 @@ class TestCalendarSms(SMSCommon):
         self.assertSMS(self.partner_phone_2, self.partner_phone_2.phone_sanitized, 'pending',
                        content=self.sms_template_24h.body)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

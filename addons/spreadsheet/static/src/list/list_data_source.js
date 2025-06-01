@@ -237,7 +237,11 @@ export class ListDataSource extends OdooViewsDataSource {
             default:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return record[fieldName] || "";
+=======
+                return fieldName in record ? record[fieldName] : "";
+>>>>>>> upstream/18.0
 =======
                 return fieldName in record ? record[fieldName] : "";
 >>>>>>> upstream/18.0

@@ -269,7 +269,10 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306,6 +309,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -599,7 +605,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "qtyUnit": product.uom_id.l10n_in_code and product.uom_id.l10n_in_code.split("-")[
+=======
+            "qtyUnit": line.product_uom.l10n_in_code and line.product_uom.l10n_in_code.split("-")[
+>>>>>>> upstream/18.0
 =======
             "qtyUnit": line.product_uom.l10n_in_code and line.product_uom.l10n_in_code.split("-")[
 >>>>>>> upstream/18.0

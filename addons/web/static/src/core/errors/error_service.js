@@ -4,7 +4,10 @@ import { completeUncaughtError, getErrorTechnicalName } from "./error_utils";
 import { isBrowserFirefox, isBrowserChrome } from "@web/core/browser/feature_detection";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export class HTMLElementLoadingError extends Error {
     static message = "Error loading an HTML Element";
     constructor(message = HTMLElementLoadingError.message, event) {
@@ -13,6 +16,9 @@ export class HTMLElementLoadingError extends Error {
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * Uncaught Errors have 4 properties:
@@ -53,10 +59,13 @@ export class ThirdPartyScriptError extends UncaughtError {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const errorService = {
     start(env) {
         function handleError(uncaughtError, retry = true) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82,6 +91,9 @@ export const errorService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,8 +183,11 @@ export const errorService = {
 
         browser.addEventListener("unhandledrejection", async (ev) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             const error = ev.reason;
 =======
+=======
+>>>>>>> upstream/18.0
             let error = ev.reason;
 
             if (error && error.type === "error" && "eventPhase" in error) {
@@ -195,6 +210,9 @@ export const errorService = {
                 error = new HTMLElementLoadingError(message, error);
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             let traceback;
             if (isBrowserChrome() && ev instanceof CustomEvent && error === undefined) {

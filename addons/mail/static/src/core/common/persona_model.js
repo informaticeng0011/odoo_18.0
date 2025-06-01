@@ -75,6 +75,10 @@ export class Persona extends Record {
         inverse: "imStatusTrackedPersonas",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    signature = Record.attr("", { html: true });
+>>>>>>> upstream/18.0
 =======
     signature = Record.attr("", { html: true });
 >>>>>>> upstream/18.0

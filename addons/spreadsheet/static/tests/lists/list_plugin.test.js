@@ -15,6 +15,10 @@ import {
     getCellFormula,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getCellFormattedValue,
+>>>>>>> upstream/18.0
 =======
     getCellFormattedValue,
 >>>>>>> upstream/18.0
@@ -88,7 +92,10 @@ test("Boolean fields are correctly formatted", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 test("Numeric/monetary fields are correctly loaded and displayed", async () => {
@@ -120,6 +127,9 @@ test("Numeric/monetary fields are correctly loaded and displayed", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

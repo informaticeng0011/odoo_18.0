@@ -22,6 +22,10 @@
 # Wil Odoo, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -33,6 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +55,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -99,6 +109,11 @@ msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"on_time_rate &gt;= 0\">Zamanında Teslimat Verisi "
+"Yok</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"on_time_rate &gt;= 0\">Zamanında Teslimat Verisi "
 "Yok</span>"
@@ -125,6 +140,7 @@ msgstr "<span>Öngörülen: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Teslimat Koşulu:</strong>"
@@ -143,10 +159,15 @@ msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi:</strong>"
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
@@ -163,10 +184,14 @@ msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi</strong>"
 =======
 msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Sevkiyat adresi</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,13 +219,21 @@ msgstr "<strong>Teslimat Koşulu:</strong>"
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Teslimat Koşulu:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Teslimat Koşulu:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
 msgid "A storable product is a product for which you manage stock."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir ürün türüdür."
+>>>>>>> upstream/18.0
 =======
 msgstr "Depolanabilir bir ürün, stoklarını yönettiğiniz bir ürün türüdür."
 >>>>>>> upstream/18.0
@@ -217,6 +250,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ürün yapılandırmasına göre, alınan miktar mekanizma tarafından otomatik olarak hesaplanabilir:\n"
+"  - Manuel: miktar hat üzerinde manuel olarak ayarlanır\n"
+"  - Stok Hareketleri: miktar, onaylanmış toplamalardan gelir\n"
+>>>>>>> upstream/18.0
 =======
 "Ürün yapılandırmasına göre, alınan miktar mekanizma tarafından otomatik olarak hesaplanabilir:\n"
 "  - Manuel: miktar hat üzerinde manuel olarak ayarlanır\n"
@@ -304,7 +343,11 @@ msgstr "Özel Açıklama"
 msgid "Days To Arrive"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varış Günü Sayısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varış Günü Sayısı"
 >>>>>>> upstream/18.0
@@ -338,7 +381,11 @@ msgstr "Satınalma Günler"
 msgid "Delay Pass"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gecikme Süresi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gecikme Süresi"
 >>>>>>> upstream/18.0
@@ -377,7 +424,11 @@ msgstr "İsim Göster"
 msgid "Downstream moves alt"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt seviyedeki hareketler"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt seviyedeki hareketler"
 >>>>>>> upstream/18.0
@@ -411,7 +462,11 @@ msgstr "Geçerlilik Tarihi Son Yıl"
 msgid "Effective Days To Arrival"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teslimata Kalan Etkin Gün Sayısı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teslimata Kalan Etkin Gün Sayısı"
 >>>>>>> upstream/18.0
@@ -506,7 +561,11 @@ msgstr "Son Satınalma"
 msgid "Linked Purchase Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bağlantılı Satın Alma Siparişi Kalemleri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bağlantılı Satın Alma Siparişi Kalemleri"
 >>>>>>> upstream/18.0
@@ -519,7 +578,11 @@ msgstr "Bağlantılı Satın Alma Siparişi Kalemleri"
 msgid "Location from procurement"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tedarikten gelen konum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tedarikten gelen konum"
 >>>>>>> upstream/18.0
@@ -578,7 +641,11 @@ msgstr "Henüz veri yok"
 msgid "No receipt yet! Automate them with purchase orders."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Henüz makbuz yok! Satın alma siparişleri ile otomatikleştirin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Henüz makbuz yok! Satın alma siparişleri ile otomatikleştirin."
 >>>>>>> upstream/18.0
@@ -646,6 +713,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Son x gün içinde zamanında teslim alınan ürün sayısının sipariş edilen ürün "
+"sayısına bölümü.x, sistem parametresi purchase_stock.on_time_delivery_days "
+"veya varsayılan 365'tir"
+>>>>>>> upstream/18.0
 =======
 "Son x gün içinde zamanında teslim alınan ürün sayısının sipariş edilen ürün "
 "sayısına bölümü.x, sistem parametresi purchase_stock.on_time_delivery_days "
@@ -691,7 +764,11 @@ msgstr "Tedarik Grubu"
 msgid "Procurement group that generated this line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu satırı oluşturan tedarik grubu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu satırı oluşturan tedarik grubu"
 >>>>>>> upstream/18.0
@@ -721,7 +798,11 @@ msgstr "Ürün İkmali"
 msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ürün Yenileme Karışımı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ürün Yenileme Karışımı"
 >>>>>>> upstream/18.0
@@ -840,6 +921,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kırmızı: Gecikmiş\n"
+"            Turuncu: Bugün işlenecek\n"
+"            Yeşil: Vaktinde"
+>>>>>>> upstream/18.0
 =======
 "Kırmızı: Gecikmiş\n"
 "            Turuncu: Bugün işlenecek\n"
@@ -992,6 +1079,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"İşlem türü (%(operation_type)s) nün deposu, ürün (%(product)s) için yeniden "
+"sipariş kuralının (%(reordering_rule)s) konumu (%(location)s) ile uyumlu "
+"değil. İşlem türünü değiştirin veya fiyatlandırma talebini iptal edin."
+>>>>>>> upstream/18.0
 =======
 "İşlem türü (%(operation_type)s) nün deposu, ürün (%(product)s) için yeniden "
 "sipariş kuralının (%(reordering_rule)s) konumu (%(location)s) ile uyumlu "
@@ -1096,6 +1189,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Satın alma sipariş(ler)i iptal edilemiyor: %s işlemleri tamamlanmış olan "
+"makbuzları mevcut."
+>>>>>>> upstream/18.0
 =======
 "Satın alma sipariş(ler)i iptal edilemiyor: %s işlemleri tamamlanmış olan "
 "makbuzları mevcut."

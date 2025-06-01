@@ -5220,7 +5220,10 @@ class TestMrpOrder(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_product_qty_digits_precision(self):
@@ -5245,6 +5248,9 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(unbuild_order.product_qty, 1.23456)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

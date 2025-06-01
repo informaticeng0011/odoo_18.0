@@ -254,7 +254,10 @@ export class Message extends Record {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Get the effective persona performing actions on this message.
      * Priority order: logged-in user, portal partner (token-authenticated), guest.
@@ -276,6 +279,9 @@ export class Message extends Record {
         return this.thread?.selves ?? [this.store.self];
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get datetimeShort() {
         return this.datetime.toLocaleString(DateTime.DATETIME_SHORT_WITH_SECONDS);
@@ -283,7 +289,11 @@ export class Message extends Record {
 
     get isSelfMentioned() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.store.self.in(this.recipients);
+=======
+        return this.selves.some((s) => s.in(this.recipients));
+>>>>>>> upstream/18.0
 =======
         return this.selves.some((s) => s.in(this.recipients));
 >>>>>>> upstream/18.0
@@ -299,7 +309,11 @@ export class Message extends Record {
                 return false;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.author.eq(this.store.self);
+=======
+            return this.author.in(this.selves);
+>>>>>>> upstream/18.0
 =======
             return this.author.in(this.selves);
 >>>>>>> upstream/18.0

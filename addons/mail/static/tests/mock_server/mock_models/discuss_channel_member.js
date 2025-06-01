@@ -5,6 +5,11 @@ import { serializeDateTime, today } from "@web/core/l10n/dates";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const { DateTime } = luxon;
+
+>>>>>>> upstream/18.0
 =======
 const { DateTime } = luxon;
 
@@ -49,8 +54,11 @@ export class DiscussChannelMember extends models.ServerModel {
                 new mailDataHelpers.Store(DiscussChannelMember.browse(member.id))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .add("discuss.channel.member", { id: member.id, isTyping: is_typing })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     .add("discuss.channel.member", {
@@ -59,6 +67,9 @@ export class DiscussChannelMember extends models.ServerModel {
                         is_typing_dt: serializeDateTime(DateTime.now()),
                     })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

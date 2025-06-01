@@ -114,7 +114,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             'invoice_incoterm_code': invoice.invoice_incoterm_id.code,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'custom_form_reference': invoice.l10n_my_edi_custom_form_reference,
+=======
+            # Depending on the move type, it will either be about exports (invoices) or imports (bills)
+            'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
+            'export_custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"01", "02", "03", "04"} else None,
+>>>>>>> upstream/18.0
 =======
             # Depending on the move type, it will either be about exports (invoices) or imports (bills)
             'custom_form_reference': invoice.l10n_my_edi_custom_form_reference if document_type_code in {"11", "12", "13", "14"} else None,
@@ -147,7 +153,11 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals['id_attrs'] != {'schemeID': 'TTX'}
+=======
+            vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
+>>>>>>> upstream/18.0
 =======
             vals for vals in vals['vals']['accounting_customer_party_vals']['party_vals']['party_identification_vals'] if vals.get('id_attrs', {}) != {'schemeID': 'TTX'}
 >>>>>>> upstream/18.0
@@ -260,6 +270,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # EXTENDS 'account_edi_ubl_cii'
         vals = super()._get_partner_party_identification_vals_list(partner)
 
@@ -270,12 +281,17 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # OVERRIDE 'account_edi_ubl_cii'
         vals = [{
             'id_attrs': {'schemeID': 'TIN'},
             'id': partner._l10n_my_edi_get_tin_for_myinvois(),
         }]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

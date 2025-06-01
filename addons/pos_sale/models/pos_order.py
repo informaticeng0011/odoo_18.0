@@ -49,7 +49,13 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sale_orders[0].payment_term_id:
+=======
+            if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
+                invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
+            else:
+>>>>>>> upstream/18.0
 =======
             if sale_orders[0].payment_term_id and not sale_orders[0].payment_term_id.early_discount:
                 invoice_vals['invoice_payment_term_id'] = sale_orders[0].payment_term_id.id
@@ -165,8 +171,11 @@ class PosOrder(models.Model):
                     if not picking.state in ['waiting', 'confirmed', 'assigned']:
                         continue
 <<<<<<< HEAD
+<<<<<<< HEAD
                     new_qty = so_line.product_uom_qty - so_line.qty_delivered
 =======
+=======
+>>>>>>> upstream/18.0
 
                     def get_expected_qty_to_ship_later():
                         pos_pickings = so_line.pos_order_line_ids.order_id.picking_ids
@@ -177,6 +186,9 @@ class PosOrder(models.Model):
 
                     qty_delivered = max(so_line.qty_delivered, get_expected_qty_to_ship_later())
                     new_qty = so_line.product_uom_qty - qty_delivered
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     if float_compare(new_qty, 0, precision_rounding=stock_move.product_uom.rounding) <= 0:
                         new_qty = 0

@@ -203,11 +203,17 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
     steps: () =>
         [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             // Steps to check if the alert dialog for invalid domain loyalty program is present, only then will the pos screen load correctly
             Dialog.is("A reward could not be loaded"),
             Dialog.confirm("Ok"),
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             Chrome.startPoS(),
             Dialog.confirm("Open Register"),

@@ -20,8 +20,13 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import * as hoot from "@odoo/hoot-dom";
+=======
+import { enableEventLogs, setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
+import * as hootDom from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { enableEventLogs, setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import * as hootDom from "@odoo/hoot-dom";
@@ -130,6 +135,10 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        enableEventLogs(this.debugMode);
+>>>>>>> upstream/18.0
 =======
         enableEventLogs(this.debugMode);
 >>>>>>> upstream/18.0
@@ -218,7 +227,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             await hoot.delay(stepDelay);
+=======
+                            await hootDom.delay(stepDelay);
+>>>>>>> upstream/18.0
 =======
                             await hootDom.delay(stepDelay);
 >>>>>>> upstream/18.0
@@ -320,7 +333,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             delete window.hoot;
+=======
+            delete window[hootNameSpace];
+>>>>>>> upstream/18.0
 =======
             delete window[hootNameSpace];
 >>>>>>> upstream/18.0
@@ -438,7 +455,12 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.hoot = hoot;
+=======
+        const hootNameSpace = hootDom.exposeHelpers(hootDom);
+        console.debug(`Hoot DOM helpers available from \`window.${hootNameSpace}\``);
+>>>>>>> upstream/18.0
 =======
         const hootNameSpace = hootDom.exposeHelpers(hootDom);
         console.debug(`Hoot DOM helpers available from \`window.${hootNameSpace}\``);

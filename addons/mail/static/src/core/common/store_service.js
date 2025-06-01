@@ -447,8 +447,11 @@ export class Store extends BaseStore {
 
     /** Provides an override point for when the store service has started. */
 <<<<<<< HEAD
+<<<<<<< HEAD
     onStarted() {}
 =======
+=======
+>>>>>>> upstream/18.0
     onStarted() {
         navigator.serviceWorker?.addEventListener("message", ({ data = {} }) => {
             const { type, payload } = data;
@@ -470,6 +473,9 @@ export class Store extends BaseStore {
             }
         });
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     /**
@@ -785,7 +791,11 @@ export const storeService = {
     start(env, services) {
         const store = makeStore(env);
 <<<<<<< HEAD
+<<<<<<< HEAD
         store.insert(session.storeData);
+=======
+        store.insert(session.storeData, { html: true });
+>>>>>>> upstream/18.0
 =======
         store.insert(session.storeData, { html: true });
 >>>>>>> upstream/18.0

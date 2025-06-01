@@ -1097,7 +1097,10 @@ class Message(models.Model):
                 [("subtype_id.description", "ilike", search_term)],
             ])])
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = expression.AND([domain, [("message_type", "not in", ["user_notification", "notification"])]])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             res["count"] = self.search_count(domain)

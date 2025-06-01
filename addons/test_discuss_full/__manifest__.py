@@ -24,12 +24,18 @@
         'website_slides',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     "assets": {
         "web.assets_tests": [
             "test_discuss_full/static/tests/tours/*",
         ],
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     'installable': True,
     'license': 'LGPL-3',

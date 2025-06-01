@@ -44,7 +44,10 @@ class TestPortalAttachmentController(TestAttachmentControllerCommon):
             ),
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_delete_attachment_as_internal_with_token(self):
         record = self.env["mail.test.portal"].create(
@@ -63,4 +66,7 @@ class TestPortalAttachmentController(TestAttachmentControllerCommon):
             self._delete_attachment(attachment, {})
         self.assertEqual(exc.exception.args[0], "werkzeug.exceptions.NotFound")
         self._delete_attachment(attachment, token_param)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

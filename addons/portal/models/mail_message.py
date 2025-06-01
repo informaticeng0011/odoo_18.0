@@ -161,7 +161,11 @@ class MailMessage(models.Model):
     def _is_editable_in_portal(self, **kwargs):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.model and self.res_id and self.env.user._is_public():
+=======
+        if self.model and self.res_id:
+>>>>>>> upstream/18.0
 =======
         if self.model and self.res_id:
 >>>>>>> upstream/18.0

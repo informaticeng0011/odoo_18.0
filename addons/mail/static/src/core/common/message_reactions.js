@@ -19,7 +19,11 @@ export class MessageReactions extends Component {
                 const reaction = this.props.message.reactions.find(
                     ({ content, personas }) =>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         content === emoji && personas.find((persona) => persona.eq(this.store.self))
+=======
+                        content === emoji && this.props.message.effectiveSelf.in(personas)
+>>>>>>> upstream/18.0
 =======
                         content === emoji && this.props.message.effectiveSelf.in(personas)
 >>>>>>> upstream/18.0

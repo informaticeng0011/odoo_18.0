@@ -23,7 +23,12 @@ import { parseUrl } from "../local_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 describe.timeout(1_000)(parseUrl(import.meta.url), () => {
+=======
+describe.timeout(1_000);
+describe(parseUrl(import.meta.url), () => {
+>>>>>>> upstream/18.0
 =======
 describe.timeout(1_000);
 describe(parseUrl(import.meta.url), () => {
