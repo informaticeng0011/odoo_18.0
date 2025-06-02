@@ -349,6 +349,7 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{object.env.ref('base.user_admin').sudo().image_128}}"/>
         """
@@ -368,6 +369,8 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         # Force a cache invalidation to force a re-fetch from database
         campaign.invalidate_recordset(fnames=['body_html'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -433,6 +436,9 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -508,7 +514,11 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and field.readonly
+=======
+                and not field.readonly
+>>>>>>> upstream/18.0
 =======
                 and not field.readonly
 >>>>>>> upstream/18.0

@@ -69,7 +69,11 @@
                                         <label string="Rounding Method" for="pos_rounding_method" class="col-lg-3 o_light_label" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session"/>
+=======
+                                        <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session" options="{'no_quick_create': True}" />
+>>>>>>> upstream/18.0
 =======
                                         <field name="pos_rounding_method" required="pos_cash_rounding" readonly="pos_has_active_session" options="{'no_quick_create': True}" />
 >>>>>>> upstream/18.0

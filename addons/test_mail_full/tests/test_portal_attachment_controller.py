@@ -45,7 +45,10 @@ class TestPortalAttachmentController(TestAttachmentControllerCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -67,6 +70,9 @@ class TestPortalAttachmentController(TestAttachmentControllerCommon):
         self.assertEqual(exc.exception.args[0], "werkzeug.exceptions.NotFound")
         self._delete_attachment(attachment, token_param)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

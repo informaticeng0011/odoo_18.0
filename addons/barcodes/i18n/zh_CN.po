@@ -5,14 +5,24 @@
 # Translators:
 # Wil Odoo, 2024
 # Chloe Wang, 2024
+<<<<<<< HEAD
+=======
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Chloe Wang, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,6 +189,17 @@ msgid "ID"
 msgstr "ID"
 
 #. module: barcodes
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/barcodes/models/barcode_events_mixin.py:0
+msgid ""
+"In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
+"must be implemented"
+msgstr "要使用 barcodes.barcode_events_mixin，必须执行方法 on_barcode_scanned"
+
+#. module: barcodes
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
 msgid "Last Updated by"

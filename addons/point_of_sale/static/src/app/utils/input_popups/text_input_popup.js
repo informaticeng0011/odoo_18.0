@@ -54,6 +54,10 @@ export class TextInputPopup extends Component {
         if (this.props.rows === 1 && ev.key.toUpperCase() === "ENTER") {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ev.stopPropagation();
+>>>>>>> upstream/18.0
 =======
             ev.stopPropagation();
 >>>>>>> upstream/18.0

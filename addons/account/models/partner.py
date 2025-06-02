@@ -623,6 +623,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
+>>>>>>> upstream/18.0
 =======
     # DEPRECATED, DO NOT USE, TO BE REMOVED IN MASTER
 >>>>>>> upstream/18.0
@@ -835,6 +839,7 @@ class ResPartner(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     def write(self, vals):
         if 'parent_id' not in vals:
@@ -857,6 +862,8 @@ class ResPartner(models.Model):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def write(self, vals):
         res = super().write(vals)
         moves_sudo = self.sudo().env['account.move'].search([('partner_id', 'in', self.ids)])
@@ -873,6 +880,9 @@ class ResPartner(models.Model):
                 partner._message_log(body=_("The commercial partner has been updated for all related accounting entries."))
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model_create_multi
     def create(self, vals_list):

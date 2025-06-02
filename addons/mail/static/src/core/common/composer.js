@@ -566,7 +566,11 @@ export class Composer extends Component {
             default_body,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.composer.emailAddSignature ? markup(this.store.self.signature) : ""
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0

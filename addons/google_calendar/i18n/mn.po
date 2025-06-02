@@ -10,14 +10,24 @@
 # Bayarkhuu Bataa, 2024
 # Batmunkh Ganbat <batmunkh2522@gmail.com>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
+=======
+# Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-30 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -187,6 +197,14 @@ msgid "Email"
 msgstr "Имэйл"
 
 #. module: google_calendar
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:google_calendar.model_calendar_alarm_manager
+msgid "Event Alarm Manager"
+msgstr "Арга хэмжээний анхааруулгын Менежер"
+
+#. module: google_calendar
+>>>>>>> upstream/18.0
 #: model:ir.model,name:google_calendar.model_calendar_recurrence
 msgid "Event Recurrence Rule"
 msgstr ""
@@ -373,12 +391,15 @@ msgstr ""
 
 #. module: google_calendar
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/google_calendar/models/res_users_settings.py:0
 msgid "The account for the Google Calendar service is not configured."
 msgstr ""
 
 #. module: google_calendar
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/google_calendar/models/calendar.py:0
 msgid ""
 "The following event can only be updated by the organizer according to the "

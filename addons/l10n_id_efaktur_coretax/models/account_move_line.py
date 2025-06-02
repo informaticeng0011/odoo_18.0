@@ -3,6 +3,11 @@
 from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_repr
+
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_repr
 
@@ -43,7 +48,11 @@ class AccountMoveLine(models.Model):
             "Unit": self.product_uom_id.l10n_id_uom_code.code,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Price": tax_res['total_excluded'],
+=======
+            "Price": idr.round(tax_res['total_excluded']),
+>>>>>>> upstream/18.0
 =======
             "Price": idr.round(tax_res['total_excluded']),
 >>>>>>> upstream/18.0
@@ -73,7 +82,10 @@ class AccountMoveLine(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # for numerical attributes in line_val, use float_repr to ensure proper formatting
@@ -82,6 +94,9 @@ class AccountMoveLine(models.Model):
             line_val[field] = float_repr(line_val[field], precision_digits=self.currency_id.decimal_places)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

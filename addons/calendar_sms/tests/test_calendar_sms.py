@@ -4,8 +4,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 
+=======
+from datetime import datetime, timedelta
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 from odoo import fields
@@ -32,6 +37,11 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        now = fields.datetime.now()
+
+>>>>>>> upstream/18.0
 =======
         now = fields.datetime.now()
 
@@ -52,7 +62,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64,6 +77,9 @@ class TestCalendarSms(SMSCommon):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86,7 +102,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -136,6 +155,9 @@ class TestCalendarSms(SMSCommon):
         cls.alarm_24h.sms_template_id = cls.sms_template_24h.id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150,7 +172,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172,6 +197,9 @@ class TestCalendarSms(SMSCommon):
                        content=self.sms_template_24h.body)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

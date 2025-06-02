@@ -42,8 +42,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Abe Manyo, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Abe Manyo, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Abe Manyo, 2025
@@ -201,6 +206,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +405,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Abe Manyo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-30 18:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Abe Manyo, 2025\n"
 >>>>>>> upstream/18.0
@@ -602,6 +613,18 @@ msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/account_tax.py:0
+msgid ""
+"%(tax_account)s (%(account_name)s) should be an account of type "
+"\"%(receivable)s\" or \"%(payable)s\" with both options "
+"\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s (pembulatan)"
@@ -1770,6 +1793,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1792,6 +1816,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Alamat Pengiriman</strong>"
 
@@ -1799,6 +1825,9 @@ msgstr "<strong class=\"d-block mt-3\">Alamat Pengiriman</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1875,11 +1904,14 @@ msgstr "<strong>Referensi</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Alamat pengiriman</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1950,7 +1982,10 @@ msgstr "<strong>Tipe: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2024,6 +2059,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2129,7 +2167,10 @@ msgstr "Rekening bank hanya dapat dimiliki oleh satu jurnal."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2189,6 +2230,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -2232,6 +2274,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2260,6 +2304,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3730,7 +3777,11 @@ msgid "Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analisa Distribusi"
+=======
+msgstr "Distribusi Analitik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Distribusi Analitik"
 >>>>>>> upstream/18.0
@@ -4329,6 +4380,7 @@ msgstr "Akun Bank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Akun Bank %(link)s dengan angka %(number)s dihapus"
 =======
@@ -4386,6 +4438,10 @@ msgstr ""
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Akun Bank %(link)s dengan nomor %(number)s diarsip"
 >>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
@@ -5050,6 +5106,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5140,6 +5197,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
@@ -5154,6 +5213,9 @@ msgstr "Tidak dapat mengidentifikasi faktur di PDF yang dibuat: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5705,6 +5767,7 @@ msgstr "Entitas Komersial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5743,6 +5806,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5859,6 +5924,9 @@ msgstr "Negara Partner Komersil"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9075,7 +9143,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dari tahun fiskal kemarin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dari tahun fiskal kemarin"
 >>>>>>> upstream/18.0
@@ -10803,7 +10875,11 @@ msgid "Items With Missing Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Item Dengan yang Kurang Distribusi Analitik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Item Dengan yang Kurang Distribusi Analitik"
 >>>>>>> upstream/18.0
@@ -15155,7 +15231,11 @@ msgid "See items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lihat item"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lihat item"
 >>>>>>> upstream/18.0
@@ -16823,6 +16903,16 @@ msgstr ""
 "implemented"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/partner.py:0
+msgid ""
+"The commercial partner has been updated for all related accounting entries."
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__company_id
 msgid "The company this distribution line belongs to."
 msgstr "Perusahaan yang memiliki baris distribusi ini."
@@ -17885,7 +17975,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "anggaran master dan anggaran ditentukan, manajer proyek dapat mengatur "
+=======
+"anggaran master dan anggaran ditentukan, manajer project dapat mengatur "
+>>>>>>> upstream/18.0
 =======
 "anggaran master dan anggaran ditentukan, manajer project dapat mengatur "
 >>>>>>> upstream/18.0
@@ -18383,8 +18477,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Untuk menyimpan audit trail, Anda tidak dapat menghapus entri jurnal setelah mereka diposting.\n"
 "ALih-alih, Anda dapat membatalkan entri jurnal."
+=======
+"Untuk menyimpan jejak audit, Anda tidak dapat menghapus entri jurnal setelah mereka diposting.\n"
+"Alih-alih, Anda dapat membatalkan entri jurnal."
+>>>>>>> upstream/18.0
 =======
 "Untuk menyimpan jejak audit, Anda tidak dapat menghapus entri jurnal setelah mereka diposting.\n"
 "Alih-alih, Anda dapat membatalkan entri jurnal."
@@ -19665,6 +19764,7 @@ msgstr "Nilai kredit atau debit yang salah dalam entri akuntansi!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -19754,6 +19854,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "XML format"
 msgstr "Format XML"
@@ -19767,6 +19869,9 @@ msgstr "Format XML"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20455,6 +20560,17 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/partner.py:0
+msgid ""
+"You cannot set a partner as an invoicing address of another if they have a "
+"different %(vat_label)s."
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_account.py:0
 msgid ""
 "You cannot switch an account to prevent the reconciliation if some partial "
@@ -20542,6 +20658,17 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/partner.py:0
+msgid ""
+"You do not have permission to mark this partner as the main commercial "
+"partner."
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid ""

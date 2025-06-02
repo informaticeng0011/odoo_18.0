@@ -12,6 +12,10 @@ from . import test_mail_composer
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_mail_mail
+>>>>>>> upstream/18.0
 =======
 from . import test_mail_mail
 >>>>>>> upstream/18.0

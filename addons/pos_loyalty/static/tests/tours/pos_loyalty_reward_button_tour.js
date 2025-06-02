@@ -204,7 +204,10 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
         [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             // Steps to check if the alert dialog for invalid domain loyalty program is present, only then will the pos screen load correctly
@@ -212,6 +215,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificDiscountWithRewardPro
             Dialog.confirm("Ok"),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

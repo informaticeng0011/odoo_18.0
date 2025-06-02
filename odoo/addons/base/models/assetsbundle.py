@@ -1080,7 +1080,11 @@ class ScssStylesheetAsset(PreprocessedCSS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def scss_importer(path, prev):
+=======
+        def scss_importer(path, *args):
+>>>>>>> upstream/18.0
 =======
         def scss_importer(path, *args):
 >>>>>>> upstream/18.0

@@ -36,6 +36,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -171,7 +175,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -288,12 +296,21 @@ msgid ""
 "%(date_start)s at %(time_start)s To\n"
 " %(date_end)s at %(time_end)s (%(timezone)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(date_start)s ob%(time_start)s do\n"
+" %(date_end)s ob%(time_end)s (%(timezone)s)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(day)s ob (%(start)s do%(end)s) (%(timezone)s)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -721,22 +738,39 @@ msgid ""
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" "
 "title=\"Meetings\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" "
+"title=\"Meetings\"/>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-plus\"/> <span>Odoo meeting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/> <span>Odoo srečanje</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/><span> Odoo srečanje</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-times\"/><span> Počisti sestanek</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -745,32 +779,58 @@ msgid ""
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
 "'weekly')\">Repeat on</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">Ponovi naprej</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Google Calendar</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">Google Koledar</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Outlook Calendar</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">Outlook Koledar</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"oi oi-arrow-right\"/><span> Join video call</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oi oi-arrow-right\"/><span> Pridruži se video klicu</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span invisible=\"allday\" style=\"white-space: pre;\"> or </span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> ali </span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> Attendees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> Udeleženci </span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -787,7 +847,11 @@ msgstr ""
 #. module: calendar
 #: model:ir.model.constraint,message:calendar.constraint_calendar_filters_user_id_partner_id_unique
 msgid "A user cannot have the same contact twice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabnik ne more imeti istega stika dvakrat."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -797,7 +861,11 @@ msgstr "Sprejmi"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__accepted_count
 msgid "Accepted Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprejeto število"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_type__category
@@ -833,6 +901,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dejanja lahko sprožijo določeno vedenje, kot je odpiranje koledarskega "
+"pogleda ali samodejno označevanje kot dokončano, ko je dokument naložen"
+>>>>>>> upstream/18.0
 =======
 "Dejanja lahko sprožijo določeno vedenje, kot je odpiranje koledarskega "
 "pogleda ali samodejno označevanje kot dokončano, ko je dokument naložen"
@@ -925,7 +998,11 @@ msgstr "Aktivnost"
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_mixin
 msgid "Activity Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mešanje aktivnosti"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_type
@@ -935,22 +1012,38 @@ msgstr "Tip aktivnosti"
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za načrtovanje urnika dejavnosti"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add attendees..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj udeležence ..."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Add description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj opis"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj naslov"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__body
@@ -961,7 +1054,11 @@ msgstr "Dodatno sporočilo"
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__body
 msgid ""
 "Additional message that would be sent with the notification for the reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatno sporočilo, ki bi bilo poslano z obvestilom za opomnik"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -1008,12 +1105,20 @@ msgstr "Udeleženci"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendees_count
 msgid "Attendees Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_status
 msgid "Attending?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se udeležujete?"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__availability__free
@@ -1029,7 +1134,11 @@ msgstr "Razpoložljivo/Zasedeno"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__awaiting_count
 msgid "Awaiting Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čakajoče štetje"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__base_event_id
@@ -1055,7 +1164,11 @@ msgstr "Po dnevih"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "Bye-bye, record!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adijo, ta zapis!"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.ui.menu,name:calendar.calendar_event_menu
@@ -1085,7 +1198,11 @@ msgstr "Informacije o udeležencih koledarja"
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view_calendar_default_privacy
 msgid "Calendar Default Privacy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeta zasebnost koledarja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
@@ -1097,7 +1214,11 @@ msgstr "Dogodek v koledarju"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_filters
 msgid "Calendar Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtri koledarja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
@@ -1112,22 +1233,38 @@ msgstr "Koledarski sestanek"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_popover_delete_wizard
 msgid "Calendar Popover Delete Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za brisanje koledarja Popover"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_provider_config
 msgid "Calendar Provider Configuration Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za konfiguracijo ponudnika koledarja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.res_config_settings_view_form
 msgid "Calendar Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitve koledarja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_changedate
 msgid "Calendar: Date Updated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koledar: Datum posodobitve"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
@@ -1142,7 +1279,11 @@ msgstr "Koledar: Posodobitev dogodkov"
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_invitation
 msgid "Calendar: Meeting Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koledar: Vabilo na sestanek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_reminder
@@ -1161,6 +1302,11 @@ msgid ""
 "Check if the organizer is alone in the event, i.e. if the organizer is the only one that hasn't declined\n"
 "        the event (only if the organizer is not the only attendee)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preverite, ali je organizator sam v dogodku, tj. ali je organizator edini, ki ni zavrnil\n"
+"        dogodek (le če organizator ni edini udeleženec)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__partner_checked
@@ -1178,6 +1324,11 @@ msgid ""
 "Choose what to do with other events in the recurrence. Updating All Events "
 "is not allowed when dates or time is modified"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izberite, kaj želite storiti z drugimi dogodki v ponavljanju. Posodabljanje "
+"vseh dogodkov ni dovoljeno, ko so datumi ali čas spremenjeni."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
@@ -1265,7 +1416,11 @@ msgstr "Ustvarjeno"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_attendee
 msgid "Current Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutni udeleženec"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type_ui__custom
@@ -1322,7 +1477,11 @@ msgstr "Zavrni"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__declined_count
 msgid "Declined Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavrnjeno število"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1332,12 +1491,20 @@ msgstr "Privzeto"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Default Privacy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeta zasebnost"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_res_users_settings__calendar_default_privacy
 msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Privzeta nastavitev zasebnosti, ki jo bo imelo mogoče videti v koledarju."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -1350,27 +1517,47 @@ msgstr "Izbriši"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 msgid "Delete Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši dogodek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__all
 msgid "Delete all the events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši vse dogodke"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__next
 msgid "Delete this and following events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši ta in naslednje dogodke"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__one
 msgid "Delete this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši ta dogodek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Describe your meeting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opišite svoj sestanek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__description
@@ -1392,7 +1579,11 @@ msgstr "Razprave"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_channel_id
 msgid "Discuss Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razprava o kanalu"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_description
@@ -1429,7 +1620,11 @@ msgstr "Naziv modela dokumenta"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__dtstart
 msgid "Dtstart"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek Dt"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__duration
@@ -1445,13 +1640,21 @@ msgstr "Trajanje v minutah"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "EMAIL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMAIL"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Edit Recurrent event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje ponavljajočega se dogodka"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -1467,12 +1670,20 @@ msgstr "E-pošta"
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_1
 msgid "Email - 3 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-pošta - 3 ure"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_2
 msgid "Email - 6 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-pošta - 6 ur"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__mail_template_id
@@ -1522,7 +1733,11 @@ msgid "Event Alarm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alarm za dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alarm za dogodek"
 >>>>>>> upstream/18.0
@@ -1581,12 +1796,20 @@ msgstr "Alarm za dogodek"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
 msgid "Event Alarm Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravitelj alarmov dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event_type
 msgid "Event Meeting Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta dogodka in sestanka"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_recurrence
@@ -1712,7 +1935,11 @@ msgstr "Najprej določite datum povabila."
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__follow_recurrence
 msgid "Follow Recurrence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledi ponavljanju"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_follower_ids
@@ -1758,7 +1985,11 @@ msgstr "Petek"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__google
 msgid "Google"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.res_config_settings_view_form
@@ -1768,22 +1999,38 @@ msgstr "Google koledar"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Google Calendar icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Ikona koledarja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_id
 msgid "Google Client_id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_id"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_secret
 msgid "Google Client_key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_key"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_sync_paused
 msgid "Google Synchronization Paused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Sinhronizacija začasno ustavljena"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
@@ -1842,6 +2089,11 @@ msgid ""
 "If the time is shown as 'busy', this event will be visible to other people with either the full         information or simply 'busy' written depending on its privacy. Use this option to let other people know         that you are unavailable during that period of time. \n"
 " If the event is shown as 'free', other users know         that you are available during that period of time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Če je čas prikazan kot »zaseden«, bo ta dogodek viden drugim osebam s polno         informacijami ali preprosto napisano »zasedeno«, odvisno od zasebnosti. Uporabite to možnost, da obvestite druge ljudi         da v tem obdobju niste dosegljivi.\n"
+" Če je dogodek prikazan kot »brezplačen«, drugi uporabniki to vedo,         da ste v tem obdobju na voljo."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__interval
@@ -1872,7 +2124,11 @@ msgstr "Podrobnosti povabila"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_invitation
 msgid "Invitation email to new attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vabilo novim udeležencem po e-pošti"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
@@ -1900,7 +2156,11 @@ msgid "Invitation to {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabilo k {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabilo k {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -1974,7 +2234,11 @@ msgstr "Ali je dogodek izpostavljen"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_organizer_alone
 msgid "Is the Organizer Alone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je organizator sam"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_calendar
@@ -2039,14 +2303,22 @@ msgstr "Logotip"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__mail_tz
 msgid "Mail Tz"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošta Tz"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 msgid "Maybe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mogoče"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__user_id
@@ -2074,7 +2346,11 @@ msgstr "Tipi sestankov"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_location
 msgid "Meeting URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sestanek URL"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__event_id
@@ -2106,7 +2382,11 @@ msgstr "Sporočila"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Microsoft Outlook icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Outlook ikona"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__interval__minutes
@@ -2150,7 +2430,11 @@ msgstr "Meseci"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/calendar_form/calendar_quick_create.xml:0
 msgid "More Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Več možnosti"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
@@ -2197,18 +2481,30 @@ msgstr "Ne pridem."
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No feedback yet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Še ni povratnih informacij"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.actions.act_window,help:calendar.action_calendar_event
 msgid "No meetings found. Let's schedule one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenih sestankov. Načrtujmo enega!"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "No, keep it"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne, obdrži"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__alarm_type__notification
@@ -2261,7 +2557,11 @@ msgid "Notifications sent to all attendees to remind of the meeting."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obvestila, poslana vsem udeležencem, da jih opomnijo na sestanek."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obvestila, poslana vsem udeležencem, da jih opomnijo na sestanek."
 >>>>>>> upstream/18.0
@@ -2375,7 +2675,11 @@ msgid "Online Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletni sestanek"
 >>>>>>> upstream/18.0
@@ -2434,7 +2738,11 @@ msgstr "Spletni sestanek"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Only Internal Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo interni uporabniki"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__privacy__confidential
@@ -2483,7 +2791,11 @@ msgid "Outlook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook"
 >>>>>>> upstream/18.0
@@ -2545,7 +2857,11 @@ msgid "Outlook Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlookov koledar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlookov koledar"
 >>>>>>> upstream/18.0
@@ -2559,17 +2875,29 @@ msgstr "Outlookov koledar"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_identifier
 msgid "Outlook Client Id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Id"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_secret
 msgid "Outlook Client Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Skrivnost"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_sync_paused
 msgid "Outlook Synchronization Paused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Synchronization Zaustavljeno"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendee_ids
@@ -2584,7 +2912,11 @@ msgstr "Podatki uporabnika v povezavi s partnerjem"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__privacy
 msgid "People to whom this event will be visible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osebe, ki jim bo ta dogodek viden."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__phone
@@ -2663,7 +2995,11 @@ msgstr "Ponovi"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__interval
 msgid "Repeat On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljanje vklopljeno"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__until
@@ -2721,7 +3057,11 @@ msgstr "Sobota"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__partner_id
 msgid "Scheduled by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtoval/a"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -2729,7 +3069,11 @@ msgstr ""
 msgid ""
 "Scheduling an activity using the calendar is not possible on more than one "
 "record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtovanje dejavnosti s koledarjem ni mogoče za več kot en zapis."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
@@ -2750,7 +3094,11 @@ msgstr "Izberite udeležence..."
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Email to attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji e-pošto udeležencem"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -2765,12 +3113,20 @@ msgstr "Pošlji pošto"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder
 msgid "Sent to all attendees if a reminder is set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sent to all attendees if a reminder is setPošlji in izbriši"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_changedate
 msgid "Sent to all attendees if the schedule change"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano vsem udeležencem, če se urnik spremeni"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.calendar_settings_action
@@ -2781,7 +3137,11 @@ msgstr "Nastavitve"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__should_show_status
 msgid "Should Show Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži stanje"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__show_as
@@ -2838,7 +3198,11 @@ msgid "Status:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje:"
 >>>>>>> upstream/18.0
@@ -2910,7 +3274,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustavi sinhronizacijo"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
@@ -2938,13 +3306,21 @@ msgstr "Nedelja"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhronizacija je zaustavljena"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhroniziraj z"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
@@ -2993,7 +3369,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -3099,17 +3479,29 @@ msgstr "Ključne besede"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__mail_template_id
 msgid "Template used to render mail reminder content."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga, ki se uporablja za upodabljanje vsebine opomnika po pošti."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Tentative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okvirno"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__tentative_count
 msgid "Tentative Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okvirno štetje"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3123,6 +3515,12 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Koledar si zaposleni delijo in je popolnoma integriran z\n"
+"            drugimi aplikacijami, kot so odhodi zaposlenih ali priložnosti\n"
+"            podjetja."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.constraint,message:calendar.constraint_calendar_recurrence_month_day
@@ -3136,6 +3534,11 @@ msgid ""
 "The ending date and time cannot be earlier than the starting date and time.\n"
 "Meeting “%(name)s” starts at %(start_time)s and ends at %(end_time)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Končni datum in ura ne smeta biti pred začetnim datumom in uro.\n"
+"Sestanek “%(name)s” se začne %(start_time)s in konča ob %(end_time)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -3144,24 +3547,41 @@ msgid ""
 "The ending date cannot be earlier than the starting date.\n"
 "Meeting “%(name)s” starts on %(start_date)s and ends on %(end_date)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Končni datum ne more biti pred začetnim datumom.\n"
+"Sestanek “%(name)s” se začne %(start_date)s in konča ob %(end_date)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The interval cannot be negative."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interval ne more biti negativen."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The number of repetitions cannot be negative."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število ponovitev ne sme biti negativno."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na teh dogodkih ni udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__3
@@ -3174,7 +3594,11 @@ msgstr "Tretji"
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__future_events
 msgid "This and following events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta in naslednji dogodki"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -3204,7 +3628,11 @@ msgstr "Časovni pas"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__mail_tz
 msgid "Timezone used for displaying time in the mail template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Časovni pas, ki se uporablja za prikaz časa v predlogi e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -3238,7 +3666,11 @@ msgstr "Tip"
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Unable to save the recurrence with \"This Event\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljanja s »tem dogodkom« ni mogoče shraniti"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3259,7 +3691,11 @@ msgstr "Do"
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_update
 msgid "Used to manually notifiy attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporablja se za ročno obveščanje udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_users
@@ -3269,7 +3705,11 @@ msgstr "Uporabnik"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__user_can_edit
 msgid "User Can Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabnik lahko ureja"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_users_settings
@@ -3277,7 +3717,11 @@ msgid "User Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabniške nastavitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabniške nastavitve"
 >>>>>>> upstream/18.0
@@ -3291,13 +3735,21 @@ msgstr "Uporabniške nastavitve"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_source
 msgid "Videocall Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vir videoklica"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videoklic URL"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -3364,6 +3816,11 @@ msgid ""
 "You are not allowed to change the calendar default privacy of another user "
 "due to privacy constraints."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zaradi omejitev zasebnosti ne smete spreminjati privzetih nastavitev "
+"zasebnosti koledarja drugega uporabnika."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -3387,30 +3844,50 @@ msgstr "Izbrati morate vsaj en dan v tednu."
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_renderer.xml:0
 msgid "You're alone in this meeting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na tem sestanku si sam/a"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sprejeto"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "udeleženci"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "awaiting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "čaka"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "declined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zavrnjeno"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3420,52 +3897,92 @@ msgstr "npr. Poslovno srečanje"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "e.g: 12/31/2023"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr.: 31/12/2024"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "maybe,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mogoče,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "brez e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "no,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "brez,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee.xml:0
 msgid "props.placeholder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "props.placeholder"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "uncertain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "negotov"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "yes,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder
 msgid "{{ object.event_id.name }} - Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} - Opomnik"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "{{ object.event_id.name }}: Date updated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: Datum posodobitve"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_update
 msgid "{{object.name}}: Event update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{object.name}}: Posodobitev dogodka"
+>>>>>>> upstream/18.0

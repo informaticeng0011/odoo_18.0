@@ -5,7 +5,10 @@ import { patch } from "@web/core/utils/patch";
 patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     setup() {
@@ -27,6 +30,9 @@ patch(Thread.prototype, {
         return result;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

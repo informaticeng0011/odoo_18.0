@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
 =======
@@ -247,12 +248,17 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
 # Wil Odoo, 2025
 # Denis Gobin, 2025
 # Marta Wacławek, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -263,6 +269,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,6 +483,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -522,6 +534,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"Tento problém nastává, protože po zaokrouhlení během převodu se množství stane nulovým. Chcete-li tento problém vyřešit, upravte převodní koeficienty nebo způsob zaokrouhlování tak, aby se ani nejmenší množství v původní jednotce nezaokrouhlilo na nulu v cílové jednotce."
+>>>>>>> upstream/18.0
 =======
 "\n"
 "Tento problém nastává, protože po zaokrouhlení během převodu se množství stane nulovým. Chcete-li tento problém vyřešit, upravte převodní koeficienty nebo způsob zaokrouhlování tak, aby se ani nejmenší množství v původní jednotce nezaokrouhlilo na nulu v cílové jednotce."
@@ -687,7 +704,11 @@ msgid " - From \"%(uom_from)s\" to \"%(uom_to)s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - Z \"%(uom_from)s\" na \"%(uom_to)s\""
+>>>>>>> upstream/18.0
 =======
 msgstr " - Z \"%(uom_from)s\" na \"%(uom_to)s\""
 >>>>>>> upstream/18.0
@@ -832,7 +853,11 @@ msgid "%(name)s Picking POS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Dodání POS"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Dodání POS"
 >>>>>>> upstream/18.0
@@ -966,7 +991,11 @@ msgid "%(name)s REFUND"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s VRÁCENÍ PENĚZ"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s VRÁCENÍ PENĚZ"
 >>>>>>> upstream/18.0
@@ -1101,7 +1130,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(old_pm)s změněno na %(new_pm)s a z %(old_amount)s na %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(old_pm)s změněno na %(new_pm)s a z %(old_amount)s na %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -1235,7 +1268,11 @@ msgid "%(old_pm)s changed to %(new_pm)s for %(old_amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(old_pm)s změněno na %(new_pm)s pro %(old_amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(old_pm)s změněno na %(new_pm)s pro %(old_amount)s"
 >>>>>>> upstream/18.0
@@ -1375,7 +1412,11 @@ msgid "%(product_name)s: Deleted line (quantity: %(qty)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: Smazaná položka (množství: %(qty)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: Smazaná položka (množství: %(qty)s)"
 >>>>>>> upstream/18.0
@@ -1509,7 +1550,11 @@ msgid "%(product_name)s: Ordered quantity: %(old_qty)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: Objednané množství: %(old_qty)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: Objednané množství: %(old_qty)s"
 >>>>>>> upstream/18.0
@@ -1643,7 +1688,11 @@ msgid "%(refunded_order)s REFUND"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(refunded_order)s VRÁCENÍ PENĚZ"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(refunded_order)s VRÁCENÍ PENĚZ"
 >>>>>>> upstream/18.0
@@ -1796,7 +1845,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s má celkovou hodnotu %s, opravdu chcete tuto objednávku smazat?"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s má celkovou hodnotu %s, opravdu chcete tuto objednávku smazat?"
 >>>>>>> upstream/18.0
@@ -1930,7 +1983,11 @@ msgid "%s orders imported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s objednávek importováno"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s objednávek importováno"
 >>>>>>> upstream/18.0
@@ -2086,7 +2143,11 @@ msgid "0.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "0.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "0.00"
 >>>>>>> upstream/18.0
@@ -2229,7 +2290,11 @@ msgid "100.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "100.00"
 >>>>>>> upstream/18.0
@@ -2362,7 +2427,11 @@ msgid "1000"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000"
 >>>>>>> upstream/18.0
@@ -2495,7 +2564,11 @@ msgid "10000"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10000"
+>>>>>>> upstream/18.0
 =======
 msgstr "10000"
 >>>>>>> upstream/18.0
@@ -2628,7 +2701,11 @@ msgid "10000.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10000.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "10000.00"
 >>>>>>> upstream/18.0
@@ -2761,7 +2838,11 @@ msgid "123.45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "123.45"
+>>>>>>> upstream/18.0
 =======
 msgstr "123.45"
 >>>>>>> upstream/18.0
@@ -2894,7 +2975,11 @@ msgid "1234567890"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1234567890"
+>>>>>>> upstream/18.0
 =======
 msgstr "1234567890"
 >>>>>>> upstream/18.0
@@ -3027,7 +3112,11 @@ msgid "2-03-2000 9:00 AM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2-03-2000 9:00 ráno"
+>>>>>>> upstream/18.0
 =======
 msgstr "2-03-2000 9:00 ráno"
 >>>>>>> upstream/18.0
@@ -3160,7 +3249,11 @@ msgid "39"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "39"
+>>>>>>> upstream/18.0
 =======
 msgstr "39"
 >>>>>>> upstream/18.0
@@ -3293,7 +3386,11 @@ msgid "40"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "40"
+>>>>>>> upstream/18.0
 =======
 msgstr "40"
 >>>>>>> upstream/18.0
@@ -3426,7 +3523,11 @@ msgid "41"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "41"
+>>>>>>> upstream/18.0
 =======
 msgstr "41"
 >>>>>>> upstream/18.0
@@ -3564,7 +3665,11 @@ msgid "43"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "43"
+>>>>>>> upstream/18.0
 =======
 msgstr "43"
 >>>>>>> upstream/18.0
@@ -3703,7 +3808,11 @@ msgid "45"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "45"
+>>>>>>> upstream/18.0
 =======
 msgstr "45"
 >>>>>>> upstream/18.0
@@ -3856,6 +3965,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"5místný alfanumerický kód, který uživatel portálu použije k vyžádání faktury"
+>>>>>>> upstream/18.0
 =======
 "5místný alfanumerický kód, který uživatel portálu použije k vyžádání faktury"
 >>>>>>> upstream/18.0
@@ -3989,6 +4102,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"5-kapesní džíny z bavlněného denimu s mírným strečem pro pohodlné nošení."
+>>>>>>> upstream/18.0
 =======
 "5-kapesní džíny z bavlněného denimu s mírným strečem pro pohodlné nošení."
 >>>>>>> upstream/18.0
@@ -4121,7 +4238,11 @@ msgid "5-pocket jeans in cotton denim.."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5-kapesní džíny z bavlněného denimu."
+>>>>>>> upstream/18.0
 =======
 msgstr "5-kapesní džíny z bavlněného denimu."
 >>>>>>> upstream/18.0
@@ -4254,7 +4375,11 @@ msgid "5.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "5.00"
 >>>>>>> upstream/18.0
@@ -4387,7 +4512,11 @@ msgid "50.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "50.00"
 >>>>>>> upstream/18.0
@@ -4520,7 +4649,11 @@ msgid "567789"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "567789"
+>>>>>>> upstream/18.0
 =======
 msgstr "567789"
 >>>>>>> upstream/18.0
@@ -4658,7 +4791,11 @@ msgid "95.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "95.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "95.00"
 >>>>>>> upstream/18.0
@@ -4791,7 +4928,11 @@ msgid "987657"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "987657"
+>>>>>>> upstream/18.0
 =======
 msgstr "987657"
 >>>>>>> upstream/18.0
@@ -4924,7 +5065,11 @@ msgid "99.99"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "99.99"
+>>>>>>> upstream/18.0
 =======
 msgstr "99.99"
 >>>>>>> upstream/18.0
@@ -5075,6 +5220,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-shopping-bag me-1\" aria-label=\"Nákupní košík\" "
+"role=\"img\" title=\"Nákupní košík\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-shopping-bag me-1\" aria-label=\"Nákupní košík\" "
 "role=\"img\" title=\"Nákupní košík\"/>"
@@ -5267,6 +5417,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">K "
+"určení</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">K "
 "určení</span>"
@@ -5434,6 +5589,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\">Čárové kṕdy</span>\n"
+"                                <i class=\"fa fa-info-circle me-1\" title=\"Toto nastavení je společné pro všechny PoS.\" pos-data-toggle=\"tooltip\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label\">Čárové kṕdy</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"Toto nastavení je společné pro všechny PoS.\" pos-data-toggle=\"tooltip\"/>"
@@ -5598,7 +5758,11 @@ msgid "<span class=\"o_stat_text\">Cash Register</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pokladna</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pokladna</span>"
 >>>>>>> upstream/18.0
@@ -5731,7 +5895,11 @@ msgid "<span class=\"o_stat_text\">Journal Items</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Položky deníku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Položky deníku</span>"
 >>>>>>> upstream/18.0
@@ -5874,7 +6042,11 @@ msgid "<span>Closing</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Zavírání</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Zavírání</span>"
 >>>>>>> upstream/18.0
@@ -6063,7 +6235,11 @@ msgid "<strong>Source Invoice</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Zdrojová faktura</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Zdrojová faktura</strong>"
 >>>>>>> upstream/18.0
@@ -6216,7 +6392,11 @@ msgid "A note with this name already exists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poznámka s tímto názvem již existuje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Poznámka s tímto názvem již existuje."
 >>>>>>> upstream/18.0
@@ -6407,7 +6587,11 @@ msgid "Accept payments with Mercado Pago on a terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přijímejte platby pomocí Mercado Pago na terminálu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přijímejte platby pomocí Mercado Pago na terminálu"
 >>>>>>> upstream/18.0
@@ -6541,6 +6725,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Přijímejte platby pomocí Viva Wallet na terminálu nebo klepnutím na telefon"
+>>>>>>> upstream/18.0
 =======
 "Přijímejte platby pomocí Viva Wallet na terminálu nebo klepnutím na telefon"
 >>>>>>> upstream/18.0
@@ -6678,7 +6866,11 @@ msgid "Accept payments with a Razorpay payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přijímejte platby pomocí platebního terminálu Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přijímejte platby pomocí platebního terminálu Razorpay"
 >>>>>>> upstream/18.0
@@ -6867,6 +7059,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Účet použitý jako neuhrazený účet při vytváření účetních platebních záznamů "
+"pro bankovní platby."
+>>>>>>> upstream/18.0
 =======
 "Účet použitý jako neuhrazený účet při vytváření účetních platebních záznamů "
 "pro bankovní platby."
@@ -7068,7 +7265,11 @@ msgid "Activate SMS feature for point_of_sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivujte funkci SMS pro point_of_sale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivujte funkci SMS pro point_of_sale"
 >>>>>>> upstream/18.0
@@ -7249,6 +7450,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Přidejte na účtenku pětimístný kód, který uživateli umožní požádat o fakturu"
+" za objednávku na portálu."
+>>>>>>> upstream/18.0
 =======
 "Přidejte na účtenku pětimístný kód, který uživateli umožní požádat o fakturu"
 " za objednávku na portálu."
@@ -7452,7 +7658,11 @@ msgid "Add to order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat k objednávce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidat k objednávce"
 >>>>>>> upstream/18.0
@@ -7586,7 +7796,11 @@ msgid "Added %(payment_method)s with %(amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidána %(payment_method)s s %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidána %(payment_method)s s %(amount)s"
 >>>>>>> upstream/18.0
@@ -7767,7 +7981,11 @@ msgid "All Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny objednávky"
 >>>>>>> upstream/18.0
@@ -7917,7 +8135,11 @@ msgid "All notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny poznámky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny poznámky"
 >>>>>>> upstream/18.0
@@ -8075,7 +8297,11 @@ msgid "Allow to access each other's active orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolit vzájemný přístup k aktivním objednávkám"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povolit vzájemný přístup k aktivním objednávkám"
 >>>>>>> upstream/18.0
@@ -8247,6 +8473,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Částka pro  %(old_pm)s byla změněna z %(old_amount)s na %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 "Částka pro  %(old_pm)s byla změněna z %(old_amount)s na %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -8380,6 +8610,10 @@ msgstr "Celková částka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -8511,6 +8745,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Při ukončení relace došlo k chybě. Nesynchronizované objednávky budou k "
+"dispozici v příští relaci. Stránka se znovu načte."
+>>>>>>> upstream/18.0
 =======
 "Při ukončení relace došlo k chybě. Nesynchronizované objednávky budou k "
 "dispozici v příští relaci. Stránka se znovu načte."
@@ -8676,7 +8915,11 @@ msgid "An error occurred while loading the Point of Sale: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Při načítání podkladního systému došlo k chybě: \n"
+>>>>>>> upstream/18.0
 =======
 msgstr "Při načítání podkladního systému došlo k chybě: \n"
 >>>>>>> upstream/18.0
@@ -8825,7 +9068,11 @@ msgid "Apple Pie"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jablečný koláč"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jablečný koláč"
 >>>>>>> upstream/18.0
@@ -8978,7 +9225,11 @@ msgid "Artisan sourdough bread with a crisp crust and soft interior."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Řemeslný kváskový chléb s křupavou kůrkou a měkkou střídkou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Řemeslný kváskový chléb s křupavou kůrkou a měkkou střídkou."
 >>>>>>> upstream/18.0
@@ -9125,6 +9376,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"V deníku musí být definován alespoň jeden bankovní účet, aby bylo možné "
+"registrovat platby QR kódem pomocí bankovních aplikací."
+>>>>>>> upstream/18.0
 =======
 "V deníku musí být definován alespoň jeden bankovní účet, aby bylo možné "
 "registrovat platby QR kódem pomocí bankovních aplikací."
@@ -9289,7 +9545,11 @@ msgid "At the session closing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na závěr relace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na závěr relace"
 >>>>>>> upstream/18.0
@@ -9432,7 +9692,11 @@ msgid "Athletic sport shoes, designed for comfort and performance."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sportovní obuv určená pro pohodlí a výkon."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sportovní obuv určená pro pohodlí a výkon."
 >>>>>>> upstream/18.0
@@ -9587,7 +9851,11 @@ msgid "Auto Validate Terminal Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatické ověření platby na terminálu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatické ověření platby na terminálu"
 >>>>>>> upstream/18.0
@@ -9756,7 +10024,11 @@ msgid "AvaTax PoS Integration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Integrace Avatax PoS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Integrace Avatax PoS"
 >>>>>>> upstream/18.0
@@ -9944,7 +10216,11 @@ msgid "Background Image Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Název obrázku pozadí"
+>>>>>>> upstream/18.0
 =======
 msgstr "Název obrázku pozadí"
 >>>>>>> upstream/18.0
@@ -10085,7 +10361,11 @@ msgid "Bagel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bagel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bagel"
 >>>>>>> upstream/18.0
@@ -10231,7 +10511,11 @@ msgid "Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekárna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekárna"
 >>>>>>> upstream/18.0
@@ -10374,7 +10658,11 @@ msgid "Bakery Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekárna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekárna"
 >>>>>>> upstream/18.0
@@ -10557,7 +10845,11 @@ msgid "Basic Receipt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Základní účtenka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Základní účtenka"
 >>>>>>> upstream/18.0
@@ -10716,7 +11008,11 @@ msgid "Black embroidered t-shirt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Černé vyšívané tričko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Černé vyšívané tričko"
 >>>>>>> upstream/18.0
@@ -10849,7 +11145,11 @@ msgid "Blue Denim Jeans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modré džíny "
+>>>>>>> upstream/18.0
 =======
 msgstr "Modré džíny "
 >>>>>>> upstream/18.0
@@ -10982,7 +11282,11 @@ msgid "Blueberry Muffin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Borůvkový muffin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Borůvkový muffin"
 >>>>>>> upstream/18.0
@@ -11133,7 +11437,11 @@ msgid "Breads"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chleby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chleby"
 >>>>>>> upstream/18.0
@@ -11272,7 +11580,11 @@ msgid "Bus Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bus Mixin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bus Mixin"
 >>>>>>> upstream/18.0
@@ -11405,7 +11717,11 @@ msgid "Butter Croissant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Máslový croissant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Máslový croissant"
 >>>>>>> upstream/18.0
@@ -11623,7 +11939,11 @@ msgid "Cannot weigh product - IoT Box is disconnected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nelze zvážit produkt – IoT Box je odpojen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nelze zvážit produkt – IoT Box je odpojen"
 >>>>>>> upstream/18.0
@@ -11757,7 +12077,11 @@ msgid "Cannot weigh product - Scale is not connected to IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nelze zvážit produkt – váha není připojena k IoT Boxu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nelze zvážit produkt – váha není připojena k IoT Boxu"
 >>>>>>> upstream/18.0
@@ -11896,7 +12220,11 @@ msgid "Card Number(Last 4 Digit)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Číslo karty (poslední 4 číslice)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Číslo karty (poslední 4 číslice)"
 >>>>>>> upstream/18.0
@@ -12029,7 +12357,11 @@ msgid "Card Owner name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jméno držitele karty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jméno držitele karty"
 >>>>>>> upstream/18.0
@@ -12163,7 +12495,11 @@ msgid "Card's Brand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka karty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Značka karty"
 >>>>>>> upstream/18.0
@@ -12304,7 +12640,11 @@ msgid "Cart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Košík"
+>>>>>>> upstream/18.0
 =======
 msgstr "Košík"
 >>>>>>> upstream/18.0
@@ -12448,7 +12788,11 @@ msgid "Cash %(session_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotovost %(session_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotovost %(session_name)s"
 >>>>>>> upstream/18.0
@@ -12582,7 +12926,11 @@ msgid "Cash Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pekárna hotovost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pekárna hotovost"
 >>>>>>> upstream/18.0
@@ -12716,7 +13064,11 @@ msgid "Cash Clothes Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obchod s oblečením hotovost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obchod s oblečením hotovost"
 >>>>>>> upstream/18.0
@@ -12850,7 +13202,11 @@ msgid "Cash Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet hotovosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet hotovosti"
 >>>>>>> upstream/18.0
@@ -12984,7 +13340,11 @@ msgid "Cash Furn. Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obchod s nábytkem hotovost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obchod s nábytkem hotovost"
 >>>>>>> upstream/18.0
@@ -13124,7 +13484,11 @@ msgid "Cash In / Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Příjem / Výdej hotovosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Příjem / Výdej hotovosti"
 >>>>>>> upstream/18.0
@@ -13274,7 +13638,11 @@ msgid "Cash Move 1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotovostní pohyb 1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotovostní pohyb 1"
 >>>>>>> upstream/18.0
@@ -13408,7 +13776,11 @@ msgid "Cash Opening"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotovost při otevření"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotovost při otevření"
 >>>>>>> upstream/18.0
@@ -13564,7 +13936,11 @@ msgid "Cash control - closing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotovostní kontrola - uzavření"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotovostní kontrola - uzavření"
 >>>>>>> upstream/18.0
@@ -13698,7 +14074,11 @@ msgid "Cash control - opening"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotovostní kontrola - otevření"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hotovostní kontrola - otevření"
 >>>>>>> upstream/18.0
@@ -13832,7 +14212,11 @@ msgid "Cash difference observed during the counting (Loss) - closing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozdíl v hotovosti zjištěný při přepočítání (ztráta) – zavření"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rozdíl v hotovosti zjištěný při přepočítání (ztráta) – zavření"
 >>>>>>> upstream/18.0
@@ -13966,7 +14350,11 @@ msgid "Cash difference observed during the counting (Profit) - closing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozdíl v hotovosti zjištěný při přepočítání (zisk) – závěrka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rozdíl v hotovosti zjištěný při přepočítání (zisk) – závěrka"
 >>>>>>> upstream/18.0
@@ -14100,7 +14488,11 @@ msgid "Cash in / out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Příjem / Výdej hotovosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Příjem / Výdej hotovosti"
 >>>>>>> upstream/18.0
@@ -14266,7 +14658,11 @@ msgid "Casual Denim Short"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ležérní džínové kraťasy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ležérní džínové kraťasy"
 >>>>>>> upstream/18.0
@@ -14399,7 +14795,11 @@ msgid "Casual T-shirt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ležérní tričko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ležérní tričko"
 >>>>>>> upstream/18.0
@@ -14532,7 +14932,11 @@ msgid "Casual denim shorts, comfortable and stylish for everyday wear."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ležérní džínové kraťasy, pohodlné a stylové pro každodenní nošení."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ležérní džínové kraťasy, pohodlné a stylové pro každodenní nošení."
 >>>>>>> upstream/18.0
@@ -14668,6 +15072,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ležérní slim tričko ze 100% bavlny s bílou výšivkou. K dispozici v různých "
+"velikostech."
+>>>>>>> upstream/18.0
 =======
 "Ležérní slim tričko ze 100% bavlny s bílou výšivkou. K dispozici v různých "
 "velikostech."
@@ -14833,6 +15242,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ležérní slim tričko ze 100% bavlny. K dispozici v různých velikostech."
+>>>>>>> upstream/18.0
 =======
 "Ležérní slim tričko ze 100% bavlny. K dispozici v různých velikostech."
 >>>>>>> upstream/18.0
@@ -14966,6 +15379,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ležérní tričko ze 100% bavlny. K dispozici v různých barvách a velikostech."
+>>>>>>> upstream/18.0
 =======
 "Ležérní tričko ze 100% bavlny. K dispozici v různých barvách a velikostech."
 >>>>>>> upstream/18.0
@@ -15184,7 +15601,11 @@ msgid "Cheese Croissant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sýrový croissant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sýrový croissant"
 >>>>>>> upstream/18.0
@@ -15317,7 +15738,11 @@ msgid "Cherry Pie"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Třešňový koláč"
+>>>>>>> upstream/18.0
 =======
 msgstr "Třešňový koláč"
 >>>>>>> upstream/18.0
@@ -15450,7 +15875,11 @@ msgid "Chewy and dense bagel, perfect for sandwiches or with cream cheese."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žvýkavý a hutný bagel, ideální na sendviče nebo se smetanovým sýrem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Žvýkavý a hutný bagel, ideální na sendviče nebo se smetanovým sýrem."
 >>>>>>> upstream/18.0
@@ -15598,7 +16027,11 @@ msgid "Choose an order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte objednávku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte objednávku"
 >>>>>>> upstream/18.0
@@ -15732,7 +16165,11 @@ msgid "Choose how the URL to the portal will be print on the receipt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte, jak se na účtenku vytiskne adresa URL portálu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte, jak se na účtenku vytiskne adresa URL portálu."
 >>>>>>> upstream/18.0
@@ -15866,7 +16303,11 @@ msgid "Choose your store"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte svůj obchod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte svůj obchod"
 >>>>>>> upstream/18.0
@@ -16002,7 +16443,11 @@ msgid "Cinnamon Roll"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skořicová roláda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skořicová roláda"
 >>>>>>> upstream/18.0
@@ -16144,7 +16589,11 @@ msgid "Classic Brown Jacket"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasická hnědá bunda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasická hnědá bunda"
 >>>>>>> upstream/18.0
@@ -16277,7 +16726,11 @@ msgid "Classic Leather Belt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasický hnědý pásek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasický hnědý pásek"
 >>>>>>> upstream/18.0
@@ -16410,7 +16863,11 @@ msgid "Classic leather belt, a must-have accessory for any wardrobe."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasický kožený pásek, nezbytný doplněk každého šatníku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasický kožený pásek, nezbytný doplněk každého šatníku."
 >>>>>>> upstream/18.0
@@ -16571,7 +17028,11 @@ msgid "Close Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavřít pokladnu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavřít pokladnu"
 >>>>>>> upstream/18.0
@@ -16725,7 +17186,11 @@ msgid "Closed Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokladna zavřená"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokladna zavřená"
 >>>>>>> upstream/18.0
@@ -16877,7 +17342,11 @@ msgid "Closing Entry by product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Závěrečný záznam podle produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Závěrečný záznam podle produktu"
 >>>>>>> upstream/18.0
@@ -17016,7 +17485,11 @@ msgid "Closing Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavírání pokladny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavírání pokladny"
 >>>>>>> upstream/18.0
@@ -17162,7 +17635,11 @@ msgid "Closing note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Závěrečná poznámka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Závěrečná poznámka"
 >>>>>>> upstream/18.0
@@ -17308,7 +17785,11 @@ msgid "Clothes Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obchod s oblečením"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obchod s oblečením"
 >>>>>>> upstream/18.0
@@ -17456,7 +17937,11 @@ msgid "Coins/Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mince / bankovky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mince / bankovky"
 >>>>>>> upstream/18.0
@@ -17695,7 +18180,11 @@ msgid "Confirm Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrdit platbu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdit platbu"
 >>>>>>> upstream/18.0
@@ -17864,7 +18353,11 @@ msgid "Connecting to the IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připojování k IoT boxu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připojování k IoT boxu"
 >>>>>>> upstream/18.0
@@ -17998,7 +18491,11 @@ msgid "Connection Lost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připojení bylo přerušeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připojení bylo přerušeno"
 >>>>>>> upstream/18.0
@@ -18138,7 +18635,11 @@ msgid "Connection failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Připojení se nezdařilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Připojení se nezdařilo"
 >>>>>>> upstream/18.0
@@ -18272,7 +18773,11 @@ msgid "Connection successful"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úspěšné připojení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úspěšné připojení"
 >>>>>>> upstream/18.0
@@ -18421,6 +18926,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bylo přerušeno připojení k serveru. Zkontrolujte připojení k internetu."
+>>>>>>> upstream/18.0
 =======
 "Bylo přerušeno připojení k serveru. Zkontrolujte připojení k internetu."
 >>>>>>> upstream/18.0
@@ -18563,7 +19072,11 @@ msgid "Contact Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontaktní informace"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontaktní informace"
 >>>>>>> upstream/18.0
@@ -18712,7 +19225,11 @@ msgid "Continue with limited functionality"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokračovat s omezenými funkcemi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokračovat s omezenými funkcemi"
 >>>>>>> upstream/18.0
@@ -18849,6 +19366,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Chyba převodu: Následující převody měrných jednotek vedou kvůli "
+"zaokrouhlování k nulovému množství:"
+>>>>>>> upstream/18.0
 =======
 "Chyba převodu: Následující převody měrných jednotek vedou kvůli "
 "zaokrouhlování k nulovému množství:"
@@ -19633,6 +20155,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zobrazte rozpis prodejních položek podle produktu v automaticky vygenerované"
+" uzávěrkové položce."
+>>>>>>> upstream/18.0
 =======
 "Zobrazte rozpis prodejních položek podle produktu v automaticky vygenerované"
 " uzávěrkové položce."
@@ -19831,7 +20358,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19929,6 +20459,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20150,6 +20683,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ujistěte se, že existuje bankovní deník. Zkontrolujte, zda je ve vaší "
+"společnosti nainstalován účetní osnova."
+>>>>>>> upstream/18.0
 =======
 "Ujistěte se, že existuje bankovní deník. Zkontrolujte, zda je ve vaší "
 "společnosti nainstalován účetní osnova."
@@ -20305,7 +20843,11 @@ msgid "Error! You cannot create recursive categories."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba! Nelze vytvářet rekurzivní kategorie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chyba! Nelze vytvářet rekurzivní kategorie."
 >>>>>>> upstream/18.0
@@ -21136,7 +21678,11 @@ msgid "It is possible to print your tickets by making use of an IoT Box."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstupenky je možné vytisknout pomocí IoT Boxu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vstupenky je možné vytisknout pomocí IoT Boxu."
 >>>>>>> upstream/18.0
@@ -21305,7 +21851,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -21484,6 +22034,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lehká lněná bomber bunda s žebrovaným stojáčkem a zipem po celé délce."
+>>>>>>> upstream/18.0
 =======
 "Lehká lněná bomber bunda s žebrovaným stojáčkem a zipem po celé délce."
 >>>>>>> upstream/18.0
@@ -21707,6 +22261,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ujistěte se, že je s vaší databází Odoo spojeno předplatné IoT Box, a poté "
+"restartujte IoT Box."
+>>>>>>> upstream/18.0
 =======
 "Ujistěte se, že je s vaší databází Odoo spojeno předplatné IoT Box, a poté "
 "restartujte IoT Box."
@@ -22188,6 +22747,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Není nakonfigurován žádný účetní plán, přejděte do nabídky „konfigurace / "
+"nastavení“ a nainstalujte jej z karty Fakturace."
+>>>>>>> upstream/18.0
 =======
 "Není nakonfigurován žádný účetní plán, přejděte do nabídky „konfigurace / "
 "nastavení“ a nainstalujte jej z karty Fakturace."
@@ -22623,7 +23187,11 @@ msgid "Opening Balance Eg: 123"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počáteční zůstatek např. 123"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počáteční zůstatek např. 123"
 >>>>>>> upstream/18.0
@@ -22845,6 +23413,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tiskárny objednávek se používají v restauracích a barech k tisku\n"
+"            aktualizací objednávek v kuchyni / baru, když číšník aktualizuje objednávku."
+>>>>>>> upstream/18.0
 =======
 "Tiskárny objednávek se používají v restauracích a barech k tisku\n"
 "            aktualizací objednávek v kuchyni / baru, když číšník aktualizuje objednávku."
@@ -23201,7 +23774,11 @@ msgid "Pastries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moučníky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moučníky"
 >>>>>>> upstream/18.0
@@ -23534,6 +24111,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zkontrolujte prosím, že je tiskárna stále připojena.\n"
+"Některé prohlížeče nepovolují volání HTTP z webových stránek do zařízení v síti (z bezpečnostních důvodů). V takovém případě budete muset vyřešit problém podle dokumentace Odoo 'Certifikát s vlastním podpisem pro tiskárny ePOS' a 'Zabezpečené připojení (HTTPS)'. "
+>>>>>>> upstream/18.0
 =======
 "Zkontrolujte prosím, že je tiskárna stále připojena.\n"
 "Některé prohlížeče nepovolují volání HTTP z webových stránek do zařízení v síti (z bezpečnostních důvodů). V takovém případě budete muset vyřešit problém podle dokumentace Odoo 'Certifikát s vlastním podpisem pro tiskárny ePOS' a 'Zabezpečené připojení (HTTPS)'. "
@@ -23784,6 +24366,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
@@ -24222,7 +24808,11 @@ msgid "Preparation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Příprava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Příprava"
 >>>>>>> upstream/18.0
@@ -24445,6 +25035,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vytiskněte informace na účtenku, aby měl zákazník kdykoli snadný přístup k "
+"faktuře z portálu Odoo."
+>>>>>>> upstream/18.0
 =======
 "Vytiskněte informace na účtenku, aby měl zákazník kdykoli snadný přístup k "
 "faktuře z portálu Odoo."
@@ -24868,6 +25463,10 @@ msgstr "Fialový"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -26372,6 +26971,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Částka vašich platebních řádků musí být zaokrouhlena, aby se transakce potvrdila.\n"
+"Přesnost zaokrouhlení je %s taková, že byste měli nastavit %s jako částku platby místo %s."
+>>>>>>> upstream/18.0
 =======
 "Částka vašich platebních řádků musí být zaokrouhlena, aby se transakce potvrdila.\n"
 "Přesnost zaokrouhlení je %s taková, že byste měli nastavit %s jako částku platby místo %s."
@@ -26550,7 +27154,10 @@ msgstr "Značka platební karty (např. Visa, MasterCard, American Express...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26680,6 +27287,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26871,6 +27481,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počítané peníze se neshodují s tím, co jsme očekávali. Chcete rozdíl "
+"zaznamenat do účetnictví?"
+>>>>>>> upstream/18.0
 =======
 "Počítané peníze se neshodují s tím, co jsme očekávali. Chcete rozdíl "
 "zaznamenat do účetnictví?"
@@ -27105,6 +27720,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Objednávka pos, která byla po uzavření relace vrácena zpět, aby mohla být "
+"vytvořena faktura."
+>>>>>>> upstream/18.0
 =======
 "Objednávka pos, která byla po uzavření relace vrácena zpět, aby mohla být "
 "vytvořena faktura."
@@ -27278,6 +27898,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ceník použitý, pokud není vybrán žádný zákazník nebo pokud zákazník nemá "
+"nakonfigurován žádný prodejní ceník, pokud existuje."
+>>>>>>> upstream/18.0
 =======
 "Ceník použitý, pokud není vybrán žádný zákazník nebo pokud zákazník nemá "
 "nakonfigurován žádný prodejní ceník, pokud existuje."
@@ -27510,6 +28135,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Relace již byla uzavřena jiným uživatelem. Všechny prodeje uskutečněné v "
+"mezidobí byly uloženy do záchranné relace, kterou lze kdykoli zkontrolovat a"
+" odeslat do účetnictví z ovládacího panelu prodejního místa."
+>>>>>>> upstream/18.0
 =======
 "Relace již byla uzavřena jiným uživatelem. Všechny prodeje uskutečněné v "
 "mezidobí byly uloženy do záchranné relace, kterou lze kdykoli zkontrolovat a"
@@ -27739,6 +28370,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transakce zpracovává Mercado Pago. Nastavte přihlašovací údaje Mercado Pago "
+"na související platební metodu."
+>>>>>>> upstream/18.0
 =======
 "Transakce zpracovává Mercado Pago. Nastavte přihlašovací údaje Mercado Pago "
 "na související platební metodu."
@@ -27915,6 +28551,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transakce zpracovává Razorpay. Nastavte své přihlašovací údaje Razorpay na "
+"související platební metodu."
+>>>>>>> upstream/18.0
 =======
 "Transakce zpracovává Razorpay. Nastavte své přihlašovací údaje Razorpay na "
 "související platební metodu."
@@ -28186,6 +28827,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vybraný produkt nemá sériové číslo ani číslo šarže a jejich vytvoření není v"
+" aplikaci Pokladního systému povoleno."
+>>>>>>> upstream/18.0
 =======
 "Vybraný produkt nemá sériové číslo ani číslo šarže a jejich vytvoření není v"
 " aplikaci Pokladního systému povoleno."
@@ -28364,6 +29010,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"tento způsob platby v hotovosti je již použit v jiném pokladním systému.\n"
+"Pro tento pokladní systém je třeba vytvořit nový způsob platby v hotovosti."
+>>>>>>> upstream/18.0
 =======
 "tento způsob platby v hotovosti je již použit v jiném pokladním systému.\n"
 "Pro tento pokladní systém je třeba vytvořit nový způsob platby v hotovosti."
@@ -28593,6 +29244,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tento deník je ztotožňován s platební metodou %(payment_method)s, která byla"
+" použita v objednávce %(pos_order)s během aktivní relace pokladního systému "
+"PoS %(pos_session)s."
+>>>>>>> upstream/18.0
 =======
 "Tento deník je ztotožňován s platební metodou %(payment_method)s, která byla"
 " použita v objednávce %(pos_order)s během aktivní relace pokladního systému "
@@ -28797,7 +29454,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28872,6 +29532,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29087,6 +29750,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Chcete-li produkt odstranit, ujistěte se, že jsou uzavřeny všechny pokladní relace.\n"
+"\n"
+"Odstranění produktu dostupného v relaci by bylo jako pokusit se vytrhnout hamburger z ruky zákazníka uprostřed sousta; nastal by chaos, kečup a majonéza by létaly všude kolem!"
+>>>>>>> upstream/18.0
 =======
 "Chcete-li produkt odstranit, ujistěte se, že jsou uzavřeny všechny pokladní relace.\n"
 "\n"
@@ -29273,6 +29942,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aby bylo zajištěno řádné vyúčtování, vygenerujte fakturu nebo si stáhněte "
+"účetní aplikaci. "
+>>>>>>> upstream/18.0
 =======
 "Aby bylo zajištěno řádné vyúčtování, vygenerujte fakturu nebo si stáhněte "
 "účetní aplikaci. "
@@ -29453,7 +30127,11 @@ msgid "Total: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkem: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkem: %s"
 >>>>>>> upstream/18.0
@@ -29545,6 +30223,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tenisky z bavlněného plátna s polstrovaným horním okrajem, jazykem a "
+"šněrováním vpředu."
+>>>>>>> upstream/18.0
 =======
 "Tenisky z bavlněného plátna s polstrovaným horním okrajem, jazykem a "
 "šněrováním vpředu."
@@ -29729,7 +30412,11 @@ msgid "UNSELECT"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UNSELECT"
+>>>>>>> upstream/18.0
 =======
 msgstr "UNSELECT"
 >>>>>>> upstream/18.0
@@ -30068,6 +30755,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upozornění: Váš prohlížeč nepodporuje IndexedDB. Data nebudou uložena. "
+"Použijte prosím moderní prohlížeč."
+>>>>>>> upstream/18.0
 =======
 "Upozornění: Váš prohlížeč nepodporuje IndexedDB. Data nebudou uložena. "
 "Použijte prosím moderní prohlížeč."
@@ -30265,6 +30957,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pokud je tato funkce aktivní, budou řádky objednávky seřazeny podle "
+"kategorie produktu a pořadí v košíku na obrazovce produktu."
+>>>>>>> upstream/18.0
 =======
 "Pokud je tato funkce aktivní, budou řádky objednávky seřazeny podle "
 "kategorie produktu a pořadí v košíku na obrazovce produktu."
@@ -30530,6 +31227,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zrušit lze pouze relaci, která je ve stavu otevření a nemá žádné objednávky."
+>>>>>>> upstream/18.0
 =======
 "Zrušit lze pouze relaci, která je ve stavu otevření a nemá žádné objednávky."
 >>>>>>> upstream/18.0
@@ -30725,7 +31426,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30802,6 +31506,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30882,6 +31589,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/point_of_sale/models/account_cash_rounding.py:0
 #, python-format
 msgid ""
@@ -30936,6 +31644,8 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31107,6 +31817,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Chcete-li používat obrazovku připojenou k IoT, musíte nastavit IP adresu iot"
+" boxu. Pole najdete pod možností \"IoT Box\"."
+>>>>>>> upstream/18.0
 =======
 "Chcete-li používat obrazovku připojenou k IoT, musíte nastavit IP adresu iot"
 " boxu. Pole najdete pod možností \"IoT Box\"."
@@ -31315,12 +32030,15 @@ msgstr "sleva"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31391,12 +32109,15 @@ msgstr "např. nealkoholické nápoje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr ""
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31536,7 +32257,11 @@ msgid "qx9h1"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "qx9h1"
+>>>>>>> upstream/18.0
 =======
 msgstr "qx9h1"
 >>>>>>> upstream/18.0
@@ -31575,6 +32300,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "using"
 msgstr "s použitím"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31696,6 +32422,8 @@ msgid ""
 "{{ line.has_valid_product_lot() ? 'Valid product lot' : 'Invalid product "
 "lot'}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

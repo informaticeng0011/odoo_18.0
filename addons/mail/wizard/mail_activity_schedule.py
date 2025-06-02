@@ -255,6 +255,7 @@ class MailActivitySchedule(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 'type': 'ir.actions.act_window',
                 'res_model': self.res_model,
@@ -263,6 +264,9 @@ class MailActivitySchedule(models.TransientModel):
                 'view_mode': 'form',
                 'views': [(False, "form")],
             }
+=======
+            return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
+>>>>>>> upstream/18.0
 =======
             return {'type': 'ir.actions.client', 'tag': 'soft_reload'}
 >>>>>>> upstream/18.0

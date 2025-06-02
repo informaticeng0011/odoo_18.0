@@ -8,6 +8,7 @@
         <field name="arch" type="xml">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <block name="integration" position="inside">
                 <field name="country_code" invisible="True"/>
                 <setting id="nilvera_settings" string="Nilvera Electronic Document Invoicing" help="Configure Nilvera settings" invisible="country_code != 'TR'">
@@ -40,6 +41,8 @@
                 </setting>
             </block>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <xpath expr="//block[@id='peppol']" position="after">
@@ -78,6 +81,9 @@
                 </block>
             </xpath>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

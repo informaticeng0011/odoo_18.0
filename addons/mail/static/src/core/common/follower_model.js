@@ -25,7 +25,11 @@ export class Follower extends Record {
         const hasWriteAccess = this.thread ? this.thread.hasWriteAccess : false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.partner.eq(this.store.self) ? this.thread.hasReadAccess : hasWriteAccess;
+=======
+        return this.partner.in(this.thread?.selves) ? this.thread.hasReadAccess : hasWriteAccess;
+>>>>>>> upstream/18.0
 =======
         return this.partner.in(this.thread?.selves) ? this.thread.hasReadAccess : hasWriteAccess;
 >>>>>>> upstream/18.0

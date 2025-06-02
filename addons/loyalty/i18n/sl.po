@@ -34,6 +34,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -126,6 +130,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +308,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-30 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -418,7 +428,11 @@ msgid "10% on your order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 % popusta na vaše naročilo"
+>>>>>>> upstream/18.0
 =======
 msgstr "10 % popusta na vaše naročilo"
 >>>>>>> upstream/18.0
@@ -1017,7 +1031,11 @@ msgid "Coupon point(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točke kupona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točke kupona"
 >>>>>>> upstream/18.0
@@ -1249,7 +1267,11 @@ msgid "Discount Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koda za popust"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koda za popust"
 >>>>>>> upstream/18.0
@@ -1423,7 +1445,11 @@ msgid "Email template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloga e-pošte"
 >>>>>>> upstream/18.0
@@ -1550,7 +1576,11 @@ msgid "For"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za"
 >>>>>>> upstream/18.0
@@ -1699,12 +1729,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr ""
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1772,7 +1805,11 @@ msgid "Gift Card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Darilna kartica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Darilna kartica"
 >>>>>>> upstream/18.0
@@ -2060,7 +2097,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.res_partner_form
 msgid "Loyalty Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartice zvestobe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_mail
@@ -2096,7 +2137,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Loyalty point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točke zvestobe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_max_amount
@@ -2258,7 +2303,11 @@ msgid "Points"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točke"
 >>>>>>> upstream/18.0
@@ -2739,6 +2788,7 @@ msgstr "Sprožilec"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Untaxed discount"
 msgstr ""
@@ -2801,6 +2851,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Unsupported search operator"
@@ -2812,6 +2864,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2889,7 +2944,11 @@ msgid "Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rabljeno"
 >>>>>>> upstream/18.0
@@ -3223,10 +3282,19 @@ msgid "usages"
 msgstr ""
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr ""
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3248,6 +3316,8 @@ msgstr ""
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

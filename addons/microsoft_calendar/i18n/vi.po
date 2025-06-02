@@ -3,16 +3,27 @@
 # 	* microsoft_calendar
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
+=======
+# Thi Huong Nguyen, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-30 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,8 +226,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Do giới hạn của Outlook Lịch, các cập nhật định kỳ phải được thực hiện trực "
 "tiếp trong Outlook Lịch."
+=======
+"Do giới hạn của Outlook Lịch, các cập nhật chu kỳ lặp phải được thực hiện "
+"trực tiếp trong Outlook Lịch."
+>>>>>>> upstream/18.0
 =======
 "Do giới hạn của Outlook Lịch, các cập nhật chu kỳ lặp phải được thực hiện "
 "trực tiếp trong Outlook Lịch."
@@ -451,7 +467,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nếu thời gian định kỳ này không được hiển thị trong Outlook Lịch, bạn phải xóa nó trong Odoo Lịch và tạo lại trong Outlook Lịch."
+=======
+"Nếu chu kỳ lặp này không được hiển thị trong Outlook Lịch, bạn phải xóa nó trong Odoo Lịch và tạo lại trong Outlook Lịch."
+>>>>>>> upstream/18.0
 =======
 "Nếu chu kỳ lặp này không được hiển thị trong Outlook Lịch, bạn phải xóa nó trong Odoo Lịch và tạo lại trong Outlook Lịch."
 >>>>>>> upstream/18.0
@@ -599,6 +619,14 @@ msgstr ""
 "trong Outlook Lịch."
 
 #. module: microsoft_calendar
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:microsoft_calendar.model_calendar_alarm_manager
+msgid "Event Alarm Manager"
+msgstr "Quản lý cảnh báo sự kiện"
+
+#. module: microsoft_calendar
+>>>>>>> upstream/18.0
 #: model:ir.model,name:microsoft_calendar.model_calendar_recurrence
 msgid "Event Recurrence Rule"
 msgstr "Quy tắc lặp lại sự kiện"
@@ -756,7 +784,11 @@ msgid "Microsoft Recurrence Master Id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Master ID của lịch định kỳ Microsoft"
+=======
+msgstr "Master ID của chu kỳ lặp Microsoft"
+>>>>>>> upstream/18.0
 =======
 msgstr "Master ID của chu kỳ lặp Microsoft"
 >>>>>>> upstream/18.0
@@ -998,9 +1030,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Giới hạn của Outlook: trong trường hợp định kỳ, không thể di chuyển một sự "
 "kiện đến hoặc trước ngày diễn ra sự kiện trước đó và không thể di chuyển đến"
 " hoặc sau ngày diễn ra sự kiện tiếp theo."
+=======
+"Giới hạn của Outlook: trong chu kỳ lặp, không thể di chuyển một sự kiện đến "
+"hoặc trước ngày diễn ra sự kiện trước đó và không thể di chuyển đến hoặc sau"
+" ngày diễn ra sự kiện tiếp theo."
+>>>>>>> upstream/18.0
 =======
 "Giới hạn của Outlook: trong chu kỳ lặp, không thể di chuyển một sự kiện đến "
 "hoặc trước ngày diễn ra sự kiện trước đó và không thể di chuyển đến hoặc sau"

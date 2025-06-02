@@ -7,6 +7,10 @@
 # Wil Odoo, 2024
 # 何彬 <vnsoft.he@gmail.com>, 2024
 # Chloe Wang, 2025
+<<<<<<< HEAD
+=======
+# Raymond Yu <cl_yu@hotmail.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -14,7 +18,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-16 13:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Chloe Wang, 2025\n"
+=======
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,12 +41,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
 msgid ", Guests:"
 msgstr "，顾客："
 
 #. module: pos_restaurant
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1176,7 +1187,10 @@ msgstr "切换到外带"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1211,6 +1225,7 @@ msgstr "桌台"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1232,11 +1247,18 @@ msgstr "桌台"
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
+msgid "Table %(number)s"
+msgstr "餐桌 %(number)s"
+>>>>>>> upstream/18.0
 
 #. module: pos_restaurant
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/receipt_header_patch.js:0
 msgid "Table %(number)s, Guests: %(count)s"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_restaurant
@@ -1264,6 +1286,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "餐桌 %(number)s, 顾客：%(count)s"
+
+#. module: pos_restaurant
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant_appointment
 #: model:ir.model.fields,field_description:pos_restaurant.field_res_config_settings__pos_module_pos_restaurant_appointment
@@ -1566,4 +1593,8 @@ msgstr "项目"
 #. odoo-javascript
 #: code:addons/pos_restaurant/static/src/overrides/components/order_widget/order_widget.js:0
 msgid "or book the table for later"
+<<<<<<< HEAD
 msgstr "或者稍后再订桌子"
+=======
+msgstr "或者稍后再订餐桌"
+>>>>>>> upstream/18.0

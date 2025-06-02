@@ -41,9 +41,12 @@ self.addEventListener("push", (event) => {
     const notification = event.data.json();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     self.registration.showNotification(notification.title, notification.options || {});
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     event.waitUntil(handlePushEvent(notification));
@@ -92,6 +95,9 @@ async function handlePushEvent(notification) {
     });
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

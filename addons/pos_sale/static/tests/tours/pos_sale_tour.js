@@ -343,7 +343,10 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
             Dialog.confirm("Open Register"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             PosSale.settleNthOrder(2),
@@ -356,6 +359,9 @@ registry.category("web_tour.tours").add("PosSettleOrderShipLater", {
             ReceiptScreen.isShown(),
             ReceiptScreen.clickNextOrder(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -477,7 +483,10 @@ registry.category("web_tour.tours").add("test_settle_order_with_lot", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -608,6 +617,9 @@ registry.category("web_tour.tours").add("test_down_payment_displayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
