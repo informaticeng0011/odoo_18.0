@@ -30,6 +30,7 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().sale_combo_configurator_get_data(*args, **kwargs)
 =======
 =======
@@ -89,6 +90,17 @@ class WebsiteSaleComboConfiguratorController(SaleComboConfiguratorController, We
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        res = super().sale_combo_configurator_get_data(*args, **kwargs)
+        is_quantity_view_enabled = request.website.is_view_active('website_sale.product_quantity')
+        res.update({
+            'show_quantity': (
+                # if view doesn't exist default to true
+                is_quantity_view_enabled if is_quantity_view_enabled is not None else True
+            ),
+        })
+        return res
 >>>>>>> upstream/18.0
 
     @route(

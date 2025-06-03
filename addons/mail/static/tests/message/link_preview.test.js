@@ -401,7 +401,10 @@ test("link preview request is only made when message contains URL", async () => 
     await assertSteps(["/mail/link_preview"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Delete link preview of a non-editable (email) message", async () => {
     const pyEnv = await startServer();
@@ -423,4 +426,7 @@ test("Delete link preview of a non-editable (email) message", async () => {
     await openDiscuss(channelId);
     await contains(".o-mail-LinkPreviewCard button[aria-label='Remove']");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

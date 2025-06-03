@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anton Kaligin, 2025
 >>>>>>> upstream/18.0
@@ -146,6 +147,8 @@
 >>>>>>> upstream/18.0
 =======
 # Anton Kaligin, 2025
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -192,6 +195,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2025\n"
 =======
 "Last-Translator: Anton Kaligin, 2025\n"
@@ -297,6 +301,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Anton Kaligin, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Ilya Rozhkov, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Ilya Rozhkov, 2025\n"
@@ -312,7 +319,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_count
 msgid "# Leads/Opps assigned this month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Лиды/предложения, назначенные в этом месяце"
+=======
+msgstr "# Лиды/Возможности, назначенные в этом месяце"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Лиды/Возможности, назначенные в этом месяце"
 >>>>>>> upstream/18.0
@@ -321,7 +332,11 @@ msgstr "# Лиды/Возможности, назначенные в этом м
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__number_of_months
 msgid "# Months"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Месяцы"
+=======
+msgstr "# Месяцев"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Месяцев"
 >>>>>>> upstream/18.0
@@ -330,7 +345,11 @@ msgstr "# Месяцев"
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_count
 msgid "# Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Opportunities"
+=======
+msgstr "# Возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Возможности"
 >>>>>>> upstream/18.0
@@ -350,7 +369,11 @@ msgstr "# Неназначенные лиды"
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated among %(team_count)s teams."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(assigned)s очков распределены между %(team_count)s командами."
+=======
+msgstr "%(assigned)s лидов распределено между %(team_count)s командами."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(assigned)s лидов распределено между %(team_count)s командами."
 >>>>>>> upstream/18.0
@@ -360,7 +383,11 @@ msgstr "%(assigned)s лидов распределено между %(team_count
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated to %(team_name)s team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(assigned)s лиды, распределенные между командами %(team_name)s."
+=======
+msgstr "%(assigned)s лидов распределено команде %(team_name)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(assigned)s лидов распределено команде %(team_name)s."
 >>>>>>> upstream/18.0
@@ -376,7 +403,11 @@ msgstr "%(attach_name)s (из %(lead_name)s)"
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(duplicates)s duplicates leads have been merged."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(duplicates)s дубликаты записей были объединены."
+=======
+msgstr "%(duplicates)s дублирующихся лидов было объединено."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(duplicates)s дублирующихся лидов было объединено."
 >>>>>>> upstream/18.0
@@ -388,7 +419,11 @@ msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(members_assigned)s лидов распределены между %(member_count)s продавцами."
+=======
+"%(members_assigned)s лидов распределено между %(member_count)s продавцами."
+>>>>>>> upstream/18.0
 =======
 "%(members_assigned)s лидов распределено между %(member_count)s продавцами."
 >>>>>>> upstream/18.0
@@ -398,7 +433,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s's opportunity"
+=======
+msgstr "Возможность %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность %s"
 >>>>>>> upstream/18.0
@@ -417,7 +456,12 @@ msgid ""
 " sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Переносите потенциальные сделки</b> между колонками в процессе продажи."
+=======
+"<b>Перетаскивайте возможности</b> между колонками по мере продвижения в "
+"цикле продаж."
+>>>>>>> upstream/18.0
 =======
 "<b>Перетаскивайте возможности</b> между колонками по мере продвижения в "
 "цикле продаж."
@@ -429,7 +473,11 @@ msgstr ""
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>Напишите несколько писем</b>, чтобы найти компанию или создать новую."
+=======
+"<b>Введите несколько букв</b>, чтобы найти компанию или создать новую."
+>>>>>>> upstream/18.0
 =======
 "<b>Введите несколько букв</b>, чтобы найти компанию или создать новую."
 >>>>>>> upstream/18.0
@@ -442,7 +490,11 @@ msgid ""
 msgstr ""
 "<i class=\"fa fa-gear\" role=\"img\" title=\"Переключиться на автоматическую"
 <<<<<<< HEAD
+<<<<<<< HEAD
 " вероятность\" aria-label=\"Switch to automatic probability\"/>"
+=======
+" вероятность\" aria-label=\"Переключиться на автоматическую вероятность\"/>"
+>>>>>>> upstream/18.0
 =======
 " вероятность\" aria-label=\"Переключиться на автоматическую вероятность\"/>"
 >>>>>>> upstream/18.0
@@ -451,7 +503,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Назначенное количество лидов\"/>"
+=======
+msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Количество назначенных лидов\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Количество назначенных лидов\"/>"
 >>>>>>> upstream/18.0
@@ -481,8 +537,13 @@ msgid ""
 "fa-fw fa-refresh\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"fa "
 "fa-fw fa-refresh\"/>"
+=======
+"<i title=\"Обновить сейчас\" role=\"img\" aria-label=\"Обновить сейчас\" "
+"class=\"fa fa-fw fa-refresh\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i title=\"Обновить сейчас\" role=\"img\" aria-label=\"Обновить сейчас\" "
 "class=\"fa fa-fw fa-refresh\"/>"
@@ -508,7 +569,11 @@ msgid ""
 msgstr ""
 "<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title=\"BПри сохранении этого изменения номер телефона клиента также будет "
+=======
+"title=\"При сохранении этого изменения номер телефона клиента также будет "
+>>>>>>> upstream/18.0
 =======
 "title=\"При сохранении этого изменения номер телефона клиента также будет "
 >>>>>>> upstream/18.0
@@ -521,7 +586,11 @@ msgid ""
 "                                    <span class=\"o_stat_text\" invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Похожие ссылки</span>\n"
+=======
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Похожие лиды</span>\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; 2\">Похожие лиды</span>\n"
 >>>>>>> upstream/18.0
@@ -545,7 +614,11 @@ msgstr "<span class=\"o_stat_text\"> Лиды</span>"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span class=\"oe_grey p-2 text-nowrap d-none d-sm-block\"> at </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oe_grey p-2 text-nowrap d-none d-sm-block\"> в </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oe_grey p-2 text-nowrap d-none d-sm-block\"> в </span>"
 >>>>>>> upstream/18.0
@@ -581,8 +654,13 @@ msgid ""
 "                            on a maximum of </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span> зацепки, назначенные в этом месяце\n"
 "                            максимум </span>"
+=======
+"<span> лидов, назначенных в этом месяце\n"
+"                            из максимального количества </span>"
+>>>>>>> upstream/18.0
 =======
 "<span> лидов, назначенных в этом месяце\n"
 "                            из максимального количества </span>"
@@ -597,7 +675,11 @@ msgstr "<span>Ожидаемые доходы:</span>"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>Merged the Lead/Opportunity</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Объединили лид/Возможность</span>"
+=======
+msgstr "<span>Объединены лид/возможность</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Объединены лид/возможность</span>"
 >>>>>>> upstream/18.0
@@ -612,15 +694,21 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Периодически назначайте ведущих на основе правил</span><br/>\n"
 "                                <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                    Все отделы продаж будут использовать этот параметр по умолчанию, если\n"
 "                                    если не указано иное.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Периодически назначайте лиды на основе правил</span><br/>\n"
 "                                <span invisible=\"not crm_use_auto_assignment\">\n"
 "                                    Все отделы продаж будут использовать этот параметр по умолчанию, если\n"
 "                                    не указано иное.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -758,7 +846,11 @@ msgid ""
 "creating new records for this alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Словарь Python, который будет оцениваться для получения значений по "
+=======
+"Словарь Python, который будет использоваться для установки значений по "
+>>>>>>> upstream/18.0
 =======
 "Словарь Python, который будет использоваться для установки значений по "
 >>>>>>> upstream/18.0
@@ -774,6 +866,7 @@ msgid ""
 "have no next activity."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отличный совет для повышения эффективности продаж - всегда определять "
 "следующий шаг для каждой возможности. Чтобы управлять текущей деятельностью,"
 " нажмите на любой статус индикатора выполнения, чтобы отфильтровать "
@@ -781,12 +874,17 @@ msgstr ""
 "серую область индикатора выполнения, чтобы увидеть все возможности, у "
 "которых нет следующего действия."
 =======
+=======
+>>>>>>> upstream/18.0
 "Отличный совет для повышения эффективности продаж — всегда определяйте "
 "следующий шаг для каждой возможности. Чтобы управлять текущими задачами, "
 "нажмите на любой статус на индикаторе выполнения, чтобы отфильтровать "
 "возможности по статусу их следующей задачи. Нажмите на серую область "
 "индикатора, чтобы увидеть все возможности без запланированной следующей "
 "задачи."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -794,7 +892,11 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A new lead has been created and is not assigned to any team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создан новый лид, но он не назначен ни на одну команду."
+=======
+msgstr "Создан новый лид, который не назначен ни одной команде."
+>>>>>>> upstream/18.0
 =======
 msgstr "Создан новый лид, который не назначен ни одной команде."
 >>>>>>> upstream/18.0
@@ -814,7 +916,11 @@ msgstr "Принимать письма от"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction
 msgid "Action Needed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Требуются действия"
+=======
+msgstr "Требуется действие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Требуется действие"
 >>>>>>> upstream/18.0
@@ -833,7 +939,11 @@ msgstr "Активный"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__lead_tomerge_ids
 msgid "Active Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активные ссылки"
+=======
+msgstr "Активные лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Активные лиды"
 >>>>>>> upstream/18.0
@@ -846,7 +956,11 @@ msgstr "Активные лиды"
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активность"
+=======
+msgstr "Задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задачи"
 >>>>>>> upstream/18.0
@@ -857,7 +971,11 @@ msgstr "Задачи"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activities Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Анализ деятельности"
+=======
+msgstr "Анализ задач"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ задач"
 >>>>>>> upstream/18.0
@@ -866,7 +984,11 @@ msgstr "Анализ задач"
 #: model:ir.model.fields,field_description:crm.field_res_users__target_sales_done
 msgid "Activities Done Target"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выполненная   Цель"
+=======
+msgstr "Цель по выполненным задачам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Цель по выполненным задачам"
 >>>>>>> upstream/18.0
@@ -886,7 +1008,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активность"
+=======
+msgstr "Задача"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задача"
 >>>>>>> upstream/18.0
@@ -895,7 +1021,11 @@ msgstr "Задача"
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__body
 msgid "Activity Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Описание активности"
+=======
+msgstr "Описание задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание задачи"
 >>>>>>> upstream/18.0
@@ -904,7 +1034,11 @@ msgstr "Описание задачи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr "Оформление исключения задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оформление исключения задачи"
 >>>>>>> upstream/18.0
@@ -912,6 +1046,7 @@ msgstr "Оформление исключения задачи"
 #. module: crm
 #: model:ir.ui.menu,name:crm.mail_activity_plan_menu_config_lead
 msgid "Activity Plans"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1057,12 +1192,19 @@ msgstr "Планы Активностей"
 =======
 msgstr "Планы задач"
 >>>>>>> upstream/18.0
+=======
+msgstr "Планы задач"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_state
 msgid "Activity State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Состояние активности"
+=======
+msgstr "Состояние задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Состояние задачи"
 >>>>>>> upstream/18.0
@@ -1072,7 +1214,11 @@ msgstr "Состояние задачи"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип активности"
+=======
+msgstr "Тип задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип задачи"
 >>>>>>> upstream/18.0
@@ -1081,7 +1227,11 @@ msgstr "Тип задачи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок типа активности"
+=======
+msgstr "Иконка типа задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка типа задачи"
 >>>>>>> upstream/18.0
@@ -1090,7 +1240,11 @@ msgstr "Иконка типа задачи"
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Типы Активности"
+=======
+msgstr "Типы задач"
+>>>>>>> upstream/18.0
 =======
 msgstr "Типы задач"
 >>>>>>> upstream/18.0
@@ -1098,6 +1252,7 @@ msgstr "Типы задач"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Activity by"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1243,6 +1398,9 @@ msgstr "Активность для"
 =======
 msgstr "Задача от"
 >>>>>>> upstream/18.0
+=======
+msgstr "Задача от"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
@@ -1277,7 +1435,11 @@ msgid ""
 msgstr ""
 "Дополнительный фильтр домена при получении неназначенных лидов для "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "распределения по командам."
+=======
+"распределения по команде."
+>>>>>>> upstream/18.0
 =======
 "распределения по команде."
 >>>>>>> upstream/18.0
@@ -1297,7 +1459,11 @@ msgstr "Адрес:"
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_tree
 msgid "Alias"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Алиас"
+=======
+msgstr "Псевдоним"
+>>>>>>> upstream/18.0
 =======
 msgstr "Псевдоним"
 >>>>>>> upstream/18.0
@@ -1306,7 +1472,11 @@ msgstr "Псевдоним"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_contact
 msgid "Alias Contact Security"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Безопасность контакта с псевдонимом"
+=======
+msgstr "Безопасность контакта псевдонима"
+>>>>>>> upstream/18.0
 =======
 msgstr "Безопасность контакта псевдонима"
 >>>>>>> upstream/18.0
@@ -1315,7 +1485,11 @@ msgstr "Безопасность контакта псевдонима"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain_id
 msgid "Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Псевдоним Домен"
+=======
+msgstr "Домен псевдонима"
+>>>>>>> upstream/18.0
 =======
 msgstr "Домен псевдонима"
 >>>>>>> upstream/18.0
@@ -1324,7 +1498,11 @@ msgstr "Домен псевдонима"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain
 msgid "Alias Domain Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Псевдоним Доменное имя"
+=======
+msgstr "Имя домена псевдонима"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имя домена псевдонима"
 >>>>>>> upstream/18.0
@@ -1333,7 +1511,11 @@ msgstr "Имя домена псевдонима"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_full_name
 msgid "Alias Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Псевдоним электронной почты"
+=======
+msgstr "Эл. почта псевдонима"
+>>>>>>> upstream/18.0
 =======
 msgstr "Эл. почта псевдонима"
 >>>>>>> upstream/18.0
@@ -1342,7 +1524,11 @@ msgstr "Эл. почта псевдонима"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_name
 msgid "Alias Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Псевдоним"
+=======
+msgstr "Имя псевдонима"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имя псевдонима"
 >>>>>>> upstream/18.0
@@ -1367,7 +1553,11 @@ msgstr "Модель с псевдонимом"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "All set. Let’s <b>Schedule</b> it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Все готово. Давайте <b>составим расписание</b>."
+=======
+msgstr "Все готово. Давайте <b>запланируем</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Все готово. Давайте <b>запланируем</b>."
 >>>>>>> upstream/18.0
@@ -1381,7 +1571,11 @@ msgstr "Анализ"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Apply deduplication"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Применение дедупликации"
+=======
+msgstr "Применить дедупликацию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Применить дедупликацию"
 >>>>>>> upstream/18.0
@@ -1395,7 +1589,11 @@ msgstr "Применить дедупликацию"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Архивировано"
+=======
+msgstr "В архиве"
+>>>>>>> upstream/18.0
 =======
 msgstr "В архиве"
 >>>>>>> upstream/18.0
@@ -1408,8 +1606,13 @@ msgid ""
 "                                        To work with the CRM, you should <a name=\"%d\" type=\"action\" tabindex=\"-1\">join a team.</a>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Поскольку вы не являетесь членом отдела продаж, вам <b>по умолчанию</b>показывается воронка <b>первой команды.</b>\n"
 "                                        Чтобы работать с CRM, вам необходимо <a name=\"%d\" type=\"action\" tabindex=\"-1\">присоединиться к команде.</a>"
+=======
+"Поскольку вы не являетесь членом отдела продаж, вам по умолчанию показывается воронка <b>первой команды</b>.\n"
+"                                        Чтобы работать с CRM, вам следует <a name=\"%d\" type=\"action\" tabindex=\"-1\">присоединиться к команде.</a>"
+>>>>>>> upstream/18.0
 =======
 "Поскольку вы не являетесь членом отдела продаж, вам по умолчанию показывается воронка <b>первой команды</b>.\n"
 "                                        Чтобы работать с CRM, вам следует <a name=\"%d\" type=\"action\" tabindex=\"-1\">присоединиться к команде.</a>"
@@ -1423,8 +1626,13 @@ msgid ""
 "                                        To work with the CRM, you should join a team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Поскольку вы не являетесь членом отдела продаж, вам <b>по умолчанию</b>показывается воронка <b>первой команды.</b>\n"
 "                                        Чтобы работать с CRM, вам необходимо присоединиться к команде."
+=======
+"Поскольку вы не являетесь членом отдела продаж, вам по умолчанию показывается воронка <b>первой команды</b>.\n"
+"                                        Чтобы работать с CRM, вам следует присоединиться к команде."
+>>>>>>> upstream/18.0
 =======
 "Поскольку вы не являетесь членом отдела продаж, вам по умолчанию показывается воронка <b>первой команды</b>.\n"
 "                                        Чтобы работать с CRM, вам следует присоединиться к команде."
@@ -1434,7 +1642,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Assign Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепить лиды"
+=======
+msgstr "Назначить лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначить лиды"
 >>>>>>> upstream/18.0
@@ -1443,7 +1655,11 @@ msgstr "Назначить лиды"
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Assign opportunities to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепить возможность для"
+=======
+msgstr "Назначить возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначить возможности"
 >>>>>>> upstream/18.0
@@ -1452,7 +1668,11 @@ msgstr "Назначить возможности"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Assign salespersons into multiple Sales Teams."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Распределите продавцов по нескольким отделам продаж."
+=======
+msgstr "Назначить продавцов в несколько отделов продаж."
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначить продавцов в несколько отделов продаж."
 >>>>>>> upstream/18.0
@@ -1461,7 +1681,11 @@ msgstr "Назначить продавцов в несколько отдело
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Assign these opportunities to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепить эти возможности для"
+=======
+msgstr "Назначить эти возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначить эти возможности"
 >>>>>>> upstream/18.0
@@ -1470,7 +1694,11 @@ msgstr "Назначить эти возможности"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Assign this opportunity to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепить эту возможность для"
+=======
+msgstr "Назначить эту возможность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначить эту возможность"
 >>>>>>> upstream/18.0
@@ -1485,7 +1713,11 @@ msgstr "Назначено"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_open
 msgid "Assignment Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата выполнения задания"
+=======
+msgstr "Дата назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата назначения"
 >>>>>>> upstream/18.0
@@ -1495,7 +1727,11 @@ msgstr "Дата назначения"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_domain
 msgid "Assignment Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепленный домен"
+=======
+msgstr "Домен назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Домен назначения"
 >>>>>>> upstream/18.0
@@ -1504,7 +1740,11 @@ msgstr "Домен назначения"
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Assignment Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Закрепленные правила"
+=======
+msgstr "Правила назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Правила назначения"
 >>>>>>> upstream/18.0
@@ -1514,7 +1754,11 @@ msgstr "Правила назначения"
 #: code:addons/crm/models/crm_team.py:0
 msgid "Assignment domain for team %(team)s is incorrectly formatted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Домен задания для команды %(team)s неверно отформатирован"
+=======
+msgstr "Домен назначения для команды %(team)s имеет неверный формат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Домен назначения для команды %(team)s имеет неверный формат"
 >>>>>>> upstream/18.0
@@ -1534,7 +1778,11 @@ msgstr "Количество вложений"
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_auto_enabled
 msgid "Auto Assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматическое закрепление"
+=======
+msgstr "Автоматическое назначение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматическое назначение"
 >>>>>>> upstream/18.0
@@ -1543,7 +1791,11 @@ msgstr "Автоматическое назначение"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_action
 msgid "Auto Assignment Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматическое назначение Действие"
+=======
+msgstr "Действие автоматического назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Действие автоматического назначения"
 >>>>>>> upstream/18.0
@@ -1552,7 +1804,11 @@ msgstr "Действие автоматического назначения"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_interval_type
 msgid "Auto Assignment Interval Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Интервал автоматического назначения Единица измерения"
+=======
+msgstr "Единица интервала автоматического назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Единица интервала автоматического назначения"
 >>>>>>> upstream/18.0
@@ -1561,7 +1817,11 @@ msgstr "Единица интервала автоматического наз�
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_run_datetime
 msgid "Auto Assignment Next Execution Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматическое назначение Дата следующего исполнения"
+=======
+msgstr "Дата следующего выполнения автоматического назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата следующего выполнения автоматического назначения"
 >>>>>>> upstream/18.0
@@ -1570,7 +1830,11 @@ msgstr "Дата следующего выполнения автоматиче�
 #: model:ir.model.fields,field_description:crm.field_crm_lead__automated_probability
 msgid "Automated Probability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматизированная вероятность"
+=======
+msgstr "Автоматическая вероятность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматическая вероятность"
 >>>>>>> upstream/18.0
@@ -1579,7 +1843,11 @@ msgstr "Автоматическая вероятность"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_max
 msgid "Average Leads Capacity (on 30 days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Среднее количество  лидов (за 30 дней)"
+=======
+msgstr "Средняя емкость лидов (за 30 дней)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Средняя емкость лидов (за 30 дней)"
 >>>>>>> upstream/18.0
@@ -1598,7 +1866,11 @@ msgstr "Телефон, внесенный в черный список, явл�
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Телефон в черном списке - это телефон"
+=======
+msgstr "Телефон в черном списке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Телефон в черном списке"
 >>>>>>> upstream/18.0
@@ -1608,7 +1880,11 @@ msgstr "Телефон в черном списке"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Boom! Team record for the past 30 days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Бум! Командная запись за последние 30 дней."
+=======
+msgstr "Бум! Рекорд команды за последние 30 дней."
+>>>>>>> upstream/18.0
 =======
 msgstr "Бум! Рекорд команды за последние 30 дней."
 >>>>>>> upstream/18.0
@@ -1617,7 +1893,11 @@ msgstr "Бум! Рекорд команды за последние 30 дней.
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_bounce
 msgid "Bounce"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отскок"
+=======
+msgstr "Отказ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отказ"
 >>>>>>> upstream/18.0
@@ -1633,7 +1913,11 @@ msgstr "CRM"
 #: model:ir.model,name:crm.model_crm_activity_report
 msgid "CRM Activity Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Анализ деятельности CRM"
+=======
+msgstr "Анализ активности CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ активности CRM"
 >>>>>>> upstream/18.0
@@ -1642,7 +1926,11 @@ msgstr "Анализ активности CRM"
 #: model:ir.model,name:crm.model_crm_recurring_plan
 msgid "CRM Recurring revenue plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CRM Планы повторяющихся доходов"
+=======
+msgstr "Планы повторяющихся доходов CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Планы повторяющихся доходов CRM"
 >>>>>>> upstream/18.0
@@ -1661,7 +1949,11 @@ msgstr "CRM: Назначение лида"
 #: model:ir.model,name:crm.model_calendar_event
 msgid "Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Календарное событие"
+=======
+msgstr "Событие календаря"
+>>>>>>> upstream/18.0
 =======
 msgstr "Событие календаря"
 >>>>>>> upstream/18.0
@@ -1683,7 +1975,11 @@ msgstr "Кампания"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Campaign:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рекламная компания:"
+=======
+msgstr "Кампания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кампания:"
 >>>>>>> upstream/18.0
@@ -1717,9 +2013,14 @@ msgid ""
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Установите этот флажок, чтобы фильтровать и квалифицировать входящие "
 "инициативы как потенциальные продажи, прежде чем преобразовывать их в "
 "возможности и назначать их продавцу."
+=======
+"Установите этот флажок, чтобы фильтровать и квалифицировать входящие запросы"
+" как лиды перед их преобразованием в возможности и назначением продавцу."
+>>>>>>> upstream/18.0
 =======
 "Установите этот флажок, чтобы фильтровать и квалифицировать входящие запросы"
 " как лиды перед их преобразованием в возможности и назначением продавцу."
@@ -1730,7 +2031,11 @@ msgstr ""
 msgid "Check this box to manage a presales process with opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Установите этот флажок, чтобы управлять предварительным процессом с "
+=======
+"Установите этот флажок, чтобы управлять процессом предварительных продаж с "
+>>>>>>> upstream/18.0
 =======
 "Установите этот флажок, чтобы управлять процессом предварительных продаж с "
 >>>>>>> upstream/18.0
@@ -1753,8 +2058,13 @@ msgid ""
 "Service"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Классифицируйте и анализируйте такие категории потенциальных "
 "клиентов/возможностей, как: Обучение, Обслуживание"
+=======
+"Классифицируйте и анализируйте категории ваших лидов/возможностей, например:"
+" Обучение, Сервис"
+>>>>>>> upstream/18.0
 =======
 "Классифицируйте и анализируйте категории ваших лидов/возможностей, например:"
 " Обучение, Сервис"
@@ -1768,8 +2078,13 @@ msgid ""
 "modifications as you navigate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Нажмите на хлебную крошку, чтобы вернуться к Воронке. Odoo сохранит все "
 "изменения по мере перемещения."
+=======
+"Нажмите на хлебные крошки, чтобы вернуться к вашей воронке. Odoo сохранит "
+"все изменения по мере навигации."
+>>>>>>> upstream/18.0
 =======
 "Нажмите на хлебные крошки, чтобы вернуться к вашей воронке. Odoo сохранит "
 "все изменения по мере навигации."
@@ -1790,7 +2105,11 @@ msgstr "Дата закрытия"
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:0
 msgid "Closed/Dead leads cannot be converted into opportunities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Закрытые/мертвые ссылки не могут быть преобразованы в возможности."
+=======
+msgstr "Закрытые/неактивные лиды не могут быть преобразованы в возможности."
+>>>>>>> upstream/18.0
 =======
 msgstr "Закрытые/неактивные лиды не могут быть преобразованы в возможности."
 >>>>>>> upstream/18.0
@@ -1799,7 +2118,11 @@ msgstr "Закрытые/неактивные лиды не могут быть 
 #: model:ir.model.fields,field_description:crm.field_crm_lead_lost__lost_feedback
 msgid "Closing Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Заключительное замечание"
+=======
+msgstr "Примечание о закрытии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Примечание о закрытии"
 >>>>>>> upstream/18.0
@@ -1808,7 +2131,11 @@ msgstr "Примечание о закрытии"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__color
 msgid "Color Index"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Цветовой индекс"
+=======
+msgstr "Индекс цвета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Индекс цвета"
 >>>>>>> upstream/18.0
@@ -1843,7 +2170,11 @@ msgstr "Компания:"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Completion Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата окончания"
+=======
+msgstr "Дата завершения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата завершения"
 >>>>>>> upstream/18.0
@@ -1852,7 +2183,11 @@ msgstr "Дата завершения"
 #: model:ir.model,name:crm.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Параметры конфигурации"
+=======
+msgstr "Настройки конфигурации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настройки конфигурации"
 >>>>>>> upstream/18.0
@@ -1866,7 +2201,11 @@ msgstr "Конфигурация"
 #: model_terms:web_tour.tour,rainbow_man_message:crm.crm_tour
 msgid "Congrats, best of luck catching such big fish! :)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поздравляю, желаю удачи в ловле такой большой рыбы! :)"
+=======
+msgstr "Поздравляем, удачи в поимке такой большой рыбы! :)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поздравляем, удачи в поимке такой большой рыбы! :)"
 >>>>>>> upstream/18.0
@@ -1875,7 +2214,11 @@ msgstr "Поздравляем, удачи в поимке такой больш
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid "Consider leads created as of the:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Считайте, что зацепки созданы по состоянию на:"
+=======
+msgstr "Учитывать лиды, созданные с:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Учитывать лиды, созданные с:"
 >>>>>>> upstream/18.0
@@ -1886,7 +2229,11 @@ msgstr "Учитывать лиды, созданные с:"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контакты"
+=======
+msgstr "Контакт"
+>>>>>>> upstream/18.0
 =======
 msgstr "Контакт"
 >>>>>>> upstream/18.0
@@ -1895,7 +2242,11 @@ msgstr "Контакт"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Contact Details:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контактная информация:"
+=======
+msgstr "Контактные данные:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Контактные данные:"
 >>>>>>> upstream/18.0
@@ -1909,7 +2260,11 @@ msgstr "Контактная информация"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__contact_name
 msgid "Contact Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контактное лицо"
+=======
+msgstr "Имя контакта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имя контакта"
 >>>>>>> upstream/18.0
@@ -1924,7 +2279,11 @@ msgstr "Контакт:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__name
 msgid "Conversion Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конверсионное действие"
+=======
+msgstr "Действие конверсии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Действие конверсии"
 >>>>>>> upstream/18.0
@@ -1941,7 +2300,11 @@ msgstr "Дата конверсии"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Conversion Date from Lead to Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата конверсии из лида в возможность"
+=======
+msgstr "Дата конверсии лида в сделку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата конверсии лида в сделку"
 >>>>>>> upstream/18.0
@@ -1950,7 +2313,11 @@ msgstr "Дата конверсии лида в сделку"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Conversion Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Варианты преобразования"
+=======
+msgstr "Опции конверсии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Опции конверсии"
 >>>>>>> upstream/18.0
@@ -1959,7 +2326,11 @@ msgstr "Опции конверсии"
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Convert Lead to Opportunity (in mass)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конвертировать лид в возможность (массово)"
+=======
+msgstr "Конвертировать лиды в сделки (массово)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать лиды в сделки (массово)"
 >>>>>>> upstream/18.0
@@ -1968,7 +2339,11 @@ msgstr "Конвертировать лиды в сделки (массово)"
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Convert Lead to Opportunity (not in mass)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конвертировать лид в возможность (не массово)"
+=======
+msgstr "Конвертировать лид в сделку (индивидуально)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать лид в сделку (индивидуально)"
 >>>>>>> upstream/18.0
@@ -1977,7 +2352,11 @@ msgstr "Конвертировать лид в сделку (индивидуа�
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert to Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конвертировать в возможности"
+=======
+msgstr "Конвертировать в сделки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать в сделки"
 >>>>>>> upstream/18.0
@@ -1988,7 +2367,11 @@ msgstr "Конвертировать в сделки"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert to Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Преобразовать в инициативу"
+=======
+msgstr "Конвертировать в сделку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать в сделку"
 >>>>>>> upstream/18.0
@@ -1997,7 +2380,11 @@ msgstr "Конвертировать в сделку"
 #: model:ir.actions.act_window,name:crm.action_crm_send_mass_convert
 msgid "Convert to opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конвертировать в возможности"
+=======
+msgstr "Конвертировать в сделки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать в сделки"
 >>>>>>> upstream/18.0
@@ -2010,7 +2397,11 @@ msgstr "Конвертировать в сделки"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__convert
 msgid "Convert to opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конвертировать в возможность"
+=======
+msgstr "Конвертировать в сделку"
+>>>>>>> upstream/18.0
 =======
 msgstr "Конвертировать в сделку"
 >>>>>>> upstream/18.0
@@ -2022,8 +2413,13 @@ msgid ""
 "based on their IP address"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Превращение посетителей вашего сайта в потенциальных клиентов и обогащение "
 "данных на основе их IP-адреса"
+=======
+"Преобразуйте посетителей вашего сайта в лиды и выполняйте обогащение данных "
+"на основе их IP-адреса"
+>>>>>>> upstream/18.0
 =======
 "Преобразуйте посетителей вашего сайта в лиды и выполняйте обогащение данных "
 "на основе их IP-адреса"
@@ -2034,7 +2430,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__phone_state__correct
 msgid "Correct"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Правильно"
+=======
+msgstr "Верно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Верно"
 >>>>>>> upstream/18.0
@@ -2043,7 +2443,11 @@ msgstr "Верно"
 #: model:ir.model.fields,help:crm.field_crm_lead__message_bounce
 msgid "Counter of the number of bounced emails for this contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Счетчик количества отскакивающих писем для этого контакта"
+=======
+msgstr "Счетчик количества отскочивших писем для этого контакта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счетчик количества отскочивших писем для этого контакта"
 >>>>>>> upstream/18.0
@@ -2062,7 +2466,11 @@ msgstr "Страна"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_crm_iap_reveal
 msgid "Create Leads/Opportunities from your website's traffic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создание лида из трафика вашего сайта"
+=======
+msgstr "Создание лидов/возможностей из трафика вашего сайта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создание лидов/возможностей из трафика вашего сайта"
 >>>>>>> upstream/18.0
@@ -2071,7 +2479,11 @@ msgstr "Создание лидов/возможностей из трафика
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Create Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте возможность"
+=======
+msgstr "Создать возможность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать возможность"
 >>>>>>> upstream/18.0
@@ -2085,7 +2497,11 @@ msgstr "Создать лид"
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
 msgid "Create a Lead Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создать план задач лида"
+=======
+msgstr "Создать план задач для лида"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать план задач для лида"
 >>>>>>> upstream/18.0
@@ -2099,7 +2515,11 @@ msgstr "Создать причину потери"
 #: model_terms:ir.actions.act_window,help:crm.crm_recurring_plan_action
 msgid "Create a Recurring Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте повторяющийся план"
+=======
+msgstr "Создать повторяющийся план"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать повторяющийся план"
 >>>>>>> upstream/18.0
@@ -2108,7 +2528,11 @@ msgstr "Создать повторяющийся план"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_mining_in_pipeline
 msgid "Create a lead mining request directly from the opportunity pipeline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте запрос на генерацию лидов напрямую из воронки возможностей."
+=======
+msgstr "Создать запрос на генерацию лидов прямо из воронки возможностей."
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать запрос на генерацию лидов прямо из воронки возможностей."
 >>>>>>> upstream/18.0
@@ -2118,7 +2542,11 @@ msgstr "Создать запрос на генерацию лидов прям�
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__create
 msgid "Create a new customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте нового клиента"
+=======
+msgstr "Создать нового клиента"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать нового клиента"
 >>>>>>> upstream/18.0
@@ -2130,7 +2558,11 @@ msgstr "Создать нового клиента"
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid "Create a new lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте новый лид"
+=======
+msgstr "Создать новый лид"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать новый лид"
 >>>>>>> upstream/18.0
@@ -2140,7 +2572,11 @@ msgstr "Создать новый лид"
 #: code:addons/crm/models/crm_team.py:0
 msgid "Create an Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте возможность"
+=======
+msgstr "Создать возможность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать возможность"
 >>>>>>> upstream/18.0
@@ -2151,7 +2587,11 @@ msgstr "Создать возможность"
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Create an opportunity to start playing with your pipeline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте возможность, чтобы начать работать с воронкой "
+=======
+msgstr "Создайте возможность, чтобы начать работать с вашей воронкой."
+>>>>>>> upstream/18.0
 =======
 msgstr "Создайте возможность, чтобы начать работать с вашей воронкой."
 >>>>>>> upstream/18.0
@@ -2204,7 +2644,11 @@ msgstr "Дата создания"
 #: model:ir.actions.server,name:crm.action_opportunity_forecast
 msgid "Crm: Forecast"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crm: Прогноз"
+=======
+msgstr "CRM: Прогноз"
+>>>>>>> upstream/18.0
 =======
 msgstr "CRM: Прогноз"
 >>>>>>> upstream/18.0
@@ -2213,7 +2657,11 @@ msgstr "CRM: Прогноз"
 #: model:ir.actions.server,name:crm.action_your_pipeline
 msgid "Crm: My Pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crm: Моя воронка"
+=======
+msgstr "CRM: Моя воронка"
+>>>>>>> upstream/18.0
 =======
 msgstr "CRM: Моя воронка"
 >>>>>>> upstream/18.0
@@ -2245,7 +2693,11 @@ msgstr "Клиент"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Customer Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Электронная почта клиента"
+=======
+msgstr "Эл. почта клиента"
+>>>>>>> upstream/18.0
 =======
 msgstr "Эл. почта клиента"
 >>>>>>> upstream/18.0
@@ -2265,7 +2717,11 @@ msgstr "Дата закрытия"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__days
 msgid "Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дней"
+=======
+msgstr "Дни"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дни"
 >>>>>>> upstream/18.0
@@ -2279,7 +2735,11 @@ msgstr "Дней до назначения"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_close
 msgid "Days to Close"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дни до закрытия"
+=======
+msgstr "Дней до закрытия"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дней до закрытия"
 >>>>>>> upstream/18.0
@@ -2299,7 +2759,11 @@ msgstr "Значения по умолчанию"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Define recurring plans and revenues on Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Определение повторяющихся планов и доходов по возможностям"
+=======
+msgstr "Определите повторяющиеся планы и доходы по возможностям"
+>>>>>>> upstream/18.0
 =======
 msgstr "Определите повторяющиеся планы и доходы по возможностям"
 >>>>>>> upstream/18.0
@@ -2318,7 +2782,11 @@ msgstr "Описание"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Did you know emails sent to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Знаете ли вы, что электронные письма, отправленные на"
+=======
+msgstr "Знаете ли вы, что письма, отправленные на"
+>>>>>>> upstream/18.0
 =======
 msgstr "Знаете ли вы, что письма, отправленные на"
 >>>>>>> upstream/18.0
@@ -2330,8 +2798,13 @@ msgid ""
 "your pipeline?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Знаете ли вы, что электронные письма, отправленные на псевдоним отдела "
 "продаж, генерируют возможности в вашей воронке?"
+=======
+"Знаете ли вы, что письма, отправленные на псевдоним отдела продаж, создают "
+"возможности в вашей воронке?"
+>>>>>>> upstream/18.0
 =======
 "Знаете ли вы, что письма, отправленные на псевдоним отдела продаж, создают "
 "возможности в вашей воронке?"
@@ -2345,15 +2818,21 @@ msgid ""
 "company size, business information, social media accounts, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Знаете ли вы, что можете найти компанию по названию или номеру НДС, чтобы "
 "мгновенно заполнить все ее данные? Odoo автоматически заполнит все за вас: "
 "логотип, адрес, размер компании, информацию о бизнесе, аккаунты в социальных"
 " сетях и т.д."
 =======
+=======
+>>>>>>> upstream/18.0
 "Знаете ли вы, что вы можете искать компанию по названию или номеру НДС, "
 "чтобы мгновенно заполнить все ее данные? Odoo автоматически заполняет все: "
 "логотип, адрес, размер компании, бизнес-информацию, аккаунты в соцсетях и "
 "т.д."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -2364,9 +2843,15 @@ msgid ""
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Знаете ли вы, что список возможностей можно превратить в карту, используя "
 "значок карты в правом верхнем углу? Многие экраны в Odoo можно превратить в "
 "карту: задачи, контакты, заказы на доставку и т.д."
+=======
+"Знаете ли вы, что список возможностей можно преобразовать в вид карты, "
+"используя значок карты в правом верхнем углу? Многие экраны в Odoo можно "
+"превратить в карту: задачи, контакты, заказы на доставку и т.д."
+>>>>>>> upstream/18.0
 =======
 "Знаете ли вы, что список возможностей можно преобразовать в вид карты, "
 "используя значок карты в правом верхнем углу? Многие экраны в Odoo можно "
@@ -2377,7 +2862,11 @@ msgstr ""
 #: model:ir.model,name:crm.model_digest_digest
 msgid "Digest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обзор"
+=======
+msgstr "Дайджест"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дайджест"
 >>>>>>> upstream/18.0
@@ -2404,7 +2893,12 @@ msgstr "Отображаемое имя"
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Нет доступа. Пропустите эти данные для резюме электронной почты пользователя"
+=======
+"Нет доступа, пропустите эти данные для дайджеста электронной почты "
+"пользователя"
+>>>>>>> upstream/18.0
 =======
 "Нет доступа, пропустите эти данные для дайджеста электронной почты "
 "пользователя"
@@ -2428,8 +2922,13 @@ msgstr "Домен"
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Перетащите свою возможность в стадию <b>Выиграно</b>, когда получите сделку."
 " Поздравляем!"
+=======
+"Перетащите вашу возможность в <b>Выиграно</b>, когда заключите сделку. "
+"Поздравляем!"
+>>>>>>> upstream/18.0
 =======
 "Перетащите вашу возможность в <b>Выиграно</b>, когда заключите сделку. "
 "Поздравляем!"
@@ -2460,7 +2959,11 @@ msgstr "Редактировать"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email"
+=======
+msgstr "Эл. почта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Эл. почта"
 >>>>>>> upstream/18.0
@@ -2470,7 +2973,11 @@ msgstr "Эл. почта"
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Email Alias"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Псевдоним почты"
+=======
+msgstr "Псевдоним эл. почты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Псевдоним эл. почты"
 >>>>>>> upstream/18.0
@@ -2479,7 +2986,11 @@ msgstr "Псевдоним эл. почты"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_domain_criterion
 msgid "Email Domain Criterion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Критерий домена электронной почты"
+=======
+msgstr "Критерий домена эл. почты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Критерий домена эл. почты"
 >>>>>>> upstream/18.0
@@ -2488,7 +2999,11 @@ msgstr "Критерий домена эл. почты"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
 msgid "Email Quality"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Качество почты"
+=======
+msgstr "Качество эл. почты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Качество эл. почты"
 >>>>>>> upstream/18.0
@@ -2497,7 +3012,11 @@ msgstr "Качество эл. почты"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_cc
 msgid "Email cc"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Электронная почта cc"
+=======
+msgstr "Копия эл. почты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Копия эл. почты"
 >>>>>>> upstream/18.0
@@ -2506,7 +3025,11 @@ msgstr "Копия эл. почты"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Email cc:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email cc:"
+=======
+msgstr "Копия эл. почты:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Копия эл. почты:"
 >>>>>>> upstream/18.0
@@ -2515,7 +3038,11 @@ msgstr "Копия эл. почты:"
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Домен электронной почты, например, 'example.com' в 'odoo@example.com'"
+=======
+msgstr "Домен эл. почты, например, 'example.com' в 'odoo@example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Домен эл. почты, например, 'example.com' в 'odoo@example.com'"
 >>>>>>> upstream/18.0
@@ -2524,7 +3051,11 @@ msgstr "Домен эл. почты, например, 'example.com' в 'odoo@ex
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Email:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email:"
+=======
+msgstr "Эл. почта:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Эл. почта:"
 >>>>>>> upstream/18.0
@@ -2538,7 +3069,11 @@ msgstr "Электронная почта: Приветственная демо
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматический охват всех лидов"
+=======
+msgstr "Автоматически обогащать все лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматически обогащать все лиды"
 >>>>>>> upstream/18.0
@@ -2547,7 +3082,11 @@ msgstr "Автоматически обогащать все лиды"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_enrich_auto
 msgid "Enrich lead automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автоматический охват  лидов"
+=======
+msgstr "Автоматически обогащать лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматически обогащать лиды"
 >>>>>>> upstream/18.0
@@ -2556,7 +3095,11 @@ msgstr "Автоматически обогащать лиды"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__manual
 msgid "Enrich leads on demand only"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Охват  лидов по запросу"
+=======
+msgstr "Обогащать лиды только по запросу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обогащать лиды только по запросу"
 >>>>>>> upstream/18.0
@@ -2568,8 +3111,13 @@ msgid ""
 "address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Автоматический  охват лидов  потенциальных клиентов данными о компании на "
 "основе их адреса электронной почты."
+=======
+"Автоматически обогащайте лиды данными компании на основе их адреса "
+"электронной почты."
+>>>>>>> upstream/18.0
 =======
 "Автоматически обогащайте лиды данными компании на основе их адреса "
 "электронной почты."
@@ -2580,8 +3128,12 @@ msgstr ""
 msgid "Enrich your leads with company data based on their email addresses"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Охватите своих потенциальных клиентов данными о компании на основе их "
 "адресов электронной почты"
+=======
+"Обогащайте лиды данными компании на основе их адресов электронной почты"
+>>>>>>> upstream/18.0
 =======
 "Обогащайте лиды данными компании на основе их адресов электронной почты"
 >>>>>>> upstream/18.0
@@ -2600,7 +3152,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__date_deadline
 msgid "Estimate of the date on which the opportunity will be won."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Предполагаемая дата, когда будет выиграна возможность."
+=======
+msgstr "Оценка даты, когда возможность будет выиграна."
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценка даты, когда возможность будет выиграна."
 >>>>>>> upstream/18.0
@@ -2636,7 +3192,11 @@ msgstr "Ожидаемый MRR"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__expected_revenue
 msgid "Expected Revenue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ожидаемая выручка"
+=======
+msgstr "Ожидаемый доход"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ожидаемый доход"
 >>>>>>> upstream/18.0
@@ -2683,8 +3243,13 @@ msgid ""
 "comparisons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Поле, используемое для хранения очищенного телефонного номера. Помогает "
 "ускорить поиск и сравнение."
+=======
+"Поле для хранения обработанного номера телефона. Помогает ускорить поиск и "
+"сравнение."
+>>>>>>> upstream/18.0
 =======
 "Поле для хранения обработанного номера телефона. Помогает ускорить поиск и "
 "сравнение."
@@ -2694,9 +3259,13 @@ msgstr ""
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency_field
 msgid "Fields that can be used for predictive lead scoring computation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Поля, которые могут быть использованы для расчета предиктивного скоринга "
 "лидов"
+=======
+msgstr "Поля, используемые для расчета прогнозируемой оценки лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля, используемые для расчета прогнозируемой оценки лидов"
 >>>>>>> upstream/18.0
@@ -2705,7 +3274,11 @@ msgstr "Поля, используемые для расчета прогноз�
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
 msgid "Folded in Pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сложенная воронка"
+=======
+msgstr "Свернуто в воронке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Свернуто в воронке"
 >>>>>>> upstream/18.0
@@ -2714,7 +3287,11 @@ msgstr "Свернуто в воронке"
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
 msgid "Follow-up Quote"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последующая цитата"
+=======
+msgstr "Последующее предложение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последующее предложение"
 >>>>>>> upstream/18.0
@@ -2728,7 +3305,11 @@ msgstr "Подписчики"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_partner_ids
 msgid "Followers (Partners)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подписчики"
+=======
+msgstr "Подписчики (Партнеры)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подписчики (Партнеры)"
 >>>>>>> upstream/18.0
@@ -2737,7 +3318,11 @@ msgstr "Подписчики (Партнеры)"
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шрифт, отличный значок, например. к.-а.-задачи"
+=======
+msgstr "Иконка Font Awesome, например fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка Font Awesome, например fa-tasks"
 >>>>>>> upstream/18.0
@@ -2751,16 +3336,22 @@ msgid ""
 "feature, we offer you 200 credits for free."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Для отдела продаж нет ничего хуже, чем нехватка потенциальных клиентов. К "
 "счастью, всего за несколько кликов вы можете генерировать ссылки, специально"
 " ориентированные на ваши потребности: размер компании, отрасль и т. д. Чтобы"
 " помочь вам протестировать эту функцию, мы предлагаем вам 200 кредитов "
 "бесплатно."
 =======
+=======
+>>>>>>> upstream/18.0
 "Для отдела продаж нет ничего хуже, чем отсутствие лидов. К счастью, всего за"
 " несколько кликов вы можете генерировать лиды, специально ориентированные на"
 " ваши потребности: размер компании, отрасль и т.д. Для тестирования функции "
 "мы предоставляем 200 кредитов бесплатно."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -2768,7 +3359,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__force_assignment
 msgid "Force assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Назначение силы"
+=======
+msgstr "Принудительное назначение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Принудительное назначение"
 >>>>>>> upstream/18.0
@@ -2783,7 +3378,11 @@ msgstr "Прогноз"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_pivot_forecast
 msgid "Forecast Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прогнозный анализ"
+=======
+msgstr "Анализ прогноза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ прогноза"
 >>>>>>> upstream/18.0
@@ -2806,7 +3405,11 @@ msgstr "От %(source_name)s: %(source_subject)s"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Планируемые действия"
+=======
+msgstr "Будущие задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Будущие задачи"
 >>>>>>> upstream/18.0
@@ -2815,7 +3418,11 @@ msgstr "Будущие задачи"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_mine
 msgid "Generate new leads based on their country, industries, size, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generate new leads based on their country, industries, size, etc."
+=======
+msgstr "Генерировать новые лиды на основе страны, отрасли, размера и т.д."
+>>>>>>> upstream/18.0
 =======
 msgstr "Генерировать новые лиды на основе страны, отрасли, размера и т.д."
 >>>>>>> upstream/18.0
@@ -2824,8 +3431,12 @@ msgstr "Генерировать новые лиды на основе стра�
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Generate new leads based on their country, industry, size, etc."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Генерируйте новые Лиды на основе данных о стране, отрасли, размере и т. д."
+=======
+msgstr "Создавать новые лиды на основе страны, отрасли, размера и т.д."
+>>>>>>> upstream/18.0
 =======
 msgstr "Создавать новые лиды на основе страны, отрасли, размера и т.д."
 >>>>>>> upstream/18.0
@@ -2834,7 +3445,11 @@ msgstr "Создавать новые лиды на основе страны, �
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Узнать причину потери лида"
+=======
+msgstr "Указать причину потери"
+>>>>>>> upstream/18.0
 =======
 msgstr "Указать причину потери"
 >>>>>>> upstream/18.0
@@ -2843,8 +3458,12 @@ msgstr "Указать причину потери"
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Give your team the requirements to move an opportunity to this stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Дайте своей команде требования, чтобы перевести возможность на этот этап."
+=======
+msgstr "Укажите команде требования для перехода возможности на этот этап."
+>>>>>>> upstream/18.0
 =======
 msgstr "Укажите команде требования для перехода возможности на этот этап."
 >>>>>>> upstream/18.0
@@ -2854,7 +3473,11 @@ msgstr "Укажите команде требования для переход
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Go, go, go! Congrats for your first deal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Иди, иди, иди! Поздравляю с вашей первой сделкой."
+=======
+msgstr "Вперед, вперед, вперед! Поздравляем с первой сделкой!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вперед, вперед, вперед! Поздравляем с первой сделкой!"
 >>>>>>> upstream/18.0
@@ -2871,7 +3494,11 @@ msgstr "Группировать по"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__has_message
 msgid "Has Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Есть сообщение"
+=======
+msgstr "Имеет сообщение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имеет сообщение"
 >>>>>>> upstream/18.0
@@ -2885,7 +3512,11 @@ msgstr "Высокий"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__hours
 msgid "Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Часов"
+=======
+msgstr "Часы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Часы"
 >>>>>>> upstream/18.0
@@ -2913,8 +3544,13 @@ msgid ""
 " creation alias)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID записи родителя, содержащей алиас (например, проект содержит псевдоним "
 "для создания записи)"
+=======
+"ID родительской записи, содержащей псевдоним (например, проект, содержащий "
+"псевдоним создания задачи)"
+>>>>>>> upstream/18.0
 =======
 "ID родительской записи, содержащей псевдоним (например, проект, содержащий "
 "псевдоним создания задачи)"
@@ -2929,7 +3565,11 @@ msgstr "Иконка"
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr "Иконка, указывающая на исключительную задачу."
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка, указывающая на исключительную задачу."
 >>>>>>> upstream/18.0
@@ -2942,8 +3582,13 @@ msgid ""
 "already set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если флажок установлен, это заставляет продавца обновлять информацию об "
 "обновленных возможностях, даже если она уже установлена."
+=======
+"Если отмечено, принудительно обновляет продавца для измененных возможностей,"
+" даже если он уже назначен."
+>>>>>>> upstream/18.0
 =======
 "Если отмечено, принудительно обновляет продавца для измененных возможностей,"
 " даже если он уже назначен."
@@ -2953,8 +3598,12 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Если флажок установлен, значит, новые сообщения требуют вашего внимания."
+=======
+msgstr "Если отмечено, новые сообщения требуют вашего внимания."
+>>>>>>> upstream/18.0
 =======
 msgstr "Если отмечено, новые сообщения требуют вашего внимания."
 >>>>>>> upstream/18.0
@@ -2972,9 +3621,14 @@ msgid ""
 "instead of the default message."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если этот параметр установлен, то вместо сообщения по умолчанию "
 "неавторизованным пользователям будет автоматически рассылаться это "
 "содержимое."
+=======
+"Если установлено, это содержимое будет автоматически отправлено "
+"неавторизованным пользователям вместо стандартного сообщения."
+>>>>>>> upstream/18.0
 =======
 "Если установлено, это содержимое будет автоматически отправлено "
 "неавторизованным пользователям вместо стандартного сообщения."
@@ -2988,8 +3642,13 @@ msgid ""
 "mailing anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если адрес электронной почты находится в черном списке, контакт больше не "
 "будет получать массовую рассылку из любого списка"
+=======
+"Если адрес электронной почты в черном списке, контакт больше не будет "
+"получать массовые рассылки из любого списка."
+>>>>>>> upstream/18.0
 =======
 "Если адрес электронной почты в черном списке, контакт больше не будет "
 "получать массовые рассылки из любого списка."
@@ -3002,8 +3661,13 @@ msgid ""
 " mass mailing sms anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если санируемый номер телефона находится в черном списке, контакт больше не "
 "будет получать массовые рассылки смс из любого списка"
+=======
+"Если обработанный номер телефона в черном списке, контакт больше не будет "
+"получать массовые SMS-рассылки из любого списка."
+>>>>>>> upstream/18.0
 =======
 "Если обработанный номер телефона в черном списке, контакт больше не будет "
 "получать массовые SMS-рассылки из любого списка."
@@ -3019,7 +3683,11 @@ msgstr "Импорт и синхронизация"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Import Template for Leads & Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шаблон импорта для ссылок и возможностей"
+=======
+msgstr "Шаблон импорта для лидов и возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шаблон импорта для лидов и возможностей"
 >>>>>>> upstream/18.0
@@ -3034,7 +3702,11 @@ msgstr "Неактивный"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__phone_state__incorrect
 msgid "Incorrect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Неверно"
+=======
+msgstr "Неверный"
+>>>>>>> upstream/18.0
 =======
 msgstr "Неверный"
 >>>>>>> upstream/18.0
@@ -3048,8 +3720,13 @@ msgid ""
 msgstr ""
 "Указывает, является ли занесенный в черный список номер телефона мобильным. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Помогает определить, какой номер занесен в черный список             , если "
 "в модели присутствуют поля \"мобильный\" и \"телефон\"."
+=======
+"Помогает определить, какой номер занесен в черный список, если в модели "
+"присутствуют поля \"мобильный\" и \"телефон\"."
+>>>>>>> upstream/18.0
 =======
 "Помогает определить, какой номер занесен в черный список, если в модели "
 "присутствуют поля \"мобильный\" и \"телефон\"."
@@ -3063,9 +3740,15 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Указывает, является ли номер телефона, занесенный в черный список, номером "
 "телефона. Помогает определить, какой номер занесен в черный список"
 "             , если в модели есть поле \"мобильный\" и \"телефон\"."
+=======
+"Указывает, является ли обработанный номер телефона из черного списка номером"
+" телефона. Помогает различить, какой номер в черном списке, когда в модели "
+"присутствуют поля мобильного и стационарного телефона."
+>>>>>>> upstream/18.0
 =======
 "Указывает, является ли обработанный номер телефона из черного списка номером"
 " телефона. Помогает различить, какой номер в черном списке, когда в модели "
@@ -3082,8 +3765,13 @@ msgstr "Внутренние заметки"
 msgid "Interval type between each cron run (e.g. each 2 days or each 2 hours)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Тип интервала между каждым запуском cron (например, каждые 2 дня или каждые "
 "2 часа)"
+=======
+"Тип интервала между запусками cron (например, каждые 2 дня или каждые 2 "
+"часа)"
+>>>>>>> upstream/18.0
 =======
 "Тип интервала между запусками cron (например, каждые 2 дня или каждые 2 "
 "часа)"
@@ -3097,8 +3785,13 @@ msgid ""
 "large numbers."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Недопустимая частота повторения. Рассмотрите возможность изменения типа "
 "частоты вместо использования больших чисел."
+=======
+"Недопустимая частота повторения. Рассмотрите изменение типа частоты вместо "
+"использования больших чисел."
+>>>>>>> upstream/18.0
 =======
 "Недопустимая частота повторения. Рассмотрите изменение типа частоты вместо "
 "использования больших чисел."
@@ -3108,7 +3801,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_is_follower
 msgid "Is Follower"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Является подписчиком"
+=======
+msgstr "Подписчик"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подписчик"
 >>>>>>> upstream/18.0
@@ -3122,7 +3819,11 @@ msgstr "Виден ли партнер"
 #: model:ir.model.fields,field_description:crm.field_crm_stage__is_won
 msgid "Is Won Stage?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выигрышная стадия?"
+=======
+msgstr "Этап выигрыша?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап выигрыша?"
 >>>>>>> upstream/18.0
@@ -3131,7 +3832,11 @@ msgstr "Этап выигрыша?"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_automated_probability
 msgid "Is automated probability?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Является ли автоматизация вероятностью?"
+=======
+msgstr "Автоматическая вероятность?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматическая вероятность?"
 >>>>>>> upstream/18.0
@@ -3141,7 +3846,11 @@ msgstr "Автоматическая вероятность?"
 msgid "JSON that maps ids from a many2one field to seconds spent"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "JSON, который сопоставляет идентификаторы из поля many2one с потраченными "
+=======
+"JSON, сопоставляющий идентификаторы из поля many2one с затраченными "
+>>>>>>> upstream/18.0
 =======
 "JSON, сопоставляющий идентификаторы из поля many2one с затраченными "
 >>>>>>> upstream/18.0
@@ -3161,7 +3870,11 @@ msgstr "Должность:"
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created_value
 msgid "Kpi Crm Lead Created Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kpi Crm Лид создал ценность"
+=======
+msgstr "Значение KPI созданных лидов CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Значение KPI созданных лидов CRM"
 >>>>>>> upstream/18.0
@@ -3170,7 +3883,11 @@ msgstr "Значение KPI созданных лидов CRM"
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won_value
 msgid "Kpi Crm Opportunities Won Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kpi Crm Возможности Выигранные Стоимость"
+=======
+msgstr "Значение KPI выигранных возможностей CRM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Значение KPI выигранных возможностей CRM"
 >>>>>>> upstream/18.0
@@ -3179,7 +3896,11 @@ msgstr "Значение KPI выигранных возможностей CRM"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_active_count
 msgid "Lang Active Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество активных Lang"
+=======
+msgstr "Количество активных языков"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество активных языков"
 >>>>>>> upstream/18.0
@@ -3229,7 +3950,11 @@ msgstr "Последнее обновление этапа"
 #: model:ir.model.fields,field_description:crm.field_crm_stage__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последний раз обновил"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последний раз обновил"
 >>>>>>> upstream/18.0
@@ -3255,7 +3980,11 @@ msgstr "Последнее обновление"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поздние Мероприятия"
+=======
+msgstr "Просроченные задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Просроченные задачи"
 >>>>>>> upstream/18.0
@@ -3273,7 +4002,11 @@ msgstr "Лид"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_enabled
 msgid "Lead Assign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепить лид"
+=======
+msgstr "Назначение лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначение лидов"
 >>>>>>> upstream/18.0
@@ -3283,7 +4016,11 @@ msgstr "Назначение лидов"
 #: code:addons/crm/models/crm_team.py:0
 msgid "Lead Assignment requested by %(user_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ведущий Назначение по запросу %(user_name)s"
+=======
+msgstr "Назначение лида запрошено %(user_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначение лида запрошено %(user_name)s"
 >>>>>>> upstream/18.0
@@ -3292,7 +4029,11 @@ msgstr "Назначение лида запрошено %(user_name)s"
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_max
 msgid "Lead Average Capacity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Средняя производительность лида"
+=======
+msgstr "Средняя емкость лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Средняя емкость лидов"
 >>>>>>> upstream/18.0
@@ -3301,7 +4042,11 @@ msgstr "Средняя емкость лидов"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Enrichment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обогащение Лида"
+=======
+msgstr "Обогащение лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обогащение лидов"
 >>>>>>> upstream/18.0
@@ -3310,7 +4055,11 @@ msgstr "Обогащение лидов"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Generation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Генерация Лидов"
+=======
+msgstr "Генерация лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Генерация лидов"
 >>>>>>> upstream/18.0
@@ -3319,7 +4068,11 @@ msgstr "Генерация лидов"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Mining"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поиск Лидов"
+=======
+msgstr "Поиск лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск лидов"
 >>>>>>> upstream/18.0
@@ -3328,7 +4081,11 @@ msgstr "Поиск лидов"
 #: model:ir.actions.act_window,name:crm.mail_activity_plan_action_lead
 msgid "Lead Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ведущие планы"
+=======
+msgstr "Планы по лидам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Планы по лидам"
 >>>>>>> upstream/18.0
@@ -3337,7 +4094,11 @@ msgstr "Планы по лидам"
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_properties_definition
 msgid "Lead Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Характеристики лидов"
+=======
+msgstr "Свойства лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Свойства лидов"
 >>>>>>> upstream/18.0
@@ -3346,7 +4107,11 @@ msgstr "Свойства лидов"
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency
 msgid "Lead Scoring Frequency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Частота скоринга Лидов"
+=======
+msgstr "Частота оценки лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Частота оценки лидов"
 >>>>>>> upstream/18.0
@@ -3360,7 +4125,11 @@ msgstr "Поля частоты оценки лидов"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields_str
 msgid "Lead Scoring Frequency Fields in String"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поля частоты оценки лидов"
+=======
+msgstr "Поля частоты оценки лидов (строка)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля частоты оценки лидов (строка)"
 >>>>>>> upstream/18.0
@@ -3369,7 +4138,11 @@ msgstr "Поля частоты оценки лидов (строка)"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date
 msgid "Lead Scoring Starting Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата начала оценки потенциальных клиентов"
+=======
+msgstr "Дата начала оценки лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата начала оценки лидов"
 >>>>>>> upstream/18.0
@@ -3378,7 +4151,11 @@ msgstr "Дата начала оценки лидов"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date_str
 msgid "Lead Scoring Starting Date in String"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата начала оценки потенциальных клиентов в строке"
+=======
+msgstr "Дата начала оценки лидов (строка)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата начала оценки лидов (строка)"
 >>>>>>> upstream/18.0
@@ -3399,7 +4176,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_month_count
 msgid "Lead assigned to this member those last 30 days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лид, назначенный этому участнику за последние 30 дней"
+=======
+msgstr "Лиды, назначенные этому участнику за последние 30 дней"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды, назначенные этому участнику за последние 30 дней"
 >>>>>>> upstream/18.0
@@ -3409,7 +4190,11 @@ msgstr "Лиды, назначенные этому участнику за по
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Lead or Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лид или Возможность"
+=======
+msgstr "Лид или возможность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лид или возможность"
 >>>>>>> upstream/18.0
@@ -3422,8 +4207,13 @@ msgid ""
 "administrators"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Автоматическое назначение Лидов/Возможностей ограничено менеджерами или "
 "администраторами"
+=======
+"Автоматическое назначение лидов/возможностей доступно только менеджерам или "
+"администраторам"
+>>>>>>> upstream/18.0
 =======
 "Автоматическое назначение лидов/возможностей доступно только менеджерам или "
 "администраторам"
@@ -3438,7 +4228,11 @@ msgstr "Лид/Возможность"
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead/Opportunity created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потенциальные сделки создана"
+=======
+msgstr "Лид/возможность создана"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лид/возможность создана"
 >>>>>>> upstream/18.0
@@ -3488,15 +4282,21 @@ msgid ""
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Анализ ссылок позволяет проверять различную информацию, связанную с CRM, "
 "например, задержки в лечении или количество ссылок по штату. Вы можете "
 "отсортировать результаты анализа по различным группам, чтобы получить точный"
 " анализ."
 =======
+=======
+>>>>>>> upstream/18.0
 "Анализ лидов позволяет проверять различную информацию, связанную с CRM, "
 "например, задержки обработки или количество лидов по статусу. Вы можете "
 "сортировать анализ лидов по разным группам для получения детализированного "
 "анализа."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -3504,7 +4304,11 @@ msgstr ""
 #: code:addons/crm/models/crm_team.py:0
 msgid "Leads Assigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепленные  лиды"
+=======
+msgstr "Назначенные лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначенные лиды"
 >>>>>>> upstream/18.0
@@ -3513,7 +4317,11 @@ msgstr "Назначенные лиды"
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__leads_count
 msgid "Leads Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подсчет лидов"
+=======
+msgstr "Кол-во лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кол-во лидов"
 >>>>>>> upstream/18.0
@@ -3528,7 +4336,11 @@ msgstr "Генерация лидов"
 msgid ""
 "Leads are the qualification step before the creation of an opportunity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лиды - это этап квалификации, предшествующий созданию возможности."
+=======
+msgstr "Лиды — это этап квалификации перед созданием возможности."
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды — это этап квалификации перед созданием возможности."
 >>>>>>> upstream/18.0
@@ -3542,7 +4354,11 @@ msgstr "Лиды или возможности"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are assigned to me"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лиды, которые закреплены за мной"
+=======
+msgstr "Лиды, назначенные мне"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды, назначенные мне"
 >>>>>>> upstream/18.0
@@ -3551,7 +4367,11 @@ msgstr "Лиды, назначенные мне"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are not assigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лиды, которые не закреплены"
+=======
+msgstr "Лиды без назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды без назначения"
 >>>>>>> upstream/18.0
@@ -3563,8 +4383,13 @@ msgid ""
 " that no duplicates were found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Выбранные вами ссылки, в которых есть дубликаты. Если список пуст, это "
 "означает, что дубликаты не найдены"
+=======
+"Выбранные вами лиды с дубликатами. Если список пуст, это означает, что "
+"дубликаты не найдены."
+>>>>>>> upstream/18.0
 =======
 "Выбранные вами лиды с дубликатами. Если список пуст, это означает, что "
 "дубликаты не найдены."
@@ -3574,7 +4399,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads with existing duplicates (for information)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потенциальные клиенты с существующими дубликатами (для информации)"
+=======
+msgstr "Лиды с существующими дубликатами (для информации)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды с существующими дубликатами (для информации)"
 >>>>>>> upstream/18.0
@@ -3583,7 +4412,11 @@ msgstr "Лиды с существующими дубликатами (для и
 #: model:ir.model.fields,field_description:crm.field_crm_merge_opportunity__opportunity_ids
 msgid "Leads/Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потенциальные клиенты/Потенциальные продажи"
+=======
+msgstr "Лиды/Возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Лиды/Возможности"
 >>>>>>> upstream/18.0
@@ -3592,7 +4425,11 @@ msgstr "Лиды/Возможности"
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__crm_lead_count
 msgid "Leads/Opportunities count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подсчет лидов/возможностей"
+=======
+msgstr "Количество лидов/возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество лидов/возможностей"
 >>>>>>> upstream/18.0
@@ -3602,7 +4439,11 @@ msgstr "Количество лидов/возможностей"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let's <b>Schedule an Activity.</b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Давайте <b>запланируем мероприятие</b>."
+=======
+msgstr "Давайте <b>запланируем задачу.</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Давайте <b>запланируем задачу.</b>"
 >>>>>>> upstream/18.0
@@ -3624,7 +4465,11 @@ msgstr "Давайте посмотрим на возможность."
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__exist
 msgid "Link to an existing customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ссылка на существующего клиента"
+=======
+msgstr "Связать с существующим клиентом"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связать с существующим клиентом"
 >>>>>>> upstream/18.0
@@ -3636,9 +4481,14 @@ msgid ""
 " find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Связанный партнер (необязательно). Обычно создается при конвертации лида. Вы"
 " можете найти партнера по его имени, ИНН, электронной почте или внутренней "
 "ссылке."
+=======
+"Связанный партнер (необязательно). Обычно создается при преобразовании лида."
+" Партнера можно найти по имени, ИНН, email или внутренней ссылке."
+>>>>>>> upstream/18.0
 =======
 "Связанный партнер (необязательно). Обычно создается при преобразовании лида."
 " Партнера можно найти по имени, ИНН, email или внутренней ссылке."
@@ -3648,7 +4498,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_incoming_local
 msgid "Local-part based incoming detection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обнаружение входящих на основе локальных частей"
+=======
+msgstr "Обнаружение входящих по локальной части"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обнаружение входящих по локальной части"
 >>>>>>> upstream/18.0
@@ -3657,7 +4511,11 @@ msgstr "Обнаружение входящих по локальной част
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_code
 msgid "Locale Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Код Локации"
+=======
+msgstr "Код локализации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Код локализации"
 >>>>>>> upstream/18.0
@@ -3666,7 +4524,11 @@ msgstr "Код локализации"
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Looks like nothing is planned."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Похоже, ничего не планируется."
+=======
+msgstr "Похоже, ничего не запланировано."
+>>>>>>> upstream/18.0
 =======
 msgstr "Похоже, ничего не запланировано."
 >>>>>>> upstream/18.0
@@ -3679,8 +4541,13 @@ msgid ""
 " track of everything you have to do!</i>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Похоже, ничего не запланировано. :(<br><br> Совет<i>: составляйте график "
 "мероприятий, чтобы успеть сделать все, что нужно!</i>"
+=======
+"Похоже, ничего не запланировано. :(<br><br><i>Совет: планируй задачи, чтобы "
+"отслеживать все, что нужно сделать!</i>"
+>>>>>>> upstream/18.0
 =======
 "Похоже, ничего не запланировано. :(<br><br><i>Совет: планируй задачи, чтобы "
 "отслеживать все, что нужно сделать!</i>"
@@ -3694,7 +4561,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Проигрыш"
+=======
+msgstr "Потерян"
+>>>>>>> upstream/18.0
 =======
 msgstr "Потерян"
 >>>>>>> upstream/18.0
@@ -3704,7 +4575,11 @@ msgstr "Потерян"
 #: code:addons/crm/wizard/crm_lead_lost.py:0
 msgid "Lost Comment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потерянный комментарий"
+=======
+msgstr "Комментарий к потере"
+>>>>>>> upstream/18.0
 =======
 msgstr "Комментарий к потере"
 >>>>>>> upstream/18.0
@@ -3713,7 +4588,11 @@ msgstr "Комментарий к потере"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__lost_count
 msgid "Lost Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество Потерянных лидов"
+=======
+msgstr "Кол-во потерянных"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кол-во потерянных"
 >>>>>>> upstream/18.0
@@ -3731,7 +4610,11 @@ msgstr "Потерянный лид"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Причина проигрыша"
+=======
+msgstr "Причина потери"
+>>>>>>> upstream/18.0
 =======
 msgstr "Причина потери"
 >>>>>>> upstream/18.0
@@ -3746,7 +4629,11 @@ msgstr "Причина потери:"
 #: model:ir.ui.menu,name:crm.menu_crm_lost_reason
 msgid "Lost Reasons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Причины потери лида"
+=======
+msgstr "Причины потерь"
+>>>>>>> upstream/18.0
 =======
 msgstr "Причины потерь"
 >>>>>>> upstream/18.0
@@ -3775,7 +4662,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Manage Recurring Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Управление повторяющимися планами"
+=======
+msgstr "Управлять повторяющимися планами"
+>>>>>>> upstream/18.0
 =======
 msgstr "Управлять повторяющимися планами"
 >>>>>>> upstream/18.0
@@ -3788,9 +4679,15 @@ msgid ""
 "all teams."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ручное назначение позволяет запускать назначение из формы команды с помощью "
 "кнопки действия. Автоматически - настраивает cron, запускающий многократное "
 "назначение во всех командах."
+=======
+"Ручное назначение позволяет запускать назначение из формы команды через "
+"кнопку действия. Автоматическое настраивает cron для периодического "
+"назначения во всех командах."
+>>>>>>> upstream/18.0
 =======
 "Ручное назначение позволяет запускать назначение из формы команды через "
 "кнопку действия. Автоматическое настраивает cron для периодического "
@@ -3808,7 +4705,11 @@ msgstr "Вручную"
 #: model:ir.actions.act_window,name:crm.crm_lead_lost_action
 msgid "Mark Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отметить как Упущено"
+=======
+msgstr "Пометить потерянным"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить потерянным"
 >>>>>>> upstream/18.0
@@ -3823,7 +4724,11 @@ msgstr "Отметить Выиграна"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Mark as Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отметить как \"проиграно\""
+=======
+msgstr "Пометить потерянным"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить потерянным"
 >>>>>>> upstream/18.0
@@ -3832,7 +4737,11 @@ msgstr "Пометить потерянным"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark as lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отметить как упущенный "
+=======
+msgstr "Пометить потерянным"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить потерянным"
 >>>>>>> upstream/18.0
@@ -3841,7 +4750,11 @@ msgstr "Пометить потерянным"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Mark as won"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отметить как выигранный"
+=======
+msgstr "Пометить выигранным"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пометить выигранным"
 >>>>>>> upstream/18.0
@@ -3869,7 +4782,11 @@ msgstr "Канал"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Medium:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Medium:"
+=======
+msgstr "Канал:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Канал:"
 >>>>>>> upstream/18.0
@@ -3878,7 +4795,11 @@ msgstr "Канал:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_date
 msgid "Meeting Display Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отображаемая дата собрания"
+=======
+msgstr "Дата отображения встречи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата отображения встречи"
 >>>>>>> upstream/18.0
@@ -3887,7 +4808,11 @@ msgstr "Дата отображения встречи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_label
 msgid "Meeting Display Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этикетка для отображения совещаний"
+=======
+msgstr "Метка отображения встречи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Метка отображения встречи"
 >>>>>>> upstream/18.0
@@ -3912,8 +4837,13 @@ msgid ""
 "formatted"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Домен назначения участника для пользователя %(user)s и команды %(team)s "
 "неверно отформатирован"
+=======
+"Домен назначения для пользователя %(user)s и команды %(team)s имеет "
+"некорректный формат"
+>>>>>>> upstream/18.0
 =======
 "Домен назначения для пользователя %(user)s и команды %(team)s имеет "
 "некорректный формат"
@@ -3929,7 +4859,11 @@ msgstr "Объединить"
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge Leads/Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Объединяйте предложения/возможности"
+=======
+msgstr "Объединить лиды/возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Объединить лиды/возможности"
 >>>>>>> upstream/18.0
@@ -3938,7 +4872,11 @@ msgstr "Объединить лиды/возможности"
 #: model:ir.model,name:crm.model_crm_merge_opportunity
 msgid "Merge Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Объединить Возможности"
+=======
+msgstr "Объединить возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Объединить возможности"
 >>>>>>> upstream/18.0
@@ -3947,7 +4885,11 @@ msgstr "Объединить возможности"
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass__deduplicate
 msgid "Merge with existing leads/opportunities of each partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Объединитесь с существующими лидами/возможностями каждого партнера"
+=======
+msgstr "Объединить с существующими лидами/возможностями каждого партнера"
+>>>>>>> upstream/18.0
 =======
 msgstr "Объединить с существующими лидами/возможностями каждого партнера"
 >>>>>>> upstream/18.0
@@ -3957,7 +4899,11 @@ msgstr "Объединить с существующими лидами/возм
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__merge
 msgid "Merge with existing opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Объединитесь с существующими возможностями"
+=======
+msgstr "Объединить с существующими возможностями"
+>>>>>>> upstream/18.0
 =======
 msgstr "Объединить с существующими возможностями"
 >>>>>>> upstream/18.0
@@ -3976,7 +4922,11 @@ msgstr "Сообщения"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__minutes
 msgid "Minutes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Минут"
+=======
+msgstr "Минуты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Минуты"
 >>>>>>> upstream/18.0
@@ -4001,7 +4951,11 @@ msgstr "Ежемесячно"
 #: model:ir.model.fields,help:crm.field_crm_team__assignment_max
 msgid "Monthly average leads capacity for all salesmen belonging to the team"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Среднемесячный объем лидов для всех продавцов, входящих в команду"
+=======
+msgstr "Среднемесячная емкость лидов для всех продавцов команды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Среднемесячная емкость лидов для всех продавцов команды"
 >>>>>>> upstream/18.0
@@ -4017,7 +4971,11 @@ msgstr "Мультикоманды"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_my_activities_filter
 msgid "My Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мои мероприятия"
+=======
+msgstr "Мои задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мои задачи"
 >>>>>>> upstream/18.0
@@ -4026,7 +4984,11 @@ msgstr "Мои задачи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Крайний срок моей активности"
+=======
+msgstr "Срок моей задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок моей задачи"
 >>>>>>> upstream/18.0
@@ -4035,7 +4997,11 @@ msgstr "Срок моей задачи"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "My Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мой крайний срок"
+=======
+msgstr "Мой срок"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мой срок"
 >>>>>>> upstream/18.0
@@ -4044,7 +5010,11 @@ msgstr "Мой срок"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мои Лиды"
+=======
+msgstr "Мои лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Мои лиды"
 >>>>>>> upstream/18.0
@@ -4055,7 +5025,11 @@ msgstr "Мои лиды"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "My Pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Моя Воронка"
+=======
+msgstr "Моя воронка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Моя воронка"
 >>>>>>> upstream/18.0
@@ -4074,7 +5048,11 @@ msgstr "Новый лид"
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created
 msgid "New Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Новые Лиды"
+=======
+msgstr "Новые лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Новые лиды"
 >>>>>>> upstream/18.0
@@ -4094,7 +5072,11 @@ msgstr "Новая возможность"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующее событие календаря активности"
+=======
+msgstr "Следующее событие календаря задач"
+>>>>>>> upstream/18.0
 =======
 msgstr "Следующее событие календаря задач"
 >>>>>>> upstream/18.0
@@ -4103,7 +5085,11 @@ msgstr "Следующее событие календаря задач"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий срок мероприятия"
+=======
+msgstr "Срок следующей задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок следующей задачи"
 >>>>>>> upstream/18.0
@@ -4112,7 +5098,11 @@ msgstr "Срок следующей задачи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Резюме следующего действия"
+=======
+msgstr "Описание следующей задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание следующей задачи"
 >>>>>>> upstream/18.0
@@ -4121,7 +5111,11 @@ msgstr "Описание следующей задачи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий Тип Мероприятия"
+=======
+msgstr "Тип следующей задачи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип следующей задачи"
 >>>>>>> upstream/18.0
@@ -4148,7 +5142,11 @@ msgstr "Нет"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нет встреч"
+=======
+msgstr "Нет встречи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нет встречи"
 >>>>>>> upstream/18.0
@@ -4167,8 +5165,13 @@ msgid ""
 "unassigned lead matches its domain."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Нет выделенных лидов команде %(team_name)s и ее продавцам, потому что ни "
 "один неназначенный лид не соответствует его домену."
+=======
+"Команде %(team_name)s и её продавцам не назначены лиды, так как ни один "
+"неназначенный лид не соответствует её домену."
+>>>>>>> upstream/18.0
 =======
 "Команде %(team_name)s и её продавцам не назначены лиды, так как ни один "
 "неназначенный лид не соответствует её домену."
@@ -4182,8 +5185,13 @@ msgid ""
 "capacity to its salespersons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отсутствие выделенных средств приводит к команде %(team_name)s, потому что у"
 " нее нет возможностей. Увеличьте пропускную способность своих продавцов."
+=======
+"Команде %(team_name)s не назначены лиды из-за отсутствия емкости. Добавьте "
+"емкость её продавцам."
+>>>>>>> upstream/18.0
 =======
 "Команде %(team_name)s не назначены лиды из-за отсутствия емкости. Добавьте "
 "емкость её продавцам."
@@ -4197,8 +5205,13 @@ msgid ""
 "Salespersons configuration as well as unassigned leads."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ни одна команда или продавец не назначены. Проверьте конфигурацию команд "
 "продаж и продавцов, а также нераспределенные лиды."
+=======
+"Ни одной команде или продавцу не назначены лиды. Проверьте настройки команд "
+"продаж, продавцов и неназначенных лидов."
+>>>>>>> upstream/18.0
 =======
 "Ни одной команде или продавцу не назначены лиды. Проверьте настройки команд "
 "продаж, продавцов и неназначенных лидов."
@@ -4218,8 +5231,13 @@ msgid ""
 "domains."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Продавцам не назначено ни одного лида, потому что ни один не назначенный лид"
 " не соответствует их доменам."
+=======
+"Продавцам не назначены лиды, так как ни один неназначенный лид не "
+"соответствует их доменам."
+>>>>>>> upstream/18.0
 =======
 "Продавцам не назначены лиды, так как ни один неназначенный лид не "
 "соответствует их доменам."
@@ -4233,8 +5251,13 @@ msgid ""
 "matches its domain."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Команде %(team_name)s не выделен новый лид, так как ни один неназначенный "
 "лид не соответствует его домену."
+=======
+"Команде %(team_name)s не назначен новый лид, так как ни один неназначенный "
+"лид не соответствует её домену."
+>>>>>>> upstream/18.0
 =======
 "Команде %(team_name)s не назначен новый лид, так как ни один неназначенный "
 "лид не соответствует её домену."
@@ -4247,7 +5270,11 @@ msgid ""
 "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Команды не получают новых лидов, потому что ни один лид не соответствует их "
+=======
+"Командам не назначены новые лиды, так как ни один лид не соответствует их "
+>>>>>>> upstream/18.0
 =======
 "Командам не назначены новые лиды, так как ни один лид не соответствует их "
 >>>>>>> upstream/18.0
@@ -4257,7 +5284,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_forecast
 msgid "No opportunity to display!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нет возможности показать!"
+=======
+msgstr "Нет возможностей для отображения!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нет возможностей для отображения!"
 >>>>>>> upstream/18.0
@@ -4271,7 +5302,11 @@ msgstr "Нет продавца"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_normalized
 msgid "Normalized Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нормализованная электронная почта"
+=======
+msgstr "Нормализованный адрес эл. почты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нормализованный адрес эл. почты"
 >>>>>>> upstream/18.0
@@ -4296,7 +5331,11 @@ msgstr "Заметки:"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Now, <b>add your Opportunity</b> to your Pipeline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Теперь <b>добавьте вашу Возможность</b> в вашу Воронку."
+=======
+msgstr "Теперь <b>добавьте возможность</b> в свою воронку."
+>>>>>>> upstream/18.0
 =======
 msgstr "Теперь <b>добавьте возможность</b> в свою воронку."
 >>>>>>> upstream/18.0
@@ -4305,7 +5344,11 @@ msgstr "Теперь <b>добавьте возможность</b> в свою 
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction_counter
 msgid "Number of Actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число действий"
+=======
+msgstr "Количество действий"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество действий"
 >>>>>>> upstream/18.0
@@ -4314,7 +5357,11 @@ msgstr "Количество действий"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_has_error_counter
 msgid "Number of errors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число ошибок"
+=======
+msgstr "Количество ошибок"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество ошибок"
 >>>>>>> upstream/18.0
@@ -4326,8 +5373,13 @@ msgid ""
 "days)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество интервалов между каждым запуском cron (например, каждые 2 дня или"
 " каждые 4 дня)"
+=======
+"Количество интервалов между запусками cron (например, каждые 2 дня или "
+"каждые 4 дня)"
+>>>>>>> upstream/18.0
 =======
 "Количество интервалов между запусками cron (например, каждые 2 дня или "
 "каждые 4 дня)"
@@ -4342,7 +5394,11 @@ msgstr "Количество лидов и возможностей, назна�
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество сообщений, требующих принятия мер"
+=======
+msgstr "Количество сообщений, требующих действий"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество сообщений, требующих действий"
 >>>>>>> upstream/18.0
@@ -4351,7 +5407,11 @@ msgstr "Количество сообщений, требующих действ
 #: model:ir.model.fields,help:crm.field_crm_lead__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество недоставленных сообщений"
+=======
+msgstr "Количество сообщений с ошибкой доставки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество сообщений с ошибкой доставки"
 >>>>>>> upstream/18.0
@@ -4363,8 +5423,13 @@ msgid ""
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo помогает вам отслеживать ваш воронку продаж следуя\n"
 "                   за потенциальными продажами и лучше прогнозировать будущие доходы."
+=======
+"Odoo помогает отслеживать воронку продаж, чтобы следить за\n"
+"                    потенциальными продажами и точнее прогнозировать будущие доходы."
+>>>>>>> upstream/18.0
 =======
 "Odoo помогает отслеживать воронку продаж, чтобы следить за\n"
 "                    потенциальными продажами и точнее прогнозировать будущие доходы."
@@ -4379,10 +5444,16 @@ msgid ""
 "opportunity moves forward in your sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Система искусственного интеллекта Odoo прогнозирует степень успешности "
 "каждой возможности на основе вашей истории. Вы всегда можете обновить "
 "показатель успешности вручную, но если вы позволите Odoo сделать эту работу,"
 " показатель будет обновляться, пока возможность продвигается в вашем цикле "
+=======
+"ИИ Odoo прогнозирует вероятность успеха каждой возможности на основе вашей "
+"истории. Вы можете обновлять вероятность вручную, но если доверите это Odoo,"
+" показатель будет обновляться по мере продвижения возможности в цикле "
+>>>>>>> upstream/18.0
 =======
 "ИИ Odoo прогнозирует вероятность успеха каждой возможности на основе вашей "
 "истории. Вы можете обновлять вероятность вручную, но если доверите это Odoo,"
@@ -4394,7 +5465,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Ongoing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текущие"
+=======
+msgstr "В процессе"
+>>>>>>> upstream/18.0
 =======
 msgstr "В процессе"
 >>>>>>> upstream/18.0
@@ -4414,7 +5489,11 @@ msgstr "Открытая возможность"
 #: model:ir.model,name:crm.model_crm_lost_reason
 msgid "Opp. Lost Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Причина Потери Возможности"
+=======
+msgstr "Причина потери возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Причина потери возможности"
 >>>>>>> upstream/18.0
@@ -4453,17 +5532,23 @@ msgid ""
 " channels of the sales pipeline."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Анализ возможностей дает вам мгновенный доступ к вашим возможностям с "
 "информацией, такой как ожидаемый доход, плановая стоимость, пропущенные "
 "сроки или количество взаимодействий на каждую возможность. Этот отчет в "
 "основном используется менеджером по продажам для проведения периодического "
 "обзора воронки по каналам продаж."
 =======
+=======
+>>>>>>> upstream/18.0
 "Анализ возможностей предоставляет мгновенный доступ к данным о ваших "
 "возможностях, включая ожидаемый доход, плановые затраты, пропущенные сроки и"
 " количество взаимодействий по каждой возможности. Этот отчет в основном "
 "используется менеджером по продажам для периодического анализа воронки "
 "продаж по каналам."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -4475,7 +5560,11 @@ msgstr "Прогноз возможностей"
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_amount
 msgid "Opportunities Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Доходы от Возможных сделок"
+=======
+msgstr "Доходы от возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доходы от возможностей"
 >>>>>>> upstream/18.0
@@ -4490,7 +5579,11 @@ msgstr "Выигранные возможности"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Opportunities that are assigned to me"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потенциальные продажи, назначенные мне"
+=======
+msgstr "Возможности, назначенные мне"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможности, назначенные мне"
 >>>>>>> upstream/18.0
@@ -4519,7 +5612,11 @@ msgstr "Кол-во возможностей"
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Opportunity Created"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Созданные возможности"
+=======
+msgstr "Возможность создана"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность создана"
 >>>>>>> upstream/18.0
@@ -4529,7 +5626,11 @@ msgstr "Возможность создана"
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_lost
 msgid "Opportunity Lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Упущенная возможность"
+=======
+msgstr "Возможность потеряна"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность потеряна"
 >>>>>>> upstream/18.0
@@ -4539,7 +5640,11 @@ msgstr "Возможность потеряна"
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_restored
 msgid "Opportunity Restored"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Возможность Восстановлена"
+=======
+msgstr "Возможность восстановлена"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность восстановлена"
 >>>>>>> upstream/18.0
@@ -4548,7 +5653,11 @@ msgstr "Возможность восстановлена"
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_stage
 msgid "Opportunity Stage Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Изменение стадии возможностей"
+=======
+msgstr "Стадия возможности изменена"
+>>>>>>> upstream/18.0
 =======
 msgstr "Стадия возможности изменена"
 >>>>>>> upstream/18.0
@@ -4558,7 +5667,11 @@ msgstr "Стадия возможности изменена"
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_won
 msgid "Opportunity Won"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выигранная возможность"
+=======
+msgstr "Возможность выиграна"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность выиграна"
 >>>>>>> upstream/18.0
@@ -4567,7 +5680,11 @@ msgstr "Возможность выиграна"
 #: model:mail.message.subtype,description:crm.mt_lead_lost
 msgid "Opportunity lost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Упущенная возможность"
+=======
+msgstr "Возможность потеряна"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность потеряна"
 >>>>>>> upstream/18.0
@@ -4581,7 +5698,11 @@ msgstr "Возможность восстановлена"
 #: model:mail.message.subtype,description:crm.mt_lead_won
 msgid "Opportunity won"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выигранная возможность"
+=======
+msgstr "Возможность выиграна"
+>>>>>>> upstream/18.0
 =======
 msgstr "Возможность выиграна"
 >>>>>>> upstream/18.0
@@ -4594,9 +5715,15 @@ msgid ""
 "creation of new records completely."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Необязательный идентификатор потока (записи), к которому будут прикрепляться"
 " все входящие сообщения, даже если на них не было ответа. Если установить "
 "это значение, то создание новых записей будет полностью запрещено."
+=======
+"Необязательный ID цепочки (записи), к которой будут прикрепляться все "
+"входящие сообщения, даже если на них не было ответа. При установке этого "
+"значения создание новых записей будет полностью отключено."
+>>>>>>> upstream/18.0
 =======
 "Необязательный ID цепочки (записи), к которой будут прикрепляться все "
 "входящие сообщения, даже если на них не было ответа. При установке этого "
@@ -4607,7 +5734,11 @@ msgstr ""
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_3_years
 msgid "Over 3 years"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Более 3 лет"
+=======
+msgstr "Свыше 3 лет"
+>>>>>>> upstream/18.0
 =======
 msgstr "Свыше 3 лет"
 >>>>>>> upstream/18.0
@@ -4616,7 +5747,11 @@ msgstr "Свыше 3 лет"
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_5_years
 msgid "Over 5 years "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Более 5 лет "
+=======
+msgstr "Свыше 5 лет "
+>>>>>>> upstream/18.0
 =======
 msgstr "Свыше 5 лет "
 >>>>>>> upstream/18.0
@@ -4632,7 +5767,11 @@ msgstr "Просроченные возможности"
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunities_overdue_amount
 msgid "Overdue Opportunities Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Просроченные возможности Доходы"
+=======
+msgstr "Просроченные доходы от возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Просроченные доходы от возможностей"
 >>>>>>> upstream/18.0
@@ -4646,7 +5785,11 @@ msgstr "Просроченная возможность"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_model_id
 msgid "Parent Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Основная модель"
+=======
+msgstr "Родительская модель"
+>>>>>>> upstream/18.0
 =======
 msgstr "Родительская модель"
 >>>>>>> upstream/18.0
@@ -4655,7 +5798,11 @@ msgstr "Родительская модель"
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_thread_id
 msgid "Parent Record Thread ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Номер родительской цепочки записей"
+=======
+msgstr "ID родительской записи"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID родительской записи"
 >>>>>>> upstream/18.0
@@ -4668,9 +5815,15 @@ msgid ""
 "(parent_model) and task (model))"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Родительская модель, на которую ссылается псевдоним. Модель, на которую "
 "ссылается псевдоним, не обязательно является моделью, заданной "
 "alias_model_id (пример: проект (родительская_модель) и задача (модель))"
+=======
+"Родительская модель, содержащая псевдоним. Модель, на которую ссылается "
+"псевдоним, не обязательно совпадает с моделью, указанной в alias_model_id "
+"(пример: проект (родительская модель) и задача (модель))."
+>>>>>>> upstream/18.0
 =======
 "Родительская модель, содержащая псевдоним. Модель, на которую ссылается "
 "псевдоним, не обязательно совпадает с моделью, указанной в alias_model_id "
@@ -4681,7 +5834,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_email_update
 msgid "Partner Email will Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Электронная почта партнера будет обновляться"
+=======
+msgstr "Эл. почта партнера будет обновлена"
+>>>>>>> upstream/18.0
 =======
 msgstr "Эл. почта партнера будет обновлена"
 >>>>>>> upstream/18.0
@@ -4690,7 +5847,11 @@ msgstr "Эл. почта партнера будет обновлена"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_phone_update
 msgid "Partner Phone will Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Телефон партнера будет обновляться"
+=======
+msgstr "Телефон партнера будет обновлен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Телефон партнера будет обновлен"
 >>>>>>> upstream/18.0
@@ -4699,7 +5860,11 @@ msgstr "Телефон партнера будет обновлен"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_is_blacklisted
 msgid "Partner is blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Партнер занесен в черный список"
+=======
+msgstr "Партнер в черном списке"
+>>>>>>> upstream/18.0
 =======
 msgstr "Партнер в черном списке"
 >>>>>>> upstream/18.0
@@ -4724,7 +5889,11 @@ msgstr "Качество телефона"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_mobile_search
 msgid "Phone/Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текст над номером в хедере для мобильных"
+=======
+msgstr "Телефон/Мобильный"
+>>>>>>> upstream/18.0
 =======
 msgstr "Телефон/Мобильный"
 >>>>>>> upstream/18.0
@@ -4743,7 +5912,11 @@ msgstr "Телефон:"
 #: model:ir.ui.menu,name:crm.menu_crm_config_lead
 msgid "Pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Воронка продаж"
+=======
+msgstr "Воронка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Воронка"
 >>>>>>> upstream/18.0
@@ -4752,7 +5925,11 @@ msgstr "Воронка"
 #: model:ir.actions.act_window,name:crm.crm_activity_report_action_team
 msgid "Pipeline Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Деятельность Воронки"
+=======
+msgstr "Задачи воронки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задачи воронки"
 >>>>>>> upstream/18.0
@@ -4765,7 +5942,11 @@ msgstr "Задачи воронки"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot
 msgid "Pipeline Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Анализ воронки продаж"
+=======
+msgstr "Анализ воронки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ воронки"
 >>>>>>> upstream/18.0
@@ -4779,7 +5960,11 @@ msgstr "Название плана"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_fields
 msgid "Pls Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поля Pls"
+=======
+msgstr "Поля PLS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поля PLS"
 >>>>>>> upstream/18.0
@@ -4788,7 +5973,11 @@ msgstr "Поля PLS"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_start_date
 msgid "Pls Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата начала"
+=======
+msgstr "Дата начала PLS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата начала PLS"
 >>>>>>> upstream/18.0
@@ -4802,22 +5991,32 @@ msgid ""
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Политика публикации сообщения в документе с помощью mailgateway.\n"
 "- все: все могут отправлять сообщения\n"
 "- партнеры: только аутентифицированные партнеры\n"
 "- последователи: только последователи связанного документа или участники следующих каналов\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Политика отправки сообщений в документ через почтовый шлюз.\n"
 "- все: любой может отправлять\n"
 "- партнеры: только аутентифицированные партнеры\n"
 "- подписчики: только подписчики связанного документа или участники каналов\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_ids
 msgid "Potential Duplicate Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Потенциальный дубликат Лида"
+=======
+msgstr "Потенциальный дубликат лида"
+>>>>>>> upstream/18.0
 =======
 msgstr "Потенциальный дубликат лида"
 >>>>>>> upstream/18.0
@@ -4826,7 +6025,11 @@ msgstr "Потенциальный дубликат лида"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_count
 msgid "Potential Duplicate Lead Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подсчет потенциальных дубликатов Лида"
+=======
+msgstr "Количество потенциальных дубликатов лида"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество потенциальных дубликатов лида"
 >>>>>>> upstream/18.0
@@ -4835,7 +6038,11 @@ msgstr "Количество потенциальных дубликатов л�
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Predictive Lead Scoring"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Предиктивный лид-скоринг"
+=======
+msgstr "Прогнозная оценка лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Прогнозная оценка лидов"
 >>>>>>> upstream/18.0
@@ -4844,7 +6051,11 @@ msgstr "Прогнозная оценка лидов"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_field_labels
 msgid "Predictive Lead Scoring Field Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Маркировка полей для прогнозируемой оценки Лидов "
+=======
+msgstr "Метки полей прогнозной оценки лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Метки полей прогнозной оценки лидов"
 >>>>>>> upstream/18.0
@@ -4853,7 +6064,11 @@ msgstr "Метки полей прогнозной оценки лидов"
 #: model:ir.actions.server,name:crm.website_crm_score_cron_ir_actions_server
 msgid "Predictive Lead Scoring: Recompute Automated Probabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Предиктивный лид-скоринг: Пересчет автоматических вероятностей"
+=======
+msgstr "Прогнозная оценка лидов: пересчет автоматических вероятностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Прогнозная оценка лидов: пересчет автоматических вероятностей"
 >>>>>>> upstream/18.0
@@ -4872,7 +6087,11 @@ msgstr "Приоритет:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__probability
 msgid "Probability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вероятность успеха"
+=======
+msgstr "Вероятность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вероятность"
 >>>>>>> upstream/18.0
@@ -4900,7 +6119,11 @@ msgstr "Свойства"
 #: model:crm.stage,name:crm.stage_lead3
 msgid "Proposition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Послелог"
+=======
+msgstr "Предложение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Предложение"
 >>>>>>> upstream/18.0
@@ -4914,7 +6137,11 @@ msgstr "Пропорциональный MRR"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_prorated
 msgid "Prorated Recurring Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пропорциональные периодические доходы"
+=======
+msgstr "Пропорциональные регулярные доходы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пропорциональные регулярные доходы"
 >>>>>>> upstream/18.0
@@ -4923,7 +6150,11 @@ msgstr "Пропорциональные регулярные доходы"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__prorated_revenue
 msgid "Prorated Revenue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пропорциональная выручка"
+=======
+msgstr "Пропорциональный доход"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пропорциональный доход"
 >>>>>>> upstream/18.0
@@ -4942,7 +6173,11 @@ msgstr "Квалифицированный"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рейтинги"
+=======
+msgstr "Оценки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оценки"
 >>>>>>> upstream/18.0
@@ -4952,7 +6187,11 @@ msgstr "Оценки"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Ready to boost your sales? Let's have a look at your <b>Pipeline</b>."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Готовы увеличить продажи? Давайте посмотрим на вашу <b>Воронку</b>."
+=======
+msgstr "Готовы увеличить продажи? Давайте взглянем на вашу <b>воронку</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Готовы увеличить продажи? Давайте взглянем на вашу <b>воронку</b>."
 >>>>>>> upstream/18.0
@@ -4961,7 +6200,11 @@ msgstr "Готовы увеличить продажи? Давайте взгл�
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_force_thread_id
 msgid "Record Thread ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Номер цепочки записей"
+=======
+msgstr "ID цепочки записи"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID цепочки записи"
 >>>>>>> upstream/18.0
@@ -4970,7 +6213,11 @@ msgstr "ID цепочки записи"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_plan
 msgid "Recurring Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Повторяющийся план"
+=======
+msgstr "Регулярный план"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регулярный план"
 >>>>>>> upstream/18.0
@@ -4980,7 +6227,11 @@ msgstr "Регулярный план"
 #: model:ir.ui.menu,name:crm.crm_recurring_plan_menu_config
 msgid "Recurring Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Повторяющиеся планы"
+=======
+msgstr "Регулярные планы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регулярные планы"
 >>>>>>> upstream/18.0
@@ -4989,7 +6240,11 @@ msgstr "Регулярные планы"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Recurring Revenue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Повторяющийся доход"
+=======
+msgstr "Регулярный доход"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регулярный доход"
 >>>>>>> upstream/18.0
@@ -4999,7 +6254,11 @@ msgstr "Регулярный доход"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__group_use_recurring_revenues
 msgid "Recurring Revenues"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Регулярный доход"
+=======
+msgstr "Регулярные доходы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регулярные доходы"
 >>>>>>> upstream/18.0
@@ -5008,7 +6267,11 @@ msgstr "Регулярные доходы"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__referred
 msgid "Referred By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сослался На"
+=======
+msgstr "Рекомендован"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рекомендован"
 >>>>>>> upstream/18.0
@@ -5017,7 +6280,11 @@ msgstr "Рекомендован"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Referred By:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Направлен:"
+=======
+msgstr "Рекомендован:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рекомендован:"
 >>>>>>> upstream/18.0
@@ -5027,7 +6294,11 @@ msgstr "Рекомендован:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__action
 msgid "Related Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сопутствующий клиент"
+=======
+msgstr "Связанный клиент"
+>>>>>>> upstream/18.0
 =======
 msgstr "Связанный клиент"
 >>>>>>> upstream/18.0
@@ -5048,7 +6319,11 @@ msgstr "Частота повторения должна быть положит
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__auto
 msgid "Repeatedly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Неоднократно"
+=======
+msgstr "Многократно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Многократно"
 >>>>>>> upstream/18.0
@@ -5057,7 +6332,11 @@ msgstr "Многократно"
 #: model:ir.ui.menu,name:crm.crm_menu_report
 msgid "Reporting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отчет"
+=======
+msgstr "Отчеты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отчеты"
 >>>>>>> upstream/18.0
@@ -5072,7 +6351,11 @@ msgstr "Требования"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Reschedule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Назначить заново"
+=======
+msgstr "Перенести"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перенести"
 >>>>>>> upstream/18.0
@@ -5081,7 +6364,11 @@ msgstr "Перенести"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_user_id
 msgid "Responsible User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ответственный пользователь"
+=======
+msgstr "Ответственный"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ответственный"
 >>>>>>> upstream/18.0
@@ -5100,7 +6387,11 @@ msgstr "Ringover VOIP телефон"
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_use_auto_assignment
 msgid "Rule-Based Assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Назначение на основе правил"
+=======
+msgstr "Назначение по правилам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Назначение по правилам"
 >>>>>>> upstream/18.0
@@ -5109,7 +6400,11 @@ msgstr "Назначение по правилам"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Работает"
+=======
+msgstr "Запуск"
+>>>>>>> upstream/18.0
 =======
 msgstr "Запуск"
 >>>>>>> upstream/18.0
@@ -5144,7 +6439,11 @@ msgstr "Команда продаж"
 #: model:ir.model,name:crm.model_crm_team_member
 msgid "Sales Team Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сотрудник отдела продаж"
+=======
+msgstr "Участник команды продаж"
+>>>>>>> upstream/18.0
 =======
 msgstr "Участник команды продаж"
 >>>>>>> upstream/18.0
@@ -5153,7 +6452,11 @@ msgstr "Участник команды продаж"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Sales Team:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отдел продаж:"
+=======
+msgstr "Команда продаж:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Команда продаж:"
 >>>>>>> upstream/18.0
@@ -5175,7 +6478,11 @@ msgstr "Команды продаж"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Salesperson"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продавец"
+=======
+msgstr "Менеджер по продажам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Менеджер по продажам"
 >>>>>>> upstream/18.0
@@ -5184,7 +6491,11 @@ msgstr "Менеджер по продажам"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Salesperson:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продавец:"
+=======
+msgstr "Менеджер по продажам:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Менеджер по продажам:"
 >>>>>>> upstream/18.0
@@ -5193,7 +6504,11 @@ msgstr "Менеджер по продажам:"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__user_ids
 msgid "Salespersons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продавцы"
+=======
+msgstr "Менеджеры по продажам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Менеджеры по продажам"
 >>>>>>> upstream/18.0
@@ -5202,7 +6517,11 @@ msgstr "Менеджеры по продажам"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_sanitized
 msgid "Sanitized Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Санитарный номер"
+=======
+msgstr "Очищенный номер"
+>>>>>>> upstream/18.0
 =======
 msgstr "Очищенный номер"
 >>>>>>> upstream/18.0
@@ -5211,8 +6530,12 @@ msgstr "Очищенный номер"
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Schedule activities to keep track of everything you have to do."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Составьте график мероприятий, чтобы не упустить все, что вам нужно сделать."
+=======
+msgstr "Планируйте задачи, чтобы следить за всеми делами."
+>>>>>>> upstream/18.0
 =======
 msgstr "Планируйте задачи, чтобы следить за всеми делами."
 >>>>>>> upstream/18.0
@@ -5221,7 +6544,11 @@ msgstr "Планируйте задачи, чтобы следить за все
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Search Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поиск Лидов"
+=======
+msgstr "Поиск лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск лидов"
 >>>>>>> upstream/18.0
@@ -5231,7 +6558,11 @@ msgstr "Поиск лидов"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Search Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Возможности поиска"
+=======
+msgstr "Поиск возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поиск возможностей"
 >>>>>>> upstream/18.0
@@ -5241,8 +6572,12 @@ msgstr "Поиск возможностей"
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Выберите как минимум два лида/возможности из списка, чтобы объединить их."
+=======
+msgstr "Выберите минимум два лида/возможности из списка для объединения."
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите минимум два лида/возможности из списка для объединения."
 >>>>>>> upstream/18.0
@@ -5252,7 +6587,11 @@ msgstr "Выберите минимум два лида/возможности �
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
 msgid "Send email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оправить письмо"
+=======
+msgstr "Отправить письмо"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отправить письмо"
 >>>>>>> upstream/18.0
@@ -5262,7 +6601,11 @@ msgstr "Отправить письмо"
 #: model:ir.model.fields,field_description:crm.field_crm_stage__sequence
 msgid "Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последовательность"
+=======
+msgstr "Очередность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Очередность"
 >>>>>>> upstream/18.0
@@ -5274,8 +6617,13 @@ msgid ""
 "periodicity<br>(e.g: Monthly, Yearly)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Установите Повторяющиеся планы на Возможности, чтобы отображать "
 "периодичность продления контрактов<br>(например, Ежемесячно, Ежегодно)."
+=======
+"Установите регулярные планы для возможностей, чтобы отображать периодичность"
+" продления контрактов<br>(например: ежемесячно, ежегодно)."
+>>>>>>> upstream/18.0
 =======
 "Установите регулярные планы для возможностей, чтобы отображать периодичность"
 " продления контрактов<br>(например: ежемесячно, ежегодно)."
@@ -5285,7 +6633,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
 msgid "Set a new stage in your opportunity pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Установите новый этап у вашей потенциальной сделки"
+=======
+msgstr "Установите новый этап в воронке возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Установите новый этап в воронке возможностей"
 >>>>>>> upstream/18.0
@@ -5300,7 +6652,11 @@ msgstr "Настройки"
 #: model:res.groups,name:crm.group_use_lead
 msgid "Show Lead Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Показать меню Лидов"
+=======
+msgstr "Показать меню лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать меню лидов"
 >>>>>>> upstream/18.0
@@ -5309,7 +6665,11 @@ msgstr "Показать меню лидов"
 #: model:res.groups,name:crm.group_use_recurring_revenues
 msgid "Show Recurring Revenues Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Меню \"Показать периодические доходы"
+=======
+msgstr "Показать меню регулярных доходов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать меню регулярных доходов"
 >>>>>>> upstream/18.0
@@ -5321,7 +6681,11 @@ msgstr "Показать меню регулярных доходов"
 msgid "Show all opportunities for which the next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Показать все возможности для которых дата следующего действия до сегодня"
+=======
+"Показать все возможности с датой следующего действия до сегодняшнего дня"
+>>>>>>> upstream/18.0
 =======
 "Показать все возможности с датой следующего действия до сегодняшнего дня"
 >>>>>>> upstream/18.0
@@ -5330,7 +6694,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Показать только Лиды"
+=======
+msgstr "Показать только лид"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать только лид"
 >>>>>>> upstream/18.0
@@ -5339,7 +6707,11 @@ msgstr "Показать только лид"
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Показывать только Лиды"
+=======
+msgstr "Показать только лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать только лиды"
 >>>>>>> upstream/18.0
@@ -5353,7 +6725,11 @@ msgstr "Показать только возможности"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Возможность только для показа"
+=======
+msgstr "Показать только возможность"
+>>>>>>> upstream/18.0
 =======
 msgstr "Показать только возможность"
 >>>>>>> upstream/18.0
@@ -5363,7 +6739,11 @@ msgstr "Показать только возможность"
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_optout
 msgid "Skip auto assignment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пропустить автоматическое назначение"
+=======
+msgstr "Пропустить автоназначение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пропустить автоназначение"
 >>>>>>> upstream/18.0
@@ -5372,7 +6752,11 @@ msgstr "Пропустить автоназначение"
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Snooze 7d"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дремота 7d"
+=======
+msgstr "Отложить на 7 дн."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отложить на 7 дн."
 >>>>>>> upstream/18.0
@@ -5397,8 +6781,13 @@ msgid ""
 "use this stage."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Укажите команду, которая использует этот этап. Другие команды не будут иметь"
 " возможность видеть или использовать этот этап."
+=======
+"Конкретная команда, использующая этот этап. Другие команды не смогут его "
+"видеть или использовать."
+>>>>>>> upstream/18.0
 =======
 "Конкретная команда, использующая этот этап. Другие команды не смогут его "
 "видеть или использовать."
@@ -5420,7 +6809,11 @@ msgstr "Этап"
 #: model:mail.message.subtype,name:crm.mt_lead_stage
 msgid "Stage Changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этап изменён"
+=======
+msgstr "Этап изменен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап изменен"
 >>>>>>> upstream/18.0
@@ -5439,7 +6832,11 @@ msgstr "Поиск этапов"
 #: model:mail.message.subtype,description:crm.mt_lead_stage
 msgid "Stage changed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Стадия изменена"
+=======
+msgstr "Этап изменен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап изменен"
 >>>>>>> upstream/18.0
@@ -5448,7 +6845,11 @@ msgstr "Этап изменен"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Stage:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Стадия:"
+=======
+msgstr "Этап:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап:"
 >>>>>>> upstream/18.0
@@ -5459,7 +6860,11 @@ msgstr "Этап:"
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_tree
 msgid "Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Стадии"
+=======
+msgstr "Этапы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Этапы"
 >>>>>>> upstream/18.0
@@ -5471,8 +6876,13 @@ msgid ""
 "            is positioned in the sales cycle."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Этапы позволяют менеджерам легко отслеживать, как конкретная возможность\n"
 "             позиционируется в цикле продаж."
+=======
+"Этапы помогают менеджерам по продажам отслеживать, на каком этапе цикла продаж\n"
+"            находится конкретная возможность."
+>>>>>>> upstream/18.0
 =======
 "Этапы помогают менеджерам по продажам отслеживать, на каком этапе цикла продаж\n"
 "            находится конкретная возможность."
@@ -5483,7 +6893,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Область"
+=======
+msgstr "Регион"
+>>>>>>> upstream/18.0
 =======
 msgstr "Регион"
 >>>>>>> upstream/18.0
@@ -5497,22 +6911,32 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус, основанный на мероприятии\n"
 "Просроченная: Дата, уже прошла\n"
 "Сегодня: Дата мероприятия сегодня\n"
 "Запланировано: будущая деятельность."
 =======
+=======
+>>>>>>> upstream/18.0
 "Статус на основе задач:\n"
 "Просрочено: срок истек\n"
 "Сегодня: задача на сегодня\n"
 "Запланировано: будущие задачи."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duration_tracking
 msgid "Status time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Время состояния"
+=======
+msgstr "Время статуса"
+>>>>>>> upstream/18.0
 =======
 msgstr "Время статуса"
 >>>>>>> upstream/18.0
@@ -5536,7 +6960,11 @@ msgstr "Улица..."
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street2
 msgid "Street2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Улица2"
+=======
+msgstr "Улица 2"
+>>>>>>> upstream/18.0
 =======
 msgstr "Улица 2"
 >>>>>>> upstream/18.0
@@ -5551,7 +6979,11 @@ msgstr "Тема: "
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__subtype_id
 msgid "Subtype"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sottotipo"
+=======
+msgstr "Подтип"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подтип"
 >>>>>>> upstream/18.0
@@ -5560,7 +6992,11 @@ msgstr "Подтип"
 #: model:ir.model,name:crm.model_ir_config_parameter
 msgid "System Parameter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Параметр Системы"
+=======
+msgstr "Системный параметр"
+>>>>>>> upstream/18.0
 =======
 msgstr "Системный параметр"
 >>>>>>> upstream/18.0
@@ -5592,7 +7028,11 @@ msgstr "Команды"
 #: model:ir.ui.menu,name:crm.crm_team_member_config
 msgid "Teams Members"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Участники команд"
+=======
+msgstr "Члены команд"
+>>>>>>> upstream/18.0
 =======
 msgstr "Члены команд"
 >>>>>>> upstream/18.0
@@ -5604,8 +7044,13 @@ msgid ""
 "                        because they have been contacted less than 30 days ago on"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Приведенные ниже контакты были добавлены в качестве последователей этого лида\n"
 "                        потому что с ними связались менее 30 дней назад на"
+=======
+"Контакты ниже добавлены как подписчики этого лида,\n"
+"                        так как с ними связывались менее 30 дней назад"
+>>>>>>> upstream/18.0
 =======
 "Контакты ниже добавлены как подписчики этого лида,\n"
 "                        так как с ними связывались менее 30 дней назад"
@@ -5618,8 +7063,13 @@ msgid ""
 "automatically create new leads assigned to the channel."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Адрес электронной почты, связанный с этим каналом. Новые полученные "
 "сообщения автоматически создадут новые инициативы, назначенные каналу."
+=======
+"Адрес эл. почты, связанный с каналом. Новые письма автоматически создадут "
+"лиды, назначенные каналу."
+>>>>>>> upstream/18.0
 =======
 "Адрес эл. почты, связанный с каналом. Новые письма автоматически создадут "
 "лиды, назначенные каналу."
@@ -5633,9 +7083,15 @@ msgid ""
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Модель (Вид Документа), которому соответствует этот псевдоним. Любая "
 "входящая электронная почта, которая не отвечает существующей записи, вызовет"
 " создание новогой записи этой модели (например, Задача Проекта)"
+=======
+"Модель (тип документа Odoo), связанная с псевдонимом. Новые письма, не "
+"отвечающие на существующие записи, создадут новую запись этой модели "
+"(например, задачу проекта)."
+>>>>>>> upstream/18.0
 =======
 "Модель (тип документа Odoo), связанная с псевдонимом. Новые письма, не "
 "отвечающие на существующие записи, создадут новую запись этой модели "
@@ -5649,8 +7105,13 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Имя Алиаса Эл.Почты, например, \"jobs\" если вы хотите перехватывать почту "
 "для <jobs@stroyding.ru>"
+=======
+"Имя псевдонима эл. почты, например, 'jobs' для перехвата писем на "
+"<jobs@example.odoo.com>"
+>>>>>>> upstream/18.0
 =======
 "Имя псевдонима эл. почты, например, 'jobs' для перехвата писем на "
 "<jobs@example.odoo.com>"
@@ -5663,8 +7124,13 @@ msgid ""
 " the lead into opportunity"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Название будущей компании-партнера, которая будет создана при конвертации "
 "лида в возможность"
+=======
+"Название будущей компании-партнера, создаваемой при преобразовании лида в "
+"возможность"
+>>>>>>> upstream/18.0
 =======
 "Название будущей компании-партнера, создаваемой при преобразовании лида в "
 "возможность"
@@ -5674,7 +7140,11 @@ msgstr ""
 #: model:ir.model.constraint,message:crm.constraint_crm_recurring_plan_check_number_of_months
 msgid "The number of month can't be negative."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число месяца не может быть отрицательным."
+=======
+msgstr "Количество месяцев не может быть отрицательным."
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество месяцев не может быть отрицательным."
 >>>>>>> upstream/18.0
@@ -5683,7 +7153,11 @@ msgstr "Количество месяцев не может быть отриц�
 #: model:ir.model.constraint,message:crm.constraint_crm_lead_check_probability
 msgid "The probability of closing the deal should be between 0% and 100%!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вероятность заключения сделки должна составлять от 0% aдо 100%!"
+=======
+msgstr "Вероятность закрытия сделки должна быть от 0% до 100%!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вероятность закрытия сделки должна быть от 0% до 100%!"
 >>>>>>> upstream/18.0
@@ -5692,7 +7166,11 @@ msgstr "Вероятность закрытия сделки должна быт
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "The success rate is computed based on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Коэффициент успешности рассчитывается на основе"
+=======
+msgstr "Коэффициент успеха рассчитан на основе"
+>>>>>>> upstream/18.0
 =======
 msgstr "Коэффициент успеха рассчитан на основе"
 >>>>>>> upstream/18.0
@@ -5704,8 +7182,13 @@ msgid ""
 " in the statistical analysis."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Коэффициент успешности рассчитывается на основе этапа, но вы можете добавить"
 " дополнительные поля в статистический анализ."
+=======
+"Коэффициент успеха рассчитан на основе этапа, но можно добавить поля для "
+"анализа."
+>>>>>>> upstream/18.0
 =======
 "Коэффициент успеха рассчитан на основе этапа, но можно добавить поля для "
 "анализа."
@@ -5715,7 +7198,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
 msgid "This analysis shows you how many leads have been created per month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этот анализ показывает, сколько лидов было создано за месяц."
+=======
+msgstr "Анализ показывает количество лидов, созданных за месяц."
+>>>>>>> upstream/18.0
 =======
 msgstr "Анализ показывает количество лидов, созданных за месяц."
 >>>>>>> upstream/18.0
@@ -5725,9 +7212,13 @@ msgstr "Анализ показывает количество лидов, со�
 msgid ""
 "This bar allows to filter the opportunities based on scheduled activities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Эта панель позволяет отфильтровать возможности на основе запланированных "
 "мероприятий."
+=======
+msgstr "Панель позволяет фильтровать возможности по запланированным задачам."
+>>>>>>> upstream/18.0
 =======
 msgstr "Панель позволяет фильтровать возможности по запланированным задачам."
 >>>>>>> upstream/18.0
@@ -5738,9 +7229,13 @@ msgid ""
 "This can be used to automatically assign leads to sales persons based on "
 "rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Это можно использовать для автоматического назначения лидов продавцам на "
 "основе правил"
+=======
+msgstr "Автоматическое назначение лидов менеджерам по правилам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Автоматическое назначение лидов менеджерам по правилам"
 >>>>>>> upstream/18.0
@@ -5749,9 +7244,13 @@ msgstr "Автоматическое назначение лидов менед�
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "This can be used to compute statistical probability to close a lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Это можно использовать для вычисления статистической вероятности закрытия "
 "лида"
+=======
+msgstr "Расчет статистической вероятности закрытия лида"
+>>>>>>> upstream/18.0
 =======
 msgstr "Расчет статистической вероятности закрытия лида"
 >>>>>>> upstream/18.0
@@ -5761,8 +7260,12 @@ msgstr "Расчет статистической вероятности зак�
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Этот адрес электронной почты занесен в черный список для массовых рассылок. "
 "Нажмите, чтобы исключить из черного списка."
+=======
+"Эл. почта в черном списке для массовых рассылок. Нажмите, чтобы убрать."
+>>>>>>> upstream/18.0
 =======
 "Эл. почта в черном списке для массовых рассылок. Нажмите, чтобы убрать."
 >>>>>>> upstream/18.0
@@ -5774,9 +7277,14 @@ msgid ""
 " contain more than strictly an email address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это поле используется для поиска по адресу электронной почты, поскольку "
 "основное поле электронной почты может содержать не только адрес электронной "
 "почты."
+=======
+"Поле для поиска по адресу эл. почты, так как основное поле может содержать "
+"не только адрес."
+>>>>>>> upstream/18.0
 =======
 "Поле для поиска по адресу эл. почты, так как основное поле может содержать "
 "не только адрес."
@@ -5786,7 +7294,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__lang_code
 msgid "This field is used to set/get locales for user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Это поле используется для установки/получения локалий пользователя"
+=======
+msgstr "Поле для установки/получения локалей пользователя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Поле для установки/получения локалей пользователя"
 >>>>>>> upstream/18.0
@@ -5798,8 +7310,13 @@ msgid ""
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это имя помогает вам отслеживать различные усилия кампании, например, "
 "Снижение_Цен, Рождество_Специальный"
+=======
+"Название для отслеживания кампаний, например, 'Осенняя_акция', "
+"'Рождественская_акция'"
+>>>>>>> upstream/18.0
 =======
 "Название для отслеживания кампаний, например, 'Осенняя_акция', "
 "'Рождественская_акция'"
@@ -5809,9 +7326,13 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_lead__medium_id
 msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Это способ доставки, например, открытка, электронная почта или баннерная "
 "реклама"
+=======
+msgstr "Способ доставки, например, открытка, эл. почта или баннер"
+>>>>>>> upstream/18.0
 =======
 msgstr "Способ доставки, например, открытка, эл. почта или баннер"
 >>>>>>> upstream/18.0
@@ -5823,8 +7344,12 @@ msgid ""
 "of email list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это источник ссылки, например, поисковая система, другой домен или название "
 "списка адресов электронной почты."
+=======
+"Источник ссылки, например, поисковик, другой домен или список рассылки"
+>>>>>>> upstream/18.0
 =======
 "Источник ссылки, например, поисковик, другой домен или список рассылки"
 >>>>>>> upstream/18.0
@@ -5834,9 +7359,13 @@ msgstr ""
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Этот номер телефона занесен в черный список для SMS-маркетинга. Нажмите, "
 "чтобы исключить его из черного списка."
+=======
+msgstr "Номер в черном списке для SMS-маркетинга. Нажмите, чтобы убрать."
+>>>>>>> upstream/18.0
 =======
 msgstr "Номер в черном списке для SMS-маркетинга. Нажмите, чтобы убрать."
 >>>>>>> upstream/18.0
@@ -5847,9 +7376,13 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Если на данном этапе нет доступных записей, то он скрыт в отображении "
 "канбан."
+=======
+msgstr "Этап сворачивается в канбане, если на нем нет записей."
+>>>>>>> upstream/18.0
 =======
 msgstr "Этап сворачивается в канбане, если на нем нет записей."
 >>>>>>> upstream/18.0
@@ -5858,7 +7391,11 @@ msgstr "Этап сворачивается в канбане, если на н�
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "This will assign leads to all members. Do you want to proceed?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Это позволит назначить лиды всем участникам. Вы хотите продолжить?"
+=======
+msgstr "Это назначит лиды всем членам команды. Продолжить?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Это назначит лиды всем членам команды. Продолжить?"
 >>>>>>> upstream/18.0
@@ -5868,7 +7405,11 @@ msgstr "Это назначит лиды всем членам команды. �
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Tip: Convert incoming emails into opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: Превратите входящие электронные письма в возможности"
+=======
+msgstr "Совет: Преобразуйте входящие письма в возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Преобразуйте входящие письма в возможности"
 >>>>>>> upstream/18.0
@@ -5878,7 +7419,11 @@ msgstr "Совет: Преобразуйте входящие письма в в
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
 msgid "Tip: Did you know Odoo has built-in lead mining?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: Знаете ли вы, что в Odoo есть встроенная функция поиска лидов?"
+=======
+msgstr "Совет: Знаете ли вы, что в Odoo есть встроенный поиск лидов?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Знаете ли вы, что в Odoo есть встроенный поиск лидов?"
 >>>>>>> upstream/18.0
@@ -5888,7 +7433,11 @@ msgstr "Совет: Знаете ли вы, что в Odoo есть встрое
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid "Tip: Do not waste time recording customers' data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: Не тратьте время на запись данных о клиентах"
+=======
+msgstr "Совет: Не тратьте время на запись данных клиентов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Не тратьте время на запись данных клиентов"
 >>>>>>> upstream/18.0
@@ -5904,7 +7453,11 @@ msgstr "Совет: Определяйте узкие места с первог
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
 msgid "Tip: Manage your pipeline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: Управляйте своей Воронкой продаж"
+=======
+msgstr "Совет: Управляйте воронкой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Управляйте воронкой"
 >>>>>>> upstream/18.0
@@ -5914,9 +7467,13 @@ msgstr "Совет: Управляйте воронкой"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid "Tip: Opportunity win rate is predicted with AI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Совет: Прогнозирование вероятности выигрыша с помощью искусственного "
 "интеллекта"
+=======
+msgstr "Совет: Вероятность выигрыша возможности прогнозируется с помощью ИИ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Вероятность выигрыша возможности прогнозируется с помощью ИИ"
 >>>>>>> upstream/18.0
@@ -5932,7 +7489,11 @@ msgstr "Совет: Превратите прогноз продаж в детс
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid "Tip: Turn a selection of opportunities into a map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: превратите подборку возможностей в карту"
+=======
+msgstr "Совет: Превратите выбор возможностей в карту"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: Превратите выбор возможностей в карту"
 >>>>>>> upstream/18.0
@@ -5951,8 +7512,13 @@ msgid ""
 "of %(max_length)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Чтобы предотвратить потерю данных, Лиды и Возможности можно объединять "
 "только группами по %(max_length)s."
+=======
+"Лиды и возможности объединяются группами по %(max_length)s для "
+"предотвращения потерь."
+>>>>>>> upstream/18.0
 =======
 "Лиды и возможности объединяются группами по %(max_length)s для "
 "предотвращения потерь."
@@ -5964,7 +7530,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Today Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сегодняшние Дела"
+=======
+msgstr "Задачи сегодня"
+>>>>>>> upstream/18.0
 =======
 msgstr "Задачи сегодня"
 >>>>>>> upstream/18.0
@@ -5983,7 +7553,11 @@ msgstr "Отслеживание"
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Trailing 12 months"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "12 месяцев"
+=======
+msgstr "За 12 месяцев"
+>>>>>>> upstream/18.0
 =======
 msgstr "За 12 месяцев"
 >>>>>>> upstream/18.0
@@ -5995,8 +7569,12 @@ msgid ""
 "assignment limit, false otherwise."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "True, если количество назначений лида за месяц превышает максимальный предел"
 " назначений, false - в противном случае."
+=======
+"True, если число назначенных лидов в месяц превышает лимит, иначе false."
+>>>>>>> upstream/18.0
 =======
 "True, если число назначенных лидов в месяц превышает лимит, иначе false."
 >>>>>>> upstream/18.0
@@ -6017,7 +7595,11 @@ msgstr "Тип"
 #: model:ir.model.fields,help:crm.field_crm_activity_report__lead_type
 msgid "Type is used to separate Leads and Opportunities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип используется для разделения Лидов и Возможностей"
+=======
+msgstr "Тип разделяет лиды и возможности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип разделяет лиды и возможности"
 >>>>>>> upstream/18.0
@@ -6026,7 +7608,11 @@ msgstr "Тип разделяет лиды и возможности"
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr "Тип исключающей задачи в записи."
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип исключающей задачи в записи."
 >>>>>>> upstream/18.0
@@ -6040,7 +7626,11 @@ msgstr "Тип:"
 #: model:ir.model,name:crm.model_utm_campaign
 msgid "UTM Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Кампания UTM"
+=======
+msgstr "UTM-кампания"
+>>>>>>> upstream/18.0
 =======
 msgstr "UTM-кампания"
 >>>>>>> upstream/18.0
@@ -6049,7 +7639,11 @@ msgstr "UTM-кампания"
 #: model:ir.model.fields,help:crm.field_crm_lead__user_company_ids
 msgid "UX: Limit to lead company or all if no company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "UX: Ограничить ведущей компанией или всеми, если компании нет"
+=======
+msgstr "UX: Ограничить компанией лида или всеми без компании"
+>>>>>>> upstream/18.0
 =======
 msgstr "UX: Ограничить компанией лида или всеми без компании"
 >>>>>>> upstream/18.0
@@ -6064,7 +7658,11 @@ msgstr "Не назначено"
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Unassigned Lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Неназначенная Инициатива"
+=======
+msgstr "Неназначенный лид"
+>>>>>>> upstream/18.0
 =======
 msgstr "Неназначенный лид"
 >>>>>>> upstream/18.0
@@ -6073,7 +7671,11 @@ msgstr "Неназначенный лид"
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Unassigned Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Неназначенные Инициативы"
+=======
+msgstr "Неназначенные лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Неназначенные лиды"
 >>>>>>> upstream/18.0
@@ -6087,7 +7689,11 @@ msgstr "Непрочитанные сообщения"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_search_forecast
 msgid "Upcoming Closings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ближайшие закрытия"
+=======
+msgstr "Скоро закрытие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Скоро закрытие"
 >>>>>>> upstream/18.0
@@ -6102,7 +7708,11 @@ msgstr "Обновить"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Update Probabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вероятность обновления"
+=======
+msgstr "Обновить вероятности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновить вероятности"
 >>>>>>> upstream/18.0
@@ -6111,7 +7721,11 @@ msgstr "Обновить вероятности"
 #: model:ir.model,name:crm.model_crm_lead_pls_update
 msgid "Update the probabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обновление вероятностей"
+=======
+msgstr "Обновить вероятности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обновить вероятности"
 >>>>>>> upstream/18.0
@@ -6120,7 +7734,11 @@ msgstr "Обновить вероятности"
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__use_leads
 msgid "Use Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Использовать Лиды"
+=======
+msgstr "Использовать лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Использовать лиды"
 >>>>>>> upstream/18.0
@@ -6132,8 +7750,13 @@ msgid ""
 "competitors\")."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Используйте функцию Причины потери лида, чтобы сообщать о причинах упущенных"
 " возможностей (например, \"Уход к конкурентам\")."
+=======
+"Указывайте причины потери, чтобы объяснить, почему упущены возможности "
+"(например, «Перебили цену конкуренты»)."
+>>>>>>> upstream/18.0
 =======
 "Указывайте причины потери, чтобы объяснить, почему упущены возможности "
 "(например, «Перебили цену конкуренты»)."
@@ -6143,7 +7766,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__each_exist_or_create
 msgid "Use existing partner or create"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Используйте существующего партнера или создайте его"
+=======
+msgstr "Использовать существующего партнера или создать"
+>>>>>>> upstream/18.0
 =======
 msgstr "Использовать существующего партнера или создать"
 >>>>>>> upstream/18.0
@@ -6157,15 +7784,21 @@ msgid ""
 "                    prospects you import, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Используйте Лиды если вам нужен дополнительный\n"
 "                 этап до создания Возможности или заказчика. Это может быть\n"
 "                 попавшей к вам визиткой, контактными данными с вашего сайта,\n"
 "                 попавший к вам буклет, и т. п."
 =======
+=======
+>>>>>>> upstream/18.0
 "Используйте лиды для квалификации перед созданием\n"
 "                    возможности или клиента. Это может быть визитка,\n"
 "                    форма с сайта или импортированный список\n"
 "                    неквалифицированных контактов."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
@@ -6178,6 +7811,7 @@ msgid ""
 "new customer in your address book."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Используйте Лиды, если вам нужен шаг квалификации перед созданием "
 "возможности или клиента. Это может быть полученная вами визитная карточка, "
 "заполненная контактная форма на вашем сайте, импортированный вами файл "
@@ -6185,17 +7819,26 @@ msgstr ""
 "может быть преобразован в бизнес-возможность и/или нового клиента в вашей "
 "адресной книге."
 =======
+=======
+>>>>>>> upstream/18.0
 "Используйте лиды для квалификации перед созданием возможности или клиента. "
 "Это может быть визитка, форма с сайта или импортированный список "
 "неквалифицированных контактов. После квалификации лид превращается в бизнес-"
 "возможность и/или нового клиента в адресной книге."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Use the <i>New</i> button, or send an email to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Воспользуйтесь кнопкой \" <i>Создать\"</i> или отправьте письмо по адресу"
+=======
+msgstr "Нажмите кнопку <i>Новый</i> или отправьте письмо на"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нажмите кнопку <i>Новый</i> или отправьте письмо на"
 >>>>>>> upstream/18.0
@@ -6208,8 +7851,13 @@ msgid ""
 "email gateway."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Воспользуйтесь кнопкой <i>\"Создать\"</i> или отправьте письмо на адрес "
 "%(email_link)s, чтобы протестировать почтовый шлюз."
+=======
+"Нажмите кнопку <i>Новый</i> или отправьте письмо на %(email_link)s для "
+"проверки шлюза эл. почты."
+>>>>>>> upstream/18.0
 =======
 "Нажмите кнопку <i>Новый</i> или отправьте письмо на %(email_link)s для "
 "проверки шлюза эл. почты."
@@ -6230,8 +7878,12 @@ msgid ""
 "Use the New button, or configure an email alias to test the email gateway."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Используйте кнопку Новый (Создать) или настройте почтовый псевдоним для "
 "проверки почтового шлюза."
+=======
+"Нажмите кнопку Новый или настройте псевдоним эл. почты для проверки шлюза."
+>>>>>>> upstream/18.0
 =======
 "Нажмите кнопку Новый или настройте псевдоним эл. почты для проверки шлюза."
 >>>>>>> upstream/18.0
@@ -6240,7 +7892,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action
 msgid "Use this menu to have an overview of your Pipeline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Используйте это меню, чтобы получить обзор вашей Воронки."
+=======
+msgstr "Используйте меню для обзора воронки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Используйте меню для обзора воронки."
 >>>>>>> upstream/18.0
@@ -6249,7 +7905,11 @@ msgstr "Используйте меню для обзора воронки."
 #: model:ir.model.fields,help:crm.field_crm_stage__sequence
 msgid "Used to order stages. Lower is better."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Используется для упорядочивания этапов. Меньше - лучше."
+=======
+msgstr "Упорядочивает этапы. Меньше — лучше."
+>>>>>>> upstream/18.0
 =======
 msgstr "Упорядочивает этапы. Меньше — лучше."
 >>>>>>> upstream/18.0
@@ -6263,7 +7923,11 @@ msgstr "Пользователь"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__user_company_ids
 msgid "User Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Компания-пользователь"
+=======
+msgstr "Компания пользователя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Компания пользователя"
 >>>>>>> upstream/18.0
@@ -6282,7 +7946,11 @@ msgstr "Переменная"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__3
 msgid "Very High"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Очень высоко"
+=======
+msgstr "Очень высокий"
+>>>>>>> upstream/18.0
 =======
 msgstr "Очень высокий"
 >>>>>>> upstream/18.0
@@ -6291,7 +7959,11 @@ msgstr "Очень высокий"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Visits to Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Просмотры в Лиды"
+=======
+msgstr "Визиты в лиды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Визиты в лиды"
 >>>>>>> upstream/18.0
@@ -6300,7 +7972,11 @@ msgstr "Визиты в лиды"
 #: model:crm.lost.reason,name:crm.lost_reason_2
 msgid "We don't have people/skills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мы не имеем людей/навыки"
+=======
+msgstr "У нас нет людей/навыков"
+>>>>>>> upstream/18.0
 =======
 msgstr "У нас нет людей/навыков"
 >>>>>>> upstream/18.0
@@ -6314,7 +7990,11 @@ msgstr "Сайт"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Веб-сайт сообщения"
+=======
+msgstr "Сообщения сайта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сообщения сайта"
 >>>>>>> upstream/18.0
@@ -6323,7 +8003,11 @@ msgstr "Сообщения сайта"
 #: model:ir.model.fields,help:crm.field_crm_lead__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История общений с сайта"
+=======
+msgstr "История общения на сайте"
+>>>>>>> upstream/18.0
 =======
 msgstr "История общения на сайте"
 >>>>>>> upstream/18.0
@@ -6332,7 +8016,11 @@ msgstr "История общения на сайте"
 #: model:ir.model.fields,help:crm.field_crm_lead__website
 msgid "Website of the contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Веб-сайт контакта"
+=======
+msgstr "Сайт контакта"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сайт контакта"
 >>>>>>> upstream/18.0
@@ -6346,7 +8034,11 @@ msgstr "Сайт:"
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__weeks
 msgid "Weeks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Недель"
+=======
+msgstr "Недели"
+>>>>>>> upstream/18.0
 =======
 msgstr "Недели"
 >>>>>>> upstream/18.0
@@ -6370,7 +8062,11 @@ msgstr "Что пошло не так?"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Won"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сделка закрыта"
+=======
+msgstr "Выиграно"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выиграно"
 >>>>>>> upstream/18.0
@@ -6379,7 +8075,11 @@ msgstr "Выиграно"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__won_count
 msgid "Won Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество Выигранных"
+=======
+msgstr "Кол-во выигранных"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кол-во выигранных"
 >>>>>>> upstream/18.0
@@ -6388,7 +8088,11 @@ msgstr "Кол-во выигранных"
 #: model:ir.model.fields,field_description:crm.field_res_users__target_sales_won
 msgid "Won in Opportunities Target"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Целевое значение для выигранных сделок"
+=======
+msgstr "Целевое значение для выигранных возможностей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Целевое значение для выигранных возможностей"
 >>>>>>> upstream/18.0
@@ -6398,7 +8102,11 @@ msgstr "Целевое значение для выигранных возмож
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yeah! Deal of the last 7 days for the team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Да! Сделки за последние 7 дней для команды."
+=======
+msgstr "Ура! Сделка за последние 7 дней для команды."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ура! Сделка за последние 7 дней для команды."
 >>>>>>> upstream/18.0
@@ -6419,7 +8127,11 @@ msgstr "Да"
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "You can make your opportunity advance through your pipeline from here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отсюда вы можете продвигать свои возможности по воронке."
+=======
+msgstr "Здесь можно продвигать возможности по воронке."
+>>>>>>> upstream/18.0
 =======
 msgstr "Здесь можно продвигать возможности по воронке."
 >>>>>>> upstream/18.0
@@ -6429,7 +8141,11 @@ msgstr "Здесь можно продвигать возможности по �
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You don't have the access needed to run this cron."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "У вас нет доступа, необходимого для запуска этого cron."
+=======
+msgstr "Нет доступа для запуска этого cron."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нет доступа для запуска этого cron."
 >>>>>>> upstream/18.0
@@ -6439,7 +8155,11 @@ msgstr "Нет доступа для запуска этого cron."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 30 days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вы просто побили личный рекорд за последние 30 дней."
+=======
+msgstr "Вы побили личный рекорд за 30 дней."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы побили личный рекорд за 30 дней."
 >>>>>>> upstream/18.0
@@ -6449,7 +8169,11 @@ msgstr "Вы побили личный рекорд за 30 дней."
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 7 days."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вы просто побили личный рекорд за последние 7 дней."
+=======
+msgstr "Вы побили личный рекорд за 7 дней."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы побили личный рекорд за 7 дней."
 >>>>>>> upstream/18.0
@@ -6462,9 +8186,15 @@ msgid ""
 "                    documents, track all discussions, and much more."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы сможете планировать встречи и телефонные звонки из\n"
 "                    сделок, формировать коммерческие предложения, хранить там связанные \n"
 "                    документы, отслеживать все обсуждения и многое другое."
+=======
+"Из возможностей можно планировать встречи и звонки,\n"
+"                    создавать предложения, прикреплять документы,\n"
+"                    отслеживать обсуждения и многое другое."
+>>>>>>> upstream/18.0
 =======
 "Из возможностей можно планировать встречи и звонки,\n"
 "                    создавать предложения, прикреплять документы,\n"
@@ -6475,7 +8205,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "ZIP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ИНДЕКС"
+=======
+msgstr "Индекс"
+>>>>>>> upstream/18.0
 =======
 msgstr "Индекс"
 >>>>>>> upstream/18.0
@@ -6494,7 +8228,11 @@ msgstr "псевдоним"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"0123456789\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "например, \"0123456789\""
+=======
+msgstr "например, «0123456789»"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, «0123456789»"
 >>>>>>> upstream/18.0
@@ -6504,7 +8242,11 @@ msgstr "например, «0123456789»"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"Monthly\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "например, \"Ежемесячно\""
+=======
+msgstr "например, «Ежемесячно»"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, «Ежемесячно»"
 >>>>>>> upstream/18.0
@@ -6513,7 +8255,11 @@ msgstr "например, «Ежемесячно»"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"email@address.com\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "например, \"email@address.com\""
+=======
+msgstr "например, «email@address.com»"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, «email@address.com»"
 >>>>>>> upstream/18.0
@@ -6528,7 +8274,11 @@ msgstr "например, Переговоры"
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. Product Pricing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "например, ценообразование на продукцию"
+=======
+msgstr "например, Цены на продукт"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, Цены на продукт"
 >>>>>>> upstream/18.0
@@ -6542,7 +8292,11 @@ msgstr "например, Слишком дорого"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. https://www.odoo.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "например https://www.ваш домейн.com"
+=======
+msgstr "например, https://www.odoo.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "например, https://www.odoo.com"
 >>>>>>> upstream/18.0
@@ -6556,7 +8310,11 @@ msgstr "например, mycompany.com"
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "for the leads created as of the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "для лидов, созданных, начиная с"
+=======
+msgstr "для лидов, созданных с"
+>>>>>>> upstream/18.0
 =======
 msgstr "для лидов, созданных с"
 >>>>>>> upstream/18.0
@@ -6565,7 +8323,11 @@ msgstr "для лидов, созданных с"
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "generate opportunities in your pipeline?<br>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "сгенерировать возможность в своей Воронке?<br>"
+=======
+msgstr "создать возможности в воронке?<br>"
+>>>>>>> upstream/18.0
 =======
 msgstr "создать возможности в воронке?<br>"
 >>>>>>> upstream/18.0
@@ -6579,7 +8341,11 @@ msgstr "потерянный"
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_count
 msgid "team_count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "счётчик_команд"
+=======
+msgstr "team_count"
+>>>>>>> upstream/18.0
 =======
 msgstr "team_count"
 >>>>>>> upstream/18.0
@@ -6588,7 +8354,11 @@ msgstr "team_count"
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "to test the email gateway."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "чтобы проверить работу почтового шлюза."
+=======
+msgstr "для проверки шлюза эл. почты."
+>>>>>>> upstream/18.0
 =======
 msgstr "для проверки шлюза эл. почты."
 >>>>>>> upstream/18.0
@@ -6597,9 +8367,13 @@ msgstr "для проверки шлюза эл. почты."
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "to your CRM. This email address is configurable by sales team members."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "в вашу CRM. Этот адрес электронной почты может быть настроен членами отдела "
 "продаж."
+=======
+msgstr "в вашу CRM. Адрес эл. почты настраивается командой продаж."
+>>>>>>> upstream/18.0
 =======
 msgstr "в вашу CRM. Адрес эл. почты настраивается командой продаж."
 >>>>>>> upstream/18.0

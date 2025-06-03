@@ -550,12 +550,15 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for x in self.options['addons_path'].split(','))
 
         self.options["upgrade_path"] = (
             ",".join(self._normalize(x)
                 for x in self.options['upgrade_path'].split(','))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -569,6 +572,9 @@ class configmanager(object):
                 if x.strip())
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -582,7 +588,12 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for x in self.options['pre_upgrade_scripts'].split(','))
+=======
+                for x in self.options['pre_upgrade_scripts'].split(',')
+                if x.strip())
+>>>>>>> upstream/18.0
 =======
                 for x in self.options['pre_upgrade_scripts'].split(',')
                 if x.strip())

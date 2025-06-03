@@ -37,6 +37,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -176,7 +180,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -297,6 +305,11 @@ msgid ""
 " %(date_end)s at %(time_end)s (%(timezone)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(date_start)s ob%(time_start)s do\n"
+" %(date_end)s ob%(time_end)s (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 "%(date_start)s ob%(time_start)s do\n"
 " %(date_end)s ob%(time_end)s (%(timezone)s)"
@@ -307,7 +320,11 @@ msgstr ""
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(day)s ob (%(start)s do%(end)s) (%(timezone)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(day)s ob (%(start)s do%(end)s) (%(timezone)s)"
 >>>>>>> upstream/18.0
@@ -739,6 +756,11 @@ msgid ""
 "title=\"Meetings\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" "
+"title=\"Meetings\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-calendar me-1\" aria-label=\"Meetings\" role=\"img\" "
 "title=\"Meetings\"/>"
@@ -748,7 +770,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-plus\"/> <span>Odoo meeting</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/> <span>Odoo srečanje</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus\"/> <span>Odoo srečanje</span>"
 >>>>>>> upstream/18.0
@@ -757,7 +783,11 @@ msgstr "<span class=\"fa fa-plus\"/> <span>Odoo srečanje</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/><span> Odoo srečanje</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus\"/><span> Odoo srečanje</span>"
 >>>>>>> upstream/18.0
@@ -767,7 +797,11 @@ msgstr "<span class=\"fa fa-plus\"/><span> Odoo srečanje</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-times\"/><span> Počisti sestanek</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-times\"/><span> Počisti sestanek</span>"
 >>>>>>> upstream/18.0
@@ -780,6 +814,12 @@ msgid ""
 "'weekly')\">Repeat on</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">Ponovi naprej</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
@@ -790,7 +830,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Google Calendar</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">Google Koledar</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1 o_form_label\">Google Koledar</span>"
 >>>>>>> upstream/18.0
@@ -799,7 +843,11 @@ msgstr "<span class=\"me-1 o_form_label\">Google Koledar</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Outlook Calendar</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">Outlook Koledar</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"me-1 o_form_label\">Outlook Koledar</span>"
 >>>>>>> upstream/18.0
@@ -809,7 +857,11 @@ msgstr "<span class=\"me-1 o_form_label\">Outlook Koledar</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"oi oi-arrow-right\"/><span> Join video call</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oi oi-arrow-right\"/><span> Pridruži se video klicu</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oi oi-arrow-right\"/><span> Pridruži se video klicu</span>"
 >>>>>>> upstream/18.0
@@ -818,7 +870,11 @@ msgstr "<span class=\"oi oi-arrow-right\"/><span> Pridruži se video klicu</span
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span invisible=\"allday\" style=\"white-space: pre;\"> or </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> ali </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> ali </span>"
 >>>>>>> upstream/18.0
@@ -827,7 +883,11 @@ msgstr "<span invisible=\"allday\" style=\"white-space: pre;\"> ali </span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> Attendees</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> Udeleženci </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> Udeleženci </span>"
 >>>>>>> upstream/18.0
@@ -848,7 +908,11 @@ msgstr ""
 #: model:ir.model.constraint,message:calendar.constraint_calendar_filters_user_id_partner_id_unique
 msgid "A user cannot have the same contact twice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabnik ne more imeti istega stika dvakrat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabnik ne more imeti istega stika dvakrat."
 >>>>>>> upstream/18.0
@@ -862,7 +926,11 @@ msgstr "Sprejmi"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__accepted_count
 msgid "Accepted Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprejeto število"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprejeto število"
 >>>>>>> upstream/18.0
@@ -902,6 +970,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dejanja lahko sprožijo določeno vedenje, kot je odpiranje koledarskega "
+"pogleda ali samodejno označevanje kot dokončano, ko je dokument naložen"
+>>>>>>> upstream/18.0
 =======
 "Dejanja lahko sprožijo določeno vedenje, kot je odpiranje koledarskega "
 "pogleda ali samodejno označevanje kot dokončano, ko je dokument naložen"
@@ -999,7 +1072,11 @@ msgstr "Aktivnost"
 #: model:ir.model,name:calendar.model_mail_activity_mixin
 msgid "Activity Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mešanje aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mešanje aktivnosti"
 >>>>>>> upstream/18.0
@@ -1013,7 +1090,11 @@ msgstr "Tip aktivnosti"
 #: model:ir.model,name:calendar.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za načrtovanje urnika dejavnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za načrtovanje urnika dejavnosti"
 >>>>>>> upstream/18.0
@@ -1022,7 +1103,11 @@ msgstr "Čarovnik za načrtovanje urnika dejavnosti"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add attendees..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj udeležence ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj udeležence ..."
 >>>>>>> upstream/18.0
@@ -1031,7 +1116,11 @@ msgstr "Dodaj udeležence ..."
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Add description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj opis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj opis"
 >>>>>>> upstream/18.0
@@ -1040,7 +1129,11 @@ msgstr "Dodaj opis"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj naslov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj naslov"
 >>>>>>> upstream/18.0
@@ -1055,7 +1148,11 @@ msgstr "Dodatno sporočilo"
 msgid ""
 "Additional message that would be sent with the notification for the reminder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatno sporočilo, ki bi bilo poslano z obvestilom za opomnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatno sporočilo, ki bi bilo poslano z obvestilom za opomnik"
 >>>>>>> upstream/18.0
@@ -1106,7 +1203,11 @@ msgstr "Udeleženci"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendees_count
 msgid "Attendees Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število udeležencev"
 >>>>>>> upstream/18.0
@@ -1115,7 +1216,11 @@ msgstr "Število udeležencev"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_status
 msgid "Attending?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se udeležujete?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se udeležujete?"
 >>>>>>> upstream/18.0
@@ -1135,7 +1240,11 @@ msgstr "Razpoložljivo/Zasedeno"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__awaiting_count
 msgid "Awaiting Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čakajoče štetje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čakajoče štetje"
 >>>>>>> upstream/18.0
@@ -1165,7 +1274,11 @@ msgstr "Po dnevih"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "Bye-bye, record!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adijo, ta zapis!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adijo, ta zapis!"
 >>>>>>> upstream/18.0
@@ -1199,7 +1312,11 @@ msgstr "Informacije o udeležencih koledarja"
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_form_view_calendar_default_privacy
 msgid "Calendar Default Privacy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeta zasebnost koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privzeta zasebnost koledarja"
 >>>>>>> upstream/18.0
@@ -1215,7 +1332,11 @@ msgstr "Dogodek v koledarju"
 #: model:ir.model,name:calendar.model_calendar_filters
 msgid "Calendar Filters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtri koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtri koledarja"
 >>>>>>> upstream/18.0
@@ -1234,7 +1355,11 @@ msgstr "Koledarski sestanek"
 #: model:ir.model,name:calendar.model_calendar_popover_delete_wizard
 msgid "Calendar Popover Delete Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za brisanje koledarja Popover"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za brisanje koledarja Popover"
 >>>>>>> upstream/18.0
@@ -1243,7 +1368,11 @@ msgstr "Čarovnik za brisanje koledarja Popover"
 #: model:ir.model,name:calendar.model_calendar_provider_config
 msgid "Calendar Provider Configuration Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarovnik za konfiguracijo ponudnika koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarovnik za konfiguracijo ponudnika koledarja"
 >>>>>>> upstream/18.0
@@ -1252,7 +1381,11 @@ msgstr "Čarovnik za konfiguracijo ponudnika koledarja"
 #: model_terms:ir.ui.view,arch_db:calendar.res_config_settings_view_form
 msgid "Calendar Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitve koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitve koledarja"
 >>>>>>> upstream/18.0
@@ -1261,7 +1394,11 @@ msgstr "Nastavitve koledarja"
 #: model:mail.template,name:calendar.calendar_template_meeting_changedate
 msgid "Calendar: Date Updated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koledar: Datum posodobitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koledar: Datum posodobitve"
 >>>>>>> upstream/18.0
@@ -1280,7 +1417,11 @@ msgstr "Koledar: Posodobitev dogodkov"
 #: model:mail.template,name:calendar.calendar_template_meeting_invitation
 msgid "Calendar: Meeting Invitation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koledar: Vabilo na sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koledar: Vabilo na sestanek"
 >>>>>>> upstream/18.0
@@ -1303,6 +1444,11 @@ msgid ""
 "        the event (only if the organizer is not the only attendee)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preverite, ali je organizator sam v dogodku, tj. ali je organizator edini, ki ni zavrnil\n"
+"        dogodek (le če organizator ni edini udeleženec)"
+>>>>>>> upstream/18.0
 =======
 "Preverite, ali je organizator sam v dogodku, tj. ali je organizator edini, ki ni zavrnil\n"
 "        dogodek (le če organizator ni edini udeleženec)"
@@ -1325,6 +1471,11 @@ msgid ""
 "is not allowed when dates or time is modified"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izberite, kaj želite storiti z drugimi dogodki v ponavljanju. Posodabljanje "
+"vseh dogodkov ni dovoljeno, ko so datumi ali čas spremenjeni."
+>>>>>>> upstream/18.0
 =======
 "Izberite, kaj želite storiti z drugimi dogodki v ponavljanju. Posodabljanje "
 "vseh dogodkov ni dovoljeno, ko so datumi ali čas spremenjeni."
@@ -1417,7 +1568,11 @@ msgstr "Ustvarjeno"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__current_attendee
 msgid "Current Attendee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutni udeleženec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutni udeleženec"
 >>>>>>> upstream/18.0
@@ -1478,7 +1633,11 @@ msgstr "Zavrni"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__declined_count
 msgid "Declined Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavrnjeno število"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavrnjeno število"
 >>>>>>> upstream/18.0
@@ -1492,7 +1651,11 @@ msgstr "Privzeto"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Default Privacy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeta zasebnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privzeta zasebnost"
 >>>>>>> upstream/18.0
@@ -1502,6 +1665,10 @@ msgstr "Privzeta zasebnost"
 msgid "Default privacy setting for whom the calendar events will be visible."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Privzeta nastavitev zasebnosti, ki jo bo imelo mogoče videti v koledarju."
+>>>>>>> upstream/18.0
 =======
 "Privzeta nastavitev zasebnosti, ki jo bo imelo mogoče videti v koledarju."
 >>>>>>> upstream/18.0
@@ -1518,7 +1685,11 @@ msgstr "Izbriši"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 msgid "Delete Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši dogodek"
 >>>>>>> upstream/18.0
@@ -1527,7 +1698,11 @@ msgstr "Izbriši dogodek"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__all
 msgid "Delete all the events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši vse dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši vse dogodke"
 >>>>>>> upstream/18.0
@@ -1536,7 +1711,11 @@ msgstr "Izbriši vse dogodke"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__next
 msgid "Delete this and following events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši ta in naslednje dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši ta in naslednje dogodke"
 >>>>>>> upstream/18.0
@@ -1545,7 +1724,11 @@ msgstr "Izbriši ta in naslednje dogodke"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__one
 msgid "Delete this event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši ta dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši ta dogodek"
 >>>>>>> upstream/18.0
@@ -1554,7 +1737,11 @@ msgstr "Izbriši ta dogodek"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Describe your meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opišite svoj sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opišite svoj sestanek"
 >>>>>>> upstream/18.0
@@ -1580,7 +1767,11 @@ msgstr "Razprave"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_channel_id
 msgid "Discuss Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razprava o kanalu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razprava o kanalu"
 >>>>>>> upstream/18.0
@@ -1621,7 +1812,11 @@ msgstr "Naziv modela dokumenta"
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__dtstart
 msgid "Dtstart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek Dt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Začetek Dt"
 >>>>>>> upstream/18.0
@@ -1641,7 +1836,11 @@ msgstr "Trajanje v minutah"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "EMAIL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EMAIL"
+>>>>>>> upstream/18.0
 =======
 msgstr "EMAIL"
 >>>>>>> upstream/18.0
@@ -1651,7 +1850,11 @@ msgstr "EMAIL"
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Edit Recurrent event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urejanje ponavljajočega se dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urejanje ponavljajočega se dogodka"
 >>>>>>> upstream/18.0
@@ -1671,7 +1874,11 @@ msgstr "E-pošta"
 #: model:calendar.alarm,name:calendar.alarm_mail_1
 msgid "Email - 3 Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-pošta - 3 ure"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-pošta - 3 ure"
 >>>>>>> upstream/18.0
@@ -1680,7 +1887,11 @@ msgstr "E-pošta - 3 ure"
 #: model:calendar.alarm,name:calendar.alarm_mail_2
 msgid "Email - 6 Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-pošta - 6 ur"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-pošta - 6 ur"
 >>>>>>> upstream/18.0
@@ -1734,7 +1945,11 @@ msgid "Event Alarm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alarm za dogodek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alarm za dogodek"
 >>>>>>> upstream/18.0
@@ -1797,7 +2012,11 @@ msgstr "Alarm za dogodek"
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
 msgid "Event Alarm Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravitelj alarmov dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravitelj alarmov dogodkov"
 >>>>>>> upstream/18.0
@@ -1806,7 +2025,11 @@ msgstr "Upravitelj alarmov dogodkov"
 #: model:ir.model,name:calendar.model_calendar_event_type
 msgid "Event Meeting Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta dogodka in sestanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta dogodka in sestanka"
 >>>>>>> upstream/18.0
@@ -1936,7 +2159,11 @@ msgstr "Najprej določite datum povabila."
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__follow_recurrence
 msgid "Follow Recurrence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledi ponavljanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledi ponavljanju"
 >>>>>>> upstream/18.0
@@ -1986,7 +2213,11 @@ msgstr "Petek"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__google
 msgid "Google"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google"
 >>>>>>> upstream/18.0
@@ -2000,7 +2231,11 @@ msgstr "Google koledar"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Google Calendar icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Ikona koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Ikona koledarja"
 >>>>>>> upstream/18.0
@@ -2009,7 +2244,11 @@ msgstr "Google Ikona koledarja"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_id
 msgid "Google Client_id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Client_id"
 >>>>>>> upstream/18.0
@@ -2018,7 +2257,11 @@ msgstr "Google Client_id"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_secret
 msgid "Google Client_key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Client_key"
 >>>>>>> upstream/18.0
@@ -2027,7 +2270,11 @@ msgstr "Google Client_key"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_sync_paused
 msgid "Google Synchronization Paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Sinhronizacija začasno ustavljena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Sinhronizacija začasno ustavljena"
 >>>>>>> upstream/18.0
@@ -2090,6 +2337,11 @@ msgid ""
 " If the event is shown as 'free', other users know         that you are available during that period of time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Če je čas prikazan kot »zaseden«, bo ta dogodek viden drugim osebam s polno         informacijami ali preprosto napisano »zasedeno«, odvisno od zasebnosti. Uporabite to možnost, da obvestite druge ljudi         da v tem obdobju niste dosegljivi.\n"
+" Če je dogodek prikazan kot »brezplačen«, drugi uporabniki to vedo,         da ste v tem obdobju na voljo."
+>>>>>>> upstream/18.0
 =======
 "Če je čas prikazan kot »zaseden«, bo ta dogodek viden drugim osebam s polno         informacijami ali preprosto napisano »zasedeno«, odvisno od zasebnosti. Uporabite to možnost, da obvestite druge ljudi         da v tem obdobju niste dosegljivi.\n"
 " Če je dogodek prikazan kot »brezplačen«, drugi uporabniki to vedo,         da ste v tem obdobju na voljo."
@@ -2125,7 +2377,11 @@ msgstr "Podrobnosti povabila"
 #: model:mail.template,description:calendar.calendar_template_meeting_invitation
 msgid "Invitation email to new attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vabilo novim udeležencem po e-pošti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vabilo novim udeležencem po e-pošti"
 >>>>>>> upstream/18.0
@@ -2157,7 +2413,11 @@ msgid "Invitation to {{ object.event_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabilo k {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabilo k {{ object.event_id.name }}"
 >>>>>>> upstream/18.0
@@ -2235,7 +2495,11 @@ msgstr "Ali je dogodek izpostavljen"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_organizer_alone
 msgid "Is the Organizer Alone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je organizator sam"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je organizator sam"
 >>>>>>> upstream/18.0
@@ -2304,7 +2568,11 @@ msgstr "Logotip"
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__mail_tz
 msgid "Mail Tz"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošta Tz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošta Tz"
 >>>>>>> upstream/18.0
@@ -2315,7 +2583,11 @@ msgstr "Pošta Tz"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__tentative
 msgid "Maybe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mogoče"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mogoče"
 >>>>>>> upstream/18.0
@@ -2347,7 +2619,11 @@ msgstr "Tipi sestankov"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_location
 msgid "Meeting URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sestanek URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sestanek URL"
 >>>>>>> upstream/18.0
@@ -2383,7 +2659,11 @@ msgstr "Sporočila"
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Microsoft Outlook icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Microsoft Outlook ikona"
+>>>>>>> upstream/18.0
 =======
 msgstr "Microsoft Outlook ikona"
 >>>>>>> upstream/18.0
@@ -2431,7 +2711,11 @@ msgstr "Meseci"
 #: code:addons/calendar/static/src/views/calendar_form/calendar_quick_create.xml:0
 msgid "More Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Več možnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Več možnosti"
 >>>>>>> upstream/18.0
@@ -2482,7 +2766,11 @@ msgstr "Ne pridem."
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No feedback yet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Še ni povratnih informacij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Še ni povratnih informacij"
 >>>>>>> upstream/18.0
@@ -2491,7 +2779,11 @@ msgstr "Še ni povratnih informacij"
 #: model_terms:ir.actions.act_window,help:calendar.action_calendar_event
 msgid "No meetings found. Let's schedule one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenih sestankov. Načrtujmo enega!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenih sestankov. Načrtujmo enega!"
 >>>>>>> upstream/18.0
@@ -2501,7 +2793,11 @@ msgstr "Ni najdenih sestankov. Načrtujmo enega!"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "No, keep it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne, obdrži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne, obdrži"
 >>>>>>> upstream/18.0
@@ -2558,7 +2854,11 @@ msgid "Notifications sent to all attendees to remind of the meeting."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obvestila, poslana vsem udeležencem, da jih opomnijo na sestanek."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obvestila, poslana vsem udeležencem, da jih opomnijo na sestanek."
 >>>>>>> upstream/18.0
@@ -2676,7 +2976,11 @@ msgid "Online Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spletni sestanek"
 >>>>>>> upstream/18.0
@@ -2739,7 +3043,11 @@ msgstr "Spletni sestanek"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Only Internal Users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo interni uporabniki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo interni uporabniki"
 >>>>>>> upstream/18.0
@@ -2792,7 +3100,11 @@ msgid "Outlook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook"
 >>>>>>> upstream/18.0
@@ -2858,7 +3170,11 @@ msgid "Outlook Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlookov koledar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlookov koledar"
 >>>>>>> upstream/18.0
@@ -2876,7 +3192,11 @@ msgstr "Outlookov koledar"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_identifier
 msgid "Outlook Client Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook Client Id"
 >>>>>>> upstream/18.0
@@ -2885,7 +3205,11 @@ msgstr "Outlook Client Id"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_secret
 msgid "Outlook Client Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Skrivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook Client Skrivnost"
 >>>>>>> upstream/18.0
@@ -2894,7 +3218,11 @@ msgstr "Outlook Client Skrivnost"
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_sync_paused
 msgid "Outlook Synchronization Paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Synchronization Zaustavljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook Synchronization Zaustavljeno"
 >>>>>>> upstream/18.0
@@ -2913,7 +3241,11 @@ msgstr "Podatki uporabnika v povezavi s partnerjem"
 #: model:ir.model.fields,help:calendar.field_calendar_event__privacy
 msgid "People to whom this event will be visible."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osebe, ki jim bo ta dogodek viden."
+>>>>>>> upstream/18.0
 =======
 msgstr "Osebe, ki jim bo ta dogodek viden."
 >>>>>>> upstream/18.0
@@ -2996,7 +3328,11 @@ msgstr "Ponovi"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__interval
 msgid "Repeat On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljanje vklopljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljanje vklopljeno"
 >>>>>>> upstream/18.0
@@ -3058,7 +3394,11 @@ msgstr "Sobota"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__partner_id
 msgid "Scheduled by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtoval/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Načrtoval/a"
 >>>>>>> upstream/18.0
@@ -3070,7 +3410,11 @@ msgid ""
 "Scheduling an activity using the calendar is not possible on more than one "
 "record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtovanje dejavnosti s koledarjem ni mogoče za več kot en zapis."
+>>>>>>> upstream/18.0
 =======
 msgstr "Načrtovanje dejavnosti s koledarjem ni mogoče za več kot en zapis."
 >>>>>>> upstream/18.0
@@ -3095,7 +3439,11 @@ msgstr "Izberite udeležence..."
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Email to attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji e-pošto udeležencem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošlji e-pošto udeležencem"
 >>>>>>> upstream/18.0
@@ -3114,7 +3462,11 @@ msgstr "Pošlji pošto"
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder
 msgid "Sent to all attendees if a reminder is set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sent to all attendees if a reminder is setPošlji in izbriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sent to all attendees if a reminder is setPošlji in izbriši"
 >>>>>>> upstream/18.0
@@ -3123,7 +3475,11 @@ msgstr "Sent to all attendees if a reminder is setPošlji in izbriši"
 #: model:mail.template,description:calendar.calendar_template_meeting_changedate
 msgid "Sent to all attendees if the schedule change"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano vsem udeležencem, če se urnik spremeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslano vsem udeležencem, če se urnik spremeni"
 >>>>>>> upstream/18.0
@@ -3138,7 +3494,11 @@ msgstr "Nastavitve"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__should_show_status
 msgid "Should Show Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži stanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži stanje"
 >>>>>>> upstream/18.0
@@ -3199,7 +3559,11 @@ msgid "Status:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje:"
 >>>>>>> upstream/18.0
@@ -3275,7 +3639,11 @@ msgstr ""
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Stop synchro"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustavi sinhronizacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustavi sinhronizacijo"
 >>>>>>> upstream/18.0
@@ -3307,7 +3675,11 @@ msgstr "Nedelja"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchro is paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhronizacija je zaustavljena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhronizacija je zaustavljena"
 >>>>>>> upstream/18.0
@@ -3317,7 +3689,11 @@ msgstr "Sinhronizacija je zaustavljena"
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhroniziraj z"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhroniziraj z"
 >>>>>>> upstream/18.0
@@ -3370,7 +3746,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -3480,7 +3860,11 @@ msgstr "Ključne besede"
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__mail_template_id
 msgid "Template used to render mail reminder content."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga, ki se uporablja za upodabljanje vsebine opomnika po pošti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Predloga, ki se uporablja za upodabljanje vsebine opomnika po pošti."
 >>>>>>> upstream/18.0
@@ -3489,7 +3873,11 @@ msgstr "Predloga, ki se uporablja za upodabljanje vsebine opomnika po pošti."
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Tentative"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okvirno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okvirno"
 >>>>>>> upstream/18.0
@@ -3498,7 +3886,11 @@ msgstr "Okvirno"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__tentative_count
 msgid "Tentative Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okvirno štetje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okvirno štetje"
 >>>>>>> upstream/18.0
@@ -3516,6 +3908,12 @@ msgid ""
 "            opportunities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koledar si zaposleni delijo in je popolnoma integriran z\n"
+"            drugimi aplikacijami, kot so odhodi zaposlenih ali priložnosti\n"
+"            podjetja."
+>>>>>>> upstream/18.0
 =======
 "Koledar si zaposleni delijo in je popolnoma integriran z\n"
 "            drugimi aplikacijami, kot so odhodi zaposlenih ali priložnosti\n"
@@ -3535,6 +3933,11 @@ msgid ""
 "Meeting “%(name)s” starts at %(start_time)s and ends at %(end_time)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Končni datum in ura ne smeta biti pred začetnim datumom in uro.\n"
+"Sestanek “%(name)s” se začne %(start_time)s in konča ob %(end_time)s"
+>>>>>>> upstream/18.0
 =======
 "Končni datum in ura ne smeta biti pred začetnim datumom in uro.\n"
 "Sestanek “%(name)s” se začne %(start_time)s in konča ob %(end_time)s"
@@ -3548,6 +3951,11 @@ msgid ""
 "Meeting “%(name)s” starts on %(start_date)s and ends on %(end_date)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Končni datum ne more biti pred začetnim datumom.\n"
+"Sestanek “%(name)s” se začne %(start_date)s in konča ob %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 "Končni datum ne more biti pred začetnim datumom.\n"
 "Sestanek “%(name)s” se začne %(start_date)s in konča ob %(end_date)s"
@@ -3558,7 +3966,11 @@ msgstr ""
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The interval cannot be negative."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interval ne more biti negativen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Interval ne more biti negativen."
 >>>>>>> upstream/18.0
@@ -3568,7 +3980,11 @@ msgstr "Interval ne more biti negativen."
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The number of repetitions cannot be negative."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število ponovitev ne sme biti negativno."
+>>>>>>> upstream/18.0
 =======
 msgstr "Število ponovitev ne sme biti negativno."
 >>>>>>> upstream/18.0
@@ -3578,7 +3994,11 @@ msgstr "Število ponovitev ne sme biti negativno."
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na teh dogodkih ni udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na teh dogodkih ni udeležencev"
 >>>>>>> upstream/18.0
@@ -3595,7 +4015,11 @@ msgstr "Tretji"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__future_events
 msgid "This and following events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta in naslednji dogodki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta in naslednji dogodki"
 >>>>>>> upstream/18.0
@@ -3629,7 +4053,11 @@ msgstr "Časovni pas"
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__mail_tz
 msgid "Timezone used for displaying time in the mail template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Časovni pas, ki se uporablja za prikaz časa v predlogi e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Časovni pas, ki se uporablja za prikaz časa v predlogi e-pošte"
 >>>>>>> upstream/18.0
@@ -3667,7 +4095,11 @@ msgstr "Tip"
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Unable to save the recurrence with \"This Event\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponavljanja s »tem dogodkom« ni mogoče shraniti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponavljanja s »tem dogodkom« ni mogoče shraniti"
 >>>>>>> upstream/18.0
@@ -3692,7 +4124,11 @@ msgstr "Do"
 #: model:mail.template,description:calendar.calendar_template_meeting_update
 msgid "Used to manually notifiy attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporablja se za ročno obveščanje udeležencev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporablja se za ročno obveščanje udeležencev"
 >>>>>>> upstream/18.0
@@ -3706,7 +4142,11 @@ msgstr "Uporabnik"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__user_can_edit
 msgid "User Can Edit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabnik lahko ureja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabnik lahko ureja"
 >>>>>>> upstream/18.0
@@ -3718,7 +4158,11 @@ msgid "User Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabniške nastavitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabniške nastavitve"
 >>>>>>> upstream/18.0
@@ -3736,7 +4180,11 @@ msgstr "Uporabniške nastavitve"
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_source
 msgid "Videocall Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vir videoklica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vir videoklica"
 >>>>>>> upstream/18.0
@@ -3746,7 +4194,11 @@ msgstr "Vir videoklica"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videoklic URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Videoklic URL"
 >>>>>>> upstream/18.0
@@ -3817,6 +4269,11 @@ msgid ""
 "due to privacy constraints."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaradi omejitev zasebnosti ne smete spreminjati privzetih nastavitev "
+"zasebnosti koledarja drugega uporabnika."
+>>>>>>> upstream/18.0
 =======
 "Zaradi omejitev zasebnosti ne smete spreminjati privzetih nastavitev "
 "zasebnosti koledarja drugega uporabnika."
@@ -3845,7 +4302,11 @@ msgstr "Izbrati morate vsaj en dan v tednu."
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_renderer.xml:0
 msgid "You're alone in this meeting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na tem sestanku si sam/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na tem sestanku si sam/a"
 >>>>>>> upstream/18.0
@@ -3855,7 +4316,11 @@ msgstr "Na tem sestanku si sam/a"
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sprejeto"
+>>>>>>> upstream/18.0
 =======
 msgstr "sprejeto"
 >>>>>>> upstream/18.0
@@ -3865,7 +4330,11 @@ msgstr "sprejeto"
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "udeleženci"
+>>>>>>> upstream/18.0
 =======
 msgstr "udeleženci"
 >>>>>>> upstream/18.0
@@ -3874,7 +4343,11 @@ msgstr "udeleženci"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "awaiting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "čaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "čaka"
 >>>>>>> upstream/18.0
@@ -3884,7 +4357,11 @@ msgstr "čaka"
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "declined"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zavrnjeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "zavrnjeno"
 >>>>>>> upstream/18.0
@@ -3898,7 +4375,11 @@ msgstr "npr. Poslovno srečanje"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "e.g: 12/31/2023"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr.: 31/12/2024"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr.: 31/12/2024"
 >>>>>>> upstream/18.0
@@ -3907,7 +4388,11 @@ msgstr "npr.: 31/12/2024"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "maybe,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mogoče,"
+>>>>>>> upstream/18.0
 =======
 msgstr "mogoče,"
 >>>>>>> upstream/18.0
@@ -3917,7 +4402,11 @@ msgstr "mogoče,"
 #: code:addons/calendar/static/src/views/fields/attendee_tags_list.xml:0
 msgid "no email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "brez e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "brez e-pošte"
 >>>>>>> upstream/18.0
@@ -3926,7 +4415,11 @@ msgstr "brez e-pošte"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "no,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "brez,"
+>>>>>>> upstream/18.0
 =======
 msgstr "brez,"
 >>>>>>> upstream/18.0
@@ -3936,7 +4429,11 @@ msgstr "brez,"
 #: code:addons/calendar/static/src/views/fields/many2many_attendee.xml:0
 msgid "props.placeholder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "props.placeholder"
+>>>>>>> upstream/18.0
 =======
 msgstr "props.placeholder"
 >>>>>>> upstream/18.0
@@ -3946,7 +4443,11 @@ msgstr "props.placeholder"
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "uncertain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "negotov"
+>>>>>>> upstream/18.0
 =======
 msgstr "negotov"
 >>>>>>> upstream/18.0
@@ -3955,7 +4456,11 @@ msgstr "negotov"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "yes,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "da,"
+>>>>>>> upstream/18.0
 =======
 msgstr "da,"
 >>>>>>> upstream/18.0
@@ -3964,7 +4469,11 @@ msgstr "da,"
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder
 msgid "{{ object.event_id.name }} - Reminder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} - Opomnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }} - Opomnik"
 >>>>>>> upstream/18.0
@@ -3973,7 +4482,11 @@ msgstr "{{ object.event_id.name }} - Opomnik"
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "{{ object.event_id.name }}: Date updated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: Datum posodobitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.event_id.name }}: Datum posodobitve"
 >>>>>>> upstream/18.0
@@ -3982,7 +4495,11 @@ msgstr "{{ object.event_id.name }}: Datum posodobitve"
 #: model:mail.template,subject:calendar.calendar_template_meeting_update
 msgid "{{object.name}}: Event update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{object.name}}: Posodobitev dogodka"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{object.name}}: Posodobitev dogodka"
 >>>>>>> upstream/18.0

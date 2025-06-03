@@ -838,7 +838,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.invoice_date:
+=======
+            if not move.invoice_date or not move.is_invoice():
+>>>>>>> upstream/18.0
 =======
             if not move.invoice_date or not move.is_invoice():
 >>>>>>> upstream/18.0
@@ -1114,7 +1118,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (not move.name or move.name == '/') and self.date and not move._get_last_sequence():
+=======
+            if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
+>>>>>>> upstream/18.0
 =======
             if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
 >>>>>>> upstream/18.0
@@ -1470,7 +1478,20 @@ class AccountMove(models.Model):
 
     @api.depends('amount_residual', 'move_type', 'state', 'company_id', 'matched_payment_ids.state')
     def _compute_payment_state(self):
+<<<<<<< HEAD
         stored_ids = tuple(self.ids)
+=======
+        groups = self.grouped(lambda move:
+            'legacy' if move.payment_state == 'invoicing_legacy' else
+            'posted_invoice' if move.state == 'posted' and move.is_invoice(True) else
+            'blocked' if move.payment_state == 'blocked' else
+            'unpaid'
+        )
+        groups.get('unpaid', self.browse()).payment_state = 'not_paid'
+        posted_invoices = groups.get('posted_invoice', self.browse())
+
+        stored_ids = tuple(posted_invoices.ids)
+>>>>>>> upstream/18.0
         if stored_ids:
             self.env['account.partial.reconcile'].flush_model()
             self.env['account.payment'].flush_model(['is_matched'])
@@ -1506,6 +1527,7 @@ class AccountMove(models.Model):
         else:
             payment_data = {}
 
+<<<<<<< HEAD
         for invoice in self:
             if invoice.payment_state == 'invoicing_legacy':
                 # invoicing_legacy state is set via SQL when setting setting field
@@ -1560,6 +1582,48 @@ class AccountMove(models.Model):
                         new_pmt_state = 'partial'
                     elif invoice.matched_payment_ids.filtered(lambda p: not p.move_id and p.state == 'paid'):
                         new_pmt_state = invoice._get_invoice_in_payment_state()
+=======
+        for invoice in posted_invoices:
+            currencies = invoice._get_lines_onchange_currency().currency_id
+            currency = currencies if len(currencies) == 1 else invoice.company_id.currency_id
+            reconciliation_vals = payment_data.get(invoice.id, [])
+
+            # Restrict on 'receivable'/'payable' lines for invoices/expense entries.
+            reconciliation_vals = [x for x in reconciliation_vals if x['source_line_account_type'] in ('asset_receivable', 'liability_payable')]
+
+            new_pmt_state = 'not_paid'
+            if currency.is_zero(invoice.amount_residual):
+                if any(x['has_payment'] or x['has_st_line'] for x in reconciliation_vals):
+
+                    # Check if the invoice/expense entry is fully paid or 'in_payment'.
+                    if all(x['all_payments_matched'] for x in reconciliation_vals):
+                        new_pmt_state = 'paid'
+                    else:
+                        new_pmt_state = invoice._get_invoice_in_payment_state()
+
+                else:
+                    new_pmt_state = 'paid'
+
+                    reverse_move_types = set()
+                    for x in reconciliation_vals:
+                        for move_type in x['counterpart_move_types']:
+                            reverse_move_types.add(move_type)
+
+                    in_reverse = (invoice.move_type in ('in_invoice', 'in_receipt')
+                                    and (reverse_move_types == {'in_refund'} or reverse_move_types == {'in_refund', 'entry'}))
+                    out_reverse = (invoice.move_type in ('out_invoice', 'out_receipt')
+                                    and (reverse_move_types == {'out_refund'} or reverse_move_types == {'out_refund', 'entry'}))
+                    misc_reverse = (invoice.move_type in ('entry', 'out_refund', 'in_refund')
+                                    and reverse_move_types == {'entry'})
+                    if in_reverse or out_reverse or misc_reverse:
+                        new_pmt_state = 'reversed'
+            elif invoice.matched_payment_ids.filtered(lambda p: not p.move_id and p.state == 'in_process'):
+                new_pmt_state = invoice._get_invoice_in_payment_state()
+            elif reconciliation_vals:
+                new_pmt_state = 'partial'
+            elif invoice.matched_payment_ids.filtered(lambda p: not p.move_id and p.state == 'paid'):
+                new_pmt_state = invoice._get_invoice_in_payment_state()
+>>>>>>> upstream/18.0
             invoice.payment_state = new_pmt_state
 
     @api.depends('payment_state', 'state')
@@ -2079,6 +2143,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if not move.is_sale_document(include_receipts=True):
                 continue
@@ -2095,6 +2160,8 @@ class AccountMove(models.Model):
                     del context
                 move.narration = narration or False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2133,6 +2200,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3236,7 +3306,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return ('amount_currency', 'balance')
+=======
+            return ('amount_currency', 'balance', 'analytic_distribution')
+>>>>>>> upstream/18.0
 =======
             return ('amount_currency', 'balance', 'analytic_distribution')
 >>>>>>> upstream/18.0
@@ -3427,10 +3501,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     all(not line.tax_ids and not move_base_lines_values_before.get(line, {}).get('tax_ids') for line in changed_lines)
                     # Keep the tax lines amounts if an amount has been manually computed.
                     or any_field_has_changed(move_tax_lines_values_before, tax_lines)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3513,6 +3590,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3996,7 +4076,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'journal_id' in vals:
+=======
+
+        if any(field in vals for field in ['journal_id', 'currency_id']):
+>>>>>>> upstream/18.0
 =======
 
         if any(field in vals for field in ['journal_id', 'currency_id']):
@@ -5963,6 +6048,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.invoice_line_ids._compute_price_unit()
+>>>>>>> upstream/18.0
 =======
         self.invoice_line_ids._compute_price_unit()
 >>>>>>> upstream/18.0
@@ -6497,9 +6586,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount_date = epd_installment['line'].discount_date
             discount_amount_currency = epd_installment['discount_amount_currency']
             days_left = (discount_date - fields.Date.context_today(self)).days  # should never be lower than 0 since epd is valid
+=======
+            discount_date = epd_installment['line'].discount_date or fields.Date.context_today(self)
+            discount_amount_currency = epd_installment['discount_amount_currency']
+            days_left = max(0, (discount_date - fields.Date.context_today(self)).days)  # should never be lower than 0 since epd is valid
+>>>>>>> upstream/18.0
 =======
             discount_date = epd_installment['line'].discount_date or fields.Date.context_today(self)
             discount_amount_currency = epd_installment['discount_amount_currency']

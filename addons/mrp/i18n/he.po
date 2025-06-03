@@ -53,7 +53,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-14 20:46+0000\n"
 >>>>>>> upstream/18.0
@@ -145,6 +149,11 @@ msgid ""
 "destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/><br/>המוצרים שיוצרו יועברו אל<b>%(destination)s</b> , <br/>כפי שצוין ב-"
+" <b>%(operation)s</b>ההעברה."
+>>>>>>> upstream/18.0
 =======
 "<br/><br/>המוצרים שיוצרו יועברו אל<b>%(destination)s</b> , <br/>כפי שצוין ב-"
 " <b>%(operation)s</b>ההעברה."
@@ -1090,7 +1099,11 @@ msgstr "וריאנטים של עץ המוצר"
 #: model:ir.model.fields,help:mrp.field_mrp_routing_workcenter__bom_product_template_attribute_value_ids
 msgid "BOM Product Variants needed to apply this line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ווריאנטים של המוצר מעץ המוצר הנדרשים ליישום שורה זו."
+>>>>>>> upstream/18.0
 =======
 msgstr "ווריאנטים של המוצר מעץ המוצר הנדרשים ליישום שורה זו."
 >>>>>>> upstream/18.0
@@ -1133,7 +1146,11 @@ msgstr "הוראת עבודה חוזרת"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO's"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנה חוזרת של הוראות ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנה חוזרת של הוראות ייצור"
 >>>>>>> upstream/18.0
@@ -1149,6 +1166,10 @@ msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"רצף הזמנות חוזרות אם הערך שווה ל-0, המשמעות היא שאין הזמנה חוזרת קשורה."
+>>>>>>> upstream/18.0
 =======
 "רצף הזמנות חוזרות אם הערך שווה ל-0, המשמעות היא שאין הזמנה חוזרת קשורה."
 >>>>>>> upstream/18.0
@@ -1454,7 +1475,11 @@ msgstr "הקיבולת צריכה להיות מספר חיובי."
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_reported_from_previous_wo
 msgid "Carried Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות מועברת"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות מועברת"
 >>>>>>> upstream/18.0
@@ -1504,6 +1529,11 @@ msgid ""
 "encoded variant-related data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שינוי המוצר או הווריאנט יאפס לצמיתות את כל הנתונים הקודמים שהוזנו הקשורים "
+"לווריאנט."
+>>>>>>> upstream/18.0
 =======
 "שינוי המוצר או הווריאנט יאפס לצמיתות את כל הנתונים הקודמים שהוזנו הקשורים "
 "לווריאנט."
@@ -1629,7 +1659,11 @@ msgstr "מיקום הרכיבים"
 msgid ""
 "Components will be reserved first for the MO with the highest priorities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שמירת רכיבים תתבצע תחילה לפי סדר עדיפויות של הוראות הייצור."
+>>>>>>> upstream/18.0
 =======
 msgstr "שמירת רכיבים תתבצע תחילה לפי סדר עדיפויות של הוראות הייצור."
 >>>>>>> upstream/18.0
@@ -1809,7 +1843,11 @@ msgid "Cost as it is currently accumulated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העלות כפי שהיא נצברה עד כה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העלות כפי שהיא נצברה עד כה"
 >>>>>>> upstream/18.0
@@ -1999,7 +2037,11 @@ msgid "Cost based on cost projection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עלות מבוססת על תחזית עלויות"
+>>>>>>> upstream/18.0
 =======
 msgstr "עלות מבוססת על תחזית עלויות"
 >>>>>>> upstream/18.0
@@ -2236,6 +2278,11 @@ msgid ""
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"צור ואשר הוראות ייצור מספר ימים מראש, כדי לאפשר מספיק זמן להשלמת רכיבים או לייצור מוצרים חצי-גמורים.\n"
+"שים לב שגם זמני ביטחון יילקחו בחשבון, כאשר הדבר רלוונטי."
+>>>>>>> upstream/18.0
 =======
 "צור ואשר הוראות ייצור מספר ימים מראש, כדי לאפשר מספיק זמן להשלמת רכיבים או לייצור מוצרים חצי-גמורים.\n"
 "שים לב שגם זמני ביטחון יילקחו בחשבון, כאשר הדבר רלוונטי."
@@ -2381,6 +2428,10 @@ msgid ""
 "Date you expect to finish production or actual date you finished production."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"התאריך שבו אתה מצפה לסיים את הייצור או התאריך שבו סיימת את הייצור בפועל."
+>>>>>>> upstream/18.0
 =======
 "התאריך שבו אתה מצפה לסיים את הייצור או התאריך שבו סיימת את הייצור בפועל."
 >>>>>>> upstream/18.0
@@ -2391,6 +2442,10 @@ msgid ""
 "Date you plan to start production or date you actually started production."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"התאריך שבו אתה מתכנן להתחיל את הייצור או התאריך שבו התחלת את הייצור בפועל."
+>>>>>>> upstream/18.0
 =======
 "התאריך שבו אתה מתכנן להתחיל את הייצור או התאריך שבו התחלת את הייצור בפועל."
 >>>>>>> upstream/18.0
@@ -2444,11 +2499,17 @@ msgid ""
 "production will only be counted once."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 " מספר ברירת מחדל של יחידות (ביחידת המידה של המוצר) שניתן לייצר במקביל (בו-"
 "זמנית) במרכז עבודה זה. לדוגמה: אם הקיבולת היא 5 ויש צורך לייצר 10 יחידות, "
 "זמן הפעולה המופיע בעץ מוצר יוכפל פי שתיים. עם זאת, יש לשים לב שזמן ההכנה "
 "לפני הייצור והזמן לאחר הייצור ייספרו רק פעם אחת."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2485,12 +2546,18 @@ msgid ""
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 " מגדיר אם ניתן לצרוך יותר או פחות רכיבים מהכמות שהוגדרה בעץ מוצר:\n"
 "מותר – מותר לכל משתמשי הייצור.\n"
 "מותר עם אזהרה – מותר לכל משתמשי הייצור, עם הצגת סיכום פערי הצריכה בעת סגירת הוראת הייצור.\n"
 "שים לב: במקרה של רכיב עם הדגשת צריכה, שבו הצריכה נרשמת ידנית בלבד – תוצג אזהרת צריכה בעת הצורך גם כאן.\n"
 "חסום – רק מנהל יכול לסגור הוראת ייצור כאשר צריכת רכיבים אינה תואמת לעץ מוצר."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2502,7 +2569,11 @@ msgstr "עיכוב תאריך התראה"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Delayed Productions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצורים מושהים"
+>>>>>>> upstream/18.0
 =======
 msgstr "ייצורים מושהים"
 >>>>>>> upstream/18.0
@@ -2511,7 +2582,11 @@ msgstr "ייצורים מושהים"
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Delegate part of the production process to subcontractors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העברת חלק מתהליך הייצור לקבלני משנה"
+>>>>>>> upstream/18.0
 =======
 msgstr "העברת חלק מתהליך הייצור לקבלני משנה"
 >>>>>>> upstream/18.0
@@ -2562,6 +2637,10 @@ msgstr "הוראת פירוק"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -2662,7 +2741,11 @@ msgstr "הצג את קיצור הדרך של המספר הסידורי על הת
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Displays the consumed Lot/Serial Numbers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצגה של מספרי אצווה/סידוריים שנעשה בהם שימוש."
+>>>>>>> upstream/18.0
 =======
 msgstr "הצגה של מספרי אצווה/סידוריים שנעשה בהם שימוש."
 >>>>>>> upstream/18.0
@@ -2900,7 +2983,11 @@ msgid "Final Location from procurement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "המיקום הסופי לפי הרכש"
+>>>>>>> upstream/18.0
 =======
 msgstr "המיקום הסופי לפי הרכש"
 >>>>>>> upstream/18.0
@@ -3463,6 +3550,11 @@ msgid ""
 "order of a MO when it is done."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אם תיבה זו מסומנת, Odoo תדפיס באופן אוטומטי את פקודת הייצור של הוראת הייצור "
+"כאשר היא תושלם."
+>>>>>>> upstream/18.0
 =======
 "אם תיבה זו מסומנת, Odoo תדפיס באופן אוטומטי את פקודת הייצור של הוראת הייצור "
 "כאשר היא תושלם."
@@ -3492,7 +3584,11 @@ msgstr "לא ניתן לתכנן את הוראת העבודה. אנא בדוק �
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תכנון בלתי אפשרי. אנא בדוק את זמינות מרכזי העבודה."
+>>>>>>> upstream/18.0
 =======
 msgstr "תכנון בלתי אפשרי. אנא בדוק את זמינות מרכזי העבודה."
 >>>>>>> upstream/18.0
@@ -3514,7 +3610,11 @@ msgstr "בתהליך"
 #: code:addons/mrp/report/mrp_report_mo_overview.py:0
 msgid "In Transit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בהעברה"
+>>>>>>> upstream/18.0
 =======
 msgstr "בהעברה"
 >>>>>>> upstream/18.0
@@ -3581,6 +3681,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"תאריך אינפורמטיבי המאפשר לקבוע עד מתי יש לעבד את פקודת הייצור על מנת לעמוד "
+"במועד האספקה."
+>>>>>>> upstream/18.0
 =======
 "תאריך אינפורמטיבי המאפשר לקבוע עד מתי יש לעבד את פקודת הייצור על מנת לעמוד "
 "במועד האספקה."
@@ -4002,6 +4107,11 @@ msgid ""
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"השאר מוסתר אם המסמך נגיש רק בטופס המוצר.\n"
+"בחר עץ מוצר כדי להציג מסמך זה כתוספת מוצר כאשר מוצר זה נמצא בעץ מוצר."
+>>>>>>> upstream/18.0
 =======
 "השאר מוסתר אם המסמך נגיש רק בטופס המוצר.\n"
 "בחר עץ מוצר כדי להציג מסמך זה כתוספת מוצר כאשר מוצר זה נמצא בעץ מוצר."
@@ -4011,7 +4121,11 @@ msgstr ""
 #: model:ir.model,name:mrp.model_mrp_consumption_warning_line
 msgid "Line of issue consumption"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שורת צריכת רכיבים"
+>>>>>>> upstream/18.0
 =======
 msgstr "שורת צריכת רכיבים"
 >>>>>>> upstream/18.0
@@ -4025,7 +4139,11 @@ msgstr "מיקום"
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__location_id
 msgid "Location where the product you want to unbuild is."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "המיקום שבו נמצא המוצר שברצונך לפרק."
+>>>>>>> upstream/18.0
 =======
 msgstr "המיקום שבו נמצא המוצר שברצונך לפרק."
 >>>>>>> upstream/18.0
@@ -4046,7 +4164,11 @@ msgid ""
 "Location where you want to send the components resulting from the unbuild "
 "order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מיקום אליו ברצונך לשלוח את הרכיבים הנוצרים מהוראת הפירוק."
+>>>>>>> upstream/18.0
 =======
 msgstr "מיקום אליו ברצונך לשלוח את הרכיבים הנוצרים מהוראת הפירוק."
 >>>>>>> upstream/18.0
@@ -4077,7 +4199,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lots_separator
 msgid "Lot separator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מפריד אצווה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מפריד אצווה"
 >>>>>>> upstream/18.0
@@ -4124,7 +4250,11 @@ msgstr "מספר סידוריים/אצוות"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_backorder_line__mrp_production_backorder_id
 msgid "MO Backorder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנה חוזרת של הוראת ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנה חוזרת של הוראת ייצור"
 >>>>>>> upstream/18.0
@@ -4528,7 +4658,11 @@ msgid "Mrp Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תכנון ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "תכנון ייצור"
 >>>>>>> upstream/18.0
@@ -4608,7 +4742,11 @@ msgid "Never attribute values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין לשייך ערכים בשום שלב"
+>>>>>>> upstream/18.0
 =======
 msgstr "אין לשייך ערכים בשום שלב"
 >>>>>>> upstream/18.0
@@ -4804,7 +4942,11 @@ msgstr "ללא הזמנה חוזרת"
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצא עץ מוצר. בוא ניצור אחד!"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצא עץ מוצר. בוא ניצור אחד!"
 >>>>>>> upstream/18.0
@@ -4913,7 +5055,11 @@ msgstr "מספר פעולות"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_in_progress
 msgid "Number of Manufacturing Orders In Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר הוראות ייצור בתהליך"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר הוראות ייצור בתהליך"
 >>>>>>> upstream/18.0
@@ -4984,7 +5130,11 @@ msgstr "מספר הודעות עם שגיאת משלוח"
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_capacity__capacity
 msgid "Number of pieces that can be produced in parallel for this product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר היחידות שניתן לייצר במקביל עבור מוצר זה."
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר היחידות שניתן לייצר במקביל עבור מוצר זה."
 >>>>>>> upstream/18.0
@@ -5028,7 +5178,11 @@ msgstr "במלאי"
 msgid ""
 "Only manufacturing orders in either a draft or confirmed state can be %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק הוראות ייצור במצב טיוטה או מאושרת יכולות להיות %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "רק הוראות ייצור במצב טיוטה או מאושרת יכולות להיות %s."
 >>>>>>> upstream/18.0
@@ -5059,7 +5213,11 @@ msgid "Only manufacturing orders with a Bill of Materials can be %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק הזמנות ייצור עם עץ מוצר יכולות להיות%s."
+>>>>>>> upstream/18.0
 =======
 msgstr "רק הזמנות ייצור עם עץ מוצר יכולות להיות%s."
 >>>>>>> upstream/18.0
@@ -5238,7 +5396,11 @@ msgid "Operations Search Filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מסנני חיפוש פעולות"
+>>>>>>> upstream/18.0
 =======
 msgstr "מסנני חיפוש פעולות"
 >>>>>>> upstream/18.0
@@ -5564,7 +5726,11 @@ msgid "Please set the first Serial Number or a default sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אנא הגדר את המספר הסידורי הראשון או רצף ברירת מחדל"
+>>>>>>> upstream/18.0
 =======
 msgstr "אנא הגדר את המספר הסידורי הראשון או רצף ברירת מחדל"
 >>>>>>> upstream/18.0
@@ -5658,7 +5824,11 @@ msgid "Please specify the first serial number you would like to use."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אנא ציין את המספר הסידורי הראשון שתרצה להשתמש."
+>>>>>>> upstream/18.0
 =======
 msgstr "אנא ציין את המספר הסידורי הראשון שתרצה להשתמש."
 >>>>>>> upstream/18.0
@@ -5752,7 +5922,11 @@ msgid "Please specify the serial number you would like to use."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אנא ציין את המספר הסידורי שתרצה להשתמש ."
+>>>>>>> upstream/18.0
 =======
 msgstr "אנא ציין את המספר הסידורי שתרצה להשתמש ."
 >>>>>>> upstream/18.0
@@ -6062,7 +6236,11 @@ msgid "Product Capacities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קיבולות מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "קיבולות מוצר"
 >>>>>>> upstream/18.0
@@ -6251,7 +6429,11 @@ msgid "Product Catalog Product Is In Bom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קטלוג מוצרים מוצר נמצא בעץ מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "קטלוג מוצרים מוצר נמצא בעץ מוצר"
 >>>>>>> upstream/18.0
@@ -6609,7 +6791,11 @@ msgid "Productions To Split"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצור לפיצול"
+>>>>>>> upstream/18.0
 =======
 msgstr "ייצור לפיצול"
 >>>>>>> upstream/18.0
@@ -6918,7 +7104,11 @@ msgid "Quantity that can be produced with the current stock of components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כמות שניתן לייצר עם המלאי הנוכחי של רכיבים"
+>>>>>>> upstream/18.0
 =======
 msgstr "כמות שניתן לייצר עם המלאי הנוכחי של רכיבים"
 >>>>>>> upstream/18.0
@@ -7246,7 +7436,11 @@ msgid "Replenishments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חידושי מלאי"
+>>>>>>> upstream/18.0
 =======
 msgstr "חידושי מלאי"
 >>>>>>> upstream/18.0
@@ -7474,7 +7668,11 @@ msgstr "תאריך מתוזמן"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Scheduled End"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סיום מתוכנן"
+>>>>>>> upstream/18.0
 =======
 msgstr "סיום מתוכנן"
 >>>>>>> upstream/18.0
@@ -7485,7 +7683,11 @@ msgstr "סיום מתוכנן"
 msgid ""
 "Scheduled before the previous work order, planned from %(start)s to %(end)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מתוזמן לפני הוראת העבודה הקודמת, מתוכנן מ-%(start)s עד%(end)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "מתוזמן לפני הוראת העבודה הקודמת, מתוכנן מ-%(start)s עד%(end)s"
 >>>>>>> upstream/18.0
@@ -7589,7 +7791,11 @@ msgid "Select Operations to Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר פעולה להעתקה"
+>>>>>>> upstream/18.0
 =======
 msgstr "בחר פעולה להעתקה"
 >>>>>>> upstream/18.0
@@ -7728,7 +7934,11 @@ msgid "Set Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר כמות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הגדר כמות"
 >>>>>>> upstream/18.0
@@ -7943,7 +8153,11 @@ msgid "Setup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זמן הכנה (דקות)"
+>>>>>>> upstream/18.0
 =======
 msgstr "זמן הכנה (דקות)"
 >>>>>>> upstream/18.0
@@ -8132,7 +8346,11 @@ msgid "Setup and Adjustments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנה והתאמות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הכנה והתאמות"
 >>>>>>> upstream/18.0
@@ -8326,7 +8544,11 @@ msgid "Show BoM column"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג עמודת עץ מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג עמודת עץ מוצר"
 >>>>>>> upstream/18.0
@@ -8516,7 +8738,11 @@ msgid "Show Bom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג עץ מוצר"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג עץ מוצר"
 >>>>>>> upstream/18.0
@@ -8710,7 +8936,11 @@ msgid "Show Lock/unlock buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג כפתורי נעילה\\ שחרור מנעילה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג כפתורי נעילה\\ שחרור מנעילה"
 >>>>>>> upstream/18.0
@@ -8904,7 +9134,11 @@ msgid "Show Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג ייצור"
 >>>>>>> upstream/18.0
@@ -9104,7 +9338,11 @@ msgid "Show backorder lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג שורות הזמנות חוזרות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג שורות הזמנות חוזרות"
 >>>>>>> upstream/18.0
@@ -9293,7 +9531,11 @@ msgid "Slot into workcenter calendar once planned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנס ללוח הזמנים של תחנת העבודה ברגע שמתוכנן"
+>>>>>>> upstream/18.0
 =======
 msgstr "הכנס ללוח הזמנים של תחנת העבודה ברגע שמתוכנן"
 >>>>>>> upstream/18.0
@@ -9496,6 +9738,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"חלק מהתוצרי לוואי שלך מנוטרים, עליך לציין פקודת ייצור כדי להוציא את תוצרי "
+"הלוואי הנכונים."
+>>>>>>> upstream/18.0
 =======
 "חלק מהתוצרי לוואי שלך מנוטרים, עליך לציין פקודת ייצור כדי להוציא את תוצרי "
 "הלוואי הנכונים."
@@ -9700,6 +9947,12 @@ msgid ""
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כמה פקודות עבודה כבר הושלמו, ולכן אינך יכול לבטל את תכנון הוראת הייצור הזו.\n"
+"\n"
+"יהיה חבל לבזבז את כל ההתקדמות הזאת, נכון?"
+>>>>>>> upstream/18.0
 =======
 "כמה פקודות עבודה כבר הושלמו, ולכן אינך יכול לבטל את תכנון הוראת הייצור הזו.\n"
 "\n"
@@ -9760,6 +10013,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"חלק מההוראות עבודה כבר בתהליך, לכן אינך יכול לבטל את תכנון הוראת הייצור הזו.\n"
+"\n"
+"יהיה חבל לבזבז את כל ההתקדמות הזו, נכון?"
+>>>>>>> upstream/18.0
 =======
 "חלק מההוראות עבודה כבר בתהליך, לכן אינך יכול לבטל את תכנון הוראת הייצור הזו.\n"
 "\n"
@@ -10056,7 +10315,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר ספציפי של יחידות שניתן לייצר במקביל לכל מוצר."
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר ספציפי של יחידות שניתן לייצר במקביל לכל מוצר."
 >>>>>>> upstream/18.0
@@ -10251,7 +10514,11 @@ msgid "Split #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל #"
+>>>>>>> upstream/18.0
 =======
 msgstr "פצל #"
 >>>>>>> upstream/18.0
@@ -10447,7 +10714,11 @@ msgid "Split Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "פצל ייצור"
 >>>>>>> upstream/18.0
@@ -10636,7 +10907,11 @@ msgid "Split Production Detail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרטי פיצול ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרטי פיצול ייצור"
 >>>>>>> upstream/18.0
@@ -10826,7 +11101,11 @@ msgid "Split Productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פיצול ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "פיצול ייצור"
 >>>>>>> upstream/18.0
@@ -11015,7 +11294,11 @@ msgid "Split production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פצל ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "פצל ייצור"
 >>>>>>> upstream/18.0
@@ -11380,7 +11663,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני המשמש להחלטה אם יש להציג את הכפתור \"הקצאה\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני המשמש להחלטה אם יש להציג את הכפתור \"הקצאה\"."
 >>>>>>> upstream/18.0
@@ -11574,7 +11861,11 @@ msgid "Technical field to check if produce all button can be shown"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני לבדוק אם ניתן להציג את כפתור \"ייצר הכל\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני לבדוק אם ניתן להציג את כפתור \"ייצר הכל\"."
 >>>>>>> upstream/18.0
@@ -11718,7 +12009,11 @@ msgstr "שדה טכני לבדוק אם ניתן להציג את כפתור \"י
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce
 msgid "Technical field to check if produce button can be shown"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני לבדיקה אם ניתן להציג את כפתור הייצור."
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני לבדיקה אם ניתן להציג את כפתור הייצור."
 >>>>>>> upstream/18.0
@@ -11733,7 +12028,11 @@ msgid "Technical field to check when we can reserve quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה טכני לבדיקה האם ניתן לשמור כמויות"
+>>>>>>> upstream/18.0
 =======
 msgstr "שדה טכני לבדיקה האם ניתן לשמור כמויות"
 >>>>>>> upstream/18.0
@@ -11770,7 +12069,11 @@ msgstr "טקסט"
 #: model:ir.model.fields,help:mrp.field_mrp_production__is_outdated_bom
 msgid "The BoM has been updated since creation of the MO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עץ המוצר עודכן מאז יצירת הוראת הייצור ."
+>>>>>>> upstream/18.0
 =======
 msgstr "עץ המוצר עודכן מאז יצירת הוראת הייצור ."
 >>>>>>> upstream/18.0
@@ -11842,6 +12145,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ערך המאפיין %(attribute)sשהוגדר על המוצר %(product)sאינו תואם למוצר בעץ מוצר"
+" %(bom_product)s."
+>>>>>>> upstream/18.0
 =======
 "ערך המאפיין %(attribute)sשהוגדר על המוצר %(product)sאינו תואם למוצר בעץ מוצר"
 " %(bom_product)s."
@@ -12103,7 +12411,11 @@ msgid "The following replenishment order has been generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הוראת החידוש מלאי הבאה נוצרה"
+>>>>>>> upstream/18.0
 =======
 msgstr "הוראת החידוש מלאי הבאה נוצרה"
 >>>>>>> upstream/18.0
@@ -12308,6 +12620,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אחוז מעלות הייצור הסופית עבור שורת תוצר הלוואי הזו (מחולק בין הכמות "
+"המיוצרת). סך כל חלקי עלות התוצרי לוואי חייב להיות קטן או שווה ל-100."
+>>>>>>> upstream/18.0
 =======
 "אחוז מעלות הייצור הסופית עבור שורת תוצר הלוואי הזו (מחולק בין הכמות "
 "המיוצרת). סך כל חלקי עלות התוצרי לוואי חייב להיות קטן או שווה ל-100."
@@ -12545,6 +12862,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אחוז מעלות הייצור הסופית עבור תוצר הלוואי הזה. סך כל חלקי עלות התוצרי לוואי "
+"חייב להיות קטן או שווה ל-100."
+>>>>>>> upstream/18.0
 =======
 "אחוז מעלות הייצור הסופית עבור תוצר הלוואי הזה. סך כל חלקי עלות התוצרי לוואי "
 "חייב להיות קטן או שווה ל-100."
@@ -12783,6 +13105,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"תאריך הסיום המתוכנן של הוראת העבודה לא יכול להיות לפני תאריך ההתחלה המתוכנן,"
+" אנא תקן זאת כדי לשמור את הוראת העבודה."
+>>>>>>> upstream/18.0
 =======
 "תאריך הסיום המתוכנן של הוראת העבודה לא יכול להיות לפני תאריך ההתחלה המתוכנן,"
 " אנא תקן זאת כדי לשמור את הוראת העבודה."
@@ -13022,6 +13349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"המוצר כבר שימש לפחות פעם אחת, עריכת המבנה שלו עשויה להוביל להתנהגויות לא "
+"רצויות. עדיף שתשמור את המוצר בארכיון ותיצור מוצר חדש עם עץ מוצר חדש."
+>>>>>>> upstream/18.0
 =======
 "המוצר כבר שימש לפחות פעם אחת, עריכת המבנה שלו עשויה להוביל להתנהגויות לא "
 "רצויות. עדיף שתשמור את המוצר בארכיון ותיצור מוצר חדש עם עץ מוצר חדש."
@@ -13257,7 +13589,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכמות שכבר יוצרה וממתינה להקצאה בשרשרת ההזמנות החוזרות."
+>>>>>>> upstream/18.0
 =======
 msgstr "הכמות שכבר יוצרה וממתינה להקצאה בשרשרת ההזמנות החוזרות."
 >>>>>>> upstream/18.0
@@ -13452,7 +13788,11 @@ msgid "The quantity to unbuild must be positive!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכמות שיש לפרק חייבת להיות חיובית!"
+>>>>>>> upstream/18.0
 =======
 msgstr "הכמות שיש לפרק חייבת להיות חיובית!"
 >>>>>>> upstream/18.0
@@ -13645,6 +13985,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"מספר הסידורי %(number)sשנעשה בו שימוש עבור תוצר הלוואי %(product_name)sכבר "
+"יוצר."
+>>>>>>> upstream/18.0
 =======
 "מספר הסידורי %(number)sשנעשה בו שימוש עבור תוצר הלוואי %(product_name)sכבר "
 "יוצר."
@@ -13838,6 +14183,10 @@ msgid ""
 "been consumed"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"המספר הסידורי %(number)s שנעשה בו שימוש עבור הרכיב %(component)sכבר נצרך."
+>>>>>>> upstream/18.0
 =======
 "המספר הסידורי %(number)s שנעשה בו שימוש עבור הרכיב %(component)sכבר נצרך."
 >>>>>>> upstream/18.0
@@ -13867,7 +14216,11 @@ msgid "The tag name must be unique."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם התווית חייב להיות ייחודי."
+>>>>>>> upstream/18.0
 =======
 msgstr "שם התווית חייב להיות ייחודי."
 >>>>>>> upstream/18.0
@@ -13961,7 +14314,11 @@ msgid "The total cost share for a BoM's by-products cannot exceed 100."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סך חלקי העלות של תוצרי הלוואי בעץ מוצר לא יכול לעלות על 100%."
+>>>>>>> upstream/18.0
 =======
 msgstr "סך חלקי העלות של תוצרי הלוואי בעץ מוצר לא יכול לעלות על 100%."
 >>>>>>> upstream/18.0
@@ -14144,7 +14501,11 @@ msgid "This production has been merge in %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצור זה עבר ייחוד ב- %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ייצור זה עבר ייחוד ב- %s"
 >>>>>>> upstream/18.0
@@ -14253,6 +14614,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זו צריכה להיות הכמות הקטנה ביותר שניתן לייצר ממוצר זה. אם העץ מוצר כולל "
+"פעולות, ודא שהקיבולת של תחנת העבודה מתאימה."
+>>>>>>> upstream/18.0
 =======
 "זו צריכה להיות הכמות הקטנה ביותר שניתן לייצר ממוצר זה. אם העץ מוצר כולל "
 "פעולות, ודא שהקיבולת של תחנת העבודה מתאימה."
@@ -14385,6 +14751,11 @@ msgid ""
 "first time when there aren't any work orders yet"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זמן בדקות: -במצב ידני, הזמן שנעשה בו שימוש במצב אוטומטי, הזמן המשוער הראשוני"
+" כאשר עדיין אין הוראות עבודה"
+>>>>>>> upstream/18.0
 =======
 "זמן בדקות: -במצב ידני, הזמן שנעשה בו שימוש במצב אוטומטי, הזמן המשוער הראשוני"
 " כאשר עדיין אין הוראות עבודה"
@@ -14551,7 +14922,11 @@ msgid "Total To Consume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סה\"כ לשימוש"
+>>>>>>> upstream/18.0
 =======
 msgstr "סה\"כ לשימוש"
 >>>>>>> upstream/18.0
@@ -15098,7 +15473,11 @@ msgid "Wizard to Split a Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף לפיצול ייצור"
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף לפיצול ייצור"
 >>>>>>> upstream/18.0
@@ -15173,7 +15552,11 @@ msgid "Wizard to mark as done or create back order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף שמסמן כבוצע או יוצר הזמנה חוזרת "
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף שמסמן כבוצע או יוצר הזמנה חוזרת "
 >>>>>>> upstream/18.0
@@ -15280,6 +15663,12 @@ msgid ""
 "the required components."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"פעולות הוראת עבודה מאפשרות לך ליצור ולנהל את פעולות הייצור שיש לבצע במרכזי "
+"העבודה שלך על מנת לייצר מוצר. פעולות אלו קשורות לעצי המוצר אשר מגדירים את "
+"הרכיבים הנדרשים."
+>>>>>>> upstream/18.0
 =======
 "פעולות הוראת עבודה מאפשרות לך ליצור ולנהל את פעולות הייצור שיש לבצע במרכזי "
 "העבודה שלך על מנת לייצר מוצר. פעולות אלו קשורות לעצי המוצר אשר מגדירים את "
@@ -15432,7 +15821,11 @@ msgid ""
 "Write one line per finished product to produce, with serial numbers as "
 "follows:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כתוב שורה אחת לכל מוצר גמור לייצור, עם מספרים סידוריים כדלקמן:\n"
+>>>>>>> upstream/18.0
 =======
 msgstr "כתוב שורה אחת לכל מוצר גמור לייצור, עם מספרים סידוריים כדלקמן:\n"
 >>>>>>> upstream/18.0
@@ -15482,6 +15875,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"לא ניתן ליצור עץ מוצר מסוג ערכה (Kit) עבור מוצרים שיש להם לפחות כלל הזמנה "
+"חוזרת אחד."
+>>>>>>> upstream/18.0
 =======
 "לא ניתן ליצור עץ מוצר מסוג ערכה (Kit) עבור מוצרים שיש להם לפחות כלל הזמנה "
 "חוזרת אחד."
@@ -15587,7 +15985,11 @@ msgstr ""
 msgid ""
 "You can only merge manufacturing orders of identical products with same BoM."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן למזג הוראות ייצור רק של מוצרים זהים עם עצי מוצרים זהים."
+>>>>>>> upstream/18.0
 =======
 msgstr "ניתן למזג הוראות ייצור רק של מוצרים זהים עם עצי מוצרים זהים."
 >>>>>>> upstream/18.0
@@ -15599,7 +16001,11 @@ msgid ""
 "You can only merge manufacturing orders with no additional components or by-"
 "products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן למזג הוראות ייצור רק אם אין רכיבים נוספים או תוצרי לוואי."
+>>>>>>> upstream/18.0
 =======
 msgstr "ניתן למזג הוראות ייצור רק אם אין רכיבים נוספים או תוצרי לוואי."
 >>>>>>> upstream/18.0
@@ -15727,7 +16133,11 @@ msgid "You need at least two production orders to merge them."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צריך לפחות שתי הזמנות ייצור על מנת לבצע פעולת מיזוג."
+>>>>>>> upstream/18.0
 =======
 msgstr "צריך לפחות שתי הזמנות ייצור על מנת לבצע פעולת מיזוג."
 >>>>>>> upstream/18.0
@@ -15842,6 +16252,11 @@ msgid ""
 "%(missing_products)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"עליך לספק מספר אצווה/מספר סידורי עבור המוצרים ולצרוך "
+"אותם:%(missing_products)s"
+>>>>>>> upstream/18.0
 =======
 "עליך לספק מספר אצווה/מספר סידורי עבור המוצרים ולצרוך "
 "אותם:%(missing_products)s"
@@ -15886,7 +16301,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עליך לעדכן את כמות הרכיבים במקום לעדכן ישירות את הכמות של מוצר בערכה."
+>>>>>>> upstream/18.0
 =======
 msgstr "עליך לעדכן את כמות הרכיבים במקום לעדכן ישירות את הכמות של מוצר בערכה."
 >>>>>>> upstream/18.0
@@ -16075,6 +16494,7 @@ msgstr "הוראות העבודה האחרונות"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -16095,6 +16515,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

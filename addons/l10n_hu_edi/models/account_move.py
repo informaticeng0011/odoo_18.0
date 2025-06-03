@@ -272,6 +272,7 @@ class AccountMove(models.Model):
     def _l10n_hu_get_currency_rate(self):
         """ Get the invoice currency / HUF rate.
 
+<<<<<<< HEAD
         If the company currency is HUF, we estimate this based on the invoice lines
         (or if this is not an invoice, based on the AMLs), using a MMSE estimator.
 
@@ -284,6 +285,13 @@ class AccountMove(models.Model):
             squared_amount_currency = sum(line.amount_currency ** 2 for line in (self.invoice_line_ids or self.line_ids))
             squared_balance = sum(line.balance ** 2 for line in self.invoice_line_ids)
             return math.sqrt(squared_balance / squared_amount_currency)
+=======
+            We don't use `invoice_currency_rate` to avoid rounding error as 1/0.002470 ≃ 404.87,
+            and we want exactly 404.87, i.e. the rate given by the MNB of Hungary, to avoid NAV error
+            upon XML submission.
+        """
+        self.ensure_one()
+>>>>>>> upstream/18.0
         return self.env['res.currency']._get_conversion_rate(
             from_currency=self.currency_id,
             to_currency=self.env.ref('base.HUF'),
@@ -556,11 +564,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice_operations = [
             {
                 'index': invoice.l10n_hu_edi_batch_upload_index,
                 'operation': 'CREATE' if invoice._l10n_hu_get_chain_base() == invoice else 'MODIFY',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -688,6 +699,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -8,7 +8,11 @@ import pytz
 
 from dateutil.relativedelta import relativedelta
 
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, Command, fields, models, _
+>>>>>>> upstream/18.0
 from odoo.addons.resource.models.utils import string_to_datetime, Intervals
 from odoo.osv import expression
 from odoo.tools import ormcache, format_list
@@ -460,11 +464,19 @@ class HrContract(models.Model):
         self.ensure_one()
         if self.employee_id:
             wizard = self.env['hr.work.entry.regeneration.wizard'].create({
+<<<<<<< HEAD
                 'employee_ids': [(4, self.employee_id.id)],
                 'date_from': date_from,
                 'date_to': date_to,
             })
             wizard.with_context(work_entry_skip_validation=True).regenerate_work_entries()
+=======
+                'employee_ids': [Command.set(self.employee_id.ids)],
+                'date_from': date_from,
+                'date_to': date_to,
+            })
+            wizard.with_context(work_entry_skip_validation=True, active_test=False).regenerate_work_entries()
+>>>>>>> upstream/18.0
 
     def _get_fields_that_recompute_we(self):
         # Returns the fields that should recompute the work entries

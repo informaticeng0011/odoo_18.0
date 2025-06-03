@@ -121,7 +121,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
+=======
+    @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
 =======
     @api.depends('partner_id.name')
 >>>>>>> upstream/18.0

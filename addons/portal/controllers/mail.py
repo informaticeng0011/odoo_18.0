@@ -45,9 +45,12 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
         partner = request.env.user.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58,6 +61,9 @@ class PortalChatter(http.Controller):
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67,6 +73,7 @@ class PortalChatter(http.Controller):
             mode = request.env[thread_model]._get_mail_message_access([thread_id], "create")
             has_react_access = request.env[thread_model]._get_thread_with_access(thread_id, mode, **kwargs)
             can_react = has_react_access
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +88,8 @@ class PortalChatter(http.Controller):
         if request.env.user.has_group("website.group_website_restricted_editor"):
             store.add(partner, {"is_user_publisher": True})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109,6 +118,9 @@ class PortalChatter(http.Controller):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

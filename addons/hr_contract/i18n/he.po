@@ -50,7 +50,11 @@ msgstr ""
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "היסטורית חוזים של %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "היסטורית חוזים של %s"
 >>>>>>> upstream/18.0
@@ -75,6 +79,11 @@ msgid ""
 "title=\"In Contract Since\"> In Contract Since</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
+"title=\"In Contract Since\"> מועסק מאז</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
 "title=\"In Contract Since\"> מועסק מאז</span>"
@@ -115,6 +124,11 @@ msgid ""
 "been put in red on the %s. Please advise and correct."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"בהתאם לתאריך פקיעת היתר העבודה של העובד, חוזה זה סומן באדום ב-%s. אנא בדוק "
+"ותקן."
+>>>>>>> upstream/18.0
 =======
 "בהתאם לתאריך פקיעת היתר העבודה של העובד, חוזה זה סומן באדום ב-%s. אנא בדוק "
 "ותקן."
@@ -127,7 +141,11 @@ msgid ""
 "According to the contract's end date, this contract has been put in red on "
 "the %s. Please advise and correct."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בהתאם לתאריך סיום החוזה, החוזה הזה סומן באדום ב-%s. אנא בדוק ותקן."
+>>>>>>> upstream/18.0
 =======
 msgstr "בהתאם לתאריך סיום החוזה, החוזה הזה סומן באדום ב-%s. אנא בדוק ותקן."
 >>>>>>> upstream/18.0
@@ -155,7 +173,11 @@ msgid "Active Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "עובדים פעילים"
+>>>>>>> upstream/18.0
 =======
 msgstr "עובדים פעילים"
 >>>>>>> upstream/18.0
@@ -194,7 +216,11 @@ msgstr "סוג פעילות"
 #: model:ir.model,name:hr_contract.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשף תכנון פעילויות "
+>>>>>>> upstream/18.0
 =======
 msgstr "אשף תכנון פעילויות "
 >>>>>>> upstream/18.0
@@ -213,6 +239,12 @@ msgid ""
 "Employee: %(employee_name)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ניתן לשייך לעובד חוזה אחד פעיל בלבד בכל רגע נתון.(לא כולל חוזים במצב טיוטה או מבוטל).\n"
+"\n"
+"עובד: %(employee_name)s"
+>>>>>>> upstream/18.0
 =======
 "ניתן לשייך לעובד חוזה אחד פעיל בלבד בכל רגע נתון.(לא כולל חוזים במצב טיוטה או מבוטל).\n"
 "\n"
@@ -254,6 +286,11 @@ msgid ""
 "calendar. This could lead to unexpected behaviors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אי התאמה בלוח השנה: לוח השנה של העובד אינו תואם ללוח השנה של החוזה הזה. הדבר"
+" עלול לגרום להתנהגויות לא צפויות."
+>>>>>>> upstream/18.0
 =======
 "אי התאמה בלוח השנה: לוח השנה של העובד אינו תואם ללוח השנה של החוזה הזה. הדבר"
 " עלול לגרום להתנהגויות לא צפויות."
@@ -309,6 +346,11 @@ msgid ""
 "end date (%(end)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"חוזה%(contract)s: תאריך ההתחלה (%(start)s) חייב להיות מוקדם מתאריך הסיום "
+"(%(end)s)."
+>>>>>>> upstream/18.0
 =======
 "חוזה%(contract)s: תאריך ההתחלה (%(start)s) חייב להיות מוקדם מתאריך הסיום "
 "(%(end)s)."
@@ -330,7 +372,11 @@ msgstr "תאריך סיום החוזה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק זמן התראה לפני תום החוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "רק זמן התראה לפני תום החוזה"
 >>>>>>> upstream/18.0
@@ -340,7 +386,11 @@ msgstr "רק זמן התראה לפני תום החוזה"
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__contract_expiration_notice_period
 msgid "Contract Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרק זמן התראה לפני תום החוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרק זמן התראה לפני תום החוזה"
 >>>>>>> upstream/18.0
@@ -349,7 +399,11 @@ msgstr "פרק זמן התראה לפני תום החוזה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "היסטורית חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "היסטורית חוזה"
 >>>>>>> upstream/18.0
@@ -359,7 +413,11 @@ msgstr "היסטורית חוזה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "שם חוזה"
 >>>>>>> upstream/18.0
@@ -385,7 +443,11 @@ msgstr "סוג חוזה"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__contract_wage
 msgid "Contract Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משכורת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "משכורת חוזה"
 >>>>>>> upstream/18.0
@@ -435,7 +497,11 @@ msgstr "חוזים"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Contracts to Review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חוזים לסקירה"
+>>>>>>> upstream/18.0
 =======
 msgstr "חוזים לסקירה"
 >>>>>>> upstream/18.0
@@ -444,7 +510,11 @@ msgstr "חוזים לסקירה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Contracts to review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חוזים לסקירה"
+>>>>>>> upstream/18.0
 =======
 msgstr "חוזים לסקירה"
 >>>>>>> upstream/18.0
@@ -453,7 +523,11 @@ msgstr "חוזים לסקירה"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__under_contract_state
 msgid "Contractual Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סטטוס חזוה "
+>>>>>>> upstream/18.0
 =======
 msgstr "סטטוס חזוה "
 >>>>>>> upstream/18.0
@@ -508,7 +582,11 @@ msgstr "חוזה נוכחי"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Current Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חוזים עדכניים"
+>>>>>>> upstream/18.0
 =======
 msgstr "חוזים עדכניים"
 >>>>>>> upstream/18.0
@@ -522,7 +600,11 @@ msgstr "חוזה נוכחי של העובד"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כרגע תחת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כרגע תחת חוזה"
 >>>>>>> upstream/18.0
@@ -596,7 +678,11 @@ msgstr "חוזי עובד"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Employee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מידע של העובד"
+>>>>>>> upstream/18.0
 =======
 msgstr "מידע של העובד"
 >>>>>>> upstream/18.0
@@ -605,7 +691,11 @@ msgstr "מידע של העובד"
 #: model:res.groups,name:hr_contract.group_hr_contract_employee_manager
 msgid "Employee Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מנהל עובד"
+>>>>>>> upstream/18.0
 =======
 msgstr "מנהל עובד"
 >>>>>>> upstream/18.0
@@ -761,7 +851,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__is_under_contract
 msgid "Is Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם נמצא תחת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "האם נמצא תחת חוזה"
 >>>>>>> upstream/18.0
@@ -805,7 +899,11 @@ msgstr "פעילויות באיחור"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__legal_name
 msgid "Legal Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם חוקי"
+>>>>>>> upstream/18.0
 =======
 msgstr "שם חוקי"
 >>>>>>> upstream/18.0
@@ -829,7 +927,11 @@ msgstr "הודעות"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Monthly Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "משכורת חודשית "
+>>>>>>> upstream/18.0
 =======
 msgstr "משכורת חודשית "
 >>>>>>> upstream/18.0
@@ -869,7 +971,11 @@ msgstr "סוג הפעילות הבאה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "No Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין חוזים"
+>>>>>>> upstream/18.0
 =======
 msgstr "אין חוזים"
 >>>>>>> upstream/18.0
@@ -883,7 +989,11 @@ msgstr "אין מידע להצגה"
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__blocked
 msgid "Not Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא תחת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא תחת חוזה"
 >>>>>>> upstream/18.0
@@ -905,7 +1015,11 @@ msgid ""
 "Number of days prior to the contract end date that a contract expiration "
 "warning is triggered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר הימים לפני תאריך סיום החוזה שבהם תישלח התראת פקיעת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר הימים לפני תאריך סיום החוזה שבהם תישלח התראת פקיעת חוזה"
 >>>>>>> upstream/18.0
@@ -916,7 +1030,11 @@ msgid ""
 "Number of days prior to the work permit expiration date that a warning is "
 "triggered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר הימים לפני תאריך פקיעת היתר העבודה שבהם תופעל התראה."
+>>>>>>> upstream/18.0
 =======
 msgstr "מספר הימים לפני תאריך פקיעת היתר העבודה שבהם תופעל התראה."
 >>>>>>> upstream/18.0
@@ -945,7 +1063,11 @@ msgstr "מתמשך"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חוזה פתוח "
+>>>>>>> upstream/18.0
 =======
 msgstr "חוזה פתוח "
 >>>>>>> upstream/18.0
@@ -975,7 +1097,11 @@ msgstr "מוכן"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Reference Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מזהה זמן עבודה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מזהה זמן עבודה"
 >>>>>>> upstream/18.0
@@ -1041,7 +1167,11 @@ msgstr "חפש חוזה"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Search Reference Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חפש מזהה חוזים"
+>>>>>>> upstream/18.0
 =======
 msgstr "חפש מזהה חוזים"
 >>>>>>> upstream/18.0
@@ -1055,7 +1185,11 @@ msgstr "הגדר את תאריך הסיום של החוזה"
 #: model:ir.model.fields,help:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set the end date on the current contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "גדר את תאריך הסיום בחוזה הנוכחי."
+>>>>>>> upstream/18.0
 =======
 msgstr "גדר את תאריך הסיום בחוזה הנוכחי."
 >>>>>>> upstream/18.0
@@ -1126,7 +1260,11 @@ msgstr "ברירת המחדל של שעות העבודה נקבעות בתצור
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האשרת העבודה של %s עומדת לפוג."
+>>>>>>> upstream/18.0
 =======
 msgstr "האשרת העבודה של %s עומדת לפוג."
 >>>>>>> upstream/18.0
@@ -1150,7 +1288,11 @@ msgstr "פעילויות היום"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Type in notes about this contract..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הקלד פרטים בהערות על החוזה הזה..."
+>>>>>>> upstream/18.0
 =======
 msgstr "הקלד פרטים בהערות על החוזה הזה..."
 >>>>>>> upstream/18.0
@@ -1164,7 +1306,11 @@ msgstr "סוג הפעילות החריגה ברשומה."
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__done
 msgid "Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תחת חוזה"
+>>>>>>> upstream/18.0
 =======
 msgstr "תחת חוזה"
 >>>>>>> upstream/18.0
@@ -1204,7 +1350,11 @@ msgstr "היסטורית התקשרויות מאתר האינטרנט"
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Work Permit Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרק זמן התראה לפקיעת היתר עבודה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרק זמן התראה לפקיעת היתר עבודה"
 >>>>>>> upstream/18.0
@@ -1214,7 +1364,11 @@ msgstr "פרק זמן התראה לפקיעת היתר עבודה"
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
 msgid "Work Permit Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרק זמן התראה לפקיעת היתר עבודה"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרק זמן התראה לפקיעת היתר עבודה"
 >>>>>>> upstream/18.0
@@ -1236,7 +1390,11 @@ msgstr "לוח זמנים עבודה"
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן למחוק עובד שיש לו חוזה פעיל."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא ניתן למחוק עובד שיש לו חוזה פעיל."
 >>>>>>> upstream/18.0

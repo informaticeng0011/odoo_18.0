@@ -10,8 +10,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HootDomError } from "../hoot_dom_utils";
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129,7 +132,10 @@ const timeoutToId = (id) => ID_PREFIX.timeout + String(id);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161,6 +167,9 @@ class HootTimingError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -270,7 +279,11 @@ export function animationFrame() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new Promise((resolve) => requestAnimationFrame(() => delay().then(resolve)));
+=======
+    return new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
+>>>>>>> upstream/18.0
 =======
     return new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
 >>>>>>> upstream/18.0
@@ -492,7 +505,11 @@ export function setFrameRate(frameRate) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new Error("frame rate must be an number between 1 and 1000");
+=======
+        throw new HootTimingError("frame rate must be an number between 1 and 1000");
+>>>>>>> upstream/18.0
 =======
         throw new HootTimingError("frame rate must be an number between 1 and 1000");
 >>>>>>> upstream/18.0
@@ -560,7 +577,11 @@ export function tick() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {() => T} predicate
+=======
+ * @param {(last: boolean) => T} predicate
+>>>>>>> upstream/18.0
 =======
  * @param {(last: boolean) => T} predicate
 >>>>>>> upstream/18.0
@@ -609,6 +630,7 @@ export function tick() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function waitUntil(predicate, options) {
     // Early check before running the loop
     const result = predicate();
@@ -628,6 +650,8 @@ export function waitUntil(predicate, options) {
                 resolve(result);
             } else if (running) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -675,6 +699,9 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -711,8 +738,11 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 reject(new HootDomError(message.replace("%timeout%", String(timeout))));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -745,6 +775,9 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -778,10 +811,15 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timeoutId = setTimeout(() => (running = false), timeout);
     }).finally(() => {
         cancelAnimationFrame(handle);
         clearTimeout(timeoutId);
+=======
+    }).finally(() => {
+        cancelAnimationFrame(handle);
+>>>>>>> upstream/18.0
 =======
     }).finally(() => {
         cancelAnimationFrame(handle);
@@ -863,7 +901,11 @@ export class Deferred extends Promise {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super((resolve, reject) => {
+=======
+        super(function deferredResolver(resolve, reject) {
+>>>>>>> upstream/18.0
 =======
         super(function deferredResolver(resolve, reject) {
 >>>>>>> upstream/18.0

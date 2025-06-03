@@ -7,6 +7,10 @@ import zipfile
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from contextlib import suppress
+>>>>>>> upstream/18.0
 =======
 from contextlib import suppress
 >>>>>>> upstream/18.0
@@ -108,12 +112,15 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not request.env.user.share:
             # Check through standard access rights/rules for internal users.
             attachment._delete_and_notify(message)
             return
         # For non-internal users 2 cases are supported:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126,6 +133,9 @@ class AttachmentController(http.Controller):
         # For non-internal users or internal users that didn't have access to the attachment (e.g. internal users accessing portal document with token), 2 cases are supported:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

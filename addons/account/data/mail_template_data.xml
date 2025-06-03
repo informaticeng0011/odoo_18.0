@@ -62,7 +62,11 @@
     </p>
 </div>
             </field>
+<<<<<<< HEAD
             <field name="report_template_ids" eval="[(4, ref('account.account_invoices'))]"/>
+=======
+            <field name="report_template_ids" eval="[]"/>
+>>>>>>> upstream/18.0
             <field name="lang">{{ object.partner_id.lang }}</field>
             <field name="auto_delete" eval="True"/>
         </record>
@@ -135,7 +139,11 @@
     </p>
 </div>
             </field>
+<<<<<<< HEAD
             <field name="report_template_ids" eval="[(4, ref('account.account_invoices'))]"/>
+=======
+            <field name="report_template_ids" eval="[]"/>
+>>>>>>> upstream/18.0
             <field name="lang">{{ object.partner_id.lang }}</field>
             <field name="auto_delete" eval="True"/>
         </record>

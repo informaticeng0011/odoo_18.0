@@ -55,6 +55,10 @@ export class TextInputPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ev.stopPropagation();
+>>>>>>> upstream/18.0
 =======
             ev.stopPropagation();
 >>>>>>> upstream/18.0

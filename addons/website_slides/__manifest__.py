@@ -205,6 +205,12 @@ Featuring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'portal.assets_chatter': [
+            'website_slides/static/src/chatter/frontend/**/*',
+        ],
+>>>>>>> upstream/18.0
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',

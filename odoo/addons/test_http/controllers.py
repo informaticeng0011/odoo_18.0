@@ -134,7 +134,11 @@ class TestHttp(http.Controller):
     @http.route('/test_http/<model("test_http.galaxy"):galaxy>/<model("test_http.stargate"):gate>', auth='user', readonly=True)
     def stargate(self, galaxy, gate):
         if not gate.exists():
+<<<<<<< HEAD
             raise UserError("The goa'uld destroyed the gate")
+=======
+            raise UserError("The goauld destroyed the gate")
+>>>>>>> upstream/18.0
 
         return http.request.render('test_http.tmpl_stargate', {
             'gate': gate

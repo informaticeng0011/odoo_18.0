@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from datetime import datetime, time
 from collections import defaultdict
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 from dateutil.relativedelta import relativedelta
 import pytz
 
@@ -138,6 +142,7 @@ class HrEmployee(models.Model):
 
         return self.env['hr.leave.mandatory.day'].search(domain)
 
+<<<<<<< HEAD
     @api.model
     def _get_contextual_employee(self):
         ctx = self.env.context
@@ -345,6 +350,8 @@ class HrEmployee(models.Model):
 
         return (allocations_leaves_consumed, to_recheck_leaves_per_leave_type)
 
+=======
+>>>>>>> upstream/18.0
     def _get_hours_per_day(self, date_from):
         ''' Return 24H to handle the case of Fully Flexible (ones without a working calendar)'''
         if not self:
