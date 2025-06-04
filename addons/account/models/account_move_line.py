@@ -230,7 +230,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373,6 +376,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -615,6 +621,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        index=True,
+>>>>>>> upstream/18.0
 =======
         index=True,
 >>>>>>> upstream/18.0
@@ -738,7 +748,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help='Last date at which the discounted amount must be paid in order for the Early Payment Discount to be granted'
+=======
+        help='Last date at which the discounted amount must be paid in order for the Early Payment Discount to be granted',
+        readonly=True
+>>>>>>> upstream/18.0
 =======
         help='Last date at which the discounted amount must be paid in order for the Early Payment Discount to be granted',
         readonly=True
@@ -1038,6 +1053,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    journal_id=line.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                     journal_id=line.journal_id.id,
 >>>>>>> upstream/18.0
@@ -1517,7 +1536,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id')
+=======
+    @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id', 'price_subtotal')
+>>>>>>> upstream/18.0
 =======
     @api.depends('move_id.needed_terms', 'account_id', 'analytic_distribution', 'tax_ids', 'tax_tag_ids', 'company_id', 'price_subtotal')
 >>>>>>> upstream/18.0
@@ -1869,7 +1892,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.flush_recordset()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2253,6 +2279,10 @@ class AccountMoveLine(models.Model):
 
         line_to_write = self
         vals = self._sanitize_vals(vals)
+<<<<<<< HEAD
+=======
+        matching2lines = None
+>>>>>>> upstream/18.0
         for line in self:
             if not any(self.env['account.move']._field_will_change(line, vals, field_name) for field_name in vals):
                 line_to_write -= line
@@ -2270,8 +2300,27 @@ class AccountMoveLine(models.Model):
                 line._check_tax_lock_date()
 
             # Check the reconciliation.
+<<<<<<< HEAD
             if any(self.env['account.move']._field_will_change(line, vals, field_name) for field_name in protected_fields['reconciliation']):
                 line._check_reconciliation()
+=======
+            if changing_fields := {
+                field_name
+                for field_name in protected_fields['reconciliation']
+                if self.env['account.move']._field_will_change(line, vals, field_name)
+            }:
+                matching2lines = dict(self.env['account.move.line'].sudo()._read_group(
+                    domain=[('matching_number', 'in', [n for n in self.mapped('matching_number') if n])],
+                    groupby=['matching_number'],
+                    aggregates=['id:recordset']
+                )) if matching2lines is None and line.matching_number else matching2lines
+                if (
+                    # allow changing the partner or/and the account on all the lines of a reconciliation together
+                    changing_fields - {'partner_id', 'account_id'}
+                    or line.matching_number and not all(reconciled_line in self for reconciled_line in matching2lines[line.matching_number])
+                ):
+                    line._check_reconciliation()
+>>>>>>> upstream/18.0
 
         move_container = {'records': self.move_id}
         with self.move_id._check_balanced(move_container),\
@@ -2333,7 +2382,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2379,6 +2431,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2626,8 +2681,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if forced_rate := self._context.get('forced_rate_from_register_payment'):
                 return forced_rate
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2855,7 +2913,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2951,6 +3012,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3068,6 +3132,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if debit_rate:
                 partial_debit_amount = company_currency.round(min_recon_amount / debit_rate)
                 partial_debit_amount = min(partial_debit_amount, remaining_debit_amount)
@@ -3081,6 +3146,8 @@ class AccountMoveLine(models.Model):
             partial_amount = min(partial_debit_amount, partial_credit_amount)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3216,6 +3283,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3933,7 +4003,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4080,6 +4153,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4239,9 +4315,13 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         journal = company.currency_exchange_journal_id
         expense_exchange_account = company.expense_currency_exchange_account_id
         income_exchange_account = company.income_currency_exchange_account_id
+=======
+        journal = self._get_exchange_journal(company)
+>>>>>>> upstream/18.0
 =======
         journal = self._get_exchange_journal(company)
 >>>>>>> upstream/18.0
@@ -4462,10 +4542,14 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if amount_residual_to_fix > 0.0:
                 exchange_line_account = expense_exchange_account
             else:
                 exchange_line_account = income_exchange_account
+=======
+            exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
+>>>>>>> upstream/18.0
 =======
             exchange_line_account = self._get_exchange_account(company, amount_residual_to_fix)
 >>>>>>> upstream/18.0

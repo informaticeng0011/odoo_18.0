@@ -1665,8 +1665,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if final:
             if moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0):
+=======
+        if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
+            with self.env.protecting([moves._fields['team_id']], moves_to_switch):
+>>>>>>> upstream/18.0
 =======
         if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
             with self.env.protecting([moves._fields['team_id']], moves_to_switch):
@@ -1935,6 +1940,7 @@ class SaleOrder(models.Model):
             elif self.state in ('draft', 'sent'):
                 access_opt['title'] = _("View Quotation")
 
+<<<<<<< HEAD
         # enable followers that have access through portal
         follower_group = next(group for group in groups if group[0] == 'follower')
         follower_group[2]['active'] = True
@@ -1946,6 +1952,8 @@ class SaleOrder(models.Model):
             access_opt['title'] = _("View Order")
         access_opt['url'] = self._notify_get_action_link('view', **local_msg_vals)
 
+=======
+>>>>>>> upstream/18.0
         return groups
 
     def _notify_by_email_prepare_rendering_context(self, message, msg_vals=False, model_description=False,

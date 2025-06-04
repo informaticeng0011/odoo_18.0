@@ -13,4 +13,10 @@
     'installable': True,
     'auto_install': ['account'],
     'license': 'LGPL-3',
+<<<<<<< HEAD
+=======
+    'data': [
+        'data/tax_report.xml',
+    ],
+>>>>>>> upstream/18.0
 }

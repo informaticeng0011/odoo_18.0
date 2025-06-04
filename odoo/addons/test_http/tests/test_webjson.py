@@ -1,7 +1,13 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 import html
 <<<<<<< HEAD
+<<<<<<< HEAD
 from base64 import b64encode
+=======
+from http import HTTPStatus
+from base64 import b64encode
+from urllib.parse import parse_qs, urlsplit
+>>>>>>> upstream/18.0
 =======
 from http import HTTPStatus
 from base64 import b64encode
@@ -269,6 +275,7 @@ class TestHttpWebJson_1(TestHttpBase):
                 .web_search_read(domain, {'name': {}, 'sgc_designation': {}})
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         # we should find one redirect with the domain in the URL
         [hist] = res.history
         self.assertEqual(hist.status_code, 307)
@@ -276,6 +283,8 @@ class TestHttpWebJson_1(TestHttpBase):
         self.assertIn("limit=80", res.url)
         self.assertIn(f"domain={str_domain}", res.url)
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(res.history), 1, "should had been redirected")
         self.assertEqual(res.history[0].status_code, HTTPStatus.TEMPORARY_REDIRECT)
         self.assertEqual(parse_qs(urlsplit(res.url).query), {
@@ -283,6 +292,9 @@ class TestHttpWebJson_1(TestHttpBase):
             'offset': ['0'],
             'limit': ['80'],
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_webjson_pivot(self):

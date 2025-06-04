@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+from . import product
+>>>>>>> upstream/18.0
 from . import purchase
 from . import res_company
 from . import sale

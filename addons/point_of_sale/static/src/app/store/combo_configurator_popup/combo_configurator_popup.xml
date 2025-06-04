@@ -37,7 +37,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Dialog title="props.product.display_name" contentClass="'combo-configurator-popup'">
+=======
+        <Dialog t-if="this.hasMultipleChoices()" title="props.product.display_name" contentClass="'combo-configurator-popup'">
+>>>>>>> upstream/18.0
 =======
         <Dialog t-if="this.hasMultipleChoices()" title="props.product.display_name" contentClass="'combo-configurator-popup'">
 >>>>>>> upstream/18.0
@@ -186,6 +190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-if="shouldShowCombo(combo)">
                     <h3 class="me-auto mb-3" t-esc="combo.name"/>
                     <div class="product-list d-grid gap-1">
@@ -210,6 +215,8 @@
                     </div>
                 </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -336,6 +343,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,13 @@
 import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
+<<<<<<< HEAD
 import { unformat } from "../_helpers/format";
+=======
+import { cleanLinkArtifacts, unformat } from "../_helpers/format";
+import { waitForNone } from "@odoo/hoot-dom";
+import { getContent, simulateDoubleClickSelect } from "../_helpers/selection";
+import { insertText } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 
 describe("button style", () => {
     test("editable button should have cursor text", async () => {
@@ -27,3 +34,22 @@ describe("button style", () => {
         expect(button).toHaveStyle({ cursor: "pointer" });
     });
 });
+<<<<<<< HEAD
+=======
+
+describe("button edit", () => {
+    test("button link should be editable with double click select", async () => {
+        const { el, editor } = await setupEditor('<p>this is a <a href="#">link</a></p>');
+        await waitForNone(".o-we-linkpopover");
+        const button = el.querySelector("a");
+        // simulate double click selection
+        await simulateDoubleClickSelect(button);
+        expect(getContent(el)).toBe(
+            '<p>this is a \ufeff<a href="#" class="o_link_in_selection">[\ufefflink]\ufeff</a>\ufeff</p>'
+        );
+        expect(cleanLinkArtifacts(getContent(el))).toBe('<p>this is a <a href="#">[link]</a></p>');
+        await insertText(editor, "X");
+        expect(cleanLinkArtifacts(getContent(el))).toBe('<p>this is a <a href="#">X[]</a></p>');
+    });
+});
+>>>>>>> upstream/18.0

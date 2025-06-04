@@ -5,6 +5,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_im_livechat_portal
+>>>>>>> upstream/18.0
 =======
 from . import test_im_livechat_portal
 >>>>>>> upstream/18.0

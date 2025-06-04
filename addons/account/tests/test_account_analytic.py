@@ -507,7 +507,10 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -619,6 +622,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -675,6 +679,8 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_get_relevant_plans_in_multi_company(self):
         """ Test the plans returned with applicability rules and options in multi-company """
@@ -692,4 +698,7 @@ class TestAccountAnalyticAccount(AccountTestInvoicingCommon, AnalyticCommon):
             company=self.company.id,
         )
         self.assertTrue(plans_json)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

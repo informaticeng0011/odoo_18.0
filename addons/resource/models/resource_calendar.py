@@ -366,6 +366,7 @@ class ResourceCalendar(models.Model):
         for tz, resources in resources_per_tz.items():
             res = result_per_tz[tz]
             res_intervals = WorkIntervals(res)
+<<<<<<< HEAD
             for resource in resources:
                 if resource and resource._is_flexible():
 <<<<<<< HEAD
@@ -620,6 +621,70 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
                     })
                     result_per_resource_id[resource.id] = WorkIntervals([(start, end, dummy_attendance)])
+=======
+            start_datetime = start_dt.astimezone(tz)
+            end_datetime = end_dt.astimezone(tz)
+
+            for resource in resources:
+                if resource and resource._is_fully_flexible():
+                    # If the resource is fully flexible, return the whole period from start_dt to end_dt with a dummy attendance
+                    dummy_attendance = self.env['resource.calendar.attendance'].new({
+                        'duration_hours': (end - start).total_seconds() / 3600,
+                        'duration_days': (end - start).days + 1,
+                    })
+                    result_per_resource_id[resource.id] = WorkIntervals([(start, end, dummy_attendance)])
+                elif resource and resource.calendar_id.flexible_hours:
+                    # For flexible Calendars, we create intervals to fill in the weekly intervals with the average daily hours
+                    # until the full time required hours are met. This gives us the most correct approximation when looking at a daily
+                    # and weekly range for time offs and overtime calculations and work entry generation
+                    start_date = start_datetime.date()
+                    end_datetime_adjusted = end_datetime - relativedelta(seconds=1)
+                    end_date = end_datetime_adjusted.date()
+
+                    full_time_required_hours = resource.calendar_id.full_time_required_hours
+                    max_hours_per_day = resource.calendar_id.hours_per_day
+
+                    intervals = []
+                    current_monday = start_date - timedelta(days=start_date.weekday())
+
+                    while current_monday <= end_date:
+                        current_sunday = current_monday + timedelta(days=6)
+
+                        week_start = max(current_monday, start_date)
+                        week_end = min(current_sunday, end_date)
+
+                        if current_monday < start_date:
+                            prior_days = (start_date - current_monday).days
+                            prior_hours = min(full_time_required_hours, max_hours_per_day * prior_days)
+                        else:
+                            prior_hours = 0
+
+                        remaining_hours = max(0, full_time_required_hours - prior_hours)
+
+                        current_day = week_start
+                        while current_day <= week_end:
+                            if remaining_hours > 0:
+                                allocate_hours = min(max_hours_per_day, remaining_hours)
+                                remaining_hours -= allocate_hours
+
+                                # Create interval centered at 12:00 PM
+                                midpoint = tz.localize(datetime.combine(current_day, time(12, 0)))
+                                start_time = midpoint - timedelta(hours=allocate_hours / 2)
+                                end_time = midpoint + timedelta(hours=allocate_hours / 2)
+
+                                dummy_attendance = self.env['resource.calendar.attendance'].new({
+                                    'duration_hours': allocate_hours,
+                                    'duration_days': 1,
+                                })
+
+                                intervals.append((start_time, end_time, dummy_attendance))
+
+                            current_day += timedelta(days=1)
+
+                        current_monday += timedelta(days=7)
+
+                    result_per_resource_id[resource.id] = WorkIntervals(intervals)
+>>>>>>> upstream/18.0
                 elif resource in per_resource_result:
                     resource_specific_result = [(max(bounds_per_tz[tz][0], tz.localize(val[0])), min(bounds_per_tz[tz][1], tz.localize(val[1])), val[2])
                         for val in per_resource_result[resource]]
@@ -691,7 +756,11 @@ class ResourceCalendar(models.Model):
                     tz_dates[(tz, end_dt)] = end
                 dt0 = string_to_datetime(leave_date_from).astimezone(tz)
                 dt1 = string_to_datetime(leave_date_to).astimezone(tz)
+<<<<<<< HEAD
                 if leave_resource and leave_resource._is_flexible():
+=======
+                if leave_resource and leave_resource._is_fully_flexible():
+>>>>>>> upstream/18.0
                     dt0, dt1 = self._handle_flexible_leave_interval(dt0, dt1, leave)
                 result[resource.id].append((max(start, dt0), min(end, dt1), leave))
 
@@ -766,6 +835,7 @@ class ResourceCalendar(models.Model):
             # If the interval covers only a part of the original attendance, we
             # take durations in days proportionally to what is left of the interval.
             interval_hours = (stop - start).total_seconds() / 3600
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -889,6 +959,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if len(self) == 1 and self.flexible_hours:
                 day_hours[start.date()] += meta.duration_hours
                 day_days[start.date()] += meta.duration_days
@@ -933,6 +1005,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

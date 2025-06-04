@@ -6,6 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-05-03 08:13+0000\n"
 "PO-Revision-Date: 2024-05-03 12:35+0000\n"
 "Last-Translator: Tóth Csaba <csaba.toth@odootech.hu>\n"
@@ -16,6 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.4.3\n"
+=======
+"POT-Creation-Date: 2025-05-27 12:23+0000\n"
+"PO-Revision-Date: 2025-05-27 12:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+>>>>>>> upstream/18.0
 
 #. module: l10n_hu_edi
 #: model:ir.model.fields,help:l10n_hu_edi.field_res_company__l10n_hu_edi_server_mode
@@ -333,6 +344,7 @@ msgid "Could not parse time of previous transaction"
 msgstr "Nem sikerült értelmezni az előző tranzakció idejét"
 
 #. module: l10n_hu_edi
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_hu_edi/__init__.py:0
 #, python-format
@@ -344,6 +356,8 @@ msgstr ""
 "A típusokat kézzel kell beállítani, vagy újra kell tölteni a CoA-t, mielőtt a számlákat elküldi a NAV-nak."
 
 #. module: l10n_hu_edi
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_cancellation__create_uid
 #: model:ir.model.fields,field_description:l10n_hu_edi.field_l10n_hu_edi_tax_audit_export__create_uid
 msgid "Created by"
@@ -710,10 +724,17 @@ msgstr "Számla beküldés ideje"
 #, python-format
 msgid ""
 "Invoices issued in Hungary must, with few exceptions, be reported to the "
+<<<<<<< HEAD
 "NAV's Online-Invoice system!"
 msgstr ""
 "Magyarországon a kiállított számlákat, néhány kivételtől eltekintve, "
 "kötelező jelenteni az adóhatóság online számla rendszerébe!"
+=======
+"NAV's Online-Invoice system."
+msgstr ""
+"Magyarországon a kiállított számlákat, néhány kivételtől eltekintve, "
+"kötelező jelenteni az adóhatóság online számla rendszerébe."
+>>>>>>> upstream/18.0
 
 #. module: l10n_hu_edi
 #: model:ir.model,name:l10n_hu_edi.model_account_move
@@ -807,8 +828,13 @@ msgid "Linear meter"
 msgstr "Folyóméter"
 
 #. module: l10n_hu_edi
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__litre
 msgid "Litre"
+=======
+#: model:ir.model.fields.selection,name:l10n_hu_edi.selection__uom_uom__l10n_hu_edi_code__liter
+msgid "Liter"
+>>>>>>> upstream/18.0
 msgstr "Liter"
 
 #. module: l10n_hu_edi
@@ -962,6 +988,7 @@ msgid "NAV expected payment mode of the invoice."
 msgstr ""
 
 #. module: l10n_hu_edi
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/l10n_hu_edi/models/l10n_hu_edi_connection.py:0
 #, python-format
@@ -969,6 +996,8 @@ msgid "NAV replied with non-OK funcCode: %s"
 msgstr "A NAV nem OK funcCode-dal válaszolt: %s"
 
 #. module: l10n_hu_edi
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_hu_edi.selection__account_tax__l10n_hu_tax_type__nonrefundable_vat
 msgid ""
 "NONREFUNDABLE_VAT - VAT incurred under sections 11 or 14, with an agreement "
@@ -1071,6 +1100,16 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_hu_edi/models/account_move.py:0
 #, python-format
+<<<<<<< HEAD
+=======
+msgid "Please set a valid recipient bank account number!"
+msgstr "Kérjük, adjon meg érvényes címzett bankszámlaszámot!"
+
+#. module: l10n_hu_edi
+#. odoo-python
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+#, python-format
+>>>>>>> upstream/18.0
 msgid "Please set any VAT taxes to be 'Affected by previous taxes'!"
 msgstr ""
 "Kérjük, állítsa be az ÁFA adókat úgy, hogy a 'Korábbi adók által érintett' "
@@ -1135,8 +1174,13 @@ msgstr "Kérjük, adja meg a névjegy adószámát a céges partnerekre!"
 #. odoo-python
 #: code:addons/l10n_hu_edi/models/account_move.py:0
 #, python-format
+<<<<<<< HEAD
 msgid "Please use HUF as company currency!"
 msgstr "Kérjük, hogy a vállalat pénznemeként HUF-ot használjon!"
+=======
+msgid "Please use HUF or EUR as your company currency."
+msgstr "Kérjük, hogy a vállalat pénznemeként HUF-ot vagy EUR-t használjon."
+>>>>>>> upstream/18.0
 
 #. module: l10n_hu_edi
 #: model:ir.model.fields,help:l10n_hu_edi.field_account_tax__l10n_hu_tax_type
@@ -1530,6 +1574,10 @@ msgstr "Számla(k) megtekintése"
 #: code:addons/l10n_hu_edi/models/account_move.py:0
 #: code:addons/l10n_hu_edi/models/account_move.py:0
 #: code:addons/l10n_hu_edi/models/account_move.py:0
+<<<<<<< HEAD
+=======
+#: code:addons/l10n_hu_edi/models/account_move.py:0
+>>>>>>> upstream/18.0
 #, python-format
 msgid "View partner(s)"
 msgstr "Partner(ek) megtekintése"

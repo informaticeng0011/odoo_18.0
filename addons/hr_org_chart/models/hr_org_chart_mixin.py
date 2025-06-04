@@ -52,7 +52,11 @@ class HrEmployeeBase(models.AbstractModel):
         else:
             for employee in self:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 employee.is_subordinate = employee in subordinates
+=======
+                employee.is_subordinate = employee.id in subordinates.ids
+>>>>>>> upstream/18.0
 =======
                 employee.is_subordinate = employee.id in subordinates.ids
 >>>>>>> upstream/18.0

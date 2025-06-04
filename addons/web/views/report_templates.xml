@@ -220,6 +220,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            <div id="total" class="clearfix row mt-n3">
 =======
                            <div id="total" class="clearfix mt-n3">
@@ -250,6 +251,9 @@
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix mt-n3">
+>>>>>>> upstream/18.0
+=======
+                           <div id="total" class="clearfix row mt-n3">
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix row mt-n3">
@@ -546,6 +550,7 @@
         </div>
 
         <div t-attf-class="footer o_company_#{company.id}_layout {{report_type != 'pdf' and 'mt-auto'}}">
+<<<<<<< HEAD
             <div class="o_footer_content row border-top pt-2">
                 <div class="col-8">
                     <span t-field="company.report_footer"/>
@@ -554,6 +559,16 @@
                     <strong t-if="company.report_header" t-field="company.report_header" class="o_company_tagline">Company tagline</strong>
                     <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
                     <span t-if="report_type == 'pdf'" class="text-muted">Page <span class="page"/> / <span class="topage"/></span>
+=======
+            <div class="o_footer_content" t-attf-class="{{'d-flex' if is_html_empty(company.report_header) else 'row' }} o_footer_content border-top pt-2">
+                <div t-attf-class="{{'flex-grow-1' if is_html_empty(company.report_header) else 'col-8'}} {{'me-2' if is_html_empty(company.report_header) and report_type == 'pdf' else ''}}">
+                    <span t-field="company.report_footer"/>
+                </div>
+                <div t-attf-class="{{'' if is_html_empty(company.report_header) else 'col-4'}} text-end">
+                    <strong t-if="not is_html_empty(company.report_header)" t-field="company.report_header" class="o_company_tagline">Company tagline</strong>
+                    <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
+                    <span t-if="report_type == 'pdf'" t-attf-class="text-muted {{'text-nowrap' if is_html_empty(company.report_header) else ''}}">Page <span class="page"/> / <span class="topage"/></span>
+>>>>>>> upstream/18.0
                 </div>
             </div>
         </div>
@@ -605,6 +620,7 @@
         </div>
 
         <div t-attf-class="footer o_company_#{company.id}_layout {{report_type != 'pdf' and 'mt-auto'}}">
+<<<<<<< HEAD
             <div class="o_footer_content row border-top pt-2">
                 <div class="col-8">
                     <span t-field="company.report_footer"/>
@@ -613,6 +629,16 @@
                     <strong t-if="company.report_header" t-field="company.report_header" class="o_company_tagline">Company tagline</strong>
                     <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
                     <span t-if="report_type == 'pdf'" class="text-muted">Page <span class="page"/> / <span class="topage"/></span>
+=======
+            <div class="o_footer_content" t-attf-class="{{'d-flex' if is_html_empty(company.report_header) else 'row' }} o_footer_content border-top pt-2">
+                <div t-attf-class="{{'flex-grow-1' if is_html_empty(company.report_header) else 'col-8'}} {{'me-2' if is_html_empty(company.report_header) and report_type == 'pdf' else ''}}">
+                    <span t-field="company.report_footer"/>
+                </div>
+                <div t-attf-class="{{'' if is_html_empty(company.report_header) else 'col-4'}} text-end">
+                    <strong t-if="not is_html_empty(company.report_header)" t-field="company.report_header" class="o_company_tagline">Company tagline</strong>
+                    <span t-if="report_type == 'pdf' and display_name_in_footer" class="text-muted" t-out="str(o.name) + ', '">(document name)</span>
+                    <span t-if="report_type == 'pdf'" t-attf-class="text-muted {{'text-nowrap' if is_html_empty(company.report_header) else ''}}">Page <span class="page"/> / <span class="topage"/></span>
+>>>>>>> upstream/18.0
                 </div>
             </div>
         </div>
@@ -695,7 +721,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-if="report_type == 'pdf'">Page <span class="page"/> / <span class="topage"/></div>
+=======
+                    <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
+>>>>>>> upstream/18.0
 =======
                     <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
 >>>>>>> upstream/18.0

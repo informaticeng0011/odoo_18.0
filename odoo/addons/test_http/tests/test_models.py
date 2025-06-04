@@ -1,7 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import html
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from http import HTTPStatus
@@ -74,7 +77,11 @@ class TestHttpModels(TestHttpBase):
         res = self.url_open(f'/test_http/{milky_way.id}/9999')  # unknown gate
         self.assertEqual(res.status_code, 400)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn("The goa'uld destroyed the gate", html.unescape(res.text))
+=======
+        self.assertIn("The goauld destroyed the gate", res.text)
+>>>>>>> upstream/18.0
 =======
         self.assertIn("The goauld destroyed the gate", res.text)
 >>>>>>> upstream/18.0

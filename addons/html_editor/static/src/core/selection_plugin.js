@@ -38,7 +38,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "../utils/dom_info";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -184,6 +187,7 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // If the range is invisible (0 width & height) and selection is collapsed,
     // it's likely inside an empty paragraph.
     // In that case, we try to get the bounding rect from a nearby child element
@@ -201,6 +205,8 @@ function scrollToSelection(selection) {
             rect = target.getBoundingClientRect();
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247,6 +253,9 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -350,7 +359,13 @@ export class SelectionPlugin extends Plugin {
             }
         });
         this.addDomListener(this.editable, "mousedown", (ev) => {
+<<<<<<< HEAD
             if (ev.detail >= 3) {
+=======
+            if (ev.detail === 2) {
+                this.correctDoubleClick = true;
+            } else if (ev.detail >= 3) {
+>>>>>>> upstream/18.0
                 this.correctTripleClick = true;
             }
             this.handleEmptySelection();
@@ -428,6 +443,34 @@ export class SelectionPlugin extends Plugin {
                     return this.setSelection({ anchorNode, anchorOffset, focusNode, focusOffset });
                 }
             }
+<<<<<<< HEAD
+=======
+            if (this.correctDoubleClick) {
+                this.correctDoubleClick = false;
+                const { anchorNode, anchorOffset, focusNode } = this.activeSelection;
+                const anchorElement = closestElement(anchorNode);
+                // Allow editing the text of a link after "double click" on the last word of said link.
+                // This is done by correcting the selection focus inside of the link
+                if (
+                    anchorElement.tagName === "A" &&
+                    anchorNode !== focusNode &&
+                    focusNode.previousSibling === anchorElement
+                ) {
+                    const anchorElementLength = anchorElement.childNodes.length;
+
+                    // Due to the ZWS added around links we can always expect
+                    // the last childNode to be a ZWS in its own textNode.
+                    // therefore we can safely set the selection focus before last node.
+                    const newSelection = {
+                        anchorNode: anchorNode,
+                        anchorOffset: anchorOffset,
+                        focusNode: anchorElement,
+                        focusOffset: anchorElementLength - 1,
+                    };
+                    return this.setSelection(newSelection);
+                }
+            }
+>>>>>>> upstream/18.0
 
             if (this.fixSelectionOnEditableRoot(this.activeSelection)) {
                 return;

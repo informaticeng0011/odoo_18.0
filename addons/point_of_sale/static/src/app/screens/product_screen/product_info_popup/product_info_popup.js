@@ -59,7 +59,11 @@ export class ProductInfoPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const isCashierManager = this.pos.get_cashier().role === "manager";
+=======
+        const isCashierManager = this.pos.get_cashier()._role === "manager";
+>>>>>>> upstream/18.0
 =======
         const isCashierManager = this.pos.get_cashier()._role === "manager";
 >>>>>>> upstream/18.0

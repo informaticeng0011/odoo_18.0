@@ -109,6 +109,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
+        sale_order.order_line = orderlines;
+>>>>>>> upstream/18.0
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
         sale_order.order_line = orderlines;
@@ -283,8 +288,12 @@ patch(PosStore.prototype, {
             sale_order.order_line.map((l) => l.id),
         ]);
 
+<<<<<<< HEAD
         for (let i = 0; i < sale_order.order_line.length; ++i) {
             const line = sale_order.order_line[i];
+=======
+        for (const line of sale_order.order_line) {
+>>>>>>> upstream/18.0
             if (line.display_type === "line_note") {
                 if (previousProductLine) {
                     const previousNote = previousProductLine.customer_note;
@@ -320,7 +329,11 @@ patch(PosStore.prototype, {
             const newLine = await this.addLineToCurrentOrder(newLineValues, {}, false);
             previousProductLine = newLine;
 
+<<<<<<< HEAD
             const converted_line = converted_lines[i];
+=======
+            const converted_line = converted_lines.find((l) => l.id === line.id);
+>>>>>>> upstream/18.0
             if (
                 newLine.get_product().tracking !== "none" &&
                 (this.pickingType.use_create_lots || this.pickingType.use_existing_lots) &&

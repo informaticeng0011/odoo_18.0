@@ -250,7 +250,11 @@ class PhoneMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Are you sure you want to unblacklist this Phone Number?',
+=======
+                'name': self.env._('Are you sure you want to unblacklist this Phone Number?'),
+>>>>>>> upstream/18.0
 =======
                 'name': self.env._('Are you sure you want to unblacklist this Phone Number?'),
 >>>>>>> upstream/18.0
@@ -305,7 +309,11 @@ class PhoneMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AccessError("You do not have the access right to unblacklist phone numbers. Please contact your administrator.")
+=======
+            raise AccessError(self.env._("You do not have the access right to unblacklist phone numbers. Please contact your administrator."))
+>>>>>>> upstream/18.0
 =======
             raise AccessError(self.env._("You do not have the access right to unblacklist phone numbers. Please contact your administrator."))
 >>>>>>> upstream/18.0

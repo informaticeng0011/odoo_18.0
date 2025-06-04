@@ -96,7 +96,11 @@ viewsRegistry.category("form").add(
 // should be enough to decide whether or not notifications/channel
 // subscriptions... are received.
 <<<<<<< HEAD
+<<<<<<< HEAD
 const TIMEOUT = 500;
+=======
+const TIMEOUT = 2000;
+>>>>>>> upstream/18.0
 =======
 const TIMEOUT = 2000;
 >>>>>>> upstream/18.0

@@ -36,10 +36,13 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @typedef {import("@web/core/domain").DomainRepr} DomainRepr */
 /** @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr */
 /** @typedef {import("../views/utils").OrderTerm} OrderTerm */
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75,6 +78,9 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

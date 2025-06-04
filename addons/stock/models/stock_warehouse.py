@@ -376,7 +376,11 @@ class Warehouse(models.Model):
         for picking_type, values in data.items():
             if self[picking_type]:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self[picking_type].sudo().sequence_id.write(sequence_data[picking_type])
+=======
+                self[picking_type].sudo().sequence_id.write({'company_id': self.company_id.id})
+>>>>>>> upstream/18.0
 =======
                 self[picking_type].sudo().sequence_id.write({'company_id': self.company_id.id})
 >>>>>>> upstream/18.0
@@ -443,7 +447,11 @@ class Warehouse(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not route or (route.company_id and route.company_id != company):
+=======
+        if not route or (route.sudo().company_id and route.sudo().company_id != company):
+>>>>>>> upstream/18.0
 =======
         if not route or (route.sudo().company_id and route.sudo().company_id != company):
 >>>>>>> upstream/18.0

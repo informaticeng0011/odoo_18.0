@@ -899,7 +899,10 @@ class TestWarehouse(TestStockCommon):
             'picking_type_id': warehouse.out_type_id.id, 'company_id': companies.ids[0], 'location_id': warehouse.wh_output_stock_loc_id.id,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sequence_preservation_on_step_change(self):
         out_type = self.warehouse_1.out_type_id
@@ -908,4 +911,7 @@ class TestWarehouse(TestStockCommon):
         sequence.prefix += end_of_prefix
         self.warehouse_1.delivery_steps = 'pick_ship'
         self.assertTrue(sequence.prefix.endswith(end_of_prefix))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

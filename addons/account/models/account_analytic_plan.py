@@ -65,7 +65,11 @@ class AccountAnalyticApplicability(models.Model):
         if self.account_prefix:
             account_prefixes = tuple(prefix for prefix in re.split("[,;]", self.account_prefix.replace(" ", "")) if prefix)
 <<<<<<< HEAD
+<<<<<<< HEAD
             if account and account.code.startswith(account_prefixes):
+=======
+            if account.code and account.code.startswith(account_prefixes):
+>>>>>>> upstream/18.0
 =======
             if account.code and account.code.startswith(account_prefixes):
 >>>>>>> upstream/18.0

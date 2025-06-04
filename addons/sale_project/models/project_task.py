@@ -205,7 +205,11 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "Portal Sale Order",
+=======
+            "name": self.env._("Portal Sale Order"),
+>>>>>>> upstream/18.0
 =======
             "name": self.env._("Portal Sale Order"),
 >>>>>>> upstream/18.0

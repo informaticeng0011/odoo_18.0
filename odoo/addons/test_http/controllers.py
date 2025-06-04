@@ -135,7 +135,11 @@ class TestHttp(http.Controller):
     def stargate(self, galaxy, gate):
         if not gate.exists():
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise UserError("The goa'uld destroyed the gate")
+=======
+            raise UserError("The goauld destroyed the gate")
+>>>>>>> upstream/18.0
 =======
             raise UserError("The goauld destroyed the gate")
 >>>>>>> upstream/18.0

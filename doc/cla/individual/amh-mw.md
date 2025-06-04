@@ -8,4 +8,8 @@ declaration.
 
 Signed,
 
+<<<<<<< HEAD
+=======
+Adam Heinz adam.heinz@metricwise.com https://github.com/amh-mw
+>>>>>>> upstream/18.0
 Adam Heinz amh@metricwise.net https://github.com/amh-mw

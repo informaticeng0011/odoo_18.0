@@ -101,12 +101,15 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('partner_id', 'in', self.ids),
             ('order_line', 'any', [('untaxed_amount_to_invoice', '>', 0)]),
             ('state', '=', 'sale'),
         ])
         for (partner, currency), orders in sale_orders.grouped(lambda so: (so.partner_id, so.currency_id)).items():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158,6 +161,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209,7 +215,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner.credit_to_invoice += credit_company_currency
+=======
+            partner.commercial_partner_id.credit_to_invoice += credit_company_currency
+>>>>>>> upstream/18.0
 =======
             partner.commercial_partner_id.credit_to_invoice += credit_company_currency
 >>>>>>> upstream/18.0

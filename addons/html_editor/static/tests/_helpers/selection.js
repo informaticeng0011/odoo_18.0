@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import { manuallyDispatchProgrammaticEvent, animationFrame } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 /**
  * @param {Node} node
  * @param {Object} options
@@ -214,3 +219,45 @@ function visitAndSetRange(target, ref, configSelection) {
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+export async function firstClick(target) {
+    manuallyDispatchProgrammaticEvent(target, "mousedown", { detail: 1 });
+    setSelection({ anchorNode: target, anchorOffset: 0 });
+    await animationFrame(); // selectionChange
+    manuallyDispatchProgrammaticEvent(target, "mouseup", { detail: 1 });
+    manuallyDispatchProgrammaticEvent(target, "click", { detail: 1 });
+    await animationFrame();
+}
+
+export async function secondClick(target) {
+    manuallyDispatchProgrammaticEvent(target, "mousedown", { detail: 2 });
+    const document = target.ownerDocument;
+    document.getSelection().modify("extend", "forward", "word");
+    await animationFrame(); // selectionChange
+    manuallyDispatchProgrammaticEvent(target, "mouseup", { detail: 2 });
+    manuallyDispatchProgrammaticEvent(target, "click", { detail: 2 });
+    await animationFrame();
+}
+
+export async function thirdClick(target) {
+    manuallyDispatchProgrammaticEvent(target, "mousedown", { detail: 3 });
+    const document = target.ownerDocument;
+    document.getSelection().modify("extend", "forward", "paragraphboundary");
+    await animationFrame(); // selectionChange
+    manuallyDispatchProgrammaticEvent(target, "mouseup", { detail: 3 });
+    manuallyDispatchProgrammaticEvent(target, "click", { detail: 3 });
+    await animationFrame();
+}
+
+export async function simulateDoubleClickSelect(target) {
+    await firstClick(target);
+    await secondClick(target);
+}
+export async function simulateTripleClickSelect(target) {
+    await firstClick(target);
+    await secondClick(target);
+    await thirdClick(target);
+}
+>>>>>>> upstream/18.0

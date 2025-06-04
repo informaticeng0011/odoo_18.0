@@ -10,6 +10,10 @@ export class ExhibitorConnectClosedDialog extends Component {
     static components = { Dialog };
     static props = {
         sponsorId: Number,
+<<<<<<< HEAD
+=======
+        close: Function,
+>>>>>>> upstream/18.0
     };
 
     setup() {

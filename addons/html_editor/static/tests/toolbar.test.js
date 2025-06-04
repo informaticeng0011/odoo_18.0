@@ -33,6 +33,7 @@ import {
     moveSelectionOutsideEditor,
     setContent,
     setSelection,
+<<<<<<< HEAD
 } from "./_helpers/selection";
 import { strong } from "./_helpers/tags";
 import { delay } from "@web/core/utils/concurrency";
@@ -94,6 +95,17 @@ import { nodeSize } from "@html_editor/utils/position";
 import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
 =======
+import { nodeSize } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
+=======
+    simulateDoubleClickSelect,
+    simulateTripleClickSelect,
+    firstClick,
+    secondClick,
+    thirdClick,
+} from "./_helpers/selection";
+import { strong } from "./_helpers/tags";
+import { delay } from "@web/core/utils/concurrency";
 import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
 
@@ -570,7 +582,10 @@ test("toolbar open on single selected cell in table", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -682,6 +697,9 @@ test("should select table single cell when entire content is selected via mouse 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -771,9 +789,13 @@ test("toolbar correctly show namespace button group and stop showing when namesp
             toolbar_namespaces: [
                 {
                     id: "aNamespace",
+<<<<<<< HEAD
                     isApplied: (nodeList) => {
                         return !!nodeList.find((node) => node.tagName === "DIV");
                     },
+=======
+                    isApplied: (nodeList) => !!nodeList.find((node) => node.tagName === "DIV"),
+>>>>>>> upstream/18.0
                 },
             ],
             user_commands: { id: "test_cmd", run: () => null },
@@ -986,6 +1008,7 @@ test("close the toolbar if the selection contains any nodes (traverseNode = [], 
 
 test.tags("desktop");
 test("should not close image cropper while loading media", async () => {
+<<<<<<< HEAD
     onRpc("/html_editor/get_image_info", () => {
         return {
             original: {
@@ -993,6 +1016,13 @@ test("should not close image cropper while loading media", async () => {
             },
         };
     });
+=======
+    onRpc("/html_editor/get_image_info", () => ({
+        original: {
+            image_src: "#",
+        },
+    }));
+>>>>>>> upstream/18.0
     onRpc("/web/image/__odoo__unknown__src__/", async () => {
         await delay(50);
         return {};
@@ -1115,6 +1145,7 @@ describe("toolbar open and close on user interaction", () => {
             expect(".o-we-toolbar").toHaveCount(0);
         });
 
+<<<<<<< HEAD
         const firstClick = async (target) => {
             manuallyDispatchProgrammaticEvent(target, "mousedown", { detail: 1 });
             setSelection({ anchorNode: target, anchorOffset: 0 });
@@ -1144,13 +1175,19 @@ describe("toolbar open and close on user interaction", () => {
             await tick();
         };
 
+=======
+>>>>>>> upstream/18.0
         test("toolbar should open on double click", async () => {
             const { el } = await setupEditor("<p>test</p>");
             const p = el.firstElementChild;
 
+<<<<<<< HEAD
             // Double click
             await firstClick(p);
             await secondClick(p);
+=======
+            await simulateDoubleClickSelect(p);
+>>>>>>> upstream/18.0
             expect(getContent(el)).toBe("<p>[test]</p>");
             // toolbar open after double click is debounced
             await advanceTime(500);
@@ -1161,10 +1198,14 @@ describe("toolbar open and close on user interaction", () => {
             const { el } = await setupEditor("<p>test text</p>");
             const p = el.firstElementChild;
 
+<<<<<<< HEAD
             // Triple click
             await firstClick(p);
             await secondClick(p);
             await thirdClick(p);
+=======
+            await simulateTripleClickSelect(p);
+>>>>>>> upstream/18.0
             expect(getContent(el)).toBe("<p>[test text]</p>");
             // toolbar open after triple click is debounced
             await advanceTime(500);
@@ -1194,8 +1235,12 @@ describe("toolbar open and close on user interaction", () => {
             const { el } = await setupEditor("<p>test text</p>");
             const p = el.firstElementChild;
 
+<<<<<<< HEAD
             await firstClick(p);
             await secondClick(p);
+=======
+            await simulateDoubleClickSelect(p);
+>>>>>>> upstream/18.0
             await pointerDown(p);
             manuallyDispatchProgrammaticEvent(p, "mousedown", { detail: 3 });
             setSelection({ anchorNode: p, anchorOffset: 0, focusOffset: 1 });

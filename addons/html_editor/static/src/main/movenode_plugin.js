@@ -92,7 +92,11 @@ export class MoveNodePlugin extends Plugin {
     intersectionObserverCallback(entries) {
         for (const entry of entries) {
             const element = entry.target;
+<<<<<<< HEAD
             if (entry.isIntersecting) {
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
                 this.visibleMovableElements.add(element);
                 this.resetHooksNextMousemove = true;
             } else {

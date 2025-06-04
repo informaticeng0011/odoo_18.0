@@ -434,7 +434,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -518,6 +521,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         internals = receipts._get_next_transfers()
         self.assertEqual(internals[0].partner_id, xd_customer)
         self.assertEqual(internals[0].move_ids.product_id, xd_product)
@@ -553,6 +557,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # we will process the XD internal picking during the next step (output pickings)
         _xd_internal, receipt_internal = receipts._get_next_transfers()
         self.assertFalse(receipt_internal.partner_id)
@@ -581,6 +587,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

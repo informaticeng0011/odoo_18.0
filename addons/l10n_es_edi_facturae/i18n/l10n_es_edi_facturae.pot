@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.2alpha1+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-30 09:04+0000\n"
 "PO-Revision-Date: 2024-01-30 09:04+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-21 14:26+0000\n"
+"PO-Revision-Date: 2025-05-21 14:26+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -43,6 +50,14 @@ msgid "Accepted bill of exchange"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_es_edi_facturae.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_es_edi_facturae.model_account_move_reversal
 msgid "Account Move Reversal"
 msgstr ""
@@ -169,6 +184,19 @@ msgid "Centimeters"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:l10n_es_edi_facturae.model_certificate_certificate
+msgid "Certificate"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_certificate_certificate__scope
+msgid "Certificate scope"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root_certificates
 msgid "Certificates"
 msgstr ""
@@ -227,11 +255,14 @@ msgid "Companies"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__company_id
 msgid "Company"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_es_edi_facturae.model_res_partner
 msgid "Contact"
 msgstr ""
@@ -242,6 +273,14 @@ msgid "Contract award"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__29
+msgid "Corporation Tax"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid ""
@@ -252,7 +291,11 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+<<<<<<< HEAD
 msgid "Could not retrieve the tax: %s %% for line '%s'."
+=======
+msgid "Could not retrieve the tax: %(tax_rate)s %% for line '%(line)s'."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -262,7 +305,10 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_uid
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__create_uid
+=======
+>>>>>>> upstream/18.0
 msgid "Created by"
 msgstr ""
 
@@ -274,7 +320,10 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__create_date
+=======
+>>>>>>> upstream/18.0
 msgid "Created on"
 msgstr ""
 
@@ -297,6 +346,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__date_end
 msgid "Date End"
 msgstr ""
@@ -307,6 +357,8 @@ msgid "Date Start"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__20
 msgid "Demijohns, non-protected"
 msgstr ""
@@ -318,7 +370,10 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__display_name
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__display_name
+=======
+>>>>>>> upstream/18.0
 msgid "Display Name"
 msgstr ""
 
@@ -339,11 +394,23 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_es_edi_facturae/wizard/account_move_send.py:0
+=======
+#: code:addons/l10n_es_edi_facturae/models/account_move_send.py:0
+>>>>>>> upstream/18.0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__26
+msgid "Excise duty applied to manufactured tobacco in Canaries"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__res_partner__type__facturae_ac
 msgid "FACe Center"
 msgstr ""
@@ -354,6 +421,7 @@ msgid "Factura-e"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_id
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_id
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_xml_id
@@ -363,6 +431,18 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #: model:ir.model,name:l10n_es_edi_facturae.model_l10n_es_edi_facturae_certificate
 msgid "Facturae Digital Certificate"
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__certificate_certificate__scope__facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__res_partner__invoice_edi_format__es_facturae
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
+msgid "Facturae"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_id
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_id
+msgid "Facturae Attachment"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -373,20 +453,32 @@ msgid "Facturae EDI Residency Type Code"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_certificate_id
+=======
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_certificate_ids
+>>>>>>> upstream/18.0
 msgid "Facturae EDI signing certificate"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_file
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_file
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_xml_file
+=======
+>>>>>>> upstream/18.0
 msgid "Facturae File"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_company_form_inherit_l10n_es_edi_facturae
 msgid "Facturae signature certificate"
+=======
+#: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
+msgid "Facturae certificates"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -395,11 +487,14 @@ msgid "Fiscal"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__l10n_es_edi_facturae_checkbox_xml
 msgid "Generate Facturae edi file"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__21
 msgid "Grams"
 msgstr ""
@@ -410,12 +505,105 @@ msgid "Hours"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__id
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__id
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__12
+msgid "ICIO: Tax on construction, installation and works"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__id
+>>>>>>> upstream/18.0
 msgid "ID"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__25
+msgid "IDEC: Tax on bank deposits"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__07
+msgid "IE: Excise duties and consumption taxes"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__10
+msgid "IECDPCAC: Excise duties on oil derivates in Canaries"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__27
+msgid "IGFEI: Tax on Fluorinated Greenhouse Gases"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__03
+msgid "IGIC: Canaries General Indirect Tax"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__09
+msgid "IGTECM: Sales tax in Ceuta and Melilla"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__11
+msgid ""
+"IIIMAB: Tax on premises that affect the environment in the Balearic Islands"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__15
+msgid "IMGSN: Local sumptuary tax in Navarre"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__16
+msgid "IMPN: Local tax on advertising in Navarre"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__14
+msgid "IMSN: Local tax on building plots in Navarre"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__13
+msgid "IMVDN: Local tax on unoccupied homes in Navarre"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__20
+msgid "IPS: Insurance premiums Tax"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__28
+msgid "IRNR: Non-resident Income Tax"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__04
+msgid "IRPF: Personal Income Tax"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__06
+msgid "ITPAJD: Tax on wealth transfers and stamp duty"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__22
+msgid "IVPEE: Tax on the value of electricity generation"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_physical_gln
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_physical_gln
 msgid ""
@@ -439,14 +627,20 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_end_date
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_end_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_invoicing_period_end_date
+=======
+>>>>>>> upstream/18.0
 msgid "Invoice Period End Date"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_start_date
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_start_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_invoicing_period_start_date
+=======
+>>>>>>> upstream/18.0
 msgid "Invoice Period Start Date"
 msgstr ""
 
@@ -530,6 +724,7 @@ msgid "Kilowatt-hour"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__l10n_es_edi_facturae_enable_xml
 msgid "L10N Es Edi Facturae Enable Xml"
 msgstr ""
@@ -537,12 +732,18 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_uid
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__write_uid
+=======
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_uid
+>>>>>>> upstream/18.0
 msgid "Last Updated by"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_date
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__write_date
+=======
+>>>>>>> upstream/18.0
 msgid "Last Updated on"
 msgstr ""
 
@@ -590,6 +791,15 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+<<<<<<< HEAD
+=======
+msgid "No valid certificate found"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#. odoo-python
+#: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+>>>>>>> upstream/18.0
 msgid ""
 "No valid certificate found for this company, Facturae EDI file will not be "
 "signed.\n"
@@ -611,22 +821,30 @@ msgid "Open account reimbursement"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__05
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__05
 msgid "Other"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__content
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__content
 msgid "PFX Certificate"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__28
 msgid "Packages"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__password
 msgid "Passphrase for the PFX certificate"
 msgstr ""
@@ -637,6 +855,8 @@ msgid "Password"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:l10n_es_edi_facturae.ac_role_type,name:l10n_es_edi_facturae.ac_role_type_03
 msgid "Payer"
 msgstr ""
@@ -644,7 +864,10 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_payment_means
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_payment_means
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_payment_means
+=======
+>>>>>>> upstream/18.0
 msgid "Payment Means"
 msgstr ""
 
@@ -680,6 +903,29 @@ msgid "Product Unit of Measure"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__08
+msgid "RA: Customs duties"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__18
+msgid "REIGIC: Special IGIC: for travel agencies"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__19
+msgid "REIPSI: Special IPSI for travel agencies"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__17
+msgid "REIVA: Special VAT for travel agencies"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_account_move_reversal_inherit_l10n_es_edi_facturae
 msgid "Reason"
 msgstr ""
@@ -721,6 +967,14 @@ msgid "Rolls"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__21
+msgid "SWUA: Surcharge for Winding Up Activity"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__34
 msgid "Second"
 msgstr ""
@@ -731,11 +985,14 @@ msgid "Seller"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__serial_number
 msgid "Serial Number"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__14
 msgid "Set-off by reciprocal credits"
 msgstr ""
@@ -754,7 +1011,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_reason_code
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_reason_code
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_reversal__l10n_es_edi_facturae_reason_code
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_reason_code
+=======
+>>>>>>> upstream/18.0
 msgid "Spanish Facturae EDI Reason Code"
 msgstr ""
 
@@ -786,6 +1046,23 @@ msgid "Tax"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__23
+msgid ""
+"Tax on the production of spent nuclear fuel and radioactive waste from the "
+"generation of nuclear electric power"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__24
+msgid ""
+"Tax on the storage of spent nuclear energy and radioactive waste in "
+"centralised facilities"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__16
 msgid "Taxable Base"
 msgstr ""
@@ -815,6 +1092,14 @@ msgid ""
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__02
+msgid "Taxes on production, services and imports in Ceuta and Melilla"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__14
 msgid "Tetra Briks"
 msgstr ""
@@ -833,12 +1118,15 @@ msgstr ""
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
+<<<<<<< HEAD
 #: code:addons/l10n_es_edi_facturae/models/l10n_es_edi_facturae_certificate.py:0
 msgid "The certificate is expired since %s"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "The company needs a set tax identification number or VAT number"
 msgstr ""
@@ -846,7 +1134,10 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The credit note/refund appears to have been issued manually. For the purpose"
 " of generating a Facturae document, it's necessary that the credit "
@@ -854,6 +1145,7 @@ msgid ""
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__date_end
 msgid "The date on which the certificate expires"
 msgstr ""
@@ -864,6 +1156,8 @@ msgid "The date on which the certificate starts to be valid"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "The partner needs a set country"
@@ -882,6 +1176,7 @@ msgid "The product '%s' could not be found."
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__serial_number
 msgid "The serial number to add to electronic documents"
 msgstr ""
@@ -896,6 +1191,8 @@ msgid ""
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__09
 msgid "Transferable promissory note"
 msgstr ""
@@ -916,8 +1213,13 @@ msgid "Units"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_form
 msgid "Validity"
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__01
+msgid "Value-Added Tax"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -926,6 +1228,15 @@ msgid "Watt"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__invoice_edi_format
+#: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__invoice_edi_format
+msgid "eInvoice format"
+msgstr ""
+
+#. module: l10n_es_edi_facturae
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
 msgid "text/xml"
 msgstr ""

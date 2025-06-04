@@ -1004,6 +1004,10 @@ export function getAdjacentCharacter(editable, side) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
+>>>>>>> upstream/18.0
 =======
     [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
 >>>>>>> upstream/18.0
@@ -1773,7 +1777,12 @@ export function isUnremovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) // Node is in DOM but not in editable.
+=======
+        (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
+        (node.dataset && node.dataset.bsToggle === 'tab')
+>>>>>>> upstream/18.0
 =======
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
         (node.dataset && node.dataset.bsToggle === 'tab')

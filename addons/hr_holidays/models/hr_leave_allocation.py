@@ -4,6 +4,7 @@
 
 from datetime import datetime, date, time
 from dateutil.relativedelta import relativedelta
+<<<<<<< HEAD
 
 from odoo import api, fields, models, _
 <<<<<<< HEAD
@@ -66,6 +67,11 @@ from odoo.addons.resource.models.utils import HOURS_PER_DAY
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from calendar import monthrange
+
+from odoo import api, fields, models, _
 >>>>>>> upstream/18.0
 from odoo.addons.hr_holidays.models.hr_leave import get_employee_from_context
 from odoo.exceptions import AccessError, UserError, ValidationError
@@ -365,7 +371,13 @@ class HolidaysAllocation(models.Model):
         elif carryover_time == 'allocation':
             carryover_date = date(date_from.year, self.date_from.month, self.date_from.day)
         else:
+<<<<<<< HEAD
             carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], accrual_plan.carryover_day)
+=======
+            max_day = monthrange(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month])[1]
+            day = min(accrual_plan.carryover_day, max_day)
+            carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], day)
+>>>>>>> upstream/18.0
         if date_from > carryover_date:
             carryover_date += relativedelta(years=1)
         return carryover_date
@@ -743,6 +755,10 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0

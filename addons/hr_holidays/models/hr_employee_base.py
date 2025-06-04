@@ -1,13 +1,19 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 from collections import defaultdict
 from datetime import datetime, date, time, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 import pytz
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 from odoo import api, fields, models, _
@@ -83,7 +89,10 @@ class HrEmployeeBase(models.AbstractModel):
         return {row['employee_id']: row['days'] for row in self._cr.dictfetchall()}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _get_contextual_employee(self):
         ctx = self.env.context
@@ -291,6 +300,9 @@ class HrEmployeeBase(models.AbstractModel):
 
         return (allocations_leaves_consumed, to_recheck_leaves_per_leave_type)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_remaining_leaves(self):
         remaining = {}
