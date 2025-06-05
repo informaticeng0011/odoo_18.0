@@ -11,6 +11,7 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,6 +22,8 @@ msgstr ""
 msgid "Above this limit the simplified invoice won't be made"
 msgstr "Por encima de este límite no se realizará la factura simplificada."
 =======
+=======
+>>>>>>> upstream/18.0
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,13 +34,20 @@ msgstr "Por encima de este límite no se realizará la factura simplificada."
 #: model:ir.model,name:l10n_es_pos.model_res_company
 msgid "Companies"
 msgstr "Compañías"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_pos
 #: model:ir.model.fields,field_description:l10n_es_pos.field_pos_config__is_spanish
 msgid "Company located in Spain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Empresa ubicada en España"
+=======
+msgstr "Compañía con sede en España"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compañía con sede en España"
 >>>>>>> upstream/18.0
@@ -45,6 +55,7 @@ msgstr "Compañía con sede en España"
 #. module: l10n_es_pos
 #: model:ir.model,name:l10n_es_pos.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "Opciones de configuración"
 
@@ -59,12 +70,18 @@ msgstr ""
 =======
 msgstr "Ajustes de configuración"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ajustes de configuración"
+>>>>>>> upstream/18.0
 
 #. module: l10n_es_pos
 #. odoo-javascript
 #: code:addons/l10n_es_pos/static/src/overrides/components/receipt_header/receipt_header.xml:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Customer:"
@@ -74,9 +91,14 @@ msgstr "Cliente:"
 #. odoo-javascript
 #: code:addons/l10n_es_pos/static/src/overrides/components/payment_screen/payment_screen.js:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 msgid "Error"
 msgstr ""
+=======
+msgid "Error"
+msgstr "Error"
+>>>>>>> upstream/18.0
 =======
 msgid "Error"
 msgstr "Error"
@@ -92,7 +114,11 @@ msgstr "Asiento contable"
 #: model:ir.model.fields,field_description:l10n_es_pos.field_res_config_settings__pos_l10n_es_simplified_invoice_journal_id
 msgid "L10N Es Simplified Invoice Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L10N Es: Diario de facturas simplificadas"
+>>>>>>> upstream/18.0
 =======
 msgstr "L10N Es: Diario de facturas simplificadas"
 >>>>>>> upstream/18.0
@@ -100,6 +126,7 @@ msgstr "L10N Es: Diario de facturas simplificadas"
 #. module: l10n_es_pos
 #. odoo-javascript
 #: code:addons/l10n_es_pos/static/src/overrides/components/payment_screen/payment_screen.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 #, python-format
 msgid ""
@@ -119,6 +146,8 @@ msgstr ""
 
 #. module: l10n_es_pos
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Order amount is too large for a simplified invoice, use an invoice instead."
 msgstr ""
@@ -126,6 +155,9 @@ msgstr ""
 "utilice una factura en su lugar."
 
 #. module: l10n_es_pos
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_es_pos.model_pos_config
 msgid "Point of Sale Configuration"
@@ -138,6 +170,7 @@ msgstr "Pedidos del TPV"
 
 #. module: l10n_es_pos
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_es_pos.model_pos_session
 msgid "Point of Sale Session"
 msgstr "Sesión TPV"
@@ -145,11 +178,14 @@ msgstr "Sesión TPV"
 #. module: l10n_es_pos
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos.res_config_settings_view_form
 msgid "Simplified Invoice"
 msgstr "Factura Simplificada"
 
 #. module: l10n_es_pos
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_es_pos.res_config_settings_view_form
 msgid "Simplified Invoice Limit"
@@ -178,6 +214,11 @@ msgstr ""
 #: code:addons/l10n_es_pos/static/src/overrides/components/receipt_header/receipt_header.xml:0
 #: model:ir.model.fields,field_description:l10n_es_pos.field_pos_order__is_l10n_es_simplified_invoice
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/l10n_es_pos/static/src/overrides/components/receipt_header/receipt_header.xml:0
+#: model:ir.model.fields,field_description:l10n_es_pos.field_pos_order__is_l10n_es_simplified_invoice
+>>>>>>> upstream/18.0
 msgid "Simplified invoice"
 msgstr "Factura simplificada"
 
@@ -190,7 +231,11 @@ msgstr "Número de factura simplificada"
 #: model:ir.model.fields,field_description:l10n_es_pos.field_pos_config__simplified_partner_id
 msgid "Simplified invoice partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Socio de factura simplificada"
+=======
+msgstr "Contacto de la factura simplificada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contacto de la factura simplificada"
 >>>>>>> upstream/18.0

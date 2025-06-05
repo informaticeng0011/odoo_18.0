@@ -218,8 +218,12 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Return the list of delivery methods available for the sales order.
         return sorted([{
+=======
+        sorted_delivery_methods = sorted([{
+>>>>>>> upstream/18.0
 =======
         sorted_delivery_methods = sorted([{
 >>>>>>> upstream/18.0
@@ -279,7 +283,10 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330,6 +337,9 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

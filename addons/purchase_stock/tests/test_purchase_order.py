@@ -428,15 +428,31 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
         self.assertEqual(len(purchase_order.picking_ids.move_line_ids), 1)
         self.assertEqual(purchase_order.picking_ids.move_line_ids.quantity_product_uom, 7)
 
+<<<<<<< HEAD
 
         purchase_order.order_line.product_qty = 4
         # updating quantity shouldn't create a seperate stock move
         # the new stock move (-3) should be merged with the previous
         purchase_order.button_confirm()
+=======
+        # -- Decrease the quantity -- #
+        purchase_order.order_line.product_qty = 4
+        # updating quantity shouldn't create a separate stock move
+        # the new stock move (-3) should be merged with the previous
+>>>>>>> upstream/18.0
         self.assertEqual(len(purchase_order.picking_ids), 1)
         self.assertEqual(len(purchase_order.picking_ids.move_line_ids), 1)
         self.assertEqual(purchase_order.picking_ids.move_line_ids.quantity_product_uom, 4)
 
+<<<<<<< HEAD
+=======
+        # -- Increase the quantity -- #
+        purchase_order.order_line.product_qty = 14
+        self.assertEqual(len(purchase_order.picking_ids), 1)
+        self.assertEqual(len(purchase_order.picking_ids.move_line_ids), 1)
+        self.assertEqual(purchase_order.picking_ids.move_line_ids.quantity_product_uom, 14)
+
+>>>>>>> upstream/18.0
     def test_message_qty_already_received(self):
         self.env.user.write({'company_id': self.company_data['company'].id})
 
@@ -813,7 +829,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -978,6 +997,9 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

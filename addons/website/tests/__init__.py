@@ -25,6 +25,10 @@ from . import test_qweb
 from . import test_redirect
 from . import test_res_users
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_sitemap
+>>>>>>> upstream/18.0
 =======
 from . import test_sitemap
 >>>>>>> upstream/18.0

@@ -8,6 +8,10 @@ from . import test_assetsbundle
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_bus_gc
+>>>>>>> upstream/18.0
 =======
 from . import test_bus_gc
 >>>>>>> upstream/18.0

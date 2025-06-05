@@ -97,7 +97,11 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             worksheet.write(y, x, row['indent'] * '     ' + row['title'], header_plain)
+=======
+            worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
+>>>>>>> upstream/18.0
 =======
             worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
 >>>>>>> upstream/18.0

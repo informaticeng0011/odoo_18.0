@@ -10,7 +10,11 @@ from dateutil.relativedelta import relativedelta
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, Command, fields, models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, fields, models, _
 >>>>>>> upstream/18.0
@@ -198,6 +202,7 @@ class HrContract(models.Model):
 
             real_attendances = attendances - leaves
 <<<<<<< HEAD
+<<<<<<< HEAD
             if contract.has_static_work_entries() or not leaves:
                 # Empty leaves means empty real_leaves
                 real_leaves = attendances - real_attendances
@@ -205,6 +210,8 @@ class HrContract(models.Model):
                 # If fully flexible working schedule is defined
                 real_leaves = leaves
 =======
+=======
+>>>>>>> upstream/18.0
 
             if not calendar:
                 real_leaves = leaves
@@ -222,6 +229,9 @@ class HrContract(models.Model):
             elif contract.has_static_work_entries() or not leaves:
                 # Empty leaves means empty real_leaves
                 real_leaves = attendances - real_attendances
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             else:
                 # In the case of attendance based contracts use regular attendances to generate leave intervals
@@ -490,6 +500,7 @@ class HrContract(models.Model):
             wizard = self.env['hr.work.entry.regeneration.wizard'].create({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_ids': [(4, self.employee_id.id)],
                 'date_from': date_from,
                 'date_to': date_to,
@@ -498,12 +509,17 @@ class HrContract(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'employee_ids': [Command.set(self.employee_id.ids)],
                 'date_from': date_from,
                 'date_to': date_to,
             })
             wizard.with_context(work_entry_skip_validation=True, active_test=False).regenerate_work_entries()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

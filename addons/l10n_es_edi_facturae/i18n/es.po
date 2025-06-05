@@ -15,7 +15,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 >>>>>>> upstream/18.0
@@ -25,7 +29,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.corrective_type
 msgid "01"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "01"
+>>>>>>> upstream/18.0
 =======
 msgstr "01"
 >>>>>>> upstream/18.0
@@ -34,7 +42,11 @@ msgstr "01"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.account_invoice_facturae_export
 msgid "3.2.2"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.2.2"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.2.2"
 >>>>>>> upstream/18.0
@@ -47,36 +59,52 @@ msgstr "6-Packs"
 #. module: l10n_es_edi_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_partner_form_inherit_l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>Administrative Center for Spain Public Administrations. Used in Spanish electronic invoices.</span>"
 msgstr "<span>Centro Administrativo de Administraciones Públicas de España. Utilizado en facturas electrónicas españolas.</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span>Administrative Center for Spain Public Administrations. Used in "
 "Spanish electronic invoices.</span>"
 msgstr ""
 "<span>Centro Administrativo de las Administraciones Públicas de España. "
 "Utilizado en facturas electrónicas españolas.</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__05
 msgid "Accepted bill of exchange"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Letra Aceptada"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Letra aceptada"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model,name:l10n_es_edi_facturae.model_account_chart_template
 msgid "Account Chart Template"
 msgstr "Plantilla de plan contable"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model,name:l10n_es_edi_facturae.model_account_move_reversal
 msgid "Account Move Reversal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reversión de movimiento de cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reversión de movimiento de cuenta"
 >>>>>>> upstream/18.0
@@ -85,7 +113,11 @@ msgstr "Reversión de movimiento de cuenta"
 #: model:ir.model,name:l10n_es_edi_facturae.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envío de movimiento de cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envío de movimiento de cuenta"
 >>>>>>> upstream/18.0
@@ -95,7 +127,11 @@ msgstr "Envío de movimiento de cuenta"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__type
 msgid "Address Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de dirección"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de dirección"
 >>>>>>> upstream/18.0
@@ -104,7 +140,11 @@ msgstr "Tipo de dirección"
 #: model:ir.model,name:l10n_es_edi_facturae.model_l10n_es_edi_facturae_ac_role_type
 msgid "Administrative Center Role Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo del rol del centro administrativo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo del rol del centro administrativo"
 >>>>>>> upstream/18.0
@@ -216,10 +256,13 @@ msgstr "Centímetros"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root_certificates
 msgid "Certificates"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_es_edi_facturae.model_certificate_certificate
 msgid "Certificate"
 msgstr "Certificado"
@@ -233,13 +276,20 @@ msgstr "Alcance del certificado"
 #: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root_certificates
 msgid "Certificates"
 msgstr "Certificados"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.actions.act_window,name:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_action
 msgid "Certificates for Facturae EDI invoices on Spain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certificados para facturas EDI Facturae de España"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certificados para facturas EDI Facturae de España"
 >>>>>>> upstream/18.0
@@ -265,9 +315,12 @@ msgstr "Código"
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_logical_operational_point
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_logical_operational_point
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Code identifying the company. Barcode of 13 standard positions. Codes are registered in Spain by AECOC. The code is made up of the country code (2 positions) Spain is '84' + Company code (5 positions) + the remaining positions. The last one is the product + check digit."
 msgstr "Punto Lógico Operacional. Código identificativo de la Empresa. Código de barras de 13 posiciones estándar. Valores registrados por AECOC. Recoge el código de País (2p) España es ’84’ + Empresa (5p) + los restantes - el último es el producto + dígito de control."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Code identifying the company. Barcode of 13 standard positions. Codes are "
 "registered in Spain by AECOC. The code is made up of the country code (2 "
@@ -279,6 +332,9 @@ msgstr ""
 "código de país (2 posiciones) (España es ’84’) + el código de la empresa (5 "
 "posiciones) + los restantes. El último es el producto + el dígito de "
 "control."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -286,7 +342,11 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_center_code
 msgid "Code of the issuing department."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Número del Departamento Emisor."
+=======
+msgstr "Número del departamento emisor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Número del departamento emisor."
 >>>>>>> upstream/18.0
@@ -305,6 +365,7 @@ msgstr "Cobrador"
 #: model:ir.model,name:l10n_es_edi_facturae.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -314,12 +375,19 @@ msgstr ""
 =======
 msgstr "Compañías"
 >>>>>>> upstream/18.0
+=======
+msgstr "Compañías"
+>>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model,name:l10n_es_edi_facturae.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contacto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contacto"
 >>>>>>> upstream/18.0
@@ -328,37 +396,55 @@ msgstr "Contacto"
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__07
 msgid "Contract award"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contrato Adjudicación"
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Contrato adjudicación"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__29
 msgid "Corporation Tax"
 msgstr "Impuesto sobre Sociedades"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Could not retrieve currency: %s. Did you enable the multicurrency option and activate the currency?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Could not retrieve currency: %s. Did you enable the multicurrency option and"
 " activate the currency?"
 msgstr ""
 "No se pudo recuperar la moneda: %s. ¿Habilitó la opción multimoneda y activó"
 " la moneda?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Could not retrieve the tax: %s %% for line '%s'."
 msgstr ""
+=======
+msgid "Could not retrieve the tax: %(tax_rate)s %% for line '%(line)s'."
+msgstr ""
+"No se pudo recuperar el impuesto: %(tax_rate)s %% para la línea ‘%(line)s’."
+>>>>>>> upstream/18.0
 =======
 msgid "Could not retrieve the tax: %(tax_rate)s %% for line '%(line)s'."
 msgstr ""
@@ -369,6 +455,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_action
 msgid "Create the first certificate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: l10n_es_edi_facturae
@@ -377,18 +464,24 @@ msgstr ""
 msgid "Created by"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Crear el primer certificado"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_uid
 msgid "Created by"
 msgstr "Creado por"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "Created from attachment in %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -398,12 +491,17 @@ msgstr ""
 msgid "Created on"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Creado desde el archivo adjunto en %s"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__create_date
 msgid "Created on"
 msgstr "Creado el"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -420,6 +518,7 @@ msgstr "Metro cúbico"
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Customer/Vendor could not be found and could not be created due to missing data in the XML."
 msgstr ""
 
@@ -433,12 +532,17 @@ msgstr ""
 msgid "Date Start"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Customer/Vendor could not be found and could not be created due to missing "
 "data in the XML."
 msgstr ""
 "No se ha podido encontrar el cliente/proveedor y no se ha podido crear "
 "porque faltan datos en el XML"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -450,6 +554,7 @@ msgstr "Garrafas"
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__02
 msgid "Direct debit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recibo Domiciliado"
 
 #. module: l10n_es_edi_facturae
@@ -458,19 +563,28 @@ msgstr "Recibo Domiciliado"
 msgid "Display Name"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Recibo domiciliado"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__display_name
 msgid "Display Name"
 msgstr "Nombre mostrado"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__06
 msgid "Documentary credit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Crédito Documentario"
+=======
+msgstr "Crédito documentario"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crédito documentario"
 >>>>>>> upstream/18.0
@@ -488,10 +602,13 @@ msgstr "Sobres"
 #. module: l10n_es_edi_facturae
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_es_edi_facturae/wizard/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/l10n_es_edi_facturae/models/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr ""
@@ -502,6 +619,9 @@ msgstr ""
 msgid "Excise duty applied to manufactured tobacco in Canaries"
 msgstr ""
 "Impuesto sobre las labores del tabaco en la Comunidad Autónoma de Canarias"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -513,8 +633,11 @@ msgstr "Centro FACe"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_move_form
 msgid "Factura-e"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Facturae"
 
 #. module: l10n_es_edi_facturae
@@ -523,11 +646,15 @@ msgstr "Facturae"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
 msgid "Facturae"
 msgstr "Facturae"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_id
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_xml_id
 msgid "Facturae Attachment"
@@ -541,12 +668,17 @@ msgstr ""
 msgid "Facturae Attachment"
 msgstr "Archivo adjunto de Facturae"
 >>>>>>> upstream/18.0
+=======
+msgid "Facturae Attachment"
+msgstr "Archivo adjunto de Facturae"
+>>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_residence_type
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_residence_type
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_residence_type
 msgid "Facturae EDI Residency Type Code"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -555,17 +687,23 @@ msgstr ""
 msgid "Facturae EDI signing certificate"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Código del tipo de residencia EDI de Facturae"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_company__l10n_es_edi_facturae_certificate_ids
 msgid "Facturae EDI signing certificate"
 msgstr "Certificado de firma EDI de Facturae"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_edi_facturae_xml_file
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_xml_file
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_xml_file
 msgid "Facturae File"
@@ -576,6 +714,8 @@ msgstr ""
 msgid "Facturae signature certificate"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Facturae File"
 msgstr "Archivo Facturae"
 
@@ -583,6 +723,9 @@ msgstr "Archivo Facturae"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.certificate_certificate_view_search
 msgid "Facturae certificates"
 msgstr "Certificados para facturae"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -592,11 +735,14 @@ msgstr "Fiscal"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__l10n_es_edi_facturae_checkbox_xml
 msgid "Generate Facturae edi file"
 msgstr ""
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__21
@@ -610,11 +756,14 @@ msgstr "Horas"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__id
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__id
 msgid "ID"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__12
 msgid "ICIO: Tax on construction, installation and works"
 msgstr "ICIO: Impuesto sobre las construcciones, instalaciones y obras"
@@ -713,15 +862,21 @@ msgstr ""
 msgid "IVPEE: Tax on the value of electricity generation"
 msgstr ""
 "IVPEE: Impuesto sobre el valor de la producción de la energía eléctrica"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_partner__l10n_es_edi_facturae_ac_physical_gln
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_res_users__l10n_es_edi_facturae_ac_physical_gln
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Identification of the connection point to the VAN EDI (Global Location Number). Barcode of 13 standard positions. Codes are registered in Spain by AECOC. The code is made up of the country code (2 positions) Spain is '84' + Company code (5 positions) + the remaining positions. The last one is the product + check digit."
 msgstr "GLN Físico. Identificación del punto de conexión a la VAN EDI (Global Location Number). Código de barras de 13 posiciones estándar. Valores registrados por AECOC. Recoge el código de País (2p) España es ’84’ + Empresa (5p) + los restantes - el último es el producto + dígito de control."
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Identification of the connection point to the VAN EDI (Global Location "
 "Number). Barcode of 13 standard positions. Codes are registered in Spain by "
@@ -734,6 +889,9 @@ msgstr ""
 "por la AECOC en España. Recoge el código de país (2 posiciones) (España es "
 "’84’) + el código de la empresa (5 posiciones) + los restantes. El último es"
 " el producto + el dígito de control."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -750,7 +908,10 @@ msgstr "Clase de factura"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_end_date
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_end_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_invoicing_period_end_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Invoice Period End Date"
@@ -760,7 +921,10 @@ msgstr "Fecha final del periodo de facturación"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_invoicing_period_start_date
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_invoicing_period_start_date
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_invoicing_period_start_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 msgid "Invoice Period Start Date"
@@ -771,7 +935,11 @@ msgstr "Fecha de inicio del periodo de facturación"
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "Invoice imported from Factura-E XML file."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Factura importada desde el archivo XML de Facturae"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factura importada desde el archivo XML de Facturae"
 >>>>>>> upstream/18.0
@@ -825,7 +993,11 @@ msgstr ""
 "- Comprador: Centro del NIF receptor que emitió el pedido.\n"
 "- Cobrador: Centro del NIF emisor responsable de gestionar el cobro.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Fiscal: Centro del NIF receptor de las facturas, cuando un P.O. buzón es compartido por varias empresas clientes con diferentes NIF.s y es necesario diferenciar el receptor del mensaje (buzón común) del lugar donde debe depositarse (empresa destinataria)."
+=======
+"- Fiscal: Centro del NIF receptor de las facturas, cuando un P.O. buzón es compartido por varias empresas clientes con diferentes NIF y es necesario diferenciar el receptor del mensaje (buzón común) del lugar donde debe depositarse (empresa destinataria)."
+>>>>>>> upstream/18.0
 =======
 "- Fiscal: Centro del NIF receptor de las facturas, cuando un P.O. buzón es compartido por varias empresas clientes con diferentes NIF y es necesario diferenciar el receptor del mensaje (buzón común) del lugar donde debe depositarse (empresa destinataria)."
 >>>>>>> upstream/18.0
@@ -862,6 +1034,7 @@ msgstr "Kilovatio por hora"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_send__l10n_es_edi_facturae_enable_xml
 msgid "L10N Es Edi Facturae Enable Xml"
 msgstr ""
@@ -878,6 +1051,8 @@ msgstr ""
 msgid "Last Updated on"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_uid
 msgid "Last Updated by"
 msgstr "Última actualización por"
@@ -886,6 +1061,9 @@ msgstr "Última actualización por"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_ac_role_type__write_date
 msgid "Last Updated on"
 msgstr "Última actualización el"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -933,9 +1111,12 @@ msgstr "Nombre y apellidos/Razón social - Receptor"
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "No valid certificate found for this company, Facturae EDI file will not be signed.\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "No valid certificate found"
 msgstr "No se ha encontrado ningún certificado válido"
 
@@ -948,13 +1129,20 @@ msgid ""
 msgstr ""
 "No se ha encontrado ningún certificado válido para esta empresa, el archivo "
 "EDI de Facturae no se firmará.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__10
 msgid "Non transferable promissory note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pagaré No a la Orden"
+=======
+msgstr "Pagaré no a la orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagaré no a la orden"
 >>>>>>> upstream/18.0
@@ -963,7 +1151,11 @@ msgstr "Pagaré no a la orden"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
 msgid "Ohixl6upD6av8N7pEvDABhEL6hM="
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ohixl6upD6av8N7pEvDABhEL6hM="
+>>>>>>> upstream/18.0
 =======
 msgstr "Ohixl6upD6av8N7pEvDABhEL6hM="
 >>>>>>> upstream/18.0
@@ -975,6 +1167,10 @@ msgstr "Reposición"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__05
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__05
 >>>>>>> upstream/18.0
@@ -984,6 +1180,7 @@ msgstr "Otros"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__content
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__content
 msgid "PFX Certificate"
@@ -992,11 +1189,14 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__28
 msgid "Packages"
 msgstr "Paquetes"
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__password
 msgid "Passphrase for the PFX certificate"
@@ -1010,6 +1210,8 @@ msgstr ""
 #. module: l10n_es_edi_facturae
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:l10n_es_edi_facturae.ac_role_type,name:l10n_es_edi_facturae.ac_role_type_03
 msgid "Payer"
 msgstr "Pagador"
@@ -1018,9 +1220,14 @@ msgstr "Pagador"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_bank_statement_line__l10n_es_payment_means
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_payment_means
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_payment_means
 msgid "Payment Means"
 msgstr ""
+=======
+msgid "Payment Means"
+msgstr "Métodos de pago"
+>>>>>>> upstream/18.0
 =======
 msgid "Payment Means"
 msgstr "Métodos de pago"
@@ -1056,8 +1263,11 @@ msgstr "Raciones"
 #: model:ir.model,name:l10n_es_edi_facturae.model_uom_uom
 msgid "Product Unit of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Unidad de medida del producto"
 
 #. module: l10n_es_edi_facturae
@@ -1079,6 +1289,9 @@ msgstr "REIPSI: Régimen especial de IPSI para agencias de viajes"
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__17
 msgid "REIVA: Special VAT for travel agencies"
 msgstr "REIVA: Régimen especial de IVA para agencias de viajes"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -1110,7 +1323,11 @@ msgstr "Domicilio Receptor"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.corrective_type
 msgid "Rectificación modelo íntegro."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rectificación modelo íntegro."
+>>>>>>> upstream/18.0
 =======
 msgstr "Rectificación modelo íntegro."
 >>>>>>> upstream/18.0
@@ -1128,7 +1345,10 @@ msgstr "Rollos"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__21
 msgid "SWUA: Surcharge for Winding Up Activity"
 msgstr ""
@@ -1136,6 +1356,9 @@ msgstr ""
 "entidades aseguradoras"
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__uom_uom__l10n_es_edi_facturae_uom_code__34
 msgid "Second"
@@ -1148,11 +1371,14 @@ msgstr "Vendedor"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_l10n_es_edi_facturae_certificate__serial_number
 msgid "Serial Number"
 msgstr "Número de serie"
 
 #. module: l10n_es_edi_facturae
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__14
@@ -1163,7 +1389,11 @@ msgstr "Compensación"
 #: model:ir.ui.menu,name:l10n_es_edi_facturae.menu_l10n_es_edi_facturae_root
 msgid "Spain Facturae EDI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "EDI de Facturae para España"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI de Facturae para España"
 >>>>>>> upstream/18.0
@@ -1172,7 +1402,11 @@ msgstr "EDI de Facturae para España"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_uom_uom__l10n_es_edi_facturae_uom_code
 msgid "Spanish EDI Units"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unidades EDI españolas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unidades EDI españolas"
 >>>>>>> upstream/18.0
@@ -1182,9 +1416,14 @@ msgstr "Unidades EDI españolas"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move__l10n_es_edi_facturae_reason_code
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_move_reversal__l10n_es_edi_facturae_reason_code
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_payment__l10n_es_edi_facturae_reason_code
 msgid "Spanish Facturae EDI Reason Code"
 msgstr ""
+=======
+msgid "Spanish Facturae EDI Reason Code"
+msgstr "Motivos de rectificación EDI de Facturae en España"
+>>>>>>> upstream/18.0
 =======
 msgid "Spanish Facturae EDI Reason Code"
 msgstr "Motivos de rectificación EDI de Facturae en España"
@@ -1194,7 +1433,11 @@ msgstr "Motivos de rectificación EDI de Facturae en España"
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_account_tax__l10n_es_edi_facturae_tax_type
 msgid "Spanish Facturae EDI Tax Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de impuesto EDI de Facturae en España"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de impuesto EDI de Facturae en España"
 >>>>>>> upstream/18.0
@@ -1205,7 +1448,11 @@ msgstr "Tipo de impuesto EDI de Facturae en España"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.product_uom_tree_view_inherit_l10n_es_edi_facturae
 msgid "Spanish Facturae EDI type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo EDI de Facturae en España"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo EDI de Facturae en España"
 >>>>>>> upstream/18.0
@@ -1214,7 +1461,11 @@ msgstr "Tipo EDI de Facturae en España"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.view_tax_tree_inherit_l10n_es_edi_facturae
 msgid "Spanish Tax Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de impuesto español"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de impuesto español"
 >>>>>>> upstream/18.0
@@ -1231,7 +1482,10 @@ msgstr "Impuesto"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__23
 msgid ""
 "Tax on the production of spent nuclear fuel and radioactive waste from the "
@@ -1250,6 +1504,9 @@ msgstr ""
 "radioactivos en instalaciones centralizadas"
 
 #. module: l10n_es_edi_facturae
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__16
 msgid "Taxable Base"
@@ -1263,6 +1520,7 @@ msgstr "Base imponible modificada por descuentos y bonificaciones"
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__84
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Taxable Base modified due to firm court ruling or administrative decision"
 msgstr "Base imponible modificada por resolución firme, judicial o administrativa"
 
@@ -1270,6 +1528,8 @@ msgstr "Base imponible modificada por resolución firme, judicial o administrati
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__82
 msgid "Taxable Base modified due to return of packages and packaging materials"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Taxable Base modified due to firm court ruling or administrative decision"
 msgstr ""
@@ -1279,15 +1539,21 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__82
 msgid ""
 "Taxable Base modified due to return of packages and packaging materials"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr "Base imponible modificada por devolución de envases/embalajes"
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_edi_facturae_reason_code__85
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Taxable Base modified due to unpaid outputs where there is a judgement opening insolvency proceedings"
 msgstr "Base imponible modificada cuotas repercutidas no satisfechas. Auto de declaración de concurso"
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Taxable Base modified due to unpaid outputs where there is a judgement "
 "opening insolvency proceedings"
@@ -1299,6 +1565,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__02
 msgid "Taxes on production, services and imports in Ceuta and Melilla"
 msgstr "Impuesto sobre la producción, los servicios y la importación"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -1321,20 +1590,27 @@ msgstr "El GLN Físico ingresado no es válido."
 #. module: l10n_es_edi_facturae
 #. odoo-python
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/l10n_es_edi_facturae/models/l10n_es_edi_facturae_certificate.py:0
 msgid "The certificate is expired since %s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "The company needs a set tax identification number or VAT number"
 msgstr ""
 "La compañía necesita un número de identificación fiscal o un número de IVA "
 "establecidos."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgid "The company needs a set tax identification number or VAT number"
 msgstr ""
@@ -1349,6 +1625,8 @@ msgstr ""
 msgid "The date on which the certificate starts to be valid"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The credit note/refund appears to have been issued manually. For the purpose"
 " of generating a Facturae document, it's necessary that the credit "
@@ -1358,6 +1636,9 @@ msgstr ""
 "manualmente. Para generar  un documento Facturae, es necesario que la "
 "factura rectificativa o el reembolso se cree directamente desde la factura "
 "asociada."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
@@ -1365,7 +1646,11 @@ msgstr ""
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "The partner needs a set country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El contacto necesita un país establecido"
+>>>>>>> upstream/18.0
 =======
 msgstr "El contacto necesita un país establecido"
 >>>>>>> upstream/18.0
@@ -1376,6 +1661,11 @@ msgstr "El contacto necesita un país establecido"
 msgid "The partner needs a set tax identification number or VAT number"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"El contacto necesita un número de identificación fiscal o un número de IVA "
+"establecidos."
+>>>>>>> upstream/18.0
 =======
 "El contacto necesita un número de identificación fiscal o un número de IVA "
 "establecidos."
@@ -1385,6 +1675,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/l10n_es_edi_facturae/models/account_move.py:0
 msgid "The product '%s' could not be found."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1404,12 +1695,19 @@ msgstr ""
 =======
 msgstr "No se ha podido encontrar el producto '%s'."
 >>>>>>> upstream/18.0
+=======
+msgstr "No se ha podido encontrar el producto '%s'."
+>>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_move__l10n_es_payment_means__09
 msgid "Transferable promissory note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pagaré a la Orden"
+=======
+msgstr "Pagaré a la orden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagaré a la orden"
 >>>>>>> upstream/18.0
@@ -1431,9 +1729,15 @@ msgstr "Unidades"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.l10n_es_edi_facturae_certificate_form
 msgid "Validity"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__01
+msgid "Value-Added Tax"
+msgstr "Impuesto sobre el valor añadido"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields.selection,name:l10n_es_edi_facturae.selection__account_tax__l10n_es_edi_facturae_tax_type__01
 msgid "Value-Added Tax"
@@ -1447,10 +1751,13 @@ msgstr "Vatio"
 
 #. module: l10n_es_edi_facturae
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
 msgid "text/xml"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_partner__invoice_edi_format
 #: model:ir.model.fields,field_description:l10n_es_edi_facturae.field_res_users__invoice_edi_format
 msgid "eInvoice format"
@@ -1460,13 +1767,20 @@ msgstr "Formato de la factura electrónica"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
 msgid "text/xml"
 msgstr "text/xml"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_facturae
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_facturae.template_xades_signature
 msgid "urn:oid:1.2.840.10003.5.109.10"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "urn:oid:1.2.840.10003.5.109.10"
+>>>>>>> upstream/18.0
 =======
 msgstr "urn:oid:1.2.840.10003.5.109.10"
 >>>>>>> upstream/18.0

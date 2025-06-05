@@ -5,6 +5,7 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 =======
 from odoo import Command
@@ -27,10 +28,15 @@ from odoo.tests import tagged
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 from odoo.exceptions import UserError
 from odoo.tests import tagged
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from freezegun import freeze_time
 
@@ -84,6 +90,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -100,6 +107,11 @@ class TestAccountPartner(AccountTestInvoicingCommon):
     def test_manually_write_partner_id(self):
         move = self.env['account.move'].create({
 >>>>>>> upstream/18.0
+=======
+
+    def test_manually_write_partner_id(self):
+        move = self.env['account.move'].create({
+>>>>>>> upstream/18.0
             'move_type': 'out_invoice',
             'invoice_date': '2025-04-29',
             'partner_id': self.partner_a.id,
@@ -108,6 +120,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
                 'price_unit': 500.0,
                 'tax_ids': [],
             })],
+<<<<<<< HEAD
 <<<<<<< HEAD
         }
 
@@ -119,6 +132,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 
         self.partner_a['parent_id'] = self.partner_b.id
 =======
+=======
+>>>>>>> upstream/18.0
         })
         move.action_post()
         reversal = move._reverse_moves(cancel=True)
@@ -133,6 +148,9 @@ class TestAccountPartner(AccountTestInvoicingCommon):
         self.assertEqual(receivable_lines.mapped('reconciled'), [True, True])
 
         self.partner_a.parent_id = self.partner_b
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # Assert accounting move and move lines now use new commercial partner
@@ -145,6 +163,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153,6 +172,8 @@ class TestAccountPartner(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(receivable_lines.mapped('reconciled'), [True, True])
 
     def test_manually_write_partner_id_different_vat(self):
@@ -170,4 +191,7 @@ class TestAccountPartner(AccountTestInvoicingCommon):
         self.partner_b.vat = 'DIFFERENT'
         with self.assertRaisesRegex(UserError, "different Tax ID"):
             self.partner_a.parent_id = self.partner_b
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

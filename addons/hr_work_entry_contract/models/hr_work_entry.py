@@ -168,6 +168,11 @@ class HrWorkEntry(models.Model):
         outside_entries = self.env['hr.work.entry']
         for calendar, entries in entries_by_calendar.items():
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if calendar.flexible_hours:
+                continue
+>>>>>>> upstream/18.0
 =======
             if calendar.flexible_hours:
                 continue

@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { manuallyDispatchProgrammaticEvent, animationFrame } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 =======
 import { manuallyDispatchProgrammaticEvent, animationFrame } from "@odoo/hoot-dom";
 
@@ -220,7 +225,10 @@ function visitAndSetRange(target, ref, configSelection) {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export async function firstClick(target) {
     manuallyDispatchProgrammaticEvent(target, "mousedown", { detail: 1 });
@@ -260,4 +268,7 @@ export async function simulateTripleClickSelect(target) {
     await secondClick(target);
     await thirdClick(target);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -74,6 +74,10 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        leaves_to_recreate = self.env['hr.leave']
+>>>>>>> upstream/18.0
 =======
         leaves_to_recreate = self.env['hr.leave']
 >>>>>>> upstream/18.0
@@ -119,7 +123,11 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave.sudo()._create_resource_leave()
+=======
+                    leaves_to_recreate |= leave
+>>>>>>> upstream/18.0
 =======
                     leaves_to_recreate |= leave
 >>>>>>> upstream/18.0
@@ -157,6 +165,10 @@ class CalendarLeaves(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        leaves_to_recreate.sudo()._create_resource_leave()
+>>>>>>> upstream/18.0
 =======
         leaves_to_recreate.sudo()._create_resource_leave()
 >>>>>>> upstream/18.0

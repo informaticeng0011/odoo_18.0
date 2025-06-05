@@ -42,7 +42,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, Form
+=======
+from odoo.tests import common, tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import common, tagged, Form
 >>>>>>> upstream/18.0
@@ -246,6 +250,11 @@ class TestDropship(common.TransactionCase):
     def test_00_dropship(self):
         self.dropship_product.description_purchase = "description_purchase"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.dropship_product.description = "internal note"
+        self.dropship_product.description_pickingout = "description_out"
+>>>>>>> upstream/18.0
 =======
         self.dropship_product.description = "internal note"
         self.dropship_product.description_pickingout = "description_out"
@@ -299,11 +308,17 @@ class TestDropship(common.TransactionCase):
         self.assertEqual(len(move_line.ids), 1, 'There should be exactly one move line')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Check description is not the internal note
         self.assertNotEqual(move_line.move_id.description_picking, self.dropship_product.description)
         self.assertEqual(move_line.move_id.description_picking, self.dropship_product.description_pickingout)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_sale_order_picking_partner(self):
         """ Test that the partner is correctly set on the picking and the move when the product is dropshipped or not."""
@@ -560,7 +575,10 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -713,6 +731,7 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,6 +813,8 @@ class TestDropship(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_delivery_type(self):
         # Create an operation type starting as incoming/internal.
@@ -825,6 +846,9 @@ class TestDropship(common.TransactionCase):
             operation_type.default_location_dest_id,
             self.env.ref('stock.stock_location_customers')
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -905,6 +929,9 @@ class TestDropshipPostInstall(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

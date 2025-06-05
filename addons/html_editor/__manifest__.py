@@ -14,7 +14,10 @@ This addon provides an extensible, maintainable editor.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'author': "odoo",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,6 +40,10 @@ This addon provides an extensible, maintainable editor.
         'web.assets_backend': [
             'html_editor/static/src/**/*',
             ('include', 'html_editor.assets_media_dialog'),
+<<<<<<< HEAD
+=======
+            ('include', 'html_editor.assets_link_popover'),
+>>>>>>> upstream/18.0
             ('remove', 'html_editor/static/src/components/history_dialog/history_dialog.dark.scss'),
             ('remove', 'html_editor/static/src/main/toolbar/toolbar.dark.scss'),
         ],
@@ -57,6 +64,14 @@ This addon provides an extensible, maintainable editor.
             'html_editor/static/lib/cropperjs/cropper.css',
             'html_editor/static/lib/cropperjs/cropper.js',
         ],
+<<<<<<< HEAD
+=======
+        'html_editor.assets_link_popover': [
+            'html_editor/static/src/main/link/link_popover.js',
+            'html_editor/static/src/main/link/link_popover.xml',
+            'html_editor/static/src/main/link/utils.js',
+        ],
+>>>>>>> upstream/18.0
     },
     'license': 'LGPL-3'
 }

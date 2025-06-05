@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 16:08+0000\n"
@@ -16,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-13 13:18+0000\n"
@@ -27,13 +30,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: l10n_es_edi_sii
 #: model:ir.model,name:l10n_es_edi_sii.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Enviar movimiento de cuenta"
+=======
+msgstr "Envío de movimiento de cuenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envío de movimiento de cuenta"
 >>>>>>> upstream/18.0
@@ -73,7 +83,11 @@ msgstr "Certificados"
 #: model:ir.actions.act_window,name:l10n_es_edi_sii.l10n_es_edi_sii_certificate_action
 msgid "Certificates for SII EDI invoices on Spain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Certificados para las facturas EDI SII en España"
+=======
+msgstr "Certificados para facturas SII EDI de España"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certificados para facturas SII EDI de España"
 >>>>>>> upstream/18.0
@@ -116,7 +130,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Para los clientes extranjeros, debe configurar el ámbito tributario para los impuestos:\n"
+=======
+"En el caso de un cliente extranjero, es necesario configurar el ámbito fiscal en impuestos:\n"
+>>>>>>> upstream/18.0
 =======
 "En el caso de un cliente extranjero, es necesario configurar el ámbito fiscal en impuestos:\n"
 >>>>>>> upstream/18.0
@@ -138,7 +156,11 @@ msgstr "Asiento contable"
 #: model:ir.model.fields,field_description:l10n_es_edi_sii.field_res_config_settings__l10n_es_sii_certificate_ids
 msgid "L10N Es Sii Certificate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "L10N ES: Certificado SII"
+=======
+msgstr "L10N ES Certificado SII"
+>>>>>>> upstream/18.0
 =======
 msgstr "L10N ES Certificado SII"
 >>>>>>> upstream/18.0
@@ -210,7 +232,11 @@ msgstr "Configure el certificado para el SII."
 #: code:addons/l10n_es_edi_sii/models/account_edi_format.py:0
 msgid "Please specify a tax agency on your company for SII."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Especifique una agencia tributaria en su compañía para el SII."
+=======
+msgstr "Especifique una agencia tributaria en su compañía para el SII"
+>>>>>>> upstream/18.0
 =======
 msgstr "Especifique una agencia tributaria en su compañía para el SII"
 >>>>>>> upstream/18.0
@@ -219,7 +245,13 @@ msgstr "Especifique una agencia tributaria en su compañía para el SII"
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.res_config_settings_view_form
 msgid "Production mode: EDI data is sent to the official agency servers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modo de producción: los datos EDI se envían a los servidores de la agencia oficial."
+=======
+msgstr ""
+"Modo de producción: los datos EDI se envían a los servidores de la agencia "
+"oficial."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Modo de producción: los datos EDI se envían a los servidores de la agencia "
@@ -239,12 +271,18 @@ msgstr "Connexión con el Registro de Libros mediante SII"
 
 #. module: l10n_es_edi_sii
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:l10n_es_edi_sii.model_account_resequence_wizard
 msgid "Remake the sequence of Journal Entries."
 msgstr "Haga de nuevo la secuencia de asientos contables."
 
 #. module: l10n_es_edi_sii
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:l10n_es_edi_sii.selection__certificate_certificate__scope__sii
 #: model_terms:ir.ui.view,arch_db:l10n_es_edi_sii.certificate_certificate_view_search
@@ -266,7 +304,11 @@ msgstr "Certificados SII"
 #: model:ir.ui.menu,name:l10n_es_edi_sii.menu_l10n_es_edi_sii_root
 msgid "Spain SII"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SII en España"
+=======
+msgstr "SII España"
+>>>>>>> upstream/18.0
 =======
 msgstr "SII España"
 >>>>>>> upstream/18.0
@@ -282,7 +324,11 @@ msgstr "Agencia Tributaria para SII"
 msgid "Tax agency selected: invoices will be sent by SII."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Agencia tributaria seleccionada: las facturas serán enviadas por el SII"
+=======
+"Agencia tributaria seleccionada: las facturas serán enviadas por el SII."
+>>>>>>> upstream/18.0
 =======
 "Agencia tributaria seleccionada: las facturas serán enviadas por el SII."
 >>>>>>> upstream/18.0
@@ -294,8 +340,13 @@ msgid ""
 "official."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modo de prueba: los datos EDI se envían a servidores de prueba independientes y no se consideran "
 "oficiales."
+=======
+"Modo de prueba: los datos EDI se envían a servidores de prueba "
+"independientes y no se consideran oficiales."
+>>>>>>> upstream/18.0
 =======
 "Modo de prueba: los datos EDI se envían a servidores de prueba "
 "independientes y no se consideran oficiales."
@@ -324,7 +375,11 @@ msgstr "Esto se ha aceptado con errores:"
 #: model:ir.model.fields,help:l10n_es_edi_sii.field_res_config_settings__l10n_es_sii_test_env
 msgid "Use the test environment for SII"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizar el entorno de prueba para el SII"
+=======
+msgstr "Utilizar el entorno de prueba para SII"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizar el entorno de prueba para SII"
 >>>>>>> upstream/18.0
@@ -350,7 +405,12 @@ msgstr ""
 #: code:addons/l10n_es_edi_sii/models/account_edi_format.py:0
 msgid "You should put a vendor reference on this vendor bill. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Debe poner una referencia de proveedor en esta factura de proveedor."
+=======
+msgstr ""
+"Debe poner una referencia del proveedor en esta factura del proveedor."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Debe poner una referencia del proveedor en esta factura del proveedor."

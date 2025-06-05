@@ -1,12 +1,18 @@
 import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { unformat } from "../_helpers/format";
 =======
+=======
+>>>>>>> upstream/18.0
 import { cleanLinkArtifacts, unformat } from "../_helpers/format";
 import { waitForNone } from "@odoo/hoot-dom";
 import { getContent, simulateDoubleClickSelect } from "../_helpers/selection";
 import { insertText } from "../_helpers/user_actions";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 describe("button style", () => {
@@ -35,7 +41,10 @@ describe("button style", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("button edit", () => {
     test("button link should be editable with double click select", async () => {
@@ -52,4 +61,7 @@ describe("button edit", () => {
         expect(cleanLinkArtifacts(getContent(el))).toBe('<p>this is a <a href="#">X[]</a></p>');
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

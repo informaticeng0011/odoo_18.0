@@ -7,8 +7,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 
+=======
+from datetime import datetime, timedelta
+from odoo import fields
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 from odoo import fields
@@ -50,6 +55,11 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        now = fields.datetime.now()
+
+>>>>>>> upstream/18.0
 =======
         now = fields.datetime.now()
 
@@ -85,7 +95,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106,6 +119,7 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116,6 +130,8 @@ class TestCalendarSms(SMSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         cls.partner_phone_3 = cls.env['res.partner'].create({
             'name': 'Partner With Phone Number',
@@ -123,6 +139,9 @@ class TestCalendarSms(SMSCommon):
             'country_id': cls.env.ref('base.be').id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.partner_no_phone = cls.env['res.partner'].create({
             'name': 'Partner With No Phone Number',
@@ -144,7 +163,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,7 +199,10 @@ class TestCalendarSms(SMSCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.event_1h_dup = cls.event_1h.copy(default={
             'alarm_ids': [(4, cls.alarm_1h.id), (4, cls.alarm_24h.id)],
             'partner_ids': [(6, 0, [cls.partner_phone_3.id])],
@@ -185,6 +210,9 @@ class TestCalendarSms(SMSCommon):
         # for some reason the above is not sufficient
         cls.event_1h_dup.partner_ids = cls.partner_phone_3
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Adjust event_24h so that the 24-hour alarm falls within the last hour
         cls.event_24h = cls.env['calendar.event'].create({
@@ -201,6 +229,10 @@ class TestCalendarSms(SMSCommon):
             'model_id': cls.env['ir.model']._get('calendar.event').id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -217,6 +249,9 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -240,7 +275,10 @@ class TestCalendarSms(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262,6 +300,7 @@ class TestCalendarSms(SMSCommon):
             self.env['calendar.alarm_manager'].with_context(lastcall=lastcall)._send_reminder()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(self._sms), 2)
         self.assertSMS(self.partner_phone, self.partner_phone.phone_sanitized, 'pending',
                        content=self.sms_template_1h.body)
@@ -281,6 +320,8 @@ class TestCalendarSms(SMSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(self._sms), 3)
         self.assertSMS(self.partner_phone, self.partner_phone.phone_sanitized, 'pending',
                         content=self.sms_template_1h.body)
@@ -288,4 +329,7 @@ class TestCalendarSms(SMSCommon):
                         content=self.sms_template_1h.body)
         self.assertSMS(self.partner_phone_2, self.partner_phone_2.phone_sanitized, 'pending',
                         content=self.sms_template_24h.body)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

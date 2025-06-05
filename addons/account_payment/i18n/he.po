@@ -114,6 +114,11 @@ msgid ""
 "<strong>Installment</strong>\n"
 "                                        <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>תשלום</strong>\n"
+"                                       <br/>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.payment_refund_wizard_view_form
@@ -122,6 +127,12 @@ msgid ""
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>אזהרה! </strong>קיים החזר כספי ממתין עבור תשלום זה.                                                      אנא המתן מספר רגעים עד לסיום העיבוד. \n"
+"אם ההחזר עדיין ממתין\n"
+"                                    לאחר מספר דקות, בדוק את הגדרות ספק התשלומים שלך."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -244,7 +255,11 @@ msgid "Display Open Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצגת תשלומים פתוחים"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצגת תשלומים פתוחים"
 >>>>>>> upstream/18.0
@@ -285,7 +300,11 @@ msgid "Early Payment Discount of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הנחת תשלום מוקדם של "
+>>>>>>> upstream/18.0
 =======
 msgstr "הנחת תשלום מוקדם של "
 >>>>>>> upstream/18.0
@@ -314,7 +333,11 @@ msgid "Enable credit & debit card payments supported by Stripe."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אפשר תשלומים בכרטיסי אשראי וחיוב הנתמכים על ידי Stripe."
+>>>>>>> upstream/18.0
 =======
 msgstr "אפשר תשלומים בכרטיסי אשראי וחיוב הנתמכים על ידי Stripe."
 >>>>>>> upstream/18.0
@@ -468,7 +491,11 @@ msgid "Next Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלומים הבאים"
+>>>>>>> upstream/18.0
 =======
 msgstr "תשלומים הבאים"
 >>>>>>> upstream/18.0
@@ -576,6 +603,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"שימו לב כי אסימוני תשלום מספקים שהוגדרו לאשר עסקאות בלבד (ולא לגבות את "
+"הסכום) אינם זמינים."
+>>>>>>> upstream/18.0
 =======
 "שימו לב כי אסימוני תשלום מספקים שהוגדרו לאשר עסקאות בלבד (ולא לגבות את "
 "הסכום) אינם זמינים."
@@ -644,7 +676,11 @@ msgid "Overdue invoices should share the same partner."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "החשבוניות באיחור צריכות להיות עבור אותו לקוח/ספק."
+>>>>>>> upstream/18.0
 =======
 msgstr "החשבוניות באיחור צריכות להיות עבור אותו לקוח/ספק."
 >>>>>>> upstream/18.0
@@ -914,7 +950,11 @@ msgid "The provided parameters are invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפרמטרים שסופקו אינם תקינים."
+>>>>>>> upstream/18.0
 =======
 msgstr "הפרמטרים שסופקו אינם תקינים."
 >>>>>>> upstream/18.0
@@ -1039,7 +1079,11 @@ msgstr "תשלום מקור של תשלומי החזר הקשורים"
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יש עסקאות ממתינות עבור חשבונית זו."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1051,7 +1095,11 @@ msgid "There is no amount to be paid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין סכום לתשלום."
+>>>>>>> upstream/18.0
 =======
 msgstr "אין סכום לתשלום."
 >>>>>>> upstream/18.0
@@ -1103,7 +1151,11 @@ msgid "This invoice cannot be paid online."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זו אינה ניתנת לתשלום באופן מקוון."
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונית זו אינה ניתנת לתשלום באופן מקוון."
 >>>>>>> upstream/18.0
@@ -1139,7 +1191,11 @@ msgid "This invoice isn't posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונית זו לא נרשמה."
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונית זו לא נרשמה."
 >>>>>>> upstream/18.0
@@ -1163,13 +1219,21 @@ msgstr "חשבונית זו לא נרשמה."
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זו אינה חשבונית יוצאת."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
 #: model:ir.model.fields,field_description:account_payment.field_account_move__transaction_count
 msgid "Transaction Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר עסקאות"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_ids
@@ -1200,6 +1264,11 @@ msgid ""
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן למחוק אמצעי תשלום שמקושר לספק שנמצא במצב פעיל או מצב בדיקה.\n"
+"ספקים מקושרים:%s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1208,6 +1277,11 @@ msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן להסיר את המודול הזה מכיוון שכבר קיימות עסקאות שבוצעו באמצעות אמצעי "
+"תשלום זה."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python

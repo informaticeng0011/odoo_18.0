@@ -351,7 +351,10 @@ class TestSaleStockMargin(TestStockValuationCommon):
             }]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_add_standard_product_on_delivery_cost_on_sale_order(self):
         """ test that if product with standard cost method is added in delivery, the cost is computed."""
@@ -412,4 +415,7 @@ class TestSaleStockMargin(TestStockValuationCommon):
         delivery.move_ids.quantity = 10
         delivery.button_validate()
         self.assertEqual(sale_order.order_line.filtered(lambda sol: sol.product_id == product2).purchase_price, 10)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

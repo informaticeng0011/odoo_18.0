@@ -4,7 +4,11 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
 # Thi Huong Nguyen, 2024
+=======
+# Thi Huong Nguyen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Thi Huong Nguyen, 2024\n"
+=======
+"Last-Translator: Thi Huong Nguyen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,8 +58,13 @@ msgstr "Phải chỉ định một tùy chọn thanh toán."
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
+<<<<<<< HEAD
 "Thanh toán xác thực không thể được sử dụng cho thanh toán online tại Điểm "
 "bán hàng."
+=======
+"Thanh toán xác thực không thể được sử dụng cho thanh toán online tại Máy "
+"tính tiền."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
@@ -241,22 +254,38 @@ msgstr "Thanh toán"
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr "Cấu hình điểm bán hàng"
+=======
+msgstr "Cấu hình máy tính tiền"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr "Đơn hàng điểm bán hàng"
+=======
+msgstr "Đơn hàng máy tính tiền"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 msgstr "Phương thức thanh toán điểm bán hàng"
+=======
+msgstr "Phương thức thanh toán máy tính tiền"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment
 msgid "Point of Sale Payments"
+<<<<<<< HEAD
 msgstr "Thanh toán điểm bán hàng"
+=======
+msgstr "Thanh toán máy tính tiền"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_session
@@ -317,12 +346,20 @@ msgstr "Phiên POS không mở."
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_payment_transaction__pos_order_id
 msgid "The Point of Sale order linked to the payment transaction"
+<<<<<<< HEAD
 msgstr "Đơn hàng Điểm bán hàng liên kết với giao dịch thanh toán"
+=======
+msgstr "Đơn hàng Máy tính tiền liên kết với giao dịch thanh toán"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_account_payment__pos_order_id
 msgid "The Point of Sale order linked to this payment"
+<<<<<<< HEAD
 msgstr "Đơn hàng Điểm bán hàng liên kết với thanh toán này"
+=======
+msgstr "Đơn hàng Máy tính tiền liên kết với thanh toán này"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -453,8 +490,13 @@ msgstr ""
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
 msgstr ""
+<<<<<<< HEAD
 "Không có phương thức thanh toán online nào được cấu hình cho đơn hàng Điểm "
 "bán hàng này."
+=======
+"Không có phương thức thanh toán online nào được cấu hình cho đơn hàng Máy "
+"tính tiền này."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python

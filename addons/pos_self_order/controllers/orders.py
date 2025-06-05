@@ -1,11 +1,20 @@
 # -*- coding: utf-8 -*-
 import re
 from datetime import timedelta
+<<<<<<< HEAD
 from odoo import http, fields
+=======
+from odoo import http, fields, _
+>>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.tools import float_round
 from odoo.osv import expression
 from werkzeug.exceptions import NotFound, BadRequest, Unauthorized
+<<<<<<< HEAD
+=======
+from odoo.exceptions import MissingError
+from odoo.tools import consteq
+>>>>>>> upstream/18.0
 
 class PosSelfOrderController(http.Controller):
     @http.route("/pos-self-order/process-order/<device_type>/", auth="public", type="json", website=True)
@@ -110,11 +119,28 @@ class PosSelfOrderController(http.Controller):
                     })
                 lst_price = 0
 
+<<<<<<< HEAD
+=======
+    @http.route('/pos-self-order/remove-order', auth='public', type='json', website=True)
+    def remove_order(self, access_token, order_id, order_access_token):
+        pos_config = self._verify_pos_config(access_token)
+        pos_order = pos_config.env['pos.order'].browse(order_id)
+
+        if not pos_order.exists() or not consteq(pos_order.access_token, order_access_token):
+            raise MissingError(_("Your order does not exist or has been removed"))
+
+        if pos_order.state != 'draft':
+            raise Unauthorized(_("You are not authorized to remove this order"))
+
+        pos_order.remove_from_ui([pos_order.id])
+
+>>>>>>> upstream/18.0
     @http.route('/pos-self-order/get-orders', auth='public', type='json', website=True)
     def get_orders_by_access_token(self, access_token, order_access_tokens, table_identifier=None):
         pos_config = self._verify_pos_config(access_token)
         session = pos_config.current_session_id
         table = pos_config.env["restaurant.table"].search([('identifier', '=', table_identifier)], limit=1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +200,8 @@ class PosSelfOrderController(http.Controller):
             domain = expression.OR([domain, [
                 '&',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -328,6 +356,9 @@ class PosSelfOrderController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

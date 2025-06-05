@@ -160,7 +160,11 @@ class MailTracking(models.Model):
         # fetch model-based information
         if model:
             TrackedModel = self.env[model]
+<<<<<<< HEAD
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'string', 'type'})
+=======
+            tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
+>>>>>>> upstream/18.0
             model_sequence_info = dict(TrackedModel._mail_track_order_fields(tracked_fields)) if model else {}
         else:
             tracked_fields, model_sequence_info = {}, {}
@@ -189,10 +193,18 @@ class MailTracking(models.Model):
                 'fieldType': col_info['type'],
                 'newValue': {
                     'currencyId': tracking.currency_id.id,
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
                     'value': tracking._format_display_value(col_info['type'], new=True)[0],
                 },
                 'oldValue': {
                     'currencyId': tracking.currency_id.id,
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
                     'value': tracking._format_display_value(col_info['type'], new=False)[0],
                 },
             }

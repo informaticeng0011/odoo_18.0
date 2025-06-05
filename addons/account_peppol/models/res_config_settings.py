@@ -102,7 +102,11 @@ class ResConfigSettings(models.TransientModel):
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.
         """
+<<<<<<< HEAD
         raise UserError(_("This feature is deprecated. Contact odoo support if you need a migration key."))
+=======
+        raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
+>>>>>>> upstream/18.0
 
     @handle_demo
     def button_deregister_peppol_participant(self):

@@ -5,6 +5,10 @@ from json import dumps, loads
 import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -66,6 +70,12 @@ class pos_config(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'no_gap' if self.env.company._is_accounting_unalterable() else super()._config_sequence_implementation()
@@ -280,6 +290,7 @@ class pos_order(models.Model):
     def _compute_previous_order(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             prev_order = self.search([('state', 'in', ['paid', 'done', 'invoiced']),
                                                 ('company_id', '=', order.company_id.id),
@@ -291,6 +302,8 @@ class pos_order(models.Model):
             elif prev_order:
                 order.previous_order_id = prev_order
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         orders_by_company = defaultdict(list)
@@ -314,6 +327,9 @@ class pos_order(models.Model):
                     raise UserError(_('An error occurred when computing the inalterability. Impossible to get the unique previous posted point of sale order.'))
                 order.previous_order_id = match[0] if match else False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

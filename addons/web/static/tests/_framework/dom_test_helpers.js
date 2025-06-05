@@ -333,7 +333,12 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await scroll(nodePromise, position);
+=======
+            // disable "scrollable" check
+            await scroll(nodePromise, position, { scrollable: false, ...options });
+>>>>>>> upstream/18.0
 =======
             // disable "scrollable" check
             await scroll(nodePromise, position, { scrollable: false, ...options });

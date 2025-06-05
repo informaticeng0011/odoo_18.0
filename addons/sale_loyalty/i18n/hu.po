@@ -56,9 +56,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # lvalics, 2025
+=======
+# Tamás Németh <ntomasz81@gmail.com>, 2024
+# Valics Lehel, 2025
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 =======
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # Valics Lehel, 2025
@@ -354,7 +360,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: lvalics, 2025\n"
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
 >>>>>>> upstream/18.0
@@ -520,7 +530,11 @@ msgstr "<span class=\"fa fa-clipboard\"/> Másolás"
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "<strong>Loyalty Card</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Hűségkártya</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
@@ -533,7 +547,12 @@ msgstr "Egy jobb globális kedvezmény már alkalmazásra került."
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
 "A minimum of %(amount)s %(currency)s should be purchased to get the reward"
+<<<<<<< HEAD
 msgstr "Legalább %(amount)s %(currency)s kell rendelni a jutalomért"
+=======
+msgstr ""
+"Legalább %(amount)s %(currency)s rendelési összeg szükséges a jutalomért"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_coupon_wizard_view_form
@@ -661,7 +680,11 @@ msgid "Discount %(desc)s%(tax_str)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kedvezmény %(desc)s%(tax_str)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kedvezmény %(desc)s%(tax_str)s"
 >>>>>>> upstream/18.0
@@ -853,7 +876,11 @@ msgstr "Ajándékkártyák & ePénztárca"
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hűségkártya és ePénztárca előzmények"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
@@ -887,13 +914,21 @@ msgstr "Program jutalom sor"
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kibocsátva"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Issued :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kibocsátva :"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__write_uid
@@ -913,7 +948,11 @@ msgstr "Frissítve"
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Loyalty Card :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hűségkártya :"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_card
@@ -923,7 +962,11 @@ msgstr "Hűség kupon"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__loyalty_data
 msgid "Loyalty Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hűség adatok"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_program
@@ -1066,18 +1109,30 @@ msgstr "Vevői rendelés sor"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_product_id
 msgid "Selected Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiválasztott termék"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_reward_id
 msgid "Selected Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiválasztott jutalom"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "TEMPORARY DISCOUNT LINE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IDEIGLENES KEDVEZMÉNY SOR"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__reward_identifier_code
@@ -1090,24 +1145,40 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon can only be claimed on future orders."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kupont csak jövőbeli rendelésekre lehet felhasználni."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon does not have enough points for the selected reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a kupon nem rendelkezik elég ponttal a kiválasztott jutalomhoz."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.constraint,message:sale_loyalty.constraint_sale_order_coupon_points_order_coupon_unique
 msgid "The coupon points entry already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kupon pont bejegyzés már létezik."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The program is not available for this order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A program nem elérhető ehhez a rendeléshez."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_loyalty_card__order_id
@@ -1118,7 +1189,11 @@ msgstr "A vevői rendelés, amelyből a kupon generálódott"
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "There is nothing to discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nincs mire kedvezményt adni"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
@@ -1129,25 +1204,41 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is expired (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a kód lejárt (%s)."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is invalid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a kód érvénytelen (%s)."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon has already been used."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a kupon már felhasználásra került."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon is expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a kupon lejárt."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
@@ -1185,7 +1276,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This promo code is already applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ez a promóciós kód már alkalmazásra került."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_view_form_inherit_sale_loyalty
@@ -1201,7 +1296,11 @@ msgstr "Használt"
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Used :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Használva :"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python

@@ -45,23 +45,39 @@ function pivotPeriodToFilterValue(timeRange, value) {
                 yearOffset,
             };
         case "month": {
+<<<<<<< HEAD
             const month = value.includes("/") ? Number.parseInt(value.split("/")[0]) : -1;
+=======
+            const month = value.includes("/") ? Number.parseInt(value.split("/")[0]) - 1 : -1;
+>>>>>>> upstream/18.0
             if (!(month in monthsOptions)) {
                 return { yearOffset, period: undefined };
             }
             return {
                 yearOffset,
+<<<<<<< HEAD
                 period: monthsOptions[month - 1].id,
             };
         }
         case "quarter": {
             const quarter = value.includes("/") ? Number.parseInt(value.split("/")[0]) : -1;
+=======
+                period: monthsOptions[month].id,
+            };
+        }
+        case "quarter": {
+            const quarter = value.includes("/") ? Number.parseInt(value.split("/")[0]) - 1 : -1;
+>>>>>>> upstream/18.0
             if (!(quarter in FILTER_DATE_OPTION.quarter)) {
                 return { yearOffset, period: undefined };
             }
             return {
                 yearOffset,
+<<<<<<< HEAD
                 period: FILTER_DATE_OPTION.quarter[quarter - 1],
+=======
+                period: FILTER_DATE_OPTION.quarter[quarter],
+>>>>>>> upstream/18.0
             };
         }
     }
@@ -246,7 +262,13 @@ export class PivotUIGlobalFilterPlugin extends OdooUIPlugin {
                             }
                         }
                         // A group by value of "none"
+<<<<<<< HEAD
                         if (value === false) break;
+=======
+                        if (value === false) {
+                            break;
+                        }
+>>>>>>> upstream/18.0
                         if (JSON.stringify(currentValue) !== `[${value}]`) {
                             transformedValue = [value];
                         }

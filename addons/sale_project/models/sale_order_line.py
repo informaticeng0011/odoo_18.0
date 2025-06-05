@@ -137,12 +137,29 @@ class SaleOrderLine(models.Model):
     def _compute_analytic_distribution(self):
         super()._compute_analytic_distribution()
         for line in self:
+<<<<<<< HEAD
             if line.display_type or line.analytic_distribution or not line.product_id:
                 continue
             project = line.product_id.project_id or line.order_id.project_id
             distribution = project._get_analytic_distribution()
             if distribution:
                 line.analytic_distribution = distribution
+=======
+            project = line.product_id.project_id or line.order_id.project_id
+            if line.display_type or not line.product_id or not project:
+                continue
+
+            if line.analytic_distribution:
+                applied_root_plans = self.env['account.analytic.account'].browse(
+                    list({int(account_id) for ids in line.analytic_distribution for account_id in ids.split(",")})
+                ).root_plan_id
+                if accounts_to_add := project._get_analytic_accounts().filtered(
+                    lambda account: account.root_plan_id not in applied_root_plans
+                ):
+                    line.analytic_distribution |= {",".join(str(account_id.id) for account_id in accounts_to_add): 100}
+            else:
+                line.analytic_distribution = project._get_analytic_distribution()
+>>>>>>> upstream/18.0
 
     @api.model_create_multi
     def create(self, vals_list):
@@ -301,6 +318,12 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
+                # if there's multiple lines, skip the product name part
+                sale_line_name_parts.pop(0)
+>>>>>>> upstream/18.0
 =======
             if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
                 # if there's multiple lines, skip the product name part
@@ -608,7 +631,11 @@ class SaleOrderLine(models.Model):
             to this sale order line, or the analytic account of the project which uses this sale order line, if it exists.
         """
         values = super(SaleOrderLine, self)._prepare_invoice_line(**optional_values)
+<<<<<<< HEAD
         if not values.get('analytic_distribution'):
+=======
+        if not values.get('analytic_distribution') and not self.analytic_distribution:
+>>>>>>> upstream/18.0
             if self.task_id.project_id.account_id:
                 values['analytic_distribution'] = {self.task_id.project_id.account_id.id: 100}
             elif self.project_id.account_id:

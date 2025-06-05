@@ -4,6 +4,11 @@ import { useSelfOrder } from "@pos_self_order/app/self_order_service";
 import { PopupTable } from "@pos_self_order/app/components/popup_table/popup_table";
 import { _t } from "@web/core/l10n/translation";
 import { OrderWidget } from "@pos_self_order/app/components/order_widget/order_widget";
+<<<<<<< HEAD
+=======
+import { CancelPopup } from "@pos_self_order/app/components/cancel_popup/cancel_popup";
+import { rpc } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 
 export class CartPage extends Component {
     static template = "pos_self_order.CartPage";
@@ -12,6 +17,10 @@ export class CartPage extends Component {
 
     setup() {
         this.selfOrder = useSelfOrder();
+<<<<<<< HEAD
+=======
+        this.dialog = useService("dialog");
+>>>>>>> upstream/18.0
         this.router = useService("router");
         this.state = useState({
             selectTable: false,
@@ -19,6 +28,17 @@ export class CartPage extends Component {
         });
     }
 
+<<<<<<< HEAD
+=======
+    get showCancelButton() {
+        return (
+            this.selfOrder.config.self_ordering_mode === "mobile" &&
+            this.selfOrder.config.self_ordering_pay_after === "each" &&
+            typeof this.selfOrder.currentOrder.id === "number"
+        );
+    }
+
+>>>>>>> upstream/18.0
     get lines() {
         const lines = this.selfOrder.currentOrder.lines;
         return lines ? lines : [];
@@ -38,6 +58,28 @@ export class CartPage extends Component {
         }
     }
 
+<<<<<<< HEAD
+=======
+    async cancelOrder() {
+        this.dialog.add(CancelPopup, {
+            title: _t("Cancel order"),
+            confirm: async () => {
+                try {
+                    await rpc("/pos-self-order/remove-order", {
+                        access_token: this.selfOrder.access_token,
+                        order_id: this.selfOrder.currentOrder.id,
+                        order_access_token: this.selfOrder.currentOrder.access_token,
+                    });
+                    this.selfOrder.currentOrder.state = "cancel";
+                    this.router.navigate("default");
+                } catch (error) {
+                    this.selfOrder.handleErrorNotification(error);
+                }
+            },
+        });
+    }
+
+>>>>>>> upstream/18.0
     getLineChangeQty(line) {
         const currentQty = line.qty;
         const lastChange = this.selfOrder.currentOrder.uiState.lineChanges[line.uuid];

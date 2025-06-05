@@ -1140,7 +1140,11 @@ export class HistoryPlugin extends Plugin {
                 result.attributes[node.attributes[i].name] = node.attributes[i].value;
             }
             for (const child of childrenToSerialize) {
+<<<<<<< HEAD
                 if (!nodesToStripFromChildren.has(child.nodeId)) {
+=======
+                if (!nodesToStripFromChildren.has(this.nodeToIdMap.get(child))) {
+>>>>>>> upstream/18.0
                     const serializedChild = this._serializeNode(child, nodesToStripFromChildren);
                     if (serializedChild) {
                         result.children.push(serializedChild);
@@ -1200,7 +1204,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.editable.contains(ev.targget)) {
+=======
+        if (this.editable.contains(ev.target)) {
+>>>>>>> upstream/18.0
 =======
         if (this.editable.contains(ev.target)) {
 >>>>>>> upstream/18.0

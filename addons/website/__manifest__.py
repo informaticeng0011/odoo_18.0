@@ -11,6 +11,10 @@
         'digest',
         'web',
         'web_editor',
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
         'http_routing',
         'portal',
         'social_media',
@@ -282,6 +286,12 @@
         'web.qunit_suite_tests': [
             'website/static/tests/redirect_field_tests.js',
         ],
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
         'web.tests_assets': [
             'website/static/tests/website_service_mock.js',
         ],
@@ -294,6 +304,13 @@
             'website/static/src/js/editor/add_snippet_dialog.js',
             'website/static/src/js/editor/widget_link.js',
         ],
+<<<<<<< HEAD
+=======
+        'html_editor.assets_link_popover': [
+            'website/static/src/js/editor/html_editor.js',
+            'website/static/src/xml/html_editor.xml',
+        ],
+>>>>>>> upstream/18.0
         'website.assets_wysiwyg': [
             ('include', 'web._assets_helpers'),
             'web_editor/static/src/scss/bootstrap_overridden.scss',

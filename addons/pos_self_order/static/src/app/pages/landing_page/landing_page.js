@@ -6,6 +6,10 @@ import { useService } from "@web/core/utils/hooks";
 import { LanguagePopup } from "@pos_self_order/app/components/language_popup/language_popup";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -44,10 +48,13 @@ export class LandingPage extends Component {
                 // prevent traceback when no image is set
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.carouselInterval = setInterval(() => {
                     carousel.next();
                 }, 5000);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 this.carouselInterval = setInterval(
@@ -57,6 +64,9 @@ export class LandingPage extends Component {
                     session.test_mode ? 100 : 5000
                 );
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

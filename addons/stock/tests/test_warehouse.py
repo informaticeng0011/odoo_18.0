@@ -900,7 +900,10 @@ class TestWarehouse(TestStockCommon):
         }])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -912,6 +915,9 @@ class TestWarehouse(TestStockCommon):
         self.warehouse_1.delivery_steps = 'pick_ship'
         self.assertTrue(sequence.prefix.endswith(end_of_prefix))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

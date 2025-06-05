@@ -93,7 +93,11 @@ export class MoveNodePlugin extends Plugin {
         for (const entry of entries) {
             const element = entry.target;
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (entry.isIntersecting) {
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
 =======
             if (entry.isIntersecting && element.isConnected) {
 >>>>>>> upstream/18.0

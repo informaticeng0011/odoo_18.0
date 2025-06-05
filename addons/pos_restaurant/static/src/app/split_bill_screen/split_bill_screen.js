@@ -60,6 +60,7 @@ export class SplitBillScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!line.is_pos_groupable()) {
 =======
             if (!line.is_pos_groupable() && !line.isPartOfCombo()) {
@@ -84,6 +85,9 @@ export class SplitBillScreen extends Component {
 >>>>>>> upstream/18.0
 =======
             if (!line.is_pos_groupable() && !line.isPartOfCombo()) {
+>>>>>>> upstream/18.0
+=======
+            if (!line.get_unit()?.is_pos_groupable) {
 >>>>>>> upstream/18.0
 =======
             if (!line.get_unit()?.is_pos_groupable) {

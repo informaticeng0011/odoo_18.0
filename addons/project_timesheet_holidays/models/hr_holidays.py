@@ -5,6 +5,11 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import pytz
+
+>>>>>>> upstream/18.0
 =======
 import pytz
 
@@ -86,10 +91,13 @@ class Holidays(models.Model):
                 continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             work_hours_data = leave.employee_id._list_work_time_per_day(
                 leave.date_from,
                 leave.date_to)[leave.employee_id.id]
 =======
+=======
+>>>>>>> upstream/18.0
             if leave.employee_id.resource_calendar_id.flexible_hours and (leave.request_unit_hours or leave.request_unit_half):
                 calendar_timezone = pytz.timezone(leave.employee_id.resource_calendar_id.tz)
                 if leave.request_unit_hours:
@@ -100,6 +108,9 @@ class Holidays(models.Model):
                 work_hours_data = leave.employee_id._list_work_time_per_day(
                     leave.date_from,
                     leave.date_to)[leave.employee_id.id]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             for index, (day_date, work_hours_count) in enumerate(work_hours_data):

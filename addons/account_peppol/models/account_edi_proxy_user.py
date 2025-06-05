@@ -84,8 +84,12 @@ class AccountEdiProxyClientUser(models.Model):
         ):
             error_msg = _(
                 "A participant with these details has already been registered on the network. "
+<<<<<<< HEAD
                 "If you have previously registered to an alternative Peppol service, please deregister from that service, "
                 "or request a migration key before trying again. "
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
             )
 
             if isinstance(participant_info, str):

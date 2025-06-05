@@ -39,6 +39,7 @@
 
         <!-- support for custom footer -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div class="o_footer_content row border-top pt-2" position="attributes">
             <attribute name="t-if">not custom_footer</attribute>
         </div>
@@ -49,6 +50,8 @@
             </div>
         </div>
 =======
+=======
+>>>>>>> upstream/18.0
         <xpath expr="//div[hasclass('o_footer_content')]" position="attributes">
             <attribute name="t-if">not custom_footer</attribute>
         </xpath>
@@ -58,6 +61,9 @@
                     <t t-out="custom_footer"/>
             </div>
         </xpath>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </template>
 
@@ -74,6 +80,7 @@
 
         <!-- support for custom footer -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div class="o_footer_content row border-top pt-2" position="attributes">
             <attribute name="t-if">not custom_footer</attribute>
         </div>
@@ -84,6 +91,8 @@
             </div>
         </div>
 =======
+=======
+>>>>>>> upstream/18.0
         <xpath expr="//div[hasclass('o_footer_content')]" position="attributes">
             <attribute name="t-if">not custom_footer</attribute>
         </xpath>
@@ -93,6 +102,9 @@
                 <t t-out="custom_footer"/>
             </div>
         </xpath>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </template>
 

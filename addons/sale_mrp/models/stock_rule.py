@@ -10,7 +10,10 @@ class StockRule(models.Model):
             res['sale_line_id'] = values['sale_line_id']
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_stock_move_values(self, product_id, product_qty, product_uom, location_dest_id, name, origin, company_id, values):
         move_values = super()._get_stock_move_values(product_id, product_qty, product_uom, location_dest_id, name, origin, company_id, values)
@@ -23,4 +26,7 @@ class StockRule(models.Model):
                 if bom_line_id:
                     move_values['bom_line_id'] = bom_line_id
         return move_values
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -78,3 +78,21 @@ export function checkCombo(comboName, products) {
 
     return steps;
 }
+<<<<<<< HEAD
+=======
+
+export function cancelOrder() {
+    return [
+        {
+            content: `Click on 'Cancel' button`,
+            trigger: '.order-cart-content .btn:contains("Cancel")',
+            run: "click",
+        },
+        {
+            content: `Validate cancel popup`,
+            trigger: ".modal-dialog .btn:contains('Cancel Order')",
+            run: "click",
+        },
+    ];
+}
+>>>>>>> upstream/18.0
