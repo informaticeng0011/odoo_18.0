@@ -775,11 +775,17 @@ class BaseAutomation(models.Model):
                 # check postconditions, and execute actions on the records that satisfy them
                 for automation in automations.with_context(old_values=None):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     _logger.debug(
                         "Processing automation rule %s (#%s) on %s records (create)",
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     automation._process(automation._filter_post(records, feedback=True))
                 return records.with_env(self.env)
@@ -806,11 +812,17 @@ class BaseAutomation(models.Model):
                 # check postconditions, and execute actions on the records that satisfy them
                 for automation in automations.with_context(old_values=old_values):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     _logger.debug(
                         "Processing automation rule %s (#%s) on %s records (write)",
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     records, domain_post = automation._filter_post_export_domain(pre[automation], feedback=True)
                     automation._process(records, domain_post=domain_post)
@@ -846,11 +858,17 @@ class BaseAutomation(models.Model):
                 # check postconditions, and execute automations on the records that satisfy them
                 for automation in automations.with_context(old_values=old_values):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     _logger.debug(
                         "Processing automation rule %s (#%s) on %s records (_compute_field_value)",
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     records, domain_post = automation._filter_post_export_domain(pre[automation], feedback=True)
                     automation._process(records, domain_post=domain_post)
@@ -867,11 +885,17 @@ class BaseAutomation(models.Model):
                 # check conditions, and execute actions on the records that satisfy them
                 for automation in automations:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     _logger.debug(
                         "Processing automation rule %s (#%s) on %s records (unlink)",
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     automation._process(automation._filter_post(records, feedback=True))
                 # call original method
@@ -928,11 +952,17 @@ class BaseAutomation(models.Model):
                 for automation in automations.with_context(old_values=None):
                     records = automation._filter_pre(self, feedback=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     _logger.debug(
                         "Processing automation rule %s (#%s) on %s records (_message_post)",
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     automation._process(records)
 

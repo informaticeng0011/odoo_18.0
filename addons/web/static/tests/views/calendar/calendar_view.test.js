@@ -608,7 +608,10 @@ test(`check the avatar of the attendee in the calendar filter panel`, async () =
     CalendarPartner._views = {
         list: `<list><field name="name"/></list>`,
         kanban: `<kanban><templates><t name="card"><field name="name"/></t></templates></kanban>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     CalendarPartner._records.push(
         { id: 5, name: "foo partner 5" },
@@ -653,7 +656,10 @@ test.tags("desktop");
 test(`Select multiple attendees in the calendar filter panel autocomplete on desktop`, async () => {
     CalendarPartner._views = {
         list: `<list><field name="name"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     CalendarPartner._records.push(
         { id: 5, name: "foo partner 5" },
@@ -725,7 +731,10 @@ test.tags("desktop");
 test(`add a filter with the search more dialog on desktop`, async () => {
     CalendarPartner._views = {
         list: `<list><field name="name"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     CalendarPartner._records.push(
         { id: 5, name: "foo partner 5" },
@@ -902,7 +911,10 @@ test(`add a filter with the search more dialog on mobile`, async () => {
     CalendarPartner._views = {
         list: `<list><field name="name"/></list>`,
         kanban: `<kanban><templates><t t-name="card"><field class="o_data_row" name="name"/></t></templates></kanban>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     CalendarPartner._records.push(
         { id: 5, name: "foo partner 5" },
@@ -2632,7 +2644,10 @@ test(`Add filters and specific color`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3205,7 +3220,10 @@ test(`Update event with filters on mobile`, async () => {
     CalendarUsers._records.push({ id: 5, name: "user 5", partner_id: 3 });
     CalendarUsers._views = {
         kanban: `<kanban><templates><t t-name="card"><field name="name"/></t></templates></kanban>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     Event._views = {
         form: `
@@ -3818,6 +3836,11 @@ test(`form_view_id attribute works with popup (for creating events)`, async () =
 });
 
 test(`calendar fallback to form view id in action if necessary`, async () => {
+<<<<<<< HEAD
+=======
+    Event._views["form,43"] = /* xml */ `<form />`;
+
+>>>>>>> upstream/18.0
     mockService("action", {
         doAction(request) {
             expect.step("doAction");
@@ -3884,7 +3907,10 @@ test(`fullcalendar initializes with right locale`, async () => {
 test(`initial_date given in the context`, async () => {
     Event._views = {
         "calendar,1": `<calendar date_start="start" date_stop="stop" mode="day"/>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     defineActions([
@@ -4824,8 +4850,11 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAllTexts(`${popover} .o_field_properties .o_card_property_field`)).toEqual([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4857,6 +4886,9 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5069,7 +5101,10 @@ test("sample data are not removed when switching back from calendar view", async
                 <field name="stop"/>
             </list>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     defineActions([
@@ -5105,7 +5140,11 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
             }
         },
         setItem(key, value) {
+<<<<<<< HEAD
             if (key === "scaleOf-viewId-123456789") {
+=======
+            if (key === "scaleOf-viewId-19") {
+>>>>>>> upstream/18.0
                 expect.step(`scale_${value}`);
             }
         },
@@ -5115,6 +5154,10 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
         resModel: "event",
         type: "calendar",
         arch: `<calendar date_start="start" mode="month"/>`,
+<<<<<<< HEAD
+=======
+        viewId: 19,
+>>>>>>> upstream/18.0
     });
     expect.verifySteps(["scale_week"]);
     expect(`.scale_button_selection`).toHaveText("Week");
@@ -5151,7 +5194,10 @@ test(`Retaining the 'all' filter value on re-rendering`, async () => {
                 <field name="stop"/>
             </list>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -5204,7 +5250,10 @@ test("save selected date during view switching", async () => {
                 <field name="stop"/>
             </list>
         `,
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -5292,7 +5341,11 @@ test("html field on calendar shouldn't have a tooltip", async () => {
         `,
     });
 
+<<<<<<< HEAD
     await clickEvent(Event._records[0].id);
+=======
+    await clickEvent(MockServer.env["event"][0].id);
+>>>>>>> upstream/18.0
     const descriptionField = queryFirst('.o_cw_popover_field .o_field_widget[name="description"]');
     const parentLi = descriptionField.closest("li");
     expect(parentLi).toHaveAttribute("data-tooltip", "");

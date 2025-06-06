@@ -11,7 +11,10 @@ class StockRule(models.Model):
         return res
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -27,6 +30,9 @@ class StockRule(models.Model):
                     move_values['bom_line_id'] = bom_line_id
         return move_values
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

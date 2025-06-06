@@ -171,14 +171,20 @@ export class EmbeddedComponentPlugin extends Plugin {
         const fiber = root.node.fiber;
         const fiberComplete = fiber.complete;
 <<<<<<< HEAD
+<<<<<<< HEAD
         fiber.complete = function () {
             host.replaceChildren();
             fiberComplete.call(this);
 =======
+=======
+>>>>>>> upstream/18.0
         fiber.complete = () => {
             host.replaceChildren();
             fiberComplete.call(fiber);
             this.dispatchTo("post_mount_component_handlers");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         };
         const info = {

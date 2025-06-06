@@ -140,7 +140,10 @@ test.tags("desktop");
 test("Many2OneReferenceField set value with search more", async () => {
     PartnerType._views = {
         list: `<list><field name="name"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     PartnerType._records = [
         { id: 1, name: "type 1" },

@@ -6,6 +6,7 @@ from datetime import datetime, date, time
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import api, fields, models, _
 <<<<<<< HEAD
@@ -68,6 +69,11 @@ from odoo.addons.resource.models.utils import HOURS_PER_DAY
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from calendar import monthrange
+
+from odoo import api, fields, models, _
 >>>>>>> upstream/18.0
 =======
 from calendar import monthrange
@@ -379,7 +385,13 @@ class HolidaysAllocation(models.Model):
         else:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], accrual_plan.carryover_day)
+=======
+            max_day = monthrange(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month])[1]
+            day = min(accrual_plan.carryover_day, max_day)
+            carryover_date = date(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month], day)
+>>>>>>> upstream/18.0
 =======
             max_day = monthrange(date_from.year, MONTHS_TO_INTEGER[accrual_plan.carryover_month])[1]
             day = min(accrual_plan.carryover_day, max_day)
@@ -769,6 +781,10 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    allocation.actual_lastcall = allocation.lastcall
+>>>>>>> upstream/18.0
 =======
                     allocation.actual_lastcall = allocation.lastcall
 >>>>>>> upstream/18.0

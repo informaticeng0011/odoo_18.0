@@ -29,7 +29,10 @@ class Animal extends models.Model {
     });
 
     _views = {
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
         [["search", 1]]: `
             <search>
                 <filter name="filter" string="True domain" domain="[(1, '=', 1)]"/>

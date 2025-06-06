@@ -218,6 +218,7 @@ export function complexCondition(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -258,6 +259,14 @@ export function complexCondition(value) {
 function treeContainsExpressions(tree) {
     if (tree.type === "condition") {
         const { path, operator, value } = tree;
+=======
+function treeContainsExpressions(tree) {
+    if (tree.type === "condition") {
+        const { path, operator, value } = tree;
+        if (isTree(value) && treeContainsExpressions(value)) {
+            return true;
+        }
+>>>>>>> upstream/18.0
         return [path, operator, value].some(
             (v) =>
                 v instanceof Expression ||
@@ -301,6 +310,9 @@ export function domainContainsExpresssions(domain) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

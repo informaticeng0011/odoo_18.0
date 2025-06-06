@@ -3,7 +3,11 @@ import { MAIN_PLUGINS } from "@html_editor/plugin_sets";
 import { parseHTML } from "@html_editor/utils/html";
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, pointerDown, pointerUp, press, queryOne } from "@odoo/hoot-dom";
+=======
+import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -607,7 +611,10 @@ describe("destroy", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("serialization", () => {
     test("node serialization should not duplicate nodes", async () => {
@@ -642,5 +649,9 @@ describe("serialization", () => {
         ({ nodeId } = mutations[2].node);
         expect(idToNode(nodeId)).toBe(textNode);
     });
+<<<<<<< HEAD
+});
+>>>>>>> upstream/18.0
+=======
 });
 >>>>>>> upstream/18.0

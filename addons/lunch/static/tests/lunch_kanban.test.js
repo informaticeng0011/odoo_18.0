@@ -1,5 +1,9 @@
 import { LunchKanbanRenderer } from "@lunch/views/kanban";
+<<<<<<< HEAD
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
+=======
+import { defineMailModels, mailModels } from "@mail/../tests/mail_test_helpers";
+>>>>>>> upstream/18.0
 import { describe, expect, test } from "@odoo/hoot";
 import {
     contains,
@@ -25,11 +29,18 @@ const lunchInfos = {
 };
 
 async function mountLunchView() {
+<<<<<<< HEAD
     return await mountView(
         Object.assign({
             type: "kanban",
             resModel: "lunch.product",
             arch: `
+=======
+    return mountView({
+        type: "kanban",
+        resModel: "lunch.product",
+        arch: `
+>>>>>>> upstream/18.0
             <kanban js_class="lunch_kanban">
                 <templates>
                     <t t-name="card">
@@ -38,8 +49,12 @@ async function mountLunchView() {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         })
     );
+=======
+    });
+>>>>>>> upstream/18.0
 }
 
 class Product extends models.Model {
@@ -88,13 +103,22 @@ class Order extends models.Model {
     };
 }
 
+<<<<<<< HEAD
 const mailModels = defineMailModels();
+=======
+defineMailModels();
+>>>>>>> upstream/18.0
 defineModels([Product, Location, Order]);
 
 describe.current.tags("desktop");
 
+<<<<<<< HEAD
 onRpc("/lunch/user_location_get", () => {
     return Location._records[0].id;
+=======
+onRpc("/lunch/user_location_get", function () {
+    return this.env["lunch.location"][0].id;
+>>>>>>> upstream/18.0
 });
 onRpc("/lunch/infos", () => {
     return lunchInfos;
@@ -178,9 +202,17 @@ test("Location change", async () => {
 
 test("Manager: user change", async () => {
     expect.assertions(8);
+<<<<<<< HEAD
     mailModels
         .find((m) => m.name === "ResUsers")
         ._records.push({ id: 1, name: "Johnny Hache" }, { id: 2, name: "David Elora" });
+=======
+
+    mailModels.ResUsers._records.push(
+        { id: 1, name: "Johnny Hache" },
+        { id: 2, name: "David Elora" }
+    );
+>>>>>>> upstream/18.0
     let userInfos = { ...lunchInfos, is_manager: true };
     let expectedUserId = false; // false as we are requesting for the current user
     onRpc("/lunch/user_location_get", () => {

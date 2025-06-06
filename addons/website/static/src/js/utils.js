@@ -17,6 +17,7 @@ import { UrlAutoComplete } from "@website/components/autocomplete_with_pages/url
 function loadAnchors(url, body) {
     return new Promise(function (resolve, reject) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (url === window.location.pathname || url[0] === '#') {
             resolve(body ? body : document.body.outerHTML);
         } else if (url.length && !url.startsWith("http")) {
@@ -44,6 +45,8 @@ function loadAnchors(url, body) {
         return [];
     });
 =======
+=======
+>>>>>>> upstream/18.0
         if (url === window.location.pathname || url[0] === "#") {
             resolve(body ? body : document.body.outerHTML);
         } else if (url.length && !url.startsWith("http")) {
@@ -86,6 +89,9 @@ function loadAnchors(url, body) {
             console.debug(error);
             return [];
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

@@ -5,6 +5,11 @@ import { PopupTable } from "@pos_self_order/app/components/popup_table/popup_tab
 import { _t } from "@web/core/l10n/translation";
 import { OrderWidget } from "@pos_self_order/app/components/order_widget/order_widget";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { CancelPopup } from "@pos_self_order/app/components/cancel_popup/cancel_popup";
+import { rpc } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { CancelPopup } from "@pos_self_order/app/components/cancel_popup/cancel_popup";
 import { rpc } from "@web/core/network/rpc";
@@ -18,6 +23,10 @@ export class CartPage extends Component {
     setup() {
         this.selfOrder = useSelfOrder();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dialog = useService("dialog");
+>>>>>>> upstream/18.0
 =======
         this.dialog = useService("dialog");
 >>>>>>> upstream/18.0
@@ -29,7 +38,10 @@ export class CartPage extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get showCancelButton() {
         return (
             this.selfOrder.config.self_ordering_mode === "mobile" &&
@@ -38,6 +50,9 @@ export class CartPage extends Component {
         );
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get lines() {
         const lines = this.selfOrder.currentOrder.lines;
@@ -59,7 +74,10 @@ export class CartPage extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     async cancelOrder() {
         this.dialog.add(CancelPopup, {
             title: _t("Cancel order"),
@@ -79,6 +97,9 @@ export class CartPage extends Component {
         });
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     getLineChangeQty(line) {
         const currentQty = line.qty;

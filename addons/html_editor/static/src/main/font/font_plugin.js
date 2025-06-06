@@ -1,12 +1,22 @@
 import { Plugin } from "@html_editor/plugin";
 import { isBlock, closestBlock } from "@html_editor/utils/blocks";
+<<<<<<< HEAD
 import { fillEmpty } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
 import { isVisibleTextNode } from "@html_editor/utils/dom_info";
+=======
+import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
+import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
+import { isRedundantElement, isVisibleTextNode } from "@html_editor/utils/dom_info";
+>>>>>>> upstream/18.0
 import {
     closestElement,
     createDOMPathGenerator,
     descendants,
+<<<<<<< HEAD
+=======
+    selectElements,
+>>>>>>> upstream/18.0
 } from "@html_editor/utils/dom_traversal";
 import {
     convertNumericToUnit,
@@ -261,6 +271,10 @@ export class FontPlugin extends Plugin {
             this.updateFontSelectorParams.bind(this),
             this.updateFontSizeSelectorParams.bind(this),
         ],
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 
         /** Overrides */
         split_element_block_overrides: [
@@ -277,6 +291,17 @@ export class FontPlugin extends Plugin {
         this.font = reactive({ displayName: "" });
     }
 
+<<<<<<< HEAD
+=======
+    normalize(root) {
+        for (const el of selectElements(root, "strong, b, span[style*='font-weight: bolder']")) {
+            if (isRedundantElement(el)) {
+                unwrapContents(el);
+            }
+        }
+    }
+
+>>>>>>> upstream/18.0
     get fontName() {
         const sel = this.dependencies.selection.getSelectionData().deepEditableSelection;
         // if (!sel) {

@@ -5,6 +5,11 @@ import { rpc } from "@web/core/network/rpc";
 import { AutoCompleteWithPages } from "@website/components/autocomplete_with_pages/autocomplete_with_pages";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// TODO: we probably don't need it anymore after merging html_builder
+// see: https://github.com/odoo/odoo/pull/187091
+>>>>>>> upstream/18.0
 =======
 // TODO: we probably don't need it anymore after merging html_builder
 // see: https://github.com/odoo/odoo/pull/187091

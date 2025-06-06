@@ -452,7 +452,15 @@ test("use category (on selection) to refine search", async () => {
 test("category has been archived", async () => {
     Company._fields.active = fields.Boolean({ string: "Archived" });
     Company._records = [
+<<<<<<< HEAD
         { id: 3, name: "asustek" },
+=======
+        {
+            name: "asustek",
+            id: 3,
+            active: false,
+        },
+>>>>>>> upstream/18.0
         {
             name: "Company 5",
             id: 5,
@@ -1582,9 +1590,13 @@ test("tests conservation of category record order", async () => {
 });
 
 test("search panel is available on list and kanban by default", async () => {
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
             <search>
                 <filter name="false_domain" string="False Domain" domain="[(0, '=', 1)]"/>
                 <filter name="filter" string="Filter" domain="[('bar', '=', true)]"/>
@@ -1595,8 +1607,12 @@ test("search panel is available on list and kanban by default", async () => {
                     <field name="category_id" select="multi" enable_counters="1" expand="1"/>
                 </searchpanel>
             </search>
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 
     onRpc("has_group", () => true);
     await mountWithCleanup(WebClient);
@@ -1618,9 +1634,13 @@ test("search panel is available on list and kanban by default", async () => {
 });
 
 test("search panel with view_types attribute", async () => {
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
             <search>
                 <filter name="false_domain" string="False Domain" domain="[(0, '=', 1)]"/>
                 <filter name="filter" string="Filter" domain="[('bar', '=', true)]"/>
@@ -1631,8 +1651,12 @@ test("search panel with view_types attribute", async () => {
                     <field name="category_id" select="multi" enable_counters="1" expand="1"/>
                 </searchpanel>
             </search>
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 
     onRpc("has_group", () => true);
     await mountWithCleanup(WebClient);
@@ -3014,6 +3038,7 @@ test("search panel width is kept when switching between controllers", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3091,22 +3116,37 @@ test("search panel with sample data", async (assert) => {
     Partner._views = {
         ...Partner._views,
         [["kanban", false]]: /* xml */ `
+=======
+
+test("search panel with sample data", async () => {
+    Partner._records = [];
+    Partner._views.kanban = /* xml */ `
+>>>>>>> upstream/18.0
         <kanban sample="1">
             <templates>
                 <div t-name="card" class="oe_kanban_global_click">
                     <field name="foo"/>
                 </div>
             </templates>
+<<<<<<< HEAD
         </kanban>`,
         [["list", false]]: /* xml */ `
         <list sample="1">
             <field name="foo"/>
         </list>`,
     };
+=======
+        </kanban>`;
+    Partner._views.list = /* xml */ `
+        <list sample="1">
+            <field name="foo"/>
+        </list>`;
+>>>>>>> upstream/18.0
 
     onRpc("has_group", () => true);
     await mountWithCleanup(WebClient);
     await getService("action").doAction(1);
+<<<<<<< HEAD
     
     await getService("action").switchView("kanban");
     expect(getComputedStyle(queryAll(`.o_search_panel_filter_value:eq(0) input`)[0]).pointerEvents).toEqual('auto');
@@ -3219,4 +3259,13 @@ test("search panel with sample data", async (assert) => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    await getService("action").switchView("kanban");
+    expect(`.o_search_panel_filter_value:eq(0) input`).toHaveStyle({ "pointer-events": "auto" });
+
+    await getService("action").switchView("list");
+    expect(`.o_search_panel_filter_value:eq(0) input`).toHaveStyle({ "pointer-events": "auto" });
+});
 >>>>>>> upstream/18.0

@@ -12,6 +12,10 @@
         'web',
         'web_editor',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -287,6 +291,12 @@
             'website/static/tests/redirect_field_tests.js',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -305,11 +315,17 @@
             'website/static/src/js/editor/widget_link.js',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         'html_editor.assets_link_popover': [
             'website/static/src/js/editor/html_editor.js',
             'website/static/src/xml/html_editor.xml',
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         'website.assets_wysiwyg': [
             ('include', 'web._assets_helpers'),

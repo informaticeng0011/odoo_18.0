@@ -77,11 +77,14 @@ export class MailTrackingValue extends models.ServerModel {
                 values["new_value_integer"] = new_value ? 1 : 0;
                 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "monetary":
                 values["old_value_float"] = initial_value;
                 values["new_value_float"] = new_value;
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
             case "monetary": {
                 values["old_value_float"] = initial_value;
                 values["new_value_float"] = new_value;
@@ -93,6 +96,9 @@ export class MailTrackingValue extends models.ServerModel {
                 values[`currency_id`] = record[0][currencyField];
                 break;
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             case "selection":
                 values["old_value_char"] = initial_value;
@@ -132,9 +138,12 @@ export class MailTrackingValue extends models.ServerModel {
                 fieldName: irField.name,
                 fieldType: irField.ttype,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 newValue: { value: this._format_display_value(tracking, "new") },
                 oldValue: { value: this._format_display_value(tracking, "old") },
 =======
+=======
+>>>>>>> upstream/18.0
                 newValue: {
                     currencyId: tracking.currency_id,
                     floatPrecision: this.env[irField.model]._fields[irField.name].digits,
@@ -145,6 +154,9 @@ export class MailTrackingValue extends models.ServerModel {
                     floatPrecision: this.env[irField.model]._fields[irField.name].digits,
                     value: this._format_display_value(tracking, "old"),
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             };
         });

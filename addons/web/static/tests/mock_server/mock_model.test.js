@@ -23,6 +23,7 @@ class Oui extends models.Model {
 defineModels([Oui]);
 
 test("model name can be implicitly extracted from its constructor name", async () => {
+<<<<<<< HEAD
     const [AnonymousClass, Foo, ResCurrency, ResPartner] = defineModels([
         class extends models.Model {},
         class Foo extends models.Model {},
@@ -31,6 +32,18 @@ test("model name can be implicitly extracted from its constructor name", async (
         },
         class ResPartner extends models.Model {},
     ]);
+=======
+    const [AnonymousClass, Foo, ResCurrency, ResPartner] = [
+        class extends models.Model {},
+        class Foo extends models.Model {},
+        class ResCurrency extends models.Model {
+            _name = "project.task";
+        },
+        class ResPartner extends models.Model {},
+    ];
+
+    defineModels([AnonymousClass, Foo, ResCurrency, ResPartner]);
+>>>>>>> upstream/18.0
 
     await makeMockServer();
 
@@ -55,6 +68,74 @@ test("model should be defined on the mock server", async () => {
     ]);
 });
 
+<<<<<<< HEAD
+=======
+test("models can be extended by having the same name", async () => {
+    class First extends models.Model {
+        _name = "same.model";
+
+        same_method() {
+            return "1";
+        }
+    }
+
+    class Second extends models.Model {
+        _name = "same.model";
+
+        second_method() {
+            return "added by 2";
+        }
+
+        same_method() {
+            return [super.same_method(), "2"].join(" & ");
+        }
+    }
+
+    class Third extends models.Model {
+        _name = "same.model";
+
+        third_method() {
+            return "added by 3";
+        }
+
+        same_method() {
+            return "overridden by 3";
+        }
+    }
+
+    defineModels([First, Second]);
+
+    await makeMockEnv();
+
+    const orm = getService("orm");
+
+    await expect(orm.call("same.model", "same_method")).resolves.toBe("1 & 2");
+    await expect(orm.call("same.model", "second_method")).resolves.toBe("added by 2");
+    await expect(orm.call("same.model", "third_method")).rejects.toThrow();
+
+    expect(MockServer.env["same.model"]).toBeInstanceOf(Second);
+
+    defineModels([Third]);
+
+    await expect(orm.call("same.model", "same_method")).resolves.toBe("overridden by 3");
+    await expect(orm.call("same.model", "second_method")).resolves.toBe("added by 2");
+    await expect(orm.call("same.model", "third_method")).resolves.toBe("added by 3");
+
+    expect(MockServer.env["same.model"]).toBeInstanceOf(Third);
+});
+
+test("cannot access _records on models after init", async () => {
+    expect(Oui._records).toHaveLength(1);
+    expect(() => MockServer.env["oui"]).toThrow();
+
+    const { env } = await makeMockServer();
+
+    expect(Oui._records).toHaveLength(0);
+    expect(env["oui"]).toBe(MockServer.env["oui"]);
+    expect(env["oui"]).toHaveLength(1);
+});
+
+>>>>>>> upstream/18.0
 describe("level 1", () => {
     Oui._fields.age = fields.Integer();
     Oui._records[0].age = 42;

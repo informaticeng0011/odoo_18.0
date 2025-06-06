@@ -16,12 +16,22 @@ export function useDateTimePicker(hookParams) {
         });
     }
     const inputRefs = [useRef("start-date"), useRef("end-date")];
+<<<<<<< HEAD
     const createPopover = hookParams.createPopover ?? usePopover;
     const getInputs = () => inputRefs.map((ref) => ref?.el);
     const { computeBasePickerProps, state, open, focusIfNeeded, enable } = datetimePicker.create(
         hookParams,
         getInputs,
         createPopover
+=======
+    if (!hookParams.createPopover) {
+        hookParams.createPopover = usePopover;
+    }
+    const getInputs = () => inputRefs.map((ref) => ref?.el);
+    const { computeBasePickerProps, state, open, focusIfNeeded, enable } = datetimePicker.create(
+        hookParams,
+        getInputs
+>>>>>>> upstream/18.0
     );
     onWillRender(computeBasePickerProps);
     useEffect(enable, getInputs);

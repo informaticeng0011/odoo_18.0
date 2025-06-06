@@ -25,8 +25,11 @@ import { isNode } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, toSelector } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96,6 +99,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164,6 +170,10 @@ import { getRunner } from "./main_runner";
  *
  * @typedef {{
  *  ignoreOrder?: boolean;
+<<<<<<< HEAD
+=======
+ *  partial?: boolean;
+>>>>>>> upstream/18.0
  * }} DeepEqualOptions
  *
  * @typedef {[string, ArgumentType]} Label
@@ -194,6 +204,11 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
  *
@@ -296,6 +311,14 @@ import { getRunner } from "./main_runner";
  */
 
 /**
+<<<<<<< HEAD
+=======
+ * @template {unknown[]} T
+ * @typedef {T extends [any, ...infer U] ? U : never} DropFirst
+ */
+
+/**
+>>>>>>> upstream/18.0
  * @template T
  * @typedef {T | Iterable<T>} MaybeIterable
  */
@@ -372,7 +395,11 @@ const $writeText = $clipboard?.writeText.bind($clipboard);
  *
  * @param {any} value
  */
+<<<<<<< HEAD
 const getConstructor = (value) => {
+=======
+function getConstructor(value) {
+>>>>>>> upstream/18.0
     const { constructor } = value;
     if (constructor !== Object) {
         return constructor || { name: null };
@@ -397,12 +424,20 @@ const getConstructor = (value) => {
         );
     }
     return objectConstructors.get(className);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {(...args: any[]) => any} fn
  */
+<<<<<<< HEAD
 const getFunctionString = (fn) => {
+=======
+function getFunctionString(fn) {
+>>>>>>> upstream/18.0
     if (R_CLASS.test(fn.name)) {
         return `${fn.name ? `class ${fn.name}` : "anonymous class"} { ${ELLIPSIS} }`;
     }
@@ -417,26 +452,41 @@ const getFunctionString = (fn) => {
 
     const args = fn.length ? "...args" : "";
     return `${prefix}(${args}) => { ${ELLIPSIS} }`;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} value
  */
+<<<<<<< HEAD
 const getGenericSerializer = (value) => {
+=======
+function getGenericSerializer(value) {
+>>>>>>> upstream/18.0
     for (const [constructor, serialize] of GENERIC_SERIALIZERS) {
         if (value instanceof constructor) {
             return serialize;
         }
     }
     return null;
+<<<<<<< HEAD
 };
 
 const makeObjectCache = () => {
+=======
+}
+
+function makeObjectCache() {
+>>>>>>> upstream/18.0
     const cache = new Set();
     return {
         add: (...values) => values.forEach((value) => cache.add(value)),
         has: (...values) => values.every((value) => cache.has(value)),
     };
+<<<<<<< HEAD
 };
 
 /**
@@ -455,24 +505,42 @@ const memoize = (instanceGetter) => {
         return value;
     };
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} value
  * @param {number} [length=MAX_HUMAN_READABLE_SIZE]
  */
+<<<<<<< HEAD
 const truncate = (value, length = MAX_HUMAN_READABLE_SIZE) => {
     const strValue = String(value);
     return strValue.length <= length ? strValue : strValue.slice(0, length) + ELLIPSIS;
 };
+=======
+function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
+    const strValue = String(value);
+    return strValue.length <= length ? strValue : strValue.slice(0, length) + ELLIPSIS;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} a
  * @param {unknown} b
  * @param {boolean} ignoreOrder
+<<<<<<< HEAD
  * @param {ReturnType<makeObjectCache>} cache
  * @returns {boolean}
  */
 const _deepEqual = (a, b, ignoreOrder, cache) => {
+=======
+ * @param {boolean} partial
+ * @param {ReturnType<makeObjectCache>} cache
+ * @returns {boolean}
+ */
+function _deepEqual(a, b, ignoreOrder, partial, cache) {
+>>>>>>> upstream/18.0
     // Primitives
     if (strictEqual(a, b)) {
         return true;
@@ -512,12 +580,22 @@ const _deepEqual = (a, b, ignoreOrder, cache) => {
 
     // Non-iterable objects
     if (!aIsIterable) {
+<<<<<<< HEAD
         const aKeys = $ownKeys(a);
         if (aKeys.length !== $ownKeys(b).length) {
             return false;
         }
         for (const key of aKeys) {
             if (!_deepEqual(a[key], b[key], ignoreOrder, cache)) {
+=======
+        const bKeys = $ownKeys(b);
+        const diff = $ownKeys(a).length - bKeys.length;
+        if (partial ? diff < 0 : diff !== 0) {
+            return false;
+        }
+        for (const key of bKeys) {
+            if (!_deepEqual(a[key], b[key], ignoreOrder, partial, cache)) {
+>>>>>>> upstream/18.0
                 return false;
             }
         }
@@ -544,7 +622,11 @@ const _deepEqual = (a, b, ignoreOrder, cache) => {
         const comparisonCache = makeObjectCache();
         for (let i = 0; i < a.length; i++) {
             const bi = b.findIndex((bValue) =>
+<<<<<<< HEAD
                 _deepEqual(a[i], bValue, ignoreOrder, comparisonCache)
+=======
+                _deepEqual(a[i], bValue, ignoreOrder, partial, comparisonCache)
+>>>>>>> upstream/18.0
             );
             if (bi < 0) {
                 return false;
@@ -554,14 +636,22 @@ const _deepEqual = (a, b, ignoreOrder, cache) => {
     } else {
         // Ordered iterables
         for (let i = 0; i < a.length; i++) {
+<<<<<<< HEAD
             if (!_deepEqual(a[i], b[i], ignoreOrder, cache)) {
+=======
+            if (!_deepEqual(a[i], b[i], ignoreOrder, partial, cache)) {
+>>>>>>> upstream/18.0
                 return false;
             }
         }
     }
 
     return true;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} value
@@ -569,7 +659,11 @@ const _deepEqual = (a, b, ignoreOrder, cache) => {
  * @param {ReturnType<makeObjectCache>} cache
  * @returns {[string, number]}
  */
+<<<<<<< HEAD
 const _formatHumanReadable = (value, length, cache) => {
+=======
+function _formatHumanReadable(value, length, cache) {
+>>>>>>> upstream/18.0
     // Primitives
     switch (typeof value) {
         case "function": {
@@ -661,7 +755,11 @@ const _formatHumanReadable = (value, length, cache) => {
         }
     }
     return `${constructorPrefix}{ ${truncate(content.join(", "))} }`;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} value
@@ -670,7 +768,11 @@ const _formatHumanReadable = (value, length, cache) => {
  * @param {ReturnType<makeObjectCache>} cache
  * @returns {string}
  */
+<<<<<<< HEAD
 const _formatTechnical = (value, depth, isObjectValue, cache) => {
+=======
+function _formatTechnical(value, depth, isObjectValue, cache) {
+>>>>>>> upstream/18.0
     if (value === S_ANY || value === S_NONE) {
         // Special case: internal symbols
         return "";
@@ -728,6 +830,7 @@ const _formatTechnical = (value, depth, isObjectValue, cache) => {
                 `${startIndent}${key}: ${_formatTechnical(value[key], depth + 1, true, cache)},\n`
         );
     return `${baseIndent}${proto}{${content.length ? `\n${content.join("")}${endIndent}` : ""}}`;
+<<<<<<< HEAD
 };
 
 <<<<<<< HEAD
@@ -794,6 +897,10 @@ const _formatTechnical = (value, depth, isObjectValue, cache) => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+}
+
 >>>>>>> upstream/18.0
 class QueryRegExp extends RegExp {
     /**
@@ -854,6 +961,9 @@ class QueryPartialString extends QueryString {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -941,6 +1051,11 @@ const MIN_HUMAN_READABLE_SIZE = 8;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const QUERY_EXCLUDE = "-";
+
+>>>>>>> upstream/18.0
 =======
 const QUERY_EXCLUDE = "-";
 
@@ -1067,7 +1182,10 @@ const windowTarget = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1138,6 +1256,9 @@ let fuzzyScoreMap = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1213,6 +1334,7 @@ export async function copy(text) {
 }
 
 /**
+<<<<<<< HEAD
  * @template T
  * @template {(previous: T | null) => T} F
  * @param {F} instanceGetter
@@ -1224,12 +1346,28 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
     const getInstance = () => {
         if (runner.dry) {
             return memoized();
+=======
+ * @template {(previous: any, ...args: any[]) => any} T
+ * @param {T} instanceGetter
+ * @param {() => any} [afterCallback]
+ * @returns {(...args: DropFirst<Parameters<T>>) => ReturnType<T>}
+ */
+export function createJobScopedGetter(instanceGetter, afterCallback) {
+    /** @type {(...args: DropFirst<Parameters<T>>) => ReturnType<T>} */
+    function getInstance(...args) {
+        if (runner.dry) {
+            return memoized(...args);
+>>>>>>> upstream/18.0
         }
 
         const currentJob = runner.state.currentTest || runner.suiteStack.at(-1) || runner;
         if (!instances.has(currentJob)) {
             const parentInstance = [...instances.values()].at(-1);
+<<<<<<< HEAD
             instances.set(currentJob, instanceGetter(parentInstance));
+=======
+            instances.set(currentJob, instanceGetter(parentInstance, ...args));
+>>>>>>> upstream/18.0
 
             if (canCallAfter) {
                 runner.after(() => {
@@ -1243,6 +1381,7 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
         }
 
         return instances.get(currentJob);
+<<<<<<< HEAD
     };
 
     const memoized = memoize(instanceGetter);
@@ -1251,6 +1390,25 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
     const instances = new Map();
     const runner = getRunner();
     let canCallAfter = true;
+=======
+    }
+
+    /** @type {(...args: DropFirst<Parameters<T>>) => ReturnType<T>} */
+    function memoized(...args) {
+        if (!memoizedCalled) {
+            memoizedCalled = true;
+            memoizedValue = instanceGetter(null, ...args);
+        }
+        return memoizedValue;
+    }
+
+    /** @type {Map<Job, Parameters<T>[0]>} */
+    const instances = new Map();
+    const runner = getRunner();
+    let canCallAfter = true;
+    let memoizedCalled = false;
+    let memoizedValue;
+>>>>>>> upstream/18.0
 
     runner.after(() => instances.clear());
 
@@ -1264,13 +1422,21 @@ export function createReporting(parentReporting) {
     /**
      * @param {Partial<Reporting>} values
      */
+<<<<<<< HEAD
     const add = (values) => {
+=======
+    function add(values) {
+>>>>>>> upstream/18.0
         for (const [key, value] of $entries(values)) {
             reporting[key] += value;
         }
 
         parentReporting?.add(values);
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 
     const reporting = reactive({
         assertions: 0,
@@ -1372,7 +1538,11 @@ export function batch(fn, interval) {
     let timeoutId = 0;
 
     /** @type {T} */
+<<<<<<< HEAD
     const batched = (...args) => {
+=======
+    function batched(...args) {
+>>>>>>> upstream/18.0
         currentBatch.push(() => fn(...args));
         if (timeoutId) {
             return;
@@ -1381,15 +1551,25 @@ export function batch(fn, interval) {
             timeoutId = 0;
             flush();
         }, interval);
+<<<<<<< HEAD
     };
 
     const flush = () => {
+=======
+    }
+
+    function flush() {
+>>>>>>> upstream/18.0
         if (timeoutId) {
             clearTimeout(timeoutId);
             timeoutId = 0;
         }
         consumeCallbackList(currentBatch, "shift");
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 
     return [batched, flush];
 }
@@ -1423,7 +1603,11 @@ export function debounce(fn, delay) {
  * @returns {boolean}
  */
 export function deepEqual(a, b, options) {
+<<<<<<< HEAD
     return _deepEqual(a, b, options?.ignoreOrder, makeObjectCache());
+=======
+    return _deepEqual(a, b, !!options?.ignoreOrder, !!options?.partial, makeObjectCache());
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -1471,8 +1655,11 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return isIterable(value) ? [...value] : [value];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1516,6 +1703,9 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1667,11 +1857,14 @@ export function generateHash(...strings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} pattern (normalized)
  * @param {string} string (normalized)
  */
 export function getFuzzyScore(pattern, string) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1744,6 +1937,9 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1824,8 +2020,11 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return patternIndex === pattern.length ? totalScore : 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1894,6 +2093,9 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2102,7 +2304,11 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string | RegExp} pattern normalized string or RegExp
+=======
+ * @param {QueryPart[]} parsedQuery normalized string or RegExp
+>>>>>>> upstream/18.0
 =======
  * @param {QueryPart[]} parsedQuery normalized string or RegExp
 >>>>>>> upstream/18.0
@@ -2195,6 +2401,7 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function lookup(pattern, items, property = "key") {
     /** @type {T[]} */
     const result = [];
@@ -2223,6 +2430,8 @@ export function lookup(pattern, items, property = "key") {
     }
     return result;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2306,6 +2515,9 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2465,7 +2677,10 @@ export function normalize(string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .toLowerCase()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2560,7 +2775,10 @@ export function ordinal(number) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2676,6 +2894,9 @@ export function parseQuery(query) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2855,12 +3076,21 @@ export class Callbacks {
     add(type, callback, once) {
         if (callback instanceof Promise) {
             const promiseValue = callback;
+<<<<<<< HEAD
             callback = () =>
                 Promise.resolve(promiseValue).then((result) => {
+=======
+            callback = function () {
+                return Promise.resolve(promiseValue).then((result) => {
+>>>>>>> upstream/18.0
                     if (typeof result === "function") {
                         result();
                     }
                 });
+<<<<<<< HEAD
+=======
+            };
+>>>>>>> upstream/18.0
         } else if (typeof callback !== "function") {
             return;
         }
@@ -3081,7 +3311,11 @@ export class Markup {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (eType !== typeof actual || !(eType === "object" || eType === "string")) {
+=======
+        if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
+>>>>>>> upstream/18.0
 =======
         if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
 >>>>>>> upstream/18.0
@@ -3334,6 +3568,10 @@ export const DEFAULT_EVENT_TYPES = CASE_EVENT_TYPES.assertion.value | CASE_EVENT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+export const EXACT_MARKER = `"`;
+>>>>>>> upstream/18.0
 =======
 export const EXACT_MARKER = `"`;
 >>>>>>> upstream/18.0
@@ -3443,7 +3681,10 @@ export const S_NONE = Symbol("no value");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3512,6 +3753,9 @@ export const R_QUERY_EXACT = new RegExp(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

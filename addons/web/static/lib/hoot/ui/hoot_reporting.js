@@ -23,10 +23,15 @@ import { Component, onWillRender, useState, xml } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { parseRegExp } from "../../hoot-dom/hoot_dom_utils";
 import { Test } from "../core/test";
 import { EXCLUDE_PREFIX } from "../core/url";
 import { formatTime, getFuzzyScore, normalize } from "../hoot_utils";
+=======
+import { Test } from "../core/test";
+import { formatTime, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { Test } from "../core/test";
 import { formatTime, parseQuery } from "../hoot_utils";
@@ -153,7 +158,11 @@ import { HootTestResult } from "./hoot_test_result";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { Boolean, RegExp } = globalThis;
+=======
+const { Boolean } = globalThis;
+>>>>>>> upstream/18.0
 =======
 const { Boolean } = globalThis;
 >>>>>>> upstream/18.0
@@ -549,6 +558,7 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { filter } = this.config;
         if (!filter) {
             return null;
@@ -562,6 +572,8 @@ export class HootReporting extends Component {
         const pattern = isExcluding ? nFilter.slice(EXCLUDE_PREFIX.length) : nFilter;
         return (key) => getFuzzyScore(pattern, key) > 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -634,6 +646,9 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

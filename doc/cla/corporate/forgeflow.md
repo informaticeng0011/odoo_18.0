@@ -25,6 +25,10 @@ Arnau Cruz arnau.cruz@forgeflow.com https://github.com/ArnauCForgeFlow
 Ricard Calvo ricard.calvo@forgeflow.com https://github.com/RicardCForgeFlow
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Marina Alapont marina.alapont@forgeflow.com https://github.com/MarinaAForgeFlow
+>>>>>>> upstream/18.0
 =======
 Marina Alapont marina.alapont@forgeflow.com https://github.com/MarinaAForgeFlow
 >>>>>>> upstream/18.0

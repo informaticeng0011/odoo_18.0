@@ -7,6 +7,11 @@ from odoo.addons.stock.tests.common import TestStockCommon
 from odoo import fields
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 from odoo.tests import Form
@@ -508,7 +513,11 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(last_po_id.order_line.price_unit, 60)
+=======
+        self.assertEqual(last_po_id.order_line.price_unit, 0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(last_po_id.order_line.price_unit, 0)
 >>>>>>> upstream/18.0
@@ -697,7 +706,10 @@ class TestReplenishWizard(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -715,8 +727,11 @@ class TestReplenishWizard(TestStockCommon):
         self.assertTrue(replenish_wizard._get_route_domain(self.product1.product_tmpl_id))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -748,6 +763,9 @@ class TestReplenishWizard(TestStockCommon):
 
         self.assertEqual(stock_picking.partner_id, second_warehouse.partner_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

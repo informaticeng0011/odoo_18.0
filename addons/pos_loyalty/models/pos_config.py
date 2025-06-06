@@ -39,8 +39,11 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env['loyalty.program'].search(['&', ('pos_ok', '=', True), '|', ('pos_config_ids', '=', self.id), ('pos_config_ids', '=', False)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103,6 +106,7 @@ class PosConfig(models.Model):
             '|', ('pos_config_ids', '=', self.id), ('pos_config_ids', '=', False),
             '|', ('date_from', '=', False), ('date_from', '<=', today),
             '|', ('date_to', '=', False), ('date_to', '>=', today)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +178,9 @@ class PosConfig(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        ]).filtered(lambda p: not p.limit_usage or p.sudo().total_order_count < p.max_usage)
 >>>>>>> upstream/18.0
 =======
         ]).filtered(lambda p: not p.limit_usage or p.sudo().total_order_count < p.max_usage)

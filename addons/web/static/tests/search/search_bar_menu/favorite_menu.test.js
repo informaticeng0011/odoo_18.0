@@ -102,7 +102,10 @@ test("delete an active favorite", async () => {
         Controller: ToyController,
     });
     after(() => viewsRegistry.remove("toy"));
+<<<<<<< HEAD
     Foo._views.toy = `<toy/>`;
+=======
+>>>>>>> upstream/18.0
     Foo._filters = [
         {
             context: "{}",

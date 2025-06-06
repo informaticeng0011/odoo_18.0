@@ -79,7 +79,10 @@ export function checkCombo(comboName, products) {
     return steps;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function cancelOrder() {
     return [
@@ -95,4 +98,7 @@ export function cancelOrder() {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -169,6 +169,11 @@ class HrWorkEntry(models.Model):
         for calendar, entries in entries_by_calendar.items():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if calendar.flexible_hours:
+                continue
+>>>>>>> upstream/18.0
 =======
             if calendar.flexible_hours:
                 continue

@@ -369,6 +369,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -434,6 +435,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         no_variant_attr = self.env['product.attribute'].create({
@@ -472,6 +475,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,6 +526,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,6 +590,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +623,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -767,6 +779,30 @@ class TestSaleOrder(SaleCommon):
 
         self.assertIn(self.partner2, sale_order.message_partner_ids)
 
+<<<<<<< HEAD
+=======
+    def test_scheduled_mark_so_as_sent(self):
+        """Check that a order gets marked as sent after a scheduled message was sent."""
+        order = self.sale_order
+        composer = self.env['mail.compose.message'].with_context(
+            active_id=order.id,
+            active_ids=order.ids,
+            active_model=order._name,
+            mark_so_as_sent=True,
+        ).new({'body': '<h1>Your Sales Order</h1>'})
+        composer.action_schedule_message(
+            scheduled_date=fields.Datetime.now() + timedelta(hours=1),
+        )
+
+        scheduled_message = self.env['mail.scheduled.message'].search([
+            ('model', '=', order._name),
+            ('res_id', '=', order.id),
+        ], limit=1)
+        self.assertEqual(order.state, 'draft')
+        scheduled_message.post_message()
+        self.assertEqual(order.state, 'sent')
+
+>>>>>>> upstream/18.0
     def test_so_discount_is_not_reset(self):
         """ Discounts should not be recomputed on order confirmation """
         with patch(

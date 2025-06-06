@@ -1,10 +1,13 @@
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press, queryFirst, queryOne } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { Component, xml } from "@odoo/owl";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 import { isInViewPort, press, queryFirst, queryOne } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { Component, xml } from "@odoo/owl";
@@ -15,13 +18,20 @@ import {
     mountView,
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { useAutofocus } from "@web/core/utils/hooks";
 import { Plugin } from "../src/plugin";
 import { MAIN_PLUGINS } from "../src/plugin_sets";
 import { setupEditor } from "./_helpers/editor";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getContent } from "./_helpers/selection";
+=======
+import { getContent, setSelection } from "./_helpers/selection";
+>>>>>>> upstream/18.0
 =======
 import { getContent, setSelection } from "./_helpers/selection";
 >>>>>>> upstream/18.0
@@ -270,7 +280,10 @@ test("preserveSelection's restore should always set the selection, even if it's 
     expect.verifySteps(["setBaseAndExtent"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test.tags("desktop");
 test("should not autoscroll if selection is partially visible in viewport", async () => {
@@ -330,4 +343,7 @@ test("should not autoscroll if selection is partially visible in viewport", asyn
     expect(scrollableElement.scrollTop).toBe(scrollTop);
     expect(isInViewPort(lastParagraph)).toBe(false);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

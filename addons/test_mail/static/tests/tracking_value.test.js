@@ -11,6 +11,11 @@ import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { mockDate, mockTimeZone } from "@odoo/hoot-mock";
 import { defineTestMailModels, editSelect } from "@test_mail/../tests/test_mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { patchWithCleanup } from "@web/../tests/web_test_helpers";
+import { currencies } from "@web/core/currency";
+>>>>>>> upstream/18.0
 =======
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { currencies } from "@web/core/currency";
@@ -26,6 +31,10 @@ const archs = {
                 <field name="datetime_field"/>
                 <field name="float_field"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="float_field_with_digits"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="float_field_with_digits"/>
 >>>>>>> upstream/18.0
@@ -80,6 +89,10 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
     const mailTestTrackAllId1 = pyEnv["mail.test.track.all"].create({
         float_field: 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        float_field_with_digits: 0,
+>>>>>>> upstream/18.0
 =======
         float_field_with_digits: 0,
 >>>>>>> upstream/18.0
@@ -88,10 +101,13 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
     registerArchs(archs);
     await openFormView("mail.test.track.all", mailTestTrackAllId1);
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText("div[name=float_field] input", "1", { replace: true });
     await click(".o_form_button_save");
     await contains(".o-mail-Message-tracking", { text: "0.001.00(Float)" });
 =======
+=======
+>>>>>>> upstream/18.0
     await insertText("div[name=float_field] input", "1.01", { replace: true });
     await insertText("div[name=float_field_with_digits] input", "1.0001", { replace: true });
     await click(".o_form_button_save");
@@ -107,6 +123,9 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
         await contains(".o-mail-Message-trackingNew", { target: targetLine, text: newText });
         await contains(".o-mail-Message-trackingField", { target: targetLine, text: fieldName });
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 
@@ -139,8 +158,11 @@ test("rendering of tracked field of type integer: from 0 to non-0", async () => 
 test("rendering of tracked field of type monetary: from non-0 to 0", async () => {
     const pyEnv = await startServer();
 <<<<<<< HEAD
+<<<<<<< HEAD
     const mailTestTrackAllId1 = pyEnv["mail.test.track.all"].create({
 =======
+=======
+>>>>>>> upstream/18.0
 
     const testCurrencyId = pyEnv["res.currency"].create({ name: "ECU", symbol: "§" });
     // need to patch currencies as they're passed via cookies, not through the orm
@@ -150,6 +172,9 @@ test("rendering of tracked field of type monetary: from non-0 to 0", async () =>
 
     const mailTestTrackAllId1 = pyEnv["mail.test.track.all"].create({
         currency_id: testCurrencyId,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         monetary_field: 1,
     });
@@ -159,7 +184,11 @@ test("rendering of tracked field of type monetary: from non-0 to 0", async () =>
     await insertText("div[name=monetary_field] input", "0", { replace: true });
     await click(".o_form_button_save");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Message-tracking", { text: "1.000.00(Monetary)" });
+=======
+    await contains(".o-mail-Message-tracking", { text: "1.00 §0.00 §(Monetary)" });
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-Message-tracking", { text: "1.00 §0.00 §(Monetary)" });
 >>>>>>> upstream/18.0

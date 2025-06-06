@@ -287,7 +287,12 @@ export function isVisible(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
 =======
             isProtecting(node) ||
             isEmbeddedComponent(node))
@@ -595,7 +600,10 @@ export function containsAnyNonPhrasingContent(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -678,6 +686,9 @@ export function isEmbeddedComponent(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1040,3 +1051,71 @@ export function isContentEditableAncestor(node) {
     }
     return node.isContentEditable && node.matches("[contenteditable]");
 }
+<<<<<<< HEAD
+=======
+
+/**
+ * Checks if a node is redundant based on its closest element with same tag.
+ *
+ * A node is considered redundant if:
+ * - It is an Element node with a parent.
+ * - There is a closest element with the same tag name.
+ * - All of the node's attributes are present in that closest element:
+ *   - All classes exist in the closest element's class list.
+ *   - All inline styles are present in the closest element's style attribute.
+ *   - All other attributes must have identical values.
+ *
+ * @param {Node} node - The DOM node to evaluate.
+ * @returns {boolean} True if the node is redundant, false otherwise.
+ */
+export function isRedundantElement(node) {
+    // Check for valid element node and existence of a parent.
+    if (!node || node.nodeType !== Node.ELEMENT_NODE || !node.parentElement) {
+        return false;
+    }
+
+    // Find the closest element with the same tag name.
+    const closestEl = closestElement(node.parentElement, node.tagName);
+    if (!closestEl) {
+        return false;
+    }
+
+    // Check each attribute from node.
+    for (const { name: attrName, value: nodeAttrVal } of node.attributes) {
+        const closestElAttrVal = closestEl.getAttribute(attrName);
+
+        if (!closestElAttrVal) {
+            return false; // Attribute missing in closest element.
+        }
+
+        if (attrName === "class") {
+            // All classes on the node must exist in closest element.
+            const nodeClasses = nodeAttrVal.trim().split(/\s+/);
+            const closestElClasses = closestElAttrVal.trim().split(/\s+/);
+            if (!nodeClasses.every((cls) => closestElClasses.includes(cls))) {
+                return false;
+            }
+        } else if (attrName === "style") {
+            // All inline styles on the node must exist in closest element.
+            const nodeStyles = nodeAttrVal
+                .split(";")
+                .map((style) => style.trim())
+                .filter(Boolean);
+            const closestElStyles = closestElAttrVal
+                .split(";")
+                .map((style) => style.trim())
+                .filter(Boolean);
+            if (!nodeStyles.every((style) => closestElStyles.includes(style))) {
+                return false;
+            }
+        } else {
+            // For other attributes, values must match exactly.
+            if (nodeAttrVal !== closestElAttrVal) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+>>>>>>> upstream/18.0

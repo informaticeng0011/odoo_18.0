@@ -18,7 +18,11 @@ class LunchProduct extends models.Model {
     ];
 
     _views = {
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
             <kanban class="o_kanban_test" edit="0">
                 <template>
                     <t t-name="card">
@@ -59,7 +63,11 @@ test("Check is_favorite field is readonly if the field is readonly", async () =>
         expect.step("web_save");
     });
 
+<<<<<<< HEAD
     LunchProduct._views["kanban,false"] = LunchProduct._views["kanban,false"].replace(
+=======
+    LunchProduct._views["kanban"] = LunchProduct._views["kanban"].replace(
+>>>>>>> upstream/18.0
         'widget="lunch_is_favorite"',
         'widget="lunch_is_favorite" readonly="1"'
     );

@@ -2,8 +2,11 @@ import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { unformat } from "../_helpers/format";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { cleanLinkArtifacts, unformat } from "../_helpers/format";
@@ -11,6 +14,9 @@ import { waitForNone } from "@odoo/hoot-dom";
 import { getContent, simulateDoubleClickSelect } from "../_helpers/selection";
 import { insertText } from "../_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42,7 +48,10 @@ describe("button style", () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -62,6 +71,9 @@ describe("button edit", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

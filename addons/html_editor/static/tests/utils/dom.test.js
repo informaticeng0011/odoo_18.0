@@ -21,7 +21,11 @@ describe("splitAroundUntil", () => {
         splitTextNode(cd, 1);
         const d = cd;
         const result = editor.shared.split.splitAroundUntil(d, p.childNodes[1]);
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
         expect(p.outerHTML).toBe(
             "<p>a<font>b<span>c</span></font><font><span>d</span></font><font><span>e</span>f</font>g</p>"
         );
@@ -44,7 +48,11 @@ describe("splitAroundUntil", () => {
             [d, d.nextSibling.nextSibling],
             p.childNodes[1]
         );
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
         expect(p.outerHTML).toBe(
             "<p>a<font>b<span>c</span></font><font><span>def</span></font><font><span>g</span>h</font>i</p>"
         );
@@ -56,7 +64,12 @@ describe("splitAroundUntil", () => {
         const font = p.querySelector("font");
         const cde = p.querySelector("span").firstChild;
         const result = editor.shared.split.splitAroundUntil(cde, font);
+<<<<<<< HEAD
         expect(result.tagName === "FONT" && result !== font).toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+        expect(result).not.toBe(font);
+>>>>>>> upstream/18.0
         expect(p.outerHTML).toBe(
             "<p>a<font>b</font><font><span>cde</span></font><font>f</font>g</p>"
         );
@@ -67,7 +80,11 @@ describe("splitAroundUntil", () => {
         const [p] = el.childNodes;
         const bcd = p.querySelector("span").firstChild;
         const result = editor.shared.split.splitAroundUntil(bcd, p.childNodes[1]);
+<<<<<<< HEAD
         expect(result === p.childNodes[1]).toBe(true);
+=======
+        expect(result).toBe(p.childNodes[1]);
+>>>>>>> upstream/18.0
         expect(p.outerHTML).toBe("<p>a<font><span>bcd</span></font>e</p>");
     });
 });

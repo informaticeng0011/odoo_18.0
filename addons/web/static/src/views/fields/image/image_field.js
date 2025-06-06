@@ -230,6 +230,11 @@ export class ImageField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = "high";
+>>>>>>> upstream/18.0
 =======
                 ctx.imageSmoothingEnabled = true;
                 ctx.imageSmoothingQuality = "high";

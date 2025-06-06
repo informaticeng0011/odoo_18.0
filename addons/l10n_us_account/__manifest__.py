@@ -15,6 +15,12 @@
     'license': 'LGPL-3',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'data': [
+        'data/tax_report.xml',
+    ],
+>>>>>>> upstream/18.0
 =======
     'data': [
         'data/tax_report.xml',

@@ -1,7 +1,21 @@
+<<<<<<< HEAD
 import { defineModels, fields, models, mountView, onRpc } from "@web/../tests/web_test_helpers";
 import { expect, test } from "@odoo/hoot";
 import { animationFrame } from "@odoo/hoot-mock";
 import { click, queryFirst } from "@odoo/hoot-dom";
+=======
+import { expect, test } from "@odoo/hoot";
+import { click, queryFirst } from "@odoo/hoot-dom";
+import { animationFrame } from "@odoo/hoot-mock";
+import {
+    defineModels,
+    fields,
+    MockServer,
+    models,
+    mountView,
+    onRpc,
+} from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 
 class Partner extends models.Model {
     display_name = fields.Char({ string: "Displayed name", searchable: true });
@@ -77,7 +91,11 @@ test("HandleField with falsy values", async () => {
             </list>`,
     });
 
+<<<<<<< HEAD
     expect(".o_row_handle:visible").toHaveCount(Partner._records.length, {
+=======
+    expect(".o_row_handle:visible").toHaveCount(MockServer.env["partner"].length, {
+>>>>>>> upstream/18.0
         message: "there should be a visible handle for each record",
     });
 });

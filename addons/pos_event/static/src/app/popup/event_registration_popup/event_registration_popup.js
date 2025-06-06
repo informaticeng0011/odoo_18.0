@@ -59,6 +59,7 @@ export class EventRegistrationPopup extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     confirm() {
         const required = Object.values(this.state.byRegistration).some((data) => {
             for (const [id, value] of Object.entries(data.questions)) {
@@ -66,6 +67,8 @@ export class EventRegistrationPopup extends Component {
 
                 if (question && question.is_mandatory_answer && !value) {
 =======
+=======
+>>>>>>> upstream/18.0
     isQuestionMissingMandatoryAnswer(id, value) {
         const question = this.pos.models["event.question"].get(id);
         return !!(question && question.is_mandatory_answer && !value);
@@ -75,6 +78,9 @@ export class EventRegistrationPopup extends Component {
         const requiredByRegistration = Object.values(this.state.byRegistration).some((data) => {
             for (const [id, value] of Object.entries(data.questions)) {
                 if (this.isQuestionMissingMandatoryAnswer(id, value)) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     return true;
                 }
@@ -82,13 +88,19 @@ export class EventRegistrationPopup extends Component {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (required) {
 =======
+=======
+>>>>>>> upstream/18.0
         const requiredByOrder = Object.entries(this.state.byOrder).some(([id, value]) => {
             return this.isQuestionMissingMandatoryAnswer(id, value);
         });
 
         if (requiredByRegistration || requiredByOrder) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.dialog.add(AlertDialog, {
                 title: "Error",

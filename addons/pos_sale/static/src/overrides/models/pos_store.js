@@ -111,6 +111,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
+        sale_order.order_line = orderlines;
+>>>>>>> upstream/18.0
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
         sale_order.order_line = orderlines;
@@ -295,8 +300,12 @@ patch(PosStore.prototype, {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let i = 0; i < sale_order.order_line.length; ++i) {
             const line = sale_order.order_line[i];
+=======
+        for (const line of sale_order.order_line) {
+>>>>>>> upstream/18.0
 =======
         for (const line of sale_order.order_line) {
 >>>>>>> upstream/18.0
@@ -340,7 +349,11 @@ patch(PosStore.prototype, {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const converted_line = converted_lines[i];
+=======
+            const converted_line = converted_lines.find((l) => l.id === line.id);
+>>>>>>> upstream/18.0
 =======
             const converted_line = converted_lines.find((l) => l.id === line.id);
 >>>>>>> upstream/18.0

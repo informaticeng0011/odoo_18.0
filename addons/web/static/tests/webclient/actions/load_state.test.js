@@ -141,7 +141,11 @@ class Partner extends models.Model {
         { id: 5, name: "Fifth record", foo: "zoup" },
     ];
     _views = {
+<<<<<<< HEAD
         kanban: `
+=======
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
             <kanban>
                 <templates>
                     <t t-name="card">
@@ -150,8 +154,17 @@ class Partner extends models.Model {
                 </templates>
             </kanban>
         `,
+<<<<<<< HEAD
         list: `<list><field name="foo"/></list>`,
         form: `
+=======
+        "list,2": /* xml */ `
+            <list>
+                <field name="foo" />
+            </list>
+        `,
+        "form,666": /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -163,7 +176,15 @@ class Partner extends models.Model {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search><field name="foo" string="Foo"/></search>`,
+=======
+        search: /* xml */ `
+            <search>
+                <field name="foo" string="Foo" />
+            </search>
+        `,
+>>>>>>> upstream/18.0
     };
 }
 defineModels([Partner]);
@@ -1091,6 +1112,7 @@ describe(`new urls`, () => {
     });
 
     test(`load a form view via url, then switch to view list, the search view is correctly initialized`, async () => {
+<<<<<<< HEAD
         Partner._views = {
             ...Partner._views,
             "search,false": `
@@ -1099,6 +1121,13 @@ describe(`new urls`, () => {
                 </search>
             `,
         };
+=======
+        Partner._views.search = `
+                <search>
+                    <filter name="filter" string="Filter" domain="[('foo', '=', 'yop')]"/>
+                </search>
+            `;
+>>>>>>> upstream/18.0
 
         redirect("/odoo/action-3/new");
         logHistoryInteractions();
@@ -1273,7 +1302,11 @@ describe(`new urls`, () => {
         stepAllNetworkCalls();
         redirect("/odoo/action-3/2");
         logHistoryInteractions();
+<<<<<<< HEAD
         Partner._views["form,false"] = /* xml */ `
+=======
+        Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
             <form string="Partner">
                 <sheet>
                     <a href="http://example.com/odoo/action-5" class="clickMe">clickMe</a>
@@ -1812,6 +1845,7 @@ describe(`legacy urls`, () => {
     });
 
     test(`charge a form view via url, then switch to view list, the search view is correctly initialized`, async () => {
+<<<<<<< HEAD
         Partner._views = {
             ...Partner._views,
             "search,false": `
@@ -1820,6 +1854,13 @@ describe(`legacy urls`, () => {
                 </search>
             `,
         };
+=======
+        Partner._views.search = `
+                <search>
+                    <filter name="filter" string="Filter" domain="[('foo', '=', 'yop')]"/>
+                </search>
+            `;
+>>>>>>> upstream/18.0
 
         redirect("/web#action=3&model=partner&view_type=form");
 

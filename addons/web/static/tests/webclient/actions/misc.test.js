@@ -46,7 +46,11 @@ class Partner extends models.Model {
         { id: 5, display_name: "Fifth record", o2m: [] },
     ];
     _views = {
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -64,9 +68,14 @@ class Partner extends models.Model {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+        "list,2": `<list limit="3"><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -79,9 +88,14 @@ class Pony extends models.Model {
         { id: 9, name: "Fluttershy" },
     ];
     _views = {
+<<<<<<< HEAD
         "list,false": '<list><field name="name"/></list>',
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search/>`,
+=======
+        list: '<list><field name="name"/></list>',
+        form: `<form><field name="name"/></form>`,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -347,7 +361,12 @@ test("action cache: additionalContext is used on the key", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.tags("desktop")('action with "no_breadcrumbs" set to true', async () => {
+=======
+test.tags("desktop");
+test('action with "no_breadcrumbs" set to true', async () => {
+>>>>>>> upstream/18.0
 =======
 test.tags("desktop");
 test('action with "no_breadcrumbs" set to true', async () => {
@@ -441,7 +460,14 @@ test('action with "no_breadcrumbs" set to true', async () => {
             id: 42,
             res_model: "partner",
             type: "ir.actions.act_window",
+<<<<<<< HEAD
             views: [[1, "kanban"], [false, "list"]],
+=======
+            views: [
+                [1, "kanban"],
+                [false, "list"],
+            ],
+>>>>>>> upstream/18.0
             context: { no_breadcrumbs: true },
         },
     ]);
@@ -609,7 +635,11 @@ test("stores and restores scroll position (in list)", async () => {
 
 test.tags("desktop");
 test('executing an action with target != "new" closes all dialogs', async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <field name="o2m">
                 <list><field name="display_name"/></list>
@@ -630,7 +660,11 @@ test('executing an action with target != "new" closes all dialogs', async () => 
 
 test.tags("desktop");
 test('executing an action with target "new" does not close dialogs', async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <field name="o2m">
                 <list><field name="display_name"/></list>
@@ -651,8 +685,11 @@ test('executing an action with target "new" does not close dialogs', async () =>
 test.tags("desktop");
 test("search defaults are removed from context when switching view", async () => {
     expect.assertions(1);
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views["list,false"] = `<list/>`;
+=======
+>>>>>>> upstream/18.0
     const context = {
         search_default_x: true,
         searchpanel_default_y: true,

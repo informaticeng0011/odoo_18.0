@@ -34,8 +34,13 @@ export function getMenuServerData() {
             res_model: "ir.ui.menu",
             type: "ir.actions.act_window",
             views: [
+<<<<<<< HEAD
                 [1, "list"],
                 [2, "form"],
+=======
+                [false, "list"],
+                [false, "form"],
+>>>>>>> upstream/18.0
             ],
         },
         action2: {

@@ -3,13 +3,19 @@
         <template id="robots" inherit_id="website.robots">
             <xpath expr="//t[@t-out='request.website.sudo().robots_txt']" position="before">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 User-agent: *
                 Allow: /cards/
 =======
+=======
+>>>>>>> upstream/18.0
 <t t-translation="off">
 User-agent: *
 Allow: /cards/
 </t>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </xpath>
         </template>

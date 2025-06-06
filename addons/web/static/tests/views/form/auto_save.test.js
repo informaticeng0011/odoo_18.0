@@ -119,7 +119,10 @@ test(`save when page changed`, async () => {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     onRpc("web_save", ({ args }) => {
@@ -171,7 +174,10 @@ test(`save when breadcrumb clicked`, async () => {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     onRpc("web_save", ({ args }) => {
@@ -221,7 +227,10 @@ test(`error on save when breadcrumb clicked`, async () => {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     onRpc("web_save", () => {
@@ -268,7 +277,10 @@ test(`save when action changed`, async () => {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
         kanban: `
             <kanban>
                 <templates>
@@ -492,7 +504,10 @@ test(`save on closing tab/browser (detached form)`, async () => {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     mockSendBeacon(() => expect.step("sendBeacon"));
@@ -911,7 +926,10 @@ test(`doesn't autosave when a many2one search more is open (visibility change)`,
                     <field name="name"/>
                 </list>
             `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     defineModels([Product]);

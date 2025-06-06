@@ -534,7 +534,11 @@ test("For the same record, a single rpc is done to recover the specialData", asy
     Partner._views = {
         "list,3": '<list><field name="display_name"/></list>',
         "search,9": `<search></search>`,
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <field name="trululu" widget="statusbar" readonly="1"/>
@@ -574,7 +578,11 @@ test("open form with statusbar, leave and come back to another one with other do
     Partner._views = {
         "list,3": '<list><field name="display_name"/></list>',
         "search,9": `<search/>`,
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <field name="trululu" widget="statusbar" domain="[['id', '>', id]]" readonly="1"/>

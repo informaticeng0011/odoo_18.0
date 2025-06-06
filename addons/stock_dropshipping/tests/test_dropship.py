@@ -43,7 +43,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, Form
+=======
+from odoo.tests import common, tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import common, tagged, Form
 >>>>>>> upstream/18.0
@@ -251,6 +255,11 @@ class TestDropship(common.TransactionCase):
         self.dropship_product.description_purchase = "description_purchase"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.dropship_product.description = "internal note"
+        self.dropship_product.description_pickingout = "description_out"
+>>>>>>> upstream/18.0
 =======
         self.dropship_product.description = "internal note"
         self.dropship_product.description_pickingout = "description_out"
@@ -309,7 +318,10 @@ class TestDropship(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Check description is not the internal note
@@ -317,6 +329,9 @@ class TestDropship(common.TransactionCase):
         self.assertEqual(move_line.move_id.description_picking, self.dropship_product.description_pickingout)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -576,7 +591,10 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -732,6 +750,7 @@ class TestDropship(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -813,6 +832,8 @@ class TestDropship(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -847,6 +868,9 @@ class TestDropship(common.TransactionCase):
             self.env.ref('stock.stock_location_customers')
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -930,6 +954,9 @@ class TestDropshipPostInstall(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

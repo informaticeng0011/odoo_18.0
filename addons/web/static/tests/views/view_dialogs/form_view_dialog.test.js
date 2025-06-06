@@ -3,16 +3,28 @@ import { click, edit, press, queryAllTexts, waitFor } from "@odoo/hoot-dom";
 import { animationFrame, Deferred } from "@odoo/hoot-mock";
 import {
     clickSave,
+<<<<<<< HEAD
     defineModels,
     fields,
     getService,
+=======
+    contains,
+    defineModels,
+    fieldInput,
+    fields,
+    getService,
+    mockService,
+>>>>>>> upstream/18.0
     models,
     mountViewInDialog,
     mountWithCleanup,
     onRpc,
+<<<<<<< HEAD
     mockService,
     fieldInput,
     contains,
+=======
+>>>>>>> upstream/18.0
 } from "@web/../tests/web_test_helpers";
 
 import { FormViewDialog } from "@web/views/view_dialogs/form_view_dialog";
@@ -60,7 +72,11 @@ class Product extends models.Model {
 defineModels([Partner, Instrument, Badassery, Product]);
 
 test("formviewdialog buttons in footer are positioned properly", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form string="Partner">
             <sheet>
                 <group><field name="foo"/></group >
@@ -84,7 +100,11 @@ test("formviewdialog buttons in footer are positioned properly", async () => {
 });
 
 test("modifiers are considered on multiple <footer/> tags", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form>
             <field name="bar"/>
             <footer invisible="not bar">
@@ -121,7 +141,11 @@ test("formviewdialog buttons in footer are not duplicated", async () => {
         relation: "partner",
     });
     Partner._records[0].poney_ids = [];
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form string="Partner">
             <field name="poney_ids"><list editable="top"><field name="name"/></list></field>
             <footer><button string="Custom Button" type="object" class="my_button"/></footer>
@@ -158,13 +182,21 @@ test("Form dialog and subview with _view_ref contexts", async () => {
     // inlines x2many subviews. As the purpose of this test is to assert that the js fetches
     // the correct sub view when it is not inline (which can still happen in nested form views),
     // we bypass the inline mecanism of "get_views" by setting widget="many2many" on the field.
+<<<<<<< HEAD
     Instrument._views["form,false"] = /* xml */ `
+=======
+    Instrument._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form>
             <field name="name"/>
             <field name="badassery" widget="many2many" context="{'list_view_ref': 'some_other_tree_view'}"/>
         </form>
     `;
+<<<<<<< HEAD
     Badassery._views["list,false"] = /* xml */ `<list><field name="level"/></list>`;
+=======
+    Badassery._views["list"] = /* xml */ `<list><field name="level"/></list>`;
+>>>>>>> upstream/18.0
 
     onRpc(({ kwargs, method, model }) => {
         if (method === "get_formview_id") {
@@ -218,7 +250,11 @@ test("Form dialog and subview with _view_ref contexts", async () => {
 });
 
 test("click on view buttons in a FormViewDialog", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form>
             <field name="foo"/>
             <button name="method1" type="object" string="Button 1" class="btn1"/>
@@ -248,7 +284,11 @@ test("click on view buttons in a FormViewDialog", async () => {
 });
 
 test("formviewdialog is not closed when button handlers return a rejected promise", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form string="Partner">
             <sheet><group><field name="foo"/></group></sheet>
         </form>
@@ -287,7 +327,11 @@ test("formviewdialog is not closed when button handlers return a rejected promis
 });
 
 test("FormViewDialog with remove button", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
     await mountWithCleanup(WebClient);
     getService("dialog").add(FormViewDialog, {
         resModel: "partner",
@@ -305,7 +349,11 @@ test("FormViewDialog with remove button", async () => {
 });
 
 test("Buttons are set as disabled on click", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form string="Partner">
             <sheet>
                 <group>
@@ -339,7 +387,11 @@ test("Buttons are set as disabled on click", async () => {
 });
 
 test("FormViewDialog with discard button", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
     await mountWithCleanup(WebClient);
     getService("dialog").add(FormViewDialog, {
         resModel: "partner",
@@ -357,7 +409,11 @@ test("FormViewDialog with discard button", async () => {
 });
 
 test("Save a FormViewDialog when a required field is empty don't close the dialog", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form string="Partner">
             <sheet>
                 <group><field name="foo" required="1"/></group>
@@ -386,6 +442,7 @@ test("Save a FormViewDialog when a required field is empty don't close the dialo
     expect(".modal").toHaveCount(0, { message: "modal should be closed" });
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +593,10 @@ test.tags("desktop");
 >>>>>>> upstream/18.0
 test("new record has an expand button", async () => {
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+test("new record has an expand button", async () => {
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
     Partner._records = [];
     onRpc("web_save", async () => {
         expect.step("save");
@@ -563,6 +624,7 @@ test("new record has an expand button", async () => {
     expect.verifySteps(["save", [1, "partner", "ir.actions.act_window", [[false, "form"]]]]);
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +775,10 @@ test.tags("desktop");
 >>>>>>> upstream/18.0
 test("existing record has an expand button", async () => {
     Partner._views["form,false"] = /* xml */ `<form><field name="foo"/></form>`;
+=======
+test("existing record has an expand button", async () => {
+    Partner._views["form"] = /* xml */ `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
     onRpc("web_save", async () => {
         expect.step("save");
     });
@@ -740,6 +806,7 @@ test("existing record has an expand button", async () => {
     expect.verifySteps(["save", [1, "partner", "ir.actions.act_window", [[false, "form"]]]]);
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -903,6 +970,10 @@ test.tags("desktop");
 >>>>>>> upstream/18.0
 test("expand button with save and new", async () => {
     Instrument._views["form,false"] = /* xml */ `<form><field name="name"/></form>`;
+=======
+test("expand button with save and new", async () => {
+    Instrument._views["form"] = /* xml */ `<form><field name="name"/></form>`;
+>>>>>>> upstream/18.0
     Instrument._records = [{ id: 1, name: "Violon" }];
     onRpc("web_save", async () => {
         expect.step("save");
@@ -941,7 +1012,11 @@ test("expand button with save and new", async () => {
 
 test.tags("desktop");
 test("close dialog with escape after modifying a field with onchange (no blur)", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
     Partner._onChanges.foo = () => {};
     onRpc("web_save", () => {
         throw new Error("should not save");

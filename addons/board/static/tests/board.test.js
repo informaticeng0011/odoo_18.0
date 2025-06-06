@@ -662,7 +662,10 @@ describe("board_desktop", () => {
     });
 
     test("pivot view with property in pivot_column_groupby", async function () {
+<<<<<<< HEAD
         Partner._views["pivot,false"] = `<pivot/>`;
+=======
+>>>>>>> upstream/18.0
         Partner._fields.properties_definition = fields.PropertiesDefinition();
         Partner._fields.properties_definition = fields.PropertiesDefinition();
         Partner._fields.parent_id = fields.Many2one({ relation: "partner" });

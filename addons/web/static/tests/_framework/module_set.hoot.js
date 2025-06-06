@@ -33,18 +33,30 @@ const { define, loader } = odoo;
 /**
  * @param {Record<any, any>} object
  */
+<<<<<<< HEAD
 const clearObject = (object) => {
     for (const key in object) {
         delete object[key];
     }
 };
+=======
+function clearObject(object) {
+    for (const key in object) {
+        delete object[key];
+    }
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} fileSuffix
  * @param {string[]} entryPoints
  * @param {Set<string>} additionalAddons
  */
+<<<<<<< HEAD
 const defineModuleSet = async (fileSuffix, entryPoints, additionalAddons) => {
+=======
+async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
+>>>>>>> upstream/18.0
     /** @type {ModuleSet} */
     const moduleSet = {};
     if (additionalAddons.has("*")) {
@@ -81,13 +93,21 @@ const defineModuleSet = async (fileSuffix, entryPoints, additionalAddons) => {
     }
 
     return moduleSet;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} fileSuffix
  * @param {string[]} entryPoints
  */
+<<<<<<< HEAD
 const describeDrySuite = async (fileSuffix, entryPoints) => {
+=======
+async function describeDrySuite(fileSuffix, entryPoints) {
+>>>>>>> upstream/18.0
     const moduleSet = await defineModuleSet(fileSuffix, entryPoints, new Set(["*"]));
     const moduleSetLoader = new ModuleSetLoader(moduleSet);
 
@@ -113,12 +133,20 @@ const describeDrySuite = async (fileSuffix, entryPoints) => {
     }
 
     moduleSetLoader.cleanup();
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Set<string>} addons
  */
+<<<<<<< HEAD
 const fetchDependencies = async (addons) => {
+=======
+async function fetchDependencies(addons) {
+>>>>>>> upstream/18.0
     // Fetch missing dependencies
     const addonsToFetch = [];
     for (const addon of addons) {
@@ -153,12 +181,20 @@ const fetchDependencies = async (addons) => {
     await Promise.all([...addons].map((addon) => dependencyCache[addon]));
 
     return getDependencies(addons);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} name
  */
+<<<<<<< HEAD
 const findMockFactory = (name) => {
+=======
+function findMockFactory(name) {
+>>>>>>> upstream/18.0
     if (MODULE_MOCKS_BY_NAME.has(name)) {
         return MODULE_MOCKS_BY_NAME.get(name);
     }
@@ -168,17 +204,91 @@ const findMockFactory = (name) => {
         }
     }
     return null;
+<<<<<<< HEAD
 };
+=======
+}
+
+/**
+ * Reduce the size of the given field and freeze it.
+ *
+ * @param {Record<string, unknown>>} field
+ */
+function freezeField(field) {
+    delete field.name;
+    if (field.groupable) {
+        delete field.groupable;
+    }
+    if (!field.readonly && !field.related) {
+        delete field.readonly;
+    }
+    if (!field.required) {
+        delete field.required;
+    }
+    if (field.searchable) {
+        delete field.searchable;
+    }
+    if (field.sortable) {
+        delete field.sortable;
+    }
+    if (field.store && !field.related) {
+        delete field.store;
+    }
+    return Object.freeze(field);
+}
+
+/**
+ * Reduce the size of the given model and freeze it.
+ *
+ * @param {Record<string, unknown>>} model
+ */
+function freezeModel(model) {
+    if (model.fields) {
+        for (const [fieldName, field] of Object.entries(model.fields)) {
+            model.fields[fieldName] = freezeField(field);
+        }
+        Object.freeze(model.fields);
+    }
+    if (model.inherit) {
+        if (model.inherit.length) {
+            model.inherit = model.inherit.filter((m) => m !== "base");
+        }
+        if (!model.inherit.length) {
+            delete model.inherit;
+        }
+    }
+    if (model.order === "id") {
+        delete model.order;
+    }
+    if (model.parent_name === "parent_id") {
+        delete model.parent_name;
+    }
+    if (model.rec_name === "name") {
+        delete model.rec_name;
+    }
+    return Object.freeze(model);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} name
  */
+<<<<<<< HEAD
 const getAddonName = (name) => name.match(R_PATH_ADDON)?.[1];
+=======
+function getAddonName(name) {
+    return name.match(R_PATH_ADDON)?.[1];
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Iterable<string>} addons
  */
+<<<<<<< HEAD
 const getDependencies = (addons) => {
+=======
+function getDependencies(addons) {
+>>>>>>> upstream/18.0
     const result = new Set(DEFAULT_ADDONS);
     for (const addon of addons) {
         if (DEFAULT_ADDONS.includes(addon)) {
@@ -190,26 +300,44 @@ const getDependencies = (addons) => {
         }
     }
     return result;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} name
  */
+<<<<<<< HEAD
 const getSuitePath = (name) => name.replace("../tests/", "");
+=======
+function getSuitePath(name) {
+    return name.replace("../tests/", "");
+}
+>>>>>>> upstream/18.0
 
 /**
  * Keeps the original definition of a factory.
  *
  * @param {string} name
  */
+<<<<<<< HEAD
 const makeFixedFactory = (name) => {
+=======
+function makeFixedFactory(name) {
+>>>>>>> upstream/18.0
     return () => {
         if (!loader.modules.has(name)) {
             loader.startModule(name);
         }
         return loader.modules.get(name);
     };
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * Toned-down version of the RPC + ORM features since this file cannot depend on
@@ -220,7 +348,11 @@ const makeFixedFactory = (name) => {
  * @param {any[]} args
  * @param {Record<string, any>} kwargs
  */
+<<<<<<< HEAD
 const orm = async (model, method, args, kwargs) => {
+=======
+async function orm(model, method, args, kwargs) {
+>>>>>>> upstream/18.0
     const response = await realFetch(`/web/dataset/call_kw/${model}/${method}`, {
         body: JSON.stringify({
             id: nextRpcId++,
@@ -238,13 +370,21 @@ const orm = async (model, method, args, kwargs) => {
         throw error;
     }
     return result;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @template {Record<string, string[]>} T
  * @param {T} dependencies
  */
+<<<<<<< HEAD
 const resolveAddonDependencies = (dependencies) => {
+=======
+function resolveAddonDependencies(dependencies) {
+>>>>>>> upstream/18.0
     const findJob = () =>
         Object.entries(remaining).find(([, deps]) => deps.every((dep) => dep in solved));
 
@@ -265,7 +405,24 @@ const resolveAddonDependencies = (dependencies) => {
     }
 
     Object.assign(dependencies, solved);
+<<<<<<< HEAD
 };
+=======
+}
+
+/**
+ * @param {Record<string, unknown>>} model
+ */
+function unfreezeModel(model) {
+    const fields = Object.create(null);
+    if (model.fields) {
+        for (const [fieldName, field] of Object.entries(model.fields)) {
+            fields[fieldName] = { ...field };
+        }
+    }
+    return { ...model, fields };
+}
+>>>>>>> upstream/18.0
 
 /**
  * This method tries to manually run the garbage collector (if exposed) and logs
@@ -281,7 +438,11 @@ const resolveAddonDependencies = (dependencies) => {
  * @param {string} label
  * @param {number} [testCount]
  */
+<<<<<<< HEAD
 const __gcAndLogMemory = async (label, testCount) => {
+=======
+async function __gcAndLogMemory(label, testCount) {
+>>>>>>> upstream/18.0
     if (typeof window.gc !== "function") {
         return;
     }
@@ -310,7 +471,11 @@ const __gcAndLogMemory = async (label, testCount) => {
         logs.push("- tests:", testCount);
     }
     console.log(...logs);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /** @extends {OdooModuleLoader} */
 class ModuleSetLoader extends loader.constructor {
@@ -435,7 +600,13 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
+=======
+    // Bootstrap.js is voluntarily ignored as it is deprecated
+    "Chart", // Chart.js
+    "DOMPurify", // DOMPurify
+>>>>>>> upstream/18.0
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
     "Chart", // Chart.js
@@ -572,9 +743,12 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "odoo",
     "owl",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -645,6 +819,9 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -730,7 +907,11 @@ const globalFetchCache = Object.create(null);
 const modelsToFetch = new Set();
 /** @type {Map<string, string[]>} */
 const moduleNamesCache = new Map();
+<<<<<<< HEAD
 /** @type {Map<string, Record<string, any>>} */
+=======
+/** @type {Map<string, Record<string, unknown>>} */
+>>>>>>> upstream/18.0
 const serverModelCache = new Map();
 /** @type {string[]} */
 const sortedModuleNames = [];
@@ -775,12 +956,24 @@ export async function fetchModelDefinitions(modelNames) {
         const modelDefs = await response.json();
 
         for (const [modelName, modelDef] of Object.entries(modelDefs)) {
+<<<<<<< HEAD
             serverModelCache.set(modelName, modelDef);
+=======
+            serverModelCache.set(modelName, freezeModel(modelDef));
+>>>>>>> upstream/18.0
             modelsToFetch.delete(modelName);
         }
     }
 
+<<<<<<< HEAD
     return [...modelNames].map((modelName) => [modelName, serverModelCache.get(modelName)]);
+=======
+    const result = Object.create(null);
+    for (const modelName of modelNames) {
+        result[modelName] = unfreezeModel(serverModelCache.get(modelName));
+    }
+    return result;
+>>>>>>> upstream/18.0
 }
 
 /**

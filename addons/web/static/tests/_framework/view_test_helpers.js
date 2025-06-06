@@ -4,6 +4,7 @@ import { animationFrame, Deferred, tick } from "@odoo/hoot-mock";
 import { Component, onMounted, useSubEnv, xml } from "@odoo/owl";
 import { Dialog } from "@web/core/dialog/dialog";
 import { MainComponentsContainer } from "@web/core/main_components_container";
+<<<<<<< HEAD
 import { View, getDefaultConfig } from "@web/views/view";
 import { mountWithCleanup } from "./component_test_helpers";
 import { contains } from "./dom_test_helpers";
@@ -19,6 +20,22 @@ import { MockServer } from "./mock_server/mock_server";
  *  resModel: string;
  *  searchViewArch?: string;
  *  type: ViewType;
+=======
+import { View } from "@web/views/view";
+import { mountWithCleanup } from "./component_test_helpers";
+import { contains } from "./dom_test_helpers";
+import { getService } from "./env_test_helpers";
+import { registerInlineViewArchs } from "./mock_server/mock_model";
+
+/**
+ * @typedef {import("@web/views/view").Config} Config
+ *
+ * @typedef {ViewProps & {
+ *  archs?: Record<string, string>
+ *  config?: Config;
+ *  env?: import("@web/env").OdooEnv;
+ *  resId?: number;
+>>>>>>> upstream/18.0
  *  [key: string]: any;
  * }} MountViewParams
  *
@@ -32,6 +49,10 @@ import { MockServer } from "./mock_server/mock_server";
  * }} SelectorOptions
  *
  * @typedef {import("@odoo/hoot-dom").FormatXmlOptions} FormatXmlOptions
+<<<<<<< HEAD
+=======
+ * @typedef {import("@web/views/view").ViewProps} ViewProps
+>>>>>>> upstream/18.0
  * @typedef {import("./mock_server/mock_model").ViewType} ViewType
  */
 
@@ -40,6 +61,7 @@ import { MockServer } from "./mock_server/mock_server";
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
  *
  * @param {string} modelName
  * @param {number | false} viewId
@@ -51,6 +73,13 @@ const registerDefaultView = (modelName, viewId, viewType, arch) => {
     const key = model._getViewKey(viewType, viewId);
     model._views[key] ||= arch || `<${viewType} />`;
 };
+=======
+ * FIXME: isolate to external helper in @web?
+ *
+ * @param {unknown} value
+ */
+const isNil = (value) => value === null || value === undefined;
+>>>>>>> upstream/18.0
 
 class ViewDialog extends Component {
     static components = { Dialog, View };
@@ -98,7 +127,11 @@ export function buildSelector(base, params) {
     if (params.text) {
         selector += `:contains(${params.text})`;
     }
+<<<<<<< HEAD
     if ("index" in params) {
+=======
+    if (!isNil(params.index)) {
+>>>>>>> upstream/18.0
         selector += `:eq(${params.index})`;
     }
     if (params.target) {
@@ -200,6 +233,7 @@ export function fieldInput(name, options) {
  * @param {MountViewParams} params
  */
 export async function mountViewInDialog(params) {
+<<<<<<< HEAD
     const config = { ...getDefaultConfig(), ...params.config };
     const container = await mountWithCleanup(MainComponentsContainer, {
         env: params.env || getMockEnv() || (await makeMockEnv()),
@@ -208,12 +242,23 @@ export async function mountViewInDialog(params) {
     const deferred = new Deferred();
     getService("dialog").add(ViewDialog, {
         viewEnv: { config },
+=======
+    const container = await mountWithCleanup(MainComponentsContainer, {
+        env: params.env,
+    });
+    const deferred = new Deferred();
+    getService("dialog").add(ViewDialog, {
+        viewEnv: { config: params.config },
+>>>>>>> upstream/18.0
         viewProps: parseViewProps(params),
         onMounted() {
             deferred.resolve();
         },
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
     await deferred;
     return container;
 }
@@ -227,15 +272,22 @@ export async function mountView(params, target = null) {
     actionManagerEl.classList.add("o_action_manager");
     (target ?? getFixture()).append(actionManagerEl);
     after(() => actionManagerEl.remove());
+<<<<<<< HEAD
     const config = { ...getDefaultConfig(), ...params.config };
     return mountWithCleanup(View, {
         env: params.env || getMockEnv() || (await makeMockEnv({ config })),
+=======
+    return mountWithCleanup(View, {
+        env: params.env,
+        componentEnv: { config: params.config },
+>>>>>>> upstream/18.0
         props: parseViewProps(params),
         target: actionManagerEl,
     });
 }
 
 /**
+<<<<<<< HEAD
  * @param {MountViewParams} params
  * @returns {typeof View.props}
  */
@@ -266,6 +318,41 @@ export function parseViewProps(params) {
     }
 
     delete viewProps.arch;
+=======
+ * @param {ViewProps & { archs?: Record<string, string> }} props
+ * @returns {ViewProps}
+ */
+export function parseViewProps(props) {
+    let className = "o_action";
+    if (props.className) {
+        className += " " + props.className;
+    }
+
+    const viewProps = { ...props, className };
+
+    if (
+        props.archs ||
+        !isNil(props.arch) ||
+        !isNil(props.searchViewArch) ||
+        !isNil(props.searchViewId) ||
+        !isNil(props.viewId)
+    ) {
+        viewProps.viewId ??= -1;
+        viewProps.searchViewId ??= -1;
+        registerInlineViewArchs(viewProps.resModel, {
+            ...props.archs,
+            [[viewProps.type, viewProps.viewId]]: viewProps.arch,
+            [["search", viewProps.searchViewId]]: viewProps.searchViewArch,
+        });
+    } else {
+        // Force `get_views` call
+        viewProps.viewId = false;
+        viewProps.searchViewId = false;
+    }
+
+    delete viewProps.arch;
+    delete viewProps.archs;
+>>>>>>> upstream/18.0
     delete viewProps.config;
     delete viewProps.searchViewArch;
 

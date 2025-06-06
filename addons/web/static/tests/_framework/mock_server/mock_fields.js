@@ -1,6 +1,7 @@
 import { MockServerError } from "./mock_server_utils";
 
 /**
+<<<<<<< HEAD
  * @typedef {{
  *  compute?: (() => void) | string;
  *  default?: RecordFieldValue | ((record: ModelRecord) => RecordFieldValue);
@@ -76,13 +77,36 @@ import { MockServerError } from "./mock_server_utils";
  *  context?: Record<string, any>;
  *  [key: string]: any;
  * } & Partial<T>} KwArgs
+=======
+ * @typedef {import("fields").INumerical["aggregator"]} Aggregator
+ * @typedef {import("fields").FieldDefinition} FieldDefinition
+ * @typedef {import("fields").FieldDefinitionsByType} FieldDefinitionsByType
+ * @typedef {import("fields").FieldType} FieldType
+ * @typedef {import("./mock_model").ModelRecord} ModelRecord
+ *
+ * @typedef {{
+ *  compute?: (() => void) | string;
+ *  default?: RecordFieldValue | ((record: ModelRecord) => RecordFieldValue);
+ *  onChange?: (record: ModelRecord) => void;
+ * }} MockFieldProperties
+ *
+ * @typedef {number | string | boolean | number[]} RecordFieldValue
+>>>>>>> upstream/18.0
  */
 
 /**
  * @param {string} name
  */
+<<<<<<< HEAD
 const camelToPascal = (name) =>
     name[0].toUpperCase() + name.slice(1).replace(/_([a-z])/g, (_, char) => char.toUpperCase());
+=======
+function camelToPascal(name) {
+    return (
+        name[0].toUpperCase() + name.slice(1).replace(R_CAMEL_CASE, (_, char) => char.toUpperCase())
+    );
+}
+>>>>>>> upstream/18.0
 
 /**
  * This function spawns a 2-level process to create field definitions: it's a function
@@ -96,6 +120,7 @@ const camelToPascal = (name) =>
  * return the actual field descriptors.
  *
  * @template {FieldType} T
+<<<<<<< HEAD
  * @template [RK=never]
  * @param {T} type
  * @param {{
@@ -115,6 +140,20 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
     };
     if (groupOperator) {
         defaultDef.aggregator = groupOperator;
+=======
+ * @template [R=never]
+ * @param {T} type
+ * @param {{
+ *  aggregator?: Aggregator;
+ *  requiredKeys?: R[];
+ * }} params
+ */
+function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
+    const constructorFnName = camelToPascal(type);
+    const defaultDef = { ...DEFAULT_FIELD_PROPERTIES };
+    if (aggregator) {
+        defaultDef.aggregator = aggregator;
+>>>>>>> upstream/18.0
     }
     if (type !== "generic") {
         defaultDef.type = type;
@@ -123,6 +162,7 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
     // 2nd level: returns the "constructor" function
     return {
         /**
+<<<<<<< HEAD
          * @param {Partial<Omit<T extends MonetaryFieldDefinition["type"]
          *  ? MonetaryFieldDefinition : T extends RelationalFieldDefinition["type"]
          *  ? RelationalFieldDefinition : T extends SelectionFieldDefinition["type"]
@@ -135,6 +175,16 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
                 ...defaultDef,
                 ...attributes,
                 [FIELD_SYMBOL]: true,
+=======
+         * @param {Partial<FieldDefinitionsByType[T] & MockFieldProperties>} [properties]
+         */
+        [constructorFnName](properties) {
+            // Creates a pre-version of the field definition
+            const field = {
+                ...defaultDef,
+                ...properties,
+                [S_FIELD]: true,
+>>>>>>> upstream/18.0
             };
 
             for (const key of requiredKeys) {
@@ -148,22 +198,40 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
             // Fill default values in definition based on given properties
             if (isComputed(field)) {
                 // By default: computed fields are readonly and not stored
+<<<<<<< HEAD
                 field.readonly = attributes.readonly ?? true;
                 field.store = attributes.store ?? false;
+=======
+                field.readonly = properties.readonly ?? true;
+                field.store = properties.store ?? false;
+>>>>>>> upstream/18.0
             }
 
             return field;
         },
     }[constructorFnName];
+<<<<<<< HEAD
 };
 
 /**
  * @param {FieldDefinition} field
+=======
+}
+
+const R_CAMEL_CASE = /_([a-z])/g;
+const R_ENDS_WITH_ID = /_id(s)?$/i;
+const R_LOWER_FOLLOWED_BY_UPPER = /([a-z])([A-Z])/g;
+const R_SPACE_OR_UNDERSCORE = /[\s_]+/g;
+
+/**
+ * @param {FieldDefinition & MockFieldProperties} field
+>>>>>>> upstream/18.0
  */
 export function isComputed(field) {
     return globalThis.Boolean(field.compute || field.related);
 }
 
+<<<<<<< HEAD
 export const Binary = makeFieldGenerator("binary");
 
 export const Boolean = makeFieldGenerator("boolean");
@@ -226,6 +294,19 @@ export const Selection = makeFieldGenerator("selection", {
 });
 
 export const Text = makeFieldGenerator("text");
+=======
+/**
+ * @param {unknown} value
+ */
+export function getFieldDisplayName(value) {
+    const str = String(value)
+        .replace(R_ENDS_WITH_ID, "$1")
+        .replace(R_LOWER_FOLLOWED_BY_UPPER, (_, a, b) => `${a} ${b.toLowerCase()}`)
+        .replace(R_SPACE_OR_UNDERSCORE, " ")
+        .trim();
+    return str[0].toUpperCase() + str.slice(1);
+}
+>>>>>>> upstream/18.0
 
 // Default field values
 export const DEFAULT_MONEY_FIELD_VALUES = {
@@ -263,4 +344,82 @@ export const DEFAULT_FIELD_VALUES = {
     ...DEFAULT_SELECTION_FIELD_VALUES,
     ...DEFAULT_STANDARD_FIELD_VALUES,
 };
+<<<<<<< HEAD
 export const FIELD_SYMBOL = Symbol("field");
+=======
+
+export const DEFAULT_FIELD_PROPERTIES = {
+    readonly: false,
+    required: false,
+    searchable: true,
+    sortable: true,
+    store: true,
+    groupable: true,
+};
+
+export const S_FIELD = Symbol("field");
+export const S_SERVER_FIELD = Symbol("field");
+
+export const Binary = makeFieldGenerator("binary");
+
+export const Boolean = makeFieldGenerator("boolean");
+
+export const Char = makeFieldGenerator("char");
+
+export const Date = makeFieldGenerator("date");
+
+export const Datetime = makeFieldGenerator("datetime");
+
+export const Float = makeFieldGenerator("float", {
+    aggregator: "sum",
+});
+
+export const Generic = makeFieldGenerator("generic");
+
+export const Html = makeFieldGenerator("html");
+
+export const Image = makeFieldGenerator("image");
+
+export const Integer = makeFieldGenerator("integer", {
+    aggregator: "sum",
+});
+
+export const Json = makeFieldGenerator("json");
+
+export const Many2many = makeFieldGenerator("many2many", {
+    requiredKeys: ["relation"],
+});
+
+export const Many2one = makeFieldGenerator("many2one", {
+    requiredKeys: ["relation"],
+});
+
+export const Many2oneReference = makeFieldGenerator("many2one_reference", {
+    requiredKeys: ["model_field", "relation"],
+});
+
+export const Monetary = makeFieldGenerator("monetary", {
+    aggregator: "sum",
+    requiredKeys: ["currency_field"],
+});
+
+export const One2many = makeFieldGenerator("one2many", {
+    requiredKeys: ["relation"],
+});
+
+export const Properties = makeFieldGenerator("properties", {
+    requiredKeys: ["definition_record", "definition_record_field"],
+});
+
+export const PropertiesDefinition = makeFieldGenerator("properties_definition");
+
+export const Reference = makeFieldGenerator("reference", {
+    requiredKeys: ["selection"],
+});
+
+export const Selection = makeFieldGenerator("selection", {
+    requiredKeys: ["selection"],
+});
+
+export const Text = makeFieldGenerator("text");
+>>>>>>> upstream/18.0

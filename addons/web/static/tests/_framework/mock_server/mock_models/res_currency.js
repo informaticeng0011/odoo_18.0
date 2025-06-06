@@ -6,7 +6,11 @@ export class ResCurrency extends ServerModel {
 
     _records = Object.entries(serverState.currencies).map(
         ([id, { digits, name, position, symbol }]) => ({
+<<<<<<< HEAD
             id: Number(id),
+=======
+            id: Number(id) + 1,
+>>>>>>> upstream/18.0
             decimal_places: digits?.at(-1) ?? 2,
             name,
             position,

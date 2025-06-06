@@ -96,7 +96,11 @@ class Partner extends models.Model {
         { id: 5, name: "Fifth record", foo: "zoup" },
     ];
     _views = {
+<<<<<<< HEAD
         kanban: `
+=======
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
             <kanban>
                 <templates>
                     <t t-name="card">
@@ -105,8 +109,17 @@ class Partner extends models.Model {
                 </templates>
             </kanban>
         `,
+<<<<<<< HEAD
         list: `<list><field name="foo"/></list>`,
         form: `
+=======
+        "list,2": /* xml */ `
+            <list>
+                <field name="foo" />
+            </list>
+        `,
+        form: /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -118,7 +131,15 @@ class Partner extends models.Model {
                 </group>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search><field name="foo" string="Foo"/></search>`,
+=======
+        search: /* xml */ `
+            <search>
+                <field name="foo" string="Foo" />
+            </search>
+        `,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -133,7 +154,10 @@ class Pony extends models.Model {
     _views = {
         list: `<list><field name="name"/></list>`,
         form: `<form><field name="name"/></form>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 }
 

@@ -83,7 +83,12 @@ class GoogleCalendarService():
 
     @requires_auth_token
     def patch(self, event_id, values, token=None, timeout=TIMEOUT):
+<<<<<<< HEAD
         url = "/calendar/v3/calendars/primary/events/%s?sendUpdates=all" % event_id
+=======
+        send_updates = self.google_service._context.get('send_updates', True)
+        url = "/calendar/v3/calendars/primary/events/%s?sendUpdates=%s" % (event_id, "all" if send_updates else "none")
+>>>>>>> upstream/18.0
         headers = {'Content-type': 'application/json', 'Authorization': 'Bearer %s' % token}
         self.google_service._do_request(url, json.dumps(values), headers, method='PATCH', timeout=timeout)
 

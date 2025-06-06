@@ -167,7 +167,10 @@ $-seen-urls: ();
     }
     @include print-variable('custom-colors', $custom-colors);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     // A background color is set on <html> to prevent the fallback iframe used
     // for navigation in the backend to be visible once the top iframe is loaded
@@ -175,6 +178,9 @@ $-seen-urls: ();
     // transparent background color, the fallback iframe would be visible on
     // some browsers (e.g. Chrome).
     background-color: white;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -817,6 +823,12 @@ table.table_desc tr td {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // See JS: this is overridden for multiple reasons, including the fact that
+    // Arc browser does not support this correctly at the moment.
+    min-height: 100svh !important;
+>>>>>>> upstream/18.0
 =======
     // See JS: this is overridden for multiple reasons, including the fact that
     // Arc browser does not support this correctly at the moment.

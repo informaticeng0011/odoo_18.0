@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { convertBrToLineBreak } from "@mail/utils/common/format";
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
+=======
+import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
+import { convertBrToLineBreak } from "@mail/utils/common/format";
+>>>>>>> upstream/18.0
 
 import { markup } from "@odoo/owl";
 
@@ -14,7 +19,10 @@ import {
 import { serializeDateTime, today } from "@web/core/l10n/dates";
 import { ensureArray } from "@web/core/utils/arrays";
 import { uniqueId } from "@web/core/utils/functions";
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 
 const { DateTime } = luxon;
 
@@ -23,11 +31,14 @@ export class DiscussChannel extends models.ServerModel {
     _inherit = ["mail.thread"];
     _mail_post_access = "read";
 
+<<<<<<< HEAD
     _views = {
         [`search,${DEFAULT_MAIL_SEARCH_ID}`]: `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: `<form/>`,
     };
 
+=======
+>>>>>>> upstream/18.0
     author_id = fields.Many2one({
         relation: "res.partner",
         default: () => serverState.partnerId,

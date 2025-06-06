@@ -15,8 +15,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 import { queryAllProperties, queryOne, queryRect, resize } from "@odoo/hoot-dom";
+=======
+import { after, beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
+import { queryAllProperties, queryAllTexts, queryOne, queryRect, resize } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { after, beforeEach, describe, expect, getFixture, test } from "@odoo/hoot";
 import { queryAllProperties, queryAllTexts, queryOne, queryRect, resize } from "@odoo/hoot-dom";
@@ -107,6 +112,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    defineParams,
+>>>>>>> upstream/18.0
 =======
     defineParams,
 >>>>>>> upstream/18.0
@@ -185,7 +194,13 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { registry } from "@web/core/registry";
+=======
+
+import { registry } from "@web/core/registry";
+import { resetDateFieldWidths } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 
 import { registry } from "@web/core/registry";
@@ -394,8 +409,11 @@ defineModels([Foo, Bar, Currency, ResCompany, ResPartner, ResUsers]);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 beforeEach(() => resize({ width: 800 }));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -448,6 +466,9 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,7 +543,11 @@ test(`width computation: no record, lot of fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 89, 154, 114, 100]);
+=======
+    expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 100]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 100]);
 >>>>>>> upstream/18.0
@@ -657,7 +682,11 @@ test(`width computation: with records, lot of fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 89, 154, 114, 100]);
+=======
+    expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 100]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 100]);
 >>>>>>> upstream/18.0
@@ -748,7 +777,11 @@ test(`width computation: with records, lot of fields, grouped`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 89, 154, 114, 45]);
+=======
+    expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 45]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 89, 102, 81, 139, 114, 45]);
 >>>>>>> upstream/18.0
@@ -845,7 +878,11 @@ test(`width computation: with records, no relative fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 201, 172, 194, 192]);
+=======
+    expect(getColumnWidths()).toEqual([40, 203, 174, 196, 186]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 203, 174, 196, 186]);
 >>>>>>> upstream/18.0
@@ -959,7 +996,11 @@ test(`width computation: with records, lot of fields, long texts`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 102, 89, 89, 154, 114, 100]);
+=======
+    expect(getColumnWidths()).toEqual([40, 29, 89, 80, 102, 81, 89, 139, 114, 100]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 29, 89, 80, 102, 81, 89, 139, 114, 100]);
 >>>>>>> upstream/18.0
@@ -1164,7 +1205,10 @@ test(`width computation: list with width attribute in arch`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1242,6 +1286,7 @@ test(`width computation: date and datetime with fancy formats`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1250,6 +1295,8 @@ test(`width computation: date and datetime with fancy formats`, async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1319,6 +1366,9 @@ test(`width computation: date and datetime with fancy formats (2)`, async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1381,7 +1431,11 @@ test(`width computation: width attribute in arch and overflowing table`, async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 154, 210, 396]);
+=======
+    expect(getColumnWidths()).toEqual([40, 139, 210, 411]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([40, 139, 210, 411]);
 >>>>>>> upstream/18.0
@@ -1472,6 +1526,7 @@ test(`width computation: no record, nameless and stringless buttons`, async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test(`width computation: no record, datetime field with date widget`, async () => {
     Foo._records = [];
 
@@ -1488,6 +1543,8 @@ test(`width computation: no record, datetime field with date widget`, async () =
     expect(getColumnWidths()).toEqual([40, 89, 671]);
 });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1686,7 +1743,11 @@ test(`width computation: x2many, editable list, with invisible modifier on x2man
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test.todo(`width computation: widths are re-computed on window resize`, async () => {
+=======
+test(`width computation: widths are re-computed on window resize`, async () => {
+>>>>>>> upstream/18.0
 =======
 test(`width computation: widths are re-computed on window resize`, async () => {
 >>>>>>> upstream/18.0
@@ -1741,6 +1802,7 @@ test(`width computation: widths are re-computed on window resize`, async () => {
         resModel: "foo",
         type: "list",
         arch: `
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1818,10 +1880,15 @@ test(`width computation: widths are re-computed on window resize`, async () => {
             <list>
                 <field name="int_field"/>
 >>>>>>> upstream/18.0
+=======
+            <list>
+                <field name="int_field"/>
+>>>>>>> upstream/18.0
                 <field name="text"/>
             </list>
         `,
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1847,6 +1914,8 @@ test(`width computation: widths are re-computed on window resize`, async () => {
     expect(postResizeTextWidth).toBeLessThan(initialTextWidth);
     expect(selectorWidth).toBe(postResizeSelectorWidth);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1919,6 +1988,9 @@ test(`width computation: widths are re-computed on parent resize`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2429,6 +2501,7 @@ test(`freeze widths: toggle optional fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([40, 89, 484, 154, 32]);
 
     await contains(".o_optional_columns_dropdown_toggle").click();
@@ -2444,6 +2517,8 @@ test(`freeze widths: toggle optional fields`, async () => {
     await contains(".dropdown-item input:eq(1)").click();
     expect(getColumnWidths()).toEqual([40, 89, 89, 103, 155, 291, 32]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2506,6 +2581,9 @@ test(`freeze widths: toggle optional fields`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2652,7 +2730,11 @@ test(`freeze widths: x2many, toggle optional field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([100, 636, 32]);
+=======
+    expect(getColumnWidths()).toEqual([92, 644, 32]);
+>>>>>>> upstream/18.0
 =======
     expect(getColumnWidths()).toEqual([92, 644, 32]);
 >>>>>>> upstream/18.0
@@ -2725,12 +2807,15 @@ test(`freeze widths: x2many, toggle optional field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(getColumnWidths()).toEqual([100, 636, 32]);
 
     await contains(".o_optional_columns_dropdown_toggle").click();
     await contains(".dropdown-item input").click();
     expect(getColumnWidths()).toEqual([100, 555, 80, 32]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2784,6 +2869,9 @@ test(`freeze widths: x2many, toggle optional field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

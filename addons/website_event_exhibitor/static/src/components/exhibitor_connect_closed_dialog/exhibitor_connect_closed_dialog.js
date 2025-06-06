@@ -12,6 +12,10 @@ export class ExhibitorConnectClosedDialog extends Component {
         sponsorId: Number,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        close: Function,
+>>>>>>> upstream/18.0
 =======
         close: Function,
 >>>>>>> upstream/18.0

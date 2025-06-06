@@ -61,7 +61,10 @@ class TestUi(TestPointOfSaleHttpCommon):
                         (0, 0, {'name': 'Q2-Answer2'})
                     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 }),
                 (0, 0, {
                     'title': 'Question3',
@@ -72,6 +75,9 @@ class TestUi(TestPointOfSaleHttpCommon):
                         (0, 0, {'name': 'Q3-Answer1'}),
                         (0, 0, {'name': 'Q3-Answer2'})
                     ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 })
             ]
@@ -90,8 +96,13 @@ class TestUi(TestPointOfSaleHttpCommon):
         event_registration = order.lines[0].event_registration_ids
         event_answer_name = event_registration.registration_answer_ids.value_answer_id.mapped('name')
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(len(event_registration.registration_answer_ids), 2)
         self.assertEqual(event_answer_name, ['Q1-Answer1', 'Q2-Answer1'])
+=======
+        self.assertEqual(len(event_registration.registration_answer_ids), 3)
+        self.assertEqual(event_answer_name, ['Q1-Answer1', 'Q2-Answer1', 'Q3-Answer1'])
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(len(event_registration.registration_answer_ids), 3)
         self.assertEqual(event_answer_name, ['Q1-Answer1', 'Q2-Answer1', 'Q3-Answer1'])

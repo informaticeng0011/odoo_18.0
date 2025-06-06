@@ -173,6 +173,11 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if record._is_google_insertion_blocked(sender_user=self.env.user):
+                    continue
+>>>>>>> upstream/18.0
 =======
                 if record._is_google_insertion_blocked(sender_user=self.env.user):
                     continue
@@ -388,6 +393,11 @@ class GoogleSync(models.AbstractModel):
         with google_calendar_token(self.env.user.sudo()) as token:
             if token:
                 try:
+<<<<<<< HEAD
+=======
+                    send_updates = not self._is_event_over()
+                    google_service.google_service = google_service.google_service.with_context(send_updates=send_updates)
+>>>>>>> upstream/18.0
                     google_service.patch(google_id, values, token=token, timeout=timeout)
                 except HTTPError as e:
                     if e.response.status_code in (400, 403):
@@ -417,7 +427,11 @@ class GoogleSync(models.AbstractModel):
         with google_calendar_token(self.env.user.sudo()) as token:
             if token:
                 try:
+<<<<<<< HEAD
                     send_updates = self._context.get('send_updates', True)
+=======
+                    send_updates = self._context.get('send_updates', True) and not self._is_event_over()
+>>>>>>> upstream/18.0
                     google_service.google_service = google_service.google_service.with_context(send_updates=send_updates)
                     google_values = google_service.insert(values, token=token, timeout=timeout, need_video_call=self._need_video_call())
                     self.with_context(dont_notify=True).write(self._get_post_sync_values(values, google_values))
@@ -541,7 +555,10 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -614,6 +631,9 @@ class GoogleSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -32,7 +32,11 @@ class Partner extends models.Model {
         { id: 2, display_name: "Second record" },
     ];
     _views = {
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -50,9 +54,14 @@ class Partner extends models.Model {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+        "list,2": `<list limit="3"><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -137,7 +146,11 @@ describe("new", () => {
     });
 
     test("footer buttons are moved to the dialog footer", async () => {
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <field name="display_name"/>
                 <footer>
@@ -161,7 +174,11 @@ describe("new", () => {
     test.tags("desktop");
     test("Button with `close` attribute closes dialog on desktop", async () => {
         Partner._views = {
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
                 <form>
                     <header>
                         <button string="Open dialog" name="5" type="action"/>
@@ -173,7 +190,10 @@ describe("new", () => {
                         <button string="I close the dialog" name="some_method" type="object" close="1"/>
                     </footer>
                 </form>`,
+<<<<<<< HEAD
             "search,false": "<search></search>",
+=======
+>>>>>>> upstream/18.0
         };
         defineActions(
             [
@@ -220,7 +240,11 @@ describe("new", () => {
     test.tags("mobile");
     test("Button with `close` attribute closes dialog on mobile", async () => {
         Partner._views = {
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
                 <form>
                     <header>
                         <button string="Open dialog" name="5" type="action"/>
@@ -232,7 +256,10 @@ describe("new", () => {
                         <button string="I close the dialog" name="some_method" type="object" close="1"/>
                     </footer>
                 </form>`,
+<<<<<<< HEAD
             "search,false": "<search></search>",
+=======
+>>>>>>> upstream/18.0
         };
         defineActions(
             [
@@ -288,7 +315,11 @@ describe("new", () => {
             },
         ]);
         Partner._views = {
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
                 <form>
                     <field name="display_name"/>
                     <footer>
@@ -584,7 +615,11 @@ describe("fullscreen", () => {
                 views: [[false, "form"]],
             },
         ]);
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <button name="15" type="action" class="oe_stat_button" />
             </form>`;
@@ -615,7 +650,11 @@ describe("fullscreen", () => {
                 views: [[false, "form"]],
             },
         ]);
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <button name="15" type="action" class="oe_stat_button" />
             </form>`;
@@ -660,7 +699,11 @@ describe("fullscreen", () => {
                 actionID: 6,
             },
         ]);
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <button name="24" type="action" string="Execute action 24" class="oe_stat_button"/>
             </form>`;

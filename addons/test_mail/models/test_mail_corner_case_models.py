@@ -122,6 +122,10 @@ class MailTestTrackAll(models.Model):
     datetime_field = fields.Datetime('Datetime', tracking=4)
     float_field = fields.Float('Float', tracking=5)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    float_field_with_digits = fields.Float('Precise Float', digits=(10, 8), tracking=5)
+>>>>>>> upstream/18.0
 =======
     float_field_with_digits = fields.Float('Precise Float', digits=(10, 8), tracking=5)
 >>>>>>> upstream/18.0

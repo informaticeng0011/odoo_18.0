@@ -19,7 +19,11 @@ class Partner extends models.Model {
         { id: 2, display_name: "Second record" },
     ];
     _views = {
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
         <form>
             <header>
                 <button name="object" string="Call method" type="object"/>
@@ -37,7 +41,10 @@ class Partner extends models.Model {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         "search,false": `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 }
 

@@ -74,6 +74,10 @@ import { currencies } from "@web/core/currency";
 import { Domain } from "@web/core/domain";
 import { registry } from "@web/core/registry";
 import { useBus } from "@web/core/utils/hooks";
+<<<<<<< HEAD
+=======
+import { omit } from "@web/core/utils/objects";
+>>>>>>> upstream/18.0
 import { RelationalModel } from "@web/model/relational_model/relational_model";
 import { session } from "@web/session";
 import { floatField } from "@web/views/fields/float/float_field";
@@ -124,7 +128,11 @@ class Foo extends models.Model {
             amount: 1200,
             currency_id: 2,
             reference: "bar,1",
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
         },
         {
             id: 2,
@@ -136,7 +144,11 @@ class Foo extends models.Model {
             m2m: [1, 2, 3],
             amount: 500,
             reference: "res.currency,1",
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
         },
         {
             id: 3,
@@ -148,7 +160,11 @@ class Foo extends models.Model {
             m2m: [],
             amount: 300,
             reference: "res.currency,2",
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
         },
         {
             id: 4,
@@ -159,7 +175,11 @@ class Foo extends models.Model {
             m2o: 1,
             m2m: [1],
             amount: 0,
+<<<<<<< HEAD
             properties: {},
+=======
+            properties: [],
+>>>>>>> upstream/18.0
         },
     ];
 }
@@ -531,7 +551,11 @@ test(`editable list with open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -647,7 +671,11 @@ test(`editable list without open_form_view in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -718,11 +746,19 @@ test(`editable list without open_form_view in debug`, async () => {
         resModel: "foo",
         type: "list",
         arch: `<list editable="top"><field name="foo"/></list>`,
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
         selectRecord(resId, options) {
             expect.step(`switch to form - resId: ${resId} activeIds: ${options.activeIds}`);
         },
     });
+<<<<<<< HEAD
     const localStorageKey = "debug_open_view,foo,list,123456789,foo";
+=======
+    const localStorageKey = "debug_open_view,foo,list,1,foo";
+>>>>>>> upstream/18.0
     expect.verifySteps([["getItem", localStorageKey, null]]);
     expect(`td.o_list_record_open_form_view`).toHaveCount(0);
     expect(".o_optional_columns_dropdown").toHaveCount(1);
@@ -775,7 +811,11 @@ test(`non-editable list in debug`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -5288,6 +5328,7 @@ test(`archive/unarchive handles returned action`, async () => {
         },
     ]);
 
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/foo/action_archive", () => ({
         type: "ir.actions.act_window",
         name: "Archive Action",
@@ -5296,6 +5337,19 @@ test(`archive/unarchive handles returned action`, async () => {
         target: "new",
         views: [[false, "form"]],
     }));
+=======
+    onRpc("foo", "action_archive", ({ parent }) => {
+        parent();
+        return {
+            type: "ir.actions.act_window",
+            name: "Archive Action",
+            res_model: "bar",
+            view_mode: "form",
+            target: "new",
+            views: [[false, "form"]],
+        };
+    });
+>>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
     await getService("action").doAction(11);
@@ -5996,7 +6050,10 @@ test(`grouped, show only limited records when the list view is initially expande
 
 test(`list keeps offset on switchView`, async () => {
     Foo._views = {
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
         "list,99": `<list limit="1"><field name="display_name"/></list>`,
         "form,100": `<form><field name="display_name"/></form>`,
     };
@@ -6028,7 +6085,10 @@ test(`list keeps offset on switchView`, async () => {
 
 test(`Navigate between the list and kanban view using the command palette`, async () => {
     Foo._views = {
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
         list: `<list><field name="display_name"/></list>`,
         kanban: `
             <kanban class="o_kanban_test">
@@ -6416,8 +6476,11 @@ test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6501,7 +6564,11 @@ test(`display a tooltip on a field`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -6605,7 +6672,10 @@ test("field (with help) tooltip in non debug mode", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6839,8 +6909,13 @@ test(`bounce create button when no data and click on empty area`, async () => {
 });
 
 test(`no content helper when no data`, async () => {
+<<<<<<< HEAD
     const records = Foo._records.slice(0);
     Foo._records.splice(0);
+=======
+    const records = Foo._records.map((record) => omit(record, "id"));
+    Foo._records = [];
+>>>>>>> upstream/18.0
 
     await mountView({
         resModel: "foo",
@@ -6852,7 +6927,11 @@ test(`no content helper when no data`, async () => {
     expect(`.o_list_view table`).toHaveCount(1, { message: "should have a table in the dom" });
     expect(`.o_view_nocontent`).toHaveText("click to add a partner");
 
+<<<<<<< HEAD
     Foo._records.push(...records);
+=======
+    MockServer.env["foo"].create(records);
+>>>>>>> upstream/18.0
     await contains(`.o_searchview_input`).press("enter");
     expect(`.o_view_nocontent`).toHaveCount(0, {
         message: "should not display the no content helper",
@@ -6958,7 +7037,10 @@ test(`refresh empty list with sample data`, async () => {
                 <field name="datetime"/>
             </list>
         `,
+<<<<<<< HEAD
         kanban: `<kanban/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -7071,6 +7153,10 @@ test(`empty list with sample data: keyboard navigation`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("broken");
+>>>>>>> upstream/18.0
 =======
 test.tags("broken");
 >>>>>>> upstream/18.0
@@ -7173,8 +7259,11 @@ test(`empty list with sample data: group by date`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(`.o_group_has_content.o_group_header`).click();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7244,6 +7333,9 @@ test(`empty list with sample data: group by date`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10772,9 +10864,14 @@ test(`editable list view: multi edition cannot call onchanges`, async () => {
     };
 
     stepAllNetworkCalls();
+<<<<<<< HEAD
     onRpc("write", ({ args }) => {
         for (const id of args[0]) {
             const record = Foo._records.find((r) => r.id === id);
+=======
+    onRpc("write", function ({ args }) {
+        for (const record of this.env["foo"].browse(args[0])) {
+>>>>>>> upstream/18.0
             record.int_field = args[1].foo.length;
         }
     });
@@ -10884,7 +10981,10 @@ test(`multi edition: many2many_tags in many2many field`, async () => {
     }
     Bar._views = {
         list: `<list><field name="name"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountView({
@@ -12014,11 +12114,14 @@ test(`list view move to previous page when all records from last page archive/un
     // add active field on foo model and make all records active
     Foo._fields.active = fields.Boolean({ default: true });
 
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/foo/action_archive", () => {
         Foo._records[3].active = false;
         return {};
     });
 
+=======
+>>>>>>> upstream/18.0
     await mountView({
         resModel: "foo",
         type: "list",
@@ -14302,7 +14405,10 @@ test(`optional fields is shown only if enabled`, async () => {
                 <field name="display_name" optional="show"/>
             </list>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -15193,8 +15299,11 @@ test(`archive/unarchive not available on active readonly models`, async () => {
 test(`open groups are kept when leaving and coming back`, async () => {
     Foo._views = {
         list: `<list><field name="foo"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
         form: `<form/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -15233,8 +15342,11 @@ test(`open groups are kept when leaving and coming back (grouped by date)`, asyn
     Foo._fields.date = fields.Date({ default: "2022-10-10" });
     Foo._views = {
         list: `<list><field name="foo"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
         form: `<form/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -15272,8 +15384,11 @@ test(`open groups are kept when leaving and coming back (grouped by date)`, asyn
 test(`go to the next page after leaving and coming back to a grouped list view`, async () => {
     Foo._views = {
         list: `<list groups_limit="1"><field name="foo"/></list>`,
+<<<<<<< HEAD
         form: `<form/>`,
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -15855,7 +15970,10 @@ test(`highlight of a (sortable) column with label`, async () => {
 test(`Search more in a many2one`, async () => {
     Bar._views = {
         list: `<list><field name="display_name"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     patchWithCleanup(Many2XAutocomplete.defaultProps, {
@@ -16582,10 +16700,14 @@ test(`properties: optional show/hide (config from local storage)`, async () => {
         }
     }
 
+<<<<<<< HEAD
     localStorage.setItem(
         "optional_fields,foo,list,123456789,m2o,properties",
         "properties.property_char"
     );
+=======
+    localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
+>>>>>>> upstream/18.0
 
     await mountView({
         resModel: "foo",
@@ -16596,6 +16718,10 @@ test(`properties: optional show/hide (config from local storage)`, async () => {
                 <field name="properties"/>
             </list>
         `,
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
     });
     expect(`.o_list_table thead th`).toHaveCount(4);
     expect(`.o_list_table thead th.o_list_record_selector`).toHaveCount(1);
@@ -16617,10 +16743,14 @@ test(`properties: optional show/hide (at reload, config from local storage)`, as
         }
     }
 
+<<<<<<< HEAD
     localStorage.setItem(
         "optional_fields,foo,list,123456789,m2o,properties",
         "properties.property_char"
     );
+=======
+    localStorage.setItem("optional_fields,foo,list,1,m2o,properties", "properties.property_char");
+>>>>>>> upstream/18.0
 
     await mountView({
         resModel: "foo",
@@ -16631,6 +16761,10 @@ test(`properties: optional show/hide (at reload, config from local storage)`, as
                 <field name="properties"/>
             </list>
         `,
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
         groupBy: ["m2o"],
     });
 
@@ -16858,7 +16992,10 @@ test(`restore orderBy from state when using default order`, async () => {
                 <field name="foo"/>
             </form>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     onRpc("web_search_read", ({ kwargs }) => expect.step(`order:${kwargs.order}`));
@@ -16948,11 +17085,17 @@ test(`context keys not passed down the stack and not to fields`, async () => {
                 <field name="m2m" widget="many2many_tags"/>
             </list>
         `,
+<<<<<<< HEAD
         search: `<search/>`,
     };
     Bar._views = {
         list: `<list><field name="name"/></list>`,
         search: `<search/>`,
+=======
+    };
+    Bar._views = {
+        list: `<list><field name="name"/></list>`,
+>>>>>>> upstream/18.0
     };
 
     Bar._records = [];
@@ -17301,7 +17444,11 @@ test("two pages, go page 2, record deleted meanwhile", async () => {
     expect(getPagerValue()).toEqual([1, 3]);
     expect(getPagerLimit()).toBe(4);
 
+<<<<<<< HEAD
     Foo._records.splice(3);
+=======
+    MockServer.env["foo"].unlink(4);
+>>>>>>> upstream/18.0
     await pagerNext();
     expect(".o_data_row").toHaveCount(3);
     expect(getPagerValue()).toEqual([1, 3]);
@@ -17331,7 +17478,11 @@ test("two pages, go page 2, record deleted meanwhile (grouped case)", async () =
     expect(getPagerValue(queryFirst(".o_group_header"))).toEqual([1, 3]);
     expect(getPagerLimit(queryFirst(".o_group_header"))).toBe(4);
 
+<<<<<<< HEAD
     Foo._records.splice(3);
+=======
+    MockServer.env["foo"].unlink(4);
+>>>>>>> upstream/18.0
     await pagerNext(queryFirst(".o_group_header"));
     expect(".o_data_row").toHaveCount(3);
     expect(".o_group_header .o_pager").toHaveCount(0);
@@ -17368,7 +17519,10 @@ test("open record, with invalid record in list", async () => {
     Foo._views = {
         form: `<form><field name="foo"/><field name="int_field"/></form>`,
         list: `<list><field name="foo" required="1"/><field name="int_field"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     mockService("notification", {

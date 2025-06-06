@@ -68,7 +68,11 @@ class Partner extends models.Model {
         { id: 5, display_name: "Fifth record", foo: "zoup", m2o: 1, o2m: [] },
     ];
     _views = {
+<<<<<<< HEAD
         "form,false": `
+=======
+        "form,3": /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -78,8 +82,14 @@ class Partner extends models.Model {
                     <field name="display_name"/>
                     <field name="foo"/>
                 </group>
+<<<<<<< HEAD
             </form>`,
         "form,74": `
+=======
+            </form>
+        `,
+        "form,74": /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <sheet>
                     <div class="oe_button_box" name="button_box">
@@ -89,14 +99,21 @@ class Partner extends models.Model {
                     </div>
                     <field name="display_name"/>
                 </sheet>
+<<<<<<< HEAD
             </form>`,
         "kanban,1": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
             <kanban>
                 <templates>
                     <t t-name="card">
                         <field name="foo"/>
                     </t>
                 </templates>
+<<<<<<< HEAD
             </kanban>`,
         list: `<list><field name="foo"/></list>`,
         pivot: `<pivot/>`,
@@ -104,6 +121,23 @@ class Partner extends models.Model {
         "search,4": `
             <search>
                 <filter name="m2o" help="M2O" domain="[('m2o', '=', 1)]"/>
+=======
+            </kanban>
+        `,
+        list: /* xml */ `
+            <list>
+                <field name="foo" />
+            </list>
+        `,
+        search: /* xml */ `
+            <search>
+                <field name="foo" string="Foo" />
+            </search>
+        `,
+        "search,4": /* xml */ `
+            <search>
+                <filter name="m2o" help="M2O" domain="[('m2o', '=', 1)]" />
+>>>>>>> upstream/18.0
             </search>`,
     };
 }
@@ -119,7 +153,10 @@ class Pony extends models.Model {
     _views = {
         list: `<list><field name="name"/></list>`,
         form: `<form><field name="name"/></form>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 }
 
@@ -222,9 +259,13 @@ test("click on a list row when there is no form in the action", async () => {
 });
 
 test("click on open form view button when there is no form in the action", async () => {
+<<<<<<< HEAD
     Pony._views[
         "list,false"
     ] = `<list editable="top" open_form_view="1"><field name="name"/></list>`;
+=======
+    Pony._views["list"] = `<list editable="top" open_form_view="1"><field name="name"/></list>`;
+>>>>>>> upstream/18.0
     stepAllNetworkCalls();
     await mountWithCleanup(WebClient);
     await getService("action").doAction(9);
@@ -379,7 +420,11 @@ test.tags("desktop");
 test("orderedBy in context is not propagated when executing another action", async () => {
     expect.assertions(6);
 
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <header>
                 <button name="8" string="Execute action" type="action"/>
@@ -521,7 +566,11 @@ test("switch buttons are updated when switching between views", async () => {
 });
 test.tags("desktop");
 test("pager is updated when switching between views", async () => {
+<<<<<<< HEAD
     Partner._views["list,false"] = `<list limit="3"><field name="foo"/></list>`;
+=======
+    Partner._views["list"] = `<list limit="3"><field name="foo"/></list>`;
+>>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
     await getService("action").doAction(4);
@@ -571,7 +620,11 @@ test("pager is updated when switching between views", async () => {
 
 test.tags("desktop");
 test("Props are updated and kept when switching/restoring views", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = /* xml */ `
+=======
+    Partner._views["form"] = /* xml */ `
+>>>>>>> upstream/18.0
         <form>
             <group>
                 <field name="display_name" />
@@ -923,7 +976,11 @@ test("execute_action of type object are handled", async () => {
 
 test.tags("desktop");
 test("execute_action of type object: disable buttons (2)", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <header>
                 <button name="object" string="Call method" type="object"/>
@@ -977,7 +1034,11 @@ test("execute_action of type object: disable buttons (2)", async () => {
 
 test.tags("desktop");
 test("view button: block ui attribute", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="4" string="Execute action" type="action" block-ui="1"/>
@@ -1034,7 +1095,11 @@ test("execute_action of type object raises error: re-enables buttons", async () 
 
 test("execute_action of type object raises error in modal: re-enables buttons", async () => {
     expect.errors(1);
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
             <form>
                 <field name="display_name"/>
                 <footer>
@@ -1281,7 +1346,10 @@ test("restore previous view state when switching back", async () => {
             ],
         },
     ]);
+<<<<<<< HEAD
     Partner._views["graph,false"] = "<graph/>";
+=======
+>>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
     await getService("action").doAction(30);
@@ -1356,7 +1424,11 @@ test("view switcher is properly highlighted in pivot view", async () => {
 
 test.tags("desktop");
 test("can interact with search view", async () => {
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
         <search>
             <group>
             <filter name="foo" string="foo" context="{'group_by': 'foo'}"/>
@@ -1380,13 +1452,21 @@ test("can interact with search view", async () => {
 
 test.tags("desktop");
 test("can open a many2one external window", async () => {
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
         <search>
             <group>
                 <filter name="foo" string="foo" context="{'group_by': 'foo'}"/>
             </group>
         </search>`;
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <field name="foo"/>
             <field name="m2o"/>
@@ -1550,7 +1630,11 @@ test("honor group_by specified in actions context", async () => {
             views: [[false, "list"]],
         },
     ]);
+<<<<<<< HEAD
     Partner._views["search,false"] = `
+=======
+    Partner._views["search"] = `
+>>>>>>> upstream/18.0
         <search>
             <group>
             <filter name="foo" string="Foo" context="{'group_by': 'foo'}"/>
@@ -1896,7 +1980,11 @@ test("destroy action with lazy loaded controller", async () => {
 test.tags("desktop");
 test("execute action from dirty, new record, and come back", async () => {
     Partner._fields.bar = fields.Many2one({ relation: "partner", default: 1 });
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <field name="display_name"/>
             <field name="foo"/>
@@ -2233,7 +2321,11 @@ test("Call twice clearUncommittedChanges in a row does not save twice", async ()
 
 test.tags("desktop");
 test("executing a window action with onchange warning does not hide it", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
+=======
+    Partner._views["form"] = `<form><field name="foo"/></form>`;
+>>>>>>> upstream/18.0
 
     onRpc("onchange", () => {
         return {
@@ -2298,7 +2390,11 @@ test("do not pushState when target=new and dialog is opened", async () => {
 
 test.tags("desktop");
 test("do not restore after action button clicked on desktop", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <header>
                 <button name="do_something" string="Call button" type="object"/>
@@ -2322,7 +2418,11 @@ test("do not restore after action button clicked on desktop", async () => {
 
 test.tags("mobile");
 test("do not restore after action button clicked on mobile", async () => {
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <header>
                 <button name="do_something" string="Call button" type="object"/>
@@ -2615,7 +2715,11 @@ test("pushState also changes the title of the tab", async () => {
 });
 
 test("action group_by of type string", async () => {
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
+=======
+    Partner._views["pivot,3"] = /* xml */ `<pivot />`;
+>>>>>>> upstream/18.0
     await mountWithCleanup(WebClient);
     await getService("action").doAction({
         name: "Partner",
@@ -2664,7 +2768,10 @@ test("action help given to View in props if not empty", async () => {
 test("load a tree", async () => {
     Partner._views = {
         list: `<list><field name="foo"/></list>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);
@@ -2694,7 +2801,10 @@ test("sample server: populate groups", async () => {
             <pivot sample="1">
                 <field name="write_date" type="row"/>
             </pivot>`,
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
     };
     onRpc("web_read_group", () => {
         return {
@@ -2740,7 +2850,11 @@ test("sample server: populate groups", async () => {
 test.tags("desktop");
 test("click on breadcrumb of a deleted record", async () => {
     expect.errors(1);
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
         <form>
             <button type="action" name="3" string="Open Action 3" class="my_btn"/>
         </form>`;

@@ -57,6 +57,10 @@ correctly when the cn2an library is installed. (e.g. with pip3 install cn2an)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'demo/demo_company_asbe.xml',
+>>>>>>> upstream/18.0
 =======
         'demo/demo_company_asbe.xml',
 >>>>>>> upstream/18.0

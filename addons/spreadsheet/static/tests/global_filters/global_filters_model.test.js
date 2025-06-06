@@ -6,9 +6,15 @@ import { DispatchResult, Model, helpers, tokenize } from "@odoo/o-spreadsheet";
 import { Domain } from "@web/core/domain";
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
   defineSpreadsheetModels,
   getBasicPivotArch,
   getBasicServerData,
+=======
+    defineSpreadsheetModels,
+    getBasicPivotArch,
+    getBasicServerData,
+>>>>>>> upstream/18.0
 =======
     defineSpreadsheetModels,
     getBasicPivotArch,
@@ -1988,17 +1994,23 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
     mockDate("2022-07-14 00:00:00");
     const serverData = getBasicServerData();
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverData.models.partner.records = [{
       id: 10000,
       product_id: false,
     }];
 =======
+=======
+>>>>>>> upstream/18.0
     serverData.models.partner.records = [
         {
             id: 10000,
             product_id: false,
         },
     ];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const { model } = await createSpreadsheetWithPivot({
         serverData,
@@ -2009,6 +2021,10 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
                     <field name="date" interval="year" type="col"/>
                     <field name="date" interval="month" type="col"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <field name="date" interval="quarter" type="col"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="date" interval="quarter" type="col"/>
 >>>>>>> upstream/18.0
@@ -2042,11 +2058,14 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
     const relationalFilters2 = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"product_id","41")');
     expect(relationalFilters2).toEqual([{ filterId: "42", value: [41] }]);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const relationalFiltersWithNoneValue = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"#product_id",1)');
     expect(relationalFiltersWithNoneValue).toEqual([{ filterId: "42", value: undefined }]);
     const dateFilters1 = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"date:month","08/2016")');
     expect(dateFilters1).toEqual([{ filterId: "43", value: { yearOffset: -6, period: "august" } }]);
 =======
+=======
+>>>>>>> upstream/18.0
     const relationalFiltersWithNoneValue = getFiltersMatchingPivot(
         model,
         '=PIVOT.HEADER(1,"#product_id",1)'
@@ -2058,6 +2077,9 @@ test("getFiltersMatchingPivot return correctly matching filter according to cell
     expect(december).toEqual([{ filterId: "43", value: { yearOffset: -6, period: "december" } }]);
     const q4 = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"date:quarter","4/2016")');
     expect(q4).toEqual([{ filterId: "43", value: { yearOffset: -6, period: "fourth_quarter" } }]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const dateFilters2 = getFiltersMatchingPivot(model, '=PIVOT.HEADER(1,"date:year","2016")');
     expect(dateFilters2).toEqual([{ filterId: "43", value: { yearOffset: -6 } }]);
@@ -2544,11 +2566,14 @@ test("Updating the pivot should keep the global filter domain", async () => {
 test("Updating a non-odoo pivot should not crash on global filter", async () => {
     const grid = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         A1: "Customer",   B1: "Price", C1: `=PIVOT(1)`,
         A2: "Alice",      B2: "10",
         A3: "",           B3: "20",
         A4: "Olaf",       B4: "30",
 =======
+=======
+>>>>>>> upstream/18.0
         A1: "Customer",
         B1: "Price",
         C1: `=PIVOT(1)`,
@@ -2558,6 +2583,9 @@ test("Updating a non-odoo pivot should not crash on global filter", async () => 
         B3: "20",
         A4: "Olaf",
         B4: "30",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     };
     const model = createModelFromGrid(grid);

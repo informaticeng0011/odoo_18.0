@@ -41,8 +41,12 @@ class Partner extends models.Model {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         "form,false": `<form><field name="display_name"/></form>`,
         "search,false": `<search/>`,
+=======
+        form: `<form><field name="display_name"/></form>`,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -226,8 +230,12 @@ test("error on onMounted", async () => {
                     </t>
                 </templates>
             </kanban>`,
+<<<<<<< HEAD
         "form,false": `<form><field name="display_name"/><field name="bar"/></form>`,
         "search,false": `<search/>`,
+=======
+        form: `<form><field name="display_name"/><field name="bar"/></form>`,
+>>>>>>> upstream/18.0
     };
     stepAllNetworkCalls();
     patchWithCleanup(BooleanField.prototype, {

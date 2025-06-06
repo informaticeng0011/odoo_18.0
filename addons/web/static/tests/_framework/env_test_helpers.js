@@ -78,9 +78,18 @@ export function getService(name) {
  * Makes a mock environment along with a mock server
  *
  * @param {Partial<OdooEnv>} [partialEnv]
+<<<<<<< HEAD
  */
 export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
     if (currentEnv && !makeNew) {
+=======
+ * @param {{
+ *  makeNew?: boolean;
+ * }} [options]
+ */
+export async function makeMockEnv(partialEnv, options) {
+    if (currentEnv && !options?.makeNew) {
+>>>>>>> upstream/18.0
         throw new Error(
             `cannot create mock environment: a mock environment has already been declared`
         );
@@ -90,6 +99,7 @@ export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
         await makeMockServer();
     }
 
+<<<<<<< HEAD
     currentEnv = makeEnv();
     after(() => {
         currentEnv = null;
@@ -111,6 +121,33 @@ export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
     await startServices(currentEnv);
 
     return currentEnv;
+=======
+    const env = makeEnv();
+    Object.assign(env, partialEnv, createDebugContext(env)); // This is needed if the views are in debug mode
+
+    registerDebugInfo("env", env);
+
+    if (!currentEnv) {
+        currentEnv = env;
+        startRouter();
+        after(() => {
+            currentEnv = null;
+
+            // Ideally: should be done in a patch of the localization service, but this
+            // is less intrusive for now.
+            if (translatedTerms[translationLoaded]) {
+                for (const key in translatedTerms) {
+                    delete translatedTerms[key];
+                }
+                translatedTerms[translationLoaded] = false;
+            }
+        });
+    }
+
+    await startServices(env);
+
+    return env;
+>>>>>>> upstream/18.0
 }
 
 /**

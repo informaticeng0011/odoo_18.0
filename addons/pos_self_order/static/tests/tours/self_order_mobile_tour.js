@@ -22,11 +22,17 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
         Utils.clickBtn("Ok"),
         Utils.checkIsNoBtn("Order Now"),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         Utils.clickBtn("My Order"),
         ...CartPage.cancelOrder(),
         Utils.checkBtn("Order Now"),
         Utils.checkBtn("My Orders"),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ],
 });

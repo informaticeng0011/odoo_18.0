@@ -1102,7 +1102,10 @@ class Message(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = expression.AND([domain, [("message_type", "not in", ["user_notification", "notification"])]])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

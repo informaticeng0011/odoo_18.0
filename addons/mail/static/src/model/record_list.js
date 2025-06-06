@@ -316,9 +316,17 @@ export class RecordList extends Array {
                             recordList,
                             val,
                             function recordListSet_Insert(newRecord) {
+<<<<<<< HEAD
                                 const oldRecord = toRaw(recordList._store.recordByLocalId).get(
                                     recordList.data[index]
                                 );
+=======
+                                const oldRecord = toRaw(
+                                    toRaw(recordList._store.recordByLocalId).get(
+                                        recordList.data[index]
+                                    )
+                                )._raw;
+>>>>>>> upstream/18.0
                                 if (oldRecord && oldRecord.notEq(newRecord)) {
                                     oldRecord._.uses.delete(recordList);
                                 }
@@ -330,7 +338,11 @@ export class RecordList extends Array {
                                 );
                                 const inverse = getInverse(recordList);
                                 if (inverse) {
+<<<<<<< HEAD
                                     oldRecord[inverse].delete(recordList);
+=======
+                                    oldRecord[inverse].delete(recordList._.owner);
+>>>>>>> upstream/18.0
                                 }
                                 recordListProxy.data[index] = newRecord?.localId;
                                 if (newRecord) {
@@ -342,7 +354,11 @@ export class RecordList extends Array {
                                         newRecord
                                     );
                                     if (inverse) {
+<<<<<<< HEAD
                                         newRecord[inverse].add(recordList);
+=======
+                                        newRecord[inverse].add(recordList._.owner);
+>>>>>>> upstream/18.0
                                     }
                                 }
                             }

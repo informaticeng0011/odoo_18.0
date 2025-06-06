@@ -91,7 +91,11 @@ test("list activity widget with no activity", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-ActivityButton i.text-muted");
+=======
+    await contains(".o-mail-ActivityButton i.fa-clock-o");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-ActivityButton i.fa-clock-o");
 >>>>>>> upstream/18.0

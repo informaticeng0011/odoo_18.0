@@ -98,7 +98,11 @@ describe("previousLeaf", () => {
         const ij = p2.childNodes[1].firstChild;
         const result = previousLeaf(ij, editable);
         expect(result).toBe(whitespace);
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
         expect(whitespace.textContent).toBe(`
                         `);
         expect(isVisibleTextNode(whitespace)).toBe(false);
@@ -191,7 +195,11 @@ describe("nextLeaf", () => {
         const whitespace = div.childNodes[1].childNodes[4];
         const result = nextLeaf(kl, editable);
         expect(result).toBe(whitespace);
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
         expect(whitespace.textContent).toBe(`
                 `);
         expect(isVisibleTextNode(whitespace)).toBe(false);

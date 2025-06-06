@@ -164,6 +164,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -294,6 +298,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
 >>>>>>> upstream/18.0
@@ -436,10 +444,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #  service_tracking 'task_in_project'
         self.assertTrue(so_line_order_new_task_new_project.project_id, "Sales order line should be linked to newly created project")
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -551,6 +562,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -951,7 +965,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.assertEqual(self.env.company, sale_order.project_ids.company_id, "The project created for the SO should have the same company as its account.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_project_creation_on_so_with_manual_analytic(self):
         """ Tests that the manually added analytic account (of a plan other than projects) and the project account
             created when SO is confirmed are both still in the line after confirmation.
@@ -1009,6 +1026,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         sale_order.action_confirm()
         self.assertEqual(sale_order.order_line.analytic_distribution, expected_analytic_distribution)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_include_archived_projects_in_stat_btn_related_view(self):
         """Checks if the project stat-button action includes both archived and active projects."""

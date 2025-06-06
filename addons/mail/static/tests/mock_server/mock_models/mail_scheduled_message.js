@@ -1,5 +1,6 @@
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 import { fields, models, serverState } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 import { DEFAULT_MAIL_VIEW_ID } from "./constants";
 
 export class MailScheduledMessage extends models.ServerModel {
@@ -7,6 +8,11 @@ export class MailScheduledMessage extends models.ServerModel {
     _views = {
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: `<form/>`,
     };
+=======
+
+export class MailScheduledMessage extends models.ServerModel {
+    _inherit = "mail.scheduled.message";
+>>>>>>> upstream/18.0
 
     author_id = fields.Generic({ default: () => serverState.partnerId });
 
@@ -20,7 +26,11 @@ export class MailScheduledMessage extends models.ServerModel {
         for (const message of messages) {
             store.add("mail.scheduled.message", {
                 attachment_ids: mailDataHelpers.Store.many(
+<<<<<<< HEAD
                     IrAttachment.browse(message.attachment_ids),
+=======
+                    IrAttachment.browse(message.attachment_ids)
+>>>>>>> upstream/18.0
                 ),
                 author: mailDataHelpers.Store.one(ResPartner.browse(message.author_id)),
                 body: message.body,

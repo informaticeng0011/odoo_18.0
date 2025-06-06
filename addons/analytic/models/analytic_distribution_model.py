@@ -62,15 +62,21 @@ class AccountAnalyticDistributionModel(models.Model):
         """ Returns the combined distribution from all matching models based on the vals dict provided
             This method should be called to prefill analytic distribution field on several models """
 <<<<<<< HEAD
+<<<<<<< HEAD
         applicable_models = self._get_applicable_models(vals)
 
         res = {}
         applied_plans = self.env['account.analytic.plan']
 =======
+=======
+>>>>>>> upstream/18.0
         applicable_models = self._get_applicable_models({k: v for k, v in vals.items() if k != 'related_root_plan_ids'})
 
         res = {}
         applied_plans = vals.get('related_root_plan_ids', self.env['account.analytic.plan'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for model in applicable_models:
             # ignore model if it contains an account having a root plan that was already applied

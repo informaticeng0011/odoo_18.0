@@ -139,7 +139,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stage_ids = stages.sudo()._search(search_domain, order=stages._order)
+=======
+        stage_ids = stages._search(search_domain, order=stages._order)
+>>>>>>> upstream/18.0
 =======
         stage_ids = stages._search(search_domain, order=stages._order)
 >>>>>>> upstream/18.0
@@ -265,7 +269,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing'])], export_string_translation=False)
+=======
+    website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
+>>>>>>> upstream/18.0
 =======
     website_message_ids = fields.One2many(domain=lambda self: [('model', '=', self._name), ('message_type', 'in', ['email', 'comment', 'email_outgoing', 'auto_comment'])], export_string_translation=False)
 >>>>>>> upstream/18.0
@@ -481,7 +489,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('stage_id', 'depend_on_ids.state', 'project_id.allow_task_dependencies')
+=======
+    @api.depends('stage_id', 'depend_on_ids.state')
+>>>>>>> upstream/18.0
 =======
     @api.depends('stage_id', 'depend_on_ids.state')
 >>>>>>> upstream/18.0
@@ -783,7 +795,11 @@ class Task(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             project_followers = self.project_id.message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+=======
+            project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
+>>>>>>> upstream/18.0
 =======
             project_followers = self.project_id.sudo().message_follower_ids.filtered(lambda f: f.partner_id.id in partner_ids)
 >>>>>>> upstream/18.0

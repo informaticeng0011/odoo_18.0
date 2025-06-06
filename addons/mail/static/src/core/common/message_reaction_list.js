@@ -86,7 +86,11 @@ export class MessageReactionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.store.self.in(reaction.personas);
+=======
+        return this.props.message.effectiveSelf.in(reaction.personas);
+>>>>>>> upstream/18.0
 =======
         return this.props.message.effectiveSelf.in(reaction.personas);
 >>>>>>> upstream/18.0

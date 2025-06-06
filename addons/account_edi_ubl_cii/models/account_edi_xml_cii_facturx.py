@@ -217,6 +217,12 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        template_values['billing_start'] = invoice.invoice_date
+        template_values['billing_end'] = invoice.invoice_date_due
+
+>>>>>>> upstream/18.0
 =======
         template_values['billing_start'] = invoice.invoice_date
         template_values['billing_end'] = invoice.invoice_date_due
@@ -568,6 +574,10 @@ class AccountEdiXmlCII(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return None, None
+>>>>>>> upstream/18.0
 =======
         return None, None
 >>>>>>> upstream/18.0

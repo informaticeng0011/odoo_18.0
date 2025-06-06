@@ -20,7 +20,11 @@ const { cellMenuRegistry } = spreadsheet.registries;
 onRpc("ir.model", "display_name_for", (args) => {
     const models = args.args[0];
     const pyEnv = getPyEnv();
+<<<<<<< HEAD
     const records = pyEnv["ir.model"]._records.filter((record) => models.includes(record.model));
+=======
+    const records = pyEnv["ir.model"].filter((record) => models.includes(record.model));
+>>>>>>> upstream/18.0
     return records.map((record) => ({
         model: record.model,
         display_name: record.name,

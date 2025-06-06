@@ -12,11 +12,19 @@ import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
 import {
     isContentEditable,
     isEmptyBlock,
+<<<<<<< HEAD
+=======
+    isRedundantElement,
+>>>>>>> upstream/18.0
     isTextNode,
     isWhitespace,
     isZwnbsp,
 } from "@html_editor/utils/dom_info";
+<<<<<<< HEAD
 import { closestElement, descendants } from "@html_editor/utils/dom_traversal";
+=======
+import { closestElement, descendants, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { isCSSColor } from "@web/core/utils/colors";
 import { ColorSelector } from "./color_selector";
 import { reactive } from "@odoo/owl";
@@ -65,6 +73,10 @@ export class ColorPlugin extends Plugin {
         /** Handlers */
         selectionchange_handlers: this.updateSelectedColor.bind(this),
         remove_format_handlers: this.removeAllColor.bind(this),
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
     };
 
     setup() {
@@ -74,6 +86,17 @@ export class ColorPlugin extends Plugin {
         );
     }
 
+<<<<<<< HEAD
+=======
+    normalize(root) {
+        for (const el of selectElements(root, "font")) {
+            if (isRedundantElement(el)) {
+                unwrapContents(el);
+            }
+        }
+    }
+
+>>>>>>> upstream/18.0
     /**
      * @param {'foreground'|'background'} type
      */
@@ -304,12 +327,15 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             '[style*="background-image"]'
                         );
                         const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
                         const splitnode = isGradientBeingUpdated ? closestGradientEl : font;
                         // font = splitAroundUntil(selectedChildren, splitnode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -437,6 +463,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

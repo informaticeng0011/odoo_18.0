@@ -172,7 +172,11 @@
                         <page string="Advanced Options" name="advanced_options">
                             <group>
                                 <group>
+<<<<<<< HEAD
                                     <field name="invoice_label" invisible="amount_type == 'group'"/>
+=======
+                                    <field name="invoice_label"/>
+>>>>>>> upstream/18.0
                                     <field name="description"/>
                                     <field name="tax_group_id" invisible="amount_type == 'group'" required="amount_type != 'group'"/>
                                     <field name="analytic" invisible="amount_type == 'group'" groups="analytic.group_analytic_accounting" />

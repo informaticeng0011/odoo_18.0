@@ -71,7 +71,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchClose = (target, eventInit) => {
+=======
+function dispatchClose(target, eventInit) {
+>>>>>>> upstream/18.0
 =======
 function dispatchClose(target, eventInit) {
 >>>>>>> upstream/18.0
@@ -167,7 +171,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -262,7 +270,11 @@ function dispatchClose(target, eventInit) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dispatchMessage = async (target, data, transfer) => {
+=======
+async function dispatchMessage(target, data, transfer) {
+>>>>>>> upstream/18.0
 =======
 async function dispatchMessage(target, data, transfer) {
 >>>>>>> upstream/18.0
@@ -369,7 +381,11 @@ async function dispatchMessage(target, data, transfer) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -440,6 +456,7 @@ async function dispatchMessage(target, data, transfer) {
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,10 +590,16 @@ function isOpen(...instances) {
     return instances.every((i) => openNetworkInstances.has(i));
 }
 >>>>>>> upstream/18.0
+=======
+function isOpen(...instances) {
+    return instances.every((i) => openNetworkInstances.has(i));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {...NetworkInstance} instances
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +670,8 @@ const markClosed = (...instances) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function markClosed(...instances) {
     for (const instance of instances) {
         openNetworkInstances.delete(instance);
@@ -673,6 +698,9 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -743,11 +771,14 @@ function markClosed(...instances) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const markOpen = (instance) => {
     openNetworkInstances.add(instance);
     return instance;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +846,9 @@ function markOpen(instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -885,7 +919,11 @@ function markOpen(instance) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseNetworkDelay = (min, max) => {
+=======
+function parseNetworkDelay(min, max) {
+>>>>>>> upstream/18.0
 =======
 function parseNetworkDelay(min, max) {
 >>>>>>> upstream/18.0
@@ -986,7 +1024,11 @@ function parseNetworkDelay(min, max) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1745,7 +1787,11 @@ export class MockWebSocket extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         dispatchClose(this, { code, reason });
+=======
+        tick().then(() => dispatchClose(this, { code, reason }));
+>>>>>>> upstream/18.0
 =======
         tick().then(() => dispatchClose(this, { code, reason }));
 >>>>>>> upstream/18.0

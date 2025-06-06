@@ -81,7 +81,10 @@ test("save actions to dashboard", async () => {
 
     Partner._views = {
         list: '<list><field name="foo"/></list>',
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
     };
 
     onRpc("/board/add_to_dashboard", async (request) => {
@@ -173,7 +176,11 @@ test("save two searches to dashboard", async () => {
         views: [[false, "list"]],
     });
 
+<<<<<<< HEAD
     var filter_count = 0;
+=======
+    let filter_count = 0;
+>>>>>>> upstream/18.0
     // Add a first filter
     await toggleSearchBarMenu();
     await toggleMenuItem("Filter on a");
@@ -200,10 +207,17 @@ test("save an action domain to dashboard", async () => {
     // View domains are to be added to the dashboard domain
     expect.assertions(1);
 
+<<<<<<< HEAD
     var view_domain = ["name", "ilike", "a"];
     var filter_domain = ["name", "ilike", "b"];
 
     var expected_domain = ["&", view_domain, filter_domain];
+=======
+    const viewDomain = ["name", "ilike", "a"];
+    const filterDomain = ["name", "ilike", "b"];
+
+    const expectedDomain = ["&", viewDomain, filterDomain];
+>>>>>>> upstream/18.0
 
     Partner._views = {
         list: '<list><field name="foo"/></list>',
@@ -216,7 +230,11 @@ test("save an action domain to dashboard", async () => {
 
     onRpc("/board/add_to_dashboard", async (request) => {
         const { params: args } = await request.json();
+<<<<<<< HEAD
         expect(args.domain).toEqual(expected_domain, {
+=======
+        expect(args.domain).toEqual(expectedDomain, {
+>>>>>>> upstream/18.0
             message: "the correct domain should be sent",
         });
         return true;
@@ -229,7 +247,11 @@ test("save an action domain to dashboard", async () => {
         res_model: "partner",
         type: "ir.actions.act_window",
         views: [[false, "list"]],
+<<<<<<< HEAD
         domain: [view_domain],
+=======
+        domain: [viewDomain],
+>>>>>>> upstream/18.0
     });
 
     // Add a filter
@@ -248,7 +270,10 @@ test("add to dashboard with no action id", async () => {
 
     Partner._views = {
         pivot: '<pivot><field name="foo"/></pivot>',
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
     };
     await mountWithCleanup(WebClient);
 
@@ -334,7 +359,10 @@ test("correctly save the time ranges of a reporting view in comparison mode", as
 test("Add a view to dashboard (keynav)", async () => {
     Partner._views = {
         pivot: '<pivot><field name="foo"/></pivot>',
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
     };
 
     // makes mouseEnter work
@@ -435,7 +463,11 @@ test("Add a view to dashboard doesn't save default filters", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -555,7 +587,10 @@ test("Add to my dashboard is not available in form views", async () => {
     Partner._views = {
         list: '<list><field name="foo"/></list>',
         form: '<form><field name="foo"/></form>',
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
     };
 
     await mountWithCleanup(WebClient);

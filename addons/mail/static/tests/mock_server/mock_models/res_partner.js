@@ -1,7 +1,10 @@
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 
 import { fields, getKwArgs, makeKwArgs, webModels } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 
 /** @typedef {import("@web/../tests/web_test_helpers").ModelRecord} ModelRecord */
 
@@ -16,8 +19,12 @@ export class ResPartner extends webModels.ResPartner {
     });
 
     _views = {
+<<<<<<< HEAD
         [`search, ${DEFAULT_MAIL_SEARCH_ID}`]: /* xml */ `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: /* xml */ `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <sheet>
                     <field name="name"/>

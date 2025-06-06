@@ -543,6 +543,10 @@ test("when less than 10 companies, typing key makes the search input visible", a
     expect(".o-dropdown--menu :not(.visually-hidden) input").toHaveCount(1);
 });
 
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 test("navigation with search input", async () => {
     serverState.companies = [
         { id: 3, name: "Hermit", sequence: 1, parent_id: false, child_ids: [] },

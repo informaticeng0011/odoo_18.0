@@ -40,7 +40,11 @@ class Partner extends models.Model {
         { id: 2, display_name: "Second record" },
     ];
     _views = {
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
             <form>
                 <header>
                     <button name="object" string="Call method" type="object"/>
@@ -48,17 +52,33 @@ class Partner extends models.Model {
                 <group>
                     <field name="display_name"/>
                 </group>
+<<<<<<< HEAD
             </form>`,
         "kanban,1": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
             <kanban>
                 <templates>
                     <t t-name="card">
                         <field name="display_name"/>
                     </t>
                 </templates>
+<<<<<<< HEAD
             </kanban>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+            </kanban>
+        `,
+        "list,2": /* xml */ `
+            <list>
+                <field name="display_name" />
+            </list>
+        `,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -71,9 +91,14 @@ class Pony extends models.Model {
         { id: 9, name: "Fluttershy" },
     ];
     _views = {
+<<<<<<< HEAD
         "list,false": `<list><field name="name"/></list>`,
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="name"/></list>`,
+        form: `<form><field name="name"/></form>`,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -683,9 +708,15 @@ test("local state, global state, and race conditions", async () => {
         toy: { multi_record: true, display_name: "Toy", icon: "fab fa-android" },
     });
     Partner._views = {
+<<<<<<< HEAD
         "toy,false": `<toy/>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+=======
+        toy: `<toy/>`,
+        list: `<list><field name="display_name"/></list>`,
+        search: `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+>>>>>>> upstream/18.0
     };
 
     let def = Promise.resolve();

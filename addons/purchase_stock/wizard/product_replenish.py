@@ -22,6 +22,7 @@ class ProductReplenish(models.TransientModel):
             orderpoint = self.env['stock.warehouse.orderpoint'].search([('product_id', 'in', [product_tmpl_id.product_variant_id.id, product_id.id]), ("warehouse_id", "=", res['warehouse_id'])], limit=1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             res['supplier_id'] = False
             if orderpoint:
                 res['supplier_id'] = orderpoint.supplier_id.id
@@ -30,6 +31,8 @@ class ProductReplenish(models.TransientModel):
         return res
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if orderpoint.route_id:
@@ -46,6 +49,9 @@ class ProductReplenish(models.TransientModel):
             self.supplier_id = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112,8 +118,14 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not product_tmpl_id.seller_ids:
             domain = AND([domain, [('id', '!=', self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False).id)]])
+=======
+        buy_route = self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False)
+        if buy_route and not product_tmpl_id.seller_ids:
+            domain = AND([domain, [('id', '!=', buy_route.id)]])
+>>>>>>> upstream/18.0
 =======
         buy_route = self.env.ref('purchase_stock.route_warehouse0_buy', raise_if_not_found=False)
         if buy_route and not product_tmpl_id.seller_ids:

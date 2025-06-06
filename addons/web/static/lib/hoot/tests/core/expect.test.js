@@ -191,6 +191,10 @@ describe(parseUrl(import.meta.url), () => {
             ["toHaveLength", [], 0],
             ["toInclude", [1], 1],
             ["toMatch", "a", "a"],
+<<<<<<< HEAD
+=======
+            ["toMatchObject", { a: 1, b: { l: [1, 2] } }, { b: { l: [1, 2] } }],
+>>>>>>> upstream/18.0
             [
                 "toThrow",
                 () => {
@@ -367,6 +371,35 @@ describe(parseUrl(import.meta.url), () => {
             expect(new Exception("oui")).toMatch(new Error("oui"));
         });
 
+<<<<<<< HEAD
+=======
+        test("toMatchObject", () => {
+            expect({
+                bath: true,
+                bedrooms: 4,
+                kitchen: {
+                    amenities: ["oven", "stove", "washer"],
+                    area: 20,
+                    wallColor: "white",
+                },
+            }).toMatchObject({
+                bath: true,
+                kitchen: {
+                    amenities: ["oven", "stove", "washer"],
+                    wallColor: "white",
+                },
+            });
+            expect([{ tralalero: "tralala" }, { foo: 1 }]).toMatchObject([
+                { tralalero: "tralala" },
+                { foo: 1 },
+            ]);
+            expect([{ tralalero: "tralala" }, { foo: 1, lirili: "larila" }]).toMatchObject([
+                { tralalero: "tralala" },
+                { foo: 1 },
+            ]);
+        });
+
+>>>>>>> upstream/18.0
         test("toThrow", async () => {
             const asyncBoom = async () => {
                 throw new Error("rejection");

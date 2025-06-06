@@ -27,11 +27,17 @@ registry.category("web_tour.tours").add("SellingEventInPos", {
             EventTourUtils.answerGlobalSelectQuestion("Question2", "Q2-Answer1"),
             Dialog.confirm(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             Dialog.is({ title: "Error" }),
             Dialog.confirm("Ok"),
             EventTourUtils.answerGlobalSelectQuestion("Question3", "Q3-Answer1"),
             Dialog.confirm(),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ProductScreen.totalAmountIs("200.00"),
             ProductScreen.clickPayButton(),
