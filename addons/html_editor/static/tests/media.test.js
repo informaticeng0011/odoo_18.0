@@ -124,7 +124,10 @@ describe("Powerbox search keywords", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("cropper should not open for external image", async () => {
     onRpc("/html_editor/get_image_info", () => {
@@ -145,4 +148,7 @@ test("cropper should not open for external image", async () => {
     await waitFor(".o_notification_manager .o_notification");
     expect("img.o_we_cropper_img").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

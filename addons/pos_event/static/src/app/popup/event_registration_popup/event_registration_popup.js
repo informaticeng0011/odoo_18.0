@@ -60,6 +60,7 @@ export class EventRegistrationPopup extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     confirm() {
         const required = Object.values(this.state.byRegistration).some((data) => {
             for (const [id, value] of Object.entries(data.questions)) {
@@ -67,6 +68,8 @@ export class EventRegistrationPopup extends Component {
 
                 if (question && question.is_mandatory_answer && !value) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     isQuestionMissingMandatoryAnswer(id, value) {
@@ -79,6 +82,9 @@ export class EventRegistrationPopup extends Component {
             for (const [id, value] of Object.entries(data.questions)) {
                 if (this.isQuestionMissingMandatoryAnswer(id, value)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89,8 +95,11 @@ export class EventRegistrationPopup extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (required) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const requiredByOrder = Object.entries(this.state.byOrder).some(([id, value]) => {
@@ -99,6 +108,9 @@ export class EventRegistrationPopup extends Component {
 
         if (requiredByRegistration || requiredByOrder) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -78,11 +78,14 @@ export class MailTrackingValue extends models.ServerModel {
                 break;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "monetary":
                 values["old_value_float"] = initial_value;
                 values["new_value_float"] = new_value;
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             case "monetary": {
@@ -97,6 +100,9 @@ export class MailTrackingValue extends models.ServerModel {
                 break;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139,9 +145,12 @@ export class MailTrackingValue extends models.ServerModel {
                 fieldType: irField.ttype,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 newValue: { value: this._format_display_value(tracking, "new") },
                 oldValue: { value: this._format_display_value(tracking, "old") },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 newValue: {
@@ -155,6 +164,9 @@ export class MailTrackingValue extends models.ServerModel {
                     value: this._format_display_value(tracking, "old"),
                 },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

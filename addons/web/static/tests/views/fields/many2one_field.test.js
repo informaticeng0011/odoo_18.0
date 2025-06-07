@@ -1583,7 +1583,10 @@ test("many2one inside one2many form view, with domain", async () => {
     Partner._views = {
         list: '<list><field name="name"/></list>',
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3234,7 +3237,10 @@ test("search more in many2one: no text in input", async () => {
                 <field name="name" />
             </list>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3283,7 +3289,10 @@ test("search more in many2one: text in input", async () => {
                 <field name="name" />
             </list>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3338,7 +3347,10 @@ test("search more in many2one: dropdown click", async () => {
                 <field name="name" />
             </list>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3383,6 +3395,10 @@ test("updating a many2one from a many2many", async () => {
         resModel: "partner",
         resId: 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
 =======
         viewId: 1,
 >>>>>>> upstream/18.0
@@ -3427,7 +3443,10 @@ test("search more in many2one: resequence inside dialog", async () => {
                 <field name="name" />
             </list>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3572,7 +3591,10 @@ test("focus when closing many2one modal in many2one modal", async () => {
         resModel: "partner",
         resId: 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: '<form><field name="trululu"/></form>',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     });
@@ -3663,7 +3685,10 @@ test("click on many2one link in list view", async () => {
     Partner._views = {
         form: '<form> <field name="turtles"/> </form>',
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -3674,10 +3699,13 @@ test("click on many2one link in list view", async () => {
             </list>`,
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views = {
         search: "<search></search>",
         form: "<form></form>",
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     onRpc("get_formview_action", (args) => {
@@ -3726,7 +3754,10 @@ test("external_button performs a doAction by default", async () => {
     Partner._views = {
         form: '<form><field name="trululu"/></form>',
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };

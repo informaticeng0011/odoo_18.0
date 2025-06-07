@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { createJobScopedGetter } from "@odoo/hoot";
+=======
+import { after, createJobScopedGetter } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { after, createJobScopedGetter } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -17,7 +21,10 @@ import * as fields from "./mock_fields";
 import { MockServer } from "./mock_server";
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
     MockServerError,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     getKwArgs,
@@ -25,6 +32,10 @@ import {
     makeKwArgs,
     makeServerError,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServerError,
+>>>>>>> upstream/18.0
 =======
     MockServerError,
 >>>>>>> upstream/18.0
@@ -36,6 +47,10 @@ const {
     DEFAULT_RELATIONAL_FIELD_VALUES,
     DEFAULT_SELECTION_FIELD_VALUES,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    S_FIELD,
+>>>>>>> upstream/18.0
 =======
     S_FIELD,
 >>>>>>> upstream/18.0
@@ -43,6 +58,7 @@ const {
 } = fields;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr
  *
@@ -53,12 +69,17 @@ const {
  * @typedef {FieldDefinition["type"]} FieldType
  *
 =======
+=======
+>>>>>>> upstream/18.0
  * @typedef {import("fields").INumerical["aggregator"]} Aggregator
  * @typedef {import("fields").FieldDefinition} FieldDefinition
  * @typedef {import("fields").FieldType} FieldType
  * @typedef {import("@web/core/context").Context} Context
  * @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr
  *
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * @typedef {{
  *  domain?: DomainListRepr;
@@ -71,8 +92,11 @@ const {
  * }} GroupByParams
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("./mock_fields").GroupOperator} GroupOperator
  *
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
  * @typedef {typeof Model} ModelConstructor
@@ -84,7 +108,11 @@ const {
  *  name: string;
  *  write_date: string;
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  [key: string]: any;
+=======
+ *  [key: string]: unknown;
+>>>>>>> upstream/18.0
 =======
  *  [key: string]: unknown;
 >>>>>>> upstream/18.0
@@ -94,18 +122,24 @@ const {
  *  __domain: string;
  *  __count: number;
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  __range: Record<string, any>;
  *  [key: string]: any;
  * }} ModelRecordGroup
  *
  * @typedef {{
 =======
+=======
+>>>>>>> upstream/18.0
  *  __range: Record<string, unknown>;
  *  [key: string]: unknown;
  * }} ModelRecordGroup
  *
  * @typedef {{
  *  context?: Context;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  *  domain?: DomainListRepr;
  *  fields?: string[];
@@ -115,6 +149,7 @@ const {
  *  order?: string;
  * }} SearchParams
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @typedef {"activity"
  *  | "calendar"
@@ -135,6 +170,11 @@ const {
  *
  * @typedef {import("@web/views/view").ViewType} ViewType
 >>>>>>> upstream/18.0
+=======
+ * @typedef {ViewType | `${ViewType},${number}`} ViewKey
+ *
+ * @typedef {import("@web/views/view").ViewType} ViewType
+>>>>>>> upstream/18.0
  */
 
 /**
@@ -147,7 +187,11 @@ const {
  * @typedef {{
  *  args?: any[];
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  context?: Record<string, any>;
+=======
+ *  context?: Context;
+>>>>>>> upstream/18.0
 =======
  *  context?: Context;
 >>>>>>> upstream/18.0
@@ -194,6 +238,7 @@ const DATETIME_FORMAT = {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Model} model
  * @param {ModelRecord} record
  * @param {Record<string, any>} [context]
@@ -227,6 +272,8 @@ const applyDefaults = ({ _fields }, record, context) => {
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {Iterable<[FieldDefinition, string, Aggregator?]>} aggregatedFields
  * @param {ModelRecordGroup} group
  * @param {ModelRecord[]} records
@@ -272,6 +319,9 @@ function aggregateFields(aggregatedFields, group, records) {
         }
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -280,7 +330,11 @@ function aggregateFields(aggregatedFields, group, records) {
  * @param  {...T[]} arrays
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const assignArray = (target, ...arrays) => {
+=======
+function assignArray(target, ...arrays) {
+>>>>>>> upstream/18.0
 =======
 function assignArray(target, ...arrays) {
 >>>>>>> upstream/18.0
@@ -292,6 +346,7 @@ function assignArray(target, ...arrays) {
     target.length = Math.max(...arrays.map((array) => array.length));
     return target;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
@@ -300,6 +355,9 @@ function assignArray(target, ...arrays) {
  * @returns
  */
 const constructorToModelName = (name) => name.replace(/([a-z])([A-Z])/g, "$1.$2").toLowerCase();
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -317,7 +375,11 @@ const constructorToModelName = (name) => name.replace(/([a-z])([A-Z])/g, "$1.$2"
  * @param {Record<string, any>} specification
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const convertToOnChange = (model, values, specification) => {
+=======
+function convertToOnChange(model, values, specification) {
+>>>>>>> upstream/18.0
 =======
 function convertToOnChange(model, values, specification) {
 >>>>>>> upstream/18.0
@@ -349,8 +411,11 @@ function convertToOnChange(model, values, specification) {
     }
     return values;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -362,6 +427,9 @@ function createRawInstance(ModelClass) {
     modelInstanceLock--;
     return model;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -369,7 +437,11 @@ function createRawInstance(ModelClass) {
  * @param {string} fieldName
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const fieldNotFoundError = (modelName, fieldName, consequence) => {
+=======
+function fieldNotFoundError(modelName, fieldName, consequence) {
+>>>>>>> upstream/18.0
 =======
 function fieldNotFoundError(modelName, fieldName, consequence) {
 >>>>>>> upstream/18.0
@@ -378,6 +450,7 @@ function fieldNotFoundError(modelName, fieldName, consequence) {
         message += `: ${consequence}`;
     }
     return new MockServerError(message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 };
 
@@ -400,6 +473,8 @@ const findView = (model, viewId, viewType) => {
     return ["", false];
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -438,6 +513,9 @@ function findView(model, viewType, viewId) {
     const actualViewId = Number(viewId) || false;
     return [arch, actualViewId];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -446,7 +524,11 @@ function findView(model, viewType, viewId) {
  * @param {unknown} val
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatFieldValue = (fields, groupByField, val) => {
+=======
+function formatFieldValue(fields, groupByField, val) {
+>>>>>>> upstream/18.0
 =======
 function formatFieldValue(fields, groupByField, val) {
 >>>>>>> upstream/18.0
@@ -471,7 +553,11 @@ function formatFieldValue(fields, groupByField, val) {
         return val;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -485,7 +571,11 @@ function formatFieldValue(fields, groupByField, val) {
  * @param {string} fieldName
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDateSortingValue = (group, fieldName) => {
+=======
+function getDateSortingValue(group, fieldName) {
+>>>>>>> upstream/18.0
 =======
 function getDateSortingValue(group, fieldName) {
 >>>>>>> upstream/18.0
@@ -507,7 +597,11 @@ function getDateSortingValue(group, fieldName) {
     // granularity (i.e. day, week, ...))
     return max ?? false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -523,7 +617,11 @@ function getDateSortingValue(group, fieldName) {
  * @returns {number | false}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDateNumberSortingValue = (group, fieldName) => {
+=======
+function getDateNumberSortingValue(group, fieldName) {
+>>>>>>> upstream/18.0
 =======
 function getDateNumberSortingValue(group, fieldName) {
 >>>>>>> upstream/18.0
@@ -541,8 +639,11 @@ function getDateNumberSortingValue(group, fieldName) {
     }
     return value;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -623,6 +724,9 @@ function getModelDefinition(previous, constructor) {
 
     return model;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -635,7 +739,11 @@ function getModelDefinition(previous, constructor) {
  * @param {string} [fieldNameSpec]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getOrderByField = ({ _fields, _name }, fieldNameSpec) => {
+=======
+function getOrderByField({ _fields, _name }, fieldNameSpec) {
+>>>>>>> upstream/18.0
 =======
 function getOrderByField({ _fields, _name }, fieldNameSpec) {
 >>>>>>> upstream/18.0
@@ -645,7 +753,11 @@ function getOrderByField({ _fields, _name }, fieldNameSpec) {
     }
     return _fields[fieldName];
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -654,15 +766,21 @@ function getOrderByField({ _fields, _name }, fieldNameSpec) {
  * @param {unknown} value
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getReferenceValue = (value) => {
     const [modelName, id] = safeSplit(value);
     return [modelName, JSON.parse(id)];
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function getReferenceValue(value) {
     const [modelName, id] = safeSplit(value);
     return [modelName, JSON.parse(id)];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -670,7 +788,11 @@ function getReferenceValue(value) {
  * @param {ModelRecord} record
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getRelation = (field, record = {}) => {
+=======
+function getRelation(field, record = {}) {
+>>>>>>> upstream/18.0
 =======
 function getRelation(field, record = {}) {
 >>>>>>> upstream/18.0
@@ -683,7 +805,11 @@ function getRelation(field, record = {}) {
     const comodel = relation || record[field.model_name_ref_fname];
     return comodel && MockServer.env[comodel];
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -693,7 +819,11 @@ function getRelation(field, record = {}) {
  * @returns {string}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getTag = (node) => {
+=======
+function getTag(node) {
+>>>>>>> upstream/18.0
 =======
 function getTag(node) {
 >>>>>>> upstream/18.0
@@ -705,7 +835,11 @@ function getTag(node) {
         return node;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -716,22 +850,29 @@ function getTag(node) {
  * @param {KwArgs<{ options: { toolbar?: boolean } }>} [kwargs={}]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getView = (model, args, kwargs) => {
     // find the arch
     let [requestViewId, viewType] = args;
     if (!requestViewId) {
         const contextKey = viewType + "_view_ref";
 =======
+=======
+>>>>>>> upstream/18.0
 function getView(model, args, kwargs) {
     // find the arch
     let [requestViewId, viewType] = args;
     if (!requestViewId) {
         const contextKey = `${viewType}_view_ref`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (contextKey in kwargs.context) {
             requestViewId = kwargs.context[contextKey];
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     const [arch, viewId] = findView(model, requestViewId, getTag(viewType));
     if (!arch) {
@@ -745,6 +886,10 @@ function getView(model, args, kwargs) {
     const [arch, viewId] = findView(model, viewType, requestViewId);
     const view = parseView(model, { arch, context: kwargs.context });
 >>>>>>> upstream/18.0
+=======
+    const [arch, viewId] = findView(model, viewType, requestViewId);
+    const view = parseView(model, { arch, context: kwargs.context });
+>>>>>>> upstream/18.0
     if (kwargs.options.toolbar) {
         view.toolbar = model._toolbar;
     }
@@ -753,7 +898,11 @@ function getView(model, args, kwargs) {
     }
     return view;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -764,7 +913,11 @@ function getView(model, args, kwargs) {
  * @param {Record<string, Set<string>>} models
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getViewFields = (model, viewType, models) => {
+=======
+function getViewFields(model, viewType, models) {
+>>>>>>> upstream/18.0
 =======
 function getViewFields(model, viewType, models) {
 >>>>>>> upstream/18.0
@@ -812,8 +965,11 @@ function getViewFields(model, viewType, models) {
     }
     return models;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -825,43 +981,64 @@ function getViewKey(viewType, viewId) {
     const nViewId = viewId && !isNaN(viewId) ? Number(viewId) : viewId;
     return [viewType, nViewId || false].join(",");
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {FieldDefinition | FieldType} field
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 const isDateField = (field) => {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "date" || fieldType === "datetime";
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function isDateField(field) {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "date" || fieldType === "datetime";
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {FieldDefinition | FieldType} field
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isM2OField = (field) => {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2one" || fieldType === "many2one_reference";
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function isM2OField(field) {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2one" || fieldType === "many2one_reference";
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {ViewType} viewType
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isRelationalView = (viewType) => ["form", "kanban", "list"].includes(viewType);
+=======
+function isRelationalView(viewType) {
+    return ["form", "kanban", "list"].includes(viewType);
+}
+>>>>>>> upstream/18.0
 =======
 function isRelationalView(viewType) {
     return ["form", "kanban", "list"].includes(viewType);
@@ -872,7 +1049,11 @@ function isRelationalView(viewType) {
  * @param {[number, number?, any?]} command
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidCommand = (command) => {
+=======
+function isValidCommand(command) {
+>>>>>>> upstream/18.0
 =======
 function isValidCommand(command) {
 >>>>>>> upstream/18.0
@@ -891,7 +1072,11 @@ function isValidCommand(command) {
     }
     return command.length <= 3;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -902,7 +1087,11 @@ function isValidCommand(command) {
  * @param {unknown} value
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidFieldValue = (record, fieldDef) => {
+=======
+function isValidFieldValue(record, fieldDef) {
+>>>>>>> upstream/18.0
 =======
 function isValidFieldValue(record, fieldDef) {
 >>>>>>> upstream/18.0
@@ -924,15 +1113,21 @@ function isValidFieldValue(record, fieldDef) {
         }
         case "date": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return DATE_REGEX.test(value);
         }
         case "datetime": {
             return DATE_TIME_REGEX.test(value);
 =======
+=======
+>>>>>>> upstream/18.0
             return R_DATE.test(value);
         }
         case "datetime": {
             return R_DATE_TIME.test(value);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
         case "float":
@@ -982,7 +1177,11 @@ function isValidFieldValue(record, fieldDef) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -993,7 +1192,11 @@ function isValidFieldValue(record, fieldDef) {
  * @param {ModelRecord} [record]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidId = (id, field, record) => {
+=======
+function isValidId(id, field, record) {
+>>>>>>> upstream/18.0
 =======
 function isValidId(id, field, record) {
 >>>>>>> upstream/18.0
@@ -1006,7 +1209,11 @@ function isValidId(id, field, record) {
     const rel = getRelation(field, record);
     return rel && rel.some((record) => record.id === id);
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1016,7 +1223,11 @@ function isValidId(id, field, record) {
  * @param {string} modelName
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isViewEditable = (element, modelName) => {
+=======
+function isViewEditable(element, modelName) {
+>>>>>>> upstream/18.0
 =======
 function isViewEditable(element, modelName) {
 >>>>>>> upstream/18.0
@@ -1034,7 +1245,11 @@ function isViewEditable(element, modelName) {
             return false;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1043,15 +1258,21 @@ function isViewEditable(element, modelName) {
  * @param {FieldDefinition | FieldType} field
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isX2MField = (field) => {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2many" || fieldType === "one2many";
 };
 =======
+=======
+>>>>>>> upstream/18.0
 function isX2MField(field) {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2many" || fieldType === "one2many";
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -1065,7 +1286,11 @@ function isX2MField(field) {
  * @returns {ModelRecord[]}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const orderByField = (model, orderBy, records) => {
+=======
+function orderByField(model, orderBy, records) {
+>>>>>>> upstream/18.0
 =======
 function orderByField(model, orderBy, records) {
 >>>>>>> upstream/18.0
@@ -1182,7 +1407,11 @@ function orderByField(model, orderBy, records) {
 
     return sortedRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1198,7 +1427,11 @@ function orderByField(model, orderBy, records) {
  * }} params
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseView = (model, params) => {
+=======
+function parseView(model, params) {
+>>>>>>> upstream/18.0
 =======
 function parseView(model, params) {
 >>>>>>> upstream/18.0
@@ -1281,10 +1514,14 @@ function parseView(model, params) {
                 for (const type of missingViewtypes) {
                     // in a lot of tests, we don't need the form view, so it doesn't even exist
 <<<<<<< HEAD
+<<<<<<< HEAD
                     let [arch] = findView(relModel, false, type);
                     if (!arch) {
                         arch = /* xml */ `<${type} />`;
                     }
+=======
+                    const [arch] = findView(relModel, type, false);
+>>>>>>> upstream/18.0
 =======
                     const [arch] = findView(relModel, type, false);
 >>>>>>> upstream/18.0
@@ -1349,7 +1586,11 @@ function parseView(model, params) {
         type: viewType,
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1363,7 +1604,11 @@ function parseView(model, params) {
  * @param {boolean} setCount
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelDomainImage = (model, fieldName, domain, setCount = false, limit = false) => {
+=======
+function searchPanelDomainImage(model, fieldName, domain, setCount = false, limit = false) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelDomainImage(model, fieldName, domain, setCount = false, limit = false) {
 >>>>>>> upstream/18.0
@@ -1394,7 +1639,11 @@ function searchPanelDomainImage(model, fieldName, domain, setCount = false, limi
     }
     return domainImage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1414,7 +1663,11 @@ function searchPanelDomainImage(model, fieldName, domain, setCount = false, limi
  * }>} [kwargs={}]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelFieldImage = (model, fieldName, kwargs) => {
+=======
+function searchPanelFieldImage(model, fieldName, kwargs) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelFieldImage(model, fieldName, kwargs) {
 >>>>>>> upstream/18.0
@@ -1450,7 +1703,11 @@ function searchPanelFieldImage(model, fieldName, kwargs) {
 
     return modelDomainImage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1462,7 +1719,11 @@ function searchPanelFieldImage(model, fieldName, kwargs) {
  * @param {"parent_id" | false} parentName
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelGlobalCounters = (valuesRange, parentName) => {
+=======
+function searchPanelGlobalCounters(valuesRange, parentName) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelGlobalCounters(valuesRange, parentName) {
 >>>>>>> upstream/18.0
@@ -1479,7 +1740,11 @@ function searchPanelGlobalCounters(valuesRange, parentName) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1492,7 +1757,11 @@ function searchPanelGlobalCounters(valuesRange, parentName) {
  * @param {number[]} ids
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelSanitizedParentHierarchy = (model, parentName, ids) => {
+=======
+function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
 >>>>>>> upstream/18.0
@@ -1525,7 +1794,11 @@ function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
     }
     return model.filter((rec) => recordsToKeep[rec.id]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1538,7 +1811,11 @@ function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
  * @param {KwArgs} [kwargs={}]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelSelectionRange = (model, fieldName, kwargs) => {
+=======
+function searchPanelSelectionRange(model, fieldName, kwargs) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelSelectionRange(model, fieldName, kwargs) {
 >>>>>>> upstream/18.0
@@ -1568,7 +1845,11 @@ function searchPanelSelectionRange(model, fieldName, kwargs) {
     }
     return selectionRange;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1577,7 +1858,13 @@ function searchPanelSelectionRange(model, fieldName, kwargs) {
  * @param {ModelRecord} record
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const toIdDisplayName = (record) => record && [record.id, record.display_name];
+=======
+function toIdDisplayName(record) {
+    return record && [record.id, record.display_name];
+}
+>>>>>>> upstream/18.0
 =======
 function toIdDisplayName(record) {
     return record && [record.id, record.display_name];
@@ -1589,7 +1876,11 @@ function toIdDisplayName(record) {
  * @param {(node: Node) => boolean} callback
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const traverseElement = (node, callback) => {
+=======
+function traverseElement(node, callback) {
+>>>>>>> upstream/18.0
 =======
 function traverseElement(node, callback) {
 >>>>>>> upstream/18.0
@@ -1599,7 +1890,11 @@ function traverseElement(node, callback) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1613,7 +1908,11 @@ function traverseElement(node, callback) {
  * @param {ModelRecord} [originalRecord] record before update.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const updateComodelRelationalFields = (model, record, originalRecord) => {
+=======
+function updateComodelRelationalFields(model, record, originalRecord) {
+>>>>>>> upstream/18.0
 =======
 function updateComodelRelationalFields(model, record, originalRecord) {
 >>>>>>> upstream/18.0
@@ -1688,8 +1987,11 @@ function updateComodelRelationalFields(model, record, originalRecord) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -1705,6 +2007,9 @@ function validateFieldDefinition(fieldName, fieldDef) {
     delete fieldDef[S_FIELD];
     return fieldDef;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -1713,18 +2018,25 @@ function validateFieldDefinition(fieldName, fieldDef) {
  * @param {number | false} viewId
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const viewNotFoundError = (modelName, viewType, viewId, consequence) => {
     let message = `cannot find an arch for view "${viewType}" with ID ${viewId} in model "${modelName}"`;
 =======
+=======
+>>>>>>> upstream/18.0
 function viewNotFoundError(modelName, viewType, viewId, consequence) {
     let message = `cannot find an arch for view "${viewType}" with ID ${JSON.stringify(
         viewId
     )} in model "${modelName}"`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (consequence) {
         message += `: ${consequence}`;
     }
     return new MockServerError(message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 };
 
@@ -1734,6 +2046,8 @@ const DATE_REGEX = /\d{4}-\d{2}-\d{2}/;
 const DATE_TIME_REGEX = /\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?/;
 /** @type {GroupOperator[]} */
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 const INHERITED_OBJECT_KEYS = [
@@ -1758,6 +2072,9 @@ const R_CAMEL_CASE = /([a-z])([A-Z])/g;
 const R_DATE = /\d{4}-\d{2}-\d{2}/;
 const R_DATE_TIME = /\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?/;
 /** @type {Aggregator[]} */
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 const VALID_AGGREGATE_FUNCTIONS = [
     "array_agg",
@@ -1772,10 +2089,13 @@ const VALID_AGGREGATE_FUNCTIONS = [
 ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const domParser = new DOMParser();
 const xmlSerializer = new XMLSerializer();
 let modelInstanceLock = false;
 =======
+=======
+>>>>>>> upstream/18.0
 /** @type {Record<string, Record<ViewKey, string>>} */
 const inlineViewArchs = Object.create(null);
 const domParser = new DOMParser();
@@ -1801,6 +2121,9 @@ export function registerInlineViewArchs(modelName, archs) {
         modelViews[getViewKey(...safeSplit(rawKey))] = arch;
     }
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -1817,6 +2140,7 @@ export function registerInlineViewArchs(modelName, archs) {
  * @extends {Array<ModelRecord>}
  */
 export class Model extends Array {
+<<<<<<< HEAD
 <<<<<<< HEAD
     static definitionGetter = null;
 
@@ -1875,6 +2199,8 @@ export class Model extends Array {
         }
         return this.definitionGetter();
 =======
+=======
+>>>>>>> upstream/18.0
     /** @type {ReturnType<typeof createJobScopedGetter<typeof getModelDefinition>> | null} */
     static definitionGetter = null;
 
@@ -1888,6 +2214,9 @@ export class Model extends Array {
     }
     static set _description(value) {
         this.definition._description = value;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -1949,15 +2278,21 @@ export class Model extends Array {
 
     static get _records() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.definition;
     }
     static set _records(value) {
         assignArray(this.definition, value);
 =======
+=======
+>>>>>>> upstream/18.0
         return this.definition._records;
     }
     static set _records(value) {
         assignArray(this.definition._records, value);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -1976,6 +2311,7 @@ export class Model extends Array {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {Record<string, (this: Model, fieldName: string) => void>} */
     _computes = {};
     _fetch = false;
@@ -1983,6 +2319,8 @@ export class Model extends Array {
      * @type {Omit<Model,
      *  "_computes"
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {Model} [instance]
      */
@@ -2002,6 +2340,9 @@ export class Model extends Array {
      * @type {Omit<Model,
      *  "_computes"
      *  | "_description"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      *  | "_fields"
      *  | "_inherit"
@@ -2035,7 +2376,11 @@ export class Model extends Array {
     /** @type {Record<"print" | "action", ActionDefinition[]>} */
     _toolbar = {};
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {Record<string, string>} */
+=======
+    /** @type {Record<ViewKey, string>} */
+>>>>>>> upstream/18.0
 =======
     /** @type {Record<ViewKey, string>} */
 >>>>>>> upstream/18.0
@@ -2071,7 +2416,11 @@ export class Model extends Array {
 
             this._computes = modelInstance._computes;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._fetch = modelInstance._fetch;
+=======
+            this._description = modelInstance._description;
+>>>>>>> upstream/18.0
 =======
             this._description = modelInstance._description;
 >>>>>>> upstream/18.0
@@ -2083,7 +2432,10 @@ export class Model extends Array {
             this._parent_name = modelInstance._parent_name;
             this._rec_name = modelInstance._rec_name;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._records = modelInstance._records;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             this._related = modelInstance._related;
@@ -2184,7 +2536,11 @@ export class Model extends Array {
             ids.push(record.id);
             this.push(record);
 <<<<<<< HEAD
+<<<<<<< HEAD
             applyDefaults(this, values, kwargs.context);
+=======
+            this._applyDefaults(values, kwargs.context);
+>>>>>>> upstream/18.0
 =======
             this._applyDefaults(values, kwargs.context);
 >>>>>>> upstream/18.0
@@ -2430,6 +2786,7 @@ export class Model extends Array {
      */
     read_group(domain, fields, groupby, offset, limit, orderby, lazy) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {ModelRecordGroup} group
          * @param {ModelRecord[]} records
@@ -2480,6 +2837,8 @@ export class Model extends Array {
 
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const kwargs = getKwArgs(
             arguments,
             "domain",
@@ -2505,6 +2864,7 @@ export class Model extends Array {
         if (fields.length === 0) {
             for (const fieldName in this._fields) {
                 if (!groupByFieldNames.includes(fieldName)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                     aggregatedFields.push({ fieldName, name: fieldName });
                 }
@@ -2533,6 +2893,8 @@ export class Model extends Array {
                 aggregatedFields.push({ fieldName, func, name });
             });
 =======
+=======
+>>>>>>> upstream/18.0
                     aggregatedFields.push([this._fields[fieldName], fieldName]);
                 }
             }
@@ -2554,13 +2916,20 @@ export class Model extends Array {
                 }
                 aggregatedFields.push([field, name, aggregator]);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 
         if (!groupBy.length) {
             const group = { __count: records.length, __domain: kwargs.domain };
 <<<<<<< HEAD
+<<<<<<< HEAD
             aggregateFields(group, records);
+=======
+            aggregateFields(aggregatedFields, group, records);
+>>>>>>> upstream/18.0
 =======
             aggregateFields(aggregatedFields, group, records);
 >>>>>>> upstream/18.0
@@ -2702,7 +3071,11 @@ export class Model extends Array {
             }
             group[countKey] = groupRecords.length;
 <<<<<<< HEAD
+<<<<<<< HEAD
             aggregateFields(group, groupRecords);
+=======
+            aggregateFields(aggregatedFields, group, groupRecords);
+>>>>>>> upstream/18.0
 =======
             aggregateFields(aggregatedFields, group, groupRecords);
 >>>>>>> upstream/18.0
@@ -3354,7 +3727,10 @@ export class Model extends Array {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {ModelRecord} record
      * @param {Context} [context]
@@ -3389,6 +3765,9 @@ export class Model extends Array {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     _compute_display_name() {
         if (this._rec_name) {
@@ -3577,6 +3956,7 @@ export class Model extends Array {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {ViewType} viewType
      * @param {number | false} [viewId]
      */
@@ -3587,6 +3967,8 @@ export class Model extends Array {
     }
 
     /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
      * @param {MaybeIterable<number>} idOrIds
@@ -3970,7 +4352,11 @@ export class Model extends Array {
  */
 export class ServerModel extends Model {
 <<<<<<< HEAD
+<<<<<<< HEAD
     _fetch = true;
+=======
+    static _fetch = true;
+>>>>>>> upstream/18.0
 =======
     static _fetch = true;
 >>>>>>> upstream/18.0

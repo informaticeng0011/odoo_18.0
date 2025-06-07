@@ -604,6 +604,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
         }, timeout=3)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_send_update_do_request(self):
         self.env.cr.postcommit.clear()
         with self.mock_google_service():
@@ -631,6 +632,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             self.call_post_commit_hooks()
         self.assertGoogleEventSendUpdates('none')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @patch_api
@@ -988,7 +991,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1109,6 +1115,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1153,6 +1160,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def test_event_over_send_updates(self):
         """Test that events that are over don't sent updates to attendees."""
         with self.mock_datetime_and_now("2023-01-10"):
@@ -1236,6 +1245,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             self.assertFalse(future_recurrence._is_event_over(), "Future recurrence should not be considered over")
             self.assertGoogleEventSendUpdates('all')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('odoo2google')
 class TestSyncOdoo2GoogleMail(TestTokenAccess, TestSyncGoogle, MailCommon):

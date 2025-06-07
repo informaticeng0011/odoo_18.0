@@ -21,6 +21,11 @@ import {
 
 import { getOrigin } from "@web/core/utils/urls";
 
+<<<<<<< HEAD
+=======
+const { DateTime } = luxon;
+
+>>>>>>> upstream/18.0
 const MY_IMAGE =
     "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==";
 const PRODUCT_IMAGE =
@@ -31,10 +36,17 @@ function getUnique(target) {
     return new URL(src).searchParams.get("unique");
 }
 
+<<<<<<< HEAD
 async function setFiles(files) {
     await click("input[type=file]", { visible: false });
     await setInputFiles(files);
     await waitFor(`div[name=document] img[data-src^="data:image/"]`, { timeout: 1000 });
+=======
+async function setFiles(files, name = "document") {
+    await click("input[type=file]", { visible: false });
+    await setInputFiles(files);
+    await waitFor(`div[name=${name}] img[data-src^="data:image/"]`, { timeout: 1000 });
+>>>>>>> upstream/18.0
 }
 
 class Partner extends models.Model {
@@ -181,7 +193,11 @@ test("ImageField with alt attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_widget[name='document'] img").toHaveAttribute("data-alt", "something", {
+=======
+    expect(".o_field_widget[name='document'] img").toHaveAttribute("alt", "something", {
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_widget[name='document'] img").toHaveAttribute("alt", "something", {
 >>>>>>> upstream/18.0
@@ -299,7 +315,11 @@ test("ImageField on a many2one", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("data-alt", "first record");
+=======
+    expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("alt", "first record");
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_widget[name='parent_id'] img").toHaveAttribute("alt", "first record");
 >>>>>>> upstream/18.0
@@ -375,10 +395,17 @@ test("url should not use the record last updated date when the field is related"
     Partner._fields.related = fields.Binary({ related: "parent_id.document" });
     Partner._fields.parent_id = fields.Many2one({ relation: "partner" });
     Partner._records[1].parent_id = 1;
+<<<<<<< HEAD
     Partner._records[0].write_date = "2017-02-04 10:00:00"; // 1486202400000
     Partner._records[0].document = "3 kb";
 
     mockDate("2017-02-06 10:00:00"); // 1486375200000
+=======
+    Partner._records[0].write_date = "2017-02-04 10:00:00";
+    Partner._records[0].document = "3 kb";
+
+    mockDate("2017-02-06 10:00:00");
+>>>>>>> upstream/18.0
 
     await mountView({
         type: "form",
@@ -386,6 +413,7 @@ test("url should not use the record last updated date when the field is related"
         resId: 2,
         arch: `
             <form>
+<<<<<<< HEAD
                 <field name="related" widget="image"/>
             </form>`,
     });
@@ -393,6 +421,45 @@ test("url should not use the record last updated date when the field is related"
     expect(Number(getUnique(queryFirst('div[name="related"] img')))).toBeCloseTo(1486375200000, {
         margin: 100,
     });
+=======
+                <field name="foo"/>
+                <field name="related" widget="image" readonly="0"/>
+            </form>`,
+    });
+
+    const initialUnique = Number(getUnique(queryFirst('div[name="related"] img')));
+    expect(DateTime.fromMillis(initialUnique).hasSame(DateTime.fromISO("2017-02-06"), "days")).toBe(
+        true
+    );
+
+    await click(".o_field_widget[name='foo'] input");
+    await edit("grrr");
+    await animationFrame();
+
+    expect(Number(getUnique(queryFirst('div[name="related"] img')))).toBe(initialUnique);
+
+    mockDate("2017-02-09 10:00:00");
+
+    await click("input[type=file]", { visible: false });
+    await setFiles(
+        new File(
+            [Uint8Array.from([...atob(MY_IMAGE)].map((c) => c.charCodeAt(0)))],
+            "fake_file.png",
+            { type: "png" }
+        ),
+        "related"
+    );
+
+    expect("div[name=related] img").toHaveAttribute(
+        "data-src",
+        `data:image/png;base64,${MY_IMAGE}`
+    );
+
+    await clickSave();
+
+    const unique = Number(getUnique(queryFirst('div[name="related"] img')));
+    expect(DateTime.fromMillis(unique).hasSame(DateTime.fromISO("2017-02-09"), "days")).toBe(true);
+>>>>>>> upstream/18.0
 });
 
 test("url should use the record last updated date when the field is related on the same model", async () => {
@@ -886,7 +953,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -985,7 +1056,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -1089,7 +1164,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -1188,7 +1267,11 @@ test("ImageField is reset when changing record", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0
@@ -1413,7 +1496,11 @@ test("convert image to webp", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("img[data-alt='Binary file']").toHaveAttribute(
+=======
+    expect("img[alt='Binary file']").toHaveAttribute(
+>>>>>>> upstream/18.0
 =======
     expect("img[alt='Binary file']").toHaveAttribute(
 >>>>>>> upstream/18.0

@@ -1109,7 +1109,10 @@ describe('Format', () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         it("should apply font size on top of `font` tag", async () => {
             await testEditor(BasicEditor, {
                 contentBefore: `<p><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">[abcdefg]</font></p>`,
@@ -1122,6 +1125,9 @@ describe('Format', () => {
                 contentAfter: `<p><span style="font-size: 72px;"><font class="bg-o-color-1 text-black">[abcdefg]</font></span></p>`,
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 
@@ -1237,7 +1243,10 @@ describe('Format', () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         it("should remove font size classes and gradient color styles", async () => {
             await testEditor(BasicEditor, {
                 contentBefore: `<p><span class="display-1-fs"><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">[abcdefg]</font></span></p>`,
@@ -1250,6 +1259,9 @@ describe('Format', () => {
                 contentAfter: `<p>[abcdefg]</p>`,
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         it('should remove font-size classes when clearing the format' , async () => {
             await testEditor(BasicEditor, {

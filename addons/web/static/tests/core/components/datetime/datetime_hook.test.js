@@ -144,7 +144,10 @@ test("value is not updated if it did not change", async () => {
     expect.verifySteps(["2023-07-07"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("close popover when owner component is unmounted", async() => {
     class Child extends Component {
@@ -196,4 +199,7 @@ test("close popover when owner component is unmounted", async() => {
     await animationFrame();
     expect(".o_datetime_picker").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

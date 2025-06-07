@@ -58,6 +58,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
     def _compute_l10n_es_is_simplified(self):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
@@ -164,11 +165,16 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # Note: We depend on 'line_ids.balance' instead of 'amount_total_signed' directly.
     # Otherwise the field is recomputed when the 'state' changes (since 'amount_total_signed' depends on it);
     # the recomputation would i.e. happen when confirming the invoice and override any manual edits of the field.
     @api.depends('partner_id', 'line_ids.balance')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -232,6 +238,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

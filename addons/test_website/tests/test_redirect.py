@@ -56,7 +56,10 @@ class TestRedirect(HttpCase):
         self.assertTrue(redirect_url in r.text, "Ensure the url_for has replaced the href URL in the DOM")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_redirect_308_by_method_url_rewrite(self):
         self.env['website.rewrite'].create({
             'name': 'Test Website Redirect',
@@ -79,6 +82,9 @@ class TestRedirect(HttpCase):
             b'<a href="/get_new"></a><a href="/post_new"></a><a href="/get_post_new"></a>'
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @mute_logger('odoo.http')  # mute 403 warning
     def test_02_redirect_308_RequestUID(self):

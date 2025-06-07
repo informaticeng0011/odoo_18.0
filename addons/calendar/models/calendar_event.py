@@ -919,7 +919,10 @@ class Meeting(models.Model):
         ]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _is_event_over(self):
         """Check if the event is over. This method is used to check if the event
         should trigger invitations with Google Calendar.
@@ -936,6 +939,9 @@ class Meeting(models.Model):
         # For timed events
         return self.stop and self.stop < now
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # ------------------------------------------------------------
     # ACTIONS

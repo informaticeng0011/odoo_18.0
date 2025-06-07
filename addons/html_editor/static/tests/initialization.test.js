@@ -1,6 +1,11 @@
 import { describe, test } from "@odoo/hoot";
 import { testEditor } from "./_helpers/editor";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { unformat } from "./_helpers/format";
+import { BOLD_TAGS } from "./_helpers/tags";
+>>>>>>> upstream/18.0
 =======
 import { unformat } from "./_helpers/format";
 import { BOLD_TAGS } from "./_helpers/tags";
@@ -196,7 +201,10 @@ describe("link normalization", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("color normalization", () => {
     test("should unwrap nested identical <font> tags with gradient (class and style same)", async () => {
@@ -333,4 +341,7 @@ describe("formatting normalization", () => {
         });
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

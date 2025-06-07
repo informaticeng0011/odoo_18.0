@@ -192,6 +192,10 @@ describe(parseUrl(import.meta.url), () => {
             ["toInclude", [1], 1],
             ["toMatch", "a", "a"],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ["toMatchObject", { a: 1, b: { l: [1, 2] } }, { b: { l: [1, 2] } }],
+>>>>>>> upstream/18.0
 =======
             ["toMatchObject", { a: 1, b: { l: [1, 2] } }, { b: { l: [1, 2] } }],
 >>>>>>> upstream/18.0
@@ -372,7 +376,10 @@ describe(parseUrl(import.meta.url), () => {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         test("toMatchObject", () => {
             expect({
                 bath: true,
@@ -399,6 +406,9 @@ describe(parseUrl(import.meta.url), () => {
             ]);
         });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         test("toThrow", async () => {
             const asyncBoom = async () => {

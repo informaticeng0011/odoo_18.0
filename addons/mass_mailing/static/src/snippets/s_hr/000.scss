@@ -5,7 +5,16 @@
         padding: 0;
         border: 0;
         border-top: 1px solid currentColor;
+<<<<<<< HEAD
         margin: auto;
         color: inherit;
+=======
+        color: inherit;
+        margin-top: auto;
+        margin-bottom: auto;
+        &:not(.ms-auto):not(.me-auto) {
+            margin-inline: auto;
+        }
+>>>>>>> upstream/18.0
     }
 }

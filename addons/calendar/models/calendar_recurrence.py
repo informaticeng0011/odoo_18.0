@@ -604,7 +604,10 @@ class RecurrenceRule(models.Model):
             freq_to_rrule(freq), **rrule_params
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _is_event_over(self):
         """Check if all events in this recurrence are in the past.
@@ -621,4 +624,7 @@ class RecurrenceRule(models.Model):
             (event.stop_date < today if event.allday else event.stop < now)
             for event in self.calendar_event_ids
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

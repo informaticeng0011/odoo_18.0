@@ -24,6 +24,7 @@ defineModels([Oui]);
 
 test("model name can be implicitly extracted from its constructor name", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [AnonymousClass, Foo, ResCurrency, ResPartner] = defineModels([
         class extends models.Model {},
         class Foo extends models.Model {},
@@ -33,6 +34,8 @@ test("model name can be implicitly extracted from its constructor name", async (
         class ResPartner extends models.Model {},
     ]);
 =======
+=======
+>>>>>>> upstream/18.0
     const [AnonymousClass, Foo, ResCurrency, ResPartner] = [
         class extends models.Model {},
         class Foo extends models.Model {},
@@ -43,6 +46,9 @@ test("model name can be implicitly extracted from its constructor name", async (
     ];
 
     defineModels([AnonymousClass, Foo, ResCurrency, ResPartner]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     await makeMockServer();
@@ -69,7 +75,10 @@ test("model should be defined on the mock server", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("models can be extended by having the same name", async () => {
     class First extends models.Model {
         _name = "same.model";
@@ -135,6 +144,9 @@ test("cannot access _records on models after init", async () => {
     expect(env["oui"]).toHaveLength(1);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe("level 1", () => {
     Oui._fields.age = fields.Integer();

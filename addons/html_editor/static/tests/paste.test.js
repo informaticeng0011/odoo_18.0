@@ -900,7 +900,10 @@ describe("Unwrapping html element", () => {
             contentAfter: "<h1>mnabc</h1><h1>def</h1><h1>ghi[]op</h1>",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p><strong>test []</strong></p>",
             stepFunction: async (editor) => {
@@ -916,6 +919,9 @@ describe("Unwrapping html element", () => {
             contentAfter:
                 '<p><font style="background-color: rgb(255, 0, 0);">nested []test</font></p>',
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     test("should not unwrap a node when pasting at start of different node", async () => {

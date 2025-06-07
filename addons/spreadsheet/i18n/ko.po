@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Daye Jeong, 2025
 # Sarah Park, 2025
@@ -129,11 +130,17 @@
 # Wil Odoo, 2025
 # Sarah Park, 2025
 >>>>>>> upstream/18.0
+=======
+# Daye Jeong, 2025
+# Wil Odoo, 2025
+# Sarah Park, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +238,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:48+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sarah Park, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-14 20:48+0000\n"
@@ -825,11 +837,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "시간의 단위를 나타내는 약어입니다. 허용되는 값은 \"Y\"(시작일과 종료일 사이의 연도 수), \"M\"(시작일과 종료일 사이의 월 "
 "수), \"D\"(시작일과 종료일 사이의 일 수), \"MD\"(전체 연도와 월을 뺀 시작일과 종료일 사이의 일 수) 등입니다, "
 "\"YM\"(전체 연도를 뺀 시작일과 종료일 사이의 월 수), \"YD\"(시작일과 종료일이 1년 이상 떨어져 있지 않은 것으로 간주했을"
 " 때 두 날짜 사이의 일 수) 입니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -951,6 +966,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3318,7 +3336,10 @@ msgstr "가격에 따른 유가증권 할인율."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3382,6 +3403,9 @@ msgstr "누락된 셀만 표시"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5968,9 +5992,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 함수를 사용하는 첫 번째 방법은 정렬된 단일 행 또는 열 search_array를 제공하여 두 번째 인수 result_range와 "
 "함께 search_key를 찾는 것입니다. 다른 방법은 이 두 인수를 하나의 search_array로 결합하여 첫 번째 행 또는 열을 "
 "검색하고 배열의 마지막 행 또는 열에서 값을 반환하는 것입니다. search_key를 찾을 수 없는 경우 정확히 일치하지 않는 값이 "
+=======
+"이 함수를 활용하는 방법 중 하나는 정렬된 단일 행 또는 열 search_array를 통해 두 번째 인수 result_range와 함께 "
+"search_key를 찾는 것입니다. 또 다른 방법은 이 두 인수를 하나의 search_array로 통합하여 첫 번째 행 또는 열을 "
+"검색하고 배열의 마지막 행 또는 열에 있는 값을 반환하는 것입니다. search_key를 찾을 수 없는 경우 정확히 일치하지 않는 값이 "
+>>>>>>> upstream/18.0
 =======
 "이 함수를 활용하는 방법 중 하나는 정렬된 단일 행 또는 열 search_array를 통해 두 번째 인수 result_range와 함께 "
 "search_key를 찾는 것입니다. 또 다른 방법은 이 두 인수를 하나의 search_array로 통합하여 첫 번째 행 또는 열을 "
@@ -10998,7 +11028,10 @@ msgstr "병합된 셀에서는 이 작업을 수행할 수 없습니다. 먼저 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11062,6 +11095,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12063,6 +12099,7 @@ msgstr "[[FUNCTION_NAME]] 은 두 매개변수에 대해 최소 두 개의 값�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "activeSheet"
 msgstr "activeSheet"
 
@@ -12237,6 +12274,10 @@ msgstr "및"
 msgid "and"
 msgstr "및"
 >>>>>>> upstream/18.0
+=======
+msgid "and"
+msgstr "및"
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -12273,12 +12314,15 @@ msgstr "이하 또는 같아야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "bottom"
 msgstr "하단"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12351,6 +12395,7 @@ msgstr "기본 값:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "desc"
 msgstr "desc"
 
@@ -12363,6 +12408,8 @@ msgstr "차이"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12452,6 +12499,7 @@ msgstr "예: A1:A2"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/global_filters/components/filter_date_value/filter_date_value.xml:0
 msgid "empty"
 msgstr "비어 있음"
@@ -12498,12 +12546,15 @@ msgstr "비어 있음"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "exact date"
 msgstr "정확한 날짜"
 
 #. module: spreadsheet
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12594,6 +12645,8 @@ msgstr "gt"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "in the past month"
 msgstr "지난 달"
@@ -12632,6 +12685,7 @@ msgstr "작년"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "left"
 msgstr "왼쪽"
@@ -12650,6 +12704,8 @@ msgstr "로그"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12734,6 +12790,7 @@ msgstr "음수"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "none"
 msgstr "없음"
@@ -12746,6 +12803,8 @@ msgstr "숫자"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12836,6 +12895,7 @@ msgstr "일년 전"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "percentage"
 msgstr "백분율"
@@ -12860,6 +12920,8 @@ msgstr "다항식"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12927,12 +12989,15 @@ msgstr "양수"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "progress"
 msgstr "진행률"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13004,12 +13069,15 @@ msgstr "return_range는 lookup_range과 동일한 dimension이어야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "right"
 msgstr "오른쪽"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13076,12 +13144,15 @@ msgstr " search_mode는 [-1, 1, -2, 2] 범위의 값이어야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "specificRange"
 msgstr "specificRange"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13154,12 +13225,15 @@ msgstr "기호"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "text"
 msgstr "본문"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13252,6 +13326,7 @@ msgstr "내일"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "top"
 msgstr "상단"
@@ -13270,6 +13345,8 @@ msgstr "값"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

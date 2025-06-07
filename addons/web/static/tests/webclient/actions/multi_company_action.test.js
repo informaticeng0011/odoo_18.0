@@ -31,7 +31,10 @@ class Partner extends models.Model {
             </form>
         `,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search></search>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };
@@ -126,6 +129,9 @@ test("form view in dialog shows wrong company error", async () => {
     expect.verifySteps([]); // don't reload
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

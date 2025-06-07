@@ -9,6 +9,14 @@ export class InputPlugin extends Plugin {
     }
 
     onBeforeInput(ev) {
+<<<<<<< HEAD
+=======
+        const selection = this.document.getSelection();
+        if (!this.editable.contains(selection?.anchorNode)) {
+            ev.preventDefault();
+            return;
+        }
+>>>>>>> upstream/18.0
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);
     }

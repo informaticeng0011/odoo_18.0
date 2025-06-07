@@ -172,10 +172,13 @@ export class EmbeddedComponentPlugin extends Plugin {
         const fiberComplete = fiber.complete;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         fiber.complete = function () {
             host.replaceChildren();
             fiberComplete.call(this);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         fiber.complete = () => {
@@ -183,6 +186,9 @@ export class EmbeddedComponentPlugin extends Plugin {
             fiberComplete.call(fiber);
             this.dispatchTo("post_mount_component_handlers");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -652,7 +652,10 @@ test("should remove font-size style from multiple sized selected text", async ()
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("should remove font size and color styles", async () => {
     await testEditor({
         contentBefore: `<p><span class="display-1-fs"><font class="text-gradient" style="background-image: linear-gradient(135deg, rgb(214, 255, 127) 0%, rgb(0, 179, 204) 100%);">[abcdefg]</font></span></p>`,
@@ -666,6 +669,9 @@ test("should remove font size and color styles", async () => {
     });
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe("Toolbar", () => {
     async function removeFormatClick() {

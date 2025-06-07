@@ -319,7 +319,10 @@ test("widget many2one_avatar in kanban view (load more dialog)", async () => {
     Users._views = {
         list: '<list><field name="display_name"/></list>',
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };

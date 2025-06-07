@@ -165,6 +165,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -266,6 +270,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'order_id': sale_order.id,
         })
 
+<<<<<<< HEAD
         so_line_order_new_task_new_project = SaleOrderLine.create({
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +400,16 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
 >>>>>>> upstream/18.0
+=======
+        self.product_order_service3.description_sale = "Task in New Project"
+        so_line_order_new_task_new_project = SaleOrderLine.create({
+            'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
+            'product_id': self.product_order_service3.id,
+            'product_uom_qty': 10,
+            'order_id': sale_order.id,
+        })
+        so_line_order_new_task_new_project2 = SaleOrderLine.create({
+>>>>>>> upstream/18.0
             'product_id': self.product_order_service3.id,
             'product_uom_qty': 10,
             'order_id': sale_order.id,
@@ -445,10 +460,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #  service_tracking 'task_in_project'
         self.assertTrue(so_line_order_new_task_new_project.project_id, "Sales order line should be linked to newly created project")
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -563,6 +581,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -625,6 +644,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(
+            so_line_order_new_task_new_project2.task_id.name,
+            self.product_order_service3.display_name,
+            "Task name created from a SOL with default description should use the product name",
+        )
 >>>>>>> upstream/18.0
         # service_tracking 'project_only'
         self.assertFalse(so_line_order_only_project.task_id, "Task should not be created")
@@ -966,7 +992,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_project_creation_on_so_with_manual_analytic(self):
@@ -1027,6 +1056,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.assertEqual(sale_order.order_line.analytic_distribution, expected_analytic_distribution)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -2,10 +2,18 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta, time
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 from pytz import timezone, utc
 
 from odoo import fields
 from odoo.addons.mrp.tests.common import TestMrpCommon
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 
 
 class TestOee(TestMrpCommon):
@@ -18,6 +26,25 @@ class TestOee(TestMrpCommon):
             'description': loss_reason.name
         })
 
+<<<<<<< HEAD
+=======
+    @freeze_time('2025-05-30')
+    def test_unset_end_date(self):
+        with Form(self.env['mrp.workcenter.productivity']) as workcenter_productivity:
+            # Set the end date to tomorrow
+            workcenter_productivity.date_end = datetime(2025, 5, 31, 12, 0, 0)
+            # Unset the end date
+            workcenter_productivity.date_end = False
+            self.assertFalse(workcenter_productivity.date_end)
+            self.assertEqual(workcenter_productivity.duration, 0.0, "The duration should be 0.0 when the end date is unset.")
+
+            workcenter_productivity.workcenter_id = self.workcenter_1
+            workcenter_productivity.date_end = datetime(2025, 5, 31, 12, 0, 0)
+            workcenter_productivity.date_start = datetime(2025, 5, 30, 12, 0, 0)
+            workcenter_productivity.save()
+            self.assertEqual(workcenter_productivity.duration, 1440.0)
+
+>>>>>>> upstream/18.0
     def test_wrokcenter_oee(self):
         """  Test case workcenter oee. """
         day = datetime.date(datetime.today())

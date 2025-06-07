@@ -13,6 +13,10 @@
         'web_editor',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -292,6 +296,12 @@
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -316,7 +326,10 @@
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         'html_editor.assets_link_popover': [
@@ -324,6 +337,9 @@
             'website/static/src/xml/html_editor.xml',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

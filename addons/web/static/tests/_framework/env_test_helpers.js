@@ -79,16 +79,22 @@ export function getService(name) {
  *
  * @param {Partial<OdooEnv>} [partialEnv]
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
     if (currentEnv && !makeNew) {
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {{
  *  makeNew?: boolean;
  * }} [options]
  */
 export async function makeMockEnv(partialEnv, options) {
     if (currentEnv && !options?.makeNew) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         throw new Error(
             `cannot create mock environment: a mock environment has already been declared`
@@ -99,6 +105,7 @@ export async function makeMockEnv(partialEnv, options) {
         await makeMockServer();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     currentEnv = makeEnv();
     after(() => {
@@ -122,6 +129,8 @@ export async function makeMockEnv(partialEnv, options) {
 
     return currentEnv;
 =======
+=======
+>>>>>>> upstream/18.0
     const env = makeEnv();
     Object.assign(env, partialEnv, createDebugContext(env)); // This is needed if the views are in debug mode
 
@@ -147,6 +156,9 @@ export async function makeMockEnv(partialEnv, options) {
     await startServices(env);
 
     return env;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

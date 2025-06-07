@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import odoo
 import odoo.tests
 import logging
@@ -9,12 +10,17 @@ _logger = logging.getLogger(__name__)
 @odoo.tests.common.tagged('post_install', '-at_install')
 class TestSnippets(odoo.tests.HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.tests.common import tagged
 from odoo.addons.base.tests.common import HttpCaseWithUserPortal
 
 
 @tagged('post_install', '-at_install')
 class TestSnippets(HttpCaseWithUserPortal):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_01_donation(self):
@@ -24,6 +30,7 @@ class TestSnippets(HttpCaseWithUserPortal):
 
         demo_provider = self.env['payment.provider'].search([('code', '=', "demo")])
         demo_provider.write({'state': 'test'})
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.env.ref('base.user_admin').partner_id.country_id = self.env.ref('base.be')
         self.start_tour("/?enable_editor=1", "donation_snippet_edition", login='admin')
@@ -116,6 +123,8 @@ class TestSnippets(HttpCaseWithUserPortal):
         self.start_tour("/", "donation_snippet_use", login="portal")
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         belgium = self.env.ref('base.be')
 
@@ -131,4 +140,7 @@ class TestSnippets(HttpCaseWithUserPortal):
 
         self.start_tour("/?enable_editor=1", "donation_snippet_edition", login='admin')
         self.start_tour("/", "donation_snippet_use", login="portal")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

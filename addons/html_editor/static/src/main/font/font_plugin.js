@@ -1,9 +1,15 @@
 import { Plugin } from "@html_editor/plugin";
 import { isBlock, closestBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fillEmpty } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
 import { isVisibleTextNode } from "@html_editor/utils/dom_info";
+=======
+import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
+import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
+import { isRedundantElement, isVisibleTextNode } from "@html_editor/utils/dom_info";
+>>>>>>> upstream/18.0
 =======
 import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
@@ -14,6 +20,10 @@ import {
     createDOMPathGenerator,
     descendants,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    selectElements,
+>>>>>>> upstream/18.0
 =======
     selectElements,
 >>>>>>> upstream/18.0
@@ -272,6 +282,10 @@ export class FontPlugin extends Plugin {
             this.updateFontSizeSelectorParams.bind(this),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 =======
         normalize_handlers: this.normalize.bind(this),
 >>>>>>> upstream/18.0
@@ -292,7 +306,10 @@ export class FontPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     normalize(root) {
         for (const el of selectElements(root, "strong, b, span[style*='font-weight: bolder']")) {
             if (isRedundantElement(el)) {
@@ -301,6 +318,9 @@ export class FontPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get fontName() {
         const sel = this.dependencies.selection.getSelectionData().deepEditableSelection;

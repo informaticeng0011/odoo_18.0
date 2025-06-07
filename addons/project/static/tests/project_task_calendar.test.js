@@ -13,7 +13,11 @@ beforeEach(() => {
     mockDate("2024-01-03 12:00:00", +0);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ProjectTask._views["form,false"] = `
+=======
+    ProjectTask._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     ProjectTask._views["form"] = `
 >>>>>>> upstream/18.0

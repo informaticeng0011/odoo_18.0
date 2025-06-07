@@ -776,7 +776,10 @@ class BaseAutomation(models.Model):
                 for automation in automations.with_context(old_values=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     _logger.debug(
@@ -784,6 +787,9 @@ class BaseAutomation(models.Model):
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -813,7 +819,10 @@ class BaseAutomation(models.Model):
                 for automation in automations.with_context(old_values=old_values):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     _logger.debug(
@@ -821,6 +830,9 @@ class BaseAutomation(models.Model):
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -859,7 +871,10 @@ class BaseAutomation(models.Model):
                 for automation in automations.with_context(old_values=old_values):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     _logger.debug(
@@ -867,6 +882,9 @@ class BaseAutomation(models.Model):
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -886,7 +904,10 @@ class BaseAutomation(models.Model):
                 for automation in automations:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     _logger.debug(
@@ -894,6 +915,9 @@ class BaseAutomation(models.Model):
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -953,7 +977,10 @@ class BaseAutomation(models.Model):
                     records = automation._filter_pre(self, feedback=True)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     _logger.debug(
@@ -961,6 +988,9 @@ class BaseAutomation(models.Model):
                         automation.sudo().name, automation.sudo().id, len(records),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

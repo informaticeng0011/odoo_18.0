@@ -1,6 +1,10 @@
 import { LunchKanbanRenderer } from "@lunch/views/kanban";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineMailModels } from "@mail/../tests/mail_test_helpers";
+=======
+import { defineMailModels, mailModels } from "@mail/../tests/mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { defineMailModels, mailModels } from "@mail/../tests/mail_test_helpers";
 >>>>>>> upstream/18.0
@@ -30,16 +34,22 @@ const lunchInfos = {
 
 async function mountLunchView() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return await mountView(
         Object.assign({
             type: "kanban",
             resModel: "lunch.product",
             arch: `
 =======
+=======
+>>>>>>> upstream/18.0
     return mountView({
         type: "kanban",
         resModel: "lunch.product",
         arch: `
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <kanban js_class="lunch_kanban">
                 <templates>
@@ -50,8 +60,12 @@ async function mountLunchView() {
                 </templates>
             </kanban>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
     );
+=======
+    });
+>>>>>>> upstream/18.0
 =======
     });
 >>>>>>> upstream/18.0
@@ -104,7 +118,11 @@ class Order extends models.Model {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const mailModels = defineMailModels();
+=======
+defineMailModels();
+>>>>>>> upstream/18.0
 =======
 defineMailModels();
 >>>>>>> upstream/18.0
@@ -113,8 +131,13 @@ defineModels([Product, Location, Order]);
 describe.current.tags("desktop");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 onRpc("/lunch/user_location_get", () => {
     return Location._records[0].id;
+=======
+onRpc("/lunch/user_location_get", function () {
+    return this.env["lunch.location"][0].id;
+>>>>>>> upstream/18.0
 =======
 onRpc("/lunch/user_location_get", function () {
     return this.env["lunch.location"][0].id;
@@ -203,15 +226,21 @@ test("Location change", async () => {
 test("Manager: user change", async () => {
     expect.assertions(8);
 <<<<<<< HEAD
+<<<<<<< HEAD
     mailModels
         .find((m) => m.name === "ResUsers")
         ._records.push({ id: 1, name: "Johnny Hache" }, { id: 2, name: "David Elora" });
 =======
+=======
+>>>>>>> upstream/18.0
 
     mailModels.ResUsers._records.push(
         { id: 1, name: "Johnny Hache" },
         { id: 2, name: "David Elora" }
     );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     let userInfos = { ...lunchInfos, is_manager: true };
     let expectedUserId = false; // false as we are requesting for the current user

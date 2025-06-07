@@ -450,8 +450,11 @@ export const editorCommands = {
     setTag(editor, tagName, extraClass = "") {
         const range = getDeepRange(editor.editable, { correctTripleClick: true });
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedBlocks = [...new Set(getTraversedNodes(editor.editable, range).map(closestBlock))];
 =======
+=======
+>>>>>>> upstream/18.0
         const selectedBlocks = [
             ...new Set(
                 getTraversedNodes(editor.editable, range)
@@ -459,6 +462,9 @@ export const editorCommands = {
                     .filter((block) => block.isContentEditable)
             ),
         ];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const deepestSelectedBlocks = selectedBlocks.filter(block => (
             !descendants(block).some(descendant => selectedBlocks.includes(descendant)) &&
@@ -581,7 +587,11 @@ export const editorCommands = {
             element.style.removeProperty('background');
             element.style.removeProperty('-webkit-text-fill-color');
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (hasAnyFontSizeClass(element)) {
+=======
+            if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
+>>>>>>> upstream/18.0
 =======
             if (!hasFontSizeClass && closestElement(node, hasAnyFontSizeClass)) {
 >>>>>>> upstream/18.0
@@ -794,7 +804,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (isColorGradient(color) || !hasInlineGradient)
+=======
+                    (isColorGradient(color) || color === "" || !hasInlineGradient)
+>>>>>>> upstream/18.0
 =======
                     (isColorGradient(color) || color === "" || !hasInlineGradient)
 >>>>>>> upstream/18.0
@@ -917,7 +931,11 @@ export const editorCommands = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const closestGradientEl = closestElement(node, '[style*="background-image"]');
+=======
+                        const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
+>>>>>>> upstream/18.0
 =======
                         const closestGradientEl = closestElement(node, 'font[style*="background-image"], span[style*="background-image"]');
 >>>>>>> upstream/18.0

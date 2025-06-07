@@ -10,8 +10,12 @@ import {
     setInputFiles,
 } from "@odoo/hoot-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FileInput } from "@web/core/file_input/file_input";
 import { Deferred, animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame, Deferred } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, Deferred } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -27,6 +31,10 @@ import {
     getKanbanRecordTexts,
     getService,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -43,6 +51,10 @@ import {
     webModels,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { FileInput } from "@web/core/file_input/file_input";
+>>>>>>> upstream/18.0
 =======
 import { FileInput } from "@web/core/file_input/file_input";
 >>>>>>> upstream/18.0
@@ -850,7 +862,11 @@ test("Open record when clicking on widget field", async function (assert) {
     expect.assertions(2);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views["form,false"] = `<form string="Product"><field name="display_name"/></form>`;
+=======
+    Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
+>>>>>>> upstream/18.0
 =======
     Product._views["form"] = `<form string="Product"><field name="display_name"/></form>`;
 >>>>>>> upstream/18.0
@@ -1052,7 +1068,11 @@ test("button executes action and reloads", async () => {
 test("button executes action and check domain", async () => {
     Partner._fields.active = fields.Boolean({ default: true });
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (let i = 0; i < Partner.length; i++) {
+=======
+    for (let i = 0; i < Partner._records.length; i++) {
+>>>>>>> upstream/18.0
 =======
     for (let i = 0; i < Partner._records.length; i++) {
 >>>>>>> upstream/18.0
@@ -1062,7 +1082,11 @@ test("button executes action and check domain", async () => {
     mockService("action", {
         doActionButton({ onClose }) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Partner._records[0].active = false;
+=======
+            MockServer.env["partner"][0].active = false;
+>>>>>>> upstream/18.0
 =======
             MockServer.env["partner"][0].active = false;
 >>>>>>> upstream/18.0
@@ -2269,9 +2293,14 @@ test("kanbans with basic and custom compiler, same arch", async () => {
     Partner._fields.one2many = fields.One2many({ relation: "partner" });
     Partner._records[0].one2many = [1];
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["kanban,false"] = `
+=======
+    Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
+    Partner._views["kanban"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `<form><field name="one2many" mode="kanban"/></form>`;
     Partner._views["kanban"] = `

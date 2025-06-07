@@ -663,7 +663,10 @@ describe("board_desktop", () => {
 
     test("pivot view with property in pivot_column_groupby", async function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["pivot,false"] = `<pivot/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         Partner._fields.properties_definition = fields.PropertiesDefinition();

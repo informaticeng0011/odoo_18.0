@@ -1,5 +1,9 @@
 import { PosOrderline } from "@point_of_sale/app/models/pos_order_line";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { PosOrder } from "@point_of_sale/app/models/pos_order";
+>>>>>>> upstream/18.0
 =======
 import { PosOrder } from "@point_of_sale/app/models/pos_order";
 >>>>>>> upstream/18.0
@@ -24,7 +28,10 @@ patch(PosOrderline.prototype, {
     },
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 patch(PosOrder.prototype, {
     isLineValidForLoyaltyPoints(line) {
@@ -32,4 +39,7 @@ patch(PosOrder.prototype, {
         return !line.sale_order_origin_id && result;
     },
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

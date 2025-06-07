@@ -41,7 +41,11 @@ class Partner extends models.Model {
     ];
     _views = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
@@ -53,8 +57,14 @@ class Partner extends models.Model {
                     <field name="display_name"/>
                 </group>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`,
         "kanban,1": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
             </form>
         `,
@@ -67,10 +77,13 @@ class Partner extends models.Model {
                     </t>
                 </templates>
 <<<<<<< HEAD
+<<<<<<< HEAD
             </kanban>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
 =======
+=======
+>>>>>>> upstream/18.0
             </kanban>
         `,
         "list,2": /* xml */ `
@@ -78,6 +91,9 @@ class Partner extends models.Model {
                 <field name="display_name" />
             </list>
         `,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     };
 }
@@ -92,9 +108,14 @@ class Pony extends models.Model {
     ];
     _views = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="name"/></list>`,
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="name"/></list>`,
+        form: `<form><field name="name"/></form>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="name"/></list>`,
         form: `<form><field name="name"/></form>`,
@@ -709,9 +730,15 @@ test("local state, global state, and race conditions", async () => {
     });
     Partner._views = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "toy,false": `<toy/>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+=======
+        toy: `<toy/>`,
+        list: `<list><field name="display_name"/></list>`,
+        search: `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+>>>>>>> upstream/18.0
 =======
         toy: `<toy/>`,
         list: `<list><field name="display_name"/></list>`,

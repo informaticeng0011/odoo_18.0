@@ -535,7 +535,11 @@ test("For the same record, a single rpc is done to recover the specialData", asy
         "list,3": '<list><field name="display_name"/></list>',
         "search,9": `<search></search>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -579,7 +583,11 @@ test("open form with statusbar, leave and come back to another one with other do
         "list,3": '<list><field name="display_name"/></list>',
         "search,9": `<search/>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0

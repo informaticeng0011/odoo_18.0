@@ -99,7 +99,11 @@ describe("previousLeaf", () => {
         const result = previousLeaf(ij, editable);
         expect(result).toBe(whitespace);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
 =======
         expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
 >>>>>>> upstream/18.0
@@ -196,7 +200,11 @@ describe("nextLeaf", () => {
         const result = nextLeaf(kl, editable);
         expect(result).toBe(whitespace);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(whitespace.nodeType === Node.TEXT_NODE).toBe(true);
+=======
+        expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
+>>>>>>> upstream/18.0
 =======
         expect(whitespace.nodeType).toBe(Node.TEXT_NODE);
 >>>>>>> upstream/18.0

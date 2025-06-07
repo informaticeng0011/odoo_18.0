@@ -258,8 +258,12 @@ test("Can pass domain to search more", async () => {
         { id: 9, name: "Ivy" }
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["list,false"] = /* xml */ `<list><field name="name"/></list>`;
     Partner._views["search,false"] = /* xml */ `<search/>`;
+=======
+    Partner._views["list"] = /* xml */ `<list><field name="name"/></list>`;
+>>>>>>> upstream/18.0
 =======
     Partner._views["list"] = /* xml */ `<list><field name="name"/></list>`;
 >>>>>>> upstream/18.0

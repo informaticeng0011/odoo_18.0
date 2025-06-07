@@ -13,6 +13,10 @@ import {
     isContentEditable,
     isEmptyBlock,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isRedundantElement,
+>>>>>>> upstream/18.0
 =======
     isRedundantElement,
 >>>>>>> upstream/18.0
@@ -21,7 +25,11 @@ import {
     isZwnbsp,
 } from "@html_editor/utils/dom_info";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestElement, descendants } from "@html_editor/utils/dom_traversal";
+=======
+import { closestElement, descendants, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { closestElement, descendants, selectElements } from "@html_editor/utils/dom_traversal";
 >>>>>>> upstream/18.0
@@ -74,6 +82,10 @@ export class ColorPlugin extends Plugin {
         selectionchange_handlers: this.updateSelectedColor.bind(this),
         remove_format_handlers: this.removeAllColor.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 =======
         normalize_handlers: this.normalize.bind(this),
 >>>>>>> upstream/18.0
@@ -87,7 +99,10 @@ export class ColorPlugin extends Plugin {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     normalize(root) {
         for (const el of selectElements(root, "font")) {
             if (isRedundantElement(el)) {
@@ -96,6 +111,9 @@ export class ColorPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * @param {'foreground'|'background'} type
@@ -328,12 +346,15 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             '[style*="background-image"]'
                         );
                         const isGradientBeingUpdated = closestGradientEl && isColorGradient(color);
                         const splitnode = isGradientBeingUpdated ? closestGradientEl : font;
                         // font = splitAroundUntil(selectedChildren, splitnode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -464,6 +485,9 @@ export class ColorPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

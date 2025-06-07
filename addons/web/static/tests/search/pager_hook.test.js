@@ -14,11 +14,16 @@ import { usePager } from "@web/search/pager_hook";
 import { animationFrame } from "@odoo/hoot-mock";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Foo extends models.Model {
     _views = {
         search: `<search/>`,
     };
 }
+=======
+class Foo extends models.Model {}
+
+>>>>>>> upstream/18.0
 =======
 class Foo extends models.Model {}
 

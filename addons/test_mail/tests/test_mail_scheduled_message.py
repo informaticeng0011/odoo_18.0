@@ -145,6 +145,10 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
                 partner_ids=self.test_record.customer_id,
                 body="success",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                subject="Test subject",
+>>>>>>> upstream/18.0
 =======
                 subject="Test subject",
 >>>>>>> upstream/18.0
@@ -201,7 +205,11 @@ class TestScheduledMessageBusiness(TestScheduledMessage, CronMixinCase):
                         'model': self.test_record._name,
                         'res_id': self.test_record.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'subject': self.test_record._message_compute_subject(),
+=======
+                        'subject': "Test subject",
+>>>>>>> upstream/18.0
 =======
                         'subject': "Test subject",
 >>>>>>> upstream/18.0

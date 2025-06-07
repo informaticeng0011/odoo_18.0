@@ -276,6 +276,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         If the company currency is HUF, we estimate this based on the invoice lines
         (or if this is not an invoice, based on the AMLs), using a MMSE estimator.
 
@@ -295,6 +296,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             We don't use `invoice_currency_rate` to avoid rounding error as 1/0.002470 ≃ 404.87,
             and we want exactly 404.87, i.e. the rate given by the MNB of Hungary, to avoid NAV error
             upon XML submission.
@@ -303,6 +306,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -379,8 +385,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'records': self.company_id.filtered(lambda c: c.currency_id.name != 'HUF'),
                 'message': _('Please use HUF as company currency!'),
+=======
+                'records': self.company_id.filtered(lambda c: c.currency_id.name not in ['HUF', 'EUR']),
+                'message': _('Please use HUF or EUR as your company currency.'),
+>>>>>>> upstream/18.0
 =======
                 'records': self.company_id.filtered(lambda c: c.currency_id.name not in ['HUF', 'EUR']),
                 'message': _('Please use HUF or EUR as your company currency.'),
@@ -601,11 +612,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice_operations = [
             {
                 'index': invoice.l10n_hu_edi_batch_upload_index,
                 'operation': 'CREATE' if invoice._l10n_hu_get_chain_base() == invoice else 'MODIFY',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -745,6 +759,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -346,6 +346,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             name = '{} - {}'.format(so_line.order_id.name, so_line.name and so_line.name.split('\n')[0] or so_line.product_id.name)
 =======
 =======
@@ -504,6 +505,20 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+            if so_line.order_partner_id.lang:
+                so_line = so_line.with_context(lang=so_line.order_id._get_lang())
+            if (product := so_line.product_id).display_name:
+                default_name = so_line._get_sale_order_line_multiline_description_sale()
+                if so_line.name == default_name:
+                    description = product.display_name
+                else:
+                    parts = (so_line.name or "").split('\n', 2)
+                    description = parts[1] if len(parts) > 1 and parts[1] else product.display_name
+            else:
+                description = (so_line.name or "").split('\n', 1)[0]
+            name = f"{so_line.order_id.name} - {description}"
+>>>>>>> upstream/18.0
             additional_name = name_per_id.get(so_line.id)
             if additional_name:
                 name = f'{name} {additional_name}'
@@ -616,7 +631,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         name = ""
+=======
+        name = "\n"
+>>>>>>> upstream/18.0
 =======
         name = "\n"
 >>>>>>> upstream/18.0
@@ -1204,6 +1223,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         For combo product lines, first compute all other lines, and then set quantity to invoice
         only if at least one of its combo item lines is invoiceable.
         """
@@ -1213,6 +1233,8 @@ class SaleOrderLine(models.Model):
                 if line.product_id.type == 'combo':
                     combo_lines.append(line)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1314,6 +1336,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1413,6 +1438,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if line.combo_item_id and line.linked_line_id:
+                    combo_lines.add(line.linked_line_id)
+>>>>>>> upstream/18.0
 =======
                 if line.combo_item_id and line.linked_line_id:
                     combo_lines.add(line.linked_line_id)
@@ -1982,7 +2012,10 @@ class SaleOrderLine(models.Model):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._set_analytic_distribution(res, **optional_values)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

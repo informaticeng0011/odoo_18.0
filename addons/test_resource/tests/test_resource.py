@@ -1335,6 +1335,11 @@ class TestTimezones(TestResourceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40,
+            'hours_per_day': 8
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40,
             'hours_per_day': 8
@@ -1363,8 +1368,13 @@ class TestTimezones(TestResourceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         start_dt = datetime(2025, 3, 7, 0, 0, 0, tzinfo=utc)
         end_dt = datetime(2025, 3, 7, 23, 59, 59, 999999, tzinfo=utc)
+=======
+        start_dt = datetime(2025, 3, 7, 8, 0, 0, tzinfo=utc)
+        end_dt = datetime(2025, 3, 7, 16, 00, 00, 00, tzinfo=utc)
+>>>>>>> upstream/18.0
 =======
         start_dt = datetime(2025, 3, 7, 8, 0, 0, tzinfo=utc)
         end_dt = datetime(2025, 3, 7, 16, 00, 00, 00, tzinfo=utc)
@@ -1385,8 +1395,13 @@ class TestTimezones(TestResourceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(interval[0], start_dt, "The start of the interval should be 00:00:00")
         self.assertEqual(interval[1], end_dt, "The end of the interval should be 23:59:59.999999")
+=======
+        self.assertEqual(interval[0], start_dt, "The start of the interval should be 08:00:00")
+        self.assertEqual(interval[1], end_dt, "The end of the interval should be 16:00:00")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(interval[0], start_dt, "The start of the interval should be 08:00:00")
         self.assertEqual(interval[1], end_dt, "The end of the interval should be 16:00:00")

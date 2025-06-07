@@ -288,7 +288,12 @@ export function isVisible(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isProtecting(node))
+=======
+            isProtecting(node) ||
+            isEmbeddedComponent(node))
+>>>>>>> upstream/18.0
 =======
             isProtecting(node) ||
             isEmbeddedComponent(node))
@@ -601,7 +606,10 @@ export function containsAnyNonPhrasingContent(element) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -687,6 +695,9 @@ export function isEmbeddedComponent(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1052,7 +1063,10 @@ export function isContentEditableAncestor(node) {
     return node.isContentEditable && node.matches("[contenteditable]");
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 /**
  * Checks if a node is redundant based on its closest element with same tag.
@@ -1118,4 +1132,7 @@ export function isRedundantElement(node) {
 
     return true;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

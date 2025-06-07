@@ -218,7 +218,10 @@ test("SelectCreateDialog list view in readonly", async () => {
         </list>
     `;
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -486,7 +489,10 @@ test("SelectCreateDialog empty list, default no content helper", async () => {
         </list>
     `;
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await mountWithCleanup(WebClient);
@@ -509,7 +515,10 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
         </list>
     `;
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 

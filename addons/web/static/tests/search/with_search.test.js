@@ -30,7 +30,10 @@ class Animal extends models.Model {
 
     _views = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         [["search", 1]]: `

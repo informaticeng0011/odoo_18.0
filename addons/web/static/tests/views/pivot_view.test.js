@@ -14,6 +14,10 @@ import {
     getFacetTexts,
     getService,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -425,7 +429,10 @@ test("clicking on a cell triggers a doAction", async () => {
     expect.assertions(2);
     Partner._views["form,2"] = `<form/>`;
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["list,false"] = `<list/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     Partner._views["kanban,5"] = `<kanban/>`;
@@ -481,8 +488,11 @@ test("clicking on a cell triggers a doAction", async () => {
 test.tags("desktop");
 test("row and column are highlighted when hovering a cell", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect.assertions(11);
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     await mountView({
@@ -503,9 +513,14 @@ test("row and column are highlighted when hovering a cell", async () => {
     await contains("th.o_pivot_measure_row:nth-of-type(3)").hover();
     expect(".o_cell_hover").toHaveCount(3);
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 3; i++) {
         expect(`tbody tr:nth-of-type(${i}) td:nth-of-type(3)`).toHaveClass("o_cell_hover");
     }
+=======
+    expect(`tbody tr td:nth-of-type(3)`).toHaveCount(3);
+    expect(`tbody tr td:nth-of-type(3)`).toHaveClass("o_cell_hover");
+>>>>>>> upstream/18.0
 =======
     expect(`tbody tr td:nth-of-type(3)`).toHaveCount(3);
     expect(`tbody tr td:nth-of-type(3)`).toHaveClass("o_cell_hover");
@@ -517,9 +532,14 @@ test("row and column are highlighted when hovering a cell", async () => {
     await contains("tbody tr:nth-of-type(1) td:nth-of-type(2)").hover();
     expect(".o_cell_hover").toHaveCount(3);
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (i = 1; i <= 3; i++) {
         expect(`tbody tr:nth-of-type(${i}) td:nth-of-type(2)`).toHaveClass("o_cell_hover");
     }
+=======
+    expect(`tbody tr td:nth-of-type(2)`).toHaveCount(3);
+    expect(`tbody tr td:nth-of-type(2)`).toHaveClass("o_cell_hover");
+>>>>>>> upstream/18.0
 =======
     expect(`tbody tr td:nth-of-type(2)`).toHaveCount(3);
     expect(`tbody tr td:nth-of-type(2)`).toHaveClass("o_cell_hover");
@@ -1651,15 +1671,21 @@ test("correctly remove pivot_ keys from the context", async () => {
 
 test("Apply two groupby, and remove facet", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search"] = `<search>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 		<filter name="group_by_product" string="Product" domain="[]" context="{'group_by': 'product_id'}"/>
 		<filter name="group_by_bar" string="Bar" domain="[]" context="{'group_by': 'bar'}"/>
@@ -1690,8 +1716,12 @@ test("Apply two groupby, and remove facet", async () => {
 
 test("Add a group by on the CP when a favorite already exists", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot></pivot>`;
     Partner._views["search,false"] = `<search>
+=======
+    Partner._views["search"] = `<search>
+>>>>>>> upstream/18.0
 =======
     Partner._views["search"] = `<search>
 >>>>>>> upstream/18.0
@@ -1736,16 +1766,22 @@ test("Add a group by on the CP when a favorite already exists", async () => {
 
 test("Adding a Favorite at anytime should modify the row/column groupby", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 			<field name="customer" type="row"/>
 			<field name="date" interval="month" type="col" />
 		</pivot>`;
     Partner._views["search,false"] = `<search/>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 			<field name="customer" type="row"/>
 			<field name="date" interval="month" type="col" />
 		</pivot>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     Partner._filters = [
         {
@@ -2105,7 +2141,11 @@ test("clear table cells data after closeGroup", async () => {
 
     // close and reopen row groupings after changing value
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._records.find((r) => r.product_id === 37).date = "2016-10-27";
+=======
+    MockServer.env["partner"].find((r) => r.product_id === 37).date = "2016-10-27";
+>>>>>>> upstream/18.0
 =======
     MockServer.env["partner"].find((r) => r.product_id === 37).date = "2016-10-27";
 >>>>>>> upstream/18.0
@@ -2125,6 +2165,7 @@ test("clear table cells data after closeGroup", async () => {
 
 test("correctly group data after flip (1)", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views[
         "search,false"
@@ -2132,11 +2173,16 @@ test("correctly group data after flip (1)", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views[
         "search"
     ] = `<search><filter name="bayou" string="Bayou" domain="[(1,'=',1)]"/></search>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
     Partner._views["form"] = `<form><field name="foo"/></form>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
@@ -2162,6 +2208,7 @@ test("correctly group data after flip (1)", async () => {
 
 test("correctly group data after flip (2)", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot/>`;
     Partner._views[
         "search,false"
@@ -2169,11 +2216,16 @@ test("correctly group data after flip (2)", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views[
         "search"
     ] = `<search><filter name="bayou" string="Bayou" domain="[(1,'=',1)]"/></search>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
     Partner._views["form"] = `<form><field name="foo"/></form>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
@@ -2541,7 +2593,11 @@ test("pivot view should use default order for auto sorting", async () => {
 
 test("pivot view can be flipped", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     var rpcCount = 0;
+=======
+    let rpcCount = 0;
+>>>>>>> upstream/18.0
 =======
     let rpcCount = 0;
 >>>>>>> upstream/18.0
@@ -3119,6 +3175,7 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
     expect.assertions(9);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 			<field name="customer" type="row"/>
 		</pivot>`;
@@ -3128,6 +3185,8 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
     Partner._views["form,false"] = `<form><field name="foo"/></form>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 			<field name="customer" type="row"/>
 		</pivot>`;
@@ -3136,6 +3195,9 @@ test("Navigation list view for a group and back with breadcrumbs", async () => {
 		</search>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
     Partner._views["form"] = `<form><field name="foo"/></form>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     let readGroupCount = 0;
@@ -3562,17 +3624,23 @@ test("pivot rendering with boolean field", async () => {
 test.tags("desktop");
 test("empty pivot view with action helper", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search"] = `<search>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 		<filter name="small_than_0" string="Small Than 0" domain="[('id', '&lt;', 0)]"/>
 	</search>`;
@@ -3597,17 +3665,23 @@ test("empty pivot view with action helper", async () => {
 test.tags("desktop");
 test("empty pivot view with sample data", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search"] = `<search>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 		<filter name="small_than_0" string="Small Than 0" domain="[('id', '&lt;', 0)]"/>
 	</search>`;
@@ -3632,17 +3706,23 @@ test("empty pivot view with sample data", async () => {
 
 test("non empty pivot view with sample data", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search>
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot sample="1">
 		<field name="product_id" type="measure"/>
 		<field name="date" interval="month" type="col"/>
 	</pivot>`;
     Partner._views["search"] = `<search>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 		<filter name="small_than_0" string="Small Than 0" domain="[('id', '&lt;', 0)]"/>
 	</search>`;
@@ -3669,16 +3749,22 @@ test("non empty pivot view with sample data", async () => {
 test.tags("desktop");
 test("pivot is reloaded when leaving and coming back", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     onRpc("partner", "*", ({ method }) => {
@@ -3721,16 +3807,22 @@ test("pivot is reloaded when leaving and coming back", async () => {
 test.tags("desktop");
 test("expanded groups are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="customer" type="row"/>
 	</pivot>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
@@ -3767,6 +3859,7 @@ test("expanded groups are kept when leaving and coming back", async () => {
 test.tags("desktop");
 test("sorted rows are kept when leaving and coming back", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
@@ -3774,11 +3867,16 @@ test("sorted rows are kept when leaving and coming back", async () => {
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
 	</pivot>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     await mountWithCleanup(WebClient);
@@ -3815,6 +3913,7 @@ test("sorted rows are kept when leaving and coming back", async () => {
 test.tags("desktop");
 test("correctly handle concurrent reloads", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["pivot,false"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
@@ -3822,11 +3921,16 @@ test("correctly handle concurrent reloads", async () => {
     Partner._views["search,false"] = `<search/>`;
     Partner._views["list,false"] = `<list><field name="foo"/></list>`;
 =======
+=======
+>>>>>>> upstream/18.0
     Partner._views["pivot"] = `<pivot>
 		<field name="foo" type="measure"/>
 		<field name="product_id" type="row"/>
 	</pivot>`;
     Partner._views["list"] = `<list><field name="foo"/></list>`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     let def;

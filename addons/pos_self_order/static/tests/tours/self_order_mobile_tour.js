@@ -23,7 +23,10 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
         Utils.checkIsNoBtn("Order Now"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         Utils.clickBtn("My Order"),
@@ -31,6 +34,9 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
         Utils.checkBtn("Order Now"),
         Utils.checkBtn("My Orders"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

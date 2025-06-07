@@ -452,7 +452,12 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
         and with an account prefix set in the distribution model,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         the default analytic account is correctly set during the conversion from po to invoice
+=======
+        the default analytic account is correctly set during the conversion from po to invoice.
+        An additional analytic account set manually in another plan is also passed to the invoice.
+>>>>>>> upstream/18.0
 =======
         the default analytic account is correctly set during the conversion from po to invoice.
         An additional analytic account set manually in another plan is also passed to the invoice.
@@ -473,7 +478,10 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
         analytic_account_default = self.env['account.analytic.account'].create({'name': 'default', 'plan_id': analytic_plan_default.id})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Create an additional analytic account in another plan
@@ -481,6 +489,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
         analytic_account_2 = self.env['account.analytic.account'].create({'name': 'manual', 'plan_id': analytic_plan_2.id})
         analytic_distribution_manual = {str(analytic_account_2.id): 100}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -500,12 +511,15 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
         self.assertFalse(po.order_line.analytic_distribution, "There should be no analytic set.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         po.button_confirm()
         po.order_line.qty_received = 1
         po.action_create_invoice()
         self.assertRecordValues(po.invoice_ids.invoice_line_ids,
                                 [{'analytic_distribution': analytic_distribution_model.analytic_distribution}])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Add another analytic account to the line. It should be passed to the invoice
@@ -517,6 +531,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
             'analytic_distribution': analytic_distribution_model.analytic_distribution | analytic_distribution_manual
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

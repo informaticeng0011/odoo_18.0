@@ -119,12 +119,18 @@ class ResPartner(models.Model):
             ('9951', "San Marino VAT"),
             ('9953', "Vatican VAT"),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             ('AN', "O.F.T.P. (ODETTE File Transfer Protocol)"),
             ('AQ', "X.400 address for mail text"),
             ('AS', "AS2 exchange"),
             ('AU', "File Transfer Protocol"),
             ('EM', "Electronic mail"),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
     )

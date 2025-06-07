@@ -22,7 +22,11 @@ describe("splitAroundUntil", () => {
         const d = cd;
         const result = editor.shared.split.splitAroundUntil(d, p.childNodes[1]);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -49,7 +53,11 @@ describe("splitAroundUntil", () => {
             p.childNodes[1]
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT").toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
 >>>>>>> upstream/18.0
@@ -65,7 +73,12 @@ describe("splitAroundUntil", () => {
         const cde = p.querySelector("span").firstChild;
         const result = editor.shared.split.splitAroundUntil(cde, font);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result.tagName === "FONT" && result !== font).toBe(true);
+=======
+        expect(result.tagName).toBe("FONT");
+        expect(result).not.toBe(font);
+>>>>>>> upstream/18.0
 =======
         expect(result.tagName).toBe("FONT");
         expect(result).not.toBe(font);
@@ -81,7 +94,11 @@ describe("splitAroundUntil", () => {
         const bcd = p.querySelector("span").firstChild;
         const result = editor.shared.split.splitAroundUntil(bcd, p.childNodes[1]);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(result === p.childNodes[1]).toBe(true);
+=======
+        expect(result).toBe(p.childNodes[1]);
+>>>>>>> upstream/18.0
 =======
         expect(result).toBe(p.childNodes[1]);
 >>>>>>> upstream/18.0

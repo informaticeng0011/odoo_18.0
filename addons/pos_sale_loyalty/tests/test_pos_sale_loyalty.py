@@ -44,7 +44,10 @@ class TestPoSSaleLoyalty(TestPointOfSaleHttpCommon):
         self.start_pos_tour("PosSaleLoyaltyTour1", login="accountman")
         self.assertEqual(self.env['loyalty.card'].search_count([('partner_id', '=', self.partner_a.id)]), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pos_sale_loyalty_ignored_in_pos(self):
         """Test that the loyalty program already applied in sales are not applied again in PoS"""
@@ -84,4 +87,7 @@ class TestPoSSaleLoyalty(TestPointOfSaleHttpCommon):
         self.assertEqual(sale_order.amount_total, 90.0)
         self.main_pos_config.open_ui()
         self.start_tour("/pos/web?config_id=%d" % self.main_pos_config.id, "test_pos_sale_loyalty_ignored_in_pos", login="accountman")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

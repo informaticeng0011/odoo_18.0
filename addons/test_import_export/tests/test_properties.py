@@ -290,7 +290,10 @@ class TestPropertiesExportImport(HttpCase):
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # Record with NULL selection value
@@ -300,6 +303,9 @@ class TestPropertiesExportImport(HttpCase):
                 '', '', '',
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -355,6 +361,10 @@ class TestPropertiesExportImport(HttpCase):
             {'char_prop': 'One Text', 'selection_prop': 'selection_3', 'm2o_prop': self.partners[1].id},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            {'char_prop': 'One Text', 'selection_prop': False, 'm2o_prop': self.partners[1].id},
+>>>>>>> upstream/18.0
 =======
             {'char_prop': 'One Text', 'selection_prop': False, 'm2o_prop': self.partners[1].id},
 >>>>>>> upstream/18.0
@@ -375,7 +385,11 @@ class TestPropertiesExportImport(HttpCase):
                 # Field of the first definition
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})",
+=======
+                f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})", f"One Selection ({def_record_1.display_name})",
+>>>>>>> upstream/18.0
 =======
                 f"TextType ({def_record_1.display_name})", f"many2one ({def_record_1.display_name})", f"One Selection ({def_record_1.display_name})",
 >>>>>>> upstream/18.0
@@ -388,6 +402,7 @@ class TestPropertiesExportImport(HttpCase):
             # Record attached to the first definition record
             [
                 external_ids[0], str(def_record_1.id),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 'SSBIYXRlIHRoaXMgZmVhdHVyZQ==', str(self.partners[2].id),
@@ -404,6 +419,8 @@ class TestPropertiesExportImport(HttpCase):
                 external_ids[2], str(def_record_2.id),
                 '', '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 'SSBIYXRlIHRoaXMgZmVhdHVyZQ==', str(self.partners[2].id), 'selection_2',
@@ -425,6 +442,9 @@ class TestPropertiesExportImport(HttpCase):
                 external_ids[4], str(def_record_2.id),
                 '', '', '',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -434,7 +454,11 @@ class TestPropertiesExportImport(HttpCase):
                 external_ids[3], str(def_record_2.id),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '', '',
+=======
+                '', '', '',
+>>>>>>> upstream/18.0
 =======
                 '', '', '',
 >>>>>>> upstream/18.0
@@ -462,10 +486,13 @@ class TestPropertiesExportImport(HttpCase):
                 3: ['properties.m2o_prop'],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 4: ['properties.bool_prop'],
                 5: ['properties.tags_prop'],
                 6: ['properties.m2m_prop'],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 4: ['properties.selection_prop'],
@@ -473,6 +500,9 @@ class TestPropertiesExportImport(HttpCase):
                 6: ['properties.tags_prop'],
                 7: ['properties.m2m_prop'],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -487,6 +517,10 @@ class TestPropertiesExportImport(HttpCase):
                 'properties.m2o_prop/.id',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'properties.selection_prop',
+>>>>>>> upstream/18.0
 =======
                 'properties.selection_prop',
 >>>>>>> upstream/18.0
@@ -507,8 +541,14 @@ class TestPropertiesExportImport(HttpCase):
             {'bool_prop': False, 'tags_prop': ['aa'], 'm2m_prop': self.partners[1].ids},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'bool_prop': False, 'tags_prop': ['bb', 'cc'], 'm2m_prop': False},
             {'bool_prop': True, 'tags_prop': ['bb'], 'm2m_prop': self.partners[1:].ids},
+=======
+            {'char_prop': 'One Text', 'selection_prop': 'selection_1', 'm2o_prop': self.partners[1].id},
+            {'bool_prop': True, 'tags_prop': ['bb'], 'm2m_prop': self.partners[1:].ids},
+            {'bool_prop': False, 'tags_prop': ['bb', 'cc'], 'm2m_prop': False},
+>>>>>>> upstream/18.0
 =======
             {'char_prop': 'One Text', 'selection_prop': 'selection_1', 'm2o_prop': self.partners[1].id},
             {'bool_prop': True, 'tags_prop': ['bb'], 'm2m_prop': self.partners[1:].ids},

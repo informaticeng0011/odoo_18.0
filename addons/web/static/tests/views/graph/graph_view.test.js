@@ -159,7 +159,10 @@ class Foo extends models.Model {
     ];
     _views = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         graph: /* xml */ `<graph />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         search: /* xml */ `

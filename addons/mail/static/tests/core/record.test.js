@@ -1054,7 +1054,10 @@ test("insert with id relation keeps existing field values", async () => {
     expect(member2.is_internal).toBe(true);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Can assign new record on Many field with One inverse", async () => {
     (class Thread extends Record {
@@ -1082,4 +1085,7 @@ test("Can assign new record on Many field with One inverse", async () => {
     expectRecord(file2.thread).toEqual(thread);
     expect(file1.thread).toBe(undefined);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

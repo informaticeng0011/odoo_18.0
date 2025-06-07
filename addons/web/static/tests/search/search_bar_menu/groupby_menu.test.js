@@ -12,22 +12,29 @@ import {
     toggleSearchBarMenu,
 } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { defineSearchBarModels, Foo } from "./models";
 
 import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { animationFrame } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 import { defineSearchBarModels } from "./models";
 
 import { animationFrame } from "@odoo/hoot-mock";
 import { SearchBar } from "@web/search/search_bar/search_bar";
 import { SearchBarMenu } from "@web/search/search_bar_menu/search_bar_menu";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 defineSearchBarModels();
 
 test("simple rendering with neither groupbys nor groupable fields", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
     Foo._views[["search", false]] = `<search/>`;
 
@@ -35,10 +42,15 @@ test("simple rendering with neither groupbys nor groupable fields", async () => 
         resModel: "foo",
         searchMenuTypes: ["groupBy"],
 =======
+=======
+>>>>>>> upstream/18.0
     await mountWithSearch(SearchBarMenu, {
         resModel: "foo",
         searchMenuTypes: ["groupBy"],
         searchViewArch: `<search />`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         searchViewId: false,
         searchViewFields: {},

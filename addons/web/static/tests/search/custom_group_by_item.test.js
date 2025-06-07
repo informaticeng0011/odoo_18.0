@@ -22,10 +22,13 @@ class Foo extends models.Model {
     float = fields.Float({ groupable: false });
     foo = fields.Char();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     _views = {
         search: `<search/>`,
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }

@@ -626,14 +626,20 @@ class IrHttp(models.AbstractModel):
         endpoint = False
         try:
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint = router.match(path, method='POST', query_args=query_args)
         except werkzeug.exceptions.MethodNotAllowed:
             endpoint = router.match(path, method='GET', query_args=query_args)
 =======
+=======
+>>>>>>> upstream/18.0
             try:
                 endpoint = router.match(path, method='POST', query_args=query_args)
             except werkzeug.exceptions.MethodNotAllowed:
                 endpoint = router.match(path, method='GET', query_args=query_args)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         except werkzeug.routing.RequestRedirect as e:
             new_url = e.new_url.split('?')[0][7:]  # remove scheme

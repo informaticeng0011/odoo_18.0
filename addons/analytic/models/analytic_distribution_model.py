@@ -63,6 +63,7 @@ class AccountAnalyticDistributionModel(models.Model):
             This method should be called to prefill analytic distribution field on several models """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         applicable_models = self._get_applicable_models(vals)
 
         res = {}
@@ -70,11 +71,16 @@ class AccountAnalyticDistributionModel(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         applicable_models = self._get_applicable_models({k: v for k, v in vals.items() if k != 'related_root_plan_ids'})
 
         res = {}
         applied_plans = vals.get('related_root_plan_ids', self.env['account.analytic.plan'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

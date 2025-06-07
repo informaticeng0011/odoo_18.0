@@ -139,6 +139,7 @@ class SaleOrderLine(models.Model):
         for line in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.display_type or line.analytic_distribution or not line.product_id:
                 continue
             project = line.product_id.project_id or line.order_id.project_id
@@ -146,6 +147,8 @@ class SaleOrderLine(models.Model):
             if distribution:
                 line.analytic_distribution = distribution
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             project = line.product_id.project_id or line.order_id.project_id
@@ -163,6 +166,9 @@ class SaleOrderLine(models.Model):
             else:
                 line.analytic_distribution = project._get_analytic_distribution()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -326,6 +332,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
                 # if there's multiple lines, skip the product name part
@@ -484,6 +491,18 @@ class SaleOrderLine(models.Model):
 =======
             if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
                 # if there's multiple lines, skip the product name part
+                sale_line_name_parts.pop(0)
+>>>>>>> upstream/18.0
+=======
+            default_name = self.with_context(
+                lang=self.order_id._get_lang(),
+            )._get_sale_order_line_multiline_description_sale()
+            if (
+                self.name != default_name
+                and len(sale_line_name_parts) > 1
+                and sale_line_name_parts[1]
+            ):
+                # if there's a custom line description, skip the product name part when possible
                 sale_line_name_parts.pop(0)
 >>>>>>> upstream/18.0
             title = sale_line_name_parts[0]
@@ -645,7 +664,11 @@ class SaleOrderLine(models.Model):
         values = super(SaleOrderLine, self)._prepare_invoice_line(**optional_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not values.get('analytic_distribution'):
+=======
+        if not values.get('analytic_distribution') and not self.analytic_distribution:
+>>>>>>> upstream/18.0
 =======
         if not values.get('analytic_distribution') and not self.analytic_distribution:
 >>>>>>> upstream/18.0

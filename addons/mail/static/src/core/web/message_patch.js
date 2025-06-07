@@ -98,7 +98,11 @@ patch(Message.prototype, {
             case "float":
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return formatFloat(trackingValue.value);
+=======
+                return formatFloat(trackingValue.value, { digits: trackingValue.floatPrecision });
+>>>>>>> upstream/18.0
 =======
                 return formatFloat(trackingValue.value, { digits: trackingValue.floatPrecision });
 >>>>>>> upstream/18.0

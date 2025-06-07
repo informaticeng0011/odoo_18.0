@@ -141,7 +141,10 @@ test("Many2OneReferenceField set value with search more", async () => {
     PartnerType._views = {
         list: `<list><field name="name"/></list>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     };

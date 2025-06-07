@@ -29,10 +29,13 @@ class Foo extends models.Model {
     float_field = fields.Float();
     foo = fields.Char();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     _views = {
         search: `<search/>`,
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }
