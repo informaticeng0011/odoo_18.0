@@ -92,7 +92,10 @@ export class ChatWindow extends Component {
 
     get style() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const maxHeight = !this.ui.isSmall ? "max-height: 95vh;" : "";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const textDirection = localization.direction;
@@ -100,7 +103,11 @@ export class ChatWindow extends Component {
         const visibleOffset = this.ui.isSmall ? 0 : this.props.right;
         const oppositeFrom = offsetFrom === "right" ? "left" : "right";
 <<<<<<< HEAD
+<<<<<<< HEAD
         return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto; ${maxHeight}`;
+=======
+        return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto;`;
+>>>>>>> upstream/18.0
 =======
         return `${offsetFrom}: ${visibleOffset}px; ${oppositeFrom}: auto;`;
 >>>>>>> upstream/18.0

@@ -8,6 +8,10 @@ import {
     makeServerError,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -264,7 +268,11 @@ test("Add a custom domain leaf on default state of the view with a globalDomain 
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -318,7 +326,11 @@ test("search record in hierarchy view", async () => {
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -348,8 +360,12 @@ test("search record in hierarchy view with child field name defined in the arch"
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         viewId: 1,
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -379,7 +395,11 @@ test("fetch parent record", async () => {
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -432,7 +452,11 @@ test("fetch parent when there are many records without the same parent in the sa
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -480,7 +504,11 @@ test("fetch parent when parent record is in the same row", async () => {
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -521,7 +549,11 @@ test("fetch parent of node with children displayed", async () => {
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: Employee._views["hierarchy,false"],
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -597,7 +629,11 @@ test("drag and drop is disabled by default", async () => {
 test("drag and drop record on another row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -638,7 +674,11 @@ test("drag and drop record at an invalid position", async () => {
     expect.assertions(8);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -700,7 +740,11 @@ test("drag and drop record at an invalid position", async () => {
 test("drag and drop record on sibling node", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -806,7 +850,11 @@ test("drag and drop record on node of another tree", async () => {
 test("drag and drop node unfolded on first row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -863,7 +911,11 @@ test("drag and drop node unfolded on first row", async () => {
 test("drag and drop node when other node is unfolded on first row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -910,7 +962,11 @@ test("drag and drop node when other node is unfolded on first row", async () => 
 test("drag and drop node unfolded on another row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -932,6 +988,10 @@ test("drag and drop node unfolded on another row", async () => {
         resModel: "hr.employee",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: false,
+>>>>>>> upstream/18.0
 =======
         viewId: false,
 >>>>>>> upstream/18.0
@@ -1040,7 +1100,11 @@ test("drag and drop node as a child of a sibling of its parent", async () => {
 test("drag and drop record and respect ordering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1110,7 +1174,11 @@ test("drag and drop record and respect ordering", async () => {
 test("drag node and move it on a row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1145,7 +1213,11 @@ test("drag node and move it on a row", async () => {
 test("drag node and move it on another node", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1186,7 +1258,11 @@ test("drag node and move it on another node", async () => {
 test("drag node to scroll", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1289,7 +1365,11 @@ test("check default icon is correctly used inside button to display child nodes"
 test("use other icon used next to Unfold string displayed inside the button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1348,7 +1428,11 @@ test("use `hierarchy_res_id` context to load the view at that specific node with
 test("cannot set the record dragged as parent", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1389,7 +1473,11 @@ test("cannot set the record dragged as parent", async () => {
 test("cannot create cyclic", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Employee._views["hierarchy,false"] = Employee._views["hierarchy,false"].replace(
+=======
+    Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
+>>>>>>> upstream/18.0
 =======
     Employee._views["hierarchy"] = Employee._views["hierarchy"].replace(
 >>>>>>> upstream/18.0
@@ -1504,8 +1592,14 @@ test("Reload the view with the same unfolded records when clicking with a view b
         doActionButton({ resId, onClose }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const record = Employee._records[resId - 1];
             record.name = "_" + record.name;
+=======
+            for (const record of MockServer.env["hr.employee"].browse(resId)) {
+                record.name = "_" + record.name;
+            }
+>>>>>>> upstream/18.0
 =======
             for (const record of MockServer.env["hr.employee"].browse(resId)) {
                 record.name = "_" + record.name;

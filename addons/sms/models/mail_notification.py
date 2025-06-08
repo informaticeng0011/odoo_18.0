@@ -34,7 +34,11 @@ class MailNotification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sms_number = fields.Char('SMS Number')
+=======
+    sms_number = fields.Char('SMS Number', groups='base.group_user')
+>>>>>>> upstream/18.0
 =======
     sms_number = fields.Char('SMS Number', groups='base.group_user')
 >>>>>>> upstream/18.0

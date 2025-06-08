@@ -34,7 +34,11 @@ class Partner extends models.Model {
     _views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -60,9 +64,14 @@ class Partner extends models.Model {
             </kanban>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+        "list,2": `<list limit="3"><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="display_name"/></list>`,
         "list,2": `<list limit="3"><field name="display_name"/></list>`,
@@ -157,7 +166,11 @@ describe("new", () => {
     test("footer buttons are moved to the dialog footer", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
         Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -189,7 +202,11 @@ describe("new", () => {
         Partner._views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
 =======
             form: `
 >>>>>>> upstream/18.0
@@ -209,7 +226,10 @@ describe("new", () => {
                 </form>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "search,false": "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262,7 +282,11 @@ describe("new", () => {
         Partner._views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
 =======
             form: `
 >>>>>>> upstream/18.0
@@ -282,7 +306,10 @@ describe("new", () => {
                 </form>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "search,false": "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -344,7 +371,11 @@ describe("new", () => {
         Partner._views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "form,false": `
+=======
+            form: `
+>>>>>>> upstream/18.0
 =======
             form: `
 >>>>>>> upstream/18.0
@@ -648,7 +679,11 @@ describe("fullscreen", () => {
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
         Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -687,7 +722,11 @@ describe("fullscreen", () => {
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
         Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -740,7 +779,11 @@ describe("fullscreen", () => {
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["form,false"] = `
+=======
+        Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
         Partner._views["form"] = `
 >>>>>>> upstream/18.0

@@ -3,6 +3,10 @@
 
 from datetime import datetime, timedelta, time
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -11,6 +15,10 @@ from pytz import timezone, utc
 from odoo import fields
 from odoo.addons.mrp.tests.common import TestMrpCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -27,7 +35,10 @@ class TestOee(TestMrpCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @freeze_time('2025-05-30')
     def test_unset_end_date(self):
         with Form(self.env['mrp.workcenter.productivity']) as workcenter_productivity:
@@ -44,6 +55,9 @@ class TestOee(TestMrpCommon):
             workcenter_productivity.save()
             self.assertEqual(workcenter_productivity.duration, 1440.0)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_wrokcenter_oee(self):
         """  Test case workcenter oee. """

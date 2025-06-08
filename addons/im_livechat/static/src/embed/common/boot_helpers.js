@@ -66,6 +66,10 @@ export function makeRoot(target) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    root.style.display = "block";
+>>>>>>> upstream/18.0
 =======
     root.style.display = "block";
 >>>>>>> upstream/18.0

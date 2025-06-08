@@ -18,6 +18,7 @@ export function useDateTimePicker(hookParams) {
     const inputRefs = [useRef("start-date"), useRef("end-date")];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const createPopover = hookParams.createPopover ?? usePopover;
     const getInputs = () => inputRefs.map((ref) => ref?.el);
     const { computeBasePickerProps, state, open, focusIfNeeded, enable } = datetimePicker.create(
@@ -25,6 +26,8 @@ export function useDateTimePicker(hookParams) {
         getInputs,
         createPopover
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     if (!hookParams.createPopover) {
@@ -35,6 +38,9 @@ export function useDateTimePicker(hookParams) {
         hookParams,
         getInputs
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

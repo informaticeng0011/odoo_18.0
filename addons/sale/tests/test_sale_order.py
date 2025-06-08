@@ -371,6 +371,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -440,6 +441,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         no_variant_attr = self.env['product.attribute'].create({
@@ -461,11 +464,17 @@ class TestSaleOrder(SaleCommon):
         ptals = no_variant_product_tmpl.valid_product_template_attribute_line_ids
         ptav1 = next(iter(ptals.product_template_value_ids))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         product_with_desc = self.env['product.product'].create({
             'name': "Product with description",
             'description_sale': "Additional\ninfo.",
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.sale_order.order_line = [
@@ -475,6 +484,7 @@ class TestSaleOrder(SaleCommon):
                 'product_id': no_variant_product.id,
                 'product_no_variant_attribute_value_ids': ptav1.ids,
             }),
+<<<<<<< HEAD
 <<<<<<< HEAD
         ]
         sol1, sol2, sol3, sol4, sol5 = self.sale_order.order_line
@@ -511,11 +521,17 @@ class TestSaleOrder(SaleCommon):
         ]
         sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
 >>>>>>> upstream/18.0
+=======
+            Command.create({'product_id': product_with_desc.id}),
+        ]
+        sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
+>>>>>>> upstream/18.0
         sol1.name += "\nOK THANK YOU\nGOOD BYE"
 
         self.assertEqual(
             sol1.display_name,
             f"{self.sale_order.name} - OK THANK YOU ({self.partner.name})",
+<<<<<<< HEAD
 <<<<<<< HEAD
             "Product line with description should display the first line of description",
         )
@@ -523,11 +539,16 @@ class TestSaleOrder(SaleCommon):
             sol2.display_name,
             f"{self.sale_order.name} - {sol2.product_id.name} ({self.partner.name})",
 =======
+=======
+>>>>>>> upstream/18.0
             "Product line with a custom description should display the first line of description",
         )
         self.assertEqual(
             sol2.display_name,
             f"{self.sale_order.name} - {sol2.product_id.display_name} ({self.partner.name})",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             "Product line without description should display the product name",
         )
@@ -552,6 +573,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,6 +637,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -642,6 +666,7 @@ class TestSaleOrder(SaleCommon):
             "Lines with attribute-based descriptions should display the product name",
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,12 +697,17 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(
             sol6.display_name,
             f"{self.sale_order.name} - {product_with_desc.display_name} ({self.partner.name})",
             "Product lines with standard sales description should display the product name",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_state_changes(self):
         """Test some untested state changes methods & logic."""
@@ -817,7 +847,10 @@ class TestSaleOrder(SaleCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_scheduled_mark_so_as_sent(self):
@@ -842,6 +875,9 @@ class TestSaleOrder(SaleCommon):
         self.assertEqual(order.state, 'sent')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

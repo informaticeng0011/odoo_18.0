@@ -58,6 +58,7 @@ paymentExpressCheckoutForm.include({
             };
             // Call the shipping address update route to fetch the shipping options.
 <<<<<<< HEAD
+<<<<<<< HEAD
             const availableCarriers = await rpc(
                 this.paymentContext['shippingAddressUpdateRoute'],
                 {partial_delivery_address: expressDeliveryAddress},
@@ -65,12 +66,17 @@ paymentExpressCheckoutForm.include({
             if (availableCarriers.length > 0) {
                 const id = parseInt(availableCarriers[0].id);
 =======
+=======
+>>>>>>> upstream/18.0
             const { delivery_methods } = await rpc(
                 this.paymentContext['shippingAddressUpdateRoute'],
                 {partial_delivery_address: expressDeliveryAddress},
             );
             if (delivery_methods.length > 0) {
                 const id = parseInt(delivery_methods[0].id);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 await rpc('/shop/set_delivery_method', {dm_id: id});
             } else {

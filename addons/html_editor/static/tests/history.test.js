@@ -5,7 +5,11 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click, pointerDown, pointerUp, press, queryOne } from "@odoo/hoot-dom";
+=======
+import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { click, pointerDown, pointerUp, press, queryOne, microTick } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -617,7 +621,10 @@ describe("destroy", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,6 +665,10 @@ describe("serialization", () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+});
+>>>>>>> upstream/18.0
+=======
 });
 >>>>>>> upstream/18.0
 =======

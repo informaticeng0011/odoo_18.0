@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -158,6 +159,10 @@
 >>>>>>> upstream/18.0
 =======
 # Santiago Payà <santiagopim@gmail.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Noemi Pla, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -166,6 +171,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-25 07:48+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +313,9 @@ msgstr ""
 =======
 "Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -321,12 +330,21 @@ msgid ""
 "#%(number)s - Installment of <strong>%(amount)s</strong> due on <strong "
 "class=\"text-primary\">%(date)s</strong>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"#%(number)s - Quota de <strong>%(amount)s</strong> a pagar el <strong "
+"class=\"text-primary\">%(date)s</strong>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "%s day(s) overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "amb %s dia/dies de retard"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -340,7 +358,11 @@ msgid ""
 "Pay Now</span>"
 msgstr ""
 "<i class=\"fa fa-arrow-circle-right\"/><span class=\"d-none d-md-inline\"> "
+<<<<<<< HEAD
 "Paga ara</span>"
+=======
+"Pagar ara</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
@@ -378,7 +400,11 @@ msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Pendent"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_page_inherit_payment
 msgid "<i class=\"fa fa-fw fa-check-circle\"/> Processing Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check-circle\"/> Processant pagament"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -423,7 +449,11 @@ msgid "<strong>Full Amount</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Import complet</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Import complet</strong><br/>"
 >>>>>>> upstream/18.0
@@ -571,6 +601,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Quota</strong>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Quota</strong>\n"
 "                                        <br/>"
@@ -728,6 +763,11 @@ msgstr ""
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "A discount will be applied if the customer pays before %s included."
 msgstr ""
+<<<<<<< HEAD
+=======
+"S'aplicarà un descompte si el client efectua el pagament abans del %s "
+"inclòs."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -735,6 +775,11 @@ msgid ""
 "A payment has already been made on this invoice, please make sure to not pay"
 " twice."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ja s'ha fet un pagament per a aquesta factura. Assegura't de no pagar dues "
+"vegades."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -751,7 +796,11 @@ msgstr "Cal un testimoni per crear una transacció de pagament nova."
 #. module: account_payment
 #: model:onboarding.onboarding.step,button_text:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Activate Stripe"
+<<<<<<< HEAD
 msgstr "Activa Stripe"
+=======
+msgstr "Activar Stripe"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -840,7 +889,11 @@ msgstr "Nom mostrat"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__display_open_installments
 msgid "Display Open Installments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar quotes pendents"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_success
@@ -854,7 +907,11 @@ msgstr ""
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__epd_info
 msgid "Early Payment Discount Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informació sobre descomptes per pagament anticipat"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_payment
@@ -884,7 +941,11 @@ msgstr "Generar un enllaç de pagament"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_link_wizard__has_eligible_epd
 msgid "Has Eligible Epd"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Té un descompte elegible per pagament anticipat"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_payment_refund_wizard__has_pending_refund
@@ -903,6 +964,11 @@ msgid ""
 "Impossible to pay all the overdue invoices if they don't share the same "
 "currency."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible efectuar el pagament de totes les factures vençudes si no "
+"tenen la mateixa moneda."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment_method_line__payment_provider_state
@@ -943,7 +1009,11 @@ msgstr "Recompte de factures"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_home_account_payment
 msgid "Invoices to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Factures a pagar"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_journal
@@ -1008,7 +1078,11 @@ msgid "Next Installments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Properes quotes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Properes quotes"
 >>>>>>> upstream/18.0
@@ -1137,7 +1211,11 @@ msgstr ""
 #. module: account_payment
 #: model:onboarding.onboarding.step,step_image_alt:account_payment.onboarding_onboarding_step_payment_provider
 msgid "Onboarding Online Payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incorporació dels pagaments en línia"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_onboarding_onboarding_step
@@ -1153,25 +1231,41 @@ msgstr "Pagaments en línia"
 #. odoo-python
 #: code:addons/account_payment/wizards/payment_link_wizard.py:0
 msgid "Online payment option is not enabled in Configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "L'opció de pagament en línia no està habilitada en la configuració."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Les factures vençudes haurien de compartir la mateixa empresa."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same currency."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Les factures vençudes haurien de tindre la mateixa moneda."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/controllers/portal.py:0
 msgid "Overdue invoices should share the same partner."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Les factures vençudes haurien de tindre el mateix contacte."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields.selection,name:account_payment.selection__payment_refund_wizard__support_refund__partial
@@ -1216,7 +1310,11 @@ msgid "Pay Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar factura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar factura"
 >>>>>>> upstream/18.0
@@ -1353,7 +1451,11 @@ msgid "Pay overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pagar factures vençudes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagar factures vençudes"
 >>>>>>> upstream/18.0
@@ -1509,6 +1611,10 @@ msgstr "Pagaments"
 #: code:addons/account_payment/controllers/payment.py:0
 msgid "Please log in to pay your overdue invoices"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Si us plau, inicia sessió per abonar l'import de les factures vençudes."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1630,13 +1736,21 @@ msgstr "El pagament d'origen dels abonaments relacionats"
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There are pending transactions for this invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hi ha transaccions pendents associades a aquesta factura."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "There is no amount to be paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No hi ha cap import a pagar."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -1667,25 +1781,41 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice cannot be paid online."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta factura no es pot abonar en línia."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice has already been paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta factura ja està pagada."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This invoice isn't posted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta factura no està publicada."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
 #: code:addons/account_payment/models/account_move.py:0
 msgid "This is not an outgoing invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta no és una factura de client."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_bank_statement_line__transaction_count
@@ -1720,7 +1850,11 @@ msgid "Transaction Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de transaccions"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de transaccions"
 >>>>>>> upstream/18.0
@@ -1853,7 +1987,11 @@ msgid "Unsupported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No suportat"
+>>>>>>> upstream/18.0
 =======
 msgstr "No suportat"
 >>>>>>> upstream/18.0
@@ -1978,6 +2116,11 @@ msgid ""
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked providers(s): %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible eliminar un mètode de pagament que estigui vinculat a un proveïdor en l'estat habilitat o de prova.\n"
+"Proveïdor(s) vinculat(s): %s"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -1986,6 +2129,11 @@ msgid ""
 "You cannot uninstall this module as payments using this payment method "
 "already exist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No és possible desinstal·lar aquest mòdul. Ja existeixen pagaments que "
+"utilitzen aquest mètode."
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-python
@@ -2001,7 +2149,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_payment/static/src/js/portal_my_invoices_payment.js:0
 msgid "due in %s day(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "venç en %s dia/dies"
+>>>>>>> upstream/18.0
 
 #. module: account_payment
 #. odoo-javascript
@@ -2036,7 +2188,11 @@ msgid "due today"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "venç avui"
+>>>>>>> upstream/18.0
 =======
 msgstr "venç avui"
 >>>>>>> upstream/18.0
@@ -2168,7 +2324,11 @@ msgid "overdue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vençudes"
+>>>>>>> upstream/18.0
 =======
 msgstr "vençudes"
 >>>>>>> upstream/18.0

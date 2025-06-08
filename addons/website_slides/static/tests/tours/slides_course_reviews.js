@@ -46,9 +46,12 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "a[id=review-tab]",
             run: "click",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72,7 +75,11 @@ registry.category("web_tour.tours").add("course_reviews", {
                 const a = document.querySelector("a[id=review-tab]");
                 if (a.textContent !== "Reviews (1)") {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     throw Error("Text should be 'Reviews (1)'.")
+=======
+                    throw Error("Text should be 'Reviews (1)'.");
+>>>>>>> upstream/18.0
 =======
                     throw Error("Text should be 'Reviews (1)'.");
 >>>>>>> upstream/18.0
@@ -91,6 +98,9 @@ registry.category("web_tour.tours").add("course_reviews", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122,6 +132,7 @@ registry.category("web_tour.tours").add("course_reviews", {
         },
         {
             trigger: ".modal.modal_shown.show button.o_portal_chatter_composer_btn",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,12 +193,17 @@ registry.category("web_tour.tours").add("course_reviews", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             run() {
                 if (this.anchor.textContent !== "Update review") {
                     throw Error("Button text should be 'Update review'.");
                 }
                 this.anchor.click();
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
         {
@@ -215,7 +231,12 @@ registry.category("web_tour.tours").add("course_reviews", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
+=======
+            trigger:
+                "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
+>>>>>>> upstream/18.0
 =======
             trigger:
                 "#chatterRoot:shadow .o-mail-Message .o-mail-MessageReactions-add:not(:visible)",
@@ -226,7 +247,10 @@ registry.category("web_tour.tours").add("course_reviews", {
             run: "click",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         { trigger: '#chatterRoot:shadow .o-mail-Message button:contains("Comment")', run: "click" },
         {
             trigger: "#chatterRoot:shadow .o-mail-Message .o-mail-Composer textarea",
@@ -239,6 +263,9 @@ registry.category("web_tour.tours").add("course_reviews", {
         {
             trigger: `#chatterRoot:shadow .o_wrating_publisher_comment:contains("Thanks for enjoying my 'mid' course, you mid student")`,
         },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ],
 });

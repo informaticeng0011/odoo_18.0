@@ -7,6 +7,7 @@ export class ResPartner extends ServerModel {
     _records = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         {
             id: serverState.companies[0]?.id,
             active: true,
@@ -15,12 +16,17 @@ export class ResPartner extends ServerModel {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         ...serverState.companies.map((company) => ({
             id: company.id,
             active: true,
             name: company.name,
         })),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

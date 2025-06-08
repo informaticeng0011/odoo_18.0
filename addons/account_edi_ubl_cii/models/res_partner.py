@@ -120,7 +120,10 @@ class ResPartner(models.Model):
             ('9953', "Vatican VAT"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             ('AN', "O.F.T.P. (ODETTE File Transfer Protocol)"),
@@ -129,6 +132,9 @@ class ResPartner(models.Model):
             ('AU', "File Transfer Protocol"),
             ('EM', "Electronic mail"),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

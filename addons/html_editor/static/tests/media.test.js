@@ -125,7 +125,10 @@ describe("Powerbox search keywords", () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -149,6 +152,9 @@ test("cropper should not open for external image", async () => {
     expect("img.o_we_cropper_img").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

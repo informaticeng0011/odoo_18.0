@@ -48,12 +48,15 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
             'order_line': [Command.create(line_vals) for line_vals in lines_vals],
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         order.write(order_values)
         logs += partner_logs + delivery_partner_logs + currency_logs + line_logs + allowance_charges_logs
 
         return logs
 
 =======
+=======
+>>>>>>> upstream/18.0
         order_values, order_logs = self._import_fill_order_prepare_vals(order, tree, order_values)
         order.write(order_values)
         logs += partner_logs + delivery_partner_logs + currency_logs + line_logs + allowance_charges_logs + order_logs
@@ -71,6 +74,9 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
         # Override this method if you need to add or modify values before writing
         return order_values, []
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _import_retrieve_delivery_vals(self, tree):
         """ Returns a dict of values that will be used to retrieve the delivery address. """

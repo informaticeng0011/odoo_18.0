@@ -68,7 +68,10 @@ class Animal extends models.Model {
         "toy,2": /* xml */ `<toy js_class="toy_imp">Arch content (id=2)</toy>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         other: /* xml */ `<other/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

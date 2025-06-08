@@ -2,7 +2,11 @@ import { describe, expect, getFixture, test } from "@odoo/hoot";
 import { hover, press, queryAllTexts, queryOne } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Deferred, animationFrame, runAllTimers } from "@odoo/hoot-mock";
+=======
+import { animationFrame, Deferred, runAllTimers } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, Deferred, runAllTimers } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -21,6 +25,10 @@ import {
     makeServerError,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -176,9 +184,15 @@ test("Many2ManyTagsField with color: rendering and edition", async () => {
         if (route === "/web/dataset/call_kw/partner/web_save") {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             var commands = args[1].timmy;
             expect(commands.length).toBe(2);
             expect(commands.map((cmd) => cmd[0]).join("-")).toBe("4-3");
+=======
+            const commands = args[1].timmy;
+            expect(commands).toHaveLength(2);
+            expect(commands.map((cmd) => cmd[0])).toEqual([4, 3]);
+>>>>>>> upstream/18.0
 =======
             const commands = args[1].timmy;
             expect(commands).toHaveLength(2);
@@ -588,9 +602,15 @@ test("Many2ManyTagsField can load more than 40 records", async () => {
     Partner._records[0].partner_ids = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 15; i < 115; i++) {
         Partner._records.push({ id: i, name: "walter" + i });
         Partner._records[0].partner_ids.push(i);
+=======
+    for (let id = 15; id < 115; id++) {
+        Partner._records.push({ id, name: "walter" + id });
+        Partner._records[0].partner_ids.push(id);
+>>>>>>> upstream/18.0
 =======
     for (let id = 15; id < 115; id++) {
         Partner._records.push({ id, name: "walter" + id });
@@ -894,11 +914,16 @@ test("Many2ManyTagsField: select multiple records", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 10; i++) {
         PartnerType._records.push({
             id: 100 + i,
             name: "Partner" + i,
         });
+=======
+    for (let id = 101; id <= 110; id++) {
+        PartnerType._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
 =======
     for (let id = 101; id <= 110; id++) {
         PartnerType._records.push({ id, name: "Partner" + id });
@@ -926,7 +951,11 @@ test("Many2ManyTagsField: select multiple records", async () => {
     expect(".o_dialog .o_list_renderer .o_list_record_selector input").toHaveCount(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PartnerType._records.length + 1
+=======
+        MockServer.env["partner.type"].length + 1
+>>>>>>> upstream/18.0
 =======
         MockServer.env["partner.type"].length + 1
 >>>>>>> upstream/18.0
@@ -943,7 +972,11 @@ test("Many2ManyTagsField: select multiple records", async () => {
     expect("o_dialog").toHaveCount(0);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect('[name="timmy"] .badge').toHaveCount(PartnerType._records.length);
+=======
+    expect('[name="timmy"] .badge').toHaveCount(MockServer.env["partner.type"].length);
+>>>>>>> upstream/18.0
 =======
     expect('[name="timmy"] .badge').toHaveCount(MockServer.env["partner.type"].length);
 >>>>>>> upstream/18.0
@@ -962,11 +995,16 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 10; i++) {
         PartnerType._records.push({
             id: 100 + i,
             name: "Partner" + i,
         });
+=======
+    for (let id = 101; id <= 110; id++) {
+        PartnerType._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
 =======
     for (let id = 101; id <= 110; id++) {
         PartnerType._records.push({ id, name: "Partner" + id });
@@ -992,7 +1030,11 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
     expect(".o_dialog .o_list_renderer .o_list_record_selector input").toHaveCount(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         PartnerType._records.length + 1
+=======
+        MockServer.env["partner.type"].length + 1
+>>>>>>> upstream/18.0
 =======
         MockServer.env["partner.type"].length + 1
 >>>>>>> upstream/18.0
@@ -1007,6 +1049,7 @@ test("Many2ManyTagsField: select multiple records doesn't show already added tag
     await contains(".o_dialog .o_select_button").click();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect('[name="timmy"] .badge').toHaveCount(PartnerType._records.length);
 });
 
@@ -1019,6 +1062,8 @@ test("Many2ManyTagsField: save&new in edit mode doesn't close edit window", asyn
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     expect('[name="timmy"] .badge').toHaveCount(MockServer.env["partner.type"].length);
 });
 
@@ -1026,6 +1071,9 @@ test("Many2ManyTagsField: save&new in edit mode doesn't close edit window", asyn
     for (let id = 101; id <= 110; id++) {
         PartnerType._records.push({ id, name: "Partner" + id });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1157,11 +1205,16 @@ test("Many2ManyTagsField: conditional create/delete actions", async () => {
     Turtle._records[0].partner_ids = [2];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (var i = 1; i <= 10; i++) {
         Partner._records.push({
             id: 100 + i,
             name: "Partner" + i,
         });
+=======
+    for (let id = 101; id <= 110; id++) {
+        Partner._records.push({ id, name: "Partner" + id });
+>>>>>>> upstream/18.0
 =======
     for (let id = 101; id <= 110; id++) {
         Partner._records.push({ id, name: "Partner" + id });
@@ -1176,7 +1229,10 @@ test("Many2ManyTagsField: conditional create/delete actions", async () => {
         list: '<list><field name="name"/></list>',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

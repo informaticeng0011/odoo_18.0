@@ -5,7 +5,11 @@
 # Translators:
 # krnkris, 2024
 # Tamás Németh <ntomasz81@gmail.com>, 2024
+<<<<<<< HEAD
 # gezza <geza.nagy@oregional.hu>, 2024
+=======
+# gezza <geza.nagy@oregional.hu>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: gezza <geza.nagy@oregional.hu>, 2024\n"
+=======
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +34,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_product_matrix.field_product_template__product_add_mode
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order_line__product_add_mode
 msgid "Add product mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék mód hozzáadása"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,help:sale_product_matrix.field_product_product__product_add_mode
@@ -36,31 +48,56 @@ msgid ""
 "Configurator: choose attribute values to add the matching product variant to the order.\n"
 "Grid: add several variants at once from the grid of attribute values"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Konfigurátor: válasszon termékjellemző értékeket a termékváltozat rendeléshez adásához.\n"
+"Táblázat: adjon egyszerre több termékváltozatot a termékjellemzők táblázatából"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_product_tmpl_id
 msgid "Grid Product Tmpl"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Táblázat terméksablon"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_update
 msgid "Grid Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Táblázat frissítés"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid
 msgid "Matrix local storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mátrix helyi tárolás"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields.selection,name:sale_product_matrix.selection__product_template__product_add_mode__matrix
 msgid "Order Grid Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rendelés rács tétel"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__report_grids
 msgid "Print Variant Grids"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Variáns táblázatok nyomtatása"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model,name:sale_product_matrix.model_product_template
@@ -85,7 +122,11 @@ msgstr "Vevői rendelés sor"
 #. module: sale_product_matrix
 #: model_terms:ir.ui.view,arch_db:sale_product_matrix.product_template_grid_view_form
 msgid "Sales Variant Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Értékesítési változat kiválasztás"
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,help:sale_product_matrix.field_sale_order__grid
@@ -94,6 +135,12 @@ msgid ""
 "If grid_update, will be loaded on the SO.\n"
 "If not, represents the matrix to open."
 msgstr ""
+<<<<<<< HEAD
+=======
+"A táblázat technikai helyi tárolása. \n"
+"Ha grid_update, akkor betöltésre kerül a vevői rendelésbe.\n"
+"Ha más, akkor a megjelenítendő mátrixot jelenti."
+>>>>>>> upstream/18.0
 
 #. module: sale_product_matrix
 #. odoo-python
@@ -101,3 +148,8 @@ msgstr ""
 msgid ""
 "You cannot change the quantity of a product present in multiple sale lines."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nem lehet megváltoztatni a több rendelési soron is szereplő termékek "
+"mennyiségét."
+>>>>>>> upstream/18.0

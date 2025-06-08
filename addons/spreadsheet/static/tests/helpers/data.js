@@ -117,8 +117,11 @@ export function getBasicListArchs() {
         "partner,false,list": getBasicListArch(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "partner,false,search": /* xml */ `<search/>`,
         "partner,false,form": /* xml */ `<form/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -435,8 +438,11 @@ export class Partner extends models.Model {
         graph: getBasicGraphArch(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         form: /* xml */ `<Form/>`,
         search: /* xml */ `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

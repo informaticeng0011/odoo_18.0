@@ -901,7 +901,10 @@ describe("Unwrapping html element", () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         await testEditor({
@@ -920,6 +923,9 @@ describe("Unwrapping html element", () => {
                 '<p><font style="background-color: rgb(255, 0, 0);">nested []test</font></p>',
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

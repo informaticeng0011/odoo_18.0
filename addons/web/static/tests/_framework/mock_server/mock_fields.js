@@ -3,6 +3,7 @@ import { MockServerError } from "./mock_server_utils";
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{
  *  compute?: (() => void) | string;
  *  default?: RecordFieldValue | ((record: ModelRecord) => RecordFieldValue);
@@ -81,6 +82,8 @@ import { MockServerError } from "./mock_server_utils";
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @typedef {import("fields").INumerical["aggregator"]} Aggregator
  * @typedef {import("fields").FieldDefinition} FieldDefinition
  * @typedef {import("fields").FieldDefinitionsByType} FieldDefinitionsByType
@@ -95,6 +98,9 @@ import { MockServerError } from "./mock_server_utils";
  *
  * @typedef {number | string | boolean | number[]} RecordFieldValue
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105,9 +111,12 @@ import { MockServerError } from "./mock_server_utils";
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const camelToPascal = (name) =>
     name[0].toUpperCase() + name.slice(1).replace(/_([a-z])/g, (_, char) => char.toUpperCase());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 function camelToPascal(name) {
@@ -116,6 +125,9 @@ function camelToPascal(name) {
     );
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132,6 +144,7 @@ function camelToPascal(name) {
  * return the actual field descriptors.
  *
  * @template {FieldType} T
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @template [RK=never]
@@ -156,6 +169,8 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @template [R=never]
  * @param {T} type
  * @param {{
@@ -169,6 +184,9 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
     if (aggregator) {
         defaultDef.aggregator = aggregator;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180,6 +198,7 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
     // 2nd level: returns the "constructor" function
     return {
         /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
          * @param {Partial<Omit<T extends MonetaryFieldDefinition["type"]
@@ -197,6 +216,8 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
          * @param {Partial<FieldDefinitionsByType[T] & MockFieldProperties>} [properties]
          */
         [constructorFnName](properties) {
@@ -206,6 +227,9 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
                 ...properties,
                 [S_FIELD]: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -224,8 +248,13 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
                 // By default: computed fields are readonly and not stored
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 field.readonly = attributes.readonly ?? true;
                 field.store = attributes.store ?? false;
+=======
+                field.readonly = properties.readonly ?? true;
+                field.store = properties.store ?? false;
+>>>>>>> upstream/18.0
 =======
                 field.readonly = properties.readonly ?? true;
                 field.store = properties.store ?? false;
@@ -241,11 +270,14 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
     }[constructorFnName];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
  * @param {FieldDefinition} field
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 }
@@ -258,6 +290,9 @@ const R_SPACE_OR_UNDERSCORE = /[\s_]+/g;
 /**
  * @param {FieldDefinition & MockFieldProperties} field
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -266,6 +301,7 @@ export function isComputed(field) {
     return globalThis.Boolean(field.compute || field.related);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 export const Binary = makeFieldGenerator("binary");
@@ -333,6 +369,8 @@ export const Text = makeFieldGenerator("text");
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @param {unknown} value
  */
@@ -345,6 +383,9 @@ export function getFieldDisplayName(value) {
     return str[0].toUpperCase() + str.slice(1);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -387,8 +428,11 @@ export const DEFAULT_FIELD_VALUES = {
 };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const FIELD_SYMBOL = Symbol("field");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -467,6 +511,9 @@ export const Selection = makeFieldGenerator("selection", {
 
 export const Text = makeFieldGenerator("text");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

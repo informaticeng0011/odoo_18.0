@@ -28,11 +28,14 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'property_account_receivable_id': 'l10n_cn_common_112200',
             'property_account_payable_id': 'l10n_cn_common_220200',
             'property_account_expense_categ_id': 'l10n_cn_common_640100',
             'property_account_income_categ_id': 'l10n_cn_common_600100',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79,6 +82,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132,6 +138,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'transfer_account_code_prefix': '1012',
                 'account_default_pos_receivable_account_id': 'l10n_cn_common_112400',
                 'income_currency_exchange_account_id': 'l10n_cn_common_605100',
@@ -139,6 +146,8 @@ class AccountChartTemplate(models.AbstractModel):
             },
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193,6 +202,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

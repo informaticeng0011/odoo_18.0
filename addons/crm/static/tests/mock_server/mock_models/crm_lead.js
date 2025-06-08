@@ -5,8 +5,12 @@ export class CrmLead extends models.ServerModel {
     _views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: /* xml */ `<search/>`,
         'form,false': /* xml */ `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
@@ -19,7 +23,11 @@ export class CrmLead extends models.ServerModel {
                 </sheet>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`
+=======
+            </form>`,
+>>>>>>> upstream/18.0
 =======
             </form>`,
 >>>>>>> upstream/18.0

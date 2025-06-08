@@ -522,6 +522,11 @@ class MrpWorkcenterProductivity(models.Model):
     @api.onchange('duration')
     def _duration_changed(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

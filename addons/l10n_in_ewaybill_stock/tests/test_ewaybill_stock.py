@@ -23,7 +23,10 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
             'zip': '431122'
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.partner_b.write({
             'vat': False,
             'l10n_in_gst_treatment': 'unregistered',
@@ -31,6 +34,9 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
             'country_id': cls.env.ref('base.in').id,
             'zip': '431122'
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _create_stock_picking(self):
@@ -221,7 +227,10 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
             ewaybill._l10n_in_ewaybill_stock_handle_zero_distance_alert_if_present(response)
             self.assertEqual(ewaybill.distance, expected_distance)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2025-05-22')
     def test_ewaybill_stock_transporter_with_vehicle_no(self):
@@ -312,4 +321,7 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
         })
         expected_msg = _('- Transporter %s does not have a GST Number', self.partner_b.name)
         self.assertEqual(transportation_detail._check_transporter(), [expected_msg])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

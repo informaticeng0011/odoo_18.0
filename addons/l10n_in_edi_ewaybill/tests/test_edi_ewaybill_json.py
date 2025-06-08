@@ -131,7 +131,10 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -315,6 +318,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -454,7 +460,10 @@ class TestEdiEwaybillJson(TestEdiJson):
         })
         self.assertDictEqual(json_value, expected, "Indian EDI with 0(zero) quantity sent json value is not matched")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_edi_ewaybill_transporter_gst(self):
         self.partner_b.write({
@@ -549,4 +558,7 @@ class TestEdiEwaybillJson(TestEdiJson):
             "VehNo": "GJ11AA1234"
         }
         self.assertDictEqual(json_value, expected, "Indian EDI Ewaybill through IRN without transporter GST sent json value is not matched")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

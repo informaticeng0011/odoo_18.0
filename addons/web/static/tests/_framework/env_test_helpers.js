@@ -80,10 +80,13 @@ export function getService(name) {
  * @param {Partial<OdooEnv>} [partialEnv]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
     if (currentEnv && !makeNew) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
  * @param {{
@@ -93,6 +96,9 @@ export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
 export async function makeMockEnv(partialEnv, options) {
     if (currentEnv && !options?.makeNew) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105,6 +111,7 @@ export async function makeMockEnv(partialEnv, options) {
         await makeMockServer();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     currentEnv = makeEnv();
@@ -129,6 +136,8 @@ export async function makeMockEnv(partialEnv, options) {
 
     return currentEnv;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     const env = makeEnv();
@@ -157,6 +166,9 @@ export async function makeMockEnv(partialEnv, options) {
 
     return env;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

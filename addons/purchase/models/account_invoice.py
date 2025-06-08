@@ -177,7 +177,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('partner_id', '=', self.partner_id.id),
+=======
+                ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
+>>>>>>> upstream/18.0
 =======
                 ('partner_id', 'in', (self.partner_id | self.partner_id.commercial_partner_id).ids),
 >>>>>>> upstream/18.0
@@ -680,7 +684,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -694,6 +701,9 @@ class AccountMoveLine(models.Model):
         return vals
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

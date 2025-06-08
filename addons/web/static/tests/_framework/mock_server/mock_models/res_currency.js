@@ -8,7 +8,11 @@ export class ResCurrency extends ServerModel {
         ([id, { digits, name, position, symbol }]) => ({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             id: Number(id),
+=======
+            id: Number(id) + 1,
+>>>>>>> upstream/18.0
 =======
             id: Number(id) + 1,
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.account_edi_ubl_cii_tax_extension.models.account_edi_common import FIX_WRONG_CODES_MAPPING
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account_edi_ubl_cii_tax_extension.models.account_edi_common import FIX_WRONG_CODES_MAPPING
 >>>>>>> upstream/18.0
@@ -47,9 +51,12 @@ class TestAccountEdiUblCiiTaxExtension(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(node.findtext('.//{*}ID') or False, tax.ubl_cii_tax_category_code)
                 self.assertEqual(node.findtext('.//{*}TaxExemptionReasonCode') or False, tax.ubl_cii_tax_exemption_reason_code)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60,6 +67,9 @@ class TestAccountEdiUblCiiTaxExtension(AccountTestInvoicingCommon):
                 self.assertEqual(node.findtext('.//{*}TaxExemptionReasonCode') or False, reason_code)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

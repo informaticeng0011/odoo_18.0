@@ -145,7 +145,10 @@ test("value is not updated if it did not change", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -200,6 +203,9 @@ test("close popover when owner component is unmounted", async() => {
     expect(".o_datetime_picker").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

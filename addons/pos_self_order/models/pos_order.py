@@ -68,6 +68,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
+>>>>>>> upstream/18.0
 =======
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
 >>>>>>> upstream/18.0

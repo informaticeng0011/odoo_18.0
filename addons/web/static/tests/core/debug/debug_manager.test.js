@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
 import { user } from "@web/core/user";
 import { regenerateAssets, becomeSuperuser } from "@web/core/debug/debug_menu_items";
@@ -31,6 +32,8 @@ import { queryOne, queryAll, queryAllTexts, click, queryAllProperties } from "@o
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { click, queryAll, queryAllProperties, queryAllTexts, queryOne } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
@@ -60,6 +63,9 @@ import { ActionDialog } from "@web/webclient/actions/action_dialog";
 import { openViewItem } from "@web/webclient/debug/debug_items";
 import { WebClient } from "@web/webclient/webclient";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285,9 +291,13 @@ describe("DebugMenu", () => {
         webModels.IrUiView._views.list = `<list><field name="name"/><field name="type"/></list>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
         webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
         webModels.ResPartner._views.search = `<search/>`;
+=======
+        webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
+>>>>>>> upstream/18.0
 =======
         webModels.ResPartner._views["form,1"] = `<form><div class="some_view"/></form>`;
 >>>>>>> upstream/18.0
@@ -321,7 +331,10 @@ describe("DebugMenu", () => {
         webModels.ResPartner._views.list = `<list><field name="name"/></list>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -349,10 +362,15 @@ describe("DebugMenu", () => {
         webModels.ResPartner._views["pivot,18"] = "<pivot></pivot>";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
         webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
         webModels.IrUiView._views.search = `<search/>`;
+=======
+        webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
+        webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
+>>>>>>> upstream/18.0
 =======
         webModels.IrUiView._records.push({ id: 18, name: "Edit View" });
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
@@ -392,7 +410,10 @@ describe("DebugMenu", () => {
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424,7 +445,10 @@ describe("DebugMenu", () => {
         webModels.IrUiView._views.form = `<form><field name="id"/></form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrUiView._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -453,7 +477,10 @@ describe("DebugMenu", () => {
         webModels.ResPartner._views.form = `<form><field name="id"/></form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -482,7 +509,10 @@ describe("DebugMenu", () => {
             </form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -522,7 +552,10 @@ describe("DebugMenu", () => {
             </form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -561,7 +594,10 @@ describe("DebugMenu", () => {
             </form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -603,11 +639,14 @@ describe("DebugMenu", () => {
             ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             _views = {
                 form: "<form></form>",
                 search: "<search/>",
             };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -652,8 +691,11 @@ describe("DebugMenu", () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.form = `<form></form>`;
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -721,7 +763,11 @@ describe("DebugMenu", () => {
             _views = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 form: `
+=======
+                "form,18": /* xml */ `
+>>>>>>> upstream/18.0
 =======
                 "form,18": /* xml */ `
 >>>>>>> upstream/18.0
@@ -734,8 +780,13 @@ describe("DebugMenu", () => {
                         <field name="m2o"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     </form>`,
                 search: "<search/>",
+=======
+                    </form>
+                `,
+>>>>>>> upstream/18.0
 =======
                     </form>
                 `,
@@ -801,7 +852,10 @@ describe("DebugMenu", () => {
         webModels.ResPartner._views.form = `<form><field name="name"/></form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.ResPartner._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -814,7 +868,10 @@ describe("DebugMenu", () => {
             </form>`;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         webModels.IrModel._views.search = "<search/>";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -874,7 +931,10 @@ describe("DebugMenu", () => {
                     </form>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -902,7 +962,11 @@ describe("DebugMenu", () => {
             type: "ir.actions.act_window",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             views: [[18, "form"]],
+=======
+            views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
             views: [[false, "form"]],
 >>>>>>> upstream/18.0

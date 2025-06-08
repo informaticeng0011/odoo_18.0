@@ -22,7 +22,11 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_repr, format_list
+=======
+from odoo.tools import float_is_zero, float_repr, format_list
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_repr, format_list
 >>>>>>> upstream/18.0
@@ -750,7 +754,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
+=======
+            inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
+            discount = inferred_discount if not float_is_zero(inferred_discount, 2) else 0.0
+>>>>>>> upstream/18.0
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
             discount = inferred_discount if not float_is_zero(inferred_discount, 2) else 0.0

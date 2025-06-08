@@ -289,13 +289,19 @@ class AccountEdiFormat(models.Model):
                 "VehNo": invoice.l10n_in_vehicle_no,
                 "VehType": invoice.l10n_in_vehicle_type,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 **{
                     k: v for k, v in {
                         "TransId": invoice.l10n_in_transporter_id.vat,
                         "TransName": invoice.l10n_in_transporter_id.name,
                     }.items() if v
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             })
         elif invoice.l10n_in_mode in ("2", "3", "4"):
@@ -512,13 +518,19 @@ class AccountEdiFormat(models.Model):
                 "vehicleNo": invoices.l10n_in_vehicle_no or "",
                 "vehicleType": invoices.l10n_in_vehicle_type or "",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 **{
                     k: v for k, v in {
                         "transporterId": invoices.l10n_in_transporter_id.vat,
                         "transporterName": invoices.l10n_in_transporter_id.name,
                     }.items() if v
                 },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             })
         return json_payload
@@ -582,7 +594,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "qtyUnit": line.product_id.uom_id.l10n_in_code and line.product_id.uom_id.l10n_in_code.split("-")[0] or "OTH",
+=======
+            "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
+>>>>>>> upstream/18.0
 =======
             "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
 >>>>>>> upstream/18.0

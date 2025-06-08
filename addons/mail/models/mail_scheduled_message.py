@@ -188,6 +188,10 @@ class ScheduledMessage(models.Model):
                     author_id=scheduled_message.author_id.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subject=scheduled_message.subject,
+>>>>>>> upstream/18.0
 =======
                     subject=scheduled_message.subject,
 >>>>>>> upstream/18.0

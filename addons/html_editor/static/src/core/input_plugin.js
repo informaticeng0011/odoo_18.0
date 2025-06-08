@@ -10,12 +10,18 @@ export class InputPlugin extends Plugin {
 
     onBeforeInput(ev) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const selection = this.document.getSelection();
         if (!this.editable.contains(selection?.anchorNode)) {
             ev.preventDefault();
             return;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);

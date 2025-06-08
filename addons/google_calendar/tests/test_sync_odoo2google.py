@@ -605,6 +605,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_send_update_do_request(self):
         self.env.cr.postcommit.clear()
         with self.mock_google_service():
@@ -632,6 +633,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             self.call_post_commit_hooks()
         self.assertGoogleEventSendUpdates('none')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -992,7 +995,10 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1116,6 +1122,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1160,6 +1167,8 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_event_over_send_updates(self):
@@ -1246,6 +1255,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             self.assertGoogleEventSendUpdates('all')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
