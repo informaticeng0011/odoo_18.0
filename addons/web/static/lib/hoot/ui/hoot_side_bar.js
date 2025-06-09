@@ -28,7 +28,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -375,6 +379,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nFilter = normalize(this.state.filter);
         if (nFilter) {
             allowedIds = new Set();
@@ -382,6 +387,8 @@ export class HootSideBar extends Component {
             rootSuites = new Set();
             for (const matchingSuite of lookup(nFilter, allSuites, "name")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -460,6 +467,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -640,7 +650,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 actualLocation.href = createUrlFromId(suite.id, "suite");
+=======
+                actualLocation.href = createUrlFromId({ suite: suite.id });
+>>>>>>> upstream/18.0
 =======
                 actualLocation.href = createUrlFromId({ suite: suite.id });
 >>>>>>> upstream/18.0

@@ -70,7 +70,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'uom_id' in fields_list and not res.get('uom_id'):
+=======
+        if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
+>>>>>>> upstream/18.0
 =======
         if 'uom_id' in fields_list and not res.get('uom_id') or self.env.context.get('default_uom_id') is False:
 >>>>>>> upstream/18.0
@@ -470,7 +474,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             template.cost_currency_id = template.company_id.currency_id.id or env_currency_id
+=======
+            template.cost_currency_id = template.company_id.sudo().currency_id.id or env_currency_id
+>>>>>>> upstream/18.0
 =======
             template.cost_currency_id = template.company_id.sudo().currency_id.id or env_currency_id
 >>>>>>> upstream/18.0
@@ -1599,6 +1607,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # determines which ptav we're working on
+        current_ptav = None
+>>>>>>> upstream/18.0
 =======
         # determines which ptav we're working on
         current_ptav = None
@@ -1804,12 +1817,15 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else:
                     line_index += 1
                     continue
 
             current_ptav = current_line_values[current_ptav_index]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1930,6 +1946,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

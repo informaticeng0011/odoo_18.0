@@ -11,7 +11,10 @@ export class InputPlugin extends Plugin {
     onBeforeInput(ev) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const selection = this.document.getSelection();
@@ -20,6 +23,9 @@ export class InputPlugin extends Plugin {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

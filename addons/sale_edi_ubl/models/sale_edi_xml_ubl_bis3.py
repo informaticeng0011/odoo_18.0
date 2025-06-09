@@ -49,12 +49,15 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order.write(order_values)
         logs += partner_logs + delivery_partner_logs + currency_logs + line_logs + allowance_charges_logs
 
         return logs
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         order_values, order_logs = self._import_fill_order_prepare_vals(order, tree, order_values)
@@ -75,6 +78,9 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
         return order_values, []
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

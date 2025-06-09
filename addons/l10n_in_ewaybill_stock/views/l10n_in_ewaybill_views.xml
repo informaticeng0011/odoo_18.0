@@ -24,6 +24,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    <button name="action_print" string="Print" class="oe_highlight" type="object" invisible="not state in ['challan', 'generated']" data-hotkey="f"/>
+>>>>>>> upstream/18.0
 =======
                     <button name="action_print" string="Print" class="oe_highlight" type="object" invisible="not state in ['challan', 'generated']" data-hotkey="f"/>
 >>>>>>> upstream/18.0
@@ -129,7 +133,11 @@
                                    invisible="mode not in ('1','4')"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    required="mode == '1'"
+=======
+                                   required="mode == '1' and not transportation_doc_no"
+>>>>>>> upstream/18.0
 =======
                                    required="mode == '1' and not transportation_doc_no"
 >>>>>>> upstream/18.0

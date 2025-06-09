@@ -24,7 +24,10 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.partner_b.write({
@@ -35,6 +38,9 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
             'zip': '431122'
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228,7 +234,10 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
             self.assertEqual(ewaybill.distance, expected_distance)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -322,6 +331,9 @@ class TestStockEwaybill(L10nInTestInvoicingCommon):
         expected_msg = _('- Transporter %s does not have a GST Number', self.partner_b.name)
         self.assertEqual(transportation_detail._check_transporter(), [expected_msg])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

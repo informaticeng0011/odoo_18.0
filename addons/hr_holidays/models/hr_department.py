@@ -75,8 +75,12 @@ class Department(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hide_employee_name': 1,
             'holiday_status_display_name': False
+=======
+            'hide_employee_name': 1
+>>>>>>> upstream/18.0
 =======
             'hide_employee_name': 1
 >>>>>>> upstream/18.0

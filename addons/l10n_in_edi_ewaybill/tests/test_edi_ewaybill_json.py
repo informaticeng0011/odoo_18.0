@@ -132,7 +132,10 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319,6 +322,9 @@ class TestEdiEwaybillJson(TestEdiJson):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -461,7 +467,10 @@ class TestEdiEwaybillJson(TestEdiJson):
         self.assertDictEqual(json_value, expected, "Indian EDI with 0(zero) quantity sent json value is not matched")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -559,6 +568,9 @@ class TestEdiEwaybillJson(TestEdiJson):
         }
         self.assertDictEqual(json_value, expected, "Indian EDI Ewaybill through IRN without transporter GST sent json value is not matched")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

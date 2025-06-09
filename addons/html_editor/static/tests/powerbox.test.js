@@ -756,7 +756,11 @@ test("select command with 'mouseenter' after scroll -- doc in iframe", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await hover("body"); // Hover on main document's body
+=======
+    await hover(document.body); // Hover on main document's body
+>>>>>>> upstream/18.0
 =======
     await hover(document.body); // Hover on main document's body
 >>>>>>> upstream/18.0

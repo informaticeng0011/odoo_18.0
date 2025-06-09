@@ -4,6 +4,10 @@
 from datetime import datetime, timedelta, time
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -16,6 +20,10 @@ from odoo import fields
 from odoo.addons.mrp.tests.common import TestMrpCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form
 >>>>>>> upstream/18.0
@@ -36,7 +44,10 @@ class TestOee(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @freeze_time('2025-05-30')
@@ -56,6 +67,9 @@ class TestOee(TestMrpCommon):
             self.assertEqual(workcenter_productivity.duration, 1440.0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

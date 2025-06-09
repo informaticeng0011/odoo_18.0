@@ -58,7 +58,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     account_edi_proxy_client_ids = fields.One2many('account_edi_proxy_client.user', inverse_name='company_id')
+=======
+    account_edi_proxy_client_ids = fields.One2many('account_edi_proxy_client.user', inverse_name='company_id', context={'active_test': True})
+>>>>>>> upstream/18.0
 =======
     account_edi_proxy_client_ids = fields.One2many('account_edi_proxy_client.user', inverse_name='company_id', context={'active_test': True})
 >>>>>>> upstream/18.0

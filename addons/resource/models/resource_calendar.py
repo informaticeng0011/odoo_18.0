@@ -371,6 +371,7 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for resource in resources:
                 if resource and resource._is_flexible():
 <<<<<<< HEAD
@@ -634,6 +635,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             start_datetime = start_dt.astimezone(tz)
             end_datetime = end_dt.astimezone(tz)
 
@@ -700,6 +703,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -785,7 +791,11 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if leave_resource and leave_resource._is_flexible():
+=======
+                if leave_resource and leave_resource._is_fully_flexible():
+>>>>>>> upstream/18.0
 =======
                 if leave_resource and leave_resource._is_fully_flexible():
 >>>>>>> upstream/18.0
@@ -875,6 +885,7 @@ class ResourceCalendar(models.Model):
             # If the interval covers only a part of the original attendance, we
             # take durations in days proportionally to what is left of the interval.
             interval_hours = (stop - start).total_seconds() / 3600
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1024,8 @@ class ResourceCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if len(self) == 1 and self.flexible_hours:
                 day_hours[start.date()] += meta.duration_hours
                 day_days[start.date()] += meta.duration_days
@@ -1062,6 +1075,9 @@ class ResourceCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

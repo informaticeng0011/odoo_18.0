@@ -38,9 +38,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Wil Odoo, 2025
 # Manon Rondou, 2025
+=======
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Manon Rondou, 2025
@@ -246,7 +252,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Manon Rondou, 2025\n"
+=======
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
 >>>>>>> upstream/18.0
@@ -467,7 +477,11 @@ msgstr "+123456789"
 #: code:addons/event/models/event_event.py:0
 msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- \"%(event_name)s\": %(nb_too_many)i stoelen ontbreken."
+=======
+msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
+>>>>>>> upstream/18.0
 =======
 msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
 >>>>>>> upstream/18.0
@@ -480,8 +494,13 @@ msgid ""
 "seats."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i stoelen "
 "ontbreken."
+=======
+"- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
+" plaatsen."
+>>>>>>> upstream/18.0
 =======
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
 " plaatsen."
@@ -521,7 +540,11 @@ msgstr "5-10"
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x134
 msgid "96x134mm (Badge Printer)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "96x134mm (badgeprinter)"
+=======
+msgstr "96x134mm (Badgeprinter)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x134mm (Badgeprinter)"
 >>>>>>> upstream/18.0
@@ -979,7 +1002,11 @@ msgstr ""
 "                    <span style=\"font-size: 10px;\">Je registratie</span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
+=======
+"                        <t t-out=\"object.name or 'Gast'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <t t-out=\"object.name or 'Gast'\"/>\n"
 >>>>>>> upstream/18.0
@@ -1469,7 +1496,11 @@ msgstr ""
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthulling</strong>\n"
 "                        </t>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        gaat <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start.\n"
+=======
+"                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
+>>>>>>> upstream/18.0
 =======
 "                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
 >>>>>>> upstream/18.0
@@ -1937,15 +1968,21 @@ msgstr ""
 "                    <div>\n"
 "                        Hallo <t t-out=\"object.name or 'Guest'\"/>,<br/><br/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We zijn blij om je registratie voor het evenement te bevestigen\n"
 "                        <t t-if=\"is_online\">\n"
 "                            <a t-att-href=\"object.event_id.website_url\" style=\"color:#875A7B;text-decoration:none;font-weight:bold;\" t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthulling</a>\n"
 "                        </t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        We zijn blij om je registratie voor het evenement \n"
 "                        <t t-if=\"is_online\">\n"
 "                            <a t-att-href=\"object.event_id.website_url\" style=\"color:#875A7B;text-decoration:none;font-weight:bold;\" t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthulling</a>\n"
 "                        </t> te bevestigen\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthulling</strong>\n"
@@ -2986,7 +3023,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Schakel de functionaliteit van gebeurtenisbarcodes in of uit."
+=======
+msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
 >>>>>>> upstream/18.0
@@ -3366,7 +3407,11 @@ msgstr "Evenement: Registratiebadge"
 #: model:mail.template,name:event.event_subscription
 msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenement: registratiebevestiging"
+=======
+msgstr "Evenement: Registratiebevestiging"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenement: Registratiebevestiging"
 >>>>>>> upstream/18.0
@@ -3492,7 +3537,11 @@ msgid ""
 "attendees), above this numbers the registrations are not accepted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaats "
+=======
+"Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
+>>>>>>> upstream/18.0
 =======
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
 >>>>>>> upstream/18.0
@@ -4277,7 +4326,11 @@ msgstr "Aantal registraties"
 #: model:ir.model.fields,field_description:event.field_event_event__seats_taken
 msgid "Number of Taken Seats"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aantal ingenomen zitplaatsen"
+=======
+msgstr "Aantal bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aantal bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -4851,7 +4904,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tickets met Kassa verkopen"
+=======
+msgstr "Verkoop tickets via kassa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verkoop tickets via kassa"
 >>>>>>> upstream/18.0
@@ -5170,7 +5227,11 @@ msgstr "Genomen"
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_taken
 msgid "Taken Seats"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zitplaatsen ingenomen"
+=======
+msgstr "Bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -5615,7 +5676,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruik gebeurtenisbarcode"
+=======
+msgstr "Gebruik evenementenbarcode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruik evenementenbarcode"
 >>>>>>> upstream/18.0
@@ -5725,7 +5790,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_used
 msgid "Used Seats"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruikte stoelen"
+=======
+msgstr "Gebruikte plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruikte plaatsen"
 >>>>>>> upstream/18.0
@@ -5853,7 +5922,11 @@ msgstr "Of het mogelijk is om deze tickets te verkopen"
 #: model:ir.model.fields,help:event.field_event_event_ticket__is_sold_out
 msgid "Whether seats are not available for this ticket."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Of er geen zitplaatsen beschikbaar zijn voor dit ticket."
+=======
+msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
+>>>>>>> upstream/18.0
 =======
 msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
 >>>>>>> upstream/18.0

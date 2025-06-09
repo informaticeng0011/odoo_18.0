@@ -9,6 +9,11 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import pytz
+
+>>>>>>> upstream/18.0
 =======
 import pytz
 
@@ -110,10 +115,13 @@ class Holidays(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             work_hours_data = leave.employee_id._list_work_time_per_day(
                 leave.date_from,
                 leave.date_to)[leave.employee_id.id]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -136,6 +144,9 @@ class Holidays(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

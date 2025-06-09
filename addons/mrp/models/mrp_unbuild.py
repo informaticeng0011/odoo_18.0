@@ -36,6 +36,10 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
 =======
         digits='Product Unit of Measure',
 >>>>>>> upstream/18.0

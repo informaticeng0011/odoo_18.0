@@ -42,6 +42,10 @@ export class ScaleScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.props.getPayload(null);
+>>>>>>> upstream/18.0
 =======
         this.props.getPayload(null);
 >>>>>>> upstream/18.0

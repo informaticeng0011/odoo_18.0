@@ -41,8 +41,12 @@ class FormatAddressCase(ViewCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # weird result: <form> inside a <form>
         self.assertRegex(arch, r"<form>.*<form>.*</form>.*</form>")
+=======
+        self.assertRegex(arch, r'<form>.*<div class="o_address_format">.*</div>.*</form>')
+>>>>>>> upstream/18.0
 =======
         self.assertRegex(arch, r'<form>.*<div class="o_address_format">.*</div>.*</form>')
 >>>>>>> upstream/18.0

@@ -78,7 +78,11 @@ export function oeTab(size, contenteditable = true) {
         (contenteditable ? "" : ' contenteditable="false"') +
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (size ? ` style="width: ${size.toFixed(1)}px;"` : "") +
+=======
+        (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
+>>>>>>> upstream/18.0
 =======
         (size ? ` style="width: ${Number(size.toFixed(1))}px;"` : "") +
 >>>>>>> upstream/18.0

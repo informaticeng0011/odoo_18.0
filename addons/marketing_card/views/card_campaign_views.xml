@@ -130,7 +130,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="tag_ids" widget="many2many_tags"  options="{'color_field': 'color'}"/>
+=======
+                        <field name="tag_ids" widget="many2many_tags"  options="{'color_field': 'color', 'no_create_edit': True}"/>
+>>>>>>> upstream/18.0
 =======
                         <field name="tag_ids" widget="many2many_tags"  options="{'color_field': 'color', 'no_create_edit': True}"/>
 >>>>>>> upstream/18.0
@@ -398,7 +402,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="reward_message" placeholder="Thanks for sharing, here is your reward!"/>
+=======
+                                <field name="reward_message" placeholder='e.g. "Thanks for sharing, here is your reward!"'/>
+>>>>>>> upstream/18.0
 =======
                                 <field name="reward_message" placeholder='e.g. "Thanks for sharing, here is your reward!"'/>
 >>>>>>> upstream/18.0

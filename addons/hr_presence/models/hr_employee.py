@@ -172,7 +172,11 @@ Thank you for your prompt attention to this matter.""")
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": _("Send SMS"),
+=======
+            "name": self.env._("Send SMS"),
+>>>>>>> upstream/18.0
 =======
             "name": self.env._("Send SMS"),
 >>>>>>> upstream/18.0
