@@ -105,7 +105,11 @@ test("Feedback with rating and comment", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(`img[data-alt="${RATING.GOOD}"]`);
+=======
+    await click(`img[alt="${RATING.GOOD}"]`);
+>>>>>>> upstream/18.0
 =======
     await click(`img[alt="${RATING.GOOD}"]`);
 >>>>>>> upstream/18.0

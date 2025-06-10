@@ -199,7 +199,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -255,6 +258,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -354,7 +360,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for reward in coupon.program_id.reward_ids:
+=======
+            for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
+>>>>>>> upstream/18.0
 =======
             for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
 >>>>>>> upstream/18.0

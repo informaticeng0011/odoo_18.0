@@ -24,6 +24,10 @@ registry.category("web_tour.tours").add("self_attribute_selector", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ProductPage.checkAttributePrice("Size", "S", "$ 0.25"),
+>>>>>>> upstream/18.0
 =======
         ProductPage.checkAttributePrice("Size", "S", "$ 0.25"),
 >>>>>>> upstream/18.0

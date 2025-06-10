@@ -615,6 +615,7 @@ test("Line chart to support cumulative data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("cumulative line chart with past data before domain period", async () => {
     const serverData = getBasicServerData();
     serverData.models.partner.records = [
@@ -770,6 +771,8 @@ test("update existing chart to cumulate past data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const cumulativeDateServerData = getBasicServerData();
 cumulativeDateServerData.models.partner.records = [
     { date: "2020-01-01", probability: 10 },
@@ -846,6 +849,9 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -969,7 +975,11 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...definition,
+=======
+            ...cumulativeChartDefinition,
+>>>>>>> upstream/18.0
 =======
             ...cumulativeChartDefinition,
 >>>>>>> upstream/18.0
@@ -1133,7 +1143,10 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1249,6 +1262,12 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const figure = model.exportData().sheets[0].figures[0];
+    expect(figure.data.cumulative).toBe(true);
+    expect(figure.data.cumulatedStart).toBe(true);
+>>>>>>> upstream/18.0
 =======
     const figure = model.exportData().sheets[0].figures[0];
     expect(figure.data.cumulative).toBe(true);
@@ -1417,6 +1436,7 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -1457,6 +1477,8 @@ test("cumulative line chart with past data before domain period specifying cumul
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,6 +1556,9 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

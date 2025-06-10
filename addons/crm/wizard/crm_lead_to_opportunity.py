@@ -149,6 +149,12 @@ class Lead2OpportunityPartner(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.lead_id != result_opportunity:
+            # Prevent unwanted cascade during unlinks, keeping other operations and overrides possible
+            self.write({'lead_id': result_opportunity})
+>>>>>>> upstream/18.0
 =======
         if self.lead_id != result_opportunity:
             # Prevent unwanted cascade during unlinks, keeping other operations and overrides possible
