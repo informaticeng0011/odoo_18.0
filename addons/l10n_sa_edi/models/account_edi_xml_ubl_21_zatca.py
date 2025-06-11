@@ -405,7 +405,11 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m._is_downpayment())
+=======
+            prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
+>>>>>>> upstream/18.0
 =======
             prepayment_move_id = line.sale_line_ids.invoice_lines.move_id.filtered(lambda m: m.move_type == 'out_invoice' and m._is_downpayment())
 >>>>>>> upstream/18.0
@@ -527,9 +531,17 @@ class AccountEdiXmlUBL21Zatca(models.AbstractModel):
             # values to set in the TaxableAmount and TaxAmount nodes on the InvoiceLine for the down payment.
             # This means ZATCA will return a warning message for the BR-KSA-80 rule since it cannot calculate the
             # TaxableAmount and the TaxAmount nodes correctly. To avoid this, we re-caclculate the taxes_vals just before
+<<<<<<< HEAD
             # we set the values for the down payment line, and we do not pass any filters to the
             # _prepare_invoice_aggregated_taxes method
             line_taxes = line.move_id._prepare_invoice_aggregated_taxes(grouping_key_generator=grouping_key_generator)
+=======
+            # we set the values for the down payment line.
+            line_taxes = line.move_id._prepare_invoice_aggregated_taxes(
+                filter_tax_values_to_apply=lambda l, t: not t["tax"].l10n_sa_is_retention,
+                grouping_key_generator=grouping_key_generator
+            )
+>>>>>>> upstream/18.0
             taxes_vals = line_taxes['tax_details_per_record'][line]
 
         line_vals = super()._get_invoice_line_vals(line, line_id, taxes_vals)

@@ -299,7 +299,11 @@ class MailActivityMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['mail.activity'].sudo().search(
+=======
+        self.env['mail.activity'].with_context(active_test=False).sudo().search(
+>>>>>>> upstream/18.0
 =======
         self.env['mail.activity'].with_context(active_test=False).sudo().search(
 >>>>>>> upstream/18.0

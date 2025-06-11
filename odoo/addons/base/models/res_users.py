@@ -345,7 +345,11 @@ class Users(models.Model):
             'image_1024', 'image_512', 'image_256', 'image_128', 'lang', 'tz',
             'tz_offset', 'groups_id', 'partner_id', 'write_date', 'action_id',
             'avatar_1920', 'avatar_1024', 'avatar_512', 'avatar_256', 'avatar_128',
+<<<<<<< HEAD
             'share', 'device_ids',
+=======
+            'share', 'device_ids', 'display_name',
+>>>>>>> upstream/18.0
         ]
 
     @property
@@ -1619,7 +1623,11 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super(UsersImplied, self).write(values)
+=======
+        res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
+>>>>>>> upstream/18.0
 =======
         res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
 >>>>>>> upstream/18.0
@@ -1681,6 +1689,12 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('no_add_implied_groups'):
+            # in a recursive write, defer adding implied groups to the base call
+            return res
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('no_add_implied_groups'):
             # in a recursive write, defer adding implied groups to the base call
@@ -1929,7 +1943,11 @@ class GroupsView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else None
+=======
+            user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
+>>>>>>> upstream/18.0
 =======
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
 >>>>>>> upstream/18.0
@@ -2346,6 +2364,20 @@ class UsersView(models.Model):
             })
         return res
 
+<<<<<<< HEAD
+=======
+    def _get_view_postprocessed(self, view, arch, **options):
+        arch, models = super()._get_view_postprocessed(view, arch, **options)
+        if view == self.env.ref('base.view_users_form_simple_modif'):
+            tree = etree.fromstring(arch)
+            for node_field in tree.xpath('//field[@__groups_key__]'):
+                if node_field.get('name') in self.SELF_READABLE_FIELDS:
+                    node_field.attrib.pop('__groups_key__')
+            arch = etree.tostring(tree)
+        return arch, models
+
+
+>>>>>>> upstream/18.0
 class CheckIdentity(models.TransientModel):
     """ Wizard used to re-check the user's credentials (password) and eventually
     revoke access to his account to every device he has an active session on.

@@ -36,6 +36,7 @@
 # Tugay Hatıl <tugayh@projetgrup.com>, 2025
 # Melih Melik Sonmez, 2025
 # Hakan Türkün, 2025
+<<<<<<< HEAD
 # Wil Odoo, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,11 +146,16 @@
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +296,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -960,7 +971,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1008,6 +1022,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1073,11 +1090,14 @@ msgstr "<strong>Satış Temsilcisi</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Teslimat adresi</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2147,7 +2167,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varsayılan Satış Fiyatı Dahil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varsayılan Satış Fiyatı Dahil"
 >>>>>>> upstream/18.0
@@ -2204,6 +2228,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bu Şirket ile ürün ve faturalarda kullanılan satış fiyatının vergilerini "
+"içerip içermediği konusunda varsayılan."
+>>>>>>> upstream/18.0
 =======
 "Bu Şirket ile ürün ve faturalarda kullanılan satış fiyatının vergilerini "
 "içerip içermediği konusunda varsayılan."
@@ -2576,6 +2605,14 @@ msgid "Email"
 msgstr "E-Posta"
 
 #. module: sale
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale.model_mail_compose_message
+msgid "Email composition wizard"
+msgstr "E-posta yazma sihirbazı"
+
+#. module: sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_res_config_settings__invoice_mail_template_id
 msgid "Email sent to the customer once the invoice is available."
 msgstr "Fatura hazır olduğunda müşteriye gönderilen e-posta."
@@ -2663,8 +2700,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mali pozisyonlar, belirli müşteriler veya müşteri siparişleri / faturalar "
 "için vergi ve hesapları uyarlamak için kullanılır. Varsayılan değer "
+=======
+"Mali pozisyonlar, belirli müşteriler veya satış siparişleri/faturaları için "
+"vergi ve hesapları uyarlamak amacıyla kullanılır ve varsayılan değer "
+>>>>>>> upstream/18.0
 =======
 "Mali pozisyonlar, belirli müşteriler veya satış siparişleri/faturaları için "
 "vergi ve hesapları uyarlamak amacıyla kullanılır ve varsayılan değer "
@@ -2973,7 +3015,11 @@ msgid "In the Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siparişte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siparişte"
 >>>>>>> upstream/18.0
@@ -3123,9 +3169,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu ay faturalandırıimış gelir miktarı. Bu, satış kanalının bu ay "
 "faturalandırdığı tutar. Mevcut ve hedef gelirin ilerleme oranını kanban "
 "görünümünde hesaplamak için kullanılır."
+=======
+"İçinde bulunulan aya ait fatura geliri. Bu, satış kanalının bu ay fatura "
+"ettiği tutardır. Kanban görünümünde mevcut ve hedef gelirin ilerleme oranını"
+" hesaplamak için kullanılır."
+>>>>>>> upstream/18.0
 =======
 "İçinde bulunulan aya ait fatura geliri. Bu, satış kanalının bu ay fatura "
 "ettiği tutardır. Kanban görünümünde mevcut ve hedef gelirin ilerleme oranını"
@@ -3248,7 +3300,11 @@ msgid "Invoiced Quantity (posted)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faturalandırılan Miktar (yayımlandı)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faturalandırılan Miktar (yayımlandı)"
 >>>>>>> upstream/18.0
@@ -3661,7 +3717,11 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mitchell Admin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitchell Admin"
 >>>>>>> upstream/18.0
@@ -4549,7 +4609,11 @@ msgid "Quotation Viewed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fiyat Teklifi Görüntülendi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fiyat Teklifi Görüntülendi"
 >>>>>>> upstream/18.0
@@ -4780,7 +4844,11 @@ msgid "Revenue Target for the current month (untaxed total of paid invoices)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bu ay için gelir hedefi (ödenmiş faturaların vergisiz toplamı)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bu ay için gelir hedefi (ödenmiş faturaların vergisiz toplamı)."
 >>>>>>> upstream/18.0
@@ -5177,6 +5245,14 @@ msgid "Salespersons"
 msgstr "Satış Temsilcileri"
 
 #. module: sale
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale.model_mail_scheduled_message
+msgid "Scheduled Message"
+msgstr "Planlanmış Mesaj"
+
+#. module: sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Search Sales Order"
@@ -5554,7 +5630,11 @@ msgid "Tax Excl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergi Hariç"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vergi Hariç"
 >>>>>>> upstream/18.0
@@ -5672,7 +5752,11 @@ msgid "Tax Incl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergi Dahil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vergi Dahil"
 >>>>>>> upstream/18.0
@@ -5817,6 +5901,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(team_name)s ekibinin %(sale_order_count)s adet aktif satış siparişi var. "
+"Bunları iptal etmeyi veya ekibi arşivlemeyi düşünebilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "%(team_name)s ekibinin %(sale_order_count)s adet aktif satış siparişi var. "
 "Bunları iptal etmeyi veya ekibi arşivlemeyi düşünebilirsiniz."
@@ -6568,12 +6657,15 @@ msgstr "Detayları Görüntüle"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Siparişi Görüntüle"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr "Teklifi Görüntüle"
 

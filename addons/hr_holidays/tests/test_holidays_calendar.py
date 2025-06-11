@@ -90,6 +90,7 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_search_holidays_calendar(self):
         """
@@ -136,6 +137,8 @@ class TestHolidaysCalendar(HttpCase, TestHrHolidaysCommon):
                     expected, 
                     f"Failed for term '{term}' with user {user.login}. Expected {expected}, got {records}."
                 )
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

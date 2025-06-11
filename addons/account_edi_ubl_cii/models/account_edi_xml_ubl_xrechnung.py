@@ -24,6 +24,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
         # EXTENDS account.edi.xml.ubl_bis3
         vals = super()._export_invoice_vals(invoice)
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
+<<<<<<< HEAD
+=======
+        if not vals['vals'].get('buyer_reference'):
+            vals['vals']['buyer_reference'] = 'N/A'
+>>>>>>> upstream/18.0
         return vals
 
     def _export_invoice_constraints(self, invoice, vals):

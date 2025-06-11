@@ -315,7 +315,10 @@ class AccountMove(models.Model):
             'ref': self.ref,
             'is_refund': self.move_type == 'in_refund',
             'invoice_date': self.invoice_date,
+<<<<<<< HEAD
             'tipofactura': 'F5' if self._l10n_es_is_dua() else 'F1',
+=======
+>>>>>>> upstream/18.0
              **self._l10n_es_tbai_get_vendor_bill_tax_values(),
         }
         # Check if intracom
@@ -323,12 +326,31 @@ class AccountMove(models.Model):
         mod_303_11 = self.env.ref('l10n_es.mod_303_casilla_11_balance')._get_matching_tags()
         tax_tags = self.invoice_line_ids.tax_ids.flatten_taxes_hierarchy().repartition_line_ids.tag_ids
         intracom = bool(tax_tags & (mod_303_10 + mod_303_11))
+<<<<<<< HEAD
         values['regime_key'] = ['09'] if intracom else ['01']
+=======
+        reagyp = self.invoice_line_ids.tax_ids.filtered(lambda t: t.l10n_es_type == 'sujeto_agricultura')
+        if intracom:
+            values['regime_key'] = ['09']
+        elif reagyp:
+            values['regime_key'] = ['19']
+        else:
+            values['regime_key'] = ['01']
+>>>>>>> upstream/18.0
         # Credit notes (factura rectificativa)
         if values['is_refund']:
             values['refund_reason'] = self.l10n_es_tbai_refund_reason
             values['credit_note_invoices'] = self.reversed_entry_id | self.l10n_es_tbai_reversed_ids
+<<<<<<< HEAD
 
+=======
+        if reagyp:
+            values['tipofactura'] = 'F6'
+        elif self._l10n_es_is_dua():
+            values['tipofactura'] = 'F5'
+        else:
+            values['tipofactura'] = 'F1'
+>>>>>>> upstream/18.0
         return values
 
     def _l10n_es_tbai_get_vendor_bill_tax_values(self):

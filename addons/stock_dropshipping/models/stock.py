@@ -77,7 +77,11 @@ class StockPickingType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if picking_type.default_location_src_id.usage == 'supplier' and picking_type.default_location_dest_id.usage == 'customer':
+=======
+            if picking_type.code == 'dropship':
+>>>>>>> upstream/18.0
 =======
             if picking_type.code == 'dropship':
 >>>>>>> upstream/18.0

@@ -51,6 +51,7 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BOLD_TAGS, notStrong, span, strong } from "../_helpers/tags";
 import { bold, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
 =======
@@ -237,6 +238,11 @@ import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/us
 import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
 import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
+=======
+import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
+import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 
 const styleH1Bold = `h1 { font-weight: bold; }`;
 
@@ -372,7 +378,11 @@ test("should remove a bold tag that was redondant while performing the command",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentBefore: `<p>a${tag(`b${tag(`[c]`)}d`)}e</p>`,
+=======
+            contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
+>>>>>>> upstream/18.0
 =======
             contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
 >>>>>>> upstream/18.0
@@ -535,13 +545,21 @@ test("create bold with shortcut + selected with arrow", async () => {
     await simulateArrowKeyPress(editor, ["Shift", "ArrowRight"]);
     await tick(); // await selectionchange
     await animationFrame();
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
     expect(getContent(el)).toBe(`<p>ab${strong("[\u200B", "first")}c]d</p>`);
 
     await simulateArrowKeyPress(editor, ["Shift", "ArrowLeft"]);
     await tick(); // await selectionchange
     await animationFrame();
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
     expect(getContent(el)).toBe(`<p>ab${strong("[\u200B]", "first")}cd</p>`);
 });
 
@@ -633,7 +651,10 @@ describe("inside container font-weight: 500 and strong being strong-weight: 500"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -806,6 +827,9 @@ test("should not remove empty bold tag in an empty block when changing selection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

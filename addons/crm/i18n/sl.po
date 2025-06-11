@@ -120,7 +120,11 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-info-circle me-2\" title=\"Assigned Lead Count\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_partner_kanban_view
@@ -128,6 +132,11 @@ msgid ""
 "<i class=\"fa fa-star me-1\" aria-label=\"Opportunities\" role=\"img\" "
 "title=\"Opportunities\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-star me-1\" aria-label=\"Opportunities\" role=\"img\" "
+"title=\"Opportunities\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -154,6 +163,12 @@ msgid ""
 "title=\"By saving this change, the customer email will also be updated.\" "
 "invisible=\"not partner_email_update\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"By saving this change, the customer email will also be updated.\" "
+"invisible=\"not partner_email_update\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -162,6 +177,12 @@ msgid ""
 "title=\"By saving this change, the customer phone number will also be "
 "updated.\" invisible=\"not partner_phone_update\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning oe_edit_only\" "
+"title=\"By saving this change, the customer phone number will also be "
+"updated.\" invisible=\"not partner_phone_update\"/>"
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -268,6 +289,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span> dodeljene stranke v tem mesecu\n"
+"                            na največ </span>"
+>>>>>>> upstream/18.0
 =======
 "<span> dodeljene stranke v tem mesecu\n"
 "                            na največ </span>"
@@ -556,6 +582,80 @@ msgid ""
 "</table>\n"
 "        "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 24px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- GLAVA -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: white; padding: 0; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">Vaša potencialna stranka/priložnost</span><br/>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.name or ''\">Zanimanje za vaše izdelke</span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <img t-attf-src=\"/logo.png?company={{ object.company_id.id }}\" style=\"padding: 0px; margin: 0px; height: 48px;\" t-att-alt=\"object.company_id.name\"/>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;\"/>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                        <div>\n"
+"                            Živjo <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br/><br/>\n"
+"                            Pozdravljeni v <t t-out=\"object.company_id.name or ''\">Moje podjetje (Novo mesto)</t>.\n"
+"                            Veseli me, da sem vas spoznal! Zdaj, ko ste na krovu, boste odkrili, kaj <t t-out=\"object.company_id.name or ''\">Moje podjetje (Novo mesto)\n"
+"</t> ponuja. Moje ime je <t t-out=\"object.user_id.name or ''\">Marko Demo</t> in pomagal vam bom kar najbolje izkoristiti Odoo. Ali lahko kmalu načrtujemo kratko predstavitev?<br/>\n"
+"                            Kadarkoli se lahko obrnete na nas!<br/><br/>\n"
+"                            Lep pozdrav,<br/>\n"
+"                            <t t-if=\"object.user_id\">\n"
+"                                <b><t t-out=\"object.user_id.name or ''\">Marko Demo</t></b>\n"
+"                                <br/>E-pošta: <t t-out=\"object.user_id.email or ''\">marko.demo25@primer.si</t>\n"
+"                                <br/>Telefon: <t t-out=\"object.user_id.phone or ''\">05 123-4567</t>\n"
+"                            </t>\n"
+"                            <t t-else=\"\">\n"
+"                                <t t-out=\"object.company_id.name or ''\">Moje podjetje (Novo mesto)</t>\n"
+"                            </t>\n"
+"                        </div>\n"
+"                    </td>\n"
+"                </tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- NOGA-->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px; padding: 0 8px 0 8px; font-size:11px;\">\n"
+"            <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 4px 0px;\"/>\n"
+"            <b t-out=\"object.company_id.name or ''\">Moje podjetje (Novo mesto)</b><br/>\n"
+"            <div style=\"color: #999999;\">\n"
+"                <t t-out=\"object.company_id.phone or ''\">05 123-4567</t>\n"
+"                <t t-if=\"object.company_id.email\">\n"
+"                    | <a t-attf-href=\"'mailto:%s' % {{ object.company_id.email }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.email or ''\">info@vasepodjetje.si</a>\n"
+"                </t>\n"
+"                <t t-if=\"object.company_id.website\">\n"
+"                    | <a t-attf-href=\"'%s' % {{ object.company_id.website }}\" style=\"text-decoration:none; color: #999999;\" t-out=\"object.company_id.website or ''\">http://www.primer.si</a>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- POGANJA -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    POGANJA ga<a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"</td></tr>\n"
+"</table>\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
@@ -633,6 +733,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nova možna stranka je bila ustvarjena in ni bila dodeljena nobeni ekipi."
+>>>>>>> upstream/18.0
 =======
 "Nova možna stranka je bila ustvarjena in ni bila dodeljena nobeni ekipi."
 >>>>>>> upstream/18.0
@@ -1009,7 +1113,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vzdevek status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vzdevek status"
 >>>>>>> upstream/18.0
@@ -1202,7 +1310,11 @@ msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje vzdevka je ocenjeno pri zadnjem prejetem sporočilu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje vzdevka je ocenjeno pri zadnjem prejetem sporočilu."
 >>>>>>> upstream/18.0
@@ -1633,6 +1745,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preverite Stage Tracker of Leads, da prepoznate ozka grla v vašem prodajnem "
+"procesu."
+>>>>>>> upstream/18.0
 =======
 "Preverite Stage Tracker of Leads, da prepoznate ozka grla v vašem prodajnem "
 "procesu."
@@ -2124,7 +2241,11 @@ msgid "Create a Lead Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite načrt aktivnosti za novo stranko"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvarite načrt aktivnosti za novo stranko"
 >>>>>>> upstream/18.0
@@ -2571,6 +2692,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povlecite svojo priložnost na <b>Zmaga</b> ko dobiš dogovor. Čestitke!"
+>>>>>>> upstream/18.0
 =======
 "Povlecite svojo priložnost na <b>Zmaga</b> ko dobiš dogovor. Čestitke!"
 >>>>>>> upstream/18.0
@@ -2764,7 +2889,11 @@ msgid "Duration: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje: %s"
 >>>>>>> upstream/18.0
@@ -2981,7 +3110,11 @@ msgid "Email Domain Criterion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kriterij e-poštne domene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kriterij e-poštne domene"
 >>>>>>> upstream/18.0
@@ -3183,7 +3316,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-poštna domena, npr. »example.com« v »odoo@example.com«"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-poštna domena, npr. »example.com« v »odoo@example.com«"
 >>>>>>> upstream/18.0
@@ -3411,7 +3548,11 @@ msgid "Exceed monthly lead assignement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preseganje mesečne dodelitve vodilnih strank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preseganje mesečne dodelitve vodilnih strank"
 >>>>>>> upstream/18.0
@@ -3742,7 +3883,11 @@ msgid "From %(source_name)s: %(source_subject)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Od %(source_name)s: %(source_subject)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Od %(source_name)s: %(source_subject)s"
 >>>>>>> upstream/18.0
@@ -4157,7 +4302,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON, ki preslika ID-je iz polja »mnogo v eno« v porabljene sekunde"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON, ki preslika ID-je iz polja »mnogo v eno« v porabljene sekunde"
 >>>>>>> upstream/18.0
@@ -4381,7 +4530,11 @@ msgid "Last Automation:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnja avtomatizacija:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnja avtomatizacija:"
 >>>>>>> upstream/18.0
@@ -4575,7 +4728,11 @@ msgid "Last Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnji sestanek"
 >>>>>>> upstream/18.0
@@ -4847,7 +5004,11 @@ msgid "Lead Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Planiranje strank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Planiranje strank"
 >>>>>>> upstream/18.0
@@ -5059,7 +5220,11 @@ msgid "Lead Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake za stranke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznake za stranke"
 >>>>>>> upstream/18.0
@@ -5241,6 +5406,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Potencialna stranka je bila dodeljena temu članu v zadnjem dnevu (izgubljena"
+" stranka ni vključena)."
+>>>>>>> upstream/18.0
 =======
 "Potencialna stranka je bila dodeljena temu članu v zadnjem dnevu (izgubljena"
 " stranka ni vključena)."
@@ -5520,7 +5690,11 @@ msgid "Leads (last 24h)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "indici (v zadnjih 24 urah)"
+>>>>>>> upstream/18.0
 =======
 msgstr "indici (v zadnjih 24 urah)"
 >>>>>>> upstream/18.0
@@ -5789,7 +5963,11 @@ msgid "Let's get to work!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lotimo se dela!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lotimo se dela!"
 >>>>>>> upstream/18.0
@@ -5992,7 +6170,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalno zaznavanje dohodnih delov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokalno zaznavanje dohodnih delov"
 >>>>>>> upstream/18.0
@@ -6187,6 +6369,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zdi se, da ni nič načrtovano. :(<br><br><i>Nasvet: Načrtujte dejavnosti, da boste imeli pregled nad vsem, kar morate narediti!\n"
+"</i>"
+>>>>>>> upstream/18.0
 =======
 "Zdi se, da ni nič načrtovano. :(<br><br><i>Nasvet: Načrtujte dejavnosti, da boste imeli pregled nad vsem, kar morate narediti!\n"
 "</i>"
@@ -6431,7 +6618,11 @@ msgid "Lost Lead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izgubljena potencialna stranka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izgubljena potencialna stranka"
 >>>>>>> upstream/18.0
@@ -6645,6 +6836,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kličite in prejemajte klice iz Odooja z Ring-overjevim klicalnikom. Sledite "
+"klicem, SMS sporočilom in pridobite prepise pogovorov, ki jih poganja umetna"
+" inteligenca."
+>>>>>>> upstream/18.0
 =======
 "Kličite in prejemajte klice iz Odooja z Ring-overjevim klicalnikom. Sledite "
 "klicem, SMS sporočilom in pridobite prepise pogovorov, ki jih poganja umetna"
@@ -6986,7 +7183,11 @@ msgid "Meeting Display Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum prikaza sestanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum prikaza sestanka"
 >>>>>>> upstream/18.0
@@ -7167,7 +7368,11 @@ msgid "Meeting Display Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka prikaza sestanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka prikaza sestanka"
 >>>>>>> upstream/18.0
@@ -7349,7 +7554,11 @@ msgid "Meeting scheduled at %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sestanek je predviden ob %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sestanek je predviden ob %s"
 >>>>>>> upstream/18.0
@@ -7690,7 +7899,11 @@ msgid "Next Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslednji sestanek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslednji sestanek"
 >>>>>>> upstream/18.0
@@ -7883,7 +8096,11 @@ msgid "No Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni sestanka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni sestanka"
 >>>>>>> upstream/18.0
@@ -8321,7 +8538,11 @@ msgid "Opportunity Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število priložnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število priložnosti"
 >>>>>>> upstream/18.0
@@ -8708,7 +8929,11 @@ msgid "Predictive Lead Scoring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prediktivno točkovanje potencialnih strank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prediktivno točkovanje potencialnih strank"
 >>>>>>> upstream/18.0
@@ -8943,7 +9168,11 @@ msgid "Prorated Recurring Revenues"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sorazmerni ponavljajoči se prihodki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sorazmerni ponavljajoči se prihodki"
 >>>>>>> upstream/18.0
@@ -9236,7 +9465,11 @@ msgid "Ringover VOIP Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ringover VOIP Telefon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ringover VOIP Telefon"
 >>>>>>> upstream/18.0
@@ -9514,6 +9747,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na seznamu izberite vsaj dve potencialni stranki/priložnosti, da ju "
+"združite."
+>>>>>>> upstream/18.0
 =======
 "Na seznamu izberite vsaj dve potencialni stranki/priložnosti, da ju "
 "združite."
@@ -9912,7 +10150,11 @@ msgid "Status time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas stanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas stanja"
 >>>>>>> upstream/18.0
@@ -10114,7 +10356,11 @@ msgid "Subject: "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predmet: "
+>>>>>>> upstream/18.0
 =======
 msgstr "Predmet: "
 >>>>>>> upstream/18.0
@@ -10512,7 +10758,11 @@ msgid "Tip: Identify Bottlenecks at a glance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasvet: Ozka grla prepoznajte na prvi pogled"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nasvet: Ozka grla prepoznajte na prvi pogled"
 >>>>>>> upstream/18.0
@@ -10706,7 +10956,11 @@ msgid "Tip: Turn Sales Forecasting into Child's Play"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasvet: Spremenite napovedovanje prodaje v otroško igro"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nasvet: Spremenite napovedovanje prodaje v otroško igro"
 >>>>>>> upstream/18.0
@@ -10934,6 +11188,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Resnica je, če je mesečno število dodelitev potencialnih strank večje od "
+"največje omejitve dodelitev, sicer gre za napako."
+>>>>>>> upstream/18.0
 =======
 "Resnica je, če je mesečno število dodelitev potencialnih strank večje od "
 "največje omejitve dodelitev, sicer gre za napako."
@@ -11302,6 +11561,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Z uporabo CRM Forecast Kanban preprosto določite, kdaj se pričakuje "
+"pridobitev priložnosti."
+>>>>>>> upstream/18.0
 =======
 "Z uporabo CRM Forecast Kanban preprosto določite, kdaj se pričakuje "
 "pridobitev priložnosti."
@@ -11613,7 +11877,11 @@ msgid "What went wrong?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kaj je šlo narobe?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kaj je šlo narobe?"
 >>>>>>> upstream/18.0
@@ -11877,7 +12145,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vzdevek"
+>>>>>>> upstream/18.0
 =======
 msgstr "vzdevek"
 >>>>>>> upstream/18.0
@@ -12058,7 +12330,11 @@ msgid "e.g. \"0123456789\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"0123456789\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"0123456789\""
 >>>>>>> upstream/18.0
@@ -12245,7 +12521,11 @@ msgid "e.g. \"email@address.com\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"email@naslov.si\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"email@naslov.si\""
 >>>>>>> upstream/18.0
@@ -12447,7 +12727,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mycompany.si"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. mycompany.si"
 >>>>>>> upstream/18.0

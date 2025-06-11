@@ -41,6 +41,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
 =======
 "POT-Creation-Date: 2025-05-07 20:36+0000\n"
@@ -138,6 +139,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-05-30 18:36+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Raz Omer Hussein, 2025\n"
 "Language-Team: Kurdish (https://app.transifex.com/odoo/teams/41243/ku/)\n"
@@ -151,6 +155,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,23 +203,39 @@ msgid ""
 "%s should have a KVK or OIN number set in Company ID field or as Peppol "
 "e-address (EAS code 0106 or 0190)."
 >>>>>>> upstream/18.0
+=======
+"%s should have a KVK or OIN number set in Company ID field or as Peppol "
+"e-address (EAS code 0106 or 0190)."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "1.0"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1.0"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_facturx_export_22
 msgid "42"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "42"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "A payment of %s was detected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پارەیەک لە %s دۆزرایەوە."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_a_nz
@@ -222,6 +243,7 @@ msgid "A-NZ BIS Billing 3.0"
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model:ir.model,name:account_edi_ubl_cii.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
@@ -365,6 +387,16 @@ msgstr "هەژمار بگوازەرەوە بینێرە"
 =======
 msgstr "هەژمار بگوازەرەوە بینێرە"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__as
+msgid "AS2 exchange"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#: model:ir.model,name:account_edi_ubl_cii.model_account_move_send
+msgid "Account Move Send"
+msgstr "هەژمار بگوازەرەوە بینێرە"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9923
@@ -426,7 +458,11 @@ msgid "Attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوپێچ"
+>>>>>>> upstream/18.0
 =======
 msgstr "هاوپێچ"
 >>>>>>> upstream/18.0
@@ -588,7 +624,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move_send.py:0
 msgid "Check Partner(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هاوبەش(ەکان) بپشکنە"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,help:account_edi_ubl_cii.field_res_partner__peppol_eas
@@ -678,7 +718,11 @@ msgid "Configure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ڕێکخستن"
+>>>>>>> upstream/18.0
 =======
 msgstr "ڕێکخستن"
 >>>>>>> upstream/18.0
@@ -854,6 +898,11 @@ msgid ""
 "Could not retrieve a partner corresponding to '%s'. A new partner was "
 "created."
 msgstr ""
+<<<<<<< HEAD
+=======
+"نەتوانرا هاوبەشێک وەربگرێتەوە کە هاوتایە لەگەڵ '%s'. هاوبەشێکی نوێ دروست "
+"بوو."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -862,18 +911,31 @@ msgid ""
 "Could not retrieve currency: %s. Did you enable the multicurrency option and"
 " activate the currency?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"نەتوانرا دراو وەربگرێتەوە: %s. ئایا بژاردەی فرە دراوت چالاک کردووە و "
+"دراوەکەت چالاک کردووە؟"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Could not retrieve the tax: %(amount)s %% for line '%(line)s'."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نەتوانرا باجەکە وەربگرێتەوە: %(amount)s %% بۆ هێڵ '%(line)s'."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Could not retrieve the tax: %(tax_percentage)s %% for line '%(line)s'."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "نەتوانرا باجەکە وەربگرێتەوە: %(tax_percentage)s %% بۆ هێڵ '%(line)s'."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -920,7 +982,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0130
 msgid "Directorates of the European Commission"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بەڕێوەبەرایەتییەکانی کۆمیسیۆنی ئەوروپا"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_efff
@@ -941,18 +1007,34 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "Each invoice line shall have one and only one tax."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەر هێڵێکی فاکتورە یەک و تەنها یەک باجی دەبێت."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "Each invoice line should have a product or a label."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەر هێڵێکی فاکتورە دەبێت بەرهەمێک یان لیبێڵێکی هەبێت."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Each invoice line should have at least one tax."
+<<<<<<< HEAD
+=======
+msgstr "هەر هێڵێکی فاکتورە پێویستە لانیکەم یەک باجی هەبێت."
+
+#. module: account_edi_ubl_cii
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__em
+msgid "Electronic mail"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -988,6 +1070,14 @@ msgid "Factur-x/XRechnung CII 2.2.0"
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__au
+msgid "File Transfer Protocol"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0037
 msgid "Finland LY-tunnus"
 msgstr ""
@@ -1009,18 +1099,31 @@ msgid ""
 "For intracommunity supply, the actual delivery date or the invoicing period "
 "should be included."
 msgstr ""
+<<<<<<< HEAD
+=======
+"بۆ دابینکردنی ناو کۆمەڵگا، پێویستە بەرواری ڕاستەقینەی گەیاندن یان ماوەی "
+"فاکتورەکردن لەخۆبگرێت."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "For intracommunity supply, the delivery address should be included."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بۆ دابینکردنی ناو کۆمەڵگا، پێویستە ناونیشانی گەیاندنەکە لەگەڵیدا بێت."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Format used to import the invoice: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"بۆ دابینکردنی ناو کۆمەڵگا، پێویستە ناونیشانی گەیاندنەکە لەگەڵیدا بێت: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0002
@@ -1081,7 +1184,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "Invoice generated by Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورەیەک کە لەلایەن ئۆدۆوە دروستکراوە"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9935
@@ -1218,6 +1325,7 @@ msgid "Norway Org.nr."
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
 msgid "Odoo"
 <<<<<<< HEAD
@@ -1305,6 +1413,16 @@ msgstr "ئۆدۆ"
 =======
 msgstr "ئۆدۆ"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__an
+msgid "O.F.T.P. (ODETTE File Transfer Protocol)"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.account_invoice_pdfa_3_facturx_metadata
+msgid "Odoo"
+msgstr "ئۆدۆ"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
@@ -1350,7 +1468,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1449,6 +1570,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1574,7 +1698,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1673,6 +1800,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1819,7 +1949,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "Tax '%(tax_name)s' is invalid: %(error_message)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "باج '%(tax_name)s' نادروستە: %(error_message)s"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1860,19 +1994,31 @@ msgstr ""
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_xml_ubl_bis3.py:0
 msgid "The country is required for the %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "وڵات پێویستە بۆ %s."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "The currency '%s' is not active."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دراوەکە '%s' چالاک نییە."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
 msgid "The element %(record)s is required on %(field_list)s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پێکهاتەکە %(record)s پێویستە لەسەر %(field_list)s."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1894,7 +2040,11 @@ msgstr ""
 msgid ""
 "The invoice has been converted into a credit note and the quantities have "
 "been reverted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فاکتورەکە گۆڕاوە بۆ یاداشتێکی قەرز و بڕەکان گەڕێنراونەتەوە."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9952
@@ -1960,7 +2110,11 @@ msgid "View Partner(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بینینی هاوبەش(ەکان)"
+>>>>>>> upstream/18.0
 =======
 msgstr "بینینی هاوبەش(ەکان)"
 >>>>>>> upstream/18.0
@@ -1989,6 +2143,14 @@ msgid ""
 msgstr ""
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__aq
+msgid "X.400 address for mail text"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_move.py:0
 msgid "XML UBL"
@@ -2011,7 +2173,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model_terms:ir.ui.view,arch_db:account_edi_ubl_cii.view_partner_property_form
 msgid "Your endpoint"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "خاڵی کۆتایی تۆ"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields,field_description:account_edi_ubl_cii.field_res_partner__invoice_edi_format
@@ -2020,7 +2186,11 @@ msgid "eInvoice format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "فۆرماتێکی فاکتورەی ئەلیکترۆنی"
+>>>>>>> upstream/18.0
 =======
 msgstr "فۆرماتێکی فاکتورەی ئەلیکترۆنی"
 >>>>>>> upstream/18.0

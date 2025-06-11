@@ -7,6 +7,10 @@ import { insertText } from "./_helpers/user_actions";
 import { loader } from "@web/core/emoji_picker/emoji_picker";
 import { execCommand } from "./_helpers/userCommands";
 import { unformat } from "./_helpers/format";
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 
 test("should insert a banner with focus inside followed by a paragraph", async () => {
     const { el, editor } = await setupEditor("<p>Test[]</p>");
@@ -28,6 +32,7 @@ test("should insert a banner with focus inside followed by a paragraph", async (
 
     await insertText(editor, "/");
     await animationFrame();
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
 
     await insertText(editor, "banner");
@@ -35,6 +40,14 @@ test("should insert a banner with focus inside followed by a paragraph", async (
     expect(".o-we-powerbox").toHaveCount(0, {
         message: "shouldn't be possible to add a banner inside a banner",
     });
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+
+    await insertText(editor, "banner");
+    await animationFrame();
+    await expectElementCount(".o-we-powerbox", 0);
+
+>>>>>>> upstream/18.0
 });
 
 test("should insert a banner with DIV as basecontainer and focus inside it", async () => {

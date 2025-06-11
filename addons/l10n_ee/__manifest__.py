@@ -2,7 +2,11 @@
 {
     'name': 'Estonia - Accounting',
     'website': 'https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations.html',
+<<<<<<< HEAD
     'version': '1.2',
+=======
+    'version': '1.3',
+>>>>>>> upstream/18.0
     'icon': '/account/static/description/l10n.png',
     'countries': ['ee'],
     'category': 'Accounting/Localizations/Account Charts',

@@ -15,6 +15,10 @@ import zipfile
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from contextlib import suppress
+>>>>>>> upstream/18.0
 =======
 from contextlib import suppress
 >>>>>>> upstream/18.0
@@ -148,12 +152,15 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not request.env.user.share:
             # Check through standard access rights/rules for internal users.
             attachment._delete_and_notify(message)
             return
         # For non-internal users 2 cases are supported:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190,6 +197,9 @@ class AttachmentController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

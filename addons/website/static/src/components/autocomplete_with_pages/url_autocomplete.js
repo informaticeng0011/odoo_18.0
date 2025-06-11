@@ -10,6 +10,11 @@ import { AutoCompleteWithPages } from "@website/components/autocomplete_with_pag
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// TODO: we probably don't need it anymore after merging html_builder
+// see: https://github.com/odoo/odoo/pull/187091
+>>>>>>> upstream/18.0
 =======
 // TODO: we probably don't need it anymore after merging html_builder
 // see: https://github.com/odoo/odoo/pull/187091

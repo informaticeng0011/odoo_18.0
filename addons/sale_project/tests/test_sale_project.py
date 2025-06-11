@@ -111,6 +111,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'project_id': project.id,
         })
 
+<<<<<<< HEAD
+=======
+        # Create additional analytic plans at setup to avoid adding fields in project.project between tests
+        cls.analytic_plan_1 = cls.env['account.analytic.plan'].create({'name': 'Sale Project Plan 1'})
+        cls.analytic_plan_2 = cls.env['account.analytic.plan'].create({'name': 'Sale Project Plan 2'})
+
+>>>>>>> upstream/18.0
     def test_task_create_sol_ui(self):
         self.start_tour('/odoo', 'task_create_sol_tour', login='admin')
 
@@ -169,6 +176,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -286,6 +297,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so_line_order_new_task_new_project = SaleOrderLine.create({
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +428,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -433,6 +447,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -494,10 +511,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #  service_tracking 'task_in_project'
         self.assertTrue(so_line_order_new_task_new_project.project_id, "Sales order line should be linked to newly created project")
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -624,6 +644,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -688,6 +709,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -702,6 +725,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1053,7 +1079,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1082,18 +1111,48 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         })
         self.assertEqual(sale_order.order_line.analytic_distribution, analytic_distribution_manual)
         sale_order.action_confirm()
+<<<<<<< HEAD
         expected_analytic_distribution = analytic_distribution_manual | {str(sale_order.order_line.project_id.account_id.id): 100}
+=======
+        expected_analytic_distribution = {f"{self.analytic_account_sale.id},{sale_order.order_line.project_id.account_id.id}": 100}
+>>>>>>> upstream/18.0
         self.assertEqual(sale_order.order_line.analytic_distribution, expected_analytic_distribution)
 
     def test_project_on_sol_with_analytic_distribution_model(self):
         """ If a line has a distribution coming from an analytic distribution model, and the sale order has a project,
             both the project account and the accounts from the ADM should still be in the line after confirmation.
+<<<<<<< HEAD
         """
         distribution_model = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_a.id,
             'analytic_distribution': {self.analytic_account_sale.id: 100},
             'company_id': self.company.id,
         })
+=======
+            The Project account should appear on all lines if there are several Analytic Distribution Models applying.
+        """
+        # We create one distribution model with two accounts in one line, based on product
+        # and a second model with a different plan, based on partner
+        analytic_account_1 = self.env['account.analytic.account'].create({
+            'name': 'Analytic Account - Plan 1',
+            'plan_id': self.analytic_plan_1.id,
+        })
+        analytic_account_2 = self.env['account.analytic.account'].create({
+            'name': 'Analytic Account - Plan 2',
+            'plan_id': self.analytic_plan_2.id,
+        })
+        distribution_model_product = self.env['account.analytic.distribution.model'].create({
+            'product_id': self.product_a.id,
+            'analytic_distribution': {','.join([str(analytic_account_1.id), str(analytic_account_2.id)]): 100},
+            'company_id': self.company.id,
+        })
+        distribution_model_partner = self.env['account.analytic.distribution.model'].create({
+            'partner_id': self.partner.id,
+            'analytic_distribution': {self.analytic_account_sale.id: 100},
+            'company_id': self.company.id,
+        })
+
+>>>>>>> upstream/18.0
         project = self.env['project.project'].create({
             'name': 'Project Test',
             'account_id': self.analytic_account.id,
@@ -1109,12 +1168,26 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             ],
         })
 
+<<<<<<< HEAD
         expected_analytic_distribution = distribution_model.analytic_distribution | {str(project.account_id.id): 100}
+=======
+        expected_analytic_distribution = {
+            f"{analytic_account_1.id},{analytic_account_2.id},{project.account_id.id}": 100,
+            f"{self.analytic_account_sale.id},{project.account_id.id}": 100,
+        }
+>>>>>>> upstream/18.0
         self.assertEqual(sale_order.order_line.analytic_distribution, expected_analytic_distribution)
 
         # If the project is removed from the SO, only the product's analytic distribution is still in the line
         sale_order.project_id = None
+<<<<<<< HEAD
         self.assertEqual(sale_order.order_line.analytic_distribution, distribution_model.analytic_distribution)
+=======
+        self.assertEqual(
+            sale_order.order_line.analytic_distribution,
+            distribution_model_product.analytic_distribution | distribution_model_partner.analytic_distribution
+        )
+>>>>>>> upstream/18.0
 
         # If project is added and the SO is confirmed, both analytic distributions are in the line
         sale_order.project_id = project
@@ -1126,6 +1199,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

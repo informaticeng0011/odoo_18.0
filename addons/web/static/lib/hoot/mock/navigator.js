@@ -52,7 +52,13 @@ const { userAgent: $userAgent } = navigator;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getBlobValue = (value) => (value instanceof Blob ? value.text() : value);
+=======
+function getBlobValue(value) {
+    return value instanceof Blob ? value.text() : value;
+}
+>>>>>>> upstream/18.0
 =======
 function getBlobValue(value) {
     return value instanceof Blob ? value.text() : value;
@@ -222,6 +228,7 @@ function getBlobValue(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getClipboardValue = (value, type) =>
     getBlobValue(value instanceof ClipboardItem ? value.getType(type) : value);
 
@@ -233,6 +240,8 @@ const getMockValues = () => ({
     vibrate: throwNotImplemented("vibrate"),
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -323,6 +332,9 @@ function getMockValues() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -380,6 +392,7 @@ function getMockValues() {
 /**
  * @returns {Record<PermissionName, { name: string; state: PermissionState }>}
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +541,8 @@ const getUserAgentBrowser = () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getPermissions() {
     return {
         "background-sync": {
@@ -624,6 +639,9 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -713,7 +731,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -826,7 +848,11 @@ function getUserAgentBrowser() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeUserAgent = (platform) => {
+=======
+function makeUserAgent(platform) {
+>>>>>>> upstream/18.0
 =======
 function makeUserAgent(platform) {
 >>>>>>> upstream/18.0
@@ -967,7 +993,11 @@ function makeUserAgent(platform) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1080,12 +1110,15 @@ function makeUserAgent(platform) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const throwNotImplemented = (fnName) => {
     return function notImplemented() {
         throw new HootError(`Unmocked navigator method: ${fnName}`);
     };
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1169,6 +1202,9 @@ function throwNotImplemented(fnName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

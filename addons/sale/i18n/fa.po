@@ -9,6 +9,7 @@
 # Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2025
 # Hanna Kheradroosta, 2025
 # Naser mars, 2025
+<<<<<<< HEAD
 # Tiffany Chang, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,11 +35,16 @@
 =======
 # akadesign117, 2025
 >>>>>>> upstream/18.0
+=======
+# akadesign117, 2025
+# Tiffany Chang, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +119,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: akadesign117, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tiffany Chang, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -1092,6 +1103,7 @@ msgstr "<span>هشدار: این سفارش ممکن است تکراری باش�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1150,6 +1162,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">آدرس حمل و نقل</strong>"
 
@@ -1160,6 +1174,9 @@ msgstr "<strong class=\"d-block mt-3\">آدرس حمل و نقل</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1207,11 +1224,14 @@ msgstr "<strong>فروشنده</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>آدرس حمل و نقل</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2629,6 +2649,14 @@ msgid "Email"
 msgstr "پست الکترونیک"
 
 #. module: sale
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale.model_mail_compose_message
+msgid "Email composition wizard"
+msgstr "ویزارد ایجاد ایمیل"
+
+#. module: sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:sale.field_res_config_settings__invoice_mail_template_id
 msgid "Email sent to the customer once the invoice is available."
 msgstr "پس از در دسترس بودن فاکتور، ایمیل برای مشتری ارسال می شود."
@@ -4756,6 +4784,14 @@ msgid "Salespersons"
 msgstr "فروشندگان"
 
 #. module: sale
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale.model_mail_scheduled_message
+msgid "Scheduled Message"
+msgstr "پیام زمان‌بندی‌شده"
+
+#. module: sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Search Sales Order"
@@ -5818,12 +5854,15 @@ msgstr "مشاهده جزئیات"
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "مشاهده سفارش"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 msgid "View Quotation"
 msgstr "مشاهده پیش‌فاکتور"
 

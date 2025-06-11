@@ -4,6 +4,10 @@ import { setupEditor, testEditor } from "./_helpers/editor";
 import { deleteBackward, insertText } from "./_helpers/user_actions";
 import { getContent } from "./_helpers/selection";
 import { animationFrame } from "@odoo/hoot-mock";
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 
 /**
  * Rating Star Element Tests
@@ -13,7 +17,11 @@ test("add 3 star elements", async () => {
     const { el, editor } = await setupEditor("<p>[]</p>");
     await insertText(editor, "/3star");
     await animationFrame();
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 
     await press("Enter");
     expect(getContent(el)).toBe(
@@ -25,7 +33,11 @@ test("add 5 star elements", async () => {
     const { el, editor } = await setupEditor("<p>[]</p>");
     await insertText(editor, "/5star");
     await animationFrame();
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 
     await press("Enter");
     expect(getContent(el)).toBe(

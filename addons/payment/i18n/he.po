@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # or balmas, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +90,10 @@
 >>>>>>> upstream/18.0
 =======
 # MichaelHadar, 2025
+>>>>>>> upstream/18.0
+=======
+# MichaelHadar, 2025
+# or balmas, 2025
 >>>>>>> upstream/18.0
 =======
 # MichaelHadar, 2025
@@ -255,6 +260,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -293,6 +299,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: MichaelHadar, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: or balmas, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-07 20:37+0000\n"
@@ -2643,7 +2654,11 @@ msgid "Provider Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "הפניה לספק"
+=======
+msgstr "מזהה באמצעי התשלום המקוון"
+>>>>>>> upstream/18.0
 =======
 msgstr "מזהה באמצעי התשלום המקוון"
 >>>>>>> upstream/18.0
@@ -3180,6 +3195,11 @@ msgid ""
 "The maximum payment amount that this payment provider is available for. "
 "Leave blank to make it available for any payment amount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"סכום התשלום המקסימלי שבו ספק התשלום הזה זמין. השאר ריק כדי לאפשר תשלום בכל "
+"סכום."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__auth_msg
@@ -3226,12 +3246,20 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_token__provider_ref
 msgid "The provider reference of the token of the transaction."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הפנייה של הספק לאסימון של העסקה."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction__provider_reference
 msgid "The provider reference of the transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " ההתייחסות של הספק לעסקה"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_method__image_payment_form
@@ -3246,7 +3274,11 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "The saving of your payment method has been canceled."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שמירת שיטת התשלום שלך בוטלה."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_transaction__source_transaction_id
@@ -3258,7 +3290,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment.field_payment_token__payment_method_code
 #: model:ir.model.fields,help:payment.field_payment_transaction__payment_method_code
 msgid "The technical code of this payment method."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הקוד הטכני של שיטת התשלום הזו."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__code
@@ -3297,7 +3333,11 @@ msgid "The technical code of this payment provider."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הקוד הטכני של ספק התשלומים הזה."
+>>>>>>> upstream/18.0
 =======
 msgstr "הקוד הטכני של ספק התשלומים הזה."
 >>>>>>> upstream/18.0
@@ -3458,7 +3498,11 @@ msgstr "לא נוצרו אסימונים עדיין"
 #. odoo-python
 #: code:addons/payment/wizards/payment_link_wizard.py:0
 msgid "There is nothing to be paid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין דבר לתשלום."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.pay
@@ -3519,6 +3563,11 @@ msgid ""
 "This transaction has been confirmed following the processing of its partial "
 "capture and partial void transactions (%(provider)s)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"עסקה זו אושרה לאחר עיבוד פעולות הקיזוז החלקי והביטול החלקי שלה "
+"(%(provider)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_tienphong
@@ -3539,7 +3588,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_method__support_tokenization
 #: model:ir.model.fields,field_description:payment.field_payment_provider__support_tokenization
 msgid "Tokenization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טוקניזציה"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_method__support_tokenization
@@ -3716,13 +3769,21 @@ msgstr ""
 msgid ""
 "Whether a payment token should be created when post-processing the "
 "transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם יש ליצור טוקן תשלום בעת עיבוד העסקה לאחר ביצועה."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_capture_wizard__support_partial_capture
 msgid ""
 "Whether each of the transactions' provider supports the partial capture."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם כל אחד מהספקים של העסקאות תומך בקיזוז חלקי."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_provider__is_published
@@ -3730,6 +3791,11 @@ msgid ""
 "Whether the provider is visible on the website or not. Tokens remain "
 "functional but are only visible on manage forms."
 msgstr ""
+<<<<<<< HEAD
+=======
+"בין אם הספק מופיע באתר ובין אם לא . הטוקנים נשארים פעילים, אך נראים רק בטפסי"
+" הניהול."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_transfer
@@ -3764,6 +3830,7 @@ msgstr "לא ניתן לשנות את החברה של ספק תשלומים עם
 
 #. module: payment
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3959,6 +4026,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: code:addons/payment/models/payment_method.py:0
+msgid "You cannot delete the default payment method."
+msgstr "אי אפשר למחוק את אמצעי התשלום כברירת מחדל."
+
+#. module: payment
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/payment/models/payment_provider.py:0
 msgid ""
 "You cannot delete the payment provider %s; disable it or uninstall it "
@@ -3969,13 +4044,21 @@ msgstr "לא ניתן לבטל ספק תשלום %s;השבת אותו או הס�
 #. odoo-python
 #: code:addons/payment/models/payment_provider.py:0
 msgid "You cannot publish a disabled provider."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן לפרסם ספק שמושבת."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/controllers/portal.py:0
 msgid "You do not have access to this payment token."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אין לך גישה לאסימון תשלום זה."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
@@ -4079,7 +4162,11 @@ msgstr "התשלום שלך עובד בהצלחה."
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Your payment has not been processed yet."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "התשלום שלך טרם עובד."
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_status
@@ -4089,7 +4176,11 @@ msgstr "התשלום בדרך אלייך!"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.state_header
 msgid "Your payment method has been saved."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אמצעי התשלום שלך נשמר. "
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.form
@@ -4126,7 +4217,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment/const.py:0
 msgid "express checkout not supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תשלום מהיר לא נתמך"
+>>>>>>> upstream/18.0
 
 #. module: payment
 #: model:payment.method,name:payment.payment_method_ideal
