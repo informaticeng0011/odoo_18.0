@@ -48,13 +48,17 @@ export class TableOfContentManager {
     }
 
     updateStructure() {
+<<<<<<< HEAD
         let currentDepthByTag = {};
         let previousTag;
         let previousDepth = -1;
+=======
+>>>>>>> upstream/18.0
         const container = this.getContainerEl();
         if (!container) {
             return;
         }
+<<<<<<< HEAD
         this.structure.headings = this.fetchValidHeadings(container).map((heading) => {
             let depth = HEADINGS.indexOf(heading.tagName);
             if (depth !== previousDepth && heading.tagName === previousTag) {
@@ -82,6 +86,17 @@ export class TableOfContentManager {
 
             return {
                 depth: depth,
+=======
+        const tagDepthStack = [];
+        this.structure.headings = this.fetchValidHeadings(container).map((heading) => {
+            while (tagDepthStack.at(-1) >= heading.tagName) {
+                tagDepthStack.pop();
+            }
+            const depth = tagDepthStack.length;
+            tagDepthStack.push(heading.tagName);
+            return {
+                depth,
+>>>>>>> upstream/18.0
                 name: heading.innerText,
                 target: heading,
             };

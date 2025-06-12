@@ -167,12 +167,24 @@ class ResPartner(models.Model):
     def fix_eu_vat_number(self, country_id, vat):
         europe = self.env.ref('base.europe')
         country = self.env["res.country"].browse(country_id)
+<<<<<<< HEAD
+=======
+        # In Romania, the CUI can be used as tax identifier and it is not prefixed with the country code
+        country_codes_to_not_prepend = ['RO']
+>>>>>>> upstream/18.0
         if not europe:
             europe = self.env["res.country.group"].search([('name', '=', 'Europe')], limit=1)
         if europe and country and country.id in europe.country_ids.ids:
             vat = re.sub('[^A-Za-z0-9]', '', vat).upper()
             country_code = _eu_country_vat.get(country.code, country.code).upper()
+<<<<<<< HEAD
             if vat[:2] != country_code:
+=======
+            if vat[:2] != country_code and (
+                country_code not in country_codes_to_not_prepend or
+                country_code != self.env.company.country_code
+            ):
+>>>>>>> upstream/18.0
                 vat = country_code + vat
         return vat
 
@@ -363,7 +375,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tin2 = self.__check_tin1_ro_natural_persons.match(vat)
+=======
+        tin2 = self.__check_tin2_ro_natural_persons.match(vat)
+>>>>>>> upstream/18.0
 =======
         tin2 = self.__check_tin2_ro_natural_persons.match(vat)
 >>>>>>> upstream/18.0
@@ -550,7 +566,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -663,6 +682,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

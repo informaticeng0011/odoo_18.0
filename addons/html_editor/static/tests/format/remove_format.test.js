@@ -5,8 +5,13 @@ import { click, queryAll, waitFor } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
 import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+import { unformat } from "../_helpers/format";
 >>>>>>> upstream/18.0
 
 test("should do nothing if no format is set", async () => {
@@ -661,7 +666,10 @@ test("should remove font-size style from multiple sized selected text", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -690,6 +698,7 @@ test("should remove font size and color styles", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -708,13 +717,64 @@ describe("Toolbar", () => {
     async function removeFormatClick() {
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
+=======
+test("should remove backgroundColor from selected cells using removeFormat", async () => {
+    const defaultTextColor = "color: rgb(1, 10, 100);";
+    const styleContent = `* {${defaultTextColor}}`;
+    await testEditor({
+        contentBefore: unformat(`
+            <table class="table table-bordered o_table"><tbody>
+                <tr><td style="background-color: rgb(255, 0, 0); ${defaultTextColor}"><p>[ab</p></td></tr>
+                <tr><td style="background-color: rgb(255, 0, 0); ${defaultTextColor}"><p>cd]</p></td></tr>
+            </tbody></table>
+        `),
+        stepFunction: (editor) => execCommand(editor, "removeFormat"),
+        contentAfter: unformat(`
+            <table class="table table-bordered o_table"><tbody>
+                <tr><td><p>[ab</p></td></tr>
+                <tr><td><p>cd]</p></td></tr>
+            </tbody></table>
+        `),
+        styleContent,
+    });
+});
+
+test("should remove backgroundColor from selected cells using removeFormat (2)", async () => {
+    const defaultTextColor = "color: rgb(1, 10, 100);";
+    const styleContent = `* {${defaultTextColor}}`;
+    await testEditor({
+        contentBefore: unformat(`
+            <table class="table table-bordered o_table"><tbody>
+                <tr><td style="background-color: rgb(255, 0, 0); ${defaultTextColor}"><p>[<br></p></td></tr>
+                <tr><td style="background-color: rgb(255, 0, 0); ${defaultTextColor}"><p>]<br></p></td></tr>
+            </tbody></table>
+        `),
+        stepFunction: (editor) => execCommand(editor, "removeFormat"),
+        contentAfter: unformat(`
+            <table class="table table-bordered o_table"><tbody>
+                <tr><td><p>[\u200b</p></td></tr>
+                <tr><td><p>]\u200b</p></td></tr>
+            </tbody></table>
+        `),
+        styleContent,
+    });
+});
+
+describe("Toolbar", () => {
+    async function removeFormatClick() {
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
         expect(".btn[name='remove_format']").toHaveCount(1); // remove format
         expect(".btn[name='remove_format']").not.toHaveClass("disabled"); // remove format button should not be disabled
 
         await click(".btn[name='remove_format']");
         await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -766,8 +826,12 @@ describe("Toolbar", () => {
             `<p>this <span class="random-class">is[ a ]UX</span> test.</p>`
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -777,7 +841,11 @@ describe("Toolbar", () => {
         await click(".btn[name='remove_format']");
         await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -790,8 +858,12 @@ describe("Toolbar", () => {
     test("Remove format button should be available if selection contains formatted nodes among unformatted nodes", async () => {
         const { el } = await setupEditor(`<p>this <b>is[ a UX</b> te]st.</p>`);
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-toolbar");
         expect(".o-we-toolbar").toHaveCount(1); // toolbar open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -801,7 +873,11 @@ describe("Toolbar", () => {
         await click(".btn[name='remove_format']");
         await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0

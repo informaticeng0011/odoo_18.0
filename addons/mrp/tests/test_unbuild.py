@@ -986,7 +986,10 @@ class TestUnbuild(TestMrpCommon):
         self.assertEqual(unbuild_fns_move.state, "done")
         self.assertEqual(unbuild_fns_move.quantity, 12)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_putaway_strategy_with_unbuild(self):
         """
@@ -1020,4 +1023,7 @@ class TestUnbuild(TestMrpCommon):
 
         component_move_unbuild = unbuild_order.produce_line_ids.filtered(lambda m: m.product_id == self.bom_4.bom_line_ids.product_id)
         self.assertEqual(component_move_unbuild.move_line_ids.location_dest_id, putaway_strategy.location_out_id)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

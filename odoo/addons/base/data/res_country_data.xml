@@ -1015,6 +1015,10 @@
             <field name="code">my</field>
             <field name="currency_id" ref="MYR" />
             <field eval="60" name="phone_code" />
+<<<<<<< HEAD
+=======
+            <field eval="'%(street)s\n%(street2)s\n%(city)s %(state_name)s %(zip)s\n%(country_name)s'"  name="address_format" />
+>>>>>>> upstream/18.0
         </record>
         <record id="mz" model="res.country">
             <field name="name">Mozambique</field>
@@ -1123,6 +1127,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <field name="address_format" eval="'%(street)s\n%(street2)s\n%(city)s %(state_name)s %(zip)s\n%(country_name)s'" />
+>>>>>>> upstream/18.0
 =======
             <field name="address_format" eval="'%(street)s\n%(street2)s\n%(city)s %(state_name)s %(zip)s\n%(country_name)s'" />
 >>>>>>> upstream/18.0

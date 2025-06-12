@@ -5,6 +5,10 @@ import { animationFrame } from "@odoo/hoot-mock";
 import { getContent, setContent, setSelection } from "./_helpers/selection";
 import { undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -178,7 +182,11 @@ test("Can set icon color", async () => {
     await click(".o_color_button[data-color='#6BADDE']");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0

@@ -29,6 +29,10 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        LinkPopoverState: Object,
+>>>>>>> upstream/18.0
 =======
         LinkPopoverState: Object,
 >>>>>>> upstream/18.0
@@ -117,7 +121,11 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             editing: this.props.linkEl.href ? false : true,
+=======
+            editing: this.props.LinkPopoverState.editing,
+>>>>>>> upstream/18.0
 =======
             editing: this.props.LinkPopoverState.editing,
 >>>>>>> upstream/18.0
@@ -218,6 +226,7 @@ export class LinkPopover extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.loadAsyncLinkPreview();
 =======
 >>>>>>> upstream/18.0
@@ -234,6 +243,14 @@ export class LinkPopover extends Component {
 =======
 >>>>>>> upstream/18.0
         this.props.onApply(this.state.url, this.state.label, this.state.classes);
+=======
+        this.props.onApply(
+            this.state.url,
+            this.state.label,
+            this.state.classes,
+            this.state.attachmentId
+        );
+>>>>>>> upstream/18.0
     }
     onClickEdit() {
         this.state.editing = true;
@@ -428,6 +445,10 @@ export class LinkPopover extends Component {
         this.props.onUpload?.(attachment);
         this.state.url = getURL(attachment, { download: true, unique: true, accessToken: true });
         this.state.label ||= attachment.name;
+<<<<<<< HEAD
+=======
+        this.state.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
     }
 
     isAttachmentUrl() {

@@ -11,6 +11,10 @@ import {
     setSelection,
 } from "./_helpers/selection";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -21,7 +25,11 @@ describe("Wysiwyg Component", () => {
         expect(".o-wysiwyg").toHaveCount(1);
         expect(".odoo-editor-editable").toHaveCount(1);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -32,7 +40,11 @@ describe("Wysiwyg Component", () => {
         setContent(el, "hello [hoot]");
         await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -47,6 +59,7 @@ describe("Wysiwyg Component", () => {
 
     test("Wysiwyg component can be instantiated with a permanent toolbar", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(0);
         await setupWysiwyg({ toolbar: true });
         expect(".o-wysiwyg").toHaveCount(1);
@@ -61,6 +74,8 @@ describe("Wysiwyg Component", () => {
         expect(".odoo-editor-editable").toHaveCount(1);
         expect(".o-we-toolbar").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-toolbar", 0);
         await setupWysiwyg({ toolbar: true });
         expect(".o-wysiwyg").toHaveCount(1);
@@ -74,6 +89,9 @@ describe("Wysiwyg Component", () => {
         expect(".o-wysiwyg").toHaveCount(1);
         expect(".odoo-editor-editable").toHaveCount(1);
         await expectElementCount(".o-we-toolbar", 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 

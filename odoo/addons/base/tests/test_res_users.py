@@ -242,7 +242,10 @@ class TestUsers(TransactionCase):
 @tagged('post_install', '-at_install')
 class TestUsers2(TransactionCase):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -252,6 +255,9 @@ class TestUsers2(TransactionCase):
             'groups_id': cls.env.ref('base.group_user'),
             'tz': 'UTC',
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_change_user_login(self):
@@ -404,7 +410,10 @@ class TestUsers2(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -458,6 +467,7 @@ class TestUsers2(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -488,6 +498,8 @@ class TestUsers2(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     @users('employee')
     def test_self_readable_writeable_fields_preferences_form(self):
         """Test that a field protected by a `groups='...'` with a group the user doesn't belong to
@@ -503,6 +515,9 @@ class TestUsers2(TransactionCase):
             UserForm.email = "foo@bar.com"
         self.assertEqual(my_user.email, "foo@bar.com")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install', 'res_groups')

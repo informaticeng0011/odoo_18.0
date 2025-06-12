@@ -36,9 +36,12 @@ from werkzeug.urls import url_parse, url_decode, url_encode, url_unparse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 
 from odoo import http
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148,7 +151,11 @@ from odoo.tools import html_escape
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestPortal(HttpCase, TestMailFullCommon, TestSMSRecipients):
+=======
+class TestPortal(TestMailFullCommon, TestSMSRecipients):
+>>>>>>> upstream/18.0
 =======
 class TestPortal(TestMailFullCommon, TestSMSRecipients):
 >>>>>>> upstream/18.0

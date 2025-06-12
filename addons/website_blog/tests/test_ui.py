@@ -4,6 +4,10 @@
 import odoo.tests
 from odoo.addons.website_blog.tests.common import TestWebsiteBlogCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -70,7 +74,10 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
         self.assertEqual(response.headers.get('Content-Type'), 'image/png')
         self.assertRegex(response.headers.get('Content-Disposition', ''), r'mail_message-\d+-author_avatar\.png')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sidebar_with_date_and_tag(self):
         Blog = self.env['blog.blog']
@@ -100,4 +107,7 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
         self.env.ref("website_blog.opt_blog_sidebar_show").active = True
         self.env.ref("website_blog.opt_blog_post_sidebar").active = True
         self.start_tour("/blog", "blog_sidebar_with_date_and_tag", login="admin")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

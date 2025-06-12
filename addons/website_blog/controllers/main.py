@@ -140,7 +140,11 @@ class WebsiteBlog(http.Controller):
         tag_category = tools.lazy(lambda: sorted(all_tags.mapped('category_id'), key=lambda category: category.name.upper()))
         other_tags = tools.lazy(lambda: sorted(all_tags.filtered(lambda x: not x.category_id), key=lambda tag: tag.name.upper()))
 <<<<<<< HEAD
+<<<<<<< HEAD
         nav_list = tools.lazy(self.nav_list)
+=======
+        nav_list = tools.lazy(lambda: self.nav_list(blog))
+>>>>>>> upstream/18.0
 =======
         nav_list = tools.lazy(lambda: self.nav_list(blog))
 >>>>>>> upstream/18.0

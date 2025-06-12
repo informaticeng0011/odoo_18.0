@@ -275,7 +275,13 @@ export class ToolbarPlugin extends Plugin {
     getFilterTraverseNodes() {
         return this.dependencies.selection
             .getTraversedNodes()
+<<<<<<< HEAD
             .filter((node) => !isTextNode(node) || (node.textContent !== "\n" && !isZWS(node)));
+=======
+            .filter(
+                (node) => !isTextNode(node) || (node.textContent.trim().length && !isZWS(node))
+            );
+>>>>>>> upstream/18.0
     }
 
     updateToolbarVisibility(selectionData) {

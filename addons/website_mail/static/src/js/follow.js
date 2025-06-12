@@ -29,7 +29,10 @@ publicWidget.registry.follow = publicWidget.Widget.extend({
         var $jsFollowEls = this.$el.find('.js_follow');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // TODO handle from xml in master
         // We explicitly added the input element because
         // groups="base.group_public" is applied to it. As a result, in
@@ -45,6 +48,9 @@ publicWidget.registry.follow = publicWidget.Widget.extend({
             $jsFollowEls[0].prepend(inputEl);
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         var always = function (data) {
             self.isUser = data[0].is_user;

@@ -243,7 +243,10 @@ class TestAccountTax(AccountTestInvoicingCommon):
         tax_reconciliation.invalidate_model(fnames=['is_used'])
         self.assertTrue(tax_reconciliation.is_used)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_tax_no_duplicate_in_repartition_line(self):
         """ Test that whenever a tax generate a second tax line
@@ -312,4 +315,7 @@ class TestAccountTax(AccountTestInvoicingCommon):
             {'display_type': 'tax',             'tax_ids': [],          'balance': 15.0,    'account_id': account_2.id},
             {'display_type': 'payment_term',    'tax_ids': [],          'balance': 100.0,   'account_id': self.company_data['default_account_receivable'].id},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

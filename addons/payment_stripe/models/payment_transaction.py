@@ -43,6 +43,21 @@ class PaymentTransaction(models.Model):
             ),
         }
 
+<<<<<<< HEAD
+=======
+    def _get_specific_secret_keys(self):
+        """ Override of payment to return Stripe-specific secret keys.
+
+        Note: self.ensure_one() from `_get_processing_values`
+
+        :return: The provider-specific secret keys
+        :rtype: dict_keys
+        """
+        if self.provider_code == 'stripe':
+            return {'client_secret': None}.keys()
+        return super()._get_specific_secret_keys()
+
+>>>>>>> upstream/18.0
     def _send_payment_request(self):
         """ Override of payment to send a payment request to Stripe with a confirmed PaymentIntent.
 

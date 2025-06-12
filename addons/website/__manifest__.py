@@ -18,6 +18,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -220,6 +224,10 @@
         'web.assets_frontend': [
             ('replace', 'web/static/src/legacy/js/public/public_root_instance.js', 'website/static/src/js/content/website_root_instance.js'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/core/errors/beforeunload_error_handler.js',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/core/errors/beforeunload_error_handler.js',
 >>>>>>> upstream/18.0
@@ -321,6 +329,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -375,7 +389,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -398,6 +415,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

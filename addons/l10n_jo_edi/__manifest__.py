@@ -15,6 +15,12 @@
         'views/report_invoice.xml',
         'views/res_config_settings_views.xml',
     ],
+<<<<<<< HEAD
+=======
+    'demo': [
+        'demo/demo_company.xml',
+    ],
+>>>>>>> upstream/18.0
     'installable': True,
     'auto_install': ['l10n_jo'],
     'license': 'LGPL-3',

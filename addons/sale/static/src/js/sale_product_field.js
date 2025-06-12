@@ -148,7 +148,10 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get label() {
         let label = super.label;
         if (this.translatedProductName && label.startsWith(this.translatedProductName)) {
@@ -176,6 +179,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
         });
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     onClick(ev) {
         // Override to get internal link to products in SOL that cannot be edited

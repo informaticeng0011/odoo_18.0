@@ -1,12 +1,24 @@
 import { createDocumentFragmentFromContent } from "@mail/utils/common/html";
 
+<<<<<<< HEAD
 import { useSubEnv } from "@odoo/owl";
+=======
+import { EventBus, useSubEnv } from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 import { x2ManyCommands } from "@web/core/orm_service";
 import { useService } from "@web/core/utils/hooks";
 import { patch } from "@web/core/utils/patch";
 import { FormController } from "@web/views/form/form_controller";
 
+<<<<<<< HEAD
+=======
+FormController.props = {
+    ...FormController.props,
+    fullComposerBus: { type: EventBus, optional: true },
+};
+
+>>>>>>> upstream/18.0
 patch(FormController.prototype, {
     setup() {
         super.setup(...arguments);

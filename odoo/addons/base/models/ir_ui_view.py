@@ -457,7 +457,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -2820,7 +2824,10 @@ class Model(models.AbstractModel):
         return arch, view
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_view_postprocessed(self, view, arch, **options):
         """
         Get the post-processed view architecture and the corresponding fields.
@@ -2844,6 +2851,9 @@ class Model(models.AbstractModel):
         """
         return view.postprocess_and_fields(arch, model=self._name, **options)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def _get_view_cache_key(self, view_id=None, view_type='form', **options):
@@ -2892,7 +2902,11 @@ class Model(models.AbstractModel):
 
         # Apply post processing, groups and modifiers etc...
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

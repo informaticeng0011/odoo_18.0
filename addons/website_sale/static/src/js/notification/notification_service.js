@@ -36,7 +36,11 @@ export class CartNotificationContainer extends NotificationContainer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="position-absolute w-100 h-100 top-0 pe-none">
+=======
+    <div class="position-fixed w-100 h-100 top-0 pe-none">
+>>>>>>> upstream/18.0
 =======
     <div class="position-fixed w-100 h-100 top-0 pe-none">
 >>>>>>> upstream/18.0

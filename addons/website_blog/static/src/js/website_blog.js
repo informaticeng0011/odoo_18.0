@@ -21,7 +21,10 @@ publicWidget.registry.websiteBlog = publicWidget.Widget.extend({
             share(el);
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         // Updates the href of an anchor tag when tags list is empty. This will
         // redirect to backend part of the website blog post.
@@ -33,6 +36,9 @@ publicWidget.registry.websiteBlog = publicWidget.Widget.extend({
             const id = blogPostTitleEl.dataset.blogId;
             emptyTagEl.href = `/odoo/website/blog.post/${id}`;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return this._super.apply(this, arguments);
     },

@@ -47,7 +47,11 @@ class TestJoEdiPrecision(JoEdiCommon):
     def _sum_max_dp(self, iterable):
         return self.env['account.edi.xml.ubl_21.jo']._sum_max_dp(iterable)
 
+<<<<<<< HEAD
     def _validate_jo_edi_numbers(self, xml_string):
+=======
+    def _validate_jo_edi_numbers(self, xml_string, invoice):
+>>>>>>> upstream/18.0
         """
         TLDR: This method checks that units sum up to total values.
         ===================================================================================================
@@ -80,6 +84,10 @@ class TestJoEdiPrecision(JoEdiCommon):
 
         tax_exclusive_amount = float(root.findtext('./{*}LegalMonetaryTotal/{*}TaxExclusiveAmount'))
         tax_inclusive_amount = float(root.findtext('./{*}LegalMonetaryTotal/{*}TaxInclusiveAmount'))
+<<<<<<< HEAD
+=======
+        self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
+>>>>>>> upstream/18.0
         monetary_values_discount = float(root.findtext('./{*}LegalMonetaryTotal/{*}AllowanceTotalAmount'))
         payable_amount = float(root.findtext('./{*}LegalMonetaryTotal/{*}PayableAmount'))
 
@@ -161,7 +169,11 @@ class TestJoEdiPrecision(JoEdiCommon):
         with self.subTest(sub_test_name=invoice_vals['name']):
             invoice = self._l10n_jo_create_invoice(invoice_vals)
             generated_file = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
+<<<<<<< HEAD
             errors = self._validate_jo_edi_numbers(generated_file)
+=======
+            errors = self._validate_jo_edi_numbers(generated_file, invoice)
+>>>>>>> upstream/18.0
             self.assertFalse(errors, errors)
 
     def test_jo_sales_invoice_precision(self):

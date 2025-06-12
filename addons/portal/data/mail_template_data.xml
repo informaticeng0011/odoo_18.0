@@ -28,11 +28,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="subject">Your account at {{ object.user_id.company_id.name }}</field>
             <field name="email_to">{{ object.user_id.email_formatted }}</field>
             <field name="description">Invitation email to contacts to create a user account</field>
             <field name="body_html" type="html">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107,6 +110,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -184,7 +190,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span style="font-size: 20px; font-weight: bold;" t-out="object.user_id.name or ''">Marc Demo</span>
+=======
+                    <span style="font-size: 20px; font-weight: bold;" t-out="user_name">Marc Demo</span>
+>>>>>>> upstream/18.0
 =======
                     <span style="font-size: 20px; font-weight: bold;" t-out="user_name">Marc Demo</span>
 >>>>>>> upstream/18.0
@@ -292,6 +302,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Dear <t t-out="object.user_id.name or ''">Marc Demo</t>,<br/> <br/>
                         Welcome to <t t-out="object.user_id.company_id.name">YourCompany</t>'s Portal!<br/><br/>
                         An account has been created for you with the following login: <t t-out="object.user_id.login">demo</t><br/><br/>
@@ -299,6 +310,8 @@
                         <div style="margin: 16px 0px 16px 0px; text-align: center;">
                             <a t-att-href="object.user_id.partner_id._get_signup_url()" style="display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371,6 +384,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -456,7 +472,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-out="object.user_id.company_id.name or ''">YourCompany</t>
+=======
+                    <t t-out="company_name">YourCompany</t>
+>>>>>>> upstream/18.0
 =======
                     <t t-out="company_name">YourCompany</t>
 >>>>>>> upstream/18.0

@@ -131,8 +131,19 @@ class StockMoveLine(models.Model):
             line = aggregated_move_lines[key]
             bom_id = line['bom']
             kit_qty_ordered, kit_qty_done = kit_qty[bom_id.id]
+<<<<<<< HEAD
             line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
             line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
+=======
+            if line['packaging'].product_id == line['product']:
+                # If packaging has been set directly on the move
+                line['packaging_qty'] = line['packaging']._compute_qty(line['qty_ordered'], line['product_uom'])
+                line['packaging_quantity'] = line['packaging']._compute_qty(line['quantity'], line['product_uom'])
+            else:
+                # If packaging comes from the kit
+                line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
+                line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
+>>>>>>> upstream/18.0
             aggregated_move_lines[key] = line
 
         non_kit_ml = super()._compute_packaging_qtys(non_kit_ml)
@@ -539,7 +550,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super()._should_bypass_reservation(forced_location) or self.product_id.is_kits
+=======
+        return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
+>>>>>>> upstream/18.0
 =======
         return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
 >>>>>>> upstream/18.0

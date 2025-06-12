@@ -264,10 +264,13 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             # Only one image is needed for the mobile mode
             if self.self_ordering_mode == 'mobile':
                 break
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

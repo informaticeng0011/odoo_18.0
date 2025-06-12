@@ -6,6 +6,10 @@ import { setupEditor } from "./_helpers/editor";
 import { getContent } from "./_helpers/selection";
 import { insertText, undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ test("add an emoji with powerbox", async () => {
     await loadBundle("web.assets_emoji");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0
@@ -25,8 +33,12 @@ test("add an emoji with powerbox", async () => {
     await insertText(editor, "/emoji");
     await press("enter");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-EmojiPicker", { timeout: 1000 });
     expect(".o-EmojiPicker").toHaveCount(1);
+=======
+    await expectElementCount(".o-EmojiPicker", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 1);
 >>>>>>> upstream/18.0
@@ -40,7 +52,11 @@ test("click on emoji command to open emoji picker", async () => {
     await loadBundle("web.assets_emoji");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0
@@ -50,8 +66,12 @@ test("click on emoji command to open emoji picker", async () => {
     await animationFrame();
     await click(".active .o-we-command-name");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-EmojiPicker", { timeout: 1000 });
     expect(".o-EmojiPicker").toHaveCount(1);
+=======
+    await expectElementCount(".o-EmojiPicker", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 1);
 >>>>>>> upstream/18.0
@@ -87,7 +107,11 @@ test("close emoji picker with escape", async () => {
     await press("escape");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-EmojiPicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-EmojiPicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-EmojiPicker", 0);
 >>>>>>> upstream/18.0

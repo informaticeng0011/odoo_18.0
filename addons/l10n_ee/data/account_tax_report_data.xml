@@ -14,15 +14,21 @@
         </field>
         <field name="line_ids">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <record id="tax_report_line_1" model="account.report.line">
                 <field name="name">1 - Acts and transactions subject to tax at a rate of 22%</field>
                 <field name="code">l10n_ee_vat_1</field>
 =======
+=======
+>>>>>>> upstream/18.0
             <!-- Valid until 2025-06-31 -->
             <record id="tax_report_line_1" model="account.report.line">
                 <field name="name">1 - Acts and transactions subject to tax at a rate of 22%</field>
                 <field name="code">l10n_ee_vat_1</field>
                 <field name="hide_if_zero" eval="True"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <field name="hierarchy_level">0</field>
                 <field name="expression_ids">
@@ -39,7 +45,10 @@
                 </field>
             </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             <!-- Valid from 2025-07-01 -->
             <record id="tax_report_line_1_24" model="account.report.line">
                 <field name="name">1 - Acts and transactions subject to tax at a rate of 24%</field>
@@ -59,6 +68,9 @@
                     </record>
                 </field>
             </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <record id="tax_report_line_1_1" model="account.report.line">
                 <field name="name">1¹ - Acts and transactions subject to tax at a rate of 20%</field>
@@ -78,7 +90,10 @@
                 </field>
             </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             <!-- Valid from 2025-07-01 -->
             <record id="tax_report_line_1_2" model="account.report.line">
                 <field name="name">1² - Acts and transactions subject to tax at a rate of 22%</field>
@@ -97,6 +112,9 @@
                     </record>
                 </field>
             </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             <record id="tax_report_line_2" model="account.report.line">
                 <field name="name">2 - Acts and transactions subject to tax at a rate of 9%</field>
@@ -252,7 +270,11 @@
                         <field name="label">balance</field>
                         <field name="engine">aggregation</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="formula">l10n_ee_vat_1.balance * 0.22 + l10n_ee_vat_1_1.balance * 0.2 + l10n_ee_vat_2.balance * 0.09 + l10n_ee_vat_2_1.balance * 0.05 + l10n_ee_vat_2_2.balance * 0.13</field>
+=======
+                        <field name="formula">l10n_ee_vat_1_24.balance * 0.24 + l10n_ee_vat_1.balance * 0.22 + l10n_ee_vat_1_2.balance * 0.22 + l10n_ee_vat_1_1.balance * 0.2 + l10n_ee_vat_2.balance * 0.09 + l10n_ee_vat_2_1.balance * 0.05 + l10n_ee_vat_2_2.balance * 0.13</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="formula">l10n_ee_vat_1_24.balance * 0.24 + l10n_ee_vat_1.balance * 0.22 + l10n_ee_vat_1_2.balance * 0.22 + l10n_ee_vat_1_1.balance * 0.2 + l10n_ee_vat_2.balance * 0.09 + l10n_ee_vat_2_1.balance * 0.05 + l10n_ee_vat_2_2.balance * 0.13</field>
 >>>>>>> upstream/18.0
@@ -261,7 +283,11 @@
                         <field name="label">balance_from_tags</field>
                         <field name="engine">aggregation</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="formula">l10n_ee_vat_1.tax + l10n_ee_vat_1_1.tax + l10n_ee_vat_2.tax + l10n_ee_vat_2_1.tax + l10n_ee_vat_2_2.tax</field>
+=======
+                        <field name="formula">l10n_ee_vat_1_24.tax + l10n_ee_vat_1.tax + l10n_ee_vat_1_1.tax + l10n_ee_vat_1_2.tax + l10n_ee_vat_2.tax + l10n_ee_vat_2_1.tax + l10n_ee_vat_2_2.tax</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="formula">l10n_ee_vat_1_24.tax + l10n_ee_vat_1.tax + l10n_ee_vat_1_1.tax + l10n_ee_vat_1_2.tax + l10n_ee_vat_2.tax + l10n_ee_vat_2_1.tax + l10n_ee_vat_2_2.tax</field>
 >>>>>>> upstream/18.0

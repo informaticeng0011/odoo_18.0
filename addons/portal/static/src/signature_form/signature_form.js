@@ -13,7 +13,11 @@ import { NameAndSignature } from "@web/core/signature/name_and_signature";
  * @see NameAndSignature for the input fields, adds a submit
  * button, and handles the RPC to save the result.
  */
+<<<<<<< HEAD
 class SignatureForm extends Component {
+=======
+export class SignatureForm extends Component {
+>>>>>>> upstream/18.0
     static template = "portal.SignatureForm"
     static components = { NameAndSignature }
     static props = ["*"];

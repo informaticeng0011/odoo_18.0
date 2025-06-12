@@ -2,7 +2,11 @@ import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import {
     many2ManyBinaryField,
+<<<<<<< HEAD
     Many2ManyBinaryField
+=======
+    Many2ManyBinaryField,
+>>>>>>> upstream/18.0
 } from "@web/views/fields/many2many_binary/many2many_binary_field";
 
 export class MailComposerAttachmentList extends Many2ManyBinaryField {
@@ -23,6 +27,12 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
         if (attachment) {
             await this.attachmentUploadService.unlink(attachment);
         }
+<<<<<<< HEAD
+=======
+        this.env.fullComposerBus.trigger("ATTACHMENT_REMOVED", {
+            id: attachment.id,
+        });
+>>>>>>> upstream/18.0
     }
 }
 

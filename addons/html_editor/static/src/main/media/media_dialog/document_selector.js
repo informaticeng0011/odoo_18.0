@@ -81,6 +81,7 @@ export class DocumentSelector extends FileSelector {
     }
 
     static renderFileElement(attachment, downloadUrl) {
+<<<<<<< HEAD
         return renderStaticFileBox(attachment.name, attachment.mimetype, downloadUrl);
     }
 }
@@ -89,6 +90,22 @@ export function renderStaticFileBox(filename, mimetype, downloadUrl) {
     const rootSpan = document.createElement("span");
     rootSpan.classList.add("o_file_box");
     rootSpan.contentEditable = false;
+=======
+        return renderStaticFileBox(
+            attachment.name,
+            attachment.mimetype,
+            downloadUrl,
+            attachment.id
+        );
+    }
+}
+
+export function renderStaticFileBox(filename, mimetype, downloadUrl, id) {
+    const rootSpan = document.createElement("span");
+    rootSpan.classList.add("o_file_box");
+    rootSpan.contentEditable = false;
+    rootSpan.dataset.attachmentId = id;
+>>>>>>> upstream/18.0
     const bannerElement = renderToElement("html_editor.StaticFileBox", {
         fileModel: { filename, mimetype, downloadUrl },
     });

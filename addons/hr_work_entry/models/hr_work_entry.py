@@ -131,7 +131,11 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 duration = dt.days * 24 + dt.seconds / 3600  # Number of hours
+=======
+                duration = dt.days * 24 + round(dt.total_seconds()) / 3600  # Number of hours
+>>>>>>> upstream/18.0
 =======
                 duration = dt.days * 24 + round(dt.total_seconds()) / 3600  # Number of hours
 >>>>>>> upstream/18.0

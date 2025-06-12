@@ -6,6 +6,10 @@ import { insertText } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";
 import { press, waitFor, queryOne } from "@odoo/hoot-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ test.tags("desktop");
 test("can add a table using the powerbox and keyboard", async () => {
     const { el, editor } = await setupEditor("<p>a[]</p>");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -28,7 +36,11 @@ test("can add a table using the powerbox and keyboard", async () => {
     await insertText(editor, "/");
     await waitFor(".o-we-powerbox");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -41,7 +53,11 @@ test("can add a table using the powerbox and keyboard", async () => {
     await press("Enter");
     await waitFor(".o-we-tablepicker");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -50,8 +66,13 @@ test("can add a table using the powerbox and keyboard", async () => {
     await press("Enter");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -92,6 +113,7 @@ test("can close table picker with escape", async () => {
     await animationFrame();
     await press("Enter");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>a[]</p>");
@@ -99,11 +121,16 @@ test("can close table picker with escape", async () => {
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-tablepicker", 1);
     expectContentToBe(el, "<p>a[]</p>");
     await press("escape");
     await animationFrame();
     await expectElementCount(".o-we-tablepicker", 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 
@@ -113,7 +140,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
         props: { iframe: true },
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -124,7 +155,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
     await insertText(editor, "/");
     await waitFor(".o-we-powerbox");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -137,7 +172,11 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
     await press("Enter");
     await waitFor(".o-we-tablepicker");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -146,8 +185,13 @@ test("in iframe, can add a table using the powerbox and keyboard", async () => {
     await press("Enter");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -202,7 +246,11 @@ test("add table inside empty list", async () => {
     insertText(editor, "/");
     await waitFor(".o-we-powerbox");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -215,7 +263,11 @@ test("add table inside empty list", async () => {
     await press("Enter");
     await waitFor(".o-we-tablepicker");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -224,8 +276,13 @@ test("add table inside empty list", async () => {
     await press("Enter");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -268,7 +325,11 @@ test("add table inside non-empty list", async () => {
     insertText(editor, "/");
     await waitFor(".o-we-powerbox");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-tablepicker", 0);
 >>>>>>> upstream/18.0
@@ -281,7 +342,11 @@ test("add table inside non-empty list", async () => {
     await press("Enter");
     await waitFor(".o-we-tablepicker");
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -290,8 +355,13 @@ test("add table inside non-empty list", async () => {
     await press("Enter");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(".o-we-tablepicker").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+    await expectElementCount(".o-we-tablepicker", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
     await expectElementCount(".o-we-tablepicker", 0);
@@ -336,6 +406,7 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     await press("Enter");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>a[]</p>");
@@ -343,11 +414,16 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-tablepicker", 1);
     expectContentToBe(el, "<p>a[]</p>");
     await insertText(editor, "b");
     await animationFrame();
     await expectElementCount(".o-we-tablepicker", 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     expectContentToBe(el, "<p>ab[]</p>");
     await insertText(editor, "/");
@@ -357,6 +433,7 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     await press("Enter");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-tablepicker");
     expect(".o-we-tablepicker").toHaveCount(1);
     expectContentToBe(el, "<p>ab[]</p>");
@@ -364,10 +441,15 @@ test("should close the table picker when any key except arrow keys pressed", asy
     await animationFrame();
     expect(".o-we-tablepicker").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-tablepicker", 1);
     expectContentToBe(el, "<p>ab[]</p>");
     await insertText(editor, "/");
     await animationFrame();
     await expectElementCount(".o-we-tablepicker", 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
