@@ -7,6 +7,10 @@ import { getContent, setContent } from "./_helpers/selection";
 import { undo } from "./_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -366,6 +370,7 @@ test("Image transformation scalers position", async () => {
     click("img.test-image");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
     click(".o-we-toolbar div[name='image_transform'] button");
@@ -374,11 +379,16 @@ test("Image transformation scalers position", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-toolbar", 1);
     click(".o-we-toolbar div[name='image_transform'] button");
     await animationFrame();
     await expectElementCount(".o-we-toolbar", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -529,7 +539,11 @@ test("can remove the link of an image", async () => {
     expect(img.parentElement.tagName).toBe("DIV");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-linkpopover").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0

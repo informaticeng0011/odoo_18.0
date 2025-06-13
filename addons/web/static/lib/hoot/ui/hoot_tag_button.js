@@ -52,8 +52,12 @@ export class HootTagButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="'tag'"
                 id="props.tag.name"
+=======
+                ids="{ tag: props.tag.name }"
+>>>>>>> upstream/18.0
 =======
                 ids="{ tag: props.tag.name }"
 >>>>>>> upstream/18.0

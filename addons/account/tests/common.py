@@ -8,12 +8,21 @@ from odoo.addons.product.tests.common import ProductCommon
 
 import json
 import base64
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 from contextlib import contextmanager
 from functools import wraps
 from lxml import etree
 from unittest import SkipTest
 from unittest.mock import patch
 
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 
 class AccountTestInvoicingCommon(ProductCommon):
     # to override by the helper methods setup_country and setup_chart_template to adapt to a localization
@@ -223,7 +232,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -365,6 +377,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -579,6 +594,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
+            'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
+>>>>>>> upstream/18.0
 =======
             'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
             'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
@@ -989,13 +1009,21 @@ class AccountTestInvoicingCommon(ProductCommon):
         attrib_wo_ns = {k: v for k, v in node.attrib.items() if '}' not in k}
         full_path = f'{path}/{tag_wo_ns}'
         return {
+<<<<<<< HEAD
+=======
+            'node': node,
+>>>>>>> upstream/18.0
             'tag': tag_wo_ns,
             'full_path': full_path,
             'namespace': None if len(tag_split) < 2 else tag_split[0],
             'text': (node.text or '').strip(),
             'attrib': attrib_wo_ns,
             'children': [
+<<<<<<< HEAD
                 self._turn_node_as_dict_hierarchy(child_node, path=path)
+=======
+                self._turn_node_as_dict_hierarchy(child_node, path=full_path)
+>>>>>>> upstream/18.0
                 for child_node in node.getchildren()
             ],
         }
@@ -1036,9 +1064,25 @@ class AccountTestInvoicingCommon(ProductCommon):
                 )
 
             # Check children.
+<<<<<<< HEAD
             self.assertEqual(
                 [child['tag'] for child in node_dict['children']],
                 [child['tag'] for child in expected_node_dict['children']],
+=======
+            children = [child['tag'] for child in node_dict['children']]
+            expected_children = [child['tag'] for child in expected_node_dict['children']]
+            if children != expected_children:
+                for child in node_dict['children']:
+                    if child['tag'] not in expected_children:
+                        _logger.warning('Non-expected child: \n%s', etree.tostring(child['node']).decode())
+                for child in expected_node_dict['children']:
+                    if child['tag'] not in children:
+                        _logger.warning('Missing child: \n%s', etree.tostring(child['node']).decode())
+
+            self.assertEqual(
+                children,
+                expected_children,
+>>>>>>> upstream/18.0
                 f"Number of children elements for node {node_dict['full_path']} is different.",
             )
 
@@ -1287,7 +1331,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1438,6 +1485,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1634,6 +1684,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0

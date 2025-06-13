@@ -4,7 +4,11 @@ import { FileSelector } from "@html_editor/main/media/media_dialog/file_selector
 import { uploadService } from "@html_editor/main/media/media_dialog/upload_progress_toast/upload_service";
 import { HtmlComposerMessageField } from "@mail/views/web/fields/html_composer_message_field/html_composer_message_field";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, expect, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -16,6 +20,10 @@ import {
     queryOne,
     waitFor,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    waitForNone,
+>>>>>>> upstream/18.0
 =======
     waitForNone,
 >>>>>>> upstream/18.0
@@ -30,8 +38,14 @@ import {
     onRpc,
     patchWithCleanup,
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mailModels } from "../mail_test_helpers";
+=======
+    serverState,
+} from "@web/../tests/web_test_helpers";
+import { defineMailModels, mailModels, openFormView, start } from "../mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
     serverState,
 } from "@web/../tests/web_test_helpers";
@@ -211,7 +225,10 @@ test("mention a channel", async () => {
     expect.verifySteps(["get_mention_suggestions: a"]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 describe("Remove attachments", () => {
     beforeEach(() => {
@@ -299,4 +316,7 @@ describe("Remove attachments", () => {
         await waitForNone(".odoo-editor-editable img[data-attachment-id='1']");
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -7,6 +7,10 @@ import json
 
 from odoo import api, fields, models, _
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -584,6 +588,7 @@ class MrpWorkorder(models.Model):
         """
         total = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wo in self:
             if date:
                 duration = sum(wo.time_ids.filtered(lambda t: t.date_end and t.date_end <= date).mapped('duration'))
@@ -591,6 +596,8 @@ class MrpWorkorder(models.Model):
                 duration = sum(wo.time_ids.mapped('duration'))
             total += (duration / 60.0) * wo.workcenter_id.costs_hour
 =======
+=======
+>>>>>>> upstream/18.0
         for workorder in self:
             intervals = Intervals([
                 [t.date_start, t.date_end, t]
@@ -598,6 +605,9 @@ class MrpWorkorder(models.Model):
             ])
             duration = sum_intervals(intervals)
             total += duration * workorder.workcenter_id.costs_hour
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return total
 

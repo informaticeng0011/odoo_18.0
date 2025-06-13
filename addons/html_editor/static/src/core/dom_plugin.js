@@ -583,7 +583,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -667,6 +670,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -770,7 +776,19 @@ export class DomPlugin extends Plugin {
             (block && !isListItemElement(block) ? block : null);
 
         if (element && element !== this.editable) {
+<<<<<<< HEAD
             element.before(sep);
+=======
+            if (isEmptyBlock(element)) {
+                element.before(sep);
+            } else {
+                element.after(sep);
+                const baseContainer = this.dependencies.baseContainer.createBaseContainer();
+                fillEmpty(baseContainer);
+                sep.after(baseContainer);
+                this.dependencies.selection.setCursorStart(baseContainer);
+            }
+>>>>>>> upstream/18.0
         }
         this.dependencies.history.addStep();
     }

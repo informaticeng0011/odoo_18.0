@@ -3,7 +3,11 @@ import { useService } from "@web/core/utils/hooks";
 import {
     many2ManyBinaryField,
 <<<<<<< HEAD
+<<<<<<< HEAD
     Many2ManyBinaryField
+=======
+    Many2ManyBinaryField,
+>>>>>>> upstream/18.0
 =======
     Many2ManyBinaryField,
 >>>>>>> upstream/18.0
@@ -28,6 +32,12 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
             await this.attachmentUploadService.unlink(attachment);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.env.fullComposerBus.trigger("ATTACHMENT_REMOVED", {
+            id: attachment.id,
+        });
+>>>>>>> upstream/18.0
 =======
         this.env.fullComposerBus.trigger("ATTACHMENT_REMOVED", {
             id: attachment.id,

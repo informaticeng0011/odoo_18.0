@@ -32,7 +32,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -78,8 +82,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="display_name"/></list>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="display_name"/></list>`,
 >>>>>>> upstream/18.0
@@ -192,7 +200,11 @@ test("on close with effect in xml on desktop", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0
@@ -242,7 +254,11 @@ test("on close with effect in xml on mobile", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["form,false"] = `
+=======
+    Partner._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     Partner._views["form"] = `
 >>>>>>> upstream/18.0

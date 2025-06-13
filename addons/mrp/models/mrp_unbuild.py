@@ -40,6 +40,10 @@ class MrpUnbuild(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        digits='Product Unit of Measure',
+>>>>>>> upstream/18.0
 =======
         digits='Product Unit of Measure',
 >>>>>>> upstream/18.0
@@ -272,10 +276,13 @@ class MrpUnbuild(models.Model):
                     move_line_vals = self._prepare_move_line_vals(move, move_line, taken_quantity)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.env["stock.move.line"].create(move_line_vals)
                     needed_quantity -= taken_quantity
                     qty_already_used[move_line] += taken_quantity
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     unbuild_move_line = self.env["stock.move.line"].create(move_line_vals)
@@ -283,6 +290,9 @@ class MrpUnbuild(models.Model):
                     qty_already_used[move_line] += taken_quantity
                     unbuild_move_line._apply_putaway_strategy()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

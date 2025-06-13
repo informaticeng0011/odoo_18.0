@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
 # Jumshud Sultanov <cumshud@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
@@ -80,6 +81,11 @@
 # Jumshud Sultanov <cumshud@gmail.com>, 2025
 # erpgo translator <jumshud@erpgo.az>, 2025
 # Nurlan Farajov <coolinuxoid@gmail.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Jumshud Sultanov <cumshud@gmail.com>, 2025
+# Nurlan Farajov <coolinuxoid@gmail.com>, 2025
+# erpgo translator <jumshud@erpgo.az>, 2025
 >>>>>>> upstream/18.0
 =======
 # Jumshud Sultanov <cumshud@gmail.com>, 2025
@@ -96,6 +102,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +191,11 @@ msgstr ""
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Nurlan Farajov <coolinuxoid@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-06-06 18:38+0000\n"
@@ -764,6 +776,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <td style=“padding-top: 10px;”>\n"
 "                        <span style=“font-weight:bold;”>Faktura Ünvanı:</span>\n"
 "                        <t t-out=“object.partner_invoice_id.street or ‘’”>1201 S Figueroa St</t>\n"
@@ -772,6 +785,8 @@ msgstr ""
 "                        <t t-out=“object.partner_invoice_id.zip or ‘’”>90015</t>\n"
 "                        <t t-out=“object.partner_invoice_id.country_id.name or ‘’”>United States</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -818,6 +833,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -849,6 +867,7 @@ msgstr ""
 "                </tr>\n"
 "                <tr>\n"
 "                    <td>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +917,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <span style=\"font-weight:bold;\">Ödəniş Metodu:</span>\n"
 "                        <t t-if=\"tx_sudo.token_id\">\n"
 "                            <t t-out=\"tx_sudo.token_id.display_name or ''\"/>\n"
@@ -919,6 +940,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -950,6 +974,7 @@ msgstr ""
 "                </tr>\n"
 "            </table>\n"
 "        </div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1022,6 +1047,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <div t-if=\"object.partner_shipping_id and not object.only_services\" style=\"margin: 0px; padding: 0px;\">\n"
 "            <table width=\"100%\" style=\"color: #454748; font-size: 12px;\">\n"
 "                <tr>\n"
@@ -1066,6 +1093,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1316,7 +1346,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=“fa fa-print me-1”/>Ətraflı Bax"
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Ətraflı Bax"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Ətraflı Bax"
 >>>>>>> upstream/18.0
@@ -1534,7 +1568,10 @@ msgstr "<span>Xəbərdarlıq: bu sifarişin dublikat ola bilər => </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1588,6 +1625,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1659,11 +1699,14 @@ msgstr "<strong>Satış Meneceri</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Çatdırılma Ünvanı</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3098,7 +3141,10 @@ msgstr "E-poçt"
 #. module: sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_compose_message
@@ -3107,6 +3153,9 @@ msgstr "Email tərtibi sehrbazı"
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5257,7 +5306,10 @@ msgstr "Satış Menecerləri"
 #. module: sale
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale.model_mail_scheduled_message
@@ -5266,6 +5318,9 @@ msgstr ""
 
 #. module: sale
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6346,12 +6401,15 @@ msgstr "Daha ətraflı"
 #: code:addons/sale/models/sale_order.py:0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Sifarişə Baxın"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6663,8 +6721,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "== ‘pending’) and ‘Gözlənilən Sifariş’ or ‘Sifariş’ }} (Ref {{ object.name "
 "or ’n/a’ }})"
+=======
+"== 'pending') and 'Gözlənilən Sifariş' or 'Sifariş' }} (Ref {{ object.name "
+"or 'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 "== 'pending') and 'Gözlənilən Sifariş' or 'Sifariş' }} (Ref {{ object.name "
 "or 'n/a' }})"

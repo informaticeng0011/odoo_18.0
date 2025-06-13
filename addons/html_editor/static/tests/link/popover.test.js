@@ -21,6 +21,10 @@ import { insertLineBreak, insertText, splitBlock, undo } from "../_helpers/user_
 import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -34,6 +38,7 @@ const base64Img =
 describe("should open a popover", () => {
     test("should open a popover when the selection is inside a link and close outside of a link", async () => {
         const { el } = await setupEditor("<p>this is a <a>link</a></p>");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
@@ -53,6 +58,8 @@ describe("should open a popover", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-linkpopover", 0);
         // selection inside a link
         setContent(el, "<p>this is a <a>li[]nk</a></p>");
@@ -65,6 +72,9 @@ describe("should open a popover", () => {
         await setupEditor("<p>this is a <a>li[]nk</a></p>");
         await expectElementCount(".o-we-linkpopover", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75,8 +85,12 @@ describe("should open a popover", () => {
         await setupEditor('<p>this is a <a href="test.com">li[]nk</a></p>');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -116,7 +130,11 @@ describe("should open a popover", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -170,7 +188,11 @@ describe("popover should switch UI depending on editing state", () => {
         await waitFor(".o_we_edit_link");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -232,7 +254,11 @@ describe("popover should edit,copy,remove the link", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -309,8 +335,12 @@ describe("Link creation", () => {
             expect(cleanLinkArtifacts(getContent(el))).toBe("<p>ab<a>[]</a></p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -341,8 +371,12 @@ describe("Link creation", () => {
             await click(".o-we-command-name:first");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -529,8 +563,12 @@ describe("Link creation", () => {
             await click(".o-we-toolbar .fa-link");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -548,8 +586,12 @@ describe("Link creation", () => {
             await click(".o-we-toolbar .fa-link");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -937,8 +979,12 @@ describe("link in templates", () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -962,8 +1008,12 @@ describe("link in templates", () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1018,7 +1068,11 @@ describe("links with inline image", () => {
         );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -1136,7 +1190,11 @@ describe("upload file via link popover", () => {
         // Created link has the correct href and label
         expect(cleanLinkArtifacts(getContent(el))).toBe(
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<p><a href="${expectedUrl}">file.txt[]</a></p>`
+=======
+            `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
+>>>>>>> upstream/18.0
 =======
             `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
 >>>>>>> upstream/18.0

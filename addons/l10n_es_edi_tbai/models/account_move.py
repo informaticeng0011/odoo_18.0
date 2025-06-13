@@ -317,7 +317,10 @@ class AccountMove(models.Model):
             'invoice_date': self.invoice_date,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tipofactura': 'F5' if self._l10n_es_is_dua() else 'F1',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331,8 +334,11 @@ class AccountMove(models.Model):
         intracom = bool(tax_tags & (mod_303_10 + mod_303_11))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['regime_key'] = ['09'] if intracom else ['01']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         reagyp = self.invoice_line_ids.tax_ids.filtered(lambda t: t.l10n_es_type == 'sujeto_agricultura')
@@ -343,6 +349,9 @@ class AccountMove(models.Model):
         else:
             values['regime_key'] = ['01']
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -352,8 +361,11 @@ class AccountMove(models.Model):
             values['credit_note_invoices'] = self.reversed_entry_id | self.l10n_es_tbai_reversed_ids
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if reagyp:
@@ -363,6 +375,9 @@ class AccountMove(models.Model):
         else:
             values['tipofactura'] = 'F1'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

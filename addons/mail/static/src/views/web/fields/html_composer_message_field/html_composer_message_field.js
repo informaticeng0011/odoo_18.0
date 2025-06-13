@@ -6,6 +6,10 @@ import { HtmlMailField, htmlMailField } from "../html_mail_field/html_mail_field
 import { MentionPlugin } from "./mention_plugin";
 import { SIGNATURE_CLASS } from "@html_editor/main/signature_plugin";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { fillEmpty } from "@html_editor/utils/dom";
+>>>>>>> upstream/18.0
 =======
 import { fillEmpty } from "@html_editor/utils/dom";
 >>>>>>> upstream/18.0
@@ -32,7 +36,10 @@ export class HtmlComposerMessageField extends HtmlMailField {
                 ev.detail.onSaveContent(textValue, emailAddSignature);
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             useBus(this.env.fullComposerBus, "ATTACHMENT_REMOVED", (ev) => {
                 const attachmentElements = this.editor.editable.querySelectorAll(
                     `[data-attachment-id="${ev.detail.id}"]`
@@ -44,6 +51,9 @@ export class HtmlComposerMessageField extends HtmlMailField {
                 });
                 this.editor.shared.history.addStep();
             });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }

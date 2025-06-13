@@ -48,6 +48,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -187,6 +191,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    reversed_entry_id = fields.Many2one(tracking=True)
+>>>>>>> upstream/18.0
 =======
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
@@ -336,11 +344,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _compute_l10n_jo_edi_computed_xml(self):
         for invoice in self:
             xml_content = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
             invoice.l10n_jo_edi_computed_xml = base64.b64encode(xml_content)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424,6 +435,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -504,7 +518,10 @@ class AccountMove(models.Model):
         return self.company_id.l10n_jo_edi_taxpayer_type == 'sales' and self.move_type == 'out_refund'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_invoice_scope_code(self):
         "Invoices in this module are always local invoices"
         return '0'
@@ -520,6 +537,9 @@ class AccountMove(models.Model):
             'special': '3',
         }.get(self.company_id.l10n_jo_edi_taxpayer_type, '1')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def button_draft(self):
         # EXTENDS 'account'
@@ -528,6 +548,10 @@ class AccountMove(models.Model):
                 "l10n_jo_edi_error": False,
                 "l10n_jo_edi_state": False,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                "l10n_jo_edi_qr": False,
+>>>>>>> upstream/18.0
 =======
                 "l10n_jo_edi_qr": False,
 >>>>>>> upstream/18.0
@@ -551,7 +575,11 @@ class AccountMove(models.Model):
         # EXTENDS account
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.l10n_jo_edi_state == 'sent' and self.l10n_jo_edi_xml_attachment_id:
+=======
+        if self.l10n_jo_edi_state in self._l10n_jo_edi_state_sent_options() and self.l10n_jo_edi_xml_attachment_id:
+>>>>>>> upstream/18.0
 =======
         if self.l10n_jo_edi_state in self._l10n_jo_edi_state_sent_options() and self.l10n_jo_edi_xml_attachment_id:
 >>>>>>> upstream/18.0
@@ -566,7 +594,10 @@ class AccountMove(models.Model):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _send_l10n_jo_edi_request(self, params, headers):
         try:
             response = requests.post(JOFOTARA_URL, json=params, headers=headers, timeout=50)
@@ -576,7 +607,17 @@ class AccountMove(models.Model):
             return {'error': _("Invalid request: %s", e)}
 
         if not response.ok:
+<<<<<<< HEAD
             return {'error': _("Request failed: %s", response.content.decode())}
+        dict_response = response.json()
+        return dict_response
+
+>>>>>>> upstream/18.0
+=======
+            content = response.content.decode()
+            if response.status_code == 403:
+                content = _("Access forbidden. Please verify your JoFotara credentials.")
+            return {'error': _("Request failed: %s", content)}
         dict_response = response.json()
         return dict_response
 
@@ -586,6 +627,7 @@ class AccountMove(models.Model):
         headers = self._l10n_jo_build_jofotara_headers()
         xml_invoice = self.env['account.edi.xml.ubl_21.jo']._export_invoice(self)[0]
         params = {'invoice': base64.b64encode(xml_invoice).decode()}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         try:
@@ -823,6 +865,11 @@ class AccountMove(models.Model):
         if 'error' in dict_response and len(dict_response) == 1:
             return dict_response['error']
 >>>>>>> upstream/18.0
+=======
+        dict_response = self._send_l10n_jo_edi_request(params, headers)
+        if 'error' in dict_response and len(dict_response) == 1:
+            return dict_response['error']
+>>>>>>> upstream/18.0
         self.l10n_jo_edi_qr = str(dict_response.get('EINV_QR', ''))
         self.invoice_pdf_report_id.res_field = False
         self.env["ir.attachment"].create(
@@ -839,6 +886,7 @@ class AccountMove(models.Model):
         return f"{self.name.replace('/', '_')}_edi.xml"
 
     def _l10n_jo_validate_config(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
         error_msg = ''
         if not self.sudo().company_id.l10n_jo_edi_client_identifier:
@@ -1065,6 +1113,8 @@ class AccountMove(models.Model):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         error_msgs = []
         if not self.sudo().company_id.l10n_jo_edi_client_identifier:
             error_msgs.append(_("Client ID is missing."))
@@ -1097,12 +1147,16 @@ class AccountMove(models.Model):
             elif self.currency_id != self.reversed_entry_id.currency_id:
                 error_msgs.append(_("Please make sure the currency of the credit note is the same as the related invoice"))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if any(
             line.display_type not in ('line_note', 'line_section')
             and (line.quantity < 0 or line.price_unit < 0)
             for line in self.invoice_line_ids
         ):
+<<<<<<< HEAD
 <<<<<<< HEAD
             error_msg += _("JoFotara portal cannot process negative quantity nor negative price on invoice lines")
 
@@ -1116,6 +1170,8 @@ class AccountMove(models.Model):
 
         return error_msg
 =======
+=======
+>>>>>>> upstream/18.0
             error_msgs.append(_("JoFotara portal cannot process negative quantity nor negative price on invoice lines"))
 
         for line in self.invoice_line_ids.filtered(lambda line: line.display_type not in ('line_note', 'line_section')):
@@ -1134,6 +1190,9 @@ class AccountMove(models.Model):
     def _mark_sent_jo_edi(self):
         self.l10n_jo_edi_error = False
         self.l10n_jo_edi_state = 'sent'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _l10n_jo_edi_send(self):
@@ -1145,8 +1204,12 @@ class AccountMove(models.Model):
             return error_message
         else:
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.l10n_jo_edi_error = False
             self.l10n_jo_edi_state = 'sent'
+=======
+            self._mark_sent_jo_edi()
+>>>>>>> upstream/18.0
 =======
             self._mark_sent_jo_edi()
 >>>>>>> upstream/18.0

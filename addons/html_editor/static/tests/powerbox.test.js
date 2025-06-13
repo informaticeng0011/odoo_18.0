@@ -28,6 +28,10 @@ import { withSequence } from "@html_editor/utils/resource";
 import { execCommand } from "./_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -43,6 +47,7 @@ test("should open the Powerbox on type `/`", async () => {
     const { el, editor } = await setupEditor("<p>ab[]</p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
@@ -51,12 +56,17 @@ test("should open the Powerbox on type `/`", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68,6 +78,7 @@ test("in iframe, desktop: should open the Powerbox on type `/`", async () => {
     expect("iframe").toHaveCount(1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
@@ -76,12 +87,17 @@ test("in iframe, desktop: should open the Powerbox on type `/`", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93,6 +109,7 @@ test("in iframe, mobile: should open the Powerbox on type `/`", async () => {
     expect("iframe").toHaveCount(2);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
@@ -101,12 +118,17 @@ test("in iframe, mobile: should open the Powerbox on type `/`", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     expect(getContent(el)).toBe("<p>ab[]</p>");
     await insertText(editor, "/");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123,7 +145,11 @@ test("should open the Powerbox on type `/`, but in an empty paragraph", async ()
     const { el, editor } = await setupEditor("<p>[]<br></p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -138,7 +164,11 @@ test("should open the Powerbox on type `/`, but in an empty paragraph", async ()
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -219,6 +249,7 @@ describe("search", () => {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(0);
         await insertText(editor, "/test12");
         await animationFrame();
@@ -227,12 +258,17 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-powerbox", 0);
         await insertText(editor, "/test12");
         await animationFrame();
         expect(getContent(el)).toBe("<p>/test12[]</p>");
         await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244,7 +280,11 @@ describe("search", () => {
         expect(getContent(el)).toBe("<p>/test1[]</p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -261,7 +301,11 @@ describe("search", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -274,6 +318,7 @@ describe("search", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(0);
 
         await press("Backspace");
@@ -282,12 +327,17 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-powerbox", 0);
 
         await press("Backspace");
         await animationFrame();
         await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315,7 +365,11 @@ describe("search", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -329,6 +383,7 @@ describe("search", () => {
         await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(0);
 
         await press("backspace");
@@ -337,12 +392,17 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-powerbox", 0);
 
         await press("backspace");
         await animationFrame();
         await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -365,7 +425,11 @@ describe("search", () => {
         mergePeersSteps(peerInfos);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -383,7 +447,11 @@ describe("search", () => {
         mergePeersSteps(peerInfos);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -401,7 +469,11 @@ describe("search", () => {
         mergePeersSteps(peerInfos);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -419,6 +491,7 @@ describe("search", () => {
         await insertText(editor, "/head");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-powerbox").toHaveCount(0);
 
         await press("enter");
@@ -426,11 +499,16 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-powerbox", 0);
 
         await press("enter");
         await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -466,6 +544,7 @@ describe("search", () => {
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
             insertText(editor, "/apple");
             await animationFrame();
@@ -473,11 +552,16 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await expectElementCount(".o-we-powerbox", 0);
             insertText(editor, "/apple");
             await animationFrame();
             await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -537,6 +621,7 @@ describe("search", () => {
             });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
             insertText(editor, "/icon");
             await animationFrame();
@@ -544,11 +629,16 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await expectElementCount(".o-we-powerbox", 0);
             insertText(editor, "/icon");
             await animationFrame();
             await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -571,6 +661,7 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
             await insertText(editor, "zxzxzxz");
             await animationFrame();
@@ -579,12 +670,17 @@ describe("search", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await expectElementCount(".o-we-powerbox", 1);
             await insertText(editor, "zxzxzxz");
             await animationFrame();
             expect(getContent(el)).toBe("<p>a/zxzxzxz[]</p>");
             await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -595,7 +691,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -610,7 +710,11 @@ describe("search", () => {
             expect(getContent(el)).toBe("<p>a/ b[]</p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -625,7 +729,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -638,7 +746,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -653,7 +765,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -669,7 +785,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -682,7 +802,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -695,7 +819,11 @@ describe("search", () => {
             await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -714,6 +842,7 @@ test("should execute command and remove term and hot character on Enter", async 
     expect(commandNames(el)).toEqual(["Heading 1", "Heading 2", "Heading 3"]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
     await press("Enter");
     expect(getContent(el)).toBe("<h1>ab[]</h1>");
@@ -724,6 +853,8 @@ test("should execute command and remove term and hot character on Enter", async 
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
     await press("Enter");
     expect(getContent(el)).toBe("<h1>ab[]</h1>");
@@ -732,6 +863,9 @@ test("should execute command and remove term and hot character on Enter", async 
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -752,6 +886,7 @@ test.todo("should close the powerbox if keyup event is called on other block", a
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
     // await dispatch(editor.editable, "keyup");
     expect(".o-we-powerbox").toHaveCount(1);
@@ -760,12 +895,17 @@ test.todo("should close the powerbox if keyup event is called on other block", a
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
     // await dispatch(editor.editable, "keyup");
     await expectElementCount(".o-we-powerbox", 1);
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -817,7 +957,11 @@ test("should toggle list on empty paragraph", async () => {
     expect(commandNames(el)).toEqual(["Checklist"]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -832,7 +976,11 @@ test("should toggle list on empty paragraph", async () => {
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -872,7 +1020,11 @@ test("should restore state before /command insertion when command is executed (1
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -904,7 +1056,11 @@ test("should restore state before /command insertion when command is executed (2
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -935,7 +1091,11 @@ test("should discard /command insertion from history when command is executed", 
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -980,6 +1140,7 @@ test("should open the Powerbox on type `/` in DIV", async () => {
     const { editor } = await setupEditor(`<div>ab<br><br>[]</div>`);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     await insertText(editor, "/");
     await animationFrame();
@@ -988,12 +1149,17 @@ test("should open the Powerbox on type `/` in DIV", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     await insertText(editor, "/");
     await animationFrame();
 
     await expectElementCount(".o-we-powerbox", 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1045,6 +1211,7 @@ test("press 'arrowleft' should close PowerBox", async () => {
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
 
     await press("arrowleft");
@@ -1053,12 +1220,17 @@ test("press 'arrowleft' should close PowerBox", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
 
     await press("arrowleft");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1070,6 +1242,7 @@ test("press 'arrowright' should close PowerBox", async () => {
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
 
     await press("arrowright");
@@ -1078,12 +1251,17 @@ test("press 'arrowright' should close PowerBox", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
 
     await press("arrowright");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1145,7 +1323,11 @@ test("select command with 'mouseenter' after scroll -- doc in iframe", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await hover("body"); // Hover on main document's body
+=======
+    await hover(document.body); // Hover on main document's body
+>>>>>>> upstream/18.0
 =======
     await hover(document.body); // Hover on main document's body
 >>>>>>> upstream/18.0

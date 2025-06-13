@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { memoize } from "@web/core/utils/functions";
 import { useAutofocus, useService } from "@web/core/utils/hooks";
 import { ModelFieldSelectorPopover } from "@web/core/model_field_selector/model_field_selector_popover";
@@ -7,6 +8,32 @@ import { user } from "@web/core/user";
 const allowedQwebExpressions = memoize(async (model, orm) => {
     return await orm.call(model, "mail_allowed_qweb_expressions");
 });
+=======
+import { useAutofocus } from "@web/core/utils/hooks";
+import { ModelFieldSelectorPopover } from "@web/core/model_field_selector/model_field_selector_popover";
+import { Component, onWillStart, useState } from "@odoo/owl";
+import { user } from "@web/core/user";
+import { registry } from "@web/core/registry";
+
+const allowedQwebExpressionsService = {
+    dependencies: ["orm"],
+    start(env, { orm }) {
+        const cache = new Map();
+        return (resModel) => {
+            if (cache.has(resModel)) {
+                return cache.get(resModel);
+            }
+            const prom = orm.call(resModel, "mail_allowed_qweb_expressions").catch((e) => {
+                cache.delete(resModel);
+                return Promise.reject(e);
+            });
+            cache.set(resModel, prom);
+            return prom;
+        };
+    },
+};
+registry.category("services").add("allowed_qweb_expressions", allowedQwebExpressionsService);
+>>>>>>> upstream/18.0
 
 export class DynamicPlaceholderPopover extends Component {
     static template = "web.DynamicPlaceholderPopover";
@@ -22,6 +49,7 @@ export class DynamicPlaceholderPopover extends Component {
             isPathSelected: false,
             defaultValue: "",
         });
+<<<<<<< HEAD
         this.orm = useService("orm");
 
         onWillStart(async () => {
@@ -31,6 +59,17 @@ export class DynamicPlaceholderPopover extends Component {
                 allowedQwebExpressions(this.props.resModel, this.orm),
             ]);
         });
+=======
+        onWillStart(() => this._loadAllowedExpressions());
+    }
+
+    async _loadAllowedExpressions() {
+        const getAllowedQwebExpressions = this.env.services["allowed_qweb_expressions"];
+        [this.isTemplateEditor, this.allowedQwebExpressions] = await Promise.all([
+            user.hasGroup("mail.group_mail_template_editor"),
+            getAllowedQwebExpressions(this.props.resModel),
+        ]);
+>>>>>>> upstream/18.0
     }
 
     filter(fieldDef, path) {

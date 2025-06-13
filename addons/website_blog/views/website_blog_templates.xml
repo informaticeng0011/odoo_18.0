@@ -132,7 +132,13 @@ list of filtered posts (by date or tag).
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div class="h1 o_not_editable" style="text-align:center;">Our Latest Posts</div>
+=======
+                    <!-- Remove this t-if from master -->
+                    <div t-if="False" class="h1 o_not_editable" style="text-align:center;">Our Latest Posts</div>
+                    <div class="h1" style="text-align:center;">Our Latest Posts</div>
+>>>>>>> upstream/18.0
 =======
                     <!-- Remove this t-if from master -->
                     <div t-if="False" class="h1 o_not_editable" style="text-align:center;">Our Latest Posts</div>
@@ -284,7 +290,13 @@ list of filtered posts (by date or tag).
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="h1 my-4 o_not_editable" style="text-align:center;">Our Latest Posts</div>
+=======
+            <!-- Remove this t-if from master -->
+            <div t-if="False" class="h1 my-4 o_not_editable" style="text-align:center;">Our Latest Posts</div>
+            <div class="h1 my-4" style="text-align:center;">Our Latest Posts</div>
+>>>>>>> upstream/18.0
 =======
             <!-- Remove this t-if from master -->
             <div t-if="False" class="h1 my-4 o_not_editable" style="text-align:center;">Our Latest Posts</div>

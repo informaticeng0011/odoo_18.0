@@ -186,8 +186,13 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             need_fallback = not self._is_applicable_to_move(preferred_method, wizard.move_id)
             fallback_method = need_fallback and ('email' if self._is_applicable_to_move('email', wizard.move_id) else 'manual')
+=======
+            need_fallback = not self._is_applicable_to_move(preferred_method, wizard.move_id, **self._get_sending_settings())
+            fallback_method = need_fallback and 'email'
+>>>>>>> upstream/18.0
 =======
             need_fallback = not self._is_applicable_to_move(preferred_method, wizard.move_id, **self._get_sending_settings())
             fallback_method = need_fallback and 'email'
@@ -494,11 +499,14 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('move_id')
     def _compute_invoice_edi_format(self):
         for wizard in self:
             wizard.invoice_edi_format = self._get_default_invoice_edi_format(wizard.move_id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -668,6 +676,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -871,10 +882,13 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 wizard.mail_subject = wizard.mail_body = wizard.mail_partner_ids = None
 
     @api.depends('mail_template_id', 'sending_methods', 'extra_edis')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1044,6 +1058,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1218,6 +1235,10 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    invoice_edi_format=wizard.invoice_edi_format,
+>>>>>>> upstream/18.0
 =======
                     invoice_edi_format=wizard.invoice_edi_format,
 >>>>>>> upstream/18.0

@@ -12,6 +12,7 @@ export class MailComposerFormController extends formView.Controller {
         fullComposerBus: { type: EventBus, optional: true },
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         super.setup();
         toRaw(this.env.dialogData).model = "mail.compose.message";
@@ -21,6 +22,8 @@ export class MailComposerFormController extends formView.Controller {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
     static defaultProps = { fullComposerBus: new EventBus() };
     setup() {
         super.setup();
@@ -28,6 +31,9 @@ export class MailComposerFormController extends formView.Controller {
         useSubEnv({
             fullComposerBus: this.props.fullComposerBus,
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }

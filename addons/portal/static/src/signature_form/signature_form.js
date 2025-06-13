@@ -14,7 +14,11 @@ import { NameAndSignature } from "@web/core/signature/name_and_signature";
  * button, and handles the RPC to save the result.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class SignatureForm extends Component {
+=======
+export class SignatureForm extends Component {
+>>>>>>> upstream/18.0
 =======
 export class SignatureForm extends Component {
 >>>>>>> upstream/18.0

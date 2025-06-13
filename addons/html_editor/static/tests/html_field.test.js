@@ -18,7 +18,10 @@ import {
     waitFor,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     waitForNone,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49,6 +52,10 @@ import { insertText, pasteOdooEditorHtml, pasteText, undo } from "./_helpers/use
 import { unformat } from "./_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -543,7 +550,11 @@ test("create new record and load it correctly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "kanban,false": `
+=======
+            kanban: `
+>>>>>>> upstream/18.0
 =======
             kanban: `
 >>>>>>> upstream/18.0
@@ -890,7 +901,11 @@ test("A new MediaDialog after switching record in a Form view should have the co
     await animationFrame();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -937,7 +952,11 @@ test("Embed video by pasting video URL", async () => {
     expect(anchorNode.outerHTML).toBe("<p>https://www.youtube.com/watch?v=qxb74CMR748</p>");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -1021,8 +1040,12 @@ test("link preview in Link Popover", async () => {
     setSelectionInHtmlField(".test_target");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitForNone(".o-we-linkpopover", { root: document, timeout: 500 });
     expect(".o-we-linkpopover").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -1302,7 +1325,10 @@ test("codeview is not available when not in debug mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: false });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1406,7 +1432,11 @@ test("codeview is available when option is active and in debug mode", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1539,7 +1569,11 @@ test("enable/disable codeview with editor toolbar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -1684,7 +1718,11 @@ test("edit and enable/disable codeview with editor toolbar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(odoo, { debug: true });
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0

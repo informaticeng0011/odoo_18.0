@@ -4,7 +4,18 @@ import { useSetupAction } from "@web/search/action_hook";
 import { SEARCH_KEYS } from "@web/search/with_search/with_search";
 import { buildSampleORM } from "./sample_server";
 
+<<<<<<< HEAD
 import { EventBus, onWillStart, onWillUpdateProps, status, useComponent } from "@odoo/owl";
+=======
+import {
+    EventBus,
+    onMounted,
+    onWillStart,
+    onWillUpdateProps,
+    status,
+    useComponent,
+} from "@odoo/owl";
+>>>>>>> upstream/18.0
 
 /**
  * @typedef {import("@web/search/search_model").SearchParams} SearchParams
@@ -74,6 +85,33 @@ function getSearchParams(props) {
     return params;
 }
 
+<<<<<<< HEAD
+=======
+function usePostMountedServices(services) {
+    if (services.dialog) {
+        services.dialog = Object.create(services.dialog);
+        const dialogAddOrigin = services.dialog.add;
+        let dialogRequests = [];
+        services.dialog.add = (...args) => {
+            const index = dialogRequests.push(args);
+            return () => {
+                dialogRequests[index] = null;
+            };
+        };
+        onMounted(() => {
+            services.dialog.add = dialogAddOrigin;
+            for (const req of dialogRequests) {
+                if (req) {
+                    dialogAddOrigin(...req);
+                }
+            }
+            dialogRequests = null;
+        });
+    }
+    return services;
+}
+
+>>>>>>> upstream/18.0
 /**
  * @template {typeof Model} T
  * @param {T} ModelClass
@@ -84,11 +122,19 @@ function getSearchParams(props) {
  */
 export function useModel(ModelClass, params, options = {}) {
     const component = useComponent();
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
     for (const key of ModelClass.services) {
         services[key] = useService(key);
     }
     services.orm = services.orm || useService("orm");
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
     const model = new ModelClass(component.env, params, services);
     onWillStart(async () => {
         await options.beforeFirstLoad?.();
@@ -113,11 +159,19 @@ export function useModelWithSampleData(ModelClass, params, options = {}) {
     if (!(ModelClass.prototype instanceof Model)) {
         throw new Error(`the model class should extend Model`);
     }
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
     for (const key of ModelClass.services) {
         services[key] = useService(key);
     }
     services.orm = services.orm || useService("orm");
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
 
     if (!("isAlive" in params)) {
         params.isAlive = () => status(component) !== "destroyed";

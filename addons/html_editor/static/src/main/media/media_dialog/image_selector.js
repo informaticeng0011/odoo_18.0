@@ -133,9 +133,12 @@ export class ImageSelector extends FileSelector {
         domain.push(["mimetype", "in", IMAGE_MIMETYPES]);
         if (!this.props.useMediaLibrary) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.push("|", ["url", "=", false],
                 "!", "|", ["url", "=ilike", "/html_editor/shape/%"], ["url", "=ilike", "/web_editor/shape/%"],
 =======
+=======
+>>>>>>> upstream/18.0
             domain.push(
                 "|",
                 ["url", "=", false],
@@ -143,6 +146,9 @@ export class ImageSelector extends FileSelector {
                 "|",
                 ["url", "=ilike", "/html_editor/shape/%"],
                 ["url", "=ilike", "/web_editor/shape/%"]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             );
         }
@@ -345,16 +351,22 @@ export class ImageSelector extends FileSelector {
             .map((attachment) => {
                 // Color-customize dynamic SVGs with the theme colors
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (attachment.image_src && (
                     attachment.image_src.startsWith("/html_editor/shape/") ||
                     attachment.image_src.startsWith("/web_editor/shape/")
                 )) {
 =======
+=======
+>>>>>>> upstream/18.0
                 if (
                     attachment.image_src &&
                     (attachment.image_src.startsWith("/html_editor/shape/") ||
                         attachment.image_src.startsWith("/web_editor/shape/"))
                 ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     const colorCustomizedURL = new URL(
                         attachment.image_src,
@@ -390,6 +402,10 @@ export class ImageSelector extends FileSelector {
                 imageEl.src = src;
                 imageEl.alt = attachment.description || "";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                imageEl.dataset.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
 =======
                 imageEl.dataset.attachmentId = attachment.id;
 >>>>>>> upstream/18.0

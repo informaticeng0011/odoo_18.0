@@ -48,7 +48,11 @@ class TestJoEdiPrecision(JoEdiCommon):
         return self.env['account.edi.xml.ubl_21.jo']._sum_max_dp(iterable)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _validate_jo_edi_numbers(self, xml_string):
+=======
+    def _validate_jo_edi_numbers(self, xml_string, invoice):
+>>>>>>> upstream/18.0
 =======
     def _validate_jo_edi_numbers(self, xml_string, invoice):
 >>>>>>> upstream/18.0
@@ -85,6 +89,10 @@ class TestJoEdiPrecision(JoEdiCommon):
         tax_exclusive_amount = float(root.findtext('./{*}LegalMonetaryTotal/{*}TaxExclusiveAmount'))
         tax_inclusive_amount = float(root.findtext('./{*}LegalMonetaryTotal/{*}TaxInclusiveAmount'))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
 >>>>>>> upstream/18.0
@@ -170,7 +178,11 @@ class TestJoEdiPrecision(JoEdiCommon):
             invoice = self._l10n_jo_create_invoice(invoice_vals)
             generated_file = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
 <<<<<<< HEAD
+<<<<<<< HEAD
             errors = self._validate_jo_edi_numbers(generated_file)
+=======
+            errors = self._validate_jo_edi_numbers(generated_file, invoice)
+>>>>>>> upstream/18.0
 =======
             errors = self._validate_jo_edi_numbers(generated_file, invoice)
 >>>>>>> upstream/18.0

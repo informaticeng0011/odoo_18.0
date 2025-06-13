@@ -48,6 +48,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Self-billed invoices must use the number given by the supplier.
+            if invoice.ref:
+                vals['vals']['id'] = invoice.ref
+>>>>>>> upstream/18.0
 =======
             # Self-billed invoices must use the number given by the supplier.
             if invoice.ref:

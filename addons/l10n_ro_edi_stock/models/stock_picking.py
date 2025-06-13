@@ -436,9 +436,12 @@ class Picking(models.Model):
         missing_carrier_partner_fields = []
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if partner.country_id.code != 'RO':
             errors.append(_("The delivery carrier partner has to be located in Romania."))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if not partner.vat:

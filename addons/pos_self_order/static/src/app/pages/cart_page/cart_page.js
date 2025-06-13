@@ -12,6 +12,11 @@ import { OrderWidget } from "@pos_self_order/app/components/order_widget/order_w
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { CancelPopup } from "@pos_self_order/app/components/cancel_popup/cancel_popup";
+import { rpc } from "@web/core/network/rpc";
+>>>>>>> upstream/18.0
 =======
 import { CancelPopup } from "@pos_self_order/app/components/cancel_popup/cancel_popup";
 import { rpc } from "@web/core/network/rpc";
@@ -60,6 +65,10 @@ export class CartPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dialog = useService("dialog");
+>>>>>>> upstream/18.0
 =======
         this.dialog = useService("dialog");
 >>>>>>> upstream/18.0
@@ -99,7 +108,10 @@ export class CartPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129,6 +141,9 @@ export class CartPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171,7 +186,10 @@ export class CartPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212,6 +230,9 @@ export class CartPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

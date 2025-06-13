@@ -90,7 +90,13 @@ export class FormRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { autofocusFieldId } = archInfo;
+=======
+        // autofocusFieldId is now deprecated, it's kept until saas-18.2 for retro-compatibility
+        // and is removed in saas-18.3 to let autofocusFieldIds take over.
+        const { autofocusFieldId, autofocusFieldIds = [] } = archInfo;
+>>>>>>> upstream/18.0
 =======
         // autofocusFieldId is now deprecated, it's kept until saas-18.2 for retro-compatibility
         // and is removed in saas-18.3 to let autofocusFieldIds take over.
@@ -201,6 +207,7 @@ export class FormRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         elementToFocus =
                             (autofocusFieldId && rootEl.querySelector(`#${autofocusFieldId}`)) ||
                             rootEl.querySelector(
@@ -209,6 +216,8 @@ export class FormRenderer extends Component {
                                     .join(", ")
                             );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -271,6 +280,9 @@ export class FormRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

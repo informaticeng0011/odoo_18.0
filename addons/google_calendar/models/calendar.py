@@ -326,6 +326,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.allday:
             # For all-day events, 'dateTime' must be set to None to indicate that it's an all-day event.
             # Otherwise, if both 'date' and 'dateTime' are set, Google may not recognize it as an all-day event.
@@ -337,6 +338,8 @@ class Meeting(models.Model):
             start = {'dateTime': pytz.utc.localize(self.start).isoformat(), 'date': None}
             end = {'dateTime': pytz.utc.localize(self.stop).isoformat(), 'date': None}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -472,6 +475,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -657,7 +663,10 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -747,6 +756,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

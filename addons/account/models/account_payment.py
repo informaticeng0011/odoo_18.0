@@ -70,6 +70,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -499,7 +503,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
 =======
             if not bool(payment._origin) and (partner or payment_type):
 >>>>>>> upstream/18.0
@@ -576,11 +584,14 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -634,6 +645,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -733,7 +747,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if move.currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) else
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
+>>>>>>> upstream/18.0
 =======
                     if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
 >>>>>>> upstream/18.0
@@ -1500,6 +1518,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -1729,6 +1751,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0

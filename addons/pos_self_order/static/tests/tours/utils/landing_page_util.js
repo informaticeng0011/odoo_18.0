@@ -13,6 +13,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { delay } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 =======
 import { delay } from "@odoo/hoot-dom";
 
@@ -123,7 +128,10 @@ export function checkCountryFlagShown(country_code) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,10 +175,16 @@ export function checkCarouselAutoPlaying() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         timeout: 5600,
         async run() {
             const firstSlideHtml = document.querySelector(".carousel-item.active")?.outerHTML;
             await delay(5000);
+=======
+        async run() {
+            const firstSlideHtml = document.querySelector(".carousel-item.active")?.outerHTML;
+            await delay(150);
+>>>>>>> upstream/18.0
 =======
         async run() {
             const firstSlideHtml = document.querySelector(".carousel-item.active")?.outerHTML;
@@ -244,6 +258,9 @@ export function checkCarouselAutoPlaying() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

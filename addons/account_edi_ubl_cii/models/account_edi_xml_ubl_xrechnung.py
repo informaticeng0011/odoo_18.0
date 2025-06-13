@@ -26,6 +26,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
         vals['vals']['customization_id'] = self._get_customization_ids()['xrechnung']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not vals['vals'].get('buyer_reference'):
+            vals['vals']['buyer_reference'] = 'N/A'
+>>>>>>> upstream/18.0
 =======
         if not vals['vals'].get('buyer_reference'):
             vals['vals']['buyer_reference'] = 'N/A'

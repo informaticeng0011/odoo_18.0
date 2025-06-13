@@ -30,12 +30,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="is_invoice_report"/>
 =======
                 <field name="is_invoice_report" invisible="'model' != 'account.move'"/>
 >>>>>>> upstream/18.0
 =======
                 <field name="is_invoice_report" invisible="'model' != 'account.move'"/>
+>>>>>>> upstream/18.0
+=======
+                <field name="is_invoice_report" invisible="model != 'account.move'"/>
 >>>>>>> upstream/18.0
 =======
                 <field name="is_invoice_report" invisible="model != 'account.move'"/>

@@ -32,7 +32,11 @@ class TestImportFiles(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+=======
+                        "file_type": "application/vnd.ms-excel",
+>>>>>>> upstream/18.0
 =======
                         "file_type": "application/vnd.ms-excel",
 >>>>>>> upstream/18.0

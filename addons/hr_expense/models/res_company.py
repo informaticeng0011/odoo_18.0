@@ -26,7 +26,11 @@ class ResCompany(models.Model):
         check_company=True,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('payment_type', '=', 'outbound'), ('journal_id', '!=', False)]",
+=======
+        domain="[('payment_type', '=', 'outbound'), ('journal_id', '!=', False), ('journal_id.active', '=', True)]",
+>>>>>>> upstream/18.0
 =======
         domain="[('payment_type', '=', 'outbound'), ('journal_id', '!=', False), ('journal_id.active', '=', True)]",
 >>>>>>> upstream/18.0

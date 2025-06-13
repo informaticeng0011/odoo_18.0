@@ -23,10 +23,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.fields import Command
 from odoo.tests import TransactionCase, tagged
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97,6 +100,9 @@ from odoo.addons.base.tests.common import TransactionCaseWithUserPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147,6 +153,7 @@ from odoo.addons.website_sale_loyalty.controllers.main import WebsiteSale
 
 
 @tagged('post_install', '-at_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,6 +232,8 @@ class TestClaimReward(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class TestClaimReward(TransactionCaseWithUserPortal):
 
     @classmethod
@@ -245,7 +254,13 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.website = cls.env.ref('website.default_website')
+=======
+        cls.website = cls.env.ref('website.default_website').with_user(cls.user_portal)
+
+        cls.env['product.pricelist'].search([]).action_archive()
+>>>>>>> upstream/18.0
 =======
         cls.website = cls.env.ref('website.default_website').with_user(cls.user_portal)
 
@@ -328,6 +343,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         cls.product1, cls.product2 = cls.env['product.product'].create([
 <<<<<<< HEAD
@@ -386,6 +402,8 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.product1, cls.product2 = cls.env['product.product'].create([
             {
             'name': 'Test Product',
@@ -403,6 +421,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -432,6 +453,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
         }, {
             'name': 'Test Product 2',
             'list_price': 20.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +541,8 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'taxes_id': False,
             'product_tag_ids': tag,
         }])
@@ -536,6 +560,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -598,6 +625,7 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             })]
         })
 
@@ -618,6 +646,8 @@ class TestClaimReward(TransactionCaseWithUserPortal):
             self.assertEqual(len(order.order_line), 2, 'reward line should be added to order')
             self.assertEqual(order.order_line[1].product_id, product2, 'added reward line should should contain product 2')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -732,7 +762,11 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with MockRequest(self.env, website=self.website, sale_order_id=self.cart.id):
+=======
+        with MockRequest(self.website.env, website=self.website, sale_order_id=self.cart.id):
+>>>>>>> upstream/18.0
 =======
         with MockRequest(self.website.env, website=self.website, sale_order_id=self.cart.id):
 >>>>>>> upstream/18.0
@@ -810,6 +844,9 @@ class TestClaimReward(TransactionCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -254,6 +254,7 @@ export class VideoSelector extends Component {
     async prepareVimeoPreviews() {
         return Promise.all(this.props.vimeoPreviewIds.map(async (videoId) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
             const { thumbnail_url: thumbnailSrc } = await this.http.get(`https://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${encodeURIComponent(videoId)}`);
             this.state.vimeoPreviews.push({
                 id: videoId,
@@ -261,6 +262,8 @@ export class VideoSelector extends Component {
                 src: `https://player.vimeo.com/video/${encodeURIComponent(videoId)}`
             });
 =======
+=======
+>>>>>>> upstream/18.0
             try {
                 const { thumbnail_url: thumbnailSrc } = await this.http.get(`https://vimeo.com/api/oembed.json?url=http%3A//vimeo.com/${encodeURIComponent(videoId)}`);
                 this.state.vimeoPreviews.push({
@@ -271,6 +274,9 @@ export class VideoSelector extends Component {
             } catch (err) {
                 console.warn(`Could not get video #${videoId} from vimeo: ${err}`);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }

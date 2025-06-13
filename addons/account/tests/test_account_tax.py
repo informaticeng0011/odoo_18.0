@@ -244,7 +244,10 @@ class TestAccountTax(AccountTestInvoicingCommon):
         self.assertTrue(tax_reconciliation.is_used)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -316,6 +319,9 @@ class TestAccountTax(AccountTestInvoicingCommon):
             {'display_type': 'payment_term',    'tax_ids': [],          'balance': 100.0,   'account_id': self.company_data['default_account_receivable'].id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

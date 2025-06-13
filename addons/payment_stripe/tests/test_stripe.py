@@ -56,6 +56,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import unittest
+>>>>>>> upstream/18.0
 =======
 import unittest
 >>>>>>> upstream/18.0
@@ -288,6 +292,10 @@ from odoo.addons.payment.tests.http_common import PaymentHttpCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment_stripe import const
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment_stripe import const
 >>>>>>> upstream/18.0
@@ -626,7 +634,10 @@ class StripeTest(StripeCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -797,6 +808,9 @@ class StripeTest(StripeCommon, PaymentHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

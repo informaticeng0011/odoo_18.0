@@ -458,7 +458,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -2825,7 +2829,10 @@ class Model(models.AbstractModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_view_postprocessed(self, view, arch, **options):
@@ -2852,6 +2859,9 @@ class Model(models.AbstractModel):
         return view.postprocess_and_fields(arch, model=self._name, **options)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2903,7 +2913,11 @@ class Model(models.AbstractModel):
         # Apply post processing, groups and modifiers etc...
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

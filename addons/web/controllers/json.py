@@ -47,6 +47,10 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+>>>>>>> upstream/18.0
 =======
 import re
 >>>>>>> upstream/18.0
@@ -488,7 +492,13 @@ def get_default_domain(model, action, context, eval_context):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             default_domain = ast.literal_eval(ir_filter['domain'])
+=======
+            domain_str = ir_filter['domain']
+            domain_str = re.sub(r'\buid\b', str(model.env.uid), domain_str)
+            default_domain = ast.literal_eval(domain_str)
+>>>>>>> upstream/18.0
 =======
             domain_str = ir_filter['domain']
             domain_str = re.sub(r'\buid\b', str(model.env.uid), domain_str)
