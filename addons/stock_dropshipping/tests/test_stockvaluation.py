@@ -340,7 +340,10 @@ class TestStockValuation(ValuationReconciliationTestCommon):
         self.assertTrue(8 in return_pick_2.move_ids.stock_valuation_layer_ids.mapped('value'))
         self.assertTrue(-8 in return_pick_2.move_ids.stock_valuation_layer_ids.mapped('value'))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_dropship_cogs_multiple_invoices(self):
         self.env.company.anglo_saxon_accounting = True
@@ -431,4 +434,7 @@ class TestStockValuation(ValuationReconciliationTestCommon):
         self.assertEqual(dropship3_layers[0].value, 24)
         dropship3_cogs_line = customer_invoice3.line_ids.filtered(lambda aml: aml.account_id.id == account_output.id)
         self.assertEqual(dropship3_cogs_line.balance, -24)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

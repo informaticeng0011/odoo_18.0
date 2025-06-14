@@ -68,7 +68,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': ''}">
+=======
+                    <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': '', 'form_view_ref': 'hr_timesheet.timesheet_view_form_user'}">
+>>>>>>> upstream/18.0
 =======
                     <field name="timesheet_ids" mode="list,kanban" readonly="not analytic_account_active" context="{'default_project_id': project_id, 'default_name': '', 'form_view_ref': 'hr_timesheet.timesheet_view_form_user'}">
 >>>>>>> upstream/18.0
@@ -206,7 +210,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="name" class="col-6 text-muted"/>
+=======
+                                        <field name="name" class="col-6 text-muted" required="0" readonly="readonly_timesheet"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="name" class="col-6 text-muted" required="0" readonly="readonly_timesheet"/>
 >>>>>>> upstream/18.0

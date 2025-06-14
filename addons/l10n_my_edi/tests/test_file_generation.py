@@ -6,7 +6,11 @@ from lxml import etree
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+from odoo.tools import file_open
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import file_open
 >>>>>>> upstream/18.0
@@ -79,6 +83,10 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': "MY-REF",
+>>>>>>> upstream/18.0
 =======
             'ref': "MY-REF",
 >>>>>>> upstream/18.0
@@ -175,8 +183,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(errors, set())
         self.assertTrue(file)
+=======
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(errors)
 
@@ -253,11 +266,17 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_02_multicurrency(self):
         """
@@ -269,7 +288,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         basic_invoice.action_post()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -303,11 +328,17 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_multicurrency.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_03_optional_fields(self):
         """
@@ -330,7 +361,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         basic_invoice.action_post()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -363,7 +400,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'CustomsImportForm',
+=======
+            'K2',
+>>>>>>> upstream/18.0
 =======
             'K2',
 >>>>>>> upstream/18.0
@@ -435,11 +476,17 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_optional_fields.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_04_credit_note(self):
         """
@@ -463,7 +510,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         credit_note.action_post()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = credit_note._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = credit_note._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = credit_note._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -490,16 +543,23 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/credit_note.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_05_invoice_with_so(self):
         """
         Ensure that an invoice linked to an SO will not contain this information in the xml.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
         basic_invoice = self.init_invoice(
             'out_invoice', currency=self.other_currency, products=self.product_a
@@ -516,6 +576,8 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         file = etree.tostring(cleanup_xml_node(xml_content), xml_declaration=True, encoding='UTF-8')
         root = etree.fromstring(file)
 =======
+=======
+>>>>>>> upstream/18.0
         if self.env.ref('base.module_sale').state != 'installed':
             self.skipTest("This test requires the sale module to be installed.")
 
@@ -548,17 +610,26 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 
         root = etree.fromstring(file)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Check the invoice type to endure that it is marked as credit note.
         node = root.xpath('cac:OrderReference', namespaces=NS_MAP)
         self.assertEqual(node, [])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_with_so.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_06_foreigner(self):
         """
@@ -571,9 +642,14 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 
         file, errors = basic_invoice._l10n_my_edi_generate_invoice_xml()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(errors, set())
         self.assertTrue(file)
         # The file is working! Now we assert that the foreign customer information is in there.
+=======
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(errors)
 
@@ -594,11 +670,17 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_foreigner.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_07_tax_exempt(self):
         """
@@ -620,7 +702,11 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         file, errors = invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(file)
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -665,6 +751,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -693,21 +780,29 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_tax_exempt.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_08_bill_imports_form(self):
         """
         Ensure that when a bill contains a customs number; it is treated as an importation and not exportation.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         bill = self.init_invoice(
             'in_invoice', products=self.product_a
         )
         bill.write({
 =======
+=======
+>>>>>>> upstream/18.0
         exempt_tax = self.env['account.tax'].create({
             'name': 'Tax Exempt',
             'type_tax_use': 'sale',
@@ -720,6 +815,9 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
         bill.write({
             'l10n_my_edi_exemption_reason': 'Exempt Customer',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'l10n_my_edi_custom_form_reference': 'E12345678912',
         })
@@ -727,7 +825,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         bill.action_post()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = bill._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = bill._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = bill._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -742,11 +846,17 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/bill_import.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_09_partner_ref_not_in_party_id(self):
         """
@@ -758,7 +868,13 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
         invoice.action_post()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         file, _errors = invoice._l10n_my_edi_generate_invoice_xml()
+=======
+        file, errors = invoice._l10n_my_edi_generate_invoice_xml()
+        self.assertFalse(errors)
+
+>>>>>>> upstream/18.0
 =======
         file, errors = invoice._l10n_my_edi_generate_invoice_xml()
         self.assertFalse(errors)
@@ -785,6 +901,7 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -813,10 +930,15 @@ class L10nMyEDITestFileGeneration(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         with file_open('l10n_my_edi/tests/expected_xmls/invoice_import.xml', 'rb') as f:
             expected_xml = etree.fromstring(f.read())
         self.assertXmlTreeEqual(root, expected_xml)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _assert_node_values(self, root, node_path, text, attributes=None):
         node = root.xpath(node_path, namespaces=NS_MAP)

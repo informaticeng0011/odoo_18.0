@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { models } from "@web/../tests/web_test_helpers";
 
 export class SaleOrderLine extends models.ServerModel {
     _name = "sale.order.line";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20,6 +23,9 @@ export class SaleOrderLine extends models.ServerModel {
     translated_product_name = fields.Char({store: true});
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

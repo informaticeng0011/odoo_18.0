@@ -83,6 +83,7 @@ export class DocumentSelector extends FileSelector {
     static renderFileElement(attachment, downloadUrl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return renderStaticFileBox(attachment.name, attachment.mimetype, downloadUrl);
     }
 }
@@ -92,6 +93,8 @@ export function renderStaticFileBox(filename, mimetype, downloadUrl) {
     rootSpan.classList.add("o_file_box");
     rootSpan.contentEditable = false;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return renderStaticFileBox(
@@ -109,6 +112,9 @@ export function renderStaticFileBox(filename, mimetype, downloadUrl, id) {
     rootSpan.contentEditable = false;
     rootSpan.dataset.attachmentId = id;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

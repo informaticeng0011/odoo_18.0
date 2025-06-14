@@ -13,7 +13,11 @@ from odoo.exceptions import ValidationError
 from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.misc import file_open
+=======
+from odoo.tools import file_open, mute_logger
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import file_open, mute_logger
 >>>>>>> upstream/18.0
@@ -27,7 +31,10 @@ from odoo.addons.payment_stripe.const import HANDLED_WEBHOOK_EVENTS
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65,7 +72,12 @@ class StripeController(http.Controller):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.info("Received payment_intents response:\n%s", pprint.pformat(payment_intent))
+=======
+            logged_intent = payment_intent - tx_sudo._get_specific_secret_keys()
+            _logger.info("Received payment_intents response:\n%s", pprint.pformat(logged_intent))
+>>>>>>> upstream/18.0
 =======
             logged_intent = payment_intent - tx_sudo._get_specific_secret_keys()
             _logger.info("Received payment_intents response:\n%s", pprint.pformat(logged_intent))
@@ -91,7 +103,12 @@ class StripeController(http.Controller):
         # Redirect the user to the status page.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.redirect('/payment/status')
+=======
+        with mute_logger('werkzeug'):  # avoid logging secret URL params
+            return request.redirect('/payment/status')
+>>>>>>> upstream/18.0
 =======
         with mute_logger('werkzeug'):  # avoid logging secret URL params
             return request.redirect('/payment/status')

@@ -60,7 +60,10 @@ export class GifPicker extends Component {
             () => {
                 if (!this.state.showCategories) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.state.loadingGif = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     if (!this.showFavorite) {
@@ -116,7 +119,10 @@ export class GifPicker extends Component {
                 }
                 this.clear();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state.loadingGif = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 this.search();

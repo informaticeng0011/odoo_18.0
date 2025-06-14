@@ -62,6 +62,10 @@ export class OdooLineChart extends OdooChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.cumulatedStart = definition.cumulatedStart;
+>>>>>>> upstream/18.0
 =======
         this.cumulatedStart = definition.cumulatedStart;
 >>>>>>> upstream/18.0
@@ -189,6 +193,10 @@ export class OdooLineChart extends OdooChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cumulatedStart: this.cumulatedStart,
+>>>>>>> upstream/18.0
 =======
             cumulatedStart: this.cumulatedStart,
 >>>>>>> upstream/18.0
@@ -297,11 +305,17 @@ function createOdooChartRuntime(chart, getters) {
     const locale = getters.getLocale();
     const chartJsConfig = getLineConfiguration(chart, labels, locale);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     chartJsConfig.options = {
         ...chartJsConfig.options,
         ...getters.getChartDatasetActionCallbacks(chart),
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const colors = new ColorGenerator(datasets.length);
 

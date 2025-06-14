@@ -133,9 +133,12 @@ class StockMoveLine(models.Model):
             kit_qty_ordered, kit_qty_done = kit_qty[bom_id.id]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
             line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if line['packaging'].product_id == line['product']:
@@ -147,6 +150,9 @@ class StockMoveLine(models.Model):
                 line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
                 line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -558,7 +564,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super()._should_bypass_reservation(forced_location) or self.product_id.is_kits
+=======
+        return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
+>>>>>>> upstream/18.0
 =======
         return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
 >>>>>>> upstream/18.0
@@ -782,13 +792,19 @@ class StockMove(models.Model):
         return keys + (self.created_production_id,)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_moves_to_propagate_date_deadline(self):
         res = super()._get_moves_to_propagate_date_deadline()
         if self.production_id:
             res |= self.production_id.move_finished_ids - self
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def _prepare_merge_moves_distinct_fields(self):

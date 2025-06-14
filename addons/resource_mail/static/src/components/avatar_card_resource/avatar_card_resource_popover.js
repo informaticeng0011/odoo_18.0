@@ -81,6 +81,7 @@ export class AvatarCardResourcePopover extends AvatarCardPopover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [this.record] = await this.orm.read(this.props.recordModel, [this.props.id], this.fieldNames);
 =======
         [this.record] = await this.orm.call('resource.resource', 'get_avatar_card_data', [[this.props.id], this.fieldNames], {});
@@ -153,6 +154,9 @@ export class AvatarCardResourcePopover extends AvatarCardPopover {
 >>>>>>> upstream/18.0
 =======
         [this.record] = await this.orm.call('resource.resource', 'get_avatar_card_data', [[this.props.id], this.fieldNames], {});
+>>>>>>> upstream/18.0
+=======
+        [this.record] = await this.orm.call(this.props.recordModel, 'get_avatar_card_data', [[this.props.id], this.fieldNames], {});
 >>>>>>> upstream/18.0
 =======
         [this.record] = await this.orm.call(this.props.recordModel, 'get_avatar_card_data', [[this.props.id], this.fieldNames], {});

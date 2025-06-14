@@ -91,6 +91,10 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.props.message.composer.clear();
+>>>>>>> upstream/18.0
 =======
         this.props.message.composer.clear();
 >>>>>>> upstream/18.0

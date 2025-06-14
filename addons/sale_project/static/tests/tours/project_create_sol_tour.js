@@ -45,7 +45,10 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         trigger: "div[name='product_id'] input",
         content: "Select the product for the Sales Order Item",
         run: "click",
@@ -60,6 +63,9 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
         run: "click",
     },
     {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         trigger: "body:not(:has(.modal))",
     },

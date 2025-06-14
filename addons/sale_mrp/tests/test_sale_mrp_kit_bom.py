@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -112,6 +113,9 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 from odoo import Command
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
 >>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
@@ -417,7 +421,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,6 +657,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,7 +1322,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1496,6 +1509,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1612,7 +1628,10 @@ class TestSaleMrpKitBom(TransactionCase):
         self.assertEqual(so.order_line.qty_delivered, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1669,6 +1688,9 @@ class TestSaleMrpKitBom(TransactionCase):
         key = f"{comp_product.id}_{comp_product.display_name}__{comp_product.uom_id.id}_{packaging_comp}_{kit_product.bom_ids.id}"
         self.assertEqual(aggr_prod_qty[key]['packaging_quantity'], 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

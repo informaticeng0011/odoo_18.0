@@ -35,7 +35,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <strong>Shipping Address</strong>
+=======
+                                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
 =======
                                     <strong class="d-block mt-3">Shipping Address</strong>
 >>>>>>> upstream/18.0
@@ -195,7 +199,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div id="informations" class="row mb-4">
+=======
+                        <div
+                            id="informations" class="row mb-4"
+                            t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
+>>>>>>> upstream/18.0
 =======
                         <div
                             id="informations" class="row mb-4"
@@ -468,7 +478,11 @@
                         <div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <div id="right-elements" t-attf-class="#{'col-5' if report_type != 'html' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
+=======
+                            <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
+>>>>>>> upstream/18.0
 =======
                             <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
 >>>>>>> upstream/18.0
@@ -537,6 +551,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <div id="payment_term" class="clearfix overflow-auto">
 =======
                             <div id="payment_term" class="clearfix overflow-hidden">
@@ -558,6 +573,9 @@
 >>>>>>> upstream/18.0
 =======
                             <div id="payment_term" class="clearfix overflow-hidden">
+>>>>>>> upstream/18.0
+=======
+                            <div id="payment_term" class="clearfix">
 >>>>>>> upstream/18.0
 =======
                             <div id="payment_term" class="clearfix">
@@ -676,8 +694,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <td>
                                 <span class="text-nowrap" t-out="tax_group['group_name']">Tax 15%</span>
+=======
+                            <td style="max-width: 200px;">
+                                <span t-out="tax_group['group_name']">Tax 15%</span>
+>>>>>>> upstream/18.0
 =======
                             <td style="max-width: 200px;">
                                 <span t-out="tax_group['group_name']">Tax 15%</span>

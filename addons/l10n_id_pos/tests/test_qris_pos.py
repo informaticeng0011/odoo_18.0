@@ -79,7 +79,11 @@ class TestPosQris(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.bank_pm = cls.env['pos.payment.method'].create({
+=======
+        cls.bank_pm = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         cls.bank_pm = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -186,7 +190,11 @@ class TestPosQris(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.qris_pm = cls.env['pos.payment.method'].create({
+=======
+        cls.qris_pm = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         cls.qris_pm = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -296,7 +304,11 @@ class TestPosQris(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.main_pos_config = cls.env['pos.config'].create({
+=======
+        cls.main_pos_config = cls.env['pos.config'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         cls.main_pos_config = cls.env['pos.config'].sudo().create({
 >>>>>>> upstream/18.0
@@ -426,7 +438,11 @@ class TestPosQris(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pos_order = self.env['pos.order'].create({
+=======
+        pos_order = self.env['pos.order'].with_user(self.pos_user).create({
+>>>>>>> upstream/18.0
 =======
         pos_order = self.env['pos.order'].with_user(self.pos_user).create({
 >>>>>>> upstream/18.0

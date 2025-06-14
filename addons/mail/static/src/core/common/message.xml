@@ -110,7 +110,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <t t-if="message.is_note and !message.isPending" t-call="mail.Message.actions"/>
+=======
+                            <t t-if="message.is_note" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
 =======
                             <t t-if="message.is_note" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
@@ -334,7 +338,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <div class="position-relative overflow-x-auto overflow-y-hidden d-inline-block" t-att-class="{ 'w-100': state.isEditing }">
+=======
+                                            <div class="position-relative overflow-x-auto overflow-y-hidden d-inline-block text-body" t-att-class="{ 'w-100': state.isEditing }">
+>>>>>>> upstream/18.0
 =======
                                             <div class="position-relative overflow-x-auto overflow-y-hidden d-inline-block text-body" t-att-class="{ 'w-100': state.isEditing }">
 >>>>>>> upstream/18.0
@@ -494,6 +502,7 @@
                                             </div>
                                         </t>
                                     </t>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +732,9 @@
 =======
                                     <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
+=======
+                                    <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
                                 </div>
                                 <AttachmentList
                                     t-if="message.attachment_ids.length > 0"
@@ -730,6 +742,7 @@
                                     unlinkAttachment.bind="onClickAttachmentUnlink"
                                     imagesHeight="message.attachment_ids.length === 1 ? 300 : 75"
                                     messageSearch="props.messageSearch"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,6 +998,11 @@
                             </div>
                             <t t-if="!message.is_note and (!message.hasTextContent or env.inChatWindow)" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
+=======
+                                <LinkPreviewList t-if="message.linkPreviews.length > 0 and store.hasLinkPreviewFeature and !message.linkPreviewSquash" linkPreviews="message.linkPreviews" deletable="message.isSelfAuthored or store.self.isAdmin"/>
+                            </div>
+                            <t t-if="!message.is_note and (!message.hasTextContent or env.inChatWindow)" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
                         </div>
                         <MessageReactions message="message" openReactionMenu="openReactionMenu" t-if="message.reactions.length"/>
                     </div>
@@ -1100,7 +1118,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1274,6 +1295,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

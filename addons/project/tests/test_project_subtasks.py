@@ -558,7 +558,10 @@ class TestProjectSubtasks(TestProjectCommon):
 
         self.assertTrue(invisible_subtask.display_in_project)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_subtask_private_project_and_parent_task(self):
         """
@@ -600,4 +603,7 @@ class TestProjectSubtasks(TestProjectCommon):
         self.env.invalidate_all()
         subtask_data = subtask.with_user(employee).read(fields_to_read)
         self.assertTrue(subtask_data, "The employee should be able to read the subtask data.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

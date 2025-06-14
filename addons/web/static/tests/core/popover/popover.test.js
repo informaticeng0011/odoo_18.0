@@ -311,7 +311,11 @@ test("within iframe", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 });
+=======
+    await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(popoverTarget.ownerDocument.documentElement, { y: 100 }, { scrollable: false });
 >>>>>>> upstream/18.0

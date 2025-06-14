@@ -51,6 +51,19 @@ export class ImageTransformation extends Component {
         });
         useExternalListener(window, "mousemove", this.mouseMove);
         useExternalListener(window, "mouseup", this.mouseUp);
+<<<<<<< HEAD
+=======
+        // When a character key is pressed and the image gets deleted,
+        // close the image transform via selectionchange.
+        useExternalListener(this.document, "selectionchange", () => this.props.destroy());
+        // Backspace/Delete don’t trigger selectionchange on image
+        // delete in Chrome, so we use keydown event.
+        useExternalListener(this.document, "keydown", (ev) => {
+            if (["Backspace", "Delete"].includes(ev.key)) {
+                this.props.destroy();
+            }
+        });
+>>>>>>> upstream/18.0
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, this.resetHandlers);
     }

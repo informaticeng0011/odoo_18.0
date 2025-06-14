@@ -25,7 +25,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function getDomainDisplayedOperators(fieldDef) {
+=======
+export function getDomainDisplayedOperators(fieldDef, params = {}) {
+>>>>>>> upstream/18.0
 =======
 export function getDomainDisplayedOperators(fieldDef, params = {}) {
 >>>>>>> upstream/18.0
@@ -172,8 +176,11 @@ export function getDomainDisplayedOperators(fieldDef, params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return ["=", "!=", ">", ">=", "<", "<=", "between", "within", "set", "not_set"];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -264,6 +271,9 @@ export function getDomainDisplayedOperators(fieldDef, params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

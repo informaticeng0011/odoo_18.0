@@ -224,7 +224,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 =======
             msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
 >>>>>>> upstream/18.0
@@ -1112,7 +1116,10 @@ class MailCase(MockEmail):
         cls.email_template = cls.env['mail.template'].create(create_values)
         return cls.email_template
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
     def _generate_notify_recipients(self, partners, record=None):
         """ Tool method to generate recipients data according to structure used
         in notification methods. Purpose is to allow testing of internals of
@@ -1133,6 +1140,32 @@ class MailCase(MockEmail):
             } for partner in partners
         ]
 
+<<<<<<< HEAD
+=======
+    def _get_mail_composer_web_context(self, records, add_web=True, **values):
+        """ Helper to generate composer context. Will make tests a bit less
+        verbose.
+
+        :param bool add_web: add web context, generally making noise especially in
+          mass mail mode (active_id/ids both present in context)
+        """
+        base_context = {
+            'default_model': records._name,
+            'default_res_ids': records.ids,
+        }
+        if len(records) == 1:
+            base_context['default_composition_mode'] = 'comment'
+        else:
+            base_context['default_composition_mode'] = 'mass_mail'
+        if add_web:
+            base_context['active_model'] = records._name
+            base_context['active_id'] = records[0].id
+            base_context['active_ids'] = records.ids
+        if values:
+            base_context.update(**values)
+        return base_context
+
+>>>>>>> upstream/18.0
     # ------------------------------------------------------------
     # MAIL ASSERTS WRAPPERS
     # ------------------------------------------------------------

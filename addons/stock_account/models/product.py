@@ -388,7 +388,11 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain)
+=======
+        return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
+>>>>>>> upstream/18.0
 =======
         return self.env["stock.valuation.layer"].sudo().search(candidates_domain).sorted(lambda svl: svl._candidate_sort_key())
 >>>>>>> upstream/18.0
@@ -1087,17 +1091,23 @@ will update the cost of every lot/serial number in stock."),
             return 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         candidates = stock_moves\
             .sudo()\
             .filtered(lambda m: is_returned == bool(m.origin_returned_move_id and sum(m.stock_valuation_layer_ids.mapped('quantity')) >= 0))\
             .mapped('stock_valuation_layer_ids')
 =======
+=======
+>>>>>>> upstream/18.0
         candidates = self.env['stock.valuation.layer'].sudo()
         for move in stock_moves.sudo():
             move_candidates = move._get_layer_candidates()
             if is_returned != bool(move.origin_returned_move_id and sum(move_candidates.mapped('quantity')) >= 0):
                 continue
             candidates |= move_candidates
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if self.env.context.get('candidates_prefetch_ids'):
@@ -1152,7 +1162,12 @@ will update the cost of every lot/serial number in stock."),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             candidates = candidates.sorted(lambda svl: (svl.create_date, svl.id))
+=======
+            # sort candidates by create_date > existing records by id > new records without origin
+            candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))
+>>>>>>> upstream/18.0
 =======
             # sort candidates by create_date > existing records by id > new records without origin
             candidates = candidates.sorted(lambda svl: (svl.create_date, not bool(svl.ids), svl.ids[0] if svl.ids else 0))

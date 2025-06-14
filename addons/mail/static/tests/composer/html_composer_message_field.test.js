@@ -5,7 +5,11 @@ import { uploadService } from "@html_editor/main/media/media_dialog/upload_progr
 import { HtmlComposerMessageField } from "@mail/views/web/fields/html_composer_message_field/html_composer_message_field";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, expect, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -21,6 +25,10 @@ import {
     waitFor,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    waitForNone,
+>>>>>>> upstream/18.0
 =======
     waitForNone,
 >>>>>>> upstream/18.0
@@ -39,8 +47,14 @@ import {
     patchWithCleanup,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mailModels } from "../mail_test_helpers";
+=======
+    serverState,
+} from "@web/../tests/web_test_helpers";
+import { defineMailModels, mailModels, openFormView, start } from "../mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
     serverState,
 } from "@web/../tests/web_test_helpers";
@@ -226,7 +240,10 @@ test("mention a channel", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -317,6 +334,9 @@ describe("Remove attachments", () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

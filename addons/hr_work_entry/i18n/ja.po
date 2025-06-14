@@ -45,7 +45,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2024
+=======
+# Junko Augias, 2025
+>>>>>>> upstream/18.0
 =======
 # Junko Augias, 2025
 >>>>>>> upstream/18.0
@@ -217,7 +221,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Junko Augias, 2024\n"
+=======
+"Last-Translator: Junko Augias, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
@@ -352,7 +360,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_employee.py:0
 msgid "%s work entries"
+<<<<<<< HEAD
 msgstr "%s作業エントリ"
+=======
+msgstr "%s勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_employee_view_form
@@ -362,7 +374,11 @@ msgid ""
 "                            </span>"
 msgstr ""
 "<span class=\"o_stat_text\">\n"
+<<<<<<< HEAD
 "                            作業エントリ\n"
+=======
+"                            勤務記録\n"
+>>>>>>> upstream/18.0
 "                            </span>"
 
 #. module: hr_work_entry
@@ -416,7 +432,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -611,7 +631,11 @@ msgstr "国コード"
 #. module: hr_work_entry
 #: model_terms:ir.actions.act_window,help:hr_work_entry.hr_work_entry_type_action
 msgid "Create a new work entry type"
+<<<<<<< HEAD
 msgstr "新しい作業エントリタイプを作成"
+=======
+msgstr "新しい勤務記録タイプを作成"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__create_uid
@@ -693,17 +717,29 @@ msgstr "from"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry
 msgid "HR Work Entry"
+<<<<<<< HEAD
 msgstr "HR作業エントリ"
+=======
+msgstr "HR勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 msgstr "HR作業エントリタイプ"
+=======
+msgstr "HR勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
 msgid "Has Work Entries"
+<<<<<<< HEAD
 msgstr "作業エントリあり"
+=======
+msgstr "勤務記録あり"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__id
@@ -752,7 +788,11 @@ msgstr "表示するデータがありません"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Note: Validated work entries cannot be modified."
+<<<<<<< HEAD
 msgstr "メモ: 検証済の作業エントリは変更できません。"
+=======
+msgstr "メモ: 検証済の勤務記録は変更できません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.overtime_work_entry_type
@@ -773,12 +813,20 @@ msgstr "リソース休暇の詳細"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
 msgid "Search Work Entry"
+<<<<<<< HEAD
 msgstr "作業エントリを検索"
+=======
+msgstr "勤務記録を検索"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_search
 msgid "Search Work Entry Type"
+<<<<<<< HEAD
 msgstr "作業エントリタイプを検索"
+=======
+msgstr "勤務記録タイプを検索"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry_type__sequence
@@ -819,13 +867,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "The same code cannot be associated to multiple work entry types."
+<<<<<<< HEAD
 msgstr "同じコードは複数作業エントリタイプと関連することはできません。"
+=======
+msgstr "同じコードは複数勤務記録タイプと関連することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "This work entry is validated. You can't delete it."
+<<<<<<< HEAD
 msgstr "この作業エントリは検証済です。削除することはできません。"
+=======
+msgstr "この勤務記録は検証済です。削除することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
@@ -876,7 +932,11 @@ msgstr "検証済"
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entries_no_validated_conflict
 msgid "Validated work entries cannot overlap"
+<<<<<<< HEAD
 msgstr "検証された作業エントリは重複できません。"
+=======
+msgstr "検証された勤務記録は重複できません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_resource_calendar_attendance
@@ -886,12 +946,20 @@ msgstr "作業詳細"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_pivot
 msgid "Work Entries"
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_user_work_entry_employee
 msgid "Work Entries Employees"
+<<<<<<< HEAD
 msgstr "作業エントリ従業員"
+=======
+msgstr "勤務記録従業員"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_action
@@ -899,12 +967,20 @@ msgstr "作業エントリ従業員"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_calendar
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry"
+<<<<<<< HEAD
 msgstr "作業エントリ"
+=======
+msgstr "勤務記録"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry Name"
+<<<<<<< HEAD
 msgstr "作業エントリ名"
+=======
+msgstr "勤務記録名"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__work_entry_type_id
@@ -913,22 +989,38 @@ msgstr "作業エントリ名"
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.resource_calendar_leaves_view_search_inherit
 msgid "Work Entry Type"
+<<<<<<< HEAD
 msgstr "作業エントリタイプ"
+=======
+msgstr "勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
 msgid "Work Entry Type Name"
+<<<<<<< HEAD
 msgstr "作業エントリタイプ名"
+=======
+msgstr "勤務記録タイプ名"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_type_action
 msgid "Work Entry Types"
+<<<<<<< HEAD
 msgstr "作業エントリタイプ"
+=======
+msgstr "勤務記録タイプ"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_work_entry__work_entry_has_end
 msgid "Work entry must end. Please define an end date or a duration."
+<<<<<<< HEAD
 msgstr "作業エントリは終了する必要があります。終了日付または期間を定義して下さい。"
+=======
+msgstr "勤務記録は終了する必要があります。終了日付または期間を定義して下さい。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
@@ -936,14 +1028,22 @@ msgstr "作業エントリは終了する必要があります。終了日付ま
 msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
+<<<<<<< HEAD
 msgstr ""
 "この作業エントリタイプの国を変更することはできません。現在システムで使用されているためです。関連する作業エントリをまず削除する必要があります。"
+=======
+msgstr "この勤務記録タイプの国を変更することはできません。現在システムで使用されているためです。関連する勤務記録をまず削除する必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't change the country of this specific work entry type."
+<<<<<<< HEAD
 msgstr "この特定の作業エントリタイプの国を変更することはできません。"
+=======
+msgstr "この特定の勤務記録タイプの国を変更することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_user_work_entry_employee_user_id_employee_id_unique

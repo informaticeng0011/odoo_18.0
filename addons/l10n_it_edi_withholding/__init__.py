@@ -14,8 +14,11 @@ def _l10n_it_edi_withholding_post_init(env):
             'account.account': ChartTemplate._get_it_withholding_account_account(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'account.tax': ChartTemplate._get_it_withholding_account_tax(),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'account.tax': {
@@ -24,6 +27,9 @@ def _l10n_it_edi_withholding_post_init(env):
                 if not env.ref(f"account.{company.id}_{xml_id}", raise_if_not_found=False)
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

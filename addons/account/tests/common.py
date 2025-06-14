@@ -9,6 +9,10 @@ from odoo.addons.product.tests.common import ProductCommon
 import json
 import base64
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -19,6 +23,11 @@ from unittest import SkipTest
 from unittest.mock import patch
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -233,7 +242,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -378,6 +390,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -595,6 +610,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
+            'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
+>>>>>>> upstream/18.0
 =======
             'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
             'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
@@ -1010,6 +1030,10 @@ class AccountTestInvoicingCommon(ProductCommon):
         full_path = f'{path}/{tag_wo_ns}'
         return {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'node': node,
+>>>>>>> upstream/18.0
 =======
             'node': node,
 >>>>>>> upstream/18.0
@@ -1020,7 +1044,11 @@ class AccountTestInvoicingCommon(ProductCommon):
             'attrib': attrib_wo_ns,
             'children': [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self._turn_node_as_dict_hierarchy(child_node, path=path)
+=======
+                self._turn_node_as_dict_hierarchy(child_node, path=full_path)
+>>>>>>> upstream/18.0
 =======
                 self._turn_node_as_dict_hierarchy(child_node, path=full_path)
 >>>>>>> upstream/18.0
@@ -1065,10 +1093,13 @@ class AccountTestInvoicingCommon(ProductCommon):
 
             # Check children.
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(
                 [child['tag'] for child in node_dict['children']],
                 [child['tag'] for child in expected_node_dict['children']],
 =======
+=======
+>>>>>>> upstream/18.0
             children = [child['tag'] for child in node_dict['children']]
             expected_children = [child['tag'] for child in expected_node_dict['children']]
             if children != expected_children:
@@ -1082,6 +1113,9 @@ class AccountTestInvoicingCommon(ProductCommon):
             self.assertEqual(
                 children,
                 expected_children,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 f"Number of children elements for node {node_dict['full_path']} is different.",
             )
@@ -1332,7 +1366,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1486,6 +1523,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1685,6 +1725,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0
@@ -1988,11 +2032,19 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
                     float_round(results['price_unit'], precision_rounding=rounding),
                 )
 
+<<<<<<< HEAD
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method):
+=======
+    def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
+>>>>>>> upstream/18.0
         kwargs = {
             'product': product,
             'precision_rounding': precision_rounding,
             'rounding_method': rounding_method,
+<<<<<<< HEAD
+=======
+            'filter_tax_function': (lambda tax: tax.id not in excluded_tax_ids) if excluded_tax_ids else None,
+>>>>>>> upstream/18.0
         }
         results = {'results': taxes._get_tax_details(price_unit, quantity, **kwargs)}
         if rounding_method == 'round_globally':
@@ -2010,7 +2062,11 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             )
         return results
 
+<<<<<<< HEAD
     def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method):
+=======
+    def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
+>>>>>>> upstream/18.0
         return {
             'test': 'taxes_computation',
             'taxes': [self._jsonify_tax(tax) for tax in taxes],
@@ -2019,6 +2075,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             'product': self._jsonify_product(product, taxes),
             'precision_rounding': precision_rounding,
             'rounding_method': rounding_method,
+<<<<<<< HEAD
+=======
+            'excluded_tax_ids': excluded_tax_ids,
+>>>>>>> upstream/18.0
         }
 
     def assert_taxes_computation(
@@ -2031,6 +2091,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
         precision_rounding=0.01,
         rounding_method='round_per_line',
         excluded_special_modes=None,
+<<<<<<< HEAD
+=======
+        excluded_tax_ids=None,
+>>>>>>> upstream/18.0
     ):
         def extra_function(results):
             results['excluded_special_modes'] = excluded_special_modes
@@ -2049,6 +2113,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             product,
             precision_rounding,
             rounding_method,
+<<<<<<< HEAD
+=======
+            excluded_tax_ids,
+>>>>>>> upstream/18.0
             extra_function=extra_function,
         )
 

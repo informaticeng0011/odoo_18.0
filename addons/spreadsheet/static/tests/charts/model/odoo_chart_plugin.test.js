@@ -37,7 +37,10 @@ const fr_FR = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 const action = {
     domain: [
         ["date", ">=", "2022-01-01"],
@@ -70,6 +73,9 @@ const fakeActionService = {
     },
 };
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 describe.current.tags("headless");
 defineSpreadsheetModels();
@@ -654,6 +660,7 @@ test("Line chart to support cumulative data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("cumulative line chart with past data before domain period", async () => {
     const serverData = getBasicServerData();
     serverData.models.partner.records = [
@@ -817,6 +824,8 @@ test("update existing chart to cumulate past data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const cumulativeDateServerData = getBasicServerData();
 cumulativeDateServerData.models.partner.records = [
     { date: "2020-01-01", probability: 10 },
@@ -848,7 +857,11 @@ const cumulativeChartDefinition = {
     dataSourceId: "42",
     id: "42",
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> upstream/18.0
 =======
 };
 >>>>>>> upstream/18.0
@@ -901,6 +914,9 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1036,7 +1052,11 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...definition,
+=======
+            ...cumulativeChartDefinition,
+>>>>>>> upstream/18.0
 =======
             ...cumulativeChartDefinition,
 >>>>>>> upstream/18.0
@@ -1216,7 +1236,10 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1344,6 +1367,12 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const figure = model.exportData().sheets[0].figures[0];
+    expect(figure.data.cumulative).toBe(true);
+    expect(figure.data.cumulatedStart).toBe(true);
+>>>>>>> upstream/18.0
 =======
     const figure = model.exportData().sheets[0].figures[0];
     expect(figure.data.cumulative).toBe(true);
@@ -1536,6 +1565,7 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -1576,6 +1606,8 @@ test("cumulative line chart with past data before domain period specifying cumul
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1665,6 +1697,9 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1784,6 +1819,7 @@ test("Odoo chart datasource display name has a default when the chart title is e
 
 test("See records when clicking on a bar chart bar", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     const action = {
         domain: [
             ["date", ">=", "2022-01-01"],
@@ -1850,6 +1886,8 @@ test("See records when clicking on a bar chart bar", async () => {
             dataSourceId: "42",
             id: "42",
 =======
+=======
+>>>>>>> upstream/18.0
     mockService("action", fakeActionService);
     const { model } = await createSpreadsheetWithChart({
         type: "odoo_bar",
@@ -1859,6 +1897,9 @@ test("See records when clicking on a bar chart bar", async () => {
             type: "odoo_bar",
             actionXmlId: "test.my_action",
             cumulative: true,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
     });
@@ -1874,7 +1915,10 @@ test("See records when clicking on a bar chart bar", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("See records when clicking on a line chart point", async () => {
     mockService("action", fakeActionService);
     const { model } = await createSpreadsheetWithChart({
@@ -1925,6 +1969,9 @@ test("Actions not triggered by trendline clicks", async () => {
     expect.verifySteps([]);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("See records when clicking on a pie chart slice", async () => {
     const fakeActionService = {
@@ -1932,6 +1979,7 @@ test("See records when clicking on a pie chart slice", async () => {
             if (request.type === "ir.actions.act_window") {
                 expect.step("do-action");
                 expect(request).toEqual({
+<<<<<<< HEAD
 <<<<<<< HEAD
                     domain: [
                         ["date", ">=", "2022-01-01"],
@@ -1952,11 +2000,16 @@ test("See records when clicking on a pie chart slice", async () => {
                     ...action,
                     name: "January 2022",
 >>>>>>> upstream/18.0
+=======
+                    ...action,
+                    name: "January 2022",
+>>>>>>> upstream/18.0
                 });
             }
         },
     };
     mockService("action", fakeActionService);
+<<<<<<< HEAD
 <<<<<<< HEAD
     const serverData = getBasicServerData();
     serverData.models.partner.records = [
@@ -1990,6 +2043,8 @@ test("See records when clicking on a pie chart slice", async () => {
             dataSourceId: "42",
             id: "42",
 =======
+=======
+>>>>>>> upstream/18.0
     const { model } = await createSpreadsheetWithChart({
         type: "odoo_pie",
         serverData: cumulativeDateServerData,
@@ -1998,6 +2053,9 @@ test("See records when clicking on a pie chart slice", async () => {
             type: "odoo_pie",
             actionXmlId: "test.my_action",
             cumulative: true,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
     });

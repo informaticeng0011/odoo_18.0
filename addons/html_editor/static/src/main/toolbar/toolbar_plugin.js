@@ -277,7 +277,13 @@ export class ToolbarPlugin extends Plugin {
             .getTraversedNodes()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .filter((node) => !isTextNode(node) || (node.textContent !== "\n" && !isZWS(node)));
+=======
+            .filter(
+                (node) => !isTextNode(node) || (node.textContent.trim().length && !isZWS(node))
+            );
+>>>>>>> upstream/18.0
 =======
             .filter(
                 (node) => !isTextNode(node) || (node.textContent.trim().length && !isZWS(node))

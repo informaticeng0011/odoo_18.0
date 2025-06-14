@@ -1,7 +1,13 @@
 import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { Deferred, press, waitFor, waitUntil } from "@odoo/hoot-dom";
+import { animationFrame } from "@odoo/hoot-mock";
+import { onWillStart } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Deferred, press, waitFor, waitUntil } from "@odoo/hoot-dom";
 import { animationFrame } from "@odoo/hoot-mock";
@@ -15,7 +21,13 @@ import {
     mountView,
     onRpc,
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
+=======
+    patchWithCleanup,
+} from "@web/../tests/web_test_helpers";
+import { DynamicPlaceholderPopover } from "@web/views/fields/dynamic_placeholder_popover";
+>>>>>>> upstream/18.0
 =======
     patchWithCleanup,
 } from "@web/../tests/web_test_helpers";
@@ -108,7 +120,10 @@ test("dynamic placeholder close when clicking on the cross", async () => {
     expect(".o_model_field_selector_popover").toHaveCount(0);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("correctly cache model qweb variables and don't prevent opening of other popovers", async () => {
     const def = new Deferred();
@@ -139,4 +154,7 @@ test("correctly cache model qweb variables and don't prevent opening of other po
     expect(willStarts).toBe(2);
     expect.verifySteps(["mail_allowed_qweb_expressions"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

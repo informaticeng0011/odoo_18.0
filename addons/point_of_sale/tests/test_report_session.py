@@ -299,7 +299,10 @@ class TestReportSession(TestPoSCommon):
         self.assertEqual(report['payments'][1]['money_difference'], -20)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -347,6 +350,9 @@ class TestReportSession(TestPoSCommon):
         report = self.env['report.point_of_sale.report_saledetails'].get_sale_details()
         self.assertEqual(report["taxes_info"]["base_amount"], 100, "Base amount should be equal to 100")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -45,7 +45,10 @@ class PaymentTransaction(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_specific_secret_keys(self):
@@ -61,6 +64,9 @@ class PaymentTransaction(models.Model):
         return super()._get_specific_secret_keys()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

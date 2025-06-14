@@ -339,7 +339,11 @@ function methods(_class) {
     return Object.getOwnPropertyNames(_class.prototype).map((prop) => _class.prototype[prop]);
 }
 
+<<<<<<< HEAD
 const allowedFns = new Set([
+=======
+export const allowedFns = new Set([
+>>>>>>> upstream/18.0
     BUILTINS.time.strftime,
     BUILTINS.set,
     BUILTINS.bool,

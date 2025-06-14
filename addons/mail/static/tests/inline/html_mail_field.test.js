@@ -1,6 +1,10 @@
 import { setSelection } from "@html_editor/../tests/_helpers/selection";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -114,17 +118,23 @@ test("HtmlMail don't have access to column commands", async function () {
     await insertText(htmlEditor, "/");
     await animationFrame();
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(1);
 
     await insertText(htmlEditor, "column");
     await animationFrame();
     expect(".o-we-powerbox").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 1);
 
     await insertText(htmlEditor, "column");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 0);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

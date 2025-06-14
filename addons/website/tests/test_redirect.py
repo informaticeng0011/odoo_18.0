@@ -36,7 +36,10 @@ class TestWebsiteRedirect(TransactionCase):
         self.assertIn('existing page', str(error.exception))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         with self.assertRaises(ValidationError) as error:
             self.env['website.rewrite'].create({
                 'name': 'Test Website Redirect',
@@ -55,6 +58,9 @@ class TestWebsiteRedirect(TransactionCase):
             })
         self.assertIn("should not be same", str(error.exception))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_sitemap_with_redirect(self):
         self.env['website.rewrite'].create({

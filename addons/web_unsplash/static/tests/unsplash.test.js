@@ -1,6 +1,10 @@
 import { setupEditor } from "@html_editor/../tests/_helpers/editor";
 import { insertText } from "@html_editor/../tests/_helpers/user_actions";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "@html_editor/../tests/_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -53,15 +57,21 @@ test("Unsplash is inserted in the Media Dialog", async () => {
     const env = await makeMockEnv();
     const { editor } = await setupEditor(`<p>[]</p>`, { env });
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     await insertText(editor, "/image");
     await animationFrame();
     expect(".o-we-powerbox").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     await insertText(editor, "/image");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 1);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     await click(".o-we-command");
     await animationFrame();
@@ -97,15 +107,21 @@ test("Unsplash error is displayed when there is no key", async () => {
     const env = await makeMockEnv();
     const { editor } = await setupEditor(`<p>[]</p>`, { env });
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-powerbox").toHaveCount(0);
     await insertText(editor, "/image");
     await animationFrame();
     expect(".o-we-powerbox").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-powerbox", 0);
     await insertText(editor, "/image");
     await animationFrame();
     await expectElementCount(".o-we-powerbox", 1);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     await click(".o-we-command");
     await animationFrame();

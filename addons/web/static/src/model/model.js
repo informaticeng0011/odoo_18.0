@@ -5,8 +5,11 @@ import { SEARCH_KEYS } from "@web/search/with_search/with_search";
 import { buildSampleORM } from "./sample_server";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { EventBus, onWillStart, onWillUpdateProps, status, useComponent } from "@odoo/owl";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     EventBus,
     onMounted,
@@ -15,6 +18,9 @@ import {
     status,
     useComponent,
 } from "@odoo/owl";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -86,7 +92,10 @@ function getSearchParams(props) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function usePostMountedServices(services) {
     if (services.dialog) {
         services.dialog = Object.create(services.dialog);
@@ -111,6 +120,9 @@ function usePostMountedServices(services) {
     return services;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * @template {typeof Model} T
@@ -123,7 +135,11 @@ function usePostMountedServices(services) {
 export function useModel(ModelClass, params, options = {}) {
     const component = useComponent();
 <<<<<<< HEAD
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
 =======
     let services = {};
 >>>>>>> upstream/18.0
@@ -132,6 +148,10 @@ export function useModel(ModelClass, params, options = {}) {
     }
     services.orm = services.orm || useService("orm");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
 =======
     services = usePostMountedServices(services);
 >>>>>>> upstream/18.0
@@ -160,7 +180,11 @@ export function useModelWithSampleData(ModelClass, params, options = {}) {
         throw new Error(`the model class should extend Model`);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     const services = {};
+=======
+    let services = {};
+>>>>>>> upstream/18.0
 =======
     let services = {};
 >>>>>>> upstream/18.0
@@ -169,6 +193,10 @@ export function useModelWithSampleData(ModelClass, params, options = {}) {
     }
     services.orm = services.orm || useService("orm");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    services = usePostMountedServices(services);
+>>>>>>> upstream/18.0
 =======
     services = usePostMountedServices(services);
 >>>>>>> upstream/18.0

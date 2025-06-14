@@ -735,7 +735,11 @@ class NumberToWords_BG(Num2Word_Base):
         0: [None, 'едно', 'две', 'три', 'четири', 'пет', 'шест', 'седем', 'осем', 'девет'],
     }
     _digits[1] = [None, 'един', 'два'] + _digits[0][3:]
+<<<<<<< HEAD
     _digits[-1] = [None, 'една', None] + _digits[0][2:]
+=======
+    _digits[-1] = [None, 'една'] + _digits[0][2:]
+>>>>>>> upstream/18.0
     _last_and = False
     _zero = 'нула'
     _infinity = 'безкрайност'

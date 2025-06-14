@@ -5,6 +5,11 @@ from odoo.tests import tagged
 
 from .common import TestEsEdiTbaiCommonGipuzkoa
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import base64
+from lxml import etree
+>>>>>>> upstream/18.0
 =======
 import base64
 from lxml import etree
@@ -203,7 +208,10 @@ class TestSendAndPrintEdiGipuzkoa(TestEsEdiTbaiCommonGipuzkoa):
         self.assertEqual(invoice.l10n_es_tbai_cancel_document_id.state, 'accepted')
         self.assertTrue(invoice.l10n_es_tbai_cancel_document_id.xml_attachment_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_tbai_credit_note_importe_total(self):
         invoice = self._create_posted_invoice()
@@ -228,4 +236,7 @@ class TestSendAndPrintEdiGipuzkoa(TestEsEdiTbaiCommonGipuzkoa):
         tbai_xml = base64.b64decode(credit_note['l10n_es_tbai_post_file']).decode()
         value = etree.fromstring(tbai_xml).findtext(".//ImporteTotalFactura")
         self.assertEqual(value, '-4840.00')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

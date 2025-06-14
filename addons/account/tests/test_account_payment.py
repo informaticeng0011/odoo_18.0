@@ -575,7 +575,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -776,6 +779,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1041,7 +1047,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1208,6 +1217,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1449,3 +1461,26 @@ class TestAccountPayment(AccountTestInvoicingCommon):
             .create({'payment_method_line_id': payment_method_line.id})\
             ._create_payments()
         self.assertEqual(invoice.state, "posted")
+<<<<<<< HEAD
+=======
+
+    def test_payment_amount_without_move(self):
+        bank_journal_2 = self.company_data['default_journal_bank'].copy()
+
+        payment = self.env['account.payment'].create({
+            'amount': 100,
+            'payment_type': 'outbound',
+            'partner_type': 'supplier',
+            'partner_id': self.partner_a.id,
+            'currency_id': self.other_currency.id,
+            'journal_id': bank_journal_2.id,
+        })
+
+        payment.action_post()
+
+        self.assertRecordValues(payment, [{
+            'amount': 100,
+            'amount_signed': -100,
+            'amount_company_currency_signed': -50,
+        }])
+>>>>>>> upstream/18.0

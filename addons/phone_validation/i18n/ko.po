@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Daye Jeong, 2024
 =======
@@ -95,11 +96,17 @@
 # Daye Jeong, 2025
 # Wil Odoo, 2025
 >>>>>>> upstream/18.0
+=======
+# Daye Jeong, 2025
+# Wil Odoo, 2025
+# Sarah Park, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +218,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sarah Park, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -266,7 +278,10 @@ msgstr "보관됨"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -324,6 +339,9 @@ msgstr "이 전화번호를 차단 해제하시겠습니까?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -377,32 +395,56 @@ msgstr "기준액"
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
 msgid "Blacklist"
+<<<<<<< HEAD
 msgstr "블랙리스트"
+=======
+msgstr "수신 거부"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_tree
 msgid "Blacklist Date"
+<<<<<<< HEAD
 msgstr "블랙리스트 날짜"
+=======
+msgstr "수신 거부일"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__mobile_blacklisted
 msgid "Blacklisted Phone Is Mobile"
+<<<<<<< HEAD
 msgstr "블랙리스트 연락처가 휴대폰입니다"
+=======
+msgstr "수신 거부 연락처가 휴대폰입니다"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.actions.act_window,name:phone_validation.phone_blacklist_action
 msgid "Blacklisted Phone Numbers"
+<<<<<<< HEAD
 msgstr "블랙리스트에 등록된 전화번호"
+=======
+msgstr "수신 거부로 등록된 전화번호"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
+<<<<<<< HEAD
 msgstr "블랙리스트 연락처가 전화번호입니다"
+=======
+msgstr "수신 거부 연락처가 전화번호입니다"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model_terms:ir.actions.act_window,help:phone_validation.phone_blacklist_action
 msgid "Blacklisted phone numbers won't receive SMS Mailings anymore."
+<<<<<<< HEAD
 msgstr "블랙리스트에 등록된 전화번호는 더 이상 SMS 메일링을 수신하지 않습니다."
+=======
+msgstr "수신 거부로 등록된 전화번호는 더 이상 SMS 메일링이 수신되지 않습니다."
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
@@ -630,17 +672,29 @@ msgstr "전화번호 / SMS"
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_tree
 msgid "Phone Blacklist"
+<<<<<<< HEAD
 msgstr "전화번호 블랙리스트"
+=======
+msgstr "수신 거부 전화번호"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model,name:phone_validation.model_mail_thread_phone
 msgid "Phone Blacklist Mixin"
+<<<<<<< HEAD
 msgstr "전화번호 블랙리스트 혼합"
+=======
+msgstr "수신 거부 전화번호 혼합"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
+<<<<<<< HEAD
 msgstr "전화번호 블랙리스트"
+=======
+msgstr "수신 거부 전화번호"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_phone_blacklist__number
@@ -671,7 +725,11 @@ msgstr "사유"
 #: model:ir.model,name:phone_validation.model_phone_blacklist_remove
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "Remove phone from blacklist"
+<<<<<<< HEAD
 msgstr "블랙리스트에서 휴대폰 번호 삭제"
+=======
+msgstr "수신 거부 목록에서 휴대폰 번호 삭제"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,field_description:phone_validation.field_mail_thread_phone__phone_sanitized
@@ -687,7 +745,11 @@ msgstr "%(phone)s 분석을 할 수 없습니다: %(error)s"
 #. module: phone_validation
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_view_form
 msgid "Unblacklist"
+<<<<<<< HEAD
 msgstr "블랙리스트 해제"
+=======
+msgstr "수신 거부 해제"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
@@ -719,7 +781,10 @@ msgstr "사용자"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -779,6 +844,9 @@ msgstr "전화번호를 블랙리스트에서 제외할 수 있는 권한이 없
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

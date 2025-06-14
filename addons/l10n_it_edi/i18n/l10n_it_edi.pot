@@ -4,10 +4,17 @@
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-06 11:37+0000\n"
 "PO-Revision-Date: 2025-01-06 11:37+0000\n"
+=======
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-12 15:48+0000\n"
+"PO-Revision-Date: 2025-06-12 15:48+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,6 +70,17 @@ msgstr ""
 
 #. module: l10n_it_edi
 #: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"<span class=\"o_form_label\">\n"
+"                        This branch shares the same VAT number and Codice Fiscale as its parent company. Select the parent company to configure the EDI settings.\n"
+"                    </span>"
+msgstr ""
+
+#. module: l10n_it_edi
+#: model_terms:ir.ui.view,arch_db:l10n_it_edi.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "<span class=\"o_form_label\">Allow Odoo to process invoices</span>"
 msgstr ""
 
@@ -563,6 +581,14 @@ msgid "PEC e-mail"
 msgstr ""
 
 #. module: l10n_it_edi
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_it_edi.field_res_config_settings__company_parent_id
+msgid "Parent Company"
+msgstr ""
+
+#. module: l10n_it_edi
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/l10n_it_edi/models/account_move.py:0
 msgid "Partner not found, useful informations from XML file:"
@@ -805,6 +831,17 @@ msgstr ""
 
 #. module: l10n_it_edi
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/l10n_it_edi/models/account_move.py:0
+msgid ""
+"The amount_total %(current_total)s is different than PrezzoTotale "
+"%(expected_total)s for '%(move_name)s'"
+msgstr ""
+
+#. module: l10n_it_edi
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/l10n_it_edi/models/res_config_settings.py:0
 msgid ""
 "The company has already registered with the service as 'Test' or 'Official',"
@@ -1025,6 +1062,14 @@ msgid "Unknown error"
 msgstr ""
 
 #. module: l10n_it_edi
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:l10n_it_edi.field_res_config_settings__use_root_proxy_user
+msgid "Use Root Proxy User"
+msgstr ""
+
+#. module: l10n_it_edi
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:l10n_it_edi.field_account_bank_statement_line__l10n_it_edi_header
 #: model:ir.model.fields,help:l10n_it_edi.field_account_move__l10n_it_edi_header
 msgid ""

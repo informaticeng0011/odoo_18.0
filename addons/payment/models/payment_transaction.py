@@ -433,11 +433,14 @@ class PaymentTransaction(models.Model):
         processing_values.update(self._get_specific_processing_values(processing_values))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _logger.info(
             "generic and provider-specific processing values for transaction with reference "
             "%(ref)s:\n%(values)s",
             {'ref': self.reference, 'values': pprint.pformat(processing_values)},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         secret_keys = self._get_specific_secret_keys()
@@ -446,6 +449,9 @@ class PaymentTransaction(models.Model):
             "%(ref)s:\n%(values)s",
             {'ref': self.reference, 'values': pprint.pformat(processing_values - secret_keys)},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497,7 +503,10 @@ class PaymentTransaction(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_specific_secret_keys(self):
@@ -509,6 +518,9 @@ class PaymentTransaction(models.Model):
         return dict().keys()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

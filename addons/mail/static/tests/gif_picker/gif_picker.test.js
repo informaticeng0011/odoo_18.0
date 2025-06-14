@@ -248,7 +248,10 @@ test("Scrolling at the bottom should trigger the search to load more gif, even a
     await contains(".o-discuss-Gif", { count: 8 });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Show help when no favorite GIF", async () => {
     const pyEnv = await startServer();
@@ -260,4 +263,7 @@ test("Show help when no favorite GIF", async () => {
     await click(".o-discuss-GifPicker div[aria-label='list-item']", { text: "Favorites" });
     await contains("span", { text: "So uhh... maybe go favorite some GIFs?" });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

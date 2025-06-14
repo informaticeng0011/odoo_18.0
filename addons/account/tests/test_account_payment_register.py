@@ -4,6 +4,10 @@ from odoo.exceptions import UserError
 from odoo.tests import tagged, users
 from odoo import fields, Command
 from dateutil.relativedelta import relativedelta
+<<<<<<< HEAD
+=======
+from itertools import product
+>>>>>>> upstream/18.0
 
 from odoo import fields, Command
 from odoo.exceptions import UserError
@@ -183,6 +187,15 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             'company_ids': [Command.set(cls.branch.ids)],
         })
 
+<<<<<<< HEAD
+=======
+    @classmethod
+    def get_wizard_available_journals(cls, wizard):
+        return wizard.available_journal_ids.filtered_domain([
+            *cls.env['account.journal']._check_company_domain(wizard.company_id),
+        ])
+
+>>>>>>> upstream/18.0
     def test_register_payment_single_batch_grouped_keep_open_lower_amount(self):
         ''' Pay 800.0 with 'open' as payment difference handling on two customer invoices (1000 + 2000). '''
         active_ids = (self.out_invoice_1 + self.out_invoice_2).ids
@@ -1816,6 +1829,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             'installments_switch_amount': 1000,  # The full amount
         }])
 
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -1837,10 +1851,47 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             })
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
+=======
+    def test_payment_with_branch(self):
+        """
+        Test register payment with branches when different receivable accounts are used in each branch with combinations of invoices and selected companies
+        """
+        def test_register_payment_flow(cases):
+            for group_payment, case in product((False, True), cases):
+                invoices, selected_companies, expected_companies, expected_pmnt_comp, should_raise = case.values()
+                with self.subTest(invoices=invoices.mapped('name'), selected_companies=selected_companies.mapped('name')):
+                    wizard = self.env['account.payment.register'].with_context(allowed_company_ids=selected_companies.ids, active_model='account.move', active_ids=invoices.ids).create({'group_payment': group_payment})
+                    available_journals = self.get_wizard_available_journals(wizard)
+                    self.assertEqual(available_journals.company_id, expected_companies)
+                    if should_raise:
+                        with self.assertRaisesRegex(UserError, 'Incompatible companies on records:'):
+                            wizard._create_payments()
+                    else:
+                        payments = wizard._create_payments()
+                        self.assertEqual(payments.company_id, expected_pmnt_comp)
+                        invoices.line_ids.filtered(lambda l: l.display_type == 'payment_term').remove_move_reconcile()
+
+        # create a new branch and other company
+        self._create_company(name='New Branch', parent_id=self.env.company.id)
+        branches = self.env.company.child_ids
+        self.user_branch.company_ids = branches
+        company_2 = self._create_company(name='New Company')
+
+        # PART 1: Basic cases
+        # create invoices on branches
+        branch_invoices = self.env['account.move']
+        for branch in branches:
+            self.env["account.journal"].create({
+                'code': 'TEST',
+                'company_id': branch.id,
+                'name': f'{branch.name} journal',
+                'type': 'bank',
+>>>>>>> upstream/18.0
             })
             branch_invoices |= self.init_invoice('out_invoice', products=self.product_a, company=branch)
 
         parent_invoice = self.init_invoice('out_invoice', products=self.product_a)
+<<<<<<< HEAD
         (branch_invoices | parent_invoice).action_post()
 
         # branch1 + parent
@@ -1931,6 +1982,105 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        other_company_invoice = self.init_invoice('out_invoice', products=self.product_a, company=company_2)
+        (branch_invoices | parent_invoice | other_company_invoice).action_post()
+
+        # test first branches invoices with branch user
+        with self.with_user('user_branch'):
+            with self.assertRaisesRegex(UserError, 'branches without access to parent company.'):
+                self.env['account.payment.register'].with_context(allowed_company_ids=branches.ids, active_model='account.move', active_ids=branch_invoices.ids).create({})
+
+        # test also with two differents companies
+        with (self.assertRaisesRegex(UserError, 'for entries belonging to different companies.')):
+            for group_payment in [False, True]:
+                self.env['account.payment.register'].with_context(
+                    allowed_company_ids=(self.env.company + company_2).ids,
+                    active_model='account.move',
+                    active_ids=(parent_invoice + other_company_invoice).ids
+                ).create({'group_payment': group_payment})
+
+        cases = [
+            {
+                'invoices': branch_invoices[0] + parent_invoice,
+                'selected_companies': (self.branch + self.env.company),
+                'expected_companies': self.env.company,
+                'expected_pmnt_comp': self.env.company,
+                'should_raise': False,
+            },
+            {
+                'invoices': branch_invoices,
+                'selected_companies': branches,
+                'expected_companies': self.env.company,
+                'expected_pmnt_comp': self.env.company,
+                'should_raise': False,
+            },
+            {
+                'invoices': branch_invoices + parent_invoice,
+                'selected_companies': self.env.company._accessible_branches(),
+                'expected_companies': self.env.company,
+                'expected_pmnt_comp': self.env.company,
+                'should_raise': False,
+            },
+            {
+                'invoices': branch_invoices[0],
+                'selected_companies': self.branch,
+                'expected_companies': (self.env.company + self.branch),
+                'expected_pmnt_comp': self.branch,
+                'should_raise': False,
+            },
+            {
+                'invoices': branch_invoices,
+                'selected_companies': self.env.company._accessible_branches(),
+                'expected_companies': self.env.company,
+                'expected_pmnt_comp': self.env.company,
+                'should_raise': False,
+            },
+        ]
+
+        test_register_payment_flow(cases)
+
+        # PART 2: Test the same cases with different receivable accounts for each branch
+        # An error should be raised as the receivable account doesn't belong to the wizard's company, except for the case where we register payment only for one branch
+        branch_invoices.button_draft()
+        for branch in branches:
+            receivable_account = self.company_data['default_account_receivable'].with_company(branch).copy({'company_ids': branch.ids})
+            branch_invoice = branch_invoices.filtered(lambda inv: inv.company_id == branch)
+            # To mock the situation where the partner has his own receivable account depending on the branch
+            branch_invoice.line_ids.filtered(lambda l: l.display_type == 'payment_term').account_id = receivable_account
+        branch_invoices.action_post()
+        new_cases = [
+            {
+                'invoices': branch_invoices[0] + parent_invoice,
+                'expected_pmnt_comp': False,
+                'should_raise': True,
+            },
+            {
+                'invoices': branch_invoices,
+                'expected_pmnt_comp': False,
+                'should_raise': True,
+            },
+            {
+                'invoices': branch_invoices + parent_invoice,
+                'expected_pmnt_comp': False,
+                'should_raise': True,
+            },
+            {
+                'invoices': branch_invoices[0],
+                'expected_pmnt_comp': self.branch,
+                'should_raise': False,
+            },
+            {
+                'invoices': branch_invoices,
+                'expected_pmnt_comp': False,
+                'should_raise': True,
+            },
+        ]
+        cases = [{**case, **new_case} for case, new_case in zip(cases, new_cases)]
+
+        test_register_payment_flow(cases)
+
+>>>>>>> upstream/18.0
     def test_epd_and_cash_rounding(self):
         cash_rounding = self.env['account.cash.rounding'].create({
             'name': 'add_invoice_line',
@@ -1989,6 +2139,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
