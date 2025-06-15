@@ -22,7 +22,10 @@ class TestAnalyticPlanOperations(TransactionCase):
             self.env.cr.execute(f"SELECT {column} FROM account_analytic_line LIMIT 1")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_delete_subplan(self):
         parent = self.env['account.analytic.plan'].create({'name': 'Parent Plan'})
         plan = self.env['account.analytic.plan'].create({'name': 'Test Plan', 'parent_id': parent.id})
@@ -59,6 +62,9 @@ class TestAnalyticPlanOperations(TransactionCase):
         self.assertFalse(plan._find_plan_column('account.analytic.line'))
         self.assertTrue(plan._find_related_field('account.analytic.line'))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_delete_plan_with_view(self):
         plan = self.env['account.analytic.plan'].create({'name': 'Test Plan'})

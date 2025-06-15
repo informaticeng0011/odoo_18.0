@@ -364,12 +364,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
 
     def test_tax_fixed_amount_breakdown(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 1})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 3})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed', 'sequence': 5})
@@ -377,6 +380,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         tax_10_a.sequence = 2
         tax_10_b = self.create_tax(10)
         tax_10_b.sequence = 4
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax_group_1 = self.env['account.tax'].create({
             'name': "Tax Group",
@@ -519,12 +525,15 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         an_acc_01 = str(self.env['account.analytic.account'].create({'name': 'Account 01', 'plan_id': analytic_plan.id}).id)
         an_acc_02 = str(self.env['account.analytic.account'].create({'name': 'Account 02', 'plan_id': analytic_plan.id}).id)
 <<<<<<< HEAD
+<<<<<<< HEAD
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed'})
         tax_10_a = self.tax_10
         tax_10_b = self.create_tax(10)
 =======
+=======
+>>>>>>> upstream/18.0
         tax_10_fix_a = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 1})
         tax_10_fix_b = self.create_tax(10, {'amount_type': 'fixed', 'include_base_amount': True, 'sequence': 3})
         tax_10_fix_c = self.create_tax(10, {'amount_type': 'fixed', 'sequence': 4})
@@ -532,6 +541,9 @@ class TestSaleOrderDownPayment(TestSaleCommon):
         tax_10_a.sequence = 2
         tax_10_b = self.create_tax(10)
         tax_10_b.sequence = 5
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         tax_group_1 = self.env['account.tax'].create({
             'name': "Tax Group",

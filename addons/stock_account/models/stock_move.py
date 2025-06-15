@@ -288,9 +288,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -522,9 +526,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -804,7 +812,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated)._product_price_update_after_done()
+=======
+        valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
+>>>>>>> upstream/18.0
 =======
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
 >>>>>>> upstream/18.0
@@ -1059,7 +1071,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantity_by_lot[valued_move_line.lot_id] += valued_move_line.product_uom_id._compute_quantity(valued_move_line.quantity, move.product_id.uom_id)
+=======
+                    quantity_by_lot[valued_move_line.lot_id] += valued_move_line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantity_by_lot[valued_move_line.lot_id] += valued_move_line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -1335,9 +1351,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -1759,7 +1779,10 @@ class StockMove(models.Model):
         return self.filtered(lambda m: m.product_id == product)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1767,6 +1790,9 @@ class StockMove(models.Model):
         self.ensure_one()
         return self.stock_valuation_layer_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -31,7 +31,10 @@ that have no counterpart in the general financial accounts.
             'analytic/static/src/components/**/*',
             'analytic/static/src/services/**/*',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             'analytic/static/src/views/**/*',
             ('remove', 'analytic/static/src/views/graph/**'),
             ('remove', 'analytic/static/src/views/pivot/**'),
@@ -39,6 +42,9 @@ that have no counterpart in the general financial accounts.
         'web.assets_backend_lazy': [
             'analytic/static/src/views/graph/**',
             'analytic/static/src/views/pivot/**',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ],
         'web.assets_unit_tests': [

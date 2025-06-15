@@ -559,7 +559,10 @@ class TestProjectSubtasks(TestProjectCommon):
         self.assertTrue(invisible_subtask.display_in_project)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -604,6 +607,9 @@ class TestProjectSubtasks(TestProjectCommon):
         subtask_data = subtask.with_user(employee).read(fields_to_read)
         self.assertTrue(subtask_data, "The employee should be able to read the subtask data.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

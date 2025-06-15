@@ -14,6 +14,7 @@ export class MailComposerFormController extends formView.Controller {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         super.setup();
         toRaw(this.env.dialogData).model = "mail.compose.message";
@@ -27,6 +28,8 @@ export class MailComposerFormController extends formView.Controller {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     static defaultProps = { fullComposerBus: new EventBus() };
     setup() {
         super.setup();
@@ -36,6 +39,9 @@ export class MailComposerFormController extends formView.Controller {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

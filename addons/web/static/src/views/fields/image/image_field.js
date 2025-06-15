@@ -69,10 +69,16 @@ export class ImageField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             let key = this.props.value;
             onWillRender(() => {
                 const nextKey = this.props.value;
 
+=======
+            let key = this.props.record.data[this.props.name];
+            onWillRender(() => {
+                const nextKey = this.props.record.data[this.props.name];
+>>>>>>> upstream/18.0
 =======
             let key = this.props.record.data[this.props.name];
             onWillRender(() => {
@@ -287,6 +293,11 @@ export class ImageField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ctx.imageSmoothingEnabled = true;
+                ctx.imageSmoothingQuality = "high";
+>>>>>>> upstream/18.0
 =======
                 ctx.imageSmoothingEnabled = true;
                 ctx.imageSmoothingQuality = "high";

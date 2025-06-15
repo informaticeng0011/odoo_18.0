@@ -42,7 +42,10 @@ class MailTestPortalNoPartner(models.Model):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class MailTestPortalPublicAccessAction(models.Model):
     """ Test 'public' target_type access action """
     _description = 'Portal Public Access Action'
@@ -67,6 +70,9 @@ class MailTestPortalPublicAccessAction(models.Model):
         return super()._get_access_action(access_uid=access_uid, force_website=force_website)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class MailTestRating(models.Model):
     """ A model inheriting from rating.mixin (which inherits from mail.thread) with some fields used for SMS

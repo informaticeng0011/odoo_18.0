@@ -32,6 +32,10 @@ import { useActiveElement } from "@web/core/ui/ui_service";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { closestScrollableY } from "@web/core/utils/scrolling";
+>>>>>>> upstream/18.0
 =======
 import { closestScrollableY } from "@web/core/utils/scrolling";
 >>>>>>> upstream/18.0
@@ -292,7 +296,12 @@ export class EditorOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const containerRect = this.props.getContainer().getBoundingClientRect();
+=======
+        const container = closestScrollableY(this.props.editable) || this.props.getContainer();
+        const containerRect = container.getBoundingClientRect();
+>>>>>>> upstream/18.0
 =======
         const container = closestScrollableY(this.props.editable) || this.props.getContainer();
         const containerRect = container.getBoundingClientRect();

@@ -46,7 +46,10 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         trigger: "div[name='product_id'] input",
@@ -64,6 +67,9 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

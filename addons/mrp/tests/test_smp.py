@@ -32,12 +32,18 @@ class TestMrpSerialMassProduce(TestMrpCommon):
             })._apply_inventory()
         mo.action_assign()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         mo_form = Form(mo)
         mo_form.qty_producing = 1
         mo = mo_form.save()
         self.assertEqual(len(mo.move_finished_ids.move_line_ids), 1)
         mo.qty_producing = 0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Open the wizard
         action = mo.action_mass_produce()
@@ -49,9 +55,15 @@ class TestMrpSerialMassProduce(TestMrpCommon):
         wizard.action_generate_production_text()
         wizard.action_prepare()
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Initial MO should have a backorder-sequenced name and be in confirmed state
         self.assertTrue("-001" in mo.name)
         self.assertEqual(mo.state, "confirmed")
+=======
+        # Initial MO should have a backorder-sequenced name and be in progress state
+        self.assertTrue("-001" in mo.name)
+        self.assertEqual(mo.state, "progress")
+>>>>>>> upstream/18.0
 =======
         # Initial MO should have a backorder-sequenced name and be in progress state
         self.assertTrue("-001" in mo.name)

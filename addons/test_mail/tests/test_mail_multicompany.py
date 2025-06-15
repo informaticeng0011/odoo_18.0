@@ -407,7 +407,11 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install', 'multi_company')
+=======
+@tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
+>>>>>>> upstream/18.0
 =======
 @tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
 >>>>>>> upstream/18.0
@@ -446,8 +450,12 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                     path = url_parse(response.url).path
                     self.assertEqual(path, '/web/login')
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.assertTrue('cids' in response.request._cookies)
                     self.assertEqual(response.request._cookies.get('cids'), str(mc_record.company_id.id))
+=======
+                    self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
 =======
                     self.assertNotIn('cids', response.request._cookies)
 >>>>>>> upstream/18.0
@@ -527,6 +535,7 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                     self.assertEqual(response.request._cookies.get('cids'), str(user_company.id))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # when being not logged, cids should be added based on
         # '_get_redirect_suggested_company'
         for test_record in nothreads:
@@ -534,17 +543,23 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                 self.authenticate(None, None)
                 self.user_admin.write({'company_id': user_company.id})
 =======
+=======
+>>>>>>> upstream/18.0
         # when being not logged, cids should not be added as redirection after
         # logging will be 'mail/view' again
         for test_record in nothreads:
             with self.subTest(record_name=test_record.name):
                 self.authenticate(None, None)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 response = self.url_open(
                     f'/mail/view?model={test_record._name}&res_id={test_record.id}',
                     timeout=15
                 )
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 
                 if test_record.company_id:
@@ -557,12 +572,17 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 @tagged("-at_install", "post_install", "multi_company")
 class TestMultiCompanyThreadData(MailCommon, HttpCase):
 =======
+=======
+>>>>>>> upstream/18.0
                 self.assertNotIn('cids', response.request._cookies)
 
 
 @tagged("-at_install", "post_install", "multi_company", "mail_controller")
 class TestMultiCompanyThreadData(MailCommon, HttpCase):
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_mail_thread_data_follower(self):
         partner_portal = self.env["res.partner"].create(

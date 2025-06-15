@@ -622,7 +622,11 @@ class StockMoveLine(models.Model):
                     continue
                 picking_type_id = ml.move_id.picking_type_id
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not picking_type_id and not ml.is_inventory and not ml.lot_id:
+=======
+                if not picking_type_id and not ml.is_inventory and not ml.lot_id and not ml.move_id.scrap_id:
+>>>>>>> upstream/18.0
 =======
                 if not picking_type_id and not ml.is_inventory and not ml.lot_id and not ml.move_id.scrap_id:
 >>>>>>> upstream/18.0

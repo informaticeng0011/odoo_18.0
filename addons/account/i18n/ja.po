@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ryoko Tsuda <ryoko@quartile.co>, 2024
 # Andy Yiu, 2025
 # Wil Odoo, 2025
@@ -30,16 +31,22 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # Andy Yiu, 2025
 # Wil Odoo, 2025
 # Ryoko Tsuda <ryoko@quartile.co>, 2025
 # Junko Augias, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +196,11 @@ msgstr ""
 "POT-Creation-Date: 2025-06-06 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-06-06 18:37+0000\n"
@@ -406,7 +418,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +467,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -647,7 +665,11 @@ msgid "10 Days after End of Next Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "翌月末から10日後"
+=======
+msgstr "末日締め翌々月10日払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "末日締め翌々月10日払い"
 >>>>>>> upstream/18.0
@@ -854,7 +876,11 @@ msgid "90 days, on the 10th"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "90日間、10日に"
+=======
+msgstr "90日後の10日払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "90日後の10日払い"
 >>>>>>> upstream/18.0
@@ -1669,6 +1695,7 @@ msgstr "<span>警告: このドキュメントは以下と重複している可�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1687,6 +1714,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1737,6 +1766,9 @@ msgstr "<strong class=\"d-block mt-3\">配送先住所</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1852,11 +1884,14 @@ msgstr "<strong>参照番号 </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>配送先</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1966,7 +2001,10 @@ msgstr "<strong>タイプ: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2069,6 +2107,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -2093,6 +2132,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong>警告:</strong> 監査証跡を一度有効にすると、既存の仕訳項目がある場合は無効にすることができません。"
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong>警告:</strong> 監査証跡を一度有効にすると、既存の仕訳項目がある場合は無効にすることができません。"
@@ -2302,7 +2346,10 @@ msgstr "一つの銀行口座は一つの仕訳帳のみに属します。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2417,6 +2464,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2548,7 +2598,11 @@ msgstr "この仕訳の明細の1つが減価償却勘定科目に使われて�
 #: code:addons/account/models/company.py:0
 msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "新しいハードロック日は、以前のものより後(または同日)でなければなりません。"
+=======
+msgstr "新しい確定ロック日は、以前のものより後(または同日)でなければなりません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "新しい確定ロック日は、以前のものより後(または同日)でなければなりません。"
 >>>>>>> upstream/18.0
@@ -3026,7 +3080,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "勘定科目コードは一意でなければなりません。 重複するコードを使用して勘定科目を作成することはできません。"
+=======
+msgstr "勘定科目コードは一意でなければなりません。 重複するコードを使用して勘定科目を作成することはできません: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "勘定科目コードは一意でなければなりません。 重複するコードを使用して勘定科目を作成することはできません: %s"
 >>>>>>> upstream/18.0
@@ -3551,7 +3609,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -3724,7 +3786,11 @@ msgid "Active Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効な勘定科目"
+=======
+msgstr "アクティブな勘定科目"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブな勘定科目"
 >>>>>>> upstream/18.0
@@ -4130,7 +4196,11 @@ msgid ""
 "All unhashable moves before the selected date that are not protected by the "
 "Hard Lock Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択した日付より前の、全てハッシュ化できない仕訳で、ハードロック日付で保護されていないもの"
+=======
+msgstr "選択した日付より前の、全てハッシュ化できない仕訳で、確定ロック日付で保護されていないもの"
+>>>>>>> upstream/18.0
 =======
 msgstr "選択した日付より前の、全てハッシュ化できない仕訳で、確定ロック日付で保護されていないもの"
 >>>>>>> upstream/18.0
@@ -4984,8 +5054,13 @@ msgstr "銀行口座"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "銀行口座 %(link)s 番号 %(number)s 削除されました"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "銀行口座 %(link)sの番号 %(number)sがアーカイブされました"
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "銀行口座 %(link)sの番号 %(number)sがアーカイブされました"
@@ -5550,7 +5625,11 @@ msgid "Blocking Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "阻止メッセージ"
+=======
+msgstr "ブロッキングメッセージ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ブロッキングメッセージ"
 >>>>>>> upstream/18.0
@@ -5941,7 +6020,10 @@ msgstr "集計エンジンを使用していないラインで集計詳細を取
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6053,6 +6135,9 @@ msgstr "生成されたPDFで顧客請求書を特定できません: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6650,6 +6735,7 @@ msgstr "取引先"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6688,6 +6774,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6843,6 +6931,9 @@ msgstr "商業取引先の国"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7185,7 +7276,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -8345,7 +8440,11 @@ msgid ""
 "Date from which the accounting is managed in Odoo. It is the date of the "
 "opening entry."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odooで会計管理を開始した日付。これは繰越記帳の日付です。"
+=======
+msgstr "Odooで会計管理を開始する日付です。これは期首仕訳の日付にあたります。"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odooで会計管理を開始する日付です。これは期首仕訳の日付にあたります。"
 >>>>>>> upstream/18.0
@@ -8503,7 +8602,11 @@ msgstr "会社のデフォルトインコタームズ"
 #: model:ir.model.fields,field_description:account.field_account_report__default_opening_date_filter
 msgid "Default Opening"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オープニングデフォルト"
+=======
+msgstr "デフォルト期首日付"
+>>>>>>> upstream/18.0
 =======
 msgstr "デフォルト期首日付"
 >>>>>>> upstream/18.0
@@ -8605,7 +8708,11 @@ msgid ""
 "Define in which journals this account can be used. If empty, can be used in "
 "all journals."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このアカウントを使用できるジャーナルを定義します。空の場合、すべてのジャーナルで使用できます。"
+=======
+msgstr "この勘定科目を使用できる仕訳帳を指定します。空白の場合、すべての仕訳帳で使用できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この勘定科目を使用できる仕訳帳を指定します。空白の場合、すべての仕訳帳で使用できます。"
 >>>>>>> upstream/18.0
@@ -8736,6 +8843,7 @@ msgid "Deprecated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "廃止"
 =======
 msgstr "廃止済"
@@ -8830,6 +8938,9 @@ msgstr "廃止済"
 =======
 msgstr "非推奨"
 >>>>>>> upstream/18.0
+=======
+msgstr "非推奨"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__expense_depreciation
@@ -8870,7 +8981,11 @@ msgid "Destination Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動先の勘定科目"
+=======
+msgstr "相手方勘定科目"
+>>>>>>> upstream/18.0
 =======
 msgstr "相手方勘定科目"
 >>>>>>> upstream/18.0
@@ -9662,7 +9777,11 @@ msgid "End of Following Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "翌月末"
+=======
+msgstr "末日締め翌月末払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "末日締め翌月末払い"
 >>>>>>> upstream/18.0
@@ -9710,7 +9829,11 @@ msgstr "仕訳が正常にハッシュ化されました"
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries are not from the same account: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリが同じアカウントからではありません： %s"
+=======
+msgstr "仕訳が同じ勘定科目に属していません: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳が同じ勘定科目に属していません: %s"
 >>>>>>> upstream/18.0
@@ -9726,7 +9849,11 @@ msgstr "一度に一つの会社のみに仕訳を作成できます。"
 #: code:addons/account/models/account_move_line.py:0
 msgid "Entries don't belong to the same company: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリが同じ会社に属していません: %s"
+=======
+msgstr "仕訳が同じ会社に属していません: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳が同じ会社に属していません: %s"
 >>>>>>> upstream/18.0
@@ -9737,7 +9864,11 @@ msgid ""
 "Entries in the future are set to be auto-posted by default. Check this "
 "checkbox to post them now."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "将来のエントリは、デフォルトで自動投稿されるように設定されています。今すぐ投稿するには、このチェックボックスをオンにしてください。"
+=======
+msgstr "今後の仕訳は、デフォルトで自動投稿されるように設定されています。今すぐ記帳するには、このチェックボックスをオンにしてください。"
+>>>>>>> upstream/18.0
 =======
 msgstr "今後の仕訳は、デフォルトで自動投稿されるように設定されています。今すぐ記帳するには、このチェックボックスをオンにしてください。"
 >>>>>>> upstream/18.0
@@ -9752,7 +9883,11 @@ msgstr "要確認仕訳"
 #: code:addons/account/models/account_analytic_line.py:0
 msgid "Entries: %(account)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリー:%(account)s"
+=======
+msgstr "仕訳: %(account)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳: %(account)s"
 >>>>>>> upstream/18.0
@@ -9761,7 +9896,11 @@ msgstr "仕訳: %(account)s"
 #: model_terms:ir.ui.view,arch_db:account.account_move_view_activity
 msgid "Entry Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリ名"
+=======
+msgstr "仕訳名"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳名"
 >>>>>>> upstream/18.0
@@ -10095,7 +10234,11 @@ msgstr "ノートの最初のテキスト"
 #: model:ir.model.fields,field_description:account.field_account_resequence_wizard__first_date
 msgid "First Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "初回日"
+=======
+msgstr "開始日"
+>>>>>>> upstream/18.0
 =======
 msgstr "開始日"
 >>>>>>> upstream/18.0
@@ -10104,7 +10247,11 @@ msgstr "開始日"
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "First Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最初の入力"
+=======
+msgstr "初回仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "初回仕訳"
 >>>>>>> upstream/18.0
@@ -10129,7 +10276,11 @@ msgstr "最初の新しいシーケンス番号"
 #: model:ir.model.fields,field_description:account.field_account_move__auto_post_origin_id
 msgid "First recurring entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最初の定期的な仕訳"
+=======
+msgstr "初回定期仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "初回定期仕訳"
 >>>>>>> upstream/18.0
@@ -10667,7 +10818,11 @@ msgstr "成長率比較"
 #: model:ir.model.fields,field_description:account.field_res_company__hard_lock_date
 msgid "Hard Lock Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ハードロック日"
+=======
+msgstr "確定ロック日"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定ロック日"
 >>>>>>> upstream/18.0
@@ -10799,8 +10954,12 @@ msgid ""
 "date are secured. Only journal entries after the hard lock date are "
 "considered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "最も古い日付で、その日付以前(その日付を含む)に記帳された仕訳帳の全てが保護されている状態。 ハードロック日以降の仕訳帳のみが考慮されます。"
+=======
+msgstr "最も古い日付で、その日付以前(その日付を含む)に記帳された仕訳帳の全てが保護されている状態。 確定ロック日以降の仕訳帳のみが考慮されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "最も古い日付で、その日付以前(その日付を含む)に記帳された仕訳帳の全てが保護されている状態。 確定ロック日以降の仕訳帳のみが考慮されます。"
 >>>>>>> upstream/18.0
@@ -11332,7 +11491,11 @@ msgstr "貿易条件は、買い手と売り手の間で取引費用と責任を
 #: model:ir.model.fields,help:account.field_account_move_line__tax_line_id
 msgid "Indicates that this journal item is a tax line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このジャーナル明細は税ラインであることを示します"
+=======
+msgstr "この仕訳明細が税額に対応する行(税金行)であることを示します"
+>>>>>>> upstream/18.0
 =======
 msgstr "この仕訳明細が税額に対応する行(税金行)であることを示します"
 >>>>>>> upstream/18.0
@@ -11946,7 +12109,11 @@ msgstr "ダウンロードのみか"
 #: model:ir.model.fields,field_description:account.field_validate_account_move__is_entries
 msgid "Is Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリか"
+=======
+msgstr "複数仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "複数仕訳"
 >>>>>>> upstream/18.0
@@ -12249,7 +12416,11 @@ msgstr "仕訳帳名"
 #: model:ir.model.fields,field_description:account.field_res_company__account_journal_suspense_account_id
 msgid "Journal Suspense Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ジャーナルサスペンスアカウント"
+=======
+msgstr "仕訳帳用仮勘定"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳帳用仮勘定"
 >>>>>>> upstream/18.0
@@ -12286,7 +12457,11 @@ msgstr "仕訳は、反対仕訳と同じ種類を使用する必要がありま
 #: model:ir.model.fields,help:account.field_res_company__automatic_entry_default_journal_id
 msgid "Journal used by default for moving the period of an entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "エントリの期間を移動するためにデフォルトで使用されるジャーナル"
+=======
+msgstr "仕訳の会計期間を移動する際に、デフォルトで使用される仕訳帳"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳の会計期間を移動する際に、デフォルトで使用される仕訳帳"
 >>>>>>> upstream/18.0
@@ -12297,7 +12472,11 @@ msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この会社の会計の繰越記帳がされた仕訳帳。"
+=======
+msgstr "この会社の会計における期首仕訳が記帳された仕訳帳です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この会社の会計における期首仕訳が記帳された仕訳帳です。"
 >>>>>>> upstream/18.0
@@ -12306,7 +12485,11 @@ msgstr "この会社の会計における期首仕訳が記帳された仕訳帳
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__journal_id
 msgid "Journal where to create the entry."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記入する仕訳。"
+=======
+msgstr "仕訳を作成するための仕訳帳です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳を作成するための仕訳帳です。"
 >>>>>>> upstream/18.0
@@ -12424,7 +12607,11 @@ msgstr "POS領収書上のラベル"
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Last Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最後のエントリ"
+=======
+msgstr "最終仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "最終仕訳"
 >>>>>>> upstream/18.0
@@ -13261,7 +13448,11 @@ msgid "Monetary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "金銭"
+=======
+msgstr "金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "金額"
 >>>>>>> upstream/18.0
@@ -13860,7 +14051,11 @@ msgstr "最初の請求書を作成します。"
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__num_journals_without_account
 msgid "Num Journals Without Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numジャーナルアカウントなし"
+=======
+msgstr "Num仕訳帳アカウントなし"
+>>>>>>> upstream/18.0
 =======
 msgstr "Num仕訳帳アカウントなし"
 >>>>>>> upstream/18.0
@@ -14153,7 +14348,11 @@ msgstr "開く"
 #: model:ir.model.fields,field_description:account.field_account_account__opening_balance
 msgid "Opening Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開始残高"
+=======
+msgstr "期首残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首残高"
 >>>>>>> upstream/18.0
@@ -14162,7 +14361,11 @@ msgstr "期首残高"
 #: model:ir.model,name:account.model_account_financial_year_op
 msgid "Opening Balance of Financial Year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "会計年度の開始残高"
+=======
+msgstr "会計年度の期首残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "会計年度の期首残高"
 >>>>>>> upstream/18.0
@@ -14171,7 +14374,11 @@ msgstr "会計年度の期首残高"
 #: model:ir.model.fields,field_description:account.field_account_account__opening_credit
 msgid "Opening Credit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "貸方開始残高"
+=======
+msgstr "期首貸方残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首貸方残高"
 >>>>>>> upstream/18.0
@@ -14180,7 +14387,11 @@ msgstr "期首貸方残高"
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__opening_date
 msgid "Opening Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "開始日"
+=======
+msgstr "期首日付"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首日付"
 >>>>>>> upstream/18.0
@@ -14189,7 +14400,11 @@ msgstr "期首日付"
 #: model:ir.model.fields,field_description:account.field_account_account__opening_debit
 msgid "Opening Debit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "借方開始残高"
+=======
+msgstr "期首借方残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首借方残高"
 >>>>>>> upstream/18.0
@@ -14198,7 +14413,11 @@ msgstr "期首借方残高"
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_date
 msgid "Opening Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "繰越記帳"
+=======
+msgstr "期首仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首仕訳"
 >>>>>>> upstream/18.0
@@ -14207,7 +14426,11 @@ msgstr "期首仕訳"
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_journal_id
 msgid "Opening Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ジャーナルを開きます"
+=======
+msgstr "期首仕訳帳"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首仕訳帳"
 >>>>>>> upstream/18.0
@@ -14218,7 +14441,11 @@ msgstr "期首仕訳帳"
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
 msgid "Opening Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "繰越仕訳記帳"
+=======
+msgstr "期首仕訳エントリ"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首仕訳エントリ"
 >>>>>>> upstream/18.0
@@ -14227,7 +14454,11 @@ msgstr "期首仕訳エントリ"
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__opening_move_posted
 msgid "Opening Move Posted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記帳済開始仕訳"
+=======
+msgstr "期首仕訳が記帳済"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首仕訳が記帳済"
 >>>>>>> upstream/18.0
@@ -14237,7 +14468,11 @@ msgstr "期首仕訳が記帳済"
 #: code:addons/account/models/company.py:0
 msgid "Opening balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "残高を開きます"
+=======
+msgstr "期首残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "期首残高"
 >>>>>>> upstream/18.0
@@ -14954,7 +15189,11 @@ msgid "Payment terms: 10 Days after End of Next Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払条件：翌月末から10日後"
+=======
+msgstr "支払条件：末日締め翌々月10日払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払条件：末日締め翌々月10日払い"
 >>>>>>> upstream/18.0
@@ -15011,7 +15250,11 @@ msgid "Payment terms: 90 days, on the 10th"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払い条件:90日間、10日"
+=======
+msgstr "支払条件:90日後の10日払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払条件:90日後の10日払い"
 >>>>>>> upstream/18.0
@@ -15032,7 +15275,11 @@ msgid "Payment terms: End of Following Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払条件:翌月末"
+=======
+msgstr "支払条件:末日締め翌月末払い"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払条件:末日締め翌月末払い"
 >>>>>>> upstream/18.0
@@ -15182,7 +15429,11 @@ msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
 "proceeding."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "勘定科目表をインストールするか、続行する前にその他のジャーナルを作成してください。"
+=======
+msgstr "勘定科目表をインストールするか、続行する前にその他の仕訳帳を作成してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr "勘定科目表をインストールするか、続行する前にその他の仕訳帳を作成してください。"
 >>>>>>> upstream/18.0
@@ -16873,7 +17124,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番"
+=======
+msgstr "シーケンス"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンス"
 >>>>>>> upstream/18.0
@@ -17084,7 +17339,11 @@ msgid "Sequence Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番数"
+=======
+msgstr "シーケンス番号"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンス番号"
 >>>>>>> upstream/18.0
@@ -17293,7 +17552,11 @@ msgid "Sequence Number Reset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番数のリセット"
+=======
+msgstr "シーケンス番号のリセット"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンス番号のリセット"
 >>>>>>> upstream/18.0
@@ -17502,7 +17765,11 @@ msgid "Sequence Override Regex"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番を上書きする正規表現"
+=======
+msgstr "シーケンスを上書きする正規表現"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンスを上書きする正規表現"
 >>>>>>> upstream/18.0
@@ -17714,7 +17981,11 @@ msgid "Sequence Prefix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番プレフィックス"
+=======
+msgstr "シーケンスプレフィックス"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンスプレフィックス"
 >>>>>>> upstream/18.0
@@ -17912,7 +18183,11 @@ msgstr "削除せずにアカウントタグを非表示にするにはfalseに�
 #: model:ir.model.fields,help:account.field_account_journal__active
 msgid "Set active to false to hide the Journal without removing it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "削除せずにジャーナルを非表示にするにはfalseにアクティブに設定します。"
+=======
+msgstr "削除せずに仕訳帳を非表示にするにはfalseにアクティブに設定します。"
+>>>>>>> upstream/18.0
 =======
 msgstr "削除せずに仕訳帳を非表示にするにはfalseにアクティブに設定します。"
 >>>>>>> upstream/18.0
@@ -17985,7 +18260,11 @@ msgid ""
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "表示に使用する短い名前。このジャーナルのジャーナルエントリは、デフォルトで、このプレフィックスを使用して名前が付けられます。"
+=======
+msgstr "表示用の短縮名です。この仕訳帳の仕訳は、デフォルトでこのプレフィックスを使って命名されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "表示用の短縮名です。この仕訳帳の仕訳は、デフォルトでこのプレフィックスを使って命名されます。"
 >>>>>>> upstream/18.0
@@ -18391,7 +18670,11 @@ msgstr "小計"
 #: model:ir.model.fields,field_description:account.field_account_move__suitable_journal_ids
 msgid "Suitable Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "適しジャーナル"
+=======
+msgstr "適用可能な仕訳帳"
+>>>>>>> upstream/18.0
 =======
 msgstr "適用可能な仕訳帳"
 >>>>>>> upstream/18.0
@@ -18546,7 +18829,11 @@ msgid "Tax Closing Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "税決算仕訳"
+=======
+msgstr "税務決算仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "税務決算仕訳"
 >>>>>>> upstream/18.0
@@ -18831,7 +19118,11 @@ msgid "Tax Return Lock Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "納税申告ロック日"
+=======
+msgstr "税務申告ロック日"
+>>>>>>> upstream/18.0
 =======
 msgstr "税務申告ロック日"
 >>>>>>> upstream/18.0
@@ -19197,7 +19488,11 @@ msgstr "テキストがコピーされました"
 #: model:ir.model.fields,help:account.field_res_company__account_opening_date
 msgid "That is the date of the opening entry."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "それが繰越記帳の日付です。"
+=======
+msgstr "これは期首仕訳の日付です。"
+>>>>>>> upstream/18.0
 =======
 msgstr "これは期首仕訳の日付です。"
 >>>>>>> upstream/18.0
@@ -19259,7 +19554,11 @@ msgstr "早期支払割引は必ず正の値である必要があります。"
 #: code:addons/account/models/company.py:0
 msgid "The Hard Lock Date cannot be removed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ハードロック日は削除できません。"
+=======
+msgstr "確定ロック日は削除できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定ロック日は削除できません。"
 >>>>>>> upstream/18.0
@@ -19351,7 +19650,11 @@ msgstr "仕訳入力で選択されたアカウントは、二次通貨を提供
 #: model:ir.model.fields,help:account.field_res_partner_bank__journal_id
 msgid "The accounting journal corresponding to this bank account."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この銀行口座に対応する会計ジャーナル。"
+=======
+msgstr "この銀行口座に対応する会計仕訳帳。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この銀行口座に対応する会計仕訳帳。"
 >>>>>>> upstream/18.0
@@ -19463,6 +19766,7 @@ msgid ""
 "The combination of reference model and reference type on the journal is not "
 "implemented"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ジャーナルの参照モデルと参照型の組み合わせが実装されていません。"
 
 #. module: account
@@ -19506,10 +19810,16 @@ msgstr "仕訳帳の参照モデルと参照型の組み合わせが実装され
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+msgstr "仕訳帳の参照モデルと参照型の組み合わせが実装されていません。"
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/partner.py:0
 msgid ""
 "The commercial partner has been updated for all related accounting entries."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -19547,6 +19857,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "関連するすべての会計仕訳に対して商業取引先が更新されました"
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 msgstr "関連するすべての会計仕訳に対して商業取引先が更新されました"
@@ -19766,7 +20081,11 @@ msgstr "次の正規表現は、取引先マッピングを作成するために
 #: code:addons/account/models/account_bank_statement_line.py:0
 msgid "The foreign currency must be different than the journal one: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "外貨はジャーナルのものとは異なっている必要があります:%s"
+=======
+msgstr "外貨は仕訳帳のものとは異なっている必要があります:%s"
+>>>>>>> upstream/18.0
 =======
 msgstr "外貨は仕訳帳のものとは異なっている必要があります:%s"
 >>>>>>> upstream/18.0
@@ -19826,8 +20145,13 @@ msgid ""
 "To be consistent, the journal entry must always have exactly one journal item involving the bank/cash account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ジャーナルエントリ%sがそれに関連する文の行について、無効な状態に達しました。\n"
 "一貫性を保つためには、ジャーナルエントリは常に銀行/現金勘定を含む、正確に1つのジャーナル明細を持っている必要があります。"
+=======
+"仕訳%sがそれに関連する文の行について、無効な状態に達しました。\n"
+"一貫性を保つためには、仕訳は常に銀行/現金勘定を含む、正確に1つの仕訳帳明細を持っている必要があります。"
+>>>>>>> upstream/18.0
 =======
 "仕訳%sがそれに関連する文の行について、無効な状態に達しました。\n"
 "一貫性を保つためには、仕訳は常に銀行/現金勘定を含む、正確に1つの仕訳帳明細を持っている必要があります。"
@@ -20027,7 +20351,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この請求書に紐づけられた受取人の銀行口座はアーカイブされたため、請求書を確認できません。"
+=======
+msgstr "この請求書に紐づけられた受取人の銀行口座はアーカイブされたため、請求書を確定できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この請求書に紐づけられた受取人の銀行口座はアーカイブされたため、請求書を確定できません。"
 >>>>>>> upstream/18.0
@@ -20454,7 +20782,11 @@ msgid ""
 "The sequences of this journal are different for Invoices and Refunds but you"
 " selected some of both types."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このジャーナルの順序は、請求書と返金で異なりますが、両方のタイプのいくつかを選択しました。"
+=======
+msgstr "この仕訳帳の順序は、請求書と返金で異なりますが、両方のタイプのいくつかを選択しました。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この仕訳帳の順序は、請求書と返金で異なりますが、両方のタイプのいくつかを選択しました。"
 >>>>>>> upstream/18.0
@@ -20479,7 +20811,11 @@ msgstr "未消込金残高が以前の明細書の終了残高と一致しない
 #: model:ir.model.fields,help:account.field_account_move_line__statement_line_id
 msgid "The statement line that created this entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このエントリを作成した文の行"
+=======
+msgstr "この仕訳を作成した明細行"
+>>>>>>> upstream/18.0
 =======
 msgstr "この仕訳を作成した明細行"
 >>>>>>> upstream/18.0
@@ -20543,7 +20879,11 @@ msgid ""
 "There are entries that cannot be hashed. They can be protected by the Hard "
 "Lock Date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ハッシュ化できない仕訳があります。 それらはハードロック日付で保護することができます。"
+=======
+msgstr "ハッシュ化できない仕訳があります。 それらは確定ロック日付で保護することができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "ハッシュ化できない仕訳があります。 それらは確定ロック日付で保護することができます。"
 >>>>>>> upstream/18.0
@@ -20573,7 +20913,11 @@ msgid ""
 "There are still draft entries in the period you want to hard lock. You "
 "should either post or delete them."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ハードロックしたい期間に、まだドラフト仕訳が残っています。記帳するか、削除して下さい。"
+=======
+msgstr "確定ロックしたい期間に、まだドラフト仕訳が残っています。記帳するか、削除して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定ロックしたい期間に、まだドラフト仕訳が残っています。記帳するか、削除して下さい。"
 >>>>>>> upstream/18.0
@@ -20859,7 +21203,11 @@ msgstr "これは期限超過金額です。"
 #: code:addons/account/models/account_move.py:0
 msgid "This journal entry has been secured."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この仕訳はセキュアされています。"
+=======
+msgstr "この仕訳は保護されています。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この仕訳は保護されています。"
 >>>>>>> upstream/18.0
@@ -20946,7 +21294,11 @@ msgstr "この消込モデルは、これまで一度もエントリに使用さ
 #: code:addons/account/models/account_move.py:0
 msgid "This recurring entry originated from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この定期的な仕訳は以下に由来します：%s"
+=======
+msgstr "この定期仕訳は%sから作成されました"
+>>>>>>> upstream/18.0
 =======
 msgstr "この定期仕訳は%sから作成されました"
 >>>>>>> upstream/18.0
@@ -20981,7 +21333,11 @@ msgid ""
 "This wizard will validate all journal entries selected. Once journal entries"
 " are validated, you can not update them anymore."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このウィザードは、選択されたすべてのジャーナルエントリを検証します。仕訳入力が検証されると、それ以上更新することはできません。"
+=======
+msgstr "このウィザードは、選択されたすべての仕訳を検証します。仕訳入力が検証されると、それ以上更新することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "このウィザードは、選択されたすべての仕訳を検証します。仕訳入力が検証されると、それ以上更新することはできません。"
 >>>>>>> upstream/18.0
@@ -21198,7 +21554,11 @@ msgid "Total Payable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "合計買掛金/未払金"
+=======
+msgstr "買掛残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "買掛残高"
 >>>>>>> upstream/18.0
@@ -21353,7 +21713,11 @@ msgid "Total Receivable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "合計売掛金/未収金"
+=======
+msgstr "売掛残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "売掛残高"
 >>>>>>> upstream/18.0
@@ -21603,7 +21967,11 @@ msgstr "振替日"
 #: model:ir.actions.act_window,name:account.account_automatic_entry_wizard_action
 msgid "Transfer Journal Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "仕訳明細を振替"
+=======
+msgstr "仕訳明細を振替える"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳明細を振替える"
 >>>>>>> upstream/18.0
@@ -21613,7 +21981,11 @@ msgstr "仕訳明細を振替える"
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer counterpart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "振替相手"
+=======
+msgstr "相手勘定を振替える"
+>>>>>>> upstream/18.0
 =======
 msgstr "相手勘定を振替える"
 >>>>>>> upstream/18.0
@@ -21623,7 +21995,11 @@ msgstr "相手勘定を振替える"
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer entry to %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%sの振替エントリ"
+=======
+msgstr "仕訳を%s に振替える"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳を%s に振替える"
 >>>>>>> upstream/18.0
@@ -21633,7 +22009,11 @@ msgstr "仕訳を%s に振替える"
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%sの振替"
+=======
+msgstr "%sから振替える"
+>>>>>>> upstream/18.0
 =======
 msgstr "%sから振替える"
 >>>>>>> upstream/18.0
@@ -21643,7 +22023,11 @@ msgstr "%sから振替える"
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Transfer to %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%sの振替"
+=======
+msgstr "%sへ振替える"
+>>>>>>> upstream/18.0
 =======
 msgstr "%sへ振替える"
 >>>>>>> upstream/18.0
@@ -22018,7 +22402,11 @@ msgid "Use Bill Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "仕入先請求書参照を使用"
+=======
+msgstr "仕入先請求書参照番号を使用"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕入先請求書参照番号を使用"
 >>>>>>> upstream/18.0
@@ -22264,7 +22652,11 @@ msgid ""
 "should not have this option set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "レポートで使用され、会計年度のみではなく、時間の初めからジャーナル項目を検討する必要があるかどうかを判断します。新しい会計年度ごとにゼロにリセットする必要があるアカウントタイプ（経費、収益など）には、このオプションを設定しないでください。"
+=======
+"レポートで使用され、会計年度のみではなく、時間の初めから仕訳帳項目を検討する必要があるかどうかを判断します。新しい会計年度ごとにゼロにリセットする必要があるアカウントタイプ（経費、収益など）には、このオプションを設定しないでください。"
+>>>>>>> upstream/18.0
 =======
 "レポートで使用され、会計年度のみではなく、時間の初めから仕訳帳項目を検討する必要があるかどうかを判断します。新しい会計年度ごとにゼロにリセットする必要があるアカウントタイプ（経費、収益など）には、このオプションを設定しないでください。"
 >>>>>>> upstream/18.0
@@ -22273,7 +22665,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__sequence
 msgid "Used to order Journals in the dashboard view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ダッシュボードビューで注文ジャーナルに使用"
+=======
+msgstr "ダッシュボードビューで仕訳帳を並べ替えるために使用されます"
+>>>>>>> upstream/18.0
 =======
 msgstr "ダッシュボードビューで仕訳帳を並べ替えるために使用されます"
 >>>>>>> upstream/18.0
@@ -22313,7 +22709,11 @@ msgstr "ユーザグループ化"
 #: model:ir.model.fields,field_description:account.field_res_company__user_hard_lock_date
 msgid "User Hard Lock Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ユーザハードロック日"
+=======
+msgstr "ユーザ確定ロック日"
+>>>>>>> upstream/18.0
 =======
 msgstr "ユーザ確定ロック日"
 >>>>>>> upstream/18.0
@@ -22799,7 +23199,10 @@ msgstr "会計項目の貸方または借方の値が間違っています！"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22910,6 +23313,9 @@ msgstr "XML フォーマット"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23019,7 +23425,11 @@ msgstr ""
 "\n"
 "続けるには：\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "1 /このジャーナルフォームの右上のボタン「ジャーナルエントリ」をクリックします\n"
+=======
+"1 /この仕訳帳フォームの右上のボタン「仕訳」をクリックします\n"
+>>>>>>> upstream/18.0
 =======
 "1 /この仕訳帳フォームの右上のボタン「仕訳」をクリックします\n"
 >>>>>>> upstream/18.0
@@ -23040,7 +23450,11 @@ msgstr "他のレコードはまだこれを参照しているため、支払期
 msgid ""
 "You can not reorder sequence by date when the journal is locked with a hash."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ジャーナルはハッシュでロックされているときは、日付によって順序を並べ替えることができません。"
+=======
+msgstr "仕訳帳はハッシュでロックされているときは、日付によって順序を並べ替えることができません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "仕訳帳はハッシュでロックされているときは、日付によって順序を並べ替えることができません。"
 >>>>>>> upstream/18.0
@@ -23144,7 +23558,11 @@ msgid ""
 "You can't create a new statement line without a suspense account set on the "
 "%s journal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%sのジャーナルに設定された仮勘定をせずに新しい文の行を作成することはできません。"
+=======
+msgstr "%sの仕訳帳に設定された仮勘定をせずに新しい文の行を作成することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "%sの仕訳帳に設定された仮勘定をせずに新しい文の行を作成することはできません。"
 >>>>>>> upstream/18.0
@@ -23573,7 +23991,10 @@ msgstr "このアカウントには、異なる外貨を持つ仕訳がすでに
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23602,6 +24023,7 @@ msgstr "このアカウントには、異なる外貨を持つ仕訳がすでに
 msgid ""
 "You cannot set a partner as an invoicing address of another if they have a "
 "different %(vat_label)s."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -23642,10 +24064,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "%(vat_label)sが異なる場合、その取引先を他の取引先の請求先住所として設定することはできません。"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_account.py:0
 msgid ""
@@ -23737,6 +24164,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -23770,6 +24198,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24382,7 +24812,11 @@ msgid "will auto-confirm on their respective dates."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "はそれぞれの日程で自動確認されます。"
+=======
+msgstr "はそれぞれの日程で自動確定されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "はそれぞれの日程で自動確定されます。"
 >>>>>>> upstream/18.0

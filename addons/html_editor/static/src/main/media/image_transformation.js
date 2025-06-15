@@ -52,7 +52,10 @@ export class ImageTransformation extends Component {
         useExternalListener(window, "mousemove", this.mouseMove);
         useExternalListener(window, "mouseup", this.mouseUp);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // When a character key is pressed and the image gets deleted,
         // close the image transform via selectionchange.
         useExternalListener(this.document, "selectionchange", () => this.props.destroy());
@@ -63,6 +66,9 @@ export class ImageTransformation extends Component {
                 this.props.destroy();
             }
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, this.resetHandlers);

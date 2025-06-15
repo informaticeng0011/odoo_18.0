@@ -57,9 +57,12 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         thread = request.env[thread_model]._get_thread_with_access(thread_id, **kwargs)
         partner = request.env.user.partner_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106,6 +109,9 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154,6 +160,7 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if request.env.user._is_public():
                 portal_partner = get_portal_partner(
                     thread, kwargs.get("hash"), kwargs.get("pid"), kwargs.get("token")
@@ -165,6 +172,8 @@ class PortalChatter(http.Controller):
         if request.env.user.has_group("website.group_website_restricted_editor"):
             store.add(partner, {"is_user_publisher": True})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229,6 +238,9 @@ class PortalChatter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -309,7 +321,10 @@ class MailController(mail.MailController):
 
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _redirect_to_generic_fallback(cls, model, res_id, access_token=None, **kwargs):
         # Generic fallback for a share user is the customer portal
         if request.session.uid and request.env.user.share:
@@ -317,6 +332,9 @@ class MailController(mail.MailController):
         return super()._redirect_to_generic_fallback(model, res_id, access_token=access_token, **kwargs)
 
     @classmethod
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _redirect_to_record(cls, model, res_id, access_token=None, **kwargs):
         """ If the current user doesn't have access to the document, but provided
@@ -353,7 +371,11 @@ class MailController(mail.MailController):
                             url_params = url.decode_query()
                             url_params.update([("pid", pid), ("hash", hash)])
 <<<<<<< HEAD
+<<<<<<< HEAD
                             url = url.replace(query=urls.url_encode(url_params)).to_url()
+=======
+                            url = url.replace(query=urls.url_encode(url_params, sort=True)).to_url()
+>>>>>>> upstream/18.0
 =======
                             url = url.replace(query=urls.url_encode(url_params, sort=True)).to_url()
 >>>>>>> upstream/18.0

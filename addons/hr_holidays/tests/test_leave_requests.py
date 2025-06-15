@@ -447,7 +447,12 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'hours_per_day': 8.0
+=======
+            'hours_per_day': 8.0,
+            'full_time_required_hours': 40
+>>>>>>> upstream/18.0
 =======
             'hours_per_day': 8.0,
             'full_time_required_hours': 40
@@ -585,7 +590,11 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(leave5.number_of_hours, 8)
+=======
+        self.assertEqual(leave5.number_of_hours, 10)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(leave5.number_of_hours, 10)
 >>>>>>> upstream/18.0
@@ -1447,6 +1456,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40,
 >>>>>>> upstream/18.0
@@ -1512,8 +1525,13 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 15.0)
         self.assertEqual(leave.duration_display, '5 days')
+=======
+        self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 16.0)
+        self.assertEqual(leave.duration_display, '4 days')
+>>>>>>> upstream/18.0
 =======
         self._check_holidays_status(holiday_status, employee, 20.0, 0.0, 20.0, 16.0)
         self.assertEqual(leave.duration_display, '4 days')
@@ -1712,6 +1730,10 @@ class TestLeaveRequests(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 56,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 56,
 >>>>>>> upstream/18.0

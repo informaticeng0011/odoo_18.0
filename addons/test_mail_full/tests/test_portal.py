@@ -2,6 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from werkzeug.urls import url_parse, url_decode, url_encode, url_unparse
 
 <<<<<<< HEAD
@@ -116,10 +117,15 @@ from odoo import http
 from werkzeug.urls import url_parse, url_decode, url_encode
 
 >>>>>>> upstream/18.0
+=======
+from werkzeug.urls import url_parse, url_decode, url_encode
+
+>>>>>>> upstream/18.0
 from odoo.addons.auth_signup.models.res_partner import ResPartner
 from odoo.addons.mail.tests.common import MailCommon
 from odoo.addons.test_mail_full.tests.common import TestMailFullCommon
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
+<<<<<<< HEAD
 <<<<<<< HEAD
 from odoo.tests import tagged, users
 from odoo.tests.common import HttpCase
@@ -272,6 +278,8 @@ class TestPortal(TestMailFullCommon, TestSMSRecipients):
     def setUp(self):
         super(TestPortal, self).setUp()
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.exceptions import AccessError
 from odoo.tests import tagged, users
 from odoo.tests.common import HttpCase
@@ -283,12 +291,16 @@ class TestPortal(TestMailFullCommon, TestSMSRecipients):
 
     def setUp(self):
         super().setUp()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         self.record_portal = self.env['mail.test.portal'].create({
             'partner_id': self.partner_1.id,
             'name': 'Test Portal Record',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         self.record_portal._portal_ensure_token()
@@ -342,12 +354,17 @@ class TestPortalControllers(TestPortal):
             )
 
 =======
+=======
+>>>>>>> upstream/18.0
         self.record_portal._portal_ensure_token()
 
 
 @tagged('-at_install', 'post_install', 'portal', 'mail_controller')
 class TestPortalControllers(TestPortal):
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_portal_avatar_with_access_token(self):
         mail_record = self.env['mail.message'].create({
@@ -446,6 +463,7 @@ class TestPortalControllers(TestPortal):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('portal')
 class TestPortalFlow(MailCommon, HttpCase):
     """Share a link by email to a customer without an account for viewing a record through the portal.
@@ -456,11 +474,16 @@ class TestPortalFlow(MailCommon, HttpCase):
     - or in the portal otherwise
     """
 =======
+=======
+>>>>>>> upstream/18.0
 @tagged('-at_install', 'post_install', 'portal', 'mail_controller')
 class TestPortalFlow(MailCommon, HttpCase):
     """ Test shared links, mail/view links and redirection (backend, customer
     portal or frontend for specific addons). """
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
@@ -474,6 +497,10 @@ class TestPortalFlow(MailCommon, HttpCase):
             'phone': '+33353011823',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # customer portal enabled
+>>>>>>> upstream/18.0
 =======
         # customer portal enabled
 >>>>>>> upstream/18.0
@@ -483,7 +510,10 @@ class TestPortalFlow(MailCommon, HttpCase):
             'user_id': cls.user_admin.id,
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # internal only
         cls.record_internal = cls.env['mail.test.track'].create({
             'name': 'Test Internal Record',
@@ -497,6 +527,9 @@ class TestPortalFlow(MailCommon, HttpCase):
             'name': 'Public ActUrl',
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.mail_template = cls.env['mail.template'].create({
             'auto_delete': True,
@@ -520,7 +553,10 @@ class TestPortalFlow(MailCommon, HttpCase):
         cls.classPatch(ResPartner, '_generate_signup_token', patched_generate_signup_token)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # prepare access URLs on self to ease tests
         # ------------------------------------------------------------
         base_url = cls.record_portal.get_base_url()
@@ -543,11 +579,15 @@ class TestPortalFlow(MailCommon, HttpCase):
         cls.record_url_no_model = f'{cls.record_portal.get_base_url()}/mail/view?model=this.should.not.exists&res_id=1'
 
         # find portal + auth data url
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         for group_name, group_func, group_data in cls.record_portal.sudo()._notify_get_recipients_groups(
             cls.env['mail.message'], False
         ):
             if group_name == 'portal_customer' and group_func(cls.customer):
+<<<<<<< HEAD
 <<<<<<< HEAD
                 cls.record_access_url = group_data['button_access']['url']
                 break
@@ -565,6 +605,8 @@ class TestPortalFlow(MailCommon, HttpCase):
                         sort=True),
              parsed_url[4]))
 =======
+=======
+>>>>>>> upstream/18.0
                 cls.record_portal_url_auth = group_data['button_access']['url']
                 break
         else:
@@ -787,6 +829,9 @@ class TestPortalFlow(MailCommon, HttpCase):
                 path, '/web/login',
                 'Failed with %s - %s' % (model, res_id)
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def assert_URL(self, url, expected_path, expected_fragment_params=None, expected_query=None):
@@ -802,6 +847,7 @@ class TestPortalFlow(MailCommon, HttpCase):
             self.assertEqual(expected_query, parsed_url.query,
                              f'Expected: query="{expected_query}" (for path: {expected_path})')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     def _get_composer_with_context(self, template_id=False):
         return self.env['mail.compose.message'].with_context({
@@ -890,6 +936,8 @@ class TestPortalFlow(MailCommon, HttpCase):
         """Same as test_send_message_to_customer_using_template but without a template."""
         composer = self._get_composer_with_context().create({
 =======
+=======
+>>>>>>> upstream/18.0
     @users('employee')
     def test_send_message_to_customer(self):
         """Same as test_send_message_to_customer_using_template but without a template."""
@@ -899,6 +947,9 @@ class TestPortalFlow(MailCommon, HttpCase):
                 default_email_layout_xmlid='mail.mail_notification_layout_with_responsible_signature',
             )
         ).create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'body': '<p>Hello Mathias Delvaux, your quotation is ready for review.</p>',
             'partner_ids': self.customer.ids,
@@ -910,7 +961,11 @@ class TestPortalFlow(MailCommon, HttpCase):
 
         self.assertEqual(len(self._mails), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn(f'"{html_escape(self.record_access_url)}"', self._mails[0].get('body'))
+=======
+        self.assertIn(f'"{html_escape(self.record_portal_url_auth)}"', self._mails[0].get('body'))
+>>>>>>> upstream/18.0
 =======
         self.assertIn(f'"{html_escape(self.record_portal_url_auth)}"', self._mails[0].get('body'))
 >>>>>>> upstream/18.0
@@ -925,8 +980,11 @@ class TestPortalFlow(MailCommon, HttpCase):
         Other tests below check that that same link has the correct behavior.
         This test follows the common use case by using a template while the next send the mail without a template."""
 <<<<<<< HEAD
+<<<<<<< HEAD
         composer = self._get_composer_with_context(self.mail_template.id).create({})
 =======
+=======
+>>>>>>> upstream/18.0
         composer = self.env['mail.compose.message'].with_context(
             self._get_mail_composer_web_context(
                 self.record_portal,
@@ -934,6 +992,9 @@ class TestPortalFlow(MailCommon, HttpCase):
                 default_template_id=self.mail_template.id,
             )
         ).create({})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         with self.mock_mail_gateway(mail_unlink_sent=True):
@@ -941,7 +1002,11 @@ class TestPortalFlow(MailCommon, HttpCase):
 
         self.assertEqual(len(self._mails), 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn(f'"{html_escape(self.record_access_url)}"', self._mails[0].get('body'))
+=======
+        self.assertIn(f'"{html_escape(self.record_portal_url_auth)}"', self._mails[0].get('body'))
+>>>>>>> upstream/18.0
 =======
         self.assertIn(f'"{html_escape(self.record_portal_url_auth)}"', self._mails[0].get('body'))
 >>>>>>> upstream/18.0

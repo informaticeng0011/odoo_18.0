@@ -68,7 +68,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
             # Invoice total including GST amount and Invoice Total excluding GST amount in accounting currency shall be provided.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             additional_document_reference_list.append([{
+=======
+            additional_document_reference_list.extend([{
+>>>>>>> upstream/18.0
 =======
             additional_document_reference_list.extend([{
 >>>>>>> upstream/18.0

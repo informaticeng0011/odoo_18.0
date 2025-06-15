@@ -147,6 +147,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.display_type or line.analytic_distribution or not line.product_id:
                 continue
             project = line.product_id.project_id or line.order_id.project_id
@@ -154,6 +155,8 @@ class SaleOrderLine(models.Model):
             if distribution:
                 line.analytic_distribution = distribution
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187,6 +190,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     line.analytic_distribution |= {",".join(str(account_id.id) for account_id in accounts_to_add): 100}
             else:
                 line.analytic_distribution = project._get_analytic_distribution()
@@ -213,6 +217,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     # project account is added to each analytic distribution line
                     line.analytic_distribution = {
                         f"{account_ids},{','.join(map(str, accounts_to_add.ids))}": percentage
@@ -223,6 +229,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398,6 +407,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if len(sale_line_name_parts) > 1 and sale_line_name_parts[1]:
                 # if there's multiple lines, skip the product name part
@@ -559,6 +569,8 @@ class SaleOrderLine(models.Model):
                 sale_line_name_parts.pop(0)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,6 +602,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -772,7 +787,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not values.get('analytic_distribution'):
+=======
+        if not values.get('analytic_distribution') and not self.analytic_distribution:
+>>>>>>> upstream/18.0
 =======
         if not values.get('analytic_distribution') and not self.analytic_distribution:
 >>>>>>> upstream/18.0

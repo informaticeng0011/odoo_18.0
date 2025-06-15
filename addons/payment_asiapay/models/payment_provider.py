@@ -45,6 +45,10 @@ class PaymentProvider(models.Model):
     @api.constrains('available_currency_ids', 'state')
     def _limit_available_currency_ids(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowed_codes = set(const.CURRENCY_MAPPING.keys())
+>>>>>>> upstream/18.0
 =======
         allowed_codes = set(const.CURRENCY_MAPPING.keys())
 >>>>>>> upstream/18.0
@@ -53,7 +57,10 @@ class PaymentProvider(models.Model):
                 raise ValidationError(_("Only one currency can be selected by AsiaPay account."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             unsupported_currency_codes = [
                 currency.name
                 for currency in provider.available_currency_ids
@@ -65,6 +72,9 @@ class PaymentProvider(models.Model):
                     currencies=", ".join(unsupported_currency_codes),
                 ))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # === BUSINESS METHODS ===#
 

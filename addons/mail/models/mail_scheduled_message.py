@@ -195,6 +195,10 @@ class ScheduledMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subject=scheduled_message.subject,
+>>>>>>> upstream/18.0
 =======
                     subject=scheduled_message.subject,
 >>>>>>> upstream/18.0

@@ -300,7 +300,10 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -351,6 +354,9 @@ class TestReportSession(TestPoSCommon):
         self.assertEqual(report["taxes_info"]["base_amount"], 100, "Base amount should be equal to 100")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

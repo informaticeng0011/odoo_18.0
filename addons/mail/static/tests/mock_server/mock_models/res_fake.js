@@ -9,7 +9,10 @@ import { fields, makeKwArgs, models } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42,8 +45,12 @@ export class ResFake extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [`search,${DEFAULT_MAIL_SEARCH_ID}`]: /* xml */ `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: /* xml */ `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0

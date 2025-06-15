@@ -44,7 +44,10 @@ class TestTaxesComputation(TestTaxCommon):
         self._run_js_tests()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_taxes_filtering(self):
         tax_percent_1 = self.percent_tax(10.0)
         tax_percent_2 = self.percent_tax(20.0)
@@ -62,6 +65,9 @@ class TestTaxesComputation(TestTaxCommon):
         )
         self._run_js_tests()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_random_case_1(self):
         tax_percent_8_price_included = self.percent_tax(8.0, price_include_override='tax_included')

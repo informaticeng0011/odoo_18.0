@@ -22,18 +22,28 @@ export class TestsSharedJsPython extends Component {
     processTest(params) {
         if (params.test === "taxes_computation") {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             let filter_tax_function = null;
             if (params.excluded_tax_ids && params.excluded_tax_ids.length) {
                 filter_tax_function = (tax) => !params.excluded_tax_ids.includes(tax.id);
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             const kwargs = {
                 product: params.product,
                 precision_rounding: params.precision_rounding,
                 rounding_method: params.rounding_method,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                filter_tax_function: filter_tax_function,
+>>>>>>> upstream/18.0
 =======
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0

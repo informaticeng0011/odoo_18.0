@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+
+>>>>>>> upstream/18.0
 =======
 import re
 
@@ -12,6 +17,11 @@ from odoo.exceptions import UserError
 from odoo.tools import ormcache, make_index_name, create_index
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
 
@@ -45,6 +55,10 @@ class AccountAnalyticPlan(models.Model):
         'account.analytic.plan',
         compute='_compute_root_id',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        search='_search_root_id',
+>>>>>>> upstream/18.0
 =======
         search='_search_root_id',
 >>>>>>> upstream/18.0
@@ -141,12 +155,18 @@ class AccountAnalyticPlan(models.Model):
             plan.root_id = int(plan.parent_path[:-1].split('/')[0]) if plan.parent_path else plan
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _search_root_id(self, operator, value):
         if operator != '=':
             return NotImplemented
         return [('parent_path', '=like', f'{value}/%')]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('name', 'parent_id.complete_name')
     def _compute_complete_name(self):
@@ -272,8 +292,11 @@ class AccountAnalyticPlan(models.Model):
         # Remove the dynamic field created with the plan (see `_inverse_name`)
         self._find_plan_column().unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().unlink()
 =======
+=======
+>>>>>>> upstream/18.0
         related_fields = self._find_related_field()
         res = super().unlink()
         related_fields.filtered(lambda f: not self._is_subplan_field_used(f)).unlink()
@@ -301,6 +324,9 @@ class AccountAnalyticPlan(models.Model):
             ('root_id', '=', plan_id),
             ('parent_path', 'like', '%'.join('/' * (int(depth) + 1))),
         ]))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _find_plan_column(self, model=False):
@@ -310,13 +336,19 @@ class AccountAnalyticPlan(models.Model):
         return self.env['ir.model.fields'].sudo().search(domain)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _find_related_field(self, model=False):
         domain = [('name', 'in', [plan._hierarchy_name()[1] for plan in self])]
         if model:
             domain.append(('model', '=', model))
         return self.env['ir.model.fields'].sudo().search(domain)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _sync_all_plan_column(self):
         model_names = self.env.registry.descendants(['analytic.plan.fields.mixin'], '_inherit') - {'analytic.plan.fields.mixin'}
@@ -326,6 +358,7 @@ class AccountAnalyticPlan(models.Model):
     def _sync_plan_column(self, model):
         # Create/delete a new field/column on related models for this plan, and keep the name in sync.
         for plan in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
             prev = plan._find_plan_column(model)
             if plan.parent_id and prev:
@@ -352,6 +385,8 @@ class AccountAnalyticPlan(models.Model):
                     create_index(self.env.cr, indexname, tablename, [column], 'btree', f'{column} IS NOT NULL')
                     field['index'] = True
 =======
+=======
+>>>>>>> upstream/18.0
             prev_stored = plan._find_plan_column(model)
             depth, name_related = plan._hierarchy_name()
             prev_related = plan._find_related_field(model)
@@ -404,6 +439,9 @@ class AccountAnalyticPlan(models.Model):
                     prev_stored.field_description = description
         if self.children_ids:
             self.children_ids._sync_plan_column(model)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def write(self, vals):
@@ -458,7 +496,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0
@@ -641,7 +683,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0

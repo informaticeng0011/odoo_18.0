@@ -576,7 +576,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -780,6 +783,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1048,7 +1054,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1218,6 +1227,9 @@ class TestAccountPayment(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1462,7 +1474,10 @@ class TestAccountPayment(AccountTestInvoicingCommon):
             ._create_payments()
         self.assertEqual(invoice.state, "posted")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_payment_amount_without_move(self):
         bank_journal_2 = self.company_data['default_journal_bank'].copy()
@@ -1483,4 +1498,7 @@ class TestAccountPayment(AccountTestInvoicingCommon):
             'amount_signed': -100,
             'amount_company_currency_signed': -50,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -88,7 +88,10 @@ class WebsiteRewrite(models.Model):
                     raise ValidationError(_('"URL from" can not be empty.'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if rewrite.url_to.startswith('#') or rewrite.url_from.startswith('#'):
@@ -96,6 +99,9 @@ class WebsiteRewrite(models.Model):
                 if rewrite.url_to.split('#')[0] == rewrite.url_from.split('#')[0]:
                     raise ValidationError(_("base URL of 'URL to' should not be same as 'URL from'."))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

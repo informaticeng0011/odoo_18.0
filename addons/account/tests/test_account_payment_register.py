@@ -5,6 +5,10 @@ from odoo.tests import tagged, users
 from odoo import fields, Command
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from itertools import product
+>>>>>>> upstream/18.0
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -188,13 +192,19 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def get_wizard_available_journals(cls, wizard):
         return wizard.available_journal_ids.filtered_domain([
             *cls.env['account.journal']._check_company_domain(wizard.company_id),
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_register_payment_single_batch_grouped_keep_open_lower_amount(self):
         ''' Pay 800.0 with 'open' as payment difference handling on two customer invoices (1000 + 2000). '''
@@ -1830,6 +1840,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -1852,6 +1863,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
     def test_payment_with_branch(self):
         """
         Test register payment with branches when different receivable accounts are used in each branch with combinations of invoices and selected companies
@@ -1886,11 +1899,15 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
                 'company_id': branch.id,
                 'name': f'{branch.name} journal',
                 'type': 'bank',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             })
             branch_invoices |= self.init_invoice('out_invoice', products=self.product_a, company=branch)
 
         parent_invoice = self.init_invoice('out_invoice', products=self.product_a)
+<<<<<<< HEAD
 <<<<<<< HEAD
         (branch_invoices | parent_invoice).action_post()
 
@@ -1983,6 +2000,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         other_company_invoice = self.init_invoice('out_invoice', products=self.product_a, company=company_2)
         (branch_invoices | parent_invoice | other_company_invoice).action_post()
 
@@ -2080,6 +2099,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
         test_register_payment_flow(cases)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_epd_and_cash_rounding(self):
         cash_rounding = self.env['account.cash.rounding'].create({
@@ -2140,6 +2162,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

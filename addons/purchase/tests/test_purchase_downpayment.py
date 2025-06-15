@@ -112,7 +112,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220,6 +223,7 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -270,6 +274,8 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_downpayment_exchange_rate(self):
         self.env['res.currency.rate'].create({'currency_id': self.other_currency.id, 'rate': 1.5})
@@ -286,4 +292,7 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 
         po_dp_line = po.order_line.filtered(lambda l: l.display_type != 'line_section' and l.is_downpayment)
         self.assertEqual(po_dp_line.price_unit, 66.67)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

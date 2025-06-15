@@ -585,7 +585,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -675,6 +678,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -784,8 +790,11 @@ export class DomPlugin extends Plugin {
         if (element && element !== this.editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             element.before(sep);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (isEmptyBlock(element)) {
@@ -798,6 +807,9 @@ export class DomPlugin extends Plugin {
                 this.dependencies.selection.setCursorStart(baseContainer);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

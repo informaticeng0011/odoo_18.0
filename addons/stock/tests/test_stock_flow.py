@@ -2252,7 +2252,10 @@ class TestStockFlow(TestStockCommon):
         self.assertEqual(picking.move_ids.partner_id, partner_2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_scrap_tracked_product_without_lot(self):
         """Scrapping a tracked product without lot should not raise
         if is_scrap context is set."""
@@ -2275,6 +2278,9 @@ class TestStockFlow(TestStockCommon):
 
         self.assertEqual(scrap.move_ids.state, 'done')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_cancel_picking_with_scrapped_products(self):
         """

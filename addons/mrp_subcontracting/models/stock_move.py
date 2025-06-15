@@ -306,6 +306,12 @@ class StockMove(models.Model):
         return should_bypass_reservation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
+        return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)
+
+>>>>>>> upstream/18.0
 =======
     def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
         return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)

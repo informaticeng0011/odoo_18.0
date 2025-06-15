@@ -286,7 +286,11 @@ class AccountPaymentRegister(models.TransientModel):
         payment_values = batch_result['payment_values']
         lines = batch_result['lines']
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = min(lines.company_id, key=lambda c: len(c.parent_ids))
+=======
+        company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
+>>>>>>> upstream/18.0
 =======
         company = min(lines.company_id, key=lambda c: len(c.sudo().parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
 >>>>>>> upstream/18.0
@@ -308,11 +312,17 @@ class AccountPaymentRegister(models.TransientModel):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _from_sibling_companies(self, lines):
         return len(lines.company_id) > 1 and not any(c.root_id in lines.company_id for c in lines.company_id)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # COMPUTE METHODS
@@ -438,13 +448,19 @@ class AccountPaymentRegister(models.TransientModel):
             else:
                 # == Multiple batches: The wizard is not editable  ==
 <<<<<<< HEAD
+<<<<<<< HEAD
                 wizard.update({
                     'company_id': min(wizard.batches, key=lambda batch: len(batch['lines'].company_id.parent_ids))['lines'].company_id.id,
 =======
+=======
+>>>>>>> upstream/18.0
                 lines = sum((batch_result['lines'] for batch_result in wizard.batches), self.env['account.move.line'])
                 company = min(lines.company_id, key=lambda c: len(c.parent_ids)) if not self._from_sibling_companies(lines) else lines.company_id.root_id
                 wizard.update({
                     'company_id': company.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     'partner_id': False,
                     'partner_type': False,
@@ -971,8 +987,13 @@ class AccountPaymentRegister(models.TransientModel):
             if len(lines.company_id.root_id) > 1:
                 raise UserError(_("You can't create payments for entries belonging to different companies."))
 <<<<<<< HEAD
+<<<<<<< HEAD
             if len(lines.company_id.filtered(lambda c: c.root_id not in lines.company_id)) > 1:
                 raise UserError(_("You can't create payments for entries belonging to different branches."))
+=======
+            if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
+                raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
+>>>>>>> upstream/18.0
 =======
             if self._from_sibling_companies(lines) and lines.company_id.root_id not in self.env.user.company_ids:
                 raise UserError(_("You can't create payments for entries belonging to different branches without access to parent company."))
@@ -1276,11 +1297,14 @@ class AccountPaymentRegister(models.TransientModel):
                 })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         payments = self._init_payments(to_process, edit_mode=edit_mode)
         self._post_payments(to_process, edit_mode=edit_mode)
         self._reconcile_payments(to_process, edit_mode=edit_mode)
         return payments
 =======
+=======
+>>>>>>> upstream/18.0
         lines = sum((batch_result['lines'] for batch_result in batches), self.env['account.move.line'])
         from_sibling_companies = self._from_sibling_companies(lines)
         if from_sibling_companies and lines.company_id.root_id not in self.env.companies:
@@ -1294,6 +1318,9 @@ class AccountPaymentRegister(models.TransientModel):
         wizard._post_payments(to_process, edit_mode=edit_mode)
         wizard._reconcile_payments(to_process, edit_mode=edit_mode)
         return payments.sudo(flag=False)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _get_next_payment_date_in_context(self):

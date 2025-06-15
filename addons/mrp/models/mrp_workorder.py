@@ -9,6 +9,10 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.resource.models.utils import Intervals, sum_intervals
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.resource.models.utils import Intervals, sum_intervals
 >>>>>>> upstream/18.0
@@ -113,6 +117,10 @@ class MrpWorkorder(models.Model):
         'mrp.routing.workcenter', 'Operation', check_company=True)
         # Should be used differently as BoM can change in the meantime
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
+>>>>>>> upstream/18.0
 =======
     has_worksheet = fields.Boolean(compute='_compute_has_worksheet')
 >>>>>>> upstream/18.0
@@ -401,12 +409,18 @@ class MrpWorkorder(models.Model):
                 order.progress = 0
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _compute_has_worksheet(self):
         workorders_has_worksheet = self.env['mrp.workorder'].search([('worksheet', '!=', False), ('id', 'in', self.ids)])
         for order in self:
             order.has_worksheet = order in workorders_has_worksheet
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_working_users(self):
         """ Checks whether the current user is working, all the users currently working and the last user that worked. """
@@ -606,6 +620,7 @@ class MrpWorkorder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wo in self:
             if date:
                 duration = sum(wo.time_ids.filtered(lambda t: t.date_end and t.date_end <= date).mapped('duration'))
@@ -613,6 +628,8 @@ class MrpWorkorder(models.Model):
                 duration = sum(wo.time_ids.mapped('duration'))
             total += (duration / 60.0) * wo.workcenter_id.costs_hour
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -626,6 +643,9 @@ class MrpWorkorder(models.Model):
             total += duration * workorder.workcenter_id.costs_hour
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

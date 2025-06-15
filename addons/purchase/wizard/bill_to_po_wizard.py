@@ -49,6 +49,12 @@ class BillToPO(models.TransientModel):
                 'partner_id': lines_to_convert.partner_id.id,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        po_currency = self.purchase_order_id.currency_id
+        company = self.purchase_order_id.company_id
+        date = self.purchase_order_id.date_order or fields.Date.today()
+>>>>>>> upstream/18.0
 =======
         po_currency = self.purchase_order_id.currency_id
         company = self.purchase_order_id.company_id
@@ -61,7 +67,11 @@ class BillToPO(models.TransientModel):
                 'product_uom': aml.product_uom_id.id,
                 'is_downpayment': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': aml.price_unit,
+=======
+                'price_unit': aml.currency_id._convert(aml.price_unit, po_currency, company, date) if aml.currency_id != po_currency else aml.price_unit,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': aml.currency_id._convert(aml.price_unit, po_currency, company, date) if aml.currency_id != po_currency else aml.price_unit,
 >>>>>>> upstream/18.0

@@ -122,7 +122,11 @@ class AnalyticPlanFields(models.AbstractModel):
 
             # If there is a main node, append the ones for other plans
 <<<<<<< HEAD
+<<<<<<< HEAD
             if account_node is not None or account_filter_node is not None:
+=======
+            if account_node is not None:
+>>>>>>> upstream/18.0
 =======
             if account_node is not None:
 >>>>>>> upstream/18.0
@@ -138,9 +142,12 @@ class AnalyticPlanFields(models.AbstractModel):
                             'context': repr(self._get_account_node_context(plan)),
                         }))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if account_filter_node is not None:
                         account_filter_node.addnext(E.filter(name=fname, context=f"{{'group_by': '{fname}'}}"))
 =======
+=======
+>>>>>>> upstream/18.0
             if account_filter_node is not None:
                 for plan in other_plans[::-1] + project_plan:
                     fname = plan._column_name()
@@ -151,6 +158,9 @@ class AnalyticPlanFields(models.AbstractModel):
                         _depth, subfname = current[0]._hierarchy_name()
                         if subfname in self._fields:
                             account_filter_node.addnext(E.filter(name=subfname, context=f"{{'group_by': '{subfname}'}}"))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return arch, view
 

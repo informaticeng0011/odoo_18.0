@@ -37,7 +37,10 @@ class TestWebsiteRedirect(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with self.assertRaises(ValidationError) as error:
@@ -59,6 +62,9 @@ class TestWebsiteRedirect(TransactionCase):
         self.assertIn("should not be same", str(error.exception))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

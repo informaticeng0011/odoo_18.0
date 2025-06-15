@@ -79,6 +79,10 @@ class TestAddToCartSnippet(HttpCase):
             'zip': 1367,
             'country_id': self.env.ref('base.be').id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'phone': "+32 123456789"
+>>>>>>> upstream/18.0
 =======
             'phone': "+32 123456789"
 >>>>>>> upstream/18.0
