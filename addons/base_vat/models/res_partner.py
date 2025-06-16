@@ -171,6 +171,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # In Romania, the CUI can be used as tax identifier and it is not prefixed with the country code
+        country_codes_to_not_prepend = ['RO']
+>>>>>>> upstream/18.0
 =======
         # In Romania, the CUI can be used as tax identifier and it is not prefixed with the country code
         country_codes_to_not_prepend = ['RO']
@@ -196,8 +201,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if vat[:2] != country_code:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211,6 +219,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -361,6 +372,7 @@ class ResPartner(models.Model):
         tin1 = self.__check_tin1_ro_natural_persons.match(vat)
         if tin1:
             return True
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,6 +578,9 @@ class ResPartner(models.Model):
 =======
         tin2 = self.__check_tin2_ro_natural_persons.match(vat)
 >>>>>>> upstream/18.0
+=======
+        tin2 = self.__check_tin2_ro_natural_persons.match(vat)
+>>>>>>> upstream/18.0
         if tin2:
             return True
         # Check the vat number
@@ -615,7 +630,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -740,6 +758,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

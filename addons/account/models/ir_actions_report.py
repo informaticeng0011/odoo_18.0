@@ -75,7 +75,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return report.is_invoice_report or report.report_name == 'account.report_invoice'
+=======
+        return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
+>>>>>>> upstream/18.0
 =======
         return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
 >>>>>>> upstream/18.0

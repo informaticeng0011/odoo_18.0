@@ -32,7 +32,10 @@ that have no counterpart in the general financial accounts.
             'analytic/static/src/services/**/*',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'analytic/static/src/views/**/*',
@@ -43,6 +46,9 @@ that have no counterpart in the general financial accounts.
             'analytic/static/src/views/graph/**',
             'analytic/static/src/views/pivot/**',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

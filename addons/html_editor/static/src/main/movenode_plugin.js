@@ -104,7 +104,11 @@ export class MoveNodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (entry.isIntersecting) {
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
 =======
             if (entry.isIntersecting && element.isConnected) {
 >>>>>>> upstream/18.0

@@ -13,8 +13,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, time
 from collections import defaultdict
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -190,6 +194,7 @@ class HrEmployee(models.Model):
 
         return self.env['hr.leave.mandatory.day'].search(domain)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +415,8 @@ class HrEmployee(models.Model):
 
         return (allocations_leaves_consumed, to_recheck_leaves_per_leave_type)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

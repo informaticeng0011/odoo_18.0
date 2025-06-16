@@ -341,7 +341,11 @@ function methods(_class) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const allowedFns = new Set([
+=======
+export const allowedFns = new Set([
+>>>>>>> upstream/18.0
 =======
 export const allowedFns = new Set([
 >>>>>>> upstream/18.0

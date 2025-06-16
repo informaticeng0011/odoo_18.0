@@ -95,6 +95,10 @@ def MockRequest(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            force_website_id=website and website.id,
+>>>>>>> upstream/18.0
 =======
             force_website_id=website and website.id,
 >>>>>>> upstream/18.0

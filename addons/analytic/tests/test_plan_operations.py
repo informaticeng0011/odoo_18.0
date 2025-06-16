@@ -23,7 +23,10 @@ class TestAnalyticPlanOperations(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_delete_subplan(self):
@@ -63,6 +66,9 @@ class TestAnalyticPlanOperations(TransactionCase):
         self.assertTrue(plan._find_related_field('account.analytic.line'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

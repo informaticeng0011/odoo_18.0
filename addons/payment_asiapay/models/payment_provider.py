@@ -46,6 +46,10 @@ class PaymentProvider(models.Model):
     def _limit_available_currency_ids(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowed_codes = set(const.CURRENCY_MAPPING.keys())
+>>>>>>> upstream/18.0
 =======
         allowed_codes = set(const.CURRENCY_MAPPING.keys())
 >>>>>>> upstream/18.0
@@ -58,7 +62,10 @@ class PaymentProvider(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             unsupported_currency_codes = [
@@ -73,6 +80,9 @@ class PaymentProvider(models.Model):
                 ))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

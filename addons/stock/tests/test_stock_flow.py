@@ -2253,7 +2253,10 @@ class TestStockFlow(TestStockCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_scrap_tracked_product_without_lot(self):
@@ -2279,6 +2282,9 @@ class TestStockFlow(TestStockCommon):
         self.assertEqual(scrap.move_ids.state, 'done')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -6,6 +6,10 @@ from odoo import fields, Command
 from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from itertools import product
+>>>>>>> upstream/18.0
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -193,7 +197,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @classmethod
@@ -203,6 +210,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1841,6 +1851,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -1863,6 +1874,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_payment_with_branch(self):
@@ -1900,6 +1913,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
                 'name': f'{branch.name} journal',
                 'type': 'bank',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1907,6 +1923,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             branch_invoices |= self.init_invoice('out_invoice', products=self.product_a, company=branch)
 
         parent_invoice = self.init_invoice('out_invoice', products=self.product_a)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         (branch_invoices | parent_invoice).action_post()
@@ -2000,6 +2017,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         other_company_invoice = self.init_invoice('out_invoice', products=self.product_a, company=company_2)
@@ -2100,6 +2119,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
         test_register_payment_flow(cases)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2163,6 +2185,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

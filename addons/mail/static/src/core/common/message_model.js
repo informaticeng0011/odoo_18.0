@@ -269,7 +269,10 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -336,6 +339,9 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -388,7 +394,11 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.store.self.in(this.recipients);
+=======
+        return this.selves.some((s) => s.in(this.recipients));
+>>>>>>> upstream/18.0
 =======
         return this.selves.some((s) => s.in(this.recipients));
 >>>>>>> upstream/18.0
@@ -464,7 +474,11 @@ export class Message extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.author.eq(this.store.self);
+=======
+            return this.author.in(this.selves);
+>>>>>>> upstream/18.0
 =======
             return this.author.in(this.selves);
 >>>>>>> upstream/18.0

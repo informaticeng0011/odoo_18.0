@@ -151,7 +151,11 @@ test("two radio field with same selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.color_2 = Partner._fields.color;
+=======
+    Partner._fields.color_2 = { ...Partner._fields.color };
+>>>>>>> upstream/18.0
 =======
     Partner._fields.color_2 = { ...Partner._fields.color };
 >>>>>>> upstream/18.0

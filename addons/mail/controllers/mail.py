@@ -22,7 +22,10 @@ class MailController(http.Controller):
     @classmethod
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _redirect_to_generic_fallback(cls, model, res_id, access_token=None, **kwargs):
@@ -34,6 +37,9 @@ class MailController(http.Controller):
 
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44,7 +50,10 @@ class MailController(http.Controller):
     @classmethod
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _redirect_to_login_with_mail_view(cls, model, res_id, access_token=None, **kwargs):
@@ -62,6 +71,9 @@ class MailController(http.Controller):
 
     @classmethod
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79,7 +91,11 @@ class MailController(http.Controller):
             _logger.warning('Invalid token in route %s', request.httprequest.url)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return comparison, None, cls._redirect_to_messaging()
+=======
+            return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -92,7 +108,11 @@ class MailController(http.Controller):
             record = None
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             redirect = cls._redirect_to_messaging()
+=======
+            redirect = cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             redirect = cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -115,7 +135,13 @@ class MailController(http.Controller):
         if not model or not res_id or model not in request.env:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -134,7 +160,13 @@ class MailController(http.Controller):
             # record does not seem to exist -> redirect to login
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -152,7 +184,13 @@ class MailController(http.Controller):
             if not RecordModel.with_user(uid).has_access('read'):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -189,7 +227,13 @@ class MailController(http.Controller):
             except AccessError:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -204,6 +248,7 @@ class MailController(http.Controller):
                 record_action = record_sudo._get_access_action(access_uid=uid)
         else:
             record_action = record_sudo._get_access_action()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if suggested_company:
@@ -225,12 +270,17 @@ class MailController(http.Controller):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # we have an act_url (probably a portal link): we need to retry being logged to check access
             if record_action['type'] == 'ir.actions.act_url' and record_action.get('target_type') != 'public':
                 return cls._redirect_to_login_with_mail_view(
                     model, res_id, access_token=access_token, **kwargs,
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -241,11 +291,14 @@ class MailController(http.Controller):
             return request.redirect(record_action['url'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # other choice: act_window (no support of anything else currently)
         elif not record_action['type'] == 'ir.actions.act_window':
             return cls._redirect_to_messaging()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # anything else than an act_window is not supported
@@ -264,6 +317,9 @@ class MailController(http.Controller):
                 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -278,7 +334,11 @@ class MailController(http.Controller):
             request.future_response.set_cookie('cids', '-'.join([str(cid) for cid in cids]))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -291,7 +351,11 @@ class MailController(http.Controller):
         model_in_url = model if "." in model else "m-" + model
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params)}'
+=======
+        url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
+>>>>>>> upstream/18.0
 =======
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
 >>>>>>> upstream/18.0

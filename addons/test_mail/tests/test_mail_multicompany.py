@@ -408,7 +408,11 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @tagged('-at_install', 'post_install', 'multi_company')
+=======
+@tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
+>>>>>>> upstream/18.0
 =======
 @tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
 >>>>>>> upstream/18.0
@@ -451,8 +455,12 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                     self.assertEqual(path, '/web/login')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.assertTrue('cids' in response.request._cookies)
                     self.assertEqual(response.request._cookies.get('cids'), str(mc_record.company_id.id))
+=======
+                    self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
 =======
                     self.assertNotIn('cids', response.request._cookies)
 >>>>>>> upstream/18.0
@@ -536,6 +544,7 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # when being not logged, cids should be added based on
         # '_get_redirect_suggested_company'
         for test_record in nothreads:
@@ -545,12 +554,17 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # when being not logged, cids should not be added as redirection after
         # logging will be 'mail/view' again
         for test_record in nothreads:
             with self.subTest(record_name=test_record.name):
                 self.authenticate(None, None)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -559,6 +573,7 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
                     timeout=15
                 )
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -574,6 +589,8 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 self.assertNotIn('cids', response.request._cookies)
 
 
@@ -581,6 +598,9 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
 class TestMultiCompanyThreadData(MailCommon, HttpCase):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -23,7 +23,10 @@ export class TestsSharedJsPython extends Component {
         if (params.test === "taxes_computation") {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             let filter_tax_function = null;
@@ -32,6 +35,9 @@ export class TestsSharedJsPython extends Component {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41,6 +47,10 @@ export class TestsSharedJsPython extends Component {
                 rounding_method: params.rounding_method,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                filter_tax_function: filter_tax_function,
+>>>>>>> upstream/18.0
 =======
                 filter_tax_function: filter_tax_function,
 >>>>>>> upstream/18.0

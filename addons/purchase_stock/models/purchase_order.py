@@ -130,7 +130,11 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         action['views'][0] = (kanban_view_id, 'kanban')
+=======
+        action['views'] = [(kanban_view_id, view_type) if view_type == 'kanban' else (view_id, view_type) for (view_id, view_type) in action['views']]
+>>>>>>> upstream/18.0
 =======
         action['views'] = [(kanban_view_id, view_type) if view_type == 'kanban' else (view_id, view_type) for (view_id, view_type) in action['views']]
 >>>>>>> upstream/18.0
@@ -370,9 +374,12 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.dest_address_id and self.picking_type_id.code == 'dropship':
             return self.dest_address_id.property_stock_customer
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -530,6 +537,9 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -670,9 +680,14 @@ class PurchaseOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_warehouse = self.env['stock.warehouse'].search([('company_id', '=', company_id)], limit=1)
         if not company_warehouse:
             self.env['stock.warehouse']._warehouse_redirect_warning()
+=======
+        if not picking_type:
+            picking_type = self.env['stock.picking.type'].with_context(active_test=False).search([('code', '=', 'incoming'), ('warehouse_id', '=', False)])
+>>>>>>> upstream/18.0
 =======
         if not picking_type:
             picking_type = self.env['stock.picking.type'].with_context(active_test=False).search([('code', '=', 'incoming'), ('warehouse_id', '=', False)])

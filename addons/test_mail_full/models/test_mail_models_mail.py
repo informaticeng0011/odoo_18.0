@@ -43,7 +43,10 @@ class MailTestPortalNoPartner(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 class MailTestPortalPublicAccessAction(models.Model):
@@ -71,6 +74,9 @@ class MailTestPortalPublicAccessAction(models.Model):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

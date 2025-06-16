@@ -110,7 +110,11 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.iframeRef.el.contentDocument;
+=======
+        return this.iframeRef.el?.contentDocument;
+>>>>>>> upstream/18.0
 =======
         return this.iframeRef.el?.contentDocument;
 >>>>>>> upstream/18.0

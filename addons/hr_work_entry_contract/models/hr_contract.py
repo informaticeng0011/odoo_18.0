@@ -21,7 +21,11 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, Command, fields, models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, fields, models, _
 >>>>>>> upstream/18.0
@@ -253,6 +257,7 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if contract.has_static_work_entries() or not leaves:
                 # Empty leaves means empty real_leaves
                 real_leaves = attendances - real_attendances
@@ -260,6 +265,8 @@ class HrContract(models.Model):
                 # If fully flexible working schedule is defined
                 real_leaves = leaves
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -310,6 +317,9 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -611,12 +621,15 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_ids': [(4, self.employee_id.id)],
                 'date_from': date_from,
                 'date_to': date_to,
             })
             wizard.with_context(work_entry_skip_validation=True).regenerate_work_entries()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -658,6 +671,9 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -10,10 +10,13 @@ import { cleanLinkArtifacts } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame, pointerDown, pointerUp, queryOne, waitFor } from "@odoo/hoot-dom";
 import { dispatchNormalize } from "../_helpers/dispatch";
 import { nodeSize } from "@html_editor/utils/position";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30,6 +33,9 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99,8 +105,12 @@ test("should delete the content from the link when popover is active", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-linkpopover");
     expect(".o-we-linkpopover").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0

@@ -33,6 +33,7 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         event_ids = list(set(event_id for event_ids in events_by_alarm.values() for event_id in event_ids))
         events = self.env['calendar.event'].browse(event_ids)
         alarms = self.env['calendar.alarm'].browse(events_by_alarm.keys())
@@ -43,6 +44,8 @@ class AlarmManager(models.AbstractModel):
                 next_date = event.get_next_alarm_date(events_by_alarm)
                 event.recurrence_id.with_context(date=next_date)._setup_alarms()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100,6 +103,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

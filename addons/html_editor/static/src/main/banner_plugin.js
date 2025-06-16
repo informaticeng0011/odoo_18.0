@@ -55,6 +55,10 @@ import { withSequence } from "@html_editor/utils/resource";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { htmlEscape } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { htmlEscape } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -353,7 +357,13 @@ export class BannerPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${title}">${emoji}</i>
+=======
+                <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${htmlEscape(
+                    title
+                )}">${emoji}</i>
+>>>>>>> upstream/18.0
 =======
                 <i class="o_editor_banner_icon mb-3 fst-normal" data-oe-aria-label="${htmlEscape(
                     title

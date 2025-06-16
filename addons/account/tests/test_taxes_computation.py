@@ -45,7 +45,10 @@ class TestTaxesComputation(TestTaxCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_taxes_filtering(self):
@@ -66,6 +69,9 @@ class TestTaxesComputation(TestTaxCommon):
         self._run_js_tests()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

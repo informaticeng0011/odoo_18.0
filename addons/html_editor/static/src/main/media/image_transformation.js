@@ -53,7 +53,10 @@ export class ImageTransformation extends Component {
         useExternalListener(window, "mouseup", this.mouseUp);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // When a character key is pressed and the image gets deleted,
@@ -67,6 +70,9 @@ export class ImageTransformation extends Component {
             }
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
