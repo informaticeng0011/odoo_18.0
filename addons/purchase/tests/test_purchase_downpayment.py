@@ -114,7 +114,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228,6 +231,7 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -278,6 +282,8 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -300,6 +306,9 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
         self.assertEqual(po_dp_line.price_unit, 66.67)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -11,10 +11,13 @@ class AccountPayment(models.Model):
     force_outstanding_account_id = fields.Many2one("account.account", "Forced Outstanding Account", check_company=True)
     pos_session_id = fields.Many2one('pos.session', "POS Session")
 
+<<<<<<< HEAD
     def _get_valid_liquidity_accounts(self):
         result = super()._get_valid_liquidity_accounts()
         return result | self.pos_payment_method_id.outstanding_account_id
 
+=======
+>>>>>>> upstream/18.0
     @api.depends("force_outstanding_account_id")
     def _compute_outstanding_account_id(self):
         """When force_outstanding_account_id is set, we use it as the outstanding_account_id."""

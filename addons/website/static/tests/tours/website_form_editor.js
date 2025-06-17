@@ -389,13 +389,37 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         trigger: 'we-list table input:eq(0)',
         run: "edit Germany",
     }, {
+<<<<<<< HEAD
+=======
+        content: "Check that the label has been changed on the snippet",
+        trigger: ":iframe .s_website_form_field.s_website_form_custom.s_website_form_required" +
+            ":has(option:contains('Germany'))",
+        run: function () {},
+    }, {
+>>>>>>> upstream/18.0
         content: "Change Option 2 Label",
         trigger: 'we-list table input:eq(1)',
         run: "edit Belgium",
     }, {
+<<<<<<< HEAD
         content: "Change first Option 3 label",
         trigger: 'we-list table input:eq(2)',
         run: "edit France",
+=======
+        content: "Check that the label has been changed on the snippet",
+        trigger: ":iframe .s_website_form_field.s_website_form_custom.s_website_form_required" +
+            ":has(option:contains('Belgium'))",
+        run: function () {},
+    }, {
+        content: "Change first Option 3 label",
+        trigger: 'we-list table input:eq(2)',
+        run: "edit France",
+    }, {
+        content: "Check that the label has been changed on the snippet",
+        trigger: ":iframe .s_website_form_field.s_website_form_custom.s_website_form_required" +
+            ":has(option:contains('France'))",
+        run: function () {},
+>>>>>>> upstream/18.0
     },
     {
         // TODO: Fix code to avoid this behavior
@@ -416,15 +440,37 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     },
     {
         content: "Change last Option label",
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
         // TODO: Fix code to avoid blur event
         run: "edit Canada",
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+        // TODO: Fix code to avoid blur event
+        run: "edit Canada",
+    },
+    {
+        content: "Check that the label has been changed on the snippet",
+        trigger: ":iframe .s_website_form_field.s_website_form_custom.s_website_form_required" +
+            ":has(option:contains('Canada'))",
+        run: function () {},
+>>>>>>> upstream/18.0
     }, {
         content: "Remove Germany Option",
         trigger: '.o_we_select_remove_option:eq(0)',
         run: "click",
     },
     {
+<<<<<<< HEAD
+=======
+        content: "Check that the Germany option was removed",
+        trigger: ":iframe .s_website_form_field.s_website_form_custom.s_website_form_required" +
+            ":has(label:contains('State'))" +
+            ":not(:has(option:contains('Germany')))",
+        run: function () {},
+    },
+    {
+>>>>>>> upstream/18.0
         // TODO: Fix code to avoid this behavior
         content: "Click outside focused element before click on add new checkbox otherwise button does'nt work",
         trigger: "we-list we-title",
@@ -436,7 +482,11 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         run: "click",
     }, {
         content: "Change last option label with a number",
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+>>>>>>> upstream/18.0
         run: "edit 44 - UK",
     }, {
         content: "Check that the input value is the full option value",

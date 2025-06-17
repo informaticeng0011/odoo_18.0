@@ -117,3 +117,10 @@ class Proxy(metaclass=ProxyMeta):
         :param instance: The instance of the class to be wrapped.
         """
         object.__setattr__(self, "_wrapped__", instance)
+<<<<<<< HEAD
+=======
+
+    @property
+    def __class__(self):
+        return type(self)._wrapped__
+>>>>>>> upstream/18.0

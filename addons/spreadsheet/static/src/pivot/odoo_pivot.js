@@ -151,6 +151,10 @@ export class OdooPivot {
 
     async loadMetadata() {
         this._fields = await this.loader.getFields(this.coreDefinition.model);
+<<<<<<< HEAD
+=======
+        await this._loadPropertiesDefinitions();
+>>>>>>> upstream/18.0
     }
 
     async getModelLabel() {
@@ -455,6 +459,34 @@ export class OdooPivot {
         return this.loader.assertIsValid({ throwOnError });
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @private
+     */
+    async _loadPropertiesDefinitions() {
+        // properties are fake fields with the shape "<property_field>.<uuid>"
+        const orm = this.odooDataProvider.orm;
+        const properties = this.coreDefinition.rows
+            .concat(this.coreDefinition.columns)
+            .filter((dimension) => dimension.fieldName.includes("."));
+        await Promise.all(
+            properties.map((dimension) =>
+                orm
+                    .call(this.coreDefinition.model, "get_property_definition", [
+                        dimension.fieldName,
+                    ])
+                    .then((propertyDefinition) => {
+                        this._fields[dimension.fieldName] = {
+                            ...propertyDefinition,
+                            name: dimension.fieldName,
+                        };
+                    })
+            )
+        );
+    }
+
+>>>>>>> upstream/18.0
     //--------------------------------------------------------------------------
     // Global filters
     //--------------------------------------------------------------------------

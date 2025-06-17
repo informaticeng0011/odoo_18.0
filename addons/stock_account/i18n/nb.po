@@ -6,14 +6,21 @@
 # Lars Aam <lars.aam@vikenfiber.no>, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
 # Jorunn D. Newth, 2024
+<<<<<<< HEAD
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Martin Trigaux, 2024
 # Rune Restad, 2025
+=======
+# Martin Trigaux, 2024
+# Rune Restad, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +176,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Rune Restad, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -732,7 +744,11 @@ msgid ""
 "        "
 msgstr ""
 "Manuell: Regnskapsoppføringene for å verdsette varelageret blir ikke postet automatisk. \n"
+<<<<<<< HEAD
 "           Automatisk: En regnskapsoppføring opprettes automatisk for å verdsette varelageret når et produkt kommer inn i eller forlater selskapet."
+=======
+"           Automatisk: En regnskapsoppføring opprettes automatisk for å verdsette varelageret når et produkt kommer inn i eller forlater firmaet."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value
@@ -919,7 +935,11 @@ msgid ""
 msgstr ""
 "Standardpris: Produktene verdsettes til den standardkostnaden som er definert for produktet. \n"
 "        Gjennomsnittlig kostnad (AVCO): Produktene verdsettes til veid gjennomsnittlig kostnad. \n"
+<<<<<<< HEAD
 "        Først inn, først ut (FIFO): Produktene verdsettes med antakelsen om at de som kommer inn i selskapet først, også vil forlate det først."
+=======
+"        Først inn, først ut (FIFO): Produktene verdsettes med antakelsen om at de som kommer inn i firmaet først, også vil forlate det først."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_stock_accounting_automatic
@@ -1006,8 +1026,13 @@ msgid ""
 "Technical field to correctly show the currently selected company's currency "
 "that corresponds to the totaled value of the product's valuation layers"
 msgstr ""
+<<<<<<< HEAD
 "Teknisk felt for å vise riktig den valgte selskapets valuta som samsvarer "
 "med den totalte verdien av produktets verdilag."
+=======
+"Teknisk felt for å vise riktig den valgte firmaets valuta som samsvarer med "
+"den totalte verdien av produktets verdilag."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_picking__country_code
@@ -1052,7 +1077,11 @@ msgid ""
 "are leaving the company."
 msgstr ""
 "Flyttelinjene er ikke i en konsekvent tilstand: noen er på vei inn i "
+<<<<<<< HEAD
 "selskapet, mens andre er på vei ut."
+=======
+"firmaet, mens andre er på vei ut."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -1074,7 +1103,11 @@ msgid ""
 "origin or destination company."
 msgstr ""
 "Flyttelinjene er ikke i en konsekvent tilstand: de deler ikke samme "
+<<<<<<< HEAD
 "opprinnelse eller destinasjonsselskap."
+=======
+"opprinnelse eller destinasjonsfirma."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -1390,6 +1423,10 @@ msgstr "Veiviser-modell for å revurdere lagerbeholdningen for et produkt."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0

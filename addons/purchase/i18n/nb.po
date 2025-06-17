@@ -12,14 +12,21 @@
 # Jorunn D. Newth, 2024
 # Lars Aam <lars.aam@vikenfiber.no>, 2024
 # Henning Fyllingsnes, 2024
+<<<<<<< HEAD
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Rune Restad, 2025
 # Martin Trigaux, 2025
+=======
+# Rune Restad, 2025
+# Martin Trigaux, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +114,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -453,7 +465,10 @@ msgstr "<strong class=\"d-block mb-1\">Fakturaer</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -524,6 +539,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -660,6 +678,7 @@ msgstr "<strong>Forespørsel om tilbud dato:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Leveringsadresse:</strong>"
@@ -670,6 +689,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2166,7 +2187,11 @@ msgstr "Antall handlinger"
 #: model:ir.model.fields,help:purchase.field_res_partner__reminder_date_before_receipt
 #: model:ir.model.fields,help:purchase.field_res_users__reminder_date_before_receipt
 msgid "Number of days to send reminder email before the promised receipt date"
+<<<<<<< HEAD
 msgstr "Antall dager for å sende påminnelsesepost før lovet mottaksdato"
+=======
+msgstr "Antall dager for å sende påminnelsese-post før lovet mottaksdato"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_error_counter
@@ -2855,7 +2880,11 @@ msgstr "Vurderinger"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Re-Send by Email"
+<<<<<<< HEAD
 msgstr "Send på nytt med epost"
+=======
+msgstr "Send på nytt med e-post"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
@@ -2872,7 +2901,11 @@ msgstr "Mottakspåminnelse"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__receipt_reminder_email
 msgid "Receipt Reminder Email"
+<<<<<<< HEAD
 msgstr "Mottakspåminnelse epost"
+=======
+msgstr "Mottakspåminnelse e-post"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -3679,7 +3712,11 @@ msgstr "Bruker"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Variant Grid Entry"
+<<<<<<< HEAD
 msgstr "Variant gitter-innføring"
+=======
+msgstr "Variantmatrise"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__partner_id
@@ -3911,8 +3948,13 @@ msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
+<<<<<<< HEAD
 "Tilbudet ditt inneholder produkter fra selskapet %(product_company)s, mens tilbudet ditt tilhører selskapet %(quote_company)s.\n"
 " Vennligst endre selskapet til tilbudet ditt eller fjern produktene fra andre selskaper (%(bad_products)s)."
+=======
+"Tilbudet ditt inneholder produkter fra firmaet %(product_company)s, mens tilbudet ditt tilhører firmaet %(quote_company)s.\n"
+" Vennligst endre firmaet til tilbudet ditt eller fjern produktene fra andre firmaer (%(bad_products)s)."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order

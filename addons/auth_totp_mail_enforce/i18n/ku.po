@@ -76,18 +76,30 @@ msgstr ""
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__res_config_settings__auth_totp_policy__all_required
 msgid "All users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "هەموو بەکارهێنەران"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #. odoo-python
 #: code:addons/auth_totp_mail_enforce/models/res_users.py:0
 msgid "Cannot send email: user %s has no email address."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ناتوانرێت ئیمەیڵ بنێردرێت: بەکارهێنەر %s هیچ ناونیشانێکی ئیمەیڵی نییە."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__auth_totp_rate_limit_log__limit_type__code_check
 msgid "Code Checking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پشکنینی کۆد"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model,name:auth_totp_mail_enforce.model_res_config_settings
@@ -157,7 +169,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -402,7 +418,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دروستکراوە لە"
+>>>>>>> upstream/18.0
 =======
 msgstr "دروستکراوە لە"
 >>>>>>> upstream/18.0
@@ -592,7 +612,11 @@ msgstr ""
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__res_config_settings__auth_totp_policy__employee_required
 msgid "Employees only"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تەنها کارمەندان"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.res_config_settings_view_form
@@ -643,7 +667,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -785,7 +813,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لەلایەن..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لەلایەن..."
 >>>>>>> upstream/18.0
@@ -922,7 +954,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دوایین نوێکردنەوە لە..."
+>>>>>>> upstream/18.0
 =======
 msgstr "دوایین نوێکردنەوە لە..."
 >>>>>>> upstream/18.0
@@ -1026,27 +1062,47 @@ msgstr "دوایین نوێکردنەوە لە..."
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid "Learn More"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "زیاتر بزانە"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__limit_type
 msgid "Limit Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جۆری سنووردارکردن"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid "Re-send email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "دووبارە ئیمەیڵ بنێرە"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields,field_description:auth_totp_mail_enforce.field_auth_totp_rate_limit_log__scope
 msgid "Scope"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مەودا"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:ir.model.fields.selection,name:auth_totp_mail_enforce.selection__auth_totp_rate_limit_log__limit_type__send_email
 msgid "Send Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ئیمەیڵ بنێرە"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:mail.template,name:auth_totp_mail_enforce.mail_template_totp_mail_code
@@ -1073,7 +1129,11 @@ msgstr "بەکارهێنەر"
 #. odoo-python
 #: code:addons/auth_totp_mail_enforce/models/res_users.py:0
 msgid "Verification failed, please double-check the 6-digit code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "پشتڕاستکردنەوە شکستی هێنا، تکایە دووجار کۆدی 6 ژمارەیی بپشکنە"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
@@ -1092,7 +1152,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/auth_totp_mail_enforce/models/res_users.py:0
 msgid "You reached the limit of code verifications for your account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "گەیشتووی بە سنووری پشتڕاستکردنەوەی کۆدەکان بۆ ئەکاونتەکەت"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model:mail.template,subject:auth_totp_mail_enforce.mail_template_totp_mail_code

@@ -74,6 +74,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -375,7 +379,12 @@ class AccountPayment(models.Model):
             self.journal_id.default_account_id |
             self.payment_method_line_id.payment_account_id |
             self.journal_id.inbound_payment_method_line_ids.payment_account_id |
+<<<<<<< HEAD
             self.journal_id.outbound_payment_method_line_ids.payment_account_id
+=======
+            self.journal_id.outbound_payment_method_line_ids.payment_account_id |
+            self.outstanding_account_id
+>>>>>>> upstream/18.0
         )
 
     def _get_aml_default_display_name_list(self):
@@ -519,7 +528,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
 =======
             if not bool(payment._origin) and (partner or payment_type):
 >>>>>>> upstream/18.0
@@ -612,11 +625,14 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -682,6 +698,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -793,7 +812,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if move.currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) else
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
+>>>>>>> upstream/18.0
 =======
                     if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not liquidity.account_id.reconcile else
 >>>>>>> upstream/18.0
@@ -1027,7 +1050,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     from_amount=payment.amount,
+=======
+                    from_amount=payment.amount_signed,
+>>>>>>> upstream/18.0
 =======
                     from_amount=payment.amount_signed,
 >>>>>>> upstream/18.0
@@ -1588,6 +1615,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -1833,6 +1864,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0
@@ -2026,6 +2061,7 @@ class AccountPayment(models.Model):
         need_move = self.filtered(lambda p: not p.move_id and p.outstanding_account_id)
         assert len(self) == 1 or (not write_off_line_vals and not force_balance and not line_ids)
 
+<<<<<<< HEAD
         move_vals = []
         for pay in need_move:
             move_vals.append({
@@ -2046,10 +2082,41 @@ class AccountPayment(models.Model):
                 ],
                 'origin_payment_id': pay.id,
             })
+=======
+        move_vals = [
+            pay._generate_move_vals(write_off_line_vals, force_balance, line_ids)
+            for pay in need_move
+        ]
+>>>>>>> upstream/18.0
         moves = self.env['account.move'].create(move_vals)
         for pay, move in zip(need_move, moves):
             pay.write({'move_id': move.id, 'state': 'in_process'})
 
+<<<<<<< HEAD
+=======
+    def _generate_move_vals(self, write_off_line_vals=None, force_balance=None, line_ids=None):
+        """ Prepare the values needed to create a move for self. """
+        self.ensure_one()
+        return {
+            'move_type': 'entry',
+            'ref': self.memo,
+            'date': self.date,
+            'journal_id': self.journal_id.id,
+            'company_id': self.company_id.id,
+            'partner_id': self.partner_id.id,
+            'currency_id': self.currency_id.id,
+            'partner_bank_id': self.partner_bank_id.id,
+            'line_ids': line_ids or [
+                Command.create(line_vals)
+                for line_vals in self._prepare_move_line_default_vals(
+                    write_off_line_vals=write_off_line_vals,
+                    force_balance=force_balance,
+                )
+            ],
+            'origin_payment_id': self.id,
+        }
+
+>>>>>>> upstream/18.0
     def _get_payment_receipt_report_values(self):
         """ Get the extra values when rendering the Payment Receipt PDF report.
 

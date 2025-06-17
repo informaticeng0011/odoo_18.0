@@ -25,6 +25,10 @@ from odoo.tools import plaintext2html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -237,7 +241,10 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303,6 +310,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373,6 +383,7 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         now = fields.Datetime.now()
         self.env.cr.execute('''
             SELECT "alarm"."id", "event"."id"
@@ -388,6 +399,8 @@ class AlarmManager(models.AbstractModel):
                AND "event"."start" - CAST("alarm"."duration" || ' ' || "alarm"."interval" AS Interval) < %s
              )''', [alarm_type, lastcall, now])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -465,6 +478,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

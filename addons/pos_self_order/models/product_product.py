@@ -79,7 +79,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params += ['public_description']
+=======
+        params += ['public_description', 'list_price']
+>>>>>>> upstream/18.0
 =======
         params += ['public_description', 'list_price']
 >>>>>>> upstream/18.0
@@ -231,7 +235,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain = self._load_pos_data_domain(data)
+=======
+        domain = self._load_pos_self_data_domain(data)
+>>>>>>> upstream/18.0
 =======
         domain = self._load_pos_self_data_domain(data)
 >>>>>>> upstream/18.0

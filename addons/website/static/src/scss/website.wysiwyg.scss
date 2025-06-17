@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 @each $font-name, $font-config in $o-theme-font-configs {
     $url: map-get($font-config, 'url');
     @if $url {
@@ -12,6 +13,8 @@
     }
 }
 
+=======
+>>>>>>> upstream/18.0
 #oe_snippets {
     top: 0;
     .oe-toolbar {

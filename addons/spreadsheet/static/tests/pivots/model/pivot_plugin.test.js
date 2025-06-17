@@ -40,6 +40,10 @@ import { THIS_YEAR_GLOBAL_FILTER } from "@spreadsheet/../tests/helpers/global_fi
 
 import * as spreadsheet from "@odoo/o-spreadsheet";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
+<<<<<<< HEAD
+=======
+import { Partner, Product } from "../../helpers/data";
+>>>>>>> upstream/18.0
 const { toZone } = spreadsheet.helpers;
 
 describe.current.tags("headless");
@@ -2086,3 +2090,56 @@ test("Can change display type of a measure", async function () {
         A5: "Total",  B5: "",             C5: "",             D5: "",
     });
 });
+<<<<<<< HEAD
+=======
+
+test("can group by property", async () => {
+    Product._records = [
+        {
+            id: 1,
+            properties_definitions: [{ name: "dbfc", type: "char", string: "prop 1" }],
+        },
+    ];
+    Partner._records = [
+        {
+            product_id: 1,
+            partner_properties: {
+                dbfc: "hello",
+            },
+        },
+    ];
+    onRpc("partner", "get_property_definition", () => ({
+        name: "dbfc",
+        type: "char",
+        string: "prop 1",
+    }));
+    onRpc("partner", "read_group", ({ kwargs }) => {
+        // the generic mock server doesn't support group by properties
+        if (kwargs.groupby?.includes("partner_properties.dbfc")) {
+            return [
+                {
+                    "partner_properties.dbfc": "hello",
+                    __domain: [["partner_properties.dbfc", "=", "hello"]],
+                    __count: 1,
+                },
+            ];
+        }
+    });
+    const { model } = await createSpreadsheetWithPivot();
+    const pivotId = model.getters.getPivotIds()[0];
+    updatePivot(model, pivotId, {
+        rows: [],
+        columns: [{ fieldName: "partner_properties.dbfc" }],
+        measures: [{ id: "__count:sum", fieldName: "__count" }],
+    });
+    setCellContent(model, "A1", '=PIVOT.HEADER(1, "partner_properties.dbfc", "hello")');
+    setCellContent(
+        model,
+        "A2",
+        '=PIVOT.VALUE(1, "__count:sum", "partner_properties.dbfc", "hello")'
+    );
+    await waitForDataLoaded(model);
+    expect(getEvaluatedCell(model, "A1").value).toBe("hello");
+    expect(getEvaluatedCell(model, "A2").value).toBe(1);
+});
+>>>>>>> upstream/18.0

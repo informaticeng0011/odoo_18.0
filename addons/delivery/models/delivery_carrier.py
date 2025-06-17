@@ -184,7 +184,14 @@ class DeliveryCarrier(models.Model):
 
     def _match_must_have_tags(self, order):
         self.ensure_one()
+<<<<<<< HEAD
         return all(tag in order.order_line.product_id.all_product_tag_ids for tag in self.must_have_tag_ids)
+=======
+        return not self.must_have_tag_ids or any(
+            tag in order.order_line.product_id.all_product_tag_ids
+            for tag in self.must_have_tag_ids
+        )
+>>>>>>> upstream/18.0
 
     def _match_excluded_tags(self, order):
         self.ensure_one()

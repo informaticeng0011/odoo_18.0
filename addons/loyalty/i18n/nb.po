@@ -6,19 +6,33 @@
 # Lars Petter Lilleng, 2024
 # Thor Arne Hvidsten <thor.arne.hvidsten@gmail.com>, 2024
 # Lars Aam <lars.aam@vikenfiber.no>, 2024
+<<<<<<< HEAD
 # Jorunn D. Newth, 2024
 # Martin Trigaux, 2024
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Rune Restad, 2024
 # Henning Fyllingsnes, 2024
+=======
+# Henning Fyllingsnes, 2024
+# Jorunn D. Newth, 2024
+# Martin Trigaux, 2024
+# Rune Restad, 2024
+# Marius Stedjan <marius@stedjan.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Henning Fyllingsnes, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-30 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -183,7 +197,11 @@ msgstr ""
 "                </div>\n"
 "                <div style=\"padding:0; margin:0px; padding-top:35px; padding-bottom:35px; background-color:#efefef; text-align:center;\">\n"
 "                    <p style=\"margin:0px; font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:21px; color:#333333\">\n"
+<<<<<<< HEAD
 "                        <strong>Gavekort korde</strong>\n"
+=======
+"                        <strong>Gavekort-kode</strong>\n"
+>>>>>>> upstream/18.0
 "                    </p>\n"
 "                    <p style=\"margin:0px; font-size:25px;font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:38px; color:#A9A9A9\" t-out=\"object.code or ''\">4f10-15d6-41b7-b04c-7b3e</p>\n"
 "                </div>\n"
@@ -1079,12 +1097,15 @@ msgid "Generate eWallet"
 msgstr ""
 
 #. module: loyalty
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "Generate {{props.context.program_item_name}}"
 msgstr ""
 
 #. module: loyalty
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
@@ -1916,8 +1937,14 @@ msgid "Trigger"
 msgstr "Utløser"
 
 #. module: loyalty
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Untaxed discount"
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "Unsupported search operator"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: loyalty
@@ -2205,13 +2232,24 @@ msgid "usages"
 msgstr ""
 
 #. module: loyalty
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr ""
+
+#. module: loyalty
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "your order"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/xml/loyalty_templates.xml:0
 msgid "{{loyalty_el_title}}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0

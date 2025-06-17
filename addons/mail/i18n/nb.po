@@ -12,15 +12,23 @@
 # Lars Aam <lars.aam@vikenfiber.no>, 2024
 # Henning Fyllingsnes, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Rune Restad, 2025
 # Jorunn D. Newth, 2025
 # Wil Odoo, 2025
+=======
+# Rune Restad, 2025
+# Jorunn D. Newth, 2025
+# Wil Odoo, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +184,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"POT-Creation-Date: 2025-05-14 20:47+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -246,7 +259,11 @@ msgid ""
 "%(email)s is not recognized as a valid email. This is required to create a "
 "new customer."
 msgstr ""
+<<<<<<< HEAD
 "%(email)s er ikke godkjent som en gyldig epost. Dette er påkrevd for å "
+=======
+"%(email)s er ikke godkjent som en gyldig e-post. Dette er påkrevd for å "
+>>>>>>> upstream/18.0
 "opprette ny kunde."
 
 #. module: mail
@@ -378,7 +395,11 @@ msgstr "%(user_name)s festet en pin på en melding i denne kanalen."
 #. odoo-python
 #: code:addons/mail/models/ir_mail_server.py:0
 msgid "%s (Email Template)"
+<<<<<<< HEAD
 msgstr "%s (epost mal)"
+=======
+msgstr "%s (e-post mal)"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -588,7 +609,11 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "<span class=\"d-block w-75 py-2\">Button Color</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"d-block w-75 py-2\">Knapp farge</span>"
+=======
+msgstr "<span class=\"d-block w-75 py-2\">Knappfarge</span>"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
@@ -1037,7 +1062,11 @@ msgstr "Legg til sammenhengshandling"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_form
 msgid "Add Email Blacklist"
+<<<<<<< HEAD
 msgstr "Legg til epost svarteliste"
+=======
+msgstr "Legg til e-post svarteliste"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -1088,12 +1117,20 @@ msgstr "Legg til en beskrivelse for aktiviteten din..."
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid "Add a new %(document)s or send an email to %(email_link)s"
+<<<<<<< HEAD
 msgstr "Legg til en ny %(document)s eller send en epost til %(email_link)s"
+=======
+msgstr "Legg til en ny %(document)s eller send en e-post til %(email_link)s"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_blacklist_action
 msgid "Add an email address to the blacklist"
+<<<<<<< HEAD
 msgstr "Legg til epost adresse til svarteliste"
+=======
+msgstr "Legg til e-postadresse til svarteliste"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_wizard_invite_form
@@ -1298,7 +1335,11 @@ msgstr "Alias domener"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_full_name
 msgid "Alias Email"
+<<<<<<< HEAD
 msgstr "Alias epost"
+=======
+msgstr "Alias e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_name
@@ -1481,7 +1522,11 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_view_form_confirm_delete
 msgid "Are you sure you want to delete this Mail Template?"
+<<<<<<< HEAD
 msgstr "Er du sikker på at du vil slette denne epost malen?"
+=======
+msgstr "Er du sikker på at du vil slette denne e-post malen?"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -1822,7 +1867,11 @@ msgstr "Svartelistede adresser"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_blacklist_action
 msgid "Blacklisted Email Addresses"
+<<<<<<< HEAD
 msgstr "Svartelistet epost adresse"
+=======
+msgstr "Svartelistet e-postadresse"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -1886,7 +1935,11 @@ msgstr "Retur alias"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_domain__bounce_email
 #: model:ir.model.fields,field_description:mail.field_res_company__bounce_email
 msgid "Bounce Email"
+<<<<<<< HEAD
 msgstr "Retur epost"
+=======
+msgstr "Retur e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -1954,7 +2007,11 @@ msgstr "Nettleser nøkler"
 #. odoo-python
 #: code:addons/mail/models/mail_thread_cc.py:0
 msgid "CC Email"
+<<<<<<< HEAD
 msgstr "CC epost"
+=======
+msgstr "CC e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -2154,7 +2211,11 @@ msgstr "Catchall Alias"
 #: model:ir.model.fields,field_description:mail.field_mail_alias_domain__catchall_email
 #: model:ir.model.fields,field_description:mail.field_res_company__catchall_email
 msgid "Catchall Email"
+<<<<<<< HEAD
 msgstr "Catchall epost"
+=======
+msgstr "Catchall e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -2457,7 +2518,11 @@ msgstr "Firmaer"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_domain__company_ids
 msgid "Companies using this domain as default for sending mails"
+<<<<<<< HEAD
 msgstr "Selskaper som bruker dette domenet som standard for å sende e-poster."
+=======
+msgstr "Firmaer som bruker dette domenet som standard for å sende e-poster."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_plan__company_id
@@ -2511,7 +2576,11 @@ msgstr "Sett opp aktivitetstypene dine"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Configure your own email servers"
+<<<<<<< HEAD
 msgstr "Sett opp dine egne epost servere"
+=======
+msgstr "Sett opp dine egne e-post servere"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -2760,7 +2829,11 @@ msgstr "Opprett ny %(document)s"
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 msgid "Create new %(document)s by sending an email to %(email_link)s"
+<<<<<<< HEAD
 msgstr "Opprett ny %(document)s ved å sende en epost til %(email_link)s"
+=======
+msgstr "Opprett ny %(document)s ved å sende en e-post til %(email_link)s"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -2924,7 +2997,11 @@ msgstr "Kunde er påkrevd for innboks-/e-postvarsling."
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Customize the look and feel of automated emails"
+<<<<<<< HEAD
 msgstr "Tilpass utseendet og innhold til automatiserte e-poster"
+=======
+msgstr "Tilpass utseende og innhold i automatiserte e-poster"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_discuss_channel_member__custom_notifications
@@ -3579,7 +3656,11 @@ msgstr "E-post"
 #: model:ir.model.fields,field_description:mail.field_mail_mail__email_add_signature
 #: model:ir.model.fields,field_description:mail.field_mail_message__email_add_signature
 msgid "Email Add Signature"
+<<<<<<< HEAD
 msgstr "Epost legg til signatur"
+=======
+msgstr "E-post legg til signatur"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_blacklist__email
@@ -3603,29 +3684,49 @@ msgstr "E-postaliaser"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias_mixin
 msgid "Email Aliases Mixin"
+<<<<<<< HEAD
 msgstr "Epost aliases mixin"
+=======
+msgstr "E-post aliases mixin"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias_mixin_optional
 msgid "Email Aliases Mixin (light)"
+<<<<<<< HEAD
 msgstr "Epost aliaser mixin (lett)"
+=======
+msgstr "E-post aliaser mixin (lett)"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.ui.menu,name:mail.mail_blacklist_menu
 #: model_terms:ir.ui.view,arch_db:mail.mail_blacklist_view_tree
 msgid "Email Blacklist"
+<<<<<<< HEAD
 msgstr "Epost svarteliste"
+=======
+msgstr "E-post svarteliste"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_company__email_secondary_color
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__email_secondary_color
 msgid "Email Button Color"
+<<<<<<< HEAD
 msgstr "Epost knappfarge"
+=======
+msgstr "Knappfarge i e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread_cc
 msgid "Email CC management"
+<<<<<<< HEAD
 msgstr "Epost CC styring"
+=======
+msgstr "E-post CC styring"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -3636,7 +3737,11 @@ msgstr "E-postoppsett"
 #: model:ir.model,name:mail.model_mail_alias_domain
 #: model:ir.model.fields,field_description:mail.field_res_company__alias_domain_id
 msgid "Email Domain"
+<<<<<<< HEAD
 msgstr "Epost domene"
+=======
+msgstr "E-postdomene"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -3648,18 +3753,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_res_company__email_primary_color
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__email_primary_color
 msgid "Email Header Color"
+<<<<<<< HEAD
 msgstr "Epost tittelfarge"
+=======
+msgstr "E-post tittelfarge"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__composition_mode__mass_mail
 msgid "Email Mass Mailing"
+<<<<<<< HEAD
 msgstr "Epost masseutsendelse"
+=======
+msgstr "E-post masseutsendelse"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__email_layout_xmlid
 #: model:ir.model.fields,field_description:mail.field_mail_template__email_layout_xmlid
 msgid "Email Notification Layout"
+<<<<<<< HEAD
 msgstr "Epost notifikasjons mal"
+=======
+msgstr "E-post notifikasjons mal"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_preview_view_form
@@ -3698,7 +3815,11 @@ msgstr "E-posttråd"
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_mail_blacklist_unique_email
 msgid "Email address already exists!"
+<<<<<<< HEAD
 msgstr "Epost adresse finnes allerede!"
+=======
+msgstr "E-postadresse finnes allerede!"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__email_from
@@ -3763,7 +3884,11 @@ msgstr "Veiviser for utforming av e-post"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_optional__alias_domain
 #: model:ir.model.fields,help:mail.field_res_company__alias_domain_name
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+<<<<<<< HEAD
 msgstr "Epost domene f.eks 'example.com' i 'odoo@example.com'"
+=======
+msgstr "E-postdomene f.eks 'example.com' i 'odoo@example.com'"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -3774,7 +3899,11 @@ msgstr "E-postmelding"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_resend_message
 msgid "Email resend wizard"
+<<<<<<< HEAD
 msgstr "Epost send på nytt hjelp"
+=======
+msgstr "E-post send på nytt hjelp"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__mail_template_ids
@@ -5081,7 +5210,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_email_invalid
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_email_invalid
 msgid "Invalid email address"
+<<<<<<< HEAD
 msgstr "Ugyldig epostadresse"
+=======
+msgstr "Ugyldig e-postadresse"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -5804,7 +5937,11 @@ msgstr "E-postkanalskjema"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_composer_mixin
 msgid "Mail Composer Mixin"
+<<<<<<< HEAD
 msgstr "Epost-utvikler mixin"
+=======
+msgstr "E-post-utvikler mixin"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -5818,7 +5955,11 @@ msgstr "Mail feil"
 #: model:ir.ui.menu,name:mail.mail_gateway_allowed_menu
 #: model_terms:ir.ui.view,arch_db:mail.mail_gateway_allowed_view_tree
 msgid "Mail Gateway Allowed"
+<<<<<<< HEAD
 msgstr "Epost gateaway tillatt"
+=======
+msgstr "E-post gateaway tillatt"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -5834,17 +5975,29 @@ msgstr "Epostkontroll av hovedvedlegg"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__mail_message_id_int
 msgid "Mail Message Id Int"
+<<<<<<< HEAD
 msgstr "Epostmelding Id Int"
+=======
+msgstr "E-postmelding Id Int"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_discuss_channel_rtc_session
 msgid "Mail RTC session"
+<<<<<<< HEAD
 msgstr "Epost RTC sesjon"
+=======
+msgstr "E-post RTC sesjon"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_render_mixin
 msgid "Mail Render Mixin"
+<<<<<<< HEAD
 msgstr "Epost gjengivelse mixin"
+=======
+msgstr "E-post gjengivelse mixin"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_mail_server
@@ -5859,12 +6012,20 @@ msgstr "E-postmal"
 #. module: mail
 #: model:res.groups,name:mail.group_mail_template_editor
 msgid "Mail Template Editor"
+<<<<<<< HEAD
 msgstr "Epost mal redigerer"
+=======
+msgstr "E-post mal redigerer"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_template_reset
 msgid "Mail Template Reset"
+<<<<<<< HEAD
 msgstr "Epost tilbakestill mal"
+=======
+msgstr "E-post tilbakestill mal"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.model_search_view
@@ -5874,7 +6035,11 @@ msgstr "E-posttråd"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_tracking_value
 msgid "Mail Tracking Value"
+<<<<<<< HEAD
 msgstr "Epost sporingsverdi"
+=======
+msgstr "E-post sporingsverdi"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -5903,7 +6068,11 @@ msgstr ""
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_mail_scheduler_action_ir_actions_server
 msgid "Mail: Email Queue Manager"
+<<<<<<< HEAD
 msgstr "Epost: Epost kø-styring"
+=======
+msgstr "E-post: E-post kø-styring"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_mail_gateway_action_ir_actions_server
@@ -5918,7 +6087,11 @@ msgstr ""
 #. module: mail
 #: model:ir.actions.server,name:mail.ir_cron_web_push_notification_ir_actions_server
 msgid "Mail: send web push notification"
+<<<<<<< HEAD
 msgstr "Epost: send web push notifikasjon"
+=======
+msgstr "E-post: send web push notifikasjon"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -6303,12 +6476,20 @@ msgstr "Metadata for stemmevedlegg"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_email_missing
 msgid "Missing email"
+<<<<<<< HEAD
 msgstr "Mangler epost"
+=======
+msgstr "Mangler e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_email_missing
 msgid "Missing email address"
+<<<<<<< HEAD
 msgstr "Mangler epost-adresse"
+=======
+msgstr "Mangler e-postadresse"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_from_missing
@@ -6745,7 +6926,11 @@ msgstr "Ingen"
 #: model:ir.model.fields,field_description:mail.field_res_partner__email_normalized
 #: model:ir.model.fields,field_description:mail.field_res_users__email_normalized
 msgid "Normalized Email"
+<<<<<<< HEAD
 msgstr "Normalisert epost"
+=======
+msgstr "Normalisert e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__fetchmail_server__state__draft
@@ -6794,7 +6979,11 @@ msgstr "Varsling"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__is_notification
 msgid "Notification Email"
+<<<<<<< HEAD
 msgstr "Notifikasjons epost"
+=======
+msgstr "Notifikasjons e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -7751,7 +7940,10 @@ msgstr "Portaltilgang fjernet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7869,6 +8061,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8368,7 +8563,11 @@ msgstr "Tilknyttet dokumentmodellnavn"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__mail_template_id
 msgid "Related Mail Template"
+<<<<<<< HEAD
 msgstr "Relatert epost mal"
+=======
+msgstr "Relatert e-post mal"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tracking_value_form
@@ -8418,7 +8617,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_mail_blacklist_remove
 msgid "Remove email from blacklist wizard"
+<<<<<<< HEAD
 msgstr "Fjern epost fra svarteliste - hjelp"
+=======
+msgstr "Fjern e-post fra svarteliste - hjelp"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -8538,7 +8741,11 @@ msgstr "Send på nytt"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_resend_partner_action
 msgid "Resend Email"
+<<<<<<< HEAD
 msgstr "Send epost på nytt"
+=======
+msgstr "Send e-post på nytt"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_partner__resend_wizard_id
@@ -8553,7 +8760,11 @@ msgstr "Tilbakestill bekreftelse"
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_template_reset_action
 msgid "Reset Mail Template"
+<<<<<<< HEAD
 msgstr "Tilbakestill epostmal"
+=======
+msgstr "Tilbakestill e-postmal"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -8922,7 +9133,11 @@ msgstr "Søk: %s"
 #. odoo-python
 #: code:addons/mail/models/res_users.py:0
 msgid "Security Update: Email Changed"
+<<<<<<< HEAD
 msgstr "Sikkerhetsoppdatering: Epost er endret"
+=======
+msgstr "Sikkerhetsoppdatering: E-post er endret"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -9027,7 +9242,11 @@ msgstr "Send e-post"
 #: model:ir.model.fields,field_description:mail.field_ir_actions_server__mail_post_method
 #: model:ir.model.fields,field_description:mail.field_ir_cron__mail_post_method
 msgid "Send Email As"
+<<<<<<< HEAD
 msgstr "Send epost som"
+=======
+msgstr "Send e-post som"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -9060,22 +9279,38 @@ msgstr "Send en beskjed til følgere..."
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Send and receive emails through your Gmail account."
+<<<<<<< HEAD
 msgstr "Send og motta epost gjennom Gmail konto"
+=======
+msgstr "Send og motta e-post gjennom Gmail konto"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Send and receive emails through your Outlook account."
+<<<<<<< HEAD
 msgstr "Send og motta epost gjennom din Outlook konto"
+=======
+msgstr "Send og motta e-post gjennom din Outlook konto"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_partner_mass_mail
 msgid "Send email"
+<<<<<<< HEAD
 msgstr "Send epost"
+=======
+msgstr "Send e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__force_send
 msgid "Send mailing or notifications directly"
+<<<<<<< HEAD
 msgstr "Send epost eller notifikasjoner direkte"
+=======
+msgstr "Send e-post eller notifikasjoner direkte"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -9469,7 +9704,11 @@ msgstr "Stopp svar"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_compose_message__reply_to_mode__update
 msgid "Store email and replies in the chatter of each record"
+<<<<<<< HEAD
 msgstr "Lagre epost og svar i chatteren til hver sak"
+=======
+msgstr "Lagre e-post og svar i chatteren til hver sak"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_link_preview
@@ -9852,7 +10091,11 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_bounce_catchall
 msgid "The email sent to"
+<<<<<<< HEAD
 msgstr "Eposten sendt til"
+=======
+msgstr "E-posten sendt til"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -10022,7 +10265,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/mail/static/src/views/web/activity/activity_renderer.xml:0
 msgid "This action will send an email."
+<<<<<<< HEAD
 msgstr "Denne handlingen vil sende en epost."
+=======
+msgstr "Denne handlingen vil sende en e-post."
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -10674,7 +10921,11 @@ msgstr "Uten navn"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Update Mail Layout"
+<<<<<<< HEAD
 msgstr "Oppdater epost utseende"
+=======
+msgstr "Tilpass utseende på e-post"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -10736,7 +10987,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__external_email_server_default
 msgid "Use Custom Email Servers"
+<<<<<<< HEAD
 msgstr "Bruk tilpassede epostservere"
+=======
+msgstr "Bruk tilpassede e-postservere"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -11122,7 +11377,11 @@ msgstr "Uker"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Welcome to MyCompany!"
+<<<<<<< HEAD
 msgstr "Velkommen til mitt selskap!"
+=======
+msgstr "Velkommen til mitt firma!"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-javascript
@@ -11514,7 +11773,11 @@ msgstr "Navnet ditt"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/recipient_list.js:0
 msgid "[%(name)s] (no email address)"
+<<<<<<< HEAD
 msgstr "[%(name)s] (ingen epost adresse)"
+=======
+msgstr "[%(name)s] (ingen e-postadresse)"
+>>>>>>> upstream/18.0
 
 #. module: mail
 #. odoo-python
@@ -11563,12 +11826,15 @@ msgstr "etter fristen for forrige aktivitet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "afternoon"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11740,12 +12006,15 @@ msgstr "opprettet denne kanalen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "custom"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11877,7 +12146,11 @@ msgstr "f.eks. \"Gå gjennom tilbudet og diskuter detaljer\""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "e.g. \"Welcome email\""
+<<<<<<< HEAD
 msgstr "f.eks \"Velkommen epost\""
+=======
+msgstr "f.eks \"Velkomstpost\""
+>>>>>>> upstream/18.0
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -12114,12 +12387,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "monday"
 msgstr ""
 
 #. module: mail
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12223,12 +12499,15 @@ msgstr "mer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mail/static/src/chatter/web/mail_composer_schedule_dialog.xml:0
 msgid "morning"
 msgstr ""
 
 #. module: mail
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -241,6 +241,10 @@ const PopupWidget = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.el.querySelector(".modal").scrollTop = 0;
+>>>>>>> upstream/18.0
 =======
             this.el.querySelector(".modal").scrollTop = 0;
 >>>>>>> upstream/18.0

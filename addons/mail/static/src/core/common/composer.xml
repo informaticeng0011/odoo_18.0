@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="store.self.avatarUrl" alt="Avatar of user"/>
 =======
                 <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="thread.effectiveSelf.avatarUrl" alt="Avatar of user"/>
@@ -58,6 +59,9 @@
 >>>>>>> upstream/18.0
 =======
                 <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="thread.effectiveSelf.avatarUrl" alt="Avatar of user"/>
+>>>>>>> upstream/18.0
+=======
+                <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="(thread?.effectiveSelf or message.effectiveSelf).avatarUrl" alt="Avatar of user"/>
 >>>>>>> upstream/18.0
 =======
                 <img class="o-mail-Composer-avatar o_avatar rounded" t-att-src="(thread?.effectiveSelf or message.effectiveSelf).avatarUrl" alt="Avatar of user"/>
@@ -151,7 +155,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <textarea class="o-mail-Composer-input o-mail-Composer-bg shadow-none overflow-auto"
+=======
+                        <textarea class="o-mail-Composer-input o-mail-Composer-bg shadow-none overflow-auto text-body"
+>>>>>>> upstream/18.0
 =======
                         <textarea class="o-mail-Composer-input o-mail-Composer-bg shadow-none overflow-auto text-body"
 >>>>>>> upstream/18.0

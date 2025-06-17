@@ -80,12 +80,18 @@ class ResPartner(models.Model):
     def _compute_credit_to_invoice(self):
         # EXTENDS 'account'
         super()._compute_credit_to_invoice()
+<<<<<<< HEAD
+=======
+        if not (commercial_partners := self.commercial_partner_id & self):
+            return  # nothing to compute
+>>>>>>> upstream/18.0
         company = self.env.company
         if not company.account_use_credit_limit:
             return
 
         sale_orders = self.env['sale.order'].search([
             ('company_id', '=', company.id),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +182,10 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
             ('partner_invoice_id', 'any', [
                 ('commercial_partner_id', 'in', self.commercial_partner_id.ids),
+=======
+            ('partner_invoice_id', 'any', [
+                ('commercial_partner_id', 'in', commercial_partners.ids),
+>>>>>>> upstream/18.0
             ]),
             ('order_line', 'any', [('untaxed_amount_to_invoice', '>', 0)]),
             ('state', '=', 'sale'),
@@ -210,6 +220,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -300,7 +313,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner.credit_to_invoice += credit_company_currency
+=======
+            partner.commercial_partner_id.credit_to_invoice += credit_company_currency
+>>>>>>> upstream/18.0
 =======
             partner.commercial_partner_id.credit_to_invoice += credit_company_currency
 >>>>>>> upstream/18.0

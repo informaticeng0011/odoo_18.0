@@ -28,6 +28,7 @@ function loadAnchors(url, body) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (url === window.location.pathname || url[0] === '#') {
             resolve(body ? body : document.body.outerHTML);
         } else if (url.length && !url.startsWith("http")) {
@@ -55,6 +56,8 @@ function loadAnchors(url, body) {
         return [];
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130,6 +133,9 @@ function loadAnchors(url, body) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

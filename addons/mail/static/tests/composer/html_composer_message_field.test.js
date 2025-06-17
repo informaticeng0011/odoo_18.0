@@ -8,7 +8,11 @@ import { HtmlComposerMessageField } from "@mail/views/web/fields/html_composer_m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, expect, test } from "@odoo/hoot";
+=======
+import { beforeEach, describe, expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -36,6 +40,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    waitForNone,
+>>>>>>> upstream/18.0
 =======
     waitForNone,
 >>>>>>> upstream/18.0
@@ -66,8 +74,14 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@web/../tests/web_test_helpers";
 import { defineMailModels, mailModels } from "../mail_test_helpers";
+=======
+    serverState,
+} from "@web/../tests/web_test_helpers";
+import { defineMailModels, mailModels, openFormView, start } from "../mail_test_helpers";
+>>>>>>> upstream/18.0
 =======
     serverState,
 } from "@web/../tests/web_test_helpers";
@@ -271,7 +285,10 @@ test("mention a channel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371,6 +388,9 @@ describe("Remove attachments", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -92,7 +92,11 @@ export class Chatter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     author: this.store.self,
+=======
+                    author: this.state.thread.effectiveSelf,
+>>>>>>> upstream/18.0
 =======
                     author: this.state.thread.effectiveSelf,
 >>>>>>> upstream/18.0

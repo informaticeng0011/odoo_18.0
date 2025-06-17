@@ -127,9 +127,19 @@ li > p {
 [class^="col-lg-"] {
     min-height: 24px;
 }
+<<<<<<< HEAD
 .input-group {
     flex-flow: row nowrap;
 }
+=======
+// TODO this was added a compatibility layer for old layouts when we switched
+// to Bootstrap 4. It should be removed at some point, to not have to support
+// invalid-feedback with that awful :where selector.
+.input-group:where(:not(:has(.was-validated :invalid ~ .invalid-feedback, .is-invalid ~ .invalid-feedback))) {
+    flex-flow: row nowrap;
+}
+
+>>>>>>> upstream/18.0
 .list-group-item:not([class*="list-group-item-"]):not(.active) {
     color: color-contrast($list-group-bg);
 }

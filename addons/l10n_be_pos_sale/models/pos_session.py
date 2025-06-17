@@ -47,7 +47,11 @@ class PosSession(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             intracom_fpos = self.env["account.chart.template"].with_company(self.company_id.root_id).ref("fiscal_position_template_3", False)
+=======
+            intracom_fpos = self.env["account.chart.template"].with_company(self.company_id.root_id).sudo().ref("fiscal_position_template_3", False)
+>>>>>>> upstream/18.0
 =======
             intracom_fpos = self.env["account.chart.template"].with_company(self.company_id.root_id).sudo().ref("fiscal_position_template_3", False)
 >>>>>>> upstream/18.0

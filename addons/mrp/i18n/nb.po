@@ -13,17 +13,29 @@
 # Joar Horvei, 2024
 # Jorunn D. Newth, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Rune Restad, 2025
 # Lars Aam <lars.aam@vikenfiber.no>, 2025
+=======
+# Rune Restad, 2025
+# Lars Aam <lars.aam@vikenfiber.no>, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-02-10 13:22+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Lars Aam <lars.aam@vikenfiber.no>, 2025\n"
+=======
+"POT-Creation-Date: 2025-06-13 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2057,6 +2069,10 @@ msgid "Disassembly Order"
 msgstr "Ordre for demontering"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_unbuild_form_view_simplified
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
@@ -2571,6 +2587,14 @@ msgid "Has Routing Lines"
 msgstr "Har ruting-linjer"
 
 #. module: mrp
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder__has_worksheet
+msgid "Has Worksheet"
+msgstr ""
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__product_document__attached_on_mrp__hidden
 msgid "Hidden"
 msgstr "Skjult"
@@ -5476,7 +5500,11 @@ msgid ""
 "The Product Unit of Measure you chose has a different category than in the "
 "product form."
 msgstr ""
+<<<<<<< HEAD
 "Måleenheten du valgte for produktet har en annen kategori enn i "
+=======
+"Måleenheten du valgte for produktet har en annen kategori enn den i "
+>>>>>>> upstream/18.0
 "produktskjemaet."
 
 #. module: mrp
@@ -7029,6 +7057,7 @@ msgstr "splitte"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "arbeidsordre"
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -7049,3 +7078,5 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
