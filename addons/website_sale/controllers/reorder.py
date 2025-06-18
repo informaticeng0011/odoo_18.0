@@ -12,7 +12,10 @@ class CustomerPortal(sale_portal.CustomerPortal):
         return {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_common_order_line_data(self, line, add_to_cart_allowed=True):
         combination = (
             line.product_id.product_template_attribute_value_ids
@@ -37,6 +40,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
             if add_to_cart_allowed else {},
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @route('/my/orders/reorder_modal_content', type='json', auth='public', website=True)
     def my_orders_reorder_modal_content(self, order_id, access_token):
@@ -51,6 +57,7 @@ class CustomerPortal(sale_portal.CustomerPortal):
             'products': [],
         }
         for line in sale_order.order_line:
+<<<<<<< HEAD
 <<<<<<< HEAD
             if line.display_type:
                 continue
@@ -82,6 +89,8 @@ class CustomerPortal(sale_portal.CustomerPortal):
             else:
                 res['combinationInfo'] = {}
 =======
+=======
+>>>>>>> upstream/18.0
             if not line._show_in_cart():
                 continue
 
@@ -104,6 +113,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
                 'selected_combo_items': selected_combo_items,
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             result['products'].append(res)
         return result

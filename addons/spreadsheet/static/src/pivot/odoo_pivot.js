@@ -152,6 +152,10 @@ export class OdooPivot {
     async loadMetadata() {
         this._fields = await this.loader.getFields(this.coreDefinition.model);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this._loadPropertiesDefinitions();
+>>>>>>> upstream/18.0
 =======
         await this._loadPropertiesDefinitions();
 >>>>>>> upstream/18.0
@@ -460,7 +464,10 @@ export class OdooPivot {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @private
      */
@@ -486,6 +493,9 @@ export class OdooPivot {
         );
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     //--------------------------------------------------------------------------
     // Global filters

@@ -41,6 +41,10 @@ import { THIS_YEAR_GLOBAL_FILTER } from "@spreadsheet/../tests/helpers/global_fi
 import * as spreadsheet from "@odoo/o-spreadsheet";
 import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Partner, Product } from "../../helpers/data";
+>>>>>>> upstream/18.0
 =======
 import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
@@ -2091,7 +2095,10 @@ test("Can change display type of a measure", async function () {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("can group by property", async () => {
     Product._records = [
@@ -2142,4 +2149,7 @@ test("can group by property", async () => {
     expect(getEvaluatedCell(model, "A1").value).toBe("hello");
     expect(getEvaluatedCell(model, "A2").value).toBe(1);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

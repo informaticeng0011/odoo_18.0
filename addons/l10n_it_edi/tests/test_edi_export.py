@@ -550,7 +550,11 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'rate': 2,
+=======
+            'rate': 1.54639273,
+>>>>>>> upstream/18.0
 =======
             'rate': 1.54639273,
 >>>>>>> upstream/18.0
@@ -720,3 +724,40 @@ class TestItEdiExport(TestItEdi):
         })
         invoice.action_post()
         self._assert_export_invoice(invoice, 'invoice_lowercase_fields.xml')
+<<<<<<< HEAD
+=======
+
+    def test_export_invoice_with_rounding_lines_value(self):
+        """Test that invoices with rounding lines are correctly exported with exempt tax 'N2.2'."""
+        self.env['res.config.settings'].create({
+            'company_id': self.company.id,
+            'group_cash_rounding': True
+        })
+
+        cash_rounding_add_invoice_line = self.env['account.cash.rounding'].with_company(self.company).create({
+            'name': 'Rounding to 0.05',
+            'rounding': 0.05,
+            'strategy': 'add_invoice_line',
+            'profit_account_id': self.company_data_2['default_account_revenue'].id,
+            'loss_account_id': self.company_data_2['default_account_expense'].id,
+            'rounding_method': 'HALF-UP',
+        })
+
+        invoice = self.env['account.move'].with_company(self.company).create({
+            'move_type': 'out_invoice',
+            'partner_id': self.italian_partner_a.id,
+            'invoice_date': '2022-03-24',
+            'invoice_date_due': '2022-03-24',
+            'invoice_cash_rounding_id': cash_rounding_add_invoice_line.id,
+            'invoice_line_ids': [
+                Command.create({
+                    'name': 'standard_line',
+                    'price_unit': 100.02,
+                    'tax_ids': [Command.set(self.default_tax.ids)],
+                }),
+            ]
+        })
+        invoice.action_post()
+
+        self._assert_export_invoice(invoice, 'invoice_with_rounding_line.xml')
+>>>>>>> upstream/18.0

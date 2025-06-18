@@ -22,7 +22,11 @@ class TestWebsiteFormEditor(HttpCaseWithUserPortal):
 
     def test_tour(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=120)
+=======
+        self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=240)
+>>>>>>> upstream/18.0
 =======
         self.start_tour(self.env['website'].get_client_action_url('/'), 'website_form_editor_tour', login='admin', timeout=240)
 >>>>>>> upstream/18.0

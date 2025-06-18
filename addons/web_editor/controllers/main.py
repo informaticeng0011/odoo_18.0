@@ -3,21 +3,42 @@ import io
 import json
 import logging
 import re
+<<<<<<< HEAD
 import time
 import requests
 import werkzeug.exceptions
 import werkzeug.urls
 from PIL import Image, ImageFont, ImageDraw
 from lxml import etree
+=======
+>>>>>>> upstream/18.0
 from base64 import b64decode, b64encode
 from math import floor
 from os.path import join as opj
 
+<<<<<<< HEAD
 from odoo.http import request, Response
 from odoo import http, tools, _
 from odoo.tools.misc import file_open
 from odoo.tools.image import image_data_uri, binary_to_image
 
+=======
+import requests
+import werkzeug.exceptions
+import werkzeug.urls
+from lxml import etree
+from PIL import Image, ImageDraw, ImageFont
+
+from odoo import http, tools
+from odoo.http import STATIC_CACHE, Response, request
+from odoo.tools.image import binary_to_image, image_data_uri
+from odoo.tools.misc import file_open
+
+try:
+    from werkzeug.utils import send_file
+except ImportError:
+    from .tools._vendor.send_file import send_file
+>>>>>>> upstream/18.0
 
 logger = logging.getLogger(__name__)
 DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.odoo.com'
@@ -147,6 +168,7 @@ class Web_Editor(http.Controller):
         # output image
         output = io.BytesIO()
         outimage.save(output, format="PNG")
+<<<<<<< HEAD
         response = Response()
         response.mimetype = 'image/png'
         response.data = output.getvalue()
@@ -157,6 +179,20 @@ class Web_Editor(http.Controller):
         response.headers['Date'] = time.strftime("%a, %d-%b-%Y %T GMT", time.gmtime())
         response.headers['Expires'] = time.strftime("%a, %d-%b-%Y %T GMT", time.gmtime(time.time()+604800*60))
 
+=======
+        output.seek(0)
+        response = send_file(
+            output,
+            request.httprequest.environ,
+            mimetype='image/png',
+            conditional=False,
+            etag=False,
+            max_age=STATIC_CACHE,
+            response_class=Response,
+        )
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'GET, POST'
+>>>>>>> upstream/18.0
         return response
 
     #------------------------------------------------------

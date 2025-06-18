@@ -157,7 +157,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxinc * move.quantity"/>
+=======
+                                            <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxexcl * move.quantity + move.sale_line_id.price_tax"/>
+>>>>>>> upstream/18.0
 =======
                                             <t t-set="lst_price" t-value="move.sale_line_id.price_reduce_taxexcl * move.quantity + move.sale_line_id.price_tax"/>
 >>>>>>> upstream/18.0

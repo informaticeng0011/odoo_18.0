@@ -18,6 +18,11 @@ class CustomerPortal(reorder.CustomerPortal):
         for product in result['products']:
             product['is_storable'] = request.env['product.product'].browse(product['product_id']).is_storable
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            for combo_item in product['selected_combo_items']:
+                combo_item['is_storable'] = request.env['product.product'].browse(combo_item['product_id']).is_storable
+>>>>>>> upstream/18.0
 =======
             for combo_item in product['selected_combo_items']:
                 combo_item['is_storable'] = request.env['product.product'].browse(combo_item['product_id']).is_storable

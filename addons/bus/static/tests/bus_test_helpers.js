@@ -110,7 +110,11 @@ viewsRegistry.category("form").add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const TIMEOUT = 500;
+=======
+const TIMEOUT = 2000;
+>>>>>>> upstream/18.0
 =======
 const TIMEOUT = 2000;
 >>>>>>> upstream/18.0

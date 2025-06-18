@@ -179,6 +179,7 @@ $-seen-urls: ();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -245,6 +246,8 @@ $-seen-urls: ();
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 @mixin body-image-bg-style() {
@@ -261,7 +264,10 @@ $-seen-urls: ();
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 @mixin force-opaque-bg-color($color, $if-necessary, $background: white) {
     $alpha: alpha($color);
     @if not $if-necessary or $alpha < 0.999 {
@@ -269,15 +275,21 @@ $-seen-urls: ();
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 body {
     // The color behind the boxed layout is forced by Odoo. The box background
     // color uses the `$body-bg` variable.
     // grep: BOXED_BODY_BG_ODOO
 <<<<<<< HEAD
+<<<<<<< HEAD
     @if o-website-value('layout') != 'full' {
         background-color: o-color('body');
 =======
+=======
+>>>>>>> upstream/18.0
     //
     // In any case, remove the transparency of the background color to apply as
     // body background color to prevent the fallback iframe used for navigation
@@ -293,6 +305,9 @@ body {
         // as it would impact other Bootstrap components that could take profit
         // of the transparency.
         @include force-opaque-bg-color($body-bg, $if-necessary: true);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 }
@@ -926,6 +941,12 @@ table.table_desc tr td {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // See JS: this is overridden for multiple reasons, including the fact that
+    // Arc browser does not support this correctly at the moment.
+    min-height: 100svh !important;
+>>>>>>> upstream/18.0
 =======
     // See JS: this is overridden for multiple reasons, including the fact that
     // Arc browser does not support this correctly at the moment.
@@ -1961,7 +1982,10 @@ header {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 // For the "hamburger" and "sidebar" header, we set the mega menu columns to
 // 100% width when the breakpoint is above lg, because the menu keeps its mobile
 // width when displayed on desktop.
@@ -1973,6 +1997,9 @@ header {
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #wrapwrap.o_header_overlay {
     > header:not(.o_header_affixed):not(.o_header_sidebar) {

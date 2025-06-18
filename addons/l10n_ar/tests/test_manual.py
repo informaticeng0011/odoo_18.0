@@ -252,7 +252,11 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_16_invoice_b_tax_breakdown_1(self):
+=======
+    def test_18_invoice_b_tax_breakdown_1(self):
+>>>>>>> upstream/18.0
 =======
     def test_18_invoice_b_tax_breakdown_1(self):
 >>>>>>> upstream/18.0
@@ -557,7 +561,11 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_17_invoice_b_tax_breakdown_2(self):
+=======
+    def test_19_invoice_b_tax_breakdown_2(self):
+>>>>>>> upstream/18.0
 =======
     def test_19_invoice_b_tax_breakdown_2(self):
 >>>>>>> upstream/18.0
@@ -830,7 +838,10 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1042,6 +1053,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

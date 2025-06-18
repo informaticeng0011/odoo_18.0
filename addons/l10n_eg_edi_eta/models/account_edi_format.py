@@ -224,6 +224,11 @@ class AccountEdiFormat(models.Model):
         # Tax amounts per line.
 
         def grouping_function_base_line(base_line, tax_data):
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
             tax = tax_data['tax']
             code_split = tax.l10n_eg_eta_code.split('_')
             return {
@@ -238,14 +243,25 @@ class AccountEdiFormat(models.Model):
         # Tax amounts for the whole document.
 
         def grouping_function_global(base_line, tax_data):
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
             tax = tax_data['tax']
             code_split = tax.l10n_eg_eta_code.split('_')
             return {
                 'tax_type': code_split[0].upper(),
             }
+<<<<<<< HEAD
             
         def grouping_function_total_amount(base_line, tax_data):
             return True
+=======
+
+        def grouping_function_total_amount(base_line, tax_data):
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 
         base_lines_aggregated_values_total_amount = AccountTax._aggregate_base_lines_tax_details(base_lines, grouping_function_total_amount)
         values_per_grouping_key_total_amount = AccountTax._aggregate_base_lines_aggregated_values(base_lines_aggregated_values_total_amount)

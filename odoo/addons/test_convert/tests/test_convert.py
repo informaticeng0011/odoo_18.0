@@ -221,7 +221,10 @@ class TestEvalXML(common.TransactionCase):
                              "Unexpected value in O2M When loading XML with sub records")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_o2m_sub_records_noupdate(self):
         xml = ET.fromstring("""
             <data noupdate="1">
@@ -250,6 +253,9 @@ class TestEvalXML(common.TransactionCase):
         self.assertEqual(set(idref.keys()), xmlids)
         self.assertTrue(self.registry.loaded_xmlids.issuperset(xmlids))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_translated_field(self):
         """Tests importing a data file with a lang set in the environment sets the source (en_US)

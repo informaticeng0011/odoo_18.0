@@ -393,7 +393,10 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -458,9 +461,12 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
             'is_company': True,
             'credit_limit': 10000.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
         self.partner_a.commercial_partner_id = company_a
 =======
+=======
+>>>>>>> upstream/18.0
             'child_ids': [
                 Command.link(self.partner_a.id),
                 Command.create({
@@ -470,11 +476,15 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
             ],
         })
         invoice_partner = company_a.child_ids.filtered(lambda p: p.type == 'invoice')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         order = self.empty_order
         order.order_line = [Command.create({
             'product_id': self.company_data['product_order_no'].id,
+<<<<<<< HEAD
 <<<<<<< HEAD
             'price_unit': 1200.0,
             'tax_id': False,
@@ -571,6 +581,8 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             'price_unit': 600.0,
             'tax_id': False,
         })]
@@ -589,4 +601,7 @@ class TestSaleOrderCreditLimit(TestSaleCommon):
         company_a.invalidate_recordset()
         self.assertFalse(company_a.credit_to_invoice)
         self.assertEqual(company_a.credit, 1200.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

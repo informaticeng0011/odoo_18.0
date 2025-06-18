@@ -13,6 +13,7 @@ import { MockServerError } from "./mock_server_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{
  *  compute?: (() => void) | string;
  *  default?: RecordFieldValue | ((record: ModelRecord) => RecordFieldValue);
@@ -111,6 +112,8 @@ import { MockServerError } from "./mock_server_utils";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @typedef {import("fields").INumerical["aggregator"]} Aggregator
  * @typedef {import("fields").FieldDefinition} FieldDefinition
  * @typedef {import("fields").FieldDefinitionsByType} FieldDefinitionsByType
@@ -135,6 +138,9 @@ import { MockServerError } from "./mock_server_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -175,9 +181,12 @@ import { MockServerError } from "./mock_server_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const camelToPascal = (name) =>
     name[0].toUpperCase() + name.slice(1).replace(/_([a-z])/g, (_, char) => char.toUpperCase());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216,6 +225,9 @@ function camelToPascal(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -252,6 +264,7 @@ function camelToPascal(name) {
  * return the actual field descriptors.
  *
  * @template {FieldType} T
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,6 +319,8 @@ const makeFieldGenerator = (type, { groupOperator, requiredKeys = [] } = {}) => 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @template [R=never]
  * @param {T} type
  * @param {{
@@ -329,6 +344,9 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -360,6 +378,7 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
     // 2nd level: returns the "constructor" function
     return {
         /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,6 +426,8 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
          * @param {Partial<FieldDefinitionsByType[T] & MockFieldProperties>} [properties]
          */
         [constructorFnName](properties) {
@@ -426,6 +447,9 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -474,8 +498,13 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 field.readonly = attributes.readonly ?? true;
                 field.store = attributes.store ?? false;
+=======
+                field.readonly = properties.readonly ?? true;
+                field.store = properties.store ?? false;
+>>>>>>> upstream/18.0
 =======
                 field.readonly = properties.readonly ?? true;
                 field.store = properties.store ?? false;
@@ -541,11 +570,14 @@ function makeFieldGenerator(type, { aggregator, requiredKeys = [] } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
  * @param {FieldDefinition} field
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -588,6 +620,9 @@ const R_SPACE_OR_UNDERSCORE = /[\s_]+/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -616,6 +651,7 @@ export function isComputed(field) {
     return globalThis.Boolean(field.compute || field.related);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +749,8 @@ export const Text = makeFieldGenerator("text");
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /**
  * @param {unknown} value
  */
@@ -735,6 +773,9 @@ export function getFieldDisplayName(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -807,8 +848,11 @@ export const DEFAULT_FIELD_VALUES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export const FIELD_SYMBOL = Symbol("field");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -917,6 +961,9 @@ export const Text = makeFieldGenerator("text");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -173,7 +173,10 @@ class TestControllers(tests.HttpCase):
                 # suggestion "test suggestion"
                 self.assertIn('test suggestion', result)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_06_website_action(self):
         """
@@ -195,4 +198,7 @@ class TestControllers(tests.HttpCase):
         res = self.url_open('/website/action/my_test_action')
         self.assertEqual(res.status_code, 200)
         self.assertEqual(res.text, "{'message': 'Succeeded'}")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

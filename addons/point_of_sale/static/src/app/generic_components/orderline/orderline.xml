@@ -22,7 +22,13 @@
                 <ul class="info-list d-flex flex-column">
                     <li class="price-per-unit">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <span class="qty px-1 border rounded text-bg-view fw-bolder me-1" t-esc="line.qty"/>
+=======
+                        <span class="qty px-1 border rounded text-bg-view fw-bolder me-1">
+                            <t t-esc="line.qty" /> <t t-if="line.unit and line.unit !== 'Units'" t-esc="line.unit" />
+                        </span>
+>>>>>>> upstream/18.0
 =======
                         <span class="qty px-1 border rounded text-bg-view fw-bolder me-1">
                             <t t-esc="line.qty" /> <t t-if="line.unit and line.unit !== 'Units'" t-esc="line.unit" />

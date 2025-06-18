@@ -118,9 +118,15 @@ class Proxy(metaclass=ProxyMeta):
         """
         object.__setattr__(self, "_wrapped__", instance)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @property
     def __class__(self):
         return type(self)._wrapped__
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

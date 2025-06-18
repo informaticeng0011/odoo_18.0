@@ -1725,6 +1725,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1848,6 +1852,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -1939,6 +1947,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 
         #Create an order with the 2 products
         self.pos_config.open_ui()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2066,6 +2075,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         order_data = {'amount_paid': 200,
            'amount_return': 0,
            'amount_tax': 200,
@@ -2136,6 +2147,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2382,6 +2396,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'country_id': self.env.company.country_id.id,
+>>>>>>> upstream/18.0
 =======
             'country_id': self.env.company.country_id.id,
 >>>>>>> upstream/18.0
@@ -2754,7 +2772,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2944,6 +2965,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2982,6 +3004,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3049,7 +3073,19 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             'name': 'Product A',
             'categ_id': categ.id,
             'lst_price': 10,
+<<<<<<< HEAD
             'standard_price': 10
+=======
+            'standard_price': 10,
+            'is_storable': True,
+        })
+        productB = self.env['product.product'].create({
+            'name': 'Product B',
+            'categ_id': categ.id,
+            'lst_price': 10,
+            'standard_price': 10,
+            'is_storable': True,
+>>>>>>> upstream/18.0
         })
         order = self.PosOrder.create({
             'company_id': self.env.company.id,
@@ -3065,6 +3101,19 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
                 'price_subtotal': 20,
                 'price_subtotal_incl': 20,
                 'total_cost': 20,
+<<<<<<< HEAD
+=======
+            }], [0, 0, {
+                'name': "OL/0001",
+                'product_id': productB.id,
+                'price_unit': 10,
+                'discount': 0,
+                'qty': 2,
+                'tax_ids': [[6, False, []]],
+                'price_subtotal': 20,
+                'price_subtotal_incl': 20,
+                'total_cost': 20,
+>>>>>>> upstream/18.0
             }]],
             'amount_paid': 10.0,
             'amount_total': 10.0,
@@ -3094,6 +3143,19 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
                 'price_subtotal_incl': -20,
                 'refunded_orderline_id': order.lines[0].id,
                 'price_type': 'automatic'
+<<<<<<< HEAD
+=======
+            }], [0, 0, {
+                'product_id': productB.id,
+                'price_unit': 10,
+                'discount': 0,
+                'qty': -2,
+                'tax_ids': [[6, False, []]],
+                'price_subtotal': -20,
+                'price_subtotal_incl': -20,
+                'refunded_orderline_id': order.lines[1].id,
+                'price_type': 'automatic'
+>>>>>>> upstream/18.0
             }]],
             'shipping_date': fields.Date.today(),
             'sequence_number': 2,
@@ -3135,6 +3197,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

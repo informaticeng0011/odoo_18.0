@@ -142,10 +142,16 @@ class TestProductCombo(ProductCommon):
             combo_ids=[Command.link(combo_in_company_a.id)],
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Raise if we try to update a combo product in company A with a combo without company.
         with self.assertRaises(UserError):
             combo_in_company_a.write({
                 'company_id': False,
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

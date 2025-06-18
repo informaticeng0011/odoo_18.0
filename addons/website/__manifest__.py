@@ -24,6 +24,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'html_editor',
+>>>>>>> upstream/18.0
 =======
         'html_editor',
 >>>>>>> upstream/18.0
@@ -250,6 +254,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/core/errors/beforeunload_error_handler.js',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/core/errors/beforeunload_error_handler.js',
 >>>>>>> upstream/18.0
@@ -375,6 +383,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'web.assets_unit_tests': [
+            'website/static/tests/website_html_editor.test.js',
+        ],
+>>>>>>> upstream/18.0
 =======
         'web.assets_unit_tests': [
             'website/static/tests/website_html_editor.test.js',
@@ -465,7 +479,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -506,6 +523,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -539,6 +559,10 @@
             'web/static/lib/bootstrap/scss/_variables-dark.scss',
             'web/static/lib/bootstrap/scss/_maps.scss',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website/static/src/scss/website.wysiwyg.fonts.scss',
+>>>>>>> upstream/18.0
 =======
             'website/static/src/scss/website.wysiwyg.fonts.scss',
 >>>>>>> upstream/18.0
@@ -602,7 +626,10 @@
             'website/static/src/snippets/s_embed_code/options.js',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # TODO: in master, we should revisit this and probably opt-in what is
         # to be added in the iframe instead of excluding what should not be.
         'website.assets_wysiwyg_inside': [
@@ -613,6 +640,9 @@
             ('include', 'website.assets_all_wysiwyg'),
             ('remove', 'website/static/src/scss/website.wysiwyg.fonts.scss'),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         'web_editor.assets_media_dialog': [
             'website/static/src/components/media_dialog/*',

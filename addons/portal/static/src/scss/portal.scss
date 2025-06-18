@@ -128,10 +128,13 @@ li > p {
     min-height: 24px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .input-group {
     flex-flow: row nowrap;
 }
 =======
+=======
+>>>>>>> upstream/18.0
 // TODO this was added a compatibility layer for old layouts when we switched
 // to Bootstrap 4. It should be removed at some point, to not have to support
 // invalid-feedback with that awful :where selector.
@@ -139,6 +142,9 @@ li > p {
     flex-flow: row nowrap;
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 .list-group-item:not([class*="list-group-item-"]):not(.active) {
     color: color-contrast($list-group-bg);

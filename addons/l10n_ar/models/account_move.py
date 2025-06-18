@@ -379,6 +379,11 @@ class AccountMove(models.Model):
         base_lines, _tax_lines = self._get_rounded_base_and_tax_lines()
 
         def grouping_function(base_line, tax_data):
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
             tax_group = tax_data['tax'].tax_group_id
             skip = False
             name = None
