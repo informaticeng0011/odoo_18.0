@@ -182,6 +182,11 @@ class HrWorkEntry(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if calendar.flexible_hours:
+                continue
+>>>>>>> upstream/18.0
 =======
             if calendar.flexible_hours:
                 continue

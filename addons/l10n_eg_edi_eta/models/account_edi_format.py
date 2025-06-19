@@ -225,6 +225,11 @@ class AccountEdiFormat(models.Model):
 
         def grouping_function_base_line(base_line, tax_data):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -244,6 +249,11 @@ class AccountEdiFormat(models.Model):
 
         def grouping_function_global(base_line, tax_data):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -254,9 +264,15 @@ class AccountEdiFormat(models.Model):
                 'tax_type': code_split[0].upper(),
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             
         def grouping_function_total_amount(base_line, tax_data):
             return True
+=======
+
+        def grouping_function_total_amount(base_line, tax_data):
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
 
         def grouping_function_total_amount(base_line, tax_data):

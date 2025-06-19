@@ -15,13 +15,19 @@ class StockForecasted(models.AbstractModel):
         if warehouse_id:
             domain += [('order_id.picking_type_id.warehouse_id', '=', warehouse_id)]
 <<<<<<< HEAD
+<<<<<<< HEAD
         po_lines = self.env['purchase.order.line'].search(domain)
 =======
+=======
+>>>>>>> upstream/18.0
             company = self.env['stock.warehouse'].browse(warehouse_id).company_id
         else:
             company = self.env.company
         domain += [('company_id', '=', company.id)]
         po_lines = self.env['purchase.order.line'].sudo().search(domain)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         in_sum = sum(po_lines.mapped('product_uom_qty'))
         res['draft_purchase_qty'] = in_sum

@@ -57,15 +57,21 @@ patch(accountTaxHelpers, {
         // Tax amounts.
         function grouping_function(base_line, tax_data) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 ...get_base_line_grouping_key(base_line),
                 l10n_in_tax_type: tax_data.tax.l10n_in_tax_type,
             };
 =======
+=======
+>>>>>>> upstream/18.0
             return tax_data ? {
                 ...get_base_line_grouping_key(base_line),
                 l10n_in_tax_type: tax_data.tax.l10n_in_tax_type,
             } : null;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
 

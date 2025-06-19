@@ -208,7 +208,10 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +405,9 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -950,7 +956,10 @@ class TestMrpStockValuation(TestStockValuationBase):
         self.assertEqual(out_aml.credit, 100)
         self.assertEqual(in_aml.product_id, self.product1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_average_cost_unbuild_component_change_move_qty(self):
         """
@@ -986,4 +995,7 @@ class TestMrpStockValuation(TestStockValuationBase):
         comp_move = mo.unbuild_ids.produce_line_ids.filtered(lambda move: move.product_id.id == comp_1.id)
         with Form(comp_move.move_line_ids[0]) as form:
             form.quantity = 0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -551,7 +551,11 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'rate': 2,
+=======
+            'rate': 1.54639273,
+>>>>>>> upstream/18.0
 =======
             'rate': 1.54639273,
 >>>>>>> upstream/18.0
@@ -725,7 +729,10 @@ class TestItEdiExport(TestItEdi):
         invoice.action_post()
         self._assert_export_invoice(invoice, 'invoice_lowercase_fields.xml')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_export_invoice_with_rounding_lines_value(self):
         """Test that invoices with rounding lines are correctly exported with exempt tax 'N2.2'."""
@@ -760,4 +767,7 @@ class TestItEdiExport(TestItEdi):
         invoice.action_post()
 
         self._assert_export_invoice(invoice, 'invoice_with_rounding_line.xml')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

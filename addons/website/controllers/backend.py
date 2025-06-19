@@ -37,7 +37,10 @@ class WebsiteBackend(http.Controller):
     def get_iframe_fallback(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # TODO adapt in master (done like this as a fix in stable)
@@ -45,6 +48,9 @@ class WebsiteBackend(http.Controller):
         if '"website.assets_wysiwyg"' in view.arch:
             view.arch = view.arch.replace('"website.assets_wysiwyg"', '"website.assets_wysiwyg_inside"')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

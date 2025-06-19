@@ -80,7 +80,11 @@ class AccountAnalyticApplicability(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if account and account.code.startswith(account_prefixes):
+=======
+            if account.code and account.code.startswith(account_prefixes):
+>>>>>>> upstream/18.0
 =======
             if account.code and account.code.startswith(account_prefixes):
 >>>>>>> upstream/18.0

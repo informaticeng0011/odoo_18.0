@@ -1141,6 +1141,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1166,6 +1167,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 >>>>>>> upstream/18.0
     def test_specific_product_discount_with_global_discount(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1317,6 +1320,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1523,6 +1529,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1797,7 +1806,10 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1873,6 +1885,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3383,6 +3398,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3423,6 +3439,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3566,6 +3584,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3610,6 +3629,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3712,6 +3733,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3834,6 +3858,7 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3956,6 +3981,8 @@ class TestUi(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_buy_x_get_y_reward_qty(self):
         self.env['loyalty.program'].search([]).write({'active': False})
@@ -3982,4 +4009,7 @@ class TestUi(TestPointOfSaleHttpCommon):
             "test_buy_x_get_y_reward_qty",
             login="pos_user"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

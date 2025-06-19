@@ -13,7 +13,10 @@ class CustomerPortal(sale_portal.CustomerPortal):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_common_order_line_data(self, line, add_to_cart_allowed=True):
@@ -41,6 +44,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57,6 +63,7 @@ class CustomerPortal(sale_portal.CustomerPortal):
             'products': [],
         }
         for line in sale_order.order_line:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if line.display_type:
@@ -91,6 +98,8 @@ class CustomerPortal(sale_portal.CustomerPortal):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not line._show_in_cart():
                 continue
 
@@ -114,6 +123,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

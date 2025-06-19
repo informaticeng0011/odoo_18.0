@@ -93,7 +93,10 @@ export class ReorderDialog extends Component {
     async loadProductCombinationInfo(product) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         for (const comboItem of product.selected_combo_items) {
@@ -108,6 +111,9 @@ export class ReorderDialog extends Component {
             });
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -177,6 +183,7 @@ export class ReorderDialog extends Component {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await rpc("/shop/cart/update_json", {
                 product_id: product.product_id,
                 add_qty: product.qty,
@@ -185,6 +192,8 @@ export class ReorderDialog extends Component {
                 display: false,
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             if (product.selected_combo_items.length) {
@@ -203,6 +212,9 @@ export class ReorderDialog extends Component {
                 });
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -422,7 +422,11 @@ class AccountMove(models.Model):
 
         def grouping_function(base_line, tax_data):
 <<<<<<< HEAD
+<<<<<<< HEAD
             return tax_data['tax']
+=======
+            return tax_data['tax'] if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return tax_data['tax'] if tax_data else None
 >>>>>>> upstream/18.0

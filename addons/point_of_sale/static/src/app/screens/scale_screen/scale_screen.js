@@ -20,7 +20,11 @@ export class ScaleScreen extends Component {
     }
 
     confirm() {
+<<<<<<< HEAD
         this.props.getPayload(this.scale.netWeight);
+=======
+        this.props.getPayload(this.scale.confirmWeight());
+>>>>>>> upstream/18.0
         this.props.close();
     }
 
@@ -52,6 +56,10 @@ export class ScaleScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.props.getPayload(null);
+>>>>>>> upstream/18.0
 =======
         this.props.getPayload(null);
 >>>>>>> upstream/18.0

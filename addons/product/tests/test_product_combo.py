@@ -143,7 +143,10 @@ class TestProductCombo(ProductCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Raise if we try to update a combo product in company A with a combo without company.
@@ -152,6 +155,9 @@ class TestProductCombo(ProductCommon):
                 'company_id': False,
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -78,6 +78,10 @@ class ProductCombo(models.Model):
         templates._check_company(fnames=['combo_ids'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.combo_item_ids._check_company(fnames=['product_id'])
+>>>>>>> upstream/18.0
 =======
         self.combo_item_ids._check_company(fnames=['product_id'])
 >>>>>>> upstream/18.0

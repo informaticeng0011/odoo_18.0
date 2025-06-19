@@ -9,6 +9,10 @@ import {
     isParagraphRelatedElement,
     isProtected,
     isProtecting,
+<<<<<<< HEAD
+=======
+    isShrunkBlock,
+>>>>>>> upstream/18.0
     listElementSelector,
 } from "@html_editor/utils/dom_info";
 import {
@@ -622,6 +626,7 @@ export class ListPlugin extends Plugin {
         const ul = li.parentNode;
         const dir = ul.getAttribute("dir");
         const textAlign = ul.style.getPropertyValue("text-align");
+<<<<<<< HEAD
         wrapInlinesInBlocks(li, {
             baseContainerNodeName: this.dependencies.baseContainer.getDefaultNodeName(),
             cursors,
@@ -630,6 +635,18 @@ export class ListPlugin extends Plugin {
             // Outdenting an empty LI produces an empty baseContainer
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
+=======
+        const children = childNodes(li);
+        if (!children.every(isBlock)) {
+            const baseContainer = this.dependencies.baseContainer.createBaseContainer();
+            for (const child of children) {
+                cursors.update(callbacksForCursorUpdate.append(baseContainer, child));
+                baseContainer.append(child);
+            }
+            if (isShrunkBlock(baseContainer)) {
+                baseContainer.append(this.document.createElement("br"));
+            }
+>>>>>>> upstream/18.0
             li.append(baseContainer);
             cursors.remapNode(li, baseContainer);
         }

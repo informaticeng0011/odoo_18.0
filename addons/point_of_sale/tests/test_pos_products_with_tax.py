@@ -686,6 +686,17 @@ class TestPoSProductsWithTax(TestPoSCommon):
             []
         )
 
+<<<<<<< HEAD
+=======
+        def get_taxes_name_popup(product):
+            return [tax['name'] for tax in product.get_product_info_pos(product_all_taxes.lst_price, 1, xx_config.id)['all_prices']['tax_details']]
+
+        self.assertEqual(get_taxes_name_popup(product_all_taxes), ["Tax XX"])
+        self.assertEqual(get_taxes_name_popup(product_no_xx_tax), ["Tax X"])
+        self.assertEqual(get_taxes_name_popup(product_no_branch_tax), ["Tax A", "Tax B"])
+        self.assertEqual(get_taxes_name_popup(product_no_tax), [])
+
+>>>>>>> upstream/18.0
     def test_combo_product_variant_error(self):
         """This tests make sure that product containing variants cannot change type to combo"""
 

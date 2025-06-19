@@ -676,7 +676,10 @@ class TestStockLot(TestStockCommon):
 
         self.assertAlmostEqual(delivery.move_line_ids[0].expiration_date, expiration_date, delta=delta)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_assign_lot_expiry_alert_to_default_user(self):
         """ Test lot expiry alert is assigned to the default user of the activity type """
@@ -752,4 +755,7 @@ class TestStockLot(TestStockCommon):
         ])
         self.assertEqual(len(mail_activity), 1, 'No activity created or more than one activity created when there should be one')
         self.assertEqual(mail_activity.user_id, default_user, "Activity was not assigned to the Default User.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

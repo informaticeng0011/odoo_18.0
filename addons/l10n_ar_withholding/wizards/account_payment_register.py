@@ -38,7 +38,10 @@ class AccountPaymentRegister(models.TransientModel):
         payment_vals = super()._create_payment_vals_from_wizard(batch_result)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -46,6 +49,9 @@ class AccountPaymentRegister(models.TransientModel):
             return payment_vals  # Nothing to do if we are not working with withholding taxes.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

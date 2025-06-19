@@ -229,7 +229,10 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -341,6 +344,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -697,6 +703,10 @@ describe("to blockquote", () => {
             focusNode: anchorNode.nextSibling,
             focusOffset: 0,
         });
+<<<<<<< HEAD
+=======
+        await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
+>>>>>>> upstream/18.0
         await tick();
         expect(getContent(el)).toBe("<p>[abcd]</p><p>Plop</p>");
 

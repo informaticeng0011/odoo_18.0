@@ -13,11 +13,14 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { press, queryFirst, queryOne } from "@odoo/hoot-dom";
 import { animationFrame, tick } from "@odoo/hoot-mock";
 import { Component, xml } from "@odoo/owl";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67,6 +70,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112,7 +118,11 @@ import { setupEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getContent } from "./_helpers/selection";
+=======
+import { getContent, setSelection } from "./_helpers/selection";
+>>>>>>> upstream/18.0
 =======
 import { getContent, setSelection } from "./_helpers/selection";
 >>>>>>> upstream/18.0
@@ -211,6 +221,21 @@ test("correct selection after triple click with bold", async () => {
     expect(getContent(el)).toBe("<p>[abc<strong>d]</strong></p><p>efg</p>");
 });
 
+<<<<<<< HEAD
+=======
+test("correct selection after triple click in multi-line block (1)", async () => {
+    const { el } = await setupEditor("<p>[]abc<br>efg</p>", {});
+    await tripleClick(queryFirst("p").firstChild);
+    expect(getContent(el)).toBe("<p>[abc<br>efg]</p>");
+});
+
+test("correct selection after triple click in multi-line block (2)", async () => {
+    const { el } = await setupEditor("<p>block1</p><p>[]block2<br>block2</p><p>block3</p>", {});
+    await tripleClick(queryFirst("p").nextSibling.firstChild); // we triple click inside block2
+    expect(getContent(el)).toBe("<p>block1</p><p>[block2<br>block2]</p><p>block3</p>");
+});
+
+>>>>>>> upstream/18.0
 test("fix selection P in the beggining being a direct child of the editable p after selection", async () => {
     const { el } = await setupEditor("<div>a</div>[]<p>b</p>");
     expect(getContent(el)).toBe(`<div class="o-paragraph">a</div><p>[]b</p>`);
@@ -413,7 +438,10 @@ test("preserveSelection's restore should always set the selection, even if it's 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -512,6 +540,9 @@ test("should not autoscroll if selection is partially visible in viewport", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

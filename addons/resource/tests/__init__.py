@@ -2,3 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from . import test_utils
+<<<<<<< HEAD
+=======
+from . import test_resource_calendar
+>>>>>>> upstream/18.0

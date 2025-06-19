@@ -94,7 +94,10 @@ test("save actions to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225,7 +228,11 @@ test("save two searches to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     var filter_count = 0;
+=======
+    let filter_count = 0;
+>>>>>>> upstream/18.0
 =======
     let filter_count = 0;
 >>>>>>> upstream/18.0
@@ -304,11 +311,14 @@ test("save an action domain to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     var view_domain = ["name", "ilike", "a"];
     var filter_domain = ["name", "ilike", "b"];
 
     var expected_domain = ["&", view_domain, filter_domain];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -349,6 +359,9 @@ test("save an action domain to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -399,7 +412,11 @@ test("save an action domain to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(args.domain).toEqual(expected_domain, {
+=======
+        expect(args.domain).toEqual(expectedDomain, {
+>>>>>>> upstream/18.0
 =======
         expect(args.domain).toEqual(expectedDomain, {
 >>>>>>> upstream/18.0
@@ -464,7 +481,11 @@ test("save an action domain to dashboard", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain: [view_domain],
+=======
+        domain: [viewDomain],
+>>>>>>> upstream/18.0
 =======
         domain: [viewDomain],
 >>>>>>> upstream/18.0
@@ -535,7 +556,10 @@ test("add to dashboard with no action id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -660,7 +684,10 @@ test("Add a view to dashboard (keynav)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search/>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -800,7 +827,11 @@ test("Add a view to dashboard doesn't save default filters", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState.debug = true;
+=======
+    serverState.debug = "1";
+>>>>>>> upstream/18.0
 =======
     serverState.debug = "1";
 >>>>>>> upstream/18.0
@@ -972,7 +1003,10 @@ test("Add to my dashboard is not available in form views", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

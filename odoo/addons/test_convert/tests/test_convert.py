@@ -222,7 +222,10 @@ class TestEvalXML(common.TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_o2m_sub_records_noupdate(self):
@@ -254,6 +257,9 @@ class TestEvalXML(common.TransactionCase):
         self.assertTrue(self.registry.loaded_xmlids.issuperset(xmlids))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -2,13 +2,19 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 from odoo.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 from odoo.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
 from odoo.exceptions import AccessError
 from odoo.tests import tagged
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -131,7 +137,10 @@ class TestAccessRights(TestCommonSalePurchaseNoChart):
         po.button_confirm()
         self.assertEqual(po.state, 'purchase')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sales_user_can_access_forecast_report(self):
         # `get_report_values` calls `_get_source_document`, which can be a PO, SO, MO, repair etc.
@@ -173,4 +182,7 @@ class TestAccessRights(TestCommonSalePurchaseNoChart):
         # A sales user cannot access the PO directly, despite viewing it's info in the report
         with self.assertRaises(AccessError, msg='Sales user is not allowed to access a PO'):
             po.with_user(self.user_salesperson).button_confirm()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1291,8 +1291,11 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $(window).on('resize.FullScreenHeight', debounce(() => this._adaptSize(), 250));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1396,6 +1399,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1524,6 +1530,7 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const windowHeight = $(window).outerHeight();
         if (this.inModal) {
             return windowHeight;
@@ -1535,6 +1542,8 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
         const mainTopPos = firstContentEl.getBoundingClientRect().top + document.documentElement.scrollTop;
         return (windowHeight - mainTopPos);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1671,6 +1680,9 @@ registry.FullScreenHeight = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1814,7 +1826,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
     async start() {
         this.$scrollingElement = $().getScrollingElement();
         this.$scrollingTarget = $().getScrollingTarget(this.$scrollingElement);
+<<<<<<< HEAD
         this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100);
+=======
+        this.__hideBottomFixedElements = debounce(() => this._hideBottomFixedElements(), 100, { leading: true, trailing: true });
+>>>>>>> upstream/18.0
         this.$scrollingTarget.on('scroll.bottom_fixed_element', this.__hideBottomFixedElements);
         $(window).on('resize.bottom_fixed_element', this.__hideBottomFixedElements);
         return this._super(...arguments);
@@ -1877,7 +1893,11 @@ registry.BottomFixedElement = publicWidget.Widget.extend({
                     x: elRect.x,
                     y: elRect.y,
                 });
+<<<<<<< HEAD
                 if (hiddenButtonEl) {
+=======
+                if (hiddenButtonEl.length) {
+>>>>>>> upstream/18.0
                     if (el.classList.contains('o_bottom_fixed_element_move_up')) {
                         el.style.marginBottom = window.innerHeight - hiddenButtonEl.getBoundingClientRect().top + 5 + 'px';
                     } else {

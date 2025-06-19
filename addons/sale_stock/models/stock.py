@@ -35,7 +35,11 @@ class StockMove(models.Model):
     def _get_source_document(self):
         res = super()._get_source_document()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.sudo().sale_line_id.order_id or res
+=======
+        return self.sale_line_id.order_id or res
+>>>>>>> upstream/18.0
 =======
         return self.sale_line_id.order_id or res
 >>>>>>> upstream/18.0
@@ -147,15 +151,21 @@ class StockPicking(models.Model):
                 'product_uom': move.product_uom.id,
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if product.invoice_policy == 'delivery':
                 # Check if there is already a SO line for this product to get
                 # back its unit price (in case it was manually updated).
                 so_line = sale_order.order_line.filtered(lambda sol: sol.product_id == product)
 =======
+=======
+>>>>>>> upstream/18.0
             so_line = sale_order.order_line.filtered(lambda sol: sol.product_id == product)
             if product.invoice_policy == 'delivery':
                 # Check if there is already a SO line for this product to get
                 # back its unit price (in case it was manually updated).
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if so_line:
                     so_line_vals['price_unit'] = so_line[0].price_unit
@@ -163,6 +173,12 @@ class StockPicking(models.Model):
                 # No unit price if the product is invoiced on the ordered qty.
                 so_line_vals['price_unit'] = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # New lines should be added at the bottom of the SO (higher sequence number)
+            if not so_line:
+                so_line_vals['sequence'] = max(sale_order.order_line.mapped('sequence')) + len(sale_order_lines_vals) + 1
+>>>>>>> upstream/18.0
 =======
             # New lines should be added at the bottom of the SO (higher sequence number)
             if not so_line:

@@ -72,6 +72,7 @@ export class EventRegistrationPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     confirm() {
         const required = Object.values(this.state.byRegistration).some((data) => {
             for (const [id, value] of Object.entries(data.questions)) {
@@ -79,6 +80,8 @@ export class EventRegistrationPopup extends Component {
 
                 if (question && question.is_mandatory_answer && !value) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127,6 +130,9 @@ export class EventRegistrationPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173,8 +179,11 @@ export class EventRegistrationPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (required) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219,6 +228,9 @@ export class EventRegistrationPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

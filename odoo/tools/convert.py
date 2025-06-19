@@ -349,7 +349,10 @@ form: module.record_id""" % (xml_id,)
             if record := env['ir.model.data']._load_xmlid(xid):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 for child in rec.xpath('.//record[@id]'):
@@ -360,6 +363,9 @@ form: module.record_id""" % (xml_id,)
                         self.idref[sub_xid] = sub_record.id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

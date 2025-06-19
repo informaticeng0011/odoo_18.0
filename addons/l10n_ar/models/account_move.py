@@ -380,6 +380,11 @@ class AccountMove(models.Model):
 
         def grouping_function(base_line, tax_data):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None

@@ -70,6 +70,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
     def _compute_l10n_es_is_simplified(self):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
@@ -200,6 +201,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # Note: We depend on 'line_ids.balance' instead of 'amount_total_signed' directly.
     # Otherwise the field is recomputed when the 'state' changes (since 'amount_total_signed' depends on it);
     # the recomputation would i.e. happen when confirming the invoice and override any manual edits of the field.
@@ -217,6 +220,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244,6 +248,8 @@ class AccountMove(models.Model):
         simplified_partner = self.env.ref('l10n_es.partner_simplified', raise_if_not_found=False)
         for move in self:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _compute_l10n_es_is_simplified(self):
@@ -251,6 +257,9 @@ class AccountMove(models.Model):
         for move in self:
             currency_id = move.currency_id or move.company_id.currency_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259,6 +268,7 @@ class AccountMove(models.Model):
                 or (simplified_partner and move.partner_id == simplified_partner)
                 or (move.move_type in ('out_invoice', 'out_refund')
                     and not move.commercial_partner_id.vat
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     and move.currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0
@@ -441,6 +451,11 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                    and currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0
+                    and move.commercial_partner_id.country_id in self.env.ref('base.europe').country_ids
+                )
 >>>>>>> upstream/18.0
 =======
                     and currency_id.compare_amounts(abs(move.amount_total_signed), move.company_id.l10n_es_simplified_invoice_limit) <= 0

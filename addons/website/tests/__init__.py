@@ -39,6 +39,10 @@ from . import test_res_users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_sitemap
+>>>>>>> upstream/18.0
 =======
 from . import test_sitemap
 >>>>>>> upstream/18.0

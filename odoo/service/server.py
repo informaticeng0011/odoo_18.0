@@ -17,6 +17,10 @@ import threading
 import time
 import contextlib
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from email.utils import parsedate_to_datetime
+>>>>>>> upstream/18.0
 =======
 from email.utils import parsedate_to_datetime
 >>>>>>> upstream/18.0
@@ -126,12 +130,18 @@ class BaseWSGIServerNoBind(LoggingBaseWSGIServerMixIn, werkzeug.serving.BaseWSGI
 
 class RequestHandler(werkzeug.serving.WSGIRequestHandler):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def __init__(self, *args, **kwargs):
         self._sent_date_header = None
         self._sent_server_header = None
         super().__init__(*args, **kwargs)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def setup(self):
         # timeout to avoid chrome headless preconnect during tests
@@ -162,7 +172,10 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
             self.close_connection = True
             return
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         if keyword.casefold() == 'date':
             if self._sent_date_header is None:
@@ -190,6 +203,9 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
                     "sending two different Server response headers: %r vs %r",
                     self._sent_server_header, value)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         super().send_header(keyword, value)
 

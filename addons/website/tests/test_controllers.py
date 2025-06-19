@@ -174,7 +174,10 @@ class TestControllers(tests.HttpCase):
                 self.assertIn('test suggestion', result)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -199,6 +202,9 @@ class TestControllers(tests.HttpCase):
         self.assertEqual(res.status_code, 200)
         self.assertEqual(res.text, "{'message': 'Succeeded'}")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

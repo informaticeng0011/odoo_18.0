@@ -234,7 +234,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                    domain="[('type_tax_use', '=?', parent.counterpart_type if parent.counterpart_type in ('sale', 'purchase') and rule_type == 'writeoff_button' else None)]"/>
+=======
+                                                   domain="[('type_tax_use', '=?', parent.counterpart_type if parent.counterpart_type in ('sale', 'purchase') and rule_type == 'writeoff_button' else None)]"
+                                                   context="{'append_type_to_tax_name': True}"/>
+>>>>>>> upstream/18.0
 =======
                                                    domain="[('type_tax_use', '=?', parent.counterpart_type if parent.counterpart_type in ('sale', 'purchase') and rule_type == 'writeoff_button' else None)]"
                                                    context="{'append_type_to_tax_name': True}"/>

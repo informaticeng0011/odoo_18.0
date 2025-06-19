@@ -450,7 +450,10 @@ class TestHttpStatic(TestHttpStaticCommon):
                 self.assertEqual(res.content, self.gizeh_data)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_static24_only_one_date_header(self):
         res = self.assertDownloadPlaceholder('/web/image')
         # requests merge multiple headers with a same key together, it
@@ -483,6 +486,9 @@ class TestHttpStatic(TestHttpStaticCommon):
                 self.assertIn("ir.mail_server.smtp_ssl_certificate", capture.output[0])
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 @tagged('post_install', '-at_install')
 class TestHttpStaticLogo(TestHttpStaticCommon):

@@ -35,7 +35,11 @@ class IrActionsReport(models.Model):
                     record = self.env[attachment.res_model].browse(attachment.res_id)
                     try:
                         stream = pdf.add_banner(stream, record.name or '', logo=True)
+<<<<<<< HEAD
                     except (ValueError, PdfReadError, TypeError, zlib_error, NotImplementedError, DependencyError):
+=======
+                    except (ValueError, PdfReadError, TypeError, zlib_error, NotImplementedError, DependencyError, ArithmeticError):
+>>>>>>> upstream/18.0
                         record._message_log(body=_(
                             "There was an error when trying to add the banner to the original PDF.\n"
                             "Please make sure the source file is valid."
@@ -78,7 +82,11 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return report.is_invoice_report or report.report_name == 'account.report_invoice'
+=======
+        return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
+>>>>>>> upstream/18.0
 =======
         return (report.is_invoice_report and report.model == 'account.move') or report.report_name == 'account.report_invoice'
 >>>>>>> upstream/18.0

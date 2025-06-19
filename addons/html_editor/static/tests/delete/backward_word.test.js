@@ -2,6 +2,10 @@ import { test } from "@odoo/hoot";
 import { press } from "@odoo/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
+<<<<<<< HEAD
+=======
+import { mockUserAgent } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 
 // CTRL+BACKSPACE
 test("should not remove the last p with ctrl+backspace", async () => {
@@ -108,3 +112,15 @@ test("should not merge an unbreakable element on CTRL+BACKSPACE (2)", async () =
             <div class="oe_unbreakable">[]def</div>`),
     });
 });
+<<<<<<< HEAD
+=======
+
+test("Should delete last word on MacOS", async () => {
+    mockUserAgent("mac");
+    await testEditor({
+        contentBefore: `<p>hello world[]</p>`,
+        stepFunction: () => press(["Alt", "Backspace"]),
+        contentAfter: `<p>hello&nbsp;[]</p>`,
+    });
+});
+>>>>>>> upstream/18.0

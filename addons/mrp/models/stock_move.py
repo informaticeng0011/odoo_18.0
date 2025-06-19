@@ -138,9 +138,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
             line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +170,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -593,7 +599,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super()._should_bypass_reservation(forced_location) or self.product_id.is_kits
+=======
+        return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
+>>>>>>> upstream/18.0
 =======
         return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
 >>>>>>> upstream/18.0
@@ -837,7 +847,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -859,6 +872,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

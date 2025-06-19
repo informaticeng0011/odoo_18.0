@@ -155,6 +155,7 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -175,6 +176,15 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
         if (this.translatedProductName && label.startsWith(this.translatedProductName)) {
             // Remove the translated name as it is already shown to the salesman on the SOL.
             label = label.slice(label.indexOf("\n") + 1);
+=======
+    get label() {
+        let label = this.props.record.data.name;
+        if (this.translatedProductName && label.startsWith(this.translatedProductName)) {
+            // Remove the translated name as it is already shown to the salesman on the SOL.
+            label = label.slice(this.translatedProductName.length + 1);  // + "\n"
+        } else {
+            label = super.label;
+>>>>>>> upstream/18.0
         }
         return label;
     }
@@ -184,15 +194,24 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
     }
 
     updateLabel(value) {
+<<<<<<< HEAD
         if (this.translatedProductName === undefined) {
             // View was not updated to include `translatedProductName`
+=======
+        if (!this.translatedProductName) {
+>>>>>>> upstream/18.0
             return super.updateLabel(value);
         }
         this.props.record.update({
             name: (
+<<<<<<< HEAD
                 this.translatedProductName && value && this.translatedProductName.concat("\n", value)
                 || !value && this.translatedProductName
                 || value
+=======
+                value && this.translatedProductName.concat("\n", value)
+                || this.translatedProductName
+>>>>>>> upstream/18.0
             ),
         });
     }
@@ -204,6 +223,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

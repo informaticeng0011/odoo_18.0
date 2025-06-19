@@ -108,6 +108,11 @@ This module contains all the common features of Sales Management and eCommerce.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sale/static/tests/sale_test_helpers.js',
+            'sale/static/tests/**/*.test.js',
+>>>>>>> upstream/18.0
 =======
             'sale/static/tests/sale_test_helpers.js',
             'sale/static/tests/**/*.test.js',
@@ -153,6 +158,11 @@ This module contains all the common features of Sales Management and eCommerce.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'sale/static/tests/sale_test_helpers.js'),
+            ('remove', 'sale/static/tests/**/*.test.js'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'sale/static/tests/sale_test_helpers.js'),
             ('remove', 'sale/static/tests/**/*.test.js'),

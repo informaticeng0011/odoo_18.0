@@ -31,6 +31,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryFirst,
+>>>>>>> upstream/18.0
 =======
     queryFirst,
 >>>>>>> upstream/18.0
@@ -118,7 +122,11 @@ import { getParentFrame } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountForTest, parseUrl, waitForIframes } from "../local_helpers";
+=======
+import { mountForTest, parseUrl } from "../local_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
@@ -408,8 +416,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -621,7 +632,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -812,7 +826,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `Could not find elements matching "never" within 1 milliseconds`
+=======
+            `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
+>>>>>>> upstream/18.0
 =======
             `expected at least 1 element after 1ms and found 0 elements: 0 matching "never"`
 >>>>>>> upstream/18.0
@@ -1005,8 +1023,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1358,8 +1379,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1641,7 +1665,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1715,6 +1742,12 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expect(() => queryFirst("invalid:pseudo-selector")).toThrow();
+            // Perform in-between valid query with custom pseudo selectors
+            expect(queryFirst(".modal:visible:contains('Tung Tung Tung Sahur')")).toBe(null);
+>>>>>>> upstream/18.0
 =======
             expect(() => queryFirst("invalid:pseudo-selector")).toThrow();
             // Perform in-between valid query with custom pseudo selectors
@@ -1829,6 +1862,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

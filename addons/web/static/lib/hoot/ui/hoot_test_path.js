@@ -77,8 +77,12 @@ export class HootTestPath extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             type="'suite'"
                             id="suite.id"
+=======
+                            ids="{ suite: suite.id }"
+>>>>>>> upstream/18.0
 =======
                             ids="{ suite: suite.id }"
 >>>>>>> upstream/18.0

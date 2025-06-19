@@ -295,6 +295,22 @@ describe("Range collapsed", () => {
                 `),
             });
         });
+<<<<<<< HEAD
+=======
+
+        test("should convert list item with line breaks into a single paragraph", async () => {
+            await testEditor({
+                contentBefore: "<ul><li>ab<br>cd<br>ef[]</li></ul>",
+                stepFunction: toggleUnorderedList,
+                contentAfter: "<p>ab<br>cd<br>ef[]</p>",
+            });
+            await testEditor({
+                contentBefore: "<ul><li>ab<br><b>cd</b><br><i>ef[]</i></li></ul>",
+                stepFunction: toggleUnorderedList,
+                contentAfter: "<p>ab<br><b>cd</b><br><i>ef[]</i></p>",
+            });
+        });
+>>>>>>> upstream/18.0
     });
     describe("Transform", () => {
         test("should turn an empty ordered list into an unordered list", async () => {

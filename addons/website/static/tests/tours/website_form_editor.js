@@ -391,7 +391,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     }, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         content: "Check that the label has been changed on the snippet",
@@ -400,6 +403,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         run: function () {},
     }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -409,10 +415,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     }, {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Change first Option 3 label",
         trigger: 'we-list table input:eq(2)',
         run: "edit France",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         content: "Check that the label has been changed on the snippet",
@@ -429,6 +438,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
             ":has(option:contains('France'))",
         run: function () {},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -454,10 +466,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         content: "Change last Option label",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
         // TODO: Fix code to avoid blur event
         run: "edit Canada",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         trigger: "we-list table input:eq(3)[name='Item']",
@@ -470,6 +485,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
             ":has(option:contains('Canada'))",
         run: function () {},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -481,7 +499,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         content: "Check that the Germany option was removed",
@@ -492,6 +513,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -508,7 +532,11 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         content: "Change last option label with a number",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+>>>>>>> upstream/18.0
 =======
         trigger: "we-list table input:eq(3)[name='Item']",
 >>>>>>> upstream/18.0
