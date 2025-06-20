@@ -33,13 +33,19 @@ class ProductTemplate(models.Model):
 
     def _compute_purchased_product_qty(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         for template in self:
             template.purchased_product_qty = float_round(sum([p.purchased_product_qty for p in template.product_variant_ids]), precision_rounding=template.uom_id.rounding)
 =======
+=======
+>>>>>>> upstream/18.0
         for template in self.with_context(active_test=False):
             template.purchased_product_qty = float_round(sum(p.purchased_product_qty for
                 p in template.product_variant_ids), precision_rounding=template.uom_id.rounding
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _get_backend_root_menu_ids(self):
@@ -58,12 +64,18 @@ class ProductTemplate(models.Model):
     def action_view_po(self):
         action = self.env["ir.actions.actions"]._for_xml_id("purchase.action_purchase_history")
 <<<<<<< HEAD
+<<<<<<< HEAD
         action['domain'] = ['&', ('state', 'in', ['purchase', 'done']), ('product_id', 'in', self.product_variant_ids.ids)]
 =======
+=======
+>>>>>>> upstream/18.0
         action['domain'] = [
             ('state', 'in', ['purchase', 'done']),
             ('product_id', 'in', self.with_context(active_test=False).product_variant_ids.ids),
         ]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         action['display_name'] = _("Purchase History for %s", self.display_name)
         return action

@@ -3,9 +3,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
 from odoo.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo import Command
@@ -13,6 +16,9 @@ from odoo.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart
 from odoo.exceptions import AccessError
 from odoo.tests import tagged
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138,7 +144,10 @@ class TestAccessRights(TestCommonSalePurchaseNoChart):
         self.assertEqual(po.state, 'purchase')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -183,6 +192,9 @@ class TestAccessRights(TestCommonSalePurchaseNoChart):
         with self.assertRaises(AccessError, msg='Sales user is not allowed to access a PO'):
             po.with_user(self.user_salesperson).button_confirm()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

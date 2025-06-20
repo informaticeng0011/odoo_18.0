@@ -82,7 +82,11 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 personas.find((persona) => persona.eq(component.store.self))
+=======
+                                component.props.thread.effectiveSelf.in(personas)
+>>>>>>> upstream/18.0
 =======
                                 component.props.thread.effectiveSelf.in(personas)
 >>>>>>> upstream/18.0

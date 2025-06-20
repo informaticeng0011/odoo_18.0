@@ -59,6 +59,7 @@ import { outdatedPageWatcherService } from "@bus/outdated_page_watcher_service";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { patchWithCleanup } from "@web/../tests/legacy/helpers/utils";
 import { assertSteps, click, contains, step } from "@web/../tests/legacy/utils";
@@ -94,6 +95,8 @@ QUnit.test("disconnect during vacuum should ask for reload", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262,6 +265,9 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -438,6 +444,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -568,6 +577,7 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
     const pyEnv = await startServer();
     const { env } = await createWebClient({
         mockRPC(route) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,6 +779,8 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (route === "/bus/has_missed_notifications") {
                 return true;
             }
@@ -836,6 +848,7 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -890,6 +903,9 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    env.services.multi_tab.setSharedValue("last_notification_id", 1);
 >>>>>>> upstream/18.0
 =======
     env.services.multi_tab.setSharedValue("last_notification_id", 1);
@@ -1061,7 +1077,10 @@ QUnit.test("disconnect during bus gc should ask for reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1217,6 +1236,10 @@ QUnit.test("reconnect after going offline after bus gc should ask for reload", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    env.services.multi_tab.setSharedValue("last_notification_id", 1);
+>>>>>>> upstream/18.0
 =======
     env.services.multi_tab.setSharedValue("last_notification_id", 1);
 >>>>>>> upstream/18.0
@@ -1386,6 +1409,9 @@ QUnit.test("reconnect after going offline after bus gc should ask for reload", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

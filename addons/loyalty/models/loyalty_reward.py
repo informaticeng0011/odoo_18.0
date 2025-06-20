@@ -220,7 +220,11 @@ class LoyaltyReward(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise NotImplementedError("Unsupported search operator")
+=======
+            raise NotImplementedError(self.env._("Unsupported search operator"))
+>>>>>>> upstream/18.0
 =======
             raise NotImplementedError(self.env._("Unsupported search operator"))
 >>>>>>> upstream/18.0

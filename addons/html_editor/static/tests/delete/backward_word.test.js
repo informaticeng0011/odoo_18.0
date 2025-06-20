@@ -3,6 +3,10 @@ import { press } from "@odoo/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { mockUserAgent } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockUserAgent } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -113,7 +117,10 @@ test("should not merge an unbreakable element on CTRL+BACKSPACE (2)", async () =
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Should delete last word on MacOS", async () => {
     mockUserAgent("mac");
@@ -123,4 +130,7 @@ test("Should delete last word on MacOS", async () => {
         contentAfter: `<p>hello&nbsp;[]</p>`,
     });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

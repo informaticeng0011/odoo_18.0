@@ -34,6 +34,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getCellFormattedValue,
+>>>>>>> upstream/18.0
 =======
     getCellFormattedValue,
 >>>>>>> upstream/18.0
@@ -183,7 +187,10 @@ test("Boolean fields are correctly formatted", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -272,6 +279,9 @@ test("Numeric/monetary fields are correctly loaded and displayed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1207,7 +1217,11 @@ test("can import (export) action xml id", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 actionXmlId: "spreadsheet.test_action"
+=======
+                actionXmlId: "spreadsheet.test_action",
+>>>>>>> upstream/18.0
 =======
                 actionXmlId: "spreadsheet.test_action",
 >>>>>>> upstream/18.0

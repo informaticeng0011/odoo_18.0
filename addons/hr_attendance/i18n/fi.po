@@ -25,7 +25,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jessica Jakara, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108,6 +111,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Jessica Jakara, 2025
+>>>>>>> upstream/18.0
 =======
 # Jessica Jakara, 2025
 >>>>>>> upstream/18.0
@@ -199,7 +206,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025\n"
+=======
+"Last-Translator: Jessica Jakara, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Jessica Jakara, 2025\n"
 >>>>>>> upstream/18.0
@@ -618,10 +629,16 @@ msgstr "Automaattisesti hyväksytty"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "Kirjaudu automaattisesti ulos työntekijöistä heidän työaikataulujensa "
 "perusteella, ja sinulla on lisäasetuksia sallituissa aikarajoissa."
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -1188,8 +1205,13 @@ msgstr "Tunnista manuaalisesti"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
 msgstr ""
 "Jos valittu, raportissa näkyvät päivät, joita läsnäolopäivät eivät koske."
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__message_needaction
@@ -1441,7 +1463,11 @@ msgid "No Validated Overtime Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ei vahvistettuja ylityötunteja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ei vahvistettuja ylityötunteja"
 >>>>>>> upstream/18.0
@@ -1662,11 +1688,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "RFID-tunniste ja lukija tabletissa"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "Arviointi"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

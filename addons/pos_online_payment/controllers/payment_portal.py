@@ -97,7 +97,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
         user_sudo = request.env.user
         if not pos_order_sudo.partner_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0
@@ -183,7 +187,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
         user_sudo = request.env.user
         if not pos_order_sudo.partner_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_sudo = request.env.ref('base.public_user')
+=======
+            user_sudo = pos_order_sudo.company_id._get_public_user()
+>>>>>>> upstream/18.0
 =======
             user_sudo = pos_order_sudo.company_id._get_public_user()
 >>>>>>> upstream/18.0

@@ -48,7 +48,10 @@ registry.category("web_tour.tours").add('shop_checkout_address', {
 });
 
 registry.category("web_tour.tours").add('shop_checkout_address_create_partner', {
+<<<<<<< HEAD
     test: true,
+=======
+>>>>>>> upstream/18.0
     url: '/shop',
     steps: () => [
         ...tourUtils.addToCart({ productName: "Storage Box" }),

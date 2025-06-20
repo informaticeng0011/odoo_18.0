@@ -112,7 +112,10 @@ var ProductComparison = publicWidget.Widget.extend(VariantMixin, {
                     return;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 // Made changes based on `_hideBottomFixedElements` logic:
                 // bottom-fixed elements (e.g. compare list button) get
                 // hidden if overlapped by modals. In our case, the cookie
@@ -120,6 +123,9 @@ var ProductComparison = publicWidget.Widget.extend(VariantMixin, {
                 // to the top-left, we now ensure it stays visible when an
                 // item is added to the compare list.
                 self.el.classList.remove("o_bottom_fixed_element_hidden");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 self._addNewProducts(productId).then(function () {
                     website_sale_utils.animateClone(

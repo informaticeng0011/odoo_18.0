@@ -194,6 +194,10 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -326,6 +330,10 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -465,6 +473,10 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0
@@ -601,6 +613,10 @@ class TestItEdiReverseCharge(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'date': '2022-04-01',
+>>>>>>> upstream/18.0
 =======
             'date': '2022-04-01',
 >>>>>>> upstream/18.0

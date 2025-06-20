@@ -209,7 +209,10 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -406,6 +409,9 @@ class TestMrpValuationStandard(TestMrpValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -957,7 +963,10 @@ class TestMrpStockValuation(TestStockValuationBase):
         self.assertEqual(in_aml.product_id, self.product1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -996,6 +1005,9 @@ class TestMrpStockValuation(TestStockValuationBase):
         with Form(comp_move.move_line_ids[0]) as form:
             form.quantity = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

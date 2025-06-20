@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -71,7 +75,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -119,23 +127,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_crm.field_event_event__lead_count
 #: model:ir.model.fields,field_description:event_crm.field_event_registration__lead_count
 msgid "# Leads"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Potencialne stranke"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__registration_count
 msgid "# Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Registracije"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #. odoo-python
 #: code:addons/event_crm/models/event_registration.py:0
 msgid "(updated)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(posodobljeno)"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_view_form
 msgid "<span class=\"o_stat_text\"> Attendees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\"> Udeleženci</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_registration_view_form
@@ -156,38 +180,67 @@ msgstr "Arhivirano"
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__create
 msgid "Attendees are created"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udeleženci so ustvarjeni"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__confirm
 msgid "Attendees are registered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udeleženci so registrirani"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__done
 msgid "Attendees attended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udeleženci so se udeležili"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_tag_ids
 msgid "Automatically add these tags to the created leads."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno dodajte te oznake ustvarjenim potencialnim strankam."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_sales_team_id
 msgid "Automatically assign the created leads to this Sales Team."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno dodeli ustvarjene potencialne stranke tej prodajni ekipi."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_user_id
 msgid "Automatically assign the created leads to this Salesperson."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno dodeli ustvarjene potencialne stranke temu prodajalcu."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #. odoo-python
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Joj! Ni ustvarjenih potencialnih strank. Preverite pravila za ustvarjanje "
+"potencialnih strank in poskusite znova."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__company_id
@@ -197,7 +250,11 @@ msgstr "Podjetje"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__registration_count
 msgid "Counter for the registrations linked to this lead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Števec registracij, povezanih s to potencialno stranko"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_creation_basis
@@ -207,12 +264,20 @@ msgstr "Ustvari"
 #. module: event_crm
 #: model_terms:ir.actions.act_window,help:event_crm.event_lead_rule_action
 msgid "Create a Lead Generation Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite pravilo za pridobivanje potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_ids
 msgid "Created Leads"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarjene potencialne stranke"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__create_uid
@@ -227,7 +292,11 @@ msgstr "Ustvarjeno"
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Creation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta ustvarjanja"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_creation_trigger
@@ -236,11 +305,21 @@ msgid ""
 "Registered: at attendee registration, manually or automatically;\n"
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ustvarjanje: ob ustvarjanju udeleženca;\n"
+"Registriran: ob registraciji udeleženca, ročno ali samodejno;\n"
+"Udeležen: ko je udeležba potrjena in registracija končana;"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_type
 msgid "Default lead type when this rule is applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeta vrsta potencialne stranke, ko je to pravilo uporabljeno."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__display_name
@@ -258,17 +337,29 @@ msgstr "Dogodek"
 #. module: event_crm
 #: model:ir.actions.server,name:event_crm.ir_cron_generate_leads_ir_actions_server
 msgid "Event CRM: Generate Leads based on Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CRM za dogodke: Ustvarjanje potencialnih strank na podlagi pravil"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model,name:event_crm.model_event_lead_request
 msgid "Event Lead Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za vodenje dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model,name:event_crm.model_event_lead_rule
 msgid "Event Lead Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila za vodenje dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model,name:event_crm.model_event_registration
@@ -278,27 +369,47 @@ msgstr "Registracija dogodka"
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__event_type_ids
 msgid "Event Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloge dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.actions.act_window,name:event_crm.event_registration_action_from_lead
 msgid "Event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave na dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__event_id
 msgid "Event triggering the rule that created this lead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek, ki sproži pravilo, ki je ustvarilo to potencialno stranko"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_merge_summary_inherit_event_crm
 msgid "Event:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek:"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_registration_filter
 msgid "Filter the attendees that will or not generate leads."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Filtrirajte udeležence, ki bodo ali ne bodo ustvarili potencialnih strank."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_type_ids
@@ -306,6 +417,11 @@ msgid ""
 "Filter the attendees to include those of this specific event category. If "
 "not set, no event category restriction will be applied."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Filtriraj udeležence, da vključiš tiste iz te specifične kategorije dogodka."
+" Če ni nastavljeno, ne bo uporabljena nobena omejitev kategorije dogodka."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__event_id
@@ -313,11 +429,20 @@ msgid ""
 "Filter the attendees to include those of this specific event. If not set, no"
 " event restriction will be applied."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Filtriraj udeležence, da vključiš tiste, ki so bili na tem dogodku. Če ni "
+"nastavljeno, ne bo uporabljena nobena omejitev dogodka."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "For any of these Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za katerega koli od teh dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_view_form
@@ -334,7 +459,11 @@ msgid "Generate Leads"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiranje potencialnih strank"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generiranje potencialnih strank"
 >>>>>>> upstream/18.0
@@ -377,6 +506,11 @@ msgstr "Generiranje potencialnih strank"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Razumem! Vašo zahtevo smo zabeležili. Vaši potencialni kupci bodo kmalu "
+"ustvarjeni!"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__id
@@ -387,7 +521,11 @@ msgstr "ID"
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "If the Attendees meet these Conditions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Če udeleženci izpolnjujejo te pogoje"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__write_uid
@@ -407,12 +545,20 @@ msgstr "Indic"
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
 msgid "Lead Creation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta ustvarjanja potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Default Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzete vrednosti potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.ui.menu,name:event_crm.event_lead_rule_menu
@@ -423,17 +569,29 @@ msgstr "Ustvarjanje indicev"
 #: model:ir.actions.act_window,name:event_crm.event_lead_rule_action
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Generation Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo za pridobivanje potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
 msgid "Lead Generation Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila za pridobivanje potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_type
 msgid "Lead Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta potencialne stranke"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model,name:event_crm.model_crm_lead
@@ -452,7 +610,11 @@ msgstr "Indici"
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_event__lead_ids
 msgid "Leads generated from this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potencialne stranke, ustvarjene s tem dogodkom"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
@@ -463,29 +625,49 @@ msgstr "Naziv"
 #. odoo-python
 #: code:addons/event_crm/models/event_lead_rule.py:0
 msgid "New registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nove registracije"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.actions.act_window,help:event_crm.crm_lead_action_from_event
 #: model_terms:ir.actions.act_window,help:event_crm.crm_lead_action_from_registration
 msgid "No leads found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenih potencialnih strank"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.actions.act_window,help:event_crm.event_registration_action_from_lead
 msgid "No registration found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracije ni bilo mogoče najti"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_event__has_lead_request
 msgid "Ongoing Generation Request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zahteva za tekočo generacijo"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #. odoo-python
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Only Event Managers are allowed to re-generate all leads."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo vodje dogodkov lahko ponovno ustvarijo vse potencialne stranke."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_type__opportunity
@@ -501,7 +683,11 @@ msgstr "Udeleženci"
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__attendee
 msgid "Per Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na udeleženca"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__lead_creation_basis
@@ -509,36 +695,65 @@ msgid ""
 "Per Attendee: A Lead is created for each Attendee (B2C).\n"
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Na udeleženca: Za vsakega udeleženca se ustvari potencialna stranka (B2C).\n"
+"Na naročilo: Za vsako serijo vstopnic/prodajno naročilo (B2B) se ustvari ena potencialna stranka."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
 msgid "Per Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na naročilo"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__processed_registration_id
 msgid "Processed Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obdelana registracija"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__event_lead_rule_id
 msgid "Registration Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo registracije"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_merge_summary_inherit_event_crm
 msgid "Registration Rule:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo registracije:"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__event_registration_filter
 msgid "Registrations Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracije domen"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__registration_ids
 msgid "Registrations triggering the rule that created this lead"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Registracije, ki sprožijo pravilo, ki je ustvarilo to potencialno stranko"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_lead_rule__company_id
@@ -546,6 +761,11 @@ msgid ""
 "Restrict the trigger of this rule to events belonging to a specific company.\n"
 "If not set, no company restriction will be applied."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Omeji sprožitev tega pravila na dogodke, ki pripadajo določenemu podjetju.\n"
+"Če ni nastavljeno, ne bo uporabljena nobena omejitev za podjetje."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__name
@@ -555,12 +775,20 @@ msgstr "Ime pravila"
 #. module: event_crm
 #: model:event.lead.rule,name:event_crm.event_lead_rule_0
 msgid "Rule on @example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo na @example.com"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_crm_lead__event_lead_rule_id
 msgid "Rule that created this lead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo, ki je ustvarilo to potencialno stranko"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_sales_team_id
@@ -575,22 +803,39 @@ msgstr "Prodajalec"
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Search Lead Generation Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila za pridobivanje potencialnih strank v iskanju"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,help:event_crm.field_event_event__has_lead_request
 msgid "Set to True when a Lead Generation Request is currently running."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nastavite na True, ko se zahteva za pridobivanje potencialnih strank "
+"trenutno izvaja."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__event_id
 msgid "Source Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorni dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__registration_ids
 msgid "Source Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracije virov"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_tag_ids
@@ -603,22 +848,39 @@ msgid ""
 "The ID of the last processed event.registration, used to know where to "
 "resume."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ID zadnje obdelane registracije dogodka, ki se uporablja za ugotavljanje, "
+"kje nadaljevati."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.actions.act_window,help:event_crm.event_lead_rule_action
 msgid "Those automatically create leads when attendees register."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Te samodejno ustvarijo potencialne stranke, ko se udeleženci registrirajo."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Trigger Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta sprožilca"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #. odoo-python
 #: code:addons/event_crm/models/event_registration.py:0
 msgid "Updated registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posodobljene registracije"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_creation_trigger
@@ -629,14 +891,26 @@ msgstr "Kdaj"
 #. odoo-python
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Yee-ha, %(leads_count)s Leads have been created!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jee-ha, %(leads_count)s Potencialne stranke so bile ustvarjene!"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.constraint,message:event_crm.constraint_event_lead_request_uniq_event
 msgid "You can only have one generation request per event at a time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naenkrat lahko imate samo eno zahtevo za generiranje na dogodek."
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "e.g. B2B Fairs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. sejmi B2B"
+>>>>>>> upstream/18.0

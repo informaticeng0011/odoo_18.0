@@ -408,7 +408,10 @@ describe("Range collapsed", () => {
             });
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
         test("should convert list item with line breaks into a single paragraph", async () => {
             await testEditor({
@@ -423,6 +426,9 @@ describe("Range collapsed", () => {
                 contentAfter: "<p>ab<br><b>cd</b><br><i>ef[]</i></p>",
             });
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
 });

@@ -206,7 +206,11 @@ class ResPartner(models.Model):
             self_partner._get_peppol_edi_format(),
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self_partner.peppol_verification_state == 'valid':
+=======
+        if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
+>>>>>>> upstream/18.0
 =======
         if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
 >>>>>>> upstream/18.0

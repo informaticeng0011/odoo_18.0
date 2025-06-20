@@ -26,7 +26,11 @@ beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ProjectTask._views["form,false"] = `
+=======
+    ProjectTask._views["form"] = `
+>>>>>>> upstream/18.0
 =======
     ProjectTask._views["form"] = `
 >>>>>>> upstream/18.0

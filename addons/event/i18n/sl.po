@@ -55,6 +55,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -262,7 +266,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -447,19 +455,31 @@ msgstr "%(event_name)s ( Razprodano)"
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registracija #%(registration_id)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - Registracija za %(attendee_name)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(start_date)s to %(end_date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(start_date)s do %(end_date)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -488,12 +508,20 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_attendee_list
 msgid "'Attendee List - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Seznam udeležencev - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_attendee_list
 msgid "'Attendee List'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Seznam udeležencev'"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_badge
@@ -501,11 +529,20 @@ msgid ""
 "'Badge - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
 "(object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'Značka - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_badge
 msgid "'Badge - %s' % (object.name or 'Event').replace('/','')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Značka - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_full_page_ticket
@@ -513,16 +550,29 @@ msgid ""
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'Vstopnica na celo stran - %s - %s' % ((object.event_id.name or "
+"'Event').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_full_page_ticket
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'Vstopnica na celo stran - %s' % (object.name or 'Event').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
 msgid "+123456789"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+123456789"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -543,32 +593,56 @@ msgstr ""
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_2
 msgid "10-14"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10-14"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_formatted_event_address
 msgid "1000 Brussels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000 Bruselj"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_3
 msgid "15-18"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15-18"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_4
 msgid "18+"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "18+"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__four_per_sheet
 msgid "4 per sheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 na stran"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_1
 msgid "5-10"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5-10"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x134
@@ -578,7 +652,11 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x82
 msgid "96x82mm (Badge Printer)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "96x82mm (Tiskalnik značk)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -604,6 +682,11 @@ msgid ""
 "<b>The Design Fair is preceded by 2 days of Training Sessions for "
 "experts!</b><br> We propose 3 different training sessions, 2 days each."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>Sejmu oblikovanja predhodita 2 dni usposabljanj za strokovnjake!</b><br> "
+"Predlagamo 3 različne vadbene seje, vsako po 2 dni."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -612,6 +695,11 @@ msgid ""
 "more time for thematical meetings, conferences, workshops and tutorial "
 "sessions in the afternoon."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>Dopoldanska plenarna zasedanja bodo krajša</b> in popoldne bomo namenili "
+"več časa za tematska srečanja, konference, delavnice in seminarske vaje."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -622,11 +710,23 @@ msgid ""
 "contribute, there is a free ticket, therefore, catering and access to "
 "evening events aren't included."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>Celoten dogodek je odprt za vso javnost!</b> <br>Zahtevamo kotizacijo v "
+"višini 49,50 € za kritje stroškov za 3 dni (odmori za kavo, pogostitev, "
+"pijača in presenetljiv koncert s pivom).<br> Za tiste, ki ne želijo "
+"prispevati, je vstopnica brezplačna, zato pogostitev in dostop do večernih "
+"dogodkov nista vključena."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>Workshop Room</b> - Mainly for developers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Delavnica</b> - Predvsem za razvijalce."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
@@ -634,6 +734,11 @@ msgid ""
 "<br/>\n"
 "                                            <span class=\"me-1\">from</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">iz</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
@@ -641,6 +746,11 @@ msgid ""
 "<br/>\n"
 "                                            <span class=\"me-1\">to</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                            <span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -648,6 +758,11 @@ msgid ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">Air your tracks online through a Youtube integration</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">Predvajajte svoje skladbe na spletu prek integracije YouTuba</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -655,6 +770,11 @@ msgid ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">Share a quiz to your attendees once a track is over</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">Delite kviz z udeleženci, ko je skladba končana</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -665,11 +785,23 @@ msgid ""
 "community module, a case study, methodology feedback, technical, etc. Each "
 "presentation must be in English.</em>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<em>Če želite imeti predstavitev, prosimo, da čim prej pošljete svoj predlog"
+" teme v odobritev g. Famkeju Jenssensu na naslov ngh (a) yourcompany (pika) "
+"com. Predstavitve naj bodo na primer predstavitev modula skupnosti, študija "
+"primera, povratne informacije o metodologiji, tehnične informacije itd. "
+"Vsaka predstavitev mora biti v angleščini.</em>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -688,7 +820,11 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-group mt-1 me-2 text-center\" title=\"Attendees\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -711,17 +847,29 @@ msgstr ""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ticket\" title=\"Ticket type\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-2\" title=\"End date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -729,16 +877,30 @@ msgid ""
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-secondary o_wevent_badge float-"
+"end\">ZVOČNIK</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span class=\"me-1\">to</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1\">do</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
 msgid "<span class=\"o_event_badge_font_faded\">My Placeholder Company</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_event_badge_font_faded\">Moj nadomestni znak za "
+"podjetje</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -747,12 +909,22 @@ msgid ""
 "                                    Registration\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    Registracija\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_badge_card
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span>John Doe</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Janez Novak</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,body_html:event.event_registration_mail_template_badge
@@ -1467,7 +1639,11 @@ msgstr "Opis vstopnice, ki jo želite sporočiti svojim strankam."
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__a4_french_fold
 msgid "A4 foldable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A4 zložljivo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__a6
@@ -1549,7 +1725,11 @@ msgstr "Administrator"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_exhibitor
 msgid "Advanced Sponsors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napredni sponzorji"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_sub
@@ -1574,6 +1754,11 @@ msgid ""
 "All the communication emails sent to attendees will be translated in this "
 "language."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vsa komunikacijska e-poštna sporočila, poslana udeležencem, bodo prevedena v"
+" ta jezik."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_6
@@ -1586,6 +1771,11 @@ msgid ""
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"In tokrat gremo popolnoma na SPLETU! Spoznajte nas v naših prenosih v živo iz udobja svojega doma.<br>\n"
+"        Med različnimi prenosi bodo razdeljene posebne kode za popust, zato poskrbite, da boste tam pravočasno."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_announced
@@ -1640,7 +1830,11 @@ msgid "Answer Breakdown"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razčlenitev odgovorov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razčlenitev odgovorov"
 >>>>>>> upstream/18.0
@@ -1783,6 +1977,11 @@ msgid ""
 "Around one hundred ballons will simultaneously take flight and turn the sky "
 "into a beautiful canvas of colours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Približno sto balonov bo hkrati vzletelo in nebo spremenilo v čudovito "
+"barvno platno."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -1794,7 +1993,11 @@ msgstr "Kot ekipa z veseljem prispevamo k temu dogodku."
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_question__once_per_order
 msgid "Ask once per order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašajte enkrat na naročilo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -1804,6 +2007,13 @@ msgid ""
 "founded TinyERP. This was the first phase of OpenERP which would later "
 "became Odoo, the most installed open-source business software worldwide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pri komaj 13 letih je Janez Novak že začel razvijati svoje prve poslovne "
+"aplikacije za stranke. Po obvladovanju gradbeništva je ustanovil TinyERP. To"
+" je bila prva faza OpenERP, ki je kasneje postal Odoo, najpogosteje "
+"nameščena odprtokodna poslovna programska oprema na svetu."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_attachment_count
@@ -1838,13 +2048,21 @@ msgstr "Udeleženec"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_ids
 msgid "Attendee Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovori udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_attendee_list
 #: model:ir.actions.report,name:event.action_report_event_registration_attendee_list
 msgid "Attendee List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__name
@@ -1854,12 +2072,20 @@ msgstr "Ime udeleženca"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__registration_answer_choice_ids
 msgid "Attendee Selection Answers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovori za izbor udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Attendee list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.act_event_registration_from_event
@@ -1878,7 +2104,11 @@ msgstr "Udeleženci"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Auto-Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno tiskanje"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_available
@@ -1899,22 +2129,38 @@ msgstr ""
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_badge_96x82
 msgid "Badge (96x82mm)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka (96x82mm)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__badge_image
 msgid "Badge Background"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ozadje značke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__badge_format
 msgid "Badge Dimension"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dimenzija značke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_badge
 msgid "Badge Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primer značke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -1928,6 +2174,11 @@ msgid ""
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Skupine, kot so Bar Fighters, Led Slippers in Pink Floyd, vam bodo na našem "
+"tridnevnem dogodku ponudile šov stoletja."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__barcode
@@ -1938,7 +2189,11 @@ msgstr "Črtna koda"
 #. module: event
 #: model:ir.actions.client,name:event.event_barcode_action_main_view
 msgid "Barcode Interface"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vmesnik za črtno kodo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -1948,7 +2203,11 @@ msgstr "Nomenklatura črtne kode"
 #. module: event
 #: model:ir.model.constraint,message:event.constraint_event_registration_barcode_event_uniq
 msgid "Barcode should be unique"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Črtna koda mora biti edinstvena"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__before_event
@@ -1974,6 +2233,11 @@ msgid ""
 "Bloem brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bloem v lesno industrijo prinaša poštenost in resnost, hkrati pa strankam "
+"pomaga pri delu z drevesi, cvetjem in gobami."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_booked
@@ -1990,7 +2254,11 @@ msgstr "Rezerviral"
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_booth
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Booth Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje stojnic"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_5
@@ -1998,11 +2266,20 @@ msgid ""
 "Bring your outdoor field hockey season to the next level by taking the field"
 " at this 9th annual Field Hockey tournament."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dvignite svojo sezono hokeja na travi na prostem na višjo raven z udeležbo "
+"na tem 9. letnem turnirju v hokeju na travi."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_4
 msgid "Business workshops"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslovne delavnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_campaign_id
@@ -2030,7 +2307,11 @@ msgstr "Preklicano"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Cancelled registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preklicana registracija"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__category_id
@@ -2040,7 +2321,11 @@ msgstr "Kategorija"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__category_sequence
 msgid "Category Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaporedje kategorij"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
@@ -2048,6 +2333,11 @@ msgid ""
 "Chamber Works reserves the right to cancel, re-name or re-locate the event "
 "or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Zbornica si pridržuje pravico do odpovedi, preimenovanja ali spremembe "
+"lokacije dogodka ali spremembe datumov njegove izvedbe."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_type_id
@@ -2055,6 +2345,11 @@ msgid ""
 "Choose a template to auto-fill tickets, communications, descriptions and "
 "other fields."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izberite predlogo za samodejno izpolnjevanje polj za vstopnice, sporočila, "
+"opise in druga polja."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__color
@@ -2069,7 +2364,11 @@ msgstr "Barvni indeks"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_registration_report
 msgid "Come back once you have registrations to overview answers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrnite se, ko boste imeli prijave, da pregledate odgovore."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -2103,7 +2402,11 @@ msgid "Come see us live, we hope to meet you!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridite nas videti v živo, upamo, da se srečamo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridite nas videti v živo, upamo, da se srečamo!"
 >>>>>>> upstream/18.0
@@ -2200,7 +2503,11 @@ msgstr "Komunikacija v zvezi s prijavami na dogodke"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Community Chat Rooms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klepetalnice skupnosti"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -2272,7 +2579,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Confirm attendance?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrditi udeležbo?"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_partner
@@ -2293,7 +2604,11 @@ msgstr "Država"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Create Booths and manage their reservations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite kabine in upravljajte njihove rezervacije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
@@ -2303,12 +2618,20 @@ msgstr "Ustvari dogodek"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid "Create an Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite oder dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Create an Event Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvari kategorijo oznak dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
@@ -2354,7 +2677,11 @@ msgstr "Ustvarjeno"
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_1
 msgid "Culture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kultura"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2427,7 +2754,11 @@ msgid "Date Range"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datumsko obdobje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datumsko obdobje"
 >>>>>>> upstream/18.0
@@ -2593,6 +2924,12 @@ msgid ""
 "you will not be able to sell tickets anymore. Set 0 to ignore this rule set "
 "as unlimited."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Določite število razpoložljivih vstopnic. Če imate preveč registracij, "
+"vstopnic ne boste mogli več prodajati. Nastavite 0, da prezrete to pravilo, "
+"ki je nastavljeno kot neomejeno."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__description
@@ -2604,12 +2941,20 @@ msgstr "Opis"
 #. module: event
 #: model:event.event,name:event.event_0
 msgid "Design Fair Los Angeles"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sejem oblikovanja v Los Angelesu"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_4
 msgid "Discover how to grow a sustainable business with our experts."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkrijte, kako z našimi strokovnjaki razviti trajnostno podjetje."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -2621,7 +2966,11 @@ msgstr "Odkrijte več"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_meet
 msgid "Discussion Rooms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Diskusijske sobe"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__display_name
@@ -2644,12 +2993,20 @@ msgstr "Prikazani naziv"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Display Sponsors and Exhibitors on your event pages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikažite sponzorje in razstavljavce na straneh vaših dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
 msgid "Display Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz časovnega pasu"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__sequence
@@ -2667,6 +3024,11 @@ msgid ""
 "During this conference, our team will give a detailed overview of our "
 "business applications. You’ll know all the benefits of using it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Na tej konferenci vam bo naša ekipa podala podroben pregled naših poslovnih "
+"aplikacij. Spoznali boste vse prednosti njihove uporabe."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -2690,12 +3052,20 @@ msgstr "Predloge e-pošte"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Enable barcode scanning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogoči skeniranje črtnih kod"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_res_config_settings__use_event_barcode
 msgid "Enable or Disable Event Barcode functionality."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogočanje ali onemogočanje funkcionalnosti črtne kode dogodkov."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end
@@ -2715,12 +3085,20 @@ msgstr "Zaključna faza"
 #. module: event
 #: model:event.stage,name:event.event_stage_done
 msgid "Ended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Končano"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_2
 msgid "Enhance your architectural business and improve professional skills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izboljšajte svoje arhitekturno podjetje in izboljšajte strokovne spretnosti."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -2741,7 +3119,11 @@ msgstr "Dogodek"
 #. module: event
 #: model:ir.model,name:event.model_event_mail
 msgid "Event Automated Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno pošiljanje dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__event_type_id
@@ -2755,7 +3137,11 @@ msgstr "Kategorija dogodka"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_form
 msgid "Event Category Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka kategorije dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_end_date
@@ -2765,7 +3151,11 @@ msgstr "Končni datum dogodka"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Event Gamification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamifikacija dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -2786,7 +3176,11 @@ msgstr "Mail razporejevalnik dogodka"
 #. odoo-javascript
 #: code:addons/event/static/src/template_reference_field/field_event_mail_template_reference.js:0
 msgid "Event Mail Template Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenčna predloga za e-pošto z dogodki"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_activity
@@ -2807,12 +3201,20 @@ msgstr "Organizator dogodka"
 #. module: event
 #: model:ir.model,name:event.model_event_question
 msgid "Event Question"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašanje o dogodku"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_question_answer
 msgid "Event Question Answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor na vprašanje o dogodku"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_registration
@@ -2825,18 +3227,30 @@ msgstr "Registracija dogodka"
 #. module: event
 #: model:ir.model,name:event.model_event_registration_answer
 msgid "Event Registration Answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor na prijavo na dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/controllers/main.py:0
 msgid "Event Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave na dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_user_id
 msgid "Event Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovorni za dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2859,13 +3273,21 @@ msgstr ""
 #. module: event
 #: model:ir.model,name:event.model_event_stage
 msgid "Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oder dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_stage_action
 #: model:ir.ui.menu,name:event.event_stage_menu
 msgid "Event Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odri dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_begin_date
@@ -2902,19 +3324,31 @@ msgstr "Predloga za dogodek"
 #: model:ir.model,name:event.model_event_type_ticket
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_form_from_type
 msgid "Event Template Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga vstopnice za dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_tree_from_type
 msgid "Event Template Tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga za vstopnice za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
 #: model:ir.ui.menu,name:event.menu_event_type
 #: model_terms:ir.ui.view,arch_db:event.event_type_view_search
 msgid "Event Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloge dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
@@ -2923,6 +3357,12 @@ msgid ""
 "                usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Predloge dogodkov združujejo konfiguracije, ki jih pogosto uporabljate, in \n"
+"                običajno temeljijo na vrstah dogodkov, ki jih organizirate (npr. »Delavnica«,\n"
+"                \"Roadshow\", \"Spletni spletni seminar\", itd)."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_event_ticket
@@ -2939,7 +3379,11 @@ msgstr "Vrsta dogodka"
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_tree
 msgid "Event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave na dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
@@ -2947,6 +3391,11 @@ msgid ""
 "Event stages are used to track the progress of an Event from its origin "
 "until its conclusion."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Faze dogodka se uporabljajo za sledenje napredka dogodka od njegovega "
+"začetka do konca."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
@@ -2961,12 +3410,20 @@ msgstr "Dogodek: Mail razporejevalnik"
 #. module: event
 #: model:mail.template,name:event.event_registration_mail_template_badge
 msgid "Event: Registration Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek: Registracijska značka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_subscription
 msgid "Event: Registration Confirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodek: Potrditev registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_reminder
@@ -2994,7 +3451,11 @@ msgstr "Mail razporejevalnik dogodkov"
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_tree
 msgid "Events Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oder dogodkov"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_stage__pipe_end
@@ -3002,6 +3463,11 @@ msgid ""
 "Events will automatically be moved into this stage when they are finished. "
 "The event moved into this stage will automatically be set as green."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dogodki bodo samodejno premaknjeni na to stopnjo, ko bodo končani. Dogodek, "
+"premaknjen na to stopnjo, bo samodejno označen z zeleno barvo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_4
@@ -3011,6 +3477,11 @@ msgid ""
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vsako leto povabimo našo skupnost, partnerje in končne uporabnike, da nas obiščejo! To je idealen dogodek za druženje in predstavitev novih funkcij, načrta prihodnjih različic, dosežkov programske opreme, delavnic, usposabljanj itd.\n"
+"            Ta dogodek je tudi priložnost za predstavitev študij primerov, metodologije ali razvoja naših partnerjev. Bodite tam in si neposredno od vira oglejte funkcije nove različice!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -3020,6 +3491,13 @@ msgid ""
 "of future versions, achievements of the software, workshops, training "
 "sessions, etc...."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vsako leto povabimo našo skupnost, partnerje in končne uporabnike, da nas "
+"obiščejo! To je idealen dogodek za druženje in predstavitev novih funkcij, "
+"načrta prihodnjih različic, dosežkov programske opreme, delavnic, "
+"usposabljanj itd."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_0
@@ -3029,7 +3507,11 @@ msgstr "Razstava"
 #. module: event
 #: model:event.event,subtitle:event.event_3
 msgid "Experience live music, local food and beverages."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doživite živo glasbo, lokalno hrano in pijačo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_done
@@ -3037,6 +3519,11 @@ msgid ""
 "Finished events. Odoo will automatically move them to this stage once their "
 "end date has passed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Končani dogodki. Odoo jih bo samodejno premaknil na to stopnjo, ko bo minil "
+"njihov končni datum."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
@@ -3083,7 +3570,11 @@ msgstr ""
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_1
 msgid "For only 10, you gain access to catering. Yum yum."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za samo 10 dobite dostop do cateringa. Njami njami."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -3101,12 +3592,20 @@ msgstr "Prosto"
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_0
 msgid "Free entrance, no food!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstop prost, hrane ni!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_new
 msgid "Freshly created"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sveže ustvarjeno"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_registration
@@ -3115,6 +3614,11 @@ msgid ""
 "From this dashboard you can report, analyze and detect trends regarding your"
 " event registrations."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Na tej nadzorni plošči lahko poročate, analizirate in zaznavate trende v "
+"zvezi z registracijami na dogodke."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_full_page_ticket
@@ -3124,12 +3628,20 @@ msgstr "Celostranska vstopnica"
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_full_page_ticket
 msgid "Full Page Ticket Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primer celostranske vstopnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Functional flow of the main applications;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funkcionalni potek glavnih aplikacij;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
@@ -3140,22 +3652,38 @@ msgstr "Bodoče aktivnosti"
 #. module: event
 #: model:event.event.ticket,name:event.event_4_ticket_0
 msgid "General Admission"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Splošna vstopnina"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__general_question_ids
 msgid "General Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Splošna vprašanja"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_0
 msgid "Get Inspired • Stay Connected • Have Fun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poiščite navdih • Ostanite povezani • Zabavajte se"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_state
 msgid "Global communication Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status globalne komunikacije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -3165,27 +3693,47 @@ msgstr "Google zemljevidi"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_key
 msgid "Google Maps API key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ključ API-ja za Google Zemljevide"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_secret
 msgid "Google Maps API secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skrivnost API-ja za Google Zemljevide"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__use_google_maps_static_api
 msgid "Google Maps static API"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statični API za Google Zemljevide"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_1
 msgid "Great Reno Ballon Race"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Velika dirka balonov v Renu"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:web_tour.tour,rainbow_man_message:event.event_tour
 msgid "Great! Now all you have to do is wait for your attendees to show up!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odlično! Zdaj morate le še počakati, da se vaši udeleženci pojavijo!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_done
@@ -3207,7 +3755,11 @@ msgstr "Združi po"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Guest #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gost #"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -3238,7 +3790,11 @@ msgid "Happy to be Sponsor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vesel sem, da sem sponzor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vesel sem, da sem sponzor"
 >>>>>>> upstream/18.0
@@ -3321,17 +3877,29 @@ msgstr "Ima sporočilo"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Having attended this conference, participants should be able to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Po udeležbi na tej konferenci bi morali biti udeleženci sposobni:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "Here it is, the 12th edition of our Live Musical Festival!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tukaj je, 12. izdaja našega festivala glasbe v živo!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_5
 msgid "Hockey Tournament"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hokejski turnir"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -3393,7 +3961,11 @@ msgstr "Ikona"
 #. odoo-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbira ikone"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_exception_icon
@@ -3408,6 +3980,12 @@ msgid ""
 "propagated to every attendees.If not it will be asked for every attendee of "
 "a reservation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Če je vrednost Resnična, bo to vprašanje zastavljeno samo enkrat in njegova "
+"vrednost bo posredovana vsem udeležencem. Če ni, bo zastavljeno vsem "
+"udeležencem rezervacije."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_needaction
@@ -3428,11 +4006,20 @@ msgstr "Če je označeno, nekatera sporočila vsebujejo napako pri dostavi."
 msgid ""
 "If ticketing is used, contains the earliest starting sale date of tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Če se uporablja prodaja vstopnic, vsebuje najzgodnejši datum začetka prodaje"
+" vstopnic."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Če te vstopnice nimate, vam vstop <b>ni</b> dovoljen!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
@@ -3440,6 +4027,11 @@ msgid ""
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Če ne veste ničesar o hokeju, je to odličen uvod v ta čudoviti šport, saj si boste lahko ogledali nekaj treningov in imeli tudi nekaj časa\n"
+"                da se po koncu turnirja pogovorite z izkušenimi igralci in trenerji!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__now
@@ -3470,11 +4062,20 @@ msgid ""
 "Indicates the timezone in which the event dates/times will be displayed on "
 "the website."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Označuje časovni pas, v katerem bodo datumi/uri dogodkov prikazani na "
+"spletni strani."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Insert dynamic Google Maps in your email templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V predloge e-poštnih sporočil vstavite dinamične Google Zemljevide"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -3491,19 +4092,31 @@ msgstr "Interval"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Introduction, CRM, Sales Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvod, CRM, Upravljanje prodaje"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna izbira dogodka/vstopnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.js:0
 msgid "Invalid ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna vozovnica"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sale_available
@@ -3549,12 +4162,20 @@ msgstr "John DOE"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "John Doe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Janez Novak"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "Join us for the greatest ballon race of all times!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridružite se nam na največji balonski dirki vseh časov!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_4
@@ -3586,7 +4207,11 @@ msgstr "Kanban stanje"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__kanban_state_label
 msgid "Kanban State Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka stanja Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_done
@@ -3611,7 +4236,11 @@ msgstr "Zadnjih 30 dni"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__last_registration_id
 msgid "Last Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnji udeleženec"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__write_uid
@@ -3672,7 +4301,11 @@ msgstr "Omejeno število udeležencev"
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Limit Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omeji registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__has_seats_limitation
@@ -3682,17 +4315,29 @@ msgstr "Omejena mesta"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Live Broadcast"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenos v živo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_live
 msgid "Live Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način v živo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_3
 msgid "Live Music Festival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Festival žive glasbe"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__notification_type__mail
@@ -3736,7 +4381,11 @@ msgstr "E-pošta poslana"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Manage & publish a schedule with tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje in objavljanje urnika s skladbami"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -3778,7 +4427,11 @@ msgid "Mandatory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obvezno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obvezno"
 >>>>>>> upstream/18.0
@@ -3946,7 +4599,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -4101,7 +4758,11 @@ msgstr "Marc Demo"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Mark as Attending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi kot udeleženca"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
@@ -4123,7 +4784,11 @@ msgstr "Maksimalno število udeležencev"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__seats_max
 msgid "Maximum Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Največje število registracij"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
@@ -4250,7 +4915,11 @@ msgid "No Answers yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Še ni odgovorov!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Še ni odgovorov!"
 >>>>>>> upstream/18.0
@@ -4363,7 +5032,11 @@ msgstr "Še ni odgovorov!"
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_registration_action
 msgid "No Attendees expected yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udeleženci še niso pričakovali!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.act_event_registration_from_event
@@ -4418,12 +5091,20 @@ msgstr "Število udeležencev"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_reserved
 msgid "Number of Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število registracij"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_taken
 msgid "Number of Taken Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število zasedenih sedežev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_error_counter
@@ -4451,7 +5132,11 @@ msgstr "Cilji"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
 msgid "Odoo Community Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevi skupnosti Odoo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
@@ -4462,7 +5147,11 @@ msgstr "Ponovno smo zbrali najbolj legendarne skupine v zgodovini rocka."
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Once per Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enkrat na naročilo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -4478,12 +5167,20 @@ msgstr "Spletno"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "Online Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Online Exhibitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletni razstavljavci"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_sale
@@ -4493,13 +5190,22 @@ msgstr "Spletne vstopnice"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Online if not set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na spletu, če ni nastavljeno"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker.<br/>Pick a Start and End date for your event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Odpri izbirnik datumskega obdobja.<br/>Izberite začetni in končni datum za "
+"vaš dogodek."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -4507,11 +5213,20 @@ msgid ""
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the"
 " event or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Aplikacije OpenElec si pridržuje pravico do odpovedi, preimenovanja ali "
+"spremembe lokacije dogodka ali spremembe datumov njegove izvedbe."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_7
 msgid "OpenWood Collection Online Reveal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spletna predstavitev zbirke OpenWood"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -4541,6 +5256,10 @@ msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preglasi privzeto vrednost, prikazano za blokirano stanje za izbiro kanbana."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_done
@@ -4549,6 +5268,10 @@ msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preglasi privzeto vrednost, prikazano za stanje »končano« za izbiro kanbana."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_normal
@@ -4557,6 +5280,10 @@ msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preglasi privzeto vrednost, prikazano za normalno stanje za izbiro kanbana."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
@@ -4579,7 +5306,11 @@ msgstr "Telefon"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Phone number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefonska številka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
@@ -4591,7 +5322,11 @@ msgstr "Prdite<b>vsaj</b>30 minut pred začetkom dogodka."
 #. odoo-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnesite veljaven skrivni kod base64"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -4627,7 +5362,11 @@ msgid "Please, Scan again!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosim, skenirajte še enkrat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosim, skenirajte še enkrat!"
 >>>>>>> upstream/18.0
@@ -4722,7 +5461,11 @@ msgstr "Prosim, skenirajte še enkrat!"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Point of Sale (POS), Introduction to report customization."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajno mesto (POS), uvod v prilagajanje poročil."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -4749,7 +5492,11 @@ msgstr "Lastnosti"
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nabava, prodaja in upravljanje nabave, finančno računovodstvo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
@@ -4807,7 +5554,11 @@ msgid "QR Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR Koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR Koda"
 >>>>>>> upstream/18.0
@@ -4971,13 +5722,21 @@ msgstr "Vprašanje"
 #: model:ir.model.fields,field_description:event.field_event_question__question_type
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__question_type
 msgid "Question Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vprašanja"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_question.py:0
 msgid "Question cannot be linked to both an Event and an Event Type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vprašanja ni mogoče povezati z dogodkom in vrsto dogodka hkrati."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__question_ids
@@ -4991,7 +5750,11 @@ msgstr "Vprašanja"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_quiz
 msgid "Quiz on Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz o tirnicah"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__rating_ids
@@ -5015,6 +5778,10 @@ msgstr "Pripravljeno za naslednjo stopnjo"
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ste pripravljeni <b>organizirati dogodke</b> v nekaj minutah? Pa začnimo!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_blocked
@@ -5055,17 +5822,29 @@ msgstr "Datum registracije"
 #: model:res.groups,name:event.group_event_registration_desk
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Registration Desk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijska miza"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__end_sale_datetime
 msgid "Registration End"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konec registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_mail_registration
@@ -5080,33 +5859,57 @@ msgstr "Ragistracijski maili"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__registration_properties_definition
 msgid "Registration Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lastnosti registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__start_sale_datetime
 msgid "Registration Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začetek registracije"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija za %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracijska pošta"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_open
 msgid "Registration open"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija odprta"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_stats_from_event
 msgid "Registration statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statistika registracij"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__registration_ids
@@ -5121,11 +5924,22 @@ msgid ""
 "- there are seats available on event\n"
 "- the tickets are sellable (if ticketing is used)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Prijave so odprte, če:\n"
+"- dogodek še ni končan\n"
+"- so na dogodku na voljo sedeži\n"
+"- so vstopnice naprodaj (če se uporablja sistem za prodajo vstopnic)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_started
 msgid "Registrations started"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave so se začele"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_reporting_events
@@ -5163,12 +5977,20 @@ msgstr "Odgovorni uporabnik"
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_responsive_html_ticket
 msgid "Responsive Html Full Page Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odziven HTML celostranski obrazec za vstopnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_formatted_event_address
 msgid "Rue de la Paix 123"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rue de la Paix 123"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__mail_state__running
@@ -5185,7 +6007,11 @@ msgstr "Napaka pri dostavi SMS "
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Scan or Tap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skeniraj ali tapni"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -5219,12 +6045,20 @@ msgstr "Načrtovan čas"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__mail_registration_ids
 msgid "Scheduler Emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-poštna sporočila razporejevalnika"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
 msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izkušeni ljubitelji hokeja in radovedneži, ta turnir je za vas!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -5262,7 +6096,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skrivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skrivnost"
 >>>>>>> upstream/18.0
@@ -5367,18 +6205,30 @@ msgstr "Skrivnost"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_barcode.xml:0
 msgid "Select Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite udeleženca"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Select printer..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite tiskalnik ..."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_answer_view_tree
 msgid "Selected answer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbrani odgovor"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__simple_choice
@@ -5393,7 +6243,11 @@ msgstr "Prodaj vstopnice na spletni strani"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets with Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja vstopnic prek prodajnega mesta"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -5428,12 +6282,20 @@ msgstr ""
 #. module: event
 #: model:mail.template,description:event.event_registration_mail_template_badge
 msgid "Sent automatically to someone after they registered to an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno poslano nekomu po prijavi na dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_subscription
 msgid "Sent to attendees after registering to an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano udeležencem po prijavi na dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sequence
@@ -5459,6 +6321,11 @@ msgid ""
 "Shangai Pterocarpus Furniture brings honesty and seriousness to wood "
 "industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pohištvo Shangai Pterocarpus v lesno industrijo prinaša poštenost in "
+"resnost, hkrati pa strankam pomaga pri delu z drevesi, cvetjem in glivami."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
@@ -5482,7 +6349,11 @@ msgstr "Vir"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__specific_question_ids
 msgid "Specific Questions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Specifična vprašanja"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_3
@@ -5499,7 +6370,11 @@ msgstr "Stopnja"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Stage Description and Tooltips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis stopnje in opisi orodij"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__name
@@ -5533,19 +6408,31 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__start_sale_datetime
 msgid "Start sale date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum začetka prodaje"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url
 msgid "Static Map Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL statičnega zemljevida"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url_is_valid
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url_is_valid
 msgid "Static Map Url Is Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL statičnega zemljevida je veljaven"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -5576,7 +6463,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Successfully registered!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uspešno registrirano!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__value_answer_id
@@ -5589,6 +6480,11 @@ msgid ""
 "Tag color. No color means no display in kanban or front-end, to distinguish "
 "internal tags from public categorization tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Barva oznake. Če ni barve, se ne prikaže v kanbanu ali vmesniku, da se "
+"ločijo interne oznake od javnih oznak za kategorizacijo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__tag_ids
@@ -5601,12 +6497,20 @@ msgstr "Ključne besede"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Taken"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posneto"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_taken
 msgid "Taken Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zasedeni sedeži"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -5633,7 +6537,11 @@ msgstr "Predloga"
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_question__question_type__text_box
 msgid "Text Input"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnos besedila"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration_answer__value_text_box
@@ -5664,12 +6572,21 @@ msgid ""
 "The best aeronauts of the world will gather on this event to offer you the "
 "most spectacular show."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Najboljši aeronavti sveta se bodo zbrali na tem dogodku, da bi vam ponudili "
+"najbolj spektakularen šov."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Končni datum ne more biti pred začetnim datumom."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_cancelled
@@ -5687,13 +6604,23 @@ msgid ""
 "The event is sold out if no more seats are available on event. If ticketing "
 "is used and all tickets are sold out, the event will be sold out."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dogodek je razprodan, če na njem ni več na voljo nobenih sedežev. Če se "
+"uporabi prodaja vstopnic in so vse vstopnice razprodane, bo dogodek "
+"razprodan."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid ""
 "The finest OpenWood furnitures are coming to your house in a brand new "
 "collection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najboljše pohištvo OpenWood prihaja v vaš dom v povsem novi kolekciji"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -5702,11 +6629,20 @@ msgid ""
 "The following tickets cannot be deleted while they have one or more registrations linked to them:\n"
 "- %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naslednjih vstopnic ni mogoče izbrisati, če je z njimi povezana ena ali več registracij:\n"
+"- %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "The safety of our attendees and our aeronauts comes first!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varnost naših udeležencev in naših letalcev je na prvem mestu!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -5715,6 +6651,11 @@ msgid ""
 "The stop date cannot be earlier than the start date. Please check ticket "
 "%(ticket_name)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Datum konca ne more biti pred datumom začetka. Prosimo, preverite vozovnico."
+" %(ticket_name)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -5726,7 +6667,11 @@ msgstr "Na voljo je premalo sedežev za:"
 #. module: event
 #: model:ir.model.constraint,message:event.constraint_event_registration_answer_value_check
 msgid "There must be a suggested value or a text value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obstajati mora predlagana vrednost ali besedilna vrednost."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -5735,6 +6680,12 @@ msgid ""
 "methodology or developments. Be there and see directly from the source the "
 "features of the version 12!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ta dogodek je tudi priložnost za predstavitev študij primerov, metodologije "
+"ali razvoja naših partnerjev. Bodite tam in si neposredno od vira oglejte "
+"funkcije različice 12!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -5742,6 +6693,11 @@ msgid ""
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ta dogodek je v celoti na spletu in BREZPLAČEN, če ste plačali za vstopnice, bi morali dobiti povrnjen denar.<br>\n"
+"        Za najboljšo kakovost videa bo potrebna dobra internetna povezava."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__ticket_instructions
@@ -5761,6 +6717,11 @@ msgid ""
 "This is the perfect place for spending a nice day with your family, we "
 "guarantee you will be leaving with beautiful everlasting memories!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"To je idealen kraj za preživljanje lepega dne z družino, zagotavljamo vam, "
+"da boste odšli z lepimi in trajnimi spomini!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
@@ -5780,19 +6741,31 @@ msgstr "Ta operater ni podprt"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "This step is done. Click to block or set in progress."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta korak je končan. Kliknite za blokiranje ali nastavitev v teku."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is for another event!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta vstopnica je za drug dogodek!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "This ticket is not for an ongoing event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta vstopnica ni za dogodek, ki je v teku"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -5808,7 +6781,11 @@ msgstr "Zahtevek"
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Ticket Instructions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navodila za vstopnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -5823,12 +6800,20 @@ msgstr "Tip zahtevka"
 #. odoo-javascript
 #: code:addons/event/static/src/client_action/event_registration_summary_dialog.xml:0
 msgid "Ticket already scanned!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnica je že skenirana!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.attendee_list
 msgid "Ticket type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta vozovnice"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -5837,6 +6822,11 @@ msgid ""
 "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a "
 "new one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vrste vstopnic vam omogočajo razlikovanje udeležencev.  <b>Ustvarimo</b> "
+"novo."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -5857,12 +6847,20 @@ msgstr ""
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_pos_event
 msgid "Tickets with PoS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnice s PoS"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_sale
 msgid "Tickets with Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vstopnice s prodajo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__default_timezone
@@ -5889,7 +6887,11 @@ msgstr "Skupaj"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Total Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupno število udeležencev"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -5899,7 +6901,11 @@ msgstr "Skupno število prijav na ta dogodek"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track
 msgid "Tracks and Agenda"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skladbe in dnevni red"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_1
@@ -5912,6 +6918,11 @@ msgid ""
 "Tree Dealers brings honesty and seriousness to wood industry while helping "
 "customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Trgovci z drevesi v lesno industrijo prinašajo poštenost in resnost, hkrati "
+"pa strankam pomagajo pri delu z drevesi, cvetjem in gobami."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_type
@@ -5950,6 +6961,13 @@ msgid ""
 "Attended: registrations for which the attendee attended the event\n"
 "Cancelled: registrations cancelled manually"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nepotrjeno: registracije v stanju čakanja na ukrepanje (poseben primer, zlasti s statusom prodaje).\n"
+"Registrirano: registracije, ki jih stranka šteje za zasedene.\n"
+"Udeleženo: registracije, za katere se je udeleženec udeležil dogodka.\n"
+"Preklicano: registracije, ročno preklicane."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_mail
@@ -5957,11 +6975,20 @@ msgid ""
 "Under this technical menu you will find all scheduled communication related "
 "to your events."
 msgstr ""
+<<<<<<< HEAD
+=======
+"V tem tehničnem meniju boste našli vso načrtovano komunikacijo v zvezi z "
+"vašimi dogodki."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Understand the various modules;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razumeti različne module;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -5988,12 +7015,20 @@ msgstr "Napovedano/V teku"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__use_barcode
 msgid "Use Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabite črtno kodo"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__use_event_barcode
 msgid "Use Event Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabi črtno kodo dogodka"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
@@ -6006,12 +7041,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za vrnitev na pregled kanbana uporabite <b>drobtinice.</b>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_used
 msgid "Used Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabljeni sedeži"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.groups,name:event.group_event_user
@@ -6030,18 +7073,30 @@ msgstr "VIP"
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "Value should be True or False (not %s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrednost mora biti Pravilna ali Napačna (ne %s)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Venue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prizorišče"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_inline
 msgid "Venue (formatted for one line uses)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prizorišče (formatirano za uporabo v eni vrstici)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -6057,11 +7112,20 @@ msgid ""
 "Wait until Attendees register to your Event or create their registrations "
 "manually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Počakajte, da se udeleženci registrirajo na vaš dogodek, ali pa ustvarite "
+"registracije ročno."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje skladišč, proizvodnja (MRP) &amp; Prodaja, uvoz/izvoz."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
@@ -6116,6 +7180,11 @@ msgid ""
 "When the event is scheduled to take place (expressed in your local timezone "
 "on the form view)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kdaj je dogodek načrtovan (izraženo v vašem lokalnem časovnem pasu v pogledu"
+" obrazca)."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__is_ongoing
@@ -6135,7 +7204,11 @@ msgstr "Sedeži za to vozovnico niso na voljo."
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_2
 msgid "You are truly among the best."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resnično si med najboljšimi."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -6152,6 +7225,11 @@ msgid ""
 "You can define here labels that will be displayed for the state instead\n"
 "                            of the default labels in the kanban view."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tukaj lahko določite oznake, ki bodo namesto tega prikazane za državo\n"
+"                            privzetih oznak v pogledu kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -6159,6 +7237,10 @@ msgstr ""
 msgid ""
 "You cannot change the question type of a question that already has answers!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vrste vprašanja, na katero že obstajajo odgovori, ne morete spremeniti!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -6166,13 +7248,21 @@ msgstr ""
 msgid ""
 "You cannot delete a question that has already been answered by attendees."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vprašanja, na katerega so udeleženci že odgovorili, ne morete izbrisati."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_question_answer.py:0
 msgid ""
 "You cannot delete an answer that has already been selected by attendees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovora, ki so ga udeleženci že izbrali, ne morete izbrisati."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_registration_mail_template_badge
@@ -6182,33 +7272,57 @@ msgstr "Tvoja izkaznica za {{ object.event_id.name }}"
 #. module: event
 #: model:mail.template,subject:event.event_subscription
 msgid "Your registration at {{ object.event_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša registracija na {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"12-16 years old\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"12–16 let\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"Age Category\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. »Starostna kategorija«"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "e.g. \"Azure Interior\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. »Azurna notranjost«"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_question_view_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. \"Do you have any diet restrictions?\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Ali imate kakšne prehranske omejitve?\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "e.g. \"Promoting\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Promocija\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
@@ -6220,7 +7334,11 @@ msgstr "npr. Konferenca za arhitekte"
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "e.g. How to get to your event, door closing time, ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. kako priti na dogodek, čas zaprtja vrat, ..."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
@@ -6240,7 +7358,11 @@ msgstr "events@odoo.com"
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid "events@penwood.example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@penwood.example.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -6253,7 +7375,11 @@ msgstr "events@yourcompany.com"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
 msgid "https://www.example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "https://www.example.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -6288,7 +7414,11 @@ msgstr "ali"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
 msgid "organizer@email.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "organizer@email.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_registrations_started
@@ -6296,11 +7426,20 @@ msgid ""
 "registrations have started if the current datetime is after the earliest "
 "starting date of tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Prijave so se začele, če je trenutni datum in ura po najzgodnejšem datumu "
+"začetka veljavnosti vstopnic."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_kanban_from_event
 msgid "reserved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rezervirano"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -6323,4 +7462,8 @@ msgstr "jutri"
 #. module: event
 #: model:mail.template,subject:event.event_reminder
 msgid "{{ object.event_id.name }}: {{ object.event_date_range }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
+>>>>>>> upstream/18.0

@@ -42,6 +42,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        table: $table,
+>>>>>>> upstream/18.0
 =======
         table: $table,
 >>>>>>> upstream/18.0
@@ -193,6 +197,12 @@ const unstyledArguments = (args) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
+const ERROR_PREFIX = ["ERROR", "#9f1239"];
+const WARNING_PREFIX = ["WARNING", "#f59e0b"];
+>>>>>>> upstream/18.0
 =======
 const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
 const ERROR_PREFIX = ["ERROR", "#9f1239"];
@@ -406,6 +416,10 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    suppressed: "",
+>>>>>>> upstream/18.0
 =======
     suppressed: "",
 >>>>>>> upstream/18.0
@@ -527,6 +541,7 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.error(...styledArguments(args));
     },
     /**
@@ -535,6 +550,8 @@ export const logger = {
     groupCollapsed(...args) {
         $groupCollapsed(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -641,6 +658,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -726,8 +746,11 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.warn(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +836,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -904,7 +930,11 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $debug(...styledArguments(args, "DEBUG", "#ffb000"));
+=======
+        $debug(...styledArguments(args, ...DEBUG_PREFIX));
+>>>>>>> upstream/18.0
 =======
         $debug(...styledArguments(args, ...DEBUG_PREFIX));
 >>>>>>> upstream/18.0
@@ -1088,7 +1118,10 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1180,6 +1213,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

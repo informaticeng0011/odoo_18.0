@@ -180,8 +180,11 @@ class ProductProduct(models.Model):
 
         # Tax related
 <<<<<<< HEAD
+<<<<<<< HEAD
         taxes = self.taxes_id.compute_all(price, config.currency_id, quantity, self)
 =======
+=======
+>>>>>>> upstream/18.0
         tax_to_use = None
         company = config.company_id
         while not tax_to_use and company:
@@ -189,6 +192,9 @@ class ProductProduct(models.Model):
             if not tax_to_use:
                 company = company.parent_id
         taxes = tax_to_use.compute_all(price, config.currency_id, quantity, self)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         grouped_taxes = {}
         for tax in taxes['taxes']:
@@ -327,7 +333,11 @@ class ProductAttributeCustomValue(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id']
+=======
+        return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

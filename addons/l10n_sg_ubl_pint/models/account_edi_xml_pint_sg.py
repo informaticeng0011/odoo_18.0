@@ -73,7 +73,11 @@ class AccountEdiXmlUBLPINTSG(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             additional_document_reference_list.append([{
+=======
+            additional_document_reference_list.extend([{
+>>>>>>> upstream/18.0
 =======
             additional_document_reference_list.extend([{
 >>>>>>> upstream/18.0

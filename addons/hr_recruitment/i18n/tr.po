@@ -29,9 +29,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ömer ABA <omeraba93@gmail.com>, 2024
 # Levent Karakaş <levent@mektup.at>, 2024
 # Halil, 2024
+=======
+# Halil, 2024
+# Ömer ABA <omeraba93@gmail.com>, 2024
+# Levent Karakaş <levent@mektup.at>, 2024
+>>>>>>> upstream/18.0
 =======
 # Halil, 2024
 # Ömer ABA <omeraba93@gmail.com>, 2024
@@ -150,6 +156,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
 # Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2024
@@ -262,6 +269,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
 # Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2024
@@ -285,6 +294,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -325,6 +337,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,6 +577,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -620,9 +638,14 @@ msgid ""
 "<div><b>Try to send an email</b> to the applicant.</div><div><i>Tips: All "
 "emails sent or received are saved in the history here</i>"
 msgstr ""
+<<<<<<< HEAD
 "<div><b>Başvuru sahibine bir e-posta göndermeyi deneyin</b> "
 ".</div><div><i>İpuçları: Gönderilen veya alınan tüm e-postalar buradaki "
 "geçmişe kaydedilir</i></div>"
+=======
+"<div>Başvuru sahibine<b>e-posta göndermeyi deneyin</b>.</div><div><i>İpucu: "
+"Gönderilen veya alınan tüm e-postalar bu alanda; geçmişte kaydedilir</i>"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
@@ -792,6 +815,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
 "style=\"background-color: white; border-collapse: collapse; margin-left: "
 "20px;\"><tr><td valign=\"top\" style=\"padding: 0px 10px;\"><div "
@@ -858,6 +882,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -976,6 +1002,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1122,6 +1151,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
 "style=\"background-color: white; border-collapse: collapse; margin-left: "
 "20px;\"><tr><td valign=\"top\" style=\"padding: 0px 10px;\"><div "
@@ -1185,6 +1215,8 @@ msgstr ""
 "Arjantin</t><br/><t t-set=\"location\" t-value=\"'%s, %s' % (location, "
 "object.job_id.address_id.country_id.name)\"/></t><br/></div></td></tr></table>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1341,6 +1373,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1447,6 +1482,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <div style=\"font-size: 13px; margin: 0px; padding: 0px;\">Sevgili<br/><br/>İlginiz ve zaman ayırdığınız için teşekkür ederiz.<br/>Gelecekteki çabalarınızda size en iyisini diliyoruz.                <br/><br/>En iyi<br/>\n"
 "                <div style=\"font-size: 11px; color: grey;\">\n"
 "                    <t t-if=\"object.user_id\">-- <br/>\n"
@@ -1455,6 +1491,8 @@ msgstr ""
 "                    <t t-else=\"\">-- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">Şirketiniz</t><br/>İK Ekibi<br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1523,6 +1561,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1634,6 +1675,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "    <tr>\n"
 "        <td valign=\"top\">\n"
@@ -1655,6 +1697,8 @@ msgstr ""
 "                    <t t-else=\"\">-- <br/>\n"
 "                        <t t-out=\"object.company_id.name or ''\">Şirketiniz</t><br/>İK Ekibi                    </t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1743,6 +1787,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1802,6 +1849,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1851,8 +1901,11 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+<<<<<<< HEAD
 "Bir Python sözlüğü, bu rumuz için yeni kayıtlar oluştururken varsayılan "
 "değerleri sağlamak için değerlendirilir."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__message_needaction
@@ -2122,6 +2175,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir e-posta gönderildiğinde başvuru sahipleri ve ekli öz geçmişleri otomatik olarak oluşturulur.\n"
+"                Belge yönetimi modüllerini yüklerseniz, tüm öz geçmişler otomatik olarak dizine eklenir,\n"
+"                böylece içeriklerinde kolayca arama yapabilirsiniz."
+>>>>>>> upstream/18.0
 =======
 "Bir e-posta gönderildiğinde başvuru sahipleri ve ekli öz geçmişleri otomatik olarak oluşturulur.\n"
 "                Belge yönetimi modüllerini yüklerseniz, tüm öz geçmişler otomatik olarak dizine eklenir,\n"
@@ -2393,6 +2452,11 @@ msgid ""
 "At least one applicant doesn't have a email; you can't use send email "
 "option."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Başvuru sahiplerinden en az biri için e-posta adresi mevcut değil; e-posta "
+"gönderme seçeneğini kullanamazsınız."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_send_mail_view_form
@@ -2502,10 +2566,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bir iş pozisyonuna takma ad ayarlayarak, bu adrese gönderilen e-postalar "
 "otomatik olarak başvurular oluşturur. Uygulamanın kaynağına göre istatistik "
 "almak için birden fazla izleyici bile kullanabilirsiniz: LinkedIn, Monster, "
 "Indeed, vb."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2603,7 +2670,11 @@ msgid "Candidate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aday"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aday"
 >>>>>>> upstream/18.0
@@ -2869,7 +2940,11 @@ msgid "Create a Recruitment Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bir işe alım faaliyet planı oluşturun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bir işe alım faaliyet planı oluşturun"
 >>>>>>> upstream/18.0
@@ -3017,9 +3092,12 @@ msgid ""
 "empty, the default email address will be used which is in human resources "
 "settings"
 msgstr ""
+<<<<<<< HEAD
 "Bu iş pozisyonu için belirli bir iletişim adresi tanımlayın. Boş "
 "bırakırsanız insan kaynakları ayarlarındaki varsayılan e-posta adresi "
 "kullanılır"
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_job_stage_act
@@ -3130,7 +3208,11 @@ msgid "Directly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doğrudan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doğrudan"
 >>>>>>> upstream/18.0
@@ -3274,7 +3356,11 @@ msgid "Display résumé on application form"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başvuru formunda öz geçmişi göster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başvuru formunda öz geçmişi göster"
 >>>>>>> upstream/18.0
@@ -3487,7 +3573,11 @@ msgid "Employee linked to the candidate."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aday ile bağlantılı çalışan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aday ile bağlantılı çalışan"
 >>>>>>> upstream/18.0
@@ -3587,7 +3677,11 @@ msgid "Evaluation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Değerlendirme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Değerlendirme"
 >>>>>>> upstream/18.0
@@ -3933,8 +4027,11 @@ msgid ""
 "If set, a message is posted on the applicant using the template when the "
 "applicant is set to the stage."
 msgstr ""
+<<<<<<< HEAD
 "Eğer ayarlanırsa, şablonu kullanan adaya, ilgili aşamaya gelince bir mesaj "
 "gönderilir."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_bounced_content
@@ -3952,8 +4049,11 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Etkin alan Yanlış olarak ayarlıysa, kaynak kaydını silmeden gizlemenizi "
 "sağlayacaktır."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__active
@@ -3961,8 +4061,13 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the case "
 "without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Etkin alanda yanlış olarak ayarlayarak silinmeden gizlenmesini "
 "sağlayabilirsiniz."
+=======
+"Etkin alan 'yanlış' olarak ayarlanırsa, kullanım senaryosunu kaldırmadan "
+"gizlemenize izin verir."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__is_blacklisted
@@ -3970,8 +4075,13 @@ msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
 msgstr ""
+<<<<<<< HEAD
 "Eğer e-posta adresi kara listede ise, bağlantı, toplu e-posta gönderiminde, "
 "herhangi bir listeden mail almayacaktır"
+=======
+"E-posta adresi kara listedeyse, kişi artık hiçbir listeden toplu e-posta "
+"almayacaktır"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__phone_sanitized_blacklisted
@@ -3979,8 +4089,11 @@ msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
 msgstr ""
+<<<<<<< HEAD
 "Temizlenen telefon numarası kara listedeyse, kişi artık herhangi bir "
 "listeden toplu e-posta sms almaz"
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python
@@ -4006,6 +4119,12 @@ msgid ""
 "Incoming emails create applications automatically. Use it for direct "
 "applications or when posting job offers on LinkedIn, Monster, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Gelen e-postalar, otomatik olarak başvurular oluşturur. Bunları doğrudan "
+"başvurular için veya LinkedIn, Monster vb. platformlarda iş ilanları "
+"yayımlarken kullanabilirsiniz."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__mobile_blacklisted
@@ -4014,10 +4133,13 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir cep telefonu "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_candidate__phone_blacklisted
@@ -4026,10 +4148,13 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir telefon "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
 " yardımcı olur."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__industry_id
@@ -4084,7 +4209,11 @@ msgid "Interviewer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Görüşmeyi yapan kişi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Görüşmeyi yapan kişi"
 >>>>>>> upstream/18.0
@@ -4407,9 +4536,12 @@ msgid ""
 "Let's create the position. An email will be setup for applications, and a "
 "public job description, if you use the Website app."
 msgstr ""
+<<<<<<< HEAD
 "Hadi pozisyonu oluşturalım. Eğer websitesi uygulamasını kullanırsanız, "
 "başvuranlar için bir e-posta ve herkesin görebileceği iş tanımı "
 "oluşturulacak."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -4492,7 +4624,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yerel bölüm bazlı gelen algılama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yerel bölüm bazlı gelen algılama"
 >>>>>>> upstream/18.0
@@ -4843,7 +4979,11 @@ msgid "No rules have been defined."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Herhangi bir kural tanımlanmadı."
+>>>>>>> upstream/18.0
 =======
 msgstr "Herhangi bir kural tanımlanmadı."
 >>>>>>> upstream/18.0
@@ -4990,8 +5130,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odoo işe alım sürecinde adaylarınızı takip etmenize ve tüm\n"
 "işlemleri takip etmenize yardımcı olur: toplantılar, görüşmeler, vb."
+=======
+"Odoo, işe alım sürecindeki başvuru sahiplerini takip etmenize\n"
+"                ve tüm işlemleri izlemenize yardımcı olur: toplantılar, mülakatlar vb."
+>>>>>>> upstream/18.0
 =======
 "Odoo, işe alım sürecindeki başvuru sahiplerini takip etmenize\n"
 "                ve tüm işlemleri izlemenize yardımcı olur: toplantılar, mülakatlar vb."
@@ -5118,9 +5263,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yanıt vermemiş olsalar bile, gelen tüm mesajların ekleneceği bir ileti "
 "dizisinin (kayıt) isteğe bağlı kimliği. Ayarlanırsa, bu, yeni kayıtların "
 "oluşturulmasını tamamen devre dışı bırakacaktır."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5185,10 +5333,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-posta gönderirken seçmek için isteğe bağlı çeviri dili (ISO kodu). "
 "Ayarlanmazsa, İngilizce sürüm kullanılacaktır. Bu genellikle uygun dili "
 "sağlayan bir yer tutucu ifadesi olmalıdır, örn. {{ object.partner_id.lang "
 "}}."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5271,9 +5422,12 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+<<<<<<< HEAD
 "Rumuzun bulunduğu üst model. Rumuz referansın bulunduğu model zorunlu olarak"
 " alias_model_id tarafından verilen model değildir.  (örnek: project "
 "(parent_model) ve görev (model))"
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__partner_name
@@ -5318,7 +5472,11 @@ msgid "Please provide an candidate name."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lütfen bir aday adı girin."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lütfen bir aday adı girin."
 >>>>>>> upstream/18.0
@@ -5400,10 +5558,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Posta geçidini kullanarak gönderilecek mesajların kuralları:\n"
 "- herkes: herkes posta gönderebilir\n"
 "- iş ortakları: sadece onaylanmış iş ortakları\n"
 "- takipçiler: sadece ilgili dokümanın veya takipçi kanalların takipçileri\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5497,7 +5658,11 @@ msgid "Proposed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teklif edilen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teklif edilen"
 >>>>>>> upstream/18.0
@@ -5809,7 +5974,11 @@ msgid "Refused by applicant: job fit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başvuru sahibi tarafından reddedildi: pozisyona uygunluk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başvuru sahibi tarafından reddedildi: pozisyona uygunluk"
 >>>>>>> upstream/18.0
@@ -5886,7 +6055,11 @@ msgid "Refused by applicant: salary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Başvuru sahibi tarafından reddedildi: maaş"
+>>>>>>> upstream/18.0
 =======
 msgstr "Başvuru sahibi tarafından reddedildi: maaş"
 >>>>>>> upstream/18.0
@@ -5975,7 +6148,11 @@ msgid "Regex"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regex"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regex"
 >>>>>>> upstream/18.0
@@ -6270,8 +6447,11 @@ msgstr "Mülakat Anketi Gönder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_applicant_mass_sms
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_candidate_mass_sms
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6489,7 +6669,11 @@ msgid "Sourcing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tedarik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tedarik"
 >>>>>>> upstream/18.0
@@ -6644,10 +6828,17 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
 "Aktivitelere göre durum \n"
 "Gecikmiş\\: Son tarih geçmiş\n"
 "Bugün\\: Aktivite tarihi bugün\n"
 "Planlanmış\\: Gelecek Aktiviteler."
+=======
+"Faaliyetlere dayalı durum\n"
+"Gecikmiş: Son tarih geçmiş\n"
+"Bugün: Etkinlik tarihi bugün\n"
+"Planlanan: Gelecekteki faaliyetler."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__duration_tracking
@@ -6741,6 +6932,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"İşveren, bu iş pozisyonundaki tüm Başvuru Sahipleri için varsayılan değer"
+"              olacaktır. İşe Alım Görevlisi, Başvuru Sahibiyle yapılan tüm "
+"toplantılara otomatik olarak eklenir."
+>>>>>>> upstream/18.0
 =======
 "İşveren, bu iş pozisyonundaki tüm Başvuru Sahipleri için varsayılan değer"
 "              olacaktır. İşe Alım Görevlisi, Başvuru Sahibiyle yapılan tüm "
@@ -6981,9 +7178,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu rumuzun karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda yanıt "
 "vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
 "oluşturulmasına neden olacaktır (örneğin, bir Proje Görevi)"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7064,8 +7264,11 @@ msgid ""
 "This field is used to search on email address as the primary email field can"
 " contain more than strictly an email address."
 msgstr ""
+<<<<<<< HEAD
 "Birincil e-posta alanı kesinlikle bir e-posta adresinden fazlasını "
 "içerebileceğinden, bu alan e-posta adresinde arama yapmak için kullanılır."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__campaign_id
@@ -7100,8 +7303,11 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
+<<<<<<< HEAD
 "Bu aşamada gösterilecek kayıt kalmadığında kanban görünümünde katlanmış "
 "aşamadır."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:digest.tip,name:hr_recruitment.digest_tip_hr_recruitment_0
@@ -7211,9 +7417,12 @@ msgid ""
 "process. Select the form to use in the job position detail form. This relies"
 " on the Survey app."
 msgstr ""
+<<<<<<< HEAD
 "İşe alım sürecindeki her bir iş pozisyonu için özelleştirilmiş aday "
 "değerlendirme formlarını kullanın. İş pozisyonu ayrıntısı formunda "
 "kullanılacak formu seçin. Bu Anket uygulamasına bağlıdır."
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_res_users
@@ -7293,6 +7502,11 @@ msgid ""
 "You can define here the labels that will be displayed for the kanban state instead\n"
 "                            of the default labels."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Burada, varsayılan etiketler yerine kanban durumu için \n"
+"                            görüntülenecek etiketleri tanımlayabilirsiniz."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form
@@ -7323,8 +7537,11 @@ msgid ""
 "You cannot delete these UTM Sources as they are linked to the following recruitment sources in Recruitment:\n"
 "%(recruitment_sources)s"
 msgstr ""
+<<<<<<< HEAD
 "Bu UTM Kaynaklarını, İşe Alım'da aşağıdaki işe alım kaynaklarına bağlı oldukları için silemezsiniz:\n"
 "%(recruitment_sources)s"
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment
 #. odoo-python

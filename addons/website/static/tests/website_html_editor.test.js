@@ -26,7 +26,11 @@ test("autocomplete should shown and able to edit the link", async () => {
                         {
                             value: "/contactus",
 <<<<<<< HEAD
+<<<<<<< HEAD
                             icon: "/website_crm/static/description/icon.png",
+=======
+                            icon: "/website/static/description/icon.png",
+>>>>>>> upstream/18.0
 =======
                             icon: "/website/static/description/icon.png",
 >>>>>>> upstream/18.0
@@ -53,6 +57,12 @@ test("autocomplete should shown and able to edit the link", async () => {
     expect.verifySteps(["/website/get_suggested_links"]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(".ui-autocomplete-category").toHaveCount(1);
+    expect(".o-autocomplete--dropdown-item img").toHaveCount(1);
+
+>>>>>>> upstream/18.0
 =======
     expect(".ui-autocomplete-category").toHaveCount(1);
     expect(".o-autocomplete--dropdown-item img").toHaveCount(1);
@@ -65,7 +75,10 @@ test("autocomplete should shown and able to edit the link", async () => {
         '<p>this is a <a href="/contactus">li[]nk</a></p>'
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     await waitFor(".o_we_edit_link");
     await click(".o_we_edit_link");
@@ -78,5 +91,8 @@ test("autocomplete should shown and able to edit the link", async () => {
     // check the default page anchors are in the autocomplete dropdown
     expect(".o-autocomplete--dropdown-item:first").toHaveText("#top");
     expect(".o-autocomplete--dropdown-item:last").toHaveText("#bottom");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

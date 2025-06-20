@@ -188,7 +188,10 @@ test("On updated form, editing the description shouldn't show the translated pro
     expect(sol.name).toBe(translatedProductName.concat("\nA description"));
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("No description should be shown if there does not exist one apart from the product name", async () => {
     const product = ProductProduct._records[0];
@@ -233,4 +236,7 @@ test("No description should be shown if there does not exist one apart from the 
 
     expect(".o_field_product_label_section_and_note_cell textarea").not.toBeDisplayed();
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

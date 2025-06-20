@@ -90,6 +90,17 @@ QUnit.test("tabs share message from a channel", async () => {
 });
 
 QUnit.test("second tab still receives notifications after main pagehide", async () => {
+<<<<<<< HEAD
+=======
+    patchWebsocketWorkerWithCleanup({
+        _unregisterClient(client) {
+            // Ensure that the worker does not receive any messages from the main tab
+            // after pagehide, mimicking real-world behavior.
+            client.onmessage = null;
+            super._unregisterClient(client);
+        },
+    });
+>>>>>>> upstream/18.0
     addBusServicesToRegistry();
     const pyEnv = await startServer();
     const mainEnv = await makeTestEnv({ activateMockServer: true });

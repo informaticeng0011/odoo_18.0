@@ -472,6 +472,11 @@ class AccountWithholdingLine(models.AbstractModel):
         def grouping_function(base_line_data, tax_data):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None

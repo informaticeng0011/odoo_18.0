@@ -368,7 +368,11 @@ msgid "Attendance Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trạng thái Chuyên cần"
+=======
+msgstr "Trạng thái Chấm công"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trạng thái Chấm công"
 >>>>>>> upstream/18.0
@@ -622,10 +626,16 @@ msgstr "Được phê duyệt tự động"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "Tự động check-out nhân viên dựa trên lịch làm việc của họ với một khoảng sai"
 " số bổ sung."
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -796,7 +806,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " thấy lần đăng nhập tương ứng. Dữ liệu Điểm danh của bạn có thể đã được điều"
+=======
+" thấy lần đăng nhập tương ứng. Dữ liệu Chấm công của bạn có thể đã được điều"
+>>>>>>> upstream/18.0
 =======
 " thấy lần đăng nhập tương ứng. Dữ liệu Chấm công của bạn có thể đã được điều"
 >>>>>>> upstream/18.0
@@ -1323,7 +1337,11 @@ msgid "Employee attendances"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Điểm danh của nhân viên"
+=======
+msgstr "Chấm công của nhân viên"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chấm công của nhân viên"
 >>>>>>> upstream/18.0
@@ -1735,7 +1753,11 @@ msgid "Hr Attendance Search"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tìm kiếm Điểm danh"
+=======
+msgstr "Tìm kiếm Chấm công"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tìm kiếm Chấm công"
 >>>>>>> upstream/18.0
@@ -1948,9 +1970,16 @@ msgstr "Nhận dạng thủ công"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
 msgstr ""
 "Nếu được chọn, những ngày không có trong chấm công sẽ hiển thị trong Báo "
 "cáo."
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr ""
+"Nếu được chọn, những ngày không có chấm công sẽ hiển thị trong Báo cáo. Điều"
+" này không áp dụng đối với nhân viên có lịch làm việc linh hoạt."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__message_needaction
@@ -2225,7 +2254,11 @@ msgid "My Attendances"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Điểm danh của tôi"
+=======
+msgstr "Chấm công của tôi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chấm công của tôi"
 >>>>>>> upstream/18.0
@@ -2591,11 +2624,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "Token RFID với đầu đọc trên máy tính bảng"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "Đánh giá"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

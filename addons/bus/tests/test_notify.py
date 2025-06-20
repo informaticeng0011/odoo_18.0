@@ -69,6 +69,7 @@ class NotifyTests(TransactionCase):
                 cr.commit()
                 conn = cr._cnx
                 sel.register(conn, selectors.EVENT_READ)
+<<<<<<< HEAD
                 while sel.select(timeout=5) and not stop_event.is_set():
                     conn.poll()
                     if notify_channels := [
@@ -78,6 +79,18 @@ class NotifyTests(TransactionCase):
                     ]:
                         channels = notify_channels
                         break
+=======
+                while not stop_event.is_set():
+                    if sel.select(timeout=5):
+                        conn.poll()
+                        if notify_channels := [
+                            c
+                            for c in json.loads(conn.notifies.pop().payload)
+                            if c[0] == self.env.cr.dbname
+                        ]:
+                            channels = notify_channels
+                            break
+>>>>>>> upstream/18.0
 
         thread = threading.Thread(target=single_listen)
         thread.start()

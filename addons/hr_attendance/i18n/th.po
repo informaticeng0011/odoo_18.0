@@ -370,9 +370,15 @@ msgstr "ได้รับการอนุมัติโดยอัตโน
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "ลงชื่อพนักงานออกโดยอัตโนมัติตามตารางการทำงานของพนักงานพร้อมทั้งมีความคลาดเคลื่อนเวลาเพิ่มเติม"
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -936,7 +942,12 @@ msgstr "ระบุด้วยตนเอง"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
 msgstr "หากทำเครื่องหมายไว้ วันเวลาที่ไม่ได้เข้างานจะแสดงในรายงาน"
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__message_needaction
@@ -1324,11 +1335,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "โทเค็น RFID พร้อมเครื่องอ่านบนแท็บเล็ต"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "การให้คะแนน"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

@@ -364,8 +364,14 @@ msgstr "自動批准"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr "根據員工的工作時間表，自動為下班員工簽出，並可設定額外的容差。"
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -959,6 +965,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若勾選，報告會顯示值勤未涵蓋的日子。"
 =======
 msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
@@ -1067,6 +1074,10 @@ msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
 >>>>>>> upstream/18.0
 =======
 msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
+>>>>>>> upstream/18.0
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr "若勾選，報告會顯示沒有值勤記錄的日子。不適用於使用彈性工作時間表的員工。"
 >>>>>>> upstream/18.0
 
 #. module: hr_attendance
@@ -1454,11 +1465,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "RFID 標籤，以平板電腦的讀取器讀取"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "評分"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

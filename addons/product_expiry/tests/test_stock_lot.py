@@ -677,7 +677,10 @@ class TestStockLot(TestStockCommon):
         self.assertAlmostEqual(delivery.move_line_ids[0].expiration_date, expiration_date, delta=delta)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -756,6 +759,9 @@ class TestStockLot(TestStockCommon):
         self.assertEqual(len(mail_activity), 1, 'No activity created or more than one activity created when there should be one')
         self.assertEqual(mail_activity.user_id, default_user, "Activity was not assigned to the Default User.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

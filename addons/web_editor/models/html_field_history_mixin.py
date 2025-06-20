@@ -41,12 +41,17 @@ class HtmlFieldHistory(models.AbstractModel):
             rec.html_field_history_metadata = history_metadata
 
     def write(self, vals):
+<<<<<<< HEAD
         new_revisions = False
         db_contents = None
+=======
+        rec_db_contents = {}
+>>>>>>> upstream/18.0
         versioned_fields = self._get_versioned_fields()
         vals_contain_versioned_fields = set(vals).intersection(versioned_fields)
 
         if vals_contain_versioned_fields:
+<<<<<<< HEAD
             self.ensure_one()
             db_contents = dict([(f, self[f]) for f in versioned_fields])
             fields_data = self.env[self._name]._fields
@@ -56,6 +61,10 @@ class HtmlFieldHistory(models.AbstractModel):
                     "Ensure all versioned fields ( %s ) in model %s are declared as sanitize=True"
                     % (str(versioned_fields), self._name)
                 )
+=======
+            for rec in self:
+                rec_db_contents[rec.id] = {f: rec[f] for f in versioned_fields}
+>>>>>>> upstream/18.0
 
         # Call super().write before generating the patch to be sure we perform
         # the diff on sanitized data
@@ -64,6 +73,7 @@ class HtmlFieldHistory(models.AbstractModel):
         if not vals_contain_versioned_fields:
             return write_result
 
+<<<<<<< HEAD
         history_revs = self.html_field_history or {}
 
         for field in versioned_fields:
@@ -98,6 +108,54 @@ class HtmlFieldHistory(models.AbstractModel):
         if new_revisions:
             extra_vals = {"html_field_history": history_revs}
             write_result = super().write(extra_vals) and write_result
+=======
+        # allow mutlti record write
+        for rec in self:
+            new_revisions = False
+            fields_data = self.env[rec._name]._fields
+
+            if any(f in vals and not fields_data[f].sanitize for f in versioned_fields):
+                raise ValidationError(
+                    "Ensure all versioned fields ( %s ) in model %s are declared as sanitize=True"
+                    % (str(versioned_fields), rec._name)
+                )
+
+            history_revs = rec.html_field_history or {}
+
+            for field in versioned_fields:
+                new_content = rec[field] or ""
+
+                if field not in history_revs:
+                    history_revs[field] = []
+
+                old_content = rec_db_contents[rec.id][field] or ""
+                if new_content != old_content:
+                    new_revisions = True
+                    patch = generate_patch(new_content, old_content)
+                    revision_id = (
+                        (history_revs[field][0]["revision_id"] + 1)
+                        if history_revs[field]
+                        else 1
+                    )
+
+                    history_revs[field].insert(
+                        0,
+                        {
+                            "patch": patch,
+                            "revision_id": revision_id,
+                            "create_date": self.env.cr.now().isoformat(),
+                            "create_uid": self.env.uid,
+                            "create_user_name": self.env.user.name,
+                        },
+                    )
+                    limit = rec._html_field_history_size_limit
+                    history_revs[field] = history_revs[field][:limit]
+            # Call super().write again to include the new revision
+            if new_revisions:
+                extra_vals = {"html_field_history": history_revs}
+                write_result = super(HtmlFieldHistory, rec).write(extra_vals) and write_result
+
+>>>>>>> upstream/18.0
         return write_result
 
     def html_field_history_get_content_at_revision(self, field_name, revision_id):

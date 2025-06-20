@@ -199,7 +199,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'website.assets_all_wysiwyg',
+=======
+            'website.assets_all_wysiwyg_inside',
+>>>>>>> upstream/18.0
 =======
             'website.assets_all_wysiwyg_inside',
 >>>>>>> upstream/18.0

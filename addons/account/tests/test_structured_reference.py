@@ -7,6 +7,10 @@ from odoo.addons.account.tools import (
     is_valid_structured_reference_no_se,
     is_valid_structured_reference_nl,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    is_valid_structured_reference_si,
+>>>>>>> upstream/18.0
 =======
     is_valid_structured_reference_si,
 >>>>>>> upstream/18.0
@@ -113,7 +117,10 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference_nl('5000056789012345-OTHER-RANDOM-STUFF'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_structured_reference_si(self):
         # Valid structured references (must have 2 hyphens and valid check digit)
         self.assertTrue(is_valid_structured_reference_si("SI01 25-20-85"))
@@ -138,6 +145,9 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference_si("SI01 25-20-"))
         self.assertFalse(is_valid_structured_reference_si("SI01"))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_structured_reference(self):
         # Accepts references in structured format
@@ -148,6 +158,10 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference('1234 5678 97'))  # NO-SE
         self.assertTrue(is_valid_structured_reference('5000056789012345'))  # NL
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertTrue(is_valid_structured_reference("SI01 25-20-85"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(is_valid_structured_reference("SI01 25-20-85"))  # SI
 >>>>>>> upstream/18.0
@@ -158,6 +172,10 @@ class StructuredReferenceTest(TransactionCase):
         self.assertTrue(is_valid_structured_reference('1234567897'))  # NO-SE
         self.assertTrue(is_valid_structured_reference('5 000 0567 8901 2345'))  # NL
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(is_valid_structured_reference("  SI01 25  - 2 0-85  "))  # SI
 >>>>>>> upstream/18.0
@@ -173,6 +191,10 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference('1234/5678/97'))  # NO-SE
         self.assertFalse(is_valid_structured_reference('(5)000 0567 8901 2345'))  # NL
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(is_valid_structured_reference("0519123584503"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(is_valid_structured_reference("0519123584503"))  # SI
 >>>>>>> upstream/18.0
@@ -183,6 +205,10 @@ class StructuredReferenceTest(TransactionCase):
         self.assertFalse(is_valid_structured_reference('1234567898'))  # NO-SE
         self.assertFalse(is_valid_structured_reference('6000056789012345'))  # NL
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(is_valid_structured_reference("SI01 19-1235-84504"))  # SI
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(is_valid_structured_reference("SI01 19-1235-84504"))  # SI
 >>>>>>> upstream/18.0

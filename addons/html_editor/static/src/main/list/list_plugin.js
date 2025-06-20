@@ -10,6 +10,10 @@ import {
     isProtected,
     isProtecting,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isShrunkBlock,
+>>>>>>> upstream/18.0
 =======
     isShrunkBlock,
 >>>>>>> upstream/18.0
@@ -627,6 +631,7 @@ export class ListPlugin extends Plugin {
         const dir = ul.getAttribute("dir");
         const textAlign = ul.style.getPropertyValue("text-align");
 <<<<<<< HEAD
+<<<<<<< HEAD
         wrapInlinesInBlocks(li, {
             baseContainerNodeName: this.dependencies.baseContainer.getDefaultNodeName(),
             cursors,
@@ -636,6 +641,8 @@ export class ListPlugin extends Plugin {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
 =======
+=======
+>>>>>>> upstream/18.0
         const children = childNodes(li);
         if (!children.every(isBlock)) {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
@@ -646,6 +653,9 @@ export class ListPlugin extends Plugin {
             if (isShrunkBlock(baseContainer)) {
                 baseContainer.append(this.document.createElement("br"));
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             li.append(baseContainer);
             cursors.remapNode(li, baseContainer);

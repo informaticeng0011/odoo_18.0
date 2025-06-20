@@ -16,8 +16,11 @@ class StockForecasted(models.AbstractModel):
             domain += [('order_id.picking_type_id.warehouse_id', '=', warehouse_id)]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         po_lines = self.env['purchase.order.line'].search(domain)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             company = self.env['stock.warehouse'].browse(warehouse_id).company_id
@@ -26,6 +29,9 @@ class StockForecasted(models.AbstractModel):
         domain += [('company_id', '=', company.id)]
         po_lines = self.env['purchase.order.line'].sudo().search(domain)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

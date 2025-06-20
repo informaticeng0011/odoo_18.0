@@ -99,8 +99,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "If you have previously registered to an alternative Peppol service, please deregister from that service, "
                 "or request a migration key before trying again. "
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
 =======
                 "If you have previously registered to a Peppol service, please deregister."
 >>>>>>> upstream/18.0

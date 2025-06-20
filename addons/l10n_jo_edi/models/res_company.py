@@ -12,6 +12,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     l10n_jo_edi_sequence_income_source = fields.Char(string="Sequence of Income Source")
     l10n_jo_edi_secret_key = fields.Char(string="Jordan EINV Secret Key", groups="base.group_system")
     l10n_jo_edi_client_identifier = fields.Char(string="Jordan EINV Client ID", groups="base.group_system")
@@ -21,6 +22,8 @@ class ResCompany(models.Model):
         ('special', "Registered in the special sales tax"),
     ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50,6 +53,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

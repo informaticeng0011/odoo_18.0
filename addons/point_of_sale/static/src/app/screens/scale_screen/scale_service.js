@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { floatCompare } from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 =======
 import { floatCompare } from "@point_of_sale/utils";
 >>>>>>> upstream/18.0
@@ -20,6 +24,11 @@ export class PosScaleService extends Reactive {
         this.env = env;
         this.hardwareProxy = deps.hardware_proxy;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.lastWeight = null;
+        this.weight = 0;
+>>>>>>> upstream/18.0
 =======
         this.lastWeight = null;
         this.weight = 0;
@@ -37,7 +46,10 @@ export class PosScaleService extends Reactive {
 
     reset() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.weight = 0;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.tare = 0;
@@ -49,12 +61,18 @@ export class PosScaleService extends Reactive {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     confirmWeight() {
         this.lastWeight = this.weight;
         return this.netWeight;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     async _readWeightContinuously() {
         if (!this.isMeasuring) {
@@ -75,6 +93,10 @@ export class PosScaleService extends Reactive {
             this._checkScaleIsConnected();
             this.weight = await this._getWeightFromScale();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this._clearLastWeightIfValid();
+>>>>>>> upstream/18.0
 =======
             this._clearLastWeightIfValid();
 >>>>>>> upstream/18.0
@@ -103,13 +125,19 @@ export class PosScaleService extends Reactive {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _clearLastWeightIfValid() {
         if (this.lastWeight && this.isWeightValid) {
             this.lastWeight = null;
         }
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     requestTare() {
         this.tareRequested = true;
@@ -121,7 +149,10 @@ export class PosScaleService extends Reactive {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get isWeightValid() {
         // LNE requires that the weight changes from the previously
         // added value before another product is allowed to be added.
@@ -133,6 +164,9 @@ export class PosScaleService extends Reactive {
         );
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     get isManualMeasurement() {
         // In Community we don't know anything about the connected scale,

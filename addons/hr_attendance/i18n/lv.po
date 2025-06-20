@@ -357,7 +357,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
@@ -916,6 +921,10 @@ msgstr "Identificēt manuāli"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
+=======
+" Does not apply to employees with a flexible working schedule."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: hr_attendance
@@ -1303,11 +1312,14 @@ msgid "RFID Token with reader on tablet"
 msgstr ""
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "Reitingi"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

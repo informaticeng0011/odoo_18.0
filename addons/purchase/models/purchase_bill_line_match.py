@@ -12,6 +12,7 @@ class PurchaseBillMatch(models.Model):
     _auto = False
     _order = 'product_id, aml_id, pol_id'
 
+<<<<<<< HEAD
     pol_id = fields.Many2one(comodel_name='purchase.order.line')
     aml_id = fields.Many2one(comodel_name='account.move.line')
     company_id = fields.Many2one(comodel_name='res.company')
@@ -25,6 +26,21 @@ class PurchaseBillMatch(models.Model):
     line_amount_untaxed = fields.Monetary()
     currency_id = fields.Many2one(comodel_name='res.currency')
     state = fields.Char()
+=======
+    pol_id = fields.Many2one(comodel_name='purchase.order.line', readonly=True)
+    aml_id = fields.Many2one(comodel_name='account.move.line', readonly=True)
+    company_id = fields.Many2one(comodel_name='res.company', readonly=True)
+    partner_id = fields.Many2one(comodel_name='res.partner', readonly=True)
+    product_id = fields.Many2one(comodel_name='product.product', readonly=True)
+    line_qty = fields.Float(readonly=True)
+    line_uom_id = fields.Many2one(comodel_name='uom.uom', readonly=True)
+    qty_invoiced = fields.Float(readonly=True)
+    purchase_order_id = fields.Many2one(comodel_name='purchase.order', readonly=True)
+    account_move_id = fields.Many2one(comodel_name='account.move', readonly=True)
+    line_amount_untaxed = fields.Monetary(readonly=True)
+    currency_id = fields.Many2one(comodel_name='res.currency', readonly=True)
+    state = fields.Char(readonly=True)
+>>>>>>> upstream/18.0
 
     product_uom_id = fields.Many2one(comodel_name='uom.uom', related='product_id.uom_id')
     product_uom_qty = fields.Float(compute='_compute_product_uom_qty', inverse='_inverse_product_uom_qty', readonly=False)

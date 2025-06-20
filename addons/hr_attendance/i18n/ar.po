@@ -66,8 +66,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Malaz Abuidris <msea@odoo.com>, 2024
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Malaz Abuidris <msea@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Malaz Abuidris <msea@odoo.com>, 2025
@@ -390,7 +395,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -937,10 +946,16 @@ msgstr "تمت الموافقة تلقائياً "
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "قم بتسجيل خروج الموظفين تلقائياً بناءً على جداول أعمالهم مع المزيد من "
 "التسامح. "
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -1505,7 +1520,14 @@ msgstr "التعريف يدوياً "
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
 msgstr "إذا تم تحديدها، ستظهر الأيام التي لا يغطيها الحضور في التقرير."
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr ""
+"إذا تم تحديدها، ستظهر الأيام غير المشمولة بالحضور في التقرير. لا ينطبق على "
+"الموظفين الذين لديهم جدول عمل مرن. "
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__message_needaction
@@ -1797,7 +1819,11 @@ msgid "No Validated Overtime Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لا توجد ساعات عمل إضافية تم تصديقها "
+>>>>>>> upstream/18.0
 =======
 msgstr "لا توجد ساعات عمل إضافية تم تصديقها "
 >>>>>>> upstream/18.0
@@ -2144,11 +2170,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "رمز RFID مع القارئ على الجهاز اللوحي "
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "التقييمات "
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"

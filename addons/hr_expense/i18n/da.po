@@ -11,6 +11,10 @@
 # Mads Søndergaard, 2024
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -18,7 +22,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,18 +72,31 @@ msgstr "%(employee_name)s: %(expense_name)s"
 msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(user)s bekræfter, at dette udlæg ikke er et duplikat af en lignende "
+"udgift."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "%s: It is not from your department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: Ikke knyttet til din afdeling"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "%s: It is your own expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: Det er dit eget udlæg"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -95,7 +116,11 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "(incl"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(inkl."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -113,11 +138,20 @@ msgstr "2023-08-11"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>Spilder du tid på at registrere dine kvitteringer?</b> Det kan gøres på "
+"en mere effektiv måde."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "<i class=\"oi oi-arrow-right\"/> Setup your alias domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> Konfigurér dit aliasdomæne"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_move_form_inherit_expense
@@ -138,27 +172,48 @@ msgstr "<span>@</span>"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Date:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Dato:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Employee:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Medarbejder:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Manager:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Leder:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Paid by:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Betalt af:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "<span>The total amount doesn't match the original amount.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Det samlede beløb stemmer ikke overens med det oprindelige "
+"beløb.</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -254,7 +309,11 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "All payment methods allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle betalingsformer er tilladt"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__amount_residual
@@ -264,7 +323,11 @@ msgstr "Forfaldent beløb"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "An"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -281,7 +344,11 @@ msgstr "En udgiftskonto er forventet"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/expense_form_view.js:0
 msgid "An expense of same category, amount and date already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der findes allerede en udgift med samme kategori, beløb og dato."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -319,7 +386,11 @@ msgstr "Godkendelsesdato"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__approval_state
 msgid "Approval State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godkendelsesstatus"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -369,7 +440,11 @@ msgstr "Vedhæft Kvittering"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Attach a receipt - usually an image or a PDF file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj en kvittering – typisk et billede eller en PDF-fil."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_ir_attachment
@@ -408,6 +483,11 @@ msgid ""
 "Both price-included and price-excluded taxes will behave as price-included "
 "taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Både skatter, der er inkluderet i prisen, og skatter, der ikke er inkluderet"
+" i prisen, betragtes som inkluderet i prisen under udgifter."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -456,7 +536,11 @@ msgstr "Kategori:"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category: not found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategori: ikke fundet"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_main_attachment_checksum
@@ -596,17 +680,29 @@ msgstr "Standard alias navn for udgifter"
 #: model:ir.model.fields,field_description:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__expense_journal_id
 msgid "Default Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardudgiftsjournal"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default accounting journal for expenses paid by employees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardregnskabsjournal til udgifter betalt af medarbejderne."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default outstanding account for expenses paid by company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardkonto for udestående udgifter betalt af virksomheden."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_department
@@ -688,7 +784,11 @@ msgstr "Udkast"
 #: code:addons/hr_expense/wizard/hr_expense_approve_duplicate.py:0
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__duplicate_expense_ids
 msgid "Duplicate Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duplikér udgiften"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_employee
@@ -708,7 +808,11 @@ msgstr "Medarbejder (som skal tilbagebetales)"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Employee Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderudgiftsjournal"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_account
@@ -723,6 +827,10 @@ msgid ""
 "Enter a name then choose a category and configure the amount of your "
 "expense."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Indtast et navn, vælg en kategori, og konfigurér beløbet i din udgift."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:account.journal,name:hr_expense.hr_expense_account_journal
@@ -748,7 +856,11 @@ msgstr "Udgifter Godkendelse"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_approve_duplicate
 msgid "Expense Approve Duplicate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobbelt godkendelse af udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_employee_tree_inherit_expense
@@ -760,7 +872,11 @@ msgstr "Udgifts Godkender"
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Expense Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udgiftskategorier"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__date
@@ -796,7 +912,11 @@ msgstr "Udgifter Leder"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Expense Outstanding Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konto for ubetalte udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_refuse_wizard
@@ -819,7 +939,11 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.actions.report,name:hr_expense.action_report_expense_sheet_img
 msgid "Expense Report Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Billede af udgiftsregnskab"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__name
@@ -854,27 +978,47 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_split
 msgid "Expense Split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdeling af udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__expense_split_line_ids
 msgid "Expense Split Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linje til opdelte udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_split_wizard
 msgid "Expense Split Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til opdeling af udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 msgid "Expense Validate Duplicate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobbelt godkendelse af udgift"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "Expense categories can be reinvoiced to your customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udgiftskategorier kan genfaktureres til dine kunder."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -919,7 +1063,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expense split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdeling af udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -975,19 +1123,31 @@ msgstr "Udgifter for dine team medlemmer"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses with a similar receipt to %(other_expense_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udgifter med navn svarende til %(other_expense_name)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee__filter_for_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee_base__filter_for_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee_public__filter_for_expense
 msgid "Filter For Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filter til udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Flight Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flybillet"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_follower_ids
@@ -1023,7 +1183,11 @@ msgstr "Fremtidige aktiviteter"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Generate Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_gift_product_template
@@ -1033,13 +1197,21 @@ msgstr "Gaver"
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_gift_product_template
 msgid "Gifts to customers or vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gaver til kunder eller leverandører"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Go to settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gå til indstillinger"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -1050,7 +1222,11 @@ msgstr "Sortér efter"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Guideline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Retningslinje"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_multiple_currency
@@ -1066,12 +1242,20 @@ msgstr "Har besked"
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_travel_accommodation_product_template
 msgid "Hotel, plane ticket, taxi, etc."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hotel, flybillet, taxa osv."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_alias_domain_id
 msgid "Hr Expense Alias Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aliasdomæne for personaleudgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__id
@@ -1149,18 +1333,30 @@ msgstr "Er følger"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_multiple_currency
 msgid "Is currency_id different from the company_currency_id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er currency_id forskellig fra company_currency_id"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__product_has_cost
 msgid "Is product with non zero cost selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvis der vælges et produkt med en kostpris større end nul"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "It all begins here - let's go!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt starter her – lad os komme i gang!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__employee_journal_id
@@ -1186,7 +1382,11 @@ msgstr "Journalbilag slettet"
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_draft
 msgid "Journal Entry Reset to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Journalbilag nulstillet til kladde"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
@@ -1207,12 +1407,20 @@ msgstr "Journalbilag slettet"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_draft
 msgid "Journal entry reset to draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Journalpostering nulstillet til kladde"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_currency_rate
 msgid "Label Currency Rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valutakursbetegnelse"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__write_uid
@@ -1249,19 +1457,31 @@ msgstr "Lad dine medarbejdere registrere udgifter pr. e-mail"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's check out where you can manage all your employees expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lad os se, hvor du kan håndtere alle dine medarbejderes udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's go back to your expenses."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lad os gå tilbage til dine udgifter."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Lunch with customer $12.32"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frokost med kunde 12.32 dollars"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_main_attachment_id
@@ -1286,7 +1506,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Managers can inspect all expenses from here."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ledere kan kontrollere alle udgifter herfra."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1296,7 +1520,11 @@ msgstr "Marc Demo"
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_meal_product_template
 msgid "Meals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Måltider"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_error
@@ -1313,7 +1541,11 @@ msgstr "Beskeder"
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_mileage_product_template
 msgid "Mileage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kilometertal"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1410,7 +1642,11 @@ msgstr "Ingen data endnu!"
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "No expense categories found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen udgiftskategori fundet. Lad os oprette én!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_all
@@ -1427,6 +1663,10 @@ msgstr "Ingen udgiftsrapport fundet. Lad os oprette en!"
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "No work contact found for the employee %s, please configure one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ingen arbejdsmail fundet for medarbejderen %s. Konfigurér venligst én. "
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -1457,7 +1697,11 @@ msgstr "Antal vedhæftninger"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__nb_expense
 msgid "Number of Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__nb_account_move
@@ -1486,7 +1730,11 @@ msgstr "Antal beskeder med leveringsfejl"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/components/expense_dashboard.xml:0
 msgid "Numbers computed from your personal expenses."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tal baseret på dine personlige udgifter."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
@@ -1895,13 +2143,21 @@ msgstr "Specificer hvorvidt produktet kan vælges i en udgift."
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Split Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delt udgift"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/wizard/hr_expense_split_wizard.py:0
 msgid "Split Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opdelte udgifter"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__split_possible
@@ -2180,7 +2436,11 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__total_amount_currency_original
 msgid "Total amount of the original Expense that we are splitting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det samlede beløb af den oprindelige udgift, som vi opdeler"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__total_amount_currency_original

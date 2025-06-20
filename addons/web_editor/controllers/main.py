@@ -5,6 +5,7 @@ import logging
 import re
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import time
 import requests
 import werkzeug.exceptions
@@ -15,10 +16,13 @@ from lxml import etree
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from base64 import b64decode, b64encode
 from math import floor
 from os.path import join as opj
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 from odoo.http import request, Response
@@ -29,6 +33,8 @@ from odoo.tools.image import image_data_uri, binary_to_image
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import requests
 import werkzeug.exceptions
 import werkzeug.urls
@@ -37,7 +43,11 @@ from PIL import Image, ImageDraw, ImageFont
 
 from odoo import http, tools
 from odoo.http import STATIC_CACHE, Response, request
+<<<<<<< HEAD
 from odoo.tools.image import binary_to_image, image_data_uri
+=======
+from odoo.tools.image import binary_to_image, image_data_uri, get_webp_size
+>>>>>>> upstream/18.0
 from odoo.tools.misc import file_open
 
 try:
@@ -45,6 +55,9 @@ try:
 except ImportError:
     from .tools._vendor.send_file import send_file
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179,6 +192,7 @@ class Web_Editor(http.Controller):
         outimage.save(output, format="PNG")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         response = Response()
         response.mimetype = 'image/png'
         response.data = output.getvalue()
@@ -190,6 +204,8 @@ class Web_Editor(http.Controller):
         response.headers['Expires'] = time.strftime("%a, %d-%b-%Y %T GMT", time.gmtime(time.time()+604800*60))
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         output.seek(0)
@@ -205,6 +221,9 @@ class Web_Editor(http.Controller):
         response.headers['Access-Control-Allow-Origin'] = '*'
         response.headers['Access-Control-Allow-Methods'] = 'GET, POST'
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -533,8 +552,16 @@ class Web_Editor(http.Controller):
             return stream.get_response()
 
         image = stream.read()
+<<<<<<< HEAD
         img = binary_to_image(image)
         width, height = tuple(str(size) for size in img.size)
+=======
+        if record.mimetype == "image/webp":
+            width, height = tuple(str(size) for size in get_webp_size(image))
+        else:
+            img = binary_to_image(image)
+            width, height = tuple(str(size) for size in img.size)
+>>>>>>> upstream/18.0
         root = etree.fromstring(svg)
 
         if root.attrib.get("data-forced-size"):

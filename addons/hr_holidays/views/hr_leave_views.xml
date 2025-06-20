@@ -143,6 +143,7 @@
                                 <button t-if="record.state.raw_value === 'confirm'" name="action_approve" type="object" class="btn btn-link btn-sm ps-0"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     groups="hr_holidays.group_hr_holidays_user">
                                     <i class="fa fa-thumbs-up"/> Approve
                                 </button>
@@ -155,6 +156,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                     groups="hr_holidays.group_hr_holidays_responsible">
                                     <i class="fa fa-thumbs-up"/> Approve
                                 </button>
@@ -165,6 +168,9 @@
                                 <button t-if="['confirm', 'validate1'].includes(record.state.raw_value)" name="action_refuse" type="object" class="btn btn-link btn-sm ps-0"
                                     groups="hr_holidays.group_hr_holidays_responsible">
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -496,6 +502,7 @@
                     invisible="state != 'validate1'"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     groups="hr_holidays.group_hr_holidays_user"/>
                 <button string="Refuse" name="action_refuse" type="object"
                     icon="fa-times"
@@ -504,12 +511,17 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     groups="hr_holidays.group_hr_holidays_responsible"/>
                 <button string="Refuse" name="action_refuse" type="object"
                     icon="fa-times"
                     invisible="state not in ('confirm', 'validate1')"
                     groups="hr_holidays.group_hr_holidays_responsible"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -732,7 +744,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'holiday_status_display_name': False}</field>
+=======
+            }
+        </field>
+>>>>>>> upstream/18.0
 =======
             }
         </field>
@@ -870,7 +887,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'holiday_status_display_name': False}
+=======
+            }
+>>>>>>> upstream/18.0
 =======
             }
 >>>>>>> upstream/18.0

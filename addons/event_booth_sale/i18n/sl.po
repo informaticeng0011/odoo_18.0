@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,50 +30,87 @@ msgstr ""
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_form_from_event
 msgid "<span class=\"o_stat_text\">Sale Order</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Prodajni nalog</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_ids
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_registration__event_booth_id
 msgid "Booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kabina"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_category_id
 msgid "Booth Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija stojnice"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,help:event_booth_sale.field_event_booth_configurator__event_booth_category_available_ids
 msgid "Booth Category for which booths are still available. Used in frontend"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kategorija stojnic, za katero so stojnice še na voljo. Uporablja se v "
+"frontendu."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order__event_booth_count
 msgid "Booth Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število stojnic"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_category_view_form
 msgid "Booth Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podrobnosti o stojnici"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_registration_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_registration_view_tree
 msgid "Booth Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija stojnice"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order__event_booth_ids
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.sale_order_view_form
 msgid "Booths"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stojnice"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_category_id
 msgid "Booths Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija stojnic"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_configurator_view_form
@@ -75,12 +120,20 @@ msgstr "Prekliči"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_ids
 msgid "Confirmed Booths"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrjene stojnice"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_registration_ids
 msgid "Confirmed Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrjena registracija"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_registration_view_form
@@ -152,38 +205,66 @@ msgstr "Dogodek"
 #: model:ir.model,name:event_booth_sale.model_event_booth
 #: model:ir.model.fields.selection,name:event_booth_sale.selection__product_template__service_tracking__event_booth
 msgid "Event Booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stojnica za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_category
 msgid "Event Booth Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija stojnice za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__event_booth_category_available_ids
 msgid "Event Booth Category Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija stojnice za dogodke na voljo"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_configurator
 msgid "Event Booth Configurator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurator stojnic za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_booth_registration
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__event_booth_registration_ids
 msgid "Event Booth Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registracija stojnice na dogodku"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_event_type_booth
 msgid "Event Booth Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predloga za stojnico za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__sale_order_line_id
 msgid "Final Sale Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrstica končnega prodajnega naročila"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__id
@@ -199,12 +280,20 @@ msgstr "Slika"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__is_event_booth
 msgid "Is Event Booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je stojnica za dogodke"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__is_paid
 msgid "Is Paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je plačano"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_account_move
@@ -227,7 +316,11 @@ msgstr "Zadnjič posodobljeno"
 #. odoo-python
 #: code:addons/event_booth_sale/models/product_template.py:0
 msgid "Mark the selected Booth as Unavailable."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi izbrano kabino kot nedostopno."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_configurator_view_form
@@ -247,7 +340,11 @@ msgstr "Plačano"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_sale_order_line__event_booth_pending_ids
 msgid "Pending Booths"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čakajoče kabine"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
@@ -256,6 +353,11 @@ msgid ""
 "Please make sure all your event-booth related lines are configured before "
 "confirming this order:%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pred potrditvijo tega naročila se prepričajte, da so vse linije, povezane z "
+"vašo stojnico za dogodek, konfigurirane:%s"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__price
@@ -277,7 +379,11 @@ msgstr "Znižanje cene z DDV"
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_category__price_incl
 msgid "Price incl"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vključeno v ceno"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model,name:event_booth_sale.model_product_template
@@ -302,12 +408,20 @@ msgstr "Registracije"
 #. odoo-python
 #: code:addons/event_booth_sale/models/sale_order_line.py:0
 msgid "Registrations from the same Order Line must belong to a single event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijave iz iste naročilnice morajo pripadati enemu dogodku."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth__sale_order_line_registration_ids
 msgid "SO Lines with reservations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SO-Proge z rezervacijami"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.fields,field_description:event_booth_sale.field_event_booth_configurator__sale_order_line_id
@@ -328,7 +442,11 @@ msgstr "Postavka naročila"
 #. module: event_booth_sale
 #: model:ir.actions.act_window,name:event_booth_sale.event_booth_configurator_action
 msgid "Select an event booth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izberite stojnico za dogodek"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
@@ -337,11 +455,20 @@ msgid ""
 "The following booths are unavailable, please remove them to continue : "
 "%(booth_names)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naslednje kabine niso na voljo, prosimo, da jih odstranite, če želite "
+"nadaljevati: %(booth_names)s"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model:ir.model.constraint,message:event_booth_sale.constraint_event_booth_registration_unique_registration
 msgid "There can be only one registration for a booth by sale order line"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Za stojnico je lahko samo ena registracija po vrstici prodajnega naročila."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #: model_terms:ir.ui.view,arch_db:event_booth_sale.event_booth_view_tree_from_event
@@ -352,6 +479,11 @@ msgstr "Skupaj"
 #: model:ir.model.fields,help:event_booth_sale.field_sale_order_line__event_booth_pending_ids
 msgid "Used to create registration when providing the desired event booth."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Uporablja se za ustvarjanje registracije pri zagotavljanju želene stojnice "
+"za dogodek."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
@@ -360,12 +492,21 @@ msgid ""
 "You can't delete the following booths as they are linked to sales orders: "
 "%(booths)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naslednjih stojnic ne morete izbrisati, ker so povezane s prodajnimi "
+"naročili: %(booths)s"
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
 #: code:addons/event_booth_sale/wizard/event_booth_configurator.py:0
 msgid "You have to select at least one booth."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbrati morate vsaj eno stojnico."
+>>>>>>> upstream/18.0
 
 #. module: event_booth_sale
 #. odoo-python
@@ -373,4 +514,8 @@ msgstr ""
 msgid ""
 "Your order has been cancelled because the following booths have been "
 "reserved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaše naročilo je bilo preklicano, ker so naslednje kabine rezervirane"
+>>>>>>> upstream/18.0

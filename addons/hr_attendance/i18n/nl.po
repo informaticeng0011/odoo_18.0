@@ -371,10 +371,16 @@ msgstr "Automatisch goedgekeurd"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
+<<<<<<< HEAD
 "additional tolerance."
 msgstr ""
 "Werknemers automatisch uitchecken op basis van hun werkschema met een extra "
 "tolerantie."
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_attendance_view_filter
@@ -942,9 +948,16 @@ msgstr "Identificeer handmatig"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
+<<<<<<< HEAD
 msgstr ""
 "Als deze optie is aangevinkt, zijn de dagen waarop geen aanwezigheid is "
 "zichtbaar in het rapport."
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr ""
+"Indien aangevinkt, worden dagen zonder aanwezigheid weergegeven in het "
+"rapport. Niet van toepassing op werknemers met een flexibel werkrooster."
+>>>>>>> upstream/18.0
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance__message_needaction
@@ -1331,11 +1344,14 @@ msgid "RFID Token with reader on tablet"
 msgstr "RFID-token met lezer op tablet"
 
 #. module: hr_attendance
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "Beoordelingen"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_attendance/static/src/views/attendance_helper_view.xml:0
 msgid "Ready to track attendances ?"
