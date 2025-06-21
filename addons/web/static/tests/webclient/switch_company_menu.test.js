@@ -558,6 +558,10 @@ test("when less than 10 companies, typing key makes the search input visible", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 =======
 test.tags("focus required");
 >>>>>>> upstream/18.0

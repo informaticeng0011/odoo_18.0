@@ -45,7 +45,11 @@ import { withSequence } from "@html_editor/utils/resource";
 import { compareListTypes } from "@html_editor/main/list/utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasTouch, isBrowserChrome } from "@web/core/browser/feature_detection";
+=======
+import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -73,7 +77,11 @@ import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_de
 export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history", "input"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
 >>>>>>> upstream/18.0
@@ -128,7 +136,10 @@ export class DeletePlugin extends Plugin {
         this.findNextPosition = this.makeFindPositionFn("forward");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (isMacOS()) {
@@ -162,6 +173,9 @@ export class DeletePlugin extends Plugin {
             });
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

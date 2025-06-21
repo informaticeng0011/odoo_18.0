@@ -206,7 +206,11 @@ test("instance fields", () => {
 test("call instance method defined in patch", () => {
     const instance = new BaseClass();
     expect.verifySteps(["base.setup"]);
+<<<<<<< HEAD
     expect("f" in instance).toBe(false);
+=======
+    expect(instance).not.toInclude("f");
+>>>>>>> upstream/18.0
 
     const unpatch = patch(BaseClass.prototype, {
         f() {
@@ -214,11 +218,19 @@ test("call instance method defined in patch", () => {
         },
     });
     instance.f();
+<<<<<<< HEAD
     expect("f" in instance).toBe(true);
     expect.verifySteps(["patch.f"]);
 
     unpatch();
     expect("f" in instance).toBe(false);
+=======
+    expect(instance).toInclude("f");
+    expect.verifySteps(["patch.f"]);
+
+    unpatch();
+    expect(instance).not.toInclude("f");
+>>>>>>> upstream/18.0
 });
 
 test("class methods", () => {

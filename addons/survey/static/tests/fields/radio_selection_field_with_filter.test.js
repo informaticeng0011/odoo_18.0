@@ -46,7 +46,11 @@ test("radio selection field with filter, empty list", async () => {
         `,
     });
 
+<<<<<<< HEAD
     expect(".o_radio_input").not.toBeVisible();
+=======
+    expect(".o_radio_input").not.toHaveCount();
+>>>>>>> upstream/18.0
 });
 
 test("radio selection field with filter, single choice", async () => {
@@ -63,9 +67,15 @@ test("radio selection field with filter, single choice", async () => {
     });
 
     expect(".o_radio_input").toHaveCount(1);
+<<<<<<< HEAD
     expect("input[data-value='white']").not.toBeVisible();
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").not.toBeVisible();
+=======
+    expect("input[data-value='white']").not.toHaveCount();
+    expect("input[data-value='grey']").toBeVisible();
+    expect("input[data-value='black']").not.toHaveCount();
+>>>>>>> upstream/18.0
 });
 
 test("radio selection field with filter, all choices", async () => {
@@ -109,7 +119,11 @@ test("radio selection field with filter, synchronize with other field", async ()
     expect("[name='is_raining_outside'] input").not.toBeChecked();
     expect("div[name='mood'] .o_radio_input").toHaveCount(1);
     expect("input[data-value='happy']").toBeVisible();
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
+=======
+    expect("input[data-value='sad']").not.toHaveCount();
+>>>>>>> upstream/18.0
 
     await click("[name='is_raining_outside'] input");
     await animationFrame();
@@ -127,7 +141,11 @@ test("radio selection field with filter, synchronize with other field", async ()
     expect("[name='is_raining_outside'] input").not.toBeChecked();
     expect("div[name='mood'] .o_radio_input").toHaveCount(1);
     expect("input[data-value='happy']").toBeVisible();
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
+=======
+    expect("input[data-value='sad']").not.toHaveCount();
+>>>>>>> upstream/18.0
 });
 
 test("radio selection field with filter, cross radio synchronization", async () => {
@@ -160,10 +178,17 @@ test("radio selection field with filter, cross radio synchronization", async () 
     expect("div[name='mood'] .o_radio_input").toHaveCount(1);
     expect("div[name='color'] .o_radio_input").toHaveCount(2);
     expect("input[data-value='happy']").toBeVisible();
+<<<<<<< HEAD
     expect("input[data-value='sad']").not.toBeVisible();
     expect("input[data-value='white']").toBeVisible();
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").not.toBeVisible();
+=======
+    expect("input[data-value='sad']").not.toHaveCount();
+    expect("input[data-value='white']").toBeVisible();
+    expect("input[data-value='grey']").toBeVisible();
+    expect("input[data-value='black']").not.toHaveCount();
+>>>>>>> upstream/18.0
 
     await click("[name='color'] input[data-value='grey']");
     await animationFrame();
@@ -175,7 +200,11 @@ test("radio selection field with filter, cross radio synchronization", async () 
     expect("input[data-value='sad']").toBeVisible();
     expect("input[data-value='white']").toBeVisible();
     expect("input[data-value='grey']").toBeVisible();
+<<<<<<< HEAD
     expect("input[data-value='black']").not.toBeVisible();
+=======
+    expect("input[data-value='black']").not.toHaveCount();
+>>>>>>> upstream/18.0
 
     await click("div[name='mood'] input[data-value='sad']");
     await animationFrame();
@@ -185,7 +214,11 @@ test("radio selection field with filter, cross radio synchronization", async () 
     expect("div[name='color'] .o_radio_input").toHaveCount(2);
     expect("input[data-value='happy']").toBeVisible();
     expect("input[data-value='sad']").toBeVisible();
+<<<<<<< HEAD
     expect("input[data-value='white']").not.toBeVisible();
+=======
+    expect("input[data-value='white']").not.toHaveCount();
+>>>>>>> upstream/18.0
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").toBeVisible();
 
@@ -195,9 +228,15 @@ test("radio selection field with filter, cross radio synchronization", async () 
     // sad and black, happy should disappear
     expect("div[name='mood'] .o_radio_input").toHaveCount(1);
     expect("div[name='color'] .o_radio_input").toHaveCount(2);
+<<<<<<< HEAD
     expect("input[data-value='happy']").not.toBeVisible();
     expect("input[data-value='sad']").toBeVisible();
     expect("input[data-value='white']").not.toBeVisible();
+=======
+    expect("input[data-value='happy']").not.toHaveCount();
+    expect("input[data-value='sad']").toBeVisible();
+    expect("input[data-value='white']").not.toHaveCount();
+>>>>>>> upstream/18.0
     expect("input[data-value='grey']").toBeVisible();
     expect("input[data-value='black']").toBeVisible();
 });

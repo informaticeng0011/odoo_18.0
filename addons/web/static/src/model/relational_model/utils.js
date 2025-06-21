@@ -59,6 +59,12 @@ export function addFieldDependencies(activeFields, fields, fieldDependencies = [
         } else {
             activeFields[field.name] = makeActiveField(field);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (["one2many", "many2many"].includes(field.type)) {
+                activeFields[field.name].related = { activeFields: {}, fields: {} };
+            }
+>>>>>>> upstream/18.0
 =======
             if (["one2many", "many2many"].includes(field.type)) {
                 activeFields[field.name].related = { activeFields: {}, fields: {} };

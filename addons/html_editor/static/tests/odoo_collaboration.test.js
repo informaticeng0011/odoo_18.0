@@ -92,9 +92,15 @@ class PeerTest {
             if (peer === this) {
                 continue;
             }
+<<<<<<< HEAD
             peer.onlineMutex.exec(async () => {
                 return peer.plugins.collaborationOdoo.onServerLastIdUpdate(String(lastId));
             });
+=======
+            peer.onlineMutex.exec(async () =>
+                peer.plugins.collaborationOdoo.onServerLastIdUpdate(String(lastId))
+            );
+>>>>>>> upstream/18.0
         }
     }
     async setOnline() {
@@ -142,11 +148,20 @@ class Wysiwygs extends Component {
     setup() {
         this.peerResolvers = {};
         this.peerPromises = Promise.all(
+<<<<<<< HEAD
             this.props.peerIds.map((peerId) => {
                 return new Promise((resolve) => {
                     this.peerResolvers[peerId] = resolve;
                 });
             })
+=======
+            this.props.peerIds.map(
+                (peerId) =>
+                    new Promise((resolve) => {
+                        this.peerResolvers[peerId] = resolve;
+                    })
+            )
+>>>>>>> upstream/18.0
         );
         this.loadedPromise = new Promise((resolve) => {
             this.loadedResolver = resolve;
@@ -218,9 +233,13 @@ class Wysiwygs extends Component {
                             super.notifyAllPeers(...args);
                         },
                         _getPtpPeers() {
+<<<<<<< HEAD
                             return peers[peerId].connections.map((peer) => {
                                 return { id: peer.peerId };
                             });
+=======
+                            return peers[peerId].connections.map((peer) => ({ id: peer.peerId }));
+>>>>>>> upstream/18.0
                         },
                         async _channelNotify(peerId, transportPayload) {
                             if (
@@ -313,6 +332,7 @@ async function insertEditorText(editor, text) {
 }
 
 beforeEach(() => {
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.users/read", () => {
         return [{ id: 0, name: "admin" }];
     });
@@ -320,6 +340,11 @@ beforeEach(() => {
         return [];
     });
     onRpc("/html_editor/bus_broadcast", (params) => {
+=======
+    onRpc("res.users", "read", () => [{ id: 0, name: "admin" }]);
+    onRpc("/html_editor/get_ice_servers", () => []);
+    onRpc("/html_editor/bus_broadcast", () => {
+>>>>>>> upstream/18.0
         throw new Error("Should not be called.");
     });
 });

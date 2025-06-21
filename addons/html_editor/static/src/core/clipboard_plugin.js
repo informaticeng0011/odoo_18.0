@@ -334,6 +334,7 @@ export class ClipboardPlugin extends Plugin {
      */
     pasteText(selection, text) {
         const textFragments = text.split(/\r?\n/);
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -345,6 +346,25 @@ export class ClipboardPlugin extends Plugin {
                     return replaceContent;
                 });
             });
+=======
+        const preEl = closestElement(selection.anchorNode, "PRE");
+        let textIndex = 1;
+        for (const textFragment of textFragments) {
+            let modifiedTextFragment = textFragment;
+
+            // <pre> preserves whitespace by default, so no need for &nbsp.
+            if (!preEl) {
+                // Replace consecutive spaces by alternating nbsp.
+                modifiedTextFragment = textFragment.replace(/( {2,})/g, (match) => {
+                    let alternateValue = false;
+                    return match.replace(/ /g, () => {
+                        alternateValue = !alternateValue;
+                        const replaceContent = alternateValue ? "\u00A0" : " ";
+                        return replaceContent;
+                    });
+                });
+            }
+>>>>>>> upstream/18.0
             this.dependencies.dom.insert(modifiedTextFragment);
             // The selection must be updated after calling insert, as the insertion
             // process modifies the selection.

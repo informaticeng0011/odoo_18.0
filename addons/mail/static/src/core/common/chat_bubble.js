@@ -34,15 +34,21 @@ export class ChatBubble extends Component {
         this.state = useState({ bouncing: false, showClose: true });
         useEffect(
 <<<<<<< HEAD
+<<<<<<< HEAD
             () => {
                 this.state.bouncing = this.thread.importantCounter ? true : this.state.bouncing;
             },
             () => [this.thread.importantCounter]
 =======
+=======
+>>>>>>> upstream/18.0
             (importantCounter) => {
                 this.state.bouncing = Boolean(importantCounter);
             },
             () => [this.thread?.importantCounter]
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         );
         if (this.env.embedLivechat) {

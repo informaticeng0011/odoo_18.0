@@ -30,7 +30,11 @@ test("Can execute help command on livechat channels", async () => {
         channel_type: "livechat",
         livechat_operator_id: serverState.partnerId,
     });
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/discuss.channel/execute_command_help", () => {
+=======
+    onRpc("discuss.channel", "execute_command_help", () => {
+>>>>>>> upstream/18.0
         step("execute_command_help");
         return true;
     });

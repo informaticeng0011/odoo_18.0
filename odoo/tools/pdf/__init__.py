@@ -47,9 +47,15 @@ except ImportError:
 # might be a good case for exception groups
 error = None
 # keep pypdf2 2.x first so noble uses that rather than pypdf 4.0
+<<<<<<< HEAD
 for submod in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
     try:
         pypdf = importlib.import_module(submod, __spec__.name)
+=======
+for SUBMOD in ['._pypdf2_2', '._pypdf', '._pypdf2_1']:
+    try:
+        pypdf = importlib.import_module(SUBMOD, __spec__.name)
+>>>>>>> upstream/18.0
         break
     except ImportError as e:
         if error is None:
@@ -357,12 +363,38 @@ class OdooPdfFileWriter(PdfFileWriter):
         self._reader = None
         self.is_pdfa = False
 
+<<<<<<< HEAD
+=======
+    def format_subtype(self, subtype):
+        """
+        Apply the correct format to the subtype.
+        It should take the form of "/xxx#2Fxxx". E.g. for "text/xml": "/text#2Fxml"
+        :param subtype: The mime-type of the attachement.
+        """
+        if not subtype:
+            return subtype
+
+        adapted_subtype = subtype
+        if REGEX_SUBTYPE_UNFORMATED.match(subtype):
+            # _pypdf2_2 does the formating when creating a NameObject
+            if SUBMOD == '._pypdf2_2':
+                return '/' + subtype
+            adapted_subtype = '/' + subtype.replace('/', '#2F')
+
+        if not REGEX_SUBTYPE_FORMATED.match(adapted_subtype):
+            # The subtype still does not match the correct format, so we will not add it to the document
+            _logger.warning("Attempt to add an attachment with the incorrect subtype '%s'. The subtype will be ignored.", subtype)
+            adapted_subtype = ''
+        return adapted_subtype
+
+>>>>>>> upstream/18.0
     def add_attachment(self, name, data, subtype=None):
         """
         Add an attachment to the pdf. Supports adding multiple attachment, while respecting PDF/A rules.
         :param name: The name of the attachement
         :param data: The data of the attachement
         :param subtype: The mime-type of the attachement. This is required by PDF/A, but not essential otherwise.
+<<<<<<< HEAD
         It should take the form of "/xxx#2Fxxx". E.g. for "text/xml": "/text#2Fxml"
         """
         adapted_subtype = subtype
@@ -375,6 +407,10 @@ class OdooPdfFileWriter(PdfFileWriter):
                 # The subtype still does not match the correct format, so we will not add it to the document
                 _logger.warning("Attempt to add an attachment with the incorrect subtype '%s'. The subtype will be ignored.", subtype)
                 adapted_subtype = ''
+=======
+        """
+        adapted_subtype = self.format_subtype(subtype)
+>>>>>>> upstream/18.0
 
         attachment = self._create_attachment_object({
             'filename': name,
@@ -438,7 +474,11 @@ class OdooPdfFileWriter(PdfFileWriter):
                 # only need this if running on 1.x
                 #
                 # incidentally that means the heuristic above is completely broken
+<<<<<<< HEAD
                 if submod == '._pypdf2_1':
+=======
+                if SUBMOD == '._pypdf2_1':
+>>>>>>> upstream/18.0
                     self._header += second_line
         # clone_reader_document_root clones reader._ID since 3.2 (py-pdf/pypdf#1520)
         if not hasattr(self, '_ID'):
@@ -466,8 +506,15 @@ class OdooPdfFileWriter(PdfFileWriter):
         # where 'n' is a single digit number between 0 (30h) and 7 (37h) "
         # " The aforementioned EOL marker shall be immediately followed by a % (25h) character followed by at least four
         # bytes, each of whose encoded byte values shall have a decimal value greater than 127 "
+<<<<<<< HEAD
         self._header = b"%PDF-1.7\n"
         if submod == '._pypdf2_1':
+=======
+        self._header = b"%PDF-1.7"
+        if SUBMOD != '._pypdf2_2':
+            self._header += b"\n"
+        if SUBMOD == '._pypdf2_1':
+>>>>>>> upstream/18.0
             self._header += b"%\xDE\xAD\xBE\xEF"
 
         # Add a document ID to the trailer. This is only needed when using encryption with regular PDF, but is required

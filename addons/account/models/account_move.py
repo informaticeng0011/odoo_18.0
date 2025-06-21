@@ -97,6 +97,10 @@ EMPTY = object()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+BYPASS_LOCK_CHECK = object()
+>>>>>>> upstream/18.0
 =======
 BYPASS_LOCK_CHECK = object()
 >>>>>>> upstream/18.0
@@ -924,7 +928,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not move.invoice_date:
+=======
+            if not move.invoice_date or not move.is_invoice():
+>>>>>>> upstream/18.0
 =======
             if not move.invoice_date or not move.is_invoice():
 >>>>>>> upstream/18.0
@@ -1272,7 +1280,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (not move.name or move.name == '/') and self.date and not move._get_last_sequence():
+=======
+            if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
+>>>>>>> upstream/18.0
 =======
             if (not move.name or move.name == '/') and move.date and not move._get_last_sequence():
 >>>>>>> upstream/18.0
@@ -1700,8 +1712,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stored_ids = tuple(self.ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1763,6 +1778,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1833,6 +1851,7 @@ class AccountMove(models.Model):
         else:
             payment_data = {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,6 +1959,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for invoice in posted_invoices:
             currencies = invoice._get_lines_onchange_currency().currency_id
             currency = currencies if len(currencies) == 1 else invoice.company_id.currency_id
@@ -1997,6 +2018,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2569,6 +2593,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for move in self:
             if not move.is_sale_document(include_receipts=True):
                 continue
@@ -2585,6 +2610,8 @@ class AccountMove(models.Model):
                     del context
                 move.narration = narration or False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2677,6 +2704,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3388,6 +3418,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('bypass_lock_check') is BYPASS_LOCK_CHECK:
+            return
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('bypass_lock_check') is BYPASS_LOCK_CHECK:
             return
@@ -3919,7 +3954,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return ('amount_currency', 'balance')
+=======
+            return ('amount_currency', 'balance', 'analytic_distribution')
+>>>>>>> upstream/18.0
 =======
             return ('amount_currency', 'balance', 'analytic_distribution')
 >>>>>>> upstream/18.0
@@ -4182,10 +4221,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     all(not line.tax_ids and not move_base_lines_values_before.get(line, {}).get('tax_ids') for line in changed_lines)
                     # Keep the tax lines amounts if an amount has been manually computed.
                     or any_field_has_changed(move_tax_lines_values_before, tax_lines)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4322,6 +4364,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4859,7 +4904,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'journal_id' in vals:
+=======
+
+        if any(field in vals for field in ['journal_id', 'currency_id']):
+>>>>>>> upstream/18.0
 =======
 
         if any(field in vals for field in ['journal_id', 'currency_id']):
@@ -5983,7 +6033,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             invoice._link_bill_origin_to_purchase_orders(timeout=4)
+=======
+                            if not extend_with_existing_lines:
+                                invoice._link_bill_origin_to_purchase_orders(timeout=4)
+>>>>>>> upstream/18.0
 =======
                             if not extend_with_existing_lines:
                                 invoice._link_bill_origin_to_purchase_orders(timeout=4)
@@ -6140,7 +6195,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return not filter_tax_values_to_apply or filter_tax_values_to_apply(base_line, tax_data)
+=======
+            if tax_data:
+                return not filter_tax_values_to_apply or filter_tax_values_to_apply(base_line, tax_data)
+>>>>>>> upstream/18.0
 =======
             if tax_data:
                 return not filter_tax_values_to_apply or filter_tax_values_to_apply(base_line, tax_data)
@@ -6783,7 +6843,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.checked = move.journal_id.autocheck_on_post
+=======
+            if move.journal_id.autocheck_on_post:
+                move.checked = move.journal_id.autocheck_on_post
+>>>>>>> upstream/18.0
 =======
             if move.journal_id.autocheck_on_post:
                 move.checked = move.journal_id.autocheck_on_post
@@ -7026,6 +7091,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.invoice_line_ids._compute_price_unit()
+>>>>>>> upstream/18.0
 =======
         self.invoice_line_ids._compute_price_unit()
 >>>>>>> upstream/18.0
@@ -7461,6 +7530,10 @@ class AccountMove(models.Model):
                     move.checked = False
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    move.auto_post = 'no'
+>>>>>>> upstream/18.0
 =======
                     move.auto_post = 'no'
 >>>>>>> upstream/18.0
@@ -7640,9 +7713,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount_date = epd_installment['line'].discount_date
             discount_amount_currency = epd_installment['discount_amount_currency']
             days_left = (discount_date - fields.Date.context_today(self)).days  # should never be lower than 0 since epd is valid
+=======
+            discount_date = epd_installment['line'].discount_date or fields.Date.context_today(self)
+            discount_amount_currency = epd_installment['discount_amount_currency']
+            days_left = max(0, (discount_date - fields.Date.context_today(self)).days)  # should never be lower than 0 since epd is valid
+>>>>>>> upstream/18.0
 =======
             discount_date = epd_installment['line'].discount_date or fields.Date.context_today(self)
             discount_amount_currency = epd_installment['discount_amount_currency']

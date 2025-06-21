@@ -1,5 +1,9 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
+=======
+import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 import { stringify } from "../hoot_utils";
 import { urlParams } from "./url";
 
@@ -43,6 +47,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        table: $table,
+>>>>>>> upstream/18.0
 =======
         table: $table,
 >>>>>>> upstream/18.0
@@ -141,6 +149,7 @@ const {
  * @param {string} [prefix]
  * @param {string} [prefixColor]
  */
+<<<<<<< HEAD
 const styledArguments = (args, prefix, prefixColor) => {
     const fullPrefix = `%c[${prefix || "HOOT"}]%c`;
     const styles = [`color:${prefixColor || "#ff0080"};font-weight:bold`, ""];
@@ -148,19 +157,34 @@ const styledArguments = (args, prefix, prefixColor) => {
     if (typeof firstArg === "function") {
         firstArg = firstArg();
     }
+=======
+function styledArguments(args, prefix, prefixColor) {
+    const fullPrefix = `%c[${prefix || DEFAULT_PREFIX[0]}]%c`;
+    const styles = [`color:${prefixColor || DEFAULT_PREFIX[1]};font-weight:bold`, ""];
+    const firstArg = args.shift() ?? "";
+>>>>>>> upstream/18.0
     if (typeof firstArg === "string") {
         args.unshift(`${fullPrefix} ${firstArg}`, ...styles);
     } else {
         args.unshift(fullPrefix, ...styles, firstArg);
     }
     return args;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {any[]} args
  */
+<<<<<<< HEAD
 const unstyledArguments = (args) => {
     const prefix = `[HOOT]`;
+=======
+function unstyledArguments(args) {
+    const prefix = `[${DEFAULT_PREFIX[0]}]`;
+>>>>>>> upstream/18.0
     const firstArg = args.shift() ?? "";
     if (typeof firstArg === "string") {
         args.unshift(`${prefix} ${firstArg}`);
@@ -168,6 +192,7 @@ const unstyledArguments = (args) => {
         args.unshift(prefix, firstArg);
     }
     return [args.join(" ")];
+<<<<<<< HEAD
 };
 
 <<<<<<< HEAD
@@ -337,6 +362,14 @@ const WARNING_PREFIX = ["WARNING", "#f59e0b"];
 const DEBUG_PREFIX = ["DEBUG", "#ffb000"];
 const ERROR_PREFIX = ["ERROR", "#9f1239"];
 const WARNING_PREFIX = ["WARNING", "#f59e0b"];
+>>>>>>> upstream/18.0
+=======
+}
+
+const DEBUG_PREFIX = ["DEBUG", getColorHex("purple")];
+const DEFAULT_PREFIX = ["HOOT", getColorHex("primary")];
+const ERROR_PREFIX = ["ERROR", getColorHex("rose")];
+const WARNING_PREFIX = ["WARNING", getColorHex("amber")];
 >>>>>>> upstream/18.0
 let nextNetworkLogId = 1;
 
@@ -356,7 +389,11 @@ export function makeNetworkLogger(prefix, title) {
          * @param {() => any} getData
          */
         async logRequest(getData) {
+<<<<<<< HEAD
             if (logger.level < LOG_LEVELS.debug) {
+=======
+            if (!logger.allows("debug")) {
+>>>>>>> upstream/18.0
                 return;
             }
             const color = `color: #66e`;
@@ -370,7 +407,11 @@ export function makeNetworkLogger(prefix, title) {
          * @param {() => any} getData
          */
         async logResponse(getData) {
+<<<<<<< HEAD
             if (logger.level < LOG_LEVELS.debug) {
+=======
+            if (!logger.allows("debug")) {
+>>>>>>> upstream/18.0
                 return;
             }
             const color = `color: #f80`;
@@ -388,6 +429,7 @@ export const LOG_LEVELS = {
 };
 
 export const logger = {
+<<<<<<< HEAD
     level: urlParams.loglevel ?? LOG_LEVELS.runner,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,6 +543,11 @@ export const logger = {
 =======
     suppressed: "",
 >>>>>>> upstream/18.0
+=======
+    /** @private */
+    currentLevel: urlParams.loglevel ?? LOG_LEVELS.runner,
+    suppressed: "",
+>>>>>>> upstream/18.0
 
     // Standard console methods
 
@@ -542,6 +589,7 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.error(...styledArguments(args));
     },
     /**
@@ -550,6 +598,8 @@ export const logger = {
     groupCollapsed(...args) {
         $groupCollapsed(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -659,6 +709,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -747,8 +800,11 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.warn(...styledArguments(args));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -837,6 +893,9 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -900,6 +959,7 @@ export const logger = {
      * @param {...any} args
      */
     logDebug(...args) {
+<<<<<<< HEAD
         if (logger.level < LOG_LEVELS.debug) {
             return;
         }
@@ -1034,12 +1094,22 @@ export const logger = {
                 `ms)`,
             ])
         );
+=======
+        if (!logger.allows("debug")) {
+            return;
+        }
+        $debug(...styledArguments(args, ...DEBUG_PREFIX));
+>>>>>>> upstream/18.0
     },
     /**
      * @param {import("./suite").Suite} suite
      */
     logSuite(suite) {
+<<<<<<< HEAD
         if (logger.level < LOG_LEVELS.suites) {
+=======
+        if (!logger.allows("suites")) {
+>>>>>>> upstream/18.0
             return;
         }
         const args = [`${stringify(suite.fullName)} ended`];
@@ -1065,10 +1135,42 @@ export const logger = {
         $log(...styledArguments(args));
     },
     /**
+<<<<<<< HEAD
      * @param {...any} args
      */
     logRun(...args) {
         if (logger.level < LOG_LEVELS.runner) {
+=======
+     * @param {import("./test").Test} test
+     */
+    logTest(test) {
+        if (!logger.allows("tests")) {
+            return;
+        }
+        const { fullName, lastResults } = test;
+        $log(
+            ...styledArguments([
+                `Test ${stringify(fullName)} passed (assertions:`,
+                lastResults.counts.assertion || 0,
+                `/ time:`,
+                lastResults.duration,
+                `ms)`,
+            ])
+        );
+    },
+    /**
+     * @param {[label: string, color: string]} prefix
+     * @param {...any} args
+     */
+    logTestEvent(prefix, ...args) {
+        $log(...styledArguments(args, ...prefix));
+    },
+    /**
+     * @param {...any} args
+     */
+    logRun(...args) {
+        if (!logger.allows("runner")) {
+>>>>>>> upstream/18.0
             return;
         }
         $log(...styledArguments(args));
@@ -1119,7 +1221,10 @@ export const logger = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1178,6 +1283,7 @@ export const logger = {
     // Other methods
 
     /**
+<<<<<<< HEAD
      * @param {string} reason
      */
     suppressIssues(reason) {
@@ -1268,5 +1374,27 @@ export const logger = {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+     * @param {keyof typeof LOG_LEVELS} level
+     */
+    allows(level) {
+        return logger.currentLevel >= LOG_LEVELS[level];
+    },
+    /**
+     * @param {keyof typeof LOG_LEVELS} level
+     */
+    setLevel(level) {
+        logger.currentLevel = LOG_LEVELS[level];
+    },
+    /**
+     * @param {string} reason
+     */
+    suppressIssues(reason) {
+        logger.suppressed = reason || "(suppressed)";
+        return function restore() {
+            logger.suppressed = "";
+        };
+    },
 >>>>>>> upstream/18.0
 };

@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
 # Anastasia Mimou, 2025
 <<<<<<< HEAD
@@ -60,6 +61,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Anastasia Mimou, 2025
 >>>>>>> upstream/18.0
 =======
 # Anastasia Mimou, 2025
@@ -217,6 +221,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
@@ -249,6 +254,10 @@
 =======
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Georgios Geitonas <g.geitonas@dileanity.com>, 2025
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
@@ -379,6 +388,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +620,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-13 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -644,6 +659,11 @@ msgid ""
 "destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" <br/><br/> Τα παραγόμενα είδη θα μεταφερθούν <b>%(destination)s</b>, <br/> "
+"όπως έχουν οριστεί από <b>%(operation)s</b> τον προορισμό."
+>>>>>>> upstream/18.0
 =======
 " <br/><br/> Τα παραγόμενα είδη θα μεταφερθούν <b>%(destination)s</b>, <br/> "
 "όπως έχουν οριστεί από <b>%(operation)s</b> τον προορισμό."
@@ -716,7 +736,11 @@ msgstr "%(product)s:Ανεπαρκής ποσότητα για αποκατάσ�
 #: code:addons/mrp/models/mrp_bom.py:0
 msgid "%(product_name)s (new) %(number_of_boms)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s (νέο) %(number_of_boms)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s (νέο) %(number_of_boms)s"
 >>>>>>> upstream/18.0
@@ -738,7 +762,11 @@ msgstr "%i Εντολές Εργασίας"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "%s Child MO's"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s Υποεντολές Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s Υποεντολές Παραγωγής"
 >>>>>>> upstream/18.0
@@ -753,7 +781,11 @@ msgstr "%sδεν μπορεί να διαγραφεί. Προσπαθήστε ν
 #: model:ir.actions.report,print_report_name:mrp.action_report_bom_structure
 msgid "'Bom Overview - %s' % object.display_name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Επισκόπηση Λίστας Υλικών - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Επισκόπηση Λίστας Υλικών - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -767,7 +799,11 @@ msgstr "Τελικά Προϊόντα- %s' % αρχείο.όνομα"
 #: model:ir.actions.report,print_report_name:mrp.action_report_mrp_mo_overview
 msgid "'MO Overview - %s' % object.display_name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Επισκόπηση Εντολής Παραγωγής - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Επισκόπηση Εντολής Παραγωγής - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -788,7 +824,11 @@ msgstr "'Εντολή Εργασίας - %s' % object.name"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "(in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Σε"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Σε"
 >>>>>>> upstream/18.0
@@ -819,6 +859,12 @@ msgid ""
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" 1 Βήμα: Κατανάλωση πρώτων υλών από το απόθεμα και παραγωγή.\n"
+"              2 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα και έπειτα παραγωγή.\n"
+"              3 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα, παραγωγή και μετά μετακίνηση των τελικών ειδών από την παραγωγή στο απόθεμα."
+>>>>>>> upstream/18.0
 =======
 " 1 Βήμα: Κατανάλωση πρώτων υλών από το απόθεμα και παραγωγή.\n"
 "              2 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα και έπειτα παραγωγή.\n"
@@ -850,7 +896,11 @@ msgstr "15-9-2023"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
 msgid "25"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25"
+>>>>>>> upstream/18.0
 =======
 msgstr "25"
 >>>>>>> upstream/18.0
@@ -859,7 +909,11 @@ msgstr "25"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "50"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50"
+>>>>>>> upstream/18.0
 =======
 msgstr "50"
 >>>>>>> upstream/18.0
@@ -868,7 +922,11 @@ msgstr "50"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "58"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "58"
+>>>>>>> upstream/18.0
 =======
 msgstr "58"
 >>>>>>> upstream/18.0
@@ -877,7 +935,11 @@ msgstr "58"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "60"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "60"
+>>>>>>> upstream/18.0
 =======
 msgstr "60"
 >>>>>>> upstream/18.0
@@ -886,7 +948,11 @@ msgstr "60"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
 msgid "8 GB RAM"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "8 GB RAM"
+>>>>>>> upstream/18.0
 =======
 msgstr "8 GB RAM"
 >>>>>>> upstream/18.0
@@ -895,7 +961,11 @@ msgstr "8 GB RAM"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "987654321098"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "987654321098"
+>>>>>>> upstream/18.0
 =======
 msgstr "987654321098"
 >>>>>>> upstream/18.0
@@ -905,7 +975,11 @@ msgstr "987654321098"
 #: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
 msgid ":  hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ":  ώρες"
+>>>>>>> upstream/18.0
 =======
 msgstr ":  ώρες"
 >>>>>>> upstream/18.0
@@ -914,7 +988,11 @@ msgstr ":  ώρες"
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 >>>>>>> upstream/18.0
@@ -923,7 +1001,11 @@ msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
 >>>>>>> upstream/18.0
@@ -932,7 +1014,11 @@ msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 >>>>>>> upstream/18.0
@@ -948,19 +1034,29 @@ msgid ""
 "                    </p>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<p class=\"o_view_nocontent_smiling_face\">\n"
 "                        Φόρτωση αρχείων στο είδος\n"
 "                    </p><p>\n"
 "                        Χρησιμοποιήστε αυτή τη λειτουργία για να αποθηκεύσετε αρχεία, όπως σχέδια ή προδιαγραφές.\n"
 "                    </p>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">In Progress</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Σε Εξέλιξη</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Σε Εξέλιξη</span>"
 >>>>>>> upstream/18.0
@@ -993,7 +1089,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
 >>>>>>> upstream/18.0
@@ -1074,7 +1174,11 @@ msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<span class=\"col-6\">To Close</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Προς Ολοκλήρωση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Προς Ολοκλήρωση</span>"
 >>>>>>> upstream/18.0
@@ -1110,7 +1214,11 @@ msgid "<span class=\"col-6\">Waiting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Σε αναμονή</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Σε αναμονή</span>"
 >>>>>>> upstream/18.0
@@ -1200,7 +1308,11 @@ msgstr "<span class=\"col-6\">Σε αναμονή</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
 >>>>>>> upstream/18.0
@@ -1209,7 +1321,11 @@ msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Backorders</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
 >>>>>>> upstream/18.0
@@ -1218,7 +1334,11 @@ msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "<span class=\"o_stat_text\">BoM Overview</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικών</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικών</span>"
 >>>>>>> upstream/18.0
@@ -1227,7 +1347,11 @@ msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικώ
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Child MO</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>"
 >>>>>>> upstream/18.0
@@ -1236,7 +1360,11 @@ msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">Load</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Φόρτωση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Φόρτωση</span>"
 >>>>>>> upstream/18.0
@@ -1251,7 +1379,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.product_template_form_view_bom_button
 msgid "<span class=\"o_stat_text\">Manufactured</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Παραχθέντα</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Παραχθέντα</span>"
 >>>>>>> upstream/18.0
@@ -1265,7 +1397,11 @@ msgstr "<span class=\"o_stat_text\">Παραγωγή</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">OEE</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Συνολική Απόδοση Εξοπλισμού</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Συνολική Απόδοση Εξοπλισμού</span>"
 >>>>>>> upstream/18.0
@@ -1279,7 +1415,11 @@ msgstr "<span class=\"o_stat_text\">Ενέργειες</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "<span class=\"o_stat_text\">Operations<br/>Performance</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>"
 >>>>>>> upstream/18.0
@@ -1288,7 +1428,11 @@ msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Overview</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
 >>>>>>> upstream/18.0
@@ -1297,7 +1441,11 @@ msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "<span class=\"o_stat_text\">Performance</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Απόδοση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Απόδοση</span>"
 >>>>>>> upstream/18.0
@@ -1337,7 +1485,11 @@ msgid "<span class=\"o_stat_text\">Product Moves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
 >>>>>>> upstream/18.0
@@ -1437,7 +1589,11 @@ msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "<span class=\"o_stat_text\">Scraps</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Scraps</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Scraps</span>"
 >>>>>>> upstream/18.0
@@ -1446,7 +1602,11 @@ msgstr "<span class=\"o_stat_text\">Scraps</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span class=\"o_stat_text\">Source MO</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Πηγαία Εντολής Παραγωγής</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Πηγαία Εντολής Παραγωγής</span>"
 >>>>>>> upstream/18.0
@@ -1482,7 +1642,11 @@ msgid "<span class=\"o_stat_text\">Traceability</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Ιχνηλασιμότητα</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Ιχνηλασιμότητα</span>"
 >>>>>>> upstream/18.0
@@ -1581,6 +1745,12 @@ msgid ""
 "order.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Τροποποιώντας την ποσότητα που θα παραχθεί θα "
+"τροποποιήσει και τις ποσότητες των πρώτων υλών που θα αναλωθούν γι' αυτήν "
+"την εντολή παραγωγής.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Τροποποιώντας την ποσότητα που θα παραχθεί θα "
 "τροποποιήσει και τις ποσότητες των πρώτων υλών που θα αναλωθούν γι' αυτήν "
@@ -1595,6 +1765,12 @@ msgid ""
 "        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>\n"
+"            Πρώτες Ύλες\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span>\n"
 "            Πρώτες Ύλες\n"
@@ -1605,7 +1781,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "<span>&amp;nbsp;(minutes)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;(λεπτά)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>&amp;nbsp;(λεπτά)</span>"
 >>>>>>> upstream/18.0
@@ -1614,7 +1794,11 @@ msgstr "<span>&amp;nbsp;(λεπτά)</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>Actions</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Ενέργειες</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Ενέργειες</span>"
 >>>>>>> upstream/18.0
@@ -1623,7 +1807,11 @@ msgstr "<span>Ενέργειες</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span>Generate BOM</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Δημιουργία Λίστας Υλικών</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Δημιουργία Λίστας Υλικών</span>"
 >>>>>>> upstream/18.0
@@ -1664,7 +1852,11 @@ msgid "<span>Orders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Εντολές</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Εντολές</span>"
 >>>>>>> upstream/18.0
@@ -1754,7 +1946,11 @@ msgstr "<span>Εντολές</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>PLAN ORDERS</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
 >>>>>>> upstream/18.0
@@ -1763,7 +1959,11 @@ msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.stock_report_delivery_no_kit_section
 msgid "<span>Products not associated with a kit</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Είδη που δεν περιλαμβάνονται σε κάποιο κιτ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Είδη που δεν περιλαμβάνονται σε κάποιο κιτ</span>"
 >>>>>>> upstream/18.0
@@ -1777,7 +1977,11 @@ msgstr "<span>Αναφορά</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>WORK ORDERS</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
 >>>>>>> upstream/18.0
@@ -1786,7 +1990,11 @@ msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "<span>minutes</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>λεπτά</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>λεπτά</span>"
 >>>>>>> upstream/18.0
@@ -1795,7 +2003,11 @@ msgstr "<span>λεπτά</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "<strong class=\"mr8 oe_inline\">to</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
 >>>>>>> upstream/18.0
@@ -1804,7 +2016,11 @@ msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Actual Duration (minutes)</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
 >>>>>>> upstream/18.0
@@ -1813,7 +2029,11 @@ msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Barcode</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Barcode</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Barcode</strong>"
 >>>>>>> upstream/18.0
@@ -1822,7 +2042,11 @@ msgstr "<strong>Barcode</strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Deadline:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Προθεσμία:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Προθεσμία:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1831,7 +2055,11 @@ msgstr "<strong>Προθεσμία:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Description:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Περιγραφή:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Περιγραφή:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1840,7 +2068,11 @@ msgstr "<strong>Περιγραφή:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Duration (minutes)</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Διάρκεια (λεπτά)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Διάρκεια (λεπτά)</strong>"
 >>>>>>> upstream/18.0
@@ -1849,7 +2081,11 @@ msgstr "<strong>Διάρκεια (λεπτά)</strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
 msgid "<strong>Effectiveness Category: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </strong>"
 >>>>>>> upstream/18.0
@@ -1858,7 +2094,11 @@ msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </str
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "<strong>Finished Product:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1867,7 +2107,11 @@ msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
 msgid "<strong>Is a Blocking Reason? </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
 >>>>>>> upstream/18.0
@@ -1876,7 +2120,11 @@ msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_workorder
 msgid "<strong>Manufacturing Order:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1885,7 +2133,11 @@ msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Operation</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ενέργεια</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ενέργεια</strong>"
 >>>>>>> upstream/18.0
@@ -1894,7 +2146,11 @@ msgstr "<strong>Ενέργεια</strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Product:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Είδος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Είδος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1903,7 +2159,11 @@ msgstr "<strong>Είδος:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Quantity Producing:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1913,7 +2173,11 @@ msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Quantity to Produce:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1922,7 +2186,11 @@ msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
 msgid "<strong>Reason: </strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Αιτία: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Αιτία: </strong>"
 >>>>>>> upstream/18.0
@@ -1932,7 +2200,11 @@ msgstr "<strong>Αιτία: </strong>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Responsible:</strong><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Υπέυθυνος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Υπέυθυνος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -1946,7 +2218,11 @@ msgstr "<strong>Προέλευση:</strong><br/>"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "<strong>Unit Cost</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Μονάδα Κόστους</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Μονάδα Κόστους</strong>"
 >>>>>>> upstream/18.0
@@ -1987,7 +2263,11 @@ msgid "? This may lead to inconsistencies in your inventory."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
+>>>>>>> upstream/18.0
 =======
 msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
 >>>>>>> upstream/18.0
@@ -2080,6 +2360,11 @@ msgid ""
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Μία Λίστα Πρώτων Υλών τύπου Κιτ δεν παράγεται με εντολή παραγωγής.<br/>\n"
+"                                Αντιθέτως, χρησιμοποείται για να αποσυνθέσει μία Λίστα Πρώτων Υλών στα συστατικά της όταν:"
+>>>>>>> upstream/18.0
 =======
 "Μία Λίστα Πρώτων Υλών τύπου Κιτ δεν παράγεται με εντολή παραγωγής.<br/>\n"
 "                                Αντιθέτως, χρησιμοποείται για να αποσυνθέσει μία Λίστα Πρώτων Υλών στα συστατικά της όταν:"
@@ -2090,7 +2375,11 @@ msgstr ""
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid "A Manufacturing Order is already done or cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μία Εντολή Παραγωγής έχει ήδη ολοκληρωθεί ή ακυρωθεί."
+>>>>>>> upstream/18.0
 =======
 msgstr "Μία Εντολή Παραγωγής έχει ήδη ολοκληρωθεί ή ακυρωθεί."
 >>>>>>> upstream/18.0
@@ -2102,6 +2391,11 @@ msgid ""
 "A product with a kit-type bill of materials can not have a reordering rule."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ένα είδος με λίστα πρώτων υλών τύπου κιτ δεν μπορεί να έχει κανόνα "
+"αναπαραγγελίας."
+>>>>>>> upstream/18.0
 =======
 "Ένα είδος με λίστα πρώτων υλών τύπου κιτ δεν μπορεί να έχει κανόνα "
 "αναπαραγγελίας."
@@ -2176,6 +2470,12 @@ msgid ""
 "the option: A + B = C + D."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Προσθέστε παραπροϊόντα στις λίστες πρώτων υλών. Αυτή η επιλογή σας επιτρέπει"
+" να παράγετε περισσότερα από ένα τελικά προϊόντα. Χωρίς αυτή την επιλογή, η "
+"παραγωγή είναι: Α + Β = Γ. Με την επιλογή: Α + Β = Γ + Δ."
+>>>>>>> upstream/18.0
 =======
 "Προσθέστε παραπροϊόντα στις λίστες πρώτων υλών. Αυτή η επιλογή σας επιτρέπει"
 " να παράγετε περισσότερα από ένα τελικά προϊόντα. Χωρίς αυτή την επιλογή, η "
@@ -2186,7 +2486,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Add quality checks to your work orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθέστε ελέγχους ποιότητας στις εντολές εργασίας σας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσθέστε ελέγχους ποιότητας στις εντολές εργασίας σας"
 >>>>>>> upstream/18.0
@@ -2195,7 +2499,11 @@ msgstr "Προσθέστε ελέγχους ποιότητας στις εντο
 #: model:ir.model,name:mrp.model_mrp_workcenter_tag
 msgid "Add tag for the workcenter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθέστε ετικέτα για το κέντρο εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσθέστε ετικέτα για το κέντρο εργασίας"
 >>>>>>> upstream/18.0
@@ -2220,7 +2528,11 @@ msgstr "Όλα"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__all_move_ids
 msgid "All Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Κινήσεις Αποθέματος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Κινήσεις Αποθέματος"
 >>>>>>> upstream/18.0
@@ -2229,7 +2541,11 @@ msgstr "Όλες οι Κινήσεις Αποθέματος"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__all_move_raw_ids
 msgid "All Move Raw"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Κινήσεις Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Κινήσεις Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2242,6 +2558,12 @@ msgid ""
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Όλες οι ποσότητες είδους πρέπει να είναι μεγαλύτερες ή ίσες με το 0.\n"
+"Γραμμές με 0 ποσότητες μπορούν να χρησιμοποιηθούν ως προαιρετικές γραμμμές. \n"
+"Θα πρέπει να εγκαταστήσετε το πρόσθετο mrp_byproduct αν θέλετε να διαχειρίζεστε επιπλέον είδη στις Λίστες Πρώτων Υλών!"
+>>>>>>> upstream/18.0
 =======
 "Όλες οι ποσότητες είδους πρέπει να είναι μεγαλύτερες ή ίσες με το 0.\n"
 "Γραμμές με 0 ποσότητες μπορούν να χρησιμοποιηθούν ως προαιρετικές γραμμμές. \n"
@@ -2257,7 +2579,11 @@ msgstr "Επιμερισμός"
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Allocation Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης Αποθέματος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης Αποθέματος"
 >>>>>>> upstream/18.0
@@ -2266,7 +2592,11 @@ msgstr "Αναφορά Δέσμευσης Αποθέματος"
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
 msgid "Allocation Report Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης Ετικετών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης Ετικετών"
 >>>>>>> upstream/18.0
@@ -2275,7 +2605,11 @@ msgstr "Αναφορά Δέσμευσης Ετικετών"
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings__group_mrp_reception_report
 msgid "Allocation Report for Manufacturing Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης για τις Εντολές Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης για τις Εντολές Παραγωγής"
 >>>>>>> upstream/18.0
@@ -2285,7 +2619,11 @@ msgstr "Αναφορά Δέσμευσης για τις Εντολές Παρα�
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__allow_workorder_dependencies
 msgid "Allow Work Order Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ενεργοποίηση Εξαρτήσεων Εντολών Εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ενεργοποίηση Εξαρτήσεων Εντολών Εργασίας"
 >>>>>>> upstream/18.0
@@ -2297,6 +2635,11 @@ msgid ""
 "for prior approval"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Να επιτρέπεται στους χρήστες παραγωγής να τροποποιούν τις ποσότητες προς "
+"ανάλωση, χωρίς να απαιτείται προηγούμενη έγκριση "
+>>>>>>> upstream/18.0
 =======
 "Να επιτρέπεται στους χρήστες παραγωγής να τροποποιούν τις ποσότητες προς "
 "ανάλωση, χωρίς να απαιτείται προηγούμενη έγκριση "
@@ -2308,6 +2651,10 @@ msgstr ""
 msgid "Allow to create new lot/serial numbers for the components"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Να επιτρέπεται η δημιουργία παρτίδων/σειριακών αριθμών για τα συστατικά"
+>>>>>>> upstream/18.0
 =======
 "Να επιτρέπεται η δημιουργία παρτίδων/σειριακών αριθμών για τα συστατικά"
 >>>>>>> upstream/18.0
@@ -2347,7 +2694,11 @@ msgid "Allowed to Reserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Δέσμευση για Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται η Δέσμευση για Παραγωγή"
 >>>>>>> upstream/18.0
@@ -2452,7 +2803,11 @@ msgid "Allowed to Unreserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή"
 >>>>>>> upstream/18.0
@@ -2535,7 +2890,11 @@ msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__consumption__warning
 msgid "Allowed with warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται με προειδοποίηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται με προειδοποίηση"
 >>>>>>> upstream/18.0
@@ -2544,7 +2903,11 @@ msgstr "Επιτρέπεται με προειδοποίηση"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__alternative_workcenter_ids
 msgid "Alternative Workcenters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εναλλακτικά Κέντρα Εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εναλλακτικά Κέντρα Εργασίας"
 >>>>>>> upstream/18.0
@@ -2556,6 +2919,11 @@ msgid ""
 "dispatch production"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Εναλλακτικά κέντρα εργασίας που μπορούν να αντικατασταθούν αντί γι' αυτό για"
+" την εκτέλεση της παραγωγής"
+>>>>>>> upstream/18.0
 =======
 "Εναλλακτικά κέντρα εργασίας που μπορούν να αντικατασταθούν αντί γι' αυτό για"
 " την εκτέλεση της παραγωγής"
@@ -2568,6 +2936,11 @@ msgid ""
 "components."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Μία εντολή αποσυναρμολόγησης χρησιμοποείται για τη διάσπαση ενός τελικού "
+"είδους στα συστατικά του."
+>>>>>>> upstream/18.0
 =======
 "Μία εντολή αποσυναρμολόγησης χρησιμοποείται για τη διάσπαση ενός τελικού "
 "είδους στα συστατικά του."
@@ -2579,7 +2952,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__bom_product_template_attribute_value_ids
 msgid "Apply on Variants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εφαρμόζεται στις Παραλλαγές"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εφαρμόζεται στις Παραλλαγές"
 >>>>>>> upstream/18.0
@@ -2588,7 +2965,11 @@ msgstr "Εφαρμόζεται στις Παραλλαγές"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
 msgid "Archive Operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αρχειοθέτηση Ενέργειας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αρχειοθέτηση Ενέργειας"
 >>>>>>> upstream/18.0
@@ -2607,7 +2988,11 @@ msgstr "Αρχειοθετημένα"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Are you sure you want to cancel this manufacturing order?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτή την εντολή παραγωγής;"
+>>>>>>> upstream/18.0
 =======
 msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτή την εντολή παραγωγής;"
 >>>>>>> upstream/18.0
@@ -2616,7 +3001,11 @@ msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε 
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Assembling"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συναρμολόγηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συναρμολόγηση"
 >>>>>>> upstream/18.0
@@ -2643,7 +3032,11 @@ msgstr "Συνημμένα"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__attachments_count
 msgid "Attachments Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Συννημένων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Συννημένων"
 >>>>>>> upstream/18.0
@@ -2657,7 +3050,11 @@ msgstr "Τιμές Χαρακτηριστικών"
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid "Auto Print Allocation Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης"
 >>>>>>> upstream/18.0
@@ -2666,7 +3063,11 @@ msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσ�
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_mrp_reception_report_labels
 msgid "Auto Print Allocation Report Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης Ετικετών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης Ετικετών"
 >>>>>>> upstream/18.0
@@ -2675,7 +3076,11 @@ msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσ�
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid "Auto Print Done Production Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολής Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολής Παραγωγής"
 >>>>>>> upstream/18.0
@@ -2684,7 +3089,11 @@ msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολ�
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_generated_mrp_lot
 msgid "Auto Print Generated Lot/SN Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σειριακού Αριθμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σειριακού Αριθμού"
 >>>>>>> upstream/18.0
@@ -2693,7 +3102,11 @@ msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σε
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid "Auto Print Produced Lot Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσας Παρτίδας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσας Παρτίδας"
 >>>>>>> upstream/18.0
@@ -2702,7 +3115,11 @@ msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσα�
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid "Auto Print Produced Product Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικετών Παραχθέν Είδους"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικετών Παραχθέν Είδους"
 >>>>>>> upstream/18.0
@@ -2714,6 +3131,11 @@ msgid ""
 "number\" button is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Όταν χρησιμοποιείται το κουμπί \"Δημιουργήστε νέο σειρακό αριθμό/παρτίδα\", "
+"εκτυπώνεται αυτόματα η ετικέτα παρτίδας/σειριακού αριθμού."
+>>>>>>> upstream/18.0
 =======
 "Όταν χρησιμοποιείται το κουμπί \"Δημιουργήστε νέο σειρακό αριθμό/παρτίδα\", "
 "εκτυπώνεται αυτόματα η ετικέτα παρτίδας/σειριακού αριθμού."
@@ -2725,7 +3147,11 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "Availabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαθεσιμότητες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαθεσιμότητες"
 >>>>>>> upstream/18.0
@@ -2735,7 +3161,11 @@ msgstr "Διαθεσιμότητες"
 #: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
 msgid "Availabilities on products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαθεσιμότητες σε Είδη."
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαθεσιμότητες σε Είδη."
 >>>>>>> upstream/18.0
@@ -2776,12 +3206,18 @@ msgid ""
 " which components should be sent to the subcontractor."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Μέσος χρόνος σε ημέρες για την παραγωγή αυτού του είδους. Στην περίπτωση "
 "πολυεπίπεδης Λίστας Πρώτων Υλών, οι χρόνοι παραγωγής των συστατικών "
 "προστίθενται. Αν το είδος είναι υπεργολαβίας, αυτό το πεδίο μπορεί να "
 "χρησιμοποθηθεί για να αποφασιστεί η ημερομηνία που πρέπει να σταλούν τα "
 "συστατικά στον υπεργολάβο."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp
@@ -2790,7 +3226,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Components per Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -2801,7 +3241,11 @@ msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Cost of Operations per Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -2812,7 +3256,11 @@ msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "Avg Total Cost per Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -2821,7 +3269,11 @@ msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
 #: model:ir.model,name:mrp.model_report_mrp_report_bom_structure
 msgid "BOM Overview Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2830,7 +3282,11 @@ msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών
 #: model:ir.model.fields,field_description:mrp.field_product_product__variant_bom_ids
 msgid "BOM Product Variants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παραλλαγές Είδους Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παραλλαγές Είδους Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2842,6 +3298,11 @@ msgstr "Παραλλαγές Είδους Λίστας Πρώτων Υλών"
 msgid "BOM Product Variants needed to apply this line."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Απαιτούνται Παραλλαγές Ειδών στις Λίστες Πρώτων Υλών για να εφαρμοστεί αυτή "
+"η γραμμή."
+>>>>>>> upstream/18.0
 =======
 "Απαιτούνται Παραλλαγές Ειδών στις Λίστες Πρώτων Υλών για να εφαρμοστεί αυτή "
 "η γραμμή."
@@ -2851,7 +3312,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__child_line_ids
 msgid "BOM lines of the referred bom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερόμενης λίστας πρώτων υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερόμενης λίστας πρώτων υλών"
 >>>>>>> upstream/18.0
@@ -2861,7 +3326,11 @@ msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερό�
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to BoM"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πίσω στην Λίστα Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Πίσω στην Λίστα Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2871,7 +3340,11 @@ msgstr "Πίσω στην Λίστα Πρώτων Υλών"
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Production"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πίσω στην Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Πίσω στην Παραγωγή"
 >>>>>>> upstream/18.0
@@ -2880,7 +3353,11 @@ msgstr "Πίσω στην Παραγωγή"
 #: model:ir.model,name:mrp.model_mrp_production_backorder_line
 msgid "Backorder Confirmation Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -2889,7 +3366,11 @@ msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγε�
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_backorder__mrp_production_backorder_line_ids
 msgid "Backorder Confirmation Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -2899,7 +3380,11 @@ msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγ�
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -2909,7 +3394,11 @@ msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελία�
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Backorder MO's"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -2918,7 +3407,11 @@ msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελί�
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__backorder_sequence
 msgid "Backorder Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ακολουθία Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ακολουθία Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -2929,6 +3422,11 @@ msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ακολουθία Εκκρεμούς Παραγγελίας, αν είναι ίση με 0 σημαίνει ότι δεν υπάρχει "
+"σχετική εκκρεμής παραγγελία"
+>>>>>>> upstream/18.0
 =======
 "Ακολουθία Εκκρεμούς Παραγγελίας, αν είναι ίση με 0 σημαίνει ότι δεν υπάρχει "
 "σχετική εκκρεμής παραγγελία"
@@ -2950,7 +3448,11 @@ msgstr "Βασισμένο στο"
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_text
 msgid "Batch Production"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παραγωγή Παρτίδων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παραγωγή Παρτίδων"
 >>>>>>> upstream/18.0
@@ -2978,7 +3480,11 @@ msgstr "Κατάσταση Υλικών"
 #: model:ir.model,name:mrp.model_mrp_bom_line
 msgid "Bill of Material Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2992,7 +3498,11 @@ msgstr "Κατάσταση γραμμής Υλικών"
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__mo_bom_id
 msgid "Bill of Material used on the Production Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Λίστα Πρώτων Υλών που χρησιμοποιείται στην Εντολή Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Λίστα Πρώτων Υλών που χρησιμοποιείται στην Εντολή Παραγωγής"
 >>>>>>> upstream/18.0
@@ -3026,6 +3536,11 @@ msgid ""
 " and work order instructions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Οι Λίστες Πρώτων Υλών, ονομάζονται και συνταγές, χρησιμοποιούνται για την "
+"αυτόματη συμπλήρωση των συστατικών και των οδηγιών εντολής εργασίας."
+>>>>>>> upstream/18.0
 =======
 "Οι Λίστες Πρώτων Υλών, ονομάζονται και συνταγές, χρησιμοποιούνται για την "
 "αυτόματη συμπλήρωση των συστατικών και των οδηγιών εντολής εργασίας."
@@ -3039,6 +3554,12 @@ msgid ""
 "                order or a pack of products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Οι Λίστες Πρώτων Υλών σας επιτρέπουν να ορίσετε την λίστα των απαιτούμενων  πρώτων υλών\n"
+"                υλικά που χρησιμοποιούνται για να φτιάξουν ένα τελικό προϊόν, είτε μέσω μίας εντολής\n"
+"                παραγωγής έιτε μέσω ενός πακέτου προϊόντων."
+>>>>>>> upstream/18.0
 =======
 "Οι Λίστες Πρώτων Υλών σας επιτρέπουν να ορίσετε την λίστα των απαιτούμενων  πρώτων υλών\n"
 "                υλικά που χρησιμοποιούνται για να φτιάξουν ένα τελικό προϊόν, είτε μέσω μίας εντολής\n"
@@ -3073,7 +3594,11 @@ msgstr "Μπλοκαρισμένο"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "Blocked By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπλοκαρισμένο Από"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπλοκαρισμένο Από"
 >>>>>>> upstream/18.0
@@ -3082,7 +3607,11 @@ msgstr "Μπλοκαρισμένο Από"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__blocked_time
 msgid "Blocked Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεσμευμένος Χρόνος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεσμευμένος Χρόνος"
 >>>>>>> upstream/18.0
@@ -3096,7 +3625,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_productivity_loss__name
 msgid "Blocking Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Λόγος Δέσμευσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Λόγος Δέσμευσης"
 >>>>>>> upstream/18.0
@@ -3106,7 +3639,11 @@ msgstr "Λόγος Δέσμευσης"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__needed_by_workorder_ids
 msgid "Blocks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεσμεύσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεσμεύσεις"
 >>>>>>> upstream/18.0
@@ -3138,7 +3675,11 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κόστη Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κόστη Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3147,7 +3688,11 @@ msgstr "Κόστη Λίστας Υλικών"
 #: model:ir.model.fields,field_description:mrp.field_stock_move__bom_line_id
 msgid "BoM Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3163,7 +3708,11 @@ msgstr "Γραμμές Κατάστασης Υλικών"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "BoM Overview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επισκόπηση Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επισκόπηση Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3178,7 +3727,11 @@ msgstr "Τύπος Κ.Υ."
 #: model:product.template,name:mrp.product_product_computer_desk_bolt_product_template
 msgid "Bolt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπουλόνι"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπουλόνι"
 >>>>>>> upstream/18.0
@@ -3197,7 +3750,11 @@ msgstr "Ανά-Είδος"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_byproduct__product_id
 msgid "By-product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υποπροϊόν"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υποπροϊόν"
 >>>>>>> upstream/18.0
@@ -3208,6 +3765,10 @@ msgstr "Υποπροϊόν"
 msgid "By-product %s should not be the same as BoM product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Το υποπροϊόν %s δεν πρέπει να είναι το ίδιο με το είδος της Λίστας Υλικών."
+>>>>>>> upstream/18.0
 =======
 "Το υποπροϊόν %s δεν πρέπει να είναι το ίδιο με το είδος της Λίστας Υλικών."
 >>>>>>> upstream/18.0
@@ -3217,6 +3778,10 @@ msgstr ""
 msgid "By-product line that generated the move in a manufacturing order"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Γραμμή υπορποϊόντος που δημιούργησε την μετακίνηση σε μία εντολή παραγωγής"
+>>>>>>> upstream/18.0
 =======
 "Γραμμή υπορποϊόντος που δημιούργησε την μετακίνηση σε μία εντολή παραγωγής"
 >>>>>>> upstream/18.0
@@ -3227,7 +3792,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid "By-products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υποπροϊόντα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υποπροϊόντα"
 >>>>>>> upstream/18.0
@@ -3238,7 +3807,11 @@ msgstr "Υποπροϊόντα"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "By-products cost shares must be positive."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τα ποσοστά κόστους των υποπροϊόντων πρέπει να είναι θετικά."
+>>>>>>> upstream/18.0
 =======
 msgstr "Τα ποσοστά κόστους των υποπροϊόντων πρέπει να είναι θετικά."
 >>>>>>> upstream/18.0
@@ -3287,7 +3860,11 @@ msgid "Can't find any production location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
 >>>>>>> upstream/18.0
@@ -3395,6 +3972,11 @@ msgid ""
 "component or for the final product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Αδυναμία υπολογισμού των ημερών προετοιμασίας λόγω έλλειψης πληροφορίας "
+"διαδρομής για τουλάχιστον 1 συστατικό ή για το τελικό προϊόν."
+>>>>>>> upstream/18.0
 =======
 "Αδυναμία υπολογισμού των ημερών προετοιμασίας λόγω έλλειψης πληροφορίας "
 "διαδρομής για τουλάχιστον 1 συστατικό ή για το τελικό προϊόν."
@@ -3406,6 +3988,11 @@ msgstr ""
 msgid "Cannot delete a manufacturing order in done state."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Δεν μπορείτε να διαγράψετε μία εντολή παραγωγής που βρίσκεται στο στάδιο "
+"ολοκληρωμένες."
+>>>>>>> upstream/18.0
 =======
 "Δεν μπορείτε να διαγράψετε μία εντολή παραγωγής που βρίσκεται στο στάδιο "
 "ολοκληρωμένες."
@@ -3421,7 +4008,11 @@ msgstr "Χωρητικότητα"
 #: model:ir.model.constraint,message:mrp.constraint_mrp_workcenter_capacity_positive_capacity
 msgid "Capacity should be a positive number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Η χωρητικότητα πρέπει να είναι θετικός αριθμός."
+>>>>>>> upstream/18.0
 =======
 msgstr "Η χωρητικότητα πρέπει να είναι θετικός αριθμός."
 >>>>>>> upstream/18.0
@@ -3430,7 +4021,11 @@ msgstr "Η χωρητικότητα πρέπει να είναι θετικός 
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_reported_from_previous_wo
 msgid "Carried Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ποσότητα που μεταφέρθηκε"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ποσότητα που μεταφέρθηκε"
 >>>>>>> upstream/18.0
@@ -3467,7 +4062,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάλογος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάλογος"
 >>>>>>> upstream/18.0
@@ -3568,7 +4167,11 @@ msgstr "Κατηγορία"
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "Center A"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κέντρο Α"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κέντρο Α"
 >>>>>>> upstream/18.0
@@ -3582,7 +4185,11 @@ msgstr "Αλλαγή Ποσ. Είδους"
 #: model:ir.model,name:mrp.model_change_production_qty
 msgid "Change Production Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αλλαγή Ποσότητας Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αλλαγή Ποσότητας Παραγωγής"
 >>>>>>> upstream/18.0
@@ -3600,6 +4207,11 @@ msgid ""
 "encoded variant-related data."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Η αλλαγή του προϊόντος ή της παραλλαγής θα επαναφέρει οριστικά όλα τα "
+"προηγούμενα δεδομένα που σχετίζονται με παραλλαγές."
+>>>>>>> upstream/18.0
 =======
 "Η αλλαγή του προϊόντος ή της παραλλαγής θα επαναφέρει οριστικά όλα τα "
 "προηγούμενα δεδομένα που σχετίζονται με παραλλαγές."
@@ -3623,7 +4235,11 @@ msgstr "Επιλέξτε Διάταξη Ετικετών"
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσετε"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσετε"
 >>>>>>> upstream/18.0
@@ -3632,7 +4248,11 @@ msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσε�
 #: model:ir.model,name:mrp.model_picking_label_type
 msgid "Choose whether to print product or lot/sn labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους ή παρτίδας/σειριακού αριθμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους ή παρτίδας/σειριακού αριθμού"
 >>>>>>> upstream/18.0
@@ -3641,7 +4261,11 @@ msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__time_stop
 msgid "Cleanup Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρόνος Καθαρισμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρόνος Καθαρισμού"
 >>>>>>> upstream/18.0
@@ -3650,7 +4274,11 @@ msgstr "Χρόνος Καθαρισμού"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_capacity__time_stop
 msgid "Cleanup Time (minutes)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρόνος Καθαρισμού (λεπτά)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρόνος Καθαρισμού (λεπτά)"
 >>>>>>> upstream/18.0
@@ -3696,7 +4324,11 @@ msgstr "Εταιρία"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικό"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικό"
 >>>>>>> upstream/18.0
@@ -3732,7 +4364,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Συστατικού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάσταση Συστατικού"
 >>>>>>> upstream/18.0
@@ -3823,7 +4459,11 @@ msgstr "Κατάσταση Συστατικού"
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 msgid "Component of Draft MO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
 >>>>>>> upstream/18.0
@@ -3832,7 +4472,11 @@ msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__component_separator
 msgid "Component separator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαχωριστικό Συστατικού "
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαχωριστικό Συστατικού "
 >>>>>>> upstream/18.0
@@ -3849,7 +4493,11 @@ msgstr "Εξαρτήματα"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__components_availability_state
 msgid "Components Availability State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
 >>>>>>> upstream/18.0
@@ -3858,7 +4506,11 @@ msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Components Available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικά Διαθέσιμα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικά Διαθέσιμα"
 >>>>>>> upstream/18.0
@@ -3867,7 +4519,11 @@ msgstr "Συστατικά Διαθέσιμα"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_src_id
 msgid "Components Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Συστατικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Συστατικών"
 >>>>>>> upstream/18.0
@@ -3878,6 +4534,11 @@ msgid ""
 "Components will be reserved first for the MO with the highest priorities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Τα συστατικά θα δεσμεύονται πρώτα για την Εντολή Παραγωγής με τις "
+"μεγαλύτερες πρωτεραιότητες."
+>>>>>>> upstream/18.0
 =======
 "Τα συστατικά θα δεσμεύονται πρώτα για την Εντολή Παραγωγής με τις "
 "μεγαλύτερες πρωτεραιότητες."
@@ -3892,7 +4553,11 @@ msgstr "Υπολογισμός"
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_routing_workcenter__time_mode__auto
 msgid "Compute based on tracked time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπολογίζεται βάσει του καταγεγραμμένου χρόνου "
+>>>>>>> upstream/18.0
 =======
 msgstr "Υπολογίζεται βάσει του καταγεγραμμένου χρόνου "
 >>>>>>> upstream/18.0
@@ -3910,7 +4575,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__time_computed_on
 msgid "Computed on last"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπολογίζεται βάσει του τελευταίου"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υπολογίζεται βάσει του τελευταίου"
 >>>>>>> upstream/18.0
@@ -3963,7 +4632,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__operation_id
 msgid "Consumed in Operation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναλώνεται στην Ενέργεια"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναλώνεται στην Ενέργεια"
 >>>>>>> upstream/18.0
@@ -3975,7 +4648,11 @@ msgstr "Αναλώνεται στην Ενέργεια"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__consumption
 msgid "Consumption"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ανάλωση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ανάλωση"
 >>>>>>> upstream/18.0
@@ -3985,7 +4662,11 @@ msgstr "Ανάλωση"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_consumption_warning_form
 msgid "Consumption Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προειδποίηση Ανάλωσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προειδποίηση Ανάλωσης"
 >>>>>>> upstream/18.0
@@ -4006,7 +4687,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_bom_tree_view
 msgid "Copy Existing Operations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αντιγραφή Υφιστάμενων Ενεργειών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αντιγραφή Υφιστάμενων Ενεργειών"
 >>>>>>> upstream/18.0
@@ -4161,7 +4846,11 @@ msgid "Create a new work center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία νέου κέντρου εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δημιουργία νέου κέντρου εργασίας"
 >>>>>>> upstream/18.0
@@ -4444,7 +5133,11 @@ msgid "Custom Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσαρμοσμένη Περιγραφή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσαρμοσμένη Περιγραφή"
 >>>>>>> upstream/18.0
@@ -4595,7 +5288,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία Κατηγορίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ημερομηνία Κατηγορίας"
 >>>>>>> upstream/18.0
@@ -4808,7 +5505,11 @@ msgid "Delay Alert Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Καθυστέρηση Ημερομηνίας Ειδοποίησης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Καθυστέρηση Ημερομηνίας Ειδοποίησης"
 >>>>>>> upstream/18.0
@@ -4968,6 +5669,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -5275,6 +5980,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
+"σας."
+>>>>>>> upstream/18.0
 =======
 "Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
 "σας."
@@ -5475,7 +6185,11 @@ msgid "Exp %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exp %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exp %s"
 >>>>>>> upstream/18.0
@@ -5732,7 +6446,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Πρόβλεψης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Πρόβλεψης"
 >>>>>>> upstream/18.0
@@ -5889,7 +6607,11 @@ msgid "Forecasted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβλεπόμενες"
 >>>>>>> upstream/18.0
@@ -6015,7 +6737,11 @@ msgid "Forecasted Issue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενο Πρόβλημα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβλεπόμενο Πρόβλημα"
 >>>>>>> upstream/18.0
@@ -6259,7 +6985,11 @@ msgid "Google Slide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαφάνειες Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαφάνειες Google"
 >>>>>>> upstream/18.0
@@ -6424,7 +7154,11 @@ msgid "Google Slide Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Σύνδεσμος Διαφάνειας Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Σύνδεσμος Διαφάνειας Google"
 >>>>>>> upstream/18.0
@@ -6599,7 +7333,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6614,6 +7351,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6858,7 +7598,11 @@ msgid "Inventory Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κινήσεις Αποθεμάτων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κινήσεις Αποθεμάτων"
 >>>>>>> upstream/18.0
@@ -7042,7 +7786,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -7173,7 +7921,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -8048,7 +8800,11 @@ msgid "No data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν υπάρχουν δεδομένα ακόμη!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν υπάρχουν δεδομένα ακόμη!"
 >>>>>>> upstream/18.0
@@ -8318,7 +9074,11 @@ msgid "Not Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μη Διαθέσιμη"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μη Διαθέσιμη"
 >>>>>>> upstream/18.0
@@ -8776,6 +9536,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Κάντε επικόλληση τον σύνδεσμο της Διαφάνειας Google. Σιγουρευτείτε ότι  η "
+"πρόσβαση στο αρχείο έχει οριστεί ως δημόσια."
+>>>>>>> upstream/18.0
 =======
 "Κάντε επικόλληση τον σύνδεσμο της Διαφάνειας Google. Σιγουρευτείτε ότι  η "
 "πρόσβαση στο αρχείο έχει οριστεί ως δημόσια."
@@ -9748,7 +10513,11 @@ msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναπλήρωση Κατόπιν Παραγγελίας (MTO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναπλήρωση Κατόπιν Παραγγελίας (MTO)"
 >>>>>>> upstream/18.0
@@ -10454,7 +11223,11 @@ msgid "Technical field to check when we can reserve quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν οι "
+>>>>>>> upstream/18.0
 =======
 msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν οι "
 >>>>>>> upstream/18.0
@@ -10559,7 +11332,11 @@ msgid "Technical field to check when we can unreserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν ποσότητες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν ποσότητες"
 >>>>>>> upstream/18.0
@@ -10720,7 +11497,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μεθαύριο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μεθαύριο"
 >>>>>>> upstream/18.0
@@ -11254,7 +12035,11 @@ msgid "Traceability Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Ιχνηλασιμότητας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Ιχνηλασιμότητας"
 >>>>>>> upstream/18.0
@@ -11505,7 +12290,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μονάδες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μονάδες"
 >>>>>>> upstream/18.0
@@ -11665,7 +12454,11 @@ msgid "Upload your PDF file."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Φορτώστε το αρχείο PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Φορτώστε το αρχείο PDF."
 >>>>>>> upstream/18.0
@@ -12542,7 +13335,11 @@ msgid "from location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "από τοποθεσία"
+>>>>>>> upstream/18.0
 =======
 msgstr "από τοποθεσία"
 >>>>>>> upstream/18.0
@@ -12734,6 +13531,7 @@ msgstr "εντολές εργασίας"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -12754,6 +13552,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -132,6 +132,7 @@ const FormEditor = options.Class.extend({
      *
      * @private
      * @param {string} type the type of the field
+<<<<<<< HEAD
      * @param {string} name The name of the field used also as label
      * @returns {Object}
      */
@@ -139,6 +140,18 @@ const FormEditor = options.Class.extend({
         return {
             name: name,
             string: name,
+=======
+     * @param {string} label The label of the field. Also used as the field's
+     *                       name if no `name` is provided.
+     * @param {string} [name] The name of the field. Falls back to `label` if
+     *                        not specified
+     * @returns {Object}
+     */
+    _getCustomField: function (type, label, name = "") {
+        return {
+            name: name || label,
+            string: label,
+>>>>>>> upstream/18.0
             custom: true,
             type: type,
             // Default values for x2many fields and selection
@@ -282,6 +295,13 @@ const FieldEditor = FormEditor.extend({
         const labelText = this.$target.find('.s_website_form_label_content').text();
         if (this._isFieldCustom()) {
             field = this._getCustomField(this.$target[0].dataset.type, labelText);
+<<<<<<< HEAD
+=======
+            const inputName = this.$target[0]
+                .querySelector(".s_website_form_input")
+                .getAttribute("name");
+            field = this._getCustomField(this.$target[0].dataset.type, labelText, inputName);
+>>>>>>> upstream/18.0
         } else {
             field = Object.assign({}, this.fields[this._getFieldName()]);
             field.string = labelText;
@@ -901,9 +921,23 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
         if (formInfo) {
             const formatInfo = this._getDefaultFormat();
             await formInfo.formFields.forEach(async field => {
+<<<<<<< HEAD
                 field.formatInfo = formatInfo;
                 await this._fetchFieldRecords(field);
                 this.$target.find('.s_website_form_submit, .s_website_form_recaptcha').first().before(this._renderField(field));
+=======
+                // Create a shallow copy of field to prevent unintended
+                // mutations to the original field stored in FormEditorRegistry
+                const _field = { ...field };
+                _field.formatInfo = formatInfo;
+                await this._fetchFieldRecords(_field);
+                const targetEl = this.$target[0].querySelector(
+                    ".s_website_form_submit, .s_website_form_recaptcha"
+                );
+                if (targetEl) {
+                    targetEl.parentNode.insertBefore(this._renderField(_field), targetEl);
+                }
+>>>>>>> upstream/18.0
             });
         }
     },
@@ -991,6 +1025,18 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
     /**
      * @override
      */
+<<<<<<< HEAD
+=======
+    onBuilt: async function () {
+        await this._super(...arguments);
+        // Re-render the field to ensure unique field IDs across multiple form
+        // snippets
+        this._rerenderField();
+    },
+    /**
+     * @override
+     */
+>>>>>>> upstream/18.0
     updateUI: async function () {
         // See Form updateUI
         if (this.rerender) {
@@ -1014,10 +1060,14 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
      * @override
      */
     onClone() {
+<<<<<<< HEAD
         const field = this._getActiveField();
         delete field.id;
         const fieldEl = this._renderField(field);
         this._replaceFieldElement(fieldEl);
+=======
+        this._rerenderField();
+>>>>>>> upstream/18.0
     },
     /**
      * Removes the visibility conditions concerned by the deleted field
@@ -1710,6 +1760,20 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
     _getSelect: function () {
         return this.$target[0].querySelector('select');
     },
+<<<<<<< HEAD
+=======
+    /**
+     * Re-renders the currently active form field in the DOM.
+     *
+     * @private
+     */
+    _rerenderField() {
+        const field = this._getActiveField();
+        delete field.id;
+        const fieldEl = this._renderField(field);
+        this._replaceFieldElement(fieldEl);
+    },
+>>>>>>> upstream/18.0
 });
 
 options.registry.AddFieldForm = FormEditor.extend({

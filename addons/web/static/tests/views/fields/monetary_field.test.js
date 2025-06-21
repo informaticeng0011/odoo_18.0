@@ -306,7 +306,11 @@ test("basic flow in editable list view - float field", async () => {
     const euroValues = queryAll("td:contains(€)");
     expect(euroValues).toHaveLength(1, { message: "Only 1 line has euro as a currency." });
 
+<<<<<<< HEAD
     const noCurrencyValues = Array.from(queryAll("td.o_data_cell")).filter(
+=======
+    const noCurrencyValues = queryAll("td.o_data_cell").filter(
+>>>>>>> upstream/18.0
         (x) => !(x.textContent.includes("€") || x.textContent.includes("$"))
     );
     expect(noCurrencyValues).toHaveLength(1, { message: "Only 1 line has no currency." });
@@ -377,7 +381,11 @@ test("basic flow in editable list view - monetary field", async () => {
     const euroValues = queryAll("td:contains(€)");
     expect(euroValues).toHaveLength(1, { message: "Only 1 line has euro as a currency." });
 
+<<<<<<< HEAD
     const noCurrencyValues = Array.from(queryAll("td.o_data_cell")).filter(
+=======
+    const noCurrencyValues = queryAll("td.o_data_cell").filter(
+>>>>>>> upstream/18.0
         (x) => !(x.textContent.includes("€") || x.textContent.includes("$"))
     );
     expect(noCurrencyValues).toHaveLength(1, { message: "Only 1 line has no currency." });

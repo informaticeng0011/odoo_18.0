@@ -688,7 +688,10 @@ class TestPoSProductsWithTax(TestPoSCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         def get_taxes_name_popup(product):
@@ -700,6 +703,9 @@ class TestPoSProductsWithTax(TestPoSCommon):
         self.assertEqual(get_taxes_name_popup(product_no_tax), [])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

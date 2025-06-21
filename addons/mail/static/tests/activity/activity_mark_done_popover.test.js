@@ -68,6 +68,7 @@ test("activity mark done popover mark done without feedback", async () => {
         res_id: partnerId,
         res_model: "res.partner",
     });
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -76,6 +77,15 @@ test("activity mark done popover mark done without feedback", async () => {
         expect(params.args[0][0]).toBe(activityId);
         expect(params.kwargs.attachment_ids).toBeEmpty();
         expect("feedback" in params.kwargs).toBe(false);
+=======
+    onRpc("mail.activity", "action_feedback", ({ args, kwargs }) => {
+        step("action_feedback");
+        expect(args).toHaveLength(1);
+        expect(args[0]).toHaveLength(1);
+        expect(args[0][0]).toBe(activityId);
+        expect(kwargs.attachment_ids).toBeEmpty();
+        expect(kwargs).not.toInclude("feedback");
+>>>>>>> upstream/18.0
         // random value returned in order for the mock server to know that this route is implemented.
         return true;
     });
@@ -95,6 +105,7 @@ test("activity mark done popover mark done with feedback", async () => {
         res_id: partnerId,
         res_model: "res.partner",
     });
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -107,6 +118,19 @@ test("activity mark done popover mark done with feedback", async () => {
         return true;
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
+=======
+    onRpc("mail.activity", "action_feedback", ({ args, kwargs, method }) => {
+        step(method);
+        expect(args).toHaveLength(1);
+        expect(args[0]).toHaveLength(1);
+        expect(args[0][0]).toBe(activityId);
+        expect(kwargs.attachment_ids).toBeEmpty();
+        expect(kwargs.feedback).toBe("This task is done");
+        // random value returned in order for the mock server to know that this route is implemented.
+        return true;
+    });
+    onRpc("mail.activity", "unlink", () => {
+>>>>>>> upstream/18.0
         // 'unlink' on non-existing record raises a server crash
         throw new Error(
             "'unlink' RPC on activity must not be called (already unlinked from mark as done)"
@@ -132,6 +156,7 @@ test("activity mark done popover mark done and schedule next", async () => {
         res_id: partnerId,
         res_model: "res.partner",
     });
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", async (request) => {
         step("action_feedback_schedule_next");
         const { params } = await request.json();
@@ -142,6 +167,17 @@ test("activity mark done popover mark done and schedule next", async () => {
         return false;
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
+=======
+    onRpc("mail.activity", "action_feedback_schedule_next", ({ args, kwargs, method }) => {
+        step(method);
+        expect(args).toHaveLength(1);
+        expect(args[0]).toHaveLength(1);
+        expect(args[0][0]).toBe(activityId);
+        expect(kwargs.feedback).toBe("This task is done");
+        return false;
+    });
+    onRpc("mail.activity", "unlink", () => {
+>>>>>>> upstream/18.0
         // 'unlink' on non-existing record raises a server crash
         throw new Error(
             "'unlink' RPC on activity must not be called (already unlinked from mark as done)"
@@ -178,9 +214,15 @@ test("[technical] activity mark done & schedule next with new action", async () 
         res_id: partnerId,
         res_model: "res.partner",
     });
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", () => {
         return { type: "ir.actions.act_window" };
     });
+=======
+    onRpc("mail.activity", "action_feedback_schedule_next", () => ({
+        type: "ir.actions.act_window",
+    }));
+>>>>>>> upstream/18.0
     const def = new Deferred();
     mockService("action", {
         doAction(action) {

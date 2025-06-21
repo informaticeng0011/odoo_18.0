@@ -6,6 +6,10 @@ import { Component, xml } from "@odoo/owl";
 import { mountForTest, parseUrl } from "../local_helpers";
 
 import { Test } from "../../core/test";
+<<<<<<< HEAD
+=======
+import { makeLabel } from "../../hoot_utils";
+>>>>>>> upstream/18.0
 
 describe(parseUrl(import.meta.url), () => {
     test("makeExpect passing, without a test", () => {
@@ -206,6 +210,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ["toMatchObject", { a: 1, b: { l: [1, 2] } }, { b: { l: [1, 2] } }],
+>>>>>>> upstream/18.0
 =======
             ["toMatchObject", { a: 1, b: { l: [1, 2] } }, { b: { l: [1, 2] } }],
 >>>>>>> upstream/18.0
@@ -442,7 +450,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -511,6 +522,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -717,5 +731,56 @@ describe(parseUrl(import.meta.url), () => {
             expect(".div").not.toHaveStyle({ display: "block" }, { inline: true });
             expect(".div").not.toHaveStyle("border-top", { inline: true });
         });
+<<<<<<< HEAD
+=======
+
+        test("no elements found messages", async () => {
+            const [customExpect, hooks] = makeExpect({ headless: true });
+            hooks.before();
+
+            await mountForTest(/* xml */ `
+                <div />
+            `);
+
+            const SELECTOR = "#brrbrrpatapim";
+            const DOM_MATCHERS = [
+                ["toBeChecked"],
+                ["toBeDisplayed"],
+                ["toBeEnabled"],
+                ["toBeFocused"],
+                ["toBeVisible"],
+                ["toHaveAttribute", "attr"],
+                ["toHaveClass", "cls"],
+                ["toHaveInnerHTML", "<html></html>"],
+                ["toHaveOuterHTML", "<html></html>"],
+                ["toHaveProperty", "prop"],
+                ["toHaveRect", {}],
+                ["toHaveStyle", {}],
+                ["toHaveText", "abc"],
+                ["toHaveValue", "value"],
+            ];
+
+            for (const [matcher, arg] of DOM_MATCHERS) {
+                customExpect(SELECTOR)[matcher](arg);
+            }
+
+            const results = hooks.after();
+            const assertions = results.getEvents("assertion");
+            for (let i = 0; i < DOM_MATCHERS.length; i++) {
+                const { label, message } = assertions[i];
+                expect.step(label);
+                expect(message).toEqual([
+                    "expected at least",
+                    makeLabel(1),
+                    "element and got",
+                    makeLabel(0),
+                    "elements matching",
+                    makeLabel(SELECTOR),
+                ]);
+            }
+
+            expect.verifySteps(DOM_MATCHERS.map(([matcher]) => matcher));
+        });
+>>>>>>> upstream/18.0
     });
 });

@@ -40,7 +40,11 @@ const {
  * @param {string} tagKey
  * @param {string} tagName
  */
+<<<<<<< HEAD
 const checkTagSimilarity = (tagKey, tagName) => {
+=======
+function checkTagSimilarity(tagKey, tagName) {
+>>>>>>> upstream/18.0
     if (R_UNIQUE_TAG.test(tagKey)) {
         return;
     }
@@ -55,7 +59,11 @@ const checkTagSimilarity = (tagKey, tagName) => {
             similarities.push([existingTags[key], tagName]);
         }
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 const R_UNIQUE_TAG = /\d/;
 const SIMILARITY_PERCENTAGE = 0.1;
@@ -158,7 +166,11 @@ export function defineTags(...definitions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tagKey = def.key || normalize(def.name);
+=======
+        const tagKey = def.key || normalize(def.name.toLowerCase());
+>>>>>>> upstream/18.0
 =======
         const tagKey = def.key || normalize(def.name.toLowerCase());
 >>>>>>> upstream/18.0
@@ -322,9 +334,15 @@ export function getTags(tagNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const tagKeys = tagNames.map(normalize);
     return tagKeys.map((tagKey, i) => {
         const tag = existingTags[tagKey] || defineTags({ key: tagKey, name: tagNames[i] })[0];
+=======
+    return tagNames.map((tagKey, i) => {
+        const nKey = normalize(tagKey.toLowerCase());
+        const tag = existingTags[nKey] || defineTags({ key: nKey, name: tagNames[i] })[0];
+>>>>>>> upstream/18.0
 =======
     return tagNames.map((tagKey, i) => {
         const nKey = normalize(tagKey.toLowerCase());
@@ -594,7 +612,11 @@ export class Tag {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.exclude = exclude.map(normalize);
+=======
+            this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
+>>>>>>> upstream/18.0
 =======
             this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
 >>>>>>> upstream/18.0

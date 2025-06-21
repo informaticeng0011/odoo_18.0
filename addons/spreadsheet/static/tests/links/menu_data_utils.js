@@ -49,8 +49,13 @@ export function getMenuServerData() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 [1, "list"],
                 [2, "form"],
+=======
+                [false, "list"],
+                [false, "form"],
+>>>>>>> upstream/18.0
 =======
                 [false, "list"],
                 [false, "form"],

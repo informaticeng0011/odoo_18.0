@@ -109,7 +109,10 @@ def is_valid_structured_reference_nl(reference):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -158,6 +161,9 @@ def is_valid_structured_reference_si(reference):
     return given_check_digit == str(expected_check_digit)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -176,6 +182,10 @@ def is_valid_structured_reference(reference):
         is_valid_structured_reference_nl(reference) or
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        is_valid_structured_reference_si(reference) or
+>>>>>>> upstream/18.0
 =======
         is_valid_structured_reference_si(reference) or
 >>>>>>> upstream/18.0

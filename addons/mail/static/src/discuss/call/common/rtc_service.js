@@ -52,6 +52,7 @@ const SCREEN_CONFIG = {
 };
 const CAMERA_CONFIG = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: { max: 1280 },
     height: { max: 720 },
     aspectRatio: 16 / 9,
@@ -66,6 +67,14 @@ const IS_CLIENT_RTC_COMPATIBLE = Boolean(window.RTCPeerConnection && window.Medi
 const DEFAULT_ICE_SERVERS = [
     { urls: ["stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"] },
 ];
+=======
+    width: 1280,
+};
+const IS_CLIENT_RTC_COMPATIBLE = Boolean(window.RTCPeerConnection && window.MediaStream);
+function GET_DEFAULT_ICE_SERVERS() {
+    return [{ urls: ["stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"] }];
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Array<RTCIceServer>} iceServers
@@ -222,7 +231,11 @@ export class Rtc extends Record {
     /** @type {{urls: string[]}[]} */
     iceServers = Record.attr(undefined, {
         compute() {
+<<<<<<< HEAD
             return this.iceServers ? this.iceServers : DEFAULT_ICE_SERVERS;
+=======
+            return this.iceServers ? this.iceServers : GET_DEFAULT_ICE_SERVERS();
+>>>>>>> upstream/18.0
         },
     });
     selfSession = Record.one("RtcSession");

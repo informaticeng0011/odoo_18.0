@@ -678,7 +678,10 @@ class TestStockLot(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -760,6 +763,9 @@ class TestStockLot(TestStockCommon):
         self.assertEqual(mail_activity.user_id, default_user, "Activity was not assigned to the Default User.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

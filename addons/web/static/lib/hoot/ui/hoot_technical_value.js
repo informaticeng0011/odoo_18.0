@@ -11,7 +11,19 @@ import {
 import { isNode, toSelector } from "@web/../lib/hoot-dom/helpers/dom";
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { logger } from "../core/logger";
+<<<<<<< HEAD
 import { getTypeOf, Markup, S_ANY, S_NONE, stringify, toExplicitString } from "../hoot_utils";
+=======
+import {
+    getTypeOf,
+    isSafe,
+    Markup,
+    S_ANY,
+    S_NONE,
+    stringify,
+    toExplicitString,
+} from "../hoot_utils";
+>>>>>>> upstream/18.0
 
 /**
  * @typedef {{
@@ -36,12 +48,21 @@ const {
  *
  * @type {typeof String.raw}
  */
+<<<<<<< HEAD
 const xml = (template, ...substitutions) =>
     owlXml({
+=======
+function xml(template, ...substitutions) {
+    return owlXml({
+>>>>>>> upstream/18.0
         raw: String.raw(template, ...substitutions)
             .replace(/>\s+/g, ">")
             .replace(/\s+</g, "<"),
     });
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 
 const INVARIABLE_OBJECTS = [Promise, RegExp];
 
@@ -184,6 +205,10 @@ export class HootTechnicalValue extends Component {
         onWillRender(() => {
             this.isMarkup = Markup.isMarkup(this.props.value);
             this.value = toRaw(this.props.value);
+<<<<<<< HEAD
+=======
+            this.isSafe = isSafe(this.value);
+>>>>>>> upstream/18.0
         });
         onWillUpdateProps((nextProps) => {
             this.state.open = false;
@@ -212,6 +237,12 @@ export class HootTechnicalValue extends Component {
                 return null;
             }
         }
+<<<<<<< HEAD
+=======
+        if (!this.isSafe) {
+            return 0;
+        }
+>>>>>>> upstream/18.0
         const values = isIterable(this.value) ? [...this.value] : $keys(this.value);
         return values.length;
     }

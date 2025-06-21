@@ -1,6 +1,10 @@
 /** @odoo-module */
 
 import { reactive, useState } from "@odoo/owl";
+<<<<<<< HEAD
+=======
+import { getAllColors, getPreferredColorScheme } from "../../hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 import { STORAGE, storageGet, storageSet } from "../hoot_utils";
 
 /**
@@ -12,7 +16,10 @@ import { STORAGE, storageGet, storageSet } from "../hoot_utils";
 //-----------------------------------------------------------------------------
 
 const {
+<<<<<<< HEAD
     matchMedia,
+=======
+>>>>>>> upstream/18.0
     Object: { entries: $entries, keys: $keys },
 } = globalThis;
 
@@ -20,6 +27,7 @@ const {
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 const GRAYS = {
     100: "#f1f5f9",
     200: "#e2e8f0",
@@ -146,11 +154,19 @@ const COLOR_VALUES = {
 
 /** @type {ColorScheme[]} */
 const COLOR_SCHEMES = $keys(COLOR_VALUES).filter((k) => k !== "default");
+=======
+/** @type {ColorScheme[]} */
+const COLOR_SCHEMES = $keys(getAllColors()).filter((key) => key !== "default");
+>>>>>>> upstream/18.0
 
 /** @type {ColorScheme} */
 let defaultScheme = storageGet(STORAGE.scheme);
 if (!COLOR_SCHEMES.includes(defaultScheme)) {
+<<<<<<< HEAD
     defaultScheme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+=======
+    defaultScheme = getPreferredColorScheme();
+>>>>>>> upstream/18.0
     storageSet(STORAGE.scheme, defaultScheme);
 }
 
@@ -182,6 +198,7 @@ current.root;
 // Exports
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 export function getColors() {
     return COLOR_VALUES[current.scheme];
 }
@@ -190,6 +207,12 @@ export function generateStyleSheets() {
     /** @type {Record<string, string>} */
     const styles = {};
     for (const [scheme, values] of $entries(COLOR_VALUES)) {
+=======
+export function generateStyleSheets() {
+    /** @type {Record<string, string>} */
+    const styles = {};
+    for (const [scheme, values] of $entries(getAllColors())) {
+>>>>>>> upstream/18.0
         const content = [];
         for (const [key, value] of $entries(values)) {
             content.push(`--${key}:${value};`);

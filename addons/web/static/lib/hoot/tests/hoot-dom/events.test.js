@@ -2,6 +2,11 @@
 
 import { after, describe, expect, getFixture, test } from "@odoo/hoot";
 import {
+<<<<<<< HEAD
+=======
+    advanceTime,
+    animationFrame,
+>>>>>>> upstream/18.0
     clear,
     click,
     dblclick,
@@ -26,6 +31,7 @@ import {
     setInputRange,
     uncheck,
 } from "@odoo/hoot-dom";
+<<<<<<< HEAD
 import { advanceTime, animationFrame, mockFetch, mockTouch, mockUserAgent } from "@odoo/hoot-mock";
 import { Component, xml } from "@odoo/owl";
 import { EventList } from "@web/../lib/hoot-dom/helpers/events";
@@ -176,6 +182,12 @@ import { mountForTest, parseUrl } from "../local_helpers";
 import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
 =======
+import { mountForTest, parseUrl } from "../local_helpers";
+>>>>>>> upstream/18.0
+=======
+import { mockFetch, mockTouch, mockUserAgent } from "@odoo/hoot-mock";
+import { Component, xml } from "@odoo/owl";
+import { EventList } from "@web/../lib/hoot-dom/helpers/events";
 import { mountForTest, parseUrl } from "../local_helpers";
 >>>>>>> upstream/18.0
 
@@ -521,7 +533,10 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +686,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -874,8 +892,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1231,11 +1252,15 @@ describe(parseUrl(import.meta.url), () => {
 
         for (const event of dragEvents) {
             expect(event.dataTransfer).toBe(dataTransfer, {
+<<<<<<< HEAD
                 message: (_, r) => [
                     r`drag event`,
                     event.type,
                     r`should share the same dataTransfer object`,
                 ],
+=======
+                message: `drag event "${event.type}" should share the same dataTransfer object`,
+>>>>>>> upstream/18.0
             });
         }
     });
@@ -1269,11 +1294,15 @@ describe(parseUrl(import.meta.url), () => {
 
         for (const event of dragEvents) {
             expect(event.dataTransfer).toBe(dataTransfer, {
+<<<<<<< HEAD
                 message: (_, r) => [
                     r`drag event`,
                     event.type,
                     r`should share the same dataTransfer object`,
                 ],
+=======
+                message: `drag event "${event.type}" should share the same dataTransfer object`,
+>>>>>>> upstream/18.0
             });
         }
     });
@@ -1830,8 +1859,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitForIframes();
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -52,6 +52,10 @@ registry.category("web_tour.tours").add('configurator_flow', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        timeout: 20000,  /* previous step create a new website, this could take a long time */
+>>>>>>> upstream/18.0
 =======
         timeout: 20000,  /* previous step create a new website, this could take a long time */
 >>>>>>> upstream/18.0

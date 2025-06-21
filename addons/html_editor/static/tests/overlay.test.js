@@ -152,7 +152,11 @@ test("Table menu should close on scroll", async () => {
     await waitForNone(".o-dropdown--menu");
 
     // Column menu should not be visible.
+<<<<<<< HEAD
     expect(".o-dropdown--menu").not.toBeVisible();
+=======
+    expect(".o-dropdown--menu").not.toHaveCount();
+>>>>>>> upstream/18.0
 });
 
 test("Toolbar should keep stable while extending down the selection", async () => {

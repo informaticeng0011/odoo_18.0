@@ -16,6 +16,10 @@
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
 # or balmas, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Yoram Lavi, 2025
+>>>>>>> upstream/18.0
 =======
 # Yoram Lavi, 2025
 >>>>>>> upstream/18.0
@@ -27,7 +31,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: or balmas, 2025\n"
+=======
+"Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Yoram Lavi, 2025\n"
 >>>>>>> upstream/18.0
@@ -85,7 +93,11 @@ msgstr "המשתתפים נוצרו"
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__confirm
 msgid "Attendees are registered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "המשתתפים רשומים"
+>>>>>>> upstream/18.0
 =======
 msgstr "המשתתפים רשומים"
 >>>>>>> upstream/18.0
@@ -115,7 +127,11 @@ msgstr "הקצה אוטומטית את הלידים שנוצרו לאיש מכי
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "וואו! לא נוצרו לידים, בדוק את כללי יצירת הלידים שלך ונסה שוב."
+>>>>>>> upstream/18.0
 =======
 msgstr "וואו! לא נוצרו לידים, בדוק את כללי יצירת הלידים שלך ונסה שוב."
 >>>>>>> upstream/18.0
@@ -168,6 +184,12 @@ msgid ""
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"יצירה: ביצירת המשתתפים;\n"
+"אישור: כאשר משתתף אושר, באופן ידני או אוטומטי;\n"
+"משתתפים: כאשר הנוכחות מאושרת וההרשמה בוצעה;"
+>>>>>>> upstream/18.0
 =======
 "יצירה: ביצירת המשתתפים;\n"
 "אישור: כאשר משתתף אושר, באופן ידני או אוטומטי;\n"
@@ -196,7 +218,11 @@ msgstr "אירוע"
 #: model:ir.actions.server,name:event_crm.ir_cron_generate_leads_ir_actions_server
 msgid "Event CRM: Generate Leads based on Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אירוע CRM: נוצרו לידים על סמך כללים"
+>>>>>>> upstream/18.0
 =======
 msgstr "אירוע CRM: נוצרו לידים על סמך כללים"
 >>>>>>> upstream/18.0
@@ -205,7 +231,11 @@ msgstr "אירוע CRM: נוצרו לידים על סמך כללים"
 #: model:ir.model,name:event_crm.model_event_lead_request
 msgid "Event Lead Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Event Lead Request"
+>>>>>>> upstream/18.0
 =======
 msgstr "Event Lead Request"
 >>>>>>> upstream/18.0
@@ -278,7 +308,11 @@ msgstr "צור לידים"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הבנתי! רשמנו את בקשתך. הלידים שלך ייווצרו בקרוב!"
+>>>>>>> upstream/18.0
 =======
 msgstr "הבנתי! רשמנו את בקשתך. הלידים שלך ייווצרו בקרוב!"
 >>>>>>> upstream/18.0
@@ -385,7 +419,11 @@ msgstr "לא נמצא רישום"
 #: model:ir.model.fields,field_description:event_crm.field_event_event__has_lead_request
 msgid "Ongoing Generation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בקשת היצירה - בתהליך "
+>>>>>>> upstream/18.0
 =======
 msgstr "בקשת היצירה - בתהליך "
 >>>>>>> upstream/18.0
@@ -395,7 +433,11 @@ msgstr "בקשת היצירה - בתהליך "
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Only Event Managers are allowed to re-generate all leads."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק Event Manager מרשה ליצור מחדש את כל הלידים "
+>>>>>>> upstream/18.0
 =======
 msgstr "רק Event Manager מרשה ליצור מחדש את כל הלידים "
 >>>>>>> upstream/18.0
@@ -423,6 +465,11 @@ msgid ""
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"לכל משתתף: ליד נוצר עבור כל משתתף (B2C).\n"
+"לכל הזמנה: ליד אחד נוצר לכל מקבץ כרטיסים/הזמנת מכירה (B2B)"
+>>>>>>> upstream/18.0
 =======
 "לכל משתתף: ליד נוצר עבור כל משתתף (B2C).\n"
 "לכל הזמנה: ליד אחד נוצר לכל מקבץ כרטיסים/הזמנת מכירה (B2B)"
@@ -437,7 +484,11 @@ msgstr "לכל הזמנה"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__processed_registration_id
 msgid "Processed Registration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הרשמה בתהליך"
+>>>>>>> upstream/18.0
 =======
 msgstr "הרשמה בתהליך"
 >>>>>>> upstream/18.0
@@ -451,7 +502,11 @@ msgstr "כלל הרשמה"
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_merge_summary_inherit_event_crm
 msgid "Registration Rule:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כלל הרשמה"
+>>>>>>> upstream/18.0
 =======
 msgstr "כלל הרשמה"
 >>>>>>> upstream/18.0
@@ -509,7 +564,11 @@ msgstr "חיפוש כללי יצירת לידים"
 #: model:ir.model.fields,help:event_crm.field_event_event__has_lead_request
 msgid "Set to True when a Lead Generation Request is currently running."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הגדר כ-True כאשר בקשת יצירת לידים פועלת כעת."
+>>>>>>> upstream/18.0
 =======
 msgstr "הגדר כ-True כאשר בקשת יצירת לידים פועלת כעת."
 >>>>>>> upstream/18.0
@@ -536,6 +595,11 @@ msgid ""
 "resume."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"The ID of the last processed event.registration, used to know where to "
+"resume."
+>>>>>>> upstream/18.0
 =======
 "The ID of the last processed event.registration, used to know where to "
 "resume."
@@ -567,7 +631,11 @@ msgstr "מתי"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Yee-ha, %(leads_count)s Leads have been created!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " %(leads_count)s ליד נוצר!"
+>>>>>>> upstream/18.0
 =======
 msgstr " %(leads_count)s ליד נוצר!"
 >>>>>>> upstream/18.0
@@ -576,7 +644,11 @@ msgstr " %(leads_count)s ליד נוצר!"
 #: model:ir.model.constraint,message:event_crm.constraint_event_lead_request_uniq_event
 msgid "You can only have one generation request per event at a time."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן לבקש בקשה אחת ליצור ארוע בכל פעם."
+>>>>>>> upstream/18.0
 =======
 msgstr "ניתן לבקש בקשה אחת ליצור ארוע בכל פעם."
 >>>>>>> upstream/18.0

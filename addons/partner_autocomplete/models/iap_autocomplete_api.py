@@ -3,7 +3,11 @@
 
 import logging
 
+<<<<<<< HEAD
 from odoo import api, models, exceptions, _
+=======
+from odoo import api, models, exceptions, _, release
+>>>>>>> upstream/18.0
 from odoo.addons.iap.tools import iap_tools
 from requests.exceptions import HTTPError
 
@@ -24,6 +28,11 @@ class IapAutocompleteEnrichAPI(models.AbstractModel):
             raise ValueError(_('No account token'))
         params.update({
             'db_uuid': self.env['ir.config_parameter'].sudo().get_param('database.uuid'),
+<<<<<<< HEAD
+=======
+            'db_version': release.version,
+            'db_lang': self.env.lang,
+>>>>>>> upstream/18.0
             'account_token': account.account_token,
             'country_code': self.env.company.country_id.code,
             'zip': self.env.company.zip,

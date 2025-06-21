@@ -401,9 +401,15 @@ return __exports;
         input_content = """export const v = 5;
 
 const a = 12;
+<<<<<<< HEAD
 const b = 15;
 
 export { a, b };
+=======
+const $b = 15;
+
+export { a, $b };
+>>>>>>> upstream/18.0
 
 export default 100;
 
@@ -417,9 +423,15 @@ let __exports = {};
 const v = __exports.v = 5;
 
 const a = 12;
+<<<<<<< HEAD
 const b = 15;
 
 Object.assign(__exports, { a,  b });
+=======
+const $b = 15;
+
+Object.assign(__exports, { a,  $b });
+>>>>>>> upstream/18.0
 
 __exports[Symbol.for("default")] = 100;
 

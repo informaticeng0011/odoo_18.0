@@ -22,6 +22,7 @@
                                     attrs="{ href: element.href, 'data-menu': element.id }"
                                     onSelected="element.callback"
                                 >
+<<<<<<< HEAD
                                     <CheckBox
                                         t-if="element.type == 'switch'"
                                         value="element.isChecked"
@@ -31,6 +32,18 @@
                                         <t t-out="element.description"/>
                                     </CheckBox>
                                     <t t-else="" t-out="element.description"/>
+=======
+                                <div class="d-flex justify-content-between p-0 w-100">
+                                    <t t-out="element.description"/>
+                                    <CheckBox
+                                        t-if="element.type == 'switch'"
+                                        value="element.isChecked"
+                                        className="'form-switch ms-2'"
+                                        onChange="element.callback"
+                                    >
+                                    </CheckBox>
+                                </div>
+>>>>>>> upstream/18.0
                                 </DropdownItem>
                                 <div t-if="element.type == 'separator'" role="separator" class="dropdown-divider"/>
                             </t>
@@ -41,4 +54,8 @@
         </div>
     </t>
 
+<<<<<<< HEAD
 </templates>
+=======
+</templates>
+>>>>>>> upstream/18.0

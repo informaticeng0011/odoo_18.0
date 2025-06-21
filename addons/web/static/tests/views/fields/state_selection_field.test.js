@@ -132,10 +132,17 @@ test("StateSelectionField with readonly modifier", async () => {
     });
 
     expect(".o_field_state_selection").toHaveClass("o_readonly_modifier");
+<<<<<<< HEAD
     expect(".dropdown-menu").not.toBeVisible();
     await click(".o_field_state_selection span.o_status");
     await animationFrame();
     expect(".dropdown-menu").not.toBeVisible();
+=======
+    expect(".dropdown-menu:visible").not.toHaveCount();
+    await click(".o_field_state_selection span.o_status");
+    await animationFrame();
+    expect(".dropdown-menu:visible").not.toHaveCount();
+>>>>>>> upstream/18.0
 });
 
 test("StateSelectionField for form view with hide_label option", async () => {

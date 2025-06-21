@@ -16,7 +16,10 @@ import { fields, getKwArgs, makeKwArgs, webModels } from "@web/../tests/web_test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76,8 +79,12 @@ export class ResPartner extends webModels.ResPartner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [`search, ${DEFAULT_MAIL_SEARCH_ID}`]: /* xml */ `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: /* xml */ `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0

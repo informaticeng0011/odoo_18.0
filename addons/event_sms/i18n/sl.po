@@ -46,6 +46,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -221,7 +225,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -359,7 +367,11 @@ msgstr ""
 #: model:ir.model,name:event_sms.model_event_mail
 msgid "Event Automated Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samodejno pošiljanje dogodkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samodejno pošiljanje dogodkov"
 >>>>>>> upstream/18.0
@@ -386,6 +398,11 @@ msgid ""
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pripravljeno za \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
+"{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
+>>>>>>> upstream/18.0
 =======
 "Pripravljeno za \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
@@ -446,7 +463,11 @@ msgid "SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -599,6 +620,12 @@ msgid ""
 "{{ object.event_id.name }} event."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
+"user.env.company.name }}: Z veseljem potrjujemo vašo registracijo za {{ "
+"object.event_id.name }} dogodek."
+>>>>>>> upstream/18.0
 =======
 "{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
 "user.env.company.name }}: Z veseljem potrjujemo vašo registracijo za {{ "

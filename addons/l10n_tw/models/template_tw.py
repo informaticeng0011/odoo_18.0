@@ -37,5 +37,9 @@ class AccountChartTemplate(models.AbstractModel):
                 'default_cash_difference_expense_account_id': 'tw_718600',
                 'account_sale_tax_id': 'tw_tax_sale_5',
                 'account_purchase_tax_id': 'tw_tax_purchase_5',
+<<<<<<< HEAD
+=======
+                'tax_calculation_rounding_method': 'round_globally',
+>>>>>>> upstream/18.0
             },
         }

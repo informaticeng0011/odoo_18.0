@@ -28,7 +28,11 @@ test("hr org chart: empty render", async () => {
 
     onRpc("/hr/get_org_chart", async (request) => {
         const { params: args } = await request.json();
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
             message: "it should have 'employee_id' as argument",
         });
         return {
@@ -55,7 +59,11 @@ test("hr org chart: render without data", async () => {
 
     onRpc("/hr/get_org_chart", async (request) => {
         const { params: args } = await request.json();
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
             message: "it should have 'employee_id' as argument",
         });
         return {}; // return no data
@@ -75,7 +83,11 @@ test("hr org chart: basic render", async () => {
 
     onRpc("/hr/get_org_chart", async (request) => {
         const { params: args } = await request.json();
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
             message: "it should have 'employee_id' as argument",
         });
         return {
@@ -134,7 +146,11 @@ test("hr org chart: basic manager render", async () => {
 
     onRpc("/hr/get_org_chart", async (request) => {
         const { params: args } = await request.json();
+<<<<<<< HEAD
         expect("employee_id" in args).toBe(true, {
+=======
+        expect(args).toInclude("employee_id", {
+>>>>>>> upstream/18.0
             message: "it should have 'employee_id' as argument",
         });
         return {

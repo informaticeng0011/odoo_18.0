@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { expect, test, beforeEach } from "@odoo/hoot";
 import { queryAllTexts, click, animationFrame } from "@odoo/hoot-dom";
 
@@ -14,6 +15,23 @@ import {
 import { browser } from "@web/core/browser/browser";
 import { defineTodoModels } from "./todo_test_helpers";
 import { ProjectTask } from "./mock_server/mock_models/project_task";
+=======
+import { beforeEach, expect, test } from "@odoo/hoot";
+import { animationFrame, click, queryAllTexts } from "@odoo/hoot-dom";
+
+import {
+    contains,
+    fields,
+    getService,
+    mountView,
+    mountWithCleanup,
+    onRpc,
+} from "@web/../tests/web_test_helpers";
+import { browser } from "@web/core/browser/browser";
+import { WebClient } from "@web/webclient/webclient";
+import { ProjectTask } from "./mock_server/mock_models/project_task";
+import { defineTodoModels } from "./todo_test_helpers";
+>>>>>>> upstream/18.0
 
 defineTodoModels();
 
@@ -30,7 +48,11 @@ beforeEach(() => {
                 <field name="priority" invisible="1"/>
                 <field name="user_ids" widget="many2many_tags"/>
             </form>`,
+<<<<<<< HEAD
         "activity, false": `
+=======
+        activity: `
+>>>>>>> upstream/18.0
             <activity string="MailTestActivity">
                 <field name="name" invisible="1"/>
                 <templates>
@@ -39,8 +61,11 @@ beforeEach(() => {
                     </div>
                 </templates>
             </activity>`,
+<<<<<<< HEAD
         search: `
             <search/>`,
+=======
+>>>>>>> upstream/18.0
     };
 
     ProjectTask._fields.activity_state = fields.Selection({
@@ -63,8 +88,12 @@ test("Check that project_task_action_convert_todo_to_task appears in the menu ac
     });
 
     await contains(`.o_cp_action_menus .dropdown-toggle`).click();
+<<<<<<< HEAD
     const menuActions = Array.from(queryAllTexts(".o-dropdown--menu span"));
     expect(menuActions.includes("Convert to Task")).toBe(true, {
+=======
+    expect(queryAllTexts(".o-dropdown--menu span")).toInclude("Convert to Task", {
+>>>>>>> upstream/18.0
         message:
             "project_task_action_convert_todo_to_task action should appear in the menu actions",
     });
@@ -81,14 +110,19 @@ test("Check that project_task_action_convert_todo_to_task does not appear in the
     });
 
     await contains(`.o_cp_action_menus .dropdown-toggle`).click();
+<<<<<<< HEAD
     const menuActions = Array.from(queryAllTexts(".o-dropdown--menu span"));
     expect(menuActions.includes("Convert to Task")).toBe(false, {
+=======
+    expect(queryAllTexts(".o-dropdown--menu span")).not.toInclude("Convert to Task", {
+>>>>>>> upstream/18.0
         message:
             "project_task_action_convert_todo_to_task action should appear in the menu actions",
     });
 });
 
 test.tags("desktop");
+<<<<<<< HEAD
 test("Check if opening form view from activity view does open with chatter visble", async() => {
     // Basic/Minimum data needed for activity view to be displayed
     onRpc("web_search_read", (args) => {
@@ -110,6 +144,23 @@ test("Check if opening form view from activity view does open with chatter visbl
             activity_types: currentEnv["mail.activity.type"].map((type) => {
                 const templates = (type.mail_template_ids || []).map((template_id) => {
                     const { id, name } = currentEnv["mail.template"].browse(template_id)[0];
+=======
+test("Check if opening form view from activity view does open with chatter visble", async () => {
+    // Basic/Minimum data needed for activity view to be displayed
+    onRpc("web_search_read", function ({ model }) {
+        return {
+            length: 1,
+            records: this.env[model].read(1, ["name"]),
+        };
+    });
+    onRpc("get_activity_data", function () {
+        return {
+            activity_res_ids: [1],
+            grouped_activities: {},
+            activity_types: this.env["mail.activity.type"].map((type) => {
+                const templates = (type.mail_template_ids || []).map((template_id) => {
+                    const { id, name } = this.env["mail.template"].browse(template_id)[0];
+>>>>>>> upstream/18.0
                     return { id, name };
                 });
                 return {
@@ -119,7 +170,11 @@ test("Check if opening form view from activity view does open with chatter visbl
                     keep_done: type.keep_done,
                 };
             }),
+<<<<<<< HEAD
         }
+=======
+        };
+>>>>>>> upstream/18.0
     });
 
     await mountWithCleanup(WebClient);

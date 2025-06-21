@@ -78,7 +78,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-elif="showFavorite and state.evenGif.gifs.length === 0 and state.oddGif.gifs.length === 0" class="d-flex flex-column h-100 align-items-center justify-content-center text-center text-muted gap-2">
+=======
+                    <div t-elif="showFavorite and state.evenGif.gifs.size === 0 and state.oddGif.gifs.size === 0" class="d-flex flex-column h-100 align-items-center justify-content-center text-center text-muted gap-2">
+>>>>>>> upstream/18.0
 =======
                     <div t-elif="showFavorite and state.evenGif.gifs.size === 0 and state.oddGif.gifs.size === 0" class="d-flex flex-column h-100 align-items-center justify-content-center text-center text-muted gap-2">
 >>>>>>> upstream/18.0

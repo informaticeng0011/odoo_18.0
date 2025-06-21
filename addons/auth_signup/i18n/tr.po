@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -122,6 +123,9 @@
 >>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
+>>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
@@ -151,6 +155,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +259,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
@@ -524,7 +532,11 @@ msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: #FFFFFF; color: #454748; border-collapse:separate;\">\n"
 "<tbody>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- HEADER -->\n"
+=======
+"    <!-- BAŞLIK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- BAŞLIK -->\n"
 >>>>>>> upstream/18.0
@@ -533,7 +545,11 @@ msgstr ""
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <span style=\"font-size: 10px;\">Odoo'ya Hoş Geldiniz</span><br/>\n"
+=======
+"                    <span style=\"font-size: 10px;\">Odoo'ya hoş geldiniz</span><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <span style=\"font-size: 10px;\">Odoo'ya hoş geldiniz</span><br/>\n"
 >>>>>>> upstream/18.0
@@ -550,7 +566,11 @@ msgstr ""
 "        </td>\n"
 "    </tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- CONTENT -->\n"
+=======
+"    <!-- İÇERİK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- İÇERİK -->\n"
 >>>>>>> upstream/18.0
@@ -560,6 +580,7 @@ msgstr ""
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
 "                        Sayın <t t-out=\"object.name or ''\">Marc Demo</t>,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "                        <t t-out=\"object.create_uid.name or ''\">OdooBot</t> tarafından davet edildiniz <t t-out=\"object.company_id.name or ''\">YourCompany</t> Odoo'ya bağlanmak için.\n"
 "                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
@@ -578,6 +599,8 @@ msgstr ""
 "                        Odoo'nun keyfini çıkarın!<br/>\n"
 "                        --<br/>The <t t-out=\"object.company_id.name or ''\">YourCompany</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                        <t t-out=\"object.company_id.name or ''\">YourCompany</t>'den  <t t-out=\"object.create_uid.name or ''\">OdooBot</t> tarafından Odoo üzerinde bağlantı kurmaya davet edildiniz.\n"
 "                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "                            <a t-att-href=\"object.partner_id._get_signup_url()\" t-attf-style=\"background-color: {{object.company_id.email_secondary_color or '#875A7B'}}; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
@@ -594,6 +617,9 @@ msgstr ""
 "                        <br/><br/>\n"
 "                        Odoo'nun tadını çıkarın!<br/>\n"
 "                        --<br/><t t-out=\"object.company_id.name or ''\">YourCompany</t> Ekibi\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                    </div>\n"
 "                </td></tr>\n"
@@ -604,7 +630,11 @@ msgstr ""
 "        </td>\n"
 "    </tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- FOOTER -->\n"
+=======
+"    <!-- ALT BAŞLIK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- ALT BAŞLIK -->\n"
 >>>>>>> upstream/18.0
@@ -630,17 +660,23 @@ msgstr ""
 "</table>\n"
 "</td></tr>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "<!-- DESTEKLEYEN -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "       <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a> tarafından desteklenmektedir\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "      </td></tr>\n"
 "    </table>\n"
@@ -764,7 +800,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- HEADER -->\n"
+=======
+"    <!-- BAŞLIK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- BAŞLIK -->\n"
 >>>>>>> upstream/18.0
@@ -894,7 +934,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- CONTENT -->\n"
+=======
+"    <!-- İÇERİK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- İÇERİK -->\n"
 >>>>>>> upstream/18.0
@@ -1013,6 +1057,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Hesabınız başarıyla oluşturuldu!<br/>\n"
 "                        Girişiniz<strong><t t-out=\"object.email or ''\">mark.brown23@example.com</t></strong><br/>\n"
 "                        Hesabınıza erişmek için aşağıdaki bağlantıyı kullanabilirsiniz:\n"
@@ -1020,6 +1065,8 @@ msgstr ""
 "                            <a t-attf-href=\"/web/login?auth_login={{object.email}}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 "                                Hesabım'a Git\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1107,6 +1154,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1205,7 +1255,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <!-- FOOTER -->\n"
+=======
+"    <!-- ALT BAŞLIK -->\n"
+>>>>>>> upstream/18.0
 =======
 "    <!-- ALT BAŞLIK -->\n"
 >>>>>>> upstream/18.0
@@ -1322,7 +1376,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.company_id.name or ''\">YourCompany</t>\n"
+=======
+"                    <t t-out=\"object.company_id.name or ''\">Şirketiniz</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.company_id.name or ''\">Şirketiniz</t>\n"
 >>>>>>> upstream/18.0
@@ -1453,12 +1511,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1545,6 +1606,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1667,7 +1731,11 @@ msgid "Browser"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tarayıcı"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tarayıcı"
 >>>>>>> upstream/18.0

@@ -18,6 +18,10 @@ import { createBaseContainer } from "@html_editor/utils/base_container";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -300,6 +304,23 @@ describe("Simple text", () => {
                 contentAfter: "<pre>a<br>b<br>c[]</pre>",
             });
         });
+<<<<<<< HEAD
+=======
+
+        test("should preserve spaces and not add nbsp when pasting plain text inside <pre>", async () => {
+            await testEditor({
+                contentBefore: "<pre>[]<br></pre>",
+                stepFunction: async (editor) => {
+                    pasteText(
+                        editor,
+                        "function example() {\n    console.log('Hello,    world!');\n    // Indented    comment\n}"
+                    );
+                },
+                contentAfter:
+                    "<pre>function example() {<br>    console.log('Hello,    world!');<br>    // Indented    comment<br>}[]</pre>",
+            });
+        });
+>>>>>>> upstream/18.0
     });
 
     describe("range not collapsed", () => {
@@ -954,7 +975,10 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1012,6 +1036,9 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2665,7 +2692,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -2718,7 +2749,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -2771,7 +2806,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -2873,7 +2912,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -2923,7 +2966,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -2973,7 +3020,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3023,7 +3074,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3073,7 +3128,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3224,7 +3283,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3274,7 +3337,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3324,7 +3391,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3374,7 +3445,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3473,7 +3548,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3527,7 +3606,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3613,7 +3696,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3662,7 +3749,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3716,7 +3807,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -3767,7 +3862,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3823,7 +3922,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3879,7 +3982,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3931,7 +4038,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -3985,7 +4096,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -4036,7 +4151,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4102,7 +4221,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4155,7 +4278,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4208,7 +4335,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4272,7 +4403,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4326,7 +4461,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4394,7 +4533,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4448,7 +4591,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4510,7 +4657,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4566,7 +4717,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4633,7 +4788,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4700,7 +4859,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4753,7 +4916,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -4805,7 +4972,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0

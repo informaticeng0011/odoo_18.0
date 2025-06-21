@@ -153,6 +153,42 @@ registerWebsitePreviewTour("website_form_editor_tour", {
     {
         trigger: ":iframe .s_website_form_field",
     },
+<<<<<<< HEAD
+=======
+    // Check if fields in two form snippet have unique IDs
+    {
+        content: "Drop another form snippet",
+        trigger: "#oe_snippets .oe_snippet .oe_snippet_thumbnail[data-snippet='s_website_form']:not(.o_we_ongoing_insertion)",
+        run: "drag_and_drop :iframe #wrap",
+    },
+    {
+        content: "Check if there are two form snippets on the page",
+        trigger: ":iframe .s_website_form:nth-of-type(2) .s_website_form_field",
+    },
+    {
+        content: "Check that the first field of both the form snippets have different IDs",
+        trigger: ":iframe .s_website_form:nth-of-type(1) input[name='name']",
+        run: function() {
+            const firstFieldForm1El = this.anchor;
+            const firstFieldForm2El = firstFieldForm1El.ownerDocument.querySelector(
+                ".s_website_form:nth-of-type(2) input[name='name']"
+            );
+            if (firstFieldForm1El.id === firstFieldForm2El.id) {
+                console.error("The first fields of two different form snippet have the same ID");
+            }
+        },
+    },
+    {
+        content: "Click on the second form",
+        trigger: ":iframe .s_website_form:nth-of-type(2)",
+        run: "click",
+    },
+    {
+        content: "Remove the second snippet",
+        trigger: ":iframe .oe_overlay.oe_active .oe_snippet_remove",
+        run: "click",
+    },
+>>>>>>> upstream/18.0
     {
         content: "Select form by clicking on an input field",
         trigger: ':iframe section.s_website_form input',
@@ -393,7 +429,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -408,6 +447,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -423,10 +465,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Change first Option 3 label",
         trigger: 'we-list table input:eq(2)',
         run: "edit France",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -449,6 +494,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -480,10 +528,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
         // TODO: Fix code to avoid blur event
         run: "edit Canada",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -502,6 +553,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -519,7 +573,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -536,6 +593,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -558,7 +618,11 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+>>>>>>> upstream/18.0
 =======
         trigger: "we-list table input:eq(3)[name='Item']",
 >>>>>>> upstream/18.0

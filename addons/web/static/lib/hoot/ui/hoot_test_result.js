@@ -14,6 +14,10 @@ import {
     Markup,
     ordinal,
 } from "../hoot_utils";
+<<<<<<< HEAD
+=======
+import { HootCopyButton } from "./hoot_copy_button";
+>>>>>>> upstream/18.0
 import { HootLink } from "./hoot_link";
 import { HootTechnicalValue } from "./hoot_technical_value";
 
@@ -21,6 +25,10 @@ import { HootTechnicalValue } from "./hoot_technical_value";
  * @typedef {import("../core/expect").CaseEvent} CaseEvent
  * @typedef {import("../core/expect").CaseEventType} CaseEventType
  * @typedef {import("../core/expect").CaseResult} CaseResult
+<<<<<<< HEAD
+=======
+ * @typedef {import("./setup_hoot_ui").StatusFilter} StatusFilter
+>>>>>>> upstream/18.0
  */
 
 //-----------------------------------------------------------------------------
@@ -29,7 +37,10 @@ import { HootTechnicalValue } from "./hoot_technical_value";
 
 const {
     Boolean,
+<<<<<<< HEAD
     Map,
+=======
+>>>>>>> upstream/18.0
     Object: { entries: $entries, fromEntries: $fromEntries },
 } = globalThis;
 
@@ -38,10 +49,46 @@ const {
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
  * @param {string} label
  * @param {string} owner
  */
 const stackTemplate = (label, owner) => {
+=======
+ * @param {[number, CaseEvent][]} indexedResults
+ * @param {number} events
+ */
+function filterEvents(indexedResults, events) {
+    /** @type {Record<number, CaseEvent[]>} */
+    const filteredEvents = {};
+    for (const [i, result] of indexedResults) {
+        filteredEvents[i] = result.getEvents(events);
+    }
+    return filteredEvents;
+}
+
+/**
+ * @param {CaseEvent[]} results
+ * @param {StatusFilter} statusFilter
+ */
+function filterResults(results, statusFilter) {
+    const ordinalResults = [];
+    const hasFailed = results.some((r) => !r.pass);
+    const shouldPass = statusFilter === "passed";
+    for (let i = 0; i < results.length; i++) {
+        if (!hasFailed || results[i].pass === shouldPass) {
+            ordinalResults.push([i + 1, results[i]]);
+        }
+    }
+    return ordinalResults;
+}
+
+/**
+ * @param {string} label
+ * @param {string} owner
+ */
+function stackTemplate(label, owner) {
+>>>>>>> upstream/18.0
     // Defined with string concat because line returns are taken into account in <pre> tags.
     const preContent =
         /* xml */ `<t t-foreach="parseStack(${owner}.stack)" t-as="part" t-key="part_index">` +
@@ -58,7 +105,11 @@ const stackTemplate = (label, owner) => {
             </div>
         </t>
     `;
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 const ERROR_TEMPLATE = /* xml */ `
     <div class="text-rose flex items-center gap-1 px-2 truncate">
@@ -132,9 +183,21 @@ const EVENT_TEMPLATE = /* xml */ `
         </span>
     </div>
     <t t-set="timestamp" t-value="formatTime(event.ts - (result.ts || 0), 'ms')" />
+<<<<<<< HEAD
     <small class="text-gray flex items-center" t-att-title="timestamp">
         <t t-esc="'@' + timestamp" />
     </small>
+=======
+    <small class="flex items-center text-gray" t-att-title="timestamp">
+        <t t-esc="'@' + timestamp" />
+    </small>
+    <t t-if="event.additionalMessage">
+        <div class="flex items-center ms-4 px-2 gap-1 truncate col-span-2">
+            <em class="text-blue" t-esc="event.additionalMessage" />
+            <HootCopyButton text="event.additionalMessage" />
+        </div>
+    </t>
+>>>>>>> upstream/18.0
     <t t-if="!event.pass">
         <t t-if="event.failedDetails">
             <div class="hoot-info grid col-span-2 gap-x-2 px-2">
@@ -178,7 +241,11 @@ const R_STACK_LINE_START = isFirefox()
 
 /** @extends {Component<TestResultProps, import("../hoot").Environment>} */
 export class HootTestResult extends Component {
+<<<<<<< HEAD
     static components = { HootLink, HootTechnicalValue };
+=======
+    static components = { HootCopyButton, HootLink, HootTechnicalValue };
+>>>>>>> upstream/18.0
 
     static props = {
         open: [{ type: Boolean }, { value: "always" }],
@@ -206,11 +273,21 @@ export class HootTestResult extends Component {
                 <t t-slot="default" />
             </button>
             <t t-if="state.showDetails and !props.test.config.skip">
+<<<<<<< HEAD
                 <t t-foreach="results" t-as="result" t-key="result_index">
                     <t t-if="results.length > 1">
                         <div class="flex justify-between mx-2 my-1">
                             <span t-attf-class="text-{{ result.pass ? 'emerald' : 'rose' }}">
                                 <t t-esc="ordinal(result_index + 1)" /> run:
+=======
+                <t t-foreach="filteredResults" t-as="indexedResult" t-key="indexedResult[0]">
+                    <t t-set="index" t-value="indexedResult[0]" />
+                    <t t-set="result" t-value="indexedResult[1]" />
+                    <t t-if="results.length > 1">
+                        <div class="flex justify-between mx-2 my-1">
+                            <span t-attf-class="text-{{ result.pass ? 'emerald' : 'rose' }}">
+                                <t t-esc="ordinal(index)" /> run:
+>>>>>>> upstream/18.0
                             </span>
                             <t t-set="timestamp" t-value="formatTime(result.duration, 'ms')" />
                             <small class="text-gray flex items-center" t-att-title="timestamp">
@@ -219,10 +296,17 @@ export class HootTestResult extends Component {
                         </div>
                     </t>
                     <div class="hoot-result-detail grid gap-1 rounded overflow-x-auto p-1 mx-2 animate-slide-down">
+<<<<<<< HEAD
                         <t t-if="!filteredEvents.get(result).length">
                             <em class="text-gray px-2 py-1">No test event to show</em>
                         </t>
                         <t t-foreach="filteredEvents.get(result)" t-as="event" t-key="event_index">
+=======
+                        <t t-if="!filteredEvents[index].length">
+                            <em class="text-gray px-2 py-1">No test event to show</em>
+                        </t>
+                        <t t-foreach="filteredEvents[index]" t-as="event" t-key="event_index">
+>>>>>>> upstream/18.0
                             <t t-set="sType" t-value="getTypeName(event.type)" />
                             <t t-set="eventIcon" t-value="CASE_EVENT_TYPES[sType].icon" />
                             <t t-set="eventColor" t-value="
@@ -274,16 +358,30 @@ export class HootTestResult extends Component {
     isMarkup = Markup.isMarkup;
     ordinal = ordinal;
 
+<<<<<<< HEAD
     setup() {
         subscribeToURLParams("*");
 
         this.config = useState(this.env.runner.config);
+=======
+    /** @type {ReturnType<typeof filterEvents>} */
+    filteredEvents;
+    /** @type {[number, CaseEvent][]} */
+    filteredResults;
+
+    setup() {
+        subscribeToURLParams("*");
+
+        const { runner, ui } = this.env;
+        this.config = useState(runner.config);
+>>>>>>> upstream/18.0
         this.logs = useState(this.props.test.logs);
         this.results = useState(this.props.test.results);
         this.state = useState({
             showCode: false,
             showDetails: Boolean(this.props.open),
         });
+<<<<<<< HEAD
 
         /** @type {ReturnType<typeof this.getFilteredEvents>} */
         this.filteredEvents;
@@ -291,6 +389,11 @@ export class HootTestResult extends Component {
         onWillRender(() => {
             this.filteredEvents = this.getFilteredEvents();
         });
+=======
+        this.uiState = useState(ui);
+
+        onWillRender(this.onWillRender.bind(this));
+>>>>>>> upstream/18.0
     }
 
     getClassName() {
@@ -324,6 +427,7 @@ export class HootTestResult extends Component {
     }
 
     /**
+<<<<<<< HEAD
      * @returns {[Record<CaseEventType, number>, Map<CaseResult, CaseEvent[]>]}
      */
     getFilteredEvents() {
@@ -335,12 +439,22 @@ export class HootTestResult extends Component {
     }
 
     /**
+=======
+>>>>>>> upstream/18.0
      * @param {number} nType
      */
     getTypeName(nType) {
         return CASE_EVENT_TYPES_INVERSE[nType];
     }
 
+<<<<<<< HEAD
+=======
+    onWillRender() {
+        this.filteredResults = filterResults(this.results, this.uiState.statusFilter);
+        this.filteredEvents = filterEvents(this.filteredResults, this.config.events);
+    }
+
+>>>>>>> upstream/18.0
     /**
      * @param {string} stack
      */

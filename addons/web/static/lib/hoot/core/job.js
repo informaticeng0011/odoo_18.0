@@ -31,18 +31,30 @@ const {
 /**
  * @param {JobConfig} config
  */
+<<<<<<< HEAD
 const validateConfig = (config) => {
+=======
+function validateConfig(config) {
+>>>>>>> upstream/18.0
     for (const [key, value] of $entries(config)) {
         if (!isOfType(value, CONFIG_TAG_SCHEMA[key])) {
             throw new HootError(`invalid config tag: parameter "${key}" does not exist`);
         }
     }
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /** @type {Record<keyof JobConfig, import("../hoot_utils").ArgumentType>} */
 const CONFIG_TAG_SCHEMA = {
     debug: "boolean",
+<<<<<<< HEAD
     multi: "integer",
+=======
+    multi: "number",
+>>>>>>> upstream/18.0
     only: "boolean",
     skip: "boolean",
     timeout: "number",

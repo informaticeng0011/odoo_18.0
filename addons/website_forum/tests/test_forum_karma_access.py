@@ -184,7 +184,10 @@ class TestForumKarma(TestForumCommon):
         self.assertEqual(self.user_portal.karma, KARMA['post'] + KARMA['gen_que_new'], 'website_forum: wrong karma generation when asking question')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # check karma done on right forum, using context values
         self.user_portal.karma = KARMA['post']
         for karma_value, has_nofollow in [
@@ -215,6 +218,9 @@ class TestForumKarma(TestForumCommon):
                 # reset karma
                 self.user_portal.karma = KARMA['post']
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_close_post_all(self):
         self.user_portal.karma = KARMA['close_all']

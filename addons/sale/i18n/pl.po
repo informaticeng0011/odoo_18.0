@@ -9,8 +9,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marta Wacławek, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Marta Wacławek, 2025
@@ -32,6 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +129,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"POT-Creation-Date: 2025-06-13 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-06-13 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -870,7 +881,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Zobacz szczegóły"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Zobacz szczegóły"
 >>>>>>> upstream/18.0
@@ -896,6 +911,11 @@ msgid ""
 "title=\"Sales orders\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Zamówienia sprzedaży\""
+" title=\"Zamówienia sprzedaży\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-usd me-1\" role=\"img\" aria-label=\"Zamówienia sprzedaży\""
 " title=\"Zamówienia sprzedaży\"/>"
@@ -928,6 +948,12 @@ msgid ""
 "is_product_archived\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Ten "
+"produkt jest archiwizowany\" invisible=\"state not in ['draft', 'sent'] or "
+"not is_product_archived\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning me-1\" title=\"Ten "
 "produkt jest archiwizowany\" invisible=\"state not in ['draft', 'sent'] or "
@@ -941,6 +967,11 @@ msgid ""
 "company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-lg fa-building-o p-2\" title=\"Wartości ustawione tutaj "
+"są charakterystyczne dla firmy. \" groups=\"base.group_multi_company\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-lg fa-building-o p-2\" title=\"Wartości ustawione tutaj "
 "są charakterystyczne dla firmy. \" groups=\"base.group_multi_company\"/>"
@@ -970,6 +1001,12 @@ msgid ""
 "                                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span id=\"o_sale_portal_use_amount_total\">\n"
+"                                                Płacąc,\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span id=\"o_sale_portal_use_amount_total\">\n"
 "                                                Płacąc,\n"
@@ -991,6 +1028,11 @@ msgid ""
 "class=\"oe_inline\">% </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"advance_payment_method != 'percentage'\" "
+"class=\"oe_inline\">% </span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"advance_payment_method != 'percentage'\" "
 "class=\"oe_inline\">% </span>"
@@ -1003,6 +1045,11 @@ msgid ""
 "        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>Gratulacje</b>, Twoja pierwsza oferta została wysłana!<br>Sprawdź skrzynkę pocztową aby zweryfikować ofertę.\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Gratulacje</b>, Twoja pierwsza oferta została wysłana!<br>Sprawdź skrzynkę pocztową aby zweryfikować ofertę.\n"
 "        </span>"
@@ -1037,7 +1084,11 @@ msgstr "<span>Rabat (%)</span>"
 #: model_terms:ir.ui.view,arch_db:sale.product_document_kanban
 msgid "<span>Sales visibility</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Widoczność sprzedaży</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Widoczność sprzedaży</span>"
 >>>>>>> upstream/18.0
@@ -1051,7 +1102,11 @@ msgstr "<span>Podatki</span>"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span>Warning: This quote contains archived product(s)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Uwaga: Ta oferta zawiera archiwizowane produkty</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Uwaga: Ta oferta zawiera archiwizowane produkty</span>"
 >>>>>>> upstream/18.0
@@ -1059,6 +1114,7 @@ msgstr "<span>Uwaga: Ta oferta zawiera archiwizowane produkty</span>"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "<span>Warning: this order might be a duplicate of</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -1211,6 +1267,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>Uwaga: To zamówienie może być duplikatem</span>"
 
 #. module: sale
@@ -1220,6 +1278,9 @@ msgstr "<strong class=\"d-block mt-3\">Adres dostawy</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "<strong class=\"mr16\">Subtotal</strong>"
@@ -1242,6 +1303,7 @@ msgstr "<strong>Sprzedawca</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1384,8 @@ msgstr "<strong>Adres dostawy</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Signature</strong>"
 msgstr "<strong>Podpis</strong>"
 
@@ -1339,7 +1403,11 @@ msgstr "<strong>Ta oferta wygasła!</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "<strong>This quotation has been cancelled.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ta oferta została anulowana.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ta oferta została anulowana.</strong>"
 >>>>>>> upstream/18.0
@@ -1348,7 +1416,11 @@ msgstr "<strong>Ta oferta została anulowana.</strong>"
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "<strong>Your Reference</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Twoja referencja</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Twoja referencja</strong>"
 >>>>>>> upstream/18.0
@@ -1364,6 +1436,10 @@ msgstr "Potwierdzone zamówienie sprzedaży wymaga podania daty potwierdzenia."
 msgid "A line on these orders missing a product, you cannot confirm it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Brakuje produktu w pozycji w tych zamówieniach, nie możesz ich potwierdzić."
+>>>>>>> upstream/18.0
 =======
 "Brakuje produktu w pozycji w tych zamówieniach, nie możesz ich potwierdzić."
 >>>>>>> upstream/18.0
@@ -1382,6 +1458,11 @@ msgid ""
 "combo items."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pozycja zestawu w zamówieniu sprzedaży musi znajdować się wśród dostępnych "
+"pozycji zestawów powiązanych z danym zamówieniem."
+>>>>>>> upstream/18.0
 =======
 "Pozycja zestawu w zamówieniu sprzedaży musi znajdować się wśród dostępnych "
 "pozycji zestawów powiązanych z danym zamówieniem."
@@ -1393,6 +1474,11 @@ msgstr ""
 msgid "A sale order line's product must match its combo item's product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Produkt w wierszu zamówienia sprzedaży musi odpowiadać produktowi pozycji "
+"zestawu."
+>>>>>>> upstream/18.0
 =======
 "Produkt w wierszu zamówienia sprzedaży musi odpowiadać produktowi pozycji "
 "zestawu."
@@ -1530,6 +1616,11 @@ msgid ""
 "                (e.g. \"Delivery scheduling\", \"Order Payment Follow-up\", ...)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plany działań służą do przypisania listy działań za pomocą kilku kliknięć\n"
+"                (np. \"Planowanie dostawy\", \"Wiadomość po opłaceniu zamówienia\" , ...)"
+>>>>>>> upstream/18.0
 =======
 "Plany działań służą do przypisania listy działań za pomocą kilku kliknięć\n"
 "                (np. \"Planowanie dostawy\", \"Wiadomość po opłaceniu zamówienia\" , ...)"
@@ -1560,7 +1651,11 @@ msgstr "Dodaj sekcję"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj notatkę"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj notatkę"
 >>>>>>> upstream/18.0
@@ -1586,7 +1681,11 @@ msgstr "Dodaj produkt"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj sekcję"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj sekcję"
 >>>>>>> upstream/18.0
@@ -1725,7 +1824,11 @@ msgstr "Czy na pewno chcesz anulować"
 #: model_terms:ir.ui.view,arch_db:sale.mass_cancel_orders_view_form
 msgid "Are you sure you want to cancel the selected item?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Czy na pewno chcesz anulować wybraną pozycję?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy na pewno chcesz anulować wybraną pozycję?"
 >>>>>>> upstream/18.0
@@ -1814,7 +1917,11 @@ msgstr "Na podstawie odniesienie do dokumentu"
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Beat competitors with stunning quotations!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokonaj konkurencję zachwycającymi ofertami!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokonaj konkurencję zachwycającymi ofertami!"
 >>>>>>> upstream/18.0
@@ -1838,6 +1945,11 @@ msgid ""
 "customer portal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zwiększ sprzedaż z pomocą online płatności lub podpisów, upsellingu i "
+"portalu klienta."
+>>>>>>> upstream/18.0
 =======
 "Zwiększ sprzedaż z pomocą online płatności lub podpisów, upsellingu i "
 "portalu klienta."
@@ -1861,7 +1973,11 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Build your first quotation right here!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz swoją pierwszą ofertę tutaj!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz swoją pierwszą ofertę tutaj!"
 >>>>>>> upstream/18.0
@@ -1870,7 +1986,11 @@ msgstr "Stwórz swoją pierwszą ofertę tutaj!"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By paying a <u>down payment</u> of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płacąc <u>zaliczkę</u> w wysokości"
+>>>>>>> upstream/18.0
 =======
 msgstr "Płacąc <u>zaliczkę</u> w wysokości"
 >>>>>>> upstream/18.0
@@ -1879,7 +1999,11 @@ msgstr "Płacąc <u>zaliczkę</u> w wysokości"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By paying,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płacąc, "
+>>>>>>> upstream/18.0
 =======
 msgstr "Płacąc, "
 >>>>>>> upstream/18.0
@@ -1888,7 +2012,11 @@ msgstr "Płacąc, "
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By signing, you confirm acceptance on behalf of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płacąc, potwierdzasz akceptację w imieniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Płacąc, potwierdzasz akceptację w imieniu"
 >>>>>>> upstream/18.0
@@ -2007,7 +2135,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:sale.action_quotations_with_onboarding
 msgid "Check a sample. It's clean!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprawdź przykładową ofertę. Jest taka przejrzysta!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprawdź przykładową ofertę. Jest taka przejrzysta!"
 >>>>>>> upstream/18.0
@@ -2203,7 +2335,11 @@ msgstr "Data utworzenia"
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz wersje roboczą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz wersje roboczą"
 >>>>>>> upstream/18.0
@@ -2223,7 +2359,11 @@ msgstr "Utwórz faktury"
 #: model_terms:ir.actions.act_window,help:sale.mail_activity_plan_action_sale_order
 msgid "Create a Sale Order Activity Plan"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz plan aktywności zamówienia sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz plan aktywności zamówienia sprzedaży"
 >>>>>>> upstream/18.0
@@ -2250,7 +2390,11 @@ msgstr "Utwórz nową ofertę, to pierwszy krok do nowej sprzedaży!"
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Create invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórz fakturę (faktury)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórz fakturę (faktury)"
 >>>>>>> upstream/18.0
@@ -2473,6 +2617,12 @@ msgid ""
 "the customer. The default can be changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Domyślny okres podczas którego oferta jest ważna i może być zaakceptowana "
+"przez klienta. Ten czas może być zmieniony w zależności od zamówienia lub "
+"szablonu."
+>>>>>>> upstream/18.0
 =======
 "Domyślny okres podczas którego oferta jest ważna i może być zaakceptowana "
 "przez klienta. Ten czas może być zmieniony w zależności od zamówienia lub "
@@ -2589,6 +2739,10 @@ msgstr "Zniżka %(percent)s%%"
 msgid "Discount %(percent)s%%- On products with the following taxes %(taxes)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Rabat: %(percent)s%%-  Na produkty z następującymi podatkami %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 "Rabat: %(percent)s%%-  Na produkty z następującymi podatkami %(taxes)s"
 >>>>>>> upstream/18.0
@@ -2628,7 +2782,11 @@ msgstr "Upust na pozycjach"
 #: code:addons/sale/wizard/sale_order_discount.py:0
 msgid "Discount- On products with the following taxes %(taxes)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rabat - Na produkty z następującymi podatkami: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rabat - Na produkty z następującymi podatkami: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -2763,7 +2921,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_product_category__property_account_downpayment_categ_id
 msgid "Downpayment Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konto do wpłaty zaliczki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konto do wpłaty zaliczki"
 >>>>>>> upstream/18.0
@@ -2784,7 +2946,11 @@ msgstr "Zduplikowane dokumenty"
 #: model:ir.model.fields,field_description:sale.field_sale_order__duplicated_order_ids
 msgid "Duplicated Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Duplikat zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duplikat zamówienia"
 >>>>>>> upstream/18.0
@@ -2821,7 +2987,10 @@ msgstr "E-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2854,6 +3023,9 @@ msgstr "Kreator email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2890,6 +3062,11 @@ msgid ""
 "Error importing attachment '%(file_name)s' as order (decoder=%(decoder)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Błąd podczas importu załącznika \"%(file_name)s\" jako zamówienie "
+"(dekoder=%(decoder)s)"
+>>>>>>> upstream/18.0
 =======
 "Błąd podczas importu załącznika \"%(file_name)s\" jako zamówienie "
 "(dekoder=%(decoder)s)"
@@ -3038,7 +3215,11 @@ msgstr "Wygeneruj automatycznie fakturę gdy płatność online jest potwierdzon
 #: code:addons/sale/models/sale_order.py:0
 msgid "Generated Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wygenerowane zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wygenerowane zamówienia"
 >>>>>>> upstream/18.0
@@ -3058,7 +3239,11 @@ msgstr "Globalny rabat"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Go ahead and send the quotation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij ofertę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prześlij ofertę."
 >>>>>>> upstream/18.0
@@ -3098,7 +3283,11 @@ msgstr "Posiada aktywny cennik"
 #: model:ir.model.fields,field_description:sale.field_sale_order__has_archived_products
 msgid "Has Archived Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ma zarchiwizowane produkty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ma zarchiwizowane produkty"
 >>>>>>> upstream/18.0
@@ -3346,7 +3535,11 @@ msgstr "Ilość zafakturowana"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_invoiced_posted
 msgid "Invoiced Quantity (posted)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zafakturowana ilość (wysłana)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zafakturowana ilość (wysłana)"
 >>>>>>> upstream/18.0
@@ -3440,7 +3633,11 @@ msgstr "Jest obserwatorem"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_product_archived
 msgid "Is Product Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produkt archiwowany"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produkt archiwowany"
 >>>>>>> upstream/18.0
@@ -3472,7 +3669,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "Issued Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data wystawienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data wystawienia"
 >>>>>>> upstream/18.0
@@ -3549,7 +3750,11 @@ msgstr "Pozwól klientom zalogować się, aby mogli zajrzeć do swoich dokument�
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Let’s create a beautiful quotation in a few clicks ."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stwórzmy piękną ofertę w kilka kliknięć."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stwórzmy piękną ofertę w kilka kliknięć."
 >>>>>>> upstream/18.0
@@ -3563,7 +3768,11 @@ msgstr "Powiązane pozycje zamówienia"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_line_ids
 msgid "Linked Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Powiązane pozycje zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Powiązane pozycje zamówienia"
 >>>>>>> upstream/18.0
@@ -3572,7 +3781,11 @@ msgstr "Powiązane pozycje zamówienia"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__linked_virtual_id
 msgid "Linked Virtual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Powiązane wirtualne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Powiązane wirtualne"
 >>>>>>> upstream/18.0
@@ -3617,6 +3830,11 @@ msgstr ""
 msgid "Manage Promotions, Coupons, Loyalty cards, Gift cards & eWallet"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zarządzaj promocjami, Kuponami, Programami Lojalnościowymi, Kartami "
+"Podarunkowymi i ePortfelem"
+>>>>>>> upstream/18.0
 =======
 "Zarządzaj promocjami, Kuponami, Programami Lojalnościowymi, Kartami "
 "Podarunkowymi i ePortfelem"
@@ -3626,7 +3844,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Manage Sales & teams targets and commissions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj sprzedażą oraz celami i prowizjami zespołu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj sprzedażą oraz celami i prowizjami zespołu"
 >>>>>>> upstream/18.0
@@ -3887,7 +4109,11 @@ msgstr "Na wszystkich liniach zamówień"
 #: model:ir.model.fields.selection,name:sale.selection__product_document__attached_on_sale__sale_order
 msgid "On confirmed order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na potwierdzonym zamówieniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na potwierdzonym zamówieniu"
 >>>>>>> upstream/18.0
@@ -3896,7 +4122,11 @@ msgstr "Na potwierdzonym zamówieniu"
 #: model:ir.model.fields.selection,name:sale.selection__product_document__attached_on_sale__quotation
 msgid "On quote"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na ofercie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na ofercie"
 >>>>>>> upstream/18.0
@@ -4264,7 +4494,11 @@ msgstr "Transakcje płatności"
 #: model:ir.model.fields,field_description:sale.field_sale_order__amount_paid
 msgid "Payment Transactions Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kwota transakcji płatniczej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kwota transakcji płatniczej"
 >>>>>>> upstream/18.0
@@ -4482,7 +4716,11 @@ msgstr "Produkty"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Promotions, Loyalty & Gift Card"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promocje, Programy lojalnościowe i Karta podarunkowa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promocje, Programy lojalnościowe i Karta podarunkowa"
 >>>>>>> upstream/18.0
@@ -4587,7 +4825,11 @@ msgstr "Ważność oferty jest wymagana i musi być większa lub równa 0."
 #: model:mail.message.subtype,name:sale.mt_salesteam_order_viewed
 msgid "Quotation Viewed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oferta obejrzana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oferta obejrzana"
 >>>>>>> upstream/18.0
@@ -4656,7 +4898,11 @@ msgstr "Oceny"
 #: model:ir.model.fields,field_description:sale.field_product_template__expense_policy
 msgid "Re-Invoice Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znowu fakturuj koszty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Znowu fakturuj koszty"
 >>>>>>> upstream/18.0
@@ -4742,6 +4988,12 @@ msgid ""
 "can be changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wymagaj pełnej (100%) lub częściowej płatności, aby potwierdzić zamówienia. "
+"Domyślne ustawienie może być zmienione w zależności od zamówienia lub "
+"szablonu."
+>>>>>>> upstream/18.0
 =======
 "Wymagaj pełnej (100%) lub częściowej płatności, aby potwierdzić zamówienia. "
 "Domyślne ustawienie może być zmienione w zależności od zamówienia lub "
@@ -4755,6 +5007,12 @@ msgid ""
 "changed per order or template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wymagaj, aby klienci podpisywali oferty, aby potwierdzić zamówienie. "
+"Domyślne ustawienie może być zmienione w zależności od zamówienia lub "
+"szablonu."
+>>>>>>> upstream/18.0
 =======
 "Wymagaj, aby klienci podpisywali oferty, aby potwierdzić zamówienie. "
 "Domyślne ustawienie może być zmienione w zależności od zamówienia lub "
@@ -4777,6 +5035,11 @@ msgstr "Użytkownik odpowiedzialny"
 msgid "Revenue Target for the current month (untaxed total of paid invoices)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Docelowy przychód w bieżącym miesiącu (nieopodatkowana suma opłaconych "
+"faktur)."
+>>>>>>> upstream/18.0
 =======
 "Docelowy przychód w bieżącym miesiącu (nieopodatkowana suma opłaconych "
 "faktur)."
@@ -4813,7 +5076,11 @@ msgstr "Sprzedaż"
 #: model:ir.model.fields,field_description:sale.field_product_document__attached_on_sale
 msgid "Sale : Visible at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprzedaż: Widoczne na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprzedaż: Widoczne na"
 >>>>>>> upstream/18.0
@@ -4918,7 +5185,11 @@ msgstr "Analiza sprzedaży według klientów"
 #: model:ir.actions.act_window,name:sale.action_order_report_products
 msgid "Sales Analysis By Products"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analiza sprzedaży według produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiza sprzedaży według produktu"
 >>>>>>> upstream/18.0
@@ -5114,7 +5385,10 @@ msgstr "Sprzedawcy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5147,6 +5421,9 @@ msgstr "Zaplanowana Wiadomość"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5176,7 +5453,11 @@ msgstr "Przeszukaj zamówienia sprzedaży"
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "Search a customer name, or create one on the fly."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wyszukaj nazwę klienta, lub stwórz nowego."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wyszukaj nazwę klienta, lub stwórz nowego."
 >>>>>>> upstream/18.0
@@ -5206,7 +5487,11 @@ msgstr "Wybierz produkt, lub utwórz nowy na bieżąco"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__selected_combo_items
 msgid "Selected Combo Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybrane elementy zestawu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybrane elementy zestawu"
 >>>>>>> upstream/18.0
@@ -5414,6 +5699,11 @@ msgid ""
 "                        affected by the cancellation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wybrane są niektóre potwierdzone zamówienia. Anulowanie ich może mieć wpływ\n"
+"                       na niektóre z powiązanych dokumentów."
+>>>>>>> upstream/18.0
 =======
 "Wybrane są niektóre potwierdzone zamówienia. Anulowanie ich może mieć wpływ\n"
 "                       na niektóre z powiązanych dokumentów."
@@ -5424,7 +5714,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 msgid "Some orders are not in a state requiring confirmation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niektóre zamówienia nie są w stanie wymagającym potwierdzenia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Niektóre zamówienia nie są w stanie wymagającym potwierdzenia."
 >>>>>>> upstream/18.0
@@ -5510,6 +5804,11 @@ msgid ""
 "state 'done' or 'authorized' and linked to this order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Suma transakcji wykonanych przez formularz płatności online, które są w "
+"stanie \"gotowe\" lub \"autoryzowane\" i są powiązane z tym zamówieniem."
+>>>>>>> upstream/18.0
 =======
 "Suma transakcji wykonanych przez formularz płatności online, które są w "
 "stanie \"gotowe\" lub \"autoryzowane\" i są powiązane z tym zamówieniem."
@@ -5584,7 +5883,11 @@ msgstr "Podatki"
 #: model:ir.model.fields,help:sale.field_sale_order_discount__tax_ids
 msgid "Taxes to add on the discount line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podatki do dodania do pozycji rabatowej."
+>>>>>>> upstream/18.0
 =======
 msgstr "Podatki do dodania do pozycji rabatowej."
 >>>>>>> upstream/18.0
@@ -5597,6 +5900,11 @@ msgid ""
 "cancelling them or archiving the team instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zespół %(team_name)s ma %(sale_order_count)s aktywne zamówienia sprzedaży. "
+"Rozważ ich anulowanie lub zarchiwizowanie zespołu."
+>>>>>>> upstream/18.0
 =======
 "Zespół %(team_name)s ma %(sale_order_count)s aktywne zamówienia sprzedaży. "
 "Rozważ ich anulowanie lub zarchiwizowanie zespołu."
@@ -5606,7 +5914,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__technical_price_unit
 msgid "Technical Price Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednostka ceny technicznej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednostka ceny technicznej"
 >>>>>>> upstream/18.0
@@ -5663,6 +5975,11 @@ msgid ""
 " an expense on a cancelled Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamówienie Sprzedaży %(order)s do zafakturowania jest anulowane. Nie możesz "
+"dodać wydatku na anulowanym Zamówieniu Sprzedaży"
+>>>>>>> upstream/18.0
 =======
 "Zamówienie Sprzedaży %(order)s do zafakturowania jest anulowane. Nie możesz "
 "dodać wydatku na anulowanym Zamówieniu Sprzedaży"
@@ -5676,6 +5993,11 @@ msgid ""
 "register an expense on a locked Sales Order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamówienie Sprzedaży %(order)s do zafakturowania jest aktualnie zablokowane."
+" Nie możesz dodać wydatku na zablokowanym Zamówieniu Sprzedaży."
+>>>>>>> upstream/18.0
 =======
 "Zamówienie Sprzedaży %(order)s do zafakturowania jest aktualnie zablokowane."
 " Nie możesz dodać wydatku na zablokowanym Zamówieniu Sprzedaży."
@@ -5689,6 +6011,11 @@ msgid ""
 "registering expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamówienie Sprzedaży %(order)s do ponownego zafakturowania musi być "
+"zweryfikowane przed zarejestrowaniem wydatków."
+>>>>>>> upstream/18.0
 =======
 "Zamówienie Sprzedaży %(order)s do ponownego zafakturowania musi być "
 "zweryfikowane przed zarejestrowaniem wydatków."
@@ -5715,6 +6042,11 @@ msgid ""
 "to the sale order."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Firma jest wymagana. Wybierz ją przed wykonaniem jakichkolwiek zmian w "
+"zamówienia sprzedaży."
+>>>>>>> upstream/18.0
 =======
 "Firma jest wymagana. Wybierz ją przed wykonaniem jakichkolwiek zmian w "
 "zamówienia sprzedaży."
@@ -5781,6 +6113,11 @@ msgid ""
 "choices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Liczba wybranych pozycji zestawu musi pasować do liczby dostępnych opcji "
+"zestawu."
+>>>>>>> upstream/18.0
 =======
 "Liczba wybranych pozycji zestawu musi pasować do liczby dostępnych opcji "
 "zestawu."
@@ -5875,6 +6212,12 @@ msgid ""
 "grant the discount the first time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wygląda na to, że nie ma jeszcze żadnego przecenionego produktu "
+"skonfigurowanego dla tej firmy. Możesz usunąć zniżkę według pozycji, lub "
+"poprosić administratora o przydzielenie zniżki po raz pierwszy."
+>>>>>>> upstream/18.0
 =======
 "Wygląda na to, że nie ma jeszcze żadnego przecenionego produktu "
 "skonfigurowanego dla tej firmy. Możesz usunąć zniżkę według pozycji, lub "
@@ -5885,7 +6228,11 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_product_category__property_account_downpayment_categ_id
 msgid "This account will be used on Downpayment invoices."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To konto zostanie wykorzystane do faktur zaliczkowych."
+>>>>>>> upstream/18.0
 =======
 msgstr "To konto zostanie wykorzystane do faktur zaliczkowych."
 >>>>>>> upstream/18.0
@@ -6106,7 +6453,10 @@ msgstr "Transakcje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6121,6 +6471,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6173,7 +6526,11 @@ msgstr "Kampania UTM"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__amount_to_invoice
 msgid "Un-invoiced Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niezafakturowane saldo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niezafakturowane saldo"
 >>>>>>> upstream/18.0
@@ -6295,6 +6652,12 @@ msgid ""
 "can be invoiced to the customer at either cost or sales price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zatwierdzone wydatki, rachunki od dostawców lub kompletacje magazynowe "
+"(skonfigurowane do śledzenia kosztów) mogą być ponownie fakturowane na "
+"klienta po koszcie lub cenie sprzedaży."
+>>>>>>> upstream/18.0
 =======
 "Zatwierdzone wydatki, rachunki od dostawców lub kompletacje magazynowe "
 "(skonfigurowane do śledzenia kosztów) mogą być ponownie fakturowane na "
@@ -6308,6 +6671,11 @@ msgid ""
 "quotation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ważność zamówienia, po tym czasie nie będziesz mieć możliwości podpisania i "
+"zapłacenia za ofertę."
+>>>>>>> upstream/18.0
 =======
 "Ważność zamówienia, po tym czasie nie będziesz mieć możliwości podpisania i "
 "zapłacenia za ofertę."
@@ -6336,12 +6704,15 @@ msgstr "Wyświetl szczegóły"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Zobacz zamówienie"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6500,7 +6871,11 @@ msgstr ""
 #: code:addons/sale/models/sale_order_line.py:0
 msgid "You cannot modify the product of this order line."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie możesz modyfikować produktu tego wiersza zamówienia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie możesz modyfikować produktu tego wiersza zamówienia."
 >>>>>>> upstream/18.0
@@ -6539,7 +6914,11 @@ msgstr "Twój odnośnik:"
 #: code:addons/sale/static/src/js/sale_action_helper/sale_action_helper_dialog.xml:0
 msgid "Your browser does not support iframe."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twoja przeglądarka nie obsługuje iframe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Twoja przeglądarka nie obsługuje iframe."
 >>>>>>> upstream/18.0
@@ -6586,7 +6965,11 @@ msgstr ""
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "add the price of your product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "dodaj cenę produktu."
+>>>>>>> upstream/18.0
 =======
 msgstr "dodaj cenę produktu."
 >>>>>>> upstream/18.0
@@ -6627,7 +7010,11 @@ msgstr "dla tego Zamówienia sprzedaży."
 #: code:addons/sale/static/src/js/tours/sale.js:0
 msgid "let's continue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kontynuujmy"
+>>>>>>> upstream/18.0
 =======
 msgstr "kontynuujmy"
 >>>>>>> upstream/18.0
@@ -6636,7 +7023,11 @@ msgstr "kontynuujmy"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "oferty."
+>>>>>>> upstream/18.0
 =======
 msgstr "oferty."
 >>>>>>> upstream/18.0
@@ -6654,6 +7045,11 @@ msgid ""
 "                    items?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"wybrane\n"
+"                    elementy?"
+>>>>>>> upstream/18.0
 =======
 "wybrane\n"
 "                    elementy?"

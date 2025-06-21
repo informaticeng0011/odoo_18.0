@@ -32,8 +32,13 @@ import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 import { createSpreadsheetWithPivot } from "@spreadsheet/../tests/helpers/pivot";
 import { CommandResult } from "@spreadsheet/o_spreadsheet/cancelled_reason";
 
+<<<<<<< HEAD
 import { user } from "@web/core/user";
 import { localization } from "@web/core/l10n/localization";
+=======
+import { localization } from "@web/core/l10n/localization";
+import { user } from "@web/core/user";
+>>>>>>> upstream/18.0
 
 import { Model } from "@odoo/o-spreadsheet";
 import { THIS_YEAR_GLOBAL_FILTER } from "@spreadsheet/../tests/helpers/global_filter";
@@ -44,6 +49,10 @@ import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Partner, Product } from "../../helpers/data";
+>>>>>>> upstream/18.0
 =======
 import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
@@ -648,7 +657,11 @@ test("display loading while data is not fully available", async function () {
             },
         },
     };
+<<<<<<< HEAD
     onRpc(async ({ kwargs, model, method, parent }) => {
+=======
+    onRpc(async ({ kwargs, model, method }) => {
+>>>>>>> upstream/18.0
         if (model === "partner" && method === "fields_get") {
             expect.step(`${model}/${method}`);
             await metadataPromise;
@@ -660,7 +673,10 @@ test("display loading while data is not fully available", async function () {
         if (model === "product" && method === "read") {
             throw new Error("should not be called because data is put in cache");
         }
+<<<<<<< HEAD
         return parent();
+=======
+>>>>>>> upstream/18.0
     });
     const model = await createModelWithDataSource({ spreadsheetData });
     expect(getCellValue(model, "A1")).toBe("Loading...");
@@ -2106,7 +2122,10 @@ test("Can change display type of a measure", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2166,12 +2185,15 @@ test("can group by property", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("date are between two years are correctly grouped by weeks", async () => {
     const serverData = getBasicServerData();
@@ -2284,4 +2306,7 @@ test("date are between two years are correctly grouped by weeks and days", async
             B5: "11",           C5: "12",           D5: "13",          E5: "14",
         })
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

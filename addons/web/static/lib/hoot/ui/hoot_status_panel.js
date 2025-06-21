@@ -1,6 +1,7 @@
 /** @odoo-module */
 
 import { Component, onWillRender, useEffect, useRef, useState, xml } from "@odoo/owl";
+<<<<<<< HEAD
 import { Test } from "../core/test";
 import { formatTime } from "../hoot_utils";
 import { getTitle, setTitle } from "../mock/window";
@@ -8,6 +9,18 @@ import { getColors, onColorSchemeChange } from "./hoot_colors";
 import { HootTestPath } from "./hoot_test_path";
 
 /**
+=======
+import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
+import { Test } from "../core/test";
+import { formatTime } from "../hoot_utils";
+import { getTitle, setTitle } from "../mock/window";
+import { onColorSchemeChange } from "./hoot_colors";
+import { HootTestPath } from "./hoot_test_path";
+
+/**
+ * @typedef {import("../core/runner").Runner} Runner
+ *
+>>>>>>> upstream/18.0
  * @typedef {{
  * }} HootStatusPanelProps
  */
@@ -32,14 +45,35 @@ const $now = performance.now.bind(performance);
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
  * @param {number} min
  * @param {number} max
  */
 const randInt = (min, max) => $floor($random() * (max - min + 1)) + min;
+=======
+ * @param {HTMLCanvasElement | null} canvas
+ */
+function setupCanvas(canvas) {
+    if (!canvas) {
+        return;
+    }
+    [canvas.width, canvas.height] = [canvas.clientWidth, canvas.clientHeight];
+    canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
+}
+
+/**
+ * @param {number} min
+ * @param {number} max
+ */
+function randInt(min, max) {
+    return $floor($random() * (max - min + 1)) + min;
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} content
  */
+<<<<<<< HEAD
 const spawnIncentive = (content) => {
     const incentive = document.createElement("div");
     const params = [
@@ -47,6 +81,15 @@ const spawnIncentive = (content) => {
         `--_fly-duration: ${randInt(2_000, 3_000)}`,
         `--_size: ${randInt(32, 48)}`,
         `--_wiggle-duration: ${randInt(800, 2_000)}`,
+=======
+function spawnIncentive(content) {
+    const incentive = document.createElement("div");
+    const params = [
+        `--_content: '${content}'`,
+        `--_fly-duration: ${randInt(2000, 3000)}`,
+        `--_size: ${randInt(32, 48)}`,
+        `--_wiggle-duration: ${randInt(800, 2000)}`,
+>>>>>>> upstream/18.0
         `--_wiggle-range: ${randInt(5, 30)}`,
         `--_x: ${randInt(0, 100)}`,
         `--_y: ${randInt(100, 150)}`,
@@ -55,17 +98,31 @@ const spawnIncentive = (content) => {
     incentive.setAttribute("style", params.join(";"));
 
     /** @param {AnimationEvent} ev */
+<<<<<<< HEAD
     const onEnd = (ev) => ev.animationName === "animation-incentive-travel" && incentive.remove();
+=======
+    function onEnd(ev) {
+        return ev.animationName === "animation-incentive-travel" && incentive.remove();
+    }
+>>>>>>> upstream/18.0
     incentive.addEventListener("animationend", onEnd);
     incentive.addEventListener("animationcancel", onEnd);
 
     document.querySelector("hoot-container").shadowRoot.appendChild(incentive);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {boolean} failed
  */
+<<<<<<< HEAD
 const updateTitle = (failed) => {
+=======
+function updateTitle(failed) {
+>>>>>>> upstream/18.0
     const toAdd = failed ? TITLE_PREFIX.fail : TITLE_PREFIX.pass;
     let title = getTitle();
     if (title.startsWith(toAdd)) {
@@ -78,7 +135,11 @@ const updateTitle = (failed) => {
         }
     }
     setTitle(`${toAdd} ${title}`);
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 
 const TIMER_PRECISION = 100; // in ms
 const TITLE_PREFIX = {
@@ -205,6 +266,7 @@ export class HootStatusPanel extends Component {
         <canvas t-ref="progress-canvas" class="flex h-1 w-full" />
     `;
 
+<<<<<<< HEAD
     formatTime = formatTime;
 
     setup() {
@@ -227,6 +289,13 @@ export class HootStatusPanel extends Component {
             this.state.timer = 0;
         };
 
+=======
+    currentTestStart;
+    formatTime = formatTime;
+    intervalId = 0;
+
+    setup() {
+>>>>>>> upstream/18.0
         const { runner, ui } = this.env;
         this.canvasRef = useRef("progress-canvas");
         this.runnerReporting = useState(runner.reporting);
@@ -238,6 +307,7 @@ export class HootStatusPanel extends Component {
         this.uiState = useState(ui);
         this.progressBarIndex = 0;
 
+<<<<<<< HEAD
         let currentTestStart;
         let intervalId = 0;
 
@@ -281,6 +351,19 @@ export class HootStatusPanel extends Component {
             this.updateProgressBar();
         });
         onWillRender(() => this.updateProgressBar());
+=======
+        runner.beforeAll(this.globalSetup.bind(this));
+        runner.afterAll(this.globalCleanup.bind(this));
+        if (!runner.config.headless) {
+            runner.beforeEach(this.startTimer.bind(this));
+            runner.afterPostTest(this.stopTimer.bind(this));
+        }
+
+        useEffect(setupCanvas, () => [this.canvasRef.el]);
+
+        onColorSchemeChange(this.onColorSchemeChange.bind(this));
+        onWillRender(this.updateProgressBar.bind(this));
+>>>>>>> upstream/18.0
     }
 
     /**
@@ -300,14 +383,73 @@ export class HootStatusPanel extends Component {
         return $max($floor((totalResults - 1) / resultsPerPage), 0);
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @param {Runner} runner
+     */
+    globalCleanup(runner) {
+        if (!runner.config.headless) {
+            this.stopTimer();
+        }
+        updateTitle(this.runnerReporting.failed > 0);
+
+        if (runner.config.fun) {
+            for (let i = 0; i < this.runnerReporting.failed; i++) {
+                spawnIncentive("😭");
+            }
+            for (let i = 0; i < this.runnerReporting.passed; i++) {
+                spawnIncentive("🦉");
+            }
+        }
+    }
+
+    /**
+     * @param {Runner} runner
+     */
+    globalSetup(runner) {
+        this.state.debug = runner.debug;
+    }
+
+>>>>>>> upstream/18.0
     nextPage() {
         this.uiState.resultsPage = $min(this.uiState.resultsPage + 1, this.getLastPage());
     }
 
+<<<<<<< HEAD
+=======
+    onColorSchemeChange() {
+        this.progressBarIndex = 0;
+        this.updateProgressBar();
+    }
+
+>>>>>>> upstream/18.0
     previousPage() {
         this.uiState.resultsPage = $max(this.uiState.resultsPage - 1, 0);
     }
 
+<<<<<<< HEAD
+=======
+    startTimer() {
+        this.stopTimer();
+
+        this.currentTestStart = $now();
+        this.intervalId = setInterval(() => {
+            this.state.timer =
+                $floor(($now() - this.currentTestStart) / TIMER_PRECISION) * TIMER_PRECISION;
+        }, TIMER_PRECISION);
+    }
+
+    stopTimer() {
+        if (this.intervalId) {
+            clearInterval(this.intervalId);
+            this.intervalId = 0;
+        }
+
+        this.state.timer = 0;
+    }
+
+>>>>>>> upstream/18.0
     updateProgressBar() {
         const canvas = this.canvasRef.el;
         if (!canvas) {
@@ -320,13 +462,17 @@ export class HootStatusPanel extends Component {
         const doneList = [...done];
         const cellSize = width / tests.length;
         const minSize = $ceil(cellSize);
+<<<<<<< HEAD
         const colors = getColors();
+=======
+>>>>>>> upstream/18.0
 
         while (this.progressBarIndex < done.size) {
             const test = doneList[this.progressBarIndex];
             const x = $floor(this.progressBarIndex * cellSize);
             switch (test.status) {
                 case Test.ABORTED:
+<<<<<<< HEAD
                     ctx.fillStyle = colors.amber;
                     break;
                 case Test.FAILED:
@@ -337,6 +483,20 @@ export class HootStatusPanel extends Component {
                     break;
                 case Test.SKIPPED:
                     ctx.fillStyle = colors.cyan;
+=======
+                    ctx.fillStyle = getColorHex("amber");
+                    break;
+                case Test.FAILED:
+                    ctx.fillStyle = getColorHex("rose");
+                    break;
+                case Test.PASSED:
+                    ctx.fillStyle = test.config.todo
+                        ? getColorHex("purple")
+                        : getColorHex("emerald");
+                    break;
+                case Test.SKIPPED:
+                    ctx.fillStyle = getColorHex("cyan");
+>>>>>>> upstream/18.0
                     break;
             }
             ctx.fillRect(x, 0, minSize, height);

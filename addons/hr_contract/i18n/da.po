@@ -15,6 +15,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -50,7 +54,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
@@ -88,7 +96,11 @@ msgstr "# Kontrakter"
 #: model:ir.model.fields,field_description:hr_contract.field_resource_calendar__contracts_count
 msgid "# Contracts using it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Kontrakter, der anvender den"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Kontrakter, der anvender den"
 >>>>>>> upstream/18.0
@@ -98,7 +110,11 @@ msgstr "# Kontrakter, der anvender den"
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%ss kontrakthistorik"
+>>>>>>> upstream/18.0
 =======
 msgstr "%ss kontrakthistorik"
 >>>>>>> upstream/18.0
@@ -116,6 +132,12 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
+"                                    Ansat siden\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
 "                                    Ansat siden\n"
@@ -129,6 +151,11 @@ msgid ""
 "title=\"In Contract Since\"> In Contract Since</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
+"title=\"In Contract Since\"> Ansat siden</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
 "title=\"In Contract Since\"> Ansat siden</span>"
@@ -145,13 +172,19 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Kontrakt\n"
 "                                </span>\n"
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Kontrakter\n"
 "                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -178,6 +211,11 @@ msgid ""
 "been put in red on the %s. Please advise and correct."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"På baggrund af medarbejderens arbejdstilladelses udløbsdato er denne "
+"kontrakt markeret med rødt i %s. Kom gerne med rettelser og input."
+>>>>>>> upstream/18.0
 =======
 "På baggrund af medarbejderens arbejdstilladelses udløbsdato er denne "
 "kontrakt markeret med rødt i %s. Kom gerne med rettelser og input."
@@ -191,6 +229,11 @@ msgid ""
 "the %s. Please advise and correct."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"På baggrund af kontraktens udløbsdato er denne kontrakt markeret med rødt i "
+"%s. Kom gerne med rettelser og input."
+>>>>>>> upstream/18.0
 =======
 "På baggrund af kontraktens udløbsdato er denne kontrakt markeret med rødt i "
 "%s. Kom gerne med rettelser og input."
@@ -216,7 +259,11 @@ msgstr "Aktiv Medarbejder"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Active Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktive medarbejdere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktive medarbejdere"
 >>>>>>> upstream/18.0
@@ -252,7 +299,11 @@ msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til aktivitetsplanlægning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistent til aktivitetsplanlægning"
 >>>>>>> upstream/18.0
@@ -289,6 +340,12 @@ msgid ""
 "Employee: %(employee_name)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"En medarbejder kan kun have én kontrakt ad gangen (gælder ikke for udkast og annullerede kontrakter).\n"
+"\n"
+"Medarbejder: %(employee_name)s"
+>>>>>>> upstream/18.0
 =======
 "En medarbejder kan kun have én kontrakt ad gangen (gælder ikke for udkast og annullerede kontrakter).\n"
 "\n"
@@ -330,6 +387,11 @@ msgid ""
 "calendar. This could lead to unexpected behaviors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uoverensstemmelse i kalender: Medarbejderens kalender stemmer ikke overens "
+"med kontraktens kalender. Dette kan føre til uventet adfærd."
+>>>>>>> upstream/18.0
 =======
 "Uoverensstemmelse i kalender: Medarbejderens kalender stemmer ikke overens "
 "med kontraktens kalender. Dette kan føre til uventet adfærd."
@@ -385,6 +447,11 @@ msgid ""
 "end date (%(end)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kontrakt %(contract)s: Startdatoen (%(start)s) skal angives, så den ligger "
+"før kontraktens udløb (%(end)s)."
+>>>>>>> upstream/18.0
 =======
 "Kontrakt %(contract)s: Startdatoen (%(start)s) skal angives, så den ligger "
 "før kontraktens udløb (%(end)s)."
@@ -406,7 +473,11 @@ msgstr "Kontrakt Slutdato"
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frist for meddelelse ved kontraktens udløb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Frist for meddelelse ved kontraktens udløb"
 >>>>>>> upstream/18.0
@@ -416,7 +487,11 @@ msgstr "Frist for meddelelse ved kontraktens udløb"
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__contract_expiration_notice_period
 msgid "Contract Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontraktens opsigelsesfrist"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontraktens opsigelsesfrist"
 >>>>>>> upstream/18.0
@@ -425,7 +500,11 @@ msgstr "Kontraktens opsigelsesfrist"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrakthistorik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrakthistorik"
 >>>>>>> upstream/18.0
@@ -435,7 +514,11 @@ msgstr "Kontrakthistorik"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontraktnavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontraktnavn"
 >>>>>>> upstream/18.0
@@ -461,7 +544,11 @@ msgstr "Kontrakt type"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__contract_wage
 msgid "Contract Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontraktløn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontraktløn"
 >>>>>>> upstream/18.0
@@ -486,7 +573,11 @@ msgstr "Kontrakt udløbet"
 #: model:ir.model,name:hr_contract.model_hr_contract_history
 msgid "Contract history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrakthistorik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrakthistorik"
 >>>>>>> upstream/18.0
@@ -515,7 +606,11 @@ msgstr "Kontrakter"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Contracts to Review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrakter til gennemgang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrakter til gennemgang"
 >>>>>>> upstream/18.0
@@ -524,7 +619,11 @@ msgstr "Kontrakter til gennemgang"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Contracts to review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrakter til gennemgang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrakter til gennemgang"
 >>>>>>> upstream/18.0
@@ -533,7 +632,11 @@ msgstr "Kontrakter til gennemgang"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__under_contract_state
 msgid "Contractual Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontraktstatus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontraktstatus"
 >>>>>>> upstream/18.0
@@ -588,7 +691,11 @@ msgstr "Nuværende kontrakt"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Current Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuværende kontrakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuværende kontrakter"
 >>>>>>> upstream/18.0
@@ -602,7 +709,11 @@ msgstr "Medarbejderens nuværende kontrakt"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "P.t. ansat"
+>>>>>>> upstream/18.0
 =======
 msgstr "P.t. ansat"
 >>>>>>> upstream/18.0
@@ -677,7 +788,11 @@ msgstr "Ansættelseskontrakt"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Employee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderoplysninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejderoplysninger"
 >>>>>>> upstream/18.0
@@ -686,7 +801,11 @@ msgstr "Medarbejderoplysninger"
 #: model:res.groups,name:hr_contract.group_hr_contract_employee_manager
 msgid "Employee Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderens leder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejderens leder"
 >>>>>>> upstream/18.0
@@ -768,7 +887,11 @@ msgstr "Fra"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "Fully Flexible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldt fleksibel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuldt fleksibel"
 >>>>>>> upstream/18.0
@@ -846,7 +969,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__is_under_contract
 msgid "Is Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er p.t. ansat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Er p.t. ansat"
 >>>>>>> upstream/18.0
@@ -890,7 +1017,11 @@ msgstr "Overskredet aktiviteter"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__legal_name
 msgid "Legal Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Juridiske navn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Juridiske navn"
 >>>>>>> upstream/18.0
@@ -914,7 +1045,11 @@ msgstr "Beskeder"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Monthly Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Månedlig løn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Månedlig løn"
 >>>>>>> upstream/18.0
@@ -954,7 +1089,11 @@ msgstr "Næste aktivitetstype"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "No Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen kontrakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen kontrakter"
 >>>>>>> upstream/18.0
@@ -968,7 +1107,11 @@ msgstr "Ingen data at vise"
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__blocked
 msgid "Not Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke ansat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke ansat"
 >>>>>>> upstream/18.0
@@ -990,7 +1133,11 @@ msgid ""
 "Number of days prior to the contract end date that a contract expiration "
 "warning is triggered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Advarsel vises dette antal dage før kontrakten udløber."
+>>>>>>> upstream/18.0
 =======
 msgstr "Advarsel vises dette antal dage før kontrakten udløber."
 >>>>>>> upstream/18.0
@@ -1001,7 +1148,11 @@ msgid ""
 "Number of days prior to the work permit expiration date that a warning is "
 "triggered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Advarsel vises dette antal dage før arbejdstilladelsen udløber."
+>>>>>>> upstream/18.0
 =======
 msgstr "Advarsel vises dette antal dage før arbejdstilladelsen udløber."
 >>>>>>> upstream/18.0
@@ -1030,7 +1181,11 @@ msgstr "Igangværende"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Åben kontrakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Åben kontrakt"
 >>>>>>> upstream/18.0
@@ -1060,7 +1215,11 @@ msgstr "Klar"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Reference Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reference for arbejdstid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reference for arbejdstid"
 >>>>>>> upstream/18.0
@@ -1096,7 +1255,11 @@ msgstr "Kører"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Running Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Løbende kontrakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Løbende kontrakter"
 >>>>>>> upstream/18.0
@@ -1130,7 +1293,11 @@ msgstr "Søg efter kontrakt"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Search Reference Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg referencekontrakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Søg referencekontrakter"
 >>>>>>> upstream/18.0
@@ -1144,7 +1311,11 @@ msgstr "Angiv Kontrakt Slutdato"
 #: model:ir.model.fields,help:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set the end date on the current contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv en slutdato på den nuværende kontrakt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Angiv en slutdato på den nuværende kontrakt."
 >>>>>>> upstream/18.0
@@ -1215,7 +1386,11 @@ msgid "The default working hours are set in configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardarbejdstiderne fastlægges i konfigurationen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardarbejdstiderne fastlægges i konfigurationen."
 >>>>>>> upstream/18.0
@@ -1243,7 +1418,11 @@ msgstr "Standardarbejdstiderne fastlægges i konfigurationen."
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%ss arbejdstilladelse er ved at udløbe."
+>>>>>>> upstream/18.0
 =======
 msgstr "%ss arbejdstilladelse er ved at udløbe."
 >>>>>>> upstream/18.0
@@ -1267,7 +1446,11 @@ msgstr "Dagens aktiviteter"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Type in notes about this contract..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skriv bemærkninger til kontrakten …"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skriv bemærkninger til kontrakten …"
 >>>>>>> upstream/18.0
@@ -1281,7 +1464,11 @@ msgstr "Type af undtagelsesaktivitet registreret "
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__done
 msgid "Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ansat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ansat"
 >>>>>>> upstream/18.0
@@ -1321,7 +1508,11 @@ msgstr "Hjemmesidens kommunikations historik"
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Work Permit Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Frist for meddelelse ved arbejdstilladelsens udløb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Frist for meddelelse ved arbejdstilladelsens udløb"
 >>>>>>> upstream/18.0
@@ -1331,7 +1522,11 @@ msgstr "Frist for meddelelse ved arbejdstilladelsens udløb"
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
 msgid "Work Permit Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdstilladelsens opsigelsesfrist"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arbejdstilladelsens opsigelsesfrist"
 >>>>>>> upstream/18.0
@@ -1353,7 +1548,11 @@ msgstr "Arbejdsplan"
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke slette en medarbejder, der er under kontrakt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke slette en medarbejder, der er under kontrakt."
 >>>>>>> upstream/18.0

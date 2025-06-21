@@ -165,7 +165,11 @@ class User(models.Model):
             sync_status = self._get_microsoft_sync_status()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sync_status == 'sync_active' and not self.microsoft_calendar_token:
+=======
+            if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
+>>>>>>> upstream/18.0
 =======
             if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
 >>>>>>> upstream/18.0

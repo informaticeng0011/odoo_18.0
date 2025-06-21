@@ -255,7 +255,11 @@ class ChannelMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing}))
+=======
+            member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing, "is_typing_dt": fields.Datetime.now()}))
+>>>>>>> upstream/18.0
 =======
             member.channel_id._bus_send_store(Store(member).add(member, {"isTyping": is_typing, "is_typing_dt": fields.Datetime.now()}))
 >>>>>>> upstream/18.0

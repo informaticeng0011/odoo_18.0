@@ -34,6 +34,11 @@ class AccountEdiXmlUBLDE(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not vals['vals'].get('buyer_reference'):
+            vals['vals']['buyer_reference'] = 'N/A'
+>>>>>>> upstream/18.0
 =======
         if not vals['vals'].get('buyer_reference'):
             vals['vals']['buyer_reference'] = 'N/A'

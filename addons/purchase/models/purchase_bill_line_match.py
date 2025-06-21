@@ -13,6 +13,7 @@ class PurchaseBillMatch(models.Model):
     _order = 'product_id, aml_id, pol_id'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     pol_id = fields.Many2one(comodel_name='purchase.order.line')
     aml_id = fields.Many2one(comodel_name='account.move.line')
     company_id = fields.Many2one(comodel_name='res.company')
@@ -27,6 +28,8 @@ class PurchaseBillMatch(models.Model):
     currency_id = fields.Many2one(comodel_name='res.currency')
     state = fields.Char()
 =======
+=======
+>>>>>>> upstream/18.0
     pol_id = fields.Many2one(comodel_name='purchase.order.line', readonly=True)
     aml_id = fields.Many2one(comodel_name='account.move.line', readonly=True)
     company_id = fields.Many2one(comodel_name='res.company', readonly=True)
@@ -40,6 +43,9 @@ class PurchaseBillMatch(models.Model):
     line_amount_untaxed = fields.Monetary(readonly=True)
     currency_id = fields.Many2one(comodel_name='res.currency', readonly=True)
     state = fields.Char(readonly=True)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     product_uom_id = fields.Many2one(comodel_name='uom.uom', related='product_id.uom_id')

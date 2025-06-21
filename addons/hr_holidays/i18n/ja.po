@@ -30,7 +30,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-04-07 20:36+0000\n"
+=======
+"POT-Creation-Date: 2025-05-30 18:36+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-30 18:36+0000\n"
 >>>>>>> upstream/18.0
@@ -164,7 +168,11 @@ msgstr "%(holiday_name)sは否認されました。 "
 msgid ""
 "%(leave_name)s has been cancelled with the justification: <br/> %(reason)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(leave_name)sは以下の理由で取消されました: <br/> %(reason)s"
+=======
+msgstr "%(leave_name)sは以下の理由でキャンセルされました: <br/> %(reason)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_name)sは以下の理由でキャンセルされました: <br/> %(reason)s"
 >>>>>>> upstream/18.0
@@ -435,7 +443,11 @@ msgstr "<strong>部署と従業員</strong>"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消済の休暇は変更できません。"
+=======
+msgstr "キャンセル済の休暇は変更できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャンセル済の休暇は変更できません。"
 >>>>>>> upstream/18.0
@@ -640,7 +652,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -1278,7 +1294,11 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理可能"
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 =======
 msgstr "利用可能"
 >>>>>>> upstream/18.0
@@ -1548,7 +1568,11 @@ msgstr "承認できます"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__can_cancel
 msgid "Can Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消可能"
+=======
+msgstr "キャンセル可能"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャンセル可能"
 >>>>>>> upstream/18.0
@@ -1584,6 +1608,10 @@ msgstr "リセット可能"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1655,7 +1683,11 @@ msgstr "キャンセル"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Cancel Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "休暇を取消"
+=======
+msgstr "休暇をキャンセル"
+>>>>>>> upstream/18.0
 =======
 msgstr "休暇をキャンセル"
 >>>>>>> upstream/18.0
@@ -1664,7 +1696,11 @@ msgstr "休暇をキャンセル"
 #: model:ir.model,name:hr_holidays.model_hr_holidays_cancel_leave
 msgid "Cancel Time Off Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "休暇ウィザード取消"
+=======
+msgstr "休暇ウィザードキャンセル"
+>>>>>>> upstream/18.0
 =======
 msgstr "休暇ウィザードキャンセル"
 >>>>>>> upstream/18.0
@@ -1682,7 +1718,11 @@ msgstr "休暇ウィザードキャンセル"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 msgid "Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消済"
+=======
+msgstr "キャンセル済"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャンセル済"
 >>>>>>> upstream/18.0
@@ -2049,6 +2089,10 @@ msgstr "この種の休暇のマイナス日数の最大レベルを定義しま
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -3359,7 +3403,11 @@ msgstr "休暇管理者またはマネジャーのみが、自身の申請を承
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消済休暇を変更できるのはマネジャーのみです。"
+=======
+msgstr "キャンセル済休暇を変更できるのはマネジャーのみです。"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャンセル済休暇を変更できるのはマネジャーのみです。"
 >>>>>>> upstream/18.0
@@ -3452,7 +3500,11 @@ msgstr "印刷"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Provide a reason to cancel an approved time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "承認済休暇の取消理由の提示"
+=======
+msgstr "承認済休暇のキャンセル理由の提示"
+>>>>>>> upstream/18.0
 =======
 msgstr "承認済休暇のキャンセル理由の提示"
 >>>>>>> upstream/18.0
@@ -3834,7 +3886,11 @@ msgid ""
 "Some of the accrual plans you're trying to delete are linked to an existing "
 "allocation. Delete or cancel them first."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "削除しようとしている休暇累積プランの中には、既存の割当にリンクされているものがあります。まず、それらを削除または取消して下さい。"
+=======
+msgstr "削除しようとしている休暇累積プランの中には、既存の割当にリンクされているものがあります。まず、それらを削除またはキャンセルして下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "削除しようとしている休暇累積プランの中には、既存の割当にリンクされているものがあります。まず、それらを削除またはキャンセルして下さい。"
 >>>>>>> upstream/18.0
@@ -4170,7 +4226,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "休暇申請が作成されると、ステータスは'送信予定'に設定されます。ユーザが休暇申請を確認すると、ステータスは'承認待ち'になります。マネージャーが休暇申請を否認した場合、ステータスは'否認'です。休暇申請がマネージャーによって承認されると、ステータスは'承認済み'になります。"
+=======
+"休暇申請が作成されると、ステータスは'送信予定'に設定されます。ユーザが休暇申請を確定すると、ステータスは'承認中'になります。マネージャーが休暇申請を否認した場合、ステータスは'否認'です。休暇申請がマネージャーによって承認されると、ステータスは'承認済'になります。"
+>>>>>>> upstream/18.0
 =======
 "休暇申請が作成されると、ステータスは'送信予定'に設定されます。ユーザが休暇申請を確定すると、ステータスは'承認中'になります。マネージャーが休暇申請を否認した場合、ステータスは'否認'です。休暇申請がマネージャーによって承認されると、ステータスは'承認済'になります。"
 >>>>>>> upstream/18.0
@@ -4363,7 +4423,11 @@ msgstr "休暇は自動的に承認されました"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been cancelled: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "休暇が取消されました: %s"
+=======
+msgstr "休暇がキャンセルされました: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "休暇がキャンセルされました: %s"
 >>>>>>> upstream/18.0
@@ -4450,7 +4514,11 @@ msgstr "現在の状態では、この変更は許可されていません。"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この休暇は取消できません。"
+=======
+msgstr "この休暇はキャンセルできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この休暇はキャンセルできません。"
 >>>>>>> upstream/18.0
@@ -4661,7 +4729,11 @@ msgstr "休暇."
 #: model:ir.actions.server,name:hr_holidays.hr_leave_cron_cancel_invalid_ir_actions_server
 msgid "Time Off: Cancel invalid leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "休暇: 無効な休暇を取消"
+=======
+msgstr "休暇: 無効な休暇をキャンセル"
+>>>>>>> upstream/18.0
 =======
 msgstr "休暇: 無効な休暇をキャンセル"
 >>>>>>> upstream/18.0
@@ -4724,7 +4796,11 @@ msgid ""
 "Time off request state must be \"Refused\" or \"Cancelled\" in order to be "
 "reset to \"Confirmed\"."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "休暇申請ステータスを\"確認済\"にするには、\"否認済\" または \"取消済\" である必要があります。"
+=======
+msgstr "休暇申請ステータスを\"確認済\"にするには、\"否認済\" または \"キャンセル済\" である必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr "休暇申請ステータスを\"確認済\"にするには、\"否認済\" または \"キャンセル済\" である必要があります。"
 >>>>>>> upstream/18.0
@@ -5292,7 +5368,11 @@ msgstr "あなたの休暇"
 #: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
 msgid "Your time off has been cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "あなたの休暇が取消されました。"
+=======
+msgstr "あなたの休暇がキャンセルされました。"
+>>>>>>> upstream/18.0
 =======
 msgstr "あなたの休暇がキャンセルされました。"
 >>>>>>> upstream/18.0
@@ -5539,7 +5619,11 @@ msgid "sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "付番"
+=======
+msgstr "シーケンス"
+>>>>>>> upstream/18.0
 =======
 msgstr "シーケンス"
 >>>>>>> upstream/18.0

@@ -92,7 +92,10 @@ describe("DateTimeInput (date)", () => {
         await contains(getPickerCell("8")).click();
 
         expect(".o_datetime_input").toHaveValue("08/02/1997");
+<<<<<<< HEAD
         // the onchange is called twice (when clicking and whe the popover is closing)
+=======
+>>>>>>> upstream/18.0
         expect.verifySteps(["datetime-changed"]);
     });
 

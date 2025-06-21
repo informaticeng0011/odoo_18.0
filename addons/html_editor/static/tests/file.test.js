@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "./_helpers/editor";
 import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -9,6 +10,19 @@ import { MAIN_EMBEDDINGS } from "@html_editor/others/embedded_components/embeddi
 import { getContent } from "./_helpers/selection";
 import { isZwnbsp } from "@html_editor/utils/dom_info";
 import { EmbeddedFilePlugin } from "@html_editor/others/embedded_components/plugins/embedded_file_plugin/embedded_file_plugin";
+=======
+import { MAIN_EMBEDDINGS } from "@html_editor/others/embedded_components/embedding_sets";
+import { EmbeddedFilePlugin } from "@html_editor/others/embedded_components/plugins/embedded_file_plugin/embedded_file_plugin";
+import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
+import { isZwnbsp } from "@html_editor/utils/dom_info";
+import { describe, expect, test } from "@odoo/hoot";
+import { animationFrame, click, press, queryOne, waitFor } from "@odoo/hoot-dom";
+import { onRpc, patchWithCleanup } from "@web/../tests/web_test_helpers";
+import { setupEditor } from "./_helpers/editor";
+import { getContent } from "./_helpers/selection";
+import { insertText } from "./_helpers/user_actions";
+import { execCommand } from "./_helpers/userCommands";
+>>>>>>> upstream/18.0
 
 const configWithEmbeddedFile = {
     Plugins: [
@@ -64,6 +78,7 @@ describe("file command", () => {
 });
 
 describe("document tab in media dialog", () => {
+<<<<<<< HEAD
     beforeEach(() =>
         onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => [
             {
@@ -75,6 +90,17 @@ describe("document tab in media dialog", () => {
             },
         ])
     );
+=======
+    onRpc("ir.attachment", "search_read", () => [
+        {
+            id: 1,
+            name: "file.txt",
+            mimetype: "text/plain",
+            public: true,
+            image_src: "",
+        },
+    ]);
+>>>>>>> upstream/18.0
 
     describe("without File nor EmbeddedFile plugin", () => {
         test("Document tab is not available by default", async () => {

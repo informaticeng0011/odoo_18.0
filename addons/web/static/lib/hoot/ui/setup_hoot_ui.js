@@ -27,6 +27,7 @@ const {
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 const makeUiState = () =>
     reactive({
         resultsPage: 0,
@@ -40,6 +41,8 @@ const makeUiState = () =>
         totalResults: 0,
     });
 
+=======
+>>>>>>> upstream/18.0
 class HootContainer extends HTMLElement {
     constructor() {
         super(...arguments);
@@ -83,6 +86,23 @@ customElements.define("hoot-container", HootContainer);
 // Exports
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
+=======
+export function makeUiState() {
+    return reactive({
+        resultsPage: 0,
+        resultsPerPage: 40,
+        /** @type {string | null} */
+        selectedSuiteId: null,
+        /** @type {"asc" | "desc" | false} */
+        sortResults: false,
+        /** @type {StatusFilter | null} */
+        statusFilter: null,
+        totalResults: 0,
+    });
+}
+
+>>>>>>> upstream/18.0
 export function setupHootUI() {
     // - Patch window before code from other modules is executed
     patchWindow();

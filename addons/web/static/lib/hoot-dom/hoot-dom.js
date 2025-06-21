@@ -2,6 +2,10 @@
 
 import * as dom from "./helpers/dom";
 import * as events from "./helpers/events";
+<<<<<<< HEAD
+=======
+import * as time from "./helpers/time";
+>>>>>>> upstream/18.0
 import { interactor } from "./hoot_dom_utils";
 
 /**
@@ -71,6 +75,10 @@ export {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryAny,
+>>>>>>> upstream/18.0
 =======
     queryAny,
 >>>>>>> upstream/18.0
@@ -164,15 +172,21 @@ export {
 } from "./helpers/dom";
 export { on } from "./helpers/events";
 export {
+<<<<<<< HEAD
     advanceFrame,
     advanceTime,
+=======
+>>>>>>> upstream/18.0
     animationFrame,
     cancelAllTimers,
     Deferred,
     delay,
     freezeTime,
     microTick,
+<<<<<<< HEAD
     runAllTimers,
+=======
+>>>>>>> upstream/18.0
     setFrameRate,
     tick,
     waitUntil,
@@ -183,6 +197,12 @@ export {
 //-----------------------------------------------------------------------------
 
 // DOM
+<<<<<<< HEAD
+=======
+export const $ = dom.queryFirst;
+export const $$ = dom.queryAll;
+export const $1 = dom.queryOne;
+>>>>>>> upstream/18.0
 export const observe = interactor("query", dom.observe);
 export const waitFor = interactor("query", dom.waitFor);
 export const waitForNone = interactor("query", dom.waitForNone);
@@ -249,6 +269,7 @@ export const unload = interactor("interaction", events.unload);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 // Debug
@@ -430,6 +451,16 @@ export { exposeHelpers } from "./hoot_dom_utils";
 export { exposeHelpers } from "./hoot_dom_utils";
 >>>>>>> upstream/18.0
 =======
+
+// Debug
+export { exposeHelpers } from "./hoot_dom_utils";
+>>>>>>> upstream/18.0
+=======
+
+// Time
+export const advanceFrame = interactor("time", time.advanceFrame);
+export const advanceTime = interactor("time", time.advanceTime);
+export const runAllTimers = interactor("time", time.runAllTimers);
 
 // Debug
 export { exposeHelpers } from "./hoot_dom_utils";

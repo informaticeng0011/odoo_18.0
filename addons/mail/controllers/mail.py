@@ -27,7 +27,10 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54,6 +57,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79,7 +85,10 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112,6 +121,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144,7 +156,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return comparison, None, cls._redirect_to_messaging()
+=======
+            return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             return comparison, None, cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -177,7 +193,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             redirect = cls._redirect_to_messaging()
+=======
+            redirect = cls._redirect_to_generic_fallback(model, res_id)
+>>>>>>> upstream/18.0
 =======
             redirect = cls._redirect_to_generic_fallback(model, res_id)
 >>>>>>> upstream/18.0
@@ -220,7 +240,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -269,7 +295,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls._redirect_to_messaging()
+=======
+            return cls._redirect_to_generic_fallback(
+                model, res_id, access_token=access_token, **kwargs,
+            )
+>>>>>>> upstream/18.0
 =======
             return cls._redirect_to_generic_fallback(
                 model, res_id, access_token=access_token, **kwargs,
@@ -317,7 +349,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -384,7 +422,13 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return cls._redirect_to_messaging()
+=======
+                return cls._redirect_to_generic_fallback(
+                    model, res_id, access_token=access_token, **kwargs,
+                )
+>>>>>>> upstream/18.0
 =======
                 return cls._redirect_to_generic_fallback(
                     model, res_id, access_token=access_token, **kwargs,
@@ -431,6 +475,7 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if suggested_company:
                 cids = [suggested_company.id]
             if record_action['type'] == 'ir.actions.act_url' and record_action.get('target_type') != 'public':
@@ -460,6 +505,8 @@ class MailController(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # we have an act_url (probably a portal link): we need to retry being logged to check access
             if record_action['type'] == 'ir.actions.act_url' and record_action.get('target_type') != 'public':
                 return cls._redirect_to_login_with_mail_view(
@@ -471,6 +518,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -496,11 +546,14 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # other choice: act_window (no support of anything else currently)
         elif not record_action['type'] == 'ir.actions.act_window':
             return cls._redirect_to_messaging()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -534,6 +587,9 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -563,7 +619,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -596,7 +656,11 @@ class MailController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params)}'
+=======
+        url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
+>>>>>>> upstream/18.0
 =======
         url = f'/odoo/{model_in_url}/{res_id}?{url_encode(url_params, sort=True)}'
 >>>>>>> upstream/18.0

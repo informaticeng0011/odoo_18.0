@@ -1,8 +1,12 @@
 import { closestBlock } from "@html_editor/utils/blocks";
 import { endPos } from "@html_editor/utils/position";
 import { findInSelection } from "@html_editor/utils/selection";
+<<<<<<< HEAD
 import { click, manuallyDispatchProgrammaticEvent, press, waitFor } from "@odoo/hoot-dom";
 import { tick } from "@odoo/hoot-mock";
+=======
+import { click, manuallyDispatchProgrammaticEvent, press, tick, waitFor } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 import { setSelection } from "./selection";
 import { execCommand } from "./userCommands";
 
@@ -40,7 +44,11 @@ export async function insertText(editor, text) {
     };
     for (const char of text) {
         // KeyDownEvent is required to trigger deleteRange.
+<<<<<<< HEAD
         const keydownEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [keydownEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
             editor.editable,
             "keydown",
             { key: char }
@@ -49,7 +57,11 @@ export async function insertText(editor, text) {
             continue;
         }
         // InputEvent is required to simulate the insert text.
+<<<<<<< HEAD
         const beforeinputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [beforeinputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
             editor.editable,
             "beforeinput",
             { inputType: "insertText", data: char }
@@ -58,7 +70,11 @@ export async function insertText(editor, text) {
             continue;
         }
         insertChar(char);
+<<<<<<< HEAD
         const inputEvent = await manuallyDispatchProgrammaticEvent.silent(
+=======
+        const [inputEvent] = await manuallyDispatchProgrammaticEvent.silent(
+>>>>>>> upstream/18.0
             editor.editable,
             "input",
             { inputType: "insertText", data: char }
@@ -277,6 +293,17 @@ export function pasteOdooEditorHtml(editor, html) {
  * @param {Node} node
  */
 export async function tripleClick(node) {
+<<<<<<< HEAD
+=======
+    const release = await splitTripleClick(node);
+    await release();
+}
+
+/**
+ * @param {Node} node
+ */
+export async function splitTripleClick(node) {
+>>>>>>> upstream/18.0
     const anchorNode = node;
     node = node.nodeType === Node.ELEMENT_NODE ? node : node.parentNode;
     await manuallyDispatchProgrammaticEvent.silent(node, "mousedown", { detail: 3 });
@@ -291,8 +318,16 @@ export async function tripleClick(node) {
         focusNode,
         focusOffset,
     });
+<<<<<<< HEAD
     await manuallyDispatchProgrammaticEvent.silent(node, "mouseup", { detail: 3 });
     await manuallyDispatchProgrammaticEvent.as("tripleClick")(node, "click", { detail: 3 });
 
     await tick();
+=======
+    return async function release() {
+        await manuallyDispatchProgrammaticEvent.silent(node, "mouseup", { detail: 3 });
+        await manuallyDispatchProgrammaticEvent.as("tripleClick")(node, "click", { detail: 3 });
+        await tick();
+    };
+>>>>>>> upstream/18.0
 }

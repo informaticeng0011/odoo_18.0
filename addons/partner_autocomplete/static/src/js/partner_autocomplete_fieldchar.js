@@ -130,6 +130,7 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
 =======
         if (data.company.name) {
@@ -385,6 +386,15 @@ export class PartnerAutoCompleteCharField extends CharField {
 
         // Add UNSPSC codes (tags)
         if (this.props.record.resModel === 'res.partner' && unspsc_codes) {
+=======
+        if (data.company.name) {
+            await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
+        }
+        await this.props.record.update(data.company);
+
+        // Add UNSPSC codes (tags)
+        if (this.props.record.resModel === 'res.partner' && unspsc_codes && unspsc_codes.length !== 0) {
+>>>>>>> upstream/18.0
             // We must first save the record so that we can then create the tags (many2many)
             const saved = await this.props.record.save();
             if (saved){
