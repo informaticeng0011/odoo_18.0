@@ -16,10 +16,13 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_valid_liquidity_accounts(self):
         result = super()._get_valid_liquidity_accounts()
         return result | self.pos_payment_method_id.outstanding_account_id
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

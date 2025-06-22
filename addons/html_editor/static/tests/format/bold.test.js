@@ -62,6 +62,7 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { BOLD_TAGS, notStrong, span, strong } from "../_helpers/tags";
 import { bold, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
 =======
@@ -303,6 +304,11 @@ import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
 import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
+=======
+import { BOLD_TAGS, notStrong, span, strong, em } from "../_helpers/tags";
+import { bold, italic, simulateArrowKeyPress, tripleClick } from "../_helpers/user_actions";
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 
 const styleH1Bold = `h1 { font-weight: bold; }`;
 
@@ -449,7 +455,11 @@ test("should remove a bold tag that was redondant while performing the command",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentBefore: `<p>a${tag(`b${tag(`[c]`)}d`)}e</p>`,
+=======
+            contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
+>>>>>>> upstream/18.0
 =======
             contentBefore: `<p>a${tag(`b[c]d`)}e</p>`,
 >>>>>>> upstream/18.0
@@ -583,8 +593,13 @@ test("should make a few characters bold inside table (bold)", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should insert a span zws when toggling a formatting command twice", () => {
     return testEditor({
+=======
+test("should insert a span zws when toggling a formatting command twice", () =>
+    testEditor({
+>>>>>>> upstream/18.0
 =======
 test("should insert a span zws when toggling a formatting command twice", () =>
     testEditor({
@@ -599,8 +614,12 @@ test("should insert a span zws when toggling a formatting command twice", () =>
         // complex with the current implementation.
         contentAfterEdit: `<p>${span(`[]\u200B`, "first")}</p>`,
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 });
+=======
+    }));
+>>>>>>> upstream/18.0
 =======
     }));
 >>>>>>> upstream/18.0
@@ -665,7 +684,11 @@ test("create bold with shortcut + selected with arrow", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -715,7 +738,11 @@ test("create bold with shortcut + selected with arrow", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -851,7 +878,10 @@ describe("inside container font-weight: 500 and strong being strong-weight: 500"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1057,6 +1087,9 @@ test("should not remove empty bold tag in an empty block when changing selection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

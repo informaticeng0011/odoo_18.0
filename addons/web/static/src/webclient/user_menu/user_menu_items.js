@@ -56,7 +56,11 @@ function shortCutsItem(env) {
         hide: env.isSmall,
         description: markup(
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<div class="d-flex align-items-center justify-content-between">
+=======
+            `<div class="d-flex align-items-center justify-content-between p-0 w-100">
+>>>>>>> upstream/18.0
 =======
             `<div class="d-flex align-items-center justify-content-between p-0 w-100">
 >>>>>>> upstream/18.0

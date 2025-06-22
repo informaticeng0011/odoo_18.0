@@ -55,6 +55,7 @@ import { Deferred } from "@web/../lib/hoot-dom/helpers/time";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { addInteractionListener, isFirefox, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import {
     CASE_EVENT_TYPES,
@@ -148,6 +149,11 @@ import {
     addInteractionListener,
     getColorHex,
 >>>>>>> upstream/18.0
+=======
+import {
+    addInteractionListener,
+    getColorHex,
+>>>>>>> upstream/18.0
     isFirefox,
     isIterable,
     R_WHITE_SPACE,
@@ -160,6 +166,7 @@ import {
     ensureArguments,
     ensureArray,
     formatHumanReadable,
+<<<<<<< HEAD
 <<<<<<< HEAD
     HootError,
 <<<<<<< HEAD
@@ -275,6 +282,10 @@ import {
     getConstructor,
     HootError,
 >>>>>>> upstream/18.0
+=======
+    getConstructor,
+    HootError,
+>>>>>>> upstream/18.0
     isLabel,
     isNil,
     isOfType,
@@ -318,8 +329,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     match,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -398,6 +412,7 @@ import {
     match,
     S_ANY,
     S_NONE,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +530,11 @@ import {
 } from "../hoot_utils";
 import { logger } from "./logger";
 >>>>>>> upstream/18.0
+=======
+    strictEqual,
+} from "../hoot_utils";
+import { logger } from "./logger";
+>>>>>>> upstream/18.0
 import { Test } from "./test";
 
 /**
@@ -526,7 +546,13 @@ import { Test } from "./test";
  * @typedef {import("../hoot_utils").ArgumentType} ArgumentType
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {string | string[] | ((pass: boolean, raw: typeof String["raw"]) => string | string[])} AssertionMessage
+=======
+ * @typedef {string | ((pass: boolean) => string)} AssertionMessage
+ *
+ * @typedef {string | string[] | ((pass: boolean, raw: typeof String["raw"]) => string | string[])} AssertionReportMessage
+>>>>>>> upstream/18.0
 =======
  * @typedef {string | ((pass: boolean) => string)} AssertionMessage
  *
@@ -590,6 +616,11 @@ import { Test } from "./test";
  *  message: AssertionMessage;
  *  name: string;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  onFail: AssertionReportMessage;
+ *  onPass: AssertionReportMessage;
+>>>>>>> upstream/18.0
 =======
  *  onFail: AssertionReportMessage;
  *  onPass: AssertionReportMessage;
@@ -610,7 +641,10 @@ import { Test } from "./test";
 const {
     Array: { isArray: $isArray },
 <<<<<<< HEAD
+<<<<<<< HEAD
     Boolean,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     clearTimeout,
@@ -623,6 +657,10 @@ const {
     setTimeout,
     TypeError,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    WeakMap,
+>>>>>>> upstream/18.0
 =======
     WeakMap,
 >>>>>>> upstream/18.0
@@ -638,7 +676,11 @@ const $now = performance.now.bind(performance);
  * @param {[string, unknown][]} entries
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const detailsFromEntries = (entries) => {
+=======
+function detailsFromEntries(entries) {
+>>>>>>> upstream/18.0
 =======
 function detailsFromEntries(entries) {
 >>>>>>> upstream/18.0
@@ -653,7 +695,11 @@ function detailsFromEntries(entries) {
     }
     return result;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -662,7 +708,13 @@ function detailsFromEntries(entries) {
  * @param {...unknown} args
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const detailsFromValues = (...args) => detailsFromEntries(args.map((arg) => [null, arg]));
+=======
+function detailsFromValues(...args) {
+    return detailsFromEntries(args.map((arg) => [null, arg]));
+}
+>>>>>>> upstream/18.0
 =======
 function detailsFromValues(...args) {
     return detailsFromEntries(args.map((arg) => [null, arg]));
@@ -673,10 +725,16 @@ function detailsFromValues(...args) {
  * @param {...unknown} args
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const detailsFromValuesWithDiff = (...args) => [
     ...detailsFromValues(...args),
     Markup.diff(...args),
 ];
+=======
+function detailsFromValuesWithDiff(...args) {
+    return [...detailsFromValues(...args), Markup.diff(...args)];
+}
+>>>>>>> upstream/18.0
 =======
 function detailsFromValuesWithDiff(...args) {
     return [...detailsFromValues(...args), Markup.diff(...args)];
@@ -687,7 +745,11 @@ function detailsFromValuesWithDiff(...args) {
  * @param {Error} [error]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatError = (error) => {
+=======
+function formatError(error) {
+>>>>>>> upstream/18.0
 =======
 function formatError(error) {
 >>>>>>> upstream/18.0
@@ -697,7 +759,11 @@ function formatError(error) {
     }
     return strError;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -708,8 +774,14 @@ function formatError(error) {
  * @param {boolean} not
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatMessage = (message, plural, not) =>
     message.replaceAll(R_PLURAL, plural ? "$2" : "$1").replaceAll(R_NOT, not ? "$2" : "$1");
+=======
+function formatMessage(message, plural, not) {
+    return message.replaceAll(R_PLURAL, plural ? "$2" : "$1").replaceAll(R_NOT, not ? "$2" : "$1");
+}
+>>>>>>> upstream/18.0
 =======
 function formatMessage(message, plural, not) {
     return message.replaceAll(R_PLURAL, plural ? "$2" : "$1").replaceAll(R_NOT, not ? "$2" : "$1");
@@ -720,7 +792,11 @@ function formatMessage(message, plural, not) {
  * @param {Iterable<unknown> | Record<unknown, unknown>} object
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getLength = (object) => {
+=======
+function getLength(object) {
+>>>>>>> upstream/18.0
 =======
 function getLength(object) {
 >>>>>>> upstream/18.0
@@ -732,7 +808,11 @@ function getLength(object) {
     }
     return $keys(object).length;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -741,7 +821,11 @@ function getLength(object) {
  * @param {number} depth amount of lines to remove from the stack
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getStack = (depth) => {
+=======
+function getStack(depth) {
+>>>>>>> upstream/18.0
 =======
 function getStack(depth) {
 >>>>>>> upstream/18.0
@@ -757,7 +841,11 @@ function getStack(depth) {
     }
     return lines.join("\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -768,7 +856,11 @@ function getStack(depth) {
  * @returns {Record<string, string>}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getStyleValues = (node, keys) => {
+=======
+function getStyleValues(node, keys) {
+>>>>>>> upstream/18.0
 =======
 function getStyleValues(node, keys) {
 >>>>>>> upstream/18.0
@@ -781,7 +873,11 @@ function getStyleValues(node, keys) {
     }
     return styleValues;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -792,7 +888,11 @@ function getStyleValues(node, keys) {
  * @returns {boolean}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const includes = (object, item) => {
+=======
+function includes(object, item) {
+>>>>>>> upstream/18.0
 =======
 function includes(object, item) {
 >>>>>>> upstream/18.0
@@ -811,8 +911,13 @@ function includes(object, item) {
         return includes($entries(object), item);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     return includes($keys(object), item);
 };
+=======
+    return item in object;
+}
+>>>>>>> upstream/18.0
 =======
     return item in object;
 }
@@ -826,7 +931,11 @@ function includes(object, item) {
  * @returns {(T | string)[]}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const listJoin = (list, separator, lastSeparator) => {
+=======
+function listJoin(list, separator, lastSeparator) {
+>>>>>>> upstream/18.0
 =======
 function listJoin(list, separator, lastSeparator) {
 >>>>>>> upstream/18.0
@@ -852,6 +961,7 @@ function listJoin(list, separator, lastSeparator) {
     }
     return result;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /** @type {typeof makeLabel} */
@@ -860,6 +970,8 @@ const makeLabelOrString = (...args) => {
     return label[1] === null ? label[0] : label;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /** @type {typeof makeLabel} */
@@ -870,6 +982,9 @@ function makeLabelOrString(...args) {
     }
     return label[1] === null ? label[0] : label;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -877,8 +992,14 @@ function makeLabelOrString(...args) {
  * @param {string} message
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const matcherModifierError = (modifier, message) =>
     new HootError(`cannot use modifier "${modifier}": ${message}`);
+=======
+function matcherModifierError(modifier, message) {
+    return new HootError(`cannot use modifier "${modifier}": ${message}`);
+}
+>>>>>>> upstream/18.0
 =======
 function matcherModifierError(modifier, message) {
     return new HootError(`cannot use modifier "${modifier}": ${message}`);
@@ -890,7 +1011,11 @@ function matcherModifierError(modifier, message) {
  * @param {unknown} [defaultValue]
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseInlineStyle = (style, defaultValue) => {
+=======
+function parseInlineStyle(style, defaultValue) {
+>>>>>>> upstream/18.0
 =======
 function parseInlineStyle(style, defaultValue) {
 >>>>>>> upstream/18.0
@@ -910,24 +1035,36 @@ function parseInlineStyle(style, defaultValue) {
     }
     return styleObject;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /** @type {StringConstructor["raw"]} */
 const r = (template, ...substitutions) => makeLabel(String.raw(template, ...substitutions), null);
 =======
+=======
+>>>>>>> upstream/18.0
 }
 
 /** @type {StringConstructor["raw"]} */
 function r(template, ...substitutions) {
     return makeLabel(String.raw(template, ...substitutions), null);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {string} method
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const scopeError = (method) => new HootError(`cannot call \`${method}()\` outside of a test`);
+=======
+function scopeError(method) {
+    return new HootError(`cannot call \`${method}()\` outside of a test`);
+}
+>>>>>>> upstream/18.0
 =======
 function scopeError(method) {
     return new HootError(`cannot call \`${method}()\` outside of a test`);
@@ -939,7 +1076,11 @@ function scopeError(method) {
  * @param {string | number | RegExp} matcher
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const valueMatches = (value, matcher) => {
+=======
+function valueMatches(value, matcher) {
+>>>>>>> upstream/18.0
 =======
 function valueMatches(value, matcher) {
 >>>>>>> upstream/18.0
@@ -954,7 +1095,11 @@ function valueMatches(value, matcher) {
     }
     return strictEqual(value, matcher);
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -965,6 +1110,7 @@ const ARROW_RIGHT = makeLabelIcon("fa fa-arrow-right text-sm");
 const R_LINE_RETURN = /\n+/g;
 const R_NOT = /\[([\w\s]*)!([\w\s]*)\]/g;
 const R_PLURAL = /\[([\w\s]*)%([\w\s]*)\]/g;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1080,6 +1226,8 @@ const R_WHITE_SPACE = /\s+/g;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 const FLAGS = {
     error: 0b1,
@@ -1092,15 +1240,21 @@ const FLAGS = {
 const LABEL_EXPECTED = "Expected:";
 const LABEL_RECEIVED = "Received:";
 <<<<<<< HEAD
+<<<<<<< HEAD
 const MAX_STACK_LENGTH = 10;
 
 =======
+=======
+>>>>>>> upstream/18.0
 /** @type {CaseEventType[]} */
 const CASE_EVENT_LOG_COLORS = ["assertion", "query", "step", "time"];
 const MAX_STACK_LENGTH = 10;
 
 /** @type {WeakMap<any, any>} */
 const debugLabelCache = new WeakMap();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /** @type {Set<Matcher>} */
 const unconsumedMatchers = new Set();
@@ -1148,8 +1302,13 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "expect",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`called`, ...times, r`without calling any matchers`],
                 pass: false,
+=======
+                pass: false,
+                reportMessage: [r`called`, ...times, r`without calling any matchers`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [r`called`, ...times, r`without calling any matchers`],
@@ -1163,9 +1322,15 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "step",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`unverified steps`],
                 pass: false,
                 failedDetails: detailsFromEntries([["Steps:", currentResult.currentSteps]]),
+=======
+                pass: false,
+                failedDetails: detailsFromEntries([["Steps:", currentResult.currentSteps]]),
+                reportMessage: [r`unverified steps`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 failedDetails: detailsFromEntries([["Steps:", currentResult.currentSteps]]),
@@ -1179,15 +1344,21 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "assertions",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`expected at least`, 1, r`assertion or query event, but none were run`],
                 pass: false,
 =======
+=======
+>>>>>>> upstream/18.0
                 pass: false,
                 reportMessage: [
                     r`expected at least`,
                     1,
                     r`assertion or query event, but none were run`,
                 ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         } else if (
@@ -1197,7 +1368,12 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "assertions",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [
+=======
+                pass: false,
+                reportMessage: [
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [
@@ -1209,7 +1385,10 @@ export function makeExpect(params) {
                     r`were run`,
                 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pass: false,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             });
@@ -1220,8 +1399,13 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "errors",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [currentResult.currentErrors.length, r`unverified error(s)`],
                 pass: false,
+=======
+                pass: false,
+                reportMessage: [currentResult.currentErrors.length, r`unverified error(s)`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [currentResult.currentErrors.length, r`unverified error(s)`],
@@ -1234,7 +1418,12 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "errors",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [
+=======
+                pass: false,
+                reportMessage: [
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [
@@ -1246,7 +1435,10 @@ export function makeExpect(params) {
                     r`were thrown`,
                 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pass: false,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             });
@@ -1258,8 +1450,13 @@ export function makeExpect(params) {
                 currentResult.registerEvent("assertion", {
                     label: "TODO",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message: [r`all assertions passed: remove "todo" test modifier`],
                     pass: false,
+=======
+                    pass: false,
+                    reportMessage: [r`all assertions passed: remove "todo" test modifier`],
+>>>>>>> upstream/18.0
 =======
                     pass: false,
                     reportMessage: [r`all assertions passed: remove "todo" test modifier`],
@@ -1275,8 +1472,13 @@ export function makeExpect(params) {
             currentResult.registerEvent("assertion", {
                 label: "aborted",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`test was aborted, results may not be relevant`],
                 pass: false,
+=======
+                pass: false,
+                reportMessage: [r`test was aborted, results may not be relevant`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [r`test was aborted, results may not be relevant`],
@@ -1350,7 +1552,11 @@ export function makeExpect(params) {
         const listenedEvents = ["query"];
         if (!params.headless) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             listenedEvents.push("interaction", "server");
+=======
+            listenedEvents.push("interaction", "server", "time");
+>>>>>>> upstream/18.0
 =======
             listenedEvents.push("interaction", "server", "time");
 >>>>>>> upstream/18.0
@@ -1379,6 +1585,7 @@ export function makeExpect(params) {
             currentResult.consumeErrors();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             const message =
                 options?.message ||
                 (pass
@@ -1391,6 +1598,8 @@ export function makeExpect(params) {
                 message,
                 pass,
 =======
+=======
+>>>>>>> upstream/18.0
             const reportMessage = pass
                 ? errors.length
                     ? listJoin(errors, ARROW_RIGHT)
@@ -1401,6 +1610,9 @@ export function makeExpect(params) {
                 message: options?.message,
                 pass,
                 reportMessage,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             };
             if (!pass) {
@@ -1423,7 +1635,11 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 assertion.stack = getStack(0);
+=======
+                assertion.stack = getStack(1);
+>>>>>>> upstream/18.0
 =======
                 assertion.stack = getStack(1);
 >>>>>>> upstream/18.0
@@ -1495,6 +1711,7 @@ export function makeExpect(params) {
             currentResult.consumeSteps();
 
             const separator = options?.ignoreOrder ? AMPERSAND : ARROW_RIGHT;
+<<<<<<< HEAD
 <<<<<<< HEAD
             const message =
                 options?.message ||
@@ -1572,6 +1789,8 @@ export function makeExpect(params) {
                 assertion.stack = getStack(1);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             const reportMessage = pass
                 ? receivedSteps.length
                     ? listJoin(receivedSteps, separator)
@@ -1586,6 +1805,9 @@ export function makeExpect(params) {
             if (!pass) {
                 assertion.failedDetails = detailsFromValuesWithDiff(steps, receivedSteps);
                 assertion.stack = getStack(1);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             currentResult.registerEvent("assertion", assertion);
@@ -1859,7 +2081,11 @@ export class CaseResult {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.headless = Boolean(headless);
+=======
+        this.headless = !!headless;
+>>>>>>> upstream/18.0
 =======
         this.headless = !!headless;
 >>>>>>> upstream/18.0
@@ -1933,7 +2159,10 @@ export class CaseResult {
         }
         if (caseEvent) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             if (logger.allows("debug") && CASE_EVENT_LOG_COLORS.includes(type)) {
                 const colorName = caseEvent.pass === false ? "rose" : CASE_EVENT_TYPES[type].color;
                 const logArgs = [[caseEvent.label, getColorHex(colorName)]];
@@ -1951,6 +2180,9 @@ export class CaseResult {
                 }
                 logger.logTestEvent(...logArgs);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.events.push(caseEvent);
         }
@@ -2072,6 +2304,7 @@ export class Matcher {
             name: "toBe",
             acceptedType: "any",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => strictEqual(this._received, expected),
             message:
                 options?.message ||
@@ -2081,11 +2314,16 @@ export class Matcher {
                         : [r`expected values to be strictly equal`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => strictEqual(expected, received),
             message: options?.message,
             onPass: () => [r`received value is[! not] strictly equal to`, this._received],
             onFail: () => [r`expected values to be strictly equal`],
             getFailedDetails: (received) => detailsFromValuesWithDiff(expected, received),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2111,6 +2349,7 @@ export class Matcher {
             name: "toBeCloseTo",
             acceptedType: "number",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => $abs(expected - this._received) < margin,
             message:
                 options?.message ||
@@ -2120,11 +2359,16 @@ export class Matcher {
                         : [r`expected values to be close to the given value`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => $abs(expected - received) < margin,
             message: options?.message,
             onPass: () => [r`received value is[! not] close to`, this._received],
             onFail: () => [r`expected values to be close to the given value`],
             getFailedDetails: (received) => detailsFromValuesWithDiff(expected, received),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2151,6 +2395,7 @@ export class Matcher {
             name: "toBeEmpty",
             acceptedType: ["any"],
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => isEmpty(this._received),
             message:
                 options?.message ||
@@ -2160,11 +2405,16 @@ export class Matcher {
                         : [this._received, r`should[! not] be empty`]),
             getFailedDetails: () => detailsFromValues(this._received),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => isEmpty(received),
             message: options?.message,
             onPass: () => [this._received, r`should[! not] be empty`],
             onFail: () => [this._received, r`is[! not] empty`],
             getFailedDetails: detailsFromValues,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2186,6 +2436,7 @@ export class Matcher {
             name: "toBeGreaterThan",
             acceptedType: "number",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => min < this._received,
             message:
                 options?.message ||
@@ -2198,6 +2449,8 @@ export class Matcher {
                     ["Minimum:", min],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => min < received,
             message: options?.message,
             onPass: () => [this._received, r`is[! not] strictly greater than`, min],
@@ -2206,6 +2459,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Minimum:", min],
                     [null, received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2228,6 +2484,7 @@ export class Matcher {
             name: "toBeInstanceOf",
             acceptedType: "any",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => this._received instanceof cls,
             message:
                 options?.message ||
@@ -2240,6 +2497,8 @@ export class Matcher {
                     [null, cls],
                     ["Actual parent class:", this._received.constructor.name],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => received instanceof cls,
             message: options?.message,
             onPass: () => [this._received, r`is[! not] an instance of`, cls],
@@ -2248,6 +2507,9 @@ export class Matcher {
                 detailsFromEntries([
                     [null, cls],
                     ["Actual parent class:", getConstructor(received).name],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2270,6 +2532,7 @@ export class Matcher {
             name: "toBeLessThan",
             acceptedType: "number",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => this._received < max,
             message:
                 options?.message ||
@@ -2282,6 +2545,8 @@ export class Matcher {
                     ["Maximum:", max],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => received < max,
             message: options?.message,
             onPass: () => [this._received, r`is[! not] strictly less than`, max],
@@ -2290,6 +2555,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Maximum:", max],
                     [null, received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2312,6 +2580,7 @@ export class Matcher {
             name: "toBeOfType",
             acceptedType: "any",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => isOfType(this._received, type),
             message:
                 options?.message ||
@@ -2324,6 +2593,8 @@ export class Matcher {
                     ["Expected type:", type],
                     ["Received value:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => isOfType(received, type),
             message: options?.message,
             onPass: () => [this._received, r`is[! not] of type`, type],
@@ -2332,6 +2603,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Expected type:", type],
                     ["Received value:", received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2364,6 +2638,7 @@ export class Matcher {
             name: "toBeWithin",
             acceptedType: "number",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => min <= this._received && this._received <= max,
             message:
                 options?.message ||
@@ -2373,11 +2648,16 @@ export class Matcher {
                         : [r`expected value[! not] to be between given range`]),
             getFailedDetails: () => detailsFromValues(`${min} - ${max}`, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => min <= received && received <= max,
             message: options?.message,
             onPass: () => [this._received, r`is[! not] between`, min, r`and`, max],
             onFail: () => [r`expected value[! not] to be between given range`],
             getFailedDetails: (received) => detailsFromValues(`${min} - ${max}`, received),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2399,6 +2679,7 @@ export class Matcher {
             name: "toEqual",
             acceptedType: "any",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => deepEqual(this._received, expected, options),
             message:
                 options?.message ||
@@ -2408,11 +2689,16 @@ export class Matcher {
                         : [r`expected values to[! not] be deeply equal`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => deepEqual(expected, received, options),
             message: options?.message,
             onPass: () => [r`received value is[! not] deeply equal to`, this._received],
             onFail: () => [r`expected values to[! not] be deeply equal`],
             getFailedDetails: (received) => detailsFromValuesWithDiff(expected, received),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2443,12 +2729,18 @@ export class Matcher {
                 acceptedType: ["string", "array", "object"],
                 predicate: () => strictEqual(receivedLength, length),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     ((pass) =>
                         pass
                             ? [this._received, r`has[! not] a length of`, length]
                             : [r`expected value[! not] to have the given length`]),
+=======
+                message: options?.message,
+                onPass: () => [this._received, r`has[! not] a length of`, length],
+                onFail: () => [r`expected value[! not] to have the given length`],
+>>>>>>> upstream/18.0
 =======
                 message: options?.message,
                 onPass: () => [this._received, r`has[! not] a length of`, length],
@@ -2490,6 +2782,7 @@ export class Matcher {
             name: "toInclude",
             acceptedType: ["string", "any[]", "object"],
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => includes(this._received, item),
             message:
                 options?.message ||
@@ -2502,6 +2795,8 @@ export class Matcher {
                     ["Item:", item],
                     ["Object:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => includes(received, item),
             message: options?.message,
             onPass: () => [this._received, r`[includes!does not include]`, item],
@@ -2510,6 +2805,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Item:", item],
                     ["Object:", received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2532,6 +2830,7 @@ export class Matcher {
             name: "toMatch",
             acceptedType: "any",
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => match(this._received, matcher),
             message:
                 options?.message ||
@@ -2544,6 +2843,8 @@ export class Matcher {
                     ["Matcher:", matcher],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => match(received, matcher),
             message: options?.message,
             onPass: () => [this._received, r`[matches!does not match]`, matcher],
@@ -2552,6 +2853,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Matcher:", matcher],
                     [null, received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2574,7 +2878,10 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2646,6 +2953,7 @@ export class Matcher {
             name: "toMatchObject",
             acceptedType: ["object"],
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => deepEqual(this._received, partialObject, { partial: true }),
             message:
                 options?.message ||
@@ -2658,6 +2966,8 @@ export class Matcher {
                     ["Partial object:", partialObject],
                     ["Object:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (received) => deepEqual(received, partialObject, { partial: true }),
             message: options?.message,
             onPass: () => [this._received, r`[matches!does not match] object`, partialObject],
@@ -2666,6 +2976,9 @@ export class Matcher {
                 detailsFromEntries([
                     ["Partial object:", partialObject],
                     ["Object:", received],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 ]),
         }));
@@ -2687,6 +3000,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2747,6 +3063,7 @@ export class Matcher {
                 acceptedType: ["function", "error"],
                 predicate: () => match(returnValue, matcher),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     ((pass) =>
@@ -2762,6 +3079,8 @@ export class Matcher {
                                   } a value that did not match the given matcher`,
                               ]),
 =======
+=======
+>>>>>>> upstream/18.0
                 message: options?.message,
                 onPass: () => [
                     this._received,
@@ -2773,6 +3092,9 @@ export class Matcher {
                         isAsync ? "rejected" : "threw"
                     } a value that did not match the given matcher`,
                 ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 getFailedDetails: () =>
                     detailsFromEntries([
@@ -2806,6 +3128,7 @@ export class Matcher {
             acceptedType: ["string", "node", "node[]"],
             mapElements: (el) => el.matches?.(pseudo),
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: (checked) => Boolean(checked),
             message:
                 options?.message ||
@@ -2815,11 +3138,16 @@ export class Matcher {
                         : [r`expected`, this._received, r`[! not] to be ${prop}`]),
             getFailedDetails: (val) => detailsFromEntries([["Checked:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (checked) => !!checked,
             message: options?.message,
             onPass: () => [this._received, r`[is%are][! not] ${prop}`],
             onFail: () => [r`expected`, this._received, r`[! not] to be ${prop}`],
             getFailedDetails: (checked) => detailsFromEntries([["Checked:", checked]]),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2838,6 +3166,7 @@ export class Matcher {
     toBeDisplayed(options) {
         this._ensureArguments(arguments);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return this._resolve(() => {
             const elMap = new ElementMap(this._received);
@@ -2868,6 +3197,8 @@ export class Matcher {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
         return this._resolve(() => ({
             name: "toBeDisplayed",
             acceptedType: ["string", "node", "node[]"],
@@ -2878,6 +3209,9 @@ export class Matcher {
             onFail: () => [r`expected`, this._received, r`[! not] to be displayed`],
             getFailedDetails: (displayed) => detailsFromEntries([["Displayed:", displayed]]),
         }));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -2899,6 +3233,7 @@ export class Matcher {
             acceptedType: ["string", "node", "node[]"],
             mapElements: (el) => el.matches?.(":enabled"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: (enabled) => Boolean(enabled),
             message:
                 options?.message ||
@@ -2908,11 +3243,16 @@ export class Matcher {
                         : [r`expected`, this._received, r`to be [enabled!disabled]`]),
             getFailedDetails: (val) => detailsFromEntries([["Enabled:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
             predicate: (enabled) => !!enabled,
             message: options?.message,
             onPass: () => [this._received, r`[is%are] [enabled!disabled]`],
             onFail: () => [r`expected`, this._received, r`to be [enabled!disabled]`],
             getFailedDetails: (enabled) => detailsFromEntries([["Enabled:", enabled]]),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2931,6 +3271,7 @@ export class Matcher {
             mapElements: (el) => getActiveElement(el),
             predicate: (activeEl, el) => strictEqual(el, activeEl),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -2939,10 +3280,15 @@ export class Matcher {
                         : [this._received, r`should[! not] be focused`]),
             getFailedDetails: (val) => detailsFromEntries([["Focused:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`[is%are][! not] focused`],
             onFail: () => [this._received, r`should[! not] be focused`],
             getFailedDetails: (focused) => detailsFromEntries([["Focused:", focused]]),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -2962,6 +3308,7 @@ export class Matcher {
     toBeVisible(options) {
         this._ensureArguments(arguments);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return this._resolve(() => {
             const elMap = new ElementMap(this._received);
@@ -2992,6 +3339,8 @@ export class Matcher {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
         return this._resolve(() => ({
             name: "toBeVisible",
             acceptedType: ["string", "node", "node[]"],
@@ -3002,6 +3351,9 @@ export class Matcher {
             onFail: () => [r`expected`, this._received, r`to be [visible!hidden]`],
             getFailedDetails: (visible) => detailsFromEntries([["Visible:", visible]]),
         }));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -3029,6 +3381,7 @@ export class Matcher {
             predicate: (elAttr, el) =>
                 expectsValue ? valueMatches(elAttr, value) : el.hasAttribute(attribute),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3052,6 +3405,8 @@ export class Matcher {
             getFailedDetails: (val) =>
                 detailsFromValuesWithDiff(expectsValue ? value : attribute, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [
                 r`attribute`,
@@ -3066,6 +3421,9 @@ export class Matcher {
             ],
             getFailedDetails: (elAttr) =>
                 detailsFromValuesWithDiff(expectsValue ? value : attribute, elAttr),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3095,6 +3453,7 @@ export class Matcher {
                     ? deepEqual(classNames, classes, { ignoreOrder: true })
                     : classNames.every((cls) => classes.includes(cls)),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3112,6 +3471,8 @@ export class Matcher {
                               r`[to have all!not to have any] of the given class names`,
                           ]),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [
                 this._received,
@@ -3123,6 +3484,9 @@ export class Matcher {
                 this._received,
                 r`[to have all!not to have any] of the given class names`,
             ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             getFailedDetails: (classes) =>
                 detailsFromValues(classNames.join(" "), classes.join(" ")),
@@ -3154,6 +3518,7 @@ export class Matcher {
                 acceptedType: ["string", "node", "node[]"],
                 predicate: () => (anyAmount ? elMap.size > 0 : strictEqual(elMap.size, amount)),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     (() => [
@@ -3162,6 +3527,8 @@ export class Matcher {
                         ...(anyAmount ? [r`and expected [any amount!none]`] : []),
                     ]),
 =======
+=======
+>>>>>>> upstream/18.0
                 message: options?.message,
                 onPass: () => [r`found`, elMap],
                 onFail: () => [
@@ -3169,6 +3536,9 @@ export class Matcher {
                     elMap,
                     ...(anyAmount ? [r`and expected [any amount!none]`] : []),
                 ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 getFailedDetails: () => [
                     ...detailsFromValues(
@@ -3240,6 +3610,7 @@ export class Matcher {
             predicate: (elProp, el) =>
                 expectsValue ? valueMatches(elProp, value) : property in el,
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3262,6 +3633,8 @@ export class Matcher {
             getFailedDetails: (val) =>
                 detailsFromValuesWithDiff(expectsValue ? value : property, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [
                 r`property`,
@@ -3276,6 +3649,9 @@ export class Matcher {
             ],
             getFailedDetails: (elProp) =>
                 detailsFromValuesWithDiff(expectsValue ? value : property, elProp),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3316,6 +3692,7 @@ export class Matcher {
             mapElements: (el) => getNodeRect(el, options),
             predicate: (elRect) => entries.every(([key, val]) => strictEqual(elRect[key], val)),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3324,10 +3701,15 @@ export class Matcher {
                         : [r`expected`, this._received, r`to have the given DOM rect`]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(rect, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`[has%have] the expected DOM rect of`, rect],
             onFail: () => [r`expected`, this._received, r`to have the given DOM rect`],
             getFailedDetails: (elRect) => detailsFromValuesWithDiff(rect, elRect),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3359,6 +3741,7 @@ export class Matcher {
                 styleKeys.every((key) => valueMatches(elStyle[key], styleDef[key])) &&
                 (!options?.exact || deepEqual(styleKeys, $keys(elStyle), { ignoreOrder: true })),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3375,6 +3758,8 @@ export class Matcher {
                           ]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(styleDef, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [
                 this._received,
@@ -3387,6 +3772,9 @@ export class Matcher {
                 r`[to have all!not to have any] of the given style properties`,
             ],
             getFailedDetails: (elStyle) => detailsFromValuesWithDiff(styleDef, elStyle),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3414,6 +3802,7 @@ export class Matcher {
             mapElements: (el) => getNodeText(el, options),
             predicate: (elText) => (expectsText ? valueMatches(elText, text) : elText.length > 0),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3422,10 +3811,15 @@ export class Matcher {
                         : [r`expected`, this._received, r`[! not] to have the given text`]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(text, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`[[has%have]![does%do] not have] text`, text],
             onFail: () => [r`expected`, this._received, r`[! not] to have the given text`],
             getFailedDetails: (elText) => detailsFromValuesWithDiff(text, elText),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3479,6 +3873,7 @@ export class Matcher {
                 return valueMatches(elValue, value);
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3487,10 +3882,15 @@ export class Matcher {
                         : [r`expected`, this._received, r`[! not] to have the given value`]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(value, val),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`[[has%have]![does%do] not have] value`, value],
             onFail: () => [r`expected`, this._received, r`[! not] to have the given value`],
             getFailedDetails: (elValue) => detailsFromValuesWithDiff(value, elValue),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }));
     }
@@ -3604,9 +4004,12 @@ export class Matcher {
      */
     _resolveFinalResult(specCallback) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { name, acceptedType, mapElements, predicate, message, getFailedDetails } =
             specCallback();
 =======
+=======
+>>>>>>> upstream/18.0
         let {
             acceptedType,
             getFailedDetails,
@@ -3617,6 +4020,9 @@ export class Matcher {
             onPass,
             predicate,
         } = specCallback();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         const types = ensureArray(acceptedType);
@@ -3632,6 +4038,7 @@ export class Matcher {
             this._received = new ElementMap(this._received, mapElements);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const not = this._flags & FLAGS.not;
         const passPredicate = (...args) => (not ? !predicate(...args) : predicate(...args));
         const pass = mapElements ? this._received.every(passPredicate) : passPredicate();
@@ -3643,6 +4050,8 @@ export class Matcher {
                 flags: this._flags,
                 pass,
 =======
+=======
+>>>>>>> upstream/18.0
         function passPredicate(...args) {
             return not ? !predicate(...args) : predicate(...args);
         }
@@ -3664,6 +4073,9 @@ export class Matcher {
                 message,
                 pass,
                 reportMessage: pass ? onPass : onFail,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             };
             if (!pass) {
@@ -3674,7 +4086,11 @@ export class Matcher {
                     );
                 } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     assertion.failedDetails = getFailedDetails();
+=======
+                    assertion.failedDetails = getFailedDetails(this._received);
+>>>>>>> upstream/18.0
 =======
                     assertion.failedDetails = getFailedDetails(this._received);
 >>>>>>> upstream/18.0
@@ -3708,6 +4124,7 @@ export class Matcher {
                 formatXml(el[property], { ...options, type: "html" }),
             predicate: (elHtml) => valueMatches(elHtml, expected),
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -3721,6 +4138,8 @@ export class Matcher {
                               r`to match the given value`,
                           ]),
 =======
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [property, r`of`, this._received, r`is[! not] equal to expected value`],
             onFail: () => [
@@ -3730,6 +4149,9 @@ export class Matcher {
                 this._received,
                 r`to match the given value`,
             ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             getFailedDetails: (val) => detailsFromValuesWithDiff(expected, val),
         }));
@@ -3751,6 +4173,11 @@ export class CaseEvent {
 
 export class Assertion extends CaseEvent {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /** @type {string | null | undefined} */
+    additionalMessage;
+>>>>>>> upstream/18.0
 =======
     /** @type {string | null | undefined} */
     additionalMessage;
@@ -3760,12 +4187,18 @@ export class Assertion extends CaseEvent {
     /**
      * @param {number} number
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {Partial<Assertion & { message: AssertionMessage }>} values
 =======
+=======
+>>>>>>> upstream/18.0
      * @param {Partial<Assertion & {
      *  message: AssertionMessage,
      *  reportMessage: AssertionReportMessage,
      * }>} values
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      */
     constructor(number, values) {
@@ -3784,6 +4217,7 @@ export class Assertion extends CaseEvent {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         let { message } = values;
         if (typeof message === "function") {
             message = message(this.pass, r);
@@ -3791,6 +4225,8 @@ export class Assertion extends CaseEvent {
 
         const parts = $isArray(message) && !isLabel(message) ? message : [makeLabel(message, null)];
 =======
+=======
+>>>>>>> upstream/18.0
         let { message, reportMessage } = values;
 
         // Message
@@ -3808,6 +4244,9 @@ export class Assertion extends CaseEvent {
             $isArray(reportMessage) && !isLabel(reportMessage)
                 ? reportMessage
                 : [makeLabel(reportMessage, null)];
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const plural = parts.some((p) => p instanceof ElementMap && p.size !== 1);
         const not = this.flags & FLAGS.not;

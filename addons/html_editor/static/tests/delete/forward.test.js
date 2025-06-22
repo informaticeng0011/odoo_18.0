@@ -1,5 +1,6 @@
 import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { testEditor, setupEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { tick } from "@odoo/hoot-mock";
@@ -7,10 +8,15 @@ import { deleteForward, insertText, tripleClick } from "../_helpers/user_actions
 import { getContent } from "../_helpers/selection";
 import { microTick } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { getContent } from "../_helpers/selection";
 import { deleteForward, insertText, splitTripleClick } from "../_helpers/user_actions";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -1352,16 +1358,22 @@ describe("Selection not collapsed", () => {
     test("should delete a heading (triple click delete) (1)", async () => {
         const { editor, el } = await setupEditor("<h1>abc</h1><p>def</p>", {});
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
         const release = await splitTripleClick(el.querySelector("h1"));
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
         await release();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // The Editor corrects it on selection change
         expect(getContent(el)).toBe("<h1>[abc]</h1><p>def</p>");
@@ -1373,16 +1385,22 @@ describe("Selection not collapsed", () => {
     test("should delete a heading (triple click delete) (2)", async () => {
         const { editor, el } = await setupEditor("<h1>abc</h1><p><br></p><p>def</p>", {});
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
         const release = await splitTripleClick(el.querySelector("h1"));
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await release();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // The Editor corrects it on selection change
         expect(getContent(el)).toBe("<h1>[abc]</h1><p><br></p><p>def</p>");

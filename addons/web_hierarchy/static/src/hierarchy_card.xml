@@ -9,7 +9,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button t-if="props.node.parentResId !== false and !props.node.parentNode"
+=======
+                <button t-if="props.node.parentResId !== false and !props.node.parentNode and props.node.parentResId !== props.node.resId"
+>>>>>>> upstream/18.0
 =======
                 <button t-if="props.node.parentResId !== false and !props.node.parentNode and props.node.parentResId !== props.node.resId"
 >>>>>>> upstream/18.0

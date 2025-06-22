@@ -110,7 +110,10 @@ def is_valid_structured_reference_nl(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162,6 +165,9 @@ def is_valid_structured_reference_si(reference):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -183,6 +189,10 @@ def is_valid_structured_reference(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        is_valid_structured_reference_si(reference) or
+>>>>>>> upstream/18.0
 =======
         is_valid_structured_reference_si(reference) or
 >>>>>>> upstream/18.0

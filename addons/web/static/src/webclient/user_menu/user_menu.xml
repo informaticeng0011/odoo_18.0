@@ -23,6 +23,7 @@
                                     onSelected="element.callback"
                                 >
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <CheckBox
                                         t-if="element.type == 'switch'"
                                         value="element.isChecked"
@@ -33,6 +34,8 @@
                                     </CheckBox>
                                     <t t-else="" t-out="element.description"/>
 =======
+=======
+>>>>>>> upstream/18.0
                                 <div class="d-flex justify-content-between p-0 w-100">
                                     <t t-out="element.description"/>
                                     <CheckBox
@@ -43,6 +46,9 @@
                                     >
                                     </CheckBox>
                                 </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                                 </DropdownItem>
                                 <div t-if="element.type == 'separator'" role="separator" class="dropdown-divider"/>
@@ -55,7 +61,11 @@
     </t>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 </templates>
+=======
+</templates>
+>>>>>>> upstream/18.0
 =======
 </templates>
 >>>>>>> upstream/18.0

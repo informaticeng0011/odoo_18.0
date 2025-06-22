@@ -15,6 +15,10 @@ import {
     ordinal,
 } from "../hoot_utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { HootCopyButton } from "./hoot_copy_button";
+>>>>>>> upstream/18.0
 =======
 import { HootCopyButton } from "./hoot_copy_button";
 >>>>>>> upstream/18.0
@@ -26,6 +30,10 @@ import { HootTechnicalValue } from "./hoot_technical_value";
  * @typedef {import("../core/expect").CaseEventType} CaseEventType
  * @typedef {import("../core/expect").CaseResult} CaseResult
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {import("./setup_hoot_ui").StatusFilter} StatusFilter
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("./setup_hoot_ui").StatusFilter} StatusFilter
 >>>>>>> upstream/18.0
@@ -38,7 +46,10 @@ import { HootTechnicalValue } from "./hoot_technical_value";
 const {
     Boolean,
 <<<<<<< HEAD
+<<<<<<< HEAD
     Map,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     Object: { entries: $entries, fromEntries: $fromEntries },
@@ -50,11 +61,14 @@ const {
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} label
  * @param {string} owner
  */
 const stackTemplate = (label, owner) => {
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {[number, CaseEvent][]} indexedResults
  * @param {number} events
  */
@@ -88,6 +102,9 @@ function filterResults(results, statusFilter) {
  * @param {string} owner
  */
 function stackTemplate(label, owner) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     // Defined with string concat because line returns are taken into account in <pre> tags.
     const preContent =
@@ -106,7 +123,11 @@ function stackTemplate(label, owner) {
         </t>
     `;
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -184,10 +205,13 @@ const EVENT_TEMPLATE = /* xml */ `
     </div>
     <t t-set="timestamp" t-value="formatTime(event.ts - (result.ts || 0), 'ms')" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <small class="text-gray flex items-center" t-att-title="timestamp">
         <t t-esc="'@' + timestamp" />
     </small>
 =======
+=======
+>>>>>>> upstream/18.0
     <small class="flex items-center text-gray" t-att-title="timestamp">
         <t t-esc="'@' + timestamp" />
     </small>
@@ -197,6 +221,9 @@ const EVENT_TEMPLATE = /* xml */ `
             <HootCopyButton text="event.additionalMessage" />
         </div>
     </t>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     <t t-if="!event.pass">
         <t t-if="event.failedDetails">
@@ -242,7 +269,11 @@ const R_STACK_LINE_START = isFirefox()
 /** @extends {Component<TestResultProps, import("../hoot").Environment>} */
 export class HootTestResult extends Component {
 <<<<<<< HEAD
+<<<<<<< HEAD
     static components = { HootLink, HootTechnicalValue };
+=======
+    static components = { HootCopyButton, HootLink, HootTechnicalValue };
+>>>>>>> upstream/18.0
 =======
     static components = { HootCopyButton, HootLink, HootTechnicalValue };
 >>>>>>> upstream/18.0
@@ -274,12 +305,15 @@ export class HootTestResult extends Component {
             </button>
             <t t-if="state.showDetails and !props.test.config.skip">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <t t-foreach="results" t-as="result" t-key="result_index">
                     <t t-if="results.length > 1">
                         <div class="flex justify-between mx-2 my-1">
                             <span t-attf-class="text-{{ result.pass ? 'emerald' : 'rose' }}">
                                 <t t-esc="ordinal(result_index + 1)" /> run:
 =======
+=======
+>>>>>>> upstream/18.0
                 <t t-foreach="filteredResults" t-as="indexedResult" t-key="indexedResult[0]">
                     <t t-set="index" t-value="indexedResult[0]" />
                     <t t-set="result" t-value="indexedResult[1]" />
@@ -287,6 +321,9 @@ export class HootTestResult extends Component {
                         <div class="flex justify-between mx-2 my-1">
                             <span t-attf-class="text-{{ result.pass ? 'emerald' : 'rose' }}">
                                 <t t-esc="ordinal(index)" /> run:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             </span>
                             <t t-set="timestamp" t-value="formatTime(result.duration, 'ms')" />
@@ -297,15 +334,21 @@ export class HootTestResult extends Component {
                     </t>
                     <div class="hoot-result-detail grid gap-1 rounded overflow-x-auto p-1 mx-2 animate-slide-down">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <t t-if="!filteredEvents.get(result).length">
                             <em class="text-gray px-2 py-1">No test event to show</em>
                         </t>
                         <t t-foreach="filteredEvents.get(result)" t-as="event" t-key="event_index">
 =======
+=======
+>>>>>>> upstream/18.0
                         <t t-if="!filteredEvents[index].length">
                             <em class="text-gray px-2 py-1">No test event to show</em>
                         </t>
                         <t t-foreach="filteredEvents[index]" t-as="event" t-key="event_index">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             <t t-set="sType" t-value="getTypeName(event.type)" />
                             <t t-set="eventIcon" t-value="CASE_EVENT_TYPES[sType].icon" />
@@ -359,11 +402,14 @@ export class HootTestResult extends Component {
     ordinal = ordinal;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         subscribeToURLParams("*");
 
         this.config = useState(this.env.runner.config);
 =======
+=======
+>>>>>>> upstream/18.0
     /** @type {ReturnType<typeof filterEvents>} */
     filteredEvents;
     /** @type {[number, CaseEvent][]} */
@@ -374,6 +420,9 @@ export class HootTestResult extends Component {
 
         const { runner, ui } = this.env;
         this.config = useState(runner.config);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.logs = useState(this.props.test.logs);
         this.results = useState(this.props.test.results);
@@ -382,6 +431,7 @@ export class HootTestResult extends Component {
             showDetails: Boolean(this.props.open),
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /** @type {ReturnType<typeof this.getFilteredEvents>} */
         this.filteredEvents;
@@ -389,6 +439,11 @@ export class HootTestResult extends Component {
         onWillRender(() => {
             this.filteredEvents = this.getFilteredEvents();
         });
+=======
+        this.uiState = useState(ui);
+
+        onWillRender(this.onWillRender.bind(this));
+>>>>>>> upstream/18.0
 =======
         this.uiState = useState(ui);
 
@@ -428,6 +483,7 @@ export class HootTestResult extends Component {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @returns {[Record<CaseEventType, number>, Map<CaseResult, CaseEvent[]>]}
      */
     getFilteredEvents() {
@@ -441,6 +497,8 @@ export class HootTestResult extends Component {
     /**
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {number} nType
      */
     getTypeName(nType) {
@@ -448,12 +506,18 @@ export class HootTestResult extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onWillRender() {
         this.filteredResults = filterResults(this.results, this.uiState.statusFilter);
         this.filteredEvents = filterEvents(this.filteredResults, this.config.events);
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * @param {string} stack

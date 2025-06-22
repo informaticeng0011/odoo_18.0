@@ -32,7 +32,11 @@ const {
  * @param {JobConfig} config
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const validateConfig = (config) => {
+=======
+function validateConfig(config) {
+>>>>>>> upstream/18.0
 =======
 function validateConfig(config) {
 >>>>>>> upstream/18.0
@@ -42,7 +46,11 @@ function validateConfig(config) {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -51,7 +59,11 @@ function validateConfig(config) {
 const CONFIG_TAG_SCHEMA = {
     debug: "boolean",
 <<<<<<< HEAD
+<<<<<<< HEAD
     multi: "integer",
+=======
+    multi: "number",
+>>>>>>> upstream/18.0
 =======
     multi: "number",
 >>>>>>> upstream/18.0

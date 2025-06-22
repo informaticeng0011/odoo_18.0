@@ -41,7 +41,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -440,6 +444,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nFilter = normalize(this.state.filter);
         if (nFilter) {
             allowedIds = new Set();
@@ -447,6 +452,8 @@ export class HootSideBar extends Component {
             rootSuites = new Set();
             for (const matchingSuite of lookup(nFilter, allSuites, "name")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -564,6 +571,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -658,7 +668,11 @@ export class HootSideBar extends Component {
          * @param {Suite} suite
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
         const addSuite = (suite) => {
+=======
+        function addSuite(suite) {
+>>>>>>> upstream/18.0
 =======
         function addSuite(suite) {
 >>>>>>> upstream/18.0
@@ -673,7 +687,11 @@ export class HootSideBar extends Component {
                 addSuite(child);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+        }
+>>>>>>> upstream/18.0
 =======
         }
 >>>>>>> upstream/18.0
@@ -725,6 +743,7 @@ export class HootSideBar extends Component {
      */
     onSuiteKeydown(ev, suite) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {number} delta
          */
@@ -744,10 +763,15 @@ export class HootSideBar extends Component {
             case "ArrowDown": {
                 return selectElementAt(+1);
 =======
+=======
+>>>>>>> upstream/18.0
         const { currentTarget, key } = ev;
         switch (key) {
             case "ArrowDown": {
                 return this.selectElementAt(currentTarget, +1);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             case "ArrowLeft": {
@@ -755,7 +779,11 @@ export class HootSideBar extends Component {
                     return this.toggleItem(suite, false);
                 } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(-1);
+=======
+                    return this.selectElementAt(currentTarget, -1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, -1);
 >>>>>>> upstream/18.0
@@ -764,7 +792,11 @@ export class HootSideBar extends Component {
             case "ArrowRight": {
                 if (this.state.unfoldedIds.has(suite.id)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(+1);
+=======
+                    return this.selectElementAt(currentTarget, +1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, +1);
 >>>>>>> upstream/18.0
@@ -773,6 +805,7 @@ export class HootSideBar extends Component {
                 }
             }
             case "ArrowUp": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 return selectElementAt(-1);
             }
@@ -892,11 +925,16 @@ export class HootSideBar extends Component {
                 actualLocation.href = createUrlFromId({ suite: suite.id });
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                 return this.selectElementAt(currentTarget, -1);
             }
             case "Enter": {
                 ev.preventDefault();
                 actualLocation.href = createUrlFromId({ suite: suite.id });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
         }
@@ -904,7 +942,10 @@ export class HootSideBar extends Component {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
      * @param {HTMLElement} target
      * @param {number} delta
      */
@@ -921,6 +962,9 @@ export class HootSideBar extends Component {
     }
 
     /**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      * @param {boolean} expanded
      */

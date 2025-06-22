@@ -12,8 +12,11 @@ import { isNode, toSelector } from "@web/../lib/hoot-dom/helpers/dom";
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 import { logger } from "../core/logger";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getTypeOf, Markup, S_ANY, S_NONE, stringify, toExplicitString } from "../hoot_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import {
     getTypeOf,
     isSafe,
@@ -23,6 +26,9 @@ import {
     stringify,
     toExplicitString,
 } from "../hoot_utils";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
@@ -49,8 +55,13 @@ const {
  * @type {typeof String.raw}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const xml = (template, ...substitutions) =>
     owlXml({
+=======
+function xml(template, ...substitutions) {
+    return owlXml({
+>>>>>>> upstream/18.0
 =======
 function xml(template, ...substitutions) {
     return owlXml({
@@ -60,6 +71,10 @@ function xml(template, ...substitutions) {
             .replace(/\s+</g, "<"),
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -206,6 +221,10 @@ export class HootTechnicalValue extends Component {
             this.isMarkup = Markup.isMarkup(this.props.value);
             this.value = toRaw(this.props.value);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.isSafe = isSafe(this.value);
+>>>>>>> upstream/18.0
 =======
             this.isSafe = isSafe(this.value);
 >>>>>>> upstream/18.0
@@ -238,6 +257,12 @@ export class HootTechnicalValue extends Component {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.isSafe) {
+            return 0;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.isSafe) {
             return 0;

@@ -35,6 +35,7 @@ export class ChatBubble extends Component {
         useEffect(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             () => {
                 this.state.bouncing = this.thread.importantCounter ? true : this.state.bouncing;
             },
@@ -42,11 +43,16 @@ export class ChatBubble extends Component {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             (importantCounter) => {
                 this.state.bouncing = Boolean(importantCounter);
             },
             () => [this.thread?.importantCounter]
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

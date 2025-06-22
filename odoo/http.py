@@ -206,6 +206,10 @@ from .tools.misc import submap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from .tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -370,9 +374,12 @@ class SessionExpiredException(Exception):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -490,6 +497,9 @@ def content_disposition(filename, disposition_type='attachment'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -745,6 +755,7 @@ class Stream:
         """ Create a :class:`~Stream`: from a binary field. """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data_b64 = record[field_name]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -765,6 +776,8 @@ class Stream:
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         data = record[field_name] or b''
 
         # Image fields enforce base64 encoding. Binary fields don't
@@ -781,6 +794,9 @@ class Stream:
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1598,7 +1614,11 @@ for attr in HTTPREQUEST_ATTRIBUTES:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Response(werkzeug.wrappers.Response):
+=======
+class _Response(werkzeug.wrappers.Response):
+>>>>>>> upstream/18.0
 =======
 class _Response(werkzeug.wrappers.Response):
 >>>>>>> upstream/18.0
@@ -1677,7 +1697,11 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls(result)
+=======
+            return Response(result)
+>>>>>>> upstream/18.0
 =======
             return Response(result)
 >>>>>>> upstream/18.0
@@ -1744,7 +1768,10 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1892,6 +1919,9 @@ werkzeug.exceptions.abort = abort
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2217,7 +2247,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -2946,7 +2980,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

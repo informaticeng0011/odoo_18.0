@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ProductProduct } from "./mock_server/mock_models/product_product";
 import { defineSaleModels } from "./sale_test_helpers";
 import { startServer } from "@mail/../tests/mail_test_helpers";
 import { expect, getFixture, test } from "@odoo/hoot";
 import { animationFrame, click, edit } from "@odoo/hoot-dom";
+=======
+import { startServer } from "@mail/../tests/mail_test_helpers";
+import { expect, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { startServer } from "@mail/../tests/mail_test_helpers";
 import { expect, test } from "@odoo/hoot";
@@ -14,14 +19,20 @@ import {
     contains,
     mountView,
 <<<<<<< HEAD
+<<<<<<< HEAD
     serverState
 } from "@web/../tests/web_test_helpers";
 
 =======
+=======
+>>>>>>> upstream/18.0
     serverState,
 } from "@web/../tests/web_test_helpers";
 import { ProductProduct } from "./mock_server/mock_models/product_product";
 import { defineSaleModels } from "./sale_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const WithTranslatedNameForm = `
@@ -56,12 +67,15 @@ test("On updated form, product name should stay hidden", async () => {
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nA description"),
             translated_product_name: "Produit de test",
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -69,6 +83,9 @@ test("On updated form, product name should stay hidden", async () => {
                 translated_product_name: "Produit de test",
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -88,12 +105,15 @@ test("On updated form, translated product name should be hidden if present", asy
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: translatedProductName.concat("\nA description"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -101,6 +121,9 @@ test("On updated form, translated product name should be hidden if present", asy
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -119,12 +142,15 @@ test("On outdated form, should continue to hide product name", async () => {
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nA description"),
             translated_product_name: "Produit de test",
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -132,6 +158,9 @@ test("On outdated form, should continue to hide product name", async () => {
                 translated_product_name: "Produit de test",
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -151,12 +180,15 @@ test("On outdated form and translated product name already in the SOL name, shou
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\n", translatedProductName, "\nA description"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -164,6 +196,9 @@ test("On outdated form and translated product name already in the SOL name, shou
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -175,7 +210,11 @@ test("On outdated form and translated product name already in the SOL name, shou
 
     expect(".o_field_product_label_section_and_note_cell textarea").toHaveValue(
 <<<<<<< HEAD
+<<<<<<< HEAD
         translatedProductName.concat("\nA description"),
+=======
+        translatedProductName.concat("\nA description")
+>>>>>>> upstream/18.0
 =======
         translatedProductName.concat("\nA description")
 >>>>>>> upstream/18.0
@@ -189,12 +228,15 @@ test("On outdated form, editing the description should work as before", async ()
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nsomething wrong"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -202,6 +244,9 @@ test("On outdated form, editing the description should work as before", async ()
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     const [so] = pyEnv["sale.order"].browse(soId);
@@ -214,10 +259,14 @@ test("On outdated form, editing the description should work as before", async ()
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_field_product_label_section_and_note_cell textarea").focus();
     await edit("A description");
     await click(getFixture());
     await animationFrame()
+=======
+    await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
+>>>>>>> upstream/18.0
 =======
     await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
 >>>>>>> upstream/18.0
@@ -234,12 +283,15 @@ test("On updated form, editing the description shouldn't show the translated pro
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name.concat("\nsomething wrong"),
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -247,6 +299,9 @@ test("On updated form, editing the description shouldn't show the translated pro
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     const [so] = pyEnv["sale.order"].browse(soId);
@@ -259,10 +314,14 @@ test("On updated form, editing the description shouldn't show the translated pro
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_field_product_label_section_and_note_cell textarea").focus();
     await edit("A description");
     await click(getFixture());
     await animationFrame()
+=======
+    await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
+>>>>>>> upstream/18.0
 =======
     await contains(".o_field_product_label_section_and_note_cell textarea").edit("A description");
 >>>>>>> upstream/18.0
@@ -274,7 +333,10 @@ test("On updated form, editing the description shouldn't show the translated pro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -287,12 +349,15 @@ test("No description should be shown if there does not exist one apart from the 
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: product.name,
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -300,6 +365,9 @@ test("No description should be shown if there does not exist one apart from the 
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -310,7 +378,11 @@ test("No description should be shown if there does not exist one apart from the 
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_product_label_section_and_note_cell textarea").not.toBeDisplayed();
+=======
+    expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -323,12 +395,15 @@ test("No description should be shown if there does not exist one apart from the 
     const soId = pyEnv["sale.order"].create({
         partner_id: serverState.partnerId,
 <<<<<<< HEAD
+<<<<<<< HEAD
         order_line: [Command.create({
             product_id: product.id,
             name: translatedProductName,
             translated_product_name: translatedProductName,
         })],
 =======
+=======
+>>>>>>> upstream/18.0
         order_line: [
             Command.create({
                 product_id: product.id,
@@ -336,6 +411,9 @@ test("No description should be shown if there does not exist one apart from the 
                 translated_product_name: translatedProductName,
             }),
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     await mountView({
@@ -346,11 +424,16 @@ test("No description should be shown if there does not exist one apart from the 
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_product_label_section_and_note_cell textarea").not.toBeDisplayed();
 });
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();
+});
 >>>>>>> upstream/18.0
 =======
     expect(".o_field_product_label_section_and_note_cell textarea").not.toHaveCount();

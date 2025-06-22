@@ -12,7 +12,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Many2ManyBinaryField
+=======
+    Many2ManyBinaryField,
+>>>>>>> upstream/18.0
 =======
     Many2ManyBinaryField,
 >>>>>>> upstream/18.0
@@ -73,6 +77,12 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.env.fullComposerBus.trigger("ATTACHMENT_REMOVED", {
+            id: attachment.id,
+        });
+>>>>>>> upstream/18.0
 =======
         this.env.fullComposerBus.trigger("ATTACHMENT_REMOVED", {
             id: attachment.id,

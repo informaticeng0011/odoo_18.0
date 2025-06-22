@@ -366,8 +366,14 @@ msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "additional tolerance."
 msgstr "根據員工的工作時間表，自動為下班員工簽出，並可設定額外的容差。"
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "additional tolerance. Does not apply to employees with a flexible working "
 "schedule."
@@ -973,6 +979,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "若勾選，報告會顯示值勤未涵蓋的日子。"
 =======
 msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
@@ -1081,6 +1088,10 @@ msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
 >>>>>>> upstream/18.0
 =======
 msgstr "若勾選，報告會顯示沒有值勤記錄的日子。"
+>>>>>>> upstream/18.0
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr "若勾選，報告會顯示沒有值勤記錄的日子。不適用於使用彈性工作時間表的員工。"
 >>>>>>> upstream/18.0
 =======
 " Does not apply to employees with a flexible working schedule."
@@ -1478,11 +1489,14 @@ msgstr "RFID 標籤，以平板電腦的讀取器讀取"
 #. module: hr_attendance
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "評分"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

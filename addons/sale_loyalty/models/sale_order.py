@@ -32,8 +32,13 @@ import random
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from collections import defaultdict
+=======
+from collections import defaultdict
+from functools import partial
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 from functools import partial
@@ -259,7 +264,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         points_per_coupon = defaultdict(dict)
+=======
+        points_per_coupon = defaultdict(partial(defaultdict, int))
+>>>>>>> upstream/18.0
 =======
         points_per_coupon = defaultdict(partial(defaultdict, int))
 >>>>>>> upstream/18.0
@@ -385,7 +394,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             points_per_coupon[line.coupon_id]['cost'] = line.points_cost
+=======
+            points_per_coupon[line.coupon_id]['cost'] += line.points_cost
+>>>>>>> upstream/18.0
 =======
             points_per_coupon[line.coupon_id]['cost'] += line.points_cost
 >>>>>>> upstream/18.0
@@ -698,6 +711,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -1089,7 +1107,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.coupon_point_ids.coupon_id.program_id
+=======
+        return self.coupon_point_ids.filtered('points').coupon_id.program_id
+>>>>>>> upstream/18.0
 =======
         return self.coupon_point_ids.filtered('points').coupon_id.program_id
 >>>>>>> upstream/18.0
@@ -1255,7 +1277,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.coupon_point_ids.coupon_id.filtered(lambda c: c.program_id.applies_on == 'future')
+=======
+        return self.coupon_point_ids.filtered('points').coupon_id.filtered(
+            lambda c: c.program_id.applies_on == 'future',
+        )
+>>>>>>> upstream/18.0
 =======
         return self.coupon_point_ids.filtered('points').coupon_id.filtered(
             lambda c: c.program_id.applies_on == 'future',
@@ -1575,6 +1603,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if vals['product_id'] == line.product_id.id:
+                vals['name'] = line.name  # Preserve custom description
+>>>>>>> upstream/18.0
 =======
             if vals['product_id'] == line.product_id.id:
                 vals['name'] = line.name  # Preserve custom description
@@ -1803,6 +1836,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def compute_discount(reward, discountable):
             """Compute the discount amount for the given reward, w.r.t. the discountable amount.
 
@@ -1823,6 +1857,10 @@ class SaleOrder(models.Model):
 
         discount_current_reward = compute_discount(current_reward, discountable)
         discount_new_reward = compute_discount(new_reward, discountable)
+=======
+        discount_current_reward = self._get_discount_amount(current_reward, discountable)
+        discount_new_reward = self._get_discount_amount(new_reward, discountable)
+>>>>>>> upstream/18.0
 =======
         discount_current_reward = self._get_discount_amount(current_reward, discountable)
         discount_new_reward = self._get_discount_amount(new_reward, discountable)
@@ -2171,7 +2209,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2382,6 +2423,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3040,6 +3084,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             global_reward = program.reward_ids.filtered('is_global_discount')
             applied_global_reward = self._get_applied_global_discount()
             if (
@@ -3047,6 +3092,8 @@ class SaleOrder(models.Model):
                 and applied_global_reward
                 and self._best_global_discount_already_applied(applied_global_reward, global_reward)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3251,6 +3298,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3449,8 +3499,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     discount=global_reward.description,
                     other_discount=applied_global_reward.program_id.reward_ids.description,
+=======
+                    discount=best_global_rewards.description,
+                    other_discount=applied_global_reward.description
+>>>>>>> upstream/18.0
 =======
                     discount=best_global_rewards.description,
                     other_discount=applied_global_reward.description

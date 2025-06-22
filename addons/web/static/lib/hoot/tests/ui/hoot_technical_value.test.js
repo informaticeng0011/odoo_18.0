@@ -2,8 +2,12 @@
 
 import { after, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { click } from "@odoo/hoot-dom";
 import { animationFrame, Deferred } from "@odoo/hoot-mock";
+=======
+import { animationFrame, click, Deferred } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, click, Deferred } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -122,7 +126,10 @@ describe(parseUrl(import.meta.url), () => {
         expect(".hoot-technical").toHaveText(`Deferred<\nfulfilled\n:\n"oui"\n>`);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("evaluation of unsafe value does not crash", async () => {
         const logDebug = logger.debug;
@@ -147,5 +154,8 @@ describe(parseUrl(import.meta.url), () => {
 
         expect.verifySteps(["debug"]);
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

@@ -23,7 +23,11 @@ import { NameAndSignature } from "@web/core/signature/name_and_signature";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class SignatureForm extends Component {
+=======
+export class SignatureForm extends Component {
+>>>>>>> upstream/18.0
 =======
 export class SignatureForm extends Component {
 >>>>>>> upstream/18.0

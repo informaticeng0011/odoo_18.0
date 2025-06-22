@@ -4,7 +4,11 @@
 import logging
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, exceptions, _
+=======
+from odoo import api, models, exceptions, _, release
+>>>>>>> upstream/18.0
 =======
 from odoo import api, models, exceptions, _, release
 >>>>>>> upstream/18.0
@@ -29,6 +33,11 @@ class IapAutocompleteEnrichAPI(models.AbstractModel):
         params.update({
             'db_uuid': self.env['ir.config_parameter'].sudo().get_param('database.uuid'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'db_version': release.version,
+            'db_lang': self.env.lang,
+>>>>>>> upstream/18.0
 =======
             'db_version': release.version,
             'db_lang': self.env.lang,

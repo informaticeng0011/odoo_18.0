@@ -316,9 +316,14 @@ div.media_iframe_video {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         @include o-position-absolute($top: 0);
         margin: 0 auto;
         margin-left: -50%;
+=======
+        @include o-position-absolute($top: 0, $left: 0, $right: 0);
+        margin: 0 auto;
+>>>>>>> upstream/18.0
 =======
         @include o-position-absolute($top: 0, $left: 0, $right: 0);
         margin: 0 auto;

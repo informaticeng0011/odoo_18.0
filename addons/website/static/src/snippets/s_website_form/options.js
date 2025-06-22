@@ -133,6 +133,7 @@ const FormEditor = options.Class.extend({
      * @private
      * @param {string} type the type of the field
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {string} name The name of the field used also as label
      * @returns {Object}
      */
@@ -141,6 +142,8 @@ const FormEditor = options.Class.extend({
             name: name,
             string: name,
 =======
+=======
+>>>>>>> upstream/18.0
      * @param {string} label The label of the field. Also used as the field's
      *                       name if no `name` is provided.
      * @param {string} [name] The name of the field. Falls back to `label` if
@@ -151,6 +154,9 @@ const FormEditor = options.Class.extend({
         return {
             name: name || label,
             string: label,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             custom: true,
             type: type,
@@ -296,11 +302,17 @@ const FieldEditor = FormEditor.extend({
         if (this._isFieldCustom()) {
             field = this._getCustomField(this.$target[0].dataset.type, labelText);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             const inputName = this.$target[0]
                 .querySelector(".s_website_form_input")
                 .getAttribute("name");
             field = this._getCustomField(this.$target[0].dataset.type, labelText, inputName);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         } else {
             field = Object.assign({}, this.fields[this._getFieldName()]);
@@ -922,10 +934,13 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
             const formatInfo = this._getDefaultFormat();
             await formInfo.formFields.forEach(async field => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 field.formatInfo = formatInfo;
                 await this._fetchFieldRecords(field);
                 this.$target.find('.s_website_form_submit, .s_website_form_recaptcha').first().before(this._renderField(field));
 =======
+=======
+>>>>>>> upstream/18.0
                 // Create a shallow copy of field to prevent unintended
                 // mutations to the original field stored in FormEditorRegistry
                 const _field = { ...field };
@@ -937,6 +952,9 @@ options.registry.WebsiteFormEditor = FormEditor.extend({
                 if (targetEl) {
                     targetEl.parentNode.insertBefore(this._renderField(_field), targetEl);
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
@@ -1026,7 +1044,10 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
      * @override
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onBuilt: async function () {
         await this._super(...arguments);
         // Re-render the field to ensure unique field IDs across multiple form
@@ -1036,6 +1057,9 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
     /**
      * @override
      */
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     updateUI: async function () {
         // See Form updateUI
@@ -1061,10 +1085,14 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
      */
     onClone() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const field = this._getActiveField();
         delete field.id;
         const fieldEl = this._renderField(field);
         this._replaceFieldElement(fieldEl);
+=======
+        this._rerenderField();
+>>>>>>> upstream/18.0
 =======
         this._rerenderField();
 >>>>>>> upstream/18.0
@@ -1761,7 +1789,10 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
         return this.$target[0].querySelector('select');
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * Re-renders the currently active form field in the DOM.
      *
@@ -1773,6 +1804,9 @@ options.registry.WebsiteFieldEditor = FieldEditor.extend({
         const fieldEl = this._renderField(field);
         this._replaceFieldElement(fieldEl);
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });
 

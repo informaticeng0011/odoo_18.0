@@ -453,7 +453,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
             expected_xml = lxml.etree.fromstring(f.read().encode())
         self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_simplified_invoice(self):
         """
@@ -481,4 +484,7 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
             with file_open("l10n_es_edi_facturae/tests/data/expected_simplified_document.xml", "rt") as f:
                 expected_xml = lxml.etree.fromstring(f.read().encode())
             self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

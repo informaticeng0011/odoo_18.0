@@ -77,7 +77,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="template_ids" nolabel="1">
+=======
+                                <!-- Pass on the model to ensure the correct dynamic selection (in e.g. hr) on unsaved plans -->
+                                <field name="template_ids" nolabel="1" context="{'default_res_model': res_model}">
+>>>>>>> upstream/18.0
 =======
                                 <!-- Pass on the model to ensure the correct dynamic selection (in e.g. hr) on unsaved plans -->
                                 <field name="template_ids" nolabel="1" context="{'default_res_model': res_model}">

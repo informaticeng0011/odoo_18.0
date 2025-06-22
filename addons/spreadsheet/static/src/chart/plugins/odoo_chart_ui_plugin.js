@@ -171,10 +171,14 @@ export class OdooChartUIPlugin extends OdooUIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!items.length) {
                     return;
                 }
                 if (!env) {
+=======
+                if (!items.length ||  !env || items[0].datasetIndex >= datasets.length ) {
+>>>>>>> upstream/18.0
 =======
                 if (!items.length ||  !env || items[0].datasetIndex >= datasets.length ) {
 >>>>>>> upstream/18.0

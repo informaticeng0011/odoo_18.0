@@ -9,6 +9,10 @@ patch(PosStore.prototype, {
                 this.company.country_id?.code
             ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,
+>>>>>>> upstream/18.0
 =======
             gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,
 >>>>>>> upstream/18.0

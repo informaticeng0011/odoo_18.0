@@ -132,6 +132,7 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.carrier.write({
             'must_have_tag_ids': [self.must_have_tag.id],
         })
@@ -153,6 +154,8 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.carrier.must_have_tag_ids = [
             Command.link(self.must_have_tag.id),
             Command.link(self.must_have_tag.copy({'name': "Alt Must Have"}).id),
@@ -161,6 +164,9 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

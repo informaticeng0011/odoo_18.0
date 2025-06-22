@@ -114,7 +114,11 @@ viewsRegistry.category("form").add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const TIMEOUT = 500;
+=======
+const TIMEOUT = 2000;
+>>>>>>> upstream/18.0
 =======
 const TIMEOUT = 2000;
 >>>>>>> upstream/18.0
@@ -264,6 +268,7 @@ export function waitForChannels(channels, { operation = "add" } = {}) {
         clearTimeout(failTimeout);
         offWebsocketEvent();
 <<<<<<< HEAD
+<<<<<<< HEAD
         const message = (pass, r) =>
             pass
                 ? [r`Channel(s)`, channels, operation === "add" ? r`added` : r`deleted`]
@@ -276,12 +281,17 @@ export function waitForChannels(channels, { operation = "add" } = {}) {
                       operation === "add" ? r`added` : r`deleted`,
                   ];
 =======
+=======
+>>>>>>> upstream/18.0
         const message = (pass) =>
             pass
                 ? `Channel(s) ${channels} ${operation === "add" ? `added` : `deleted`}`
                 : `Waited ${TIMEOUT}ms for ${channels} to be ${
                       operation === "add" ? `added` : `deleted`
                   }`;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         expect(success).toBe(true, { message });
         if (success) {

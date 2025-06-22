@@ -82,6 +82,12 @@ class TestUBLTR(AccountTestInvoicingCommon):
     def test_xml_invoice_einvoice(self):
         with freeze_time('2025-03-05'):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
+            # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
+            self.partner_1.ref = '1234567890'
+>>>>>>> upstream/18.0
 =======
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2

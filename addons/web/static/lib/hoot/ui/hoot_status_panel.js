@@ -2,6 +2,7 @@
 
 import { Component, onWillRender, useEffect, useRef, useState, xml } from "@odoo/owl";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Test } from "../core/test";
 import { formatTime } from "../hoot_utils";
 import { getTitle, setTitle } from "../mock/window";
@@ -10,6 +11,8 @@ import { HootTestPath } from "./hoot_test_path";
 
 /**
 =======
+=======
+>>>>>>> upstream/18.0
 import { getColorHex } from "../../hoot-dom/hoot_dom_utils";
 import { Test } from "../core/test";
 import { formatTime } from "../hoot_utils";
@@ -20,6 +23,9 @@ import { HootTestPath } from "./hoot_test_path";
 /**
  * @typedef {import("../core/runner").Runner} Runner
  *
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
  * @typedef {{
  * }} HootStatusPanelProps
@@ -46,11 +52,14 @@ const $now = performance.now.bind(performance);
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {number} min
  * @param {number} max
  */
 const randInt = (min, max) => $floor($random() * (max - min + 1)) + min;
 =======
+=======
+>>>>>>> upstream/18.0
  * @param {HTMLCanvasElement | null} canvas
  */
 function setupCanvas(canvas) {
@@ -68,11 +77,15 @@ function setupCanvas(canvas) {
 function randInt(min, max) {
     return $floor($random() * (max - min + 1)) + min;
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 /**
  * @param {string} content
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 const spawnIncentive = (content) => {
     const incentive = document.createElement("div");
@@ -82,6 +95,8 @@ const spawnIncentive = (content) => {
         `--_size: ${randInt(32, 48)}`,
         `--_wiggle-duration: ${randInt(800, 2_000)}`,
 =======
+=======
+>>>>>>> upstream/18.0
 function spawnIncentive(content) {
     const incentive = document.createElement("div");
     const params = [
@@ -89,6 +104,9 @@ function spawnIncentive(content) {
         `--_fly-duration: ${randInt(2000, 3000)}`,
         `--_size: ${randInt(32, 48)}`,
         `--_wiggle-duration: ${randInt(800, 2000)}`,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         `--_wiggle-range: ${randInt(5, 30)}`,
         `--_x: ${randInt(0, 100)}`,
@@ -99,7 +117,13 @@ function spawnIncentive(content) {
 
     /** @param {AnimationEvent} ev */
 <<<<<<< HEAD
+<<<<<<< HEAD
     const onEnd = (ev) => ev.animationName === "animation-incentive-travel" && incentive.remove();
+=======
+    function onEnd(ev) {
+        return ev.animationName === "animation-incentive-travel" && incentive.remove();
+    }
+>>>>>>> upstream/18.0
 =======
     function onEnd(ev) {
         return ev.animationName === "animation-incentive-travel" && incentive.remove();
@@ -110,7 +134,11 @@ function spawnIncentive(content) {
 
     document.querySelector("hoot-container").shadowRoot.appendChild(incentive);
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -119,7 +147,11 @@ function spawnIncentive(content) {
  * @param {boolean} failed
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const updateTitle = (failed) => {
+=======
+function updateTitle(failed) {
+>>>>>>> upstream/18.0
 =======
 function updateTitle(failed) {
 >>>>>>> upstream/18.0
@@ -136,7 +168,11 @@ function updateTitle(failed) {
     }
     setTitle(`${toAdd} ${title}`);
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -267,6 +303,7 @@ export class HootStatusPanel extends Component {
     `;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     formatTime = formatTime;
 
     setup() {
@@ -290,11 +327,16 @@ export class HootStatusPanel extends Component {
         };
 
 =======
+=======
+>>>>>>> upstream/18.0
     currentTestStart;
     formatTime = formatTime;
     intervalId = 0;
 
     setup() {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const { runner, ui } = this.env;
         this.canvasRef = useRef("progress-canvas");
@@ -307,6 +349,7 @@ export class HootStatusPanel extends Component {
         this.uiState = useState(ui);
         this.progressBarIndex = 0;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         let currentTestStart;
         let intervalId = 0;
@@ -352,6 +395,8 @@ export class HootStatusPanel extends Component {
         });
         onWillRender(() => this.updateProgressBar());
 =======
+=======
+>>>>>>> upstream/18.0
         runner.beforeAll(this.globalSetup.bind(this));
         runner.afterAll(this.globalCleanup.bind(this));
         if (!runner.config.headless) {
@@ -363,6 +408,9 @@ export class HootStatusPanel extends Component {
 
         onColorSchemeChange(this.onColorSchemeChange.bind(this));
         onWillRender(this.updateProgressBar.bind(this));
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -384,7 +432,10 @@ export class HootStatusPanel extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {Runner} runner
      */
@@ -411,25 +462,37 @@ export class HootStatusPanel extends Component {
         this.state.debug = runner.debug;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     nextPage() {
         this.uiState.resultsPage = $min(this.uiState.resultsPage + 1, this.getLastPage());
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onColorSchemeChange() {
         this.progressBarIndex = 0;
         this.updateProgressBar();
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     previousPage() {
         this.uiState.resultsPage = $max(this.uiState.resultsPage - 1, 0);
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     startTimer() {
         this.stopTimer();
 
@@ -449,6 +512,9 @@ export class HootStatusPanel extends Component {
         this.state.timer = 0;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     updateProgressBar() {
         const canvas = this.canvasRef.el;
@@ -463,7 +529,10 @@ export class HootStatusPanel extends Component {
         const cellSize = width / tests.length;
         const minSize = $ceil(cellSize);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const colors = getColors();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -472,6 +541,7 @@ export class HootStatusPanel extends Component {
             const x = $floor(this.progressBarIndex * cellSize);
             switch (test.status) {
                 case Test.ABORTED:
+<<<<<<< HEAD
 <<<<<<< HEAD
                     ctx.fillStyle = colors.amber;
                     break;
@@ -484,6 +554,8 @@ export class HootStatusPanel extends Component {
                 case Test.SKIPPED:
                     ctx.fillStyle = colors.cyan;
 =======
+=======
+>>>>>>> upstream/18.0
                     ctx.fillStyle = getColorHex("amber");
                     break;
                 case Test.FAILED:
@@ -496,6 +568,9 @@ export class HootStatusPanel extends Component {
                     break;
                 case Test.SKIPPED:
                     ctx.fillStyle = getColorHex("cyan");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     break;
             }

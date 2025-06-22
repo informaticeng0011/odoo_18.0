@@ -15,6 +15,7 @@
         <field name="availability_condition">country</field>
         <field name="column_ids">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <record id="diot_report_paid_16" model="account.report.column">
                 <field name="name">Paid 16%</field>
                 <field name="expression_label">paid_16</field>
@@ -61,6 +62,8 @@
                 <field name="sequence">18</field>
             </record>
 =======
+=======
+>>>>>>> upstream/18.0
                 <record id="diot_report_paid_8_n_wnc" model="account.report.column">
                     <field name="name">Paid 8 % Northern</field>
                     <field name="expression_label">paid_8_n_wnc</field>
@@ -189,6 +192,9 @@
                     <field name="expression_label">no_obj</field>
                     <field name="sequence">34</field>
                 </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         </field>
         <field name="line_ids">
@@ -198,7 +204,10 @@
                 <field name="hierarchy_level">0</field>
                 <field name="expression_ids">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_paid_8_tag" model="account.report.expression">
                         <field name="label">paid_8</field>
                         <field name="engine">tax_tags</field>
@@ -219,6 +228,9 @@
                         <field name="engine">tax_tags</field>
                         <field name="formula">DIOT: 8% S. NO ACREDITABLE</field>
                     </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_paid_16_tag" model="account.report.expression">
                         <field name="label">paid_16</field>
@@ -230,6 +242,7 @@
                         <field name="engine">tax_tags</field>
                         <field name="formula">DIOT: 16% NO ACREDITABLE</field>
                     </record>
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <record id="tax_report_mx_diot_paid_8_tag" model="account.report.expression">
                         <field name="label">paid_8</field>
@@ -243,13 +256,18 @@
                     </record>
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_importation_16_tag" model="account.report.expression">
                         <field name="label">importation_16</field>
                         <field name="engine">tax_tags</field>
                         <field name="formula">DIOT: 16% IMP</field>
                     </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_16_imp_nc_tag" model="account.report.expression">
                         <field name="label">paid_16_imp_nc</field>
                         <field name="engine">tax_tags</field>
@@ -323,6 +341,9 @@
                         <field name="subformula">sum</field>
                     </record>
                     
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_paid_0_tag" model="account.report.expression">
                         <field name="label">paid_0</field>
@@ -335,12 +356,18 @@
                         <field name="formula">DIOT: Exento</field>
                     </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_exempt_imp_tag" model="account.report.expression">
                         <field name="label">exempt_imp</field>
                         <field name="engine">tax_tags</field>
                         <field name="formula">DIOT: Exento Imports</field>
                     </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_withheld_tag" model="account.report.expression">
                         <field name="label">withheld</field>
@@ -353,12 +380,18 @@
                         <field name="formula">DIOT: Refunds</field>
                     </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                     <record id="tax_report_mx_diot_no_obj_tag" model="account.report.expression">
                         <field name="label">no_obj</field>
                         <field name="engine">tax_tags</field>
                         <field name="formula">DIOT: No Tax Object</field>
                     </record>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 </field>
             </record>

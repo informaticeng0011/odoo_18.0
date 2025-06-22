@@ -218,12 +218,15 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const alwaysVariants = this.props.product.attribute_line_ids.every(
             (line) => line.attribute_id.create_variant === "always"
         );
 
         if (alwaysVariants) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@ export class ProductConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

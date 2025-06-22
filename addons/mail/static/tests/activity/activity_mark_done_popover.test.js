@@ -69,6 +69,7 @@ test("activity mark done popover mark done without feedback", async () => {
         res_model: "res.partner",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -78,6 +79,8 @@ test("activity mark done popover mark done without feedback", async () => {
         expect(params.kwargs.attachment_ids).toBeEmpty();
         expect("feedback" in params.kwargs).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("mail.activity", "action_feedback", ({ args, kwargs }) => {
         step("action_feedback");
         expect(args).toHaveLength(1);
@@ -85,6 +88,9 @@ test("activity mark done popover mark done without feedback", async () => {
         expect(args[0][0]).toBe(activityId);
         expect(kwargs.attachment_ids).toBeEmpty();
         expect(kwargs).not.toInclude("feedback");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // random value returned in order for the mock server to know that this route is implemented.
         return true;
@@ -106,6 +112,7 @@ test("activity mark done popover mark done with feedback", async () => {
         res_model: "res.partner",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -119,6 +126,8 @@ test("activity mark done popover mark done with feedback", async () => {
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("mail.activity", "action_feedback", ({ args, kwargs, method }) => {
         step(method);
         expect(args).toHaveLength(1);
@@ -130,6 +139,9 @@ test("activity mark done popover mark done with feedback", async () => {
         return true;
     });
     onRpc("mail.activity", "unlink", () => {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // 'unlink' on non-existing record raises a server crash
         throw new Error(
@@ -157,6 +169,7 @@ test("activity mark done popover mark done and schedule next", async () => {
         res_model: "res.partner",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", async (request) => {
         step("action_feedback_schedule_next");
         const { params } = await request.json();
@@ -168,6 +181,8 @@ test("activity mark done popover mark done and schedule next", async () => {
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("mail.activity", "action_feedback_schedule_next", ({ args, kwargs, method }) => {
         step(method);
         expect(args).toHaveLength(1);
@@ -177,6 +192,9 @@ test("activity mark done popover mark done and schedule next", async () => {
         return false;
     });
     onRpc("mail.activity", "unlink", () => {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         // 'unlink' on non-existing record raises a server crash
         throw new Error(
@@ -215,9 +233,15 @@ test("[technical] activity mark done & schedule next with new action", async () 
         res_model: "res.partner",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", () => {
         return { type: "ir.actions.act_window" };
     });
+=======
+    onRpc("mail.activity", "action_feedback_schedule_next", () => ({
+        type: "ir.actions.act_window",
+    }));
+>>>>>>> upstream/18.0
 =======
     onRpc("mail.activity", "action_feedback_schedule_next", () => ({
         type: "ir.actions.act_window",

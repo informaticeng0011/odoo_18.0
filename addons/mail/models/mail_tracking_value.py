@@ -177,7 +177,11 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'string', 'type'})
+=======
+            tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
+>>>>>>> upstream/18.0
 =======
             tracked_fields = TrackedModel.fields_get(self.field_id.mapped('name'), attributes={'digits', 'string', 'type'})
 >>>>>>> upstream/18.0
@@ -274,6 +278,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0
@@ -346,6 +354,10 @@ class MailTracking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': col_info.get('digits'),
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': col_info.get('digits'),
 >>>>>>> upstream/18.0

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "./_helpers/editor";
 import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -11,6 +12,8 @@ import { getContent } from "./_helpers/selection";
 import { isZwnbsp } from "@html_editor/utils/dom_info";
 import { EmbeddedFilePlugin } from "@html_editor/others/embedded_components/plugins/embedded_file_plugin/embedded_file_plugin";
 =======
+=======
+>>>>>>> upstream/18.0
 import { MAIN_EMBEDDINGS } from "@html_editor/others/embedded_components/embedding_sets";
 import { EmbeddedFilePlugin } from "@html_editor/others/embedded_components/plugins/embedded_file_plugin/embedded_file_plugin";
 import { EMBEDDED_COMPONENT_PLUGINS, MAIN_PLUGINS } from "@html_editor/plugin_sets";
@@ -22,6 +25,9 @@ import { setupEditor } from "./_helpers/editor";
 import { getContent } from "./_helpers/selection";
 import { insertText } from "./_helpers/user_actions";
 import { execCommand } from "./_helpers/userCommands";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const configWithEmbeddedFile = {
@@ -79,6 +85,7 @@ describe("file command", () => {
 
 describe("document tab in media dialog", () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     beforeEach(() =>
         onRpc("/web/dataset/call_kw/ir.attachment/search_read", () => [
             {
@@ -91,6 +98,8 @@ describe("document tab in media dialog", () => {
         ])
     );
 =======
+=======
+>>>>>>> upstream/18.0
     onRpc("ir.attachment", "search_read", () => [
         {
             id: 1,
@@ -100,6 +109,9 @@ describe("document tab in media dialog", () => {
             image_src: "",
         },
     ]);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     describe("without File nor EmbeddedFile plugin", () => {

@@ -26,8 +26,14 @@ const {
  * @returns {{ [key in keyof T]: ReturnType<T[key]["parse"]> }}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaDefaults = (schema) =>
     $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+=======
+function getSchemaDefaults(schema) {
+    return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaDefaults(schema) {
     return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
@@ -40,7 +46,13 @@ function getSchemaDefaults(schema) {
  * @returns {(keyof T)[]}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaKeys = (schema) => $keys(schema);
+=======
+function getSchemaKeys(schema) {
+    return $keys(schema);
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaKeys(schema) {
     return $keys(schema);
@@ -53,8 +65,14 @@ function getSchemaKeys(schema) {
  * @returns {(valueIfEmpty: T) => (values: string[]) => T}
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeParser = (parse) => (valueIfEmpty) => (values) =>
     values.length ? parse(values) : valueIfEmpty;
+=======
+function makeParser(parse) {
+    return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;
+}
+>>>>>>> upstream/18.0
 =======
 function makeParser(parse) {
     return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;

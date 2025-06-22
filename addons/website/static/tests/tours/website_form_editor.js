@@ -154,7 +154,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         trigger: ":iframe .s_website_form_field",
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     // Check if fields in two form snippet have unique IDs
     {
         content: "Drop another form snippet",
@@ -188,6 +191,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
         trigger: ":iframe .oe_overlay.oe_active .oe_snippet_remove",
         run: "click",
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     {
         content: "Select form by clicking on an input field",
@@ -430,7 +436,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -448,6 +457,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -466,10 +478,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "Change first Option 3 label",
         trigger: 'we-list table input:eq(2)',
         run: "edit France",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -495,6 +510,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -529,10 +547,13 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
         // TODO: Fix code to avoid blur event
         run: "edit Canada",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -554,6 +575,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -574,7 +598,10 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -594,6 +621,9 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,7 +649,11 @@ registerWebsitePreviewTour("website_form_editor_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: 'we-list table input:eq(3)',
+=======
+        trigger: "we-list table input:eq(3)[name='Item']",
+>>>>>>> upstream/18.0
 =======
         trigger: "we-list table input:eq(3)[name='Item']",
 >>>>>>> upstream/18.0

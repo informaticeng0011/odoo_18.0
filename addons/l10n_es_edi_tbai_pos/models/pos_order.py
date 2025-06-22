@@ -166,7 +166,11 @@ class PosOrder(models.Model):
             **self._l10n_es_tbai_get_attachment_values(),
             **self._l10n_es_tbai_get_credit_note_values(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

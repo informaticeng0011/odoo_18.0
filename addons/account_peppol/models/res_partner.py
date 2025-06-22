@@ -208,7 +208,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self_partner.peppol_verification_state == 'valid':
+=======
+        if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
+>>>>>>> upstream/18.0
 =======
         if self_partner.peppol_verification_state == 'valid' and not self_partner.invoice_sending_method:
 >>>>>>> upstream/18.0

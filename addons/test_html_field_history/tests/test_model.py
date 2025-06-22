@@ -35,6 +35,10 @@ class TestModel(TransactionCase):
         self.assertEqual(len(rec1.html_field_history_metadata["versioned_field_1"]), 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(rec1.versioned_field_1, "<p>mock content 2</p>")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(rec1.versioned_field_1, "<p>mock content 2</p>")
 >>>>>>> upstream/18.0
@@ -85,7 +89,10 @@ class TestModel(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_html_field_history_batch_write(self):
@@ -125,6 +132,9 @@ class TestModel(TransactionCase):
         rec2.unlink()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

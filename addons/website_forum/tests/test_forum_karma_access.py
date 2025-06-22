@@ -185,7 +185,10 @@ class TestForumKarma(TestForumCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # check karma done on right forum, using context values
@@ -219,6 +222,9 @@ class TestForumKarma(TestForumCommon):
                 self.user_portal.karma = KARMA['post']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

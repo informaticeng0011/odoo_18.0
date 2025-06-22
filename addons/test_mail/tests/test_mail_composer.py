@@ -126,6 +126,7 @@ class TestMailComposer(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_context = {
             'default_model': records._name,
             'default_res_ids': records.ids,
@@ -141,6 +142,9 @@ class TestMailComposer(MailCommon, TestRecipients):
         if values:
             base_context.update(**values)
         return base_context
+=======
+        return self._get_mail_composer_web_context(records, add_web=add_web, **values)
+>>>>>>> upstream/18.0
 =======
         return self._get_mail_composer_web_context(records, add_web=add_web, **values)
 >>>>>>> upstream/18.0

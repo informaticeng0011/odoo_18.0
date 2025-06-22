@@ -314,10 +314,13 @@ class Post(models.Model):
     def create(self, vals_list):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vals in vals_list:
             if 'content' in vals and vals.get('forum_id'):
                 vals['content'] = self._update_content(vals['content'], vals['forum_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         defaults_to_check = self.default_get(['content', 'forum_id'])
@@ -327,6 +330,9 @@ class Post(models.Model):
                 forum_id = vals.get('forum_id', defaults_to_check.get('forum_id'))
                 vals['content'] = self._update_content(content, forum_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

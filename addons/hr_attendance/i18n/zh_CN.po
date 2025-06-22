@@ -7,6 +7,7 @@
 # Wil Odoo, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Chloe Wang, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +208,10 @@
 >>>>>>> upstream/18.0
 =======
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Jeffery CHEN <jeffery9@gmail.com>, 2025
+# Chloe Wang, 2025
 >>>>>>> upstream/18.0
 =======
 # Jeffery CHEN <jeffery9@gmail.com>, 2025
@@ -223,6 +228,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +431,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Chloe Wang, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Chloe Wang, 2025\n"
@@ -697,7 +706,11 @@ msgid "Archived Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "已存档员工"
+=======
+msgstr "已归档员工"
+>>>>>>> upstream/18.0
 =======
 msgstr "已归档员工"
 >>>>>>> upstream/18.0
@@ -995,8 +1008,14 @@ msgid ""
 "Automatically Check-Out Employees based on their working schedule with an "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "additional tolerance."
 msgstr "根据员工的工作时间表自动签离员工，并具有额外的容差。"
+=======
+"additional tolerance. Does not apply to employees with a flexible working "
+"schedule."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "additional tolerance. Does not apply to employees with a flexible working "
 "schedule."
@@ -1566,7 +1585,12 @@ msgid ""
 "If checked, days not covered by an attendance will be visible in the Report."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果选中，报告中将显示缺勤的日期。"
+=======
+" Does not apply to employees with a flexible working schedule."
+msgstr "若勾选，报告会显示没有值勤记录的日子。不适用于使用弹性工作时间表的员工。"
+>>>>>>> upstream/18.0
 =======
 " Does not apply to employees with a flexible working schedule."
 msgstr "若勾选，报告会显示没有值勤记录的日子。不适用于使用弹性工作时间表的员工。"
@@ -1963,11 +1987,14 @@ msgstr "RFID 令牌和平板电脑上的读卡器"
 #. module: hr_attendance
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__rating_ids
 msgid "Ratings"
 msgstr "评级"
 
 #. module: hr_attendance
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

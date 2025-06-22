@@ -10,7 +10,11 @@ test("default state", () => {
     expect(odoo.debug).toBe("");
     const s = { ...serverState };
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("view_info" in s).toBe(true);
+=======
+    expect(s).toInclude("view_info");
+>>>>>>> upstream/18.0
 =======
     expect(s).toInclude("view_info");
 >>>>>>> upstream/18.0

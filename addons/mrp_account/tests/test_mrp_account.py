@@ -610,7 +610,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.005)  # 2 seconds at $10/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 10)  # 2 seconds at $10/h
 >>>>>>> upstream/18.0
@@ -731,7 +735,11 @@ class TestMrpAccountMove(TestAccountMoveStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(workorder._cal_cost(), 0.01)  # 2 seconds at $20/h
+=======
+        self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(workorder._cal_cost(), (2 / 3600) * 20)  # 2 seconds at $20/h
 >>>>>>> upstream/18.0

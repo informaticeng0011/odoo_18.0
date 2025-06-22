@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
 # Anastasia Mimou, 2025
 <<<<<<< HEAD
@@ -61,6 +62,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Anastasia Mimou, 2025
 >>>>>>> upstream/18.0
 =======
 # Anastasia Mimou, 2025
@@ -222,6 +226,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
@@ -254,6 +259,10 @@
 =======
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Georgios Geitonas <g.geitonas@dileanity.com>, 2025
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Georgios Geitonas <g.geitonas@dileanity.com>, 2025
@@ -388,6 +397,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +635,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-13 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -660,6 +675,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" <br/><br/> Τα παραγόμενα είδη θα μεταφερθούν <b>%(destination)s</b>, <br/> "
+"όπως έχουν οριστεί από <b>%(operation)s</b> τον προορισμό."
+>>>>>>> upstream/18.0
 =======
 " <br/><br/> Τα παραγόμενα είδη θα μεταφερθούν <b>%(destination)s</b>, <br/> "
 "όπως έχουν οριστεί από <b>%(operation)s</b> τον προορισμό."
@@ -737,7 +757,11 @@ msgstr "%(product)s:Ανεπαρκής ποσότητα για αποκατάσ�
 msgid "%(product_name)s (new) %(number_of_boms)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s (νέο) %(number_of_boms)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s (νέο) %(number_of_boms)s"
 >>>>>>> upstream/18.0
@@ -763,7 +787,11 @@ msgstr "%i Εντολές Εργασίας"
 msgid "%s Child MO's"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s Υποεντολές Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s Υποεντολές Παραγωγής"
 >>>>>>> upstream/18.0
@@ -782,7 +810,11 @@ msgstr "%sδεν μπορεί να διαγραφεί. Προσπαθήστε ν
 msgid "'Bom Overview - %s' % object.display_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Επισκόπηση Λίστας Υλικών - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Επισκόπηση Λίστας Υλικών - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -800,7 +832,11 @@ msgstr "Τελικά Προϊόντα- %s' % αρχείο.όνομα"
 msgid "'MO Overview - %s' % object.display_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'Επισκόπηση Εντολής Παραγωγής - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Επισκόπηση Εντολής Παραγωγής - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -825,7 +861,11 @@ msgstr "'Εντολή Εργασίας - %s' % object.name"
 msgid "(in"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Σε"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Σε"
 >>>>>>> upstream/18.0
@@ -860,6 +900,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" 1 Βήμα: Κατανάλωση πρώτων υλών από το απόθεμα και παραγωγή.\n"
+"              2 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα και έπειτα παραγωγή.\n"
+"              3 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα, παραγωγή και μετά μετακίνηση των τελικών ειδών από την παραγωγή στο απόθεμα."
+>>>>>>> upstream/18.0
 =======
 " 1 Βήμα: Κατανάλωση πρώτων υλών από το απόθεμα και παραγωγή.\n"
 "              2 Βήματα: Παραλαβή πρώτων υλών από το απόθεμα και έπειτα παραγωγή.\n"
@@ -897,7 +943,11 @@ msgstr "15-9-2023"
 msgid "25"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25"
+>>>>>>> upstream/18.0
 =======
 msgstr "25"
 >>>>>>> upstream/18.0
@@ -910,7 +960,11 @@ msgstr "25"
 msgid "50"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50"
+>>>>>>> upstream/18.0
 =======
 msgstr "50"
 >>>>>>> upstream/18.0
@@ -923,7 +977,11 @@ msgstr "50"
 msgid "58"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "58"
+>>>>>>> upstream/18.0
 =======
 msgstr "58"
 >>>>>>> upstream/18.0
@@ -936,7 +994,11 @@ msgstr "58"
 msgid "60"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "60"
+>>>>>>> upstream/18.0
 =======
 msgstr "60"
 >>>>>>> upstream/18.0
@@ -949,7 +1011,11 @@ msgstr "60"
 msgid "8 GB RAM"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "8 GB RAM"
+>>>>>>> upstream/18.0
 =======
 msgstr "8 GB RAM"
 >>>>>>> upstream/18.0
@@ -962,7 +1028,11 @@ msgstr "8 GB RAM"
 msgid "987654321098"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "987654321098"
+>>>>>>> upstream/18.0
 =======
 msgstr "987654321098"
 >>>>>>> upstream/18.0
@@ -976,7 +1046,11 @@ msgstr "987654321098"
 msgid ":  hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ":  ώρες"
+>>>>>>> upstream/18.0
 =======
 msgstr ":  ώρες"
 >>>>>>> upstream/18.0
@@ -989,7 +1063,11 @@ msgstr ":  ώρες"
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 >>>>>>> upstream/18.0
@@ -1002,7 +1080,11 @@ msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause
 msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
 >>>>>>> upstream/18.0
@@ -1015,7 +1097,11 @@ msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 >>>>>>> upstream/18.0
@@ -1035,7 +1121,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<p class=\"o_view_nocontent_smiling_face\">\n"
@@ -1044,6 +1133,9 @@ msgstr ""
 "                        Χρησιμοποιήστε αυτή τη λειτουργία για να αποθηκεύσετε αρχεία, όπως σχέδια ή προδιαγραφές.\n"
 "                    </p>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1053,7 +1145,11 @@ msgstr ""
 msgid "<span class=\"col-6\">In Progress</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Σε Εξέλιξη</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Σε Εξέλιξη</span>"
 >>>>>>> upstream/18.0
@@ -1090,7 +1186,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
 >>>>>>> upstream/18.0
@@ -1175,7 +1275,11 @@ msgstr "<span class=\"col-6\">Καθυστερημένη</span>"
 msgid "<span class=\"col-6\">To Close</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Προς Ολοκλήρωση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Προς Ολοκλήρωση</span>"
 >>>>>>> upstream/18.0
@@ -1215,7 +1319,11 @@ msgid "<span class=\"col-6\">Waiting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Σε αναμονή</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Σε αναμονή</span>"
 >>>>>>> upstream/18.0
@@ -1309,7 +1417,11 @@ msgstr "<span class=\"col-6\">Σε αναμονή</span>"
 msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
 >>>>>>> upstream/18.0
@@ -1322,7 +1434,11 @@ msgstr "<span class=\"fw-bold text-nowrap\">Προς Παραγωγή</span>"
 msgid "<span class=\"o_stat_text\">Backorders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
 >>>>>>> upstream/18.0
@@ -1335,7 +1451,11 @@ msgstr "<span class=\"o_stat_text\">Εκκρεμείς Εντολές</span>"
 msgid "<span class=\"o_stat_text\">BoM Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικών</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικών</span>"
 >>>>>>> upstream/18.0
@@ -1348,7 +1468,11 @@ msgstr "<span class=\"o_stat_text\">Επισκόπηση Λίστας Υλικώ
 msgid "<span class=\"o_stat_text\">Child MO</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>"
 >>>>>>> upstream/18.0
@@ -1361,7 +1485,11 @@ msgstr "<span class=\"o_stat_text\">Υποεντολή Παραγωγής</span>
 msgid "<span class=\"o_stat_text\">Load</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Φόρτωση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Φόρτωση</span>"
 >>>>>>> upstream/18.0
@@ -1380,7 +1508,11 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">Manufactured</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Παραχθέντα</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Παραχθέντα</span>"
 >>>>>>> upstream/18.0
@@ -1398,7 +1530,11 @@ msgstr "<span class=\"o_stat_text\">Παραγωγή</span>"
 msgid "<span class=\"o_stat_text\">OEE</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Συνολική Απόδοση Εξοπλισμού</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Συνολική Απόδοση Εξοπλισμού</span>"
 >>>>>>> upstream/18.0
@@ -1416,7 +1552,11 @@ msgstr "<span class=\"o_stat_text\">Ενέργειες</span>"
 msgid "<span class=\"o_stat_text\">Operations<br/>Performance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>"
 >>>>>>> upstream/18.0
@@ -1429,7 +1569,11 @@ msgstr "<span class=\"o_stat_text\">Ενέργειες<br/>Απόδοση</span>
 msgid "<span class=\"o_stat_text\">Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
 >>>>>>> upstream/18.0
@@ -1442,7 +1586,11 @@ msgstr "<span class=\"o_stat_text\">Επισκόπηση</span>"
 msgid "<span class=\"o_stat_text\">Performance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Απόδοση</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Απόδοση</span>"
 >>>>>>> upstream/18.0
@@ -1486,7 +1634,11 @@ msgid "<span class=\"o_stat_text\">Product Moves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
 >>>>>>> upstream/18.0
@@ -1590,7 +1742,11 @@ msgstr "<span class=\"o_stat_text\">Κινήσεις Προϊόντων</span>"
 msgid "<span class=\"o_stat_text\">Scraps</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Scraps</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Scraps</span>"
 >>>>>>> upstream/18.0
@@ -1603,7 +1759,11 @@ msgstr "<span class=\"o_stat_text\">Scraps</span>"
 msgid "<span class=\"o_stat_text\">Source MO</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Πηγαία Εντολής Παραγωγής</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Πηγαία Εντολής Παραγωγής</span>"
 >>>>>>> upstream/18.0
@@ -1643,7 +1803,11 @@ msgid "<span class=\"o_stat_text\">Traceability</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Ιχνηλασιμότητα</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Ιχνηλασιμότητα</span>"
 >>>>>>> upstream/18.0
@@ -1746,6 +1910,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Τροποποιώντας την ποσότητα που θα παραχθεί θα "
+"τροποποιήσει και τις ποσότητες των πρώτων υλών που θα αναλωθούν γι' αυτήν "
+"την εντολή παραγωγής.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Τροποποιώντας την ποσότητα που θα παραχθεί θα "
 "τροποποιήσει και τις ποσότητες των πρώτων υλών που θα αναλωθούν γι' αυτήν "
@@ -1766,6 +1936,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>\n"
+"            Πρώτες Ύλες\n"
+"        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span>\n"
 "            Πρώτες Ύλες\n"
@@ -1782,7 +1958,11 @@ msgstr ""
 msgid "<span>&amp;nbsp;(minutes)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;(λεπτά)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>&amp;nbsp;(λεπτά)</span>"
 >>>>>>> upstream/18.0
@@ -1795,7 +1975,11 @@ msgstr "<span>&amp;nbsp;(λεπτά)</span>"
 msgid "<span>Actions</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Ενέργειες</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Ενέργειες</span>"
 >>>>>>> upstream/18.0
@@ -1808,7 +1992,11 @@ msgstr "<span>Ενέργειες</span>"
 msgid "<span>Generate BOM</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Δημιουργία Λίστας Υλικών</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Δημιουργία Λίστας Υλικών</span>"
 >>>>>>> upstream/18.0
@@ -1853,7 +2041,11 @@ msgid "<span>Orders</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Εντολές</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Εντολές</span>"
 >>>>>>> upstream/18.0
@@ -1947,7 +2139,11 @@ msgstr "<span>Εντολές</span>"
 msgid "<span>PLAN ORDERS</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
 >>>>>>> upstream/18.0
@@ -1960,7 +2156,11 @@ msgstr "<span>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΕΝΤΟΛΩΝ</span>"
 msgid "<span>Products not associated with a kit</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Είδη που δεν περιλαμβάνονται σε κάποιο κιτ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Είδη που δεν περιλαμβάνονται σε κάποιο κιτ</span>"
 >>>>>>> upstream/18.0
@@ -1978,7 +2178,11 @@ msgstr "<span>Αναφορά</span>"
 msgid "<span>WORK ORDERS</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
 >>>>>>> upstream/18.0
@@ -1991,7 +2195,11 @@ msgstr "<span>ΕΝΤΟΛΕΣ ΕΡΓΑΣΙΑΣ</span>"
 msgid "<span>minutes</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>λεπτά</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>λεπτά</span>"
 >>>>>>> upstream/18.0
@@ -2004,7 +2212,11 @@ msgstr "<span>λεπτά</span>"
 msgid "<strong class=\"mr8 oe_inline\">to</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
 >>>>>>> upstream/18.0
@@ -2017,7 +2229,11 @@ msgstr "<strong class=\"mr8 oe_inline\">σε</strong>"
 msgid "<strong>Actual Duration (minutes)</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
 >>>>>>> upstream/18.0
@@ -2030,7 +2246,11 @@ msgstr "<strong>Πραγματική Διάρκεια (λεπτά)</strong>"
 msgid "<strong>Barcode</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Barcode</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Barcode</strong>"
 >>>>>>> upstream/18.0
@@ -2043,7 +2263,11 @@ msgstr "<strong>Barcode</strong>"
 msgid "<strong>Deadline:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Προθεσμία:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Προθεσμία:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2056,7 +2280,11 @@ msgstr "<strong>Προθεσμία:</strong><br/>"
 msgid "<strong>Description:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Περιγραφή:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Περιγραφή:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2069,7 +2297,11 @@ msgstr "<strong>Περιγραφή:</strong><br/>"
 msgid "<strong>Duration (minutes)</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Διάρκεια (λεπτά)</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Διάρκεια (λεπτά)</strong>"
 >>>>>>> upstream/18.0
@@ -2082,7 +2314,11 @@ msgstr "<strong>Διάρκεια (λεπτά)</strong>"
 msgid "<strong>Effectiveness Category: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </strong>"
 >>>>>>> upstream/18.0
@@ -2095,7 +2331,11 @@ msgstr "<strong>Κατηγορία Αποτελεσματικότητας: </str
 msgid "<strong>Finished Product:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2108,7 +2348,11 @@ msgstr "<strong>Ολοκληρωμένο Είδος:</strong><br/>"
 msgid "<strong>Is a Blocking Reason? </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
 >>>>>>> upstream/18.0
@@ -2121,7 +2365,11 @@ msgstr "<strong>Είναι λόγος μπλοκαρίσματος; </strong>"
 msgid "<strong>Manufacturing Order:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2134,7 +2382,11 @@ msgstr "<strong>Εντολή Παραγωγής:</strong><br/>"
 msgid "<strong>Operation</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ενέργεια</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ενέργεια</strong>"
 >>>>>>> upstream/18.0
@@ -2147,7 +2399,11 @@ msgstr "<strong>Ενέργεια</strong>"
 msgid "<strong>Product:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Είδος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Είδος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2160,7 +2416,11 @@ msgstr "<strong>Είδος:</strong><br/>"
 msgid "<strong>Quantity Producing:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2174,7 +2434,11 @@ msgstr "<strong>Ποσότητα που Παράγεται:</strong><br/>"
 msgid "<strong>Quantity to Produce:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2187,7 +2451,11 @@ msgstr "<strong>Ποσότητα προς Παραγωγή:</strong><br/>"
 msgid "<strong>Reason: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Αιτία: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Αιτία: </strong>"
 >>>>>>> upstream/18.0
@@ -2201,7 +2469,11 @@ msgstr "<strong>Αιτία: </strong>"
 msgid "<strong>Responsible:</strong><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Υπέυθυνος:</strong><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Υπέυθυνος:</strong><br/>"
 >>>>>>> upstream/18.0
@@ -2219,7 +2491,11 @@ msgstr "<strong>Προέλευση:</strong><br/>"
 msgid "<strong>Unit Cost</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Μονάδα Κόστους</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Μονάδα Κόστους</strong>"
 >>>>>>> upstream/18.0
@@ -2264,7 +2540,11 @@ msgid "? This may lead to inconsistencies in your inventory."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
+>>>>>>> upstream/18.0
 =======
 msgstr "? Αυτό ενδέχεται να οδηγήσει σε ασυνέπειες τις αποθήκης."
 >>>>>>> upstream/18.0
@@ -2361,6 +2641,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Μία Λίστα Πρώτων Υλών τύπου Κιτ δεν παράγεται με εντολή παραγωγής.<br/>\n"
+"                                Αντιθέτως, χρησιμοποείται για να αποσυνθέσει μία Λίστα Πρώτων Υλών στα συστατικά της όταν:"
+>>>>>>> upstream/18.0
 =======
 "Μία Λίστα Πρώτων Υλών τύπου Κιτ δεν παράγεται με εντολή παραγωγής.<br/>\n"
 "                                Αντιθέτως, χρησιμοποείται για να αποσυνθέσει μία Λίστα Πρώτων Υλών στα συστατικά της όταν:"
@@ -2376,7 +2661,11 @@ msgstr ""
 msgid "A Manufacturing Order is already done or cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μία Εντολή Παραγωγής έχει ήδη ολοκληρωθεί ή ακυρωθεί."
+>>>>>>> upstream/18.0
 =======
 msgstr "Μία Εντολή Παραγωγής έχει ήδη ολοκληρωθεί ή ακυρωθεί."
 >>>>>>> upstream/18.0
@@ -2392,6 +2681,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ένα είδος με λίστα πρώτων υλών τύπου κιτ δεν μπορεί να έχει κανόνα "
+"αναπαραγγελίας."
+>>>>>>> upstream/18.0
 =======
 "Ένα είδος με λίστα πρώτων υλών τύπου κιτ δεν μπορεί να έχει κανόνα "
 "αναπαραγγελίας."
@@ -2471,6 +2765,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Προσθέστε παραπροϊόντα στις λίστες πρώτων υλών. Αυτή η επιλογή σας επιτρέπει"
+" να παράγετε περισσότερα από ένα τελικά προϊόντα. Χωρίς αυτή την επιλογή, η "
+"παραγωγή είναι: Α + Β = Γ. Με την επιλογή: Α + Β = Γ + Δ."
+>>>>>>> upstream/18.0
 =======
 "Προσθέστε παραπροϊόντα στις λίστες πρώτων υλών. Αυτή η επιλογή σας επιτρέπει"
 " να παράγετε περισσότερα από ένα τελικά προϊόντα. Χωρίς αυτή την επιλογή, η "
@@ -2487,7 +2787,11 @@ msgstr ""
 msgid "Add quality checks to your work orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθέστε ελέγχους ποιότητας στις εντολές εργασίας σας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσθέστε ελέγχους ποιότητας στις εντολές εργασίας σας"
 >>>>>>> upstream/18.0
@@ -2500,7 +2804,11 @@ msgstr "Προσθέστε ελέγχους ποιότητας στις εντο
 msgid "Add tag for the workcenter"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσθέστε ετικέτα για το κέντρο εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσθέστε ετικέτα για το κέντρο εργασίας"
 >>>>>>> upstream/18.0
@@ -2529,7 +2837,11 @@ msgstr "Όλα"
 msgid "All Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Κινήσεις Αποθέματος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Κινήσεις Αποθέματος"
 >>>>>>> upstream/18.0
@@ -2542,7 +2854,11 @@ msgstr "Όλες οι Κινήσεις Αποθέματος"
 msgid "All Move Raw"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Κινήσεις Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Κινήσεις Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -2559,6 +2875,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Όλες οι ποσότητες είδους πρέπει να είναι μεγαλύτερες ή ίσες με το 0.\n"
+"Γραμμές με 0 ποσότητες μπορούν να χρησιμοποιηθούν ως προαιρετικές γραμμμές. \n"
+"Θα πρέπει να εγκαταστήσετε το πρόσθετο mrp_byproduct αν θέλετε να διαχειρίζεστε επιπλέον είδη στις Λίστες Πρώτων Υλών!"
+>>>>>>> upstream/18.0
 =======
 "Όλες οι ποσότητες είδους πρέπει να είναι μεγαλύτερες ή ίσες με το 0.\n"
 "Γραμμές με 0 ποσότητες μπορούν να χρησιμοποιηθούν ως προαιρετικές γραμμμές. \n"
@@ -2580,7 +2902,11 @@ msgstr "Επιμερισμός"
 msgid "Allocation Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης Αποθέματος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης Αποθέματος"
 >>>>>>> upstream/18.0
@@ -2593,7 +2919,11 @@ msgstr "Αναφορά Δέσμευσης Αποθέματος"
 msgid "Allocation Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης Ετικετών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης Ετικετών"
 >>>>>>> upstream/18.0
@@ -2606,7 +2936,11 @@ msgstr "Αναφορά Δέσμευσης Ετικετών"
 msgid "Allocation Report for Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Δέσμευσης για τις Εντολές Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Δέσμευσης για τις Εντολές Παραγωγής"
 >>>>>>> upstream/18.0
@@ -2620,7 +2954,11 @@ msgstr "Αναφορά Δέσμευσης για τις Εντολές Παρα�
 msgid "Allow Work Order Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ενεργοποίηση Εξαρτήσεων Εντολών Εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ενεργοποίηση Εξαρτήσεων Εντολών Εργασίας"
 >>>>>>> upstream/18.0
@@ -2636,6 +2974,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Να επιτρέπεται στους χρήστες παραγωγής να τροποποιούν τις ποσότητες προς "
+"ανάλωση, χωρίς να απαιτείται προηγούμενη έγκριση "
+>>>>>>> upstream/18.0
 =======
 "Να επιτρέπεται στους χρήστες παραγωγής να τροποποιούν τις ποσότητες προς "
 "ανάλωση, χωρίς να απαιτείται προηγούμενη έγκριση "
@@ -2652,6 +2995,10 @@ msgid "Allow to create new lot/serial numbers for the components"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Να επιτρέπεται η δημιουργία παρτίδων/σειριακών αριθμών για τα συστατικά"
+>>>>>>> upstream/18.0
 =======
 "Να επιτρέπεται η δημιουργία παρτίδων/σειριακών αριθμών για τα συστατικά"
 >>>>>>> upstream/18.0
@@ -2695,7 +3042,11 @@ msgid "Allowed to Reserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Δέσμευση για Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται η Δέσμευση για Παραγωγή"
 >>>>>>> upstream/18.0
@@ -2804,7 +3155,11 @@ msgid "Allowed to Unreserve Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή"
 >>>>>>> upstream/18.0
@@ -2891,7 +3246,11 @@ msgstr "Επιτρέπεται η Αποδέσμευση από Παραγωγή
 msgid "Allowed with warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιτρέπεται με προειδοποίηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιτρέπεται με προειδοποίηση"
 >>>>>>> upstream/18.0
@@ -2904,7 +3263,11 @@ msgstr "Επιτρέπεται με προειδοποίηση"
 msgid "Alternative Workcenters"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εναλλακτικά Κέντρα Εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εναλλακτικά Κέντρα Εργασίας"
 >>>>>>> upstream/18.0
@@ -2920,6 +3283,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Εναλλακτικά κέντρα εργασίας που μπορούν να αντικατασταθούν αντί γι' αυτό για"
+" την εκτέλεση της παραγωγής"
+>>>>>>> upstream/18.0
 =======
 "Εναλλακτικά κέντρα εργασίας που μπορούν να αντικατασταθούν αντί γι' αυτό για"
 " την εκτέλεση της παραγωγής"
@@ -2937,6 +3305,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Μία εντολή αποσυναρμολόγησης χρησιμοποείται για τη διάσπαση ενός τελικού "
+"είδους στα συστατικά του."
+>>>>>>> upstream/18.0
 =======
 "Μία εντολή αποσυναρμολόγησης χρησιμοποείται για τη διάσπαση ενός τελικού "
 "είδους στα συστατικά του."
@@ -2953,7 +3326,11 @@ msgstr ""
 msgid "Apply on Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εφαρμόζεται στις Παραλλαγές"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εφαρμόζεται στις Παραλλαγές"
 >>>>>>> upstream/18.0
@@ -2966,7 +3343,11 @@ msgstr "Εφαρμόζεται στις Παραλλαγές"
 msgid "Archive Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αρχειοθέτηση Ενέργειας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αρχειοθέτηση Ενέργειας"
 >>>>>>> upstream/18.0
@@ -2989,7 +3370,11 @@ msgstr "Αρχειοθετημένα"
 msgid "Are you sure you want to cancel this manufacturing order?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτή την εντολή παραγωγής;"
+>>>>>>> upstream/18.0
 =======
 msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτή την εντολή παραγωγής;"
 >>>>>>> upstream/18.0
@@ -3002,7 +3387,11 @@ msgstr "Είστε σίγουροι ότι θέλετε να ακυρώσετε 
 msgid "Assembling"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συναρμολόγηση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συναρμολόγηση"
 >>>>>>> upstream/18.0
@@ -3033,7 +3422,11 @@ msgstr "Συνημμένα"
 msgid "Attachments Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αριθμός Συννημένων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αριθμός Συννημένων"
 >>>>>>> upstream/18.0
@@ -3051,7 +3444,11 @@ msgstr "Τιμές Χαρακτηριστικών"
 msgid "Auto Print Allocation Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης"
 >>>>>>> upstream/18.0
@@ -3064,7 +3461,11 @@ msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσ�
 msgid "Auto Print Allocation Report Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης Ετικετών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσης Ετικετών"
 >>>>>>> upstream/18.0
@@ -3077,7 +3478,11 @@ msgstr "Αυτόματη Εκτύπωση Αναφοράς Αποδέσμευσ�
 msgid "Auto Print Done Production Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολής Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολής Παραγωγής"
 >>>>>>> upstream/18.0
@@ -3090,7 +3495,11 @@ msgstr "Αυτόματη Εκτύπωση Ολοκληρωμένης Εντολ�
 msgid "Auto Print Generated Lot/SN Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σειριακού Αριθμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σειριακού Αριθμού"
 >>>>>>> upstream/18.0
@@ -3103,7 +3512,11 @@ msgstr "Αυτόματη Εκτύπωση Ετικέτας Παρτίδας/Σε
 msgid "Auto Print Produced Lot Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσας Παρτίδας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσας Παρτίδας"
 >>>>>>> upstream/18.0
@@ -3116,7 +3529,11 @@ msgstr "Αυτόματη Εκτύπωση Ετικέτας Παραχθείσα�
 msgid "Auto Print Produced Product Labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αυτόματη Εκτύπωση Ετικετών Παραχθέν Είδους"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αυτόματη Εκτύπωση Ετικετών Παραχθέν Είδους"
 >>>>>>> upstream/18.0
@@ -3132,6 +3549,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Όταν χρησιμοποιείται το κουμπί \"Δημιουργήστε νέο σειρακό αριθμό/παρτίδα\", "
+"εκτυπώνεται αυτόματα η ετικέτα παρτίδας/σειριακού αριθμού."
+>>>>>>> upstream/18.0
 =======
 "Όταν χρησιμοποιείται το κουμπί \"Δημιουργήστε νέο σειρακό αριθμό/παρτίδα\", "
 "εκτυπώνεται αυτόματα η ετικέτα παρτίδας/σειριακού αριθμού."
@@ -3148,7 +3570,11 @@ msgstr ""
 msgid "Availabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαθεσιμότητες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαθεσιμότητες"
 >>>>>>> upstream/18.0
@@ -3162,7 +3588,11 @@ msgstr "Διαθεσιμότητες"
 msgid "Availabilities on products."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαθεσιμότητες σε Είδη."
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαθεσιμότητες σε Είδη."
 >>>>>>> upstream/18.0
@@ -3207,7 +3637,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Μέσος χρόνος σε ημέρες για την παραγωγή αυτού του είδους. Στην περίπτωση "
@@ -3216,6 +3649,9 @@ msgstr ""
 "χρησιμοποθηθεί για να αποφασιστεί η ημερομηνία που πρέπει να σταλούν τα "
 "συστατικά στον υπεργολάβο."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3227,7 +3663,11 @@ msgstr ""
 msgid "Avg Cost of Components per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -3242,7 +3682,11 @@ msgstr "Μέσο Κόστος Συστατικών ανά Μονάδα"
 msgid "Avg Cost of Operations per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -3257,7 +3701,11 @@ msgstr "Μέσο Κόστος Ενεργειών ανά Μονάδα"
 msgid "Avg Total Cost per Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
 >>>>>>> upstream/18.0
@@ -3270,7 +3718,11 @@ msgstr "Συνολικό Μέσο Κόστος ανά Μονάδα"
 msgid "BOM Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -3283,7 +3735,11 @@ msgstr "Αναφορά Επισκόπησης Λίστας Πρώτων Υλών
 msgid "BOM Product Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παραλλαγές Είδους Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παραλλαγές Είδους Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -3299,6 +3755,11 @@ msgid "BOM Product Variants needed to apply this line."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Απαιτούνται Παραλλαγές Ειδών στις Λίστες Πρώτων Υλών για να εφαρμοστεί αυτή "
+"η γραμμή."
+>>>>>>> upstream/18.0
 =======
 "Απαιτούνται Παραλλαγές Ειδών στις Λίστες Πρώτων Υλών για να εφαρμοστεί αυτή "
 "η γραμμή."
@@ -3313,7 +3774,11 @@ msgstr ""
 msgid "BOM lines of the referred bom"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερόμενης λίστας πρώτων υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερόμενης λίστας πρώτων υλών"
 >>>>>>> upstream/18.0
@@ -3327,7 +3792,11 @@ msgstr "Γραμμές Λίστας Πρώτων Υλών της αναφερό�
 msgid "Back to BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πίσω στην Λίστα Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Πίσω στην Λίστα Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -3341,7 +3810,11 @@ msgstr "Πίσω στην Λίστα Πρώτων Υλών"
 msgid "Back to Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Πίσω στην Παραγωγή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Πίσω στην Παραγωγή"
 >>>>>>> upstream/18.0
@@ -3354,7 +3827,11 @@ msgstr "Πίσω στην Παραγωγή"
 msgid "Backorder Confirmation Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -3367,7 +3844,11 @@ msgstr "Γραμμή Επιβεβαίωσης Εκκρεμούς Παραγγε�
 msgid "Backorder Confirmation Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -3381,7 +3862,11 @@ msgstr "Γραμμές Επιβεβαίωσης Εκκρεμούς Παραγγ�
 msgid "Backorder MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -3395,7 +3880,11 @@ msgstr "Εντολή Παραγωγής Εκκρεμούς Παραγγελία�
 msgid "Backorder MO's"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -3408,7 +3897,11 @@ msgstr "Εντολές Παραγωγής Εκκρεμούς Παραγγελί�
 msgid "Backorder Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ακολουθία Εκκρεμούς Παραγγελίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ακολουθία Εκκρεμούς Παραγγελίας"
 >>>>>>> upstream/18.0
@@ -3423,6 +3916,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ακολουθία Εκκρεμούς Παραγγελίας, αν είναι ίση με 0 σημαίνει ότι δεν υπάρχει "
+"σχετική εκκρεμής παραγγελία"
+>>>>>>> upstream/18.0
 =======
 "Ακολουθία Εκκρεμούς Παραγγελίας, αν είναι ίση με 0 σημαίνει ότι δεν υπάρχει "
 "σχετική εκκρεμής παραγγελία"
@@ -3449,7 +3947,11 @@ msgstr "Βασισμένο στο"
 msgid "Batch Production"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παραγωγή Παρτίδων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παραγωγή Παρτίδων"
 >>>>>>> upstream/18.0
@@ -3481,7 +3983,11 @@ msgstr "Κατάσταση Υλικών"
 msgid "Bill of Material Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Λίστας Πρώτων Υλών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Λίστας Πρώτων Υλών"
 >>>>>>> upstream/18.0
@@ -3499,7 +4005,11 @@ msgstr "Κατάσταση γραμμής Υλικών"
 msgid "Bill of Material used on the Production Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Λίστα Πρώτων Υλών που χρησιμοποιείται στην Εντολή Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Λίστα Πρώτων Υλών που χρησιμοποιείται στην Εντολή Παραγωγής"
 >>>>>>> upstream/18.0
@@ -3537,6 +4047,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Οι Λίστες Πρώτων Υλών, ονομάζονται και συνταγές, χρησιμοποιούνται για την "
+"αυτόματη συμπλήρωση των συστατικών και των οδηγιών εντολής εργασίας."
+>>>>>>> upstream/18.0
 =======
 "Οι Λίστες Πρώτων Υλών, ονομάζονται και συνταγές, χρησιμοποιούνται για την "
 "αυτόματη συμπλήρωση των συστατικών και των οδηγιών εντολής εργασίας."
@@ -3555,6 +4070,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Οι Λίστες Πρώτων Υλών σας επιτρέπουν να ορίσετε την λίστα των απαιτούμενων  πρώτων υλών\n"
+"                υλικά που χρησιμοποιούνται για να φτιάξουν ένα τελικό προϊόν, είτε μέσω μίας εντολής\n"
+"                παραγωγής έιτε μέσω ενός πακέτου προϊόντων."
+>>>>>>> upstream/18.0
 =======
 "Οι Λίστες Πρώτων Υλών σας επιτρέπουν να ορίσετε την λίστα των απαιτούμενων  πρώτων υλών\n"
 "                υλικά που χρησιμοποιούνται για να φτιάξουν ένα τελικό προϊόν, είτε μέσω μίας εντολής\n"
@@ -3595,7 +4116,11 @@ msgstr "Μπλοκαρισμένο"
 msgid "Blocked By"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπλοκαρισμένο Από"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπλοκαρισμένο Από"
 >>>>>>> upstream/18.0
@@ -3608,7 +4133,11 @@ msgstr "Μπλοκαρισμένο Από"
 msgid "Blocked Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεσμευμένος Χρόνος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεσμευμένος Χρόνος"
 >>>>>>> upstream/18.0
@@ -3626,7 +4155,11 @@ msgstr ""
 msgid "Blocking Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Λόγος Δέσμευσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Λόγος Δέσμευσης"
 >>>>>>> upstream/18.0
@@ -3640,7 +4173,11 @@ msgstr "Λόγος Δέσμευσης"
 msgid "Blocks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεσμεύσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεσμεύσεις"
 >>>>>>> upstream/18.0
@@ -3676,7 +4213,11 @@ msgstr ""
 msgid "BoM Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κόστη Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κόστη Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3689,7 +4230,11 @@ msgstr "Κόστη Λίστας Υλικών"
 msgid "BoM Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γραμμή Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γραμμή Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3709,7 +4254,11 @@ msgstr "Γραμμές Κατάστασης Υλικών"
 msgid "BoM Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επισκόπηση Λίστας Υλικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επισκόπηση Λίστας Υλικών"
 >>>>>>> upstream/18.0
@@ -3728,7 +4277,11 @@ msgstr "Τύπος Κ.Υ."
 msgid "Bolt"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπουλόνι"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπουλόνι"
 >>>>>>> upstream/18.0
@@ -3751,7 +4304,11 @@ msgstr "Ανά-Είδος"
 msgid "By-product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υποπροϊόν"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υποπροϊόν"
 >>>>>>> upstream/18.0
@@ -3766,6 +4323,10 @@ msgid "By-product %s should not be the same as BoM product."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Το υποπροϊόν %s δεν πρέπει να είναι το ίδιο με το είδος της Λίστας Υλικών."
+>>>>>>> upstream/18.0
 =======
 "Το υποπροϊόν %s δεν πρέπει να είναι το ίδιο με το είδος της Λίστας Υλικών."
 >>>>>>> upstream/18.0
@@ -3779,6 +4340,10 @@ msgid "By-product line that generated the move in a manufacturing order"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Γραμμή υπορποϊόντος που δημιούργησε την μετακίνηση σε μία εντολή παραγωγής"
+>>>>>>> upstream/18.0
 =======
 "Γραμμή υπορποϊόντος που δημιούργησε την μετακίνηση σε μία εντολή παραγωγής"
 >>>>>>> upstream/18.0
@@ -3793,7 +4358,11 @@ msgstr ""
 msgid "By-products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υποπροϊόντα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υποπροϊόντα"
 >>>>>>> upstream/18.0
@@ -3808,7 +4377,11 @@ msgstr "Υποπροϊόντα"
 msgid "By-products cost shares must be positive."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τα ποσοστά κόστους των υποπροϊόντων πρέπει να είναι θετικά."
+>>>>>>> upstream/18.0
 =======
 msgstr "Τα ποσοστά κόστους των υποπροϊόντων πρέπει να είναι θετικά."
 >>>>>>> upstream/18.0
@@ -3861,7 +4434,11 @@ msgid "Can't find any production location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν βρέθηκε τοποθεσία παραγωγής."
 >>>>>>> upstream/18.0
@@ -3973,6 +4550,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Αδυναμία υπολογισμού των ημερών προετοιμασίας λόγω έλλειψης πληροφορίας "
+"διαδρομής για τουλάχιστον 1 συστατικό ή για το τελικό προϊόν."
+>>>>>>> upstream/18.0
 =======
 "Αδυναμία υπολογισμού των ημερών προετοιμασίας λόγω έλλειψης πληροφορίας "
 "διαδρομής για τουλάχιστον 1 συστατικό ή για το τελικό προϊόν."
@@ -3989,6 +4571,11 @@ msgid "Cannot delete a manufacturing order in done state."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Δεν μπορείτε να διαγράψετε μία εντολή παραγωγής που βρίσκεται στο στάδιο "
+"ολοκληρωμένες."
+>>>>>>> upstream/18.0
 =======
 "Δεν μπορείτε να διαγράψετε μία εντολή παραγωγής που βρίσκεται στο στάδιο "
 "ολοκληρωμένες."
@@ -4009,7 +4596,11 @@ msgstr "Χωρητικότητα"
 msgid "Capacity should be a positive number."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Η χωρητικότητα πρέπει να είναι θετικός αριθμός."
+>>>>>>> upstream/18.0
 =======
 msgstr "Η χωρητικότητα πρέπει να είναι θετικός αριθμός."
 >>>>>>> upstream/18.0
@@ -4022,7 +4613,11 @@ msgstr "Η χωρητικότητα πρέπει να είναι θετικός 
 msgid "Carried Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ποσότητα που μεταφέρθηκε"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ποσότητα που μεταφέρθηκε"
 >>>>>>> upstream/18.0
@@ -4063,7 +4658,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάλογος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάλογος"
 >>>>>>> upstream/18.0
@@ -4168,7 +4767,11 @@ msgstr "Κατηγορία"
 msgid "Center A"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κέντρο Α"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κέντρο Α"
 >>>>>>> upstream/18.0
@@ -4186,7 +4789,11 @@ msgstr "Αλλαγή Ποσ. Είδους"
 msgid "Change Production Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αλλαγή Ποσότητας Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αλλαγή Ποσότητας Παραγωγής"
 >>>>>>> upstream/18.0
@@ -4208,6 +4815,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Η αλλαγή του προϊόντος ή της παραλλαγής θα επαναφέρει οριστικά όλα τα "
+"προηγούμενα δεδομένα που σχετίζονται με παραλλαγές."
+>>>>>>> upstream/18.0
 =======
 "Η αλλαγή του προϊόντος ή της παραλλαγής θα επαναφέρει οριστικά όλα τα "
 "προηγούμενα δεδομένα που σχετίζονται με παραλλαγές."
@@ -4236,7 +4848,11 @@ msgstr "Επιλέξτε Διάταξη Ετικετών"
 msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσετε"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσετε"
 >>>>>>> upstream/18.0
@@ -4249,7 +4865,11 @@ msgstr "Διαλέξτε Τύπο Ετικετών για να Εκτυπώσε�
 msgid "Choose whether to print product or lot/sn labels"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους ή παρτίδας/σειριακού αριθμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους ή παρτίδας/σειριακού αριθμού"
 >>>>>>> upstream/18.0
@@ -4262,7 +4882,11 @@ msgstr "Επιλέξτε να εκτυπώσετε ετικέτες είδους
 msgid "Cleanup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρόνος Καθαρισμού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρόνος Καθαρισμού"
 >>>>>>> upstream/18.0
@@ -4275,7 +4899,11 @@ msgstr "Χρόνος Καθαρισμού"
 msgid "Cleanup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρόνος Καθαρισμού (λεπτά)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρόνος Καθαρισμού (λεπτά)"
 >>>>>>> upstream/18.0
@@ -4325,7 +4953,11 @@ msgstr "Εταιρία"
 msgid "Component"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικό"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικό"
 >>>>>>> upstream/18.0
@@ -4365,7 +4997,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Συστατικού"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάσταση Συστατικού"
 >>>>>>> upstream/18.0
@@ -4460,7 +5096,11 @@ msgstr "Κατάσταση Συστατικού"
 msgid "Component of Draft MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
 >>>>>>> upstream/18.0
@@ -4473,7 +5113,11 @@ msgstr "Συστατικό Πρόχειρης Εντολής Παραγωγής"
 msgid "Component separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαχωριστικό Συστατικού "
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαχωριστικό Συστατικού "
 >>>>>>> upstream/18.0
@@ -4494,7 +5138,11 @@ msgstr "Εξαρτήματα"
 msgid "Components Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
 >>>>>>> upstream/18.0
@@ -4507,7 +5155,11 @@ msgstr "Κατάσταση Διαθεσιμότητας Συστατικών"
 msgid "Components Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Συστατικά Διαθέσιμα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Συστατικά Διαθέσιμα"
 >>>>>>> upstream/18.0
@@ -4520,7 +5172,11 @@ msgstr "Συστατικά Διαθέσιμα"
 msgid "Components Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τοποθεσία Συστατικών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τοποθεσία Συστατικών"
 >>>>>>> upstream/18.0
@@ -4535,6 +5191,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Τα συστατικά θα δεσμεύονται πρώτα για την Εντολή Παραγωγής με τις "
+"μεγαλύτερες πρωτεραιότητες."
+>>>>>>> upstream/18.0
 =======
 "Τα συστατικά θα δεσμεύονται πρώτα για την Εντολή Παραγωγής με τις "
 "μεγαλύτερες πρωτεραιότητες."
@@ -4554,7 +5215,11 @@ msgstr "Υπολογισμός"
 msgid "Compute based on tracked time"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπολογίζεται βάσει του καταγεγραμμένου χρόνου "
+>>>>>>> upstream/18.0
 =======
 msgstr "Υπολογίζεται βάσει του καταγεγραμμένου χρόνου "
 >>>>>>> upstream/18.0
@@ -4576,7 +5241,11 @@ msgstr ""
 msgid "Computed on last"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Υπολογίζεται βάσει του τελευταίου"
+>>>>>>> upstream/18.0
 =======
 msgstr "Υπολογίζεται βάσει του τελευταίου"
 >>>>>>> upstream/18.0
@@ -4633,7 +5302,11 @@ msgstr ""
 msgid "Consumed in Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναλώνεται στην Ενέργεια"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναλώνεται στην Ενέργεια"
 >>>>>>> upstream/18.0
@@ -4649,7 +5322,11 @@ msgstr "Αναλώνεται στην Ενέργεια"
 msgid "Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ανάλωση"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ανάλωση"
 >>>>>>> upstream/18.0
@@ -4663,7 +5340,11 @@ msgstr "Ανάλωση"
 msgid "Consumption Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προειδποίηση Ανάλωσης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προειδποίηση Ανάλωσης"
 >>>>>>> upstream/18.0
@@ -4688,7 +5369,11 @@ msgstr ""
 msgid "Copy Existing Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αντιγραφή Υφιστάμενων Ενεργειών"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αντιγραφή Υφιστάμενων Ενεργειών"
 >>>>>>> upstream/18.0
@@ -4847,7 +5532,11 @@ msgid "Create a new work center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δημιουργία νέου κέντρου εργασίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δημιουργία νέου κέντρου εργασίας"
 >>>>>>> upstream/18.0
@@ -5134,7 +5823,11 @@ msgid "Custom Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προσαρμοσμένη Περιγραφή"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προσαρμοσμένη Περιγραφή"
 >>>>>>> upstream/18.0
@@ -5289,7 +5982,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ημερομηνία Κατηγορίας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ημερομηνία Κατηγορίας"
 >>>>>>> upstream/18.0
@@ -5506,7 +6203,11 @@ msgid "Delay Alert Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Καθυστέρηση Ημερομηνίας Ειδοποίησης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Καθυστέρηση Ημερομηνίας Ειδοποίησης"
 >>>>>>> upstream/18.0
@@ -5670,6 +6371,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -5981,6 +6686,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
+"σας."
+>>>>>>> upstream/18.0
 =======
 "Διασφαλίστε την ιχνηλασιμότητα ενός αποθηκεύσιμου προϊόντος στην αποθήκη "
 "σας."
@@ -6186,7 +6896,11 @@ msgid "Exp %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exp %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exp %s"
 >>>>>>> upstream/18.0
@@ -6447,7 +7161,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Πρόβλεψης"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Πρόβλεψης"
 >>>>>>> upstream/18.0
@@ -6608,7 +7326,11 @@ msgid "Forecasted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβλεπόμενες"
 >>>>>>> upstream/18.0
@@ -6738,7 +7460,11 @@ msgid "Forecasted Issue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Προβλεπόμενο Πρόβλημα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Προβλεπόμενο Πρόβλημα"
 >>>>>>> upstream/18.0
@@ -6986,7 +7712,11 @@ msgid "Google Slide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Διαφάνειες Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Διαφάνειες Google"
 >>>>>>> upstream/18.0
@@ -7155,7 +7885,11 @@ msgid "Google Slide Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Σύνδεσμος Διαφάνειας Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Σύνδεσμος Διαφάνειας Google"
 >>>>>>> upstream/18.0
@@ -7334,7 +8068,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7352,6 +8089,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7599,7 +8339,11 @@ msgid "Inventory Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κινήσεις Αποθεμάτων"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κινήσεις Αποθεμάτων"
 >>>>>>> upstream/18.0
@@ -7787,7 +8531,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John Doe"
+>>>>>>> upstream/18.0
 =======
 msgstr "John Doe"
 >>>>>>> upstream/18.0
@@ -7922,7 +8670,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -8801,7 +9553,11 @@ msgid "No data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Δεν υπάρχουν δεδομένα ακόμη!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Δεν υπάρχουν δεδομένα ακόμη!"
 >>>>>>> upstream/18.0
@@ -9075,7 +9831,11 @@ msgid "Not Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μη Διαθέσιμη"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μη Διαθέσιμη"
 >>>>>>> upstream/18.0
@@ -9537,6 +10297,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Κάντε επικόλληση τον σύνδεσμο της Διαφάνειας Google. Σιγουρευτείτε ότι  η "
+"πρόσβαση στο αρχείο έχει οριστεί ως δημόσια."
+>>>>>>> upstream/18.0
 =======
 "Κάντε επικόλληση τον σύνδεσμο της Διαφάνειας Google. Σιγουρευτείτε ότι  η "
 "πρόσβαση στο αρχείο έχει οριστεί ως δημόσια."
@@ -10514,7 +11279,11 @@ msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναπλήρωση Κατόπιν Παραγγελίας (MTO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναπλήρωση Κατόπιν Παραγγελίας (MTO)"
 >>>>>>> upstream/18.0
@@ -11224,7 +11993,11 @@ msgid "Technical field to check when we can reserve quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν οι "
+>>>>>>> upstream/18.0
 =======
 msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν οι "
 >>>>>>> upstream/18.0
@@ -11333,7 +12106,11 @@ msgid "Technical field to check when we can unreserve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν ποσότητες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Τεχνικό πεδίο για το πότε μπορούν να δεσμευτούν ποσότητες"
 >>>>>>> upstream/18.0
@@ -11498,7 +12275,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μεθαύριο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μεθαύριο"
 >>>>>>> upstream/18.0
@@ -12036,7 +12817,11 @@ msgid "Traceability Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Αναφορά Ιχνηλασιμότητας"
+>>>>>>> upstream/18.0
 =======
 msgstr "Αναφορά Ιχνηλασιμότητας"
 >>>>>>> upstream/18.0
@@ -12291,7 +13076,11 @@ msgid "Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μονάδες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μονάδες"
 >>>>>>> upstream/18.0
@@ -12455,7 +13244,11 @@ msgid "Upload your PDF file."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Φορτώστε το αρχείο PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Φορτώστε το αρχείο PDF."
 >>>>>>> upstream/18.0
@@ -13336,7 +14129,11 @@ msgid "from location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "από τοποθεσία"
+>>>>>>> upstream/18.0
 =======
 msgstr "από τοποθεσία"
 >>>>>>> upstream/18.0
@@ -13532,6 +14329,7 @@ msgstr "εντολές εργασίας"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -13552,6 +14350,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

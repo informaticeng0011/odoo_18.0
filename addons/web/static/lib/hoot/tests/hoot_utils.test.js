@@ -39,7 +39,11 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, isRegExpFilter } from "@web/../lib/hoot-dom/hoot_dom_utils";
+=======
+import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
@@ -200,6 +204,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    parseQuery,
+>>>>>>> upstream/18.0
 =======
     parseQuery,
 >>>>>>> upstream/18.0
@@ -389,7 +397,11 @@ describe(parseUrl(import.meta.url), () => {
         for (const [a, b] of TRUTHY_CASES) {
             expect(deepEqual(a, b)).toBe(true, {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`==`, b],
+=======
+                message: [a, `==`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `==`, b],
 >>>>>>> upstream/18.0
@@ -398,7 +410,11 @@ describe(parseUrl(import.meta.url), () => {
         for (const [a, b] of FALSY_CASES) {
             expect(deepEqual(a, b)).toBe(false, {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
+=======
+                message: [a, `!=`, b],
+>>>>>>> upstream/18.0
 =======
                 message: [a, `!=`, b],
 >>>>>>> upstream/18.0
@@ -407,15 +423,21 @@ describe(parseUrl(import.meta.url), () => {
         for (const [a, b] of TRUTHY_IF_UNORDERED_CASES) {
             expect(deepEqual(a, b)).toBe(false, {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: (_, r) => [a, r`!=`, b],
             });
             expect(deepEqual(a, b, { ignoreOrder: true })).toBe(true, {
                 message: (_, r) => [a, r`==`, b, r`(unordered))`],
 =======
+=======
+>>>>>>> upstream/18.0
                 message: [a, `!=`, b],
             });
             expect(deepEqual(a, b, { ignoreOrder: true })).toBe(true, {
                 message: [a, `==`, b, `(unordered))`],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             });
         }
@@ -571,6 +593,7 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("isRegExpFilter", () => {
         expect(isRegExpFilter("/abc/")).toBe(true);
         expect(isRegExpFilter("/abc/i")).toBe(true);
@@ -579,6 +602,8 @@ describe(parseUrl(import.meta.url), () => {
         expect(isRegExpFilter("abc/")).toBe(false);
     });
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -700,11 +725,14 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("lookup", () => {
         const list = [{ key: "bababa" }, { key: "baaab" }, { key: "cccbccb" }];
         expect(lookup("aaa", list)).toEqual([{ key: "baaab" }, { key: "bababa" }]);
         expect(lookup(/.b$/, list)).toEqual([{ key: "baaab" }, { key: "cccbccb" }]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -796,7 +824,11 @@ describe(parseUrl(import.meta.url), () => {
                     expect(result).toEqual(
                         expected.map((item) => ({ [property]: item })),
 <<<<<<< HEAD
+<<<<<<< HEAD
                         { message: (_, r) => [r`query`, query, r`should match`, expected] }
+=======
+                        { message: `query ${query} should match ${expected}` }
+>>>>>>> upstream/18.0
 =======
                         { message: `query ${query} should match ${expected}` }
 >>>>>>> upstream/18.0
@@ -890,6 +922,9 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -92,7 +92,10 @@ QUnit.test("tabs share message from a channel", async () => {
 QUnit.test("second tab still receives notifications after main pagehide", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     patchWebsocketWorkerWithCleanup({
@@ -104,6 +107,9 @@ QUnit.test("second tab still receives notifications after main pagehide", async 
         },
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

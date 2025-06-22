@@ -35,7 +35,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+=======
+        <field name="domain_force">[('company_id', 'parent_of', company_ids)]</field>
+>>>>>>> upstream/18.0
 =======
         <field name="domain_force">[('company_id', 'parent_of', company_ids)]</field>
 >>>>>>> upstream/18.0
