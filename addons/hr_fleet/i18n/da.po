@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 msgid ""
 msgstr ""
@@ -24,6 +25,8 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57,6 +60,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92,6 +98,11 @@ msgid ""
 "<span class=\"o_stat_value\">1</span>\n"
 "                        <span class=\"o_stat_text\">Employee</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_value\">1</span>\n"
+"                        <span class=\"o_stat_text\">Medarbejder</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model,name:hr_fleet.model_mail_activity_plan_template
@@ -105,7 +116,11 @@ msgid "Activity plan template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivitetsplanskabelon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivitetsplanskabelon"
 >>>>>>> upstream/18.0
@@ -149,7 +164,11 @@ msgstr "Vedhæftede filer"
 #. odoo-python
 #: code:addons/hr_fleet/models/employee.py:0
 msgid "Cannot remove address from employees with linked cars."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adressen på medarbejdere med tilknyttede biler kan ikke fjernes."
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__employee_cars_count
@@ -185,7 +204,11 @@ msgstr "Fører"
 #: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle_odometer__driver_employee_id
 #: model_terms:ir.ui.view,arch_db:hr_fleet.fleet_vehicle_log_services_view_form_inherit_hr
 msgid "Driver (Employee)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fører (medarbejder)"
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model,name:hr_fleet.model_fleet_vehicle_assignation_log
@@ -202,7 +225,11 @@ msgstr "Medarbejder"
 #. odoo-python
 #: code:addons/hr_fleet/models/mail_activity_plan_template.py:0
 msgid "Employee %s is not linked to a vehicle."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejder %s er ikke knyttet til et køretøj."
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__driver_employee_name
@@ -218,16 +245,25 @@ msgstr "Flåde leder"
 #. odoo-python
 #: code:addons/hr_fleet/models/mail_activity_plan_template.py:0
 msgid "Fleet Manager is limited to Employee plans."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flådeleder er begrænset til medarbejderplaner."
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model_terms:ir.ui.view,arch_db:hr_fleet.view_employee_form
 msgid "Fleet Mobility Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flådemobilitetskort"
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_fleet_vehicle__future_driver_employee_id
 msgid "Future Driver (Employee)"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_fleet
@@ -288,6 +324,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Fremtidig fører (medarbejder)"
+
+#. module: hr_fleet
+#. odoo-python
+#: code:addons/hr_fleet/models/employee.py:0
+msgid "History Employee Cars"
+msgstr "Medarbejdernes firmabilhistorik"
+
+#. module: hr_fleet
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__license_plate
 msgid "License Plate"
 msgstr "Nummerplade"
@@ -319,7 +366,11 @@ msgstr "Offentlig ansat"
 #: code:addons/hr_fleet/models/fleet_vehicle.py:0
 #: code:addons/hr_fleet/models/fleet_vehicle_log_contract.py:0
 msgid "Related Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilknyttet medarbejder"
+>>>>>>> upstream/18.0
 
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_departure_wizard__release_campany_car
@@ -361,4 +412,8 @@ msgstr "Køretøj Kontrakt"
 #. module: hr_fleet
 #: model:ir.model.fields,field_description:hr_fleet.field_hr_employee__car_ids
 msgid "Vehicles (private)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Køretøjer (privat)"
+>>>>>>> upstream/18.0

@@ -214,6 +214,11 @@ def neuter_mimetype(mimetype, user):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+_extension_pattern = re.compile(r'\w+')
+>>>>>>> upstream/18.0
 =======
 
 _extension_pattern = re.compile(r'\w+')
@@ -244,7 +249,11 @@ def get_extension(filename):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not dot or not ext.isalnum():
+=======
+    if not dot or not _extension_pattern.fullmatch(ext):
+>>>>>>> upstream/18.0
 =======
     if not dot or not _extension_pattern.fullmatch(ext):
 >>>>>>> upstream/18.0

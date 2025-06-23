@@ -54,6 +54,7 @@ const CAMERA_CONFIG = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: { max: 1280 },
     height: { max: 720 },
     aspectRatio: 16 / 9,
@@ -71,6 +72,8 @@ const DEFAULT_ICE_SERVERS = [
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     width: 1280,
 };
 const IS_CLIENT_RTC_COMPATIBLE = Boolean(window.RTCPeerConnection && window.MediaStream);
@@ -78,6 +81,9 @@ function GET_DEFAULT_ICE_SERVERS() {
     return [{ urls: ["stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"] }];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -239,7 +245,11 @@ export class Rtc extends Record {
         compute() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.iceServers ? this.iceServers : DEFAULT_ICE_SERVERS;
+=======
+            return this.iceServers ? this.iceServers : GET_DEFAULT_ICE_SERVERS();
+>>>>>>> upstream/18.0
 =======
             return this.iceServers ? this.iceServers : GET_DEFAULT_ICE_SERVERS();
 >>>>>>> upstream/18.0

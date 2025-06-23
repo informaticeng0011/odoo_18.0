@@ -94,9 +94,15 @@ class PeerTest {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             peer.onlineMutex.exec(async () => {
                 return peer.plugins.collaborationOdoo.onServerLastIdUpdate(String(lastId));
             });
+=======
+            peer.onlineMutex.exec(async () =>
+                peer.plugins.collaborationOdoo.onServerLastIdUpdate(String(lastId))
+            );
+>>>>>>> upstream/18.0
 =======
             peer.onlineMutex.exec(async () =>
                 peer.plugins.collaborationOdoo.onServerLastIdUpdate(String(lastId))
@@ -156,12 +162,15 @@ class Wysiwygs extends Component {
         this.peerPromises = Promise.all(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.peerIds.map((peerId) => {
                 return new Promise((resolve) => {
                     this.peerResolvers[peerId] = resolve;
                 });
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             this.props.peerIds.map(
@@ -171,6 +180,9 @@ class Wysiwygs extends Component {
                     })
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247,9 +259,13 @@ class Wysiwygs extends Component {
                         _getPtpPeers() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             return peers[peerId].connections.map((peer) => {
                                 return { id: peer.peerId };
                             });
+=======
+                            return peers[peerId].connections.map((peer) => ({ id: peer.peerId }));
+>>>>>>> upstream/18.0
 =======
                             return peers[peerId].connections.map((peer) => ({ id: peer.peerId }));
 >>>>>>> upstream/18.0
@@ -350,6 +366,7 @@ async function insertEditorText(editor, text) {
 beforeEach(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.users/read", () => {
         return [{ id: 0, name: "admin" }];
     });
@@ -357,6 +374,11 @@ beforeEach(() => {
         return [];
     });
     onRpc("/html_editor/bus_broadcast", (params) => {
+=======
+    onRpc("res.users", "read", () => [{ id: 0, name: "admin" }]);
+    onRpc("/html_editor/get_ice_servers", () => []);
+    onRpc("/html_editor/bus_broadcast", () => {
+>>>>>>> upstream/18.0
 =======
     onRpc("res.users", "read", () => [{ id: 0, name: "admin" }]);
     onRpc("/html_editor/get_ice_servers", () => []);

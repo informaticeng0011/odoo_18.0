@@ -1450,7 +1450,11 @@ class Lead(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'priority': lambda fname, leads: max(leads.mapped('priority')) if leads else False,
+=======
+            'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
+>>>>>>> upstream/18.0
 =======
             'priority': lambda fname, leads: max(priorities) if (priorities := leads.filtered('priority').mapped('priority')) else False,
 >>>>>>> upstream/18.0

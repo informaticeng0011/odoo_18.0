@@ -37,7 +37,11 @@ onRpc("ir.model", "display_name_for", (args) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const records = pyEnv["ir.model"]._records.filter((record) => models.includes(record.model));
+=======
+    const records = pyEnv["ir.model"].filter((record) => models.includes(record.model));
+>>>>>>> upstream/18.0
 =======
     const records = pyEnv["ir.model"].filter((record) => models.includes(record.model));
 >>>>>>> upstream/18.0

@@ -208,7 +208,11 @@ test("call instance method defined in patch", () => {
     expect.verifySteps(["base.setup"]);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("f" in instance).toBe(false);
+=======
+    expect(instance).not.toInclude("f");
+>>>>>>> upstream/18.0
 =======
     expect(instance).not.toInclude("f");
 >>>>>>> upstream/18.0
@@ -224,6 +228,7 @@ test("call instance method defined in patch", () => {
     instance.f();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("f" in instance).toBe(true);
     expect.verifySteps(["patch.f"]);
 
@@ -232,12 +237,17 @@ test("call instance method defined in patch", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     expect(instance).toInclude("f");
     expect.verifySteps(["patch.f"]);
 
     unpatch();
     expect(instance).not.toInclude("f");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

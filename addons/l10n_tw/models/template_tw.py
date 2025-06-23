@@ -39,6 +39,10 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_purchase_tax_id': 'tw_tax_purchase_5',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'tax_calculation_rounding_method': 'round_globally',
+>>>>>>> upstream/18.0
 =======
                 'tax_calculation_rounding_method': 'round_globally',
 >>>>>>> upstream/18.0

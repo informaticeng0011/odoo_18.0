@@ -48,7 +48,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button class="buy-product btn btn-lg btn-primary d-flex align-items-center justify-content-center mx-2 mb-2 cursor-pointer w-100" t-on-click="confirm">
+=======
+                <button class="buy-product btn btn-lg btn-primary d-flex align-items-center justify-content-center mx-2 mb-2 cursor-pointer w-100" t-on-click="confirm" t-att-disabled="!scale.isWeightValid">
+>>>>>>> upstream/18.0
 =======
                 <button class="buy-product btn btn-lg btn-primary d-flex align-items-center justify-content-center mx-2 mb-2 cursor-pointer w-100" t-on-click="confirm" t-att-disabled="!scale.isWeightValid">
 >>>>>>> upstream/18.0

@@ -13,6 +13,7 @@
 # Levent Karakaş <levent@mektup.at>, 2024
 # Özlem Atalay <ozlema@eskayazilim.com.tr>, 2024
 # Murat Kaplan <muratk@projetgrup.com>, 2024
+<<<<<<< HEAD
 # Ediz Duman <neps1192@gmail.com>, 2024
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2024
@@ -101,6 +102,13 @@
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Tugay Hatıl <tugayh@projetgrup.com>, 2024
+# Ediz Duman <neps1192@gmail.com>, 2024
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2024
+# Hakan Türkün, 2025
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -129,7 +137,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Hakan Türkün, 2025\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
@@ -324,6 +336,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"Bu çalışma "
+"çizelgesi kaydıyla ilişkili satış siparişi iptal edilmiştir.\" "
+"invisible=\"sale_order_state != 'cancel'\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-exclamation-triangle text-warning\" title=\"Bu çalışma "
 "çizelgesi kaydıyla ilişkili satış siparişi iptal edilmiştir.\" "
@@ -516,7 +534,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -586,6 +607,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -853,6 +877,14 @@ msgid ""
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Her bir çalışan, çalışmasının sonuçlarını ve yarattığı etkiyi görebilir.\n"
+"                    Şirketin başarısına somut bir biçimde katkı sunabilirsiniz.\n"
+"                    <br> \n"
+"                    Yıl boyunca haftalık spor seansları, ekibin bağlarını kuvvetlendirme\n"
+"                    etkinlikleri, aylık içki partileri gibi çeşitli etkinlikler düzenlenmektedir"
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model_terms:hr.job,website_description:sale_timesheet.job_engineer
@@ -940,7 +972,11 @@ msgid "Handyman"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tamirci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tamirci"
 >>>>>>> upstream/18.0
@@ -990,7 +1026,11 @@ msgid "Interior Designer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İç Mimar"
+>>>>>>> upstream/18.0
 =======
 msgstr "İç Mimar"
 >>>>>>> upstream/18.0
@@ -1302,8 +1342,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yukarı yönlü satış fırsatı aktivitesinin tetiklenmesi için ulaşılması "
 "gereken ön ödeme tutarına kıyasla teslim edilen sürenin oranı."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1494,9 +1537,15 @@ msgid ""
 "If you would like to bill the same service at a different rate, you need to create two separate sales order items as each sales order item can only have a single unit price at a time.\n"
 "You can also define the hourly company cost of your employees for their timesheets on this project specifically. It will bypass the timesheet cost set on the employee."
 msgstr ""
+<<<<<<< HEAD
 "İlgili çalışanın çalışma çizelgelerinde varsayılan olarak seçilecek olan satış siparişi kalemi. Projede ve görevde tanımlanan satış siparişi kalemini atlar ve gerekirse her çalışma çizelgesi girişinde değiştirilebilir. Başka bir deyişle, bir çalışanın zamanının örneğin uzmanlık, beceri veya deneyimlerine göre faturalandırılma oranını tanımlar.\n"
 "Aynı hizmeti farklı bir ücret üzerinden faturalandırmak isterseniz, her bir satış siparişi kalemi aynı anda yalnızca tek bir birim fiyata sahip olabileceğinden, iki ayrı satış siparişi kalemi oluşturmanız gerekir.\n"
 "Ayrıca bu projeye özel olarak çalışanlarınızın çalışma çizelgeleri için saatlik şirket maliyetlerini tanımlayabilirsiniz. Çalışanda ayarlanan çalışma çizelgesi maliyetini atlayacaktır."
+=======
+"İlgili çalışanın zaman çizelgelerinde varsayılan olarak seçilecek satış siparişi kalemidir. Proje veya görev üzerinde tanımlı olan satış siparişi kalemini geçersiz kılar ve gerekirse her zaman çizelgesi girişinde değiştirilebilir. Başka bir deyişle, bir çalışanın uzmanlığına, becerilerine veya deneyimine göre zamanının hangi oranla faturalandırılacağını belirler.\n"
+"Aynı hizmeti farklı bir ücretle faturalandırmak istiyorsanız, iki ayrı satış siparişi kalemi oluşturmanız gerekir; çünkü her satış siparişi kaleminin aynı anda yalnızca tek bir birim fiyatı olabilir.\n"
+"Ayrıca, bu projeye özel olarak çalışanlarınızın zaman çizelgeleri için saatlik şirket maliyetini tanımlayabilirsiniz. Bu değer, çalışanın kartında tanımlı olan zaman çizelgesi maliyetini geçersiz kılar."
+>>>>>>> upstream/18.0
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_account_analytic_line__so_line
@@ -1571,7 +1620,11 @@ msgid "Site Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şantiye Yöneticisi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Şantiye Yöneticisi"
 >>>>>>> upstream/18.0
@@ -1766,7 +1819,11 @@ msgid "Timesheet Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çalışma Çizelgesi Raporu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Çalışma Çizelgesi Raporu"
 >>>>>>> upstream/18.0

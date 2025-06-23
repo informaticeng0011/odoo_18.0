@@ -47,7 +47,11 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import fields, Command
 >>>>>>> upstream/18.0
@@ -262,7 +266,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -407,6 +414,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -555,8 +565,11 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -703,6 +716,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1017,7 +1033,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1179,6 +1198,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1326,7 +1348,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1403,12 +1428,15 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_line_ids': [Command.create({
                 'product_id': self.product_a.id,
                 'quantity': 3,
                 'price_unit': 11.34,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1433,6 +1461,9 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1448,6 +1479,7 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
             'name': 'test_invoice.xml',
         })
         imported_invoice = self.import_attachment(xml_attachment, self.company_data["default_journal_sale"])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1538,6 +1570,10 @@ class TestAccountEdiUblCii(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        for line in imported_invoice.invoice_line_ids:
+            self.assertFalse(line.discount, "A discount on the imported lines signals a rounding error in the discount computation")
 >>>>>>> upstream/18.0
 =======
         for line in imported_invoice.invoice_line_ids:

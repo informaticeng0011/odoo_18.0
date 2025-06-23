@@ -66,6 +66,10 @@ import { getDataURLFromFile } from "@web/core/utils/urls";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { onWillStart } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { onWillStart } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -312,7 +316,10 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -488,6 +495,9 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -666,9 +676,12 @@ export function usePartnerAutocomplete() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Lazyload jsvat only if the component is being used.
         await loadJS("/partner_autocomplete/static/lib/jsvat.js");
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

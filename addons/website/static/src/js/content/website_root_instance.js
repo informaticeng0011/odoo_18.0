@@ -16,7 +16,11 @@ const prom = createPublicRoot(WebsiteRoot).then(async rootInstance => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await loadBundle("website.assets_all_wysiwyg");
+=======
+            await loadBundle("website.assets_all_wysiwyg_inside");
+>>>>>>> upstream/18.0
 =======
             await loadBundle("website.assets_all_wysiwyg_inside");
 >>>>>>> upstream/18.0

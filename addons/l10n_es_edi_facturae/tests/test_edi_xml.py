@@ -454,7 +454,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
         self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -485,6 +488,9 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
                 expected_xml = lxml.etree.fromstring(f.read().encode())
             self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

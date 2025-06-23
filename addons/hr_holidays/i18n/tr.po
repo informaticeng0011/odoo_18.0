@@ -10,12 +10,19 @@
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2024
 # Nadir Gazioglu <nadirgazioglu@gmail.com>, 2024
 # Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2024
+<<<<<<< HEAD
+=======
+# Umur Akın <umura@projetgrup.com>, 2024
+>>>>>>> upstream/18.0
 # Halil, 2024
 # Tugay Hatıl <tugayh@projetgrup.com>, 2024
 # Buket Şeker <buket_skr@hotmail.com>, 2024
 # abc Def <hdogan1974@gmail.com>, 2024
 # Melih Melik Sonmez, 2024
+<<<<<<< HEAD
 # Umur Akın <umura@projetgrup.com>, 2024
+=======
+>>>>>>> upstream/18.0
 # İmat Yahya Çataklı <yahyacatakli@gmail.com>, 2024
 # Özlem Atalay <ozlema@eskayazilim.com.tr>, 2024
 # Ediz Duman <neps1192@gmail.com>, 2024
@@ -66,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Deniz Guvener, 2025
 >>>>>>> upstream/18.0
@@ -119,6 +127,9 @@
 >>>>>>> upstream/18.0
 =======
 # Deniz Guvener, 2025
+>>>>>>> upstream/18.0
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
@@ -188,6 +199,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +295,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Deniz Guvener, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-30 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-30 18:36+0000\n"
@@ -574,7 +591,11 @@ msgstr "(şu tarihe kadar geçerli"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "- Valid for"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Geçerlilik süresi:"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_form
@@ -701,6 +722,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Çalışanın saat dilimi sizinki ile aynı değil! Bu alanda, tarih ve saatler çalışanın saat diliminde gösterilir.</span>\n"
+"                    ("
+>>>>>>> upstream/18.0
 =======
 "<span>Çalışanın saat dilimi sizinki ile aynı değil! Bu alanda, tarih ve saatler çalışanın saat diliminde gösterilir.</span>\n"
 "                    ("
@@ -739,8 +765,13 @@ msgid ""
 "A great way to keep track on employee’s PTOs, sick days, and approval "
 "status."
 msgstr ""
+<<<<<<< HEAD
 "Çalışanların ücretli izinlerini, hastalık izinlerini ve onay durumlarını "
 "takip etmek için mükemmel bir yöntem."
+=======
+"Çalışanın ücretli izinlerini, hastalık izinlerini ve onay durumunu takip "
+"etmek için çok iyi bir yöntem."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_my
@@ -749,8 +780,13 @@ msgid ""
 "A great way to keep track on your time off requests, sick days, and approval"
 " status."
 msgstr ""
+<<<<<<< HEAD
 "Yıllık izin ve mazeret izni talepleri ve onay durumlarını takip etmek için "
 "mükemmel bir yol."
+=======
+"İzin taleplerinizi, hastalık izinlerinizi ve onay durumunu takip etmek için "
+"çok iyi bir yöntem."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -850,17 +886,29 @@ msgstr "İzin Tahakkuku: İzin süresini günceller"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity
 msgid "Accrual Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kazanç Geçerliliği"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid "Accrual Validity Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahakkuk Geçerlilik Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "Accrual Validity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahakkuk Geçerlilik Türü"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__accruals_ids
@@ -876,7 +924,11 @@ msgstr "Tahakkuk sayısı"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrued_gain_time
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__accrued_gain_time
 msgid "Accrued Gain Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biriken Kazanım Süresi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__message_needaction
@@ -1010,7 +1062,11 @@ msgid "All accrued time carried over"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahakkuk eden tüm izinler devredildi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tahakkuk eden tüm izinler devredildi"
 >>>>>>> upstream/18.0
@@ -1156,7 +1212,11 @@ msgstr "Tahsis Talepleri"
 #. module: hr_holidays
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
 msgid "Allocation Second Approval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Atamasında İkinci Onay"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__allocation_type
@@ -1214,7 +1274,11 @@ msgstr "Tahsisler"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__allows_negative
 msgid "Allow Negative Cap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Negatif Üst Sınır İzinli"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
@@ -1252,11 +1316,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Toplu olarak talep oluşturmaya izin verin:\n"
 "- Personele Göre: belirli bir personel için\n"
 "- Şirkete Göre: belirtilen şirketin tüm personeli\n"
 "- Departmana Göre: belirtilen departmanın tüm personeli\n"
 "- Çalışan Etiketine Göre: Belirli personel grubu kategorisindeki tüm personel"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1439,7 +1506,11 @@ msgstr ""
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "At work"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İşte"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids
@@ -1492,7 +1563,11 @@ msgid "Available:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanılabilir:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kullanılabilir:"
 >>>>>>> upstream/18.0
@@ -1514,13 +1589,21 @@ msgstr "Dışarıda"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.res_users_view_form
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Back On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geri Dönüş Tarihi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/persona_model_patch.js:0
 msgid "Back on %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Geri dönüş: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_balance
@@ -1531,7 +1614,11 @@ msgstr "Bakiye"
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Balance at the"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bakiyesi:"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__is_based_on_worked_time
@@ -1639,6 +1726,10 @@ msgstr "Sıfırlayabilir"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1745,7 +1836,11 @@ msgstr "İptal Edilen İzinler"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time
 msgid "Cap accrued time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahakkuk süresi tavanı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
@@ -1753,7 +1848,11 @@ msgid "Cap:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Üst limit:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Üst limit:"
 >>>>>>> upstream/18.0
@@ -1788,7 +1887,11 @@ msgid "Carried over days expiration date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devredilen günlerin son geçerlilik tarihi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Devredilen günlerin son geçerlilik tarihi"
 >>>>>>> upstream/18.0
@@ -1856,7 +1959,11 @@ msgstr "Devredilen günlerin son geçerlilik tarihi"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Carry Over Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devredilen Günlerin Geçerliliği"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__action_with_unused_accruals
@@ -1888,7 +1995,11 @@ msgid "Carry over with a maximum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azami sınırla devir"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azami sınırla devir"
 >>>>>>> upstream/18.0
@@ -1961,27 +2072,47 @@ msgstr ""
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Carry-Over Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devreden Gün Tarihi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_date
 msgid "Carry-Over Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devreden Süre"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_day
 msgid "Carryover Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devredilen Gün"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_day_display
 msgid "Carryover Day Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devredilen Günlerin Görüntülenmesi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_month
 msgid "Carryover Month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Devredilen Ay"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -2067,7 +2198,11 @@ msgstr "Doğrulanmış"
 #. odoo-python
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 msgid "Confirmed and Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onaylandı ve Kabul Edildi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:web_tour.tour,rainbow_man_message:hr_holidays.hr_holidays_tour
@@ -2088,6 +2223,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu yıldan itibaren geçerlilik süresi olan bu izin türü (onaylanmış veya onay"
 " bekleyen) için tahsisat sayısı."
 =======
@@ -2095,6 +2231,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Bu izin türü için bu yıl başlayan geçerlilik süresine sahip (onaylanmış veya"
+" onay bekleyen) hak ediş sayısı."
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -2111,8 +2251,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu izin türü için (onaylanan veya onay bekleyen) başlangıç tarihi geçerli "
 "yıl içinde olan izin taleplerinin sayısı."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2138,7 +2281,11 @@ msgstr "Kapak Resmi"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Create Allocations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tahsis Oluşturun"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_allocation_action_approve_department
@@ -2201,7 +2348,11 @@ msgstr "Bu Yıl"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Currently Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Şu Anda Geçerli"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__request_unit_hours
@@ -2277,6 +2428,7 @@ msgid ""
 "Define the maximum level of negative days this kind of time off can reach. "
 "Value must be at least 1."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -2362,6 +2514,14 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
 =======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
+=======
+"Bu izin türünün ulaşabileceği maksimum negatif gün sayısını tanımlayın. "
+"Değer en az 1 olmalıdır."
+
+#. module: hr_holidays
+#. odoo-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
@@ -2472,7 +2632,12 @@ msgstr ""
 msgid ""
 "Due to a change in global time offs, you have been granted %s day(s) back."
 msgstr ""
+<<<<<<< HEAD
 "Küresel izinlerdeki bir değişiklik nedeniyle, size %s gün geri verildi."
+=======
+"Dünya çapında izinlerde meydana gelen bir değişiklik nedeniyle %s izin günü "
+"hakkınız tarafınıza iade edilmiştir."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_report_calendar__duration
@@ -2539,7 +2704,11 @@ msgstr "Aktif Çalışan"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__employee_company_id
 msgid "Employee Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çalışanın Şirketi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__employee_requests
@@ -2555,13 +2724,21 @@ msgstr "Personel Etiketi"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Employee accrue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çalışan kazanımı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban_approve_department
 msgid "Employee's image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Çalışanın görseli"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_summary_employee__emp
@@ -2578,7 +2755,11 @@ msgstr "Çalışanlar"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Employees Off Today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bugün İzinli Olan Çalışanlar"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__date_to
@@ -2606,9 +2787,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ekstra Gün Taleplerine İzin Ver: Kullanıcı kendisi için bir tahsis talebinde bulunabilir.\n"
 "\n"
 "İzin Verme: Kullanıcı tahsis talebinde bulunamaz."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2629,8 +2813,13 @@ msgid ""
 "Field allowing to see the allocation duration in days or hours depending on "
 "the type_request_unit"
 msgstr ""
+<<<<<<< HEAD
 "Type_request_unit türüne bağlı olarak ayırma süresini gün veya saat olarak "
 "görmenizi sağlayan alan"
+=======
+"tür_talep_birim türüne bağlı olarak tahsis süresini gün veya saat cinsinden "
+"gösteren alan"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__duration_display
@@ -2638,8 +2827,13 @@ msgid ""
 "Field allowing to see the leave request duration in days or hours depending "
 "on the leave_type_request_unit"
 msgstr ""
+<<<<<<< HEAD
 "Leave_type_request_unit'e bağlı olarak izin talebi süresini gün veya saat "
 "olarak görmenizi sağlayan alan"
+=======
+"izin_türü_talep_birimi'ne göre izin talebinin süresini gün veya saat "
+"cinsinden gösteren alan."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__first_approver_id
@@ -2734,7 +2928,11 @@ msgstr "Sonraki Aktiviteler"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Oluştur"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_leave_allocation_generate_multi_wizard
@@ -2752,19 +2950,31 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oluşturulan Tahsisler"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oluşturulan İzin"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Grant Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veriliş Zamanı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_search
@@ -2805,7 +3015,11 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__has_mandatory_day
 msgid "Has Mandatory Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zorunlu Gün İçeriyor"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__has_message
@@ -2850,7 +3064,11 @@ msgid "Hourly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saatlik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saatlik"
 >>>>>>> upstream/18.0
@@ -2954,6 +3172,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Etkin alan Yanlış olarak ayarlıysa, kaynak kaydını silmeden gizlemenizi "
 "sağlayacaktır."
 =======
@@ -2961,6 +3180,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Aktif alanı \"Yanlış\" olarak ayarlanırsa, kaynağı silmeden gizlemenize "
+"olanak tanır"
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -2972,6 +3195,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Etkin alanı  ayarlanmazsa, izin türünü kaldırmadan gizlemenize olanak tanır."
 =======
 >>>>>>> upstream/18.0
@@ -2979,12 +3203,21 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Aktif alanı \"yanlış\" olarak ayarlanırsa, maaş kuralını silmeden "
+"gizlemenize olanak tanır."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_duration_check
 msgid ""
 "If you want to change the number of days you should use the 'period' mode"
+<<<<<<< HEAD
 msgstr "Gün adedini değiştirmek istiyorsanız 'dönem' şeklini kullanmalısınız"
+=======
+msgstr ""
+"Gün sayısını değiştirmek istemeniz durumunda 'dönem' modunu kullanmalısınız"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__transition_mode__immediately
@@ -3016,7 +3249,11 @@ msgid "Incorrect state for new allocation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yeni tahsis için geçersiz durum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yeni tahsis için geçersiz durum"
 >>>>>>> upstream/18.0
@@ -3090,7 +3327,11 @@ msgstr "Takipçi mi"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
 msgid "Is Name Custom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adı Özel Mi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_officer
@@ -3259,7 +3500,11 @@ msgstr "Yönetici Onayı"
 #: model:ir.model,name:hr_holidays.model_hr_leave_mandatory_day
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
 msgid "Mandatory Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zorunlu Gün"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -3267,7 +3512,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_holidays.hr_leave_mandatory_day_action
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_mandatory_day_menu_configuration
 msgid "Mandatory Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zorunlu Günler"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__first_month__mar
@@ -3300,7 +3549,11 @@ msgid "Mark as ready to approve"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Onaya hazır olarak işaretle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Onaya hazır olarak işaretle"
 >>>>>>> upstream/18.0
@@ -3390,7 +3643,13 @@ msgstr ""
 msgid ""
 "Maximum Time Off Allowed - Time Off Already Taken - Time Off Waiting "
 "Approval"
+<<<<<<< HEAD
 msgstr "İzin Verilen Maksimum İzin - Zaten Alınan İzin - Onay Bekleyen İzin"
+=======
+msgstr ""
+"Müsaade Edilen Azami İzin - Halihazırda Alınmış Olan İzin - Onay Bekleyen "
+"İzin"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__postpone_max_days
@@ -3440,12 +3699,20 @@ msgstr "Dönüm Noktası"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid "Milestone Transition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kilometre Taşı Geçişi"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
 msgid "Milestone cap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kilometre Taşı Sınırı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
@@ -3485,7 +3752,11 @@ msgstr "Sabah"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_allocation_generate_multi_wizard
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
 msgid "Multiple Requests"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Birden Fazla Talep"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__my_activity_date_deadline
@@ -3543,7 +3814,11 @@ msgstr "Adı"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Negative Cap"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Negatif Sınır"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -3663,6 +3938,11 @@ msgid ""
 "Non-visible allocations can still be selected when taking a leave, but will "
 "simply not be displayed on the leave dashboard."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Görünmeyen hak edişler izin alınırken yine de seçilebilir, ancak izin "
+"panosunda görüntülenmez."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -3771,7 +4051,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "On Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzinde"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee__hr_icon_display__presence_holiday_absent
@@ -3888,7 +4172,11 @@ msgstr "Doğum İzni"
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bekleyen Talepler"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
@@ -3932,7 +4220,11 @@ msgstr "Genel"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__include_public_holidays_in_duration
 msgid "Public Holiday Included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resmi Tatil Dahil"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -4011,7 +4303,11 @@ msgstr "Reddedildi"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Refused Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reddedilen İzin"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_allocation__allocation_type__regular
@@ -4221,6 +4517,13 @@ msgid ""
 "            #     - Approved by Time Off Officer: The employee's request need to be manually approved\n"
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Çalışan tarafından talep edilmesi durumunda gerekli onay düzeyini seçin \n"
+"            #     - Doğrulama gerekmez: Çalışanın talebi otomatik olarak onaylanır.\n"
+"            #     - İzin Sorumlusu tarafından onaylanır: Çalışanın talebi, İzin Sorumlusu, Çalışanın Onay Sorumlusu veya\n"
+"            #       her ikisi birden tarafından manuel olarak onaylanmalıdır."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -4241,8 +4544,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu personelin \"İzin\" onayından sorumlu kullanıcıyı seçin.\n"
 "Eğer boşsa, onay bir Yönetici veya Onaylayıcı (ayarlar/kullanıcılar kısmında belirlenen) tarafından yapılır."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4305,6 +4611,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bir tahsisin yıl sonunda tutabileceği azami tahakkuk miktarını belirleyin."
+>>>>>>> upstream/18.0
 =======
 "Bir tahsisin yıl sonunda tutabileceği azami tahakkuk miktarını belirleyin."
 >>>>>>> upstream/18.0
@@ -4441,6 +4751,11 @@ msgid ""
 "Some of the accrual plans you're trying to delete are linked to an existing "
 "allocation. Delete or cancel them first."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Silmek istediğiniz tahakkuk planlarından bazıları mevcut bir hak edişle "
+"bağlantılı. Önce onları silin veya iptal edin."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_plan__time_off_type_id
@@ -4451,8 +4766,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu tahakkuk planının yalnızca bu İzin Türü ile kullanılıp kullanılamayacağını belirtin.\n"
 "                Bu tahakkuk planı herhangi bir İzin Türü ile kullanılabiliyorsa boş bırakın."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4470,11 +4788,24 @@ msgid ""
 "                'After this accrual's period' will keep the employee on the same accrual level until the ongoing pay period is complete.\n"
 "                After it is complete, the new level will take effect when the next pay period begins."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Seviye geçişi bir bordro dönemi ortasında gerçekleşirse ne olacağını belirtin.\n"
+"\n"
+"                'Anında': Çalışan, mevcut bordro dönemi içinde, geçiş tarihi itibarıyla yeni birikim seviyesine geçer.\n"
+"\n"
+"                'Bu birikim döneminden sonra': Çalışan mevcut birikim seviyesinde kalır.\n"
+"                Geçerli bordro dönemi tamamlandıktan sonra yeni seviye, sonraki dönemde devreye girer."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Start Accruing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biriktirmeye Başlayın"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__date_from
@@ -4524,11 +4855,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aktivitelere göre durum \n"
 "Gecikmiş\\: Son tarih geçmiş\n"
 "Bugün\\: Aktivite tarihi bugün\n"
 "Planlanmış\\: Gelecek Aktiviteler."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4539,6 +4873,9 @@ msgstr ""
 "Planlanan: Gelecekteki faaliyetler."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4605,7 +4942,11 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
 "İki karakterde ISO ülke kodu.\n"
+=======
+"İki karakterden oluşan ISO ülke kodu. \n"
+>>>>>>> upstream/18.0
 "Hızlı arama için bu alanı kullanabilirsiniz."
 
 #. module: hr_holidays
@@ -4625,9 +4966,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tahakkuk, tahsis başlangıç tarihinden itibaren tanımlanan bir süre sonra "
 "başlar. Bu alan tahakkukun kaç gün, ay veya yıl sonra kullanılacağını "
 "tanımlar."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4649,7 +4993,11 @@ msgstr ""
 msgid ""
 "The color selected here will be used in every screen with the time off type."
 msgstr ""
+<<<<<<< HEAD
 "Burada seçilen renk, izin türüyle birlikte her ekranda kullanılacaktır."
+=======
+"Burada seçilen renk, İzin türüyle beraber her görünümde kullanılacaktır."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_check_dates
@@ -4665,8 +5013,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Çalışma süresi (ör. Katılım) ve devamsızlık (ör. Eğitim) arasındaki ayrım, "
 "Tahakkuk'un plan oranının hesaplanmasında kullanılacaktır."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4709,6 +5060,11 @@ msgid ""
 "The maximum excess amount should be greater than 0. If you want to set 0, "
 "disable the negative cap instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Azami fazla tutar 0’dan büyük olmalıdır. 0 olarak ayarlamak istiyorsanız, "
+"negatif sınırı devre dışı bırakın."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__expiring_carryover_days
@@ -4722,7 +5078,11 @@ msgstr ""
 msgid ""
 "The number of hours/days that will be incremented in the specified Time Off "
 "Type for every period"
+<<<<<<< HEAD
 msgstr "Her dönem için belirtilen İzin Türünde artırılacak saat/gün sayısı"
+=======
+msgstr "Belirtilen İzin türüne her dönem eklenecek saat/gün sayısı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check3
@@ -4756,6 +5116,7 @@ msgid ""
 "The status is 'Refused', when time off request is refused by manager.\n"
 "The status is 'Approved', when time off request is approved by manager."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4823,6 +5184,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -4840,7 +5203,13 @@ msgstr ""
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__sequence
 msgid ""
 "The type with the smallest sequence is the default value in time off request"
+<<<<<<< HEAD
 msgstr "En küçük sıraya sahip tür, izin talebinde varsayılan değerdir"
+=======
+msgstr ""
+"İzin talebinde varsayılan değer, sıralamada en küçük değere sahip olan "
+"türdür."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -4852,8 +5221,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "İzin için belirlenmiş bir çalışan yoktur. Lütfen doğru şirkette oturum "
 "açtığınızdan emin olun."
+=======
+"İzinli çalışan yok. Lütfen doğru şirkete giriş yaptığınızdan emin olun."
+>>>>>>> upstream/18.0
 =======
 "İzinli çalışan yok. Lütfen doğru şirkete giriş yaptığınızdan emin olun."
 >>>>>>> upstream/18.0
@@ -4895,8 +5268,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu alan, izni ikinci seviye ile doğrulayan kullanıcı tarafından otomatik "
 "olarak doldurulur (İzin türünün ikinci doğrulamaya ihtiyacı varsa)"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4951,14 +5327,26 @@ msgstr ""
 msgid ""
 "This value is given by the sum of all time off requests with a negative "
 "value."
+<<<<<<< HEAD
 msgstr "Bu değer negatif değere sahip tüm izin taleplerinin toplamıdır."
+=======
+msgstr ""
+"Bu değer, negatif değere sahip tüm izin taleplerinin toplamı tarafından "
+"verilmiştir."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__max_leaves
 msgid ""
 "This value is given by the sum of all time off requests with a positive "
 "value."
+<<<<<<< HEAD
 msgstr "Bu değer pozitif değere sahip tüm izin taleplerinin toplamıdır."
+=======
+msgstr ""
+"Bu değer, pozitif değere sahip tüm izin taleplerinin toplamı tarafından "
+"verilmiştir."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__week_day__thu
@@ -5018,7 +5406,11 @@ msgstr "İzin Takvimi"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_resource_calendar__associated_leaves_count
 msgid "Time Off Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Sayısı"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -5047,8 +5439,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "İzin Yetkilileri personele izin günleri tahsis eder (örn. Ücretli izin).<br>\n"
 "                Personel, İzin Memurları'na (örn. nekahet günleri) tahsis talebinde bulunurlar."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5140,7 +5535,11 @@ msgstr "İzin Türleri"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leave_validation_type
 msgid "Time Off Validation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Doğrulama"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
@@ -5181,7 +5580,11 @@ msgid "Time Off: Cancel invalid leaves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin: Geçersiz izinleri iptal et"
+>>>>>>> upstream/18.0
 =======
 msgstr "İzin: Geçersiz izinleri iptal et"
 >>>>>>> upstream/18.0
@@ -5249,7 +5652,11 @@ msgstr "İzin: Geçersiz izinleri iptal et"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 msgid "Time off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leaves_taken
@@ -5265,12 +5672,20 @@ msgstr "Çalışana Göre İzin Analizi ve İzin Türü"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_graph
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_pivot
 msgid "Time off Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzin Özeti"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__leaves_taken
 msgid "Time off Taken"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kullanılan İzin"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
@@ -5403,9 +5818,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bu personele tahsis edilen toplam ücretli izin sayısı. Bir tahsis/izin "
 "talebi oluşturmak için bu değeri değiştirin. Toplam, limiti aşımı yapamayan "
 "tüm izin türlerini kapsar."
+=======
+"Bu çalışana tanımlı toplam ücretli izin miktarıdır; izin tahsisi/izin talebi"
+" oluşturmak için bu değeri değiştirin. Toplam, sınırı aşmadan tüm izin "
+"türleri baz alınarak hesaplanır."
+>>>>>>> upstream/18.0
 =======
 "Bu çalışana tanımlı toplam ücretli izin miktarıdır; izin tahsisi/izin talebi"
 " oluşturmak için bu değeri değiştirin. Toplam, sınırı aşmadan tüm izin "
@@ -5555,7 +5976,11 @@ msgstr "Tip"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__type_request_unit
 msgid "Type Request Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Talep Birimi Türü"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__activity_exception_decoration
@@ -5615,7 +6040,11 @@ msgid "Unlimited"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sınırsız"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sınırsız"
 >>>>>>> upstream/18.0
@@ -5852,7 +6281,11 @@ msgstr "Onay Bekliyor"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Waiting For Me"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Benden Onay Bekliyor"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_employee__current_leave_state__validate1
@@ -5896,6 +6329,12 @@ msgid ""
 "to zero), All accrued time carried over to the next period; or Carryover "
 "with a maximum)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Devredilebilir Süre ulaşıldığında plana göre ne olacağını seçin: Hiçbiri "
+"(kalan izin sıfırlanır), Tüm birikmiş izin bir sonraki döneme aktarılır, "
+"Belirli bir maksimum ile sınırlı devretme yapılır."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time
@@ -5903,6 +6342,11 @@ msgid ""
 "When the field is checked the balance of an allocation using this accrual "
 "plan will never exceed the specified amount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bu alan işaretlendiğinde, bu tahakkuk planını kullanan bir hak edişin "
+"bakiyesi asla belirtilen tutarı aşmaz."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
@@ -5944,7 +6388,11 @@ msgstr "Yıllık Ay"
 #. module: hr_holidays
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__maximum_leave_yearly
 msgid "Yearly limit to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yıllık sınır:"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__start_type__year
@@ -5966,9 +6414,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Evet: İzin isteklerinin geçerli bir tahsisatı olması gerekir.\n"
 "\n"
 "Sınır Yok: İzin talepleri önceden herhangi bir tahsisat olmadan alınabilir."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5983,7 +6434,11 @@ msgid "You are not allowed to request time off on a Mandatory Day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zorunlu Çalışma Günleri'nde izin istemenize müsaade edilmez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zorunlu Çalışma Günleri'nde izin istemenize müsaade edilmez"
 >>>>>>> upstream/18.0
@@ -6012,7 +6467,11 @@ msgstr "Geçmişte bir tahakkuk başlatamazsınız."
 msgid ""
 "You can select the period you need to take off, from start date to end date"
 msgstr ""
+<<<<<<< HEAD
 "Başlangıç tarihinden bitiş tarihine kadar çıkarmanız gereken dönemi "
+=======
+"Başlangıç tarihinden bitiş tarihine izin almak isteyeceğiniz dönemi "
+>>>>>>> upstream/18.0
 "seçebilirsiniz"
 
 #. module: hr_holidays
@@ -6046,7 +6505,13 @@ msgstr "%s durumundaki bir tahsis talebini silemezsiniz."
 msgid ""
 "You cannot first approve a time off for %s, because you are not his time off"
 " manager"
+<<<<<<< HEAD
 msgstr "%s için izne ön onay veremezsiniz, çünkü izin yöneticisi değilsiniz"
+=======
+msgstr ""
+"%s için bir izni ilk olarak siz onaylayamazsınız, çünkü onun izin yöneticisi"
+" değilsiniz"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6093,7 +6558,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid ""
 "You don't have the rights to apply second approval on a time off request"
+<<<<<<< HEAD
 msgstr "İzin talebinde ikinci onay uygulama hakkınız yok"
+=======
+msgstr "İzin talebine ikinci onay verme yetkiniz yoktur."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6115,7 +6584,12 @@ msgstr ""
 msgid ""
 "You must be either %s's manager or Time off Manager to approve this leave"
 msgstr ""
+<<<<<<< HEAD
 "Bu izni onaylamak için %s'in yöneticisi veya İzin yöneticisi olmalısınız"
+=======
+"Bu izni onaylamak için %s'in yöneticisi veya İzinlerden Sorumlu Yönetici "
+"olmanız gerekir."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6124,8 +6598,13 @@ msgid ""
 "You must either be a Time off Officer or Time off Manager to approve this "
 "leave"
 msgstr ""
+<<<<<<< HEAD
 "Bu izni onaylamak için ya bir İzin Görevlisi ya da İzin Yöneticisi "
 "olmalısınız."
+=======
+"Bu izni onaylamak için İzinlerden Sorumlu Yetkili ya da İzinlerden Sorumlu "
+"Müdür olmanız gerekir."
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_accrual_level_added_value_greater_than_zero
@@ -6167,7 +6646,11 @@ msgstr "%(date)s tarihinde planladığınız %(leave_type)s reddedildi"
 #. odoo-python
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Your Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "İzinleriniz"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-python
@@ -6181,7 +6664,11 @@ msgid "after"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sonra"
+>>>>>>> upstream/18.0
 =======
 msgstr "sonra"
 >>>>>>> upstream/18.0
@@ -6239,7 +6726,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "click here"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "buraya tıklayın"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
@@ -6305,7 +6796,11 @@ msgid "days)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "gün)"
+>>>>>>> upstream/18.0
 =======
 msgstr "gün)"
 >>>>>>> upstream/18.0
@@ -6463,7 +6958,11 @@ msgid "hour(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "saat"
+>>>>>>> upstream/18.0
 =======
 msgstr "saat"
 >>>>>>> upstream/18.0
@@ -6615,7 +7114,11 @@ msgid "initially"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "başlangıçta"
+>>>>>>> upstream/18.0
 =======
 msgstr "başlangıçta"
 >>>>>>> upstream/18.0
@@ -6726,7 +7229,11 @@ msgstr "son gün"
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "new request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "yeni talep"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
@@ -6792,12 +7299,20 @@ msgstr "den"
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban
 msgid "to refuse"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "reddedilecek"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "up to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "’e kadar"
+>>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #. odoo-javascript

@@ -186,7 +186,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id == purchase_order.company_id)
+=======
+        supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
+>>>>>>> upstream/18.0
 =======
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
 >>>>>>> upstream/18.0

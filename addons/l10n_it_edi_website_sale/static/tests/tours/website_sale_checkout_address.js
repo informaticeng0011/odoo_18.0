@@ -51,7 +51,10 @@ registry.category("web_tour.tours").add('shop_checkout_address_create_partner', 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test: true,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

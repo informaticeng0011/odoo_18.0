@@ -154,7 +154,11 @@ test("Table menu should close on scroll", async () => {
     // Column menu should not be visible.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-dropdown--menu").not.toBeVisible();
+=======
+    expect(".o-dropdown--menu").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o-dropdown--menu").not.toHaveCount();
 >>>>>>> upstream/18.0

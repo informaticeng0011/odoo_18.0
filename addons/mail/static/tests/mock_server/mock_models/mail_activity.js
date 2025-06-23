@@ -21,8 +21,11 @@ import { groupBy, sortBy, unique } from "@web/core/utils/arrays";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_SEARCH_ID, DEFAULT_MAIL_VIEW_ID } from "./constants";
 import { MailActivityType } from "./mail_activity_type";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79,10 +82,13 @@ export class MailActivity extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _views = {
         [`search,${DEFAULT_MAIL_SEARCH_ID}`]: /* xml */ `<search/>`,
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: /* xml */ `<form/>`,
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138,7 +144,11 @@ export class MailActivity extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return MailActivityType._records[0].id;
+=======
+            return this.env["mail.activity.type"][0].id;
+>>>>>>> upstream/18.0
 =======
             return this.env["mail.activity.type"][0].id;
 >>>>>>> upstream/18.0

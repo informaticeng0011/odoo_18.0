@@ -25,8 +25,11 @@ export class MailComposerAttachmentSelector extends Component {
     async onFileUploaded({ data, name, type }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const resIds = JSON.parse(this.props.record.data.res_ids);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         let resIds;
@@ -36,6 +39,9 @@ export class MailComposerAttachmentSelector extends Component {
             resIds = JSON.parse(this.props.record.data.res_ids);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

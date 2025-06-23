@@ -27,7 +27,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.check_access_rule('read')  # To make sure not everyone can call this method as it's public.
+=======
+        self.check_access('read')  # To make sure not everyone can call this method as it's public.
+>>>>>>> upstream/18.0
 =======
         self.check_access('read')  # To make sure not everyone can call this method as it's public.
 >>>>>>> upstream/18.0

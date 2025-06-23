@@ -11,8 +11,14 @@ class IrUiMenu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not any(company.check_account_audit_trail for company in self.env.user.company_ids):
             res.append(self.env.ref('account.account_audit_trail_menu').id)
+=======
+        menu = self.env.ref('account.account_audit_trail_menu', raise_if_not_found=False)
+        if menu and not any(company.check_account_audit_trail for company in self.env.user.company_ids):
+            res.append(menu.id)
+>>>>>>> upstream/18.0
 =======
         menu = self.env.ref('account.account_audit_trail_menu', raise_if_not_found=False)
         if menu and not any(company.check_account_audit_trail for company in self.env.user.company_ids):

@@ -61,6 +61,10 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+         WHERE uuid IS NOT NULL
+>>>>>>> upstream/18.0
 =======
          WHERE uuid IS NOT NULL
 >>>>>>> upstream/18.0
@@ -188,6 +192,7 @@ def migrate(cr, version):
             cr.execute(query)
             if not cr.rowcount:
                 break
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +420,8 @@ def migrate(cr, version):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             ids = tuple(r[0] for r in cr.fetchmany(10000))
             cr.execute(
                 f"UPDATE {table} SET uuid = (%s::json)->>(id::text) WHERE id IN %s",
@@ -458,6 +465,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -86,8 +86,13 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { name: filename, mimetype } = attachment;
         return renderStaticFileBox(filename, mimetype, url);
+=======
+        const { name: filename, mimetype, id } = attachment;
+        return renderStaticFileBox(filename, mimetype, url, id);
+>>>>>>> upstream/18.0
 =======
         const { name: filename, mimetype, id } = attachment;
         return renderStaticFileBox(filename, mimetype, url, id);

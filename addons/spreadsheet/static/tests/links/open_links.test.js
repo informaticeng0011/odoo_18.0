@@ -121,8 +121,13 @@ test("Click a link containing an action xml id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(action.views).toEqual([[1, "list"]]);
             expect(action.domain).toEqual([(1, "=", 1)]);
+=======
+            expect(action.views).toEqual([[false, "list"]]);
+            expect(action.domain).toEqual([[1, "=", 1]]);
+>>>>>>> upstream/18.0
 =======
             expect(action.views).toEqual([[false, "list"]]);
             expect(action.domain).toEqual([[1, "=", 1]]);
@@ -218,7 +223,11 @@ test("Click a link containing an action xml id", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain: [(1, "=", 1)],
+=======
+            domain: [[1, "=", 1]],
+>>>>>>> upstream/18.0
 =======
             domain: [[1, "=", 1]],
 >>>>>>> upstream/18.0

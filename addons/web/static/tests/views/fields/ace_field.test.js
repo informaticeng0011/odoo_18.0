@@ -44,7 +44,11 @@ test("AceEditorField on text fields works", async () => {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect("ace" in window).toBe(true, { message: "the ace library should be loaded" });
+=======
+    expect(window).toInclude("ace", { message: "the ace library should be loaded" });
+>>>>>>> upstream/18.0
 =======
     expect(window).toInclude("ace", { message: "the ace library should be loaded" });
 >>>>>>> upstream/18.0

@@ -183,8 +183,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         taxes = self.taxes_id.compute_all(price, config.currency_id, quantity, self)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -201,6 +204,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -348,7 +354,11 @@ class ProductAttributeCustomValue(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id']
+=======
+        return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
+>>>>>>> upstream/18.0
 =======
         return ['custom_value', 'custom_product_template_attribute_value_id', 'pos_order_line_id', 'write_date']
 >>>>>>> upstream/18.0

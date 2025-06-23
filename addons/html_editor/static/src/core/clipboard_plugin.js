@@ -336,6 +336,7 @@ export class ClipboardPlugin extends Plugin {
         const textFragments = text.split(/\r?\n/);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -348,6 +349,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const preEl = closestElement(selection.anchorNode, "PRE");
@@ -368,6 +371,9 @@ export class ClipboardPlugin extends Plugin {
                 });
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

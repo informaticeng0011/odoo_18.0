@@ -27,8 +27,14 @@ const {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaDefaults = (schema) =>
     $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+=======
+function getSchemaDefaults(schema) {
+    return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaDefaults(schema) {
     return $fromEntries($entries(schema).map(([key, value]) => [key, value.default]));
@@ -47,7 +53,13 @@ function getSchemaDefaults(schema) {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSchemaKeys = (schema) => $keys(schema);
+=======
+function getSchemaKeys(schema) {
+    return $keys(schema);
+}
+>>>>>>> upstream/18.0
 =======
 function getSchemaKeys(schema) {
     return $keys(schema);
@@ -66,8 +78,14 @@ function getSchemaKeys(schema) {
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeParser = (parse) => (valueIfEmpty) => (values) =>
     values.length ? parse(values) : valueIfEmpty;
+=======
+function makeParser(parse) {
+    return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;
+}
+>>>>>>> upstream/18.0
 =======
 function makeParser(parse) {
     return (valueIfEmpty) => (values) => values.length ? parse(values) : valueIfEmpty;

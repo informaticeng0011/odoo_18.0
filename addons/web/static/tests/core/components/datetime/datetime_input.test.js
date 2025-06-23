@@ -94,7 +94,10 @@ describe("DateTimeInput (date)", () => {
         expect(".o_datetime_input").toHaveValue("08/02/1997");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // the onchange is called twice (when clicking and whe the popover is closing)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

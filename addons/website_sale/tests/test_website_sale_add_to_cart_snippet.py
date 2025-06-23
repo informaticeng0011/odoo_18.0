@@ -87,6 +87,10 @@ class TestAddToCartSnippet(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'phone': "+32 123456789"
+>>>>>>> upstream/18.0
 =======
             'phone': "+32 123456789"
 >>>>>>> upstream/18.0

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test, beforeEach } from "@odoo/hoot";
 import { queryAllTexts, click, animationFrame } from "@odoo/hoot-dom";
 
@@ -19,6 +20,8 @@ import { ProjectTask } from "./mock_server/mock_models/project_task";
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { beforeEach, expect, test } from "@odoo/hoot";
 import { animationFrame, click, queryAllTexts } from "@odoo/hoot-dom";
 
@@ -35,6 +38,9 @@ import { WebClient } from "@web/webclient/webclient";
 import { ProjectTask } from "./mock_server/mock_models/project_task";
 import { defineTodoModels } from "./todo_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56,7 +62,11 @@ beforeEach(() => {
             </form>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "activity, false": `
+=======
+        activity: `
+>>>>>>> upstream/18.0
 =======
         activity: `
 >>>>>>> upstream/18.0
@@ -73,8 +83,11 @@ beforeEach(() => {
             </activity>`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `
             <search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103,8 +116,12 @@ test("Check that project_task_action_convert_todo_to_task appears in the menu ac
     await contains(`.o_cp_action_menus .dropdown-toggle`).click();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const menuActions = Array.from(queryAllTexts(".o-dropdown--menu span"));
     expect(menuActions.includes("Convert to Task")).toBe(true, {
+=======
+    expect(queryAllTexts(".o-dropdown--menu span")).toInclude("Convert to Task", {
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".o-dropdown--menu span")).toInclude("Convert to Task", {
 >>>>>>> upstream/18.0
@@ -129,8 +146,12 @@ test("Check that project_task_action_convert_todo_to_task does not appear in the
     await contains(`.o_cp_action_menus .dropdown-toggle`).click();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const menuActions = Array.from(queryAllTexts(".o-dropdown--menu span"));
     expect(menuActions.includes("Convert to Task")).toBe(false, {
+=======
+    expect(queryAllTexts(".o-dropdown--menu span")).not.toInclude("Convert to Task", {
+>>>>>>> upstream/18.0
 =======
     expect(queryAllTexts(".o-dropdown--menu span")).not.toInclude("Convert to Task", {
 >>>>>>> upstream/18.0
@@ -143,6 +164,7 @@ test("Check that project_task_action_convert_todo_to_task does not appear in the
 });
 
 test.tags("desktop");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 test("Check if opening form view from activity view does open with chatter visble", async() => {
@@ -169,6 +191,8 @@ test("Check if opening form view from activity view does open with chatter visbl
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test("Check if opening form view from activity view does open with chatter visble", async () => {
     // Basic/Minimum data needed for activity view to be displayed
     onRpc("web_search_read", function ({ model }) {
@@ -185,6 +209,9 @@ test("Check if opening form view from activity view does open with chatter visbl
                 const templates = (type.mail_template_ids || []).map((template_id) => {
                     const { id, name } = this.env["mail.template"].browse(template_id)[0];
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -199,7 +226,11 @@ test("Check if opening form view from activity view does open with chatter visbl
             }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        };
+>>>>>>> upstream/18.0
 =======
         };
 >>>>>>> upstream/18.0
