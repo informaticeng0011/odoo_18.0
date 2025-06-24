@@ -82,9 +82,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         received_qty = line.qty_received
         if self.state == 'done':
             received_qty -= self.product_uom._compute_quantity(self.quantity, line.product_uom, rounding_method='HALF-UP')
+=======
+        received_qty = self._get_qty_received_without_self()
+>>>>>>> upstream/18.0
 =======
         received_qty = self._get_qty_received_without_self()
 >>>>>>> upstream/18.0
@@ -271,6 +275,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # The date must be today, and not the date of the move since the move move is still
             # in assigned state. However, the move date is the scheduled date until move is
             # done, then date of actual move processing. See:
@@ -279,6 +284,9 @@ class StockMove(models.Model):
             # use currency rate at bill date when invoice before receipt
             if float_compare(line.qty_invoiced, received_qty, precision_rounding=line.product_uom.rounding) > 0:
                 convert_date = max(line.sudo().invoice_lines.move_id.filtered(lambda m: m.state == 'posted').mapped('invoice_date'), default=convert_date)
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
@@ -425,7 +433,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -554,6 +565,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -670,6 +684,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            convert_date = self._get_currency_convert_date()
+>>>>>>> upstream/18.0
 =======
             convert_date = self._get_currency_convert_date()
 >>>>>>> upstream/18.0
@@ -814,7 +832,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0
@@ -960,7 +982,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.date
+=======
+                convert_date
+>>>>>>> upstream/18.0
 =======
                 convert_date
 >>>>>>> upstream/18.0
@@ -1182,6 +1208,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # when backordering an mto move link the bakcorder to the purchase order
+        if self.procure_method == 'make_to_order' and self.created_purchase_line_ids:
+            vals['created_purchase_line_ids'] = [Command.set(self.created_purchase_line_ids.ids)]
+>>>>>>> upstream/18.0
 =======
         # when backordering an mto move link the bakcorder to the purchase order
         if self.procure_method == 'make_to_order' and self.created_purchase_line_ids:

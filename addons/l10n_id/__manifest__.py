@@ -3,7 +3,11 @@
     'name': 'Indonesian - Accounting',
     'icon': '/account/static/description/l10n.png',
     'countries': ['id'],
+<<<<<<< HEAD
     'version': '1.1',
+=======
+    'version': '1.2',
+>>>>>>> upstream/18.0
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
 This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SMEs with:

@@ -294,6 +294,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        couponPointChange.code = order.get_selected_orderline()?.gift_code;
+                        couponPointChange.partner_id = order.get_partner()?.id;
+>>>>>>> upstream/18.0
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
@@ -589,9 +594,21 @@ patch(PosStore.prototype, {
         const rule = this.models["loyalty.rule"].find((rule) => {
             return rule.mode === "with_code" && (rule.promo_barcode === code || rule.code === code);
         });
+<<<<<<< HEAD
         let claimableRewards = null;
         let coupon = null;
         if (rule) {
+=======
+        const loyaltyCard = this.models["loyalty.card"].find(
+            (card) => card.code === code && card.program_id?.program_type === "loyalty"
+        );
+        let claimableRewards = null;
+        let coupon = null;
+        // If the code belongs to a loyalty card we just set the partner
+        if (loyaltyCard && loyaltyCard.partner_id) {
+            order.set_partner(loyaltyCard.partner_id);
+        } else if (rule) {
+>>>>>>> upstream/18.0
             const date_order = DateTime.fromSQL(order.date_order);
             if (
                 rule.program_id.date_from &&
@@ -980,7 +997,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["loyalty.reward"].delete(reward.id);
+=======
+                reward.delete();
+>>>>>>> upstream/18.0
 =======
                 reward.delete();
 >>>>>>> upstream/18.0

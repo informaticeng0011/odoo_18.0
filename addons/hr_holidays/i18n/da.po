@@ -22,6 +22,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -57,6 +61,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +125,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-30 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +142,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid " to %(date_to_utc)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " til %(date_to_utc)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " til %(date_to_utc)s"
 >>>>>>> upstream/18.0
@@ -179,7 +193,11 @@ msgstr "%(allocation_name)s (fra %(date_from)s til ingen grænse)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee)s on Time Off : %(duration)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(employee)s fraværende: %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(employee)s fraværende: %(duration)s"
 >>>>>>> upstream/18.0
@@ -195,7 +213,11 @@ msgstr "%(employee_name)s - fra %(date_from)s til %(date_to)s - %(state)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(holiday_name)s has been refused."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(holiday_name)s er blevet afvist."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(holiday_name)s er blevet afvist."
 >>>>>>> upstream/18.0
@@ -207,6 +229,11 @@ msgid ""
 "%(leave_name)s has been cancelled with the justification: <br/> %(reason)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(leave_name)s er blevet annulleret med følgende begrundelse: <br/> "
+"%(reason)s."
+>>>>>>> upstream/18.0
 =======
 "%(leave_name)s er blevet annulleret med følgende begrundelse: <br/> "
 "%(reason)s."
@@ -217,7 +244,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -227,7 +258,11 @@ msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s %(request_unit)s(s))"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s %(request_unit)s(s))"
 >>>>>>> upstream/18.0
@@ -249,7 +284,11 @@ msgstr "%(name)s (%(duration)s time(r))"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g %(maximum)g dage tilbage)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g %(maximum)g dage tilbage)"
 >>>>>>> upstream/18.0
@@ -259,7 +298,11 @@ msgstr "%(name)s (%(time)g %(maximum)g dage tilbage)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g %(maximum)g timer tilbage)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g %(maximum)g timer tilbage)"
 >>>>>>> upstream/18.0
@@ -275,7 +318,11 @@ msgstr "%(name)s: %(duration)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s på %(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s på %(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -285,7 +332,11 @@ msgstr "%(person)s på %(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -347,7 +398,11 @@ msgstr "(gyldig indtil"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "- Valid for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- Gyldig for"
+>>>>>>> upstream/18.0
 =======
 msgstr "- Gyldig for"
 >>>>>>> upstream/18.0
@@ -407,6 +462,11 @@ msgid ""
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Dage</span>\n"
+"                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Timer</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Dage</span>\n"
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Timer</span>"
@@ -419,6 +479,11 @@ msgid ""
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Hours</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Dage</span>\n"
+"                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Timer</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"ml8\" invisible=\"type_request_unit == 'hour'\">Dage</span>\n"
 "                                <span class=\"ml8\" invisible=\"type_request_unit != 'hour'\">Timer</span>"
@@ -434,6 +499,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Tilbage den\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Tilbage den\n"
@@ -496,6 +567,11 @@ msgid ""
 "                    ("
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Medarbejderen befinder sig i en anden tidszone end dig! Her vises datoer og klokkeslæt i medarbejderens tidszone</span>\n"
+"                    ("
+>>>>>>> upstream/18.0
 =======
 "<span>Medarbejderen befinder sig i en anden tidszone end dig! Her vises datoer og klokkeslæt i medarbejderens tidszone</span>\n"
 "                    ("
@@ -518,7 +594,11 @@ msgstr "<strong>Afdelinger og medarbejdere</strong>"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Et annulleret fravær kan ikke redigeres."
+>>>>>>> upstream/18.0
 =======
 msgstr "Et annulleret fravær kan ikke redigeres."
 >>>>>>> upstream/18.0
@@ -595,7 +675,11 @@ msgstr "Fraværende idag"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Accrual (Future):"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optjent ferie (kommende):"
+>>>>>>> upstream/18.0
 =======
 msgstr "Optjent ferie (kommende):"
 >>>>>>> upstream/18.0
@@ -647,7 +731,11 @@ msgstr "Periodisering fri: Opdatere antallet af fri tid"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity
 msgid "Accrual Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optjeningens gyldighed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Optjeningens gyldighed"
 >>>>>>> upstream/18.0
@@ -656,7 +744,11 @@ msgstr "Optjeningens gyldighed"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid "Accrual Validity Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal gyldige optjeninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal gyldige optjeninger"
 >>>>>>> upstream/18.0
@@ -665,7 +757,11 @@ msgstr "Antal gyldige optjeninger"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "Accrual Validity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optjeningens gyldighedstype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Optjeningens gyldighedstype"
 >>>>>>> upstream/18.0
@@ -685,7 +781,11 @@ msgstr "Antal optjeninger"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__accrued_gain_time
 msgid "Accrued Gain Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optjent afspadsering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Optjent afspadsering"
 >>>>>>> upstream/18.0
@@ -718,7 +818,11 @@ msgstr "Aktiv Medarbejder"
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Active but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktiv, men på ferie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktiv, men på ferie"
 >>>>>>> upstream/18.0
@@ -806,7 +910,11 @@ msgstr "Alle "
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__action_with_unused_accruals__all
 msgid "All accrued time carried over"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alt optjent fravær er overført"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alt optjent fravær er overført"
 >>>>>>> upstream/18.0
@@ -893,7 +1001,11 @@ msgstr "Forespørgsler om tildeling"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
 msgid "Allocation Second Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anden godkendelse af ferieanmodning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anden godkendelse af ferieanmodning"
 >>>>>>> upstream/18.0
@@ -932,6 +1044,11 @@ msgid ""
 "to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tildelingsanmodning skal bekræftes, godkendes to gange eller valideres for "
+"at blive afvist."
+>>>>>>> upstream/18.0
 =======
 "Tildelingsanmodning skal bekræftes, godkendes to gange eller valideres for "
 "at blive afvist."
@@ -943,6 +1060,11 @@ msgstr ""
 msgid "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tildelingsstatus skal være \"Afvist\", før den kan nulstilles til \"Til "
+"godkendelse\"."
+>>>>>>> upstream/18.0
 =======
 "Tildelingsstatus skal være \"Afvist\", før den kan nulstilles til \"Til "
 "godkendelse\"."
@@ -965,7 +1087,11 @@ msgstr "Tildelinger"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__allows_negative
 msgid "Allow Negative Cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tillad en negativ øvre grænse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tillad en negativ øvre grænse"
 >>>>>>> upstream/18.0
@@ -995,7 +1121,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__already_accrued
 msgid "Already Accrued"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Allerede optjent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Allerede optjent"
 >>>>>>> upstream/18.0
@@ -1115,7 +1245,11 @@ msgstr "Pil ikon"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__carryover_date__allocation
 msgid "At the allocation date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På tildelingsdatoen"
+>>>>>>> upstream/18.0
 =======
 msgstr "På tildelingsdatoen"
 >>>>>>> upstream/18.0
@@ -1124,7 +1258,11 @@ msgstr "På tildelingsdatoen"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__accrued_gain_time__end
 msgid "At the end of the accrual period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved optjeningsperiodens afslutning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved optjeningsperiodens afslutning"
 >>>>>>> upstream/18.0
@@ -1133,7 +1271,11 @@ msgstr "Ved optjeningsperiodens afslutning"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__accrued_gain_time__start
 msgid "At the start of the accrual period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ved optjeningsperiodens begyndelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ved optjeningsperiodens begyndelse"
 >>>>>>> upstream/18.0
@@ -1142,7 +1284,11 @@ msgstr "Ved optjeningsperiodens begyndelse"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_plan__carryover_date__year_start
 msgid "At the start of the year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I begyndelsen af året"
+>>>>>>> upstream/18.0
 =======
 msgstr "I begyndelsen af året"
 >>>>>>> upstream/18.0
@@ -1151,7 +1297,11 @@ msgstr "I begyndelsen af året"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "At work"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På arbejde"
+>>>>>>> upstream/18.0
 =======
 msgstr "På arbejde"
 >>>>>>> upstream/18.0
@@ -1187,6 +1337,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatisk fordeling af fravær under bunkeoprettelse tager ikke højde for overlappende fravær, der er angivet i timer. Der er registreret fraværskonflikt.:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "Automatisk fordeling af fravær under bunkeoprettelse tager ikke højde for overlappende fravær, der er angivet i timer. Der er registreret fraværskonflikt.:\n"
 "%s"
@@ -1210,7 +1365,11 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Available:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilgængelig:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilgængelig:"
 >>>>>>> upstream/18.0
@@ -1227,7 +1386,11 @@ msgstr "Væk"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Back On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbage den"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilbage den"
 >>>>>>> upstream/18.0
@@ -1237,7 +1400,11 @@ msgstr "Tilbage den"
 #: code:addons/hr_holidays/static/src/persona_model_patch.js:0
 msgid "Back on %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbage den %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilbage den %s"
 >>>>>>> upstream/18.0
@@ -1252,7 +1419,11 @@ msgstr "Balance"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Balance at the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Saldo den"
+>>>>>>> upstream/18.0
 =======
 msgstr "Saldo den"
 >>>>>>> upstream/18.0
@@ -1334,7 +1505,11 @@ msgstr "Kan annullere"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__can_modify_value_type
 msgid "Can Modify Value Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan redigere værditype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan redigere værditype"
 >>>>>>> upstream/18.0
@@ -1356,6 +1531,10 @@ msgstr "Kan nulstille"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1405,7 +1584,11 @@ msgstr "Annullér fri"
 #: model:ir.model,name:hr_holidays.model_hr_holidays_cancel_leave
 msgid "Cancel Time Off Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til at annullere fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistent til at annullere fravær"
 >>>>>>> upstream/18.0
@@ -1434,7 +1617,11 @@ msgstr "Annulleret fri"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time
 msgid "Cap accrued time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begræns optjent tid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Begræns optjent tid"
 >>>>>>> upstream/18.0
@@ -1443,7 +1630,11 @@ msgstr "Begræns optjent tid"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Cap:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begrænsning:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Begrænsning:"
 >>>>>>> upstream/18.0
@@ -1452,7 +1643,11 @@ msgstr "Begrænsning:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date
 msgid "Carried over days expiration date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløbsdato for de overførte dage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udløbsdato for de overførte dage"
 >>>>>>> upstream/18.0
@@ -1461,7 +1656,11 @@ msgstr "Udløbsdato for de overførte dage"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Carry Over Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gyldighed af overførslen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gyldighed af overførslen"
 >>>>>>> upstream/18.0
@@ -1471,7 +1670,11 @@ msgstr "Gyldighed af overførslen"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Carry over"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overfør"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overfør"
 >>>>>>> upstream/18.0
@@ -1480,7 +1683,11 @@ msgstr "Overfør"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__action_with_unused_accruals__maximum
 msgid "Carry over with a maximum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overføre med et maksimum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overføre med et maksimum"
 >>>>>>> upstream/18.0
@@ -1489,7 +1696,11 @@ msgstr "Overføre med et maksimum"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Carry over:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overføre:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overføre:"
 >>>>>>> upstream/18.0
@@ -1498,7 +1709,11 @@ msgstr "Overføre:"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Carry-Over Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overførselsdato:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overførselsdato:"
 >>>>>>> upstream/18.0
@@ -1507,7 +1722,11 @@ msgstr "Overførselsdato:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_date
 msgid "Carry-Over Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overførselstidspunkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overførselstidspunkt"
 >>>>>>> upstream/18.0
@@ -1516,7 +1735,11 @@ msgstr "Overførselstidspunkt"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_day
 msgid "Carryover Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overførselsdag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overførselsdag"
 >>>>>>> upstream/18.0
@@ -1530,7 +1753,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__carryover_month
 msgid "Carryover Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overførselsmåned"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overførselsmåned"
 >>>>>>> upstream/18.0
@@ -1545,18 +1772,28 @@ msgid ""
 "allocation accordingly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "En ændring af denne arbejdsplan betyder, at den eller de berørte "
 "medarbejdere fremover ikke vil få tildelt tilstrækkeligt med feriedage til "
 "at dække de allerede afholdte. Gennemgå venligst medarbejderens feriedage, "
 "og justér berettigede feriedage derefter."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_accrual_level__maximum_leave
 msgid "Choose a cap for this accrual."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vælg et loft for denne optjening."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg et loft for denne optjening."
 >>>>>>> upstream/18.0
@@ -1568,6 +1805,11 @@ msgid ""
 "Time Off Request. If empty, nobody will be notified"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vælg de fraværsansvarlige, som skal have besked om at godkende tildeling "
+"eller fraværsanmodninger. Hvis feltet er tomt, sendes der ingen besked"
+>>>>>>> upstream/18.0
 =======
 "Vælg de fraværsansvarlige, som skal have besked om at godkende tildeling "
 "eller fraværsanmodninger. Hvis feltet er tomt, sendes der ingen besked"
@@ -1636,7 +1878,11 @@ msgstr "Bekræftet"
 #: code:addons/hr_holidays/report/holidays_summary_report.py:0
 msgid "Confirmed and Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bekræftet eller godkendt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bekræftet eller godkendt"
 >>>>>>> upstream/18.0
@@ -1756,7 +2002,11 @@ msgstr "Nuværende år"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Currently Valid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På nuværende tidspunkt gyldig"
+>>>>>>> upstream/18.0
 =======
 msgstr "På nuværende tidspunkt gyldig"
 >>>>>>> upstream/18.0
@@ -1836,6 +2086,7 @@ msgid ""
 "Value must be at least 1."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -1876,12 +2127,17 @@ msgstr ""
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Angiv det maksimale antal negative dage, som denne fraværsmængde må nå. "
 "Værdien skal som minimum være 1."
 
 #. module: hr_holidays
 #. odoo-javascript
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/hr_holidays/static/src/views/view_dialog/form_view_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_kanban
@@ -1979,6 +2235,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ændringer i de globale fraværsdage har medført, at der er trukket %s ekstra "
+"dage fra din ferie. Kontrollér ferien, hvis du ønsker at rette det."
+>>>>>>> upstream/18.0
 =======
 "Ændringer i de globale fraværsdage har medført, at der er trukket %s ekstra "
 "dage fra din ferie. Kontrollér ferien, hvis du ønsker at rette det."
@@ -2005,6 +2266,12 @@ msgid ""
 "this leave."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Denne ferieanmodning er afvist, da den ikke længere dækkes af den "
+"tilgængelige feriesaldo efter ændringer i de globale fraværsdata. Kontrollér"
+" venligst anmodningen."
+>>>>>>> upstream/18.0
 =======
 "Denne ferieanmodning er afvist, da den ikke længere dækkes af den "
 "tilgængelige feriesaldo efter ændringer i de globale fraværsdata. Kontrollér"
@@ -2084,7 +2351,11 @@ msgstr "Medarbejder aktiv"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__employee_company_id
 msgid "Employee Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderens virksomhed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejderens virksomhed"
 >>>>>>> upstream/18.0
@@ -2104,7 +2375,11 @@ msgstr "Medarbejder tag"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Employee accrue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderens optjente ferie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejderens optjente ferie"
 >>>>>>> upstream/18.0
@@ -2114,7 +2389,11 @@ msgstr "Medarbejderens optjente ferie"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban_approve_department
 msgid "Employee's image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejderens billede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejderens billede"
 >>>>>>> upstream/18.0
@@ -2135,7 +2414,11 @@ msgstr "Medarbejdere"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_calendar_view_search
 msgid "Employees Off Today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medarbejdere, der er fraværende i dag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Medarbejdere, der er fraværende i dag"
 >>>>>>> upstream/18.0
@@ -2252,6 +2535,12 @@ msgid ""
 " plan. This can be manually edited."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette felt angiver den teoretiske mængde tid, der tildeles medarbejderen i "
+"en ferieopgørelse, når vedkommende har en tidligere startdato, og planen "
+"udføres for første gang. Værdien kan justeres manuelt."
+>>>>>>> upstream/18.0
 =======
 "Dette felt angiver den teoretiske mængde tid, der tildeles medarbejderen i "
 "en ferieopgørelse, når vedkommende har en tidligere startdato, og planen "
@@ -2292,7 +2581,11 @@ msgstr "Fremtidige aktiviteter"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generér fravær"
 >>>>>>> upstream/18.0
@@ -2302,7 +2595,11 @@ msgstr "Generér fravær"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Generate time off allocations for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér fraværstildelinger for flere medarbejdere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generér fraværstildelinger for flere medarbejdere"
 >>>>>>> upstream/18.0
@@ -2312,7 +2609,11 @@ msgstr "Generér fraværstildelinger for flere medarbejdere"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate time off for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér fravær for flere medarbejdere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generér fravær for flere medarbejdere"
 >>>>>>> upstream/18.0
@@ -2322,7 +2623,11 @@ msgstr "Generér fravær for flere medarbejdere"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genererede tildelinger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genererede tildelinger"
 >>>>>>> upstream/18.0
@@ -2332,7 +2637,11 @@ msgstr "Genererede tildelinger"
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genereret fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genereret fravær"
 >>>>>>> upstream/18.0
@@ -2342,7 +2651,11 @@ msgstr "Genereret fravær"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Grant Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tildel tid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tildel tid"
 >>>>>>> upstream/18.0
@@ -2391,7 +2704,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har adgang som afdelingsleder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har adgang som afdelingsleder"
 >>>>>>> upstream/18.0
@@ -2427,7 +2744,11 @@ msgstr "Har adgang som afdelingsleder"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__has_mandatory_day
 msgid "Has Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har obligatorisk dag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har obligatorisk dag"
 >>>>>>> upstream/18.0
@@ -2473,7 +2794,11 @@ msgstr "Time til"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__frequency__hourly
 msgid "Hourly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Timebasis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timebasis"
 >>>>>>> upstream/18.0
@@ -2554,6 +2879,11 @@ msgid ""
 "days, not calendar days."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis denne indstilling er aktiveret, beregnes optjente dage ud fra "
+"arbejdsdage i stedet for kalenderdage."
+>>>>>>> upstream/18.0
 =======
 "Hvis denne indstilling er aktiveret, beregnes optjente dage ud fra "
 "arbejdsdage i stedet for kalenderdage."
@@ -2566,6 +2896,11 @@ msgid ""
 "in negative."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis denne indstilling er aktiveret, kan en ferieanmodning overstige det "
+"tildelte antal dage og resultere i negativ feriesaldo."
+>>>>>>> upstream/18.0
 =======
 "Hvis denne indstilling er aktiveret, kan en ferieanmodning overstige det "
 "tildelte antal dage og resultere i negativ feriesaldo."
@@ -2618,7 +2953,11 @@ msgstr "Er følger"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
 msgid "Is Name Custom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Er navn brugerdefineret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Er navn brugerdefineret"
 >>>>>>> upstream/18.0
@@ -2718,7 +3057,11 @@ msgstr "Forlad"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__leave_type_increases_duration
 msgid "Leave Type Increases Duration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraværstype øger varigheden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraværstype øger varigheden"
 >>>>>>> upstream/18.0
@@ -2795,7 +3138,11 @@ msgstr "Leder godkendelse"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_mandatory_day_view_search
 msgid "Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obligatorisk dag"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obligatorisk dag"
 >>>>>>> upstream/18.0
@@ -2807,7 +3154,11 @@ msgstr "Obligatorisk dag"
 #: model:ir.ui.menu,name:hr_holidays.hr_holidays_mandatory_day_menu_configuration
 msgid "Mandatory Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obligatoriske dage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obligatoriske dage"
 >>>>>>> upstream/18.0
@@ -2843,7 +3194,11 @@ msgstr "Maksimum tilladt"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_allowed_negative
 msgid "Maximum Excess Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimal overskridelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimal overskridelse"
 >>>>>>> upstream/18.0
@@ -2906,7 +3261,11 @@ msgstr "Milepæl"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_plan__transition_mode
 msgid "Milestone Transition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overgang til milepæl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overgang til milepæl"
 >>>>>>> upstream/18.0
@@ -2915,7 +3274,11 @@ msgstr "Overgang til milepæl"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
 msgid "Milestone cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Loft for milepæl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Loft for milepæl"
 >>>>>>> upstream/18.0
@@ -2959,7 +3322,11 @@ msgstr "Morgen"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
 msgid "Multiple Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Flere anmodninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Flere anmodninger"
 >>>>>>> upstream/18.0
@@ -3001,7 +3368,11 @@ msgstr "Mit team"
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_holidays_my_leaves
 msgid "My Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min tid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min tid"
 >>>>>>> upstream/18.0
@@ -3025,7 +3396,11 @@ msgstr "Navn"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.edit_holiday_status_form
 msgid "Negative Cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grænse for negativ feriesaldo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grænse for negativ feriesaldo"
 >>>>>>> upstream/18.0
@@ -3149,6 +3524,11 @@ msgid ""
 "simply not be displayed on the leave dashboard."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Usynlige ferieanmodninger kan stadig vælges ved oprettelse af ferie, men "
+"vises ikke på fraværsdashboardet."
+>>>>>>> upstream/18.0
 =======
 "Usynlige ferieanmodninger kan stadig vælges ved oprettelse af ferie, men "
 "vises ikke på fraværsdashboardet."
@@ -3164,7 +3544,11 @@ msgstr "Ingen"
 #: model:ir.model.fields.selection,name:hr_holidays.selection__hr_leave_accrual_level__action_with_unused_accruals__lost
 msgid "None. Accrued time reset to 0"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen. Optjeningstid er nulstillet til 0"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen. Optjeningstid er nulstillet til 0"
 >>>>>>> upstream/18.0
@@ -3219,7 +3603,11 @@ msgstr "Antal fri tid"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_days
 msgid "Number of days of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal dage i den ønskede friperiode. Bruges i beregningen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal dage i den ønskede friperiode. Bruges i beregningen."
 >>>>>>> upstream/18.0
@@ -3234,7 +3622,11 @@ msgstr "Antal fejl"
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave__number_of_hours
 msgid "Number of hours of the time off request. Used in the calculation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal timer i den ønskede friperiode. Bruges i beregningen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal timer i den ønskede friperiode. Bruges i beregningen."
 >>>>>>> upstream/18.0
@@ -3267,7 +3659,11 @@ msgstr "Fri i dag"
 #: model:res.groups,name:hr_holidays.group_hr_holidays_user
 msgid "Officer: Manage all requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Personalechef: Administrér alle anmodninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Personalechef: Administrér alle anmodninger"
 >>>>>>> upstream/18.0
@@ -3278,7 +3674,11 @@ msgstr "Personalechef: Administrér alle anmodninger"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_employee_view_search
 msgid "On Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "På ferie"
+>>>>>>> upstream/18.0
 =======
 msgstr "På ferie"
 >>>>>>> upstream/18.0
@@ -3343,7 +3743,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kun en leder kan redigere annulleret fravær."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kun en leder kan redigere annulleret fravær."
 >>>>>>> upstream/18.0
@@ -3402,7 +3806,11 @@ msgstr "Forældreorlog"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udestående anmodninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udestående anmodninger"
 >>>>>>> upstream/18.0
@@ -3465,7 +3873,11 @@ msgid ""
 "Public holidays should be counted in the leave duration when applying for "
 "leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Når der ansøges om ferie, tælles helligdage med i ferieperioden"
+>>>>>>> upstream/18.0
 =======
 msgstr "Når der ansøges om ferie, tælles helligdage med i ferieperioden"
 >>>>>>> upstream/18.0
@@ -3533,7 +3945,11 @@ msgstr "Afvist"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Refused Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afvist fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afvist fravær"
 >>>>>>> upstream/18.0
@@ -3719,7 +4135,11 @@ msgstr "Anden måned dag visning"
 #: code:addons/hr_holidays/models/hr_leave_allocation.py:0
 msgid "Second approval request for %(allocation_type)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anden godkendelsesanmodning for %(allocation_type)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anden godkendelsesanmodning for %(allocation_type)s"
 >>>>>>> upstream/18.0
@@ -3729,7 +4149,11 @@ msgstr "Anden godkendelsesanmodning for %(allocation_type)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Second approval request for %(leave_type)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anden godkendelsesanmodning for %(leave_type)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anden godkendelsesanmodning for %(leave_type)s"
 >>>>>>> upstream/18.0
@@ -3755,11 +4179,17 @@ msgid ""
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Vælg det godkendelsesniveau, der er nødvendigt ved en medarbejderanmodning\n"
 "            #     - Godkendelse ikke nødvendig: Medarbejderens anmodning godkendes automatisk.\n"
 "            #     - Godkendelse af fraværsansvarlig: Medarbejderens anmodning skal godkendes manuelt\n"
 "            #       af den fraværsansvarlige, medarbejderens leder eller begge dele."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -3803,6 +4233,11 @@ msgstr "Sekvens genereres automatisk af starttid delta."
 msgid "Set a maximum of accruals an allocation keeps at the end of the year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Angiv en øvre grænse for, hvor meget der kan optjenes i en tildeling ved "
+"årets afslutning."
+>>>>>>> upstream/18.0
 =======
 "Angiv en øvre grænse for, hvor meget der kan optjenes i en tildeling ved "
 "årets afslutning."
@@ -3836,7 +4271,11 @@ msgstr "Syg fri tid"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "Some leaves cannot be linked to any allocation. To see those leaves,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Visse fraværstyper kan ikke knyttes til tildelinger. Klik her for at"
+>>>>>>> upstream/18.0
 =======
 msgstr "Visse fraværstyper kan ikke knyttes til tildelinger. Klik her for at"
 >>>>>>> upstream/18.0
@@ -3849,6 +4288,11 @@ msgid ""
 "allocation. Delete or cancel them first."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke slette optjeningsplaner, der er knyttet til eksisterende "
+"tildelinger. Slet eller annuller tildelingerne først."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke slette optjeningsplaner, der er knyttet til eksisterende "
 "tildelinger. Slet eller annuller tildelingerne først."
@@ -3874,20 +4318,30 @@ msgid ""
 "                After it is complete, the new level will take effect when the next pay period begins."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Angiv, hvad der skal ske, hvis overgangen til et nyt niveau sker midt i en lønperiode.\n"
 "\n"
 "                'Med det samme' betyder, at medarbejderen overgår til det nye forudbetalingsniveau på samme dato inden for den aktuelle lønperiode.\n"
 "\n"
 "                'Efter denne tilbageførselsperiode' betyder, at medarbejderen forbliver på det nuværende niveau, indtil den aktuelle lønperiode er afsluttet.\n"
 "                Herefter træder det nye niveau i kraft ved starten af den næste lønperiode."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Start Accruing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Start optjening"
+>>>>>>> upstream/18.0
 =======
 msgstr "Start optjening"
 >>>>>>> upstream/18.0
@@ -3968,7 +4422,11 @@ msgstr "Søndag"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave__supported_attachment_ids_count
 msgid "Supported Attachment Ids Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal understøttede identifikationsdokumenter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal understøttede identifikationsdokumenter"
 >>>>>>> upstream/18.0
@@ -4015,7 +4473,11 @@ msgstr ""
 msgid ""
 "The Start Date of the Validity Period must be anterior to the End Date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Startdatoen skal være før slutdatoen for at være gyldig."
+>>>>>>> upstream/18.0
 =======
 msgstr "Startdatoen skal være før slutdatoen for at være gyldig."
 >>>>>>> upstream/18.0
@@ -4039,6 +4501,11 @@ msgid ""
 "of that type have been taken. You should create a new time off type instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tildelingskravet for en fraværstype kan ikke ændres, hvis der allerede er "
+"afholdt ferie af denne type. Opret i stedet en ny fraværstype."
+>>>>>>> upstream/18.0
 =======
 "Tildelingskravet for en fraværstype kan ikke ændres, hvis der allerede er "
 "afholdt ferie af denne type. Opret i stedet en ny fraværstype."
@@ -4094,6 +4561,11 @@ msgid ""
 "                It will not be possible to take all of them."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du har planlagt flere feriedage, end du har ret til.\n"
+"                Du kan ikke afholde dem alle."
+>>>>>>> upstream/18.0
 =======
 "Du har planlagt flere feriedage, end du har ret til.\n"
 "                Du kan ikke afholde dem alle."
@@ -4106,6 +4578,11 @@ msgid ""
 "disable the negative cap instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Den maksimale overgrænse skal være større end 0. Hvis du vil sætte den til "
+"0, skal du i stedet slå den negative saldogrænse fra."
+>>>>>>> upstream/18.0
 =======
 "Den maksimale overgrænse skal være større end 0. Hvis du vil sætte den til "
 "0, skal du i stedet slå den negative saldogrænse fra."
@@ -4118,6 +4595,10 @@ msgid ""
 "carried_over_days_expiration_date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Antal overførte dage, der udløber på carried_over_days_expiration_date"
+>>>>>>> upstream/18.0
 =======
 "Antal overførte dage, der udløber på carried_over_days_expiration_date"
 >>>>>>> upstream/18.0
@@ -4137,6 +4618,10 @@ msgid ""
 "The request start date must be before or equal to the request end date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Anmodningens startdato skal være før eller på samme dag som slutdatoen."
+>>>>>>> upstream/18.0
 =======
 "Anmodningens startdato skal være før eller på samme dag som slutdatoen."
 >>>>>>> upstream/18.0
@@ -4150,7 +4635,11 @@ msgstr "Startdatoen skal være før slutdatoen."
 #: model:ir.model.constraint,message:hr_holidays.constraint_hr_leave_date_check2
 msgid "The start date must be before or equal to the end date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Startdatoen skal være før eller den samme som slutdatoen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Startdatoen skal være før eller den samme som slutdatoen."
 >>>>>>> upstream/18.0
@@ -4163,6 +4652,12 @@ msgid ""
 "The status is 'Approved', when an allocation request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Status 'Til godkendelse': Når en tildelingsanmodning oprettes.\n"
+"Status 'Afvist': Når en tildelingsanmodning afvises.\n"
+"Status 'Godkendt': Når en tildelingsanmodning godkendes af lederen."
+>>>>>>> upstream/18.0
 =======
 "Status 'Til godkendelse': Når en tildelingsanmodning oprettes.\n"
 "Status 'Afvist': Når en tildelingsanmodning afvises.\n"
@@ -4193,7 +4688,11 @@ msgstr "Fri tiden er automatisk blevet godkendt"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been cancelled: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraværet er blevet annulleret: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraværet er blevet annulleret: %s"
 >>>>>>> upstream/18.0
@@ -4221,6 +4720,10 @@ msgstr ""
 msgid "There is no valid allocation to cover that request."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Anmodningen kan ikke gennemføres, da der ikke er nogen gyldig tildeling."
+>>>>>>> upstream/18.0
 =======
 "Anmodningen kan ikke gennemføres, da der ikke er nogen gyldig tildeling."
 >>>>>>> upstream/18.0
@@ -4234,11 +4737,17 @@ msgid ""
 "configuration of the allocation, delete and create a new one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Denne optjening har allerede kørt en gang, og ændringer vil derfor ikke "
 "træde i kraft for de dage, der er tildelt til medarbejderen. Hvis du har "
 "behov for at ændre opsætningen for tildelingen, kan du slette og oprette en "
 "ny."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4270,6 +4779,11 @@ msgid ""
 "with second level (If time off type need second validation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette felt udfyldes automatisk af den bruger, der godkender tildelingen på "
+"andet niveau (hvis fraværstypen kræver en anden godkendelse)"
+>>>>>>> upstream/18.0
 =======
 "Dette felt udfyldes automatisk af den bruger, der godkender tildelingen på "
 "andet niveau (hvis fraværstypen kræver en anden godkendelse)"
@@ -4280,6 +4794,11 @@ msgstr ""
 msgid "This field defines the unit of time after which the accrual ends."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette felt definerer den tidsenhed, som afgør, hvornår periodiseringen "
+"afsluttes."
+>>>>>>> upstream/18.0
 =======
 "Dette felt definerer den tidsenhed, som afgør, hvornår periodiseringen "
 "afsluttes."
@@ -4306,7 +4825,11 @@ msgstr "Denne modificering er ikke tilladt på nuværende stadie."
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraværet kan ikke annulleres."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraværet kan ikke annulleres."
 >>>>>>> upstream/18.0
@@ -4388,7 +4911,11 @@ msgstr "Fritid kalender"
 #: model:ir.model.fields,field_description:hr_holidays.field_resource_calendar__associated_leaves_count
 msgid "Time Off Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal fraværsdage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal fraværsdage"
 >>>>>>> upstream/18.0
@@ -4506,7 +5033,11 @@ msgstr "Fri tids typer"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__leave_validation_type
 msgid "Time Off Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Godkendelse af fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Godkendelse af fravær"
 >>>>>>> upstream/18.0
@@ -4530,7 +5061,11 @@ msgstr "Fri tid."
 #: model:ir.actions.server,name:hr_holidays.hr_leave_cron_cancel_invalid_ir_actions_server
 msgid "Time Off: Cancel invalid leaves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fravær: Annullér ugyldigt fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fravær: Annullér ugyldigt fravær"
 >>>>>>> upstream/18.0
@@ -4539,7 +5074,11 @@ msgstr "Fravær: Annullér ugyldigt fravær"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_holidays_filter_report
 msgid "Time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fravær"
 >>>>>>> upstream/18.0
@@ -4559,7 +5098,11 @@ msgstr "Fri analyse pr. medarbejder og fritype."
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_report_pivot
 msgid "Time off Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oversigt over fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oversigt over fravær"
 >>>>>>> upstream/18.0
@@ -4568,7 +5111,11 @@ msgstr "Oversigt over fravær"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__leaves_taken
 msgid "Time off Taken"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afholdt fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afholdt fravær"
 >>>>>>> upstream/18.0
@@ -4701,6 +5248,11 @@ msgid ""
 "search bar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prøv at tilføje poster, eller kontroller, at søgefeltet ikke indeholder "
+"aktive filtre."
+>>>>>>> upstream/18.0
 =======
 "Prøv at tilføje poster, eller kontroller, at søgefeltet ikke indeholder "
 "aktive filtre."
@@ -4738,7 +5290,11 @@ msgstr "Type"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__type_request_unit
 msgid "Type Request Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Enhed for anmodningstype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Enhed for anmodningstype"
 >>>>>>> upstream/18.0
@@ -4763,7 +5319,11 @@ msgstr "Tz Uoverensstemmelse"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "Unlimited"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ubegrænset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ubegrænset"
 >>>>>>> upstream/18.0
@@ -4887,7 +5447,11 @@ msgstr "Afventer godkendelse"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_hr_leave_allocation_filter
 msgid "Waiting For Me"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Venter på mig"
+>>>>>>> upstream/18.0
 =======
 msgstr "Venter på mig"
 >>>>>>> upstream/18.0
@@ -4949,6 +5513,11 @@ msgid ""
 "at the specified amount"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Når feltet er markeret, vil det samlede optjente beløb hvert år blive "
+"begrænset til det angivne beløb"
+>>>>>>> upstream/18.0
 =======
 "Når feltet er markeret, vil det samlede optjente beløb hvert år blive "
 "begrænset til det angivne beløb"
@@ -5079,6 +5648,11 @@ msgid ""
 "You cannot have a cap on accrued time without setting a maximum amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke have en øvre grænse for optjent tid uden at fastsætte den "
+"maksimale mængde."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke have en øvre grænse for optjent tid uden at fastsætte den "
 "maksimale mængde."
@@ -5091,6 +5665,11 @@ msgid ""
 "amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke have en øvre grænse for årligt optjent tid uden at fastsætte den"
+" maksimale mængde."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke have en øvre grænse for årligt optjent tid uden at fastsætte den"
 " maksimale mængde."
@@ -5259,7 +5838,11 @@ msgstr "per Type"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "can be used before the allocation expires."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kan afholdes, inden tildelingsperioden udløber."
+>>>>>>> upstream/18.0
 =======
 msgstr "kan afholdes, inden tildelingsperioden udløber."
 >>>>>>> upstream/18.0
@@ -5269,7 +5852,11 @@ msgstr "kan afholdes, inden tildelingsperioden udløber."
 #: code:addons/hr_holidays/static/src/dashboard/time_off_card.xml:0
 msgid "click here"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "se dem"
+>>>>>>> upstream/18.0
 =======
 msgstr "se dem"
 >>>>>>> upstream/18.0

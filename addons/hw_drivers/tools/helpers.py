@@ -208,19 +208,31 @@ def check_image():
     return {'major': version[0], 'minor': version[1]}
 
 
+<<<<<<< HEAD
 def save_conf_server(url, token, db_uuid, enterprise_code):
+=======
+def save_conf_server(url, token, db_uuid, enterprise_code, db_name=None):
+>>>>>>> upstream/18.0
     """
     Save server configurations in odoo.conf
     :param url: The URL of the server
     :param token: The token to authenticate the server
     :param db_uuid: The database UUID
     :param enterprise_code: The enterprise code
+<<<<<<< HEAD
+=======
+    :param db_name: The database name
+>>>>>>> upstream/18.0
     """
     update_conf({
         'remote_server': url,
         'token': token,
         'db_uuid': db_uuid,
         'enterprise_code': enterprise_code,
+<<<<<<< HEAD
+=======
+        'db_name': db_name,
+>>>>>>> upstream/18.0
     })
 
 
@@ -400,7 +412,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not (db_uuid and enterprise_code):
+=======
+    if not db_uuid:
+>>>>>>> upstream/18.0
 =======
     if not db_uuid:
 >>>>>>> upstream/18.0
@@ -599,7 +615,11 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'enterprise_code': enterprise_code
+=======
+            'enterprise_code': enterprise_code or ''
+>>>>>>> upstream/18.0
 =======
             'enterprise_code': enterprise_code or ''
 >>>>>>> upstream/18.0
@@ -762,6 +782,7 @@ def load_certificate():
     if response.status != 200:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_STATUS %s\n\n%s" % (response.status, response.reason)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1059,6 +1080,8 @@ def load_certificate():
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     response_body = json.loads(response.data.decode())
     server_error = response_body.get('error')
     if server_error:
@@ -1109,6 +1132,9 @@ def load_certificate():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1448,6 +1474,7 @@ def disconnect_from_server():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'screen_orientation': '',
         'browser_url': '',
@@ -1649,6 +1676,12 @@ def disconnect_from_server():
         'iot_handlers_etag': '',
 >>>>>>> upstream/18.0
 =======
+        'screen_orientation': '',
+        'browser_url': '',
+        'iot_handlers_etag': '',
+>>>>>>> upstream/18.0
+=======
+        'db_name': '',
         'screen_orientation': '',
         'browser_url': '',
         'iot_handlers_etag': '',

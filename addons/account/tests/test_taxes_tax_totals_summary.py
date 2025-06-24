@@ -1437,10 +1437,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Note: this is a work in progress. The remaining stuff is coming...
         """
         self.env.company.tax_calculation_rounding_method = 'round_globally'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1624,6 +1627,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1868,6 +1874,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'base_amount_currency': 293.79,
             'tax_amount_currency': 52.89,
             'total_amount_currency': 346.68,
@@ -1876,6 +1883,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                     'name': "Untaxed Amount",
                     'base_amount_currency': 293.79,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2060,6 +2069,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2259,7 +2271,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3004,6 +3019,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

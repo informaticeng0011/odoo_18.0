@@ -455,7 +455,10 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,6 +492,9 @@ class TestEdiFacturaeXmls(AccountTestInvoicingCommon):
             self.assertXmlTreeEqual(lxml.etree.fromstring(generated_file), expected_xml)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

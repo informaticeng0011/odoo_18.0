@@ -334,10 +334,13 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 const oldRecord = toRaw(recordList._store.recordByLocalId).get(
                                     recordList.data[index]
                                 );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -394,6 +397,9 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -458,7 +464,11 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     oldRecord[inverse].delete(recordList);
+=======
+                                    oldRecord[inverse].delete(recordList._.owner);
+>>>>>>> upstream/18.0
 =======
                                     oldRecord[inverse].delete(recordList._.owner);
 >>>>>>> upstream/18.0
@@ -542,7 +552,11 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         newRecord[inverse].add(recordList);
+=======
+                                        newRecord[inverse].add(recordList._.owner);
+>>>>>>> upstream/18.0
 =======
                                         newRecord[inverse].add(recordList._.owner);
 >>>>>>> upstream/18.0
