@@ -104,7 +104,10 @@ class AccountMove(models.Model):
                 active_model='account.move', active_ids=paid_invoices.ids
             ).create({'group_payment': False}).action_create_payments()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _compute_tax_totals(self):
         """ OVERRIDE
@@ -137,4 +140,7 @@ class AccountMove(models.Model):
                         change_tax_base = True
             if change_tax_base:
                 move.tax_totals["same_tax_base"] = False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

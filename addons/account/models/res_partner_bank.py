@@ -5,6 +5,10 @@ from collections import defaultdict
 import werkzeug
 import werkzeug.exceptions
 from odoo import _, api, fields, models
+<<<<<<< HEAD
+=======
+from odoo.fields import SQL
+>>>>>>> upstream/18.0
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools.image import image_data_uri
 
@@ -48,6 +52,10 @@ class ResPartnerBank(models.Model):
     )
     currency_id = fields.Many2one(tracking=True)
     lock_trust_fields = fields.Boolean(compute='_compute_lock_trust_fields')
+<<<<<<< HEAD
+=======
+    duplicate_bank_partner_ids = fields.Many2many('res.partner', compute="_compute_duplicate_bank_partner_ids")
+>>>>>>> upstream/18.0
 
     @api.constrains('journal_id')
     def _check_journal_id(self):
@@ -63,6 +71,26 @@ class ResPartnerBank(models.Model):
                 if not self.env.user.has_group('account.group_validate_bank_account'):
                     raise ValidationError(_('You do not have the right to trust or un-trust a bank account.'))
 
+<<<<<<< HEAD
+=======
+    @api.depends('acc_number')
+    def _compute_duplicate_bank_partner_ids(self):
+        id2duplicates = dict(self.env.execute_query(SQL(
+            """
+                SELECT this.id,
+                       ARRAY_AGG(other.partner_id)
+                  FROM res_partner_bank this
+             LEFT JOIN res_partner_bank other ON this.acc_number = other.acc_number
+                                             AND this.id != other.id
+                 WHERE this.id = ANY(%(ids)s)
+              GROUP BY this.id
+            """,
+            ids=self.ids,
+        )))
+        for bank in self:
+            bank.duplicate_bank_partner_ids = self.env['res.partner'].browse(id2duplicates.get(bank._origin.id))
+
+>>>>>>> upstream/18.0
     @api.depends('partner_id.country_id', 'sanitized_acc_number', 'allow_out_payment', 'acc_type')
     def _compute_display_account_warning(self):
         for bank in self:
@@ -321,7 +349,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -529,6 +560,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -788,7 +822,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = _("Bank Account %(link)s with number %(number)s deleted", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+=======
+            msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
+>>>>>>> upstream/18.0
 =======
             msg = _("Bank Account %(link)s with number %(number)s archived", link=account._get_html_link(title=f"#{account.id}"), number=account.acc_number)
 >>>>>>> upstream/18.0

@@ -17,7 +17,11 @@
                 title="Add to Wishlist"
             >
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span class="fa fa-heart" role="img" aria-label="Add to wishlist"/>
+=======
+                <span class="fa fa-heart o_not-animable" role="img" aria-label="Add to wishlist"/>
+>>>>>>> upstream/18.0
 =======
                 <span class="fa fa-heart o_not-animable" role="img" aria-label="Add to wishlist"/>
 >>>>>>> upstream/18.0
@@ -280,7 +284,11 @@
                                             <a t-if="combination_info['prevent_zero_price_sale']" t-att-href="website.contact_us_button_url" class="btn btn-primary btn_cta">Contact Us</a>
                                             <button id="add_to_cart_button" t-else="" type="button" role="button" class="btn btn-secondary btn-block o_wish_add mb4" >
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <span class="fa fa-fw fa-shopping-cart"/>
+=======
+                                                <span class="fa fa-fw fa-shopping-cart o_not-animable"/>
+>>>>>>> upstream/18.0
 =======
                                                 <span class="fa fa-fw fa-shopping-cart o_not-animable"/>
 >>>>>>> upstream/18.0

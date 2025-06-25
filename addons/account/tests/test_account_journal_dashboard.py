@@ -323,7 +323,10 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
         self.assertEqual(dashboard_data.get('misc_operations_balance', 0), None)
         self.assertEqual(dashboard_data.get('misc_class', ''), 'text-warning')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_to_check_amount_different_currency(self):
         """
@@ -370,4 +373,7 @@ class TestAccountJournalDashboard(TestAccountJournalDashboardCommon):
 
         dashboard_data = journal._get_journal_dashboard_data_batched()[journal.id]
         self.assertEqual(dashboard_data['to_check_balance'], journal.currency_id.format(150))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

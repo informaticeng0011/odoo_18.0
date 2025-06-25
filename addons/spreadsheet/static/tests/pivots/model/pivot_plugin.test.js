@@ -36,8 +36,13 @@ import { CommandResult } from "@spreadsheet/o_spreadsheet/cancelled_reason";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { user } from "@web/core/user";
 import { localization } from "@web/core/l10n/localization";
+=======
+import { localization } from "@web/core/l10n/localization";
+import { user } from "@web/core/user";
+>>>>>>> upstream/18.0
 =======
 import { localization } from "@web/core/l10n/localization";
 import { user } from "@web/core/user";
@@ -68,6 +73,10 @@ import { waitForDataLoaded } from "@spreadsheet/helpers/model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Partner, Product } from "../../helpers/data";
+>>>>>>> upstream/18.0
 =======
 import { Partner, Product } from "../../helpers/data";
 >>>>>>> upstream/18.0
@@ -688,7 +697,11 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc(async ({ kwargs, model, method, parent }) => {
+=======
+    onRpc(async ({ kwargs, model, method }) => {
+>>>>>>> upstream/18.0
 =======
     onRpc(async ({ kwargs, model, method }) => {
 >>>>>>> upstream/18.0
@@ -716,7 +729,10 @@ test("display loading while data is not fully available", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return parent();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2174,7 +2190,10 @@ test("Can change display type of a measure", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2246,12 +2265,15 @@ test("can group by property", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2376,6 +2398,9 @@ test("date are between two years are correctly grouped by weeks and days", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

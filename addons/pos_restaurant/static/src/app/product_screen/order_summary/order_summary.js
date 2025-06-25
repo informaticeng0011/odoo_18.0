@@ -23,9 +23,14 @@ patch(OrderSummary.prototype, {
     async unbookTable() {
         const order = this.pos.get_order();
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.pos._onBeforeDeleteOrder(order);
         order.state = "cancel";
         this.pos.showScreen("FloorScreen");
+=======
+        await this.pos.deleteOrders([order]);
+        this.pos.showScreen(this.pos.firstScreen);
+>>>>>>> upstream/18.0
 =======
         await this.pos.deleteOrders([order]);
         this.pos.showScreen(this.pos.firstScreen);

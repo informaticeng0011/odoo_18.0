@@ -455,7 +455,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -602,6 +605,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         internals = receipts._get_next_transfers()
         self.assertEqual(internals[0].partner_id, xd_customer)
         self.assertEqual(internals[0].move_ids.product_id, xd_product)
@@ -631,6 +635,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -728,6 +734,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

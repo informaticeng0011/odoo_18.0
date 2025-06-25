@@ -582,7 +582,10 @@ registry.category("web_tour.tours").add("PosLoyalty2DiscountsSpecificGlobal", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -798,6 +801,9 @@ registry.category("web_tour.tours").add("PosLoyaltySpecificProductDiscountWithGl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -987,7 +993,10 @@ registry.category("web_tour.tours").add("RefundRulesProduct", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer", {
     steps: () =>
@@ -998,4 +1007,7 @@ registry.category("web_tour.tours").add("test_scan_loyalty_card_select_customer"
             ProductScreen.customerIsSelected("Test Partner"),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

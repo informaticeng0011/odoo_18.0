@@ -53,3 +53,16 @@ export function OrderButtonNotContain(data) {
     ];
     return steps;
 }
+<<<<<<< HEAD
+=======
+
+export function bookOrReleaseTable() {
+    return [
+        {
+            content: "click book or release table button",
+            trigger: ".table-booking button",
+            run: "click",
+        },
+    ];
+}
+>>>>>>> upstream/18.0

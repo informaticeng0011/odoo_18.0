@@ -57,7 +57,11 @@ from odoo.tests import common
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class MockSMS(common.TransactionCase):
+=======
+class MockSMS(common.HttpCase):
+>>>>>>> upstream/18.0
 =======
 class MockSMS(common.HttpCase):
 >>>>>>> upstream/18.0
@@ -341,8 +345,14 @@ class MockSMS(common.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create), \
                     patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
+=======
+                    patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create) as sms_create, \
+                    patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
+                self._mock_sms_create = sms_create
+>>>>>>> upstream/18.0
 =======
                     patch.object(SmsSms, 'create', autospec=True, wraps=SmsSms, side_effect=_sms_sms_create) as sms_create, \
                     patch.object(SmsSms, '_send', autospec=True, wraps=SmsSms, side_effect=_sms_sms_send):
@@ -648,8 +658,11 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sent sms not found for %s (number: %s)' % (partner, number))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -790,6 +803,9 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -942,8 +958,11 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise AssertionError('sms.sms not found for %s (number: %s / status %s)' % (partner, number, status))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1105,9 @@ class SMSCase(MockSMS):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1373,11 +1395,15 @@ class SMSCommon(MailCommon, SMSCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super(SMSCommon, cls).setUpClass()
         cls.user_employee.write({'login': 'employee'})
 
         # update country to belgium in order to test sanitization of numbers
         cls.user_employee.company_id.write({'country_id': cls.env.ref('base.be').id})
+=======
+        super().setUpClass()
+>>>>>>> upstream/18.0
 =======
         super().setUpClass()
 >>>>>>> upstream/18.0

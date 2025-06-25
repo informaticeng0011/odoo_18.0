@@ -577,6 +577,7 @@ class account_journal(models.Model):
                 late_query_results[journal.id] = [r for r in query_result[journal.id] if r['late']]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         to_check_vals = {
             journal.id: (amount_total_signed_sum, count)
             for journal, amount_total_signed_sum, count in self.env['account.move']._read_group(
@@ -590,6 +591,11 @@ class account_journal(models.Model):
                 aggregates=['amount_total_signed:sum', '__count'],
             )
         }
+=======
+        query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
+        self.env.cr.execute(query, params)
+        to_check_vals = group_by_journal(self.env.cr.dictfetchall())
+>>>>>>> upstream/18.0
 =======
         query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
         self.env.cr.execute(query, params)
@@ -620,7 +626,12 @@ class account_journal(models.Model):
             (number_draft, sum_draft) = self._count_results_and_sum_amounts(query_results_drafts[journal.id], currency)
             (number_late, sum_late) = self._count_results_and_sum_amounts(late_query_results[journal.id], currency)
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_total_signed_sum, count = to_check_vals.get(journal.id, (0, 0))
+=======
+            (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
+
+>>>>>>> upstream/18.0
 =======
             (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
 
@@ -640,8 +651,13 @@ class account_journal(models.Model):
 
             dashboard_data[journal.id].update({
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'number_to_check': count,
                 'to_check_balance': currency.format(amount_total_signed_sum),
+=======
+                'number_to_check': number_to_check,
+                'to_check_balance': currency.format(sum_to_check),
+>>>>>>> upstream/18.0
 =======
                 'number_to_check': number_to_check,
                 'to_check_balance': currency.format(sum_to_check),
@@ -754,7 +770,10 @@ class account_journal(models.Model):
         return query, selects
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_to_check_payment_query(self):
         # todo in master: use this hook function in _fill_general_dashboard_data as it's the same domain
         return self.env['account.move']._where_calc([
@@ -763,6 +782,9 @@ class account_journal(models.Model):
             ('checked', '=', False),
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _count_results_and_sum_amounts(self, results_dict, target_currency):
         """ Loops on a query result to count the total number of invoices and sum

@@ -7,7 +7,11 @@
             <field name="inherit_id" ref="account.view_move_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='ref']" position="after">
+<<<<<<< HEAD
                     <field name="move_type" invisible='1'/>
+=======
+                    <field name="move_type" invisible='1'/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
                     <field name="fapiao" invisible="country_code != 'CN' or move_type not in ['out_invoice', 'out_refund', 'in_invoice', 'in_refund']"/>
                 </xpath>
             </field>

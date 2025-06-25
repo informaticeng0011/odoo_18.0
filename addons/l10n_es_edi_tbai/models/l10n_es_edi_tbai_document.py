@@ -45,7 +45,11 @@ from odoo import _, api, fields, models, release
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_es_edi_sii.models.account_edi_format import PatchedHTTPAdapter
+=======
+from odoo.addons.certificate.tools import CertificateAdapter
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.certificate.tools import CertificateAdapter
 >>>>>>> upstream/18.0
@@ -296,7 +300,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+=======
+        if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
+>>>>>>> upstream/18.0
 =======
         if self.company_id.l10n_es_tbai_tax_agency == 'bizkaia' and self.company_id._l10n_es_freelancer() and not self.env['ir.config_parameter'].sudo().get_param('l10n_es_edi_tbai.epigrafe', False):
 >>>>>>> upstream/18.0
@@ -552,7 +560,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             session.mount("https://", PatchedHTTPAdapter())
+=======
+            session.mount("https://", CertificateAdapter())
+>>>>>>> upstream/18.0
 =======
             session.mount("https://", CertificateAdapter())
 >>>>>>> upstream/18.0
@@ -823,6 +835,10 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'is_freelancer': freelancer,  # For bugfix, will be removed in master
+>>>>>>> upstream/18.0
 =======
             'is_freelancer': freelancer,  # For bugfix, will be removed in master
 >>>>>>> upstream/18.0
@@ -1190,6 +1206,7 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         regime_key = []
 
         if is_simplified and self.company_id.l10n_es_tbai_tax_agency != 'bizkaia':
@@ -1200,6 +1217,9 @@ class L10nEsEdiTbaiDocument(models.Model):
         return {'regime_key': regime_key}
 =======
         return {'regime_key': taxes._l10n_es_get_regime_code()}
+>>>>>>> upstream/18.0
+=======
+        return {'regime_key': [taxes._l10n_es_get_regime_code()]}
 >>>>>>> upstream/18.0
 =======
         return {'regime_key': [taxes._l10n_es_get_regime_code()]}
@@ -1458,6 +1478,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -1526,7 +1551,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return True
+=======
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return True if tax_data else None
 >>>>>>> upstream/18.0
@@ -1573,6 +1602,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -1647,7 +1681,11 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return True
+=======
+            return True if tax_data else None
+>>>>>>> upstream/18.0
 =======
             return True if tax_data else None
 >>>>>>> upstream/18.0
@@ -1688,6 +1726,12 @@ class L10nEsEdiTbaiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if is_refund:
+            total_amount = -total_amount
+
+>>>>>>> upstream/18.0
 =======
         if is_refund:
             total_amount = -total_amount

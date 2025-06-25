@@ -1,6 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -617,7 +622,10 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             so._compute_payment_term_id()
             self.assertFalse(so.payment_term_id, "The website default payment term should not be set on a sale order not coming from the website")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_imported_user_with_trailing_name_can_checkout(self):
         """Ensure that an imported user with trailing spaces in their name can complete checkout without error."""
@@ -648,4 +656,7 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             }
             res = self.WebsiteSaleController.shop_address_submit(**values).data
             self.assertIsNotNone(json.loads(res).get('redirectUrl'), "We should get a 'redirectUrl' in the response")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

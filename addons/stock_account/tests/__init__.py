@@ -2,6 +2,10 @@ from . import test_account_move
 from . import test_anglo_saxon_valuation_reconciliation_common
 from . import test_lot_valuation
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_product
+>>>>>>> upstream/18.0
 =======
 from . import test_product
 >>>>>>> upstream/18.0
