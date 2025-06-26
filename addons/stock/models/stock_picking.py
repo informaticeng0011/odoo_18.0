@@ -1445,6 +1445,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0
@@ -1797,7 +1801,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1949,6 +1956,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2099,6 +2109,7 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves_to_backorder = picking.move_ids.filtered(lambda x: x.state not in ('done', 'cancel'))
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
@@ -2109,6 +2120,8 @@ class Picking(models.Model):
                     'backorder_id': picking.id
                 })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2251,6 +2264,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

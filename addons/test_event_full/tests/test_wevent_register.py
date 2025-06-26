@@ -5,6 +5,10 @@ from freezegun import freeze_time
 
 from odoo import tests
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -43,7 +47,10 @@ class TestWEventRegister(TestWEventCommon):
         self.assertEqual(visitor.mobile, "0456112233")
         self.assertEqual(visitor.email, "raoulette@example.com")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_internal_user_register(self):
         mail_new_test_user(
@@ -55,4 +62,7 @@ class TestWEventRegister(TestWEventCommon):
         )
         with freeze_time(self.reference_now, tick=True):
             self.start_tour('/event', 'wevent_register', login='user_internal')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -2,7 +2,11 @@
 
 from odoo import api, fields, models, _
 from odoo.addons.mail.tools.discuss import Store
+<<<<<<< HEAD
 from odoo.tools import email_normalize, html2plaintext, plaintext2html
+=======
+from odoo.tools import email_normalize, email_split, html2plaintext, plaintext2html
+>>>>>>> upstream/18.0
 
 from markupsafe import Markup
 
@@ -143,7 +147,11 @@ class DiscussChannel(models.Model):
             'subject': _('Conversation with %s', self.livechat_operator_id.user_livechat_username or self.livechat_operator_id.name),
             'email_from': company.catchall_formatted or company.email_formatted,
             'author_id': self.env.user.partner_id.id,
+<<<<<<< HEAD
             'email_to': email,
+=======
+            'email_to': email_split(email)[0],
+>>>>>>> upstream/18.0
             'body_html': mail_body,
         })
         mail.send()

@@ -2,6 +2,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -623,7 +628,10 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             self.assertFalse(so.payment_term_id, "The website default payment term should not be set on a sale order not coming from the website")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -657,6 +665,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             res = self.WebsiteSaleController.shop_address_submit(**values).data
             self.assertIsNotNone(json.loads(res).get('redirectUrl'), "We should get a 'redirectUrl' in the response")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

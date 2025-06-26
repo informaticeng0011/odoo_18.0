@@ -4,7 +4,10 @@ from odoo import _, api, fields, models
 from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import cleanup_xml_node
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

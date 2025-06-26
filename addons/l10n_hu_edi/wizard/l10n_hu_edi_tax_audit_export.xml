@@ -20,7 +20,11 @@
                 <div invisible="not export_file">
                     <field name="export_file" widget="binary" filename="filename" readonly="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="filename" invisible="1"/>
+=======
+                    <field name="filename" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                     <field name="filename" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0

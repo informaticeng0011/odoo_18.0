@@ -578,6 +578,7 @@ class account_journal(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         to_check_vals = {
             journal.id: (amount_total_signed_sum, count)
             for journal, amount_total_signed_sum, count in self.env['account.move']._read_group(
@@ -591,6 +592,11 @@ class account_journal(models.Model):
                 aggregates=['amount_total_signed:sum', '__count'],
             )
         }
+=======
+        query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
+        self.env.cr.execute(query, params)
+        to_check_vals = group_by_journal(self.env.cr.dictfetchall())
+>>>>>>> upstream/18.0
 =======
         query, params = sale_purchase_journals._get_to_check_payment_query().select(*bills_field_list)
         self.env.cr.execute(query, params)
@@ -627,7 +633,12 @@ class account_journal(models.Model):
             (number_late, sum_late) = self._count_results_and_sum_amounts(late_query_results[journal.id], currency)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_total_signed_sum, count = to_check_vals.get(journal.id, (0, 0))
+=======
+            (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
+
+>>>>>>> upstream/18.0
 =======
             (number_to_check, sum_to_check) = self._count_results_and_sum_amounts(to_check_vals[journal.id], currency)
 
@@ -652,8 +663,13 @@ class account_journal(models.Model):
             dashboard_data[journal.id].update({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'number_to_check': count,
                 'to_check_balance': currency.format(amount_total_signed_sum),
+=======
+                'number_to_check': number_to_check,
+                'to_check_balance': currency.format(sum_to_check),
+>>>>>>> upstream/18.0
 =======
                 'number_to_check': number_to_check,
                 'to_check_balance': currency.format(sum_to_check),
@@ -771,7 +787,10 @@ class account_journal(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_to_check_payment_query(self):
@@ -783,6 +802,9 @@ class account_journal(models.Model):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

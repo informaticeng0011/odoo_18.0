@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -124,6 +125,9 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 from odoo import Command
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
 >>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
@@ -477,7 +481,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -746,6 +753,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1444,7 +1454,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1664,6 +1677,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1816,7 +1832,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1909,6 +1928,7 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1935,6 +1955,8 @@ class TestSaleMrpKitBom(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_product_packaging_qty_no_packaging(self):
         """Check ZeroDivisionError when packaging is missing on kit component."""
@@ -1977,4 +1999,7 @@ class TestSaleMrpKitBom(TransactionCase):
         move = delivery_picking.move_ids[0]
         move.product_packaging_id = False
         self.assertEqual(move.move_line_ids.product_packaging_qty, 0.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

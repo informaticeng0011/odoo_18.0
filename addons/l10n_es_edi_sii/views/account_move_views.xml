@@ -9,7 +9,11 @@
                 <xpath expr="//group[@id='other_tab_group']//group[@name='accounting_info_group']" position="inside">
                     <field name="l10n_es_registration_date" readonly="state == 'posted'" invisible="country_code != 'ES'"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_es_edi_csv" invisible="1"/>
+=======
+                    <field name="l10n_es_edi_csv" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                     <field name="l10n_es_edi_csv" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0

@@ -9,7 +9,10 @@
             <field name="priority">14</field>
             <field name="arch" type="xml">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 <xpath expr="//sheet" position="before">
                     <div class="alert alert-warning" role="alert" invisible="not duplicate_bank_partner_ids">
                         <span>The Bank Account could be a duplicate of</span>
@@ -17,6 +20,9 @@
                     </div>
                 </xpath>
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 <xpath expr="//form[@name='bank_account_form']/sheet[1]" position="after">
                     <chatter/>

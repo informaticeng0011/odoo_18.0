@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # or balmas, 2025
 # Hed Shefer <hed@laylinetech.com>, 2025
 =======
@@ -155,6 +156,11 @@
 =======
 # Hed Shefer <hed@laylinetech.com>, 2025
 # or balmas, 2025
+>>>>>>> upstream/18.0
+=======
+# Hed Shefer <hed@laylinetech.com>, 2025
+# or balmas, 2025
+# Yoram Lavi, 2025
 >>>>>>> upstream/18.0
 =======
 # Hed Shefer <hed@laylinetech.com>, 2025
@@ -191,6 +197,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +417,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Yoram Lavi, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -429,6 +441,16 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    לא נמצאו אבני דרך, בוא ניצור אחת!\n"
+"                </p><p>\n"
+"                    עקוב אחר נקודות התקדמות מרכזיות שחייבים להגיע אליהן כדי להצליח.\n"
+"                </p>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -489,6 +511,63 @@ msgid ""
 "                noContentHelper: markup(\n"
 "                    "
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+");\n"
+"\n"
+"export class ProjectTaskFormController extends FormControllerWithHTMLExpander {\n"
+"    setup() {\n"
+"        super.setup();\n"
+"        this.notifications = useService(\"notification\");\n"
+"    }\n"
+"\n"
+"    /**\n"
+"     * @override\n"
+"     */\n"
+"    getStaticActionMenuItems() {\n"
+"        return {\n"
+"            ...super.getStaticActionMenuItems(),\n"
+"            openHistoryDialog: {\n"
+"                sequence: 50,\n"
+"                icon: \"fa fa-history\",\n"
+"                description: _t(\"Version History\"),\n"
+"                callback: () => this.openHistoryDialog(),\n"
+"            },\n"
+"        };\n"
+"    }\n"
+"\n"
+"    get deleteConfirmationDialogProps() {\n"
+"        const deleteConfirmationDialogProps = super.deleteConfirmationDialogProps;\n"
+"        if (!this.model.root.data.subtask_count) {\n"
+"            return deleteConfirmationDialogProps;\n"
+"        }\n"
+"        return {\n"
+"            ...deleteConfirmationDialogProps,\n"
+"            body: subTaskDeleteConfirmationMessage,\n"
+"        }\n"
+"    }\n"
+"\n"
+"    async openHistoryDialog() {\n"
+"        const record = this.model.root;\n"
+"        const versionedFieldName = 'description';\n"
+"        const historyMetadata = record.data[\"html_field_history_metadata\"]?.[versionedFieldName];\n"
+"        if (!historyMetadata) {\n"
+"            this.notifications.add(\n"
+"                escape(_t(\n"
+"                    \"The task description lacks any past content that could be restored at the moment.\"\n"
+"                ))\n"
+"            );\n"
+"            return;\n"
+"        }\n"
+"\n"
+"        this.dialogService.add(\n"
+"            HistoryDialog,\n"
+"            {\n"
+"                title: _t(\"Task Description History\"),\n"
+"                noContentHelper: markup(\n"
+"                    "
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__rating_count
@@ -509,11 +588,20 @@ msgid ""
 "#{record.milestone_count_reached.value} Milestones reached out of "
 "#{record.milestone_count.value}"
 msgstr ""
+<<<<<<< HEAD
+=======
+"#{record.milestone_count_reached.value} Milestones reached out of "
+"#{record.milestone_count.value}"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "#{task.stage_id.name}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -555,7 +643,11 @@ msgid "%(closed_task_count)s / %(task_count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s /%(task_count)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s /%(task_count)s"
 >>>>>>> upstream/18.0
@@ -651,7 +743,11 @@ msgstr "%(closed_task_count)s /%(task_count)s"
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -687,7 +783,11 @@ msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -789,7 +889,11 @@ msgstr "%(name)s לוח בקרה "
 #. odoo-python
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Burndown Chart"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s's Burndown גרף"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -876,6 +980,12 @@ msgid ""
 "tag them)</i>. Use @ <b>mentions</b> to ping a colleague or # "
 "<b>mentions</b> to reach an entire team."
 msgstr ""
+<<<<<<< HEAD
+=======
+"רישום <b>הערות</b> מיועד לתקשורת פנימית<i> (האנשים שעוקבים אחר משימה זו לא "
+"יקבלו הודעה על ההערה שאתה רושם, אלא אם תתייג אותם באופן ספציפי)</i>השתמש "
+"@<b>איזכורים</b>כדי לשלוח לקולגה או # <b>הגיע</b>להגיע לכל אנשי הצוות "
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.template,body_html:project.rating_project_request_email_template
@@ -956,6 +1066,84 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
+"    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
+"    <tbody>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"            <t t-if=\"partner.name\">\n"
+"                שלום<t t-out=\"partner.name or ''\">Brandon Freeman</t>,<br/><br/>\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                Hello,<br/><br/>\n"
+"            </t>\n"
+"           נשמח אם תקדיש רגע לדרג את השירותים שקיבלת ב-  <strong t-out=\"object.name or ''\">תכנון ותקציב</strong> task\n"
+"            <t t-if=\"object._rating_get_operator().name\">\n"
+"                assigned to <strong t-out=\"object._rating_get_operator().name or ''\">Mitchell Admin</strong>.<br/>\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                .<br/>\n"
+"            </t>\n"
+"        </td></tr>\n"
+"        <tr><td style=\"text-align: center;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin: 32px 0px 32px 0px; display: inline-table;\">\n"
+"                <tr><td style=\"font-size: 13px;text-align:center;\">\n"
+"                    <strong>ספר לנו איך אתה מרגיש בקשר לשירותים</strong><br/>\n"
+"                    <span style=\"font-size: 12px; opacity: 0.5; color: #454748;\">(תלחץ על אחד הסמיילים)</span>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"font-size: 13px;\">\n"
+"                    <table style=\"width:100%;text-align:center;margin-top:2rem;\">\n"
+"                        <tr>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/5\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/3\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Okay\" src=\"/rating/static/src/img/rating_3.png\" title=\"Okay\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a t-attf-href=\"/rate/{{ access_token }}/1\" t-att-class=\"'pe-none' if object._rating_get_operator() else ''\">\n"
+"                                    <img alt=\"Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Dissatisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td></tr>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"            מודים לך על המשוב, זה עוזר לנו להשתפר בהתמדה.\n"
+"            <t t-if=\"object.project_id.rating_status == 'stage'\">\n"
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">סקר שביעות רצון שלך נשלח כי המשימה עברה ל- <b t-out=\"object.stage_id.name or ''\">תהליך</b> שלב\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.rating_status == 'periodic'\">\n"
+"                <br/><span style=\"margin: 0; font-size: 12px; opacity: 0.5; color: #454748;\">סקר שביעות רצון נשלח  <b t-out=\"object.project_id.rating_status_period or ''\">  שבועית</b> כל עוד המשימה <b t-out=\"object.stage_id.name or ''\">בתהליך</b> שלב.</span>\n"
+"            </t>\n"
+"        </td></tr>\n"
+"        <tr><td><br/>בברכה,</td></tr>\n"
+"        <tr><td>\n"
+"           <t t-out=\"object.project_id.company_id.name or ''\">YourCompany</t>\n"
+"        </td></tr>\n"
+"        <tr><td style=\"opacity: 0.5;\">\n"
+"            <t t-out=\"object.project_id.company_id.phone or ''\">1 650-123-4567</t>\n"
+"            <t t-if=\"object.project_id.company_id.email\">\n"
+"                | <a t-attf-href=\"mailto:{{ object.project_id.company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.email or ''\">info@yourcompany.com</a>\n"
+"            </t>\n"
+"            <t t-if=\"object.project_id.company_id.website\">\n"
+"                | <a t-attf-href=\"{{ object.project_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.project_id.company_id.website or ''\">http://www.example.com</a>\n"
+"            </t>\n"
+"        </td></tr>\n"
+"    </tbody>\n"
+"    </table>\n"
+"</div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.template,body_html:project.project_done_email_template
@@ -997,11 +1185,21 @@ msgid ""
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_activity
@@ -1020,7 +1218,11 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-warning\"/>&amp;nbsp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -1033,7 +1235,11 @@ msgid "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 >>>>>>> upstream/18.0
@@ -1082,7 +1288,11 @@ msgid "<small class=\"text-muted\">Assignees</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\"> משתמשים משוייכים</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\"> משתמשים משוייכים</small>"
 >>>>>>> upstream/18.0
@@ -1185,7 +1395,11 @@ msgid "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
 >>>>>>> upstream/18.0
@@ -1205,6 +1419,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
+"title=\"Domain Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
 "title=\"Domain Alias\"/>"
@@ -1224,7 +1443,11 @@ msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 >>>>>>> upstream/18.0
@@ -1677,7 +1900,11 @@ msgid "Archive Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבון בארכיון"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבון בארכיון"
 >>>>>>> upstream/18.0
@@ -1803,7 +2030,11 @@ msgid "Archive Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונות בארכיון"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונות בארכיון"
 >>>>>>> upstream/18.0
@@ -2018,7 +2249,11 @@ msgid "Assignement Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך שיוך"
+>>>>>>> upstream/18.0
 =======
 msgstr "תאריך שיוך"
 >>>>>>> upstream/18.0
@@ -2281,7 +2516,11 @@ msgstr "סיעור מוחות"
 #. module: project
 #: model:project.tags,name:project.project_tags_00
 msgid "Bug"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "באג"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -2910,7 +3149,11 @@ msgid "Depending on Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תלוי במשימות"
+>>>>>>> upstream/18.0
 =======
 msgstr "תלוי במשימות"
 >>>>>>> upstream/18.0
@@ -3389,6 +3632,11 @@ msgid ""
 "Grant employees access to your project or tasks by adding them as followers."
 " Employees automatically get access to the tasks they are assigned to."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הענק לעובדים גישה לפרויקט או למשימות  על ידי הוספתם כעוקבים. עובדים מקבלים "
+"באופן אוטומטי גישה לכרטיסים שהם מוקצים אליהם."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -3480,12 +3728,20 @@ msgstr "בית"
 #: model:account.analytic.account,name:project.analytic_construction
 #: model:project.project,name:project.project_home_construction
 msgid "Home Construction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בניית בית"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:project.project,name:project.project_project_4
 msgid "Home Make Over"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שיפוץ הבית"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -3571,6 +3827,11 @@ msgid ""
 "If enabled, this stage will be displayed as folded in the Kanban view of "
 "your projects. Projects in a folded stage are considered as closed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אם האפשרות פעילה, השלב יוצג כמכווץ בתצוגת הקאנבן של הפרויקטים שלך. פרויקטים "
+"שנמצאים בשלב מכווץ נחשבים כסגורים."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__rating_template_id
@@ -3585,14 +3846,22 @@ msgstr ""
 msgid ""
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהפרויקט יגיע לשלב הזה."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__mail_template_id
 msgid ""
 "If set, an email will be automatically sent to the customer when the task "
 "reaches this stage."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהמשימה תגיע לשלב הזה."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_bounced_content
@@ -3631,7 +3900,11 @@ msgstr "דואר נכנס"
 #. module: project
 #: model:project.tags,name:project.project_tags_09
 msgid "Interior"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פנים"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:project.tags,name:project.project_tags_04
@@ -3700,7 +3973,11 @@ msgid "Invalid value: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך לא חוקי: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך לא חוקי: %s"
 >>>>>>> upstream/18.0
@@ -3843,7 +4120,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON that maps ids from a many2one field to seconds spent"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON that maps ids from a many2one field to seconds spent"
 >>>>>>> upstream/18.0
@@ -4110,7 +4391,11 @@ msgid "Mark as incomplete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סמן כלא הושלם"
+>>>>>>> upstream/18.0
 =======
 msgstr "סמן כלא הושלם"
 >>>>>>> upstream/18.0
@@ -4497,7 +4782,11 @@ msgid "No Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצאה אבן דרך"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצאה אבן דרך"
 >>>>>>> upstream/18.0
@@ -4592,7 +4881,11 @@ msgstr "לא נמצאה אבן דרך"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרויקט לא קיים"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -4696,7 +4989,11 @@ msgid "Not Implemented."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא מיושם."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא מיושם."
 >>>>>>> upstream/18.0
@@ -4872,7 +5169,11 @@ msgstr "פעם בחודש"
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק  jpeg, png, bmp and tiff images מורשים כמסמך מצורף ."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5362,6 +5663,11 @@ msgid ""
 " several projects, you can share this stage among them and get consolidated "
 "information this way."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אם השלב הזה מופיע בכמה פרויקטים, תוכל לשתף אותו ביניהם ולקבל מידע על השלב "
+"בכל הפרויקטים."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__task_properties
@@ -5838,6 +6144,11 @@ msgid ""
 "Set this template on a project stage to request feedback from your "
 "customers. Enable the \"customer ratings\" feature on the project"
 msgstr ""
+<<<<<<< HEAD
+=======
+"הגדר תבנית זו בשלב זה של הפרויקט כדי לבקש משוב מהלקוחות שלך.\n"
+"הפעל את תכונת \"דירוגי לקוחות\" בפרויקט."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_config_settings_action
@@ -6092,7 +6403,11 @@ msgid "Submitted On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נשלח ל"
+>>>>>>> upstream/18.0
 =======
 msgstr "נשלח ל"
 >>>>>>> upstream/18.0
@@ -6516,6 +6831,11 @@ msgid ""
 "The project's company cannot be changed if its analytic account has analytic"
 " lines or if more than one project is linked to it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן לשנות את החברה של הפרויקט אם לחשבון האנליטי שלה קיימות שורות "
+"אנליטיות או אם הפרויקט מקושר ליותר מפרויקט אחד."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_project_project_date_greater
@@ -6530,6 +6850,12 @@ msgid ""
 "Chart or by \"Is Closed\" to represent a Burn-up chart. Without one of these"
 " groupings applied, the report will not provide relevant information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הדוח צריך להיות מקובץ לפי \"שלב\" כדי להציג גרף Burndown, או לפי \"האם "
+"נסגרה\" כדי להציג גרף Burn-up. אם לא נבחר אחת מהקיבוצים האלה, הדוח לא יספק "
+"מידע רלוונטי"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6557,7 +6883,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "The task description was empty at the time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיאור המשימה היה ריק באותו רגע"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6566,6 +6896,11 @@ msgid ""
 "The view must be grouped by date and by Stage - Burndown chart or Is Closed "
 "- Burnup chart"
 msgstr ""
+<<<<<<< HEAD
+=======
+"התצוגה חייבת להיות מקובצת לפי תאריך ולפי שלב עבור Burndown chart, או לפי האם"
+" נסגרה עבור Burnup chart."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -6602,6 +6937,12 @@ msgid ""
 "on your website. This includes leads/opportunities, quotations/sales orders,"
 " purchase orders, invoices and bills, timesheets, and tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הם יכולים לערוך משימות ששותפו איתם בפרויקט ולצפות במסמכים מסוימים במצב קריאה"
+" באתר שלך. זה כולל לידים/הזדמנויות, הצעות מחיר/הזמנות מכירה, הזמנות רכש, "
+"חשבוניות וחשבונות, דוחות שעות וקריאות שירות."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6640,6 +6981,11 @@ msgid ""
 "This follower is currently a project collaborator. Removing them will revoke"
 " their portal access to the project. Are you sure you want to proceed?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"העוקב הזה שותף בפרויקט. הסרה שלו תבטל את הגישה שלו לפורטל הפרויקט. בטוח "
+"שתרצה להמשיך?"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -6647,6 +6993,11 @@ msgid ""
 "This is a preview of how the project will look when it's shared with "
 "customers and they have editing access."
 msgstr ""
+<<<<<<< HEAD
+=======
+"זו תצוגה מקדימה של איך הפרויקט ייראה כשהוא ישותף עם לקוחות ויהיה להם הרשאת "
+"גישה לעריכה."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6667,6 +7018,12 @@ msgid ""
 "project's visibility will be changed to \"invited portal users and all "
 "internal users (public)\" in order to make it accessible to the recipients."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הפרויקט הזה כרגע מוגבל ל-\"משתמשים פנימיים מוזמנים\". כדי לאפשר גישה לכלל "
+"הנמענים, נעדכן את הנראות שלו ל\"משתמשי פורטל מוזמנים וכלל המשתמשים הפנימיים "
+"(פומבי)\"."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6728,19 +7085,31 @@ msgstr "טיפ: צור משימות מאימיילים נכנסים"
 #: model:digest.tip,name:project.digest_tip_project_3
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "Tip: Project-Specific Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: Project-Specific Fields"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_0
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "Tip: Use task states to keep track of your tasks' progression"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: השתמש בשלבי המשימה כדי לעקוב אחר התקדמות המשימות שלך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_2
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "Tip: Your Own Personal Kanban"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: הקאנבן האישי שלך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6791,6 +7160,11 @@ msgid ""
 "leave the parent task field blank to convert a sub-task into a standalone "
 "task."
 msgstr ""
+<<<<<<< HEAD
+=======
+"כדי להפוך משימה לתת־משימה, בחר משימה אב. לחילופין, השאר את שדה המשימה האב "
+"ריק כדי להפוך תת־משימה למשימה עצמאית."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -6850,6 +7224,11 @@ msgid ""
 "Track project costs, revenues, and margin by setting the analytic account "
 "associated with the project on relevant documents."
 msgstr ""
+<<<<<<< HEAD
+=======
+"נהל עלויות, הכנסות ושולי רווח של הפרויקט באמצעות הגדרת החשבון האנליטי "
+"בפרויקט במסמכים המתאימים."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
@@ -6866,7 +7245,11 @@ msgstr "עקוב אחר הזמן המושקע בפרויקטים ומשימות"
 msgid ""
 "Transparent tags are not visible in the kanban view of your projects and "
 "tasks."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תגיות שקופות אינן מוצגות בתצוגת הקאנבן של הפרויקטים והמשימות שלך."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__bimonthly
@@ -6943,12 +7326,20 @@ msgstr "עדכון נוצר"
 #. module: project
 #: model:project.tags,name:project.project_tags_03
 msgid "Usability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נוחות שימוש"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:res.groups,name:project.group_project_milestone
 msgid "Use Milestones"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "השתמש באבן דרך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:res.groups,name:project.group_project_rating
@@ -6986,6 +7377,11 @@ msgstr "השתמש בזה לפרויקט שלי"
 msgid ""
 "Use personal stages to organize your tasks and create your own workflow."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הגדר שלבים אישיים שמתאימים לך כדי לארגן את המשימות וליצור את זרימת העבודה "
+"שלך. זוהי תכונה שמאפשרת מבנה מתאם אישי מעבר לשלבים הסטנדרטיים במערכת."
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
@@ -7152,7 +7548,11 @@ msgstr ""
 msgid ""
 "Would you like to unarchive all of the tasks contained in these stages as "
 "well?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רוצה לשחזר גם את כל המשימות שנמצאות בשלבים האלה?"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7191,19 +7591,33 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can change the sub-task state here!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אתה יכול לשנות את שלב תת-משימה כאן!"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You can only set a personal stage on a private task."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן להגדיר שלב אישי רק במשימה פרטית. שאינה חשופה למשתמשים אחרים"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can open sub-tasks from the kanban card!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"אפשר לפתוח תתי־משימות ישר מהכרטיס בקאנבן!\n"
+"\n"
+" "
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_stage_delete_wizard
@@ -7279,6 +7693,11 @@ msgid ""
 "You have full control and can revoke portal access anytime. Are you ready to"
 " proceed?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"באפשרותך לנהל את הגישה לפורטל באופן מלא ולבטל אותה בכל עת. האם ברצונך "
+"להמשיך?"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7288,6 +7707,12 @@ msgid ""
 "you navigate.<br/> You can discard these changes from here or manually save "
 "your task.<br/>Let's save it manually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"יש לך שינויים שלא נשמרו – אבל אל דאגה! Odoo שומר אותם אוטומטית כשאתה עובר "
+"בין מסכים.<br/> אפשר לבטל את השינויים מכאן או לשמור את המשימה ידנית.<br/>בוא"
+" נשמור את זה ידנית."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7325,7 +7750,11 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 msgid "assignees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אחראים לביצוע"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7348,7 +7777,11 @@ msgstr "תגובות"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_form
 msgid "e.g. Monthly review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: סקירה חודשית"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -7367,12 +7800,20 @@ msgstr "למשל השקת מוצר..."
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "e.g. Send Invitations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: משלוח הזמנות"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "e.g. Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה:משימות"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_stage_view_form
@@ -7381,7 +7822,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
 #: model_terms:ir.ui.view,arch_db:project.task_type_tree
 msgid "e.g. To Do"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: To Do"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -7397,7 +7842,11 @@ msgstr "למשל מסיבת משרד"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "e.g: Product Launch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה השקת מוצר..."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7412,12 +7861,21 @@ msgid ""
 "icon to see tasks waiting on other ones. Once a task is marked as complete "
 "or cancelled, all of its dependencies will be unblocked."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אייקון לצפייה במשימות שממתינות לאחרות.\n"
+"כאשר משימה מסומנת כהושלמה או מבוטלת – התלויות בה משתחררות."
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "icon."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סמל"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7443,32 +7901,49 @@ msgstr "פרוייקט."
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "ready to be marked as reached"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוכן לסימון כהגעה ליעד"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 "state to indicate a request for changes or a need for discussion on a task."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב שמסמן שיש צורך בשינויים או בדיון לגבי המשימה"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid ""
 "state to inform your colleagues that a task is approved for the next stage."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב שמציין לצוות שהמשימה אושרה להמשך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as cancelled."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הסטטוס שישמש לסימון המשימה כמבוטלת"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as complete."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: project
@@ -7596,6 +8071,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "הסטטוס שישמש לסימון המשימה כהושלמה"
+
+#. module: project
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
 msgstr "תת- משימות)"
@@ -7636,7 +8117,11 @@ msgstr "לרשום תגובה."
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "to signalize what is the current status of your Idea."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כדי לסמן את הסטטוס הנוכחי של הרעיון שלך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status__stage
@@ -7646,21 +8131,33 @@ msgstr "כאשר מגיעים לשלב נתון"
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "will generate tasks in your"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיצור משימות ב-"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:mail.template,subject:project.rating_project_request_email_template
 msgid ""
 "{{ object.project_id.company_id.name or user.env.company.name }}: "
 "Satisfaction Survey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.project_id.company_id.name }}: סקר שביעות רצון"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_header.js:0
 #: code:addons/project/static/src/views/project_task_list/project_task_list_renderer.js:0
 msgid "👤 Unassigned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא משויך"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -7671,7 +8168,11 @@ msgid "🔒 Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🔒 פרטי"
+>>>>>>> upstream/18.0
 =======
 msgstr "🔒 פרטי"
 >>>>>>> upstream/18.0

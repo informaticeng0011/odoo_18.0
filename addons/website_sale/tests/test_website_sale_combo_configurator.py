@@ -51,6 +51,10 @@ class TestWebsiteSaleComboConfigurator(HttpCase, WebsiteSaleCommon):
                 Command.link(combo_b.id),
             ],
         )
+<<<<<<< HEAD
+=======
+        self.website.show_line_subtotals_tax_selection = 'tax_included'
+>>>>>>> upstream/18.0
         self.start_tour('/', 'website_sale_combo_configurator')
 
     def test_website_sale_combo_configurator_single_configuration(self):

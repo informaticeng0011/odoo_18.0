@@ -56,7 +56,11 @@ class L10nLatamPaymentMassTransfer(models.TransientModel):
                 raise 'You have select some payments that are not checks. Please call this action from the Third Party Checks menu'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif not all(check.payment_id.state != 'draft' for check in checks):
+=======
+            elif not all(check.payment_id.state not in ['draft', 'canceled'] for check in checks):
+>>>>>>> upstream/18.0
 =======
             elif not all(check.payment_id.state not in ['draft', 'canceled'] for check in checks):
 >>>>>>> upstream/18.0

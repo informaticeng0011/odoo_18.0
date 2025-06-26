@@ -107,6 +107,15 @@
         run: "click",
     },
     {
+<<<<<<< HEAD
+=======
+        content: "Ensure the comparator popover is visible. Click too fast can toggle it",
+        isActive: ["body:not(:has(.comparator-popover))"],
+        trigger: ".o_add_compare_dyn",
+        run: "click",
+    },
+    {
+>>>>>>> upstream/18.0
         content: "check limit is reached",
         trigger: '.o_comparelist_limit_warning',
     },

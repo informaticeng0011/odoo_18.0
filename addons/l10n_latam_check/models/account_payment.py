@@ -227,7 +227,11 @@ class AccountPayment(models.Model):
                         ('name', '=', check.name),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('payment_id.state', '!=', 'draft'),
+=======
+                        ('payment_id.state', 'not in', ['draft', 'canceled']),
+>>>>>>> upstream/18.0
 =======
                         ('payment_id.state', 'not in', ['draft', 'canceled']),
 >>>>>>> upstream/18.0

@@ -105,7 +105,10 @@ class AccountMove(models.Model):
             ).create({'group_payment': False}).action_create_payments()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -141,6 +144,9 @@ class AccountMove(models.Model):
             if change_tax_base:
                 move.tax_totals["same_tax_base"] = False
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

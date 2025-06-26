@@ -169,7 +169,10 @@ describe("range not collapsed", () => {
         );
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     test("should not add origin to base64 images", async () => {
         const base64Img =
@@ -182,5 +185,8 @@ describe("range not collapsed", () => {
             `<p><img src="${base64Img}"></p>`
         );
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

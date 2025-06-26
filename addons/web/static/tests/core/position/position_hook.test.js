@@ -526,7 +526,11 @@ test("iframe: popper is outside, target inside", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(queryOne("iframe").contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
 >>>>>>> upstream/18.0
@@ -745,7 +749,11 @@ test("iframe: both popper and target inside", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await scroll(iframe.contentDocument.documentElement, { y: scrollOffset });
+=======
+    await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
+>>>>>>> upstream/18.0
 =======
     await scroll(":iframe html", { y: scrollOffset }, { scrollable: false });
 >>>>>>> upstream/18.0

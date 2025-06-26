@@ -54,7 +54,10 @@ export function OrderButtonNotContain(data) {
     return steps;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function bookOrReleaseTable() {
     return [
@@ -65,4 +68,7 @@ export function bookOrReleaseTable() {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

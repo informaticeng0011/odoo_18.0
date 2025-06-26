@@ -61,7 +61,11 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _validate_jo_edi_numbers(self, xml_string):
+=======
+    def _validate_jo_edi_numbers(self, xml_string, invoice):
+>>>>>>> upstream/18.0
 =======
     def _validate_jo_edi_numbers(self, xml_string, invoice):
 >>>>>>> upstream/18.0
@@ -150,6 +154,10 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(float_compare(tax_inclusive_amount, invoice.amount_total, 2), 0, f'{tax_inclusive_amount} != {invoice.amount_total}')
 >>>>>>> upstream/18.0
@@ -287,7 +295,11 @@ class TestJoEdiPrecision(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errors = self._validate_jo_edi_numbers(generated_file)
+=======
+            errors = self._validate_jo_edi_numbers(generated_file, invoice)
+>>>>>>> upstream/18.0
 =======
             errors = self._validate_jo_edi_numbers(generated_file, invoice)
 >>>>>>> upstream/18.0
@@ -513,7 +525,10 @@ class TestJoEdiPrecision(JoEdiCommon):
             ],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_jo_credit_notes_price_unit(self):
         def get_price_units(xml_string):
@@ -578,4 +593,7 @@ class TestJoEdiPrecision(JoEdiCommon):
         refund_file = self.env['account.edi.xml.ubl_21.jo']._export_invoice(refund)[0]
         for invoice_price_unit, refund_price_unit in zip(get_price_units(invoice_file), get_price_units(refund_file)):
             self.assertEqual(invoice_price_unit, refund_price_unit)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

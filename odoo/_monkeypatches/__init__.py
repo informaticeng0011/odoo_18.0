@@ -25,6 +25,11 @@ def patch_all():
     patch_pytz()
     from .literal_eval import patch_literal_eval
     patch_literal_eval()
+<<<<<<< HEAD
+=======
+    from .lxml import patch_lxml
+    patch_lxml()
+>>>>>>> upstream/18.0
     from .num2words import patch_num2words
     patch_num2words()
     from .stdnum import patch_stdnum

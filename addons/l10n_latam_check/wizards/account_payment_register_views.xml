@@ -13,8 +13,13 @@
                             <field name="l10n_latam_new_check_ids" invisible="payment_method_code not in ['new_third_party_checks', 'own_checks']" nolabel="1" colspan="2" >
                                 <list editable="bottom">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="company_id" column_invisible="True"/>
                                     <field name="currency_id" column_invisible="True"/>
+=======
+                                    <field name="company_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
+                                    <field name="currency_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                                     <field name="company_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
                                     <field name="currency_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
@@ -34,8 +39,13 @@
                                     nolabel="1" colspan="2">
                                 <list name="existing_checks">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="company_id" column_invisible="True"/>
                                     <field name="currency_id" column_invisible="True"/>
+=======
+                                    <field name="company_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
+                                    <field name="currency_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                                     <field name="company_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
                                     <field name="currency_id" column_invisible="True"/> <!-- TODO: to be removed in master -->

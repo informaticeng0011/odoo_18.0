@@ -7,7 +7,11 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='bic']" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="fiscal_country_codes" invisible="1"/>
+=======
+                <field name="fiscal_country_codes" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <field name="fiscal_country_codes" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
@@ -23,7 +27,11 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='bank_id']" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="fiscal_country_codes" invisible="1"/>
+=======
+                <field name="fiscal_country_codes" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <field name="fiscal_country_codes" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0

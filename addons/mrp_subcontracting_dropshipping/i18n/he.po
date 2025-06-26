@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Yoram Lavi, 2025
 >>>>>>> upstream/18.0
@@ -19,6 +20,10 @@
 >>>>>>> upstream/18.0
 =======
 # Yoram Lavi, 2025
+>>>>>>> upstream/18.0
+=======
+# Yoram Lavi, 2025
+# or balmas, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -27,6 +32,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,6 +45,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: or balmas, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
@@ -54,6 +63,11 @@ msgid ""
 "company. Note that standard subcontracting routes will be adapted so as to "
 "take these into account automatically."
 msgstr ""
+<<<<<<< HEAD
+=======
+"סמן תיבה זו כדי ליצור מיקום חדש וייעודי לקבלנות משנה עבור חברה זו. שים לב "
+"שמסלולי הקבלנות הסטנדרטיים יעודכנו בהתאם כך שיתחשבו במיקום זה באופן אוטומטי."
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model,name:mrp_subcontracting_dropshipping.model_res_company
@@ -70,22 +84,38 @@ msgstr ""
 #: code:addons/mrp_subcontracting_dropshipping/models/stock_warehouse.py:0
 #: model:stock.route,name:mrp_subcontracting_dropshipping.route_subcontracting_dropshipping
 msgid "Dropship Subcontractor on Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דרופשיפינג לקבלן משנה בהזמנה"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model.fields,field_description:mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_to_resupply
 msgid "Dropship Subcontractors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבלני משנה של דרופשיפינג"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model.fields,help:mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_to_resupply
 msgid "Dropship subcontractors with components"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דרופשיפינג לקבלני משנה עם רכיבים"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model.fields,field_description:mrp_subcontracting_dropshipping.field_purchase_order__default_location_dest_id_is_subcontracting_loc
 msgid "Is a Subcontracting Location?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "האם מיקום לקבלני משנה?"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_warehouse_orderpoint
@@ -96,7 +126,11 @@ msgstr "כלל מלאי מינימלי"
 #. odoo-python
 #: code:addons/mrp_subcontracting_dropshipping/models/purchase.py:0
 msgid "Please note this purchase order is for subcontracting purposes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לתשומת ליבך, הזמנת רכש זו מיועדת למטרות קבלנות משנה."
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_dropshipping
 #: model:ir.model,name:mrp_subcontracting_dropshipping.model_stock_replenish_mixin
@@ -104,7 +138,11 @@ msgid "Product Replenish Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Product Replenish Mixin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Product Replenish Mixin"
 >>>>>>> upstream/18.0

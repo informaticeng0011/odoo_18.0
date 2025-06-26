@@ -626,7 +626,12 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products.ids)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+=======
+                    products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
+                    products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+>>>>>>> upstream/18.0
 =======
                     products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
@@ -888,8 +893,11 @@ class ProductProduct(models.Model):
         def sort_function(record):
             vals = {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_discounted': record.currency_id._convert(record.price_discounted, record.env.company.currency_id, record.env.company, date or fields.Date.context_today(self))
 =======
+=======
+>>>>>>> upstream/18.0
                 'price_discounted': record.currency_id._convert(
                     record.price_discounted,
                     record.env.company.currency_id,
@@ -897,6 +905,9 @@ class ProductProduct(models.Model):
                     date or fields.Date.context_today(self),
                     round=False,
                 ),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             }
             return [vals.get(key, record[key]) for key in sort_key]

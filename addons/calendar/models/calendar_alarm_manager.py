@@ -34,6 +34,7 @@ from odoo.tools import plaintext2html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -114,6 +115,8 @@ from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -251,6 +254,7 @@ class AlarmManager(models.AbstractModel):
             })
         return result
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +428,8 @@ class AlarmManager(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_events_by_alarm_to_notify(self, alarm_type):
         """
         Get the events with an alarm of the given type between the cron
@@ -464,6 +470,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -482,6 +491,7 @@ class AlarmManager(models.AbstractModel):
                AND "event"."start" - CAST("alarm"."duration" || ' ' || "alarm"."interval" AS Interval) >= %s
                AND "event"."start" - CAST("alarm"."duration" || ' ' || "alarm"."interval" AS Interval) < %s
              )''', [alarm_type, lastcall, now])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -583,6 +593,8 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -12,7 +12,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     previousLeaf,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44,7 +47,11 @@ import { Plugin } from "../plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DIRECTIONS, endPos, leftPos, nodeSize, rightPos } from "../utils/position";
+=======
+import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
+>>>>>>> upstream/18.0
 =======
 import { DIRECTIONS, leftPos, nodeSize, rightPos } from "../utils/position";
 >>>>>>> upstream/18.0
@@ -109,7 +116,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isElement } from "../utils/dom_info";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -321,6 +331,7 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // If the range is invisible (0 width & height) and selection is collapsed,
     // it's likely inside an empty paragraph.
     // In that case, we try to get the bounding rect from a nearby child element
@@ -338,6 +349,8 @@ function scrollToSelection(selection) {
             rect = target.getBoundingClientRect();
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -450,6 +463,9 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -550,8 +566,13 @@ function scrollToSelection(selection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (rect.height >= containerRect.height) {
         // Selection is larger than scrollable so we do nothing.
+=======
+    if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
+        // If selection is partially visible, no need to scroll.
+>>>>>>> upstream/18.0
 =======
     if (rect.bottom > containerRect.top && rect.top < containerRect.bottom) {
         // If selection is partially visible, no need to scroll.
@@ -724,6 +745,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (ev.detail >= 3) {
 =======
             if (ev.detail === 2) {
@@ -829,6 +851,10 @@ export class SelectionPlugin extends Plugin {
             if (ev.detail === 2) {
                 this.correctDoubleClick = true;
 >>>>>>> upstream/18.0
+=======
+            if (ev.detail === 2) {
+                this.correctDoubleClick = true;
+>>>>>>> upstream/18.0
             }
             this.handleEmptySelection();
         });
@@ -852,7 +878,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -876,6 +905,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -911,7 +943,10 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -942,6 +977,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -999,6 +1037,7 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.correctTripleClick) {
                 this.correctTripleClick = false;
                 let { anchorNode, anchorOffset, focusNode, focusOffset } = this.activeSelection;
@@ -1023,6 +1062,8 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1111,6 +1152,9 @@ export class SelectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

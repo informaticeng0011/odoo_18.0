@@ -10,6 +10,10 @@ from odoo.tests import Form, tagged
 from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -371,7 +375,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
         self.assertEqual(journal2.alias_name, f'test-journal-{company_name}-b')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -411,6 +418,9 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
             {'balance': -115.0, 'account_id': autobalance_account.id},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

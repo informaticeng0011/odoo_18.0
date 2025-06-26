@@ -117,7 +117,10 @@ class TestSeller(TransactionCase):
         self.assertEqual(float_compare(price, 785, precision_digits=2), 0, msg)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_31_select_seller(self):
         """Check that the right seller is selected, even when the decimal precision of
         Product Price is higher than the precision of the currency.
@@ -133,6 +136,9 @@ class TestSeller(TransactionCase):
         price = product._select_seller(partner_id=partner, quantity=201).price
         self.assertAlmostEqual(price, 0.02, places=3, msg="Lowest price should be returned")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_40_seller_min_qty_precision(self):
         """Test that the min_qty has the precision of Product UoM."""
