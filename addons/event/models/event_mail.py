@@ -354,7 +354,11 @@ class EventMailScheduler(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.mail_count_done = total_sent
+=======
+                scheduler.mail_count_done = total_sent
+>>>>>>> upstream/18.0
 =======
                 scheduler.mail_count_done = total_sent
 >>>>>>> upstream/18.0
@@ -641,8 +645,13 @@ class EventMailScheduler(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.mail_count_done = total_sent
                 self.mail_done = total_sent >= self.event_id.seats_taken
+=======
+                scheduler.mail_count_done = total_sent
+                scheduler.mail_done = total_sent >= self.event_id.seats_taken
+>>>>>>> upstream/18.0
 =======
                 scheduler.mail_count_done = total_sent
                 scheduler.mail_done = total_sent >= self.event_id.seats_taken

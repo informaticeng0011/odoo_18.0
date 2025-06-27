@@ -118,7 +118,10 @@ class TestSeller(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_31_select_seller(self):
@@ -137,6 +140,9 @@ class TestSeller(TransactionCase):
         self.assertAlmostEqual(price, 0.02, places=3, msg="Lowest price should be returned")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

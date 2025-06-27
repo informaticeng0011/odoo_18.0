@@ -155,6 +155,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <p style="page-break-after: always;"/>
+>>>>>>> upstream/18.0
 =======
             <p style="page-break-after: always;"/>
 >>>>>>> upstream/18.0
@@ -208,7 +212,11 @@
                             <div class="text-center col-12">
                                 <span t-field="o.name" t-options="{'widget': 'barcode', 'width': 600, 'height': 100, 'img_style': 'width:600px;height:100px;'}">Name Demo</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-field="o.name" style="font-size:20px; margin:100px;">Name Demo</span>
+=======
+                                <span t-field="o.name" style="font-size:20px; margin:100px; white-space: nowrap;">Name Demo</span>
+>>>>>>> upstream/18.0
 =======
                                 <span t-field="o.name" style="font-size:20px; margin:100px; white-space: nowrap;">Name Demo</span>
 >>>>>>> upstream/18.0

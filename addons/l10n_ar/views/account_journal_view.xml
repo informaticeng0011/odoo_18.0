@@ -10,7 +10,11 @@
                 <field name="l10n_ar_is_pos" invisible="country_code != 'AR' or not l10n_latam_use_documents or type not in ['sale', 'purchase']"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="company_partner" invisible="1"/>
+=======
+                <field name="company_partner" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <field name="company_partner" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0

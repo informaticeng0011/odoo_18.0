@@ -273,7 +273,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         // TODO remove in master: add s_progress_bar_text in progress bar where it's missing, fix the previous wrong width
         const progressBarEls = html.querySelectorAll(".progress-bar");
         progressBarEls.forEach((el) => {
@@ -291,6 +294,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
             }
         });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return super._computeSnippetTemplates(html);
     }
@@ -598,7 +604,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -714,6 +723,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

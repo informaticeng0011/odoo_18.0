@@ -12,6 +12,7 @@
 # Cozmin Candea <office@terrabit.ro>, 2025
 # Foldi Robert <foldirobert@nexterp.ro>, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa_nexterp, 2025
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Camille Dantinne <cmd@odoo.com>, 2025
@@ -259,18 +260,24 @@
 # Flavia0320, 2025
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Camille Dantinne <cmd@odoo.com>, 2025
 # Wil Odoo, 2025
 # Thomas Becquevort, 2025
 # Flavia0320, 2025
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -598,6 +605,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-20 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -620,7 +632,11 @@ msgstr ""
 "Documentul (%(move)s) nu este echilibrat.\n"
 "Totalul debitelor este %(debit_total)s iar totalul creditelor este %(credit_total)s.\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Poate doriți să specificați un cont implicit în jurnalul \"%(journal)s\" pentru a echilibra automat fiecare document."
+=======
+"Poate doriți să specificați un cont implicit în jurnal \"%(journal)s\" pentru a echilibra automat fiecare document."
+>>>>>>> upstream/18.0
 =======
 "Poate doriți să specificați un cont implicit în jurnal \"%(journal)s\" pentru a echilibra automat fiecare document."
 >>>>>>> upstream/18.0
@@ -636,13 +652,19 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "\n"
 " Selectați „Vânzare” pentru jurnale de facturi clienți.\n"
 "Selectați „Achiziție” pentru jurnale de facturi furnizor.\n"
 "Selectați „Numerar” , „Banca” sau ,,Card de Credit'' pentru jurnale utilizate în plățile clienților sau vânzătorilor.\n"
 "Selectați „General” pentru jurnale de operațiuni diverse."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -660,7 +682,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "    - Grup de taxe: Taxa este un set de sub-taxe.\n"
 "    - Fix: Suma taxei rămâne aceeași indiferent de preț.\n"
@@ -671,6 +696,9 @@ msgstr ""
 "        e.g 180 / (1 - 10%) = 200 (prețul nu este inclus)\n"
 "        e.g 200 * (1 - 10%) = 180 (preț inclus)\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -678,7 +706,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid " for '%s'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru %s"
 >>>>>>> upstream/18.0
@@ -748,6 +780,11 @@ msgid ""
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" %(attachment_name)s (detașat de %(user)s pe%(date)s ) "
+"%(attachment_extension)s"
+>>>>>>> upstream/18.0
 =======
 " %(attachment_name)s (detașat de %(user)s pe%(date)s ) "
 "%(attachment_extension)s"
@@ -758,7 +795,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exception)s pentru %(user)s%(end_datetime_string)s%(reason)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exception)s pentru %(user)s%(end_datetime_string)s%(reason)s."
 >>>>>>> upstream/18.0
@@ -844,7 +885,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -900,6 +944,7 @@ msgid ""
 "\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -974,12 +1019,17 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "%(tax_account)s (%(account_name)s) ar trebui să fie un cont de tip "
 "\"%(receivable)s\" sau \"%(payable)s\" cu ambele opțiuni "
 "\"%(allow_reconciliation)s\" și \"%(non_trade)s\" activate."
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
@@ -1023,7 +1073,11 @@ msgstr "%s nu este un câmp stocat"
 #: code:addons/account/models/partner.py:0
 msgid "%s, or / if not applicable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s, sau / dacă nu este cazul"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s, sau / dacă nu este cazul"
 >>>>>>> upstream/18.0
@@ -1032,7 +1086,11 @@ msgstr "%s, sau / dacă nu este cazul"
 #: model:ir.actions.server,name:account.action_move_block_payment
 msgid "(Un)Block Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plată (de)blocată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plată (de)blocată"
 >>>>>>> upstream/18.0
@@ -1109,11 +1167,17 @@ msgid ""
 "    <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 ".\n"
 "    <br/>\n"
 "    --\n"
 "    <br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -1146,7 +1210,11 @@ msgstr "... (%(nb_of_values)s altul,altele)"
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.xml:0
 msgid "... (View all)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "... (Vizualizare toate)"
+>>>>>>> upstream/18.0
 =======
 msgstr "... (Vizualizare toate)"
 >>>>>>> upstream/18.0
@@ -1157,7 +1225,11 @@ msgstr "... (Vizualizare toate)"
 #: code:addons/account/models/partner.py:0
 msgid "/ if not applicable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "/ dacă nu este cazul"
+>>>>>>> upstream/18.0
 =======
 msgstr "/ dacă nu este cazul"
 >>>>>>> upstream/18.0
@@ -1347,7 +1419,11 @@ msgstr "50 USD"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "50.00 EUR"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50.00 EURO"
+>>>>>>> upstream/18.0
 =======
 msgstr "50.00 EURO"
 >>>>>>> upstream/18.0
@@ -1356,7 +1432,11 @@ msgstr "50.00 EURO"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "534677881234"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "534677881234"
+>>>>>>> upstream/18.0
 =======
 msgstr "534677881234"
 >>>>>>> upstream/18.0
@@ -1365,7 +1445,11 @@ msgstr "534677881234"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "9.00"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "9.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "9.00"
 >>>>>>> upstream/18.0
@@ -1374,7 +1458,11 @@ msgstr "9.00"
 #: model:account.payment.term,name:account.account_payment_term_90days_on_the_10th
 msgid "90 days, on the 10th"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "90 de zile, pe data de 10"
+>>>>>>> upstream/18.0
 =======
 msgstr "90 de zile, pe data de 10"
 >>>>>>> upstream/18.0
@@ -1448,7 +1536,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,6 +1625,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1626,7 +1720,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "       Stimate\n"
@@ -1675,6 +1772,9 @@ msgstr ""
 "    </p>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -1698,7 +1798,10 @@ msgid ""
 "</div>\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Stimate <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n"
@@ -1715,6 +1818,9 @@ msgstr ""
 "        </t>\n"
 "    </p>\n"
 "</div>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -1726,7 +1832,11 @@ msgstr "<em>Factură ciornă</em>"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_kanban
 msgid "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 >>>>>>> upstream/18.0
@@ -1735,7 +1845,11 @@ msgstr "<i class=\"fa fa-clock-o fw-bold\" aria-label=\"Date\" role=\"img\" titl
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_kanban
 msgid "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-clock-o fw-bold\" role=\"img\" aria-label=\"Date\" title=\"Date\"/>"
 >>>>>>> upstream/18.0
@@ -1775,6 +1889,11 @@ msgid ""
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> Procesarea plății</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> Procesarea plății</span>"
@@ -1797,6 +1916,12 @@ msgid ""
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+"                       Nu vă faceți griji, puteți oricând modifica această setare ulterior în formularul furnizorului.\n"
+"                     De asemenea, aveți opțiunea de a dezactiva funcția pentru toți furnizorii din setările contabile."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
 "                       Nu vă faceți griji, puteți oricând modifica această setare ulterior în formularul furnizorului.\n"
@@ -1823,6 +1948,11 @@ msgid ""
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configure Alias Domain"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configurați domeniul "
+"Alias"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configurați domeniul "
 "Alias"
@@ -1836,6 +1966,12 @@ msgid ""
 "                </small>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small class=\"form-text text-muted\">\n"
+"                    Puteți alege cum doriți să vă trimitem facturile și în ce format electronic.\n"
+"                </small>"
+>>>>>>> upstream/18.0
 =======
 "<small class=\"form-text text-muted\">\n"
 "                    Puteți alege cum doriți să vă trimitem facturile și în ce format electronic.\n"
@@ -1875,6 +2011,11 @@ msgid ""
 "statements and alerts.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"figure-caption\">Nu rata niciodată termenele limită, cu "
+"extrase și alerte automate.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"figure-caption\">Nu rata niciodată termenele limită, cu "
 "extrase și alerte automate.</span>"
@@ -1888,6 +2029,12 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
+"                                        <span groups=\"base.group_multi_currency\">in </span>\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
@@ -1934,7 +2081,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "<span class=\"o_form_label\">Changed Lock Date:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_form_label\">Data blocării a fost modificată:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_form_label\">Data blocării a fost modificată:</span>"
 >>>>>>> upstream/18.0
@@ -1947,6 +2098,12 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                        Audit\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                        Audit\n"
@@ -2031,6 +2188,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">\n"
+"                                <i>Intrări securizate până la</i>\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">\n"
 "                                <i>Intrări securizate până la</i>\n"
@@ -2085,6 +2248,11 @@ msgid ""
 "<span invisible=\"name or name_placeholder or quick_edit_mode\">Draft</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"name or name_placeholder or "
+"quick_edit_mode\">Proiect</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"name or name_placeholder or "
 "quick_edit_mode\">Proiect</span>"
@@ -2094,7 +2262,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 >>>>>>> upstream/18.0
@@ -2131,7 +2303,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "<span invisible=\"user_id\">everyone</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"user_id\">toată lumea</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"user_id\">toată lumea</span>"
 >>>>>>> upstream/18.0
@@ -2165,7 +2341,11 @@ msgstr "<span> (DR)</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> = </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> = </span>"
 >>>>>>> upstream/18.0
@@ -2195,7 +2375,11 @@ msgstr "<span> scade pe </span>"
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
 msgid "<span> on </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> pe </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> pe </span>"
 >>>>>>> upstream/18.0
@@ -2209,7 +2393,11 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>1 </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>1 </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>1 </span>"
 >>>>>>> upstream/18.0
@@ -2224,6 +2412,10 @@ msgstr "<span>5.00</span>"
 msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur.</span>"
 >>>>>>> upstream/18.0
@@ -2329,6 +2521,11 @@ msgstr ""
 msgid "<span>This payment has the same partner, amount and date as </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Această plată are același partener, aceeași sumă și aceeași dată ca și"
+" </span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Această plată are același partener, aceeași sumă și aceeași dată ca și"
 " </span>"
@@ -2349,6 +2546,7 @@ msgstr "<span>Vizualizare</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>Warning: this document might be a duplicate of</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -2536,6 +2734,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>Atenție: acest document ar putea fi un duplicat al</span>"
 
 #. module: account
@@ -2545,6 +2745,9 @@ msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr "<strong class=\"mr16\">Subtotal</strong>"
@@ -2553,7 +2756,11 @@ msgstr "<strong class=\"mr16\">Subtotal</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Credit Note Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Data notei de credit</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Data notei de credit</strong>"
 >>>>>>> upstream/18.0
@@ -2562,7 +2769,11 @@ msgstr "<strong>Data notei de credit</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Customer Code</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Cod client</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Cod client</strong>"
 >>>>>>> upstream/18.0
@@ -2576,7 +2787,11 @@ msgstr "<strong>Data</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Delivery Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Data livrării</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Data livrării</strong>"
 >>>>>>> upstream/18.0
@@ -2615,7 +2830,11 @@ msgstr "<strong>Data Factură</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Receipt Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Data recepției</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Data recepției</strong>"
 >>>>>>> upstream/18.0
@@ -2623,6 +2842,7 @@ msgstr "<strong>Data recepției</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Reference</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -2724,10 +2944,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Referință</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "<strong>Source</strong>"
 msgstr "<strong>Sursă:</strong>"
@@ -2812,7 +3037,10 @@ msgstr "<strong>Tip: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2913,6 +3141,7 @@ msgid ""
 "disabled again if there are any existing journal items."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -3055,10 +3284,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>Avertisment:</strong>Odată ce Urmărirea Auditului este activată, nu "
 "mai poate fi dezactivată dacă există elemente de jurnal existente."
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
@@ -3081,6 +3315,10 @@ msgstr ""
 msgid "A Ledger group name must be unique per company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Numele unui grup de registre trebuie să fie unic pentru fiecare companie."
+>>>>>>> upstream/18.0
 =======
 "Numele unui grup de registre trebuie să fie unic pentru fiecare companie."
 >>>>>>> upstream/18.0
@@ -3149,7 +3387,10 @@ msgstr "Un cont bancar poate aparține unui singur jurnal."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3251,6 +3492,7 @@ msgid ""
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -3393,11 +3635,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Un cont bancar cu Numărul de Cont %(number)s există deja pentru Partener "
 "%(partner)s, dar este arhivat. Te rugăm să îl reactualizezi în loc să creezi"
 " unul nou."
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -3417,6 +3664,12 @@ msgid ""
 "                should receive this periodically from your bank."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Un extras de cont de credit este un rezumat al tuturor tranzacțiilor financiar\n"
+"                care au avut loc într-o anumită perioadă pe un cont de credit. Tu\n"
+"                ar trebui să primești acest extras periodic de la banca ta."
+>>>>>>> upstream/18.0
 =======
 "Un extras de cont de credit este un rezumat al tuturor tranzacțiilor financiar\n"
 "                care au avut loc într-o anumită perioadă pe un cont de credit. Tu\n"
@@ -3467,6 +3720,11 @@ msgstr ""
 msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O nouă Dată de Blocare Definitivă trebuie să fie ulterioară (sau egală) "
+"celei anterioare."
+>>>>>>> upstream/18.0
 =======
 "O nouă Dată de Blocare Definitivă trebuie să fie ulterioară (sau egală) "
 "celei anterioare."
@@ -3504,6 +3762,11 @@ msgid ""
 "journal entry."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O plată cu un cont restant nu poate fi confirmată fără a avea o înregistrare"
+" în jurnal."
+>>>>>>> upstream/18.0
 =======
 "O plată cu un cont restant nu poate fi confirmată fără a avea o înregistrare"
 " în jurnal."
@@ -3539,6 +3802,10 @@ msgstr "Un titlu de secțiune"
 msgid "A single exception must change exactly one lock date field."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O singură excepție trebuie să modifice exact un câmp de dată de blocare."
+>>>>>>> upstream/18.0
 =======
 "O singură excepție trebuie să modifice exact un câmp de dată de blocare."
 >>>>>>> upstream/18.0
@@ -3583,7 +3850,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move__abnormal_amount_partner_ids
 msgid "Abnormal Amount Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sumă anormală partener"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă anormală partener"
 >>>>>>> upstream/18.0
@@ -3593,7 +3864,11 @@ msgstr "Sumă anormală partener"
 #: model:ir.model.fields,field_description:account.field_account_move__abnormal_amount_warning
 msgid "Abnormal Amount Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avertisment sumă anormală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment sumă anormală"
 >>>>>>> upstream/18.0
@@ -3602,7 +3877,11 @@ msgstr "Avertisment sumă anormală"
 #: model:ir.model.fields,field_description:account.field_validate_account_move__abnormal_date_partner_ids
 msgid "Abnormal Date Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dată anormală partener"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată anormală partener"
 >>>>>>> upstream/18.0
@@ -3612,7 +3891,11 @@ msgstr "Dată anormală partener"
 #: model:ir.model.fields,field_description:account.field_account_move__abnormal_date_warning
 msgid "Abnormal Date Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avertisment dată anormală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment dată anormală"
 >>>>>>> upstream/18.0
@@ -3659,6 +3942,11 @@ msgid ""
 "company:\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cont %(account)s va fi împărțit în %(num_accounts)s, câte unul pentru "
+"fiecare companie:\n"
+>>>>>>> upstream/18.0
 =======
 "Cont %(account)s va fi împărțit în %(num_accounts)s, câte unul pentru "
 "fiecare companie:\n"
@@ -3672,6 +3960,11 @@ msgid ""
 " unmerge operation only splits an account based on its companies."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cont %s nu poate fi dezagregat deoarece aparține deja unei singure companii."
+" Operațiunea de dezagregare împarte un cont doar pe baza companiilor sale."
+>>>>>>> upstream/18.0
 =======
 "Cont %s nu poate fi dezagregat deoarece aparține deja unei singure companii."
 " Operațiunea de dezagregare împarte un cont doar pe baza companiilor sale."
@@ -3693,6 +3986,10 @@ msgstr ""
 msgid "Account %s is of payable type, but is used in a sale operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cont %s este de tip de plată, dar este folosit într-o operațiune de vânzare."
+>>>>>>> upstream/18.0
 =======
 "Cont %s este de tip de plată, dar este folosit într-o operațiune de vânzare."
 >>>>>>> upstream/18.0
@@ -3703,6 +4000,11 @@ msgstr ""
 msgid "Account %s is of receivable type, but is used in a purchase operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cont %s este de tip încasare, dar este folosit într-o operațiune de "
+"cumpărare."
+>>>>>>> upstream/18.0
 =======
 "Cont %s este de tip încasare, dar este folosit într-o operațiune de "
 "cumpărare."
@@ -3761,7 +4063,11 @@ msgstr "Grupurile de conturi cu aceeași granularitate nu se pot suprapune"
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__account_has_hashed_entries
 msgid "Account Has Hashed Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contul conține înregistrări criptate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contul conține înregistrări criptate"
 >>>>>>> upstream/18.0
@@ -3797,7 +4103,11 @@ msgstr "Grupul Jurnalului de Conturi"
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "Account Lock Exception"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Excepție de blocare a contului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Excepție de blocare a contului"
 >>>>>>> upstream/18.0
@@ -3806,7 +4116,11 @@ msgstr "Excepție de blocare a contului"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__account_map
 msgid "Account Map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mapare cont"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mapare cont"
 >>>>>>> upstream/18.0
@@ -5470,8 +5784,13 @@ msgstr "Cont bancar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Contul bancar %(link)s cu numărul %(number)s șters"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -6314,7 +6633,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6462,6 +6784,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7118,6 +7443,7 @@ msgstr "Entitate comercială"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7298,6 +7624,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Țara partenerului comercial"
@@ -7359,6 +7687,9 @@ msgstr "Țara partenerului comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7879,6 +8210,11 @@ msgstr "Creați intrări automate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -18274,7 +18610,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18354,6 +18693,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20744,7 +21086,11 @@ msgstr ""
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Verify the price and update if necessary."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verifică prețul și actualizează-l dacă este necesar."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică prețul și actualizează-l dacă este necesar."
 >>>>>>> upstream/18.0
@@ -20769,6 +21115,11 @@ msgid ""
 "vendor ?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vrei să-ți faci viața și mai ușoară și să automatizezi validarea facturilor "
+"de la acest furnizor?"
+>>>>>>> upstream/18.0
 =======
 "Vrei să-ți faci viața și mai ușoară și să automatizezi validarea facturilor "
 "de la acest furnizor?"
@@ -20902,6 +21253,11 @@ msgid ""
 "must start with _applied_carryover_"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Când se specifică o expresie pentru report, eticheta acelei expresii trebuie"
+" să înceapă cu applied_carryover"
+>>>>>>> upstream/18.0
 =======
 "Când se specifică o expresie pentru report, eticheta acelei expresii trebuie"
 " să înceapă cu applied_carryover"
@@ -20945,7 +21301,11 @@ msgstr "Cu potrivirea partenerilor"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "With residual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cu restant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu restant"
 >>>>>>> upstream/18.0
@@ -20964,7 +21324,11 @@ msgstr "Asistent"
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard__wizard_line_ids
 msgid "Wizard Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linie asistent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie asistent"
 >>>>>>> upstream/18.0
@@ -20973,7 +21337,11 @@ msgstr "Linie asistent"
 #: model:account.account,name:account.1_wip
 msgid "Work in Progress"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lucrări în curs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lucrări în curs"
 >>>>>>> upstream/18.0
@@ -21051,6 +21419,7 @@ msgstr "Valoare greșită de credit sau de debit în înregistrarea contabilă!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -21289,11 +21658,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "XML format"
 msgstr "Format XML"
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
@@ -21304,7 +21678,11 @@ msgstr "Anual"
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "You are about to send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ești pe cale să trimiți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ești pe cale să trimiți"
 >>>>>>> upstream/18.0
@@ -21383,7 +21761,11 @@ msgstr ""
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can only generate sales documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poți genera doar documente de vânzare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Poți genera doar documente de vânzare."
 >>>>>>> upstream/18.0
@@ -21435,7 +21817,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "You can't block a paid invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu poți bloca o factură plătită."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu poți bloca o factură plătită."
 >>>>>>> upstream/18.0
@@ -21489,6 +21875,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
 =======
 msgid ""
@@ -21507,12 +21894,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "You can't create payments for entries belonging to different branches "
 "without access to parent company."
 msgstr ""
 "Nu poți crea plăți pentru înregistrări care aparțin unor sucursale diferite "
 "fără acces la compania principală."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -21544,7 +21936,11 @@ msgstr "Nu puteți șterge un raport care are variante."
 #: code:addons/account/models/account_move_send.py:0
 msgid "You can't generate invoices that are not posted."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu poți genera facturi care nu sunt validate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu poți genera facturi care nu sunt validate."
 >>>>>>> upstream/18.0
@@ -21617,6 +22013,11 @@ msgid ""
 "cancellation instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu poți reseta la stadiul de ciornă aceste înregistrări din jurnal. Trebuie "
+"să soliciți o anulare în schimb."
+>>>>>>> upstream/18.0
 =======
 "Nu poți reseta la stadiul de ciornă aceste înregistrări din jurnal. Trebuie "
 "să soliciți o anulare în schimb."
@@ -21630,6 +22031,11 @@ msgid ""
 " items linked to it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu poți disocia această companie de acest cont deoarece există elemente din "
+"jurnal asociate cu ea."
+>>>>>>> upstream/18.0
 =======
 "Nu poți disocia această companie de acest cont deoarece există elemente din "
 "jurnal asociate cu ea."
@@ -21642,6 +22048,11 @@ msgid ""
 "You cannot add/modify entries prior to and inclusive of: %(lock_date_info)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu poți adăuga sau modifica intrări anterioare sau inclusiv cele din: "
+"%(lock_date_info)s."
+>>>>>>> upstream/18.0
 =======
 "Nu poți adăuga sau modifica intrări anterioare sau inclusiv cele din: "
 "%(lock_date_info)s."
@@ -21674,6 +22085,11 @@ msgid ""
 "country group."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți crea o poziție fiscală cu o țară din afara grupului de țări "
+"selectat."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți crea o poziție fiscală cu o țară din afara grupului de țări "
 "selectat."
@@ -21727,6 +22143,11 @@ msgstr "Nu puteți șterge o linie fiscală, deoarece ar afecta raportul fiscal"
 msgid "You cannot delete journal items belonging to a locked journal entry."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți șterge elementele din jurnal care aparțin unei intrări de jurnal "
+"blocate."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți șterge elementele din jurnal care aparțin unei intrări de jurnal "
 "blocate."
@@ -21761,6 +22182,11 @@ msgid ""
 "flow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți șterge acest șablon de e-mail, acesta este utilizat în fluxul de "
+"trimitere a facturilor."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți șterge acest șablon de e-mail, acesta este utilizat în fluxul de "
 "trimitere a facturilor."
@@ -21781,7 +22207,11 @@ msgstr ""
 #: code:addons/account/models/account_account.py:0
 msgid "You cannot deprecate an account that is used in a tax distribution."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți deprecia un cont utilizat într-o distribuire de impozite."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți deprecia un cont utilizat într-o distribuire de impozite."
 >>>>>>> upstream/18.0
@@ -21812,7 +22242,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "You cannot duplicate a Lock Date Exception."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți duplica o excepție de dată de blocare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți duplica o excepție de dată de blocare."
 >>>>>>> upstream/18.0
@@ -21838,6 +22272,12 @@ msgid ""
 "sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți edita jurnalul unei mutări de cont dacă aceasta a fost "
+"înregistrată o dată, cu excepția cazului în care numele este eliminat sau "
+"setat la „/”. Acest lucru ar putea crea un gol în secvență."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți edita jurnalul unei mutări de cont dacă aceasta a fost "
 "înregistrată o dată, cu excepția cazului în care numele este eliminat sau "
@@ -21853,6 +22293,12 @@ msgid ""
 "gap in the sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți edita jurnalul unei mutări de cont cu un număr de secvență "
+"atribuit, decât dacă numele este eliminat sau setat la \"/\". Acest lucru ar"
+" putea crea o breșă în secvență."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți edita jurnalul unei mutări de cont cu un număr de secvență "
 "atribuit, decât dacă numele este eliminat sau setat la \"/\". Acest lucru ar"
@@ -21924,6 +22370,11 @@ msgstr ""
 msgid "You cannot modify the following readonly fields on a posted move: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți modifica următoarele câmpuri doar pentru citire într-o mutare "
+"înregistrată: %s"
+>>>>>>> upstream/18.0
 =======
 "Nu puteți modifica următoarele câmpuri doar pentru citire într-o mutare "
 "înregistrată: %s"
@@ -21969,7 +22420,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot register payments for miscellaneous entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți înregistra plăți pentru intrări diverse."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți înregistra plăți pentru intrări diverse."
 >>>>>>> upstream/18.0
@@ -21979,7 +22434,11 @@ msgstr "Nu puteți înregistra plăți pentru intrări diverse."
 #: code:addons/account/models/mail_message.py:0
 msgid "You cannot remove parts of the audit trail."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți elimina părți din jurnalul de audit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți elimina părți din jurnalul de audit."
 >>>>>>> upstream/18.0
@@ -22009,7 +22468,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot reset to draft a locked journal entry."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți reseta pentru a redacta o intrare de jurnal blocată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți reseta pentru a redacta o intrare de jurnal blocată."
 >>>>>>> upstream/18.0
@@ -22033,6 +22496,11 @@ msgid ""
 "You cannot revoke Lock Date Exceptions. Ask someone with the 'Adviser' role."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți revoca excepțiile de la data de blocare. Întrebați pe cineva cu "
+"rolul de „Consilier”."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți revoca excepțiile de la data de blocare. Întrebați pe cineva cu "
 "rolul de „Consilier”."
@@ -22075,7 +22543,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22130,6 +22601,7 @@ msgid ""
 "different %(vat_label)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -22204,11 +22676,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Nu puteți seta un partener ca adresă de facturare pentru un alt partener "
 "dacă acesta are o adresă diferită %(vat_label)s."
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_account.py:0
 msgid ""
@@ -22223,7 +22700,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "You cannot switch the type of a document which has been posted once."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu puteți schimba tipul unui document care a fost înregistrat o dată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu puteți schimba tipul unui document care a fost înregistrat o dată."
 >>>>>>> upstream/18.0
@@ -22248,6 +22729,11 @@ msgid ""
 "have the label starting with _carryover_"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți utiliza câmpul carryover_target într-o expresie care nu are "
+"eticheta care începe cu _carryover_"
+>>>>>>> upstream/18.0
 =======
 "Nu puteți utiliza câmpul carryover_target într-o expresie care nu are "
 "eticheta care începe cu _carryover_"
@@ -22303,6 +22789,7 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22410,6 +22897,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/account/models/account_account.py:0
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid ""
@@ -22417,6 +22906,11 @@ msgid ""
 "access to the following companies: %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu aveți dreptul să efectuați această operațiune, deoarece nu aveți acces la"
+" următoarele companii: %s."
+>>>>>>> upstream/18.0
 =======
 "Nu aveți dreptul să efectuați această operațiune, deoarece nu aveți acces la"
 " următoarele companii: %s."
@@ -22466,7 +22960,11 @@ msgstr ""
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "You must select at least 2 accounts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trebuie să selectați cel puțin 2 conturi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trebuie să selectați cel puțin 2 conturi."
 >>>>>>> upstream/18.0
@@ -22579,7 +23077,11 @@ msgstr "activați moneda facturii"
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "alias"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
@@ -22588,7 +23090,11 @@ msgstr "alias"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "amounts for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sume pentru"
+>>>>>>> upstream/18.0
 =======
 msgstr "sume pentru"
 >>>>>>> upstream/18.0
@@ -22623,7 +23129,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "bills for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "facturi pentru"
+>>>>>>> upstream/18.0
 =======
 msgstr "facturi pentru"
 >>>>>>> upstream/18.0
@@ -22633,7 +23143,11 @@ msgstr "facturi pentru"
 #: code:addons/account/wizard/account_move_send_batch_wizard.py:0
 msgid "by %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "de %s"
 >>>>>>> upstream/18.0
@@ -22644,7 +23158,11 @@ msgstr "de %s"
 #: model:ir.model.fields.selection,name:account.selection__res_partner__invoice_sending_method__email
 msgid "by Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "prin e-mail"
 >>>>>>> upstream/18.0
@@ -22676,7 +23194,11 @@ msgstr "inchideți"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "dates for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "date pentru"
+>>>>>>> upstream/18.0
 =======
 msgstr "date pentru"
 >>>>>>> upstream/18.0
@@ -22707,7 +23229,11 @@ msgstr "ex. GEBABEBB"
 #: code:addons/account/models/account_analytic_plan.py:0
 msgid "e.g. %(prefix)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "e.g. %(prefix)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "e.g. %(prefix)s"
 >>>>>>> upstream/18.0
@@ -22762,7 +23288,11 @@ msgstr "e.g. https://www.odoo.com"
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "e.g. mycompany.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de exemplu, companiamea.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "de exemplu, companiamea.com"
 >>>>>>> upstream/18.0
@@ -22772,7 +23302,11 @@ msgstr "de exemplu, companiamea.com"
 #: model:ir.model.fields,field_description:account.field_res_users__invoice_edi_format
 msgid "eInvoice format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formatul facturii electronice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Formatul facturii electronice"
 >>>>>>> upstream/18.0
@@ -22787,7 +23321,11 @@ msgstr "intrări"
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "everyone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "toată lumea"
+>>>>>>> upstream/18.0
 =======
 msgstr "toată lumea"
 >>>>>>> upstream/18.0
@@ -22796,7 +23334,11 @@ msgstr "toată lumea"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "fall outside the typical range."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "se încadrează în intervalul tipic."
+>>>>>>> upstream/18.0
 =======
 msgstr "se încadrează în intervalul tipic."
 >>>>>>> upstream/18.0
@@ -22835,7 +23377,11 @@ msgstr "în procent"
 #: code:addons/account/static/src/components/account_batch_sending_summary/account_batch_sending_summary.xml:0
 msgid "invoice(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "factură(i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "factură(i)"
 >>>>>>> upstream/18.0
@@ -22851,7 +23397,11 @@ msgstr "facturi"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "is a key action. Have you reviewed everything?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "este o acțiune cheie. Ați revizuit totul?"
+>>>>>>> upstream/18.0
 =======
 msgstr "este o acțiune cheie. Ați revizuit totul?"
 >>>>>>> upstream/18.0
@@ -22884,7 +23434,11 @@ msgstr "legislație."
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "listed below for this customer."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "enumerate mai jos pentru acest client."
+>>>>>>> upstream/18.0
 =======
 msgstr "enumerate mai jos pentru acest client."
 >>>>>>> upstream/18.0
@@ -22893,7 +23447,11 @@ msgstr "enumerate mai jos pentru acest client."
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "listed below for this vendor."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "enumerate mai jos pentru acest furnizor."
+>>>>>>> upstream/18.0
 =======
 msgstr "enumerate mai jos pentru acest furnizor."
 >>>>>>> upstream/18.0
@@ -23045,7 +23603,11 @@ msgstr "conturi bancare nesigure"
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "will auto-confirm on their respective dates."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "se vor confirma automat la datele respective."
+>>>>>>> upstream/18.0
 =======
 msgstr "se vor confirma automat la datele respective."
 >>>>>>> upstream/18.0
@@ -23063,7 +23625,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "without making any corrections."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fără a face nicio corecție."
+>>>>>>> upstream/18.0
 =======
 msgstr "fără a face nicio corecție."
 >>>>>>> upstream/18.0
@@ -23076,6 +23642,11 @@ msgid ""
 "transferred to <strong>{account_target_name}</strong> by {link}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{cantitate} ({debit_credit}) din <strong>{cont_sursă_nume}</strong> au fost "
+"transferați la <strong>{cont_ţintă_nume}</strong> prin {link}"
+>>>>>>> upstream/18.0
 =======
 "{cantitate} ({debit_credit}) din <strong>{cont_sursă_nume}</strong> au fost "
 "transferați la <strong>{cont_ţintă_nume}</strong> prin {link}"

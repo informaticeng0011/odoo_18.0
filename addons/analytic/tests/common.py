@@ -35,6 +35,10 @@ from odoo.addons.base.tests.common import BaseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.common import new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import new_test_user
 >>>>>>> upstream/18.0
@@ -221,7 +225,10 @@ class AnalyticCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,6 +355,9 @@ class AnalyticCommon(BaseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

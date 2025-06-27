@@ -140,6 +140,7 @@ class EWayBillApi:
                 # E-waybill is already canceled
                 # this happens when timeout from the Government portal but IRN is generated
 <<<<<<< HEAD
+<<<<<<< HEAD
                 e.error_json['odoo_warning'].append({
                     'message': Markup("%s<br/>%s:<br/>%s") % (
                         self.DEFAULT_HELP_MESSAGE % 'cancelled',
@@ -150,6 +151,8 @@ class EWayBillApi:
                 })
                 raise
 =======
+=======
+>>>>>>> upstream/18.0
                 # Avoid raising error in this case, since it is already cancelled
                 return {
                     'odoo_warning': [{
@@ -161,6 +164,9 @@ class EWayBillApi:
                         'message_post': True
                     }]
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             if operation_type == "generate" and "604" in e.error_codes:

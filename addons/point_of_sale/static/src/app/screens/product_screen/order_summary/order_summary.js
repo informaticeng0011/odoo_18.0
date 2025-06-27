@@ -8,6 +8,10 @@ import { _t } from "@web/core/l10n/translation";
 import { makeAwaitable } from "@point_of_sale/app/store/make_awaitable_dialog";
 import { NumberPopup } from "@point_of_sale/app/utils/input_popups/number_popup";
 import { parseFloat } from "@web/views/fields/parsers";
+<<<<<<< HEAD
+=======
+import { getButtons } from "@point_of_sale/app/generic_components/numpad/numpad";
+>>>>>>> upstream/18.0
 
 export class OrderSummary extends Component {
     static template = "point_of_sale.OrderSummary";
@@ -57,11 +61,24 @@ export class OrderSummary extends Component {
             }, 300);
         }
     }
+<<<<<<< HEAD
 
     async updateSelectedOrderline({ buffer, key }) {
         const order = this.pos.get_order();
         const selectedLine = order.get_selected_orderline();
         // Handling negation of value on first input
+=======
+    handleOrderLineQuantityChange(selectedLine, buffer, currentQuantity, lastId) {
+        const parsedInput = (buffer && parseFloat(buffer)) || 0;
+        if (lastId != selectedLine.cid || parsedInput < currentQuantity) {
+            this._showDecreaseQuantityPopup();
+        } else if (currentQuantity < parsedInput) {
+            this._setValue(buffer);
+        }
+    }
+    // Handle negation of value on first input
+    _handleNegationOnFirstInput(buffer, key, selectedLine) {
+>>>>>>> upstream/18.0
         if (buffer === "-0" && key == "-") {
             if (this.pos.numpadMode === "quantity" && !selectedLine.refunded_orderline_id) {
                 buffer = selectedLine.get_quantity() * -1;
@@ -72,6 +89,15 @@ export class OrderSummary extends Component {
             }
             this.numberBuffer.state.buffer = buffer.toString();
         }
+<<<<<<< HEAD
+=======
+        return buffer;
+    }
+    async updateSelectedOrderline({ buffer, key }) {
+        const order = this.pos.get_order();
+        const selectedLine = order.get_selected_orderline();
+        buffer = this._handleNegationOnFirstInput(buffer, key, selectedLine);
+>>>>>>> upstream/18.0
         // This validation must not be affected by `disallowLineQuantityChange`
         if (selectedLine && selectedLine.isTipLine() && this.pos.numpadMode !== "price") {
             /**
@@ -106,6 +132,7 @@ export class OrderSummary extends Component {
                 });
                 return;
             }
+<<<<<<< HEAD
             const parsedInput = (buffer && parseFloat(buffer)) || 0;
             if (lastId != selectedLine.uuid) {
                 this._showDecreaseQuantityPopup();
@@ -114,6 +141,15 @@ export class OrderSummary extends Component {
             } else if (parsedInput < currentQuantity) {
                 this._showDecreaseQuantityPopup();
             }
+=======
+
+            this.handleOrderLineQuantityChange(
+                selectedLine,
+                this.numberBuffer.state.buffer,
+                currentQuantity,
+                lastId
+            );
+>>>>>>> upstream/18.0
             return;
         } else if (
             selectedLine &&
@@ -187,11 +223,21 @@ export class OrderSummary extends Component {
         line.price_type = "manual";
         line.set_unit_price(price);
     }
+<<<<<<< HEAD
 
+=======
+    async _getShowDecreaseQuantityPopupButtons() {
+        return getButtons();
+    }
+>>>>>>> upstream/18.0
     async _showDecreaseQuantityPopup() {
         this.numberBuffer.reset();
         const inputNumber = await makeAwaitable(this.dialog, NumberPopup, {
             title: _t("Set the new quantity"),
+<<<<<<< HEAD
+=======
+            buttons: await this._getShowDecreaseQuantityPopupButtons(),
+>>>>>>> upstream/18.0
         });
         if (inputNumber) {
             const newQuantity = inputNumber && inputNumber !== "" ? parseFloat(inputNumber) : null;
@@ -202,9 +248,15 @@ export class OrderSummary extends Component {
         if (newQuantity !== null) {
             const selectedLine = this.currentOrder.get_selected_orderline();
             const currentQuantity = selectedLine.get_quantity();
+<<<<<<< HEAD
             if (newQuantity >= currentQuantity) {
                 selectedLine.set_quantity(newQuantity);
             } else if (newQuantity >= selectedLine.saved_quantity) {
+=======
+            if (Math.abs(newQuantity) >= currentQuantity) {
+                selectedLine.set_quantity(newQuantity);
+            } else if (Math.abs(newQuantity) >= selectedLine.saved_quantity) {
+>>>>>>> upstream/18.0
                 await this.handleDecreaseUnsavedLine(newQuantity);
             } else {
                 await this.handleDecreaseLine(newQuantity);

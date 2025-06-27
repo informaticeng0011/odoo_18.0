@@ -25,7 +25,11 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="popover-body p-2 table-responsive">
+=======
+            <div class="popover-body p-2 table-responsive" style="max-width: 100vw;">
+>>>>>>> upstream/18.0
                 <span t-if="!allPlans.length">No analytic plans found</span>
                 <table t-else="" class="o_list_table table table-sm table-hover o_analytic_table mb-2 table-striped">
                     <t t-set="totals" t-value="planTotals()"/>

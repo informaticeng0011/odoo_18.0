@@ -70,7 +70,10 @@ export function clickDiscard() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,6 +180,9 @@ export function checkAttributePrice(name, value, price) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315,3 +321,13 @@ export function setupCombo(products, addToCart = true) {
 
     return steps;
 }
+<<<<<<< HEAD
+=======
+
+export function isShown() {
+    return {
+        content: `product page is shown`,
+        trigger: `.product-list`,
+    };
+}
+>>>>>>> upstream/18.0

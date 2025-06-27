@@ -8,9 +8,15 @@
             <xpath expr="//button[@name='%(stock.act_stock_return_picking)d']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="l10n_ro_edi_stock_enable_send" invisible="1"/>
                 <field name="l10n_ro_edi_stock_enable_fetch" invisible="1"/>
                 <field name="l10n_ro_edi_stock_enable_amend" invisible="1"/>
+=======
+                <field name="l10n_ro_edi_stock_enable_send" invisible="1"/> <!-- TODO: to be removed in master -->
+                <field name="l10n_ro_edi_stock_enable_fetch" invisible="1"/> <!-- TODO: to be removed in master -->
+                <field name="l10n_ro_edi_stock_enable_amend" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <field name="l10n_ro_edi_stock_enable_send" invisible="1"/> <!-- TODO: to be removed in master -->
                 <field name="l10n_ro_edi_stock_enable_fetch" invisible="1"/> <!-- TODO: to be removed in master -->
@@ -38,7 +44,11 @@
             <xpath expr="//field[@name='owner_id']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="l10n_ro_edi_stock_state" invisible="1"/>
+=======
+                <field name="l10n_ro_edi_stock_state" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <field name="l10n_ro_edi_stock_state" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
@@ -54,6 +64,7 @@
             <xpath expr="//page[@name='note']" position="after">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="l10n_ro_edi_stock_enable" invisible="1"/>
 
                 <page name="etransport" string="eTransport" invisible="not l10n_ro_edi_stock_enable">
@@ -63,6 +74,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <field name="l10n_ro_edi_stock_enable" invisible="1"/> <!-- TODO: to be removed in master -->
 
                 <page name="etransport" string="eTransport" invisible="not l10n_ro_edi_stock_enable">
@@ -70,6 +83,9 @@
                     <field name="l10n_ro_edi_stock_state" invisible="1"/> <!-- TODO: to be removed in master -->
                     <field name="l10n_ro_edi_stock_fields_readonly" invisible="1"/> <!-- TODO: to be removed in master -->
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93,7 +109,11 @@
                         <group string="Start Location">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="l10n_ro_edi_stock_available_start_loc_types" invisible="1"/>
+=======
+                            <field name="l10n_ro_edi_stock_available_start_loc_types" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                             <field name="l10n_ro_edi_stock_available_start_loc_types" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
@@ -112,7 +132,11 @@
                         <group string="End Location">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="l10n_ro_edi_stock_available_end_loc_types" invisible="1"/>
+=======
+                            <field name="l10n_ro_edi_stock_available_end_loc_types" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                             <field name="l10n_ro_edi_stock_available_end_loc_types" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
@@ -141,8 +165,13 @@
                               decoration-success="state == 'stock_validated'">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="message" column_invisible="1"/>
                             <field name="attachment_id" column_invisible="1"/>
+=======
+                            <field name="message" column_invisible="1"/> <!-- TODO: to be removed in master -->
+                            <field name="attachment_id" column_invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                             <field name="message" column_invisible="1"/> <!-- TODO: to be removed in master -->
                             <field name="attachment_id" column_invisible="1"/> <!-- TODO: to be removed in master -->

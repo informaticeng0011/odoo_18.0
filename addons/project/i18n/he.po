@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # or balmas, 2025
 # Hed Shefer <hed@laylinetech.com>, 2025
 =======
@@ -156,6 +157,11 @@
 =======
 # Hed Shefer <hed@laylinetech.com>, 2025
 # or balmas, 2025
+>>>>>>> upstream/18.0
+=======
+# Hed Shefer <hed@laylinetech.com>, 2025
+# or balmas, 2025
+# Yoram Lavi, 2025
 >>>>>>> upstream/18.0
 =======
 # Hed Shefer <hed@laylinetech.com>, 2025
@@ -197,6 +203,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +429,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Yoram Lavi, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -442,7 +454,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    לא נמצאו אבני דרך, בוא ניצור אחת!\n"
@@ -450,6 +465,9 @@ msgstr ""
 "                    עקוב אחר נקודות התקדמות מרכזיות שחייבים להגיע אליהן כדי להצליח.\n"
 "                </p>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -512,7 +530,10 @@ msgid ""
 "                    "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 ");\n"
 "\n"
@@ -567,6 +588,9 @@ msgstr ""
 "                title: _t(\"Task Description History\"),\n"
 "                noContentHelper: markup(\n"
 "                    "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -589,6 +613,11 @@ msgid ""
 "#{record.milestone_count.value}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"#{record.milestone_count_reached.value} Milestones reached out of "
+"#{record.milestone_count.value}"
+>>>>>>> upstream/18.0
 =======
 "#{record.milestone_count_reached.value} Milestones reached out of "
 "#{record.milestone_count.value}"
@@ -598,7 +627,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "#{task.stage_id.name}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{task.stage_id.name}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{task.stage_id.name}"
 >>>>>>> upstream/18.0
@@ -644,7 +677,11 @@ msgid "%(closed_task_count)s / %(task_count)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s /%(task_count)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s /%(task_count)s"
 >>>>>>> upstream/18.0
@@ -744,7 +781,11 @@ msgstr "%(closed_task_count)s /%(task_count)s"
 #: code:addons/project/models/project_project.py:0
 msgid "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(closed_task_count)s / %(task_count)s (%(closed_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -784,7 +825,11 @@ msgid "%(count1)s/%(count2)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count1)s/%(count2)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count1)s/%(count2)s"
 >>>>>>> upstream/18.0
@@ -890,7 +935,11 @@ msgstr "%(name)s לוח בקרה "
 #: code:addons/project/models/project_project.py:0
 msgid "%(name)s's Burndown Chart"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s's Burndown גרף"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s's Burndown גרף"
 >>>>>>> upstream/18.0
@@ -981,6 +1030,12 @@ msgid ""
 "<b>mentions</b> to reach an entire team."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"רישום <b>הערות</b> מיועד לתקשורת פנימית<i> (האנשים שעוקבים אחר משימה זו לא "
+"יקבלו הודעה על ההערה שאתה רושם, אלא אם תתייג אותם באופן ספציפי)</i>השתמש "
+"@<b>איזכורים</b>כדי לשלוח לקולגה או # <b>הגיע</b>להגיע לכל אנשי הצוות "
+>>>>>>> upstream/18.0
 =======
 "רישום <b>הערות</b> מיועד לתקשורת פנימית<i> (האנשים שעוקבים אחר משימה זו לא "
 "יקבלו הודעה על ההערה שאתה רושם, אלא אם תתייג אותם באופן ספציפי)</i>השתמש "
@@ -1067,7 +1122,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "    <t t-set=\"access_token\" t-value=\"object._rating_get_access_token()\"/>\n"
 "    <t t-set=\"partner\" t-value=\"object._rating_get_partner()\"/>\n"
@@ -1143,6 +1201,9 @@ msgstr ""
 "    </table>\n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -1186,6 +1247,12 @@ msgid ""
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
@@ -1196,7 +1263,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
 >>>>>>> upstream/18.0
@@ -1219,7 +1290,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-warning\"/>&amp;nbsp;"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
 >>>>>>> upstream/18.0
@@ -1236,7 +1311,11 @@ msgid "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Private Task\" class=\"fa fa-lock\"/>"
 >>>>>>> upstream/18.0
@@ -1289,7 +1368,11 @@ msgid "<small class=\"text-muted\">Assignees</small>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\"> משתמשים משוייכים</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\"> משתמשים משוייכים</small>"
 >>>>>>> upstream/18.0
@@ -1396,7 +1479,11 @@ msgid "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-clock-o me-2\" title=\"Dates\"/>"
 >>>>>>> upstream/18.0
@@ -1420,6 +1507,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
+"title=\"Domain Alias\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-envelope-o me-2\" aria-label=\"Domain Alias\" "
 "title=\"Domain Alias\"/>"
@@ -1444,7 +1536,11 @@ msgid "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-user me-2\" aria-label=\"Partner\" title=\"Partner\"/>"
 >>>>>>> upstream/18.0
@@ -1901,7 +1997,11 @@ msgid "Archive Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבון בארכיון"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבון בארכיון"
 >>>>>>> upstream/18.0
@@ -2031,7 +2131,11 @@ msgid "Archive Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "חשבונות בארכיון"
+>>>>>>> upstream/18.0
 =======
 msgstr "חשבונות בארכיון"
 >>>>>>> upstream/18.0
@@ -2250,7 +2354,11 @@ msgid "Assignement Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך שיוך"
+>>>>>>> upstream/18.0
 =======
 msgstr "תאריך שיוך"
 >>>>>>> upstream/18.0
@@ -2517,7 +2625,11 @@ msgstr "סיעור מוחות"
 #: model:project.tags,name:project.project_tags_00
 msgid "Bug"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "באג"
+>>>>>>> upstream/18.0
 =======
 msgstr "באג"
 >>>>>>> upstream/18.0
@@ -3150,7 +3262,11 @@ msgid "Depending on Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תלוי במשימות"
+>>>>>>> upstream/18.0
 =======
 msgstr "תלוי במשימות"
 >>>>>>> upstream/18.0
@@ -3633,6 +3749,11 @@ msgid ""
 " Employees automatically get access to the tasks they are assigned to."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הענק לעובדים גישה לפרויקט או למשימות  על ידי הוספתם כעוקבים. עובדים מקבלים "
+"באופן אוטומטי גישה לכרטיסים שהם מוקצים אליהם."
+>>>>>>> upstream/18.0
 =======
 "הענק לעובדים גישה לפרויקט או למשימות  על ידי הוספתם כעוקבים. עובדים מקבלים "
 "באופן אוטומטי גישה לכרטיסים שהם מוקצים אליהם."
@@ -3729,7 +3850,11 @@ msgstr "בית"
 #: model:project.project,name:project.project_home_construction
 msgid "Home Construction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בניית בית"
+>>>>>>> upstream/18.0
 =======
 msgstr "בניית בית"
 >>>>>>> upstream/18.0
@@ -3738,7 +3863,11 @@ msgstr "בניית בית"
 #: model:project.project,name:project.project_project_4
 msgid "Home Make Over"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שיפוץ הבית"
+>>>>>>> upstream/18.0
 =======
 msgstr "שיפוץ הבית"
 >>>>>>> upstream/18.0
@@ -3828,6 +3957,11 @@ msgid ""
 "your projects. Projects in a folded stage are considered as closed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אם האפשרות פעילה, השלב יוצג כמכווץ בתצוגת הקאנבן של הפרויקטים שלך. פרויקטים "
+"שנמצאים בשלב מכווץ נחשבים כסגורים."
+>>>>>>> upstream/18.0
 =======
 "אם האפשרות פעילה, השלב יוצג כמכווץ בתצוגת הקאנבן של הפרויקטים שלך. פרויקטים "
 "שנמצאים בשלב מכווץ נחשבים כסגורים."
@@ -3847,7 +3981,11 @@ msgid ""
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהפרויקט יגיע לשלב הזה."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהפרויקט יגיע לשלב הזה."
 >>>>>>> upstream/18.0
@@ -3858,7 +3996,11 @@ msgid ""
 "If set, an email will be automatically sent to the customer when the task "
 "reaches this stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהמשימה תגיע לשלב הזה."
+>>>>>>> upstream/18.0
 =======
 msgstr "אם מוגדר, מייל יישלח אוטומטית ללקוח כשהמשימה תגיע לשלב הזה."
 >>>>>>> upstream/18.0
@@ -3901,7 +4043,11 @@ msgstr "דואר נכנס"
 #: model:project.tags,name:project.project_tags_09
 msgid "Interior"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פנים"
+>>>>>>> upstream/18.0
 =======
 msgstr "פנים"
 >>>>>>> upstream/18.0
@@ -3974,7 +4120,11 @@ msgid "Invalid value: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ערך לא חוקי: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ערך לא חוקי: %s"
 >>>>>>> upstream/18.0
@@ -4121,7 +4271,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON that maps ids from a many2one field to seconds spent"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON that maps ids from a many2one field to seconds spent"
 >>>>>>> upstream/18.0
@@ -4392,7 +4546,11 @@ msgid "Mark as incomplete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סמן כלא הושלם"
+>>>>>>> upstream/18.0
 =======
 msgstr "סמן כלא הושלם"
 >>>>>>> upstream/18.0
@@ -4783,7 +4941,11 @@ msgid "No Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא נמצאה אבן דרך"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא נמצאה אבן דרך"
 >>>>>>> upstream/18.0
@@ -4882,7 +5044,11 @@ msgstr "לא נמצאה אבן דרך"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פרויקט לא קיים"
+>>>>>>> upstream/18.0
 =======
 msgstr "פרויקט לא קיים"
 >>>>>>> upstream/18.0
@@ -4990,7 +5156,11 @@ msgid "Not Implemented."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא מיושם."
+>>>>>>> upstream/18.0
 =======
 msgstr "לא מיושם."
 >>>>>>> upstream/18.0
@@ -5170,7 +5340,11 @@ msgstr "פעם בחודש"
 #: code:addons/project/controllers/portal.py:0
 msgid "Only jpeg, png, bmp and tiff images are allowed as attachments."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רק  jpeg, png, bmp and tiff images מורשים כמסמך מצורף ."
+>>>>>>> upstream/18.0
 =======
 msgstr "רק  jpeg, png, bmp and tiff images מורשים כמסמך מצורף ."
 >>>>>>> upstream/18.0
@@ -5664,6 +5838,11 @@ msgid ""
 "information this way."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אם השלב הזה מופיע בכמה פרויקטים, תוכל לשתף אותו ביניהם ולקבל מידע על השלב "
+"בכל הפרויקטים."
+>>>>>>> upstream/18.0
 =======
 "אם השלב הזה מופיע בכמה פרויקטים, תוכל לשתף אותו ביניהם ולקבל מידע על השלב "
 "בכל הפרויקטים."
@@ -6145,6 +6324,11 @@ msgid ""
 "customers. Enable the \"customer ratings\" feature on the project"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הגדר תבנית זו בשלב זה של הפרויקט כדי לבקש משוב מהלקוחות שלך.\n"
+"הפעל את תכונת \"דירוגי לקוחות\" בפרויקט."
+>>>>>>> upstream/18.0
 =======
 "הגדר תבנית זו בשלב זה של הפרויקט כדי לבקש משוב מהלקוחות שלך.\n"
 "הפעל את תכונת \"דירוגי לקוחות\" בפרויקט."
@@ -6404,7 +6588,11 @@ msgid "Submitted On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נשלח ל"
+>>>>>>> upstream/18.0
 =======
 msgstr "נשלח ל"
 >>>>>>> upstream/18.0
@@ -6832,6 +7020,11 @@ msgid ""
 " lines or if more than one project is linked to it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"לא ניתן לשנות את החברה של הפרויקט אם לחשבון האנליטי שלה קיימות שורות "
+"אנליטיות או אם הפרויקט מקושר ליותר מפרויקט אחד."
+>>>>>>> upstream/18.0
 =======
 "לא ניתן לשנות את החברה של הפרויקט אם לחשבון האנליטי שלה קיימות שורות "
 "אנליטיות או אם הפרויקט מקושר ליותר מפרויקט אחד."
@@ -6851,6 +7044,12 @@ msgid ""
 " groupings applied, the report will not provide relevant information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הדוח צריך להיות מקובץ לפי \"שלב\" כדי להציג גרף Burndown, או לפי \"האם "
+"נסגרה\" כדי להציג גרף Burn-up. אם לא נבחר אחת מהקיבוצים האלה, הדוח לא יספק "
+"מידע רלוונטי"
+>>>>>>> upstream/18.0
 =======
 "הדוח צריך להיות מקובץ לפי \"שלב\" כדי להציג גרף Burndown, או לפי \"האם "
 "נסגרה\" כדי להציג גרף Burn-up. אם לא נבחר אחת מהקיבוצים האלה, הדוח לא יספק "
@@ -6884,7 +7083,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_form/project_task_form_controller.js:0
 msgid "The task description was empty at the time."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיאור המשימה היה ריק באותו רגע"
+>>>>>>> upstream/18.0
 =======
 msgstr "תיאור המשימה היה ריק באותו רגע"
 >>>>>>> upstream/18.0
@@ -6897,6 +7100,11 @@ msgid ""
 "- Burnup chart"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"התצוגה חייבת להיות מקובצת לפי תאריך ולפי שלב עבור Burndown chart, או לפי האם"
+" נסגרה עבור Burnup chart."
+>>>>>>> upstream/18.0
 =======
 "התצוגה חייבת להיות מקובצת לפי תאריך ולפי שלב עבור Burndown chart, או לפי האם"
 " נסגרה עבור Burnup chart."
@@ -6938,6 +7146,12 @@ msgid ""
 " purchase orders, invoices and bills, timesheets, and tickets."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הם יכולים לערוך משימות ששותפו איתם בפרויקט ולצפות במסמכים מסוימים במצב קריאה"
+" באתר שלך. זה כולל לידים/הזדמנויות, הצעות מחיר/הזמנות מכירה, הזמנות רכש, "
+"חשבוניות וחשבונות, דוחות שעות וקריאות שירות."
+>>>>>>> upstream/18.0
 =======
 "הם יכולים לערוך משימות ששותפו איתם בפרויקט ולצפות במסמכים מסוימים במצב קריאה"
 " באתר שלך. זה כולל לידים/הזדמנויות, הצעות מחיר/הזמנות מכירה, הזמנות רכש, "
@@ -6982,6 +7196,11 @@ msgid ""
 " their portal access to the project. Are you sure you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"העוקב הזה שותף בפרויקט. הסרה שלו תבטל את הגישה שלו לפורטל הפרויקט. בטוח "
+"שתרצה להמשיך?"
+>>>>>>> upstream/18.0
 =======
 "העוקב הזה שותף בפרויקט. הסרה שלו תבטל את הגישה שלו לפורטל הפרויקט. בטוח "
 "שתרצה להמשיך?"
@@ -6994,6 +7213,11 @@ msgid ""
 "customers and they have editing access."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"זו תצוגה מקדימה של איך הפרויקט ייראה כשהוא ישותף עם לקוחות ויהיה להם הרשאת "
+"גישה לעריכה."
+>>>>>>> upstream/18.0
 =======
 "זו תצוגה מקדימה של איך הפרויקט ייראה כשהוא ישותף עם לקוחות ויהיה להם הרשאת "
 "גישה לעריכה."
@@ -7019,6 +7243,12 @@ msgid ""
 "internal users (public)\" in order to make it accessible to the recipients."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הפרויקט הזה כרגע מוגבל ל-\"משתמשים פנימיים מוזמנים\". כדי לאפשר גישה לכלל "
+"הנמענים, נעדכן את הנראות שלו ל\"משתמשי פורטל מוזמנים וכלל המשתמשים הפנימיים "
+"(פומבי)\"."
+>>>>>>> upstream/18.0
 =======
 "הפרויקט הזה כרגע מוגבל ל-\"משתמשים פנימיים מוזמנים\". כדי לאפשר גישה לכלל "
 "הנמענים, נעדכן את הנראות שלו ל\"משתמשי פורטל מוזמנים וכלל המשתמשים הפנימיים "
@@ -7086,7 +7316,11 @@ msgstr "טיפ: צור משימות מאימיילים נכנסים"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_3
 msgid "Tip: Project-Specific Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: Project-Specific Fields"
+>>>>>>> upstream/18.0
 =======
 msgstr "טיפ: Project-Specific Fields"
 >>>>>>> upstream/18.0
@@ -7096,7 +7330,11 @@ msgstr "טיפ: Project-Specific Fields"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_0
 msgid "Tip: Use task states to keep track of your tasks' progression"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: השתמש בשלבי המשימה כדי לעקוב אחר התקדמות המשימות שלך"
+>>>>>>> upstream/18.0
 =======
 msgstr "טיפ: השתמש בשלבי המשימה כדי לעקוב אחר התקדמות המשימות שלך"
 >>>>>>> upstream/18.0
@@ -7106,7 +7344,11 @@ msgstr "טיפ: השתמש בשלבי המשימה כדי לעקוב אחר הת
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_2
 msgid "Tip: Your Own Personal Kanban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "טיפ: הקאנבן האישי שלך"
+>>>>>>> upstream/18.0
 =======
 msgstr "טיפ: הקאנבן האישי שלך"
 >>>>>>> upstream/18.0
@@ -7161,6 +7403,11 @@ msgid ""
 "task."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"כדי להפוך משימה לתת־משימה, בחר משימה אב. לחילופין, השאר את שדה המשימה האב "
+"ריק כדי להפוך תת־משימה למשימה עצמאית."
+>>>>>>> upstream/18.0
 =======
 "כדי להפוך משימה לתת־משימה, בחר משימה אב. לחילופין, השאר את שדה המשימה האב "
 "ריק כדי להפוך תת־משימה למשימה עצמאית."
@@ -7225,6 +7472,11 @@ msgid ""
 "associated with the project on relevant documents."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"נהל עלויות, הכנסות ושולי רווח של הפרויקט באמצעות הגדרת החשבון האנליטי "
+"בפרויקט במסמכים המתאימים."
+>>>>>>> upstream/18.0
 =======
 "נהל עלויות, הכנסות ושולי רווח של הפרויקט באמצעות הגדרת החשבון האנליטי "
 "בפרויקט במסמכים המתאימים."
@@ -7246,7 +7498,11 @@ msgid ""
 "Transparent tags are not visible in the kanban view of your projects and "
 "tasks."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תגיות שקופות אינן מוצגות בתצוגת הקאנבן של הפרויקטים והמשימות שלך."
+>>>>>>> upstream/18.0
 =======
 msgstr "תגיות שקופות אינן מוצגות בתצוגת הקאנבן של הפרויקטים והמשימות שלך."
 >>>>>>> upstream/18.0
@@ -7327,7 +7583,11 @@ msgstr "עדכון נוצר"
 #: model:project.tags,name:project.project_tags_03
 msgid "Usability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נוחות שימוש"
+>>>>>>> upstream/18.0
 =======
 msgstr "נוחות שימוש"
 >>>>>>> upstream/18.0
@@ -7336,7 +7596,11 @@ msgstr "נוחות שימוש"
 #: model:res.groups,name:project.group_project_milestone
 msgid "Use Milestones"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "השתמש באבן דרך"
+>>>>>>> upstream/18.0
 =======
 msgstr "השתמש באבן דרך"
 >>>>>>> upstream/18.0
@@ -7378,6 +7642,11 @@ msgid ""
 "Use personal stages to organize your tasks and create your own workflow."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"הגדר שלבים אישיים שמתאימים לך כדי לארגן את המשימות וליצור את זרימת העבודה "
+"שלך. זוהי תכונה שמאפשרת מבנה מתאם אישי מעבר לשלבים הסטנדרטיים במערכת."
+>>>>>>> upstream/18.0
 =======
 "הגדר שלבים אישיים שמתאימים לך כדי לארגן את המשימות וליצור את זרימת העבודה "
 "שלך. זוהי תכונה שמאפשרת מבנה מתאם אישי מעבר לשלבים הסטנדרטיים במערכת."
@@ -7549,7 +7818,11 @@ msgid ""
 "Would you like to unarchive all of the tasks contained in these stages as "
 "well?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רוצה לשחזר גם את כל המשימות שנמצאות בשלבים האלה?"
+>>>>>>> upstream/18.0
 =======
 msgstr "רוצה לשחזר גם את כל המשימות שנמצאות בשלבים האלה?"
 >>>>>>> upstream/18.0
@@ -7592,7 +7865,11 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 msgid "You can change the sub-task state here!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אתה יכול לשנות את שלב תת-משימה כאן!"
+>>>>>>> upstream/18.0
 =======
 msgstr "אתה יכול לשנות את שלב תת-משימה כאן!"
 >>>>>>> upstream/18.0
@@ -7602,7 +7879,11 @@ msgstr "אתה יכול לשנות את שלב תת-משימה כאן!"
 #: code:addons/project/models/project_task.py:0
 msgid "You can only set a personal stage on a private task."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ניתן להגדיר שלב אישי רק במשימה פרטית. שאינה חשופה למשתמשים אחרים"
+>>>>>>> upstream/18.0
 =======
 msgstr "ניתן להגדיר שלב אישי רק במשימה פרטית. שאינה חשופה למשתמשים אחרים"
 >>>>>>> upstream/18.0
@@ -7613,6 +7894,12 @@ msgstr "ניתן להגדיר שלב אישי רק במשימה פרטית. שא
 msgid "You can open sub-tasks from the kanban card!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אפשר לפתוח תתי־משימות ישר מהכרטיס בקאנבן!\n"
+"\n"
+" "
+>>>>>>> upstream/18.0
 =======
 "אפשר לפתוח תתי־משימות ישר מהכרטיס בקאנבן!\n"
 "\n"
@@ -7694,6 +7981,11 @@ msgid ""
 " proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"באפשרותך לנהל את הגישה לפורטל באופן מלא ולבטל אותה בכל עת. האם ברצונך "
+"להמשיך?"
+>>>>>>> upstream/18.0
 =======
 "באפשרותך לנהל את הגישה לפורטל באופן מלא ולבטל אותה בכל עת. האם ברצונך "
 "להמשיך?"
@@ -7708,6 +8000,12 @@ msgid ""
 "your task.<br/>Let's save it manually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"יש לך שינויים שלא נשמרו – אבל אל דאגה! Odoo שומר אותם אוטומטית כשאתה עובר "
+"בין מסכים.<br/> אפשר לבטל את השינויים מכאן או לשמור את המשימה ידנית.<br/>בוא"
+" נשמור את זה ידנית."
+>>>>>>> upstream/18.0
 =======
 "יש לך שינויים שלא נשמרו – אבל אל דאגה! Odoo שומר אותם אוטומטית כשאתה עובר "
 "בין מסכים.<br/> אפשר לבטל את השינויים מכאן או לשמור את המשימה ידנית.<br/>בוא"
@@ -7751,7 +8049,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
 msgid "assignees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אחראים לביצוע"
+>>>>>>> upstream/18.0
 =======
 msgstr "אחראים לביצוע"
 >>>>>>> upstream/18.0
@@ -7778,7 +8080,11 @@ msgstr "תגובות"
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_form
 msgid "e.g. Monthly review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: סקירה חודשית"
+>>>>>>> upstream/18.0
 =======
 msgstr "לדוגמה: סקירה חודשית"
 >>>>>>> upstream/18.0
@@ -7801,7 +8107,11 @@ msgstr "למשל השקת מוצר..."
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "e.g. Send Invitations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: משלוח הזמנות"
+>>>>>>> upstream/18.0
 =======
 msgstr "לדוגמה: משלוח הזמנות"
 >>>>>>> upstream/18.0
@@ -7810,7 +8120,11 @@ msgstr "לדוגמה: משלוח הזמנות"
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "e.g. Tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה:משימות"
+>>>>>>> upstream/18.0
 =======
 msgstr "לדוגמה:משימות"
 >>>>>>> upstream/18.0
@@ -7823,7 +8137,11 @@ msgstr "לדוגמה:משימות"
 #: model_terms:ir.ui.view,arch_db:project.task_type_tree
 msgid "e.g. To Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה: To Do"
+>>>>>>> upstream/18.0
 =======
 msgstr "לדוגמה: To Do"
 >>>>>>> upstream/18.0
@@ -7843,7 +8161,11 @@ msgstr "למשל מסיבת משרד"
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "e.g: Product Launch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמה השקת מוצר..."
+>>>>>>> upstream/18.0
 =======
 msgstr "לדוגמה השקת מוצר..."
 >>>>>>> upstream/18.0
@@ -7862,6 +8184,11 @@ msgid ""
 "or cancelled, all of its dependencies will be unblocked."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אייקון לצפייה במשימות שממתינות לאחרות.\n"
+"כאשר משימה מסומנת כהושלמה או מבוטלת – התלויות בה משתחררות."
+>>>>>>> upstream/18.0
 =======
 "אייקון לצפייה במשימות שממתינות לאחרות.\n"
 "כאשר משימה מסומנת כהושלמה או מבוטלת – התלויות בה משתחררות."
@@ -7872,7 +8199,11 @@ msgstr ""
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "icon."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סמל"
+>>>>>>> upstream/18.0
 =======
 msgstr "סמל"
 >>>>>>> upstream/18.0
@@ -7902,7 +8233,11 @@ msgstr "פרוייקט."
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "ready to be marked as reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מוכן לסימון כהגעה ליעד"
+>>>>>>> upstream/18.0
 =======
 msgstr "מוכן לסימון כהגעה ליעד"
 >>>>>>> upstream/18.0
@@ -7913,7 +8248,11 @@ msgstr "מוכן לסימון כהגעה ליעד"
 msgid ""
 "state to indicate a request for changes or a need for discussion on a task."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב שמסמן שיש צורך בשינויים או בדיון לגבי המשימה"
+>>>>>>> upstream/18.0
 =======
 msgstr "מצב שמסמן שיש צורך בשינויים או בדיון לגבי המשימה"
 >>>>>>> upstream/18.0
@@ -7924,7 +8263,11 @@ msgstr "מצב שמסמן שיש צורך בשינויים או בדיון לג�
 msgid ""
 "state to inform your colleagues that a task is approved for the next stage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב שמציין לצוות שהמשימה אושרה להמשך"
+>>>>>>> upstream/18.0
 =======
 msgstr "מצב שמציין לצוות שהמשימה אושרה להמשך"
 >>>>>>> upstream/18.0
@@ -7934,7 +8277,11 @@ msgstr "מצב שמציין לצוות שהמשימה אושרה להמשך"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הסטטוס שישמש לסימון המשימה כמבוטלת"
+>>>>>>> upstream/18.0
 =======
 msgstr "הסטטוס שישמש לסימון המשימה כמבוטלת"
 >>>>>>> upstream/18.0
@@ -7943,6 +8290,7 @@ msgstr "הסטטוס שישמש לסימון המשימה כמבוטלת"
 #. odoo-javascript
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "state to mark the task as complete."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -8072,10 +8420,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "הסטטוס שישמש לסימון המשימה כהושלמה"
 
 #. module: project
 #. odoo-javascript
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/project/static/src/components/project_task_name_with_subtask_count_char_field/project_task_name_with_subtask_count_char_field.xml:0
 msgid "sub-tasks)"
@@ -8118,7 +8471,11 @@ msgstr "לרשום תגובה."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 msgid "to signalize what is the current status of your Idea."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כדי לסמן את הסטטוס הנוכחי של הרעיון שלך"
+>>>>>>> upstream/18.0
 =======
 msgstr "כדי לסמן את הסטטוס הנוכחי של הרעיון שלך"
 >>>>>>> upstream/18.0
@@ -8132,7 +8489,11 @@ msgstr "כאשר מגיעים לשלב נתון"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "will generate tasks in your"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תיצור משימות ב-"
+>>>>>>> upstream/18.0
 =======
 msgstr "תיצור משימות ב-"
 >>>>>>> upstream/18.0
@@ -8143,7 +8504,11 @@ msgid ""
 "{{ object.project_id.company_id.name or user.env.company.name }}: "
 "Satisfaction Survey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.project_id.company_id.name }}: סקר שביעות רצון"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.project_id.company_id.name }}: סקר שביעות רצון"
 >>>>>>> upstream/18.0
@@ -8154,7 +8519,11 @@ msgstr "{{ object.project_id.company_id.name }}: סקר שביעות רצון"
 #: code:addons/project/static/src/views/project_task_list/project_task_list_renderer.js:0
 msgid "👤 Unassigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא משויך"
+>>>>>>> upstream/18.0
 =======
 msgstr "לא משויך"
 >>>>>>> upstream/18.0
@@ -8169,7 +8538,11 @@ msgid "🔒 Private"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🔒 פרטי"
+>>>>>>> upstream/18.0
 =======
 msgstr "🔒 פרטי"
 >>>>>>> upstream/18.0

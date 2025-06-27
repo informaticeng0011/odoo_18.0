@@ -206,6 +206,7 @@ registerWebsitePreviewTour('snippet_social_media', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...clickOnSnippet({
         id: 's_social_media',
         name: 'Social Media',
@@ -215,6 +216,8 @@ registerWebsitePreviewTour('snippet_social_media', {
         trigger: ':iframe .s_social_media a[href="https://whatever.it/1EdSw9X"] i.fa-pencil',
         run: 'dblclick',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -314,6 +317,9 @@ registerWebsitePreviewTour('snippet_social_media', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -256,6 +256,12 @@ export class ImagePlugin extends Plugin {
     deleteImage() {
         const selectedImg = this.getSelectedImage();
         if (selectedImg) {
+<<<<<<< HEAD
+=======
+            if (this.delegateTo("delete_image_overrides", selectedImg)) {
+                return;
+            }
+>>>>>>> upstream/18.0
             const anchorNode = selectedImg.parentElement;
             let anchorOffset = childNodeIndex(selectedImg);
             selectedImg.remove();

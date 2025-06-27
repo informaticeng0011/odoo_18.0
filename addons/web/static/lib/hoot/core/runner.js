@@ -46,9 +46,15 @@ import { cleanupDOM } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
 import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
 import { isIterable, parseRegExp } from "@web/../lib/hoot-dom/hoot_dom_utils";
+=======
+import { cleanupEvents, enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
+import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
+import { exposeHelpers, isIterable } from "@web/../lib/hoot-dom/hoot_dom_utils";
+>>>>>>> upstream/18.0
 =======
 import { cleanupEvents, enableEventLogs } from "@web/../lib/hoot-dom/helpers/events";
 import { cleanupTime, setupTime } from "@web/../lib/hoot-dom/helpers/time";
@@ -322,9 +328,15 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getFuzzyScore,
     isLabel,
     normalize,
+=======
+    isLabel,
+    normalize,
+    parseQuery,
+>>>>>>> upstream/18.0
 =======
     isLabel,
     normalize,
@@ -592,8 +604,11 @@ import { cleanupNetwork, throttleNetwork } from "../mock/network";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { cleanupWindow, getViewPortHeight, getViewPortWidth, mockTouch } from "../mock/window";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -727,6 +742,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -815,6 +831,8 @@ import { LOG_LEVELS, logger } from "./logger";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { DEFAULT_CONFIG, FILTER_KEYS } from "./config";
 import { makeExpect } from "./expect";
 import { destroy, makeFixtureManager } from "./fixture";
@@ -824,6 +842,9 @@ import { logger } from "./logger";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -906,7 +927,11 @@ import * as hootMock from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {T extends [any, ...infer U] ? U : never} DropFirst
+=======
+ * @typedef {import("../hoot_utils").DropFirst} DropFirst
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("../hoot_utils").DropFirst} DropFirst
 >>>>>>> upstream/18.0
@@ -1017,7 +1042,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     console: { error: $error, groupEnd: $groupEnd, log: $log, table: $table },
+=======
+    console: { error: $error },
+>>>>>>> upstream/18.0
 =======
     console: { error: $error },
 >>>>>>> upstream/18.0
@@ -1164,6 +1193,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        keys: $keys,
+>>>>>>> upstream/18.0
 =======
         keys: $keys,
 >>>>>>> upstream/18.0
@@ -1290,8 +1323,13 @@ const $now = performance.now.bind(performance);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const filterReady = (jobs) =>
     jobs.filter((job) => {
+=======
+function filterReady(jobs) {
+    return jobs.filter((job) => {
+>>>>>>> upstream/18.0
 =======
 function filterReady(jobs) {
     return jobs.filter((job) => {
@@ -1328,6 +1366,10 @@ function filterReady(jobs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1356,11 +1398,14 @@ function filterReady(jobs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatIncludes = (values) =>
     $entries(values)
         .filter(([, value]) => $abs(value) === INCLUDE_LEVEL.url)
         .map(([id, value]) => (value >= 0 ? id : `${EXCLUDE_PREFIX}${id}`));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1381,6 +1426,9 @@ function formatIncludes(values) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1402,7 +1450,11 @@ function formatIncludes(values) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatAssertions = (assertions) => {
+=======
+function formatAssertions(assertions) {
+>>>>>>> upstream/18.0
 =======
 function formatAssertions(assertions) {
 >>>>>>> upstream/18.0
@@ -1454,7 +1506,11 @@ function formatAssertions(assertions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1483,8 +1539,11 @@ function formatAssertions(assertions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const safePrevent = (ev) => ev.cancelable && ev.preventDefault();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1505,6 +1564,9 @@ function safePrevent(ev) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1527,7 +1589,11 @@ function safePrevent(ev) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const shuffle = (array) => {
+=======
+function shuffle(array) {
+>>>>>>> upstream/18.0
 =======
 function shuffle(array) {
 >>>>>>> upstream/18.0
@@ -1559,7 +1625,11 @@ function shuffle(array) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1583,6 +1653,7 @@ function shuffle(array) {
  * @param {Test} test
  * @param {boolean} shouldSuppress
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1746,6 +1817,8 @@ const handleConsoleIssues = (test, shouldSuppress) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function handleConsoleIssues(test, shouldSuppress) {
     if (shouldSuppress && test.config.todo) {
         return logger.suppressIssues(`suppressed by "test.todo"`);
@@ -1755,6 +1828,9 @@ function handleConsoleIssues(test, shouldSuppress) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1780,10 +1856,13 @@ function handleConsoleIssues(test, shouldSuppress) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return offConsoleEvents;
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1806,6 +1885,9 @@ function handleConsoleIssues(test, shouldSuppress) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1827,7 +1909,11 @@ function handleConsoleIssues(test, shouldSuppress) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const warnUserEvent = (ev) => {
+=======
+function warnUserEvent(ev) {
+>>>>>>> upstream/18.0
 =======
 function warnUserEvent(ev) {
 >>>>>>> upstream/18.0
@@ -1856,6 +1942,7 @@ function warnUserEvent(ev) {
     );
 
     removeEventListener(ev.type, warnUserEvent);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2012,6 +2099,10 @@ const DEBUG_NAMESPACE = "hoot";
 }
 
 >>>>>>> upstream/18.0
+=======
+}
+
+>>>>>>> upstream/18.0
 const WARNINGS = {
     viewport: "Viewport size does not match the expected size for the current preset",
     tagNames:
@@ -2108,7 +2199,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          * @type {Record<Omit<SearchFilter, "filter">, Record<string, number>>}
+=======
+         * @type {Record<Exclude<SearchFilter, "filter">, Record<string, number>>}
+>>>>>>> upstream/18.0
 =======
          * @type {Record<Exclude<SearchFilter, "filter">, Record<string, number>>}
 >>>>>>> upstream/18.0
@@ -2281,9 +2376,12 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {string | RegExp} */
     textFilter = "";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2414,6 +2512,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2539,7 +2640,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._hasRemovableFilter;
+=======
+        return this._hasRemovableFilter > 0;
+>>>>>>> upstream/18.0
 =======
         return this._hasRemovableFilter > 0;
 >>>>>>> upstream/18.0
@@ -2683,8 +2788,13 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _hasRemovableFilter = false;
     _hasIncludeFilter = false;
+=======
+    _hasRemovableFilter = 0;
+    _hasIncludeFilter = 0;
+>>>>>>> upstream/18.0
 =======
     _hasRemovableFilter = 0;
     _hasIncludeFilter = 0;
@@ -2916,9 +3026,12 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._hasIncludeFilter = true;
             this.textFilter = parseRegExp(normalize(this.config.filter), { safe: true });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3010,6 +3123,7 @@ export class Runner {
                     this.queryInclude.push(queryPart);
                 }
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3172,6 +3286,9 @@ export class Runner {
 =======
             this._hasIncludeFilter += this.queryInclude.length;
 >>>>>>> upstream/18.0
+=======
+            this._hasIncludeFilter += this.queryInclude.length;
+>>>>>>> upstream/18.0
         }
 
         // Suites
@@ -3210,7 +3327,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._include("suite", this.config.suite);
+=======
+            this._include(this.state.includeSpecs.suite, this.config.suite, INCLUDE_LEVEL.url);
+>>>>>>> upstream/18.0
 =======
             this._include(this.state.includeSpecs.suite, this.config.suite, INCLUDE_LEVEL.url);
 >>>>>>> upstream/18.0
@@ -3351,7 +3472,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._include("tag", this.config.tag);
+=======
+            this._include(this.state.includeSpecs.tag, this.config.tag, INCLUDE_LEVEL.url);
+>>>>>>> upstream/18.0
 =======
             this._include(this.state.includeSpecs.tag, this.config.tag, INCLUDE_LEVEL.url);
 >>>>>>> upstream/18.0
@@ -3492,7 +3617,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._include("test", this.config.test);
+=======
+            this._include(this.state.includeSpecs.test, this.config.test, INCLUDE_LEVEL.url);
+>>>>>>> upstream/18.0
 =======
             this._include(this.state.includeSpecs.test, this.config.test, INCLUDE_LEVEL.url);
 >>>>>>> upstream/18.0
@@ -3703,6 +3832,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let result;
         try {
             result = fn();
@@ -3711,6 +3841,8 @@ export class Runner {
         }
         if (result !== undefined) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3849,6 +3981,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4249,6 +4384,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { includeSpecs } = this.state;
         if (value) {
             includeSpecs[type][id] = value;
@@ -4451,6 +4587,10 @@ export class Runner {
         this._include(this.state.includeSpecs[type], [id], value);
         this._updateConfigFromSpecs();
 >>>>>>> upstream/18.0
+=======
+        this._include(this.state.includeSpecs[type], [id], value);
+        this._updateConfigFromSpecs();
+>>>>>>> upstream/18.0
     }
 
     manualStart() {
@@ -4508,7 +4648,10 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4641,6 +4784,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4753,6 +4899,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {Job} [job]
          */
@@ -4776,6 +4923,9 @@ export class Runner {
         };
 
         let job = nextJob();
+=======
+        let job = this._nextJob(jobs);
+>>>>>>> upstream/18.0
 =======
         let job = this._nextJob(jobs);
 >>>>>>> upstream/18.0
@@ -4840,7 +4990,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 job = nextJob(job);
+=======
+                job = this._nextJob(jobs, job);
+>>>>>>> upstream/18.0
 =======
                 job = this._nextJob(jobs, job);
 >>>>>>> upstream/18.0
@@ -4878,7 +5032,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 job = nextJob(job);
+=======
+                job = this._nextJob(jobs, job);
+>>>>>>> upstream/18.0
 =======
                 job = this._nextJob(jobs, job);
 >>>>>>> upstream/18.0
@@ -5064,6 +5222,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const helpers = new HootDebugHelpers(this);
                 if (DEBUG_NAMESPACE in globalThis) {
                     logger.debug(`Hoot helpers available:`, helpers);
@@ -5071,6 +5230,8 @@ export class Runner {
                     globalThis[DEBUG_NAMESPACE] = helpers;
                     logger.debug(`Hoot helpers available from \`window.${DEBUG_NAMESPACE}\``);
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5178,7 +5339,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             job = nextJob(job);
+=======
+            job = this._nextJob(jobs, job);
+>>>>>>> upstream/18.0
 =======
             job = this._nextJob(jobs, job);
 >>>>>>> upstream/18.0
@@ -5237,7 +5402,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this._callbacks.call("after-all", logger.error);
+=======
+        await this._callbacks.call("after-all", this, logger.error);
+>>>>>>> upstream/18.0
 =======
         await this._callbacks.call("after-all", this, logger.error);
 >>>>>>> upstream/18.0
@@ -5261,6 +5430,7 @@ export class Runner {
         if (failed > 0) {
             const errorMessage = ["Some tests failed: see above for details"];
             if (this.config.headless) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5454,6 +5624,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 const ids = this.simplifyUrlIds({ test: this.state.failedIds });
                 const link = createUrlFromId(ids, { debug: true });
                 // Tweak parameters to make debugging easier
@@ -5466,6 +5638,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5511,6 +5686,7 @@ export class Runner {
      * @template {false | () => Job} C
      * @param {T} fn
      * @param {C} getCurrent
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5681,6 +5857,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @returns {typeof configurableFn}
      */
     _addConfigurators(fn, getCurrent) {
@@ -5706,6 +5884,7 @@ export class Runner {
         const current = getCurrent && (() => this._createCurrentConfigurators(getCurrent));
 
         /** @type {Configurators["debug"]} */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5857,6 +6036,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         function debug() {
             tags("debug");
             return configurableFn;
@@ -5887,6 +6068,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5904,6 +6088,7 @@ export class Runner {
          * - `timeout`: sets the timeout for the current test/suite;
          * - `multi`: sets the number of times the current test/suite will be run.
          *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6049,6 +6234,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
          * @type {Configurators["config"]}
          * @example
          *  // Will timeout each of its tests after 10 seconds
@@ -6059,6 +6246,7 @@ export class Runner {
          *  test.config({ multi: 100 });
          *  test("non-deterministic test", async () => { ... });
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6086,6 +6274,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         function config(...configs) {
             $assign(currentConfig, ...configs);
             return configurators;
@@ -6101,6 +6291,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6133,6 +6326,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tags = (...tagNames) => {
             currentConfig.tags.push(...getTags(tagNames));
             return configurators;
@@ -6144,6 +6338,8 @@ export class Runner {
             return configurators;
         };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6178,6 +6374,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6198,6 +6397,7 @@ export class Runner {
         /** @type {Configurators} */
         const configurators = { ...configuratorGetters, ...configuratorMethods };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6462,6 +6662,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const properties = {};
         for (const [key, getter] of $entries(configuratorGetters)) {
             properties[key] = { get: getter };
@@ -6515,6 +6717,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6662,7 +6867,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         job instanceof Suite ? "suite" : "test",
+=======
+                        this.state.includeSpecs[job instanceof Suite ? "suite" : "test"],
+>>>>>>> upstream/18.0
 =======
                         this.state.includeSpecs[job instanceof Suite ? "suite" : "test"],
 >>>>>>> upstream/18.0
@@ -6827,6 +7036,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {keyof Runner["config"]} configKey
      * @param {Map<string, any>} valuesMap
      */
@@ -6910,12 +7120,15 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {() => Job} getCurrent
      */
     _createCurrentConfigurators(getCurrent) {
         /**
          * @param {JobConfig} config
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6938,6 +7151,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         function configureCurrent(config) {
             getCurrent().configure(config);
 
@@ -6948,6 +7163,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7025,6 +7243,7 @@ export class Runner {
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7179,6 +7398,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {Record<string, number>} values
      * @param {Iterable<string>} ids
      * @param {number} includeLevel
@@ -7187,6 +7408,7 @@ export class Runner {
     _include(values, ids, includeLevel, noIncrement = false) {
         const isRemovable = $abs(includeLevel) === INCLUDE_LEVEL.url;
         const shouldInclude = !!includeLevel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7214,6 +7436,8 @@ export class Runner {
                     this._hasIncludeFilter++;
                 } else if (previousValue > 0 && itemIncludeLevel <= 0) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7254,6 +7478,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7283,6 +7510,7 @@ export class Runner {
                 if (wasRemovable) {
                     this._hasRemovableFilter--;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7373,6 +7601,11 @@ export class Runner {
 >>>>>>> upstream/18.0
             }
         }
+=======
+            }
+        }
+        return applied;
+>>>>>>> upstream/18.0
 =======
             }
         }
@@ -7461,9 +7694,14 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (typeof this.textFilter === "string" && this.textFilter?.startsWith(EXCLUDE_PREFIX)) {
             const query = this.textFilter.slice(EXCLUDE_PREFIX.length);
             return getFuzzyScore(query, job.key) > 0;
+=======
+        if (this.queryExclude.length && this.queryExclude.some((qp) => qp.matchValue(job.key))) {
+            return true;
+>>>>>>> upstream/18.0
 =======
         if (this.queryExclude.length && this.queryExclude.some((qp) => qp.matchValue(job.key))) {
             return true;
@@ -7697,12 +7935,17 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.textFilter) {
             if (this.textFilter instanceof RegExp) {
                 return this.textFilter.test(job.key);
             } else {
                 return getFuzzyScore(this.textFilter, job.key) > 0;
             }
+=======
+        if (this.queryInclude.length && this.queryInclude.every((qp) => qp.matchValue(job.key))) {
+            return true;
+>>>>>>> upstream/18.0
 =======
         if (this.queryInclude.length && this.queryInclude.every((qp) => qp.matchValue(job.key))) {
             return true;
@@ -7888,7 +8131,10 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7927,6 +8173,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8056,7 +8305,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this._include("tag", preset.tags, INCLUDE_LEVEL.preset);
+=======
+                this._include(this.state.includeSpecs.tag, preset.tags, INCLUDE_LEVEL.preset);
+>>>>>>> upstream/18.0
 =======
                 this._include(this.state.includeSpecs.tag, preset.tags, INCLUDE_LEVEL.preset);
 >>>>>>> upstream/18.0
@@ -8204,6 +8457,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.config.suite) {
             this._checkUrlValidity("suite", this.suites);
         }
@@ -8213,6 +8467,8 @@ export class Runner {
         if (this.config.test) {
             this._checkUrlValidity("test", this.tests);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8319,6 +8575,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8539,7 +8798,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name: "warning",
+=======
+                name: this.config.fun ? "warming" : "warning",
+>>>>>>> upstream/18.0
 =======
                 name: this.config.fun ? "warming" : "warning",
 >>>>>>> upstream/18.0
@@ -8694,9 +8957,15 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         logger.groupCollapsed("Configuration (click to expand)");
         $table(table);
         $groupEnd();
+=======
+        logger.group("Configuration (click to expand)", () => {
+            logger.table(table);
+        });
+>>>>>>> upstream/18.0
 =======
         logger.group("Configuration (click to expand)", () => {
             logger.table(table);
@@ -8924,8 +9193,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 logger.logGlobalWarning("Debug mode is active");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9014,6 +9286,7 @@ export class Runner {
                     destroy,
                     getFixture: this.fixture.get,
                 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9143,6 +9416,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 logger.setLevel("debug");
                 logger.logDebug(
                     `Debug mode is active: Hoot helpers available from \`window.${nameSpace}\``
@@ -9152,6 +9427,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9173,11 +9451,17 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.beforeAll(() => {
             document.head.appendChild(HootFixtureElement.styleElement);
             return () => HootFixtureElement.styleElement.remove();
         });
         this.afterAll(
+=======
+        this.beforeAll(this.fixture.globalSetup);
+        this.afterAll(
+            this.fixture.globalCleanup,
+>>>>>>> upstream/18.0
 =======
         this.beforeAll(this.fixture.globalSetup);
         this.afterAll(
@@ -9256,8 +9540,14 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.beforeEach(this.fixture.setup, setupTime);
         this.afterEach(
+=======
+        this.beforeEach(this.fixture.setup, setupWindow, setupTime);
+        this.afterEach(
+            this.fixture.cleanup,
+>>>>>>> upstream/18.0
 =======
         this.beforeEach(this.fixture.setup, setupWindow, setupTime);
         this.afterEach(
@@ -9520,6 +9810,7 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cleanupDOM,
             cleanupTime,
             cleanupDate
@@ -9608,10 +9899,13 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             cleanupEvents,
             cleanupDOM,
             cleanupDate,
             cleanupTime
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9979,6 +10273,8 @@ export class Runner {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         );
 
         enableEventLogs(logger.allows("debug"));
@@ -9991,6 +10287,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10015,6 +10314,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const ignored = [];
+        const removed = [];
+>>>>>>> upstream/18.0
 =======
         const ignored = [];
         const removed = [];
@@ -10055,8 +10359,11 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this._include(specs, [id], 0, true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10079,6 +10386,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10114,7 +10424,10 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10139,6 +10452,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10194,6 +10510,9 @@ export class Runner {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

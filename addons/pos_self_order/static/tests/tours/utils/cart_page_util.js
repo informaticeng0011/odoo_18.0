@@ -100,7 +100,10 @@ export function checkCombo(comboName, products) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -179,6 +182,7 @@ export function cancelOrder() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221,4 +225,14 @@ export function cancelOrder() {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+export function removeLine(productName) {
+    return {
+        content: `remove orderline with name ${productName}`,
+        trigger: `.product-card-item:has(.product-info strong:contains(${productName})) .product-controllers button:eq(0)`,
+        run: "click",
+    };
+}
 >>>>>>> upstream/18.0

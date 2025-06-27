@@ -29,6 +29,10 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_fiscal_country_id': 'base.jo',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'tax_calculation_rounding_method': 'round_globally',
+>>>>>>> upstream/18.0
 =======
                 'tax_calculation_rounding_method': 'round_globally',
 >>>>>>> upstream/18.0

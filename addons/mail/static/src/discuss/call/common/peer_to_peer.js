@@ -556,6 +556,17 @@ export class PeerToPeer extends EventTarget {
                     this._recover(id, "failed at setting remoteDescription");
                     return;
                 }
+<<<<<<< HEAD
+=======
+                if (!peer.connection) {
+                    this._emitLog(
+                        id,
+                        "the peer connection was closed during offer negotiation",
+                        LOG_LEVEL.WARN
+                    );
+                    return;
+                }
+>>>>>>> upstream/18.0
                 if (this._isStreamingEnabled) {
                     if (peer.connection.getTransceivers().length === 0) {
                         for (const streamType of ORDERED_TRANSCEIVER_TYPES) {

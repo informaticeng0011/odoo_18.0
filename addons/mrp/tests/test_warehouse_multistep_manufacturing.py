@@ -801,7 +801,10 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
             self.assertEqual(mo.picking_ids[0].picking_type_id, pick_components_type)
             self.assertEqual(mo.picking_ids[0].move_type, move_type)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_update_mo_from_bom_forecast(self):
         self.warehouse_1.manufacture_steps = 'pbm_sam'
@@ -839,4 +842,7 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
             {'product_id': self.product_1.id, 'product_uom_qty': 0, 'product_qty_available': 0},
             {'product_id': self.product_3.id, 'product_uom_qty': 5, 'product_qty_available': 20},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
