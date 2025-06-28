@@ -16,6 +16,10 @@ registry.category("web_tour.tours").add("course_member", {
         {
             trigger: 'a:contains("Basics of Gardening - Test")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         // Chatter is lazy loading. Wait for it.
         {
@@ -33,6 +37,10 @@ registry.category("web_tour.tours").add("course_member", {
         {
             trigger: 'a:contains("Join this Course")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             // check membership
@@ -41,6 +49,10 @@ registry.category("web_tour.tours").add("course_member", {
         {
             trigger: 'a:contains("Gardening: The Know-How")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         // eLearning: follow course by cliking on first lesson and going to fullscreen player
         {
@@ -135,6 +147,10 @@ registry.category("web_tour.tours").add("course_member", {
         {
             trigger: 'a:contains("End course")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         // eLearning: ending course redirect to /slides, course is completed now
         {
@@ -145,6 +161,10 @@ registry.category("web_tour.tours").add("course_member", {
         {
             trigger: 'a:contains("Basics of Gardening")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: 'button[data-bs-target="#ratingpopupcomposer"]:contains("Add Review")',

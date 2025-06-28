@@ -14,6 +14,10 @@ registry.category("web_tour.tours").add('shop_zoom', {
         content: "select " + imageName,
         trigger: `.oe_product_cart a:contains(/^${imageName}$/)`,
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "click on the image",

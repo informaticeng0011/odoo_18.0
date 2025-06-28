@@ -22,6 +22,10 @@ Mitesh Savani ms@oerp.ca https://github.com/ms-oerp
 Helena Wong hw@oerp.ca https://github.com/hw-oerp
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Nishi Patel np@oerp.ca https://github.com/np-oerp
+>>>>>>> upstream/18.0
 =======
 Nishi Patel np@oerp.ca https://github.com/np-oerp
 >>>>>>> upstream/18.0

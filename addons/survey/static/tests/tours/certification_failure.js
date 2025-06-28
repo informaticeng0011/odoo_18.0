@@ -115,6 +115,10 @@ var failSteps = [{ // Page-1
 var retrySteps = [{
     trigger: 'a:contains("Retry")',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }];
 
 var lastSteps = [{

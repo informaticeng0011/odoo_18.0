@@ -126,12 +126,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div name="options" position='inside'>
                     <span class="d-inline-flex" invisible="type == 'combo'">
                         <field name="purchase_ok"/>
                         <label for="purchase_ok"/>
                     </span>
                 </div>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247,7 +250,11 @@
                         <div class="o_field_widget o_stat_info">
                             <span class="o_stat_value d-flex gap-1">
                                 <field name="purchased_product_qty" widget="statinfo" nolabel="1" class="oe_inline"/>
+<<<<<<< HEAD
                                 <field name="uom_name"  class="oe_inline"/>
+=======
+                                <field name="uom_name"  class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
                             </span>
                             <span class="o_stat_text">Purchased</span>
                         </div>
@@ -268,7 +275,11 @@
                         <div class="o_field_widget o_stat_info">
                             <span class="o_stat_value d-flex gap-1">
                                 <field name="purchased_product_qty" widget="statinfo" nolabel="1" class="oe_inline"/>
+<<<<<<< HEAD
                                 <field name="uom_name"  class="oe_inline"/>
+=======
+                                <field name="uom_name"  class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
                             </span>
                             <span class="o_stat_text">Purchased</span>
                         </div>

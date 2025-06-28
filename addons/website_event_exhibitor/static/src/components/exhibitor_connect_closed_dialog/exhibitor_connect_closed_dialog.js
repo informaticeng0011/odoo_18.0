@@ -34,6 +34,10 @@ export class ExhibitorConnectClosedDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        close: Function,
+>>>>>>> upstream/18.0
 =======
         close: Function,
 >>>>>>> upstream/18.0

@@ -9,6 +9,10 @@ registry.category("web_tour.tours").add('website_sale_stock_message_after_close_
         content: "Select Customizable Desk",
         trigger: '.oe_product_cart a:contains("Product With Optional (TEST)")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     }, {
         content: "Check that the stock quantity is displayed and correct",
         trigger: '#threshold_message:contains("30")',
@@ -38,6 +42,10 @@ registry.category("web_tour.tours").add('website_sale_stock_message_after_close_
         content: "Select Office Lamp",
         trigger: '.oe_product_cart a:contains("Product Without Optional (TEST)")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     }, {
         content: "Check that the stock quantity is displayed and correct",
         trigger: '#threshold_message:contains("30")',

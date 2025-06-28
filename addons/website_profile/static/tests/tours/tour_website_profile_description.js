@@ -8,6 +8,10 @@ registry.category("web_tour.tours").add('website_profile_description', {
         content: "Click on one user profile card",
         trigger: "div[onclick]:contains(\"test_user\")",
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     }, {
         content: "Edit profile",
         trigger: "a:contains('EDIT PROFILE')",
@@ -20,6 +24,10 @@ registry.category("web_tour.tours").add('website_profile_description', {
         content: "Save changes",
         trigger: "button:contains('Update')",
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     }, {
         content: "Check the content is saved",
         trigger: "span[data-oe-field='website_description']:contains('content <p>code here</p>')",

@@ -27,6 +27,11 @@ def patch_all():
     patch_literal_eval()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    from .lxml import patch_lxml
+    patch_lxml()
+>>>>>>> upstream/18.0
 =======
     from .lxml import patch_lxml
     patch_lxml()

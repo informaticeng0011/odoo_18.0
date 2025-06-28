@@ -4,6 +4,10 @@ from contextlib import contextmanager
 from odoo import Command, fields
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon
 >>>>>>> upstream/18.0
@@ -13,7 +17,11 @@ from unittest.mock import patch
 
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestAccountPayment(AccountTestInvoicingCommon):
+=======
+class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
+>>>>>>> upstream/18.0
 =======
 class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 >>>>>>> upstream/18.0
@@ -296,7 +304,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_attachments_send_multiple(self):
         payments = self.env['account.payment'].create([{
             'amount': 100.0,
@@ -321,6 +332,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
         for p in payments:
             self.assertTrue(p._get_mail_thread_data_attachments())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_compute_currency_id(self):
         ''' When creating a new account.payment without specifying a currency, the default currency should be the one
@@ -624,7 +638,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -867,6 +884,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1174,7 +1194,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1383,6 +1406,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1666,7 +1692,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1726,6 +1755,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

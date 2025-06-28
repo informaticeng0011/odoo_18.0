@@ -38,11 +38,19 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
     run: function () {
         window.location.href = window.location.origin + '/my/projects';
     },
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     id: 'project_sharing_feature',
     trigger: 'table > tbody > tr a:has(span:contains(Project Sharing))',
     content: 'Select "Project Sharing" project to go to project sharing feature for this project.',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     trigger: ':iframe .o_project_sharing',
     content: 'Wait the project sharing feature be loaded',
@@ -147,6 +155,10 @@ registry.category("web_tour.tours").add("project_sharing_with_blocked_task_tour"
         trigger: 'table > tbody > tr a:has(span:contains("Project Sharing"))',
         content: 'Click on the portal project.',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     }, {
         trigger: ':iframe article.o_kanban_record',
         content: 'Click on the task',
@@ -170,6 +182,10 @@ registry.category("web_tour.tours").add("portal_project_sharing_tour_with_disall
             content:
                 'Select "Project Sharing" project to go to project sharing feature for this project.',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: ":iframe .o_project_sharing",

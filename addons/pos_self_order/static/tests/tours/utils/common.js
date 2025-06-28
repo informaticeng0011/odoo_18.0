@@ -49,6 +49,10 @@ export function changeLanguage(language) {
             content: `Check that the language is available`,
             trigger: `.self_order_language_popup .btn:contains(${language})`,
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: `Check that the language changed`,

@@ -177,6 +177,12 @@ class TestGroups(TransactionCase):
         groups = all_groups.search([('full_name', 'in', ['Administration / Access Rights','Contact Creation'])])
         self.assertTrue(groups, "did not match search for 'Administration / Access Rights' and 'Contact Creation'")
 
+<<<<<<< HEAD
+=======
+        groups = all_groups.search([('full_name', 'like', '/')])
+        self.assertTrue(groups, "did not match search for '/'")
+
+>>>>>>> upstream/18.0
     def test_res_group_has_cycle(self):
         # four groups with no cycle, check them all together
         a = self.env['res.groups'].create({'name': 'A'})

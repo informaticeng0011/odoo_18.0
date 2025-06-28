@@ -8,7 +8,11 @@ registry
     .add('website_sale_product_configurator_zero_priced', {
         url: '/shop?search=Main product',
         steps: () => [
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Main product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Main product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
             // Assert that the "Zero-priced" variant of the optional product can't be sold.
             ...websiteConfiguratorTourUtils.assertOptionalProductZeroPriced(
                 "Optional product (Zero-priced)"

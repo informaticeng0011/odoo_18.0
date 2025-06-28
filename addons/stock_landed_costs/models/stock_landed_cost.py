@@ -134,8 +134,15 @@ class StockLandedCost(models.Model):
                     vals_list = []
                     if line.move_id.product_id.lot_valuated:
                         for lot_id, sml in line.move_id.move_line_ids.grouped('lot_id').items():
+<<<<<<< HEAD
                             lot_layer = linked_layer.filtered(lambda l: l.lot_id == lot_id)[:1]
                             value = cost_to_add * sum(sml.mapped('quantity')) / line.move_id.quantity
+=======
+                            if not lot_id.quantity_svl:
+                                continue
+                            lot_layer = linked_layer.filtered(lambda l: l.lot_id == lot_id)[:1]
+                            value = cost_to_add * lot_id.quantity_svl / remaining_qty
+>>>>>>> upstream/18.0
                             if product.cost_method in ['average', 'fifo']:
                                 cost_to_add_bylot[product][lot_id] += value
                             vals_list.append({

@@ -53,6 +53,10 @@ import { subscribeToTransitionChange } from "../mock/animation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getViewPortHeight, getViewPortWidth } from "../mock/window";
+>>>>>>> upstream/18.0
 =======
 import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 >>>>>>> upstream/18.0
@@ -209,7 +213,11 @@ import { getViewPortHeight, getViewPortWidth } from "../mock/window";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { customElements, document, getSelection, HTMLElement, WeakSet } = globalThis;
+=======
+const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } = globalThis;
+>>>>>>> upstream/18.0
 =======
 const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } = globalThis;
 >>>>>>> upstream/18.0
@@ -243,7 +251,10 @@ const { customElements, document, getSelection, HTMLElement, Promise, WeakSet } 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -269,6 +280,9 @@ function waitForIframe(iframe) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -315,7 +329,11 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const cleanupFixture = () => {
+=======
+    function cleanup() {
+>>>>>>> upstream/18.0
 =======
     function cleanup() {
 >>>>>>> upstream/18.0
@@ -349,11 +367,14 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
     };
 
     const getFixture = () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -377,6 +398,9 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395,6 +419,7 @@ export function makeFixtureManager(runner) {
         }
         if (!currentFixture) {
             // Prepare fixture once to not force layouts/reflows
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,6 +683,8 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             currentFixture = document.createElement(HootFixtureElement.TAG_NAME);
             if (runner.debug || runner.config.headless) {
                 currentFixture.show();
@@ -692,6 +719,9 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -714,6 +744,7 @@ export function makeFixtureManager(runner) {
             getActiveElement().blur();
             getSelection().removeAllRanges();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1006,6 +1037,8 @@ export function makeFixtureManager(runner) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     return {
@@ -1019,6 +1052,9 @@ export function makeFixtureManager(runner) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1082,7 +1118,11 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.styleElement.innerText = /* css */ `
+=======
+        this.styleElement.textContent = /* css */ `
+>>>>>>> upstream/18.0
 =======
         this.styleElement.textContent = /* css */ `
 >>>>>>> upstream/18.0
@@ -1257,9 +1297,12 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {(() => any) | null} */
     cleanupEventActions = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1357,6 +1400,7 @@ export class HootFixtureElement extends HTMLElement {
      * @type {Map<HTMLIFrameElement, Promise<void>>}
      */
     _iframes = new Map();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1619,6 +1663,10 @@ export class HootFixtureElement extends HTMLElement {
 
     connectedCallback() {
 >>>>>>> upstream/18.0
+=======
+
+    connectedCallback() {
+>>>>>>> upstream/18.0
         setupEventActions(this);
         subscribeToTransitionChange((allowTransitions) =>
             this.classList.toggle(this.constructor.CLASSES.transitions, allowTransitions)
@@ -1626,6 +1674,7 @@ export class HootFixtureElement extends HTMLElement {
 
         this._observer.observe(this, { childList: true, subtree: true });
         this._lookForIframes();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1946,6 +1995,8 @@ export class HootFixtureElement extends HTMLElement {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     disconnectedCallback() {
@@ -1957,6 +2008,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2020,10 +2074,13 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     show() {
         this.classList.add(this.constructor.CLASSES.show);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2134,10 +2191,14 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._iframes.set(
                 iframe,
                 new Promise((resolve) => iframe.addEventListener("load", resolve))
             );
+=======
+            this._iframes.set(iframe, waitForIframe(iframe));
+>>>>>>> upstream/18.0
 =======
             this._iframes.set(iframe, waitForIframe(iframe));
 >>>>>>> upstream/18.0
@@ -2218,6 +2279,9 @@ export class HootFixtureElement extends HTMLElement {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -85,6 +85,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -430,7 +434,12 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.journal_id.outbound_payment_method_line_ids.payment_account_id
+=======
+            self.journal_id.outbound_payment_method_line_ids.payment_account_id |
+            self.outstanding_account_id
+>>>>>>> upstream/18.0
 =======
             self.journal_id.outbound_payment_method_line_ids.payment_account_id |
             self.outstanding_account_id
@@ -629,7 +638,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
 =======
             if not bool(payment._origin) and (partner or payment_type):
 >>>>>>> upstream/18.0
@@ -766,11 +779,14 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -869,6 +885,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,6 +968,7 @@ class AccountPayment(models.Model):
                 liquidity, _counterpart, _writeoff = payment._seek_for_lines()
                 payment.state = (
                     'paid'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1206,6 +1226,9 @@ class AccountPayment(models.Model):
 =======
                     if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not any(liquidity.account_id.mapped('reconcile')) else
 >>>>>>> upstream/18.0
+=======
+                    if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not any(liquidity.account_id.mapped('reconcile')) else
+>>>>>>> upstream/18.0
                     'in_process'
                 )
             if payment.state == 'in_process' and payment.invoice_ids and all(invoice.payment_state == 'paid' for invoice in payment.invoice_ids):
@@ -1291,7 +1314,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     from_amount=payment.amount,
+=======
+                    from_amount=payment.amount_signed,
+>>>>>>> upstream/18.0
 =======
                     from_amount=payment.amount_signed,
 >>>>>>> upstream/18.0
@@ -1786,7 +1813,10 @@ class AccountPayment(models.Model):
         return vals_list
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _message_mail_after_hook(self, mails):
         for payment, mail in zip(self, mails):
             if (
@@ -1796,6 +1826,9 @@ class AccountPayment(models.Model):
                 attachments_to_link.write({'res_model': self._name, 'res_id': payment.id})
         return super()._message_mail_after_hook(mails)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # SYNCHRONIZATION account.payment -> account.move
@@ -1908,6 +1941,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'name': '/',  # Set the name to '/' to allow it to be changed
+>>>>>>> upstream/18.0
 =======
                 'name': '/',  # Set the name to '/' to allow it to be changed
 >>>>>>> upstream/18.0
@@ -2197,6 +2234,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'journal_id': pay.journal_id.id,
+>>>>>>> upstream/18.0
 =======
                 'journal_id': pay.journal_id.id,
 >>>>>>> upstream/18.0
@@ -2434,6 +2475,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_vals = []
         for pay in need_move:
             move_vals.append({
@@ -2475,6 +2517,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         move_vals = [
             pay._generate_move_vals(write_off_line_vals, force_balance, line_ids)
             for pay in need_move
@@ -2489,6 +2533,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2525,7 +2572,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2578,6 +2628,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

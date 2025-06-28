@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 export function clickPartner(name = "") {
+=======
+export function clickPartner(name = "", { expectUnloadPage = false } = {}) {
+>>>>>>> upstream/18.0
     return {
         content: `click partner '${name}' from partner list screen`,
         trigger: `.modal .partner-list b:contains(${name})`,
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
     };
 }
 export function clickPartnerOptions(name) {

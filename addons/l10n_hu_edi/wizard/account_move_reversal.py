@@ -4,6 +4,17 @@ from odoo import models
 class AccountMoveReversal(models.TransientModel):
     _inherit = 'account.move.reversal'
 
+<<<<<<< HEAD
+=======
+    def _prepare_default_reversal(self, move):
+        res = super()._prepare_default_reversal(move)
+        if move.company_id.account_fiscal_country_id.code == "HU":
+            res.update({
+                'delivery_date': move.delivery_date
+            })
+        return res
+
+>>>>>>> upstream/18.0
     def reverse_moves(self, is_modify=False):
         action = super().reverse_moves(is_modify=is_modify)
         if is_modify:

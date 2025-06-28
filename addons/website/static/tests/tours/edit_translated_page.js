@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('edit_translated_page_redirect', {
         content: "Enter backend",
         trigger: 'a.o_frontend_to_backend_edit_btn',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "Check the data-for attribute",
@@ -25,11 +29,19 @@ registry.category("web_tour.tours").add('edit_translated_page_redirect', {
             // case (there is no trailing slash), so we test it separately.
             location.href = '/nl';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "Enter backend",
         trigger: 'a.o_frontend_to_backend_edit_btn',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     ...clickOnEditAndWaitEditModeInTranslatedPage(),
 ]});

@@ -18,6 +18,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isShrunkBlock,
+>>>>>>> upstream/18.0
 =======
     isShrunkBlock,
 >>>>>>> upstream/18.0
@@ -667,6 +671,7 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         wrapInlinesInBlocks(li, {
             baseContainerNodeName: this.dependencies.baseContainer.getDefaultNodeName(),
             cursors,
@@ -676,6 +681,8 @@ export class ListPlugin extends Plugin {
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.append(this.document.createElement("br"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -710,6 +717,9 @@ export class ListPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

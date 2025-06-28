@@ -6,12 +6,20 @@ import * as tourUtils from "@website_sale/js/tours/tour_utils";
 registry.category("web_tour.tours").add("shop_checkout_address_ec", {
     url: "/shop",
     steps: () => [
+<<<<<<< HEAD
         ...tourUtils.addToCart({ productName: "Test Product" }),
+=======
+        ...tourUtils.addToCart({ productName: "Test Product", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
         tourUtils.goToCart({ quantity: 1 }),
         {
             content: "Go to checkout",
             trigger: "a:contains('Checkout')",
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Check that VAT field is present",

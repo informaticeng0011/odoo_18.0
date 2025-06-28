@@ -16,6 +16,10 @@ registry.category("web_tour.tours").add('test_json_auth', {
         });
         window.location.href = window.location.origin;
     },
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     trigger: 'span:contains(Mitchell Admin), span:contains(Administrator)',
 }

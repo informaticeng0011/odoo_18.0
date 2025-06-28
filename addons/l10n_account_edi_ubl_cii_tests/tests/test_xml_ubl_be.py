@@ -165,6 +165,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
 
+<<<<<<< HEAD
+=======
+    def test_export_import_invoice_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_import_invoice()
+
+>>>>>>> upstream/18.0
     def test_export_import_refund(self):
         refund = self._generate_move(
             self.partner_1,
@@ -223,6 +230,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)
 
+<<<<<<< HEAD
+=======
+    def test_export_import_refund_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_import_refund()
+
+>>>>>>> upstream/18.0
     def test_encoding_in_attachment_ubl(self):
         invoice = self._generate_move(
             seller=self.partner_1,
@@ -278,6 +292,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         invoice2 = self._generate_move(self.partner_2, self.partner_1, **invoice_vals)
         check_attachment(invoice2, "from_odoo/bis3_out_invoice_public_admin_2.xml")
 
+<<<<<<< HEAD
+=======
+    def test_sending_to_public_admin_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_sending_to_public_admin()
+
+>>>>>>> upstream/18.0
     def test_rounding_price_unit(self):
         """ OpenPeppol states that:
         * All document level amounts shall be rounded to two decimals for accounting
@@ -306,6 +327,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         )
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_out_invoice_rounding.xml')
 
+<<<<<<< HEAD
+=======
+    def test_rounding_price_unit_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_rounding_price_unit()
+
+>>>>>>> upstream/18.0
     def test_inverting_negative_price_unit(self):
         """ We can not have negative unit prices, so we try to invert the unit price and quantity.
         """
@@ -330,6 +358,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         )
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_out_invoice_negative_unit_price.xml')
 
+<<<<<<< HEAD
+=======
+    def test_inverting_negative_price_unit_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_inverting_negative_price_unit()
+
+>>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case1(self):
         # CASE 1: simple invoice with a recupel tax
         invoice = self._generate_move(
@@ -348,6 +383,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(invoice.amount_total, 121)
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_ecotaxes_case1.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_with_fixed_taxes_case1_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_with_fixed_taxes_case1()
+
+>>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case2(self):
         # CASE 2: Same but with several ecotaxes
         invoice = self._generate_move(
@@ -366,6 +408,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(invoice.amount_total, 121)
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_ecotaxes_case2.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_with_fixed_taxes_case2_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_with_fixed_taxes_case2()
+
+>>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case3(self):
         # CASE 3: same as Case 1 but taxes are Price Included
         self.recupel.price_include_override = 'tax_included'
@@ -388,6 +437,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(invoice.amount_total, 121)
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_ecotaxes_case3.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_with_fixed_taxes_case3_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_with_fixed_taxes_case3()
+
+>>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case4(self):
         """ CASE 4: simple invoice with a recupel tax + discount
         1) Subtotal (price after discount, without taxes): 99 * 2 * (1-0.9) = 178.2
@@ -413,6 +469,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(invoice.amount_total, 218.042)
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_ecotaxes_case4.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_with_fixed_taxes_case4_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_with_fixed_taxes_case4()
+
+>>>>>>> upstream/18.0
     def test_export_payment_terms(self):
         """
         Tests the early payment discount using the example case from the VBO/FEB.
@@ -746,6 +809,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_export_with_changed_taxes.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_with_changed_taxes_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_with_changed_taxes()
+
+>>>>>>> upstream/18.0
     def test_export_rounding_price_amount(self):
         invoice = self._generate_move(
             self.partner_1,
@@ -770,6 +840,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(price_amounts[0].text, '102.15')
         self.assertEqual(price_amounts[1].text, '83.6')
 
+<<<<<<< HEAD
+=======
+    def test_export_rounding_price_amount_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_rounding_price_amount()
+
+>>>>>>> upstream/18.0
     def test_export_tax_exempt(self):
         invoice = self._generate_move(
             self.partner_1,
@@ -785,6 +862,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         )
         self._assert_invoice_attachment(invoice.ubl_cii_xml_id, None, 'from_odoo/bis3_out_invoice_tax_exempt.xml')
 
+<<<<<<< HEAD
+=======
+    def test_export_tax_exempt_new(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+        self.test_export_tax_exempt()
+
+>>>>>>> upstream/18.0
     ####################################################
     # Test import
     ####################################################

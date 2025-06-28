@@ -80,7 +80,11 @@ import { pick } from "@web/core/utils/objects";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {"top" | "botton" | "left" | "right"} [position] The position where the UI helper is shown.
+=======
+ * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
+>>>>>>> upstream/18.0
 =======
  * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
 >>>>>>> upstream/18.0
@@ -362,7 +366,20 @@ export class TourStep {
     get stringify() {
         return (
             JSON.stringify(
+<<<<<<< HEAD
                 pick(this, "isActive", "content", "trigger", "run", "tooltipPosition", "timeout"),
+=======
+                pick(
+                    this,
+                    "isActive",
+                    "content",
+                    "trigger",
+                    "run",
+                    "tooltipPosition",
+                    "timeout",
+                    "expectUnloadPage"
+                ),
+>>>>>>> upstream/18.0
                 (_key, value) => {
                     if (typeof value === "function") {
                         return "[function]";

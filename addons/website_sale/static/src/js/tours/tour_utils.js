@@ -3,13 +3,36 @@
 import { _t } from "@web/core/l10n/translation";
 import { clickOnElement } from '@website/js/tours/tour_utils';
 
+<<<<<<< HEAD
 export function addToCart({productName, search = true, productHasVariants = false}) {
+=======
+export function addToCart({
+    productName,
+    search = true,
+    productHasVariants = false,
+    expectUnloadPage = false,
+} = {}) {
+>>>>>>> upstream/18.0
     const steps = [];
     if (search) {
         steps.push(...searchProduct(productName));
     }
+<<<<<<< HEAD
     steps.push(clickOnElement(productName, `a:contains(${productName})`));
     steps.push(clickOnElement('Add to cart', '#add_to_cart'));
+=======
+    steps.push({
+        content: productName,
+        trigger: `a:contains(${productName})`,
+        run: "click",
+        expectUnloadPage,
+    });
+    steps.push({
+        content: "Add to cart",
+        trigger: "#add_to_cart",
+        run: "click",
+    });
+>>>>>>> upstream/18.0
     if (productHasVariants) {
         steps.push(clickOnElement('Continue Shopping', 'button:contains("Continue Shopping")'));
     }
@@ -75,7 +98,12 @@ export function fillAdressForm(
         street: "1 rue de la paix",
         city: "Paris",
         zip: "75000",
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage = false
+>>>>>>> upstream/18.0
 ) {
     const steps = [];
     steps.push({
@@ -93,16 +121,33 @@ export function fillAdressForm(
         content: "Continue checkout",
         trigger: "#save_address",
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
     });
     return steps;
 }
 
+<<<<<<< HEAD
 export function goToCart({quantity = 1, position = "bottom", backend = false} = {}) {
+=======
+export function goToCart({
+    quantity = 1,
+    position = "bottom",
+    backend = false,
+    expectUnloadPage = true,
+} = {}) {
+>>>>>>> upstream/18.0
     return {
         content: _t("Go to cart"),
         trigger: `${backend ? ":iframe" : ""} a sup.my_cart_quantity:contains(/^${quantity}$/)`,
         tooltipPosition: position,
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -111,6 +156,10 @@ export function goToCheckout() {
         content: 'Checkout your order',
         trigger: 'a[href^="/shop/checkout"]',
         run: 'click',
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     };
 }
 
@@ -119,6 +168,7 @@ export function confirmOrder() {
         content: 'Confirm',
         trigger: 'a[href^="/shop/confirm_order"]',
         run: 'click',
+<<<<<<< HEAD
     };
 }
 
@@ -129,6 +179,29 @@ export function pay() {
         trigger: 'button[name="o_payment_submit_button"]:visible:not(:disabled)',
         run: "click",
     };
+=======
+        expectUnloadPage: true,
+    };
+}
+
+export function pay({ expectUnloadPage = false, waitFinalizeYourPayment = false } = {}) {
+    const steps = [
+        {
+            content: 'Pay',
+            //Either there are multiple payment methods, and one is checked, either there is only one, and therefore there are no radio inputs
+            trigger: 'button[name="o_payment_submit_button"]',
+            run: "click",
+            expectUnloadPage,
+        },
+    ];
+    if (waitFinalizeYourPayment) {
+        steps.push({
+            trigger: "h1:contains(finalize your payment)",
+            expectUnloadPage: true,
+        });
+    }
+    return steps;
+>>>>>>> upstream/18.0
 }
 
 export function payWithDemo() {
@@ -141,14 +214,26 @@ export function payWithDemo() {
         trigger: 'input[name="customer_input"]',
         run: "edit 4242424242424242",
     },
+<<<<<<< HEAD
     pay(),
+=======
+    ...pay(),
+>>>>>>> upstream/18.0
     {
         content: 'eCommerce: check that the payment is successful',
         trigger: '.oe_website_sale_tx_status:contains("Your payment has been successfully processed.")',
     }]
 }
 
+<<<<<<< HEAD
 export function payWithTransfer(redirect=false) {
+=======
+export function payWithTransfer({
+    redirect = false,
+    expectUnloadPage = false,
+    waitFinalizeYourPayment = false,
+} = {}) {
+>>>>>>> upstream/18.0
     const first_step = {
         content: "Select `Wire Transfer` payment method",
         trigger: 'input[name="o_payment_radio"][data-payment-method-code="wire_transfer"]',
@@ -156,6 +241,7 @@ export function payWithTransfer(redirect=false) {
     }
     if (!redirect) {
         return [
+<<<<<<< HEAD
         first_step,
         pay(),
         {
@@ -170,10 +256,30 @@ export function payWithTransfer(redirect=false) {
             {
                 content: "Last step",
                 trigger: '.oe_website_sale_tx_status:contains("Please use the following transfer details")',
+=======
+            first_step,
+            ...pay({ expectUnloadPage, waitFinalizeYourPayment }),
+            {
+                content: "Last step",
+                trigger:
+                    '.oe_website_sale_tx_status:contains("Please use the following transfer details")',
+                timeout: 30000,
+            },
+        ];
+    } else {
+        return [
+            first_step,
+            ...pay({ expectUnloadPage, waitFinalizeYourPayment }),
+            {
+                content: "Last step",
+                trigger:
+                    '.oe_website_sale_tx_status:contains("Please use the following transfer details")',
+>>>>>>> upstream/18.0
                 timeout: 30000,
                 run() {
                     window.location.href = '/contactus'; // Redirect in JS to avoid the RPC loop (20x1sec)
                 },
+<<<<<<< HEAD
             }, {
                 content: "wait page loaded",
                 trigger: 'h1:contains("Contact us")',
@@ -184,13 +290,46 @@ export function payWithTransfer(redirect=false) {
 
 export function searchProduct(productName) {
     return [
+=======
+                expectUnloadPage: true,
+            },
+            {
+                content: "wait page loaded",
+                trigger: 'h1:contains("Contact us")',
+            },
+        ];
+    }
+}
+
+export function searchProduct(productName, { select = false } = {}) {
+    const steps = [
+>>>>>>> upstream/18.0
         {
             content: "Search for the product",
             trigger: 'form input[name="search"]',
             run: `edit ${productName}`,
         },
+<<<<<<< HEAD
         clickOnElement('Search', 'form:has(input[name="search"]) .oe_search_button'),
     ];
+=======
+        {
+            content: `Search ${productName}`,
+            trigger: `form:has(input[name="search"]) .oe_search_button`,
+            run: "click",
+            expectUnloadPage: true,
+        },
+    ];
+    if (select) {
+        steps.push({
+            content: `Select ${productName}`,
+            trigger: `.oe_product_cart:first a:contains(/^${productName}$/i)`,
+            run: "click",
+            expectUnloadPage: true,
+        });
+    }
+    return steps;
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -207,6 +346,10 @@ export function selectPriceList(pricelist) {
             content: "Click on pricelist",
             trigger: `span:contains(${pricelist})`,
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
     ];
 }

@@ -501,10 +501,13 @@ class View(models.Model):
     def _get_allowed_root_attrs(self):
         # Related to these options:
 <<<<<<< HEAD
+<<<<<<< HEAD
         # background-video, background-shapes, parallax
         return super()._get_allowed_root_attrs() + [
             'data-bg-video-src', 'data-shape', 'data-scroll-background-ratio',
 =======
+=======
+>>>>>>> upstream/18.0
         # background-video, background-shapes, parallax, visibility
         return super()._get_allowed_root_attrs() + [
             'data-bg-video-src', 'data-shape', 'data-scroll-background-ratio',
@@ -513,6 +516,9 @@ class View(models.Model):
             'data-visibility-value-' + param + suffix
             for param in ('country', 'lang', 'logged', 'utm-campaign', 'utm-medium', 'utm-source')
             for suffix in ('', '-rule')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         ]
 

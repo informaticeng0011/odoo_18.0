@@ -11,6 +11,13 @@ function assertEqual(actual, expected) {
 registry.category("web_tour.tours").add("test_company_access_error_redirect", {
     steps: () => [
         {
+<<<<<<< HEAD
+=======
+            trigger: "body",
+            expectUnloadPage: true,
+        },
+        {
+>>>>>>> upstream/18.0
             trigger: ".o_form_view .o_last_breadcrumb_item:contains(p2)",
         },
         {

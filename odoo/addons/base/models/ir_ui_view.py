@@ -473,7 +473,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.constrains('type', 'groups_id', 'inherit_id')
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
@@ -2900,7 +2904,10 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2972,6 +2979,9 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3068,7 +3078,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch, models = view.postprocess_and_fields(arch, model=self._name, **options)
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0

@@ -2755,6 +2755,12 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!isBlock(node) && node.textContent === "\u200b") {
+                        node.setAttribute('data-oe-zws-empty-inline', '');
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!isBlock(node) && node.textContent === "\u200b") {
                         node.setAttribute('data-oe-zws-empty-inline', '');
@@ -4978,9 +4984,15 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 !allWhitespaceRegex.test(emptyElement.textContent) ||
                 emptyElement.hasAttribute("data-oe-field")
+=======
+            const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
+            if (
+                (!allWhitespaceRegex.test(emptyElement.textContent) || emptyElement.hasAttribute("data-oe-field")) && !isEmptyArch
+>>>>>>> upstream/18.0
 =======
             const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
             if (

@@ -238,7 +238,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 =======
             msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
 >>>>>>> upstream/18.0
@@ -1182,7 +1186,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1245,7 +1252,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1308,6 +1318,9 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

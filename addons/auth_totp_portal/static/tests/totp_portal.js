@@ -26,16 +26,33 @@ registry.category("web_tour.tours").add('totportal_tour_setup', {
 }, {
     content: "Get secret from collapsed div",
     trigger: 'a:contains("Cannot scan it?")',
+<<<<<<< HEAD
     run: async function(helpers) {
         const secret = this.anchor
             .closest("div")
             .querySelector('span[name="secret"]').textContent;
+=======
+},
+{
+    trigger: `span[name="secret"]:hidden`,
+    async run(helpers) {
+        const secret = this.anchor.textContent;
+>>>>>>> upstream/18.0
         const token = await rpc('/totphook', {
             secret
         });
         await helpers.edit(token, 'input[name="code"]');
+<<<<<<< HEAD
         await helpers.click("button.btn-primary:contains(Activate)");
     }
+=======
+    }
+},
+{
+    trigger: "button.btn-primary:contains(Activate)",
+    run: "click",
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "Check that the button has changed",
     trigger: 'button:contains(Disable two-factor authentication)',
@@ -47,6 +64,10 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
     content: "check that we're on the login page or go to it",
     trigger: 'input#login, a:contains(Sign in)',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "input login",
     trigger: 'input#login',
@@ -59,6 +80,10 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
     content: "click da button",
     trigger: 'button:contains("Log in")',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "expect totp screen",
     trigger: 'label:contains(Authentication Code)',
@@ -69,17 +94,30 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
     run: async function (helpers) {
         const token = await rpc('/totphook');
         await helpers.edit(token);
+<<<<<<< HEAD
         // FIXME: is there a way to put the button as its own step trigger without
         //        the tour straight blowing through and not waiting for this?
         await helpers.click('button:contains("Log in")');
     }
 }, {
+=======
+    }
+}, {
+    trigger: "button:contains(Log in)",
+    run: "click",
+    expectUnloadPage: true,
+}, {
+>>>>>>> upstream/18.0
     content: "check we're logged in",
     trigger: "h3:contains(My account)",
 }, {
     content: "go back to security",
     trigger: "a:contains(Security)",
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 },{
     content: "Open totp wizard",
     trigger: 'button#auth_totp_portal_disable',
@@ -90,11 +128,19 @@ registry.category("web_tour.tours").add('totportal_login_enabled', {
 }, {
     content: "Input password",
     trigger: '[name=password]',
+<<<<<<< HEAD
     run: "edit portal", // FIXME: better way to do this?
+=======
+    run: "edit portal",
+>>>>>>> upstream/18.0
 }, {
     content: "Confirm",
     trigger: "button:contains(Confirm Password)",
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "Check that the button has changed",
     trigger: 'button:contains(Enable two-factor authentication)',
@@ -106,6 +152,10 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
     content: "check that we're on the login page or go to it",
     trigger: 'input#login, a:contains(Sign in)',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "input login",
     trigger: 'input#login',
@@ -118,6 +168,10 @@ registry.category("web_tour.tours").add('totportal_login_disabled', {
     content: "click da button",
     trigger: 'button:contains("Log in")',
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     content: "check we're logged in",
     trigger: "h3:contains(My account)",

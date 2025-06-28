@@ -8,6 +8,10 @@
         content: "click on Customizable Desk",
         trigger: '.oe_product_cart a:contains("Customizable Desk (TEST)")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: "li.js_attribute_value",
@@ -26,6 +30,10 @@
     {
         trigger: 'button:contains(Proceed to Checkout)',
         run: 'click',
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: "#cart_products",

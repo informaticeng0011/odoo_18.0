@@ -38,6 +38,10 @@ from . import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import wizards
+>>>>>>> upstream/18.0
 =======
 from . import wizards
 >>>>>>> upstream/18.0

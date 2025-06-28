@@ -68,6 +68,10 @@ export function refreshPage() {
             run: () => {
                 window.location.reload();
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
     ];
 }

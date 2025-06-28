@@ -63,7 +63,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
@@ -156,8 +160,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`,
         "kanban,false": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
             </form>
         `,
@@ -296,10 +306,13 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </kanban>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -370,6 +383,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,7 +7,11 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
     url: '/shop',
     steps: () => [
         // Add a small drawer to the order (50$)
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "TEST - Small Drawer"}),
+=======
+        ...tourUtils.addToCart({ productName: "TEST - Small Drawer", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
         tourUtils.goToCart(),
         {
             content: 'insert gift card code',
@@ -18,6 +22,10 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
             content: 'validate the gift card',
             trigger: 'form[name="coupon_code"] .a-submit',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: 'check gift card line',
@@ -36,6 +44,10 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
             content: 'validate the gift card',
             trigger: 'form[name="coupon_code"] .a-submit',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: 'check gift card amount',
@@ -44,8 +56,14 @@ registry.category("web_tour.tours").add('shop_sale_gift_card', {
         {
             trigger: "a:contains(continue shopping)",
             run: "click",
+<<<<<<< HEAD
         },
         ...tourUtils.addToCart({productName: "TEST - Gift Card"}),
+=======
+            expectUnloadPage: true,
+        },
+        ...tourUtils.addToCart({ productName: "TEST - Gift Card", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
         tourUtils.goToCart({quantity: 2}),
         {
             content: 'check gift card amount',

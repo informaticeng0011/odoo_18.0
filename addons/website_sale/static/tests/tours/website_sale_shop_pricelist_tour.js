@@ -15,6 +15,10 @@ registry.category("web_tour.tours").add(
                 content: "Go to login page",
                 trigger: "a:contains('Sign in')",
                 run: "click",
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
             },
             {
                 content: "Submit login",
@@ -24,7 +28,12 @@ registry.category("web_tour.tours").add(
                     document.querySelector('.oe_login_form input[name="password"]').value = "long_enough_password";
                     document.querySelector('.oe_login_form input[name="redirect"]').value = "/shop";
                     document.querySelector('.oe_login_form').submit();
+<<<<<<< HEAD
                 }
+=======
+                },
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
             },
             {
                 content: "Check pricelist",

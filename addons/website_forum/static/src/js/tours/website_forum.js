@@ -12,6 +12,10 @@ registerBackendAndFrontendTour("question", {
     tooltipPosition: "left",
     content: _t("Create a new post in this forum by clicking on the button."),
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, {
     trigger: "input[name=post_name]",
     tooltipPosition: "top",
@@ -58,6 +62,10 @@ registerBackendAndFrontendTour("question", {
     content: _t("Click to post your question."),
     tooltipPosition: "bottom",
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 },
 {
     trigger: ".o_wforum_content_wrapper h3:contains(test)",
@@ -87,6 +95,10 @@ registerBackendAndFrontendTour("question", {
     content: _t("Click to post your answer."),
     tooltipPosition: "bottom",
     run: "click",
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 }, 
 {
     trigger: ".o_wforum_content_wrapper h3:contains(test)",

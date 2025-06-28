@@ -42,7 +42,11 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_repr, format_list
+=======
+from odoo.tools import float_is_zero, float_repr, format_list
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_repr, format_list
 >>>>>>> upstream/18.0
@@ -363,6 +367,26 @@ class AccountEdiCommon(models.AbstractModel):
         else:
             return create_dict(tax_category_code='E', tax_exemption_reason=_('Articles 226 items 11 to 15 Directive 2006/112/EN'))
 
+<<<<<<< HEAD
+=======
+    def _get_tax_category_code(self, customer, supplier, tax):
+        if not tax:
+            return 'E'
+        return self._get_tax_unece_codes(customer, supplier, tax).get('tax_category_code')
+
+    def _get_tax_exemption_reason(self, customer, supplier, tax):
+        if not tax:
+            return {
+                'tax_exemption_reason': _("Exempt from tax"),
+                'tax_exemption_reason_code': None,
+            }
+        res = self._get_tax_unece_codes(customer, supplier, tax)
+        return {
+            'tax_exemption_reason': res.get('tax_exemption_reason'),
+            'tax_exemption_reason_code': res.get('tax_exemption_reason_code'),
+        }
+
+>>>>>>> upstream/18.0
     def _get_tax_category_list(self, customer, supplier, taxes):
         """ Full list: https://unece.org/fileadmin/DAM/trade/untdid/d16b/tred/tred5305.htm
         Subset: https://docs.peppol.eu/poacc/billing/3.0/codelist/UNCL5305/
@@ -850,6 +874,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
@@ -966,6 +991,11 @@ class AccountEdiCommon(models.AbstractModel):
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
             discount = inferred_discount if not float_is_zero(inferred_discount, 2) else 0.0
+>>>>>>> upstream/18.0
+=======
+            currency = self.env.company.currency_id
+            inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / currency.round(delivered_qty * price_unit))
+            discount = inferred_discount if not float_is_zero(inferred_discount, currency.decimal_places) else 0.0
 >>>>>>> upstream/18.0
 =======
             currency = self.env.company.currency_id

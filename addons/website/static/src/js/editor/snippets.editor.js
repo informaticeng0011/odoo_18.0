@@ -274,7 +274,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         // TODO remove in master: add s_progress_bar_text in progress bar where it's missing, fix the previous wrong width
@@ -295,6 +298,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -605,7 +611,10 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -724,6 +733,9 @@ export class WebsiteSnippetsMenu extends weSnippetEditor.SnippetsMenu {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -86,6 +86,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
             window.location.href = window.location.origin + '/test_user_error_http?debug=0';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -96,6 +100,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_user_error_http?debug=1';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -109,6 +117,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_validation_error_http?debug=0';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -119,6 +131,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_validation_error_http?debug=1';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -132,6 +148,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_access_error_http?debug=0';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("403: Forbidden")',
@@ -142,6 +162,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_access_error_http?debug=1';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("403: Forbidden")',
@@ -155,6 +179,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_missing_error_http?debug=0';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -165,6 +193,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
                 window.location.href = window.location.origin + '/test_missing_error_http?debug=1';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("Something went wrong.")',
@@ -178,6 +210,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
             window.location.href = window.location.origin + '/test_access_denied_http?debug=0';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("403: Forbidden")',
@@ -188,6 +224,10 @@ registry.category("web_tour.tours").add('test_error_website', {
         run: function () {
             window.location.href = window.location.origin + '/test_access_denied_http?debug=1';
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'h1:contains("403: Forbidden")',

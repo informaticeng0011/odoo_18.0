@@ -11,6 +11,10 @@ function logout() {
             content: "click the Log out button",
             trigger: ".dropdown-item[data-menu=logout]",
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
     ];
 }
@@ -62,6 +66,10 @@ registry.category("web_tour.tours").add("test_user_switch", {
             content: "click on login button",
             trigger: 'button:contains("Log in")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         ...logout(),
         {

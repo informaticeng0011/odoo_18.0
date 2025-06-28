@@ -6,7 +6,11 @@ import * as tourUtils from "@website_sale/js/tours/tour_utils";
 registry.category("web_tour.tours").add('update_billing_shipping_address', {
     url: '/shop',
     steps: () => [
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "Office Chair Black TEST"}),
+=======
+        ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
         tourUtils.goToCart({quantity: 1}),
         tourUtils.goToCheckout(),
         tourUtils.confirmOrder(),
@@ -14,11 +18,19 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
             content: "Edit Address",
             trigger: '#delivery_and_billing a:contains("Edit")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Edit  billing address which is shipping address too",
             trigger: 'a.js_edit_address',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Empty the phone field",

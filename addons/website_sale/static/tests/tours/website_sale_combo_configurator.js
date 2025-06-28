@@ -9,7 +9,11 @@ registry
     .add('website_sale_combo_configurator', {
         url: '/shop?search=Combo product',
         steps: () => [
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Combo product", search: false , expectUnloadPage: true}),
+>>>>>>> upstream/18.0
             // Assert that the combo configurator behaves as expected.
             comboConfiguratorTourUtils.assertFooterButtonsDisabled(),
             comboConfiguratorTourUtils.setQuantity(3),
@@ -22,7 +26,10 @@ registry
             comboConfiguratorTourUtils.assertFooterButtonsEnabled(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             {
@@ -30,6 +37,9 @@ registry
                 trigger: '.js_main_product small:contains(Final price may vary based on selection)',
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38,6 +48,10 @@ registry
                 content: "Proceed to checkout",
                 trigger: 'button:contains(Proceed to Checkout)',
                 run: 'click',
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
             },
             wsTourUtils.assertCartContains({ productName: "Combo product" }),
             wsTourUtils.assertCartContains({ productName: "3 x Product A1" }),
@@ -56,8 +70,13 @@ registry
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 content: "Verify the combo product's price",
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(93.00)',
+=======
+                content: "Verify the combo product's price (tax included)",
+                trigger: 'div[name="website_sale_cart_line_price"]:contains(106.95)',
+>>>>>>> upstream/18.0
 =======
                 content: "Verify the combo product's price (tax included)",
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(106.95)',
@@ -83,7 +102,11 @@ registry
                 content: "Verify the combo product's price",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(62.00)',
+=======
+                trigger: 'div[name="website_sale_cart_line_price"]:contains(71.31)',
+>>>>>>> upstream/18.0
 =======
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(71.31)',
 >>>>>>> upstream/18.0

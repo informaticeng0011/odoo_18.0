@@ -8,7 +8,11 @@ registry
     .add('website_sale_stock_combo_configurator', {
         url: '/shop?search=Combo product',
         steps: () => [
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Combo product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
             configuratorTourUtils.assertQuantity(1),
             // Assert that it's impossible to add less than 1 product.
             configuratorTourUtils.setQuantity(0),

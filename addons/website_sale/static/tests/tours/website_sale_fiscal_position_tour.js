@@ -23,6 +23,10 @@ registry.category("web_tour.tours").add('website_sale_fiscal_position_public_tou
             content: "Change Pricelist",
             trigger: ".dropdown-item:contains('EUROPE EUR')",
             run: 'click',
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Check price",

@@ -23,7 +23,11 @@ class Lang(models.Model):
     def _get_user_spreadsheet_locale(self):
         """Convert the odoo lang to a spreadsheet locale."""
 <<<<<<< HEAD
+<<<<<<< HEAD
         lang = self._lang_get(self.env.user.lang)
+=======
+        lang = self._lang_get(self.env.user.lang or 'en_US')
+>>>>>>> upstream/18.0
 =======
         lang = self._lang_get(self.env.user.lang or 'en_US')
 >>>>>>> upstream/18.0

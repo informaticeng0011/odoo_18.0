@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
             content: "Go to the `Events` page",
             trigger: 'a[href*="/event"]:contains("Conference for Architects TEST"):first',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Open the register modal",
@@ -91,12 +95,20 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
             content: "Validate attendees details",
             trigger: ".modal#modal_attendees_registration button[type=submit]",
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         wsTourUtils.goToCart({ quantity: 3 }),
         wsTourUtils.goToCheckout(),
         ...wsTourUtils.assertCartAmounts({
             untaxed: "4,000.00",
         }),
+<<<<<<< HEAD
         ...wsTourUtils.payWithTransfer(),
+=======
+        ...wsTourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
     ],
 });

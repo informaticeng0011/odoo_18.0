@@ -19,6 +19,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
         {
             trigger: ".o_wslides_identification_banner a.o_underline:contains(Log in)",
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: 'input[id="password"]',
@@ -27,6 +31,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
         {
             trigger: 'button:contains("Log in")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         // Chatter is lazy loading. Wait for it.
         {
@@ -44,6 +52,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
         {
             trigger: 'a:contains("Join this Course")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: '.o_wslides_js_course_join:contains("You\'re enrolled")',

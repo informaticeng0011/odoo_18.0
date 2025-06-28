@@ -52,6 +52,10 @@ registry.category("web_tour.tours").add('category_page_and_products_snippet_use'
         content: "Navigate to category",
         trigger: '.o_wsale_filmstip > li:contains("Test Category") > a',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "Check that the snippet displays the right products",

@@ -557,7 +557,10 @@ export class PeerToPeer extends EventTarget {
                     return;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 if (!peer.connection) {
                     this._emitLog(
                         id,
@@ -566,6 +569,9 @@ export class PeerToPeer extends EventTarget {
                     );
                     return;
                 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if (this._isStreamingEnabled) {
                     if (peer.connection.getTransceivers().length === 0) {

@@ -13,6 +13,10 @@ export function changePricelist(pricelistName) {
             content: "Go to page Shop",
             trigger: '.nav-link:contains("Shop")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Toggle Pricelist",
@@ -23,6 +27,10 @@ export function changePricelist(pricelistName) {
             content: `Activate Pricelist ${pricelistName}`,
             trigger: `.dropdown-item:contains(${pricelistName})`,
             run: 'click',
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: 'Wait for pricelist to load',
@@ -36,11 +44,19 @@ function checkPriceEvent(eventName, price, close = true) {
             content: "Go to page Event",
             trigger: '.nav-link:contains("Event")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Open the Pycon event",
             trigger: `.o_wevent_events_list a:contains(${eventName})`,
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Open the ticket picking modal",

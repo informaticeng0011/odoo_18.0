@@ -802,7 +802,10 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
             self.assertEqual(mo.picking_ids[0].move_type, move_type)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -843,6 +846,9 @@ class TestMultistepManufacturingWarehouse(TestMrpCommon):
             {'product_id': self.product_3.id, 'product_uom_qty': 5, 'product_qty_available': 20},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

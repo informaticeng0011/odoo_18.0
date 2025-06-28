@@ -13,14 +13,22 @@ export function clickMenuButton() {
         run: "click",
     };
 }
+<<<<<<< HEAD
 export function clickMenuOption(name) {
     return [clickMenuButton(), clickMenuDropdownOption(name)];
 }
 export function clickMenuDropdownOption(name) {
+=======
+export function clickMenuOption(name, options) {
+    return [clickMenuButton(), clickMenuDropdownOption(name, options)];
+}
+export function clickMenuDropdownOption(name, { expectUnloadPage = false } = {}) {
+>>>>>>> upstream/18.0
     return {
         content: `click on something in the burger menu`,
         trigger: `span.dropdown-item:contains(${name})`,
         run: "click",
+<<<<<<< HEAD
     };
 }
 <<<<<<< HEAD
@@ -117,6 +125,11 @@ export function isCashMoveButtonHidden() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        expectUnloadPage,
+    };
+}
+>>>>>>> upstream/18.0
 export function endTour() {
     return {
         content: "Last tour step that avoids error mentioned in commit 443c209",
@@ -144,11 +157,19 @@ export function startPoS() {
         },
     ];
 }
+<<<<<<< HEAD
 export function clickBtn(name) {
+=======
+export function clickBtn(name, { expectUnloadPage = false } = {}) {
+>>>>>>> upstream/18.0
     return {
         content: `Click on ${name}`,
         trigger: `body button:contains(${name})`,
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
     };
 }
 export function fillTextArea(target, value) {

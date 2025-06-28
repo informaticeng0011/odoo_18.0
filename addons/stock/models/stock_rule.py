@@ -306,6 +306,12 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        final_location_id = False
+        if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
+            final_location_id = move_to_copy.location_final_id.id
+>>>>>>> upstream/18.0
 =======
         final_location_id = False
         if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
@@ -699,7 +705,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'location_final_id': move_to_copy.location_final_id.id,
+=======
+            'location_final_id': final_location_id,
+>>>>>>> upstream/18.0
 =======
             'location_final_id': final_location_id,
 >>>>>>> upstream/18.0
@@ -1277,7 +1287,11 @@ class ProcurementGroup(models.Model):
 
     @api.model
     def _check_intercomp_location(self, locations):
+<<<<<<< HEAD
         if self.env.user.has_group('base.group_multi_company') and locations.filtered(lambda location: location.usage == 'transit'):
+=======
+        if locations.filtered(lambda location: location.usage == 'transit'):
+>>>>>>> upstream/18.0
             inter_comp_location = self.env.ref('stock.stock_location_inter_company', raise_if_not_found=False)
             return inter_comp_location and inter_comp_location.id in locations.ids
 

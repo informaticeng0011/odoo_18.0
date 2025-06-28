@@ -75,7 +75,11 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
             trigger: ':iframe a:contains(Add to cart)',
             run: "click",
         },
+<<<<<<< HEAD
         goToCart({backend: true}),
+=======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
         {
             content: "check price on /cart",
             trigger: ":iframe #cart_products .oe_currency_value:contains(/^880.44$/)",

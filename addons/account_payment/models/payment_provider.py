@@ -60,6 +60,10 @@ class PaymentProvider(models.Model):
                 'journal_id': self.journal_id.id,
                 'payment_provider_id': self.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
+>>>>>>> upstream/18.0
 =======
                 'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
 >>>>>>> upstream/18.0
@@ -76,7 +80,10 @@ class PaymentProvider(models.Model):
             self.env['account.payment.method.line'].create(create_values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _get_payment_method_outstanding_account_id(self, payment_method_id):
         if self.code in ['custom', 'demo']:
             return False
@@ -88,6 +95,9 @@ class PaymentProvider(models.Model):
         ).id
         return outstanding_account_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.depends('code', 'state', 'company_id')
     def _compute_journal_id(self):

@@ -12,11 +12,19 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
         content: 'Open "Test Event Booths" event',
         trigger: 'h5.card-title span:contains("Test Event Booths")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: 'Go to "Get A Booth" page',
         trigger: 'li.nav-item a:has(span:contains("Get A Booth"))',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: 'Select the booth',
@@ -27,6 +35,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
         content: 'Confirm the booth by clicking the submit button',
         trigger: 'button.o_wbooth_registration_submit',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: 'Fill in your contact information',
@@ -40,6 +52,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
         content: 'Submit your informations',
         trigger: 'button[type="submit"]',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     wsTourUtils.goToCheckout(),
     ...getPriceListChecksSteps({

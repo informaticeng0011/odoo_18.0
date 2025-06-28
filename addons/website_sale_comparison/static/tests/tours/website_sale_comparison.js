@@ -45,6 +45,10 @@
         content: "go to product page of Color Shoes (with variants)",
         trigger: '.oe_product_cart a:contains("Color Shoes")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "check compare button is still there and contains 2 products",
@@ -109,7 +113,10 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         content: "Ensure the comparator popover is visible. Click too fast can toggle it",
@@ -119,6 +126,9 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129,6 +139,10 @@
         content: "click on compare button",
         trigger: '.o_comparelist_button a',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     // test on compare page
     {
@@ -151,6 +165,10 @@
         content: "remove Color Shoes (Pink) from compare table",
         trigger: '#o_comparelist_table .o_comparelist_remove:eq(2)',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "check color shoes with pink variant is removed",
@@ -173,6 +191,10 @@
         content: "click on compare button to reload",
         trigger: '.o_comparelist_button a',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "check product 'Color T-Shirt' is removed",

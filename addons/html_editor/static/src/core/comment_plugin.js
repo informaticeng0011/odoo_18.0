@@ -12,7 +12,10 @@ export class CommentPlugin extends Plugin {
         for (const el of [node, ...descendants(node)]) {
             if (el.nodeType === Node.COMMENT_NODE && !isProtected(el)) {
                 el.remove();
+<<<<<<< HEAD
                 return;
+=======
+>>>>>>> upstream/18.0
             }
         }
     }

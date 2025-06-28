@@ -18,6 +18,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             content: "go to wishlist",
             trigger: 'a[href="/shop/wishlist"]',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "remove first item in whishlist",
@@ -60,6 +64,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             content: "click on Customizable Desk (TEST)",
             trigger: '.oe_product_cart a:contains("Customizable Desk")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "check the first variant is already in wishlist",
@@ -183,6 +191,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                     window.location.href = '/web/session/logout?redirect=/shop?search=Bottle';
                 });
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: '.oe_product_cart:contains("Bottle")',
@@ -203,6 +215,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             content: "Click on product",
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Select Bottle with second variant from /product",
@@ -236,6 +252,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             run: function () {
                 window.location.href = '/shop/wishlist';
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Check wishlist contains first variant",
@@ -251,6 +271,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             run: function () {
                 window.location.href = "/web/login";
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Submit login as admin",
@@ -285,6 +309,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                     window.location.href = '/web/session/logout?redirect=/shop?search=Bottle';
                 });
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: ".js_sale",
@@ -297,6 +325,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             content: "Click on product",
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Select Bottle with first variant (red) from /product",
@@ -323,6 +355,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             run: function () {
                 window.location.href = "/web/login";
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Submit login",
@@ -356,7 +392,12 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 .then(function () {
                     window.location.href = '/web/session/logout?redirect=/shop?search=Bottle';
                 });
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             trigger: ".js_sale",
@@ -369,6 +410,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             content: "Click on product",
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Check that there is no wishlist button from /product",
@@ -381,6 +426,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             run: function () {
                 window.location.href = '/shop?search=Customizable Desk '
             },
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
         },
         {
             content: "Click on the product",

@@ -11,7 +11,11 @@ var recoveryLinkKey = 'website_sale.tour_shop_cart_recovery.recoveryLink';
 registry.category("web_tour.tours").add('shop_cart_recovery', {
     url: '/shop',
     steps: () => [
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "Acoustic Bloc Screens"}),
+=======
+        ...tourUtils.addToCart({ productName: "Acoustic Bloc Screens", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
         tourUtils.goToCart(),
     {
         content: "check product is in cart, get cart id, logout, go to login",
@@ -21,6 +25,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
             browser.localStorage.setItem(orderIdKey, orderId);
             window.location.href = "/web/session/logout?redirect=/web/login";
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "edit login input",
@@ -45,6 +53,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
         content: "login as admin and go to the SO (backend)",
         trigger: ".oe_login_form .oe_login_buttons button:contains(log in)",
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "click action",
@@ -82,7 +94,12 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
             var link = queryOne('.o-mail-Message-body a:contains("Resume order")').getAttribute('href');
             browser.localStorage.setItem(recoveryLinkKey, link);
             window.location.href = "/web/session/logout?redirect=/";
+<<<<<<< HEAD
         }
+=======
+        },
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "go to the recovery link",
@@ -91,6 +108,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
             const localStorage = browser.localStorage;
             window.location.href = localStorage.getItem(recoveryLinkKey);
         },
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         trigger: 'p:contains("This is your current cart")',
@@ -99,6 +120,10 @@ registry.category("web_tour.tours").add('shop_cart_recovery', {
         content: "check the page is working, click on restore",
         trigger: 'p:contains("restore") a:contains("Click here")',
         run: "click",
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
     },
     {
         content: "check product is in restored cart",

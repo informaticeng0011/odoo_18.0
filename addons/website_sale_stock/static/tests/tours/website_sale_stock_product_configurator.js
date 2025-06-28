@@ -8,7 +8,11 @@ registry
     .add('website_sale_stock_product_configurator', {
         url: '/shop?search=Main product',
         steps: () => [
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Main product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Main product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
             configuratorTourUtils.assertProductQuantity("Main product", 1),
             // Assert that it's impossible to add less than 1 product (only for the main product).
             configuratorTourUtils.setProductQuantity("Main product", 0),
@@ -42,6 +46,10 @@ registry
                 content: "Proceed to checkout",
                 trigger: 'button:contains(Proceed to Checkout)',
                 run: 'click',
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
             },
             {
                 content: "Verify the quantity in the cart",

@@ -317,7 +317,10 @@ class IrSequenceDateRange(models.Model):
     _allow_sudo_commands = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     _sql_constraints = [
         (
             'unique_range_per_sequence',
@@ -326,6 +329,9 @@ class IrSequenceDateRange(models.Model):
         ),
     ]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_number_next_actual(self):
         '''Return number from ir_sequence row when no_gap implementation,

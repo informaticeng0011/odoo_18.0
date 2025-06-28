@@ -2,6 +2,10 @@ import requests
 from urllib3.util.ssl_ import create_urllib3_context
 
 from .structured_reference import *
+<<<<<<< HEAD
+=======
+from .dict_to_xml import dict_to_xml
+>>>>>>> upstream/18.0
 
 
 class LegacyHTTPAdapter(requests.adapters.HTTPAdapter):

@@ -72,7 +72,11 @@
                                             <field name="price_subtotal_incl" widget="monetary" class="ms-auto me-3"/>
                                         </div>
                                         <div class="text-muted">
+<<<<<<< HEAD
                                             Quantity: <field name="qty"/> <field name="product_uom_id"/>
+=======
+                                            Quantity: <field name="qty"/> <field name="product_uom_id" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
                                         </div>
                                         <div class="text-muted">
                                             Unit price: <field name="price_unit" widget="monetary"/>

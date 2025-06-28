@@ -137,6 +137,7 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
 =======
         if (data.company.name) {
@@ -439,6 +440,20 @@ export class PartnerAutoCompleteCharField extends CharField {
                 await this.props.record.load();
             }
         }
+=======
+        if (data.company.name) {
+            await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
+        }
+
+        // Add UNSPSC codes (tags)
+        if (this.props.record.resModel === 'res.partner' && unspsc_codes && unspsc_codes.length !== 0) {
+            // category id is fetched and then tags are created (many2many)
+            const category_id = await this.orm.call("res.partner", "iap_partner_autocomplete_add_tags", [this.props.record.resId, unspsc_codes]);
+            data.company['category_id'] = [[6, 0, category_id]];
+        }
+        await this.props.record.update(data.company);
+        
+>>>>>>> upstream/18.0
         if (this.props.setDirty) {
             this.props.setDirty(false);
         }

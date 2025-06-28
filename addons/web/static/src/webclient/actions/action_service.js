@@ -1110,8 +1110,15 @@ export function makeActionManager(env, router = _router) {
         if (url && !(url.startsWith("http") || url.startsWith("/"))) {
             url = "/" + url;
         }
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
+=======
+        if (action.target === "self") {
+            browser.location.assign(url);
+        } else if (action.target === "download") {
+            browser.open(url, "_blank");
+>>>>>>> upstream/18.0
         } else {
             const w = browser.open(url, "_blank");
             if (!w || w.closed || typeof w.closed === "undefined") {

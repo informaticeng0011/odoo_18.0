@@ -6,7 +6,11 @@ registry
     .add('website_sale_combo_configurator_single_configuration', {
         url: '/shop?search=Combo product',
         steps: () => [
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Combo product", search: false, expectUnloadPage: true }),
+>>>>>>> upstream/18.0
             wsTourUtils.goToCart(),
             // Assert that the combo configurator wasn't shown.
             wsTourUtils.assertCartContains({ productName: "Combo product" }),
