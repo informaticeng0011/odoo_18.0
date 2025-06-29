@@ -502,10 +502,13 @@ class View(models.Model):
         # Related to these options:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # background-video, background-shapes, parallax
         return super()._get_allowed_root_attrs() + [
             'data-bg-video-src', 'data-shape', 'data-scroll-background-ratio',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # background-video, background-shapes, parallax, visibility
@@ -517,6 +520,9 @@ class View(models.Model):
             for param in ('country', 'lang', 'logged', 'utm-campaign', 'utm-medium', 'utm-source')
             for suffix in ('', '-rule')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -9,6 +9,10 @@
 # Martin Trigaux, 2024
 # Ha Ketem <haketem@gmail.com>, 2024
 # MichaelHadar, 2024
+<<<<<<< HEAD
+=======
+# or balmas, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -16,7 +20,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: MichaelHadar, 2024\n"
+=======
+"Last-Translator: or balmas, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +38,21 @@ msgid ""
 "' recycling rule.<br/>\n"
 "You can validate those changes"
 msgstr ""
+<<<<<<< HEAD
+=======
+"' כלל מיחזור.<br/>\n"
+"אתה יכול לאשר את השינויים האלו"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_record.py:0
 msgid "**Record Deleted**"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "**רשומה נמחקה**"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
@@ -94,13 +111,21 @@ msgstr "ניקוי נתונים"
 #. module: data_recycle
 #: model:ir.actions.server,name:data_recycle.ir_cron_clean_records_ir_actions_server
 msgid "Data Recycle: Clean Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחזור נתונים: מחיקת רשומות"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_model.py:0
 msgid "Data to Recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "נתונים למחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__notify_frequency_period__days
@@ -159,7 +184,11 @@ msgstr "מזהה"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__include_archived
 msgid "Include Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כלול בארכיון"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__last_notification
@@ -181,7 +210,11 @@ msgstr "עדכון אחרון ב"
 #. module: data_recycle
 #: model:ir.model.fields,help:data_recycle.field_data_recycle_model__notify_user_ids
 msgid "List of users to notify when there are new records to recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רשימת משתמשים שיש להודיע להם כאשר יש רשומות חדשות למיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__recycle_mode__manual
@@ -251,58 +284,102 @@ msgstr "רשומות"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__records_to_recycle_count
 msgid "Records To Recycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רשומות למיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_action
 msgid "Recycle Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פעולת מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_mode
 msgid "Recycle Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מצב מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__recycle_model_id
 msgid "Recycle Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מודול מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__recycle_record_ids
 msgid "Recycle Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רשומת מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_recycle_record
 msgid "Recycle Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רשומות מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_list
 msgid "Recycle Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כלל מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Recycle Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כללי מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model,name:data_recycle.model_data_recycle_model
 msgid "Recycling Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מודול מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model,name:data_recycle.model_data_recycle_record
 msgid "Recycling Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ממחזר רשומה"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.actions.act_window,name:data_recycle.action_data_recycle_config
 msgid "Recyle Records Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כללי מיחזור רשומות "
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_config_rules
@@ -312,12 +389,20 @@ msgstr "כללים"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "Run Now"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הרץ עכשיו"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "Select a model to configure recycling actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "בחר מודול להגדרת פעולות מיחזור"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.constraint,message:data_recycle.constraint_data_recycle_model_check_notif_freq
@@ -328,18 +413,30 @@ msgstr "תדירות ההודעות צריכה להיות יותר מ-0"
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_model.py:0
 msgid "This model doesn't manage archived records. Only deletion is possible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מודל זה לא מנהל רשומות בארכיון. ניתן רק למחוק."
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__time_field_id
 msgid "Time Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שדה זמן"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-python
 #: code:addons/data_recycle/models/data_recycle_record.py:0
 msgid "Undefined Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שם לא מוגדר"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #. odoo-javascript
@@ -357,7 +454,11 @@ msgstr "אשר"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
 msgid "We've identified"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "זיהינו"
+>>>>>>> upstream/18.0
 
 #. module: data_recycle
 #: model:ir.model.fields.selection,name:data_recycle.selection__data_recycle_model__notify_frequency_period__weeks

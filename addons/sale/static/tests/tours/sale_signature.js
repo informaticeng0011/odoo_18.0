@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add('sale_signature', {
         trigger: 'a:contains(/^test SO$/)',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -43,6 +47,10 @@ registry.category("web_tour.tours").add('sale_signature', {
         trigger: '.modal .o_portal_sign_submit:enabled',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -57,6 +65,10 @@ registry.category("web_tour.tours").add('sale_signature', {
             redirect("/odoo");
         },  // Avoid race condition at the end of the tour by returning to the home page.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

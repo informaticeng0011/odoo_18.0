@@ -7,10 +7,16 @@ test("should remove comment node inside editable content during sanitize", async
         contentAfter: "<p>abcd</p>",
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<p>ab<!-- comment -->cd<!-- Another comment --></p>",
         contentAfter: "<p>abcd</p>",
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

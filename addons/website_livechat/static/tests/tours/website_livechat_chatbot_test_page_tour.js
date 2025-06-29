@@ -34,6 +34,10 @@ registry.category("web_tour.tours").add("website_livechat_chatbot_test_page_tour
                 window.location.reload();
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

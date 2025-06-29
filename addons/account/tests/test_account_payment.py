@@ -5,6 +5,10 @@ from odoo import Command, fields
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import MailCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ from unittest.mock import patch
 @tagged('post_install', '-at_install')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestAccountPayment(AccountTestInvoicingCommon):
+=======
+class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
+>>>>>>> upstream/18.0
 =======
 class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 >>>>>>> upstream/18.0
@@ -305,7 +313,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_attachments_send_multiple(self):
@@ -333,6 +344,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
             self.assertTrue(p._get_mail_thread_data_attachments())
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -639,7 +653,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -885,6 +902,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1195,7 +1215,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1407,6 +1430,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1693,7 +1719,10 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1756,6 +1785,9 @@ class TestAccountPayment(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

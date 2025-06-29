@@ -9,6 +9,10 @@
                 trigger: '.nav-link:contains("Event")',
                 run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -18,6 +22,10 @@
                 trigger: `h5.card-title span:contains(${eventName})`,
                 run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -27,6 +35,10 @@
                 trigger: 'li.nav-item a:has(span:contains("Get A Booth"))',
                 run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0

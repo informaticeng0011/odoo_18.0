@@ -4,7 +4,11 @@ import { patch } from "@web/core/utils/patch";
 patch(PaymentScreen.prototype, {
     async validateOrder(isForceValidate) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.pos.config.module_pos_hr && this.pos.get_cashier() === null) {
+=======
+        if (this.pos.config.module_pos_hr) {
+>>>>>>> upstream/18.0
 =======
         if (this.pos.config.module_pos_hr) {
 >>>>>>> upstream/18.0

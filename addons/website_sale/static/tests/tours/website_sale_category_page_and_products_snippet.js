@@ -53,6 +53,10 @@ registry.category("web_tour.tours").add('category_page_and_products_snippet_use'
         trigger: '.o_wsale_filmstip > li:contains("Test Category") > a',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

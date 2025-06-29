@@ -19,6 +19,10 @@ registry.category("web_tour.tours").add('website_reset_password', {
         trigger: '.oe_reset_password_form button[type="submit"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

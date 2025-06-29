@@ -4,6 +4,10 @@
     import { registry } from "@web/core/registry";
     import * as tourUtils from "@website_sale/js/tours/tour_utils";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    import { pay } from "@website_sale/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
     import { pay } from "@website_sale/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -17,6 +21,10 @@
         trigger: '.oe_product_cart a:contains("Storage Box Test")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -47,11 +55,15 @@
         total: '181.70',
     }),
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
         content: "Proceed to checkout",
         trigger: 'a[href*="/shop/checkout"]',
         run: "click",
     },
+=======
+        tourUtils.goToCheckout(),
+>>>>>>> upstream/18.0
 =======
         tourUtils.goToCheckout(),
 >>>>>>> upstream/18.0
@@ -89,6 +101,10 @@
         trigger: '.oe_cart .btn:contains("Continue checkout")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -103,6 +119,10 @@
         trigger: '.all_billing a[href^="/shop/address"]:contains("Add address")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -144,6 +164,10 @@
         trigger: '.oe_cart .btn:contains("Save address")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -161,6 +185,10 @@
         trigger: '.all_billing .js_edit_address:first',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -193,6 +221,10 @@
         trigger: '.oe_cart .btn:contains("Save address")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -216,6 +248,10 @@
         trigger: 'button[name="o_payment_submit_button"]:not(:disabled)',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -225,6 +261,10 @@
         trigger: '.oe_cart a:contains("Sign Up")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -242,6 +282,10 @@
         trigger: `.oe_signup_form button[type="submit"]`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -251,6 +295,10 @@
         trigger: '.o_portal_docs a:contains("Quotations to review")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -269,6 +317,10 @@
         trigger: '#o_logout:contains("Logout")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -278,6 +330,10 @@
         trigger: 'header a[href="/web/login"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -300,7 +356,12 @@
         content: "Submit login",
         trigger: `.oe_login_form button[type="submit"]`,
 <<<<<<< HEAD
+<<<<<<< HEAD
         run: "click"
+=======
+        run: "click",
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         run: "click",
         expectUnloadPage: true,
@@ -335,6 +396,10 @@
             });
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -345,6 +410,10 @@
         trigger: '.oe_product_cart a:contains("Storage Box Test")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -379,6 +448,10 @@
             trigger: 'a[href*="/shop/checkout"]',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -388,6 +461,10 @@
         trigger: `.oe_cart a:contains(Sign in)`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -405,6 +482,10 @@
         trigger: `.oe_login_form button[type="submit"]`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -414,6 +495,10 @@
         trigger: '.all_delivery a[href^="/shop/address"]:contains("Add address")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -458,11 +543,15 @@
         trigger: 'input[name="o_payment_radio"][data-payment-method-code="wire_transfer"]:checked',
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
         content: "Pay Now",
         trigger: 'button[name="o_payment_submit_button"]:not(:disabled)',
         run: "click",
     },
+=======
+        ...pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0
@@ -482,6 +571,10 @@
         trigger: 'header#top .dropdown-menu a[href="/my/home"]:visible',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -501,6 +594,10 @@
         trigger: '#o_logout:contains("Logout")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -510,6 +607,10 @@
         trigger: 'header a[href="/web/login"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -533,6 +634,10 @@
         trigger: `.oe_login_form button[type="submit"]`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -554,6 +659,10 @@
         trigger: '#o_logout:contains("Logout")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -563,6 +672,10 @@
         trigger: 'header a[href="/web/login"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -586,6 +699,10 @@
         trigger: `.oe_login_form button[type="submit"]`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -595,6 +712,10 @@
         trigger: '.oe_product_cart a:contains("Storage Box Test")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -611,6 +732,10 @@
         trigger: 'a[href^="/shop/extra_info"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -620,8 +745,14 @@
         trigger: '.oe_cart .btn:contains("Continue checkout")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     ...tourUtils.payWithTransfer(),
+=======
+        expectUnloadPage: true,
+    },
+    ...tourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
     },

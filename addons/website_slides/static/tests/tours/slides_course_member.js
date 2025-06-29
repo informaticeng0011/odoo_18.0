@@ -17,6 +17,10 @@ registry.category("web_tour.tours").add("course_member", {
             trigger: 'a:contains("Basics of Gardening - Test")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -38,6 +42,10 @@ registry.category("web_tour.tours").add("course_member", {
             trigger: 'a:contains("Join this Course")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -50,6 +58,10 @@ registry.category("web_tour.tours").add("course_member", {
             trigger: 'a:contains("Gardening: The Know-How")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -148,6 +160,10 @@ registry.category("web_tour.tours").add("course_member", {
             trigger: 'a:contains("End course")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -162,6 +178,10 @@ registry.category("web_tour.tours").add("course_member", {
             trigger: 'a:contains("Basics of Gardening")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

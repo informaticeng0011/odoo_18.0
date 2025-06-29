@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
     trigger: 'h5.card-title span:contains("Test Event Booths")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -20,6 +24,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
     trigger: 'li.nav-item a:has(span:contains("Get A Booth"))',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -35,6 +43,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
     trigger: 'button.o_wbooth_registration_submit',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -50,6 +62,10 @@ registry.category("web_tour.tours").add('website_event_booth_tour', {
     trigger: 'button[type="submit"]',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

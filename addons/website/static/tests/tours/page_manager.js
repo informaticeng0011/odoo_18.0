@@ -97,12 +97,18 @@ const refreshPage = [
     {
         trigger: "body",
 <<<<<<< HEAD
+<<<<<<< HEAD
         run() {window.location.reload();},
 =======
+=======
+>>>>>>> upstream/18.0
         run() {
             window.location.reload();
         },
         expectUnloadPage: true,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 ];

@@ -4,14 +4,20 @@
 """ Implementation of "INVENTORY VALUATION TESTS (With valuation layers)" spreadsheet. """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import fields
 from odoo.tests import Form, tagged
 from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 from freezegun import freeze_time
 import time
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -671,7 +677,10 @@ class TestStockValuationLCFIFOVB(TestStockValuationLCCommon):
 
         self.assertEqual(lc.cost_lines.price_unit, 10)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 @tagged('-at_install', 'post_install')
@@ -760,4 +769,7 @@ class TestAccountInvoicingWithCOA(TestStockValuationLCCommon):
             {'account_id': tax_acc_id, 'balance': 30.0, 'amount_currency': 15},
             {'account_id': payable_acc_id, 'balance': -230.0, 'amount_currency': -115},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

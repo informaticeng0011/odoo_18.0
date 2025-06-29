@@ -50,6 +50,10 @@ export function changeLanguage(language) {
             trigger: `.self_order_language_popup .btn:contains(${language})`,
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

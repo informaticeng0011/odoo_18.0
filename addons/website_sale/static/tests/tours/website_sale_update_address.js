@@ -7,7 +7,11 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
     url: '/shop',
     steps: () => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: "Office Chair Black TEST"}),
+=======
+        ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "Office Chair Black TEST", expectUnloadPage: true }),
 >>>>>>> upstream/18.0
@@ -19,6 +23,10 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
             trigger: '#delivery_and_billing a:contains("Edit")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -28,6 +36,10 @@ registry.category("web_tour.tours").add('update_billing_shipping_address', {
             trigger: 'a.js_edit_address',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

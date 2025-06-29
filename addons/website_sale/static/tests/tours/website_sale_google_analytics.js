@@ -29,6 +29,10 @@ registry.category("web_tour.tours").add('google_analytics_view_item', {
         trigger: '.oe_product_cart a:contains("Colored T-Shirt")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -59,7 +63,11 @@ registry.category("web_tour.tours").add('google_analytics_add_to_cart', {
     url: '/shop?search=Basic Shirt',
     steps: () => [
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...tourUtils.addToCart({productName: 'Basic Shirt', search: false}),
+=======
+    ...tourUtils.addToCart({productName: 'Basic Shirt', search: false, expectUnloadPage: true}),
+>>>>>>> upstream/18.0
 =======
     ...tourUtils.addToCart({productName: 'Basic Shirt', search: false, expectUnloadPage: true}),
 >>>>>>> upstream/18.0

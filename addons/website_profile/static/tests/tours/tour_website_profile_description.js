@@ -9,6 +9,10 @@ registry.category("web_tour.tours").add('website_profile_description', {
         trigger: "div[onclick]:contains(\"test_user\")",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -25,6 +29,10 @@ registry.category("web_tour.tours").add('website_profile_description', {
         trigger: "button:contains('Update')",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

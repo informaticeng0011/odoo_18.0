@@ -746,7 +746,12 @@ class PurchaseOrder(models.Model):
                 for rfq_line in rfqs.order_line:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.product_id == rfq_line.product_id and
+=======
+                    existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
+                                                                                l.product_id == rfq_line.product_id and
+>>>>>>> upstream/18.0
 =======
                     existing_line = oldest_rfq.order_line.filtered(lambda l: l.display_type not in ['line_note', 'line_section'] and
                                                                                 l.product_id == rfq_line.product_id and

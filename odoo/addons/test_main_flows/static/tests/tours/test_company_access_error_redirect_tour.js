@@ -12,11 +12,17 @@ registry.category("web_tour.tours").add("test_company_access_error_redirect", {
     steps: () => [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: "body",
             expectUnloadPage: true,
         },
         {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             trigger: ".o_form_view .o_last_breadcrumb_item:contains(p2)",
         },

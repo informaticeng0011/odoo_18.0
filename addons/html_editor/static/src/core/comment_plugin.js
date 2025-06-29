@@ -13,7 +13,10 @@ export class CommentPlugin extends Plugin {
             if (el.nodeType === Node.COMMENT_NODE && !isProtected(el)) {
                 el.remove();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             }

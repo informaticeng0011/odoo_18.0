@@ -17,6 +17,10 @@ registry.category("web_tour.tours").add('test_json_auth', {
         window.location.href = window.location.origin;
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

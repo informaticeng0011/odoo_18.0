@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add("event_sale_pricelists_different_currenc
             trigger: '.o_wevent_events_list a:contains("Pycon")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -58,6 +62,10 @@ registry.category("web_tour.tours").add("event_sale_pricelists_different_currenc
                 ".modal#modal_attendees_registration:not(.o_inactive_modal) button[type=submit]",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

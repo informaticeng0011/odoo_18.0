@@ -14,6 +14,10 @@ registry.category("web_tour.tours").add("website_livechat_chatbot_after_reload_t
             trigger: messagesContain("How can I help you?"),
             run: () => location.reload(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

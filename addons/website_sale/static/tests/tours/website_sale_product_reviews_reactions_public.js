@@ -9,6 +9,10 @@ registry
                 trigger: '.oe_product_cart a:contains("Storage Box Test")',
                 run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0

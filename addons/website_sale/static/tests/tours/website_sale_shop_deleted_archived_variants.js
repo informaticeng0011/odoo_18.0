@@ -16,6 +16,10 @@ registry.category("web_tour.tours").add('tour_shop_deleted_archived_variants', {
         trigger: ".oe_product_cart a:contains(/^Test Product 2$/)",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

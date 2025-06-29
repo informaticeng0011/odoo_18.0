@@ -20,6 +20,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
             trigger: ".o_wslides_identification_banner a.o_underline:contains(Log in)",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -32,6 +36,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
             trigger: 'button:contains("Log in")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -53,6 +61,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_public"
             trigger: 'a:contains("Join this Course")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

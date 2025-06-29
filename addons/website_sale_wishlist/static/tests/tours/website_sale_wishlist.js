@@ -19,6 +19,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             trigger: 'a[href="/shop/wishlist"]',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -65,6 +69,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             trigger: '.oe_product_cart a:contains("Customizable Desk")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -192,6 +200,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 });
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -216,6 +228,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -253,6 +269,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 window.location.href = '/shop/wishlist';
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -272,6 +292,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 window.location.href = "/web/login";
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -310,6 +334,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 });
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -326,6 +354,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -356,6 +388,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 window.location.href = "/web/login";
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -393,7 +429,12 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                     window.location.href = '/web/session/logout?redirect=/shop?search=Bottle';
                 });
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             },
             expectUnloadPage: true,
@@ -411,6 +452,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
             trigger: '.oe_product_cart a:contains("Bottle")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -427,6 +472,10 @@ registry.category("web_tour.tours").add('shop_wishlist', {
                 window.location.href = '/shop?search=Customizable Desk '
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add('tour_shop_dynamic_variants', {
         trigger: ".oe_product_cart a:contains(/^Dynamic Product$/)",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

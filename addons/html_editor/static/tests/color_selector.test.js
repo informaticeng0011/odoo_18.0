@@ -33,6 +33,10 @@ import { execCommand } from "./_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -118,8 +122,12 @@ test("can set foreground color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -208,8 +216,12 @@ test("can set background color", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -298,8 +310,12 @@ test("should add opacity to custom background colors but not to theme colors", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -500,7 +516,10 @@ test("custom background colors used in the editor are shown in the colorpicker",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -642,6 +661,9 @@ test("applied custom color should be shown in colorpicker after switching tab", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1172,7 +1194,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -1312,7 +1338,11 @@ describe("color preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-toolbar").toHaveCount(1); // toolbar still open
+=======
+        await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0

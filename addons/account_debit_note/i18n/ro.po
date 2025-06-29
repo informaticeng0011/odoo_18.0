@@ -5,6 +5,10 @@
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +36,11 @@ msgstr "<span class=\"o_stat_text\">Note Debit</span>"
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_debit_note
 msgid "Add Debit Note wizard"
+<<<<<<< HEAD
 msgstr "Adăugare expert Notă Debit"
+=======
+msgstr "Expert Adăugare Notă Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
@@ -41,11 +53,20 @@ msgid ""
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bifați această casetă dacă nu doriți să partajați aceeași secvență pentru "
+"facturi și note de debit create din acest jurnal"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__copy_lines
 msgid "Copy Lines"
+<<<<<<< HEAD
 msgstr "Copiere Linii"
+=======
+msgstr "Copiază Linii"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__country_code
@@ -56,7 +77,11 @@ msgstr "Cod țară"
 #: model:ir.actions.act_window,name:account_debit_note.action_view_account_move_debit
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_debit_note
 msgid "Create Debit Note"
+<<<<<<< HEAD
 msgstr "Creare Notă Debit"
+=======
+msgstr "Creează Notă Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__create_uid
@@ -66,14 +91,22 @@ msgstr "Creat de"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.actions.server,name:account_debit_note.action_move_debit_note
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_move_filter_debit
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_move_line_filter_debit
 msgid "Debit Note"
+<<<<<<< HEAD
 msgstr "Nota de debit"
+=======
+msgstr "Notă Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__date
@@ -89,12 +122,20 @@ msgstr "Dată Notă Debit"
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_note_ids
 #: model_terms:ir.ui.view,arch_db:account_debit_note.view_account_invoice_filter_debit
 msgid "Debit Notes"
+<<<<<<< HEAD
 msgstr "Note de debit"
+=======
+msgstr "Note Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_journal__debit_sequence
 msgid "Dedicated Debit Note Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Secvență dedicată Note Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__display_name
@@ -110,7 +151,12 @@ msgstr "ID"
 #: model:ir.model.fields,help:account_debit_note.field_account_debit_note__journal_id
 msgid "If empty, uses the journal of the journal entry to be debited."
 msgstr ""
+<<<<<<< HEAD
 "Dacă este gol, folosește jurnalul intrării în jurnal pentru a fi debitat."
+=======
+"Dacă este gol, folosește jurnalul înregistrării care urmează să fie "
+"debitată."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_debit_note__copy_lines
@@ -119,8 +165,12 @@ msgid ""
 "copy them.  We won't copy them for debit notes from credit notes. "
 msgstr ""
 "În cazul în care trebuie să faceți corecții pentru fiecare linie, poate fi "
+<<<<<<< HEAD
 "la îndemână să le copiați. Nu le vom copia pentru note de debit din note de "
 "credit. "
+=======
+"util să le copiați. Nu le vom copia pentru note de debit din note de credit."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_journal
@@ -130,22 +180,38 @@ msgstr "Jurnal"
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare jurnal"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__journal_type
 msgid "Journal Type"
+<<<<<<< HEAD
 msgstr "Tip Jurnal"
+=======
+msgstr "Tip jurnal"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__move_ids
@@ -155,19 +221,31 @@ msgstr "Mișcare"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__move_type
 msgid "Move Type"
+<<<<<<< HEAD
 msgstr "Tip Mișcare"
+=======
+msgstr "Tip mișcare"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_bank_statement_line__debit_note_count
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_note_count
 msgid "Number of Debit Notes"
+<<<<<<< HEAD
 msgstr "Numărul de Note Debit"
+=======
+msgstr "Număr Note Debit"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_bank_statement_line__debit_origin_id
 #: model:ir.model.fields,field_description:account_debit_note.field_account_move__debit_origin_id
 msgid "Original Invoice Debited"
+<<<<<<< HEAD
 msgstr "Factura Originală Debitată"
+=======
+msgstr "Factură originală debitată"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__reason
@@ -181,7 +259,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 "Codul ISO al țării din două caractere.\n"
+<<<<<<< HEAD
 "Puteți utiliza acest câmp pentru căutări rapide."
+=======
+"Puteți folosi acest câmp pentru căutare rapidă."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_bank_statement_line__debit_note_ids
@@ -198,7 +280,11 @@ msgstr "Această notă de debit a fost creată din: %s"
 #. module: account_debit_note
 #: model:ir.model.fields,field_description:account_debit_note.field_account_debit_note__journal_id
 msgid "Use Specific Journal"
+<<<<<<< HEAD
 msgstr "Utilizează jurnal specific"
+=======
+msgstr "Folosește jurnal specific"
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #. odoo-python
@@ -207,8 +293,13 @@ msgid ""
 "You can make a debit note only for a Customer Invoice, a Customer Credit "
 "Note, a Vendor Bill or a Vendor Credit Note."
 msgstr ""
+<<<<<<< HEAD
 "Puteți face o notă de debit numai pentru o factură de client, o notă de "
 "credit de client, o factură de furnizor sau o notă de credit de furnizor."
+=======
+"Puteți crea o notă de debit doar pentru o factură client, o notă de credit "
+"client, o factură furnizor sau o notă de credit furnizor."
+>>>>>>> upstream/18.0
 
 #. module: account_debit_note
 #. odoo-python
@@ -223,5 +314,9 @@ msgid ""
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
 msgstr ""
+<<<<<<< HEAD
 "Nu puteți face o notă de debit pentru o factură care este deja legată de o "
+=======
+"Nu puteți crea o notă de debit pentru o factură care este deja legată de o "
+>>>>>>> upstream/18.0
 "notă de debit."

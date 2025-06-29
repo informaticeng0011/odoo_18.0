@@ -242,9 +242,12 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
             ProductScreen.cashDifferenceIs("-1.00"),
             Dialog.confirm("Close Register"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             Dialog.confirm("Proceed Anyway", ".btn-primary"),
             Chrome.clickBtn("Backend"),
 =======
+=======
+>>>>>>> upstream/18.0
             {
                 trigger: ".modal .btn-primary:contains(Proceed Anyway)",
                 run: "click",
@@ -259,6 +262,9 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
                 trigger: "body",
                 expectUnloadPage: true,
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ProductScreen.lastClosingCashIs("50.00"),
         ].flat(),
@@ -635,7 +641,10 @@ registry.category("web_tour.tours").add("AddMultipleSerialsAtOnce", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -839,7 +848,10 @@ registry.category("web_tour.tours").add("test_draft_orders_not_syncing", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -982,6 +994,9 @@ registry.category("web_tour.tours").add("test_one_attribute_value_scan_barcode",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1161,6 +1176,9 @@ registry.category("web_tour.tours").add("FiscalPositionTaxLabels", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

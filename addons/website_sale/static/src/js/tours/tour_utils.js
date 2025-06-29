@@ -4,23 +4,32 @@ import { _t } from "@web/core/l10n/translation";
 import { clickOnElement } from '@website/js/tours/tour_utils';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function addToCart({productName, search = true, productHasVariants = false}) {
 =======
+=======
+>>>>>>> upstream/18.0
 export function addToCart({
     productName,
     search = true,
     productHasVariants = false,
     expectUnloadPage = false,
 } = {}) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const steps = [];
     if (search) {
         steps.push(...searchProduct(productName));
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     steps.push(clickOnElement(productName, `a:contains(${productName})`));
     steps.push(clickOnElement('Add to cart', '#add_to_cart'));
 =======
+=======
+>>>>>>> upstream/18.0
     steps.push({
         content: productName,
         trigger: `a:contains(${productName})`,
@@ -32,6 +41,9 @@ export function addToCart({
         trigger: "#add_to_cart",
         run: "click",
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     if (productHasVariants) {
         steps.push(clickOnElement('Continue Shopping', 'button:contains("Continue Shopping")'));
@@ -99,7 +111,12 @@ export function fillAdressForm(
         city: "Paris",
         zip: "75000",
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage = false
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage = false
@@ -122,6 +139,10 @@ export function fillAdressForm(
         trigger: "#save_address",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage,
 >>>>>>> upstream/18.0
@@ -130,14 +151,20 @@ export function fillAdressForm(
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function goToCart({quantity = 1, position = "bottom", backend = false} = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
 export function goToCart({
     quantity = 1,
     position = "bottom",
     backend = false,
     expectUnloadPage = true,
 } = {}) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     return {
         content: _t("Go to cart"),
@@ -145,6 +172,10 @@ export function goToCart({
         tooltipPosition: position,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage,
 >>>>>>> upstream/18.0
@@ -157,6 +188,10 @@ export function goToCheckout() {
         trigger: 'a[href^="/shop/checkout"]',
         run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -169,6 +204,7 @@ export function confirmOrder() {
         trigger: 'a[href^="/shop/confirm_order"]',
         run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 }
 
@@ -180,6 +216,8 @@ export function pay() {
         run: "click",
     };
 =======
+=======
+>>>>>>> upstream/18.0
         expectUnloadPage: true,
     };
 }
@@ -201,6 +239,9 @@ export function pay({ expectUnloadPage = false, waitFinalizeYourPayment = false 
         });
     }
     return steps;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -215,7 +256,11 @@ export function payWithDemo() {
         run: "edit 4242424242424242",
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     pay(),
+=======
+    ...pay(),
+>>>>>>> upstream/18.0
 =======
     ...pay(),
 >>>>>>> upstream/18.0
@@ -226,13 +271,19 @@ export function payWithDemo() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function payWithTransfer(redirect=false) {
 =======
+=======
+>>>>>>> upstream/18.0
 export function payWithTransfer({
     redirect = false,
     expectUnloadPage = false,
     waitFinalizeYourPayment = false,
 } = {}) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     const first_step = {
         content: "Select `Wire Transfer` payment method",
@@ -241,6 +292,7 @@ export function payWithTransfer({
     }
     if (!redirect) {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
         first_step,
         pay(),
@@ -257,6 +309,8 @@ export function payWithTransfer({
                 content: "Last step",
                 trigger: '.oe_website_sale_tx_status:contains("Please use the following transfer details")',
 =======
+=======
+>>>>>>> upstream/18.0
             first_step,
             ...pay({ expectUnloadPage, waitFinalizeYourPayment }),
             {
@@ -274,11 +328,15 @@ export function payWithTransfer({
                 content: "Last step",
                 trigger:
                     '.oe_website_sale_tx_status:contains("Please use the following transfer details")',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 timeout: 30000,
                 run() {
                     window.location.href = '/contactus'; // Redirect in JS to avoid the RPC loop (20x1sec)
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
             }, {
                 content: "wait page loaded",
@@ -291,6 +349,8 @@ export function payWithTransfer({
 export function searchProduct(productName) {
     return [
 =======
+=======
+>>>>>>> upstream/18.0
                 expectUnloadPage: true,
             },
             {
@@ -303,6 +363,9 @@ export function searchProduct(productName) {
 
 export function searchProduct(productName, { select = false } = {}) {
     const steps = [
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         {
             content: "Search for the product",
@@ -310,9 +373,12 @@ export function searchProduct(productName, { select = false } = {}) {
             run: `edit ${productName}`,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         clickOnElement('Search', 'form:has(input[name="search"]) .oe_search_button'),
     ];
 =======
+=======
+>>>>>>> upstream/18.0
         {
             content: `Search ${productName}`,
             trigger: `form:has(input[name="search"]) .oe_search_button`,
@@ -329,6 +395,9 @@ export function searchProduct(productName, { select = false } = {}) {
         });
     }
     return steps;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
@@ -347,6 +416,10 @@ export function selectPriceList(pricelist) {
             trigger: `span:contains(${pricelist})`,
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

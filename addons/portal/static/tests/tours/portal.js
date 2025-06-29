@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('portal_load_homepage', {
             trigger: 'a[href*="/my/account"]:contains("Edit"):first',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -29,6 +33,10 @@ registry.category("web_tour.tours").add('portal_load_homepage', {
             trigger: 'button[type=submit]',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

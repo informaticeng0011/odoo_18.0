@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('website_sale_stock_message_after_close_
         trigger: '.oe_product_cart a:contains("Product With Optional (TEST)")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -43,6 +47,10 @@ registry.category("web_tour.tours").add('website_sale_stock_message_after_close_
         trigger: '.oe_product_cart a:contains("Product Without Optional (TEST)")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -116,6 +116,10 @@ var retrySteps = [{
     trigger: 'a:contains("Retry")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

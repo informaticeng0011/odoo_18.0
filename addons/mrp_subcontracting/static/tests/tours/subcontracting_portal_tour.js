@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('subcontracting_portal_tour', {
             content: 'Select the picking to open the backend view.',
             run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

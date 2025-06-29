@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('event_buy_last_ticket', {
         trigger: '.o_wevent_events_list a:contains("Last ticket test")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -60,6 +64,10 @@ registry.category("web_tour.tours").add('event_buy_last_ticket', {
         trigger: ".modal:contains(Attendees) button[type=submit]:contains(Go to Payment)",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

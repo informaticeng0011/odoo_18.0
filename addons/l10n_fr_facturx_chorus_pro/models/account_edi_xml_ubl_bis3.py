@@ -54,7 +54,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
                 constraints['chorus_supplier'] = _("The siret is mandatory for french suppliers when invoicing to Chorus Pro.")
         return constraints
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -104,4 +107,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
             }
 
         return party_node
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -39,6 +39,10 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
         window.location.href = window.location.origin + '/my/projects';
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -48,6 +52,10 @@ const projectSharingSteps = [...stepUtils.goToAppSteps("project.menu_main_pm", '
     content: 'Select "Project Sharing" project to go to project sharing feature for this project.',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -156,6 +164,10 @@ registry.category("web_tour.tours").add("project_sharing_with_blocked_task_tour"
         content: 'Click on the portal project.',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -183,6 +195,10 @@ registry.category("web_tour.tours").add("portal_project_sharing_tour_with_disall
                 'Select "Project Sharing" project to go to project sharing feature for this project.',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

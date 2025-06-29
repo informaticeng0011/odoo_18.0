@@ -69,6 +69,10 @@ var buyCertificationSteps = [{
     trigger: '.o_wslides_js_slides_list_slide_link',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -101,6 +105,10 @@ var retrySteps = [{
     trigger: 'a:contains("Retry")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -169,6 +177,10 @@ var profileSteps = [{
     trigger: '.o_wslides_home_aside_loggedin a:contains("View")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -11,6 +11,10 @@
             trigger: `.oe_product_cart a:contains(/^Short \\(TEST\\)$/)`,
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -53,6 +57,10 @@
             trigger: ".modal:contains(configure your product) button:contains(Proceed to Checkout)",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

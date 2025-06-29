@@ -9,6 +9,10 @@ registry.category("web_tour.tours").add('website_sale_stock_multilang', {
         trigger: 'a[content="unavailable_product"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -27,6 +31,10 @@ registry.category("web_tour.tours").add('website_sale_stock_multilang', {
         trigger: '.js_change_lang[data-url_code="en"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -45,6 +53,10 @@ registry.category("web_tour.tours").add('website_sale_stock_multilang', {
         trigger: '.js_change_lang[data-url_code="fr"]',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

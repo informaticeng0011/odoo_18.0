@@ -5,7 +5,10 @@ class AccountMoveReversal(models.TransientModel):
     _inherit = 'account.move.reversal'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _prepare_default_reversal(self, move):
         res = super()._prepare_default_reversal(move)
         if move.company_id.account_fiscal_country_id.code == "HU":
@@ -14,6 +17,9 @@ class AccountMoveReversal(models.TransientModel):
             })
         return res
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def reverse_moves(self, is_modify=False):
         action = super().reverse_moves(is_modify=is_modify)

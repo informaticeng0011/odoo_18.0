@@ -63,6 +63,10 @@ registry.category("web_tour.tours").add('website_crm_tour', {
     trigger: ".s_website_form_send",
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -91,6 +95,10 @@ registry.category("web_tour.tours").add('website_crm_catch_logged_partner_info_t
     trigger: ".s_website_form_send",
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

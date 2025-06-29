@@ -14,6 +14,10 @@ var discoverTalkSteps = function (talkName, fromList, reminderOn, toggleReminder
             trigger: 'a:contains("' + talkName + '")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -25,6 +29,10 @@ var discoverTalkSteps = function (talkName, fromList, reminderOn, toggleReminder
             trigger: 'article span:contains("' + talkName + '")',
             run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -143,6 +151,10 @@ const registerSteps = [
         trigger: ".modal button[type=submit]:enabled",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -152,6 +164,10 @@ const registerSteps = [
         trigger: "a:contains(register to your favorites talks now)",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -171,6 +187,10 @@ var initTourSteps = function (eventName) {
         trigger: 'a[href*="/event"]:contains("' + eventName + '"):first',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -182,6 +202,10 @@ var browseTalksSteps = [{
     trigger: 'a:contains("Talks")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -195,6 +219,10 @@ var browseBackSteps = [{
     trigger: 'a:contains("All Talks")',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

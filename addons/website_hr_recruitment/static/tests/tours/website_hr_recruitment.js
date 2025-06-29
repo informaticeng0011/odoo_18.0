@@ -14,6 +14,10 @@ function applyForAJob(jobName, application) {
         trigger: `.oe_website_jobs h3:contains(${jobName})`,
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -22,6 +26,10 @@ function applyForAJob(jobName, application) {
         trigger: ".js_hr_recruitment a:contains('Apply')",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -50,6 +58,10 @@ function applyForAJob(jobName, application) {
         trigger: ".s_website_form_send",
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -75,6 +87,10 @@ registry.category("web_tour.tours").add('website_hr_recruitment_tour', {
             window.location.href = '/jobs';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -207,7 +223,11 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     trigger: ":iframe form input[name=job_id][value=FAKE_JOB_ID_DEFAULT_VAL]:not(:visible)",
+=======
+    trigger: ":iframe form input[name=job_id]:not(:visible):not([value='']):not([value=FAKE_JOB_ID_DEFAULT_VAL])",
+>>>>>>> upstream/18.0
 =======
     trigger: ":iframe form input[name=job_id]:not(:visible):not([value='']):not([value=FAKE_JOB_ID_DEFAULT_VAL])",
 >>>>>>> upstream/18.0

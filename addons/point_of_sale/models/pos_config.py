@@ -281,6 +281,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def read_config_open_orders(self, domain, record_ids):
         all_domain = expression.OR([domain, [('id', 'in', record_ids.get('pos.order')), ('config_id', '=', self.id)]])
         all_orders = self.env['pos.order'].search(all_domain)
@@ -292,6 +293,8 @@ class PosConfig(models.Model):
         return {
             'dynamic_records': all_orders.filtered_domain(domain).read_pos_data([], self.id),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -483,6 +486,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -765,7 +771,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -994,6 +1003,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1280,6 +1292,12 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _config_sequence_implementation(self):
+        return 'standard'
+
+>>>>>>> upstream/18.0
 =======
     def _config_sequence_implementation(self):
         return 'standard'
@@ -1651,6 +1669,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'implementation': self._config_sequence_implementation(),
+>>>>>>> upstream/18.0
 =======
                 'implementation': self._config_sequence_implementation(),
 >>>>>>> upstream/18.0

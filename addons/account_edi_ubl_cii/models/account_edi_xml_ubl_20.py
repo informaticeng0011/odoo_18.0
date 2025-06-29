@@ -3,7 +3,13 @@ from lxml import etree
 
 from odoo import _, models, Command
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import html2plaintext, cleanup_xml_node
+=======
+from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
+from odoo.addons.account.tools import dict_to_xml
+from odoo.addons.account_edi_ubl_cii.tools import Invoice, CreditNote, DebitNote
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
 from odoo.addons.account.tools import dict_to_xml
@@ -17,7 +23,10 @@ UBL_NAMESPACES = {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 class FloatFmt(float):
     """ A float with a given precision.
     The precision is used when formatting the float.
@@ -57,6 +66,9 @@ class FloatFmt(float):
             return f"FloatFmt({self_float!r}, {min_dp_int!r}, {max_dp_int!r})"
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class AccountEdiXmlUBL20(models.AbstractModel):
     _name = "account.edi.xml.ubl_20"
@@ -141,6 +153,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if partner.ref:
+            return [{'id': partner.ref}]
+>>>>>>> upstream/18.0
 =======
         if partner.ref:
             return [{'id': partner.ref}]
@@ -469,7 +486,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -694,6 +714,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -918,6 +941,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+>>>>>>> upstream/18.0
 =======
             'person_vals': self._get_partner_person_vals(partner),
 >>>>>>> upstream/18.0
@@ -1411,7 +1438,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,6 +1564,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1910,6 +1943,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
+>>>>>>> upstream/18.0
 =======
             'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
 >>>>>>> upstream/18.0
@@ -2091,6 +2128,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
+>>>>>>> upstream/18.0
 =======
                 'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
 >>>>>>> upstream/18.0
@@ -2419,7 +2460,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             return 'refund', 1
         return None, None
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -3294,4 +3338,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 
     def _add_document_line_pricing_reference_nodes(self, line_node, vals):
         pass
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

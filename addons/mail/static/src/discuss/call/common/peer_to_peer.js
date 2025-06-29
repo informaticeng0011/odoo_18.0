@@ -558,7 +558,10 @@ export class PeerToPeer extends EventTarget {
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 if (!peer.connection) {
@@ -570,6 +573,9 @@ export class PeerToPeer extends EventTarget {
                     return;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

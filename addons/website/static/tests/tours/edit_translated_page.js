@@ -11,6 +11,10 @@ registry.category("web_tour.tours").add('edit_translated_page_redirect', {
         trigger: 'a.o_frontend_to_backend_edit_btn',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -30,6 +34,10 @@ registry.category("web_tour.tours").add('edit_translated_page_redirect', {
             location.href = '/nl';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -39,6 +47,10 @@ registry.category("web_tour.tours").add('edit_translated_page_redirect', {
         trigger: 'a.o_frontend_to_backend_edit_btn',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

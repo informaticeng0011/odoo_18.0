@@ -131,7 +131,11 @@ registerWebsitePreviewTour('shop_customize', {
             trigger: ":iframe .my_cart_quantity:contains(/^1$/),.o_extra_menu_items .fa-plus",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         goToCart({backend: true}),
+=======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
 =======
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0

@@ -87,6 +87,10 @@ registry.category("web_tour.tours").add('test_error_website', {
             window.location.href = window.location.origin + '/test_user_error_http?debug=0';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -101,6 +105,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_user_error_http?debug=1';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -118,6 +126,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_validation_error_http?debug=0';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -132,6 +144,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_validation_error_http?debug=1';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -149,6 +165,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_access_error_http?debug=0';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -163,6 +183,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_access_error_http?debug=1';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -180,6 +204,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_missing_error_http?debug=0';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -194,6 +222,10 @@ registry.category("web_tour.tours").add('test_error_website', {
                 window.location.href = window.location.origin + '/test_missing_error_http?debug=1';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -211,6 +243,10 @@ registry.category("web_tour.tours").add('test_error_website', {
             window.location.href = window.location.origin + '/test_access_denied_http?debug=0';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -225,6 +261,10 @@ registry.category("web_tour.tours").add('test_error_website', {
             window.location.href = window.location.origin + '/test_access_denied_http?debug=1';
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

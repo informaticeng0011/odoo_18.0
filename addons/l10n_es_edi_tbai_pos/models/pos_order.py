@@ -173,7 +173,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_origin': False,
+=======
+            'origin': 'manual',
+>>>>>>> upstream/18.0
 =======
             'origin': 'manual',
 >>>>>>> upstream/18.0

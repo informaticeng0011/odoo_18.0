@@ -1111,13 +1111,19 @@ export function makeActionManager(env, router = _router) {
             url = "/" + url;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
 =======
+=======
+>>>>>>> upstream/18.0
         if (action.target === "self") {
             browser.location.assign(url);
         } else if (action.target === "download") {
             browser.open(url, "_blank");
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         } else {
             const w = browser.open(url, "_blank");

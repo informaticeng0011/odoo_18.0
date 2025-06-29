@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Marta Wacławek, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +30,11 @@ msgstr ""
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__accept_payment
 msgid "Accept Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přijmout platbu"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__allowed_payment_modes__all
@@ -32,12 +44,20 @@ msgstr "Vše"
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__allowed_payment_modes
 msgid "Allowed Payment Modes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povolené způsoby platby"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__accept_payment__auto
 msgid "Automatically"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticky"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__allowed_payment_modes__card
@@ -50,6 +70,11 @@ msgid ""
 "Choose accept payment mode: \n"
 " Manually or Automatically"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vyberte způsob přijetí platby:\n"
+"Ručně nebo Automaticky"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__allowed_payment_modes
@@ -57,11 +82,20 @@ msgid ""
 "Choose allow payment mode: \n"
 " All/Card or QR"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vyberte způsob platby:\n"
+"Všechny/Karta nebo QR"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_mid
 msgid "Go to https://business.paytm.com/ and create the merchant account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přejděte na https://business.paytm.com/ a vytvořte si obchodní účet."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields.selection,name:pos_paytm.selection__pos_payment_method__accept_payment__manual
@@ -74,37 +108,66 @@ msgid ""
 "Merchant/AES key \n"
 " ex: B1o6Ivjy8L1@abc9"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Klíč obchodníka/AES \n"
+"např.: B1o6Ivjy8L1@abc9"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__channel_id
 msgid "PayTM Channel ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Id kanálu PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-javascript
 #: code:addons/pos_paytm/static/src/js/payment_paytm.js:0
 msgid "PayTM Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chyba PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_merchant_key
 msgid "PayTM Merchant API Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klíč API obchodníka PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_mid
 msgid "PayTM Merchant ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID obchodníka PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_tid
 msgid "PayTM Terminal ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID terminálu PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,field_description:pos_paytm.field_pos_payment_method__paytm_test_mode
 msgid "PayTM Test Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testovací režim PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model,name:pos_paytm.model_pos_payment_method
@@ -120,13 +183,21 @@ msgstr "QR"
 #. odoo-javascript
 #: code:addons/pos_paytm/static/src/js/payment_paytm.js:0
 msgid "Reference number mismatched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neshoda referenčního čísla"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "Something went wrong with paytm request. Please try later."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo k chybě při požadavku paytm. Zkuste to prosím později."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_tid
@@ -134,38 +205,67 @@ msgid ""
 "Terminal model or Activation code \n"
 " ex: 70000123"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Model terminálu nebo aktivační kód\n"
+"např.: 70000123"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "This Payment Terminal is only valid for INR Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento platební terminál je platný pouze pro měnu INR."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #: model:ir.model.fields,help:pos_paytm.field_pos_payment_method__paytm_test_mode
 msgid "Turn it on when in Test Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapněte jej v testovacím režimu."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "makePaymentRequest expected resultCode not found in the response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "makePaymentRequest očekávaný resultCode nebyl nalezen v odpovědi."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "paymentFetchRequest expected resultCode not found in the response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "paymentFetchRequest očekávaný resultCode nebyl nalezen v odpovědi."
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "paytm transaction failure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "selhání transakce PayTM"
+>>>>>>> upstream/18.0
 
 #. module: pos_paytm
 #. odoo-python
 #: code:addons/pos_paytm/models/pos_payment_method.py:0
 msgid "paytm transaction request declined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "žádost o transakci paytm byla zamítnuta"
+>>>>>>> upstream/18.0

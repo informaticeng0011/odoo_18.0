@@ -14,6 +14,10 @@ registry.category("web_tour.tours").add('apply_discount_code_program_multi_rewar
             trigger: '.oe_product_cart a:contains("Super Chair")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -40,6 +44,10 @@ registry.category("web_tour.tours").add('apply_discount_code_program_multi_rewar
             trigger: 'form[name="coupon_code"] .a-submit',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -53,6 +61,10 @@ registry.category("web_tour.tours").add('apply_discount_code_program_multi_rewar
             trigger: '.alert:contains("10% on Super Chair") .btn:contains("Claim")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -76,6 +88,10 @@ registry.category("web_tour.tours").add('apply_discount_code_program_multi_rewar
             trigger: 'form[name="coupon_code"] .a-submit',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

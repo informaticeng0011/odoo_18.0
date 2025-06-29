@@ -11,6 +11,10 @@ registry.category("web_tour.tours").add('check_shipping_discount', {
             trigger: '.oe_product a:contains("Plumbus")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -50,6 +54,10 @@ registry.category("web_tour.tours").add('check_shipping_discount', {
             trigger: 'form[name=claim_reward] a.btn-primary:contains(Pay with eWallet)',
             run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -88,6 +96,10 @@ registry.category("web_tour.tours").add('check_shipping_discount', {
             trigger: '.o_total_card a[name=website_sale_main_button]',
             run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

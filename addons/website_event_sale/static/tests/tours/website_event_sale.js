@@ -11,6 +11,10 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
             trigger: 'a[href*="/event"]:contains("Conference for Architects TEST"):first',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -96,6 +100,10 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
             trigger: ".modal#modal_attendees_registration button[type=submit]",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -106,7 +114,11 @@ registry.category("web_tour.tours").add("event_buy_tickets", {
             untaxed: "4,000.00",
         }),
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...wsTourUtils.payWithTransfer(),
+=======
+        ...wsTourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...wsTourUtils.payWithTransfer({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0

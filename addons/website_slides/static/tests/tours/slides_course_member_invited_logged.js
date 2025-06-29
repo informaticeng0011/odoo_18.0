@@ -19,6 +19,10 @@ registry.category("web_tour.tours").add("invite_check_channel_preview_as_logged"
             trigger: 'a:contains("Join this Course")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

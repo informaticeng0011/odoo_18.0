@@ -5,6 +5,10 @@ import { Many2OneField, many2OneField } from '@web/views/fields/many2one/many2on
 import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { useService } from "@web/core/utils/hooks";
 >>>>>>> upstream/18.0
@@ -22,6 +26,10 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
     setup() {
         super.setup();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.orm = useService("orm");
+>>>>>>> upstream/18.0
 =======
         this.orm = useService("orm");
 >>>>>>> upstream/18.0
@@ -80,12 +88,18 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
                 context.default_image_1920 = data.logo;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
             const unspsc_codes = data.company.unspsc_codes;
             if(unspsc_codes){
                 context.default_category_id = await this.orm.call("res.partner", "iap_partner_autocomplete_add_tags", [[], unspsc_codes]);
             }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return this.openMany2X({ context });
         }

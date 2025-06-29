@@ -11,6 +11,10 @@ registry.category("web_tour.tours").add('website_sale_stock_reorder_from_portal'
             trigger: '.o_portal_my_doc_table a:first',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

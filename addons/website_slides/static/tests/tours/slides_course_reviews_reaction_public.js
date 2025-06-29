@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
             trigger: "a:contains(Basics of Gardening - Test)",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -28,10 +32,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
             trigger: "#chatterRoot:shadow .o-mail-Message-actions",
             run: async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const addReactionButton = document.querySelector('#chatterRoot').shadowRoot.querySelector("[title='Add a Reaction']")
                 if (addReactionButton) {
                     throw new Error("Non-authenticated user should not be able to add a reaction to a message");
 =======
+=======
+>>>>>>> upstream/18.0
                 const addReactionButton = document
                     .querySelector("#chatterRoot")
                     .shadowRoot.querySelector("[title='Add a Reaction']");
@@ -39,6 +46,9 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
                     throw new Error(
                         "Non-authenticated user should not be able to add a reaction to a message"
                     );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             },
@@ -47,7 +57,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
             trigger: "#chatterRoot:shadow .o-mail-Message-core",
             run: () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const reactionButton = document.querySelector("#chatterRoot").shadowRoot.querySelector(".o-mail-MessageReaction")
+=======
+                const reactionButton = document
+                    .querySelector("#chatterRoot")
+                    .shadowRoot.querySelector(".o-mail-MessageReaction");
+>>>>>>> upstream/18.0
 =======
                 const reactionButton = document
                     .querySelector("#chatterRoot")
@@ -67,10 +83,13 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
             trigger: "#chatterRoot:shadow .o-mail-Message-core",
             run: () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const addReaction = document.querySelector("#chatterRoot").shadowRoot.querySelector(".o-mail-MessageReactions-add")
                 if (addReaction) {
                     throw new Error("Non-authenticated user should not be able to add a reaction to a message");
 =======
+=======
+>>>>>>> upstream/18.0
                 const addReaction = document
                     .querySelector("#chatterRoot")
                     .shadowRoot.querySelector(".o-mail-MessageReactions-add");
@@ -78,6 +97,9 @@ registry.category("web_tour.tours").add("course_reviews_reaction_public", {
                     throw new Error(
                         "Non-authenticated user should not be able to add a reaction to a message"
                     );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             },

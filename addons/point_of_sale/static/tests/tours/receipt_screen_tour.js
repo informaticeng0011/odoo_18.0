@@ -148,8 +148,11 @@ registry.category("web_tour.tours").add("OrderPaidInCash", {
             ProductScreen.cashDifferenceIs("0.00"),
             Dialog.confirm("Close Register"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             Chrome.clickBtn("Backend"),
 =======
+=======
+>>>>>>> upstream/18.0
             {
                 trigger: "button:contains(backend)",
                 run: "click",
@@ -159,6 +162,9 @@ registry.category("web_tour.tours").add("OrderPaidInCash", {
                 trigger: "body",
                 expectUnloadPage: true,
             },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ProductScreen.lastClosingCashIs("25.00"),
         ].flat(),

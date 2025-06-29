@@ -137,11 +137,17 @@ class TestUBLDE(TestUBLCommon):
         self._assert_imported_invoice_from_etree(invoice, attachment)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_export_import_invoice_new(self):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
         self.test_export_import_invoice()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_export_import_invoice_without_vat_and_peppol_endpoint(self):
         self.partner_2.write({
@@ -184,11 +190,17 @@ class TestUBLDE(TestUBLCommon):
         self._assert_imported_invoice_from_etree(invoice, attachment)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_export_import_invoice_without_vat_and_peppol_endpoint_new(self):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
         self.test_export_import_invoice_without_vat_and_peppol_endpoint()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_export_import_refund(self):
         refund = self._generate_move(
@@ -249,11 +261,17 @@ class TestUBLDE(TestUBLCommon):
         self._assert_imported_invoice_from_etree(refund, attachment)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_export_import_refund_new(self):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
         self.test_export_import_refund()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     ####################################################
     # Test import

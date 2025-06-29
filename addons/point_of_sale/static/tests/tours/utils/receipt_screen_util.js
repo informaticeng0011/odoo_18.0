@@ -202,7 +202,10 @@ export function shippingDateIsToday() {
     ];
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 export function cashierNameExists(name) {
     return [
@@ -212,4 +215,7 @@ export function cashierNameExists(name) {
         },
     ];
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -7,6 +7,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { testEditor, setupEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
 import { tick } from "@odoo/hoot-mock";
@@ -14,6 +15,8 @@ import { deleteForward, insertText, tripleClick } from "../_helpers/user_actions
 import { getContent } from "../_helpers/selection";
 import { microTick } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39,6 +42,9 @@ import { deleteForward, insertText, splitTripleClick } from "../_helpers/user_ac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1401,12 +1407,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1432,6 +1441,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1464,12 +1476,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1495,6 +1510,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

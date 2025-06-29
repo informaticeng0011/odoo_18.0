@@ -44,6 +44,10 @@ registry.category("web_tour.tours").add("test_company_switch_access_error", {
             trigger: ".o_switch_company_menu_buttons button:contains(Confirm)",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

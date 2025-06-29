@@ -183,8 +183,11 @@ class ResPartner(models.Model):
     def iap_partner_autocomplete_add_tags(self, unspsc_codes):
         """Called by JS to create the activity tags from the UNSPSC codes"""
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.ensure_one()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # If the UNSPSC module is installed, we might have a translation, so let's use it
@@ -204,7 +207,11 @@ class ResPartner(models.Model):
             else:
                 tag_ids |= self.env['res.partner.category'].create({'name': tag_name})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.category_id = tag_ids
+=======
+        return tag_ids.ids
+>>>>>>> upstream/18.0
 =======
         return tag_ids.ids
 >>>>>>> upstream/18.0

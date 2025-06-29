@@ -12,6 +12,10 @@ registry.category("web_tour.tours").add("blog_autocomplete_with_date", {
     trigger: 'select[name=archive]',
     run: "selectByIndex 1",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -32,6 +36,10 @@ registry.category("web_tour.tours").add("blog_autocomplete_with_date", {
     trigger: '.o_searchbar_form button:has(i.oi-search)',
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

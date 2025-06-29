@@ -9,6 +9,10 @@
         trigger: '.oe_product_cart a:contains("Customizable Desk (TEST)")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -31,6 +35,10 @@
         trigger: 'button:contains(Proceed to Checkout)',
         run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -1,6 +1,9 @@
 /** @odoo-module */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { delay } from "@odoo/hoot-dom";
@@ -15,7 +18,12 @@ const goToFrontendSteps = [{
         await delay(2000);
         window.location.assign(testUrl);
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage: true,
@@ -31,7 +39,12 @@ const goToBackendSteps = [{
         await delay(2000);
         window.location.assign(`/@${testUrl}`);
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage: true,
@@ -64,6 +77,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         trigger: '#test_contact_FE',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -77,6 +94,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         trigger: '#test_contact_BE',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -100,6 +121,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         trigger: ':iframe #test_contact_BE',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

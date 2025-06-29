@@ -100,6 +100,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
                 window.location.href = $('#generated_tracked_link .o_website_links_short_url').text();
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -116,6 +120,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
                 window.location.href = '/r';
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -136,6 +144,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
             trigger: ".o_website_links_card",
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

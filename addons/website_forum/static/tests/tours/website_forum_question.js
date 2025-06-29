@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('forum_question', {
         trigger: '.o_wforum_ask_btn',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -46,6 +50,10 @@ registry.category("web_tour.tours").add('forum_question', {
         trigger: 'button:contains("Post")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -75,6 +83,10 @@ registry.category("web_tour.tours").add('forum_question', {
         trigger: '.o_wforum_question button:contains("Edit")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -88,6 +100,10 @@ registry.category("web_tour.tours").add('forum_question', {
         trigger: 'button:contains("Save Changes")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -111,6 +127,10 @@ registry.category("web_tour.tours").add('forum_question', {
         trigger: 'button:contains("Post Answer")',
         run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

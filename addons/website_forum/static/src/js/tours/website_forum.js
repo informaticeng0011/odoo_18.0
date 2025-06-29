@@ -13,6 +13,10 @@ registerBackendAndFrontendTour("question", {
     content: _t("Create a new post in this forum by clicking on the button."),
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -63,6 +67,10 @@ registerBackendAndFrontendTour("question", {
     tooltipPosition: "bottom",
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -96,6 +104,10 @@ registerBackendAndFrontendTour("question", {
     tooltipPosition: "bottom",
     run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

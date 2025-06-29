@@ -35,7 +35,11 @@ test("autocomplete should shown and able to edit the link", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             icon: "/website_crm/static/description/icon.png",
+=======
+                            icon: "/website/static/description/icon.png",
+>>>>>>> upstream/18.0
 =======
                             icon: "/website/static/description/icon.png",
 >>>>>>> upstream/18.0
@@ -98,6 +102,12 @@ test("autocomplete should shown and able to edit the link", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expect(".ui-autocomplete-category").toHaveCount(1);
+    expect(".o-autocomplete--dropdown-item img").toHaveCount(1);
+
+>>>>>>> upstream/18.0
 =======
     expect(".ui-autocomplete-category").toHaveCount(1);
     expect(".o-autocomplete--dropdown-item img").toHaveCount(1);
@@ -164,7 +174,10 @@ test("autocomplete should shown and able to edit the link", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204,6 +217,9 @@ test("autocomplete should shown and able to edit the link", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

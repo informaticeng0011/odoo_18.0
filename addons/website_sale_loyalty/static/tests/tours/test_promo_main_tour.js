@@ -16,6 +16,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
             trigger: '.oe_product_cart a:contains("Small Cabinet")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -44,6 +48,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
             trigger: 'form[name="coupon_code"] .a-submit',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -86,8 +94,14 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
                 });
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
         },
             ...tourUtils.addToCart({productName: "Taxed Product"}),
+=======
+            expectUnloadPage: true,
+        },
+        ...tourUtils.addToCart({ productName: "Taxed Product", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
         },
@@ -135,6 +149,10 @@ registry.category("web_tour.tours").add('shop_sale_loyalty', {
             trigger: 'a[href="/shop/checkout?try_skip_step=true"]',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

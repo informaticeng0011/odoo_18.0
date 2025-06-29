@@ -10,6 +10,10 @@ registry.category("web_tour.tours").add('back_in_stock_notification_product', {
             trigger: 'a:contains("Macbook Pro")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

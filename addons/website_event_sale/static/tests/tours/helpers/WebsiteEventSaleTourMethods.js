@@ -14,6 +14,10 @@ export function changePricelist(pricelistName) {
             trigger: '.nav-link:contains("Shop")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -28,6 +32,10 @@ export function changePricelist(pricelistName) {
             trigger: `.dropdown-item:contains(${pricelistName})`,
             run: 'click',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -45,6 +53,10 @@ function checkPriceEvent(eventName, price, close = true) {
             trigger: '.nav-link:contains("Event")',
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -54,6 +66,10 @@ function checkPriceEvent(eventName, price, close = true) {
             trigger: `.o_wevent_events_list a:contains(${eventName})`,
             run: "click",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -56,7 +56,10 @@ class AccountEdiXmlUBL21(models.AbstractModel):
             'pint_my': 'urn:peppol:pint:billing-1@my-1',
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT: New (dict_to_xml) helpers
@@ -116,4 +119,7 @@ class AccountEdiXmlUBL21(models.AbstractModel):
         line_node['cac:AllowanceCharge'] = [self._get_line_discount_allowance_charge_node(vals)]
         if vals['fixed_taxes_as_allowance_charges']:
             line_node['cac:AllowanceCharge'].extend(self._get_line_fixed_tax_allowance_charge_nodes(vals))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -45,7 +45,10 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119,6 +122,7 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -163,6 +167,8 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         Utils.clickBtn("Order Now"),
@@ -173,6 +179,9 @@ registry.category("web_tour.tours").add("self_mobile_each_table_takeaway_in", {
         CartPage.removeLine("Coca-Cola"),
         ProductPage.isShown(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
