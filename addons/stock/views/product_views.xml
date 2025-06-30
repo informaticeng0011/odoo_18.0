@@ -179,7 +179,11 @@
                     <div groups="stock.group_stock_user" t-if="record.show_on_hand_qty_status_button.raw_value">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         On hand: <field name="qty_available"/> <field name="uom_id"/>
+=======
+                        On hand: <field name="qty_available"/> <field name="uom_id" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                         On hand: <field name="qty_available"/> <field name="uom_id" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -313,7 +317,11 @@
                                             <field name="qty_available" nolabel="1" class="oe_inline"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <field name="uom_name" class="oe_inline"/>
+=======
+                                            <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                                             <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -334,7 +342,11 @@
                                         <field name="virtual_available" class="oe_inline"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="uom_name" class="oe_inline"/>
+=======
+                                        <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -450,7 +462,11 @@
                                         <field name="qty_available" nolabel="1" class="oe_inline"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="uom_name" class="oe_inline"/>
+=======
+                                        <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -471,7 +487,11 @@
                                         <field name="virtual_available" nolabel="1" class="oe_inline"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="uom_name" class="oe_inline"/>
+=======
+                                        <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                                         <field name="uom_name" class="oe_inline" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0

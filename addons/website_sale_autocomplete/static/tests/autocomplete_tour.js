@@ -9,7 +9,11 @@ registry.category("web_tour.tours").add('autocomplete_tour', {
     steps: () => [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ...tourUtils.addToCart({productName: "A test product"}),
+=======
+        ...tourUtils.addToCart({ productName: "A test product", expectUnloadPage: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({ productName: "A test product", expectUnloadPage: true }),
 >>>>>>> upstream/18.0

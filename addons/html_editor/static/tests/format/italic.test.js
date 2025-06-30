@@ -67,8 +67,14 @@ import { em, span } from "../_helpers/tags";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { italic, tripleClick } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";
+=======
+import { italic, tripleClick, simulateArrowKeyPress } from "../_helpers/user_actions";
+import { unformat } from "../_helpers/format";
+import { tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { italic, tripleClick, simulateArrowKeyPress } from "../_helpers/user_actions";
 import { unformat } from "../_helpers/format";
@@ -565,7 +571,10 @@ test("should not format non-editable text (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -770,6 +779,9 @@ test("should remove empty italic tag when changing selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -985,8 +997,12 @@ test("should make a few characters italic inside table (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -1267,8 +1283,12 @@ test("should make a few characters italic inside table (italic)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0

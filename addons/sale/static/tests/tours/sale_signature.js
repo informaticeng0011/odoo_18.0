@@ -13,6 +13,10 @@ registry.category("web_tour.tours").add('sale_signature', {
         run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -48,6 +52,10 @@ registry.category("web_tour.tours").add('sale_signature', {
         run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -66,6 +74,10 @@ registry.category("web_tour.tours").add('sale_signature', {
         },  // Avoid race condition at the end of the tour by returning to the home page.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

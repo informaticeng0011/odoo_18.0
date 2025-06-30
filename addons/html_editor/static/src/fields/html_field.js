@@ -280,6 +280,10 @@ export class HtmlField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ...config.resources,
+>>>>>>> upstream/18.0
 =======
                 ...config.resources,
 >>>>>>> upstream/18.0
@@ -449,6 +453,10 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            editorConfig.classList = ["overflow-auto"];
+>>>>>>> upstream/18.0
 =======
             editorConfig.classList = ["overflow-auto"];
 >>>>>>> upstream/18.0

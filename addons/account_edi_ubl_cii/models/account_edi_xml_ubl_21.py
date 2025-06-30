@@ -57,7 +57,10 @@ class AccountEdiXmlUBL21(models.AbstractModel):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -120,6 +123,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
         if vals['fixed_taxes_as_allowance_charges']:
             line_node['cac:AllowanceCharge'].extend(self._get_line_fixed_tax_allowance_charge_nodes(vals))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

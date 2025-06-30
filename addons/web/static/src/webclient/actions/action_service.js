@@ -1112,9 +1112,12 @@ export function makeActionManager(env, router = _router) {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (action.target === "self") {
@@ -1122,6 +1125,9 @@ export function makeActionManager(env, router = _router) {
         } else if (action.target === "download") {
             browser.open(url, "_blank");
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

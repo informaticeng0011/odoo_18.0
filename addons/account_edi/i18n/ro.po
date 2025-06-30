@@ -4,9 +4,14 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Larisa Pop, 2024
 # Wil Odoo, 2024
+=======
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2024
 # Larisa_nexterp, 2025
@@ -19,7 +24,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -35,7 +44,11 @@ msgstr ""
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing error(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s eroare(i) de facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s eroare(i) de facturare electronică"
 >>>>>>> upstream/18.0
@@ -45,7 +58,11 @@ msgstr "%(count)s eroare(i) de facturare electronică"
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing info(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s informație(i) de facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s informație(i) de facturare electronică"
 >>>>>>> upstream/18.0
@@ -55,7 +72,11 @@ msgstr "%(count)s informație(i) de facturare electronică"
 #: code:addons/account_edi/models/account_move.py:0
 msgid "%(count)s Electronic invoicing warning(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(count)s avertizare(i) de facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(count)s avertizare(i) de facturare electronică"
 >>>>>>> upstream/18.0
@@ -76,7 +97,11 @@ msgstr "O cerere de anulare a EDI a fost anulată."
 #: model:ir.model,name:account_edi.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cont Mutare Trimitere"
+=======
+msgstr "Trimitere mutare cont"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimitere mutare cont"
 >>>>>>> upstream/18.0
@@ -88,6 +113,11 @@ msgid ""
 "document to be canceled?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sigur doriți să anulați această factură fără a aștepta anularea documentului"
+" EDI?"
+>>>>>>> upstream/18.0
 =======
 "Sigur doriți să anulați această factură fără a aștepta anularea documentului"
 " EDI?"
@@ -113,22 +143,32 @@ msgid ""
 "  * Error: there is an error that blocks the current Electronic Invoicing operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Blochează funcționarea curentă a documentului în funcție de gravitatea erorii:\n"
 "  * Info: documentul nu este blocat și totul funcționează așa cum ar trebui.\n"
 "  * Atenție: există o eroare care nu împiedică reușita operațiunii curente de facturare electronică.\n"
 "  * Eroare: există o eroare care blochează operațiunea curentă de Facturare Electronică."
 =======
+=======
+>>>>>>> upstream/18.0
 "Blochează operațiunea curentă a documentului în funcție de gravitatea erorii:\n"
 "  * Info: documentul nu este blocat și totul funcționează corect.\n"
 "  * Avertizare: există o eroare care nu împiedică reușita operațiunii curente de facturare electronică.\n"
 "  * Eroare: există o eroare care blochează operațiunea curentă de facturare electronică."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_edi
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Call off EDI Cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulați anularea EDI"
+=======
+msgstr "Anulează cererea de anulare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulează cererea de anulare EDI"
 >>>>>>> upstream/18.0
@@ -158,7 +198,11 @@ msgstr "Cod"
 #: model:ir.model.fields,field_description:account_edi.field_account_journal__compatible_edi_ids
 msgid "Compatible Edi"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Edi Compatibil"
+=======
+msgstr "EDI compatibil"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI compatibil"
 >>>>>>> upstream/18.0
@@ -174,7 +218,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_format__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -204,7 +252,11 @@ msgstr "Format EDI"
 #: model:ir.model.fields,help:account_edi.field_account_journal__compatible_edi_ids
 msgid "EDI format that support moves in this journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Format EDI care acceptă mișcări în acest jurnal"
+=======
+msgstr "Format EDI care suportă mișcări în acest jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Format EDI care suportă mișcări în acest jurnal"
 >>>>>>> upstream/18.0
@@ -213,7 +265,11 @@ msgstr "Format EDI care suportă mișcări în acest jurnal"
 #: model:ir.actions.server,name:account_edi.ir_cron_edi_network_ir_actions_server
 msgid "EDI: Perform web services operations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "EDI: Efectuați operațiuni de servicii web"
+=======
+msgstr "EDI: Execută operațiuni de servicii web"
+>>>>>>> upstream/18.0
 =======
 msgstr "EDI: Execută operațiuni de servicii web"
 >>>>>>> upstream/18.0
@@ -223,7 +279,11 @@ msgstr "EDI: Execută operațiuni de servicii web"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_blocking_level
 msgid "Edi Blocking Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivel de blocare Edi"
+=======
+msgstr "Nivel de blocare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nivel de blocare EDI"
 >>>>>>> upstream/18.0
@@ -232,7 +292,11 @@ msgstr "Nivel de blocare EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_content
 msgid "Edi Content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conținut Edi"
+=======
+msgstr "Conținut EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut EDI"
 >>>>>>> upstream/18.0
@@ -242,7 +306,11 @@ msgstr "Conținut EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_document_ids
 msgid "Edi Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document Edi"
+=======
+msgstr "Document EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document EDI"
 >>>>>>> upstream/18.0
@@ -252,7 +320,11 @@ msgstr "Document EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_error_count
 msgid "Edi Error Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nr. Erori Edi"
+=======
+msgstr "Număr erori EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr erori EDI"
 >>>>>>> upstream/18.0
@@ -262,7 +334,11 @@ msgstr "Număr erori EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_error_message
 msgid "Edi Error Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj de eroare Edi"
+=======
+msgstr "Mesaj de eroare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj de eroare EDI"
 >>>>>>> upstream/18.0
@@ -271,7 +347,11 @@ msgstr "Mesaj de eroare EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__edi_format_id
 msgid "Edi Format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Format Edi"
+=======
+msgstr "Format EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Format EDI"
 >>>>>>> upstream/18.0
@@ -281,7 +361,11 @@ msgstr "Format EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_abandon_cancel_button
 msgid "Edi Show Abandon Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare buton de anulare abandonat Edi"
+=======
+msgstr "Afișează butonul de abandonare anulare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează butonul de abandonare anulare EDI"
 >>>>>>> upstream/18.0
@@ -291,7 +375,11 @@ msgstr "Afișează butonul de abandonare anulare EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_cancel_button
 msgid "Edi Show Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare Buton Anulare Edi"
+=======
+msgstr "Afișează butonul de anulare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează butonul de anulare EDI"
 >>>>>>> upstream/18.0
@@ -301,7 +389,11 @@ msgstr "Afișează butonul de anulare EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_show_force_cancel_button
 msgid "Edi Show Force Cancel Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează butonul de forțare anulare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează butonul de forțare anulare EDI"
 >>>>>>> upstream/18.0
@@ -311,7 +403,11 @@ msgstr "Afișează butonul de forțare anulare EDI"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_web_services_to_process
 msgid "Edi Web Services To Process"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Servicii Web Edi de Procesat"
+=======
+msgstr "Servicii web EDI de procesat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Servicii web EDI de procesat"
 >>>>>>> upstream/18.0
@@ -320,7 +416,11 @@ msgstr "Servicii web EDI de procesat"
 #: model:ir.model,name:account_edi.model_account_edi_document
 msgid "Electronic Document for an account.move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document electronic pentru account.move"
+=======
+msgstr "Document electronic pentru o mutare de cont"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document electronic pentru o mutare de cont"
 >>>>>>> upstream/18.0
@@ -332,7 +432,11 @@ msgstr "Document electronic pentru o mutare de cont"
 #: model:ir.model.fields,field_description:account_edi.field_account_move__edi_state
 msgid "Electronic invoicing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturare Electronică"
+=======
+msgstr "Facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturare electronică"
 >>>>>>> upstream/18.0
@@ -341,7 +445,11 @@ msgstr "Facturare electronică"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
 msgid "Electronic invoicing processing needed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este necesară procesarea facturii electronice"
+=======
+msgstr "Este necesară procesarea facturării electronice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este necesară procesarea facturării electronice"
 >>>>>>> upstream/18.0
@@ -350,7 +458,11 @@ msgstr "Este necesară procesarea facturării electronice"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_account_invoice_filter
 msgid "Electronic invoicing state"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Starea facturării electronice"
+=======
+msgstr "Stare facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare facturare electronică"
 >>>>>>> upstream/18.0
@@ -366,7 +478,11 @@ msgstr "Eroare"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Force Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forțează anularea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forțează anularea"
 >>>>>>> upstream/18.0
@@ -381,7 +497,11 @@ msgstr "Nume format"
 #: model:ir.model.fields,help:account_edi.field_account_move__edi_error_count
 msgid "How many EDIs are in error for this move?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câți EDI sunt în eroare pentru această mișcare?"
+=======
+msgstr "Câte EDI-uri sunt în eroare pentru această mutare?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câte EDI-uri sunt în eroare pentru această mutare?"
 >>>>>>> upstream/18.0
@@ -407,7 +527,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configurație nevalidă a facturii:\n"
+=======
+"Configurație invalidă a facturii:\n"
+>>>>>>> upstream/18.0
 =======
 "Configurație invalidă a facturii:\n"
 >>>>>>> upstream/18.0
@@ -423,7 +547,11 @@ msgstr "Jurnal"
 #: model:ir.model,name:account_edi.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare jurnal"
 >>>>>>> upstream/18.0
@@ -433,7 +561,11 @@ msgstr "Înregistrare jurnal"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_format__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de"
 >>>>>>> upstream/18.0
@@ -443,7 +575,11 @@ msgstr "Ultima actualizare de"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_format__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -452,7 +588,11 @@ msgstr "Ultima actualizare la"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__move_id
 msgid "Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mișcare"
+=======
+msgstr "Mutare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mutare"
 >>>>>>> upstream/18.0
@@ -467,7 +607,11 @@ msgstr "Nume"
 #: model:ir.model.constraint,message:account_edi.constraint_account_edi_document_unique_edi_document_by_move_by_format
 msgid "Only one edi document by move by format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un singur document edi după mutare după format"
+=======
+msgstr "Doar un document EDI per mutare per format"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar un document EDI per mutare per format"
 >>>>>>> upstream/18.0
@@ -476,7 +620,11 @@ msgstr "Doar un document EDI per mutare per format"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Process now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procesați acum"
+=======
+msgstr "Procesează acum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procesează acum"
 >>>>>>> upstream/18.0
@@ -485,7 +633,11 @@ msgstr "Procesează acum"
 #: model:ir.model,name:account_edi.model_account_resequence_wizard
 msgid "Remake the sequence of Journal Entries."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Refaceți secvența de intrări în jurnal."
+=======
+msgstr "Refă secvența înregistrărilor din jurnal."
+>>>>>>> upstream/18.0
 =======
 msgstr "Refă secvența înregistrărilor din jurnal."
 >>>>>>> upstream/18.0
@@ -499,7 +651,11 @@ msgstr "Acțiune raport"
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "Request EDI Cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Solicitare Anulare EDI"
+=======
+msgstr "Solicită anulare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită anulare EDI"
 >>>>>>> upstream/18.0
@@ -513,7 +669,11 @@ msgstr "Reîncearcă"
 #: model:ir.model.fields,help:account_edi.field_account_journal__edi_format_ids
 msgid "Send XML/EDI invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimiteți facturi XML / EDI"
+=======
+msgstr "Trimite facturi XML/EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite facturi XML/EDI"
 >>>>>>> upstream/18.0
@@ -528,7 +688,11 @@ msgstr "Trimis"
 #: model:ir.model.fields,field_description:account_edi.field_account_edi_document__state
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -539,7 +703,11 @@ msgstr "Stare"
 msgid "The aggregated state of all the EDIs with web-service of this move"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Starea agregată a tuturor EDI-urilor cu serviciul web al acestei mișcări"
+=======
+"Starea agregată a tuturor EDI-urilor cu serviciu web pentru această mutare"
+>>>>>>> upstream/18.0
 =======
 "Starea agregată a tuturor EDI-urilor cu serviciu web pentru această mutare"
 >>>>>>> upstream/18.0
@@ -551,8 +719,13 @@ msgid ""
 "document is processed)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Fișierul generat de edi_format_id atunci când factura este postată (și acest"
 " document este procesat)."
+=======
+"Fișierul generat de edi_format_id când factura este postată (și acest "
+"document este procesat)."
+>>>>>>> upstream/18.0
 =======
 "Fișierul generat de edi_format_id când factura este postată (și acest "
 "document este procesat)."
@@ -578,8 +751,12 @@ msgid ""
 "operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Textul ultimei erori care a avut loc în timpul operațiunii cu factură "
 "electronică."
+=======
+"Textul ultimei erori apărute în timpul operațiunii de facturare electronică."
+>>>>>>> upstream/18.0
 =======
 "Textul ultimei erori apărute în timpul operațiunii de facturare electronică."
 >>>>>>> upstream/18.0
@@ -594,7 +771,11 @@ msgstr "Acest cod există deja"
 #: code:addons/account_edi/models/account_edi_document.py:0
 msgid "This document is being sent by another process already. "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acest document este deja trimis printr-un alt proces. "
+=======
+msgstr "Acest document este deja trimis de un alt proces."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest document este deja trimis de un alt proces."
 >>>>>>> upstream/18.0
@@ -607,6 +788,11 @@ msgid ""
 " request."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Această factură a fost anulată în timp ce EDI-urile %s aveau încă o cerere "
+"de anulare în așteptare."
+>>>>>>> upstream/18.0
 =======
 "Această factură a fost anulată în timp ce EDI-urile %s aveau încă o cerere "
 "de anulare în așteptare."
@@ -617,7 +803,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__to_cancel
 msgid "To Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru Anulare"
+=======
+msgstr "De anulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "De anulat"
 >>>>>>> upstream/18.0
@@ -627,7 +817,11 @@ msgstr "De anulat"
 #: model:ir.model.fields.selection,name:account_edi.selection__account_move__edi_state__to_send
 msgid "To Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru trimitere"
+=======
+msgstr "De trimis"
+>>>>>>> upstream/18.0
 =======
 msgstr "De trimis"
 >>>>>>> upstream/18.0
@@ -647,9 +841,15 @@ msgid ""
 "instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți edita următoarea intrare în jurnal %s deoarece un document "
 "electronic a fost deja trimis. Vă rugăm să utilizați butonul 'Request EDI "
 "Cancellation' în schimb."
+=======
+"Nu puteți edita următoarea înregistrare de jurnal %s deoarece un document "
+"electronic a fost deja trimis. Vă rugăm să folosiți butonul 'Solicită "
+"anulare EDI'."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți edita următoarea înregistrare de jurnal %s deoarece un document "
 "electronic a fost deja trimis. Vă rugăm să folosiți butonul 'Solicită "
@@ -663,8 +863,12 @@ msgid ""
 "You can't unlink an attachment being an EDI document sent to the government."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți deconecta un atașament care este un document EDI trimis "
 "guvernului."
+=======
+"Nu puteți șterge un atașament care este un document EDI trimis către guvern."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți șterge un atașament care este un document EDI trimis către guvern."
 >>>>>>> upstream/18.0
@@ -673,7 +877,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_edi.view_move_form_inherit
 msgid "⇒ See errors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "⇒ Vizualizare erori"
+=======
+msgstr "⇒ Vezi erorile"
+>>>>>>> upstream/18.0
 =======
 msgstr "⇒ Vezi erorile"
 >>>>>>> upstream/18.0

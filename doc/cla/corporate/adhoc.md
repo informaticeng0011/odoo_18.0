@@ -33,7 +33,10 @@ Felipe García Suez feg@adhoc.com.ar https://github.com/feg-adhoc
 Franco Leyes lef@adhoc.com.ar https://github.com/lef-adhoc
 Julia Elizondo jue@adhoc.com.ar https://github.com/jue-adhoc
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 Juan José Scarafía jjs@adhoc.inc https://github.com/jjscarafia
 Nicolás Mac Rouillon nmr@adhoc.inc https://github.com/nicomacr
 Katherine Zaoral kz@adhoc.inc https://github.com/zaoral
@@ -51,4 +54,7 @@ Matías Velazquez mav@adhoc.inc https://github.com/mav-adhoc
 Felipe García Suez feg@adhoc.inc https://github.com/feg-adhoc
 Franco Leyes lef@adhoc.inc https://github.com/lef-adhoc
 Julia Elizondo jue@adhoc.inc https://github.com/jue-adhoc
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

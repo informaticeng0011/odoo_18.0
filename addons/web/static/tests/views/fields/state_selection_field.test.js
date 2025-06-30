@@ -141,11 +141,14 @@ test("StateSelectionField with readonly modifier", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".dropdown-menu").not.toBeVisible();
     await click(".o_field_state_selection span.o_status");
     await animationFrame();
     expect(".dropdown-menu").not.toBeVisible();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174,6 +177,9 @@ test("StateSelectionField with readonly modifier", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

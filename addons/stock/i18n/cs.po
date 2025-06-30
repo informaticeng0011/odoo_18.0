@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Denis Gobin, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +282,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Radim Bílý, 2025
 # Vojtěch Olšan, 2025
 # Denis Gobin, 2025
@@ -318,6 +321,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -482,6 +488,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Marta Wacławek, 2025\n"
 =======
 "Last-Translator: Vojtěch Olšan, 2025\n"
@@ -587,6 +594,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Denis Gobin, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Marta Wacławek, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -751,7 +761,11 @@ msgstr ""
 #: code:addons/stock/models/stock_lot.py:0
 msgid " - Product: %(product)s, Lot/Serial Number: %(lot)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - Produkt: %(product)s, Šarže/Sériové Číslo: %(lot)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " - Produkt: %(product)s, Šarže/Sériové Číslo: %(lot)s"
 >>>>>>> upstream/18.0
@@ -770,7 +784,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking__return_count
 msgid "# Returns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Vrácení zboží"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Vrácení zboží"
 >>>>>>> upstream/18.0
@@ -786,7 +804,11 @@ msgstr "%(name)s (kopie)(%(id)s)"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence cross dock"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Sekvenční cross dock"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Sekvenční cross dock"
 >>>>>>> upstream/18.0
@@ -796,7 +818,11 @@ msgstr "%(name)s Sekvenční cross dock"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence in"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence příjmu – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence příjmu – %(name)s"
 >>>>>>> upstream/18.0
@@ -806,7 +832,11 @@ msgstr "Sekvence příjmu – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence internal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vnitřní sekvence – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnitřní sekvence – %(name)s"
 >>>>>>> upstream/18.0
@@ -816,7 +846,11 @@ msgstr "Vnitřní sekvence – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence výdeje – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence výdeje – %(name)s"
 >>>>>>> upstream/18.0
@@ -826,7 +860,11 @@ msgstr "Sekvence výdeje – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence packing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence balení – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence balení – %(name)s"
 >>>>>>> upstream/18.0
@@ -836,7 +874,11 @@ msgstr "Sekvence balení – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence vychystávání – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence vychystávání – %(name)s"
 >>>>>>> upstream/18.0
@@ -846,7 +888,11 @@ msgstr "Sekvence vychystávání – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence quality control"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence kontroly kvality – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence kontroly kvality – %(name)s"
 >>>>>>> upstream/18.0
@@ -856,7 +902,11 @@ msgstr "Sekvence kontroly kvality – %(name)s"
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "%(name)s Sequence storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvence uskladnění – %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvence uskladnění – %(name)s"
 >>>>>>> upstream/18.0
@@ -869,6 +919,11 @@ msgid ""
 " %(warehouse)s, therefore you cannot archive it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(operations)s má výchozí zdrojové nebo cílové umístění v rámci skladu "
+"%(warehouse)s a proto ji nemůžete archivovat."
+>>>>>>> upstream/18.0
 =======
 "%(operations)s má výchozí zdrojové nebo cílové umístění v rámci skladu "
 "%(warehouse)s a proto ji nemůžete archivovat."
@@ -879,7 +934,11 @@ msgstr ""
 #: code:addons/stock/models/stock_scrap.py:0
 msgid "%(product)s: Insufficient Quantity To Scrap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Nedostatečné množství k likvidaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Nedostatečné množství k likvidaci"
 >>>>>>> upstream/18.0
@@ -898,7 +957,11 @@ msgstr ""
 #: code:addons/stock/models/stock_picking.py:0
 msgid "%(warehouse)s Sequence %(code)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(warehouse)s Sekvence %(code)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(warehouse)s Sekvence %(code)s"
 >>>>>>> upstream/18.0
@@ -983,7 +1046,11 @@ msgid "%s days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet dnů: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet dnů: %s"
 >>>>>>> upstream/18.0
@@ -1120,6 +1187,11 @@ msgstr "Počet dnů: %s"
 msgid "%s: Can't split: quantities done can't be above demand"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: Nelze rozdělit: vykonané množství nesmí být větší než požadované "
+"množství"
+>>>>>>> upstream/18.0
 =======
 "%s: Nelze rozdělit: vykonané množství nesmí být větší než požadované "
 "množství"
@@ -1133,6 +1205,11 @@ msgid ""
 "line not fully fulfilled"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: Není co rozdělit, veškerá poptávka je splněna. Pro rozdělení potřebujete"
+" alespoň jeden řádek, který není zcela splněn"
+>>>>>>> upstream/18.0
 =======
 "%s: Není co rozdělit, veškerá poptávka je splněna. Pro rozdělení potřebujete"
 " alespoň jeden řádek, který není zcela splněn"
@@ -1146,6 +1223,11 @@ msgid ""
 "done quantities"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s: Není co rozdělit. Vyplňte požadovaná množství v novém převodu do "
+"vykonaných množství"
+>>>>>>> upstream/18.0
 =======
 "%s: Není co rozdělit. Vyplňte požadovaná množství v novém převodu do "
 "vykonaných množství"
@@ -1199,7 +1281,11 @@ msgstr "(kopie) %s"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(document barcode)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(čárový kód dokumentu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(čárový kód dokumentu)"
 >>>>>>> upstream/18.0
@@ -1209,7 +1295,11 @@ msgstr "(čárový kód dokumentu)"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(package barcode)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(čárový kód balení)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(čárový kód balení)"
 >>>>>>> upstream/18.0
@@ -1218,7 +1308,11 @@ msgstr "(čárový kód balení)"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(product barcode)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(čárový kód produktu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(čárový kód produktu)"
 >>>>>>> upstream/18.0
@@ -1227,7 +1321,11 @@ msgstr "(čárový kód produktu)"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(serial barcode)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(čárový kód série)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(čárový kód série)"
 >>>>>>> upstream/18.0
@@ -1340,7 +1438,11 @@ msgid "12.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12.0"
+>>>>>>> upstream/18.0
 =======
 msgstr "12.0"
 >>>>>>> upstream/18.0
@@ -1498,7 +1600,11 @@ msgid "1234567890"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1234567890"
+>>>>>>> upstream/18.0
 =======
 msgstr "1234567890"
 >>>>>>> upstream/18.0
@@ -1714,7 +1820,11 @@ msgid "12345678901"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12345678901"
+>>>>>>> upstream/18.0
 =======
 msgstr "12345678901"
 >>>>>>> upstream/18.0
@@ -1848,7 +1958,11 @@ msgid "2021-9-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2021-9-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2021-9-01"
 >>>>>>> upstream/18.0
@@ -1982,7 +2096,11 @@ msgid "2023-09-24"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-09-24"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-09-24"
 >>>>>>> upstream/18.0
@@ -2094,7 +2212,11 @@ msgstr "4 x 12"
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__lot_label_format__4x12_lots
 msgid "4 x 12 - One per lot/SN"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 - Jedna za šarži/sériové číslo"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12 - Jedna za šarži/sériové číslo"
 >>>>>>> upstream/18.0
@@ -2103,7 +2225,11 @@ msgstr "4 x 12 - Jedna za šarži/sériové číslo"
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__lot_label_format__4x12_units
 msgid "4 x 12 - One per unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 - Jedna za jednotku"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12 - Jedna za jednotku"
 >>>>>>> upstream/18.0
@@ -2152,7 +2278,11 @@ msgid "54326786758"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "54326786758"
+>>>>>>> upstream/18.0
 =======
 msgstr "54326786758"
 >>>>>>> upstream/18.0
@@ -2263,6 +2393,11 @@ msgid ""
 "                Want to speed up operations?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                Chcete urychlit operace?"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                Chcete urychlit operace?"
@@ -2286,6 +2421,11 @@ msgid ""
 " to bring the missing quantity in this location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br>Pokud produkty nejsou k dispozici v <b>%s</b>, bude spuštěno pravidlo, "
+"které dodá chybějící množství na toto místo."
+>>>>>>> upstream/18.0
 =======
 "<br>Pokud produkty nejsou k dispozici v <b>%s</b>, bude spuštěno pravidlo, "
 "které dodá chybějící množství na toto místo."
@@ -2299,6 +2439,11 @@ msgid ""
 "specified from <b>%(operation)s</b> destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br>Produkty budou přesunuty směrem k <b>%(destination)s</b>, <br/> jak je "
+"uvedeno z <b>%(operation)s</b> místa určení."
+>>>>>>> upstream/18.0
 =======
 "<br>Produkty budou přesunuty směrem k <b>%(destination)s</b>, <br/> jak je "
 "uvedeno z <b>%(operation)s</b> místa určení."
@@ -2380,7 +2525,11 @@ msgstr "<span class=\"col-6\">Čekající</span>"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Scannable Package Contents</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_form_label\">Skenovatelný obsah balíčku</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_form_label\">Skenovatelný obsah balíčku</span>"
 >>>>>>> upstream/18.0
@@ -2389,7 +2538,11 @@ msgstr "<span class=\"o_form_label\">Skenovatelný obsah balíčku</span>"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "<span class=\"o_stat_text\">Allocation</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Alokace</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Alokace</span>"
 >>>>>>> upstream/18.0
@@ -2405,7 +2558,11 @@ msgstr "<span class=\"o_stat_text\">Předpovězeno</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">In:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">V:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">V:</span>"
 >>>>>>> upstream/18.0
@@ -2414,7 +2571,11 @@ msgstr "<span class=\"o_stat_text\">V:</span>"
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
 msgid "<span class=\"o_stat_text\">Location</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Místo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Místo</span>"
 >>>>>>> upstream/18.0
@@ -2431,7 +2592,11 @@ msgstr "<span class=\"o_stat_text\">Šarže / Sériová čísla</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Max:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Max:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Max:</span>"
 >>>>>>> upstream/18.0
@@ -2441,7 +2606,11 @@ msgstr "<span class=\"o_stat_text\">Max:</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Min:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Min:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Min:</span>"
 >>>>>>> upstream/18.0
@@ -2455,7 +2624,11 @@ msgstr "<span class=\"o_stat_text\">Pohyby</span>"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "<span class=\"o_stat_text\">Next Transfer</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Další přesun</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Další přesun</span>"
 >>>>>>> upstream/18.0
@@ -2487,7 +2660,11 @@ msgstr "<span class=\"o_stat_text\">Přesuny produktů</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Putaway Rules</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pravidla odkládání</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pravidla odkládání</span>"
 >>>>>>> upstream/18.0
@@ -2496,7 +2673,11 @@ msgstr "<span class=\"o_stat_text\">Pravidla odkládání</span>"
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "<span class=\"o_stat_text\">Routes</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Trasy</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Trasy</span>"
 >>>>>>> upstream/18.0
@@ -2505,7 +2686,11 @@ msgstr "<span class=\"o_stat_text\">Trasy</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Storage Capacities</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Skladovací kapacity</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Skladovací kapacity</span>"
 >>>>>>> upstream/18.0
@@ -2515,7 +2700,11 @@ msgstr "<span class=\"o_stat_text\">Skladovací kapacity</span>"
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
 msgid "<span class=\"o_stat_text\">Traceability</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sledovatelnost</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sledovatelnost</span>"
 >>>>>>> upstream/18.0
@@ -2560,7 +2749,11 @@ msgid "<span>OBTRETU</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>OBTRETU</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>OBTRETU</span>"
 >>>>>>> upstream/18.0
@@ -2709,7 +2902,11 @@ msgid "<span>days</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>dní</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>dní</span>"
 >>>>>>> upstream/18.0
@@ -2825,7 +3022,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Customer Address</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adresa zákazníka</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adresa zákazníka</strong>"
 >>>>>>> upstream/18.0
@@ -2860,7 +3061,11 @@ msgstr "<strong>šarže / sériové číslo</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_warehouse_orderpoint_kanban
 msgid "<strong>Max qty:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Max. množství:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Max. množství:</strong>"
 >>>>>>> upstream/18.0
@@ -2869,7 +3074,11 @@ msgstr "<strong>Max. množství:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_warehouse_orderpoint_kanban
 msgid "<strong>Min qty:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Min. množství:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Min. množství:</strong>"
 >>>>>>> upstream/18.0
@@ -2879,7 +3088,11 @@ msgstr "<strong>Min. množství:</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Order</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Objednávka</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Objednávka</strong>"
 >>>>>>> upstream/18.0
@@ -2915,7 +3128,11 @@ msgstr "<strong>Množství</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Recipient address</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adresa příjemce</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adresa příjemce</strong>"
 >>>>>>> upstream/18.0
@@ -2929,7 +3146,11 @@ msgstr "<strong>Plánované datum</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "<strong>Shipping Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Datum odeslání</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Datum odeslání</strong>"
 >>>>>>> upstream/18.0
@@ -2964,7 +3185,11 @@ msgstr "<strong>Sledovaný produkt (produkty):</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Vendor Address</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adresa dodavatele</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adresa dodavatele</strong>"
 >>>>>>> upstream/18.0
@@ -2974,7 +3199,11 @@ msgstr "<strong>Adresa dodavatele</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Warehouse Address</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Adresa skladu</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Adresa skladu</strong>"
 >>>>>>> upstream/18.0
@@ -2998,7 +3227,11 @@ msgstr "? To může vést k nesrovnalostem v inventáři."
 #: model:ir.model.constraint,message:stock.constraint_stock_package_type_barcode_uniq
 msgid "A barcode can only be assigned to one package type!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čárový kód lze přiřadit pouze jednomu typu balení!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čárový kód lze přiřadit pouze jednomu typu balení!"
 >>>>>>> upstream/18.0
@@ -3014,7 +3247,11 @@ msgstr "Pravidlo doplňování již existuje u produktu v této lokaci."
 #: model:ir.model.fields,help:stock.field_stock_move__is_storable
 msgid "A storable product is a product for which you manage stock."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skladovatelný produkt je produkt, u kterého spravujete zásoby."
+>>>>>>> upstream/18.0
 =======
 msgstr "Skladovatelný produkt je produkt, u kterého spravujete zásoby."
 >>>>>>> upstream/18.0
@@ -3084,7 +3321,11 @@ msgstr "Ikona typu aktivity"
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_view_activity
 msgid "Activity view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pohled aktivity"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pohled aktivity"
 >>>>>>> upstream/18.0
@@ -3150,7 +3391,11 @@ msgstr ""
 #: code:addons/stock/static/src/fields/stock_move_line_x2_many_field.js:0
 msgid "Add line: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Přidat řádek: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přidat řádek: %s"
 >>>>>>> upstream/18.0
@@ -3291,7 +3536,11 @@ msgstr "Vždy"
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "Andrwep"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Andrwep"
+>>>>>>> upstream/18.0
 =======
 msgstr "Andrwep"
 >>>>>>> upstream/18.0
@@ -3332,7 +3581,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
 msgid "Any Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jakákoliv kategorie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jakákoliv kategorie"
 >>>>>>> upstream/18.0
@@ -3387,6 +3640,10 @@ msgid ""
 "routes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Místo výchozí trasy produktu použijte specifické cesty(u) pro doplnění."
+>>>>>>> upstream/18.0
 =======
 "Místo výchozí trasy produktu použijte specifické cesty(u) pro doplnění."
 >>>>>>> upstream/18.0
@@ -3416,7 +3673,11 @@ msgstr "Archivováno"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Are you sure you want to cancel this transfer?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opravdu chcete tento převod zrušit?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opravdu chcete tento převod zrušit?"
 >>>>>>> upstream/18.0
@@ -3470,7 +3731,11 @@ msgstr "Při potvrzení"
 #: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
 msgid "At Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U zákazníka"
+>>>>>>> upstream/18.0
 =======
 msgstr "U zákazníka"
 >>>>>>> upstream/18.0
@@ -3507,7 +3772,11 @@ msgstr "Automatický tisk dodacího listu"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_lot_labels
 msgid "Auto Print Lot/SN Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk šarže /sériového čísla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk šarže /sériového čísla"
 >>>>>>> upstream/18.0
@@ -3516,7 +3785,11 @@ msgstr "Automatický tisk šarže /sériového čísla"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_package_label
 msgid "Auto Print Package Label"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk štítků na balíky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk štítků na balíky"
 >>>>>>> upstream/18.0
@@ -3525,7 +3798,11 @@ msgstr "Automatický tisk štítků na balíky"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_packages
 msgid "Auto Print Packages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk balíků"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk balíků"
 >>>>>>> upstream/18.0
@@ -3534,7 +3811,11 @@ msgstr "Automatický tisk balíků"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_product_labels
 msgid "Auto Print Product Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk produktových štítků"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk produktových štítků"
 >>>>>>> upstream/18.0
@@ -3543,7 +3824,11 @@ msgstr "Automatický tisk produktových štítků"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_reception_report
 msgid "Auto Print Reception Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk zprávy o příjmu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk zprávy o příjmu"
 >>>>>>> upstream/18.0
@@ -3552,7 +3837,11 @@ msgstr "Automatický tisk zprávy o příjmu"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid "Auto Print Reception Report Labels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk štítků zpráv o příjmu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk štítků zpráv o příjmu"
 >>>>>>> upstream/18.0
@@ -3561,7 +3850,11 @@ msgstr "Automatický tisk štítků zpráv o příjmu"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_print_return_slip
 msgid "Auto Print Return Slip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatický tisk návratky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatický tisk návratky"
 >>>>>>> upstream/18.0
@@ -3614,6 +3907,10 @@ msgid ""
 "Available quantity should be set to zero before changing inventory tracking"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dostupné množství by mělo být před změnou sledování skladu nastaveno na nulu"
+>>>>>>> upstream/18.0
 =======
 "Dostupné množství by mělo být před změnou sledování skladu nastaveno na nulu"
 >>>>>>> upstream/18.0
@@ -3667,7 +3964,11 @@ msgstr "Čárové kódy"
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
 msgid "Barcode Demo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čárový kód demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čárový kód demo"
 >>>>>>> upstream/18.0
@@ -3696,7 +3997,11 @@ msgstr "Čárový kód je platný EAN"
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_picking_batch
 msgid "Batch, Wave & Cluster Transfers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dávkové, Vlnové a Shlukové převody"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dávkové, Vlnové a Shlukové převody"
 >>>>>>> upstream/18.0
@@ -3785,7 +4090,11 @@ msgstr "Odškrtnutím aktivního pole, můžete skrýt umístění bez jeho smaz
 #: code:addons/stock/models/stock_warehouse.py:0
 msgid "COPY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KOPIE"
+>>>>>>> upstream/18.0
 =======
 msgstr "KOPIE"
 >>>>>>> upstream/18.0
@@ -3840,7 +4149,11 @@ msgstr "Zrušeno"
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Cannot move an empty package"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prázdný balík nelze přesunout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prázdný balík nelze přesunout"
 >>>>>>> upstream/18.0
@@ -3850,7 +4163,11 @@ msgstr "Prázdný balík nelze přesunout"
 #: code:addons/stock/models/stock_quant.py:0
 msgid "Cannot remove the location of a non empty package"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nelze odstranit umístění neprázdného balíčku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nelze odstranit umístění neprázdného balíčku"
 >>>>>>> upstream/18.0
@@ -3920,6 +4237,11 @@ msgid ""
 " allowed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Změna čísla šarže/sériového čísla u přesunových řádků s různými produkty "
+"není povolena."
+>>>>>>> upstream/18.0
 =======
 "Změna čísla šarže/sériového čísla u přesunových řádků s různými produkty "
 "není povolena."
@@ -3958,6 +4280,11 @@ msgid ""
 "(i.e. a barcode containing multiple barcode encodings)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Znaky používané k oddělení dat obsažených v agregovaném čárovém kódu (tj. "
+"čárovém kódu obsahujícím více kódování čárových kódů)."
+>>>>>>> upstream/18.0
 =======
 "Znaky používané k oddělení dat obsažených v agregovaném čárovém kódu (tj. "
 "čárovém kódu obsahujícím více kódování čárových kódů)."
@@ -3985,6 +4312,11 @@ msgid ""
 "Check this box if you want to generate shipping label in this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaškrtněte toto políčko, pokud chcete v rámci této operace vygenerovat "
+"přepravní štítek."
+>>>>>>> upstream/18.0
 =======
 "Zaškrtněte toto políčko, pokud chcete v rámci této operace vygenerovat "
 "přepravní štítek."
@@ -4061,7 +4393,11 @@ msgstr "Zavřít"
 #: model:product.removal,name:stock.removal_closest
 msgid "Closest Location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nejbližší umístění"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nejbližší umístění"
 >>>>>>> upstream/18.0
@@ -4169,7 +4505,11 @@ msgid "Compute shipping costs and ship with Starshipit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spočítat dopravní náklady a odeslat s Starshipit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spočítat dopravní náklady a odeslat s Starshipit"
 >>>>>>> upstream/18.0
@@ -4411,7 +4751,11 @@ msgstr "Počet"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__count_move_ready
 msgid "Count Move Ready"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet připravených přesunů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet připravených přesunů"
 >>>>>>> upstream/18.0
@@ -4491,7 +4835,11 @@ msgstr "Vytvořit nová produktová / seriová čísla"
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_form
 msgid "Create Stock"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit zásoby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit zásoby"
 >>>>>>> upstream/18.0
@@ -4800,7 +5148,11 @@ msgid "DEMO_DATE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_DATE"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_DATE"
 >>>>>>> upstream/18.0
@@ -4944,7 +5296,11 @@ msgid "DEMO_ORIGIN_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_ORIGIN_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_ORIGIN_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -5118,7 +5474,11 @@ msgid "DEMO_PARTNER_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_PARTNER_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_PARTNER_NAME"
 >>>>>>> upstream/18.0
@@ -5262,7 +5622,11 @@ msgid "DEMO_PRODUCT_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_PRODUCT_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_PRODUCT_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -5436,7 +5800,11 @@ msgid "DEMO_QUANTITY"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_QUANTITY"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_QUANTITY"
 >>>>>>> upstream/18.0
@@ -5580,7 +5948,11 @@ msgid "DEMO_SOURCE_DISPLAY_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_SOURCE_DISPLAY_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_SOURCE_DISPLAY_NAME"
 >>>>>>> upstream/18.0
@@ -5754,7 +6126,11 @@ msgid "DEMO_UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_UOM"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_UOM"
 >>>>>>> upstream/18.0
@@ -6024,7 +6400,11 @@ msgid "Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uzávěrka"
+=======
+msgstr "Termín"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termín"
 >>>>>>> upstream/18.0
@@ -6525,7 +6905,11 @@ msgid "Demo Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobrazovací název demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovací název demo"
 >>>>>>> upstream/18.0
@@ -8157,7 +8541,11 @@ msgid "Internal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Převodky"
+=======
+msgstr "Vnitropodnikové"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vnitropodnikové"
 >>>>>>> upstream/18.0
@@ -8697,7 +9085,11 @@ msgid "Laptop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Laptop"
+>>>>>>> upstream/18.0
 =======
 msgstr "Laptop"
 >>>>>>> upstream/18.0
@@ -9406,7 +9798,11 @@ msgid "Mark as Todo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Označit jako 'úkol'"
+=======
+msgstr "Označit jako 'Připraveno'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označit jako 'Připraveno'"
 >>>>>>> upstream/18.0
@@ -12987,7 +13383,11 @@ msgid "Starshipit Connector"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starshipit konektor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starshipit konektor"
 >>>>>>> upstream/18.0
@@ -14392,7 +14792,11 @@ msgid "Transfer to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Přenést do"
+=======
+msgstr "Přeneseno na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Přeneseno na"
 >>>>>>> upstream/18.0
@@ -16001,7 +16405,11 @@ msgid "barcodelookup.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "barcodelookup.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "barcodelookup.com"
 >>>>>>> upstream/18.0

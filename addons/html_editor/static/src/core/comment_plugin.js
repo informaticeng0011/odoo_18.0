@@ -14,7 +14,10 @@ export class CommentPlugin extends Plugin {
                 el.remove();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

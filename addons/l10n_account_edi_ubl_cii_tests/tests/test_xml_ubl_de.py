@@ -138,7 +138,10 @@ class TestUBLDE(TestUBLCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_import_invoice_new(self):
@@ -146,6 +149,9 @@ class TestUBLDE(TestUBLCommon):
         self.test_export_import_invoice()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191,7 +197,10 @@ class TestUBLDE(TestUBLCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_import_invoice_without_vat_and_peppol_endpoint_new(self):
@@ -199,6 +208,9 @@ class TestUBLDE(TestUBLCommon):
         self.test_export_import_invoice_without_vat_and_peppol_endpoint()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -262,7 +274,10 @@ class TestUBLDE(TestUBLCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_import_refund_new(self):
@@ -270,6 +285,9 @@ class TestUBLDE(TestUBLCommon):
         self.test_export_import_refund()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

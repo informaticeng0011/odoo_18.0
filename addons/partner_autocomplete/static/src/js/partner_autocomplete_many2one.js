@@ -6,6 +6,10 @@ import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { useService } from "@web/core/utils/hooks";
 >>>>>>> upstream/18.0
@@ -27,6 +31,10 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
         super.setup();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.orm = useService("orm");
+>>>>>>> upstream/18.0
 =======
         this.orm = useService("orm");
 >>>>>>> upstream/18.0
@@ -89,7 +97,10 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -98,6 +109,9 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
                 context.default_category_id = await this.orm.call("res.partner", "iap_partner_autocomplete_add_tags", [[], unspsc_codes]);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

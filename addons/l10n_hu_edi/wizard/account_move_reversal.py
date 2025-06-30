@@ -6,7 +6,10 @@ class AccountMoveReversal(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _prepare_default_reversal(self, move):
@@ -18,6 +21,9 @@ class AccountMoveReversal(models.TransientModel):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

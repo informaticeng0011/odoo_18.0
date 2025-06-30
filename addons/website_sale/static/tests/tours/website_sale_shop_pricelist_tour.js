@@ -17,6 +17,10 @@ registry.category("web_tour.tours").add(
                 run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -34,7 +38,12 @@ registry.category("web_tour.tours").add(
                     document.querySelector('.oe_login_form').submit();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 }
+=======
+                },
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 },
                 expectUnloadPage: true,

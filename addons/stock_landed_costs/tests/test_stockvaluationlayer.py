@@ -5,9 +5,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo import fields
@@ -16,6 +19,9 @@ from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsComm
 from freezegun import freeze_time
 import time
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -678,7 +684,10 @@ class TestStockValuationLCFIFOVB(TestStockValuationLCCommon):
         self.assertEqual(lc.cost_lines.price_unit, 10)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -770,6 +779,9 @@ class TestAccountInvoicingWithCOA(TestStockValuationLCCommon):
             {'account_id': payable_acc_id, 'balance': -230.0, 'amount_currency': -115},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -45,6 +45,10 @@ registry.category("web_tour.tours").add("test_company_switch_access_error", {
             run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

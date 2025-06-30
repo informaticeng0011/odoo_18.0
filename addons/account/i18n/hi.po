@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Thomas Becquevort, 2025
 >>>>>>> upstream/18.0
@@ -252,6 +253,11 @@
 =======
 # Thomas Becquevort, 2025
 # Pandya Rahul <pandyarahul4u@gmail.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Thomas Becquevort, 2025
+# Pandya Rahul <pandyarahul4u@gmail.com>, 2025
+# Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
 =======
 # Thomas Becquevort, 2025
@@ -293,6 +299,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,6 +645,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-20 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Ujjawal Pathak, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -656,12 +668,18 @@ msgid ""
 "You might want to specify a default account on journal \"%(journal)s\" to automatically balance each move."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "\n"
 "मूव (%(move)s) बैलेंस नहीं है..\n"
 "डेबिट का कुल योग %(debit_total)s के बराबर है और क्रेडिट का कुल योग %(credit_total)s के बराबर है.\n"
 "आप अपने जर्नल %(journal)s में एक खाता सेट कर सकते हैं, ताकि हर एंट्री अपने-आप बैलेंस हो जाए."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -675,13 +693,19 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "        कस्टमर इनवॉइस जर्नल के लिए 'सेल' को चुनें.\n"
 "        वेंडर बिल जर्नल के लिए 'परचेज़' को चुनें.\n"
 "        उन जर्नल के लिए 'कैश', 'बैंक' या 'क्रेडिट कार्ड' चुनें जिनका इस्तेमाल ग्राहकों या वेंडर को भुगतान करने के लिए किया जाता है.\n"
 "        अन्य छोटे-मोटे या सामान्य लेनदेन के लिए 'जनरल' चुनें.\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -699,7 +723,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "    - टैक्स का समूह: टैक्स में कई सब टैक्स हैं.\n"
 "    - फिक्स्ड: टैक्स की रकम सामान की कीमत बदलने पर भी वही रहती है, उसमें कोई बदलाव नहीं आता.\n"
@@ -710,6 +737,9 @@ msgstr ""
 "        जैसे 180 / (1 - 10%) = 200 (कीमत शामिल नहीं है)\n"
 "        जैसे 200 * (1 - 10%) = 180 (कीमत शामिल है)\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -758,7 +788,11 @@ msgid "# Reconciled Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समाधानित बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "समाधानित बिल"
 >>>>>>> upstream/18.0
@@ -887,7 +921,11 @@ msgid "# Reconciled Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समाधान किए गए चालान"
+>>>>>>> upstream/18.0
 =======
 msgstr "समाधान किए गए चालान"
 >>>>>>> upstream/18.0
@@ -986,7 +1024,11 @@ msgstr "समाधान किए गए चालान"
 #: model:ir.model.fields,field_description:account.field_account_payment__reconciled_statement_lines_count
 msgid "# Reconciled Statement Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# मिलाए जा चुके स्टेटमेंट की लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "# मिलाए जा चुके स्टेटमेंट की लाइन"
 >>>>>>> upstream/18.0
@@ -999,7 +1041,11 @@ msgid "# Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# वेंडर बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "# वेंडर बिल"
 >>>>>>> upstream/18.0
@@ -1024,7 +1070,11 @@ msgstr "%s द्वारा निर्मित"
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "%(action)s for journal %(journal)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल %(journal)s के लिए %(action)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल %(journal)s के लिए %(action)s"
 >>>>>>> upstream/18.0
@@ -1037,7 +1087,11 @@ msgid "%(amount)s Excl. Taxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(amount)s टैक्स को छोड़कर"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(amount)s टैक्स को छोड़कर"
 >>>>>>> upstream/18.0
@@ -1062,7 +1116,11 @@ msgstr "%(amount)s कर सहित"
 #: code:addons/account/models/account_move.py:0
 msgid "%(amount)s due %(date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(amount)s बाकी है %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(amount)s बाकी है %(date)s"
 >>>>>>> upstream/18.0
@@ -1075,6 +1133,11 @@ msgid ""
 "%(date)s)%(attachment_extension)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(attachment_name)s (%(date)s को %(user)s ने हटा "
+"दिया)%(attachment_extension)s"
+>>>>>>> upstream/18.0
 =======
 "%(attachment_name)s (%(date)s को %(user)s ने हटा "
 "दिया)%(attachment_extension)s"
@@ -1085,7 +1148,11 @@ msgstr ""
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "%(exception)s for %(user)s%(end_datetime_string)s%(reason)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exception)s के लिए %(user)s%(end_datetime_string)s%(reason)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exception)s के लिए %(user)s%(end_datetime_string)s%(reason)s."
 >>>>>>> upstream/18.0
@@ -1098,6 +1165,11 @@ msgid ""
 "To be consistent, the journal entry must always have exactly one suspense line."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(move)s नाम का लेन-देन अपनी जुड़ी हुई स्टेटमेंट लाइन के साथ सही स्थिति में नहीं है.\n"
+"इसे ठीक करने के लिए, हर जर्नल एंट्री में हमेशा सिर्फ एक 'सस्पेंस' लाइन होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 "%(move)s नाम का लेन-देन अपनी जुड़ी हुई स्टेटमेंट लाइन के साथ सही स्थिति में नहीं है.\n"
 "इसे ठीक करने के लिए, हर जर्नल एंट्री में हमेशा सिर्फ एक 'सस्पेंस' लाइन होनी चाहिए."
@@ -1108,7 +1180,11 @@ msgstr ""
 #: code:addons/account/models/account_move_line.py:0
 msgid "%(name)s installment #%(number)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s इंस्टॉलमेंट #%(number)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s इंस्टॉलमेंट #%(number)s"
 >>>>>>> upstream/18.0
@@ -1121,6 +1197,11 @@ msgid ""
 "%(quantity_received)s Received at %(unit_price)s each"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(order)s - %(order_line)s; %(quantity_billed)s बिलिंग बनाई गई, हर यूनिट के "
+"लिए %(unit_price)s के दर से%(quantity_received)s यूनिट मिले"
+>>>>>>> upstream/18.0
 =======
 "%(order)s - %(order_line)s; %(quantity_billed)s बिलिंग बनाई गई, हर यूनिट के "
 "लिए %(unit_price)s के दर से%(quantity_received)s यूनिट मिले"
@@ -1134,6 +1215,11 @@ msgid ""
 "%(quantity_delivered)s Delivered at %(unit_price)s each"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(order)s - %(order_line)s; %(quantity_invoiced)s इनवॉइस बनाई गई, हर यूनिट "
+"के लिए %(unit_price)s के दर से %(quantity_delivered)s यूनिट डिलीवर की गई"
+>>>>>>> upstream/18.0
 =======
 "%(order)s - %(order_line)s; %(quantity_invoiced)s इनवॉइस बनाई गई, हर यूनिट "
 "के लिए %(unit_price)s के दर से %(quantity_delivered)s यूनिट डिलीवर की गई"
@@ -1145,6 +1231,10 @@ msgstr ""
 msgid "%(partner_name)s has reached its credit limit of: %(credit_limit)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(partner_name)s ने अपनी क्रेडिट लिमिट पूरी कर ली है: %(credit_limit)s"
+>>>>>>> upstream/18.0
 =======
 "%(partner_name)s ने अपनी क्रेडिट लिमिट पूरी कर ली है: %(credit_limit)s"
 >>>>>>> upstream/18.0
@@ -1154,7 +1244,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "%(ref)s (%(currency_amount)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(ref)s (%(currency_amount)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(ref)s (%(currency_amount)s)"
 >>>>>>> upstream/18.0
@@ -1164,6 +1258,7 @@ msgstr "%(ref)s (%(currency_amount)s)"
 #: code:addons/account/models/account_account_tag.py:0
 msgid "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -1249,10 +1344,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "%(tag)s (%(country_code)s)"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: code:addons/account/models/account_tax.py:0
 msgid ""
@@ -1260,6 +1360,7 @@ msgid ""
 "\"%(receivable)s\" or \"%(payable)s\" with both options "
 "\"%(allow_reconciliation)s\" and \"%(non_trade)s\" enabled."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #. module: account
@@ -1347,6 +1448,8 @@ msgstr ""
 msgid "%(tax_name)s (rounding)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "आपके टैक्स खाते %(tax_account)s (%(account_name)s)  को या तो "
 "\"%(receivable)s\" या \"%(payable)s\" खाते जैसे होना चाहिए. इसमें "
 "\"%(allow_reconciliation)s\" और \"%(non_trade)s\" विकल्प चालू होने चाहिए."
@@ -1356,13 +1459,20 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "%(tax_name)s (rounding)"
 msgstr "%(tax_name)s (राउंड किया जा रहा है)"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid "%<span class=\"px-3\"/>("
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%<span class=\"px-3\"/>("
+>>>>>>> upstream/18.0
 =======
 msgstr "%<span class=\"px-3\"/>("
 >>>>>>> upstream/18.0
@@ -1372,7 +1482,11 @@ msgstr "%<span class=\"px-3\"/>("
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "%d moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%d मूव्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "%d मूव्स"
 >>>>>>> upstream/18.0
@@ -1382,7 +1496,11 @@ msgstr "%d मूव्स"
 #: code:addons/account/models/account_tax.py:0
 msgid "%s (Copy)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -1395,7 +1513,11 @@ msgstr "%s (कॉपी)"
 #: code:addons/account/models/account_reconcile_model.py:0
 msgid "%s (copy)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s (कॉपी)"
 >>>>>>> upstream/18.0
@@ -1405,7 +1527,11 @@ msgstr "%s (कॉपी)"
 #: code:addons/account/models/sequence_mixin.py:0
 msgid "%s is not a stored field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s एक स्टोर किया गया फ़ील्ड नहीं है"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s एक स्टोर किया गया फ़ील्ड नहीं है"
 >>>>>>> upstream/18.0
@@ -1416,7 +1542,11 @@ msgstr "%s एक स्टोर किया गया फ़ील्ड न�
 #: code:addons/account/models/partner.py:0
 msgid "%s, or / if not applicable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s, या / अगर लागू नहीं हो"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s, या / अगर लागू नहीं हो"
 >>>>>>> upstream/18.0
@@ -1425,7 +1555,11 @@ msgstr "%s, या / अगर लागू नहीं हो"
 #: model:ir.actions.server,name:account.action_move_block_payment
 msgid "(Un)Block Payment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट ब्लॉक या अनब्लॉक करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट ब्लॉक या अनब्लॉक करें"
 >>>>>>> upstream/18.0
@@ -1435,7 +1569,11 @@ msgstr "पेमेंट ब्लॉक या अनब्लॉक कर�
 #: code:addons/account/models/account_report.py:0
 msgid "(copy)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(कॉपी)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(कॉपी)"
 >>>>>>> upstream/18.0
@@ -1444,7 +1582,11 @@ msgstr "(कॉपी)"
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "(from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(से"
+>>>>>>> upstream/18.0
 =======
 msgstr "(से"
 >>>>>>> upstream/18.0
@@ -1453,7 +1595,11 @@ msgstr "(से"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "(included)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(शामिल है)."
+>>>>>>> upstream/18.0
 =======
 msgstr "(शामिल है)."
 >>>>>>> upstream/18.0
@@ -1463,7 +1609,11 @@ msgstr "(शामिल है)."
 #: model:ir.actions.report,print_report_name:account.account_invoices_without_payment
 msgid "(object._get_report_base_filename())"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(object._get_report_base_filename())"
+>>>>>>> upstream/18.0
 =======
 msgstr "(object._get_report_base_filename())"
 >>>>>>> upstream/18.0
@@ -1472,7 +1622,11 @@ msgstr "(object._get_report_base_filename())"
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid ").<br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ").<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ").<br/>"
 >>>>>>> upstream/18.0
@@ -1482,7 +1636,11 @@ msgstr ").<br/>"
 #: code:addons/account/models/account_tax.py:0
 msgid "- %(name)s in %(company)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- %(company)s में %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "- %(company)s में %(name)s"
 >>>>>>> upstream/18.0
@@ -1499,6 +1657,12 @@ msgid ""
 "automating line creation with the right account &amp; tax."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"- एक नया फ़ील्ड है, जिसका नाम है \"कुल (टैक्स सहित)\". यह फ़ील्ड आपकी काम "
+"करने की गति बढ़ाएगा और गलतियों को कम करेगा. यह सही खाते और टैक्स के साथ "
+"लाइनों को अपने-आप बनाएगा."
+>>>>>>> upstream/18.0
 =======
 "- एक नया फ़ील्ड है, जिसका नाम है \"कुल (टैक्स सहित)\". यह फ़ील्ड आपकी काम "
 "करने की गति बढ़ाएगा और गलतियों को कम करेगा. यह सही खाते और टैक्स के साथ "
@@ -1509,7 +1673,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "- Installment of"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- इंस्टॉलमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "- इंस्टॉलमेंट"
 >>>>>>> upstream/18.0
@@ -1518,7 +1686,11 @@ msgstr "- इंस्टॉलमेंट"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "- The document's sequence becomes editable on all documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- आप किसी भी दस्तावेज़ के क्रम संख्या को बदल सकते हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "- आप किसी भी दस्तावेज़ के क्रम संख्या को बदल सकते हैं."
 >>>>>>> upstream/18.0
@@ -1527,7 +1699,11 @@ msgstr "- आप किसी भी दस्तावेज़ के क्�
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "-> View partially reconciled entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> उन एंट्रीज़ को देखें जो अभी तक पूरी तरह से मिली नहीं हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "-> उन एंट्रीज़ को देखें जो अभी तक पूरी तरह से मिली नहीं हैं"
 >>>>>>> upstream/18.0
@@ -1541,18 +1717,28 @@ msgid ""
 "    <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 ".\n"
 "    <br/>\n"
 "    --\n"
 "    <br/>ॊ"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ". कृपया देखें कि यह जानबूझकर किया गया है, न कि गलती से."
+>>>>>>> upstream/18.0
 =======
 msgstr ". कृपया देखें कि यह जानबूझकर किया गया है, न कि गलती से."
 >>>>>>> upstream/18.0
@@ -1564,6 +1750,11 @@ msgid ""
 "your company's currency."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+". आपकी कंपनी की करेंसी में एंट्री डालने से पहले, Odoo को उन सभी का हिसाब "
+"करना होगा."
+>>>>>>> upstream/18.0
 =======
 ". आपकी कंपनी की करेंसी में एंट्री डालने से पहले, Odoo को उन सभी का हिसाब "
 "करना होगा."
@@ -1579,7 +1770,11 @@ msgstr "। आपको यहां बड़ी संख्या डाल�
 #: code:addons/account/wizard/account_resequence.py:0
 msgid "... (%(nb_of_values)s other)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "... (%(nb_of_values)s अन्य)"
+>>>>>>> upstream/18.0
 =======
 msgstr "... (%(nb_of_values)s अन्य)"
 >>>>>>> upstream/18.0
@@ -1589,7 +1784,11 @@ msgstr "... (%(nb_of_values)s अन्य)"
 #: code:addons/account/static/src/components/x2many_buttons/x2many_buttons.xml:0
 msgid "... (View all)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "... (सभी देखें)"
+>>>>>>> upstream/18.0
 =======
 msgstr "... (सभी देखें)"
 >>>>>>> upstream/18.0
@@ -1600,7 +1799,11 @@ msgstr "... (सभी देखें)"
 #: code:addons/account/models/partner.py:0
 msgid "/ if not applicable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "/ अगर लागू नहीं हो"
+>>>>>>> upstream/18.0
 =======
 msgstr "/ अगर लागू नहीं हो"
 >>>>>>> upstream/18.0
@@ -1609,7 +1812,11 @@ msgstr "/ अगर लागू नहीं हो"
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
 msgid "1.05"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1.05"
+>>>>>>> upstream/18.0
 =======
 msgstr "1.05"
 >>>>>>> upstream/18.0
@@ -1626,7 +1833,11 @@ msgid "100.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100.0"
+>>>>>>> upstream/18.0
 =======
 msgstr "100.0"
 >>>>>>> upstream/18.0
@@ -1647,7 +1858,11 @@ msgid "100.00 USD"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100.00 डॉलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "100.00 डॉलर"
 >>>>>>> upstream/18.0
@@ -1668,7 +1883,11 @@ msgid "1000.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1000.0"
+>>>>>>> upstream/18.0
 =======
 msgstr "1000.0"
 >>>>>>> upstream/18.0
@@ -1689,7 +1908,11 @@ msgid "11.05"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "11.05"
+>>>>>>> upstream/18.0
 =======
 msgstr "11.05"
 >>>>>>> upstream/18.0
@@ -1710,7 +1933,11 @@ msgid "12345"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12345"
+>>>>>>> upstream/18.0
 =======
 msgstr "12345"
 >>>>>>> upstream/18.0
@@ -1731,7 +1958,11 @@ msgid "15 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "15 दिन"
 >>>>>>> upstream/18.0
@@ -1753,7 +1984,11 @@ msgid "15%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15%"
+>>>>>>> upstream/18.0
 =======
 msgstr "15%"
 >>>>>>> upstream/18.0
@@ -1774,7 +2009,11 @@ msgid "1500.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1500.0"
+>>>>>>> upstream/18.0
 =======
 msgstr "1500.0"
 >>>>>>> upstream/18.0
@@ -1792,7 +2031,11 @@ msgstr "1500.0"
 #: model:account.payment.term,name:account.account_payment_term_30days_early_discount
 msgid "2/7 Net 30"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2/7 कुल 30"
+>>>>>>> upstream/18.0
 =======
 msgstr "2/7 कुल 30"
 >>>>>>> upstream/18.0
@@ -1804,7 +2047,11 @@ msgid "20.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "20.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "20.00"
 >>>>>>> upstream/18.0
@@ -1825,7 +2072,11 @@ msgid "2021-09-19"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "19-09-2021"
+>>>>>>> upstream/18.0
 =======
 msgstr "19-09-2021"
 >>>>>>> upstream/18.0
@@ -1843,7 +2094,11 @@ msgstr "19-09-2021"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "2023-01-01"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "01-01-2023`"
+>>>>>>> upstream/18.0
 =======
 msgstr "01-01-2023`"
 >>>>>>> upstream/18.0
@@ -1852,7 +2107,11 @@ msgstr "01-01-2023`"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "2023-01-05"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "05-01-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "05-01-2023"
 >>>>>>> upstream/18.0
@@ -1861,7 +2120,11 @@ msgstr "05-01-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "2023-08-11"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "11-08-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "11-08-2023"
 >>>>>>> upstream/18.0
@@ -1870,7 +2133,11 @@ msgstr "11-08-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "2023-08-15"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15-08-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "15-08-2023"
 >>>>>>> upstream/18.0
@@ -1879,7 +2146,11 @@ msgstr "15-08-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "2023-08-31"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "31-08-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "31-08-2023"
 >>>>>>> upstream/18.0
@@ -1888,7 +2159,11 @@ msgstr "31-08-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "2023-09-12"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12-09-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "12-09-2023"
 >>>>>>> upstream/18.0
@@ -1897,7 +2172,11 @@ msgstr "12-09-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "2023-09-25"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25-09-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "25-09-2023"
 >>>>>>> upstream/18.0
@@ -1906,7 +2185,11 @@ msgstr "25-09-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "2023-10-31"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "31-10-2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "31-10-2023"
 >>>>>>> upstream/18.0
@@ -1915,7 +2198,11 @@ msgstr "31-10-2023"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "2024-01-01"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "01-01-2024"
+>>>>>>> upstream/18.0
 =======
 msgstr "01-01-2024"
 >>>>>>> upstream/18.0
@@ -1927,7 +2214,11 @@ msgid "21 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "21 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "21 दिन"
 >>>>>>> upstream/18.0
@@ -1948,7 +2239,11 @@ msgid "25.0 USD"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25.0 डॉलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "25.0 डॉलर"
 >>>>>>> upstream/18.0
@@ -1969,7 +2264,11 @@ msgid "25.00 USD"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25.00 डॉलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "25.00 डॉलर"
 >>>>>>> upstream/18.0
@@ -1992,7 +2291,11 @@ msgid "27.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "27.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "27.00"
 >>>>>>> upstream/18.0
@@ -2013,7 +2316,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.00"
 >>>>>>> upstream/18.0
@@ -2034,7 +2341,11 @@ msgid "30 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "30 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "30 दिन"
 >>>>>>> upstream/18.0
@@ -2052,7 +2363,11 @@ msgstr "30 दिन"
 #: model:account.payment.term,name:account.account_payment_term_advance
 msgid "30% Advance End of Following Month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "महीने की आखिरी तारीख आपको 30% पैसे पहले ही देने होंगे"
+>>>>>>> upstream/18.0
 =======
 msgstr "महीने की आखिरी तारीख आपको 30% पैसे पहले ही देने होंगे"
 >>>>>>> upstream/18.0
@@ -2061,7 +2376,11 @@ msgstr "महीने की आखिरी तारीख आपको 30% 
 #: model:account.payment.term,name:account.account_payment_term_advance_60days
 msgid "30% Now, Balance 60 Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "30% अभी, बचे हुए 60 दिन के बाद "
+>>>>>>> upstream/18.0
 =======
 msgstr "30% अभी, बचे हुए 60 दिन के बाद "
 >>>>>>> upstream/18.0
@@ -2073,7 +2392,11 @@ msgid "30.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "30.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "30.00"
 >>>>>>> upstream/18.0
@@ -2096,7 +2419,11 @@ msgid "31.05"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "31.05"
+>>>>>>> upstream/18.0
 =======
 msgstr "31.05"
 >>>>>>> upstream/18.0
@@ -2118,7 +2445,11 @@ msgid "4.05"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4.05"
+>>>>>>> upstream/18.0
 =======
 msgstr "4.05"
 >>>>>>> upstream/18.0
@@ -2139,7 +2470,11 @@ msgid "45 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "45 दिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "45 दिन"
 >>>>>>> upstream/18.0
@@ -2160,7 +2495,11 @@ msgid "50 USD"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50 डॉलर"
+>>>>>>> upstream/18.0
 =======
 msgstr "50 डॉलर"
 >>>>>>> upstream/18.0
@@ -2181,7 +2520,11 @@ msgid "50.00 EUR"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "50.00 यूरो"
+>>>>>>> upstream/18.0
 =======
 msgstr "50.00 यूरो"
 >>>>>>> upstream/18.0
@@ -2202,7 +2545,11 @@ msgid "534677881234"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "534677881234"
+>>>>>>> upstream/18.0
 =======
 msgstr "534677881234"
 >>>>>>> upstream/18.0
@@ -2223,7 +2570,11 @@ msgid "9.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "9.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "9.00"
 >>>>>>> upstream/18.0
@@ -2241,7 +2592,11 @@ msgstr "9.00"
 #: model:account.payment.term,name:account.account_payment_term_90days_on_the_10th
 msgid "90 days, on the 10th"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "90 दिन, 10वें"
+>>>>>>> upstream/18.0
 =======
 msgstr "90 दिन, 10वें"
 >>>>>>> upstream/18.0
@@ -2254,6 +2609,11 @@ msgid ""
 "#704A66;'>%(date)s</b>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>%(count)s#</b> <b>%(amount)s</b> की किश्त <b style='color: "
+"#704A66;'>%(date)s</b> तक बाकी है"
+>>>>>>> upstream/18.0
 =======
 "<b>%(count)s#</b> <b>%(amount)s</b> की किश्त <b style='color: "
 "#704A66;'>%(date)s</b> तक बाकी है"
@@ -2263,7 +2623,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<br/> इस खाते पर :"
+>>>>>>> upstream/18.0
 =======
 msgstr "<br/> इस खाते पर :"
 >>>>>>> upstream/18.0
@@ -2386,7 +2750,11 @@ msgid "<em>Draft Invoice</em>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<em>ड्रॉफ़्ट इनवॉइस</em>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<em>ड्रॉफ़्ट इनवॉइस</em>"
 >>>>>>> upstream/18.0
@@ -2417,7 +2785,11 @@ msgid "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-clock-o\" aria-label=\"Date\" role=\"img\" title=\"Date\"/>"
 >>>>>>> upstream/18.0
@@ -2438,7 +2810,11 @@ msgid "<i class=\"fa fa-download\"/> Download"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-download\"/> डाउनलोड करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-download\"/> डाउनलोड करें"
 >>>>>>> upstream/18.0
@@ -2459,6 +2835,11 @@ msgid ""
 "                                    <span class=\"d-none d-md-inline\"> Paid</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> पैसे चुका दिए गए</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> पैसे चुका दिए गए</span>"
@@ -2471,6 +2852,11 @@ msgid ""
 "                                    <span class=\"d-none d-md-inline\"> Reversed</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> रिवर्स्ड</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" aria-label=\"Reversed\" title=\"Reversed\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> रिवर्स्ड</span>"
@@ -2483,6 +2869,11 @@ msgid ""
 "                                    <span class=\"d-none d-md-inline\"> Processing Payment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> पेमेंट प्रोसेस हो रहा है</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" aria-label=\"processing_payment\" title=\"Processing Payment\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> पेमेंट प्रोसेस हो रहा है</span>"
@@ -2495,6 +2886,11 @@ msgid ""
 "                                    <span class=\"d-none d-md-inline\"> Waiting for Payment</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
+"                                    <span class=\"d-none d-md-inline\"> पेमेंट का इंतज़ार किया जा रहा है</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> पेमेंट का इंतज़ार किया जा रहा है</span>"
@@ -2508,6 +2904,12 @@ msgid ""
 "                        You also have the option to disable the feature for all vendors in the accounting settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
+"                        परेशान ना हों, आप बाद में वेंडर के फ़ॉर्म में जाकर यह सेटिंग बदल सकते हैं.\n"
+"                        साथ ही, आपके पास अकाउंटिंग सेटिंग्स में जाकर सभी वेंडर के लिए इस सुविधा को बंद करने का विकल्प भी है."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-lightbulb-o\" role=\"img\"/>\n"
 "                        परेशान ना हों, आप बाद में वेंडर के फ़ॉर्म में जाकर यह सेटिंग बदल सकते हैं.\n"
@@ -2521,7 +2923,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>वापस सेटिंग पर जाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>वापस सेटिंग पर जाएं"
 >>>>>>> upstream/18.0
@@ -2545,6 +2951,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                                                प्रीव्यू"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                                                प्रीव्यू"
@@ -2568,6 +2979,11 @@ msgid ""
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configure Alias Domain"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> एलियास डोमेन कॉन्फ़िगर "
+"करें"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> एलियास डोमेन कॉन्फ़िगर "
 "करें"
@@ -2581,6 +2997,12 @@ msgid ""
 "                </small>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small class=\"form-text text-muted\">\n"
+"                    आप यह चुन सकते हैं कि हम आपको इनवॉइस किस तरीके से भेजें और किस डिजिटल फ़ॉर्मेट में भेजें.\n"
+"                </small>"
+>>>>>>> upstream/18.0
 =======
 "<small class=\"form-text text-muted\">\n"
 "                    आप यह चुन सकते हैं कि हम आपको इनवॉइस किस तरीके से भेजें और किस डिजिटल फ़ॉर्मेट में भेजें.\n"
@@ -2596,11 +3018,17 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge rounded-pill text-bg-warning\">\n"
 "                                    <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
 "                                    <span class=\"d-none d-md-inline\"> रद्द किया गया</span>\n"
 "                                </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -2612,11 +3040,17 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"d-flex gap-2 w-100\">\n"
 "                            <span invisible=\"allow_out_payment\" class=\"text-muted\">भरोसेमंद नहीं है</span>\n"
 "                            <span invisible=\"not allow_out_payment\" class=\"text-success\">भरोसेमंद</span>\n"
 "                        </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -2626,6 +3060,11 @@ msgid ""
 "statements and alerts.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"figure-caption\">ऑटोमेटेड स्टेटमेंट और अलर्ट के ज़रिए आप कभी "
+"कोई डेडलाइन नहीं भूलेंगे.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"figure-caption\">ऑटोमेटेड स्टेटमेंट और अलर्ट के ज़रिए आप कभी "
 "कोई डेडलाइन नहीं भूलेंगे.</span>"
@@ -2639,6 +3078,12 @@ msgid ""
 "                                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
+"                                        <span groups=\"base.group_multi_currency\">में </span>\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">में </span>\n"
@@ -2652,6 +3097,11 @@ msgid ""
 "or invoice_payment_term_id\"> or </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
+"or invoice_payment_term_id\"> या </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
 "or invoice_payment_term_id\"> या </span>"
@@ -2671,6 +3121,11 @@ msgid ""
 "'fixed'\">%</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label oe_inline\" invisible=\"amount_type == "
+"'fixed'\">%</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label oe_inline\" invisible=\"amount_type == "
 "'fixed'\">%</span>"
@@ -2683,6 +3138,11 @@ msgid ""
 "'between'\">and</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" invisible=\"match_amount != "
+"'between'\">और</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label\" invisible=\"match_amount != "
 "'between'\">और</span>"
@@ -2692,7 +3152,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "<span class=\"o_form_label\">Changed Lock Date:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_form_label\">लॉक डेट बदला गया:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_form_label\">लॉक डेट बदला गया:</span>"
 >>>>>>> upstream/18.0
@@ -2708,6 +3172,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                        ऑडिट\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                        ऑडिट\n"
@@ -2740,6 +3210,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                        बैलेंस\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                        बैलेंस\n"
@@ -2772,6 +3248,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                        टैक्स\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                                        टैक्स\n"
@@ -2800,7 +3282,11 @@ msgid "<span class=\"o_stat_text\">1 Payment</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">1 पेमें</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">1 पेमें</span>"
 >>>>>>> upstream/18.0
@@ -2821,7 +3307,11 @@ msgid "<span class=\"o_stat_text\">Cash Basis Entries</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Cash Basis Entries</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Cash Basis Entries</span>"
 >>>>>>> upstream/18.0
@@ -2842,7 +3332,11 @@ msgid "<span class=\"o_stat_text\">Invoiced</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">इनवॉइस बनाया गया</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">इनवॉइस बनाया गया</span>"
 >>>>>>> upstream/18.0
@@ -2863,7 +3357,11 @@ msgid "<span class=\"o_stat_text\">Journal Entries</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">जनरल एंट्री</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">जनरल एंट्री</span>"
 >>>>>>> upstream/18.0
@@ -2884,7 +3382,11 @@ msgid "<span class=\"o_stat_text\">Journal Entry</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">जनरल एंट्री</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">जनरल एंट्री</span>"
 >>>>>>> upstream/18.0
@@ -2902,7 +3404,11 @@ msgstr "<span class=\"o_stat_text\">जनरल एंट्री</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span class=\"o_stat_text\">Reconciled Items</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">मिलान किए गए आइटम</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">मिलान किए गए आइटम</span>"
 >>>>>>> upstream/18.0
@@ -2914,7 +3420,11 @@ msgid "<span class=\"o_stat_text\">Transaction</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ट्रांज़ैक्शन</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">ट्रांज़ैक्शन</span>"
 >>>>>>> upstream/18.0
@@ -2932,7 +3442,11 @@ msgstr "<span class=\"o_stat_text\">ट्रांज़ैक्शन</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid "<span class=\"text-danger\">High risk</span>:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-danger\">ज़्यादा खतरा</span>:"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-danger\">ज़्यादा खतरा</span>:"
 >>>>>>> upstream/18.0
@@ -2945,6 +3459,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted ms-2\">\n"
+"                                <i>शामिल करके, </i> उन्हें ऐसा बनाया जाए कि बाद में बदला न जा सके\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted ms-2\">\n"
 "                                <i>शामिल करके, </i> उन्हें ऐसा बनाया जाए कि बाद में बदला न जा सके\n"
@@ -2959,6 +3479,12 @@ msgid ""
 "                            </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">\n"
+"                                <i></i> तक एंट्री को सुरक्षित करें\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">\n"
 "                                <i></i> तक एंट्री को सुरक्षित करें\n"
@@ -2972,6 +3498,11 @@ msgid ""
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">11,750.00</span></span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
@@ -2984,6 +3515,11 @@ msgid ""
 "class=\"oe_currency_value\">19,250.00</span></span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">19,250.00</span></span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">19,250.00</span></span>"
@@ -3002,6 +3538,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-nowrap\">$ <span "
+"class=\"oe_currency_value\">7,500.00</span></span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">7,500.00</span></span>"
@@ -3041,7 +3582,11 @@ msgid "<span class=\"text-nowrap\">1,500.00</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">1,500.00</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">1,500.00</span>"
 >>>>>>> upstream/18.0
@@ -3074,7 +3619,11 @@ msgid "<span class=\"text-nowrap\">2,350.00</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">2,350.00</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">2,350.00</span>"
 >>>>>>> upstream/18.0
@@ -3101,7 +3650,11 @@ msgstr "<span class=\"text-nowrap\">2,350.00</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 msgid "<span class=\"text-warning\">Medium risk</span>: Iban"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-warning\">मध्यम खतरा</span>: Iban"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-warning\">मध्यम खतरा</span>: Iban"
 >>>>>>> upstream/18.0
@@ -3112,6 +3665,11 @@ msgid ""
 "<span invisible=\"name or name_placeholder or quick_edit_mode\">Draft</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"name or name_placeholder or "
+"quick_edit_mode\">ड्रॉफ़्ट</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"name or name_placeholder or "
 "quick_edit_mode\">ड्रॉफ़्ट</span>"
@@ -3124,7 +3682,11 @@ msgid "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 >>>>>>> upstream/18.0
@@ -3142,7 +3704,11 @@ msgstr "<span invisible=\"nb_unmodified_bills &lt; 10\">10+</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 msgid "<span invisible=\"not early_discount\"> % if paid within </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not early_discount\"> % अगर </span> तक चुका दिया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"not early_discount\"> % अगर </span> तक चुका दिया गया"
 >>>>>>> upstream/18.0
@@ -3154,7 +3720,11 @@ msgid "<span invisible=\"not early_discount\"> days</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not early_discount\"> दिन</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"not early_discount\"> दिन</span>"
 >>>>>>> upstream/18.0
@@ -3175,6 +3745,11 @@ msgid ""
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> Credit Note</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"reconciled_invoices_type != 'invoice'\"> इनवॉइस</span>\n"
+"                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> क्रेडिट नोट</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"reconciled_invoices_type != 'invoice'\"> इनवॉइस</span>\n"
 "                                        <span invisible=\"reconciled_invoices_type == 'invoice'\"> क्रेडिट नोट</span>"
@@ -3191,7 +3766,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "<span invisible=\"user_id\">everyone</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"user_id\">सभी के लिए</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"user_id\">सभी के लिए</span>"
 >>>>>>> upstream/18.0
@@ -3203,7 +3782,11 @@ msgid "<span role=\"separator\">New</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span role=\"separator\">नया</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span role=\"separator\">नया</span>"
 >>>>>>> upstream/18.0
@@ -3221,7 +3804,11 @@ msgstr "<span role=\"separator\">नया</span>"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span role=\"separator\">View</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span role=\"separator\">देखें</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span role=\"separator\">देखें</span>"
 >>>>>>> upstream/18.0
@@ -3230,7 +3817,11 @@ msgstr "<span role=\"separator\">देखें</span>"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Latest Statement\">Last Statement</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span title=\"Latest Statement\">आखिरी स्टेटमेंट</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span title=\"Latest Statement\">आखिरी स्टेटमेंट</span>"
 >>>>>>> upstream/18.0
@@ -3239,7 +3830,11 @@ msgstr "<span title=\"Latest Statement\">आखिरी स्टेटमे�
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
 msgid "<span> (CR)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> (क्रेडिट)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> (क्रेडिट)</span>"
 >>>>>>> upstream/18.0
@@ -3248,7 +3843,11 @@ msgstr "<span> (क्रेडिट)</span>"
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_view_kanban
 msgid "<span> (DR)</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> (डेबिट)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> (डेबिट)</span>"
 >>>>>>> upstream/18.0
@@ -3263,7 +3862,11 @@ msgid "<span> = </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> = </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> = </span>"
 >>>>>>> upstream/18.0
@@ -3290,7 +3893,11 @@ msgstr "<span> = </span>"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "<span> Bill</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> बिल</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> बिल</span>"
 >>>>>>> upstream/18.0
@@ -3299,7 +3906,11 @@ msgstr "<span> बिल</span>"
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
 msgid "<span> From </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> </span> से"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> </span> से"
 >>>>>>> upstream/18.0
@@ -3308,7 +3919,11 @@ msgstr "<span> </span> से"
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
 msgid "<span> To </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> से </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> से </span>"
 >>>>>>> upstream/18.0
@@ -3317,7 +3932,11 @@ msgstr "<span> से </span>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span> due on </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>  </span> बकाया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>  </span> बकाया है"
 >>>>>>> upstream/18.0
@@ -3327,7 +3946,11 @@ msgstr "<span>  </span> बकाया है"
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
 msgid "<span> on </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>  </span> पर"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>  </span> पर"
 >>>>>>> upstream/18.0
@@ -3336,7 +3959,11 @@ msgstr "<span>  </span> पर"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 >>>>>>> upstream/18.0
@@ -3345,7 +3972,11 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>1 </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>1 </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>1 </span>"
 >>>>>>> upstream/18.0
@@ -3354,7 +3985,11 @@ msgstr "<span>1 </span>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<span>5.00</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>5.00</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>5.00</span>"
 >>>>>>> upstream/18.0
@@ -3364,6 +3999,11 @@ msgstr "<span>5.00</span>"
 msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक "
+"पूरे कर लिए हैं.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span><b>शाबाश!</b> आपने इस पूरे गाइड या प्रक्रिया के सारे कदम सफलतापूर्वक "
 "पूरे कर लिए हैं.</span>"
@@ -3373,7 +4013,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount In Currency</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>करंसी में राशि</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>करंसी में राशि</span>"
 >>>>>>> upstream/18.0
@@ -3392,7 +4036,11 @@ msgid "<span>Balance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>बैलेंस</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>बैलेंस</span>"
 >>>>>>> upstream/18.0
@@ -3414,7 +4062,11 @@ msgid "<span>Description</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>विवरण</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>विवरण</span>"
 >>>>>>> upstream/18.0
@@ -3435,7 +4087,11 @@ msgid "<span>Disc.%</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>छूट%</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>छूट%</span>"
 >>>>>>> upstream/18.0
@@ -3456,7 +4112,11 @@ msgid "<span>Draft</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ड्राफ़्ट</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ड्राफ़्ट</span>"
 >>>>>>> upstream/18.0
@@ -3477,7 +4137,11 @@ msgid "<span>Invoice Date</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>इनवॉइस की तारीख</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>इनवॉइस की तारीख</span>"
 >>>>>>> upstream/18.0
@@ -3498,7 +4162,11 @@ msgid "<span>Invoice Number</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>इनवॉइस की संख्या</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>इनवॉइस की संख्या</span>"
 >>>>>>> upstream/18.0
@@ -3519,7 +4187,11 @@ msgid "<span>New</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>नया</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>नया</span>"
 >>>>>>> upstream/18.0
@@ -3540,7 +4212,11 @@ msgid "<span>Operations</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ऑपरेश</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ऑपरेश</span>"
 >>>>>>> upstream/18.0
@@ -3559,7 +4235,11 @@ msgstr "<span>ऑपरेश</span>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Quantity</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>क्वांटिटी</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>क्वांटिटी</span>"
 >>>>>>> upstream/18.0
@@ -3568,7 +4248,11 @@ msgstr "<span>क्वांटिटी</span>"
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Reference</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>रेफ़रंस</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>रेफ़रंस</span>"
 >>>>>>> upstream/18.0
@@ -3577,7 +4261,11 @@ msgstr "<span>रेफ़रंस</span>"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Reporting</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>रिपोर्टिंग</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>रिपोर्टिंग</span>"
 >>>>>>> upstream/18.0
@@ -3586,7 +4274,11 @@ msgstr "<span>रिपोर्टिंग</span>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<span>Tax 0%</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>टैक्स 0%</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>टैक्स 0%</span>"
 >>>>>>> upstream/18.0
@@ -3596,7 +4288,11 @@ msgstr "<span>टैक्स 0%</span>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Taxes</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>टैक्स</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>टैक्स</span>"
 >>>>>>> upstream/18.0
@@ -3608,6 +4304,11 @@ msgid ""
 "installing Accounting. Its balance has been imported separately.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>यह एंट्री इनवॉइसिंग ऐप्लिकेशन से तब बनी थी जब अकाउंटिंग सिस्टम शुरू "
+"नहीं हुआ था. इसका हिसाब-किताब बाद में अलग से जोड़ा गया है.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>यह एंट्री इनवॉइसिंग ऐप्लिकेशन से तब बनी थी जब अकाउंटिंग सिस्टम शुरू "
 "नहीं हुआ था. इसका हिसाब-किताब बाद में अलग से जोड़ा गया है.</span>"
@@ -3617,7 +4318,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
 msgid "<span>This is a preview of your Terms &amp; Conditions.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>यह आपकी शर्तों और नियमों की झलक है.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>यह आपकी शर्तों और नियमों की झलक है.</span>"
 >>>>>>> upstream/18.0
@@ -3627,7 +4332,11 @@ msgstr "<span>यह आपकी शर्तों और नियमों �
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "<span>This payment has the same partner, amount and date as </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>इस पेमेंट के लिए वही पार्टनर, रकम और तारीख है जो </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>इस पेमेंट के लिए वही पार्टनर, रकम और तारीख है जो </span>"
 >>>>>>> upstream/18.0
@@ -3637,7 +4346,11 @@ msgstr "<span>इस पेमेंट के लिए वही पार्�
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Unit Price</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>यूनिट की कीमत</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>यूनिट की कीमत</span>"
 >>>>>>> upstream/18.0
@@ -3646,7 +4359,11 @@ msgstr "<span>यूनिट की कीमत</span>"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>View</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>देखें</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>देखें</span>"
 >>>>>>> upstream/18.0
@@ -3654,6 +4371,7 @@ msgstr "<span>देखें</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span>Warning: this document might be a duplicate of</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -3862,6 +4580,8 @@ msgstr ""
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<span>चेतावनी: यह दस्तावेज़ इसकी डुप्लिकेट हो सकती है:</span>"
 
 #. module: account
@@ -3873,13 +4593,20 @@ msgstr "<strong class=\"d-block mt-3\">शिपिंग के लिए प�
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
 msgstr "<strong class=\"mr16\">सबटोटल</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Credit Note Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>क्रेडिट नोट की तारीख</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>क्रेडिट नोट की तारीख</strong>"
 >>>>>>> upstream/18.0
@@ -3888,7 +4615,11 @@ msgstr "<strong>क्रेडिट नोट की तारीख</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Customer Code</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>कस्टमर कोड</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>कस्टमर कोड</strong>"
 >>>>>>> upstream/18.0
@@ -3897,7 +4628,11 @@ msgstr "<strong>कस्टमर कोड</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>तारीख</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>तारीख</strong>"
 >>>>>>> upstream/18.0
@@ -3906,7 +4641,11 @@ msgstr "<strong>तारीख</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Delivery Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>डिलीवरी की तारीख</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>डिलीवरी की तारीख</strong>"
 >>>>>>> upstream/18.0
@@ -3915,7 +4654,11 @@ msgstr "<strong>डिलीवरी की तारीख</strong>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<strong>Due Date:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>आखिरी दिन:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>आखिरी दिन:</strong>"
 >>>>>>> upstream/18.0
@@ -3924,7 +4667,11 @@ msgstr "<strong>आखिरी दिन:</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Due Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>आखिरी दिन</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>आखिरी दिन</strong>"
 >>>>>>> upstream/18.0
@@ -3933,7 +4680,11 @@ msgstr "<strong>आखिरी दिन</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "<strong>Ending Balance</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>एंडिंग बैलेंस</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>एंडिंग बैलेंस</strong>"
 >>>>>>> upstream/18.0
@@ -3942,7 +4693,11 @@ msgstr "<strong>एंडिंग बैलेंस</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Incoterm</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>इंकोटर्म</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>इंकोटर्म</strong>"
 >>>>>>> upstream/18.0
@@ -3951,7 +4706,11 @@ msgstr "<strong>इंकोटर्म</strong>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<strong>Invoice Date:</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>इनवॉइस की तारीख:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>इनवॉइस की तारीख:</strong>"
 >>>>>>> upstream/18.0
@@ -3960,7 +4719,11 @@ msgstr "<strong>इनवॉइस की तारीख:</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Invoice Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>इनवॉइस की तारीख</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>इनवॉइस की तारीख</strong>"
 >>>>>>> upstream/18.0
@@ -3969,7 +4732,11 @@ msgstr "<strong>इनवॉइस की तारीख</strong>"
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Receipt Date</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>रसीद की तारीख</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>रसीद की तारीख</strong>"
 >>>>>>> upstream/18.0
@@ -3977,6 +4744,7 @@ msgstr "<strong>रसीद की तारीख</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Reference</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -4089,19 +4857,28 @@ msgstr ""
 msgid "<strong>Source</strong>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>रेफ़रंस</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Source</strong>"
 msgstr "<strong>सोर्स</strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "<strong>Starting Balance</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>स्टार्टिंग बैलेंस</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>स्टार्टिंग बैलेंस</strong>"
 >>>>>>> upstream/18.0
@@ -4110,7 +4887,11 @@ msgstr "<strong>स्टार्टिंग बैलेंस</strong>"
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
 msgid "<strong>Subtotal</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>सबटोटल</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>सबटोटल</strong>"
 >>>>>>> upstream/18.0
@@ -4122,6 +4903,11 @@ msgid ""
 "                        Changing its rounding factor now will not change the rounding made on previous entries; possibly causing an inconsistency with the new ones."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>इस करेंसी का इस्तेमाल करके पहले ही अकाउंटिंग की एंट्रीज़ बनाई जा चुकी हैं.</strong><br/>\n"
+" अगर आप अब इसकी राउंडिंग सेटिंग बदलेंगे, तो पिछली एंट्रीज़ पर कोई असर नहीं पड़ेगा, लेकिन नई एंट्रीज़ में जो राउंडिंग होगी, वह पिछली एंट्रीज़ से अलग हो सकती है, जिससे डेटा में गड़बड़ी आ सकती है."
+>>>>>>> upstream/18.0
 =======
 "<strong>इस करेंसी का इस्तेमाल करके पहले ही अकाउंटिंग की एंट्रीज़ बनाई जा चुकी हैं.</strong><br/>\n"
 " अगर आप अब इसकी राउंडिंग सेटिंग बदलेंगे, तो पिछली एंट्रीज़ पर कोई असर नहीं पड़ेगा, लेकिन नई एंट्रीज़ में जो राउंडिंग होगी, वह पिछली एंट्रीज़ से अलग हो सकती है, जिससे डेटा में गड़बड़ी आ सकती है."
@@ -4133,7 +4919,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.document_tax_totals_template
 msgid "<strong>Total</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>कुल</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>कुल</strong>"
 >>>>>>> upstream/18.0
@@ -4141,6 +4931,7 @@ msgstr "<strong>कुल</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_account_kanban
 msgid "<strong>Type: </strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -4299,6 +5090,11 @@ msgstr "<strong>टाइप: </strong>"
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong>टाइप: </strong>"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "<strong>Warning:</strong> Once the Audit Trail is enabled, it cannot be "
@@ -4356,6 +5152,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4460,10 +5257,15 @@ msgstr ""
 msgid "@From: %(email)s"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "@From: %(email)s"
 msgstr "@From: %(email)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -4474,6 +5276,12 @@ msgid ""
 "                payments on a daily basis."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"एक कैश रजिस्टर की मदद से आप अपनी नकद लेन-देन वाली किताबों (कैश जर्नल) \n"
+"में पैसों के आने-जाने का रिकॉर्ड रख सकते हैं. यह तरीका रोज़ाना होने वाले नकद भुगतानों \n"
+"का हिसाब रखने में बहुत आसान बनाता है."
+>>>>>>> upstream/18.0
 =======
 "एक कैश रजिस्टर की मदद से आप अपनी नकद लेन-देन वाली किताबों (कैश जर्नल) \n"
 "में पैसों के आने-जाने का रिकॉर्ड रख सकते हैं. यह तरीका रोज़ाना होने वाले नकद भुगतानों \n"
@@ -4485,6 +5293,11 @@ msgstr ""
 msgid "A Ledger group name must be unique per company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"हर कंपनी में लेजर ग्रुप का नाम एक जैसा नहीं होना चाहिए, हर ग्रुप का नाम अलग "
+"होगा."
+>>>>>>> upstream/18.0
 =======
 "हर कंपनी में लेजर ग्रुप का नाम एक जैसा नहीं होना चाहिए, हर ग्रुप का नाम अलग "
 "होगा."
@@ -4497,6 +5310,11 @@ msgid ""
 "creating new records for this alias."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह एक पायथन डिक्शनरी है. जब आप इस 'एलियास' के लिए कोई नया डेटा डालेंगे, तो "
+"यह डिक्शनरी अपने-आप कुछ खाली जगहें भर देगी."
+>>>>>>> upstream/18.0
 =======
 "यह एक पायथन डिक्शनरी है. जब आप इस 'एलियास' के लिए कोई नया डेटा डालेंगे, तो "
 "यह डिक्शनरी अपने-आप कुछ खाली जगहें भर देगी."
@@ -4506,6 +5324,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "A bank account can belong to only one journal."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -4664,6 +5483,11 @@ msgstr "एक बैंक खाता सिर्फ एक ही जर्
 
 #. module: account
 >>>>>>> upstream/18.0
+=======
+msgstr "एक बैंक खाता सिर्फ एक ही जर्नल में इस्तेमाल हो सकता है."
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
@@ -4671,6 +5495,7 @@ msgid ""
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -4822,11 +5647,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "%(partner)s नाम के पार्टनर के लिए %(number)s खाता संख्या वाला एक बैंक खाता "
 "पहले से ही मौजूद है, लेकिन उसे आर्काइव कर दिया गया है. कृपया नया बनाने की "
 "बजाय, उसे अनआर्काइव करें."
 
 #. module: account
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
@@ -4835,6 +5665,12 @@ msgid ""
 "                should receive this periodically from your bank."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"बैंक स्टेटमेंट एक ऐसा दस्तावेज़ होता है जिसमें \n"
+"आपके बैंक खाते में एक खास समय (जैसे एक महीना या तिमाही) में हुए सभी पैसों के लेन-देन (जमा और निकासी) का पूरा ब्यौरा होता है. \n"
+"यह स्टेटमेंट आपको आपके बैंक से नियमित रूप से मिलना चाहिए."
+>>>>>>> upstream/18.0
 =======
 "बैंक स्टेटमेंट एक ऐसा दस्तावेज़ होता है जिसमें \n"
 "आपके बैंक खाते में एक खास समय (जैसे एक महीना या तिमाही) में हुए सभी पैसों के लेन-देन (जमा और निकासी) का पूरा ब्यौरा होता है. \n"
@@ -4849,6 +5685,12 @@ msgid ""
 "                should receive this periodically from your bank."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"क्रेडिट स्टेटमेंट एक ऐसा दस्तावेज़ होता है जिसमें \n"
+"आपके क्रेडिट खाते में एक खास समय (जैसे एक महीना या तिमाही) में हुए सभी पैसों के लेन-देन (जमा और निकासी) का पूरा ब्यौरा होता है. \n"
+"यह स्टेटमेंट आपको आपके बैंक से नियमित रूप से मिलना चाहिए."
+>>>>>>> upstream/18.0
 =======
 "क्रेडिट स्टेटमेंट एक ऐसा दस्तावेज़ होता है जिसमें \n"
 "आपके क्रेडिट खाते में एक खास समय (जैसे एक महीना या तिमाही) में हुए सभी पैसों के लेन-देन (जमा और निकासी) का पूरा ब्यौरा होता है. \n"
@@ -4868,6 +5710,11 @@ msgid ""
 "                which is either a debit or a credit transaction."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"एक एंट्री में कई छोटे-छोटे आइटम होते हैं. हर आइटम में \n"
+"या तो डेबिट होता है या क्रेडिट."
+>>>>>>> upstream/18.0
 =======
 "एक एंट्री में कई छोटे-छोटे आइटम होते हैं. हर आइटम में \n"
 "या तो डेबिट होता है या क्रेडिट."
@@ -4880,6 +5727,11 @@ msgid ""
 "                related to the day-to-day business."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"एक जर्नल एक ऐसा दस्तावेज़ है जहां किसी कारोबार के रोज़ाना के \n"
+"सभी वित्तीय लेन-देन का रिकॉर्ड रखा जाता है"
+>>>>>>> upstream/18.0
 =======
 "एक जर्नल एक ऐसा दस्तावेज़ है जहां किसी कारोबार के रोज़ाना के \n"
 "सभी वित्तीय लेन-देन का रिकॉर्ड रखा जाता है"
@@ -4891,6 +5743,11 @@ msgstr ""
 msgid "A line cannot have both children and a groupby value (line '%s')."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"किसी एक लाइन में एक साथ सब-आइटम और एक ग्रुपिंग वैल्यू (लाइन '%s') नहीं हो "
+"सकती है."
+>>>>>>> upstream/18.0
 =======
 "किसी एक लाइन में एक साथ सब-आइटम और एक ग्रुपिंग वैल्यू (लाइन '%s') नहीं हो "
 "सकती है."
@@ -4908,6 +5765,11 @@ msgstr ""
 msgid "A new Hard Lock Date must be posterior (or equal) to the previous one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"जब आप 'हार्ड लॉक डेट' सेट कर रहे हों, तो नई तारीख या तो पिछली 'हार्ड लॉक "
+"डेट' के बराबर होनी चाहिए या उससे बाद की तारीख होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 "जब आप 'हार्ड लॉक डेट' सेट कर रहे हों, तो नई तारीख या तो पिछली 'हार्ड लॉक "
 "डेट' के बराबर होनी चाहिए या उससे बाद की तारीख होनी चाहिए."
@@ -4918,6 +5780,11 @@ msgstr ""
 msgid "A note, whose content usually applies to the section or product above."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी "
+"होती है."
+>>>>>>> upstream/18.0
 =======
 "यह एक नोट है जो आम तौर पर अपने ठीक ऊपर बताए गए सेक्शन या प्रॉडक्ट से जुड़ी "
 "होती है."
@@ -4946,6 +5813,11 @@ msgid ""
 "journal entry."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"बकाया पेमेंट को तब तक कन्फ़र्म नहीं कर सकते जब तक उसकी जर्नल एंट्री न बन "
+"जाए."
+>>>>>>> upstream/18.0
 =======
 "बकाया पेमेंट को तब तक कन्फ़र्म नहीं कर सकते जब तक उसकी जर्नल एंट्री न बन "
 "जाए."
@@ -4955,7 +5827,11 @@ msgstr ""
 #: model:ir.model.constraint,message:account.constraint_account_reconcile_model_name_unique
 msgid "A reconciliation model already bears this name."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस नाम से एक रेकन्सिलीऐशन मॉडल पहले से है."
+>>>>>>> upstream/18.0
 =======
 msgstr "इस नाम से एक रेकन्सिलीऐशन मॉडल पहले से है."
 >>>>>>> upstream/18.0
@@ -4964,7 +5840,11 @@ msgstr "इस नाम से एक रेकन्सिलीऐशन म�
 #: model:ir.model.constraint,message:account.constraint_account_report_line_code_uniq
 msgid "A report line with the same code already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस कोड वाली रिपोर्ट लाइन पहले से बनी है."
+>>>>>>> upstream/18.0
 =======
 msgstr "इस कोड वाली रिपोर्ट लाइन पहले से बनी है."
 >>>>>>> upstream/18.0
@@ -4976,6 +5856,11 @@ msgid ""
 "the sum of line subtotals equals the total with taxes."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर आपकी कीमतों में टैक्स शामिल है, तो हर लाइन पर राउंडिंग करें. इससे सभी "
+"लाइनों का कुल जोड़, टैक्स के साथ पूरे बिल के जोड़ के बराबर आएगा."
+>>>>>>> upstream/18.0
 =======
 "अगर आपकी कीमतों में टैक्स शामिल है, तो हर लाइन पर राउंडिंग करें. इससे सभी "
 "लाइनों का कुल जोड़, टैक्स के साथ पूरे बिल के जोड़ के बराबर आएगा."
@@ -4985,7 +5870,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "A section title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन टाइटल"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन टाइटल"
 >>>>>>> upstream/18.0
@@ -4995,7 +5884,11 @@ msgstr "सेक्शन टाइटल"
 #: code:addons/account/models/account_lock_exception.py:0
 msgid "A single exception must change exactly one lock date field."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "किसी एक अपवाद से सिर्फ एक 'लॉक डेट' ही बदलनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 msgstr "किसी एक अपवाद से सिर्फ एक 'लॉक डेट' ही बदलनी चाहिए."
 >>>>>>> upstream/18.0
@@ -5005,7 +5898,11 @@ msgstr "किसी एक अपवाद से सिर्फ एक 'ल�
 #: code:addons/account/models/account_bank_statement.py:0
 msgid "A statement should only contain lines from the same journal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक स्टेटमेंट में सिर्फ एक ही जर्नल की एंट्रीज़ होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक स्टेटमेंट में सिर्फ एक ही जर्नल की एंट्रीज़ होनी चाहिए."
 >>>>>>> upstream/18.0
@@ -5015,7 +5912,11 @@ msgstr "एक स्टेटमेंट में सिर्फ एक ह�
 msgid ""
 "A tag with the same name and applicability already exists in this country."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इसी नाम और इस्तेमाल वाला टैग इस देश में पहले से मौजूद है."
+>>>>>>> upstream/18.0
 =======
 msgstr "इसी नाम और इस्तेमाल वाला टैग इस देश में पहले से मौजूद है."
 >>>>>>> upstream/18.0
@@ -5030,7 +5931,11 @@ msgstr ""
 #: code:addons/account/models/account_move_line.py:0
 msgid "A temporary number can not be used in a real matching"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक अस्थायी नंबर को असली मैचिंग में इस्तेमाल नहीं कर सकते"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक अस्थायी नंबर को असली मैचिंग में इस्तेमाल नहीं कर सकते"
 >>>>>>> upstream/18.0
@@ -5049,7 +5954,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move__abnormal_amount_partner_ids
 msgid "Abnormal Amount Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एबनॉर्मल अमाउंट पार्टनर"
+>>>>>>> upstream/18.0
 =======
 msgstr "एबनॉर्मल अमाउंट पार्टनर"
 >>>>>>> upstream/18.0
@@ -5059,7 +5968,11 @@ msgstr "एबनॉर्मल अमाउंट पार्टनर"
 #: model:ir.model.fields,field_description:account.field_account_move__abnormal_amount_warning
 msgid "Abnormal Amount Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एबनॉर्मल अमाउंट वॉर्निंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एबनॉर्मल अमाउंट वॉर्निंग"
 >>>>>>> upstream/18.0
@@ -5068,7 +5981,11 @@ msgstr "एबनॉर्मल अमाउंट वॉर्निंग"
 #: model:ir.model.fields,field_description:account.field_validate_account_move__abnormal_date_partner_ids
 msgid "Abnormal Date Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एबनॉर्मल डेट पार्टनर"
+>>>>>>> upstream/18.0
 =======
 msgstr "एबनॉर्मल डेट पार्टनर"
 >>>>>>> upstream/18.0
@@ -5078,7 +5995,11 @@ msgstr "एबनॉर्मल डेट पार्टनर"
 #: model:ir.model.fields,field_description:account.field_account_move__abnormal_date_warning
 msgid "Abnormal Date Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एबनॉर्मल डेट वॉर्निंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एबनॉर्मल डेट वॉर्निंग"
 >>>>>>> upstream/18.0
@@ -5087,7 +6008,11 @@ msgstr "एबनॉर्मल डेट वॉर्निंग"
 #: model:ir.model,name:account.model_res_groups
 msgid "Access Groups"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस ग्रुप्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस ग्रुप्स"
 >>>>>>> upstream/18.0
@@ -5098,7 +6023,11 @@ msgstr "ऐक्सेस ग्रुप्स"
 #: model:ir.model.fields,field_description:account.field_account_move__access_warning
 msgid "Access warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्सेस वॉर्निंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्सेस वॉर्निंग"
 >>>>>>> upstream/18.0
@@ -5133,6 +6062,11 @@ msgid ""
 "company:\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(account)s खाते को%(num_accounts)s हिस्सों में बांट दिया जाएगा, हर कंपनी को"
+" एक हिस्सा मिलेगा:\n"
+>>>>>>> upstream/18.0
 =======
 "%(account)s खाते को%(num_accounts)s हिस्सों में बांट दिया जाएगा, हर कंपनी को"
 " एक हिस्सा मिलेगा:\n"
@@ -5146,6 +6080,11 @@ msgid ""
 " unmerge operation only splits an account based on its companies."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s खाता अलग नहीं हो सकता, क्योंकि यह पहले से ही एक ही कंपनी का है. अलग करने "
+"का काम सिर्फ़ कंपनियों के हिसाब से बांटने के लिए होता है."
+>>>>>>> upstream/18.0
 =======
 "%s खाता अलग नहीं हो सकता, क्योंकि यह पहले से ही एक ही कंपनी का है. अलग करने "
 "का काम सिर्फ़ कंपनियों के हिसाब से बांटने के लिए होता है."
@@ -5159,6 +6098,11 @@ msgid ""
 "this account to allow it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s खाता में मिलान करने की सुविधा चालू नहीं है. इसे इस्तेमाल करने के लिए, "
+"आपको पहले इस खाते की सेटिंग्स में जाकर मिलान करने की अनुमति देनी होगी."
+>>>>>>> upstream/18.0
 =======
 "%s खाता में मिलान करने की सुविधा चालू नहीं है. इसे इस्तेमाल करने के लिए, "
 "आपको पहले इस खाते की सेटिंग्स में जाकर मिलान करने की अनुमति देनी होगी."
@@ -5170,6 +6114,10 @@ msgstr ""
 msgid "Account %s is of payable type, but is used in a sale operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s खाता पैसे चुकाने के लिए है, लेकिन इसे सेल में इस्तेमाल किया जा रहा है."
+>>>>>>> upstream/18.0
 =======
 "%s खाता पैसे चुकाने के लिए है, लेकिन इसे सेल में इस्तेमाल किया जा रहा है."
 >>>>>>> upstream/18.0
@@ -5180,6 +6128,10 @@ msgstr ""
 msgid "Account %s is of receivable type, but is used in a purchase operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s खाता पैसे चुकाने के लिए है, लेकिन इसे परचेज़ में इस्तेमाल किया जा रहा है."
+>>>>>>> upstream/18.0
 =======
 "%s खाता पैसे चुकाने के लिए है, लेकिन इसे परचेज़ में इस्तेमाल किया जा रहा है."
 >>>>>>> upstream/18.0
@@ -5188,7 +6140,11 @@ msgstr ""
 #: model:ir.model,name:account.model_account_cash_rounding
 msgid "Account Cash Rounding"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग कैश राउंडिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग कैश राउंडिंग"
 >>>>>>> upstream/18.0
@@ -5197,7 +6153,11 @@ msgstr "अकाउंटिंग कैश राउंडिंग"
 #: model:ir.model,name:account.model_account_chart_template
 msgid "Account Chart Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट चार्ट टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट चार्ट टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -5206,7 +6166,11 @@ msgstr "अकाउंट चार्ट टेंप्लेट"
 #: model:ir.model.fields,field_description:account.field_account_report_line__account_codes_formula
 msgid "Account Codes Formula Shortcut"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट कोड फ़ॉर्मूला शॉर्टकट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट कोड फ़ॉर्मूला शॉर्टकट"
 >>>>>>> upstream/18.0
@@ -5215,7 +6179,11 @@ msgstr "अकाउंट कोड फ़ॉर्मूला शॉर्ट
 #: model:ir.model.fields,field_description:account.field_account_account__currency_id
 msgid "Account Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट करेंसी"
 >>>>>>> upstream/18.0
@@ -5224,7 +6192,11 @@ msgstr "अकाउंट करेंसी"
 #: model:onboarding.onboarding,name:account.onboarding_onboarding_account_dashboard
 msgid "Account Dashboard Onboarding"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट डैशबोर्ड ऑनबोर्डिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट डैशबोर्ड ऑनबोर्डिंग"
 >>>>>>> upstream/18.0
@@ -5234,7 +6206,11 @@ msgstr "अकाउंट डैशबोर्ड ऑनबोर्डिं�
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Account Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट एंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट एंट्री"
 >>>>>>> upstream/18.0
@@ -5245,7 +6221,11 @@ msgstr "अकाउंट एंट्री"
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_tree
 msgid "Account Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट ग्रुप"
 >>>>>>> upstream/18.0
@@ -5254,7 +6234,11 @@ msgstr "अकाउंट ग्रुप"
 #: model:ir.model.fields,field_description:account.field_account_report__filter_hierarchy
 msgid "Account Groups"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट ग्रुप"
 >>>>>>> upstream/18.0
@@ -5264,7 +6248,11 @@ msgstr "अकाउंट ग्रुप"
 #: code:addons/account/models/account_account.py:0
 msgid "Account Groups with the same granularity can't overlap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक ही बारीकी वाले खाता समूह एक-दूसरे में शामिल नहीं हो सकते"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक ही बारीकी वाले खाता समूह एक-दूसरे में शामिल नहीं हो सकते"
 >>>>>>> upstream/18.0
@@ -5273,7 +6261,11 @@ msgstr "एक ही बारीकी वाले खाता समूह 
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__account_has_hashed_entries
 msgid "Account Has Hashed Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाते में हैश किए गए एंट्री हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "खाते में हैश किए गए एंट्री हैं"
 >>>>>>> upstream/18.0
@@ -5284,7 +6276,11 @@ msgstr "खाते में हैश किए गए एंट्री ह
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__partner_id
 msgid "Account Holder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट होल्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट होल्डर"
 >>>>>>> upstream/18.0
@@ -5294,7 +6290,11 @@ msgstr "अकाउंट होल्डर"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__acc_holder_name
 msgid "Account Holder Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट होल्डर का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट होल्डर का नाम"
 >>>>>>> upstream/18.0
@@ -5306,7 +6306,11 @@ msgstr "अकाउंट होल्डर का नाम"
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_tree
 msgid "Account Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट जर्नल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट जर्नल"
 >>>>>>> upstream/18.0
@@ -5315,7 +6319,11 @@ msgstr "अकाउंट जर्नल"
 #: model:ir.model,name:account.model_account_journal_group
 msgid "Account Journal Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट जर्नल ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट जर्नल ग्रुप"
 >>>>>>> upstream/18.0
@@ -5325,7 +6333,11 @@ msgstr "अकाउंट जर्नल ग्रुप"
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
 msgid "Account Lock Exception"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट लॉक इक्सेप्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट लॉक इक्सेप्शन"
 >>>>>>> upstream/18.0
@@ -5334,7 +6346,11 @@ msgstr "अकाउंट लॉक इक्सेप्शन"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__account_map
 msgid "Account Map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मैप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मैप"
 >>>>>>> upstream/18.0
@@ -5344,7 +6360,11 @@ msgstr "अकाउंट मैप"
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
 msgid "Account Mapping"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मैपिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मैपिंग"
 >>>>>>> upstream/18.0
@@ -5353,7 +6373,11 @@ msgstr "अकाउंट मैपिंग"
 #: model:ir.model,name:account.model_account_move_reversal
 msgid "Account Move Reversal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मूव रिवर्सल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मूव रिवर्सल"
 >>>>>>> upstream/18.0
@@ -5362,7 +6386,11 @@ msgstr "अकाउंट मूव रिवर्सल"
 #: model:ir.model,name:account.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मूव सेंड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मूव सेंड"
 >>>>>>> upstream/18.0
@@ -5371,7 +6399,11 @@ msgstr "अकाउंट मूव सेंड"
 #: model:ir.model,name:account.model_account_move_send_batch_wizard
 msgid "Account Move Send Batch Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मूव सेंड बैच विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मूव सेंड बैच विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -5380,7 +6412,11 @@ msgstr "अकाउंट मूव सेंड बैच विज़ॉर�
 #: model:ir.model,name:account.model_account_move_send_wizard
 msgid "Account Move Send Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मूव सेंड विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मूव सेंड विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -5391,7 +6427,11 @@ msgstr "अकाउंट मूव सेंड विज़ॉर्ड"
 #: model_terms:ir.ui.view,arch_db:account.view_account_form
 msgid "Account Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाते का नाम "
+>>>>>>> upstream/18.0
 =======
 msgstr "खाते का नाम "
 >>>>>>> upstream/18.0
@@ -5405,7 +6445,11 @@ msgstr "खाते का नाम "
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "Account Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाते का नंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "खाते का नंबर"
 >>>>>>> upstream/18.0
@@ -5416,7 +6460,11 @@ msgstr "खाते का नंबर"
 #: model:ir.model.fields,field_description:account.field_res_users__property_account_payable_id
 msgid "Account Payable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट पेएबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट पेएबल"
 >>>>>>> upstream/18.0
@@ -5425,7 +6473,11 @@ msgstr "अकाउंट पेएबल"
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix_placeholder
 msgid "Account Prefix Placeholder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट प्रीफ़िक्स प्लेसहोल्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट प्रीफ़िक्स प्लेसहोल्डर"
 >>>>>>> upstream/18.0
@@ -5434,7 +6486,11 @@ msgstr "अकाउंट प्रीफ़िक्स प्लेसहो�
 #: model_terms:ir.ui.view,arch_db:account.view_category_property_form
 msgid "Account Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट प्रॉपर्टीज़"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट प्रॉपर्टीज़"
 >>>>>>> upstream/18.0
@@ -5445,7 +6501,11 @@ msgstr "अकाउंट प्रॉपर्टीज़"
 #: model:ir.model.fields,field_description:account.field_res_users__property_account_receivable_id
 msgid "Account Receivable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट रिसिएबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट रिसिएबल"
 >>>>>>> upstream/18.0
@@ -5454,7 +6514,11 @@ msgstr "अकाउंट रिसिएबल"
 #: model:account.account,name:account.1_pos_receivable
 msgid "Account Receivable (PoS)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट रिसिएबल (पीओएस)"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट रिसिएबल (पीओएस)"
 >>>>>>> upstream/18.0
@@ -5463,7 +6527,11 @@ msgstr "अकाउंट रिसिएबल (पीओएस)"
 #: model:ir.model.fields,field_description:account.field_account_move_line__is_account_reconcile
 msgid "Account Reconcile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट रेकन्साइल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट रेकन्साइल"
 >>>>>>> upstream/18.0
@@ -5472,7 +6540,11 @@ msgstr "अकाउंट रेकन्साइल"
 #: model:ir.model.fields,field_description:account.field_account_move_line__account_root_id
 msgid "Account Root"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट रूट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट रूट"
 >>>>>>> upstream/18.0
@@ -5483,7 +6555,11 @@ msgstr "अकाउंट रूट"
 #: model_terms:ir.ui.view,arch_db:account.account_move_line_graph_date
 msgid "Account Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट स्टैटिस्टिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट स्टैटिस्टिक"
 >>>>>>> upstream/18.0
@@ -5492,7 +6568,11 @@ msgstr "अकाउंट स्टैटिस्टिक"
 #: model:ir.model,name:account.model_account_account_tag
 msgid "Account Tag"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टैग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टैग"
 >>>>>>> upstream/18.0
@@ -5502,7 +6582,11 @@ msgstr "अकाउंट टैग"
 #: model:ir.model.fields,field_description:account.field_product_template__account_tag_ids
 msgid "Account Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टैग्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टैग्स"
 >>>>>>> upstream/18.0
@@ -5513,7 +6597,11 @@ msgstr "अकाउंट टैग्स"
 #: model_terms:ir.ui.view,arch_db:account.view_tax_tree
 msgid "Account Tax"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टैक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टैक्स"
 >>>>>>> upstream/18.0
@@ -5523,7 +6611,11 @@ msgstr "अकाउंट टैक्स"
 #: model_terms:ir.ui.view,arch_db:account.view_tax_group_tree
 msgid "Account Tax Group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टैक्स ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टैक्स ग्रुप"
 >>>>>>> upstream/18.0
@@ -5532,7 +6624,11 @@ msgstr "अकाउंट टैक्स ग्रुप"
 #: model:ir.model.fields,field_description:account.field_ir_module_module__account_templates
 msgid "Account Templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -5542,7 +6638,11 @@ msgstr "अकाउंट टेंप्लेट"
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Account Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टाइप"
 >>>>>>> upstream/18.0
@@ -5560,7 +6660,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_report__filter_account_type
 msgid "Account Types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट टाइप"
 >>>>>>> upstream/18.0
@@ -5595,7 +6699,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account group"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट ग्रुप"
 >>>>>>> upstream/18.0
@@ -5604,7 +6712,11 @@ msgstr "अकाउंट ग्रुप"
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account groups"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट ग्रुप"
 >>>>>>> upstream/18.0
@@ -5621,7 +6733,11 @@ msgstr ""
 #: model:ir.model,name:account.model_account_merge_wizard
 msgid "Account merge wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मर्ज विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मर्ज विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -5630,7 +6746,11 @@ msgstr "अकाउंट मर्ज विज़ॉर्ड"
 #: model:ir.model,name:account.model_account_merge_wizard_line
 msgid "Account merge wizard line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट मर्ज विज़ॉर्ड लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट मर्ज विज़ॉर्ड लाइन"
 >>>>>>> upstream/18.0
@@ -5639,7 +6759,11 @@ msgstr "अकाउंट मर्ज विज़ॉर्ड लाइन"
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_src_id
 msgid "Account on Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट पर अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट पर अकाउंट"
 >>>>>>> upstream/18.0
@@ -5648,7 +6772,11 @@ msgstr "प्रॉडक्ट पर अकाउंट"
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__account_id
 msgid "Account on which to post the tax amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह खाता जहां टैक्स की राशि दर्ज की जाएगी"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह खाता जहां टैक्स की राशि दर्ज की जाएगी"
 >>>>>>> upstream/18.0
@@ -5657,7 +6785,11 @@ msgstr "वह खाता जहां टैक्स की राशि द
 #: model:ir.model.fields,help:account.field_account_account__group_id
 msgid "Account prefixes can determine account groups."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खातों के शुरुआती नंबर से पता चलता है कि वह किस ग्रुप का खाता है."
+>>>>>>> upstream/18.0
 =======
 msgstr "खातों के शुरुआती नंबर से पता चलता है कि वह किस ग्रुप का खाता है."
 >>>>>>> upstream/18.0
@@ -5666,7 +6798,11 @@ msgstr "खातों के शुरुआती नंबर से पत�
 #: model:ir.model,name:account.model_report_account_report_invoice_with_payments
 msgid "Account report with payment lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट लाइन के साथ अकाउंट रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट लाइन के साथ अकाउंट रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -5675,7 +6811,11 @@ msgstr "पेमेंट लाइन के साथ अकाउंट र�
 #: model:ir.model,name:account.model_report_account_report_invoice
 msgid "Account report without payment lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट लाइन के बिना अकाउंट रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट लाइन के बिना अकाउंट रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -5688,6 +6828,11 @@ msgid ""
 "used to keep track of the tax base amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह वह खाता है जिसे कैश बेसिस जर्नल एंट्री की पंक्तियों पर जोड़ा जाएगा. इस "
+"खाते का मुख्य काम टैक्स की गणना के लिए मूल राशि का रिकॉर्ड रखना है."
+>>>>>>> upstream/18.0
 =======
 "यह वह खाता है जिसे कैश बेसिस जर्नल एंट्री की पंक्तियों पर जोड़ा जाएगा. इस "
 "खाते का मुख्य काम टैक्स की गणना के लिए मूल राशि का रिकॉर्ड रखना है."
@@ -5697,7 +6842,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_dest_id
 msgid "Account to Use Instead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाता जिसका इस्तेमाल कहीं और करना है"
+>>>>>>> upstream/18.0
 =======
 msgstr "खाता जिसका इस्तेमाल कहीं और करना है"
 >>>>>>> upstream/18.0
@@ -5706,7 +6855,11 @@ msgstr "खाता जिसका इस्तेमाल कहीं औ�
 #: model:ir.model.fields,help:account.field_account_automatic_entry_wizard__destination_account_id
 msgid "Account to transfer to."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट जिसको ट्रांसफ़र करना है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट जिसको ट्रांसफ़र करना है"
 >>>>>>> upstream/18.0
@@ -5715,7 +6868,11 @@ msgstr "अकाउंट जिसको ट्रांसफ़र करन
 #: model:ir.model.fields,help:account.field_res_company__revenue_accrual_account_id
 msgid "Account used to move the period of a revenue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह खाता जिससे आय को एक अवधि से दूसरी अवधि में बदला जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह खाता जिससे आय को एक अवधि से दूसरी अवधि में बदला जाता है"
 >>>>>>> upstream/18.0
@@ -5724,7 +6881,11 @@ msgstr "वह खाता जिससे आय को एक अवधि �
 #: model:ir.model.fields,help:account.field_res_company__expense_accrual_account_id
 msgid "Account used to move the period of an expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वह खाता जिससे खर्च को एक अवधि से दूसरी अवधि में बदला जाता है"
+>>>>>>> upstream/18.0
 =======
 msgstr "वह खाता जिससे खर्च को एक अवधि से दूसरी अवधि में बदला जाता है"
 >>>>>>> upstream/18.0
@@ -5738,18 +6899,28 @@ msgid ""
 "put on the regular tax account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "यह एक अस्थायी खाता है जिसका उपयोग कैश बेसिस टैक्स के लिए किया जाता है. टैक्स"
 " की रकम इस खाते में तब तक रहती है जब तक कि मूल बिल का हिसाब-किताब मिलान नहीं"
 " हो जाता. एक बार बिल का मिलान हो जाने पर, यह रकम इस अस्थायी खाते से हटाकर "
 "नियमित टैक्स खाते में डाल दी जाती है."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Account with Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एंट्रीज़ के साथ खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "एंट्रीज़ के साथ खाता"
 >>>>>>> upstream/18.0
@@ -5761,6 +6932,10 @@ msgid ""
 " today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"खाता: आज तक की ड्राफ़्ट एंट्रीज़ को  auto_post सुविधा चालू करके पोस्ट कर दें"
+>>>>>>> upstream/18.0
 =======
 "खाता: आज तक की ड्राफ़्ट एंट्रीज़ को  auto_post सुविधा चालू करके पोस्ट कर दें"
 >>>>>>> upstream/18.0
@@ -5775,7 +6950,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Accounting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग"
 >>>>>>> upstream/18.0
@@ -5787,7 +6966,11 @@ msgstr "अकाउंटिंग"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Accounting Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग की तारीख"
 >>>>>>> upstream/18.0
@@ -5801,7 +6984,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Accounting Firms mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग फ़र्म मोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग फ़र्म मोड"
 >>>>>>> upstream/18.0
@@ -5816,7 +7003,11 @@ msgstr ""
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 msgid "Accounting Periods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग पीरियड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग पीरियड"
 >>>>>>> upstream/18.0
@@ -5825,7 +7016,11 @@ msgstr "अकाउंटिंग पीरियड"
 #: model:ir.model,name:account.model_account_report
 msgid "Accounting Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -5834,7 +7029,11 @@ msgstr "अकाउंटिंग रिपोर्ट"
 #: model:ir.model,name:account.model_account_report_column
 msgid "Accounting Report Column"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग रिपोर्ट कॉलम"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग रिपोर्ट कॉलम"
 >>>>>>> upstream/18.0
@@ -5843,7 +7042,11 @@ msgstr "अकाउंटिंग रिपोर्ट कॉलम"
 #: model:ir.model,name:account.model_account_report_expression
 msgid "Accounting Report Expression"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग रिपोर्ट एक्सप्रेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग रिपोर्ट एक्सप्रेशन"
 >>>>>>> upstream/18.0
@@ -5852,7 +7055,11 @@ msgstr "अकाउंटिंग रिपोर्ट एक्सप्र�
 #: model:ir.model,name:account.model_account_report_external_value
 msgid "Accounting Report External Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग रिपोर्ट एक्सटर्नल वैल्यू"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग रिपोर्ट एक्सटर्नल वैल्यू"
 >>>>>>> upstream/18.0
@@ -5861,7 +7068,11 @@ msgstr "अकाउंटिंग रिपोर्ट एक्सटर्�
 #: model:ir.model,name:account.model_account_report_line
 msgid "Accounting Report Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग रिपोर्ट लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग रिपोर्ट लाइन"
 >>>>>>> upstream/18.0
@@ -5870,7 +7081,11 @@ msgstr "अकाउंटिंग रिपोर्ट लाइन"
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "Accounting documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग डॉक्यूमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग डॉक्यूमेंट"
 >>>>>>> upstream/18.0
@@ -5879,7 +7094,11 @@ msgstr "अकाउंटिंग डॉक्यूमेंट"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Accounting firm mode will change invoice/bill encoding:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग फ़र्म मोड से इनवॉइस और बिलों के बनने का तरीका बदल जाएगा."
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग फ़र्म मोड से इनवॉइस और बिलों के बनने का तरीका बदल जाएगा."
 >>>>>>> upstream/18.0
@@ -5888,7 +7107,11 @@ msgstr "अकाउंटिंग फ़र्म मोड से इनव�
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Accounting-related settings are managed on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंटिंग से जुड़ी हुई सेटिंग को यहां मैनेज किया जाता है:"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंटिंग से जुड़ी हुई सेटिंग को यहां मैनेज किया जाता है:"
 >>>>>>> upstream/18.0
@@ -5898,7 +7121,11 @@ msgstr "अकाउंटिंग से जुड़ी हुई सेट�
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट"
 >>>>>>> upstream/18.0
@@ -5907,7 +7134,11 @@ msgstr "अकाउंट"
 #: model:ir.model,name:account.model_account_fiscal_position_account
 msgid "Accounts Mapping of Fiscal Position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वित्तीय स्थिति के लिए अकाउंट मैपिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "वित्तीय स्थिति के लिए अकाउंट मैपिंग"
 >>>>>>> upstream/18.0
@@ -5916,7 +7147,11 @@ msgstr "वित्तीय स्थिति के लिए अकाउ�
 #: model:ir.model.fields,field_description:account.field_account_analytic_distribution_model__account_prefix
 msgid "Accounts Prefix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -5926,7 +7161,11 @@ msgstr "अकाउंट प्रीफ़िक्स"
 #: model_terms:ir.ui.view,arch_db:account.account_analytic_distribution_model_tree_inherit
 msgid "Accounts Prefixes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट प्रीफ़िक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट प्रीफ़िक्स"
 >>>>>>> upstream/18.0
@@ -5936,7 +7175,11 @@ msgstr "अकाउंट प्रीफ़िक्स"
 #: code:addons/account/wizard/account_merge_wizard.py:0
 msgid "Accounts successfully merged!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अकाउंट को सफलतापूर्वक मिलाया गया!"
+>>>>>>> upstream/18.0
 =======
 msgstr "अकाउंट को सफलतापूर्वक मिलाया गया!"
 >>>>>>> upstream/18.0
@@ -5945,7 +7188,11 @@ msgstr "अकाउंट को सफलतापूर्वक मिला
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__account_id
 msgid "Accrual Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अक्रूअल अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अक्रूअल अकाउंट"
 >>>>>>> upstream/18.0
@@ -5955,7 +7202,11 @@ msgstr "अक्रूअल अकाउंट"
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrual Moves"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अक्रूअल मूव्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "अक्रूअल मूव्स"
 >>>>>>> upstream/18.0
@@ -5968,6 +7219,11 @@ msgid ""
 " its reverse entry: %(reverse_entry)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अक्रूअल एंट्री को %(date)s को बनाया गया: %(accrual_entry)s. और इसकी रिवर्स "
+"एंट्री: %(reverse_entry)s."
+>>>>>>> upstream/18.0
 =======
 "अक्रूअल एंट्री को %(date)s को बनाया गया: %(accrual_entry)s. और इसकी रिवर्स "
 "एंट्री: %(reverse_entry)s."
@@ -5978,7 +7234,11 @@ msgstr ""
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued %(entry_type)s entry as of %(date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(date)s को अक्रूअल किए %(entry_type)s की एंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(date)s को अक्रूअल किए %(entry_type)s की एंट्री"
 >>>>>>> upstream/18.0
@@ -5987,7 +7247,11 @@ msgstr "%(date)s को अक्रूअल किए %(entry_type)s की �
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid "Accrued Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " भविष्य में मिलने राशि"
+>>>>>>> upstream/18.0
 =======
 msgstr " भविष्य में मिलने राशि"
 >>>>>>> upstream/18.0
@@ -5996,7 +7260,11 @@ msgstr " भविष्य में मिलने राशि"
 #: model:ir.model,name:account.model_account_accrued_orders_wizard
 msgid "Accrued Orders Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अक्रूअल ऑर्डर विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "अक्रूअल ऑर्डर विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -6006,7 +7274,11 @@ msgstr "अक्रूअल ऑर्डर विज़ॉर्ड"
 #: code:addons/account/wizard/accrued_orders.py:0
 msgid "Accrued total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "भविष्य में मिलने वाली कुल राशि"
+>>>>>>> upstream/18.0
 =======
 msgstr "भविष्य में मिलने वाली कुल राशि"
 >>>>>>> upstream/18.0
@@ -6030,7 +7302,11 @@ msgstr "कार्रवाई"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__message_needaction
 msgid "Action Needed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कार्रवाई की ज़रूरत है"
+>>>>>>> upstream/18.0
 =======
 msgstr "कार्रवाई की ज़रूरत है"
 >>>>>>> upstream/18.0
@@ -6039,7 +7315,11 @@ msgstr "कार्रवाई की ज़रूरत है"
 #: model:ir.model.fields,field_description:account.field_account_payment_register__actionable_errors
 msgid "Actionable Errors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सुधारे जाने योग्य गलतियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "सुधारे जाने योग्य गलतियां"
 >>>>>>> upstream/18.0
@@ -6053,7 +7333,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "Activate auto-validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-वैलिडेशन ऐक्टिवेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-वैलिडेशन ऐक्टिवेट करें"
 >>>>>>> upstream/18.0
@@ -6062,7 +7346,11 @@ msgstr "ऑटो-वैलिडेशन ऐक्टिवेट करें
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Activate to create purchase receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "परचेज़ रसीद बनाने के लिए ऐक्टिवेट केरं"
+>>>>>>> upstream/18.0
 =======
 msgstr "परचेज़ रसीद बनाने के लिए ऐक्टिवेट केरं"
 >>>>>>> upstream/18.0
@@ -6071,7 +7359,11 @@ msgstr "परचेज़ रसीद बनाने के लिए ऐक�
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Activate to create sale receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल रसीद बनाने के लिए ऐक्टिवेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल रसीद बनाने के लिए ऐक्टिवेट करें"
 >>>>>>> upstream/18.0
@@ -6118,7 +7410,11 @@ msgstr "गतिविधियाँ"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी एक्सेप्शन डेकोरेशन"
 >>>>>>> upstream/18.0
@@ -6132,7 +7428,11 @@ msgstr "ऐक्टिविटी एक्सेप्शन डेकोर�
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__activity_state
 msgid "Activity State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी स्टेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी स्टेट"
 >>>>>>> upstream/18.0
@@ -6146,7 +7446,11 @@ msgstr "ऐक्टिविटी स्टेट"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐक्टिविटी टाइप आइकॉन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐक्टिविटी टाइप आइकॉन"
 >>>>>>> upstream/18.0
@@ -6167,7 +7471,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account.selection__res_company__terms_type__plain
 msgid "Add a Note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोट जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोट जोड़ें"
 >>>>>>> upstream/18.0
@@ -6179,6 +7487,11 @@ msgid ""
 " their mobile banking application."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अपने इनवॉइस में एक क्यूआर कोड जोड़ें, ताकि ग्राहक मोबाइल बैंकिंग ऐप्लिकेशन "
+"से तुरंत भुगतान कर सकें"
+>>>>>>> upstream/18.0
 =======
 "अपने इनवॉइस में एक क्यूआर कोड जोड़ें, ताकि ग्राहक मोबाइल बैंकिंग ऐप्लिकेशन "
 "से तुरंत भुगतान कर सकें"
@@ -6189,7 +7502,11 @@ msgstr ""
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a description to your item."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने आइटम पर विवरण जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने आइटम पर विवरण जोड़ें"
 >>>>>>> upstream/18.0
@@ -6198,7 +7515,11 @@ msgstr "अपने आइटम पर विवरण जोड़ें"
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_form
 msgid "Add a journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल जोड़ें"
 >>>>>>> upstream/18.0
@@ -6207,7 +7528,11 @@ msgstr "जर्नल जोड़ें"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लाइन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "लाइन जोड़ें"
 >>>>>>> upstream/18.0
@@ -6217,7 +7542,11 @@ msgstr "लाइन जोड़ें"
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Add a line to your invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने इनवॉइस पर एक लाइन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने इनवॉइस पर एक लाइन जोड़ें"
 >>>>>>> upstream/18.0
@@ -6226,7 +7555,11 @@ msgstr "अपने इनवॉइस पर एक लाइन जोड़�
 #: model:ir.model.fields.selection,name:account.selection__res_company__terms_type__html
 msgid "Add a link to a Web Page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने वेब पेज पर एक लिंक जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने वेब पेज पर एक लिंक जोड़ें"
 >>>>>>> upstream/18.0
@@ -6235,7 +7568,11 @@ msgstr "अपने वेब पेज पर एक लिंक जोड़
 #: model_terms:ir.actions.act_window,help:account.action_account_form
 msgid "Add a new account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नया खाता जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक नया खाता जोड़ें"
 >>>>>>> upstream/18.0
@@ -6244,7 +7581,11 @@ msgstr "एक नया खाता जोड़ें"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नोट जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "नोट जोड़ें"
 >>>>>>> upstream/18.0
@@ -6253,7 +7594,11 @@ msgstr "नोट जोड़ें"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Add a payment QR-code to your invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने इनवॉइस पर पेमेंट क्यूआर-कोड जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अपने इनवॉइस पर पेमेंट क्यूआर-कोड जोड़ें"
 >>>>>>> upstream/18.0
@@ -6262,7 +7607,11 @@ msgstr "अपने इनवॉइस पर पेमेंट क्यू�
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__strategy__add_invoice_line
 msgid "Add a rounding line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "राउडिंग लाइन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "राउडिंग लाइन जोड़ें"
 >>>>>>> upstream/18.0
@@ -6271,7 +7620,11 @@ msgstr "राउडिंग लाइन जोड़ें"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a section"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेक्शन जोड़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेक्शन जोड़ें"
 >>>>>>> upstream/18.0
@@ -6280,7 +7633,11 @@ msgstr "सेक्शन जोड़ें"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add an internal note..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक इंटर्नल नोट जोड़ें..."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक इंटर्नल नोट जोड़ें..."
 >>>>>>> upstream/18.0
@@ -6289,7 +7646,11 @@ msgstr "एक इंटर्नल नोट जोड़ें..."
 #: model_terms:ir.ui.view,arch_db:account.account_move_send_wizard_form
 msgid "Add contacts to notify..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सूचना देने के लिए कॉन्टैक्ट जोड़ें..."
+>>>>>>> upstream/18.0
 =======
 msgstr "सूचना देने के लिए कॉन्टैक्ट जोड़ें..."
 >>>>>>> upstream/18.0
@@ -6300,6 +7661,10 @@ msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अपने इनवॉइस/ऑर्डर/कोटेशन के सबसे नीचे, अपनी कंपनी के नियम और शर्तें जोड़ें"
+>>>>>>> upstream/18.0
 =======
 "अपने इनवॉइस/ऑर्डर/कोटेशन के सबसे नीचे, अपनी कंपनी के नियम और शर्तें जोड़ें"
 >>>>>>> upstream/18.0
@@ -6308,7 +7673,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
 msgid "Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पता"
+>>>>>>> upstream/18.0
 =======
 msgstr "पता"
 >>>>>>> upstream/18.0
@@ -6317,7 +7686,11 @@ msgstr "पता"
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
 msgid "Adjusting Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "राशि को एडजस्ट किया जा रहा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "राशि को एडजस्ट किया जा रहा है"
 >>>>>>> upstream/18.0
@@ -6327,7 +7700,11 @@ msgstr "राशि को एडजस्ट किया जा रहा ह
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entries have been created for this invoice:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस इनवॉइस के लिए सुधार करने वाली एंट्रीज़ बन गई हैं:"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस इनवॉइस के लिए सुधार करने वाली एंट्रीज़ बन गई हैं:"
 >>>>>>> upstream/18.0
@@ -6337,7 +7714,11 @@ msgstr "इस इनवॉइस के लिए सुधार करने 
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "Adjusting Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एंट्रीज़ को एडजस्ट किया जा रहा है"
+>>>>>>> upstream/18.0
 =======
 msgstr "एंट्रीज़ को एडजस्ट किया जा रहा है"
 >>>>>>> upstream/18.0
@@ -6348,6 +7729,10 @@ msgstr "एंट्रीज़ को एडजस्ट किया जा �
 msgid "Adjusting Entry {link} {percent}%% of {amount} recognized from {date}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"समायोजन एंट्री {लिंक}: {amount} का {percent}% हिस्सा {date} से जोड़ा गया"
+>>>>>>> upstream/18.0
 =======
 "समायोजन एंट्री {लिंक}: {amount} का {percent}% हिस्सा {date} से जोड़ा गया"
 >>>>>>> upstream/18.0
@@ -6359,6 +7744,10 @@ msgid ""
 "Adjusting Entry {link} {percent}%% of {amount} recognized on {new_date}"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"समायोजन एंट्री {link}: {amount} का {percent}% हिस्सा {date} से जोड़ा गया"
+>>>>>>> upstream/18.0
 =======
 "समायोजन एंट्री {link}: {amount} का {percent}% हिस्सा {date} से जोड़ा गया"
 >>>>>>> upstream/18.0
@@ -6367,7 +7756,11 @@ msgstr ""
 #: model:res.groups,name:account.group_account_manager
 msgid "Administrator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एडमिन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एडमिन"
 >>>>>>> upstream/18.0
@@ -6376,7 +7769,11 @@ msgstr "एडमिन"
 #: model_terms:ir.ui.view,arch_db:account.view_tax_form
 msgid "Advanced Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐडवांस विकल्प"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐडवांस विकल्प"
 >>>>>>> upstream/18.0
@@ -6385,7 +7782,11 @@ msgstr "ऐडवांस विकल्प"
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Advanced Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐडवांस सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐडवांस सेटिंग"
 >>>>>>> upstream/18.0
@@ -6394,7 +7795,11 @@ msgstr "ऐडवांस सेटिंग"
 #: model:ir.model.fields,field_description:account.field_account_tax__include_base_amount
 msgid "Affect Base of Subsequent Taxes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बाद के टैक्स की रकम पर असर डालना"
+>>>>>>> upstream/18.0
 =======
 msgstr "बाद के टैक्स की रकम पर असर डालना"
 >>>>>>> upstream/18.0
@@ -6405,7 +7810,11 @@ msgstr "बाद के टैक्स की रकम पर असर ड�
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 msgid "After"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आफ़्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "आफ़्टर"
 >>>>>>> upstream/18.0
@@ -6418,18 +7827,28 @@ msgid ""
 "at any time in the vendor's profile."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "जब आप किसी वेंडर के तीन बिलों को बिना कोई बदलाव किए Odoo में इंपोर्ट कर लेते"
 " हैं, तो Odoo आपको यह सलाह देगा कि आगे के बिलों को वह अपने-आप प्रमाणित कर "
 "दे. आप इस सुविधा को वेंडर की प्रोफ़ाइल में जाकर कभी भी चालू या बंद कर सकते "
 "हैं."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__aggregation
 msgid "Aggregate Other Formulas"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्य फ़ॉर्मूले को एग्रीगेट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अन्य फ़ॉर्मूले को एग्रीगेट करें"
 >>>>>>> upstream/18.0
@@ -6438,7 +7857,11 @@ msgstr "अन्य फ़ॉर्मूले को एग्रीगेट
 #: model:ir.model.fields,field_description:account.field_account_report_line__aggregation_formula
 msgid "Aggregation Formula Shortcut"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एग्रीगेशन फ़ॉर्मूला शॉर्टकट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एग्रीगेशन फ़ॉर्मूला शॉर्टकट"
 >>>>>>> upstream/18.0
@@ -6448,7 +7871,11 @@ msgstr "एग्रीगेशन फ़ॉर्मूला शॉर्ट�
 #: model:ir.model.fields,field_description:account.field_account_move_send_wizard__alerts
 msgid "Alerts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अलर्ट"
 >>>>>>> upstream/18.0
@@ -6457,7 +7884,11 @@ msgstr "अलर्ट"
 #: model:ir.model.fields,field_description:account.field_account_journal__alias_id
 msgid "Alias"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास"
 >>>>>>> upstream/18.0
@@ -6466,7 +7897,11 @@ msgstr "एलियास"
 #: model:ir.model.fields,field_description:account.field_account_journal__alias_domain_id
 msgid "Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास डोमेन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास डोमेन"
 >>>>>>> upstream/18.0
@@ -6475,7 +7910,11 @@ msgstr "एलियास डोमेन"
 #: model:ir.model.fields,field_description:account.field_account_journal__alias_domain
 msgid "Alias Domain Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास डोमेन नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास डोमेन नाम"
 >>>>>>> upstream/18.0
@@ -6484,7 +7923,11 @@ msgstr "एलियास डोमेन नाम"
 #: model:ir.model.fields,field_description:account.field_account_journal__alias_name
 msgid "Alias Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एलियास नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एलियास नाम"
 >>>>>>> upstream/18.0
@@ -6494,7 +7937,11 @@ msgstr "एलियास नाम"
 #: code:addons/account/controllers/portal.py:0
 msgid "All"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी "
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी "
 >>>>>>> upstream/18.0
@@ -6509,7 +7956,11 @@ msgstr ""
 #: code:addons/account/wizard/account_automatic_entry_wizard.py:0
 msgid "All accounts on the lines must be of the same type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सभी लाइनों में एक ही तरह के खाते होने चाहिए."
+>>>>>>> upstream/18.0
 =======
 msgstr "सभी लाइनों में एक ही तरह के खाते होने चाहिए."
 >>>>>>> upstream/18.0
@@ -6518,7 +7969,11 @@ msgstr "सभी लाइनों में एक ही तरह के �
 #: model:ir.model.fields,help:account.field_account_secure_entries_wizard__move_to_hash_ids
 msgid "All moves that will be hashed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वे सभी एंट्रीज़ जिनकी सुरक्षा जांच (हैशिंग) की जाएगी"
+>>>>>>> upstream/18.0
 =======
 msgstr "वे सभी एंट्रीज़ जिनकी सुरक्षा जांच (हैशिंग) की जाएगी"
 >>>>>>> upstream/18.0
@@ -6527,7 +7982,11 @@ msgstr "वे सभी एंट्रीज़ जिनकी सुरक�
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid "All our contractual relations will be governed exclusively by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमारे सारे समझौते सिर्फ़ और सिर्फ इन्हीं नियमों के हिसाब से चलेंगे:"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमारे सारे समझौते सिर्फ़ और सिर्फ इन्हीं नियमों के हिसाब से चलेंगे:"
 >>>>>>> upstream/18.0
@@ -6537,7 +7996,11 @@ msgstr "हमारे सारे समझौते सिर्फ़ औ�
 #: code:addons/account/wizard/account_move_reversal.py:0
 msgid "All selected moves for reversal must belong to the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रिवर्स करने वाली सभी एंट्रीज़ एक ही कंपनी की होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 msgstr "रिवर्स करने वाली सभी एंट्रीज़ एक ही कंपनी की होनी चाहिए."
 >>>>>>> upstream/18.0
@@ -6549,6 +8012,11 @@ msgid ""
 "Hard Lock Date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"चुनी गई तारीख से पहले की वो सभी एंट्रीज़ जो सुरक्षित नहीं हैं और 'लॉक डेट' "
+"से भी इनको सुरक्षित नहीं किया गया है"
+>>>>>>> upstream/18.0
 =======
 "चुनी गई तारीख से पहले की वो सभी एंट्रीज़ जो सुरक्षित नहीं हैं और 'लॉक डेट' "
 "से भी इनको सुरक्षित नहीं किया गया है"
@@ -6559,6 +8027,11 @@ msgstr ""
 msgid "All unreconciled bank statement lines before the selected date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"चुनी हुई तारीख से पहले की सभी बैंक स्टेटमेंट एंट्रीज़ जिनका अभी तक मिलान "
+"नहीं हुआ है."
+>>>>>>> upstream/18.0
 =======
 "चुनी हुई तारीख से पहले की सभी बैंक स्टेटमेंट एंट्रीज़ जिनका अभी तक मिलान "
 "नहीं हुआ है."
@@ -6568,7 +8041,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_product_margin
 msgid "Allow Product Margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट मॉर्जिन को अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट मॉर्जिन को अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6577,7 +8054,11 @@ msgstr "प्रॉडक्ट मॉर्जिन को अनुमति
 #: model:ir.model.fields,field_description:account.field_account_account__reconcile
 msgid "Allow Reconciliation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मिलान करने की अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "मिलान करने की अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6586,7 +8067,11 @@ msgstr "मिलान करने की अनुमति दें"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_check_printing
 msgid "Allow check printing and deposits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चेक प्रिटिंग और डिपोज़िट को अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "चेक प्रिटिंग और डिपोज़िट को अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6595,7 +8080,11 @@ msgstr "चेक प्रिटिंग और डिपोज़िट क�
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allow sending and receiving invoices through the PEPPOL network"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL नेटवर्क के ज़रिए इनवॉइस भेजने और प्राप्त करने की अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL नेटवर्क के ज़रिए इनवॉइस भेजने और प्राप्त करने की अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6604,7 +8093,11 @@ msgstr "PEPPOL नेटवर्क के ज़रिए इनवॉइस �
 #: model:res.groups,name:account.group_cash_rounding
 msgid "Allow the cash rounding management"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैश राउडिंग मैनेजमेंट अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैश राउडिंग मैनेजमेंट अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6613,7 +8106,11 @@ msgstr "कैश राउडिंग मैनेजमेंट अनुम
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allow to configure taxes using cash basis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कैश बेसिस का इस्तेमाल करके कॉन्फ़िगर करने की अनुमति दें"
+>>>>>>> upstream/18.0
 =======
 msgstr "कैश बेसिस का इस्तेमाल करके कॉन्फ़िगर करने की अनुमति दें"
 >>>>>>> upstream/18.0
@@ -6632,7 +8129,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allows you to use Storno accounting."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storno अकाउंटिंग इस्तेमाल करने की अनुमति दें."
+>>>>>>> upstream/18.0
 =======
 msgstr "Storno अकाउंटिंग इस्तेमाल करने की अनुमति दें."
 >>>>>>> upstream/18.0
@@ -6641,7 +8142,11 @@ msgstr "Storno अकाउंटिंग इस्तेमाल करने
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allows you to use the analytic accounting."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंटिंग इस्तेमाल करने की अनुमति दें."
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंटिंग इस्तेमाल करने की अनुमति दें."
 >>>>>>> upstream/18.0
@@ -6650,7 +8155,11 @@ msgstr "एनालिटिक अकाउंटिंग इस्तेम�
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
 msgid "Already Paid:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पहले ही चुकाया जा चुका है:"
+>>>>>>> upstream/18.0
 =======
 msgstr "पहले ही चुकाया जा चुका है:"
 >>>>>>> upstream/18.0
@@ -6660,7 +8169,11 @@ msgstr "पहले ही चुकाया जा चुका है:"
 #: model:ir.model.fields.selection,name:account.selection__res_partner__autopost_bills__always
 msgid "Always"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा"
 >>>>>>> upstream/18.0
@@ -6669,7 +8182,11 @@ msgstr "हमेशा"
 #: model:ir.model.fields.selection,name:account.selection__account_payment_term__early_pay_discount_computation__mixed
 msgid "Always (upon invoice)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा (इनवॉइस पर)"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा (इनवॉइस पर)"
 >>>>>>> upstream/18.0
@@ -6679,7 +8196,11 @@ msgstr "हमेशा (इनवॉइस पर)"
 #: model:ir.model.fields,field_description:account.field_account_move__always_tax_exigible
 msgid "Always Tax Exigible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हमेशा टैक्स योग्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "हमेशा टैक्स योग्य"
 >>>>>>> upstream/18.0
@@ -6691,6 +8212,11 @@ msgid ""
 "currency."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"मिलान में इस्तेमाल होने वाली रकम हमेशा कंपनी की मुद्रा में और सकारात्मक "
+"होगी."
+>>>>>>> upstream/18.0
 =======
 "मिलान में इस्तेमाल होने वाली रकम हमेशा कंपनी की मुद्रा में और सकारात्मक "
 "होगी."
@@ -6703,6 +8229,11 @@ msgid ""
 "line foreign currency."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"मिलान में इस्तेमाल होने वाली रकम क्रेडिट लाइन की विदेशी मुद्रा में और हमेशा "
+"सकारात्मक होगी."
+>>>>>>> upstream/18.0
 =======
 "मिलान में इस्तेमाल होने वाली रकम क्रेडिट लाइन की विदेशी मुद्रा में और हमेशा "
 "सकारात्मक होगी."
@@ -6715,6 +8246,11 @@ msgid ""
 "line foreign currency."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"मिलान में इस्तेमाल होने वाली रकम डेबिट लाइन की विदेशी मुद्रा में और हमेशा "
+"सकारात्मक होगी."
+>>>>>>> upstream/18.0
 =======
 "मिलान में इस्तेमाल होने वाली रकम डेबिट लाइन की विदेशी मुद्रा में और हमेशा "
 "सकारात्मक होगी."
@@ -6744,7 +8280,11 @@ msgstr "रकम"
 #: model:ir.model.fields,field_description:account.field_account_payment__amount_company_currency_signed
 msgid "Amount Company Currency Signed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "राशि कंपनी की करेंसी में है और इस पर हस्ताक्षर है"
+>>>>>>> upstream/18.0
 =======
 msgstr "राशि कंपनी की करेंसी में है और इस पर हस्ताक्षर है"
 >>>>>>> upstream/18.0
@@ -6761,7 +8301,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_invoice_tree
 msgid "Amount Due"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बकाया रकम"
+>>>>>>> upstream/18.0
 =======
 msgstr "बकाया रकम"
 >>>>>>> upstream/18.0
@@ -6771,7 +8315,11 @@ msgstr "बकाया रकम"
 #: model:ir.model.fields,field_description:account.field_account_move__amount_residual_signed
 msgid "Amount Due Signed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बकाया रकम पर हस्ताक्षर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बकाया रकम पर हस्ताक्षर"
 >>>>>>> upstream/18.0
@@ -6780,7 +8328,11 @@ msgstr "बकाया रकम पर हस्ताक्षर"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_amount_max
 msgid "Amount Max Parameter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमाउंट मैक्स पैरामीटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमाउंट मैक्स पैरामीटर"
 >>>>>>> upstream/18.0
@@ -6789,7 +8341,11 @@ msgstr "अमाउंट मैक्स पैरामीटर"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_amount_min
 msgid "Amount Min Parameter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमाउंट मिनिमम पैरामीटर"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमाउंट मिनिमम पैरामीटर"
 >>>>>>> upstream/18.0
@@ -6798,7 +8354,11 @@ msgstr "अमाउंट मिनिमम पैरामीटर"
 #: model:ir.model.fields,field_description:account.field_account_payment__amount_signed
 msgid "Amount Signed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमाउंट पर साइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमाउंट पर साइन"
 >>>>>>> upstream/18.0
@@ -6808,7 +8368,11 @@ msgstr "अमाउंट पर साइन"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__amount_type
 msgid "Amount Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अमाउंट टाइप"
+>>>>>>> upstream/18.0
 =======
 msgstr "अमाउंट टाइप"
 >>>>>>> upstream/18.0
@@ -6819,7 +8383,11 @@ msgstr "अमाउंट टाइप"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_tree
 msgid "Amount in Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी में अमाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी में अमाउंट"
 >>>>>>> upstream/18.0
@@ -6828,7 +8396,11 @@ msgstr "करेंसी में अमाउंट"
 #: model:ir.model.fields,field_description:account.field_account_payment_register__source_amount
 msgid "Amount to Pay (company currency)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कितना पैसा चुकाना है (कंपनी की करेंसी में)"
+>>>>>>> upstream/18.0
 =======
 msgstr "कितना पैसा चुकाना है (कंपनी की करेंसी में)"
 >>>>>>> upstream/18.0
@@ -6837,7 +8409,11 @@ msgstr "कितना पैसा चुकाना है (कंपनी 
 #: model:ir.model.fields,field_description:account.field_account_payment_register__source_amount_currency
 msgid "Amount to Pay (foreign currency)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कितना पैसा चुकाना है (विदेश की करेंसी में)"
+>>>>>>> upstream/18.0
 =======
 msgstr "कितना पैसा चुकाना है (विदेश की करेंसी में)"
 >>>>>>> upstream/18.0
@@ -6847,7 +8423,11 @@ msgstr "कितना पैसा चुकाना है (विदेश 
 #: model:ir.model.fields,field_description:account.field_account_move__amount_total_words
 msgid "Amount total in words"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कुल राशि शब्दों में"
+>>>>>>> upstream/18.0
 =======
 msgstr "कुल राशि शब्दों में"
 >>>>>>> upstream/18.0
@@ -6857,7 +8437,11 @@ msgstr "कुल राशि शब्दों में"
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 msgid "Amount:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रकम:"
+>>>>>>> upstream/18.0
 =======
 msgstr "रकम:"
 >>>>>>> upstream/18.0
@@ -6866,7 +8450,11 @@ msgstr "रकम:"
 #: model:ir.actions.act_window,name:account.action_amounts_to_settle
 msgid "Amounts to Settle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रकम जो चुकानी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "रकम जो चुकानी है"
 >>>>>>> upstream/18.0
@@ -6875,7 +8463,11 @@ msgstr "रकम जो चुकानी है"
 #: model_terms:ir.actions.act_window,help:account.action_amounts_to_settle
 msgid "Amounts to settle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "रकम जो चुकानी है"
+>>>>>>> upstream/18.0
 =======
 msgstr "रकम जो चुकानी है"
 >>>>>>> upstream/18.0
@@ -6885,7 +8477,11 @@ msgstr "रकम जो चुकानी है"
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not be reconcilable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ-बैलेंस अकाउंट को मिलाया नहीं जा सकता/."
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑफ-बैलेंस अकाउंट को मिलाया नहीं जा सकता/."
 >>>>>>> upstream/18.0
@@ -6895,7 +8491,11 @@ msgstr "ऑफ-बैलेंस अकाउंट को मिलाया �
 #: code:addons/account/models/account_account.py:0
 msgid "An Off-Balance account can not have taxes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ-बैलेंस अकाउंट पर टैक्स नहीं लगाया जा सकता"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑफ-बैलेंस अकाउंट पर टैक्स नहीं लगाया जा सकता"
 >>>>>>> upstream/18.0
@@ -6905,7 +8505,11 @@ msgstr "ऑफ-बैलेंस अकाउंट पर टैक्स न�
 msgid ""
 "An account fiscal position could be defined only one time on same accounts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक खाते पर वित्तीय नियम एक ही बार सेट किए जा सकते हैं."
+>>>>>>> upstream/18.0
 =======
 msgstr "एक खाते पर वित्तीय नियम एक ही बार सेट किए जा सकते हैं."
 >>>>>>> upstream/18.0
@@ -6921,13 +8525,19 @@ msgid ""
 "                to disclose a certain amount of information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "एक खाता आपके वित्तीय बहीखाते (लेजर) का एक हिस्सा होता हैय इसमें कंपनी \n"
 "अपने सभी पैसों के आने-जाने (डेबिट और क्रेडिट) का हिसाब रखती है.\n"
 " कंपनियां साल के अंत में अपने पूरे साल का हिसाब-किताब दो मुख्य रिपोर्टों में दिखाती हैं: पहली, \n"
 "बैलेंस शीट. दूसरी, इनकम स्टेटमेंट (लाभ और हानि खाता).\n"
 " कानून के अनुसार, इन वार्षिक खातों में कुछ ज़रूरी \n"
 "जानकारी दिखाना ज़रूरी होता है."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -6935,7 +8545,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "An error has occurred."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोई गड़बड़ी हुई."
+>>>>>>> upstream/18.0
 =======
 msgstr "कोई गड़बड़ी हुई."
 >>>>>>> upstream/18.0
@@ -6948,6 +8562,11 @@ msgid ""
 " in the sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'इनअल्टरबिलिटी' (यानी यह सुनिश्चित करना कि डेटा को बदला नहीं जा सकता) की "
+"गणना करते समय एक समस्या आ गई है. क्रम में कुछ गायब है."
+>>>>>>> upstream/18.0
 =======
 "'इनअल्टरबिलिटी' (यानी यह सुनिश्चित करना कि डेटा को बदला नहीं जा सकता) की "
 "गणना करते समय एक समस्या आ गई है. क्रम में कुछ गायब है."
@@ -6961,6 +8580,11 @@ msgid ""
 "reconciled."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'इनअल्टरबिलिटी' (यानी यह सुनिश्चित करना कि डेटा को बदला नहीं जा सकता) की "
+"गणना करते समय एक समस्या आ गई है. सभी एंट्रीज़ का मिलान होना ज़रूरी है."
+>>>>>>> upstream/18.0
 =======
 "'इनअल्टरबिलिटी' (यानी यह सुनिश्चित करना कि डेटा को बदला नहीं जा सकता) की "
 "गणना करते समय एक समस्या आ गई है. सभी एंट्रीज़ का मिलान होना ज़रूरी है."
@@ -6971,7 +8595,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "Analytic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक"
 >>>>>>> upstream/18.0
@@ -6980,7 +8608,11 @@ msgstr "एनालिटिक"
 #: model:ir.model,name:account.model_account_analytic_account
 msgid "Analytic Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंट"
 >>>>>>> upstream/18.0
@@ -6989,7 +8621,11 @@ msgstr "एनालिटिक अकाउंट"
 #: model:ir.ui.menu,name:account.menu_analytic_accounting
 msgid "Analytic Accounting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंटिंग"
 >>>>>>> upstream/18.0
@@ -6999,7 +8635,11 @@ msgstr "एनालिटिक अकाउंटिंग"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Analytic Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक अकाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक अकाउंट"
 >>>>>>> upstream/18.0
@@ -7009,7 +8649,11 @@ msgstr "एनालिटिक अकाउंट"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__analytic_distribution
 msgid "Analytic Distribution"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन"
 >>>>>>> upstream/18.0
@@ -7018,7 +8662,11 @@ msgstr "एनालिटिक डिस्ट्रिब्यूशन"
 #: model:ir.model,name:account.model_account_analytic_distribution_model
 msgid "Analytic Distribution Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
 >>>>>>> upstream/18.0
@@ -7027,7 +8675,11 @@ msgstr "एनालिटिक डिस्ट्रिब्यूशन म�
 #: model:ir.ui.menu,name:account.menu_analytic__distribution_model
 msgid "Analytic Distribution Models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक डिस्ट्रिब्यूशन मॉडल"
 >>>>>>> upstream/18.0
@@ -7036,7 +8688,11 @@ msgstr "एनालिटिक डिस्ट्रिब्यूशन म�
 #: model:ir.model.fields,field_description:account.field_account_report__filter_analytic
 msgid "Analytic Filter"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक फ़िल्टर"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक फ़िल्टर"
 >>>>>>> upstream/18.0
@@ -7045,7 +8701,11 @@ msgstr "एनालिटिक फ़िल्टर"
 #: model:ir.ui.menu,name:account.menu_action_analytic_lines_tree
 msgid "Analytic Items"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक आइटम"
 >>>>>>> upstream/18.0
@@ -7054,7 +8714,11 @@ msgstr "एनालिटिक आइटम"
 #: model:ir.model,name:account.model_account_analytic_line
 msgid "Analytic Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -7063,7 +8727,11 @@ msgstr "एनालिटिक लाइन"
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
 msgid "Analytic Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -7072,7 +8740,11 @@ msgstr "एनालिटिक लाइन"
 #: model:ir.model,name:account.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्लान की ऐप्लिकेबिलिटी"
 >>>>>>> upstream/18.0
@@ -7081,7 +8753,11 @@ msgstr "एनालिटिक प्लान की ऐप्लिकेब
 #: model:ir.ui.menu,name:account.account_analytic_plan_menu
 msgid "Analytic Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्लान"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्लान"
 >>>>>>> upstream/18.0
@@ -7091,7 +8767,11 @@ msgstr "एनालिटिक प्लान"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__analytic_precision
 msgid "Analytic Precision"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक प्रीसीज़न"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक प्रीसीज़न"
 >>>>>>> upstream/18.0
@@ -7100,7 +8780,11 @@ msgstr "एनालिटिक प्रीसीज़न"
 #: model:ir.ui.menu,name:account.menu_action_analytic_reporting
 msgid "Analytic Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -7109,7 +8793,11 @@ msgstr "एनालिटिक रिपोर्ट"
 #: model:ir.actions.act_window,name:account.action_analytic_reporting
 msgid "Analytic Reporting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक रिपोर्टिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक रिपोर्टिंग"
 >>>>>>> upstream/18.0
@@ -7118,7 +8806,11 @@ msgstr "एनालिटिक रिपोर्टिंग"
 #: model:ir.model.fields,field_description:account.field_account_move_line__analytic_line_ids
 msgid "Analytic lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक लाइन"
 >>>>>>> upstream/18.0
@@ -7127,7 +8819,11 @@ msgstr "एनालिटिक लाइन"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Analytics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एनालिटिक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "एनालिटिक्स"
 >>>>>>> upstream/18.0
@@ -7136,7 +8832,11 @@ msgstr "एनालिटिक्स"
 #: model:ir.model.constraint,message:account.constraint_account_move_unique_name
 msgid "Another entry with the same name already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस नाम वाली एंट्री पहले से बनी है."
+>>>>>>> upstream/18.0
 =======
 msgstr "इस नाम वाली एंट्री पहले से बनी है."
 >>>>>>> upstream/18.0
@@ -7149,6 +8849,12 @@ msgid ""
 "does not allow any exception."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस तारीख तक की कोई भी एंट्री, चाहे वह कैसी भी हो, उसके जर्नल के क्रम के "
+"अनुसार बाद में दर्ज की जाएगीय इस 'लॉक डेट' को एक बार सेट करने के बाद बदला "
+"नहीं जा सकता और यह किसी भी छूट या अपवाद को स्वीकार नहीं करती."
+>>>>>>> upstream/18.0
 =======
 "इस तारीख तक की कोई भी एंट्री, चाहे वह कैसी भी हो, उसके जर्नल के क्रम के "
 "अनुसार बाद में दर्ज की जाएगीय इस 'लॉक डेट' को एक बार सेट करने के बाद बदला "
@@ -7162,6 +8868,10 @@ msgid ""
 "in accordance with its journal's sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"उस तारीख तक की कोई भी एंट्री बाद में कर दी जाएगी, जर्नल के क्रम के हिसाब से."
+>>>>>>> upstream/18.0
 =======
 "उस तारीख तक की कोई भी एंट्री बाद में कर दी जाएगी, जर्नल के क्रम के हिसाब से."
 >>>>>>> upstream/18.0
@@ -7174,11 +8884,17 @@ msgid ""
 "automatically set when the tax closing entry is posted."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "इस निश्चित तारीख तक की जितनी भी एंट्रीज़ हैं जिनमें टैक्स शामिल है, वे सभी "
 "अपने जर्नल के क्रम के हिसाब से बाद में दर्ज होंगी. यह टैक्स लॉक डेट अपने-आप "
 "तब सेट हो जाती है जब टैक्स को बंद करने वाली एंट्री सिस्टम में डाल दी जाती "
 "है."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -7188,6 +8904,11 @@ msgid ""
 "Any journal item on a payable account must have a due date and vice versa."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"पैसे चुकाने वाले खाते की किसी भी एंट्री में देने की तारीख होनी चाहिए और अगर "
+"देने की तारीख है, तो वह पैसे चुकाने वाले खाते से ही होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 "पैसे चुकाने वाले खाते की किसी भी एंट्री में देने की तारीख होनी चाहिए और अगर "
 "देने की तारीख है, तो वह पैसे चुकाने वाले खाते से ही होनी चाहिए."
@@ -7201,6 +8922,11 @@ msgid ""
 "versa."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"पैसे मिलने वाले खाते की किसी भी एंट्री में मिलने की तारीख होनी चाहिए और अगर "
+"मिलने की तारीख है, तो वह पैसे मिलने वाले खाते से ही होनी चाहिए."
+>>>>>>> upstream/18.0
 =======
 "पैसे मिलने वाले खाते की किसी भी एंट्री में मिलने की तारीख होनी चाहिए और अगर "
 "मिलने की तारीख है, तो वह पैसे मिलने वाले खाते से ही होनी चाहिए."
@@ -7213,6 +8939,11 @@ msgid ""
 "later date, in accordance with its journal's sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस निश्चित तारीख तक की जितनी भी खरीद से संबंधित एंट्रीज़ हैं, वे सभी अपने "
+"जर्नल के क्रम के हिसाब से बाद की किसी तारीख में दर्ज होंगी."
+>>>>>>> upstream/18.0
 =======
 "इस निश्चित तारीख तक की जितनी भी खरीद से संबंधित एंट्रीज़ हैं, वे सभी अपने "
 "जर्नल के क्रम के हिसाब से बाद की किसी तारीख में दर्ज होंगी."
@@ -7225,6 +8956,11 @@ msgid ""
 "later date, in accordance with its journal's sequence."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस निश्चित तारीख तक की जितनी भी सेल्स से संबंधित एंट्रीज़ हैं, वे सभी अपने "
+"जर्नल के क्रम के हिसाब से बाद की किसी तारीख में दर्ज होंगी."
+>>>>>>> upstream/18.0
 =======
 "इस निश्चित तारीख तक की जितनी भी सेल्स से संबंधित एंट्रीज़ हैं, वे सभी अपने "
 "जर्नल के क्रम के हिसाब से बाद की किसी तारीख में दर्ज होंगी."
@@ -7234,7 +8970,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_account_tag__applicability
 msgid "Applicability"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐप्लिकेबिलिटी"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐप्लिकेबिलिटी"
 >>>>>>> upstream/18.0
@@ -7244,7 +8984,11 @@ msgstr "ऐप्लिकेबिलिटी"
 #: model_terms:ir.ui.view,arch_db:account.setup_financial_year_opening_form
 msgid "Apply"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्लाई करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "अप्लाई करें"
 >>>>>>> upstream/18.0
@@ -7254,6 +8998,10 @@ msgstr "अप्लाई करें"
 msgid "Apply VAT of the EU country to which goods and services are delivered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"उस यूरोपीय संघ के देश का वैट लागू करें, जहां सामान या सेवाएं दी जाती हैं."
+>>>>>>> upstream/18.0
 =======
 "उस यूरोपीय संघ के देश का वैट लागू करें, जहां सामान या सेवाएं दी जाती हैं."
 >>>>>>> upstream/18.0
@@ -7262,7 +9010,11 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_fiscal_position__country_group_id
 msgid "Apply only if delivery country matches the group."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तभी लागू होगा जब डिलीवरी वाला देश ग्रुप से मिलता हो."
+>>>>>>> upstream/18.0
 =======
 msgstr "तभी लागू होगा जब डिलीवरी वाला देश ग्रुप से मिलता हो."
 >>>>>>> upstream/18.0
@@ -7271,7 +9023,11 @@ msgstr "तभी लागू होगा जब डिलीवरी वा�
 #: model:ir.model.fields,help:account.field_account_fiscal_position__country_id
 msgid "Apply only if delivery country matches."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तभी लागू होगा जब डिलीवरी वाला देश मिलता हो."
+>>>>>>> upstream/18.0
 =======
 msgstr "तभी लागू होगा जब डिलीवरी वाला देश मिलता हो."
 >>>>>>> upstream/18.0
@@ -7280,7 +9036,11 @@ msgstr "तभी लागू होगा जब डिलीवरी वा�
 #: model:ir.model.fields,help:account.field_account_fiscal_position__vat_required
 msgid "Apply only if partner has a VAT number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तभी लागू करें जब पार्टनर के पास वैट नंबर हो."
+>>>>>>> upstream/18.0
 =======
 msgstr "तभी लागू करें जब पार्टनर के पास वैट नंबर हो."
 >>>>>>> upstream/18.0
@@ -7292,6 +9052,12 @@ msgid ""
 "criterias (VAT/Country) are met."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"अगर किसी इनवॉइस पर टैक्स और खाते के मिलान के लिए ज़रूरी शर्तें (जैसे वैट "
+"नंबर या देश) पूरी हो जाती हैं, तो सिस्टम को उन टैक्स और खातों को अपने-आप "
+"लागू कर देना चाहिए."
+>>>>>>> upstream/18.0
 =======
 "अगर किसी इनवॉइस पर टैक्स और खाते के मिलान के लिए ज़रूरी शर्तें (जैसे वैट "
 "नंबर या देश) पूरी हो जाती हैं, तो सिस्टम को उन टैक्स और खातों को अपने-आप "
@@ -7302,7 +9068,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__4
 msgid "April"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अप्रैल"
+>>>>>>> upstream/18.0
 =======
 msgstr "अप्रैल"
 >>>>>>> upstream/18.0
@@ -7321,7 +9091,11 @@ msgstr "अप्रैल"
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_search
 msgid "Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "संग्रहीत किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "संग्रहीत किया गया"
 >>>>>>> upstream/18.0
@@ -7331,7 +9105,11 @@ msgstr "संग्रहीत किया गया"
 #: code:addons/account/models/account_account.py:0
 msgid "Are you sure? This will perform the following operations:\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्या आपको यकीन है? अब सिस्टम कुछ ज़रूरी काम करने वाला है:\n"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्या आपको यकीन है? अब सिस्टम कुछ ज़रूरी काम करने वाला है:\n"
 >>>>>>> upstream/18.0
@@ -7340,7 +9118,11 @@ msgstr "क्या आपको यकीन है? अब सिस्टम
 #: model:ir.model.fields.selection,name:account.selection__res_partner__autopost_bills__ask
 msgid "Ask after 3 validations without edits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिना बदले तीन बार जांच के बाद पूछें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिना बदले तीन बार जांच के बाद पूछें"
 >>>>>>> upstream/18.0
@@ -7349,7 +9131,11 @@ msgstr "बिना बदले तीन बार जांच के बा
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "Ask me later"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बाद में पूछें"
+>>>>>>> upstream/18.0
 =======
 msgstr "बाद में पूछें"
 >>>>>>> upstream/18.0
@@ -7370,7 +9156,11 @@ msgstr "सक्रिय"
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__at_date
 msgid "At Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख"
 >>>>>>> upstream/18.0
@@ -7379,7 +9169,11 @@ msgstr "इस तारीख"
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__date_scope__to_beginning_of_fiscalyear
 msgid "At the beginning of the fiscal year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वित्तीय साल के शुरूआत होने पर"
+>>>>>>> upstream/18.0
 =======
 msgstr "वित्तीय साल के शुरूआत होने पर"
 >>>>>>> upstream/18.0
@@ -7388,7 +9182,11 @@ msgstr "वित्तीय साल के शुरूआत होने �
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__date_scope__to_beginning_of_period
 msgid "At the beginning of the period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "समयावधि के शुरू होने पर"
+>>>>>>> upstream/18.0
 =======
 msgstr "समयावधि के शुरू होने पर"
 >>>>>>> upstream/18.0
@@ -7403,7 +9201,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_move_send_wizard_form
 msgid "Attach a file"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़ाइल अटैच करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "फ़ाइल अटैच करें"
 >>>>>>> upstream/18.0
@@ -7412,7 +9214,11 @@ msgstr "फ़ाइल अटैच करें"
 #: model:ir.model,name:account.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -7430,7 +9236,11 @@ msgstr "अटैचमेंट"
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__message_attachment_count
 msgid "Attachment Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट काउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट काउंट"
 >>>>>>> upstream/18.0
@@ -7444,7 +9254,11 @@ msgstr "अटैचमेंट काउंट"
 #: model:ir.model.fields,field_description:account.field_account_payment__attachment_ids
 msgid "Attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अटैचमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "अटैचमेंट"
 >>>>>>> upstream/18.0
@@ -7463,7 +9277,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Audit Trail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑडिट ट्रेल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑडिट ट्रेल"
 >>>>>>> upstream/18.0
@@ -7473,7 +9291,11 @@ msgstr "ऑडिट ट्रेल"
 #: model:ir.model.fields,field_description:account.field_account_move__audit_trail_message_ids
 msgid "Audit Trail Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑडिट ट्रेल मैसेज"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑडिट ट्रेल मैसेज"
 >>>>>>> upstream/18.0
@@ -7482,7 +9304,11 @@ msgstr "ऑडिट ट्रेल मैसेज"
 #: model:ir.model.fields,field_description:account.field_account_report_expression__auditable
 msgid "Auditable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑडिटेबल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑडिटेबल"
 >>>>>>> upstream/18.0
@@ -7491,7 +9317,11 @@ msgstr "ऑडिटेबल"
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__8
 msgid "August"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अगस्त"
+>>>>>>> upstream/18.0
 =======
 msgstr "अगस्त"
 >>>>>>> upstream/18.0
@@ -7505,7 +9335,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_journal__autocheck_on_post
 msgid "Auto-Check on Post"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पोस्ट पर ऑटो-चेक"
+>>>>>>> upstream/18.0
 =======
 msgstr "पोस्ट पर ऑटो-चेक"
 >>>>>>> upstream/18.0
@@ -7514,7 +9348,11 @@ msgstr "पोस्ट पर ऑटो-चेक"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Auto-Complete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-कंप्ली"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-कंप्ली"
 >>>>>>> upstream/18.0
@@ -7524,7 +9362,11 @@ msgstr "ऑटो-कंप्ली"
 #: model:ir.model.fields,help:account.field_account_move__invoice_vendor_bill_id
 msgid "Auto-complete from a past bill."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पुराने बिल से ऑटो-कंप्लीट"
+>>>>>>> upstream/18.0
 =======
 msgstr "पुराने बिल से ऑटो-कंप्लीट"
 >>>>>>> upstream/18.0
@@ -7533,7 +9375,11 @@ msgstr "पुराने बिल से ऑटो-कंप्लीट"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__payment_ids
 msgid "Auto-generated Payments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-जनरेट किया गया पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-जनरेट किया गया पेमेंट"
 >>>>>>> upstream/18.0
@@ -7543,7 +9389,11 @@ msgstr "ऑटो-जनरेट किया गया पेमेंट"
 #: model:ir.model.fields,field_description:account.field_account_move__auto_post
 msgid "Auto-post"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-पोस्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-पोस्ट"
 >>>>>>> upstream/18.0
@@ -7553,7 +9403,11 @@ msgstr "ऑटो-पोस्ट"
 #: model:ir.model.fields,field_description:account.field_res_users__autopost_bills
 msgid "Auto-post bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-पोस्ट बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-पोस्ट बिल"
 >>>>>>> upstream/18.0
@@ -7563,7 +9417,11 @@ msgstr "ऑटो-पोस्ट बिल"
 #: model:ir.model.fields,field_description:account.field_account_move__auto_post_until
 msgid "Auto-post until"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-पोस्ट तक"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-पोस्ट तक"
 >>>>>>> upstream/18.0
@@ -7576,6 +9434,12 @@ msgid ""
 "detected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"इस इनवॉइस के लिए अपने-आप पोस्ट करने की सुविधा बंद कर दी गई है. ऐसा इसलिए "
+"हुआ, क्योंकि सिस्टम को लगा कि यह बिल पहले से मौजूद किसी बिल की नकल हो सकता "
+"है"
+>>>>>>> upstream/18.0
 =======
 "इस इनवॉइस के लिए अपने-आप पोस्ट करने की सुविधा बंद कर दी गई है. ऐसा इसलिए "
 "हुआ, क्योंकि सिस्टम को लगा कि यह बिल पहले से मौजूद किसी बिल की नकल हो सकता "
@@ -7593,7 +9457,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_res_config_settings__autopost_bills
 msgid "Auto-validate bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटो-वैलिडेट बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटो-वैलिडेट बिल"
 >>>>>>> upstream/18.0
@@ -7604,7 +9472,11 @@ msgstr "ऑटो-वैलिडेट बिल"
 #: code:addons/account/models/company.py:0
 msgid "Automatic Balancing Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक बैलसिंग लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक बैलसिंग लाइन"
 >>>>>>> upstream/18.0
@@ -7613,7 +9485,11 @@ msgstr "ऑटोमैटिक बैलसिंग लाइन"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_currency_rate_live
 msgid "Automatic Currency Rates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक करेंसी रेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक करेंसी रेट"
 >>>>>>> upstream/18.0
@@ -7622,7 +9498,11 @@ msgstr "ऑटोमैटिक करेंसी रेट"
 #: model:ir.model.fields,field_description:account.field_res_company__automatic_entry_default_journal_id
 msgid "Automatic Entry Default Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक एंट्री डिफ़ॉल्ट जर्नल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक एंट्री डिफ़ॉल्ट जर्नल"
 >>>>>>> upstream/18.0
@@ -7631,7 +9511,11 @@ msgstr "ऑटोमैटिक एंट्री डिफ़ॉल्ट ज
 #: model:ir.model,name:account.model_sequence_mixin
 msgid "Automatic sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमैटिक सिक्वेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमैटिक सिक्वेंस"
 >>>>>>> upstream/18.0
@@ -7641,7 +9525,11 @@ msgstr "ऑटोमैटिक सिक्वेंस"
 #: model:ir.model.fields,help:account.field_res_users__autopost_bills
 msgid "Automatically post bills for this trusted partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस भरोसेमंद पार्टनर के बिल अपने-आप पोस्ट करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस भरोसेमंद पार्टनर के बिल अपने-आप पोस्ट करें"
 >>>>>>> upstream/18.0
@@ -7650,7 +9538,11 @@ msgstr "इस भरोसेमंद पार्टनर के बिल �
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Automation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोमेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोमेशन"
 >>>>>>> upstream/18.0
@@ -7661,7 +9553,11 @@ msgstr "ऑटोमेशन"
 #: model_terms:ir.ui.view,arch_db:account.autopost_bills_wizard
 msgid "Autopost Bills"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोपोस्ट बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोपोस्ट बिल"
 >>>>>>> upstream/18.0
@@ -7670,7 +9566,11 @@ msgstr "ऑटोपोस्ट बिल"
 #: model:ir.model,name:account.model_account_autopost_bills_wizard
 msgid "Autopost Bills Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑटोपोस्ट बिल विज़ॉर्ड"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑटोपोस्ट बिल विज़ॉर्ड"
 >>>>>>> upstream/18.0
@@ -7686,7 +9586,11 @@ msgstr "उपलब्धता"
 #: model:ir.model.fields,field_description:account.field_account_payment_register__available_journal_ids
 msgid "Available Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध जर्नल"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध जर्नल"
 >>>>>>> upstream/18.0
@@ -7696,7 +9600,11 @@ msgstr "उपलब्ध जर्नल"
 #: model:ir.model.fields,field_description:account.field_account_payment_register__available_partner_bank_ids
 msgid "Available Partner Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "उपलब्ध पार्टनर बैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "उपलब्ध पार्टनर बैंक"
 >>>>>>> upstream/18.0
@@ -7706,7 +9614,11 @@ msgstr "उपलब्ध पार्टनर बैंक"
 #: model:ir.model.fields,field_description:account.field_account_payment_method_line__available_payment_method_ids
 msgid "Available Payment Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेमेंट करने के उपलब्ध तरीके"
+>>>>>>> upstream/18.0
 =======
 msgstr "पेमेंट करने के उपलब्ध तरीके"
 >>>>>>> upstream/18.0
@@ -7716,7 +9628,11 @@ msgstr "पेमेंट करने के उपलब्ध तरीक�
 #: model:ir.model.fields,field_description:account.field_account_payment_register__available_payment_method_line_ids
 msgid "Available Payment Method Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऐसी लाइन जिसमें पेमेंट करने के उपलब्ध तरीके हैं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऐसी लाइन जिसमें पेमेंट करने के उपलब्ध तरीके हैं"
 >>>>>>> upstream/18.0
@@ -7725,7 +9641,11 @@ msgstr "ऐसी लाइन जिसमें पेमेंट करन�
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__price_average
 msgid "Average Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "औसत कीमत"
+>>>>>>> upstream/18.0
 =======
 msgstr "औसत कीमत"
 >>>>>>> upstream/18.0
@@ -7734,7 +9654,11 @@ msgstr "औसत कीमत"
 #: model_terms:ir.ui.view,arch_db:account.view_base_document_layout
 msgid "BE71096123456769"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BE71096123456769"
+>>>>>>> upstream/18.0
 =======
 msgstr "BE71096123456769"
 >>>>>>> upstream/18.0
@@ -7744,7 +9668,11 @@ msgstr "BE71096123456769"
 #: code:addons/account/models/chart_template.py:0
 msgid "BILL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिल"
 >>>>>>> upstream/18.0
@@ -7775,7 +9703,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_move_line__balance
 msgid "Balance"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैलेंस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैलेंस"
 >>>>>>> upstream/18.0
@@ -7785,7 +9717,11 @@ msgstr "बैलेंस"
 #: code:addons/account/static/src/components/account_type_selection/account_type_selection.js:0
 msgid "Balance Sheet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंलेस शीट"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंलेस शीट"
 >>>>>>> upstream/18.0
@@ -7812,7 +9748,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Bank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक"
 >>>>>>> upstream/18.0
@@ -7821,7 +9761,11 @@ msgstr "बैंक"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Bank & Cash"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक और कैश"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक और कैश"
 >>>>>>> upstream/18.0
@@ -7837,7 +9781,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Bank Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता"
 >>>>>>> upstream/18.0
@@ -7845,6 +9793,7 @@ msgstr "बैंक खाता"
 #. module: account
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8050,6 +9999,9 @@ msgid "Bank Account %(link)s with number %(number)s archived"
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 >>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -8068,7 +10020,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank Account Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाते का नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाते का नाम"
 >>>>>>> upstream/18.0
@@ -8079,7 +10035,11 @@ msgstr "बैंक खाते का नाम"
 #: model_terms:ir.ui.view,arch_db:account.view_base_document_layout
 msgid "Bank Account Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता नंबर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता नंबर"
 >>>>>>> upstream/18.0
@@ -8099,7 +10059,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Bank Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक खाता"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक खाता"
 >>>>>>> upstream/18.0
@@ -8113,7 +10077,11 @@ msgstr ""
 #: model:account.account,name:account.1_expense_finance
 msgid "Bank Fees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक फ़ीस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक फ़ीस"
 >>>>>>> upstream/18.0
@@ -8127,7 +10095,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_res_company__bank_journal_ids
 msgid "Bank Journals"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक जर्नल"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक जर्नल"
 >>>>>>> upstream/18.0
@@ -8137,7 +10109,11 @@ msgstr "बैंक जर्नल"
 #: model:ir.model.fields,field_description:account.field_account_move__bank_partner_id
 msgid "Bank Partner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक पार्टनर"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक पार्टनर"
 >>>>>>> upstream/18.0
@@ -8156,7 +10132,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bank Setup"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक सेटअप"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक सेटअप"
 >>>>>>> upstream/18.0
@@ -8166,7 +10146,11 @@ msgstr "बैंक सेटअप"
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank Statement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक स्टेटमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक स्टेटमेंट"
 >>>>>>> upstream/18.0
@@ -8180,7 +10164,11 @@ msgstr ""
 #: model:ir.model,name:account.model_account_bank_statement_line
 msgid "Bank Statement Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक स्टेटमेंट लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक स्टेटमेंट लाइन"
 >>>>>>> upstream/18.0
@@ -8189,7 +10177,11 @@ msgstr "बैंक स्टेटमेंट लाइन"
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 msgid "Bank Statements"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक स्टेटमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक स्टेटमेंट"
 >>>>>>> upstream/18.0
@@ -8211,7 +10203,11 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 msgid "Bank Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक ट्रांज़ैक्शन"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक ट्रांज़ैक्शन"
 >>>>>>> upstream/18.0
@@ -8272,7 +10268,11 @@ msgstr ""
 #: model:ir.ui.menu,name:account.account_banks_menu
 msgid "Banks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बैंक"
+>>>>>>> upstream/18.0
 =======
 msgstr "बैंक"
 >>>>>>> upstream/18.0
@@ -8281,7 +10281,11 @@ msgstr "बैंक"
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__repartition_type__base
 msgid "Base"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेस"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेस"
 >>>>>>> upstream/18.0
@@ -8339,7 +10343,11 @@ msgstr ""
 #: model:res.groups,name:account.group_account_basic
 msgid "Basic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बेसिक"
+>>>>>>> upstream/18.0
 =======
 msgstr "बेसिक"
 >>>>>>> upstream/18.0
@@ -8734,7 +10742,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8891,6 +10902,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9530,6 +11544,7 @@ msgstr "व्यावसायिक इकाई"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9598,6 +11613,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9780,6 +11797,9 @@ msgstr "वाणिज्यिक साझेदार का देश"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9919,7 +11939,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__company_ids
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंपनियां"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंपनियां"
 >>>>>>> upstream/18.0
@@ -10263,7 +12287,11 @@ msgstr "देश"
 #: model:ir.model.fields,field_description:account.field_res_config_settings__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "देश का कोड"
+>>>>>>> upstream/18.0
 =======
 msgstr "देश का कोड"
 >>>>>>> upstream/18.0
@@ -10313,6 +12341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -10820,7 +12853,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_tree
 msgid "Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "करेंसी"
+>>>>>>> upstream/18.0
 =======
 msgstr "करेंसी"
 >>>>>>> upstream/18.0
@@ -10955,7 +12992,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account.selection__account_move__move_type__out_invoice
 msgid "Customer Invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर इनवॉइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टमर इनवॉइस"
 >>>>>>> upstream/18.0
@@ -11802,7 +13843,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -13473,7 +15518,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -14773,7 +16822,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल एंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल एंट्री"
 >>>>>>> upstream/18.0
@@ -14805,7 +16858,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल आइटम"
 >>>>>>> upstream/18.0
@@ -15797,7 +17854,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मॉडल"
+>>>>>>> upstream/18.0
 =======
 msgstr "मॉडल"
 >>>>>>> upstream/18.0
@@ -19793,7 +21854,11 @@ msgid "Tax"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टैक्स"
+>>>>>>> upstream/18.0
 =======
 msgstr "टैक्स"
 >>>>>>> upstream/18.0
@@ -20506,7 +22571,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20595,6 +22663,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23043,7 +25114,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23199,6 +25273,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23458,7 +25535,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -23920,7 +26003,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24010,6 +26096,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24166,6 +26255,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24199,6 +26289,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

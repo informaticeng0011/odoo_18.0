@@ -167,7 +167,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_import_invoice_new(self):
@@ -175,6 +178,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_import_invoice()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -238,7 +244,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_import_refund_new(self):
@@ -246,6 +255,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_import_refund()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -306,7 +318,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_sending_to_public_admin_new(self):
@@ -314,6 +329,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_sending_to_public_admin()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -347,7 +365,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_rounding_price_unit_new(self):
@@ -355,6 +376,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_rounding_price_unit()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -384,7 +408,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_inverting_negative_price_unit_new(self):
@@ -392,6 +419,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_inverting_negative_price_unit()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -415,7 +445,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case1_new(self):
@@ -423,6 +456,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_with_fixed_taxes_case1()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -446,7 +482,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case2_new(self):
@@ -454,6 +493,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_with_fixed_taxes_case2()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -481,7 +523,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case3_new(self):
@@ -489,6 +534,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_with_fixed_taxes_case3()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -519,7 +567,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_with_fixed_taxes_case4_new(self):
@@ -527,6 +578,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_with_fixed_taxes_case4()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -865,7 +919,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_with_changed_taxes_new(self):
@@ -873,6 +930,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_with_changed_taxes()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -902,7 +962,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_rounding_price_amount_new(self):
@@ -910,6 +973,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_rounding_price_amount()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -930,7 +996,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_export_tax_exempt_new(self):
@@ -938,6 +1007,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.test_export_tax_exempt()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

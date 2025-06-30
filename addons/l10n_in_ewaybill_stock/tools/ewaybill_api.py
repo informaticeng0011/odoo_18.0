@@ -143,6 +143,7 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 e.error_json['odoo_warning'].append({
                     'message': Markup("%s<br/>%s:<br/>%s") % (
                         self.DEFAULT_HELP_MESSAGE % 'cancelled',
@@ -153,6 +154,8 @@ class EWayBillApi:
                 })
                 raise
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173,6 +176,9 @@ class EWayBillApi:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

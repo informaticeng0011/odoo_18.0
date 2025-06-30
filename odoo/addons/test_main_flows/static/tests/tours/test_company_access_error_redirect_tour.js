@@ -13,7 +13,10 @@ registry.category("web_tour.tours").add("test_company_access_error_redirect", {
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             trigger: "body",
@@ -21,6 +24,9 @@ registry.category("web_tour.tours").add("test_company_access_error_redirect", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

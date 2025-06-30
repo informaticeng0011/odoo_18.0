@@ -96,6 +96,7 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.onchange('company_type')
     def onchange_company_type(self):
         res = super().onchange_company_type()
@@ -112,6 +113,8 @@ class ResPartner(models.Model):
             self.l10n_in_gst_treatment = (self.company_type == 'company') and 'regular' or 'consumer'
         return res
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -270,7 +273,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for fname in partner_data:
+=======
+        for fname in list(partner_data.keys()):
+>>>>>>> upstream/18.0
 =======
         for fname in list(partner_data.keys()):
 >>>>>>> upstream/18.0
@@ -506,6 +513,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.ref_company_ids:
+            self.ref_company_ids._update_l10n_in_fiscal_position()
+>>>>>>> upstream/18.0
 =======
         if self.ref_company_ids:
             self.ref_company_ids._update_l10n_in_fiscal_position()

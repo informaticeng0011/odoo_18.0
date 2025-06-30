@@ -184,8 +184,11 @@ class ResPartner(models.Model):
         """Called by JS to create the activity tags from the UNSPSC codes"""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.ensure_one()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208,7 +211,11 @@ class ResPartner(models.Model):
                 tag_ids |= self.env['res.partner.category'].create({'name': tag_name})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.category_id = tag_ids
+=======
+        return tag_ids.ids
+>>>>>>> upstream/18.0
 =======
         return tag_ids.ids
 >>>>>>> upstream/18.0

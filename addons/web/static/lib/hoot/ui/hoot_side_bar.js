@@ -49,7 +49,11 @@ import { createUrlFromId } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { lookup, normalize } from "../hoot_utils";
+=======
+import { lookup, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { lookup, parseQuery } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -480,6 +484,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nFilter = normalize(this.state.filter);
         if (nFilter) {
             allowedIds = new Set();
@@ -487,6 +492,8 @@ export class HootSideBar extends Component {
             rootSuites = new Set();
             for (const matchingSuite of lookup(nFilter, allSuites, "name")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -628,6 +635,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -746,7 +756,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const addSuite = (suite) => {
+=======
+        function addSuite(suite) {
+>>>>>>> upstream/18.0
 =======
         function addSuite(suite) {
 >>>>>>> upstream/18.0
@@ -793,7 +807,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         };
+=======
+        }
+>>>>>>> upstream/18.0
 =======
         }
 >>>>>>> upstream/18.0
@@ -877,6 +895,7 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {number} delta
          */
@@ -912,6 +931,8 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const { currentTarget, key } = ev;
         switch (key) {
             case "ArrowDown": {
@@ -924,6 +945,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -955,7 +979,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(-1);
+=======
+                    return this.selectElementAt(currentTarget, -1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, -1);
 >>>>>>> upstream/18.0
@@ -996,7 +1024,11 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return selectElementAt(+1);
+=======
+                    return this.selectElementAt(currentTarget, +1);
+>>>>>>> upstream/18.0
 =======
                     return this.selectElementAt(currentTarget, +1);
 >>>>>>> upstream/18.0
@@ -1029,6 +1061,7 @@ export class HootSideBar extends Component {
                 }
             }
             case "ArrowUp": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,6 +1205,8 @@ export class HootSideBar extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 return this.selectElementAt(currentTarget, -1);
             }
             case "Enter": {
@@ -1185,6 +1220,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1216,7 +1254,10 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1257,6 +1298,9 @@ export class HootSideBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

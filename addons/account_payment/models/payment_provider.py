@@ -62,6 +62,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
+>>>>>>> upstream/18.0
 =======
                 'payment_account_id': self._get_payment_method_outstanding_account_id(default_payment_method)
 >>>>>>> upstream/18.0
@@ -86,7 +90,10 @@ class PaymentProvider(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104,6 +111,9 @@ class PaymentProvider(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

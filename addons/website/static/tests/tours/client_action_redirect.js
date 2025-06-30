@@ -1,7 +1,10 @@
 /** @odoo-module */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19,7 +22,12 @@ const goToFrontendSteps = [{
         window.location.assign(testUrl);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage: true,
@@ -40,7 +48,12 @@ const goToBackendSteps = [{
         window.location.assign(`/@${testUrl}`);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage: true,
@@ -78,6 +91,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -95,6 +112,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -122,6 +143,10 @@ registry.category("web_tour.tours").add('client_action_redirect', {
         run: "click",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
