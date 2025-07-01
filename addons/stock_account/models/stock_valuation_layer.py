@@ -101,7 +101,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -268,6 +271,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -464,7 +470,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -673,6 +682,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -907,7 +919,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         context = {}
+=======
+        context = {"pivot_measures": ["quantity", "value"]}
+>>>>>>> upstream/18.0
 =======
         context = {"pivot_measures": ["quantity", "value"]}
 >>>>>>> upstream/18.0
@@ -1057,10 +1073,17 @@ class StockValuationLayer(models.Model):
         if not self:
             return 0, 0
 
+<<<<<<< HEAD
         rounding = self.product_id.uom_id.rounding
         qty_to_take_on_candidates = qty_to_value
         tmp_value = 0  # to accumulate the value taken on the candidates
         for candidate in self:
+=======
+        qty_to_take_on_candidates = qty_to_value
+        tmp_value = 0  # to accumulate the value taken on the candidates
+        for candidate in self:
+            rounding = candidate.product_id.uom_id.rounding
+>>>>>>> upstream/18.0
             if float_is_zero(candidate.quantity, precision_rounding=rounding):
                 continue
             candidate_quantity = abs(candidate.quantity)
@@ -1093,13 +1116,22 @@ class StockValuationLayer(models.Model):
         if not self:
             return 0, 0
 
+<<<<<<< HEAD
         rounding = self.product_id.uom_id.rounding
+=======
+        min_rounding = 1.0
+>>>>>>> upstream/18.0
         qty_total = -qty_valued
         value_total = -valued
         new_valued_qty = 0
         new_valuation = 0
 
         for svl in self:
+<<<<<<< HEAD
+=======
+            rounding = svl.product_id.uom_id.rounding
+            min_rounding = min(min_rounding, rounding)
+>>>>>>> upstream/18.0
             if float_is_zero(svl.quantity, precision_rounding=rounding):
                 continue
             relevant_qty = abs(svl.quantity)
@@ -1111,7 +1143,11 @@ class StockValuationLayer(models.Model):
             qty_total += relevant_qty
             value_total += relevant_qty * ((svl.value + sum(svl.stock_valuation_layer_ids.mapped('value'))) / svl.quantity)
 
+<<<<<<< HEAD
         if float_compare(qty_total, 0, precision_rounding=rounding) > 0:
+=======
+        if float_compare(qty_total, 0, precision_rounding=min_rounding) > 0:
+>>>>>>> upstream/18.0
             unit_cost = value_total / qty_total
             new_valued_qty = min(qty_total, qty_to_value)
             new_valuation = unit_cost * new_valued_qty

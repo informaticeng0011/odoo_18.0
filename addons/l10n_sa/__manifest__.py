@@ -30,6 +30,10 @@ Activates:
         'data/account_tax_report_data.xml',
         'data/report_paperformat_data.xml',
         'views/report_invoice.xml',
+<<<<<<< HEAD
+=======
+        'views/report_templates_views.xml'
+>>>>>>> upstream/18.0
     ],
     'demo': [
         'demo/demo_company.xml',

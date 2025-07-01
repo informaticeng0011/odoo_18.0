@@ -61,8 +61,13 @@ export class ErrorDialog extends Component {
         if (this.props.serverHost) {
             this.contextDetails += `on ${this.props.serverHost} `;
         }
+<<<<<<< HEAD
         if (this.props.model && this.props.id) {
             this.contextDetails += `on model ${this.props.model} and id ${this.props.id} `;
+=======
+        if (this.props.model) {
+            this.contextDetails += `on model ${this.props.model} `;
+>>>>>>> upstream/18.0
         }
         this.contextDetails += `on ${DateTime.now()
             .setZone("UTC")

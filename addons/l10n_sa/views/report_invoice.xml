@@ -5,6 +5,7 @@
             <div class="row" t-if="o.delivery_date" name="delivery_date">
                 <div class="col-6"></div>
                 <div class="col-2">
+<<<<<<< HEAD
                     <strong style="white-space:nowrap">Delivery Date:
                     </strong>
                 </div>
@@ -14,6 +15,17 @@
                 <div class="col-2 text-end">
                     <strong style="white-space:nowrap">:
                         تاريخ التوصيل
+=======
+                    <strong style="white-space:nowrap">Supply Date:
+                    </strong>
+                </div>
+                <div class="col-2">
+                    <span t-out="o.delivery_date.strftime('%Y-%m-%d')"/>
+                </div>
+                <div class="col-2 text-end">
+                    <strong style="white-space:nowrap">:
+                        تاريخ التوريد
+>>>>>>> upstream/18.0
                     </strong>
                 </div>
             </div>
@@ -69,7 +81,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong>Shipping Address:</strong>
+=======
+                        <strong class="d-block mt-3">Shipping Address:</strong>
+>>>>>>> upstream/18.0
 =======
                         <strong class="d-block mt-3">Shipping Address:</strong>
 >>>>>>> upstream/18.0
@@ -270,14 +286,30 @@
                 إجمالي قيمة الفاتورة شامل ضريبة القيمة المضافة
             </strong>
         </xpath>
+<<<<<<< HEAD
         <xpath expr="//div[@name='invoice_date']//span" position="before">
             <span t-if="o.l10n_sa_confirmation_datetime" t-field="o.l10n_sa_confirmation_datetime"/>
         </xpath>
         <xpath expr="//div[@name='invoice_date']//span[@t-field='o.invoice_date']" position="attributes">
             <attribute name="t-if">not o.l10n_sa_confirmation_datetime</attribute>
+=======
+        <xpath expr="//span[@t-field='o.invoice_date']" position="attributes">
+            <attribute name="t-field"></attribute>
+            <attribute name="t-out">o.invoice_date.strftime('%Y-%m-%d')</attribute>
+        </xpath>
+        <xpath expr="//span[@t-field='o.invoice_date_due']" position="attributes">
+            <attribute name="t-field"></attribute>
+            <attribute name="t-out">o.invoice_date_due.strftime('%Y-%m-%d')</attribute>
+>>>>>>> upstream/18.0
         </xpath>
         <xpath expr="//div[hasclass('clearfix')]" position="attributes">
             <attribute name="class">clearfix pt-2 pb-2</attribute>
         </xpath>
+<<<<<<< HEAD
+=======
+        <xpath expr="//div[hasclass('page')]">
+            <t t-set="additional_footer_text" t-value="o.get_l10n_sa_confirmation_datetime_sa_tz()"/> <!-- This is to show the issue date on the footer of all layouts. -->
+        </xpath>
+>>>>>>> upstream/18.0
     </template>
 </odoo>

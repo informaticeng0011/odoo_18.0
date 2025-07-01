@@ -408,7 +408,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
 =======
                             domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
 >>>>>>> upstream/18.0
@@ -1307,6 +1311,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                           default_focus="1"
+>>>>>>> upstream/18.0
 =======
                                            default_focus="1"
 >>>>>>> upstream/18.0
@@ -1463,8 +1471,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="ref" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')" />
                                 <field name="ref" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
+=======
+                                <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
+                                <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
+>>>>>>> upstream/18.0
 =======
                                 <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
                                 <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
@@ -1701,7 +1714,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                        readonly="is_move_sent"/>
+=======
+                                       readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                        readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
@@ -2163,6 +2180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="invoice_outstanding_credits_debits_widget"
                                             class="oe_invoice_outstanding_credits_debits py-3"
                                             colspan="2" nolabel="1" widget="payment"
@@ -2299,6 +2317,16 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                                        <group
+                                            class="oe_subtotal_footer px-4"
+                                            invisible="state != 'posted' or not invoice_has_outstanding"
+                                            groups="account.group_account_invoice,account.group_account_readonly">
+                                            <field name="invoice_outstanding_credits_debits_widget"
+                                                class="oe_invoice_outstanding_credits_debits py-3"
+                                                colspan="2" nolabel="1" widget="payment"/>
+                                        </group>
 >>>>>>> upstream/18.0
                                     </group>
                                 </group>
@@ -2505,7 +2533,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                readonly="is_move_sent"/>
+=======
+                                               readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                                readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0

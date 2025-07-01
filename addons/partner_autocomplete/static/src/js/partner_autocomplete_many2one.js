@@ -7,6 +7,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { useService } from "@web/core/utils/hooks";
 >>>>>>> upstream/18.0
@@ -32,6 +36,10 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.orm = useService("orm");
+>>>>>>> upstream/18.0
 =======
         this.orm = useService("orm");
 >>>>>>> upstream/18.0
@@ -98,7 +106,10 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -110,6 +121,9 @@ export class PartnerMany2XAutocomplete extends Many2XAutocomplete {
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

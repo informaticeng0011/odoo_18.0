@@ -175,7 +175,19 @@ export class Composer extends Component {
         useEffect(
             () => {
                 if (this.fakeTextarea.el.scrollHeight) {
+<<<<<<< HEAD
                     this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
+=======
+                    let wasEmpty = false;
+                    if (!this.fakeTextarea.el.value) {
+                        wasEmpty = true;
+                        this.fakeTextarea.el.value = "0";
+                    }
+                    this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
+                    if (wasEmpty) {
+                        this.fakeTextarea.el.value = "";
+                    }
+>>>>>>> upstream/18.0
                 }
                 this.saveContentDebounced();
             },
@@ -261,6 +273,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.preventDefault();
+>>>>>>> upstream/18.0
 =======
         ev.preventDefault();
 >>>>>>> upstream/18.0
@@ -639,7 +655,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.composer.emailAddSignature ? markup(this.store.self.signature) : ""
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0

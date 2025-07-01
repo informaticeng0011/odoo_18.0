@@ -15,6 +15,10 @@ class AccountChartTemplate(models.AbstractModel):
             'property_account_income_categ_id': 'base_venta_de_mercaderia',
             'name': _('Generic Chart of Accounts Argentina Single Taxpayer / Basis'),
             'code_digits': '12',
+<<<<<<< HEAD
+=======
+            'sequence': 1,
+>>>>>>> upstream/18.0
         }
 
     @template('ar_base', 'res.company')
@@ -75,7 +79,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "name": "Ventas Preimpreso",
+=======
+                "name": self.env._("Ventas Preimpreso"),
+>>>>>>> upstream/18.0
 =======
                 "name": self.env._("Ventas Preimpreso"),
 >>>>>>> upstream/18.0

@@ -182,8 +182,11 @@ class Home(http.Controller):
     @http.route(['/robots.txt'], type='http', auth="none")
     def robots(self, **kwargs):
 <<<<<<< HEAD
+<<<<<<< HEAD
         return "User-agent: *\nDisallow: /\n"
 =======
+=======
+>>>>>>> upstream/18.0
         allowed_routes = self._get_allowed_robots_routes()
         robots_content = ["User-agent: *", "Disallow: /"]
         robots_content.extend(f"Allow: {route}" for route in allowed_routes)
@@ -197,4 +200,7 @@ class Home(http.Controller):
               Examples: ['/social_instagram/', '/sitemap.xml', '/web/']
         """
         return []
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

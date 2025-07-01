@@ -88,6 +88,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -465,6 +470,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -842,6 +852,11 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
+            self.skipTest("account needed for test")
+>>>>>>> upstream/18.0
 =======
         if not self.env.ref('account.group_account_invoice', raise_if_not_found=False):
             self.skipTest("account needed for test")
@@ -1352,3 +1367,19 @@ class TestPaymentTransaction(PaymentCommon):
 
         tx._set_done()
         self.assertFalse(tx.is_post_processed)
+<<<<<<< HEAD
+=======
+
+    def test_log_processing_values(self):
+        PaymentTransaction = self.env.registry['payment.transaction']
+        tx = self._create_transaction('redirect', state='done', reference='TX-12345')
+        secret_keys = {'provider_id': None}.keys()
+        with (
+            patch.object(PaymentTransaction, '_get_specific_secret_keys', lambda tx: secret_keys),
+            self.assertLogs('odoo.addons.payment.models.payment_transaction') as cm,
+        ):
+            values = tx._get_processing_values()
+            self.assertRegex(cm.output[0], r".reference.: .TX-12345.", "Values should be logged")
+            self.assertNotRegex(cm.output[0], r"provider_id", "Secret keys should be hidden")
+            self.assertEqual(values['provider_id'], tx.provider_id.id)
+>>>>>>> upstream/18.0

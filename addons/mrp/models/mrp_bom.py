@@ -201,7 +201,11 @@ class MrpBom(models.Model):
             if sum(bom.byproduct_ids.mapped('cost_share')) > 100:
                 raise ValidationError(_("The total cost share for a BoM's by-products cannot exceed 100."))
 
+<<<<<<< HEAD
     @api.onchange('bom_line_ids', 'product_qty')
+=======
+    @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
+>>>>>>> upstream/18.0
     def onchange_bom_structure(self):
         if self.type == 'phantom' and self._origin and self.env['stock.move'].search_count([('bom_line_id', 'in', self._origin.bom_line_ids.ids)], limit=1):
             return {
@@ -441,7 +445,11 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 bom_lines += [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids]
+=======
+                bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
+>>>>>>> upstream/18.0
 =======
                 bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
 >>>>>>> upstream/18.0
@@ -675,12 +683,15 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for attribute, values in bom_values_by_attribute.items():
             if any(val.id in never_values_by_attribute[attribute].ids for val in values):
                 continue
             return True
         return not other_attribute_valid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -851,6 +862,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

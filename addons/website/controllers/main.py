@@ -229,8 +229,11 @@ class Website(Home):
         # detecting if the current URL is the domain one and add a `Disallow: /`
         # if it's not the case to prevent the crawler to continue.
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
         allowed_routes = self._get_allowed_robots_routes()
         content = request.env['ir.ui.view']._render_template('website.robots',
             {'url_root': request.httprequest.url_root})
@@ -240,6 +243,9 @@ class Website(Home):
             content += '\n' + '\n'.join(f"Allow: {route}" for route in allowed_routes)
 
         return request.make_response(content, headers=[('Content-Type', 'text/plain')])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @http.route('/sitemap.xml', type='http', auth="public", website=True, multilang=False, sitemap=False)
