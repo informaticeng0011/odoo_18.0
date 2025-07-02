@@ -70,6 +70,7 @@ from odoo.tests import tagged, users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 from freezegun import freeze_time
@@ -157,6 +158,8 @@ from freezegun import freeze_time
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 from freezegun import freeze_time
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -491,6 +494,7 @@ class TestMailTools(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -571,6 +575,8 @@ class TestMailTools(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

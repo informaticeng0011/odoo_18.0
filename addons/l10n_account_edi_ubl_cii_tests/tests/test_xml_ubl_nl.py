@@ -73,8 +73,14 @@ class TestUBLNL(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'peppol_eas': '0106',
             'peppol_endpoint': '1234567',
+=======
+            'peppol_eas': '9944',
+            'peppol_endpoint': 'NL41452B11',
+            'company_registry': '123456789',
+>>>>>>> upstream/18.0
 =======
             'peppol_eas': '9944',
             'peppol_endpoint': 'NL41452B11',
@@ -362,7 +368,10 @@ class TestUBLNL(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -376,6 +385,9 @@ class TestUBLNL(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -445,7 +457,10 @@ class TestUBLNL(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +474,9 @@ class TestUBLNL(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

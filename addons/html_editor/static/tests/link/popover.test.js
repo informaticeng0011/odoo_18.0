@@ -40,6 +40,10 @@ import { execCommand } from "../_helpers/userCommands";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -131,6 +135,7 @@ describe("should open a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
         // selection inside a link
         setContent(el, "<p>this is a <a>li[]nk</a></p>");
@@ -186,6 +191,8 @@ describe("should open a popover", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await expectElementCount(".o-we-linkpopover", 0);
         // selection inside a link
         setContent(el, "<p>this is a <a>li[]nk</a></p>");
@@ -217,6 +224,9 @@ describe("should open a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -284,8 +294,12 @@ describe("should open a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -401,7 +415,11 @@ describe("should open a popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -531,7 +549,11 @@ describe("popover should switch UI depending on editing state", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -669,7 +691,11 @@ describe("popover should edit,copy,remove the link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -822,8 +848,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -930,8 +960,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover");
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1194,8 +1228,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1289,8 +1327,12 @@ describe("Link creation", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitFor(".o-we-linkpopover", { timeout: 1500 });
             expect(".o-we-linkpopover").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -1560,6 +1602,7 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/html_editor/link_preview_internal", () => {
             return {
                 description: markup("Test description"),
@@ -1568,6 +1611,8 @@ describe("link preview", () => {
         });
         onRpc("/odoo/project/1/tasks/8", () => new Response("", { status: 200 }));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1603,6 +1648,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1654,6 +1702,7 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/html_editor/link_preview_external", () => {
             return {
                 og_description:
@@ -1666,6 +1715,8 @@ describe("link preview", () => {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1705,6 +1756,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1758,7 +1812,11 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/odoo/cachetest/8", () => new Response("", { status: 200 }));
+=======
+        onRpc("/odoo/cachetest/8", () => "", { pure: true });
+>>>>>>> upstream/18.0
 =======
         onRpc("/odoo/cachetest/8", () => "", { pure: true });
 >>>>>>> upstream/18.0
@@ -1843,12 +1901,15 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/odoo/cachetest/8", (mockRequest) => {
             const urlProtocol = new URL(mockRequest.url).protocol;
             expect(urlProtocol).toBe(currentProtocol);
             return new Response("", { status: 200 });
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1888,6 +1949,9 @@ describe("link preview", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2010,8 +2074,12 @@ describe("link in templates", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -2111,8 +2179,12 @@ describe("link in templates", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await waitFor(".o-we-linkpopover");
         expect(".o-we-linkpopover").toHaveCount(1);
+=======
+        await expectElementCount(".o-we-linkpopover", 1);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 1);
 >>>>>>> upstream/18.0
@@ -2243,7 +2315,11 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-we-linkpopover").toHaveCount(0);
+=======
+        await expectElementCount(".o-we-linkpopover", 0);
+>>>>>>> upstream/18.0
 =======
         await expectElementCount(".o-we-linkpopover", 0);
 >>>>>>> upstream/18.0
@@ -2363,7 +2439,10 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2387,6 +2466,9 @@ describe("links with inline image", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2475,7 +2557,11 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `<p><a href="${expectedUrl}">file.txt[]</a></p>`
+=======
+            `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
+>>>>>>> upstream/18.0
 =======
             `<p><a href="${expectedUrl}" data-attachment-id="1">file.txt[]</a></p>`
 >>>>>>> upstream/18.0
@@ -2566,9 +2652,13 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onRpc("/web/dataset/call_kw/ir.attachment/read", () => {
             return [{ name: "file.txt", mimetype: "text/plain" }];
         });
+=======
+        onRpc("ir.attachment", "read", () => [{ name: "file.txt", mimetype: "text/plain" }]);
+>>>>>>> upstream/18.0
 =======
         onRpc("ir.attachment", "read", () => [{ name: "file.txt", mimetype: "text/plain" }]);
 >>>>>>> upstream/18.0
@@ -2612,7 +2702,10 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2635,6 +2728,9 @@ describe("upload file via link popover", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

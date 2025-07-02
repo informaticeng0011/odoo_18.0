@@ -9,6 +9,10 @@
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024
 # Yihya Hugirat <hugirat@gmail.com>, 2024
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2025
+<<<<<<< HEAD
+=======
+# Yoram Lavi, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -16,7 +20,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-10 13:24+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2025\n"
+=======
+"Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,12 +71,20 @@ msgstr "עובד"
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_hr_leave_type__timesheet_generate
 msgid "Generate Timesheets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צור דוחות נוכחות"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model_terms:ir.ui.view,arch_db:project_timesheet_holidays.hr_holiday_status_view_form_inherit
 msgid "Generate timesheets when validating time off requests of this type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "צור דפי נוכחות בעת אישור בקשות חופשה מסוג זה"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,help:project_timesheet_holidays.field_hr_leave_type__timesheet_generate
@@ -121,6 +137,11 @@ msgid ""
 "off requests. You can specify another project on each time off type "
 "individually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"הפרויקט המוגדר כברירת מחדל ליצירת דפי נוכחות אוטומטיים מבקשות היעדרות. ניתן "
+"להגדיר פרויקט שונה לכל סוג היעדרות בנפרד."
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,help:project_timesheet_holidays.field_res_config_settings__leave_timesheet_task_id
@@ -128,6 +149,11 @@ msgid ""
 "The default task used when automatically generating timesheets via time off "
 "requests. You can specify another task on each time off type individually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"המשימה המוגדרת כברירת מחדל בעת יצירת דפי נוכחות אוטומטית מבקשות היעדרות. "
+"ניתן לציין משימה אחרת לכל סוג היעדרות בנפרד."
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
@@ -159,7 +185,11 @@ msgstr "סוג חופשה"
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_project_task__leave_types_count
 msgid "Time Off Types Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מספר סוגי היעדרות"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #: model_terms:ir.ui.view,arch_db:project_timesheet_holidays.hr_holiday_status_view_form_inherit
@@ -170,7 +200,11 @@ msgstr "דיווחי שעות"
 #. odoo-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "View Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג העדרות"
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
@@ -179,12 +213,21 @@ msgid ""
 "You cannot create timesheets for a task that is linked to a time off type. "
 "Please use the Time Off application to request new time off instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן ליצור דפי נוכחות למשימה המשויכת לסוג היעדרות. אנא השתמש באפליקציית "
+"ההיעדרויות לבקשת חופשה חדשה."
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
 #: code:addons/project_timesheet_holidays/models/account_analytic.py:0
 msgid "You cannot delete timesheets that are linked to global time off."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא ניתן למחוק דיווחי שעות המקושרים  להעדרות  גלובלית."
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
@@ -193,6 +236,11 @@ msgid ""
 "You cannot delete timesheets that are linked to time off requests. Please "
 "cancel your time off request from the Time Off application instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן למחוק דפי נוכחות המשויכים לבקשות היעדרות. אנא בטל את בקשת ההיעדרות "
+"דרך אפליקציית ההיעדרויות."
+>>>>>>> upstream/18.0
 
 #. module: project_timesheet_holidays
 #. odoo-python
@@ -201,3 +249,8 @@ msgid ""
 "You cannot modify timesheets that are linked to time off requests. Please "
 "use the Time Off application to modify your time off requests instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"לא ניתן לערוך דפי נוכחות המשויכים לבקשות היעדרות. אנא השתמש באפליקציית "
+"ההיעדרויות כדי לשנות את בקשות ההיעדרות שלך."
+>>>>>>> upstream/18.0

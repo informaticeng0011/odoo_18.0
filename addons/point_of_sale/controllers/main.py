@@ -225,7 +225,11 @@ class PosController(PortalAccount):
     def _get_invoice(self, partner_values, invoice_values, pos_order, additional_invoice_fields, kwargs):
         # If the user is not connected, then we will simply create a new partner with the form values.
         # Matching with existing partner was tried, but we then can't update the values, and it would force the user to use the ones from the first invoicing.
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
             partner_values.update({key: kwargs[key] for key in self._get_mandatory_fields()})
             partner_values.update({key: kwargs[key] for key in self._get_optional_fields() if key in kwargs})
             for field in {'country_id', 'state_id'} & set(partner_values.keys()):
@@ -234,6 +238,10 @@ class PosController(PortalAccount):
                 except Exception:
                     partner_values[field] = False
             partner_values.update({'zip': partner_values.pop('zipcode', '')})
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
             partner = request.env['res.partner'].sudo().create(partner_values)  # In this case, partner_values contains the whole partner info form.
         # If the user is connected, then we can update if needed its fields with the additional localized fields if any, then proceed.
         else:

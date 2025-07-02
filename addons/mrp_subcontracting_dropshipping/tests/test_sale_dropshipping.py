@@ -289,7 +289,10 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
 
         self.assertEqual(sale_order.order_line.qty_delivered, 1.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_dropshipped_change_qty_SO(self):
         # Create BoM
@@ -331,4 +334,7 @@ class TestSaleDropshippingFlows(TestMrpSubcontractingCommon):
         user_admin = self.env['res.users'].search([('login', '=', 'admin')])
         sol.with_user(user_admin).write({'product_uom_qty': 10})
         self.assertEqual(sol.purchase_line_ids.mapped('product_uom_qty'), [10, 10])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

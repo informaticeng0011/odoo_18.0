@@ -16,6 +16,10 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -401,7 +405,10 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459,6 +466,9 @@ class TestAccountJournalAlias(AccountTestInvoicingCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

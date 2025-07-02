@@ -13,6 +13,10 @@ class AccountChartTemplate(models.AbstractModel):
             'parent': 'ar_ex',
             'code_digits': '12',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 0,
+>>>>>>> upstream/18.0
 =======
             'sequence': 0,
 >>>>>>> upstream/18.0

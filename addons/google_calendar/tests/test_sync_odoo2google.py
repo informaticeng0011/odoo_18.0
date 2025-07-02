@@ -629,6 +629,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -680,6 +683,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1112,6 +1118,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1496,6 +1503,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 

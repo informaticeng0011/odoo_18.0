@@ -202,7 +202,11 @@ class MrpBom(models.Model):
                 raise ValidationError(_("The total cost share for a BoM's by-products cannot exceed 100."))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.onchange('bom_line_ids', 'product_qty')
+=======
+    @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
+>>>>>>> upstream/18.0
 =======
     @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
 >>>>>>> upstream/18.0
@@ -430,6 +434,7 @@ class MrpBom(models.Model):
                 product_ids.clear()
             bom = product_boms.get(current_line.product_id)
             if bom:
+<<<<<<< HEAD
                 converted_line_quantity = current_line.product_uom_id._compute_quantity(line_quantity / bom.product_qty, bom.product_uom_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -490,6 +495,12 @@ class MrpBom(models.Model):
                 bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
 >>>>>>> upstream/18.0
 =======
+                bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
+>>>>>>> upstream/18.0
+=======
+                converted_line_quantity = current_line.product_uom_id._compute_quantity(
+                    line_quantity / bom.product_qty, bom.product_uom_id, round=False
+                )
                 bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
 >>>>>>> upstream/18.0
                 for bom_line in bom.bom_line_ids:
@@ -684,12 +695,15 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for attribute, values in bom_values_by_attribute.items():
             if any(val.id in never_values_by_attribute[attribute].ids for val in values):
                 continue
             return True
         return not other_attribute_valid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -863,6 +877,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

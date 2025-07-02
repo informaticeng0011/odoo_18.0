@@ -9,8 +9,12 @@ registry.category('web_tour.tours').add('website_sale_collect_buy_product', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.searchProduct("Test CAC Product"),
         clickOnElement("Test Product", 'a:contains("Test CAC Product")'),
+=======
+        ...tourUtils.searchProduct("Test CAC Product", { select: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.searchProduct("Test CAC Product", { select: true }),
 >>>>>>> upstream/18.0
@@ -80,7 +84,11 @@ registry.category('web_tour.tours').add('website_sale_collect_buy_product', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tourUtils.pay(),
+=======
+        ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.pay({ expectUnloadPage: true, waitFinalizeYourPayment: true }),
 >>>>>>> upstream/18.0

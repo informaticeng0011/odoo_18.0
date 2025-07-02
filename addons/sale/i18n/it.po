@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
 <<<<<<< HEAD
@@ -310,6 +311,11 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
 # Marianna Ciofani, 2025
 # Wil Odoo, 2025
+>>>>>>> upstream/18.0
+=======
+# Sergio Zanchetta <primes2h@gmail.com>, 2025
+# Wil Odoo, 2025
+# Marianna Ciofani, 2025
 >>>>>>> upstream/18.0
 =======
 # Sergio Zanchetta <primes2h@gmail.com>, 2025
@@ -376,6 +382,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,6 +697,11 @@ msgstr ""
 "POT-Creation-Date: 2025-06-13 18:37+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-13 18:37+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Marianna Ciofani, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-06-13 18:37+0000\n"
@@ -1448,7 +1460,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n"
+=======
+"        <t t-set=\"doc_name\" t-value=\"'preventivo' if object.state in ('draft', 'sent') else 'ordine'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-set=\"doc_name\" t-value=\"'preventivo' if object.state in ('draft', 'sent') else 'ordine'\"/>\n"
 >>>>>>> upstream/18.0
@@ -1677,7 +1693,11 @@ msgid "<i class=\"fa fa-print me-1\"/>View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-print me-1\"/>Mostra dettagli"
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Stampa PDF"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Stampa PDF"
 >>>>>>> upstream/18.0
@@ -1880,6 +1900,7 @@ msgstr "<span>Avviso: l'ordine può essere un duplicato di</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1898,6 +1919,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1999,6 +2022,9 @@ msgstr "<strong class=\"d-block mt-3\">Indirizzo di spedizione</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2121,11 +2147,14 @@ msgstr "<strong>Addetto vendite</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Indirizzo di spedizione</strong>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3617,7 +3646,10 @@ msgstr "E-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3683,6 +3715,9 @@ msgstr "Procedura guidata composizione e-mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5114,7 +5149,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fornitori di pagamenti"
+=======
+msgstr "Fornitori di pagamento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fornitori di pagamento"
 >>>>>>> upstream/18.0
@@ -5886,7 +5925,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rendiconto"
+=======
+msgstr "Rendicontazione"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rendicontazione"
 >>>>>>> upstream/18.0
@@ -6482,7 +6525,10 @@ msgstr "Addetti vendite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6548,6 +6594,9 @@ msgstr "Messaggio pianificato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7500,6 +7549,7 @@ msgstr "Transazioni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7540,6 +7590,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__translated_product_name
 msgid "Translated Product Name"
 msgstr "Nome prodotto tradotto"
@@ -7556,6 +7608,9 @@ msgstr "Nome prodotto tradotto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7788,12 +7843,15 @@ msgstr "VIsualizza dettagli"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "View Order"
 msgstr "Mostra ordine"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

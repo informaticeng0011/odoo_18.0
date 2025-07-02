@@ -5,6 +5,10 @@ from . import common
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_credit_debit_notes
+>>>>>>> upstream/18.0
 =======
 from . import test_credit_debit_notes
 >>>>>>> upstream/18.0

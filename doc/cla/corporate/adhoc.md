@@ -35,7 +35,10 @@ Julia Elizondo jue@adhoc.com.ar https://github.com/jue-adhoc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59,6 +62,9 @@ Franco Leyes lef@adhoc.inc https://github.com/lef-adhoc
 Julia Elizondo jue@adhoc.inc https://github.com/jue-adhoc
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

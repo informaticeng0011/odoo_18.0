@@ -43,7 +43,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #pylint: disable=sql-injection        
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123,6 +126,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             WITH affecting_base_tax_ids AS (
 
                 /*
@@ -159,6 +163,9 @@ class AccountMoveLine(models.Model):
             ),
 
             base_tax_line_mapping AS (
+=======
+            WITH base_tax_line_mapping AS (
+>>>>>>> upstream/18.0
 =======
             WITH base_tax_line_mapping AS (
 >>>>>>> upstream/18.0
@@ -234,6 +241,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 LEFT JOIN affecting_base_tax_ids tax_line_tax_ids ON tax_line_tax_ids.id = account_move_line.id
                 JOIN affecting_base_tax_ids base_line_tax_ids ON base_line_tax_ids.id = base_line.id
                 WHERE account_move_line.tax_repartition_line_id IS NOT NULL
@@ -241,6 +249,8 @@ class AccountMoveLine(models.Model):
                     AND (
                         -- keeping only the rows from affecting_base_tax_lines that end with the same taxes applied (see comment in affecting_base_tax_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -296,6 +306,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -343,9 +343,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = self.price_unit * (1 - self.discount / 100) if self.discount else\
                      self.price_subtotal / self.quantity
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -537,6 +540,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -762,6 +768,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -790,6 +797,8 @@ class AccountMoveLine(models.Model):
         if (
             self and self.move_id.stock_valuation_layer_ids and
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -980,6 +989,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1175,7 +1187,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self and self.move_id.stock_valuation_layer_ids and
+=======
+            self and self.move_id.sudo().stock_valuation_layer_ids and
+>>>>>>> upstream/18.0
 =======
             self and self.move_id.sudo().stock_valuation_layer_ids and
 >>>>>>> upstream/18.0
@@ -1443,6 +1459,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

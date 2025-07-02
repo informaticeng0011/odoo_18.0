@@ -43,7 +43,12 @@ class SaleOrderLine(models.Model):
         # People without purchase rights should be able to do this operation
         purchase_lines_sudo = self.sudo().purchase_line_ids
 <<<<<<< HEAD
+<<<<<<< HEAD
         if purchase_lines_sudo.filtered(lambda r: r.state != 'cancel'):
+=======
+        # We make sure that it's not a kit with dropshipped components
+        if self.product_id == purchase_lines_sudo.product_id and purchase_lines_sudo.filtered(lambda r: r.state != 'cancel'):
+>>>>>>> upstream/18.0
 =======
         # We make sure that it's not a kit with dropshipped components
         if self.product_id == purchase_lines_sudo.product_id and purchase_lines_sudo.filtered(lambda r: r.state != 'cancel'):

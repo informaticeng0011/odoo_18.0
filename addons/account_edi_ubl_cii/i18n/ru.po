@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Ilya Rozhkov, 2025
 =======
@@ -269,12 +270,18 @@
 =======
 # Ilya Rozhkov, 2025
 # Wil Odoo, 2025
+>>>>>>> upstream/18.0
+=======
+# Ilya Rozhkov, 2025
+# Wil Odoo, 2025
+# Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +603,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -637,11 +649,17 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%s should have a KVK or OIN number: the Peppol e-address (EAS) should be "
 "'0106' or '0190'."
 msgstr ""
 "%s должен иметь номер KVK или OIN: электронный адрес Peppol (EAS) должен "
 "быть '0106' или '0190'."
+=======
+"%s should have a KVK or OIN number set in Company ID field or as Peppol "
+"e-address (EAS code 0106 or 0190)."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 "%s should have a KVK or OIN number set in Company ID field or as Peppol "
 "e-address (EAS code 0106 or 0190)."
@@ -836,7 +854,10 @@ msgstr "A-NZ BIS Billing 3.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -902,6 +923,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1021,7 +1045,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9925
 msgid "Belgian VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Belgian VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9924
@@ -1221,7 +1249,10 @@ msgstr "В каждой строке счета-фактуры должен бы
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1287,6 +1318,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1346,6 +1380,15 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #. odoo-python
 #: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+<<<<<<< HEAD
+=======
+msgid "Exempt from tax"
+msgstr ""
+
+#. module: account_edi_ubl_cii
+#. odoo-python
+#: code:addons/account_edi_ubl_cii/models/account_edi_common.py:0
+>>>>>>> upstream/18.0
 msgid "Export outside the EU"
 msgstr "Экспорт за пределы ЕС"
 
@@ -1381,7 +1424,10 @@ msgstr "Factur-x/XRechnung CII 2.2.0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1447,6 +1493,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1660,7 +1709,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9938
 msgid "Luxembourg VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luxembourg VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9942
@@ -1685,7 +1738,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9941
 msgid "Montenegro VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Montenegro VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__invoice_edi_format__nlcius
@@ -1705,7 +1762,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9944
 msgid "Netherlands VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netherlands VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -1743,7 +1804,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1809,6 +1873,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1919,7 +1986,10 @@ msgstr "Конечная точка Пеппола"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2081,6 +2151,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2208,11 +2281,16 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9945
 msgid "Poland VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poland VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9946
 msgid "Portugal VAT"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_edi_ubl_cii
@@ -2373,12 +2451,18 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Portugal VAT"
+
+#. module: account_edi_ubl_cii
 >>>>>>> upstream/18.0
 #: model:ir.model,name:account_edi_ubl_cii.model_ir_actions_report
 msgid "Report Action"
 msgstr "Отчет о действиях"
 
 #. module: account_edi_ubl_cii
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2539,6 +2623,11 @@ msgstr "Отчет о действиях"
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9947
 msgid "Romania VAT"
 msgstr ""
+=======
+#: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9947
+msgid "Romania VAT"
+msgstr "Romania VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9918
@@ -2573,7 +2662,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9948
 msgid "Serbia VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serbia VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0195
@@ -2583,17 +2676,29 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9950
 msgid "Slovakia VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slovakia VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9949
 msgid "Slovenia VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slovenia VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9920
 msgid "Spain VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spain VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0007
@@ -2603,7 +2708,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9955
 msgid "Sweden VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sweden VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__0183
@@ -2613,7 +2722,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9927
 msgid "Swiss VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Swiss VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -2708,7 +2821,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9952
 msgid "Turkey VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turkey VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #: model:ir.model,name:account_edi_ubl_cii.model_account_edi_xml_ubl_20
@@ -2759,7 +2876,11 @@ msgstr ""
 #. module: account_edi_ubl_cii
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii.selection__res_partner__peppol_eas__9953
 msgid "Vatican VAT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vatican VAT"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii
 #. odoo-python
@@ -2799,7 +2920,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2865,6 +2989,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

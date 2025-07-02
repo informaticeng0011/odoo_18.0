@@ -34,6 +34,10 @@ patch(ActivityMenu.prototype, {
             // So, duplicates are faking the count and "Load more" doesn't show up
             context["force_search_count"] = 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            context["active_test"] = 0; // to show lost leads in the activity
+>>>>>>> upstream/18.0
 =======
             context["active_test"] = 0; // to show lost leads in the activity
 >>>>>>> upstream/18.0

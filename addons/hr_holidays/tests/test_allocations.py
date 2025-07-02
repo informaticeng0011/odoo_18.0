@@ -399,7 +399,10 @@ class TestAllocations(TestHrHolidaysCommon):
         allocation = allocation_form.save()
         self.assertTrue(allocation)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_leave_allocation_and_leave_request(self):
         leave_type = self.env.ref('hr_holidays.holiday_status_comp')
@@ -428,4 +431,7 @@ class TestAllocations(TestHrHolidaysCommon):
 
         self.assertEqual(leave_request.employee_id, self.employee)
         self.assertEqual(leave_request.state, 'validate')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

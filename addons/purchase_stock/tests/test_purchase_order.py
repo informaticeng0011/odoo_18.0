@@ -3,7 +3,11 @@
 import re
 from datetime import datetime, timedelta
 
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from odoo.exceptions import UserError
@@ -455,12 +459,15 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         purchase_order.order_line.product_qty = 4
         # updating quantity shouldn't create a seperate stock move
         # the new stock move (-3) should be merged with the previous
         purchase_order.button_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -543,6 +550,9 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -627,7 +637,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -712,6 +725,9 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1168,7 +1184,10 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1414,6 +1433,7 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1552,4 +1572,61 @@ class TestPurchaseOrder(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_bill_on_ordered_qty_correct_converted_amount_on_bill(self):
+        """ Ensure bill line balance is correctly calculated from a purchase order line."""
+        product1, product2 = self.test_product_order, self.test_product_delivery
+        product1.write({'purchase_method': 'purchase', 'standard_price': 500})
+        euro = self.env.ref('base.EUR')
+        euro.active = True
+        self.env['res.currency.rate'].create({
+            'name': fields.Date.today(),
+            'company_rate': 1.10,
+            'currency_id': euro.id,
+            'company_id': self.env.company.id,
+        })
+        purchase_order = self.env['purchase.order'].create({
+            'partner_id': self.partner_a.id,
+            'currency_id': euro.id,
+            'order_line': [Command.create({
+                'product_id': product1.id,
+                'product_qty': 8,
+            }), Command.create({
+                'product_id': product2.id,
+                'product_qty': 8,
+            })],
+        })
+        purchase_order.button_confirm()
+        purchase_order.action_create_invoice()
+        product1_order_line_price_unit = purchase_order.order_line.filtered(
+            lambda ol: ol.product_id == product1
+        ).price_unit
+        bill1_line_balance = purchase_order.invoice_ids.invoice_line_ids.balance
+        self.assertAlmostEqual(
+            bill1_line_balance,
+            purchase_order.currency_id._convert(
+                product1_order_line_price_unit * 8,
+                self.env.company.currency_id,
+            ),
+            places=self.env.company.currency_id.decimal_places,
+        )
+
+        purchase_order.picking_ids.button_validate()
+        purchase_order.action_create_invoice()
+        product2_order_line_price_unit = purchase_order.order_line.filtered(
+            lambda ol: ol.product_id == product2
+        ).price_unit
+        bill2_line_balance = purchase_order.invoice_ids.invoice_line_ids.filtered(
+            lambda bl: bl.product_id == product2
+        ).balance
+        self.assertAlmostEqual(
+            bill2_line_balance,
+            purchase_order.currency_id._convert(
+                product2_order_line_price_unit * 8,
+                self.env.company.currency_id,
+            ),
+            places=self.env.company.currency_id.decimal_places,
+        )
 >>>>>>> upstream/18.0

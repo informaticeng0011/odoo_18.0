@@ -5,6 +5,10 @@
 # Translators:
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Mads Søndergaard, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +43,11 @@ msgid ""
 "<span>Enrichment could not be done because the email address does not look "
 "valid.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>Berigelsen kunne ikke udføres, da e-mailadressen tilsyneladende ikke "
+"er gyldig.</span>"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #: model:ir.model.fields,field_description:crm_iap_enrich.field_crm_lead__show_enrich_button
@@ -45,7 +58,11 @@ msgstr "Tillad manuel berigelse"
 #. odoo-python
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "An error occurred during lead enrichment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl i forbindelse med berigelsen af kundeemnet."
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #: model:ir.actions.server,name:crm_iap_enrich.ir_cron_lead_enrichment_ir_actions_server
@@ -66,12 +83,20 @@ msgstr "Berig"
 #. module: crm_iap_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.crm_lead_view_form
 msgid "Enrich lead with company data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Berig kundeemne med virksomhedsdata"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.crm_lead_view_form
 msgid "Enrich opportunity with company data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Berig salgsmulighed med virksomhedsdata"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #: model:ir.model.fields,field_description:crm_iap_enrich.field_crm_lead__iap_enrich_done
@@ -82,7 +107,11 @@ msgstr "Berigelse fuldført"
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_no_email
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_notfound
 msgid "Lead Enrichment (based on email address)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kundeemneberigelse (baseret på e-mailadresse)"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #. odoo-python
@@ -99,13 +128,21 @@ msgstr "Kundeemne/Salgsmulighed"
 #. odoo-python
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "Not enough credits for Lead Enrichment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke tilstrækkeligt med point til kundeemneberigelse"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #. odoo-python
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "The leads/opportunities have successfully been enriched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kundeemner/salgsmuligheder er blevet beriget"
+>>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
 #: model:ir.model.fields,help:crm_iap_enrich.field_crm_lead__iap_enrich_done

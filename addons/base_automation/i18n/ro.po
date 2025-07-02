@@ -3,11 +3,18 @@
 # 	* base_automation
 # 
 # Translators:
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Corina Calin, 2024
 # Larisa_nexterp, 2024
 # Wil Odoo, 2024
 # Alin Miclea, 2024
+=======
+# Corina Calin, 2024
+# Wil Odoo, 2024
+# Alin Miclea, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -15,7 +22,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 12:50+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Alin Miclea, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,8 +57,13 @@ msgid ""
 "\"On live update\" automation rules can only be used with \"Execute Python "
 "Code\" action type."
 msgstr ""
+<<<<<<< HEAD
 "Regulile de automatizare „On live update” pot fi utilizate numai cu tipul de"
 " acțiune „Executare cod Python”."
+=======
+"Regulile de automatizare „La actualizare live” pot fi utilizate doar cu "
+"tipul de acțiune „Execută cod Python”."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -64,7 +80,11 @@ msgstr "1 acțiune"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<code>env</code>: environment on which the action is triggered"
+<<<<<<< HEAD
 msgstr "<code>env</code>: mediul asupra căruia este declanșată acțiunea"
+=======
+msgstr "<code>env</code>: mediul pe care este declanșată acțiunea"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -73,7 +93,11 @@ msgid ""
 " a void recordset"
 msgstr ""
 "<code>model</code>: modelul înregistrării pe care este declanșată acțiunea; "
+<<<<<<< HEAD
 "este un set de înregistrări nule"
+=======
+"este un set de înregistrări gol"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -81,8 +105,13 @@ msgid ""
 "<code>payload</code>: the payload of the call (GET parameters, JSON body), "
 "as a dict."
 msgstr ""
+<<<<<<< HEAD
 "<code>sarcină utilă</code>: sarcina utilă a apelului (parametri GET, corp "
 "JSON), ca dict."
+=======
+"<code>payload</code>: sarcina utilă a apelului (parametri GET, corp JSON), "
+"ca dicționar."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -90,13 +119,22 @@ msgid ""
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
 "<code>timezone</code>: useful Python libraries"
 msgstr ""
+<<<<<<< HEAD
 "<code><code>ora</code>, data</code>, <code>dateutil</code>, <code>fusul "
 "orar</code>: biblioteci Python utile"
+=======
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
+"<code>timezone</code>: biblioteci Python utile"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 msgid "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
+=======
+msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Acțiuni\"/>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -104,9 +142,15 @@ msgid ""
 "<i class=\"fa fa-info-circle\"/> The default target record getter will work "
 "out-of-the-box for any webhook coming from another Odoo instance."
 msgstr ""
+<<<<<<< HEAD
 "<i class=\"fa fa-info-circle\"/> Instrumentul implicit de obținere a "
 "înregistrărilor țintă va funcționa imediat pentru orice webhook care provine"
 " dintr-o altă instanță Odoo."
+=======
+"<i class=\"fa fa-info-circle\"/> Selectorul implicit de înregistrare țintă "
+"va funcționa direct pentru orice webhook provenit dintr-o altă instanță "
+"Odoo."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -115,14 +159,24 @@ msgid ""
 "be executed <em>every time</em> the watched fields change, <em>whether you "
 "save or not</em>."
 msgstr ""
+<<<<<<< HEAD
 "Regulile de<i class=\"fa fa-warning\"/> automatizare declanșate de "
 "modificările UI vor fi executate de <em>fiecare dată</em> când se modifică "
 "câmpurile urmărite, <em>indiferent dacă salvați sau nu</em>."
+=======
+"<i class=\"fa fa-warning\"/> Regulile de automatizare declanșate de "
+"modificările UI vor fi executate <em>de fiecare dată</em> când câmpurile "
+"urmărite se modifică, <em>indiferent dacă salvați sau nu</em>."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span class=\"text-muted\"> Available variables: </span>"
+<<<<<<< HEAD
 msgstr "Variabile <span class=\"text-muted\"> disponibile: </span>"
+=======
+msgstr "<span class=\"text-muted\"> Variabile disponibile: </span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -130,6 +184,11 @@ msgid ""
 "<span invisible=\"evaluation_type != 'value'\">to</span>\n"
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"evaluation_type != 'value'\">la</span>\n"
+"                                                        <span invisible=\"evaluation_type != 'equation'\">ca</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -138,35 +197,61 @@ msgid ""
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 msgstr ""
+<<<<<<< HEAD
 "<span invisible=\"trigger != 'on_time_created'\">după creare\n"
 "                                    </span>                                    <span invisible=\"trigger != 'on_time_updated'\">după ultima actualizare\n"
 "                                    </span>                                    <span invisible=\"trigger != 'on_time'\">după</span>"
+=======
+"<span invisible=\"trigger != 'on_time_created'\">după creare</span>\n"
+"                                    <span invisible=\"trigger != 'on_time_updated'\">după ultima actualizare</span>\n"
+"                                    <span invisible=\"trigger != 'on_time'\">după</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by adding</span>"
+<<<<<<< HEAD
 msgstr "<span>adăugând</span>"
+=======
+msgstr "<span>prin adăugare</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by clearing it</span>"
+<<<<<<< HEAD
 msgstr "<span>prin compensare</span>"
+=======
+msgstr "<span>prin golire</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by removing</span>"
+<<<<<<< HEAD
 msgstr "<span>prin eliminarea</span>"
+=======
+msgstr "<span>prin eliminare</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<span>by setting it to</span>"
+<<<<<<< HEAD
 msgstr "<span>setându-l la</span>"
+=======
+msgstr "<span>prin setare la</span>"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 msgstr ""
+<<<<<<< HEAD
 "<strong><i class=\"fa fa-lock\"/> Păstrați secretul, păstrați-l în "
+=======
+"<strong><i class=\"fa fa-lock\"/> Păstrați-l secret, păstrați-l în "
+>>>>>>> upstream/18.0
 "siguranță.</strong>"
 
 #. module: base_automation
@@ -183,7 +268,11 @@ msgstr "Acțiuni"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Actions To Do"
+<<<<<<< HEAD
 msgstr "Definiți acțiunile de făcut "
+=======
+msgstr "Acțiuni de efectuat"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__active
@@ -193,13 +282,21 @@ msgstr "Activ"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Add an action"
+<<<<<<< HEAD
 msgstr "Adăuga o acțiune"
+=======
+msgstr "Adaugă o acțiune"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Add followers"
+<<<<<<< HEAD
 msgstr "Adăugați urmăritori"
+=======
+msgstr "Adaugă urmăritori"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -220,7 +317,11 @@ msgstr "După ultima actualizare"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_domain
 msgid "Apply on"
+<<<<<<< HEAD
 msgstr "Aplică la"
+=======
+msgstr "Aplică pe"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -232,7 +333,11 @@ msgstr "Arhivat"
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid "Automate <em>everything</em> with Automation Rules"
+<<<<<<< HEAD
 msgstr "Automatizați <em>totul</em> cu Reguli de automatizare"
+=======
+msgstr "Automatizează <em>totul</em> cu Regulile de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model,name:base_automation.model_base_automation
@@ -241,7 +346,11 @@ msgstr "Automatizați <em>totul</em> cu Reguli de automatizare"
 #: model:ir.model.fields.selection,name:base_automation.selection__ir_actions_server__usage__base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Automation Rule"
+<<<<<<< HEAD
 msgstr "Regula de automatizare"
+=======
+msgstr "Regulă de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__name
@@ -254,12 +363,20 @@ msgstr "Nume regulă de automatizare"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_tree
 msgid "Automation Rules"
+<<<<<<< HEAD
 msgstr "Regulă de automatizare"
+=======
+msgstr "Reguli de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.actions.server,name:base_automation.ir_cron_data_base_automation_check_ir_actions_server
 msgid "Automation Rules: check and execute"
+<<<<<<< HEAD
 msgstr "Reguli de automatizare: verificați și executați"
+=======
+msgstr "Reguli de automatizare: verifică și execută"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -270,12 +387,20 @@ msgstr "Automatizări"
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_time
 msgid "Based on date field"
+<<<<<<< HEAD
 msgstr "Pe baza câmpului dată"
+=======
+msgstr "Pe baza câmpului de dată"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__filter_pre_domain
 msgid "Before Update Domain"
+<<<<<<< HEAD
 msgstr "Înainte de actualizare domeniu"
+=======
+msgstr "Domeniu înainte de actualizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -283,9 +408,15 @@ msgid ""
 "Change the URL's secret if you think the URL is no longer secure. You will "
 "have to update any automated system that calls this webhook to the new URL."
 msgstr ""
+<<<<<<< HEAD
 "Modificați secretul adresei URL în cazul în care considerați că adresa URL "
 "nu mai este sigură. Va trebui să actualizați orice sistem automat care "
 "apelează acest webhook la noua adresă URL."
+=======
+"Schimbați secretul URL-ului dacă considerați că acesta nu mai este sigur. Va"
+" trebui să actualizați orice sistem automatizat care apelează acest webhook "
+"la noul URL."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -297,7 +428,11 @@ msgstr "Calculează"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Create %(model_name)s with name %(value)s"
+<<<<<<< HEAD
 msgstr "Creează %(model_name)s cu nume %(value)s"
+=======
+msgstr "Creează %(model_name)s cu numele %(value)s"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -309,13 +444,21 @@ msgstr "Creează o înregistrare nouă"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Create activity: %(activity_name)s"
+<<<<<<< HEAD
 msgstr "Creare activitate: %(activity_name)s"
+=======
+msgstr "Creează activitate: %(activity_name)s"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Create next activity"
+<<<<<<< HEAD
 msgstr "Creați următoarea activitate"
+=======
+msgstr "Creează următoarea activitate"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__create_uid
@@ -325,7 +468,11 @@ msgstr "Creat de"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -336,7 +483,11 @@ msgstr "Personalizat"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Date Field"
+<<<<<<< HEAD
 msgstr "Câmp de dată"
+=======
+msgstr "Câmp dată"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -357,9 +508,15 @@ msgid ""
 "delay before the trigger date, like sending a reminder 15 minutes before a "
 "meeting."
 msgstr ""
+<<<<<<< HEAD
 "Întârziere după data de activare. Puteți introduce un număr negativ dacă "
 "aveți nevoie de o amânare înainte de data de activare, cum ar fi trimiterea "
 "unui memento cu 15 minute înainte de o întâlnire."
+=======
+"Întârziere după data declanșării. Puteți introduce un număr negativ dacă "
+"aveți nevoie de o întârziere înainte de data declanșării, de exemplu pentru "
+"a trimite un memento cu 15 minute înainte de o întâlnire."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range
@@ -380,7 +537,11 @@ msgstr "Șterge acțiunea"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Deprecated (do not use)"
+<<<<<<< HEAD
 msgstr "Depreciat (a nu se utiliza)"
+=======
+msgstr "Depreciat (nu folosiți)"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__description
@@ -391,7 +552,11 @@ msgstr "Descriere"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "Disable Automation Rule"
+<<<<<<< HEAD
 msgstr "Dezactivați regula de automatizare"
+=======
+msgstr "Dezactivează regula de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -402,9 +567,15 @@ msgid ""
 "                as you are effectively disabling a customization that may set\n"
 "                important and/or required fields."
 msgstr ""
+<<<<<<< HEAD
 "Dezactivarea acestei reguli de automatizare vă va permite să continuați fluxul de lucru\n"
 "                dar orice date create după aceasta ar putea fi corupte,\n"
 "                deoarece dezactivați în mod eficient o personalizare care poate fi setată\n"
+=======
+"Dezactivarea acestei reguli de automatizare vă va permite să continuați fluxul de lucru,\n"
+"                dar orice date create ulterior pot fi corupte,\n"
+"                deoarece dezactivați o personalizare care poate seta\n"
+>>>>>>> upstream/18.0
 "                câmpuri importante și/sau obligatorii."
 
 #. module: base_automation
@@ -416,7 +587,11 @@ msgstr "Nume afișat"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "Edit Automation Rule"
+<<<<<<< HEAD
 msgstr "Editați regula de automatizare"
+=======
+msgstr "Editează regula de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -428,7 +603,11 @@ msgstr "E-mail"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_trigger_selection_field.js:0
 msgid "Email Events"
+<<<<<<< HEAD
 msgstr "Evenimente prin e-mail"
+=======
+msgstr "Evenimente e-mail"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -437,9 +616,15 @@ msgid ""
 "Email, follower or activity action types cannot be used when deleting "
 "records, as there are no more records to apply these changes to!"
 msgstr ""
+<<<<<<< HEAD
 "E-mailul, urmăritorul sau tipurile de acțiuni de activitate nu pot fi "
 "utilizate la ștergerea înregistrărilor, deoarece nu mai există înregistrări "
 "pentru care să se aplice aceste modificări!"
+=======
+"Tipurile de acțiuni e-mail, urmăritor sau activitate nu pot fi folosite la "
+"ștergerea înregistrărilor, deoarece nu mai există înregistrări pentru a "
+"aplica aceste modificări!"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -462,12 +647,20 @@ msgstr "Extern"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Extra Conditions"
+<<<<<<< HEAD
 msgstr "Condiții extra:"
+=======
+msgstr "Condiții suplimentare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__on_change_field_ids
 msgid "Fields that trigger the onchange."
+<<<<<<< HEAD
 msgstr "Câmpuri care declanșează schimbarea."
+=======
+msgstr "Câmpuri care declanșează modificarea."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -478,7 +671,11 @@ msgstr "Utilizator generic"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__model_is_mail_thread
 msgid "Has Mail Thread"
+<<<<<<< HEAD
 msgstr "Are thread de mail"
+=======
+msgstr "Are fir de e-mail"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__hour
@@ -505,16 +702,30 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record. Not checked on record creation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dacă este prezentă, această condiție trebuie să fie îndeplinită înainte de "
+"actualizarea înregistrării. Nu se verifică la crearea înregistrării."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
+<<<<<<< HEAD
 msgstr "Urmăriți ce face această automatizare și de ce există..."
+=======
+msgstr ""
+"Țineți evidența a ceea ce face această automatizare și de ce există..."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__last_run
 msgid "Last Run"
+<<<<<<< HEAD
 msgstr "Ultima executare"
+=======
+msgstr "Ultima rulare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__write_uid
@@ -524,17 +735,29 @@ msgstr "Ultima actualizare făcută de"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__least_delay_msg
 msgid "Least Delay Msg"
+<<<<<<< HEAD
 msgstr "Minima întârziere Msg"
+=======
+msgstr "Mesaj întârziere minimă"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__log_webhook_calls
 msgid "Log Calls"
+<<<<<<< HEAD
 msgstr "Înregistrare apelurile"
+=======
+msgstr "Înregistrează apelurile"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -548,8 +771,13 @@ msgid ""
 "Mail event can not be configured on model %s. Only models with discussion "
 "feature can be used."
 msgstr ""
+<<<<<<< HEAD
 "E-mail eveniment nu poate fi configurat pe model %s. Doar modelele cu "
 "funcție de discuții pot fi utilizate."
+=======
+"Evenimentul de e-mail nu poate fi configurat pe modelul %s. Doar modelele cu"
+" funcționalitate de discuții pot fi utilizate."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trg_date_range_type__minutes
@@ -573,8 +801,13 @@ msgid ""
 "Model of action %(action_name)s should match the one from automated rule "
 "%(rule_name)s."
 msgstr ""
+<<<<<<< HEAD
 "Modelul de acțiune %(action_name)s trebuie să se potrivească cu cel din "
 "regula automată %(rule_name)s."
+=======
+"Modelul acțiunii %(action_name)s trebuie să fie același cu cel din regula "
+"automată %(rule_name)s."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__model_id
@@ -602,7 +835,11 @@ msgid ""
 "schedule."
 msgstr ""
 "Rețineți că această regulă de automatizare poate fi declanșată până la %d "
+<<<<<<< HEAD
 "câteva minute după programarea sa."
+=======
+"minute după programarea sa."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -612,17 +849,29 @@ msgstr "Note"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__on_change_field_ids
 msgid "On Change Fields Trigger"
+<<<<<<< HEAD
 msgstr "Declanșator câmpuri On Change"
+=======
+msgstr "Declanșator la modificarea câmpurilor"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_change
 msgid "On UI change"
+<<<<<<< HEAD
 msgstr "La modificarea interfeței cu utilizatorul"
+=======
+msgstr "La modificarea interfeței"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_archive
 msgid "On archived"
+<<<<<<< HEAD
 msgstr "La arhivat"
+=======
+msgstr "La arhivare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create
@@ -637,12 +886,20 @@ msgstr "La ștergere"
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_message_received
 msgid "On incoming message"
+<<<<<<< HEAD
 msgstr "La intrare de mesaj"
+=======
+msgstr "La primirea mesajului"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_message_sent
 msgid "On outgoing message"
+<<<<<<< HEAD
 msgstr "La ieșire de mesaj"
+=======
+msgstr "La trimiterea mesajului"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_create_or_write
@@ -652,7 +909,11 @@ msgstr "La salvare"
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_unarchive
 msgid "On unarchived"
+<<<<<<< HEAD
 msgstr "La ne-arhivat"
+=======
+msgstr "La dezarhivare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_write
@@ -674,7 +935,11 @@ msgstr "Postează ca mesaj"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Post as Note"
+<<<<<<< HEAD
 msgstr "Postează ca Notă"
+=======
+msgstr "Postează ca notă"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_priority_set
@@ -684,7 +949,11 @@ msgstr "Prioritatea este setată la"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__record_getter
 msgid "Record Getter"
+<<<<<<< HEAD
 msgstr "Înregistrare Getter"
+=======
+msgstr "Obținere înregistrare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -701,22 +970,38 @@ msgstr "Elimină urmăritorii: %(partner_names)s"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Rotate Secret"
+<<<<<<< HEAD
 msgstr "Rotire secret"
+=======
+msgstr "Schimbă secretul"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select a date field..."
+<<<<<<< HEAD
 msgstr "Selectați un tip de câmp"
+=======
+msgstr "Selectează un câmp de dată..."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select a value..."
+<<<<<<< HEAD
 msgstr "Selectează o valoare"
+=======
+msgstr "Selectează o valoare..."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Select fields..."
+<<<<<<< HEAD
 msgstr "Câmpuri selectate"
+=======
+msgstr "Selectează câmpuri..."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -734,7 +1019,11 @@ msgstr "Trimite SMS: %(template_name)s"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Send Webhook Notification"
+<<<<<<< HEAD
 msgstr "Trimiteți o notificare Webhook"
+=======
+msgstr "Trimite notificare Webhook"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
@@ -743,9 +1032,15 @@ msgid ""
 "                after a month of inactivity or remind yourself to follow-up on\n"
 "                tasks when a specific tag is added."
 msgstr ""
+<<<<<<< HEAD
 "Trimiteți un e-mail atunci când un obiect își schimbă starea, arhivați înregistrările\n"
 "                după o lună de inactivitate sau reamintiți-vă să urmăriți\n"
 "                atunci când este adăugată o anumită etichetă."
+=======
+"Trimite un e-mail când un obiect își schimbă starea, arhivează înregistrările\n"
+"                după o lună de inactivitate sau reamintește-ți să urmărești\n"
+"                sarcinile când este adăugată o etichetă specifică."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
@@ -754,12 +1049,23 @@ msgid ""
 " inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Trimite un e-mail când un obiect își schimbă starea, arhivează "
+"înregistrările după o lună de inactivitate sau reamintește-ți să urmărești "
+"sarcinile când este adăugată o etichetă specifică.<br>Cu Regulile de "
+"automatizare, poți automatiza orice flux de lucru."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Send email"
+<<<<<<< HEAD
 msgstr "Trimite email"
+=======
+msgstr "Trimite e-mail"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -778,8 +1084,13 @@ msgid ""
 "Some triggers need a reference to a selection field. This field is used to "
 "store it."
 msgstr ""
+<<<<<<< HEAD
 "Unele mecanisme de declanșare au nevoie de o referință la un câmp de "
 "selecție. Acest câmp este utilizat pentru a o stoca."
+=======
+"Unele declanșatoare au nevoie de o referință la un câmp de selecție. Acest "
+"câmp este folosit pentru a o stoca."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
@@ -787,14 +1098,23 @@ msgid ""
 "Some triggers need a reference to another field. This field is used to store"
 " it."
 msgstr ""
+<<<<<<< HEAD
 "Unele mecanisme de declanșare au nevoie de o referință la un alt câmp. Acest"
 " câmp este utilizat pentru a o stoca."
+=======
+"Unele declanșatoare au nevoie de o referință la un alt câmp. Acest câmp este"
+" folosit pentru a o stoca."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Specific User"
+<<<<<<< HEAD
 msgstr "Utilizator Specific"
+=======
+msgstr "Utilizator specific"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_stage_set
@@ -805,7 +1125,11 @@ msgstr "Etapa este setată la"
 #. odoo-javascript
 #: code:addons/base_automation/static/src/kanban_header_patch.js:0
 msgid "Stage is set to \"%s\""
+<<<<<<< HEAD
 msgstr "Etapa este setată la \"%s”"
+=======
+msgstr "Etapa este setată la \"%s\""
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_state_set
@@ -828,8 +1152,13 @@ msgstr "Înregistrare țintă"
 msgid ""
 "Target model of actions %(action_names)s are different from rule model."
 msgstr ""
+<<<<<<< HEAD
 "Modelul țintă al acțiunilor %(action_names)s este diferit de modelul de "
 "regulă."
+=======
+"Modelul țintă al acțiunilor %(action_names)s este diferit de modelul "
+"regulii."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
@@ -838,8 +1167,13 @@ msgid ""
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
 "\"%(state_value)s\" action type"
 msgstr ""
+<<<<<<< HEAD
 "\"%(trigger_value)s\" %(trigger_label)s poate fi utilizat numai cu "
 "\"%(state_value)s\" tipul de acțiune"
+=======
+"„%(trigger_value)s” %(trigger_label)s poate fi folosit doar cu tipul de "
+"acțiune „%(state_value)s”"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trigger_field_ids
@@ -848,7 +1182,11 @@ msgid ""
 "updated.If empty, all fields are watched."
 msgstr ""
 "Regula de automatizare va fi declanșată dacă și numai dacă unul dintre "
+<<<<<<< HEAD
 "aceste câmpuri este actualizat.Dacă este necompletat, toate câmpurile sunt "
+=======
+"aceste câmpuri este actualizat. Dacă este gol, toate câmpurile sunt "
+>>>>>>> upstream/18.0
 "urmărite."
 
 #. module: base_automation
@@ -859,7 +1197,11 @@ msgid ""
 "                \""
 msgstr ""
 "Eroarea a apărut în timpul executării regulii de automatizare\n"
+<<<<<<< HEAD
 "                ”"
+=======
+"                \""
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__record_getter
@@ -867,7 +1209,11 @@ msgid ""
 "This code will be run to find on which record the automation rule should be "
 "run."
 msgstr ""
+<<<<<<< HEAD
 "Acest cod va fi executat pentru a afla pe ce înregistrare trebuie să fie "
+=======
+"Acest cod va fi rulat pentru a determina pe ce înregistrare trebuie să fie "
+>>>>>>> upstream/18.0
 "executată regula de automatizare."
 
 #. module: base_automation
@@ -880,7 +1226,11 @@ msgstr "Condiții de timp"
 #: model:digest.tip,name:base_automation.digest_tip_base_automation_0
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid "Tip: Automate everything with Automation Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Automatizează totul cu Regulile de automatizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trigger
@@ -890,7 +1240,11 @@ msgstr "Declanșator"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_id
 msgid "Trigger Date"
+<<<<<<< HEAD
 msgstr "Data declansarii"
+=======
+msgstr "Data declanșării"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_selection_field_id
@@ -905,7 +1259,11 @@ msgstr "Model câmp declanșator"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trigger_field_ids
 msgid "Trigger Fields"
+<<<<<<< HEAD
 msgstr "Câmpuri de declanșare"
+=======
+msgstr "Câmpuri declanșatoare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_field_ref
@@ -925,19 +1283,31 @@ msgstr "URL"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "URL will be created once the rule is saved."
+<<<<<<< HEAD
 msgstr "Adresa URL va fi creată odată ce regula este salvată."
+=======
+msgstr "URL-ul va fi creat după ce regula este salvată."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid "Update"
+<<<<<<< HEAD
 msgstr "Actualizare"
+=======
+msgstr "Actualizează"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_actions_one2many_field.js:0
 msgid "Update the Record"
+<<<<<<< HEAD
 msgstr "Actualizați înregistrarea"
+=======
+msgstr "Actualizează înregistrarea"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__url
@@ -953,7 +1323,11 @@ msgstr "Utilizare"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_calendar_id
 msgid "Use Calendar"
+<<<<<<< HEAD
 msgstr "Utilizează Calendar"
+=======
+msgstr "Folosește calendar"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation__trigger__on_user_set
@@ -976,13 +1350,21 @@ msgstr "Avertizare"
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Webhook Log"
+<<<<<<< HEAD
 msgstr "URL Webhook"
+=======
+msgstr "Jurnal Webhook"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid "Webhook Logs"
+<<<<<<< HEAD
 msgstr "URL Webhook"
+=======
+msgstr "Jurnale Webhook"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__webhook_uuid
@@ -1001,8 +1383,13 @@ msgid ""
 "When calculating a day-based timed condition, it is possibleto use a "
 "calendar to compute the date based on working days."
 msgstr ""
+<<<<<<< HEAD
 "Atunci când se calculează o condiție de timp bazată pe zi, este posibil să "
 "se utilizeze un calendar pentru a calcula data pe baza zilelor lucrătoare."
+=======
+"Când se calculează o condiție de timp bazată pe zile, se poate folosi un "
+"calendar pentru a calcula data pe baza zilelor lucrătoare."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
@@ -1011,18 +1398,30 @@ msgid ""
 "                If present, will be checked by the scheduler. If empty, will be checked at creation and update."
 msgstr ""
 "Când ar trebui să fie declanșată condiția.\n"
+<<<<<<< HEAD
 "                Dacă este prezent, va fi verificat de programator. Dacă este gol, va fi verificat la creare și actualizare."
+=======
+"                Dacă este prezentă, va fi verificată de programator. Dacă este goală, va fi verificată la creare și actualizare."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__active
 msgid "When unchecked, the rule is hidden and will not be executed."
+<<<<<<< HEAD
 msgstr ""
 "Atunci cand nu este selectata, regula este ascunsa si nu va fi executata."
+=======
+msgstr "Când nu este bifată, regula este ascunsă și nu va fi executată."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "When updating"
+<<<<<<< HEAD
 msgstr "Se actualizează…"
+=======
+msgstr "La actualizare"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
@@ -1030,7 +1429,11 @@ msgid ""
 "With Automation Rules, you can automate\n"
 "                <em>any</em> workflow."
 msgstr ""
+<<<<<<< HEAD
 "Cu Regulile de automatizare, puteți automatiza\n"
+=======
+"Cu Regulile de automatizare, poți automatiza\n"
+>>>>>>> upstream/18.0
 "                <em>orice</em> flux de lucru."
 
 #. module: base_automation
@@ -1039,15 +1442,24 @@ msgstr ""
 msgid ""
 "You can ask an administrator to disable or correct this automation rule."
 msgstr ""
+<<<<<<< HEAD
 "Puteți solicita unui administrator să dezactiveze sau să corecteze această "
 "regulă de automatizare."
+=======
+"Poți cere unui administrator să dezactiveze sau să corecteze această regulă "
+"de automatizare."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid "You can disable this automation rule or edit it to solve the issue."
 msgstr ""
+<<<<<<< HEAD
 "Puteți dezactiva această regulă de automatizare sau o puteți edita pentru a "
+=======
+"Poți dezactiva această regulă de automatizare sau o poți edita pentru a "
+>>>>>>> upstream/18.0
 "rezolva problema."
 
 #. module: base_automation
@@ -1057,26 +1469,44 @@ msgid ""
 "You cannot send an email, add followers or create an activity for a deleted "
 "record.  It simply does not work."
 msgstr ""
+<<<<<<< HEAD
 "Nu puteți trimite un e-mail, adăugați urmăritori sau creați o activitate "
 "pentru un înregistrare ștearsă.  Nu funcționează."
+=======
+"Nu poți trimite un e-mail, adăuga urmăritori sau crea o activitate pentru o "
+"înregistrare ștearsă. Pur și simplu nu funcționează."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
 "Your webhook URL contains a secret. Don't share it online or carelessly."
 msgstr ""
+<<<<<<< HEAD
 "Adresa URL a webhook-ului dvs. conține un secret. Nu o distribui online sau "
 "din neglijență."
+=======
+"URL-ul webhook-ului tău conține un secret. Nu îl distribui online sau "
+"neglijent."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
 msgid "based on"
+<<<<<<< HEAD
 msgstr "în baza"
+=======
+msgstr "bazat pe"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "e.g. Support flow"
+<<<<<<< HEAD
 msgstr "de exemplu, fluxul de asistență"
+=======
+msgstr "ex: flux suport"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript

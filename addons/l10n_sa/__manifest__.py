@@ -31,6 +31,10 @@ Activates:
         'data/report_paperformat_data.xml',
         'views/report_invoice.xml',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/report_templates_views.xml'
+>>>>>>> upstream/18.0
 =======
         'views/report_templates_views.xml'
 >>>>>>> upstream/18.0

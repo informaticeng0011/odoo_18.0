@@ -242,7 +242,10 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -393,6 +396,9 @@ describe("to heading 1", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -788,6 +794,10 @@ describe("to blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
+>>>>>>> upstream/18.0
 =======
         await manuallyDispatchProgrammaticEvent(anchorNode, "click", { detail: 6 });
 >>>>>>> upstream/18.0

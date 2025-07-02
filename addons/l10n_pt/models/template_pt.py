@@ -33,7 +33,10 @@ class AccountChartTemplate(models.AbstractModel):
             },
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @template(model='account.journal')
     def _get_account_journal(self, template_code):
@@ -44,4 +47,7 @@ class AccountChartTemplate(models.AbstractModel):
             if 'bank' in vals:
                 vals['bank']['default_account_id'] = 'chart_12'
         return vals
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

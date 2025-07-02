@@ -32,7 +32,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Paulius Sladkevičius <paulius@versada.eu>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150,7 +153,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jessica Jakara, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -311,6 +317,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Thomas Becquevort, 2025
 >>>>>>> upstream/18.0
@@ -445,6 +452,11 @@
 =======
 # Thomas Becquevort, 2025
 # Jessica Jakara, 2025
+>>>>>>> upstream/18.0
+=======
+# Thomas Becquevort, 2025
+# Jessica Jakara, 2025
+# Paulius Sladkevičius <paulius@versada.eu>, 2025
 >>>>>>> upstream/18.0
 =======
 # Thomas Becquevort, 2025
@@ -571,6 +583,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,6 +941,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Paulius Sladkevičius <paulius@versada.eu>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Paulius Sladkevičius <paulius@versada.eu>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -936,6 +954,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
@@ -952,6 +971,8 @@ msgstr ""
 " Galbūt norėsite nustatyti numatytąją sąskaitą žurnale \"%(journal)s\",  kad kiekviena operacija būtų automatiškai subalansuota."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
@@ -1140,7 +1161,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1237,6 +1261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1419,11 +1446,14 @@ msgid ""
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Prašome įsitikinti, kad tai yra pageidaujamas veiksmų rezultatas."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -1668,6 +1698,16 @@ msgstr ""
 "#704A66;'>%(date)s</b>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted behavior.</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
 msgstr "<br/> Sąskaita:"
@@ -2257,6 +2297,16 @@ msgid "<span>New</span>"
 msgstr "<span>Naujas</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by "
+"others:</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Operacijos</span>"
@@ -2289,6 +2339,14 @@ msgid "<span>Taxes</span>"
 msgstr "<span>Mokesčiai</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+msgid "<span>The Bank Account could be a duplicate of</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 "<span>This entry has been generated through the Invoicing app, before "
@@ -2363,6 +2421,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2472,6 +2531,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Pristatymo adresas</strong>"
 
@@ -2500,6 +2561,9 @@ msgstr "<strong class=\"d-block mt-3\">Pristatymo adresas</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2577,7 +2641,11 @@ msgid "<strong>Credit Note Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kreditinės sąskaitos data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kreditinės sąskaitos data</strong>"
 >>>>>>> upstream/18.0
@@ -2678,7 +2746,11 @@ msgid "<strong>Customer Code</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kliento kodas</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kliento kodas</strong>"
 >>>>>>> upstream/18.0
@@ -2784,7 +2856,11 @@ msgid "<strong>Delivery Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pristatymo data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Pristatymo data</strong>"
 >>>>>>> upstream/18.0
@@ -2900,7 +2976,11 @@ msgid "<strong>Incoterm</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pristatymo sąlygos</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Pristatymo sąlygos</strong>"
 >>>>>>> upstream/18.0
@@ -3006,7 +3086,11 @@ msgid "<strong>Invoice Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sąskaitos data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sąskaitos data</strong>"
 >>>>>>> upstream/18.0
@@ -3107,7 +3191,11 @@ msgid "<strong>Receipt Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kvito data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kvito data</strong>"
 >>>>>>> upstream/18.0
@@ -3184,6 +3272,7 @@ msgstr "<strong>Kvito data</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Reference</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3300,6 +3389,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Numeris</strong>"
 
 #. module: account
@@ -3327,6 +3418,9 @@ msgstr "<strong>Numeris</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3462,7 +3556,10 @@ msgstr "<strong>Tipas: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3626,6 +3723,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3821,7 +3921,10 @@ msgstr "Banko sąskaita gali priklausyti tik vienam žurnalui."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3986,6 +4089,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5468,12 +5574,15 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr " Įvyko klaida."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
@@ -6100,8 +6209,13 @@ msgstr "Banko sąskaita"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Banko sąskaita %(link)s kurios numeris %(number)s pašalinta"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -6967,7 +7081,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7130,6 +7247,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7797,6 +7917,7 @@ msgstr "Komercinis juridinis asmuo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7987,6 +8108,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Komercinio partnerio šalis"
@@ -8053,6 +8176,9 @@ msgstr "Komercinio partnerio šalis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8586,6 +8712,11 @@ msgstr "Sukurti automatinius įrašus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -10368,6 +10499,17 @@ msgid "Due Terms"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner_bank__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_users__duplicate_bank_partner_ids
+msgid "Duplicate Bank Partner"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_payment__duplicate_payment_ids
 #: model:ir.model.fields,field_description:account.field_account_payment_register__duplicate_payment_ids
 msgid "Duplicate Payment"
@@ -14782,11 +14924,14 @@ msgid "Once your invoice is ready, confirm it."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "One or more invoices couldn't be processed."
@@ -15207,7 +15352,11 @@ msgid "PROFORMA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išankstinė sąskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išankstinė sąskaita"
 >>>>>>> upstream/18.0
@@ -15470,7 +15619,10 @@ msgstr ""
 #: code:addons/account/models/partner.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_partner
 #: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 msgid "Partners"
 msgstr "Partneriai"
 
@@ -15486,6 +15638,15 @@ msgid "Partners that are used in hashed entries cannot be merged."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "Partners with same bank"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
@@ -17177,7 +17338,11 @@ msgid "Scan this QR Code with<br/>your banking application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuskaitykite šį QR kodą<br/>naudodami banko programą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuskaitykite šį QR kodą<br/>naudodami banko programą"
 >>>>>>> upstream/18.0
@@ -18184,7 +18349,11 @@ msgid "Storno Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storno-apskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Storno-apskaita"
 >>>>>>> upstream/18.0
@@ -18370,7 +18539,11 @@ msgid "Storno accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storno-apskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Storno-apskaita"
 >>>>>>> upstream/18.0
@@ -19347,7 +19520,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19442,6 +19618,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19699,6 +19878,17 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The following entries are unbalanced:\n"
+"\n"
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%s' QR-code to be generated though it was "
@@ -21971,7 +22161,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22133,6 +22326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22403,7 +22599,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -22890,7 +23092,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22986,6 +23191,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23150,6 +23358,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -23183,6 +23392,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23486,7 +23697,11 @@ msgid "due if paid before"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mokėtina, jei sumokama iki"
+>>>>>>> upstream/18.0
 =======
 msgstr "mokėtina, jei sumokama iki"
 >>>>>>> upstream/18.0

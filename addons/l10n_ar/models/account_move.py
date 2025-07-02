@@ -393,6 +393,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -471,7 +476,10 @@ class AccountMove(models.Model):
             if (
                 grouping_key
                 and not grouping_key['skip']
+<<<<<<< HEAD
                 and not self.currency_id.is_zero(values['tax_amount_currency'])
+=======
+>>>>>>> upstream/18.0
             ):
                 results.append({
                     'name': grouping_key['name'],

@@ -89,6 +89,10 @@ class MailingOptOut(models.Model):
     _description = 'Mailing Blacklist / Optout Enabled'
     _name = 'mailing.test.optout'
     _inherit = ['mail.thread.blacklist']
+<<<<<<< HEAD
+=======
+    _order = 'id ASC'
+>>>>>>> upstream/18.0
     _primary_email = 'email_from'
 
     name = fields.Char()

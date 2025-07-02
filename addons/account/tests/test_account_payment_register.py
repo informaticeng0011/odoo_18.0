@@ -22,6 +22,10 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from itertools import product
+>>>>>>> upstream/18.0
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -273,7 +277,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331,6 +338,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2017,6 +2027,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -2039,6 +2050,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2124,6 +2137,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2163,6 +2179,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
             branch_invoices |= self.init_invoice('out_invoice', products=self.product_a, company=branch)
 
         parent_invoice = self.init_invoice('out_invoice', products=self.product_a)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2272,6 +2289,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2420,6 +2439,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2531,6 +2553,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

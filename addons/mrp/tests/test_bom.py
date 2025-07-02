@@ -30,6 +30,34 @@ class TestBoM(TestMrpCommon):
             set([line[0].id for line in lines]),
             set((self.bom_2 | self.bom_3).mapped('bom_line_ids').filtered(lambda line: not line.child_bom_id or line.child_bom_id.type != 'phantom').ids))
 
+<<<<<<< HEAD
+=======
+    def test_02_explode_rounding(self):
+        fns, cmp1, cmp2 = self.env['product.product'].create([{'name': 'FNS'}, {'name': 'CMP1'}, {'name': 'CMP2'}])
+        self.uom_unit.rounding = 0.01
+
+        fns_bom = self.env['mrp.bom'].create({
+            'product_tmpl_id': fns.product_tmpl_id.id,
+            'product_qty': 1,
+            'type': 'phantom',
+            'bom_line_ids': [Command.create({'product_id': cmp1.id, 'product_qty': 10})],
+        })
+        self.env['mrp.bom'].create({
+            'product_tmpl_id': cmp1.product_tmpl_id.id,
+            'product_qty': 5000,
+            'type': 'phantom',
+            'bom_line_ids': [Command.create({'product_id': cmp2.id, 'product_qty': 50})],
+        })
+
+        # FNS BoM Structure:
+        # 1 Unit of FNS:
+        #  - 10 Units of CMP1:
+        #    - 0.10 Units of CMP2  (50 / 5000 * 10)
+
+        _, lines = fns_bom.explode(fns, 1)
+        self.assertEqual(lines[0][1]['qty'], 0.10)
+
+>>>>>>> upstream/18.0
     def test_10_variants(self):
         test_bom = self.env['mrp.bom'].create({
             'product_tmpl_id': self.product_7_template.id,
@@ -1847,7 +1875,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'product_id': self.product_2.id, 'product_uom_qty': 2},  # Ideally, this move should have been deleted but this isn't handled for now.
+=======
+            {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
+>>>>>>> upstream/18.0
 =======
             {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
 >>>>>>> upstream/18.0
@@ -2553,7 +2585,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2761,6 +2796,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3099,7 +3137,11 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -3311,7 +3353,10 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3488,6 +3533,9 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

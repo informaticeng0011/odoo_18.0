@@ -230,8 +230,11 @@ class Website(Home):
         # if it's not the case to prevent the crawler to continue.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         allowed_routes = self._get_allowed_robots_routes()
@@ -244,6 +247,9 @@ class Website(Home):
 
         return request.make_response(content, headers=[('Content-Type', 'text/plain')])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

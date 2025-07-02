@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Charalampos Loukas, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +74,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Maria Chalepiadou, 2025
 # Anastasia Mimou, 2025
 # Gerasimos Kanelatos, 2025
@@ -499,10 +503,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Anastasia Mimou, 2025
 # Gerasimos Kanelatos, 2025
 # Thomas Becquevort, 2025
 # Charalampos Loukas, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +527,10 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Maria Chalepiadou, 2025
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
 >>>>>>> upstream/18.0
 =======
 # Maria Chalepiadou, 2025
@@ -562,6 +573,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +931,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Iasonas Polydoros <j.polydoros@dileanity.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -927,6 +944,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
@@ -943,6 +961,8 @@ msgstr ""
 "Ίσως θα θέλατε να ορίσετε default λογαριασμό στην εγγραφή \"%(journal)s\" έτσι ώστε να ισοσκελίζει αυτόματα."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
@@ -1150,7 +1170,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1247,6 +1270,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1431,11 +1457,14 @@ msgstr ""
 "    <br/>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Παρακαλώ επιβεβαιώστε το αποτέλεσμα."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -1579,7 +1608,11 @@ msgid "2023-01-01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2023-01-01"
+>>>>>>> upstream/18.0
 =======
 msgstr "2023-01-01"
 >>>>>>> upstream/18.0
@@ -1814,7 +1847,11 @@ msgid "3.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3.00"
+>>>>>>> upstream/18.0
 =======
 msgstr "3.00"
 >>>>>>> upstream/18.0
@@ -2016,6 +2053,16 @@ msgstr ""
 "style='color: #704A66;'>%(date)s</b>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted behavior.</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
 msgstr "<br/> σε αυτόν τον λογαριασμό:"
@@ -2633,6 +2680,16 @@ msgid "<span>New</span>"
 msgstr "<span>Nέο</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by "
+"others:</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Ενέργειες</span>"
@@ -2665,6 +2722,14 @@ msgid "<span>Taxes</span>"
 msgstr "<span>Φόροι</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+msgid "<span>The Bank Account could be a duplicate of</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 "<span>This entry has been generated through the Invoicing app, before "
@@ -2743,7 +2808,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2854,6 +2922,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3026,6 +3097,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3079,6 +3151,8 @@ msgstr "<strong>Διεύθυνση Αποστολής</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3239,7 +3313,10 @@ msgstr "<strong>Τύπος: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3403,6 +3480,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3598,7 +3678,10 @@ msgstr "Ένας τραπεζικός λογαριασμός μπορεί να �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3763,6 +3846,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4994,7 +5080,11 @@ msgid "Alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ειδοποιήσεις"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ειδοποιήσεις"
 >>>>>>> upstream/18.0
@@ -5174,7 +5264,11 @@ msgid "Alias Domain Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όνομα Τομέα Ψευδονύμου"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όνομα Τομέα Ψευδονύμου"
 >>>>>>> upstream/18.0
@@ -5373,7 +5467,11 @@ msgid "All Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Όλες οι Εταιρείες"
+>>>>>>> upstream/18.0
 =======
 msgstr "Όλες οι Εταιρείες"
 >>>>>>> upstream/18.0
@@ -5771,12 +5869,15 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Παρουσιάστηκε σφάλμα."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
@@ -6339,7 +6440,11 @@ msgid "Bacon Burger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Μπέικον Μπέργκερ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Μπέικον Μπέργκερ"
 >>>>>>> upstream/18.0
@@ -6597,8 +6702,13 @@ msgstr "Τραπεζικός Λογαριασμός"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Ο τραπεζικός λογαριασμός %(link)s με αριθμό %(number)s διαγράφηκε"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -7466,7 +7576,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7629,6 +7742,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7945,7 +8061,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Κατάλογος"
+>>>>>>> upstream/18.0
 =======
 msgstr "Κατάλογος"
 >>>>>>> upstream/18.0
@@ -8459,6 +8579,7 @@ msgstr "Επιχειρηματική Οντότητα"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8649,6 +8770,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Χώρα εμπορικού εταίρου"
@@ -8715,6 +8838,9 @@ msgstr "Χώρα εμπορικού εταίρου"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9254,6 +9380,11 @@ msgstr "Δημιουργία Αυτόματων Εγγραφών"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -11040,6 +11171,17 @@ msgid "Due Terms"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner_bank__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_users__duplicate_bank_partner_ids
+msgid "Duplicate Bank Partner"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_payment__duplicate_payment_ids
 #: model:ir.model.fields,field_description:account.field_account_payment_register__duplicate_payment_ids
 msgid "Duplicate Payment"
@@ -11257,7 +11399,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email τομέα π.χ. 'example.com' στο 'odoo@example.com'"
 >>>>>>> upstream/18.0
@@ -12101,7 +12247,11 @@ msgid "Force"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Παράβλεψη και Συνέχεια"
+>>>>>>> upstream/18.0
 =======
 msgstr "Παράβλεψη και Συνέχεια"
 >>>>>>> upstream/18.0
@@ -14133,7 +14283,11 @@ msgid "Kanban Dashboard Graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Γράφημα Επισκόπησης Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Γράφημα Επισκόπησης Kanban"
 >>>>>>> upstream/18.0
@@ -14714,7 +14868,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -15725,11 +15883,14 @@ msgid "Once your invoice is ready, confirm it."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "One or more invoices couldn't be processed."
@@ -16314,7 +16475,10 @@ msgstr ""
 #: code:addons/account/models/partner.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_partner
 #: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 msgid "Partners"
 msgstr "Συνεργάτες"
 
@@ -16330,6 +16494,15 @@ msgid "Partners that are used in hashed entries cannot be merged."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "Partners with same bank"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
@@ -16406,7 +16579,11 @@ msgid "Payment Communication:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επικοινωνία πληρωμής:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επικοινωνία πληρωμής:"
 >>>>>>> upstream/18.0
@@ -16459,7 +16636,11 @@ msgid "Payment Communications"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Επικοινωνία πληρωμής"
+>>>>>>> upstream/18.0
 =======
 msgstr "Επικοινωνία πληρωμής"
 >>>>>>> upstream/18.0
@@ -19817,7 +19998,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19912,6 +20096,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20166,6 +20353,17 @@ msgstr ""
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The following entries are unbalanced:\n"
+"\n"
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%s' QR-code to be generated though it was "
@@ -21907,7 +22105,11 @@ msgid "Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Χρησιμοποιημένα"
+>>>>>>> upstream/18.0
 =======
 msgstr "Χρησιμοποιημένα"
 >>>>>>> upstream/18.0
@@ -22564,7 +22766,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22726,6 +22931,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22991,7 +23199,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -23465,7 +23679,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23561,6 +23778,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23723,6 +23943,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -23756,6 +23977,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24009,7 +24232,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ψευδώνυμο"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ψευδώνυμο"
 >>>>>>> upstream/18.0

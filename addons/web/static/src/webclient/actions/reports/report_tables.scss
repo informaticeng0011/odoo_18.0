@@ -77,6 +77,7 @@ div#total {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -111,6 +112,8 @@ div#total {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -387,6 +390,15 @@ div#total {
             border-top: none;
         }
     }
+<<<<<<< HEAD
+=======
+
+    .mt-5 .o_total_table:not(.o_ignore_layout_styling) {
+        &::before {
+            border-top: $border-width solid $border-color;
+        }
+    }
+>>>>>>> upstream/18.0
 }
 
 .o_table_boxed-rounded {

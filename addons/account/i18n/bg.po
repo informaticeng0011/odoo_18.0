@@ -98,6 +98,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Thomas Becquevort, 2025
+>>>>>>> upstream/18.0
 =======
 # Thomas Becquevort, 2025
 >>>>>>> upstream/18.0
@@ -289,6 +293,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,6 +651,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Thomas Becquevort, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Thomas Becquevort, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Bulgarian (https://app.transifex.com/odoo/teams/41243/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -654,6 +664,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
@@ -670,6 +681,8 @@ msgstr ""
 "Може да специфицирате счетоводна сметка по подразбиране в журнала \"%(journal)s\" за да се балансират автоматично записите."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
@@ -864,7 +877,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -961,6 +977,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1145,11 +1164,14 @@ msgstr ""
 "    <br/>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Моля, уверете се, че това е желано поведение."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -1394,6 +1416,16 @@ msgstr ""
 "style='color: #704A66;'>%(date)s</b>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted behavior.</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
 msgstr "<br/> на тази сметка:"
@@ -2009,6 +2041,16 @@ msgid "<span>New</span>"
 msgstr "<span>Ново</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by "
+"others:</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Операции</span>"
@@ -2041,6 +2083,14 @@ msgid "<span>Taxes</span>"
 msgstr "<span>Данъци</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+msgid "<span>The Bank Account could be a duplicate of</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 "<span>This entry has been generated through the Invoicing app, before "
@@ -2114,7 +2164,10 @@ msgstr "<span>Предупреждение: този документ може �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2225,6 +2278,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2397,11 +2453,14 @@ msgstr "<strong>Референция</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Адрес за доставка</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2562,7 +2621,10 @@ msgstr "<strong>Тип: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2726,6 +2788,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2921,7 +2986,10 @@ msgstr "Банковата сметка може да бъде обвързан�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3086,6 +3154,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4584,12 +4655,15 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Възникна грешка."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
@@ -5234,8 +5308,13 @@ msgstr "Банкова сметка"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Банкова сметка %(link)s с номер %(number)s е изтрита"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -6101,7 +6180,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6264,6 +6346,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6933,6 +7018,7 @@ msgstr "Търговски обект"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7123,6 +7209,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_move_line__commercial_partner_country
 msgid "Commercial Partner Country"
 msgstr "Държава на търговски партньор"
@@ -7189,6 +7277,9 @@ msgstr "Държава на търговски партньор"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7724,6 +7815,11 @@ msgstr "Създаване на автоматични записи"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -9513,6 +9609,17 @@ msgid "Due Terms"
 msgstr "Условия за плащане"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner_bank__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_users__duplicate_bank_partner_ids
+msgid "Duplicate Bank Partner"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_payment__duplicate_payment_ids
 #: model:ir.model.fields,field_description:account.field_account_payment_register__duplicate_payment_ids
 msgid "Duplicate Payment"
@@ -13913,11 +14020,14 @@ msgid "Once your invoice is ready, confirm it."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "One or more invoices couldn't be processed."
@@ -14504,7 +14614,10 @@ msgstr ""
 #: code:addons/account/models/partner.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_partner
 #: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 msgid "Partners"
 msgstr "Контрагенти"
 
@@ -14520,6 +14633,15 @@ msgid "Partners that are used in hashed entries cannot be merged."
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "Partners with same bank"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
@@ -17994,7 +18116,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18089,6 +18214,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18373,6 +18501,17 @@ msgstr "Следните сметки трябва да бъдат назнач�
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The following entries are unbalanced:\n"
+"\n"
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%s' QR-code to be generated though it was "
@@ -20710,7 +20849,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20872,6 +21014,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21137,7 +21282,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -21620,7 +21771,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21716,6 +21870,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21878,6 +22035,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -21911,6 +22069,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

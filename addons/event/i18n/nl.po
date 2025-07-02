@@ -61,9 +61,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
 # Wil Odoo, 2025
 # Manon Rondou, 2025
+=======
+# Wil Odoo, 2025
+# Manon Rondou, 2025
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Manon Rondou, 2025
@@ -407,7 +413,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Manon Rondou, 2025\n"
+=======
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
 >>>>>>> upstream/18.0
@@ -720,7 +730,11 @@ msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- \"%(event_name)s\": %(nb_too_many)i stoelen ontbreken."
+=======
+msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
+>>>>>>> upstream/18.0
 =======
 msgstr "- \"%(event_name)s\": %(nb_too_many)i ontbreken plaatsen."
 >>>>>>> upstream/18.0
@@ -825,8 +839,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i stoelen "
 "ontbreken."
+=======
+"- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
+" plaatsen."
+>>>>>>> upstream/18.0
 =======
 "- het ticket \"%(ticket_name)s\" (%(event_name)s): %(nb_too_many)i ontbreken"
 " plaatsen."
@@ -981,7 +1000,11 @@ msgid "96x134mm (Badge Printer)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "96x134mm (badgeprinter)"
+=======
+msgstr "96x134mm (Badgeprinter)"
+>>>>>>> upstream/18.0
 =======
 msgstr "96x134mm (Badgeprinter)"
 >>>>>>> upstream/18.0
@@ -1531,7 +1554,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
+=======
+"                        <t t-out=\"object.name or 'Gast'\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <t t-out=\"object.name or 'Gast'\"/>\n"
 >>>>>>> upstream/18.0
@@ -2113,7 +2140,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        gaat <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start.\n"
+=======
+"                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
+>>>>>>> upstream/18.0
 =======
 "                        <strong t-out=\"object.event_date_range or ''\">vandaag</strong> van start gaat.\n"
 >>>>>>> upstream/18.0
@@ -2673,11 +2704,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We zijn blij om je registratie voor het evenement te bevestigen\n"
 "                        <t t-if=\"is_online\">\n"
 "                            <a t-att-href=\"object.event_id.website_url\" style=\"color:#875A7B;text-decoration:none;font-weight:bold;\" t-out=\"object.event_id.name or ''\">OpenWood Collectie Online Onthulling</a>\n"
 "                        </t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2751,6 +2785,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3860,7 +3897,11 @@ msgid "Enable or Disable Event Barcode functionality."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Schakel de functionaliteit van gebeurtenisbarcodes in of uit."
+=======
+msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Schakel de functionaliteit van evenementenbarcodes in of uit."
 >>>>>>> upstream/18.0
@@ -4332,7 +4373,11 @@ msgid "Event: Registration Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenement: registratiebevestiging"
+=======
+msgstr "Evenement: Registratiebevestiging"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenement: Registratiebevestiging"
 >>>>>>> upstream/18.0
@@ -4530,7 +4575,11 @@ msgid "For any additional information, please contact us at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Voor meer informatie kun je ons contacteren op"
+=======
+msgstr "Voor meer informatie kun je contact met ons opnemen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voor meer informatie kun je contact met ons opnemen"
 >>>>>>> upstream/18.0
@@ -4598,7 +4647,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaats "
+=======
+"Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
+>>>>>>> upstream/18.0
 =======
 "Voor elk evenement kun je een maximaal aantal inschrijvingen of plaatsen "
 >>>>>>> upstream/18.0
@@ -5475,7 +5528,11 @@ msgid "Number of Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aantal ingenomen zitplaatsen"
+=======
+msgstr "Aantal bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aantal bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -6141,7 +6198,11 @@ msgid "Sell tickets with Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tickets met Kassa verkopen"
+=======
+msgstr "Verkoop tickets via kassa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verkoop tickets via kassa"
 >>>>>>> upstream/18.0
@@ -6552,7 +6613,11 @@ msgid "Taken Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zitplaatsen ingenomen"
+=======
+msgstr "Bezette plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bezette plaatsen"
 >>>>>>> upstream/18.0
@@ -7089,7 +7154,11 @@ msgid "Use Event Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruik gebeurtenisbarcode"
+=======
+msgstr "Gebruik evenementenbarcode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruik evenementenbarcode"
 >>>>>>> upstream/18.0
@@ -7291,7 +7360,11 @@ msgid "Used Seats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gebruikte stoelen"
+=======
+msgstr "Gebruikte plaatsen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gebruikte plaatsen"
 >>>>>>> upstream/18.0
@@ -7511,7 +7584,11 @@ msgid "Whether seats are not available for this ticket."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Of er geen zitplaatsen beschikbaar zijn voor dit ticket."
+=======
+msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
+>>>>>>> upstream/18.0
 =======
 msgstr "Of er geen plaatsen beschikbaar zijn voor dit ticket."
 >>>>>>> upstream/18.0

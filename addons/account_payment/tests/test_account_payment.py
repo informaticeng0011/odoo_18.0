@@ -292,7 +292,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -466,6 +469,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -550,4 +554,46 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_vendor_payment_name_remains_same_after_repost(self):
+        """
+        Test that modifying and reposting a vendor payment does not change its name.
+        """
+        journal = self.company_data['default_journal_bank']
+
+        payment = self.env['account.payment'].create({
+            'partner_id': self.partner.id,
+            'partner_type': 'supplier',
+            'payment_type': 'outbound',
+            'amount': 10,
+            'journal_id': journal.id,
+            'payment_method_line_id': journal.inbound_payment_method_line_ids[0].id,
+        })
+        payment.action_post()
+
+        original_name = payment.move_id.name
+
+        payment2 = self.env['account.payment'].create({
+            'partner_id': self.partner.id,
+            'partner_type': 'supplier',
+            'payment_type': 'outbound',
+            'amount': 20,
+            'journal_id': journal.id,
+            'payment_method_line_id': journal.inbound_payment_method_line_ids[0].id,
+        })
+
+        payment2.action_post()
+        payment.move_id.button_draft()
+        payment.move_id.line_ids.unlink()
+        payment.amount = 30
+        payment.move_id._compute_name()
+        payment.move_id._post()
+
+        self.assertEqual(
+            payment.move_id.name,
+            original_name,
+            "Payment name should remain the same after reposting"
+        )
 >>>>>>> upstream/18.0

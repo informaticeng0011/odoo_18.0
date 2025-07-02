@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from odoo import tools, fields
+=======
+from odoo import tools, fields, Command
+>>>>>>> upstream/18.0
 from odoo.tests.common import tagged
 from odoo.addons.l10n_hu_edi.tests.common import L10nHuEdiTestCommon
 
@@ -15,9 +19,35 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
         with freeze_time('2024-02-01'):
             super().setUpClass()
 
+<<<<<<< HEAD
     def test_invoice_and_credit_note(self):
         with freeze_time('2024-02-01'):
             invoice = self.create_invoice_simple()
+=======
+            cls.company_data['company'].write({
+                'bank_ids': [Command.create({
+                    'acc_number': 'HU0123456789',
+                })]
+            })
+            cls.partner_company.write({
+                'bank_ids': [Command.create({
+                    'acc_number': 'HU6666666666',
+                })]
+            })
+            cls.bank_company = cls.env['res.partner.bank'].create({
+                'acc_number': 'HU7357735773',
+                'partner_id': cls.company_data['company'].partner_id.id,
+            })
+            cls.bank_partner = cls.env['res.partner.bank'].create({
+                'acc_number': 'HU9487189480',
+                'partner_id': cls.partner_company.id,
+            })
+
+    def test_invoice_and_credit_note(self):
+        with freeze_time('2024-02-01'):
+            invoice = self.create_invoice_simple()
+            invoice.partner_bank_id = self.bank_company
+>>>>>>> upstream/18.0
             invoice.action_post()
             invoice._l10n_hu_edi_set_chain_index()
             invoice_xml = invoice._l10n_hu_edi_generate_xml()
@@ -32,6 +62,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
             invoice.write({'l10n_hu_edi_state': 'confirmed'})
 
             credit_note = self.create_reversal(invoice)
+<<<<<<< HEAD
+=======
+            credit_note.partner_bank_id = self.bank_partner
+>>>>>>> upstream/18.0
             credit_note.action_post()
             credit_note._l10n_hu_edi_set_chain_index()
             credit_note_xml = credit_note._l10n_hu_edi_generate_xml()
@@ -102,6 +136,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
     def test_tax_audit_export(self):
         with freeze_time('2024-02-01'):
             invoice = self.create_invoice_simple()
+<<<<<<< HEAD
+=======
+            invoice.partner_bank_id = self.bank_company
+>>>>>>> upstream/18.0
             invoice.action_post()
 
             tax_audit_export = self.env['l10n_hu_edi.tax_audit_export'].create({

@@ -5,7 +5,11 @@ import { patch } from "@web/core/utils/patch";
 const storeServicePatch = {
     get onlineMemberStatuses() {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super.onlineMemberStatuses + ["leave_online", "leave_away"];
+=======
+        return [...super.onlineMemberStatuses, "leave_online", "leave_away"];
+>>>>>>> upstream/18.0
 =======
         return [...super.onlineMemberStatuses, "leave_online", "leave_away"];
 >>>>>>> upstream/18.0

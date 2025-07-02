@@ -4,8 +4,14 @@
 # 
 # Translators:
 # Lyall Kindmurr, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Alin Miclea, 2025
+=======
+# Alin Miclea, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -13,7 +19,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-19 15:46+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Alin Miclea, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +40,11 @@ msgid ""
 "If you need Website themes, it can be downloaded from https://github.com/odoo/design-themes.\n"
 msgstr ""
 "\n"
+<<<<<<< HEAD
 "Este posibil să aveți nevoie de versiunea Enterprise pentru a instala modulul de date.Vă rugăm să vizitați https://www.odoo.com/pricing-plan pentru mai multe informații.\n"
+=======
+"Este posibil să aveți nevoie de versiunea Enterprise pentru a instala modulul de date. Vă rugăm să vizitați https://www.odoo.com/pricing-plan pentru mai multe informații.\n"
+>>>>>>> upstream/18.0
 "Dacă aveți nevoie de teme pentru site-uri web, acestea pot fi descărcate de pe https://github.com/odoo/design-themes.\n"
 
 #. module: base_import_module
@@ -61,13 +75,23 @@ msgstr "Închide"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "Connection to %(url)s failed, the module %(module)s cannot be downloaded."
+<<<<<<< HEAD
 msgstr "Conectare %(url)s eșuată, modulul %(module)s nu poate fi descărcat."
+=======
+msgstr ""
+"Conectarea la %(url)s a eșuat, modulul %(module)s nu poate fi descărcat."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
+<<<<<<< HEAD
 msgstr "Conectare %s eșuată Lista modulelor industriale nu poate fi preluată"
+=======
+msgstr ""
+"Conectarea la %s a eșuat. Lista modulelor din industrie nu poate fi preluată"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -83,7 +107,11 @@ msgstr "Creat de"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__display_name
@@ -131,19 +159,31 @@ msgstr "ID"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
+<<<<<<< HEAD
 msgstr "Importați mesajul"
+=======
+msgstr "Mesaj de import"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
 #: model:ir.model,name:base_import_module.model_base_import_module
 #: model:ir.ui.menu,name:base_import_module.menu_view_base_module_import
 msgid "Import Module"
+<<<<<<< HEAD
 msgstr "Importați Modulul"
+=======
+msgstr "Importă modulul"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
+<<<<<<< HEAD
 msgstr "Importați datele demo ale modulului"
+=======
+msgstr "Importă datele demo ale modulului"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__imported
@@ -158,33 +198,57 @@ msgstr "Industrii"
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install"
+<<<<<<< HEAD
 msgstr "Instalare"
+=======
+msgstr "Instalează"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
+<<<<<<< HEAD
 msgstr "Instalați o industrie"
+=======
+msgstr "Instalează o industrie"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
+<<<<<<< HEAD
 msgstr "Instalați aplicația"
+=======
+msgstr "Instalează aplicația"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Load demo data"
+<<<<<<< HEAD
 msgstr "Încărcare date Demonstrative"
+=======
+msgstr "Încarcă date demonstrative"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -193,6 +257,12 @@ msgid ""
 "Load demo data to test the industry's features with sample records. Do not "
 "load them if this is your production database."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Încărcați date demonstrative pentru a testa funcționalitățile industriei cu "
+"înregistrări de probă. Nu le încărcați dacă aceasta este baza dvs. de date "
+"de producție."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
@@ -202,7 +272,11 @@ msgstr "Modul"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__module_file
 msgid "Module .ZIP file"
+<<<<<<< HEAD
 msgstr "Modulul pentru fișiere .ZIP"
+=======
+msgstr "Fișier modul .ZIP"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
@@ -212,7 +286,11 @@ msgstr "Tip modul"
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_base_module_uninstall
 msgid "Module Uninstall"
+<<<<<<< HEAD
 msgstr "Dezinstalare Modul"
+=======
+msgstr "Dezinstalare modul"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -228,13 +306,21 @@ msgstr "Dependențe module"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No file sent."
+<<<<<<< HEAD
 msgstr "Niciun fișier trimis."
+=======
+msgstr "Nu a fost trimis niciun fișier."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Note: you can only import data modules (.xml files and static assets)"
 msgstr ""
+<<<<<<< HEAD
 "Notă: puteți importa doar module de date (fișiere .xml și active statice)"
+=======
+"Notă: puteți importa doar module de date (fișiere .xml și resurse statice)"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
@@ -245,19 +331,31 @@ msgstr "Aplicații oficiale"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
+<<<<<<< HEAD
 msgstr "Numai administratorii pot instala module de date."
+=======
+msgstr "Doar administratorii pot instala module de date."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Only administrators can upload a module"
+<<<<<<< HEAD
 msgstr "Numai administratorii pot încărca un modul"
+=======
+msgstr "Doar administratorii pot încărca un modul"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only zip files are supported."
+<<<<<<< HEAD
 msgstr "Sunt acceptate numai fișierele zip."
+=======
+msgstr "Sunt acceptate doar fișierele zip."
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__state
@@ -277,8 +375,13 @@ msgid ""
 "The installation of the data module would fail as the following dependencies"
 " can't be found in the addons-path:\n"
 msgstr ""
+<<<<<<< HEAD
 "Instalarea modulului de date ar eșua, deoarece următoarele dependențe nu pot"
 " fi găsite în calea de completare:\n"
+=======
+"Instalarea modulului de date va eșua deoarece următoarele dependențe nu pot "
+"fi găsite în calea addons:\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -286,8 +389,13 @@ msgstr ""
 msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 msgstr ""
+<<<<<<< HEAD
 "Lista aplicațiilor din industrie nu poate fi preluată. Vă rugăm încercați "
 "din nou mai târziu"
+=======
+"Lista aplicațiilor din industrie nu poate fi preluată. Vă rugăm să încercați"
+" din nou mai târziu"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
@@ -299,7 +407,11 @@ msgstr "Modulul %s nu poate fi descărcat"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dependențe de module necunoscute:"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
@@ -310,7 +422,11 @@ msgstr "Actualizează"
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view
 msgid "View"
+<<<<<<< HEAD
 msgstr "Afișare"
+=======
+msgstr "Vizualizare"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__done
@@ -320,4 +436,8 @@ msgstr "efectuat"
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__init
 msgid "init"
+<<<<<<< HEAD
 msgstr "init"
+=======
+msgstr "inițial"
+>>>>>>> upstream/18.0

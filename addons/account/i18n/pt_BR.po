@@ -79,8 +79,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
+=======
+# Wil Odoo, 2025
+# Maitê Dietze, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Maitê Dietze, 2025
@@ -386,6 +391,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +801,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Maitê Dietze, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Maitê Dietze, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -803,6 +814,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid ""
@@ -819,6 +831,8 @@ msgstr ""
 "Experimente especificar uma conta padrão no diário \"%(journal)s\" para equilibrar automaticamente cada movimentação."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
@@ -1024,7 +1038,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1110,6 +1127,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -1191,6 +1209,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(tax_account)s (%(account_name)s) deve ser uma conta do tipo "
 "\"%(receivable)s\" ou \"%(payable)s\" com ambas as opções "
 "\"%(allow_reconciliation)s\" e \"%(non_trade)s\" habilitadas."
@@ -1214,6 +1234,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1374,11 +1397,14 @@ msgstr ""
 "    <br/>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Certifique-se de que este é um comportamento esperado."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 ". The journal entries need to be computed by Odoo before being posted in "
@@ -1623,6 +1649,16 @@ msgstr ""
 " #704A66;'>%(date)s</b>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<br/>\n"
+"                        <span>Please make sure that this is a wanted behavior.</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<br/> on this account:"
 msgstr "<br/> nesta conta:"
@@ -2333,6 +2369,16 @@ msgid "<span>New</span>"
 msgstr "<span>Novo</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid ""
+"<span>One or more Bank Accounts set on this partner are also used by "
+"others:</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
 msgstr "<span>Operações</span>"
@@ -2365,6 +2411,14 @@ msgid "<span>Taxes</span>"
 msgstr "<span>Impostos</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+msgid "<span>The Bank Account could be a duplicate of</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
 "<span>This entry has been generated through the Invoicing app, before "
@@ -2402,6 +2456,7 @@ msgstr "<span>Aviso: este documento parece uma duplicata de</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2567,6 +2622,8 @@ msgstr "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Endereço de entrega</strong>"
 
@@ -2589,6 +2646,9 @@ msgstr "<strong class=\"d-block mt-3\">Endereço de entrega</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2725,11 +2785,14 @@ msgstr "<strong>Referência</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Endereço de entrega</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2890,7 +2953,10 @@ msgstr "<strong>Tipo: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3024,6 +3090,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -3112,6 +3179,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3176,6 +3245,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3192,6 +3262,8 @@ msgstr ""
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3323,7 +3395,10 @@ msgstr "Uma conta bancária pode pertencer a apenas um diário."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3470,6 +3545,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -3647,6 +3723,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A conta bancária com Número de Conta %(number)s do parceiro %(partner)s já "
 "existe, mas está arquivada. Desarquive-a em vez de criar uma nova."
 
@@ -3668,6 +3746,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5110,12 +5191,15 @@ msgstr ""
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Houve um erro."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "An error occurred when computing the inalterability. A gap has been detected"
 " in the sequence."
@@ -5763,6 +5847,7 @@ msgstr "Conta bancária"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Conta bancária %(link)s com número %(number)s excluído"
 =======
@@ -5904,6 +5989,10 @@ msgstr "Bank Account %(link)s with number %(number)s archived"
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr "Bank Account %(link)s with number %(number)s archived"
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Conta bancária %(link)s com número %(number)s arquivada"
 >>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
@@ -6638,6 +6727,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6854,6 +6944,8 @@ msgstr "Cannot identify the invoices in the generated PDF: %s"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
@@ -6877,6 +6969,9 @@ msgstr "Não foi possível identificar as faturas no PDF gerado: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7476,6 +7571,7 @@ msgstr "Entidade comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7499,6 +7595,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7714,6 +7812,9 @@ msgstr "País do parceiro comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8273,6 +8374,11 @@ msgstr "Criar lançamentos automáticos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -10078,6 +10184,17 @@ msgid "Due Terms"
 msgstr "Condições de pagamento"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_partner_bank__duplicate_bank_partner_ids
+#: model:ir.model.fields,field_description:account.field_res_users__duplicate_bank_partner_ids
+msgid "Duplicate Bank Partner"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_account_payment__duplicate_payment_ids
 #: model:ir.model.fields,field_description:account.field_account_payment_register__duplicate_payment_ids
 msgid "Duplicate Payment"
@@ -14629,6 +14746,7 @@ msgid "Once your invoice is ready, confirm it."
 msgstr "Quando sua fatura estiver pronta, confirme-a."
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
@@ -14636,6 +14754,8 @@ msgstr ""
 "outros"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 msgid "One or more invoices couldn't be processed."
@@ -14976,7 +15096,11 @@ msgid "Outbound"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Enviados"
+=======
+msgstr "Efetuados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Efetuados"
 >>>>>>> upstream/18.0
@@ -15281,7 +15405,11 @@ msgid "Outbound Payment Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Formas dos pagamento enviados"
+=======
+msgstr "Formas de efetuar pagamentos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Formas de efetuar pagamentos"
 >>>>>>> upstream/18.0
@@ -15586,7 +15714,11 @@ msgid "Outgoing Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pagamentos enviados"
+=======
+msgstr "Pagamentos efetuados"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pagamentos efetuados"
 >>>>>>> upstream/18.0
@@ -16133,7 +16265,10 @@ msgstr "O(s) parceiro(s) deve(m) ter um endereço de e-mail."
 #: code:addons/account/models/partner.py:0
 #: model:ir.model.fields,field_description:account.field_account_report__filter_partner
 #: model_terms:ir.ui.view,arch_db:account.view_message_tree_audit_log_search
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 msgid "Partners"
 msgstr "Parceiros"
 
@@ -16150,6 +16285,15 @@ msgstr ""
 "Parceiros usados em entradas verificadas por hash não podem ser mesclados."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "Partners with same bank"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_line.py:0
 #: model:ir.actions.server,name:account.action_move_force_register_payment
@@ -19686,7 +19830,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19771,6 +19918,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -19797,6 +19945,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"The commercial partner has been updated for all related accounting entries."
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 "The commercial partner has been updated for all related accounting entries."
@@ -20123,6 +20276,17 @@ msgstr "As contas a seguir devem ser atribuídas a pelo menos uma empresa:"
 
 #. module: account
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/account/models/account_move.py:0
+msgid ""
+"The following entries are unbalanced:\n"
+"\n"
+msgstr ""
+
+#. module: account
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/account/models/res_partner_bank.py:0
 msgid ""
 "The following error prevented '%s' QR-code to be generated though it was "
@@ -22584,6 +22748,7 @@ msgstr "Valor incorreto de crédito ou débito no lançamento contábil."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -22798,6 +22963,8 @@ msgstr "XML format"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "XML format"
 msgstr "Formato XML"
@@ -22820,6 +22987,9 @@ msgstr "Formato XML"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23045,11 +23215,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
 msgstr ""
 "Não é possível criar pagamentos para lançamentos pertencentes a filiais "
 "diferentes."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23078,10 +23251,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
 >>>>>>> upstream/18.0
 =======
 "You can't create payments for entries belonging to different branches "
@@ -23629,7 +23807,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23714,6 +23895,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -23794,6 +23976,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Não é possível definir um parceiro como endereço de faturamento de outro se "
 "os dois tem um endereço de faturamento diferente. %(vat_label)s"
 
@@ -23816,6 +24000,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23968,6 +24155,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24001,6 +24189,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

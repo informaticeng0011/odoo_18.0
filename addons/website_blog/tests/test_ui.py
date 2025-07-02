@@ -24,6 +24,10 @@ from odoo.addons.website_blog.tests.common import TestWebsiteBlogCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -170,7 +174,10 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -260,6 +267,9 @@ class TestWebsiteBlogUi(odoo.tests.HttpCase, TestWebsiteBlogCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

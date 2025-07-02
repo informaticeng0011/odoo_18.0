@@ -3,9 +3,14 @@
 import base64
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 from odoo.tools import float_repr
+=======
+from odoo import api, fields, models
+from odoo.tools import float_repr, format_datetime
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models
 from odoo.tools import float_repr, format_datetime
@@ -17,13 +22,19 @@ class AccountMove(models.Model):
 
     l10n_sa_qr_code_str = fields.Char(string='Zatka QR Code', compute='_compute_qr_code_str')
 <<<<<<< HEAD
+<<<<<<< HEAD
     l10n_sa_confirmation_datetime = fields.Datetime(string='Confirmation Date', readonly=True, copy=False)
 =======
+=======
+>>>>>>> upstream/18.0
     l10n_sa_confirmation_datetime = fields.Datetime(string='Confirmation Date',
                                                     readonly=True,
                                                     copy=False,
                                                     help="""Date when the invoice is confirmed and posted.
                                                     In other words, it is the date on which the invoice is generated as final document (after securing all internal approvals).""")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.depends('country_code', 'move_type')
@@ -139,7 +150,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vals = {'l10n_sa_confirmation_datetime': fields.Datetime.now()}
+=======
+                vals = {}
+                if not move.l10n_sa_confirmation_datetime:
+                    vals['l10n_sa_confirmation_datetime'] = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
                 vals = {}
                 if not move.l10n_sa_confirmation_datetime:
@@ -595,6 +612,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -743,10 +761,15 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def get_l10n_sa_confirmation_datetime_sa_tz(self):
         self.ensure_one()
         return format_datetime(self.env, self.l10n_sa_confirmation_datetime, tz='Asia/Riyadh', dt_format='Y-MM-dd\nHH:mm:ss')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _l10n_sa_reset_confirmation_datetime(self):
         for move in self.filtered(lambda m: m.country_code == 'SA'):
@@ -830,6 +853,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

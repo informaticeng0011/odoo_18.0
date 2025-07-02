@@ -5,6 +5,10 @@ from datetime import datetime, timedelta
 
 from odoo import fields, tests
 from odoo.tests import Form
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 
 
 class TestReportStockQuantity(tests.TransactionCase):
@@ -12,6 +16,12 @@ class TestReportStockQuantity(tests.TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+<<<<<<< HEAD
+=======
+        # freeze time to avoid test errors due to the class being initialized before 00:00:00 and the test run after
+        cls.fake_today = fields.Date.today()
+        cls.startClassPatcher(freeze_time(cls.fake_today))
+>>>>>>> upstream/18.0
         cls.product1 = cls.env['product.product'].create({
             'name': 'Mellohi',
             'default_code': 'C418',
