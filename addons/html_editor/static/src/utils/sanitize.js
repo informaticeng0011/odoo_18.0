@@ -16,7 +16,10 @@ export function initElementForEdition(element, options = {}) {
         });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     // During `convert_inline`, image elements may receive `width` and `height` attributes,
     // along with inline styles. These attributes force specific dimensions, which breaks
@@ -30,6 +33,9 @@ export function initElementForEdition(element, options = {}) {
         img.style.setProperty("width", width);
         img.style.setProperty("height", height);
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

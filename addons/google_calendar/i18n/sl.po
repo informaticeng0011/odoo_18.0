@@ -53,6 +53,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -205,6 +209,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +507,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -514,7 +524,11 @@ msgstr ""
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "%(id)s and %(length)s following"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(id)s in%(length)s naslednje"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(id)s in%(length)s naslednje"
 >>>>>>> upstream/18.0
@@ -530,7 +544,11 @@ msgstr "%(reminder_type)s - %(duration)s Dni"
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(reminder_type)s - %(duration)s Ure"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(reminder_type)s - %(duration)s Ure"
 >>>>>>> upstream/18.0
@@ -540,7 +558,11 @@ msgstr "%(reminder_type)s - %(duration)s Ure"
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "%(reminder_type)s - %(duration)s Minutes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(reminder_type)s - %(duration)s Minute"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(reminder_type)s - %(duration)s Minute"
 >>>>>>> upstream/18.0
@@ -550,7 +572,11 @@ msgstr "%(reminder_type)s - %(duration)s Minute"
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "(No title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(Brez naslova)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Brez naslova)"
 >>>>>>> upstream/18.0
@@ -582,11 +608,17 @@ msgid ""
 " synchronization."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Pri ustvarjanju žetona je prišlo do napake. Vaša avtorizacijska koda je "
 "morda neveljavna ali je že potekla [%s]. Preverite svoj ID stranke in tajno "
 "kodo na platformi Google API-jev ali poskusite ustaviti in znova zagnati "
 "sinhronizacijo koledarja."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: google_calendar
@@ -666,7 +698,11 @@ msgstr "Ustvarjeno"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_odoo
 msgid "Delete from Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši iz Odooja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši iz Odooja"
 >>>>>>> upstream/18.0
@@ -675,7 +711,11 @@ msgstr "Izbriši iz Odooja"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_both
 msgid "Delete from both"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši iz obeh"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši iz obeh"
 >>>>>>> upstream/18.0
@@ -684,7 +724,11 @@ msgstr "Izbriši iz obeh"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_google
 msgid "Delete from the current Google Calendar account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši iz trenutnega računa Google Koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izbriši iz trenutnega računa Google Koledarja"
 >>>>>>> upstream/18.0
@@ -707,6 +751,7 @@ msgid "Email"
 msgstr "E-pošta"
 
 #. module: google_calendar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,6 +937,8 @@ msgstr "Upravitelj alarmov dogodkov"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:google_calendar.model_calendar_recurrence
 msgid "Event Recurrence Rule"
 msgstr "Pravilo o ponovitvi dogodka"
@@ -931,7 +978,11 @@ msgid "Google"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google"
 >>>>>>> upstream/18.0
@@ -1036,7 +1087,11 @@ msgstr "Google koledar"
 #: model:ir.model,name:google_calendar.model_google_calendar_account_reset
 msgid "Google Calendar Account Reset"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponastavitev računa Google Koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponastavitev računa Google Koledarja"
 >>>>>>> upstream/18.0
@@ -1051,7 +1106,11 @@ msgstr "ID dogodka Google koledarja"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_sync__google_id
 msgid "Google Calendar Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID Google Koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID Google Koledarja"
 >>>>>>> upstream/18.0
@@ -1060,7 +1119,11 @@ msgstr "ID Google Koledarja"
 #: model:ir.actions.server,name:google_calendar.ir_cron_sync_all_cals_ir_actions_server
 msgid "Google Calendar: synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Koledar: sinhronizacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Koledar: sinhronizacija"
 >>>>>>> upstream/18.0
@@ -1117,7 +1180,11 @@ msgid "Google Meet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Meet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Meet"
 >>>>>>> upstream/18.0
@@ -1300,7 +1367,11 @@ msgid "Google Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Sinhronizacija začasno ustavljena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Sinhronizacija začasno ustavljena"
 >>>>>>> upstream/18.0
@@ -1400,7 +1471,11 @@ msgstr "Google Sinhronizacija začasno ustavljena"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_synchronization_stopped
 msgid "Google Synchronization stopped"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhronizacija z Googlom je ustavljena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhronizacija z Googlom je ustavljena"
 >>>>>>> upstream/18.0
@@ -1410,7 +1485,11 @@ msgstr "Sinhronizacija z Googlom je ustavljena"
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "Google gave the following explanation: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google je podal naslednjo razlago: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google je podal naslednjo razlago: %s"
 >>>>>>> upstream/18.0
@@ -1419,7 +1498,11 @@ msgstr "Google je podal naslednjo razlago: %s"
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__guests_readonly
 msgid "Guests Event Modification Permission"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dovoljenje za spreminjanje dogodka za goste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dovoljenje za spreminjanje dogodka za goste"
 >>>>>>> upstream/18.0
@@ -1443,6 +1526,10 @@ msgstr ""
 msgid "Indicates if synchronization with Google Calendar is paused or not."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Označuje, ali je sinhronizacija z Google Koledarjem zaustavljena ali ne."
+>>>>>>> upstream/18.0
 =======
 "Označuje, ali je sinhronizacija z Google Koledarjem zaustavljena ali ne."
 >>>>>>> upstream/18.0
@@ -1452,7 +1539,11 @@ msgstr ""
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "It will not be synced as long at it is not updated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne bo sinhronizirano, dokler ni posodobljeno."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne bo sinhronizirano, dokler ni posodobljeno."
 >>>>>>> upstream/18.0
@@ -1481,7 +1572,11 @@ msgstr "Zadnjič posodobljeno"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__dont_delete
 msgid "Leave them untouched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pustite jih nedotaknjene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pustite jih nedotaknjene"
 >>>>>>> upstream/18.0
@@ -1492,7 +1587,11 @@ msgstr "Pustite jih nedotaknjene"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_sync__need_sync
 msgid "Need Sync"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna je sinhronizacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna je sinhronizacija"
 >>>>>>> upstream/18.0
@@ -1502,7 +1601,11 @@ msgstr "Potrebna je sinhronizacija"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_sync_token
 msgid "Next Sync Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslednji žeton za sinhronizacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslednji žeton za sinhronizacijo"
 >>>>>>> upstream/18.0
@@ -1511,7 +1614,11 @@ msgstr "Naslednji žeton za sinhronizacijo"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__sync_policy
 msgid "Next Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslednja sinhronizacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naslednja sinhronizacija"
 >>>>>>> upstream/18.0
@@ -1526,7 +1633,11 @@ msgstr "Obvestilo"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začasna ustavitev sinhronizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Začasna ustavitev sinhronizacije"
 >>>>>>> upstream/18.0
@@ -1541,7 +1652,11 @@ msgstr "Osvežitev žetona"
 #: model_terms:ir.ui.view,arch_db:google_calendar.view_users_form
 msgid "Reset Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponastavi račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponastavi račun"
 >>>>>>> upstream/18.0
@@ -1550,7 +1665,11 @@ msgstr "Ponastavi račun"
 #: model_terms:ir.ui.view,arch_db:google_calendar.google_calendar_reset_account_view_form
 msgid "Reset Google Calendar Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponastavi račun Google Koledarja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponastavi račun Google Koledarja"
 >>>>>>> upstream/18.0
@@ -1559,7 +1678,11 @@ msgstr "Ponastavi račun Google Koledarja"
 #: model:ir.model,name:google_calendar.model_google_calendar_sync
 msgid "Synchronize a record with Google Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhronizacija zapisa z Google Koledarjem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhronizacija zapisa z Google Koledarjem"
 >>>>>>> upstream/18.0
@@ -1568,7 +1691,11 @@ msgstr "Sinhronizacija zapisa z Google Koledarjem"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__sync_policy__all
 msgid "Synchronize all existing events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhroniziraj vse obstoječe dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhroniziraj vse obstoječe dogodke"
 >>>>>>> upstream/18.0
@@ -1577,7 +1704,11 @@ msgstr "Sinhroniziraj vse obstoječe dogodke"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__sync_policy__new
 msgid "Synchronize only new events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinhroniziraj samo nove dogodke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinhroniziraj samo nove dogodke"
 >>>>>>> upstream/18.0
@@ -1594,6 +1725,7 @@ msgstr ""
 
 #. module: google_calendar
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1747,12 +1879,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/google_calendar/models/calendar.py:0
 msgid ""
 "The following event can only be updated by the organizer according to the "
 "event permissions set on Google Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Naslednji dogodek lahko posodobi samo organizator v skladu z dovoljenji za "
+"dogodek, nastavljenimi v Google Koledarju."
+>>>>>>> upstream/18.0
 =======
 "Naslednji dogodek lahko posodobi samo organizator v skladu z dovoljenji za "
 "dogodek, nastavljenimi v Google Koledarju."
@@ -1764,6 +1903,10 @@ msgstr ""
 msgid "The following event could not be synced with Google Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Naslednjega dogodka ni bilo mogoče sinhronizirati z Google Koledarjem."
+>>>>>>> upstream/18.0
 =======
 "Naslednjega dogodka ni bilo mogoče sinhronizirati z Google Koledarjem."
 >>>>>>> upstream/18.0
@@ -1772,7 +1915,11 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_google_calendar_account_reset__delete_policy
 msgid "This will only affect events for which the user is the owner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To bo vplivalo samo na dogodke, katerih lastnik je uporabnik."
+>>>>>>> upstream/18.0
 =======
 msgstr "To bo vplivalo samo na dogodke, katerih lastnik je uporabnik."
 >>>>>>> upstream/18.0
@@ -1826,7 +1973,11 @@ msgid "User Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uporabniške nastavitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uporabniške nastavitve"
 >>>>>>> upstream/18.0
@@ -1940,7 +2091,11 @@ msgstr "Uporabniški žeton"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__delete_policy
 msgid "User's Existing Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obstoječi dogodki uporabnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obstoječi dogodki uporabnika"
 >>>>>>> upstream/18.0
@@ -1979,7 +2134,11 @@ msgid "Videocall Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vir videoklica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vir videoklica"
 >>>>>>> upstream/18.0
@@ -2079,7 +2238,11 @@ msgstr "Vir videoklica"
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "undefined time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nedoločen čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "nedoločen čas"
 >>>>>>> upstream/18.0
@@ -2091,6 +2254,11 @@ msgid ""
 "you don't seem to have permission to modify this event on Google Calendar"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zdi se, da nimate dovoljenja za spreminjanje tega dogodka v Google "
+"Koledarju."
+>>>>>>> upstream/18.0
 =======
 "Zdi se, da nimate dovoljenja za spreminjanje tega dogodka v Google "
 "Koledarju."

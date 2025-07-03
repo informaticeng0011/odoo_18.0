@@ -172,6 +172,7 @@ class TestCIIFR(TestUBLCommon):
             invoice.ubl_cii_xml_id,
             xpaths='''
                 <xpath expr="./*[local-name()='ExchangedDocument']/*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
@@ -179,6 +180,15 @@ class TestCIIFR(TestUBLCommon):
                 </xpath>
                 <xpath expr=".//*[local-name()='PaymentReference']" position="replace">
                         <PaymentReference>___ignore___</PaymentReference>
+=======
+                        <ram:ID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:ID>
+                </xpath>
+                <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
+                        <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
+                </xpath>
+                <xpath expr=".//*[local-name()='PaymentReference']" position="replace">
+                        <ram:PaymentReference xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:PaymentReference>
+>>>>>>> upstream/18.0
                 </xpath>
             ''',
             expected_file_path='from_odoo/facturx_out_invoice.xml',
@@ -221,10 +231,17 @@ class TestCIIFR(TestUBLCommon):
             refund.ubl_cii_xml_id,
             xpaths='''
                 <xpath expr="./*[local-name()='ExchangedDocument']/*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
+=======
+                        <ram:ID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:ID>
+                </xpath>
+                <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
+                        <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
+>>>>>>> upstream/18.0
                 </xpath>
             ''',
             expected_file_path='from_odoo/facturx_out_refund.xml'
@@ -275,10 +292,17 @@ class TestCIIFR(TestUBLCommon):
             invoice.ubl_cii_xml_id,
             xpaths='''
                 <xpath expr="./*[local-name()='ExchangedDocument']/*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
+=======
+                        <ram:ID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:ID>
+                </xpath>
+                <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
+                        <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
+>>>>>>> upstream/18.0
                 </xpath>
             ''',
             expected_file_path='from_odoo/facturx_out_invoice_tax_incl.xml'

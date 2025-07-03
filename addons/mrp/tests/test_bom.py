@@ -31,7 +31,10 @@ class TestBoM(TestMrpCommon):
             set((self.bom_2 | self.bom_3).mapped('bom_line_ids').filtered(lambda line: not line.child_bom_id or line.child_bom_id.type != 'phantom').ids))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_02_explode_rounding(self):
         fns, cmp1, cmp2 = self.env['product.product'].create([{'name': 'FNS'}, {'name': 'CMP1'}, {'name': 'CMP2'}])
         self.uom_unit.rounding = 0.01
@@ -57,6 +60,9 @@ class TestBoM(TestMrpCommon):
         _, lines = fns_bom.explode(fns, 1)
         self.assertEqual(lines[0][1]['qty'], 0.10)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_10_variants(self):
         test_bom = self.env['mrp.bom'].create({
@@ -1876,7 +1882,11 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'product_id': self.product_2.id, 'product_uom_qty': 2},  # Ideally, this move should have been deleted but this isn't handled for now.
+=======
+            {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
+>>>>>>> upstream/18.0
 =======
             {'product_id': self.product_2.id, 'product_uom_qty': 0},  # Ideally, this move should have been deleted but this isn't handled for now (updated to 0 demand instead of removing).
 >>>>>>> upstream/18.0
@@ -2586,7 +2596,10 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2797,6 +2810,9 @@ class TestBoM(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3138,7 +3154,11 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -3354,7 +3374,10 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3534,6 +3557,9 @@ class TestTourBoM(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -35,6 +35,10 @@ patch(ActivityMenu.prototype, {
             context["force_search_count"] = 1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            context["active_test"] = 0; // to show lost leads in the activity
+>>>>>>> upstream/18.0
 =======
             context["active_test"] = 0; // to show lost leads in the activity
 >>>>>>> upstream/18.0

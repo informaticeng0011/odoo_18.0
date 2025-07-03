@@ -226,7 +226,11 @@ class PosController(PortalAccount):
         # If the user is not connected, then we will simply create a new partner with the form values.
         # Matching with existing partner was tried, but we then can't update the values, and it would force the user to use the ones from the first invoicing.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if request.env.user._is_public() and not pos_order.partner_id.id:
+=======
+        if kwargs:
+>>>>>>> upstream/18.0
 =======
         if kwargs:
 >>>>>>> upstream/18.0
@@ -239,6 +243,10 @@ class PosController(PortalAccount):
                     partner_values[field] = False
             partner_values.update({'zip': partner_values.pop('zipcode', '')})
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if request.env.user._is_public() and not pos_order.partner_id.id:
+>>>>>>> upstream/18.0
 =======
         if request.env.user._is_public() and not pos_order.partner_id.id:
 >>>>>>> upstream/18.0

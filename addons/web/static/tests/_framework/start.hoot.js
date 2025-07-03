@@ -3,6 +3,18 @@
 import { definePreset, defineTags } from "@odoo/hoot";
 import { runTests } from "./module_set.hoot";
 
+<<<<<<< HEAD
+=======
+function beforeFocusRequired(test) {
+    if (!document.hasFocus()) {
+        console.warn(
+            "[FOCUS REQUIRED]",
+            `test "${test.name}" requires focus inside of the browser window and will probably fail without it`
+        );
+    }
+}
+
+>>>>>>> upstream/18.0
 definePreset("desktop", {
     icon: "fa-desktop",
     label: "Desktop",
@@ -34,6 +46,7 @@ defineTags(
     },
     {
         name: "focus required",
+<<<<<<< HEAD
         before: (test) => {
             if (!document.hasFocus()) {
                 console.warn(
@@ -42,6 +55,9 @@ defineTags(
                 );
             }
         },
+=======
+        before: beforeFocusRequired,
+>>>>>>> upstream/18.0
     }
 );
 

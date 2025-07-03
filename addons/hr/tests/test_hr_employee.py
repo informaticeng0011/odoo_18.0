@@ -1,5 +1,9 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -464,7 +468,10 @@ class TestHrEmployee(TestHrCommon):
         self.assertTrue(employee.is_fully_flexible)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_flexible_working_hours(self):
         """
         Test to verifie that get_unusual_days() return false for flexible work schedule
@@ -493,6 +500,9 @@ class TestHrEmployee(TestHrCommon):
         self.assertTrue(days)
         self.assertFalse(days['2025-01-04'])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

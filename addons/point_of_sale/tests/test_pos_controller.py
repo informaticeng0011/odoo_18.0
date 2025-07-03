@@ -109,7 +109,10 @@ class TestPoSController(TestPointOfSaleHttpCommon):
         self.assertTrue(self.pos_order.is_invoiced, "The pos order should have an invoice")
         self.assertTrue("my/invoices" in res.url)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_qr_code_receipt_user_updated(self):
         """This test make sure that when the user is already connected he correctly gets redirected to the invoice."""
@@ -163,4 +166,7 @@ class TestPoSController(TestPointOfSaleHttpCommon):
         self.assertEqual(self.partner_1.vat, 'VAT_TEST_NUMBER_123')
         self.assertEqual(self.partner_1.name, 'New Name')
         self.assertEqual(self.partner_1.zip, '12345')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

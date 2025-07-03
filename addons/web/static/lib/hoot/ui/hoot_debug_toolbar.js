@@ -1,13 +1,151 @@
 /** @odoo-module */
 
+<<<<<<< HEAD
 import { Component, onWillRender, useState, xml } from "@odoo/owl";
 import { Test } from "../core/test";
 import { refresh } from "../core/url";
 import { formatTime } from "../hoot_utils";
+=======
+import { Component, onWillRender, useEffect, useRef, useState, xml } from "@odoo/owl";
+import { Test } from "../core/test";
+import { refresh } from "../core/url";
+import { formatTime, throttle } from "../hoot_utils";
+>>>>>>> upstream/18.0
 import { HootConfigMenu } from "./hoot_config_menu";
 import { HootTestPath } from "./hoot_test_path";
 import { HootTestResult } from "./hoot_test_result";
 
+<<<<<<< HEAD
+=======
+const {
+    HTMLElement,
+    innerHeight,
+    innerWidth,
+    Math: { max: $max, min: $min },
+    Object: { assign: $assign },
+} = globalThis;
+const addWindowListener = window.addEventListener.bind(window);
+const removeWindowListener = window.removeEventListener.bind(window);
+const { addEventListener, removeEventListener } = HTMLElement.prototype;
+
+/**
+ * @param {string} containerRefName
+ * @param {string} handleRefName
+ * @param {() => any} allowDrag
+ */
+function useMovable(containerRefName, handleRefName, allowDrag) {
+    function computeEffectDependencies() {
+        return [(currentContainer = containerRef.el), (currentHandle = handleRef.el)];
+    }
+
+    /**
+     * @param {PointerEvent} ev
+     */
+    function drag(ev) {
+        if (!currentContainer || !isDragging) {
+            return;
+        }
+
+        ev.preventDefault();
+
+        const x = $max($min(maxX, ev.clientX - offsetX), 0);
+        const y = $max($min(maxY, ev.clientY - offsetY), 0);
+        $assign(currentContainer.style, {
+            left: `${x}px`,
+            top: `${y}px`,
+        });
+    }
+
+    /**
+     * @param {PointerEvent} [ev]
+     */
+    function dragEnd(ev) {
+        if (!currentContainer || !isDragging) {
+            return;
+        }
+        isDragging = false;
+
+        ev?.preventDefault();
+
+        removeWindowListener("pointermove", throttledDrag);
+        removeWindowListener("pointerup", dragEnd);
+    }
+
+    /**
+     * @param {PointerEvent} ev
+     */
+    function dragStart(ev) {
+        if (!currentContainer || !allowDrag()) {
+            return;
+        }
+
+        if (isDragging) {
+            dragEnd(ev);
+        } else {
+            ev.preventDefault();
+        }
+
+        isDragging = true;
+
+        addWindowListener("pointermove", throttledDrag);
+        addWindowListener("pointerup", dragEnd);
+        addWindowListener("keydown", dragEnd);
+
+        const { x, y, width, height } = currentContainer.getBoundingClientRect();
+
+        $assign(currentContainer.style, {
+            left: `${x}px`,
+            top: `${y}px`,
+            width: `${width}px`,
+            height: `${height}px`,
+        });
+
+        offsetX = ev.clientX - x;
+        offsetY = ev.clientY - y;
+        maxX = innerWidth - width;
+        maxY = innerHeight - height;
+    }
+
+    function effectCleanup() {
+        if (currentHandle) {
+            removeEventListener.call(currentHandle, "pointerdown", dragStart);
+        }
+    }
+
+    function onEffect() {
+        if (currentHandle) {
+            addEventListener.call(currentHandle, "pointerdown", dragStart);
+        }
+        return effectCleanup;
+    }
+
+    function resetPosition() {
+        currentContainer?.removeAttribute("style");
+        dragEnd();
+    }
+
+    const throttledDrag = throttle(drag);
+
+    const containerRef = useRef(containerRefName);
+    const handleRef = useRef(handleRefName);
+    /** @type {HTMLElement | null} */
+    let currentContainer = null;
+    /** @type {HTMLElement | null} */
+    let currentHandle = null;
+    let isDragging = false;
+    let maxX = 0;
+    let maxY = 0;
+    let offsetX = 0;
+    let offsetY = 0;
+
+    useEffect(onEffect, computeEffectDependencies);
+
+    return {
+        resetPosition,
+    };
+}
+
+>>>>>>> upstream/18.0
 /**
  * @typedef {import("../core/expect").Assertion} Assertion
  *
@@ -30,10 +168,22 @@ export class HootDebugToolBar extends Component {
         <div
             class="${HootDebugToolBar.name} absolute start-0 bottom-0 max-w-full max-h-full flex p-4 z-4"
             t-att-class="{ 'w-full': state.open }"
+<<<<<<< HEAD
         >
             <div class="flex flex-col w-full overflow-hidden rounded shadow bg-gray-200 dark:bg-gray-800">
                 <div class="flex items-center gap-2 px-2">
                     <i class="fa fa-bug text-cyan" />
+=======
+            t-ref="root"
+        >
+            <div class="flex flex-col w-full overflow-hidden rounded shadow bg-gray-200 dark:bg-gray-800">
+                <div class="flex items-center gap-2 px-2">
+                    <i
+                        class="fa fa-bug text-cyan p-2"
+                        t-att-class="{ 'cursor-move': !state.open }"
+                        t-ref="handle"
+                    />
+>>>>>>> upstream/18.0
                     <div class="flex gap-px rounded my-1 overflow-hidden min-w-fit">
                         <button
                             class="bg-btn px-2 py-1"
@@ -118,9 +268,19 @@ export class HootDebugToolBar extends Component {
             open: false,
         });
 
+<<<<<<< HEAD
         onWillRender(() => {
             this.info = this.getInfo();
         });
+=======
+        onWillRender(this.onWillRender.bind(this));
+
+        this.movable = useMovable("root", "handle", this.allowDrag.bind(this));
+    }
+
+    allowDrag() {
+        return !this.state.open;
+>>>>>>> upstream/18.0
     }
 
     exitDebugMode() {
@@ -172,14 +332,32 @@ export class HootDebugToolBar extends Component {
         return [passed, failed];
     }
 
+<<<<<<< HEAD
     toggleConfig() {
         this.state.configOpen = !this.state.open || !this.state.configOpen;
         if (this.state.configOpen) {
             this.state.open = true;
+=======
+    onWillRender() {
+        this.info = this.getInfo();
+    }
+
+    toggleConfig() {
+        this.state.configOpen = !this.state.open || !this.state.configOpen;
+        if (this.state.configOpen && !this.state.open) {
+            this.state.open = true;
+            this.movable.resetPosition();
+>>>>>>> upstream/18.0
         }
     }
 
     toggleOpen() {
         this.state.open = !this.state.open;
+<<<<<<< HEAD
+=======
+        if (this.state.open) {
+            this.movable.resetPosition();
+        }
+>>>>>>> upstream/18.0
     }
 }

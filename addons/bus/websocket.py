@@ -958,6 +958,7 @@ class WebsocketConnectionHandler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _VERSION = "18.0-3"
 =======
     _VERSION = "18.0-4"
@@ -1012,6 +1013,9 @@ class WebsocketConnectionHandler:
 >>>>>>> upstream/18.0
 =======
     _VERSION = "18.0-4"
+>>>>>>> upstream/18.0
+=======
+    _VERSION = "18.0-5"
 >>>>>>> upstream/18.0
 =======
     _VERSION = "18.0-5"

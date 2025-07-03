@@ -320,7 +320,11 @@ class PurchaseOrderLine(models.Model):
         if 'balance' not in res:
             res['balance'] = self.currency_id._convert(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.price_unit_discounted * (self.qty_received or 1),
+=======
+                self.price_unit_discounted * self.qty_to_invoice,
+>>>>>>> upstream/18.0
 =======
                 self.price_unit_discounted * self.qty_to_invoice,
 >>>>>>> upstream/18.0

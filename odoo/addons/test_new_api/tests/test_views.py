@@ -24,13 +24,19 @@ class TestDefaultView(common.TransactionCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_default_view_with_binaries(self):
         self.assertEqual(
             etree.tostring(self.env['binary.test']._get_default_form_view()),
             b'<form><sheet string="binary.test"><group><group><field name="img"/></group><group><field name="bin1"/></group></group><group><separator/></group></sheet></form>'
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @common.tagged('at_install', 'groups')

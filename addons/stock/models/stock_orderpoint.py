@@ -168,6 +168,7 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Products without routes have no impact on _get_rules_from_location.
         product_ids_with_routes = set(orderpoints_to_compute.product_id.filter_has_routes().ids)
         # Small cache mapping (location_id, route_id) -> stock.rule.
@@ -186,6 +187,8 @@ class StockWarehouseOrderpoint(models.Model):
                     orderpoint.location_id, route_ids=orderpoint.route_id
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -322,6 +325,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -813,9 +819,12 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (days, loc), product_ids in ploc_per_day.items():
             products = self.env['product.product'].browse(product_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1012,6 +1021,9 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1213,6 +1225,11 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    product_ids.add(qty['id'])
+                    location_ids.add(loc.id)
+>>>>>>> upstream/18.0
 =======
                     product_ids.add(qty['id'])
                     location_ids.add(loc.id)
@@ -1543,8 +1560,14 @@ class StockWarehouseOrderpoint(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_ids, location_ids = zip(*to_refill)
         qty_by_product_loc, dummy = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)
+=======
+        product_ids = list(product_ids)
+        location_ids = list(location_ids)
+        qty_by_product_loc = self.env['product.product'].browse(product_ids)._get_quantity_in_progress(location_ids=location_ids)[0]
+>>>>>>> upstream/18.0
 =======
         product_ids = list(product_ids)
         location_ids = list(location_ids)

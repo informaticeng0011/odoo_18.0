@@ -119,8 +119,13 @@
                                             <span t-if="ml.product_id.description_picking" t-field="ml.product_id.description_picking"></span>
                                         </td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <td class="text-end">
                                             <span t-field="ml.quantity">3.00</span>
+=======
+                                        <td class="o_td_quantity text-end">
+                                            <span t-field="ml.quantity" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
 =======
                                         <td class="o_td_quantity text-end">
                                             <span t-field="ml.quantity" class="text-nowrap">3.00</span>

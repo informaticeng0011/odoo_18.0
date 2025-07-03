@@ -292,11 +292,15 @@ class NumberBuffer extends EventBus {
             // when input is like '+10', '+50', etc
             const inputValue = oParseFloat(input.slice(1));
             const currentBufferValue = this.state.buffer ? oParseFloat(this.state.buffer) : 0;
+<<<<<<< HEAD
             // FIXME POSREF: the `buffer` shouldn't be dependent on the currency.
             this.state.buffer = this.component.env.utils.formatCurrency(
                 inputValue + currentBufferValue,
                 false
             );
+=======
+            this.state.buffer = (inputValue + currentBufferValue).toString();
+>>>>>>> upstream/18.0
         } else if (!isNaN(parseInt(input, 10))) {
             if (this.state.toStartOver) {
                 // when we want to erase the current buffer for a new value

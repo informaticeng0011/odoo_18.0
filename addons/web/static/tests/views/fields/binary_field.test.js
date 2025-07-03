@@ -430,7 +430,10 @@ test("isUploading state should be set to false after upload", async () => {
     expect(`.o_select_file_button`).toHaveText("Upload your file");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("doesn't crash if value is not a string", async () => {
     class Dummy extends models.Model {
@@ -450,4 +453,7 @@ test("doesn't crash if value is not a string", async () => {
     });
     expect(".o_field_binary input").toHaveValue("");
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

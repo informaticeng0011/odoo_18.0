@@ -182,6 +182,12 @@ class TestGroups(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        groups = all_groups.search([('full_name', 'like', '/')])
+        self.assertTrue(groups, "did not match search for '/'")
+
+>>>>>>> upstream/18.0
 =======
         groups = all_groups.search([('full_name', 'like', '/')])
         self.assertTrue(groups, "did not match search for '/'")

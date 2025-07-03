@@ -5,6 +5,10 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -16,7 +20,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -101,6 +109,11 @@ msgstr "Автоматически назначайте созданные ли�
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Упс! Лиды не были созданы. Проверьте правила лидогенерации и попробуйте "
+"снова."
+>>>>>>> upstream/18.0
 =======
 "Упс! Лиды не были созданы. Проверьте правила лидогенерации и попробуйте "
 "снова."
@@ -179,7 +192,11 @@ msgstr "Событие"
 #: model:ir.actions.server,name:event_crm.ir_cron_generate_leads_ir_actions_server
 msgid "Event CRM: Generate Leads based on Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CRM мероприятий: Генерация лидов на основе правил"
+>>>>>>> upstream/18.0
 =======
 msgstr "CRM мероприятий: Генерация лидов на основе правил"
 >>>>>>> upstream/18.0
@@ -188,7 +205,11 @@ msgstr "CRM мероприятий: Генерация лидов на осно�
 #: model:ir.model,name:event_crm.model_event_lead_request
 msgid "Event Lead Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Запрос на лиды по мероприятию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Запрос на лиды по мероприятию"
 >>>>>>> upstream/18.0
@@ -263,7 +284,11 @@ msgstr "Генерировать лиды"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Принято! Мы зафиксировали ваш запрос. Лиды скоро будут созданы."
+>>>>>>> upstream/18.0
 =======
 msgstr "Принято! Мы зафиксировали ваш запрос. Лиды скоро будут созданы."
 >>>>>>> upstream/18.0
@@ -370,7 +395,11 @@ msgstr "Регистрация не найдена"
 #: model:ir.model.fields,field_description:event_crm.field_event_event__has_lead_request
 msgid "Ongoing Generation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Идет генерация лидов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Идет генерация лидов"
 >>>>>>> upstream/18.0
@@ -381,6 +410,10 @@ msgstr "Идет генерация лидов"
 msgid "Only Event Managers are allowed to re-generate all leads."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только менеджеры мероприятий могут повторно запускать генерацию всех лидов."
+>>>>>>> upstream/18.0
 =======
 "Только менеджеры мероприятий могут повторно запускать генерацию всех лидов."
 >>>>>>> upstream/18.0
@@ -419,7 +452,11 @@ msgstr "За заказ"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__processed_registration_id
 msgid "Processed Registration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Обработанная регистрация"
+>>>>>>> upstream/18.0
 =======
 msgstr "Обработанная регистрация"
 >>>>>>> upstream/18.0
@@ -488,6 +525,11 @@ msgstr "Правила генерации поиска лидов"
 msgid "Set to True when a Lead Generation Request is currently running."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Устанавливается в значении True, если в данный момент выполняется запрос на "
+"генерацию лидов."
+>>>>>>> upstream/18.0
 =======
 "Устанавливается в значении True, если в данный момент выполняется запрос на "
 "генерацию лидов."
@@ -515,6 +557,11 @@ msgid ""
 "resume."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ID последней обработанной регистрации на мероприятие, используется для "
+"продолжения обработки с нужного места."
+>>>>>>> upstream/18.0
 =======
 "ID последней обработанной регистрации на мероприятие, используется для "
 "продолжения обработки с нужного места."
@@ -546,7 +593,11 @@ msgstr "Когда"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Yee-ha, %(leads_count)s Leads have been created!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ура! Создано лидов: %(leads_count)s!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ура! Создано лидов: %(leads_count)s!"
 >>>>>>> upstream/18.0
@@ -556,6 +607,11 @@ msgstr "Ура! Создано лидов: %(leads_count)s!"
 msgid "You can only have one generation request per event at a time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"На одно мероприятие одновременно может приходиться только один запрос на "
+"генерацию."
+>>>>>>> upstream/18.0
 =======
 "На одно мероприятие одновременно может приходиться только один запрос на "
 "генерацию."

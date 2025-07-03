@@ -13,6 +13,10 @@ from odoo.addons.account.models.account_payment_method import AccountPaymentMeth
 from odoo.osv.expression import AND
 from odoo.addons.point_of_sale.tests.common import archive_products
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -291,7 +295,10 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
                         'CustomerDisplayTourOnlinePayment', login="pos_user")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_refuse_online_payment_without_accounting_payment(self):
         """
         Test that a an order can not be paid through an online payment method from the backend
@@ -335,6 +342,9 @@ class TestUi(TestPointOfSaleHttpCommon, OnlinePaymentCommon):
             session.action_pos_session_close()
             self.assertEqual(session.state, 'closed')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @classmethod
     def tearDownClass(cls):

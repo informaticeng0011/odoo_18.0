@@ -415,15 +415,21 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # second out move, the "pick" picking should have lost its partner and origin
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
         self.assertEqual(picking_pick.origin, False)
 =======
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
         self.assertEqual(picking_pick.origin, f'{move1.group_id.name},{move2.group_id.name}')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_fixed_procurement_01(self):
@@ -609,6 +615,7 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # second out move, the "pick" picking should have lost its partner and origin
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -778,10 +785,15 @@ class TestOldRules(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
         self.assertEqual(picking_pick.origin, f'{move1.group_id.name},{move2.group_id.name}')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_propagate_cancel_in_pull_setup(self):
@@ -874,6 +886,7 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -984,6 +997,8 @@ class TestOldRules(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_negative_move_with_take_loc_from_rule(self):
         """
@@ -1018,4 +1033,7 @@ class TestOldRules(TestStockCommon):
         })
         neg_move._action_confirm()
         self.assertEqual(picking.move_ids.product_uom_qty, 3.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

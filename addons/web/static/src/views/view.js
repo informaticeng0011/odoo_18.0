@@ -75,8 +75,14 @@ import { session } from "@web/session";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@web/env").OdooEnv} OdooEnv
  * @typedef {import("./utils").OrderTerm} OrderTerm
+=======
+ * @typedef {import("@web/core/context").Context} Context
+ * @typedef {import("@web/env").OdooEnv} OdooEnv
+ * @typedef {import("@web/search/utils/order_by").OrderTerm} OrderTerm
+>>>>>>> upstream/18.0
 =======
  * @typedef {import("@web/core/context").Context} Context
  * @typedef {import("@web/env").OdooEnv} OdooEnv
@@ -335,7 +341,11 @@ import { session } from "@web/session";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {Record<any, any>} [context={}]
+=======
+ * @property {Context} [context={}]
+>>>>>>> upstream/18.0
 =======
  * @property {Context} [context={}]
 >>>>>>> upstream/18.0

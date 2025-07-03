@@ -3,7 +3,10 @@ from . import template_pt
 from . import account_account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import account_journal
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

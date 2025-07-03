@@ -400,7 +400,10 @@ class TestAllocations(TestHrHolidaysCommon):
         self.assertTrue(allocation)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -432,6 +435,9 @@ class TestAllocations(TestHrHolidaysCommon):
         self.assertEqual(leave_request.employee_id, self.employee)
         self.assertEqual(leave_request.state, 'validate')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,6 +7,7 @@
                 <div class="col-2">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <strong style="white-space:nowrap">Delivery Date:
                     </strong>
                 </div>
@@ -19,6 +20,8 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <strong style="white-space:nowrap">Supply Date:
                     </strong>
                 </div>
@@ -29,6 +32,9 @@
                     <strong style="white-space:nowrap">:
                         تاريخ التوريد
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89,7 +95,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <strong>Shipping Address:</strong>
+=======
+                        <strong class="d-block mt-3">Shipping Address:</strong>
+>>>>>>> upstream/18.0
 =======
                         <strong class="d-block mt-3">Shipping Address:</strong>
 >>>>>>> upstream/18.0
@@ -298,12 +308,15 @@
         </xpath>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <xpath expr="//div[@name='invoice_date']//span" position="before">
             <span t-if="o.l10n_sa_confirmation_datetime" t-field="o.l10n_sa_confirmation_datetime"/>
         </xpath>
         <xpath expr="//div[@name='invoice_date']//span[@t-field='o.invoice_date']" position="attributes">
             <attribute name="t-if">not o.l10n_sa_confirmation_datetime</attribute>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         <xpath expr="//span[@t-field='o.invoice_date']" position="attributes">
@@ -314,6 +327,9 @@
             <attribute name="t-field"></attribute>
             <attribute name="t-out">o.invoice_date_due.strftime('%Y-%m-%d')</attribute>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -323,6 +339,12 @@
         </xpath>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <xpath expr="//div[hasclass('page')]">
+            <t t-set="additional_footer_text" t-value="o.get_l10n_sa_confirmation_datetime_sa_tz()"/> <!-- This is to show the issue date on the footer of all layouts. -->
+        </xpath>
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//div[hasclass('page')]">
             <t t-set="additional_footer_text" t-value="o.get_l10n_sa_confirmation_datetime_sa_tz()"/> <!-- This is to show the issue date on the footer of all layouts. -->

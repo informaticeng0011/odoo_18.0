@@ -138,7 +138,10 @@ test("Convert self closing t elements to opening/closing tags", async () => {
     );
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Remove `width`, `height` attributes from image and apply them to style", async () => {
     const { el } = await setupEditor(`
@@ -150,4 +153,7 @@ test("Remove `width`, `height` attributes from image and apply them to style", a
         `<div class="o-paragraph"> <img src="#" style="width: 50%; height: 50%;"> </div>`
     );
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

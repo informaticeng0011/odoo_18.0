@@ -6,7 +6,11 @@ const storeServicePatch = {
     get onlineMemberStatuses() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super.onlineMemberStatuses + ["leave_online", "leave_away"];
+=======
+        return [...super.onlineMemberStatuses, "leave_online", "leave_away"];
+>>>>>>> upstream/18.0
 =======
         return [...super.onlineMemberStatuses, "leave_online", "leave_away"];
 >>>>>>> upstream/18.0

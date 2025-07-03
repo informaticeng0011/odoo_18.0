@@ -34,7 +34,10 @@ class AccountChartTemplate(models.AbstractModel):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -48,6 +51,9 @@ class AccountChartTemplate(models.AbstractModel):
                 vals['bank']['default_account_id'] = 'chart_12'
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -326,7 +330,10 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
                 'active_model': 'stock.valuation.layer'
             })).save()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_multi_company_fifo_svl_negative_revaluation(self):
         """
@@ -371,4 +378,7 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
         svls = self.env['stock.valuation.layer'].search([('product_id', '=', product.id)])
         self.assertEqual(len(svls), 4, "Expected 4 valuation layers")
         self.assertTrue(all(svl.account_move_id for svl in svls), "All SVLs should be linked to a journal entry")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -206,7 +206,11 @@ export const WebsiteRoot = publicRootData.PublicRoot.extend({
      */
     _unslugHtmlDataObject: function (dataAttr) {
         var repr = $('html').data(dataAttr);
+<<<<<<< HEAD
         var match = repr && repr.match(/(.+)\((\d+),(.*)\)/);
+=======
+        var match = repr && repr.match(/(.+)\((-?\d+),(.*)\)/);
+>>>>>>> upstream/18.0
         if (!match) {
             return null;
         }

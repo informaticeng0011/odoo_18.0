@@ -89,6 +89,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
     `;
     let search = 0;
     onRpc("web_read_group", ({ kwargs }) => {
+<<<<<<< HEAD
         expect(kwargs).toEqual(
             {
                 context: {
@@ -97,6 +98,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                     tz: "taht",
                     uid: 7,
                 },
+=======
+        expect(kwargs).toMatchObject(
+            {
+>>>>>>> upstream/18.0
                 domain: [
                     "&",
                     ["name", "like", "a"],
@@ -119,6 +124,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
     });
     onRpc("web_search_read", ({ kwargs }) => {
         if (search === 0) {
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -129,6 +135,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
                     domain: [
                         "&",
                         ["name", "like", "a"],
@@ -147,6 +157,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                 }
             );
         } else if (search === 1) {
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -157,6 +168,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
                     domain: [["name", "like", "a"]],
                     specification: { name: {}, foo: {} },
                     limit: 80,
@@ -244,7 +259,10 @@ test("SelectCreateDialog list view in readonly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -590,7 +608,10 @@ test("SelectCreateDialog empty list, default no content helper", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -691,7 +712,10 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

@@ -236,7 +236,11 @@ export const PublicRoot = publicWidget.Widget.extend({
      */
     _onMainObjectRequest: function (ev) {
         var repr = $('html').data('main-object');
+<<<<<<< HEAD
         var m = repr.match(/(.+)\((\d+),(.*)\)/);
+=======
+        var m = repr.match(/(.+)\((-?\d+),(.*)\)/);
+>>>>>>> upstream/18.0
         ev.data.callback({
             model: m[1],
             id: m[2] | 0,

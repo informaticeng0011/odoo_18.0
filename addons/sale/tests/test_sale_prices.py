@@ -855,7 +855,10 @@ class TestSalePrices(SaleCommon):
             "The included tax must be subtracted to the price")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_so_tax_mapping_multicompany(self):
         tax_group = self.env['account.tax.group'].create({'name': "10%"})
         tax_include, tax_exclude = self.env['account.tax'].create([{
@@ -901,6 +904,9 @@ class TestSalePrices(SaleCommon):
             msg="Tax should not be included in unit price",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_free_product_and_price_include_fixed_tax(self):
         """ Check that fixed tax include are correctly computed while the price_unit is 0 """

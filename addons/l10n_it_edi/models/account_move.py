@@ -66,6 +66,10 @@ from base64 import b64encode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -645,7 +649,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 it_values['prezzo_unitario'] = base_line['currency_id']._convert(it_values['prezzo_unitario'], self.company_currency_id, date=self.date)
+=======
+                it_values['prezzo_unitario'] = it_values['prezzo_unitario'] / base_line['rate']
+>>>>>>> upstream/18.0
 =======
                 it_values['prezzo_unitario'] = it_values['prezzo_unitario'] / base_line['rate']
 >>>>>>> upstream/18.0
@@ -922,6 +930,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not tax_data:
+            return None
+>>>>>>> upstream/18.0
 =======
         if not tax_data:
             return None
@@ -1006,6 +1019,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not tax_data:
+            return None
+>>>>>>> upstream/18.0
 =======
         if not tax_data:
             return None
@@ -1103,10 +1121,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         skip = tax_data['is_reverse_charge'] or self._l10n_it_edi_is_neg_split_payment(tax_data)
         return not skip
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1170,6 +1191,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1228,7 +1252,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_amls = self.line_ids.filtered(lambda x: x.display_type == 'product')
+=======
+        base_amls = self.line_ids.filtered(lambda x: x.display_type == 'product' or x.display_type == 'rounding')
+>>>>>>> upstream/18.0
 =======
         base_amls = self.line_ids.filtered(lambda x: x.display_type == 'product' or x.display_type == 'rounding')
 >>>>>>> upstream/18.0
@@ -1389,6 +1417,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.company_id
 =======
         company = self.company_id.root_id
@@ -1458,6 +1487,9 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
         company = self.company_id.root_id
+>>>>>>> upstream/18.0
+=======
+        company = self.company_id._l10n_it_get_edi_company()
 >>>>>>> upstream/18.0
 =======
         company = self.company_id._l10n_it_get_edi_company()
@@ -1723,8 +1755,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'TD05': {'move_types': ['out_refund'],
                      'import_type': 'in_refund',
+=======
+            'TD05': {'move_types': ['in_invoice', 'out_invoice'],
+                     'import_type': 'in_invoice',
+>>>>>>> upstream/18.0
 =======
             'TD05': {'move_types': ['in_invoice', 'out_invoice'],
                      'import_type': 'in_invoice',
@@ -2476,6 +2513,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if elements := element.xpath('.//ScontoMaggiorazione'):
             # Special case of only 1 percentage discount
             if len(elements) == 1:
@@ -2490,6 +2528,8 @@ class AccountMove(models.Model):
                 discount = 100 - (100 * total) / (move_line.quantity * move_line.price_unit)
                 move_line.discount = discount
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2616,6 +2656,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2877,8 +2920,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Each company should have its own filename sequence. If it does not exist, create it
         n = self.env['ir.sequence'].with_company(self.company_id).next_by_code('l10n_it_edi.fattura_filename')
+=======
+        company = self.company_id._l10n_it_get_edi_company()
+        n = self.env['ir.sequence'].with_company(company).next_by_code('l10n_it_edi.fattura_filename')
+>>>>>>> upstream/18.0
 =======
         company = self.company_id._l10n_it_get_edi_company()
         n = self.env['ir.sequence'].with_company(company).next_by_code('l10n_it_edi.fattura_filename')
@@ -2910,7 +2958,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': self.company_id.id,
+=======
+                'company_id': company.id,
+>>>>>>> upstream/18.0
 =======
                 'company_id': company.id,
 >>>>>>> upstream/18.0
@@ -2943,8 +2995,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'country_code': self.company_id.country_id.code,
             'codice': self.company_id.partner_id._l10n_it_edi_normalized_codice_fiscale(),
+=======
+            'country_code': company.country_id.code,
+            'codice': company.partner_id._l10n_it_edi_normalized_codice_fiscale(),
+>>>>>>> upstream/18.0
 =======
             'country_code': company.country_id.code,
             'codice': company.partner_id._l10n_it_edi_normalized_codice_fiscale(),
@@ -3035,7 +3092,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         files_to_upload = []
+=======
+        files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
+>>>>>>> upstream/18.0
 =======
         files_to_upload = defaultdict(lambda: (self.env['account.move'], []))
 >>>>>>> upstream/18.0
@@ -3300,9 +3361,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_vals = attachments_vals[move]
             filename = attachment_vals['name']
             content = b64encode(attachment_vals['raw']).decode()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3508,6 +3572,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.l10n_it_edi_state = 'being_sent'
                 files_to_upload.append({'filename': filename, 'xml': content})
                 filename_move[filename] = move
@@ -3516,6 +3581,8 @@ class AccountMove(models.Model):
         try:
             results = self._l10n_it_edi_upload(files_to_upload)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3722,6 +3789,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

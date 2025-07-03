@@ -12,8 +12,14 @@ import { reactive, EventBus } from "@odoo/owl";
 
 const websiteSystrayRegistry = registry.category('website_systray');
 
+<<<<<<< HEAD
 export const unslugHtmlDataObject = (repr) => {
     const match = repr && repr.match(/(.+)\((\d+),(.*)\)/);
+=======
+// TODO this is duplicated in website_root at least, it should be a shared util
+export const unslugHtmlDataObject = (repr) => {
+    const match = repr && repr.match(/(.+)\((-?\d+),(.*)\)/);
+>>>>>>> upstream/18.0
     if (!match) {
         return null;
     }

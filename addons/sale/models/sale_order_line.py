@@ -143,6 +143,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    translated_product_name = fields.Text(compute='_compute_translated_product_name')
+>>>>>>> upstream/18.0
 =======
     translated_product_name = fields.Text(compute='_compute_translated_product_name')
 >>>>>>> upstream/18.0
@@ -460,6 +464,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             name = '{} - {}'.format(so_line.order_id.name, so_line.name and so_line.name.split('\n')[0] or so_line.product_id.name)
 =======
 =======
@@ -669,6 +674,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if so_line.order_partner_id.lang:
                 so_line = so_line.with_context(lang=so_line.order_id._get_lang())
             if (product := so_line.product_id).display_name:
@@ -706,6 +713,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -895,7 +905,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         name = ""
+=======
+        name = "\n"
+>>>>>>> upstream/18.0
 =======
         name = "\n"
 >>>>>>> upstream/18.0
@@ -1078,7 +1092,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1149,6 +1166,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1282,16 +1302,22 @@ class SaleOrderLine(models.Model):
                 line = line.with_company(line.company_id)
                 price = line._get_display_price()
 <<<<<<< HEAD
+<<<<<<< HEAD
                 line.price_unit = line.product_id._get_tax_included_unit_price_from_price(
                     price,
                     product_taxes=line.product_id.taxes_id.filtered(
                         lambda tax: tax.company_id == line.env.company
                     ),
 =======
+=======
+>>>>>>> upstream/18.0
                 product_taxes = line.product_id.taxes_id._filter_taxes_by_company(line.company_id)
                 line.price_unit = line.product_id._get_tax_included_unit_price_from_price(
                     price,
                     product_taxes=product_taxes,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     fiscal_position=line.order_id.fiscal_position_id,
                 )
@@ -1730,6 +1756,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         For combo product lines, first compute all other lines, and then set quantity to invoice
         only if at least one of its combo item lines is invoiceable.
         """
@@ -1739,6 +1766,8 @@ class SaleOrderLine(models.Model):
                 if line.product_id.type == 'combo':
                     combo_lines.append(line)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1918,6 +1947,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2095,6 +2127,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if line.combo_item_id and line.linked_line_id:
+                    combo_lines.add(line.linked_line_id)
+>>>>>>> upstream/18.0
 =======
                 if line.combo_item_id and line.linked_line_id:
                     combo_lines.add(line.linked_line_id)
@@ -2794,7 +2831,10 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._set_analytic_distribution(res, **optional_values)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

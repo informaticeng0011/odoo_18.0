@@ -33,6 +33,10 @@ You can assign several contracts per employee.
     'demo': ['data/hr_contract_demo.xml'],
     'installable': True,
     'application': True,
+<<<<<<< HEAD
+=======
+    'uninstall_hook': "uninstall_hook",
+>>>>>>> upstream/18.0
     'assets': {
         'web.assets_backend': [
             'hr_contract/static/src/**/*',

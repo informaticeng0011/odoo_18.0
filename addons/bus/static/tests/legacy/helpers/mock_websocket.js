@@ -77,8 +77,13 @@ export function patchWebsocketWorkerWithCleanup(params = {}) {
             return new WebSocketMock();
         },
     });
+<<<<<<< HEAD
     patchWithCleanup(websocketWorker || WebsocketWorker.prototype, params);
     websocketWorker = websocketWorker || new WebsocketWorker();
+=======
+    websocketWorker = websocketWorker || new WebsocketWorker();
+    patchWithCleanup(websocketWorker, params);
+>>>>>>> upstream/18.0
     websocketWorker.INITIAL_RECONNECT_DELAY = 0;
     websocketWorker.RECONNECT_JITTER = 0;
     patchWithCleanup(browser, {

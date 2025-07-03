@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import { makeKwArgs } from "@web/../tests/web_test_helpers";
 import { registry } from "@web/core/registry";
 
 function _mockHierarchyRead({ model, args, kwargs }) {
     kwargs = makeKwArgs(kwargs);
+=======
+import { onRpc } from "@web/../tests/web_test_helpers";
+
+onRpc("hierarchy_read", function hierarchyRead({ model, args, kwargs }) {
+>>>>>>> upstream/18.0
     const [domain, fields, parentFieldName, childFieldName, order] = args;
     kwargs.order = order;
     if (!(parentFieldName in fields)) {
@@ -71,6 +77,10 @@ function _mockHierarchyRead({ model, args, kwargs }) {
         }
     }
     return records;
+<<<<<<< HEAD
 }
 
 registry.category("mock_rpc").add("hierarchy_read", _mockHierarchyRead);
+=======
+});
+>>>>>>> upstream/18.0

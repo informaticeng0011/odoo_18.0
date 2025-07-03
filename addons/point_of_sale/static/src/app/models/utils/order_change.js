@@ -154,8 +154,14 @@ export const getOrderChanges = (order, skipped = false, orderPreparationCategori
     }
     const sittingMode = order.last_order_preparation_change.sittingMode;
     if (
+<<<<<<< HEAD
         (sittingMode !== "dine in" && !order.takeaway) ||
         (sittingMode !== "takeaway" && order.takeaway)
+=======
+        Object.keys(order.last_order_preparation_change.lines).length &&
+        ((sittingMode !== "dine in" && !order.takeaway) ||
+            (sittingMode !== "takeaway" && order.takeaway))
+>>>>>>> upstream/18.0
     ) {
         result.modeUpdate = true;
     }

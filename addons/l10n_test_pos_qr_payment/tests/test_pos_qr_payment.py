@@ -58,7 +58,11 @@ class TestUiSEPA(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -266,7 +270,11 @@ class TestUiCH(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -474,7 +482,11 @@ class TestUiHK(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0
@@ -677,7 +689,11 @@ class TestUIBR(TestPosQrCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         qr_payment = cls.env['pos.payment.method'].create({
+=======
+        qr_payment = cls.env['pos.payment.method'].sudo().create({
+>>>>>>> upstream/18.0
 =======
         qr_payment = cls.env['pos.payment.method'].sudo().create({
 >>>>>>> upstream/18.0

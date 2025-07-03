@@ -11,13 +11,19 @@ import { useAutoresize } from "@web/core/utils/autoresize";
  */
 export function useProductAndLabelAutoresize(ref, options = {}) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     useAutoresize(ref, { onResize: productAndLabelResizeTextArea, ...options });
 =======
+=======
+>>>>>>> upstream/18.0
     useAutoresize(ref, { 
         onMounted: productAndLabelResizeTextArea, 
         onResize: productAndLabelResizeTextArea,
         ...options,
     });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 
