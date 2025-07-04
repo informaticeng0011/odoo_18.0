@@ -37,7 +37,10 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115,6 +118,10 @@ patch(Thread.prototype, {
         }
         return super.effectiveSelf;
     },
+<<<<<<< HEAD
+=======
+    /** @deprecated */
+>>>>>>> upstream/18.0
     get selves() {
         const result = super.selves;
         if (this.portal_partner) {
@@ -155,6 +162,9 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

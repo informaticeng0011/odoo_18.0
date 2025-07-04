@@ -1,22 +1,31 @@
 /** @odoo-module */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillRender, useState, xml } from "@odoo/owl";
 import { Test } from "../core/test";
 import { refresh } from "../core/url";
 import { formatTime } from "../hoot_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 import { Component, onWillRender, useEffect, useRef, useState, xml } from "@odoo/owl";
 import { Test } from "../core/test";
 import { refresh } from "../core/url";
 import { formatTime, throttle } from "../hoot_utils";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { HootConfigMenu } from "./hoot_config_menu";
 import { HootTestPath } from "./hoot_test_path";
 import { HootTestResult } from "./hoot_test_result";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 const {
     HTMLElement,
     innerHeight,
@@ -145,6 +154,9 @@ function useMovable(containerRefName, handleRefName, allowDrag) {
     };
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * @typedef {import("../core/expect").Assertion} Assertion
@@ -169,11 +181,14 @@ export class HootDebugToolBar extends Component {
             class="${HootDebugToolBar.name} absolute start-0 bottom-0 max-w-full max-h-full flex p-4 z-4"
             t-att-class="{ 'w-full': state.open }"
 <<<<<<< HEAD
+<<<<<<< HEAD
         >
             <div class="flex flex-col w-full overflow-hidden rounded shadow bg-gray-200 dark:bg-gray-800">
                 <div class="flex items-center gap-2 px-2">
                     <i class="fa fa-bug text-cyan" />
 =======
+=======
+>>>>>>> upstream/18.0
             t-ref="root"
         >
             <div class="flex flex-col w-full overflow-hidden rounded shadow bg-gray-200 dark:bg-gray-800">
@@ -183,6 +198,9 @@ export class HootDebugToolBar extends Component {
                         t-att-class="{ 'cursor-move': !state.open }"
                         t-ref="handle"
                     />
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <div class="flex gap-px rounded my-1 overflow-hidden min-w-fit">
                         <button
@@ -269,10 +287,13 @@ export class HootDebugToolBar extends Component {
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         onWillRender(() => {
             this.info = this.getInfo();
         });
 =======
+=======
+>>>>>>> upstream/18.0
         onWillRender(this.onWillRender.bind(this));
 
         this.movable = useMovable("root", "handle", this.allowDrag.bind(this));
@@ -280,6 +301,9 @@ export class HootDebugToolBar extends Component {
 
     allowDrag() {
         return !this.state.open;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -333,11 +357,14 @@ export class HootDebugToolBar extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     toggleConfig() {
         this.state.configOpen = !this.state.open || !this.state.configOpen;
         if (this.state.configOpen) {
             this.state.open = true;
 =======
+=======
+>>>>>>> upstream/18.0
     onWillRender() {
         this.info = this.getInfo();
     }
@@ -347,6 +374,9 @@ export class HootDebugToolBar extends Component {
         if (this.state.configOpen && !this.state.open) {
             this.state.open = true;
             this.movable.resetPosition();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         }
     }
@@ -354,6 +384,12 @@ export class HootDebugToolBar extends Component {
     toggleOpen() {
         this.state.open = !this.state.open;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.state.open) {
+            this.movable.resetPosition();
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.state.open) {
             this.movable.resetPosition();

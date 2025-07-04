@@ -26,6 +26,10 @@ class AccountMove(models.Model):
         landed_costs_lines = self.line_ids.filtered(lambda line: line.is_landed_costs_line)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        sign = -1 if self.move_type in ['in_refund'] else 1
+>>>>>>> upstream/18.0
 =======
         sign = -1 if self.move_type in ['in_refund'] else 1
 >>>>>>> upstream/18.0
@@ -36,7 +40,11 @@ class AccountMove(models.Model):
                 'name': l.product_id.name,
                 'account_id': l.product_id.product_tmpl_id.get_product_accounts()['stock_input'].id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': l.currency_id._convert(l.price_subtotal, l.company_currency_id, l.company_id, self.invoice_date or fields.Date.context_today(l)),
+=======
+                'price_unit': sign * l.currency_id._convert(l.price_subtotal, l.company_currency_id, l.company_id, self.invoice_date or fields.Date.context_today(l)),
+>>>>>>> upstream/18.0
 =======
                 'price_unit': sign * l.currency_id._convert(l.price_subtotal, l.company_currency_id, l.company_id, self.invoice_date or fields.Date.context_today(l)),
 >>>>>>> upstream/18.0
@@ -118,7 +126,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -300,6 +311,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

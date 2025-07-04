@@ -4,7 +4,10 @@ import { definePreset, defineTags } from "@odoo/hoot";
 import { runTests } from "./module_set.hoot";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 function beforeFocusRequired(test) {
     if (!document.hasFocus()) {
         console.warn(
@@ -14,6 +17,9 @@ function beforeFocusRequired(test) {
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 definePreset("desktop", {
     icon: "fa-desktop",
@@ -47,6 +53,7 @@ defineTags(
     {
         name: "focus required",
 <<<<<<< HEAD
+<<<<<<< HEAD
         before: (test) => {
             if (!document.hasFocus()) {
                 console.warn(
@@ -55,6 +62,9 @@ defineTags(
                 );
             }
         },
+=======
+        before: beforeFocusRequired,
+>>>>>>> upstream/18.0
 =======
         before: beforeFocusRequired,
 >>>>>>> upstream/18.0

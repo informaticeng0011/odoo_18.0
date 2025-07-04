@@ -60,6 +60,7 @@ class TestMassMailing(TestMailFullCommon):
         for recipient in recipients_all:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           with self.subTest(recipient=next(key for key, val in locals().items() if key.startswith('recipient') if val == recipient)):
             recipient_info = {
                 'email': recipient.email_normalized,
@@ -146,6 +147,8 @@ class TestMassMailing(TestMailFullCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             with self.subTest(recipient_from=recipient.email_from):
                 recipient_info = {
                     'email': recipient.email_normalized,
@@ -230,6 +233,9 @@ class TestMassMailing(TestMailFullCommon):
                     check_mail=True,
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

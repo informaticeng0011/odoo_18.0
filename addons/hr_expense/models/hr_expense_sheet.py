@@ -343,9 +343,15 @@ class HrExpenseSheet(models.Model):
     @api.depends('employee_id')
     def _compute_can_approve(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver')
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user')
         is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager')
+=======
+        is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
+        is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
+        is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su
+>>>>>>> upstream/18.0
 =======
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
@@ -496,7 +502,10 @@ class HrExpenseSheet(models.Model):
 
     def write(self, values):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Avoid user with write access on expense sheet in draft state to bypass the validation process
         is_editing_states = 'state' in values or 'approval_state' in values
         if is_editing_states:
@@ -511,6 +520,9 @@ class HrExpenseSheet(models.Model):
                 self._check_can_approve()
             elif values.get('state') == 'cancel' or values.get('approval_state') == 'cancel':
                 self._check_can_refuse()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         res = super().write(values)
 
@@ -810,6 +822,7 @@ class HrExpenseSheet(models.Model):
     def _do_reverse_moves(self):
         self = self.with_context(clean_context(self.env.context))
 <<<<<<< HEAD
+<<<<<<< HEAD
         moves = self.account_move_ids
         draft_moves = moves.filtered(lambda m: m.state == 'draft')
         non_draft_moves = moves - draft_moves
@@ -819,6 +832,8 @@ class HrExpenseSheet(models.Model):
         )
         draft_moves.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
         moves_sudo = self.sudo().account_move_ids
         if moves_sudo:
             draft_moves_sudo = moves_sudo.filtered(lambda m: m.state == 'draft')
@@ -828,6 +843,9 @@ class HrExpenseSheet(models.Model):
                 cancel=True
             )
             draft_moves_sudo.unlink()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _calculate_default_accounting_date(self):

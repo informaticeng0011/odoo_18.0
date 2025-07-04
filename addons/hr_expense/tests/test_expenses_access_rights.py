@@ -27,10 +27,13 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'product_id': self.product_a.id,
                 'quantity': 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1,
             })
 
 =======
+=======
+>>>>>>> upstream/18.0
             })
 
         expense = self.env['hr.expense'].with_user(self.expense_user_employee).create({
@@ -58,6 +61,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
         expense_sheet.with_user(self.expense_user_employee).action_reset_expense_sheets()
         self.assertEqual(expense.state, 'reported')
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_expense_sheet_access_rights(self):
         # The expense employee is able to a create an expense sheet.
@@ -73,7 +79,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'date': '2016-01-01',
                 'product_id': self.product_a.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -92,7 +102,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'date': '2016-01-01',
                 'product_id': self.product_a.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -104,11 +118,17 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
         self.assertRecordValues(sheets, [{'state': 'draft'}, {'state': 'draft'}])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # The expense employee shouldn't be able to bypass the submit state.
         with self.assertRaises(UserError):
             expense_sheet_approve.with_user(self.expense_user_employee).state = 'approve'
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # The expense employee is able to submit the expense sheet.
         sheets.with_user(self.expense_user_employee).action_submit_sheet()
@@ -129,13 +149,19 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
         self.assertRecordValues(sheets, [{'state': 'approve'}, {'state': 'cancel'}])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         # An expense manager is not able to post the journal entry.
 =======
+=======
+>>>>>>> upstream/18.0
         # The expense employee shouldn't be able to modify an approved expense.
         with self.assertRaises(UserError):
             expense_sheet_approve.expense_line_ids[0].with_user(self.expense_user_employee).total_amount = 1000.0
 
         # An expense manager is not able to create the journal entry.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         with self.assertRaises(AccessError):
             expense_sheet_approve.with_user(self.expense_user_manager).action_sheet_move_post()
@@ -194,7 +220,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                     'date': '2016-01-01',
                     'product_id': self.product_a.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'price_unit': 1000.0,
+=======
+                    'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 1000.0,
 >>>>>>> upstream/18.0

@@ -479,7 +479,12 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         the default analytic account is correctly set during the conversion from po to invoice
+=======
+        the default analytic account is correctly set during the conversion from po to invoice.
+        An additional analytic account set manually in another plan is also passed to the invoice.
+>>>>>>> upstream/18.0
 =======
         the default analytic account is correctly set during the conversion from po to invoice.
         An additional analytic account set manually in another plan is also passed to the invoice.
@@ -635,7 +640,10 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -724,6 +732,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -824,12 +835,15 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         po.button_confirm()
         po.order_line.qty_received = 1
         po.action_create_invoice()
         self.assertRecordValues(po.invoice_ids.invoice_line_ids,
                                 [{'analytic_distribution': analytic_distribution_model.analytic_distribution}])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -922,6 +936,9 @@ class TestPurchaseToInvoice(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1676,7 +1693,11 @@ class TestInvoicePurchaseMatch(TestPurchaseToInvoiceCommon):
                         move_form.payment_reference = '222' if w_payment_reference == 'w_payment_reference' else ''
                         move_form.purchase_vendor_bill_id = self.env['purchase.bill.union'].browse(-purchase_order.id).exists()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         payment_reference = move_form._values['payment_reference']
+=======
+                        payment_reference = move_form._values['payment_reference'] or ''
+>>>>>>> upstream/18.0
 =======
                         payment_reference = move_form._values['payment_reference'] or ''
 >>>>>>> upstream/18.0

@@ -86,7 +86,11 @@ import { pick } from "@web/core/utils/objects";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property {"top" | "botton" | "left" | "right"} [position] The position where the UI helper is shown.
+=======
+ * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
+>>>>>>> upstream/18.0
 =======
  * @property {"top" | "bottom" | "left" | "right"} [position] The position where the UI helper is shown.
 >>>>>>> upstream/18.0
@@ -392,8 +396,11 @@ export class TourStep {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pick(this, "isActive", "content", "trigger", "run", "tooltipPosition", "timeout"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -419,6 +426,9 @@ export class TourStep {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

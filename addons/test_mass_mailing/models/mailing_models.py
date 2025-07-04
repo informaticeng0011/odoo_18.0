@@ -91,6 +91,10 @@ class MailingOptOut(models.Model):
     _inherit = ['mail.thread.blacklist']
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _order = 'id ASC'
+>>>>>>> upstream/18.0
 =======
     _order = 'id ASC'
 >>>>>>> upstream/18.0

@@ -1899,7 +1899,11 @@ X[]
                         contentAfter: '<div><p>cd</p>x[]</div>',
                     });
                 });
+<<<<<<< HEAD
                 it('should not break unbreakables', async () => {
+=======
+                it('should not break unbreakables (1)', async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">[]<br></div>` +
@@ -1911,6 +1915,11 @@ X[]
                             `<div class="oe_unbreakable">abc</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (2)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">[ab</div>` +
@@ -1923,6 +1932,11 @@ X[]
                             `<div class="oe_unbreakable">f1</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (3)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">a[b</div>` +
@@ -1935,6 +1949,11 @@ X[]
                             `<div class="oe_unbreakable">f2</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (4)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">3a[b</div>` +
@@ -1946,6 +1965,11 @@ X[]
                             `<div class="oe_unbreakable">3a[]</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (5)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">[ab</div>` +
@@ -1957,6 +1981,11 @@ X[]
                             `<div class="oe_unbreakable">[]<br></div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (6)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">[ab</div>` +
@@ -1976,6 +2005,11 @@ X[]
                             `<div class="oe_unbreakable">l5</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (7)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">a[b</div>` +
@@ -1995,6 +2029,11 @@ X[]
                             `<div class="oe_unbreakable">l6</div>` +
                             `</div>`,
                     });
+<<<<<<< HEAD
+=======
+                });
+                it("should not break unbreakables (8)", async () => {
+>>>>>>> upstream/18.0
                     await testEditor(BasicEditor, {
                         contentBefore: `<div class="oe_unbreakable">` +
                             `<div class="oe_unbreakable">7a[b</div>` +
@@ -5928,8 +5967,11 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             stepFunction: async editor => editor.execCommand('applyColor', 'aquamarine', 'color'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6143,6 +6185,9 @@ X[]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

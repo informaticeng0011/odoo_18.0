@@ -3,6 +3,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -331,7 +335,10 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
             })).save()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -379,6 +386,9 @@ class TestStockValuationLayerRevaluation(TestStockValuationCommon):
         self.assertEqual(len(svls), 4, "Expected 4 valuation layers")
         self.assertTrue(all(svl.account_move_id for svl in svls), "All SVLs should be linked to a journal entry")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

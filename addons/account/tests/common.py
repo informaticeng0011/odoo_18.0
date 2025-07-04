@@ -29,6 +29,10 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -119,6 +123,11 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -248,6 +257,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.tax_number = 0
+>>>>>>> upstream/18.0
 =======
         cls.tax_number = 0
 >>>>>>> upstream/18.0
@@ -382,6 +395,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_outstanding_account = cls.env['account.account'].create({
             'name': "Outstanding Receipts",
             'code': 'OSTR00',
@@ -394,6 +408,10 @@ class AccountTestInvoicingCommon(ProductCommon):
             'reconcile': True,
             'account_type': 'asset_current'
         })
+=======
+        in_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
+        out_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_credit_account_id')
+>>>>>>> upstream/18.0
 =======
         in_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
         out_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_credit_account_id')
@@ -492,7 +510,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -697,6 +718,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -974,6 +998,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
+            'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
+>>>>>>> upstream/18.0
 =======
             'default_tax_account_receivable': company.account_purchase_tax_id.tax_group_id.tax_receivable_account_id,
             'default_tax_account_payable': company.account_sale_tax_id.tax_group_id.tax_payable_account_id,
@@ -1182,7 +1211,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1234,6 +1266,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1528,7 +1563,10 @@ class AccountTestInvoicingCommon(ProductCommon):
     def _turn_node_as_dict_hierarchy(self, node, path=''):
         ''' Turn the node as a python dictionary to be compared later with another one.
 <<<<<<< HEAD
+<<<<<<< HEAD
         Allow to ignore the management of namespaces.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         :param node:    A node inside an xml tree.
@@ -1537,6 +1575,7 @@ class AccountTestInvoicingCommon(ProductCommon):
         '''
         tag_split = node.tag.split('}')
         tag_wo_ns = tag_split[-1]
+<<<<<<< HEAD
 <<<<<<< HEAD
         attrib_wo_ns = {k: v for k, v in node.attrib.items() if '}' not in k}
         full_path = f'{path}/{tag_wo_ns}'
@@ -1709,6 +1748,8 @@ class AccountTestInvoicingCommon(ProductCommon):
                 self._turn_node_as_dict_hierarchy(child_node, path=full_path)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         full_path = f'{path}/{tag_wo_ns}'
         return {
             'node': node,
@@ -1719,6 +1760,9 @@ class AccountTestInvoicingCommon(ProductCommon):
             'attrib': dict(node.attrib.items()),
             'children': [
                 self._turn_node_as_dict_hierarchy(child_node, path=full_path)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 for child_node in node.getchildren()
             ],
@@ -1781,10 +1825,13 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(
                 [child['tag'] for child in node_dict['children']],
                 [child['tag'] for child in expected_node_dict['children']],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1858,6 +1905,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2168,7 +2218,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2382,6 +2435,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2641,6 +2697,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0
@@ -3024,7 +3084,11 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method):
+=======
+    def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
+>>>>>>> upstream/18.0
 =======
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
 >>>>>>> upstream/18.0
@@ -3109,6 +3173,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'filter_tax_function': (lambda tax: tax.id not in excluded_tax_ids) if excluded_tax_ids else None,
+>>>>>>> upstream/18.0
 =======
             'filter_tax_function': (lambda tax: tax.id not in excluded_tax_ids) if excluded_tax_ids else None,
 >>>>>>> upstream/18.0
@@ -3206,7 +3274,11 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method):
+=======
+    def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
+>>>>>>> upstream/18.0
 =======
     def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
 >>>>>>> upstream/18.0
@@ -3295,6 +3367,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'excluded_tax_ids': excluded_tax_ids,
+>>>>>>> upstream/18.0
 =======
             'excluded_tax_ids': excluded_tax_ids,
 >>>>>>> upstream/18.0
@@ -3387,6 +3463,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        excluded_tax_ids=None,
+>>>>>>> upstream/18.0
 =======
         excluded_tax_ids=None,
 >>>>>>> upstream/18.0
@@ -3485,6 +3565,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            excluded_tax_ids,
+>>>>>>> upstream/18.0
 =======
             excluded_tax_ids,
 >>>>>>> upstream/18.0

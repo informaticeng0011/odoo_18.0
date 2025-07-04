@@ -10,6 +10,10 @@ from . import test_ecommerce_access
 from . import test_express_checkout_flows
 from . import test_fuzzy
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_sale_order
+>>>>>>> upstream/18.0
 =======
 from . import test_sale_order
 >>>>>>> upstream/18.0

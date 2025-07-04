@@ -237,7 +237,11 @@ export const PublicRoot = publicWidget.Widget.extend({
     _onMainObjectRequest: function (ev) {
         var repr = $('html').data('main-object');
 <<<<<<< HEAD
+<<<<<<< HEAD
         var m = repr.match(/(.+)\((\d+),(.*)\)/);
+=======
+        var m = repr.match(/(.+)\((-?\d+),(.*)\)/);
+>>>>>>> upstream/18.0
 =======
         var m = repr.match(/(.+)\((-?\d+),(.*)\)/);
 >>>>>>> upstream/18.0

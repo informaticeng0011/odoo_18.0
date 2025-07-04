@@ -234,7 +234,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371,6 +374,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -471,6 +477,10 @@ class PaymentTransaction(models.Model):
             invoices = self.source_transaction_id.invoice_ids
         else:
             invoices = self.invoice_ids
+<<<<<<< HEAD
+=======
+        invoices = invoices.filtered(lambda inv: inv.state != 'cancel')
+>>>>>>> upstream/18.0
         if invoices:
             invoices.filtered(lambda inv: inv.state == 'draft').action_post()
 

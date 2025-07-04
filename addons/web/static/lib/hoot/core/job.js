@@ -23,6 +23,10 @@ import { applyTags } from "./tag";
 const {
     Object: { assign: $assign, entries: $entries },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Symbol,
+>>>>>>> upstream/18.0
 =======
     Symbol,
 >>>>>>> upstream/18.0
@@ -48,7 +52,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const validateConfig = (config) => {
+=======
+function validateConfig(config) {
+>>>>>>> upstream/18.0
 =======
 function validateConfig(config) {
 >>>>>>> upstream/18.0
@@ -106,7 +114,11 @@ function validateConfig(config) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -163,7 +175,11 @@ const CONFIG_TAG_SCHEMA = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     multi: "integer",
+=======
+    multi: "number",
+>>>>>>> upstream/18.0
 =======
     multi: "number",
 >>>>>>> upstream/18.0
@@ -210,6 +226,11 @@ const CONFIG_TAG_SCHEMA = {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const S_MINIMIZED = Symbol("minimized");
+
+>>>>>>> upstream/18.0
 =======
 const S_MINIMIZED = Symbol("minimized");
 
@@ -228,11 +249,17 @@ export class Job {
     tags = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     get isMinimized() {
         return S_MINIMIZED in this;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * @param {import("./suite").Suite | null} parent
@@ -286,11 +313,17 @@ export class Job {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     minimize() {
         this[S_MINIMIZED] = true;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     /**
      * @returns {boolean}

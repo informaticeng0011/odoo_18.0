@@ -54,6 +54,10 @@ class HRLeave(models.Model):
             if not leave.overtime_deductible:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                leave.overtime_id.sudo().unlink()
+>>>>>>> upstream/18.0
 =======
                 leave.overtime_id.sudo().unlink()
 >>>>>>> upstream/18.0

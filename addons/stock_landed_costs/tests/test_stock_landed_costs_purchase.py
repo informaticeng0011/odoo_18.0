@@ -677,7 +677,10 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
         # 35 = Product price (10) + landed cost price (25)
         self.assertEqual(product.standard_price, 35)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_refund_landed_cost_creates_negative_valuation(self):
         """Ensure landed cost created from a vendor refund is negative and reduces valuation."""
@@ -748,4 +751,7 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
         lc.button_validate()
         self.assertEqual(lc.amount_total, -20)
         self.assertEqual(lc.stock_valuation_layer_ids.value, -20)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -1,6 +1,10 @@
 /** @odoo-module **/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { waitUntil } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { waitUntil } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -21,6 +25,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -54,7 +62,10 @@ registry.category("web_tour.tours").add('sale_signature', {
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         trigger: ".modal canvas.o_web_sign_signature",
         async run(helpers) {
             await waitUntil(() => {
@@ -67,6 +78,9 @@ registry.category("web_tour.tours").add('sale_signature', {
         },
     },
     {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         content: "click select style",
         trigger: '.modal .o_web_sign_auto_select_style button',
@@ -87,6 +101,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -121,6 +139,10 @@ registry.category("web_tour.tours").add('sale_signature', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

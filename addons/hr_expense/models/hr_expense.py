@@ -612,7 +612,10 @@ class HrExpense(models.Model):
 
     def write(self, vals):
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (
                 'state' in vals
                 and vals['state'] != 'submitted'
@@ -620,6 +623,9 @@ class HrExpense(models.Model):
                 and any(state == 'draft' for state in self.mapped('state'))
         ):
             raise UserError(_("You don't have the rights to bypass the validation process of this expense."))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         expense_to_previous_sheet = {}
         if 'sheet_id' in vals:

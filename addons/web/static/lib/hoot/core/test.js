@@ -11,7 +11,10 @@ import { Tag } from "./tag";
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 //-----------------------------------------------------------------------------
 // Global
 //-----------------------------------------------------------------------------
@@ -31,6 +34,9 @@ const SHARED_RESULTS = $freeze([]);
 // Exports
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 /**
  * @param {Pick<Test, "name" | "parent">} test
@@ -130,7 +136,10 @@ export class Test extends Job {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     minimize() {
         super.minimize();
 
@@ -140,6 +149,9 @@ export class Test extends Job {
         this.results = SHARED_RESULTS;
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     reset() {
         this.run = this.run.bind(this);

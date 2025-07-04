@@ -2222,7 +2222,10 @@ class SharedComputeMethod(models.Model):
                 record.end = 10
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -2237,6 +2240,9 @@ class BinaryTest(models.Model):
     def _compute_bin2(self):
         self.bin2 = {}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

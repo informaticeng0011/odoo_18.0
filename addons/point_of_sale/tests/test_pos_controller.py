@@ -110,7 +110,10 @@ class TestPoSController(TestPointOfSaleHttpCommon):
         self.assertTrue("my/invoices" in res.url)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -167,6 +170,9 @@ class TestPoSController(TestPointOfSaleHttpCommon):
         self.assertEqual(self.partner_1.name, 'New Name')
         self.assertEqual(self.partner_1.zip, '12345')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

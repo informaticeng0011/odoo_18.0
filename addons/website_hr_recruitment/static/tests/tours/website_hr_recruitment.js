@@ -19,6 +19,10 @@ function applyForAJob(jobName, application) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -47,6 +51,10 @@ function applyForAJob(jobName, application) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -95,6 +103,10 @@ function applyForAJob(jobName, application) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -140,6 +152,10 @@ registry.category("web_tour.tours").add('website_hr_recruitment_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -195,12 +211,15 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
     },
 }, {
 <<<<<<< HEAD
+<<<<<<< HEAD
     content: 'Edit the form',
     trigger: ':iframe input[type="file"]',
     run: "click",
 }, {
     content: 'Add a new field',
 =======
+=======
+>>>>>>> upstream/18.0
     content: 'Make the department_id field visible',
     trigger: "body",
     run: () => {
@@ -217,6 +236,9 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
 },
 {
     content: 'Add a new field so the changes are saved',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     trigger: 'we-button[data-add-field]',
     run: "click",
@@ -241,6 +263,7 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
 }, {
     content: 'Check that a job_id has been loaded',
     trigger: ":iframe form input[name=job_id]:not(:visible):not([value='']):not([value=FAKE_JOB_ID_DEFAULT_VAL])",
+<<<<<<< HEAD
 <<<<<<< HEAD
 },
 ...clickOnEditAndWaitEditMode(),
@@ -508,6 +531,8 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
     trigger: ":iframe form input[name=job_id]:not(:visible):not([value='']):not([value=FAKE_JOB_ID_DEFAULT_VAL])",
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 }, {
     content: 'Check that a department_id has been loaded',
     trigger: ':iframe input[name="department_id"][value="FAKE_DEPARTMENT_ID_DEFAULT_VAL"]',
@@ -529,6 +554,9 @@ registerWebsitePreviewTour('website_hr_recruitment_tour_edit_form', {
             console.error('The department_id field has lost its default value');
         }
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 },
 ]);

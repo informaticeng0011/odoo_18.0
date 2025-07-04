@@ -947,9 +947,12 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['minor_amount'] = payment_utils.to_minor_currency_units(
             order.amount_total, order.currency_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1077,6 +1080,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1692,7 +1698,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and address_values['name'] != partner_sudo.name
+=======
+                and address_values['name'] != partner_sudo.name.strip()
+>>>>>>> upstream/18.0
 =======
                 and address_values['name'] != partner_sudo.name.strip()
 >>>>>>> upstream/18.0
@@ -1924,6 +1934,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # TODO: remove me in master with call site, not used in standard codebase anymore.
+>>>>>>> upstream/18.0
 =======
         # TODO: remove me in master with call site, not used in standard codebase anymore.
 >>>>>>> upstream/18.0
@@ -2201,7 +2215,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_address, _side_values = self._parse_form_data(billing_address)
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+>>>>>>> upstream/18.0
 =======
             shipping_address, _side_values = self._parse_form_data(shipping_address)
 >>>>>>> upstream/18.0
@@ -2619,8 +2637,14 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'minor_amount': payment_utils.to_minor_currency_units(
                 order.amount_total, order.currency_id
+=======
+            # Do not include delivery related lines
+            'minor_amount': payment_utils.to_minor_currency_units(
+                order._get_amount_total_excluding_delivery(), order.currency_id
+>>>>>>> upstream/18.0
 =======
             # Do not include delivery related lines
             'minor_amount': payment_utils.to_minor_currency_units(
@@ -2880,6 +2904,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Todo: remove in master
+>>>>>>> upstream/18.0
 =======
             # Todo: remove in master
 >>>>>>> upstream/18.0
@@ -3048,6 +3076,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sale_order': order,
+>>>>>>> upstream/18.0
 =======
             'sale_order': order,
 >>>>>>> upstream/18.0

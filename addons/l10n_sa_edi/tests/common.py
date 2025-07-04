@@ -114,6 +114,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
         cls.invoice_applied_xpath = '''
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <ID>___ignore___</ID>
             </xpath>
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -134,6 +135,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <ID>___ignore___</ID>
 =======
+=======
+>>>>>>> upstream/18.0
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -153,12 +156,16 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </xpath>
             '''
 
         cls.credit_note_applied_xpath = '''
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <ID>___ignore___</ID>
             </xpath>
@@ -186,6 +193,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <ID>___ignore___</ID>
 =======
+=======
+>>>>>>> upstream/18.0
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -211,12 +220,16 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             </xpath>
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             </xpath>
             '''
 
         cls.debit_note_applied_xpath = '''
                 <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <ID>___ignore___</ID>
                 </xpath>
@@ -247,6 +260,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
                 <xpath expr="(//*[local-name()='PaymentMeans']/*[local-name()='InstructionNote'])" position="replace">
                     <InstructionNote>___ignore___</InstructionNote>
 =======
+=======
+>>>>>>> upstream/18.0
                     <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
                 </xpath>
                 <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -275,6 +290,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
                 </xpath>
                 <xpath expr="(//*[local-name()='PaymentMeans']/*[local-name()='InstructionNote'])" position="replace">
                     <cbc:InstructionNote xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:InstructionNote>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 </xpath>
                 '''

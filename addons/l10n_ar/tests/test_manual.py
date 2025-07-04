@@ -268,7 +268,11 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_16_invoice_b_tax_breakdown_1(self):
+=======
+    def test_18_invoice_b_tax_breakdown_1(self):
+>>>>>>> upstream/18.0
 =======
     def test_18_invoice_b_tax_breakdown_1(self):
 >>>>>>> upstream/18.0
@@ -637,6 +641,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_17_invoice_b_tax_breakdown_2(self):
 =======
     def test_19_invoice_b_tax_breakdown_2(self):
@@ -869,11 +874,16 @@ class TestManual(common.TestAr):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_19_invoice_b_tax_breakdown_2(self):
         """ Display only Other Taxes (VAT taxes are 0) """
         invoice = self._create_invoice_from_dict({
             'ref': 'test_invoice_21: Final Consumer Invoice B with 0 tax and internal tax',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -893,9 +903,12 @@ class TestManual(common.TestAr):
                 'formatted_tax_amount_currency': '300.00',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Other National Ind. Taxes $',
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 'name': 'Other National Ind. Taxes $'
@@ -907,6 +920,9 @@ class TestManual(common.TestAr):
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -996,6 +1012,7 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1146,6 +1163,8 @@ class TestManual(common.TestAr):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1179,6 +1198,9 @@ class TestManual(common.TestAr):
             'subtotals': [],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1289,6 +1311,9 @@ class TestManual(common.TestAr):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

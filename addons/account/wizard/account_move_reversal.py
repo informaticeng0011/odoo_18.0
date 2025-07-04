@@ -92,11 +92,14 @@ class AccountMoveReversal(models.TransientModel):
         mixed_payment_term = move.invoice_payment_term_id.id if move.invoice_payment_term_id.early_pay_discount_computation == 'mixed' else None
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             'ref': _('Reversal of: %(move_name)s, %(reason)s', move_name=move.name, reason=self.reason)
                    if self.reason
                    else _('Reversal of: %s', move.name),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         lang = move.partner_id.lang or self.env.lang
@@ -105,6 +108,9 @@ class AccountMoveReversal(models.TransientModel):
                    if self.reason
                    else self.with_context(lang=lang).env._('Reversal of: %s', move.name),
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -6,6 +7,8 @@ from . import models
 from . import report
 from . import wizard
 =======
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import logging
@@ -22,4 +25,7 @@ def uninstall_hook(env):
         env.ref('hr.menu_resource_calendar_view').parent_id = env.ref("hr.menu_config_employee")
     except ValueError as e:
         _logger.warning(e)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

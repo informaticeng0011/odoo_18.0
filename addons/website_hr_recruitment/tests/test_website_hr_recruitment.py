@@ -12,21 +12,31 @@ from odoo.addons.website_hr_recruitment.controllers.main import WebsiteHrRecruit
 class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
     def test_tour(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         job_guru = self.env['hr.job'].create({
             'name': 'Guru',
             'is_published': True,
 =======
+=======
+>>>>>>> upstream/18.0
         department = self.env['hr.department'].create({'name': 'guru team'})
         job_guru = self.env['hr.job'].create({
             'name': 'Guru',
             'is_published': True,
             'department_id': department.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         })
         job_intern = self.env['hr.job'].create({
             'name': 'Internship',
             'is_published': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'department_id': department.id,
+>>>>>>> upstream/18.0
 =======
             'department_id': department.id,
 >>>>>>> upstream/18.0
