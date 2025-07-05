@@ -613,7 +613,10 @@ class HrExpense(models.Model):
     def write(self, vals):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -624,6 +627,9 @@ class HrExpense(models.Model):
         ):
             raise UserError(_("You don't have the rights to bypass the validation process of this expense."))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -412,16 +412,22 @@ export class TablePlugin extends Plugin {
 
         for (const td of selectedTds) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             // @todo @phoenix this replaces paragraphs by inline content. Is this intended?
             td.replaceChildren(this.document.createElement("br"));
         }
         this.dependencies.selection.setCursorStart(selectedTds[0]);
 =======
+=======
+>>>>>>> upstream/18.0
             const baseContainer = this.dependencies.baseContainer.createBaseContainer();
             baseContainer.appendChild(this.document.createElement("br"));
             td.replaceChildren(baseContainer);
         }
         this.dependencies.selection.setCursorStart(selectedTds[0].firstChild);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -527,7 +533,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const currentTd = closestElement(sel.anchorNode, "td");
+=======
+        const currentTd = closestElement(sel.anchorNode, "td, th");
+>>>>>>> upstream/18.0
 =======
         const currentTd = closestElement(sel.anchorNode, "td, th");
 >>>>>>> upstream/18.0
@@ -684,7 +694,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tds = [...closestTable.querySelectorAll("td")];
+=======
+        const tds = [...closestTable.querySelectorAll("td, th")];
+>>>>>>> upstream/18.0
 =======
         const tds = [...closestTable.querySelectorAll("td, th")];
 >>>>>>> upstream/18.0
@@ -961,6 +975,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        delete this._mouseMovePositionWhenAllContentsSelected;
+>>>>>>> upstream/18.0
 =======
         delete this._mouseMovePositionWhenAllContentsSelected;
 >>>>>>> upstream/18.0
@@ -1180,8 +1198,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const docSelection = this.document.getSelection();
         const range = docSelection.rangeCount && docSelection.getRangeAt(0);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1330,11 +1351,14 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const rangeRect = range.getBoundingClientRect();
                 const isMovingAwayFromSelection =
                     ev.clientX > rangeRect.x + rangeRect.width + SENSITIVITY || // moving right
                     ev.clientX < rangeRect.x - SENSITIVITY; // moving left
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1476,6 +1500,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

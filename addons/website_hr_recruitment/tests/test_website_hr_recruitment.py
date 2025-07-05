@@ -13,10 +13,13 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
     def test_tour(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         job_guru = self.env['hr.job'].create({
             'name': 'Guru',
             'is_published': True,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         department = self.env['hr.department'].create({'name': 'guru team'})
@@ -25,6 +28,9 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
             'is_published': True,
             'department_id': department.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34,6 +40,10 @@ class TestWebsiteHrRecruitmentForm(odoo.tests.HttpCase):
             'is_published': True,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'department_id': department.id,
+>>>>>>> upstream/18.0
 =======
             'department_id': department.id,
 >>>>>>> upstream/18.0

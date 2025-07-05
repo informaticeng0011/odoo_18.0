@@ -109,6 +109,7 @@ class AccountMove(models.Model):
         This will replace what is done in send & print.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Gather the moves that have to be sent and the xml for each of them.
         moves, xml_contents = self._l10n_my_edi_prepare_moves_to_send()
         # We then push the moves to myinvois.
@@ -116,6 +117,8 @@ class AccountMove(models.Model):
         # We need to see if the validation status is already available; otherwise it will be fetched via a cron.
         self._l10n_my_edi_get_status(moves)
 =======
+=======
+>>>>>>> upstream/18.0
         self._l10n_my_edi_send_invoice()
 
     def _l10n_my_edi_send_invoice(self, commit=True):
@@ -125,6 +128,9 @@ class AccountMove(models.Model):
         self._l10n_my_edi_send_to_myinvois(moves, xml_contents, commit)
         # We need to see if the validation status is already available; otherwise it will be fetched via a cron.
         errors = self._l10n_my_edi_get_status(moves, commit)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Finally, we update the move attachments
         for move, xml_content in xml_contents.items():
@@ -139,6 +145,10 @@ class AccountMove(models.Model):
                 })
                 move.invalidate_recordset(fnames=['l10n_my_edi_file_id', 'l10n_my_edi_file'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return errors
+>>>>>>> upstream/18.0
 =======
         return errors
 >>>>>>> upstream/18.0
@@ -167,15 +177,21 @@ class AccountMove(models.Model):
         return moves, xml_contents
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_send_to_myinvois(self, moves, xml_contents):
         AccountMoveSend = self.env['account.move.send']
         if moves and xml_contents:
             errors = moves._l10n_my_edi_submit_documents(xml_contents)
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_my_edi_send_to_myinvois(self, moves, xml_contents, commit=True):
         AccountMoveSend = self.env['account.move.send']
         if moves and xml_contents:
             errors = moves._l10n_my_edi_submit_documents(xml_contents, commit)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             for move in moves.filtered(lambda m: m in errors):
@@ -186,7 +202,11 @@ class AccountMove(models.Model):
 
             # At this point we will need to commit as we reached the api, and we could have a mix of failed and valid invoice.
 <<<<<<< HEAD
+<<<<<<< HEAD
             if moves._can_commit():
+=======
+            if commit and moves._can_commit():
+>>>>>>> upstream/18.0
 =======
             if commit and moves._can_commit():
 >>>>>>> upstream/18.0
@@ -200,6 +220,7 @@ class AccountMove(models.Model):
                 }))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_get_status(self, moves):
         AccountMoveSend = self.env['account.move.send']
         retry = 0
@@ -208,6 +229,8 @@ class AccountMove(models.Model):
             time.sleep(1)  # We wait a second before retrying.
             errors, any_in_progress = moves._l10n_my_edi_fetch_updated_statuses()
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_my_edi_get_status(self, moves, commit=True):
         AccountMoveSend = self.env['account.move.send']
         retry = 0
@@ -216,6 +239,9 @@ class AccountMove(models.Model):
             if self._can_commit():
                 time.sleep(1 + retry)  # We wait a while before retrying, only when not in test mode
             errors, any_in_progress = moves._l10n_my_edi_fetch_updated_statuses(commit)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             retry += 1
         # While technically an in_progress status is not an error, it won't hurt much to display it as such.
@@ -227,11 +253,17 @@ class AccountMove(models.Model):
             }))
         # We commit again if possible, to ensure that the invoice status is set in the database in case of errors later.
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self._can_commit():
             self._cr.commit()
 =======
+=======
+>>>>>>> upstream/18.0
         if commit and self._can_commit():
             self._cr.commit()
 
         return errors
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -181,7 +181,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -399,6 +402,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -546,7 +552,10 @@ class TestMrpReplenish(TestMrpCommon):
             loads(repl_info.json_lead_days)['lead_days_date'], '%m/%d/%Y').date()
         self.assertEqual(lead_days_date, fields.Date.today() + timedelta(days=365))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_replenish_multi_level_bom_with_pbm_sam(self):
         """
@@ -590,4 +599,7 @@ class TestMrpReplenish(TestMrpCommon):
 
         self.assertEqual(len(mo_final), 1, "Expected one MO for the final product.")
         self.assertEqual(len(mo_component), 1, "Expected one MO for the manufactured BOM component.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

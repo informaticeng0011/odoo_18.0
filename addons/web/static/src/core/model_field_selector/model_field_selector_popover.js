@@ -104,7 +104,11 @@ export class ModelFieldSelectorPopover extends Component {
         update: Function,
     };
     static defaultProps = {
+<<<<<<< HEAD
         filter: (value) => value.searchable && value.type != "json",
+=======
+        filter: (value) => value.searchable && value.type != "json" && value.type !== "separator",
+>>>>>>> upstream/18.0
         isDebugMode: false,
         followRelations: true,
     };

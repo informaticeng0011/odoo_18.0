@@ -80,7 +80,11 @@ class AccountJournal(models.Model):
                                                 readonly=True, copy=False)
 
     l10n_sa_serial_number = fields.Char("Serial Number", copy=False,
+<<<<<<< HEAD
                                         help="The serial number of the Taxpayer solution unit. Provided by ZATCA")
+=======
+                                        help="Unique Serial Number automatically filled when the journal is onboarded")
+>>>>>>> upstream/18.0
 
     l10n_sa_latest_submission_hash = fields.Char("Latest Submission Hash", copy=False,
                                                  help="Hash of the latest submitted invoice to be used as the Previous Invoice Hash (KSA-13)")
@@ -138,7 +142,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -281,6 +288,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -365,6 +373,18 @@ class AccountJournal(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def _l10n_sa_edi_set_csr_fields(self):
+        '''
+            Sets default values for CSR generation fields in Odoo, if their values do not exist
+        '''
+        self.ensure_one()
+        # Avoid unnecessary write calls
+        if self.l10n_sa_serial_number != str(self.id):
+            self.l10n_sa_serial_number = self.id
+
 >>>>>>> upstream/18.0
     # ====== CSR Generation =======
 
@@ -411,6 +431,7 @@ class AccountJournal(models.Model):
                 3.  Get the Production CSID
         """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,6 +691,13 @@ class AccountJournal(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        # we want to perform sanity checks to ensure that the journal is ready to be onboarded
+        # If the check fails, we do not want to revoke the existing PCSID because the user might still need it to post hanging invoices
+        self._l10n_sa_api_onboard_sanity_checks()
+        self._l10n_sa_edi_set_csr_fields()
+
+>>>>>>> upstream/18.0
         try:
             # If the company does not have a private key, we generate it.
             # The private key is used to generate the CSR but also to sign the invoices
@@ -729,6 +757,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Regenerate a new chain sequence
+            self._l10n_sa_edi_icv_onboarding()
+>>>>>>> upstream/18.0
 =======
             # Regenerate a new chain sequence
             self._l10n_sa_edi_icv_onboarding()
@@ -926,8 +959,14 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s", CCSID_data['error']))
+=======
+        if CCSID_data.get('errors') or CCSID_data.get('error'):
+            raise UserError(_("Could not obtain Compliance CSID: %s",
+                              CCSID_data['errors'][0]['message'] if CCSID_data.get('errors') else CCSID_data['error']))
+>>>>>>> upstream/18.0
 =======
         if CCSID_data.get('errors') or CCSID_data.get('error'):
             raise UserError(_("Could not obtain Compliance CSID: %s",
@@ -1179,7 +1218,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1327,6 +1369,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1459,12 +1504,16 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.l10n_sa_chain_sequence_id = self.env['ir.sequence'].create({
                 'name': f'ZATCA account move sequence for Journal {self.name} (id: {self.id})',
                 'code': f'l10n_sa_edi.account.move.{self.id}',
                 'implementation': 'no_gap',
                 'company_id': self.company_id.id,
             })
+=======
+            self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
+>>>>>>> upstream/18.0
 =======
             self.l10n_sa_chain_sequence_id = self._l10n_sa_edi_create_new_chain()
 >>>>>>> upstream/18.0
@@ -1829,6 +1878,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        status_code = False
+>>>>>>> upstream/18.0
 =======
         status_code = False
 >>>>>>> upstream/18.0
@@ -2149,12 +2202,15 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # In the case of an explicit error from ZATCA, i.e we got a response but the code of the response is not 2xx
             return {
                 'error': _("Server returned an unexpected error: %(error)s", error=(request_response.text or str(ex))),
                 'blocking_level': 'error'
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2397,6 +2453,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2635,7 +2694,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2871,6 +2933,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3111,6 +3176,7 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not request_response.ok and (response_data.get('errors') or response_data.get('warnings')):
             if isinstance(response_data, dict) and response_data.get('errors'):
@@ -3123,6 +3189,8 @@ class AccountJournal(models.Model):
                 'error': request_response.reason,
                 'blocking_level': 'error'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3370,6 +3438,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

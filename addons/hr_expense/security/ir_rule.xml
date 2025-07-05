@@ -25,10 +25,13 @@
             <field name="model_id" ref="model_hr_expense"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="domain_force">[('employee_id.user_id', '=', user.id)]</field>
             <field name="groups" eval="[(4, ref('base.group_user'))]"/>
         </record>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             <field name="domain_force">[('employee_id.user_id', '=', user.id), ('state', 'in', ('draft', 'reported'))]</field>
@@ -44,6 +47,9 @@
             <field name="perm_unlink" eval="False"/>
         </record>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

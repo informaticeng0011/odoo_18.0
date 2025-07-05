@@ -30,6 +30,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 =======
 # Deniz Guvener_Odoo <degu@odoo.com>, 2025
 >>>>>>> upstream/18.0
@@ -86,6 +90,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:57+0000\n"
 =======
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
@@ -98,6 +103,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Nadir Gazioglu <nadirgazioglu@gmail.com>, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:40+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-23 18:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -210,6 +220,7 @@ msgstr "Arşivlendi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -287,6 +298,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/phone_validation/models/mail_thread_phone.py:0
+msgid "Are you sure you want to unblacklist this Phone Number?"
+msgstr ""
+"Bu telefon numarasını engel listesinden çıkarmak istediğinizden emin "
+"misiniz?"
+
+#. module: phone_validation
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
@@ -378,7 +399,11 @@ msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
 msgstr ""
+<<<<<<< HEAD
 "Düzeltilmiş telefon numarasını depolamak için kullanılan alan. Aramaları ve "
+=======
+"Temizlenmiş telefon numarasını depolamak için kullanılan alan. Aramaları ve "
+>>>>>>> upstream/18.0
 "karşılaştırmaları hızlandırmaya yardımcı olur."
 
 #. module: phone_validation
@@ -438,6 +463,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Temizlenen telefon numarası kara listedeyse, kişi artık herhangi bir "
 "listeden toplu e-posta sms almaz"
 =======
@@ -445,6 +471,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Temizlenmiş telefon numarası kara listede yer alıyorsa, bu kişi hiçbir "
+"listeden toplu SMS almaz"
 >>>>>>> upstream/18.0
 =======
 "Temizlenmiş telefon numarası kara listede yer alıyorsa, bu kişi hiçbir "
@@ -541,6 +571,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kara listeye alınmış, temizlenmiş bir telefon numarasının bir cep telefonu "
 "numarası olup olmadığını gösterir. Bir modelde hem cep telefonu hem de "
 "telefon alanı olduğunda hangi numaranın kara listeye alındığını ayırt etmeye"
@@ -574,6 +605,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Kara listeye alınmış temizlenmiş telefon numarasının bir cep telefonu "
 "numarası olup olmadığını gösterir.             Modelde hem cep telefonu hem "
 "de telefon alanı olduğunda, hangi numaranın kara listeye alındığını ayırt "
@@ -583,6 +616,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -602,6 +638,7 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,6 +687,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Kara listeye alınmış temizlenmiş telefon numarasının bir sabit telefon "
 "numarası olup  olmadığını gösterir.            Modelde hem cep telefonu hem "
 "de telefon alanı olduğunda, hangi numaranın kara listeye alındığını ayırt "
@@ -659,6 +698,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -851,7 +893,10 @@ msgstr "Kullanıcı"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -886,6 +931,7 @@ msgid ""
 "You do not have the access right to unblacklist phone numbers. Please "
 "contact your administrator."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: phone_validation
 <<<<<<< HEAD
@@ -930,6 +976,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Telefon numaralarının engelini kaldırma yetkiniz yok. Lütfen yöneticinizle "
+"iletişime geçin."
+
+#. module: phone_validation
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:phone_validation.phone_blacklist_remove_view_form
 msgid "e.g \"Asked to receive our next newsletters\""

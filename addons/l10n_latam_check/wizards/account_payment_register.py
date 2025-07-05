@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api, Command
+=======
+from odoo import models, fields, api, Command, _
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, api, Command, _
 from odoo.exceptions import ValidationError
@@ -24,7 +29,10 @@ class AccountPaymentRegister(models.TransientModel):
             wizard.amount = sum(wizard.l10n_latam_move_check_ids.mapped('amount'))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('l10n_latam_move_check_ids.currency_id')
     def _compute_currency_id(self):
         super()._compute_currency_id()
@@ -32,6 +40,9 @@ class AccountPaymentRegister(models.TransientModel):
             if wizard.l10n_latam_move_check_ids:
                 wizard.currency_id = wizard.l10n_latam_move_check_ids[0].currency_id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _is_latam_check_payment(self, check_subtype=False):
         if check_subtype == 'move_check':
@@ -58,7 +69,10 @@ class AccountPaymentRegister(models.TransientModel):
             })
         return vals
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def action_create_payments(self):
         if self._is_latam_check_payment(check_subtype="move_check"):
@@ -70,4 +84,7 @@ class AccountPaymentRegister(models.TransientModel):
                     "Please create separate payments for each currency."
                 ))
         return super().action_create_payments()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

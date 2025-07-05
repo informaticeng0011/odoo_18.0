@@ -25,7 +25,10 @@ class TestMailAliasCommon(MailCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.company_no_alias = cls.env['res.company'].create({
             'alias_domain_id': False,
             'country_id': cls.env.ref('base.be').id,
@@ -37,6 +40,9 @@ class TestMailAliasCommon(MailCommon):
             'company_ids': [(4, cls.company_no_alias.id)],
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('mail_gateway', 'mail_alias', 'multi_company')
@@ -519,6 +525,10 @@ class TestAliasCompany(TestMailAliasCommon):
         alias configuration as it is unique. """
         self.assertEqual(self.test_alias_mc.alias_domain_id, self.mail_alias_domain)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(self.company_no_alias.alias_domain_id)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(self.company_no_alias.alias_domain_id)
 >>>>>>> upstream/18.0
@@ -961,6 +971,11 @@ class TestMailAliasMixin(TestMailAliasCommon):
             (self.env.user.company_id.id, self.company_2, self.mail_alias_domain_c2),
             (self.company_admin.id, self.company_admin, self.mail_alias_domain),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # company without alias domain -> set False on alias also, to avoid MC issues
+            (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),
+>>>>>>> upstream/18.0
 =======
             # company without alias domain -> set False on alias also, to avoid MC issues
             (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),

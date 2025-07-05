@@ -344,9 +344,15 @@ class HrExpenseSheet(models.Model):
     def _compute_can_approve(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver')
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user')
         is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager')
+=======
+        is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
+        is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
+        is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su
+>>>>>>> upstream/18.0
 =======
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
@@ -503,7 +509,10 @@ class HrExpenseSheet(models.Model):
     def write(self, values):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # Avoid user with write access on expense sheet in draft state to bypass the validation process
@@ -521,6 +530,9 @@ class HrExpenseSheet(models.Model):
             elif values.get('state') == 'cancel' or values.get('approval_state') == 'cancel':
                 self._check_can_refuse()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -823,6 +835,7 @@ class HrExpenseSheet(models.Model):
         self = self.with_context(clean_context(self.env.context))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         moves = self.account_move_ids
         draft_moves = moves.filtered(lambda m: m.state == 'draft')
         non_draft_moves = moves - draft_moves
@@ -832,6 +845,8 @@ class HrExpenseSheet(models.Model):
         )
         draft_moves.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         moves_sudo = self.sudo().account_move_ids
@@ -844,6 +859,9 @@ class HrExpenseSheet(models.Model):
             )
             draft_moves_sudo.unlink()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

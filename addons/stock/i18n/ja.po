@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Junko Augias, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,10 @@
 >>>>>>> upstream/18.0
 =======
 # Sayaka.qrtl, 2025
+>>>>>>> upstream/18.0
+=======
+# Sayaka.qrtl, 2025
+# Junko Augias, 2025
 >>>>>>> upstream/18.0
 =======
 # Sayaka.qrtl, 2025
@@ -437,6 +442,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Junko Augias, 2025\n"
 =======
 "Last-Translator: Sayaka.qrtl, 2025\n"
@@ -446,6 +452,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Sayaka.qrtl, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"Last-Translator: Junko Augias, 2025\n"
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Junko Augias, 2025\n"
@@ -771,6 +780,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "*ドラフト:転送はまだ確認されていません。予約は適用されません。 \n"
 "*別の操作を待機中:この転送は、準備が整う前に別の操作を待機しています。 \n"
 "*待機中:転送は一部の製品の可用性を待機しています。 \n"
@@ -780,6 +790,8 @@ msgstr ""
 "(a)配送ポリシーは'できるだけ早く'です。少なくとも1つの製品が予約されています。 \n"
 "(b)配送ポリシーは'すべての製品の準備ができたら'です。すべての製品が予約されています。 \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -980,6 +992,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1421,7 +1436,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* 利用可能在庫待ち: 在庫移動は確認されましたがプロダクトが引当できません。\n"
+=======
+"* 在庫待ち: 在庫移動は確認されましたがプロダクトが引当できません。\n"
+>>>>>>> upstream/18.0
 =======
 "* 在庫待ち: 在庫移動は確認されましたがプロダクトが引当できません。\n"
 >>>>>>> upstream/18.0
@@ -1945,8 +1964,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle\"/>すべてのプロダクトを予約できませんでした。 "
 "'在庫確認'ボタンをクリックして、プロダクトの予約を試みてください。</i>"
+=======
+"<i class=\"fa fa-exclamation-triangle\"/>1すべての商品を引当できませんでした。 '在庫を確認' "
+"ボタンをクリックして、プロダクトの引当を試みてください。</i>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle\"/>1すべての商品を引当できませんでした。 '在庫を確認' "
 "ボタンをクリックして、プロダクトの引当を試みてください。</i>"
@@ -2628,7 +2652,11 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
+=======
+msgstr "アクティブ"
+>>>>>>> upstream/18.0
 =======
 msgstr "アクティブ"
 >>>>>>> upstream/18.0
@@ -2893,7 +2921,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキング作業シートに印刷される内部ノートを追加する"
+=======
+msgstr "ピッキングオペレーションシートに印刷される内部メモを追加"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングオペレーションシートに印刷される内部メモを追加"
 >>>>>>> upstream/18.0
@@ -3547,7 +3579,11 @@ msgid "Blocking Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "阻止メッセージ"
+=======
+msgstr "ブロッキングメッセージ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ブロッキングメッセージ"
 >>>>>>> upstream/18.0
@@ -3858,7 +3894,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "デフォルトでは、システムは移動元ロケーションの在庫から引き当て、受け入れ可能になるまで受動的に待機します。もう一つの方法として、供給元ロケーションに対して直接調達を作成し(現在の在庫状況を無視して)、プロダクトを集めることも可能です。もし移動を連鎖させ、この移動を前の移動が完了するまで待機させたい場合は、後者のオプションを選択する必要があります。"
+=======
+"デフォルトでは、システムは移動元ロケーションの在庫から取得し、在庫が利用可能になるのを受動的に待機します。一方、もう一つの方法では、出庫元ロケーションに対して直接調達を作成し、現在の在庫を無視してプロダクトを手配することができます。在庫移動を連鎖させ、この移動を前の移動が完了するまで待機させたい場合は、後者の方法を選択する必要があります。"
+>>>>>>> upstream/18.0
 =======
 "デフォルトでは、システムは移動元ロケーションの在庫から取得し、在庫が利用可能になるのを受動的に待機します。一方、もう一つの方法では、出庫元ロケーションに対して直接調達を作成し、現在の在庫を無視してプロダクトを手配することができます。在庫移動を連鎖させ、この移動を前の移動が完了するまで待機させたい場合は、後者の方法を選択する必要があります。"
 >>>>>>> upstream/18.0
@@ -4285,7 +4325,11 @@ msgid "Check Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利用可能確認"
+=======
+msgstr "在庫を確認"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫を確認"
 >>>>>>> upstream/18.0
@@ -4757,7 +4801,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -5099,7 +5147,11 @@ msgid "Count Move Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動準備完了カウント"
+=======
+msgstr "移動準備完了数"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動準備完了数"
 >>>>>>> upstream/18.0
@@ -5176,7 +5228,11 @@ msgid "Count Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "カウントピッキング"
+=======
+msgstr "ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング件数"
 >>>>>>> upstream/18.0
@@ -5253,7 +5309,11 @@ msgid "Count Picking Backorders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングバックオーダのカウント"
+=======
+msgstr "ピッキングのバックオーダー件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングのバックオーダー件数"
 >>>>>>> upstream/18.0
@@ -5330,7 +5390,11 @@ msgid "Count Picking Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングドラフトを数える"
+=======
+msgstr "ピッキングのドラフト件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングのドラフト件数"
 >>>>>>> upstream/18.0
@@ -5407,7 +5471,11 @@ msgid "Count Picking Late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングを遅らせる"
+=======
+msgstr "期限超過ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "期限超過ピッキング件数"
 >>>>>>> upstream/18.0
@@ -5484,7 +5552,11 @@ msgid "Count Picking Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキング準備完了カウント"
+=======
+msgstr "準備完了ピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "準備完了ピッキング件数"
 >>>>>>> upstream/18.0
@@ -5561,7 +5633,11 @@ msgid "Count Picking Waiting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキング待機カウント"
+=======
+msgstr "処理待ちピッキング件数"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ちピッキング件数"
 >>>>>>> upstream/18.0
@@ -6127,7 +6203,11 @@ msgstr "フォローするデフォルトの出荷ルート"
 #: model:ir.model.fields,help:stock.field_stock_storage_category_capacity__product_uom_id
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_uom
 msgid "Default unit of measure used for all stock operations."
+<<<<<<< HEAD
 msgstr "すべての在庫オペレーションに使用されるデフォルトの測定単位。"
+=======
+msgstr "すべての在庫オペレーションに使用されるデフォルトの単位。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_move__procure_method__make_to_stock
@@ -6456,7 +6536,11 @@ msgid "Destination Address "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動先アドレス (引当用)"
+=======
+msgstr "配送先住所"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送先住所"
 >>>>>>> upstream/18.0
@@ -6818,7 +6902,11 @@ msgid "Do you confirm you want to scrap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "スクラップしたいことを確認しますか"
+=======
+msgstr "本当に廃棄しますか?"
+>>>>>>> upstream/18.0
 =======
 msgstr "本当に廃棄しますか?"
 >>>>>>> upstream/18.0
@@ -7417,7 +7505,11 @@ msgid "Forecast Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "可用性の予測"
+=======
+msgstr "予測在庫"
+>>>>>>> upstream/18.0
 =======
 msgstr "予測在庫"
 >>>>>>> upstream/18.0
@@ -7842,7 +7934,11 @@ msgid "From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "from"
+=======
+msgstr "移動元"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動元"
 >>>>>>> upstream/18.0
@@ -9137,7 +9233,11 @@ msgid "Last In First Out (LIFO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "先入先出(FIFO)"
+=======
+msgstr "後入先出(LIFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "後入先出(LIFO)"
 >>>>>>> upstream/18.0
@@ -9437,7 +9537,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "遅延利用可能"
+=======
+msgstr "在庫遅れ"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫遅れ"
 >>>>>>> upstream/18.0
@@ -11278,7 +11382,11 @@ msgid "Pick"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集荷"
+=======
+msgstr "ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング"
 >>>>>>> upstream/18.0
@@ -11427,7 +11535,11 @@ msgid "Pick From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下から集荷:"
+=======
+msgstr "ピッキング元:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング元:"
 >>>>>>> upstream/18.0
@@ -11504,7 +11616,11 @@ msgid "Pick Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピックタイプ"
+=======
+msgstr "ピッキングタイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングタイプ"
 >>>>>>> upstream/18.0
@@ -11592,7 +11708,11 @@ msgid "Picked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集荷済"
+=======
+msgstr "ピッキング済"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング済"
 >>>>>>> upstream/18.0
@@ -11680,7 +11800,11 @@ msgid "Picking Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "集荷リスト"
+=======
+msgstr "ピッキングリスト"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキングリスト"
 >>>>>>> upstream/18.0
@@ -12248,7 +12372,11 @@ msgid "Products Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製品の入手可能性の状態"
+=======
+msgstr "プロダクトの在庫可用性ステータス"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクトの在庫可用性ステータス"
 >>>>>>> upstream/18.0
@@ -12517,7 +12645,11 @@ msgid "Propagation of carrier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "運送会社の展開"
+=======
+msgstr "配送業者の展開"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送業者の展開"
 >>>>>>> upstream/18.0
@@ -12907,7 +13039,11 @@ msgstr "この数量の製品の数量。製品のデフォルトの計量単位
 msgid ""
 "Quantity of reserved products in this quant, in the default unit of measure "
 "of the product"
+<<<<<<< HEAD
 msgstr "製品のデフォルトの測定単位での、この数量の予約済み製品の数量"
+=======
+msgstr "製品のデフォルトの単位での、この数量の予約済み製品の数量"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -13427,7 +13563,11 @@ msgid "Return"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返却"
+=======
+msgstr "返品"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品"
 >>>>>>> upstream/18.0
@@ -13504,7 +13644,11 @@ msgid "Return All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全て返品"
+=======
+msgstr "すべて返品"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべて返品"
 >>>>>>> upstream/18.0
@@ -13581,7 +13725,11 @@ msgid "Return Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングの戻し"
+=======
+msgstr "返品ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品ピッキング"
 >>>>>>> upstream/18.0
@@ -13658,7 +13806,11 @@ msgid "Return Picking Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングラインを返す"
+=======
+msgstr "返品ピッキング明細"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品ピッキング明細"
 >>>>>>> upstream/18.0
@@ -13762,7 +13914,11 @@ msgid "Returned Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返送品の選別"
+=======
+msgstr "返品済ピッキング"
+>>>>>>> upstream/18.0
 =======
 msgstr "返品済ピッキング"
 >>>>>>> upstream/18.0
@@ -14013,7 +14169,11 @@ msgid "Scheduled Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "計画日"
+=======
+msgstr "予定日"
+>>>>>>> upstream/18.0
 =======
 msgstr "予定日"
 >>>>>>> upstream/18.0
@@ -14455,7 +14615,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "配送コネクターを使用すると、正確な配送コストを計算し、配送ラベルを印刷し、倉庫での運送会社のピッキングを要求して顧客に配送できます。配送方法から配送コネクターを適用します。"
+=======
+"配送コネクターを使用すると、正確な配送コストを計算し、配送ラベルを印刷し、倉庫での配送業者のピッキングを要求して顧客に配送できます。配送方法から配送コネクターを適用します。"
+>>>>>>> upstream/18.0
 =======
 "配送コネクターを使用すると、正確な配送コストを計算し、配送ラベルを印刷し、倉庫での配送業者のピッキングを要求して顧客に配送できます。配送方法から配送コネクターを適用します。"
 >>>>>>> upstream/18.0
@@ -14658,7 +14822,11 @@ msgid "Show Check Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックの可用性を表示"
+=======
+msgstr "在庫確認ボタンを表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫確認ボタンを表示"
 >>>>>>> upstream/18.0
@@ -15488,7 +15656,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "可用性の確認'ボタンを表示するかどうかを計算するために使用される技術フィールド。"
+=======
+msgstr " \"在庫を確認\" ボタンを表示するかどうかを計算するために使用される技術フィールド。"
+>>>>>>> upstream/18.0
 =======
 msgstr " \"在庫を確認\" ボタンを表示するかどうかを計算するために使用される技術フィールド。"
 >>>>>>> upstream/18.0
@@ -16113,8 +16285,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "これにより、ベンダーに顧客への配送を要求するために、製品に適用するドロップシッピングルートが追加されます。 "
 "ドロップシッピングする製品は、販売注文が確認されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"
+=======
+"これにより、仕入先に顧客への配送を要求するために、プロダクトに適用する直送ルートが追加されます。 "
+"直送するプロダクトは、販売オーダが確定されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"
+>>>>>>> upstream/18.0
 =======
 "これにより、仕入先に顧客への配送を要求するために、プロダクトに適用する直送ルートが追加されます。 "
 "直送するプロダクトは、販売オーダが確定されると、見積依頼を生成します。これはオンデマンドフローです。要求された配送先住所は、倉庫ではなく、顧客の配送先住所になります。"
@@ -16720,7 +16897,11 @@ msgid "To"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "終了日"
+=======
+msgstr "移動先"
+>>>>>>> upstream/18.0
 =======
 msgstr "移動先"
 >>>>>>> upstream/18.0
@@ -17008,7 +17189,11 @@ msgid "To Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バックオーダ作成"
+=======
+msgstr "バックオーダ待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "バックオーダ待ち"
 >>>>>>> upstream/18.0
@@ -17273,7 +17458,11 @@ msgid "To Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未棚卸"
+=======
+msgstr "棚卸待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "棚卸待ち"
 >>>>>>> upstream/18.0
@@ -17540,7 +17729,11 @@ msgid "To Deliver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未配送"
+=======
+msgstr "配送待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送待ち"
 >>>>>>> upstream/18.0
@@ -17823,7 +18016,11 @@ msgid "To Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダ予定"
+=======
+msgstr "オーダ予定数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量"
 >>>>>>> upstream/18.0
@@ -18088,7 +18285,11 @@ msgid "To Order Computed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "算出オーダする"
+=======
+msgstr "オーダ予定数量(自動計算)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(自動計算)"
 >>>>>>> upstream/18.0
@@ -18353,7 +18554,11 @@ msgid "To Order Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "手動オーダする"
+=======
+msgstr "オーダ予定数量(手動)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(手動)"
 >>>>>>> upstream/18.0
@@ -18619,7 +18824,11 @@ msgid "To Order with Visibility Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "先読み日数でオーダ予定"
+=======
+msgstr "オーダ予定数量(先読み日数考慮)"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ予定数量(先読み日数考慮)"
 >>>>>>> upstream/18.0
@@ -18904,7 +19113,11 @@ msgid "To Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未処理"
+=======
+msgstr "処理待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ち"
 >>>>>>> upstream/18.0
@@ -19210,7 +19423,11 @@ msgid "To Receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未入荷"
+=======
+msgstr "入荷待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "入荷待ち"
 >>>>>>> upstream/18.0
@@ -19475,7 +19692,11 @@ msgid "To Reorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "再注文対象"
+=======
+msgstr "再発注対象"
+>>>>>>> upstream/18.0
 =======
 msgstr "再発注対象"
 >>>>>>> upstream/18.0
@@ -19940,7 +20161,11 @@ msgid "Transport management: organize packs in your fleet, or carriers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "運送管理: 車両や運送会社で梱包を管理します。"
+=======
+msgstr "運送管理: 車両や配送業者で梱包を管理します。"
+>>>>>>> upstream/18.0
 =======
 msgstr "運送管理: 車両や配送業者で梱包を管理します。"
 >>>>>>> upstream/18.0
@@ -20301,7 +20526,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ソースドキュメントで事前に指定されていない限り、これはこのオペレーションタイプのデフォルトのピッキング方針となります。"
+=======
+msgstr "元ドキュメントで事前に指定されていない限り、これはこのオペレーションタイプのデフォルトのピッキング方針となります。"
+>>>>>>> upstream/18.0
 =======
 msgstr "元ドキュメントで事前に指定されていない限り、これはこのオペレーションタイプのデフォルトのピッキング方針となります。"
 >>>>>>> upstream/18.0
@@ -20573,7 +20802,11 @@ msgstr "不要な補充"
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_tree_inventory_editable
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
 msgid "UoM"
+<<<<<<< HEAD
 msgstr "測定単位"
+=======
+msgstr "単位"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_uom_categ_form_action
@@ -20787,7 +21020,11 @@ msgid "View Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利用可能表示"
+=======
+msgstr "在庫を表示"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫を表示"
 >>>>>>> upstream/18.0
@@ -21390,7 +21627,11 @@ msgid "When ticked, carrier of shipment will be propagated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを入れると、運送会社が展開されます。"
+=======
+msgstr "チェックを入れると、配送業者が展開されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr "チェックを入れると、配送業者が展開されます。"
 >>>>>>> upstream/18.0
@@ -21626,7 +21867,11 @@ msgid ""
 "valuate your stock or change its rounding precision to a smaller value "
 "(example: 0.00001)."
 msgstr ""
+<<<<<<< HEAD
 "製品の在庫を確保するために、使用している測定単位よりも小さい測定単位を使用しています。これにより、予約数量の丸めの問題が発生する可能性があります。在庫を評価したり、丸めの精度を小さい値に変更したりするには、可能な限り小さい測定単位を使用する必要があります(例:0.00001)。"
+=======
+"製品の在庫を確保するために、使用している単位よりも小さい単位を使用しています。これにより、予約数量の丸めの問題が発生する可能性があります。在庫を評価したり、丸めの精度を小さい値に変更したりするには、可能な限り小さい単位を使用する必要があります(例:0.00001)。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_routes_form
@@ -21787,7 +22032,11 @@ msgstr "現在、他の会社のロケーションにあるロット/シリア�
 msgid ""
 "You cannot change the ratio of this unit of measure as some products with "
 "this UoM have already been moved or are currently reserved."
+<<<<<<< HEAD
 msgstr "このUoMを備えた一部の製品はすでに移動されているか、現在予約されているため、この測定単位の比率を変更することはできません。"
+=======
+msgstr "このUoMを備えた一部の製品はすでに移動されているか、現在予約されているため、この単位の比率を変更することはできません。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -21797,7 +22046,11 @@ msgid ""
 "this product. If you want to change the unit of measure, you should rather "
 "archive this product and create a new one."
 msgstr ""
+<<<<<<< HEAD
 "この製品にはすでに在庫移動があるため、数量単位を変更することはできません。測定単位を変更したい場合は、この製品をアーカイブして新しい製品を作成する必要があります。"
+=======
+"この製品にはすでに在庫移動があるため、数量単位を変更することはできません。単位を変更したい場合は、この製品をアーカイブして新しい製品を作成する必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -21945,7 +22198,11 @@ msgstr "ロット/シリアル番号のない製品の在庫があります。�
 msgid ""
 "You have to select a product unit of measure that is in the same category as"
 " the default unit of measure of the product"
+<<<<<<< HEAD
 msgstr "製品のデフォルトの測定単位と同じカテゴリにある製品の測定単位を選択する必要があります"
+=======
+msgstr "製品のデフォルトの単位と同じカテゴリにある製品の単位を選択する必要があります"
+>>>>>>> upstream/18.0
 
 #. module: stock
 #. odoo-python
@@ -22058,7 +22315,11 @@ msgid "Your stock is currently empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現在、在庫はございません。"
+=======
+msgstr "現在、在庫が空です"
+>>>>>>> upstream/18.0
 =======
 msgstr "現在、在庫が空です"
 >>>>>>> upstream/18.0

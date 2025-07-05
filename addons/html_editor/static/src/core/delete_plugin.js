@@ -59,7 +59,11 @@ import { compareListTypes } from "@html_editor/main/list/utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasTouch, isBrowserChrome } from "@web/core/browser/feature_detection";
+=======
+import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch, isBrowserChrome, isMacOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -143,7 +147,11 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history", "input"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "input", "userCommand"];
 >>>>>>> upstream/18.0
@@ -254,7 +262,10 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330,6 +341,9 @@ export class DeletePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1139,10 +1153,13 @@ export class DeletePlugin extends Plugin {
      */
     expandRangeToIncludeNonEditables(range) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { startContainer, endContainer, commonAncestorContainer: commonAncestor } = range;
         const isNonEditable = (node) => !isContentEditable(node);
         const startUneditable = findFurthest(startContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
         const {
             startContainer,
             startOffset,
@@ -1155,13 +1172,20 @@ export class DeletePlugin extends Plugin {
             startOffset === 0 &&
             !previousLeaf(startContainer, closestBlock(startContainer)) &&
             findFurthest(startContainer, commonAncestor, isNonEditable);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (startUneditable) {
             // @todo @phoenix: Review this spec. I suggest this instead (no block merge after removing):
             // startContainer = startUneditable.parentElement;
             // startOffset = childNodeIndex(startUneditable);
 <<<<<<< HEAD
+<<<<<<< HEAD
             const leaf = previousLeaf(startUneditable);
+=======
+            const leaf = previousLeaf(startUneditable, this.editable);
+>>>>>>> upstream/18.0
 =======
             const leaf = previousLeaf(startUneditable, this.editable);
 >>>>>>> upstream/18.0
@@ -1172,12 +1196,18 @@ export class DeletePlugin extends Plugin {
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         const endUneditable = findFurthest(endContainer, commonAncestor, isNonEditable);
 =======
+=======
+>>>>>>> upstream/18.0
         const endUneditable =
             endOffset === nodeSize(endContainer) &&
             !nextLeaf(endContainer, closestBlock(endContainer)) &&
             findFurthest(endContainer, commonAncestor, isNonEditable);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (endUneditable) {
             range.setEndAfter(endUneditable);

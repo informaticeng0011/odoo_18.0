@@ -239,6 +239,10 @@
                                     <field name="invoice_lines" column_invisible="True"/>
                                     <field name="sequence" widget="handle"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                    <!-- optional="show" allows name (description) to be editable -->
+>>>>>>> upstream/18.0
 =======
                                     <!-- optional="show" allows name (description) to be editable -->
 >>>>>>> upstream/18.0
@@ -248,6 +252,10 @@
                                         readonly="state in ('purchase', 'to approve', 'done', 'cancel') or is_downpayment"
                                         required="not display_type and not is_downpayment"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                        optional="show"
+>>>>>>> upstream/18.0
 =======
                                         optional="show"
 >>>>>>> upstream/18.0

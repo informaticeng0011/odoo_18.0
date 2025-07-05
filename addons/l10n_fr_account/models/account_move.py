@@ -26,6 +26,7 @@ class AccountMove(models.Model):
         super()._compute_show_delivery_date()
         for move in self.filtered(lambda m: m.country_code == 'FR'):
             move.show_delivery_date = move.is_sale_document()
+<<<<<<< HEAD
 
     def _post(self, soft=True):
         # EXTEND 'account'
@@ -33,3 +34,5 @@ class AccountMove(models.Model):
         for move in self.filtered(lambda m: m.show_delivery_date and not m.delivery_date):
             move.delivery_date = move.invoice_date
         return res
+=======
+>>>>>>> upstream/18.0

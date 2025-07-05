@@ -358,6 +358,10 @@ class TestPoSCommon(ValuationReconciliationTestCommon):
             'property_stock_account_input_categ_id': cls.company_data['default_account_stock_in'].id,
             'property_stock_account_output_categ_id': cls.company_data['default_account_stock_out'].id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'property_stock_valuation_account_id': cls.company_data['default_account_stock_valuation'].copy().id
+>>>>>>> upstream/18.0
 =======
             'property_stock_valuation_account_id': cls.company_data['default_account_stock_valuation'].copy().id
 >>>>>>> upstream/18.0

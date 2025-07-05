@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-29 00:00+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,35 +36,60 @@ msgstr "Atașament"
 #: model:ir.model.fields.selection,name:cloud_storage.selection__ir_attachment__type__cloud_storage
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Cloud Storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stocare în cloud"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Furnizor de stocare în cloud pentru atașamente noi"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Cloud Storage Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setări stocare în cloud"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #. odoo-python
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid "Cloud Storage is not enabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stocarea în cloud nu este activată"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #. odoo-python
 #: code:addons/cloud_storage/controllers/attachment.py:0
 msgid "Cloud storage configuration has been changed. Please refresh the page."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Configurația stocării în cloud a fost modificată. Vă rugăm să reîmprospătați"
+" pagina."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #. odoo-javascript
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "Cloud storage error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eroare stocare în cloud"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model,name:cloud_storage.model_res_config_settings
@@ -71,23 +104,39 @@ msgstr "Rutare HTTP"
 #. module: cloud_storage
 #: model:ir.model.fields,field_description:cloud_storage.field_res_config_settings__cloud_storage_min_file_size
 msgid "Minimum File Size (bytes)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dimensiune minimă fișier (octeți)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Minimum size(bytes) for attachments to be stored in the cloud storage"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dimensiunea minimă (octeți) pentru atașamentele care vor fi stocate în cloud"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #. odoo-python
 #: code:addons/cloud_storage/models/res_config_settings.py:0
 msgid "Please configure the Cloud Storage before enabling it"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rugăm să configurați stocarea în cloud înainte de a o activa"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model_terms:ir.ui.view,arch_db:cloud_storage.cloud_storage_config_settings_view_form
 msgid "Select the cloud storage provider to store new attachments."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Selectați furnizorul de stocare în cloud pentru a stoca atașamentele noi."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model.fields,field_description:cloud_storage.field_ir_attachment__type
@@ -98,7 +147,11 @@ msgstr "Tip"
 #. odoo-javascript
 #: code:addons/cloud_storage/static/src/core/common/attachment_upload_service_patch.js:0
 msgid "You are not allowed to upload file to the cloud storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu aveți permisiunea să încărcați fișiere în stocarea în cloud"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model.fields,help:cloud_storage.field_ir_attachment__type
@@ -106,7 +159,11 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
+<<<<<<< HEAD
 "Poți încărca un fișier din calculator sau introduce un link catre fișierul "
+=======
+"Poți încărca un fișier din calculator sau introduce un link către fișierul "
+>>>>>>> upstream/18.0
 "de pe internet."
 
 #. module: cloud_storage
@@ -116,3 +173,9 @@ msgid ""
 "        (in bytes) as url attachments to the server and then upload the file to\n"
 "        the cloud storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Clientul web poate încărca fișiere mai mari decât dimensiunea minimă\n"
+"        (în octeți) ca atașamente URL pe server și apoi să încarce fișierul în\n"
+"        stocarea în cloud."
+>>>>>>> upstream/18.0

@@ -11,6 +11,10 @@
             </xpath>
             <xpath expr="//list/field[@name='product_id']" position="after">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <!-- optional="show" allows name (description) to be editable -->
+>>>>>>> upstream/18.0
 =======
                 <!-- optional="show" allows name (description) to be editable -->
 >>>>>>> upstream/18.0
@@ -19,6 +23,10 @@
                     readonly="state in ('purchase', 'to approve', 'done', 'cancel')"
                     required="not display_type"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    optional="show"
+>>>>>>> upstream/18.0
 =======
                     optional="show"
 >>>>>>> upstream/18.0

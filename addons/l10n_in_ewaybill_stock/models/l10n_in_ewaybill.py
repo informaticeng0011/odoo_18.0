@@ -303,7 +303,10 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -442,6 +445,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -566,7 +572,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.transporter_id and not self.transporter_id.vat:
+=======
+        if self.transporter_id and not self.transporter_id.vat and (self.mode != "1" or not self.vehicle_no):
+>>>>>>> upstream/18.0
 =======
         if self.transporter_id and not self.transporter_id.vat and (self.mode != "1" or not self.vehicle_no):
 >>>>>>> upstream/18.0
@@ -770,7 +780,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "CnlRem": self.cancel_remarks,
+=======
+            "cancelRmrk": self.cancel_remarks,
+>>>>>>> upstream/18.0
 =======
             "cancelRmrk": self.cancel_remarks,
 >>>>>>> upstream/18.0
@@ -811,11 +825,14 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ewb_api._ewaybill_cancel(cancel_json)
         except EWayBillError as error:
             self._handle_error(error)
             return False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -845,6 +862,9 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1041,7 +1061,11 @@ class Ewaybill(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "qtyUnit": product.uom_id.l10n_in_code and product.uom_id.l10n_in_code.split("-")[
+=======
+            "qtyUnit": line.product_uom.l10n_in_code and line.product_uom.l10n_in_code.split("-")[
+>>>>>>> upstream/18.0
 =======
             "qtyUnit": line.product_uom.l10n_in_code and line.product_uom.l10n_in_code.split("-")[
 >>>>>>> upstream/18.0

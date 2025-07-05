@@ -3,10 +3,14 @@
 # 	* hr_presence
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -26,7 +30,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -47,7 +55,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "%(name)s has been noted as %(state)s today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сегодня статус сотрудника %(name)s был отмечен как: %(state)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,body_html:hr_presence.mail_template_presence
@@ -61,6 +73,17 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"                    Уважаемая <t t-out=\"object.name or ''\">Эбигейл Питерсон</t>,<br/><br/>\n"
+"мы заметили, что в настоящее время вас нет на работе, и нет никаких записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с нашей ошибкой, приносим искренние извинения за возможную путаницу.\n"
+"Пожалуйста, примите необходимые меры для устранения этого незапланированного отсутствия. Если у вас возникнут какие-либо вопросы или вам понадобится помощь, не стесняйтесь обращаться к своему менеджеру или в отдел кадров при первой возможности.\n"
+"Благодарим вас за оперативное внимание к этому вопросу.\n"
+"                    <br/>С уважением,<br/><br/>\n"
+"                </div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__absent
@@ -68,17 +91,29 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee_public__hr_presence_state_display__absent
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Absent"
+<<<<<<< HEAD
 msgstr "Нет"
+=======
+msgstr "Отсутствует"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_log
 msgid "Add a log note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавьте примечание"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_hr_employee_base
 msgid "Basic Employee"
+<<<<<<< HEAD
 msgstr "Основной сотрудник"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_res_company
@@ -93,7 +128,11 @@ msgstr "Параметры конфигурации"
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_users_log__create_uid
 msgid "Create Uid"
+<<<<<<< HEAD
 msgstr "Создать идентификатор"
+=======
+msgstr "Создать UID"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_time_off
@@ -129,44 +168,75 @@ msgid ""
 "an oversight from us, we apologize. Please contact your manager or HR ASAP. "
 "Thanks"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Привет! Мы заметили, что в настоящее время вас нет на работе, и нет никаких "
+"записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с "
+"нашей ошибкой, приносим искренние извинения. Пожалуйста, свяжитесь со своим "
+"менеджером или отделом кадров как можно скорее. Спасибо!"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_company__hr_presence_last_compute_date
 msgid "Hr Presence Last Compute Date"
+<<<<<<< HEAD
 msgstr "HR присутствие на последней отчетной дате"
+=======
+msgstr "Hr посещаемость дата последнего расчета"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__hr_presence_state_display
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__hr_presence_state_display
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__hr_presence_state_display
 msgid "Hr Presence State Display"
+<<<<<<< HEAD
 msgstr "HR Просмотр Статуса Присутствия"
+=======
+msgstr "Hr посещаемость отображение статуса"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_users_log__ip
 msgid "IP Address"
+<<<<<<< HEAD
 msgstr "IP адрес"
+=======
+msgstr "IP-адрес"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__ip_connected
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__ip_connected
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__ip_connected
 msgid "Ip Connected"
+<<<<<<< HEAD
 msgstr "Ip подключен"
+=======
+msgstr "Подключен"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__manually_set_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__manually_set_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_presence
 msgid "Manually Set Presence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Установить статус присутствия вручную"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__manually_set_present
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__manually_set_present
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_present
 msgid "Manually Set Present"
+<<<<<<< HEAD
 msgstr "Установить Присутствие в Ручную"
+=======
+msgstr "Вручную установить статус «На месте»"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__out_of_working_hour
@@ -177,7 +247,11 @@ msgid "Out of Working Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вне рабочего времени"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вне рабочего времени"
 >>>>>>> upstream/18.0
@@ -202,25 +276,41 @@ msgstr "Контроль присутствия"
 #. module: hr_presence
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Presence/Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Присутствие/Отсутствие"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__present
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee_base__hr_presence_state_display__present
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee_public__hr_presence_state_display__present
 msgid "Present"
+<<<<<<< HEAD
 msgstr "Сейчас"
+=======
+msgstr "На месте"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Send SMS"
+<<<<<<< HEAD
 msgstr "Отправить SMS"
+=======
+msgstr "Отправить СМС"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_sms
 msgid "Send a SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отправить СМС"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,description:hr_presence.mail_template_presence
@@ -228,18 +318,30 @@ msgid ""
 "Sent manually in presence module when an employee wasn't working despite not"
 " being off"
 msgstr ""
+<<<<<<< HEAD
 "Отправляли вручную в модуле присутствия, когда сотрудник не работал, "
+=======
+"Отправляется вручную через модуль Посещаемость, когда сотрудник не работал, "
+>>>>>>> upstream/18.0
 "несмотря на то, что не был в отпуске"
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_absent
 msgid "Set Absent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как «Нет на месте»"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_present
 msgid "Set Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как «На месте»"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,subject:hr_presence.mail_template_presence
@@ -250,12 +352,20 @@ msgstr "Неожиданное отсутствие"
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Unplanned Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Незапланированное отсутствие"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_res_users_log
 msgid "Users Log"
+<<<<<<< HEAD
 msgstr "Лог  пользователей"
+=======
+msgstr "Журнал пользователей"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python
@@ -265,15 +375,30 @@ msgid ""
 "Please take the necessary steps to address this unplanned absence. Should you have any questions or need assistance, do not hesitate to reach out to your manager or the HR department at your earliest convenience.\n"
 "Thank you for your prompt attention to this matter."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Мы заметили, что в настоящее время вас нет на работе, и нет никаких записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с нашей ошибкой, приносим искренние извинения за возможную путаницу.\n"
+"Пожалуйста, примите необходимые меры для устранения этого незапланированного отсутствия. Если у вас возникнут какие-либо вопросы или вам понадобится помощь, не стесняйтесь обращаться к своему менеджеру или в отдел кадров при первой возможности.\n"
+"Благодарим вас за оперативное внимание к этому вопросу."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "You don't have the right to do this. Please contact an Administrator."
 msgstr ""
+<<<<<<< HEAD
 "Вы не имеете права это делать. Пожалуйста, свяжитесь с администратором."
+=======
+"У вас нет прав доступа для совершения этого действия. Пожалуйста, обратитесь"
+" к администратору."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_ir_websocket
 msgid "websocket message handling"
+<<<<<<< HEAD
 msgstr "обработка сообщений в сокетах"
+=======
+msgstr "обработка сообщений в веб-сокетах"
+>>>>>>> upstream/18.0

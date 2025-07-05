@@ -2762,6 +2762,12 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!isBlock(node) && node.textContent === "\u200b") {
+                        node.setAttribute('data-oe-zws-empty-inline', '');
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!isBlock(node) && node.textContent === "\u200b") {
                         node.setAttribute('data-oe-zws-empty-inline', '');
@@ -3518,6 +3524,13 @@ export class OdooEditor extends EventTarget {
         }
 
         const sel = this.document.getSelection();
+<<<<<<< HEAD
+=======
+        if (sel === null) {
+            // The iframe is no longer in the document => no need to do anything.
+            return;
+        }
+>>>>>>> upstream/18.0
         if (!hasTableSelection(this.editable)) {
             if (this.editable.classList.contains('o_col_resize') || this.editable.classList.contains('o_row_resize')) {
                 show = false;
@@ -5027,9 +5040,15 @@ export class OdooEditor extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (
                 !allWhitespaceRegex.test(emptyElement.textContent) ||
                 emptyElement.hasAttribute("data-oe-field")
+=======
+            const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
+            if (
+                (!allWhitespaceRegex.test(emptyElement.textContent) || emptyElement.hasAttribute("data-oe-field")) && !isEmptyArch
+>>>>>>> upstream/18.0
 =======
             const isEmptyArch = emptyElement.getAttribute("data-oe-field") === "arch" && emptyElement.textContent === "\u200b";
             if (

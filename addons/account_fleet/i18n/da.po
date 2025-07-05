@@ -76,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Sammi Iversen <sammi@vkdata.dk>, 2025
 >>>>>>> upstream/18.0
@@ -288,6 +289,10 @@
 >>>>>>> upstream/18.0
 =======
 # Sammi Iversen <sammi@vkdata.dk>, 2025
+>>>>>>> upstream/18.0
+=======
+# Sammi Iversen <sammi@vkdata.dk>, 2025
+# Sanne Kristensen <sanne@vkdata.dk>, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
@@ -296,6 +301,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -581,6 +587,9 @@ msgstr ""
 =======
 "Last-Translator: Sammi Iversen <sammi@vkdata.dk>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -665,6 +674,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
@@ -948,6 +958,10 @@ msgstr ""
 =======
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Serviceregning</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Serviceregning</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Servicefaktura\n"
+"                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Servicefaktura</span>"
 >>>>>>> upstream/18.0
 
 #. module: account_fleet
@@ -974,7 +988,11 @@ msgstr "Fakturaer"
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__bill_count
 msgid "Bills Count"
+<<<<<<< HEAD
 msgstr "Antal Regninger"
+=======
+msgstr "Antal fakturaer"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__amount
@@ -1081,6 +1099,7 @@ msgid "Service Vendor Bill: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Serviceleverandørregning: %s"
@@ -1294,6 +1313,9 @@ msgstr "Serviceleverandørregning: %s"
 >>>>>>> upstream/18.0
 =======
 msgstr "Serviceleverandørregning: %s"
+>>>>>>> upstream/18.0
+=======
+msgstr "Serviceleverandørfaktura: %s"
 >>>>>>> upstream/18.0
 
 #. module: account_fleet
@@ -1396,6 +1418,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
 "oprettet med en regning."
@@ -1679,6 +1702,10 @@ msgstr ""
 =======
 "Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
 "oprettet med en regning."
+>>>>>>> upstream/18.0
+=======
+"Du kan ikke slette logtjenesteposter, fordi en eller flere af dem blev "
+"oprettet med en faktura."
 >>>>>>> upstream/18.0
 
 #. module: account_fleet
@@ -1759,6 +1786,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du kan ikke ændre antallet af tjenester, der er knyttet til en "
+"kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."
+>>>>>>> upstream/18.0
 =======
 "Du kan ikke ændre antallet af tjenester, der er knyttet til en "
 "kontoflytningslinje. Gør det i stedet på den tilhørende regnskabspost."

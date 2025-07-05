@@ -6,7 +6,10 @@
 # Ejner Sønniksen <ejner@vkdata.dk>, 2024
 # Mads Søndergaard, 2024
 # JonathanStein <jstein@image.dk>, 2024
+<<<<<<< HEAD
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
+=======
+>>>>>>> upstream/18.0
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Martin Trigaux, 2024
 # Mads Søndergaard, 2024
@@ -32,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -94,12 +98,17 @@
 >>>>>>> upstream/18.0
 =======
 # Kira Petersen, 2025
+>>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Sanne Kristensen <sanne@vkdata.dk>, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,6 +238,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -327,7 +341,10 @@ msgstr "# Bedømmelser"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -410,7 +427,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/res_partner.py:0
 msgid "%(partner_name)s's Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(partner_name)s's opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-python
@@ -425,7 +446,11 @@ msgstr "%s (kopi)"
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "%s closed tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s lukkede opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
@@ -674,12 +699,20 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "<span class=\"fw-normal\"> Tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-normal\"> Opgaver</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 msgid "<span class=\"o_stat_text\">Blocked Tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Blokerede opgaver</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -695,12 +728,20 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">Sub-tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Underopgaver</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<span class=\"o_stat_text\">Tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Opgaver</span>"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -896,7 +937,11 @@ msgstr "Tilføj milepæl"
 #. odoo-javascript
 #: code:addons/project/static/src/components/subtask_kanban_list/subtask_kanban_create/subtask_kanban_create.js:0
 msgid "Add Sub-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilføj underopgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -1330,7 +1375,11 @@ msgstr "Blokeret af"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Blocked Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blokerede opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_sharing_project_task_action_blocking_tasks
@@ -1443,7 +1492,11 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task_burndown_chart_report__is_closed__closed
 msgid "Closed tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lukkede opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__is_closed
@@ -1950,7 +2003,11 @@ msgstr "Afhængige opgaver"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__depend_on_count
 msgid "Depending on Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afhængig af opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__description
@@ -3301,7 +3358,11 @@ msgid "Office"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontor"
 >>>>>>> upstream/18.0
@@ -4290,7 +4351,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/controllers/portal.py:0
 msgid "Search%(left)s Tasks%(right)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg efter%(left)s opgaver%(right)s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__access_token
@@ -4411,7 +4476,11 @@ msgstr "Vis alle poster, hvor den næste aktivitetsdato er før i dag"
 #. odoo-javascript
 #: code:addons/project/static/src/components/notebook_task_one2many_field/notebook_task_list_renderer.js:0
 msgid "Show closed tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis lukkede opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -4843,7 +4912,11 @@ msgstr "Opgave faser"
 #: code:addons/project/models/project_task.py:0
 #: model:ir.model.fields,field_description:project.field_project_task__recurring_count
 msgid "Tasks in Recurrence"
+<<<<<<< HEAD
 msgstr "Gentagende Opgaver"
+=======
+msgstr "Gentagende opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #. odoo-javascript
@@ -5173,7 +5246,11 @@ msgstr "Titel"
 #. odoo-javascript
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 msgid "To Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Til fakturering"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:project.project.stage,name:project.project_project_stage_0
@@ -5466,7 +5543,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_tree
 #: model_terms:ir.ui.view,arch_db:project.view_project
 msgid "View Tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis opgaver"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__privacy_visibility
@@ -5547,7 +5628,11 @@ msgid "Work"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arbejde"
 >>>>>>> upstream/18.0
@@ -5752,7 +5837,11 @@ msgstr "Du er blevet tildelt"
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You have been invited to follow %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du er blevet inviteret til at følge %s"
+>>>>>>> upstream/18.0
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_invitation_follower
@@ -5978,12 +6067,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

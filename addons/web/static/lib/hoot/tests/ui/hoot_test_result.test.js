@@ -22,6 +22,10 @@ import { HootTestResult } from "../../ui/hoot_test_result";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { makeUiState } from "../../ui/setup_hoot_ui";
+>>>>>>> upstream/18.0
 =======
 import { makeUiState } from "../../ui/setup_hoot_ui";
 >>>>>>> upstream/18.0
@@ -84,6 +88,10 @@ const mountTestResults = async (testFn, props) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const ui = makeUiState();
+>>>>>>> upstream/18.0
 =======
     const ui = makeUiState();
 >>>>>>> upstream/18.0
@@ -160,7 +168,11 @@ const mountTestResults = async (testFn, props) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         env: { runner },
+=======
+        env: { runner, ui },
+>>>>>>> upstream/18.0
 =======
         env: { runner, ui },
 >>>>>>> upstream/18.0

@@ -1035,6 +1035,10 @@ export function getAdjacentCharacter(editable, side) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
+>>>>>>> upstream/18.0
 =======
     [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
 >>>>>>> upstream/18.0
@@ -1505,6 +1509,7 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // with a class that is not related to font size (in case the formatting
         // comes from the class).
         while (
@@ -1512,6 +1517,8 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
             !isUnbreakable(parentNode) && !isUnbreakable(currentNode) &&
             (parentNode.classList.length === 0 ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1603,6 +1610,9 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2106,7 +2116,12 @@ export function isUnremovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) // Node is in DOM but not in editable.
+=======
+        (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
+        (node.dataset && node.dataset.bsToggle === 'tab')
+>>>>>>> upstream/18.0
 =======
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
         (node.dataset && node.dataset.bsToggle === 'tab')

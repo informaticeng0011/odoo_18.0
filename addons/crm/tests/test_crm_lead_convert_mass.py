@@ -212,7 +212,10 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
             assigned_user = self.assign_users[idx % len(self.assign_users)]
             self.assertEqual(lead.user_id, assigned_user)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @users('user_sales_manager')
     def test_mass_convert_with_original_and_duplicate_selected(self):
@@ -230,4 +233,7 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
         remaining_leads = (self.lead_1 + lead_1_dups).exists()
         self.assertEqual(len(remaining_leads), 1)
         self.assertEqual(remaining_leads.type, 'opportunity')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

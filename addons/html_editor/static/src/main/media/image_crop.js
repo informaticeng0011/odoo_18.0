@@ -72,7 +72,11 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.cropperOpen = false;
+=======
+        this.isCropperActive = false;
+>>>>>>> upstream/18.0
 =======
         this.isCropperActive = false;
 >>>>>>> upstream/18.0
@@ -211,6 +215,7 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.cropperOpen) {
             return;
         }
@@ -225,6 +230,8 @@ export class ImageCrop extends Component {
         this.props?.onClose?.();
         this.cropperOpen = false;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -321,6 +328,9 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -424,7 +434,11 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.cropperOpen) {
+=======
+        if (this.isCropperActive) {
+>>>>>>> upstream/18.0
 =======
         if (this.isCropperActive) {
 >>>>>>> upstream/18.0
@@ -627,6 +641,12 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (status(this) !== "mounted") {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (status(this) !== "mounted") {
             return;
@@ -807,7 +827,11 @@ export class ImageCrop extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.cropperOpen = true;
+=======
+        this.isCropperActive = true;
+>>>>>>> upstream/18.0
 =======
         this.isCropperActive = true;
 >>>>>>> upstream/18.0

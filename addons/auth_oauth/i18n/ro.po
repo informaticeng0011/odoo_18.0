@@ -3,8 +3,13 @@
 # 	* auth_oauth
 # 
 # Translators:
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+=======
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +17,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,17 +38,29 @@ msgstr "- sau -"
 #. odoo-python
 #: code:addons/auth_oauth/controllers/main.py:0
 msgid "Access Denied"
+<<<<<<< HEAD
 msgstr "Acces interzis"
+=======
+msgstr "Acces refuzat"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
+<<<<<<< HEAD
 msgstr "Le permite utilizatorilor sa se conecteze cu Google"
+=======
+msgstr "Permite utilizatorilor să se autentifice cu Google"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Allow users to sign in with their Google account"
+<<<<<<< HEAD
 msgstr "Le permite utilizatorilor sa se conecteze cu Google"
+=======
+msgstr "Permite utilizatorilor să se autentifice cu contul lor Google"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__enabled
@@ -49,23 +70,39 @@ msgstr "Permis"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__auth_endpoint
 msgid "Authorization URL"
+<<<<<<< HEAD
 msgstr "URL-ul de autorizare"
+=======
+msgstr "URL de autorizare"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__css_class
 msgid "CSS class"
+<<<<<<< HEAD
 msgstr "clasa CSS"
+=======
+msgstr "Clasă CSS"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__client_id
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__auth_oauth_google_client_id
 msgid "Client ID"
+<<<<<<< HEAD
 msgstr "ID Client"
+=======
+msgstr "ID client"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Client ID:"
+<<<<<<< HEAD
 msgstr "ID Client:"
+=======
+msgstr "ID client:"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_config_settings
@@ -80,12 +117,20 @@ msgstr "Creat de"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__data_endpoint
 msgid "Data Endpoint"
+<<<<<<< HEAD
 msgstr "Data Endpoint"
+=======
+msgstr "Punct final de date"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__display_name
@@ -105,17 +150,29 @@ msgstr "ID"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_auth_oauth_provider__body
 msgid "Link text in Login Dialog"
+<<<<<<< HEAD
 msgstr "Legați textul în dialogul de conectare"
+=======
+msgstr "Textul linkului în dialogul de autentificare"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_facebook
@@ -135,12 +192,20 @@ msgstr "Autentificare cu Odoo.com"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body
 msgid "Login button label"
+<<<<<<< HEAD
 msgstr "Eticheta butonului de conectare"
+=======
+msgstr "Etichetă buton autentificare"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_access_token
 msgid "OAuth Access Token"
+<<<<<<< HEAD
 msgstr "Simbol de Acces OAuth"
+=======
+msgstr "Token de acces OAuth"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_provider_id
@@ -156,12 +221,20 @@ msgstr "Furnizori OAuth"
 #. module: auth_oauth
 #: model:ir.model.constraint,message:auth_oauth.constraint_res_users_uniq_users_oauth_provider_oauth_uid
 msgid "OAuth UID must be unique per provider"
+<<<<<<< HEAD
 msgstr "UID OAth trebuie sa fie unic pentru fiecare furnizor"
+=======
+msgstr "UID OAuth trebuie să fie unic pentru fiecare furnizor"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_uid
 msgid "OAuth User ID"
+<<<<<<< HEAD
 msgstr "ID Utilizator OAuth"
+=======
+msgstr "ID utilizator OAuth"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_auth_oauth_provider
@@ -176,12 +249,20 @@ msgstr "Oauth"
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users__oauth_uid
 msgid "Oauth Provider user_id"
+<<<<<<< HEAD
 msgstr "id_utilizator Furnizor Oauth"
+=======
+msgstr "user_id Furnizor Oauth"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__name
 msgid "Provider name"
+<<<<<<< HEAD
 msgstr "Numele furnizorului"
+=======
+msgstr "Nume furnizor"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.actions.act_window,name:auth_oauth.action_oauth_provider
@@ -191,7 +272,11 @@ msgstr "Furnizori"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__scope
 msgid "Scope"
+<<<<<<< HEAD
 msgstr "Domeniu de aplicare"
+=======
+msgstr "Domeniu"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__sequence
@@ -201,13 +286,21 @@ msgstr "Secvență"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__server_uri_google
 msgid "Server uri"
+<<<<<<< HEAD
 msgstr "Server uri"
+=======
+msgstr "URI server"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #. odoo-python
 #: code:addons/auth_oauth/controllers/main.py:0
 msgid "Sign up is not allowed on this database."
+<<<<<<< HEAD
 msgstr "Inregistrarea nu este permisă pe această bază de date."
+=======
+msgstr "Înregistrarea nu este permisă pe această bază de date."
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_ir_config_parameter
@@ -217,7 +310,11 @@ msgstr "Parametru de sistem"
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Tutorial"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tutorial"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_res_users
@@ -227,7 +324,11 @@ msgstr "Utilizator"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
 msgid "UserInfo URL"
+<<<<<<< HEAD
 msgstr "URL-ul de informații despre utilizator"
+=======
+msgstr "URL informații utilizator"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #. odoo-python
@@ -238,7 +339,11 @@ msgid ""
 "invitation email."
 msgstr ""
 "Nu aveți acces la această bază de date sau invitația dvs. a expirat. Vă "
+<<<<<<< HEAD
 "rugăm să cereți o invitație și asigurați-vă că urmați link-ul din e-mail de "
+=======
+"rugăm să solicitați o invitație și să urmați linkul din e-mailul de "
+>>>>>>> upstream/18.0
 "invitație."
 
 #. module: auth_oauth
@@ -250,4 +355,8 @@ msgstr "arch"
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
+<<<<<<< HEAD
 msgstr "e.g. 1234-xyz.apps.googleusercontent.com"
+=======
+msgstr "ex. 1234-xyz.apps.googleusercontent.com"
+>>>>>>> upstream/18.0

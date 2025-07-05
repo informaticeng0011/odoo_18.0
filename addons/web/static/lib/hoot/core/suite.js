@@ -11,7 +11,10 @@ import { Job } from "./job";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 //-----------------------------------------------------------------------------
@@ -41,6 +44,9 @@ const SHARED_CURRENT_JOBS = $freeze([]);
 //-----------------------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86,8 +92,11 @@ export class Suite extends Job {
         this.parent?.reporting.add({ suites: +1 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.callbacks.clear();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         this.minimize();
@@ -101,6 +110,9 @@ export class Suite extends Job {
         this.callbacks = SHARED_CALLBACKS;
         this.currentJobs = SHARED_CURRENT_JOBS;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

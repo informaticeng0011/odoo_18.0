@@ -28,10 +28,13 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'quantity': 1,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1,
             })
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             })
@@ -62,6 +65,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
         self.assertEqual(expense.state, 'reported')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80,7 +86,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'product_id': self.product_a.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -103,7 +113,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                 'product_id': self.product_a.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -119,7 +133,10 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # The expense employee shouldn't be able to bypass the submit state.
@@ -127,6 +144,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
             expense_sheet_approve.with_user(self.expense_user_employee).state = 'approve'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150,8 +170,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # An expense manager is not able to post the journal entry.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         # The expense employee shouldn't be able to modify an approved expense.
@@ -160,6 +183,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 
         # An expense manager is not able to create the journal entry.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221,7 +247,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
                     'product_id': self.product_a.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'price_unit': 1000.0,
+=======
+                    'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 1000.0,
 >>>>>>> upstream/18.0

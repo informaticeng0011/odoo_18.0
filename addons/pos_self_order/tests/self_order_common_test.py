@@ -54,6 +54,17 @@ class SelfOrderCommonTest(odoo.tests.HttpCase):
             'available_in_pos': True,
             'pos_categ_ids': [(4, pos_categ_misc.id)],
         })
+<<<<<<< HEAD
+=======
+        cls.ketchup = cls.env['product.product'].create({
+            'name': 'Ketchup',
+            'is_storable': True,
+            'list_price': 0,
+            'taxes_id': False,
+            'available_in_pos': True,
+            'pos_categ_ids': [(4, pos_categ_misc.id)],
+        })
+>>>>>>> upstream/18.0
 
         #desk organizer
         cls.desk_organizer = cls.env['product.product'].create({

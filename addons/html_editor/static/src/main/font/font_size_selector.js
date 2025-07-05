@@ -98,6 +98,7 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const iframeDoc = iframeEl.contentWindow.document;
             this.fontSizeInput = iframeDoc.createElement("input");
             Object.assign(iframeDoc.body.style, {
@@ -128,6 +129,8 @@ export class FontSizeSelector extends Component {
                 // Update `fontSizeInputValue` whenever the font size changes.
                 this.fontSizeInput.value = this.state.displayName;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -395,6 +398,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -612,9 +618,12 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // Focus input on dropdown open, blur on close.
                 this.dropdown.isOpen ? this.fontSizeInput.select() : this.fontSizeInput.blur();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -829,6 +838,9 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1057,6 +1069,10 @@ export class FontSizeSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.fontSizeInput.focus();
+>>>>>>> upstream/18.0
 =======
         this.fontSizeInput.focus();
 >>>>>>> upstream/18.0

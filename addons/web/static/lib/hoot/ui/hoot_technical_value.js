@@ -25,8 +25,11 @@ import { logger } from "../core/logger";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getTypeOf, Markup, S_ANY, S_NONE, stringify, toExplicitString } from "../hoot_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75,6 +78,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140,8 +146,13 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const xml = (template, ...substitutions) =>
     owlXml({
+=======
+function xml(template, ...substitutions) {
+    return owlXml({
+>>>>>>> upstream/18.0
 =======
 function xml(template, ...substitutions) {
     return owlXml({
@@ -216,6 +227,10 @@ function xml(template, ...substitutions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -414,6 +429,10 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.isSafe = isSafe(this.value);
+>>>>>>> upstream/18.0
 =======
             this.isSafe = isSafe(this.value);
 >>>>>>> upstream/18.0
@@ -498,6 +517,12 @@ export class HootTechnicalValue extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.isSafe) {
+            return 0;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.isSafe) {
             return 0;

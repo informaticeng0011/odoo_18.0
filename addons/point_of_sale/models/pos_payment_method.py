@@ -54,7 +54,11 @@ class PosPaymentMethod(models.Model):
     image = fields.Image("Image", max_width=50, max_height=50)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     payment_method_type = fields.Selection(selection=_get_payment_method_type, string="Integration", default='none', required=True)
+=======
+    payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
+>>>>>>> upstream/18.0
 =======
     payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
 >>>>>>> upstream/18.0
