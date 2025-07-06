@@ -213,7 +213,10 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
             self.assertEqual(lead.user_id, assigned_user)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -234,6 +237,9 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
         self.assertEqual(len(remaining_leads), 1)
         self.assertEqual(remaining_leads.type, 'opportunity')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

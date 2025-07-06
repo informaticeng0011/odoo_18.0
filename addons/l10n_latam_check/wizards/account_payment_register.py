@@ -1,6 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api, Command
+=======
+from odoo import models, fields, api, Command, _
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import models, fields, api, Command, _
 from odoo.exceptions import ValidationError
@@ -30,7 +35,10 @@ class AccountPaymentRegister(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.depends('l10n_latam_move_check_ids.currency_id')
@@ -41,6 +49,9 @@ class AccountPaymentRegister(models.TransientModel):
                 wizard.currency_id = wizard.l10n_latam_move_check_ids[0].currency_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70,7 +81,10 @@ class AccountPaymentRegister(models.TransientModel):
         return vals
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -85,6 +99,9 @@ class AccountPaymentRegister(models.TransientModel):
                 ))
         return super().action_create_payments()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

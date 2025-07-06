@@ -29,6 +29,10 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { animationFrame } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -205,6 +209,10 @@ test("do not reload webclient when updating a res.currency, but there is an erro
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0

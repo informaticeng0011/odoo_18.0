@@ -182,7 +182,10 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@ class TestMrpReplenish(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -553,7 +559,10 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(lead_days_date, fields.Date.today() + timedelta(days=365))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -600,6 +609,9 @@ class TestMrpReplenish(TestMrpCommon):
         self.assertEqual(len(mo_final), 1, "Expected one MO for the final product.")
         self.assertEqual(len(mo_component), 1, "Expected one MO for the manufactured BOM component.")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

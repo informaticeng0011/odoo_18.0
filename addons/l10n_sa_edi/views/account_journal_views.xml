@@ -19,11 +19,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="l10n_sa_csr" invisible="1"/>
                     <field name="l10n_sa_compliance_csid_json" invisible="1"/>
                     <field name="l10n_sa_production_csid_json" invisible="1"/>
                     <field name="l10n_sa_compliance_checks_passed" invisible="1"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82,10 +86,15 @@
                             <group>
                                 <field name="l10n_sa_serial_number"/>
 =======
+=======
+>>>>>>> upstream/18.0
                     <page name="zatca_einvoicing" string="ZATCA" invisible="country_code != 'SA' or type != 'sale'">
                         <group>
                             <group>
                                 <field name="l10n_sa_serial_number" readonly="1" groups="base.group_no_one"/>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                             </group>
                         </group>
@@ -96,11 +105,14 @@
                             <ol class="mt-2 mb-4">
                                 <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     Set a Serial Number for your device
                                     <i class="fa fa-check text-success ms-1"
                                        invisible="not l10n_sa_serial_number"/>
                                 </li>
                                 <li>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                                     Request a Compliance Certificate (CCSID)

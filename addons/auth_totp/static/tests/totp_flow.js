@@ -20,7 +20,12 @@ function openRoot() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        },
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         },
         expectUnloadPage: true,
@@ -190,6 +195,10 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -234,6 +243,10 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -281,8 +294,13 @@ registry.category("web_tour.tours").add('totp_login_enabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 },
 {
+=======
+    expectUnloadPage: true,
+}, {
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 }, {
@@ -333,6 +351,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -377,6 +399,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -428,6 +454,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -469,6 +499,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -517,6 +551,10 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -559,6 +597,7 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //TODO: remove when PIPU macro PR is merged: https://github.com/odoo/odoo/pull/194508
     trigger: 'a[role=tab]:contains("Account Security").active',
     async run(actions) {
@@ -566,6 +605,8 @@ registry.category("web_tour.tours").add('totp_login_device', {
         await actions.click(el);
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -592,6 +633,9 @@ registry.category("web_tour.tours").add('totp_login_device', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -645,6 +689,10 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -689,6 +737,10 @@ registry.category("web_tour.tours").add('totp_login_disabled', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: true,
 >>>>>>> upstream/18.0

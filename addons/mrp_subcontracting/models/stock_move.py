@@ -64,8 +64,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
        subcontracted_moves = self.filtered(lambda m: m.is_subcontract)
        super(StockMove, self - subcontracted_moves)._compute_picked()
+=======
+        subcontracted_moves = self.filtered(lambda m: m.is_subcontract and float_compare(m.product_uom_qty, m.quantity, precision_rounding=m.product_uom.rounding) != 0)
+        super(StockMove, self - subcontracted_moves)._compute_picked()
+>>>>>>> upstream/18.0
 =======
         subcontracted_moves = self.filtered(lambda m: m.is_subcontract and float_compare(m.product_uom_qty, m.quantity, precision_rounding=m.product_uom.rounding) != 0)
         super(StockMove, self - subcontracted_moves)._compute_picked()
@@ -352,6 +357,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
+        return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)
+
+>>>>>>> upstream/18.0
 =======
     def _get_available_move_lines(self, assigned_moves_ids, partially_available_moves_ids):
         return super(StockMove, self.filtered(lambda m: not m.is_subcontract))._get_available_move_lines(assigned_moves_ids, partially_available_moves_ids)

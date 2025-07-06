@@ -87,7 +87,11 @@ class Lead2OpportunityMassConvert(models.TransientModel):
             for lead in self.lead_tomerge_ids:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if lead not in merged_lead_ids:
+=======
+                if lead.id not in merged_lead_ids:
+>>>>>>> upstream/18.0
 =======
                 if lead.id not in merged_lead_ids:
 >>>>>>> upstream/18.0

@@ -64,7 +64,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.unbuild_id.mo_id.move_finished_ids.stock_valuation_layer_ids.filtered(
+=======
+                (move.unbuild_id.mo_id.move_finished_ids |
+                move.unbuild_id.mo_id.move_raw_ids).stock_valuation_layer_ids.filtered(
+>>>>>>> upstream/18.0
 =======
                 (move.unbuild_id.mo_id.move_finished_ids |
                 move.unbuild_id.mo_id.move_raw_ids).stock_valuation_layer_ids.filtered(
@@ -230,7 +235,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -440,6 +448,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

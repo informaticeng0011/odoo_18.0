@@ -9,6 +9,11 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
+import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
+>>>>>>> upstream/18.0
 =======
 import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_screen_util";
 import * as PaymentScreen from "@point_of_sale/../tests/tours/utils/payment_screen_util";
@@ -252,11 +257,14 @@ registry.category("web_tour.tours").add("CashierCannotClose", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: negate(`span.dropdown-item:contains("Close Register")`),
             },
         ].flat(),
 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,6 +497,7 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -619,6 +628,8 @@ registry.category("web_tour.tours").add("test_basic_user_can_change_price", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -659,6 +670,9 @@ registry.category("web_tour.tours").add("test_cashier_changed_in_receipt", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

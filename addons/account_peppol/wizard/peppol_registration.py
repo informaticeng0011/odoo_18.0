@@ -117,6 +117,7 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for wizard in self:
             if wizard.phone_number:
                 wizard.company_id._sanitize_peppol_phone_number(wizard.phone_number)
@@ -125,6 +126,8 @@ class PeppolRegistration(models.TransientModel):
                         wizard.phone_number,
                         region=self.company_id.country_code,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262,6 +265,9 @@ class PeppolRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

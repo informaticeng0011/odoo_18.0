@@ -46,11 +46,17 @@ export class DynamicModelFieldSelectorChar extends CharField {
 
     filter(fieldDef) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (fieldDef.type === "separator") {
             // Don't show properties separator
             return false;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return !this.props.onlySearchable || fieldDef.searchable;
     }

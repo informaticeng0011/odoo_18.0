@@ -123,7 +123,11 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True)
+=======
+                                                  ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
                                                   ('refused', "Refused")], compute="_compute_overtime_status", store=True, tracking=True, readonly=False)
 >>>>>>> upstream/18.0
@@ -698,6 +702,7 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not unfinished_shifts and attendances:
                     # The employee is working flexible hours
                     if emp.is_flexible:
@@ -714,6 +719,8 @@ class HrAttendance(models.Model):
                     # The employee usually doesn't work on that day
                     elif not working_times[attendance_date]:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -815,6 +822,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -923,11 +933,14 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.add_to_compute(self._fields['overtime_hours'],
                                 to_recompute)
         self.env.add_to_compute(self._fields['validated_overtime_hours'],
                                 to_recompute)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -941,6 +954,9 @@ class HrAttendance(models.Model):
                                 to_recompute - validated_modified)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1024,8 +1040,14 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lunch_intervals = employee._employee_attendance_intervals(start_dt, stop_dt, lunch=True)
                 work_duration -= sum((i[1] - i[0]).total_seconds() / 3600.0 for i in lunch_intervals)
+=======
+                if not employee.is_flexible:
+                    lunch_intervals = employee._employee_attendance_intervals(start_dt, stop_dt, lunch=True)
+                    work_duration -= sum((i[1] - i[0]).total_seconds() / 3600.0 for i in lunch_intervals)
+>>>>>>> upstream/18.0
 =======
                 if not employee.is_flexible:
                     lunch_intervals = employee._employee_attendance_intervals(start_dt, stop_dt, lunch=True)
@@ -1473,9 +1495,12 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not user_domain:
             return self.env['hr.employee'].search([('company_id', 'in', self.env.context.get('allowed_company_ids', []))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1715,6 +1740,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1877,6 +1905,7 @@ class HrAttendance(models.Model):
             for leaf in user_domain:
                 if len(leaf) == 3 and leaf[0] == 'employee_id':
                     employee_name_domain.append([('name', leaf[1], leaf[2])])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2194,6 +2223,9 @@ class HrAttendance(models.Model):
 =======
             return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
 >>>>>>> upstream/18.0
+=======
+            return resources | self.env['hr.employee'].search(AND([OR(employee_name_domain), employee_domain]))
+>>>>>>> upstream/18.0
 
     def action_approve_overtime(self):
         self.write({
@@ -2226,7 +2258,12 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
              ('employee_id.company_id.auto_check_out', '=', True)]
+=======
+             ('employee_id.company_id.auto_check_out', '=', True),
+             ('employee_id.resource_calendar_id.flexible_hours', '=', False)]
+>>>>>>> upstream/18.0
 =======
              ('employee_id.company_id.auto_check_out', '=', True),
              ('employee_id.resource_calendar_id.flexible_hours', '=', False)]
@@ -2320,6 +2357,7 @@ class HrAttendance(models.Model):
             max_tol = company.auto_check_out_tolerance
             to_verify_company = to_verify.filtered(lambda a: a.employee_id.company_id.id == company.id)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2468,6 +2506,8 @@ class HrAttendance(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # Attendances where Last open attendance time + previously worked time on that day + tolerance greater than the attendances hours (including lunch) in his calendar
             to_check_out = to_verify_company.filtered(lambda a: (fields.Datetime.now() - a.check_in).seconds / 3600 + mapped_previous_duration[a.employee_id][a.check_in.date()] - max_tol > (sum(a.employee_id.resource_calendar_id.attendance_ids.filtered(lambda att: att.dayofweek == str(a.check_in.weekday()) and (not att.two_weeks_calendar or att.week_type == str(att.get_week_type(a.check_in.date())))).mapped(lambda at: at.hour_to - at.hour_from))))
             body = _('This attendance was automatically checked out because the employee exceeded the allowed time for their scheduled work hours.')
@@ -2524,6 +2564,9 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2653,7 +2696,13 @@ class HrAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                            ('company_id', 'in', companies.ids)])
+=======
+                                                           ('company_id', 'in', companies.ids),
+                                                           ('resource_calendar_id.flexible_hours', '=', False)])
+
+>>>>>>> upstream/18.0
 =======
                                                            ('company_id', 'in', companies.ids),
                                                            ('resource_calendar_id.flexible_hours', '=', False)])

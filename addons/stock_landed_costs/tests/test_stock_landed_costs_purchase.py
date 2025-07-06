@@ -679,7 +679,10 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -756,6 +759,9 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
         self.assertEqual(lc.stock_valuation_layer_ids.value, -20)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

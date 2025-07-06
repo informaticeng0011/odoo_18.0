@@ -58,6 +58,10 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # todo remove master
+>>>>>>> upstream/18.0
 =======
         # todo remove master
 >>>>>>> upstream/18.0
@@ -272,6 +276,12 @@ class StockLotReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _outgoing_operation_types(self):
+        return super()._outgoing_operation_types() + ",'dropship'"
+>>>>>>> upstream/18.0
 =======
 
     def _outgoing_operation_types(self):

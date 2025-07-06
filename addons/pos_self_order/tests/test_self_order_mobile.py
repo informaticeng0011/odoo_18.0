@@ -77,7 +77,10 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
         # Cancel in each
         self.start_tour(self_route, "self_order_mobile_each_cancel")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_self_order_mobile_0_price_order(self):
         self.pos_config.write({
@@ -112,4 +115,7 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
 
         # Zero priced order
         self.start_tour(self_route, "self_order_mobile_0_price_order")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

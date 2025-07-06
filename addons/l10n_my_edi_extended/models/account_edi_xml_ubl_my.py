@@ -71,6 +71,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Self-billed invoices must use the number given by the supplier.
+            if invoice.ref:
+                vals['vals']['id'] = invoice.ref
+>>>>>>> upstream/18.0
 =======
             # Self-billed invoices must use the number given by the supplier.
             if invoice.ref:
@@ -355,10 +361,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
         constraints = super()._export_invoice_constraints(invoice, vals)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # The credit/debit note error would trigger for self billed invoice, we check if it's the case and remove it if needed.
         document_type_code, original_document = self._l10n_my_edi_get_document_type_code(invoice)
         if document_type_code == '11' and f"myinvois_{invoice.id}_adjustment_origin" in constraints:
             del constraints[f'myinvois_{invoice.id}_adjustment_origin']
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -391,9 +400,13 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
             has_payments = bool(counterpart_amls.move_id.filtered(lambda move: move.move_type != counterpart_move_type))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             is_paid = invoice.payment_state == invoice._get_invoice_in_payment_state()
 =======
             is_paid = invoice.payment_state == invoice.payment_state in ('in_payment', 'paid', 'reversed')
+>>>>>>> upstream/18.0
+=======
+            is_paid = invoice.payment_state in ('in_payment', 'paid', 'reversed')
 >>>>>>> upstream/18.0
 =======
             is_paid = invoice.payment_state in ('in_payment', 'paid', 'reversed')

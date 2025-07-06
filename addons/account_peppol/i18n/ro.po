@@ -4,6 +4,7 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,11 +42,16 @@
 # Wil Odoo, 2025
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +297,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -303,7 +314,11 @@ msgstr ""
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Customer not on Peppol)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Clientul nu este pe Peppol)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Clientul nu este pe Peppol)"
 >>>>>>> upstream/18.0
@@ -313,7 +328,11 @@ msgstr " (Clientul nu este pe Peppol)"
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Demo)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Demo)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Demo)"
 >>>>>>> upstream/18.0
@@ -323,7 +342,11 @@ msgstr " (Demo)"
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Test)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (Test)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (Test)"
 >>>>>>> upstream/18.0
@@ -333,7 +356,11 @@ msgstr " (Test)"
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (no VAT)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (fără TVA)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (fără TVA)"
 >>>>>>> upstream/18.0
@@ -343,7 +370,11 @@ msgstr " (fără TVA)"
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 >>>>>>> upstream/18.0
@@ -353,7 +384,11 @@ msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "%s has requested electronic invoices reception on Peppol."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s a solicitat primirea facturilor electronice prin Peppol."
+>>>>>>> upstream/18.0
 =======
 msgstr "%s a solicitat primirea facturilor electronice prin Peppol."
 >>>>>>> upstream/18.0
@@ -362,6 +397,7 @@ msgstr "%s a solicitat primirea facturilor electronice prin Peppol."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,10 +594,15 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
 "                                În Belgia, facturarea electronică este <u>obligatorie începând cu ianuarie 2026</u> - nu așteptați să vă înregistrați."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -573,11 +614,17 @@ msgid ""
 "                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (Demo)</span>\n"
 "                    <span class=\"text-muted mx-3\" invisible=\"peppol_move_state != 'to_send'\">\n"
 "                        Factura va fi trimisă automat prin Peppol\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -585,6 +632,7 @@ msgstr ""
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "A participant with these details has already been registered on the network."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,10 +735,15 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 " If you have previously registered to a Peppol service, please deregister."
 msgstr ""
 "Un participant cu aceste detalii a fost deja înregistrat în rețea. Dacă "
 "v-ați înregistrat anterior la un serviciu Peppol, vă rugăm să vă dezabonați."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -709,7 +762,11 @@ msgstr "Utilizator proxy EDI contabil"
 #: model:ir.model,name:account_peppol.model_account_move_send
 msgid "Account Move Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cont Mutare Trimitere"
+=======
+msgstr "Trimitere mișcare contabilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimitere mișcare contabilă"
 >>>>>>> upstream/18.0
@@ -724,7 +781,11 @@ msgid "Account Move Send Batch Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent trimitere în lot a mișcărilor contabile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent trimitere în lot a mișcărilor contabile"
 >>>>>>> upstream/18.0
@@ -757,7 +818,11 @@ msgid "Account Move Send Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent trimitere mișcare contabilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent trimitere mișcare contabilă"
 >>>>>>> upstream/18.0
@@ -795,7 +860,11 @@ msgstr "Activează"
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Activate Electronic Invoicing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează facturarea electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează facturarea electronică"
 >>>>>>> upstream/18.0
@@ -805,7 +874,11 @@ msgstr "Activează facturarea electronică"
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Activate Electronic Invoicing (via Peppol)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează facturarea electronică (prin Peppol)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează facturarea electronică (prin Peppol)"
 >>>>>>> upstream/18.0
@@ -815,7 +888,11 @@ msgstr "Activează facturarea electronică (prin Peppol)"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează Peppol"
 >>>>>>> upstream/18.0
@@ -825,7 +902,11 @@ msgstr "Activează Peppol"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Demo)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează Peppol (Demo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează Peppol (Demo)"
 >>>>>>> upstream/18.0
@@ -835,7 +916,11 @@ msgstr "Activează Peppol (Demo)"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Test)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează Peppol (Test)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează Peppol (Test)"
 >>>>>>> upstream/18.0
@@ -844,7 +929,11 @@ msgstr "Activează Peppol (Test)"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Allow incoming invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite facturi primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite facturi primite"
 >>>>>>> upstream/18.0
@@ -854,7 +943,11 @@ msgstr "Permite facturi primite"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Allow reception"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite recepția"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite recepția"
 >>>>>>> upstream/18.0
@@ -869,7 +962,11 @@ msgstr "Permite trimiterea și primirea facturilor prin rețeaua PEPPOL"
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__available_peppol_edi_formats
 msgid "Available Peppol Edi Formats"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Formate EDI Peppol disponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Formate EDI Peppol disponibile"
 >>>>>>> upstream/18.0
@@ -879,7 +976,11 @@ msgstr "Formate EDI Peppol disponibile"
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__available_peppol_sending_methods
 msgid "Available Peppol Sending Methods"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metode de trimitere Peppol disponibile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metode de trimitere Peppol disponibile"
 >>>>>>> upstream/18.0
@@ -896,7 +997,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
 msgid "Can send and receive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poate trimite și primi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate trimite și primi"
 >>>>>>> upstream/18.0
@@ -905,7 +1010,11 @@ msgstr "Poate trimite și primi"
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__sender
 msgid "Can send but not receive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poate trimite, dar nu poate primi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate trimite, dar nu poate primi"
 >>>>>>> upstream/18.0
@@ -914,7 +1023,11 @@ msgstr "Poate trimite, dar nu poate primi"
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__smp_registration
 msgid "Can send, pending registration to receive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poate trimite, în așteptarea înregistrării pentru a primi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poate trimite, în așteptarea înregistrării pentru a primi"
 >>>>>>> upstream/18.0
@@ -953,7 +1066,11 @@ msgstr "Nu se poate înregistra un utilizator cu o aplicație %s"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Check Partner(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați partenerii(s)"
+=======
+msgstr "Verificați partenerii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verificați partenerii"
 >>>>>>> upstream/18.0
@@ -988,7 +1105,11 @@ msgstr "Setări de configurare"
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Configure Peppol Services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurează serviciile Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează serviciile Peppol"
 >>>>>>> upstream/18.0
@@ -1008,7 +1129,11 @@ msgstr "Eroare de conectare, vă rugăm să încercați din nou mai târziu."
 #: model:ir.model,name:account_peppol.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -1024,7 +1149,11 @@ msgstr "Datele de contact au fost actualizate."
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Contact email and mobile number are required."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mailul de contact și numărul de telefon mobil sunt necesare."
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailul de contact și numărul de telefon mobil sunt necesare."
 >>>>>>> upstream/18.0
@@ -1040,7 +1169,11 @@ msgstr "E-mailul de contact și numărul de telefon sunt necesare."
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Create, send and receive e-invoices for free."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează, trimite și primește facturi electronice gratuit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează, trimite și primește facturi electronice gratuit."
 >>>>>>> upstream/18.0
@@ -1058,7 +1191,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -1068,7 +1205,11 @@ msgstr "Creat la"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Customer is on Peppol but did not enable receiving documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clientul este pe Peppol, dar nu a activat primirea documentelor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Clientul este pe Peppol, dar nu a activat primirea documentelor."
 >>>>>>> upstream/18.0
@@ -1084,7 +1225,11 @@ msgstr "Demo"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunță"
 >>>>>>> upstream/18.0
@@ -1100,7 +1245,11 @@ msgstr "Nume afișat"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__document_identifier
 msgid "Document Identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identificator document"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identificator document"
 >>>>>>> upstream/18.0
@@ -1120,7 +1269,11 @@ msgstr "Efectuat"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "E-invoices will soon be mandatory in many countries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Facturarea electronică va deveni în curând obligatorie în multe țări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturarea electronică va deveni în curând obligatorie în multe țări"
 >>>>>>> upstream/18.0
@@ -1129,7 +1282,11 @@ msgstr "Facturarea electronică va deveni în curând obligatorie în multe ță
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode
 msgid "EDI mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mod EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mod EDI"
 >>>>>>> upstream/18.0
@@ -1138,7 +1295,11 @@ msgstr "Mod EDI"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_mode
 msgid "EDI operating mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modul de operare EDI"
+=======
+msgstr "Mod de operare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mod de operare EDI"
 >>>>>>> upstream/18.0
@@ -1149,7 +1310,11 @@ msgstr "Mod de operare EDI"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
 msgid "EDI user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "utilizator EDI"
+=======
+msgstr "Utilizator EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizator EDI"
 >>>>>>> upstream/18.0
@@ -1159,7 +1324,11 @@ msgstr "Utilizator EDI"
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "EDI user should be of type Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utilizatorul EDI trebuie să fie de tip Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizatorul EDI trebuie să fie de tip Peppol"
 >>>>>>> upstream/18.0
@@ -1168,7 +1337,11 @@ msgstr "Utilizatorul EDI trebuie să fie de tip Peppol"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "Edi Identification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Identificarea Edi"
+=======
+msgstr "Identificare EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identificare EDI"
 >>>>>>> upstream/18.0
@@ -1177,7 +1350,11 @@ msgstr "Identificare EDI"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode_constraint
 msgid "Edi Mode Constraint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Restricție mod EDI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Restricție mod EDI"
 >>>>>>> upstream/18.0
@@ -1255,7 +1432,10 @@ msgstr "Eroare"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1374,6 +1554,7 @@ msgid "Errors occurred while creating the EDI document (format: %s):"
 msgstr "Au apărut erori la crearea documentului EDI (format: %s):"
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1549,12 +1730,21 @@ msgstr "Preluați starea facturii Peppol"
 msgid "Fetch Peppol invoice status"
 msgstr "Preia starea facturii Peppol"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
+msgid "Fetch Peppol invoice status"
+msgstr "Preia starea facturii Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch from Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preluați de la Peppol"
+=======
+msgstr "Preiați de la Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preiați de la Peppol"
 >>>>>>> upstream/18.0
@@ -1564,7 +1754,11 @@ msgstr "Preiați de la Peppol"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on Odoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gratuit în Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gratuit în Odoo"
 >>>>>>> upstream/18.0
@@ -1574,7 +1768,11 @@ msgstr "Gratuit în Odoo"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Fully automated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Complet automatizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Complet automatizat"
 >>>>>>> upstream/18.0
@@ -1584,7 +1782,11 @@ msgstr "Complet automatizat"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Got it !"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Am înțeles!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Am înțeles!"
 >>>>>>> upstream/18.0
@@ -1594,6 +1796,10 @@ msgstr "Am înțeles!"
 msgid "I want to migrate my existing Peppol connection to Odoo (optional):"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Doresc să migrez conexiunea mea Peppol existentă către Odoo (opțional):"
+>>>>>>> upstream/18.0
 =======
 "Doresc să migrez conexiunea mea Peppol existentă către Odoo (opțional):"
 >>>>>>> upstream/18.0
@@ -1611,6 +1817,11 @@ msgid ""
 "If not check, you will only be able to send invoices but not receive them."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă nu este bifat, veți putea doar să trimiteți facturi, dar nu să le "
+"primiți."
+>>>>>>> upstream/18.0
 =======
 "Dacă nu este bifat, veți putea doar să trimiteți facturi, dar nu să le "
 "primiți."
@@ -1622,6 +1833,7 @@ msgstr ""
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 #. module: account_peppol
@@ -1780,6 +1992,8 @@ msgstr ""
 msgid "In verification"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Dacă doriți să fiți facturat prin Peppol, configurația dvs. trebuie să fie "
 "validă."
 
@@ -1787,6 +2001,9 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
 msgstr "În verificare"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -1805,7 +2022,11 @@ msgid "Invoice sending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimitere factură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimitere factură"
 >>>>>>> upstream/18.0
@@ -1834,6 +2055,11 @@ msgid ""
 "JSON representation of peppol services as retrieved from the peppol server."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Reprezentare JSON a serviciilor Peppol așa cum sunt preluate de pe serverul "
+"Peppol."
+>>>>>>> upstream/18.0
 =======
 "Reprezentare JSON a serviciilor Peppol așa cum sunt preluate de pe serverul "
 "Peppol."
@@ -1848,7 +2074,11 @@ msgstr "Jurnal"
 #: model:ir.model,name:account_peppol.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare de jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare de jurnal"
 >>>>>>> upstream/18.0
@@ -1886,7 +2116,11 @@ msgstr "Cheie de Migrare"
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "Mobile number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr de telefon mobil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de telefon mobil"
 >>>>>>> upstream/18.0
@@ -1895,7 +2129,11 @@ msgstr "Număr de telefon mobil"
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Not on Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu este pe Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu este pe Peppol"
 >>>>>>> upstream/18.0
@@ -1920,7 +2158,11 @@ msgstr "Odoo"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo vă ține la curent cu noile reglementări."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo vă ține la curent cu noile reglementări."
 >>>>>>> upstream/18.0
@@ -1943,6 +2185,11 @@ msgid ""
 "PEPPOL allows for complete automation of sending and receiving e-invoices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"PEPPOL permite automatizarea completă a trimiterii și primirii facturilor "
+"electronice."
+>>>>>>> upstream/18.0
 =======
 "PEPPOL permite automatizarea completă a trimiterii și primirii facturilor "
 "electronice."
@@ -1956,6 +2203,11 @@ msgid ""
 "world."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"PEPPOL este standardul sigur pentru facturi electronice folosit în UE și în "
+"întreaga lume."
+>>>>>>> upstream/18.0
 =======
 "PEPPOL este standardul sigur pentru facturi electronice folosit în UE și în "
 "întreaga lume."
@@ -1993,6 +2245,7 @@ msgid "PEPPOL: update participant status"
 msgstr "PEPPOL: actualizați starea participantului"
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2157,10 +2410,15 @@ msgstr ""
 msgid "Partner doesn't have a valid Peppol configuration."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "Partner doesn't have a valid Peppol configuration."
 msgstr "Partenerul nu are o configurație Peppol validă."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
@@ -2234,6 +2492,7 @@ msgstr "Punct final Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2487,6 +2746,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2510,6 +2771,9 @@ msgstr "ID Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2532,7 +2796,11 @@ msgstr "Peppol gata"
 #: code:addons/account_peppol/models/account_journal.py:0
 msgid "Peppol Ready invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturi Peppol Ready"
+=======
+msgstr "Facturi Peppol gata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturi Peppol gata"
 >>>>>>> upstream/18.0
@@ -2541,7 +2809,11 @@ msgstr "Facturi Peppol gata"
 #: model:ir.model,name:account_peppol.model_peppol_registration
 msgid "Peppol Registration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrare Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare Peppol"
 >>>>>>> upstream/18.0
@@ -2550,7 +2822,11 @@ msgstr "Înregistrare Peppol"
 #: model:ir.model,name:account_peppol.model_account_peppol_service
 msgid "Peppol Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serviciu Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serviciu Peppol"
 >>>>>>> upstream/18.0
@@ -2559,7 +2835,11 @@ msgstr "Serviciu Peppol"
 #: model:ir.model,name:account_peppol.model_account_peppol_service_wizard
 msgid "Peppol Services Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Asistent servicii Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent servicii Peppol"
 >>>>>>> upstream/18.0
@@ -2569,7 +2849,11 @@ msgstr "Asistent servicii Peppol"
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol document (UUID: %(uuid)s) has been received successfully"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documentul Peppol (UUID: %(uuid)s) a fost primit cu succes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documentul Peppol (UUID: %(uuid)s) a fost primit cu succes"
 >>>>>>> upstream/18.0
@@ -2578,7 +2862,11 @@ msgstr "Documentul Peppol (UUID: %(uuid)s) a fost primit cu succes"
 #: model_terms:ir.ui.view,arch_db:account_peppol.portal_my_details_fields
 msgid "Peppol e-Address (EAS)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adresă electronică Peppol (EAS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă electronică Peppol (EAS)"
 >>>>>>> upstream/18.0
@@ -2595,7 +2883,11 @@ msgstr "Adresă electronică Peppol (EAS)"
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
 msgid "Peppol endpoint verification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Verificare punct final Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verificare punct final Peppol"
 >>>>>>> upstream/18.0
@@ -2610,7 +2902,11 @@ msgstr "Eroare Peppol: %s"
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Peppol ready invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Peppol gata facturi"
+=======
+msgstr "Facturi Peppol gata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturi Peppol gata"
 >>>>>>> upstream/18.0
@@ -2630,7 +2926,11 @@ msgstr "Actualizare de stare Peppol: %s"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_warnings
 msgid "Peppol warnings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avertizări Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertizări Peppol"
 >>>>>>> upstream/18.0
@@ -2649,6 +2949,12 @@ msgid ""
 "Currently, only European countries are supported."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vă rugăm să introduceți numărul de telefon mobil în format internațional corect.\n"
+"De exemplu: +32123456789, unde +32 este codul de țară.\n"
+"În prezent, sunt acceptate doar țările europene."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să introduceți numărul de telefon mobil în format internațional corect.\n"
 "De exemplu: +32123456789, unde +32 este codul de țară.\n"
@@ -2667,7 +2973,11 @@ msgstr ""
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "Please install the phonenumbers library."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vă rugăm să instalați biblioteca de numere de telefon."
+=======
+msgstr "Vă rugăm să instalați biblioteca phonenumbers."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă rugăm să instalați biblioteca phonenumbers."
 >>>>>>> upstream/18.0
@@ -2677,7 +2987,12 @@ msgstr "Vă rugăm să instalați biblioteca phonenumbers."
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Please verify partner configuration in partner settings."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați configurația partenerului în setările partenerului."
+=======
+msgstr ""
+"Vă rugăm să verificați configurația partenerului în setările partenerului."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Vă rugăm să verificați configurația partenerului în setările partenerului."
@@ -2717,7 +3032,11 @@ msgstr "Gata de expediat"
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__smp_registration
 msgid "Register as a receiver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrează ca destinatar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrează ca destinatar"
 >>>>>>> upstream/18.0
@@ -2727,7 +3046,11 @@ msgstr "Înregistrează ca destinatar"
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered as a sender (demo)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrat ca expeditor (demo)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrat ca expeditor (demo)."
 >>>>>>> upstream/18.0
@@ -2737,7 +3060,11 @@ msgstr "Înregistrat ca expeditor (demo)."
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered to receive documents via Peppol (demo)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrat pentru a primi documente prin Peppol (demo)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrat pentru a primi documente prin Peppol (demo)."
 >>>>>>> upstream/18.0
@@ -2747,7 +3074,11 @@ msgstr "Înregistrat pentru a primi documente prin Peppol (demo)."
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Registered to receive documents via Peppol."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrat pentru a primi documente prin Peppol."
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrat pentru a primi documente prin Peppol."
 >>>>>>> upstream/18.0
@@ -2762,7 +3093,11 @@ msgstr "Respins"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Remove from Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Elimină din Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină din Peppol"
 >>>>>>> upstream/18.0
@@ -2778,7 +3113,11 @@ msgstr "Cod de verificare prin SMS"
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Send again"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cod de verificare prin SMS"
+=======
+msgstr "Trimite din nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite din nou"
 >>>>>>> upstream/18.0
@@ -2787,7 +3126,11 @@ msgstr "Trimite din nou"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Send electronic invoices, and receive bills automatically via Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimiteți facturi electronice și primiți automat facturi prin Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteți facturi electronice și primiți automat facturi prin Peppol"
 >>>>>>> upstream/18.0
@@ -2796,7 +3139,11 @@ msgstr "Trimiteți facturi electronice și primiți automat facturi prin Peppol"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_ids
 msgid "Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Service"
+=======
+msgstr "Serviciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serviciu"
 >>>>>>> upstream/18.0
@@ -2805,7 +3152,11 @@ msgstr "Serviciu"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_info
 msgid "Service Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informații serviciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informații serviciu"
 >>>>>>> upstream/18.0
@@ -2814,7 +3165,11 @@ msgstr "Informații serviciu"
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_json
 msgid "Service Json"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Service Json"
+>>>>>>> upstream/18.0
 =======
 msgstr "Service Json"
 >>>>>>> upstream/18.0
@@ -2837,6 +3192,11 @@ msgid ""
 "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Modul de testare permite trimiterea facturilor electronice prin rețeaua de test Peppol.\n"
+"                                    Făcând clic pe butonul de mai jos, accept că Odoo poate procesa facturile mele electronice."
+>>>>>>> upstream/18.0
 =======
 "Modul de testare permite trimiterea facturilor electronice prin rețeaua de test Peppol.\n"
 "                                    Făcând clic pe butonul de mai jos, accept că Odoo poate procesa facturile mele electronice."
@@ -2847,7 +3207,11 @@ msgstr ""
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid "That country is not available for Peppol."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acea țară nu este disponibilă pentru Peppol."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acea țară nu este disponibilă pentru Peppol."
 >>>>>>> upstream/18.0
@@ -2863,7 +3227,11 @@ msgstr "Numărul de identificare al punctului final Peppol nu este corect."
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "The Peppol service that is used is likely to be %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Serviciul Peppol care este utilizat este probabil %s."
+=======
+msgstr "Serviciul Peppol utilizat este probabil %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Serviciul Peppol utilizat este probabil %s."
 >>>>>>> upstream/18.0
@@ -2879,7 +3247,11 @@ msgstr "Documentul a fost trimis la Punctul de Acces Peppol pentru procesare"
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "The e-invoicing network"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rețeaua de facturare electronică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rețeaua de facturare electronică"
 >>>>>>> upstream/18.0
@@ -2903,6 +3275,12 @@ msgid ""
 "support."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Următoarele servicii sunt listate la participantul dvs., dar nu pot fi "
+"configurate aici. Dacă doriți să le configurați diferit, vă rugăm să "
+"contactați suportul."
+>>>>>>> upstream/18.0
 =======
 "Următoarele servicii sunt listate la participantul dvs., dar nu pot fi "
 "configurate aici. Dacă doriți să le configurați diferit, vă rugăm să "
@@ -2923,7 +3301,11 @@ msgid ""
 "to Live."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Starea peppol a documentelor a fost resetata la trecerea de la Demo la Live."
+=======
+"Starea peppol a documentelor a fost resetată la trecerea de la Demo la Live."
+>>>>>>> upstream/18.0
 =======
 "Starea peppol a documentelor a fost resetată la trecerea de la Demo la Live."
 >>>>>>> upstream/18.0
@@ -2935,6 +3317,11 @@ msgid ""
 "Number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Metoda recomandată de identificare pentru Belgia este numărul de "
+"înregistrare al companiei dvs."
+>>>>>>> upstream/18.0
 =======
 "Metoda recomandată de identificare pentru Belgia este numărul de "
 "înregistrare al companiei dvs."
@@ -2944,7 +3331,11 @@ msgstr ""
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "The unique id that identifies this user, typically the vat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID-ul unic care identifică acest utilizator, de obicei TVA"
+=======
+msgstr "ID-ul unic care identifică acest utilizator, de obicei codul TVA"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID-ul unic care identifică acest utilizator, de obicei codul TVA"
 >>>>>>> upstream/18.0
@@ -2959,6 +3350,7 @@ msgstr "Codul de verificare nu este corect"
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3352,6 +3744,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "This feature is deprecated. Contact Odoo support if you need a migration "
 "key."
 msgstr ""
@@ -3364,6 +3758,9 @@ msgid "This invoice has also been"
 msgstr "Această factură a fost de asemenea"
 
 #. module: account_peppol
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
@@ -3403,7 +3800,11 @@ msgstr ""
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare"
+=======
+msgstr "Actualizează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează"
 >>>>>>> upstream/18.0
@@ -3415,8 +3816,13 @@ msgid ""
 "selected from the UI"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Folosind parametrii de configurare, acest câmp specifică ce moduri de "
 "editare pot fi selectate din UI"
+=======
+"Folosind parametrii de configurare, acest câmp specifică ce moduri EDI pot "
+"fi selectate din interfață"
+>>>>>>> upstream/18.0
 =======
 "Folosind parametrii de configurare, acest câmp specifică ce moduri EDI pot "
 "fi selectate din interfață"
@@ -3426,7 +3832,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__valid
 msgid "Valid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valabil"
+=======
+msgstr "Valid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valid"
 >>>>>>> upstream/18.0
@@ -3435,7 +3845,11 @@ msgstr "Valid"
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
 msgid "Verify"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați"
+=======
+msgstr "Verifică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică"
 >>>>>>> upstream/18.0
@@ -3444,7 +3858,11 @@ msgstr "Verifică"
 #: model:ir.actions.server,name:account_peppol.partner_action_verify_peppol
 msgid "Verify Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați Peppol"
+=======
+msgstr "Verifică Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică Peppol"
 >>>>>>> upstream/18.0
@@ -3453,7 +3871,11 @@ msgstr "Verifică Peppol"
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
 msgid "Verify partner's PEPPOL endpoint"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați punctul final PEPPOL al partenerului"
+=======
+msgstr "Verifică punctul final PEPPOL al partenerului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică punctul final PEPPOL al partenerului"
 >>>>>>> upstream/18.0
@@ -3463,7 +3885,11 @@ msgstr "Verifică punctul final PEPPOL al partenerului"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "View Partner(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vedeți partenerii(s)"
+=======
+msgstr "Vezi partenerii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi partenerii"
 >>>>>>> upstream/18.0
@@ -3476,6 +3902,11 @@ msgid ""
 "your information."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu am putut găsi un utilizator cu aceste informații pe serverul nostru. Vă "
+"rugăm să verificați datele introduse."
+>>>>>>> upstream/18.0
 =======
 "Nu am putut găsi un utilizator cu aceste informații pe serverul nostru. Vă "
 "rugăm să verificați datele introduse."
@@ -3486,7 +3917,11 @@ msgstr ""
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "What is Peppol and why it's great ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ce este Peppol și de ce este grozav?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ce este Peppol și de ce este grozav?"
 >>>>>>> upstream/18.0
@@ -3496,7 +3931,11 @@ msgstr "Ce este Peppol și de ce este grozav?"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should I use PEPPOL ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De ce ar trebui să folosesc PEPPOL?"
+>>>>>>> upstream/18.0
 =======
 msgstr "De ce ar trebui să folosesc PEPPOL?"
 >>>>>>> upstream/18.0
@@ -3506,7 +3945,11 @@ msgstr "De ce ar trebui să folosesc PEPPOL?"
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should you use it ?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "De ce ar trebui să-l folosești?"
+>>>>>>> upstream/18.0
 =======
 msgstr "De ce ar trebui să-l folosești?"
 >>>>>>> upstream/18.0
@@ -3521,7 +3964,11 @@ msgstr "Asistent"
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now receive demo vendor bills."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acum puteți primi facturi demo de la furnizori."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acum puteți primi facturi demo de la furnizori."
 >>>>>>> upstream/18.0
@@ -3531,7 +3978,11 @@ msgstr "Acum puteți primi facturi demo de la furnizori."
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send and receive electronic invoices via Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acum puteți trimite și primi facturi electronice prin Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acum puteți trimite și primi facturi electronice prin Peppol"
 >>>>>>> upstream/18.0
@@ -3541,7 +3992,11 @@ msgstr "Acum puteți trimite și primi facturi electronice prin Peppol"
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send electronic invoices via Peppol."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acum puteți trimite facturi electronice prin Peppol."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acum puteți trimite facturi electronice prin Peppol."
 >>>>>>> upstream/18.0
@@ -3551,7 +4006,11 @@ msgstr "Acum puteți trimite facturi electronice prin Peppol."
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now send invoices in demo mode."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acum puteți trimite facturi în modul demo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acum puteți trimite facturi în modul demo."
 >>>>>>> upstream/18.0
@@ -3561,7 +4020,11 @@ msgstr "Acum puteți trimite facturi în modul demo."
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "You can send this invoice electronically via Peppol."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puteți trimite această factură electronic prin Peppol."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți trimite această factură electronic prin Peppol."
 >>>>>>> upstream/18.0
@@ -3573,6 +4036,11 @@ msgid ""
 "                            Please contact our support if you need further assistance."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Înregistrarea dvs. a fost respinsă, motivul v-a fost trimis prin e-mail.\n"
+"                            Vă rugăm să contactați suportul nostru dacă aveți nevoie de asistență suplimentară."
+>>>>>>> upstream/18.0
 =======
 "Înregistrarea dvs. a fost respinsă, motivul v-a fost trimis prin e-mail.\n"
 "                            Vă rugăm să contactați suportul nostru dacă aveți nevoie de asistență suplimentară."
@@ -3594,7 +4062,11 @@ msgstr ""
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "You will receive a verification code to this mobile number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veți primi un cod de verificare la acest număr de telefon mobil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veți primi un cod de verificare la acest număr de telefon mobil"
 >>>>>>> upstream/18.0
@@ -3603,7 +4075,11 @@ msgstr "Veți primi un cod de verificare la acest număr de telefon mobil"
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your Peppol ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID-ul dvs. Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID-ul dvs. Peppol"
 >>>>>>> upstream/18.0
@@ -3616,6 +4092,11 @@ msgid ""
 "invoices."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Înregistrarea dvs. Peppol va fi activată în curând. Puteți deja trimite "
+"facturi."
+>>>>>>> upstream/18.0
 =======
 "Înregistrarea dvs. Peppol va fi activată în curând. Puteți deja trimite "
 "facturi."
@@ -3629,6 +4110,11 @@ msgid ""
 "invoices.We will register you as a sender only."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Compania dvs. este deja înregistrată la un alt Punct de Acces pentru "
+"primirea facturilor. Vă vom înregistra doar ca expeditor."
+>>>>>>> upstream/18.0
 =======
 "Compania dvs. este deja înregistrată la un alt Punct de Acces pentru "
 "primirea facturilor. Vă vom înregistra doar ca expeditor."
@@ -3644,7 +4130,11 @@ msgid "Your endpoint"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Punctul tău final"
+>>>>>>> upstream/18.0
 =======
 msgstr "Punctul tău final"
 >>>>>>> upstream/18.0
@@ -3680,6 +4170,11 @@ msgid ""
 "updated status will be visible in Settings."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Înregistrarea dvs. în rețeaua Peppol ar trebui să fie activată în decurs de "
+"o zi. Starea actualizată va fi vizibilă în Setări."
+>>>>>>> upstream/18.0
 =======
 "Înregistrarea dvs. în rețeaua Peppol ar trebui să fie activată în decurs de "
 "o zi. Starea actualizată va fi vizibilă în Setări."
@@ -3696,6 +4191,7 @@ msgstr "Înregistrarea dvs. ar trebui să fie activată într-o zi."
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
 msgid "by Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account_peppol
@@ -3849,19 +4345,28 @@ msgstr ""
 msgid "could not be sent via Peppol"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "prin Peppol"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr "nu a putut fi trimisă prin Peppol"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "facturi și note de credit."
+>>>>>>> upstream/18.0
 =======
 msgstr "facturi și note de credit."
 >>>>>>> upstream/18.0
@@ -3870,7 +4375,11 @@ msgstr "facturi și note de credit."
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "sent via Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "trimisă prin Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "trimisă prin Peppol"
 >>>>>>> upstream/18.0
@@ -3879,7 +4388,11 @@ msgstr "trimisă prin Peppol"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "to send invoices, but this one"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a trimite facturi, dar aceasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a trimite facturi, dar aceasta"
 >>>>>>> upstream/18.0
@@ -3888,6 +4401,7 @@ msgstr "pentru a trimite facturi, dar aceasta"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "uses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4030,6 +4544,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "folosește"
 >>>>>>> upstream/18.0
 =======
 msgstr "folosește"

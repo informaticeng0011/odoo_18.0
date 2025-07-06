@@ -155,7 +155,11 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mo = picking_receipt._get_subcontract_production()
+=======
+        mo1 = picking_receipt._get_subcontract_production()
+>>>>>>> upstream/18.0
 =======
         mo1 = picking_receipt._get_subcontract_production()
 >>>>>>> upstream/18.0
@@ -390,7 +394,11 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(mo.move_finished_ids.stock_valuation_layer_ids.value, 60)
+=======
+        self.assertEqual(mo1.move_finished_ids.stock_valuation_layer_ids.value, 60)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo1.move_finished_ids.stock_valuation_layer_ids.value, 60)
 >>>>>>> upstream/18.0
@@ -652,6 +660,7 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mo = picking_receipt._get_subcontract_production()
         # In this case, since there isn't any additionnal cost, the total cost of the subcontracting
         # is the sum of the components' costs: 10 + 20 = 30
@@ -660,6 +669,8 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 
         amls = self.env['account.move.line'].search([('id', 'not in', all_amls_ids)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -836,6 +847,9 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1018,7 +1032,10 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1204,6 +1221,9 @@ class TestAccountSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

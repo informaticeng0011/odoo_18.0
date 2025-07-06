@@ -56,6 +56,10 @@ class HRLeave(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                leave.overtime_id.sudo().unlink()
+>>>>>>> upstream/18.0
 =======
                 leave.overtime_id.sudo().unlink()
 >>>>>>> upstream/18.0

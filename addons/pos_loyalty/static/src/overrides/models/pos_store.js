@@ -306,6 +306,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        couponPointChange.code = order.get_selected_orderline()?.gift_code;
+                        couponPointChange.partner_id = order.get_partner()?.id;
+>>>>>>> upstream/18.0
 =======
                         couponPointChange.code = order.get_selected_orderline()?.gift_code;
                         couponPointChange.partner_id = order.get_partner()?.id;
@@ -661,10 +666,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let claimableRewards = null;
         let coupon = null;
         if (rule) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -707,6 +715,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1130,7 +1141,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["loyalty.reward"].delete(reward.id);
+=======
+                reward.delete();
+>>>>>>> upstream/18.0
 =======
                 reward.delete();
 >>>>>>> upstream/18.0

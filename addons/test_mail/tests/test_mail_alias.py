@@ -26,7 +26,10 @@ class TestMailAliasCommon(MailCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.company_no_alias = cls.env['res.company'].create({
@@ -41,6 +44,9 @@ class TestMailAliasCommon(MailCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -526,6 +532,10 @@ class TestAliasCompany(TestMailAliasCommon):
         self.assertEqual(self.test_alias_mc.alias_domain_id, self.mail_alias_domain)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(self.company_no_alias.alias_domain_id)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(self.company_no_alias.alias_domain_id)
 >>>>>>> upstream/18.0
@@ -972,6 +982,11 @@ class TestMailAliasMixin(TestMailAliasCommon):
             (self.company_admin.id, self.company_admin, self.mail_alias_domain),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # company without alias domain -> set False on alias also, to avoid MC issues
+            (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),
+>>>>>>> upstream/18.0
 =======
             # company without alias domain -> set False on alias also, to avoid MC issues
             (self.company_no_alias.id, self.company_no_alias, self.env['mail.alias.domain']),

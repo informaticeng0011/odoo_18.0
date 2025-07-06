@@ -175,6 +175,7 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
@@ -183,6 +184,8 @@ class TestCIIFR(TestUBLCommon):
                 <xpath expr=".//*[local-name()='PaymentReference']" position="replace">
                         <PaymentReference>___ignore___</PaymentReference>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196,6 +199,9 @@ class TestCIIFR(TestUBLCommon):
                         <ram:PaymentReference xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:PaymentReference>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -246,11 +252,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261,6 +270,9 @@ class TestCIIFR(TestUBLCommon):
                         <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319,11 +331,14 @@ class TestCIIFR(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <ID>___ignore___</ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='IssuerAssignedID']" position="replace">
                         <IssuerAssignedID>___ignore___</IssuerAssignedID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -334,6 +349,9 @@ class TestCIIFR(TestUBLCommon):
                         <ram:IssuerAssignedID xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100">___ignore___</ram:IssuerAssignedID>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

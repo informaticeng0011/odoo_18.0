@@ -110,6 +110,7 @@ class AccountMove(models.Model):
         """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Gather the moves that have to be sent and the xml for each of them.
         moves, xml_contents = self._l10n_my_edi_prepare_moves_to_send()
         # We then push the moves to myinvois.
@@ -117,6 +118,8 @@ class AccountMove(models.Model):
         # We need to see if the validation status is already available; otherwise it will be fetched via a cron.
         self._l10n_my_edi_get_status(moves)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self._l10n_my_edi_send_invoice()
@@ -129,6 +132,9 @@ class AccountMove(models.Model):
         # We need to see if the validation status is already available; otherwise it will be fetched via a cron.
         errors = self._l10n_my_edi_get_status(moves, commit)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146,6 +152,10 @@ class AccountMove(models.Model):
                 move.invalidate_recordset(fnames=['l10n_my_edi_file_id', 'l10n_my_edi_file'])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return errors
+>>>>>>> upstream/18.0
 =======
         return errors
 >>>>>>> upstream/18.0
@@ -178,6 +188,7 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_send_to_myinvois(self, moves, xml_contents):
         AccountMoveSend = self.env['account.move.send']
         if moves and xml_contents:
@@ -185,11 +196,16 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_my_edi_send_to_myinvois(self, moves, xml_contents, commit=True):
         AccountMoveSend = self.env['account.move.send']
         if moves and xml_contents:
             errors = moves._l10n_my_edi_submit_documents(xml_contents, commit)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203,7 +219,11 @@ class AccountMove(models.Model):
             # At this point we will need to commit as we reached the api, and we could have a mix of failed and valid invoice.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if moves._can_commit():
+=======
+            if commit and moves._can_commit():
+>>>>>>> upstream/18.0
 =======
             if commit and moves._can_commit():
 >>>>>>> upstream/18.0
@@ -221,6 +241,7 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_get_status(self, moves):
         AccountMoveSend = self.env['account.move.send']
         retry = 0
@@ -229,6 +250,8 @@ class AccountMove(models.Model):
             time.sleep(1)  # We wait a second before retrying.
             errors, any_in_progress = moves._l10n_my_edi_fetch_updated_statuses()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _l10n_my_edi_get_status(self, moves, commit=True):
@@ -240,6 +263,9 @@ class AccountMove(models.Model):
                 time.sleep(1 + retry)  # We wait a while before retrying, only when not in test mode
             errors, any_in_progress = moves._l10n_my_edi_fetch_updated_statuses(commit)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254,9 +280,12 @@ class AccountMove(models.Model):
         # We commit again if possible, to ensure that the invoice status is set in the database in case of errors later.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self._can_commit():
             self._cr.commit()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if commit and self._can_commit():
@@ -264,6 +293,9 @@ class AccountMove(models.Model):
 
         return errors
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -400,6 +400,7 @@ describe("deleteSelection", () => {
                     contentBefore: unformat(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `<div class="container o_text_columns">
                             <div class="row">
                                 <div class="col-6">a[bc</div>
@@ -407,11 +408,16 @@ describe("deleteSelection", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         `<div class="container o_text_columns o-contenteditable-false">
                             <div class="row">
                                 <div class="col-6 o-contenteditable-true">a[bc</div>
                                 <div class="col-6 o-contenteditable-true">def</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -423,6 +429,7 @@ describe("deleteSelection", () => {
                     contentAfterEdit: unformat(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `<div class="container o_text_columns">
                             <div class="row">
                                 <div class="col-6">a[]</div>
@@ -430,11 +437,16 @@ describe("deleteSelection", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         `<div class="container o_text_columns o-contenteditable-false" contenteditable="false">
                             <div class="row">
                                 <div class="col-6 o-contenteditable-true" contenteditable="true">a[]</div>
                                 <div class="col-6 o-contenteditable-true" contenteditable="true"><p><br></p></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -445,6 +457,7 @@ describe("deleteSelection", () => {
                     contentAfter: unformat(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `<div class="container o_text_columns">
                             <div class="row">
                                 <div class="col-6">a[]</div>
@@ -452,11 +465,16 @@ describe("deleteSelection", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         `<div class="container o_text_columns o-contenteditable-false">
                             <div class="row">
                                 <div class="col-6 o-contenteditable-true">a[]</div>
                                 <div class="col-6 o-contenteditable-true"><p><br></p></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -472,6 +490,7 @@ describe("deleteSelection", () => {
                         `<p>x[yz</p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div class="container o_text_columns">
                             <div class="row">
                                 <div class="col-6">abc</div>
@@ -479,11 +498,16 @@ describe("deleteSelection", () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <div class="container o_text_columns o-contenteditable-false">
                             <div class="row">
                                 <div class="col-6 o-contenteditable-true">abc</div>
                                 <div class="col-6 o-contenteditable-true">def</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517,7 +541,11 @@ describe("deleteSelection", () => {
                             <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>[]<br></td> <td><br></td> <td>c</td> 
+=======
+                                <td><p>[]<br></p></td> <td><p><br></p></td> <td>c</td>
+>>>>>>> upstream/18.0
 =======
                                 <td><p>[]<br></p></td> <td><p><br></p></td> <td>c</td>
 >>>>>>> upstream/18.0

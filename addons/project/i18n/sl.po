@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Aleš Pipan, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,10 @@
 >>>>>>> upstream/18.0
 =======
 # Jan Zorko, 2025
+>>>>>>> upstream/18.0
+=======
+# Jan Zorko, 2025
+# Aleš Pipan, 2025
 >>>>>>> upstream/18.0
 =======
 # Jan Zorko, 2025
@@ -254,6 +259,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +557,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -643,7 +654,10 @@ msgstr "Ocene"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:project.field_project_milestone__task_count
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -767,6 +781,11 @@ msgid ""
 "    <br/><br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+",\n"
+"    <br/><br/>"
+>>>>>>> upstream/18.0
 =======
 ",\n"
 "    <br/><br/>"
@@ -914,6 +933,12 @@ msgid ""
 "                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
+"                            <i class=\"fa fa-fw o_button_icon fa-frown-o text-danger\" invisible=\"rating_avg &gt;= 2.33\" title=\"Dissatisfied\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw o_button_icon fa-smile-o text-success\" invisible=\"rating_avg &lt; 3.66\" title=\"Satisfied\"/>\n"
 "                            <i class=\"fa fa-fw o_button_icon fa-meh-o text-warning\" invisible=\"rating_avg &lt; 2.33 or rating_avg &gt;= 3.66\" title=\"Okay\"/>\n"
@@ -924,7 +949,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-lightbulb-o\"/>&amp;nbsp;"
 >>>>>>> upstream/18.0
@@ -947,7 +976,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-warning\"/>&amp;nbsp;"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
 >>>>>>> upstream/18.0
@@ -1004,7 +1037,11 @@ msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazaj v način urejanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazaj v način urejanja"
 >>>>>>> upstream/18.0
@@ -1172,7 +1209,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<small class=\"text-muted\">Customer</small>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small class=\"text-muted\">Stranka</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<small class=\"text-muted\">Stranka</small>"
 >>>>>>> upstream/18.0
@@ -1498,7 +1539,11 @@ msgid "Add extra content to display in the email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte dodatno vsebino za prikaz v e-pošti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodajte dodatno vsebino za prikaz v e-pošti"
 >>>>>>> upstream/18.0
@@ -1776,7 +1821,11 @@ msgid "Alias Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vzdevek status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vzdevek status"
 >>>>>>> upstream/18.0
@@ -2069,7 +2118,11 @@ msgid "Alias status assessed on the last message received."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje vzdevka je ocenjeno pri zadnjem prejetem sporočilu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje vzdevka je ocenjeno pri zadnjem prejetem sporočilu."
 >>>>>>> upstream/18.0
@@ -2385,7 +2438,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Archive Stages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhivske faze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivske faze"
 >>>>>>> upstream/18.0
@@ -2413,7 +2470,11 @@ msgstr "Ste prepričani, da želite nadaljevati?"
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Are you sure you want to delete these stages?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ali ste prepričani, da želite izbrisati te faze?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ali ste prepričani, da želite izbrisati te faze?"
 >>>>>>> upstream/18.0
@@ -2586,7 +2647,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Dissatisfied"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povprečna ocena: Nezadovoljen/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povprečna ocena: Nezadovoljen/a"
 >>>>>>> upstream/18.0
@@ -2596,7 +2661,11 @@ msgstr "Povprečna ocena: Nezadovoljen/a"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Okay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povprečna ocena: V redu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povprečna ocena: V redu"
 >>>>>>> upstream/18.0
@@ -2606,7 +2675,11 @@ msgstr "Povprečna ocena: V redu"
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Satisfied"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povprečna ocena: Zadovoljen/a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povprečna ocena: Zadovoljen/a"
 >>>>>>> upstream/18.0
@@ -2872,7 +2945,11 @@ msgid "Communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zgodovina komunikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zgodovina komunikacije"
 >>>>>>> upstream/18.0
@@ -3776,7 +3853,11 @@ msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-poštna domena, npr. »example.com« v »odoo@example.com«"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-poštna domena, npr. »example.com« v »odoo@example.com«"
 >>>>>>> upstream/18.0
@@ -3980,7 +4061,11 @@ msgstr "E-poštna domena, npr. »example.com« v »odoo@example.com«"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "Emails sent to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-poštna sporočila, poslana na"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-poštna sporočila, poslana na"
 >>>>>>> upstream/18.0
@@ -4072,7 +4157,11 @@ msgid "External"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zunanji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zunanji"
 >>>>>>> upstream/18.0
@@ -4357,7 +4446,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Happy face"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vesel obraz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vesel obraz"
 >>>>>>> upstream/18.0
@@ -4611,7 +4704,11 @@ msgstr "Neveljavna vrednost: %s"
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__followers
 msgid "Invited internal users (private)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabljeni interni uporabniki (zasebno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabljeni interni uporabniki (zasebno)"
 >>>>>>> upstream/18.0
@@ -4620,7 +4717,11 @@ msgstr "Povabljeni interni uporabniki (zasebno)"
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__portal
 msgid "Invited portal users and all internal users (public)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povabljeni uporabniki portala in vsi interni uporabniki (javni)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povabljeni uporabniki portala in vsi interni uporabniki (javni)"
 >>>>>>> upstream/18.0
@@ -4729,7 +4830,11 @@ msgid "JSON that maps ids from a many2one field to seconds spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON, ki preslika ID-je iz polja »mnogo v eno« v porabljene sekunde"
+>>>>>>> upstream/18.0
 =======
 msgstr "JSON, ki preslika ID-je iz polja »mnogo v eno« v porabljene sekunde"
 >>>>>>> upstream/18.0
@@ -5179,7 +5284,11 @@ msgid "Local-part based incoming detection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalno zaznavanje dohodnih delov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokalno zaznavanje dohodnih delov"
 >>>>>>> upstream/18.0
@@ -5420,7 +5529,11 @@ msgid "Logo Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oblikovanje logotipa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oblikovanje logotipa"
 >>>>>>> upstream/18.0
@@ -5703,7 +5816,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Neutral face"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevtralen obraz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nevtralen obraz"
 >>>>>>> upstream/18.0
@@ -5809,7 +5926,11 @@ msgstr "Tip naslednje aktivnosti"
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brez stranke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brez stranke"
 >>>>>>> upstream/18.0
@@ -5860,7 +5981,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:project.project_project_stage_configure
 msgid "No stages found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenih stopenj. Ustvarimo eno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenih stopenj. Ustvarimo eno!"
 >>>>>>> upstream/18.0
@@ -5869,7 +5994,11 @@ msgstr "Ni najdenih stopenj. Ustvarimo eno!"
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
 msgid "No tags found. Let's create one!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenih oznak. Ustvarimo eno!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenih oznak. Ustvarimo eno!"
 >>>>>>> upstream/18.0
@@ -5954,7 +6083,11 @@ msgstr ""
 #: model:project.tags,name:project.project_tags_10
 msgid "Office"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisarna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pisarna"
 >>>>>>> upstream/18.0
@@ -6090,7 +6223,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija ni podprta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija ni podprta"
 >>>>>>> upstream/18.0
@@ -6369,7 +6506,11 @@ msgid "Others"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostali"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostali"
 >>>>>>> upstream/18.0
@@ -6829,7 +6970,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektni račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektni račun"
 >>>>>>> upstream/18.0
@@ -7236,7 +7381,11 @@ msgstr "Ocena (/5)"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_pivot
 msgid "Rating (1-5)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ocena (1–5)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ocena (1–5)"
 >>>>>>> upstream/18.0
@@ -7351,7 +7500,11 @@ msgid "Read"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preberi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preberi"
 >>>>>>> upstream/18.0
@@ -7664,7 +7817,11 @@ msgid "Research & Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raziskave in razvoj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raziskave in razvoj"
 >>>>>>> upstream/18.0
@@ -7886,7 +8043,11 @@ msgstr "Napaka pri dostavi SMS "
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Sad face"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žalosten obraz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žalosten obraz"
 >>>>>>> upstream/18.0
@@ -8097,7 +8258,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "Since"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odkar"
 >>>>>>> upstream/18.0
@@ -8142,7 +8307,11 @@ msgid "Social"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Družbeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Družbeno"
 >>>>>>> upstream/18.0
@@ -8481,7 +8650,11 @@ msgid "Status time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas stanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas stanja"
 >>>>>>> upstream/18.0
@@ -8771,7 +8944,11 @@ msgstr ""
 #: model:mail.message.subtype,name:project.mt_task_canceled
 msgid "Task Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naloga preklicana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naloga preklicana"
 >>>>>>> upstream/18.0
@@ -9254,6 +9431,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To predstavlja različne kategorije stvari, ki jih morate storiti (npr. "
+"»Pokliči« ali »Pošlji e-pošto«)."
+>>>>>>> upstream/18.0
 =======
 "To predstavlja različne kategorije stvari, ki jih morate storiti (npr. "
 "»Pokliči« ali »Pošlji e-pošto«)."
@@ -9637,7 +9819,10 @@ msgid ""
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Za nastavitev novih nalog uporabite te ključne besede v naslovu:\n"
 "\n"
 "        30h Dodelite nalogi 30 ur\n"
@@ -9646,6 +9831,9 @@ msgstr ""
 "        ! Nastavite nalogo kot visoko prioriteto\n"
 "\n"
 "        Prepričajte se, da uporabljate pravilno obliko in vrstni red, npr. Izboljšajte konfiguracijski zaslon 5h #funkcija #v16 @Tomaz !"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project
@@ -9760,7 +9948,11 @@ msgid "Work"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delo"
 >>>>>>> upstream/18.0
@@ -10003,7 +10195,11 @@ msgstr "Dodeljeni ste v"
 #: code:addons/project/models/project_task.py:0
 msgid "You have been invited to follow %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne morete imeti negativnih ciljev %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne morete imeti negativnih ciljev %s"
 >>>>>>> upstream/18.0
@@ -10113,7 +10309,11 @@ msgid "alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vzdevek"
+>>>>>>> upstream/18.0
 =======
 msgstr "vzdevek"
 >>>>>>> upstream/18.0
@@ -10470,7 +10670,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mycompany.si"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. mycompany.si"
 >>>>>>> upstream/18.0
@@ -10812,12 +11016,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "state.message"
 msgstr ""
 
 #. module: project
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10981,7 +11188,11 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_list/project_task_list_renderer.js:0
 msgid "👤 Unassigned"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "👤 Nedodeljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "👤 Nedodeljeno"
 >>>>>>> upstream/18.0

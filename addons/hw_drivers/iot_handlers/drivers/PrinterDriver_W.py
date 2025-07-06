@@ -178,7 +178,11 @@ class PrinterDriver(Driver):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT", "-dNORANGEPAGESIZE",
+=======
+            "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
+>>>>>>> upstream/18.0
 =======
             "-dPrinted", "-dBATCH", "-dNOPAUSE", "-dNOPROMPT",
 >>>>>>> upstream/18.0

@@ -4,10 +4,14 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -31,7 +35,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -56,7 +64,11 @@ msgstr ""
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "%(name)s has been noted as %(state)s today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сегодня статус сотрудника %(name)s был отмечен как: %(state)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сегодня статус сотрудника %(name)s был отмечен как: %(state)s"
 >>>>>>> upstream/18.0
@@ -74,7 +86,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div>\n"
 "                    Уважаемая <t t-out=\"object.name or ''\">Эбигейл Питерсон</t>,<br/><br/>\n"
 "мы заметили, что в настоящее время вас нет на работе, и нет никаких записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с нашей ошибкой, приносим искренние извинения за возможную путаницу.\n"
@@ -83,6 +98,9 @@ msgstr ""
 "                    <br/>С уважением,<br/><br/>\n"
 "                </div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_presence
@@ -92,7 +110,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Absent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нет"
+=======
+msgstr "Отсутствует"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отсутствует"
 >>>>>>> upstream/18.0
@@ -101,7 +123,11 @@ msgstr "Отсутствует"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_log
 msgid "Add a log note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Добавьте примечание"
+>>>>>>> upstream/18.0
 =======
 msgstr "Добавьте примечание"
 >>>>>>> upstream/18.0
@@ -110,7 +136,11 @@ msgstr "Добавьте примечание"
 #: model:ir.model,name:hr_presence.model_hr_employee_base
 msgid "Basic Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Основной сотрудник"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -129,7 +159,11 @@ msgstr "Параметры конфигурации"
 #: model:ir.model.fields,field_description:hr_presence.field_res_users_log__create_uid
 msgid "Create Uid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создать идентификатор"
+=======
+msgstr "Создать UID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать UID"
 >>>>>>> upstream/18.0
@@ -169,18 +203,28 @@ msgid ""
 "Thanks"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Привет! Мы заметили, что в настоящее время вас нет на работе, и нет никаких "
 "записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с "
 "нашей ошибкой, приносим искренние извинения. Пожалуйста, свяжитесь со своим "
 "менеджером или отделом кадров как можно скорее. Спасибо!"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_company__hr_presence_last_compute_date
 msgid "Hr Presence Last Compute Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR присутствие на последней отчетной дате"
+=======
+msgstr "Hr посещаемость дата последнего расчета"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hr посещаемость дата последнего расчета"
 >>>>>>> upstream/18.0
@@ -191,7 +235,11 @@ msgstr "Hr посещаемость дата последнего расчета
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__hr_presence_state_display
 msgid "Hr Presence State Display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR Просмотр Статуса Присутствия"
+=======
+msgstr "Hr посещаемость отображение статуса"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hr посещаемость отображение статуса"
 >>>>>>> upstream/18.0
@@ -200,7 +248,11 @@ msgstr "Hr посещаемость отображение статуса"
 #: model:ir.model.fields,field_description:hr_presence.field_res_users_log__ip
 msgid "IP Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IP адрес"
+=======
+msgstr "IP-адрес"
+>>>>>>> upstream/18.0
 =======
 msgstr "IP-адрес"
 >>>>>>> upstream/18.0
@@ -211,7 +263,11 @@ msgstr "IP-адрес"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__ip_connected
 msgid "Ip Connected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ip подключен"
+=======
+msgstr "Подключен"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подключен"
 >>>>>>> upstream/18.0
@@ -222,7 +278,11 @@ msgstr "Подключен"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_presence
 msgid "Manually Set Presence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Установить статус присутствия вручную"
+>>>>>>> upstream/18.0
 =======
 msgstr "Установить статус присутствия вручную"
 >>>>>>> upstream/18.0
@@ -233,7 +293,11 @@ msgstr "Установить статус присутствия вручную"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_present
 msgid "Manually Set Present"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Установить Присутствие в Ручную"
+=======
+msgstr "Вручную установить статус «На месте»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вручную установить статус «На месте»"
 >>>>>>> upstream/18.0
@@ -248,7 +312,11 @@ msgid "Out of Working Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вне рабочего времени"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вне рабочего времени"
 >>>>>>> upstream/18.0
@@ -277,7 +345,11 @@ msgstr "Контроль присутствия"
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Presence/Absence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Присутствие/Отсутствие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Присутствие/Отсутствие"
 >>>>>>> upstream/18.0
@@ -288,7 +360,11 @@ msgstr "Присутствие/Отсутствие"
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee_public__hr_presence_state_display__present
 msgid "Present"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сейчас"
+=======
+msgstr "На месте"
+>>>>>>> upstream/18.0
 =======
 msgstr "На месте"
 >>>>>>> upstream/18.0
@@ -298,7 +374,11 @@ msgstr "На месте"
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Send SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отправить SMS"
+=======
+msgstr "Отправить СМС"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отправить СМС"
 >>>>>>> upstream/18.0
@@ -307,7 +387,11 @@ msgstr "Отправить СМС"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_sms
 msgid "Send a SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отправить СМС"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отправить СМС"
 >>>>>>> upstream/18.0
@@ -319,7 +403,11 @@ msgid ""
 " being off"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отправляли вручную в модуле присутствия, когда сотрудник не работал, "
+=======
+"Отправляется вручную через модуль Посещаемость, когда сотрудник не работал, "
+>>>>>>> upstream/18.0
 =======
 "Отправляется вручную через модуль Посещаемость, когда сотрудник не работал, "
 >>>>>>> upstream/18.0
@@ -329,7 +417,11 @@ msgstr ""
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_absent
 msgid "Set Absent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как «Нет на месте»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отметить как «Нет на месте»"
 >>>>>>> upstream/18.0
@@ -338,7 +430,11 @@ msgstr "Отметить как «Нет на месте»"
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_present
 msgid "Set Present"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как «На месте»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отметить как «На месте»"
 >>>>>>> upstream/18.0
@@ -353,7 +449,11 @@ msgstr "Неожиданное отсутствие"
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Unplanned Absence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Незапланированное отсутствие"
+>>>>>>> upstream/18.0
 =======
 msgstr "Незапланированное отсутствие"
 >>>>>>> upstream/18.0
@@ -362,7 +462,11 @@ msgstr "Незапланированное отсутствие"
 #: model:ir.model,name:hr_presence.model_res_users_log
 msgid "Users Log"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лог  пользователей"
+=======
+msgstr "Журнал пользователей"
+>>>>>>> upstream/18.0
 =======
 msgstr "Журнал пользователей"
 >>>>>>> upstream/18.0
@@ -376,6 +480,12 @@ msgid ""
 "Thank you for your prompt attention to this matter."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Мы заметили, что в настоящее время вас нет на работе, и нет никаких записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с нашей ошибкой, приносим искренние извинения за возможную путаницу.\n"
+"Пожалуйста, примите необходимые меры для устранения этого незапланированного отсутствия. Если у вас возникнут какие-либо вопросы или вам понадобится помощь, не стесняйтесь обращаться к своему менеджеру или в отдел кадров при первой возможности.\n"
+"Благодарим вас за оперативное внимание к этому вопросу."
+>>>>>>> upstream/18.0
 =======
 "Мы заметили, что в настоящее время вас нет на работе, и нет никаких записей о том, что вы запрашивали отгул. Если ваше отсутствие связано с нашей ошибкой, приносим искренние извинения за возможную путаницу.\n"
 "Пожалуйста, примите необходимые меры для устранения этого незапланированного отсутствия. Если у вас возникнут какие-либо вопросы или вам понадобится помощь, не стесняйтесь обращаться к своему менеджеру или в отдел кадров при первой возможности.\n"
@@ -388,7 +498,12 @@ msgstr ""
 msgid "You don't have the right to do this. Please contact an Administrator."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы не имеете права это делать. Пожалуйста, свяжитесь с администратором."
+=======
+"У вас нет прав доступа для совершения этого действия. Пожалуйста, обратитесь"
+" к администратору."
+>>>>>>> upstream/18.0
 =======
 "У вас нет прав доступа для совершения этого действия. Пожалуйста, обратитесь"
 " к администратору."
@@ -398,7 +513,11 @@ msgstr ""
 #: model:ir.model,name:hr_presence.model_ir_websocket
 msgid "websocket message handling"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "обработка сообщений в сокетах"
+=======
+msgstr "обработка сообщений в веб-сокетах"
+>>>>>>> upstream/18.0
 =======
 msgstr "обработка сообщений в веб-сокетах"
 >>>>>>> upstream/18.0

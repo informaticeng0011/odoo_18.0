@@ -73,7 +73,11 @@ import { click, contains, start, startServer } from "@mail/../tests/mail_test_he
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mountView } from "@web/../tests/web_test_helpers";
+=======
+import { mountView, onRpc } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { mountView, onRpc } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -397,6 +401,7 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -446,6 +451,10 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
 >>>>>>> upstream/18.0
 
     onRpc("resource.resource", "get_avatar_card_data", (params) => {
+=======
+
+    onRpc("hr.employee", "get_avatar_card_data", (params) => {
+>>>>>>> upstream/18.0
 =======
 
     onRpc("hr.employee", "get_avatar_card_data", (params) => {
@@ -732,6 +741,9 @@ test("many2one_avatar_employee widget in kanban view with skills on avatar card"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
