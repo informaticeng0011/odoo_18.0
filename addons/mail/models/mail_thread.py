@@ -97,6 +97,10 @@ from collections import namedtuple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections.abc import Iterable
+>>>>>>> upstream/18.0
 =======
 from collections.abc import Iterable
 >>>>>>> upstream/18.0
@@ -408,8 +412,11 @@ from odoo.addons.mail.tools.discuss import Store
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tools.web_push import push_to_end_point, DeviceUnreachableError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -591,6 +598,9 @@ from odoo.addons.mail.tools.web_push import (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -902,8 +912,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """Search function for message_follower_ids"""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1148,6 +1161,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1651,6 +1667,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _condition_to_sql(self, alias: str, fname: str, operator: str, value, query: Query) -> SQL:
         if self.env.su or self.env.user._is_internal():
             return super()._condition_to_sql(alias, fname, operator, value, query)
@@ -1663,6 +1680,8 @@ class MailThread(models.AbstractModel):
             raise AccessError("Portal users can only filter threads by themselves as followers.")
         return super(MailThread, self.sudo())._condition_to_sql(alias, fname, operator, value, query)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5151,6 +5170,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
+>>>>>>> upstream/18.0
 =======
                 ('message_id', '!=', False),  # ignore records that somehow don't have a message_id (non ORM created)
 >>>>>>> upstream/18.0
@@ -5851,6 +5874,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params = {
             'model': kwargs.get('model', self._name),
             'res_id': kwargs.get('res_id', self.ids and self.ids[0] or False),
@@ -5865,6 +5889,9 @@ class MailThread(models.AbstractModel):
             if key in ('action', 'token', 'access_token', 'auth_signup_token',
                        'auth_login', 'pid', 'hash')
         ))
+=======
+        params = self._get_action_link_params(link_type, **kwargs)
+>>>>>>> upstream/18.0
 =======
         params = self._get_action_link_params(link_type, **kwargs)
 >>>>>>> upstream/18.0
@@ -5962,7 +5989,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             params.pop('model')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6036,7 +6066,11 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if link_type not in ['view']:
+=======
+        if link_type != 'view':
+>>>>>>> upstream/18.0
 =======
         if link_type != 'view':
 >>>>>>> upstream/18.0
@@ -6148,7 +6182,10 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6237,6 +6274,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6428,6 +6468,7 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """
         Check the payload limit of 4096 bytes to avoid 413 error return code.
         If the payload is too big, we trunc the body value.
@@ -6443,6 +6484,8 @@ class MailThread(models.AbstractModel):
         return payload
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6689,6 +6732,9 @@ class MailThread(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

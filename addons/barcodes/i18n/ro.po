@@ -5,8 +5,13 @@
 # Translators:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+=======
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2024
 # Larisa_nexterp, 2025
@@ -22,9 +27,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"POT-Creation-Date: 2025-05-23 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-05-23 18:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -48,7 +59,13 @@ msgstr ""
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " '*' nu este un șablon Regex de cod de bare. Folosiți '.*'"
+=======
+msgstr ""
+" '*' nu este un șablon Regex valid pentru cod de bare. Ați vrut să scrieți "
+"'.*'?"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 " '*' nu este un șablon Regex valid pentru cod de bare. Ați vrut să scrieți "
@@ -70,8 +87,14 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Nomenclatoarele de coduri de bare</i> definesc modul în care codurile de bare sunt recunoscute și categorizate. \n"
 "Când un cod de bare este scanat este asociat cu <i>prima</i> regulă de potrivire cu un șablon. Sintaxa șablonului este acela de expresie regulată, și un cod de bare este  potrivit în cazul în care expresia regulată se potrivește cu un prefixul codului de bare."
+=======
+"<i>Nomenclatoarele de coduri de bare</i> definesc modul în care codurile de bare sunt recunoscute și încadrate.\n"
+"Când un cod de bare este scanat, acesta este asociat cu <i>prima</i> regulă care se potrivește cu un șablon.\n"
+"Sintaxa șablonului este cea a expresiilor regulate, iar un cod de bare este potrivit dacă expresia regulată se potrivește cu un prefix al codului de bare."
+>>>>>>> upstream/18.0
 =======
 "<i>Nomenclatoarele de coduri de bare</i> definesc modul în care codurile de bare sunt recunoscute și încadrate.\n"
 "Când un cod de bare este scanat, acesta este asociat cu <i>prima</i> regulă care se potrivește cu un șablon.\n"
@@ -91,8 +114,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O nomenclatură a codurilor de bare definește modul în care punctul de "
 "vânzare identifică și interpretează codurile de bare"
+=======
+"O nomenclatură de coduri de bare definește modul în care punctul de vânzare "
+"identifică și interpretează codurile de bare"
+>>>>>>> upstream/18.0
 =======
 "O nomenclatură de coduri de bare definește modul în care punctul de vânzare "
 "identifică și interpretează codurile de bare"
@@ -107,7 +135,11 @@ msgstr ""
 msgid "Add a new barcode nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați o nouă nomenclatură a codului de bare"
+=======
+msgstr "Adaugă o nouă nomenclatură de coduri de bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă o nouă nomenclatură de coduri de bare"
 >>>>>>> upstream/18.0
@@ -154,7 +186,11 @@ msgstr "Cod de bare"
 msgid "Barcode Event Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mix de evenimente cu coduri de bare"
+=======
+msgstr "Mixin Evenimente Cod de Bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin Evenimente Cod de Bare"
 >>>>>>> upstream/18.0
@@ -170,7 +206,11 @@ msgstr "Mixin Evenimente Cod de Bare"
 msgid "Barcode Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nomenclator cod de bare"
+=======
+msgstr "Nomenclatură Cod de Bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nomenclatură Cod de Bare"
 >>>>>>> upstream/18.0
@@ -184,7 +224,11 @@ msgstr "Nomenclatură Cod de Bare"
 msgid "Barcode Nomenclatures"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nomenclatoare coduri de bare"
+=======
+msgstr "Nomenclaturi Coduri de Bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nomenclaturi Coduri de Bare"
 >>>>>>> upstream/18.0
@@ -197,7 +241,11 @@ msgstr "Nomenclaturi Coduri de Bare"
 msgid "Barcode Pattern"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șablon cod bare"
+=======
+msgstr "Șablon Cod de Bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablon Cod de Bare"
 >>>>>>> upstream/18.0
@@ -211,7 +259,11 @@ msgstr "Șablon Cod de Bare"
 msgid "Barcode Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă cod de bare"
+=======
+msgstr "Regulă Cod de Bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă Cod de Bare"
 >>>>>>> upstream/18.0
@@ -230,7 +282,11 @@ msgstr "Cod de bare scanat"
 msgid "Barcode: %(barcode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cod de bare: %(barcode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cod de bare: %(barcode)s"
 >>>>>>> upstream/18.0
@@ -255,7 +311,11 @@ msgstr "Creat de"
 msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -289,7 +349,11 @@ msgstr "EAN-8"
 msgid "Encoding"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codificare:"
+=======
+msgstr "Codificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codificare"
 >>>>>>> upstream/18.0
@@ -311,11 +375,14 @@ msgstr "ID"
 #. module: barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
 msgid "Last Updated by"
 msgstr "Ultima actualizare făcută de"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -333,6 +400,9 @@ msgstr ""
 msgid "Last Updated by"
 msgstr "Ultima actualizare de"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -343,7 +413,11 @@ msgstr "Ultima actualizare de"
 msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -361,7 +435,11 @@ msgstr "Niciodată"
 msgid "Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nomenclator"
+=======
+msgstr "Nomenclatură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nomenclatură"
 >>>>>>> upstream/18.0
@@ -381,6 +459,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Șabloanele pot defini modul în care valorile numerice, cum ar fi greutatea "
 "sau prețul, pot fi transformate în cod de bare. Acestea sunt indicate prin "
 "<code>{NNN}</code> unde N-urile definesc unde sunt codificate cifrele "
@@ -388,6 +467,8 @@ msgstr ""
 "cazuri, câmpul de cod de bare de pe înregistrările asociate <i>trebuie</i> "
 "să arate aceste cifre ca zerouri."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "Șabloanele pot defini și modul în care valorile numerice, precum greutatea "
@@ -398,6 +479,9 @@ msgstr ""
 " de cod de bare din înregistrările asociate <i>trebuie</i> să afișeze aceste"
 " cifre ca zerouri."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -408,7 +492,11 @@ msgstr ""
 msgid "Please, Scan again!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vă rugăm să scanați din nou!"
+=======
+msgstr "Vă rugăm, scanați din nou!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă rugăm, scanați din nou!"
 >>>>>>> upstream/18.0
@@ -421,7 +509,11 @@ msgstr "Vă rugăm, scanați din nou!"
 msgid "Rule Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numele regulii"
+=======
+msgstr "Nume regulă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume regulă"
 >>>>>>> upstream/18.0
@@ -444,7 +536,11 @@ msgstr "Secvență"
 msgid "Tables"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mese"
+=======
+msgstr "Tabele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tabele"
 >>>>>>> upstream/18.0
@@ -458,7 +554,11 @@ msgstr "Tabele"
 msgid "Tap to scan"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atinge pentru a scana"
+=======
+msgstr "Atingeți pentru a scana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atingeți pentru a scana"
 >>>>>>> upstream/18.0
@@ -471,7 +571,11 @@ msgstr "Atingeți pentru a scana"
 msgid "The barcode matching pattern"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelul de potrivire a codului de bare"
+=======
+msgstr "Șablonul de potrivire a codului de bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablonul de potrivire a codului de bare"
 >>>>>>> upstream/18.0
@@ -487,6 +591,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Șablonul de cod de bare %(pattern)s nu duce la o expresie regulată validă."
+>>>>>>> upstream/18.0
 =======
 "Șablonul de cod de bare %(pattern)s nu duce la o expresie regulată validă."
 >>>>>>> upstream/18.0
@@ -499,7 +607,11 @@ msgstr ""
 msgid "The list of barcode rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista regulilor codurilor de bare"
+=======
+msgstr "Lista regulilor de coduri de bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista regulilor de coduri de bare"
 >>>>>>> upstream/18.0
@@ -512,7 +624,11 @@ msgstr "Lista regulilor de coduri de bare"
 msgid "The matched pattern will alias to this barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelul potrivit va fi alias la acest cod de bare"
+=======
+msgstr "Șablonul potrivit va fi alias pentru acest cod de bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șablonul potrivit va fi alias pentru acest cod de bare"
 >>>>>>> upstream/18.0
@@ -529,8 +645,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Există o eroare de sintaxă în modelul codului de bare%(pattern)s: o regulă "
 "poate conține doar o pereche de aparate dentare."
+=======
+"Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: o regulă"
+" poate conține doar o singură pereche de acolade."
+>>>>>>> upstream/18.0
 =======
 "Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: o regulă"
 " poate conține doar o singură pereche de acolade."
@@ -549,8 +670,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Există o eroare de sintaxă în modelul codului de bare %(pattern)s: aparatele"
 " dentare pot conține doar N-uri urmate de D-uri."
+=======
+"Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: "
+"acoladele pot conține doar N-uri urmate de D-uri."
+>>>>>>> upstream/18.0
 =======
 "Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: "
 "acoladele pot conține doar N-uri urmate de D-uri."
@@ -568,7 +694,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Există o eroare de sintaxă în modelul codului de bare %(pattern)s: bretele "
+=======
+"Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: acolade "
+>>>>>>> upstream/18.0
 =======
 "Există o eroare de sintaxă în șablonul codului de bare %(pattern)s: acolade "
 >>>>>>> upstream/18.0
@@ -585,7 +715,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această regulă se va aplica numai dacă codul de bare este codificat cu "
+=======
+"Această regulă se va aplica doar dacă codul de bare este codificat cu "
+>>>>>>> upstream/18.0
 =======
 "Această regulă se va aplica doar dacă codul de bare este codificat cu "
 >>>>>>> upstream/18.0
@@ -609,9 +743,15 @@ msgstr ""
 "Codurile UPC pot fi convertite în EAN prin prefixarea lor cu un zero. "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această setare determină dacă un cod UPC/EAN trebuie să fie convertit "
 "automat într-o direcție sau alta când se încearcă să se potrivească o regulă"
 " cu alta codificare."
+=======
+"Această setare determină dacă un cod de bare UPC/EAN ar trebui să fie "
+"convertit automat într-o direcție sau alta atunci când se încearcă "
+"potrivirea unei reguli cu cealaltă codificare."
+>>>>>>> upstream/18.0
 =======
 "Această setare determină dacă un cod de bare UPC/EAN ar trebui să fie "
 "convertit automat într-o direcție sau alta atunci când se încearcă "
@@ -638,7 +778,11 @@ msgstr "UPC-A la EAN-13"
 msgid "UPC/EAN Conversion"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "UPC/EAN Conversion"
+=======
+msgstr "Conversie UPC/EAN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conversie UPC/EAN"
 >>>>>>> upstream/18.0
@@ -651,7 +795,11 @@ msgstr "Conversie UPC/EAN"
 msgid "Unit Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unitate produs"
+=======
+msgstr "Produs Unitar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produs Unitar"
 >>>>>>> upstream/18.0
@@ -665,7 +813,11 @@ msgstr "Produs Unitar"
 msgid "Unknown barcode command"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comandă necunoscută de cod de bare"
+=======
+msgstr "Comandă necunoscută pentru cod de bare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă necunoscută pentru cod de bare"
 >>>>>>> upstream/18.0
@@ -680,8 +832,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Folosit pentru a ordona reguli astfel încât regulile cu o secvență mai mică "
 "se potrivesc mai întâi"
+=======
+"Folosit pentru a ordona regulile astfel încât regulile cu o secvență mai "
+"mică să se potrivească primele"
+>>>>>>> upstream/18.0
 =======
 "Folosit pentru a ordona regulile astfel încât regulile cu o secvență mai "
 "mică să se potrivească primele"

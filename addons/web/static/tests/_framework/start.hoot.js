@@ -7,7 +7,10 @@ import { runTests } from "./module_set.hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26,6 +29,9 @@ function beforeFocusRequired(test) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68,6 +74,7 @@ defineTags(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         before: (test) => {
             if (!document.hasFocus()) {
                 console.warn(
@@ -76,6 +83,9 @@ defineTags(
                 );
             }
         },
+=======
+        before: beforeFocusRequired,
+>>>>>>> upstream/18.0
 =======
         before: beforeFocusRequired,
 >>>>>>> upstream/18.0

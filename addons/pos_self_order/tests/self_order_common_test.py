@@ -56,7 +56,10 @@ class SelfOrderCommonTest(odoo.tests.HttpCase):
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.ketchup = cls.env['product.product'].create({
@@ -68,6 +71,9 @@ class SelfOrderCommonTest(odoo.tests.HttpCase):
             'pos_categ_ids': [(4, pos_categ_misc.id)],
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

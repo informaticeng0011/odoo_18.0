@@ -25,7 +25,11 @@ import urllib.parse
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models
+=======
+from odoo import api, fields, models, modules
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, modules
 >>>>>>> upstream/18.0
@@ -164,6 +168,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if modules.module.current_test:
+            return
+>>>>>>> upstream/18.0
 =======
         if modules.module.current_test:
             return

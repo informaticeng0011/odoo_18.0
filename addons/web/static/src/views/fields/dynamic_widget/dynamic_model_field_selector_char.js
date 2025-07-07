@@ -47,7 +47,10 @@ export class DynamicModelFieldSelectorChar extends CharField {
     filter(fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (fieldDef.type === "separator") {
@@ -55,6 +58,9 @@ export class DynamicModelFieldSelectorChar extends CharField {
             return false;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

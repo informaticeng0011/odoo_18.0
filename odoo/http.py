@@ -221,6 +221,10 @@ from .tools.misc import submap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from .tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -445,9 +449,12 @@ class SessionExpiredException(Exception):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -610,6 +617,9 @@ def content_disposition(filename, disposition_type='attachment'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -910,6 +920,7 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data_b64 = record[field_name]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,6 +939,8 @@ class Stream:
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -991,6 +1004,9 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1805,6 +1821,10 @@ class HTTPRequest:
         httprequest.parameter_storage_class = werkzeug.datastructures.ImmutableMultiDict
         httprequest.max_content_length = DEFAULT_MAX_CONTENT_LENGTH
         httprequest.max_form_memory_size = 10 * 1024 * 1024  # 10 MB
+<<<<<<< HEAD
+=======
+        self._session_id__ = httprequest.cookies.get('session_id')
+>>>>>>> upstream/18.0
 
         self.__wrapped = httprequest
         self.__environ = self.__wrapped.environ
@@ -1853,7 +1873,11 @@ for attr in HTTPREQUEST_ATTRIBUTES:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Response(werkzeug.wrappers.Response):
+=======
+class _Response(werkzeug.wrappers.Response):
+>>>>>>> upstream/18.0
 =======
 class _Response(werkzeug.wrappers.Response):
 >>>>>>> upstream/18.0
@@ -1992,7 +2016,11 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls(result)
+=======
+            return Response(result)
+>>>>>>> upstream/18.0
 =======
             return Response(result)
 >>>>>>> upstream/18.0
@@ -2119,7 +2147,10 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2312,6 +2343,9 @@ werkzeug.exceptions.abort = abort
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2400,7 +2434,11 @@ class Request:
         self._post_init = None
 
     def _get_session_and_dbname(self):
+<<<<<<< HEAD
         sid = self.httprequest.cookies.get('session_id')
+=======
+        sid = self.httprequest._session_id__
+>>>>>>> upstream/18.0
         if not sid or not root.session_store.is_valid_key(sid):
             session = root.session_store.new()
         else:
@@ -2682,7 +2720,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -3471,7 +3513,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0

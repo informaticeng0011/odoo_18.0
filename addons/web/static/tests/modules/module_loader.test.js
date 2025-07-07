@@ -70,6 +70,10 @@ test("define: simple case", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -315,6 +319,10 @@ test("define: invalid module error handling", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -540,6 +548,10 @@ test("define: duplicate name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -765,6 +777,10 @@ test("define: missing module", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = false;
+>>>>>>> upstream/18.0
 =======
     loader.debug = false;
 >>>>>>> upstream/18.0
@@ -999,6 +1015,10 @@ test("define: dependency cycle", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    loader.debug = true;
+>>>>>>> upstream/18.0
 =======
     loader.debug = true;
 >>>>>>> upstream/18.0
@@ -1229,6 +1249,10 @@ test("define: dependency cycle", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ["APPENDCHILD", "STYLE", "o_module_error_banner"],
+>>>>>>> upstream/18.0
 =======
         ["APPENDCHILD", "STYLE", "o_module_error_banner"],
 >>>>>>> upstream/18.0

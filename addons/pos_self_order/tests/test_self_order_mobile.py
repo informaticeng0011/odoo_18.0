@@ -78,7 +78,10 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
         self.start_tour(self_route, "self_order_mobile_each_cancel")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -116,6 +119,9 @@ class TestSelfOrderMobile(SelfOrderCommonTest):
         # Zero priced order
         self.start_tour(self_route, "self_order_mobile_0_price_order")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

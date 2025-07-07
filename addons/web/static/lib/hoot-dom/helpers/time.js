@@ -44,8 +44,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { HootDomError } from "../hoot_dom_utils";
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189,10 +192,13 @@ const $performanceNow = performance.now.bind(performance);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const animationToId = (id) => ID_PREFIX.animation + String(id);
 
 const getNextTimerValues = () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243,6 +249,9 @@ function getNextTimerValues() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -283,6 +292,7 @@ function getNextTimerValues() {
         }
     }
     return timerValues;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,10 +358,14 @@ function getNextTimerValues() {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} id
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,10 +463,16 @@ function idToAnimation(id) {
     return Number(id.slice(ID_PREFIX.animation.length));
 }
 >>>>>>> upstream/18.0
+=======
+function idToAnimation(id) {
+    return Number(id.slice(ID_PREFIX.animation.length));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} id
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,6 +570,11 @@ function idToInterval(id) {
     return Number(id.slice(ID_PREFIX.interval.length));
 }
 >>>>>>> upstream/18.0
+=======
+function idToInterval(id) {
+    return Number(id.slice(ID_PREFIX.interval.length));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {string} id
@@ -570,7 +595,13 @@ function idToInterval(id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const idToTimeout = (id) => Number(id.slice(ID_PREFIX.timeout.length));
+=======
+function idToTimeout(id) {
+    return Number(id.slice(ID_PREFIX.timeout.length));
+}
+>>>>>>> upstream/18.0
 =======
 function idToTimeout(id) {
     return Number(id.slice(ID_PREFIX.timeout.length));
@@ -671,7 +702,13 @@ function idToTimeout(id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const intervalToId = (id) => ID_PREFIX.interval + String(id);
+=======
+function intervalToId(id) {
+    return ID_PREFIX.interval + String(id);
+}
+>>>>>>> upstream/18.0
 =======
 function intervalToId(id) {
     return ID_PREFIX.interval + String(id);
@@ -774,10 +811,13 @@ function intervalToId(id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseNat = (value) => $max($floor(Number(value)), 0) || 0;
 
 const now = () => (frozen ? 0 : $performanceNow()) + timeOffset;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -830,6 +870,9 @@ function now() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -865,6 +908,7 @@ function now() {
 /**
  * @param {number} id
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -997,6 +1041,8 @@ const timeoutToId = (id) => ID_PREFIX.timeout + String(id);
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function timeoutToId(id) {
     return ID_PREFIX.timeout + String(id);
 }
@@ -1016,6 +1062,9 @@ function timeoutToId(id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1094,6 +1143,9 @@ class HootTimingError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1305,7 +1357,11 @@ export function animationFrame() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new Promise((resolve) => requestAnimationFrame(() => delay().then(resolve)));
+=======
+    return new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
+>>>>>>> upstream/18.0
 =======
     return new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve)));
 >>>>>>> upstream/18.0
@@ -1547,11 +1603,14 @@ export function mockedRequestAnimationFrame(callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const handler = () => {
         mockedCancelAnimationFrame(handle);
         return callback(now());
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1601,6 +1660,9 @@ export function mockedRequestAnimationFrame(callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1665,7 +1727,11 @@ export function mockedSetInterval(callback, ms, ...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const handler = () => {
+=======
+    function handler() {
+>>>>>>> upstream/18.0
 =======
     function handler() {
 >>>>>>> upstream/18.0
@@ -1736,7 +1802,11 @@ export function mockedSetInterval(callback, ms, ...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -1818,11 +1888,14 @@ export function mockedSetTimeout(callback, ms, ...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const handler = () => {
         mockedClearTimeout(timeoutId);
         return callback(...args);
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1872,6 +1945,9 @@ export function mockedSetTimeout(callback, ms, ...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1985,7 +2061,11 @@ export function setFrameRate(frameRate) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new Error("frame rate must be an number between 1 and 1000");
+=======
+        throw new HootTimingError("frame rate must be an number between 1 and 1000");
+>>>>>>> upstream/18.0
 =======
         throw new HootTimingError("frame rate must be an number between 1 and 1000");
 >>>>>>> upstream/18.0
@@ -2189,7 +2269,11 @@ export function tick() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {() => T} predicate
+=======
+ * @param {(last: boolean) => T} predicate
+>>>>>>> upstream/18.0
 =======
  * @param {(last: boolean) => T} predicate
 >>>>>>> upstream/18.0
@@ -2374,6 +2458,7 @@ export function tick() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function waitUntil(predicate, options) {
     // Early check before running the loop
     const result = predicate();
@@ -2393,6 +2478,8 @@ export function waitUntil(predicate, options) {
                 resolve(result);
             } else if (running) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2509,7 +2596,11 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const runCheck = () => {
+=======
+        function runCheck() {
+>>>>>>> upstream/18.0
 =======
         function runCheck() {
 >>>>>>> upstream/18.0
@@ -2606,6 +2697,9 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2744,8 +2838,11 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 reject(new HootDomError(message.replace("%timeout%", String(timeout))));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2837,6 +2934,7 @@ export async function waitUntil(predicate, options) {
                 } else {
                     reject(new HootTimingError(message.replace("%timeout%", String(timeout))));
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3114,6 +3212,8 @@ export async function waitUntil(predicate, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             }
         }
 
@@ -3135,6 +3235,9 @@ export async function waitUntil(predicate, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3241,7 +3344,11 @@ export class Deferred extends Promise {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super((resolve, reject) => {
+=======
+        super(function deferredResolver(resolve, reject) {
+>>>>>>> upstream/18.0
 =======
         super(function deferredResolver(resolve, reject) {
 >>>>>>> upstream/18.0

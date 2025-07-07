@@ -7,7 +7,11 @@ import { getContent, getSelection, setContent } from "./selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { animationFrame } from "@odoo/hoot-mock";
+=======
+import { animationFrame, tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -245,6 +249,7 @@ export async function testEditor(config) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // Wait for selectionchange handlers to react before any actual testing.
     await Promise.resolve();
@@ -488,6 +493,11 @@ export async function testEditor(config) {
 =======
     // Wait for selectionchange handlers to react before any actual testing.
     await Promise.resolve();
+
+>>>>>>> upstream/18.0
+=======
+    // Wait for selectionchange handlers to react before any actual testing.
+    await tick();
 
 >>>>>>> upstream/18.0
 =======

@@ -52,6 +52,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -1241,6 +1245,7 @@ test("embedded one2many with handle widget", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(
         Turtle._records.map((r) => {
             return {
@@ -1250,6 +1255,9 @@ test("embedded one2many with handle widget", async () => {
             };
         })
     ).toEqual([
+=======
+    expect(MockServer.env["turtle"].map((r) => pick(r, "id", "turtle_foo", "turtle_int"))).toEqual([
+>>>>>>> upstream/18.0
 =======
     expect(MockServer.env["turtle"].map((r) => pick(r, "id", "turtle_foo", "turtle_int"))).toEqual([
 >>>>>>> upstream/18.0
@@ -2104,7 +2112,13 @@ test("onchange on one2many containing x2many in form view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views = { list: '<list><field name="foo"/></list>', search: "<search></search>" };
+=======
+    Partner._views = {
+        list: '<list><field name="foo"/></list>',
+    };
+>>>>>>> upstream/18.0
 =======
     Partner._views = {
         list: '<list><field name="foo"/></list>',
@@ -6190,7 +6204,11 @@ test("sub form view with a required field", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._fields.foo = fields.Char({ default: null, required: true });
+=======
+    Partner._fields.foo = fields.Char({ required: true });
+>>>>>>> upstream/18.0
 =======
     Partner._fields.foo = fields.Char({ required: true });
 >>>>>>> upstream/18.0
@@ -6842,9 +6860,14 @@ test("many2many list in a one2many opened by a many2one", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
     };
     onRpc("/web/dataset/call_kw/partner/get_formview_id", () => false);
+=======
+    };
+    onRpc("partner", "get_formview_id", () => false);
+>>>>>>> upstream/18.0
 =======
     };
     onRpc("partner", "get_formview_id", () => false);
@@ -9704,9 +9727,12 @@ test("one2many form view with action button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Partner._records[1].name = "new name";
             Partner._records[1].timmy = [12];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9801,6 +9827,9 @@ test("one2many form view with action button", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10812,7 +10841,11 @@ test("one2many with many2many_tags in list and list in form with a limit", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".modal .o_field_x2many_list .o_pager").not.toBeVisible();
+=======
+    expect(".modal .o_field_x2many_list .o_pager").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".modal .o_field_x2many_list .o_pager").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -11187,11 +11220,15 @@ test("reordering embedded one2many with handle widget starting with same sequenc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(
         Turtle._records.map((r) => {
             return { id: r.id, turtle_int: r.turtle_int };
         })
     ).toEqual([
+=======
+    expect(MockServer.env["turtle"].map((r) => pick(r, "id", "turtle_int"))).toEqual([
+>>>>>>> upstream/18.0
 =======
     expect(MockServer.env["turtle"].map((r) => pick(r, "id", "turtle_int"))).toEqual([
 >>>>>>> upstream/18.0
@@ -11466,7 +11503,10 @@ test("one2many from a model that has been sorted", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12626,8 +12666,11 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [["form", 1234]]: `
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12726,6 +12769,9 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12829,11 +12875,14 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect.step(`localStorage setItem ${args}`);
         },
         getItem(args) {
             expect.step(`localStorage getItem ${args}`);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12928,6 +12977,9 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12997,6 +13049,7 @@ test("open a one2many record containing a one2many", async () => {
     rec.p = [1];
     await mountView({
         type: "form",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13102,6 +13155,8 @@ test("open a one2many record containing a one2many", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         resModel: "partner",
         resId: 2,
         viewId: 5,
@@ -13141,6 +13196,9 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13207,6 +13265,7 @@ test("open a one2many record containing a one2many", async () => {
     await contains(".o_data_cell").click();
     expect(".modal .o_data_row").toHaveCount(1);
     expect.verifySteps([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13371,6 +13430,8 @@ test("open a one2many record containing a one2many", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         "getItem: optional_fields,partner,form,5,p,list,name",
         "getItem: debug_open_view,partner,form,5,p,list,name",
         "getItem: optional_fields,partner,form,5,turtles,list,name",
@@ -13408,6 +13469,9 @@ test("open a one2many record containing a one2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13592,6 +13656,9 @@ test("open a one2many record with optional open record displayed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14072,10 +14139,13 @@ test("nested one2manys, multi page, onchange", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(Partner._records[0].int_field).toBe(5);
     expect(Turtle._records[1].turtle_int).toBe(5);
     expect(Turtle._records[0].turtle_int).toBe(5);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14170,6 +14240,9 @@ test("nested one2manys, multi page, onchange", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14805,7 +14878,10 @@ test("add a row to an x2many and ask canBeRemoved twice", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

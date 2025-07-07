@@ -58,7 +58,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <strong>Shipping Address</strong>
+=======
+                                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
 =======
                                     <strong class="d-block mt-3">Shipping Address</strong>
 >>>>>>> upstream/18.0
@@ -256,6 +260,7 @@
                             <span t-if="o.name and o.name != '/'" t-field="o.name">INV/2023/0001</span>
                         </t>
                         <div class="oe_structure"></div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -581,6 +586,11 @@
                             id="informations" class="row mb-4"
                             t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
 >>>>>>> upstream/18.0
+=======
+                        <div
+                            id="informations" class="row mb-4"
+                            t-if="o.invoice_date or (o.invoice_date_due and o.move_type == 'out_invoice' and o.state == 'posted') or o.delivery_date or o.invoice_origin or o.partner_id.ref or o.ref or o.invoice_incoterm_id">
+>>>>>>> upstream/18.0
                             <div class="col" t-if="o.invoice_date" name="invoice_date">
                                 <t t-if="o.move_type == 'out_invoice'"><strong>Invoice Date</strong></t>
                                 <t t-elif="o.move_type == 'out_refund'"><strong>Credit Note Date</strong></t>
@@ -625,7 +635,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <table class="o_has_total_table table o_main_table table-borderless" name="invoice_line_table">
+=======
+                        <table class="o_has_total_table table o_main_table table-borderless mb-0" name="invoice_line_table">
+>>>>>>> upstream/18.0
 =======
                         <table class="o_has_total_table table o_main_table table-borderless mb-0" name="invoice_line_table">
 >>>>>>> upstream/18.0
@@ -674,8 +688,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <td name="td_quantity" class="text-end text-nowrap">
                                                 <span t-field="line.quantity">3.00</span>
+=======
+                                            <td name="td_quantity" class="o_td_quantity text-end">
+                                                <span t-field="line.quantity" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
 =======
                                             <td name="td_quantity" class="o_td_quantity text-end">
                                                 <span t-field="line.quantity" class="text-nowrap">3.00</span>
@@ -740,6 +759,7 @@
                                 </t>
                             </tbody>
                         </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,6 +873,11 @@
                             <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
                                 <div id="total" class="clearfix row">
 >>>>>>> upstream/18.0
+=======
+                        <div class="overflow-hidden">
+                            <div id="right-elements" t-attf-class="#{'col-5 mt-5' if report_type == 'pdf' else 'col-12 col-md-5'} ms-5 d-inline-block float-end">
+                                <div id="total" class="clearfix row">
+>>>>>>> upstream/18.0
                                     <div class="ms-auto">
                                         <table class="o_total_table table table-borderless avoid-page-break-inside">
 
@@ -905,6 +930,7 @@
                                     <div class="oe_structure"/>
                                 </t>
                             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1044,9 @@
 >>>>>>> upstream/18.0
 =======
                             <div id="payment_term" class="clearfix">
+>>>>>>> upstream/18.0
+=======
+                            <div id="payment_term" class="clearfix mt-3">
 >>>>>>> upstream/18.0
 =======
                             <div id="payment_term" class="clearfix mt-3">
@@ -1168,8 +1197,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <td>
                                 <span class="text-nowrap" t-out="tax_group['group_name']">Tax 15%</span>
+=======
+                            <td style="max-width: 200px;">
+                                <span t-out="tax_group['group_name']">Tax 15%</span>
+>>>>>>> upstream/18.0
 =======
                             <td style="max-width: 200px;">
                                 <span t-out="tax_group['group_name']">Tax 15%</span>

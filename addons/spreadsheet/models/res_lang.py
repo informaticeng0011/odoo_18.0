@@ -32,7 +32,11 @@ class Lang(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         lang = self._lang_get(self.env.user.lang)
+=======
+        lang = self._lang_get(self.env.user.lang or 'en_US')
+>>>>>>> upstream/18.0
 =======
         lang = self._lang_get(self.env.user.lang or 'en_US')
 >>>>>>> upstream/18.0
