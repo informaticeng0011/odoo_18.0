@@ -14,6 +14,10 @@ export class ReceptionReportTable extends Component {
         scheduledDate: { type: String, optional: true },
         lines: Array,
         source: Array,
+<<<<<<< HEAD
+=======
+        labelReport: Object,
+>>>>>>> upstream/18.0
         showUom: Boolean,
         precision: Number,
     };
@@ -55,7 +59,10 @@ export class ReceptionReportTable extends Component {
     }
 
     async onClickPrintLabels() {
+<<<<<<< HEAD
         const reportFile = 'stock.report_reception_report_label';
+=======
+>>>>>>> upstream/18.0
         const modelIds = [];
         const quantities = [];
         for (const line of this.props.lines) {
@@ -68,10 +75,16 @@ export class ReceptionReportTable extends Component {
         }
 
         return this.actionService.doAction({
+<<<<<<< HEAD
             type: "ir.actions.report",
             report_type: "qweb-pdf",
             report_name: `${reportFile}?docids=${modelIds}&quantity=${quantities}`,
             report_file: reportFile,
+=======
+            ...this.props.labelReport,
+            context: { active_ids: modelIds },
+            data: { docids: modelIds, quantity: quantities.join(",") },
+>>>>>>> upstream/18.0
         });
     }
 

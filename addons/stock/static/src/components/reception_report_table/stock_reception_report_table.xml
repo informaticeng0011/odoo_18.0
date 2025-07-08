@@ -32,6 +32,10 @@
             <t t-foreach="props.lines" t-as="line" t-key="line.index">
                 <ReceptionReportLine
                     data="line"
+<<<<<<< HEAD
+=======
+                    labelReport="props.labelReport"
+>>>>>>> upstream/18.0
                     parentIndex="props.index"
                     showUom="props.showUom"
                     precision="props.precision"/>

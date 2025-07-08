@@ -79,7 +79,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { parseDateTime } from "@web/core/l10n/dates";
+=======
+import { parseDateTime, deserializeDate } from "@web/core/l10n/dates";
+>>>>>>> upstream/18.0
 =======
 import { parseDateTime, deserializeDate } from "@web/core/l10n/dates";
 >>>>>>> upstream/18.0
@@ -566,7 +570,10 @@ export function lt(a, b, { decimals } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +908,9 @@ export function computeProductPricelistCache(service, data = []) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

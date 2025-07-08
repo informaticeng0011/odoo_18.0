@@ -24,6 +24,10 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'email': 'info@company.trexample.com',
             'phone': '+90 501 234 56 78',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': 'Ulus',
+>>>>>>> upstream/18.0
 =======
             'ref': 'Ulus',
 >>>>>>> upstream/18.0
@@ -43,6 +47,10 @@ class TestUBLTR(AccountTestInvoicingCommon):
             'bank_ids': [(0, 0, {'acc_number': 'TR9876543210'})],
             'invoice_edi_format': 'ubl_tr',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': 'Ulus',
+>>>>>>> upstream/18.0
 =======
             'ref': 'Ulus',
 >>>>>>> upstream/18.0
@@ -106,6 +114,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
@@ -185,6 +194,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
             self.partner_1.ref = '1234567890'
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

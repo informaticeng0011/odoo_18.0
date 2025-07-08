@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from odoo import tools
+=======
+from odoo import tools, Command
+>>>>>>> upstream/18.0
 from odoo.tests.common import tagged
 from odoo.exceptions import UserError
 from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSendCommon
@@ -200,6 +204,45 @@ class L10nHuEdiTestFlowsMocked(L10nHuEdiTestCommon, TestAccountMoveSendCommon):
                 send_and_print.action_send_and_print()
                 self.assertRecordValues(new_invoice, [{'l10n_hu_edi_state': 'confirmed', 'l10n_hu_invoice_chain_index': 2}])
 
+<<<<<<< HEAD
+=======
+    def test_invoice_line_currency_rate_from_sale(self):
+        if self.env['ir.module.module']._get('sale_stock').state == 'installed':
+            currency = self.setup_other_currency('HRK', rates=[
+                ('2016-01-01', 3.0),
+                ('2017-01-01', 2.0),
+            ])
+            pricelist = self.env['product.pricelist'].create({
+                'name': 'Foreign pricelist',
+                'currency_id': currency.id,
+            })
+
+            sale_order = self.env['sale.order'].create({
+                'partner_id': self.partner_company.id,
+                'partner_invoice_id': self.partner_company.id,
+                'pricelist_id': pricelist.id,
+                'order_line': [Command.create({
+                    'product_id': self.product.id,
+                    'product_uom_qty': 1,
+                    'price_unit': 600,
+                })],
+                'currency_id': currency.id,
+                'date_order': '2017-01-01',
+            })
+            sale_order.action_confirm()
+
+            delivery = sale_order.picking_ids
+            delivery.button_validate()
+            delivery.date_done = '2016-01-01'
+
+            invoice = sale_order._create_invoices()
+            self.assertRecordValues(invoice.line_ids, [
+                {'amount_currency': -600.00,   'balance': -200.00},
+                {'amount_currency': -162.00,   'balance': -54.00},
+                {'amount_currency': 762.00,    'balance': 254.00},
+            ])
+
+>>>>>>> upstream/18.0
     # === Helpers === #
 
     @contextlib.contextmanager

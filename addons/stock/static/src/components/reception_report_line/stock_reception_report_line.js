@@ -7,6 +7,10 @@ export class ReceptionReportLine extends Component {
     static template = "stock.ReceptionReportLine";
     static props = {
         data: Object,
+<<<<<<< HEAD
+=======
+        labelReport: Object,
+>>>>>>> upstream/18.0
         parentIndex: String,
         showUom: Boolean,
         precision: Number,
@@ -34,15 +38,24 @@ export class ReceptionReportLine extends Component {
         if (!this.data.move_out_id) {
             return;
         }
+<<<<<<< HEAD
         const reportFile = 'stock.report_reception_report_label';
+=======
+>>>>>>> upstream/18.0
         const modelIds = [this.data.move_out_id];
         const productQtys = [Math.ceil(this.data.quantity) || '1'];
 
         return this.actionService.doAction({
+<<<<<<< HEAD
             type: "ir.actions.report",
             report_type: "qweb-pdf",
             report_name: `${reportFile}?docids=${modelIds}&quantity=${productQtys}`,
             report_file: reportFile,
+=======
+            ...this.props.labelReport,
+            context: { active_ids: modelIds },
+            data: { docids: modelIds, quantity: productQtys.join(",") },
+>>>>>>> upstream/18.0
         });
     }
 

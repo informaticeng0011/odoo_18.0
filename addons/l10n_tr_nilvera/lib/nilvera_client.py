@@ -53,7 +53,11 @@ class NilveraClient:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             _logger.error("Network error during request: %s", e)
+=======
+            _logger.info("Network error during request: %s", e)
+>>>>>>> upstream/18.0
 =======
             _logger.info("Network error during request: %s", e)
 >>>>>>> upstream/18.0

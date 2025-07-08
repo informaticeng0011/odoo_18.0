@@ -26,7 +26,11 @@ class AccountMoveSend(models.AbstractModel):
     def _get_alerts(self, moves, moves_data):
         alerts = super()._get_alerts(moves, moves_data)
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invalid_tr_partners := moves.filtered(
+=======
+        if tr_partners_missing_address := moves.filtered(
+>>>>>>> upstream/18.0
 =======
         if tr_partners_missing_address := moves.filtered(
 >>>>>>> upstream/18.0
@@ -36,9 +40,12 @@ class AccountMoveSend(models.AbstractModel):
                 "message": _("The following partner(s) are either not Turkish or are missing one of those fields: city, state and street."),
                 "action_text": _("View Partner(s)"),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "action": invalid_tr_partners._get_records_action(name=_("Check data on Partner(s)")),
             }
 =======
+=======
+>>>>>>> upstream/18.0
                 "action": tr_partners_missing_address._get_records_action(name=_("Check data on Partner(s)")),
             }
 
@@ -53,6 +60,9 @@ class AccountMoveSend(models.AbstractModel):
                 "level": "danger",
             }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return alerts
 

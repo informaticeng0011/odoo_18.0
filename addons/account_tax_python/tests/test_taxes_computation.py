@@ -6,6 +6,7 @@ from odoo.exceptions import ValidationError
 @tagged('post_install', '-at_install')
 class TestTaxesComputation(TestTaxCommon):
 
+<<<<<<< HEAD
     def python_tax(self, formula, **kwargs):
         self.number += 1
         vals = {
@@ -23,6 +24,8 @@ class TestTaxesComputation(TestTaxCommon):
                 vals['price_include_override'] = False
         return self.env['account.tax'].create(vals)
 
+=======
+>>>>>>> upstream/18.0
     def _jsonify_tax(self, tax):
         values = super()._jsonify_tax(tax)
         values['formula_decoded_info'] = tax.formula_decoded_info
@@ -34,9 +37,15 @@ class TestTaxesComputation(TestTaxCommon):
         price_unit,
         expected_values,
         product_values=None,
+<<<<<<< HEAD
         price_include='tax_excluded',
     ):
         tax = self.python_tax(formula, price_include=price_include)
+=======
+        price_include_override='tax_excluded',
+    ):
+        tax = self.python_tax(formula, price_include_override=price_include_override)
+>>>>>>> upstream/18.0
         if product_values:
             product = self.env['product.product'].create({
                 'name': "assert_python_taxes_computation",
@@ -68,7 +77,11 @@ class TestTaxesComputation(TestTaxCommon):
                     (102.7, 27.3),
                 ),
             },
+<<<<<<< HEAD
             price_include='tax_included',
+=======
+            price_include_override='tax_included',
+>>>>>>> upstream/18.0
         )
         self.assert_python_taxes_computation(
             "product.volume * quantity * 0.35",

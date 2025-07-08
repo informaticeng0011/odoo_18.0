@@ -31,8 +31,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Sarah Park, 2024
 # Daye Jeong, 2025
+=======
+# Daye Jeong, 2025
+# Sarah Park, 2025
+>>>>>>> upstream/18.0
 =======
 # Daye Jeong, 2025
 # Sarah Park, 2025
@@ -146,6 +151,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
@@ -255,6 +261,11 @@ msgstr ""
 "Last-Translator: Sarah Park, 2025\n"
 >>>>>>> upstream/18.0
 =======
+"Last-Translator: Sarah Park, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-05 00:43+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
@@ -2104,9 +2115,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "영수증을 첨부하여 이 이메일 별칭으로 메일을 보내면 단 한 번의 클릭만으로도 비용을 생성할 수 있습니다. 메일 제목의 첫 단어에 "
 "카테고리의 내부 참조 또는 카테고리 이름이 포함되어 있으면 해당 카테고리가 자동으로 설정됩니다. 또한 메일 제목에 비용 금액을 입력하면 "
 "비용도 설정할 수 있습니다."
+=======
+"이 이메일 별칭으로 영수증을 첨부하여 이메일을 전송하면 클릭 한 번만으로 경비를 생성할 수 있습니다. 메일 제목에 있는 첫 번째 단어가 "
+"카테고리의 내부 참조 번호 혹은 카테고리 이름에 해당할 경우 관련된 카테고리가 자동으로 설정됩니다. 또한 메일 제목에 경비 금액을 "
+"입력하면 경비에도 자동으로 설정됩니다."
+>>>>>>> upstream/18.0
 =======
 "이 이메일 별칭으로 영수증을 첨부하여 이메일을 전송하면 클릭 한 번만으로 경비를 생성할 수 있습니다. 메일 제목에 있는 첫 번째 단어가 "
 "카테고리의 내부 참조 번호 혹은 카테고리 이름에 해당할 경우 관련된 카테고리가 자동으로 설정됩니다. 또한 메일 제목에 경비 금액을 "
@@ -2882,6 +2899,24 @@ msgstr "승인 또는 지급된 경비 보고서에서 비용을 추가하거나
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
+=======
+#: code:addons/hr_expense/models/hr_expense_sheet.py:0
+msgid ""
+"You don't have the rights to bypass the validation process of this expense "
+"report."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+#: code:addons/hr_expense/models/hr_expense.py:0
+msgid ""
+"You don't have the rights to bypass the validation process of this expense."
+msgstr ""
+
+#. module: hr_expense
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You have no expense to report"
 msgstr "비용 처리할 경비가 없습니다"
