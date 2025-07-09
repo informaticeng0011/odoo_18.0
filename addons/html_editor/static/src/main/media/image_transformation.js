@@ -40,6 +40,10 @@ export class ImageTransformation extends Component {
     };
 
     setup() {
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = false;
+>>>>>>> upstream/18.0
         this.document = this.props.document;
         this.image = this.props.image;
         this.transfoContainer = useRef("transfoContainer");
@@ -76,7 +80,10 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159,6 +166,7 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -210,6 +218,14 @@ export class ImageTransformation extends Component {
 >>>>>>> upstream/18.0
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, this.resetHandlers);
+=======
+        useHotkey("escape", () => this.props.destroy());
+        usePositionHook({ el: this.props.editable }, this.document, () => {
+            if (!this.isCurrentlyTransforming) {
+                this.resetHandlers();
+            }
+        });
+>>>>>>> upstream/18.0
     }
 
     mouseMove(ev) {
@@ -324,6 +340,10 @@ export class ImageTransformation extends Component {
     }
 
     mouseUp() {
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = false;
+>>>>>>> upstream/18.0
         this.transfo.active = null;
     }
 
@@ -331,6 +351,10 @@ export class ImageTransformation extends Component {
         if (this.transfo.active) {
             return;
         }
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = true;
+>>>>>>> upstream/18.0
         let type = "position";
         const target = ev.target.closest("div");
 

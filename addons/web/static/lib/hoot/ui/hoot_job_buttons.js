@@ -71,8 +71,12 @@ export class HootJobButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                 ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0
@@ -264,8 +268,12 @@ export class HootJobButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     type="type"
                     id="props.job.id"
+=======
+                    ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                     ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0
@@ -458,8 +466,12 @@ export class HootJobButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 type="type"
                 id="props.job.id"
+=======
+                ids="{ [type]: props.job.id }"
+>>>>>>> upstream/18.0
 =======
                 ids="{ [type]: props.job.id }"
 >>>>>>> upstream/18.0

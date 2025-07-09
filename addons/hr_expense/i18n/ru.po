@@ -8,6 +8,10 @@
 # Wil Odoo, 2025
 # Ilya Rozhkov, 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -17,9 +21,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ilya Rozhkov, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-05 00:43+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-07-05 00:43+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
@@ -71,7 +81,12 @@ msgid ""
 "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s подтверждает, что данный расход не дублирует аналогичный расход."
+=======
+"%(user)s подтверждает, что этот расход не является дубликатом похожей "
+"операции."
+>>>>>>> upstream/18.0
 =======
 "%(user)s подтверждает, что этот расход не является дубликатом похожей "
 "операции."
@@ -94,7 +109,11 @@ msgstr "%s: За свой счет"
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "%s: Your are not a Manager or HR Officer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s: Вы не являетесь руководителем или сотрудником отдела кадров"
+=======
+msgstr "%s: Вы не являетесь менеджером или сотрудником отдела кадров"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s: Вы не являетесь менеджером или сотрудником отдела кадров"
 >>>>>>> upstream/18.0
@@ -112,7 +131,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "(incl"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(вкл."
+>>>>>>> upstream/18.0
 =======
 msgstr "(вкл."
 >>>>>>> upstream/18.0
@@ -134,6 +157,11 @@ msgstr "2023-08-11"
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>Тратите слишком много времени на ручной ввод чеков?</b> У нас есть "
+"решение для вас!"
+>>>>>>> upstream/18.0
 =======
 "<b>Тратите слишком много времени на ручной ввод чеков?</b> У нас есть "
 "решение для вас!"
@@ -144,6 +172,11 @@ msgstr ""
 msgid "<i class=\"oi oi-arrow-right\"/> Setup your alias domain"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/> Настройте домен для псевдонима электронной "
+"почты"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/> Настройте домен для псевдонима электронной "
 "почты"
@@ -189,7 +222,11 @@ msgstr "<span>Оплачено:</span>"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "<span>The total amount doesn't match the original amount.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Общая сумма не совпадает с исходной суммой.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Общая сумма не совпадает с исходной суммой.</span>"
 >>>>>>> upstream/18.0
@@ -203,6 +240,12 @@ msgid ""
 "method."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Для расходов, оплаченных компанией, в настройках должен быть указан счет "
+"задолженности по умолчанию. Или укажите счет в журнале для метода "
+"оплаты %(method)s."
+>>>>>>> upstream/18.0
 =======
 "Для расходов, оплаченных компанией, в настройках должен быть указан счет "
 "задолженности по умолчанию. Или укажите счет в журнале для метода "
@@ -291,8 +334,13 @@ msgstr "Все отчеты"
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Все расходы в отчете о расходах должны иметь одинаковые критерии \"оплачено "
 "кем\"."
+=======
+"Все расходы в отчете должны иметь одинаковый критерий «оплачено» "
+"(компанией / сотрудником)."
+>>>>>>> upstream/18.0
 =======
 "Все расходы в отчете должны иметь одинаковый критерий «оплачено» "
 "(компанией / сотрудником)."
@@ -329,7 +377,11 @@ msgstr "Бухгалтерский счет для отражения расхо
 #: code:addons/hr_expense/static/src/views/expense_form_view.js:0
 msgid "An expense of same category, amount and date already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Расход той же категории, суммы и даты уже существует."
+=======
+msgstr "Расход с той же категорией, суммой и датой уже существует."
+>>>>>>> upstream/18.0
 =======
 msgstr "Расход с той же категорией, суммой и датой уже существует."
 >>>>>>> upstream/18.0
@@ -339,8 +391,12 @@ msgstr "Расход с той же категорией, суммой и да
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "An expense report must contain only lines from the same company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Отчет о расходах должен содержать только строки одной и той же компании."
+=======
+msgstr "Отчет о расходах может содержать строки только одной компании."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отчет о расходах может содержать строки только одной компании."
 >>>>>>> upstream/18.0
@@ -426,7 +482,11 @@ msgstr "Приложите квитанцию"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Attach a receipt - usually an image or a PDF file."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Прикрепите квитанцию - обычно это изображение или PDF-файл."
+=======
+msgstr "Прикрепите чек – изображение или PDF-файл."
+>>>>>>> upstream/18.0
 =======
 msgstr "Прикрепите чек – изображение или PDF-файл."
 >>>>>>> upstream/18.0
@@ -469,8 +529,13 @@ msgid ""
 "taxes for expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Налоги, включаемые и исключаемые из цены, будут вести себя в отношении "
 "расходов как налоги, включаемые в цену."
+=======
+"Вне зависимости от того, включен ли налог в стоимость или нет, при учете "
+"расходов все налоги рассматриваются как налоги, включенные в цену."
+>>>>>>> upstream/18.0
 =======
 "Вне зависимости от того, включен ли налог в стоимость или нет, при учете "
 "расходов все налоги рассматриваются как налоги, включенные в цену."
@@ -567,9 +632,15 @@ msgid ""
 "same category. The conversion will be made based on the ratios."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Пересчет между единицами измерения может произойти только в том случае, если"
 " они принадлежат к одной и той же категории. Пересчет будет осуществляться "
 "на основе коэффициентов."
+=======
+"Конверсия между единицами измерения возможна только в том случае, если они "
+"принадлежат к одной категории. Конверсия будет выполнена на основе "
+"коэффициентов."
+>>>>>>> upstream/18.0
 =======
 "Конверсия между единицами измерения возможна только в том случае, если они "
 "принадлежат к одной категории. Конверсия будет выполнена на основе "
@@ -683,7 +754,11 @@ msgstr "Журнал по умолчанию для учета расходов,
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default outstanding account for expenses paid by company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет задолженности по умолчанию для расходов, оплаченных компанией."
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет задолженности по умолчанию для расходов, оплаченных компанией."
 >>>>>>> upstream/18.0
@@ -730,9 +805,14 @@ msgid ""
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Больше не храните расходные квитанции в карманах. Просто сфотографируйте чек"
 " и позвольте Odoo оцифровать его для вас. OCR и искусственный интеллект "
 "заполнят данные автоматически."
+=======
+"Больше не храните чеки в карманах! Просто сфотографируйте чек, и Odoo "
+"распознает его: OCR и ИИ заполнят данные автоматически."
+>>>>>>> upstream/18.0
 =======
 "Больше не храните чеки в карманах! Просто сфотографируйте чек, и Odoo "
 "распознает его: OCR и ИИ заполнят данные автоматически."
@@ -811,8 +891,12 @@ msgid ""
 "Enter a name then choose a category and configure the amount of your "
 "expense."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Введите название, затем выберите категорию и настройте сумму расходов."
+=======
+msgstr "Введите название, выберите категорию и укажите сумму расхода."
+>>>>>>> upstream/18.0
 =======
 msgstr "Введите название, выберите категорию и укажите сумму расхода."
 >>>>>>> upstream/18.0
@@ -890,7 +974,11 @@ msgstr "Менеджер по расходам"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Expense Outstanding Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет задолженности по расходам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет задолженности по расходам"
 >>>>>>> upstream/18.0
@@ -912,7 +1000,11 @@ msgstr "Отчет о Расходах"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Expense Report Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата отчета о расходах"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата отчета о расходах"
 >>>>>>> upstream/18.0
@@ -992,7 +1084,11 @@ msgstr "Причина отказа расхода"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved, entry created for accountant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отчет о расходах утвержден, создана проводка для бухгалтера"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отчет о расходах утвержден, создана проводка для бухгалтера"
 >>>>>>> upstream/18.0
@@ -1018,8 +1114,12 @@ msgid ""
 "Expense reports regroup all the expenses incurred during a specific event."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отчеты о расходах группируют все расходы, понесенные во время определенного "
 "события."
+=======
+"Отчеты о расходах группируют все затраты, связанные с конкретным событием."
+>>>>>>> upstream/18.0
 =======
 "Отчеты о расходах группируют все затраты, связанные с конкретным событием."
 >>>>>>> upstream/18.0
@@ -1085,7 +1185,11 @@ msgstr "Расходы члена вашей команды"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses with a similar receipt to %(other_expense_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Расходы с похожим чеком: %(other_expense_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Расходы с похожим чеком: %(other_expense_name)s"
 >>>>>>> upstream/18.0
@@ -1153,7 +1257,11 @@ msgstr "Подарки клиентам или продавцам"
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Go to settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перейти к настройкам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перейти к настройкам"
 >>>>>>> upstream/18.0
@@ -1168,7 +1276,11 @@ msgstr "Группировать по"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Guideline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Инструкция"
+>>>>>>> upstream/18.0
 =======
 msgstr "Инструкция"
 >>>>>>> upstream/18.0
@@ -1193,7 +1305,11 @@ msgstr "Отель, билет на самолет, такси и т.д."
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_alias_domain_id
 msgid "Hr Expense Alias Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Домен псевдонима для расходов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Домен псевдонима для расходов"
 >>>>>>> upstream/18.0
@@ -1313,7 +1429,11 @@ msgstr "Удаление записей в журнале"
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_draft
 msgid "Journal Entry Reset to Draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сброс записи журнала в черновик"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сброс записи журнала в черновик"
 >>>>>>> upstream/18.0
@@ -1338,7 +1458,11 @@ msgstr "Запись в журнале удалена"
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_draft
 msgid "Journal entry reset to draft"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сброс записи журнала в черновик"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сброс записи журнала в черновик"
 >>>>>>> upstream/18.0
@@ -1417,8 +1541,13 @@ msgid ""
 "accounting entries."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Здесь руководители могут утвердить отчет, а бухгалтер - провести "
 "бухгалтерские проводки."
+=======
+"Здесь менеджер может утвердить отчет, а бухгалтер – провести бухгалтерские "
+"проводки."
+>>>>>>> upstream/18.0
 =======
 "Здесь менеджер может утвердить отчет, а бухгалтер – провести бухгалтерские "
 "проводки."
@@ -1569,9 +1698,13 @@ msgstr "Не найдено ни одного отчета о расходах. 
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "No work contact found for the employee %s, please configure one."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Для сотрудника %s не найдено ни одного рабочего контакта, пожалуйста, "
 "настройте его."
+=======
+msgstr "У сотрудника %s не указан рабочий контакт; заполните его."
+>>>>>>> upstream/18.0
 =======
 msgstr "У сотрудника %s не указан рабочий контакт; заполните его."
 >>>>>>> upstream/18.0
@@ -1649,9 +1782,13 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will "
 "validate it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "После того как вы создали свой расход, отправьте его к своему менеджеру, "
 "который будет проверять его."
+=======
+msgstr "После создания расхода отправьте его менеджеру на утверждение."
+>>>>>>> upstream/18.0
 =======
 msgstr "После создания расхода отправьте его менеджеру на утверждение."
 >>>>>>> upstream/18.0
@@ -1664,8 +1801,13 @@ msgid ""
 "and wait for approval."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Как только <b>отчет о расходах</b> будет готов, вы можете отправить его "
 "своему менеджеру и ждать одобрения."
+=======
+"Когда <b>отчет о расходах</b> готов, отправьте его менеджеру и ждите "
+"согласования."
+>>>>>>> upstream/18.0
 =======
 "Когда <b>отчет о расходах</b> готов, отправьте его менеджеру и ждите "
 "согласования."
@@ -1677,8 +1819,13 @@ msgstr ""
 msgid "Only HR Officers or the concerned employee can reset to draft."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Только сотрудники отдела кадров или соответствующий работник могут сбросить "
 "черновик."
+=======
+"Перевести в черновик могут только сотрудники отдела кадров или сам "
+"сотрудник."
+>>>>>>> upstream/18.0
 =======
 "Перевести в черновик могут только сотрудники отдела кадров или сам "
 "сотрудник."
@@ -1784,6 +1931,10 @@ msgid ""
 "the employee"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Укажите, оплачены ли расходы в данном отчете компанией или сотрудником"
+>>>>>>> upstream/18.0
 =======
 "Укажите, оплачены ли расходы в данном отчете компанией или сотрудником"
 >>>>>>> upstream/18.0
@@ -1871,9 +2022,14 @@ msgid ""
 "navigate."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Готовы? Вы можете сохранить его вручную или отказаться от модификаций "
 "отсюда. Вам не <em>нужно сохранять</em> - Odoo сохранит все за вас при "
 "навигации."
+=======
+"Готово? Здесь можно сохранить вручную или отменить изменения. "
+"<em>Сохранять</em> не обязательно – Odoo сохраняет всё при навигации."
+>>>>>>> upstream/18.0
 =======
 "Готово? Здесь можно сохранить вручную или отменить изменения. "
 "<em>Сохранять</em> не обязательно – Odoo сохраняет всё при навигации."
@@ -1900,7 +2056,11 @@ msgstr "Справка"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Refund employees via their payslips."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Возмещайте сотрудникам расходы через их расчетные листки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Возмещайте сотрудникам расходы через их расчетные листки."
 >>>>>>> upstream/18.0
@@ -1988,7 +2148,11 @@ msgstr "Цена продажи"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__same_receipt_expense_ids
 msgid "Same Receipt Expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Расход с тем же чеком"
+>>>>>>> upstream/18.0
 =======
 msgstr "Расход с тем же чеком"
 >>>>>>> upstream/18.0
@@ -2005,7 +2169,11 @@ msgstr "Сканировать"
 #: code:addons/hr_expense/static/src/components/qrcode_action.xml:0
 msgid "Scan this QR code to get the Odoo app:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сканируйте этот QR-код, чтобы установить приложение Odoo:"
+=======
+msgstr "Сканируйте этот QR‑код, чтобы установить приложение Odoo:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сканируйте этот QR‑код, чтобы установить приложение Odoo:"
 >>>>>>> upstream/18.0
@@ -2018,8 +2186,13 @@ msgid ""
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Выберите пользователя, ответственного за утверждение \"Расходов\" данного сотрудника.\n"
 "Если пусто, то утверждение производится Администратором или Утвердителем (определяется в настройках/пользователи)."
+=======
+"Выберите пользователя, отвечающего за согласование «Расходов» этого сотрудника.\n"
+"Если поле пустое, согласовывать расходы будет администратор или назначенный согласующий (см. Настройки > Пользователи)."
+>>>>>>> upstream/18.0
 =======
 "Выберите пользователя, отвечающего за согласование «Расходов» этого сотрудника.\n"
 "Если поле пустое, согласовывать расходы будет администратор или назначенный согласующий (см. Настройки > Пользователи)."
@@ -2040,16 +2213,22 @@ msgid ""
 "subject to set it on the expense too."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отправьте письмо на этот псевдоним электронной почты с квитанцией во "
 "вложении, чтобы создать расход в один клик. Если первое слово темы письма "
 "содержит внутреннюю ссылку категории или название категории, соответствующая"
 " категория будет установлена автоматически. Введите сумму расхода в тему "
 "письма, чтобы установить ее и в расход."
 =======
+=======
+>>>>>>> upstream/18.0
 "Отправьте письмо на этот псевдоним с чеком во вложении, чтобы создать расход"
 " одним кликом. Если первое слово темы содержит внутренний код категории или "
 "ее название, категория установится автоматически. Укажите сумму в теме, "
 "чтобы задать ее для расхода."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2081,8 +2260,12 @@ msgstr "Показать предупреждение для коммерчес�
 msgid "Show all records which has next action date is before today"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Показать все записи, у которых дата следующего действия наступает до "
 "сегодняшнего дня"
+=======
+"Показать записи, у которых дата следующего действия раньше сегодняшней"
+>>>>>>> upstream/18.0
 =======
 "Показать записи, у которых дата следующего действия раньше сегодняшней"
 >>>>>>> upstream/18.0
@@ -2098,7 +2281,11 @@ msgstr "Показывайте сотрудникам электронную п�
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Specify the bill date of the related vendor bill."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Укажите дату связанного счета поставщика."
+>>>>>>> upstream/18.0
 =======
 msgstr "Укажите дату связанного счета поставщика."
 >>>>>>> upstream/18.0
@@ -2108,7 +2295,11 @@ msgstr "Укажите дату связанного счета поставщи
 #: model:ir.model.fields,help:hr_expense.field_product_template__can_be_expensed
 msgid "Specify whether the product can be selected in an expense."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Укажите, можно ли выбрать продукт в расходах."
+=======
+msgstr "Определите, можно ли выбирать этот продукт в расходах."
+>>>>>>> upstream/18.0
 =======
 msgstr "Определите, можно ли выбирать этот продукт в расходах."
 >>>>>>> upstream/18.0
@@ -2153,15 +2344,21 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус, основанный на мероприятии\n"
 "Просроченная: Дата, уже прошла\n"
 "Сегодня: Дата мероприятия сегодня\n"
 "Запланировано: будущая деятельность."
 =======
+=======
+>>>>>>> upstream/18.0
 "Статус дел\n"
 "Просроченные: Срок выполнения уже прошел\n"
 "Сегодня: Срок выполнения сегодня\n"
 "Запланированные: Будущие дела."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2252,7 +2449,11 @@ msgstr "Ответственный за одобрение команды"
 msgid ""
 "The account used to record the outstanding amount of the company expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Счет для учета задолженности по корпоративным расходам."
+>>>>>>> upstream/18.0
 =======
 msgstr "Счет для учета задолженности по корпоративным расходам."
 >>>>>>> upstream/18.0
@@ -2263,9 +2464,13 @@ msgstr "Счет для учета задолженности по корпор�
 msgid ""
 "The company's default journal used when an employee expense is created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Журнал по умолчанию, используемый компанией при создании расходов "
 "сотрудника."
+=======
+msgstr "Журнал по умолчанию, используемый при создании расходов сотрудника."
+>>>>>>> upstream/18.0
 =======
 msgstr "Журнал по умолчанию, используемый при создании расходов сотрудника."
 >>>>>>> upstream/18.0
@@ -2284,8 +2489,13 @@ msgid ""
 " You'll have to set the category manually on the expense."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Первое слово темы письма не соответствует коду категории. Вам придется "
 "вручную задать категорию в расходах."
+=======
+"Первое слово темы письма не совпало ни с одним кодом категории. Категорию "
+"придется выбрать вручную."
+>>>>>>> upstream/18.0
 =======
 "Первое слово темы письма не совпало ни с одним кодом категории. Категорию "
 "придется выбрать вручную."
@@ -2299,9 +2509,15 @@ msgid ""
 "contain duplicates."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Следующие утвержденные расходы имеют сотрудника, сумму и категорию, "
 "аналогичные некоторым расходам из этого отчета. Пожалуйста, проверьте, не "
 "содержит ли этот отчет дубликатов."
+=======
+"В согласованных расходах найдены строки с тем же сотрудником, суммой и "
+"категорией, что и в этом отчете. Пожалуйста, проверьте, не содержит ли этот "
+"отчет дубликатов."
+>>>>>>> upstream/18.0
 =======
 "В согласованных расходах найдены строки с тем же сотрудником, суммой и "
 "категорией, что и в этом отчете. Пожалуйста, проверьте, не содержит ли этот "
@@ -2317,7 +2533,11 @@ msgstr "Журнал должен быть установлен на прове�
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__employee_journal_id
 msgid "The journal used when the expense is paid by employee."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Журнал, используемый при оплате расходов сотрудником."
+=======
+msgstr "Журнал, используемый, если расход оплачен сотрудником."
+>>>>>>> upstream/18.0
 =======
 msgstr "Журнал, используемый, если расход оплачен сотрудником."
 >>>>>>> upstream/18.0
@@ -2326,7 +2546,11 @@ msgstr "Журнал, используемый, если расход оплач
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__payment_method_line_id
 msgid "The payment method used when the expense is paid by the company."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Способ оплаты используются, когда расходы оплачиваются компанией."
+=======
+msgstr "Метод оплаты, если расход оплачивается компанией."
+>>>>>>> upstream/18.0
 =======
 msgstr "Метод оплаты, если расход оплачивается компанией."
 >>>>>>> upstream/18.0
@@ -2336,7 +2560,11 @@ msgstr "Метод оплаты, если расход оплачивается 
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "The status of all your current expenses is visible from here."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отсюда виден статус всех ваших текущих расходов."
+=======
+msgstr "Статусы всех текущих расходов отображаются здесь."
+>>>>>>> upstream/18.0
 =======
 msgstr "Статусы всех текущих расходов отображаются здесь."
 >>>>>>> upstream/18.0
@@ -2354,8 +2582,13 @@ msgid ""
 "form"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Рабочий адрес электронной почты некоторых сотрудников отсутствует. "
 "Пожалуйста, добавьте его в форму сотрудника"
+=======
+"У некоторых сотрудников не указан рабочий e‑mail адрес. Добавьте его в "
+"карточке сотрудника"
+>>>>>>> upstream/18.0
 =======
 "У некоторых сотрудников не указан рабочий e‑mail адрес. Добавьте его в "
 "карточке сотрудника"
@@ -2370,7 +2603,11 @@ msgid ""
 "do."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "С этой категорией связаны непредставленные расходы. Обновление стоимости "
+=======
+"Есть неподанные расходы, связанные с этой категорией. Изменение стоимости "
+>>>>>>> upstream/18.0
 =======
 "Есть неподанные расходы, связанные с этой категорией. Изменение стоимости "
 >>>>>>> upstream/18.0
@@ -2389,7 +2626,11 @@ msgid ""
 "This expense report is empty. You cannot submit or approve an empty expense "
 "report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отчет о расходах пуст. Нельзя отправить или утвердить пустой отчет."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отчет о расходах пуст. Нельзя отправить или утвердить пустой отчет."
 >>>>>>> upstream/18.0
@@ -2399,7 +2640,11 @@ msgstr "Отчет о расходах пуст. Нельзя отправить
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid "Tip: Snap pictures of your receipts with the remote app"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Совет: делайте снимки квитанций с помощью удаленного приложения"
+=======
+msgstr "Совет: фотографируйте чеки в мобильном приложении"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: фотографируйте чеки в мобильном приложении"
 >>>>>>> upstream/18.0
@@ -2409,7 +2654,11 @@ msgstr "Совет: фотографируйте чеки в мобильном 
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Tip: try sending receipts by email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Совет: попробуйте отправлять чеки по электронной почте"
+>>>>>>> upstream/18.0
 =======
 msgstr "Совет: попробуйте отправлять чеки по электронной почте"
 >>>>>>> upstream/18.0
@@ -2473,7 +2722,11 @@ msgstr "Итого необлагаемая сумма в валюте"
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__total_amount_currency_original
 msgid "Total amount of the original Expense that we are splitting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Общая сумма первоначальных расходов, которые мы разделяем"
+=======
+msgstr "Общая сумма исходного расхода, которую мы разделяем"
+>>>>>>> upstream/18.0
 =======
 msgstr "Общая сумма исходного расхода, которую мы разделяем"
 >>>>>>> upstream/18.0
@@ -2498,7 +2751,11 @@ msgstr "Тип Дела для исключения в записи."
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Under Validation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "На утверждении"
+>>>>>>> upstream/18.0
 =======
 msgstr "На утверждении"
 >>>>>>> upstream/18.0
@@ -2537,7 +2794,11 @@ msgstr "Загрузить"
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Upload or drop an expense receipt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загрузите или перетащите файл чека"
+>>>>>>> upstream/18.0
 =======
 msgstr "Загрузите или перетащите файл чека"
 >>>>>>> upstream/18.0
@@ -2547,7 +2808,11 @@ msgstr "Загрузите или перетащите файл чека"
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Use the breadcrumbs to go back to the list of expenses."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Используйте хлебные крошки, чтобы вернуться к списку расходов."
+=======
+msgstr "Используйте «хлебные крошки», чтобы вернуться к списку расходов."
+>>>>>>> upstream/18.0
 =======
 msgstr "Используйте «хлебные крошки», чтобы вернуться к списку расходов."
 >>>>>>> upstream/18.0
@@ -2607,13 +2872,19 @@ msgid ""
 "                                             or meal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Если себестоимость позиции в отчете о расходах отлична от 0, пользователь "
 "сможет изменить только количество, но не сумму. Используйте ненулевую "
 "стоимость для категорий расходов"
 "                                             с фиксированной компенсацией "
 "(километраж, суточные, проживание,"
 "                                             питание и т.д.)."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2649,7 +2920,11 @@ msgstr "Вы не можете создать отчет без категори
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "You can now submit it to the manager from the following link."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Теперь вы можете отправить его менеджеру по следующей ссылке."
+=======
+msgstr "Теперь можно отправить отчет менеджеру по следующей ссылке."
+>>>>>>> upstream/18.0
 =======
 msgstr "Теперь можно отправить отчет менеджеру по следующей ссылке."
 >>>>>>> upstream/18.0
@@ -2660,6 +2935,10 @@ msgstr "Теперь можно отправить отчет менеджеру
 msgid "You can only generate an accounting entry for approved expense(s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Бухгалтерскую проводку можно сформировать только для согласованных расходов."
+>>>>>>> upstream/18.0
 =======
 "Бухгалтерскую проводку можно сформировать только для согласованных расходов."
 >>>>>>> upstream/18.0
@@ -2686,6 +2965,10 @@ msgstr ""
 msgid "You cannot cancel an expense sheet linked to a posted journal entry"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя отменить ведомость расходов, связанную с проведенной записью журнала"
+>>>>>>> upstream/18.0
 =======
 "Нельзя отменить ведомость расходов, связанную с проведенной записью журнала"
 >>>>>>> upstream/18.0
@@ -2697,6 +2980,11 @@ msgid ""
 "You cannot create accounting entries for an expense report without expenses."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя создать бухгалтерские проводки по отчету о расходах, в котором не "
+"указаны расходы."
+>>>>>>> upstream/18.0
 =======
 "Нельзя создать бухгалтерские проводки по отчету о расходах, в котором не "
 "указаны расходы."
@@ -2720,8 +3008,12 @@ msgstr "Вы не можете удалить отправленные или о
 msgid "You cannot delete an analytic account that is used in an expense."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы не можете удалить аналитическую учетную запись, которая используется в "
 "расходах."
+=======
+"Вы не можете удалить аналитический счет, который используется в расходах."
+>>>>>>> upstream/18.0
 =======
 "Вы не можете удалить аналитический счет, который используется в расходах."
 >>>>>>> upstream/18.0
@@ -2774,6 +3066,11 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы не можете удалить все расходы из отчета, который уже был отправлен "
+"менеджеру, согласован или по которому произведено возмещение."
+>>>>>>> upstream/18.0
 =======
 "Вы не можете удалить все расходы из отчета, который уже был отправлен "
 "менеджеру, согласован или по которому произведено возмещение."
@@ -2784,7 +3081,11 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report expenses for different companies in the same report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вы не можете отразить в одном отчете расходы разных компаний."
+=======
+msgstr "Вы не можете включать расходы разных компаний в один отчет."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы не можете включать расходы разных компаний в один отчет."
 >>>>>>> upstream/18.0
@@ -2794,7 +3095,11 @@ msgstr "Вы не можете включать расходы разных ко
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report expenses for different employees in the same report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "В одном отчете нельзя отразить расходы разных сотрудников."
+=======
+msgstr "Вы не можете включать расходы разных сотрудников в один отчет."
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы не можете включать расходы разных сотрудников в один отчет."
 >>>>>>> upstream/18.0
@@ -2819,6 +3124,11 @@ msgid ""
 "report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы не можете устанавливать общую сумму в валюте равную нулю, если расход "
+"связан с отчетом."
+>>>>>>> upstream/18.0
 =======
 "Вы не можете устанавливать общую сумму в валюте равную нулю, если расход "
 "связан с отчетом."
@@ -2830,6 +3140,11 @@ msgstr ""
 msgid "You cannot set the expense total to 0 if it's linked to a report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы не можете устанавливать общую сумму равную нулю, если расход связан с "
+"отчетом."
+>>>>>>> upstream/18.0
 =======
 "Вы не можете устанавливать общую сумму равную нулю, если расход связан с "
 "отчетом."
@@ -2843,7 +3158,10 @@ msgid ""
 "paid expense report."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "У вас нет прав добавлять или удалять расходы из отчета, который уже был "
 "согласован или по которому произведено возмещение."
 
@@ -2861,6 +3179,9 @@ msgstr ""
 msgid ""
 "You don't have the rights to bypass the validation process of this expense."
 msgstr ""
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_expense
@@ -2874,7 +3195,11 @@ msgstr "У вас нет расходов для отчетности"
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You need to add a manual payment method on the journal (%s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вам необходимо добавить ручной способ оплаты в журнал (%s)"
+=======
+msgstr "Добавьте ручной метод оплаты в журнале (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Добавьте ручной метод оплаты в журнале (%s)"
 >>>>>>> upstream/18.0
@@ -2887,8 +3212,12 @@ msgid ""
 " to proceed!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Чтобы продолжить, в вашей базе данных должна быть хотя бы одна категория, "
 "которая может быть отнесена на расходы!"
+=======
+"В вашей базе данных должна быть хотя бы одна категория для учета расходов!"
+>>>>>>> upstream/18.0
 =======
 "В вашей базе данных должна быть хотя бы одна категория для учета расходов!"
 >>>>>>> upstream/18.0
@@ -2922,7 +3251,11 @@ msgstr "например, обед с клиентом"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Restaurants: only week days, for lunch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "напр. Рестораны: только будние дни, обед"
+>>>>>>> upstream/18.0
 =======
 msgstr "напр. Рестораны: только будние дни, обед"
 >>>>>>> upstream/18.0
@@ -2941,7 +3274,11 @@ msgstr "например, mycompany.com"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "expense"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "расход"
+>>>>>>> upstream/18.0
 =======
 msgstr "расход"
 >>>>>>> upstream/18.0
@@ -2955,7 +3292,11 @@ msgstr "было отклонено"
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "no taxes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "без налогов"
+>>>>>>> upstream/18.0
 =======
 msgstr "без налогов"
 >>>>>>> upstream/18.0
@@ -2969,7 +3310,11 @@ msgstr "за"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "tax)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "налог)"
+>>>>>>> upstream/18.0
 =======
 msgstr "налог)"
 >>>>>>> upstream/18.0
@@ -2996,7 +3341,11 @@ msgstr "Проверка"
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "use OCR to fill data from a picture of the bill"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "используйте OCR для заполнения данных с изображения купюры"
+=======
+msgstr "используйте OCR для заполнения данных с фотографии счета"
+>>>>>>> upstream/18.0
 =======
 msgstr "используйте OCR для заполнения данных с фотографии счета"
 >>>>>>> upstream/18.0
@@ -3005,7 +3354,11 @@ msgstr "используйте OCR для заполнения данных с �
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "with the same receipt already exists."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "с тем же чеком уже существует."
+>>>>>>> upstream/18.0
 =======
 msgstr "с тем же чеком уже существует."
 >>>>>>> upstream/18.0

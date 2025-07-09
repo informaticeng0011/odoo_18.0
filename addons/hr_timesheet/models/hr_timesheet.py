@@ -198,13 +198,19 @@ class AccountAnalyticLine(models.Model):
             company = task.company_id or project.company_id or self.env['res.company'].browse(vals.get('company_id'))
             vals['company_id'] = company.id
 <<<<<<< HEAD
+<<<<<<< HEAD
             vals.update(self._timesheet_preprocess_get_accounts(vals))
 =======
+=======
+>>>>>>> upstream/18.0
             vals.update({
                 fname: account_id
                 for fname, account_id in self._timesheet_preprocess_get_accounts(vals).items()
                 if fname not in vals
             })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             if not vals.get('product_uom_id'):
@@ -299,13 +305,19 @@ class AccountAnalyticLine(models.Model):
         if project or task:
             values['company_id'] = task.company_id.id or project.company_id.id
 <<<<<<< HEAD
+<<<<<<< HEAD
         values.update(self._timesheet_preprocess_get_accounts(values))
 =======
+=======
+>>>>>>> upstream/18.0
         values.update({
             fname: account_id
             for fname, account_id in self._timesheet_preprocess_get_accounts(values).items()
             if fname not in values
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if values.get('employee_id'):
@@ -514,7 +526,10 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -705,6 +720,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

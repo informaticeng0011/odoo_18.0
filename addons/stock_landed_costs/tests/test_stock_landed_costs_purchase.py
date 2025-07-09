@@ -682,7 +682,10 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -768,6 +771,7 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -778,6 +782,8 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_landed_cost_avco_partial_bill_rounding(self):
         """Tests landed cost calculation for an AVCO product with partial
@@ -892,4 +898,7 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
         # Check total value in SVL:
         # 120 * 110 + 95 + 70 * 110 = 20995
         self.assertAlmostEqual(self.product1.value_svl, 20995)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

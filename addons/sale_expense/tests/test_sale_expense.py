@@ -55,6 +55,10 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         self.assertEqual((sol.price_unit, sol.qty_delivered), (55.0, 11.3), 'Sale Expense: error when invoicing an expense at cost')
         self.assertEqual(so.amount_total, init_price + exp.total_amount, 'Sale Expense: price of so should be updated after adding expense')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
 >>>>>>> upstream/18.0

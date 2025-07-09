@@ -270,7 +270,11 @@ class HrExpenseSheet(models.Model):
         for sheet in self:
             sheet.payment_method_line_id = sheet.selectable_payment_method_line_ids[:1]
 
+<<<<<<< HEAD
     @api.depends('employee_journal_id', 'payment_method_line_id')
+=======
+    @api.depends('employee_journal_id', 'payment_method_line_id', 'payment_mode')
+>>>>>>> upstream/18.0
     def _compute_journal_id(self):
         for sheet in self:
             if sheet.payment_mode == 'company_account':
@@ -348,9 +352,15 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver')
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user')
         is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager')
+=======
+        is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
+        is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
+        is_hr_admin = self.env.user.has_group('hr_expense.group_hr_expense_manager') or self.env.su
+>>>>>>> upstream/18.0
 =======
         is_team_approver = self.env.user.has_group('hr_expense.group_hr_expense_team_approver') or self.env.su
         is_approver = self.env.user.has_group('hr_expense.group_hr_expense_user') or self.env.su
@@ -531,7 +541,10 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -561,6 +574,9 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -875,6 +891,7 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         moves = self.account_move_ids
         draft_moves = moves.filtered(lambda m: m.state == 'draft')
         non_draft_moves = moves - draft_moves
@@ -884,6 +901,8 @@ class HrExpenseSheet(models.Model):
         )
         draft_moves.unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -908,6 +927,9 @@ class HrExpenseSheet(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

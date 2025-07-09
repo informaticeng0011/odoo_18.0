@@ -58,8 +58,11 @@ import { isNode } from "@web/../lib/hoot-dom/helpers/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isIterable, toSelector } from "@web/../lib/hoot-dom/hoot_dom_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228,6 +231,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395,6 +401,10 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  partial?: boolean;
+>>>>>>> upstream/18.0
 =======
  *  partial?: boolean;
 >>>>>>> upstream/18.0
@@ -557,6 +567,11 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
  *
@@ -824,7 +839,10 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -926,6 +944,9 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1039,6 +1060,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    requestAnimationFrame,
+>>>>>>> upstream/18.0
 =======
     requestAnimationFrame,
 >>>>>>> upstream/18.0
@@ -1083,6 +1108,7 @@ const $writeText = $clipboard?.writeText.bind($clipboard);
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1410,6 +1436,11 @@ function getFunctionString(fn) {
  */
 function getFunctionString(fn) {
 >>>>>>> upstream/18.0
+=======
+ * @param {(...args: any[]) => any} fn
+ */
+function getFunctionString(fn) {
+>>>>>>> upstream/18.0
     if (R_CLASS.test(fn.name)) {
         return `${fn.name ? `class ${fn.name}` : "anonymous class"} { ${ELLIPSIS} }`;
     }
@@ -1457,7 +1488,11 @@ function getFunctionString(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1594,7 +1629,11 @@ function getFunctionString(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getGenericSerializer = (value) => {
+=======
+function getGenericSerializer(value) {
+>>>>>>> upstream/18.0
 =======
 function getGenericSerializer(value) {
 >>>>>>> upstream/18.0
@@ -1733,9 +1772,15 @@ function getGenericSerializer(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 const makeObjectCache = () => {
+=======
+}
+
+function makeObjectCache() {
+>>>>>>> upstream/18.0
 =======
 }
 
@@ -1939,6 +1984,7 @@ function makeObjectCache() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
@@ -2037,6 +2083,8 @@ const memoize = (instanceGetter) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -2068,6 +2116,7 @@ function resolve(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2092,6 +2141,8 @@ function resolve(value) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2118,6 +2169,9 @@ function stringSort(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2134,6 +2188,7 @@ function stringSort(a, b) {
  * @param {string} value
  * @param {number} [length=MAX_HUMAN_READABLE_SIZE]
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2236,6 +2291,8 @@ const truncate = (value, length = MAX_HUMAN_READABLE_SIZE) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
     const strValue = String(value);
     return strValue.length <= length ? strValue : strValue.slice(0, length) + ELLIPSIS;
@@ -2272,6 +2329,9 @@ function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2375,11 +2435,14 @@ function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {ReturnType<makeObjectCache>} cache
  * @returns {boolean}
  */
 const _deepEqual = (a, b, ignoreOrder, cache) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2481,6 +2544,9 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2618,6 +2684,7 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const aKeys = $ownKeys(a);
         if (aKeys.length !== $ownKeys(b).length) {
             return false;
@@ -2625,6 +2692,8 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
         for (const key of aKeys) {
             if (!_deepEqual(a[key], b[key], ignoreOrder, cache)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2728,6 +2797,9 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2852,7 +2924,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _deepEqual(a[i], bValue, ignoreOrder, comparisonCache)
+=======
+                _deepEqual(a[i], bValue, ignoreOrder, partial, comparisonCache)
+>>>>>>> upstream/18.0
 =======
                 _deepEqual(a[i], bValue, ignoreOrder, partial, comparisonCache)
 >>>>>>> upstream/18.0
@@ -2994,7 +3070,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!_deepEqual(a[i], b[i], ignoreOrder, cache)) {
+=======
+            if (!_deepEqual(a[i], b[i], ignoreOrder, partial, cache)) {
+>>>>>>> upstream/18.0
 =======
             if (!_deepEqual(a[i], b[i], ignoreOrder, partial, cache)) {
 >>>>>>> upstream/18.0
@@ -3133,7 +3213,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3273,6 +3357,7 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const _formatHumanReadable = (value, length, cache) => {
 =======
 function _formatHumanReadable(value, length, cache) {
@@ -3354,6 +3439,8 @@ function _formatHumanReadable(value, length, cache) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function _formatHumanReadable(value, length, cache) {
     if (!isSafe(value)) {
         return `<cannot read value of ${getConstructor(value).name}>`;
@@ -3375,6 +3462,9 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3534,7 +3624,11 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3675,6 +3769,7 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const _formatTechnical = (value, depth, isObjectValue, cache) => {
 =======
 function _formatTechnical(value, depth, isObjectValue, cache) {
@@ -3756,6 +3851,8 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function _formatTechnical(value, depth, isObjectValue, cache) {
     if (!isSafe(value)) {
         return `<cannot read value of ${getConstructor(value).name}>`;
@@ -3777,6 +3874,9 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3863,6 +3963,7 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
     // Non-iterable objects
     const proto = !constructor.name || constructor.name === "Object" ? "" : `${constructor.name} `;
     const content = $ownKeys(value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4088,6 +4189,8 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         .sort(stringSort)
         .map(
             (key) =>
@@ -4106,6 +4209,9 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4209,6 +4315,9 @@ class QueryPartialString extends QueryString {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4395,6 +4504,11 @@ const MIN_HUMAN_READABLE_SIZE = 8;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const QUERY_EXCLUDE = "-";
+
+>>>>>>> upstream/18.0
 =======
 const QUERY_EXCLUDE = "-";
 
@@ -4686,7 +4800,10 @@ const windowTarget = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4856,6 +4973,9 @@ let fuzzyScoreMap = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5030,6 +5150,7 @@ export async function copy(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @template T
  * @template {(previous: T | null) => T} F
  * @param {F} instanceGetter
@@ -5042,6 +5163,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
         if (runner.dry) {
             return memoized();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5148,6 +5271,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5218,6 +5344,7 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
         const currentJob = runner.state.currentTest || runner.suiteStack.at(-1) || runner;
         if (!instances.has(currentJob)) {
             const parentInstance = [...instances.values()].at(-1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5337,6 +5464,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             instances.set(currentJob, instanceGetter(parentInstance, ...args));
 
             if (canCallAfter) {
@@ -5359,6 +5488,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5435,6 +5567,7 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 
     const memoized = memoize(instanceGetter);
@@ -5444,6 +5577,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
     const runner = getRunner();
     let canCallAfter = true;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5557,6 +5692,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5668,7 +5806,11 @@ export function createReporting(parentReporting) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const add = (values) => {
+=======
+    function add(values) {
+>>>>>>> upstream/18.0
 =======
     function add(values) {
 >>>>>>> upstream/18.0
@@ -5806,7 +5948,11 @@ export function createReporting(parentReporting) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -6040,7 +6186,11 @@ export function batch(fn, interval) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const batched = (...args) => {
+=======
+    function batched(...args) {
+>>>>>>> upstream/18.0
 =======
     function batched(...args) {
 >>>>>>> upstream/18.0
@@ -6181,9 +6331,15 @@ export function batch(fn, interval) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 
     const flush = () => {
+=======
+    }
+
+    function flush() {
+>>>>>>> upstream/18.0
 =======
     }
 
@@ -6387,7 +6543,11 @@ export function batch(fn, interval) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
+=======
+    }
+>>>>>>> upstream/18.0
 =======
     }
 >>>>>>> upstream/18.0
@@ -6553,7 +6713,11 @@ export function deepEqual(a, b, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return _deepEqual(a, b, options?.ignoreOrder, makeObjectCache());
+=======
+    return _deepEqual(a, b, !!options?.ignoreOrder, !!options?.partial, makeObjectCache());
+>>>>>>> upstream/18.0
 =======
     return _deepEqual(a, b, !!options?.ignoreOrder, !!options?.partial, makeObjectCache());
 >>>>>>> upstream/18.0
@@ -6733,8 +6897,11 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return isIterable(value) ? [...value] : [value];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6877,6 +7044,9 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7080,7 +7250,10 @@ export function generateHash(...strings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7168,6 +7341,9 @@ export function getConstructor(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7268,11 +7444,14 @@ export function getConstructor(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} pattern (normalized)
  * @param {string} string (normalized)
  */
 export function getFuzzyScore(pattern, string) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7444,6 +7623,9 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7623,8 +7805,11 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return patternIndex === pattern.length ? totalScore : 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7792,6 +7977,9 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8024,7 +8212,10 @@ export function isOfType(value, type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8090,6 +8281,9 @@ export function isSafe(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8218,7 +8412,11 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string | RegExp} pattern normalized string or RegExp
+=======
+ * @param {QueryPart[]} parsedQuery normalized string or RegExp
+>>>>>>> upstream/18.0
 =======
  * @param {QueryPart[]} parsedQuery normalized string or RegExp
 >>>>>>> upstream/18.0
@@ -8443,6 +8641,7 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function lookup(pattern, items, property = "key") {
     /** @type {T[]} */
     const result = [];
@@ -8579,6 +8778,8 @@ export function lookup(pattern, items, property = "key") {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export function lookup(parsedQuery, items, property = "key") {
     for (const queryPart of parsedQuery) {
         const isPartial = queryPart instanceof QueryPartialString;
@@ -8599,8 +8800,11 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             result.sort((a, b) => fuzzyScoreMap[b[property]] - fuzzyScoreMap[a[property]]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8621,6 +8825,9 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8691,6 +8898,9 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8949,7 +9159,10 @@ export function normalize(string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .toLowerCase()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9143,7 +9356,10 @@ export function ordinal(number) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9358,6 +9574,9 @@ export function parseQuery(query) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9540,7 +9759,10 @@ export function stringToNumber(string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9573,6 +9795,9 @@ export function throttle(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9633,6 +9858,7 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let displayed = new Set();
     useEffect(() => {
         if (!ref.el) {
@@ -9641,6 +9867,8 @@ export function useAutofocus(ref) {
         const nextDisplayed = new Set();
         for (const element of ref.el.querySelectorAll("[autofocus]")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9698,6 +9926,9 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9761,8 +9992,11 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9818,6 +10052,9 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9873,6 +10110,7 @@ export class Callbacks {
     add(type, callback, once) {
         if (callback instanceof Promise) {
             const promiseValue = callback;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10030,6 +10268,11 @@ export class Callbacks {
             };
 >>>>>>> upstream/18.0
 =======
+            };
+>>>>>>> upstream/18.0
+=======
+            callback = function waitForPromise() {
+                return Promise.resolve(promiseValue).then(resolve);
             };
 >>>>>>> upstream/18.0
 =======
@@ -10375,7 +10618,11 @@ export class Markup {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (eType !== typeof actual || !(eType === "object" || eType === "string")) {
+=======
+        if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
+>>>>>>> upstream/18.0
 =======
         if (eType !== typeof actual || !((expected && eType === "object") || eType === "string")) {
 >>>>>>> upstream/18.0
@@ -10721,6 +10968,7 @@ export const CASE_EVENT_TYPES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 export const DEFAULT_EVENT_TYPES = CASE_EVENT_TYPES.assertion.value | CASE_EVENT_TYPES.error.value;
 <<<<<<< HEAD
@@ -10872,6 +11120,8 @@ export const EXACT_MARKER = `"`;
 export const EXACT_MARKER = `"`;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10931,6 +11181,9 @@ export const EXACT_MARKER = `"`;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11042,7 +11295,10 @@ export const S_NONE = Symbol("no value");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11210,6 +11466,9 @@ export const R_QUERY_EXACT = new RegExp(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

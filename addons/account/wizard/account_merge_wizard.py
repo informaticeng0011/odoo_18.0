@@ -146,15 +146,21 @@ class AccountMergeWizard(models.TransientModel):
         for account in accounts:
             for company in account.company_ids & all_root_companies:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 code_by_company[company] = account.with_company(company).sudo().code
             for company in all_root_companies - account.company_ids:
                 if code := account.with_company(company).sudo().code:
                     code_by_company[company] = code
 =======
+=======
+>>>>>>> upstream/18.0
                 code_by_company[company.id] = account.with_company(company).sudo().code
             for company in all_root_companies - account.company_ids:
                 if code := account.with_company(company).sudo().code:
                     code_by_company[company.id] = code
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         account_to_merge_into = accounts[0]
@@ -213,11 +219,14 @@ class AccountMergeWizard(models.TransientModel):
 
         # Step 5: Write company_ids and codes on the account
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company, code in code_by_company.items():
             account_to_merge_into.with_company(company).sudo().code = code
 
         account_to_merge_into.sudo().company_ids = company_ids_to_write
 =======
+=======
+>>>>>>> upstream/18.0
         self.env.cr.execute(SQL(
             """
             UPDATE account_account
@@ -230,6 +239,9 @@ class AccountMergeWizard(models.TransientModel):
 
         account_to_merge_into.sudo().company_ids = company_ids_to_write
         self.env.add_to_compute(self.env['account.account']._fields['tag_ids'], account_to_merge_into)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 

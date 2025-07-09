@@ -2,7 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -579,7 +583,10 @@ class TestMrpByProduct(common.TransactionCase):
         self.assertEqual(postprod_picking.move_ids.product_id, final_product + byproduct)
         self.assertEqual(postprod_picking.location_dest_id, self.warehouse.lot_stock_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_over_produce_by_products_with_cost_share(self):
         """
@@ -604,4 +611,7 @@ class TestMrpByProduct(common.TransactionCase):
         self.assertRecordValues(mo.move_byproduct_ids, [
             {'quantity': 10.0, 'state': 'done'},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

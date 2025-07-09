@@ -352,6 +352,7 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let textIndex = 1;
         for (const textFragment of textFragments) {
             // Replace consecutive spaces by alternating nbsp.
@@ -364,6 +365,8 @@ export class ClipboardPlugin extends Plugin {
                 });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -432,6 +435,9 @@ export class ClipboardPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -572,10 +578,14 @@ export class ClipboardPlugin extends Plugin {
             if (
                 (isParagraphRelatedElement(block) ||
                     this.dependencies.baseContainer.isCandidateForBaseContainer(block)) &&
+<<<<<<< HEAD
                 // TODO specific exception for "PRE" to keep everything inside one PRE.
                 // Consider removing this if PRE is to be used as a paragraph.
                 block.nodeName !== "PRE" &&
                 !block.closest("li")
+=======
+                block.nodeName !== "PRE"
+>>>>>>> upstream/18.0
             ) {
                 // A linebreak at the beginning of a block is an empty line.
                 const isEmptyLine = block.firstChild.nodeName === "BR";
@@ -609,8 +619,28 @@ export class ClipboardPlugin extends Plugin {
             } else {
                 let childrenNodes;
                 if (node.nodeName === "DIV") {
+<<<<<<< HEAD
                     if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
                         childrenNodes = childNodes(node);
+=======
+                    if (!node.hasChildNodes()) {
+                        node.remove();
+                        return;
+                    } else if (this.dependencies.baseContainer.isCandidateForBaseContainer(node)) {
+                        const whiteSpace = node.style?.whiteSpace;
+                        if (whiteSpace && !["normal", "nowrap"].includes(whiteSpace)) {
+                            node.innerHTML = node.innerHTML.replace(/\n/g, "<br>");
+                        }
+                        const baseContainer = this.dependencies.baseContainer.createBaseContainer();
+                        const dir = node.getAttribute("dir");
+                        if (dir) {
+                            baseContainer.setAttribute("dir", dir);
+                        }
+                        baseContainer.append(...node.childNodes);
+
+                        node.replaceWith(baseContainer);
+                        childrenNodes = childNodes(baseContainer);
+>>>>>>> upstream/18.0
                     } else {
                         childrenNodes = unwrapContents(node);
                     }
@@ -896,7 +926,11 @@ function prependOriginToImages(doc, origin) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (src && !src.startsWith("http") && !src.startsWith("//")) {
+=======
+        if (src && !/^(http|\/\/|data:)/.test(src)) {
+>>>>>>> upstream/18.0
 =======
         if (src && !/^(http|\/\/|data:)/.test(src)) {
 >>>>>>> upstream/18.0

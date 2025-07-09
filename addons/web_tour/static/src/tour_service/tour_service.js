@@ -48,6 +48,10 @@ const StepSchema = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0

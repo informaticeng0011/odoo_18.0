@@ -17,7 +17,12 @@ from odoo import tools
 
 from .test_token_access import TestTokenAccess
 
+<<<<<<< HEAD
 @tagged('odoo2google')
+=======
+
+@tagged('odoo2google', 'calendar_performance')
+>>>>>>> upstream/18.0
 @patch.object(User, '_get_google_calendar_token', lambda user: 'dummy-token')
 class TestSyncOdoo2Google(TestSyncGoogle):
 
@@ -80,7 +85,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
         })
         partner_model = self.env.ref('base.model_res_partner')
         partner = self.env['res.partner'].search([], limit=1)
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=615):
+=======
+        with self.assertQueryCount(__system__=526):
+>>>>>>> upstream/18.0
             events = self.env['calendar.event'].create([{
                 'name': "Event %s" % (i),
                 'start': datetime(2020, 1, 15, 8, 0),
@@ -95,10 +104,16 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 
             events._sync_odoo2google(self.google_service)
 
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=29):
             events.unlink()
 
 
+=======
+        with self.assertQueryCount(__system__=24):
+            events.unlink()
+
+>>>>>>> upstream/18.0
     @patch_api
     @users('__system__')
     @warmup
@@ -111,7 +126,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
             'duration': 18,
         })
         partner_model = self.env.ref('base.model_res_partner')
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=86):
+=======
+        with self.assertQueryCount(__system__=105):
+>>>>>>> upstream/18.0
             event = self.env['calendar.event'].create({
                 'name': "Event",
                 'start': datetime(2020, 1, 15, 8, 0),
@@ -128,7 +147,11 @@ class TestSyncOdoo2Google(TestSyncGoogle):
                 'res_id': partner.id,
             })
 
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=38):
+=======
+        with self.assertQueryCount(__system__=29):  # gc: 34
+>>>>>>> upstream/18.0
             event.unlink()
 
     def test_event_without_user(self):
@@ -636,6 +659,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -708,6 +734,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1161,6 +1190,7 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1545,6 +1575,9 @@ class TestSyncOdoo2Google(TestSyncGoogle):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 

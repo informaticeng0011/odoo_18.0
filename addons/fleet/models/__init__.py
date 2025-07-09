@@ -12,5 +12,9 @@ from . import fleet_vehicle_model_category
 from . import fleet_vehicle_odometer
 from . import fleet_vehicle_state
 from . import fleet_vehicle_tag
+<<<<<<< HEAD
+=======
+from . import mail_activity_type
+>>>>>>> upstream/18.0
 from . import res_config_settings
 from . import res_partner

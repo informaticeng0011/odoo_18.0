@@ -4,6 +4,7 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Nadia Martynova, 2024
 # Wil Odoo, 2024
 # Ilya Rozhkov, 2024
@@ -13,6 +14,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -48,7 +52,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -81,7 +89,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_count
 msgid "# Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Contracts"
+=======
+msgstr "# Договоров"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Договоров"
 >>>>>>> upstream/18.0
@@ -90,7 +102,11 @@ msgstr "# Договоров"
 #: model:ir.model.fields,field_description:hr_contract.field_resource_calendar__contracts_count
 msgid "# Contracts using it"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Контракты, использующие его"
+=======
+msgstr "# Договоров, где используется"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Договоров, где используется"
 >>>>>>> upstream/18.0
@@ -100,7 +116,11 @@ msgstr "# Договоров, где используется"
 #: code:addons/hr_contract/report/hr_contract_history.py:0
 msgid "%s's Contracts History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "история контрактов %s"
+=======
+msgstr "История договоров %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "История договоров %s"
 >>>>>>> upstream/18.0
@@ -109,7 +129,11 @@ msgstr "История договоров %s"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "/ month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "/ месяц"
+=======
+msgstr "/ месяц"
+>>>>>>> upstream/18.0
 =======
 msgstr "/ месяц"
 >>>>>>> upstream/18.0
@@ -122,8 +146,13 @@ msgid ""
 "                                </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"In Contract Since\">\n"
 "                                    С момента заключения контракта\n"
+=======
+"<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"Дата заключения договора\">\n"
+"                                    Дата заключения договора\n"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text text-danger\" invisible=\"not contract_warning\" title=\"Дата заключения договора\">\n"
 "                                    Дата заключения договора\n"
@@ -138,7 +167,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_stat_text text-success\" invisible=\"contract_warning\" "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title=\"In Contract Since\"> С момента заключения контракта</span>"
+=======
+"title=\"Дата заключения договора\"> Дата заключения договора</span>"
+>>>>>>> upstream/18.0
 =======
 "title=\"Дата заключения договора\"> Дата заключения договора</span>"
 >>>>>>> upstream/18.0
@@ -155,15 +188,21 @@ msgid ""
 msgstr ""
 "<span invisible=\"contracts_count != 1\" class=\"o_stat_text text-danger\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    Контракт\n"
 "                                </span>\n"
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Контракты\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                    Договор\n"
 "                                </span>\n"
 "                                <span invisible=\"contracts_count == 1\" class=\"o_stat_text text-danger\">\n"
 "                                    Договоры\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                </span>"
 
@@ -179,15 +218,21 @@ msgid ""
 msgstr ""
 "<span invisible=\"contracts_count == 1\" class=\"o_stat_text\">\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        Контракты\n"
 "                                    </span>\n"
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
 "                                        Контракт\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "                                        Договоры\n"
 "                                    </span>\n"
 "                                    <span invisible=\"contracts_count &gt; 1\" class=\"o_stat_text\">\n"
 "                                        Договор\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "                                    </span>"
 
@@ -195,7 +240,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "<span>Days</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Дни</span>"
+=======
+msgstr "<span>Дней</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Дней</span>"
 >>>>>>> upstream/18.0
@@ -208,9 +257,12 @@ msgid ""
 "been put in red on the %s. Please advise and correct."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В соответствии с датой истечения срока действия разрешения на работу "
 "сотрудника, этот договор был помечен красным цветом на %s. Пожалуйста, "
 "проконсультируйте и исправьте."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -222,8 +274,11 @@ msgid ""
 "the %s. Please advise and correct."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Согласно дате окончания контракта, этот контракт был помечен красным цветом "
 "на %s. Пожалуйста, подскажите и исправьте."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -231,7 +286,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_needaction
 msgid "Action Needed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Требуются действия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -240,7 +299,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__active
 msgid "Active"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активный"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -250,7 +313,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__active_employee
 msgid "Active Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активный сотрудник"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -259,7 +326,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Active Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активные сотрудники"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -268,7 +339,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_ids
 msgid "Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Активность"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -277,7 +352,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -287,7 +366,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__activity_state
 msgid "Activity State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Состояние активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -296,7 +379,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок типа активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -305,7 +392,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_mail_activity_schedule
 msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "План-график деятельности Мастер"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -314,7 +405,11 @@ msgstr ""
 #: model:res.groups,name:hr_contract.group_hr_contract_manager
 msgid "Administrator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Администратор"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -328,9 +423,12 @@ msgid ""
 "Employee: %(employee_name)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Одновременно сотрудник может иметь только один контракт. (За исключением черновых и отмененных контрактов).\n"
 "\n"
 "Сотрудник: %(employee_name)s"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -339,7 +437,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Архивировано"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -348,7 +450,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_attachment_count
 msgid "Attachment Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество вложений"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -357,7 +463,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_res_users__bank_account_id
 msgid "Bank Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Расчётный счет"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -366,7 +476,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_hr_employee_base
 msgid "Basic Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Основной сотрудник"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -376,7 +490,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__calendar_mismatch
 msgid "Calendar Mismatch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Несоответствие календаря"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -389,8 +507,11 @@ msgid ""
 "calendar. This could lead to unexpected behaviors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Несоответствие календаря: Календарь сотрудника не совпадает с календарем "
 "этого контракта. Это может привести к неожиданному поведению."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -399,7 +520,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__state__cancel
 msgid "Cancelled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отменен"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -408,7 +533,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Компании"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -418,7 +547,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__company_id
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Компания"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -428,7 +561,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_res_users__vehicle
 msgid "Company Vehicle"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Автомобиль компании"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -438,7 +575,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__company_country_id
 msgid "Company country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Страна компании"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -447,7 +588,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Параметры конфигурации"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -459,7 +604,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Договор"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -472,8 +621,11 @@ msgid ""
 "end date (%(end)s)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Контракт %(contract)s: дата начала (%(start)s) должна быть раньше даты "
 "окончания контракта (%(end)s)."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -482,7 +634,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contracts_count
 msgid "Contract Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -492,7 +648,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
 msgid "Contract End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата окончания контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -501,7 +661,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Период уведомления об истечении срока действия договора"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -511,7 +675,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__contract_expiration_notice_period
 msgid "Contract Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Период уведомления об истечении срока действия договора"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -520,7 +688,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -530,7 +702,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Contract Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Название контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -540,7 +716,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Contract Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ссылка на контракт"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -549,7 +729,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Contract Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата начала контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -559,7 +743,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_type_id
 msgid "Contract Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -568,7 +756,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__contract_wage
 msgid "Contract Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Заработная плата по контракту"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -577,7 +769,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_warning
 msgid "Contract Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Предупреждение о контракте"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -587,7 +783,11 @@ msgstr ""
 #: model:mail.message.subtype,description:hr_contract.mt_department_contract_pending
 msgid "Contract about to expire"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Срок действия контракта истекает"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -596,7 +796,11 @@ msgstr ""
 #: model:mail.message.subtype,description:hr_contract.mt_contract_close
 msgid "Contract expired"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Срок действия контракта истек"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -605,7 +809,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_hr_contract_history
 msgid "Contract history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -614,7 +822,11 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_contract.mt_department_contract_pending
 msgid "Contract to Renew"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обновление контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -632,7 +844,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.resource_calendar_view_form
 msgid "Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контракты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -642,7 +858,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Contracts to Review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контракты для проверки"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -651,7 +871,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Contracts to review"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контракты для проверки"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -660,7 +884,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__under_contract_state
 msgid "Contractual Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Договорной статус"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -669,7 +897,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__country_id
 msgid "Country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Страна"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -680,7 +912,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Код страны"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -689,7 +925,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Create"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создать"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -698,7 +938,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_contract.action_hr_contract
 msgid "Create a new contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте новый контракт"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -708,7 +952,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -718,7 +966,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -728,7 +980,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__currency_id
 msgid "Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Валюта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -738,7 +994,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Current Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текущий контракт"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -747,7 +1007,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Current Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текущие контракты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -756,7 +1020,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_employee__contract_id
 msgid "Current contract of the employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текущий контракт сотрудника"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -765,7 +1033,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "В настоящее время в стадии заключения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -774,7 +1046,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__default_resource_calendar_id
 msgid "Default Working Hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рабочие часы по умолчанию"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -783,7 +1059,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Удалить"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -794,7 +1074,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Department"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отдел"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -803,7 +1087,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_hr_departure_wizard
 msgid "Departure Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мастер Ухода"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -815,7 +1103,10 @@ msgid ""
 "Departure date can't be earlier than the start date of current contract."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Дата отъезда не может быть раньше даты начала действия текущего контракта."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -823,7 +1114,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Детали"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -834,7 +1129,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отображаемое имя"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -843,7 +1142,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
 msgid "Edit Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Редактировать договор"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -855,7 +1158,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сотрудник"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -864,7 +1171,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_hr_contract
 msgid "Employee Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Договор с Сотрудником"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -873,7 +1184,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_ids
 msgid "Employee Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Договоры с работниками"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -882,7 +1197,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Employee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Информация о сотрудниках"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -891,7 +1210,11 @@ msgstr ""
 #: model:res.groups,name:hr_contract.group_hr_contract_employee_manager
 msgid "Employee Manager"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Менеджер по персоналу"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -900,7 +1223,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_res_users__bank_account_id
 msgid "Employee bank account to pay salaries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Банковский счет сотрудника для выплаты зарплаты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -910,7 +1237,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_history__wage
 msgid "Employee's monthly gross wage."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ежемесячная начисленная заработная плата сотрудника."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -919,7 +1250,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_contract.hr_contract_history_view_list_action
 msgid "Employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сотрудники"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -930,7 +1265,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата окончания"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -939,7 +1278,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__date_end
 msgid "End date of the contract (if it's a fixed-term contract)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конечная дата договора (если это срочный договор)."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -948,7 +1291,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__trial_date_end
 msgid "End date of the trial period (if there is one)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Конечная дата испытательного срока (если имеется)."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -957,7 +1304,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__trial_date_end
 msgid "End of Trial Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Окончание испытательного срока"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -968,7 +1319,11 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_contract.mt_contract_close
 msgid "Expired"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Истекший"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -979,7 +1334,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_public__first_contract_date
 msgid "First Contract Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата заключения первого контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -988,7 +1347,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_follower_ids
 msgid "Followers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подписчики"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -997,7 +1360,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_partner_ids
 msgid "Followers (Partners)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подписчики"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1006,7 +1373,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шрифт, отличный значок, например. к.-а.-задачи"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1015,7 +1386,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
 msgid "From"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "От"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1030,7 +1405,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Future Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Планируемые действия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1040,7 +1419,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Group By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Группировать по"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1049,7 +1432,11 @@ msgstr ""
 #: model:ir.actions.server,name:hr_contract.ir_cron_data_contract_update_state_ir_actions_server
 msgid "HR Contract: update state"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "HR договор: состояние обновления"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1059,7 +1446,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__hr_responsible_id
 msgid "HR Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ответственный подразделения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1068,7 +1459,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__has_message
 msgid "Has Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Есть сообщение"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1077,7 +1472,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__date_hired
 msgid "Hire Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата приема на работу"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1088,7 +1487,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1097,7 +1500,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_exception_icon
 msgid "Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Иконка"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1106,7 +1513,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1116,7 +1527,10 @@ msgstr ""
 msgid "If checked, new messages require your attention."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если флажок установлен, значит, новые сообщения требуют вашего внимания."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1125,7 +1539,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Если отмечено, некоторые сообщения имеют ошибку доставки."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1137,8 +1555,11 @@ msgid ""
 "record without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если значение активного поля \"ложно\", это позволит вам скрыть запись "
 "ресурса, не удаляя ее."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1146,7 +1567,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__is_under_contract
 msgid "Is Currently Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "В настоящее время находится на стадии заключения контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1155,7 +1580,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_is_follower
 msgid "Is Follower"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Является подписчиком"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1167,7 +1596,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Job Position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Должность"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1176,7 +1609,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__kanban_state
 msgid "Kanban State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Статус канбан"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1186,7 +1623,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1196,7 +1637,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1205,7 +1650,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Late Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поздние Мероприятия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1219,7 +1668,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_ir_ui_menu
 msgid "Menu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Меню"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1228,7 +1681,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ошибка доставки сообщения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1237,7 +1694,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_ids
 msgid "Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сообщения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1246,7 +1707,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Monthly Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Месячная заработная плата"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1255,7 +1720,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Крайний срок моей активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1265,7 +1734,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__state__draft
 msgid "New"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Новый"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1274,7 +1747,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующее событие календаря активности"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1283,7 +1760,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_date_deadline
 msgid "Next Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий срок мероприятия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1292,7 +1773,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_summary
 msgid "Next Activity Summary"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Резюме следующего действия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1301,7 +1786,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_type_id
 msgid "Next Activity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Следующий Тип Мероприятия"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1310,7 +1799,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "No Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Без контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1319,7 +1812,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_contract.hr_contract_history_view_list_action
 msgid "No data to display"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нет данных для отображения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1328,7 +1825,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__blocked
 msgid "Not Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Не по контракту"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1338,7 +1839,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Notes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Заметки"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1347,7 +1852,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_needaction_counter
 msgid "Number of Actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число действий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1359,8 +1868,11 @@ msgid ""
 "warning is triggered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество дней до даты окончания контракта, за которые включается "
 "предупреждение об истечении срока действия контракта."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1371,8 +1883,11 @@ msgid ""
 "triggered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество дней до даты истечения срока действия разрешения на работу, когда"
 " срабатывает предупреждение."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1380,7 +1895,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error_counter
 msgid "Number of errors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Число ошибок"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1389,7 +1908,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество сообщений, требующих принятия мер"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1398,7 +1921,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Количество недоставленных сообщений"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1407,7 +1934,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__normal
 msgid "Ongoing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Текущие"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1416,7 +1947,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Открытый контракт"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1425,7 +1960,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__hr_responsible_id
 msgid "Person responsible for validating the employee's contracts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Лицо, ответственное за подтверждение контрактов сотрудников."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1434,7 +1973,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_hr_employee_public
 msgid "Public Employee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Государственный служащий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1443,7 +1986,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рейтинги"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1452,7 +1999,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__done
 msgid "Ready"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подтверждение"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1462,7 +2013,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Reference Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Контрольное время работы"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1471,7 +2026,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Подробности отсутствий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1480,7 +2039,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_resource_calendar
 msgid "Resource Working Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рабочее время"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1489,7 +2052,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_resource_resource
 msgid "Resources"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ресурсы"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1498,7 +2065,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_user_id
 msgid "Responsible User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ответственный пользователь"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1508,7 +2079,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__state__open
 msgid "Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Работает"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1518,7 +2093,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Running Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Выполнение контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1527,7 +2106,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_sms_error
 msgid "SMS Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ошибка доставки SMS"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1536,7 +2119,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Salary Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Информация о зарплате"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1550,7 +2137,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Salary Structure Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип структуры заработной платы"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1559,7 +2150,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Search Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поиск Контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1568,7 +2163,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_search
 msgid "Search Reference Contracts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Поиск справочных контрактов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1577,7 +2176,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set Contract End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Установите дату окончания контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1586,7 +2189,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set the end date on the current contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Установите дату окончания текущего контракта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1595,7 +2202,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Show all records which have a next action date before today"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Показать все записи с датой следующего действия до сегодняшнего дня"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1606,7 +2217,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дата начала"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1618,7 +2233,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Статус"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1633,22 +2252,32 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус, основанный на мероприятии\n"
 "Просроченная: Дата, уже прошла\n"
 "Сегодня: Дата мероприятия сегодня\n"
 "Запланировано: будущая деятельность."
 =======
+=======
+>>>>>>> upstream/18.0
 "Статус дел\n"
 "Просроченные: Срок выполнения уже прошел\n"
 "Сегодня: Срок выполнения сегодня\n"
 "Запланированные: Будущие дела."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__state
 msgid "Status of the contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Статус контракта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1662,8 +2291,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Код страны ISO в двух символах.\n"
 "Вы можете использовать это поле для быстрого поиска."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1672,7 +2304,11 @@ msgstr ""
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Срок действия контракта %s истекает."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1687,7 +2323,11 @@ msgid "The default working hours are set in configuration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Стандартные часы работы задаются в настройках."
+>>>>>>> upstream/18.0
 =======
 msgstr "Стандартные часы работы задаются в настройках."
 >>>>>>> upstream/18.0
@@ -1715,7 +2355,11 @@ msgstr "Стандартные часы работы задаются в на�
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Срок действия разрешения на работу %s истекает."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1724,7 +2368,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
 msgid "To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Кому"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1733,7 +2381,11 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_contract.mt_contract_pending
 msgid "To Renew"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Обновить"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1742,7 +2394,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Today Activities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Сегодняшние Дела"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1751,7 +2407,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Type in notes about this contract..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Введите заметки об этом контракте..."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1760,7 +2420,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Тип Дела для исключения в записи."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1769,7 +2433,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract_history__under_contract_state__done
 msgid "Under Contract"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "По контракту"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1778,7 +2446,11 @@ msgstr ""
 #: model:ir.model,name:hr_contract.model_res_users
 msgid "User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Пользователь"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1787,7 +2459,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__visa_no
 msgid "Visa No"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Номер банковской карты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1797,7 +2473,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__wage
 msgid "Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Заработная плата"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1806,7 +2486,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__blocked
 msgid "Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Предупреждение"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1815,7 +2499,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Веб-сайт сообщения"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1824,7 +2512,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История общений с сайта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1833,7 +2525,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Work Permit Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Период уведомления об истечении срока действия разрешения на работу"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1843,7 +2539,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
 msgid "Work Permit Expiry Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Период уведомления об истечении срока действия разрешения на работу"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1852,7 +2552,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__permit_no
 msgid "Work Permit No"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Разрешение на работу"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1863,7 +2567,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Working Schedule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "График работы"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -1873,7 +2581,11 @@ msgstr ""
 #: code:addons/hr_contract/models/hr_employee.py:0
 msgid "You cannot delete an employee with a running contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Удаление сотрудника с активным контрактом невозможно."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0

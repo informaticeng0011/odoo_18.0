@@ -25,6 +25,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import re
+
+>>>>>>> upstream/18.0
 =======
 import re
 
@@ -156,6 +161,11 @@ from odoo.tools import ormcache, make_index_name, create_index
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.models.ir_model import MODULE_UNINSTALL_FLAG
 
@@ -309,6 +319,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        search='_search_root_id',
+>>>>>>> upstream/18.0
 =======
         search='_search_root_id',
 >>>>>>> upstream/18.0
@@ -501,7 +515,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -579,6 +596,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -776,8 +796,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super().unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -877,6 +900,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -958,7 +984,10 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1037,6 +1066,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1119,6 +1151,7 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             prev = plan._find_plan_column(model)
             if plan.parent_id and prev:
                 prev.unlink()
@@ -1144,6 +1177,8 @@ class AccountAnalyticPlan(models.Model):
                     create_index(self.env.cr, indexname, tablename, [column], 'btree', f'{column} IS NOT NULL')
                     field['index'] = True
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1268,6 +1303,9 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1394,7 +1432,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0
@@ -1673,7 +1715,11 @@ class AccountAnalyticPlan(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     accounts=plan.account_ids,
+=======
+                    accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
+>>>>>>> upstream/18.0
 =======
                     accounts=self.env['account.analytic.account'].search([('plan_id', 'child_of', plan.id)]),
 >>>>>>> upstream/18.0

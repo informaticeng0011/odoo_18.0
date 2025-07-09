@@ -14,6 +14,7 @@ class MrpProduction(models.Model):
     sale_line_id = fields.Many2one('sale.order.line', 'Origin sale order line')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('procurement_group_id.mrp_production_ids.move_dest_ids.group_id.sale_id')
     def _compute_sale_order_count(self):
         for production in self:
@@ -23,6 +24,8 @@ class MrpProduction(models.Model):
         self.ensure_one()
         sale_order_ids = self.procurement_group_id.mrp_production_ids.move_dest_ids.group_id.sale_id.ids + self.sale_line_id.order_id.ids
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('procurement_group_id.mrp_production_ids.move_dest_ids.group_id.sale_id', 'procurement_group_id.sale_id', 'sale_line_id.order_id')
     def _compute_sale_order_count(self):
         for production in self:
@@ -37,6 +40,9 @@ class MrpProduction(models.Model):
     def action_view_sale_orders(self):
         self.ensure_one()
         sale_order_ids = self.get_linked_sale_orders().ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         action = {
             'res_model': 'sale.order',

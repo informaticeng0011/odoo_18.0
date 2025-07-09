@@ -1,7 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import tools
+=======
+from odoo import tools, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import tools, Command
 >>>>>>> upstream/18.0
@@ -205,7 +209,10 @@ class L10nHuEdiTestFlowsMocked(L10nHuEdiTestCommon, TestAccountMoveSendCommon):
                 self.assertRecordValues(new_invoice, [{'l10n_hu_edi_state': 'confirmed', 'l10n_hu_invoice_chain_index': 2}])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_invoice_line_currency_rate_from_sale(self):
         if self.env['ir.module.module']._get('sale_stock').state == 'installed':
             currency = self.setup_other_currency('HRK', rates=[
@@ -242,6 +249,9 @@ class L10nHuEdiTestFlowsMocked(L10nHuEdiTestCommon, TestAccountMoveSendCommon):
                 {'amount_currency': 762.00,    'balance': 254.00},
             ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # === Helpers === #
 
