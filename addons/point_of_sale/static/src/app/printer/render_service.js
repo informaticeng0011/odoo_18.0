@@ -22,7 +22,11 @@ export class RenderContainer extends Component {
             // this timeout is needed in order to wait for the
             // component to arrive in it's final state
             await new Promise((r) => setTimeout(r, 100));
+<<<<<<< HEAD
             this.props.onRendered(this.ref?.el?.firstChild);
+=======
+            this.props.onRendered(this.ref?.el?.firstElementChild);
+>>>>>>> upstream/18.0
         });
     }
 }

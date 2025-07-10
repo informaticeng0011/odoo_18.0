@@ -52,7 +52,11 @@ registry.category("web_tour.tours").add("discuss_channel_tour", {
             run: "click",
         },
         {
+<<<<<<< HEAD
             trigger: ".o-mail-Message:contains(today at)",
+=======
+            trigger: ".o-mail-Message[data-persistent]:contains(today at)",
+>>>>>>> upstream/18.0
             content: _t("Hover on your message and mark as todo"),
             tooltipPosition: "top",
             run: "hover && click .o-mail-Message [title='Mark as Todo']",

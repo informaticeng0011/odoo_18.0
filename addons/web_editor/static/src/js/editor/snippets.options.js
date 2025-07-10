@@ -6111,7 +6111,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6248,6 +6251,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8257,6 +8263,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();
@@ -9619,11 +9631,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
         this.$overlayContent.offset(targetOffset);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$bgDragger.css({
             width: `${this.$target.innerWidth()}px`,
             height: `${this.$target.innerHeight()}px`,
         });
 =======
+=======
+>>>>>>> upstream/18.0
         this.$bgDragger[0].style.setProperty(
             "width",
             `${this.$target.innerWidth()}px`,
@@ -9635,6 +9650,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
             `${this.$target.innerHeight()}px`,
             "important"
         );
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         const topPos = Math.max(0, $(window).scrollTop() - this.$target.offset().top);

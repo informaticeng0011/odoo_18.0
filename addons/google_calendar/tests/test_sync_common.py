@@ -3,7 +3,13 @@
 
 from collections import defaultdict
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
+=======
+from contextlib import contextmanager
+from datetime import datetime
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from contextlib import contextmanager
 from datetime import datetime
@@ -16,9 +22,14 @@ from odoo.addons.google_account.models.google_service import GoogleService
 from odoo.addons.google_calendar.models.res_users import User
 from odoo.addons.google_calendar.models.google_sync import google_calendar_token, GoogleSync
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import HttpCase, new_test_user
 from freezegun import freeze_time
 from contextlib import contextmanager
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.tests.common import HttpCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests.common import HttpCase
@@ -39,8 +50,13 @@ class TestSyncGoogle(HttpCase):
         self.google_service = GoogleCalendarService(self.env['google.service'])
         self.env.user.sudo().unpause_google_synchronization()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.organizer_user = new_test_user(self.env, login="organizer_user")
         self.attendee_user = new_test_user(self.env, login='attendee_user')
+=======
+        self.organizer_user = mail_new_test_user(self.env, login="organizer_user")
+        self.attendee_user = mail_new_test_user(self.env, login='attendee_user')
+>>>>>>> upstream/18.0
 =======
         self.organizer_user = mail_new_test_user(self.env, login="organizer_user")
         self.attendee_user = mail_new_test_user(self.env, login='attendee_user')

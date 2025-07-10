@@ -120,6 +120,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <ID>___ignore___</ID>
             </xpath>
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -140,6 +141,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
             <xpath expr="//*[local-name()='InvoiceLine']/*[local-name()='ID']" position="replace">
                 <ID>___ignore___</ID>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,6 +180,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195,6 +201,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 
         cls.credit_note_applied_xpath = '''
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +247,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
             </xpath>
             <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -271,6 +280,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -289,6 +301,7 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 
         cls.debit_note_applied_xpath = '''
                 <xpath expr="(//*[local-name()='Invoice']/*[local-name()='ID'])[1]" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +350,8 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
                 </xpath>
                 <xpath expr="(//*[local-name()='Invoice']/*[local-name()='UUID'])[1]" position="replace">
@@ -371,6 +386,9 @@ class TestSaEdiCommon(AccountEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

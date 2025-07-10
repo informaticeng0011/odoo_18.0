@@ -118,7 +118,11 @@ export class DomPlugin extends Plugin {
             startNode = selection.startContainer;
         }
 
+<<<<<<< HEAD
         const container = this.document.createElement("fake-element");
+=======
+        let container = this.document.createElement("fake-element");
+>>>>>>> upstream/18.0
         const containerFirstChild = this.document.createElement("fake-element-fc");
         const containerLastChild = this.document.createElement("fake-element-lc");
 
@@ -134,6 +138,15 @@ export class DomPlugin extends Plugin {
             }
             container.replaceChildren(content);
         }
+<<<<<<< HEAD
+=======
+
+        const block = closestBlock(selection.anchorNode);
+        for (const cb of this.getResource("before_insert_processors")) {
+            container = cb(container, block);
+        }
+
+>>>>>>> upstream/18.0
         const allInsertedNodes = [];
 
         // In case the html inserted starts with a list and will be inserted within
@@ -155,6 +168,7 @@ export class DomPlugin extends Plugin {
         }
 
         startNode = startNode || this.dependencies.selection.getEditableSelection().anchorNode;
+<<<<<<< HEAD
         const block = closestBlock(selection.anchorNode);
 
         const shouldUnwrap = (node) =>
@@ -162,6 +176,11 @@ export class DomPlugin extends Plugin {
                 isListItemElement(node) ||
                 // TODO remove: PRE should be a paragraphRelatedElement
                 node.nodeName === "PRE") &&
+=======
+
+        const shouldUnwrap = (node) =>
+            (isParagraphRelatedElement(node) || isListItemElement(node)) &&
+>>>>>>> upstream/18.0
             !isEmptyBlock(block) &&
             !isEmptyBlock(node) &&
             (isContentEditable(node) ||
@@ -170,10 +189,14 @@ export class DomPlugin extends Plugin {
             (node.nodeName === block.nodeName ||
                 (this.dependencies.baseContainer.isCandidateForBaseContainer(node) &&
                     this.dependencies.baseContainer.isCandidateForBaseContainer(block)) ||
+<<<<<<< HEAD
                 // TODO add: when PRE is considered as a paragraphRelatedElement
                 // again, consider unwrapping in PRE by re-enabling the
                 // following condition:
                 // block.nodeName === "PRE" ||
+=======
+                block.nodeName === "PRE" ||
+>>>>>>> upstream/18.0
                 (block.nodeName === "DIV" && this.dependencies.split.isUnsplittable(block))) &&
             // If the selection anchorNode is the editable itself, the content
             // should not be unwrapped.
@@ -610,7 +633,10 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -775,6 +801,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -890,11 +919,15 @@ export class DomPlugin extends Plugin {
                 block.isContentEditable
         );
         for (const block of deepestSelectedBlocks) {
+<<<<<<< HEAD
             if (
                 isParagraphRelatedElement(block) ||
                 block.nodeName === "PRE" || // TODO remove: PRE should be a paragraphRelatedElement
                 isListItemElement(block)
             ) {
+=======
+            if (isParagraphRelatedElement(block) || isListItemElement(block)) {
+>>>>>>> upstream/18.0
                 if (newCandidate.matches(baseContainerGlobalSelector) && isListItemElement(block)) {
                     continue;
                 }
@@ -959,8 +992,11 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             element.before(sep);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1048,6 +1084,9 @@ export class DomPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -26,6 +26,10 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': 'Ulus',
+>>>>>>> upstream/18.0
 =======
             'ref': 'Ulus',
 >>>>>>> upstream/18.0
@@ -53,6 +57,10 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': 'Ulus',
+>>>>>>> upstream/18.0
 =======
             'ref': 'Ulus',
 >>>>>>> upstream/18.0
@@ -124,6 +132,7 @@ class TestUBLTR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
@@ -203,6 +212,8 @@ class TestUBLTR(AccountTestInvoicingCommon):
             # Adding a ref field to the partner because this field has an influence on <BuyerReference> and
             # <PartyIdentification> tags in UBL but we have special code to not take it into account for UBL TR 1.2
             self.partner_1.ref = '1234567890'
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

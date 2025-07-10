@@ -300,7 +300,10 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -498,6 +501,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -601,10 +605,15 @@ class TestAccountPayment(AccountPaymentCommon):
         """
         Test that modifying and reposting a vendor payment does not change its name.
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_vendor_payment_name_remains_same_after_repost(self):
         """
         Test that modifying and reposting a vendor payment does not change its name, except when the journal is changed.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         """
         journal = self.company_data['default_journal_bank']
@@ -649,6 +658,7 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,6 +672,8 @@ class TestAccountPayment(AccountPaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Now try to change the journal, and check if the name is now updated
         payment.move_id.button_draft()
@@ -678,6 +690,9 @@ class TestAccountPayment(AccountPaymentCommon):
             original_name,
             "Payment name should be updated after changing the journal"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_post_process_does_not_fail_on_cancelled_invoice(self):
@@ -709,6 +724,9 @@ class TestAccountPayment(AccountPaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

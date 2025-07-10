@@ -673,9 +673,12 @@ class TestProcRule(TransactionCase):
             'The help message should correctly display information for MTSO.'
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_replenishment_creation(self):
         """Test that the default replenishment order values
@@ -685,6 +688,9 @@ class TestProcRule(TransactionCase):
         self.assertFalse(orderpoint_list_view.product_id)
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class TestProcRuleLoad(TransactionCase):
     def setUp(cls):

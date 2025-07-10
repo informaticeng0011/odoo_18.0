@@ -4,14 +4,20 @@
 from dateutil.relativedelta import relativedelta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo import api, exceptions, fields, models, _
 from odoo.exceptions import UserError
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 class MailActivityType(models.Model):
     """ Activity Types are used to categorize activities. Each type is a different
@@ -136,11 +142,14 @@ class MailActivityType(models.Model):
                 activity_type.chaining_type = 'suggest'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.ondelete(at_uninstall=False)
     def _unlink_except_todo(self):
         if self.env.ref('mail.mail_activity_data_todo') in self:
             raise UserError(_("The 'To-Do' activity type is used to create reminders from the top bar menu and the command palette. Consequently, it cannot be archived or deleted."))
 =======
+=======
+>>>>>>> upstream/18.0
     def write(self, values):
         # Protect some master types against model change when they are used
         # as default in apps, in business flows, plans, ...
@@ -174,6 +183,9 @@ class MailActivityType(models.Model):
                 _('You cannot delete %(activity_names)s as it is required in various apps.',
                   activity_names=', '.join(act.name for act in master_data),
             ))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def action_archive(self):
@@ -190,7 +202,10 @@ class MailActivityType(models.Model):
             base = fields.Date.context_today(self)
         return base + relativedelta(**{self.delay_unit: self.delay_count})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.model
     def _get_model_info_by_xmlid(self):
@@ -207,4 +222,7 @@ class MailActivityType(models.Model):
             # generic warning, used in plans, business flows, ...
             'mail.mail_activity_data_warning': {'res_model': False, 'unlink': True},
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

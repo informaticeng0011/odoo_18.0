@@ -68,6 +68,10 @@ from odoo import fields, exceptions, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.models.mail_activity import MailActivity
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -1080,7 +1084,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1335,6 +1342,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1389,6 +1397,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1571,6 +1581,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -120,15 +120,21 @@ class Country(models.Model):
             # Intentionally simplified by not clearing the cache in create and unlink.
             self.env.registry.clear_cache()
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'address_view_id' in vals:
             # Changing the address view of the company must invalidate the view cached for res.partner
             # because of _view_get_address
 =======
+=======
+>>>>>>> upstream/18.0
         if 'address_view_id' in vals or 'vat_label' in vals:
             # Changing the address view of the company must invalidate the view cached for res.partner
             # because of _view_get_address
             # Same goes for vat_label
             # because of _get_view override from FormatVATLabelMixin
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             self.env.registry.clear_cache('templates')
         return res

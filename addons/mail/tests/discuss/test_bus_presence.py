@@ -9,7 +9,11 @@ except ImportError:
 
 from odoo.tests import tagged, new_test_user
 from odoo.addons.bus.tests.common import WebsocketCase
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import MailCommon
+=======
+from odoo.addons.mail.tests.common import MailCommon, freeze_all_time
+>>>>>>> upstream/18.0
 from odoo.addons.bus.models.bus import channel_with_db, json_dump
 
 
@@ -25,6 +29,7 @@ class TestBusPresence(WebsocketCase, MailCommon):
         else:
             self.authenticate(None, None)
             auth_cookie = f"{recipient._cookie_name}={recipient._format_auth_cookie()};"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310,6 +315,9 @@ class TestBusPresence(WebsocketCase, MailCommon):
 =======
         websocket = self.websocket_connect(cookie=auth_cookie)
 >>>>>>> upstream/18.0
+=======
+        websocket = self.websocket_connect(cookie=auth_cookie)
+>>>>>>> upstream/18.0
         sender_bus_target = sender.partner_id if sent_from_user else sender
         self.subscribe(
             websocket,
@@ -335,6 +343,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
             sender_bus_target.id,
         )
 
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
     def test_receive_presences_as_guest(self):
         guest = self.env["mail.guest"].create({"name": "Guest"})
         bob = new_test_user(self.env, login="bob_user", groups="base.group_user")
@@ -354,6 +366,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
         # Now that they share a channel, guest should receive guest's presence.
         self._receive_presence(sender=other_guest, recipient=guest)
 
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
     def test_receive_presences_as_portal(self):
         portal = new_test_user(self.env, login="portal_user", groups="base.group_portal")
         bob = new_test_user(self.env, login="bob_user", groups="base.group_user")
@@ -373,6 +389,10 @@ class TestBusPresence(WebsocketCase, MailCommon):
         # Now that they share a channel, portal should receive guest's presence.
         self._receive_presence(sender=guest, recipient=portal)
 
+<<<<<<< HEAD
+=======
+    @freeze_all_time()
+>>>>>>> upstream/18.0
     def test_receive_presences_as_internal(self):
         internal = new_test_user(self.env, login="internal_user", groups="base.group_user")
         guest = self.env["mail.guest"].create({"name": "Guest"})

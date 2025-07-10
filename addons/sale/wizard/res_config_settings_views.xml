@@ -108,6 +108,7 @@
                             <field name="module_delivery"/>
                         </setting>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <setting id="ups" help="Compute shipping costs and ship with UPS"
                                  documentation="/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.html">
                             <field name="module_delivery_ups" widget="upgrade_boolean"/>
@@ -124,6 +125,8 @@
                                  documentation="/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.html">
                             <field name="module_delivery_usps" widget="upgrade_boolean"/>
 =======
+=======
+>>>>>>> upstream/18.0
                         <setting id="ups">
                             <div class="o_form_label">UPS Connector</div>
                                 <a href="https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.html" title="Documentation" class="o_doc_link" target="_blank"></a>
@@ -155,6 +158,9 @@
                                     Compute shipping costs and ship with USPS<br/>
                                     <strong>(please go to Home>Apps to install)</strong>
                                 </div>
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         </setting>
                         <setting id="shipping_costs_bpost" help="Compute shipping costs and ship with bpost"

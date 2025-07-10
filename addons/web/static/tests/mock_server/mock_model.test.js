@@ -57,6 +57,7 @@ test("model name can be implicitly extracted from its constructor name", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [AnonymousClass, Foo, ResCurrency, ResPartner] = defineModels([
         class extends models.Model {},
         class Foo extends models.Model {},
@@ -66,6 +67,8 @@ test("model name can be implicitly extracted from its constructor name", async (
         class ResPartner extends models.Model {},
     ]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -175,6 +178,9 @@ test("model name can be implicitly extracted from its constructor name", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -300,7 +306,10 @@ test("model should be defined on the mock server", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -465,6 +474,9 @@ test("cannot access _records on models after init", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

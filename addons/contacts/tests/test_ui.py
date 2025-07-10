@@ -3,6 +3,10 @@
 
 from ast import literal_eval
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from lxml import etree
+>>>>>>> upstream/18.0
 =======
 from lxml import etree
 >>>>>>> upstream/18.0
@@ -36,7 +40,10 @@ class TestUi(odoo.tests.HttpCase):
 
         self.start_tour("/odoo", 'debug_menu_set_defaults', login="admin")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_vat_label_string(self):
         """ Test changing the vat_label field of the user company_id.
@@ -54,4 +61,7 @@ class TestUi(odoo.tests.HttpCase):
             self.assertEqual(node.get("string"), 'TVA')
         for node in arch.iterfind(".//label[@for='vat']"):
             self.assertEqual(node.get("string"), 'TVA')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -20,11 +20,17 @@ class AccountMove(models.Model):
         super()._compute_invoice_currency_rate()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('taxable_supply_date')
     def _compute_expected_currency_rate(self):
         super()._compute_expected_currency_rate()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_invoice_currency_rate_date(self):
         self.ensure_one()

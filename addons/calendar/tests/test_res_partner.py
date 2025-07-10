@@ -62,6 +62,7 @@ class TestResPartner(TransactionCase):
                                     'perm_create': False,
                                     'perm_write': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         Event.create({'name': 'event_9',
                       'partner_ids': [(6, 0, [test_partner_2.id,
@@ -69,12 +70,17 @@ class TestResPartner(TransactionCase):
 
         Event.create({'name': 'event_10',
 =======
+=======
+>>>>>>> upstream/18.0
         # create generally requires read -> prevented by above test rule
         Event.sudo().create({'name': 'event_9',
                       'partner_ids': [(6, 0, [test_partner_2.id,
                                               test_partner_3.id])]})
 
         Event.sudo().create({'name': 'event_10',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                       'partner_ids': [(6, 0, [test_partner_5.id])]})
 

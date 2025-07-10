@@ -133,7 +133,10 @@ class TestStructure(TransactionCase):
             test_partner.vat = "2155 ABC 21750017"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_vat_vn(self):
         test_partner = self.env['res.partner'].create({'name': "DuongDepTrai", 'country_id': self.env.ref('base.vn').id})
         # Valid vn vat
@@ -150,6 +153,9 @@ class TestStructure(TransactionCase):
         with self.assertRaisesRegex(ValidationError, msg):
             test_partner.write({'vat': '0123457890-11134'})
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('-standard', 'external')

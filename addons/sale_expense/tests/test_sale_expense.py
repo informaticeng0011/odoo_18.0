@@ -56,6 +56,10 @@ class TestSaleExpense(TestExpenseCommon, TestSaleCommon):
         self.assertEqual(so.amount_total, init_price + exp.total_amount, 'Sale Expense: price of so should be updated after adding expense')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(sol.analytic_distribution, {str(analytic_account.id): 100})
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import base64
+<<<<<<< HEAD
+=======
+import contextlib
+>>>>>>> upstream/18.0
 import email
 import email.policy
 import json
@@ -17,6 +21,10 @@ from random import randint
 from unittest.mock import patch
 
 from odoo.addons.base.models.ir_mail_server import IrMailServer
+<<<<<<< HEAD
+=======
+from odoo import fields
+>>>>>>> upstream/18.0
 from odoo.addons.base.tests.common import MockSmtplibCase
 from odoo.addons.bus.models.bus import ImBus, json_dump
 from odoo.addons.mail.models.mail_mail import MailMail
@@ -250,7 +258,11 @@ class MockEmail(common.BaseCase, MockSmtplibCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg_id = "<%.7f-%5d-test@iron.sky>" % (time.time(), randint(0, 99998))
+=======
+            msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
+>>>>>>> upstream/18.0
 =======
             msg_id = "<%.7f-%05d-test@iron.sky>" % (time.time(), randint(0, 99998))
 >>>>>>> upstream/18.0
@@ -1242,7 +1254,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1341,7 +1356,10 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1440,6 +1458,9 @@ class MailCase(MockEmail):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2229,3 +2250,21 @@ class MailCommon(common.TransactionCase, MailCase):
                 data.pop("rating_avg", None)
                 data.pop("rating_count", None)
         return list(threads_data)
+<<<<<<< HEAD
+=======
+
+
+@contextlib.contextmanager
+def freeze_all_time(dt=None):
+    """Freeze both `cr.now` and `Datetime.now`. ORM `create_date` and `write_date`
+    are based on `cursor.now()`. Domains often use `Datetime.now()` which can
+    lead to inconsistencies when using `freeze_time`.
+
+    :param dt: Datetime to freeze the time to. Defaults to `Datetime.now()`.
+    :type dt: datetime.datetime
+    """
+    if not dt:
+        dt = fields.Datetime.now()
+    with patch('odoo.sql_db.Cursor.now', return_value=dt), freeze_time(dt):
+        yield
+>>>>>>> upstream/18.0

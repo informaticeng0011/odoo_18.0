@@ -334,7 +334,10 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -403,6 +406,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -624,7 +630,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (line.is_reward_line && line.coupon_id.id === coupon_id) {
+=======
+            if (line.is_reward_line && line.coupon_id?.id === coupon_id) {
+>>>>>>> upstream/18.0
 =======
             if (line.is_reward_line && line.coupon_id?.id === coupon_id) {
 >>>>>>> upstream/18.0
@@ -844,7 +854,10 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -948,6 +961,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1067,6 +1083,12 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (!this.isLineValidForLoyaltyPoints(line)) {
+                continue;
+            }
+>>>>>>> upstream/18.0
 =======
             if (!this.isLineValidForLoyaltyPoints(line)) {
                 continue;
@@ -1985,7 +2007,11 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 price_unit: -(entry[1] * discountFactor),
+=======
+                price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
+>>>>>>> upstream/18.0
 =======
                 price_unit: -(Math.min(this.get_total_with_tax(), entry[1]) * discountFactor),
 >>>>>>> upstream/18.0

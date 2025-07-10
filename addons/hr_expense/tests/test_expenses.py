@@ -7,7 +7,11 @@ from freezegun import freeze_time
 
 from odoo import Command, fields
 from odoo.addons.hr_expense.tests.common import TestExpenseCommon
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning, UserError, ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 from odoo.tests import tagged, Form
 from odoo.tools.misc import format_date
 
@@ -1221,6 +1225,7 @@ class TestExpenses(TestExpenseCommon):
             ).unlink()
             assert_attachments_are_synced(sheet, sheet_attachment, sheet_has_attachment)
 
+<<<<<<< HEAD
     def test_expense_sheet_with_employee_of_no_work_email(self):
         """
         Should raise a RedirectWarning when the selected employee in the sheet doesn't have a work email.
@@ -1239,6 +1244,8 @@ class TestExpenses(TestExpenseCommon):
         with self.assertRaises(RedirectWarning):
             sheet.action_approve_expense_sheets()
 
+=======
+>>>>>>> upstream/18.0
     def test_create_report_name(self):
         """
             When an expense sheet is created from one or more expense, the report name is generated through the expense name or date.
@@ -1828,7 +1835,10 @@ class TestExpenses(TestExpenseCommon):
             {'balance': -4000.0, 'name': 'expense_employee: Test expense line', 'quantity': 1},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_expense_sheet_journal_id(self):
         """
@@ -1880,4 +1890,7 @@ class TestExpenses(TestExpenseCommon):
             expense_sheet.employee_journal_id,
             "The journal_id should be set back to the employee journal when using the 'Own Account' payment method",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

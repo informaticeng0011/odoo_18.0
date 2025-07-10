@@ -41,6 +41,10 @@ export class ImageTransformation extends Component {
 
     setup() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = false;
+>>>>>>> upstream/18.0
 =======
         this.isCurrentlyTransforming = false;
 >>>>>>> upstream/18.0
@@ -81,7 +85,10 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +174,7 @@ export class ImageTransformation extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219,12 +227,17 @@ export class ImageTransformation extends Component {
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, this.resetHandlers);
 =======
+=======
+>>>>>>> upstream/18.0
         useHotkey("escape", () => this.props.destroy());
         usePositionHook({ el: this.props.editable }, this.document, () => {
             if (!this.isCurrentlyTransforming) {
                 this.resetHandlers();
             }
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -341,6 +354,10 @@ export class ImageTransformation extends Component {
 
     mouseUp() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = false;
+>>>>>>> upstream/18.0
 =======
         this.isCurrentlyTransforming = false;
 >>>>>>> upstream/18.0
@@ -352,6 +369,10 @@ export class ImageTransformation extends Component {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isCurrentlyTransforming = true;
+>>>>>>> upstream/18.0
 =======
         this.isCurrentlyTransforming = true;
 >>>>>>> upstream/18.0

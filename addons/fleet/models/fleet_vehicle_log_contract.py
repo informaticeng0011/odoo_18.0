@@ -141,7 +141,11 @@ class FleetVehicleLogContract(models.Model):
         date_today = fields.Date.from_string(fields.Date.today())
         outdated_days = fields.Date.to_string(date_today + relativedelta(days=+delay_alert_contract))
 <<<<<<< HEAD
+<<<<<<< HEAD
         reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew', raise_if_not_found=False) or self.env['mail.activity.type']
+=======
+        reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew')
+>>>>>>> upstream/18.0
 =======
         reminder_activity_type = self.env.ref('fleet.mail_act_fleet_contract_to_renew')
 >>>>>>> upstream/18.0

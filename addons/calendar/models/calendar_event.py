@@ -105,7 +105,11 @@ class Meeting(models.Model):
         active_id = self._context.get('active_id')
         if self._context.get('active_model') == 'res.partner' and active_id and active_id not in partners.ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partners |= self.env['res.partner'].browse(active_id)
+=======
+            partners |= self.env['res.partner'].browse(active_id)
+>>>>>>> upstream/18.0
 =======
             partners |= self.env['res.partner'].browse(active_id)
 >>>>>>> upstream/18.0
@@ -542,6 +546,7 @@ class Meeting(models.Model):
         # Prevent sending update notification when _inverse_dates is called
         self = self.with_context(is_calendar_event_new=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaults = self.env['calendar.event'].default_get(['activity_ids', 'res_model_id', 'res_id', 'user_id', 'res_model', 'partner_ids'])
 
         vals_list = [  # Else bug with quick_create when we are filter on an other user
@@ -557,6 +562,8 @@ class Meeting(models.Model):
         # if user is creating an event for an activity that already has one, create a second activity
         existing_event = False
 =======
+=======
+>>>>>>> upstream/18.0
         defaults = self.default_get([
             'activity_ids', 'allday', 'description', 'name', 'partner_ids',
             'res_model_id', 'res_id', 'start', 'user_id',
@@ -585,11 +592,15 @@ class Meeting(models.Model):
 
         # if user is creating an event for an activity that already has one, create a second activity
         existing_event, existing_type = self.browse(), self.env['mail.activity.type']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         orig_activity_ids = self.env['mail.activity'].browse(self._context.get('orig_activity_ids', []))
         if len(orig_activity_ids) == 1:
             existing_event = orig_activity_ids.calendar_event_id
             if existing_event and orig_activity_ids.activity_type_id.category == 'meeting':
+<<<<<<< HEAD
 <<<<<<< HEAD
                 meeting_activity_type = orig_activity_ids.activity_type_id
 
@@ -614,6 +625,8 @@ class Meeting(models.Model):
                     activity_vals['user_id'] = user_id
                 values['activity_ids'] = [(0, 0, activity_vals)]
 =======
+=======
+>>>>>>> upstream/18.0
                 existing_type = orig_activity_ids.activity_type_id
 
         if meeting_activity_types:
@@ -651,6 +664,9 @@ class Meeting(models.Model):
                     activity_vals['user_id'] = values['user_id']
                 values['activity_ids'] = [(0, 0, activity_vals)]
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self._set_videocall_location(vals_list)
 
@@ -683,8 +699,11 @@ class Meeting(models.Model):
         events.filtered(lambda event: event.start > fields.Datetime.now()).attendee_ids._send_invitation_emails()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         events._sync_activities(fields={f for vals in vals_list for f in vals.keys()})
 =======
+=======
+>>>>>>> upstream/18.0
         # update activities based on calendar event data, unless already prepared
         # above manually. Heuristic: a new command (0, 0, vals) is considered as
         # complete
@@ -694,6 +713,9 @@ class Meeting(models.Model):
                 to_sync_activities += event
         to_sync_activities._sync_activities(fields={f for vals in vals_list for f in vals})
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if not self.env.context.get('dont_notify'):
             alarm_events = self.env['calendar.event']
@@ -1039,6 +1061,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1107,6 +1130,8 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1297,6 +1322,7 @@ class Meeting(models.Model):
                     activity_values['note'] = event.description
                 if 'start' in fields:
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # self.start is a datetime UTC *only when the event is not allday*
                     # activty.date_deadline is a date (No TZ, but should represent the day in which the user's TZ is)
                     # See 72254129dbaeae58d0a2055cba4e4a82cde495b7 for the same issue, but elsewhere
@@ -1309,13 +1335,19 @@ class Meeting(models.Model):
 =======
                     activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
 >>>>>>> upstream/18.0
+=======
+                    activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
+>>>>>>> upstream/18.0
                 if 'user_id' in fields:
                     activity_values['user_id'] = event.user_id.id
                 if activity_values.keys():
                     event.activity_ids.write(activity_values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.model
     def _get_activity_deadline_from_start(self, start, allday):
         # self.start is a datetime UTC *only when the event is not allday*
@@ -1328,6 +1360,9 @@ class Meeting(models.Model):
             deadline = deadline.astimezone(pytz.timezone(user_tz))
         return deadline.date()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # ------------------------------------------------------------
     # ALARMS

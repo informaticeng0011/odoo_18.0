@@ -88,7 +88,10 @@ class AccountAnalyticLine(models.Model):
             )
         return super().view_header_get(view_id, view_type)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def create(self, vals):
         analytic_lines = super().create(vals)
@@ -109,4 +112,7 @@ class AccountAnalyticLine(models.Model):
         res = super().unlink()
         affected_move_lines._update_analytic_distribution()
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

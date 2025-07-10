@@ -3,7 +3,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -584,7 +588,10 @@ class TestMrpByProduct(common.TransactionCase):
         self.assertEqual(postprod_picking.location_dest_id, self.warehouse.lot_stock_id)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -612,6 +619,9 @@ class TestMrpByProduct(common.TransactionCase):
             {'quantity': 10.0, 'state': 'done'},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
