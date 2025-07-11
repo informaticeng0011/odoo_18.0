@@ -164,6 +164,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -408,6 +412,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -642,6 +650,10 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.origin, picking_receipt.name)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.origin, picking_receipt.name)
 >>>>>>> upstream/18.0
@@ -1665,6 +1677,7 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2024-01-01')
     def test_bom_overview_availability(self):
         # Create routes for components and the main product
@@ -1719,6 +1732,8 @@ class TestSubcontractingFlows(TestMrpSubcontractingCommon):
         self.assertEqual(bom_data['lines']['leftover_capacity'], 1)
         self.assertEqual(bom_data['lines']['leftover_date'], '01/16/2024')
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2601,7 +2616,10 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2736,6 +2754,9 @@ class TestSubcontractingSerialMassReceipt(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

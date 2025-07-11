@@ -5,10 +5,13 @@ from dateutil.relativedelta import relativedelta
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo import api, exceptions, fields, models, _
@@ -16,6 +19,9 @@ from odoo.exceptions import UserError
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143,11 +149,14 @@ class MailActivityType(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.ondelete(at_uninstall=False)
     def _unlink_except_todo(self):
         if self.env.ref('mail.mail_activity_data_todo') in self:
             raise UserError(_("The 'To-Do' activity type is used to create reminders from the top bar menu and the command palette. Consequently, it cannot be archived or deleted."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def write(self, values):
@@ -184,6 +193,9 @@ class MailActivityType(models.Model):
                   activity_names=', '.join(act.name for act in master_data),
             ))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -203,7 +215,10 @@ class MailActivityType(models.Model):
         return base + relativedelta(**{self.delay_unit: self.delay_count})
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -223,6 +238,9 @@ class MailActivityType(models.Model):
             'mail.mail_activity_data_warning': {'res_model': False, 'unlink': True},
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -7,6 +7,10 @@
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -14,7 +18,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Martin Trigaux, 2024\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -204,7 +212,11 @@ msgstr "Virksomhed"
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_country_code
 msgid "Company Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virksomhedens landekode"
+>>>>>>> upstream/18.0
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
@@ -565,6 +577,15 @@ msgstr ""
 "automatisk fyldt."
 
 #. module: base_setup
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/base_setup/models/res_users.py:0
+msgid "You have to install the Discuss application to use this feature."
+msgstr ""
+
+#. module: base_setup
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_recaptcha
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"

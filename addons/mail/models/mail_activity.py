@@ -294,11 +294,17 @@ class MailActivity(models.Model):
         for model, activity_data in activities._classify_by_model().items():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             per_user = dict()
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
                 if activity.user_id not in per_user:
                     per_user[activity.user_id] = [activity.res_id]
                 else:
+=======
+            per_user = defaultdict(list)
+            for activity in activity_data['activities'].filtered(lambda act: act.user_id):
+                if activity.res_id not in per_user[activity.user_id]:
+>>>>>>> upstream/18.0
 =======
             per_user = defaultdict(list)
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
@@ -434,7 +440,11 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             records = self.env[res_model].browse(res_ids)
+=======
+            records = self.env[res_model].browse(res_ids).exists()
+>>>>>>> upstream/18.0
 =======
             records = self.env[res_model].browse(res_ids).exists()
 >>>>>>> upstream/18.0

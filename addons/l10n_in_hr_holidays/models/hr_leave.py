@@ -71,8 +71,14 @@ class HolidaysRequest(models.Model):
                 days, hours = result[leave.id]
                 updated_days = leave._l10n_in_apply_sandwich_rule(public_holidays, leaves_by_employee.get(leave.employee_id, []))
                 result[leave.id] = (updated_days, hours)
+<<<<<<< HEAD
                 if updated_days:
                     leave.l10n_in_contains_sandwich_leaves = updated_days != days
             else:
+=======
+                if updated_days and leave.state not in ['validate', 'validate1']:
+                    leave.l10n_in_contains_sandwich_leaves = updated_days != days
+            elif leave.state not in ['validate', 'validate1']:
+>>>>>>> upstream/18.0
                 leave.l10n_in_contains_sandwich_leaves = False
         return result

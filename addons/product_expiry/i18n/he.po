@@ -41,6 +41,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# or balmas, 2025
+>>>>>>> upstream/18.0
 =======
 # or balmas, 2025
 >>>>>>> upstream/18.0
@@ -156,7 +160,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2024\n"
+=======
+"Last-Translator: or balmas, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: or balmas, 2025\n"
 >>>>>>> upstream/18.0
@@ -251,6 +259,11 @@ msgid ""
 "<span class=\"badge text-bg-danger\" invisible=\"not "
 "product_expiry_alert\">Expiration Alert</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-danger\" invisible=\"not "
+"product_expiry_alert\">התראה על תוקף</span>"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
@@ -259,6 +272,12 @@ msgid ""
 "invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
 "expiration_date\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
@@ -358,7 +377,11 @@ msgstr "בטל"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_res_config_settings__group_expiry_date_on_delivery_slip
 msgid "Display Expiration Dates on Delivery Slips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצגת תאריכי תפוגה על תעודות משלוח"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__display_name
@@ -390,17 +413,29 @@ msgstr "תאריך תפוגה"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.res_config_settings_view_form_stock
 msgid "Expiration dates will appear on the delivery slip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריכי התפוגה יופיעו על תעודת המשלוח"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Expiration:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תאריך תפוגה:"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Expired Lot(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אצוות פגות תוקף"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__product_expiry_reminded
@@ -447,7 +482,11 @@ msgid "Include expiration dates on delivery slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כלול תאריכי תפוגה בתעודת משלול"
+>>>>>>> upstream/18.0
 =======
 msgstr "כלול תאריכי תפוגה בתעודת משלול"
 >>>>>>> upstream/18.0
@@ -637,7 +676,11 @@ msgstr "תאריך הוצאה מהמלאי"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Removal:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הסרה:"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__show_lots
@@ -669,7 +712,11 @@ msgid "Show Lots"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הצג אצוות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הצג אצוות"
 >>>>>>> upstream/18.0
@@ -834,6 +881,11 @@ msgid ""
 "You are going to deliver some product expired lots.\n"
 "Do you confirm you want to proceed?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"אתה עומד למסור סחורות ממספרי אצווה שפג תוקפם.\n"
+"האם אתה מאשר שברצונך להמשיך?"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #. odoo-python

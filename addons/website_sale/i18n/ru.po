@@ -4,9 +4,15 @@
 # 
 # Translators:
 # Anton Kaligin, 2024
+<<<<<<< HEAD
 # Nadia Martynova, 2024
 # Wil Odoo, 2025
 # Ilya Rozhkov, 2025
+=======
+# Wil Odoo, 2025
+# Ilya Rozhkov, 2025
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -14,7 +20,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2025\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +35,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "\" category."
+<<<<<<< HEAD
 msgstr "\" категория."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -33,13 +47,22 @@ msgid ""
 "\"Optional\" allows guests to register from the order confirmation email to "
 "track their order."
 msgstr ""
+<<<<<<< HEAD
 "\"Дополнительно\" позволяет гостям зарегистрироваться в электронном письме с"
 " подтверждением заказа, чтобы отследить свой заказ."
+=======
+"«Необязательно» – позволяет покупателям зарегистрироваться по ссылке в "
+"письме с подтверждением заказа, чтобы отслеживать статус."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 msgid "#{record.name.value}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{record.name.value}"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -54,7 +77,11 @@ msgstr "%s отзывы"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "&amp; Delivery"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp; доставка"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_item
@@ -121,13 +148,21 @@ msgstr "<b>Метка:</b>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 msgid "<b>Deliver to pickup point: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Доставка в пункт самовывоза: </b>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<b>Delivery: </b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Доставка: </b>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.filter_products_price
@@ -210,6 +245,11 @@ msgid ""
 "<i class=\"fa fa-plus me-md-2\"/>\n"
 "                    <span class=\"d-none d-md-inline\">Add address</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-plus me-md-2\"/>\n"
+"                    <span class=\"d-none d-md-inline\">Добавить адрес</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -245,11 +285,20 @@ msgid ""
 "<i class=\"oi oi-chevron-left d-lg-none me-1\" role=\"presentation\"/>All "
 "Products"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left d-lg-none me-1\" role=\"presentation\"/>Все "
+"товары"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>All Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Все товары"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
@@ -257,6 +306,11 @@ msgid ""
 "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Previous\" title=\"Предыдущий\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
@@ -264,6 +318,11 @@ msgid ""
 "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Next\" title=\"Следующий\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -301,6 +360,12 @@ msgid ""
 "                                                        Changing company name or VAT number is not allowed once document(s) have been issued for your account. Please contact us directly for this operation.\n"
 "                                                    </small>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small class=\"form-text text-muted\">\n"
+"                                                        После выставления документов вы не сможете изменить название компании или ИНН. Для этого свяжитесь с нами напрямую.\n"
+"                                                    </small>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_attributes
@@ -308,6 +373,11 @@ msgid ""
 "<small class=\"mx-auto\"><b>Clear Filters</b></small>\n"
 "                            <i class=\"oi oi-close\" role=\"presentation\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small class=\"mx-auto\"><b>Сбросить фильтры</b></small>\n"
+"                            <i class=\"oi oi-close\" role=\"presentation\"/>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.suggested_products_list
@@ -334,6 +404,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">1,500.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">1 500.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -342,6 +418,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">140.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">140.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -350,6 +432,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">33.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">33.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
@@ -358,6 +446,12 @@ msgid ""
 "                                                <span class=\"oe_currency_value\">750.00</span>\n"
 "                                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">750.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -371,6 +465,12 @@ msgid ""
 "                    Select to compute delivery rate\n"
 "                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
+"                    Выберите для расчета стоимости доставки\n"
+"                </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -416,7 +516,11 @@ msgstr "<b>Отличная работа!</b> Вы прошли все этап�
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "<span>Already have an account?</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>У вас уже есть аккаунт?</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -426,7 +530,11 @@ msgstr "<span>Заказать</span>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_document_kanban
 msgid "<span>Publish on website</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Опубликовать на сайте</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -445,7 +553,11 @@ msgstr "<span>Предварительный просмотр видео</span>"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.delivery_form
 msgid "<strong>No suitable delivery method could be found.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Не удалось подобрать подходящий метод доставки.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
@@ -509,6 +621,51 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 0px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- CONTENT -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 0px 0px 0px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                    <h1 style=\"color:#A9A9A9;\">В вашей корзине есть товары.</h1>\n"
+"                    Хотите завершить покупку?<br/><br/>\n"
+"                    <t t-if=\"object.order_line\">\n"
+"                        <t t-foreach=\"object.website_order_line\" t-as=\"line\">\n"
+"                            <hr/>\n"
+"                            <table width=\"100%\">\n"
+"                                <tr>\n"
+"                                    <td style=\"padding: 10px; width:150px;\">\n"
+"                                        <img t-attf-src=\"/web/image/product.product/{{ line.product_id.id }}/image_128\" style=\"width: 100px; height: 100px; object-fit: contain;\" alt=\"Product image\"/>\n"
+"                                    </td>\n"
+"                                    <td>\n"
+"                                        <strong t-out=\"line.product_id.display_name or ''\">[FURN_7800] Комбинированный письменный стол </strong><br/><t t-out=\"line.name or ''\">[FURN_7800] Комбинированный письменный стол, черно-коричневый: стул + письменный стол + выдвижной ящик.</t>\n"
+"                                    </td>\n"
+"                                    <td width=\"100px\" align=\"right\">\n"
+"                                        <t t-out=\"int(line.product_uom_qty) or ''\">10000</t> <t t-out=\"line.product_uom.name or ''\">шт.</t>\n"
+"                                    </td>\n"
+"                                </tr>\n"
+"                            </table>\n"
+"                        </t>\n"
+"                        <hr/>\n"
+"                    </t>\n"
+"                    <div style=\"text-align: center; padding: 16px 0px 16px 0px; font-size: 14px;\">\n"
+"                        <a t-attf-href=\"{{ object.get_base_url() }}/shop/cart?access_token={{ object.access_token }}\" target=\"_blank\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                            Продолжить\n"
+"                        </a>\n"
+"                    </div>\n"
+"                    <t t-set=\"company\" t-value=\"object.company_id or object.user_id.company_id or user.company_id\"/>\n"
+"                    <div style=\"text-align: center;\"><strong>Спасибо за покупки в <t t-out=\"company.name or ''\">My Company (San Francisco)</t>!</strong></div>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_custom_text
@@ -520,6 +677,11 @@ msgstr "<u>Условия и положения</u>"
 #: code:addons/website_sale/controllers/combo_configurator.py:0
 msgid "A combo product can't be empty. Please select at least one option."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Комбинированный товар не может быть пустым. Пожалуйста, выберите хотя бы "
+"одну опцию."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_delivery_carrier__website_description
@@ -528,9 +690,14 @@ msgid ""
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr ""
+<<<<<<< HEAD
 "Описание продукта, которое Вы хотели бы предоставлять вашим потребителям. "
 "Это описание будет отображаться в каждом заказе покупателя, заказе на "
 "доставку и счете покупателю/ кредитном обязательстве"
+=======
+"Описание товара, которое будет автоматически добавлено в заказ на продажу, "
+"заказ на доставку, счет клиента или кредитную ноту"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -538,8 +705,13 @@ msgid ""
 "A detailed, formatted description to promote your product on this page. Use "
 "'/' to discover more features."
 msgstr ""
+<<<<<<< HEAD
 "Подробное, отформатированное описание для продвижения вашего продукта на "
 "этой странице. Используйте '/' для раскрытия дополнительных возможностей."
+=======
+"Подробное, отформатированное описание для продвижения товара на странице. "
+"Используйте '/' для дополнительных функций."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -548,6 +720,11 @@ msgid ""
 "                                      this page. Use '/' to discover more "
 "features."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Подробное, отформатированное описание для продвижения товара на странице. "
+"Используйте '/' для дополнительных функций."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_template_action_website
@@ -555,8 +732,12 @@ msgid ""
 "A product can be either a physical product or a service that you sell to "
 "your customers."
 msgstr ""
+<<<<<<< HEAD
 "Продуктом может быть как физический товар, так и услуга, которую вы продаете"
 " своим клиентам."
+=======
+"Товар может быть физическим или услугой, которую вы продаете клиентам."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
@@ -684,6 +865,11 @@ msgid ""
 "Add a strikethrough price to your /shop and product pages for comparison "
 "purposes.It will not be displayed if pricelists apply."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Добавьте зачеркнутую цену /shop и товаров для сравнения. Она будет скрыта, "
+"если используются прайс-листы."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -755,6 +941,10 @@ msgid ""
 "Allow customers to pick up their online purchases at your store and pay in "
 "person"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Предоставьте клиентам возможность оплачивать покупки лично в ваших магазинах"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -765,7 +955,12 @@ msgstr "Позволяйте покупателям сравнивать тов�
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Allow signed-in users to save product in a wishlist"
 msgstr ""
+<<<<<<< HEAD
 "Разрешите авторизованным пользователям сохранять продукт в списке желаний"
+=======
+"Предоставьте авторизованным пользователям возможность  сохранять товар в "
+"избранное"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_pricelist__selectable
@@ -784,7 +979,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_template__alternative_product_ids
 #: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_alternative_products
 msgid "Alternative Products"
+<<<<<<< HEAD
 msgstr "Альтернативные продукты"
+=======
+msgstr "Альтернативные товары"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__abandoned_carts_amount
@@ -811,7 +1010,11 @@ msgstr "Применить"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:0
 msgid "Are you sure you want to delete this ribbon?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы уверены, что хотите удалить эту ленту?"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -838,7 +1041,11 @@ msgstr "Атрибуты"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_multimedia_augmented_reality
 msgid "Augmented Reality Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Инструменты дополненной реальности"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -851,7 +1058,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/product_list/product_list.js:0
 msgid "Available options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные опции"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__rating_avg
@@ -905,7 +1116,11 @@ msgstr "Базовые единицы"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_cabinets_bathroom
 msgid "Bathroom Cabinets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шкафы для ванных комнат"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -920,7 +1135,11 @@ msgstr "BeNeLux"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_furnitures_beds
 msgid "Beds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кровати"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_benelux
@@ -972,10 +1191,16 @@ msgid ""
 "purchase amount, period). Rewards can be discounts (% or amount) or free "
 "products."
 msgstr ""
+<<<<<<< HEAD
 "Повышайте продажи с помощью различных видов программ: Купоны, Акции, "
 "Подарочные карты, Лояльность. Можно задать конкретные условия (продукты, "
 "клиенты, минимальная сумма покупки, период). В качестве вознаграждения могут"
 " выступать скидки (% or сумма) или бесплатные товары."
+=======
+"Увеличьте продажи с помощью купонов, акций, подарочных сертификатов и "
+"программ лояльности. Можно задать условия (товары, клиенты, сумма, срок). В "
+"качестве вознаграждения могут выступать скидки или бесплатные товары."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1006,7 +1231,11 @@ msgstr "Бренд"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__website_sale_contact_us_button_url
 msgid "Button Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL кнопки"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1102,8 +1331,13 @@ msgid ""
 "Categories are used to browse your products through the\n"
 "                touchscreen interface."
 msgstr ""
+<<<<<<< HEAD
 "Категории используются для просмотра товаров через\n"
 "                 сенсорный интерфейс."
+=======
+"Категории используются для навигации по товарам через \n"
+"                сенсорный интерфейс."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_category_extra_link
@@ -1134,7 +1368,11 @@ msgstr "Категория:"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_lamps_ceiling
 msgid "Ceiling Lamps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Потолочные светильники"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -1150,12 +1388,20 @@ msgstr "Стулья"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_lamps_chandelier
 msgid "Chandeliers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Люстры"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.delivery_method
 msgid "Change location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Смена локации"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -1213,14 +1459,22 @@ msgstr "Выберите метод доставки"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите пункт самовывоза"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 #: code:addons/website_sale/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать эту локацию"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.pricelist,name:website_sale.list_christmas
@@ -1248,8 +1502,12 @@ msgstr "Клик и сбор"
 msgid ""
 "Click <i>'New'</i> in the top-right corner to create your first product."
 msgstr ""
+<<<<<<< HEAD
 "Нажмите кнопку <i>'Новый'</i> в правом верхнем углу, чтобы создать свой "
 "первый продукт."
+=======
+"Нажмите <i>«Новый»</i> в правом верхнем углу, чтобы добавить первый товар."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
@@ -1266,7 +1524,11 @@ msgstr "Нажмите здесь, чтобы открыть меню отчет
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Click on <em>Save</em> to create the product."
+<<<<<<< HEAD
 msgstr "Нажмите на кнопку <em>Сохранить</em>, чтобы создать продукт."
+=======
+msgstr "Нажмите «Сохранить», чтобы создать товар."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -1295,12 +1557,20 @@ msgstr "Свернуть категорию Рекурсивный"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_boxes_collapsible
 msgid "Collapsible Boxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Складные коробки"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Collapsible sidebar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сворачивающаяся боковая панель"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1323,8 +1593,12 @@ msgid ""
 "Comma-separated list of parts of product names, barcodes or internal "
 "reference"
 msgstr ""
+<<<<<<< HEAD
 "Список частей названий продуктов, штрихкодов или внутренних ссылок, "
 "разделенных запятыми"
+=======
+"Список через запятую: части названий, штрихкодов или внутренних кодов товара"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_company
@@ -1414,7 +1688,11 @@ msgstr "Настроить форму"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/product_configurator_dialog/product_configurator_dialog.js:0
 msgid "Configure your product"
+<<<<<<< HEAD
 msgstr "Настройте свой продукт"
+=======
+msgstr "Настройте товар"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -1455,7 +1733,11 @@ msgstr "Свяжитесь с нами"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__contact_us_button_url
 msgid "Contact Us Button URL"
+<<<<<<< HEAD
 msgstr "URL-адрес кнопки \"Связаться с нами"
+=======
+msgstr "URL кнопки «Связаться с нами»"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -1504,7 +1786,11 @@ msgstr "Создать"
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_template_action_website
 msgid "Create a new product"
+<<<<<<< HEAD
 msgstr "Создайте новый продукт"
+=======
+msgstr "Создать новый товар"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__create_uid
@@ -1643,8 +1929,12 @@ msgstr "Способы доставки DHL"
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL PRODUCTS"
 msgstr ""
+<<<<<<< HEAD
 "ВЫКЛАДЫВАЙТЕ СТРОИТЕЛЬНЫЕ БЛОКИ ЗДЕСЬ, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ ВО ВСЕХ "
 "ПРОДУКТАХ"
+=======
+"ПЕРЕТАЩИТЕ БЛОКИ СЮДА, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ В КАРТОЧКАХ ВСЕХ ТОВАРОВ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1659,7 +1949,11 @@ msgstr "По умолчанию (1/1)"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Default (1x1)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "По умолчанию (1x1)"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__currency_id
@@ -1682,9 +1976,13 @@ msgstr "Сортировка по умолчанию"
 #: model:ir.model.fields,help:website_sale.field_website_base_unit__name
 msgid ""
 "Define a custom unit to display in the price per unit of measure field."
+<<<<<<< HEAD
 msgstr ""
 "Определите пользовательскую единицу измерения, которая будет отображаться в "
 "поле \"Цена за единицу измерения\"."
+=======
+msgstr "Укажите единицу измерения для отображения цены за единицу."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1694,12 +1992,20 @@ msgstr "Определите новую категорию"
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_ribbon_action
 msgid "Define a new ribbon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать новую ленту"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Delete Ribbon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Удалить ленту"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -1712,7 +2018,11 @@ msgstr "Доставка"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 msgid "Delivery &amp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставка &amp;"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__amount_delivery
@@ -1734,7 +2044,11 @@ msgstr "Адрес доставки"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_services_delivery_and_installation
 msgid "Delivery and Installation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставка и установка"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_searchbar_input_snippet_options
@@ -1750,7 +2064,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_form_view
 msgid "Description displayed on the eCommerce categories page."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание, отображаемое на странице категорий."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_delivery_carrier__website_description
@@ -1766,12 +2084,20 @@ msgstr "Описание для веб-сайта"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_services_design_and_planning
 msgid "Design and Planning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проектирование и планирование"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_lamps_desk
 msgid "Desk Lamps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настольные лампы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks
@@ -1842,9 +2168,13 @@ msgstr "Тип отображения"
 msgid ""
 "Display base unit price on your eCommerce pages. Set to 0 to hide it for "
 "this product."
+<<<<<<< HEAD
 msgstr ""
 "Отображение базовой цены единицы товара на страницах электронной коммерции. "
 "Установите значение 0, чтобы скрыть его для этого продукта."
+=======
+msgstr "Отображать цену за единицу на сайте. Установите 0, чтобы скрыть."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
@@ -1858,8 +2188,13 @@ msgid ""
 "Displays the custom unit for the products if defined or the selected unit of"
 " measure otherwise."
 msgstr ""
+<<<<<<< HEAD
 "Отображает пользовательскую единицу измерения для продуктов, если она "
 "определена, или выбранную единицу измерения в противном случае."
+=======
+"Отображает пользовательскую единицу измерения для товаров, если она задана, "
+"или выбранную из доступных единиц."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -1885,16 +2220,24 @@ msgstr "Документы"
 msgid ""
 "Documents shown on product page cannot be restricted to a specific variant"
 msgstr ""
+<<<<<<< HEAD
 "Документы, представленные на странице продукта, не могут быть ограничены "
+=======
+"Документы, представленные на странице товара, не могут быть ограничены "
+>>>>>>> upstream/18.0
 "конкретным вариантом"
 
 #. module: website_sale
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Double click here to set an image describing your product."
+<<<<<<< HEAD
 msgstr ""
 "Дважды щелкните здесь, чтобы установить изображение, описывающее ваш "
 "продукт."
+=======
+msgstr "Дважды кликните, чтобы установить изображение товара."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
@@ -1961,23 +2304,39 @@ msgstr "Способы доставки Easypost"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
 msgid "Ecommerce"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eCommerce"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__ecommerce_access
 #: model:ir.model.fields,field_description:website_sale.field_website__ecommerce_access
 msgid "Ecommerce Access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступ к eCommerce"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
 msgid "Ecommerce Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание eCommerce"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
 msgid "Ecommerce Shop"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Интернет-магазин"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:mail.template,name:website_sale.mail_template_sale_cart_recovery
@@ -1994,7 +2353,11 @@ msgstr "Редактировать"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Edit the price of this product by clicking on the amount."
+<<<<<<< HEAD
 msgstr "Отредактируйте цену этого продукта, нажав на сумму."
+=======
+msgstr "Отредактируйте цену этого товара, нажав на сумму."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_kanban
@@ -2004,7 +2367,11 @@ msgstr "Редактировать этот адрес"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_multimedia_education
 msgid "Education Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Образовательные инструменты"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -2020,7 +2387,11 @@ msgstr "Код для вставки"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Enforce a customer to be logged in to access 'Shop'"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Требовать авторизации клиента для доступа в магазин"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -2032,7 +2403,11 @@ msgstr "Введите настроенное значение"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Enter a name for your new product"
+<<<<<<< HEAD
 msgstr "Введите название нового продукта"
+=======
+msgstr "Введите название нового товара"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -2055,7 +2430,11 @@ msgstr "Дополнительная информация"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__product_template_image_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template__product_template_image_ids
 msgid "Extra Product Media"
+<<<<<<< HEAD
 msgstr "Дополнительные носители информации о продукте"
+=======
+msgstr "Дополнительные медиа-материалы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2121,7 +2500,11 @@ msgstr "Имя поля"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_drawers_file
 msgid "File Drawers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ящики для документов"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2139,6 +2522,11 @@ msgstr "Введите свой адрес"
 msgid ""
 "Final price may vary based on selection. Tax will be calculated at checkout."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Итоговая цена может меняться в зависимости от выбранных характеристик. Налог"
+" рассчитывается при оформлении."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__fiscal_position_id
@@ -2148,7 +2536,11 @@ msgstr "Финансовое положение"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks_foldable
 msgid "Foldable Desks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Складные столы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_follower_ids
@@ -2163,7 +2555,11 @@ msgstr "Подписчики"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_bins_storage
 msgid "Food Storage Bins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Контейнеры для еды"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -2189,7 +2585,11 @@ msgstr "Фурнитуры"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks_gaming
 msgid "Gaming Desks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Игровые столы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2205,7 +2605,11 @@ msgstr "Создавать счет автоматически при получ
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks_glass
 msgid "Glass Desks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Стеклянные столы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -2301,8 +2705,12 @@ msgstr "Если отмечено, некоторые сообщения име�
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "If product price equals 0, replace 'Add to Cart' by 'Contact us'."
 msgstr ""
+<<<<<<< HEAD
 "Если цена товара равна 0, замените \"Добавить в корзину\" на \"Свяжитесь с "
 "нами\"."
+=======
+"Если цена товара равняется 0, заменить «В корзину» на «Связаться с нами»"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:mail.template,description:website_sale.mail_template_sale_cart_recovery
@@ -2333,6 +2741,12 @@ msgid ""
 "field or make it selectable.Otherwise, the pricelist will not apply to any "
 "website."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Чтобы прайс-лист работал на сайте, вы должны заполнить это поле или сделайте"
+" доступным для выбора. В противном случае прайс-лист не будет применяться ни"
+" к одному сайту."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_1920
@@ -2389,7 +2803,11 @@ msgstr "Увеличить изображение"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Images Ratio"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пропорции изображений"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2478,7 +2896,11 @@ msgstr ""
 msgid ""
 "It seems that there is already a transaction for your order; you can't "
 "change the delivery method anymore."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Платеж уже обрабатывается – изменить метод доставки нельзя."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -2494,12 +2916,20 @@ msgstr "Запись в журнале"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_cabinets_kitchen
 msgid "Kitchen Cabinets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кухонные шкафы"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_drawers_kitchen
 msgid "Kitchen Drawer Units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кухонные ящики"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_digest_digest__kpi_website_sale_total_value
@@ -2570,7 +3000,11 @@ msgstr "В прошлом году"
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_bins_laundry
 msgid "Laundry Bins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корзины для белья"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2586,7 +3020,11 @@ msgstr "Слева"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Let the customer enter a delivery address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Разрешить клиенту ввести адрес доставки"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2602,7 +3040,11 @@ msgstr "Пусть пользователь сам решает (диалог)"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Let's create your first product."
+<<<<<<< HEAD
 msgstr "Давайте создадим ваш первый продукт."
+=======
+msgstr "Давайте создадим ваш первый товар."
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -2657,7 +3099,11 @@ msgstr "Загрузка..."
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__website__ecommerce_access__logged_in
 msgid "Logged in users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Авторизованные пользователи"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2870,12 +3316,20 @@ msgstr "Брошенных тележек не обнаружено"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No product defined"
+<<<<<<< HEAD
 msgstr "Продукт не определен"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No product defined in this category."
+<<<<<<< HEAD
 msgstr "В этой категории не определено ни одного продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.website_sale_visitor_product_action
@@ -2896,7 +3350,11 @@ msgstr "Нет результатов"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No results for \""
+<<<<<<< HEAD
 msgstr "Нет результатов для \""
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
@@ -2998,7 +3456,11 @@ msgstr "На колесах"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 msgid "Once you click on <b>Save</b>, your product is updated."
+<<<<<<< HEAD
 msgstr "Как только вы нажмете <b>Сохранить</b>, ваш продукт обновится."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3027,8 +3489,11 @@ msgid ""
 "Only the company's websites are allowed.\n"
 "Leave the Company field empty or select a website from that company."
 msgstr ""
+<<<<<<< HEAD
 "Разрешены только веб-сайты компании.\n"
 "Оставьте поле \"Компания\" пустым или выберите сайт этой компании."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -3343,17 +3808,29 @@ msgstr "Товар"
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.dynamic_snippet_accessories_action
 msgid "Product Accessories"
+<<<<<<< HEAD
 msgstr "Аксессуары для продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_attribute
 msgid "Product Attribute"
+<<<<<<< HEAD
 msgstr "Атрибут продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.shop_product_carousel
 msgid "Product Carousel"
+<<<<<<< HEAD
 msgstr "Карусель продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
@@ -3364,7 +3841,11 @@ msgstr "Категория товара"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_comparison
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Product Comparison Tool"
+<<<<<<< HEAD
 msgstr "Инструмент сравнения продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_document
@@ -3400,42 +3881,74 @@ msgstr "Страница товара"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_website_sale_website_form
 msgid "Product Page Extra Fields"
+<<<<<<< HEAD
 msgstr "Дополнительные поля страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__product_page_grid_columns
 msgid "Product Page Grid Columns"
+<<<<<<< HEAD
 msgstr "Колонки сетки страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_layout
 msgid "Product Page Image Layout"
+<<<<<<< HEAD
 msgstr "Макет изображения на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_spacing
 msgid "Product Page Image Spacing"
+<<<<<<< HEAD
 msgstr "Расстояние между изображениями на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__product_page_image_width
 msgid "Product Page Image Width"
+<<<<<<< HEAD
 msgstr "Ширина изображения на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.action_product_pages_list
 msgid "Product Pages"
+<<<<<<< HEAD
 msgstr "Страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_tree_view
 msgid "Product Public Categories"
+<<<<<<< HEAD
 msgstr "Продукт публичных категорий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Product Reference Price"
+<<<<<<< HEAD
 msgstr "Справочная цена продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_ribbon_view_tree
@@ -3462,33 +3975,57 @@ msgstr "Метки товара"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Product Tags Filter"
+<<<<<<< HEAD
 msgstr "Теги продукта Фильтр"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__product_tmpl_id
 msgid "Product Template"
+<<<<<<< HEAD
 msgstr "Шаблон Продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
+<<<<<<< HEAD
 msgstr "Позиция атрибута шаблона продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template_attribute_value
 msgid "Product Template Attribute Value"
+<<<<<<< HEAD
 msgstr "Значение атрибута шаблона продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__product_tmpl_ids
 msgid "Product Tmpl"
+<<<<<<< HEAD
 msgstr "Шаблон Продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_product
 #: model:ir.model.fields,field_description:website_sale.field_product_image__product_variant_id
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr "Вариант продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3504,7 +4041,11 @@ msgstr "Виды продукции"
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.website_sale_visitor_product_action
 msgid "Product Views History"
+<<<<<<< HEAD
 msgstr "История просмотров продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-python
@@ -3515,7 +4056,11 @@ msgstr "Товар не найден"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_ribbon
 msgid "Product ribbon"
+<<<<<<< HEAD
 msgstr "Метка-лента для продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.product_template_action_website
@@ -3544,12 +4089,20 @@ msgstr "Страница товаров"
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.dynamic_snippet_recently_sold_with_action
 msgid "Products Recently Sold With"
+<<<<<<< HEAD
 msgstr "Продукты, недавно проданные с"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:website.snippet.filter,name:website_sale.dynamic_filter_cross_selling_recently_sold_with
 msgid "Products Recently Sold With Product"
+<<<<<<< HEAD
 msgstr "Продукты, недавно проданные с продуктом"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__product_count
@@ -3909,8 +4462,11 @@ msgid ""
 "Select <b>New Product</b> to create it and manage its properties to boost "
 "your sales."
 msgstr ""
+<<<<<<< HEAD
 "Выберите <b>Новый продукт</b> создание и управление его свойствами для "
 "увеличения продаж."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -4024,7 +4580,11 @@ msgstr "Магазин - Подтверждено"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Shop - Products"
+<<<<<<< HEAD
 msgstr "Магазин - Продукты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment
@@ -4182,7 +4742,11 @@ msgstr "Статус"
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__website__add_to_cart_action__stay
 msgid "Stay on Product Page"
+<<<<<<< HEAD
 msgstr "Оставаться на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_cabinets_storage
@@ -4211,8 +4775,11 @@ msgid ""
 "Suggest alternatives to your customer (upsell strategy). Those products show"
 " up on the product page."
 msgstr ""
+<<<<<<< HEAD
 "Предложите покупателю альтернативные варианты (стратегия допродажи). Эти "
 "продукты отображаются на странице товара."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -4368,10 +4935,13 @@ msgid ""
 "Shop > Edit Click on the page and enable 'Categories' to view all eCommerce "
 "categories."
 msgstr ""
+<<<<<<< HEAD
 "Продукт будет доступен в каждой из указанных категорий электронной "
 "коммерции. Перейдите в раздел Магазин > Редактировать, нажмите на страницу и"
 " включите \"Категории\", чтобы просмотреть все категории электронной "
 "коммерции."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_images_subtitles
@@ -4393,8 +4963,11 @@ msgid ""
 "The value of Base Unit Count must be greater than 0. Use 0 to hide the price"
 " per unit on this product."
 msgstr ""
+<<<<<<< HEAD
 "Значение Base Unit Count должно быть больше 0. Используйте 0, чтобы скрыть "
 "цену за единицу для этого продукта."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.action_orders_ecommerce
@@ -4450,23 +5023,39 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "This product has no valid combination."
+<<<<<<< HEAD
 msgstr "Этот продукт не имеет действующей комбинации."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "This product is no longer available."
+<<<<<<< HEAD
 msgstr "Этот продукт больше не доступен."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/website_sale_reorder.js:0
 msgid "This product is not available for purchase."
+<<<<<<< HEAD
 msgstr "Этот продукт недоступен для покупки."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_item
 msgid "This product is unpublished."
+<<<<<<< HEAD
 msgstr "Этот продукт не опубликован."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.coupon_form
@@ -4490,9 +5079,12 @@ msgid ""
 "list view and click on 'Portal Access Management' option in the dropdown "
 "menu *Action*."
 msgstr ""
+<<<<<<< HEAD
 "Чтобы отправить приглашения в режиме B2B, откройте контакт или выберите "
 "несколько контактов в режиме просмотра списка и нажмите на опцию "
 "\"Управление доступом к порталу\" в выпадающем меню *Действие*."
+=======
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -4513,12 +5105,20 @@ msgstr "Всего"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_visitor__product_count
 msgid "Total number of product viewed"
+<<<<<<< HEAD
 msgstr "Общее количество просмотренных продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_visitor__visitor_product_count
 msgid "Total number of views on products"
+<<<<<<< HEAD
 msgstr "Общее количество просмотров продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #. odoo-javascript
@@ -4559,7 +5159,11 @@ msgstr "UPS"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_image__video_url
 msgid "URL of a video for showcasing your product."
+<<<<<<< HEAD
 msgstr "URL-адрес видеоролика для демонстрации вашего продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -4707,17 +5311,29 @@ msgstr "Посещенные страницы"
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__product_ids
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_view_kanban
 msgid "Visited Products"
+<<<<<<< HEAD
 msgstr "Посещаемые продукты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_graph
 msgid "Visitor Product Views"
+<<<<<<< HEAD
 msgstr "Мнения посетителей о продукте"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_tree
 msgid "Visitor Product Views History"
+<<<<<<< HEAD
 msgstr "История просмотров продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_furnitures_wardrobes
@@ -4792,7 +5408,11 @@ msgstr "Веб-сайт сообщения"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__public_categ_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template__public_categ_ids
 msgid "Website Product Category"
+<<<<<<< HEAD
 msgstr "Веб-сайт Категория продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_form_view
@@ -4878,7 +5498,11 @@ msgstr "Сайты"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "What should be done on \"Add to Cart\"?"
+<<<<<<< HEAD
 msgstr "Что нужно сделать при нажатии кнопки \"Добавить в корзину\"?"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_share_buttons
@@ -4935,7 +5559,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_sale/controllers/main.py:0
 msgid "You can't use a video as the product's main image."
+<<<<<<< HEAD
 msgstr "Нельзя использовать видео в качестве основного изображения продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.sale_report_action_carts
@@ -5117,7 +5745,11 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "in category \""
+<<<<<<< HEAD
 msgstr "в категории \""
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address

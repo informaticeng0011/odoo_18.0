@@ -98,7 +98,10 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218,6 +221,9 @@ FIX_WRONG_CODES_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -331,11 +337,14 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tax_exemption_reason = TAX_EXEMPTION_MAPPING.get(tax.ubl_cii_tax_exemption_reason_code)
             return {
                 'tax_category_code': tax.ubl_cii_tax_category_code,
                 'tax_exemption_reason_code': tax.ubl_cii_tax_exemption_reason_code,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -447,6 +456,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

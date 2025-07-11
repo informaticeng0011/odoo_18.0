@@ -4,7 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -589,7 +593,10 @@ class TestMrpByProduct(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -620,6 +627,9 @@ class TestMrpByProduct(common.TransactionCase):
         ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

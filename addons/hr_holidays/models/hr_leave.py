@@ -460,6 +460,7 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if calendar.flexible_hours:
                 days = (leave.date_to - leave.date_from).days + (1 if not leave.request_unit_half else 0.5)
                 public_holidays = self.env['resource.calendar.leaves'].search([
@@ -667,6 +668,8 @@ class HolidaysRequest(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if leave.employee_id:
                 # For flexible employees, if it's a single day leave, we force it to the real duration since the virtual intervals might not match reality on that day, especially for custom hours
                 if leave.employee_id.is_flexible and leave.date_to.date() == leave.date_from.date():
@@ -711,6 +714,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1640,7 +1646,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
         today = fields.Date.today()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         model_id = self.env.ref('hr_holidays.model_hr_leave').id
+=======
+        model_id = self.env['ir.model']._get_id('hr.leave')
+>>>>>>> upstream/18.0
 =======
         model_id = self.env['ir.model']._get_id('hr.leave')
 >>>>>>> upstream/18.0
@@ -1667,7 +1677,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
                         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         to_do_confirm_activity |= holiday
+=======
+                        to_do_confirm_activity += holiday
+>>>>>>> upstream/18.0
 =======
                         to_do_confirm_activity += holiday
 >>>>>>> upstream/18.0
@@ -1680,7 +1694,11 @@ Attempting to double-book your time off won't magically make your vacation 2x be
                             (holiday.date_from -
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                              relativedelta(**{activity_type.delay_unit: activity_type.delay_count or 0})).date()
+=======
+                             relativedelta(**{activity_type.delay_unit or 'days': activity_type.delay_count or 0})).date()
+>>>>>>> upstream/18.0
 =======
                              relativedelta(**{activity_type.delay_unit or 'days': activity_type.delay_count or 0})).date()
 >>>>>>> upstream/18.0
@@ -1838,6 +1856,10 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1991,6 +2013,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if day_period:
             domain.append(('day_period', '=', day_period))
         attendances = self.env['resource.calendar.attendance']._read_group(domain,
@@ -2005,6 +2028,8 @@ Attempting to double-book your time off won't magically make your vacation 2x be
         default_start = min((attendance.hour_from for attendance in attendances), default=0)
         default_end = max((attendance.hour_to for attendance in attendances), default=0)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2140,6 +2165,9 @@ Attempting to double-book your time off won't magically make your vacation 2x be
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

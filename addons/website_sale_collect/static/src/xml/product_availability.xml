@@ -3,9 +3,12 @@
 <templates>
 
     <t t-inherit="website_sale_stock.product_availability" t-inherit-mode="extension">
+<<<<<<< HEAD
         <div id="out_of_stock_message" position="replace">
             <t t-if="!in_store_stock">$0</t>
         </div>
+=======
+>>>>>>> upstream/18.0
         <div id="threshold_message" position="attributes">
             <attribute name="t-elif" add="!in_store_stock" separator=" and "/>
         </div>

@@ -13,6 +13,10 @@ from . import hr_leave_accrual_plan
 from . import hr_leave_mandatory_day
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import mail_activity_type
+>>>>>>> upstream/18.0
 =======
 from . import mail_activity_type
 >>>>>>> upstream/18.0

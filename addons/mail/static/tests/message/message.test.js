@@ -694,7 +694,11 @@ test("Reaction summary", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Add the same reaction twice from the emoji picker", async () => {
+=======
+test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
 >>>>>>> upstream/18.0
@@ -713,10 +717,13 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
     await openDiscuss(channelId);
     await click("[title='Add a Reaction']");
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-Emoji", { text: "😅" });
     await click("[title='Add a Reaction']");
     await click(".o-Emoji", { text: "😅" });
 =======
+=======
+>>>>>>> upstream/18.0
     await click(".o-Emoji:contains(😅):eq(0)");
     await contains(".o-mail-MessageReaction", { text: "😅1" });
     await click("[title='Add a Reaction']");
@@ -725,6 +732,9 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
     await click("[title='Add a Reaction']");
     await click(".o-Emoji:contains(😯):eq(0)");
     await contains(".o-mail-MessageReaction", { text: "😯1" });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     await contains(".o-mail-MessageReaction", { text: "😅1" });
 });

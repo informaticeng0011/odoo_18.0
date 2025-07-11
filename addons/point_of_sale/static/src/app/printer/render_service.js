@@ -23,7 +23,11 @@ export class RenderContainer extends Component {
             // component to arrive in it's final state
             await new Promise((r) => setTimeout(r, 100));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.onRendered(this.ref?.el?.firstChild);
+=======
+            this.props.onRendered(this.ref?.el?.firstElementChild);
+>>>>>>> upstream/18.0
 =======
             this.props.onRendered(this.ref?.el?.firstElementChild);
 >>>>>>> upstream/18.0

@@ -155,6 +155,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner = recipient_info.get('partner', self.env['res.partner'])
             number = recipient_info.get('number')
             status = recipient_info.get('trace_status', 'outgoing')
@@ -162,6 +163,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
             if number is None and partner:
                 number = partner._sms_get_recipients_info()[partner.id]['sanitized']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -370,6 +373,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -571,7 +577,10 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     failure_type = recipient_info['failure_type'] if status in ('error', 'cancel', 'bounce') else None
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -789,8 +798,11 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def gateway_sms_click(self, mailing, record):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -985,6 +997,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1174,6 +1189,7 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sms_sent = self._find_sms_sent(self.env['res.partner'], trace.sms_number)
         self.assertTrue(bool(sms_sent))
         return self.gateway_sms_sent_click(sms_sent)
@@ -1191,6 +1207,8 @@ class MassSMSCase(SMSCase, MockLinkTracker):
         shortened links. """
         for url in re.findall(mail.TEXT_URL_REGEX, sms_sent['body']):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1404,6 +1422,9 @@ class MassSMSCase(SMSCase, MockLinkTracker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -8,6 +8,10 @@
 # Mads Søndergaard, 2024
 # Martin Trigaux, 2024
 # Sammi Iversen <sammi@vkdata.dk>, 2025
+<<<<<<< HEAD
+=======
+# Kira Petersen, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -15,7 +19,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Sammi Iversen <sammi@vkdata.dk>, 2025\n"
+=======
+"Last-Translator: Kira Petersen, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +54,12 @@ msgid ""
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Gyldig gmail-token\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
@@ -54,6 +68,12 @@ msgid ""
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"smtp_authentication != 'gmail' or not google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+"                        Gyldig gmail-token\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model.fields,field_description:google_gmail.field_fetchmail_server__google_gmail_access_token
@@ -67,19 +87,31 @@ msgstr "Adgangstoken"
 #: model:ir.model.fields,field_description:google_gmail.field_google_gmail_mixin__google_gmail_access_token_expiration
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_access_token_expiration
 msgid "Access Token Expiration Timestamp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udløbsdato for Outlook-adgangstoken"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #. odoo-python
 #: code:addons/google_gmail/controllers/main.py:0
 msgid "An error occur during the authentication process."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl under godkendelsesprocessen."
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #. odoo-python
 #: code:addons/google_gmail/models/google_gmail_mixin.py:0
 msgid "An error occurred when fetching the access token."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der opstod en fejl under hentning af adgangstokenet."
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__smtp_authentication

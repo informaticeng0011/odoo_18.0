@@ -102,7 +102,11 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Message-textContent:contains(cheese)",
+=======
+            trigger: ".o-mail-Message[data-persistent]:contains(cheese)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Message[data-persistent]:contains(cheese)",
 >>>>>>> upstream/18.0
@@ -127,7 +131,11 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         {
             content: "Reload page (fetch reactions)",
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Message",
+=======
+            trigger: ".o-mail-Message:not(:has(.o-mail-MessageReaction:contains('🙂')))",
+>>>>>>> upstream/18.0
 =======
             trigger: ".o-mail-Message:not(:has(.o-mail-MessageReaction:contains('🙂')))",
 >>>>>>> upstream/18.0
@@ -137,17 +145,23 @@ registry.category("web_tour.tours").add("discuss_channel_public_tour.js", {
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".o-mail-Message:not(:has(.o-mail-MessageReaction))",
         },
         {
             content: "Click on more menu",
             trigger: ".o-mail-Message-textContent:contains(cheese)",
 =======
+=======
+>>>>>>> upstream/18.0
             trigger: ".o-mail-Message:not(:has(.o-mail-MessageReaction:contains('🙂')))",
         },
         {
             content: "Click on more menu",
             trigger: ".o-mail-Message[data-persistent]:contains(cheese)",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             run: "hover && click .o-mail-Message [title='Expand']",
         },

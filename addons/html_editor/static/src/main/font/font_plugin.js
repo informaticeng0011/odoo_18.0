@@ -35,9 +35,15 @@ import { isBlock, closestBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fillEmpty } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
 import { isVisibleTextNode } from "@html_editor/utils/dom_info";
+=======
+import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
+import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
+import { isRedundantElement, isVisibleTextNode } from "@html_editor/utils/dom_info";
+>>>>>>> upstream/18.0
 =======
 import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
@@ -252,6 +258,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    selectElements,
+>>>>>>> upstream/18.0
 =======
     selectElements,
 >>>>>>> upstream/18.0
@@ -372,6 +382,10 @@ import { withSequence } from "@html_editor/utils/resource";
 import { reactive } from "@odoo/owl";
 import { FontSizeSelector } from "./font_size_selector";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { childNodes } from "../../utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { childNodes } from "../../utils/dom_traversal";
 >>>>>>> upstream/18.0
@@ -561,6 +575,10 @@ export class FontPlugin extends Plugin {
                         this.updateFontSizeSelectorParams();
                     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    document: this.document,
+>>>>>>> upstream/18.0
 =======
                     document: this.document,
 >>>>>>> upstream/18.0
@@ -654,6 +672,10 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 =======
         normalize_handlers: this.normalize.bind(this),
 >>>>>>> upstream/18.0
@@ -769,6 +791,11 @@ export class FontPlugin extends Plugin {
         delete_backward_overrides: withSequence(20, this.handleDeleteBackward.bind(this)),
         delete_backward_word_overrides: this.handleDeleteBackward.bind(this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        before_insert_processors: this.handleInsertWithinPre.bind(this),
+>>>>>>> upstream/18.0
 =======
 
         before_insert_processors: this.handleInsertWithinPre.bind(this),
@@ -815,7 +842,10 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -926,6 +956,9 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1229,7 +1262,10 @@ export class FontPlugin extends Plugin {
         this.fontSize.displayName = this.fontSizeName;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     handleInsertWithinPre(insertContainer, block) {
         if (block.nodeName !== "PRE") {
@@ -1259,5 +1295,8 @@ export class FontPlugin extends Plugin {
         }
         return insertContainer;
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }

@@ -29,7 +29,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invalid_tr_partners := moves.filtered(
+=======
+        if tr_partners_missing_address := moves.filtered(
+>>>>>>> upstream/18.0
 =======
         if tr_partners_missing_address := moves.filtered(
 >>>>>>> upstream/18.0
@@ -51,9 +55,12 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "action": invalid_tr_partners._get_records_action(name=_("Check data on Partner(s)")),
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77,6 +84,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

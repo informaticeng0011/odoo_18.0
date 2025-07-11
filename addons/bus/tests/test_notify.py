@@ -90,6 +90,7 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 while sel.select(timeout=5) and not stop_event.is_set():
                     conn.poll()
                     if notify_channels := [
@@ -100,6 +101,8 @@ class NotifyTests(TransactionCase):
                         channels = notify_channels
                         break
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -170,6 +173,9 @@ class NotifyTests(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

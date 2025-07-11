@@ -684,7 +684,10 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -776,6 +779,7 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -786,6 +790,8 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -906,6 +912,9 @@ class TestLandedCostsWithPurchaseAndInv(TestStockValuationLCCommon):
         self.assertAlmostEqual(self.product1.value_svl, 20995)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -103,7 +103,11 @@ messageActionsRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 personas.find((persona) => persona.eq(component.store.self))
+=======
+                                component.props.thread.effectiveSelf.in(personas)
+>>>>>>> upstream/18.0
 =======
                                 component.props.thread.effectiveSelf.in(personas)
 >>>>>>> upstream/18.0
@@ -285,7 +289,12 @@ messageActionsRegistry
     .add("mark-as-unread", {
         condition: (component) =>
             component.props.thread?.model === "discuss.channel" &&
+<<<<<<< HEAD
             component.store.self.type === "partner",
+=======
+            component.store.self.type === "partner" &&
+            component.props.message.persistent,
+>>>>>>> upstream/18.0
         icon: "fa fa-eye-slash",
         title: _t("Mark as Unread"),
         onClick: (component) => component.props.message.onClickMarkAsUnread(component.props.thread),

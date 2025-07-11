@@ -134,7 +134,10 @@ class TestStructure(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_vat_vn(self):
@@ -154,6 +157,9 @@ class TestStructure(TransactionCase):
             test_partner.write({'vat': '0123457890-11134'})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

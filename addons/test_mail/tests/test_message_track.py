@@ -155,6 +155,10 @@ class TestTracking(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -303,6 +307,10 @@ class TestTracking(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                     'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -859,6 +867,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'float_field_with_digits': 3.00001,
+>>>>>>> upstream/18.0
 =======
             'float_field_with_digits': 3.00001,
 >>>>>>> upstream/18.0
@@ -1014,6 +1026,7 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTracking(
             new_message,
             [
@@ -1031,6 +1044,8 @@ class TestTrackingInternals(MailCommon):
             strict=True
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1160,6 +1175,9 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1408,6 +1426,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                 'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -1556,6 +1578,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                 'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -1826,8 +1852,13 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'newValue': {'currencyId': False, 'value': 'secret'},
                     'oldValue': {'currencyId': False, 'value': False}
+=======
+                    'newValue': {'currencyId': False, 'floatPrecision': None, 'value': 'secret'},
+                    'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': False}
+>>>>>>> upstream/18.0
 =======
                     'newValue': {'currencyId': False, 'floatPrecision': None, 'value': 'secret'},
                     'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': False}
@@ -2013,8 +2044,13 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'newValue': {'currencyId': False, 'value': 35},
                     'oldValue': {'currencyId': False, 'value': 30}
+=======
+                    'newValue': {'currencyId': False, 'floatPrecision': None, 'value': 35},
+                    'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': 30}
+>>>>>>> upstream/18.0
 =======
                     'newValue': {'currencyId': False, 'floatPrecision': None, 'value': 35},
                     'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': 30}
@@ -2200,8 +2236,13 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'newValue': {'currencyId': False, 'value': False},
                     'oldValue': {'currencyId': False, 'value': False}
+=======
+                    'newValue': {'currencyId': False, 'floatPrecision': None, 'value': False},
+                    'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': False}
+>>>>>>> upstream/18.0
 =======
                     'newValue': {'currencyId': False, 'floatPrecision': None, 'value': False},
                     'oldValue': {'currencyId': False, 'floatPrecision': None, 'value': False}
@@ -2543,6 +2584,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                         'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -2691,6 +2736,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                         'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -2862,6 +2911,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                         'floatPrecision': None,
 >>>>>>> upstream/18.0
@@ -3010,6 +3063,10 @@ class TestTrackingInternals(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'floatPrecision': None,
+>>>>>>> upstream/18.0
 =======
                         'floatPrecision': None,
 >>>>>>> upstream/18.0

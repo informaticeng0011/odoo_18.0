@@ -418,7 +418,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             domain="[('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+=======
+                            domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
+>>>>>>> upstream/18.0
 =======
                             domain="[('balance', '!=', 0), ('account_id.reconcile', '=', True), '|', ('matching_number', '=', False), ('matching_number', '=like', 'P%')]"
 >>>>>>> upstream/18.0
@@ -1267,6 +1271,10 @@
                         <field name="show_reset_to_draft_button" invisible="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        <field name="expected_currency_rate" invisible="1"/>
+>>>>>>> upstream/18.0
 =======
                         <field name="expected_currency_rate" invisible="1"/>
 >>>>>>> upstream/18.0
@@ -1365,6 +1373,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                           default_focus="1"
+>>>>>>> upstream/18.0
 =======
                                            default_focus="1"
 >>>>>>> upstream/18.0
@@ -1517,6 +1529,7 @@
                                        readonly="state != 'draft'"/>
                                 <label for="ref" string="Bill Reference"
                                        invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1739,6 +1752,10 @@
                                 <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
                                 <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
 >>>>>>> upstream/18.0
+=======
+                                <field name="ref" default_focus="1" nolabel="1" invisible="move_type not in ('in_invoice', 'in_receipt', 'in_refund')"/>
+                                <field name="ref" default_focus="1" invisible="move_type in ('in_invoice', 'in_receipt', 'in_refund', 'out_invoice', 'out_refund')"/>
+>>>>>>> upstream/18.0
                                 <field name="tax_cash_basis_origin_move_id" invisible="not tax_cash_basis_origin_move_id"/>
                                 <label name="invoice_vendor_bill_id_label" for="invoice_vendor_bill_id" string="Auto-Complete" class="oe_edit_only"
                                        invisible="state != 'draft' or move_type != 'in_invoice'"/>
@@ -1772,6 +1789,7 @@
                                        context="{'default_partner_id': bank_partner_id, 'display_account_trust': True}"
                                        domain="[('partner_id', '=', bank_partner_id)]"
                                        invisible="move_type not in ('in_invoice', 'in_refund', 'in_receipt')"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2081,6 +2099,9 @@
 =======
                                        readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0
+=======
+                                       readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 
                                 <!-- Invoice payment terms (only invoices) + due date (only invoices / receipts) -->
                                 <div class="o_td_label" invisible="move_type not in ('out_invoice', 'out_refund', 'in_invoice', 'in_refund', 'out_receipt', 'in_receipt')">
@@ -2095,8 +2116,13 @@
                                            invisible="invoice_payment_term_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <span class="o_form_label mx-3 oe_edit_only"
                                           invisible="state != 'draft' or invoice_payment_term_id"> or </span>
+=======
+                                    <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 6ch;"
+                                          invisible="state != 'draft' or invoice_payment_term_id">or</span>
+>>>>>>> upstream/18.0
 =======
                                     <span class="o_form_label mx-3 oe_edit_only text-center" style="width: 6ch;"
                                           invisible="state != 'draft' or invoice_payment_term_id">or</span>
@@ -2120,6 +2146,7 @@
                                            groups="account.group_account_readonly"
                                            options="{'no_create': True, 'no_open': True}"
                                            readonly="posted_before and name not in (False, '', '/')"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2149,6 +2176,8 @@
                                             <span> </span>
                                             <field name="currency_id" readonly="True" options="{'no_open': True}"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                                     <div name="in_and_refresh_button_div"
@@ -2187,6 +2216,9 @@
                                             <field name="invoice_currency_rate" digits="[12,6]" readonly="state != 'draft'"/>
                                             <field name="currency_id" readonly="True" options="{'no_open': True}" class="w-auto"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2405,6 +2437,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="invoice_outstanding_credits_debits_widget"
                                             class="oe_invoice_outstanding_credits_debits py-3"
                                             colspan="2" nolabel="1" widget="payment"
@@ -2561,6 +2594,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                         <group
                                             class="oe_subtotal_footer px-4"
                                             invisible="state != 'posted' or not invoice_has_outstanding"
@@ -2578,6 +2613,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2812,7 +2850,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                readonly="is_move_sent"/>
+=======
+                                               readonly="is_move_sent and state != 'draft'"/>
+>>>>>>> upstream/18.0
 =======
                                                readonly="is_move_sent and state != 'draft'"/>
 >>>>>>> upstream/18.0

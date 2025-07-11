@@ -68,12 +68,15 @@ const { define, loader } = odoo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const clearObject = (object) => {
     for (const key in object) {
         delete object[key];
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -181,6 +184,9 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -291,7 +297,11 @@ function clearObject(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const defineModuleSet = async (fileSuffix, entryPoints, additionalAddons) => {
+=======
+async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
+>>>>>>> upstream/18.0
 =======
 async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 >>>>>>> upstream/18.0
@@ -468,7 +478,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -614,7 +628,11 @@ async function defineModuleSet(fileSuffix, entryPoints, additionalAddons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const describeDrySuite = async (fileSuffix, entryPoints) => {
+=======
+async function describeDrySuite(fileSuffix, entryPoints) {
+>>>>>>> upstream/18.0
 =======
 async function describeDrySuite(fileSuffix, entryPoints) {
 >>>>>>> upstream/18.0
@@ -780,7 +798,11 @@ async function describeDrySuite(fileSuffix, entryPoints) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -925,7 +947,11 @@ async function describeDrySuite(fileSuffix, entryPoints) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const fetchDependencies = async (addons) => {
+=======
+async function fetchDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 async function fetchDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -1100,7 +1126,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -1245,7 +1275,11 @@ async function fetchDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findMockFactory = (name) => {
+=======
+function findMockFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function findMockFactory(name) {
 >>>>>>> upstream/18.0
@@ -1395,8 +1429,11 @@ function findMockFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1560,6 +1597,9 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1668,7 +1708,13 @@ function freezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getAddonName = (name) => name.match(R_PATH_ADDON)?.[1];
+=======
+function getAddonName(name) {
+    return name.match(R_PATH_ADDON)?.[1];
+}
+>>>>>>> upstream/18.0
 =======
 function getAddonName(name) {
     return name.match(R_PATH_ADDON)?.[1];
@@ -1883,7 +1929,11 @@ function getAddonName(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDependencies = (addons) => {
+=======
+function getDependencies(addons) {
+>>>>>>> upstream/18.0
 =======
 function getDependencies(addons) {
 >>>>>>> upstream/18.0
@@ -2035,7 +2085,11 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2180,7 +2234,13 @@ function getDependencies(addons) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getSuitePath = (name) => name.replace("../tests/", "");
+=======
+function getSuitePath(name) {
+    return name.replace("../tests/", "");
+}
+>>>>>>> upstream/18.0
 =======
 function getSuitePath(name) {
     return name.replace("../tests/", "");
@@ -2397,7 +2457,11 @@ function getSuitePath(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const makeFixedFactory = (name) => {
+=======
+function makeFixedFactory(name) {
+>>>>>>> upstream/18.0
 =======
 function makeFixedFactory(name) {
 >>>>>>> upstream/18.0
@@ -2544,7 +2608,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2695,7 +2763,11 @@ function makeFixedFactory(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const orm = async (model, method, args, kwargs) => {
+=======
+async function orm(model, method, args, kwargs) {
+>>>>>>> upstream/18.0
 =======
 async function orm(model, method, args, kwargs) {
 >>>>>>> upstream/18.0
@@ -2853,7 +2925,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2999,7 +3075,11 @@ async function orm(model, method, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const resolveAddonDependencies = (dependencies) => {
+=======
+function resolveAddonDependencies(dependencies) {
+>>>>>>> upstream/18.0
 =======
 function resolveAddonDependencies(dependencies) {
 >>>>>>> upstream/18.0
@@ -3160,8 +3240,11 @@ function resolveAddonDependencies(dependencies) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3278,6 +3361,9 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3397,7 +3483,11 @@ function unfreezeModel(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const __gcAndLogMemory = async (label, testCount) => {
+=======
+async function __gcAndLogMemory(label, testCount) {
+>>>>>>> upstream/18.0
 =======
 async function __gcAndLogMemory(label, testCount) {
 >>>>>>> upstream/18.0
@@ -3566,7 +3656,11 @@ async function __gcAndLogMemory(label, testCount) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -3831,7 +3925,13 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Chart", // Chart.js
+=======
+    // Bootstrap.js is voluntarily ignored as it is deprecated
+    "Chart", // Chart.js
+    "DOMPurify", // DOMPurify
+>>>>>>> upstream/18.0
 =======
     // Bootstrap.js is voluntarily ignored as it is deprecated
     "Chart", // Chart.js
@@ -4178,9 +4278,12 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "odoo",
     "owl",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4356,6 +4459,9 @@ const ALLOWED_GLOBAL_KEYS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4546,7 +4652,11 @@ const moduleNamesCache = new Map();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @type {Map<string, Record<string, any>>} */
+=======
+/** @type {Map<string, Record<string, unknown>>} */
+>>>>>>> upstream/18.0
 =======
 /** @type {Map<string, Record<string, unknown>>} */
 >>>>>>> upstream/18.0
@@ -4731,7 +4841,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             serverModelCache.set(modelName, modelDef);
+=======
+            serverModelCache.set(modelName, freezeModel(modelDef));
+>>>>>>> upstream/18.0
 =======
             serverModelCache.set(modelName, freezeModel(modelDef));
 >>>>>>> upstream/18.0
@@ -4876,8 +4990,11 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return [...modelNames].map((modelName) => [modelName, serverModelCache.get(modelName)]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4985,6 +5102,9 @@ export async function fetchModelDefinitions(modelNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

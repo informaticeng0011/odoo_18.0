@@ -285,7 +285,11 @@ class AccountMove(models.Model):
         base_lines = [self._prepare_product_base_line_for_taxes_computation(x) for x in base_amls]
         for base_line in base_lines:
             base_line['name'] = base_line['record'].name
+<<<<<<< HEAD
         tax_amls = self.line_ids.filtered(lambda x: x.display_type == 'tax')
+=======
+        tax_amls = self.line_ids.filtered('tax_repartition_line_id')
+>>>>>>> upstream/18.0
         tax_lines = [self._prepare_tax_line_for_taxes_computation(x) for x in tax_amls]
         self.env['l10n_es_edi_tbai.document']._add_base_lines_tax_amounts(base_lines, self.company_id, tax_lines=tax_lines)
         taxes = self.invoice_line_ids.tax_ids.flatten_taxes_hierarchy()
@@ -345,7 +349,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tipofactura': 'F5' if self._l10n_es_is_dua() else 'F1',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -443,8 +450,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['regime_key'] = ['09'] if intracom else ['01']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -539,6 +549,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -632,8 +645,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -727,6 +743,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -55,7 +55,11 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_repr, format_list
+=======
+from odoo.tools import float_is_zero, float_repr, format_list
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_repr, format_list
 >>>>>>> upstream/18.0
@@ -428,7 +432,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -482,6 +489,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -793,6 +803,44 @@ class AccountEdiCommon(models.AbstractModel):
             logs.append(_("A payment of %s was detected.", formatted_amount))
         return logs
 
+<<<<<<< HEAD
+=======
+    def _import_rounding_amount(self, invoice, tree, xpath, qty_factor):
+        """
+        Add an invoice line representing the rounding amount given in the document.
+        - The amount is assumed to be in document currency
+        """
+        logs = []
+        line_vals = []
+
+        currency = invoice.currency_id
+        rounding_amount_currency = currency.round(qty_factor * float(tree.findtext(xpath) or 0))
+
+        if invoice.currency_id.is_zero(rounding_amount_currency):
+            return line_vals, logs
+
+        inverse_rate = abs(invoice.amount_total_signed) / invoice.amount_total if invoice.amount_total else 0
+        rounding_amount = invoice.company_id.currency_id.round(rounding_amount_currency * inverse_rate)
+
+        line_vals.append({
+            'display_type': 'product',
+            'name': _('Rounding'),
+            'quantity': 1,
+            'product_id': False,
+            'price_unit': rounding_amount_currency,
+            'amount_currency': invoice.direction_sign * rounding_amount_currency,
+            'balance': invoice.direction_sign * rounding_amount,
+            'company_id': invoice.company_id.id,
+            'move_id': invoice.id,
+            'tax_ids': False,
+        })
+
+        formatted_amount = formatLang(self.env, rounding_amount_currency, currency_obj=currency)
+        logs.append(_("A rounding amount of %s was detected.", formatted_amount))
+
+        return line_vals, logs
+
+>>>>>>> upstream/18.0
     def _import_invoice_lines(self, invoice, tree, xpath, qty_factor):
         logs = []
         lines_values = []
@@ -1007,6 +1055,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
@@ -1123,6 +1172,11 @@ class AccountEdiCommon(models.AbstractModel):
 =======
             inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / (delivered_qty * price_unit))
             discount = inferred_discount if not float_is_zero(inferred_discount, 2) else 0.0
+>>>>>>> upstream/18.0
+=======
+            currency = self.env.company.currency_id
+            inferred_discount = 100 * (1 - (price_subtotal - charge_amount) / currency.round(delivered_qty * price_unit))
+            discount = inferred_discount if not float_is_zero(inferred_discount, currency.decimal_places) else 0.0
 >>>>>>> upstream/18.0
 =======
             currency = self.env.company.currency_id

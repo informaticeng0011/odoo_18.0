@@ -15,7 +15,13 @@ from odoo import _, models, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import html2plaintext, cleanup_xml_node
+=======
+from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
+from odoo.addons.account.tools import dict_to_xml
+from odoo.addons.account_edi_ubl_cii.tools import Invoice, CreditNote, DebitNote
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext, cleanup_xml_node, float_is_zero, float_repr, float_round
 from odoo.addons.account.tools import dict_to_xml
@@ -101,7 +107,10 @@ UBL_NAMESPACES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -177,6 +186,9 @@ class FloatFmt(float):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -297,6 +309,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if partner.ref:
+            return [{'id': partner.ref}]
+>>>>>>> upstream/18.0
 =======
         if partner.ref:
             return [{'id': partner.ref}]
@@ -685,7 +702,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -946,6 +966,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1206,6 +1229,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'person_vals': self._get_partner_person_vals(partner),
+>>>>>>> upstream/18.0
 =======
             'person_vals': self._get_partner_person_vals(partner),
 >>>>>>> upstream/18.0
@@ -1747,7 +1774,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1906,6 +1936,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2131,15 +2164,30 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 
     def _get_invoice_monetary_total_vals(self, invoice, taxes_vals, line_extension_amount, allowance_total_amount, charge_total_amount):
         """ Method used to fill the cac:{Legal,Requested}MonetaryTotal node"""
+<<<<<<< HEAD
+=======
+        # We only handle rounding amounts that do not belong to any tax ('add_invoice_line' cash rounding strategy).
+        # Rounding amounts belonging to a tax ('biggest_tax' strategy) are included already in the tax amounts.
+        rounding_amls = invoice.line_ids.filtered(lambda line: line.display_type == 'rounding' and not line.tax_line_id)
+        payable_rounding_amount = invoice.direction_sign * sum(rounding_amls.mapped('amount_currency'))
+>>>>>>> upstream/18.0
         return {
             'currency': invoice.currency_id,
             'currency_dp': self._get_currency_decimal_places(invoice.currency_id),
             'line_extension_amount': line_extension_amount,
             'tax_exclusive_amount': taxes_vals['base_amount_currency'],
+<<<<<<< HEAD
             'tax_inclusive_amount': invoice.amount_total,
             'allowance_total_amount': allowance_total_amount or None,
             'charge_total_amount': charge_total_amount or None,
             'prepaid_amount': invoice.amount_total - invoice.amount_residual,
+=======
+            'tax_inclusive_amount': invoice.amount_total - payable_rounding_amount,
+            'allowance_total_amount': allowance_total_amount or None,
+            'charge_total_amount': charge_total_amount or None,
+            'prepaid_amount': invoice.amount_total - invoice.amount_residual,
+            'payable_rounding_amount': payable_rounding_amount or None,
+>>>>>>> upstream/18.0
             'payable_amount': invoice.amount_residual,
         }
 
@@ -2318,6 +2366,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
+>>>>>>> upstream/18.0
 =======
             'ExchangeRateType_template': 'account_edi_ubl_cii.ubl_20_ExchangeRateType',
 >>>>>>> upstream/18.0
@@ -2547,6 +2599,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
+>>>>>>> upstream/18.0
 =======
                 'pricing_exchange_rate_vals_list': self._get_pricing_exchange_rate_vals_list(invoice),
 >>>>>>> upstream/18.0
@@ -2800,7 +2856,11 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             if incoterm:
                 invoice_values['invoice_incoterm_id'] = incoterm.id
 
+<<<<<<< HEAD
         # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines ====
+=======
+        # ==== Document level AllowanceCharge, Prepaid Amounts, Invoice Lines, Payable Rounding Amount ====
+>>>>>>> upstream/18.0
         allowance_charges_line_vals, allowance_charges_logs = self._import_document_allowance_charges(tree, invoice, invoice.journal_id.type, qty_factor)
         logs += self._import_prepaid_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PrepaidAmount', qty_factor)
         line_tag = (
@@ -2809,14 +2869,23 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             else 'CreditNoteLine'
         )
         invoice_line_vals, line_logs = self._import_invoice_lines(invoice, tree, './{*}' + line_tag, qty_factor)
+<<<<<<< HEAD
         line_vals = allowance_charges_line_vals + invoice_line_vals
+=======
+        rounding_line_vals, rounding_logs = self._import_rounding_amount(invoice, tree, './{*}LegalMonetaryTotal/{*}PayableRoundingAmount', qty_factor)
+        line_vals = allowance_charges_line_vals + invoice_line_vals + rounding_line_vals
+>>>>>>> upstream/18.0
 
         invoice_values = {
             **invoice_values,
             'invoice_line_ids': [Command.create(line_value) for line_value in line_vals],
         }
         invoice.write(invoice_values)
+<<<<<<< HEAD
         logs += partner_logs + currency_logs + line_logs + allowance_charges_logs
+=======
+        logs += partner_logs + currency_logs + line_logs + allowance_charges_logs + rounding_logs
+>>>>>>> upstream/18.0
         return logs
 
     def _get_tax_nodes(self, tree):
@@ -2871,8 +2940,17 @@ class AccountEdiXmlUBL20(models.AbstractModel):
     def _correct_invoice_tax_amount(self, tree, invoice):
         """ The tax total may have been modified for rounding purpose, if so we should use the imported tax and not
          the computed one """
+<<<<<<< HEAD
         # For each tax in our tax total, get the amount as well as the total in the xml.
         for elem in tree.findall('.//{*}TaxTotal/{*}TaxSubtotal'):
+=======
+        currency = invoice.currency_id
+        # For each tax in our tax total, get the amount as well as the total in the xml.
+        # Negative tax amounts may appear in invoices; they have to be inverted (since they are credit notes).
+        document_amount_sign = self._get_import_document_amount_sign(tree)[1] or 1
+        # We only search for `TaxTotal/TaxSubtotal` in the "root" element (i.e. not in `InvoiceLine` elements).
+        for elem in tree.findall('./{*}TaxTotal/{*}TaxSubtotal'):
+>>>>>>> upstream/18.0
             percentage = elem.find('.//{*}TaxCategory/{*}Percent')
             if percentage is None:
                 percentage = elem.find('.//{*}Percent')
@@ -2884,6 +2962,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                 taxes = invoice.line_ids.tax_line_id.filtered(lambda tax: tax.amount == tax_percent)
                 # If we found taxes with the correct amount, look for a tax line using it, and correct it as needed.
                 if taxes:
+<<<<<<< HEAD
                     tax_total = float(amount.text)
                     tax_line = invoice.line_ids.filtered(lambda line: line.tax_line_id in taxes)[:1]
                     if tax_line:
@@ -2891,6 +2970,17 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                         tax_line_amount = abs(tax_line.amount_currency)
                         if abs(tax_total - tax_line_amount) <= 0.05:
                             tax_line.amount_currency = tax_total * sign
+=======
+                    tax_total = document_amount_sign * float(amount.text)
+                    # Sometimes we have multiple lines for the same tax.
+                    tax_lines = invoice.line_ids.filtered(lambda line: line.tax_line_id in taxes)
+                    if tax_lines:
+                        sign = -1 if invoice.is_inbound(include_receipts=True) else 1
+                        tax_lines_total = currency.round(sign * sum(tax_lines.mapped('amount_currency')))
+                        difference = currency.round(tax_total - tax_lines_total)
+                        if not currency.is_zero(difference):
+                            tax_lines[0].amount_currency += sign * difference
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # IMPORT : helpers
@@ -2923,7 +3013,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3080,7 +3173,12 @@ class AccountEdiXmlUBL20(models.AbstractModel):
     def _add_invoice_base_lines_vals(self, vals):
         invoice = vals['invoice']
         base_lines, _tax_lines = invoice._get_rounded_base_and_tax_lines()
+<<<<<<< HEAD
         vals['base_lines'] = base_lines
+=======
+        vals['base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] != 'cash_rounding']
+        vals['cash_rounding_base_lines'] = [base_line for base_line in base_lines if base_line['special_type'] == 'cash_rounding']
+>>>>>>> upstream/18.0
 
     def _add_invoice_currency_vals(self, vals):
         self._add_document_currency_vals(vals)
@@ -3187,6 +3285,13 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                 '_text': self.format_float(invoice.amount_total - invoice.amount_residual, vals['currency_dp']),
                 'currencyID': vals['currency_name'],
             },
+<<<<<<< HEAD
+=======
+            'cbc:PayableRoundingAmount': {
+                '_text': self.format_float(vals['cash_rounding_base_amount_currency'], vals['currency_dp']),
+                'currencyID': vals['currency_name'],
+            } if vals['cash_rounding_base_amount_currency'] else None,
+>>>>>>> upstream/18.0
             'cbc:PayableAmount': {
                 '_text': self.format_float(invoice.amount_residual, vals['currency_dp']),
                 'currencyID': vals['currency_name'],
@@ -3357,6 +3462,17 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                     if grouping_key
                 )
 
+<<<<<<< HEAD
+=======
+        # Cash rounding for 'add_invoice_line' cash rounding strategy
+        # (For the 'biggest_tax' strategy the amounts are directly included in the tax amounts.)
+        for currency_suffix in ['', '_currency']:
+            vals[f'cash_rounding_base_amount{currency_suffix}'] = 0.0
+            for base_line in vals['cash_rounding_base_lines']:
+                tax_details = base_line['tax_details']
+                vals[f'cash_rounding_base_amount{currency_suffix}'] += tax_details[f'total_excluded{currency_suffix}']
+
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # EXPORT: Generic templates - partner-related nodes
     # -------------------------------------------------------------------------
@@ -3559,6 +3675,13 @@ class AccountEdiXmlUBL20(models.AbstractModel):
                 '_text': self.format_float(0.0, vals['currency_dp']),
                 'currencyID': vals['currency_name'],
             },
+<<<<<<< HEAD
+=======
+            'cbc:PayableRoundingAmount': {
+                '_text': self.format_float(vals[f'cash_rounding_base_amount{currency_suffix}'], vals['currency_dp']),
+                'currencyID': vals['currency_name'],
+            } if vals[f'cash_rounding_base_amount{currency_suffix}'] else None,
+>>>>>>> upstream/18.0
             'cbc:PayableAmount': {
                 '_text': self.format_float(vals[f'tax_inclusive_amount{currency_suffix}'], vals['currency_dp']),
                 'currencyID': vals['currency_name'],
@@ -3801,6 +3924,10 @@ class AccountEdiXmlUBL20(models.AbstractModel):
             for grouping_key in aggregated_tax_details
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if grouping_key
+>>>>>>> upstream/18.0
 =======
             if grouping_key
 >>>>>>> upstream/18.0
@@ -3842,6 +3969,9 @@ class AccountEdiXmlUBL20(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

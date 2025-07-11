@@ -34,7 +34,10 @@ class Manager(Thread):
     server_url = None
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def __init__(self):
         super().__init__()
         self.hostname = helpers.get_hostname()
@@ -83,12 +86,16 @@ class Manager(Thread):
 
         return changed
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def send_alldevices(self, iot_client=None):
         """
         This method send IoT Box and devices information to Odoo database
         """
         if self.server_url:
+<<<<<<< HEAD
 <<<<<<< HEAD
             subject = helpers.get_conf('subject')
             if subject:
@@ -112,6 +119,8 @@ class Manager(Thread):
                     'connection': iot_devices[device].device_connection,
                     'subtype': iot_devices[device].device_subtype if iot_devices[device].device_type == 'printer' else '',
 =======
+=======
+>>>>>>> upstream/18.0
             iot_box = {
                 'name': self.hostname,
                 'identifier': self.mac_address,
@@ -128,6 +137,9 @@ class Manager(Thread):
                     'manufacturer': device.device_manufacturer,
                     'connection': device.device_connection,
                     'subtype': device.device_subtype if device.device_type == 'printer' else '',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             devices_list_to_send = {
@@ -204,8 +216,12 @@ class Manager(Thread):
         while 1:
             try:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if iot_devices != self.previous_iot_devices:
                     self.previous_iot_devices = iot_devices.copy()
+=======
+                if self._get_changes_to_send():
+>>>>>>> upstream/18.0
 =======
                 if self._get_changes_to_send():
 >>>>>>> upstream/18.0

@@ -17,6 +17,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -713,6 +718,7 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -745,6 +751,8 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_12_recompute_taxes_on_address_change(self):
         self.env.company.country_id = self.env.ref('base.us')
@@ -789,6 +797,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
             cart.order_line.tax_id, tax_15_incl,
             "Tax should no longer change after order confirmation",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_imported_user_with_trailing_name_can_checkout(self):
@@ -836,6 +847,9 @@ class TestCheckoutAddress(BaseUsersCommon, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Murat Kaplan <muratk@projetgrup.com>, 2024
+<<<<<<< HEAD
+=======
+# Deniz Guvener_Odoo <degu@odoo.com>, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>, 2024\n"
+=======
+"Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +86,11 @@ msgstr "Vergi"
 #. module: account_edi_ubl_cii_tax_extension
 #: model:ir.model.fields,field_description:account_edi_ubl_cii_tax_extension.field_account_tax__ubl_cii_tax_category_code
 msgid "Tax Category Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vergi Kategori Kodu"
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii_tax_extension
 #: model:ir.model.fields,field_description:account_edi_ubl_cii_tax_extension.field_account_tax__ubl_cii_tax_exemption_reason_code
@@ -96,6 +108,11 @@ msgid ""
 "The reason why the amount is exempted from VAT or why no VAT is being "
 "charged, used for electronic invoicing purposes."
 msgstr ""
+<<<<<<< HEAD
+=======
+"KDV'den muafiyet nedenini ya da neden KDV uygulanmadığını açıklar; "
+"elektronik fatura düzenlemelerinde kullanılır."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii_tax_extension
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii_tax_extension.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex-eu-132
@@ -483,6 +500,11 @@ msgid ""
 "VATEX-FR-CNWVAT - France domestic Credit Notes without VAT, due to supplier "
 "forfeit of VAT for discount"
 msgstr ""
+<<<<<<< HEAD
+=======
+"VATEX-FR-CNWVAT - Fransa içi KDV'siz İade Faturaları (satıcının indirime "
+"bağlı KDV feragatinden dolayı)."
+>>>>>>> upstream/18.0
 
 #. module: account_edi_ubl_cii_tax_extension
 #: model:ir.model.fields.selection,name:account_edi_ubl_cii_tax_extension.selection__account_tax__ubl_cii_tax_exemption_reason_code__vatex_fr-franchise

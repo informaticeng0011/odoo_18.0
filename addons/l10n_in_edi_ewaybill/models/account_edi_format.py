@@ -147,7 +147,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "CnlRem": invoices.l10n_in_edi_cancel_remarks,
+=======
+            "cancelRmrk": invoices.l10n_in_edi_cancel_remarks,
+>>>>>>> upstream/18.0
 =======
             "cancelRmrk": invoices.l10n_in_edi_cancel_remarks,
 >>>>>>> upstream/18.0
@@ -382,7 +386,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -488,6 +495,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -803,7 +813,10 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -909,6 +922,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1071,7 +1087,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "qtyUnit": line.product_id.uom_id.l10n_in_code and line.product_id.uom_id.l10n_in_code.split("-")[0] or "OTH",
+=======
+            "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
+>>>>>>> upstream/18.0
 =======
             "qtyUnit": line.product_uom_id.l10n_in_code and line.product_uom_id.l10n_in_code.split("-")[0] or "OTH",
 >>>>>>> upstream/18.0

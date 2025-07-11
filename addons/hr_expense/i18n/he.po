@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Yoram Lavi, 2024
 # or balmas, 2025
 =======
@@ -117,11 +118,16 @@
 # or balmas, 2025
 # Yoram Lavi, 2025
 >>>>>>> upstream/18.0
+=======
+# Yoram Lavi, 2025
+# or balmas, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +208,11 @@ msgstr ""
 "POT-Creation-Date: 2025-07-05 00:43+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Yoram Lavi, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-05 00:43+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: or balmas, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
@@ -307,7 +318,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_move_form_inherit_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_payment_form_inherit_expense
 msgid "<span class=\"o_stat_text\">Expense Report</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">דוח הוצאות</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
@@ -322,27 +337,47 @@ msgstr "<span>@</span>"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Date:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>תאריך:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Employee:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>עובד:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Manager:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>מנהל:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<span>Paid by:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>שולם ע\"י:</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "<span>The total amount doesn't match the original amount.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>הסכום הכולל לא תואם לסכום המקורי.</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -438,7 +473,11 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "All payment methods allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כל שיטות התשלום מותרות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__amount_residual
@@ -579,7 +618,11 @@ msgstr "קבצים מצורפים"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__attachment_ids
 msgid "Attachments of expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קבצים מצורפים להוצאות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_employee_base
@@ -892,7 +935,11 @@ msgstr "עובד (להחזיר)"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Employee Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "יומן הוצאות עובדים"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_account
@@ -932,7 +979,11 @@ msgstr "אישור הוצאה"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_approve_duplicate
 msgid "Expense Approve Duplicate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "אשר הוצאות כפולות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_employee_tree_inherit_expense
@@ -1033,7 +1084,11 @@ msgstr "דוחות הוצאות לאישור"
 #: model:ir.model.fields,field_description:hr_expense.field_account_move__expense_sheet_id
 #: model:ir.model.fields,field_description:hr_expense.field_account_payment__expense_sheet_id
 msgid "Expense Sheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דף הוצאות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_split
@@ -1064,7 +1119,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid "Expense entry created from: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "תנועת יומן מסוג הוצאה נוצרה מ: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
@@ -1089,7 +1148,11 @@ msgstr "דוח ההוצאות נדחה"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_reset
 msgid "Expense report reset to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העברה דוח הוצאות למצב טיוטה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all
@@ -1164,12 +1227,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee_base__filter_for_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee_public__filter_for_expense
 msgid "Filter For Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "סנן להוצאות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Flight Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כרטיס טיסה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_follower_ids
@@ -1205,7 +1276,11 @@ msgstr "פעילויות עתידיות"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Generate Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ייצר הוצאות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_gift_product_template
@@ -1363,12 +1438,20 @@ msgstr "פקודת יומן"
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_delete
 msgid "Journal Entry Deleted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודת היומן נמחקה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_draft
 msgid "Journal Entry Reset to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העבר פקודת יומן למצב טיוטה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
@@ -1379,17 +1462,29 @@ msgstr "תנועת יומן"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Journal entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודות יומן"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_delete
 msgid "Journal entry deleted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "פקודת היומן נמחקה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_draft
 msgid "Journal entry reset to draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "העבר פקודת יומן למצב טיוטה"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_currency_rate
@@ -1478,7 +1573,11 @@ msgstr ""
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_meal_product_template
 msgid "Meals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ארוחות"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_error
@@ -1518,7 +1617,11 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mitchell Admin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitchell Admin"
 >>>>>>> upstream/18.0
@@ -1617,13 +1720,21 @@ msgstr "חדש"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "New Expense Report, paid by %(paid_by)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דוח הוצאה חדש, שולם ע\"י %(paid_by)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "New Expense Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דוחות הוצאה חדשים"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_calendar_event_id
@@ -1685,7 +1796,11 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Not Refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לא סורב"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_categories_tree_view
@@ -2304,7 +2419,11 @@ msgid "Tax 15%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מע\"מ 15%"
+>>>>>>> upstream/18.0
 =======
 msgstr "מע\"מ 15%"
 >>>>>>> upstream/18.0
@@ -3019,7 +3138,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3041,6 +3163,9 @@ msgstr ""
 #. odoo-python
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

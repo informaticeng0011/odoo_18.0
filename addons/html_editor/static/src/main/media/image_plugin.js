@@ -270,6 +270,12 @@ export class ImagePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (this.delegateTo("delete_image_overrides", selectedImg)) {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (this.delegateTo("delete_image_overrides", selectedImg)) {
                 return;

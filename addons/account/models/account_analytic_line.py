@@ -89,7 +89,10 @@ class AccountAnalyticLine(models.Model):
         return super().view_header_get(view_id, view_type)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -113,6 +116,9 @@ class AccountAnalyticLine(models.Model):
         affected_move_lines._update_analytic_distribution()
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
