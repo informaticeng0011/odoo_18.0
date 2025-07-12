@@ -7,7 +7,10 @@ from odoo import _, api, fields, models, modules, tools
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.addons.account_peppol.tools.demo_utils import handle_demo
 from odoo.exceptions import UserError
+<<<<<<< HEAD
 from odoo.tools import split_every
+=======
+>>>>>>> upstream/18.0
 
 _logger = logging.getLogger(__name__)
 BATCH_SIZE = 50
@@ -121,8 +124,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "If you have previously registered to an alternative Peppol service, please deregister from that service, "
                 "or request a migration key before trying again. "
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+>>>>>>> upstream/18.0
 =======
                 "If you have previously registered to a Peppol service, please deregister."
 >>>>>>> upstream/18.0
@@ -307,6 +314,12 @@ class AccountEdiProxyClientUser(models.Model):
         return True
 
     def _peppol_get_new_documents(self):
+<<<<<<< HEAD
+=======
+        # Context added to not break stable policy: useful to tweak on databases processing large invoices
+        job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
+        need_retrigger = False
+>>>>>>> upstream/18.0
         params = {
             'domain': {
                 'direction': 'incoming',
@@ -333,6 +346,7 @@ class AccountEdiProxyClientUser(models.Model):
             if not message_uuids:
                 continue
 
+<<<<<<< HEAD
             for uuids in split_every(BATCH_SIZE, message_uuids):
                 proxy_acks = []
                 # retrieve attachments for filtered messages
@@ -409,6 +423,96 @@ class AccountEdiProxyClientUser(models.Model):
                     "/api/peppol/1/ack",
                     params={'message_uuids': uuids},
                 )
+=======
+            need_retrigger = need_retrigger or len(message_uuids) > job_count
+            message_uuids = message_uuids[:job_count]
+
+            proxy_acks = []
+            # retrieve attachments for filtered messages
+            all_messages = edi_user._call_peppol_proxy(
+                "/api/peppol/1/get_document",
+                params={'message_uuids': message_uuids},
+            )
+
+            for uuid, content in all_messages.items():
+                enc_key = content["enc_key"]
+                document_content = content["document"]
+                filename = content["filename"] or 'attachment'  # default to attachment, which should not usually happen
+                decoded_document = edi_user._decrypt_data(document_content, enc_key)
+                attachment = self.env["ir.attachment"].create(
+                    {
+                        "name": f"{filename}.xml",
+                        "raw": decoded_document,
+                        "type": "binary",
+                        "mimetype": "application/xml",
+                    }
+                )
+                if edi_user._peppol_import_invoice(attachment, None, content["state"], uuid):
+                    # Only acknowledge when we saved the document somewhere
+                    proxy_acks.append(uuid)
+
+            if not tools.config['test_enable']:
+                self.env.cr.commit()
+            if proxy_acks:
+                edi_user._call_peppol_proxy(
+                    "/api/peppol/1/ack",
+                    params={'message_uuids': proxy_acks},
+                )
+        if need_retrigger:
+            self.env.ref('account_peppol.ir_cron_peppol_get_new_documents')._trigger()
+
+    def _peppol_get_message_status(self):
+        # Context added to not break stable policy: useful to tweak on databases processing large invoices
+        job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
+        need_retrigger = False
+        for edi_user in self:
+            edi_user_moves = self.env['account.move'].search(
+                [
+                    ('peppol_move_state', '=', 'processing'),
+                    ('company_id', '=', edi_user.company_id.id),
+                ],
+                limit=job_count + 1,
+            )
+            if not edi_user_moves:
+                continue
+
+            need_retrigger = need_retrigger or len(edi_user_moves) > job_count
+            message_uuids = {move.peppol_message_uuid: move for move in edi_user_moves[:job_count]}
+            messages_to_process = edi_user._call_peppol_proxy(
+                "/api/peppol/1/get_document",
+                params={'message_uuids': list(message_uuids.keys())},
+            )
+
+            for uuid, content in messages_to_process.items():
+                if uuid == 'error':
+                    # this rare edge case can happen if the participant is not active on the proxy side
+                    # in this case we can't get information about the invoices
+                    edi_user_moves.peppol_move_state = 'error'
+                    log_message = _("Peppol error: %s", content['message'])
+                    edi_user_moves._message_log_batch(bodies={move.id: log_message for move in edi_user_moves})
+                    break
+
+                move = message_uuids[uuid]
+                if content.get('error'):
+                    # "Peppol request not ready" error:
+                    # thrown when the IAP is still processing the message
+                    if content['error'].get('code') == 702:
+                        continue
+
+                    move.peppol_move_state = 'error'
+                    move._message_log(body=_("Peppol error: %s", content['error'].get('data', {}).get('message') or content['error']['message']))
+                    continue
+
+                move.peppol_move_state = content['state']
+                move._message_log(body=_('Peppol status update: %s', content['state']))
+
+                edi_user._call_peppol_proxy(
+                    "/api/peppol/1/ack",
+                    params={'message_uuids': list(message_uuids.keys())},
+                )
+        if need_retrigger:
+            self.env.ref('account_peppol.ir_cron_peppol_get_message_status')._trigger()
+>>>>>>> upstream/18.0
 
     def _peppol_get_participant_status(self):
         for edi_user in self:

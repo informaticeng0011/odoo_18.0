@@ -22,6 +22,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import account_journal
+from . import account_move
+>>>>>>> upstream/18.0
 =======
 from . import account_journal
 from . import account_move

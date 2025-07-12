@@ -5,10 +5,16 @@
 # Translators:
 # Martin Trigaux, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa_nexterp, 2024
 # Betty Keresztesi, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
@@ -22,7 +28,11 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:02+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -38,7 +48,11 @@ msgstr ""
 #: code:addons/im_livechat/models/chatbot_script_step.py:0
 msgid "\"%s\" is not a valid email."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\"%s\" nu este un email valid."
+>>>>>>> upstream/18.0
 =======
 msgstr "\"%s\" nu este un email valid."
 >>>>>>> upstream/18.0
@@ -52,7 +66,11 @@ msgstr "# Mesaje"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__rating_count
 msgid "# Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări"
+=======
+msgstr "# Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Evaluări"
 >>>>>>> upstream/18.0
@@ -61,7 +79,11 @@ msgstr "# Evaluări"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator__nbr_channel
 msgid "# of Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "nr de sesiuni"
+=======
+msgstr "Nr. de sesiuni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nr. de sesiuni"
 >>>>>>> upstream/18.0
@@ -70,7 +92,11 @@ msgstr "Nr. de sesiuni"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__nbr_speaker
 msgid "# of speakers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# de oratori"
+=======
+msgstr "# de vorbitori"
+>>>>>>> upstream/18.0
 =======
 msgstr "# de vorbitori"
 >>>>>>> upstream/18.0
@@ -79,7 +105,11 @@ msgstr "# de vorbitori"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "% Happy"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "% Fericit"
+=======
+msgstr "% Fericiți"
+>>>>>>> upstream/18.0
 =======
 msgstr "% Fericiți"
 >>>>>>> upstream/18.0
@@ -104,6 +134,10 @@ msgid ""
 "again?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"'%(input_email)s' nu pare a fi un email valid. Puteți încerca din nou?"
+>>>>>>> upstream/18.0
 =======
 "'%(input_email)s' nu pare a fi un email valid. Puteți încerca din nou?"
 >>>>>>> upstream/18.0
@@ -117,18 +151,28 @@ msgid ""
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "* 'Afișează' afișează butonul de chat pe pagini.\n"
 "* 'Afișează cu notificare' este 'Afișează' plus un text plutitor lângă buton.\n"
 "* 'Deschide automat' afișează butonul și deschide automat fereastra de conversație.\n"
 "* 'Ascunde' ascunde butonul de chat pe pagini.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid ", on the"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ", În ziua de "
+=======
+msgstr ", în data de"
+>>>>>>> upstream/18.0
 =======
 msgstr ", în data de"
 >>>>>>> upstream/18.0
@@ -137,7 +181,11 @@ msgstr ", în data de"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__day_number
 msgid "1 is Monday, 7 is Sunday"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 este Luni, 7 este Duminică"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 este Luni, 7 este Duminică"
 >>>>>>> upstream/18.0
@@ -149,6 +197,11 @@ msgid ""
 "ratings\" role=\"img\" aria-label=\"Happy face\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-smile-o text-success\" title=\"Procentaj evaluări "
+"pozitive\" role=\"img\" aria-label=\"Față fericită\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-smile-o text-success\" title=\"Procentaj evaluări "
 "pozitive\" role=\"img\" aria-label=\"Față fericită\"/>"
@@ -163,7 +216,11 @@ msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Înapoi la modul de editare"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "<i title=\"Remove operator\" class=\"fa fa-fw fa-lg fa-close\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Elimină operator\" class=\"fa fa-fw fa-lg fa-close\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Elimină operator\" class=\"fa fa-fw fa-lg fa-close\"/>"
 >>>>>>> upstream/18.0
@@ -172,7 +229,11 @@ msgstr "<i title=\"Elimină operator\" class=\"fa fa-fw fa-lg fa-close\"/>"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_kanban
 msgid "<span class=\"fw-bold\">Country: </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold\">Țară: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold\">Țară: </span>"
 >>>>>>> upstream/18.0
@@ -186,7 +247,11 @@ msgstr "<span style=\"font-size: 10px;\">Conversație Livechat</span><br/>"
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "<span>Best regards,</span><br/><br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Toate Cele Bune,</span><br/><br/>"
+=======
+msgstr "<span>Cu stimă,</span><br/><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Cu stimă,</span><br/><br/>"
 >>>>>>> upstream/18.0
@@ -203,6 +268,11 @@ msgid ""
 "available.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Reamintire: Acest pas va fi executat doar dacă nu este disponibil "
+"niciun operator.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Reamintire: Acest pas va fi executat doar dacă nu este disponibil "
 "niciun operator.</span>"
@@ -215,6 +285,11 @@ msgid ""
 "                    <span>Use Channel Rules if you want the Bot to interact with visitors only when no operator is available.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Sfat: Este necesară cel puțin o interacțiune (Întrebare, Email, ...) înainte ca Bot-ul să poată efectua acțiuni mai complexe (Redirecționare către operator, ...).</span>\n"
+"                    <span>Folosiți Regulile Canalului dacă doriți ca Bot-ul să interacționeze cu vizitatorii doar când nu este disponibil niciun operator.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Sfat: Este necesară cel puțin o interacțiune (Întrebare, Email, ...) înainte ca Bot-ul să poată efectua acțiuni mai complexe (Redirecționare către operator, ...).</span>\n"
 "                    <span>Folosiți Regulile Canalului dacă doriți ca Bot-ul să interacționeze cu vizitatorii doar când nu este disponibil niciun operator.</span>"
@@ -228,6 +303,12 @@ msgid ""
 "...).</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Sfat: Este necesară cel puțin o interacțiune (Întrebare, Email, ...) "
+"înainte ca Bot-ul să poată efectua acțiuni mai complexe (Redirecționare "
+"către operator, ...).</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Sfat: Este necesară cel puțin o interacțiune (Întrebare, Email, ...) "
 "înainte ca Bot-ul să poată efectua acțiuni mai complexe (Redirecționare "
@@ -241,6 +322,11 @@ msgid ""
 "available.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Sfat: Planificați pași suplimentari pentru Bot în cazul în care nu "
+"este disponibil niciun operator.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Sfat: Planificați pași suplimentari pentru Bot în cazul în care nu "
 "este disponibil niciun operator.</span>"
@@ -250,7 +336,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_test_script_page
 msgid "<span>You are currently testing</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Testați în prezent</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Testați în prezent</span>"
 >>>>>>> upstream/18.0
@@ -259,7 +349,11 @@ msgstr "<span>Testați în prezent</span>"
 #: model:ir.model.constraint,message:im_livechat.constraint_chatbot_message__unique_mail_message_id
 msgid "A mail.message can only be linked to a single chatbot message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un mail.message poate fi legat doar de un singur mesaj chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Un mail.message poate fi legat doar de un singur mesaj chatbot"
 >>>>>>> upstream/18.0
@@ -272,7 +366,11 @@ msgid ""
 msgstr ""
 "O sesiune este fără răspuns dacă operatorul nu a răspuns. \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                      Dacă vizitatorul cât și operatorul există, sesiunea va primi întotdeauna răspuns."
+=======
+"                                       Dacă vizitatorul este și operatorul, sesiunea va primi întotdeauna răspuns."
+>>>>>>> upstream/18.0
 =======
 "                                       Dacă vizitatorul este și operatorul, sesiunea va primi întotdeauna răspuns."
 >>>>>>> upstream/18.0
@@ -291,7 +389,11 @@ msgstr "Activ"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Add the following code to the &lt;head&gt; section of your website:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adăugați următorul cod în secțiunea &lt;head&gt; a site-ului dvs.:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adăugați următorul cod în secțiunea &lt;head&gt; a site-ului dvs.:"
 >>>>>>> upstream/18.0
@@ -307,6 +409,10 @@ msgid ""
 "Alternatively, share this URL with your customers or suppliers via email:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativ, partajați acest URL cu clienții sau furnizorii dvs. prin email:"
+>>>>>>> upstream/18.0
 =======
 "Alternativ, partajați acest URL cu clienții sau furnizorii dvs. prin email:"
 >>>>>>> upstream/18.0
@@ -316,7 +422,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "An error occurred. Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A apărut o eroare. Vă rugăm să încercați din nou."
+>>>>>>> upstream/18.0
 =======
 msgstr "A apărut o eroare. Vă rugăm să încercați din nou."
 >>>>>>> upstream/18.0
@@ -325,7 +435,11 @@ msgstr "A apărut o eroare. Vă rugăm să încercați din nou."
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_documentation_redirect
 msgid "And tadaaaa here you go! 🌟"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Și gataaa, poftiți! 🌟"
+>>>>>>> upstream/18.0
 =======
 msgstr "Și gataaa, poftiți! 🌟"
 >>>>>>> upstream/18.0
@@ -334,7 +448,11 @@ msgstr "Și gataaa, poftiți! 🌟"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__anonymous_name
 msgid "Anonymous Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anonim"
+=======
+msgstr "Nume anonim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume anonim"
 >>>>>>> upstream/18.0
@@ -343,7 +461,11 @@ msgstr "Nume anonim"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_answer__name
 msgid "Answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raspuns"
+=======
+msgstr "Răspuns"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns"
 >>>>>>> upstream/18.0
@@ -363,7 +485,11 @@ msgstr "Arhivat"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__are_you_inside
 msgid "Are you inside the matrix?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Te afli în interiorul matricei?"
+=======
+msgstr "Ești în interiorul matricei?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ești în interiorul matricei?"
 >>>>>>> upstream/18.0
@@ -377,7 +503,11 @@ msgstr "Număr atașamente"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__available_operator_ids
 msgid "Available Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operator disponibil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator disponibil"
 >>>>>>> upstream/18.0
@@ -387,7 +517,11 @@ msgstr "Operator disponibil"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__rating_avg
 msgid "Average Rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu"
+=======
+msgstr "Evaluare medie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie"
 >>>>>>> upstream/18.0
@@ -396,7 +530,11 @@ msgstr "Evaluare medie"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__rating_avg_percentage
 msgid "Average Rating (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rating mediu (%)"
+=======
+msgstr "Evaluare medie (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie (%)"
 >>>>>>> upstream/18.0
@@ -406,7 +544,11 @@ msgstr "Evaluare medie (%)"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator__duration
 msgid "Average duration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Durata medie"
+=======
+msgstr "Durată medie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durată medie"
 >>>>>>> upstream/18.0
@@ -420,7 +562,11 @@ msgstr "Mesaj mediu"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator__rating
 msgid "Average rating"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare medie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie"
 >>>>>>> upstream/18.0
@@ -429,7 +575,11 @@ msgstr "Evaluare medie"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator__rating
 msgid "Average rating given by the visitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluare medie acordată de vizitator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluare medie acordată de vizitator"
 >>>>>>> upstream/18.0
@@ -438,7 +588,11 @@ msgstr "Evaluare medie acordată de vizitator"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__time_to_answer
 msgid "Average time in seconds to give the first answer to the visitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp mediu în secunde pentru a da primul răspuns vizitatorului"
+=======
+msgstr "Timp mediu în secunde pentru a oferi primul răspuns vizitatorului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp mediu în secunde pentru a oferi primul răspuns vizitatorului"
 >>>>>>> upstream/18.0
@@ -447,7 +601,11 @@ msgstr "Timp mediu în secunde pentru a oferi primul răspuns vizitatorului"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_operator__time_to_answer
 msgid "Average time to give the first answer to the visitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Timp mediu pentru a da primul răspuns vizitatorului"
+=======
+msgstr "Timp mediu pentru a oferi primul răspuns vizitatorului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Timp mediu pentru a oferi primul răspuns vizitatorului"
 >>>>>>> upstream/18.0
@@ -456,7 +614,11 @@ msgstr "Timp mediu pentru a oferi primul răspuns vizitatorului"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "Bad Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluări negative"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări negative"
 >>>>>>> upstream/18.0
@@ -465,7 +627,11 @@ msgstr "Evaluări negative"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__operator_partner_id
 msgid "Bot Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operator Bot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator Bot"
 >>>>>>> upstream/18.0
@@ -474,7 +640,11 @@ msgstr "Operator Bot"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_background_color
 msgid "Button Background Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Buton Culoare Fundal"
+=======
+msgstr "Culoare fundal buton"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare fundal buton"
 >>>>>>> upstream/18.0
@@ -483,7 +653,11 @@ msgstr "Culoare fundal buton"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_text_color
 msgid "Button Text Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Buton Culoare Text"
+=======
+msgstr "Culoare text buton"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare text buton"
 >>>>>>> upstream/18.0
@@ -510,7 +684,11 @@ msgstr "Canal"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Channel Header Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Culoarea Antet Canal"
+=======
+msgstr "Culoare antet canal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare antet canal"
 >>>>>>> upstream/18.0
@@ -519,7 +697,11 @@ msgstr "Culoare antet canal"
 #: model:ir.model,name:im_livechat.model_discuss_channel_member
 msgid "Channel Member"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Membru Canal"
+=======
+msgstr "Membru canal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Membru canal"
 >>>>>>> upstream/18.0
@@ -534,7 +716,11 @@ msgstr "Nume canal"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Channel Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă Canal"
+=======
+msgstr "Regulă canal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă canal"
 >>>>>>> upstream/18.0
@@ -543,7 +729,11 @@ msgstr "Regulă canal"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Channel Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reguli Canal"
+=======
+msgstr "Reguli canal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli canal"
 >>>>>>> upstream/18.0
@@ -563,7 +753,11 @@ msgstr "Canale"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__input_placeholder
 msgid "Chat Input Placeholder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Text sugestiv chat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text sugestiv chat"
 >>>>>>> upstream/18.0
@@ -576,7 +770,11 @@ msgid ""
 msgstr ""
 "Chatul este privat și unic între 2 persoane. Grupul este privat între "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "persoanele invitate. Canalul poate fi liber accesat (în funcție de "
+=======
+"persoanele invitate. Canalul poate fi accesat liber (în funcție de "
+>>>>>>> upstream/18.0
 =======
 "persoanele invitate. Canalul poate fi accesat liber (în funcție de "
 >>>>>>> upstream/18.0
@@ -590,7 +788,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot"
 >>>>>>> upstream/18.0
@@ -599,7 +801,11 @@ msgstr "Chatbot"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__chatbot_current_step_id
 msgid "Chatbot Current Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pas curent Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pas curent Chatbot"
 >>>>>>> upstream/18.0
@@ -608,7 +814,11 @@ msgstr "Pas curent Chatbot"
 #: model:ir.model,name:im_livechat.model_chatbot_message
 msgid "Chatbot Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mesaj Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj Chatbot"
 >>>>>>> upstream/18.0
@@ -617,7 +827,11 @@ msgstr "Mesaj Chatbot"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__chatbot_message_ids
 msgid "Chatbot Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mesaje Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje Chatbot"
 >>>>>>> upstream/18.0
@@ -626,7 +840,11 @@ msgstr "Mesaje Chatbot"
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid "Chatbot Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume Chatbot"
 >>>>>>> upstream/18.0
@@ -640,7 +858,11 @@ msgstr "Script Chatbot"
 #: model:ir.model,name:im_livechat.model_chatbot_script_answer
 msgid "Chatbot Script Answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Răspuns Script Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns Script Chatbot"
 >>>>>>> upstream/18.0
@@ -654,7 +876,11 @@ msgstr "Pas Script Chatbot"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__script_step_id
 msgid "Chatbot Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pas Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pas Chatbot"
 >>>>>>> upstream/18.0
@@ -664,7 +890,11 @@ msgstr "Pas Chatbot"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Chatbots"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatboți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatboți"
 >>>>>>> upstream/18.0
@@ -674,6 +904,10 @@ msgstr "Chatboți"
 msgid "Choose the live chat channel you want to display on your website."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alegeți canalul de chat live pe care doriți să-l afișați pe site-ul dvs."
+>>>>>>> upstream/18.0
 =======
 "Alegeți canalul de chat live pe care doriți să-l afișați pe site-ul dvs."
 >>>>>>> upstream/18.0
@@ -688,7 +922,11 @@ msgstr "Închide"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Close conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Închidere conversație"
+=======
+msgstr "Închide conversația"
+>>>>>>> upstream/18.0
 =======
 msgstr "Închide conversația"
 >>>>>>> upstream/18.0
@@ -709,7 +947,11 @@ msgstr "Configurare"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Configure Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Configurează canalul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează canalul"
 >>>>>>> upstream/18.0
@@ -718,7 +960,11 @@ msgstr "Configurează canalul"
 #: model:ir.model,name:im_livechat.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -734,7 +980,11 @@ msgstr "Conversație"
 #: code:addons/im_livechat/static/src/embed/common/chatbot/chatbot_service.js:0
 msgid "Conversation ended..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conversația s-a încheiat..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Conversația s-a încheiat..."
 >>>>>>> upstream/18.0
@@ -771,7 +1021,11 @@ msgstr "Țara vizitatorului canalului"
 #: model_terms:ir.actions.act_window,help:im_livechat.chatbot_script_action
 msgid "Create a Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează un Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un Chatbot"
 >>>>>>> upstream/18.0
@@ -780,8 +1034,12 @@ msgstr "Creează un Chatbot"
 #: model_terms:ir.actions.act_window,help:im_livechat.discuss_channel_action
 msgid "Create a channel and start chatting to fill up your history."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Creați un canal și începeți discuțiile pentru a vă completa istoricul."
+=======
+msgstr "Creează un canal și începe să discuți pentru a-ți completa istoricul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un canal și începe să discuți pentru a-ți completa istoricul."
 >>>>>>> upstream/18.0
@@ -805,7 +1063,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -826,7 +1088,11 @@ msgstr "Data creării (ora)"
 #: model:ir.ui.menu,name:im_livechat.rating_rating_menu_livechat
 msgid "Customer Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluări client"
+=======
+msgstr "Evaluări clienți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări clienți"
 >>>>>>> upstream/18.0
@@ -855,7 +1121,11 @@ msgstr "Culoarea de fundal implicită a butonului Livechat"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__header_background_color
 msgid "Default background color of the channel header once open"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odată deschis culoarea de fundal implicită a antetului canalului"
+=======
+msgstr "Culoarea de fundal implicită a antetului canalului după deschidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoarea de fundal implicită a antetului canalului după deschidere"
 >>>>>>> upstream/18.0
@@ -869,7 +1139,11 @@ msgstr "Culoarea implicită a textului butonului Livechat"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_text
 msgid "Default text displayed on the Livechat Support Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Textul afișat implicit pe butonul de asistență Livechat"
+=======
+msgstr "Textul implicit afișat pe butonul de asistență Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Textul implicit afișat pe butonul de asistență Livechat"
 >>>>>>> upstream/18.0
@@ -878,7 +1152,11 @@ msgstr "Textul implicit afișat pe butonul de asistență Livechat"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__title_color
 msgid "Default title color of the channel once open"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Culoarea implicită a titlului canalului odată deschis"
+=======
+msgstr "Culoarea implicită a titlului canalului după deschidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoarea implicită a titlului canalului după deschidere"
 >>>>>>> upstream/18.0
@@ -887,7 +1165,11 @@ msgstr "Culoarea implicită a titlului canalului după deschidere"
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid "Define a new website live chat channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiți un nou canal de livechat pentru site web"
+=======
+msgstr "Definește un nou canal de live chat pentru site"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definește un nou canal de live chat pentru site"
 >>>>>>> upstream/18.0
@@ -901,11 +1183,17 @@ msgid ""
 "taken into account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Definește reguli pentru canalul tău de asistență live. Poți aplica o acțiune"
 " pentru URL-ul dat și pe țară.<br/>Pentru a identifica țara, GeoIP trebuie "
 "să fie instalat pe serverul tău, altfel țările din regulă nu vor fi luate în"
 " considerare."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -916,6 +1204,12 @@ msgid ""
 "not be taken into account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Întârziere (în secunde) pentru deschiderea automată a ferestrei de "
+"conversație. Notă: acțiunea selectată trebuie să fie 'Deschide automat', "
+"altfel acest parametru nu va fi luat în considerare."
+>>>>>>> upstream/18.0
 =======
 "Întârziere (în secunde) pentru deschiderea automată a ferestrei de "
 "conversație. Notă: acțiunea selectată trebuie să fie 'Deschide automat', "
@@ -927,7 +1221,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Did we correctly answer your question?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Am răspuns corect la întrebarea dvs.?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Am răspuns corect la întrebarea dvs.?"
 >>>>>>> upstream/18.0
@@ -942,7 +1240,11 @@ msgstr "Rezumat"
 #: code:addons/im_livechat/static/src/views/livechat_view_controller_mixin.js:0
 msgid "Discuss"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesagerie"
+=======
+msgstr "Discuție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Discuție"
 >>>>>>> upstream/18.0
@@ -952,7 +1254,11 @@ msgstr "Discuție"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__discuss_channel_id
 msgid "Discussion Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Canal de Discuții"
+=======
+msgstr "Canal de discuții"
+>>>>>>> upstream/18.0
 =======
 msgstr "Canal de discuții"
 >>>>>>> upstream/18.0
@@ -974,7 +1280,11 @@ msgstr "Nume afișat"
 #: code:addons/im_livechat/static/src/embed/common/livechat_button.xml:0
 msgid "Drag to Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trage pentru a muta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trage pentru a muta"
 >>>>>>> upstream/18.0
@@ -989,7 +1299,11 @@ msgstr "Durată"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_pivot
 msgid "Duration of Session (min)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durata sesiunii (min)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durata sesiunii (min)"
 >>>>>>> upstream/18.0
@@ -1004,7 +1318,11 @@ msgstr "Durata conversației (în secunde)"
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__duration
 msgid "Duration of the session in hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Durata sesiunii în ore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Durata sesiunii în ore"
 >>>>>>> upstream/18.0
@@ -1018,7 +1336,11 @@ msgstr "Durată:"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__question_email
 msgid "Email"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail"
+=======
+msgstr "Email"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email"
 >>>>>>> upstream/18.0
@@ -1027,7 +1349,11 @@ msgstr "Email"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__chatbot_only_if_no_operator
 msgid "Enable the bot only if there is no operator available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează botul doar dacă nu există operator disponibil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează botul doar dacă nu există operator disponibil"
 >>>>>>> upstream/18.0
@@ -1037,7 +1363,11 @@ msgstr "Activează botul doar dacă nu există operator disponibil"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Enabled only if no operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activ doar dacă nu există operator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activ doar dacă nu există operator"
 >>>>>>> upstream/18.0
@@ -1047,7 +1377,11 @@ msgstr "Activ doar dacă nu există operator"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Explain your note"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Explicați-vă nota"
+=======
+msgstr "Explicați nota dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Explicați nota dvs."
 >>>>>>> upstream/18.0
@@ -1056,7 +1390,11 @@ msgstr "Explicați nota dvs."
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR OTHER WEBSITES"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PENTRU ALTE SITE-URI"
+>>>>>>> upstream/18.0
 =======
 msgstr "PENTRU ALTE SITE-URI"
 >>>>>>> upstream/18.0
@@ -1065,7 +1403,11 @@ msgstr "PENTRU ALTE SITE-URI"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR WEBSITES BUILT WITH ODOO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PENTRU SITE-URI CONSTRUITE CU ODOO"
+>>>>>>> upstream/18.0
 =======
 msgstr "PENTRU SITE-URI CONSTRUITE CU ODOO"
 >>>>>>> upstream/18.0
@@ -1074,7 +1416,11 @@ msgstr "PENTRU SITE-URI CONSTRUITE CU ODOO"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script__first_step_warning__first_step_invalid
 msgid "First Step Invalid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primul pas invalid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primul pas invalid"
 >>>>>>> upstream/18.0
@@ -1083,7 +1429,11 @@ msgstr "Primul pas invalid"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script__first_step_warning__first_step_operator
 msgid "First Step Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primul pas operator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primul pas operator"
 >>>>>>> upstream/18.0
@@ -1092,7 +1442,11 @@ msgstr "Primul pas operator"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__first_step_warning
 msgid "First Step Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avertisment prim pas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment prim pas"
 >>>>>>> upstream/18.0
@@ -1111,7 +1465,11 @@ msgstr "Urmăritori (Parteneri)"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__forward_operator
 msgid "Forward to Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Redirecționați către operator"
+=======
+msgstr "Redirecționează către operator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redirecționează către operator"
 >>>>>>> upstream/18.0
@@ -1120,7 +1478,11 @@ msgstr "Redirecționează către operator"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__free_input_single
 msgid "Free Input"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Răspuns liber"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns liber"
 >>>>>>> upstream/18.0
@@ -1129,7 +1491,11 @@ msgstr "Răspuns liber"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__free_input_multi
 msgid "Free Input (Multi-Line)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Răspuns liber (pe mai multe linii)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns liber (pe mai multe linii)"
 >>>>>>> upstream/18.0
@@ -1141,9 +1507,14 @@ msgid ""
 "given url/country, the one with the lowest sequence will be chosen."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Având în vedere comanda de a găsi o regulă de potrivire. Dacă 2 reguli se "
 "potrivesc pentru URL-ul / țara dată, se va alege cea cu secvența cea mai "
 "mică."
+=======
+"Stabilește ordinea pentru a găsi o regulă potrivită. Dacă două reguli se "
+"potrivesc pentru url/țara dată, se va alege cea cu secvența cea mai mică."
+>>>>>>> upstream/18.0
 =======
 "Stabilește ordinea pentru a găsi o regulă potrivită. Dacă două reguli se "
 "potrivesc pentru url/țara dată, se va alege cea cu secvența cea mai mică."
@@ -1157,6 +1528,12 @@ msgid ""
 "<strong>Marketing.</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Mergeți la <strong>Website</strong> &gt; <strong>Configurare</strong> &gt; "
+"<strong>Setări</strong> &gt; <strong>Email</strong> &amp; "
+"<strong>Marketing.</strong>"
+>>>>>>> upstream/18.0
 =======
 "Mergeți la <strong>Website</strong> &gt; <strong>Configurare</strong> &gt; "
 "<strong>Setări</strong> &gt; <strong>Email</strong> &amp; "
@@ -1167,7 +1544,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "Good Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluări pozitive"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări pozitive"
 >>>>>>> upstream/18.0
@@ -1188,7 +1569,11 @@ msgstr "Are mesaj"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__has_access_livechat
 msgid "Has access to Livechat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Are acces la Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Are acces la Livechat"
 >>>>>>> upstream/18.0
@@ -1199,7 +1584,11 @@ msgstr "Are acces la Livechat"
 #: model:im_livechat.channel,button_text:im_livechat.im_livechat_channel_data
 msgid "Have a Question? Chat with us."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aveți o întrebare? Discutați cu noi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aveți o întrebare? Discutați cu noi."
 >>>>>>> upstream/18.0
@@ -1208,7 +1597,11 @@ msgstr "Aveți o întrebare? Discutați cu noi."
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__header_background_color
 msgid "Header Background Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Culoare Fundal Antet"
+=======
+msgstr "Culoare fundal antet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare fundal antet"
 >>>>>>> upstream/18.0
@@ -1217,7 +1610,11 @@ msgstr "Culoare fundal antet"
 #: model:im_livechat.channel,default_message:im_livechat.im_livechat_channel_data
 msgid "Hello, how may I help you?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bună, cu ce vă pot ajuta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bună, cu ce vă pot ajuta?"
 >>>>>>> upstream/18.0
@@ -1239,6 +1636,11 @@ msgid ""
 "Hmmm, let me check if I can find someone that could help you with that..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hmm, lăsați-mă să verific dacă pot găsi pe cineva care să vă ajute cu "
+"asta..."
+>>>>>>> upstream/18.0
 =======
 "Hmm, lăsați-mă să verific dacă pot găsi pe cineva care să vă ajute cu "
 "asta..."
@@ -1248,7 +1650,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__start_date_hour
 msgid "Hour of start Date of session"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ora de începere a sesiunii"
+=======
+msgstr "Ora de început a sesiunii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ora de început a sesiunii"
 >>>>>>> upstream/18.0
@@ -1258,7 +1664,11 @@ msgstr "Ora de început a sesiunii"
 #: code:addons/im_livechat/models/im_livechat_channel.py:0
 msgid "How may I help you?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cum vă pot ajuta?"
+=======
+msgstr "Cu ce vă pot ajuta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu ce vă pot ajuta?"
 >>>>>>> upstream/18.0
@@ -1267,7 +1677,12 @@ msgstr "Cu ce vă pot ajuta?"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_pricing_noone_available
 msgid "Hu-ho, it looks like none of our operators are available 🙁"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Se pare că niciunul dintre operatorii noștri nu este disponibil 🙁"
+=======
+msgstr ""
+"Ups, se pare că niciunul dintre operatorii noștri nu este disponibil 🙁"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Ups, se pare că niciunul dintre operatorii noștri nu este disponibil 🙁"
@@ -1277,7 +1692,11 @@ msgstr ""
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_just_looking
 msgid "I am just looking around"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar mă uit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar mă uit"
 >>>>>>> upstream/18.0
@@ -1286,7 +1705,11 @@ msgstr "Doar mă uit"
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_documentation
 msgid "I am looking for your documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caut documentația dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Caut documentația dvs."
 >>>>>>> upstream/18.0
@@ -1295,7 +1718,11 @@ msgstr "Caut documentația dvs."
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_pricing
 msgid "I have a pricing question"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Am o întrebare despre prețuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Am o întrebare despre prețuri"
 >>>>>>> upstream/18.0
@@ -1316,7 +1743,11 @@ msgstr "ID"
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 >>>>>>> upstream/18.0
@@ -1326,7 +1757,11 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -1335,7 +1770,11 @@ msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_documentation_exit
 msgid "If you need anything else, feel free to get back in touch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dacă mai aveți nevoie de ceva, nu ezitați să reveniți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă mai aveți nevoie de ceva, nu ezitați să reveniți"
 >>>>>>> upstream/18.0
@@ -1375,7 +1814,11 @@ msgstr "Este urmăritor"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_step__is_forward_operator_child
 msgid "Is Forward Operator Child"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este copil al operatorului de redirecționare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este copil al operatorului de redirecționare"
 >>>>>>> upstream/18.0
@@ -1384,7 +1827,11 @@ msgstr "Este copil al operatorului de redirecționare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_active
 msgid "Is livechat ongoing?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Livechat-ul este în desfășurare?"
+=======
+msgstr "Este sesiunea livechat în desfășurare?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este sesiunea livechat în desfășurare?"
 >>>>>>> upstream/18.0
@@ -1393,7 +1840,11 @@ msgstr "Este sesiunea livechat în desfășurare?"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__is_anonymous
 msgid "Is visitor anonymous"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este anonim vizitatorul"
+=======
+msgstr "Vizitator anonim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizitator anonim"
 >>>>>>> upstream/18.0
@@ -1402,7 +1853,11 @@ msgstr "Vizitator anonim"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Join"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aderă"
+=======
+msgstr "Alătură-te"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alătură-te"
 >>>>>>> upstream/18.0
@@ -1412,7 +1867,11 @@ msgstr "Alătură-te"
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "Join %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alătură-te la %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alătură-te la %s"
 >>>>>>> upstream/18.0
@@ -1421,7 +1880,11 @@ msgstr "Alătură-te la %s"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Join Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aderă la canal"
+=======
+msgstr "Alătură-te canalului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alătură-te canalului"
 >>>>>>> upstream/18.0
@@ -1430,7 +1893,11 @@ msgstr "Alătură-te canalului"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_conversations_value
 msgid "Kpi Livechat Conversations Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea conversațiilor Live Chat Kpi"
+=======
+msgstr "Valoare conversații Livechat KPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare conversații Livechat KPI"
 >>>>>>> upstream/18.0
@@ -1439,7 +1906,11 @@ msgstr "Valoare conversații Livechat KPI"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_rating_value
 msgid "Kpi Livechat Rating Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea Kpi Livechat Rating"
+=======
+msgstr "Valoare evaluare Livechat KPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare evaluare Livechat KPI"
 >>>>>>> upstream/18.0
@@ -1448,7 +1919,11 @@ msgstr "Valoare evaluare Livechat KPI"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_response_value
 msgid "Kpi Livechat Response Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoarea de răspuns la Kpi Live Chat"
+=======
+msgstr "Valoare răspuns Livechat KPI"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare răspuns Livechat KPI"
 >>>>>>> upstream/18.0
@@ -1465,7 +1940,11 @@ msgstr "Limbă"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Last 24h"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultimile 24ore"
+=======
+msgstr "Ultimele 24h"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimele 24h"
 >>>>>>> upstream/18.0
@@ -1479,7 +1958,11 @@ msgstr "Ultimele 24h"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -1493,7 +1976,11 @@ msgstr "Ultima actualizare de către"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -1505,6 +1992,11 @@ msgid ""
 "with visitors in a few easy steps."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aflați cum să afișați o bulă de chat live pe site-ul dvs. și să începeți să "
+"discutați cu vizitatorii în câțiva pași simpli."
+>>>>>>> upstream/18.0
 =======
 "Aflați cum să afișați o bulă de chat live pe site-ul dvs. și să începeți să "
 "discutați cu vizitatorii în câțiva pași simpli."
@@ -1520,7 +2012,11 @@ msgstr "Părăsește"
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "Leave %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Părăsește %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Părăsește %s"
 >>>>>>> upstream/18.0
@@ -1541,7 +2037,11 @@ msgstr "Live Chat"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__action
 msgid "Live Chat Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Butonul Live Chat"
+=======
+msgstr "Buton Live Chat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buton Live Chat"
 >>>>>>> upstream/18.0
@@ -1550,7 +2050,11 @@ msgstr "Buton Live Chat"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_search
 msgid "LiveChat Channel Search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Canal LiveChat"
+=======
+msgstr "Căutare canal LiveChat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare canal LiveChat"
 >>>>>>> upstream/18.0
@@ -1573,7 +2077,11 @@ msgstr "Buton Livechat"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Livechat Button Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Culoare Buton Livechat"
+=======
+msgstr "Culoare buton Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare buton Livechat"
 >>>>>>> upstream/18.0
@@ -1588,7 +2096,11 @@ msgstr "Canal Livechat"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__livechat_channel_count
 msgid "Livechat Channel Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr canale Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr canale Livechat"
 >>>>>>> upstream/18.0
@@ -1597,7 +2109,11 @@ msgstr "Număr canale Livechat"
 #: model:ir.model,name:im_livechat.model_im_livechat_channel_rule
 msgid "Livechat Channel Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reguli Canal Livechat"
+=======
+msgstr "Reguli canal Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli canal Livechat"
 >>>>>>> upstream/18.0
@@ -1606,7 +2122,11 @@ msgstr "Reguli canal Livechat"
 #: model:ir.model.fields.selection,name:im_livechat.selection__discuss_channel__channel_type__livechat
 msgid "Livechat Conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conversație LiveChat"
+=======
+msgstr "Conversație Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conversație Livechat"
 >>>>>>> upstream/18.0
@@ -1615,7 +2135,11 @@ msgstr "Conversație Livechat"
 #: model_terms:ir.ui.view,arch_db:im_livechat.unit_embed_suite
 msgid "Livechat External Tests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Teste externe Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Teste externe Livechat"
 >>>>>>> upstream/18.0
@@ -1624,7 +2148,11 @@ msgstr "Teste externe Livechat"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__livechat_lang_ids
 msgid "Livechat Languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limbi Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limbi Livechat"
 >>>>>>> upstream/18.0
@@ -1633,7 +2161,12 @@ msgstr "Limbi Livechat"
 #: model:ir.model.constraint,message:im_livechat.constraint_discuss_channel_livechat_operator_id
 msgid "Livechat Operator ID is required for a channel of type livechat."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID-ul Operator Livechat este necesar pentru un canal de tip livechat."
+=======
+msgstr ""
+"ID-ul operatorului Livechat este necesar pentru un canal de tip livechat."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ID-ul operatorului Livechat este necesar pentru un canal de tip livechat."
@@ -1643,7 +2176,11 @@ msgstr ""
 #: model:ir.model,name:im_livechat.model_im_livechat_report_channel
 msgid "Livechat Support Channel Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport Canal Asistență Livechat"
+=======
+msgstr "Raport canal suport Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport canal suport Livechat"
 >>>>>>> upstream/18.0
@@ -1657,18 +2194,28 @@ msgid ""
 "missed sessions, the audience, the duration of a session, etc."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Statisticile canalului de suport Livechat vă permit să verificați și să "
 "analizați cu ușurință performanța sesiunilor de livechat ale companiei dvs. "
 "Extrageți informații despre sesiunile ratate, audiență, durata unei sesiuni "
 "etc."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_im_livechat_report_operator
 msgid "Livechat Support Operator Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport Asistență Operator Livechat"
+=======
+msgstr "Raport operator suport Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport operator suport Livechat"
 >>>>>>> upstream/18.0
@@ -1680,7 +2227,11 @@ msgstr "Raport operator suport Livechat"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_pivot
 msgid "Livechat Support Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistici Asistență Livechat"
+=======
+msgstr "Statistici suport Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici suport Livechat"
 >>>>>>> upstream/18.0
@@ -1700,7 +2251,11 @@ msgstr "Fereastră Livechat"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users_settings__livechat_lang_ids
 msgid "Livechat languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limbi Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limbi Livechat"
 >>>>>>> upstream/18.0
@@ -1710,6 +2265,10 @@ msgstr "Limbi Livechat"
 msgid "Livechat session is active until visitor leaves the conversation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sesiunea livechat este activă până când vizitatorul părăsește conversația."
+>>>>>>> upstream/18.0
 =======
 "Sesiunea livechat este activă până când vizitatorul părăsește conversația."
 >>>>>>> upstream/18.0
@@ -1718,7 +2277,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__sequence
 msgid "Matching order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ordine Reconciliere"
+=======
+msgstr "Ordine potrivire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ordine potrivire"
 >>>>>>> upstream/18.0
@@ -1733,7 +2296,11 @@ msgstr "Mesaj"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare livrare mesaj"
 >>>>>>> upstream/18.0
@@ -1748,7 +2315,11 @@ msgstr "Mesaje"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_pivot
 msgid "Messages per session"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mesaje pe sesiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje pe sesiune"
 >>>>>>> upstream/18.0
@@ -1762,7 +2333,11 @@ msgstr "Sesiuni ratate"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "My Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sesiunile Mele"
+=======
+msgstr "Sesiunile mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesiunile mele"
 >>>>>>> upstream/18.0
@@ -1778,7 +2353,11 @@ msgstr "Nume"
 #: code:addons/im_livechat/static/src/embed/common/livechat_service.js:0
 msgid "No available collaborator, please try again later."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există colaboratori disponibili, vă rugăm să încercați mai târziu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există colaboratori disponibili, vă rugăm să încercați mai târziu."
 >>>>>>> upstream/18.0
@@ -1803,7 +2382,11 @@ msgstr "Nu a fost găsit istoric"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Notification text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Text notificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text notificare"
 >>>>>>> upstream/18.0
@@ -1817,7 +2400,11 @@ msgstr "Număr de acțiuni"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__chatbot_script_count
 msgid "Number of Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr de Chatboți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de Chatboți"
 >>>>>>> upstream/18.0
@@ -1826,7 +2413,11 @@ msgstr "Număr de Chatboți"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__nbr_channel
 msgid "Number of conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de conversații"
+=======
+msgstr "Număr de conversații"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de conversații"
 >>>>>>> upstream/18.0
@@ -1840,7 +2431,11 @@ msgstr "Număr de zile de la prima sesiune a operatorului"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__nbr_speaker
 msgid "Number of different speakers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr de vorbitori diferiți"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de vorbitori diferiți"
 >>>>>>> upstream/18.0
@@ -1875,7 +2470,11 @@ msgstr "Odoo"
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
 msgid "Online Chat Language"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Limba chat online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Limba chat online"
 >>>>>>> upstream/18.0
@@ -1885,7 +2484,11 @@ msgstr "Limba chat online"
 #: model_terms:ir.ui.view,arch_db:im_livechat.res_users_form_view_simple_modif
 msgid "Online Chat Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Chat Online"
+=======
+msgstr "Nume chat online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume chat online"
 >>>>>>> upstream/18.0
@@ -1894,7 +2497,11 @@ msgstr "Nume chat online"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_step__triggering_answer_ids
 msgid "Only If"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numai dacă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numai dacă"
 >>>>>>> upstream/18.0
@@ -1903,7 +2510,11 @@ msgstr "Numai dacă"
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__auto_popup
 msgid "Open automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deschide automat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deschide automat"
 >>>>>>> upstream/18.0
@@ -1912,7 +2523,11 @@ msgstr "Deschide automat"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__auto_popup_timer
 msgid "Open automatically timer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Deschide automat cronometrul"
+=======
+msgstr "Cronometru deschidere automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cronometru deschidere automată"
 >>>>>>> upstream/18.0
@@ -1931,7 +2546,11 @@ msgstr "Operator"
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_operator
 msgid "Operator Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analiză Operator"
+=======
+msgstr "Analiză operator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză operator"
 >>>>>>> upstream/18.0
@@ -1956,7 +2575,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid "Optional Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link opțional"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link opțional"
 >>>>>>> upstream/18.0
@@ -1971,7 +2594,11 @@ msgstr "Opțiuni"
 #: model:ir.model.fields,field_description:im_livechat.field_mail_message__parent_author_name
 msgid "Parent Author Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume autor părinte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume autor părinte"
 >>>>>>> upstream/18.0
@@ -1981,7 +2608,11 @@ msgstr "Nume autor părinte"
 #: model:ir.model.fields,field_description:im_livechat.field_mail_message__parent_body
 msgid "Parent Body"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conținut părinte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut părinte"
 >>>>>>> upstream/18.0
@@ -2012,7 +2643,11 @@ msgstr "Telefon"
 #: code:addons/im_livechat/models/chatbot_script_step.py:0
 msgid "Please call me on: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rog să mă sunați la: "
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă rog să mă sunați la: "
 >>>>>>> upstream/18.0
@@ -2022,7 +2657,11 @@ msgstr "Vă rog să mă sunați la: "
 #: code:addons/im_livechat/models/chatbot_script_step.py:0
 msgid "Please contact me on: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rog să mă contactați la: "
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă rog să mă contactați la: "
 >>>>>>> upstream/18.0
@@ -2031,7 +2670,11 @@ msgstr "Vă rog să mă contactați la: "
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_just_looking
 msgid "Please do! If there is anything we can help with, let us know"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vă rugăm, dacă vă putem ajuta cu ceva, anunțați-ne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă rugăm, dacă vă putem ajuta cu ceva, anunțați-ne"
 >>>>>>> upstream/18.0
@@ -2060,7 +2703,11 @@ msgstr "Evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_avg_text
 msgid "Rating Avg Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Textul mediu al evaluării"
+=======
+msgstr "Text mediu evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text mediu evaluare"
 >>>>>>> upstream/18.0
@@ -2069,7 +2716,11 @@ msgstr "Text mediu evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_last_feedback
 msgid "Rating Last Feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare Ultimul feedback"
+=======
+msgstr "Ultimul feedback evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultimul feedback evaluare"
 >>>>>>> upstream/18.0
@@ -2078,7 +2729,11 @@ msgstr "Ultimul feedback evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_last_image
 msgid "Rating Last Image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima imagine"
+=======
+msgstr "Ultima imagine evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima imagine evaluare"
 >>>>>>> upstream/18.0
@@ -2087,7 +2742,11 @@ msgstr "Ultima imagine evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_last_value
 msgid "Rating Last Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare ultima valoare"
+=======
+msgstr "Ultima valoare evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima valoare evaluare"
 >>>>>>> upstream/18.0
@@ -2097,7 +2756,11 @@ msgstr "Ultima valoare evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__rating_percentage_satisfaction
 msgid "Rating Satisfaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare satisfacție"
+=======
+msgstr "Satisfacție evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Satisfacție evaluare"
 >>>>>>> upstream/18.0
@@ -2106,7 +2769,11 @@ msgstr "Satisfacție evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_last_text
 msgid "Rating Text"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare text"
+=======
+msgstr "Text evaluare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text evaluare"
 >>>>>>> upstream/18.0
@@ -2115,7 +2782,11 @@ msgstr "Text evaluare"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__rating_count
 msgid "Rating count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de evaluări"
+=======
+msgstr "Număr evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr evaluări"
 >>>>>>> upstream/18.0
@@ -2126,7 +2797,11 @@ msgstr "Număr evaluări"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -2141,7 +2816,11 @@ msgstr "Evaluări pentru canalul livechat"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "Receive a copy of this conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primește o copie a acestei conversații."
+>>>>>>> upstream/18.0
 =======
 msgstr "Primește o copie a acestei conversații."
 >>>>>>> upstream/18.0
@@ -2157,7 +2836,12 @@ msgid ""
 "Regular expression specifying the web pages this rule will be applied on."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Expresie regulată care specifică paginile web această regulă va fi aplicată."
+=======
+"Expresie regulată care specifică paginile web pe care se va aplica această "
+"regulă."
+>>>>>>> upstream/18.0
 =======
 "Expresie regulată care specifică paginile web pe care se va aplica această "
 "regulă."
@@ -2167,7 +2851,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__mail_message_id
 msgid "Related Mail Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mesaj email asociat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj email asociat"
 >>>>>>> upstream/18.0
@@ -2182,7 +2870,11 @@ msgstr "Raport"
 #: code:addons/im_livechat/static/src/js/colors_reset_button/colors_reset_button.xml:0
 msgid "Reset to default colors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resetare la culori implicite"
+=======
+msgstr "Resetează la culorile implicite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resetează la culorile implicite"
 >>>>>>> upstream/18.0
@@ -2192,7 +2884,11 @@ msgstr "Resetează la culorile implicite"
 #: code:addons/im_livechat/static/src/embed/common/thread_actions.js:0
 msgid "Restart Conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Repornește conversația"
+>>>>>>> upstream/18.0
 =======
 msgstr "Repornește conversația"
 >>>>>>> upstream/18.0
@@ -2202,7 +2898,11 @@ msgstr "Repornește conversația"
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid "Restarting conversation..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se repornește conversația..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Se repornește conversația..."
 >>>>>>> upstream/18.0
@@ -2222,7 +2922,11 @@ msgstr "Eroare livrare SMS"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__rating_text
 msgid "Satisfaction Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rată Satisfacție"
+=======
+msgstr "Rată satisfacție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rată satisfacție"
 >>>>>>> upstream/18.0
@@ -2231,7 +2935,11 @@ msgstr "Rată satisfacție"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Save your Channel to get your configuration widget."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Salvați-vă canalul pentru a obține widgetul de configurare."
+=======
+msgstr "Salvați canalul pentru a obține widgetul de configurare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvați canalul pentru a obține widgetul de configurare."
 >>>>>>> upstream/18.0
@@ -2247,7 +2955,11 @@ msgstr "Spune ceva"
 #: code:addons/im_livechat/static/src/embed/common/composer_patch.js:0
 msgid "Say something..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Scrie ceva..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Scrie ceva..."
 >>>>>>> upstream/18.0
@@ -2266,7 +2978,11 @@ msgstr "Script (extern)"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_answer__script_step_id
 msgid "Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pas Script"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pas Script"
 >>>>>>> upstream/18.0
@@ -2275,7 +2991,11 @@ msgstr "Pas Script"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__script_step_ids
 msgid "Script Steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pași Script"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pași Script"
 >>>>>>> upstream/18.0
@@ -2284,7 +3004,11 @@ msgstr "Pași Script"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "Search history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutați în istoric"
+=======
+msgstr "Caută în istoric"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută în istoric"
 >>>>>>> upstream/18.0
@@ -2300,7 +3024,11 @@ msgstr "Caută raport"
 #: code:addons/im_livechat/static/src/core/web/channel_commands_patch.js:0
 msgid "See 15 last visited pages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare Ultimele 15 paginini Vizitate"
+=======
+msgstr "Vezi ultimele 15 pagini vizitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi ultimele 15 pagini vizitate"
 >>>>>>> upstream/18.0
@@ -2310,7 +3038,11 @@ msgstr "Vezi ultimele 15 pagini vizitate"
 #: code:addons/im_livechat/static/src/embed/common/chatbot/chatbot_service.js:0
 msgid "Select an option above"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați o opțiune de mai sus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați o opțiune de mai sus"
 >>>>>>> upstream/18.0
@@ -2338,7 +3070,11 @@ msgstr "Dată sesiune"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_form
 msgid "Session Form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Formular Sesiune"
+=======
+msgstr "Formular sesiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Formular sesiune"
 >>>>>>> upstream/18.0
@@ -2349,7 +3085,11 @@ msgstr "Formular sesiune"
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_channel
 msgid "Session Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistici Sesiune"
+=======
+msgstr "Statistici sesiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici sesiune"
 >>>>>>> upstream/18.0
@@ -2358,7 +3098,11 @@ msgstr "Statistici sesiune"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__is_unrated
 msgid "Session not rated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sesiunea nu a fost evaluată"
+=======
+msgstr "Sesiune neevaluată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesiune neevaluată"
 >>>>>>> upstream/18.0
@@ -2380,7 +3124,11 @@ msgstr "Sesiuni"
 #: model:ir.ui.menu,name:im_livechat.session_history
 msgid "Sessions History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoric sesiune"
+=======
+msgstr "Istoric sesiuni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric sesiuni"
 >>>>>>> upstream/18.0
@@ -2395,6 +3143,10 @@ msgstr "Afișează"
 msgid "Show this step only if all of these answers have been selected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Afișează acest pas doar dacă toate aceste răspunsuri au fost selectate."
+>>>>>>> upstream/18.0
 =======
 "Afișează acest pas doar dacă toate aceste răspunsuri au fost selectate."
 >>>>>>> upstream/18.0
@@ -2403,7 +3155,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__display_button_and_text
 msgid "Show with notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afișează cu notificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează cu notificare"
 >>>>>>> upstream/18.0
@@ -2434,7 +3190,11 @@ msgstr "Tip pas"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 msgid "Step of type 'Question' must have answers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Un pas de tip 'Întrebare' trebuie să aibă răspunsuri."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un pas de tip 'Întrebare' trebuie să aibă răspunsuri."
 >>>>>>> upstream/18.0
@@ -2445,7 +3205,11 @@ msgstr "Un pas de tip 'Întrebare' trebuie să aibă răspunsuri."
 #: code:addons/im_livechat/static/src/core/web/composer_patch.xml:0
 msgid "Tab to next livechat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tab la următorul livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tab la următorul livechat"
 >>>>>>> upstream/18.0
@@ -2459,7 +3223,11 @@ msgstr "Text"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_text
 msgid "Text of the Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Text de pe buton"
+=======
+msgstr "Text buton"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text buton"
 >>>>>>> upstream/18.0
@@ -2468,7 +3236,11 @@ msgstr "Text buton"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__input_placeholder
 msgid "Text that prompts the user to initiate the chat."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Text care solicită utilizatorului să inițieze chat-ul."
+=======
+msgstr "Text care invită utilizatorul să inițieze chat-ul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Text care invită utilizatorul să inițieze chat-ul."
 >>>>>>> upstream/18.0
@@ -2477,7 +3249,11 @@ msgstr "Text care invită utilizatorul să inițieze chat-ul."
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Text to display on the notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Text de afișat pe notificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text de afișat pe notificare"
 >>>>>>> upstream/18.0
@@ -2487,7 +3263,11 @@ msgstr "Text de afișat pe notificare"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Thank you for your feedback"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mulțumim pentru feedback-ul dvs."
+=======
+msgstr "Vă mulțumim pentru feedback"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vă mulțumim pentru feedback"
 >>>>>>> upstream/18.0
@@ -2502,7 +3282,11 @@ msgstr "Canalul regulii"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "The conversation was sent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conversația a fost trimisă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Conversația a fost trimisă."
 >>>>>>> upstream/18.0
@@ -2516,18 +3300,28 @@ msgid ""
 " these 2 countries. This feature requires GeoIP installed on your server."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Regula va fi aplicată doar pentru aceste țări. Exemplu: dacă selectați "
 "'Belgia' și 'Statele Unite' și setați acțiunea pe 'Ascunde', butonul de chat"
 " va fi ascuns pe URL-ul specificat pentru vizitatorii din aceste 2 țări. "
 "Această funcționalitate necesită GeoIP instalat pe serverul dvs."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:res.groups,comment:im_livechat.im_livechat_group_manager
 msgid "The user will be able to delete support channels."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizatorul va putea șterge canalele de asistență."
+=======
+msgstr "Utilizatorul va putea șterge canalele de suport."
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizatorul va putea șterge canalele de suport."
 >>>>>>> upstream/18.0
@@ -2536,7 +3330,11 @@ msgstr "Utilizatorul va putea șterge canalele de suport."
 #: model:res.groups,comment:im_livechat.im_livechat_group_user
 msgid "The user will be able to join support channels."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Utilizatorul se va putea alătura canalelor de asistență."
+=======
+msgstr "Utilizatorul va putea să se alăture canalelor de suport."
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizatorul va putea să se alăture canalelor de suport."
 >>>>>>> upstream/18.0
@@ -2548,6 +3346,11 @@ msgid ""
 "that the script will end if the link is external to the livechat website)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vizitatorul va fi redirecționat către acest link la selectarea opțiunii "
+"(atenție: scriptul se va opri dacă linkul este extern site-ului livechat)."
+>>>>>>> upstream/18.0
 =======
 "Vizitatorul va fi redirecționat către acest link la selectarea opțiunii "
 "(atenție: scriptul se va opri dacă linkul este extern site-ului livechat)."
@@ -2557,7 +3360,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:im_livechat.rating_rating_action_livechat
 msgid "There is no rating for this channel at the moment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Momentan nu există o evaluare pentru acest canal"
+=======
+msgstr "Nu există nicio evaluare pentru acest canal momentan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există nicio evaluare pentru acest canal momentan"
 >>>>>>> upstream/18.0
@@ -2569,6 +3376,11 @@ msgid ""
 "you to Live Chat sessions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aceste limbi, pe lângă limba principală, vor fi folosite pentru a vă atribui"
+" sesiuni de Live Chat."
+>>>>>>> upstream/18.0
 =======
 "Aceste limbi, pe lângă limba principală, vor fi folosite pentru a vă atribui"
 " sesiuni de Live Chat."
@@ -2585,7 +3397,11 @@ msgstr "Luna aceasta"
 #: model_terms:ir.ui.view,arch_db:im_livechat.rating_rating_view_search_livechat
 msgid "This Week"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Săpt. curentă"
+=======
+msgstr "Săptămâna aceasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Săptămâna aceasta"
 >>>>>>> upstream/18.0
@@ -2597,8 +3413,13 @@ msgid ""
 "initiate a new conversation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acesta este un mesaj automat de „bun venit” pe care îl va vedea vizitatorul "
 "dvs. atunci când inițiază o nouă conversație."
+=======
+"Acesta este un mesaj automat de „bun venit” pe care vizitatorul îl va vedea "
+"când inițiază o nouă conversație."
+>>>>>>> upstream/18.0
 =======
 "Acesta este un mesaj automat de „bun venit” pe care vizitatorul îl va vedea "
 "când inițiază o nouă conversație."
@@ -2625,7 +3446,11 @@ msgstr "Timp de răspuns (sec)"
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid "Tip: Use canned responses to chat faster"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sfat: Folosiți răspunsuri predefinite pentru a discuta mai rapid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sfat: Folosiți răspunsuri predefinite pentru a discuta mai rapid"
 >>>>>>> upstream/18.0
@@ -2639,7 +3464,11 @@ msgstr "Titlu"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__title_color
 msgid "Title Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Culoare Titlu"
+=======
+msgstr "Culoare titlu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Culoare titlu"
 >>>>>>> upstream/18.0
@@ -2653,7 +3482,11 @@ msgstr "Sesiuni tratate"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Turn on the <strong>Live Chat</strong> feature."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activează funcția <strong>Live Chat</strong>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Activează funcția <strong>Live Chat</strong>."
 >>>>>>> upstream/18.0
@@ -2662,7 +3495,11 @@ msgstr "Activează funcția <strong>Live Chat</strong>."
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__regex_url
 msgid "URL Regex"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL Regex"
+=======
+msgstr "Regex URL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regex URL"
 >>>>>>> upstream/18.0
@@ -2674,7 +3511,11 @@ msgid ""
 "channel."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "URL către o pagină statică în care clientul poate discuta cu operatorul "
+=======
+"URL către o pagină statică unde clientul poate discuta cu operatorul "
+>>>>>>> upstream/18.0
 =======
 "URL către o pagină statică unde clientul poate discuta cu operatorul "
 >>>>>>> upstream/18.0
@@ -2689,7 +3530,11 @@ msgstr "UUID"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "Unrated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neevaluat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neevaluat"
 >>>>>>> upstream/18.0
@@ -2702,6 +3547,12 @@ msgid ""
 "template."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Folosiți răspunsuri predefinite pentru a defini șabloane de mesaje în "
+"aplicația livechat. Pentru a încărca un răspuns predefinit, începeți "
+"propoziția cu ':' și selectați șablonul."
+>>>>>>> upstream/18.0
 =======
 "Folosiți răspunsuri predefinite pentru a defini șabloane de mesaje în "
 "aplicația livechat. Pentru a încărca un răspuns predefinit, începeți "
@@ -2720,7 +3571,11 @@ msgstr "Utilizator"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__user_livechat_username
 msgid "User Livechat Username"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Utilizator Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Utilizator Livechat"
 >>>>>>> upstream/18.0
@@ -2734,7 +3589,11 @@ msgstr "Setări utilizator"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__user_script_answer_id
 msgid "User's answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Răspunsul utilizatorului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspunsul utilizatorului"
 >>>>>>> upstream/18.0
@@ -2743,7 +3602,11 @@ msgstr "Răspunsul utilizatorului"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__user_raw_answer
 msgid "User's raw answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Răspuns brut utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Răspuns brut utilizator"
 >>>>>>> upstream/18.0
@@ -2767,7 +3630,11 @@ msgstr "Vizitatorul este fericit"
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid "Visitor left the conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vizitatorul a părăsit conversația."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizitatorul a părăsit conversația."
 >>>>>>> upstream/18.0
@@ -2781,7 +3648,11 @@ msgstr "Pagină web"
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_channel_action
 msgid "Website Live Chat Channels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Canale de chat în direct pentru site-uri web"
+=======
+msgstr "Canale Live Chat Website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Canale Live Chat Website"
 >>>>>>> upstream/18.0
@@ -2790,7 +3661,11 @@ msgstr "Canale Live Chat Website"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje Website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje Website"
 >>>>>>> upstream/18.0
@@ -2799,7 +3674,11 @@ msgstr "Mesaje Website"
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare website"
 >>>>>>> upstream/18.0
@@ -2808,7 +3687,11 @@ msgstr "Istoric comunicare website"
 #: model:chatbot.script,title:im_livechat.chatbot_script_welcome_bot
 msgid "Welcome Bot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bot de întâmpinare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bot de întâmpinare"
 >>>>>>> upstream/18.0
@@ -2822,7 +3705,11 @@ msgstr "Mesaj de întâmpinare"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_welcome
 msgid "Welcome to CompanyName! 👋"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bun venit la CompanyName! 👋"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bun venit la CompanyName! 👋"
 >>>>>>> upstream/18.0
@@ -2831,7 +3718,11 @@ msgstr "Bun venit la CompanyName! 👋"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_dispatch
 msgid "What are you looking for?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ce căutați?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ce căutați?"
 >>>>>>> upstream/18.0
@@ -2852,7 +3743,11 @@ msgstr "Vă rugăm să lăsați adresa de email pentru a vă putea contacta."
 #: code:addons/im_livechat/static/src/embed/common/close_confirmation.xml:0
 msgid "Yes, leave conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da, părăsește conversația"
+>>>>>>> upstream/18.0
 =======
 msgstr "Da, părăsește conversația"
 >>>>>>> upstream/18.0
@@ -2861,7 +3756,11 @@ msgstr "Da, părăsește conversația"
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "You"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dumneavoastră"
+=======
+msgstr "Dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dvs."
 >>>>>>> upstream/18.0
@@ -2871,7 +3770,11 @@ msgstr "Dvs."
 #: code:addons/im_livechat/controllers/attachment.py:0
 msgid "You are not allowed to upload attachments on this channel."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu aveți voie să încărcați atașamente pe acest canal."
+=======
+msgstr "Nu aveți permisiunea să încărcați atașamente pe acest canal."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu aveți permisiunea să încărcați atașamente pe acest canal."
 >>>>>>> upstream/18.0
@@ -2883,6 +3786,11 @@ msgid ""
 "visitors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Puteți crea un nou Chatbot cu un script definit pentru a discuta cu "
+"vizitatorii site-ului dvs."
+>>>>>>> upstream/18.0
 =======
 "Puteți crea un nou Chatbot cu un script definit pentru a discuta cu "
 "vizitatorii site-ului dvs."
@@ -2896,9 +3804,15 @@ msgid ""
 "                visitors to talk in real time with your operators."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "YPuteți crea canale pentru fiecare site web pe care doriți\n"
 "                să integrați widgetul pentru chat-uri live, permitând\n"
 "                vizitatorilor site-ului dvs. să vorbească în timp real cu operatorii dvs."
+=======
+"Puteți crea canale pentru fiecare site web pe care doriți\n"
+"                să integrați widgetul de chat live, permițând\n"
+"                vizitatorilor site-ului să discute în timp real cu operatorii dvs."
+>>>>>>> upstream/18.0
 =======
 "Puteți crea canale pentru fiecare site web pe care doriți\n"
 "                să integrați widgetul de chat live, permițând\n"
@@ -2910,7 +3824,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "You joined %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V-ați alăturat la %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "V-ați alăturat la %s."
 >>>>>>> upstream/18.0
@@ -2920,7 +3838,11 @@ msgstr "V-ați alăturat la %s."
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "You left %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați părăsit %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați părăsit %s."
 >>>>>>> upstream/18.0
@@ -2930,7 +3852,11 @@ msgstr "Ați părăsit %s."
 #: code:addons/im_livechat/static/src/embed/common/close_confirmation.xml:0
 msgid "You're about to leave the conversation, proceed?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sunteți pe cale să părăsiți conversația, continuați?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sunteți pe cale să părăsiți conversația, continuați?"
 >>>>>>> upstream/18.0
@@ -2945,7 +3871,11 @@ msgstr "Istoricul dvs. de chat este gol"
 #: code:addons/im_livechat/static/src/core/web/channel_member_list_patch.xml:0
 msgid "country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "țară"
+>>>>>>> upstream/18.0
 =======
 msgstr "țară"
 >>>>>>> upstream/18.0
@@ -2954,7 +3884,11 @@ msgstr "țară"
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid "e.g. \"Meeting Scheduler Bot\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: \"Bot programare întâlniri\""
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: \"Bot programare întâlniri\""
 >>>>>>> upstream/18.0
@@ -2963,7 +3897,11 @@ msgstr "ex: \"Bot programare întâlniri\""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid "e.g. 'How can I help you?'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: 'Cu ce vă pot ajuta?'"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: 'Cu ce vă pot ajuta?'"
 >>>>>>> upstream/18.0
@@ -2972,7 +3910,11 @@ msgstr "ex: 'Cu ce vă pot ajuta?'"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "e.g. /contactus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: /contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: /contact"
 >>>>>>> upstream/18.0
@@ -2981,7 +3923,11 @@ msgstr "ex: /contact"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "e.g. Hello, how may I help you?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ex: Bună, aveți nevoie de ajutor?"
+=======
+msgstr "ex: Bună, cu ce vă pot ajuta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Bună, cu ce vă pot ajuta?"
 >>>>>>> upstream/18.0
@@ -2990,7 +3936,11 @@ msgstr "ex: Bună, cu ce vă pot ajuta?"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "e.g. YourWebsite.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "e.g. YourWebsite.com"
+=======
+msgstr "ex: YourWebsite.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: YourWebsite.com"
 >>>>>>> upstream/18.0
@@ -3000,7 +3950,11 @@ msgstr "ex: YourWebsite.com"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "mail@example.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "mail@example.com"
+=======
+msgstr "mail@exemplu.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "mail@exemplu.com"
 >>>>>>> upstream/18.0

@@ -7,6 +7,10 @@
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -18,7 +22,11 @@ msgstr ""
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -43,6 +51,11 @@ msgid ""
 "Free Shipping"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%s\n"
+"Transport gratuit"
+>>>>>>> upstream/18.0
 =======
 "%s\n"
 "Transport gratuit"
@@ -103,7 +116,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:delivery.delivery_report_saleorder_document
 msgid "<strong>Shipping Description</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Descriere livrare</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Descriere livrare</strong>"
 >>>>>>> upstream/18.0
@@ -207,6 +224,11 @@ msgid ""
 "Tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Transportatorul %s nu poate avea aceeași etichetă atât la Etichete "
+"obligatorii cât și la Etichete excluse."
+>>>>>>> upstream/18.0
 =======
 "Transportatorul %s nu poate avea aceeași etichetă atât la Etichete "
 "obligatorii cât și la Etichete excluse."
@@ -222,7 +244,11 @@ msgstr "Descriere curier"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Choose a pick-up point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alegeți un punct de ridicare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți un punct de ridicare"
 >>>>>>> upstream/18.0
@@ -233,7 +259,11 @@ msgstr "Alegeți un punct de ridicare"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Choose this location"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alegeți această locație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți această locație"
 >>>>>>> upstream/18.0
@@ -259,7 +289,11 @@ msgstr "Condiție"
 #: model:ir.model,name:delivery.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -306,7 +340,11 @@ msgstr "Monedă"
 #: model:ir.model.fields,field_description:delivery.field_choose_delivery_carrier__partner_id
 msgid "Customer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ClientClient"
+=======
+msgstr "Client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Client"
 >>>>>>> upstream/18.0
@@ -459,7 +497,11 @@ msgstr ""
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid "Error: this delivery method is not available."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eroare: această metodă de livrare nu este disponibilă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare: această metodă de livrare nu este disponibilă."
 >>>>>>> upstream/18.0
@@ -497,6 +539,11 @@ msgid ""
 " to the content of the order or its destination."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Completarea acestui formular vă permite să faceți metoda de expediere "
+"disponibilă în funcție de conținutul comenzii sau de destinația acesteia."
+>>>>>>> upstream/18.0
 =======
 "Completarea acestui formular vă permite să faceți metoda de expediere "
 "disponibilă în funcție de conținutul comenzii sau de destinația acesteia."
@@ -562,6 +609,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă volumul total al comenzii depășește acest volum, metoda nu va fi "
+"disponibilă."
+>>>>>>> upstream/18.0
 =======
 "Dacă volumul total al comenzii depășește acest volum, metoda nu va fi "
 "disponibilă."
@@ -574,6 +626,11 @@ msgid ""
 "available."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dacă greutatea totală a comenzii depășește această greutate, metoda nu va fi"
+" disponibilă."
+>>>>>>> upstream/18.0
 =======
 "Dacă greutatea totală a comenzii depășește această greutate, metoda nu va fi"
 " disponibilă."
@@ -657,7 +714,11 @@ msgstr "Gestionați prefixele de cod poștal pentru livrare"
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Map view"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vizualizare hartă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizare hartă"
 >>>>>>> upstream/18.0
@@ -681,7 +742,11 @@ msgstr "Marja pe tarif"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__max_volume
 msgid "Max Volume"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Volum maxim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Volum maxim"
 >>>>>>> upstream/18.0
@@ -700,7 +765,11 @@ msgstr "Valoarea maximă"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__must_have_tag_ids
 msgid "Must Have Tags"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etichete obligatorii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichete obligatorii"
 >>>>>>> upstream/18.0
@@ -722,6 +791,10 @@ msgstr "Furnizori noi"
 msgid "No pick-up points are available for this delivery address."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu există puncte de ridicare disponibile pentru această adresă de livrare."
+>>>>>>> upstream/18.0
 =======
 "Nu există puncte de ridicare disponibile pentru această adresă de livrare."
 >>>>>>> upstream/18.0
@@ -744,7 +817,11 @@ msgstr "Nu este disponibil pentru comanda curentă"
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "Opening hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Program"
+>>>>>>> upstream/18.0
 =======
 msgstr "Program"
 >>>>>>> upstream/18.0
@@ -763,7 +840,11 @@ msgstr "Comandă"
 #: model:ir.model.fields,field_description:delivery.field_sale_order__pickup_location_data
 msgid "Pickup Location Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Date locație ridicare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Date locație ridicare"
 >>>>>>> upstream/18.0
@@ -957,6 +1038,11 @@ msgid ""
 "these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Metoda NU este disponibilă dacă cel puțin un produs din comandă are una "
+"dintre aceste etichete."
+>>>>>>> upstream/18.0
 =======
 "Metoda NU este disponibilă dacă cel puțin un produs din comandă are una "
 "dintre aceste etichete."
@@ -969,6 +1055,11 @@ msgid ""
 " these tags."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Metoda este disponibilă doar dacă cel puțin un produs din comandă are una "
+"dintre aceste etichete."
+>>>>>>> upstream/18.0
 =======
 "Metoda este disponibilă doar dacă cel puțin un produs din comandă are una "
 "dintre aceste etichete."
@@ -1003,7 +1094,11 @@ msgstr "Expedierea este gratuită, deoarece suma comenzii depășește %.2f."
 #: code:addons/delivery/static/src/js/location_selector/map_container/map_container.js:0
 msgid "There was an error loading the map"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A apărut o eroare la încărcarea hărții"
+>>>>>>> upstream/18.0
 =======
 msgstr "A apărut o eroare la încărcarea hărții"
 >>>>>>> upstream/18.0
@@ -1031,6 +1126,12 @@ msgid ""
 "package easily. Use <shipmenttrackingnumber> as a placeholder in your URL."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Această opțiune adaugă un link pentru client în portal pentru a urmări cu "
+"ușurință coletul. Folosiți <shipmenttrackingnumber> ca substituent în URL-ul"
+" dvs."
+>>>>>>> upstream/18.0
 =======
 "Această opțiune adaugă un link pentru client în portal pentru a urmări cu "
 "ușurință coletul. Folosiți <shipmenttrackingnumber> ca substituent în URL-ul"
@@ -1051,7 +1152,11 @@ msgstr "Greutate totală comandă"
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__tracking_url
 msgid "Tracking Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link de urmărire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Link de urmărire"
 >>>>>>> upstream/18.0
@@ -1140,7 +1245,11 @@ msgstr ""
 #: code:addons/delivery/static/src/js/location_selector/location_selector_dialog/location_selector_dialog.js:0
 msgid "Your postal code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codul tău poștal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Codul tău poștal"
 >>>>>>> upstream/18.0
@@ -1164,7 +1273,11 @@ msgstr "de exemplu: UPS Express"
 #: model_terms:ir.ui.view,arch_db:delivery.view_delivery_carrier_form
 msgid "i.e. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex. https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
 >>>>>>> upstream/18.0

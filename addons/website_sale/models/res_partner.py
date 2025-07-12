@@ -58,7 +58,10 @@ class ResPartner(models.Model):
         return self == sale_order.partner_id or self.id in children_partner_ids
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -80,6 +83,9 @@ class ResPartner(models.Model):
                     fpos_changed._recompute_prices()
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

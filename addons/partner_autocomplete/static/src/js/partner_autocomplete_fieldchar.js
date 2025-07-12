@@ -151,6 +151,7 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
 =======
         if (data.company.name) {
@@ -480,6 +481,8 @@ export class PartnerAutoCompleteCharField extends CharField {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (data.company.name) {
             await this.props.record.update({name: data.company.name});  // Needed otherwise name it is not saved
         }
@@ -505,6 +508,9 @@ export class PartnerAutoCompleteCharField extends CharField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

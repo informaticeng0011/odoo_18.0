@@ -5,7 +5,11 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
+=======
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2024\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -40,8 +48,14 @@ msgid ""
 "begin/end of any related rules pattern."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Delimitador automático regex para el FNC1. El separador no debe tener el "
 "mismo inicio o fin de cualquier patrón de reglas relacionado."
+=======
+"Delimitador alternativo en la expresión regular para el FNC1. El separador "
+"no debe coincidir con el inicio o final del patrón de ninguna de las reglas "
+"relacionadas."
+>>>>>>> upstream/18.0
 =======
 "Delimitador alternativo en la expresión regular para el FNC1. El separador "
 "no debe coincidir con el inicio o final del patrón de ninguna de las reglas "
@@ -232,9 +246,15 @@ msgid ""
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ocurre un error con el patrón de la regla \"%s\" del código de barras.\n"
 "Si esta regla usa un decimal, verifique si no puede obtener algo más aparte de un dígito como último carácter para el identificador de aplicación.\n"
 "Compruebe también si los valores emparejados posibles solo pueden ser dígitos, de lo contrario no puede usar el valor como medida."
+=======
+"Hay un problema con el patrón de la regla \"%s\" del código de barras.\n"
+"Si esta regla usa decimales, revisa que el identificador de aplicación no termine con algo distinto a un dígito.\n"
+"También asegúrate de que los valores posibles que puede reconocer sean solo números o no se podrá interpretar como una medida."
+>>>>>>> upstream/18.0
 =======
 "Hay un problema con el patrón de la regla \"%s\" del código de barras.\n"
 "Si esta regla usa decimales, revisa que el identificador de aplicación no termine con algo distinto a un dígito.\n"
@@ -249,8 +269,13 @@ msgid ""
 "accepted is this kind of nomenclature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Esta nomenclatura usa la especificación GS1, solo se aceptan las reglas de "
 "codificación GS1-128 en este tipo de nomenclatura."
+=======
+"Esta nomenclatura usa la especificación GS1 y solo acepta las reglas de "
+"codificación GS1-128."
+>>>>>>> upstream/18.0
 =======
 "Esta nomenclatura usa la especificación GS1 y solo acepta las reglas de "
 "codificación GS1-128."

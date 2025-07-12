@@ -216,6 +216,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 
         vals['base_lines'] = consolidated_base_lines
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # We aggregate multiple PoS orders into an UBL InvoiceLine.
+        # So any cash rounding will just be part of the line's amount.
+        vals['cash_rounding_base_lines'] = []
+>>>>>>> upstream/18.0
 =======
         # We aggregate multiple PoS orders into an UBL InvoiceLine.
         # So any cash rounding will just be part of the line's amount.

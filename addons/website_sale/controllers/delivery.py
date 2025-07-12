@@ -72,6 +72,10 @@ class Delivery(WebsiteSale):
         return {
             'success': True,
             'is_free_delivery': not bool(order.amount_delivery),
+<<<<<<< HEAD
+=======
+            'compute_price_after_delivery': order.carrier_id.invoice_policy == 'real',
+>>>>>>> upstream/18.0
             'amount_delivery': Monetary.value_to_html(
                 order.amount_delivery, {'display_currency': currency}
             ),
@@ -112,6 +116,10 @@ class Delivery(WebsiteSale):
                 rate['price'], {'display_currency': order.currency_id}
             )
             rate['is_free_delivery'] = not bool(rate['price'])
+<<<<<<< HEAD
+=======
+            rate['compute_price_after_delivery'] = delivery_method.invoice_policy == 'real'
+>>>>>>> upstream/18.0
         else:
             rate['amount_delivery'] = Monetary.value_to_html(
                 0.0, {'display_currency': order.currency_id}
@@ -255,8 +263,12 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Return the list of delivery methods available for the sales order.
         return sorted([{
+=======
+        sorted_delivery_methods = sorted([{
+>>>>>>> upstream/18.0
 =======
         sorted_delivery_methods = sorted([{
 >>>>>>> upstream/18.0
@@ -464,7 +476,10 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -626,6 +641,9 @@ class Delivery(WebsiteSale):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

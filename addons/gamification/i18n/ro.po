@@ -4,10 +4,16 @@
 # 
 # Translators:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larisa Pop, 2024
 # Maria Muntean, 2024
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2025
+=======
+# Lyall Kindmurr, 2024
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
@@ -21,7 +27,11 @@ msgstr ""
 "POT-Creation-Date: 2024-12-16 13:41+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2025\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -46,7 +56,10 @@ msgid ""
 "    </t>\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "    <strong>Memento</strong><br/>\n"
 "    Nu ați actualizat progresul pentru obiectivul <t t-out=\"object.definition_id.name or ''\"/> (în prezent atins la <t t-out=\"object.completeness or ''\"/>%) de cel puțin <t t-out=\"object.remind_update_delay or ''\"/> zile. Nu uitați să faceți acest lucru.\n"
@@ -56,6 +69,9 @@ msgstr ""
 "        <br/>\n"
 "        <t t-out=\"object.challenge_id.manager_id.signature or ''\"/>\n"
 "    </t>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -69,7 +85,11 @@ msgstr "# Utilizatori"
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has joined the challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%ss-a alăturat provocării"
+=======
+msgstr "%s s-a alăturat provocării"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s s-a alăturat provocării"
 >>>>>>> upstream/18.0
@@ -79,7 +99,11 @@ msgstr "%s s-a alăturat provocării"
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "%s has refused the challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%sa refuzat provocarea"
+=======
+msgstr "%s a refuzat provocarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s a refuzat provocarea"
 >>>>>>> upstream/18.0
@@ -130,7 +154,10 @@ msgid ""
 "</div>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "<table style=\"width:600px;margin:0px auto;background:white;border:1px solid #e1e1e1;\">\n"
 "    <tbody>\n"
@@ -172,6 +199,9 @@ msgstr ""
 "    </tbody>\n"
 " </table>\n"
 "</div>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -181,6 +211,11 @@ msgid ""
 "Progress\" aria-label=\"Goal in Progress\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i role=\"img\" class=\"text-700 fa fa-clock-o fa-3x\" title=\"Obiectiv în "
+"desfășurare\" aria-label=\"Obiectiv în desfășurare\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i role=\"img\" class=\"text-700 fa fa-clock-o fa-3x\" title=\"Obiectiv în "
 "desfășurare\" aria-label=\"Obiectiv în desfășurare\"/>"
@@ -193,6 +228,11 @@ msgid ""
 "Failed\" aria-label=\"Goal Failed\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i role=\"img\" class=\"text-danger fa fa-times fa-3x\" title=\"Obiectiv "
+"eșuat\" aria-label=\"Obiectiv eșuat\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i role=\"img\" class=\"text-danger fa fa-times fa-3x\" title=\"Obiectiv "
 "eșuat\" aria-label=\"Obiectiv eșuat\"/>"
@@ -205,6 +245,11 @@ msgid ""
 "Reached\" aria-label=\"Goal Reached\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i role=\"img\" class=\"text-success fa fa-check fa-3x\" title=\"Obiectiv "
+"atins\" aria-label=\"Obiectiv atins\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i role=\"img\" class=\"text-success fa fa-check fa-3x\" title=\"Obiectiv "
 "atins\" aria-label=\"Obiectiv atins\"/>"
@@ -214,7 +259,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "<span class=\"o_stat_text\">Related Goals</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Obiective asociate</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Obiective asociate</span>"
 >>>>>>> upstream/18.0
@@ -522,9 +571,15 @@ msgid ""
 "                Some badges are harder than others to get with specific conditions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O insignă este un token simbolic acordat unui utilizator ca semn al recompensei.\n"
 "                Poate fi meritat automat atunci când unele condiții sunt îndeplinite sau manual de către utilizatori.\n"
 "                Unele insigne sunt mai greu de obținut decât altele cu condiții specifice."
+=======
+"O insignă este un simbol acordat unui utilizator ca semn de recompensă.\n"
+"                Poate fi obținută automat când sunt îndeplinite anumite condiții sau manual de către utilizatori.\n"
+"                Unele insigne sunt mai greu de obținut decât altele, având condiții specifice."
+>>>>>>> upstream/18.0
 =======
 "O insignă este un simbol acordat unui utilizator ca semn de recompensă.\n"
 "                Poate fi obținută automat când sunt îndeplinite anumite condiții sau manual de către utilizatori.\n"
@@ -538,8 +593,13 @@ msgid ""
 "                The dates, values to reach or users are defined in goal instance."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O definiție a obiectivului este o specificație tehnică a unei condiții de atins.\n"
 "                Datele, valorile de atins sau utilizatorii sunt definite în instanța de obiectiv."
+=======
+"O definiție de obiectiv este o specificație tehnică a unei condiții de atins.\n"
+"                Datele, valorile de atins sau utilizatorii sunt definite în instanța obiectivului."
+>>>>>>> upstream/18.0
 =======
 "O definiție de obiectiv este o specificație tehnică a unei condiții de atins.\n"
 "                Datele, valorile de atins sau utilizatorii sunt definite în instanța obiectivului."
@@ -554,8 +614,13 @@ msgid ""
 "value to reach"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un obiectiv este considerat ca fiind terminat când valoarea curentă este "
 "comparată cu valoarea dorită"
+=======
+"Un obiectiv este considerat îndeplinit atunci când valoarea curentă este "
+"comparată cu valoarea de atins"
+>>>>>>> upstream/18.0
 =======
 "Un obiectiv este considerat îndeplinit atunci când valoarea curentă este "
 "comparată cu valoarea de atins"
@@ -568,8 +633,13 @@ msgid ""
 "                Goals can be created automatically by using challenges."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un obiectiv este definit de un utilizator și o definiție a obiectivului.\n"
 "Obiectivele pot fi create automat folosind provocări."
+=======
+"Un obiectiv este definit de un utilizator și o definiție de obiectiv.\n"
+"                Obiectivele pot fi create automat folosind provocări."
+>>>>>>> upstream/18.0
 =======
 "Un obiectiv este definit de un utilizator și o definiție de obiectiv.\n"
 "                Obiectivele pot fi create automat folosind provocări."
@@ -582,8 +652,13 @@ msgid ""
 "                    This is used to quickly know which user is new or old or highly or not active."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un rang corespunde unui nivel de karma fix. Cu cât ai mai multă karma, cu atât rangul tău este mai mare.\n"
 "Aceasta este utilizată pentru a cunoaște rapid ce utilizator este nou sau vechi sau foarte activ sau nu este activ."
+=======
+"Un rang corespunde unui nivel fix de karma. Cu cât ai mai multă karma, cu atât rangul tău este mai mare.\n"
+"                    Acest lucru este folosit pentru a identifica rapid dacă un utilizator este nou, vechi, foarte activ sau nu este activ."
+>>>>>>> upstream/18.0
 =======
 "Un rang corespunde unui nivel fix de karma. Cu cât ai mai multă karma, cu atât rangul tău este mai mare.\n"
 "                    Acest lucru este folosit pentru a identifica rapid dacă un utilizator este nou, vechi, foarte activ sau nu este activ."
@@ -617,7 +692,11 @@ msgstr "Activ"
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Add Manually"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă manual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă manual"
 >>>>>>> upstream/18.0
@@ -626,7 +705,11 @@ msgstr "Adaugă manual"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Advanced Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opțiuni Avansate"
+=======
+msgstr "Opțiuni avansate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opțiuni avansate"
 >>>>>>> upstream/18.0
@@ -635,7 +718,11 @@ msgstr "Opțiuni avansate"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth
 msgid "Allowance to Grant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permisie de acordare"
+=======
+msgstr "Permisiune de acordare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permisiune de acordare"
 >>>>>>> upstream/18.0
@@ -655,7 +742,11 @@ msgstr "Arhivat"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Assign Challenge to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atribuie provocarea către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuie provocarea către"
 >>>>>>> upstream/18.0
@@ -668,8 +759,13 @@ msgid ""
 "                The goals are created for the specified users or member of the group."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Alocați o listă de obiective utilizatorilor aleși pentru a le evalua.\n"
 "                Provocarea poate folosi o perioadă (săptămânală, lunară ...) pentru crearea automată a obiectivelor.\n"
+=======
+"Atribuiți o listă de obiective utilizatorilor aleși pentru a-i evalua.\n"
+"                Provocarea poate folosi o perioadă (săptămânală, lunară...) pentru crearea automată a obiectivelor.\n"
+>>>>>>> upstream/18.0
 =======
 "Atribuiți o listă de obiective utilizatorilor aleși pentru a-i evalua.\n"
 "                Provocarea poate folosi o perioadă (săptămânală, lunară...) pentru crearea automată a obiectivelor.\n"
@@ -691,7 +787,11 @@ msgstr "Utilizatori autorizați"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__python
 msgid "Automatic: execute a specific Python code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automat: execută un cod Python"
+=======
+msgstr "Automat: execută un cod Python specific"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automat: execută un cod Python specific"
 >>>>>>> upstream/18.0
@@ -705,7 +805,11 @@ msgstr "Automat: număr de înregistrări"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__computation_mode__sum
 msgid "Automatic: sum on a field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automat: suma unui câmp"
+=======
+msgstr "Automat: sumă pe un câmp"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automat: sumă pe un câmp"
 >>>>>>> upstream/18.0
@@ -722,7 +826,11 @@ msgstr "Licență"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichetă"
+=======
+msgstr "Insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insignă"
 >>>>>>> upstream/18.0
@@ -736,7 +844,11 @@ msgstr "Descriere insignă"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge_user__level
 msgid "Badge Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivel Ecuson"
+=======
+msgstr "Nivel insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nivel insignă"
 >>>>>>> upstream/18.0
@@ -767,15 +879,21 @@ msgid ""
 "manually closed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Insigne se acordă atunci când o provocare este terminată. Acesta este fie la"
 " sfârșitul unei perioade de funcționare (de ex: sfârșitul lunii pentru o "
 "provocare lunară), la data de încheiere a unui provocări (dacă nu este "
 "setată o periodicitate) sau când provocarea este închisă manual."
 =======
+=======
+>>>>>>> upstream/18.0
 "Insignele se acordă când o provocare este finalizată. Acest lucru se "
 "întâmplă fie la sfârșitul unei perioade (ex: sfârșitul lunii pentru o "
 "provocare lunară), la data de final a provocării (dacă nu este setată "
 "periodicitate) sau când provocarea este închisă manual."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -797,7 +915,11 @@ msgstr "Bronz"
 #: model:ir.model.fields,field_description:gamification.field_res_users__bronze_badge
 msgid "Bronze badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr Insigne Bronz"
+=======
+msgstr "Număr insigne bronz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr insigne bronz"
 >>>>>>> upstream/18.0
@@ -859,8 +981,13 @@ msgid ""
 "goals with a value in this field."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Provocare care a generat obiectivul, atribuiți utilizatorilor provocarea de "
 "a genera obiective cu o valoare în acest domeniu."
+=======
+"Provocarea care a generat obiectivul, atribuiți provocarea utilizatorilor "
+"pentru a genera obiective cu o valoare în acest câmp."
+>>>>>>> upstream/18.0
 =======
 "Provocarea care a generat obiectivul, atribuiți provocarea utilizatorilor "
 "pentru a genera obiective cu o valoare în acest câmp."
@@ -879,7 +1006,11 @@ msgstr "Provocări"
 msgid "Check to set a monthly limit per person of sending this badge"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bifați pentru a seta o limită lunară pe persoană pentru trimiterea acestei "
+=======
+"Bifați pentru a seta o limită lunară per persoană pentru trimiterea acestei "
+>>>>>>> upstream/18.0
 =======
 "Bifați pentru a seta o limită lunară per persoană pentru trimiterea acestei "
 >>>>>>> upstream/18.0
@@ -894,7 +1025,11 @@ msgstr "Obiective clicabile"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__closed
 msgid "Closed goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiectiv atins"
+=======
+msgstr "Obiectiv închis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiectiv închis"
 >>>>>>> upstream/18.0
@@ -903,7 +1038,11 @@ msgstr "Obiectiv închis"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__color
 msgid "Color Index"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Index Culori"
+=======
+msgstr "Index culoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Index culoare"
 >>>>>>> upstream/18.0
@@ -918,7 +1057,11 @@ msgstr "Comentariu"
 #: model:gamification.challenge,name:gamification.challenge_base_discover
 msgid "Complete your Profile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completați profilul dvs."
+=======
+msgstr "Completează-ți profilul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completează-ți profilul"
 >>>>>>> upstream/18.0
@@ -927,7 +1070,11 @@ msgstr "Completează-ți profilul"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__completeness
 msgid "Completeness"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Realizare"
+=======
+msgstr "Completitudine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completitudine"
 >>>>>>> upstream/18.0
@@ -938,7 +1085,11 @@ msgstr "Completitudine"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 msgid "Computation Mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mod calcul"
+=======
+msgstr "Mod de calcul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mod de calcul"
 >>>>>>> upstream/18.0
@@ -959,7 +1110,11 @@ msgstr "Consolidat"
 #: code:addons/gamification/models/gamification_karma_tracking.py:0
 msgid "Consolidation from %(from_date)s to %(end_date)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Consolidare de la %(from_date)s la %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Consolidare de la %(from_date)s la %(end_date)s"
 >>>>>>> upstream/18.0
@@ -968,7 +1123,11 @@ msgstr "Consolidare de la %(from_date)s la %(end_date)s"
 #: model:ir.actions.act_window,name:gamification.action_new_simplified_res_users
 msgid "Create User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați utilizator"
+=======
+msgstr "Creează utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează utilizator"
 >>>>>>> upstream/18.0
@@ -977,7 +1136,11 @@ msgstr "Creează utilizator"
 #: model_terms:ir.actions.act_window,help:gamification.badge_list_action
 msgid "Create a new badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă insignă"
+=======
+msgstr "Creează o nouă insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă insignă"
 >>>>>>> upstream/18.0
@@ -986,7 +1149,11 @@ msgstr "Creează o nouă insignă"
 #: model_terms:ir.actions.act_window,help:gamification.challenge_list_action
 msgid "Create a new challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă provocare"
+=======
+msgstr "Creează o nouă provocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă provocare"
 >>>>>>> upstream/18.0
@@ -995,7 +1162,11 @@ msgstr "Creează o nouă provocare"
 #: model_terms:ir.actions.act_window,help:gamification.goal_list_action
 msgid "Create a new goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un nou obiectiv"
+=======
+msgstr "Creează un nou obiectiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un nou obiectiv"
 >>>>>>> upstream/18.0
@@ -1004,7 +1175,11 @@ msgstr "Creează un nou obiectiv"
 #: model_terms:ir.actions.act_window,help:gamification.goal_definition_list_action
 msgid "Create a new goal definition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă definiție a obiectivului"
+=======
+msgstr "Creează o nouă definiție de obiectiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă definiție de obiectiv"
 >>>>>>> upstream/18.0
@@ -1013,7 +1188,11 @@ msgstr "Creează o nouă definiție de obiectiv"
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_ranks_action
 msgid "Create a new rank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un nou rang"
+=======
+msgstr "Creează un nou rang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un nou rang"
 >>>>>>> upstream/18.0
@@ -1027,15 +1206,21 @@ msgid ""
 "specific access to the applications they need to use in the system."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Creați și gestionați utilizatori care se vor conecta la sistem. Utilizatorii"
 " pot fi dezactivați în caz că există o perioada de timp în care ei nu se "
 "conectează la sistem. Le puteți atribui grupuri pentru a le da acces "
 "specific la aplicațiile de care ei au nevoie în sistem."
 =======
+=======
+>>>>>>> upstream/18.0
 "Creează și gestionează utilizatori care se vor conecta la sistem. "
 "Utilizatorii pot fi dezactivați dacă există o perioadă în care nu se vor "
 "conecta la sistem. Le poți atribui grupuri pentru a le oferi acces specific "
 "la aplicațiile de care au nevoie în sistem."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -1065,7 +1250,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -1074,7 +1263,11 @@ msgstr "Creat la"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__current
 msgid "Current"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Curent(ă)"
+=======
+msgstr "Curent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Curent"
 >>>>>>> upstream/18.0
@@ -1094,7 +1287,11 @@ msgstr "Zilnic"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data"
+=======
+msgstr "Dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată"
 >>>>>>> upstream/18.0
@@ -1108,7 +1305,11 @@ msgstr "Dată"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__field_date_id
 msgid "Date Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmp de dată"
+=======
+msgstr "Câmp dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp dată"
 >>>>>>> upstream/18.0
@@ -1121,8 +1322,13 @@ msgid ""
 "stored in the field 'Current'."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definiți cum vor fi calculate obiectivele. Rezultatul operației va fi stocat"
 " în câmpul 'Current'."
+=======
+"Definește modul în care vor fi calculate obiectivele. Rezultatul operației "
+"va fi stocat în câmpul 'Curent'."
+>>>>>>> upstream/18.0
 =======
 "Definește modul în care vor fi calculate obiectivele. Rezultatul operației "
 "va fi stocat în câmpul 'Curent'."
@@ -1132,7 +1338,11 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__challenge_category
 msgid "Define the visibility of the challenge through menus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiți vizibilitate provocare prin meniuri"
+=======
+msgstr "Definește vizibilitatea provocării prin meniuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definește vizibilitatea provocării prin meniuri"
 >>>>>>> upstream/18.0
@@ -1141,7 +1351,11 @@ msgstr "Definește vizibilitatea provocării prin meniuri"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_condition
 msgid "Definition Condition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Condiția definiției"
+=======
+msgstr "Condiție definiție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Condiție definiție"
 >>>>>>> upstream/18.0
@@ -1150,7 +1364,11 @@ msgstr "Condiție definiție"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__definition_description
 msgid "Definition Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrierea definiției"
+=======
+msgstr "Descriere definiție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere definiție"
 >>>>>>> upstream/18.0
@@ -1160,7 +1378,11 @@ msgstr "Descriere definiție"
 msgid "Depending on the Display mode, reports will be individual or shared."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În funcție de modul de afișare, rapoartele vor fi individuale sau comune."
+=======
+"În funcție de modul de afișare, rapoartele vor fi individuale sau partajate."
+>>>>>>> upstream/18.0
 =======
 "În funcție de modul de afișare, rapoartele vor fi individuale sau partajate."
 >>>>>>> upstream/18.0
@@ -1170,7 +1392,11 @@ msgstr ""
 msgid ""
 "Describe the challenge: what is does, who it targets, why it matters..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrieți provocarea: ce este, cine vizează, de ce contează ..."
+=======
+msgstr "Descrie provocarea: ce face, cui se adresează, de ce contează..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrie provocarea: ce face, cui se adresează, de ce contează..."
 >>>>>>> upstream/18.0
@@ -1179,7 +1405,11 @@ msgstr "Descrie provocarea: ce face, cui se adresează, de ce contează..."
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Describe what they did and why it matters (will be public)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrieți ce au făcut și de ce contează (va fi public)"
+=======
+msgstr "Descrie ce au făcut și de ce contează (va fi public)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descrie ce au făcut și de ce contează (va fi public)"
 >>>>>>> upstream/18.0
@@ -1222,7 +1452,11 @@ msgstr "Afișat ca"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_distinctive_field
 msgid "Distinctive field for batch user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmp distinctiv pentru lot utilizator"
+=======
+msgstr "Câmp distinctiv pentru utilizator în lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp distinctiv pentru utilizator în lot"
 >>>>>>> upstream/18.0
@@ -1240,15 +1474,21 @@ msgid ""
 "which is a browse record of the current user if not in batch mode."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Domeniu pentru filtrarea înregistrărilor. Regulă generală nu depinde de "
 "utilizator, ex: [('state', '=', 'done')]. Expresia poate conține referința "
 "la 'user', care este o înregistrare  a utilizatorului curent, dacă nu este "
 "utilizat modul în masă."
 =======
+=======
+>>>>>>> upstream/18.0
 "Domeniu pentru filtrarea înregistrărilor. Regulă generală, nu depinde de "
 "utilizator, ex: [('state', '=', 'done')]. Expresia poate conține referință "
 "la 'user', care este o înregistrare a utilizatorului curent dacă nu este în "
 "modul lot."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: gamification
@@ -1256,7 +1496,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Efectuat"
+=======
+msgstr "Finalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Finalizat"
 >>>>>>> upstream/18.0
@@ -1272,7 +1516,11 @@ msgstr "Ciornă"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_newbie
 msgid "Earn your first points and join the adventure!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Câștigă primele tale puncte și alătură-te aventurii!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câștigă primele tale puncte și alătură-te aventurii!"
 >>>>>>> upstream/18.0
@@ -1288,7 +1536,11 @@ msgstr "Dată sfârșit"
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_mode
 msgid "Evaluate the expression in batch instead of once for each user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evaluare expresie în masă nu pentru fiecare utilizator"
+=======
+msgstr "Evaluează expresia în lot, nu individual pentru fiecare utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluează expresia în lot, nu individual pentru fiecare utilizator"
 >>>>>>> upstream/18.0
@@ -1297,7 +1549,11 @@ msgstr "Evaluează expresia în lot, nu individual pentru fiecare utilizator"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_user_expression
 msgid "Evaluated expression for batch mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expresie evaluată pentru modul lotului"
+=======
+msgstr "Expresie evaluată pentru modul lot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expresie evaluată pentru modul lot"
 >>>>>>> upstream/18.0
@@ -1306,7 +1562,11 @@ msgstr "Expresie evaluată pentru modul lot"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__everyone
 msgid "Everyone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Toți"
+=======
+msgstr "Toată lumea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toată lumea"
 >>>>>>> upstream/18.0
@@ -1362,7 +1622,11 @@ msgstr "Pentru al treilea utilizator"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_id
 msgid "For Every Succeeding User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru fiecare utilizator care are succes"
+=======
+msgstr "Pentru fiecare utilizator care reușește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pentru fiecare utilizator care reușește"
 >>>>>>> upstream/18.0
@@ -1376,7 +1640,11 @@ msgstr "Opțiuni de formatare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__level
 msgid "Forum Badge Level"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivel Ecuson Forum"
+=======
+msgstr "Nivel insignă forum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nivel insignă forum"
 >>>>>>> upstream/18.0
@@ -1390,7 +1658,11 @@ msgstr "De la"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__full_suffix
 msgid "Full Suffix"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sufix întreg"
+=======
+msgstr "Sufix complet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sufix complet"
 >>>>>>> upstream/18.0
@@ -1399,7 +1671,11 @@ msgstr "Sufix complet"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__gain
 msgid "Gain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câştig"
+=======
+msgstr "Câștig"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câștig"
 >>>>>>> upstream/18.0
@@ -1408,7 +1684,11 @@ msgstr "Câștig"
 #: model:ir.model,name:gamification.model_gamification_badge
 msgid "Gamification Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Insignă Competiție"
+=======
+msgstr "Insignă gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insignă gamificare"
 >>>>>>> upstream/18.0
@@ -1417,7 +1697,11 @@ msgstr "Insignă gamificare"
 #: model:ir.model,name:gamification.model_gamification_challenge
 msgid "Gamification Challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provocare Competiție"
+=======
+msgstr "Provocare gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provocare gamificare"
 >>>>>>> upstream/18.0
@@ -1426,7 +1710,11 @@ msgstr "Provocare gamificare"
 #: model:ir.model,name:gamification.model_gamification_goal
 msgid "Gamification Goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiectivul Competiției"
+=======
+msgstr "Obiectiv gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiectiv gamificare"
 >>>>>>> upstream/18.0
@@ -1435,7 +1723,11 @@ msgstr "Obiectiv gamificare"
 #: model:ir.model,name:gamification.model_gamification_goal_definition
 msgid "Gamification Goal Definition"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiție Obiectiv Competiție"
+=======
+msgstr "Definiție obiectiv gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definiție obiectiv gamificare"
 >>>>>>> upstream/18.0
@@ -1444,7 +1736,11 @@ msgstr "Definiție obiectiv gamificare"
 #: model:ir.model,name:gamification.model_gamification_goal_wizard
 msgid "Gamification Goal Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expert Obiectiv Competiție"
+=======
+msgstr "Expert obiectiv gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expert obiectiv gamificare"
 >>>>>>> upstream/18.0
@@ -1453,7 +1749,11 @@ msgstr "Expert obiectiv gamificare"
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unelte competiție"
+=======
+msgstr "Unelte gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unelte gamificare"
 >>>>>>> upstream/18.0
@@ -1462,7 +1762,11 @@ msgstr "Unelte gamificare"
 #: model:ir.model,name:gamification.model_gamification_badge_user
 msgid "Gamification User Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ecuson Utilizator Comăpetiție"
+=======
+msgstr "Insignă utilizator gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insignă utilizator gamificare"
 >>>>>>> upstream/18.0
@@ -1471,7 +1775,11 @@ msgstr "Insignă utilizator gamificare"
 #: model:ir.model,name:gamification.model_gamification_badge_user_wizard
 msgid "Gamification User Badge Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expert Ecuson Utilizator Competiție"
+=======
+msgstr "Expert insignă utilizator gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Expert insignă utilizator gamificare"
 >>>>>>> upstream/18.0
@@ -1480,7 +1788,11 @@ msgstr "Expert insignă utilizator gamificare"
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiectiv generic pentru provocare"
+=======
+msgstr "Obiectiv generic gamificare pentru provocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiectiv generic gamificare pentru provocare"
 >>>>>>> upstream/18.0
@@ -1489,7 +1801,11 @@ msgstr "Obiectiv generic gamificare pentru provocare"
 #: model:mail.template,name:gamification.email_template_badge_received
 msgid "Gamification: Badge Received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificare: Insignă primită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Insignă primită"
 >>>>>>> upstream/18.0
@@ -1498,7 +1814,11 @@ msgstr "Gamificare: Insignă primită"
 #: model:mail.template,name:gamification.simple_report_template
 msgid "Gamification: Challenge Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificare: Raport provocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Raport provocare"
 >>>>>>> upstream/18.0
@@ -1507,7 +1827,11 @@ msgstr "Gamificare: Raport provocare"
 #: model:ir.actions.server,name:gamification.ir_cron_check_challenge_ir_actions_server
 msgid "Gamification: Goal Challenge Check"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Competiție: Verificare provocare obiectiv"
+=======
+msgstr "Gamificare: Verificare provocare obiectiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Verificare provocare obiectiv"
 >>>>>>> upstream/18.0
@@ -1516,7 +1840,11 @@ msgstr "Gamificare: Verificare provocare obiectiv"
 #: model:ir.actions.server,name:gamification.ir_cron_consolidate_ir_actions_server
 msgid "Gamification: Karma tracking consolidation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificare: Consolidare urmărire karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Consolidare urmărire karma"
 >>>>>>> upstream/18.0
@@ -1525,7 +1853,11 @@ msgstr "Gamificare: Consolidare urmărire karma"
 #: model:mail.template,name:gamification.mail_template_data_new_rank_reached
 msgid "Gamification: New Rank Reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificare: Rang nou atins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Rang nou atins"
 >>>>>>> upstream/18.0
@@ -1534,7 +1866,11 @@ msgstr "Gamificare: Rang nou atins"
 #: model:mail.template,name:gamification.email_template_goal_reminder
 msgid "Gamification: Reminder For Goal Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gamificare: Memento pentru actualizare obiectiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gamificare: Memento pentru actualizare obiectiv"
 >>>>>>> upstream/18.0
@@ -1559,7 +1895,11 @@ msgstr "Definiție obiectiv"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_list_view
 msgid "Goal Definitions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiție obiectiv"
+=======
+msgstr "Definiții obiective"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definiții obiective"
 >>>>>>> upstream/18.0
@@ -1573,7 +1913,11 @@ msgstr "Descriere obiectiv"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Goal Failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiectiv ratat"
+=======
+msgstr "Obiectiv eșuat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiectiv eșuat"
 >>>>>>> upstream/18.0
@@ -1597,7 +1941,11 @@ msgstr "Obiectiv atins"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "Goal definitions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiții obiectiv"
+=======
+msgstr "Definiții obiective"
+>>>>>>> upstream/18.0
 =======
 msgstr "Definiții obiective"
 >>>>>>> upstream/18.0
@@ -1619,7 +1967,11 @@ msgstr "Aur"
 #: model:ir.model.fields,field_description:gamification.field_res_users__gold_badge
 msgid "Gold badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de insigne de aur"
+=======
+msgstr "Număr insigne aur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr insigne aur"
 >>>>>>> upstream/18.0
@@ -1639,7 +1991,11 @@ msgstr "Acordă"
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 msgid "Grant Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Insignă acordată"
+=======
+msgstr "Acordă insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă insignă"
 >>>>>>> upstream/18.0
@@ -1649,7 +2005,11 @@ msgstr "Acordă insignă"
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Grant Badge To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Insignă acordată lui"
+=======
+msgstr "Acordă insignă către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordă insignă către"
 >>>>>>> upstream/18.0
@@ -1663,7 +2023,11 @@ msgstr "Acordă această insignă"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Granted By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acordat de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordat de"
 >>>>>>> upstream/18.0
@@ -1672,7 +2036,11 @@ msgstr "Acordat de"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
 msgid "Granted by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generat de"
+=======
+msgstr "Acordat de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordat de"
 >>>>>>> upstream/18.0
@@ -1681,7 +2049,11 @@ msgstr "Acordat de"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Granting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acordarea"
+=======
+msgstr "Acordare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acordare"
 >>>>>>> upstream/18.0
@@ -1724,7 +2096,11 @@ msgstr "Cum este calculat obiectivul?"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__hr
 msgid "Human Resources / Engagement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resurse umane / Angajament"
+=======
+msgstr "Resurse umane / Implicare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resurse umane / Implicare"
 >>>>>>> upstream/18.0
@@ -1747,7 +2123,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__res_id_field
 msgid "ID Field of user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmp pt. ID utilizator"
+=======
+msgstr "Câmp ID utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp ID utilizator"
 >>>>>>> upstream/18.0
@@ -1756,7 +2136,11 @@ msgstr "Câmp ID utilizator"
 #: model:ir.model.fields,help:gamification.field_gamification_badge__remaining_sending
 msgid "If a maximum is set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă maximul este un set"
+=======
+msgstr "Dacă este setat un maxim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este setat un maxim"
 >>>>>>> upstream/18.0
@@ -1766,7 +2150,11 @@ msgstr "Dacă este setat un maxim"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția ta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția ta."
 >>>>>>> upstream/18.0
@@ -1819,8 +2207,13 @@ msgid ""
 "keyword 'user' in above filter domain."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În mod în masă, domeniul este evaluat global. Dacă este activat nu utilizați"
 " cuvântul cheie 'user' în domeniul filtrului."
+=======
+"În modul lot, domeniul este evaluat global. Dacă este activat, nu utilizați "
+"cuvântul cheie 'user' în domeniul filtrului de mai sus."
+>>>>>>> upstream/18.0
 =======
 "În modul lot, domeniul este evaluat global. Dacă este activat, nu utilizați "
 "cuvântul cheie 'user' în domeniul filtrului de mai sus."
@@ -1833,8 +2226,13 @@ msgid ""
 "other, e.g. user_id, partner_id..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În modul lotului, aceasta indică câmpul care distinge un utilizator de "
 "celălalt, de ex. user_id, partner_id ..."
+=======
+"În modul lot, acest câmp indică ce diferențiază un utilizator de altul, ex. "
+"user_id, partner_id..."
+>>>>>>> upstream/18.0
 =======
 "În modul lot, acest câmp indică ce diferențiază un utilizator de altul, ex. "
 "user_id, partner_id..."
@@ -1849,8 +2247,13 @@ msgid ""
 msgstr ""
 "În cazul unui obiectiv manual, mementourile sunt trimise dacă obiectivul nu "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "a fost actualizat pentru o vreme (definit în provocare). Ignorat în cazul "
 "unui obiectiv non-manual sau obiectiv care nu este legat de o provocare."
+=======
+"a fost actualizat de ceva timp (definit în provocare). Ignorat în cazul unui"
+" obiectiv non-manual sau care nu este legat de o provocare."
+>>>>>>> upstream/18.0
 =======
 "a fost actualizat de ceva timp (definit în provocare). Ignorat în cazul unui"
 " obiectiv non-manual sau care nu este legat de o provocare."
@@ -1887,7 +2290,11 @@ msgstr "Este urmăritor"
 #: model_terms:ir.ui.view,arch_db:gamification.res_users_view_form
 msgid "Karma"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reputație"
+=======
+msgstr "Karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma"
 >>>>>>> upstream/18.0
@@ -1903,7 +2310,11 @@ msgstr "Schimbări karma"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Karma Owner"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deținător Karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deținător Karma"
 >>>>>>> upstream/18.0
@@ -1913,7 +2324,11 @@ msgstr "Deținător Karma"
 #: model:ir.ui.menu,name:gamification.gamification_karma_tracking_menu
 msgid "Karma Tracking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărire Karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărire Karma"
 >>>>>>> upstream/18.0
@@ -1923,7 +2338,11 @@ msgstr "Urmărire Karma"
 #: code:addons/gamification/models/res_users.py:0
 msgid "Karma Updates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualizări Karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizări Karma"
 >>>>>>> upstream/18.0
@@ -1951,7 +2370,11 @@ msgstr "Ultima actualizare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de"
 >>>>>>> upstream/18.0
@@ -1969,7 +2392,11 @@ msgstr "Ultima actualizare de"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -1978,7 +2405,11 @@ msgstr "Ultima actualizare la"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__visibility_mode__ranking
 msgid "Leader Board (Group Ranking)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Clasament (Grup rang)"
+=======
+msgstr "Clasament (Rang grup)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Clasament (Rang grup)"
 >>>>>>> upstream/18.0
@@ -1987,7 +2418,11 @@ msgstr "Clasament (Rang grup)"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max_number
 msgid "Limitation Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Limitare la numărul"
+=======
+msgstr "Număr limitare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr limitare"
 >>>>>>> upstream/18.0
@@ -1996,7 +2431,11 @@ msgstr "Număr limitare"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Line List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie listă"
+=======
+msgstr "Listă linii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă linii"
 >>>>>>> upstream/18.0
@@ -2010,7 +2449,11 @@ msgstr "Linii"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__line_ids
 msgid "List of goals that will be set"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista obiectivelor ce vor fi setate"
+=======
+msgstr "Lista obiectivelor care vor fi setate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista obiectivelor care vor fi setate"
 >>>>>>> upstream/18.0
@@ -2030,7 +2473,11 @@ msgstr "Master"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare livrare mesaj"
 >>>>>>> upstream/18.0
@@ -2056,7 +2503,11 @@ msgstr "Monetar"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__monetary
 msgid "Monetary Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare monetar"
+=======
+msgstr "Valoare monetară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare monetară"
 >>>>>>> upstream/18.0
@@ -2071,7 +2522,11 @@ msgstr "Lunar"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max
 msgid "Monthly Limited Sending"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimitere limită lunară"
+=======
+msgstr "Trimitere lunară limitată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimitere lunară limitată"
 >>>>>>> upstream/18.0
@@ -2091,7 +2546,11 @@ msgstr "Motivațional"
 #: model:ir.model.fields,help:gamification.field_gamification_karma_rank__description_motivational
 msgid "Motivational phrase to reach this rank on your profile page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fraza motivațională pentru a atinge acest rang pe pagina ta de profil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fraza motivațională pentru a atinge acest rang pe pagina ta de profil"
 >>>>>>> upstream/18.0
@@ -2105,7 +2564,11 @@ msgstr "Obiectivele mele"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "My Karma"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Karma mea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma mea"
 >>>>>>> upstream/18.0
@@ -2114,7 +2577,11 @@ msgstr "Karma mea"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "My Monthly Sending Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Totalul meu trimis lunar"
+=======
+msgstr "Totalul meu lunar trimis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totalul meu lunar trimis"
 >>>>>>> upstream/18.0
@@ -2144,7 +2611,11 @@ msgstr "Niciodată"
 msgid "Never reminded if no value or zero is specified."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu vă reamintiți niciodată dacă nu este specificată nicio valoare sau zero."
+=======
+"Nu se trimite memento dacă nu este specificată nicio valoare sau zero."
+>>>>>>> upstream/18.0
 =======
 "Nu se trimite memento dacă nu este specificată nicio valoare sau zero."
 >>>>>>> upstream/18.0
@@ -2153,7 +2624,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__new_value
 msgid "New Karma Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare Nouă Reputație"
+=======
+msgstr "Valoare nouă karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare nouă karma"
 >>>>>>> upstream/18.0
@@ -2162,7 +2637,11 @@ msgstr "Valoare nouă karma"
 #: model:mail.template,subject:gamification.email_template_badge_received
 msgid "New badge {{ object.badge_id.name }} granted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Insignă nouă {{ object.badge_id.name }} acordată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insignă nouă {{ object.badge_id.name }} acordată"
 >>>>>>> upstream/18.0
@@ -2171,7 +2650,11 @@ msgstr "Insignă nouă {{ object.badge_id.name }} acordată"
 #: model:mail.template,subject:gamification.mail_template_data_new_rank_reached
 msgid "New rank: {{ object.rank_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rang nou: {{ object.rank_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rang nou: {{ object.rank_id.name }}"
 >>>>>>> upstream/18.0
@@ -2185,7 +2668,11 @@ msgstr "Începător"
 #: model:ir.model.fields,field_description:gamification.field_res_users__next_rank_id
 msgid "Next Rank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul Rang"
+=======
+msgstr "Următorul rang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul rang"
 >>>>>>> upstream/18.0
@@ -2199,7 +2686,11 @@ msgstr "Data următorului raport"
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "No Karma Tracking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără urmărire karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără urmărire karma"
 >>>>>>> upstream/18.0
@@ -2213,7 +2704,11 @@ msgstr "Niciun obiectiv găsit"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "No monthly sending limit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără trimitere limită lunară"
+=======
+msgstr "Fără limită lunară de trimitere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără limită lunară de trimitere"
 >>>>>>> upstream/18.0
@@ -2227,7 +2722,11 @@ msgstr "Nimeni nu poate rezolva provocările ca tine."
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__nobody
 msgid "No one, assigned through challenges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nimănui, alocată prin provocări"
+=======
+msgstr "Nimeni, atribuit prin provocări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nimeni, atribuit prin provocări"
 >>>>>>> upstream/18.0
@@ -2240,6 +2739,11 @@ msgid ""
 "challenge."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nimeni nu a reușit să atingă toate obiectivele, nicio insignă nu este "
+"acordată pentru această provocare."
+>>>>>>> upstream/18.0
 =======
 "Nimeni nu a reușit să atingă toate obiectivele, nicio insignă nu este "
 "acordată pentru această provocare."
@@ -2251,7 +2755,11 @@ msgstr ""
 msgid "Nobody reached the required conditions to receive special badges."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nimeni nu a atins condițiile necesare pentru a primi ecusoane speciale."
+=======
+"Nimeni nu a atins condițiile necesare pentru a primi insigne speciale."
+>>>>>>> upstream/18.0
 =======
 "Nimeni nu a atins condițiile necesare pentru a primi insigne speciale."
 >>>>>>> upstream/18.0
@@ -2260,7 +2768,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__period__once
 msgid "Non recurring"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nerecursiv"
+=======
+msgstr "Nerecurent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nerecurent"
 >>>>>>> upstream/18.0
@@ -2269,7 +2781,11 @@ msgstr "Nerecurent"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__remind_update_delay
 msgid "Non-updated manual goals will be reminded after"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obiectivele neactualizate manual vă vor fi reamintite după"
+=======
+msgstr "Obiectivele manuale neactualizate vor fi reamintite după"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obiectivele manuale neactualizate vor fi reamintite după"
 >>>>>>> upstream/18.0
@@ -2296,7 +2812,11 @@ msgstr "Număr de erori"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje care necesită acțiune"
+=======
+msgstr "Număr de mesaje care necesită acțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje care necesită acțiune"
 >>>>>>> upstream/18.0
@@ -2306,7 +2826,11 @@ msgstr "Număr de mesaje care necesită acțiune"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje cu eroare de livrare"
+=======
+msgstr "Număr de mesaje cu eroare de livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje cu eroare de livrare"
 >>>>>>> upstream/18.0
@@ -2315,7 +2839,11 @@ msgstr "Număr de mesaje cu eroare de livrare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__granted_users_count
 msgid "Number of users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numar utilizatori"
+=======
+msgstr "Număr de utilizatori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de utilizatori"
 >>>>>>> upstream/18.0
@@ -2324,7 +2852,11 @@ msgstr "Număr de utilizatori"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__old_value
 msgid "Old Karma Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare Veche Reputație"
+=======
+msgstr "Valoare veche karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare veche karma"
 >>>>>>> upstream/18.0
@@ -2338,7 +2870,11 @@ msgstr "La modificare"
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth_badge_ids
 msgid "Only the people having these badges can give this badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numai persoanele care au aceste ecusoane pot da acest ecuson"
+=======
+msgstr "Doar persoanele care au aceste insigne pot acorda această insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar persoanele care au aceste insigne pot acorda această insignă"
 >>>>>>> upstream/18.0
@@ -2347,7 +2883,11 @@ msgstr "Doar persoanele care au aceste insigne pot acorda această insignă"
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth_user_ids
 msgid "Only these people can give this badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numai acești oameni pot acorda această insignă"
+=======
+msgstr "Doar aceste persoane pot acorda această insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar aceste persoane pot acorda această insignă"
 >>>>>>> upstream/18.0
@@ -2361,7 +2901,11 @@ msgstr "Optimizare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__owner_ids
 msgid "Owners"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proprietarii"
+=======
+msgstr "Proprietari"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proprietari"
 >>>>>>> upstream/18.0
@@ -2377,7 +2921,11 @@ msgstr "Participanți"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_badge__rule_auth__having
 msgid "People having some badges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Persoane având o anumită insignă"
+=======
+msgstr "Persoane care au anumite insigne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Persoane care au anumite insigne"
 >>>>>>> upstream/18.0
@@ -2394,6 +2942,11 @@ msgid ""
 " manually."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Perioada de atribuire automată a obiectivelor. Dacă nu este selectată nicio "
+"opțiune, trebuie lansată manual."
+>>>>>>> upstream/18.0
 =======
 "Perioada de atribuire automată a obiectivelor. Dacă nu este selectată nicio "
 "opțiune, trebuie lansată manual."
@@ -2408,7 +2961,11 @@ msgstr "Periodicitate"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Previous Total"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total anterior"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total anterior"
 >>>>>>> upstream/18.0
@@ -2417,7 +2974,11 @@ msgstr "Total anterior"
 #: model:gamification.badge,name:gamification.badge_problem_solver
 msgid "Problem Solver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Problemă rezolvată"
+=======
+msgstr "Rezolvator de probleme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezolvator de probleme"
 >>>>>>> upstream/18.0
@@ -2426,7 +2987,11 @@ msgstr "Rezolvator de probleme"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__display_mode__progress
 msgid "Progressive (using numerical values)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Progresiv (utilizând valoare numerică)"
+=======
+msgstr "Progresiv (folosind valori numerice)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Progresiv (folosind valori numerice)"
 >>>>>>> upstream/18.0
@@ -2443,6 +3008,12 @@ msgid ""
 "current value. Evaluated user can be access through object.user_id."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Cod Python care va fi executat pentru fiecare utilizator. 'result' trebuie "
+"să conțină noua valoare curentă. Utilizatorul evaluat poate fi accesat prin "
+"object.user_id."
+>>>>>>> upstream/18.0
 =======
 "Cod Python care va fi executat pentru fiecare utilizator. 'result' trebuie "
 "să conțină noua valoare curentă. Utilizatorul evaluat poate fi accesat prin "
@@ -2459,7 +3030,11 @@ msgstr "Rang"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__name
 msgid "Rank Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Rang"
+=======
+msgstr "Nume rang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume rang"
 >>>>>>> upstream/18.0
@@ -2468,7 +3043,11 @@ msgstr "Nume rang"
 #: model:ir.model,name:gamification.model_gamification_karma_rank
 msgid "Rank based on karma"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rang bazat pe reputație"
+=======
+msgstr "Rang bazat pe karma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rang bazat pe karma"
 >>>>>>> upstream/18.0
@@ -2483,7 +3062,11 @@ msgstr "Ranguri"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_tree
 msgid "Ranks List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listă Ranguri"
+=======
+msgstr "Listă ranguri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă ranguri"
 >>>>>>> upstream/18.0
@@ -2492,7 +3075,11 @@ msgstr "Listă ranguri"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and become a Master!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și devino un Maestru!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și devino un Maestru!"
 >>>>>>> upstream/18.0
@@ -2501,7 +3088,11 @@ msgstr "Atinge următorul rang și devino un Maestru!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and become a powerful user!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și devino un utilizator puternic!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și devino un utilizator puternic!"
 >>>>>>> upstream/18.0
@@ -2510,7 +3101,11 @@ msgstr "Atinge următorul rang și devino un utilizator puternic!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank and gain a very magic wand!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și primește o baghetă magică!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și primește o baghetă magică!"
 >>>>>>> upstream/18.0
@@ -2519,7 +3114,11 @@ msgstr "Atinge următorul rang și primește o baghetă magică!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_master
 msgid "Reach the next rank and gain a very nice hat!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și primește o pălărie foarte frumoasă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și primește o pălărie foarte frumoasă!"
 >>>>>>> upstream/18.0
@@ -2528,7 +3127,11 @@ msgstr "Atinge următorul rang și primește o pălărie foarte frumoasă!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank and gain a very nice mug!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și primește o cană foarte frumoasă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și primește o cană foarte frumoasă!"
 >>>>>>> upstream/18.0
@@ -2537,7 +3140,11 @@ msgstr "Atinge următorul rang și primește o cană foarte frumoasă!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_doctor
 msgid "Reach the next rank and gain a very nice unicorn!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang și primește un unicorn foarte frumos!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang și primește un unicorn foarte frumos!"
 >>>>>>> upstream/18.0
@@ -2546,7 +3153,11 @@ msgstr "Atinge următorul rang și primește un unicorn foarte frumos!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_bachelor
 msgid "Reach the next rank to improve your status!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang pentru a-ți îmbunătăți statutul!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang pentru a-ți îmbunătăți statutul!"
 >>>>>>> upstream/18.0
@@ -2555,7 +3166,11 @@ msgstr "Atinge următorul rang pentru a-ți îmbunătăți statutul!"
 #: model_terms:gamification.karma.rank,description_motivational:gamification.rank_student
 msgid "Reach the next rank to show the rest of the world you exist."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atinge următorul rang pentru a arăta lumii că exiști."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atinge următorul rang pentru a arăta lumii că exiști."
 >>>>>>> upstream/18.0
@@ -2569,7 +3184,11 @@ msgstr "Atins"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Reached when current value is"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atins atunci când valoarea curentă este"
+=======
+msgstr "Atins când valoarea curentă este"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atins când valoarea curentă este"
 >>>>>>> upstream/18.0
@@ -2588,7 +3207,11 @@ msgstr "Referință"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Refresh Challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizează Provocarea"
+=======
+msgstr "Reîmprospătează provocarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reîmprospătează provocarea"
 >>>>>>> upstream/18.0
@@ -2602,7 +3225,11 @@ msgstr "Obiective asociate"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__remaining_sending
 msgid "Remaining Sending Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimiteri rămase permise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimiteri rămase permise"
 >>>>>>> upstream/18.0
@@ -2611,7 +3238,11 @@ msgstr "Trimiteri rămase permise"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__remind_update_delay
 msgid "Remind delay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zile rămase"
+=======
+msgstr "Întârziere memento"
+>>>>>>> upstream/18.0
 =======
 msgstr "Întârziere memento"
 >>>>>>> upstream/18.0
@@ -2620,7 +3251,11 @@ msgstr "Întârziere memento"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Reminders for Manual Goals"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Memento-uri pentru obiective actualizate manual"
+=======
+msgstr "Memento-uri pentru obiective manuale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Memento-uri pentru obiective manuale"
 >>>>>>> upstream/18.0
@@ -2639,7 +3274,11 @@ msgstr "Șablon raport"
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_auth_badge_ids
 msgid "Required Badges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Insigne obligatorii"
+=======
+msgstr "Insigne necesare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Insigne necesare"
 >>>>>>> upstream/18.0
@@ -2648,7 +3287,11 @@ msgstr "Insigne necesare"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_rank__karma_min
 msgid "Required Karma"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reputație Necesară"
+=======
+msgstr "Karma necesară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma necesară"
 >>>>>>> upstream/18.0
@@ -2657,7 +3300,11 @@ msgstr "Karma necesară"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Reset Completion"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resetare completitudine"
+=======
+msgstr "Resetează completarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resetează completarea"
 >>>>>>> upstream/18.0
@@ -2673,8 +3320,13 @@ msgstr "Responsabil"
 msgid "Retrieving progress for personal challenge without user information"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Recuperarea progresului pentru provocare personală fără informații despre "
 "utilizator"
+=======
+"Se recuperează progresul pentru o provocare personală fără informații despre"
+" utilizator"
+>>>>>>> upstream/18.0
 =======
 "Se recuperează progresul pentru o provocare personală fără informații despre"
 " utilizator"
@@ -2693,6 +3345,11 @@ msgid ""
 "%(users)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Recompensa (insigna %(badge_name)s) pentru fiecare utilizator care a reușit "
+"a fost trimisă către %(users)s."
+>>>>>>> upstream/18.0
 =======
 "Recompensa (insigna %(badge_name)s) pentru fiecare utilizator care a reușit "
 "a fost trimisă către %(users)s."
@@ -2702,7 +3359,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_failure
 msgid "Reward Bests if not Succeeded?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recompensați cele mai bune dacă nu ați reușit?"
+=======
+msgstr "Recompensează cei mai buni dacă nu s-a reușit?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recompensează cei mai buni dacă nu s-a reușit?"
 >>>>>>> upstream/18.0
@@ -2711,7 +3372,11 @@ msgstr "Recompensează cei mai buni dacă nu s-a reușit?"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__reward_realtime
 msgid "Reward as soon as every goal is reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Recompensă de îndată ce se ajunge la fiecare obiectiv"
+=======
+msgstr "Recompensă imediat ce fiecare obiectiv este atins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recompensă imediat ce fiecare obiectiv este atins"
 >>>>>>> upstream/18.0
@@ -2735,7 +3400,11 @@ msgstr "Recompense pentru provocări"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Running"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În execuție"
+=======
+msgstr "În desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "În desfășurare"
 >>>>>>> upstream/18.0
@@ -2744,7 +3413,11 @@ msgstr "În desfășurare"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 msgid "Running Challenges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provocări în desfășurare "
+=======
+msgstr "Provocări în desfășurare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provocări în desfășurare"
 >>>>>>> upstream/18.0
@@ -2758,7 +3431,11 @@ msgstr "Programare"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_badge_view_search
 msgid "Search Badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Ecuson"
+=======
+msgstr "Caută insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută insignă"
 >>>>>>> upstream/18.0
@@ -2782,7 +3459,11 @@ msgstr "Caută obiective"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_ranks_view_search
 msgid "Search Ranks"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Ranguri"
+=======
+msgstr "Caută ranguri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută ranguri"
 >>>>>>> upstream/18.0
@@ -2791,7 +3472,11 @@ msgstr "Caută ranguri"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Search Trackings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare urmăriri"
+=======
+msgstr "Caută urmăriri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Caută urmăriri"
 >>>>>>> upstream/18.0
@@ -2803,8 +3488,13 @@ msgid ""
 "enforced for administrator."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reguli de securitate pentru a defini cui îi sunt permise să acordare manual "
 "insigne. Nu sunt aplicate pentru administrator."
+=======
+"Reguli de securitate pentru a defini cine are voie să acorde manual insigne."
+" Nu se aplică administratorului."
+>>>>>>> upstream/18.0
 =======
 "Reguli de securitate pentru a defini cine are voie să acorde manual insigne."
 " Nu se aplică administratorului."
@@ -2819,7 +3509,11 @@ msgstr "Trimite raport"
 #: model:mail.template,description:gamification.simple_report_template
 msgid "Send a challenge report to all participants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimite un raport de provocare tuturor participanților"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite un raport de provocare tuturor participanților"
 >>>>>>> upstream/18.0
@@ -2828,7 +3522,11 @@ msgstr "Trimite un raport de provocare tuturor participanților"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__report_message_group_id
 msgid "Send a copy to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite o copie la"
+=======
+msgstr "Trimite o copie către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite o copie către"
 >>>>>>> upstream/18.0
@@ -2842,7 +3540,11 @@ msgstr "Expeditor"
 #: model:mail.template,description:gamification.email_template_goal_reminder
 msgid "Sent automatically to participant who haven't updated their goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis automat participanților care nu și-au actualizat obiectivul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis automat participanților care nu și-au actualizat obiectivul"
 >>>>>>> upstream/18.0
@@ -2851,7 +3553,11 @@ msgstr "Trimis automat participanților care nu și-au actualizat obiectivul"
 #: model:mail.template,description:gamification.email_template_badge_received
 msgid "Sent automatically to the user who received a badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis automat utilizatorului care a primit o insignă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis automat utilizatorului care a primit o insignă"
 >>>>>>> upstream/18.0
@@ -2860,7 +3566,11 @@ msgstr "Trimis automat utilizatorului care a primit o insignă"
 #: model:mail.template,description:gamification.mail_template_data_new_rank_reached
 msgid "Sent automatically when user reaches a new rank"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis automat când utilizatorul atinge un nou rang"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis automat când utilizatorul atinge un nou rang"
 >>>>>>> upstream/18.0
@@ -2874,7 +3584,11 @@ msgstr "Secvență"
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Set the current value you have reached for this goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setați valoarea curentă pe care ați atins-o pentru acest obiectiv"
+=======
+msgstr "Setează valoarea curentă pe care ai atins-o pentru acest obiectiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează valoarea curentă pe care ai atins-o pentru acest obiectiv"
 >>>>>>> upstream/18.0
@@ -2883,7 +3597,11 @@ msgstr "Setează valoarea curentă pe care ai atins-o pentru acest obiectiv"
 #: model:gamification.goal.definition,name:gamification.definition_base_company_data
 msgid "Set your Company Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setați datele companiei dvs."
+=======
+msgstr "Setează datele companiei tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează datele companiei tale"
 >>>>>>> upstream/18.0
@@ -2892,7 +3610,11 @@ msgstr "Setează datele companiei tale"
 #: model:gamification.goal.definition,name:gamification.definition_base_company_logo
 msgid "Set your Company Logo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setează Logo companiei dvs."
+=======
+msgstr "Setează logo-ul companiei tale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează logo-ul companiei tale"
 >>>>>>> upstream/18.0
@@ -2901,7 +3623,11 @@ msgstr "Setează logo-ul companiei tale"
 #: model:gamification.goal.definition,name:gamification.definition_base_timezone
 msgid "Set your Timezone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setare fus orar"
+=======
+msgstr "Setează fusul orar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setează fusul orar"
 >>>>>>> upstream/18.0
@@ -2910,7 +3636,11 @@ msgstr "Setează fusul orar"
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_challenge__challenge_category__other
 msgid "Settings / Gamification Tools"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setări / Instrumente de Competiție"
+=======
+msgstr "Setări / Unelte de gamificare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Setări / Unelte de gamificare"
 >>>>>>> upstream/18.0
@@ -2919,7 +3649,11 @@ msgstr "Setări / Unelte de gamificare"
 #: model:gamification.challenge,name:gamification.challenge_base_configure
 msgid "Setup your Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Setați compania dvs."
+=======
+msgstr "Configurează compania ta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează compania ta"
 >>>>>>> upstream/18.0
@@ -2933,7 +3667,11 @@ msgstr "Argint"
 #: model:ir.model.fields,field_description:gamification.field_res_users__silver_badge
 msgid "Silver badges count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr ecusoare de arging"
+=======
+msgstr "Număr insigne argint"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr insigne argint"
 >>>>>>> upstream/18.0
@@ -2948,7 +3686,11 @@ msgstr "Sursă"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_search
 msgid "Source Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul sursă"
+=======
+msgstr "Tip sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip sursă"
 >>>>>>> upstream/18.0
@@ -2961,6 +3703,11 @@ msgid ""
 "challenge is:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Recompense speciale au fost trimise celor mai buni utilizatori. Clasamentul "
+"pentru această provocare este:"
+>>>>>>> upstream/18.0
 =======
 "Recompense speciale au fost trimise celor mai buni utilizatori. Clasamentul "
 "pentru această provocare este:"
@@ -2970,7 +3717,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "Start Challenge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Start provocare"
+=======
+msgstr "Pornește provocarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pornește provocarea"
 >>>>>>> upstream/18.0
@@ -2980,7 +3731,11 @@ msgstr "Pornește provocarea"
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__start_date
 msgid "Start Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată început"
+=======
+msgstr "Data de început"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data de început"
 >>>>>>> upstream/18.0
@@ -2989,7 +3744,11 @@ msgstr "Data de început"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "Start goal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Start obiectiv"
+=======
+msgstr "Pornește obiectivul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pornește obiectivul"
 >>>>>>> upstream/18.0
@@ -3001,7 +3760,11 @@ msgstr "Pornește obiectivul"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "State"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -3010,7 +3773,11 @@ msgstr "Stare"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistica"
+=======
+msgstr "Statistici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici"
 >>>>>>> upstream/18.0
@@ -3052,7 +3819,11 @@ msgstr "Valoare țintă de atins"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_kanban_view
 msgid "Target: less than"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ținta: mai mică de"
+=======
+msgstr "Țintă: mai mică decât"
+>>>>>>> upstream/18.0
 =======
 msgstr "Țintă: mai mică decât"
 >>>>>>> upstream/18.0
@@ -3062,7 +3833,11 @@ msgstr "Țintă: mai mică decât"
 #: code:addons/gamification/tests/test_karma_tracking.py:0
 msgid "Test Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motiv de test"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv de test"
 >>>>>>> upstream/18.0
@@ -3071,7 +3846,11 @@ msgstr "Motiv de test"
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__action_id
 msgid "The action that will be called to update the goal value."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acțiunea care va fi chemată pentru actualizarea valorii obiectivului."
+=======
+msgstr "Acțiunea care va fi apelată pentru a actualiza valoarea obiectivului."
+>>>>>>> upstream/18.0
 =======
 msgstr "Acțiunea care va fi apelată pentru a actualiza valoarea obiectivului."
 >>>>>>> upstream/18.0
@@ -3081,7 +3860,11 @@ msgstr "Acțiunea care va fi apelată pentru a actualiza valoarea obiectivului."
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "The challenge %s is finished."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Provocarea este %s finalizată."
+=======
+msgstr "Provocarea %s este finalizată."
+>>>>>>> upstream/18.0
 =======
 msgstr "Provocarea %s este finalizată."
 >>>>>>> upstream/18.0
@@ -3105,9 +3888,14 @@ msgid ""
 "set, will use this date as the goal end date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În ziua în care o nouă provocare va fi închisă automat. Dacă nu este "
 "stabilită nicio periodicitate, va folosi această dată ca dată de încheiere a"
 " obiectivului."
+=======
+"Ziua în care o nouă provocare va fi închisă automat. Dacă nu este setată "
+"periodicitate, va folosi această dată ca dată de final pentru obiectiv."
+>>>>>>> upstream/18.0
 =======
 "Ziua în care o nouă provocare va fi închisă automat. Dacă nu este setată "
 "periodicitate, va folosi această dată ca dată de final pentru obiectiv."
@@ -3120,9 +3908,14 @@ msgid ""
 "set, will use this date as the goal start date."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "În ziua în care va începe automat o nouă provocare. Dacă nu este stabilită "
 "nicio periodicitate, va folosi această dată ca dată de începere a "
 "obiectivului."
+=======
+"Ziua în care o nouă provocare va fi pornită automat. Dacă nu este setată "
+"periodicitate, va folosi această dată ca dată de început pentru obiectiv."
+>>>>>>> upstream/18.0
 =======
 "Ziua în care o nouă provocare va fi pornită automat. Dacă nu este setată "
 "periodicitate, va folosi această dată ca dată de început pentru obiectiv."
@@ -3137,7 +3930,12 @@ msgid ""
 "%(error_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Domeniul pentru definiție  %(definition)s pare incorect, vă rugăm să-l verificați.\n"
+=======
+"Domeniul pentru definiția %(definition)s pare incorect, vă rugăm să verificați.\n"
+"\n"
+>>>>>>> upstream/18.0
 =======
 "Domeniul pentru definiția %(definition)s pare incorect, vă rugăm să verificați.\n"
 "\n"
@@ -3157,7 +3955,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__higher
 msgid "The higher the better"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mai mare e mai bine"
+=======
+msgstr "Cu cât mai mare, cu atât mai bine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu cât mai mare, cu atât mai bine"
 >>>>>>> upstream/18.0
@@ -3166,7 +3968,11 @@ msgstr "Cu cât mai mare, cu atât mai bine"
 #: model:ir.model.fields,help:gamification.field_gamification_badge__owner_ids
 msgid "The list of instances of this badge granted to users"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista instanțelor acestei ecusoane acordate utilizatorilor"
+=======
+msgstr "Lista instanțelor acestei insigne acordate utilizatorilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista instanțelor acestei insigne acordate utilizatorilor"
 >>>>>>> upstream/18.0
@@ -3175,7 +3981,11 @@ msgstr "Lista instanțelor acestei insigne acordate utilizatorilor"
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__model_inherited_ids
 msgid "The list of models that extends the current model."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista modelelor care extinde modelul actual."
+=======
+msgstr "Lista modelelor care extind modelul actual."
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista modelelor care extind modelul actual."
 >>>>>>> upstream/18.0
@@ -3189,7 +3999,11 @@ msgstr "Lista utilizatorilor unici care au primit această insignă."
 #: model:ir.model.fields.selection,name:gamification.selection__gamification_goal_definition__condition__lower
 msgid "The lower the better"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mai mic e mai bine"
+=======
+msgstr "Cu cât mai mic, cu atât mai bine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu cât mai mic, cu atât mai bine"
 >>>>>>> upstream/18.0
@@ -3200,7 +4014,11 @@ msgid ""
 "The maximum number of time this badge can be sent per month per person."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul maxim de timp în care această insignă poate fi trimisă pe lună de "
+=======
+"Numărul maxim de ori în care această insignă poate fi trimisă pe lună de o "
+>>>>>>> upstream/18.0
 =======
 "Numărul maxim de ori în care această insignă poate fi trimisă pe lună de o "
 >>>>>>> upstream/18.0
@@ -3215,9 +4033,15 @@ msgid ""
 "%(error)s not found"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configurația modelului pentru definiție%(name)s pare incorect, vă rugăm să îl verificați.\n"
 "\n"
 "%(error)s nu a fost găsite"
+=======
+"Configurația modelului pentru definiția %(name)s pare incorectă, vă rugăm să verificați.\n"
+"\n"
+"%(error)s nu a fost găsit"
+>>>>>>> upstream/18.0
 =======
 "Configurația modelului pentru definiția %(name)s pare incorectă, vă rugăm să verificați.\n"
 "\n"
@@ -3233,7 +4057,11 @@ msgid ""
 "%(field_name)s not stored"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Configurația modelului pentru definiție %(name)s pare incorect, vă rugăm să o verificați.\n"
+=======
+"Configurația modelului pentru definiția %(name)s pare incorectă, vă rugăm să o verificați.\n"
+>>>>>>> upstream/18.0
 =======
 "Configurația modelului pentru definiția %(name)s pare incorectă, vă rugăm să o verificați.\n"
 >>>>>>> upstream/18.0
@@ -3247,8 +4075,14 @@ msgid ""
 "reminded. Never reminded if no value is specified."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de zile după care utilizatorul atribuit unui obiectiv manual va fi "
 "reamintit. Nu vă reamintiți niciodată dacă nu este specificată nicio valoare"
+=======
+"Numărul de zile după care utilizatorul atribuit unui obiectiv manual va "
+"primi un memento. Nu se trimite memento dacă nu este specificată nicio "
+"valoare."
+>>>>>>> upstream/18.0
 =======
 "Numărul de zile după care utilizatorul atribuit unui obiectiv manual va "
 "primi un memento. Nu se trimite memento dacă nu este specificată nicio "
@@ -3261,7 +4095,11 @@ msgid ""
 "The number of time the current user has received this badge this month."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de timp în care utilizatorul actual a primit această insignă luna "
+=======
+"Numărul de ori în care utilizatorul curent a primit această insignă luna "
+>>>>>>> upstream/18.0
 =======
 "Numărul de ori în care utilizatorul curent a primit această insignă luna "
 >>>>>>> upstream/18.0
@@ -3271,7 +4109,11 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my
 msgid "The number of time the current user has received this badge."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de timp în care utilizatorul actual a primit această insignă."
+=======
+msgstr "Numărul de ori în care utilizatorul curent a primit această insignă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul de ori în care utilizatorul curent a primit această insignă."
 >>>>>>> upstream/18.0
@@ -3281,7 +4123,11 @@ msgstr "Numărul de ori în care utilizatorul curent a primit această insignă.
 msgid "The number of time the current user has sent this badge this month."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de timp în care utilizatorul actual a trimis această insignă luna "
+=======
+"Numărul de ori în care utilizatorul curent a trimis această insignă luna "
+>>>>>>> upstream/18.0
 =======
 "Numărul de ori în care utilizatorul curent a trimis această insignă luna "
 >>>>>>> upstream/18.0
@@ -3292,7 +4138,11 @@ msgstr ""
 msgid "The number of time this badge has been received by unique users."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Numărul de timp în care această insignă a fost primită de utilizatori unici."
+=======
+"Numărul de ori în care această insignă a fost primită de utilizatori unici."
+>>>>>>> upstream/18.0
 =======
 "Numărul de ori în care această insignă a fost primită de utilizatori unici."
 >>>>>>> upstream/18.0
@@ -3301,7 +4151,11 @@ msgstr ""
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_this_month
 msgid "The number of time this badge has been received this month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de timp în care această insignă a fost primită luna aceasta."
+=======
+msgstr "Numărul de ori în care această insignă a fost primită luna aceasta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul de ori în care această insignă a fost primită luna aceasta."
 >>>>>>> upstream/18.0
@@ -3310,7 +4164,11 @@ msgstr "Numărul de ori în care această insignă a fost primită luna aceasta.
 #: model:ir.model.fields,help:gamification.field_gamification_badge__granted_count
 msgid "The number of time this badge has been received."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de timp în care a primit această insignă."
+=======
+msgstr "Numărul de ori în care această insignă a fost primită."
+>>>>>>> upstream/18.0
 =======
 msgstr "Numărul de ori în care această insignă a fost primită."
 >>>>>>> upstream/18.0
@@ -3319,7 +4177,11 @@ msgstr "Numărul de ori în care această insignă a fost primită."
 #: model:ir.model.constraint,message:gamification.constraint_gamification_karma_rank_karma_min_check
 msgid "The required karma has to be above 0."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reputația necesară trebuie să fie peste 0."
+=======
+msgstr "Karma necesară trebuie să fie mai mare decât 0."
+>>>>>>> upstream/18.0
 =======
 msgstr "Karma necesară trebuie să fie mai mare decât 0."
 >>>>>>> upstream/18.0
@@ -3329,7 +4191,11 @@ msgstr "Karma necesară trebuie să fie mai mare decât 0."
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__monetary
 msgid "The target and current value are defined in the company currency."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ținta și valoarea curentă sunt definite în moneda companiei."
+=======
+msgstr "Valoarea țintă și valoarea curentă sunt definite în moneda companiei."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoarea țintă și valoarea curentă sunt definite în moneda companiei."
 >>>>>>> upstream/18.0
@@ -3347,6 +4213,11 @@ msgid ""
 "badge."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilizatorii care au îndeplinit aceste obiective vor primi automat această "
+"insignă."
+>>>>>>> upstream/18.0
 =======
 "Utilizatorii care au îndeplinit aceste obiective vor primi automat această "
 "insignă."
@@ -3361,8 +4232,13 @@ msgid ""
 msgstr ""
 "Valoarea de comparat cu câmpul distinctiv. Expresia poate conține referință "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "la „utilizator”, care este o înregistrare de navigare a utilizatorului "
 "curent, de ex. user.id, user.partner_id.id ..."
+=======
+"la 'user', care este o înregistrare a utilizatorului curent, ex. user.id, "
+"user.partner_id.id..."
+>>>>>>> upstream/18.0
 =======
 "la 'user', care este o înregistrare a utilizatorului curent, ex. user.id, "
 "user.partner_id.id..."
@@ -3375,8 +4251,13 @@ msgid ""
 "            Make sure that your challenge is active and assigned to at least one user."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu există niciun obiectiv asociat acestei provocări care să corespundă căutării dvs.\n"
 "            Asigurați-vă că provocarea dvs. este activă și atribuită cel puțin unui utilizator."
+=======
+"Nu există niciun obiectiv asociat acestei provocări care să corespundă căutării tale.\n"
+"Asigură-te că provocarea este activă și atribuită cel puțin unui utilizator."
+>>>>>>> upstream/18.0
 =======
 "Nu există niciun obiectiv asociat acestei provocări care să corespundă căutării tale.\n"
 "Asigură-te că provocarea este activă și atribuită cel puțin unui utilizator."
@@ -3413,7 +4294,11 @@ msgstr "Total"
 #: model:ir.model,name:gamification.model_gamification_karma_tracking
 msgid "Track Karma Changes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăriți modificările karmei"
+=======
+msgstr "Urmărește modificările karmei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește modificările karmei"
 >>>>>>> upstream/18.0
@@ -3422,7 +4307,11 @@ msgstr "Urmărește modificările karmei"
 #: model_terms:ir.actions.act_window,help:gamification.gamification_karma_tracking_action
 msgid "Track the sources of the users karma and monitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmărește sursele karmei utilizatorilor și monitorizează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărește sursele karmei utilizatorilor și monitorizează"
 >>>>>>> upstream/18.0
@@ -3436,7 +4325,11 @@ msgstr "Urmărire"
 #: model:ir.model.fields,field_description:gamification.field_gamification_karma_tracking__tracking_date
 msgid "Tracking Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dată urmărire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată urmărire"
 >>>>>>> upstream/18.0
@@ -3445,7 +4338,11 @@ msgstr "Dată urmărire"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_tracking_view_tree
 msgid "Trackings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmăriri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăriri"
 >>>>>>> upstream/18.0
@@ -3459,7 +4356,11 @@ msgstr "Proprietari unici"
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge_line__definition_suffix
 msgid "Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "buc"
+=======
+msgstr "Unitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitate"
 >>>>>>> upstream/18.0
@@ -3468,7 +4369,11 @@ msgstr "Unitate"
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Update"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare"
+=======
+msgstr "Actualizează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează"
 >>>>>>> upstream/18.0
@@ -3478,7 +4383,11 @@ msgstr "Actualizează"
 #: code:addons/gamification/models/gamification_goal.py:0
 msgid "Update %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizare %s"
+=======
+msgstr "Actualizează %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează %s"
 >>>>>>> upstream/18.0
@@ -3500,7 +4409,11 @@ msgstr "Utilizator"
 #: code:addons/gamification/models/res_users.py:0
 msgid "User Creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creare utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creare utilizator"
 >>>>>>> upstream/18.0
@@ -3540,7 +4453,11 @@ msgid ""
 msgstr ""
 "Cu această opțiune activată, un utilizator poate primi o insignă o singură "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "dată. Primele 3 ecusoane sunt încă răsplătite doar la sfârșitul provocării."
+=======
+"dată. Primele 3 insigne sunt totuși acordate doar la finalul provocării."
+>>>>>>> upstream/18.0
 =======
 "dată. Primele 3 insigne sunt totuși acordate doar la finalul provocării."
 >>>>>>> upstream/18.0
@@ -3549,7 +4466,11 @@ msgstr ""
 #: model_terms:gamification.badge,description:gamification.badge_idea
 msgid "With your brilliant ideas, you are an inspiration to others."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cu ideile tale strălucitoare, ești o inspirație pentru ceilalți."
+=======
+msgstr "Cu ideile tale strălucite, ești o inspirație pentru ceilalți."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cu ideile tale strălucite, ești o inspirație pentru ceilalți."
 >>>>>>> upstream/18.0
@@ -3565,7 +4486,11 @@ msgstr "Anual"
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You are not in the user allowed list."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu vă aflați în lista de utilizatori autorizați."
+=======
+msgstr "Nu ești în lista de utilizatori autorizați."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu ești în lista de utilizatori autorizați."
 >>>>>>> upstream/18.0
@@ -3575,7 +4500,11 @@ msgstr "Nu ești în lista de utilizatori autorizați."
 #: code:addons/gamification/wizard/grant_badge.py:0
 msgid "You can not grant a badge to yourself."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu vă puteți acorda o insignă."
+=======
+msgstr "Nu poți acorda o insignă ție însuți."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu poți acorda o insignă ție însuți."
 >>>>>>> upstream/18.0
@@ -3585,7 +4514,11 @@ msgstr "Nu poți acorda o insignă ție însuți."
 #: code:addons/gamification/models/gamification_challenge.py:0
 msgid "You can not reset a challenge with unfinished goals."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu puteți reseta o provocare cu obiective neterminate."
+=======
+msgstr "Nu poți reseta o provocare cu obiective nefinalizate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu poți reseta o provocare cu obiective nefinalizate."
 >>>>>>> upstream/18.0
@@ -3594,7 +4527,11 @@ msgstr "Nu poți reseta o provocare cu obiective nefinalizate."
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "You can still grant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Puteți acorda în continuare"
+=======
+msgstr "Poți acorda în continuare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poți acorda în continuare"
 >>>>>>> upstream/18.0
@@ -3603,7 +4540,11 @@ msgstr "Poți acorda în continuare"
 #: model_terms:gamification.badge,description:gamification.badge_good_job
 msgid "You did great at your job."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Te-ai descurcat foarte bine la locul de muncă."
+=======
+msgstr "Te-ai descurcat excelent la locul de muncă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Te-ai descurcat excelent la locul de muncă."
 >>>>>>> upstream/18.0
@@ -3613,7 +4554,11 @@ msgstr "Te-ai descurcat excelent la locul de muncă."
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You do not have the required badges."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu aveți insignele necesare."
+=======
+msgstr "Nu ai insignele necesare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu ai insignele necesare."
 >>>>>>> upstream/18.0
@@ -3623,7 +4568,11 @@ msgstr "Nu ai insignele necesare."
 #: code:addons/gamification/models/gamification_badge.py:0
 msgid "You have already sent this badge too many time this month."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ați trimis deja această insignă de prea multe ori luna aceasta."
+=======
+msgstr "Ai trimis deja această insignă de prea multe ori luna aceasta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ai trimis deja această insignă de prea multe ori luna aceasta."
 >>>>>>> upstream/18.0
@@ -3632,7 +4581,11 @@ msgstr "Ai trimis deja această insignă de prea multe ori luna aceasta."
 #: model_terms:gamification.badge,description:gamification.badge_hidden
 msgid "You have found the hidden badge"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ați găsit insigna ascunsă"
+=======
+msgstr "Ai găsit insigna ascunsă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ai găsit insigna ascunsă"
 >>>>>>> upstream/18.0
@@ -3646,7 +4599,11 @@ msgstr "Ai atins ultimul rang. Felicitări!"
 #: model_terms:gamification.karma.rank,description:gamification.rank_newbie
 msgid "You just began the adventure! Welcome!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tocmai ai început aventura! Bine ati venit!"
+=======
+msgstr "Tocmai ai început aventura! Bine ai venit!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tocmai ai început aventura! Bine ai venit!"
 >>>>>>> upstream/18.0
@@ -3655,7 +4612,11 @@ msgstr "Tocmai ai început aventura! Bine ai venit!"
 #: model_terms:gamification.karma.rank,description:gamification.rank_master
 msgid "You know what you are talking about. People learn from you."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "You know what you are talking about. People learn from you."
+=======
+msgstr "Știi despre ce vorbești. Oamenii învață de la tine."
+>>>>>>> upstream/18.0
 =======
 msgstr "Știi despre ce vorbești. Oamenii învață de la tine."
 >>>>>>> upstream/18.0
@@ -3665,8 +4626,12 @@ msgstr "Știi despre ce vorbești. Oamenii învață de la tine."
 msgid "You love learning things. Curiosity is a good way to progress."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Îți place să înveți lucruri. Curiozitatea este o modalitate bună de a "
 "progresa."
+=======
+"Îți place să înveți lucruri. Curiozitatea este o cale bună de progres."
+>>>>>>> upstream/18.0
 =======
 "Îți place să înveți lucruri. Curiozitatea este o cale bună de progres."
 >>>>>>> upstream/18.0
@@ -3693,8 +4658,12 @@ msgid ""
 "e.g. A Master Chief knows quite everything on the forum! You cannot beat "
 "him!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "de exemplu. Un master Chief știe destul de tot pe forum! Nu-l poți bate!"
+=======
+msgstr "ex: Un Master Chief știe aproape totul pe forum! Nu-l poți întrece!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Un Master Chief știe aproape totul pe forum! Nu-l poți întrece!"
 >>>>>>> upstream/18.0
@@ -3703,7 +4672,11 @@ msgstr "ex: Un Master Chief știe aproape totul pe forum! Nu-l poți întrece!"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. Get started"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Începe"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Începe"
 >>>>>>> upstream/18.0
@@ -3712,7 +4685,11 @@ msgstr "ex: Începe"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Master Chief"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Master Chief"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Master Chief"
 >>>>>>> upstream/18.0
@@ -3721,7 +4698,11 @@ msgstr "ex: Master Chief"
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 msgid "e.g. Monthly Sales Objectives"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ex: Obiective vânzări lunare"
+=======
+msgstr "ex: Obiective lunare de vânzări"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Obiective lunare de vânzări"
 >>>>>>> upstream/18.0
@@ -3730,7 +4711,11 @@ msgstr "ex: Obiective lunare de vânzări"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "e.g. Problem Solver"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ex. Rezolvator de probleme"
+=======
+msgstr "ex: Rezolvator de probleme"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Rezolvator de probleme"
 >>>>>>> upstream/18.0
@@ -3739,7 +4724,11 @@ msgstr "ex: Rezolvator de probleme"
 #: model_terms:ir.ui.view,arch_db:gamification.gamification_karma_rank_view_form
 msgid "e.g. Reach this rank to gain a free mug!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Ajungi la acest rang și primești o cană cadou!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Ajungi la acest rang și primești o cană cadou!"
 >>>>>>> upstream/18.0
@@ -3748,7 +4737,11 @@ msgstr "ex: Ajungi la acest rang și primești o cană cadou!"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. Register to the platform"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Înregistrează-te pe platformă"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Înregistrează-te pe platformă"
 >>>>>>> upstream/18.0
@@ -3757,7 +4750,11 @@ msgstr "ex: Înregistrează-te pe platformă"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ex. zile"
+=======
+msgstr "ex: zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: zile"
 >>>>>>> upstream/18.0
@@ -3766,7 +4763,11 @@ msgstr "ex: zile"
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. user.partner_id.id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ex. user.partner_id.id"
+=======
+msgstr "ex: user.partner_id.id"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: user.partner_id.id"
 >>>>>>> upstream/18.0
@@ -3775,7 +4776,11 @@ msgstr "ex: user.partner_id.id"
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "granted,"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "acordat,"
+=======
+msgstr "acordate,"
+>>>>>>> upstream/18.0
 =======
 msgstr "acordate,"
 >>>>>>> upstream/18.0

@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Tony Ng, 2025
 =======
@@ -147,6 +148,10 @@
 =======
 # Tony Ng, 2025
 # Wil Odoo, 2025
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
+# Tony Ng, 2025
 >>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
@@ -325,6 +330,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +712,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-06 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Tony Ng, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -766,7 +777,11 @@ msgid " (Demo)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "（示範）"
+>>>>>>> upstream/18.0
 =======
 msgstr "（示範）"
 >>>>>>> upstream/18.0
@@ -944,7 +959,11 @@ msgid " (Test)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "（測試）"
+>>>>>>> upstream/18.0
 =======
 msgstr "（測試）"
 >>>>>>> upstream/18.0
@@ -1122,7 +1141,11 @@ msgid " (no VAT)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "（無增值稅）"
+>>>>>>> upstream/18.0
 =======
 msgstr "（無增值稅）"
 >>>>>>> upstream/18.0
@@ -1269,6 +1292,7 @@ msgstr "%s 要求透過 Peppol 接收電子發票。"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,6 +1503,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
 "<br/>\n"
@@ -1516,6 +1542,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1602,6 +1631,7 @@ msgstr ""
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid ""
 "A participant with these details has already been registered on the network."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1732,6 +1762,10 @@ msgstr ""
 =======
 " If you have previously registered to a Peppol service, please deregister."
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+" If you have previously registered to a Peppol service, please deregister."
+msgstr "Peppol 網絡上已有參與者使用相同的資料註冊。如果你之前已註冊使用 Peppol 服務，請取消註冊。"
 >>>>>>> upstream/18.0
 =======
 " If you have previously registered to a Peppol service, please deregister."
@@ -2154,7 +2188,10 @@ msgstr "錯誤"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2347,6 +2384,9 @@ msgstr "建立 EDI 文件時發生錯誤(格式: %s)："
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2580,6 +2620,7 @@ msgstr "若想由 Peppol 開立發票，配置必須有效。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "In Belgium, electronic invoicing will be <u>mandatory as of January "
@@ -2587,6 +2628,8 @@ msgid ""
 msgstr "比利時將會<u>由 2026 年 1 月起強制採用</u>電子發票。"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2901,6 +2944,7 @@ msgstr "Peppol：更新參與者狀態"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid ""
 "PS: <b style=\"color: $o-enterprise-action-color;\">We did not send your "
@@ -2916,6 +2960,8 @@ msgid ""
 msgstr "註：此發票也已於 <b style=\"color: $o-enterprise-action-color\">Peppol 傳送</b>。"
 
 #. module: account_peppol
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3108,6 +3154,7 @@ msgstr "Peppol 終端點"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3313,6 +3360,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Peppol ID"
 msgstr "Peppol 識別碼"
@@ -3354,6 +3403,9 @@ msgstr "Peppol 識別碼"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3768,6 +3820,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This feature is deprecated. Contact odoo support if you need a migration "
 "key."
 msgstr "此功能已棄用。若需要遷移金鑰，請聯絡 Odoo 技術支援。"
@@ -3905,11 +3958,14 @@ msgstr "此功能已棄用。若需要遷移金鑰，請聯絡 Odoo 技術支援
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This feature is deprecated. Contact Odoo support if you need a migration "
 "key."
 msgstr ""
 
 #. module: account_peppol
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4105,6 +4161,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4146,6 +4204,9 @@ msgstr "此發票也已經"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4334,7 +4395,11 @@ msgid ""
 "Your Peppol registration will be activated soon. You can already send "
 "invoices."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "你的 Peppol 註冊會很快啟動。你現已可以傳送發票。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你的 Peppol 註冊會很快啟動。你現已可以傳送發票。"
 >>>>>>> upstream/18.0
@@ -4433,6 +4498,7 @@ msgstr "Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
 msgstr "發票及貸記單。"
@@ -4474,6 +4540,11 @@ msgstr "發票及貸記單。"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
+msgid "could not be sent via Peppol"
+msgstr "未能透過 Peppol 傳送"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
@@ -4705,7 +4776,11 @@ msgid "sent via Peppol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已透過 Peppol 傳送"
+>>>>>>> upstream/18.0
 =======
 msgstr "已透過 Peppol 傳送"
 >>>>>>> upstream/18.0
@@ -4822,7 +4897,11 @@ msgstr "已透過 Peppol 傳送"
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "to send invoices, but this one"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "以傳送發票，但這個"
+>>>>>>> upstream/18.0
 =======
 msgstr "以傳送發票，但這個"
 >>>>>>> upstream/18.0
@@ -4837,6 +4916,7 @@ msgid "uses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4979,6 +5059,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "使用"
 >>>>>>> upstream/18.0
 =======
 msgstr "使用"

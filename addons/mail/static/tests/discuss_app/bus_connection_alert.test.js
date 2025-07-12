@@ -3,12 +3,32 @@ import { WEBSOCKET_CLOSE_CODES } from "@bus/workers/websocket_worker";
 import { defineMailModels, openDiscuss, start } from "@mail/../tests/mail_test_helpers";
 import { describe, expect, test } from "@odoo/hoot";
 import { animationFrame, runAllTimers, waitFor, waitForNone } from "@odoo/hoot-dom";
+<<<<<<< HEAD
+=======
+
+import { browser } from "@web/core/browser/browser";
+>>>>>>> upstream/18.0
 import { asyncStep, MockServer, waitForSteps } from "@web/../tests/web_test_helpers";
 
 defineMailModels();
 describe.current.tags("desktop");
 
 test("show warning when bus connection encounters issues", async () => {
+<<<<<<< HEAD
+=======
+    // The bus service listens to online/offline events. Prevent them to make the
+    // test deterministic.
+    for (const event of ["online", "offline"]) {
+        browser.addEventListener(
+            event,
+            (ev) => {
+                ev.preventDefault();
+                ev.stopImmediatePropagation();
+            },
+            { capture: true }
+        );
+    }
+>>>>>>> upstream/18.0
     addBusServiceListeners(
         ["connect", () => asyncStep("connect")],
         ["reconnect", () => asyncStep("reconnect")],

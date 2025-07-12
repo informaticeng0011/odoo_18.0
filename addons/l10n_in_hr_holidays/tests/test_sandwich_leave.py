@@ -10,7 +10,10 @@ class TestSandwichLeave(TransactionCase):
     def setUp(self):
         super().setUp()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         self.indian_company = self.env['res.company'].create({
             'name': 'Test Indian Company',
             'country_id': self.env.ref('base.in').id
@@ -27,17 +30,24 @@ class TestSandwichLeave(TransactionCase):
             'user_id': self.demo_user.id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.leave_type = self.env['hr.leave.type'].create({
             'name': 'Test Leave Type',
             'request_unit': 'day',
             'l10n_in_is_sandwich_leave': True,
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 
         self.rahul_emp = self.env['hr.employee'].create({
             'name': 'Rahul',
             'country_id': self.env.ref('base.in').id,
+=======
+            'company_id': self.indian_company.id,
+>>>>>>> upstream/18.0
 =======
             'company_id': self.indian_company.id,
 >>>>>>> upstream/18.0
@@ -51,17 +61,23 @@ class TestSandwichLeave(TransactionCase):
                 'date_to': '2023-08-15',
                 'resource_id': False,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': self.env.company.id,
             })
             before_holiday_leave = self.env['hr.leave'].create({
                 'name': 'Test Leave',
                 'employee_id': self.rahul_emp.id,
 =======
+=======
+>>>>>>> upstream/18.0
                 'company_id': self.indian_company.id,
             })
             before_holiday_leave = self.env['hr.leave'].create({
                 'name': 'Test Leave',
                 'employee_id': self.demo_employee.id,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 'holiday_status_id': self.leave_type.id,
                 'request_date_from': "2023-08-14",
@@ -69,7 +85,11 @@ class TestSandwichLeave(TransactionCase):
             })
             employee_leaves = self.env['hr.leave'].search([
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('employee_id', '=', self.rahul_emp.id),
+=======
+                ('employee_id', '=', self.demo_employee.id),
+>>>>>>> upstream/18.0
 =======
                 ('employee_id', '=', self.demo_employee.id),
 >>>>>>> upstream/18.0
@@ -79,7 +99,11 @@ class TestSandwichLeave(TransactionCase):
             after_holiday_leave = self.env['hr.leave'].create({
                 'name': 'Test Leave',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_id': self.rahul_emp.id,
+=======
+                'employee_id': self.demo_employee.id,
+>>>>>>> upstream/18.0
 =======
                 'employee_id': self.demo_employee.id,
 >>>>>>> upstream/18.0
@@ -93,7 +117,10 @@ class TestSandwichLeave(TransactionCase):
             sandwiched_leave = after_holiday_leave._l10n_in_apply_sandwich_rule(public_holiday, employee_leaves)
             self.assertEqual(sandwiched_leave, 2, "The total leaves should be 2 including sandwich leave")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_approved_leave_does_not_raise_access_error(self):
         approved_leave = self.env['hr.leave'].create({
@@ -106,4 +133,7 @@ class TestSandwichLeave(TransactionCase):
         })
         approved_leave.action_approve()
         self.assertIsNotNone(approved_leave.with_user(self.demo_user).leave_type_increases_duration)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

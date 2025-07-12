@@ -6,6 +6,10 @@
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 =======
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
@@ -75,7 +83,11 @@ msgstr "Participanții sunt creați"
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_trigger__confirm
 msgid "Attendees are registered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Participanții sunt înregistrați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Participanții sunt înregistrați"
 >>>>>>> upstream/18.0
@@ -106,6 +118,11 @@ msgstr "Alocați automat potențialii creați acestui agent de vânzări."
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Of! Nu s-au creat piste, verificați regulile de generare a pistelor și "
+"încercați din nou."
+>>>>>>> upstream/18.0
 =======
 "Of! Nu s-au creat piste, verificați regulile de generare a pistelor și "
 "încercați din nou."
@@ -135,7 +152,11 @@ msgstr "Creați o regulă de generare a pistei"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_ids
 msgid "Created Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Piste Create"
+=======
+msgstr "Piste create"
+>>>>>>> upstream/18.0
 =======
 msgstr "Piste create"
 >>>>>>> upstream/18.0
@@ -154,7 +175,11 @@ msgstr "Creat pe"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Creation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Creare"
+=======
+msgstr "Tip creare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip creare"
 >>>>>>> upstream/18.0
@@ -167,6 +192,12 @@ msgid ""
 "Attended: when attendance is confirmed and registration set to done;"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Creare: la crearea participantului;\n"
+"Înregistrat: la înregistrarea participantului, manual sau automat;\n"
+"Prezent: când prezența este confirmată și înregistrarea este finalizată;"
+>>>>>>> upstream/18.0
 =======
 "Creare: la crearea participantului;\n"
 "Înregistrat: la înregistrarea participantului, manual sau automat;\n"
@@ -195,7 +226,11 @@ msgstr "Eveniment"
 #: model:ir.actions.server,name:event_crm.ir_cron_generate_leads_ir_actions_server
 msgid "Event CRM: Generate Leads based on Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CRM Eveniment: Generează piste pe baza regulilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "CRM Eveniment: Generează piste pe baza regulilor"
 >>>>>>> upstream/18.0
@@ -204,7 +239,11 @@ msgstr "CRM Eveniment: Generează piste pe baza regulilor"
 #: model:ir.model,name:event_crm.model_event_lead_request
 msgid "Event Lead Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cerere pistă eveniment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere pistă eveniment"
 >>>>>>> upstream/18.0
@@ -213,7 +252,11 @@ msgstr "Cerere pistă eveniment"
 #: model:ir.model,name:event_crm.model_event_lead_rule
 msgid "Event Lead Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reguli Pistă Eveniment"
+=======
+msgstr "Reguli pistă eveniment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli pistă eveniment"
 >>>>>>> upstream/18.0
@@ -227,7 +270,11 @@ msgstr "Înregistrare eveniment"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__event_type_ids
 msgid "Event Templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șabloane Eveniment"
+=======
+msgstr "Șabloane eveniment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șabloane eveniment"
 >>>>>>> upstream/18.0
@@ -236,7 +283,11 @@ msgstr "Șabloane eveniment"
 #: model:ir.actions.act_window,name:event_crm.event_registration_action_from_lead
 msgid "Event registrations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrări Eveniment"
+=======
+msgstr "Înregistrări eveniment"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrări eveniment"
 >>>>>>> upstream/18.0
@@ -273,9 +324,14 @@ msgid ""
 " event restriction will be applied."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filtrează participanții pentru a-i include pe cei din această categorie "
 "specifică de evenimente. Dacă nu este setat, nu se va aplica nicio "
 "restricție de categorie de evenimente."
+=======
+"Filtrează participanții pentru a-i include pe cei din acest eveniment "
+"specific. Dacă nu este setat, nu se va aplica nicio restricție de eveniment."
+>>>>>>> upstream/18.0
 =======
 "Filtrează participanții pentru a-i include pe cei din acest eveniment "
 "specific. Dacă nu este setat, nu se va aplica nicio restricție de eveniment."
@@ -290,7 +346,11 @@ msgstr "Pentru oricare dintre aceste evenimente"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_view_form
 msgid "Generate Leads"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generare Piste"
+=======
+msgstr "Generează piste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generează piste"
 >>>>>>> upstream/18.0
@@ -300,7 +360,11 @@ msgstr "Generează piste"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Got it! We've noted your request. Your leads will be created soon!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Am înțeles! Am notat cererea dvs. Pistele vor fi create în curând!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Am înțeles! Am notat cererea dvs. Pistele vor fi create în curând!"
 >>>>>>> upstream/18.0
@@ -315,7 +379,11 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "If the Attendees meet these Conditions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă Participanții îndeplinesc aceste Condiții"
+=======
+msgstr "Dacă participanții îndeplinesc aceste condiții"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă participanții îndeplinesc aceste condiții"
 >>>>>>> upstream/18.0
@@ -339,7 +407,11 @@ msgstr "Pistă"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
 msgid "Lead Creation Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Creare Pistă"
+=======
+msgstr "Tip creare pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip creare pistă"
 >>>>>>> upstream/18.0
@@ -348,7 +420,11 @@ msgstr "Tip creare pistă"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Default Values"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valori Implicite Pistă"
+=======
+msgstr "Valori implicite pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valori implicite pistă"
 >>>>>>> upstream/18.0
@@ -357,7 +433,11 @@ msgstr "Valori implicite pistă"
 #: model:ir.ui.menu,name:event_crm.event_lead_rule_menu
 msgid "Lead Generation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Generare Pistă"
+=======
+msgstr "Generare pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generare pistă"
 >>>>>>> upstream/18.0
@@ -367,7 +447,11 @@ msgstr "Generare pistă"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
 msgid "Lead Generation Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă Generare Pistă"
+=======
+msgstr "Regulă generare pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă generare pistă"
 >>>>>>> upstream/18.0
@@ -376,7 +460,11 @@ msgstr "Regulă generare pistă"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_tree
 msgid "Lead Generation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reguli Generare Pistă"
+=======
+msgstr "Reguli generare pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reguli generare pistă"
 >>>>>>> upstream/18.0
@@ -385,7 +473,11 @@ msgstr "Reguli generare pistă"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__lead_type
 msgid "Lead Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Pistă"
+=======
+msgstr "Tip pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip pistă"
 >>>>>>> upstream/18.0
@@ -435,7 +527,11 @@ msgstr "Nu s-au găsit înregistrări"
 #: model:ir.model.fields,field_description:event_crm.field_event_event__has_lead_request
 msgid "Ongoing Generation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cerere de generare în curs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere de generare în curs"
 >>>>>>> upstream/18.0
@@ -445,7 +541,11 @@ msgstr "Cerere de generare în curs"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Only Event Managers are allowed to re-generate all leads."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doar managerii de evenimente pot regenera toate pistele."
+>>>>>>> upstream/18.0
 =======
 msgstr "Doar managerii de evenimente pot regenera toate pistele."
 >>>>>>> upstream/18.0
@@ -465,7 +565,11 @@ msgstr "Participanți"
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__attendee
 msgid "Per Attendee"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per Participant"
+=======
+msgstr "Per participant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per participant"
 >>>>>>> upstream/18.0
@@ -477,6 +581,11 @@ msgid ""
 "Per Order: A single Lead is created per Ticket Batch/Sale Order (B2B)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Per participant: Se creează o pistă pentru fiecare participant (B2C).\n"
+"Per comandă: Se creează o singură pistă pentru fiecare comandă/lot de bilete (B2B)"
+>>>>>>> upstream/18.0
 =======
 "Per participant: Se creează o pistă pentru fiecare participant (B2C).\n"
 "Per comandă: Se creează o singură pistă pentru fiecare comandă/lot de bilete (B2B)"
@@ -486,7 +595,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:event_crm.selection__event_lead_rule__lead_creation_basis__order
 msgid "Per Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Per Comandă"
+=======
+msgstr "Per comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Per comandă"
 >>>>>>> upstream/18.0
@@ -495,7 +608,11 @@ msgstr "Per comandă"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_request__processed_registration_id
 msgid "Processed Registration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Înregistrare procesată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare procesată"
 >>>>>>> upstream/18.0
@@ -504,7 +621,11 @@ msgstr "Înregistrare procesată"
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__event_lead_rule_id
 msgid "Registration Rule"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă Înregistrare"
+=======
+msgstr "Regulă înregistrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă înregistrare"
 >>>>>>> upstream/18.0
@@ -513,7 +634,11 @@ msgstr "Regulă înregistrare"
 #: model_terms:ir.ui.view,arch_db:event_crm.crm_lead_merge_summary_inherit_event_crm
 msgid "Registration Rule:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regulă Înregistrare:"
+=======
+msgstr "Regulă înregistrare:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regulă înregistrare:"
 >>>>>>> upstream/18.0
@@ -522,7 +647,11 @@ msgstr "Regulă înregistrare:"
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__event_registration_filter
 msgid "Registrations Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Domeniul Înregistrări"
+=======
+msgstr "Domeniu înregistrări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Domeniu înregistrări"
 >>>>>>> upstream/18.0
@@ -531,7 +660,11 @@ msgstr "Domeniu înregistrări"
 #: model:ir.model.fields,help:event_crm.field_crm_lead__registration_ids
 msgid "Registrations triggering the rule that created this lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrări care declanșează regula care a creată această pistă"
+=======
+msgstr "Înregistrări care declanșează regula care a creat această pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrări care declanșează regula care a creat această pistă"
 >>>>>>> upstream/18.0
@@ -554,7 +687,11 @@ msgstr "Numele regulii"
 #: model:event.lead.rule,name:event_crm.event_lead_rule_0
 msgid "Rule on @example.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regula pe @ example.com"
+=======
+msgstr "Regula pe @example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regula pe @example.com"
 >>>>>>> upstream/18.0
@@ -563,7 +700,11 @@ msgstr "Regula pe @example.com"
 #: model:ir.model.fields,help:event_crm.field_crm_lead__event_lead_rule_id
 msgid "Rule that created this lead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regula care a creat acestă pistă"
+=======
+msgstr "Regula care a creat această pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regula care a creat această pistă"
 >>>>>>> upstream/18.0
@@ -582,7 +723,11 @@ msgstr "Agent de vânzări"
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Search Lead Generation Rules"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Căutare Reguli Generare Pistă"
+=======
+msgstr "Căutare reguli generare pistă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Căutare reguli generare pistă"
 >>>>>>> upstream/18.0
@@ -591,7 +736,11 @@ msgstr "Căutare reguli generare pistă"
 #: model:ir.model.fields,help:event_crm.field_event_event__has_lead_request
 msgid "Set to True when a Lead Generation Request is currently running."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Setați pe Adevărat când o cerere de generare a pistelor este în curs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Setați pe Adevărat când o cerere de generare a pistelor este în curs."
 >>>>>>> upstream/18.0
@@ -600,7 +749,11 @@ msgstr "Setați pe Adevărat când o cerere de generare a pistelor este în curs
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__event_id
 msgid "Source Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eveniment Sursă"
+=======
+msgstr "Eveniment sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eveniment sursă"
 >>>>>>> upstream/18.0
@@ -609,7 +762,11 @@ msgstr "Eveniment sursă"
 #: model:ir.model.fields,field_description:event_crm.field_crm_lead__registration_ids
 msgid "Source Registrations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrări Sursă"
+=======
+msgstr "Înregistrări sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrări sursă"
 >>>>>>> upstream/18.0
@@ -626,6 +783,11 @@ msgid ""
 "resume."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ID-ul ultimei înregistrări procesate, folosit pentru a ști de unde să se "
+"reia."
+>>>>>>> upstream/18.0
 =======
 "ID-ul ultimei înregistrări procesate, folosit pentru a ști de unde să se "
 "reia."
@@ -641,7 +803,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_search
 msgid "Trigger Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Declanșare"
+=======
+msgstr "Tip declanșare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip declanșare"
 >>>>>>> upstream/18.0
@@ -662,7 +828,11 @@ msgstr "Când"
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Yee-ha, %(leads_count)s Leads have been created!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yee-ha, %(leads_count)s piste au fost create!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yee-ha, %(leads_count)s piste au fost create!"
 >>>>>>> upstream/18.0
@@ -672,6 +842,10 @@ msgstr "Yee-ha, %(leads_count)s piste au fost create!"
 msgid "You can only have one generation request per event at a time."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Puteți avea o singură cerere de generare per eveniment la un moment dat."
+>>>>>>> upstream/18.0
 =======
 "Puteți avea o singură cerere de generare per eveniment la un moment dat."
 >>>>>>> upstream/18.0

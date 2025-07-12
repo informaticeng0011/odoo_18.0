@@ -5,7 +5,11 @@
 # Translators:
 # Wil Odoo, 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Fernanda Alvarez, 2024
+=======
+# Fernanda Alvarez, 2025
+>>>>>>> upstream/18.0
 =======
 # Fernanda Alvarez, 2025
 >>>>>>> upstream/18.0
@@ -17,7 +21,11 @@ msgstr ""
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Fernanda Alvarez, 2024\n"
+=======
+"Last-Translator: Fernanda Alvarez, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Fernanda Alvarez, 2025\n"
 >>>>>>> upstream/18.0
@@ -45,9 +53,15 @@ msgid ""
 "    "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    El filtro que se usa para buscar cuentas de usuario en la base de datos LDAP. Es un filtro LDAP    arbitrario en representación de una cadena. Cualquier marcador de posición `%s`  se reemplazará con el nombre utilizado para iniciar sesión (identificador) que el usuario proporcionó. El filtro debe incluir al menos uno de estos marcadores de posición.\n"
 "\n"
 "    El filtro debe dar como resultado solo un (1) resultado. De lo contrario, se considerará    que el inicio de sesión no es válido.\n"
+=======
+"    El filtro utilizado para buscar cuentas de usuario en la base de datos LDAP. Es un filtro LDAP    arbitrario en representación de una cadena. Cualquier marcador de posición `%s` se reemplazará con el nombre utilizado para iniciar sesión (identificador) que el usuario proporcionó. El filtro debe incluir al menos uno de estos marcadores de posición.\n"
+"\n"
+"    El filtro solo debe proporcionar un (1) resultado, de lo contrario se considerará    que el inicio de sesión no es válido.\n"
+>>>>>>> upstream/18.0
 =======
 "    El filtro utilizado para buscar cuentas de usuario en la base de datos LDAP. Es un filtro LDAP    arbitrario en representación de una cadena. Cualquier marcador de posición `%s` se reemplazará con el nombre utilizado para iniciar sesión (identificador) que el usuario proporcionó. El filtro debe incluir al menos uno de estos marcadores de posición.\n"
 "\n"
@@ -59,7 +73,11 @@ msgstr ""
 "        (&(objectCategory=person)(objectClass=user)(sAMAccountName=%s))\n"
 "\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    o\n"
+=======
+"    or\n"
+>>>>>>> upstream/18.0
 =======
 "    or\n"
 >>>>>>> upstream/18.0
@@ -74,8 +92,13 @@ msgid ""
 "LDAP"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Crear cuentas de usuario local en automático para los nuevos usuarios que se"
 " autentiquen mediante LDAP."
+=======
+"Crea cuentas de usuario local en automático para los nuevos usuarios que se "
+"autentican con LDAP."
+>>>>>>> upstream/18.0
 =======
 "Crea cuentas de usuario local en automático para los nuevos usuarios que se "
 "autentican con LDAP."
@@ -123,8 +146,13 @@ msgid ""
 "for users."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "DN del ámbito de búsqueda de usuarios: se buscará en todos los descendientes"
 " de esta base para encontrar usuarios."
+=======
+"DN del alcance de búsqueda de usuario: Se buscarán usuarios en todos los "
+"descendientes de esta base."
+>>>>>>> upstream/18.0
 =======
 "DN del alcance de búsqueda de usuario: Se buscarán usuarios en todos los "
 "descendientes de esta base."
@@ -208,8 +236,13 @@ msgstr "Información de inicio de sesión"
 msgid "No local user found for LDAP login and not configured to create one"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se encontró un usuario local para el inicio de sesión LDAP y tampoco está"
 " configurado para crear uno."
+=======
+"No se encontró un usuario local para el inicio de sesión LDAP y la opción "
+"para crear uno no está configurada."
+>>>>>>> upstream/18.0
 =======
 "No se encontró un usuario local para el inicio de sesión LDAP y la opción "
 "para crear uno no está configurada."
@@ -228,9 +261,15 @@ msgid ""
 " attempts will fail."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Solicitar cifrado seguro TLS/SSL al conectarse al servidor LDAP. Esta opción"
 " requiere un servidor con STARTTLS habilitado, de lo contrario, todos los "
 "intentos de autenticación fallarán."
+=======
+"Solicita una conexión segura TLS/SSL al conectarse al servidor LDAP. Esta "
+"opción requiere un servidor con STARTTLS habilitado o todos los intentos de "
+"autenticación fallarán."
+>>>>>>> upstream/18.0
 =======
 "Solicita una conexión segura TLS/SSL al conectarse al servidor LDAP. Esta "
 "opción requiere un servidor con STARTTLS habilitado o todos los intentos de "
@@ -251,7 +290,11 @@ msgstr "Información del servidor"
 #: model:ir.actions.act_window,name:auth_ldap.action_ldap_installer
 msgid "Setup your LDAP Server"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configure su servidor LDAP"
+=======
+msgstr "Configura tu servidor LDAP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configura tu servidor LDAP"
 >>>>>>> upstream/18.0
@@ -277,8 +320,13 @@ msgid ""
 "Leave empty to connect anonymously."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La cuenta de usuario en el servidor LDAP que se usa para consultar el "
 "directorio. Deje el campo vacío para conectarse de forma anónima."
+=======
+"La cuenta de usuario en el servidor LDAP utilizada para consultar el "
+"directorio. Deja el campo vacío si quieres conectarte de forma anónima."
+>>>>>>> upstream/18.0
 =======
 "La cuenta de usuario en el servidor LDAP utilizada para consultar el "
 "directorio. Deja el campo vacío si quieres conectarte de forma anónima."

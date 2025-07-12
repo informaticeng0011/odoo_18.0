@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 =======
@@ -205,11 +206,16 @@
 # Wil Odoo, 2024
 # Larisa_nexterp, 2025
 >>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2024
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +459,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-06-27 18:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -489,7 +500,11 @@ msgstr "%(reminder_type)s - %(duration)s Minute"
 #: code:addons/google_calendar/models/calendar.py:0
 msgid "(No title)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(Fără Titlu)"
+=======
+msgstr "(Fără titlu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Fără titlu)"
 >>>>>>> upstream/18.0
@@ -509,8 +524,13 @@ msgid ""
 "use it!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un administrator trebuie să configureze Sincronizarea Google înainte de a "
 "putea să o folosești!"
+=======
+"Un administrator trebuie să configureze sincronizarea Google înainte să o "
+"poți folosi!"
+>>>>>>> upstream/18.0
 =======
 "Un administrator trebuie să configureze sincronizarea Google înainte să o "
 "poți folosi!"
@@ -526,18 +546,28 @@ msgid ""
 " synchronization."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "A apărut o eroare la generarea tokenului. Codul tău de autorizare poate fi "
 "invalid sau a expirat deja [%s]. Ar trebui să verifici Client ID și secretul"
 " pe platforma Google APIs sau să încerci să oprești și să repornești "
 "sincronizarea calendarului."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: google_calendar
 #: model:ir.model,name:google_calendar.model_calendar_attendee
 msgid "Calendar Attendee Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Informații despre participanții din calendar"
+=======
+msgstr "Informații despre participantul la calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informații despre participantul la calendar"
 >>>>>>> upstream/18.0
@@ -546,7 +576,11 @@ msgstr "Informații despre participantul la calendar"
 #: model:ir.model,name:google_calendar.model_calendar_event
 msgid "Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eveniment Calendar"
+=======
+msgstr "Eveniment calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eveniment calendar"
 >>>>>>> upstream/18.0
@@ -556,7 +590,11 @@ msgstr "Eveniment calendar"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_cal_id
 msgid "Calendar ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendar ID"
+=======
+msgstr "ID calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID calendar"
 >>>>>>> upstream/18.0
@@ -570,7 +608,11 @@ msgstr "Anulează"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Client ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Client"
+=======
+msgstr "ID client"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID client"
 >>>>>>> upstream/18.0
@@ -579,7 +621,11 @@ msgstr "ID client"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Client Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Secret Client"
+=======
+msgstr "Secret client"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secret client"
 >>>>>>> upstream/18.0
@@ -610,7 +656,11 @@ msgstr "Configurare"
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid "Configure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurare"
+=======
+msgstr "Configurează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează"
 >>>>>>> upstream/18.0
@@ -629,7 +679,11 @@ msgstr "Creat de"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -643,7 +697,11 @@ msgstr "Șterge din Odoo"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_both
 msgid "Delete from both"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Șterge din amândouă"
+=======
+msgstr "Șterge din ambele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge din ambele"
 >>>>>>> upstream/18.0
@@ -652,7 +710,11 @@ msgstr "Șterge din ambele"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__delete_policy__delete_google
 msgid "Delete from the current Google Calendar account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ștergeți din contul curent Google Calendar"
+=======
+msgstr "Șterge din contul curent Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Șterge din contul curent Google Calendar"
 >>>>>>> upstream/18.0
@@ -662,7 +724,11 @@ msgstr "Șterge din contul curent Google Calendar"
 #: code:addons/google_calendar/static/src/views/google_calendar/google_calendar_controller.js:0
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunță"
 >>>>>>> upstream/18.0
@@ -679,6 +745,7 @@ msgid "Email"
 msgstr "E-mail"
 
 #. module: google_calendar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +964,11 @@ msgstr "Regula de reapariție a evenimentelor"
 msgid "Event Recurrence Rule"
 msgstr "Regulă de recurență a evenimentului"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:google_calendar.model_calendar_recurrence
+msgid "Event Recurrence Rule"
+msgstr "Regulă de recurență a evenimentului"
+>>>>>>> upstream/18.0
 
 #. module: google_calendar
 #. odoo-javascript
@@ -908,7 +980,11 @@ msgstr "Google"
 #: model_terms:ir.ui.view,arch_db:google_calendar.view_users_form
 msgid "Google Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Calendar Google"
+=======
+msgstr "Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Calendar"
 >>>>>>> upstream/18.0
@@ -923,7 +999,11 @@ msgstr "Resetare cont Google Calendar"
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__google_id
 msgid "Google Calendar Event Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Eveniment Google Calendar"
+=======
+msgstr "ID eveniment Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID eveniment Google Calendar"
 >>>>>>> upstream/18.0
@@ -933,7 +1013,11 @@ msgstr "ID eveniment Google Calendar"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_sync__google_id
 msgid "Google Calendar Id"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id Google Calendar"
+=======
+msgstr "ID Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID Google Calendar"
 >>>>>>> upstream/18.0
@@ -952,7 +1036,11 @@ msgstr "Google Meet"
 #: model:ir.model.fields,field_description:google_calendar.field_res_config_settings__cal_sync_paused
 msgid "Google Synchronization Paused"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizarea Google a fost întreruptă"
+=======
+msgstr "Sincronizare Google întreruptă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizare Google întreruptă"
 >>>>>>> upstream/18.0
@@ -962,7 +1050,11 @@ msgstr "Sincronizare Google întreruptă"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_synchronization_stopped
 msgid "Google Synchronization stopped"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizarea Google a fost oprită"
+=======
+msgstr "Sincronizare Google oprită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizare Google oprită"
 >>>>>>> upstream/18.0
@@ -972,7 +1064,11 @@ msgstr "Sincronizare Google oprită"
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "Google gave the following explanation: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Google a dat următoarea explicație: %s"
+=======
+msgstr "Google a oferit următoarea explicație: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google a oferit următoarea explicație: %s"
 >>>>>>> upstream/18.0
@@ -994,8 +1090,13 @@ msgid ""
 "alarm information without removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă câmpul nu este setat, vă permite să ascundeți evenimentul fără să-l "
 "eliminați."
+=======
+"Dacă câmpul activ este setat pe fals, vă permite să ascundeți informațiile "
+"despre alarma evenimentului fără a le elimina."
+>>>>>>> upstream/18.0
 =======
 "Dacă câmpul activ este setat pe fals, vă permite să ascundeți informațiile "
 "despre alarma evenimentului fără a le elimina."
@@ -1005,7 +1106,11 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_config_settings__cal_sync_paused
 msgid "Indicates if synchronization with Google Calendar is paused or not."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Indică dacă sincronizarea cu Google Calendar este suspendată sau nu."
+=======
+msgstr "Indică dacă sincronizarea cu Google Calendar este întreruptă sau nu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Indică dacă sincronizarea cu Google Calendar este întreruptă sau nu."
 >>>>>>> upstream/18.0
@@ -1015,7 +1120,11 @@ msgstr "Indică dacă sincronizarea cu Google Calendar este întreruptă sau nu.
 #: code:addons/google_calendar/models/google_sync.py:0
 msgid "It will not be synced as long at it is not updated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acesta nu va fi sincronizat atâta timp cât nu este actualizat."
+=======
+msgstr "Nu va fi sincronizat atât timp cât nu este actualizat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu va fi sincronizat atât timp cât nu este actualizat."
 >>>>>>> upstream/18.0
@@ -1028,8 +1137,13 @@ msgid ""
 "links between GoogleID and Odoo Google Internal ID"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID-ul ultimului calendar care a fost sincronizat. Dacă este modificat, "
 "eliminăm toate legăturile dintre GoogleID și Odoo Google Internal ID"
+=======
+"Ultimul ID de calendar care a fost sincronizat. Dacă este modificat, "
+"eliminăm toate legăturile dintre GoogleID și ID-ul intern Google Odoo."
+>>>>>>> upstream/18.0
 =======
 "Ultimul ID de calendar care a fost sincronizat. Dacă este modificat, "
 "eliminăm toate legăturile dintre GoogleID și ID-ul intern Google Odoo."
@@ -1044,7 +1158,11 @@ msgstr "Ultima actualizare făcută de"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -1060,7 +1178,11 @@ msgstr "Lăsați-le neatinse"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_sync__need_sync
 msgid "Need Sync"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aveți nevoie de sincronizare"
+=======
+msgstr "Necesită sincronizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Necesită sincronizare"
 >>>>>>> upstream/18.0
@@ -1070,7 +1192,11 @@ msgstr "Necesită sincronizare"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_sync_token
 msgid "Next Sync Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aveți nevoie de token de sincronizare"
+=======
+msgstr "Următorul token de sincronizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul token de sincronizare"
 >>>>>>> upstream/18.0
@@ -1079,7 +1205,11 @@ msgstr "Următorul token de sincronizare"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__sync_policy
 msgid "Next Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizarea urmatoare"
+=======
+msgstr "Următoarea sincronizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarea sincronizare"
 >>>>>>> upstream/18.0
@@ -1094,7 +1224,11 @@ msgstr "Notificare"
 #: model_terms:ir.ui.view,arch_db:google_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suspendare sincronizare"
+=======
+msgstr "Pauză sincronizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pauză sincronizare"
 >>>>>>> upstream/18.0
@@ -1104,7 +1238,11 @@ msgstr "Pauză sincronizare"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_rtoken
 msgid "Refresh Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Token de Actualizare"
+=======
+msgstr "Token de reîmprospătare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token de reîmprospătare"
 >>>>>>> upstream/18.0
@@ -1113,7 +1251,11 @@ msgstr "Token de reîmprospătare"
 #: model_terms:ir.ui.view,arch_db:google_calendar.view_users_form
 msgid "Reset Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resetare Cont"
+=======
+msgstr "Resetează contul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resetează contul"
 >>>>>>> upstream/18.0
@@ -1122,7 +1264,11 @@ msgstr "Resetează contul"
 #: model_terms:ir.ui.view,arch_db:google_calendar.google_calendar_reset_account_view_form
 msgid "Reset Google Calendar Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Resetare Cont Google Calender"
+=======
+msgstr "Resetează contul Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resetează contul Google Calendar"
 >>>>>>> upstream/18.0
@@ -1131,7 +1277,11 @@ msgstr "Resetează contul Google Calendar"
 #: model:ir.model,name:google_calendar.model_google_calendar_sync
 msgid "Synchronize a record with Google Calendar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizați o înregistrare cu Google Calendar"
+=======
+msgstr "Sincronizează o înregistrare cu Google Calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizează o înregistrare cu Google Calendar"
 >>>>>>> upstream/18.0
@@ -1140,7 +1290,11 @@ msgstr "Sincronizează o înregistrare cu Google Calendar"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__sync_policy__all
 msgid "Synchronize all existing events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizați toate evenimentele existente"
+=======
+msgstr "Sincronizează toate evenimentele existente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizează toate evenimentele existente"
 >>>>>>> upstream/18.0
@@ -1149,7 +1303,11 @@ msgstr "Sincronizează toate evenimentele existente"
 #: model:ir.model.fields.selection,name:google_calendar.selection__google_calendar_account_reset__sync_policy__new
 msgid "Synchronize only new events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sincronizați numai evenimente noi"
+=======
+msgstr "Sincronizează doar evenimentele noi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sincronizează doar evenimentele noi"
 >>>>>>> upstream/18.0
@@ -1162,8 +1320,13 @@ msgid ""
 "you want to do it now?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sincronizarea Google trebuie să fie configurată înainte de ao putea utiliza,"
 " doriți să o faceți acum?"
+=======
+"Sincronizarea Google trebuie configurată înainte de a o putea folosi, doriți"
+" să o configurați acum?"
+>>>>>>> upstream/18.0
 =======
 "Sincronizarea Google trebuie configurată înainte de a o putea folosi, doriți"
 " să o configurați acum?"
@@ -1177,8 +1340,13 @@ msgid ""
 "event permissions set on Google Calendar."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Următorul eveniment poate fi actualizat numai de către organizator, în "
 "conformitate cu permisiunile evenimentului stabilite în Google Calendar."
+=======
+"Următorul eveniment poate fi actualizat doar de către organizator, conform "
+"permisiunilor stabilite în Google Calendar."
+>>>>>>> upstream/18.0
 =======
 "Următorul eveniment poate fi actualizat doar de către organizator, conform "
 "permisiunilor stabilite în Google Calendar."
@@ -1202,7 +1370,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_token_validity
 msgid "Token Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validitate Token"
+=======
+msgstr "Valabilitate token"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valabilitate token"
 >>>>>>> upstream/18.0
@@ -1223,7 +1395,11 @@ msgstr "Setări utilizator"
 #: model:ir.model.fields,field_description:google_calendar.field_res_users_settings__google_calendar_token
 msgid "User token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Jeton Utilizator"
+=======
+msgstr "Token utilizator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token utilizator"
 >>>>>>> upstream/18.0
@@ -1232,7 +1408,11 @@ msgstr "Token utilizator"
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar_account_reset__delete_policy
 msgid "User's Existing Events"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenimente existente ale utilizatorului"
+=======
+msgstr "Evenimentele existente ale utilizatorului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenimentele existente ale utilizatorului"
 >>>>>>> upstream/18.0
@@ -1241,7 +1421,11 @@ msgstr "Evenimentele existente ale utilizatorului"
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__videocall_source
 msgid "Videocall Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sursă videocall"
+=======
+msgstr "Sursă apel video"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sursă apel video"
 >>>>>>> upstream/18.0
@@ -1259,7 +1443,12 @@ msgid ""
 "you don't seem to have permission to modify this event on Google Calendar"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se pare că nu aveți permisiunea de a modifica acest eveniment pe Google"
+=======
+"se pare că nu aveți permisiunea de a modifica acest eveniment pe Google "
+"Calendar"
+>>>>>>> upstream/18.0
 =======
 "se pare că nu aveți permisiunea de a modifica acest eveniment pe Google "
 "Calendar"

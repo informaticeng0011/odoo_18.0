@@ -16,6 +16,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -51,6 +55,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +119,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-30 18:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,7 +136,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid " to %(date_to_utc)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "до %(date_to_utc)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "до %(date_to_utc)s"
 >>>>>>> upstream/18.0
@@ -173,7 +187,11 @@ msgstr "%(allocation_name)s (от %(date_from)s до \"Без ограничен
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(employee)s on Time Off : %(duration)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(employee)s в отпуске : %(duration)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(employee)s в отпуске : %(duration)s"
 >>>>>>> upstream/18.0
@@ -202,7 +220,11 @@ msgstr "%(leave_name)s была отменена с обоснованием: <b
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -212,7 +234,11 @@ msgstr "%(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "%(name)s (%(duration)s %(request_unit)s(s))"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(duration)s %(request_unit)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(duration)s %(request_unit)s)"
 >>>>>>> upstream/18.0
@@ -234,7 +260,11 @@ msgstr "%(name)s (%(duration)s ч.)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g days)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g осталось из %(maximum)g дней)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g осталось из %(maximum)g дней)"
 >>>>>>> upstream/18.0
@@ -244,7 +274,11 @@ msgstr "%(name)s (%(time)g осталось из %(maximum)g дней)"
 #: code:addons/hr_holidays/models/hr_leave_type.py:0
 msgid "%(name)s (%(time)g remaining out of %(maximum)g hours)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s (%(time)g осталось из %(maximum)g часов)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s (%(time)g осталось из %(maximum)g часов)"
 >>>>>>> upstream/18.0
@@ -260,7 +294,11 @@ msgstr "%(name)s: %(duration)s"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s on %(leave_type)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s в отпуске %(leave_type)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s в отпуске %(leave_type)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -270,7 +308,11 @@ msgstr "%(person)s в отпуске %(leave_type)s: %(duration)s (%(start)s)"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "%(person)s: %(duration)s (%(start)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(person)s: %(duration)s (%(start)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(person)s: %(duration)s (%(start)s)"
 >>>>>>> upstream/18.0
@@ -332,7 +374,11 @@ msgstr "(действует до"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_plan_view_form
 msgid "- Valid for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "– Действительно до"
+>>>>>>> upstream/18.0
 =======
 msgstr "– Действительно до"
 >>>>>>> upstream/18.0
@@ -392,6 +438,11 @@ msgid ""
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Hours</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Дни</span>\n"
+"                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Часы</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"ml8\" invisible=\"request_unit == 'hour'\">Дни</span>\n"
 "                            <span class=\"ml8\" invisible=\"request_unit != 'hour'\">Часы</span>"
@@ -416,6 +467,12 @@ msgid ""
 "                        </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Вернется\n"
+"                        </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_stat_text\">\n"
 "                            Вернется\n"
@@ -478,6 +535,11 @@ msgid ""
 "                    ("
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>У сотрудника другой часовой пояс! Здесь дата и время отображаются в часовом поясе сотрудника</span>\n"
+"                    ("
+>>>>>>> upstream/18.0
 =======
 "<span>У сотрудника другой часовой пояс! Здесь дата и время отображаются в часовом поясе сотрудника</span>\n"
 "                    ("
@@ -502,7 +564,11 @@ msgstr "<strong>Департаменты и сотрудники</strong>"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "A cancelled leave cannot be modified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отмененный отпуск нельзя редактировать."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отмененный отпуск нельзя редактировать."
 >>>>>>> upstream/18.0
@@ -628,7 +694,11 @@ msgstr "Оплачиваемые отсутствия: Обновляет кол
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity
 msgid "Accrual Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия начисленных отпусков"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия начисленных отпусков"
 >>>>>>> upstream/18.0
@@ -637,7 +707,11 @@ msgstr "Срок действия начисленных отпусков"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_count
 msgid "Accrual Validity Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество периодов, в течение которых действуют начисленные отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Количество периодов, в течение которых действуют начисленные отпуска"
 >>>>>>> upstream/18.0
@@ -646,7 +720,11 @@ msgstr "Количество периодов, в течение которых 
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__accrual_validity_type
 msgid "Accrual Validity Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Тип срока действия начисленных отпусков"
+>>>>>>> upstream/18.0
 =======
 msgstr "Тип срока действия начисленных отпусков"
 >>>>>>> upstream/18.0
@@ -695,7 +773,11 @@ msgstr "Активный сотрудник"
 #: code:addons/hr_holidays/static/src/avatar_card_resource_popover.xml:0
 msgid "Active but on leave"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Активен, но находится в отпуске"
+>>>>>>> upstream/18.0
 =======
 msgstr "Активен, но находится в отпуске"
 >>>>>>> upstream/18.0
@@ -866,7 +948,11 @@ msgstr "Заявки на выделение средств"
 #: model:mail.activity.type,name:hr_holidays.mail_act_leave_allocation_second_approval
 msgid "Allocation Second Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Второе согласование распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Второе согласование распределения"
 >>>>>>> upstream/18.0
@@ -886,6 +972,11 @@ msgid ""
 "Approval\" in order to approve it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Распределение должно быть сначала подтверждено как «К согласованию», а затем"
+" утверждено при необходимости второго согласования."
+>>>>>>> upstream/18.0
 =======
 "Распределение должно быть сначала подтверждено как «К согласованию», а затем"
 " утверждено при необходимости второго согласования."
@@ -910,6 +1001,11 @@ msgid ""
 "to refuse it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Запрос на распределение должен быть подтвержден или одобрен для того, чтобы "
+"его отклонить."
+>>>>>>> upstream/18.0
 =======
 "Запрос на распределение должен быть подтвержден или одобрен для того, чтобы "
 "его отклонить."
@@ -921,6 +1017,11 @@ msgstr ""
 msgid "Allocation state must be \"Refused\" in order to be reset to \"To Approve\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Чтобы вернуть распределение на стадию «К согласованию», оно должно быть в "
+"статусе «Отклонено»."
+>>>>>>> upstream/18.0
 =======
 "Чтобы вернуть распределение на стадию «К согласованию», оно должно быть в "
 "статусе «Отклонено»."
@@ -960,17 +1061,23 @@ msgid ""
 "- By Employee Tag: all employees of the specific employee group category"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Позволяет создавать заявки пакетно:\n"
 "- По работнику: для конкретного работнику\n"
 "- По компании: все работники указанной компании\n"
 "- По отделу: все работники указанного отдела\n"
 "- По тегу работнику: все работники определенной категории группы работников"
 =======
+=======
+>>>>>>> upstream/18.0
 "Создание заявок группами:\n"
 "- По сотруднику: для конкретного сотрудника\n"
 "- По компании: для всех сотрудников указанной компании\n"
 "- По отделу: для всех сотрудников выбранного отдела\n"
 "- По тегу сотрудника: для всех сотрудников выбранной группы"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -1146,6 +1253,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Автоматическое разделение отпуска при пакетном создании не поддерживается для перекрывающихся отпусков, оформленных в часах. Конфликт возник с:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "Автоматическое разделение отпуска при пакетном создании не поддерживается для перекрывающихся отпусков, оформленных в часах. Конфликт возник с:\n"
 "%s"
@@ -1163,7 +1275,11 @@ msgstr "Доступно"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_employee_public__remaining_leaves
 msgid "Available Time Off Days"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные дни отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступные дни отпуска"
 >>>>>>> upstream/18.0
@@ -1186,7 +1302,11 @@ msgstr "Нет на месте"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.view_employee_form_leave_inherit
 msgid "Back On"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вернется"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вернется"
 >>>>>>> upstream/18.0
@@ -1196,7 +1316,11 @@ msgstr "Вернется"
 #: code:addons/hr_holidays/static/src/persona_model_patch.js:0
 msgid "Back on %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вернется %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вернется %s"
 >>>>>>> upstream/18.0
@@ -1307,6 +1431,10 @@ msgstr "Может сбросить"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1391,7 +1519,11 @@ msgstr "Кап:"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date
 msgid "Carried over days expiration date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия перенесенных дней"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия перенесенных дней"
 >>>>>>> upstream/18.0
@@ -1400,7 +1532,11 @@ msgstr "Срок действия перенесенных дней"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Carry Over Validity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Срок действия переноса"
+>>>>>>> upstream/18.0
 =======
 msgstr "Срок действия переноса"
 >>>>>>> upstream/18.0
@@ -1456,15 +1592,21 @@ msgid ""
 "allocation accordingly."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Изменение этого графика работы приведет к тому, что затронутому сотруднику "
 "(сотрудникам) не хватит выделенных отпусков, чтобы компенсировать уже взятые"
 " отпуска в будущем. Пожалуйста, проверьте отпуска этого сотрудника и "
 "скорректируйте их распределение соответствующим образом."
 =======
+=======
+>>>>>>> upstream/18.0
 "Изменение графика работы приведет к тому, что у сотрудника (сотрудников) "
 "окажется недостаточно дней отпуска для уже запланированных отпусков. "
 "Пожалуйста, проверьте и скорректируйте распределение отпусков для данного "
 "сотрудника."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -1576,8 +1718,13 @@ msgid ""
 "approbation) with a start date in the current year."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Количество заявок на отгулы для данного типа отгулов (одобренных или "
 "ожидающих одобрения) с датой начала в текущем году."
+=======
+"Количество заявок на отпуск по данному типу отпуска (в статусе «Согласовано»"
+" или «Ожидает согласования»), с датой начала в текущем году."
+>>>>>>> upstream/18.0
 =======
 "Количество заявок на отпуск по данному типу отпуска (в статусе «Согласовано»"
 " или «Ожидает согласования»), с датой начала в текущем году."
@@ -1602,7 +1749,11 @@ msgstr "Изображение обложки"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Create Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать распределения"
 >>>>>>> upstream/18.0
@@ -1759,6 +1910,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/hr_holidays/static/src/views/calendar/common/calendar_common_popover.xml:0
 >>>>>>> upstream/18.0
@@ -1882,9 +2037,15 @@ msgid ""
 "your allocation. Please review this leave if you need it to be changed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В связи с изменением глобальных отгулов, %s дополнительных дня(ов) были "
 "взяты из вашего отпуска. Пожалуйста, пересмотрите этот отпуск, если вам "
 "нужно его изменить."
+=======
+"В связи с изменениями в глобальных настройках отпусков, из вашего баланса "
+"отпуска было списано следующее количество дополнительных дней: %s. "
+"Пожалуйста, проверьте заявку и при необходимости скорректируйте ее."
+>>>>>>> upstream/18.0
 =======
 "В связи с изменениями в глобальных настройках отпусков, из вашего баланса "
 "отпуска было списано следующее количество дополнительных дней: %s. "
@@ -1900,9 +2061,15 @@ msgid ""
 "this leave."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "В связи с изменениями в глобальных отгулах этот отпуск больше не имеет "
 "необходимого количества доступных ассигнований и был отменен. Пожалуйста, "
 "пересмотрите этот отпуск."
+=======
+"В связи с изменениями в глобальных настройках отпусков, по данной заявке "
+"недостаточно доступных распределений, и она была переведена в статус "
+"«Отклонено». Пожалуйста, проверьте заявку."
+>>>>>>> upstream/18.0
 =======
 "В связи с изменениями в глобальных настройках отпусков, по данной заявке "
 "недостаточно доступных распределений, и она была переведена в статус "
@@ -2006,7 +2173,11 @@ msgstr "Начисление сотрудникам"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_view_kanban_approve_department
 msgid "Employee's image"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Фотография сотрудника"
+>>>>>>> upstream/18.0
 =======
 msgstr "Фотография сотрудника"
 >>>>>>> upstream/18.0
@@ -2141,8 +2312,13 @@ msgid ""
 msgstr ""
 "Для распределения по начислениям это поле содержит теоретическое количество "
 <<<<<<< HEAD
+<<<<<<< HEAD
 "времени, предоставленное сотруднику в связи с предыдущей датой начала работы"
 " при первом выполнении плана. Это поле можно редактировать вручную."
+=======
+"времени, предоставленного сотруднику из-за более ранней даты начала. "
+"Значение можно отредактировать вручную."
+>>>>>>> upstream/18.0
 =======
 "времени, предоставленного сотруднику из-за более ранней даты начала. "
 "Значение можно отредактировать вручную."
@@ -2182,7 +2358,11 @@ msgstr "Планируемые действия"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать отпуска"
 >>>>>>> upstream/18.0
@@ -2192,7 +2372,11 @@ msgstr "Создать отпуска"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_generate_multi_wizard_view_form
 msgid "Generate time off allocations for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создание распределений отпуска для нескольких сотрудников"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создание распределений отпуска для нескольких сотрудников"
 >>>>>>> upstream/18.0
@@ -2202,7 +2386,11 @@ msgstr "Создание распределений отпуска для нес
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "Generate time off for multiple employees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать отпуска для нескольких сотрудников"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать отпуска для нескольких сотрудников"
 >>>>>>> upstream/18.0
@@ -2212,7 +2400,11 @@ msgstr "Создать отпуска для нескольких сотрудн
 #: code:addons/hr_holidays/wizard/hr_leave_allocation_generate_multi_wizard.py:0
 msgid "Generated Allocations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Созданные распределения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Созданные распределения"
 >>>>>>> upstream/18.0
@@ -2222,7 +2414,11 @@ msgstr "Созданные распределения"
 #: code:addons/hr_holidays/wizard/hr_leave_generate_multi_wizard.py:0
 msgid "Generated Time Off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Созданные отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Созданные отпуска"
 >>>>>>> upstream/18.0
@@ -2277,7 +2473,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имеет права руководителя отдела"
+>>>>>>> upstream/18.0
 =======
 msgstr "Имеет права руководителя отдела"
 >>>>>>> upstream/18.0
@@ -2492,7 +2692,11 @@ msgstr "Является подписчиком"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_allocation__is_name_custom
 msgid "Is Name Custom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пользовательское имя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пользовательское имя"
 >>>>>>> upstream/18.0
@@ -2685,7 +2889,11 @@ msgstr "Март"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_allocation_view_form_manager
 msgid "Mark as ready to approve"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отметить как готово к согласованию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отметить как готово к согласованию"
 >>>>>>> upstream/18.0
@@ -2709,7 +2917,11 @@ msgstr "Максимум допустимо"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__max_allowed_negative
 msgid "Maximum Excess Amount"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимально допустимый перерасход"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимально допустимый перерасход"
 >>>>>>> upstream/18.0
@@ -2777,7 +2989,11 @@ msgstr "Переходный этап"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__cap_accrued_time_yearly
 msgid "Milestone cap"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ограничение по этапу"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ограничение по этапу"
 >>>>>>> upstream/18.0
@@ -2821,7 +3037,11 @@ msgstr "Утро"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_leave_generate_multi_wizard
 msgid "Multiple Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Множественные заявки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Множественные заявки"
 >>>>>>> upstream/18.0
@@ -2907,7 +3127,11 @@ msgstr "Новое распределение"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "New Allocation Request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Новое распределение"
+=======
+msgstr "Запрос на новое распределение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Запрос на новое распределение"
 >>>>>>> upstream/18.0
@@ -3007,6 +3231,11 @@ msgid ""
 "simply not be displayed on the leave dashboard."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Невидимые распределения можно использовать при оформлении отпуска, но они не"
+" будут отображаться на дашборде отпусков."
+>>>>>>> upstream/18.0
 =======
 "Невидимые распределения можно использовать при оформлении отпуска, но они не"
 " будут отображаться на дашборде отпусков."
@@ -3151,6 +3380,12 @@ msgid ""
 " can approve or refuse allocation requests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только согласующее лицо для сотрудника %s, администратор или сотрудник, "
+"ответственный за отпуска, может согласовать или отклонить запрос на "
+"распределение."
+>>>>>>> upstream/18.0
 =======
 "Только согласующее лицо для сотрудника %s, администратор или сотрудник, "
 "ответственный за отпуска, может согласовать или отклонить запрос на "
@@ -3188,7 +3423,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "Only a manager can modify a canceled leave."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Только менеджер может изменить отмененный отпуск."
+>>>>>>> upstream/18.0
 =======
 msgstr "Только менеджер может изменить отмененный отпуск."
 >>>>>>> upstream/18.0
@@ -3199,6 +3438,10 @@ msgstr "Только менеджер может изменить отменен
 msgid "Only a time off Administrator can approve their own requests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только администратор модуля Отпуска может согласовывать собственные заявки."
+>>>>>>> upstream/18.0
 =======
 "Только администратор модуля Отпуска может согласовывать собственные заявки."
 >>>>>>> upstream/18.0
@@ -3211,6 +3454,11 @@ msgid ""
 "allocation requests."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Только администратор или сотрудник, ответственный за отпуска, может "
+"согласовать или отклонить запрос на распределение."
+>>>>>>> upstream/18.0
 =======
 "Только администратор или сотрудник, ответственный за отпуска, может "
 "согласовать или отклонить запрос на распределение."
@@ -3256,7 +3504,11 @@ msgstr "Отпуска по уходу за ребенком"
 #: code:addons/hr_holidays/static/src/dashboard/time_off_dashboard.xml:0
 msgid "Pending Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ожидающие рассмотрения заявки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ожидающие рассмотрения заявки"
 >>>>>>> upstream/18.0
@@ -3294,7 +3546,11 @@ msgstr "Печать"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_holidays_cancel_leave_form
 msgid "Provide a reason to cancel an approved time off"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Укажите причину отмены согласованного отпуска"
+>>>>>>> upstream/18.0
 =======
 msgstr "Укажите причину отмены согласованного отпуска"
 >>>>>>> upstream/18.0
@@ -3308,7 +3564,11 @@ msgstr "Публичный"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_type__include_public_holidays_in_duration
 msgid "Public Holiday Included"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Праздничные дни включены"
+>>>>>>> upstream/18.0
 =======
 msgstr "Праздничные дни включены"
 >>>>>>> upstream/18.0
@@ -3328,6 +3588,10 @@ msgid ""
 "leaves"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Праздничные дни должны учитываться при расчете продолжительности отпуска"
+>>>>>>> upstream/18.0
 =======
 "Праздничные дни должны учитываться при расчете продолжительности отпуска"
 >>>>>>> upstream/18.0
@@ -3605,11 +3869,17 @@ msgid ""
 "            #       by the Time Off Officer, Employee's Approver or both."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Выберите уровень согласования, необходимый при подаче заявки сотрудником\n"
 "            #     - Без утверждения: заявка сотрудника согласовывается автоматически.\n"
 "            #     - Согласование сотрудником, ответственным за отпуска: заявка сотрудника должна быть согласована вручную\n"
 "            #       ответственным за отпуска сотрудником, назначенным для сотрудника согласующим лицом или обоими."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -3629,8 +3899,13 @@ msgid ""
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Выберите пользователя, ответственного за утверждение \"Отгулов\" данного сотрудника.\n"
 "Если пусто, то утверждение производится Администратором или Утвердителем (определяется в настройках/пользователи)."
+=======
+"Выберите пользователя, ответственного за согласование отпусков данного сотрудника.\n"
+"Если поле пустое, согласовывать отпуска будет администратор или назначенный согласующий (см. Настройки > Пользователи)."
+>>>>>>> upstream/18.0
 =======
 "Выберите пользователя, ответственного за согласование отпусков данного сотрудника.\n"
 "Если поле пустое, согласовывать отпуска будет администратор или назначенный согласующий (см. Настройки > Пользователи)."
@@ -3712,8 +3987,13 @@ msgid ""
 "                Leave empty if this accrual plan can be used with any Time Off Type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Укажите, может ли этот план начислений использоваться только с данным типом отгулов.\n"
 "                Оставьте пустым, если этот план начислений можно использовать с любым типом отгулов."
+=======
+"Укажите, применяется ли данный план начислений только для этого типа отпуска.\n"
+"                Оставьте поле пустым, если план может использоваться с любым типом отпуска."
+>>>>>>> upstream/18.0
 =======
 "Укажите, применяется ли данный план начислений только для этого типа отпуска.\n"
 "                Оставьте поле пустым, если план может использоваться с любым типом отпуска."
@@ -3730,6 +4010,7 @@ msgid ""
 "                After it is complete, the new level will take effect when the next pay period begins."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Укажите, что произойдет, если переход на другой уровень произойдет в середине периода оплаты.\n"
 "\n"
 "                'Немедленно' переведет сотрудника на новый уровень начислений в точную дату в течение текущего периода оплаты.\n"
@@ -3737,19 +4018,28 @@ msgstr ""
 "                'После периода этого начисления' оставит сотрудника на прежнем уровне начислений до завершения текущего периода оплаты.\n"
 "                После его завершения новый уровень вступит в силу с началом следующего периода оплаты."
 =======
+=======
+>>>>>>> upstream/18.0
 "Укажите, как будет происходить переход между уровнями начисления в середине расчетного периода:\n"
 "\n"
 "                «Немедленно»: переход к новому уровню произойдет с указанной даты в текущем периоде.\n"
 "\n"
 "                «После текущего периода»: сохранит за сотрудником прежний уровень начисления до завершения текущего периода.\n"
 "                Переход произойдет с началом следующего периода."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_accrual_level_view_form
 msgid "Start Accruing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Начать начисление"
+>>>>>>> upstream/18.0
 =======
 msgstr "Начать начисление"
 >>>>>>> upstream/18.0
@@ -3882,9 +4172,15 @@ msgid ""
 "is used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Начисление начинается через определенный период времени после даты начала "
 "распределения. Это поле определяет количество дней, месяцев или лет, по "
 "истечении которых используется начисление."
+=======
+"Расчет начинается по истечении определенного периода с даты начала "
+"распределения. Укажите количество дней, месяцев или лет до начала "
+"начислений."
+>>>>>>> upstream/18.0
 =======
 "Расчет начинается по истечении определенного периода с даты начала "
 "распределения. Укажите количество дней, месяцев или лет до начала "
@@ -3899,9 +4195,14 @@ msgid ""
 "of that type have been taken. You should create a new time off type instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Требование по распределению для данного вида отпуска нельзя изменить, если "
 "уже были оформлены отпуска этого вида. Рекомендуется создать новый вид "
 "отпуска."
+=======
+"Требование по наличию начисления для типа отпуска нельзя изменить, если по "
+"этому типу уже оформлены заявки. Необходимо создать новый тип отпуска."
+>>>>>>> upstream/18.0
 =======
 "Требование по наличию начисления для типа отпуска нельзя изменить, если по "
 "этому типу уже оформлены заявки. Необходимо создать новый тип отпуска."
@@ -3940,7 +4241,11 @@ msgstr "Продолжительность должна быть больше 0.
 #: code:addons/hr_holidays/wizard/hr_departure_wizard.py:0
 msgid "The employee no longer works in the company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сотрудник больше не работает в компании"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сотрудник больше не работает в компании"
 >>>>>>> upstream/18.0
@@ -3963,8 +4268,13 @@ msgid ""
 "                It will not be possible to take all of them."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отпуска, запланированные на будущее, превышают максимальную величину ассигнований.\n"
 "                Все их взять не удастся."
+=======
+"Запланированные отпуска превышают допустимый остаток распределений.\n"
+"                Не получится использовать весь запланированный отпуск."
+>>>>>>> upstream/18.0
 =======
 "Запланированные отпуска превышают допустимый остаток распределений.\n"
 "                Не получится использовать весь запланированный отпуск."
@@ -3977,6 +4287,11 @@ msgid ""
 "disable the negative cap instead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Максимально допустимый перерасход должен быть больше 0. Если хотите "
+"установить 0, отключите отрицательный лимит."
+>>>>>>> upstream/18.0
 =======
 "Максимально допустимый перерасход должен быть больше 0. Если хотите "
 "установить 0, отключите отрицательный лимит."
@@ -3989,6 +4304,11 @@ msgid ""
 "carried_over_days_expiration_date"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Количество перенесенных дней, срок действия которых истечет "
+"carried_over_days_expiration_date"
+>>>>>>> upstream/18.0
 =======
 "Количество перенесенных дней, срок действия которых истечет "
 "carried_over_days_expiration_date"
@@ -4028,6 +4348,12 @@ msgid ""
 "The status is 'Approved', when an allocation request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Статус «К согласованию» при создании заявки;\n"
+"Статус «Отклонено» при отклонении менеджером;\n"
+"Статус «Согласовано» при утверждении менеджером."
+>>>>>>> upstream/18.0
 =======
 "Статус «К согласованию» при создании заявки;\n"
 "Статус «Отклонено» при отклонении менеджером;\n"
@@ -4043,15 +4369,21 @@ msgid ""
 "The status is 'Approved', when time off request is approved by manager."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Статус установлен на ‘Отправить’, когда создается запрос на отпуск.\n"
 "Статус ‘Подтвердить’, когда запрос на отпуск подтверждается пользователем.\n"
 "Статус ‘Отказаться’, когда запрос на отпуск отклонен менеджером.\n"
 "Статус ‘Утвержден’, когда запрос на отпуск одобрен менеджером."
 =======
+=======
+>>>>>>> upstream/18.0
 "Статус «На отправку»: заявка создана.\n"
 "Статус «На согласование»: заявка подтверждена пользователем.\n"
 "Статус «Отклонено»: заявка отклонена менеджером.\n"
 "Статус «Согласовано»: заявка согласована менеджером."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_holidays
@@ -4065,7 +4397,11 @@ msgstr "Отпуск был автоматически одобрен"
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "The time off has been cancelled: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отпуск был отменен: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отпуск был отменен: %s"
 >>>>>>> upstream/18.0
@@ -4103,9 +4439,15 @@ msgid ""
 "configuration of the allocation, delete and create a new one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Это распределение уже было запущено однажды, любое изменение не будет "
 "действовать на дни, выделенные сотруднику. Если вам нужно изменить "
 "конфигурацию распределения, удалите его и создайте новое."
+=======
+"Это распределение уже было выполнено. Внесенные изменения не повлияют на уже"
+" выделенные сотруднику дни. Чтобы внести изменения, удалите запись и "
+"создайте новое распределение."
+>>>>>>> upstream/18.0
 =======
 "Это распределение уже было выполнено. Внесенные изменения не повлияют на уже"
 " выделенные сотруднику дни. Чтобы внести изменения, удалите запись и "
@@ -4127,9 +4469,15 @@ msgid ""
 " second level (If time off type need second validation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Эта область автоматически заполняется пользователем, который утверждает "
 "отсутствие на втором уровне (если тип отсутствие требует второго "
 "утверждения)"
+=======
+"Это поле заполняется автоматически пользователем, который выполнил "
+"согласование второго уровня (если по типу отпуска требуется двойное "
+"согласование)."
+>>>>>>> upstream/18.0
 =======
 "Это поле заполняется автоматически пользователем, который выполнил "
 "согласование второго уровня (если по типу отпуска требуется двойное "
@@ -4151,6 +4499,12 @@ msgid ""
 "with second level (If time off type need second validation)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Эта область заполняется автоматически пользователем, утвердившим "
+"распределение на втором уровне (если тип отпуска требует второго "
+"согласования)"
+>>>>>>> upstream/18.0
 =======
 "Эта область заполняется автоматически пользователем, утвердившим "
 "распределение на втором уровне (если тип отпуска требует второго "
@@ -4162,6 +4516,10 @@ msgstr ""
 msgid "This field defines the unit of time after which the accrual ends."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Это поле задает единицу времени, по истечении которой завершится начисление."
+>>>>>>> upstream/18.0
 =======
 "Это поле задает единицу времени, по истечении которой завершится начисление."
 >>>>>>> upstream/18.0
@@ -4188,7 +4546,11 @@ msgstr "Данная модификация не допускается в те�
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "This time off cannot be cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Этот отпуск нельзя отменить."
+>>>>>>> upstream/18.0
 =======
 msgstr "Этот отпуск нельзя отменить."
 >>>>>>> upstream/18.0
@@ -4294,8 +4656,13 @@ msgid ""
 "                Employees request allocations to Time Off Officers (e.g. recuperation days)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Руководители выделяют сотрудникам нерабочие дни (например, оплачиваемый отпуск). <br>\n"
 "                 Сотрудники запрашивают выделение им свободного времени (например, дни для восстановления сил)."
+=======
+"Ответственные за отпуска лица начисляют сотрудникам дни отпуска (например, оплачиваемый отпуск).<br>\n"
+"Сотрудники могут создавать запросы на распределение и отправлять их ответственным за отпуска (например, дни для реабилитации)."
+>>>>>>> upstream/18.0
 =======
 "Ответственные за отпуска лица начисляют сотрудникам дни отпуска (например, оплачиваемый отпуск).<br>\n"
 "Сотрудники могут создавать запросы на распределение и отправлять их ответственным за отпуска (например, дни для реабилитации)."
@@ -4469,6 +4836,11 @@ msgid ""
 "reset to \"Confirmed\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Статус заявки на отпуск должен быть «Отклонено» или «Отменено», чтобы "
+"вернуть заявку на этап «Подтверждено»."
+>>>>>>> upstream/18.0
 =======
 "Статус заявки на отпуск должен быть «Отклонено» или «Отменено», чтобы "
 "вернуть заявку на этап «Подтверждено»."
@@ -4552,9 +4924,15 @@ msgid ""
 " without overriding limit."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Общее количество оплачиваемых отгулов, выделенных данному сотруднику, "
 "изменить данное значение для создания заявки на выделение/отгул. Всего по "
 "всем видам отгулов без превышения лимита."
+=======
+"Общее количество оплачиваемых дней отпуска, начисленных сотруднику. Измените"
+" значение для создания запроса на распределение или заявки на отпуск. Общее "
+"количество рассчитывается по всем типам отпусков без превышения лимита."
+>>>>>>> upstream/18.0
 =======
 "Общее количество оплачиваемых дней отпуска, начисленных сотруднику. Измените"
 " значение для создания запроса на распределение или заявки на отпуск. Общее "
@@ -4716,6 +5094,11 @@ msgid ""
 "company"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Дата окончания срока действия обновлена, так как сотрудник больше не "
+"работает в компании"
+>>>>>>> upstream/18.0
 =======
 "Дата окончания срока действия обновлена, так как сотрудник больше не "
 "работает в компании"
@@ -4799,6 +5182,11 @@ msgid ""
 "with a maximum)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Когда наступает срок переноса, в зависимости от настроек плана выберите "
+"действие: сбросить остаток, перенести всё, либо перенести с ограничением."
+>>>>>>> upstream/18.0
 =======
 "Когда наступает срок переноса, в зависимости от настроек плана выберите "
 "действие: сбросить остаток, перенести всё, либо перенести с ограничением."
@@ -4811,6 +5199,11 @@ msgid ""
 "plan will never exceed the specified amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, баланс по распределению с этим планом начислений не "
+"превысит указанного лимита."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, баланс по распределению с этим планом начислений не "
 "превысит указанного лимита."
@@ -4823,6 +5216,11 @@ msgid ""
 "at the specified amount"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Если флажок установлен, сумма начислений за год будет ограничена указанным "
+"пределом."
+>>>>>>> upstream/18.0
 =======
 "Если флажок установлен, сумма начислений за год будет ограничена указанным "
 "пределом."
@@ -4862,7 +5260,11 @@ msgstr "Ежегодно Месяц"
 #: model:ir.model.fields,field_description:hr_holidays.field_hr_leave_accrual_level__maximum_leave_yearly
 msgid "Yearly limit to"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Годовой лимит до"
+>>>>>>> upstream/18.0
 =======
 msgstr "Годовой лимит до"
 >>>>>>> upstream/18.0
@@ -4893,7 +5295,11 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_leave.py:0
 msgid "You are not allowed to request time off on a Mandatory Day"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы не можете подать заявку на отпуск в «Обязательный рабочий день»"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы не можете подать заявку на отпуск в «Обязательный рабочий день»"
 >>>>>>> upstream/18.0
@@ -4905,6 +5311,10 @@ msgid ""
 "available"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Можно задать период, в течение которого перенесенные дни будут доступны"
+>>>>>>> upstream/18.0
 =======
 "Можно задать период, в течение которого перенесенные дни будут доступны"
 >>>>>>> upstream/18.0
@@ -4976,6 +5386,11 @@ msgid ""
 "amount."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя установить ограничение на годовые начисления без указания "
+"максимальной суммы."
+>>>>>>> upstream/18.0
 =======
 "Нельзя установить ограничение на годовые начисления без указания "
 "максимальной суммы."
@@ -4991,6 +5406,12 @@ msgid ""
 "affected by this change."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Нельзя изменить параметр «Праздничные дни включены», так как существуют "
+"отпуска, совпадающие с праздничными днями, и изменение повлияет на баланс "
+"этих сотрудников."
+>>>>>>> upstream/18.0
 =======
 "Нельзя изменить параметр «Праздничные дни включены», так как существуют "
 "отпуска, совпадающие с праздничными днями, и изменение повлияет на баланс "
@@ -5039,6 +5460,11 @@ msgid ""
 "validate this allocation request."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Вы должны быть либо согласующим лицом по отпускам для сотрудника %s, либо "
+"администратором, чтобы утвердить это распределение."
+>>>>>>> upstream/18.0
 =======
 "Вы должны быть либо согласующим лицом по отпускам для сотрудника %s, либо "
 "администратором, чтобы утвердить это распределение."
@@ -5087,9 +5513,15 @@ msgid ""
 "Attempting to double-book your time off won't magically make your vacation 2x better!\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Вы уже забронировали отгул, который совпадает с этим периодом:\n"
 "%s\n"
 "Попытка дважды забронировать время отдыха не сделает ваш отпуск волшебным образом в 2 раза лучше!\n"
+=======
+"Вы уже запланировали отпуск, который совпадает с этим периодом:\n"
+"%s\n"
+"Попытка забронировать один и тот же отпуск дважды не сделает отпуск в два раза приятнее!\n"
+>>>>>>> upstream/18.0
 =======
 "Вы уже запланировали отпуск, который совпадает с этим периодом:\n"
 "%s\n"
@@ -5119,7 +5551,11 @@ msgstr "Ваше свободное время"
 #: code:addons/hr_holidays/wizard/hr_holidays_cancel_leave.py:0
 msgid "Your time off has been cancelled."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ваш отпуск был отменен."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ваш отпуск был отменен."
 >>>>>>> upstream/18.0
@@ -5215,7 +5651,11 @@ msgstr "дней)"
 #: model_terms:ir.ui.view,arch_db:hr_holidays.hr_leave_generate_multi_wizard_view_form
 msgid "e.g. Extra recuperation, Company unavailability, ..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "например, дни для реабилитации, нерабочий день в компании и т. д."
+>>>>>>> upstream/18.0
 =======
 msgstr "например, дни для реабилитации, нерабочий день в компании и т. д."
 >>>>>>> upstream/18.0
@@ -5240,7 +5680,11 @@ msgstr "от %(date_from)s до %(date_to)s - %(state)s"
 #: code:addons/hr_holidays/static/src/leave_stats/leave_stats.xml:0
 msgid "hour(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "час(ов)"
+>>>>>>> upstream/18.0
 =======
 msgstr "час(ов)"
 >>>>>>> upstream/18.0

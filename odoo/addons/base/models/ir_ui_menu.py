@@ -83,7 +83,11 @@ class IrUiMenu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return self.parent_id._get_full_name(level - 1) + MENU_ITEM_SEPARATOR + (self.name or "")
+=======
+            return (self.parent_id._get_full_name(level - 1) or "") + MENU_ITEM_SEPARATOR + (self.name or "")
+>>>>>>> upstream/18.0
 =======
             return (self.parent_id._get_full_name(level - 1) or "") + MENU_ITEM_SEPARATOR + (self.name or "")
 >>>>>>> upstream/18.0
@@ -183,7 +187,11 @@ class IrUiMenu(models.Model):
         path_info = path.split(',')
         icon_path = opj(path_info[0], path_info[1])
         try:
+<<<<<<< HEAD
             with tools.file_open(icon_path, 'rb', filter_ext=('.png',)) as icon_file:
+=======
+            with tools.file_open(icon_path, 'rb', filter_ext=('.png', '.gif', '.ico', '.jfif', '.jpeg', '.jpg', '.svg', '.webp')) as icon_file:
+>>>>>>> upstream/18.0
                 return base64.encodebytes(icon_file.read())
         except FileNotFoundError:
             return False

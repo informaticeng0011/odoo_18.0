@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 =======
+=======
+>>>>>>> upstream/18.0
 import math
 from num2words import num2words
 
 from odoo import api, models
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -77,7 +83,11 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return f"{prefix}{year}{number}"
+=======
+            return f"{prefix.upper()}{year}{number}"
+>>>>>>> upstream/18.0
 =======
             return f"{prefix.upper()}{year}{number}"
 >>>>>>> upstream/18.0
@@ -296,6 +306,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'pricing_currency_code': invoice.currency_id.name.upper() if invoice.currency_id != invoice.company_id.currency_id else False,
             'currency_dp': 2,
@@ -414,6 +425,8 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 >>>>>>> upstream/18.0
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -480,6 +493,7 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -522,6 +536,8 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         return vals
 
 =======
+=======
+>>>>>>> upstream/18.0
 
         vals['vals']['note_vals'].append({'note': self._l10n_tr_get_amount_integer_partn_text_note(invoice.amount_residual_signed, self.env.ref('base.TRY')), 'note_attrs': {}})
         if vals['invoice'].currency_id.name != 'TRY':
@@ -538,6 +554,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
         text_d = num2words(amount_decimal_part * sign, lang="tr") or 'Sifir'
         return f'YALNIZ : {text_i} {currency.name} {text_d} {currency.currency_subunit_label}'.upper()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_country_vals(self, country):
         # EXTENDS account.edi.xml.ubl_21
@@ -569,6 +588,12 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Nilvera will reject any <ID> without a <schemeID>, so remove all items not
+        # having the following structure : {'id': '...', 'id_attrs': {'schemeID': '...'}}
+        vals = [v for v in vals if v.get('id') and v.get('id_attrs', {}).get('schemeID')]
+>>>>>>> upstream/18.0
 =======
         # Nilvera will reject any <ID> without a <schemeID>, so remove all items not
         # having the following structure : {'id': '...', 'id_attrs': {'schemeID': '...'}}
@@ -703,7 +728,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -722,6 +750,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -825,7 +856,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1088,6 +1122,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1342,7 +1379,13 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
+=======
+            vals['currency_dp'] = 2
+            for subtotal_vals in vals.get('tax_subtotal_vals', []):
+                subtotal_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
             vals['currency_dp'] = 2
             for subtotal_vals in vals.get('tax_subtotal_vals', []):
@@ -1655,6 +1698,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
         vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
@@ -1874,7 +1921,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2030,6 +2080,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2183,6 +2236,10 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        invoice_line_price_vals['currency_dp'] = 2
+>>>>>>> upstream/18.0
 =======
         invoice_line_price_vals['currency_dp'] = 2
 >>>>>>> upstream/18.0
@@ -2388,9 +2445,12 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return invoice_line_vals
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2552,6 +2612,9 @@ class AccountEdiXmlUblTr(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
