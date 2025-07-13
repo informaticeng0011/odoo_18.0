@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, _
+=======
+from odoo import _, api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, models
 >>>>>>> upstream/18.0
@@ -20,7 +24,10 @@ class IrAttachment(models.Model):
             if move.country_code == "SA":
                 raise UserError(_("You can't unlink an attachment being an EDI document refused by the government."))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @api.ondelete(at_uninstall=False)
     def _unlink_except_validated_pdf_invoices(self):
@@ -50,4 +57,7 @@ class IrAttachment(models.Model):
     def _get_posted_pdf_moves_to_check(self):
         # Extends l10n_sa: to bypass the unlink check in l10n_sa for posted moves
         return super()._get_posted_pdf_moves_to_check().filtered(lambda rec: not rec.edi_state)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

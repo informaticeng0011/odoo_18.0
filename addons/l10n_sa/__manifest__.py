@@ -42,6 +42,10 @@ Activates:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/report_templates_views.xml'
+>>>>>>> upstream/18.0
 =======
         'views/report_templates_views.xml'
 >>>>>>> upstream/18.0

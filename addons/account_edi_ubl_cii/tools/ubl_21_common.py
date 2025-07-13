@@ -256,6 +256,10 @@ MonetaryTotal = {
     'cbc:PrepaidAmount': {},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:PayableRoundingAmount': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:PayableRoundingAmount': {},
 >>>>>>> upstream/18.0

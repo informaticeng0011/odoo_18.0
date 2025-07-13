@@ -490,9 +490,12 @@ class BaseModel(models.AbstractModel):
 
     def _mail_get_timezone(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         """To be override to get desired timezone of the model
 
 =======
+=======
+>>>>>>> upstream/18.0
         """deprecated, override `_mail_get_timezone_with_default` instead."""
         return self._mail_get_timezone_with_default()
 
@@ -500,13 +503,22 @@ class BaseModel(models.AbstractModel):
         """To be overridden to get desired timezone of the model.
 
         :param default_tz: the default timezone if none is found, or True to use the user's.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         :returns: selected timezone (e.g. 'UTC' or 'Asia/Kolkata')
         """
         if self:
             self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         tz = self.env.user.tz or 'UTC'
+=======
+        if default_tz is True:
+            default_tz = self.env.user.tz or 'UTC'
+        tz = default_tz
+>>>>>>> upstream/18.0
 =======
         if default_tz is True:
             default_tz = self.env.user.tz or 'UTC'

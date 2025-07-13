@@ -2,6 +2,10 @@
 from . import template_sa
 from . import account_move
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_attachment
+>>>>>>> upstream/18.0
 =======
 from . import ir_attachment
 >>>>>>> upstream/18.0

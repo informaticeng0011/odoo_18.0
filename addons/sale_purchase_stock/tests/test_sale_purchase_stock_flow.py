@@ -226,6 +226,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
         so.action_confirm()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         delivery = so.picking_ids
         po_2 = self.env['purchase.order'].search([('partner_id', '=', vendor_2.id)])
         po_2.button_cancel()
@@ -236,6 +237,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
             {'product_id': product_1.id, 'product_uom_qty': 1.0},
             {'product_id': product_2.id, 'product_uom_qty': 0.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.assertEqual(so.delivery_count, 1)
@@ -259,6 +262,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
         self.assertRecordValues(so.picking_ids[1].move_ids, [
             {'product_id': product_2.id, 'product_uom_qty': 1.0},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,7 +508,10 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -703,6 +712,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         internals = receipts._get_next_transfers()
         self.assertEqual(internals[0].partner_id, xd_customer)
         self.assertEqual(internals[0].move_ids.product_id, xd_product)
@@ -732,6 +742,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -883,6 +895,7 @@ class TestSalePurchaseStockFlow(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -965,6 +978,8 @@ class TestSalePurchaseStockFlow(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -994,6 +1009,9 @@ class TestSalePurchaseStockFlow(TransactionCase):
         sale_order.picking_ids.action_assign()
         self.assertEqual(sale_order.picking_ids.move_ids.quantity, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

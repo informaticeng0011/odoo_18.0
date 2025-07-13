@@ -26,7 +26,11 @@ class IrAttachment(models.Model):
     image_width = fields.Integer(compute='_compute_image_size')
     image_height = fields.Integer(compute='_compute_image_size')
 <<<<<<< HEAD
+<<<<<<< HEAD
     original_id = fields.Many2one('ir.attachment', string="Original (unoptimized, unresized) attachment")
+=======
+    original_id = fields.Many2one('ir.attachment', string="Original (unoptimized, unresized) attachment", index='btree_not_null')
+>>>>>>> upstream/18.0
 =======
     original_id = fields.Many2one('ir.attachment', string="Original (unoptimized, unresized) attachment", index='btree_not_null')
 >>>>>>> upstream/18.0

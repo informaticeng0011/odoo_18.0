@@ -34,8 +34,12 @@ export class ExpenseDashboard extends Component {
         action['context'] = { [`search_default_${filterName}`]: 1 };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         action['tag'] = 'menu'; //disables breadcrumb change on filter change
         return this.actionService.doAction(action);
+=======
+        return this.actionService.doAction(action, {clearBreadcrumbs: true});
+>>>>>>> upstream/18.0
 =======
         return this.actionService.doAction(action, {clearBreadcrumbs: true});
 >>>>>>> upstream/18.0

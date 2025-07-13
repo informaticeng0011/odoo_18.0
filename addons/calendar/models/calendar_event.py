@@ -108,7 +108,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partners |= self.env['res.partner'].browse(active_id)
+=======
+            partners |= self.env['res.partner'].browse(active_id)
+>>>>>>> upstream/18.0
 =======
             partners |= self.env['res.partner'].browse(active_id)
 >>>>>>> upstream/18.0
@@ -557,6 +561,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaults = self.env['calendar.event'].default_get(['activity_ids', 'res_model_id', 'res_id', 'user_id', 'res_model', 'partner_ids'])
 
         vals_list = [  # Else bug with quick_create when we are filter on an other user
@@ -572,6 +577,8 @@ class Meeting(models.Model):
         # if user is creating an event for an activity that already has one, create a second activity
         existing_event = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -609,6 +616,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -620,6 +630,7 @@ class Meeting(models.Model):
         if len(orig_activity_ids) == 1:
             existing_event = orig_activity_ids.calendar_event_id
             if existing_event and orig_activity_ids.activity_type_id.category == 'meeting':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +658,8 @@ class Meeting(models.Model):
                     activity_vals['user_id'] = user_id
                 values['activity_ids'] = [(0, 0, activity_vals)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -693,6 +706,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -734,8 +750,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         events._sync_activities(fields={f for vals in vals_list for f in vals.keys()})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -754,6 +773,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1108,6 +1130,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1176,6 +1199,8 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1375,6 +1400,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     # self.start is a datetime UTC *only when the event is not allday*
                     # activty.date_deadline is a date (No TZ, but should represent the day in which the user's TZ is)
                     # See 72254129dbaeae58d0a2055cba4e4a82cde495b7 for the same issue, but elsewhere
@@ -1396,6 +1422,9 @@ class Meeting(models.Model):
 =======
                     activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
 >>>>>>> upstream/18.0
+=======
+                    activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
+>>>>>>> upstream/18.0
                 if 'user_id' in fields:
                     activity_values['user_id'] = event.user_id.id
                 if activity_values.keys():
@@ -1405,7 +1434,10 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1427,6 +1459,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

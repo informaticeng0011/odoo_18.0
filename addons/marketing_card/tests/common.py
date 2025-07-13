@@ -1,6 +1,10 @@
 import base64
 from contextlib import contextmanager
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 >>>>>>> upstream/18.0
@@ -138,11 +142,17 @@ class MarketingCardCommon(TransactionCase, MockImageRender):
             'target_url': cls.env['card.campaign'].get_base_url(),
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @contextmanager
     def mock_datetime_and_now(self, mock_dt):
         with freeze_time(mock_dt), \
                 patch.object(self.env.cr, 'now', lambda: mock_dt):
             yield
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

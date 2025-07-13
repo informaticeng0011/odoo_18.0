@@ -47,7 +47,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xavier, 2024
+=======
+# Harcogourmet, 2024
+>>>>>>> upstream/18.0
 =======
 # Harcogourmet, 2024
 >>>>>>> upstream/18.0
@@ -271,8 +275,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Noemi Pla, 2025
 # marcescu, 2025
+=======
+# marcescu, 2025
+# Noemi Pla, 2025
+>>>>>>> upstream/18.0
 =======
 # marcescu, 2025
 # Noemi Pla, 2025
@@ -622,6 +631,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1107,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Noemi Pla, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-05-07 20:36+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Noemi Pla, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1113,6 +1128,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"Capes de valoració afectades: %s"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "Capes de valoració afectades: %s"
@@ -1128,7 +1148,11 @@ msgstr ""
 msgid " Product cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " Cost de producte actualitzat des de %(previous)s to %(new_cost)s."
+=======
+msgstr " Cost del producte actualitzat de %(previous)s a %(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr " Cost del producte actualitzat de %(previous)s a %(new_cost)s."
 >>>>>>> upstream/18.0
@@ -1149,6 +1173,11 @@ msgid " lot/serial number cost updated from %(previous)s to %(new_cost)s."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+" el cost del número de sèrie/lot s'ha actualitzat de %(previous)s a "
+"%(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 " el cost del número de sèrie/lot s'ha actualitzat de %(previous)s a "
 "%(new_cost)s."
@@ -1164,7 +1193,12 @@ msgstr ""
 msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(record)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(user)scanvi de cost de %(previous)s a %(new_price)s - %(record)s"
+=======
+msgstr ""
+"%(user)sha canviat el cost de %(previous)s a %(new_price)s - %(record)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(user)sha canviat el cost de %(previous)s a %(new_price)s - %(record)s"
@@ -1183,6 +1217,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(user)s ha canviat la valoració d'estoc %(previous)s a %(new_value)s - %(product)s\n"
+"%(reason)s"
+>>>>>>> upstream/18.0
 =======
 "%(user)s ha canviat la valoració d'estoc %(previous)s a %(new_value)s - %(product)s\n"
 "%(reason)s"
@@ -1206,7 +1245,11 @@ msgstr ""
 msgid "6.00"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "6,00"
+>>>>>>> upstream/18.0
 =======
 msgstr "6,00"
 >>>>>>> upstream/18.0
@@ -1219,7 +1262,11 @@ msgstr "6,00"
 msgid "<b>Set other input/output accounts on specific </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<b>Estableix altres comptes d'entrada/sortida en concret </b>"
+=======
+msgstr "<b>Estableix altres comptes d'entrada/sortida per a </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Estableix altres comptes d'entrada/sortida per a </b>"
 >>>>>>> upstream/18.0
@@ -1233,7 +1280,11 @@ msgstr "<b>Estableix altres comptes d'entrada/sortida per a </b>"
 msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Valoració</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Valoració</span>"
 >>>>>>> upstream/18.0
@@ -1261,7 +1312,11 @@ msgstr "<span>NS/NL</span>"
 msgid "Account Chart Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Plantilla de quadre de comptes"
+=======
+msgstr "Plantilla de pla comptable"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plantilla de pla comptable"
 >>>>>>> upstream/18.0
@@ -1272,6 +1327,7 @@ msgstr "Plantilla de pla comptable"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__account_move_ids
 msgid "Account Move"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1617,13 +1673,20 @@ msgstr "Moviment de compte"
 =======
 msgstr "Moviment de compte"
 >>>>>>> upstream/18.0
+=======
+msgstr "Moviment de compte"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
 msgid "Account Stock Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Propietats de valors de comptes"
+=======
+msgstr "Propietats comptables d'estoc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Propietats comptables d'estoc"
 >>>>>>> upstream/18.0
@@ -2786,6 +2849,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0

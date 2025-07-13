@@ -1,5 +1,9 @@
 import base64
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime
 >>>>>>> upstream/18.0
@@ -193,7 +197,10 @@ class TestMarketingCardRender(MarketingCardCommon):
             self.assertEqual(self.static_campaign.res_model, 'res.partner')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @mock_image_render
     def test_fetch_datetime(self):
         """Fetching a datetime field should attempt to translate it in the relevant timezone."""
@@ -228,6 +235,9 @@ class TestMarketingCardRender(MarketingCardCommon):
             tokyo_header, datetime(2020, 5, 5, 21, 0, 0)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install')
@@ -431,6 +441,7 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arbitrary_qweb = """
         <img t-attf-src="data:image/png;base64,{{object.env.ref('base.user_admin').sudo().image_128}}"/>
         """
@@ -450,6 +461,8 @@ class TestMarketingCardSecurity(MarketingCardCommon):
         # Force a cache invalidation to force a re-fetch from database
         campaign.invalidate_recordset(fnames=['body_html'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -638,6 +651,9 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -836,7 +852,11 @@ class TestMarketingCardSecurity(MarketingCardCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and field.readonly
+=======
+                and not field.readonly
+>>>>>>> upstream/18.0
 =======
                 and not field.readonly
 >>>>>>> upstream/18.0

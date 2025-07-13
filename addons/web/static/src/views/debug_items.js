@@ -195,7 +195,11 @@ class RawRecordDialog extends Component {
 export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { resId, resModel } = component.model.config;
+=======
+    const { resId, resModel, fields } = component.model.config;
+>>>>>>> upstream/18.0
 =======
     const { resId, resModel, fields } = component.model.config;
 >>>>>>> upstream/18.0
@@ -212,8 +216,11 @@ export function viewRawRecord({ component, env }) {
         callback: async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const records = await component.model.orm.read(resModel, [resId]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             const serializableFields = Object.entries(fields).reduce(
@@ -221,6 +228,9 @@ export function viewRawRecord({ component, env }) {
             );
             const records = await component.model.orm.read(resModel, [resId], serializableFields);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -66,6 +66,7 @@ export class Follower extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.partner.eq(this.store.self) ? this.thread.hasReadAccess : hasWriteAccess;
 =======
         return this.partner.in(this.thread?.selves) ? this.thread.hasReadAccess : hasWriteAccess;
@@ -168,6 +169,11 @@ export class Follower extends Record {
 >>>>>>> upstream/18.0
 =======
         return this.partner.in(this.thread?.selves) ? this.thread.hasReadAccess : hasWriteAccess;
+>>>>>>> upstream/18.0
+=======
+        return this.partner.eq(this.thread?.effectiveSelf)
+            ? this.thread.hasReadAccess
+            : hasWriteAccess;
 >>>>>>> upstream/18.0
 =======
         return this.partner.eq(this.thread?.effectiveSelf)

@@ -74,6 +74,7 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'reward_ids': [Command.create({
                 'reward_type': 'discount',
                 'discount': 10,
@@ -82,6 +83,8 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
                 'required_points': 1,
             })],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247,6 +250,9 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -460,7 +466,10 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -640,6 +649,9 @@ class TestLoyaltyhistory(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

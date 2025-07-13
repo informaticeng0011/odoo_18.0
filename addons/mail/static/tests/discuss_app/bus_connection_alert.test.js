@@ -4,6 +4,11 @@ import { defineMailModels, openDiscuss, start } from "@mail/../tests/mail_test_h
 import { describe, expect, test } from "@odoo/hoot";
 import { animationFrame, runAllTimers, waitFor, waitForNone } from "@odoo/hoot-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+import { browser } from "@web/core/browser/browser";
+>>>>>>> upstream/18.0
 =======
 
 import { browser } from "@web/core/browser/browser";
@@ -15,7 +20,10 @@ describe.current.tags("desktop");
 
 test("show warning when bus connection encounters issues", async () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     // The bus service listens to online/offline events. Prevent them to make the
     // test deterministic.
     for (const event of ["online", "offline"]) {
@@ -28,6 +36,9 @@ test("show warning when bus connection encounters issues", async () => {
             { capture: true }
         );
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     addBusServiceListeners(
         ["connect", () => asyncStep("connect")],

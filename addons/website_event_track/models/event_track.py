@@ -385,7 +385,11 @@ class Track(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise NotImplementedError("Unsupported 'Not In' operation on track wishlist visitors")
+=======
+            raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
+>>>>>>> upstream/18.0
 =======
             raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
 >>>>>>> upstream/18.0
@@ -640,13 +644,19 @@ class Track(models.Model):
     # ------------------------------------------------------------
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _mail_get_timezone_with_default(self, default_tz=True):
         tz = None
         if self:
             tz = self.event_id._mail_get_timezone_with_default(default_tz=default_tz)
         return tz or super()._mail_get_timezone_with_default(default_tz=default_tz)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _message_get_default_recipients(self):
         return {

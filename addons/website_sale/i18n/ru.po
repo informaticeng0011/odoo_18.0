@@ -6,9 +6,15 @@
 # Anton Kaligin, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Nadia Martynova, 2024
 # Wil Odoo, 2025
 # Ilya Rozhkov, 2025
+=======
+# Wil Odoo, 2025
+# Ilya Rozhkov, 2025
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Wil Odoo, 2025
 # Ilya Rozhkov, 2025
@@ -28,7 +34,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Ilya Rozhkov, 2025\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -47,7 +57,11 @@ msgstr ""
 msgid "\" category."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "\" категория."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -63,8 +77,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"Дополнительно\" позволяет гостям зарегистрироваться в электронном письме с"
 " подтверждением заказа, чтобы отследить свой заказ."
+=======
+"«Необязательно» – позволяет покупателям зарегистрироваться по ссылке в "
+"письме с подтверждением заказа, чтобы отслеживать статус."
+>>>>>>> upstream/18.0
 =======
 "«Необязательно» – позволяет покупателям зарегистрироваться по ссылке в "
 "письме с подтверждением заказа, чтобы отслеживать статус."
@@ -79,7 +98,11 @@ msgstr ""
 msgid "#{record.name.value}"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "#{record.name.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "#{record.name.value}"
 >>>>>>> upstream/18.0
@@ -102,7 +125,11 @@ msgstr "%s отзывы"
 msgid "&amp; Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp; доставка"
+>>>>>>> upstream/18.0
 =======
 msgstr "&amp; доставка"
 >>>>>>> upstream/18.0
@@ -177,7 +204,11 @@ msgstr "<b>Метка:</b>"
 msgid "<b>Deliver to pickup point: </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Доставка в пункт самовывоза: </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Доставка в пункт самовывоза: </b>"
 >>>>>>> upstream/18.0
@@ -191,7 +222,11 @@ msgstr "<b>Доставка в пункт самовывоза: </b>"
 msgid "<b>Delivery: </b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Доставка: </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Доставка: </b>"
 >>>>>>> upstream/18.0
@@ -282,6 +317,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-plus me-md-2\"/>\n"
+"                    <span class=\"d-none d-md-inline\">Добавить адрес</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-plus me-md-2\"/>\n"
 "                    <span class=\"d-none d-md-inline\">Добавить адрес</span>"
@@ -327,6 +367,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left d-lg-none me-1\" role=\"presentation\"/>Все "
+"товары"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left d-lg-none me-1\" role=\"presentation\"/>Все "
 "товары"
@@ -341,7 +386,11 @@ msgstr ""
 msgid "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>All Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Все товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-chevron-left me-1\" role=\"presentation\"/>Все товары"
 >>>>>>> upstream/18.0
@@ -357,6 +406,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Previous\" title=\"Предыдущий\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-left oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Previous\" title=\"Предыдущий\"/>"
@@ -374,6 +428,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
+"role=\"img\" aria-label=\"Next\" title=\"Следующий\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right oe_unmovable border bg-white text-900\" "
 "role=\"img\" aria-label=\"Next\" title=\"Следующий\"/>"
@@ -421,6 +480,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small class=\"form-text text-muted\">\n"
+"                                                        После выставления документов вы не сможете изменить название компании или ИНН. Для этого свяжитесь с нами напрямую.\n"
+"                                                    </small>"
+>>>>>>> upstream/18.0
 =======
 "<small class=\"form-text text-muted\">\n"
 "                                                        После выставления документов вы не сможете изменить название компании или ИНН. Для этого свяжитесь с нами напрямую.\n"
@@ -440,6 +505,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small class=\"mx-auto\"><b>Сбросить фильтры</b></small>\n"
+"                            <i class=\"oi oi-close\" role=\"presentation\"/>"
+>>>>>>> upstream/18.0
 =======
 "<small class=\"mx-auto\"><b>Сбросить фильтры</b></small>\n"
 "                            <i class=\"oi oi-close\" role=\"presentation\"/>"
@@ -476,6 +546,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">1 500.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">1 500.00</span>\n"
@@ -496,6 +572,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">140.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">140.00</span>\n"
@@ -516,6 +598,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">33.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">33.00</span>\n"
@@ -536,6 +624,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
+"                                                <span class=\"oe_currency_value\">750.00</span>\n"
+"                                            </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold\" name=\"product_price\" data-oe-type=\"monetary\" data-oe-expression=\"data['price']\">\n"
 "                                                <span class=\"oe_currency_value\">750.00</span>\n"
@@ -561,6 +655,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
+"                    Выберите для расчета стоимости доставки\n"
+"                </span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wsale_delivery_price_badge float-end fw-bold\" name=\"price\">\n"
 "                    Выберите для расчета стоимости доставки\n"
@@ -618,7 +718,11 @@ msgstr "<b>Отличная работа!</b> Вы прошли все этап�
 msgid "<span>Already have an account?</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>У вас уже есть аккаунт?</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>У вас уже есть аккаунт?</span>"
 >>>>>>> upstream/18.0
@@ -636,7 +740,11 @@ msgstr "<span>Заказать</span>"
 msgid "<span>Publish on website</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Опубликовать на сайте</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Опубликовать на сайте</span>"
 >>>>>>> upstream/18.0
@@ -663,7 +771,11 @@ msgstr "<span>Предварительный просмотр видео</span>"
 msgid "<strong>No suitable delivery method could be found.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Не удалось подобрать подходящий метод доставки.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Не удалось подобрать подходящий метод доставки.</strong>"
 >>>>>>> upstream/18.0
@@ -735,7 +847,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 0px; background-color: white; color: #454748; border-collapse:separate;\">\n"
@@ -781,6 +896,9 @@ msgstr ""
 "</table>\n"
 "            "
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -797,6 +915,11 @@ msgid "A combo product can't be empty. Please select at least one option."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Комбинированный товар не может быть пустым. Пожалуйста, выберите хотя бы "
+"одну опцию."
+>>>>>>> upstream/18.0
 =======
 "Комбинированный товар не может быть пустым. Пожалуйста, выберите хотя бы "
 "одну опцию."
@@ -815,9 +938,14 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Описание продукта, которое Вы хотели бы предоставлять вашим потребителям. "
 "Это описание будет отображаться в каждом заказе покупателя, заказе на "
 "доставку и счете покупателю/ кредитном обязательстве"
+=======
+"Описание товара, которое будет автоматически добавлено в заказ на продажу, "
+"заказ на доставку, счет клиента или кредитную ноту"
+>>>>>>> upstream/18.0
 =======
 "Описание товара, которое будет автоматически добавлено в заказ на продажу, "
 "заказ на доставку, счет клиента или кредитную ноту"
@@ -835,8 +963,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Подробное, отформатированное описание для продвижения вашего продукта на "
 "этой странице. Используйте '/' для раскрытия дополнительных возможностей."
+=======
+"Подробное, отформатированное описание для продвижения товара на странице. "
+"Используйте '/' для дополнительных функций."
+>>>>>>> upstream/18.0
 =======
 "Подробное, отформатированное описание для продвижения товара на странице. "
 "Используйте '/' для дополнительных функций."
@@ -855,6 +988,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Подробное, отформатированное описание для продвижения товара на странице. "
+"Используйте '/' для дополнительных функций."
+>>>>>>> upstream/18.0
 =======
 "Подробное, отформатированное описание для продвижения товара на странице. "
 "Используйте '/' для дополнительных функций."
@@ -872,8 +1010,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Продуктом может быть как физический товар, так и услуга, которую вы продаете"
 " своим клиентам."
+=======
+"Товар может быть физическим или услугой, которую вы продаете клиентам."
+>>>>>>> upstream/18.0
 =======
 "Товар может быть физическим или услугой, которую вы продаете клиентам."
 >>>>>>> upstream/18.0
@@ -1009,6 +1151,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Добавьте зачеркнутую цену /shop и товаров для сравнения. Она будет скрыта, "
+"если используются прайс-листы."
+>>>>>>> upstream/18.0
 =======
 "Добавьте зачеркнутую цену /shop и товаров для сравнения. Она будет скрыта, "
 "если используются прайс-листы."
@@ -1090,6 +1237,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Предоставьте клиентам возможность оплачивать покупки лично в ваших магазинах"
+>>>>>>> upstream/18.0
 =======
 "Предоставьте клиентам возможность оплачивать покупки лично в ваших магазинах"
 >>>>>>> upstream/18.0
@@ -1108,7 +1259,12 @@ msgid "Allow signed-in users to save product in a wishlist"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Разрешите авторизованным пользователям сохранять продукт в списке желаний"
+=======
+"Предоставьте авторизованным пользователям возможность  сохранять товар в "
+"избранное"
+>>>>>>> upstream/18.0
 =======
 "Предоставьте авторизованным пользователям возможность  сохранять товар в "
 "избранное"
@@ -1137,7 +1293,11 @@ msgstr ""
 msgid "Alternative Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Альтернативные продукты"
+=======
+msgstr "Альтернативные товары"
+>>>>>>> upstream/18.0
 =======
 msgstr "Альтернативные товары"
 >>>>>>> upstream/18.0
@@ -1172,7 +1332,11 @@ msgstr "Применить"
 msgid "Are you sure you want to delete this ribbon?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вы уверены, что хотите удалить эту ленту?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вы уверены, что хотите удалить эту ленту?"
 >>>>>>> upstream/18.0
@@ -1207,7 +1371,11 @@ msgstr "Атрибуты"
 msgid "Augmented Reality Tools"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Инструменты дополненной реальности"
+>>>>>>> upstream/18.0
 =======
 msgstr "Инструменты дополненной реальности"
 >>>>>>> upstream/18.0
@@ -1228,7 +1396,11 @@ msgstr ""
 msgid "Available options"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступные опции"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступные опции"
 >>>>>>> upstream/18.0
@@ -1290,7 +1462,11 @@ msgstr "Базовые единицы"
 msgid "Bathroom Cabinets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Шкафы для ванных комнат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Шкафы для ванных комнат"
 >>>>>>> upstream/18.0
@@ -1313,7 +1489,11 @@ msgstr "BeNeLux"
 msgid "Beds"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кровати"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кровати"
 >>>>>>> upstream/18.0
@@ -1373,10 +1553,16 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Повышайте продажи с помощью различных видов программ: Купоны, Акции, "
 "Подарочные карты, Лояльность. Можно задать конкретные условия (продукты, "
 "клиенты, минимальная сумма покупки, период). В качестве вознаграждения могут"
 " выступать скидки (% or сумма) или бесплатные товары."
+=======
+"Увеличьте продажи с помощью купонов, акций, подарочных сертификатов и "
+"программ лояльности. Можно задать условия (товары, клиенты, сумма, срок). В "
+"качестве вознаграждения могут выступать скидки или бесплатные товары."
+>>>>>>> upstream/18.0
 =======
 "Увеличьте продажи с помощью купонов, акций, подарочных сертификатов и "
 "программ лояльности. Можно задать условия (товары, клиенты, сумма, срок). В "
@@ -1419,7 +1605,11 @@ msgstr "Бренд"
 msgid "Button Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL кнопки"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL кнопки"
 >>>>>>> upstream/18.0
@@ -1523,8 +1713,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Категории используются для просмотра товаров через\n"
 "                 сенсорный интерфейс."
+=======
+"Категории используются для навигации по товарам через \n"
+"                сенсорный интерфейс."
+>>>>>>> upstream/18.0
 =======
 "Категории используются для навигации по товарам через \n"
 "                сенсорный интерфейс."
@@ -1565,7 +1760,11 @@ msgstr "Категория:"
 msgid "Ceiling Lamps"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Потолочные светильники"
+>>>>>>> upstream/18.0
 =======
 msgstr "Потолочные светильники"
 >>>>>>> upstream/18.0
@@ -1589,7 +1788,11 @@ msgstr "Стулья"
 msgid "Chandeliers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Люстры"
+>>>>>>> upstream/18.0
 =======
 msgstr "Люстры"
 >>>>>>> upstream/18.0
@@ -1602,7 +1805,11 @@ msgstr "Люстры"
 msgid "Change location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Смена локации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Смена локации"
 >>>>>>> upstream/18.0
@@ -1668,7 +1875,11 @@ msgstr "Выберите метод доставки"
 msgid "Choose a pick-up point"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите пункт самовывоза"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите пункт самовывоза"
 >>>>>>> upstream/18.0
@@ -1683,7 +1894,11 @@ msgstr "Выберите пункт самовывоза"
 msgid "Choose this location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выбрать эту локацию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выбрать эту локацию"
 >>>>>>> upstream/18.0
@@ -1719,8 +1934,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Нажмите кнопку <i>'Новый'</i> в правом верхнем углу, чтобы создать свой "
 "первый продукт."
+=======
+"Нажмите <i>«Новый»</i> в правом верхнем углу, чтобы добавить первый товар."
+>>>>>>> upstream/18.0
 =======
 "Нажмите <i>«Новый»</i> в правом верхнем углу, чтобы добавить первый товар."
 >>>>>>> upstream/18.0
@@ -1745,7 +1964,11 @@ msgstr "Нажмите здесь, чтобы открыть меню отчет
 msgid "Click on <em>Save</em> to create the product."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нажмите на кнопку <em>Сохранить</em>, чтобы создать продукт."
+=======
+msgstr "Нажмите «Сохранить», чтобы создать товар."
+>>>>>>> upstream/18.0
 =======
 msgstr "Нажмите «Сохранить», чтобы создать товар."
 >>>>>>> upstream/18.0
@@ -1782,7 +2005,11 @@ msgstr "Свернуть категорию Рекурсивный"
 msgid "Collapsible Boxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Складные коробки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Складные коробки"
 >>>>>>> upstream/18.0
@@ -1795,7 +2022,11 @@ msgstr "Складные коробки"
 msgid "Collapsible sidebar"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Сворачивающаяся боковая панель"
+>>>>>>> upstream/18.0
 =======
 msgstr "Сворачивающаяся боковая панель"
 >>>>>>> upstream/18.0
@@ -1826,8 +2057,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Список частей названий продуктов, штрихкодов или внутренних ссылок, "
 "разделенных запятыми"
+=======
+"Список через запятую: части названий, штрихкодов или внутренних кодов товара"
+>>>>>>> upstream/18.0
 =======
 "Список через запятую: части названий, штрихкодов или внутренних кодов товара"
 >>>>>>> upstream/18.0
@@ -1925,7 +2160,11 @@ msgstr "Настроить форму"
 msgid "Configure your product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Настройте свой продукт"
+=======
+msgstr "Настройте товар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настройте товар"
 >>>>>>> upstream/18.0
@@ -1974,7 +2213,11 @@ msgstr "Свяжитесь с нами"
 msgid "Contact Us Button URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL-адрес кнопки \"Связаться с нами"
+=======
+msgstr "URL кнопки «Связаться с нами»"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL кнопки «Связаться с нами»"
 >>>>>>> upstream/18.0
@@ -2031,7 +2274,11 @@ msgstr "Создать"
 msgid "Create a new product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создайте новый продукт"
+=======
+msgstr "Создать новый товар"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать новый товар"
 >>>>>>> upstream/18.0
@@ -2178,8 +2425,12 @@ msgid "DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL PRODUCTS"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ВЫКЛАДЫВАЙТЕ СТРОИТЕЛЬНЫЕ БЛОКИ ЗДЕСЬ, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ ВО ВСЕХ "
 "ПРОДУКТАХ"
+=======
+"ПЕРЕТАЩИТЕ БЛОКИ СЮДА, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ В КАРТОЧКАХ ВСЕХ ТОВАРОВ"
+>>>>>>> upstream/18.0
 =======
 "ПЕРЕТАЩИТЕ БЛОКИ СЮДА, ЧТОБЫ ОНИ БЫЛИ ДОСТУПНЫ В КАРТОЧКАХ ВСЕХ ТОВАРОВ"
 >>>>>>> upstream/18.0
@@ -2202,7 +2453,11 @@ msgstr "По умолчанию (1/1)"
 msgid "Default (1x1)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "По умолчанию (1x1)"
+>>>>>>> upstream/18.0
 =======
 msgstr "По умолчанию (1x1)"
 >>>>>>> upstream/18.0
@@ -2233,9 +2488,13 @@ msgid ""
 "Define a custom unit to display in the price per unit of measure field."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Определите пользовательскую единицу измерения, которая будет отображаться в "
 "поле \"Цена за единицу измерения\"."
+=======
+msgstr "Укажите единицу измерения для отображения цены за единицу."
+>>>>>>> upstream/18.0
 =======
 msgstr "Укажите единицу измерения для отображения цены за единицу."
 >>>>>>> upstream/18.0
@@ -2253,7 +2512,11 @@ msgstr "Определите новую категорию"
 msgid "Define a new ribbon"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать новую ленту"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создать новую ленту"
 >>>>>>> upstream/18.0
@@ -2266,7 +2529,11 @@ msgstr "Создать новую ленту"
 msgid "Delete Ribbon"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Удалить ленту"
+>>>>>>> upstream/18.0
 =======
 msgstr "Удалить ленту"
 >>>>>>> upstream/18.0
@@ -2287,7 +2554,11 @@ msgstr "Доставка"
 msgid "Delivery &amp;"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставка &amp;"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доставка &amp;"
 >>>>>>> upstream/18.0
@@ -2317,7 +2588,11 @@ msgstr "Адрес доставки"
 msgid "Delivery and Installation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доставка и установка"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доставка и установка"
 >>>>>>> upstream/18.0
@@ -2341,7 +2616,11 @@ msgstr ""
 msgid "Description displayed on the eCommerce categories page."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание, отображаемое на странице категорий."
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание, отображаемое на странице категорий."
 >>>>>>> upstream/18.0
@@ -2365,7 +2644,11 @@ msgstr "Описание для веб-сайта"
 msgid "Design and Planning"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проектирование и планирование"
+>>>>>>> upstream/18.0
 =======
 msgstr "Проектирование и планирование"
 >>>>>>> upstream/18.0
@@ -2378,7 +2661,11 @@ msgstr "Проектирование и планирование"
 msgid "Desk Lamps"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Настольные лампы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Настольные лампы"
 >>>>>>> upstream/18.0
@@ -2457,9 +2744,13 @@ msgid ""
 "this product."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Отображение базовой цены единицы товара на страницах электронной коммерции. "
 "Установите значение 0, чтобы скрыть его для этого продукта."
+=======
+msgstr "Отображать цену за единицу на сайте. Установите 0, чтобы скрыть."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отображать цену за единицу на сайте. Установите 0, чтобы скрыть."
 >>>>>>> upstream/18.0
@@ -2481,8 +2772,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Отображает пользовательскую единицу измерения для продуктов, если она "
 "определена, или выбранную единицу измерения в противном случае."
+=======
+"Отображает пользовательскую единицу измерения для товаров, если она задана, "
+"или выбранную из доступных единиц."
+>>>>>>> upstream/18.0
 =======
 "Отображает пользовательскую единицу измерения для товаров, если она задана, "
 "или выбранную из доступных единиц."
@@ -2518,7 +2814,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Документы, представленные на странице продукта, не могут быть ограничены "
+=======
+"Документы, представленные на странице товара, не могут быть ограничены "
+>>>>>>> upstream/18.0
 =======
 "Документы, представленные на странице товара, не могут быть ограничены "
 >>>>>>> upstream/18.0
@@ -2533,9 +2833,13 @@ msgstr ""
 msgid "Double click here to set an image describing your product."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Дважды щелкните здесь, чтобы установить изображение, описывающее ваш "
 "продукт."
+=======
+msgstr "Дважды кликните, чтобы установить изображение товара."
+>>>>>>> upstream/18.0
 =======
 msgstr "Дважды кликните, чтобы установить изображение товара."
 >>>>>>> upstream/18.0
@@ -2610,7 +2914,11 @@ msgstr "Способы доставки Easypost"
 msgid "Ecommerce"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eCommerce"
+>>>>>>> upstream/18.0
 =======
 msgstr "eCommerce"
 >>>>>>> upstream/18.0
@@ -2624,7 +2932,11 @@ msgstr "eCommerce"
 msgid "Ecommerce Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступ к eCommerce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Доступ к eCommerce"
 >>>>>>> upstream/18.0
@@ -2637,7 +2949,11 @@ msgstr "Доступ к eCommerce"
 msgid "Ecommerce Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Описание eCommerce"
+>>>>>>> upstream/18.0
 =======
 msgstr "Описание eCommerce"
 >>>>>>> upstream/18.0
@@ -2650,7 +2966,11 @@ msgstr "Описание eCommerce"
 msgid "Ecommerce Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Интернет-магазин"
+>>>>>>> upstream/18.0
 =======
 msgstr "Интернет-магазин"
 >>>>>>> upstream/18.0
@@ -2675,7 +2995,11 @@ msgstr "Редактировать"
 msgid "Edit the price of this product by clicking on the amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Отредактируйте цену этого продукта, нажав на сумму."
+=======
+msgstr "Отредактируйте цену этого товара, нажав на сумму."
+>>>>>>> upstream/18.0
 =======
 msgstr "Отредактируйте цену этого товара, нажав на сумму."
 >>>>>>> upstream/18.0
@@ -2693,7 +3017,11 @@ msgstr "Редактировать этот адрес"
 msgid "Education Tools"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Образовательные инструменты"
+>>>>>>> upstream/18.0
 =======
 msgstr "Образовательные инструменты"
 >>>>>>> upstream/18.0
@@ -2717,7 +3045,11 @@ msgstr "Код для вставки"
 msgid "Enforce a customer to be logged in to access 'Shop'"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Требовать авторизации клиента для доступа в магазин"
+>>>>>>> upstream/18.0
 =======
 msgstr "Требовать авторизации клиента для доступа в магазин"
 >>>>>>> upstream/18.0
@@ -2737,7 +3069,11 @@ msgstr "Введите настроенное значение"
 msgid "Enter a name for your new product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Введите название нового продукта"
+=======
+msgstr "Введите название нового товара"
+>>>>>>> upstream/18.0
 =======
 msgstr "Введите название нового товара"
 >>>>>>> upstream/18.0
@@ -2768,7 +3104,11 @@ msgstr "Дополнительная информация"
 msgid "Extra Product Media"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дополнительные носители информации о продукте"
+=======
+msgstr "Дополнительные медиа-материалы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дополнительные медиа-материалы"
 >>>>>>> upstream/18.0
@@ -2842,7 +3182,11 @@ msgstr "Имя поля"
 msgid "File Drawers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ящики для документов"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ящики для документов"
 >>>>>>> upstream/18.0
@@ -2868,6 +3212,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Итоговая цена может меняться в зависимости от выбранных характеристик. Налог"
+" рассчитывается при оформлении."
+>>>>>>> upstream/18.0
 =======
 "Итоговая цена может меняться в зависимости от выбранных характеристик. Налог"
 " рассчитывается при оформлении."
@@ -2887,7 +3236,11 @@ msgstr "Финансовое положение"
 msgid "Foldable Desks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Складные столы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Складные столы"
 >>>>>>> upstream/18.0
@@ -2910,7 +3263,11 @@ msgstr "Подписчики"
 msgid "Food Storage Bins"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Контейнеры для еды"
+>>>>>>> upstream/18.0
 =======
 msgstr "Контейнеры для еды"
 >>>>>>> upstream/18.0
@@ -2944,7 +3301,11 @@ msgstr "Фурнитуры"
 msgid "Gaming Desks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Игровые столы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Игровые столы"
 >>>>>>> upstream/18.0
@@ -2968,7 +3329,11 @@ msgstr "Создавать счет автоматически при получ
 msgid "Glass Desks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Стеклянные столы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Стеклянные столы"
 >>>>>>> upstream/18.0
@@ -3072,8 +3437,12 @@ msgid "If product price equals 0, replace 'Add to Cart' by 'Contact us'."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Если цена товара равна 0, замените \"Добавить в корзину\" на \"Свяжитесь с "
 "нами\"."
+=======
+"Если цена товара равняется 0, заменить «В корзину» на «Связаться с нами»"
+>>>>>>> upstream/18.0
 =======
 "Если цена товара равняется 0, заменить «В корзину» на «Связаться с нами»"
 >>>>>>> upstream/18.0
@@ -3112,6 +3481,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Чтобы прайс-лист работал на сайте, вы должны заполнить это поле или сделайте"
+" доступным для выбора. В противном случае прайс-лист не будет применяться ни"
+" к одному сайту."
+>>>>>>> upstream/18.0
 =======
 "Чтобы прайс-лист работал на сайте, вы должны заполнить это поле или сделайте"
 " доступным для выбора. В противном случае прайс-лист не будет применяться ни"
@@ -3180,7 +3555,11 @@ msgstr "Увеличить изображение"
 msgid "Images Ratio"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пропорции изображений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Пропорции изображений"
 >>>>>>> upstream/18.0
@@ -3277,7 +3656,11 @@ msgid ""
 "change the delivery method anymore."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Платеж уже обрабатывается – изменить метод доставки нельзя."
+>>>>>>> upstream/18.0
 =======
 msgstr "Платеж уже обрабатывается – изменить метод доставки нельзя."
 >>>>>>> upstream/18.0
@@ -3301,7 +3684,11 @@ msgstr "Запись в журнале"
 msgid "Kitchen Cabinets"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кухонные шкафы"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кухонные шкафы"
 >>>>>>> upstream/18.0
@@ -3314,7 +3701,11 @@ msgstr "Кухонные шкафы"
 msgid "Kitchen Drawer Units"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кухонные ящики"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кухонные ящики"
 >>>>>>> upstream/18.0
@@ -3393,7 +3784,11 @@ msgstr "В прошлом году"
 msgid "Laundry Bins"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Корзины для белья"
+>>>>>>> upstream/18.0
 =======
 msgstr "Корзины для белья"
 >>>>>>> upstream/18.0
@@ -3417,7 +3812,11 @@ msgstr "Слева"
 msgid "Let the customer enter a delivery address"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Разрешить клиенту ввести адрес доставки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Разрешить клиенту ввести адрес доставки"
 >>>>>>> upstream/18.0
@@ -3441,7 +3840,11 @@ msgstr "Пусть пользователь сам решает (диалог)"
 msgid "Let's create your first product."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Давайте создадим ваш первый продукт."
+=======
+msgstr "Давайте создадим ваш первый товар."
+>>>>>>> upstream/18.0
 =======
 msgstr "Давайте создадим ваш первый товар."
 >>>>>>> upstream/18.0
@@ -3504,7 +3907,11 @@ msgstr "Загрузка..."
 msgid "Logged in users"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Авторизованные пользователи"
+>>>>>>> upstream/18.0
 =======
 msgstr "Авторизованные пользователи"
 >>>>>>> upstream/18.0
@@ -3725,7 +4132,11 @@ msgstr "Брошенных тележек не обнаружено"
 msgid "No product defined"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продукт не определен"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -3738,7 +4149,11 @@ msgstr ""
 msgid "No product defined in this category."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "В этой категории не определено ни одного продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -3767,7 +4182,11 @@ msgstr "Нет результатов"
 msgid "No results for \""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нет результатов для \""
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -3877,7 +4296,11 @@ msgstr "На колесах"
 msgid "Once you click on <b>Save</b>, your product is updated."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Как только вы нажмете <b>Сохранить</b>, ваш продукт обновится."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -3914,8 +4337,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Разрешены только веб-сайты компании.\n"
 "Оставьте поле \"Компания\" пустым или выберите сайт этой компании."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4236,7 +4662,11 @@ msgstr "Товар"
 msgid "Product Accessories"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Аксессуары для продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4249,7 +4679,11 @@ msgstr ""
 msgid "Product Attribute"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Атрибут продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4262,7 +4696,11 @@ msgstr ""
 msgid "Product Carousel"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Карусель продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4281,7 +4719,11 @@ msgstr "Категория товара"
 msgid "Product Comparison Tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Инструмент сравнения продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4325,7 +4767,11 @@ msgstr "Страница товара"
 msgid "Product Page Extra Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Дополнительные поля страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4338,7 +4784,11 @@ msgstr ""
 msgid "Product Page Grid Columns"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Колонки сетки страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4351,7 +4801,11 @@ msgstr ""
 msgid "Product Page Image Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Макет изображения на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4364,7 +4818,11 @@ msgstr ""
 msgid "Product Page Image Spacing"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Расстояние между изображениями на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4377,7 +4835,11 @@ msgstr ""
 msgid "Product Page Image Width"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ширина изображения на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4390,7 +4852,11 @@ msgstr ""
 msgid "Product Pages"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Страницы продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4403,7 +4869,11 @@ msgstr ""
 msgid "Product Public Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продукт публичных категорий"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4416,7 +4886,11 @@ msgstr ""
 msgid "Product Reference Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Справочная цена продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4451,7 +4925,11 @@ msgstr "Метки товара"
 msgid "Product Tags Filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Теги продукта Фильтр"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4464,7 +4942,11 @@ msgstr ""
 msgid "Product Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шаблон Продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4477,7 +4959,11 @@ msgstr ""
 msgid "Product Template Attribute Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Позиция атрибута шаблона продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4490,7 +4976,11 @@ msgstr ""
 msgid "Product Template Attribute Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значение атрибута шаблона продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4503,7 +4993,11 @@ msgstr ""
 msgid "Product Tmpl"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Шаблон Продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4517,7 +5011,11 @@ msgstr ""
 msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Вариант продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4541,7 +5039,11 @@ msgstr "Виды продукции"
 msgid "Product Views History"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История просмотров продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4560,7 +5062,11 @@ msgstr "Товар не найден"
 msgid "Product ribbon"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Метка-лента для продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4597,7 +5103,11 @@ msgstr "Страница товаров"
 msgid "Products Recently Sold With"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продукты, недавно проданные с"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4610,7 +5120,11 @@ msgstr ""
 msgid "Products Recently Sold With Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Продукты, недавно проданные с продуктом"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -4978,8 +5492,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Выберите <b>Новый продукт</b> создание и управление его свойствами для "
 "увеличения продаж."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5099,7 +5616,11 @@ msgstr "Магазин - Подтверждено"
 msgid "Shop - Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Магазин - Продукты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5265,7 +5786,11 @@ msgstr "Статус"
 msgid "Stay on Product Page"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оставаться на странице продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5302,8 +5827,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Предложите покупателю альтернативные варианты (стратегия допродажи). Эти "
 "продукты отображаются на странице товара."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5465,10 +5993,13 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Продукт будет доступен в каждой из указанных категорий электронной "
 "коммерции. Перейдите в раздел Магазин > Редактировать, нажмите на страницу и"
 " включите \"Категории\", чтобы просмотреть все категории электронной "
 "коммерции."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5496,8 +6027,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Значение Base Unit Count должно быть больше 0. Используйте 0, чтобы скрыть "
 "цену за единицу для этого продукта."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5559,7 +6093,11 @@ msgstr ""
 msgid "This product has no valid combination."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этот продукт не имеет действующей комбинации."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5572,7 +6110,11 @@ msgstr ""
 msgid "This product is no longer available."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этот продукт больше не доступен."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5586,7 +6128,11 @@ msgstr ""
 msgid "This product is not available for purchase."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этот продукт недоступен для покупки."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5599,7 +6145,11 @@ msgstr ""
 msgid "This product is unpublished."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Этот продукт не опубликован."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5631,9 +6181,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Чтобы отправить приглашения в режиме B2B, откройте контакт или выберите "
 "несколько контактов в режиме просмотра списка и нажмите на опцию "
 "\"Управление доступом к порталу\" в выпадающем меню *Действие*."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5660,7 +6213,11 @@ msgstr "Всего"
 msgid "Total number of product viewed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Общее количество просмотренных продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5673,7 +6230,11 @@ msgstr ""
 msgid "Total number of views on products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Общее количество просмотров продуктов"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5722,7 +6283,11 @@ msgstr "UPS"
 msgid "URL of a video for showcasing your product."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL-адрес видеоролика для демонстрации вашего продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5878,7 +6443,11 @@ msgstr "Посещенные страницы"
 msgid "Visited Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Посещаемые продукты"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5891,7 +6460,11 @@ msgstr ""
 msgid "Visitor Product Views"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Мнения посетителей о продукте"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5904,7 +6477,11 @@ msgstr ""
 msgid "Visitor Product Views History"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "История просмотров продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -5987,7 +6564,11 @@ msgstr "Веб-сайт сообщения"
 msgid "Website Product Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Веб-сайт Категория продукта"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -6081,7 +6662,11 @@ msgstr "Сайты"
 msgid "What should be done on \"Add to Cart\"?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Что нужно сделать при нажатии кнопки \"Добавить в корзину\"?"
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -6146,7 +6731,11 @@ msgstr ""
 msgid "You can't use a video as the product's main image."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Нельзя использовать видео в качестве основного изображения продукта."
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0
@@ -6336,7 +6925,11 @@ msgstr ""
 msgid "in category \""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "в категории \""
+=======
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 >>>>>>> upstream/18.0

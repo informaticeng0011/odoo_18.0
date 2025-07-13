@@ -130,6 +130,10 @@ class TestMoveCancelPropagation(PurchaseTestCommon):
         self.assertNotEqual(self.move.picking_id.state, 'cancel')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.move.procure_method, 'make_to_stock')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.move.procure_method, 'make_to_stock')
 >>>>>>> upstream/18.0
@@ -201,6 +205,10 @@ class TestMoveCancelPropagation(PurchaseTestCommon):
         self.assertNotEqual(self.move.picking_id.state, 'cancel')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.move.procure_method, 'make_to_stock')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.move.procure_method, 'make_to_stock')
 >>>>>>> upstream/18.0

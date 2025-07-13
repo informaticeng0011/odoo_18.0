@@ -188,7 +188,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Data t-out="format_date(record.invoice_date)"/>
+=======
+                <Data t-out="format_date(record.date if is_self_invoice else record.invoice_date)"/>
+>>>>>>> upstream/18.0
 =======
                 <Data t-out="format_date(record.date if is_self_invoice else record.invoice_date)"/>
 >>>>>>> upstream/18.0
@@ -415,7 +419,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Data t-out="format_date(reconciled_move.invoice_date)"/>
+=======
+                    <Data t-out="format_date(reconciled_move.date if reconciled_move.l10n_it_edi_is_self_invoice else reconciled_move.invoice_date)"/>
+>>>>>>> upstream/18.0
 =======
                     <Data t-out="format_date(reconciled_move.date if reconciled_move.l10n_it_edi_is_self_invoice else reconciled_move.invoice_date)"/>
 >>>>>>> upstream/18.0
@@ -625,7 +633,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Data t-out="format_date(record.reversed_entry_id.invoice_date)"/>
+=======
+                    <Data t-out="format_date(record.reversed_entry_id.date if record.reversed_entry_id.l10n_it_edi_is_self_invoice else record.reversed_entry_id.invoice_date)"/>
+>>>>>>> upstream/18.0
 =======
                     <Data t-out="format_date(record.reversed_entry_id.date if record.reversed_entry_id.l10n_it_edi_is_self_invoice else record.reversed_entry_id.invoice_date)"/>
 >>>>>>> upstream/18.0
@@ -834,7 +846,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Data t-out="format_date(downpayment_move.invoice_date)"/>
+=======
+                <Data t-out="format_date(downpayment_move.date if downpayment_move.l10n_it_edi_is_self_invoice else downpayment_move.invoice_date)"/>
+>>>>>>> upstream/18.0
 =======
                 <Data t-out="format_date(downpayment_move.date if downpayment_move.l10n_it_edi_is_self_invoice else downpayment_move.invoice_date)"/>
 >>>>>>> upstream/18.0

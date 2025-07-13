@@ -316,6 +316,7 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
         const deliveryPriceBadge = this._getDeliveryPriceBadge(radio);
         if (rateData.success) {
 <<<<<<< HEAD
+<<<<<<< HEAD
              // If it's a free delivery (`free_over` field), show 'Free', not '$ 0'.
              if (rateData.is_free_delivery) {
                  deliveryPriceBadge.textContent = _t("Free");
@@ -324,6 +325,8 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
              }
              this._toggleDeliveryMethodRadio(radio);
 =======
+=======
+>>>>>>> upstream/18.0
             if (rateData.compute_price_after_delivery) {
                 // Inform the customer that the price will be computed after delivery.
                 deliveryPriceBadge.textContent = _t("Computed after delivery");
@@ -334,6 +337,9 @@ publicWidget.registry.WebsiteSaleCheckout = publicWidget.Widget.extend({
                 deliveryPriceBadge.innerHTML = rateData.amount_delivery;
             }
             this._toggleDeliveryMethodRadio(radio);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         } else {
             deliveryPriceBadge.textContent = rateData.error_message;

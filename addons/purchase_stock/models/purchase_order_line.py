@@ -330,7 +330,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.price_unit_discounted * (self.qty_received or 1),
+=======
+                self.price_unit_discounted * self.qty_to_invoice,
+>>>>>>> upstream/18.0
 =======
                 self.price_unit_discounted * self.qty_to_invoice,
 >>>>>>> upstream/18.0

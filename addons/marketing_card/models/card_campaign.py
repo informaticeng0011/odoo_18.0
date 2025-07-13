@@ -1,5 +1,10 @@
 import base64
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import pytz
+from datetime import date, datetime
+>>>>>>> upstream/18.0
 =======
 import pytz
 from datetime import date, datetime
@@ -88,7 +93,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     body_html = fields.Html(related='card_template_id.body', render_engine="qweb")
+=======
+    body_html = fields.Html(related='card_template_id.body', render_engine="qweb", readonly=False)
+>>>>>>> upstream/18.0
 =======
     body_html = fields.Html(related='card_template_id.body', render_engine="qweb", readonly=False)
 >>>>>>> upstream/18.0
@@ -380,7 +389,11 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reward_message = fields.Html(string='Thanks to You Message')
+=======
+    reward_message = fields.Html(string='Thank You Message')
+>>>>>>> upstream/18.0
 =======
     reward_message = fields.Html(string='Thank You Message')
 >>>>>>> upstream/18.0
@@ -1049,8 +1062,13 @@ class CardCampaign(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'image1': images[0] if (images := self.content_image1_path and record.mapped(self.content_image1_path)) else False,
             'image2': images[0] if (images := self.content_image2_path and record.mapped(self.content_image2_path)) else False,
+=======
+            'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
+            'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,
+>>>>>>> upstream/18.0
 =======
             'image1': images[0] if (images := self.content_image1_path and self.content_image1_path in record and record.mapped(self.content_image1_path)) else False,
             'image2': images[0] if (images := self.content_image2_path and self.content_image2_path in record and record.mapped(self.content_image2_path)) else False,
@@ -1414,12 +1432,18 @@ class CardCampaign(models.Model):
                     # for generic image, or if field incorrect, return name of field
                     result[el] = self[path_field]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
                 # force dates to their relevant timezone as that's what is usually wanted
                 if (
                     isinstance(result[el], (date, datetime))
                     and (tz := record._mail_get_timezone_with_default(default_tz=None))
                 ):
                     result[el] = pytz.utc.localize(result[el]).astimezone(pytz.timezone(tz)).replace(tzinfo=None)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return result

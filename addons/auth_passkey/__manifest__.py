@@ -21,13 +21,24 @@ When a user logs in with a Passkey, MFA will not be required.
     ],
     'assets': {
         'web.assets_backend': [
+<<<<<<< HEAD
             'auth_passkey/static/src/views/*',
             'auth_passkey/static/lib/simplewebauthn.js',
+=======
+            'auth_passkey/static/lib/simplewebauthn.js',
+            'auth_passkey/static/src/views/*',
+>>>>>>> upstream/18.0
         ],
         'web.assets_frontend': [
             'auth_passkey/static/lib/simplewebauthn.js',
             'auth_passkey/static/src/login_passkeys.js',
         ],
+<<<<<<< HEAD
+=======
+        'web.assets_tests': [
+            'auth_passkey/static/tests/*.js',
+        ],
+>>>>>>> upstream/18.0
     },
     'license': 'LGPL-3',
     'installable': True,
