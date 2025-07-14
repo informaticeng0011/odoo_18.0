@@ -51,7 +51,11 @@ class Certificate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (NameOID.COMMON_NAME, company_id.name),
+=======
+            (NameOID.COMMON_NAME, "%s-%s-%s" % (journal.code, journal.name, company_id.name)),
+>>>>>>> upstream/18.0
 =======
             (NameOID.COMMON_NAME, "%s-%s-%s" % (journal.code, journal.name, company_id.name)),
 >>>>>>> upstream/18.0

@@ -196,7 +196,11 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { resId, resModel } = component.model.config;
+=======
+    const { resId, resModel, fields } = component.model.config;
+>>>>>>> upstream/18.0
 =======
     const { resId, resModel, fields } = component.model.config;
 >>>>>>> upstream/18.0
@@ -217,8 +221,11 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const records = await component.model.orm.read(resModel, [resId]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229,6 +236,9 @@ export function viewRawRecord({ component, env }) {
             const records = await component.model.orm.read(resModel, [resId], serializableFields);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

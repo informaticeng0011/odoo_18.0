@@ -46,6 +46,10 @@ patch(ActivityMenu.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            context["active_test"] = 0; // to show lost leads in the activity
+>>>>>>> upstream/18.0
 =======
             context["active_test"] = 0; // to show lost leads in the activity
 >>>>>>> upstream/18.0

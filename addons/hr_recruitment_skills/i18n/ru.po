@@ -3,6 +3,7 @@
 # 	* hr_recruitment_skills
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+# Anastasiia Koroleva, 2025
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -41,7 +45,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Anastasiia Koroleva, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Anastasiia Koroleva, 2025\n"
 >>>>>>> upstream/18.0
@@ -82,7 +90,11 @@ msgid "Candidate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кандидат"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кандидат"
 >>>>>>> upstream/18.0
@@ -105,7 +117,11 @@ msgstr "Кандидат"
 #. module: hr_recruitment_skills
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.hr_candidate_view_tree
 msgid "Create Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Создать заявку"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__create_uid
@@ -115,7 +131,11 @@ msgstr "Создано"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__display_name
@@ -125,7 +145,11 @@ msgstr "Отображаемое имя"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_job__skill_ids
 msgid "Expected Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ожидаемые навыки"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__id
@@ -140,39 +164,67 @@ msgstr "Должность"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "Matching Candidates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подходящие кандидаты"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__matching_score
 msgid "Matching Score(%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Процент соответствия (%)"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__matching_skill_ids
 msgid "Matching Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Совпадающие навыки"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__missing_skill_ids
 msgid "Missing Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отсутствующие навыки"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "No Matching Candidates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нет подходящих кандидатов"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__level_progress
@@ -182,14 +234,22 @@ msgstr "Прогресс"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,help:hr_recruitment_skills.field_hr_candidate_skill__level_progress
 msgid "Progress from zero knowledge (0%) to fully mastered (100%)."
+<<<<<<< HEAD
 msgstr "Продвигайтесь от нулевых знаний (0%) до полностью освоенных (100%)."
+=======
+msgstr "Прогресс от отсутствия знаний (0 %) до полного освоения (100 %)."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/search_job_applicant_menu/search_job_applicant_menu.xml:0
 #: model:ir.actions.server,name:hr_recruitment_skills.action_applicant_search_applicant
 msgid "Search Matching Applicants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поиск подходящих кандидатов"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__skill_ids
@@ -201,12 +261,20 @@ msgstr "Навык"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__skill_level_id
 msgid "Skill Level"
+<<<<<<< HEAD
 msgstr "Уровень квалификации"
+=======
+msgstr "Уровень навыка"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__skill_type_id
 msgid "Skill Type"
+<<<<<<< HEAD
 msgstr "Тип навыков"
+=======
+msgstr "Тип навыка"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.ui.menu,name:hr_recruitment_skills.hr_recruitment_skill_type_menu
@@ -216,7 +284,11 @@ msgstr "Типы навыков"
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_candidate_skill
 msgid "Skill level for a candidate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Уровень навыка кандидата"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__candidate_skill_ids
@@ -239,12 +311,20 @@ msgstr "Навык %(name)s и тип навыка %(type)s не совпада�
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_candidate_skill.py:0
 msgid "The skill level %(level)s is not valid for skill type: %(type)s"
+<<<<<<< HEAD
 msgstr "Уровень навыка %(level)s не действителен для типа навыка: %(type)s"
+=======
+msgstr "Уровень %(level)s недопустим для типа навыка: %(type)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.constraint,message:hr_recruitment_skills.constraint_hr_candidate_skill__unique_skill
 msgid "Two levels for the same skill is not allowed"
+<<<<<<< HEAD
 msgstr "Два уровня для одного навыка не допускаются"
+=======
+msgstr "Нельзя указывать два уровня для одного и того же навыка"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-python
@@ -253,3 +333,8 @@ msgid ""
 "We do not have any candidates who meet the skill requirements for this job "
 "position in the database at the moment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"В базе данных пока нет кандидатов, соответствующих квалификационным "
+"требованиям для данной вакансии."
+>>>>>>> upstream/18.0

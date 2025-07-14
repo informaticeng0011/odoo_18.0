@@ -3,17 +3,29 @@
 # 	* stock
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Daye Jeong, 2025
 # Sarah Park, 2025
+=======
+# Daye Jeong, 2025
+# Sarah Park, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Sarah Park, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -768,6 +780,14 @@ msgid "<strong>Customer Address</strong>"
 msgstr "<strong>고객 주소</strong>"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Delivered</strong>"
+msgstr "<strong>배송 완료</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Delivery address</strong>"
 msgstr "<strong>배송 주소</strong>"
@@ -809,6 +829,14 @@ msgid "<strong>Order</strong>"
 msgstr "<strong>주문</strong>"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong>주문 완료</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "<strong>Pack Date:</strong>"
 msgstr "<strong>패키지 날짜:</strong>"
@@ -1896,6 +1924,16 @@ msgstr "DHL로 배송비를 계산 및 배송합니다."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Easypost"
 msgstr "Easypost로 배송비를 계산 및 배송합니다."
 
@@ -1906,6 +1944,16 @@ msgstr "FedEx로 배송비를 계산 및 배송합니다."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Sendcloud"
 msgstr "Sendcloud로 배송비를 계산 및 배송합니다."
 
@@ -1926,11 +1974,31 @@ msgstr "UPS로 배송비를 계산 및 배송합니다."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with USPS"
 msgstr "USPS로 배송비를 계산 및 배송합니다."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with bpost"
 msgstr "bpost로 배송비를 계산 및 배송합니다."
 
@@ -2398,11 +2466,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "재고 공간이 하나인 경우에는 이 공간 또는 하위 공간에 저장된 상품을 포함합니다.\n"
 "창고가 하나인 경우에는 이 창고의 재고 공간 또는 그 하위 재고 공간에 저장된 품목을 포함합니다.\n"
 "이 상점의 창고 또는 그 하위의 재고 공간에 보관합니다.\n"
 "그렇지 않으면 '내부' 유형의 모든 저장 공간에 저장된 품목이 포함됩니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2548,6 +2619,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2730,6 +2804,14 @@ msgid "DEMO_UOM"
 msgstr "DEMO_UOM"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "DHL Connector"
+msgstr ""
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_dhl
 msgid "DHL Express Connector"
 msgstr "DHL 익스프레스 배송"
@@ -3398,6 +3480,10 @@ msgid "Do you confirm you want to scrap"
 msgstr "폐기를 승인하시겠습니까?"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Documentation"
 msgstr "문서"
@@ -3624,6 +3710,10 @@ msgstr "2월"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_fedex
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "FedEx Connector"
 msgstr "FedEx 배송"
 
@@ -6378,9 +6468,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "당사 청구서는 청구서 또는 주문서에 별도의 지급 기간이 명시되어 있지 않는 한, 영업일 기준 21일 이내에 지급하도록 되어 있습니다. "
 "기한일까지 결제가 완료되지 않은 경우 My Company(Chicago)는 미납 금액의 10%에 해당하는 고정 이자에 대한 지급을 요청할"
 " 권한을 보유합니다. 또한 My Company(Chicago)는 연체 발생 시 사전 고지 없이 서비스 제공을 중단할 권한이 있습니다."
+=======
+"당사의 청구 대금은 청구서 또는 주문서에 별도의 지급 기간이 명시되어 있지 않는 한, 영업일 기준으로 21일 이내에 지급되어야 합니다. "
+"만약 기한일까지 결제가 완료되지 않은 경우 My Company(Chicago)는 미납 금액의 10%에 해당하는 고정 이자를 청구할 권한을"
+" 보유합니다. 또한 My Company(Chicago)는 연체 발생 시 사전 통지 없이 서비스 제공을 중단할 권한을 보유합니다."
+>>>>>>> upstream/18.0
 =======
 "당사의 청구 대금은 청구서 또는 주문서에 별도의 지급 기간이 명시되어 있지 않는 한, 영업일 기준으로 21일 이내에 지급되어야 합니다. "
 "만약 기한일까지 결제가 완료되지 않은 경우 My Company(Chicago)는 미납 금액의 10%에 해당하는 고정 이자를 청구할 권한을"
@@ -8010,11 +8106,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "계획 출고되는 체품의 수량.\n"
 "단일 재고 공간이 있는 상황에서 이 공간를 떠나는 품목 또는 그 하위 공간의 품목을 포함합니다.\n"
 "단일 창고가 있는 환경에서 이 창고의 재고 공간을 떠나는 품목 또는 그 하위 공간을 포함합니다.\n"
 "그렇지 않은 경우, 이 것은 '내부' 유형의 모든 재고 공간를 벗어나는 품목을 포함합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8133,6 +8232,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9311,6 +9413,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "모든 품목 카테고리에 적용할 수 있는 표준화된 제거 전략을 수립합니다:\n"
 "\n"
 "FIFO: 가장 먼저 입고된 제품/로트부터 우선적으로 출고됩니다.\n"
@@ -9319,6 +9422,8 @@ msgstr ""
 "FEFO: 만료일이 가장 가까운 제품/로트가 우선적으로 출고되며, '만료일' 설정이 활성화된 경우에 한하여 적용됩니다.\n"
 "최소 패키지: FIFO를 활용하되 여러 패키지에 동일한 제품이 포함된 경우 단위 수가 가장 적은 패키지의 우선순위를 지정합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9563,6 +9668,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11392,11 +11500,19 @@ msgstr "레코드에 있는 예외 활동의 유형입니다."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "UPS Connector"
 msgstr "UPS 배송"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_usps
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "USPS Connector"
 msgstr "USPS 배송"
 
@@ -11965,7 +12081,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
@@ -12331,7 +12451,11 @@ msgid "Warnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0

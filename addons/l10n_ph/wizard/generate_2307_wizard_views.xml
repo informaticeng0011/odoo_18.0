@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="currency_id" column_invisible="True" readonly="state in ['cancel', 'posted']"/>
 =======
                             <field name="currency_id" column_invisible="True" readonly="state in ['cancel', 'posted']"/> <!-- TODO: to be removed in master -->
@@ -89,6 +90,9 @@
 >>>>>>> upstream/18.0
 =======
                             <field name="currency_id" column_invisible="True" readonly="state in ['cancel', 'posted']"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                            <field name="currency_id" column_invisible="True" readonly="state in ['cancel', 'posted']"/>
 >>>>>>> upstream/18.0
                             <field name="amount_tax_signed" string="Tax" sum="Total" optional="hide" modifiers="{'readonly':true}" widget="monetary" options="{'currency_field': 'currency_id'}"/>
                             <field name="amount_total_signed" string="Total" sum="Total" decoration-bf="1" optional="show" widget="monetary" options="{'currency_field': 'currency_id'}"/>

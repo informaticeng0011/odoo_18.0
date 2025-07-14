@@ -62,7 +62,10 @@ export const cardPropertiesField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category("fields").add("calendar.properties", cardPropertiesField);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

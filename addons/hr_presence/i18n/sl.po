@@ -46,6 +46,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Aleš Pipan, 2025
+>>>>>>> upstream/18.0
 =======
 # Aleš Pipan, 2025
 >>>>>>> upstream/18.0
@@ -221,7 +225,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Aleš Pipan, 2025\n"
+>>>>>>> upstream/18.0
 =======
 "Last-Translator: Aleš Pipan, 2025\n"
 >>>>>>> upstream/18.0
@@ -359,7 +367,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "%(name)s has been noted as %(state)s today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s je bilo zabeleženo kot %(state)s danes"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,body_html:hr_presence.mail_template_presence
@@ -373,6 +385,17 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"                    Spoštovana<t t-out=\"object.name or ''\">Abigail Peterson</t>,<br/><br/>\n"
+"Upamo, da ste bili s tem sporočilom dobro. Izvedeli smo, da trenutno niste prisotni na delu in da ni zabeleženih vaših zahtevkov za dopust. Če je bila ta odsotnost posledica naše malomarnosti, se iskreno opravičujemo za morebitno zmedo.\n"
+"Prosimo, da sprejmete potrebne ukrepe za odpravo te nenačrtovane odsotnosti. Če imate kakršna koli vprašanja ali potrebujete pomoč, se čim prej obrnite na svojega vodjo ali kadrovsko službo.\n"
+"Hvala za vašo takojšnjo pozornost na to zadevo.\n"
+"                    <br/>Lep pozdrav,<br/><br/>\n"
+"                </div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__absent
@@ -389,7 +412,11 @@ msgid "Absent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odsoten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odsoten"
 >>>>>>> upstream/18.0
@@ -421,7 +448,11 @@ msgstr "Odsoten"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_log
 msgid "Add a log note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj zapisek v dnevnik"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_hr_employee_base
@@ -435,7 +466,11 @@ msgid "Basic Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osnovni zaposleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osnovni zaposleni"
 >>>>>>> upstream/18.0
@@ -482,7 +517,11 @@ msgstr "Ustvari Uid"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_time_off
 msgid "Create a Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustvarite si prosti čas"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__email_sent
@@ -494,17 +533,29 @@ msgstr "Elektronska pošta poslana"
 #. module: hr_presence
 #: model:sms.template,name:hr_presence.sms_template_data_hr_presence
 msgid "Employee: Presence Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposleni: Opomnik o prisotnosti"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.ir_cron_presence_control_ir_actions_server
 msgid "HR Presence: cron"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisotnost kadrovske službe: cron"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,name:hr_presence.mail_template_presence
 msgid "HR: Employee Absence email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kadrovska služba: E-poštno sporočilo o odsotnosti zaposlenega"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:sms.template,body:hr_presence.sms_template_data_hr_presence
@@ -513,18 +564,32 @@ msgid ""
 "an oversight from us, we apologize. Please contact your manager or HR ASAP. "
 "Thanks"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pozdravljeni, opazili smo, da niste v službi in da niste oddali nobenega "
+"obvestila o dopustu. Če gre za našo napako, se opravičujemo. Prosimo, da čim"
+" prej kontaktirate svojega vodjo ali kadrovsko službo. Hvala."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_company__hr_presence_last_compute_date
 msgid "Hr Presence Last Compute Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum zadnjega izračuna prisotnosti ur"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__hr_presence_state_display
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__hr_presence_state_display
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__hr_presence_state_display
 msgid "Hr Presence State Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kadrovska služba Prikaz stanja prisotnosti ur"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_res_users_log__ip
@@ -536,21 +601,33 @@ msgstr "IP naslov"
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__ip_connected
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__ip_connected
 msgid "Ip Connected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IP-povezan"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__manually_set_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__manually_set_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_presence
 msgid "Manually Set Presence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ročno nastavitev prisotnosti"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee__manually_set_present
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_base__manually_set_present
 #: model:ir.model.fields,field_description:hr_presence.field_hr_employee_public__manually_set_present
 msgid "Manually Set Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ročno nastavitev sedanjosti"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__out_of_working_hour
@@ -567,7 +644,11 @@ msgid "Out of Working Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izven delovnega časa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izven delovnega časa"
 >>>>>>> upstream/18.0
@@ -599,18 +680,30 @@ msgstr "Izven delovnega časa"
 #. module: hr_presence
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_tree
 msgid "Presence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisotnost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-javascript
 #: code:addons/hr_presence/static/src/search/hr_presence_cog_menu/hr_presence_cog_menu.xml:0
 msgid "Presence Control"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadzor prisotnosti"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model_terms:ir.ui.view,arch_db:hr_presence.hr_employee_view_search
 msgid "Presence/Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisotnost/Odsotnost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model.fields.selection,name:hr_presence.selection__hr_employee__hr_presence_state_display__present
@@ -644,7 +737,11 @@ msgid "Present"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predstavitev"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predstavitev"
 >>>>>>> upstream/18.0
@@ -736,7 +833,11 @@ msgstr "Pošlji SMS"
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_sms
 msgid "Send a SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošlji SMS"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,description:hr_presence.mail_template_presence
@@ -744,27 +845,48 @@ msgid ""
 "Sent manually in presence module when an employee wasn't working despite not"
 " being off"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ročno poslano v modulu prisotnosti, ko zaposleni ni delal, čeprav ni bil "
+"odsoten"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_absent
 msgid "Set Absent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi odsotnost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.actions.server,name:hr_presence.action_hr_employee_presence_present
 msgid "Set Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi sedanjost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:mail.template,subject:hr_presence.mail_template_presence
 msgid "Unexpected Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepričakovana odsotnost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "Unplanned Absence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenačrtovana odsotnost"
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_res_users_log
@@ -779,12 +901,22 @@ msgid ""
 "Please take the necessary steps to address this unplanned absence. Should you have any questions or need assistance, do not hesitate to reach out to your manager or the HR department at your earliest convenience.\n"
 "Thank you for your prompt attention to this matter."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Upamo, da ste v dobrem stanju. Izvedeli smo, da trenutno niste prisotni na delu in da ni zabeleženih vaših zahtevkov za dopust. Če je ta odsotnost posledica naše malomarnosti, se iskreno opravičujemo za morebitno zmedo.\n"
+"Prosimo, da sprejmete potrebne ukrepe za odpravo te nenačrtovane odsotnosti. Če imate kakršna koli vprašanja ali potrebujete pomoč, se čim prej obrnite na svojega vodjo ali kadrovsko službo.\n"
+"Hvala za vašo takojšnjo pozornost na to zadevo."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #. odoo-python
 #: code:addons/hr_presence/models/hr_employee.py:0
 msgid "You don't have the right to do this. Please contact an Administrator."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nimate pravice do tega. Obrnite se na skrbnika."
+>>>>>>> upstream/18.0
 
 #. module: hr_presence
 #: model:ir.model,name:hr_presence.model_ir_websocket
@@ -831,7 +963,11 @@ msgid "websocket message handling"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "obravnavanje sporočil spletnega vtičnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "obravnavanje sporočil spletnega vtičnika"
 >>>>>>> upstream/18.0

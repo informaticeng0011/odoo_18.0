@@ -3,16 +3,27 @@
 # 	* website_sale
 # 
 # Translators:
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Tony Ng, 2025
+=======
+# Tony Ng, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Tony Ng, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -603,7 +614,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您想與客戶溝通的產品說明。 此說明將被複製到每個銷售訂單，交貨訂單和客戶憑單/折讓單"
+=======
+msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
+>>>>>>> upstream/18.0
 =======
 msgstr "你希望傳達給客戶的產品描述。此描述將會複製至每份銷售單、送貨單，以及客戶發票/退款單。"
 >>>>>>> upstream/18.0
@@ -1359,7 +1374,11 @@ msgid "Click here"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "按這裏"
+=======
+msgstr "按此處"
+>>>>>>> upstream/18.0
 =======
 msgstr "按此處"
 >>>>>>> upstream/18.0
@@ -1533,6 +1552,7 @@ msgstr "使用 Shiprocket 計算運輸成本及發貨"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "計算運輸成本並用DHL裝運"
 
@@ -1550,6 +1570,33 @@ msgstr "計算運輸成本並用USPS裝運"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "計算運輸成本並用USPS裝運"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1562,6 +1609,15 @@ msgid "Compute shipping costs on orders"
 msgstr "按訂單計算運費"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "主席椅"
@@ -1795,12 +1851,16 @@ msgstr "自訂電郵範本"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "DHL 快遞連接器"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
+=======
+msgid "DHL"
+>>>>>>> upstream/18.0
 msgstr "DHL"
 
 #. module: website_sale
@@ -2029,6 +2089,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "加入新產品至購物車之前，你想先清空購物車嗎？"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "系統使用說明"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "文件"
@@ -2251,11 +2319,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "FedEx"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "欄位"
@@ -2601,7 +2672,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "會計"
+=======
+msgstr "發票"
+>>>>>>> upstream/18.0
 =======
 msgstr "發票"
 >>>>>>> upstream/18.0
@@ -4249,7 +4324,11 @@ msgid "Services"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "服務介紹"
+=======
+msgstr "服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "服務"
 >>>>>>> upstream/18.0
@@ -4922,11 +5001,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr "床下抽屜"
@@ -5198,7 +5280,11 @@ msgid "Website meta description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "網站 meta 說明"
+=======
+msgstr "網站 meta 描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "網站 meta 描述"
 >>>>>>> upstream/18.0

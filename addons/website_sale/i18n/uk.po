@@ -6,16 +6,27 @@
 # Iryna Hrytsyshyna, 2024
 # Larissa Manderfeld, 2024
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2025
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Yaroslav Husyar, 2025
+=======
+# Yaroslav Husyar, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Yaroslav Husyar, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1364,6 +1375,7 @@ msgstr "Обчислюйте вартість доставки через Shipro
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Обчислюйте витрати на доставку та відправляйте з DHL"
 
@@ -1381,6 +1393,33 @@ msgstr "Обчислюйте витрати на доставку та відп�
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Обчислюйте витрати на доставку та відправляйте з USPS"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1393,6 +1432,15 @@ msgid "Compute shipping costs on orders"
 msgstr "Обчислюйте витрати на доставку на замовленнях"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "Конференц-крісло"
@@ -1628,6 +1676,7 @@ msgstr "Налаштуйте шаблони листів"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "Конектор DHL Express "
 
@@ -1635,6 +1684,10 @@ msgstr "Конектор DHL Express "
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "Способи доставки DHL"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -1872,6 +1925,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "Ви хочете очистити кошик перед додаванням туди товарів?"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "Документація"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "Документи"
@@ -2092,11 +2153,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "Способи доставки FedEx"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "Поле"
@@ -4545,11 +4609,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "Способи доставки USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr ""

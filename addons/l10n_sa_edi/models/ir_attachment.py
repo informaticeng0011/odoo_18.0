@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, _
+=======
+from odoo import _, api, models
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, models
 >>>>>>> upstream/18.0
@@ -25,7 +29,10 @@ class IrAttachment(models.Model):
                 raise UserError(_("You can't unlink an attachment being an EDI document refused by the government."))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -58,6 +65,9 @@ class IrAttachment(models.Model):
         # Extends l10n_sa: to bypass the unlink check in l10n_sa for posted moves
         return super()._get_posted_pdf_moves_to_check().filtered(lambda rec: not rec.edi_state)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

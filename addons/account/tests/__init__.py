@@ -101,6 +101,10 @@ from . import test_account_payment_register
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_account_report
+>>>>>>> upstream/18.0
 =======
 from . import test_account_report
 >>>>>>> upstream/18.0
@@ -316,6 +320,7 @@ from . import test_account_move_attachment
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_account_move_auto_post
 >>>>>>> upstream/18.0
@@ -386,6 +391,11 @@ from . import test_dict_to_xml
 =======
 from . import test_account_move_auto_post
 from . import test_dict_to_xml
+>>>>>>> upstream/18.0
+=======
+from . import test_account_move_auto_post
+from . import test_dict_to_xml
+from . import test_duplicate_res_partner_bank
 >>>>>>> upstream/18.0
 =======
 from . import test_account_move_auto_post

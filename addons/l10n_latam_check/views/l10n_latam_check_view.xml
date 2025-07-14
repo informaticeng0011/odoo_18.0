@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="state" column_invisible="True"/>
 =======
                 <field name="state" column_invisible="True"/> <!-- TODO: to be removed in master -->
@@ -144,6 +145,9 @@
 =======
                 <field name="state" column_invisible="True"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
+=======
+                <field name="state" column_invisible="True"/>
+>>>>>>> upstream/18.0
             </list>
         </field>
     </record>
@@ -178,6 +182,7 @@
         <field name="model">l10n_latam.check</field>
         <field name="arch" type="xml">
             <form create="false" edit="false" delete="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +260,9 @@
 =======
                 <field name="outstanding_line_id" invisible="True"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
+=======
+                <field name="outstanding_line_id" invisible="True"/>
+>>>>>>> upstream/18.0
                 <header>
                     <button name="action_void" string="Void Check" invisible="issue_state != 'handed'" type="object" class="oe_highlight" confirm="Marking a check as void will cancel the check and generate a new entry that will re-open the debt."  data-hotkey="v"/>
                     <field name="issue_state" statusbar_visible="issue_state" widget="statusbar"/>
@@ -285,6 +293,7 @@
                             <field name="amount"/>
                             <field name="bank_id"  invisible="issue_state"/>
                             <field name="issuer_vat"  invisible="issue_state"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +371,9 @@
 =======
                             <field name="currency_id" invisible="1"/> <!-- TODO: to be removed in master -->
 >>>>>>> upstream/18.0
+=======
+                            <field name="currency_id" invisible="1"/>
+>>>>>>> upstream/18.0
                             <field name="company_id" groups="base.group_multi_company"/>
                         </group>
                     </group>
@@ -385,6 +397,7 @@
                     <field name="name"/>
                     <field name="original_journal_id"/>
                     <field name="company_id" optional="hide" groups="base.group_multi_company"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +474,9 @@
 >>>>>>> upstream/18.0
 =======
                     <field name="payment_method_line_id" column_invisible="True"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                    <field name="payment_method_line_id" column_invisible="True"/>
 >>>>>>> upstream/18.0
                     <field name="partner_id" string="Customer"/>
                     <field name="amount"  optional="show"/>

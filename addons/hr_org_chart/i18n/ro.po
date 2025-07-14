@@ -4,6 +4,10 @@
 # 
 # Translators:
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -11,7 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,17 +30,29 @@ msgstr ""
 #. module: hr_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_view_form_inherit_org_chart
 msgid "<span class=\"o_stat_text\">Org Chart</span>"
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Org Chart</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Organigramă</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model_terms:ir.actions.act_window,help:hr_org_chart.action_hr_employee_org_chart
 msgid "Add a new employee"
+<<<<<<< HEAD
 msgstr "Adăugare angajat nou"
+=======
+msgstr "Adaugă un angajat nou"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model,name:hr_org_chart.model_hr_employee_base
 msgid "Basic Employee"
+<<<<<<< HEAD
 msgstr "BAngajat de bază"
+=======
+msgstr "Angajat de bază"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__department_color
@@ -46,7 +66,11 @@ msgstr "Culoare departament"
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_base__child_count
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_count
 msgid "Direct Subordinates Count"
+<<<<<<< HEAD
 msgstr "Număr de subordonați direcți"
+=======
+msgstr "Număr subordonați direcți"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model.fields,help:hr_org_chart.field_hr_employee__subordinate_ids
@@ -83,14 +107,22 @@ msgstr ""
 msgid ""
 "In the Organigram you will have a clear overview of the hierarchy of "
 "employees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "În organigramă veți avea o imagine clară a ierarhiei angajaților."
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__child_all_count
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_base__child_all_count
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__child_all_count
 msgid "Indirect Subordinates Count"
+<<<<<<< HEAD
 msgstr "Număr de subordonați indirecți"
+=======
+msgstr "Număr subordonați indirecți"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #. odoo-javascript
@@ -114,7 +146,11 @@ msgstr "Mai mulți manageri"
 #. odoo-javascript
 #: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_controller.xml:0
 msgid "No Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fără date"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #. odoo-javascript
@@ -126,25 +162,41 @@ msgstr "Fără poziție ierarhică."
 #. odoo-python
 #: code:addons/hr_org_chart/models/hr_org_chart_mixin.py:0
 msgid "Operation not supported"
+<<<<<<< HEAD
 msgstr "Operațiunea nu este acceptată"
+=======
+msgstr "Operațiune neacceptată"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.actions.act_window,name:hr_org_chart.action_hr_employee_org_chart
 #: model:ir.ui.menu,name:hr_org_chart.menu_hr_employee_org_chart
 msgid "Org Chart"
+<<<<<<< HEAD
 msgstr "Org Chart"
+=======
+msgstr "Organigramă"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_public_view_form_inherit_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.hr_employee_view_form_inherit_org_chart
 #: model_terms:ir.ui.view,arch_db:hr_org_chart.res_users_view_form
 msgid "Organization Chart"
+<<<<<<< HEAD
 msgstr "Schema de organizare"
+=======
+msgstr "Organigramă"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model,name:hr_org_chart.model_hr_employee_public
 msgid "Public Employee"
+<<<<<<< HEAD
 msgstr "Angajați Publici"
+=======
+msgstr "Angajat public"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model_terms:ir.actions.act_window,help:hr_org_chart.action_hr_employee_org_chart
@@ -152,6 +204,11 @@ msgid ""
 "Quickly find all the information you need for your employees such as contact"
 " data, job position, availability, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Găsiți rapid toate informațiile de care aveți nevoie despre angajați, precum"
+" date de contact, funcție, disponibilitate etc."
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #. odoo-javascript
@@ -163,13 +220,21 @@ msgstr "Redirecționare"
 #. odoo-javascript
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "See All"
+<<<<<<< HEAD
 msgstr "Vezi toate"
+=======
+msgstr "Vezi tot"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee__subordinate_ids
 #: model:ir.model.fields,field_description:hr_org_chart.field_hr_employee_public__subordinate_ids
 msgid "Subordinates"
+<<<<<<< HEAD
 msgstr "Subordonati"
+=======
+msgstr "Subordonați"
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #. odoo-javascript
@@ -181,7 +246,11 @@ msgstr "Echipă"
 #. odoo-javascript
 #: code:addons/hr_org_chart/static/src/fields/hr_org_chart.xml:0
 msgid "This employee has no manager or subordinate."
+<<<<<<< HEAD
 msgstr "Acest angajat nu are niciun manager sau subordonat."
+=======
+msgstr "Acest angajat nu are manager sau subordonați."
+>>>>>>> upstream/18.0
 
 #. module: hr_org_chart
 #. odoo-javascript
@@ -193,4 +262,8 @@ msgstr "Total"
 #. odoo-javascript
 #: code:addons/hr_org_chart/static/src/views/hr_employee_hierarchy/hr_employee_hierarchy_card.xml:0
 msgid "people"
+<<<<<<< HEAD
 msgstr "oameni"
+=======
+msgstr "persoane"
+>>>>>>> upstream/18.0

@@ -80,6 +80,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
 # Wil Odoo, 2025
 =======
@@ -432,12 +433,18 @@
 # Wil Odoo, 2025
 # Fernanda Alvarez, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+>>>>>>> upstream/18.0
+=======
+# Fernanda Alvarez, 2025
+# Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +816,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -817,6 +829,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,6 +882,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:account.field_account_journal__type
 msgid ""
 "\n"
@@ -882,11 +897,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Seleccione \"Ventas\" para ver los diarios de facturas de cliente.\n"
 "        Seleccione \"Compras\" para ver los diarios de facturas de proveedor.\n"
 "        Seleccione \"Efectivo\", \"Banco\" o \"Tarjeta de crédito\" para ver los diarios que se usan para pagos de clientes y proveedores.\n"
 "        Seleccione \"General\" para ver los diarios con varias operaciones.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +915,9 @@ msgstr ""
 "        Selecciona \"General\" para ver los diarios con operaciones misceláneas.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1018,8 +1039,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(move)s está en un estado que no es válido tomando en cuenta las líneas del estado de cuenta relacionado.\n"
 "Para mantener la consistencia, el asiento de diario siempre debe tener solo una línea de suspenso."
+=======
+"%(move)s está en un estado que no es válido, tomando en cuenta la línea del estado de cuenta relacionada.\n"
+"Para mantener la consistencia, el asiento de diario siempre debe tener solo una línea transitoria."
+>>>>>>> upstream/18.0
 =======
 "%(move)s está en un estado que no es válido, tomando en cuenta la línea del estado de cuenta relacionada.\n"
 "Para mantener la consistencia, el asiento de diario siempre debe tener solo una línea transitoria."
@@ -1121,7 +1147,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1249,6 +1278,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -1260,6 +1290,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1380,6 +1412,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1506,7 +1541,11 @@ msgid "(Un)Block Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(Des)Bloquear pago"
+=======
+msgstr "(Des)bloquear pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "(Des)bloquear pago"
 >>>>>>> upstream/18.0
@@ -1566,9 +1605,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Con el nuevo campo «Total (impuestos incluidos)» será posible  acelerar y "
 "controlar la codificación ya que las líneas se crearán de inmediato con la "
 "cuenta y el impuesto correctos"
+=======
+"- Con el campo nuevo \"Total (impuestos incluidos)\" podrás  acelerar y "
+"controlar la codificación, ya que las líneas se crearán de inmediato con la "
+"cuenta y el impuesto correctos."
+>>>>>>> upstream/18.0
 =======
 "- Con el campo nuevo \"Total (impuestos incluidos)\" podrás  acelerar y "
 "controlar la codificación, ya que las líneas se crearán de inmediato con la "
@@ -1591,7 +1636,11 @@ msgid "- Installment of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "- Cuota de"
+=======
+msgstr "- Plazo de"
+>>>>>>> upstream/18.0
 =======
 msgstr "- Plazo de"
 >>>>>>> upstream/18.0
@@ -1640,11 +1689,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Asegúrese de que es un comportamiento deseado."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1678,7 +1730,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "moneda de su empresa."
+=======
+"moneda de tu empresa."
+>>>>>>> upstream/18.0
 =======
 "moneda de tu empresa."
 >>>>>>> upstream/18.0
@@ -1924,6 +1980,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<b>#%(count)s</b> cuota de <b>%(amount)s</b> a pagar antes del <b "
 "style='color: #704A66;'>%(date)s</b>"
 
@@ -1959,12 +2016,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plazo <b>#%(count)s</b> de <b>%(amount)s</b> a pagar antes del <b "
 "style='color: #704A66;'>%(date)s</b>"
 
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1975,6 +2037,7 @@ msgid ""
 "<br/>\n"
 "                        <span>Please make sure that this is a wanted behavior.</span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2029,12 +2092,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<br/>\n"
 "                        <span>Asegúrate de que es un comportamiento deseado.</span>"
 
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2092,7 +2160,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Esta es su\n"
+=======
+"        A continuación encontrarás tu\n"
+>>>>>>> upstream/18.0
 =======
 "        A continuación encontrarás tu\n"
 >>>>>>> upstream/18.0
@@ -2114,11 +2186,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        por un importe total de <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$143,750.00</span>\n"
 "        de <t t-out=\"object.company_id.name or ''\">SuEmpresa</t>.\n"
 "        <br/><br/>\n"
 "        No dude en contactarnos si tiene alguna pregunta.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2129,6 +2204,9 @@ msgstr ""
 "        Contáctanos si tienes alguna pregunta.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2208,7 +2286,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Esta es su\n"
+=======
+"        A continuación encontrarás tu\n"
+>>>>>>> upstream/18.0
 =======
 "        A continuación encontrarás tu\n"
 >>>>>>> upstream/18.0
@@ -2230,8 +2312,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        por un importe total de <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$143,750.00</span>\n"
 "        de <t t-out=\"object.company_id.name or ''\">SuEmpresa</t>.\n"
+=======
+"        por <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$143,750.00</span>\n"
+"        de <t t-out=\"object.company_id.name or ''\">TuEmpresa</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        por <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$143,750.00</span>\n"
 "        de <t t-out=\"object.company_id.name or ''\">TuEmpresa</t>.\n"
@@ -2251,11 +2338,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Realice su pago lo más pronto posible.\n"
 "            <t t-if=\"object.payment_reference\">\n"
 "                <br/><br/>\n"
 "                Utilice la siguiente referencia para realizar su pago: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2266,6 +2356,9 @@ msgstr ""
 "                Utiliza la referencia a continuación para realizar el pago: <strong t-out=\"object.payment_reference or ''\">INV/2021/05/0005</strong>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2282,11 +2375,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Recuerde que puede consultar sus hojas de horas <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">desde el portal.</a>\n"
 "        </t>\n"
 "        <br/><br/>\n"
 "        No dude en contactarnos si tiene alguna pregunta.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2297,6 +2393,9 @@ msgstr ""
 "        Contáctanos si tienes alguna pregunta.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2336,12 +2435,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Gracias por su pago.\n"
 "        Aquí está el recibo de su pago <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> por un total\n"
 "        de <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> de <t t-out=\"object.company_id.name or ''\">SuEmpresa</t>.\n"
 "        <br/><br/>\n"
 "        No dude en contactarnos si tiene alguna pregunta.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2353,6 +2455,9 @@ msgstr ""
 "        No dudes en contactarnos si tienes alguna pregunta.\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2443,8 +2548,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        No se preocupe, podrá cambiar esta opción después en el formulario del proveedor.\n"
 "                        También puede desactivar la función para todos los proveedores en los ajustes de Contabilidad."
+=======
+"                        Podrás cambiar esta configuración después en el formulario del proveedor.\n"
+"                        También puedes desactivar la función para todos los proveedores en los ajustes de Contabilidad."
+>>>>>>> upstream/18.0
 =======
 "                        Podrás cambiar esta configuración después en el formulario del proveedor.\n"
 "                        También puedes desactivar la función para todos los proveedores en los ajustes de Contabilidad."
@@ -2480,8 +2590,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configurar el alias del"
 " dominio"
+=======
+"<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configurar el seudónimo"
+" del dominio"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-fw o_button_icon oi-arrow-right\"/> Configurar el seudónimo"
 " del dominio"
@@ -2506,7 +2621,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Usted elige cómo quiere que enviemos las facturas y en qué formato electrónico.\n"
+=======
+"                    Tú eliges cómo quieres que enviemos las facturas y en qué formato electrónico.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Tú eliges cómo quieres que enviemos las facturas y en qué formato electrónico.\n"
 >>>>>>> upstream/18.0
@@ -2553,8 +2672,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"figure-caption\">Nunca perderá una fecha de entrega con "
 "nuestros estados y alertas automatizadas</span>"
+=======
+"<span class=\"figure-caption\">Nunca se te pasará una fecha de entrega "
+"gracias a nuestros estados y alertas automatizadas.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"figure-caption\">Nunca se te pasará una fecha de entrega "
 "gracias a nuestros estados y alertas automatizadas.</span>"
@@ -2571,6 +2695,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
 "                                    </span>"
@@ -2587,6 +2712,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
 "or invoice_payment_term_id\"> o </span>"
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
+"6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_line_form
@@ -2827,11 +2957,14 @@ msgid "<span> (DR)</span>"
 msgstr "<span> (Reporte de débito)</span>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "<span> Bill</span>"
 msgstr "<span> Factura</span>"
@@ -2864,8 +2997,13 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
+=======
+msgid "<span>1</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -2876,6 +3014,7 @@ msgstr "<span>5.00</span>"
 #: model_terms:web_tour.tour,rainbow_man_message:account.account_tour
 msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2891,6 +3030,15 @@ msgstr ""
 =======
 "<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este "
 "recorrido.</span>"
+>>>>>>> upstream/18.0
+=======
+"<span><b>¡Bien hecho!</b> Terminaste todos los pasos de este "
+"recorrido.</span>"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span>=</span>"
+msgstr ""
 >>>>>>> upstream/18.0
 
 #. module: account
@@ -2954,7 +3102,10 @@ msgstr "<span>Nuevo</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2991,6 +3142,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -3001,6 +3153,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3029,6 +3183,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3090,6 +3247,7 @@ msgstr "<span>Impuestos</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3108,6 +3266,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3137,6 +3297,9 @@ msgstr "<span>La cuenta bancaria podría ser un duplicado de</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3162,8 +3325,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span>Este asiento se generó con la aplicación Facturación, antes de "
 "instalar Contabilidad. El balance se importó por separado.</span>"
+=======
+"<span>Este asiento se generó con la aplicación Facturación antes de instalar"
+" Contabilidad. El balance se importó por separado.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>Este asiento se generó con la aplicación Facturación antes de instalar"
 " Contabilidad. El balance se importó por separado.</span>"
@@ -3183,7 +3351,11 @@ msgid "<span>This is a preview of your Terms &amp; Conditions.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Esta es una vista previa de sus términos y condiciones.</span>"
+=======
+msgstr "<span>Esta es una vista previa de tus términos y condiciones.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Esta es una vista previa de tus términos y condiciones.</span>"
 >>>>>>> upstream/18.0
@@ -3267,6 +3439,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3285,6 +3458,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3422,6 +3597,9 @@ msgstr "<strong class=\"d-block mt-3\">Dirección de envío</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3624,11 +3802,14 @@ msgstr "<strong>Referencia</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Shipping Address</strong>"
 msgstr "<strong>Dirección de envío</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3825,7 +4006,10 @@ msgstr "<strong>Tipo: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4019,6 +4203,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -4035,6 +4220,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4216,6 +4403,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4350,9 +4540,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Una caja registradora le permite gestionar asientos de efectivo en sus diarios\n"
 "                de efectivo. Esta función es una manera sencilla de llevar el seguimiento de pagos\n"
 "                en efectivo día con día."
+=======
+"Con una caja registradora podrás gestionar todos tus asientos de efectivo en tus diarios\n"
+"                de efectivo. Con esta función podrás dar seguimiento a los pagos en efectivo diarios\n"
+"                con facilidad."
+>>>>>>> upstream/18.0
 =======
 "Con una caja registradora podrás gestionar todos tus asientos de efectivo en tus diarios\n"
 "                de efectivo. Con esta función podrás dar seguimiento a los pagos en efectivo diarios\n"
@@ -4455,7 +4651,10 @@ msgstr "Una cuenta bancaria solo puede pertenecer a un diario."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4590,6 +4789,7 @@ msgid ""
 "A bank account with Account Number %(number)s already exists for Partner "
 "%(partner)s, but is archived. Please unarchive it instead."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4956,12 +5156,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Ya existe una cuenta bancaria con el número de cuenta %(number)s para el "
 "contacto %(partner)s, pero está archivada. Desarchívala."
 
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4977,8 +5182,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                que ocurren en un periodo de tiempo en una cuenta bancaria. Debería\n"
 "                recibirlo de forma periódica de parte de su banco."
+=======
+"                que ocurren en un periodo de tiempo en una cuenta bancaria. Tu banco\n"
+"                te lo debería mandar de forma periódica."
+>>>>>>> upstream/18.0
 =======
 "                que ocurren en un periodo de tiempo en una cuenta bancaria. Tu banco\n"
 "                te lo debería mandar de forma periódica."
@@ -5003,8 +5213,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                que ocurren en un periodo en una cuenta de crédito. Debería\n"
 "                recibirlo de forma periódica por parte de su banco."
+=======
+"                que ocurren en un periodo de tiempo en una cuenta de crédito. Tu banco\n"
+"                te lo debería mandar de forma periódica."
+>>>>>>> upstream/18.0
 =======
 "                que ocurren en un periodo de tiempo en una cuenta de crédito. Tu banco\n"
 "                te lo debería mandar de forma periódica."
@@ -5058,8 +5273,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Se está utilizando una cuenta obsoleta en una línea de este movimiento, por "
 "lo que no puede publicarlo."
+=======
+"Estás utilizando una cuenta obsoleta en una línea de este movimiento, por lo"
+" que no puedes publicarlo."
+>>>>>>> upstream/18.0
 =======
 "Estás utilizando una cuenta obsoleta en una línea de este movimiento, por lo"
 " que no puedes publicarlo."
@@ -5122,7 +5342,11 @@ msgid "A reconciliation model already bears this name."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un modelo de conciliación ya tiene este nombre"
+=======
+msgstr "Ya hay un modelo de conciliación con ese nombre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ya hay un modelo de conciliación con ese nombre."
 >>>>>>> upstream/18.0
@@ -5283,7 +5507,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La cuenta %s no permite la conciliación, para permitirla, primero debe "
+=======
+"La cuenta %s no permite la conciliación, para permitirla, primero debes "
+>>>>>>> upstream/18.0
 =======
 "La cuenta %s no permite la conciliación, para permitirla, primero debes "
 >>>>>>> upstream/18.0
@@ -5559,8 +5787,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los códigos de cuenta deben ser únicos. No puede crear cuentas con los "
 "siguientes códigos duplicados: %s"
+=======
+"Los códigos de cuenta deben ser únicos. No puedes crear cuentas con los "
+"códigos a continuación porque serían duplicados: %s"
+>>>>>>> upstream/18.0
 =======
 "Los códigos de cuenta deben ser únicos. No puedes crear cuentas con los "
 "códigos a continuación porque serían duplicados: %s"
@@ -5704,8 +5937,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cuenta: publique asientos en estado de borrador con auto_post habilitado y "
 "la fecha contable hasta hoy"
+=======
+"Cuenta: Publica asientos en estado de borrador con auto_post habilitado y la"
+" fecha contable hasta hoy"
+>>>>>>> upstream/18.0
 =======
 "Cuenta: Publica asientos en estado de borrador con auto_post habilitado y la"
 " fecha contable hasta hoy"
@@ -5801,7 +6039,11 @@ msgid "Accounting-related settings are managed on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Los ajustes relacionados a la contabilidad se gestionan en"
+=======
+msgstr "Los ajustes relacionados a contabilidad se gestionan en"
+>>>>>>> upstream/18.0
 =======
 msgstr "Los ajustes relacionados a contabilidad se gestionan en"
 >>>>>>> upstream/18.0
@@ -6017,8 +6259,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Agregue un código QR a sus facturas para que sus clientes puedan pagar "
 "instantáneamente con su aplicación móvil bancaria."
+=======
+"Agrega un código QR a tus facturas para que tus clientes puedan pagar al "
+"instante con su aplicación móvil bancaria."
+>>>>>>> upstream/18.0
 =======
 "Agrega un código QR a tus facturas para que tus clientes puedan pagar al "
 "instante con su aplicación móvil bancaria."
@@ -6039,7 +6286,11 @@ msgid "Add a description to your item."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Agregue una descripción a su artículo."
+=======
+msgstr "Agrega una descripción a tu artículo."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrega una descripción a tu artículo."
 >>>>>>> upstream/18.0
@@ -6195,7 +6446,11 @@ msgid "Aggregate Other Formulas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Agregar otras formulas"
+=======
+msgstr "Agregar otras fórmulas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agregar otras fórmulas"
 >>>>>>> upstream/18.0
@@ -6309,7 +6564,12 @@ msgid "Allow sending and receiving invoices through the PEPPOL network"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permita que se envíen y reciban facturas a través de la red de PEPPOL"
+=======
+msgstr ""
+"Permitir que se envíen y reciban facturas a través de la red de PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Permitir que se envíen y reciban facturas a través de la red de PEPPOL"
@@ -6354,7 +6614,11 @@ msgid "Allows you to use the analytic accounting."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Le permite usar la contabilidad analítica."
+=======
+msgstr "Te permite usar la contabilidad analítica."
+>>>>>>> upstream/18.0
 =======
 msgstr "Te permite usar la contabilidad analítica."
 >>>>>>> upstream/18.0
@@ -6550,7 +6814,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                que su empresa registre todo tipo de transacciones de cargos y abonos.\n"
+=======
+"                que tu empresa registre todo tipo de transacciones de cargos y abonos.\n"
+>>>>>>> upstream/18.0
 =======
 "                que tu empresa registre todo tipo de transacciones de cargos y abonos.\n"
 >>>>>>> upstream/18.0
@@ -6580,12 +6848,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Ocurrió un error."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6737,8 +7008,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "posterior de acuerdo con la secuencia de su diario. Esta fecha de bloqueo es"
 " irreversible y no permite realizar ninguna excepción."
+=======
+"posterior, según la secuencia de su diario. Esta fecha de bloqueo es "
+"irreversible y no permite realizar ninguna excepción."
+>>>>>>> upstream/18.0
 =======
 "posterior, según la secuencia de su diario. Esta fecha de bloqueo es "
 "irreversible y no permite realizar ninguna excepción."
@@ -6762,7 +7038,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "posterior de acuerdo con la secuencia de su diario."
+=======
+"posterior, según la secuencia de su diario."
+>>>>>>> upstream/18.0
 =======
 "posterior, según la secuencia de su diario."
 >>>>>>> upstream/18.0
@@ -6784,9 +7064,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " una fecha posterior de acuerdo con la secuencia de su diario. La fecha de "
 "bloqueo de impuestos se establece en automático al registrar el asiento de "
 "cierre de impuestos."
+=======
+" una fecha posterior, según la secuencia de su diario. La fecha de bloqueo "
+"de impuestos se establece en automático al registrar el asiento de cierre de"
+" impuestos."
+>>>>>>> upstream/18.0
 =======
 " una fecha posterior, según la secuencia de su diario. La fecha de bloqueo "
 "de impuestos se establece en automático al registrar el asiento de cierre de"
@@ -6858,8 +7144,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aplicar el NIF del país de la Unión Europea al que se entregan productos y "
 "servicios."
+=======
+"Aplicar el número de identificación fiscal del país de la Unión Europea al "
+"que se entregan productos y servicios."
+>>>>>>> upstream/18.0
 =======
 "Aplicar el número de identificación fiscal del país de la Unión Europea al "
 "que se entregan productos y servicios."
@@ -6898,7 +7189,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "cuando se cumplan los criterios de correspondencia (IVA/País). "
+=======
+"cuando se cumplan los criterios de correspondencia (Número de identificación"
+" fiscal/País)."
+>>>>>>> upstream/18.0
 =======
 "cuando se cumplan los criterios de correspondencia (Número de identificación"
 " fiscal/País)."
@@ -6939,7 +7235,11 @@ msgid "Are you sure? This will perform the following operations:\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "¿Está seguro? Esto realizará las siguientes operaciones:\n"
+=======
+msgstr "¿Estás seguro? Esto realizará las siguientes operaciones:\n"
+>>>>>>> upstream/18.0
 =======
 msgstr "¿Estás seguro? Esto realizará las siguientes operaciones:\n"
 >>>>>>> upstream/18.0
@@ -7157,8 +7457,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El registro automático de esta factura está desactivado porque se detectó un"
 " posible duplicado."
+=======
+"Se desactivó el registro automático de esta factura porque se detectó un "
+"posible duplicado."
+>>>>>>> upstream/18.0
 =======
 "Se desactivó el registro automático de esta factura porque se detectó un "
 "posible duplicado."
@@ -7597,6 +7902,7 @@ msgstr "Cuenta bancaria"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Se borró la cuenta bancaria %(link)s con el número %(number)s"
 =======
@@ -7618,6 +7924,10 @@ msgstr ""
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
+>>>>>>> upstream/18.0
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr "Se archivó la cuenta bancaria %(link)s con el número %(number)s"
 >>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
@@ -8014,7 +8324,11 @@ msgid "Bank Suspense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Suspensión bancaria"
+=======
+msgstr "Transitoria bancaria"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transitoria bancaria"
 >>>>>>> upstream/18.0
@@ -8220,8 +8534,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Las transacciones bancarias se publican de inmediato después de la importación o sincronización. Su contraparte es una cuenta de banco transitoria.\n"
 "La conciliación remplaza a esa cuenta con una cuenta o cuentas definitivas."
+=======
+"Las transacciones bancarias se registran de inmediato después de la importación o sincronización. Su contraparte es la cuenta bancaria transitoria.\n"
+"Al realizar la conciliación, la cuenta transitoria se reemplaza con la cuenta o cuentas definitivas."
+>>>>>>> upstream/18.0
 =======
 "Las transacciones bancarias se registran de inmediato después de la importación o sincronización. Su contraparte es la cuenta bancaria transitoria.\n"
 "Al realizar la conciliación, la cuenta transitoria se reemplaza con la cuenta o cuentas definitivas."
@@ -8660,6 +8979,7 @@ msgid "Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturas"
 =======
 msgstr "Facturas de clientes"
@@ -8693,6 +9013,9 @@ msgstr "Facturas de clientes"
 >>>>>>> upstream/18.0
 =======
 msgstr "Facturas de clientes"
+>>>>>>> upstream/18.0
+=======
+msgstr "Facturas de proveedor"
 >>>>>>> upstream/18.0
 =======
 msgstr "Facturas de proveedor"
@@ -9011,6 +9334,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Al deseleccionar el campo actual ocultará la posición fiscal sin borrarla."
 =======
 "Al deseleccionar el campo actual ocultará la posición fiscal sin eliminarla."
@@ -9168,6 +9492,10 @@ msgstr ""
 "Al deseleccionar el campo actual se ocultará la posición fiscal sin "
 "eliminarla."
 >>>>>>> upstream/18.0
+=======
+"Al deseleccionar el campo actual se ocultará la posición fiscal sin "
+"eliminarla."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_incoterms__active
@@ -9286,7 +9614,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se puede crear un documento de compra en un diario que no sea de compras"
+=======
+"No es posible crear un documento de compra en un diario que no sea de "
+"compras"
+>>>>>>> upstream/18.0
 =======
 "No es posible crear un documento de compra en un diario que no sea de "
 "compras"
@@ -9308,7 +9641,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se puede crear un documento de venta en un diario que no sea de ventas"
+=======
+"No es posible crear un documento de venta en un diario que no sea de ventas"
+>>>>>>> upstream/18.0
 =======
 "No es posible crear un documento de venta en un diario que no sea de ventas"
 >>>>>>> upstream/18.0
@@ -9337,8 +9674,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se pudo encontrar un plan de cuentas para esta empresa, debe "
 "configurarlo. Diríjase a la configuración de la cuenta."
+=======
+"No fue posible encontrar un plan de cuentas para esta empresa, debes configurarlo. \n"
+"Ve a la configuración de la cuenta."
+>>>>>>> upstream/18.0
 =======
 "No fue posible encontrar un plan de cuentas para esta empresa, debes configurarlo. \n"
 "Ve a la configuración de la cuenta."
@@ -9359,7 +9701,11 @@ msgid "Cannot generate an unused account code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se puede generar un código de cuenta sin utilizar."
+=======
+msgstr "No es posible generar un código de cuenta sin utilizar."
+>>>>>>> upstream/18.0
 =======
 msgstr "No es posible generar un código de cuenta sin utilizar."
 >>>>>>> upstream/18.0
@@ -9380,7 +9726,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se puede generar un código de diario sin usar. Cambie el nombre del "
+=======
+"No es posible generar un código de diario sin usar. Cambia el nombre del "
+>>>>>>> upstream/18.0
 =======
 "No es posible generar un código de diario sin usar. Cambia el nombre del "
 >>>>>>> upstream/18.0
@@ -9398,6 +9748,7 @@ msgstr ""
 msgid ""
 "Cannot get aggregation details from a line not using 'aggregation' engine"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9613,12 +9964,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "No es posible obtener detalles de agregación de una línea que no utiliza un "
 "motor de \"agregación\""
 
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9689,6 +10045,9 @@ msgstr "No es posible identificar facturas en el PDF generado: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9822,8 +10181,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Capture facturas, registre pagos y lleve el seguimiento de las "
 "conversaciones con sus proveedores. "
+=======
+"Captura facturas, registra pagos y lleva el seguimiento de las "
+"conversaciones con tus proveedores."
+>>>>>>> upstream/18.0
 =======
 "Captura facturas, registra pagos y lleva el seguimiento de las "
 "conversaciones con tus proveedores."
@@ -10129,7 +10493,11 @@ msgid "Check them"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Compruébelos"
+=======
+msgstr "Compruébalos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compruébalos"
 >>>>>>> upstream/18.0
@@ -10150,7 +10518,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleccione esta casilla si la cuenta permite emparejar facturas y pagos con "
+=======
+"Selecciona esta casilla si la cuenta permite vincular facturas y pagos con "
+>>>>>>> upstream/18.0
 =======
 "Selecciona esta casilla si la cuenta permite vincular facturas y pagos con "
 >>>>>>> upstream/18.0
@@ -10171,8 +10543,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleccione esta casilla si no desea compartir la misma secuencia de facturas"
 " y notas de crédito de este diario"
+=======
+"Selecciona esta casilla si no deseas compartir la misma secuencia de "
+"facturas y notas de crédito de este diario"
+>>>>>>> upstream/18.0
 =======
 "Selecciona esta casilla si no deseas compartir la misma secuencia de "
 "facturas y notas de crédito de este diario"
@@ -10195,8 +10572,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleccione esta casilla si no desea compartir la misma secuencia en pagos y "
 "transacciones bancarias publicadas en este diario"
+=======
+"Selecciona esta casilla si no deseas compartir la misma secuencia en pagos y"
+" transacciones bancarias publicadas en este diario"
+>>>>>>> upstream/18.0
 =======
 "Selecciona esta casilla si no deseas compartir la misma secuencia en pagos y"
 " transacciones bancarias publicadas en este diario"
@@ -10219,7 +10601,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Seleccione esta casilla para negar el valor absoluto del balance de las "
+=======
+"Selecciona esta casilla para negar el valor absoluto del balance de las "
+>>>>>>> upstream/18.0
 =======
 "Selecciona esta casilla para negar el valor absoluto del balance de las "
 >>>>>>> upstream/18.0
@@ -10237,7 +10623,11 @@ msgid "Check why it's risky."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Compruebe por qué es riesgoso."
+=======
+msgstr "Comprueba por qué es riesgoso."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comprueba por qué es riesgoso."
 >>>>>>> upstream/18.0
@@ -10254,7 +10644,11 @@ msgid "Check why."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Compruebe por qué."
+=======
+msgstr "Comprueba por qué."
+>>>>>>> upstream/18.0
 =======
 msgstr "Comprueba por qué."
 >>>>>>> upstream/18.0
@@ -10291,7 +10685,11 @@ msgstr "Impuestos secundarios"
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_sales_tax
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding_sale_tax
 msgid "Choose a default sales tax for your products."
+<<<<<<< HEAD
 msgstr "Elija los impuestos de venta predeterminados para sus productos."
+=======
+msgstr "Selecciona los impuestos de venta predeterminados para tus productos."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
@@ -10307,13 +10705,21 @@ msgstr "Clic"
 #. odoo-javascript
 #: code:addons/account/static/src/js/tours/account.js:0
 msgid "Click here to add a description to your product."
+<<<<<<< HEAD
 msgstr "Haga clic aquí para agregar una descripción a su producto."
+=======
+msgstr "Haz clic aquí para agregar una descripción al producto."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript
 #: code:addons/account/static/src/components/product_label_section_and_note_field/product_label_section_and_note_field.xml:0
 msgid "Click or press enter to add a description"
+<<<<<<< HEAD
 msgstr "Haga clic o presione enter para agregar una descripción"
+=======
+msgstr "Haz clic o presiona enter para agregar una descripción"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
@@ -10364,7 +10770,11 @@ msgstr "Código de tienda"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Collect customer payments in one-click using Euro SEPA Service"
 msgstr ""
+<<<<<<< HEAD
 "Recolecte los pagos de los clientes con un solo clic utilizando el Servicio "
+=======
+"Recolecta los pagos de los clientes con un solo clic utilizando el Servicio "
+>>>>>>> upstream/18.0
 "Euro SEPA."
 
 #. module: account
@@ -10373,8 +10783,13 @@ msgid ""
 "Collect information and produce statistics on the trade in goods in Europe "
 "with intrastat"
 msgstr ""
+<<<<<<< HEAD
 "Recolecte información y produzca estadísticas de la negociación de bienes en"
 " Europa con intrastat."
+=======
+"Recolecta información y produce estadísticas de la negociación de bienes en "
+"Europa con Intrastat."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__color
@@ -10395,7 +10810,11 @@ msgid ""
 "set, this line will generate sublines grouped by those keys."
 msgstr ""
 "Lista de campos de account.move.line (apunte contable) separados por comas. "
+<<<<<<< HEAD
 "Cuando la configure, esta línea generará sublíneas agrupadas por dichas "
+=======
+"Cuando la configures, esta línea generará sublíneas agrupadas por dichas "
+>>>>>>> upstream/18.0
 "claves."
 
 #. module: account
@@ -10406,6 +10825,7 @@ msgid "Commercial Entity"
 msgstr "Entidad comercial"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10531,6 +10951,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10773,6 +11195,9 @@ msgstr "País del contacto comercial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10957,7 +11382,11 @@ msgstr "Empresas"
 #: model:ir.model.fields,field_description:account.field_res_partner__ref_company_ids
 #: model:ir.model.fields,field_description:account.field_res_users__ref_company_ids
 msgid "Companies that refers to partner"
+<<<<<<< HEAD
 msgstr "Empresas que se refieren al contacto"
+=======
+msgstr "Empresas que refieren al contacto"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__company_id
@@ -11110,7 +11539,11 @@ msgstr "Configurar"
 #: code:addons/account/models/onboarding_onboarding_step.py:0
 #: model:ir.actions.act_window,name:account.action_base_document_layout_configurator
 msgid "Configure your document layout"
+<<<<<<< HEAD
 msgstr "Configure el diseño de su documento"
+=======
+msgstr "Configura el diseño de tu documento"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_resequence_view
@@ -11137,19 +11570,31 @@ msgstr "Confirmarlos ahora"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Connect your bank. Match invoices automatically."
+<<<<<<< HEAD
 msgstr "Conecte su banco y concilie facturas de forma automática."
+=======
+msgstr "Conecta tu banco y concilia facturas de forma automática."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying in %(btn_start)sinstallments%(btn_end)s instead."
+<<<<<<< HEAD
 msgstr "Considere pagar en %(btn_start)scuotas%(btn_end)s."
+=======
+msgstr "Considera pagar en %(btn_start)scuotas%(btn_end)s."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 msgid "Consider paying the %(btn_start)sfull amount%(btn_end)s."
+<<<<<<< HEAD
 msgstr "Considere pagar el %(btn_start)simporte completo%(btn_end)s."
+=======
+msgstr "Considera pagar el %(btn_start)simporte completo%(btn_end)s."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model,name:account.model_res_partner
@@ -11233,22 +11678,36 @@ msgid ""
 "Could not compute any code for the copy automatically. Please create it "
 "manually."
 msgstr ""
+<<<<<<< HEAD
 "No se pudo calcular automáticamente ningún código para copiar, debe crearlo "
 "de forma manual."
+=======
+"No fue posible calcular automáticamente ningún código para copiar, debes "
+"crearlo de forma manual."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_report.py:0
 msgid "Could not determine carryover target automatically for expression %s."
 msgstr ""
+<<<<<<< HEAD
 "No se pudo determinar el objetivo de traspaso de forma automática para la "
 "expresión %s."
+=======
+"No fue posible determinar el objetivo de traspaso de forma automática para "
+"la expresión %s."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript
 #: code:addons/account/static/src/components/upload_drop_zone/upload_drop_zone.js:0
 msgid "Could not upload files"
+<<<<<<< HEAD
 msgstr "No se pudieron subir los archivos"
+=======
+msgstr "No fue posible subir los archivos"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
@@ -11364,6 +11823,11 @@ msgstr "Crear asientos automáticos"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -11561,7 +12025,11 @@ msgstr "Crear un nuevo incoterm"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.product_product_action_purchasable
 msgid "Create a new purchasable product"
+<<<<<<< HEAD
 msgstr "Crear un nuevo producto comprable"
+=======
+msgstr "Crear un nuevo producto que se pueda comprar"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_reconcile_model
@@ -11619,8 +12087,13 @@ msgid ""
 "Create as many ledger groups as needed to maintain separate ledgers for local GAAP, IFRS, or fiscal\n"
 "                    adjustments, ensuring compliance with diverse regulations."
 msgstr ""
+<<<<<<< HEAD
 "Cree tantos grupos de libros mayores como sean necesarios para contar con distintos libros para normas locales GAAF, IFRS \n"
 "                    o fiscales, asegurando el cumplimiento con varias regulaciones."
+=======
+"Crea los grupos de libros mayores necesarios para tener distintos libros según las normas locales GAAF, IFRS \n"
+"                    o fiscales. Así aseguramos que cumpliremos con varias regulaciones."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript
@@ -11647,8 +12120,13 @@ msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
 msgstr ""
+<<<<<<< HEAD
 "Cree facturas, registre pagos y lleve el seguimiento de las conversaciones "
 "con sus clientes."
+=======
+"Crea facturas, registra pagos y lleva el seguimiento de las conversaciones "
+"con tus clientes."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-javascript
@@ -11967,7 +12445,11 @@ msgstr "Diferencia en tasa de cambio de divisa"
 #. odoo-python
 #: code:addons/account/models/res_partner_bank.py:0
 msgid "Currency must always be provided in order to generate a QR-code"
+<<<<<<< HEAD
 msgstr "Siempre debe proporcionar una moneda para generar un código QR"
+=======
+msgstr "Siempre se debe proporcionar una moneda para generar un código QR"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__credit_currency_id
@@ -11990,7 +12472,11 @@ msgstr "Tasa de cambio de la moneda de la empresa a la del documento."
 #: model:account.account,name:account.1_current_assets
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__asset_current
 msgid "Current Assets"
+<<<<<<< HEAD
 msgstr "Activos circulantes"
+=======
+msgstr "Activos corrientes"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__current_balance
@@ -12001,7 +12487,11 @@ msgstr "Balance actual"
 #: model:account.account,name:account.1_current_liabilities
 #: model:ir.model.fields.selection,name:account.selection__account_account__account_type__liability_current
 msgid "Current Liabilities"
+<<<<<<< HEAD
 msgstr "Pasivos circulantes"
+=======
+msgstr "Pasivos corrientes"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__current_statement_balance
@@ -12053,7 +12543,11 @@ msgid "Current Year Earnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ganancias del año actual"
+=======
+msgstr "Ganancias del año corriente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ganancias del año corriente"
 >>>>>>> upstream/18.0
@@ -12325,7 +12819,11 @@ msgstr "Personalizar"
 #. module: account
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_base_document_layout
 msgid "Customize the look of your documents."
+<<<<<<< HEAD
 msgstr "Personalice la apariencia de sus documentos."
+=======
+msgstr "Personaliza el diseño de tus documentos."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -12363,7 +12861,11 @@ msgid "Cut-Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cierre"
+=======
+msgstr "Corte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corte"
 >>>>>>> upstream/18.0
@@ -12798,7 +13300,11 @@ msgid ""
 "Default on whether the sales price used on the product and invoices with "
 "this Company includes its taxes."
 msgstr ""
+<<<<<<< HEAD
 "Predeterminado sobre si el precio de venta que utiliza en el producto y en "
+=======
+"Se predetermina según si el precio de venta que utiliza en el producto y en "
+>>>>>>> upstream/18.0
 "las facturas de esta empresa incluye sus impuestos."
 
 #. module: account
@@ -12836,7 +13342,11 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Define the smallest coinage of the currency used to pay by cash"
+<<<<<<< HEAD
 msgstr "Defina la moneda más pequeña utilizada para pagar en efectivo"
+=======
+msgstr "Define la moneda más pequeña utilizada para pagar en efectivo"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_group__company_id
@@ -12844,21 +13354,34 @@ msgid ""
 "Define which company can select the multi-ledger in report filters. If none "
 "is provided, available for all companies"
 msgstr ""
+<<<<<<< HEAD
 "Defina qué empresa puede seleccionar varios libros mayores en los filtros de"
 " reporte. Si no selecciona ninguna estará disponible para todas las "
+=======
+"Define qué empresa puede seleccionar varios libros mayores en los filtros de"
+" reporte. Si no seleccionas ninguna estará disponible para todas las "
+>>>>>>> upstream/18.0
 "empresas."
 
 #. module: account
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_fiscal_year
 msgid "Define your fiscal years & tax returns periodicity."
 msgstr ""
+<<<<<<< HEAD
 "Defina sus periodos fiscales y la periodicidad de sus declaraciones de "
+=======
+"Define tus periodos fiscales y la periodicidad de tus declaraciones de "
+>>>>>>> upstream/18.0
 "impuestos."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__bank_statements_source
 msgid "Defines how the bank statements will be registered"
+<<<<<<< HEAD
 msgstr "Defina como se registrarán los estados de cuenta bancarios"
+=======
+msgstr "Define cómo se registrarán los estados de cuenta bancarios"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_analytic_applicability__display_account_prefix
@@ -12872,7 +13395,11 @@ msgid ""
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
 msgstr ""
+<<<<<<< HEAD
 "Defina la moneda más pequeña que se puede usar para pagar en efectivo."
+=======
+"Define la moneda más pequeña que se puede usar para pagar en efectivo."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_tax_form
@@ -12954,7 +13481,11 @@ msgid "Demo CEO Wages Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cuenta de salarios de CEO de demostración"
+=======
+msgstr "Cuenta de salarios de CEO para demostración"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cuenta de salarios de CEO para demostración"
 >>>>>>> upstream/18.0
@@ -13158,7 +13689,11 @@ msgid "Demo Stock Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cuenta de demostración para existencias "
+=======
+msgstr "Cuenta de demostración para existencias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cuenta de demostración para existencias"
 >>>>>>> upstream/18.0
@@ -13354,9 +13889,14 @@ msgid ""
 "used to perform tax adjustment."
 msgstr ""
 "Determina en dónde se puede seleccionar un impuesto. Nota: 'Ninguno' "
+<<<<<<< HEAD
 "significa que un impuesto no se puede usar por sí mismo. Sin embargo, se "
 "puede usar en un grupo. 'Ajuste' se usa para realizar un ajuste de impuesto."
 "   "
+=======
+"significa que un impuesto no se puede usar por sí mismo, pero sí se puede "
+"usar en un grupo. 'Ajuste' se usa para realizar un ajuste de impuesto."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__price_include
@@ -13393,8 +13933,13 @@ msgstr "Digitalización"
 msgid ""
 "Digitize your PDF or scanned documents with OCR and Artificial Intelligence"
 msgstr ""
+<<<<<<< HEAD
 "Digitalice su PDF o documentos escaneados con el OCR e Inteligencia "
 "Artificial."
+=======
+"Usa el OCR y la inteligencia artificial para digitalizar tus PDF o "
+"documentos escaneados"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__direction_sign
@@ -13700,7 +14245,11 @@ msgstr "Dividendos"
 #: code:addons/account/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
+<<<<<<< HEAD
 "No tiene acceso, omita esta información para el correo electrónico de "
+=======
+"No tienes acceso, omite esta información para el correo electrónico de "
+>>>>>>> upstream/18.0
 "resumen del usuario"
 
 #. module: account
@@ -13844,14 +14393,22 @@ msgstr "Arrastrar y soltar"
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop and let the AI process your bills automatically."
 msgstr ""
+<<<<<<< HEAD
 "Suelte y deje que la inteligencia artificial procese sus facturas de forma "
+=======
+"Suelta y deja que la inteligencia artificial procese tus facturas de forma "
+>>>>>>> upstream/18.0
 "automática."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_journal_dashboard.py:0
 msgid "Drop to create journal entries with attachments."
+<<<<<<< HEAD
 msgstr "Suelte para crear asientos contables con archivos adjuntos."
+=======
+msgstr "Suelta para crear asientos contables con archivos adjuntos."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -13910,7 +14467,10 @@ msgstr "Términos a deber"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13947,6 +14507,7 @@ msgid "Duplicate Bank Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: account
@@ -13956,6 +14517,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Duplicar contacto de banco"
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 msgstr "Duplicar contacto de banco"
@@ -14022,7 +14588,11 @@ msgstr "Documentos duplicados"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
 msgid "Duplicated Payments"
+<<<<<<< HEAD
 msgstr "Documentos duplicados"
+=======
+msgstr "Pagos duplicados"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__duplicated_ref_ids
@@ -14066,6 +14636,7 @@ msgstr "CAMBIO"
 #: model:ir.model.fields,field_description:account.field_account_payment_term__early_discount
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
 msgid "Early Discount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14375,6 +14946,9 @@ msgstr "Descuento por pago anticipado"
 =======
 msgstr "Descuento por pago anticipado"
 >>>>>>> upstream/18.0
+=======
+msgstr "Descuento por pago anticipado"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__account_journal_early_pay_discount_gain_account_id
@@ -14427,6 +15001,7 @@ msgstr "Descuento por pago anticipado de"
 msgid ""
 "Early Payment Discount: <b>%(amount)s</b> if paid before <b>%(date)s</b>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14712,6 +15287,9 @@ msgstr ""
 =======
 "Descuento por pago anticipado: <b>%(amount)s</b> al pagar antes del "
 >>>>>>> upstream/18.0
+=======
+"Descuento por pago anticipado: <b>%(amount)s</b> al pagar antes del "
+>>>>>>> upstream/18.0
 "<b>%(date)s</b>"
 
 #. module: account
@@ -14729,7 +15307,11 @@ msgstr "Editar"
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__tax_totals
 #: model:ir.model.fields,help:account.field_account_move__tax_totals
 msgid "Edit Tax amounts if you encounter rounding issues."
+<<<<<<< HEAD
 msgstr "Edite los importes de impuestos si tiene problemas de redondeo."
+=======
+msgstr "Edita los importes de impuestos si tienes problemas de redondeo."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -14867,7 +15449,11 @@ msgid ""
 "checkbox to post them now."
 msgstr ""
 "Los asientos en el futuro están configurados para que se publiquen "
+<<<<<<< HEAD
 "automáticamente de forma predeterminada. Seleccione esta casilla para "
+=======
+"automáticamente de forma predeterminada. Selecciona esta casilla para "
+>>>>>>> upstream/18.0
 "publicarlos ahora."
 
 #. module: account
@@ -14927,6 +15513,7 @@ msgid ""
 "country %(country_name)s. You should probably update your localization app "
 "first."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15110,6 +15697,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "del impuesto de %(country_name)s. Es probable que primero deba actualizar la"
 " aplicación de localización."
+=======
+"Ocurrió un error al cargar la localización: falta la etiqueta %(tag_name)s "
+"del impuesto de %(country_name)s. Es probable que primero debas actualizar "
+"la aplicación de localización."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -15187,6 +15779,15 @@ msgid "Excluded Journals"
 msgstr "Diarios excluidos"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
+#: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
+msgid "Expected Currency Rate"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
 msgstr "Se espera un plan de cuentas"
@@ -15292,7 +15893,11 @@ msgid "FREE ALONGSIDE SHIP"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "GRATIS JUNTO CON EL ENVÍO"
+=======
+msgstr "LIBRE AL COSTADO DEL BUQUE"
+>>>>>>> upstream/18.0
 =======
 msgstr "LIBRE AL COSTADO DEL BUQUE"
 >>>>>>> upstream/18.0
@@ -15381,7 +15986,11 @@ msgid "FREE CARRIER"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "TRANSPORTISTA GRATIS"
+=======
+msgstr "LIBRE TRANSPORTE"
+>>>>>>> upstream/18.0
 =======
 msgstr "LIBRE TRANSPORTE"
 >>>>>>> upstream/18.0
@@ -15470,7 +16079,11 @@ msgid "FREE ON BOARD"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "GRATIS A BORDO"
+=======
+msgstr "LIBRE A BORDO"
+>>>>>>> upstream/18.0
 =======
 msgstr "LIBRE A BORDO"
 >>>>>>> upstream/18.0
@@ -15634,7 +16247,11 @@ msgid "Figure Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipo de figura"
+=======
+msgstr "Tipo de cifra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de cifra"
 >>>>>>> upstream/18.0
@@ -16163,9 +16780,16 @@ msgid ""
 "vendors. The search tool can also be used to personalise your Invoices "
 "reports and so, match this analysis to your needs."
 msgstr ""
+<<<<<<< HEAD
 "Desde este reporte puede obtener un resumen de la cantidad facturada por sus"
 " proveedores. Puede utilizar la herramienta de búsqueda para personalizar "
 "sus reportes de facturas y así ajustar el análisis a sus necesidades. "
+=======
+"Desde este reporte puedes obtener un resumen de la cantidad facturada por "
+"tus proveedores. Puedes utilizar la herramienta de búsqueda para "
+"personalizar tus reportes de facturas y ajustar el análisis a tus "
+"necesidades. "
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_invoice_report_all
@@ -16174,9 +16798,15 @@ msgid ""
 "customers. The search tool can also be used to personalise your Invoices "
 "reports and so, match this analysis to your needs."
 msgstr ""
+<<<<<<< HEAD
 "Desde este reporte puede obtener un resumen de la cantidad facturada a sus "
 "clientes. Puede utilizar la herramienta de búsqueda para personalizar sus "
 "reportes de facturas y así ajustar el análisis a sus necesidades."
+=======
+"Desde este reporte puedes obtener un resumen de la cantidad facturada a tus "
+"clientes. Puedes utilizar la herramienta de búsqueda para personalizar tus "
+"reportes de facturas y ajustar el análisis a sus necesidades."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment_register__installments_mode__full
@@ -16215,6 +16845,7 @@ msgstr "Cuenta de ganancias por diferencia de cambio"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__payment_tolerance_param
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_line__payment_tolerance_param
 msgid "Gap"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16384,6 +17015,9 @@ msgstr "Espacio"
 =======
 msgstr "Espacio"
 >>>>>>> upstream/18.0
+=======
+msgstr "Espacio"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -16410,7 +17044,11 @@ msgstr "Reciba sus pagos en línea. Envíe facturas electrónicas"
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_hash_integrity
 msgid "Get hash integrity result as PDF."
+<<<<<<< HEAD
 msgstr "Obtenga el resultado de integridad hash en PDF."
+=======
+msgstr "Obtén el resultado de integridad hash en PDF."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -16508,7 +17146,11 @@ msgid ""
 "groupby value on '%s'"
 msgstr ""
 "La función de \"agrupar por\" no es compatible con el motor de agregación. "
+<<<<<<< HEAD
 "Elimine el valor de \"agrupar por\" en \"%s\""
+=======
+"Elimina el valor de \"agrupar por\" en \"%s\""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_merge_wizard_line__grouping_key
@@ -16617,7 +17259,11 @@ msgid ""
 msgstr ""
 "Hola,\n"
 "    <br/><br/>\n"
+<<<<<<< HEAD
 "    Se eliminó su correo. La dirección que usó solo acepta nuevas facturas:"
+=======
+"    Se eliminó tu correo. La dirección que usaste solo acepta nuevas facturas:"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__hide_post_button
@@ -16792,8 +17438,13 @@ msgid ""
 "If activated, user-defined filters on journal items can be selected on this "
 "report"
 msgstr ""
+<<<<<<< HEAD
 "Si se activa, puede seleccionar los filtros definidos por el usuario en los "
 "apuntes contables en este reporte "
+=======
+"Si se activa, será posible seleccionar los filtros definidos por el usuario "
+"en los apuntes contables en este reporte "
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__message_needaction
@@ -16810,8 +17461,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -16847,7 +17502,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -16904,8 +17563,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "If set, this account is used to automatically balance entries."
 msgstr ""
+<<<<<<< HEAD
 "Si está establecido, esta cuenta se usará para hacer el balance de los "
 "asientos automáticamente."
+=======
+"Si se establece, esta cuenta se usará para hacer el balance de los asientos "
+"automáticamente."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__non_trade
@@ -16934,8 +17598,13 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the payment "
 "terms without removing it."
 msgstr ""
+<<<<<<< HEAD
 "Si el campo activo se configura como falso, le permitirá ocultar los "
 "términos de pago sin eliminarlo."
+=======
+"Si el campo activo se configura como falso, podrás ocultar los términos de "
+"pago sin eliminarlo."
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__checked
@@ -18338,7 +19007,11 @@ msgid "Kanban Dashboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tablero kanban"
+=======
+msgstr "Tablero de kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tablero de kanban"
 >>>>>>> upstream/18.0
@@ -19210,7 +19883,11 @@ msgid "Match Regex"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expresión regular coincidente"
+=======
+msgstr "Coincidir con expresión regular"
+>>>>>>> upstream/18.0
 =======
 msgstr "Coincidir con expresión regular"
 >>>>>>> upstream/18.0
@@ -19511,7 +20188,11 @@ msgid "Match Text Location Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emparejar con la etiqueta de ubicación de texto"
+=======
+msgstr "Coincidir con la etiqueta de ubicación de texto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Coincidir con la etiqueta de ubicación de texto"
 >>>>>>> upstream/18.0
@@ -19812,7 +20493,11 @@ msgid "Match Text Location Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emparejar con la nota de ubicación de texto"
+=======
+msgstr "Coincidir con la nota de ubicación de texto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Coincidir con la nota de ubicación de texto"
 >>>>>>> upstream/18.0
@@ -20113,7 +20798,11 @@ msgid "Match Text Location Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emparejar con la referencia de ubicación de texto"
+=======
+msgstr "Coincidir con la referencia de ubicación de texto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Coincidir con la referencia de ubicación de texto"
 >>>>>>> upstream/18.0
@@ -20906,7 +21595,11 @@ msgid "No attachment was provided"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se proporcionó ningún archivo adjunto"
+=======
+msgstr "No proporcionaste ningún archivo adjunto"
+>>>>>>> upstream/18.0
 =======
 msgstr "No proporcionaste ningún archivo adjunto"
 >>>>>>> upstream/18.0
@@ -21340,7 +22033,11 @@ msgid "On early payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "En el pago anticipado"
+=======
+msgstr "Con pago anticipado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Con pago anticipado"
 >>>>>>> upstream/18.0
@@ -21629,6 +22326,7 @@ msgstr "Una vez que su factura esté lista, confírmela."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
@@ -21636,6 +22334,8 @@ msgstr ""
 "las utiliza otro"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22266,7 +22966,10 @@ msgstr "Los contactos deben tener una dirección de correo electrónico."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22319,6 +23022,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -22354,6 +23058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_partner_bank_form_inherit_account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Partners with same bank"
@@ -22368,6 +23074,9 @@ msgstr "Contactos con el mismo banco"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22692,7 +23401,11 @@ msgid "Payment terms: 30% Advance End of Following Month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Términos de pago: Adelanto del 30% a final del siguiente mes"
+=======
+msgstr "Términos de pago: adelanto del 30% al final del siguiente mes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Términos de pago: adelanto del 30% al final del siguiente mes"
 >>>>>>> upstream/18.0
@@ -22966,6 +23679,15 @@ msgid "Phishing risk: Medium"
 msgstr "Riesgo de phishing: medio"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
+msgid "Pick the rate on a certain date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid "Please contact your accountant to print the Hash integrity result."
@@ -23239,7 +23961,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Preajuste para crear asientos durante el emparejamiento de facturas y pagos"
+=======
+"Preajuste para crear asientos durante la conciliación de facturas y pagos"
+>>>>>>> upstream/18.0
 =======
 "Preajuste para crear asientos durante la conciliación de facturas y pagos"
 >>>>>>> upstream/18.0
@@ -23659,7 +24385,11 @@ msgid "Purchase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Compra"
+=======
+msgstr "Compras"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compras"
 >>>>>>> upstream/18.0
@@ -24018,6 +24748,14 @@ msgstr ""
 "número de cheque, nombre de archivo, etc."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Refresh currency rate to the invoice date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Refund"
@@ -24419,7 +25157,11 @@ msgid "Root Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reporte raíz"
+=======
+msgstr "Reporte principal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reporte principal"
 >>>>>>> upstream/18.0
@@ -24632,7 +25374,11 @@ msgid "Rule to match invoices/bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regla para emparejar facturas"
+=======
+msgstr "Regla para conciliar facturas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regla para conciliar facturas"
 >>>>>>> upstream/18.0
@@ -25601,7 +26347,11 @@ msgid "Set as Checked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Establecer como seleccionado"
+=======
+msgstr "Establecer como comprobado"
+>>>>>>> upstream/18.0
 =======
 msgstr "Establecer como comprobado"
 >>>>>>> upstream/18.0
@@ -26630,8 +27380,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "funciones relacionadas a impuestos (de ahí que los módulos l10n deban "
 "mostrar los campos relacionados con los impuestos)."
+=======
+"funciones relacionadas con impuestos (y, por lo tanto, aquellos para los que"
+" los módulos l10n deben mostrar los campos fiscales)."
+>>>>>>> upstream/18.0
 =======
 "funciones relacionadas con impuestos (y, por lo tanto, aquellos para los que"
 " los módulos l10n deben mostrar los campos fiscales)."
@@ -27150,7 +27905,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27277,6 +28035,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 <<<<<<< HEAD
@@ -27285,6 +28044,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Se actualizó el contacto comercial en todos los asientos relacionados."
+
+#. module: account
 >>>>>>> upstream/18.0
 =======
 "Se actualizó el contacto comercial en todos los asientos relacionados."
@@ -27711,7 +28475,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27748,6 +28515,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: account
 #. odoo-python
@@ -27759,6 +28527,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27788,6 +28558,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27961,8 +28734,13 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+<<<<<<< HEAD
 "El nombre del seudónimo de correo electrónico. Por ejemplo, \"trabajos\" si "
 "desea recibir correos electrónicos en <trabajos@ejemplo.odoo.com>."
+=======
+"El nombre del seudónimo de correo, por ejemplo, \"vacantes\" para recibir "
+"mensajes en <vacantes@ejemplo.odoo.com>."
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -29062,8 +29840,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Para mantener mantener la auditoría en orden, no puede eliminar los asientos contables una vez que los haya registrado.\n"
 "Mejor cancele el asiento contable."
+=======
+"Para mantener la pista de auditoría, no puede eliminar los asientos contables una vez que los haya registrado.\n"
+"Cancele el asiento contable."
+>>>>>>> upstream/18.0
 =======
 "Para mantener la pista de auditoría, no puede eliminar los asientos contables una vez que los haya registrado.\n"
 "Cancele el asiento contable."
@@ -29781,7 +30564,11 @@ msgid "Unposted Journal Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asientos contables sin publicar"
+=======
+msgstr "Asientos contables sin registrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asientos contables sin registrar"
 >>>>>>> upstream/18.0
@@ -29798,7 +30585,11 @@ msgid "Unposted Journal Items"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Apuntes contables sin publicar"
+=======
+msgstr "Apuntes contables sin registrar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Apuntes contables sin registrar"
 >>>>>>> upstream/18.0
@@ -30629,6 +31420,7 @@ msgstr "¡Valor de crédito o débito incorrecto en el asiento contable!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:account.selection__account_move__auto_post__yearly
 msgid "Yearly"
 <<<<<<< HEAD
@@ -30669,6 +31461,8 @@ msgstr "Anual"
 msgstr "Anual"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30869,6 +31663,9 @@ msgstr "Anual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31197,10 +31994,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
 msgstr ""
 "No puede crear pagos para asientos que pertenezcan a diferentes sucursales."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31265,10 +32065,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"No puede crear pagos para asientos que pertenezcan a diferentes sucursales "
+"sin acceso a la empresa principal."
 >>>>>>> upstream/18.0
 =======
 "No puede crear pagos para asientos que pertenezcan a diferentes sucursales "
@@ -31839,8 +32644,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede restablecer a borrador un asiento contable de impuestos de base de "
 "efectivo."
+=======
+"No puede restablecer un asiento contable de impuestos de base de efectivo a "
+"borrador."
+>>>>>>> upstream/18.0
 =======
 "No puede restablecer un asiento contable de impuestos de base de efectivo a "
 "borrador."
@@ -32072,8 +32882,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede restablecer para redactar un asiento contable de diferencia de "
 "cambio."
+=======
+"No puede restablecer un asiento contable de diferencia de cambio a borrador."
+>>>>>>> upstream/18.0
 =======
 "No puede restablecer un asiento contable de diferencia de cambio a borrador."
 >>>>>>> upstream/18.0
@@ -32272,6 +33086,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "asientos contables que usan otra divisa extranjera."
 =======
 "asientos contables que usan otra divisa."
@@ -32283,6 +33098,8 @@ msgstr ""
 "asientos contables que usan otra divisa."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32415,10 +33232,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"No puede configurar un contacto como la dirección de facturación de otro si "
+"tienen un %(vat_label)s diferente."
 >>>>>>> upstream/18.0
 =======
 "No puede configurar un contacto como la dirección de facturación de otro si "
@@ -32708,6 +33530,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -32767,6 +33590,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33192,6 +34017,14 @@ msgid "here"
 msgstr "aquí"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "in"
+msgstr "en "
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__payment_tolerance_type__fixed_amount
 msgid "in amount"
 msgstr "en el importe"

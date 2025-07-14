@@ -27,18 +27,31 @@
 # Mendi Soudry, 2024
 # yael terner, 2024
 # ExcaliberX <excaliberx@gmail.com>, 2024
+<<<<<<< HEAD
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2025
 # Martin Trigaux, 2025
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2025
 # or balmas, 2025
+=======
+# Lilach Gilliam <lilach.gilliam@gmail.com>, 2025
+# or balmas, 2025
+# ZVI BLONDER <ZVIBLONDER@gmail.com>, 2025
+# Martin Trigaux, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: or balmas, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Martin Trigaux, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -277,6 +290,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-bolt me-2\"/>\n"
+"                קנה עכשיו "
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-bolt me-2\"/>\n"
 "                קנה עכשיו "
@@ -709,6 +727,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-plus me-md-2\"/>\n"
+"                     <span class=\"d-none d-md-inline\">הוסף כתובת</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-plus me-md-2\"/>\n"
 "                     <span class=\"d-none d-md-inline\">הוסף כתובת</span>"
@@ -1687,7 +1710,11 @@ msgid "Apartment, suite, etc."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "דירה, כניסה וכו'."
+>>>>>>> upstream/18.0
 =======
 msgstr "דירה, כניסה וכו'."
 >>>>>>> upstream/18.0
@@ -2124,7 +2151,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2207,6 +2237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2646,6 +2679,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "חשב עלויות המשלוח ושלח באמצעות  DHL"
 
@@ -2663,6 +2697,33 @@ msgstr "חשב עלויות המשלוח ושלח באמצעות UPS"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "חשב עלויות המשלוח ושלח באמצעות USPS"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2675,6 +2736,15 @@ msgid "Compute shipping costs on orders"
 msgstr "חשב עלויות המשלוח בהזמנות"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "כסא ישיבות"
@@ -2794,7 +2864,11 @@ msgid "Contact Us Button URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כתובת URL של כפתור צור קשר"
+>>>>>>> upstream/18.0
 =======
 msgstr "כתובת URL של כפתור צור קשר"
 >>>>>>> upstream/18.0
@@ -3135,6 +3209,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "DHL Express-חיבור ל"
 
@@ -3142,6 +3217,10 @@ msgstr "DHL Express-חיבור ל"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "שיטות משלוח של DHL"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -3251,7 +3330,11 @@ msgid "Default Pricelist if any"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "מחירון מחדל אם"
+>>>>>>> upstream/18.0
 =======
 msgstr "מחירון מחדל אם"
 >>>>>>> upstream/18.0
@@ -3689,6 +3772,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "האם ברצונך לנקות את העגלה לפני הוספת מוצרים אליה?"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "תיעוד"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "מסמכים"
@@ -3911,7 +4002,11 @@ msgid "Enter a customized value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הכנס ערך מותאם אישית"
+>>>>>>> upstream/18.0
 =======
 msgstr "הכנס ערך מותאם אישית"
 >>>>>>> upstream/18.0
@@ -4228,7 +4323,11 @@ msgid "Error! You cannot create recursive categories."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "שגיאה! לא ניתן ליצור קטגוריות רקורסיביות."
+>>>>>>> upstream/18.0
 =======
 msgstr "שגיאה! לא ניתן ליצור קטגוריות רקורסיביות."
 >>>>>>> upstream/18.0
@@ -4511,11 +4610,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "שיטות משלוח של FedEx "
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "שדה"
@@ -5498,7 +5600,11 @@ msgid "Open Sale Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הזמנות לקוחות פתוחות"
+>>>>>>> upstream/18.0
 =======
 msgstr "הזמנות לקוחות פתוחות"
 >>>>>>> upstream/18.0
@@ -6970,7 +7076,11 @@ msgid "Street and Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רחוב ומספר"
+>>>>>>> upstream/18.0
 =======
 msgstr "רחוב ומספר"
 >>>>>>> upstream/18.0
@@ -7469,7 +7579,11 @@ msgid "There was an error loading the map"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "קיימת שגיאה בעת טעינת המפה "
+>>>>>>> upstream/18.0
 =======
 msgstr "קיימת שגיאה בעת טעינת המפה "
 >>>>>>> upstream/18.0
@@ -7780,11 +7894,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "שיטות משלוח של USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr ""
@@ -8091,7 +8208,11 @@ msgid "WhatsApp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WhatsApp"
+>>>>>>> upstream/18.0
 =======
 msgstr "WhatsApp"
 >>>>>>> upstream/18.0
@@ -8227,6 +8348,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אתה עורך את<b> כתובות האספקה והחיוב שלך</b>\n"
+"                         בו זמנית!<br/>\n"
+"                  אם ברצונך לשנות את כתובת החיוב שלך, צור"
+>>>>>>> upstream/18.0
 =======
 "אתה עורך את<b> כתובות האספקה והחיוב שלך</b>\n"
 "                         בו זמנית!<br/>\n"

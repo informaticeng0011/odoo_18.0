@@ -5,6 +5,10 @@
 # Translators:
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
+<<<<<<< HEAD
+=======
+# Larisa_nexterp, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
@@ -12,7 +16,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-26 08:56+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
+<<<<<<< HEAD
 "Last-Translator: Wil Odoo, 2024\n"
+=======
+"Last-Translator: Larisa_nexterp, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,18 +31,30 @@ msgstr ""
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_applicant
 msgid "Applicant"
+<<<<<<< HEAD
 msgstr "Candidat"
+=======
+msgstr "Solicitant"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_candidate
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__candidate_id
 msgid "Candidate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Candidat"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_skills.hr_candidate_view_tree
 msgid "Create Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creează aplicație"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__create_uid
@@ -54,7 +74,11 @@ msgstr "Nume afișat"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_job__skill_ids
 msgid "Expected Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aptitudini așteptate"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__id
@@ -80,45 +104,77 @@ msgstr "Ultima actualizare pe"
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "Matching Candidates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Candidați potriviți"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__matching_score
 msgid "Matching Score(%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Scor potrivire(%)"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__matching_skill_ids
 msgid "Matching Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aptitudini potrivite"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate__missing_skill_ids
 msgid "Missing Skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aptitudini lipsă"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_job.py:0
 msgid "No Matching Candidates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niciun candidat potrivit"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__level_progress
 msgid "Progress"
+<<<<<<< HEAD
 msgstr "În desfășurare"
+=======
+msgstr "Progres"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,help:hr_recruitment_skills.field_hr_candidate_skill__level_progress
 msgid "Progress from zero knowledge (0%) to fully mastered (100%)."
+<<<<<<< HEAD
 msgstr "Progresează de la zero cunoștințe (0%) la complet stăpânit (100%)."
+=======
+msgstr "Progres de la zero cunoștințe (0%) la complet stăpânit (100%)."
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-javascript
 #: code:addons/hr_recruitment_skills/static/src/components/search_job_applicant_menu/search_job_applicant_menu.xml:0
 #: model:ir.actions.server,name:hr_recruitment_skills.action_applicant_search_applicant
 msgid "Search Matching Applicants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Caută solicitanți potriviți"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__skill_ids
@@ -130,22 +186,38 @@ msgstr "Aptitudine"
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__skill_level_id
 msgid "Skill Level"
+<<<<<<< HEAD
 msgstr "Nivel Aptitudine"
+=======
+msgstr "Nivel aptitudine"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_candidate_skill__skill_type_id
 msgid "Skill Type"
+<<<<<<< HEAD
 msgstr "Tipul Aptitudinii"
+=======
+msgstr "Tipul aptitudinii"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.ui.menu,name:hr_recruitment_skills.hr_recruitment_skill_type_menu
 msgid "Skill Types"
+<<<<<<< HEAD
 msgstr "Tipurile Aptitudinii"
+=======
+msgstr "Tipuri de aptitudini"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model,name:hr_recruitment_skills.model_hr_candidate_skill
 msgid "Skill level for a candidate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nivelul aptitudinii pentru un candidat"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #: model:ir.model.fields,field_description:hr_recruitment_skills.field_hr_applicant__candidate_skill_ids
@@ -162,14 +234,22 @@ msgstr "Aptitudini"
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_candidate_skill.py:0
 msgid "The skill %(name)s and skill type %(type)s doesn't match"
+<<<<<<< HEAD
 msgstr "Competența %(name)s și tipul competenței %(type)s nu se potrivesc"
+=======
+msgstr "Aptitudinea %(name)s și tipul aptitudinii %(type)s nu se potrivesc"
+>>>>>>> upstream/18.0
 
 #. module: hr_recruitment_skills
 #. odoo-python
 #: code:addons/hr_recruitment_skills/models/hr_candidate_skill.py:0
 msgid "The skill level %(level)s is not valid for skill type: %(type)s"
 msgstr ""
+<<<<<<< HEAD
 "Nivelul competenței %(level)s nu este valabil pentru tipul de competență: "
+=======
+"Nivelul aptitudinii %(level)s nu este valid pentru tipul de aptitudine: "
+>>>>>>> upstream/18.0
 "%(type)s"
 
 #. module: hr_recruitment_skills
@@ -184,3 +264,8 @@ msgid ""
 "We do not have any candidates who meet the skill requirements for this job "
 "position in the database at the moment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nu avem niciun candidat care să îndeplinească cerințele de aptitudini pentru"
+" această funcție în baza de date momentan."
+>>>>>>> upstream/18.0

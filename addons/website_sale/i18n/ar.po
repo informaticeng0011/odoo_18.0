@@ -4,16 +4,27 @@
 # 
 # Translators:
 # Mustafa J. Kadhem <safi2266@gmail.com>, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2025
 # Malaz Abuidris <msea@odoo.com>, 2025
+=======
+# Malaz Abuidris <msea@odoo.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -488,7 +499,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " على المتغيران </span>"
+=======
+" على المتغيرات</span> "
+>>>>>>> upstream/18.0
 =======
 " على المتغيرات</span> "
 >>>>>>> upstream/18.0
@@ -911,7 +926,11 @@ msgid "A combo product can't be empty. Please select at least one option."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لا يمكن أن يكون منتج الكومبو فارغاً. يرجى تحديد خيار واحد على الأقل. "
+>>>>>>> upstream/18.0
 =======
 msgstr "لا يمكن أن يكون منتج الكومبو فارغاً. يرجى تحديد خيار واحد على الأقل. "
 >>>>>>> upstream/18.0
@@ -2003,6 +2022,7 @@ msgstr "قم بحساب تكاليف الشحن والشحن عبر Shiprocket "
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "حساب تكاليف الشحن والشحن عبر DHL"
 
@@ -2020,6 +2040,33 @@ msgstr "حساب تكاليف الشحن والشحن عبر UPS"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "حساب تكاليف الشحن والشحن عبر USPS"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2032,6 +2079,15 @@ msgid "Compute shipping costs on orders"
 msgstr "حساب تكاليف الشحن للطلبات"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "كرسي مؤتمرات"
@@ -2267,6 +2323,7 @@ msgstr "تخصيص قوالب البريد الإلكتروني "
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "موصل شحن DHL السريع "
 
@@ -2274,6 +2331,10 @@ msgstr "موصل شحن DHL السريع "
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "طرق شحن DHL "
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -2505,6 +2566,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "هل ترغب في مسح محتوى عربة التسوق الخاصة بك قبل إضافة المنتجات إليها؟ "
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "التوثيق"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "المستندات"
@@ -2727,11 +2796,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "طرق شحن FedEx "
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "حقل"
@@ -2850,6 +2922,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"قد يختلف السعر النهائي بناءً على اختيارك. سيتم احتساب الضريبة عند مرحلة "
+"الدفع. "
+>>>>>>> upstream/18.0
 =======
 "قد يختلف السعر النهائي بناءً على اختيارك. سيتم احتساب الضريبة عند مرحلة "
 "الدفع. "
@@ -3310,7 +3387,11 @@ msgid "Grid-gap on the shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "توجد ثغرة في الشبكة لدى المتجر "
+>>>>>>> upstream/18.0
 =======
 msgstr "توجد ثغرة في الشبكة لدى المتجر "
 >>>>>>> upstream/18.0
@@ -4459,7 +4540,11 @@ msgid "Payment is already being processed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تتم معالجة المدفوعات بالفعل. "
+>>>>>>> upstream/18.0
 =======
 msgstr "تتم معالجة المدفوعات بالفعل. "
 >>>>>>> upstream/18.0
@@ -4918,7 +5003,11 @@ msgid "Price will be updated after choosing a delivery method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سيتم تحديث السعر بعد اختيار طريقة توصيل جديدة "
+>>>>>>> upstream/18.0
 =======
 msgstr "سيتم تحديث السعر بعد اختيار طريقة توصيل جديدة "
 >>>>>>> upstream/18.0
@@ -6275,6 +6364,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"لقد تم دفع قيمة العناصر الموجودة في عربة التسوق. يرجى إعادة تحميل الصفحة. "
+>>>>>>> upstream/18.0
 =======
 "لقد تم دفع قيمة العناصر الموجودة في عربة التسوق. يرجى إعادة تحميل الصفحة. "
 >>>>>>> upstream/18.0
@@ -6788,11 +6881,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "طرق شحن USPS "
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr "أدراج تخزين تحت السرير "

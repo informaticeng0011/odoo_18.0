@@ -67,7 +67,10 @@ const fr_FR = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -190,6 +193,9 @@ const fakeActionService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -864,6 +870,7 @@ test("Line chart to support cumulative data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("cumulative line chart with past data before domain period", async () => {
     const serverData = getBasicServerData();
     serverData.models.partner.records = [
@@ -1087,6 +1094,8 @@ test("update existing chart to cumulate past data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const cumulativeDateServerData = getBasicServerData();
 cumulativeDateServerData.models.partner.records = [
     { date: "2020-01-01", probability: 10 },
@@ -1148,7 +1157,11 @@ const cumulativeChartDefinition = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> upstream/18.0
 =======
 };
 >>>>>>> upstream/18.0
@@ -1321,6 +1334,9 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1546,7 +1562,11 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...definition,
+=======
+            ...cumulativeChartDefinition,
+>>>>>>> upstream/18.0
 =======
             ...cumulativeChartDefinition,
 >>>>>>> upstream/18.0
@@ -1846,7 +1866,10 @@ test("cumulative line chart with past data before domain period without specifyi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2064,6 +2087,12 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const figure = model.exportData().sheets[0].figures[0];
+    expect(figure.data.cumulative).toBe(true);
+    expect(figure.data.cumulatedStart).toBe(true);
+>>>>>>> upstream/18.0
 =======
     const figure = model.exportData().sheets[0].figures[0];
     expect(figure.data.cumulative).toBe(true);
@@ -2436,6 +2465,7 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -2476,6 +2506,8 @@ test("cumulative line chart with past data before domain period specifying cumul
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2655,6 +2687,9 @@ test("cumulative line chart with past data before domain period specifying cumul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2864,6 +2899,7 @@ test("See records when clicking on a bar chart bar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const action = {
         domain: [
             ["date", ">=", "2022-01-01"],
@@ -2990,6 +3026,8 @@ test("See records when clicking on a bar chart bar", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     mockService("action", fakeActionService);
     const { model } = await createSpreadsheetWithChart({
         type: "odoo_bar",
@@ -3029,6 +3067,9 @@ test("See records when clicking on a bar chart bar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3134,7 +3175,10 @@ test("See records when clicking on a bar chart bar", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3275,6 +3319,9 @@ test("Actions not triggered by trendline clicks", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3342,6 +3389,7 @@ test("See records when clicking on a pie chart slice", async () => {
             if (request.type === "ir.actions.act_window") {
                 expect.step("do-action");
                 expect(request).toEqual({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3512,11 +3560,16 @@ test("See records when clicking on a pie chart slice", async () => {
                     ...action,
                     name: "January 2022",
 >>>>>>> upstream/18.0
+=======
+                    ...action,
+                    name: "January 2022",
+>>>>>>> upstream/18.0
                 });
             }
         },
     };
     mockService("action", fakeActionService);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3640,6 +3693,8 @@ test("See records when clicking on a pie chart slice", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const { model } = await createSpreadsheetWithChart({
         type: "odoo_pie",
         serverData: cumulativeDateServerData,
@@ -3678,6 +3733,9 @@ test("See records when clicking on a pie chart slice", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

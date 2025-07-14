@@ -5,16 +5,27 @@
 # Translators:
 # Mustafa Rawi <mustafa@mrawi.com>, 2024
 # Mustafa J. Kadhem <safi2266@gmail.com>, 2024
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Malaz Abuidris <msea@odoo.com>, 2025
+=======
+# Malaz Abuidris <msea@odoo.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Malaz Abuidris <msea@odoo.com>, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -783,6 +794,14 @@ msgid "<strong>Customer Address</strong>"
 msgstr "<strong>عنوان العميل</strong>"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Delivered</strong>"
+msgstr "<strong>الكمية التي قد تم توصيلها</strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Delivery address</strong>"
 msgstr "<strong>عنوان التوصيل</strong> "
@@ -824,6 +843,14 @@ msgid "<strong>Order</strong>"
 msgstr "<strong>الطلب</strong> "
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong>المطلوبة</strong> "
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "<strong>Pack Date:</strong>"
 msgstr "<strong>تاريخ التعبئة:</strong> "
@@ -1933,6 +1960,16 @@ msgstr "حساب تكاليف الشحن والشحن عبر DHL"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Easypost"
 msgstr "حساب تكاليف الشحن والشحن من خلال Easypost"
 
@@ -1943,6 +1980,16 @@ msgstr "حساب تكاليف الشحن والشحن عبر FedEx"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Sendcloud"
 msgstr "حساب تكاليف الشحن والشحن عبر Sendcloud "
 
@@ -1963,11 +2010,31 @@ msgstr "حساب تكاليف الشحن والشحن عبر UPS"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with USPS"
 msgstr "حساب تكاليف الشحن والشحن عبر USPS"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with bpost"
 msgstr "حساب تكاليف الشحن والشحن عبر bpost"
 
@@ -2485,6 +2552,14 @@ msgid "DEMO_UOM"
 msgstr "DEMO_UOM"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "DHL Connector"
+msgstr ""
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_dhl
 msgid "DHL Express Connector"
 msgstr "موصل شحن DHL السريع "
@@ -3159,6 +3234,10 @@ msgid "Do you confirm you want to scrap"
 msgstr "هل أنت متأكد من أنك ترغب في التخلص من "
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Documentation"
 msgstr "التوثيق"
@@ -3392,6 +3471,10 @@ msgstr "فبراير"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_fedex
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "FedEx Connector"
 msgstr "موصل FedEx"
 
@@ -7693,7 +7776,11 @@ msgid "Replenish wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "معالج نجديد المخزون "
+=======
+msgstr "معالج تجديد المخزون "
+>>>>>>> upstream/18.0
 =======
 msgstr "معالج تجديد المخزون "
 >>>>>>> upstream/18.0
@@ -9375,6 +9462,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"تم حذف تقرير عمليات الانتقاء لذا لا يمكنك الطباعة في الوقت الحالي ما لم تتم "
+"استعادة التقرير. "
+>>>>>>> upstream/18.0
 =======
 "تم حذف تقرير عمليات الانتقاء لذا لا يمكنك الطباعة في الوقت الحالي ما لم تتم "
 "استعادة التقرير. "
@@ -10684,11 +10776,19 @@ msgstr "نوع النشاط المستثنى في السجل. "
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "UPS Connector"
 msgstr "موصل UPS"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_usps
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "USPS Connector"
 msgstr "موصل USPS"
 

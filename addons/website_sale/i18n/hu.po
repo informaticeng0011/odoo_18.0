@@ -56,7 +56,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Larissa Manderfeld, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +170,7 @@
 # 5768b353f27900ae76ad88cc42dfd5b8_3bb349f, 2024
 # Istvan <leki69@gmail.com>, 2024
 # Ákos Nagy <akos.nagy@oregional.hu>, 2024
+<<<<<<< HEAD
 # Tamás Németh <ntomasz81@gmail.com>, 2024
 # krnkris, 2024
 # Krisztián Juhász <juhasz.krisztian@josafar.hu>, 2025
@@ -476,6 +480,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Krisztián Juhász <juhasz.krisztian@josafar.hu>, 2025
+>>>>>>> upstream/18.0
 # Martin Trigaux, 2025
 # Eiler Attila, 2025
 # Pammer József, 2025
@@ -554,6 +561,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -751,12 +759,18 @@
 >>>>>>> upstream/18.0
 =======
 # Larissa Manderfeld, 2025
+>>>>>>> upstream/18.0
+=======
+# Larissa Manderfeld, 2025
+# Tamás Németh <ntomasz81@gmail.com>, 2025
+# krnkris, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1107,6 +1121,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Larissa Manderfeld, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: krnkris, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -2102,7 +2121,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2299,6 +2321,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2856,7 +2881,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombó választások"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombó választások"
 >>>>>>> upstream/18.0
@@ -3167,6 +3196,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "DHL kiszállítás és szállítási költség számítás"
 
@@ -3184,6 +3214,33 @@ msgstr "UPS kiszállítás és szállítási költség számítás"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "USPS kiszállítás és szállítási költség számítás"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3196,6 +3253,15 @@ msgid "Compute shipping costs on orders"
 msgstr "Szállítási költségek számítása a rendeléseken"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "Konferencia szék"
@@ -3301,7 +3367,11 @@ msgid "Configure your product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Termék konfigurálása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termék konfigurálása"
 >>>>>>> upstream/18.0
@@ -3764,6 +3834,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "DHL Express összekötő"
 
@@ -3771,6 +3842,10 @@ msgstr "DHL Express összekötő"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "DHL szállítási mód"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -4001,6 +4076,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr ""
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "Dokumentumok"
@@ -4220,7 +4303,11 @@ msgid "Enter a customized value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Egyéni érték megadása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Egyéni érték megadása"
 >>>>>>> upstream/18.0
@@ -4558,7 +4645,11 @@ msgid "Featured"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kiemelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kiemelt"
 >>>>>>> upstream/18.0
@@ -4719,11 +4810,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr ""
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "Mező"
@@ -5455,7 +5549,11 @@ msgid "Name (A-Z)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Név - növekvő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Név - növekvő"
 >>>>>>> upstream/18.0
@@ -5686,7 +5784,11 @@ msgid "Newest Arrivals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemrég érkezett"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemrég érkezett"
 >>>>>>> upstream/18.0
@@ -6307,7 +6409,11 @@ msgid "Price - High to Low"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ár - csökkenő"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ár - csökkenő"
 >>>>>>> upstream/18.0
@@ -7735,6 +7841,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"B2B módban meghívó küldéséhez nyisson meg egy kapcsolatot (vagy válasszon ki"
+" többet lista nézetben), majd kattintson a 'Portálhozzáférés kezelése' "
+"lehetőségre az *Akció* legördülő menüben."
+>>>>>>> upstream/18.0
 =======
 "B2B módban meghívó küldéséhez nyisson meg egy kapcsolatot (vagy válasszon ki"
 " többet lista nézetben), majd kattintson a 'Portálhozzáférés kezelése' "
@@ -8135,7 +8247,11 @@ msgid "Total: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Összesen: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Összesen: %s"
 >>>>>>> upstream/18.0
@@ -8424,11 +8540,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr ""
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr ""

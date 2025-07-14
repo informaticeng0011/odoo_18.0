@@ -16,20 +16,35 @@
 # hish, 2024
 # Onii Onii <onii0223@yahoo.com>, 2024
 # Uuganbayar Batbaatar <uuganaaub33@gmail.com>, 2024
+<<<<<<< HEAD
 # Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2024
 # Purevsuren Demberel <purevsurento@gmail.com>, 2024
 # Martin Trigaux, 2025
 # Mandalbayar Batbayar <bat.mandalbayar@gmail.com>, 2025
 # baaska sh <sh.baaskash@gmail.com>, 2025
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
+=======
+# Purevsuren Demberel <purevsurento@gmail.com>, 2024
+# Mandalbayar Batbayar <bat.mandalbayar@gmail.com>, 2025
+# baaska sh <sh.baaskash@gmail.com>, 2025
+# Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025
+# Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2025
+# Martin Trigaux, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2025\n"
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Martin Trigaux, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1132,7 +1147,11 @@ msgid "Cart"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Карт"
+>>>>>>> upstream/18.0
 =======
 msgstr "Карт"
 >>>>>>> upstream/18.0
@@ -1645,6 +1664,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "DHL-н хүргэлт болон хүргэлтийн өртгийг тооцох"
 
@@ -1662,6 +1682,33 @@ msgstr "UPS-н хүргэлт болон хүргэлтийн өртгийг т�
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "USPS-н хүргэлт болон хүргэлтийн өртгийг тооцох"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1674,6 +1721,15 @@ msgid "Compute shipping costs on orders"
 msgstr "Захиалгын хүргэлтийн өртөг тооцох"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "Хурлын сандал"
@@ -1892,6 +1948,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "DHL Express Connector"
 
@@ -1899,6 +1956,10 @@ msgstr "DHL Express Connector"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr ""
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -2127,6 +2188,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "Та барааг сагслахаасаа өмнө сагсаа хоослохыг хүсч байна уу?"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "Баримтжуулалт"
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "Баримтууд"
@@ -2345,11 +2414,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr ""
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "Талбар"
@@ -2511,7 +2583,11 @@ msgid "Gap"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Цоорхой"
+>>>>>>> upstream/18.0
 =======
 msgstr "Цоорхой"
 >>>>>>> upstream/18.0
@@ -3869,7 +3945,11 @@ msgid "Pricelist Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Үнийн хүснэгтийн дүрэм"
+>>>>>>> upstream/18.0
 =======
 msgstr "Үнийн хүснэгтийн дүрэм"
 >>>>>>> upstream/18.0
@@ -5367,7 +5447,11 @@ msgid "Total: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нийт: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Нийт: %s"
 >>>>>>> upstream/18.0
@@ -5611,11 +5695,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr ""
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr ""

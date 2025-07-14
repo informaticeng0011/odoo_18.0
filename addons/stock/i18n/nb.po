@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Marius Stedjan <marius@stedjan.com>, 2024
 # Jorunn D. Newth, 2025
 # Rune Restad, 2025
@@ -179,11 +180,18 @@
 # Rune Restad, 2025
 # Marius Stedjan <marius@stedjan.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Jorunn D. Newth, 2025
+# Rune Restad, 2025
+# Marius Stedjan <marius@stedjan.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -294,6 +302,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Marius Stedjan <marius@stedjan.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -658,7 +671,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* Transittsted: Motpartsted som skal brukes i operasjoner mellom selskaper eller mellom lager"
+=======
+"* Transittsted: Motpartsted som skal brukes i operasjoner mellom firmaer eller mellom lager"
+>>>>>>> upstream/18.0
 =======
 "* Transittsted: Motpartsted som skal brukes i operasjoner mellom firmaer eller mellom lager"
 >>>>>>> upstream/18.0
@@ -1127,6 +1144,14 @@ msgid "<strong>Customer Address</strong>"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Delivered</strong>"
+msgstr "<strong> Levert </strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Delivery address</strong>"
 msgstr "<strong> Leveringsadresse </strong>"
@@ -1169,6 +1194,14 @@ msgid "<strong>Order</strong>"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong> Bestilt </strong>"
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "<strong>Pack Date:</strong>"
 msgstr "<strong> Pakke dato: </strong>"
@@ -2135,7 +2168,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Å endre selskapet til denne posten er forbudt på dette tidspunktet. Du bør "
+=======
+"Å endre firmaet til denne posten er forbudt på dette tidspunktet. Du bør "
+>>>>>>> upstream/18.0
 =======
 "Å endre firmaet til denne posten er forbudt på dette tidspunktet. Du bør "
 >>>>>>> upstream/18.0
@@ -2383,6 +2420,16 @@ msgstr "Beregn fraktkostnader, og send med DHL"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Easypost"
 msgstr "Beregn fraktkostnader, og send med Easypost"
 
@@ -2393,6 +2440,16 @@ msgstr "Beregn fraktkostnader, og send med FedEx"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with Sendcloud"
 msgstr "Beregn fraktkostnader og send med Sendcloud."
 
@@ -2413,11 +2470,31 @@ msgstr "Beregn fraktkostnader, og send med UPS"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Beregn fraktkostnader, og send med USPS"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+<<<<<<< HEAD
+=======
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                                    <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "Compute shipping costs and ship with bpost"
 msgstr "Beregn fraktkostnader, og send med bpost"
 
@@ -2937,6 +3014,14 @@ msgid "DEMO_UOM"
 msgstr ""
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "DHL Connector"
+msgstr ""
+
+#. module: stock
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_dhl
 msgid "DHL Express Connector"
 msgstr ""
@@ -3612,6 +3697,10 @@ msgid "Do you confirm you want to scrap"
 msgstr "Bekrefter du at du ønsker å kassere?"
 
 #. module: stock
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Documentation"
 msgstr "Dokumentasjon"
@@ -3744,7 +3833,11 @@ msgid "Email Confirmation picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Epost bekreftelse plukk"
+=======
+msgstr "E-post bekreftelse plukk"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-post bekreftelse plukk"
 >>>>>>> upstream/18.0
@@ -3857,7 +3950,11 @@ msgid "Email Template confirmation picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Epost mal bekreftelse plukk"
+=======
+msgstr "E-post mal bekreftelse plukk"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-post mal bekreftelse plukk"
 >>>>>>> upstream/18.0
@@ -4051,6 +4148,10 @@ msgstr "Februar"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_fedex
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "FedEx Connector"
 msgstr "FedEx-integrasjon"
 
@@ -5589,8 +5690,12 @@ msgid "Leave this field empty if this route is shared between all companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "La dette feltet stå tomt hvis denne ruten deles mellom alle selskaper."
+=======
+msgstr "La dette feltet stå tomt hvis denne ruten deles mellom alle firmaer."
+>>>>>>> upstream/18.0
 =======
 msgstr "La dette feltet stå tomt hvis denne ruten deles mellom alle firmaer."
 >>>>>>> upstream/18.0
@@ -5727,7 +5832,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La dette feltet stå tomt hvis denne lokasjonen deles mellom alle selskaper."
+=======
+"La dette feltet stå tomt hvis denne lokasjonen deles mellom alle firmaer."
+>>>>>>> upstream/18.0
 =======
 "La dette feltet stå tomt hvis denne lokasjonen deles mellom alle firmaer."
 >>>>>>> upstream/18.0
@@ -8404,7 +8513,11 @@ msgid "Reference must be unique per company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Referansen må være unik per selskap!"
+=======
+msgstr "Referansen må være unik per firma!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referansen må være unik per firma!"
 >>>>>>> upstream/18.0
@@ -8900,7 +9013,11 @@ msgid "Route Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rute selskap"
+=======
+msgstr "Rute firma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rute firma"
 >>>>>>> upstream/18.0
@@ -9313,7 +9430,11 @@ msgid "Send email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Send epost"
+=======
+msgstr "Send e-post"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send e-post"
 >>>>>>> upstream/18.0
@@ -9631,7 +9752,11 @@ msgid "Shipping: Send by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Forsendelse: Send med epost"
+=======
+msgstr "Forsendelse: Send med e-post"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forsendelse: Send med e-post"
 >>>>>>> upstream/18.0
@@ -10397,7 +10522,11 @@ msgid "The barcode for a location must be unique per company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Strekkoden for en lokasjon må være unik per selskap!"
+=======
+msgstr "Strekkoden for en lokasjon må være unik per firma!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strekkoden for en lokasjon må være unik per firma!"
 >>>>>>> upstream/18.0
@@ -10744,7 +10873,11 @@ msgid "The short name of the warehouse must be unique per company!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Det korte navnet på lageret må være unikt per selskap!"
+=======
+msgstr "Det korte navnet på lageret må være unikt per firma!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Det korte navnet på lageret må være unikt per firma!"
 >>>>>>> upstream/18.0
@@ -11086,8 +11219,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Selskapet for dette produktet kan ikke endres så lenge det finnes mengder av"
 " det som tilhører et annet selskap."
+=======
+"Firmaet for dette produktet kan ikke endres så lenge det finnes mengder av "
+"det som tilhører et annet firma."
+>>>>>>> upstream/18.0
 =======
 "Firmaet for dette produktet kan ikke endres så lenge det finnes mengder av "
 "det som tilhører et annet firma."
@@ -11231,8 +11369,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Selskapet for dette produktet kan ikke endres så lenge det finnes "
 "lagerbevegelser av det som tilhører et annet selskap."
+=======
+"Firmaet for dette produktet kan ikke endres så lenge det finnes "
+"lagerbevegelser av det som tilhører et annet firma."
+>>>>>>> upstream/18.0
 =======
 "Firmaet for dette produktet kan ikke endres så lenge det finnes "
 "lagerbevegelser av det som tilhører et annet firma."
@@ -11833,11 +11976,19 @@ msgstr "Type unntaks-aktivitet på posten."
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_ups
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "UPS Connector"
 msgstr "UPS-integrasjon"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_delivery_usps
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+>>>>>>> upstream/18.0
 msgid "USPS Connector"
 msgstr "USPS-integrasjon"
 
@@ -12764,7 +12915,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "enkelt selskap per flytting."
+=======
+"enkelt firma per flytting."
+>>>>>>> upstream/18.0
 =======
 "enkelt firma per flytting."
 >>>>>>> upstream/18.0
@@ -12898,7 +13053,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selskap."
+=======
+"firma."
+>>>>>>> upstream/18.0
 =======
 "firma."
 >>>>>>> upstream/18.0

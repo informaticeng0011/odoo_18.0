@@ -105,7 +105,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Noemi Pla, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -264,6 +267,7 @@
 # Jonatan Gk, 2024
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # Josep Anton Belchi, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,11 +814,20 @@
 # Noemi Pla, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
 >>>>>>> upstream/18.0
+=======
+# Harcogourmet, 2025
+# Juande Gutierrez <juni55mcyt@gmail.com>, 2025
+# EstudiTIC - estuditic.com <odoo@estuditic.com>, 2025
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# Wil Odoo, 2025
+>>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:36+0000\n"
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 <<<<<<< HEAD
@@ -1149,6 +1162,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Last-Translator: Santiago Payà <santiagopim@gmail.com>, 2025\n"
+>>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:42+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
 >>>>>>> upstream/18.0
 "Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -1810,8 +1828,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "descripció serà copiada a cada comanda de venda, comanda d'entrega i factura"
 " de client."
+=======
+"descripció serà copiada a cada comanda de venda, comanda d'entrega i "
+"factura/factura rectificativa de client."
+>>>>>>> upstream/18.0
 =======
 "descripció serà copiada a cada comanda de venda, comanda d'entrega i "
 "factura/factura rectificativa de client."
@@ -2502,7 +2525,11 @@ msgid "Available options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions disponibles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions disponibles"
 >>>>>>> upstream/18.0
@@ -2903,7 +2930,11 @@ msgid "Beds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Llits"
+>>>>>>> upstream/18.0
 =======
 msgstr "Llits"
 >>>>>>> upstream/18.0
@@ -3439,7 +3470,11 @@ msgid "Category Footer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peu de categoria"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peu de categoria"
 >>>>>>> upstream/18.0
@@ -3885,7 +3920,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions de combinacions"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions de combinacions"
 >>>>>>> upstream/18.0
@@ -3955,6 +3994,7 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "Compute shipping costs and ship with DHL"
 msgstr "Calcular despeses d'enviament amb DHL"
 
@@ -3972,6 +4012,33 @@ msgstr "Calcular despeses d'enviament amb UPS"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
 msgstr "Calcular despeses d'enviament amb USPS"
+=======
+msgid ""
+"Compute shipping costs and ship with DHL<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with FedEx<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with UPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Compute shipping costs and ship with USPS<br/>\n"
+"                            <strong>(please go to Home&gt;Apps to install)</strong>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -3984,6 +4051,15 @@ msgid "Compute shipping costs on orders"
 msgstr "Calcular despeses d'enviament en comandes"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_sale/static/src/js/checkout.js:0
+msgid "Computed after delivery"
+msgstr ""
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Conference Chair"
 msgstr "Presidenta de la conferència"
@@ -4219,6 +4295,7 @@ msgstr "Personalitza les plantilles de correu electrònic"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+<<<<<<< HEAD
 msgid "DHL Express Connector"
 msgstr "Connector DHL Express"
 
@@ -4226,6 +4303,10 @@ msgstr "Connector DHL Express"
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "DHL Shipping Methods"
 msgstr "Mètodes d'enviament DHL"
+=======
+msgid "DHL"
+msgstr "DHL"
+>>>>>>> upstream/18.0
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
@@ -4466,7 +4547,11 @@ msgid "Discount code..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Codi de descompte..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Codi de descompte..."
 >>>>>>> upstream/18.0
@@ -4768,6 +4853,14 @@ msgid "Do you wish to clear your cart before adding products to it?"
 msgstr "Voleu netejar la cistella abans d'afegir-hi productes?"
 
 #. module: website_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Documentation"
+msgstr "Documentació "
+
+#. module: website_sale
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Documents"
 msgstr "Documents"
@@ -4986,11 +5079,14 @@ msgid "FedEx"
 msgstr "FedEx"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "FedEx Shipping Methods"
 msgstr "Mètodes d'enviament FedEX"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__field_id
 msgid "Field"
 msgstr "Camp"
@@ -5589,7 +5685,11 @@ msgid "Mandatory (no guest checkout)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obligatori (sense pagament de convidat)"
+=======
+msgstr "Obligatori (sense compra com a convidat)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obligatori (sense compra com a convidat)"
 >>>>>>> upstream/18.0
@@ -6264,7 +6364,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Document del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document del producte"
 >>>>>>> upstream/18.0
@@ -6703,7 +6807,11 @@ msgid "Restrict to a specific website."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Restringir a un lloc web específic."
+>>>>>>> upstream/18.0
 =======
 msgstr "Restringir a un lloc web específic."
 >>>>>>> upstream/18.0
@@ -7052,7 +7160,11 @@ msgid "Shipping Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Direcció d'enviament"
+=======
+msgstr "Adreça d'enviament"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adreça d'enviament"
 >>>>>>> upstream/18.0
@@ -7717,7 +7829,11 @@ msgid "Total: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total: %s"
 >>>>>>> upstream/18.0
@@ -7777,11 +7893,14 @@ msgid "USPS"
 msgstr "USPS"
 
 #. module: website_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "USPS Shipping Methods"
 msgstr "Mètodes d'enviament USPS"
 
 #. module: website_sale
+=======
+>>>>>>> upstream/18.0
 #: model:product.public.category,name:website_sale.public_category_drawers_underbed
 msgid "Under-bed Drawers"
 msgstr ""

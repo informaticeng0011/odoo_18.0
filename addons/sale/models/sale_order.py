@@ -1167,6 +1167,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        context.pop('default_user_id', None)
+>>>>>>> upstream/18.0
 =======
         context.pop('default_user_id', None)
 >>>>>>> upstream/18.0
@@ -1729,8 +1733,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if final:
             if moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0):
+=======
+        if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
+            with self.env.protecting([moves._fields['team_id']], moves_to_switch):
+>>>>>>> upstream/18.0
 =======
         if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
             with self.env.protecting([moves._fields['team_id']], moves_to_switch):
@@ -2199,6 +2208,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # enable followers that have access through portal
         follower_group = next(group for group in groups if group[0] == 'follower')
         follower_group[2]['active'] = True
@@ -2210,6 +2220,8 @@ class SaleOrder(models.Model):
             access_opt['title'] = _("View Order")
         access_opt['url'] = self._notify_get_action_link('view', **local_msg_vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

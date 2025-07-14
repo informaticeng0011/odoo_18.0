@@ -12,7 +12,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35,6 +38,9 @@ class TestSandwichLeave(TransactionCase):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47,11 +53,15 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 
         self.rahul_emp = self.env['hr.employee'].create({
             'name': 'Rahul',
             'country_id': self.env.ref('base.in').id,
+=======
+            'company_id': self.indian_company.id,
+>>>>>>> upstream/18.0
 =======
             'company_id': self.indian_company.id,
 >>>>>>> upstream/18.0
@@ -73,12 +83,15 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'company_id': self.env.company.id,
             })
             before_holiday_leave = self.env['hr.leave'].create({
                 'name': 'Test Leave',
                 'employee_id': self.rahul_emp.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90,6 +103,9 @@ class TestSandwichLeave(TransactionCase):
                 'employee_id': self.demo_employee.id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103,7 +119,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('employee_id', '=', self.rahul_emp.id),
+=======
+                ('employee_id', '=', self.demo_employee.id),
+>>>>>>> upstream/18.0
 =======
                 ('employee_id', '=', self.demo_employee.id),
 >>>>>>> upstream/18.0
@@ -121,7 +141,11 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'employee_id': self.rahul_emp.id,
+=======
+                'employee_id': self.demo_employee.id,
+>>>>>>> upstream/18.0
 =======
                 'employee_id': self.demo_employee.id,
 >>>>>>> upstream/18.0
@@ -143,7 +167,10 @@ class TestSandwichLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162,6 +189,9 @@ class TestSandwichLeave(TransactionCase):
         self.assertIsNotNone(approved_leave.with_user(self.demo_user).leave_type_increases_duration)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

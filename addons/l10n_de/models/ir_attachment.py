@@ -70,6 +70,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and attachment.company_id.check_account_audit_trail
+>>>>>>> upstream/18.0
 =======
             and attachment.company_id.check_account_audit_trail
 >>>>>>> upstream/18.0
@@ -315,6 +319,10 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            and attachment.company_id.check_account_audit_trail
+>>>>>>> upstream/18.0
 =======
             and attachment.company_id.check_account_audit_trail
 >>>>>>> upstream/18.0

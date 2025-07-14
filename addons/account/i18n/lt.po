@@ -44,7 +44,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Paulius Sladkevičius <paulius@versada.eu>, 2024
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141,6 +144,7 @@
 # Martin Trigaux, 2024
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2024
 # Aurelija Vitkauskiene, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,22 +713,35 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Sigitasvia <sigitas@vialaurea.lt>, 2025
+# Arunas Vaitekunas <vaitekunas@gmail.com>, 2025
+# Gailius Kazlauskas <gailius@vialaurea.lt>, 2025
+# Linas Versada <linaskrisiukenas@gmail.com>, 2025
+# Greta Šeštokė, 2025
+# Ugne, 2025
+>>>>>>> upstream/18.0
 # Thomas Becquevort, 2025
 # Jessica Jakara, 2025
 # Paulius Sladkevičius <paulius@versada.eu>, 2025
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1171,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1162,6 +1184,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1213,8 @@ msgstr ""
 " Galbūt norėsite nustatyti numatytąją sąskaitą žurnale \"%(journal)s\",  kad kiekviena operacija būtų automatiškai subalansuota."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1414,7 +1439,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1547,6 +1575,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1765,11 +1796,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr ". Prašome įsitikinti, kad tai yra pageidaujamas veiksmų rezultatas."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2050,7 +2084,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2091,6 +2128,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2360,6 +2400,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
 "                                    </span>"
@@ -2375,6 +2416,13 @@ msgstr ""
 "or invoice_payment_term_id\"> arba </span>"
 
 #. module: account
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
+"6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_line_form
 msgid ""
 "<span class=\"o_form_label oe_inline\" invisible=\"amount_type != "
@@ -2604,11 +2652,14 @@ msgid "<span> (DR)</span>"
 msgstr "<span> (DR)</span>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "<span> Bill</span>"
 msgstr "<span> Tiek. sąskaita</span>"
@@ -2641,7 +2692,11 @@ msgstr "<span>$ <span class=\"oe_currency_value\">19,250.00</span></span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
+<<<<<<< HEAD
 msgid "<span>1 </span>"
+=======
+msgid "<span>1</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: account
@@ -2655,6 +2710,14 @@ msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span>=</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount In Currency</span>"
 msgstr "<span>Suma valiuta</span>"
@@ -2715,7 +2778,10 @@ msgstr "<span>Naujas</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2756,6 +2822,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2823,7 +2892,10 @@ msgstr "<span>Mokesčiai</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2862,6 +2934,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2923,6 +2998,7 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3034,6 +3110,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3144,6 +3222,9 @@ msgstr "<strong class=\"d-block mt-3\">Pristatymo adresas</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3257,7 +3338,11 @@ msgid "<strong>Credit Note Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kreditinės sąskaitos data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kreditinės sąskaitos data</strong>"
 >>>>>>> upstream/18.0
@@ -3406,7 +3491,11 @@ msgid "<strong>Customer Code</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kliento kodas</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kliento kodas</strong>"
 >>>>>>> upstream/18.0
@@ -3560,7 +3649,11 @@ msgid "<strong>Delivery Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pristatymo data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Pristatymo data</strong>"
 >>>>>>> upstream/18.0
@@ -3724,7 +3817,11 @@ msgid "<strong>Incoterm</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pristatymo sąlygos</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Pristatymo sąlygos</strong>"
 >>>>>>> upstream/18.0
@@ -3878,7 +3975,11 @@ msgid "<strong>Invoice Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sąskaitos data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sąskaitos data</strong>"
 >>>>>>> upstream/18.0
@@ -4027,7 +4128,11 @@ msgid "<strong>Receipt Date</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kvito data</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kvito data</strong>"
 >>>>>>> upstream/18.0
@@ -4140,6 +4245,7 @@ msgstr "<strong>Kvito data</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Reference</strong>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4292,6 +4398,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Numeris</strong>"
 
 #. module: account
@@ -4331,6 +4439,9 @@ msgstr "<strong>Numeris</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4502,7 +4613,10 @@ msgstr "<strong>Tipas: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4702,6 +4816,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4933,7 +5050,10 @@ msgstr "Banko sąskaita gali priklausyti tik vienam žurnalui."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5134,6 +5254,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5514,6 +5637,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sąskaitos %s  tipas yra mokėtina, bet ji naudojama pardavimo operacijoje."
+>>>>>>> upstream/18.0
 =======
 "Sąskaitos %s  tipas yra mokėtina, bet ji naudojama pardavimo operacijoje."
 >>>>>>> upstream/18.0
@@ -5532,6 +5659,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sąskaitos %s   tipas yra gautina, bet ji naudojama pirkimo operacijoje."
+>>>>>>> upstream/18.0
 =======
 "Sąskaitos %s   tipas yra gautina, bet ji naudojama pirkimo operacijoje."
 >>>>>>> upstream/18.0
@@ -6676,12 +6807,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr " Įvyko klaida."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7344,8 +7478,13 @@ msgstr "Banko sąskaita"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Banko sąskaita %(link)s kurios numeris %(number)s pašalinta"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -8271,6 +8410,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8589,6 +8729,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/account_move_send.py:0
 msgid "Cannot identify the invoices in the generated PDF: %s"
@@ -8597,6 +8739,9 @@ msgstr "Nepavyksta atpažinti sąskaitų faktūrų sugeneruotame PDF faile: %s"
 #. module: account
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8959,7 +9104,11 @@ msgid "Checked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Patikrinta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Patikrinta"
 >>>>>>> upstream/18.0
@@ -9009,7 +9158,11 @@ msgid "Click here to add a description to your product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Paspauskite čia, jei norite pridėti produkto aprašymą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Paspauskite čia, jei norite pridėti produkto aprašymą"
 >>>>>>> upstream/18.0
@@ -9027,7 +9180,11 @@ msgid "Click or press enter to add a description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spustelėkite arba paspauskite „Enter“, kad pridėtumėte aprašymą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spustelėkite arba paspauskite „Enter“, kad pridėtumėte aprašymą"
 >>>>>>> upstream/18.0
@@ -9212,6 +9369,7 @@ msgstr "Komercinis juridinis asmuo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9280,6 +9438,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9504,6 +9664,9 @@ msgstr "Komercinio partnerio šalis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9728,7 +9891,11 @@ msgid "Company "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įmonė"
+>>>>>>> upstream/18.0
 =======
 msgstr "Įmonė"
 >>>>>>> upstream/18.0
@@ -9861,7 +10028,11 @@ msgid "Confirm Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Patvirtinti įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Patvirtinti įrašus"
 >>>>>>> upstream/18.0
@@ -10097,6 +10268,11 @@ msgstr "Sukurti automatinius įrašus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -10230,7 +10406,11 @@ msgid "Create Journal Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sukurti žurnalo įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sukurti žurnalo įrašus"
 >>>>>>> upstream/18.0
@@ -11833,7 +12013,11 @@ msgid "Draft Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Juodraštiniai įrašai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Juodraštiniai įrašai"
 >>>>>>> upstream/18.0
@@ -11963,7 +12147,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12005,6 +12192,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12278,7 +12468,11 @@ msgid "Entries are not from the same account: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įrašai yra ne tos pačios sąskaitos: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Įrašai yra ne tos pačios sąskaitos: %s"
 >>>>>>> upstream/18.0
@@ -12302,7 +12496,11 @@ msgid "Entries don't belong to the same company: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įrašai nepriklauso tai pačiai įmonei: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Įrašai nepriklauso tai pačiai įmonei: %s"
 >>>>>>> upstream/18.0
@@ -12334,7 +12532,11 @@ msgid "Entries: %(account)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įrašai: %(account)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Įrašai: %(account)s"
 >>>>>>> upstream/18.0
@@ -12459,7 +12661,11 @@ msgid "Exchange difference entries:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valiutos kurso keitimo įrašai:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valiutos kurso keitimo įrašai:"
 >>>>>>> upstream/18.0
@@ -12476,6 +12682,15 @@ msgid "Excluded Journals"
 msgstr "Neįtraukti žurnalai"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
+#: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
+msgid "Expected Currency Rate"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
 msgstr "Tikisi sąskaitų plano"
@@ -13044,7 +13259,11 @@ msgid "From last fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuo praėjusių fiskalinių metų"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuo praėjusių fiskalinių metų"
 >>>>>>> upstream/18.0
@@ -13066,7 +13285,11 @@ msgid "From the start of the fiscal year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuo fiskalinių metų pradžios"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuo fiskalinių metų pradžios"
 >>>>>>> upstream/18.0
@@ -13083,7 +13306,11 @@ msgid "From the very start"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuo pat pradžių"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuo pat pradžių"
 >>>>>>> upstream/18.0
@@ -13122,7 +13349,11 @@ msgid "Full Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pilna suma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pilna suma"
 >>>>>>> upstream/18.0
@@ -13156,7 +13387,11 @@ msgid "Gain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pelnas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pelnas"
 >>>>>>> upstream/18.0
@@ -13192,7 +13427,11 @@ msgid "Generated Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sukurti įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sukurti įrašus"
 >>>>>>> upstream/18.0
@@ -13209,7 +13448,11 @@ msgid "Generic Tax report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bendro pobūdžio mokesčių ataskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bendro pobūdžio mokesčių ataskaita"
 >>>>>>> upstream/18.0
@@ -13248,7 +13491,11 @@ msgid "Go to the accounting settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pereikite į apskaitos nustatymus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pereikite į apskaitos nustatymus"
 >>>>>>> upstream/18.0
@@ -13305,7 +13552,11 @@ msgid "Group Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sugupuoti mokėjimus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sugupuoti mokėjimus"
 >>>>>>> upstream/18.0
@@ -13322,7 +13573,11 @@ msgid "Group by name?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sugupuoti pagal pavadinimą?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sugupuoti pagal pavadinimą?"
 >>>>>>> upstream/18.0
@@ -13339,7 +13594,11 @@ msgid "Group by: Account > Tax "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupuoti pagal: Sąskaitos > Mokesčiai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupuoti pagal: Sąskaitos > Mokesčiai"
 >>>>>>> upstream/18.0
@@ -13356,7 +13615,11 @@ msgid "Group by: Tax > Account "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Grupuoti pagal: Mokesčiai > Sąskaitos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupuoti pagal: Mokesčiai > Sąskaitos"
 >>>>>>> upstream/18.0
@@ -13396,7 +13659,11 @@ msgid "Growth Comparison"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Augimo palyginimas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Augimo palyginimas"
 >>>>>>> upstream/18.0
@@ -13423,7 +13690,11 @@ msgid "Has Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turi įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Turi įrašus"
 >>>>>>> upstream/18.0
@@ -13441,7 +13712,11 @@ msgid "Has Fiscal Position Changed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ar pasikeitė fiskalinė pozicija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ar pasikeitė fiskalinė pozicija"
 >>>>>>> upstream/18.0
@@ -13459,7 +13734,11 @@ msgid "Has Iban Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turi iban perspėjimą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Turi iban perspėjimą"
 >>>>>>> upstream/18.0
@@ -13501,7 +13780,11 @@ msgid "Has Posted Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turi patvirtintus įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Turi patvirtintus įrašus"
 >>>>>>> upstream/18.0
@@ -13519,7 +13802,11 @@ msgid "Has Reconciled Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turi sudengus įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Turi sudengus įrašus"
 >>>>>>> upstream/18.0
@@ -13541,7 +13828,11 @@ msgid "Has Statement Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Turi išrašo eilutes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Turi išrašo eilutes"
 >>>>>>> upstream/18.0
@@ -13597,7 +13888,11 @@ msgid "Hide if Zero"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slėpti jei nulis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slėpti jei nulis"
 >>>>>>> upstream/18.0
@@ -13758,6 +14053,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jei aktyvuota, šioje ataskaitoje galima pasirinkti vartotojo apibrėžtus "
+"filtrus žurnalo eilutėms"
+>>>>>>> upstream/18.0
 =======
 "Jei aktyvuota, šioje ataskaitoje galima pasirinkti vartotojo apibrėžtus "
 "filtrus žurnalo eilutėms"
@@ -13853,6 +14153,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jei nustatyta, ši sąskaita bus naudojama įrašams automatiškai subalansuoti."
+>>>>>>> upstream/18.0
 =======
 "Jei nustatyta, ši sąskaita bus naudojama įrašams automatiškai subalansuoti."
 >>>>>>> upstream/18.0
@@ -13973,7 +14277,11 @@ msgid "Ignore future alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ignoruoti būsimus įspėjimus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ignoruoti būsimus įspėjimus"
 >>>>>>> upstream/18.0
@@ -14001,7 +14309,11 @@ msgid "Import Template for Chart of Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sąskaitų plano importo šablonas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sąskaitų plano importo šablonas"
 >>>>>>> upstream/18.0
@@ -14824,7 +15136,11 @@ msgid "Is Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yra įrašai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yra įrašai"
 >>>>>>> upstream/18.0
@@ -15819,7 +16135,11 @@ msgid "Mark as Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pažymėti kaip išsiųstą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pažymėti kaip išsiųstą"
 >>>>>>> upstream/18.0
@@ -15836,7 +16156,11 @@ msgid "Mark as fully paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pažymėti kaip visiškai apmokėtą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pažymėti kaip visiškai apmokėtą"
 >>>>>>> upstream/18.0
@@ -15912,7 +16236,11 @@ msgid "Matching #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Susiejimas #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Susiejimas #"
 >>>>>>> upstream/18.0
@@ -15946,7 +16274,11 @@ msgid "Matching partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudengimo partneriai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudengimo partneriai"
 >>>>>>> upstream/18.0
@@ -15963,7 +16295,11 @@ msgid "Matching rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudengimo taisyklės"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudengimo taisyklės"
 >>>>>>> upstream/18.0
@@ -16020,7 +16356,11 @@ msgid "Merge Accounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sujungti sąskaitas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sujungti sąskaitas"
 >>>>>>> upstream/18.0
@@ -16096,7 +16436,11 @@ msgid "Misc. Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Įvair. operacijos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Įvair. operacijos"
 >>>>>>> upstream/18.0
@@ -16186,7 +16530,11 @@ msgid "Money Transfer Service"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pinigų pervedimo paslauga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pinigų pervedimo paslauga"
 >>>>>>> upstream/18.0
@@ -16465,7 +16813,11 @@ msgid "Next Payment Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kita mokėjimo data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kita mokėjimo data"
 >>>>>>> upstream/18.0
@@ -16541,7 +16893,11 @@ msgid "No payment journal entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nesukurti jokie mokėjimo įrašai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nesukurti jokie mokėjimo įrašai"
 >>>>>>> upstream/18.0
@@ -16746,7 +17102,11 @@ msgid "Number of entries related to this model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Su šiuo modeliu susietų įrašų skaičius"
+>>>>>>> upstream/18.0
 =======
 msgstr "Su šiuo modeliu susietų įrašų skaičius"
 >>>>>>> upstream/18.0
@@ -16937,11 +17297,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17009,7 +17372,11 @@ msgid "Only draft journal entries can be cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atšaukti galima tik juodraštinius žurnalo įrašus."
+>>>>>>> upstream/18.0
 =======
 msgstr "Atšaukti galima tik juodraštinius žurnalo įrašus."
 >>>>>>> upstream/18.0
@@ -17410,7 +17777,11 @@ msgid "PROFORMA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išankstinė sąskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išankstinė sąskaita"
 >>>>>>> upstream/18.0
@@ -17721,7 +18092,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17773,7 +18147,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17813,6 +18190,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18232,6 +18612,15 @@ msgid "Phishing risk: Medium"
 msgstr ""
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
+msgid "Pick the rate on a certain date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid "Please contact your accountant to print the Hash integrity result."
@@ -18894,6 +19283,14 @@ msgstr ""
 "pavadinimas ir pan."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Refresh currency rate to the invoice date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Refund"
@@ -18980,7 +19377,11 @@ msgid "Remake the sequence of Journal Entries."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Perkurkite žurnalo įrašų seką."
+>>>>>>> upstream/18.0
 =======
 msgstr "Perkurkite žurnalo įrašų seką."
 >>>>>>> upstream/18.0
@@ -19551,7 +19952,11 @@ msgid "Scan this QR Code with<br/>your banking application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nuskaitykite šį QR kodą<br/>naudodami banko programą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nuskaitykite šį QR kodą<br/>naudodami banko programą"
 >>>>>>> upstream/18.0
@@ -20022,7 +20427,11 @@ msgid "Separate account for expense discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atskira sąskaita išlaidų nuolaidoms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atskira sąskaita išlaidų nuolaidoms"
 >>>>>>> upstream/18.0
@@ -20039,7 +20448,11 @@ msgid "Separate account for income discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atskira sąskaita pajamų nuolaidoms"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atskira sąskaita pajamų nuolaidoms"
 >>>>>>> upstream/18.0
@@ -20233,7 +20646,11 @@ msgid "Show Credit Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti kredito limitą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti kredito limitą"
 >>>>>>> upstream/18.0
@@ -20250,7 +20667,11 @@ msgid "Show Decimal Separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti dešimtainį skirtuką"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti dešimtainį skirtuką"
 >>>>>>> upstream/18.0
@@ -20268,7 +20689,11 @@ msgid "Show Delivery Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti pristatymo datą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti pristatymo datą"
 >>>>>>> upstream/18.0
@@ -20286,7 +20711,11 @@ msgid "Show Discount Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti nuolaidos informaciją"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti nuolaidos informaciją"
 >>>>>>> upstream/18.0
@@ -20366,7 +20795,11 @@ msgid "Show draft entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rodyti juodraštinius įrašus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rodyti juodraštinius įrašus"
 >>>>>>> upstream/18.0
@@ -20515,7 +20948,11 @@ msgid "Statement %(date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išrašas %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išrašas %(date)s"
 >>>>>>> upstream/18.0
@@ -20539,7 +20976,11 @@ msgid "Statement Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išrašo pavadinimas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išrašo pavadinimas"
 >>>>>>> upstream/18.0
@@ -20556,7 +20997,11 @@ msgid "Statement Reports"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išrašų ataskaitos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išrašų ataskaitos"
 >>>>>>> upstream/18.0
@@ -20574,7 +21019,11 @@ msgid "Statement line percentage can't be 0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Išrašo eilutės procentas negali būti 0"
+>>>>>>> upstream/18.0
 =======
 msgstr "Išrašo eilutės procentas negali būti 0"
 >>>>>>> upstream/18.0
@@ -20664,7 +21113,11 @@ msgid "Step completed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žingsnis atliktas!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žingsnis atliktas!"
 >>>>>>> upstream/18.0
@@ -20750,7 +21203,11 @@ msgid "Storno Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storno-apskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Storno-apskaita"
 >>>>>>> upstream/18.0
@@ -20984,7 +21441,11 @@ msgid "Storno accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Storno-apskaita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Storno-apskaita"
 >>>>>>> upstream/18.0
@@ -21173,7 +21634,11 @@ msgid "Strictly on the given dates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Griežtai pagal nurodytas datas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Griežtai pagal nurodytas datas"
 >>>>>>> upstream/18.0
@@ -21217,7 +21682,11 @@ msgid "Suitable Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tinkamas žurnalas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tinkamas žurnalas"
 >>>>>>> upstream/18.0
@@ -21234,7 +21703,11 @@ msgid "Summary Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Suvestiniai duomenys"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suvestiniai duomenys"
 >>>>>>> upstream/18.0
@@ -21254,7 +21727,11 @@ msgid "Supplier Rank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiekėjo reitingas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiekėjo reitingas"
 >>>>>>> upstream/18.0
@@ -22057,7 +22534,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22188,6 +22668,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22481,7 +22964,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22523,6 +23009,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24830,7 +25319,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25028,6 +25520,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25334,7 +25829,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -25893,7 +26394,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26025,6 +26529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26225,6 +26732,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -26258,6 +26766,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26597,7 +27107,11 @@ msgid "due if paid before"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mokėtina, jei sumokama iki"
+>>>>>>> upstream/18.0
 =======
 msgstr "mokėtina, jei sumokama iki"
 >>>>>>> upstream/18.0
@@ -26813,6 +27327,14 @@ msgid "here"
 msgstr "čia"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "in"
+msgstr "yra"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__payment_tolerance_type__fixed_amount
 msgid "in amount"
 msgstr "suma"

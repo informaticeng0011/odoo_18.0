@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> upstream/18.0
 =======
@@ -465,12 +466,20 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Ejner Sønniksen <ejner@vkdata.dk>, 2025
+# Sammi Iversen <sammi@vkdata.dk>, 2025
+# Sanne Kristensen <sanne@vkdata.dk>, 2025
+# Kira Petersen, 2025
+# Wil Odoo, 2025
 >>>>>>> upstream/18.0
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -900,6 +909,11 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2025\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-07-11 18:38+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2025\n"
+>>>>>>> upstream/18.0
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -908,6 +922,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +951,8 @@ msgstr ""
 "Det kan være, du skal angive en standard konto på journalen \"%(journal)s\" for automatisk at afstemme hver bevægelse."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1025,7 +1042,11 @@ msgid "# Reconciled Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Afstemte regninger"
+=======
+msgstr "# Afstemte fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Afstemte fakturaer"
 >>>>>>> upstream/18.0
@@ -1214,7 +1235,10 @@ msgstr "%(tag)s (%(country_code)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1347,6 +1371,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1569,11 +1596,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid ". Please make sure that this is a wanted behavior."
 msgstr "Venligst sørg for, at dette er en ønsket adfærd."
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1854,7 +1884,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1895,6 +1928,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2271,6 +2307,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid ""
+<<<<<<< HEAD
 "<span class=\"o_form_label mx-3 oe_edit_only\" groups=\"account.group_account_readonly\" invisible=\"move_type == 'entry'\">\n"
 "                                        <span groups=\"base.group_multi_currency\">in </span>\n"
 "                                    </span>"
@@ -2287,6 +2324,11 @@ msgid ""
 msgstr ""
 "<span class=\"o_form_label mx-3 oe_edit_only\" invisible=\"state != 'draft' "
 "or invoice_payment_term_id\">eller </span>"
+=======
+"<span class=\"o_form_label mx-3 oe_edit_only text-center\" style=\"width: "
+"6ch;\" invisible=\"state != 'draft' or invoice_payment_term_id\">or</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_line_form
@@ -2529,6 +2571,7 @@ msgid "<span> (DR)</span>"
 msgstr "<span> (DR)</span>"
 
 #. module: account
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "<span> = </span>"
 msgstr "<span> = </span>"
@@ -2573,6 +2616,11 @@ msgstr "<span> Faktura</span>"
 =======
 msgstr "<span> Faktura</span>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
+msgid "<span> Bill</span>"
+msgstr "<span> Faktura</span>"
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
@@ -2602,8 +2650,13 @@ msgstr "<span>DKK <span class=\"oe_currency_value\">19,250.00</span></span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
+<<<<<<< HEAD
 msgid "<span>1 </span>"
 msgstr "<span>1 </span>"
+=======
+msgid "<span>1</span>"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -2618,6 +2671,14 @@ msgstr ""
 "rundvisning.</span>"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "<span>=</span>"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount In Currency</span>"
 msgstr "<span>Beløb i valuta</span>"
@@ -2678,7 +2739,10 @@ msgstr "<span>Ny</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2719,6 +2783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2786,7 +2853,10 @@ msgstr "<span>Moms</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2825,6 +2895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2933,6 +3006,7 @@ msgstr "<span>Advarsel: Dette dokument kan muligvis være en dublet af</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3147,6 +3221,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong class=\"d-block mt-3\">Shipping Address</strong>"
 msgstr "<strong class=\"d-block mt-3\">Leveringsadresse</strong>"
 
@@ -3160,6 +3236,9 @@ msgstr "<strong class=\"d-block mt-3\">Leveringsadresse</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3242,6 +3321,7 @@ msgstr "<strong>Reference</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3495,6 +3575,8 @@ msgstr "<strong>Leveringsadresse</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "<strong>Source</strong>"
 msgstr "<strong>Kilde</strong>"
 
@@ -3595,7 +3677,10 @@ msgstr "<strong>Type: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3795,6 +3880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4026,7 +4114,10 @@ msgstr "En bankkonto kan kun tilhøre én journal. "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4227,6 +4318,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5756,12 +5850,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "An error has occurred."
 msgstr "Der opstod en fejl."
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6172,7 +6269,11 @@ msgid "Auto-complete from a past bill."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatisk udfyldelse fra sidste regning"
+=======
+msgstr "Automatisk udfyldelse fra sidste faktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatisk udfyldelse fra sidste faktura"
 >>>>>>> upstream/18.0
@@ -6225,7 +6326,11 @@ msgid "Auto-post bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Auto-bogfør regninger"
+=======
+msgstr "Auto-bogfør fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Auto-bogfør fakturaer"
 >>>>>>> upstream/18.0
@@ -6289,7 +6394,11 @@ msgid "Auto-validate bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Auto-valider regninger"
+=======
+msgstr "Auto-valider fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Auto-valider fakturaer"
 >>>>>>> upstream/18.0
@@ -6353,7 +6462,11 @@ msgid "Automatically post bills for this trusted partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bogfør automatisk regninger for denne betroede partner"
+=======
+msgstr "Bogfør automatisk fakturaer for denne betroede partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bogfør automatisk fakturaer for denne betroede partner"
 >>>>>>> upstream/18.0
@@ -6401,7 +6514,11 @@ msgid "Autopost Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autobogfør regninger"
+=======
+msgstr "Autobogfør fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autobogfør fakturaer"
 >>>>>>> upstream/18.0
@@ -6442,7 +6559,11 @@ msgid "Autopost Bills Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Autobogfør regninger wizard"
+=======
+msgstr "Autobogfør faktura guide"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autobogfør faktura guide"
 >>>>>>> upstream/18.0
@@ -6530,7 +6651,11 @@ msgid "Back to Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tilbage til regning"
+=======
+msgstr "Tilbage til faktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilbage til faktura"
 >>>>>>> upstream/18.0
@@ -6694,8 +6819,13 @@ msgstr "Bankkonto"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account %(link)s with number %(number)s deleted"
 msgstr "Bankkonto %(link)s med nummer %(number)s slettet"
+=======
+msgid "Bank Account %(link)s with number %(number)s archived"
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "Bank Account %(link)s with number %(number)s archived"
 msgstr ""
@@ -7266,7 +7396,11 @@ msgid "Bill Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regningsvaluta"
+=======
+msgstr "Fakturavaluta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturavaluta"
 >>>>>>> upstream/18.0
@@ -7315,7 +7449,11 @@ msgid "Bill Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bilagsreference"
+=======
+msgstr "Faktuareference"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktuareference"
 >>>>>>> upstream/18.0
@@ -7374,7 +7512,11 @@ msgid "Bills Late"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regninger forsinkede"
+=======
+msgstr "Forsinkede fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forsinkede fakturaer"
 >>>>>>> upstream/18.0
@@ -7431,7 +7573,11 @@ msgid "Bills to receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regninger at modtage"
+=======
+msgstr "Faktuarer at modtage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktuarer at modtage"
 >>>>>>> upstream/18.0
@@ -7766,7 +7912,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7965,6 +8114,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8670,6 +8822,7 @@ msgstr "Kommerciel enhed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8708,6 +8861,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8950,6 +9105,9 @@ msgstr "Kommercielt partnerland"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9534,6 +9692,11 @@ msgstr "Opret Automatiske Posteringer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/account/models/chart_template.py:0
@@ -9694,7 +9857,11 @@ msgid "Create a bill manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opret en regning manuelt"
+=======
+msgstr "Opret en faktura manuelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret en faktura manuelt"
 >>>>>>> upstream/18.0
@@ -9841,7 +10008,11 @@ msgid "Create bill manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Opret regning manuelt"
+=======
+msgstr "Opret faktura manuelt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret faktura manuelt"
 >>>>>>> upstream/18.0
@@ -10880,7 +11051,11 @@ msgid "Deprecated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Forældet"
+=======
+msgstr "Udfaset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udfaset"
 >>>>>>> upstream/18.0
@@ -11507,7 +11682,10 @@ msgstr "Forfaldsbetingelser"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11549,6 +11727,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11742,7 +11923,11 @@ msgid "Email bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email regninger"
+=======
+msgstr "Faktura e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktura e-mail"
 >>>>>>> upstream/18.0
@@ -12017,6 +12202,15 @@ msgid "Excluded Journals"
 msgstr "Udelad journaler"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__expected_currency_rate
+#: model:ir.model.fields,field_description:account.field_account_move__expected_currency_rate
+msgid "Expected Currency Rate"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
 msgid "Expects a Chart of Accounts"
 msgstr "Forventer en kontoplan"
@@ -13972,7 +14166,11 @@ msgid "Invoice/Bill Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura/regnings dato"
+=======
+msgstr "Fakturadato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturadato"
 >>>>>>> upstream/18.0
@@ -14043,7 +14241,11 @@ msgid "Invoices &amp; Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura & Regninger"
+=======
+msgstr "Faktura & regninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktura & regninger"
 >>>>>>> upstream/18.0
@@ -14148,7 +14350,11 @@ msgid "Invoices/Bills Partial Match if Underpaid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura/Leverandørfaktura Delvis Match hvis underbetalt"
+=======
+msgstr "Fakturaer/regninger matcher delvist, hvis der er for lidt betalt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fakturaer/regninger matcher delvist, hvis der er for lidt betalt"
 >>>>>>> upstream/18.0
@@ -14191,7 +14397,11 @@ msgid "Invoices/Bills Perfect Match"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura/Leverandørregning Perfekt Match"
+=======
+msgstr "Faktura/Leverandørregning perfekt match"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktura/Leverandørregning perfekt match"
 >>>>>>> upstream/18.0
@@ -15295,7 +15505,11 @@ msgid "Mark as Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marker som Sendt"
+=======
+msgstr "Marker som sendt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marker som sendt"
 >>>>>>> upstream/18.0
@@ -16139,7 +16353,11 @@ msgid "Number of bills previously unmodified from this partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal regninger tidligere uredigeret fra denne partner"
+=======
+msgstr "Antal fakturaer tidligere uredigeret fra denne partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal fakturaer tidligere uredigeret fra denne partner"
 >>>>>>> upstream/18.0
@@ -16366,12 +16584,15 @@ msgstr "Bekræft din faktura, når den er klar."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "One or more Bank Accounts set on this partner are also used by other"
 msgstr ""
 "En eller flere bankkonti angivet på denne partner anvendes også af andre"
 
 #. module: account
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16460,7 +16681,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "regning."
+=======
+"faktura."
+>>>>>>> upstream/18.0
 =======
 "faktura."
 >>>>>>> upstream/18.0
@@ -16627,7 +16852,11 @@ msgid "Original Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Oprindelige regninger"
+=======
+msgstr "Oprindelige fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oprindelige fakturaer"
 >>>>>>> upstream/18.0
@@ -16902,7 +17131,11 @@ msgid "Paid Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Betalte Regninger"
+=======
+msgstr "Betalte faktuarer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalte faktuarer"
 >>>>>>> upstream/18.0
@@ -17110,7 +17343,10 @@ msgstr "Partner(e) skal have en e-mailadresse."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17162,7 +17398,10 @@ msgstr "Partnere, der bruges i hash-indtastninger, kan ikke flettes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17202,6 +17441,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17249,7 +17491,11 @@ msgid "Pay your bills in one-click using Euro SEPA Service"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Betal din regning med ét klik via Euro SEPA Service"
+=======
+msgstr "Betal din faktua med ét klik via Euro SEPA Service"
+>>>>>>> upstream/18.0
 =======
 msgstr "Betal din faktua med ét klik via Euro SEPA Service"
 >>>>>>> upstream/18.0
@@ -17659,6 +17905,15 @@ msgid "Phishing risk: Medium"
 msgstr "Phishing-risiko: Middel"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_pick_currency_rate/account_pick_currency_rate.xml:0
+msgid "Pick the rate on a certain date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account/models/company.py:0
 msgid "Please contact your accountant to print the Hash integrity result."
@@ -18255,7 +18510,11 @@ msgid "Reconciled Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Udlignede regninger"
+=======
+msgstr "Udlignede fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udlignede fakturaer"
 >>>>>>> upstream/18.0
@@ -18332,7 +18591,11 @@ msgid "Record a new vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Registrer en ny leverandørregning"
+=======
+msgstr "Registrer en ny leverandørfaktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrer en ny leverandørfaktura"
 >>>>>>> upstream/18.0
@@ -18404,6 +18667,14 @@ msgstr ""
 "Tjek nummer, filnavn osv."
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Refresh currency rate to the invoice date"
+msgstr ""
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Refund"
@@ -18633,7 +18904,11 @@ msgstr "Begræns til tilbud, der har samme valuta, som opgørelseslinjen."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Restricted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begrænset"
+>>>>>>> upstream/18.0
 
 #. module: account
 #. odoo-python
@@ -18827,7 +19102,11 @@ msgid "Rule to match invoices/bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Regel til at matche faktura/regninger"
+=======
+msgstr "Regel til at matche faktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regel til at matche faktura"
 >>>>>>> upstream/18.0
@@ -18988,7 +19267,11 @@ msgid "Salary Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lønudgifter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lønudgifter"
 >>>>>>> upstream/18.0
@@ -19269,7 +19552,11 @@ msgid "Sales Credit Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salgskreditgrænse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salgskreditgrænse"
 >>>>>>> upstream/18.0
@@ -19381,7 +19668,11 @@ msgid "Sales Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salgsudgifter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salgsudgifter"
 >>>>>>> upstream/18.0
@@ -19637,7 +19928,11 @@ msgid "Sales Lock Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dato for salgslås"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dato for salgslås"
 >>>>>>> upstream/18.0
@@ -19789,7 +20084,11 @@ msgid "Same Account as product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samme konto som produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samme konto som produkt"
 >>>>>>> upstream/18.0
@@ -20160,7 +20459,11 @@ msgid "Scan this QR Code with<br/>your banking application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Scan denne QR-kode med<br/>din bankansøgning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Scan denne QR-kode med<br/>din bankansøgning"
 >>>>>>> upstream/18.0
@@ -20544,7 +20847,11 @@ msgid "Search a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Søg efter et produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Søg efter et produkt"
 >>>>>>> upstream/18.0
@@ -20894,7 +21201,11 @@ msgid "Section Of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afsnit af"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afsnit af"
 >>>>>>> upstream/18.0
@@ -21219,7 +21530,11 @@ msgid "Sections"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afsnit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afsnit"
 >>>>>>> upstream/18.0
@@ -21606,6 +21921,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vælg en produktkategori, der vil bruge analytisk konto angivet i analytisk "
+"standard (f.eks. oprette ny kundefaktura eller Salgsordre, hvis vi vælger "
+"dette produkt, vil det automatisk tage dette som en analytisk konto)"
+>>>>>>> upstream/18.0
 =======
 "Vælg en produktkategori, der vil bruge analytisk konto angivet i analytisk "
 "standard (f.eks. oprette ny kundefaktura eller Salgsordre, hvis vi vælger "
@@ -22094,6 +22415,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vælg et produkt, som den analytiske distribution skal bruges til (opret "
+"f.eks. ny kundefaktura eller salgsordre, hvis vi vælger dette produkt, vil "
+"det automatisk tage dette som en analytisk konto)"
+>>>>>>> upstream/18.0
 =======
 "Vælg et produkt, som den analytiske distribution skal bruges til (opret "
 "f.eks. ny kundefaktura eller salgsordre, hvis vi vælger dette produkt, vil "
@@ -22507,7 +22834,11 @@ msgid "Select an old vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vælg en gammel leverandørregning"
+=======
+msgstr "Vælg en gammel leverandørfaktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vælg en gammel leverandørfaktura"
 >>>>>>> upstream/18.0
@@ -22616,7 +22947,11 @@ msgid "Send a bill to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Send en regning til"
+=======
+msgstr "Send en faktura til"
+>>>>>>> upstream/18.0
 =======
 msgstr "Send en faktura til"
 >>>>>>> upstream/18.0
@@ -22773,7 +23108,11 @@ msgid "Send the invoice to the customer and check what he'll receive."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Send fakturaen til kunden og tjek, hvad han modtager."
+>>>>>>> upstream/18.0
 =======
 msgstr "Send fakturaen til kunden og tjek, hvad han modtager."
 >>>>>>> upstream/18.0
@@ -23099,7 +23438,11 @@ msgid "Sending Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sender Data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sender Data"
 >>>>>>> upstream/18.0
@@ -23424,7 +23767,11 @@ msgid "Sending Method Checkboxes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afkrydsningsfelter for afsendelsesmetode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afkrydsningsfelter for afsendelsesmetode"
 >>>>>>> upstream/18.0
@@ -23749,7 +24096,11 @@ msgid "Sending Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afsendelsesmetoder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afsendelsesmetoder"
 >>>>>>> upstream/18.0
@@ -24081,7 +24432,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24324,6 +24678,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24568,7 +24925,11 @@ msgid "Sending invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afsendelse af fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afsendelse af fakturaer"
 >>>>>>> upstream/18.0
@@ -24927,7 +25288,11 @@ msgid "Separate account for expense discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Særskilt konto for udgiftsrabat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Særskilt konto for udgiftsrabat"
 >>>>>>> upstream/18.0
@@ -25252,7 +25617,11 @@ msgid "Separate account for income discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Særskilt konto for indkomstrabat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Særskilt konto for indkomstrabat"
 >>>>>>> upstream/18.0
@@ -25646,6 +26015,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sæt en dato. Flytningen vil være sikret frem til inklusive denne dato."
+>>>>>>> upstream/18.0
 =======
 "Sæt en dato. Flytningen vil være sikret frem til inklusive denne dato."
 >>>>>>> upstream/18.0
@@ -25971,7 +26344,11 @@ msgid "Set a price."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Angiv en pris"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angiv en pris"
 >>>>>>> upstream/18.0
@@ -26297,7 +26674,11 @@ msgid "Set a value greater than 0.0 to activate a credit limit check"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tast en værdi større end 0,0 for at aktivere en kreditgrænsekontrol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tast en værdi større end 0,0 for at aktivere en kreditgrænsekontrol"
 >>>>>>> upstream/18.0
@@ -26667,6 +27048,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Indstilling af dette felt vil gøre linjen til et link, der udfører "
+"handlingen, når der klikkes på den."
+>>>>>>> upstream/18.0
 =======
 "Indstilling af dette felt vil gøre linjen til et link, der udfører "
 "handlingen, når der klikkes på den."
@@ -27109,7 +27495,11 @@ msgid "Show Credit Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis kreditgrænse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis kreditgrænse"
 >>>>>>> upstream/18.0
@@ -27440,7 +27830,11 @@ msgid "Show Delivery Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis leveringsdato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis leveringsdato"
 >>>>>>> upstream/18.0
@@ -27766,7 +28160,11 @@ msgid "Show Discount Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis rabat oplysninger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis rabat oplysninger"
 >>>>>>> upstream/18.0
@@ -28118,7 +28516,11 @@ msgid "Show Payment Difference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis betalingsforskel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis betalingsforskel"
 >>>>>>> upstream/18.0
@@ -28499,7 +28901,11 @@ msgid "Some documents are being sent by another process already."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nogle dokumenter sendes allerede af en anden proces."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nogle dokumenter sendes allerede af en anden proces."
 >>>>>>> upstream/18.0
@@ -28859,7 +29265,11 @@ msgid "Sortable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sorterbar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sorterbar"
 >>>>>>> upstream/18.0
@@ -29214,6 +29624,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Angiv, om denne post bogføres automatisk på dens regnskabsdato, og "
+"eventuelle lignende tilbagevendende fakturaer."
+>>>>>>> upstream/18.0
 =======
 "Angiv, om denne post bogføres automatisk på dens regnskabsdato, og "
 "eventuelle lignende tilbagevendende fakturaer."
@@ -29626,7 +30041,11 @@ msgid "Standard communication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standard kommunikation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standard kommunikation"
 >>>>>>> upstream/18.0
@@ -30074,7 +30493,11 @@ msgid "Step completed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trin gennemført!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trin gennemført!"
 >>>>>>> upstream/18.0
@@ -30399,7 +30822,11 @@ msgid "Stock Interim (Delivered)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Midlertidig lager (leveret)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Midlertidig lager (leveret)"
 >>>>>>> upstream/18.0
@@ -30724,7 +31151,11 @@ msgid "Stock Interim (Received)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Midlertidig lager (modtaget)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Midlertidig lager (modtaget)"
 >>>>>>> upstream/18.0
@@ -31075,7 +31506,11 @@ msgid "Strictly on the given dates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Strengt på de givne datoer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strengt på de givne datoer"
 >>>>>>> upstream/18.0
@@ -31432,7 +31867,11 @@ msgid "Summary Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opsummerende data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opsummerende data"
 >>>>>>> upstream/18.0
@@ -32316,7 +32755,11 @@ msgid "The account %(name)s (%(code)s) is deprecated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kontoen %(name)s (%(code)s) er forældet."
+=======
+msgstr "Kontoen %(name)s (%(code)s) er udfaset."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontoen %(name)s (%(code)s) er udfaset."
 >>>>>>> upstream/18.0
@@ -32539,7 +32982,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32670,6 +33116,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32964,7 +33413,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33006,6 +33458,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33878,7 +34333,11 @@ msgid "This entry has been %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne post har været %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne post har været %s"
 >>>>>>> upstream/18.0
@@ -33920,7 +34379,11 @@ msgid "This entry has been duplicated from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne post er blevet duplikeret fra %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne post er blevet duplikeret fra %s"
 >>>>>>> upstream/18.0
@@ -33962,7 +34425,11 @@ msgid "This entry has been reversed from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denne post er blevet tilbageført fra %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Denne post er blevet tilbageført fra %s"
 >>>>>>> upstream/18.0
@@ -34737,7 +35204,11 @@ msgid "Unreconciled Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke-afstemte poster"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke-afstemte poster"
 >>>>>>> upstream/18.0
@@ -34885,7 +35356,11 @@ msgid "Upload Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upload fakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upload fakturaer"
 >>>>>>> upstream/18.0
@@ -34932,7 +35407,11 @@ msgid "Use Bill Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anvend bilagsreference"
+=======
+msgstr "Anvend fakturareference"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anvend fakturareference"
 >>>>>>> upstream/18.0
@@ -35254,7 +35733,11 @@ msgid "Vendor Bill Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal Leverandørfaktura"
+=======
+msgstr "Antal leverandørfakturaer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal leverandørfakturaer"
 >>>>>>> upstream/18.0
@@ -35383,7 +35866,11 @@ msgid "View Partner(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Se partner(e)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se partner(e)"
 >>>>>>> upstream/18.0
@@ -35687,7 +36174,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35885,6 +36375,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36210,7 +36703,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't create payments for entries belonging to different branches."
+=======
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You can't create payments for entries belonging to different branches "
@@ -36546,7 +37045,11 @@ msgid "You cannot deprecate an account that is used in a tax distribution."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke udfase en konto, der bruges i en skattefordeling."
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke udfase en konto, der bruges i en skattefordeling."
 >>>>>>> upstream/18.0
@@ -36829,7 +37332,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36961,6 +37467,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37170,6 +37679,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -37203,6 +37713,8 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37434,7 +37946,11 @@ msgid "activate the currency of the bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "aktiver valutaen for regningen"
+=======
+msgstr "aktiver valutaen for fakturaen"
+>>>>>>> upstream/18.0
 =======
 msgstr "aktiver valutaen for fakturaen"
 >>>>>>> upstream/18.0
@@ -37516,7 +38032,11 @@ msgid "bills for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "regninger for"
+=======
+msgstr "fakturaer for"
+>>>>>>> upstream/18.0
 =======
 msgstr "fakturaer for"
 >>>>>>> upstream/18.0
@@ -37697,6 +38217,14 @@ msgid "here"
 msgstr "her"
 
 #. module: account
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "in"
+msgstr "i"
+
+#. module: account
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__payment_tolerance_type__fixed_amount
 msgid "in amount"
 msgstr "i beløb"
